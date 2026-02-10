@@ -855,7 +855,7 @@ items:
               items:
               - name: Work on opportunities researched by agent
                 href: use-opportunity-research-agent.md
-              - name: Manage opportunities with action cards  
+              - name: Manage opportunity risks using AI-generated insights  
                 href: next-best-actions-to-manage-opportunities.md
               - name: FAQs about Sales Close Agent - Research
                 href: opportunity-research-agent-faqs.md

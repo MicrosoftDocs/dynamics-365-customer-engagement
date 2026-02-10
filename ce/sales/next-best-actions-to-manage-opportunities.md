@@ -1,7 +1,7 @@
 ---
-title: Manage opportunities with action cards (preview)
+title: Manage opportunity risks using AI-generated insights (preview)
 description: Learn how action cards are created and shown in the carousel to help sellers address opportunity risks. 
-ms.date: 02/09/2026
+ms.date: 02/10/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -12,55 +12,57 @@ ms.reviewer: udag
 ai-usage: ai-assisted
 ---
 
-# Manage opportunities with action cards (preview)
+# Manage opportunity risks using AI-generated insights (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Learn how action cards are created and shown in the carousel to help sellers address opportunity risks. Understand how the cards are prioritized, displayed in the carousel, and how you can interact with them to manage your opportunities effectively.  
+The Sales Close Agent - Research generates risk insights and ranks them based on the deal importance and risk criticality. In this article, learn how to view cards, how the agent prioritizes and displays them in the carousel, and how to interact with them to manage your opportunities effectively.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]  
 
-## Open and understand action cards
+## View AI-generated risk insights action cards
 
-The action cards appear in a carousel on the **Opportunities** list page in Dynamics 365 Sales under the **Suggested actions** section. The following image shows an example of the action cards carousel.
-
-:::image type="content" source="media/sca-research-action-cards-carousel.png" alt-text="Action cards carousel on the Opportunities list page in Dynamics 365 Sales.":::
-
-The carousel displays the top five action cards at a time. When a higher-priority action card is generated, it appears first in the carousel.  
-Select **See all** to open the carousel and view all the action cards in a view for all opportunities that have risks detected.  
-At any given time, the carousel displays only one card per opportunity with top risk. When you resolve the top risk, the next card appears in the order of priority of risks for that opportunity. This order appears because the opportunity isn't risk-free.  
+The action cards appear in a carousel on the **Opportunities** list page in Dynamics 365 Sales under the **Suggested actions** section.  
 
 >[!NOTE]
 >If the **Suggested actions** section is in collapsed view, select the carousel header to expand and view the action cards.  
 
-Each card displays top risk for each opportunity with the following information and options:  
+The following image shows an example of the action cards carousel.
 
-- **Basic card details**: The card header highlights a risk detected for an opportunity, the body contains the reason for the risk, and the name of the opportunity is displayed at the bottom of the card.  
-    When you select the card, [the opportunity summary page](copilot-summarize-records.md#opportunity-summary) opens with more details about the risk and recommended actions to mitigate the risk. Additionally, other risks that are detected for the opportunity are also displayed on the insights page.  
-    When you select the name of the opportunity at the bottom of the card, the opportunity record opens.  
+:::image type="content" source="media/sca-research-action-cards-carousel.png" alt-text="Action cards carousel on the Opportunities list page in Dynamics 365 Sales.":::
+
+The carousel displays the top five action cards at a time. When a higher-priority action card is generated, it replaces the lowest-priority card in the carousel. For example, if a new card has a higher priority than the cards currently in the carousel, the new card is added to the carousel and the lowest-priority card is removed.  
+Select **See all** to view all the action cards for all opportunities with detected risks.  
+The carousel always displays only one card per opportunity, highlighting the top risk. After you address the top risk, the next highest-priority risk for that opportunity appears in the carousel. This process continues until all risks for the opportunity are resolved.  
+
+Each action card displays the top risk for an opportunity and includes the following information and options:  
+
+- **Basic card details**: The card header highlights the risk detected for an opportunity, the body contains the reason for the risk, and the opportunity name is displayed at the bottom of the card.  
+    Select the card to open the [opportunity summary page](copilot-summarize-records.md#opportunity-summary) and view more details about the risk and recommended actions. Other detected risks for the opportunity are also shown on the insights page.  
+    Select the opportunity name at the bottom of the card to open the opportunity record.  
 - **Perform more tasks**: The more options icon (**...**) provides additional options as described in the following table:
 
     | Task | Description |
     |------|-------------|
-    | Not relevant | If the action card is irrelevant and doesn't apply to the opportunity, select this option to remove the card from the carousel. |
-    | Mark as done | If you address the risk highlighted on the card, select this option to close the card as task complete. The card is removed from the carousel. |
+    | Not relevant | If the action isn't relevant to the opportunity, select this option to remove the card from the carousel. |
+    | Mark as done | If you took the suggested action, select this option to mark the task as completed. The card is removed from the carousel. |
     | Go to record form | Select this option to go to the opportunity record to view more details and take additional actions. |
 
-- **Provide feedback**: You can provide feedback on the relevance of the action card by selecting either the thumbs up or thumbs down icon on the card. Hover over card and select the icon to provide feedback. If you dislike the card, you can provide additional feedback in the pop-up window.  
+- **Provide feedback**: To provide feedback on the relevance of an action card, hover over the card and select the thumbs up or thumbs down icon on the card. If you select thumbs down, you can enter additional feedback in the pop-up window.  
 
 ## How action cards are generated
 
-The agent generates action cards by detecting out-of-the-box risks that come from the Sales Close Agent - Research agent. It turns these risks into [a prioritized set of action cards](#how-action-cards-are-prioritized) for an opportunity.
+The agent generates action cards by detecting out-of-the-box risks that come from the Sales Close Agent - Research agent. It turns these risks into a prioritized set of action cards for an opportunity.
 
 ## How action cards are prioritized
 
 The agent prioritizes action cards by using simple first-release ranking rules as described in the following list:
 
-- The agent groups all action cards into tiers based on the opportunity’s deal-importance value before doing any finer sorting. This grouping ensures that cards tied to the most strategically important deals are always considered ahead of cards from lower-importance deals, even if the lower-importance deals have moderately high risks.  
-- Within a given deal-importance bucket, the agent places all cards in the same deal-priority tier, so the next ranking criterion is risk criticality. In practice, that means the system orders cards from most severe or urgent risk to least, using the criticality levels defined in the agent. As a result, you see the highest-impact risks first for their most important deals, while lower-criticality risks are shown later within the same bucket.
-- **One card per opportunity (top risk only)**. The carousel avoids displaying multiple alerts from the same opportunity at once. So, even if an opportunity has several detected risks, the agent shows only the single highest-priority risk for that opportunity as the current action card, while the other risks are queued. Once you mitigate the top risk, the next highest-priority remaining risk (if any) surfaces as a new card for that same opportunity.  
-- **After mitigation, move to next risk**. After you resolve the current (top) risk, the agent doesn't stop to check whether the same opportunity still has other open risks. If the opportunity does, the next highest-priority remaining risk becomes the new active candidate, is re-ranked against other opportunities’ cards, and can then show up in the carousel as a new card.
-- When two action cards have the same priority based on the main rules (same deal-importance bucket and similar risk criticality), the agent uses creation time to decide the order. In that case, the newer card (created more recently) is shown first, so the carousel stays focused on the latest changes and newly detected risks.
+- **Deal importance first**: The agent groups action cards by the opportunity’s deal-importance value. It always prioritizes cards for the most strategically important deals over those from lower-importance deals, regardless of risk level.
+- **Risk criticality within each group**: Within each deal-importance group, the agent orders cards by risk criticality. The most severe or urgent risks appear first, ensuring that high-impact risks are addressed before lower-criticality ones.
+- **One card per opportunity**: The carousel shows only the top risk for each opportunity at a time. If an opportunity has multiple risks, only the highest-priority risk appears. Once you address this risk, the next highest-priority risk for that opportunity is displayed.
+- **Continuous risk surfacing**: After you resolve a risk, the agent automatically surfaces the next highest-priority risk for the same opportunity, if any remain. This process ensures that all risks are addressed in order of priority.
+- **Newest cards first**: If two cards have the same deal importance and risk criticality, the agent displays the most recently created card first. This rule keeps the carousel focused on the latest changes and newly detected risks.
 
 ## Related information
 
