@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 02/10/2026
+ms.date: 02/11/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -163,24 +163,26 @@ Before you run a simulation, ensure that:
 
 ### Set up a simulation
 
+You can configure a simulation using organization records, which represent cases, or by uploading an excel file containing exported email or chat responses.
+
 1. In **Customer support**, select **Case settings**.
 1. On the **Case settings** page, select **Manage** for **Case Management Agent**.
 1. On the **Case Management Agent** page, select **Case creation and update**.
 1. On the **Case creation and update** page, select **Go to simulation**. The **Case creation and update simulation** page appears.
 1. On the **Simulation setup** tab, provide the following information:
 
-  1. **Simulation name**: Provide a simulation name. For example: Surface product cases, Refund category evaluation, or Email‑based sample test.
-  1. **Data source**: Select a data source from the dropdown.
-    1. If you select **Organization records**:
-      1. Provide the fields for AI prediction by selecting fields from the **Fields for AI prediction** dropdown list.
-      1. In the **Conditions** section, use the condition builder to state conditions that must pass to continue with the simulation.
-      1. Select **Show records**. A list or records appear in the **Selected records** section. You can select upto 100 records. 
-    1. If you select **Excel Upload**:
-      1. Provide the fields for AI prediction by selecting fields from the **Fields for AI prediction** dropdown list.
-      1. Upload the simulation input file by selecting the **Upload File** option. The maximum file size is 1 MB and you can upload an excel with a maximum of 100 records.
-  1. Select **Run simulation**. The simulation process uses emails and conversation threads from the relevant cases to generate the prediction.
+    1. **Simulation name**: Provide a simulation name. For example: Surface product cases, Refund category evaluation, or Email‑based sample test.
+    1. **Data source**: Select a data source from the dropdown.
+        1. If you select **Organization records**:
+           1. Provide the fields for AI prediction by selecting fields from the **Fields for AI prediction** dropdown list.
+            1. In the **Conditions** section, use the condition builder to state conditions that must pass to continue with the simulation.
+            1. Select **Show records**. A list or records appear in the **Selected records** section. You can select upto case 100 records. 
+        1. If you select **Excel Upload**:
+            1. Provide the fields for AI prediction by selecting fields from the **Fields for AI prediction** dropdown list.
+            1. Upload the simulation input file by selecting the **Upload File** option. The maximum file size is 1 MB and you can upload an excel with a maximum of 100 records.
+  1. Select **Run simulation**.
 
-Irrespective of the number of columns or column name, all inputs are consolidated into a single string before being passed to the Case Management Agent for prediction.
+For an excel file, irrespective of the number of columns or column name, all inputs are consolidated into a single string before being passed to the Case Management Agent for prediction. Make sure that the file you upload isn't encrypted.
 
 Excel sample 1:
 
