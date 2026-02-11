@@ -553,6 +553,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_bookableresource_msdyn_workhourtemplate_bookableresourceid](#BKMK_msdyn_bookableresource_msdyn_workhourtemplate_bookableresourceid)
 - [msdyn_bookableresource_msdyn_workorder_PreferredResource](#BKMK_msdyn_bookableresource_msdyn_workorder_PreferredResource)
 - [msdyn_bookableresource_msdyn_workorder_SupportContact](#BKMK_msdyn_bookableresource_msdyn_workorder_SupportContact)
+- [msdyn_geofence_bookableresource](#BKMK_msdyn_geofence_bookableresource)
 
 ### <a name="BKMK_msdyn_bookableresource_account_PreferredResource"></a> msdyn_bookableresource_account_PreferredResource
 
@@ -793,6 +794,18 @@ Many-To-One Relationship: [msdyn_workorder msdyn_bookableresource_msdyn_workorde
 |ReferencedEntityNavigationPropertyName|`msdyn_bookableresource_msdyn_workorder_SupportContact`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_geofence_bookableresource"></a> msdyn_geofence_bookableresource
+
+Many-To-One Relationship: [msdyn_geofence msdyn_geofence_bookableresource](msdyn_geofence.md#BKMK_msdyn_geofence_bookableresource)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_geofence`|
+|ReferencingAttribute|`msdyn_bookableresource`|
+|ReferencedEntityNavigationPropertyName|`msdyn_geofence_bookableresource`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseLabel`<br />Group: `Details`<br />Label: Bookable Resource<br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 
