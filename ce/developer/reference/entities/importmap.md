@@ -499,7 +499,7 @@ Changes from [TargetEntity (Microsoft Dataverse)](/power-apps/developer/data-pla
 |10539|**msdyn_rawinsight**|
 |10540|**msdyn_rawinsightentitylink**|
 |10541|**Tagged Record**|
-|10542|**Copilot for Sales customer list**|
+|10542|**M365 Copilot Sales customer list**|
 |10543|**msdyn_vivaentitysetting**|
 |10544|**msdyn_vivaorgextensioncred**|
 |10545|**msdyn_vivaorgsetting**|
@@ -1095,6 +1095,68 @@ Changes from [TargetEntity (Microsoft Dataverse)](/power-apps/developer/data-pla
 |11171|**Opportunity Research Result**|
 |11172|**Opportunity Research User Interactions**|
 |11173|**RCS Watermark**|
+|11254|**(Deprecated) Compliance**|
+|11255|**Contact Point Consent**|
+|11258|**Consent Provider**|
+|11259|**Consent provider Localization**|
+|11260|**(Deprecated) Compliance**|
+|11261|**Compliance profile**|
+|11262|**Consent**|
+|11263|**CXP Consent Center Configuration**|
+|11264|**Consent Provider Default Configuration**|
+|11265|**Default purpose**|
+|11266|**Consent System Configuration**|
+|11267|**(Deprecated) Contact Point Consent**|
+|11268|**(Deprecated) Contact Point Consent**|
+|11269|**(Deprecated) Contact Point Consent**|
+|11270|**Contact Point Settings**|
+|11271|**CXP Customer Data Mapping**|
+|11272|**Customer Data Selection**|
+|11273|**Preference Center**|
+|11274|**Preference center link**|
+|11275|**Purpose**|
+|11276|**Topic**|
+|11431|**Knowledge Source Consumer**|
+|11432|**Knowledge Source Profile**|
+|11434|**Bot Variable**|
+|11435|**Tag**|
+|11437|**Video**|
+|11439|**Sales agent processing state**|
+|11469|**Flow Session Binary**|
+|11470|**Business Process Linked Artifact**|
+|11471|**Case Management Agent analytics**|
+|11472|**Knowledge Article Custom Entity**|
+|11473|**AI Agent Status**|
+|11474|**Case Management Agent for case closure Activity**|
+|11475|**Case Management Agent for case closure Monitoring**|
+|11476|**Sales usage telemetry reports**|
+|11477|**Sales usage reporting**|
+|11478|**CRM Activity Mapping**|
+|11479|**Account Research Summary Trigger**|
+|11480|**Custom Account Insights Result**|
+|11481|**Customization Agent Trigger**|
+|11482|**Custom OOB Research Result**|
+|11483|**Default OOB Account Research Result**|
+|11484|**Sales Company Resolver Lead Trigger**|
+|11485|**UnstructuredFileSearchRecordStatus**|
+|11490|**copilot scenario setting**|
+|11491|**Copilot Skill**|
+|11492|**Copilot Skill Role**|
+|11493|**Copilot Starter Prompt**|
+|11494|**Entity Copilot Configuration**|
+|11495|**Organization Prompt**|
+|11496|**Digital assets configuration**|
+|11497|**File**|
+|11500|**Submit Button**|
+|11501|**MCPServer**|
+|11502|**MCPTool**|
+|11503|**ToolingGateway**|
+|11504|**ToolingGatewayMCPServer**|
+|11511|**Related Conversation Trigger Table**|
+|11513|**Sales Research Manager**|
+|11518|**Evaluation Notification Configuration**|
+|11519|**SCA Engage Agent Result**|
+|11528|**Evaluation Entity Config**|
 
 
 

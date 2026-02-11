@@ -1,7 +1,7 @@
 ---
-title: Set up and configure the Sales Qualification Agent (preview)
-description: Set up and configure the Sales Qualification Agent to automate research, engagement, and outreach in Dynamics 365 Sales with AI-powered assistance for effective sales processes.
-ms.date: 09/24/2025
+title: Set up and configure the Sales Qualification Agent
+description: Set up the Sales Qualification Agent in Dynamics 365 Sales to automate lead research, engagement, and outreach with AI-powered assistance. Learn how to configure it effectively.
+ms.date: 02/04/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -17,30 +17,29 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Set up and configure the Sales Qualification Agent (preview)
+# Set up and configure the Sales Qualification Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+As an admin, you need to set up the Sales Qualification Agent before your sellers can use it for lead research, target customer profile assessment, and initial email outreach. This article discusses how to configure the details about your company and products you sell, your target customer profile, and other settings to help the agent align with your company's sales strategy and goals.
 
-As an admin, you need to set up the Sales Qualification Agent before your sellers can use it for lead research, ideal customer profile (ICP) fit assessment, and initial email outreach. This article discusses how to configure the details about your company and products you sell, your ideal customer profile, and other settings to help the agent align with your company's sales strategy and goals.
+Here are the resources to help your functional and IT teams assess readiness for deploying the Sales Qualification Agent:
+
+- [Role-specific guidance](https://aka.ms/sqaguidance) for sales leadership, finance, and HR teams to understand the impact of the Sales Qualification Agent on their roles and responsibilities.
+- [Architecture and compliance safeguards](/dynamics365/guidance/reference-architectures/sales-qualification-agent) for your IT security and compliance teams to review the architecture, data flow, and security and compliance measures associated with the Sales Qualification Agent.
 
 Watch the video to get started with the agent setup:
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=5148e4b9-f0d1-43e9-93b5-484c8f446c3c]
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
 ## Prerequisites
 
 Ensure that the following prerequisites are met:  
 
-- Your tenant admin has granted the following consent:  
-    - Consent for data movement across regions and Bing search. Learn more in [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot?tabs=new).  
-    - The agent needs Copilot Studio capacity to run. Ensure that you have enough capacity. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).  
+- You have completed the [common prerequisites applicable to all Sales agents](prerequisites-for-all-agents.md).
+
 - You have admin permissions in Dynamics 365 Sales.  
 - You have a Copilot Studio license. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).  
 - You turned on the modern UI for the Sales Hub app. Learn more in [Enabling the modern look for my app and removing the toggle](/power-apps/user/modern-fluent-design#enabling-the-modern-look-for-my-app-and-removing-the-toggle).  
-- You turned on the AI prompts feature in Power Platform and Copilot Studio. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).  
-- You turned on the AI insight cards in Power Platform Admin Center. This feature is required for sellers to get notified about lead handovers and view insights on the lead record. Learn more about turning on this feature in [Manage feature settings](/power-platform/admin/settings-features).
+
 - You modified Data policies to allow the following connectors:
 
     | Connector | Why is it required? |
@@ -62,7 +61,9 @@ Ensure that the following prerequisites are met:
 Review the following considerations before you start deploying the autonomous Sales Qualification Agent:
 
 - Only one of the following modes can be deployed in an organization:  
+
     - **Research-only mode**: Analyzes assigned leads and drafts outreach email based on the insights and provides recommended actions.  
+
     - **Research and engage mode**: Analyzes and autonomously engages with the customer. Hands over the leads to sellers with detected purchase interest and customer profile fit based on configured handover criteria.  
 
 - You can **upgrade** from **Research-only** mode to the **Research and engage** mode later, but not the other way around.  
@@ -71,13 +72,16 @@ Review the following considerations before you start deploying the autonomous Sa
 
 <a name="grant-permissions"></a>
 
-## Grant permissions to custom security role
+## Grant permissions to sellers to work on leads handed over by agent
 
-If you're using custom security roles for your sales team instead of the out-of-the-box roles, you have two options. 
+If you're using out-of-the-box security roles such as Salesperson and Sales Manager, no additional permissions are required to work on leads handed over by the Sales Qualification Agent. However, if you're using custom security roles for your sales team, you can choose *ONE* of the following options:
+
+- Assign the out-of-the-box roles&mdash;Salesperson or Sales Manager&mdash;only to users who'll be working on leads handed over by the agent. This option is recommended if you want to allow only a subset of users to work on leads handed over by the agent.
 
 - Grant the necessary permissions, listed in the following table, to the custom role. This option is recommended if you want to allow all the users with the custom role to work on leads handed over by the agent.
 
-- Assign the out-of-the-box roles&mdash;Salesperson or Sales Manager&mdash;only to users who'll be working on leads handed over by the agent. This option is recommended if you want to allow only a subset of users to work on the agent-handed-over leads.
+> [!NOTE]
+> If your sales team plans to reassign the leads handed over by the agent to other users, ensure that those users also have the permissions listed in the following table. Otherwise, the user assignment will fail.
 
 **Permissions required for custom security roles:**
 
@@ -85,7 +89,7 @@ If you're using custom security roles for your sales team instead of the out-of-
 |----------------------------|-------------|
 | Sales Copilot Email Insight (msdyn_salescopilotemailinsight)<br>Sales Copilot Insight (msdyn_salescopilotinsight)<br>Sales Copilot Insight Card State (msdyn_salescopilotinsightcardstate) | **User-level**: Read, Write, Create, Append, Append To, Assign |
 | Sales Agent Handover (msdyn_salesagenthandover) | **Global-level**: Read; **Basic-level**: Append, Append To, Assign, Write, Create, Delete, Share |
-| Email Activity (email) | **User-level**: Read, Create |
+| Email Activity (activitypointer) | **User-level**: Read, Create |
 | Lead (lead) | **User-level**: Append, Append To |
 | Notification (appnotification) | **Basic-level**: Read |
 | Synthesizer Output (msdyn_synthesizeroutput)<br>Summary Synthesizer Input (msdyn_summarysynthesizerinput)<br>Lead Agent Result (msdyn_leadagentresult)<br>Sales Agent Profile (msdyn_salesagentprofile)<br>Sales Agent Run (msdyn_salesagentrun)<br>Sales Agent Configuration v2 (msdyn_salesagentconfigurationv2) | **Global-level**: Read |

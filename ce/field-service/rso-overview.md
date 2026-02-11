@@ -3,7 +3,7 @@ title: Overview of Resource Scheduling Optimization for Dynamics 365 Field Servi
 description: Learn about Resource Scheduling Optimization for Dynamics 365 Field Service.
 author: andrewclear-ms
 ms.author: anclear
-ms.date: 04/01/2025
+ms.date: 12/19/2025
 ms.topic: overview
 ms.subservice: resource-scheduling-optimization
 ---
@@ -30,7 +30,7 @@ Automated scheduling is often required because scheduling a high volume of jobs 
 
 ## Glossary
 
-You'll need to know the following key terms:
+You need to know the following key terms:
 
 - **Jobs**: Work that needs to be completed like work orders, cases, or projects.
 - **Resources**: Anyone or anything that needs to be scheduled to a job including people, equipment, and facilities.
@@ -57,7 +57,7 @@ You can configure Resource Scheduling Optimization for your business needs based
 
 ## Geographical availability
 
-The [Resource Scheduling Optimization Add-in is available](field-service-version-history-resource-scheduling-optimization.md) in most [regions where Dynamics 365 Field Service is offered](https://dynamics.microsoft.com/availability-reports/), except for Germany, Switzerland, and South Africa.
+The [Resource Scheduling Optimization Add-in is available](field-service-version-history-resource-scheduling-optimization.md) in most [regions where Dynamics 365 Field Service is offered](https://dynamics.microsoft.com/availability-reports/).
 
 ## Understand how it works
 
@@ -75,7 +75,7 @@ Here's how it works:
 
 ## Get periodic updates
 
-Microsoft releases new versions of Resource Scheduling Optimization periodically. The [version history](./field-service-version-history-resource-scheduling-optimization.md#release-schedule) lists changes and updates. Some releases are rolled out to all stations on a set schedule. However, you can [selectively deploy a release](./rso-deployment.md#manage-the-resource-scheduling-optimization-instance) in your environment.
+Microsoft releases new versions of Resource Scheduling Optimization periodically. The [version history](./field-service-version-history-resource-scheduling-optimization.md#release-schedule) lists changes and updates. Some releases are rolled out to all stations on a set schedule.
 
 ## Next steps
 

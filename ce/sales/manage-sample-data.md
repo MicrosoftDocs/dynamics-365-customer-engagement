@@ -16,7 +16,7 @@ Sample data helps you visualize a product and its features. Learn how to add or 
 You can add sample data any time you need, during or after the configuration of the sales accelerator.  
 
 > [!NOTE]
-> - The sample data adds basic Dynamics 365 Sales and Sales Premium record types. More information: [Record types updated with sample data](#record-types-updated-with-sample-data)  
+> - The sample data is added for basic Dynamics 365 Sales record types. More information: [Record types updated with sample data](#record-types-updated-with-sample-data)  
 > - To prevent unwanted results, sample data is available only in non-production environments.  
 > - You can also add sample data from the quick setup panel (with the Dynamics 365 Sales Enterprise license). More information: [Set up sales accelerator](digital-selling-sales-accelerator.md#set-up-sales-accelerator)
 

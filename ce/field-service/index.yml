@@ -8,9 +8,9 @@ metadata:
   title: Dynamics 365 Field Service documentation
   description: Discover how to make the most of Dynamics 365 Field Service with training, docs, and videos covering product capabilities and how-to articles. Learn how to use features in Field Service and how to get the most out of the application.
   ms.topic: hub-page
-  author: m-hartmann
-  ms.author: mhart
-  ms.date: 10/24/2024
+  author: puneet-singh1
+  ms.author: puneetsingh
+  ms.date: 01/08/2025
   ms.custom: bap-template
   hide_bc: true
 
@@ -44,16 +44,16 @@ additionalContent:
         text: Install Field Service
       - url: /dynamics365/get-started/release-schedule
         text: Get preview features
-    - title: Set up 
+    - title: Get started 
       links:
-      - url: users-licenses-permissions.md
-        text: Set up users
-      - url: frontline-worker-set-up.md
-        text: Set up frontline workers
-      - url: set-up-bookable-resources.md
-        text: Set up bookable resources
       - url: configure-default-settings.md
         text: Configure default settings
+      - url: field-service-maps-address-locations.md
+        text: Enable location and map settings
+      - url: set-up-bookable-resources.md
+        text: Set up bookable resources
+      - url: accounts.md
+        text: Create customer accounts
     - title: Customize 
       links: 
       - url: /dynamics365/guidance/resources/field-service-customize-overview
@@ -63,29 +63,59 @@ additionalContent:
       - url: /dynamics365/guidance/resources/field-service-customize-forms
         text: Customize forms
       
-  - title: Administer
+  - title: Administer and develop
     items:
-    - title: Administer
+    - title: Configure
       links:
-      - url: field-service-maps-address-locations.md
-        text: Set up location and map settings
+      - url: configure-default-settings.md
+        text: Set up defaults
       - url: create-price-list.md
         text: Set up price lists
+      - url: field-service-maps-address-locations.md
+        text: Set up location and map settings
+      - url: users-licenses-permissions.md
+        text: Set up users, licenses, and security roles
+    - title: Scheduling
+      links:
       - url: schedule-new-entity.md
         text: Enable an entity for scheduling
       - url: set-up-booking-statuses.md
         text: Set up booking statuses
-    - title: Administer mobile app
+      - url: scheduling-parameters-settings.md
+        text: Configure scheduling parameters
+      - url: schedule-board-tab-settings.md
+        text: Schedule board tab settings
+    - title: Work orders
+      links:
+      - url: create-work-order-types.md
+        text: Create a work order type
+      - url: configure-incident-types.md
+        text: Create work order templates
+      - url: work-order-customization.md
+        text: Customize work order forms
+      - url: create-product-or-service.md
+        text: Create products or services        
+    - title: Develop
+      links:
+      - url: developer/reference/about-entity-reference.md
+        text: Field Service table/entity reference
+      - url: /dynamics365/guidance/resources/field-service-copilot-import-sample-data
+        text: Use Copilot to create sample data for Field Service
+      - url: /dynamics365/guidance/resources/field-service-deploy-copilot-studio-create-sample-data
+        text: Build an agent to create sample data in Dynamics 365 Field Service
+      - url: /dynamics365/guidance/resources/field-service-streamline-inventory-visibility
+        text: Streamline inventory visibility in Field Service
+    - title: Mobile app
       links:
       - url: mobile/set-up-field-service-mobile.md
         text: Install Field Service mobile app
       - url: mobile/booking-maps.md
         text: Enable booking maps
-      - url: mobile/best-practices-limitations-offline-profile.md
+      - url: mobile/offline-data-sync.md
         text: Configure offline capabilities
       - url: mobile/enable-push-notifications.md
         text: Enable push notifications
-    - title: Administer add-ons
+    - title: Add-ons
       links:
       - url: connected-field-service.md
         text: Connected Field Service overview
@@ -145,26 +175,34 @@ additionalContent:
         text: Agreement substatuses
       - url: inventory-purchasing-returns-overview.md
         text: Inventory, purchasing, and returns
-    - title: Integrations
+    - title: AI agents
       links:
-      - url: field-service-teams-collaboration.md
-        text: Collaborate using Microsoft Teams
-      - url: supply-chain-field-service-integration.md
-        text: Integrate with Dynamics 365 Supply Chain Management
-      - url: mixed-reality-guides-integration.md
-        text: Integrate with Dynamics 365 Guides
-      - url: finance-operations-integration.md
-        text: Integrate with finance and operations
-      - url: business-central-integration.md
-        text: Integrate with Dynamics 365 Business Central
+      - url: soa-overview.md
+        text: Scheduling Operations Agent overview (preview)
+      - url: soa-setup.md
+        text: Set up the Scheduling Operations Agent (preview)
+      - url: soa-run.md
+        text: Use the Scheduling Operations Agent (preview)
     - title: Copilot in Field Service
       links:
       - url: copilot-side-pane.md
         text: Copilot side pane in the web app
       - url: use-work-order-recap.md
         text: Work order summary
-      - url: responsible-ai-overview.md
-        text: Responsible AI overview
+      - url: inspections-copilot.md
+        text: Create inspection templates
+      - url: work-order-update.md
+        text: Update work orders
+    - title: Integrations
+      links:
+      - url: field-service-teams-collaboration.md
+        text: Collaborate using Microsoft Teams
+      - url: project-operations-integration.md
+        text: Integrate with Project Operations
+      - url: supply-chain-field-service-integration.md
+        text: Integrate with Dynamics 365 Supply Chain Management
+      - url: business-central-integration.md
+        text: Integrate with Dynamics 365 Business Central
     - title: Resource Scheduling Optimization Add-in
       links:
       - url: rso-overview.md
@@ -173,17 +211,21 @@ additionalContent:
         text: Schedule optimization
       - url: rso-simulation.md
         text: Run as a simulation
+   
 
   - title: Related products
     items:
         # Card
         
-        - title: Dynamics 365 Guides
-          summary: Let Field Service customers attach mixed reality guides to Field Service tasks so frontline workers can view the guides in their HoloLens and get their work done.
-          url: /dynamics365/mixed-reality/guides/overview
-        - title: Dynamics 365 Remote Assist
-          summary: Allow frontline workers to see their Field Service bookings on HoloLens and quickly call remote collaborators.
-          url: /dynamics365/mixed-reality/remote-assist/ra-overview
+        - title: Dynamics 365 Universal Resource Scheduling
+          summary: Allow organizations to assign resources to jobs and tasks based on availability, skills, promised time, business units, geographies, and more.
+          url: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
+        - title: Dynamics 365 Finance
+          summary: Lets you monitor your financial operations in real time, predict outcomes, and make data-driven decisions to drive business agility and growth.
+          url: /dynamics365/finance/finance-welcome
+        - title: Dynamics 365 Project Operations
+          summary: Connects sales, resourcing, project management, and finance teams in a single application to win more deals, accelerate project delivery, and maximize profitability.
+          url: /dynamics365/project-operations/welcome-to-project-operations
         - title: Dynamics 365 Customer Service
           summary: Help your business deliver the best customer service experience possible to your customers.
           url: /dynamics365/customer-service/overview
@@ -196,3 +238,9 @@ additionalContent:
         - title: Microsoft Power Apps
           summary: Build low-code apps that modernize processes and solve tough business challenges in your organization.
           url: /power-apps/
+        - title: Dynamics 365 Guides
+          summary: Let Field Service customers attach mixed reality guides to Field Service tasks so frontline workers can view the guides in their HoloLens and get their work done.
+          url: /dynamics365/mixed-reality/guides/overview
+        - title: Dynamics 365 Remote Assist
+          summary: Allow frontline workers to see their Field Service bookings on HoloLens and quickly call remote collaborators.
+          url: /dynamics365/mixed-reality/remote-assist/ra-overview

@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Use SafeDispatcher for custom hosted controls in Unified Service Desk
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is a [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)]-based application where all the operations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] are executed on the main *WPF Dispatcher* thread. The [WPF Dispatcher](https://msdn.microsoft.com/library/system.windows.threading.dispatcher\(v=vs.110\).aspx) class provides services for managing the queue of work items for a thread.

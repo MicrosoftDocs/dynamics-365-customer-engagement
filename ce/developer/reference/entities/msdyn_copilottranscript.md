@@ -88,6 +88,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [LastOnHoldTime](#BKMK_LastOnHoldTime)
 - [LeftVoiceMail](#BKMK_LeftVoiceMail)
 - [msdyn_additionalcontext](#BKMK_msdyn_additionalcontext)
+- [msdyn_copilotmode](#BKMK_msdyn_copilotmode)
+- [msdyn_copilotskill](#BKMK_msdyn_copilotskill)
 - [msdyn_transcriptforid](#BKMK_msdyn_transcriptforid)
 - [msdyn_transcriptforlogicalname](#BKMK_msdyn_transcriptforlogicalname)
 - [OptionalAttendees](#BKMK_OptionalAttendees)
@@ -468,6 +470,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|1048576|
+
+### <a name="BKMK_msdyn_copilotmode"></a> msdyn_copilotmode
+
+|Property|Value|
+|---|---|
+|Description|**The mode in which Copilot is operating for this transcript**|
+|DisplayName|**Copilot Mode**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_copilotmode`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_copilotskill"></a> msdyn_copilotskill
+
+|Property|Value|
+|---|---|
+|Description|**The skill that Copilot is using for this transcript**|
+|DisplayName|**Copilot Skill**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_copilotskill`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_transcriptforid"></a> msdyn_transcriptforid
 

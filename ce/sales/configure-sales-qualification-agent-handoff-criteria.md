@@ -1,6 +1,6 @@
 ---
-title: Configure handoff criteria for the Sales Qualification Agent (preview)
-description: Configure ideal customer profile, budget, authority, need, and timeline criteria for the Sales Qualification Agent to effectively qualify leads.
+title: Configure handoff criteria for the Sales Qualification Agent
+description: Configure target customer profile, budget, authority, need, and timeline criteria for the Sales Qualification Agent to effectively qualify leads.
 ms.date: 08/01/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -13,22 +13,18 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure handoff criteria for the Sales Qualification Agent (preview)
+# Configure handoff criteria for the Sales Qualification Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+Define the target customer profile and BANT (Budget, Authority, Need, and Timeline) information to help the agent identify leads that it should focus on and engage with.
 
-Define the ideal customer profile and BANT (Budget, Authority, Need, and Timeline) information to help the agent identify leads that it should focus on and engage with.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
-## Configure the ideal customer profile and BANT criteria
+## Configure target customer profile and BANT criteria
 
 Both Research-only and Research and engage modes use the target customer profile to identify leads that match your target customer characteristics. However, BANT criteria are only used by the Research and engage mode to determine whether to engage with a lead. The handoff criteria is also used to enrich research that produces contextual insights.
 
 By default, the application defines a set of criteria. You can update any out-of-the-box criteria to add or remove attributes. Also, you can create a custom criterion.
 
 1. [Open the Sales Qualification Agent settings](open-sales-qualification-agent-settings.md) page.  
-1. In the **Handoff criteria** section, enter or select the criteria that describe your ideal customer profile, including industries, employee size, decision making roles, customer location, and annual revenue.  
+1. In the **Handoff criteria** section, enter or select the criteria that describe your target customer profile, including industries, employee size, decision making roles, customer location, and annual revenue.  
    > [!NOTE]
    > Alternatively, select **Generate** to auto-generate the handoff criteria based on the value proposition you specified in the [Products](sales-qualification-agent-general-settings.md) page. The agent uses this information to understand your business and generate the target customer profile.
 
@@ -51,18 +47,18 @@ By default, the application defines a set of criteria. You can update any out-of
 
 1. Under each criteria, expand the **Where's this info stored** section to verify the fields used by default to evaluate the criteria. You can change these fields if needed. 
 
-   :::image type="content" source="media/sqa-ideal-customer-profile.png" alt-text="Screenshot of the ideal customer profile configuration in Sales Qualification Agent settings.":::
+   :::image type="content" source="media/sqa-ideal-customer-profile.png" alt-text="Screenshot of the target customer profile configuration in Sales Qualification Agent settings.":::
 
 1. Select **Add** to add a different field from the lead table or other related tables. Note that:
     - You can only add fields that are directly in the lead table or in related tables. Adding nested relationships is not supported. For example, you can't add Lead > Account > Industry. You can only add Lead > Account. 
     - Some attribute types aren't supported for handoff criteria. Learn more in the [Attribute types not supported for handoff criteria](#attribute-types-not-supported-for-handoff-criteria) section.
-    - If you're just testing the agent, you can create a simple ideal customer profile that includes only a few criteria, such as industry and job title. This will make it easier to create leads that match the profile and validate the agent's functionality. For example, you can set the industry to "Technology" and the job title to "Manager". After this succeeds, you can gradually add more criteria that are relevant to your business.
+    - If you're just testing the agent, you can create a simple target customer profile that includes only a few criteria, such as industry and job title. This will make it easier to create leads that match the profile and validate the agent's functionality. For example, you can set the industry to "Technology" and the job title to "Manager". After this succeeds, you can gradually add more criteria that are relevant to your business.
 
       If you want to use custom fields or tables, [add a custom criterion](#add-custom-criteria-to-your-handoff-criteria).
 
 ## Add custom criteria to your handoff criteria
 
-Use custom criteria to define characteristics that are important for your ideal customer profile. You can map your criteria to custom fields in Dataverse or add public URLs that provide the relevant information. For example, you could add a custom criterion for "Environmental Sustainability Initiatives" and map it to a custom field in Dataverse or provide a URL that lists the company's key environmental initiatives. For more custom criteria examples, refer to [Custom criteria examples for sales teams across industries](custom-icp-examples.md).
+Use custom criteria to define characteristics that are important for your target customer profile. You can map your criteria to custom fields in Dataverse or add public URLs that provide the relevant information. For example, you could add a custom criterion for "Environmental Sustainability Initiatives" and map it to a custom field in Dataverse or provide a URL that lists the company's key environmental initiatives. For more custom criteria examples, refer to [Custom criteria examples for sales teams across industries](custom-icp-examples.md).
 
 > [!NOTE]
 >- Ensure that the sellers have at least read access to custom fields and entities used in the custom criteria. 

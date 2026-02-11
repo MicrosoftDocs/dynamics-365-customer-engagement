@@ -1,11 +1,9 @@
 ---
-title: Configure assignment rules for Sales Qualification Agent (preview)
+title: Configure assignment rules for Sales Qualification Agent
 description: Learn how to configure the assignment rules for the Sales Qualification Agent in Dynamics 365 Sales.
 ms.topic: how-to 
 ms.date: 08/01/2025
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom: bap-template
 author: udaykirang
 ms.author: udag
@@ -15,16 +13,12 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure assignment rules for Sales Qualification Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Configure assignment rules for Sales Qualification Agent
 
 Once the leads are qualified based on the handover criteria, the agent hands them over to sellers or teams based on your selection. The agent uses the round-robin distribution to assign leads fairly among the selected sellers or team.
 
 > [!NOTE]
 > Supervisors and sellers must have the salesperson role assigned to them and have at least read permission for the leads handed over by the agent.  
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 **Follow these steps**:
 
@@ -44,5 +38,5 @@ Once the leads are qualified based on the handover criteria, the agent hands the
 ## Related information
 
 - [Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)  
-- [(Seller)Work on leads handed over by the Sales Qualification Agent (preview)](use-sales-qualification-agent.md)  
-- [(Supervisor)Monitor leads handled by the Sales Qualification Agent (preview)](monitor-leads-by-sales-qualification-agent.md)  
+- [(Seller)Work on leads handed over by the Sales Qualification Agent](use-sales-qualification-agent.md)  
+- [(Supervisor)Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md)  

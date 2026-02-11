@@ -186,11 +186,9 @@
         "sales/developer/entities/*.md" : "08/29/2025",
         "customer-service/develop/reference/entities/*.md" : "08/29/2025"
       },
-      "ms.custom": {
-        "unified-service-desk/**.*": "evergreen"
-      },
       "ms.update-cycle": {
-        "unified-service-desk/**.*": "1095-days"
+        "unified-service-desk/**.*": "1095-days",
+        "customerengagement/**.*": "3650-days"
       },
       "ms.subservice": {
         "channel-integration-framework/**.*": "channel-integration-framework",

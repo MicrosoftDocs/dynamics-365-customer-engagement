@@ -1,6 +1,6 @@
 ---
-title: Configure general settings for the Sales Qualification Agent (preview)
-description: Learn set up the general settings for the Sales Qualification Agent, including agent profile, company information, and product information.
+title: Configure general settings for the Sales Qualification Agent
+description: Configure the Sales Qualification Agent's general settings, including agent profile, company details, and product information, to set the context for the agent.
 ms.date: 08/01/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -13,13 +13,9 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure general settings for the Sales Qualification Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Configure general settings for the Sales Qualification Agent
 
 Define the agent profile, company information, and product information to set the context for the Sales Qualification Agent.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Configure the agent profile
 
@@ -40,9 +36,7 @@ Define the agent profile, company information, and product information to set th
 
 The agent uses company information to generate personalized outreach emails and engage with your customers. Be sure to provide a real company name and website to ensure that the research insights and outreach emails are relevant.
 
-1. [Open the Sales Qualification Agent settings](open-sales-qualification-agent-settings.md) page.
-
-1. In the **Company info** section, provide the following details:
+1. Under **General Settings** > **Company info**, provide the following details:
 
    - **Company name**: Enter the name of your company.
 
@@ -52,9 +46,7 @@ The agent uses company information to generate personalized outreach emails and 
 
 The agent uses product information to generate suggestions during hand over and to provide relevant product details in outreach emails. 
 
-1. [Open the Sales Qualification Agent settings](open-sales-qualification-agent-settings.md) page.
-
-1. In the **Products** section, enter the value proposition of your products or services, highlighting their key benefits and features. This information helps the agent tailor its research and generate relevant outreach emails and follow-up email. It's also used to auto-generate [handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) later in the setup.
+1. Under **General Settings** > **Products**, enter the value proposition of your products or services, highlighting their key benefits and features. This information helps the agent tailor its research and generate relevant outreach emails and follow-up email. It's also used to auto-generate [handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) later in the setup.
 
 ## Next step
 

@@ -4,9 +4,9 @@ description: Learn about the Conversation dashboard insights to better understan
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection: bap-ai-copilot
-ms.date: 10/10/2025
+ms.date: 01/28/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---

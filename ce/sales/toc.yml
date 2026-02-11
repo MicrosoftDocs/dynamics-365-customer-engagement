@@ -72,7 +72,7 @@ items:
                 href: manage-sample-data.md
               - name: Add or remove sample data in Sales Professional
                 href: install-sample-data.md
-          - name: Uninstall Sales Premium Add-ons
+          - name: Uninstall Sales Insights Add-ons
             href: uninstall-sales-insights.md
           - name: Configure your sales organization
             items:
@@ -138,8 +138,12 @@ items:
         href: admin-settings-overview.md
       - name: AI agents
         items:
+          - name: AI agents overview
+            href: ai-agent-overview.md
           - name: Access Dynamics 365 AI Hub
             href: dynamics-365-ai-hub.md
+          - name: Prerequisites applicable to all Sales agents
+            href: prerequisites-for-all-agents.md
           - name: Sales Qualification Agent
             items:
               - name: Overview
@@ -159,10 +163,10 @@ items:
                     href: configure-sales-qualification-agent-handoff-criteria.md
                   - name: Configure assignment rules
                     href: configure-sqa-assignment-rules.md
-                  - name: Configure knowledge sources for company insights
+                  - name: Configure knowledge sources
                     href: configure-sqa-knowledge-source.md
-                  - name: Configure knowledge sources for competitor insights
-                    href: sales-qualification-agent-competitor-insights.md
+                  - name: Define custom research insights
+                    href: define-custom-research-topics.md
                   - name: Run simulation to review outreach email content
                     href: run-simulation-sqa-outreach-email.md
               - name: Start the agent
@@ -175,8 +179,6 @@ items:
                 href: configure-requirements-for-sqa-agent.md
               - name: Understand Sales Qualification Agent concepts
                 href: sales-qualification-agent-concepts.md
-              - name: Manage consumption-based billing
-                href: copilot-consumption-based-billing.md
               - name: Sales Qualification Agent FAQ
                 href: sales-qualification-agent-faq.md
               - name: Test the Sales Qualification Agent
@@ -185,30 +187,75 @@ items:
                 href: custom-icp-examples.md
               - name: Use fields enriched with Zoominfo or Dun & Bradstreet data
                 href: use-zoominfo-dnb-data-in-sales-qualification-agent.md
-          - name: Opportunity Research Agent (preview)
+          - name: Sales Close Agent (preview)
             items:
               - name: Overview
-                href: opportunity-research-agent.md
-              - name: Configure Opportunity Research Agent
-                href: configure-opportunity-research-agent.md
-          - name: Sales research Agent (preview)
+                href: sales-close-agent.md
+              - name: Set up and configure Sales Close Agent - Research  
+                items:
+                  - name: Set up and configure Sales Close Agent - Research
+                    href: configure-opportunity-research-agent.md
+                  - name: Configure risk and importance criteria
+                    href: opportunity-research-agent-advanced-settings.md
+                  - name: Define custom research insights
+                    href: define-custom-research-topics.md
+                  - name: Edit settings of Sales Close Agent - Research
+                    href: edit-opportunity-research-agent-settings.md
+                  - name: View agent insights and metrics
+                    href: view-sales-close-agent-research-insights-metrics.md
+              - name: Set up and configure Sales Close Agent - Engage
+                href: configure-sales-close-agent.md      
+                items:
+                - name: Set up through the Setup Assistant (preview)
+                  href: sales-close-agent-engage-setup-assistant.md
+                - name: Open the settings page
+                  href: open-sales-close-agent-settings.md
+                - name: Configure the agent profile
+                  href: configure-sales-close-agent-profile.md
+                - name: Configure product details
+                  href: configure-sales-close-agent-product-details.md  
+                - name: Configure target customers
+                  href: configure-sales-close-agent-target-customers.md
+                - name: Configure email delivery
+                  href: configure-sales-close-agent-email-delivery.md
+                - name: Configure email content
+                  href: configure-sales-close-agent-email-content.md
+                - name: Configure knowledge sources
+                  href: configure-sales-close-agent-knowledge-sources.md
+                - name: Test the agent
+                  href: sales-close-agent-engage-test.md  
+                - name: Start the agent 
+                  href: start-sales-close-agent.md
+                - name: Manage the agent
+                  href: manage-sales-close-agent.md
+                - name: Configure requirements for Sales Close Agent - Engage
+                  href: configure-requirements-for-sales-close-agent.md  
+                - name: View agent insights and metrics
+                  href: view-sales-close-agent-engage-insights-metrics.md
+                - name: View records processed by agent
+                  href: view-sales-close-agent-engage-processed-records.md  
+                - name: How the agent works
+                  href: how-sales-close-agent-engage-mode-works.md
+          - name: Sales Research Agent (preview)
             items:
               - name: Overview
                 href: sales-research-agent.md
               - name: Set up and configure Sales Research Agent
                 href: configure-sales-research-agent.md
+          - name: Manage consumption-based billing
+            href: copilot-consumption-based-billing.md                         
           - name: Copilot Studio agents and Entra app registrations
             href: ai-agents-apps.md
-          - name: FAQs about sales AI agents
-            href: sales-ai-agents-faqs.md
+          - name: Stay compliant with privacy regulations
+            href: consent-management-overview.md
       - name: Copilot in Dynamics 365 Sales
         items:
           - name: Copilot overview
             href: copilot-overview.md
-          - name: Configure fields for summary and recent changes
-            href: copilot-configure-summary-fields.md
           - name: Turn on and set up Copilot in Dynamics 365 Sales
             href: enable-setup-copilot.md
+          - name: Configure fields for summary and recent changes
+            href: copilot-configure-summary-fields.md
           - name: Configure fields for what's new
             href: copilot-configure-whatsnew-field.md
           - name: Configure Copilot to use SharePoint sites
@@ -324,15 +371,15 @@ items:
                 href: manage-excel-templates.md
               - name: Create email templates
                 href: /powerapps/user/email-template-create?context=/dynamics365/context/sales-context
-          - name: Work with hierarchy visualization (preview)
+          - name: Work with visual hierarchies
             items:
-              - name: Overview of hierarchy visualization
+              - name: Overview of visual hierarchies
                 href: hierarchy-visualization.md
-              - name: Create and activate a hierarchy visualization
+              - name: Design and publish a hierarchy
                 href: create-activate-hierarchy-visualizations.md
-              - name: Manage hierarchy visualization
+              - name: Manage hierarchies
                 href: manage-hierarchy-visualizations.md
-              - name: Add a view hierarchy button
+              - name: Add a visual hierarchy button
                 href: add-hierarchy-visualization-custom-tables.md
           - name: Configure email engagement
             href: configure-email-engagement.md
@@ -702,8 +749,6 @@ items:
             href: enable-ri.md
           - name: Insights generated from Microsoft 365 data
             href: insights-from-m365.md
-          - name: Microsoft 365 consent types
-            href: ms365-consent-types.md
           - name: Add relationship intelligence widgets to custom forms
             href: add-ri-widgets-to-custom-form.md
           - name: Grant access to who knows whom information
@@ -794,7 +839,7 @@ items:
         href: user-guide.yml
       - name: AI agents
         items:
-        - name: Sales Qualification Agent (preview)
+        - name: Sales Qualification Agent
           items:
             - name: Overview
               href: sales-qualification-agent.md
@@ -804,27 +849,37 @@ items:
               href: monitor-leads-by-sales-qualification-agent.md
             - name: FAQ about Sales Qualification Agent
               href: sales-qualification-agent-faq.md
-        - name: Opportunity Research Agent (preview)
+        - name: Sales Close Agent (preview)
           items:
             - name: Overview
-              href: opportunity-research-agent.md
-            - name: Work on opportunities researched by Opportunity Research Agent
-              href: use-opportunity-research-agent.md
-            - name: FAQs about Opportunity Research Agent
-              href: opportunity-research-agent-faqs.md
+              href: sales-close-agent.md
+            - name: Sales Close Agent - Research (preview)
+              items:
+              - name: Work on opportunities researched by agent
+                href: use-opportunity-research-agent.md
+              - name: Manage opportunity risks using AI-generated insights  
+                href: next-best-actions-to-manage-opportunities.md
+              - name: FAQs about Sales Close Agent - Research
+                href: opportunity-research-agent-faqs.md
+            - name: Sales Close Agent - Engage (preview)
+              items:
+              - name: View records processed by agent
+                href: view-sales-close-agent-engage-processed-records.md  
+              - name: How the Sales Close Agent - Engage works
+                href: how-sales-close-agent-engage-mode-works.md
         - name: Sales Research Agent (preview)
           items:
             - name: Overview
               href: sales-research-agent.md
-            - name: Work on accounts researched by Sales Research Agent
-              href: use-sales-research-agent.md
-            - name: Connect the agent to different data sources
-              href: sales-research-agent-connect-data.md
             - name: Provide context to the agent
               href: sales-research-agent-provide-context.md
+            - name: Connect the agent to different data sources
+              href: sales-research-agent-connect-data.md
+            - name: Analyze your sales performance using the agent
+              href: use-sales-research-agent.md
             - name: FAQs about Sales Research Agent
               href: faqs-sales-research-agent.md
-      - name: Use Copilot in Dynamics 365 Sales
+      - name: Copilot in Dynamics 365 Sales
         items:
           - name: Copilot overview
             href: copilot-overview.md
@@ -848,6 +903,15 @@ items:
             href: copilot-get-doc-suggestions.md
           - name: Copilot in Dynamics 365 Sales FAQ
             href: sales-copilot-faq.md
+      - name: AI assistance in forms and views
+        items:
+          - name: Fill forms effortlessly with AI assistance
+            href: use-form-fill-assistance.md
+          - name: Find data in a view using natural language
+            href: find-data-in-view-with-ai.md
+          - name: Visualize data in a view wth AI
+            href: visualize-data-in-view-with-ai.md
+
       - name: Dashboards and reports
         items:
           - name: Track your progress with dashboards and charts
@@ -928,8 +992,6 @@ items:
                 href: teams-integration/share-dynamics-records-in-teams.md
               - name: View and update record details
                 href: teams-integration/view-update-dynamics-records.md
-              - name: Add chat messages to Dynamics 365 as notes or tasks
-                href: teams-integration/add-chat-d365.md
               - name: Teams integration FAQs
                 href: teams-integration/message-extensions-faq.md
           - name: Microsoft Teams calls in Dynamics 365
@@ -975,11 +1037,11 @@ items:
             items:
               - name: Use auto capture
                 href: free-auto-capture.md
-          - name: Work with hierarchy visualization (preview)
+          - name: Work with visual hierarchies
             items:
-              - name: Overview of hierarchy visualization
+              - name: Overview of visual hierarchies
                 href: hierarchy-visualization.md
-              - name: View and understand hierarchy visualization
+              - name: View and understand a hierarchy
                 href: view-hierarchy-visualizations.md
           - name: How notes analysis assists you with suggestion
             href: notes-analysis.md
@@ -1377,7 +1439,7 @@ items:
         items:
           - name: RecalculatePrice Action
             href: developer/reference/recalculateprice-action.md
-      - name: Sales premium capabilities
+      - name: Sales Insights capabilities
         items:
           - name: Action Reference
             items:
@@ -1437,14 +1499,18 @@ items:
         href: faqs-sales-copilot-natural-language.md
       - name: Responsible AI FAQs about email in Copilot
         href: faqs-sales-copilot-for-email.md
-      - name: Responsible AI FAQs about Sales Qualification Agent (preview)
+      - name: Responsible AI FAQs about Sales Qualification Agent
         items:
           - name: Responsible AI FAQs about Research-only mode
             href: faqs-sales-qualification-agent.md
           - name: Responsible AI FAQs about Engage mode
             href: faqs-sales-qualification-agent-engage.md
-      - name: Responsible AI FAQs about Opportunity Research Agent (preview)
-        href: faqs-about-opportunity-research.md
+      - name: Responsible AI FAQs about Sales Close Agent (preview)
+        items:
+          - name: Sales Close Agent - Research FAQs
+            href: faqs-about-opportunity-research.md
+          - name: Sales Close Agent - Engage FAQ
+            href: faqs-about-sales-close-agent-engage.md  
       - name: Responsible AI FAQs about Sales Research Agent
         href: faqs-about-sales-research-agent.md
       - name: Responsible AI FAQs about chat with Sales data in Microsoft 365 Copilot (preview)

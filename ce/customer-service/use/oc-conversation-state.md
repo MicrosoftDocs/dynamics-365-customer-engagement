@@ -2,7 +2,7 @@
 title: Understand conversation states 
 description: Use this article to learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service.
 ms.date: 01/30/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

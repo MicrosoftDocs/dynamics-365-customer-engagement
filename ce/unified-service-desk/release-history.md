@@ -10,7 +10,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 
 # Release history for Unified Service Desk

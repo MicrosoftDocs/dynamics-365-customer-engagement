@@ -16,8 +16,6 @@
         href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
       - name: Unified routing and assignment
         items:
-          - name: View historical analytics reports
-            href: supervisor-historical-analytics.md
           - name: Access diagnostics for unified routing
             href: supervisor-access-diagnostics.md
           - name: Route records manually using unified routing
@@ -118,7 +116,7 @@
           href: review-ka.md
         - name: Publish knowledge articles 
           href: publish-ka.md
-        - name: Create and manage article versions
+        - name: Manage knowledge article versions
           href: ka-versions.md
         - name: Translate knowledge articles 
           href: translate-ka.md
@@ -156,8 +154,6 @@
           href: use-teams-meetings.md
         - name: Collaborate with AI-suggested contacts in Microsoft Teams
           href: use-ai-suggested-contacts-teams.md
-        - name: Use auto-summarization for ongoing conversations
-          href: cs-ai-generated-summary.md
         - name: Use Join a Teams call to enhance customer conversations
           href: join-a-teams-call.md
         - name: Use customer support swarming to resolve issues
@@ -304,6 +300,8 @@
         items: 
         - name: Productivity pane in Copilot Service workspace
           href: csw-productivity-pane.md
+        - name: Use timeout rules
+          href: use-timeout-rules.md
         - name: View smart assist suggestions for knowledge articles and similar cases
           href: oc-view-ai-suggested-cases-articles.md
         - name: View smart assist suggestions
@@ -320,6 +318,8 @@
         items: 
         - name: Copilot feature availability across applications
           href: /dynamics365/contact-center/use/copilot-feature-availability?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Use Copilot to work with data
+          href: use-copilot-to-work-with-data.md
         - name: Use Copilot-generated case summaries
           href: copilot-use-summary.md
         - name: Use Copilot case summary in model-driven apps
@@ -374,6 +374,10 @@
             href: rr-agent.md            
           - name: Backlog work items report
             href: rr-backlogitems.md
+          - name: Intent group report
+            href: record-routing-intent-group.md
+          - name: User group report
+            href: record-routing-user-group.md
         - name: Use Customer Service historical analytics dashboards
           items: 
           - name: Customer Service historical analytics dashboards
@@ -386,25 +390,25 @@
           items: 
           - name: Omnichannel for Customer Service dashboards
             href: omnichannel-analytics-insights.md
-          - name: Omnichannel Summary dashboard
+          - name: Summary dashboard
             href: omnichannel-summary-dashboard.md
-          - name: Omnichannel Conversation dashboard
+          - name: Conversation dashboard
             href: oc-conversation-dashboard.md
-          - name: Omnichannel Queue dashboard
+          - name: Queue dashboard
             href: oc-queue-dashboard.md
-          - name: Omnichannel Voice dashboard
+          - name: Voice dashboard
             href: voice-channel-reports-analytics.md   
-          - name: Omnichannel Agent dashboard
+          - name: Agent dashboard
             href: agent-dashboard.md
-          - name: Omnichannel Bot dashboard
+          - name: Bot dashboard
             href: oc-bot-dashboard.md  
-          - name: Omnichannel Voicemail dashboard
-            href: oc-voicemail-dashboard.md          
+          - name: Voicemail dashboard
+            href: oc-voicemail-dashboard.md
         - name: Use knowledge analytics
           href: knowledge-search-analytics-cs.md
         - name: Use Copilot analytics
           href: /dynamics365/customer-service/use/copilot-analytics-report?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-        - name: View agent insights dashboard (preview)
+        - name: View agent insights dashboard
           href: /dynamics365/contact-center/use/agent-insights?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Monitor conversations
           items: 

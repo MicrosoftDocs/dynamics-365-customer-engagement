@@ -4,8 +4,6 @@ description: Learn how to add Dynamics 365 AI Hub sitemap entry to your custom a
 ms.date: 10/06/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom: bap-template
 author: lavanyakr01
 ms.author: lavanyakr
@@ -37,6 +35,8 @@ To access the Dynamics 365 AI Hub from the Sales Hub app, go to **Change area** 
 To access Dynamics 365 AI Hub from your custom app, [add a site map entry](add-custom-site-map.md) with the following URL:
 `/main.aspx?pagetype=control&controlName=MscrmControls.CopilotTrustCenter.CopilotTrustCenterHubControl&data=%7B"product"%3A"sales"%7D`
 
+## Assign permissions to custom security roles
+
 If you're using custom roles, ensure that users have the `read` permissions to the following entities to access the AI Hub:
 
 - msdyn_salesagentrun
@@ -49,13 +49,13 @@ If you're using custom roles, ensure that users have the `read` permissions to t
 
 If you're using custom security roles, ensure that users have the necessary agent-specific privileges to manage the agents and access the dashboards in the AI Hub. Otherwise, users will have access issues, or see inaccurate or incomplete data in the dashboard.
 
-- [Permissions required for Sales Qualification Agent](configure-sales-qualification-agent.md#grant-permissions-to-custom-security-role)
-- [Permissions required for Opportunity Research Agent](configure-opportunity-research-agent.md#grant-permissions-to-custom-security-role)
+- [Permissions required for Sales Qualification Agent](configure-sales-qualification-agent.md#grant-permissions)
+- [Permissions required for Opportunity Research Agent](configure-opportunity-research-agent.md#grant-permissions)
 
 
 ## Related resources
 
 - [Monitor opportunities handed over by the Opportunity Research Agent](monitor-opportunity-agent.md) 
-- [Monitor leads handled by the Sales Qualification Agent (preview)](monitor-leads-by-sales-qualification-agent.md)
-- [Set up and configure the Sales Qualification Agent (preview)](configure-sales-qualification-agent.md)
-- [Configure the Opportunity Research Agent (preview)](configure-opportunity-research-agent.md)
+- [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md)
+- [Set up and configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
+- [Configure the Opportunity Research Agent](configure-opportunity-research-agent.md)

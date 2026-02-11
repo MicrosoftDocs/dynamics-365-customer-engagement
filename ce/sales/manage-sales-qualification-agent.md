@@ -1,11 +1,9 @@
 ---
-title: Manage the Sales Qualification Agent (preview)
+title: Manage the Sales Qualification Agent
 description: Learn how to manage such as stop or edit the sales qualification settings in Dynamics 365 Sales.
 ms.topic: how-to 
 ms.date: 08/01/2025
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom: bap-template
 author: udaykirang
 ms.author: udag
@@ -15,13 +13,9 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Manage the Sales Qualification Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Manage the Sales Qualification Agent
 
 As an administrator, you can manage the Sales Qualification Agent in your organization by editing or stopping the agent.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Edit the Sales Qualification Agent
 

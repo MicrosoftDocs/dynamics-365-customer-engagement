@@ -1,11 +1,12 @@
 ---
 title: Integrate an Azure agent
 description: Use this article to understand how to integrate Azure agents in the contact center.
-ms.date: 04/20/2025
+ms.date: 02/05/2026
+ms.update-cycle: 180-days
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.collection:
+ms.collection: bap-ai-copilot
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -20,9 +21,9 @@ In your contact center, you can integrate Azure AI agents (agents) seamlessly wi
 
 ## Prerequisites
 
-- Have an AI agent that's built using the [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true). Make sure that you register the agent resource as **User-Assigned Managed Identity**.
+- Have an AI agent that's registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true). Make sure that you register the agent resource as **User-Assigned Managed Identity**.
 
-    Learn about how to create an Azure agent resource in the [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the Bot Application ID.
+    Learn about how to create an Azure agent resource in [Create Azure agent resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true). Be sure to note the values of the Microsoft App ID and the Bot Application ID.
 - Set the messaging endpoint in your bot configuration. Learn more in [Configure bot settings](/azure/bot-service/bot-service-manage-settings?view=azure-bot-service-4.0&preserve-view=true&tabs=userassigned).
 - [Register your app on the Azure portal](/azure/active-directory/develop/quickstart-register-app#register-an-application). Make a note of the registered app name.
 
@@ -33,9 +34,9 @@ In your contact center, you can integrate Azure AI agents (agents) seamlessly wi
 
 ## Integrate Azure agents with contact center
 
-After you meet the prerequisites, perform the following steps to integrate your Azure agents with your contact center.
+Perform the following steps to integrate your Azure agents with your contact center.
 
-1. Connect your Azure agent resource to omnichannel channel.
+1. Connect your Azure agent resource to a channel.
 1. Configure the agent user as an omnichannel representative.
 1. Configure routing rules and context variables.
 1. Add the agent user to queues.
@@ -63,7 +64,7 @@ The agent user is first created as an application user and then assigned the **O
 
 1. On the **Settings** page, select **Users + permissions**, and then select **Application users**.
 
-1. On the **Application users** page, select **New app user** and in the **Create a new app user** dialog that opens, do the following:
+1. On the **Application users** page, select **New app user** and in the **Create a new app user** dialog that opens, do as follows:
 
     a. Select a **Business unit** in the list. Make sure that you select the top-level business unit.
     
@@ -73,27 +74,24 @@ The agent user is first created as an application user and then assigned the **O
     
     d. Select the app that you created during your Azure app registration, and then select **Add** and **Create**.
 
-1. Open your Power Platform environment and under **Settings** > **System** > **Security** > **Users**, search and open the newly created user.
+1. In your Dynamics 365 environment, go to Copilot Service admin center. In the site map, select **User management** > **Users**.
 
-1. Select the **APPLICATION USER** form.
+1. Find and open the user record for the application user that you created in step 4 and select the **APPLICATION USER** form.
 
 1. In the **User Information** section, do the following:
-    - **User type**: Select **Bot application user** from the dropdown list.
-    - **Bot application ID**: Enter the Microsoft App ID from Microsoft Entra ID that you noted earlier from the **Prerequisites** section.
-    - **Bot Application ID**: Enter the bot application ID that you noted earlier from the **Prerequisites** section.
+    - **User type**: Select **Bot application user**.
+    - **Bot Application ID**: Enter the bot application ID that you noted in the preceding **Prerequisites** section.
 
-1. Select the save icon at the bottom of the page.
+1. Save the changes.
 
-### Add the AI agent user to queues
+### Add the AI agent user to a workstream
 
-You can add an AI agent user to specific queues where you want the agent to handle the customer queries first, instead of the representative. For this option, you must ensure that the agent user has the highest capacity among all users in the queue.
+To set up your agent to take inbound conversations on a channel, navigate to the workstream you want to use. In the **AI agent** section, select **Add AI agent**, and then add your agent. The agent is directly assigned to any new inbound conversation on this workstream.
 
-Alternatively, you can also create a queue with the agent user only. In such a case, ensure that the routing rules are set in a way that customer queries are sent to this queue first. This action ensures that the agent acts as the first recipient for all queries.
+If you want the option to have an AI agent receive transfers from a queue, you can configure it to a queue just like a service representative. For this option, you must ensure that the agent user has the highest capacity among all users in the queue. A representative can then transfer the conversation to the AI agent by transferring it to the queue containing the agent.
 
-A representative can transfer a chat to an AI agent by adding it to a queue, and then transferring the chat to the queue.
-
-> [!Note]
-> - The chat cannot be transferred to the same agent.
+> [!NOTE]
+> - If the chat is transferred by the AI agent to a queue and the queue has the same AI agent, the coversation isn't assigned to the AI agent but is routed to the next eligible option.
 > - The agent works with the chat widget, workstream, and queues created in contact center.
 
 ### Configure routing rules
@@ -112,14 +110,14 @@ You understand that your data may be transmitted and shared with external system
 
 ### Related information
 
-[Overview of bots](overview-bots.md)   
-[Best practices for configuring Azure and Copilot Studio bots](configure-bot-best-practices.md)  
-[Integrate Copilot Studio bot](configure-bot-virtual-agent.md)  
+[Overview of AI agents](overview-bots.md)   
+[Best practices for configuring Azure and Copilot Studio agents](configure-bot-best-practices.md)  
+[Integrate Copilot Studio agent](configure-bot-virtual-agent.md)  
 [Create workstreams for unified routing](create-workstreams.md)  
 [Work with queues](queues-omnichannel.md)  
 [View bot insights](../implement/omnichannel-insights-dashboard.md#botinsights)  
-[Configure Azure bots to escalate and end conversation](../develop/bot-escalate-end-conversation.md)  
-[Configure context variables for bots](context-variables-for-bot.md)  
+[Configure Azure agents to escalate and end conversation](../develop/bot-escalate-end-conversation.md)  
+[Configure context variables for agents](context-variables-for-bot.md)  
 [Manage context variables](manage-context-variables.md)  
 [Create an application user](/powerapps/developer/data-platform/use-multi-tenant-server-server-authentication#create-a-multi-tenant-web-application-registered-with-your-azure-ad-tenant)  
 

@@ -4,7 +4,8 @@ description: Learn about how to add a Copilot agent to use in the voice channel 
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 11/11/2025
+ms.date: 02/11/2026
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.collection: bap-ai-copilot
 ms.custom: bap-template

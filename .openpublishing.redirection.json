@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/administer/cs-enable-ai-generated-summary.md",
+      "redirect_url": "/dynamics365/contact-center/administer/copilot-enable-summary#enable-conversation-summaries",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/use/cs-ai-generated-summary.md",
+      "redirect_url": "/dynamics365/contact-center/use/copilot-summarize-conversations",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/developer/entities/flowmachineimage.md",
       "redirect_url": "/dynamics365/developer/reference/entities/flowmachineimage",
       "redirect_document_id": "false"
@@ -36,6 +46,26 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/sales-qualification-agent-custom-research-topics.md",
+      "redirect_url": "/dynamics365/sales/define-custom-research-topics",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/sales-ai-agents-faqs.md",
+      "redirect_url": "/dynamics365/sales/ai-agent-overview",
+      "redirect_document_id": "false"
+    },
+   {
+      "source_path": "ce/sales/sales-qualification-agent-competitor-insights.md",
+      "redirect_url": "/dynamics365/sales/configure-sqa-knowledge-source#configure-competitor-insights",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/copilot-preview-features.md",
+      "redirect_url": "/dynamics365/sales/sales-qualification-agent",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/develop/reference/entities/quotedetail.md",
       "redirect_url": "/dynamics365/developer/reference/entities/quotedetail",
       "redirect_document_id": "false"
@@ -57,7 +87,12 @@
     },
     {
       "source_path": "ce/sales/prepare-for-ci-migration-to-dataverse.md",
-      "redirect_url": "/dynamics365/sales//create-azure-repo",
+      "redirect_url": "/dynamics365/sales/create-azure-repo",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/opportunity-research-agent.md",
+      "redirect_url": "/dynamics365/sales/sales-close-agent",
       "redirect_document_id": "false"
     },
     {
@@ -6747,7 +6782,7 @@
     },
     {
       "source_path": "ce/insights-insideview/insights-powered-by-insideview.md",
-      "redirect_url": "https://appsource.microsoft.com/en-us/product/dynamics-365/insideviewinc.b5386882-4312-4d69-879a-23081897c012?tab=Overview",
+      "redirect_url": "https://marketplace.microsoft.com/en-us/product/dynamics-365/insideviewinc.b5386882-4312-4d69-879a-23081897c012?tab=Overview",
       "redirect_document_id": "false"
     },
     {
@@ -27505,6 +27540,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/teams-integration/add-chat-d365.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#add-chat-message-to-dynamics-365-record-in-microsoft-teams",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/cfs-authorize-api-connection.md",
       "redirect_url": "/dynamics365/field-service/installation-setup-iothub"
     },
@@ -35861,9 +35901,33 @@
       "redirect_url": "/dynamics365/contact-center/implement/system-requirements-contact-center",
       "redirect_document_id": false
     },
+    {"source_path": "ce/customer-service/administer/configure-ai-agent-to-use-mcp-server.md",
+      "redirect_url": "/dynamics365/customer-service/configure-customer-service-mcp-server",
+      "redirect_document_id": false
+    },
     {"source_path": "ce/customer-service/use/case-topics-dashboard-cs.md",
       "redirect_url": "/previous-versions/dynamics365/customer-service/use/case-topics-dashboard-cs",
       "redirect_document_id": false
-    }    
+    },
+    {
+      "source_path": "ce/field-service/create-simple-selection-rule.md",
+      "redirect_url": "/dynamics365/customer-service/administer/create-simple-selection-rule",
+      "redirect_document_id": false
+    },   
+    {
+      "source_path": "ce/customer-service/use/supervisor-historical-analytics.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/use/supervisor-historical-analytics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/info-analytics-reports.md",
+      "redirect_url": "/dynamics365/customer-service/use/customer-service-analytics-insights-csh",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/configure-ai-suggested-article-keywords-description.md",
+      "redirect_url": "/power-apps/user/form-filling-assistance",
+      "redirect_document_id": false
+    }
   ]
 }

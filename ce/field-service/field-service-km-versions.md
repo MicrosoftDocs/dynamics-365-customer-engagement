@@ -1,41 +1,45 @@
 ---
 title: Manage article versions
-description: Learn how to manage new versions of knowledge articles in Dynamics 365 Field Service. 
+description: Learn how to update and manage new versions of knowledge articles in Dynamics 365 Field Service. 
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
-ms.date: 11/07/2024
+ms.date: 12/23/2025
 ms.custom: bap-template
 ---
 
 # Manage article versions
 
-Article versioning helps you manage updates to your knowledge articles without disrupting the live or published articles. By creating major and minor versions of a knowledge article, you can keep your articles up to date with the latest information while keeping track of changes throughout the lifecycle of your products and services. If your article has extensive changes or is based on a new feature, you might want to create a major version. If the aritlce is small changes or isn't based on a change to functionality, you might want to create a minor version.  
+Article versioning helps you manage updates to your knowledge articles without disrupting the live or published articles. By creating major and minor versions of a knowledge article, you can keep your articles up to date with the latest information while keeping track of changes throughout the lifecycle of your products and services. If your article has extensive changes or is based on a new feature, create a major version. If the article has small changes or isn't based on a change to functionality, create a minor version.  
   
-Versioning helps you to keep accurate records of the features your organization provides and lets you go back to previous versions if you need to.
+Versioning helps you keep accurate records of the features your organization provides and lets you go back to previous versions if you need to.
 
 ## Create a new version
   
 1. In Field Service, go to **Settings** > **Knowledge management** > **Knowledge articles**.  
+
 1. Select the article you want to create a new version for.  
-1. From the command bar, select **Create Major Version** or **Create Minor Version**.  
+
+1. From the command bar, select **Create Major Version** or **Create Minor Version**. Then, confirm.
 
     The new version of your article contains all of the same content, information, and permissions as the current version. The **Version Major** or **Version Minor** field automatically updates to reflect the new version number.  
   
     > [!NOTE]
-    > You won’t be able to make any changes to the **Major Version Number**, **Minor Version Number**, **Language**, or **Article Public Number** fields when creating a new major or minor version of an article.  
+    > You can't change the **Major Version Number**, **Minor Version Number**, **Language**, or **Article Public Number** fields when creating a new major or minor version of an article.  
   
 1. Make changes to the new version. You can update the article title, content, keywords, and description to reflect any changes to your products, features, or services.  
-  
+
+1. Review and publish.
+
 ## Review and publish your new version  
 
-When you're done making changes, you can push the new version of your article through your standard article workflow. When you're finished reviewing and are ready to publish, on the command bar, select the **More commands** (**&vellip;**) > **Publish**, and then choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. Learn more: [Publish knowledge articles](field-service-knowledge-management.md#publish-a-knowledge-article).
+When you're done making changes, push the new version of your article through your standard article workflow. When you're finished reviewing and are ready to publish, on the command bar, select the **More commands** (**&vellip;**) > **Publish**, and then choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. Learn more in [Publish knowledge articles](field-service-knowledge-management.md#publish-a-knowledge-article).
   
 ## Manage article versions
 
-Managing your article versions means publishing and archiving different versions of each article to provide the most accurate information to your customers and internal employees. Keep in mind that only one version of an article can be published at a time. It’s important to keep track of the changes that are made to each version and publish them when it's appropriate.
+Managing your article versions means publishing and archiving different versions of each article to provide the most accurate information to your customers and internal employees. Keep in mind that you can publish only one version of an article at a time. Track the changes you make to each version and publish them when it's appropriate.
 
-You can delete or archive a previous version. Deleting an article version is permanent and can’t be undone. You can't go back to that version of the article, so ensure that you don’t need any of the information. It’s a good idea to create a local backup of any versions you delete.
+You can delete or archive a previous version. Deleting an article version is permanent and can't be undone. You can't go back to that version of the article, so ensure that you don't need any of the information. Create a local backup of any versions you delete.
 
 Archived versions are read-only. You can view all archived versions by changing the view on the **Knowledge Articles** page to **Archived Articles**.
   
@@ -45,8 +49,20 @@ Archived versions are read-only. You can view all archived versions by changing 
   
 1. In the **Related versions** list, select the version you want to manage.  
   
-1. From the command bar, select **Send to Trash** to delete the version or **Archive** to archive the version. 
+1. From the command bar, select **Send to Trash** to delete the version or **Archive** to archive the version.
   
 1. When prompted, select **OK**.  
   
+## Update a published knowledge article
+
+You might want to update a published knowledge article without creating a major or minor version. For example, to fix grammatical errors or make minor updates based on feedback. Users with a *Publish* privilege can update a published article.
+
+1. Open the published article you want to edit.
+
+1. Make the necessary changes.
+
+1. On the command bar, select **Update**.  
+  
+1. Close the article.  
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

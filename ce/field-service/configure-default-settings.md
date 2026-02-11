@@ -149,6 +149,8 @@ Time entries help track the time that technicians spend on various stages of a w
 
 ## Mixed Reality settings
 
+[!INCLUDE[remote-assist-guides-deprecate](../includes/remote-assist-guides-deprecate.md)]
+
 Change Field Service settings for mixed reality apps. For more information about the integrations with mixed reality apps, go to [Collaborate in mixed reality with Field Service and Remote Assist](remote-assist-hololens.md) and [Integrate Guides with Field Service](mixed-reality-guides-integration.md).
 
 |  Option  |  Description  |  

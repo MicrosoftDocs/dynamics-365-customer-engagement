@@ -67,6 +67,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_entityrecordid](#BKMK_msdyn_entityrecordid)
 - [msdyn_entitytypename](#BKMK_msdyn_entitytypename)
 - [msdyn_externalcrmorgid](#BKMK_msdyn_externalcrmorgid)
+- [msdyn_insightlocale](#BKMK_msdyn_insightlocale)
 - [msdyn_insightsdata](#BKMK_msdyn_insightsdata)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_processedtimestamp](#BKMK_msdyn_processedtimestamp)
@@ -171,6 +172,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|1000|
+
+### <a name="BKMK_msdyn_insightlocale"></a> msdyn_insightlocale
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**msdyn\_insightlocale**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_insightlocale`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_insightsdata"></a> msdyn_insightsdata
 

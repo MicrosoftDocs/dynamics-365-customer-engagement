@@ -167,7 +167,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Redacted message text**|
-|DisplayName|**Redacted message**|
+|DisplayName|**Masked Message**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_redactedmessagetext`|
