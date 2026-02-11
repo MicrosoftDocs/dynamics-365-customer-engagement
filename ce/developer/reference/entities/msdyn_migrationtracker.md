@@ -157,7 +157,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_IsMigrationComplete`|
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
-|GlobalChoiceName|`msdyn_migrationtracker_ismigrationcomplete`|
+|GlobalChoiceName|`msdyn_migrationtracker_IsMigrationComplete`|
 |DefaultValue|False|
 |True Label|Success|
 |False Label|Failure|
@@ -486,7 +486,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|State|
 |DefaultFormValue||
-|GlobalChoiceName|`msdyn_migrationtracker_statecode`|
+|GlobalChoiceName|`migrationtracker_statecode`|
 
 #### statecode Choices/Options
 

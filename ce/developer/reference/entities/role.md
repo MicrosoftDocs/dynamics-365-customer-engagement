@@ -23,6 +23,7 @@ Grouping of security privileges. Users are assigned roles that authorize their a
 These relationships are one-to-many. Listed by **SchemaName**.
 
 - [lk_msdyn_roleid](#BKMK_lk_msdyn_roleid)
+- [msdyn_role_msdyn_copilotskillrole_roleid](#BKMK_msdyn_role_msdyn_copilotskillrole_roleid)
 - [msdyn_role_msdyn_personasecurityrolemapping](#BKMK_msdyn_role_msdyn_personasecurityrolemapping)
 - [msdyn_role_msdyn_servicecopilotpluginrole_roleid](#BKMK_msdyn_role_msdyn_servicecopilotpluginrole_roleid)
 - [role_msdyn_appprofilerolemapping](#BKMK_role_msdyn_appprofilerolemapping)
@@ -38,6 +39,18 @@ Many-To-One Relationship: [msdyn_actioncardrolesetting lk_msdyn_roleid](msdyn_ac
 |ReferencedEntityNavigationPropertyName|`msdyn_role_msdyn_actioncardrolesetting`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_role_msdyn_copilotskillrole_roleid"></a> msdyn_role_msdyn_copilotskillrole_roleid
+
+Many-To-One Relationship: [msdyn_copilotskillrole msdyn_role_msdyn_copilotskillrole_roleid](msdyn_copilotskillrole.md#BKMK_msdyn_role_msdyn_copilotskillrole_roleid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_copilotskillrole`|
+|ReferencingAttribute|`msdyn_roleid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_role_msdyn_copilotskillrole_roleid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_role_msdyn_personasecurityrolemapping"></a> msdyn_role_msdyn_personasecurityrolemapping
 

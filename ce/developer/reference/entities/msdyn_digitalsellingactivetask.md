@@ -279,6 +279,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |4|**ReAssignment**|
 |5|**ReSegmentation**|
 |6|**ForceRoute**|
+|7|**RunWithAgentSegment**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
