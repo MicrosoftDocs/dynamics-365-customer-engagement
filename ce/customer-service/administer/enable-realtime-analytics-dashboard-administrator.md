@@ -73,11 +73,10 @@ If you customized the Copilot Service workspace app, you must complete the follo
 
 1. On the Copilot Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
 1. Select **New**.
-1. On the **New page** dialog, select **URL**, and then select **Next**.
-1. Enter the following information, and then select **Add**
-      - **URL**: [Organization Url]/main.aspx?pagetype=control&controlName=MscrmControls.Analytics.ReportingControl&data={"featureIds":"e67a1ada-6c62-4b45-b758-0b246f32c1a5"}
-      - **Title** Omnichannel real-time analytics
-1. From **Navigation**, select **Omnichannel real-time analytics**.
+1. On the **New page** dialog, select **Dataverse Table for Customer Service historical analytics**, and then select **Next**.
+1. To add a Dataverse table, select **Select existing table**, and then select **Omnichannel real-time analytics**.
+1. Select **Show in navigation**, and then select **Add**.
+1. From **Navigation**, select **Omnichannel real-time analytics**, and then select **Settings**.
 1. Enter the following information for **Display options**.
     - **Title**: Omnichannel real-time analytics
     - **Icon**: Select **Use web resource**.
@@ -86,7 +85,6 @@ If you customized the Copilot Service workspace app, you must complete the follo
 1. Select **Advanced Settings**, and then select the following checkboxes:
     - **SKU**: **All**, **On premise**, **Live**, and **SPLA**.
     - **Client**: **Web**.
-    - **Outlook shortcut**: **Pass parameters** and **Offline availability**
 1. Select **Save**, and then select **Publish**.
 
 ### Related information
