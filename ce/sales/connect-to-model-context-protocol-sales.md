@@ -110,7 +110,7 @@ Learn more about the insights returned by the following tools in [Lead research 
 
 The following table lists the tools for using the Copilot capabilities in Dynamics 365 Sales. Make sure that Copilot in Dynamics 365 Sales is configured and turned on. Learn more in [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md).
 
-Learn more about the summaries and insights returned by the following tools in [Use Copilot in Dynamics 365 Sales](use-copilot.md).
+Learn more about the summaries and insights returned by the following tools in [Use Copilot in Dynamics 365 Sales](use-sales-copilot.md).
 
 | Tool name (friendly)         | API name                                         | Purpose                                                      | Parameter(s)                | Returns                                                                                 |
 |------------------------------|--------------------------------------------------|--------------------------------------------------------------|-----------------------------|-----------------------------------------------------------------------------------------|
@@ -142,7 +142,7 @@ In addition to the Sales MCP server tools, you can also use the Dataverse MCP se
 
 ## Copilot Credit consumption rates
 
-Each AI tool in the Sales MCP server will consume Copilot Studio credits based on the amount of data processed and the complexity of the response generated. The credit consumption rates for each tool may vary depending on these factors.
+Each AI tool in the Sales MCP server consumes Copilot Studio credits based on the amount of data processed and the complexity of the response generated. The credit consumption rates for each tool may vary depending on these factors.
 
 | Tool                              | API Call Type           | Copilot Credit Charge (CC) |
 |------------------------------------|-------------------------|----------------------------|
