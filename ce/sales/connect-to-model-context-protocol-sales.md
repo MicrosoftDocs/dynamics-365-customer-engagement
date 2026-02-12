@@ -34,6 +34,7 @@ Ensure that the following prerequisites are met:
 - You have a Copilot Studio license. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).
 - Allow access to Dataverse MCP Server from MCP clients. This is required only if you're planning to use an MCP client other than Copilot Studio. Learn more in [Configure the Dataverse MCP server for an environment](/power-apps/maker/data-platform/data-platform-mcp-disable).
 - If you've previously connected to the Dynamics 365 Sales MCP server (preview), delete the connection as it's now deprecated and will be removed soon.
+- You have enough Copilot Studio credits to use the tools in the Sales MCP server. Learn more about consumption rates for each tool in [Copilot Credit consumption rates](#copilot-credit-consumption-rates).
 
 ## Connect your AI agents and assistants to Sales MCP Server
 
@@ -89,20 +90,82 @@ To connect to the Sales MCP server with Github Copilot in Visual Studio Code, fo
 
 ## Tools supported
 
-The following table lists the tools supported by the Sales MCP Server, powered by the Sales Qualification Agent in Dynamics 365 Sales. Make sure that the agent is configured and turned on. Learn more in [Set up and configure the Sales Qualification Agent](configure-sales-qualification-agent.md).
 
+### Tools related to Sales Qualification Agent
 
-| Tool Name (Friendly)         | API Name                                         | Purpose                                                      | Parameter(s)                | Returns                                                                                 |
+The following table lists the tools for using the Sales Qualification Agent capabilities in Dynamics 365 Sales. Make sure that the agent is configured and turned on. Learn more in [Set up and configure the Sales Qualification Agent](configure-sales-qualification-agent.md).
+
+Learn more about the insights returned by the following tools in [Lead research page](use-sales-qualification-agent.md#lead-research-page).
+
+| Tool name (friendly)         | API name                                         | Purpose                                                      | Parameter(s)                | Returns                                                                                 |
 |------------------------------|--------------------------------------------------|--------------------------------------------------------------|-----------------------------|-----------------------------------------------------------------------------------------|
-| Account Research Tool        | `mcp_sales-mcp-ser_get_account_research`         | Retrieve comprehensive account research data                 | `msdyn_LeadId` (string)     | Financial information, company overview, strategic goals, recent news                   |
-| Competitor Research Tool     | `mcp_sales-mcp-ser_get_competitor_research`      | Retrieve competitor research and competitive landscape       | `msdyn_LeadId` (string)     | Competitive threats, market positioning, alternative suppliers                          |
-| Engagement Analysis Tool     | `mcp_sales-mcp-ser_get_engage_summary`           | Retrieve engagement summary and interaction history for a lead | `msdyn_LeadId` (string)     | Engagement patterns, touchpoint analysis, interaction effectiveness                     |
-| Lead Qualification Tool      | `mcp_sales-mcp-ser_get_lead_qualification_assessment` | Get comprehensive lead qualification assessment against target customer profile criteria | `LeadId` (string)           | Target customer profile standards evaluation, qualification ranking, overall assessment                     |
-| Lead Research Tool           | `mcp_sales-mcp-ser_get_lead_research`            | Retrieve detailed lead research and individual prospect analysis | `msdyn_LeadId` (string)     | Professional background, decision-making authority, preferences                         |
-| Outreach Email Generation Tool | `mcp_sales-mcp-ser_draft_outreach_email`        | Draft personalized sales qualification agent outreach emails | `LeadId` (string)           | Personalized email subject and body with company-specific insights                      |
+| Account research tool        | `mcp_sales-mcp-ser_get_account_research`         | Retrieve comprehensive account research data                 | `msdyn_LeadId` (string)     | Financial information, company overview, strategic goals, recent news                   |
+| Competitor research tool     | `mcp_sales-mcp-ser_get_competitor_research`      | Retrieve competitor research and competitive landscape       | `msdyn_LeadId` (string)     | Competitive threats, market positioning, alternative suppliers                          |
+| Engagement analysis tool     | `mcp_sales-mcp-ser_get_engage_summary`           | Retrieve engagement summary and interaction history for a lead | `msdyn_LeadId` (string)     | Engagement patterns, touchpoint analysis, interaction effectiveness                     |
+| Lead qualification tool      | `mcp_sales-mcp-ser_get_lead_qualification_assessment` | Get comprehensive lead qualification assessment against target customer profile criteria | `LeadId` (string)           | Target customer profile standards evaluation, qualification ranking, overall assessment  |
+| Lead research tool           | `mcp_sales-mcp-ser_get_lead_research`            | Retrieve detailed lead research and individual prospect analysis | `msdyn_LeadId` (string)     | Professional background, decision-making authority, preferences                         |
+| Outreach email generation tool | `mcp_sales-mcp-ser_draft_outreach_email`        | Draft personalized sales qualification agent outreach emails | `LeadId` (string)           | Personalized email subject and body with company-specific insights                      |
 
+### Tools related to Copilot in Dynamics 365 Sales
+
+The following table lists the tools for using the Copilot capabilities in Dynamics 365 Sales. Make sure that Copilot in Dynamics 365 Sales is configured and turned on. Learn more in [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md).
+
+Learn more about the summaries and insights returned by the following tools in [Use Copilot in Dynamics 365 Sales](use-copilot.md).
+
+| Tool name (friendly)         | API name                                         | Purpose                                                      | Parameter(s)                | Returns                                                                                 |
+|------------------------------|--------------------------------------------------|--------------------------------------------------------------|-----------------------------|-----------------------------------------------------------------------------------------|
+| Recent changes tool                  | `msdyn_GetInsights`                      | Retrieve recent changes to leads, accounts, and opportunities owned by the user | None           | List of leads, accounts, and opportunities that were updated since the user's last login                                              |
+| Sales record summary tool              | `msdyn_SalesRecordSummary`               | Retrieve record summary for the given record | `RecordId` (string)         | Summary of the given record based on the fields [configured by the admin](copilot-configure-summary-fields.md).                                                  |
+| Sales lead catchup tool                | `msdyn_SalesLeadCatchup`                 | Retrieve recent lead updates                                 | `LeadId` (string)           | Recent changes to the given lead record for fields [configured by the admin](copilot-configure-summary-fields.md)                                                            |
+| Sales account catchup tool             | `msdyn_SalesAccountCatchup`              | Retrieve recent account updates                              | `AccountId` (string)        | Recent changes to the given account record for fields [configured by the admin](copilot-configure-summary-fields.md)                                                           |
+| Sales opportunity catchup tool         | `msdyn_SalesOpportunityCatchup`          | Retrieve recent opportunity updates                          | `OpportunityId` (string)    | Recent changes to the given opportunity record for fields [configured by the admin](copilot-configure-summary-fields.md)                                                       |
+| SharePoint search results tool         | `msdyn_GetDocumentSearchResults`         | Search SharePoint documents for the given query             | `Query` (string)            | List of documents that contain the given query terms from the [configured SharePoint sites](copilot-sharepoint-config.md).                                                 |
+| SharePoint Q&A tool                    | `msdyn_SalesAnswerFromDocuments`         | Get answers from SharePoint documents for the given query           | `Query` (string)            | Answers from SharePoint documents for the given query from the [configured SharePoint sites](copilot-sharepoint-config.md).                                                        |
+
+### Tools related to Sales Close Agent - Research
+
+The following table lists the tools for using the Sales Close Agent - Research capabilities in Dynamics 365 Sales. Make sure that the Sales Close Agent - Research is configured and turned on. Learn more in [Configure the Sales Close Agent - Research (preview)](configure-opportunity-research-agent.md). 
+
+Learn more about the insights returned by the following tools in [Opportunity research page](use-opportunity-research-agent.md#opportunity-research-page). 
+
+| Tool name (friendly)         | API name                                         | Purpose                                                      | Parameter(s)                | Returns                                                                                 |
+|------------------------------|--------------------------------------------------|--------------------------------------------------------------|-----------------------------|-----------------------------------------------------------------------------------------|
+| Key opportunity insights tool          | `msdyn_GetKeyOpportunityInsights`        | Retrieve key insights for the opportunity from Sales Close Agent          | `OpportunityId` (string)    | Summary of the deal's objective, status, and key facts.                                                       |
+| Key opportunity signals tool           | `msdyn_GetKeyOpportunitySignals`         | Retrieve the key signals for the opportunity from Sales Close Agent           | `OpportunityId` (string)    | Most recent developments for the given opportunity                                                           |
+| Key opportunity stakeholders tool      | `msdyn_GetKeyOpportunityStakeholders`    | Retrieve key stakeholders for the opportunity from Sales Close Agent      | `OpportunityId` (string)    | List of key stakeholders and decision makers for the opportunity                                                     |
+| Opportunity health tool                | `msdyn_GetOpportunityHealth`             | Retrieve opportunity health from Sales Close Agent                | `OpportunityId` (string)    | Health status for the opportunity based on the MEDDPICC framework (Metrics, Economic Buyer, Decision Process, Decision Criteria, Paper Process, Identify Pain, Champion, Competition).                                                         |
+| Opportunity pain points and needs tool | `msdyn_GetOpportunityPainPointsAndNeeds` | Retrieve opportunity pain points and needs from Sales Close Agent | `OpportunityId` (string)    | List of pain points and needs related to the opportunity                                                |
+| Opportunity top risks tool             | `msdyn_GetOpportunityTopRisks`           | Retrieve opportunity top risks from Sales Close Agent             | `OpportunityId` (string)    | Top risks for the opportunity based on the [risks criteria configured by your admin](opportunity-research-agent-advanced-settings.md)                                                          |
+| Opportunity deal overview tool         | `msdyn_GetOpportunityResearchResult`     | Retrieve all opportunity insights from Sales Close Agent          | `OpportunityId` (string)    | Comprehensive insights for the opportunity                                               |
 
 In addition to the Sales MCP server tools, you can also use the Dataverse MCP server tools to perform CRUD operations on the records in Dynamics 365 Sales. Learn more about the supported Dataverse MCP server tools in [Connect to Dataverse with Model Context Protocol](/power-apps/maker/data-platform/data-platform-mcp). 
+
+## Copilot Credit consumption rates
+
+Each AI tool in the Sales MCP server will consume Copilot Studio credits based on the amount of data processed and the complexity of the response generated. The credit consumption rates for each tool may vary depending on these factors.
+
+| Tool                              | API Call Type           | Copilot Credit Charge (CC) |
+|------------------------------------|-------------------------|----------------------------|
+| get_lead_research                  | Dataverse read          | 0.1 CC                     |
+| get_account_research               | Dataverse read          | 0.1 CC                     |
+| get_competitor_research            | Dataverse read          | 0.1 CC                     |
+| draft_outreach_email               | CAPI call (AI)          | 2 CC                       |
+| get_engage_summary                 | Dataverse read          | 0.1 CC                     |
+| get_lead_qualification_assessment  | CAPI call (AI)          | 2 CC                       |
+| get_customer_updates               | Dataverse read          | 0.1 CC                     |
+| get_sales_record_summary           | CAPI call (AI)          | 2 CC                       |
+| get_sales_lead_catchup             | Dataverse read          | 0.1 CC                     |
+| get_sales_account_catchup          | Dataverse read          | 0.1 CC                     |
+| get_sales_opportunity_catchup      | Dataverse read          | 0.1 CC                     |
+| get_sharepoint_search_results      | CAPI call               | 2 CC                       |
+| get_answer_from_sharepoint_documents| CAPI call (AI)         | 2 CC                       |
+| get_key_opportunity_insights       | Dataverse read          | 0.1 CC                     |
+| get_key_opportunity_signals        | Dataverse read          | 0.1 CC                     |
+| get_key_opportunity_stakeholders   | Dataverse read          | 0.1 CC                     |
+| get_opportunity_health             | Dataverse read          | 0.1 CC                     |
+| get_opportunity_pain_points_and_needs| Dataverse read        | 0.1 CC                     |
+| get_opportunity_top_risks          | Dataverse read          | 0.1 CC                     |
+| msdyn_GetOpportunityResearchResult | Dataverse read          | 0.1 CC                     |
 
 
 ## What can you do with the Sales MCP server?
