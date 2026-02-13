@@ -191,8 +191,8 @@ Excel sample 2:
 ### View a simulation report
 
 1. On the **Case creation and update simulation** page, go to the **Simulation result** tab. Simulations are listed with details of the simulation name, run date, status, result, average prediction match, and action.
-1. Select **Download results** or **View**.
-1. Select **Re-run** if modify field descriptions or prediction rules. You don't need to select or upload again.
+1. Select **Download results** to export an Excel report or **View** to view the results.
+1. Select **Re-run** if you modify field descriptions or prediction rules. You don't need to select or upload again.
 
 When you select **View**, the **Simulation overview** page appears.
 - In the **Simulation setup (read-only)** section, you can review the configuration details used for the simulation.
