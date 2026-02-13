@@ -151,7 +151,7 @@ To allow the AI agent to autonomously create cases across all provisioned messag
 
 ##  Run simulations to evaluate field prediction accuracy in Case Management Agent
 
-Use simulation in Case Management Agent to validate the performance of AI‑powered field prediction on your organization’s historical data, sample email, or chat input. Assess prediction quality for confidence in the output before enabling the feature in production.
+Use simulation in Case Management Agent to validate the performance of AI‑powered field prediction on your organization’s historical data, sample email, or chat input. Assess prediction quality for confidence in the output before enabling the capability in production.
 
 > [!NOTE]
 > - Simulations run the same field prediction pipeline that Case Management Agent uses in live cases. As predictions are generated in bulk, simulations consume Copilot or AI credits in the same way as regular field predictions. You must ensure that [Pay‑as‑you‑go billing](setup-pay-as-you-go.md) is configured for your environment.
