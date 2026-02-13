@@ -217,7 +217,6 @@ If you download an excel report, it shows the following for each record:
 
 - Start with small record sets (20–30 cases) to validate your field descriptions.
 - Run multiple simulations focusing on different product lines, categories, and languages or regions.
-  - Different categories
   - Different languages or regions
 - Refine field descriptions whenever prediction errors show recurring patterns.
 - Use excel upload testing to evaluate chat transcripts or new email templates before launching new workflows. 
