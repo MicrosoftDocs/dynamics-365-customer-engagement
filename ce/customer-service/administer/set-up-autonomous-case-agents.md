@@ -192,7 +192,7 @@ You can configure a simulation by using organization records or uploading an Exc
 
 On the **Case creation and update simulation** page, go to the **Simulation result** tab. Simulations are listed with details of the simulation name, run date, status, result, average prediction match, and action.
 
-- Select **Download results** to export an Excel report. The report displays the record ID and predicted field values for each record. 
+- Select **Download** to export an Excel report. The report displays the record ID and predicted field values for each record. 
 - Select **View**. The **Simulation overview** page displays the following details:
   - **Simulation setup (read-only)**: Configuration details used for the simulation.
   - **Field prediction match**: Details of the AI predictions when you select organization records. You can sort the list by prediction accuracy or alphabetically.
