@@ -154,7 +154,7 @@ To allow the AI agent to autonomously create cases across all provisioned messag
 Use simulation in Case Management Agent to validate the performance of AI‑powered field prediction on your organization’s historical data, sample email, or chat input. Assess prediction quality for confidence in the output before you enable the capability in production.
 
 > [!NOTE]
-> - Simulations run the same field prediction pipeline that Case Management Agent uses in live cases. As predictions are generated in bulk, simulations consume Copilot or AI credits in the same way as regular field predictions.
+> Simulations run the same field prediction pipeline that Case Management Agent uses in live cases. As predictions are generated in bulk, simulations consume Copilot or AI credits in the same way as regular field predictions.
 
 ### Set up a simulation
 
@@ -194,11 +194,11 @@ On the **Case creation and update simulation** page, go to the **Simulation resu
 
 - Select **Download results** to export an Excel report. The report displays the record ID and predicted field values for each record. 
 - Select **View** to view the results. The **Simulation overview** page displays the following details:
- - **Simulation setup (read-only)**: Configuration details used for the simulation.
- - **Field prediction match**: Details of the AI predictions when you select organization records. You can sort the list by prediction accuracy or alphabetically.
-  - Prediction match (%) indicates how often predicted values match actual case values.
-  - Cases are included only when both predicted and actual values are available. Text and multiline text fields are excluded.
- - **Detailed view**: Shows case-level details, such as actual and predicted values, and lets you add columns or download the data as an Excel file.
+  - **Simulation setup (read-only)**: Configuration details used for the simulation.
+  - **Field prediction match**: Details of the AI predictions when you select organization records. You can sort the list by prediction accuracy or alphabetically.
+    - Prediction match (%) indicates how often predicted values match actual case values.
+    - Cases are included only when both predicted and actual values are available. Text and multiline text fields are excluded.
+  - **Detailed view**: Shows case-level details, such as actual and predicted values, and lets you add columns or download the data as an Excel file.
 - Select **Re-run** if you modify field descriptions or prediction rules. You don't need to select or upload again.
 
 #### Best practices for data sources
