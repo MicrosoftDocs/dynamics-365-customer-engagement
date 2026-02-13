@@ -206,7 +206,7 @@ On the **Case creation and update simulation** page, go to the **Simulation resu
 - Start with small record sets (20–30 cases) to validate your field descriptions.
 - Run multiple simulations focusing on different product lines, categories, and languages or regions.
 - Refine field descriptions whenever prediction errors show recurring patterns.
-- Test chats or emails with Excel uploads before launch. 
+- Test chats or emails with Excel files before launch. 
 
 ## Configure AI-assisted case creation for service representatives
 
