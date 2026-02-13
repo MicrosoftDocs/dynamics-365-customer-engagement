@@ -174,14 +174,14 @@ You can configure a simulation by using organization records or uploading an Exc
             1. **Upload File**: Upload the simulation input file. The maximum file size is 1 MB and you can upload an Excel with a maximum of 100 records.
   1. Select **Run simulation**.
 
-Excel sample 1:
+**Excel sample 1:**
 
 |Email  |
 |---------|
 |Subject: Sign in Issue <br> Hello Support Team, <br>I’m unable to log in to my account despite using the correct credentials. Please help resolve this issue. <br> Thanks, John Doe. <br> Mobile: +91 xxxxx xxxx    |
 |Subject: Password Reset Help <br> Hello Customer Support, <br>I’m not receiving the password reset email. Could you please assist? Regards, John Doe. <br>Mobile: +91 xxxxx xxxx |
 
-Excel sample 2:
+**Excel sample 2:**
 
 |Email subject  | Email body  |Sent  |
 |---------|---------|---------|
