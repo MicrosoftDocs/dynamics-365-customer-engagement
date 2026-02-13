@@ -151,7 +151,7 @@ To allow the AI agent to autonomously create cases across all provisioned messag
 
 ##  Run simulations to evaluate field prediction accuracy in Case Management Agent
 
-Use simulation in Case Management Agent to validate the performance of AI‑powered field prediction on your organization’s historical data, sample email, or chat input. Assess prediction quality for confidence in the output before enabling the capability in production.
+Use simulation in Case Management Agent to validate the performance of AI‑powered field prediction on your organization’s historical data, sample email, or chat input. Assess prediction quality for confidence in the output before you enable the capability in production.
 
 > [!NOTE]
 > - Simulations run the same field prediction pipeline that Case Management Agent uses in live cases. As predictions are generated in bulk, simulations consume Copilot or AI credits in the same way as regular field predictions.
@@ -190,19 +190,16 @@ Excel sample 2:
 
 ### View a simulation report
 
-1. On the **Case creation and update simulation** page, go to the **Simulation result** tab. Simulations are listed with details of the simulation name, run date, status, result, average prediction match, and action.
-1. Select **Download results** to export an Excel report or **View** to view the results.
-1. Select **Re-run** if you modify field descriptions or prediction rules. You don't need to select or upload again.
+On the **Case creation and update simulation** page, go to the **Simulation result** tab. Simulations are listed with details of the simulation name, run date, status, result, average prediction match, and action.
 
-When you select **View**, the **Simulation overview** page appears.
-- In the **Simulation setup (read-only)** section, you can review the configuration details used for the simulation.
-- For organization records, the **Field prediction match** section shows details of the AI predictions. You can sort the list by prediction accuracy or alphabetically.
+- Select **Download results** to export an Excel report. The report displays the record ID and predicted field values for each record. 
+- Select **View** to view the results. The **Simulation overview** page displays the following details:
+ - **Simulation setup (read-only)**: Configuration details used for the simulation.
+ - **Field prediction match**: Details of the AI predictions when you select organization records. You can sort the list by prediction accuracy or alphabetically.
   - Prediction match (%) indicates how often predicted values match actual case values.
   - Cases are included only when both predicted and actual values are available. Text and multiline text fields are excluded.
-  - To improve prediction accuracy, ensure your records include clear and descriptive field information.
-- The **Detailed view** section shows case-level details, such as actual and predicted values, and lets you add columns or download the data as an Excel file.
-
-If you download an Excel report, you see the record ID and predicted field values for each record. If multiple fields are selected for prediction, each field appears in a separate column.
+ - **Detailed view**: Shows case-level details, such as actual and predicted values, and lets you add columns or download the data as an Excel file.
+- Select **Re-run** if you modify field descriptions or prediction rules. You don't need to select or upload again.
 
 #### Best practices for data sources
 
