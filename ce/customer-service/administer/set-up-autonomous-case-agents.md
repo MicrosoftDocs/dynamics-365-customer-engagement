@@ -163,7 +163,7 @@ Before you run a simulation, ensure that:
 
 ### Set up a simulation
 
-You can configure a simulation using organization records, which represent cases, or by uploading an excel file containing exported email or chat responses.
+You can configure a simulation by using organization records or uploading an excel file containing exported email or chat responses.
 
 1. In **Customer support**, select **Case settings**.
 1. On the **Case settings** page, select **Manage** for **Case Management Agent**.
