@@ -901,7 +901,7 @@ items:
             href: copilot-get-doc-suggestions.md
           - name: Copilot in Dynamics 365 Sales FAQ
             href: sales-copilot-faq.md
-      - name: AI features from Power Apps
+      - name: AI capabilities for model-driven apps
         items:
           - name: Fill forms effortlessly with AI assistance
             href: use-form-fill-assistance.md
