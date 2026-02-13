@@ -185,7 +185,7 @@ Excel sample 2:
 
 |Email subject  | Email body  |Sent  |
 |---------|---------|---------|
-|Login Issue | Hello Support Team, <br>I’m unable to log in to my account despite using the correct credentials. Please help resolve this issue. <br>Thanks, John Doe. <br>Mobile: +91 xxxxx xxxx |  6/1/26 8pm    |
+|Sign in Issue | Hello Support Team, <br>I’m unable to log in to my account despite using the correct credentials. Please help resolve this issue. <br>Thanks, John Doe. <br>Mobile: +91 xxxxx xxxx |  6/1/26 8pm    |
 |Password Reset Help |  Hello Customer Support, I’m not receiving the password reset email. Could you please assist?<br> Regards, John Doe. <br> Mobile: +91 xxxxx xxxx  | 6/1/26 8pm | 
 
 ### View a simulation report
