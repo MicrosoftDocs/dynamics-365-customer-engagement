@@ -49,8 +49,8 @@ Download and install the Field Service and Project Operations data package and t
 
 1. Select the **Other** tab. Choose your option for **Auto-Approve Project Approval**.
 
-   - **Yes** if your organization wants to automatically approve the items on the Material Usage Logs (MULs) that come from Field Service and generate actuals without a review. This toggle doesn't apply to MULs that come from Project Operations.
-   - **No** if your organization wants to review the items on the Material Usage Logs (MULs). Only upon manual approval, the system generates actuals.
+   - **Yes** if your organization wants to automatically approve the items on the material usage logs that come from Field Service and generate actuals without a review. This toggle doesn't apply to MULs that come from Project Operations.
+   - **No** if your organization wants to review the items on the material usage logs. Only upon manual approval, the system generates actuals.
 
 1. Select **Save & Close**.
 
@@ -62,17 +62,17 @@ Determine if your organization wants Field Service or Project Operations to defi
 
 - **Calculate Cost in Field Service** = Yes (default) so that cost comes from the work order products and services.
 
-:::image type="content" source="media/project-operations-integration-price-settings.png" alt-text="Screenshot of Field Service Settings screen, Work Order and Bookings tab.":::
+:::image type="content" source="media/project-operations-integration-price-settings.png" alt-text="Screenshot of Field Service Settings screen, Work Order, and Bookings tab.":::
 
-If you want Project Operations to define pricing and costing logic instead of Field Service, perform the following steps:
+If you want Project Operations to define pricing and costing logic instead of Field Service, do the following:
 
 1. In the Field Service Settings area, select the **Work Order / Booking** tab.
 
 1. Change the settings to **No**.
 
-   - **Calculate Price in Field Service** = No so that the price comes from the project contract's **Sales Price List**.
+   - **Calculate Price in Field Service** = So that the price comes from the project contract's **Sales Price List**.
 
-   - **Calculate Cost in Field Service** = No so that cost comes from the contracting unit **Cost Price List**.
+   - **Calculate Cost in Field Service** = So that cost comes from the contracting unit **Cost Price List**.
 
 1. Select **Save & Close**.
 

@@ -1,7 +1,7 @@
 ---
 title: Enable and configure relationship intelligence
 description: Enable relationship intelligence to provide relationship health and who knows whom information to your sellers.
-ms.date: 05/09/2025
+ms.date: 02/09/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -25,7 +25,8 @@ Enable relationship intelligence to give your sales team important insights base
 
 - Ensure that advanced Sales Insights features are enabled. To learn more, [Enable and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features).
 
-- If you want Dynamics 365 Sales to use emails and meetings from Exchange to generate insights, [enable server-side synchronization for Exchange](configure-email.md). Otherwise, insights are generated only using emails and data stored in Dynamics 365.
+- If you want Dynamics 365 Sales to use emails and meetings from Exchange to generate insights, [enable server-side synchronization for Exchange](configure-email.md). Otherwise, insights are generated only using emails and data stored in Dynamics 365. Also, notify the sellers to set the tracking option in the Sales Hub app from **Settings** > **Personalization settings** > **Emails**  > **Track**.
+      :::image type="content" source="media/email-track-personal-options.png" alt-text="Screenshot of the Personalization settings page in Dynamics 365 Sales with the All email messages option selected.":::
 - Ensure that your Office 365 data is in one of the following locations and not in your region-specific datacenter location:
     - Global Geography 1 – EMEA (Austria, Finland, France, England, Ireland, Netherlands)
     - Global Geography 2 – Asia Pacific (Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
