@@ -191,8 +191,8 @@ Excel sample 2:
 ### View a simulation report
 
 1. On the **Case creation and update simulation** page, go to the **Simulation result** tab. Simulations are listed with details of the simulation name, run date, status, result, average prediction match, and action.
-1. Select **Download results** to export an Excel report or **View** to view the results.
-1. Select **Re-run** to modify field descriptions or prediction rules. You don't need to select or upload again.
+1. Select **Download results** or **View**.
+1. Select **Re-run** if modify field descriptions or prediction rules. You don't need to select or upload again.
 
 When you select **View**, the **Simulation overview** page appears.
 - In the **Simulation setup (read-only)** section, you can review the configuration details used for the simulation.
@@ -202,7 +202,7 @@ When you select **View**, the **Simulation overview** page appears.
   - To improve prediction accuracy, ensure your records include clear and descriptive field information.
 - The **Detailed view** section shows case-level details, such as actual and predicted values, and lets you add columns or download the data as an Excel file.
 
-If you download an Excel report, you see the record ID and predicted field values.
+If you download an Excel report, you see the record ID and predicted field values for each record. If multiple fields are selected for prediction, each field appears in a separate column.
 
 #### Best practices for data sources
 
