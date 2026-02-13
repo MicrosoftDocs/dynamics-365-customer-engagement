@@ -171,7 +171,7 @@ You can configure a simulation by using organization records or uploading an Exc
             1. **Show records**: Displays a list of records that you can select to use in simulation. You can select up to 100 case records.
         1. **Excel Upload**: Select an unencrypted file. The values are consolidated into a single string before they are used in prediction.
             1. **Fields for AI prediction**: Provide the fields for AI prediction.
-            1. **Upload File**: Upload the simulation input file. The maximum file size is 1 MB and you can upload an Excel with a maximum of 100 records.
+            1. **Upload File**: Upload the simulation input Excel file. The maximum file size is 1 MB with a maximum of 100 records.
   1. Select **Run simulation**.
 
 **Excel sample 1:**
