@@ -50,6 +50,14 @@ When you enable the transfer to representative setting, representatives can sele
 1. On the **Consult and transfer** page, in **Transfer settings** turn on the **transfer to representatives** toggle.
 1. Select **Save**.
 
+## Enable wrap-up time for transfer
+
+In a transfer scenario, service representatives need time for post-interaction tasks like finalizing notes after transferring their conversation.
+
+In **Transfer settings**, enable **Wrap up after transfer**. The system blocks dedicated time for the wrap-up activities as configured in the workstream.
+
+When a service representative transfers a conversation to another representative, queue, AI agent, or external representatives, the system automatically provides wrap-up time after the transfer is completed. The **Block capacity for wrap up** under [work distribution settings](create-workstreams.md#configure-work-distribution) of the workstream determines the wrap-up behavior. Learn more about wrap up in [Understand conversation states](..\use\oc-conversation-state.md#wrap-up).
+
 ## Configure custom inbox view for consult sessions
 
 Representatives can configure the inbox to show their consult sessions. The inbox view helps representatives rejoin the consulted sessions and leave the consultation to release their capacity.
