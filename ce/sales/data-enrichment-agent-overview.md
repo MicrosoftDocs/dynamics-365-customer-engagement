@@ -22,7 +22,7 @@ ai-usage: ai-assisted
 The AI-powered Data Enrichment feature helps sellers and managers maintain accurate and complete opportunity data. Incomplete or outdated opportunity records can lead to missed sales, inaccurate forecasting, and inefficient deal reviews. The AI-powered Data Enrichment feature addresses this challenge by automatically analyzing recent email interactions and suggesting or making updates to opportunity records. This proactive approach reduces manual data entry, improves pipeline confidence, and supports more effective deal reviews and forecasting.
 
 > [!NOTE]
-> Data Enrichment currently supports only emails stored in Dataverse. Ensure that your admin [enabled server-side synchronization](configure-email.md) for emails to leverage this feature.
+>The Data Enrichment feature is supported only for emails stored in Dataverse. Ensure that your admin [enabled server-side synchronization](configure-email.md) for emails to leverage this feature.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -44,8 +44,7 @@ Depending on your role, refer to the following articles to set up and use the AI
 | User role | Reference |
 |-----------|-----------|
 | Administrator | [Set up and configure AI-powered Data Enrichment](data-enrichment-agent-configure.md)<br>[Responsible AI FAQ about AI-powered Data Enrichment for opportunities](FAQs-data-enrichment-agent.md) |
-| Seller | [Review and approve suggestions from Data Enrichment](use-data-enrichment-agent.md) |
-| Supervisor | [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md)|
+| Seller | [Review and approve Data Enrichment suggestions (preview)](use-data-enrichment-agent.md) |
 
 
 ## Capacity usage
