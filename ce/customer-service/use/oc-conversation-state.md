@@ -83,15 +83,15 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** under th
 
 ### Wrap-up behavior on transfer of conversations
 
-If **Wrap up after transfer** is enabled in the **Consult and transfer** page of Copilot Service admin center and **Block capacity for wrap up** is configured in tbe work distribution setting, the wrap-up behavior is as follows:
+If **Wrap up after transfer** is enabled in the **Consult and transfer** page of Copilot Service admin center and **Block capacity for wrap up** is configured in the work distribution setting, the wrap-up behavior is as follows:
 
 - Representative A transfers conversation to representative B.
 
 - The session of the first representative goes into Wrap-up status and the second representative session becomes active.
-- After wrap-up time lapses or the first representative closes the session, the session goes into closed state.
-- If the second representative ends the conversation, the conversation moves into wrap-up status, the session for the second representative also moves into wrap-up status.
+- After the wrap-up time lapses or the first representative closes the session, the session goes into closed state.
+- If the second representative ends the conversation, both the conversation and session for the second representative move into the wrap-up status.
 
-An explanation of the conversation states in different scenarios is as follows.
+The following table shows the scenarios when the first representative completes the wrap-up activity before the second representative ends the call.
 
 | Session 1 (Representative A) | Session 2 (Representative B) | Action | Conversation state |
 |--------------------|----------------------|--------|--------------------|
@@ -100,6 +100,8 @@ An explanation of the conversation states in different scenarios is as follows.
 | Closed             | Active               | 1st session close | Active             |
 | Closed             | Wrap up              | Call end          | Wrap up            |
 | Closed             | Closed               | 2nd session close | Closed             |
+
+The following table displays the scenarios when the call ends while the first representative is still doing the wrap-up activities.
 
 | Session 1 (Representative A) | Session 2 (Representative B) | Action | Conversation state |
 |--------------------|----------------------|--------|--------------------|

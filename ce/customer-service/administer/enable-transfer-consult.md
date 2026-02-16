@@ -56,7 +56,7 @@ In a transfer scenario, service representatives need time for post-interaction t
 
 In **Transfer settings**, enable **Wrap up after transfer**. The system blocks dedicated time for the wrap-up activities as configured in the workstream.
 
-When a service representative transfers a conversation to another representative, queue, AI agent, or external representatives, the system automatically provides wrap-up time after the transfer is completed. The **Block capacity for wrap up** under [work distribution settings](create-workstreams.md#configure-work-distribution) of the workstream determine the wrap-up behavior. Learn more about wrap up in [Understand conversation states](..\use\oc-conversation-state.md#wrap-up).
+When a service representative transfers a conversation to another representative, queue, AI agent, or external representatives, the system automatically provides wrap-up time after the transfer is completed. The **Block capacity for wrap up** under [work distribution settings](create-workstreams.md#configure-work-distribution) of the workstream determines the wrap-up behavior. Learn more about wrap up in [Understand conversation states](..\use\oc-conversation-state.md#wrap-up).
 
 ## Configure custom inbox view for consult sessions
 
