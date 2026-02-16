@@ -27540,6 +27540,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/teams-integration/add-chat-d365.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#add-chat-message-to-dynamics-365-record-in-microsoft-teams",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/cfs-authorize-api-connection.md",
       "redirect_url": "/dynamics365/field-service/installation-setup-iothub"
     },

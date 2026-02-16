@@ -71,4 +71,4 @@ You can also share a record by pasting the URL of a Dynamics 365 record. You can
 [Edit settings of the Dynamics 365 app](edit-d365-app.md)    
 [Share feedback](share-feedback-d365-app.md)    
 [View and update record details](view-update-dynamics-records.md)   
-[Add chat messages to Dynamics 365 as notes or tasks](add-chat-d365.md)   
+

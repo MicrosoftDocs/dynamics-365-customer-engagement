@@ -4,7 +4,7 @@ description: Learn about how to add a Copilot agent to use in the voice channel 
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 01/19/2026
+ms.date: 02/11/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.collection: bap-ai-copilot
@@ -29,6 +29,7 @@ The following voice capabilities are available for the Copilot agents:
 - [!INCLUDE[cc-natural-language-model](../../includes/cc-natural-language-model.md)]
 - Enable constrained speech recognition using grammars for optimized recognition of alphanumeric strings like tracking and account numbers and list-based input like addresses and stock tickers. Learn more in [Use external speech grammars](/microsoft-copilot-studio/voice-external-grammars).
 - Control the call flow by [transferring](/microsoft-copilot-studio/voice-configuration#transfer-a-call-to-an-agent-or-external-phone-number) or [terminating](/microsoft-copilot-studio/voice-configuration#configure-call-termination) calls. If a customer wants to talk to a live representative, the voice copilot can transfer the call to an available representative or an external phone number. If the voice copilot can't solve the customer issue, it can end the call and give an appropriate message.
+- Context from and to external systems as part of the telephony call can be passed through Dynamics 365 Contact Center voice agents. The setting applies to incoming calls and outbound transfers to external phone numbers with direct routing telephony configuration. Context is supported through SIP User-to-User (SIP UUI) headers and SIP X-Headers. UUI enables passing extended call-related data in a standardized field, while SIP X-Headers provide a flexible way to include custom context fields, helping organizations preserve existing telephony setups and enabling richer integration across systems. Learn about how to configure SIP X-headers in [Configure SIP X-headers for voice-enabled agents](/microsoft-copilot-studio/voice-sip-x-header).
 
 ## Supported languages and locale codes
 

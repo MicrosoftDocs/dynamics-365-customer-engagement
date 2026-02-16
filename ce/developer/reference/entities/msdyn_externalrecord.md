@@ -10,7 +10,7 @@ search.audienceType:
 
 # External Record (msdyn_externalrecord) table/entity reference (Microsoft Dynamics 365)
 
-External Record - Copilot for Sales
+External Record - M365 Copilot Sales
 
 ## Messages
 
