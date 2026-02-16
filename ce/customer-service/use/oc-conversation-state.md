@@ -91,7 +91,7 @@ If **Wrap up after transfer** is enabled in the **Consult and transfer** page of
 - After the wrap-up time lapses or the first representative closes the session, the session goes into closed state.
 - If the second representative ends the conversation, both the conversation and session for the second representative move into the wrap-up status.
 
-The following table shows the scenarios when the first representative completes the wrap-up activity before the second representative ends the call.
+The following table displays the scenarios when the first representative completes the wrap-up activities before the second representative ends the call.
 
 | Session 1 (Representative A) | Session 2 (Representative B) | Action | Conversation state |
 |--------------------|----------------------|--------|--------------------|
