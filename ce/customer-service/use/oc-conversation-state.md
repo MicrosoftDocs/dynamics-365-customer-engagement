@@ -1,7 +1,7 @@
 ---
 title: Understand conversation states 
 description: Use this article to learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service.
-ms.date: 02/11/2026
+ms.date: 02/16/2026
 ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
@@ -91,29 +91,26 @@ If **Wrap up after transfer** is enabled in the **Consult and transfer** page of
 - After wrap-up time lapses or the first representative closes the session, the session goes into closed state.
 - If the second representative ends the conversation, the conversation moves into wrap-up status, the session for the second representative also moves into wrap-up status.
 
-An explanation of the states is as follows.
-
+An explanation of the conversation states in different scenarios is as follows.
 
 | Session 1 (Representative A) | Session 2 (Representative B) | Action | Conversation state |
 |--------------------|----------------------|--------|--------------------|
 | Active             | Not applicable       | New call          | Active             |
 | Wrap Up            | Active               | Transfer          | Active             |
 | Closed             | Active               | 1st session close | Active             |
-| Closed             | Wrap up              | Call ended          | Wrap up            |
+| Closed             | Wrap up              | Call end          | Wrap up            |
 | Closed             | Closed               | 2nd session close | Closed             |
 
-
-| Session 1 (Representative A) | Session 2 (Representative B) | Action | Conversation State |
+| Session 1 (Representative A) | Session 2 (Representative B) | Action | Conversation state |
 |--------------------|----------------------|--------|--------------------|
 | Active             | Not applicable       | New call          | Active             |
 | Wrap up            | Active               | Transfer          | Active             |
-| Wrap up            | Wrap up              | Call ended          | Wrap up            |
+| Wrap up            | Wrap up              | Call end          | Wrap up            |
 | Wrap up            | Closed               | 2nd session close | Wrap up            |
 | Closed             | Closed               | 1st session close | Closed             |
 
-
 > [!NOTE]
-> When a live chat conversation gets disconnected, Omnichannel for Customer Service automatically moves **Active** conversations to the **Wrap-up** state. Learn more in [Understand disconnected chats](oc-conv-state-chat-disconnect.md).
+> When a live chat conversation gets disconnected, the system automatically moves **Active** conversations to the **Wrap-up** state. Learn more in [Understand disconnected chats](oc-conv-state-chat-disconnect.md).
 
 ## Waiting
 
