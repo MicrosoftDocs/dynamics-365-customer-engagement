@@ -236,7 +236,7 @@ items:
                   href: view-sales-close-agent-engage-processed-records.md  
                 - name: How the agent works
                   href: how-sales-close-agent-engage-mode-works.md
-          - name: AI-powered Data Enrichment
+          - name: AI-powered Data Enrichment (preview)
             items:
               - name: Overview
                 href: data-enrichment-agent-overview.md
@@ -1525,7 +1525,7 @@ items:
             href: faqs-about-opportunity-research.md
           - name: Sales Close Agent - Engage FAQ
             href: faqs-about-sales-close-agent-engage.md  
-      - name: Responsible AI FAQs about Data Enrichment
+      - name: Responsible AI FAQs about Data Enrichment (preview)
         href: faqs-data-enrichment-agent.md
       - name: Responsible AI FAQs about Sales Research Agent
         href: faqs-about-sales-research-agent.md
