@@ -7,9 +7,6 @@ ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
   - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
