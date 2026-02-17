@@ -62,6 +62,9 @@ The direct callback is triggered by the queue overflow conditions where the corr
 1. When the work item reaches the position 1, a voice callback is initiated automatically.
 1. The callback is of the type preview dialing, in which the representative has to accept the callback using a callback-specific notification before the call is dialed.
 
+> [!NOTE]
+> For callbacks with post-call survey, an "Agent Disconnection" message is played before the survey is engaged. 
+
 ## Next steps
 
 [Manage overflow of work items in queues](manage-overflow.md)  
