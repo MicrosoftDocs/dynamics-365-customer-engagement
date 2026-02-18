@@ -51,6 +51,21 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/use-form-fill-assistance.md",
+      "redirect_url": "/dynamics365/sales/form-filling-assistance",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/find-data-in-view-with-ai.md",
+      "redirect_url": "/dynamics365/sales/find-data-with-ai",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/visualize-data-in-view-with-ai.md",
+      "redirect_url": "/dynamics365/sales/visualize-data-in-copilot",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/sales-ai-agents-faqs.md",
       "redirect_url": "/dynamics365/sales/ai-agent-overview",
       "redirect_document_id": "false"

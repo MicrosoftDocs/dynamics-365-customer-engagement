@@ -1,8 +1,12 @@
 ---
 title: Visualize data in a view with Copilot (preview)
-description: Learn how to visualize your data in a view using Copilot in Power Apps.
+description: Learn how to visualize your data in a view as a chart using Copilot in Dynamics 365 Sales.
 ms.topic: overview
-ms.date: 02/16/2026
+ms.date: 02/18/2026
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
+ms.collection: bap-ai-copilot
 ---
 
 # Visualize data in a view with Copilot (preview)
