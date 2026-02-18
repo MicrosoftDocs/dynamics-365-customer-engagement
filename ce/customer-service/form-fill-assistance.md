@@ -9,4 +9,4 @@ ms.date: 02/18/2026
 
 # Use Copilot's form fill assistance feature in model-driven apps
 
-[!INCLUDE [form-fill-assistance](~/../shared-content/shared/dynamics365-core/form-fill-assistance.md)]
+[!INCLUDE [form-fill-assistance](~/../shared-content/shared/dynamics365-core/form-filling-assistance.md)]
