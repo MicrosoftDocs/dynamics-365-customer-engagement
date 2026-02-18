@@ -917,10 +917,10 @@ items:
             href: copilot-get-doc-suggestions.md
           - name: Copilot in Dynamics 365 Sales FAQ
             href: sales-copilot-faq.md
-      - name: AI capabilities for model-driven apps
+      - name: AI capabilities in all model-driven apps
         items:
           - name: Use Copilot's form fill assistance feature in model-driven apps
-            href: form-filling-assistance.md
+            href: form-fill-assistance.md
           - name: Find data in a view with AI (preview)
             href: find-data-with-ai.md
           - name: Visualize data in a view with Copilot (preview)
