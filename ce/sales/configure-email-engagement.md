@@ -1,7 +1,7 @@
 ---
 title: Configure email engagement
 description: Configure email engagement to show alerts and reminders for sellers and sales managers to help build customer relationships.
-ms.date: 05/08/2025
+ms.date: 02/18/2026
 ms.topic: how-to
 ms.assetid: 04db6801-020a-4a99-9ad3-907422524b6f
 author: udaykirang
@@ -35,7 +35,7 @@ Verify the following prerequisites before enabling email engagement for your org
 - To let sellers follow or track email attachments: <a name="prereq-follow-email-attachments"> </a>
     - [Enable OneDrive for Business in your Dynamics 365 Sales environment.](/power-platform/admin/enable-onedrive-for-business)  
     - [Enable SharePoint document management for emails in Dynamics 365 Sales.](/power-platform/admin/enable-sharepoint-document-management-specific-entities)  
-    - [Enable external sharing of SharePoint](/sharepoint/external-sharing-overview) so that external, unauthenticated users can access access file attachments.  
+    - [Enable external sharing of SharePoint](/sharepoint/external-sharing-overview) so that external, unauthenticated users can access file attachments.  
 - [Enable [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] in Sales](/dynamics365/customer-engagement/admin/system-settings-dialog-box-general-tab) for delivery-time recommendations based on recipients' time zones.  
 - To count email replies, ensure that the settings within the **Tracking email conversations** section are properly configured in the Power Platform admin center. More information: [Manage email tracking settings](/power-platform/admin/settings-email-tracking).
 
@@ -70,10 +70,10 @@ To disable the feature, do the following steps:
 
 1. In the sales app, go to **Settings** > **Advanced Settings**.  
 1. Go to **Customization** > **Customizations** > **Customize the System**.  
-1. Select **Tables**, expand the **Settings** table, and then select **Settings definitions**.  
+1. In the solution navigation pane, select **Setting definition**.
 
     >[!NOTE]
-    >If you're using the classic view, under **Components**, expand **Entities**, and then select **Settings**.
+    >If you're using the classic view, under **Components**, expand **Entities**, and then select **Setting**.
 
 1. In the **Settings definitions** list, search and open **Use new email attachment control**.  
 1. In the **Edit Use new email attachment control** pane, go to the **Setting environment value** section, and select the value as **No**.  
