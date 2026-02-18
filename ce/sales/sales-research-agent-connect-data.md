@@ -2,7 +2,7 @@
 title: Connect the Sales Research Agent to a different data source or upload data (preview)
 description: Learn how to connect the Sales Research Agent to your data.
 manager:
-ms.date: 09/19/2025
+ms.date: 02/18/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -38,6 +38,8 @@ Add the data source using *one* of the following options on the **Sales Research
 - Select **Add data** in the **Ask any business question** prompt box.
 
     :::image type="content" source="media/sales-research-agent-add-data.png" alt-text="Screenshot of the Add data option in the Sales Research Agent." lightbox="media/sales-research-agent-add-data.png":::
+
+For Microsoft Fabric Lakehouse connection, review the article [Connect Sales Research Agent to Microsoft Fabric Lakehouse](sales-research-agent-lakehouse-integration.md) for detailed instructions and considerations.
 
 ## Supported data files
 
