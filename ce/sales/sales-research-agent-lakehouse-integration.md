@@ -4,7 +4,7 @@ description: Discover how to connect to Microsoft Fabric Lakehouses for AI-power
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 02/05/2026
+ms.date: 02/18/2026
 ms.topic: concept-article
 ms.collection: bap-ai-copilot
 ---
