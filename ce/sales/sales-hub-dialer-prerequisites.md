@@ -39,9 +39,9 @@ With the Dynamics 365 Contact Center license in place, [provision](https://learn
 
 Each seller who will make or receive calls must have all of the following security roles:
 
-- **Basic User** — Basic access and navigation in Dynamics 365 apps.
-- **Omnichannel Agent** — Required to make and receive calls.
-- **Salesperson** — Required to access the Sales Hub app.
+- **Basic User:** Basic access and navigation in Dynamics 365 apps.
+- **Omnichannel Agent:** Required to make and receive calls.
+- **Salesperson:** Required to access the Sales Hub app.
 
 To assign roles, go to **Power Platform admin center** > **Environments** > select your environment > **Settings** > **Users + permissions** > **Users**, then assign the required roles.
 
