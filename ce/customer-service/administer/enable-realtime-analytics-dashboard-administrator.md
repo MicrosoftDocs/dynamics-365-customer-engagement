@@ -1,7 +1,7 @@
 ---
 title: Manage real-time analytics reports in Dynamics 365 Contact Center
 description: Configure real-time analytics in Dynamics 365 Contact Center to give supervisors access to metrics and KPIs.
-ms.date: 02/18/2026
+ms.date: 02/19/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -71,7 +71,7 @@ To view the reports in Copilot Service workspace, see [Access reports](../use/in
 
 If you customized the Copilot Service workspace app, you must complete the following steps to be able to view the reports.
 
-1. On the Copilot Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
+1. Sign in to Dynamics 365. On the Apps page, select **More options** (ellipsis) on the Copilot Service workspace tile, and then select **Open in App Designer**.
 1. Select **New** > **Dataverse table**, and search for **Omnichannel Realtime analytics**.
 1. Select **Show in navigation**, and then select **Add**.
 1. From **Navigation**, select **Omnichannel real-time analytics**, and then select **Settings**.
