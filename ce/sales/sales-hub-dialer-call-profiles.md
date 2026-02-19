@@ -61,5 +61,5 @@ Follow the same steps as for an inbound profile, but set **Profile Type** to **O
 
 ## Related content
 
-- [Enable and configure the Sales Hub dialer](sales-hub-dialer-admin-howto.md)
+- [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)
 - [Configure outbound and inbound profiles](/dynamics365/customer-service/administer/configure-outbound-inbound-profiles)

@@ -27,13 +27,13 @@ Ensure you have both of the following role combinations:
 
 Verify the following licenses are assigned in the [Microsoft 365 admin center](https://admin.cloud.microsoft/):
 
-- [Teams Phone license](https://learn.microsoft.com/microsoftteams/teams-phone-licensing) with a Teams Calling Plan, Teams Direct Routing, or Teams Operator Connect [PSTN connectivity](https://learn.microsoft.com/microsoftteams/pstn-connectivity) option.
+- [Teams Phone license](/microsoftteams/teams-phone-licensing) with a Teams Calling Plan, Teams Direct Routing, or Teams Operator Connect [PSTN connectivity](/microsoftteams/pstn-connectivity) option.
 - [Dynamics 365 Contact Center](https://www.microsoft.com/dynamics-365/products/contact-center) or Dynamics 365 Customer Service Premium license.
-- [Microsoft Teams Phone Resource Account](https://learn.microsoft.com/microsoftteams/teams-add-on-licensing/virtual-user) license.
+- [Microsoft Teams Phone Resource Account](/microsoftteams/teams-add-on-licensing/virtual-user) license.
 
 ## Voice channel provisioning
 
-With the Dynamics 365 Contact Center license in place, [provision](https://learn.microsoft.com/dynamics365/contact-center/implement/provision-channels#set-up-channels) and [configure](https://learn.microsoft.com/dynamics365/customer-service/administer/voice-channel-install) the voice channel in your environment.
+With the Dynamics 365 Contact Center license in place, [provision](/dynamics365/contact-center/implement/provision-channels#set-up-channels) and [configure](/dynamics365/customer-service/administer/voice-channel-install) the voice channel in your environment.
 
 ## Seller roles
 
@@ -52,4 +52,4 @@ To assign roles, go to **Power Platform admin center** > **Environments** > sele
 
 ## Related content
 
-- [Enable and configure the Sales Hub dialer](sales-hub-dialer-admin-howto.md)
+- [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)

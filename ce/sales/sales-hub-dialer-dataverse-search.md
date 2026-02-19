@@ -26,8 +26,8 @@ The Sales Hub dialer allows sellers to search for CRM records (leads, contacts, 
 1. Under **Dataverse search**, set the toggle to **On**.
 1. Select **Save**.
 
-For more information, see [Configure Dataverse search for your organization](https://learn.microsoft.com/power-platform/admin/configure-relevance-search-organization).
+For more information, see [Configure Dataverse search for your organization](/power-platform/admin/configure-relevance-search-organization).
 
 ## Related content
 
-- [Enable and configure the Sales Hub dialer](sales-hub-dialer-admin-howto.md)
+- [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)

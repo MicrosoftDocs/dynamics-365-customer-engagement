@@ -35,6 +35,6 @@ To view all voicemails regardless of record association:
 
 ## Related content
 
-- [Enable and configure the Sales Hub dialer](sales-hub-dialer-admin-howto.md)
+- [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)
 - [Understand call routing](sales-hub-dialer-call-routing.md)
 - [Configure voicemail](/dynamics365/customer-service/administer/voice-channel-voicemail)

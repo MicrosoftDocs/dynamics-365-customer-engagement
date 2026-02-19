@@ -33,5 +33,5 @@ For general guidance, see [Configure channel providers](/dynamics365/channel-int
 
 ## Related content
 
-- [Enable and configure the Sales Hub dialer](sales-hub-dialer-admin-howto.md)
+- [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)
 - [Channel Integration Framework guide](/dynamics365/channel-integration-framework/channel-integration-framework)

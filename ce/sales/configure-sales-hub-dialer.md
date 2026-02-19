@@ -54,7 +54,7 @@ After the dialer is enabled, configure these optional features:
 
 ## Related content
 
-- [Make and receive calls with the Sales Hub dialer](sales-hub-dialer.md)
+- [Make and receive calls with the Sales Hub dialer](make-receive-calls-in-sales-hub-dialer.md)
 - [Configure Teams Phone in voice channel](/dynamics365/contact-center/administer/configure-teams-phone-in-voice-channel)
 - [Configure outbound and inbound profiles](/dynamics365/customer-service/administer/configure-outbound-inbound-profiles)
 - [Create and manage capacity profiles](/dynamics365/customer-service/administer/capacity-profiles)

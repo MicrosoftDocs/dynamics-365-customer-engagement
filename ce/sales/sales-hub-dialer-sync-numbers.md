@@ -40,7 +40,7 @@ The voice channel requires **Service** number types. If your phone numbers are c
 1. Select an unassigned number.
 1. Select **Change usage** and set it to **Service / Voice App**.
 
-For more information, see [Manage the usage of a phone number](https://learn.microsoft.com/microsoftteams/manage-the-usage-of-a-phone-number).
+For more information, see [Manage the usage of a phone number](/microsoftteams/manage-the-usage-of-a-phone-number).
 
 ## Create Teams resource accounts
 
@@ -56,7 +56,7 @@ A Teams resource account must be created for each service phone number. Repeat t
 
 ### Option B: Teams PowerShell
 
-Ensure the [Microsoft Teams PowerShell module](https://learn.microsoft.com/microsoftteams/teams-powershell-install) is installed and up to date. Run the following in an elevated PowerShell session, changing the email address and display name for each number:
+Ensure the [Microsoft Teams PowerShell module](/microsoftteams/teams-powershell-install) is installed and up to date. Run the following in an elevated PowerShell session, changing the email address and display name for each number:
 
 ```powershell
 # Install the MicrosoftTeams module if not already installed
@@ -142,7 +142,7 @@ Each service number must be mapped to its corresponding resource account. Repeat
 1. Select **Assign/unassign**.
 1. Search for and assign the phone number.
 
-For details, see [Manage resource accounts for service numbers](https://learn.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-phone-number).
+For details, see [Manage resource accounts for service numbers](/microsoftteams/manage-resource-accounts#assign-a-phone-number).
 
 ### Option B: PowerShell
 
@@ -201,5 +201,5 @@ After the PowerShell sync completes, finalize the phone number records in Dynami
 
 ## Related content
 
-- [Enable and configure the Sales Hub dialer](sales-hub-dialer-admin-howto.md)
+- [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)
 - [Configure Teams Phone in voice channel](/dynamics365/contact-center/administer/configure-teams-phone-in-voice-channel)

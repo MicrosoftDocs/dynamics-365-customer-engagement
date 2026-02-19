@@ -39,7 +39,7 @@ When the call is routed to the seller, the notification and session templates co
 
 ## Related content
 
-- [Enable and configure the Sales Hub dialer](sales-hub-dialer-admin-howto.md)
+- [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)
 - [Configure inbound and outbound profiles](sales-hub-dialer-call-profiles.md)
 - [Set up capacity profiles](sales-hub-dialer-capacity-profiles.md)
 - [Configure voicemail](sales-hub-dialer-voicemail.md)

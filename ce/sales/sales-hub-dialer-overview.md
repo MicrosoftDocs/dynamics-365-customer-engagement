@@ -61,7 +61,7 @@ As an administrator, you must complete three high-level steps to enable the Sale
 
 3. **Enable the dialer in Sales Hub.** Turn on the Sales Hub dialer feature in your Sales Hub app settings and assign the appropriate security roles to sellers who need access.
 
-For the complete step-by-step admin setup procedure, see the [Omnichannel onboarding guide](https://learn.microsoft.com/dynamics365/sales/configure-voice-channel).
+For the complete step-by-step admin setup procedure, see the [Enable and configure the Sales Hub dialer (preview)](configure-sales-hub-dialer.md).
 
 ## How the Sales Hub dialer works
 

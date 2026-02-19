@@ -32,7 +32,7 @@ Key capabilities include:
 Before sellers can use the Sales Hub dialer, the following requirements must be met:
 
 - **Licensing**: A Dynamics 365 Sales Enterprise or Sales Premium license is required. Conversation Intelligence features may require additional Sales Insights or Copilot licensing.
-- **Admin setup**: An administrator must provision and configure the voice channel in your Dynamics 365 environment and enable the dialer for Sales Hub. For detailed admin setup instructions, see [Set up the Sales Hub dialer](#set-up-the-sales-hub-dialer-admin).
+- **Admin setup**: An administrator must provision and configure the voice channel in your Dynamics 365 environment and enable the dialer for Sales Hub. For detailed admin setup instructions, see [Enable and configure the Sales Hub dialer (preview)](configure-sales-hub-dialer.md).
 - **Telephony**: A calling plan or telephony provider (for example, a Microsoft Teams Calling Plan) must be configured for outbound and inbound PSTN calling. Telephony charges apply based on your provider's rates.
 - **Hardware**: A computer with a microphone, speakers or headset, and a supported browser.
 
