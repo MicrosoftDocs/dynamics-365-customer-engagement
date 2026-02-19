@@ -1052,7 +1052,7 @@ items:
               - name: Overview
                 href: sales-hub-dialer-overview.md
               - name: Make and receive calls in Sales Hub Dialer
-                href: make-receive-calls-in-sales-hub-dialer.md
+                href: make-receive-calls-sales-hub-dialer.md
       - name: Productivity and document management
         items:
           - name: Activity management

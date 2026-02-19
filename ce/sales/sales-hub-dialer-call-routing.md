@@ -37,7 +37,7 @@ The capacity profile linked to the identified inbound profile is evaluated:
 
 When the call is routed to the seller, the notification and session templates configured in the inbound profile are used to display the incoming call alert in Sales Hub.
 
-## Related content
+## Related information
 
 - [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)
 - [Configure inbound and outbound profiles](sales-hub-dialer-call-profiles.md)

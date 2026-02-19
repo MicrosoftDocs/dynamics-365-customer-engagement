@@ -59,7 +59,7 @@ Follow the same steps as for an inbound profile, but set **Profile Type** to **O
 > [!div class="nextstepaction"]
 > [Assign phone numbers to sellers](sales-hub-dialer-assign-numbers.md)
 
-## Related content
+## Related information
 
 - [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)
 - [Configure outbound and inbound profiles](/dynamics365/customer-service/administer/configure-outbound-inbound-profiles)

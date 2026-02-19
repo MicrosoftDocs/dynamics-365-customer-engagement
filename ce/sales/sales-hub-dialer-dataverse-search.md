@@ -28,6 +28,6 @@ The Sales Hub dialer allows sellers to search for CRM records (leads, contacts, 
 
 For more information, see [Configure Dataverse search for your organization](/power-platform/admin/configure-relevance-search-organization).
 
-## Related content
+## Related information
 
 - [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)

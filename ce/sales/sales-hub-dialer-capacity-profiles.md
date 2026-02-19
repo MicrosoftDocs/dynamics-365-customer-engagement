@@ -43,7 +43,7 @@ Create a custom capacity profile when you need different concurrency limits for 
 > [!div class="nextstepaction"]
 > [Configure inbound and outbound profiles](sales-hub-dialer-call-profiles.md)
 
-## Related content
+## Related information
 
 - [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)
 - [Create and manage capacity profiles](/dynamics365/customer-service/administer/capacity-profiles)

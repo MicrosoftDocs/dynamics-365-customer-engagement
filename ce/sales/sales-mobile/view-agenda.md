@@ -53,7 +53,7 @@ The meeting information section provides information about the meeting subject, 
 
 Up to five meeting participants are shown in the **Participants** section, such as customers and the meeting organizer. You can see participant's acceptance status, such as accepted, tentative, declined, or no response. When you tap the name of a participant, the quick view of their contact record opens. You can perform the following actions on the contact: view, edit, and create. More information: [Manage contacts](create-contact.md)            
 
-### Related content
+### Related information
 
 This section displays information relevant to the meeting such as regarding record and appointment.
 

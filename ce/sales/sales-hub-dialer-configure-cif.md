@@ -31,7 +31,7 @@ For general guidance, see [Configure channel providers](/dynamics365/channel-int
 > [!div class="nextstepaction"]
 > [Set up capacity profiles](sales-hub-dialer-capacity-profiles.md)
 
-## Related content
+## Related information
 
 - [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)
 - [Channel Integration Framework guide](/dynamics365/channel-integration-framework/channel-integration-framework)

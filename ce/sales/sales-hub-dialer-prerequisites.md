@@ -50,6 +50,6 @@ To assign roles, go to **Power Platform admin center** > **Environments** > sele
 > [!div class="nextstepaction"]
 > [Sync Teams phone numbers to Dynamics 365](sales-hub-dialer-sync-numbers.md)
 
-## Related content
+## Related information
 
 - [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)

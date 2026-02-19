@@ -33,7 +33,7 @@ To view all voicemails regardless of record association:
 1. In **Sales Hub**, select **Activities** from the site map.
 1. On the **Activities** page, use the **Activity Type** filter to show voicemails.
 
-## Related content
+## Related information
 
 - [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)
 - [Understand call routing](sales-hub-dialer-call-routing.md)

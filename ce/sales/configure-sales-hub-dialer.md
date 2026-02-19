@@ -1,5 +1,5 @@
 ---
-title: Enable and configure the Sales Hub dialer
+title: Enable and configure the Sales Hub dialer (preview)
 description: Step-by-step guidance for administrators to enable the Omnichannel dialer in Dynamics 365 Sales Hub, sync Teams phone numbers, configure profiles, and assign numbers to sellers.
 ms.date: 03/01/2026
 ms.topic: how-to
@@ -12,7 +12,8 @@ ms.reviewer: lavanyakr
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-As a sales administrator, you can enable the Omnichannel dialer in Dynamics 365 Sales Hub so that sellers can make and receive calls directly within the application using dedicated phone numbers. The Omnichannel dialer replaces the Teams-based dialer with a more advanced voice experience built on the same cloud telephony infrastructure that powers Dynamics 365 Contact Center.
+As a sales administrator, you can enable the Sales Hub dialer in Dynamics 365 Sales Hub so that sellers can make and receive calls directly within the application using dedicated phone numbers. The Sales Hub dialer offers a more advanced voice experience built on the same cloud telephony infrastructure that powers Dynamics 365 Contact Center, with enhanced features like intelligent call routing, integrated CRM context, and improved call management capabilities that provide a better alternative to the Teams-based dialer.
+
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
@@ -52,9 +53,9 @@ After the dialer is enabled, configure these optional features:
 - [Configure voicemail](sales-hub-dialer-voicemail.md) — Set up voicemail for calls that can't be assigned to a seller, and learn how sellers access voicemail.
 - [Enable Dataverse search for the dial pad](sales-hub-dialer-dataverse-search.md) — Allow sellers to search for CRM records directly from the dialer keypad.
 
-## Related content
+## Related information
 
-- [Make and receive calls with the Sales Hub dialer](make-receive-calls-in-sales-hub-dialer.md)
+- [Make and receive calls with the Sales Hub dialer](make-receive-calls-sales-hub-dialer.md)
 - [Configure Teams Phone in voice channel](/dynamics365/contact-center/administer/configure-teams-phone-in-voice-channel)
 - [Configure outbound and inbound profiles](/dynamics365/customer-service/administer/configure-outbound-inbound-profiles)
 - [Create and manage capacity profiles](/dynamics365/customer-service/administer/capacity-profiles)

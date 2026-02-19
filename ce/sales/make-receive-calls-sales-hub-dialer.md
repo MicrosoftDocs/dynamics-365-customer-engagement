@@ -122,7 +122,7 @@ If call recording and post-call summarization are enabled, the call record inclu
 
 Based on the AI-generated summary, review any identified action items—such as "send a product catalog" or "schedule a demo"—and manually create follow-up tasks. At GA, the dialer will support automatic AI-powered task creation based on call content.
 
-## Related content
+## Related information
 
 - [Configure call transcripts and recordings](/dynamics365/customer-service/administer/voice-channel-configure-transcripts)
 - [Enable sentiment analysis](/dynamics365/customer-service/administer/enable-sentiment-analysis)

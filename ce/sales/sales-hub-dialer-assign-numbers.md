@@ -39,7 +39,7 @@ After phone numbers are synced to Dynamics 365, assign a dedicated number to eac
 
 Repeat for each seller who needs a dedicated number.
 
-## Related content
+## Related information
 
 - [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)
 - [Understand call routing](sales-hub-dialer-call-routing.md)

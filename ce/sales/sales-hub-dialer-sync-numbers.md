@@ -1,5 +1,5 @@
 ---
-title: Step 1:\ Sync Teams phone numbers to Dynamics 365 for the Sales Hub dialer
+title: "Step 1: Teams phone numbers to Dynamics 365 for the Sales Hub dialer (preview)"
 description: Learn how to retrieve environment IDs, convert numbers, create resource accounts, license them, and sync Teams phone numbers to Dynamics 365.
 ms.date: 03/01/2026
 ms.topic: how-to
@@ -199,7 +199,7 @@ After the PowerShell sync completes, finalize the phone number records in Dynami
 > [!div class="nextstepaction"]
 > [Configure the Omnichannel dialer in Channel Integration Framework](sales-hub-dialer-configure-cif.md)
 
-## Related content
+## Related information
 
 - [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)
 - [Configure Teams Phone in voice channel](/dynamics365/contact-center/administer/configure-teams-phone-in-voice-channel)
