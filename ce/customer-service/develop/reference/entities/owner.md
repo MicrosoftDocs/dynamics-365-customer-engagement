@@ -60,6 +60,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [owner_msdyn_occommunicationprovidersetting](#BKMK_owner_msdyn_occommunicationprovidersetting)
 - [owner_msdyn_occommunicationprovidersettingentry](#BKMK_owner_msdyn_occommunicationprovidersettingentry)
 - [owner_msdyn_occustommessagingchannel](#BKMK_owner_msdyn_occustommessagingchannel)
+- [owner_msdyn_occustomneuralvoice](#BKMK_owner_msdyn_occustomneuralvoice)
 - [owner_msdyn_ocexternalsecuritysetting](#BKMK_owner_msdyn_ocexternalsecuritysetting)
 - [owner_msdyn_ocfbapplication](#BKMK_owner_msdyn_ocfbapplication)
 - [owner_msdyn_ocfbpage](#BKMK_owner_msdyn_ocfbpage)
@@ -88,10 +89,13 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [owner_msdyn_priority](#BKMK_owner_msdyn_priority)
 - [owner_msdyn_proactive_delivery](#BKMK_owner_msdyn_proactive_delivery)
 - [owner_msdyn_proactive_delivery_attribute](#BKMK_owner_msdyn_proactive_delivery_attribute)
+- [owner_msdyn_proactive_delivery_batch](#BKMK_owner_msdyn_proactive_delivery_batch)
 - [owner_msdyn_proactive_eng_config_characteristic](#BKMK_owner_msdyn_proactive_eng_config_characteristic)
 - [owner_msdyn_proactive_engagement_config](#BKMK_owner_msdyn_proactive_engagement_config)
 - [owner_msdyn_proactive_engagement_config_attribute](#BKMK_owner_msdyn_proactive_engagement_config_attribute)
 - [owner_msdyn_proactive_engagement_config_status](#BKMK_owner_msdyn_proactive_engagement_config_status)
+- [owner_msdyn_proactive_engagement_message_template](#BKMK_owner_msdyn_proactive_engagement_message_template)
+- [owner_msdyn_proactive_engagement_planner_config](#BKMK_owner_msdyn_proactive_engagement_planner_config)
 - [owner_msdyn_questionsequence](#BKMK_owner_msdyn_questionsequence)
 - [owner_msdyn_requirementchange](#BKMK_owner_msdyn_requirementchange)
 - [owner_msdyn_requirementcharacteristic](#BKMK_owner_msdyn_requirementcharacteristic)
@@ -583,6 +587,18 @@ Many-To-One Relationship: [msdyn_occustommessagingchannel owner_msdyn_occustomme
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_owner_msdyn_occustomneuralvoice"></a> owner_msdyn_occustomneuralvoice
+
+Many-To-One Relationship: [msdyn_occustomneuralvoice owner_msdyn_occustomneuralvoice](msdyn_occustomneuralvoice.md#BKMK_owner_msdyn_occustomneuralvoice)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_occustomneuralvoice`|
+|ReferencingAttribute|`ownerid`|
+|ReferencedEntityNavigationPropertyName|`owner_msdyn_occustomneuralvoice`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_owner_msdyn_ocexternalsecuritysetting"></a> owner_msdyn_ocexternalsecuritysetting
 
 Many-To-One Relationship: [msdyn_ocexternalsecuritysetting owner_msdyn_ocexternalsecuritysetting](msdyn_ocexternalsecuritysetting.md#BKMK_owner_msdyn_ocexternalsecuritysetting)
@@ -919,6 +935,18 @@ Many-To-One Relationship: [msdyn_proactive_delivery_attribute owner_msdyn_proact
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_owner_msdyn_proactive_delivery_batch"></a> owner_msdyn_proactive_delivery_batch
+
+Many-To-One Relationship: [msdyn_proactive_delivery_batch owner_msdyn_proactive_delivery_batch](msdyn_proactive_delivery_batch.md#BKMK_owner_msdyn_proactive_delivery_batch)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_delivery_batch`|
+|ReferencingAttribute|`ownerid`|
+|ReferencedEntityNavigationPropertyName|`owner_msdyn_proactive_delivery_batch`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_owner_msdyn_proactive_eng_config_characteristic"></a> owner_msdyn_proactive_eng_config_characteristic
 
 Many-To-One Relationship: [msdyn_proactive_eng_config_characteristic owner_msdyn_proactive_eng_config_characteristic](msdyn_proactive_eng_config_characteristic.md#BKMK_owner_msdyn_proactive_eng_config_characteristic)
@@ -964,6 +992,30 @@ Many-To-One Relationship: [msdyn_proactive_engagement_config_status owner_msdyn_
 |ReferencingEntity|`msdyn_proactive_engagement_config_status`|
 |ReferencingAttribute|`ownerid`|
 |ReferencedEntityNavigationPropertyName|`owner_msdyn_proactive_engagement_config_status`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_owner_msdyn_proactive_engagement_message_template"></a> owner_msdyn_proactive_engagement_message_template
+
+Many-To-One Relationship: [msdyn_proactive_engagement_message_template owner_msdyn_proactive_engagement_message_template](msdyn_proactive_engagement_message_template.md#BKMK_owner_msdyn_proactive_engagement_message_template)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_engagement_message_template`|
+|ReferencingAttribute|`ownerid`|
+|ReferencedEntityNavigationPropertyName|`owner_msdyn_proactive_engagement_message_template`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_owner_msdyn_proactive_engagement_planner_config"></a> owner_msdyn_proactive_engagement_planner_config
+
+Many-To-One Relationship: [msdyn_proactive_engagement_planner_config owner_msdyn_proactive_engagement_planner_config](msdyn_proactive_engagement_planner_config.md#BKMK_owner_msdyn_proactive_engagement_planner_config)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_engagement_planner_config`|
+|ReferencingAttribute|`ownerid`|
+|ReferencedEntityNavigationPropertyName|`owner_msdyn_proactive_engagement_planner_config`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
