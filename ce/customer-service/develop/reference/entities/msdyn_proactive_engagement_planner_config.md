@@ -1,6 +1,6 @@
 ---
-title: "External Security Setting (msdyn_ocexternalsecuritysetting) table/entity reference (Microsoft Dynamics 365 Customer Service)"
-description: "Includes schema information and supported messages for the External Security Setting (msdyn_ocexternalsecuritysetting) table/entity with Microsoft Dynamics 365 Customer Service."
+title: "Proactive Engagement Planner Configuration (msdyn_proactive_engagement_planner_config) table/entity reference (Microsoft Dynamics 365 Customer Service)"
+description: "Includes schema information and supported messages for the Proactive Engagement Planner Configuration (msdyn_proactive_engagement_planner_config) table/entity with Microsoft Dynamics 365 Customer Service."
 ms.topic: generated-reference
 author: gandhamm
 ms.author: mgandham
@@ -8,56 +8,56 @@ search.audienceType:
   - developer
 ---
 
-# External Security Setting (msdyn_ocexternalsecuritysetting) table/entity reference (Microsoft Dynamics 365 Customer Service)
+# Proactive Engagement Planner Configuration (msdyn_proactive_engagement_planner_config) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
-Entity at contact level that contains external consult/transfer security settings
+
 
 ## Messages
 
-The following table lists the messages for the External Security Setting (msdyn_ocexternalsecuritysetting) table.
+The following table lists the messages for the Proactive Engagement Planner Configuration (msdyn_proactive_engagement_planner_config) table.
 Messages represent operations that can be performed on the table. They may also be events.
 
 | Name <br />Is Event? |Web API Operation |SDK for .NET |
 | ---- | ----- |----- |
-| `Assign`<br />Event: True |`PATCH` /msdyn_ocexternalsecuritysettings(*msdyn_ocexternalsecuritysettingid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) the `ownerid` property. |<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+| `Assign`<br />Event: True |`PATCH` /msdyn_proactive_engagement_planner_configs(*msdyn_proactive_engagement_planner_configid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) the `ownerid` property. |<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
 | `Associate`<br />Event: True |[Associate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Associate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-associate-method-or-associaterequest)|
 | `BulkRetain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.BulkRetain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Create`<br />Event: True |`POST` /msdyn_ocexternalsecuritysettings<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api) |[Create records](/power-apps/developer/data-platform/org-service/entity-operations-create#basic-create)|
+| `Create`<br />Event: True |`POST` /msdyn_proactive_engagement_planner_configs<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api) |[Create records](/power-apps/developer/data-platform/org-service/entity-operations-create#basic-create)|
 | `CreateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
-| `Delete`<br />Event: True |`DELETE` /msdyn_ocexternalsecuritysettings(*msdyn_ocexternalsecuritysettingid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete) |[Delete records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-delete)|
+| `Delete`<br />Event: True |`DELETE` /msdyn_proactive_engagement_planner_configs(*msdyn_proactive_engagement_planner_configid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete) |[Delete records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-delete)|
 | `Disassociate`<br />Event: True |[Disassociate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Disassociate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-disassociate-method-or-disassociaterequest)|
 | `GrantAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Retrieve`<br />Event: True |`GET` /msdyn_ocexternalsecuritysettings(*msdyn_ocexternalsecuritysettingid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
-| `RetrieveMultiple`<br />Event: True |`GET` /msdyn_ocexternalsecuritysettings<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
+| `Retrieve`<br />Event: True |`GET` /msdyn_proactive_engagement_planner_configs(*msdyn_proactive_engagement_planner_configid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
+| `RetrieveMultiple`<br />Event: True |`GET` /msdyn_proactive_engagement_planner_configs<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
 | `RetrievePrincipalAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 | `RetrieveSharedPrincipalsAndAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 | `RevokeAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RevokeAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
 | `RollbackRetain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RollbackRetain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `SetState`<br />Event: True |`PATCH` /msdyn_ocexternalsecuritysettings(*msdyn_ocexternalsecuritysettingid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) the `statecode` and `statuscode` properties. |<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-| `Update`<br />Event: True |`PATCH` /msdyn_ocexternalsecuritysettings(*msdyn_ocexternalsecuritysettingid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) |[Update records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-update)|
+| `SetState`<br />Event: True |`PATCH` /msdyn_proactive_engagement_planner_configs(*msdyn_proactive_engagement_planner_configid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) the `statecode` and `statuscode` properties. |<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+| `Update`<br />Event: True |`PATCH` /msdyn_proactive_engagement_planner_configs(*msdyn_proactive_engagement_planner_configid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) |[Update records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-update)|
 | `UpdateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
-| `Upsert`<br />Event: False |`PATCH` /msdyn_ocexternalsecuritysettings(*msdyn_ocexternalsecuritysettingid*)<br />See [Upsert a table row](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#upsert-a-table-row) |<xref:Microsoft.Xrm.Sdk.Messages.UpsertRequest>|
+| `Upsert`<br />Event: False |`PATCH` /msdyn_proactive_engagement_planner_configs(*msdyn_proactive_engagement_planner_configid*)<br />See [Upsert a table row](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#upsert-a-table-row) |<xref:Microsoft.Xrm.Sdk.Messages.UpsertRequest>|
 | `UpsertMultiple`<br />Event: False |<xref:Microsoft.Dynamics.CRM.UpsertMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.UpsertMultipleRequest>|
 | `ValidateRetentionConfig`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ValidateRetentionConfig?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 
 ## Properties
 
-The following table lists selected properties for the External Security Setting (msdyn_ocexternalsecuritysetting) table.
+The following table lists selected properties for the Proactive Engagement Planner Configuration (msdyn_proactive_engagement_planner_config) table.
 
 |Property|Value|
 | --- | --- |
-| **DisplayName** | **External Security Setting** |
-| **DisplayCollectionName** | **External Security Settings** |
-| **SchemaName** | `msdyn_ocexternalsecuritysetting` |
-| **CollectionSchemaName** | `msdyn_ocexternalsecuritysettings` |
-| **EntitySetName** | `msdyn_ocexternalsecuritysettings`|
-| **LogicalName** | `msdyn_ocexternalsecuritysetting` |
-| **LogicalCollectionName** | `msdyn_ocexternalsecuritysettings` |
-| **PrimaryIdAttribute** | `msdyn_ocexternalsecuritysettingid` |
+| **DisplayName** | **Proactive Engagement Planner Configuration** |
+| **DisplayCollectionName** | **Proactive Engagement Planner Configurations** |
+| **SchemaName** | `msdyn_proactive_engagement_planner_config` |
+| **CollectionSchemaName** | `msdyn_proactive_engagement_planner_configs` |
+| **EntitySetName** | `msdyn_proactive_engagement_planner_configs`|
+| **LogicalName** | `msdyn_proactive_engagement_planner_config` |
+| **LogicalCollectionName** | `msdyn_proactive_engagement_planner_configs` |
+| **PrimaryIdAttribute** | `msdyn_proactive_engagement_planner_configid` |
 | **PrimaryNameAttribute** |`msdyn_name` |
 | **TableType** | `Standard` |
 | **OwnershipType** | `UserOwned` |
@@ -66,14 +66,16 @@ The following table lists selected properties for the External Security Setting 
 
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
-- [contactid](#BKMK_contactid)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
-- [msdyn_externalconsultholdtype](#BKMK_msdyn_externalconsultholdtype)
+- [msdyn_delay_between_retries](#BKMK_msdyn_delay_between_retries)
+- [msdyn_fallback_engagement_config_id](#BKMK_msdyn_fallback_engagement_config_id)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_ocexternalconsultsecurity](#BKMK_msdyn_ocexternalconsultsecurity)
-- [msdyn_ocexternalsecuritysettingId](#BKMK_msdyn_ocexternalsecuritysettingId)
-- [msdyn_ocexternaltransfersecurity](#BKMK_msdyn_ocexternaltransfersecurity)
+- [msdyn_number_of_retries](#BKMK_msdyn_number_of_retries)
+- [msdyn_proactive_engagement_config_id](#BKMK_msdyn_proactive_engagement_config_id)
+- [msdyn_proactive_engagement_message_templateId](#BKMK_msdyn_proactive_engagement_message_templateId)
+- [msdyn_proactive_engagement_planner_configId](#BKMK_msdyn_proactive_engagement_planner_configId)
+- [msdyn_reattempt_rules](#BKMK_msdyn_reattempt_rules)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -81,19 +83,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [statuscode](#BKMK_statuscode)
 - [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
 - [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
-
-### <a name="BKMK_contactid"></a> contactid
-
-|Property|Value|
-|---|---|
-|Description|**Contact record associated with the external security setting.**|
-|DisplayName|**Contact**|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|`contactid`|
-|RequiredLevel|ApplicationRequired|
-|Type|Lookup|
-|Targets|contact|
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
@@ -121,32 +110,38 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
 
-### <a name="BKMK_msdyn_externalconsultholdtype"></a> msdyn_externalconsultholdtype
+### <a name="BKMK_msdyn_delay_between_retries"></a> msdyn_delay_between_retries
 
 |Property|Value|
 |---|---|
-|Description|**Security type for external phone number consult**|
-|DisplayName|**Hold type for external consult**|
+|Description|**The delay in seconds between retry attempts for the planner configuration.**|
+|DisplayName|**Delay Between Retries**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|`msdyn_externalconsultholdtype`|
+|LogicalName|`msdyn_delay_between_retries`|
 |RequiredLevel|None|
-|Type|Picklist|
-|DefaultFormValue|-1|
-|GlobalChoiceName|`msdyn_externalconsultholdtype`|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
 
-#### msdyn_externalconsultholdtype Choices/Options
+### <a name="BKMK_msdyn_fallback_engagement_config_id"></a> msdyn_fallback_engagement_config_id
 
-|Value|Label|
+|Property|Value|
 |---|---|
-|426140000|**Follow workstream settings**|
-|426140001|**Agent on hold**|
+|Description|**Reference to the Proactive Engagement Configuration to use as fallback.**|
+|DisplayName|**Fallback Engagement Configuration**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_fallback_engagement_config_id`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_proactive_engagement_config|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
 |---|---|
-|Description|**The name of the external security setting entity.**|
+|Description|**The name of the custom entity.**|
 |DisplayName|**Name**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -159,61 +154,80 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|100|
 
-### <a name="BKMK_msdyn_ocexternalconsultsecurity"></a> msdyn_ocexternalconsultsecurity
+### <a name="BKMK_msdyn_number_of_retries"></a> msdyn_number_of_retries
 
 |Property|Value|
 |---|---|
-|Description|**Security type for external consult**|
-|DisplayName|**Security type for external consult**|
+|Description|**The maximum number of retry attempts for the planner configuration.**|
+|DisplayName|**Number of Retries**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|`msdyn_ocexternalconsultsecurity`|
+|LogicalName|`msdyn_number_of_retries`|
 |RequiredLevel|None|
-|Type|Picklist|
-|DefaultFormValue|-1|
-|GlobalChoiceName|`msdyn_externalsecuritytype`|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
 
-#### msdyn_ocexternalconsultsecurity Choices/Options
+### <a name="BKMK_msdyn_proactive_engagement_config_id"></a> msdyn_proactive_engagement_config_id
 
-|Value|Label|
+|Property|Value|
 |---|---|
-|426130000|**Follow workstream settings**|
-|426130001|**Turn off transcription & recording**|
-|426130002|**Turn off recording, but keep transcription if on**|
+|Description|**Reference to the Proactive Engagement Configuration.**|
+|DisplayName|**Proactive Engagement Configuration**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_proactive_engagement_config_id`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_proactive_engagement_config|
 
-### <a name="BKMK_msdyn_ocexternalsecuritysettingId"></a> msdyn_ocexternalsecuritysettingId
+### <a name="BKMK_msdyn_proactive_engagement_message_templateId"></a> msdyn_proactive_engagement_message_templateId
+
+|Property|Value|
+|---|---|
+|Description|**Reference to the Proactive Engagement Message Template used by this planner configuration.**|
+|DisplayName|**Message Template**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_proactive_engagement_message_templateid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_proactive_engagement_message_template|
+
+### <a name="BKMK_msdyn_proactive_engagement_planner_configId"></a> msdyn_proactive_engagement_planner_configId
 
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**External Security Setting Id**|
+|DisplayName|**Proactive Engagement Planner Configuration**|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|`msdyn_ocexternalsecuritysettingid`|
+|LogicalName|`msdyn_proactive_engagement_planner_configid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
-### <a name="BKMK_msdyn_ocexternaltransfersecurity"></a> msdyn_ocexternaltransfersecurity
+### <a name="BKMK_msdyn_reattempt_rules"></a> msdyn_reattempt_rules
 
 |Property|Value|
 |---|---|
-|Description|**Security type for external transfer**|
-|DisplayName|**Security type for external transfer**|
+|Description|**Specifies the conditions under which reattempts should occur for the planner configuration.**|
+|DisplayName|**Reattempt Rules**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|`msdyn_ocexternaltransfersecurity`|
+|LogicalName|`msdyn_reattempt_rules`|
 |RequiredLevel|None|
-|Type|Picklist|
-|DefaultFormValue|-1|
-|GlobalChoiceName|`msdyn_externalsecuritytype`|
+|Type|MultiSelectPicklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_proactive_engagement_planner_config_msdyn_reattempt_rules`|
 
-#### msdyn_ocexternaltransfersecurity Choices/Options
+#### msdyn_reattempt_rules Choices/Options
 
 |Value|Label|
 |---|---|
-|426130000|**Follow workstream settings**|
-|426130001|**Turn off transcription & recording**|
-|426130002|**Turn off recording, but keep transcription if on**|
+|192360000|**No Answer**|
+|192360001|**Busy**|
+|192360002|**Failed**|
+|192360003|**Answering Machine**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
@@ -261,7 +275,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the External Security Setting record**|
+|Description|**Status of the Proactive Engagement Planner Configuration**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -269,7 +283,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|State|
 |DefaultFormValue||
-|GlobalChoiceName|`msdyn_ocexternalsecuritysetting_statecode`|
+|GlobalChoiceName|`msdyn_proactive_engagement_planner_config_statecode`|
 
 #### statecode Choices/Options
 
@@ -282,7 +296,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the External Security Setting**|
+|Description|**Reason for the status of the Proactive Engagement Planner Configuration**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -290,7 +304,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Status|
 |DefaultFormValue||
-|GlobalChoiceName|`msdyn_ocexternalsecuritysetting_statuscode`|
+|GlobalChoiceName|`msdyn_proactive_engagement_planner_config_statuscode`|
 
 #### statuscode Choices/Options
 
@@ -548,7 +562,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`owningbusinessunit`|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 |Type|Lookup|
 |Targets|businessunit|
 
@@ -620,19 +634,21 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 
 These relationships are many-to-one. Listed by **SchemaName**.
 
-- [business_unit_msdyn_ocexternalsecuritysetting](#BKMK_business_unit_msdyn_ocexternalsecuritysetting)
-- [lk_msdyn_ocexternalsecuritysetting_createdby](#BKMK_lk_msdyn_ocexternalsecuritysetting_createdby)
-- [lk_msdyn_ocexternalsecuritysetting_createdonbehalfby](#BKMK_lk_msdyn_ocexternalsecuritysetting_createdonbehalfby)
-- [lk_msdyn_ocexternalsecuritysetting_modifiedby](#BKMK_lk_msdyn_ocexternalsecuritysetting_modifiedby)
-- [lk_msdyn_ocexternalsecuritysetting_modifiedonbehalfby](#BKMK_lk_msdyn_ocexternalsecuritysetting_modifiedonbehalfby)
-- [msdyn_contact_msdyn_ocexternalsecuritysetting_contactid](#BKMK_msdyn_contact_msdyn_ocexternalsecuritysetting_contactid)
-- [owner_msdyn_ocexternalsecuritysetting](#BKMK_owner_msdyn_ocexternalsecuritysetting)
-- [team_msdyn_ocexternalsecuritysetting](#BKMK_team_msdyn_ocexternalsecuritysetting)
-- [user_msdyn_ocexternalsecuritysetting](#BKMK_user_msdyn_ocexternalsecuritysetting)
+- [business_unit_msdyn_proactive_engagement_planner_config](#BKMK_business_unit_msdyn_proactive_engagement_planner_config)
+- [lk_msdyn_proactive_engagement_planner_config_createdby](#BKMK_lk_msdyn_proactive_engagement_planner_config_createdby)
+- [lk_msdyn_proactive_engagement_planner_config_createdonbehalfby](#BKMK_lk_msdyn_proactive_engagement_planner_config_createdonbehalfby)
+- [lk_msdyn_proactive_engagement_planner_config_modifiedby](#BKMK_lk_msdyn_proactive_engagement_planner_config_modifiedby)
+- [lk_msdyn_proactive_engagement_planner_config_modifiedonbehalfby](#BKMK_lk_msdyn_proactive_engagement_planner_config_modifiedonbehalfby)
+- [msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_engagement_config](#BKMK_msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_engagement_config)
+- [msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_fallback_engagement_config](#BKMK_msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_fallback_engagement_config)
+- [msdyn_proactive_engagement_planner_config_msdyn_proactive_engagement_message_template](#BKMK_msdyn_proactive_engagement_planner_config_msdyn_proactive_engagement_message_template)
+- [owner_msdyn_proactive_engagement_planner_config](#BKMK_owner_msdyn_proactive_engagement_planner_config)
+- [team_msdyn_proactive_engagement_planner_config](#BKMK_team_msdyn_proactive_engagement_planner_config)
+- [user_msdyn_proactive_engagement_planner_config](#BKMK_user_msdyn_proactive_engagement_planner_config)
 
-### <a name="BKMK_business_unit_msdyn_ocexternalsecuritysetting"></a> business_unit_msdyn_ocexternalsecuritysetting
+### <a name="BKMK_business_unit_msdyn_proactive_engagement_planner_config"></a> business_unit_msdyn_proactive_engagement_planner_config
 
-One-To-Many Relationship: [businessunit business_unit_msdyn_ocexternalsecuritysetting](businessunit.md#BKMK_business_unit_msdyn_ocexternalsecuritysetting)
+One-To-Many Relationship: [businessunit business_unit_msdyn_proactive_engagement_planner_config](businessunit.md#BKMK_business_unit_msdyn_proactive_engagement_planner_config)
 
 |Property|Value|
 |---|---|
@@ -643,9 +659,9 @@ One-To-Many Relationship: [businessunit business_unit_msdyn_ocexternalsecurityse
 |IsHierarchical||
 |CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_lk_msdyn_ocexternalsecuritysetting_createdby"></a> lk_msdyn_ocexternalsecuritysetting_createdby
+### <a name="BKMK_lk_msdyn_proactive_engagement_planner_config_createdby"></a> lk_msdyn_proactive_engagement_planner_config_createdby
 
-One-To-Many Relationship: [systemuser lk_msdyn_ocexternalsecuritysetting_createdby](systemuser.md#BKMK_lk_msdyn_ocexternalsecuritysetting_createdby)
+One-To-Many Relationship: [systemuser lk_msdyn_proactive_engagement_planner_config_createdby](systemuser.md#BKMK_lk_msdyn_proactive_engagement_planner_config_createdby)
 
 |Property|Value|
 |---|---|
@@ -656,9 +672,9 @@ One-To-Many Relationship: [systemuser lk_msdyn_ocexternalsecuritysetting_created
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_lk_msdyn_ocexternalsecuritysetting_createdonbehalfby"></a> lk_msdyn_ocexternalsecuritysetting_createdonbehalfby
+### <a name="BKMK_lk_msdyn_proactive_engagement_planner_config_createdonbehalfby"></a> lk_msdyn_proactive_engagement_planner_config_createdonbehalfby
 
-One-To-Many Relationship: [systemuser lk_msdyn_ocexternalsecuritysetting_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_ocexternalsecuritysetting_createdonbehalfby)
+One-To-Many Relationship: [systemuser lk_msdyn_proactive_engagement_planner_config_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_proactive_engagement_planner_config_createdonbehalfby)
 
 |Property|Value|
 |---|---|
@@ -669,9 +685,9 @@ One-To-Many Relationship: [systemuser lk_msdyn_ocexternalsecuritysetting_created
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_lk_msdyn_ocexternalsecuritysetting_modifiedby"></a> lk_msdyn_ocexternalsecuritysetting_modifiedby
+### <a name="BKMK_lk_msdyn_proactive_engagement_planner_config_modifiedby"></a> lk_msdyn_proactive_engagement_planner_config_modifiedby
 
-One-To-Many Relationship: [systemuser lk_msdyn_ocexternalsecuritysetting_modifiedby](systemuser.md#BKMK_lk_msdyn_ocexternalsecuritysetting_modifiedby)
+One-To-Many Relationship: [systemuser lk_msdyn_proactive_engagement_planner_config_modifiedby](systemuser.md#BKMK_lk_msdyn_proactive_engagement_planner_config_modifiedby)
 
 |Property|Value|
 |---|---|
@@ -682,9 +698,9 @@ One-To-Many Relationship: [systemuser lk_msdyn_ocexternalsecuritysetting_modifie
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_lk_msdyn_ocexternalsecuritysetting_modifiedonbehalfby"></a> lk_msdyn_ocexternalsecuritysetting_modifiedonbehalfby
+### <a name="BKMK_lk_msdyn_proactive_engagement_planner_config_modifiedonbehalfby"></a> lk_msdyn_proactive_engagement_planner_config_modifiedonbehalfby
 
-One-To-Many Relationship: [systemuser lk_msdyn_ocexternalsecuritysetting_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_ocexternalsecuritysetting_modifiedonbehalfby)
+One-To-Many Relationship: [systemuser lk_msdyn_proactive_engagement_planner_config_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_proactive_engagement_planner_config_modifiedonbehalfby)
 
 |Property|Value|
 |---|---|
@@ -695,22 +711,48 @@ One-To-Many Relationship: [systemuser lk_msdyn_ocexternalsecuritysetting_modifie
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_contact_msdyn_ocexternalsecuritysetting_contactid"></a> msdyn_contact_msdyn_ocexternalsecuritysetting_contactid
+### <a name="BKMK_msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_engagement_config"></a> msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_engagement_config
 
-One-To-Many Relationship: [contact msdyn_contact_msdyn_ocexternalsecuritysetting_contactid](contact.md#BKMK_msdyn_contact_msdyn_ocexternalsecuritysetting_contactid)
+One-To-Many Relationship: [msdyn_proactive_engagement_config msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_engagement_config](msdyn_proactive_engagement_config.md#BKMK_msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_engagement_config)
 
 |Property|Value|
 |---|---|
-|ReferencedEntity|`contact`|
-|ReferencedAttribute|`contactid`|
-|ReferencingAttribute|`contactid`|
-|ReferencingEntityNavigationPropertyName|`contactid`|
+|ReferencedEntity|`msdyn_proactive_engagement_config`|
+|ReferencedAttribute|`msdyn_proactive_engagement_configid`|
+|ReferencingAttribute|`msdyn_proactive_engagement_config_id`|
+|ReferencingEntityNavigationPropertyName|`msdyn_proactive_engagement_config_id`|
 |IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `Cascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_owner_msdyn_ocexternalsecuritysetting"></a> owner_msdyn_ocexternalsecuritysetting
+### <a name="BKMK_msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_fallback_engagement_config"></a> msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_fallback_engagement_config
 
-One-To-Many Relationship: [owner owner_msdyn_ocexternalsecuritysetting](owner.md#BKMK_owner_msdyn_ocexternalsecuritysetting)
+One-To-Many Relationship: [msdyn_proactive_engagement_config msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_fallback_engagement_config](msdyn_proactive_engagement_config.md#BKMK_msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_fallback_engagement_config)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_config`|
+|ReferencedAttribute|`msdyn_proactive_engagement_configid`|
+|ReferencingAttribute|`msdyn_fallback_engagement_config_id`|
+|ReferencingEntityNavigationPropertyName|`msdyn_fallback_engagement_config_id`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_engagement_planner_config_msdyn_proactive_engagement_message_template"></a> msdyn_proactive_engagement_planner_config_msdyn_proactive_engagement_message_template
+
+One-To-Many Relationship: [msdyn_proactive_engagement_message_template msdyn_proactive_engagement_planner_config_msdyn_proactive_engagement_message_template](msdyn_proactive_engagement_message_template.md#BKMK_msdyn_proactive_engagement_planner_config_msdyn_proactive_engagement_message_template)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_message_template`|
+|ReferencedAttribute|`msdyn_proactive_engagement_message_templateid`|
+|ReferencingAttribute|`msdyn_proactive_engagement_message_templateid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_proactive_engagement_message_templateid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_owner_msdyn_proactive_engagement_planner_config"></a> owner_msdyn_proactive_engagement_planner_config
+
+One-To-Many Relationship: [owner owner_msdyn_proactive_engagement_planner_config](owner.md#BKMK_owner_msdyn_proactive_engagement_planner_config)
 
 |Property|Value|
 |---|---|
@@ -721,9 +763,9 @@ One-To-Many Relationship: [owner owner_msdyn_ocexternalsecuritysetting](owner.md
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_team_msdyn_ocexternalsecuritysetting"></a> team_msdyn_ocexternalsecuritysetting
+### <a name="BKMK_team_msdyn_proactive_engagement_planner_config"></a> team_msdyn_proactive_engagement_planner_config
 
-One-To-Many Relationship: [team team_msdyn_ocexternalsecuritysetting](team.md#BKMK_team_msdyn_ocexternalsecuritysetting)
+One-To-Many Relationship: [team team_msdyn_proactive_engagement_planner_config](team.md#BKMK_team_msdyn_proactive_engagement_planner_config)
 
 |Property|Value|
 |---|---|
@@ -734,9 +776,9 @@ One-To-Many Relationship: [team team_msdyn_ocexternalsecuritysetting](team.md#BK
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_user_msdyn_ocexternalsecuritysetting"></a> user_msdyn_ocexternalsecuritysetting
+### <a name="BKMK_user_msdyn_proactive_engagement_planner_config"></a> user_msdyn_proactive_engagement_planner_config
 
-One-To-Many Relationship: [systemuser user_msdyn_ocexternalsecuritysetting](systemuser.md#BKMK_user_msdyn_ocexternalsecuritysetting)
+One-To-Many Relationship: [systemuser user_msdyn_proactive_engagement_planner_config](systemuser.md#BKMK_user_msdyn_proactive_engagement_planner_config)
 
 |Property|Value|
 |---|---|
@@ -752,82 +794,108 @@ One-To-Many Relationship: [systemuser user_msdyn_ocexternalsecuritysetting](syst
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
-- [msdyn_ocexternalsecuritysetting_AsyncOperations](#BKMK_msdyn_ocexternalsecuritysetting_AsyncOperations)
-- [msdyn_ocexternalsecuritysetting_BulkDeleteFailures](#BKMK_msdyn_ocexternalsecuritysetting_BulkDeleteFailures)
-- [msdyn_ocexternalsecuritysetting_MailboxTrackingFolders](#BKMK_msdyn_ocexternalsecuritysetting_MailboxTrackingFolders)
-- [msdyn_ocexternalsecuritysetting_PrincipalObjectAttributeAccesses](#BKMK_msdyn_ocexternalsecuritysetting_PrincipalObjectAttributeAccesses)
-- [msdyn_ocexternalsecuritysetting_ProcessSession](#BKMK_msdyn_ocexternalsecuritysetting_ProcessSession)
-- [msdyn_ocexternalsecuritysetting_SyncErrors](#BKMK_msdyn_ocexternalsecuritysetting_SyncErrors)
+- [msdyn_proactive_engagement_planner_config_AsyncOperations](#BKMK_msdyn_proactive_engagement_planner_config_AsyncOperations)
+- [msdyn_proactive_engagement_planner_config_BulkDeleteFailures](#BKMK_msdyn_proactive_engagement_planner_config_BulkDeleteFailures)
+- [msdyn_proactive_engagement_planner_config_DuplicateBaseRecord](#BKMK_msdyn_proactive_engagement_planner_config_DuplicateBaseRecord)
+- [msdyn_proactive_engagement_planner_config_DuplicateMatchingRecord](#BKMK_msdyn_proactive_engagement_planner_config_DuplicateMatchingRecord)
+- [msdyn_proactive_engagement_planner_config_MailboxTrackingFolders](#BKMK_msdyn_proactive_engagement_planner_config_MailboxTrackingFolders)
+- [msdyn_proactive_engagement_planner_config_PrincipalObjectAttributeAccesses](#BKMK_msdyn_proactive_engagement_planner_config_PrincipalObjectAttributeAccesses)
+- [msdyn_proactive_engagement_planner_config_ProcessSession](#BKMK_msdyn_proactive_engagement_planner_config_ProcessSession)
+- [msdyn_proactive_engagement_planner_config_SyncErrors](#BKMK_msdyn_proactive_engagement_planner_config_SyncErrors)
 
-### <a name="BKMK_msdyn_ocexternalsecuritysetting_AsyncOperations"></a> msdyn_ocexternalsecuritysetting_AsyncOperations
+### <a name="BKMK_msdyn_proactive_engagement_planner_config_AsyncOperations"></a> msdyn_proactive_engagement_planner_config_AsyncOperations
 
-Many-To-One Relationship: [asyncoperation msdyn_ocexternalsecuritysetting_AsyncOperations](asyncoperation.md#BKMK_msdyn_ocexternalsecuritysetting_AsyncOperations)
+Many-To-One Relationship: [asyncoperation msdyn_proactive_engagement_planner_config_AsyncOperations](asyncoperation.md#BKMK_msdyn_proactive_engagement_planner_config_AsyncOperations)
 
 |Property|Value|
 |---|---|
 |ReferencingEntity|`asyncoperation`|
 |ReferencingAttribute|`regardingobjectid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_ocexternalsecuritysetting_AsyncOperations`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_engagement_planner_config_AsyncOperations`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_ocexternalsecuritysetting_BulkDeleteFailures"></a> msdyn_ocexternalsecuritysetting_BulkDeleteFailures
+### <a name="BKMK_msdyn_proactive_engagement_planner_config_BulkDeleteFailures"></a> msdyn_proactive_engagement_planner_config_BulkDeleteFailures
 
-Many-To-One Relationship: [bulkdeletefailure msdyn_ocexternalsecuritysetting_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_ocexternalsecuritysetting_BulkDeleteFailures)
+Many-To-One Relationship: [bulkdeletefailure msdyn_proactive_engagement_planner_config_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_proactive_engagement_planner_config_BulkDeleteFailures)
 
 |Property|Value|
 |---|---|
 |ReferencingEntity|`bulkdeletefailure`|
 |ReferencingAttribute|`regardingobjectid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_ocexternalsecuritysetting_BulkDeleteFailures`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_engagement_planner_config_BulkDeleteFailures`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_ocexternalsecuritysetting_MailboxTrackingFolders"></a> msdyn_ocexternalsecuritysetting_MailboxTrackingFolders
+### <a name="BKMK_msdyn_proactive_engagement_planner_config_DuplicateBaseRecord"></a> msdyn_proactive_engagement_planner_config_DuplicateBaseRecord
 
-Many-To-One Relationship: [mailboxtrackingfolder msdyn_ocexternalsecuritysetting_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_ocexternalsecuritysetting_MailboxTrackingFolders)
+Many-To-One Relationship: [duplicaterecord msdyn_proactive_engagement_planner_config_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_proactive_engagement_planner_config_DuplicateBaseRecord)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`duplicaterecord`|
+|ReferencingAttribute|`baserecordid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_engagement_planner_config_DuplicateBaseRecord`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_proactive_engagement_planner_config_DuplicateMatchingRecord"></a> msdyn_proactive_engagement_planner_config_DuplicateMatchingRecord
+
+Many-To-One Relationship: [duplicaterecord msdyn_proactive_engagement_planner_config_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_proactive_engagement_planner_config_DuplicateMatchingRecord)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`duplicaterecord`|
+|ReferencingAttribute|`duplicaterecordid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_engagement_planner_config_DuplicateMatchingRecord`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_proactive_engagement_planner_config_MailboxTrackingFolders"></a> msdyn_proactive_engagement_planner_config_MailboxTrackingFolders
+
+Many-To-One Relationship: [mailboxtrackingfolder msdyn_proactive_engagement_planner_config_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_proactive_engagement_planner_config_MailboxTrackingFolders)
 
 |Property|Value|
 |---|---|
 |ReferencingEntity|`mailboxtrackingfolder`|
 |ReferencingAttribute|`regardingobjectid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_ocexternalsecuritysetting_MailboxTrackingFolders`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_engagement_planner_config_MailboxTrackingFolders`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_ocexternalsecuritysetting_PrincipalObjectAttributeAccesses"></a> msdyn_ocexternalsecuritysetting_PrincipalObjectAttributeAccesses
+### <a name="BKMK_msdyn_proactive_engagement_planner_config_PrincipalObjectAttributeAccesses"></a> msdyn_proactive_engagement_planner_config_PrincipalObjectAttributeAccesses
 
-Many-To-One Relationship: [principalobjectattributeaccess msdyn_ocexternalsecuritysetting_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_ocexternalsecuritysetting_PrincipalObjectAttributeAccesses)
+Many-To-One Relationship: [principalobjectattributeaccess msdyn_proactive_engagement_planner_config_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_proactive_engagement_planner_config_PrincipalObjectAttributeAccesses)
 
 |Property|Value|
 |---|---|
 |ReferencingEntity|`principalobjectattributeaccess`|
 |ReferencingAttribute|`objectid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_ocexternalsecuritysetting_PrincipalObjectAttributeAccesses`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_engagement_planner_config_PrincipalObjectAttributeAccesses`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_ocexternalsecuritysetting_ProcessSession"></a> msdyn_ocexternalsecuritysetting_ProcessSession
+### <a name="BKMK_msdyn_proactive_engagement_planner_config_ProcessSession"></a> msdyn_proactive_engagement_planner_config_ProcessSession
 
-Many-To-One Relationship: [processsession msdyn_ocexternalsecuritysetting_ProcessSession](processsession.md#BKMK_msdyn_ocexternalsecuritysetting_ProcessSession)
+Many-To-One Relationship: [processsession msdyn_proactive_engagement_planner_config_ProcessSession](processsession.md#BKMK_msdyn_proactive_engagement_planner_config_ProcessSession)
 
 |Property|Value|
 |---|---|
 |ReferencingEntity|`processsession`|
 |ReferencingAttribute|`regardingobjectid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_ocexternalsecuritysetting_ProcessSession`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_engagement_planner_config_ProcessSession`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_ocexternalsecuritysetting_SyncErrors"></a> msdyn_ocexternalsecuritysetting_SyncErrors
+### <a name="BKMK_msdyn_proactive_engagement_planner_config_SyncErrors"></a> msdyn_proactive_engagement_planner_config_SyncErrors
 
-Many-To-One Relationship: [syncerror msdyn_ocexternalsecuritysetting_SyncErrors](syncerror.md#BKMK_msdyn_ocexternalsecuritysetting_SyncErrors)
+Many-To-One Relationship: [syncerror msdyn_proactive_engagement_planner_config_SyncErrors](syncerror.md#BKMK_msdyn_proactive_engagement_planner_config_SyncErrors)
 
 |Property|Value|
 |---|---|
 |ReferencingEntity|`syncerror`|
 |ReferencingAttribute|`regardingobjectid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_ocexternalsecuritysetting_SyncErrors`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_engagement_planner_config_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

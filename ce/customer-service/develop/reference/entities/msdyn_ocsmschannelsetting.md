@@ -64,6 +64,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsCustomizable](#BKMK_IsCustomizable)
 - [msdyn_enablefileattachmentforagents](#BKMK_msdyn_enablefileattachmentforagents)
 - [msdyn_enablefileattachmentforcustomers](#BKMK_msdyn_enablefileattachmentforcustomers)
+- [msdyn_enablerealtimelanguagetranslation](#BKMK_msdyn_enablerealtimelanguagetranslation)
 - [msdyn_inboundurl](#BKMK_msdyn_inboundurl)
 - [msdyn_language](#BKMK_msdyn_language)
 - [msdyn_liveworkstreamid](#BKMK_msdyn_liveworkstreamid)
@@ -139,6 +140,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_ocsmschannelsetting_msdyn_enablefileattachmentforcustomers`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_enablerealtimelanguagetranslation"></a> msdyn_enablerealtimelanguagetranslation
+
+|Property|Value|
+|---|---|
+|Description|**Enable Real Time Language Translation**|
+|DisplayName|**msdyn\_enablerealtimelanguagetranslation**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enablerealtimelanguagetranslation`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_ocsmschannelsetting_msdyn_enablerealtimelanguagetranslation`|
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|

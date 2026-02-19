@@ -1,5 +1,10 @@
 {
   "redirections": [
+   {
+      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocsessionparticipantevent.md",
+      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_ocsessionparticipantevent",
+      "redirect_document_id": "false"
+    },
     {
       "source_path": "ce/customer-service/administer/cs-enable-ai-generated-summary.md",
       "redirect_url": "/dynamics365/contact-center/administer/copilot-enable-summary#enable-conversation-summaries",
@@ -1928,11 +1933,6 @@
     {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_omnichannelsyncconfig.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_omnichannelsyncconfig",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_overflowactionconfig.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_overflowactionconfig",
       "redirect_document_id": "false"
     },
     {

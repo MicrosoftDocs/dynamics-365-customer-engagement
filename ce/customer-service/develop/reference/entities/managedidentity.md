@@ -13,9 +13,21 @@ search.audienceType:
 Contains data to represent an Azure Active Directory Application used to connect to secure web-hosted resources.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Managed Identity (ManagedIdentity) table extends the [Microsoft Dataverse Managed Identity (ManagedIdentity) table](/power-apps/developer/data-platform/reference/entities/managedidentity).
+> The Microsoft Dynamics 365 Customer Service Managed Identity (ManagedIdentity) table extends the [Microsoft Dynamics 365 Managed Identity (ManagedIdentity) table](/dynamics365/developer/reference/entities/managedidentity).
 
 
+
+## Customized columns/attributes
+
+Microsoft Dynamics 365 Customer Service modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
+
+### <a name="BKMK_IdentityType"></a> IdentityType
+
+Changes from [IdentityType (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/managedidentity#BKMK_IdentityType)
+
+|Property|Value|
+|---|---|
+|RequiredLevel|SystemRequired|
 
 
 ## One-to-Many relationships
