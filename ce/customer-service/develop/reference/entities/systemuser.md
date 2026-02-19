@@ -113,6 +113,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 Microsoft Dynamics 365 Customer Service modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
 
+- [PreferredPhoneCode](#BKMK_PreferredPhoneCode)
+- [SystemManagedUserType](#BKMK_SystemManagedUserType)
+
 ### <a name="BKMK_PreferredPhoneCode"></a> PreferredPhoneCode
 
 Changes from [PreferredPhoneCode (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/systemuser#BKMK_PreferredPhoneCode)
@@ -122,6 +125,15 @@ Changes from [PreferredPhoneCode (Microsoft Dataverse)](/power-apps/developer/da
 |Value|Label|
 |---|---|
 |192350005|**Omnichannel Phone**|
+
+### <a name="BKMK_SystemManagedUserType"></a> SystemManagedUserType
+
+Changes from [SystemManagedUserType (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/systemuser#BKMK_SystemManagedUserType)
+
+|Property|Value|
+|---|---|
+|RequiredLevel|SystemRequired|
+
 
 ## Many-to-One relationships
 
@@ -289,6 +301,10 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [lk_msdyn_occustommessagingchannel_createdonbehalfby](#BKMK_lk_msdyn_occustommessagingchannel_createdonbehalfby)
 - [lk_msdyn_occustommessagingchannel_modifiedby](#BKMK_lk_msdyn_occustommessagingchannel_modifiedby)
 - [lk_msdyn_occustommessagingchannel_modifiedonbehalfby](#BKMK_lk_msdyn_occustommessagingchannel_modifiedonbehalfby)
+- [lk_msdyn_occustomneuralvoice_createdby](#BKMK_lk_msdyn_occustomneuralvoice_createdby)
+- [lk_msdyn_occustomneuralvoice_createdonbehalfby](#BKMK_lk_msdyn_occustomneuralvoice_createdonbehalfby)
+- [lk_msdyn_occustomneuralvoice_modifiedby](#BKMK_lk_msdyn_occustomneuralvoice_modifiedby)
+- [lk_msdyn_occustomneuralvoice_modifiedonbehalfby](#BKMK_lk_msdyn_occustomneuralvoice_modifiedonbehalfby)
 - [lk_msdyn_ocexternalsecuritysetting_createdby](#BKMK_lk_msdyn_ocexternalsecuritysetting_createdby)
 - [lk_msdyn_ocexternalsecuritysetting_createdonbehalfby](#BKMK_lk_msdyn_ocexternalsecuritysetting_createdonbehalfby)
 - [lk_msdyn_ocexternalsecuritysetting_modifiedby](#BKMK_lk_msdyn_ocexternalsecuritysetting_modifiedby)
@@ -405,6 +421,10 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [lk_msdyn_proactive_delivery_attribute_createdonbehalfby](#BKMK_lk_msdyn_proactive_delivery_attribute_createdonbehalfby)
 - [lk_msdyn_proactive_delivery_attribute_modifiedby](#BKMK_lk_msdyn_proactive_delivery_attribute_modifiedby)
 - [lk_msdyn_proactive_delivery_attribute_modifiedonbehalfby](#BKMK_lk_msdyn_proactive_delivery_attribute_modifiedonbehalfby)
+- [lk_msdyn_proactive_delivery_batch_createdby](#BKMK_lk_msdyn_proactive_delivery_batch_createdby)
+- [lk_msdyn_proactive_delivery_batch_createdonbehalfby](#BKMK_lk_msdyn_proactive_delivery_batch_createdonbehalfby)
+- [lk_msdyn_proactive_delivery_batch_modifiedby](#BKMK_lk_msdyn_proactive_delivery_batch_modifiedby)
+- [lk_msdyn_proactive_delivery_batch_modifiedonbehalfby](#BKMK_lk_msdyn_proactive_delivery_batch_modifiedonbehalfby)
 - [lk_msdyn_proactive_delivery_createdby](#BKMK_lk_msdyn_proactive_delivery_createdby)
 - [lk_msdyn_proactive_delivery_createdonbehalfby](#BKMK_lk_msdyn_proactive_delivery_createdonbehalfby)
 - [lk_msdyn_proactive_delivery_modifiedby](#BKMK_lk_msdyn_proactive_delivery_modifiedby)
@@ -425,6 +445,14 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [lk_msdyn_proactive_engagement_config_status_createdonbehalfby](#BKMK_lk_msdyn_proactive_engagement_config_status_createdonbehalfby)
 - [lk_msdyn_proactive_engagement_config_status_modifiedby](#BKMK_lk_msdyn_proactive_engagement_config_status_modifiedby)
 - [lk_msdyn_proactive_engagement_config_status_modifiedonbehalfby](#BKMK_lk_msdyn_proactive_engagement_config_status_modifiedonbehalfby)
+- [lk_msdyn_proactive_engagement_message_template_createdby](#BKMK_lk_msdyn_proactive_engagement_message_template_createdby)
+- [lk_msdyn_proactive_engagement_message_template_createdonbehalfby](#BKMK_lk_msdyn_proactive_engagement_message_template_createdonbehalfby)
+- [lk_msdyn_proactive_engagement_message_template_modifiedby](#BKMK_lk_msdyn_proactive_engagement_message_template_modifiedby)
+- [lk_msdyn_proactive_engagement_message_template_modifiedonbehalfby](#BKMK_lk_msdyn_proactive_engagement_message_template_modifiedonbehalfby)
+- [lk_msdyn_proactive_engagement_planner_config_createdby](#BKMK_lk_msdyn_proactive_engagement_planner_config_createdby)
+- [lk_msdyn_proactive_engagement_planner_config_createdonbehalfby](#BKMK_lk_msdyn_proactive_engagement_planner_config_createdonbehalfby)
+- [lk_msdyn_proactive_engagement_planner_config_modifiedby](#BKMK_lk_msdyn_proactive_engagement_planner_config_modifiedby)
+- [lk_msdyn_proactive_engagement_planner_config_modifiedonbehalfby](#BKMK_lk_msdyn_proactive_engagement_planner_config_modifiedonbehalfby)
 - [lk_msdyn_questionsequence_createdby](#BKMK_lk_msdyn_questionsequence_createdby)
 - [lk_msdyn_questionsequence_createdonbehalfby](#BKMK_lk_msdyn_questionsequence_createdonbehalfby)
 - [lk_msdyn_questionsequence_modifiedby](#BKMK_lk_msdyn_questionsequence_modifiedby)
@@ -617,6 +645,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [user_msdyn_occommunicationprovidersetting](#BKMK_user_msdyn_occommunicationprovidersetting)
 - [user_msdyn_occommunicationprovidersettingentry](#BKMK_user_msdyn_occommunicationprovidersettingentry)
 - [user_msdyn_occustommessagingchannel](#BKMK_user_msdyn_occustommessagingchannel)
+- [user_msdyn_occustomneuralvoice](#BKMK_user_msdyn_occustomneuralvoice)
 - [user_msdyn_ocexternalsecuritysetting](#BKMK_user_msdyn_ocexternalsecuritysetting)
 - [user_msdyn_ocfbapplication](#BKMK_user_msdyn_ocfbapplication)
 - [user_msdyn_ocfbpage](#BKMK_user_msdyn_ocfbpage)
@@ -645,10 +674,13 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [user_msdyn_priority](#BKMK_user_msdyn_priority)
 - [user_msdyn_proactive_delivery](#BKMK_user_msdyn_proactive_delivery)
 - [user_msdyn_proactive_delivery_attribute](#BKMK_user_msdyn_proactive_delivery_attribute)
+- [user_msdyn_proactive_delivery_batch](#BKMK_user_msdyn_proactive_delivery_batch)
 - [user_msdyn_proactive_eng_config_characteristic](#BKMK_user_msdyn_proactive_eng_config_characteristic)
 - [user_msdyn_proactive_engagement_config](#BKMK_user_msdyn_proactive_engagement_config)
 - [user_msdyn_proactive_engagement_config_attribute](#BKMK_user_msdyn_proactive_engagement_config_attribute)
 - [user_msdyn_proactive_engagement_config_status](#BKMK_user_msdyn_proactive_engagement_config_status)
+- [user_msdyn_proactive_engagement_message_template](#BKMK_user_msdyn_proactive_engagement_message_template)
+- [user_msdyn_proactive_engagement_planner_config](#BKMK_user_msdyn_proactive_engagement_planner_config)
 - [user_msdyn_questionsequence](#BKMK_user_msdyn_questionsequence)
 - [user_msdyn_requirementchange](#BKMK_user_msdyn_requirementchange)
 - [user_msdyn_requirementcharacteristic](#BKMK_user_msdyn_requirementcharacteristic)
@@ -2412,6 +2444,54 @@ Many-To-One Relationship: [msdyn_occustommessagingchannel lk_msdyn_occustommessa
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_occustomneuralvoice_createdby"></a> lk_msdyn_occustomneuralvoice_createdby
+
+Many-To-One Relationship: [msdyn_occustomneuralvoice lk_msdyn_occustomneuralvoice_createdby](msdyn_occustomneuralvoice.md#BKMK_lk_msdyn_occustomneuralvoice_createdby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_occustomneuralvoice`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_occustomneuralvoice_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_occustomneuralvoice_createdonbehalfby"></a> lk_msdyn_occustomneuralvoice_createdonbehalfby
+
+Many-To-One Relationship: [msdyn_occustomneuralvoice lk_msdyn_occustomneuralvoice_createdonbehalfby](msdyn_occustomneuralvoice.md#BKMK_lk_msdyn_occustomneuralvoice_createdonbehalfby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_occustomneuralvoice`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_occustomneuralvoice_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_occustomneuralvoice_modifiedby"></a> lk_msdyn_occustomneuralvoice_modifiedby
+
+Many-To-One Relationship: [msdyn_occustomneuralvoice lk_msdyn_occustomneuralvoice_modifiedby](msdyn_occustomneuralvoice.md#BKMK_lk_msdyn_occustomneuralvoice_modifiedby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_occustomneuralvoice`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_occustomneuralvoice_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_occustomneuralvoice_modifiedonbehalfby"></a> lk_msdyn_occustomneuralvoice_modifiedonbehalfby
+
+Many-To-One Relationship: [msdyn_occustomneuralvoice lk_msdyn_occustomneuralvoice_modifiedonbehalfby](msdyn_occustomneuralvoice.md#BKMK_lk_msdyn_occustomneuralvoice_modifiedonbehalfby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_occustomneuralvoice`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_occustomneuralvoice_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_lk_msdyn_ocexternalsecuritysetting_createdby"></a> lk_msdyn_ocexternalsecuritysetting_createdby
 
 Many-To-One Relationship: [msdyn_ocexternalsecuritysetting lk_msdyn_ocexternalsecuritysetting_createdby](msdyn_ocexternalsecuritysetting.md#BKMK_lk_msdyn_ocexternalsecuritysetting_createdby)
@@ -3804,6 +3884,54 @@ Many-To-One Relationship: [msdyn_proactive_delivery_attribute lk_msdyn_proactive
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_proactive_delivery_batch_createdby"></a> lk_msdyn_proactive_delivery_batch_createdby
+
+Many-To-One Relationship: [msdyn_proactive_delivery_batch lk_msdyn_proactive_delivery_batch_createdby](msdyn_proactive_delivery_batch.md#BKMK_lk_msdyn_proactive_delivery_batch_createdby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_delivery_batch`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_proactive_delivery_batch_createdby`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_proactive_delivery_batch_createdonbehalfby"></a> lk_msdyn_proactive_delivery_batch_createdonbehalfby
+
+Many-To-One Relationship: [msdyn_proactive_delivery_batch lk_msdyn_proactive_delivery_batch_createdonbehalfby](msdyn_proactive_delivery_batch.md#BKMK_lk_msdyn_proactive_delivery_batch_createdonbehalfby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_delivery_batch`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_proactive_delivery_batch_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_proactive_delivery_batch_modifiedby"></a> lk_msdyn_proactive_delivery_batch_modifiedby
+
+Many-To-One Relationship: [msdyn_proactive_delivery_batch lk_msdyn_proactive_delivery_batch_modifiedby](msdyn_proactive_delivery_batch.md#BKMK_lk_msdyn_proactive_delivery_batch_modifiedby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_delivery_batch`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_proactive_delivery_batch_modifiedby`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_proactive_delivery_batch_modifiedonbehalfby"></a> lk_msdyn_proactive_delivery_batch_modifiedonbehalfby
+
+Many-To-One Relationship: [msdyn_proactive_delivery_batch lk_msdyn_proactive_delivery_batch_modifiedonbehalfby](msdyn_proactive_delivery_batch.md#BKMK_lk_msdyn_proactive_delivery_batch_modifiedonbehalfby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_delivery_batch`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_proactive_delivery_batch_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_lk_msdyn_proactive_delivery_createdby"></a> lk_msdyn_proactive_delivery_createdby
 
 Many-To-One Relationship: [msdyn_proactive_delivery lk_msdyn_proactive_delivery_createdby](msdyn_proactive_delivery.md#BKMK_lk_msdyn_proactive_delivery_createdby)
@@ -4041,6 +4169,102 @@ Many-To-One Relationship: [msdyn_proactive_engagement_config_status lk_msdyn_pro
 |ReferencingEntity|`msdyn_proactive_engagement_config_status`|
 |ReferencingAttribute|`modifiedonbehalfby`|
 |ReferencedEntityNavigationPropertyName|`lk_msdyn_proactive_engagement_config_status_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_proactive_engagement_message_template_createdby"></a> lk_msdyn_proactive_engagement_message_template_createdby
+
+Many-To-One Relationship: [msdyn_proactive_engagement_message_template lk_msdyn_proactive_engagement_message_template_createdby](msdyn_proactive_engagement_message_template.md#BKMK_lk_msdyn_proactive_engagement_message_template_createdby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_engagement_message_template`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_proactive_engagement_message_template_createdby`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_proactive_engagement_message_template_createdonbehalfby"></a> lk_msdyn_proactive_engagement_message_template_createdonbehalfby
+
+Many-To-One Relationship: [msdyn_proactive_engagement_message_template lk_msdyn_proactive_engagement_message_template_createdonbehalfby](msdyn_proactive_engagement_message_template.md#BKMK_lk_msdyn_proactive_engagement_message_template_createdonbehalfby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_engagement_message_template`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_proactive_engagement_message_template_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_proactive_engagement_message_template_modifiedby"></a> lk_msdyn_proactive_engagement_message_template_modifiedby
+
+Many-To-One Relationship: [msdyn_proactive_engagement_message_template lk_msdyn_proactive_engagement_message_template_modifiedby](msdyn_proactive_engagement_message_template.md#BKMK_lk_msdyn_proactive_engagement_message_template_modifiedby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_engagement_message_template`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_proactive_engagement_message_template_modifiedby`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_proactive_engagement_message_template_modifiedonbehalfby"></a> lk_msdyn_proactive_engagement_message_template_modifiedonbehalfby
+
+Many-To-One Relationship: [msdyn_proactive_engagement_message_template lk_msdyn_proactive_engagement_message_template_modifiedonbehalfby](msdyn_proactive_engagement_message_template.md#BKMK_lk_msdyn_proactive_engagement_message_template_modifiedonbehalfby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_engagement_message_template`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_proactive_engagement_message_template_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_proactive_engagement_planner_config_createdby"></a> lk_msdyn_proactive_engagement_planner_config_createdby
+
+Many-To-One Relationship: [msdyn_proactive_engagement_planner_config lk_msdyn_proactive_engagement_planner_config_createdby](msdyn_proactive_engagement_planner_config.md#BKMK_lk_msdyn_proactive_engagement_planner_config_createdby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_engagement_planner_config`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_proactive_engagement_planner_config_createdby`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_proactive_engagement_planner_config_createdonbehalfby"></a> lk_msdyn_proactive_engagement_planner_config_createdonbehalfby
+
+Many-To-One Relationship: [msdyn_proactive_engagement_planner_config lk_msdyn_proactive_engagement_planner_config_createdonbehalfby](msdyn_proactive_engagement_planner_config.md#BKMK_lk_msdyn_proactive_engagement_planner_config_createdonbehalfby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_engagement_planner_config`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_proactive_engagement_planner_config_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_proactive_engagement_planner_config_modifiedby"></a> lk_msdyn_proactive_engagement_planner_config_modifiedby
+
+Many-To-One Relationship: [msdyn_proactive_engagement_planner_config lk_msdyn_proactive_engagement_planner_config_modifiedby](msdyn_proactive_engagement_planner_config.md#BKMK_lk_msdyn_proactive_engagement_planner_config_modifiedby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_engagement_planner_config`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_proactive_engagement_planner_config_modifiedby`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_proactive_engagement_planner_config_modifiedonbehalfby"></a> lk_msdyn_proactive_engagement_planner_config_modifiedonbehalfby
+
+Many-To-One Relationship: [msdyn_proactive_engagement_planner_config lk_msdyn_proactive_engagement_planner_config_modifiedonbehalfby](msdyn_proactive_engagement_planner_config.md#BKMK_lk_msdyn_proactive_engagement_planner_config_modifiedonbehalfby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_engagement_planner_config`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_proactive_engagement_planner_config_modifiedonbehalfby`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
@@ -6348,6 +6572,18 @@ Many-To-One Relationship: [msdyn_occustommessagingchannel user_msdyn_occustommes
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_occustomneuralvoice"></a> user_msdyn_occustomneuralvoice
+
+Many-To-One Relationship: [msdyn_occustomneuralvoice user_msdyn_occustomneuralvoice](msdyn_occustomneuralvoice.md#BKMK_user_msdyn_occustomneuralvoice)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_occustomneuralvoice`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_occustomneuralvoice`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_user_msdyn_ocexternalsecuritysetting"></a> user_msdyn_ocexternalsecuritysetting
 
 Many-To-One Relationship: [msdyn_ocexternalsecuritysetting user_msdyn_ocexternalsecuritysetting](msdyn_ocexternalsecuritysetting.md#BKMK_user_msdyn_ocexternalsecuritysetting)
@@ -6684,6 +6920,18 @@ Many-To-One Relationship: [msdyn_proactive_delivery_attribute user_msdyn_proacti
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_proactive_delivery_batch"></a> user_msdyn_proactive_delivery_batch
+
+Many-To-One Relationship: [msdyn_proactive_delivery_batch user_msdyn_proactive_delivery_batch](msdyn_proactive_delivery_batch.md#BKMK_user_msdyn_proactive_delivery_batch)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_delivery_batch`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_proactive_delivery_batch`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_user_msdyn_proactive_eng_config_characteristic"></a> user_msdyn_proactive_eng_config_characteristic
 
 Many-To-One Relationship: [msdyn_proactive_eng_config_characteristic user_msdyn_proactive_eng_config_characteristic](msdyn_proactive_eng_config_characteristic.md#BKMK_user_msdyn_proactive_eng_config_characteristic)
@@ -6729,6 +6977,30 @@ Many-To-One Relationship: [msdyn_proactive_engagement_config_status user_msdyn_p
 |ReferencingEntity|`msdyn_proactive_engagement_config_status`|
 |ReferencingAttribute|`owninguser`|
 |ReferencedEntityNavigationPropertyName|`user_msdyn_proactive_engagement_config_status`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_user_msdyn_proactive_engagement_message_template"></a> user_msdyn_proactive_engagement_message_template
+
+Many-To-One Relationship: [msdyn_proactive_engagement_message_template user_msdyn_proactive_engagement_message_template](msdyn_proactive_engagement_message_template.md#BKMK_user_msdyn_proactive_engagement_message_template)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_engagement_message_template`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_proactive_engagement_message_template`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_user_msdyn_proactive_engagement_planner_config"></a> user_msdyn_proactive_engagement_planner_config
+
+Many-To-One Relationship: [msdyn_proactive_engagement_planner_config user_msdyn_proactive_engagement_planner_config](msdyn_proactive_engagement_planner_config.md#BKMK_user_msdyn_proactive_engagement_planner_config)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_engagement_planner_config`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_proactive_engagement_planner_config`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
