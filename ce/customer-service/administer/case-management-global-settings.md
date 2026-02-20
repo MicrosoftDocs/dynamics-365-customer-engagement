@@ -58,7 +58,7 @@ The application user you create in Power Platform admin center is used to receiv
 ### Assign a shared mailbox to the application user
 
 1. Go to [Microsoft 365 admin center](https://admin.cloud.microsoft/) and do the steps 1 through 4 in [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox#create-a-shared-mailbox-and-add-members). Copy the email  of the shared mailbox.
-1. In Power Platform admin center, open the application user that you created in [Create an application user](#create-an-application-user-in-power-platform-admin-center) and set the shared mailbox ID to the email ID you've copied in the previous step. Learn more in [View or edit the details of an application user](/power-platform/admin/manage-application-users?tabs=new#view-or-edit-the-details-of-an-application-user).
+1. In Power Platform admin center, open the application user that you created in [Create an application user](#create-an-application-user-in-power-platform-admin-center) and set the shared mailbox ID to the email ID you copied in the previous step. Learn more in [View or edit the details of an application user](/power-platform/admin/manage-application-users?tabs=new#view-or-edit-the-details-of-an-application-user).
 
 ### Assign a security group to the application user
 
@@ -106,7 +106,7 @@ In Copilot Studio, perform the following steps:
        1. On the page that appears, select **...** > **Add new connection**.
        1. Select Service Principal as the authentication type.
        1. Specify the **Client ID**, **Client Secret**, and **Tenant ID** that you copied in the [Register an application and create a secret](#register-an-application-and-create-a-secret) section and then select **Create**. After the connection is created, the status of the connection reference changes to **Connected**.
-   - For **Call custom agent**, you can use the Ouath authentication.
+   - For **Call custom agent**, you can use the Oauth authentication.
        1. Select **Connect** for **Call custom agent**.
        1. On the page that appears, select **...** and then select the admin connection.
        1. Select **Submit**. After the connection is created, the status of the connection reference changes to **Connected**.
