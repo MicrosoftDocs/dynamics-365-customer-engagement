@@ -72,7 +72,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_bot_failure_treatment_type](#BKMK_msdyn_bot_failure_treatment_type)
 - [msdyn_description](#BKMK_msdyn_description)
 - [msdyn_dialmode_type](#BKMK_msdyn_dialmode_type)
+- [msdyn_first_response_timeout_mins](#BKMK_msdyn_first_response_timeout_mins)
 - [msdyn_ignore_queue_hours](#BKMK_msdyn_ignore_queue_hours)
+- [msdyn_intentid](#BKMK_msdyn_intentid)
 - [msdyn_max_calls_per_agent](#BKMK_msdyn_max_calls_per_agent)
 - [msdyn_max_concurrent_calls](#BKMK_msdyn_max_concurrent_calls)
 - [msdyn_name](#BKMK_msdyn_name)
@@ -80,11 +82,15 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_proactive_engagement_configId](#BKMK_msdyn_proactive_engagement_configId)
 - [msdyn_processing_order](#BKMK_msdyn_processing_order)
 - [msdyn_queue](#BKMK_msdyn_queue)
+- [msdyn_queue_allotment](#BKMK_msdyn_queue_allotment)
 - [msdyn_reserve_agent_capacity](#BKMK_msdyn_reserve_agent_capacity)
 - [msdyn_throttle_adjustment_percentage](#BKMK_msdyn_throttle_adjustment_percentage)
 - [msdyn_throttle_control_period](#BKMK_msdyn_throttle_control_period)
+- [msdyn_throttle_control_period_2](#BKMK_msdyn_throttle_control_period_2)
 - [msdyn_throttle_metric](#BKMK_msdyn_throttle_metric)
+- [msdyn_throttle_metric_2](#BKMK_msdyn_throttle_metric_2)
 - [msdyn_throttle_threshold](#BKMK_msdyn_throttle_threshold)
+- [msdyn_throttle_threshold_2](#BKMK_msdyn_throttle_threshold_2)
 - [msdyn_type](#BKMK_msdyn_type)
 - [msdyn_workstream](#BKMK_msdyn_workstream)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -195,6 +201,21 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100000000|**Copilot**|
 |100000001|**Progressive**|
 |100000002|**Preview**|
+|100000003|**Predictive**|
+
+### <a name="BKMK_msdyn_first_response_timeout_mins"></a> msdyn_first_response_timeout_mins
+
+|Property|Value|
+|---|---|
+|Description|**First response timeout for SMS engagements**|
+|DisplayName|**First Response Timeout (Minutes)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_first_response_timeout_mins`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
 
 ### <a name="BKMK_msdyn_ignore_queue_hours"></a> msdyn_ignore_queue_hours
 
@@ -211,6 +232,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_intentid"></a> msdyn_intentid
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Intent Id**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`msdyn_intentid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_max_calls_per_agent"></a> msdyn_max_calls_per_agent
 
@@ -326,6 +364,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Lookup|
 |Targets|queue|
 
+### <a name="BKMK_msdyn_queue_allotment"></a> msdyn_queue_allotment
+
+|Property|Value|
+|---|---|
+|Description|**The percentage allocation of the agent queue.**|
+|DisplayName|**Queue Allotment Percentage**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_queue_allotment`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|100|
+|MinValue|1|
+
 ### <a name="BKMK_msdyn_reserve_agent_capacity"></a> msdyn_reserve_agent_capacity
 
 |Property|Value|
@@ -370,6 +422,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxValue|2147483647|
 |MinValue|1|
 
+### <a name="BKMK_msdyn_throttle_control_period_2"></a> msdyn_throttle_control_period_2
+
+|Property|Value|
+|---|---|
+|Description|**The number of minutes to consider when calculating the value for the metric.**|
+|DisplayName|**Throttle Control Period 2**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_throttle_control_period_2`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|1|
+
 ### <a name="BKMK_msdyn_throttle_metric"></a> msdyn_throttle_metric
 
 |Property|Value|
@@ -393,6 +459,29 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192360002|**Abandonment Rate**|
 |192360003|**Open Escalation Count**|
 
+### <a name="BKMK_msdyn_throttle_metric_2"></a> msdyn_throttle_metric_2
+
+|Property|Value|
+|---|---|
+|Description|**The metric that throttling should be based off of.**|
+|DisplayName|**Throttle Metric 2**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_throttle_metric_2`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_proactive_engagement_config_msdyn_throttle_metric_2`|
+
+#### msdyn_throttle_metric_2 Choices/Options
+
+|Value|Label|
+|---|---|
+|192360000|**Avg. Escalation Wait Time**|
+|192360001|**Escalation Count**|
+|192360002|**Abandonment Rate**|
+|192360003|**Open Escalation Count**|
+
 ### <a name="BKMK_msdyn_throttle_threshold"></a> msdyn_throttle_threshold
 
 |Property|Value|
@@ -402,6 +491,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_throttle_threshold`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_throttle_threshold_2"></a> msdyn_throttle_threshold_2
+
+|Property|Value|
+|---|---|
+|Description|**The threshold for the metric, if below we increment rate, if above we decrement rate.**|
+|DisplayName|**Throttle Threshold 2**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_throttle_threshold_2`|
 |RequiredLevel|None|
 |Type|Integer|
 |MaxValue|2147483647|
@@ -998,7 +1101,10 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_proactive_engagement_config_DuplicateBaseRecord](#BKMK_msdyn_proactive_engagement_config_DuplicateBaseRecord)
 - [msdyn_proactive_engagement_config_DuplicateMatchingRecord](#BKMK_msdyn_proactive_engagement_config_DuplicateMatchingRecord)
 - [msdyn_proactive_engagement_config_MailboxTrackingFolders](#BKMK_msdyn_proactive_engagement_config_MailboxTrackingFolders)
+- [msdyn_proactive_engagement_config_msdyn_proactive_delivery_batch](#BKMK_msdyn_proactive_engagement_config_msdyn_proactive_delivery_batch)
 - [msdyn_proactive_engagement_config_msdyn_proactive_engagement_config_attribute](#BKMK_msdyn_proactive_engagement_config_msdyn_proactive_engagement_config_attribute)
+- [msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_engagement_config](#BKMK_msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_engagement_config)
+- [msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_fallback_engagement_config](#BKMK_msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_fallback_engagement_config)
 - [msdyn_proactive_engagement_config_PrincipalObjectAttributeAccesses](#BKMK_msdyn_proactive_engagement_config_PrincipalObjectAttributeAccesses)
 - [msdyn_proactive_engagement_config_ProcessSession](#BKMK_msdyn_proactive_engagement_config_ProcessSession)
 - [msdyn_proactive_engagement_config_status_msdyn_proactive_engagement_config_msdyn_proactive](#BKMK_msdyn_proactive_engagement_config_status_msdyn_proactive_engagement_config_msdyn_proactive)
@@ -1076,6 +1182,18 @@ Many-To-One Relationship: [mailboxtrackingfolder msdyn_proactive_engagement_conf
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_proactive_engagement_config_msdyn_proactive_delivery_batch"></a> msdyn_proactive_engagement_config_msdyn_proactive_delivery_batch
+
+Many-To-One Relationship: [msdyn_proactive_delivery_batch msdyn_proactive_engagement_config_msdyn_proactive_delivery_batch](msdyn_proactive_delivery_batch.md#BKMK_msdyn_proactive_engagement_config_msdyn_proactive_delivery_batch)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_delivery_batch`|
+|ReferencingAttribute|`msdyn_proactive_engagement_config`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_engagement_config_msdyn_proactive_delivery_batch`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_proactive_engagement_config_msdyn_proactive_engagement_config_attribute"></a> msdyn_proactive_engagement_config_msdyn_proactive_engagement_config_attribute
 
 Many-To-One Relationship: [msdyn_proactive_engagement_config_attribute msdyn_proactive_engagement_config_msdyn_proactive_engagement_config_attribute](msdyn_proactive_engagement_config_attribute.md#BKMK_msdyn_proactive_engagement_config_msdyn_proactive_engagement_config_attribute)
@@ -1085,6 +1203,30 @@ Many-To-One Relationship: [msdyn_proactive_engagement_config_attribute msdyn_pro
 |ReferencingEntity|`msdyn_proactive_engagement_config_attribute`|
 |ReferencingAttribute|`msdyn_proactive_engagement_config`|
 |ReferencedEntityNavigationPropertyName|`msdyn_proactive_engagement_config_msdyn_proactive_engagement_config_attribute`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_engagement_config"></a> msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_engagement_config
+
+Many-To-One Relationship: [msdyn_proactive_engagement_planner_config msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_engagement_config](msdyn_proactive_engagement_planner_config.md#BKMK_msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_engagement_config)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_engagement_planner_config`|
+|ReferencingAttribute|`msdyn_proactive_engagement_config_id`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_engagement_config`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_fallback_engagement_config"></a> msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_fallback_engagement_config
+
+Many-To-One Relationship: [msdyn_proactive_engagement_planner_config msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_fallback_engagement_config](msdyn_proactive_engagement_planner_config.md#BKMK_msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_fallback_engagement_config)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_engagement_planner_config`|
+|ReferencingAttribute|`msdyn_fallback_engagement_config_id`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_engagement_config_msdyn_proactive_engagement_planner_config_fallback_engagement_config`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

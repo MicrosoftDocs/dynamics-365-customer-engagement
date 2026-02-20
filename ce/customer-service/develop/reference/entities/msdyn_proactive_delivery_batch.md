@@ -1,6 +1,6 @@
 ---
-title: "Requirement Group (msdyn_requirementgroup) table/entity reference (Microsoft Dynamics 365 Customer Service)"
-description: "Includes schema information and supported messages for the Requirement Group (msdyn_requirementgroup) table/entity with Microsoft Dynamics 365 Customer Service."
+title: "Proactive Delivery Batch (msdyn_proactive_delivery_batch) table/entity reference (Microsoft Dynamics 365 Customer Service)"
+description: "Includes schema information and supported messages for the Proactive Delivery Batch (msdyn_proactive_delivery_batch) table/entity with Microsoft Dynamics 365 Customer Service."
 ms.topic: generated-reference
 author: gandhamm
 ms.author: mgandham
@@ -8,60 +8,57 @@ search.audienceType:
   - developer
 ---
 
-# Requirement Group (msdyn_requirementgroup) table/entity reference (Microsoft Dynamics 365 Customer Service)
+# Proactive Delivery Batch (msdyn_proactive_delivery_batch) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
-Service which has resource requirement offering periods
+
 
 ## Messages
 
-The following table lists the messages for the Requirement Group (msdyn_requirementgroup) table.
+The following table lists the messages for the Proactive Delivery Batch (msdyn_proactive_delivery_batch) table.
 Messages represent operations that can be performed on the table. They may also be events.
 
 | Name <br />Is Event? |Web API Operation |SDK for .NET |
 | ---- | ----- |----- |
-| `Assign`<br />Event: True |`PATCH` /msdyn_requirementgroups(*msdyn_requirementgroupid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) the `ownerid` property. |<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+| `Assign`<br />Event: True |`PATCH` /msdyn_proactive_delivery_batches(*msdyn_proactive_delivery_batchid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) the `ownerid` property. |<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
 | `Associate`<br />Event: True |[Associate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Associate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-associate-method-or-associaterequest)|
 | `BulkRetain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.BulkRetain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Create`<br />Event: True |`POST` /msdyn_requirementgroups<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api) |[Create records](/power-apps/developer/data-platform/org-service/entity-operations-create#basic-create)|
+| `Create`<br />Event: True |`POST` /msdyn_proactive_delivery_batches<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api) |[Create records](/power-apps/developer/data-platform/org-service/entity-operations-create#basic-create)|
 | `CreateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
-| `Delete`<br />Event: True |`DELETE` /msdyn_requirementgroups(*msdyn_requirementgroupid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete) |[Delete records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-delete)|
+| `Delete`<br />Event: True |`DELETE` /msdyn_proactive_delivery_batches(*msdyn_proactive_delivery_batchid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete) |[Delete records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-delete)|
 | `Disassociate`<br />Event: True |[Disassociate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Disassociate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-disassociate-method-or-disassociaterequest)|
 | `GrantAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-| `msdyn_BookRequirementGroup`<br />Event: True |**msdyn_BookRequirementGroup action** |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `msdyn_RequirementGroupOverview`<br />Event: False |**msdyn_RequirementGroupOverview action** |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `msdyn_ScheduleRequirementGroup`<br />Event: True |**msdyn_ScheduleRequirementGroup action** |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Retrieve`<br />Event: True |`GET` /msdyn_requirementgroups(*msdyn_requirementgroupid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
-| `RetrieveMultiple`<br />Event: True |`GET` /msdyn_requirementgroups<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
+| `Retrieve`<br />Event: True |`GET` /msdyn_proactive_delivery_batches(*msdyn_proactive_delivery_batchid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
+| `RetrieveMultiple`<br />Event: True |`GET` /msdyn_proactive_delivery_batches<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
 | `RetrievePrincipalAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 | `RetrieveSharedPrincipalsAndAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 | `RevokeAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RevokeAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
 | `RollbackRetain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RollbackRetain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `SetState`<br />Event: True |`PATCH` /msdyn_requirementgroups(*msdyn_requirementgroupid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) the `statecode` and `statuscode` properties. |<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-| `Update`<br />Event: True |`PATCH` /msdyn_requirementgroups(*msdyn_requirementgroupid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) |[Update records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-update)|
+| `SetState`<br />Event: True |`PATCH` /msdyn_proactive_delivery_batches(*msdyn_proactive_delivery_batchid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) the `statecode` and `statuscode` properties. |<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+| `Update`<br />Event: True |`PATCH` /msdyn_proactive_delivery_batches(*msdyn_proactive_delivery_batchid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) |[Update records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-update)|
 | `UpdateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
-| `Upsert`<br />Event: False |`PATCH` /msdyn_requirementgroups(*msdyn_requirementgroupid*)<br />See [Upsert a table row](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#upsert-a-table-row) |<xref:Microsoft.Xrm.Sdk.Messages.UpsertRequest>|
+| `Upsert`<br />Event: False |`PATCH` /msdyn_proactive_delivery_batches(*msdyn_proactive_delivery_batchid*)<br />See [Upsert a table row](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#upsert-a-table-row) |<xref:Microsoft.Xrm.Sdk.Messages.UpsertRequest>|
 | `UpsertMultiple`<br />Event: False |<xref:Microsoft.Dynamics.CRM.UpsertMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.UpsertMultipleRequest>|
 | `ValidateRetentionConfig`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ValidateRetentionConfig?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 
 ## Properties
 
-The following table lists selected properties for the Requirement Group (msdyn_requirementgroup) table.
+The following table lists selected properties for the Proactive Delivery Batch (msdyn_proactive_delivery_batch) table.
 
 |Property|Value|
 | --- | --- |
-| **DisplayName** | **Requirement Group** |
-| **DisplayCollectionName** | **Requirement Groups** |
-| **SchemaName** | `msdyn_requirementgroup` |
-| **CollectionSchemaName** | `msdyn_requirementgroups` |
-| **EntitySetName** | `msdyn_requirementgroups`|
-| **LogicalName** | `msdyn_requirementgroup` |
-| **LogicalCollectionName** | `msdyn_requirementgroups` |
-| **PrimaryIdAttribute** | `msdyn_requirementgroupid` |
-| **PrimaryNameAttribute** |`msdyn_name` |
+| **DisplayName** | **Proactive Delivery Batch** |
+| **DisplayCollectionName** | **Proactive Delivery Batches** |
+| **SchemaName** | `msdyn_proactive_delivery_batch` |
+| **CollectionSchemaName** | `msdyn_proactive_delivery_batchs` |
+| **EntitySetName** | `msdyn_proactive_delivery_batches`|
+| **LogicalName** | `msdyn_proactive_delivery_batch` |
+| **LogicalCollectionName** | `msdyn_proactive_delivery_batchs` |
+| **PrimaryIdAttribute** | `msdyn_proactive_delivery_batchid` |
+| **PrimaryNameAttribute** |`msdyn_batch_id` |
 | **TableType** | `Standard` |
 | **OwnershipType** | `UserOwned` |
 
@@ -70,11 +67,13 @@ The following table lists selected properties for the Requirement Group (msdyn_r
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_autogrouptype](#BKMK_msdyn_autogrouptype)
-- [msdyn_istemplate](#BKMK_msdyn_istemplate)
-- [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_requirementgroupId](#BKMK_msdyn_requirementgroupId)
-- [msdyn_requirementgrouptemplateid](#BKMK_msdyn_requirementgrouptemplateid)
+- [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_batch_id](#BKMK_msdyn_batch_id)
+- [msdyn_error_message](#BKMK_msdyn_error_message)
+- [msdyn_file_id](#BKMK_msdyn_file_id)
+- [msdyn_proactive_delivery_batchId](#BKMK_msdyn_proactive_delivery_batchId)
+- [msdyn_proactive_engagement_config](#BKMK_msdyn_proactive_engagement_config)
+- [msdyn_status](#BKMK_msdyn_status)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -97,52 +96,27 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxValue|2147483647|
 |MinValue|-2147483648|
 
-### <a name="BKMK_msdyn_autogrouptype"></a> msdyn_autogrouptype
+### <a name="BKMK_IsCustomizable"></a> IsCustomizable
 
 |Property|Value|
 |---|---|
-|Description|**Auto Group Type**|
-|DisplayName|**Auto Group Type**|
-|IsValidForForm|True|
+|Description|**For internal use only.**|
+|DisplayName|**Is Customizable**|
+|IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|`msdyn_autogrouptype`|
-|RequiredLevel|ApplicationRequired|
-|Type|Picklist|
-|DefaultFormValue|0|
-|GlobalChoiceName|`msdyn_requirementgroup_msdyn_autogrouptype`|
+|LogicalName|`iscustomizable`|
+|RequiredLevel|SystemRequired|
+|Type|ManagedProperty|
 
-#### msdyn_autogrouptype Choices/Options
-
-|Value|Label|
-|---|---|
-|0|**None**|
-|1|**Crew**|
-
-### <a name="BKMK_msdyn_istemplate"></a> msdyn_istemplate
+### <a name="BKMK_msdyn_batch_id"></a> msdyn_batch_id
 
 |Property|Value|
 |---|---|
-|Description|**Whether this offering is a template or not.**|
-|DisplayName|**Is Template**|
+|Description|**Unique identifier for the batch, used as journey id on deliveries**|
+|DisplayName|**Batch Id**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|`msdyn_istemplate`|
-|RequiredLevel|ApplicationRequired|
-|Type|Boolean|
-|GlobalChoiceName|`msdyn_requirementgroup_msdyn_istemplate`|
-|DefaultValue|False|
-|True Label|Yes|
-|False Label|No|
-
-### <a name="BKMK_msdyn_name"></a> msdyn_name
-
-|Property|Value|
-|---|---|
-|Description|**The name of the custom entity.**|
-|DisplayName|**Name**|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|`msdyn_name`|
+|LogicalName|`msdyn_batch_id`|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
 |Format|Text|
@@ -151,30 +125,84 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|100|
 
-### <a name="BKMK_msdyn_requirementgroupId"></a> msdyn_requirementgroupId
+### <a name="BKMK_msdyn_error_message"></a> msdyn_error_message
+
+|Property|Value|
+|---|---|
+|Description|**Error message if batch processing failed**|
+|DisplayName|**Error Message**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_error_message`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2000|
+
+### <a name="BKMK_msdyn_file_id"></a> msdyn_file_id
+
+|Property|Value|
+|---|---|
+|Description|**Reference to the uploaded file**|
+|DisplayName|**File Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_file_id`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_fileupload|
+
+### <a name="BKMK_msdyn_proactive_delivery_batchId"></a> msdyn_proactive_delivery_batchId
 
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**Requirement Group**|
+|DisplayName|**Proactive Delivery Batch**|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|`msdyn_requirementgroupid`|
+|LogicalName|`msdyn_proactive_delivery_batchid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
-### <a name="BKMK_msdyn_requirementgrouptemplateid"></a> msdyn_requirementgrouptemplateid
+### <a name="BKMK_msdyn_proactive_engagement_config"></a> msdyn_proactive_engagement_config
 
 |Property|Value|
 |---|---|
-|Description|**Requirement Group Template Reference**|
-|DisplayName|**Requirement Group Template**|
+|Description|**Reference to the Proactive Engagement Configuration**|
+|DisplayName|**Proactive Engagement Configuration**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|`msdyn_requirementgrouptemplateid`|
-|RequiredLevel|None|
+|LogicalName|`msdyn_proactive_engagement_config`|
+|RequiredLevel|ApplicationRequired|
 |Type|Lookup|
-|Targets|msdyn_requirementgroup|
+|Targets|msdyn_proactive_engagement_config|
+
+### <a name="BKMK_msdyn_status"></a> msdyn_status
+
+|Property|Value|
+|---|---|
+|Description|**Status of the batch processing**|
+|DisplayName|**Batch Status**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_status`|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+|DefaultFormValue|192360000|
+|GlobalChoiceName|`msdyn_proactive_delivery_batch_msdyn_status`|
+
+#### msdyn_status Choices/Options
+
+|Value|Label|
+|---|---|
+|192360000|**Not Started**|
+|192360001|**In Progress**|
+|192360002|**Completed**|
+|192360003|**Completed With Errors**|
+|192360004|**Failed**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
@@ -222,7 +250,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the Requirement Group**|
+|Description|**Status of the Proactive Delivery Batch**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -230,7 +258,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|State|
 |DefaultFormValue||
-|GlobalChoiceName|`msdyn_requirementgroup_statecode`|
+|GlobalChoiceName|`msdyn_proactive_delivery_batch_statecode`|
 
 #### statecode Choices/Options
 
@@ -243,7 +271,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the Requirement Group**|
+|Description|**Reason for the status of the Proactive Delivery Batch**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -251,7 +279,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Status|
 |DefaultFormValue||
-|GlobalChoiceName|`msdyn_requirementgroup_statuscode`|
+|GlobalChoiceName|`msdyn_proactive_delivery_batch_statuscode`|
 
 #### statuscode Choices/Options
 
@@ -293,18 +321,59 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 These columns/attributes return false for both **IsValidForCreate** and **IsValidForUpdate**. Listed by **SchemaName**.
 
+- [ComponentIdUnique](#BKMK_ComponentIdUnique)
+- [ComponentState](#BKMK_ComponentState)
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedOn](#BKMK_CreatedOn)
 - [CreatedOnBehalfBy](#BKMK_CreatedOnBehalfBy)
+- [IsManaged](#BKMK_IsManaged)
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedOn](#BKMK_ModifiedOn)
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
+- [OverwriteTime](#BKMK_OverwriteTime)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
 - [OwningTeam](#BKMK_OwningTeam)
 - [OwningUser](#BKMK_OwningUser)
+- [SolutionId](#BKMK_SolutionId)
+- [SupportingSolutionId](#BKMK_SupportingSolutionId)
 - [VersionNumber](#BKMK_VersionNumber)
+
+### <a name="BKMK_ComponentIdUnique"></a> ComponentIdUnique
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Row id unique**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`componentidunique`|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+### <a name="BKMK_ComponentState"></a> ComponentState
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Component State**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`componentstate`|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`componentstate`|
+
+#### ComponentState Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Published**|
+|1|**Unpublished**|
+|2|**Deleted**|
+|3|**Deleted Unpublished**|
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
@@ -349,6 +418,22 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |Type|Lookup|
 |Targets|systemuser|
 
+### <a name="BKMK_IsManaged"></a> IsManaged
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether the solution component is part of a managed solution.**|
+|DisplayName|**Is Managed**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`ismanaged`|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+|GlobalChoiceName|`ismanaged`|
+|DefaultValue|False|
+|True Label|Managed|
+|False Label|Unmanaged|
+
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
 |Property|Value|
@@ -391,6 +476,23 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|systemuser|
+
+### <a name="BKMK_OverwriteTime"></a> OverwriteTime
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Record Overwrite Time**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`overwritetime`|
+|RequiredLevel|SystemRequired|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
@@ -435,7 +537,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`owningbusinessunit`|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 |Type|Lookup|
 |Targets|businessunit|
 
@@ -465,6 +567,30 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |Type|Lookup|
 |Targets|systemuser|
 
+### <a name="BKMK_SolutionId"></a> SolutionId
+
+|Property|Value|
+|---|---|
+|Description|**Unique identifier of the associated solution.**|
+|DisplayName|**Solution**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`solutionid`|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+### <a name="BKMK_SupportingSolutionId"></a> SupportingSolutionId
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Solution**|
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|`supportingsolutionid`|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
+
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
 |Property|Value|
@@ -483,19 +609,20 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 
 These relationships are many-to-one. Listed by **SchemaName**.
 
-- [business_unit_msdyn_requirementgroup](#BKMK_business_unit_msdyn_requirementgroup)
-- [lk_msdyn_requirementgroup_createdby](#BKMK_lk_msdyn_requirementgroup_createdby)
-- [lk_msdyn_requirementgroup_createdonbehalfby](#BKMK_lk_msdyn_requirementgroup_createdonbehalfby)
-- [lk_msdyn_requirementgroup_modifiedby](#BKMK_lk_msdyn_requirementgroup_modifiedby)
-- [lk_msdyn_requirementgroup_modifiedonbehalfby](#BKMK_lk_msdyn_requirementgroup_modifiedonbehalfby)
-- [msdyn_requirementgroup_requirementgroup_requirementgrouptemplateid](#BKMK_msdyn_requirementgroup_requirementgroup_requirementgrouptemplateid-many-to-one)
-- [owner_msdyn_requirementgroup](#BKMK_owner_msdyn_requirementgroup)
-- [team_msdyn_requirementgroup](#BKMK_team_msdyn_requirementgroup)
-- [user_msdyn_requirementgroup](#BKMK_user_msdyn_requirementgroup)
+- [business_unit_msdyn_proactive_delivery_batch](#BKMK_business_unit_msdyn_proactive_delivery_batch)
+- [lk_msdyn_proactive_delivery_batch_createdby](#BKMK_lk_msdyn_proactive_delivery_batch_createdby)
+- [lk_msdyn_proactive_delivery_batch_createdonbehalfby](#BKMK_lk_msdyn_proactive_delivery_batch_createdonbehalfby)
+- [lk_msdyn_proactive_delivery_batch_modifiedby](#BKMK_lk_msdyn_proactive_delivery_batch_modifiedby)
+- [lk_msdyn_proactive_delivery_batch_modifiedonbehalfby](#BKMK_lk_msdyn_proactive_delivery_batch_modifiedonbehalfby)
+- [msdyn_file_id_msdyn_proactive_delivery_batch](#BKMK_msdyn_file_id_msdyn_proactive_delivery_batch)
+- [msdyn_proactive_engagement_config_msdyn_proactive_delivery_batch](#BKMK_msdyn_proactive_engagement_config_msdyn_proactive_delivery_batch)
+- [owner_msdyn_proactive_delivery_batch](#BKMK_owner_msdyn_proactive_delivery_batch)
+- [team_msdyn_proactive_delivery_batch](#BKMK_team_msdyn_proactive_delivery_batch)
+- [user_msdyn_proactive_delivery_batch](#BKMK_user_msdyn_proactive_delivery_batch)
 
-### <a name="BKMK_business_unit_msdyn_requirementgroup"></a> business_unit_msdyn_requirementgroup
+### <a name="BKMK_business_unit_msdyn_proactive_delivery_batch"></a> business_unit_msdyn_proactive_delivery_batch
 
-One-To-Many Relationship: [businessunit business_unit_msdyn_requirementgroup](businessunit.md#BKMK_business_unit_msdyn_requirementgroup)
+One-To-Many Relationship: [businessunit business_unit_msdyn_proactive_delivery_batch](businessunit.md#BKMK_business_unit_msdyn_proactive_delivery_batch)
 
 |Property|Value|
 |---|---|
@@ -504,11 +631,11 @@ One-To-Many Relationship: [businessunit business_unit_msdyn_requirementgroup](bu
 |ReferencingAttribute|`owningbusinessunit`|
 |ReferencingEntityNavigationPropertyName|`owningbusinessunit`|
 |IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_lk_msdyn_requirementgroup_createdby"></a> lk_msdyn_requirementgroup_createdby
+### <a name="BKMK_lk_msdyn_proactive_delivery_batch_createdby"></a> lk_msdyn_proactive_delivery_batch_createdby
 
-One-To-Many Relationship: [systemuser lk_msdyn_requirementgroup_createdby](systemuser.md#BKMK_lk_msdyn_requirementgroup_createdby)
+One-To-Many Relationship: [systemuser lk_msdyn_proactive_delivery_batch_createdby](systemuser.md#BKMK_lk_msdyn_proactive_delivery_batch_createdby)
 
 |Property|Value|
 |---|---|
@@ -519,9 +646,9 @@ One-To-Many Relationship: [systemuser lk_msdyn_requirementgroup_createdby](syste
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_lk_msdyn_requirementgroup_createdonbehalfby"></a> lk_msdyn_requirementgroup_createdonbehalfby
+### <a name="BKMK_lk_msdyn_proactive_delivery_batch_createdonbehalfby"></a> lk_msdyn_proactive_delivery_batch_createdonbehalfby
 
-One-To-Many Relationship: [systemuser lk_msdyn_requirementgroup_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_requirementgroup_createdonbehalfby)
+One-To-Many Relationship: [systemuser lk_msdyn_proactive_delivery_batch_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_proactive_delivery_batch_createdonbehalfby)
 
 |Property|Value|
 |---|---|
@@ -532,9 +659,9 @@ One-To-Many Relationship: [systemuser lk_msdyn_requirementgroup_createdonbehalfb
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_lk_msdyn_requirementgroup_modifiedby"></a> lk_msdyn_requirementgroup_modifiedby
+### <a name="BKMK_lk_msdyn_proactive_delivery_batch_modifiedby"></a> lk_msdyn_proactive_delivery_batch_modifiedby
 
-One-To-Many Relationship: [systemuser lk_msdyn_requirementgroup_modifiedby](systemuser.md#BKMK_lk_msdyn_requirementgroup_modifiedby)
+One-To-Many Relationship: [systemuser lk_msdyn_proactive_delivery_batch_modifiedby](systemuser.md#BKMK_lk_msdyn_proactive_delivery_batch_modifiedby)
 
 |Property|Value|
 |---|---|
@@ -545,9 +672,9 @@ One-To-Many Relationship: [systemuser lk_msdyn_requirementgroup_modifiedby](syst
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_lk_msdyn_requirementgroup_modifiedonbehalfby"></a> lk_msdyn_requirementgroup_modifiedonbehalfby
+### <a name="BKMK_lk_msdyn_proactive_delivery_batch_modifiedonbehalfby"></a> lk_msdyn_proactive_delivery_batch_modifiedonbehalfby
 
-One-To-Many Relationship: [systemuser lk_msdyn_requirementgroup_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_requirementgroup_modifiedonbehalfby)
+One-To-Many Relationship: [systemuser lk_msdyn_proactive_delivery_batch_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_proactive_delivery_batch_modifiedonbehalfby)
 
 |Property|Value|
 |---|---|
@@ -558,22 +685,35 @@ One-To-Many Relationship: [systemuser lk_msdyn_requirementgroup_modifiedonbehalf
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_requirementgroup_requirementgroup_requirementgrouptemplateid-many-to-one"></a> msdyn_requirementgroup_requirementgroup_requirementgrouptemplateid
+### <a name="BKMK_msdyn_file_id_msdyn_proactive_delivery_batch"></a> msdyn_file_id_msdyn_proactive_delivery_batch
 
-One-To-Many Relationship: [msdyn_requirementgroup msdyn_requirementgroup_requirementgroup_requirementgrouptemplateid](#BKMK_msdyn_requirementgroup_requirementgroup_requirementgrouptemplateid-one-to-many)
+One-To-Many Relationship: [msdyn_fileupload msdyn_file_id_msdyn_proactive_delivery_batch](msdyn_fileupload.md#BKMK_msdyn_file_id_msdyn_proactive_delivery_batch)
 
 |Property|Value|
 |---|---|
-|ReferencedEntity|`msdyn_requirementgroup`|
-|ReferencedAttribute|`msdyn_requirementgroupid`|
-|ReferencingAttribute|`msdyn_requirementgrouptemplateid`|
-|ReferencingEntityNavigationPropertyName|`msdyn_requirementgrouptemplateid`|
+|ReferencedEntity|`msdyn_fileupload`|
+|ReferencedAttribute|`msdyn_fileuploadid`|
+|ReferencingAttribute|`msdyn_file_id`|
+|ReferencingEntityNavigationPropertyName|`msdyn_file_id`|
 |IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_owner_msdyn_requirementgroup"></a> owner_msdyn_requirementgroup
+### <a name="BKMK_msdyn_proactive_engagement_config_msdyn_proactive_delivery_batch"></a> msdyn_proactive_engagement_config_msdyn_proactive_delivery_batch
 
-One-To-Many Relationship: [owner owner_msdyn_requirementgroup](owner.md#BKMK_owner_msdyn_requirementgroup)
+One-To-Many Relationship: [msdyn_proactive_engagement_config msdyn_proactive_engagement_config_msdyn_proactive_delivery_batch](msdyn_proactive_engagement_config.md#BKMK_msdyn_proactive_engagement_config_msdyn_proactive_delivery_batch)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_config`|
+|ReferencedAttribute|`msdyn_proactive_engagement_configid`|
+|ReferencingAttribute|`msdyn_proactive_engagement_config`|
+|ReferencingEntityNavigationPropertyName|`msdyn_proactive_engagement_config`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_owner_msdyn_proactive_delivery_batch"></a> owner_msdyn_proactive_delivery_batch
+
+One-To-Many Relationship: [owner owner_msdyn_proactive_delivery_batch](owner.md#BKMK_owner_msdyn_proactive_delivery_batch)
 
 |Property|Value|
 |---|---|
@@ -584,9 +724,9 @@ One-To-Many Relationship: [owner owner_msdyn_requirementgroup](owner.md#BKMK_own
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_team_msdyn_requirementgroup"></a> team_msdyn_requirementgroup
+### <a name="BKMK_team_msdyn_proactive_delivery_batch"></a> team_msdyn_proactive_delivery_batch
 
-One-To-Many Relationship: [team team_msdyn_requirementgroup](team.md#BKMK_team_msdyn_requirementgroup)
+One-To-Many Relationship: [team team_msdyn_proactive_delivery_batch](team.md#BKMK_team_msdyn_proactive_delivery_batch)
 
 |Property|Value|
 |---|---|
@@ -597,9 +737,9 @@ One-To-Many Relationship: [team team_msdyn_requirementgroup](team.md#BKMK_team_m
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_user_msdyn_requirementgroup"></a> user_msdyn_requirementgroup
+### <a name="BKMK_user_msdyn_proactive_delivery_batch"></a> user_msdyn_proactive_delivery_batch
 
-One-To-Many Relationship: [systemuser user_msdyn_requirementgroup](systemuser.md#BKMK_user_msdyn_requirementgroup)
+One-To-Many Relationship: [systemuser user_msdyn_proactive_delivery_batch](systemuser.md#BKMK_user_msdyn_proactive_delivery_batch)
 
 |Property|Value|
 |---|---|
@@ -615,173 +755,108 @@ One-To-Many Relationship: [systemuser user_msdyn_requirementgroup](systemuser.md
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
-- [msdyn_requirementgroup_AsyncOperations](#BKMK_msdyn_requirementgroup_AsyncOperations)
-- [msdyn_requirementgroup_bookableresourcebooking_requirementgroupid](#BKMK_msdyn_requirementgroup_bookableresourcebooking_requirementgroupid)
-- [msdyn_requirementgroup_BulkDeleteFailures](#BKMK_msdyn_requirementgroup_BulkDeleteFailures)
-- [msdyn_requirementgroup_DuplicateBaseRecord](#BKMK_msdyn_requirementgroup_DuplicateBaseRecord)
-- [msdyn_requirementgroup_DuplicateMatchingRecord](#BKMK_msdyn_requirementgroup_DuplicateMatchingRecord)
-- [msdyn_requirementgroup_MailboxTrackingFolders](#BKMK_msdyn_requirementgroup_MailboxTrackingFolders)
-- [msdyn_requirementgroup_PrincipalObjectAttributeAccesses](#BKMK_msdyn_requirementgroup_PrincipalObjectAttributeAccesses)
-- [msdyn_requirementgroup_ProcessSession](#BKMK_msdyn_requirementgroup_ProcessSession)
-- [msdyn_requirementgroup_requirementgroup_requirementgrouptemplateid](#BKMK_msdyn_requirementgroup_requirementgroup_requirementgrouptemplateid-one-to-many)
-- [msdyn_requirementgroup_requirementrelationship_requirementgroupid](#BKMK_msdyn_requirementgroup_requirementrelationship_requirementgroupid)
-- [msdyn_requirementgroup_resourcerequirement_requirementgroupid](#BKMK_msdyn_requirementgroup_resourcerequirement_requirementgroupid)
-- [msdyn_requirementgroup_service](#BKMK_msdyn_requirementgroup_service)
-- [msdyn_requirementgroup_SyncErrors](#BKMK_msdyn_requirementgroup_SyncErrors)
+- [msdyn_proactive_delivery_batch_AsyncOperations](#BKMK_msdyn_proactive_delivery_batch_AsyncOperations)
+- [msdyn_proactive_delivery_batch_BulkDeleteFailures](#BKMK_msdyn_proactive_delivery_batch_BulkDeleteFailures)
+- [msdyn_proactive_delivery_batch_DuplicateBaseRecord](#BKMK_msdyn_proactive_delivery_batch_DuplicateBaseRecord)
+- [msdyn_proactive_delivery_batch_DuplicateMatchingRecord](#BKMK_msdyn_proactive_delivery_batch_DuplicateMatchingRecord)
+- [msdyn_proactive_delivery_batch_MailboxTrackingFolders](#BKMK_msdyn_proactive_delivery_batch_MailboxTrackingFolders)
+- [msdyn_proactive_delivery_batch_PrincipalObjectAttributeAccesses](#BKMK_msdyn_proactive_delivery_batch_PrincipalObjectAttributeAccesses)
+- [msdyn_proactive_delivery_batch_ProcessSession](#BKMK_msdyn_proactive_delivery_batch_ProcessSession)
+- [msdyn_proactive_delivery_batch_SyncErrors](#BKMK_msdyn_proactive_delivery_batch_SyncErrors)
 
-### <a name="BKMK_msdyn_requirementgroup_AsyncOperations"></a> msdyn_requirementgroup_AsyncOperations
+### <a name="BKMK_msdyn_proactive_delivery_batch_AsyncOperations"></a> msdyn_proactive_delivery_batch_AsyncOperations
 
-Many-To-One Relationship: [asyncoperation msdyn_requirementgroup_AsyncOperations](asyncoperation.md#BKMK_msdyn_requirementgroup_AsyncOperations)
+Many-To-One Relationship: [asyncoperation msdyn_proactive_delivery_batch_AsyncOperations](asyncoperation.md#BKMK_msdyn_proactive_delivery_batch_AsyncOperations)
 
 |Property|Value|
 |---|---|
 |ReferencingEntity|`asyncoperation`|
 |ReferencingAttribute|`regardingobjectid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_requirementgroup_AsyncOperations`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_delivery_batch_AsyncOperations`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_requirementgroup_bookableresourcebooking_requirementgroupid"></a> msdyn_requirementgroup_bookableresourcebooking_requirementgroupid
+### <a name="BKMK_msdyn_proactive_delivery_batch_BulkDeleteFailures"></a> msdyn_proactive_delivery_batch_BulkDeleteFailures
 
-Many-To-One Relationship: [bookableresourcebooking msdyn_requirementgroup_bookableresourcebooking_requirementgroupid](bookableresourcebooking.md#BKMK_msdyn_requirementgroup_bookableresourcebooking_requirementgroupid)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`bookableresourcebooking`|
-|ReferencingAttribute|`msdyn_requirementgroupid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_requirementgroup_bookableresourcebooking_requirementgroupid`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_msdyn_requirementgroup_BulkDeleteFailures"></a> msdyn_requirementgroup_BulkDeleteFailures
-
-Many-To-One Relationship: [bulkdeletefailure msdyn_requirementgroup_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_requirementgroup_BulkDeleteFailures)
+Many-To-One Relationship: [bulkdeletefailure msdyn_proactive_delivery_batch_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_proactive_delivery_batch_BulkDeleteFailures)
 
 |Property|Value|
 |---|---|
 |ReferencingEntity|`bulkdeletefailure`|
 |ReferencingAttribute|`regardingobjectid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_requirementgroup_BulkDeleteFailures`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_delivery_batch_BulkDeleteFailures`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_requirementgroup_DuplicateBaseRecord"></a> msdyn_requirementgroup_DuplicateBaseRecord
+### <a name="BKMK_msdyn_proactive_delivery_batch_DuplicateBaseRecord"></a> msdyn_proactive_delivery_batch_DuplicateBaseRecord
 
-Many-To-One Relationship: [duplicaterecord msdyn_requirementgroup_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_requirementgroup_DuplicateBaseRecord)
+Many-To-One Relationship: [duplicaterecord msdyn_proactive_delivery_batch_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_proactive_delivery_batch_DuplicateBaseRecord)
 
 |Property|Value|
 |---|---|
 |ReferencingEntity|`duplicaterecord`|
 |ReferencingAttribute|`baserecordid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_requirementgroup_DuplicateBaseRecord`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_delivery_batch_DuplicateBaseRecord`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_requirementgroup_DuplicateMatchingRecord"></a> msdyn_requirementgroup_DuplicateMatchingRecord
+### <a name="BKMK_msdyn_proactive_delivery_batch_DuplicateMatchingRecord"></a> msdyn_proactive_delivery_batch_DuplicateMatchingRecord
 
-Many-To-One Relationship: [duplicaterecord msdyn_requirementgroup_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_requirementgroup_DuplicateMatchingRecord)
+Many-To-One Relationship: [duplicaterecord msdyn_proactive_delivery_batch_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_proactive_delivery_batch_DuplicateMatchingRecord)
 
 |Property|Value|
 |---|---|
 |ReferencingEntity|`duplicaterecord`|
 |ReferencingAttribute|`duplicaterecordid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_requirementgroup_DuplicateMatchingRecord`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_delivery_batch_DuplicateMatchingRecord`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_requirementgroup_MailboxTrackingFolders"></a> msdyn_requirementgroup_MailboxTrackingFolders
+### <a name="BKMK_msdyn_proactive_delivery_batch_MailboxTrackingFolders"></a> msdyn_proactive_delivery_batch_MailboxTrackingFolders
 
-Many-To-One Relationship: [mailboxtrackingfolder msdyn_requirementgroup_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_requirementgroup_MailboxTrackingFolders)
+Many-To-One Relationship: [mailboxtrackingfolder msdyn_proactive_delivery_batch_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_proactive_delivery_batch_MailboxTrackingFolders)
 
 |Property|Value|
 |---|---|
 |ReferencingEntity|`mailboxtrackingfolder`|
 |ReferencingAttribute|`regardingobjectid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_requirementgroup_MailboxTrackingFolders`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_delivery_batch_MailboxTrackingFolders`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_requirementgroup_PrincipalObjectAttributeAccesses"></a> msdyn_requirementgroup_PrincipalObjectAttributeAccesses
+### <a name="BKMK_msdyn_proactive_delivery_batch_PrincipalObjectAttributeAccesses"></a> msdyn_proactive_delivery_batch_PrincipalObjectAttributeAccesses
 
-Many-To-One Relationship: [principalobjectattributeaccess msdyn_requirementgroup_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_requirementgroup_PrincipalObjectAttributeAccesses)
+Many-To-One Relationship: [principalobjectattributeaccess msdyn_proactive_delivery_batch_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_proactive_delivery_batch_PrincipalObjectAttributeAccesses)
 
 |Property|Value|
 |---|---|
 |ReferencingEntity|`principalobjectattributeaccess`|
 |ReferencingAttribute|`objectid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_requirementgroup_PrincipalObjectAttributeAccesses`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_delivery_batch_PrincipalObjectAttributeAccesses`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_requirementgroup_ProcessSession"></a> msdyn_requirementgroup_ProcessSession
+### <a name="BKMK_msdyn_proactive_delivery_batch_ProcessSession"></a> msdyn_proactive_delivery_batch_ProcessSession
 
-Many-To-One Relationship: [processsession msdyn_requirementgroup_ProcessSession](processsession.md#BKMK_msdyn_requirementgroup_ProcessSession)
+Many-To-One Relationship: [processsession msdyn_proactive_delivery_batch_ProcessSession](processsession.md#BKMK_msdyn_proactive_delivery_batch_ProcessSession)
 
 |Property|Value|
 |---|---|
 |ReferencingEntity|`processsession`|
 |ReferencingAttribute|`regardingobjectid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_requirementgroup_ProcessSession`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_delivery_batch_ProcessSession`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_requirementgroup_requirementgroup_requirementgrouptemplateid-one-to-many"></a> msdyn_requirementgroup_requirementgroup_requirementgrouptemplateid
+### <a name="BKMK_msdyn_proactive_delivery_batch_SyncErrors"></a> msdyn_proactive_delivery_batch_SyncErrors
 
-Many-To-One Relationship: [msdyn_requirementgroup msdyn_requirementgroup_requirementgroup_requirementgrouptemplateid](#BKMK_msdyn_requirementgroup_requirementgroup_requirementgrouptemplateid-many-to-one)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_requirementgroup`|
-|ReferencingAttribute|`msdyn_requirementgrouptemplateid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_requirementgroup_requirementgroup_requirementgrouptemplateid`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_msdyn_requirementgroup_requirementrelationship_requirementgroupid"></a> msdyn_requirementgroup_requirementrelationship_requirementgroupid
-
-Many-To-One Relationship: [msdyn_requirementrelationship msdyn_requirementgroup_requirementrelationship_requirementgroupid](msdyn_requirementrelationship.md#BKMK_msdyn_requirementgroup_requirementrelationship_requirementgroupid)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_requirementrelationship`|
-|ReferencingAttribute|`msdyn_requirementgroupid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_requirementgroup_requirementrelationship_requirementgroupid`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_msdyn_requirementgroup_resourcerequirement_requirementgroupid"></a> msdyn_requirementgroup_resourcerequirement_requirementgroupid
-
-Many-To-One Relationship: [msdyn_resourcerequirement msdyn_requirementgroup_resourcerequirement_requirementgroupid](msdyn_resourcerequirement.md#BKMK_msdyn_requirementgroup_resourcerequirement_requirementgroupid)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_resourcerequirement`|
-|ReferencingAttribute|`msdyn_requirementgroupid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_requirementgroup_resourcerequirement_requirementgroupid`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_msdyn_requirementgroup_service"></a> msdyn_requirementgroup_service
-
-Many-To-One Relationship: [service msdyn_requirementgroup_service](service.md#BKMK_msdyn_requirementgroup_service)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`service`|
-|ReferencingAttribute|`msdyn_requirementgroupid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_requirementgroup_service`|
-|IsCustomizable|`False`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_msdyn_requirementgroup_SyncErrors"></a> msdyn_requirementgroup_SyncErrors
-
-Many-To-One Relationship: [syncerror msdyn_requirementgroup_SyncErrors](syncerror.md#BKMK_msdyn_requirementgroup_SyncErrors)
+Many-To-One Relationship: [syncerror msdyn_proactive_delivery_batch_SyncErrors](syncerror.md#BKMK_msdyn_proactive_delivery_batch_SyncErrors)
 
 |Property|Value|
 |---|---|
 |ReferencingEntity|`syncerror`|
 |ReferencingAttribute|`regardingobjectid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_requirementgroup_SyncErrors`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_delivery_batch_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
