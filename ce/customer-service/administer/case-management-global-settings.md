@@ -45,8 +45,8 @@ The global settings, such as connection references or Power Automate flows, appe
 
 ### Register an application and create a secret
 
-1. Sign in to [Microsoft Entra admin center](https://entra.microsoft.com) and perform the steps in [register a single-tenant application registration](/entra/entity-platform/quickstart-register-app#register-an-application). After your application is registered, copy the values of **Client ** and **Tenant ** from the application overview page.
-1. Perform the steps in [Create a client secret](/entra/entity-platform/how-to-add-credentials?tabs=client-secret#add-a-credential-to-your-application) and copy **Value** of the client secret.
+1. Sign in to [Microsoft Entra admin center](https://entra.microsoft.com) and perform the steps in [register a single-tenant application registration](/entra/identity-platform/quickstart-register-app#register-an-application). After your application is registered, copy the values of **Client ** and **Tenant ** from the application overview page.
+1. Perform the steps in [Create a client secret](/entra/identity-platform/how-to-add-credentials?tabs=client-secret#add-a-credential-to-your-application) and copy **Value** of the client secret.
 
 ### Create an application user in Power Platform admin center
 
