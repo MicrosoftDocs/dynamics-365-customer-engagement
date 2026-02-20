@@ -236,6 +236,14 @@ items:
                   href: view-sales-close-agent-engage-processed-records.md  
                 - name: How the agent works
                   href: how-sales-close-agent-engage-mode-works.md
+          - name: AI-powered Data Enrichment (preview)
+            items:
+              - name: Overview
+                href: data-enrichment-agent-overview.md
+              - name: Set up and configure Data Enrichment
+                href: data-enrichment-agent-configure.md
+              - name: Data Enrichment FAQ
+                href: data-enrichment-agent-faqs.md
           - name: Sales Research Agent (preview)
             items:
               - name: Overview
@@ -867,6 +875,12 @@ items:
                 href: view-sales-close-agent-engage-processed-records.md  
               - name: How the Sales Close Agent - Engage works
                 href: how-sales-close-agent-engage-mode-works.md
+        - name: AI-powered Data Enrichment (preview)
+          items:
+            - name: Overview
+              href: data-enrichment-agent-overview.md
+            - name: Review and approve suggestions from Data Enrichment
+              href: use-data-enrichment-agent.md
         - name: Sales Research Agent (preview)
           items:
             - name: Overview
@@ -875,6 +889,8 @@ items:
               href: sales-research-agent-provide-context.md
             - name: Connect the agent to different data sources
               href: sales-research-agent-connect-data.md
+            - name: Connect the agent to Microsoft Fabric Lakehouse (preview)
+              href: sales-research-agent-lakehouse-integration.md
             - name: Analyze your sales performance using the agent
               href: use-sales-research-agent.md
             - name: FAQs about Sales Research Agent
@@ -903,15 +919,16 @@ items:
             href: copilot-get-doc-suggestions.md
           - name: Copilot in Dynamics 365 Sales FAQ
             href: sales-copilot-faq.md
-      - name: AI assistance in forms and views
+      - name: AI capabilities in all model-driven apps
         items:
-          - name: Fill forms effortlessly with AI assistance
-            href: use-form-fill-assistance.md
-          - name: Find data in a view using natural language
-            href: find-data-in-view-with-ai.md
-          - name: Visualize data in a view wth AI
-            href: visualize-data-in-view-with-ai.md
-
+          - name: Use Copilot's form fill assistance feature in model-driven apps
+            href: form-fill-assistance.md
+          - name: Find data in a view with AI (preview)
+            href: find-data-with-ai.md
+          - name: Visualize data in a view with Copilot (preview)
+            href: visualize-data-in-copilot.md
+          - name: Use row summaries in model-driven apps
+            href: record-summaries.md
       - name: Dashboards and reports
         items:
           - name: Track your progress with dashboards and charts
@@ -1511,6 +1528,8 @@ items:
             href: faqs-about-opportunity-research.md
           - name: Sales Close Agent - Engage FAQ
             href: faqs-about-sales-close-agent-engage.md  
+      - name: Responsible AI FAQs about Data Enrichment (preview)
+        href: faqs-data-enrichment-agent.md
       - name: Responsible AI FAQs about Sales Research Agent
         href: faqs-about-sales-research-agent.md
       - name: Responsible AI FAQs about chat with Sales data in Microsoft 365 Copilot (preview)

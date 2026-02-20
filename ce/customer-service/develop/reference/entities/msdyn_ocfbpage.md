@@ -71,6 +71,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_enablefileattachmentsforagents](#BKMK_msdyn_enablefileattachmentsforagents)
 - [msdyn_enablefileattachmentsforcustomers](#BKMK_msdyn_enablefileattachmentsforcustomers)
 - [msdyn_enablehumanagenttag](#BKMK_msdyn_enablehumanagenttag)
+- [msdyn_enablerealtimelanguagetranslation](#BKMK_msdyn_enablerealtimelanguagetranslation)
 - [msdyn_fbpageaccesstoken](#BKMK_msdyn_fbpageaccesstoken)
 - [msdyn_fbpageid](#BKMK_msdyn_fbpageid)
 - [msdyn_fbpagename](#BKMK_msdyn_fbpagename)
@@ -152,6 +153,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_msdyn_ocfbpage_msdyn_enablehumanagenttag`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_enablerealtimelanguagetranslation"></a> msdyn_enablerealtimelanguagetranslation
+
+|Property|Value|
+|---|---|
+|Description|**Enable Real Time Language Translation**|
+|DisplayName|**msdyn\_enablerealtimelanguagetranslation**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enablerealtimelanguagetranslation`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_ocfbpage_msdyn_enablerealtimelanguagetranslation`|
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
