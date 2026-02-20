@@ -4,7 +4,7 @@ description: Learn how to configure and use direct callback in the voice channel
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 09/23/2025
+ms.date: 02/20/2026
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -61,9 +61,7 @@ The direct callback is triggered by the queue overflow conditions where the corr
 1. The call ends for the customer but the work item remains in the queue.
 1. When the work item reaches the position 1, a voice callback is initiated automatically.
 1. The callback is of the type preview dialing, in which the representative has to accept the callback using a callback-specific notification before the call is dialed.
-
-> [!NOTE]
-> For callbacks with post-call survey, an "Agent Disconnection" message is played before the survey is engaged. 
+1. In a callback with post-call survey, before the survey agent is engaged, the system plays a message that the representative is disconnected.
 
 ## Next steps
 
