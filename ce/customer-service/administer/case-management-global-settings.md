@@ -18,7 +18,7 @@ Configure global settings for Case Management Agent in Dynamics 365 Customer Ser
 ## Prerequisites
 
 - An Azure account that has an active subscription.
-- You have the [Application Developer](/entra/identity/role-based-access-control/permissions-reference#application-developer) to create app registrations.
+- You have the [Application Developer](/entra/identity/role-based-access-control/permissions-reference#application-developer) fole to create app registrations.
 - The following connectors with the listed actions are available:
     - **Connector name**: Microsoft Dataverse
     - **List of actions**:
