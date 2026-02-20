@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 01/19/2026
+ms.date: 02/20/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -74,6 +74,33 @@ When the case resolution process is triggered, based on your configuration, the 
 ## Integrate Case Management Agent with custom Copilot Studio agents 
 
 You can integrate Case Management Agent with custom Microsoft Copilot Studio agents to enhance the case resolution process. For example, you can create a custom agent that provides additional context or performs specific actions based on the case details. Learn more in [Integrate Case Management Agent with custom Copilot Studio agents](../develop/case-management-agent-integration.md).
+
+##  Run simulations to evaluate field prediction accuracy in Case Management Agent
+
+Use synthetic or organizational data to validate and compare Case Management Agent case resolutions before enabling the feature in production.
+
+### Set up a simulation
+
+1. On the **Case Management Agent** page, **Case resolution** section, select **Manage**. The **Case resolution** page appears.
+1. Select **Go to simulation** in the **Command** menu. The **Case resolution simulation** page appears.
+1. On the **Simulation setup** tab, provide the following information:
+
+    1. **Simulation name**: Provide a simulation name.
+    1. Select the line of business from the dropdown.
+    1. Select **Show matching cases**. The **Selected record** section appears that shows cases based on line of business and any additional filters that you might have added in the **Additional record filters** dropdown. Only the first 100 matching cases are shown, as simulations can run on a maximum of 100 cases at a time.
+  1. Select **Run simulation**.
+
+### View a simulation report
+
+On the **Case resolution simulation** page, go to the **Simulation result** tab. Simulations are listed with details of the simulation name, line of business, run date, status, and results.
+
+- Select **Download** to export an Excel report.
+- Select **View**. The **Simulation overview** page displays the following details:
+- Select **Refresh**.
+
+#### Best practices for data sources
+
+
 
 ## Related information
 
