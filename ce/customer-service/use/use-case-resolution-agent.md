@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 01/19/2026
+ms.date: 02/20/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -34,8 +34,8 @@ Autonomous case resolution identifies intent from an incoming email, automatical
 
    ### [Fully automated case resolution](#tab/fullyautomatedcaseresolution)
  
-     - Indicates that the AI agent automatically identifies the case intent, sends emails to the customers, and resolves the case without requiring any human intervention. The case is routed to a separate AI mailbox, which is monitored by a supervisor. The agent escalates the case to you if it can't resolve the case automatically. You can do the following:
-       - You can view the emails sent by the AI agent in case timeline. The emails sent by Copilot have a distinct visual indicator. 
+     - Indicates that the AI agent automatically identifies the case intent, sends emails to the customers, and resolves the case without requiring any human intervention. The case is routed to a separate AI mailbox, which a supervisor monitors. The agent escalates the case to you if it can't resolve the case automatically. You can do the following actions:
+       - View the emails sent by the AI agent in the case timeline. The emails sent by Copilot have a distinct visual indicator. 
        - Select the email to view the email content in a new tab. A message appears at the bottom of the email indicating that the email was generated using AI. You can also provide feedback on the email in this tab.
  
  
