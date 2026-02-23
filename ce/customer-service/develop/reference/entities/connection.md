@@ -43,15 +43,40 @@ Changes from [Record1ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer
 
 |Value|Label|
 |---|---|
-|11209|**Booking Alert**|
-|11210|**Booking Alert Status**|
-|11212|**Booking Rule**|
-|11221|**Resource Territory**|
-|11224|**System User Scheduler Setting**|
-|11225|**Fulfillment Preference**|
-|11226|**Time Group Detail**|
-|11293|**Voicemail**|
-|11304|**Outbound message**|
+|10410|**Invitation**|
+|10411|**Invite Redemption**|
+|10430|**Publishing State Transition Rule**|
+|10432|**Shortcut**|
+|10444|**Website**|
+|10489|**Customer Asset**|
+|10511|**IoT Alert**|
+|10512|**IoT Device**|
+|10513|**IoT Device Category**|
+|10514|**IoT Device Command**|
+|10518|**IoT Device Registration History**|
+|10719|**Profile Album**|
+|10724|**Customer Voice alert**|
+|10739|**Customer Voice survey invite**|
+|10742|**Customer Voice survey response**|
+|10828|**Ongoing conversation (Deprecated)**|
+|10840|**Conversation**|
+|10857|**Session**|
+|11011|**Sequence**|
+|11013|**Sequence Target**|
+|11025|**Assignment Rule**|
+|11028|**Assignment Map**|
+|11035|**Insight**|
+|11044|**Suggestion Principal Object Access**|
+|11125|**Copilot Transcript**|
+|11365|**Booking Alert**|
+|11366|**Booking Alert Status**|
+|11368|**Booking Rule**|
+|11379|**Resource Territory**|
+|11382|**System User Scheduler Setting**|
+|11383|**Fulfillment Preference**|
+|11384|**Time Group Detail**|
+|11452|**Voicemail**|
+|11466|**Outbound message**|
 
 ### <a name="BKMK_Record2Id"></a> Record2Id
 
@@ -70,15 +95,40 @@ Changes from [Record2ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer
 
 |Value|Label|
 |---|---|
-|11209|**Booking Alert**|
-|11210|**Booking Alert Status**|
-|11212|**Booking Rule**|
-|11221|**Resource Territory**|
-|11224|**System User Scheduler Setting**|
-|11225|**Fulfillment Preference**|
-|11226|**Time Group Detail**|
-|11293|**Voicemail**|
-|11304|**Outbound message**|
+|10410|**Invitation**|
+|10411|**Invite Redemption**|
+|10430|**Publishing State Transition Rule**|
+|10432|**Shortcut**|
+|10444|**Website**|
+|10489|**Customer Asset**|
+|10511|**IoT Alert**|
+|10512|**IoT Device**|
+|10513|**IoT Device Category**|
+|10514|**IoT Device Command**|
+|10518|**IoT Device Registration History**|
+|10719|**Profile Album**|
+|10724|**Customer Voice alert**|
+|10739|**Customer Voice survey invite**|
+|10742|**Customer Voice survey response**|
+|10828|**Ongoing conversation (Deprecated)**|
+|10840|**Conversation**|
+|10857|**Session**|
+|11011|**Sequence**|
+|11013|**Sequence Target**|
+|11025|**Assignment Rule**|
+|11028|**Assignment Map**|
+|11035|**Insight**|
+|11044|**Suggestion Principal Object Access**|
+|11125|**Copilot Transcript**|
+|11365|**Booking Alert**|
+|11366|**Booking Alert Status**|
+|11368|**Booking Rule**|
+|11379|**Resource Territory**|
+|11382|**System User Scheduler Setting**|
+|11383|**Fulfillment Preference**|
+|11384|**Time Group Detail**|
+|11452|**Voicemail**|
+|11466|**Outbound message**|
 
 ## Many-to-One relationships
 

@@ -1,7 +1,7 @@
 ---
 title: Set up Field Service integration with Project Operations
 description: Learn how to set up the integration between Field Service and Project Operations.
-ms.date: 01/30/2026
+ms.date: 02/18/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -16,7 +16,8 @@ To download and install the Dynamics 365 Field Service and Project Operations in
 ## Prerequisites
 
 - You have a Field Service administrator role or system administrator role.
-- You have Field Service minimum version 8.8.142.0 to use the Project Operations integration. If you also have Project Operations, the minimum version must be 4.162.0.0.
+- You have Field Service minimum version 8.8.142.0.
+- You have Project Operations minimum version 4.162.0.0.
 - If you have the [Field Service integration with finance and operations applications (legacy)](finance-operations-integration.md), [uninstall](project-operations-integration-uninstall-legacy.md) it.
 
 ## Configure dual-write integration

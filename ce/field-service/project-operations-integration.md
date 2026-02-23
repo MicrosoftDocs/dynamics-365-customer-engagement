@@ -2,7 +2,7 @@
 title: Field Service integration with Project Operations overview
 ms.reviewer: wesmith
 description: Learn about the integration between Dynamics 365 Field Service and Project Operations.
-ms.date: 02/02/2026
+ms.date: 02/12/2026
 ms.topic: overview
 author: vhorvathms
 ms.author: vhorvath
@@ -28,7 +28,7 @@ This integration is designed for organizations that use:
 
 This diagram shows how Field Service, Project Operations, and Finance activities connect into one continuous process.
 
-:::image type="content" source="media/project-operations-field-service-integration-flow.png" alt-text="Diagram that shows end-to-end flow from Field Service to Project Operations and Finance." lightbox="media/project-operations-field-service-integration-flow-expand.png":::
+:::image type="content" source="media/project-operations-field-service-integration-flow.png" alt-text="Diagram that shows end-to-end flow from Field Service to Project Operations and Finance."  lightbox="media/project-operations-field-service-integration-flow-expand.png":::
 
 **Field Service**
 
@@ -44,7 +44,7 @@ When work in the field is complete and the work order product or service line st
 
 Once approved, the journal lines generate **project actuals**, the authoritative financial records tied to the project and contract line.
 
-These actuals generate draft **proforma invoices** for review and adjustment. The draft invoices are then confirmed for invoicing.
+These actuals generate draft **Proforma invoices** for review and adjustment. The draft invoices are then confirmed for invoicing.
 
 **Finance**
 

@@ -73,6 +73,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_custombotchannelregistration](#BKMK_msdyn_custombotchannelregistration)
 - [msdyn_enablefileattachmentsforagents](#BKMK_msdyn_enablefileattachmentsforagents)
 - [msdyn_enablefileattachmentsforcustomers](#BKMK_msdyn_enablefileattachmentsforcustomers)
+- [msdyn_enablerealtimelanguagetranslation](#BKMK_msdyn_enablerealtimelanguagetranslation)
 - [msdyn_liveworkstreamid](#BKMK_msdyn_liveworkstreamid)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_occustomchannelid](#BKMK_msdyn_occustomchannelid)
@@ -181,6 +182,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_occustommessagingchannel_msdyn_enablefileattachmentsforcustomers`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_enablerealtimelanguagetranslation"></a> msdyn_enablerealtimelanguagetranslation
+
+|Property|Value|
+|---|---|
+|Description|**Enable Real Time Language Translation**|
+|DisplayName|**msdyn\_enablerealtimelanguagetranslation**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enablerealtimelanguagetranslation`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_occustommessagingchannel_msdyn_enablerealtimelanguagetranslation`|
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
