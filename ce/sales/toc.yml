@@ -919,9 +919,9 @@ items:
             href: copilot-get-doc-suggestions.md
           - name: Copilot in Dynamics 365 Sales FAQ
             href: sales-copilot-faq.md
-      - name: Use AI capabilities for enhanced efficiency (preview)
+      - name: Use common AI capabilities in Dynamics 365 apps (preview)
         items:
-          - name: Fill forms faster with Copilot
+          - name: Use Copilot's form fill assistance
             href: form-fill-assistance.md
           - name: Find data using natural language with AI
             href: find-data-with-ai.md
