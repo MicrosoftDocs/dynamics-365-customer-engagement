@@ -919,13 +919,13 @@ items:
             href: copilot-get-doc-suggestions.md
           - name: Copilot in Dynamics 365 Sales FAQ
             href: sales-copilot-faq.md
-      - name: Use common AI capabilities in Dynamics 365 apps (preview)
+      - name: Use common AI capabilities in Dynamics 365 apps
         items:
           - name: Use Copilot's form fill assistance
             href: form-fill-assistance.md
-          - name: Find data using natural language with AI
+          - name: Find data using natural language with AI (preview)
             href: find-data-with-ai.md
-          - name: Visualize data as charts with Copilot
+          - name: Visualize data as charts with Copilot (preview)
             href: visualize-data-in-copilot.md
           - name: View Copilot-generated row summaries
             href: record-summaries.md
