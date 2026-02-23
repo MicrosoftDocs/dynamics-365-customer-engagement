@@ -1,6 +1,6 @@
 ---
-title: Find data in a view with AI in Dynamics 365 Sales (preview)
-description: Learn how to find, filter, and sort data in a Dynamics 365 Sales view using AI.
+title: Find data using natural language with Copilot in Dynamics 365 Sales (preview)
+description: Learn how to find, filter, and sort data in a Dynamics 365 Sales view using Copilot.
 ms.topic: overview
 ms.date: 02/18/2026
 author: lavanyakr01
@@ -9,7 +9,7 @@ ms.reviewer: lavanyakr
 ms.collection: bap-ai-copilot
 ---
 
-# Find data in a view with AI in Dynamics 365 Sales (preview)
+# Find data using natural language with Copilot in Dynamics 365 Sales (preview)
 
 [!INCLUDE [find-data-with-ai](~/../shared-content/shared/dynamics365-core/find-data-with-ai.md)]
 
