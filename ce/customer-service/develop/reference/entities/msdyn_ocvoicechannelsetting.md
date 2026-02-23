@@ -1307,6 +1307,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 
 - [msdyn_msdyn_ocvoicechannelsetting_msdyn_ocprovisioningstate_voicechannelsettingid](#BKMK_msdyn_msdyn_ocvoicechannelsetting_msdyn_ocprovisioningstate_voicechannelsettingid)
 - [msdyn_msdyn_ocvoicechannelsetting_msdyn_ocvoicechannellanguagesetting_ocvoicechannelsettingid](#BKMK_msdyn_msdyn_ocvoicechannelsetting_msdyn_ocvoicechannellanguagesetting_ocvoicechannelsettingid)
+- [msdyn_msdyn_ocvoicechannelsetting_msdyn_overflowactionconfig_directcallbackoutboundprofile](#BKMK_msdyn_msdyn_ocvoicechannelsetting_msdyn_overflowactionconfig_directcallbackoutboundprofile)
 - [msdyn_ocvoicechannelsetting_AsyncOperations](#BKMK_msdyn_ocvoicechannelsetting_AsyncOperations)
 - [msdyn_ocvoicechannelsetting_BulkDeleteFailures](#BKMK_msdyn_ocvoicechannelsetting_BulkDeleteFailures)
 - [msdyn_ocvoicechannelsetting_MailboxTrackingFolders](#BKMK_msdyn_ocvoicechannelsetting_MailboxTrackingFolders)
@@ -1335,6 +1336,18 @@ Many-To-One Relationship: [msdyn_ocvoicechannellanguagesetting msdyn_msdyn_ocvoi
 |ReferencingEntity|`msdyn_ocvoicechannellanguagesetting`|
 |ReferencingAttribute|`msdyn_ocvoicechannelsettingid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_ocvoicechannelsetting_msdyn_ocvoicechannellanguagesetting_ocvoicechannelsettingid`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_ocvoicechannelsetting_msdyn_overflowactionconfig_directcallbackoutboundprofile"></a> msdyn_msdyn_ocvoicechannelsetting_msdyn_overflowactionconfig_directcallbackoutboundprofile
+
+Many-To-One Relationship: [msdyn_overflowactionconfig msdyn_msdyn_ocvoicechannelsetting_msdyn_overflowactionconfig_directcallbackoutboundprofile](msdyn_overflowactionconfig.md#BKMK_msdyn_msdyn_ocvoicechannelsetting_msdyn_overflowactionconfig_directcallbackoutboundprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_overflowactionconfig`|
+|ReferencingAttribute|`msdyn_directcallbackoutboundprofile`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_ocvoicechannelsetting_msdyn_overflowactionconfig_directcallbackoutboundprofile`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
