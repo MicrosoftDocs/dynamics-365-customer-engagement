@@ -9,6 +9,6 @@ ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---
 
-# Use Microsoft 365 Copilot chat in model-driven apps (preview)
+# Use Microsoft 365 Copilot chat (preview)
 
 [!INCLUDE [use-microsoft-365-copilot-model-driven-apps](~/../shared-content/shared/dynamics365-core/use-microsoft-365-copilot-model-driven-apps.md)]
