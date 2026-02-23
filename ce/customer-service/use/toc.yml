@@ -314,23 +314,23 @@
           href: oc-agent-scripts.md
         - name: Rich messages in conversation control
           href: rich-messages-conversation-control.md
-      - name: AI capabilities for model-driven apps
+      - name: Use common AI capabilities in Dynamics 365 apps
         items:
-        - name: Use Microsoft 365 Copilot chat in model-driven apps (preview)
-          href: ../use-microsoft-365-copilot-model-driven-apps.md
-        - name: "Supervise agents in model-driven apps with agent feed"
-          href: ../supervise-agents-with-agent-feed.md
-        - name: Use Copilot's form fill assistance feature in model-driven apps
-          href: ../form-fill-assistance.md
-        - name: Find data in a view with AI (preview)
-          href: ../find-data-with-ai.md
-        - name: Visualize data in a view with Copilot (preview)
-          href: ../visualize-data-in-copilot.md
-        - name: Use row summaries in model-driven apps
-          href: ../record-summaries.md
-        - name: Timeline highlights with generative AI in Dynamics 365
-          href: ../use-timeline-highlights-powered-by-generative-ai.md
-      - name: Copilot in Customer Service 
+        - name: Use Microsoft 365 Copilot chat (preview)
+          href: use-microsoft-365-copilot-chat.md
+        - name: Supervise AI agents with agent feed
+          href: supervise-agents-with-agent-feed.md
+        - name: Use form-fill assistance
+          href: form-fill-assistance.md
+        - name: Use natural language to find data with AI (preview)
+          href: find-data-with-ai.md
+        - name: Visualize data in a chart with Copilot (preview)
+          href: visualize-data-in-copilot.md
+        - name: View Copilot-generated row summaries
+          href: record-summaries.md
+        - name: Use timeline highlights with generative AI
+          href: use-timeline-highlights-with-generative-ai.md
+      - name: Copilot in Customer Service
         items: 
         - name: Copilot feature availability across applications
           href: /dynamics365/contact-center/use/copilot-feature-availability?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
