@@ -1,5 +1,5 @@
 ---
-title: Connect to Dynamics 365 Sales with Model Context Protocol (preview)
+title: Connect to Dynamics 365 Sales with Model Context Protocol
 description: Learn how to connect to Dynamics 365 Sales with Model Context Protocol (MCP) and integrate it with AI agents or models.
 ms.date: 11/17/2025
 ms.update-cycle: 180-days
@@ -18,13 +18,9 @@ ms.custom:
 ai-usage: ai-assisted
 ---
 
-# Connect to Dynamics 365 Sales with Model Context Protocol (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+# Connect to Dynamics 365 Sales with Model Context Protocol
 
 Model Context Protocol (MCP) is a powerful new standard that enables seamless integration between your favorite AI assistants, such as ChatGPT and Claude, and Dynamics 365 Sales. MCP can also be used to integrate with AI agents such as Microsoft Copilot Studio agents. With the Sales MCP server, you can extend your AI agents and AI assistants with sales-specific tools and create custom experiences for your sellers. The MCP server includes a set of APIs that enable the interaction with Dynamics 365 Sales data and functionality.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
@@ -33,7 +29,7 @@ Ensure that the following prerequisites are met:
 - You have admin permissions in Dynamics 365 Sales.  
 - You have a Copilot Studio license. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).
 - Allow access to Dataverse MCP Server from MCP clients. This is required only if you're planning to use an MCP client other than Copilot Studio. Learn more in [Configure the Dataverse MCP server for an environment](/power-apps/maker/data-platform/data-platform-mcp-disable).
-- If you've previously connected to the Dynamics 365 Sales MCP server (preview), delete the connection as it's now deprecated and will be removed soon.
+- If you've previously connected to the Dynamics 365 Sales MCP server, delete the connection as it's now deprecated and will be removed soon.
 - You have enough Copilot Studio credits to use the tools in the Sales MCP server. Learn more about consumption rates for each tool in [Copilot Credit consumption rates](#copilot-credit-consumption-rates).
 
 ## Connect your AI agents and assistants to Sales MCP Server
@@ -45,7 +41,7 @@ You can integrate the Sales MCP server with your Microsoft Copilot Studio agent,
 To connect to the Sales MCP server in Microsoft Copilot Studio, follow the steps in [Add tools and resources from a Model Context Protocol (MCP) server to your agent](/microsoft-copilot-studio/mcp-add-components-to-agent). 
 
 > [!NOTE]
-> Ensure to select **Dynamics 365 Sales MCP server (preview)** when prompted to select the MCP server. If you want to perform CRUD operations on Dataverse records, connect to the **Dataverse MCP server** as well.
+> Ensure to select **Dynamics 365 Sales MCP server** when prompted to select the MCP server. If you want to perform CRUD operations on Dataverse records, connect to the **Dataverse MCP server** as well.
 
 ### Connect Sales MCP Server to Github Copilot in Visual Studio Code
 
