@@ -75,3 +75,4 @@ To connect to the Sales MCP server with Github Copilot in Visual Studio Code, fo
    :::image type="content" source="media/vs-code-start-mcp-servers.png" alt-text="Screenshot of Visual Studio Code mcp.json configuration file showing the MCP servers added for Dataverse, Sales, and Mail with the Start button enabled.":::
 1. Select **Start** on all the servers.
 1. Press Ctrl + Alt + I to open the Github Copilot chat pane and choose any agent (For example, Claude Sonnet 4).
+

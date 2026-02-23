@@ -14,9 +14,9 @@ ms.custom: bap-template
 ai-usage: ai-assisted
 ---
 
-# Tools related to Copilot in Dynamics 365 Sales
+# MCP tools for Copilot in Dynamics 365 Sales
 
-The following table lists the tools for using the Copilot capabilities in Dynamics 365 Sales. Make sure that Copilot in Dynamics 365 Sales is configured and turned on. Learn more in [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md).
+This article lists the tools for using the Copilot capabilities. Make sure that Copilot in Dynamics 365 Sales is [configured and turned on](enable-setup-copilot.md). 
 
 Learn more about the summaries and insights returned by the following tools in [Use Copilot in Dynamics 365 Sales](use-sales-copilot.md).
 

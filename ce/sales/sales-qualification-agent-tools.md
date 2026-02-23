@@ -1,5 +1,5 @@
 ---
-title: MCP tools for Sales Qualification Agent
+title: MCP tools for Sales Qualification Agent capabilities
 description: Learn about the tools available in the Sales MCP server that support the Sales Qualification Agent capabilities in Dynamics 365 Sales.
 ms.date: 11/17/2025
 ms.update-cycle: 180-days
@@ -14,9 +14,9 @@ ms.custom: bap-template
 ai-usage: ai-assisted
 ---
 
-# Tools related to Sales Qualification Agent
+# MCP tools for Sales Qualification Agent capabilities
 
-The following table lists the tools for using the Sales Qualification Agent capabilities in Dynamics 365 Sales. Make sure that the agent is configured and turned on. Learn more in [Set up and configure the Sales Qualification Agent](configure-sales-qualification-agent.md).
+This article lists the tools for using the Sales Qualification Agent capabilities. Make sure that the agent is [configured and turned on](configure-sales-qualification-agent.md).
 
 Learn more about the insights returned by the following tools in [Lead research page](use-sales-qualification-agent.md#lead-research-page).
 

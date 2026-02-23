@@ -1,6 +1,6 @@
 ---
-title: Connect to Dynamics 365 Sales with Model Context Protocol
-description: Learn how to connect to Dynamics 365 Sales with Model Context Protocol (MCP) and integrate it with AI agents or models.
+title: Dynamics 365 Sales Model Context Protocol overview
+description: Learn about the Model Context Protocol (MCP) server for Dynamics 365 Sales, its capabilities, and how it enables integration with AI agents and assistants.
 ms.date: 11/17/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
@@ -14,9 +14,23 @@ ms.custom: bap-template
 ai-usage: ai-assisted
 ---
 
-# Connect to Dynamics 365 Sales with Model Context Protocol
+# Dynamics 365 Sales Model Context Protocol (MCP) server overview
 
-Model Context Protocol (MCP) is a powerful new standard that enables seamless integration between your favorite AI assistants, such as ChatGPT and Claude, and Dynamics 365 Sales. MCP can also be used to integrate with AI agents such as Microsoft Copilot Studio agents. With the Sales MCP server, you can extend your AI agents and AI assistants with sales-specific tools and create custom experiences for your sellers. The MCP server includes a set of APIs that enable the interaction with Dynamics 365 Sales data and functionality.
+Model Context Protocol (MCP) is a standard that enables AI assistants like ChatGPT and Claude, as well as AI agents such as Microsoft Copilot Studio agents, to integrate seamlessly with Dynamics 365 Sales. 
+
+With the Sales MCP server, you can extend your AI agents and assistants with sales-specific tools to create custom experiences for your sellers. The server provides a set of APIs that enable interaction with Dynamics 365 Sales AI capabilities, allowing your AI agents to retrieve sales data, generate insights, draft emails, and more.
+
+## Capabilities of Sales MCP Server
+
+The Sales MCP server offers a variety of tools that allow AI agents and assistants to perform actions such as retrieving sales data, generating insights, drafting emails, and more. 
+
+The following tools are currently available in the Sales MCP server:
+
+- [Sales Qualification Agent capabilities](sales-qualification-agent-tools.md)
+- [Sales Close Agent - Research capabilities](sales-close-agent-research-tools.md)
+- [Copilot in Dynamics 365 Sales capabilities](copilot-in-sales-tools.md)
+
+In addition, the Sales MCP server also supports tools for performing CRUD operations on Dataverse records, which can be used across various sales scenarios. Learn more about the supported Dataverse MCP server tools in [Connect to Dataverse with Model Context Protocol](/power-apps/maker/data-platform/data-platform-mcp).
 
 ## Copilot Credit consumption rates
 
