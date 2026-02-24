@@ -325,7 +325,7 @@
         - name: Use natural language to find data with AI (preview)
           href: find-data-with-ai.md
         - name: Visualize data in a chart with Copilot (preview)
-          href: visualize-data-in-copilot.md
+          href: visualize-data-using-copilot.md
         - name: View Copilot-generated row summaries
           href: record-summaries.md
         - name: Use timeline highlights with generative AI
