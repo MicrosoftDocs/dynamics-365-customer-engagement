@@ -1,15 +1,15 @@
 ---
-title: Use Copilot's form fill assistance feature in model-driven apps
+title: Use Copilot's form fill assistance in Dynamics 365 Sales
 description: Learn how to use AI-generated suggestions for fields in Dynamics 365 Sales forms to save time and increase productivity.
 ms.topic: overview
-ms.date: 02/16/2026
+ms.date: 02/24/2026
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.collection: bap-ai-copilot
 ---
 
-# Use Copilot's form fill assistance feature in model-driven apps
+# Use Copilot's form fill assistance in Dynamics 365 Sales
 
 [!INCLUDE [form-filling-assistance](~/../shared-content/shared/dynamics365-core/form-filling-assistance.md)]
 
