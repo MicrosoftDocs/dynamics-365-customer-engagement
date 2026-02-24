@@ -9,6 +9,6 @@ ms.reviewer: lavanyakr
 ms.collection: bap-ai-copilot
 ---
 
-# View Copilot-generated row summaries
+# View Copilot-generated row summaries in Dynamics 365 Sales
 
 [!INCLUDE [record-summaries](~/../shared-content/shared/dynamics365-core/record-summaries.md)]
