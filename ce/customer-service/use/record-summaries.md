@@ -9,6 +9,6 @@ ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---
 
-# View Copilot-generated row summaries
+# View a Copilot-generated row summary
 
 [!INCLUDE [record-summaries](~/../shared-content/shared/dynamics365-core/record-summaries.md)]
