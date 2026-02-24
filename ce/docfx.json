@@ -183,7 +183,7 @@
         "customerengagement/**.*": "12/13/2024",
         "developer/reference/entities/*.md" : "08/29/2025",
         "field-service/developer/reference/entities/*.md" : "08/29/2025",
-        "sales/developer/entities/*.md" : "08/29/2025",
+        "sales/developer/entities/*.md" : "02/23/2026",
         "customer-service/develop/reference/entities/*.md" : "08/29/2025"
       },
       "ms.update-cycle": {
