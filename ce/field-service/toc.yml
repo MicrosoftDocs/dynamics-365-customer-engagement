@@ -339,6 +339,8 @@ items:
           href: mobile/get-work-done-mobile-app.md
         - name: Work offline
           href: mobile/work-offline.md
+        - name: Scan a barcode
+          href: mobile/scan-barcode-technician.md
         - name: Access related applications
           href: mobile/access-related-apps.md
         - name: View booking maps
