@@ -9,7 +9,7 @@ ms.reviewer: lavanyakr
 ms.collection: bap-ai-copilot
 ---
 
-# Use Copilot's form fill assistance
+# Use Copilot's form fill assistance in Dynamics 365 Sales
 
 [!INCLUDE [form-filling-assistance](~/../shared-content/shared/dynamics365-core/form-filling-assistance.md)]
 

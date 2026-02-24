@@ -9,7 +9,7 @@ ms.reviewer: lavanyakr
 ms.collection: bap-ai-copilot
 ---
 
-# Find data using natural language with AI (preview)
+# Find data using natural language with AI in Dynamics 365 Sales (preview)
 
 [!INCLUDE [find-data-with-ai](~/../shared-content/shared/dynamics365-core/find-data-with-ai.md)]
 

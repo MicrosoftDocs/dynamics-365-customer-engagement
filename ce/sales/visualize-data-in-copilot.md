@@ -9,6 +9,6 @@ ms.reviewer: lavanyakr
 ms.collection: bap-ai-copilot
 ---
 
-# Visualize data as charts with Copilot (preview)
+# Visualize data as charts with Copilot in Dynamics 365 Sales (preview)
 
 [!INCLUDE [visualize-data-in-copilot](~/../shared-content/shared/dynamics365-core/visualize-data-in-copilot.md)]
