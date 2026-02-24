@@ -57,7 +57,7 @@ Each AI tool in the Sales MCP server consumes Copilot Studio credits based on th
 | get_opportunity_health             | Dataverse read          | 0.1 CC                     |
 | get_opportunity_pain_points_and_needs| Dataverse read        | 0.1 CC                     |
 | get_opportunity_top_risks          | Dataverse read          | 0.1 CC                     |
-| msdyn_GetOpportunityResearchResult | Dataverse read          | 0.1 CC                     |
+| get_opportunity_deal_overview | Dataverse read          | 0.1 CC                     |
 
 ## Related information
 
