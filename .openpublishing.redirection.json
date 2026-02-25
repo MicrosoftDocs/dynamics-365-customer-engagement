@@ -35939,6 +35939,11 @@
       "redirect_url": "/dynamics365/customer-service/use/customer-service-analytics-insights-csh",
       "redirect_document_id": false
     },
+        {
+      "source_path": "ce/customer-service/use/use-copilot-to-work-with-data.md",
+      "redirect_url": "/dynamics365/customer-service/use/find-data-with-ai",
+      "redirect_document_id": false
+    },
     {
       "source_path": "ce/customer-service/administer/configure-ai-suggested-article-keywords-description.md",
       "redirect_url": "/power-apps/user/form-filling-assistance",
