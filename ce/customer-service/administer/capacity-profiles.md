@@ -54,7 +54,7 @@ For a capacity profile, you can add or remove users and edit any setting except 
 
      Once configured, you have to recreate the capacity profile if you want to change the reset frequency.
 
-   - **Assignment blocking**: Set the toggle to **Yes**. When the work item limit is met, the representative isn't assigned a new work item automatically, including unit-based capacity work items even if other capacity profiles or capacity units are available. The presence is set to **Busy-DND**.
+   - **Assignment blocking**: Set the toggle to **Yes**. When the work item limit is met, the representative isn't automatically assigned new work items, including unit-based capacity work items even if other capacity profiles or capacity units are available. The presence is set to **Busy-DND**.
 
    :::image type="content" source="../media/create-capacity-profile.png" alt-text="Create a capacity profile.":::
 
