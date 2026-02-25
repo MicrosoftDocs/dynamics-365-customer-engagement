@@ -19,7 +19,7 @@ You can create capacity profiles and assign them to your customer service repres
 - Capacity management helps administrators create various capacity profiles and associate users with matching profiles. You can assign multiple capacity profiles to users.
 - The administrator can block the assignment of extra work to the service representatives when they're working on certain channels, such as phone calls.
 - The supervisor can override the representative's configured capacity and assign work to user manually.
-- The representative's capacity might display a negative value when the representative manually picks a work item or is assigned a conversation forcibly that results in negative capacity. This is applicable for both capacity profiles and unit-based capacity.
+- The representative's capacity might display a negative value when the representative manually picks a work item or is assigned a conversation forcibly that results in negative capacity. This representation is applicable for both capacity profiles and unit-based capacity.
 - We recommend that you configure either capacity profiles or capacity units in your organization, but not both.
 - The capacity isn't considered when the representative takes part in consult or monitors a conversation.
 
@@ -31,7 +31,7 @@ You might find it helpful to configure profile-based capacity in the following s
 - Assignment in one channel impacts the assignments of another channel. For example, you can't assign another work to representatives who are on phone calls.
 
 > [!IMPORTANT]
-> This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making—and shouldn't be used to make—decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
+> This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making—and shouldn't be used to make—decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with representatives might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
 
 ## Create a capacity profile and assign to users
 
@@ -100,7 +100,7 @@ However, if you configure custom limits through capacity profiles, then represen
 
 An example of the custom limit is as follows:
 
-Ana, a representative at Contoso Coffee, is an expert in handling Return queries for Café A 100 machine. Henry, who has joined Contoso recently, is learning the nuances of Café A 100 machine. Eugene, the admin at Contoso has configured a capacity profile for “Return orders” with a default limit of two conversations per day. Eugene assigns the “Return orders” profile with the default limit to Henry. Eugene allocates a custom limit of five to Ana in the “Return orders” profile. Ana receives maximum of five conversations per day from the “Return orders” profile while Henry receives a maximum of two conversations only in a day for the same profile.
+Ana, a representative at Contoso Coffee, is an expert in handling Return queries for Café A 100 machine. Henry, who joined Contoso recently, is learning the nuances of Café A 100 machine. Eugene, the admin at Contoso configured a capacity profile for "Return orders" with a default limit of two conversations per day. Eugene assigns the "Return orders" profile with the default limit to Henry. Eugene allocates a custom limit of five to Ana in the "Return orders" profile. Ana receives maximum of five conversations per day from the "Return orders" profile while Henry receives a maximum of two conversations only in a day for the same profile.
 
 ### Update work limits using OData
 
