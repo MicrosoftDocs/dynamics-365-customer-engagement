@@ -38,7 +38,7 @@ In 2024, Microsoft released a refreshed user experience for parts of the mobile 
 | [Push notifications](enable-push-notifications.md) | Technician | Yes |  Send user notifications, such as a new booking appointment and other out-of-the-box triggers. |
 | [Geofencing](configure-geofencing.md) | Technician | Yes | Automatically set booking status as a technician arrives or leaves a location. |
 | [Reporting](create-service-report.md) | Technician | Yes | Generate customer service reports with a signature, with the option to email a PDF. |
-| [Scan to find asset (Global search)](scan-barcode.md#enable-search) | Technician | Yes |  Not applicable |
+| [Scan to find asset (Global search)](scan-barcode.md#expand-barcode-search) | Technician | Yes |  Not applicable |
 | [Location sharing and auditing](track-technician-location.md) | Admin | Yes | Enable real-time sharing of the technician's location with the back office. |
 | [Enhanced offline sync filters](set-up-offline-profile.md) | Admin | Yes |  Data available offline by default and the data available offline can be customized. For example, offline data available by location or by accounts for scheduled bookings. |
 | [Offline by default](offline-data-sync.md) | Technician | Yes |  The app is offline by default, so the technician is always ready. |
