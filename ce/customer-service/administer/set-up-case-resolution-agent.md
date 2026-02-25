@@ -75,7 +75,9 @@ When the case resolution process is triggered, based on your configuration, the 
 
 You can integrate Case Management Agent with custom Microsoft Copilot Studio agents to enhance the case resolution process. For example, you can create a custom agent that provides additional context or performs specific actions based on the case details. Learn more in [Integrate Case Management Agent with custom Copilot Studio agents](../develop/case-management-agent-integration.md).
 
-##  Run simulations to evaluate case resolution by Case Management Agent
+##  Run simulations to evaluate case resolution by Case Management Agent (preview) 
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Use synthetic datasets or sample organizational records to test and compare Case Management Agent case resolution before enabling in production.
 
