@@ -41,7 +41,7 @@ Create a capacity profile, and use it in a workstream for routing work items.
 For a capacity profile, you can add or remove users and edit any setting except reset frequency. If you no longer require the profile, you can delete it.
 
 1. In the site map of Copilot Service admin center, select **User management** in **Customer support**. The **User management** page appears.
-   
+
 1. Select the **Manage** option for **Capacity profile**.
 
 1. On the **Capacity profiles** page, select **Create new**.
@@ -55,7 +55,7 @@ For a capacity profile, you can add or remove users and edit any setting except 
 
      Once configured, you have to recreate the capacity profile if you want to change the reset frequency.
 
-   - **Assignment blocking**: Set the toggle to **Yes**. When the work item limit is met, the representative isn't assigned a new work item automatically.
+   - **Assignment blocking**: Set the toggle to **Yes**. When the work item limit is met, the representative isn't assigned a new work item automatically, including unit-based capacity work items even if other capacity profiles or remaining units are available. The presence is set to **Busy-DND**.
 
    :::image type="content" source="../media/create-capacity-profile.png" alt-text="Create a capacity profile.":::
 
