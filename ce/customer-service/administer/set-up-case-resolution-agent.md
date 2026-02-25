@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 02/20/2026
+ms.date: 02/25/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -75,9 +75,9 @@ When the case resolution process is triggered, based on your configuration, the 
 
 You can integrate Case Management Agent with custom Microsoft Copilot Studio agents to enhance the case resolution process. For example, you can create a custom agent that provides additional context or performs specific actions based on the case details. Learn more in [Integrate Case Management Agent with custom Copilot Studio agents](../develop/case-management-agent-integration.md).
 
-##  Run simulations to evaluate field prediction accuracy in Case Management Agent
+##  Run simulations to evaluate case resolution by Case Management Agent
 
-Use synthetic or organizational data to validate and compare Case Management Agent case resolutions before enabling the feature in production.
+Use synthetic datasets or sample organizational records to test and compare Case Management Agent case resolution before enabling in production.
 
 ### Set up a simulation
 
@@ -88,19 +88,14 @@ Use synthetic or organizational data to validate and compare Case Management Age
     1. **Simulation name**: Provide a simulation name.
     1. Select the line of business from the dropdown.
     1. Select **Show matching cases**. The **Selected record** section appears that shows cases based on line of business and any additional filters that you might have added in the **Additional record filters** dropdown. Only the first 100 matching cases are shown, as simulations can run on a maximum of 100 cases at a time.
-  1. Select **Run simulation**.
+  1. Select  the cases and then select **Run simulation**. The **Simulation result** tab shows the results.
 
 ### View a simulation report
 
-On the **Case resolution simulation** page, go to the **Simulation result** tab. Simulations are listed with details of the simulation name, line of business, run date, status, and results.
+Simulations are listed with details of the simulation name, line of business, run date, status, and results on the **Simulation result** tab.
 
 - Select **Download** to export an Excel report.
-- Select **View**. The **Simulation overview** page displays the following details:
-- Select **Refresh**.
-
-#### Best practices for data sources
-
-
+- Select **View** to see simulation results for a specific line of business. The page displays the run details along with individual case predictions showing intent, action type, and generated response.
 
 ## Related information
 
