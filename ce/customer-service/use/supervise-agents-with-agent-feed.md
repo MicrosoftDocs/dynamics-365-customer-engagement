@@ -11,4 +11,10 @@ ms.update-cycle: 180-days
 
 # Supervise AI agents with agent feed in Customer Service and Dynamics 365 Contact Center
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 [!INCLUDE [supervise-agents-with-agent-feed](~/../shared-content/shared/dynamics365-core/supervise-agents-with-agent-feed.md)]
+
+### Related information
+
+[Configure agent feed](../administer/configure-agent-feed.md)  

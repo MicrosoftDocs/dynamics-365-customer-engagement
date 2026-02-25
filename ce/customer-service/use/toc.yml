@@ -349,7 +349,7 @@
         - name: View Copilot-generated row summaries
           href: record-summaries.md
         - name: Use timeline highlights with generative AI
-          href: use-timeline-highlights-with-generative-ai.md  
+          href: use-timeline-highlights-with-generative-ai.md
       - name: Analytics dashboards and insights
         items:
         - name: Supervise AI agents (preview)
