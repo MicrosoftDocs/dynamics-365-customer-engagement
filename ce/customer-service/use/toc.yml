@@ -314,8 +314,28 @@
           href: oc-agent-scripts.md
         - name: Rich messages in conversation control
           href: rich-messages-conversation-control.md
-      - name: Use common AI capabilities in Dynamics 365 apps
-        items:
+      - name: Copilot in Customer Service
+        items: 
+        - name: Copilot feature availability across applications
+          href: /dynamics365/contact-center/use/copilot-feature-availability?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Use Copilot-generated case summaries
+          href: copilot-use-summary.md
+        - name: Use Copilot case summary in model-driven apps
+          href: /power-apps/user/copilot-case-summary?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Summarize conversations
+          href: /dynamics365/contact-center/use/copilot-summarize-conversations?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Ask a question 
+          href: /dynamics365/contact-center/use/use-ask-a-question?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Write an email with Copilot
+          href: /dynamics365/contact-center/use/use-copilot-email?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Use Copilot filters
+          href: use-copilot-filters.md
+        - name: Use Copilot to generate knowledge drafts from cases
+          href: use-copilot-knowledge-from-cases.md
+        - name: Understand how Copilot supports different languages
+          href: copilot-language-support.md
+        - name: Chat with case data in Customer Service (preview)
+          href: /dynamics365/contact-center/use/copilot-chat-customer-service-data?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Use Microsoft 365 Copilot chat (preview)
           href: use-microsoft-365-copilot-chat.md
         - name: Supervise AI agents with agent feed
@@ -330,30 +350,6 @@
           href: record-summaries.md
         - name: Use timeline highlights with generative AI
           href: use-timeline-highlights-with-generative-ai.md
-      - name: Copilot in Customer Service
-        items: 
-        - name: Copilot feature availability across applications
-          href: /dynamics365/contact-center/use/copilot-feature-availability?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Use Copilot to work with data
-          href: use-copilot-to-work-with-data.md
-        - name: Use Copilot-generated case summaries
-          href: copilot-use-summary.md
-        - name: Use Copilot case summary in model-driven apps
-          href: /power-apps/user/copilot-case-summary?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Summarize conversations
-          href: /dynamics365/contact-center/use/copilot-summarize-conversations?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Ask a question 
-          href: /dynamics365/contact-center/use/use-ask-a-question?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Write an email with Copilot
-          href: /dynamics365/contact-center/use/use-copilot-email?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Use Copilot filters
-          href: use-copilot-filters.md
-        - name: Use Copilot to generate knowledge drafts from cases
-          href: use-copilot-knowledge-from-cases.md  
-        - name: Understand how Copilot supports different languages
-          href: copilot-language-support.md
-        - name: Chat with case data in Customer Service (preview)
-          href: /dynamics365/contact-center/use/copilot-chat-customer-service-data?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
       - name: Analytics dashboards and insights
         items:
         - name: Supervise AI agents (preview)
