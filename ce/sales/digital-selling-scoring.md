@@ -1,7 +1,7 @@
 ---
 title: Lead and opportunity scoring
 description: Learn how to set up lead and opportunity scoring in Dynamics 365 Sales.
-ms.date: 02/02/2024
+ms.date: 02/26/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -12,22 +12,22 @@ ms.custom: bap-template
 
 # Lead and opportunity scoring
 
-Harness the power of AI to get insights into which deals are most likely to close so your sales team can more effectively prioritize their work.
+Use AI to get insights into which deals are most likely to close so your sales team can more effectively prioritize their work.
 
 > [!NOTE]
-> Lead scoring requires a minimum of 40 qualified leads and 40 disqualified leads, all of which have been created in the past two years. Opportunity scoring requires a minimum of 40 won opportunities and 40 lost opportunities, all of which have been created in the past two years.
+> Lead scoring requires at least 40 qualified leads and 40 disqualified leads, all created in the past two years. Opportunity scoring requires at least 40 won opportunities and 40 lost opportunities, all created in the past two years.
 
 ## Overview
 
-Predictive lead scoring allows your sales teams to [prioritize leads based on scores](work-predictive-lead-scoring.md) and achieve higher lead qualification rates.
+By using predictive lead scoring, your sales teams can [prioritize leads based on scores](work-predictive-lead-scoring.md) and achieve higher lead qualification rates.
 
-Predictive opportunity scoring allows your sales teams to [prioritize opportunities based on scores](work-predictive-opportunity-scoring.md) and achieve higher opportunity win, close, or convert rates.
+By using predictive opportunity scoring, your sales teams can [prioritize opportunities based on scores](work-predictive-opportunity-scoring.md) and achieve higher opportunity win, close, or convert rates.
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=b4d84993-47e3-4002-b755-8c7bed437588]
 
 ## Licensing options
 
-When you set up lead and opportunity scoring with the Dynamics 365 Sales Enterprise license, you get 1,500 scored records per month. If you need to score more than 1,500 records per month, upgrade your Dynamics 365 Sales license. Learn more about [Dynamics 365 Sales licensing options](https://go.microsoft.com/fwlink/?LinkId=866544).
+When you set up lead and opportunity scoring by using the Dynamics 365 Sales Enterprise license, you get 1,500 scored records per month. If you need to score more than 1,500 records per month, upgrade your Dynamics 365 Sales license. For more information, see [Dynamics 365 Sales licensing options](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 ## Set up lead and opportunity scoring
 
@@ -35,20 +35,20 @@ When you set up lead and opportunity scoring with the Dynamics 365 Sales Enterpr
 1. To enable predictive lead scoring, select **Create and publish** in the **Predictive lead scores** section.  
 1. To enable predictive opportunity scoring, select **Create and publish** in the **Predictive opportunity scores** section.  
 
-After the models are generated, they're published automatically. **Lead score** and **Opportunity score** widgets are added to the **Sales Insights** form of lead and opportunity records, respectively.
+After the models are generated, they're published automatically. The **Lead score** and **Opportunity score** widgets are added to the **Sales Insights** form of lead and opportunity records, respectively.
 
 > [!NOTE]
 > To explore predictive scoring without using your company data, publish sales accelerator with sample data.
 
 ## Advanced settings
 
-You may want to modify the lead and opportunity scoring configurations. For example, you may want to ensure the model is trained on fields that are most relevant to your organization or add a separate model for a different line of business.
+You might want to modify the lead and opportunity scoring configurations. For example, you might want to ensure the model trains on fields that are most relevant to your organization or add a separate model for a different line of business.
 
-To do so, select **Go to advanced lead score settings** and **Go to advanced opportunity score settings** in the **Lead and opportunity scoring quick setup** panel. For information about advanced configurations, go to [Configure predictive lead scoring](configure-predictive-lead-scoring.md) and [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md).
+Select **Go to advanced lead score settings** and **Go to advanced opportunity score settings** in the **Lead and opportunity scoring quick setup** panel. For information about advanced configurations, see [Configure predictive lead scoring](configure-predictive-lead-scoring.md) and [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md).
 
 ## Monitor usage
 
-As an administrator, you can monitor the number of lead and opportunity records that have been scored over the past seven months. The data in the usage panel is refreshed every 24 hours.
+As an administrator, you can monitor the number of lead and opportunity records that the system scores over the past seven months. The data in the usage panel refreshes every 24 hours.
 
 If you have a Sales Enterprise license, you get 1,500 scored records per month. The app displays a warning symbol if your usage exceeds the monthly limit. Hover over the symbol to view the message. You must upgrade your Dynamics 365 Sales license to enjoy the full benefits of predictive scoring with no monthly limit. Learn more about [Dynamics 365 Sales licensing options](https://go.microsoft.com/fwlink/?LinkId=866544).
 
@@ -58,15 +58,15 @@ On the **Get started with digital sales** page, under **Lead and opportunity sco
 
 The **Predictive scoring usage panel** displays the following information:
 
-- **Monthly average**: The average number of records scored over the last six full months
+- **Monthly average**: The average number of records scored over the last six full months.
 
-- **Scored this month**: The total number of records scored so far in the current month. If you have a Sales Enterprise license, a warning symbol indicates if you've exceeded your monthly limit.
+- **Scored this month**: The total number of records scored so far in the current month. If you have a Sales Enterprise license, a warning symbol indicates if you exceeded your monthly limit.
 
-- **Usage over time**: The monthly usage of predictive scoring over the last six months in a graphical format. If you have a Sales Enterprise license, a warning symbol indicates if you've exceeded your monthly limit.
+- **Usage over time**: The monthly usage of predictive scoring over the last six months in a graphical format. If you have a Sales Enterprise license, a warning symbol indicates if you exceeded your monthly limit.
 
-    The monthly limit is shown with a blue line in the graph. When the limit is exceeded in a month, the number of records in excess of 1,500 is shown in red.
+    The monthly limit is shown by a blue line in the graph. When the limit is exceeded in a month, the number of records in excess of 1,500 is shown in red.
 
-    By default, the usage of both lead and opportunity scoring (if both are enabled) is displayed in the graph. To display the usage only for leads or only for opportunities, select **All** and then select the filter you want.
+    By default, the graph displays the usage of both lead and opportunity scoring (if both are enabled). To display the usage only for leads or only for opportunities, select **All** and then select the filter you want.
 
     :::image type="content" source="media/ds-scoring-usage-panel.png" alt-text="Screenshot of the Predictive scoring usage panel.":::
 
@@ -74,13 +74,13 @@ The **Predictive scoring usage panel** displays the following information:
 
 1. In the **Lead and opportunity scoring quick setup** panel, select **Go to advanced lead score settings** or **Go to advanced opportunity score settings**.
 
-2. On the **Predictive lead scoring** page or the **Predictive opportunity scoring** page, select **Delete model**.
+1. On the **Predictive lead scoring** page or the **Predictive opportunity scoring** page, select **Delete model**.
 
 3. When you're asked to confirm, select **Delete**.
 
 ### Add lead and opportunity scoring widgets to a custom form
 
-By default, the lead and opportunity scoring widgets are available only in the out-of-the-box **Sales Insights** form. If you're using a custom form for leads and opportunities, you can add the scoring widgets to it. For more information, go to [Add the lead scoring widget to a form](pls-add-widget.md) and [Add the opportunity scoring widget to a form](pos-add-widget.md).
+By default, the lead and opportunity scoring widgets are available only in the out-of-the-box **Sales Insights** form. If you're using a custom form for leads and opportunities, you can add the scoring widgets to it. For more information, see [Add the lead scoring widget to a form](pls-add-widget.md) and [Add the opportunity scoring widget to a form](pos-add-widget.md).
 
 ## Related information
 

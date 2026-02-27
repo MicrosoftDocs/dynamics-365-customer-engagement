@@ -1,7 +1,7 @@
 ---
 title: Digital selling capabilities in Sales Enterprise
 description: Learn how to enable digital selling capabilities with the Dynamics 365 Sales Enterprise license.
-ms.date: 07/25/2024
+ms.date: 02/27/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -21,7 +21,7 @@ In the Sales Hub app, set up digital selling capabilities in the **Sales Setting
 
 > [!NOTE]
 >- Basic relationship insights and who knows whom information are available for early access to Sales Enterprise customers out-of-the-box, with no setup required. [Learn how to view relationship analytics and KPIs](relationship-analytics.md).
->- If you have a Dynamics 365 Sales Premium license, you can still use this page to quickly set up the features. The only difference would be that there's no monthly capacity limit. 
+>- If you have a Dynamics 365 Sales Premium license, you can still use this page to quickly set up the features. The only difference is that there's no monthly capacity limit. 
 
 Watch this brief video for an overview of digital selling capabilities in Dynamics 365 Sales Enterprise:
 
@@ -29,7 +29,7 @@ Watch this brief video for an overview of digital selling capabilities in Dynami
 
 ## Licensing options
 
-When you set up digital sales with a Sales Enterprise license, you get to explore Sales Premium features such as the sales accelerator, conversation intelligence, and predictive scoring with a limited monthly capacity. If you need more capacity or want access to all the premium features, you must [upgrade to Dynamics 365 Sales Premium](upgrade-sales-premium.md). The following table describes the capacity available with the Sales Enterprise and Sales Premium licenses.
+When you set up digital sales by using a Sales Enterprise license, you can explore Sales Premium features such as the sales accelerator, conversation intelligence, and predictive scoring with a limited monthly capacity. If you need more capacity or want access to all the premium features, [upgrade to Dynamics 365 Sales Premium](upgrade-sales-premium.md). The following table describes the capacity available with the Sales Enterprise and Sales Premium licenses.
 
 | Feature | Sales Enterprise license | Sales Premium license |
 |---------|---------|---------|
@@ -40,17 +40,17 @@ When you set up digital sales with a Sales Enterprise license, you get to explor
 
 1. In the lower-left corner of the screen, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.  
 
-1. from the left navigation pane, select **Overview**.  
+1. From the left navigation pane, select **Overview**.  
     The **Sales settings** page is displayed with the list of digital selling capabilities. Here is the list of digital selling capabilities that you can set up:  
     - [Sales accelerator](digital-selling-sales-accelerator.md)
     - [Microsoft Teams collaboration](digital-selling-teams-collab.md)
     - [Conversation intelligence](digital-selling-microsoft-teams-calls.md)
     - [Lead and opportunity scoring](digital-selling-scoring.md)
         > [!NOTE]
-        > Basic relationship insights and who knows whom information are available for early access to Sales Enterprise customers out-of-the-box and does not require any setup. More information: [View relationship analytics and KPIs](relationship-analytics.md).
+        > Basic relationship insights and who knows whom information are available for early access to Sales Enterprise customers out-of-the-box and doesn't require any setup. More information: [View relationship analytics and KPIs](relationship-analytics.md).
 
 1. Select the feature and then select **Quick setup**.
-   After you've set up the features, the **Quick setup** button changes to **Edit settings**.
+   After you set up the features, the **Quick setup** button changes to **Edit settings**.
 
 > [!NOTE]
 > Each of the Sales Premium features has an advanced settings page, too. Settings you change in either place are reflected in both quick setup and advanced settings.

@@ -1,7 +1,7 @@
 ---
 title: Use the sales accelerator with the Dynamics 365 Sales Enterprise license
 description: Learn how to use the sales accelerator with the Dynamics 365 Sales Enterprise license.
-ms.date: 02/02/2024
+ms.date: 02/27/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -32,54 +32,54 @@ When you set up the sales accelerator with the Dynamics 365 Sales Enterprise lic
 
     :::image type="content" source="media/ds-sa-setup.png" alt-text="Sales accelerator quick setup panel.":::
 
-2. In the **Enable for** section, choose one of the following options to grant permissions to use sales accelerator features:
+1. In the **Enable for** section, choose one of the following options to grant permissions to use sales accelerator features:
 
     - **All security roles**: Select this option to give access to view the sales accelerator in the Sales Hub app to all the security roles in your organization.
     - **Specific security roles**: Select this option to specify security roles to give access to view the sales accelerator in the Sales Hub app to just a few users. Use the lookup box to add the security roles.
 
-3. To add sample data for exploring the feature, select **Add sample data**.
+1. Select **Add sample data** to add sample data for exploring the feature.
 
     > [!NOTE]
-    > The capability to install sample data is available only in your sandbox or trial environments. When you add sample data, you'll also see predictive lead and opportunity scoring on the **Sales Insights** form. Adding the sample data might take a few minutes. If you choose to ignore sample data installation at this point, you can add it later when you need it.
+    > The capability to install sample data is available only in your sandbox or trial environments. When you add sample data, you also see predictive lead and opportunity scoring on the **Sales Insights** form. Adding the sample data might take a few minutes. If you choose to ignore sample data installation at this point, you can add it later when you need it.
 
-4. In the **Content and layout** section, select the record types and their corresponding related forms that are required in your organization.
+1. In the **Content and layout** section, select the record types and their corresponding related forms that are required in your organization.
 
-    1. To add more record types, select **Add record type**, and then select a record from the dropdown list. The selected record type will display the **Sequence (up next)** widget. You can select out-of-the-box tables—such as **Accounts**, **Contacts**, **Leads**, and **Opportunities**—or custom tables.
+    1. To add more record types, select **Add record type**, and then select a record from the dropdown list. The selected record type displays the **Sequence (up next)** widget. You can select out-of-the-box tables - such as **Accounts**, **Contacts**, **Leads**, and **Opportunities** - or custom tables.
 
        > [!NOTE]
-       > - Ensure that the record types you select are the ones that activities are usually connected to. Sales managers use the record types to configure the sequence that will be assigned to records to be displayed in the app.
+       > - Ensure that the record types you select are the ones that activities usually connect to. Sales managers use the record types to configure the sequence that the app assigns to records for display.
        > - To view the custom record types in the list, go to **Settings** > **Customizations** > **Customize the System** > **Components** > **Entities**. Under **Communication & Collaboration**, enable the options **Activities**, **Connections**, and **Sending email (If an email field does not exist, one will be created)**.
        > - To add the **Up next** widget to your custom entity form, go to [Add the Up next widget to an entity form](add-upnext-widget-form.md). 
 
-    2. Select a form for the selected record.
+    1. Select a form for the selected record.
 
        > [!NOTE]
-       > - You can remove the record types that no longer need to have automated activities associated with them. Select the **X** icon next to the record type to remove it from the list. Note that if the records in the deleted record type are associated with a sequence, these records will continue to be associated with the sequence.   
-       > - To know how records are populated in the work list, go to [View my records by using the work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-through-work-list).
+       > - You can remove the record types that no longer need to have automated activities associated with them. Select the **X** icon next to the record type to remove it from the list. If the records in the deleted record type are associated with a sequence, these records continue to be associated with the sequence.   
+       > - To learn how records are populated in the work list, see [View my records by using the work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-through-work-list).
 
-5. To publish the changes, select **Publish**.
+1. Select **Publish** to publish the changes.
 
-After the settings are published, you can open the seller's interface for the sales accelerator by selecting **Go to seller experience** under **Sales accelerator**. Sellers can immediately use the sales accelerator for manually created activities. However, you can also guide your sellers by creating sequences. For information about creating sequences, go to [Manage sequences](create-manage-sequences.md).
+After you publish the settings, open the seller's interface for the sales accelerator by selecting **Go to seller experience** under **Sales accelerator**. Sellers can immediately use the sales accelerator for manually created activities. However, you can also guide your sellers by creating sequences. For information about creating sequences, see [Manage sequences](create-manage-sequences.md).
 
 ## Advanced settings
 
-If you want to make advanced configurations for sales accelerator, select **Go to advanced sales accelerator settings** at the top of the quick setup panel. For information about advanced configurations, go to [Configure the sales accelerator](enable-configure-sales-accelerator.md).
+If you want to make advanced configurations for sales accelerator, select **Go to advanced sales accelerator settings** at the top of the quick setup panel. For information about advanced configurations, see [Configure the sales accelerator](enable-configure-sales-accelerator.md).
 
 :::image type="content" source="media/ds-sa-advanced_setup.png" alt-text="Advanced settings link in quick setup panel for sales accelerator.":::
 
 ## Add the sales accelerator to a custom app
 
-If you've created a custom app, you can add the sales accelerator to it from the app designer. More information: [Add the sales accelerator site map entry to custom app](add-sales-accelerator-sitemap-entry-custom-app.md)
+If you create a custom app, you can add the sales accelerator to it from the app designer. For more information, see [Add the sales accelerator site map entry to custom app](add-sales-accelerator-sitemap-entry-custom-app.md).
 
 ## Monitor usage
 
-As an administrator, you can monitor the number of records that have been connected to sequences over a period of seven months. 
+As an administrator, you can monitor the number of records that connect to sequences over a period of seven months. 
 
-If you're using the sales accelerator with your Sales Enterprise license, you get 1,500 sequence-connected records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade your license to continue using the sales accelerator without any interruptions. 
+If you're using the sales accelerator with your Sales Enterprise license, you get 1,500 sequence-connected records each month. A warning symbol appears whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade your license to continue using the sales accelerator without any interruptions. 
 
 > [!IMPORTANT]
-> - The data in the usage panel is refreshed every 24 hours.
-> - Usage metrics are powered by the Power Automate flow **Sales insights sequence daily usage flow**. Without this flow, the usage report won't reflect the correct data. If the Power Automate flow is disabled, you must enable the flow to reactivate usage metrics. For information on enabling the flow, go to [Turn flows on](/power-automate/disable-flow#turn-flows-on).
+> - The usage panel data refreshes every 24 hours.
+> - The Power Automate flow **Sales insights sequence daily usage flow** powers usage metrics. Without this flow, the usage report doesn't show the correct data. If the Power Automate flow is disabled, you must enable the flow to reactivate usage metrics. For information on enabling the flow, see [Turn flows on](/power-automate/disable-flow#turn-flows-on).
 
 **To monitor the usage of the sales accelerator**
 
@@ -87,15 +87,15 @@ If you're using the sales accelerator with your Sales Enterprise license, you ge
 
   :::image type="content" source="media/ds-sa-monitor-usage.png" alt-text="Monitor usage for the sales accelerator.":::
 
-  The **Sales accelerator usage** panel is displayed with the following information:
+  The **Sales accelerator usage** panel appears with the following information:
 
-  - **Connected records**: Displays the total number of records connected to sequences so far in the current month. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol is displayed.
+  - **Connected records**: Shows the total number of records connected to sequences so far in the current month. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol appears.
 
-  - **Monthly average**: Displays the average number of records connected to sequences over the last six full months of usage.
+  - **Monthly average**: Shows the average number of records connected to sequences over the last six full months of usage.
 
-  - **Usage over time**: Displays the monthly usage of the sales accelerator for the last six months in a graphical format. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol is displayed.
+  - **Usage over time**: Shows the monthly usage of the sales accelerator for the last six months in a graphical format. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol appears.
 
-     The monthly limit is shown with a blue line in the graph. When the limit is exceeded in a month, the number of records in excess of 1,500 are shown in red.
+     A blue line in the graph shows the monthly limit. When the limit is exceeded in a month, the number of records in excess of 1,500 appear in red.
 
      :::image type="content" source="media/ds-sa-usage-panel.png" alt-text="Sales accelerator usage panel.":::
 
@@ -109,11 +109,11 @@ If you want to turn off the sales accelerator, you can do it from the advanced s
 
     :::image type="content" source="media/ds-sa-turn-off.png" alt-text="Turn off sales accelerator.":::
 
-3. In the confirmation dialog, select **Unpublish**.
+1. Select **Unpublish** in the confirmation dialog.
 
 ## Add the sequence (Up next) widget to a custom form
 
-By default, the **Up next** widget is available only in the out-of-the-box Sales Insights, lead, and opportunity forms. If you're using customized forms, you can display the Up next widget on your custom forms. For information about adding the **Up next** widget to a custom form, go to [Add the Up next widget to a custom form](add-upnext-widget-form.md) For information about using the **Up next** widget, go to [Connect with customers through a record or the Up next widget](connect-with-customers.md).
+By default, the **Up next** widget is available only in the out-of-the-box Sales Insights, lead, and opportunity forms. If you're using customized forms, you can display the Up next widget on your custom forms. For information about adding the **Up next** widget to a custom form, go to [Add the Up next widget to a custom form](add-upnext-widget-form.md). For information about using the **Up next** widget, go to [Connect with customers through a record or the Up next widget](connect-with-customers.md).
 
 ## Related information
 
