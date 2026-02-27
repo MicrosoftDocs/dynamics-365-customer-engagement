@@ -17,7 +17,10 @@ ms.custom:
 > [!IMPORTANT]
 > Starting June 2024, Conversation intelligence uses Microsoft Azure OpenAI Service to process call data and transcripts. If your Dynamics 365 Sales organization is in a region where Azure OpenAI Service isn't available, the nearest region where Azure OpenAI Service is available processes your call data and transcripts.
 
-As an administrator, connect the conversation intelligence app to your Dynamics 365 Sales organization to fetch call data and enable sellers to view call insights. 
+As an administrator, connect the conversation intelligence app to your Dynamics 365 Sales organization to fetch call data and enable sellers to view call insights.
+
+> [!NOTE]
+> Conversation intelligence tracks and processes phone calls made through the Teams dialer or a third-party dialer, regardless of whether the call is made from the Sales Hub app or a custom model-driven app. To enable the dialer in a custom app, see [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md).
 
 ## Prerequisites
 
@@ -32,7 +35,7 @@ Before you can set up the Conversation intelligence app, set up conversation int
     > ![Select the environment.](media/si-app-admin-connect-d365-organization.png "Select the environment")  
     
     The application detects your environment.  
-5.	In the **Terms and conditions** dialog, carefully read the [Microsoft privacy statement](https://privacy.microsoft.com/privacystatement), and and select the checkbox for the [terms and conditions](https://www.microsoft.com/licensing/product-licensing/products). Select **Next**.
+5.	In the **Terms and conditions** dialog, carefully read the [Microsoft privacy statement](https://privacy.microsoft.com/privacystatement), and select the checkbox for the [terms and conditions](https://www.microsoft.com/licensing/product-licensing/products). Select **Next**.
   
     The application takes a few minutes to connect to your environment and data, during which a progress dialog is displayed.
 

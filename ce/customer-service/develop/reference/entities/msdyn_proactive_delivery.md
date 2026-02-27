@@ -63,6 +63,7 @@ The following table lists selected properties for the Proactive Delivery (msdyn_
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_batch_id](#BKMK_msdyn_batch_id)
 - [msdyn_call_id](#BKMK_msdyn_call_id)
 - [msdyn_channel](#BKMK_msdyn_channel)
 - [msdyn_channel_sent_date](#BKMK_msdyn_channel_sent_date)
@@ -71,11 +72,13 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_delivery_id](#BKMK_msdyn_delivery_id)
 - [msdyn_dialmode_type](#BKMK_msdyn_dialmode_type)
 - [msdyn_disposition_codes](#BKMK_msdyn_disposition_codes)
+- [msdyn_earliest_schedule_date](#BKMK_msdyn_earliest_schedule_date)
 - [msdyn_end_date](#BKMK_msdyn_end_date)
 - [msdyn_expiration_date](#BKMK_msdyn_expiration_date)
 - [msdyn_from_address](#BKMK_msdyn_from_address)
 - [msdyn_journey_id](#BKMK_msdyn_journey_id)
 - [msdyn_journey_run_id](#BKMK_msdyn_journey_run_id)
+- [msdyn_parent_conversation_id](#BKMK_msdyn_parent_conversation_id)
 - [msdyn_proactive_deliveryId](#BKMK_msdyn_proactive_deliveryId)
 - [msdyn_proactive_engagement_config_id](#BKMK_msdyn_proactive_engagement_config_id)
 - [msdyn_queue_id](#BKMK_msdyn_queue_id)
@@ -106,6 +109,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_batch_id"></a> msdyn_batch_id
+
+|Property|Value|
+|---|---|
+|Description|**Identifier for the parent batch from which this delivery originated.**|
+|DisplayName|**Batch Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_batch_id`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_call_id"></a> msdyn_call_id
 
@@ -243,6 +263,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|1000|
 
+### <a name="BKMK_msdyn_earliest_schedule_date"></a> msdyn_earliest_schedule_date
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Earliest Schedule Date**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_earliest_schedule_date`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|True|
+|DateTimeBehavior|TimeZoneIndependent|
+|Format|DateAndTime|
+|ImeMode|Auto|
+|SourceTypeMask|0|
+
 ### <a name="BKMK_msdyn_end_date"></a> msdyn_end_date
 
 |Property|Value|
@@ -320,6 +357,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_journey_run_id`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_parent_conversation_id"></a> msdyn_parent_conversation_id
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Parent Conversation Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_parent_conversation_id`|
 |RequiredLevel|None|
 |Type|String|
 |Format|Text|

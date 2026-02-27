@@ -1,5 +1,10 @@
 {
   "redirections": [
+   {
+      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocsessionparticipantevent.md",
+      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_ocsessionparticipantevent",
+      "redirect_document_id": "false"
+    },
     {
       "source_path": "ce/customer-service/administer/cs-enable-ai-generated-summary.md",
       "redirect_url": "/dynamics365/contact-center/administer/copilot-enable-summary#enable-conversation-summaries",
@@ -48,6 +53,21 @@
     {
       "source_path": "ce/sales/sales-qualification-agent-custom-research-topics.md",
       "redirect_url": "/dynamics365/sales/define-custom-research-topics",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/use-form-fill-assistance.md",
+      "redirect_url": "/dynamics365/sales/form-fill-assistance",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/find-data-in-view-with-ai.md",
+      "redirect_url": "/dynamics365/sales/find-data-with-ai",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/visualize-data-in-view-with-ai.md",
+      "redirect_url": "/dynamics365/sales/visualize-data-in-copilot",
       "redirect_document_id": "false"
     },
     {
@@ -1928,11 +1948,6 @@
     {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_omnichannelsyncconfig.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_omnichannelsyncconfig",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_overflowactionconfig.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_overflowactionconfig",
       "redirect_document_id": "false"
     },
     {
@@ -35922,6 +35937,11 @@
     {
       "source_path": "ce/customer-service/use/info-analytics-reports.md",
       "redirect_url": "/dynamics365/customer-service/use/customer-service-analytics-insights-csh",
+      "redirect_document_id": false
+    },
+        {
+      "source_path": "ce/customer-service/use/use-copilot-to-work-with-data.md",
+      "redirect_url": "/dynamics365/customer-service/use/find-data-with-ai",
       "redirect_document_id": false
     },
     {

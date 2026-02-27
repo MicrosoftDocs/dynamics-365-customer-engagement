@@ -314,12 +314,10 @@
           href: oc-agent-scripts.md
         - name: Rich messages in conversation control
           href: rich-messages-conversation-control.md
-      - name: Copilot in Customer Service 
+      - name: Copilot in Customer Service
         items: 
         - name: Copilot feature availability across applications
           href: /dynamics365/contact-center/use/copilot-feature-availability?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Use Copilot to work with data
-          href: use-copilot-to-work-with-data.md
         - name: Use Copilot-generated case summaries
           href: copilot-use-summary.md
         - name: Use Copilot case summary in model-driven apps
@@ -333,11 +331,25 @@
         - name: Use Copilot filters
           href: use-copilot-filters.md
         - name: Use Copilot to generate knowledge drafts from cases
-          href: use-copilot-knowledge-from-cases.md  
+          href: use-copilot-knowledge-from-cases.md
         - name: Understand how Copilot supports different languages
           href: copilot-language-support.md
         - name: Chat with case data in Customer Service (preview)
           href: /dynamics365/contact-center/use/copilot-chat-customer-service-data?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Use Microsoft 365 Copilot chat (preview)
+          href: use-microsoft-365-copilot-chat.md
+        - name: Supervise AI agents with agent feed
+          href: supervise-agents-with-agent-feed.md
+        - name: Use form-fill assistance
+          href: form-fill-assistance.md
+        - name: Use natural language to find data with AI (preview)
+          href: find-data-with-ai.md
+        - name: Visualize data in a chart with Copilot (preview)
+          href: visualize-data-using-copilot.md
+        - name: View Copilot-generated row summaries
+          href: record-summaries.md
+        - name: Use timeline highlights with generative AI
+          href: use-timeline-highlights-with-generative-ai.md
       - name: Analytics dashboards and insights
         items:
         - name: Supervise AI agents (preview)
