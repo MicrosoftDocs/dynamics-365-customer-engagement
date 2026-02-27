@@ -1,7 +1,7 @@
 ---
 title: "Collaborate using Microsoft Teams with the Dynamics 365 Sales Enterprise license | MicrosoftDocs"
 description: "Learn how to collaborate using Microsoft Teams with the Dynamics 365 Sales Enterprise license."
-ms.date: 02/02/2024
+ms.date: 02/27/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -16,7 +16,7 @@ Connect Dynamics 365 and Microsoft Teams so your sales teams can collaborate sea
 
 ## Overview
 
-Connect Dynamics 365 and Microsoft Teams so your sales teams can collaborate seamlessly on deals from wherever they work. Dynamics 365 and Microsoft Teams integration allows you to speed up the flow of work, enabling anyone in an organization to view and collaborate on Dynamics 365 records, from within the flow of work with Teams—at no additional cost. More information: [Overview of Microsoft Teams integration](../teams-integration/teams-integration.md)
+By connecting Dynamics 365 and Microsoft Teams, your sales teams can collaborate seamlessly on deals from wherever they work. Dynamics 365 and Microsoft Teams integration speeds up the flow of work. Anyone in an organization can view and collaborate on Dynamics 365 records from within the flow of work by using Teams - at no extra cost. For more information, see [Overview of Microsoft Teams integration](../teams-integration/teams-integration.md).
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=acc26adf-ad12-414c-ab89-9737c58cdc91]
 
@@ -27,11 +27,11 @@ Connect Dynamics 365 and Microsoft Teams so your sales teams can collaborate sea
 1. Turn on the **Connect records to channels in Microsoft Teams** toggle to enable [basic Teams integration](../teams-integration/teams-collaboration.md).  
 1. Select **Apply**.
 
-After the settings are enabled, your sellers can use Teams in Dynamics 365 and link chats to records to collaborate on deals. They can also pin records and views to Teams channels so they can collaborate on deals directly from Microsoft Teams.
+After you enable the settings, your sellers can use Teams in Dynamics 365 and link chats to records to collaborate on deals. They can also pin records and views to Teams channels so they can collaborate on deals directly from Microsoft Teams.
 
 ## Advanced settings
 
-If you want to make advanced configurations for Teams collaboration, select **Go to advanced Teams collaboration settings** at the top of the quick setup panel. For information about advanced configurations, go to [Install and set up Microsoft Teams integration](../teams-integration/teams-install-app.md).
+If you want to make advanced configurations for Teams collaboration, select **Go to advanced Teams collaboration settings** at the top of the quick setup panel. For information about advanced configurations, see [Install and set up Microsoft Teams integration](../teams-integration/teams-install-app.md).
 
 :::image type="content" source="media/ds-teams-collab-advanced-setup.png" alt-text="Advanced settings link in quick setup panel for Teams collaboration.":::
 
@@ -39,9 +39,9 @@ If you want to make advanced configurations for Teams collaboration, select **Go
 
 1. Select **Go to advanced Teams collaboration settings** at the top of the quick setup panel.
 
-2. Turn off the **Chat and collaborate from Dynamics 365 (preview)** and **Connect records to channels in Microsoft Teams** toggles.
+1. Turn off the **Chat and collaborate from Dynamics 365 (preview)** and **Connect records to channels in Microsoft Teams** toggles.
 
-3. Select **Apply**.
+1. Select **Apply**.
 
 ## Related information
 
