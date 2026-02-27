@@ -1,7 +1,7 @@
 ---
 title: MCP tools for Sales Close Agent - Research capabilities (preview)
 description: Learn about the tools available in the Sales MCP server that support the Sales Close Agent - Research capabilities in Dynamics 365 Sales.
-ms.date: 11/17/2025
+ms.date: 02/27/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -36,3 +36,9 @@ Learn more about the insights returned by the following tools in [Opportunity re
 | Opportunity deal overview tool         | `msdyn_GetOpportunityResearchResult`     | Retrieve all opportunity insights from Sales Close Agent          | `OpportunityId` (string)    | Comprehensive insights for the opportunity                                               |
 
 In addition to the Sales MCP server tools, you can also use the Dataverse MCP server tools to perform CRUD operations on the records in Dynamics 365 Sales. Learn more about the supported Dataverse MCP server tools in [Connect to Dataverse with Model Context Protocol](/power-apps/maker/data-platform/data-platform-mcp). 
+
+
+## Related information
+
+- [Connect your AI agents and assistants to Sales MCP Server](connect-agents-to-model-context-protocol.md)
+- [Examples of using Sales MCP Server with AI agents and assistants](model-context-protocol-examples.md)

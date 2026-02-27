@@ -1,7 +1,7 @@
 ---
 title: MCP tools for Sales Qualification Agent capabilities
 description: Learn about the tools available in the Sales MCP server that support the Sales Qualification Agent capabilities in Dynamics 365 Sales.
-ms.date: 11/17/2025
+ms.date: 02/27/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -28,3 +28,9 @@ Learn more about the insights returned by the following tools in [Lead research 
 | Lead qualification tool      | `mcp_sales-mcp-ser_get_lead_qualification_assessment` | Get comprehensive lead qualification assessment against target customer profile criteria | `LeadId` (string)           | Target customer profile standards evaluation, qualification ranking, overall assessment  |
 | Lead research tool           | `mcp_sales-mcp-ser_get_lead_research`            | Retrieve detailed lead research and individual prospect analysis | `msdyn_LeadId` (string)     | Professional background, decision-making authority, preferences                         |
 | Outreach email generation tool | `mcp_sales-mcp-ser_draft_outreach_email`        | Draft personalized sales qualification agent outreach emails | `LeadId` (string)           | Personalized email subject and body with company-specific insights                      |
+
+
+## Related information
+
+- [Connect your AI agents and assistants to Sales MCP Server](connect-agents-to-model-context-protocol.md)
+- [Examples of using Sales MCP Server with AI agents and assistants](model-context-protocol-examples.md)

@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Sales Model Context Protocol overview
 description: Learn about the Model Context Protocol (MCP) server for Dynamics 365 Sales, its capabilities, and how it enables integration with AI agents and assistants.
-ms.date: 11/17/2025
+ms.date: 02/27/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -18,13 +18,9 @@ ai-usage: ai-assisted
 
 ## Overview
 
-Model Context Protocol (MCP) is a standard that enables AI agents and assistants to interact with various applications and services in a consistent manner. The Dynamics 365 Sales MCP server implements this protocol, allowing AI agents and assistants to connect to Dynamics 365 Sales and use its AI capabilities.
+Model Context Protocol (MCP) is a standard that enables AI agents and assistants to interact with various applications and services in a consistent manner. With the Dynamics 365 Sales MCP server, you can extend your AI applications with sales-specific tools to create custom experiences for your sellers. The server provides APIs that enable AI agents to retrieve sales data, generate insights, draft emails, and perform other sales-related tasks.
 
-With the Dynamics 365 Sales MCP server, you can extend your AI applications with sales-specific tools to create custom experiences for your sellers. The server provides APIs that enable AI agents to retrieve sales data, generate insights, draft emails, and perform other sales-related tasks.
-
-## Capabilities of Sales MCP Server
-
-The Sales MCP server offers a variety of tools that allow AI agents and assistants to perform actions such as retrieving sales data, generating insights, drafting emails, and more. 
+## Tools available in the Sales MCP server
 
 The following tools are currently available in the Sales MCP server:
 
@@ -63,5 +59,4 @@ Each AI tool in the Sales MCP server consumes Copilot Studio credits based on th
 
 ## Related information
 
-- [Video: Using Claude Desktop to engage directly with Dynamics 365 Sales](https://www.youtube.com/watch?v=H_CbRy3Pb88)
-- [Blog: The autonomous enterprise: How generative AI is reshaping business applications](https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2025/05/20/the-autonomous-enterprise-how-generative-ai-is-reshaping-business-applications/)
+[Examples of using Sales MCP Server with AI agents and assistants](model-context-protocol-examples.md)
