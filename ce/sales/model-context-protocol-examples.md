@@ -105,6 +105,7 @@ The lead starts a chat: "I'm looking for metal packaging for cold pressed olive 
 **Prompt:** Give me a complete deal briefing for opportunity  'Customer Engagement Platform for Fabrikam Retail'. Include deal objective, current status, health, stakeholders, risks, and recent signals.
 
 **Tools Used:** 
+
 | Action performed | Tools used | MCP Server used |
 |---|---|---|
 | Agent retrieves all opportunity insights from Sales Close Agent in a single call | `read_query`, `get_opportunity_deal_overview` | Dataverse MCP Server, Sales MCP Server |
