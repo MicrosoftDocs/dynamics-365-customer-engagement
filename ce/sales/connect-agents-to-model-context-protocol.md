@@ -24,7 +24,7 @@ Make sure you meet the following prerequisites:
 
 - You have admin permissions in Dynamics 365 Sales.  
 
-- You have access to Copilot Studio. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).
+- You have admin access to Copilot Studio. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).
 - Allow access to Dataverse MCP Server from MCP clients. This is required only if you're planning to use an MCP client other than Copilot Studio. Learn more in [Configure the Dataverse MCP server for an environment](/power-apps/maker/data-platform/data-platform-mcp-disable).
 - If you've previously connected to the Dynamics 365 Sales MCP server, delete the connection as it's now deprecated and will be removed soon.
 - You have enough Copilot Studio credits to use the tools in the Sales MCP server. Learn more about consumption rates for each tool in [Copilot Credit consumption rates](connect-to-model-context-protocol-sales.md#copilot-credit-consumption-rates).
