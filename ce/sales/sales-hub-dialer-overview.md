@@ -1,6 +1,6 @@
 ---
-title: Sales Hub dialer overview
-description: Learn how the Sales Hub dialer enhances sales productivity with real-time transcription, sentiment analysis, and seamless CRM integration for every call.
+title: Sales Hub Dialer overview
+description: Learn how the Sales Hub Dialer enhances sales productivity with real-time transcription, sentiment analysis, and seamless CRM integration for every call.
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -10,15 +10,15 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Sales Hub dialer overview
+# Sales Hub Dialer overview
 
-The Sales Hub dialer is an embedded softphone feature in Dynamics 365 Sales that enables sellers to make and receive voice calls directly within the Sales Hub application. It allows users to place outbound calls and receive inbound calls from the public telephone network without leaving the Sales Hub. 
+The Sales Hub Dialer is an embedded softphone feature in Dynamics 365 Sales that enables sellers to make and receive voice calls directly within the Sales Hub application. It allows users to place outbound calls and receive inbound calls from the public telephone network without leaving the Sales Hub. 
 
 The dialer is tightly integrated with CRM records, automatically logs call activities, and provides advanced AI features such as real-time transcription, sentiment analysis, and post-call summaries. This unified experience helps sales teams streamline communication, capture critical details, and improve productivity.
 
-## Key features of the Sales Hub dialer
+## Key features of the Sales Hub Dialer
 
-The Sales Hub dialer offers a comprehensive set of telephony and AI capabilities that support modern sales teams:
+The Sales Hub Dialer offers a comprehensive set of telephony and AI capabilities that support modern sales teams:
 
 - **Enterprise-grade reliability and quality**: Calls are routed through Azure’s globally distributed services, ensuring high uptime and consistent audio quality.
 - **AI-driven insights**: Real-time transcription, live sentiment monitoring, and AI-generated call summaries help sellers focus on conversations and capture important information.
@@ -50,9 +50,9 @@ The following table lists which capabilities are available in Public Preview and
 | AI-generated notes and action items | [Enable Copilot summarization](/dynamics365/contact-center/administer/copilot-enable-summary) |
 | Keyword and mention extraction | |
 
-## How the Sales Hub dialer works
+## How the Sales Hub Dialer works
 
-The dialer is accessible from the Sales Hub navigation bar or the Sales Calls area. Users can start calls using click-to-call from CRM records or by manually entering a number. Inbound calls trigger a notification and open the call panel for immediate response. During calls, sellers have access to controls and AI features, and can take notes or mark calls as spam. After calls, activities are logged, recordings and transcripts are available, and AI-generated summaries highlight key points and action items.
+You can access the dialer from the right pane of the Sales Hub app. You can start calls using click-to-call from CRM records or by manually entering a number. Inbound calls trigger a notification and open the call panel for immediate response. During calls, sellers have access to controls and AI features, and can take notes or mark calls as spam. After calls, activities are logged, recordings and transcripts are available, and AI-generated summaries highlight key points and action items.
 
 ## AI and conversation intelligence
 
@@ -69,8 +69,8 @@ All calls are encrypted in transit and at rest. Administrators can configure dat
 
 ## Related information
 
-- [Enable and configure the Sales Hub dialer (preview)](configure-sales-hub-dialer.md)
-- [Make and receive calls with the Sales Hub dialer (preview)](make-receive-calls-sales-hub-dialer.md)
+- [Enable and configure the Sales Hub Dialer (preview)](configure-sales-hub-dialer.md)
+- [Make and receive calls with the Sales Hub Dialer (preview)](make-receive-calls-sales-hub-dialer.md)
 
 
 

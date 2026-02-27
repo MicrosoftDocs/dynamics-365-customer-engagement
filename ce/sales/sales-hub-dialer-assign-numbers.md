@@ -1,5 +1,5 @@
 ---
-title: Step 5:\ Assign phone numbers to sellers for the Sales Hub dialer
+title: Step 5:\ Assign phone numbers to sellers for the Sales Hub Dialer
 description: Learn how to assign dedicated phone numbers to sellers in Dynamics 365 Sales Hub using User Management or the phone number setup flow.
 ms.date: 03/01/2026
 ms.topic: how-to
@@ -8,7 +8,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
 
-# Step 5: Assign phone numbers to sellers for the Sales Hub dialer (preview)
+# Step 5: Assign phone numbers to sellers for the Sales Hub Dialer (preview)
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
@@ -19,27 +19,18 @@ After phone numbers are synced to Dynamics 365, assign a dedicated number to eac
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
-## Assign via User Management
+## Assign phone numbers to sellers
 
-1. In **Copilot Service Admin Center**, go to **User Management** in the site map.
-1. Under **Users**, select **Manage**.
-1. Select the user to whom you want to assign a phone number.
-1. On the user page, select the **Omnichannel** tab.
-1. In the **Omnichannel Phone** field, select the phone number to assign, then save.
-
-## Assign via the phone number setup flow
-
-1. In **Copilot Service Admin Center**, go to **Channels** in the site map.
-1. Under **Phone numbers**, select **Manage**.
-1. If a phone number is ready for setup, a **Setup** banner appears at the top of the page. Select **Setup**.
-1. In the dialog, select **Assign to user**.
-1. Select the target user on the **Users** page.
-1. On the user page, select the **Omnichannel** tab.
-1. In the **Omnichannel Phone** field, select the phone number, then save.
+1. Open the Sales Hub app, and select **Change area** > **Sales Hub Dialer settings**.
+1. Select **Phone numbers** and select a phone number that's ready for setup. Alternatively, you can select the setup flow from the top banner to assign a number that's ready for setup.  
+   :::image type="content" source="media/setup-phone-banner.png" alt-text="screenshot of phone number page with setup banner":::
+1. Select **Setup** and then select **Assign to user**.
+1. Select the user record on the **Users** page.
+1. Open the **Omnichannel** tab, and in the **Omnichannel Phone** field, select the phone number, then save.
 
 Repeat for each seller who needs a dedicated number.
 
 ## Related information
 
-- [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)
+- [Enable and configure the Sales Hub Dialer](configure-sales-hub-dialer.md)
 - [Understand call routing](sales-hub-dialer-call-routing.md)

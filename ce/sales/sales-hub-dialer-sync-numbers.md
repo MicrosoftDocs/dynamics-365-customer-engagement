@@ -1,5 +1,5 @@
 ---
-title: "Step 1: Teams phone numbers to Dynamics 365 for the Sales Hub dialer (preview)"
+title: "Step 1: Sync Teams phone numbers to Dynamics 365 (preview)"
 description: Learn how to retrieve environment IDs, convert numbers, create resource accounts, license them, and sync Teams phone numbers to Dynamics 365.
 ms.date: 03/01/2026
 ms.topic: how-to
@@ -8,11 +8,11 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
 
-# Step 1: Sync Teams phone numbers to Dynamics 365 for the Sales Hub dialer (preview)
+# Step 1: Sync Teams phone numbers to Dynamics 365 (preview)
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-To enable calling in the Sales Hub dialer, you must provision Teams phone numbers as service numbers, create resource accounts for each number, license those accounts, and sync everything to Dynamics 365. This article walks through each step.
+To enable calling in the Sales Hub Dialer, you must provision Teams phone numbers as service numbers, create resource accounts for each number, license those accounts, and sync everything to Dynamics 365. This article walks through each step.
 
 For general guidance, see [Configure Teams Phone in voice channel](/dynamics365/contact-center/administer/configure-teams-phone-in-voice-channel).
 
@@ -22,11 +22,9 @@ For general guidance, see [Configure Teams Phone in voice channel](/dynamics365/
 
 These identifiers are required throughout the remaining configuration steps. Store them in a safe location.
 
-1. In Dynamics 365, open **Copilot Service Admin Center**.
-1. In the site map, under **Customer Support**, select **Channels**.
-1. Under **Phone numbers**, select **Manage**.
-1. Select **Advanced**.
-1. Copy and save both the **Azure Communication Services resource ID** and the **Dynamics 365 Application ID**.
+1. Open the Sales Hub app, and select **Change area** > **Sales Hub Dialer settings**.
+2. Select **Channels** > **Phone Numbers** > **Manage** > **Advanced**.
+3. Note the **Azure Communication Services resource ID** and **Dynamics App ID**. Store these IDs for use in the subsequent steps.
 
 ## Convert user numbers to service numbers
 
@@ -163,7 +161,7 @@ Replace `<NumberWithoutPlus>` with the phone number (omit the `+` prefix) and `<
 This step binds the Azure Communication Services resource to each Teams resource account. There is no UI for this step — it must be completed through PowerShell. Repeat for every resource account.
 
 > [!IMPORTANT]
-> Complete this PowerShell sync before you run the sync in Copilot Service Admin Center.
+> Complete this PowerShell sync before you run the sync in the Sales Hub Dialer settings. 
 
 ```powershell
 Connect-MicrosoftTeams
@@ -184,16 +182,17 @@ Sync-CsOnlineApplicationInstance `
     -AcsResourceId "<Azure Communication Services resource ID>"
 ```
 
-## Confirm the sync in Copilot Service Admin Center
+## Confirm the sync in Sales Hub Dialer settings
 
 After the PowerShell sync completes, finalize the phone number records in Dynamics 365.
 
-1. Open **Copilot Service Admin Center**.
-1. Under **Customer Support**, select **Channels**.
-1. Under **Phone numbers**, select **Manage**, then select **Advanced**.
-1. On the **Manage telephony** page, go to the **Teams telephony** tab. The Azure Communication Services resource ID and Dynamics 365 Application ID are displayed.
+1. Open the Sales Hub app, and select **Change area** > **Sales Hub Dialer settings**.
+1. Select **Phone numbers** and then select **Manage** > **Advanced**.
+1. On the **Manage telephony** page, go to the **Teams telephony** tab.  
+   The Azure Communication Services resource ID and Dynamics 365 Application ID are displayed.
 1. Select **Sync** to create the phone number records for your Teams service numbers.
-
+   :::image type="content" source="media/manage-telephony-settings.png" alt-text="Screen capture of the Manage telephony settings page showing the Sync button.":::
+        
 ## Next step
 
 > [!div class="nextstepaction"]
@@ -201,5 +200,5 @@ After the PowerShell sync completes, finalize the phone number records in Dynami
 
 ## Related information
 
-- [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)
+- [Enable and configure the Sales Hub Dialer](configure-sales-hub-dialer.md)
 - [Configure Teams Phone in voice channel](/dynamics365/contact-center/administer/configure-teams-phone-in-voice-channel)

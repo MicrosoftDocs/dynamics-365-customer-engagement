@@ -1,6 +1,6 @@
 ---
-title: Make and receive calls with the Sales Hub dialer
-description: Learn how to use the Sales Hub dialer in Dynamics 365 Sales to place outbound calls, handle inbound calls, use in-call AI features, and review post-call summaries.
+title: Make and receive calls with the Sales Hub Dialer
+description: Learn how to use the Sales Hub Dialer in Dynamics 365 Sales to place outbound calls, handle inbound calls, use in-call AI features, and review post-call summaries.
 ms.date: 03/01/2026
 ms.topic: how-to
 ms.collection: bap-ai-copilot
@@ -9,11 +9,11 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
 
-# Make and receive calls with the Sales Hub dialer (preview)
+# Make and receive calls with the Sales Hub Dialer (preview)
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-The **Sales Hub dialer** is an embedded softphone in Dynamics 365 Sales that lets sellers make outbound calls and receive inbound calls directly within the Sales Hub application. Built on Azure Communication Services—the same cloud telephony platform used by Dynamics 365 Contact Center—the dialer delivers enterprise-grade reliability, advanced AI-powered conversation intelligence, and seamless CRM integration so that every call is automatically logged and enriched with insights.
+The **Sales Hub Dialer** is an embedded softphone in Dynamics 365 Sales that lets sellers make outbound calls and receive inbound calls directly within the Sales Hub application. Built on Azure Communication Services—the same cloud telephony platform used by Dynamics 365 Contact Center—the dialer delivers enterprise-grade reliability, advanced AI-powered conversation intelligence, and seamless CRM integration so that every call is automatically logged and enriched with insights.
 
 Key capabilities include:
 
@@ -29,29 +29,29 @@ Key capabilities include:
 
 ## Prerequisites
 
-Before sellers can use the Sales Hub dialer, the following requirements must be met:
+Before sellers can use the Sales Hub Dialer, the following requirements must be met:
 
-- **Licensing**: A Dynamics 365 Sales Enterprise or Sales Premium license is required. Conversation Intelligence features may require additional Sales Insights or Copilot licensing.
-- **Admin setup**: An administrator must provision and configure the voice channel in your Dynamics 365 environment and enable the dialer for Sales Hub. For detailed admin setup instructions, see [Enable and configure the Sales Hub dialer (preview)](configure-sales-hub-dialer.md).
+- **Licensing**: An appropriate Dynamics 365 Sales license that includes access to Conversation Intelligence and Copilot features is required. Learn more in the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+- **Admin setup**: An administrator must provision and configure the voice channel in your Dynamics 365 environment and enable the dialer for Sales Hub. For detailed admin setup instructions, see [Enable and configure the Sales Hub Dialer (preview)](configure-sales-hub-dialer.md).
 - **Telephony**: A calling plan or telephony provider (for example, a Microsoft Teams Calling Plan) must be configured for outbound and inbound PSTN calling. Telephony charges apply based on your provider's rates.
 - **Hardware**: A computer with a microphone, speakers or headset, and a supported browser.
 
 > [!NOTE]
-> **Telephony costs:** The Sales Hub dialer is included with Dynamics 365 Sales, but outbound and inbound PSTN calls incur telephony charges from your calling plan or provider. Azure Communication Services usage for call routing, recording, and transcription may incur additional charges after GA. Refer to your licensing guide for details.
+> **Telephony costs:** The Sales Hub Dialer is included with Dynamics 365 Sales, but outbound and inbound PSTN calls incur telephony charges from your calling plan or provider. Azure Communication Services usage for call routing, recording, and transcription may incur additional charges after GA. Refer to the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544) for details.
 
 ## Place an outbound call
 
 As a seller, you can start an outbound call in two ways:
 
-1. To call a lead, contact, or opportunity, open the record and select the **phone icon** next to the phone number field. The dialer pane opens and automatically dials the number.
+1. To call a lead, contact, or opportunity, open the record in the Sales Hub app and select the **phone icon** next to the phone number field. The dialer pane opens and automatically dials the number.
 
-2. To call a number not in CRM, open the dialer from the Sales navigation bar, enter the phone number using the keypad, and select **Call**.
+2. To call a number not in CRM, select the **Call** icon in the right pane of the Sales Hub app, enter the phone number using the keypad, and select **Call**.
 
 The dialer uses your assigned phone number as the outbound caller ID.
 
 ## Answer an inbound call
 
-When a customer calls your sales phone number, a toast notification appears in Dynamics 365 Sales, regardless of where you are in the app.
+When a customer calls your sales phone number, a toast notification appears in Dynamics 365 Sales, regardless of where you are in the Sales Hub app.
 
 1. To accept the call, select **Accept** on the notification. The call panel opens and connects you to the caller through your browser using voice over IP.
 
@@ -98,7 +98,7 @@ If an inbound call is unwanted, select **Mark as Spam** in the call panel. This 
 
 ## Review post-call information
 
-When a call ends, the Sales Hub dialer automatically captures and enriches the call record.
+When a call ends, the Sales Hub Dialer automatically captures and enriches the call record.
 
 ### View the call log
 
@@ -120,7 +120,7 @@ If call recording and post-call summarization are enabled, the call record inclu
 
 ### Create follow-up actions
 
-Based on the AI-generated summary, review any identified action items—such as "send a product catalog" or "schedule a demo"—and manually create follow-up tasks. At GA, the dialer will support automatic AI-powered task creation based on call content.
+Based on the AI-generated summary, review any identified action items—such as "send a product catalog" or "schedule a demo"—and manually create follow-up tasks.
 
 ## Related information
 

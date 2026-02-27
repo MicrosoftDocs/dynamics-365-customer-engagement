@@ -1,5 +1,5 @@
 ---
-title: Enable and configure the Sales Hub dialer (preview)
+title: Enable and configure the Sales Hub Dialer (preview)
 description: Step-by-step guidance for administrators to enable the Omnichannel dialer in Dynamics 365 Sales Hub, sync Teams phone numbers, configure profiles, and assign numbers to sellers.
 ms.date: 03/01/2026
 ms.topic: how-to
@@ -8,34 +8,22 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
 
-# Enable and configure the Sales Hub dialer (preview)
+# Enable and configure the Sales Hub Dialer (preview)
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-As a sales administrator, you can enable the Sales Hub dialer in Dynamics 365 Sales Hub so that sellers can make and receive calls directly within the application using dedicated phone numbers. The Sales Hub dialer offers a more advanced voice experience built on the same cloud telephony infrastructure that powers Dynamics 365 Contact Center, with enhanced features like intelligent call routing, integrated CRM context, and improved call management capabilities that provide a better alternative to the Teams-based dialer.
+As a sales administrator, you can enable the Sales Hub Dialer in Dynamics 365 Sales Hub so that sellers can make and receive calls directly within the application using dedicated phone numbers. The Sales Hub Dialer offers a more advanced voice experience built on the same cloud telephony infrastructure that powers Dynamics 365 Contact Center, with enhanced features like intelligent call routing, integrated CRM context, and improved call management capabilities that provide a better alternative to the Teams-based dialer.
 
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
-## Key terminology
-
-Before you begin, familiarize yourself with the following terms:
-
-| Term | Definition |
-|---|---|
-| **Direct Inward Dialing (DID)** | A seller-assigned phone number that lets customers call a seller directly. Numbers are obtained in the Teams Admin Center and synced to Dynamics 365. |
-| **Inbound profile** | Defines how incoming calls are routed to sellers, including business logic, consult/transfer settings, and capacity configuration. [Learn more](/dynamics365/customer-service/administer/configure-outbound-inbound-profiles#create-inbound-profiles) |
-| **Outbound profile** | Controls how sellers make outgoing calls, including caller ID and dialing rules. [Learn more](/dynamics365/customer-service/administer/configure-outbound-inbound-profiles#create-outbound-profiles) |
-| **Capacity profile** | Sets the number of concurrent calls a seller can handle. A capacity greater than 1 allows sellers to receive new call notifications while on a call. [Learn more](/dynamics365/customer-service/administer/capacity-profiles) |
-| **Channel Integration Framework (CIF)** | A Dynamics 365 app for managing voice providers and enabling the Omnichannel dialer in Sales Hub. [Learn more](/dynamics365/channel-integration-framework/channel-integration-framework) |
-
 ## Prerequisites
 
-For details on required admin roles, licenses, voice channel provisioning, and seller roles, see [Prerequisites for the Sales Hub dialer](sales-hub-dialer-prerequisites.md).
+For details on required admin roles, licenses, voice channel provisioning, and seller roles, see [Prerequisites for the Sales Hub Dialer](sales-hub-dialer-prerequisites.md).
 
 ## Set up the dialer
 
-Complete the following tasks in order to enable the Sales Hub dialer for your organization:
+Complete the following tasks in order to enable the Sales Hub Dialer for your organization:
 
 | Step | Task | Description |
 |---|---|---|
@@ -55,8 +43,5 @@ After the dialer is enabled, configure these optional features:
 
 ## Related information
 
-- [Make and receive calls with the Sales Hub dialer](make-receive-calls-sales-hub-dialer.md)
-- [Configure Teams Phone in voice channel](/dynamics365/contact-center/administer/configure-teams-phone-in-voice-channel)
-- [Configure outbound and inbound profiles](/dynamics365/customer-service/administer/configure-outbound-inbound-profiles)
-- [Create and manage capacity profiles](/dynamics365/customer-service/administer/capacity-profiles)
-- [Channel Integration Framework guide](/dynamics365/channel-integration-framework/channel-integration-framework)
+[Make and receive calls with the Sales Hub Dialer](make-receive-calls-sales-hub-dialer.md)
+

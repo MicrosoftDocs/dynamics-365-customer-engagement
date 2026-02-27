@@ -1,6 +1,6 @@
 ---
-title: Understand call routing for the Sales Hub dialer
-description: Learn how inbound calls are routed to sellers based on inbound profiles, capacity profiles, and notification templates in the Sales Hub dialer.
+title: Understand call routing for the Sales Hub Dialer
+description: Learn how inbound calls are routed to sellers based on inbound profiles, capacity profiles, and notification templates in the Sales Hub Dialer.
 ms.date: 03/01/2026
 ms.topic: concept-article
 author: lavanyakr01
@@ -8,7 +8,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
 
-# Understand call routing for the Sales Hub dialer (preview)
+# Understand call routing for the Sales Hub Dialer (preview)
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
@@ -39,7 +39,7 @@ When the call is routed to the seller, the notification and session templates co
 
 ## Related information
 
-- [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)
+- [Enable and configure the Sales Hub Dialer](configure-sales-hub-dialer.md)
 - [Configure inbound and outbound profiles](sales-hub-dialer-call-profiles.md)
 - [Set up capacity profiles](sales-hub-dialer-capacity-profiles.md)
 - [Configure voicemail](sales-hub-dialer-voicemail.md)

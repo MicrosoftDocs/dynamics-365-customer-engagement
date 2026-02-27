@@ -1,6 +1,6 @@
 ---
-title: Configure and access voicemail for the Sales Hub dialer
-description: Learn how voicemail works in the Sales Hub dialer and how sellers can access voicemail messages in Dynamics 365 Sales.
+title: Configure and access voicemail for the Sales Hub Dialer
+description: Learn how voicemail works in the Sales Hub Dialer and how sellers can access voicemail messages in Dynamics 365 Sales.
 ms.date: 03/01/2026
 ms.topic: how-to
 author: lavanyakr01
@@ -8,7 +8,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
 
-# Configure and access voicemail for the Sales Hub dialer (preview)
+# Configure and access voicemail for the Sales Hub Dialer (preview)
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
@@ -35,6 +35,6 @@ To view all voicemails regardless of record association:
 
 ## Related information
 
-- [Enable and configure the Sales Hub dialer](configure-sales-hub-dialer.md)
+- [Enable and configure the Sales Hub Dialer](configure-sales-hub-dialer.md)
 - [Understand call routing](sales-hub-dialer-call-routing.md)
 - [Configure voicemail](/dynamics365/customer-service/administer/voice-channel-voicemail)
