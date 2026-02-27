@@ -1,7 +1,7 @@
 ---
 title: Community moderator experience | MicrosoftDocs
 description: Learn about moderating in the Community for Dynamics 365 Customer Service.
-ms.date: 10/03/2021
+ms.date: 02/27/2026
 ms.topic: concept-article
 author: lalexms
 ms.author: laalexan
@@ -14,11 +14,13 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Content moderation and management
+# Community moderator experience
+
+Community provides forum owners and moderators with tools to manage ideas, comments, votes, and user feedback, helping ensure discussions remain productive, relevant, and respectful.
 
 ## Moderate content in Customer Service Community
 
-Forum owners and moderators will use Customer Service Community to manage and moderate content, and can do the following tasks:
+Forum owners and moderators can use Customer Service Community to manage and moderate content, and can do the following tasks:
 -	Edit a forum's name and description
 -	Edit the idea name and description, and update fields, including category, group, and stage
 -	Add a new moderator response to an idea
@@ -26,20 +28,23 @@ Forum owners and moderators will use Customer Service Community to manage and mo
 - Manage idea votes
 - Manage idea flags
 
+Forum owners have full control over forums and collections, while moderators can manage ideas, comments, votes, and flags within the forums they're assigned to.
+
 Follow these steps to moderate Community content:
+
 1. Navigate to the forum, and then select the **Forum** tab.
 2. Update the forum **Name** and **Description**.
 3. Select the **Ideas** tab, and then select the idea you want to edit.
     > [!div class="mx-imgBorder"] 
     > ![Select the Ideas tab in Customer Service Community.](../media/community-select-ideas-tab.png)
 4. Update the fields as desired. You can also add a **Moderator Response** and select **Response Generic Author**. 
-   **Response Generic Author** enables you to associate a generic role to your response in portal, rather than show your name. The list of  generic roles is managed by your admin.
+   **Response Generic Author** enables you to associate a generic role to your response in the Community website, rather than show your name. The list of  generic roles is managed by your admin.
     > [!div class="mx-imgBorder"] 
     > ![Associate a response generic author role to your response.](../media/community-moderator-response-generic.png)
-5. To manage idea votes, select the **Votes** tab. A vote value can be either 0 (no vote) or 1 (a single upvote).
+5. To manage idea votes, select the **Votes** tab. Each user can cast a single upvote or remove their vote.
     > [!div class="mx-imgBorder"] 
     > ![Select the Votes tab in Customer Service Community.](../media/community-select-votes-tab.png)
-6. From the portal, end-users can flag ideas as inappropriate. Forum owners and moderators can go to **Flags** tab to view and manage idea flags.
+6. From the website, end-users can flag ideas as inappropriate. Forum owners and moderators can go to **Flags** tab to view and manage idea flags.
     > [!div class="mx-imgBorder"] 
     > ![Select the Flags tab in Customer Service Community.](../media/community-manage-flags.png)
 7. Go to the **Comments** tab to manage end-user comments. Under **Active comments on idea**, select the comment you want to edit, and then select **Edit**.
@@ -51,7 +56,7 @@ Follow these steps to moderate Community content:
 
 ## Create collections
 
-To combine duplicate or related ideas, forum owners and moderators can create a collection. Successfully created collections will show in the portal, and all the associated ideas (also called "children ideas") will be removed. Users who contributed to the children ideas can still view them (read only) on the **My Content** page. 
+To combine duplicate or related ideas, forum owners and moderators can create a collection. Successfully created collections are shown on the Community website. All associated ideas, also called *child ideas*, are merged into the collection and no longer appear as active ideas. Users who contributed to the child ideas can still view them in read-only mode on the **My Content** page. 
 
 Follow these steps to create a collection:
 1. On the left-side navigation pane, select **Collections**, and then select **+ New**.
