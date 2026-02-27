@@ -1,7 +1,7 @@
 ---
 title: Customize the appearance of work items in sales accelerator
 description: Customize the appearance of work items to show more relevant information in the work list in sales accelerator.
-ms.date: 10/15/2024
+ms.date: 02/27/2026
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -12,15 +12,15 @@ ms.custom: bap-template
 
 # Customize the appearance of work items
 
-The work list in sales accelerator helps sellers prioritize their time and effort. Customize work items to display the most relevant and important information in the work list. You can customize work items for each entity type that you or your sellers work with. Want to know how the work items appear by default? See the [Default work item appearance](#default-work-item-appearance) section. 
+The work list in sales accelerator helps sellers prioritize their time and effort. Customize work items to display the most relevant and important information in the work list. You can customize work items for each entity type that you or your sellers work with. To see how the work items appear by default, see the [Default work item appearance](#default-work-item-appearance) section. 
 
 > [!NOTE]
 >
->The card customizations made through the focused view will also affect the card display in the work list. More information: [Customize the work list card in focused view](focused-view.md#customize-the-work-list-card)
+> The card customizations you make through the focused view also affect the card display in the work list. For more information, see [Customize the work list card in focused view](focused-view.md#customize-the-work-list-card).
 
 ## Turn on customizations
 
-As an administrator, you must turn on the ability to customize work items. Unless you turn on, nobody (including you) can customize the work item in your organization.  
+As an administrator, you must turn on the ability to customize work items. If you don't turn on this feature, nobody (including you) can customize the work item in your organization.  
 
 1. Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** > **Sales**.
 
@@ -34,32 +34,32 @@ As an administrator, you must turn on the ability to customize work items. Unles
 
     :::image type="content" source="media/worklist-customize-select-work-item-appearance.png" alt-text="Screenshot of the Work item appearance settings page.":::
 
-    If you don't see **Work item appearance** in the **Settings** list, it means your admin hasn't turned on work item customization. Follow these steps again when that's been done.
+    If you don't see **Work item appearance** in the **Settings** list, it means your admin didn't turn on work item customization. Follow these steps again when the admin turns on this feature.
 
-1. Turn on **Switch to admin mode** to allow work items to be customized. With this setting off, work items can't be changed by anyone, not even an administrator.
+1. Turn on **Switch to admin mode** to allow work items to be customized. With this setting off, no one can change work items, not even an administrator.
 
     Turning on admin mode reveals another setting, **Lock customization**. To prevent sellers from overriding your customizations, select this setting. To allow sellers to make their own changes to work items, clear it.
 
     :::image type="content" source="media/worklist-customize-enable-admin-mode.png" alt-text="Screenshot of the Work item appearance settings page, with Switch to admin mode and Lock customization highlighted.":::
 
-The administrator mode is turned on. Now, you can customize the work item for your organization and also, let other user roles in your organization to customize the work item.
+The administrator mode is turned on. Now, you can customize the work item for your organization and also, let other user roles in your organization customize the work item.
 
 ## Lock or unlock customization for other user roles
 
-As an administrator, you can let other user roles to override the customizations you made to the work items according to their requirements.
+As an administrator, you can grant other user roles permission to override the customizations you made to the work items.
 
-Turn on the admin mode and the **Lock customization** settings is revealed. More information: [Turn on customizations](#turn-on-customizations)
+Turn on the admin mode to reveal the **Lock customization** settings. For more information, see [Turn on customizations](#turn-on-customizations).
 
 :::image type="content" source="media/worklist-customize-lock-customization.png" alt-text="Screenshot of the Work item appearance settings page, with Lock customization highlighted.":::
 
-For the **Lock customization** settings, choose one of the following options to configure: 
+For the **Lock customization** settings, choose one of the following options: 
 
-- To allow sellers to make their own changes to work items, clear it. 
-- To prevent sellers from overriding your customizations, select this setting. 
+- To allow sellers to make their own changes to work items, clear the check box. 
+- To prevent sellers from overriding your customizations, select the check box. 
 
 ## Customize work items
 
-If you aren't an admin, you'll need to ask your admin to let you customize work item. More information: [Lock or unlock customization for other user roles](#lock-or-unlock-customization-for-other-user-roles)  
+If you're not an admin, ask your admin to let you customize work items. More information: [Lock or unlock customization for other user roles](#lock-or-unlock-customization-for-other-user-roles)  
 
 The procedure to customize work items is the same for both administrators and other primary sales roles.
 
@@ -78,7 +78,7 @@ The procedure to customize work items is the same for both administrators and ot
     >[!NOTE]
     >
     >- The **Switch to admin mode** and **Lock customization** options are available only for administrators.
-    >- If you're not an administrator, you must ask your administrator to turn on admin mode before you can customize work items.
+    >- If you're not an administrator, ask your administrator to turn on admin mode before you can customize work items.
 
 1. In the **Select record type** list, select the record type you're customizing work items for.
 
@@ -93,7 +93,7 @@ The procedure to customize work items is the same for both administrators and ot
         :::image type="content" source="media/worklist-customize-select-icon-appearance.png" alt-text="Screenshot of the options for customizing a work item icon.":::
 
     - To change the content of work items, select the fields or attributes to display:    
-        - To change an existing attribute, select a different one in its place.
+        - To change an existing attribute, select a different one.
         - To add an attribute in the same row, hover over an existing attribute and select **More options** > **Add a field**. You can show up to three fields in a row.
         - To add an icon in the same row, hover over an existing attribute and select **More options** > **Add an icon**. You can show up to three icons in a row.
         - To add a row, select the add icon (**+**). You can show up to four rows of information in a work item.
@@ -110,7 +110,7 @@ The procedure to customize work items is the same for both administrators and ot
 ## Default work item appearance
 
 > [!NOTE]
-> When you select the **Reset to default** option, the card customizations are reset to the configurations defined in admin mode. To know about admin mode, see [step 5 in Turn on customizations](#turn-on-customizations).  
+> When you select the **Reset to default** option, you reset the card customizations to the configurations defined in admin mode. For more information about admin mode, see [step 5 in Turn on customizations](#turn-on-customizations).  
 
 By default, the work item appearance is set to the following values:
 
