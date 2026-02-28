@@ -32,33 +32,39 @@ By default, the application has a file size limit of 5 megabytes (MB) (5,120 kil
 
 You can set the file extension types that customers and representatives can share.
 
-## Configure file size limit and file extensions
+## Configure file size limit
 
-To configure the file size limit and file extensions, complete the following steps:
+To configure the file size limit, complete the following steps:
 
-1. Sign in to Dynamics 365.
+1. Sign in to [Power Platform Admin portal](https://admin.powerplatform.com).
+
+2. Under **Manage** menu, select your environment and navigate to **Settings** area using button in the ribbon
+
+3. Open the **Email** menu and select **Email settings**
+
+4. Under to **Attachments** section, in the **Maximum file size for attachments** field, enter the new value in kilobytes.
+
+    > [!div class=mx-imgBorder]
+    > ![Set file size limit for attachment.](../media/file-size-limit-new.png "Set file size limit for attachment")
+
+5. Select **Save**.
+
+## Configure file extensions
+
+To configure unsupported file extensions, complete the following steps:
+
+1. Sing in to Dynamics 365
 
 2. Select the settings icon in the nav bar, and then select **Advanced Settings**.
 
-3. Go to **Settings** > **Administration** > **System Settings**.
+3. Using left hand navigation, go to **Administration** menu under **System** group, and select **General** system settings
 
-4. In the **System Settings** window, go to the **Email** tab.
-
-5. Go to the **Set file size limit for attachments** section, and in the **Maximum file size (in kilobytes)** field, enter the value in kilobytes.
+4. In the **Set blocked file extensions for attachments** field, add or edit the file types to be blocked.
 
     > [!div class=mx-imgBorder]
-    > ![Set file size limit for attachment.](../media/file-size-limit.png "Set file size limit for attachment")
+    > ![Specify unsupported file types.](../media/unsupported-file-types-new.png "Specify unsupported file types")
 
-6. To specify unsupported file types, go to the **General** tab.
-
-7. In the **Set blocked file extensions for attachments** field, add or edit the file types.
-
-    > [!div class=mx-imgBorder]
-    > ![Specify unsupported file types.](../media/unsupported-file-types.png "Specify unsupported file types")
-
-8. Select **OK**.
-
-Now, representatives and customers can share file attachments during their conversation.
+5. Click **Save**
 
 ### Related information
 
