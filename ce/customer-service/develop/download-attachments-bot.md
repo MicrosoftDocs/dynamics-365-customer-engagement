@@ -1,7 +1,7 @@
 ---
 title: Download file attachments from an Azure bot
 description: Learn how to download attachments from an Azure bot in the Microsoft Teams channel.
-ms.date: 01/31/2025
+ms.date: 02/28/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -10,6 +10,7 @@ ms.custom: bap-template
 ---
 # Download file attachments from an Azure bot
 
+This article describes how to download file attachments from an Azure bot (AI agent) used in Omnichannel for Dynamics 365 Customer Service. 
 
 Follow these steps to download attachments from an Azure bot in Omnichannel.
 
