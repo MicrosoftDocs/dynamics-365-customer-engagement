@@ -6,7 +6,7 @@ ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to
 ms.collection:
-ms.date: 10/02/2023
+ms.date: 02/28/2026
 ms.custom: bap-template
 ---
 
@@ -15,7 +15,7 @@ ms.custom: bap-template
 The Customer Service Community app allows your organization to invite customer suggestions and crowd source ideas to help shape the future of products they use.
 
 > [!NOTE]
-> To install Customer Service Community, you must have a Dynamics 365 organization and ensure that the organization tenant has at least one Customer Service Enterprise license.
+> To install Customer Service Community, you must have a Dynamics 365 organization and ensure that the organization tenant has at least one Customer Service Enterprise license. For information about licensing, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 To install Dynamics 365 Customer Service Community:
 
