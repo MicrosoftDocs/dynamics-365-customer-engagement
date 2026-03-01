@@ -1,7 +1,7 @@
 ---
 title: Use Join a Teams call to enhance your customer conversations
 description: Learn how to use the Join a Teams call feature.
-ms.date: 04/01/2024
+ms.date: 02/28/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -23,10 +23,8 @@ If you already have Teams, you don't need any other investments to use the Join 
 
 ## Prerequisites
 
-Ensure that the following prerequisites are met:
-
 - Your administrator must set up Teams for your account and enable the Join a Teams call feature.
-- You must have a Teams license.
+- Your environment must be configured to support Microsoft Teams integration.
 - To invite customers to Teams meetings via email, your email configuration must allow outbound mail.
 
 ## Use Join a Teams call
