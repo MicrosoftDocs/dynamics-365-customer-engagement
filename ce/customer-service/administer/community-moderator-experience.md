@@ -38,7 +38,7 @@ Follow these steps to moderate Community content:
     > [!div class="mx-imgBorder"] 
     > ![Select the Ideas tab in Customer Service Community.](../media/community-select-ideas-tab.png)
 4. Update the fields as desired. You can also add a **Moderator Response** and select **Response Generic Author**. 
-   **Response Generic Author** enables you to associate a generic role to your response in the Community website, rather than show your name. The list of  generic roles is managed by your admin.
+   **Response Generic Author** enables you to associate a generic role to your response in the Community website, rather than show your name. Your admin manages the list of  generic roles.
     > [!div class="mx-imgBorder"] 
     > ![Associate a response generic author role to your response.](../media/community-moderator-response-generic.png)
 5. To manage idea votes, select the **Votes** tab. Each user can cast a single upvote or remove their vote.
@@ -58,14 +58,14 @@ Follow these steps to moderate Community content:
 
 To combine duplicate or related ideas, forum owners and moderators can create a collection. Successfully created collections are shown on the Community website. All associated ideas, also called *child ideas*, are merged into the collection and no longer appear as active ideas. Users who contributed to the child ideas can still view them in read-only mode on the **My Content** page. 
 
-Follow these steps to create a collection:
+To create a collection, complete the following steps:
 1. On the left-side navigation pane, select **Collections**, and then select **+ New**.
     > [!div class="mx-imgBorder"] 
     > ![Select the Collections tab.](../media/community-view-collections.png)
 2. Select the forum you want to combine ideas from, and then select **Next**.
     > [!div class="mx-imgBorder"] 
     > ![Select forum you want to combine ideas from.](../media/community-select-forum-ideas.png)
-3. Select the plus sign (+) to add ideas from **Active ideas in this forum** list to the collection. Utilize search in long lists. Added ideas will show in the **Collection ideas** list.
+3. Select the plus sign (+) to add ideas from **Active ideas in this forum** list to the collection. Utilize search in long lists. Added ideas show in the **Collection ideas** list.
     > [!div class="mx-imgBorder"] 
     > ![Select the ideas for the collection.](../media/community-select-ideas.png)
 4. When you're done adding ideas, select **Next**.
