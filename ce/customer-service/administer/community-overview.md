@@ -1,7 +1,7 @@
 ---
 title: Overview of Community | MicrosoftDocs
 description: Learn about the Community feature in Community in Dynamics 365 Customer Service
-ms.date: 02/27/2026
+ms.date: 02/28/2026
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -24,7 +24,7 @@ To use Customer Service Community, you must install the Customer Service Communi
 
 ## Customer Service Community app
 
-The Customer Service Community app requires at least one Customer Service Enterprise license. The app provides community managers and moderators with tools to do the following:
+The Customer Service Community app requires at least one Customer Service Enterprise license. The app provides community managers and moderators with tools to do the following actions:
    -	Configure of the modern Community portal to fit your organization brand, including colors, custom header and footer, and quick links.
    -	Enforce acceptance of your terms of use and privacy statement by end users.
    -	Create and manage idea forums.
