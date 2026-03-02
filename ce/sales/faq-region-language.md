@@ -83,7 +83,7 @@ Exchange integration is only available in specific regions. To use Exchange data
 - Global Geography 2 – Asia Pacific (Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
 - Global Geography 3 – Americas (Brazil, Chile, United States).
 
-If your organization's Office 365 data is in any other region, who-knows-whom insights aren't available. However, relationship analytics are available based on dataa stored in Dynamics 365.
+If your organization's Office 365 data is in any other region, who-knows-whom insights aren't available. However, relationship analytics are available based on data stored in Dynamics 365.
 
 To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 
