@@ -1,5 +1,5 @@
 ---
-title: AI Agents in Dynamics 365 Sales
+title: AI agents in Dynamics 365 Sales
 description: Learn about the out-of-the-box AI agents in Dynamics 365 Sales that help sales teams qualify leads and close deals faster.
 ms.date: 01/29/2026
 ms.update-cycle: 180-days
@@ -18,7 +18,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# AI Agents in Dynamics 365 Sales
+# AI agents in Dynamics 365 Sales
 
 Dynamics 365 Sales includes out-of-the-box AI agents that help sales teams qualify leads and close deals faster by autonomously researching leads and opportunities, providing insights, and engaging with customers. These agents support sales professionals in enhancing productivity and effectiveness.
 
@@ -26,7 +26,7 @@ Dynamics 365 Sales includes out-of-the-box AI agents that help sales teams quali
 
 ## Data movement and residency for AI agents
 
-The AI agents in Dynamics 365 Sales use the same data processing and storage infrastructure as other Copilot features in Power Platform. This behavior means that the data used by the agents might be processed and stored in regions outside of the user's primary region, depending on the availability of services and infrastructure. For more information about data residency and movement for Copilot features, see [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot).
+The AI agents in Dynamics 365 Sales use the same data processing and storage infrastructure as other Copilot features in Power Platform. This behavior means that the data that the agents use might be processed and stored in regions outside of the user's primary region, depending on the availability of services and infrastructure. For more information about data residency and movement for Copilot features, see [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot).
 
 ## Geographical availability and languages supported
 
