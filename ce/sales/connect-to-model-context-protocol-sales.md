@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Sales Model Context Protocol overview
 description: Learn about the Model Context Protocol (MCP) server for Dynamics 365 Sales, its capabilities, and how it enables integration with AI agents and assistants.
-ms.date: 02/27/2026
+ms.date: 03/02/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -32,30 +32,32 @@ In addition, the Sales MCP server also supports tools for performing CRUD operat
 
 ## Copilot Credit consumption rates
 
-Each AI tool in the Sales MCP server consumes Copilot Studio credits based on the amount of data processed and the complexity of the response generated. The credit consumption rates for each tool may vary depending on these factors.
+Each AI tool in the Sales MCP server consumes Copilot Studio credits based on the design of the agent, how often customers interact with it, and the features they use. The credit consumption rates for each tool varies based on the agent feature it uses. Learn more about billing rate for each agent feature in the [Copilot Studio documentation](/microsoft-copilot-studio/requirements-messages-management).    
 
-| Tool                              | API Call Type           | Copilot Credit Charge (CC) |
-|------------------------------------|-------------------------|----------------------------|
-| get_lead_research                  | Dataverse read          | 0.1 CC                     |
-| get_account_research               | Dataverse read          | 0.1 CC                     |
-| get_competitor_research            | Dataverse read          | 0.1 CC                     |
-| draft_outreach_email               | CAPI call               | 2 CC                       |
-| get_engage_summary                 | Dataverse read          | 0.1 CC                     |
-| get_lead_qualification_assessment  | CAPI call               | 2 CC                       |
-| get_customer_updates               | Dataverse read          | 0.1 CC                     |
-| get_sales_record_summary           | CAPI call               | 2 CC                       |
-| get_sales_lead_catchup             | Dataverse read          | 0.1 CC                     |
-| get_sales_account_catchup          | Dataverse read          | 0.1 CC                     |
-| get_sales_opportunity_catchup      | Dataverse read          | 0.1 CC                     |
-| get_sharepoint_search_results      | CAPI call               | 2 CC                       |
-| get_answer_from_sharepoint_documents| CAPI call               | 2 CC                       |
-| get_key_opportunity_insights       | Dataverse read          | 0.1 CC                     |
-| get_key_opportunity_signals        | Dataverse read          | 0.1 CC                     |
-| get_key_opportunity_stakeholders   | Dataverse read          | 0.1 CC                     |
-| get_opportunity_health             | Dataverse read          | 0.1 CC                     |
-| get_opportunity_pain_points_and_needs| Dataverse read        | 0.1 CC                     |
-| get_opportunity_top_risks          | Dataverse read          | 0.1 CC                     |
-| get_opportunity_deal_overview | Dataverse read          | 0.1 CC                     |
+| Tool                              | Agent feature |
+|-----------------------------------|----------------------|
+| get_lead_research                  | Text and generative AI tools (basic) |
+| get_account_research               | Text and generative AI tools (basic) |
+| get_competitor_research            | Text and generative AI tools (basic) |
+| draft_outreach_email               | Text and generative AI tools (basic) |
+| get_engage_summary                 | Text and generative AI tools (basic) |
+| get_lead_qualification_assessment  | Text and generative AI tools (basic) |
+| get_customer_updates               | Text and generative AI tools (basic) |
+| get_sales_record_summary           | Generative answer |
+| get_sales_lead_catchup             | Text and generative AI tools (basic) |
+| get_sales_account_catchup          | Text and generative AI tools (basic) |
+| get_sales_opportunity_catchup      | Text and generative AI tools (basic) |
+| get_sharepoint_search_results      | Text and generative AI tools (basic) |
+| get_answer_from_sharepoint_documents| Generative answer |
+| get_key_opportunity_insights       | Text and generative AI tools (basic) |
+| get_key_opportunity_signals        | Text and generative AI tools (basic) |
+| get_key_opportunity_stakeholders   | Text and generative AI tools (basic) |
+| get_opportunity_health             | Text and generative AI tools (basic) |
+| get_opportunity_pain_points_and_needs| Text and generative AI tools (basic) |
+| get_opportunity_top_risks          | Text and generative AI tools (basic) |
+| get_opportunity_deal_overview      | Text and generative AI tools (basic) |
+
+
 
 ## Related information
 
