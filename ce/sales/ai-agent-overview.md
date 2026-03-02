@@ -24,6 +24,14 @@ Dynamics 365 Sales includes out-of-the-box AI agents that help sales teams quali
 
 [!INCLUDE[ai-agents-dynamics-365-sales](../../ce-shared/ai-agents-dynamics-365-sales.md)]
 
+## Data movement and residency for AI agents
+
+The AI agents in Dynamics 365 Sales use the same data processing and storage infrastructure as other Copilot features in Power Platform. This means that the data used by the agents may be processed and stored in regions outside of the user's home region, depending on the availability of services and infrastructure. For more information about data residency and movement for Copilot features, see [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot).
+
+## Geographical availability and languages supported
+
+AI agents in Dynamics 365 Sales are available in geographical regions and languages listed in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport). [Learn how to use the report](copilot-overview.md#how-to-use-the-copilot-international-availability-report).
+
 <a name="monitor-agent-performance"></a>
 ## Monitor agent performance
 
