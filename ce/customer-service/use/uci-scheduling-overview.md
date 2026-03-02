@@ -39,7 +39,7 @@ You can do the following:
 
 - Use sites to manage your service locations 
 
-You can also set up service scheduling in Dynamics 365 Customer Engagement (on-premises) 9.1. Learn more in [New features in Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/whats-new.md)
+You can also set up service scheduling in Dynamics 365 Customer Engagement (on-premises) 9.1. Learn more in [New features in Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/whats-new.md).
 
 ## Access service scheduling in Copilot Service workspace
 
