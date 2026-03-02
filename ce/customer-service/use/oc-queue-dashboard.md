@@ -1,7 +1,7 @@
 ---
 title: Queue Dashboard 
 description: Learn about the Queue dashboard to better understand customer service representative performance in your organization.
-ms.date: 04/30/2025
+ms.date: 03/02/2026
 ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
@@ -32,7 +32,7 @@ The following KPIs are displayed in the Queue dashboard.
 
 | KPI | Description |
 | ----------------- | ------------------ |
-| Incoming sessions | The total number of sessions initiated by customers. |
+| Incoming sessions | An incoming session is a conversation that is either escalated from a Microsoft Copilot Service voice or chat agent, or routed directly to an available representative. Learn more in [Incoming session](../develop/calculate-session-metrics.md#incoming-session).|
 | Engaged sessions | The number of sessions presented to a service representative that were accepted. |
 | Avg. wait time (sec) | The average time customers waited before connecting to a service representative. It's similar to "speed to answer," but this metric includes the wait time from each session within a conversation. |
 | Avg. session handle time | The total session active time across engaged sessions. |
@@ -47,7 +47,7 @@ The following charts are displayed in the Queue dashboard.
 
 | Title | Description |
 | ---------------- | ------------------ |
-| Incoming session vs engaged session |The total number of sessions initiated by customers versus the number of sessions initiated and accepted by a service representative.|
+| Incoming session vs engaged session |The total number of sessions that are either escalated from a Microsoft Copilot Service voice or chat agent, or routed directly to an available representative versus the number of sessions initiated and accepted by a service representative.|
 | Avg. wait time (sec) | The average time customers waited before connecting to a service representative. It's similar to "speed to answer," but this metric includes wait time from each session within a conversation. |
 | Avg. session active time (min) | The average total session active time across engaged conversations. |
 | Avg. session handle time (min) | The average total session handle time across engaged conversations. |
@@ -58,7 +58,7 @@ The following charts are displayed in the Queue dashboard.
 
 | Session summary | Description |
 | ---------------- | ---------------- |
-| Incoming sessions | The number of sessions initiated by a customer |
+| Incoming sessions | An incoming session is a conversation that is either escalated from a Microsoft Copilot Service voice or chat agent, or routed directly to an available representative. Learn more in [Incoming session](../develop/calculate-session-metrics.md#incoming-session). |
 | Engaged sessions | The number of sessions accepted by a service representative.  |
 | Avg. wait time (sec) | The average time customers waited before connecting to service representatives. This is similar to "speed to answer," but it includes wait time from each session within a conversation. |
 | Session rejected/timed out rate | The number of sessions presented to a service representative that weren't accepted. |
