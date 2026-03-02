@@ -87,9 +87,9 @@ If your organization's Office 365 data is in any other region, who-knows-whom in
 
 To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 
-## What languages are supported for Sales Premium features?
+## Which languages are supported for Sales Premium features?
 
-The following table shows which languages are supported for Sales Premium features.
+The following table shows the supported languages for Sales Premium features.
 
 | Feature | Language supported |
 |---------|--------------------|
