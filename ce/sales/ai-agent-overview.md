@@ -20,7 +20,7 @@ ai-usage: ai-assisted
 
 # AI agents in Dynamics 365 Sales
 
-Dynamics 365 Sales includes out-of-the-box AI agents that help sales teams qualify leads and close deals faster by autonomously researching leads and opportunities, providing insights, and engaging with customers. These agents support sales professionals in enhancing productivity and effectiveness.
+Dynamics 365 Sales includes out-of-the-box AI agents that autonomously research leads and opportunities. These agents help sales professionals qualify leads and close deals faster by providing insights and engaging with customers.
 
 [!INCLUDE[ai-agents-dynamics-365-sales](../../ce-shared/ai-agents-dynamics-365-sales.md)]
 
