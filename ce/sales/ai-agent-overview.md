@@ -26,7 +26,7 @@ Dynamics 365 Sales includes out-of-the-box AI agents that help sales teams quali
 
 ## Data movement and residency for AI agents
 
-The AI agents in Dynamics 365 Sales use the same data processing and storage infrastructure as other Copilot features in Power Platform. This means that the data used by the agents may be processed and stored in regions outside of the user's home region, depending on the availability of services and infrastructure. For more information about data residency and movement for Copilot features, see [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot).
+The AI agents in Dynamics 365 Sales use the same data processing and storage infrastructure as other Copilot features in Power Platform. This means that the data used by the agents might be processed and stored in regions outside of the user's primary region, depending on the availability of services and infrastructure. For more information about data residency and movement for Copilot features, see [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot).
 
 ## Geographical availability and languages supported
 
