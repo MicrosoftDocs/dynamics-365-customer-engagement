@@ -25,7 +25,7 @@ In Copilot Service admin center, go to **Service Scheduling** in **Operations**.
 
 :::image type="content" source="../media/service-scheduling.png" alt-text="Screenshot of Service Scheduling entry point from Copilot Service admin center.":::
 
-You can do the following with service scheduling features: 
+You can do the following:
 
 - Add facilities and equipment
 
@@ -38,8 +38,6 @@ You can do the following with service scheduling features:
 - Schedule a service activity 
 
 - Use sites to manage your service locations 
-
-- Navigate to the Service Calendar  
 
 You can also set up service scheduling in Dynamics 365 Customer Engagement (on-premises) 9.1. Learn more in [New features in Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/whats-new.md)
 
