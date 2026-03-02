@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: concept-article
 ms.collection:
-ms.date: 07/08/2025
+ms.date: 03/02/2026
 ms.custom: bap-template 
 ---
 
@@ -351,9 +351,11 @@ DIVIDE (SUMX ( FactSession, IF ( FactSession[IsTransferredOut], 1, 0 ) ),​ SUM
 
 *Applies to Omnichannel historical dashboards.*
 
-An incoming session is a new customer chat, voice call, or SMS interaction that is handles by an AI agent or routed to an available representative.
+An incoming session is a conversation that is either escalated from a Microsoft Copilot Service voice or chat agent, or routed directly to an available representative.
 
 It represents a work item created when a customer initiates contact through any supported channel (for example, live chat or voice). The session is then queued for assignment based on routing rules, agent availability, and skill matching.
+
+The total doesn’t directly correspond to the sum of engaged, rejected, and timed‑out sessions, as sessions may end for various reasons. Learn more in [Session closure reasons](https://learn.microsoft.com/en-us/dynamics365/contact-center/extend/closure-reasons-descriptions).
 
 
 ### DAX query and Dataverse reference
