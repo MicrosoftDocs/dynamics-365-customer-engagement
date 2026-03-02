@@ -19,13 +19,13 @@ ms.collection: get-started
 
 # Service scheduling overview
 
-Unified Interface-based service scheduling has replaced the legacy service scheduling experience.
+Unified Interface-based service scheduling is the replacement for the legacy service scheduling experience.
 
 In Copilot Service admin center, go to **Service Scheduling** in **Operations**. The **Service scheduling** page appears. 
 
 :::image type="content" source="../media/service-scheduling.png" alt-text="Screenshot of Service Scheduling entry point from Copilot Service admin center.":::
 
-You can do the following:
+You can do the following actions:
 
 - Add facilities and equipment
 
