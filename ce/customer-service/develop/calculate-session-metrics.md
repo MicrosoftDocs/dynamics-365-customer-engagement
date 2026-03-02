@@ -355,7 +355,7 @@ An incoming session is a conversation that is either escalated from a Microsoft 
 
 It represents a work item created when a customer initiates contact through any supported channel (for example, live chat or voice). The session is then queued for assignment based on routing rules, agent availability, and skill matching.
 
-The total doesn’t directly correspond to the sum of engaged, rejected, and timed‑out sessions, as sessions may end for various reasons. Learn more in [Session closure reasons](https://learn.microsoft.com/en-us/dynamics365/contact-center/extend/closure-reasons-descriptions).
+The total doesn’t directly correspond to the sum of engaged, rejected, and timed‑out sessions, as sessions may end for various reasons. Learn more in [Session closure reasons](/dynamics365/contact-center/extend/closure-reasons-descriptions).
 
 
 ### DAX query and Dataverse reference
