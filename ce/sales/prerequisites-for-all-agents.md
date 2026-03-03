@@ -22,7 +22,7 @@ Agent-specific prerequisites are covered in their respective agent setup article
 
 ## Verify prerequisites
 
-1. Ensure that you have the tenant administrator permissions.
+1. Ensure that you have the Power Platform administrator role.
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
