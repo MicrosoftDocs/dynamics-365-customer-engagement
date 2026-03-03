@@ -1,7 +1,7 @@
 ---
 title: Region and language FAQs
 description: Find answers to frequently asked questions about regions and languages.
-ms.date: 11/12/2025
+ms.date: 03/02/2026
 ms.topic: faq
 author: udaykirang
 ms.author: udag
@@ -62,7 +62,7 @@ The following table lists the regions in which Sales Premium features are availa
 
 ## Which version of Exchange is supported for features in Sales Premium?
 
-The following table shows the version of Exchange that's supported for Sales Premium features.
+The following table lists the supported Exchange versions for Sales Premium features.
 
 | Feature | Exchange Online | Exchange Server 2013 and above | Is Exchange data mandatory? |
 |---------|-----------------|--------------------------------|-----------------------|
@@ -73,23 +73,23 @@ The following table shows the version of Exchange that's supported for Sales Pre
 | Assistant | Yes | No | No |
 | Email engagement | Yes | Yes | Yes |
 
-\*\* Though Exchange data isn't mandatory for relationship analytics (enhanced), it's recommended to enable Exchange integration to get more accurate and complete relationship information. For example, the response time KPI is generated from the data in Exchange only. If you don't enable Exchange integration, the response time KPI will be blank.
+\*\* Exchange data is optional for relationship analytics (enhanced). We recommend that you enable Exchange integration to get more accurate and complete relationship information. For example, the response time KPI is generated from the data in Exchange only. If you don't enable Exchange integration, the response time KPI is blank.
 
 ## In which regions is Exchange integration available?
 
-Exchange integration is only available in specific regions. To use Exchange data for who knows whom and relationship analytics, your organization's Office 365 data location must be in one of the following locations and not in your region-specific data canter location:
+Exchange integration is only available in specific regions. To use Exchange data for relationship analytics and the who-knows-whom feature, your organization's Office 365 data location must be in one of the following locations. Region-specific data center locations aren't supported.
 
 - Global Geography 1 – EMEA (Austria, Finland, France, England, Ireland, Netherlands).
 - Global Geography 2 – Asia Pacific (Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
 - Global Geography 3 – Americas (Brazil, Chile, United States).
 
-If your organization's Office 365 data is in any other region, who knows whom won't be available. However, relationship analytics will be available with the data in Dynamics 365.
+If your organization's Office 365 data is in any other region, who-knows-whom insights aren't available. However, relationship analytics are available based on data stored in Dynamics 365.
 
 To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 
-## What languages are supported for Sales Premium features?
+## Which languages are supported for Sales Premium features?
 
-The following table shows which languages are supported for Sales Premium features.
+The following table shows the supported languages for Sales Premium features.
 
 | Feature | Language supported |
 |---------|--------------------|
@@ -102,4 +102,4 @@ The following table shows which languages are supported for Sales Premium featur
 
 ## Which languages are supported by Copilot in Dynamics 365 Sales?
 
-Copilot in Dynamics 365 Sales is available in regions and languages listed in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport). For more information about how to use the report and how Copilot responds in different scenarios, see [Region availability and languages supported](copilot-overview.md#region-availability-and-languages-supported).
+Copilot in Dynamics 365 Sales is available in regions and languages listed in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport). For more information about how to use the report and how Copilot responds in different scenarios, review [Geographical availability and languages supported](copilot-overview.md#geographical-availability-and-languages-supported).
