@@ -38,7 +38,7 @@ Conversation intelligence features are available only with certain Dynamics 365 
 |Manager Coaching tools     |   No      |   Yes      |
 | **Admin configurations**   |    |
 |Storage of call recording and conversation intelligence insights    |   Teams storage only      |   Option of Microsoft provided storage, or your own Azure storage       |
-|Supported languages for conversation intelligence      |    Conversation intelligence languages listed in this article: [Supported languages in Sales in Microsoft 365 Copilot](/microsoft-sales-copilot/introduction#supported-languages-and-geographies)|   Conversation intelligence languages listed in this section: [What languages are supported for Sales Premium?](faq-region-language.md#what-languages-are-supported-for-sales-premium-features)       |
+|Supported languages for conversation intelligence      |    Conversation intelligence languages listed in this article: [Supported languages in Sales in Microsoft 365 Copilot](/microsoft-sales-copilot/introduction#supported-languages-and-geographies)|   Conversation intelligence languages listed in this section: [What languages are supported for Sales Premium?](faq-region-language.md#which-languages-are-supported-for-sales-premium-features)       |
 |Supported languages for UI      |   User interface languages listed in this article: [Supported languages in Sales in Microsoft 365 Copilot](/microsoft-sales-copilot/introduction#supported-languages-and-geographies)|   All languages supported in Dynamics 365 Sales       |
 
 ## How long does it take for data updates to reflect in the app?
