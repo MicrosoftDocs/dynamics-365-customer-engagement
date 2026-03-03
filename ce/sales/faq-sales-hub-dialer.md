@@ -30,7 +30,7 @@ For organizations already using Dynamics 365 Sales with the appropriate licenses
 > [!NOTE]
 > If you don't have the appropriate Dynamics 365 Sales license, contact your Microsoft account representative or consult the licensing documentation for details about enabling voice capabilities in your environment.
 
-## What are the differences between Sales Hub Dialer and the current Teams-based dialer?
+## What are the differences between Sales Hub Dialer and the Teams-based dialer?
 
 Sales Hub Dialer retains all the core calling abilities of the Teams-based dialer, such as making calls from Sales records and basic call logging, but it adds significant enhancements. The following table highlights the key differences and benefits of the new dialer compared to the existing Teams dialer: 
 
@@ -43,13 +43,13 @@ Sales Hub Dialer retains all the core calling abilities of the Teams-based diale
 | **Experience** | Consistent calling experience across Sales and Customer Service apps. | Dependent on Teams app integration, which can introduce workflow friction. |
 
 
-## Can organizations have both the old (Teams) and new dialer active at the same time for different seller personas?
+## Can organizations use both Teams dialer and Sales Hub Dialer simultaneously?
 
 Yes, organizations can run both the Teams dialer and Sales Hub Dialer in parallel, and they can configure them for different groups of sellers. You can enable the new dialer for certain teams or roles so they benefit from the advanced features and AI capabilities. Other users can continue using the existing Teams-based dialer if they rely on native Teams calling or aren't ready to switch immediately. 
 
 Administrators can manage this setup by assigning appropriate roles or app experiences to different users. For example, sellers who need Teams-native integration - such as those primarily making internal Teams calls or those not using call intelligence features - can continue with the Teams dialer. Other sellers can use Sales Hub Dialer with the latest voice features and conversation intelligence. You can configure both dialers in the same environment concurrently, which enables a gradual migration. This flexibility ensures that no user loses functionality during rollout. 
 
-## Are the features between the old dialer and new dialer going to be the same? Are there any features that I wouldn't get from the old dialer?
+## How does Sales Hub Dialer compare to the Teams-based dialer? Are there any features that are not available in the new dialer?
 
 **Answer:** After general availability (GA), Sales Hub Dialer provides an overall greater set of functionalities compared to the Teams-based dialer for calling within Dynamics 365 Sales. In addition, it introduces new capabilities, improved reliability, and advanced AI features that enhance the seller experience.   
 However, there are a small number of behavioral differences that customers should be aware of during and after the transition. 
