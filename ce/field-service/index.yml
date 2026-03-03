@@ -94,7 +94,17 @@ additionalContent:
       - url: work-order-customization.md
         text: Customize work order forms
       - url: create-product-or-service.md
-        text: Create products or services        
+        text: Create products or services
+    - title: Agreements
+      links:
+      - url: set-up-agreements-work-orders.md
+        text: Agreements to automatically generate work orders
+      - url: set-up-agreements-invoices.md
+        text: Agreements to automatically generate invoices
+      - url: manage-agreements.md
+        text: Manage agreements    
+      - url: set-up-agreement-sub-statuses.md
+        text: Agreement substatuses                
     - title: Develop
       links:
       - url: developer/reference/about-entity-reference.md
@@ -169,10 +179,8 @@ additionalContent:
         text: View booking map
     - title: Agreements, inventory, and purchasing
       links:
-      - url: set-up-customer-agreements.md
-        text: Agreements to automatically generate work orders and invoices
-      - url: set-up-agreement-sub-statuses.md
-        text: Agreement substatuses
+      - url: agreements-overview.md
+        text: Overview of customer agreements
       - url: inventory-purchasing-returns-overview.md
         text: Inventory, purchasing, and returns
     - title: AI agents

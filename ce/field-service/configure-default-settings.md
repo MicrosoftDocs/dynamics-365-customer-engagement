@@ -1,7 +1,7 @@
 ---
 title: Set defaults for work orders, bookings, the schedule board, and agreements
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 07/30/2025
+ms.date: 02/26/2026
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -39,6 +39,10 @@ Several entities in Field Service use incremental numbers for distinction. Auto-
 During the initial opt-in process, creation of new records might fail. We recommend enabling the feature when there's no activity in the application. The process takes a few moments to complete.
 
 ### Configure auto-numbering
+
+Field Service auto-numbering supports only simple formats where the sequence number is the final placeholder. For example: `WO-{SEQNUM:6}`.
+
+More complex auto-number formats, such as those that include additional placeholders after `{SEQNUM}`like `{RANDSTRING}` or `{DATETIMEUTC}`, are supported by the Power Platform but **can’t be configured or edited in the Field Service dialog**. If you need an advanced format, for example `WO-{SEQNUM:6}-{DATETIMEUTC:yyyyMMdd}`, configure the auto-number field directly in [Power Apps](https://make.powerapps.com). These formats continue to work at runtime in Field Service, but the Field Service dialog can only display and edit supported simple formats. Learn more in [Create auto-number attributes](/power-apps/developer/data-platform/create-auto-number-attributes?tabs=webapi#autonumberformat).
 
 1. In Field Service, change to the **Settings** area.
 

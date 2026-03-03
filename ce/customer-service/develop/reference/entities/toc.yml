@@ -73,6 +73,9 @@ items:
 - name: "Authentication Settings"
   displayName: "msdyn_authenticationsettings entity"
   href: msdyn_authenticationsettings.md
+- name: "Automated Message"
+  displayName: "msdyn_ocsystemmessage entity"
+  href: msdyn_ocsystemmessage.md
 - name: "Azure notification hub"
   displayName: "msdyn_azurenotificationhub entity"
   href: msdyn_azurenotificationhub.md
@@ -166,6 +169,9 @@ items:
 - name: "Channel Integration Framework v1.0 Provider"
   displayName: "msdyn_ciprovider entity"
   href: msdyn_ciprovider.md
+- name: "Channel Profile"
+  displayName: "msdyn_channelprofile entity"
+  href: msdyn_channelprofile.md
 - name: "Channel State Configuration"
   displayName: "msdyn_occhannelstateconfiguration entity"
   href: /dynamics365/developer/reference/entities/msdyn_occhannelstateconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -262,6 +268,9 @@ items:
 - name: "Custom Messaging Engagement Context"
   displayName: "msdyn_customengagementctx entity"
   href: msdyn_customengagementctx.md
+- name: "Custom Neural Voice"
+  displayName: "msdyn_occustomneuralvoice entity"
+  href: msdyn_occustomneuralvoice.md
 - name: "Customer Asset"
   displayName: "msdyn_customerasset entity"
   href: msdyn_customerasset.md
@@ -337,6 +346,9 @@ items:
 - name: "Field Sharing"
   displayName: "PrincipalObjectAttributeAccess entity"
   href: principalobjectattributeaccess.md
+- name: "File Upload"
+  displayName: "msdyn_FileUpload entity"
+  href: msdyn_fileupload.md
 - name: "FileAttachment"
   displayName: "FileAttachment entity"
   href: fileattachment.md
@@ -349,9 +361,6 @@ items:
 - name: "Geo Location Provider"
   displayName: "msdyn_oc_geolocationprovider entity"
   href: msdyn_oc_geolocationprovider.md
-- name: "Geo Location Provider"
-  displayName: "msdyn_oc_geolocationprovider entity"
-  href: /dynamics365/developer/reference/entities/msdyn_oc_geolocationprovider?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Google's Business Messages agent account"
   displayName: "msdyn_ocgooglebusinessmessagesagentaccount entity"
   href: msdyn_ocgooglebusinessmessagesagentaccount.md
@@ -427,9 +436,6 @@ items:
 - name: "Master Entity Routing Configuration"
   displayName: "msdyn_masterentityroutingconfiguration entity"
   href: /dynamics365/developer/reference/entities/msdyn_masterentityroutingconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
-- name: "Message"
-  displayName: "msdyn_ocsystemmessage entity"
-  href: msdyn_ocsystemmessage.md
 - name: "Microsoft Teams account"
   displayName: "msdyn_octeamschannelconfig entity"
   href: msdyn_octeamschannelconfig.md
@@ -487,6 +493,9 @@ items:
 - name: "Overflow Action Config"
   displayName: "msdyn_overflowactionconfig entity"
   href: /dynamics365/developer/reference/entities/msdyn_overflowactionconfig?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+- name: "Overflow Action Config"
+  displayName: "msdyn_overflowactionconfig entity"
+  href: msdyn_overflowactionconfig.md
 - name: "Owner"
   displayName: "Owner entity"
   href: owner.md
@@ -547,6 +556,9 @@ items:
 - name: "Proactive Delivery Attribute"
   displayName: "msdyn_proactive_delivery_attribute entity"
   href: msdyn_proactive_delivery_attribute.md
+- name: "Proactive Delivery Batch"
+  displayName: "msdyn_proactive_delivery_batch entity"
+  href: msdyn_proactive_delivery_batch.md
 - name: "Proactive Engagement Configuration"
   displayName: "msdyn_proactive_engagement_config entity"
   href: msdyn_proactive_engagement_config.md
@@ -559,6 +571,12 @@ items:
 - name: "Proactive Engagement Configuration Status"
   displayName: "msdyn_proactive_engagement_config_status entity"
   href: msdyn_proactive_engagement_config_status.md
+- name: "Proactive Engagement Message Template"
+  displayName: "msdyn_proactive_engagement_message_template entity"
+  href: msdyn_proactive_engagement_message_template.md
+- name: "Proactive Engagement Planner Configuration"
+  displayName: "msdyn_proactive_engagement_planner_config entity"
+  href: msdyn_proactive_engagement_planner_config.md
 - name: "Process Session"
   displayName: "ProcessSession entity"
   href: processsession.md
@@ -670,12 +688,6 @@ items:
 - name: "Routing diagnostic"
   displayName: "msdyn_unifiedroutingrun entity"
   href: msdyn_unifiedroutingrun.md
-- name: "Routing diagnostic"
-  displayName: "msdyn_unifiedroutingrun entity"
-  href: /dynamics365/developer/reference/entities/msdyn_unifiedroutingrun?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
-- name: "Routing diagnostic item"
-  displayName: "msdyn_unifiedroutingdiagnostic entity"
-  href: /dynamics365/developer/reference/entities/msdyn_unifiedroutingdiagnostic?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Routing diagnostic item"
   displayName: "msdyn_unifiedroutingdiagnostic entity"
   href: msdyn_unifiedroutingdiagnostic.md
@@ -738,13 +750,10 @@ items:
   href: /dynamics365/developer/reference/entities/msdyn_sessionevent?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Session participant"
   displayName: "msdyn_sessionparticipant entity"
-  href: /dynamics365/developer/reference/entities/msdyn_sessionparticipant?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
+  href: msdyn_sessionparticipant.md
 - name: "Session participant"
   displayName: "msdyn_sessionparticipant entity"
-  href: msdyn_sessionparticipant.md
-- name: "Session Participant Event"
-  displayName: "msdyn_ocsessionparticipantevent entity"
-  href: msdyn_ocsessionparticipantevent.md
+  href: /dynamics365/developer/reference/entities/msdyn_sessionparticipant?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Session Participant Event"
   displayName: "msdyn_ocsessionparticipantevent entity"
   href: /dynamics365/developer/reference/entities/msdyn_ocsessionparticipantevent?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
@@ -880,9 +889,6 @@ items:
 - name: "User"
   displayName: "SystemUser entity"
   href: systemuser.md
-- name: "User settings"
-  displayName: "msdyn_usersetting entity"
-  href: /dynamics365/developer/reference/entities/msdyn_usersetting?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "User settings"
   displayName: "msdyn_usersetting entity"
   href: msdyn_usersetting.md

@@ -74,6 +74,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_enablefileattachmentsforagents](#BKMK_msdyn_enablefileattachmentsforagents)
 - [msdyn_enablefileattachmentsforcustomers](#BKMK_msdyn_enablefileattachmentsforcustomers)
 - [msdyn_enableoauth](#BKMK_msdyn_enableoauth)
+- [msdyn_enablerealtimelanguagetranslation](#BKMK_msdyn_enablerealtimelanguagetranslation)
 - [msdyn_liveworkstreamid](#BKMK_msdyn_liveworkstreamid)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_ocapplebusinessaccountId](#BKMK_msdyn_ocapplebusinessaccountId)
@@ -212,6 +213,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_ocapplebusinessaccount_msdyn_enableoauth`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_enablerealtimelanguagetranslation"></a> msdyn_enablerealtimelanguagetranslation
+
+|Property|Value|
+|---|---|
+|Description|**Enable Real Time Language Translation**|
+|DisplayName|**msdyn\_enablerealtimelanguagetranslation**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enablerealtimelanguagetranslation`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_ocapplebusinessaccount_msdyn_enablerealtimelanguagetranslation`|
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
