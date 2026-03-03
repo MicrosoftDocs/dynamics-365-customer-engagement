@@ -1,7 +1,7 @@
 ---
 title: Queue Dashboard 
 description: Learn about the Queue dashboard to better understand customer service representative performance in your organization.
-ms.date: 03/02/2026
+ms.date: 03/03/2026
 ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
