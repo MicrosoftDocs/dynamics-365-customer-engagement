@@ -1,5 +1,5 @@
 ---
-title: Sales Hub Dialer overview
+title: Sales Hub Dialer overview (preview)
 description: Learn how the Sales Hub Dialer enhances sales productivity with real-time transcription, sentiment analysis, and seamless CRM integration for every call.
 author: lavanyakr01
 ms.author: lavanyakr
@@ -10,32 +10,35 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Sales Hub Dialer overview
+# Sales Hub Dialer overview (preview)
 
-The Sales Hub Dialer is an embedded softphone feature in Dynamics 365 Sales that enables sellers to make and receive voice calls directly within the Sales Hub application. It allows users to place outbound calls and receive inbound calls from the public telephone network without leaving the Sales Hub. 
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-The dialer is tightly integrated with CRM records, automatically logs call activities, and provides advanced AI features such as real-time transcription, sentiment analysis, and post-call summaries. This unified experience helps sales teams streamline communication, capture critical details, and improve productivity.
+The new Sales Hub Dialer is an embedded softphone in Dynamics 365 Sales that enables sellers to make and receive voice calls directly within the Sales Hub application. It allows users to place outbound calls and receive inbound calls from the public telephone network without leaving the Sales Hub. 
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
+The Sales Hub Dialer is tightly integrated with CRM records and automatically logs call activities. It provides essential features for sellers such as call transfers and consultations, participant addition, spam detection, and call history. Advanced AI capabilities including real-time transcription, sentiment analysis, and in-call and post-call summaries help sales teams streamline communication, capture critical details, and improve productivity.
 
 ## Key features of the Sales Hub Dialer
 
 The Sales Hub Dialer offers a comprehensive set of telephony and AI capabilities that support modern sales teams:
 
+- **Built on existing telephony infrastructure**: Leverages the same platform as Dynamics 365 Contact Center for reliable and scalable voice communication.
 - **Enterprise-grade reliability and quality**: Calls are routed through Azure’s globally distributed services, ensuring high uptime and consistent audio quality.
 - **AI-driven insights**: Real-time transcription, live sentiment monitoring, and AI-generated call summaries help sellers focus on conversations and capture important information.
 - **Rich call controls**: Sellers can mute, hold, resume, and transfer calls (both warm and cold transfers), and add participants for consultation.
-- **Seamless CRM integration**: Calls can be initiated from any lead, contact, or opportunity record, and all call activities are automatically logged on timelines.
+- **Seamless CRM integration**: Calls can be initiated from any lead or contact record, and all call activities are automatically logged on timelines.
 - **Security and compliance**: Calls are encrypted, and sensitive data in transcripts can be automatically masked to meet privacy requirements.
 - **Spam protection**: Built-in spam detection and blocking help sellers avoid unwanted calls.
 
 ## Feature availability
 
-The following table lists which capabilities are available in Public Preview and which are planned for General Availability (GA).
+The Sales Hub Dialer offers traditional calling functionalities such as outbound and inbound calling, click-to-call from records and views, call hold and resume, and automatic CRM logging. In addition, it provides advanced features that enhance the seller experience. The following table lists these advanced features and where to learn more about each one:
+
 
 | Feature | Learn more |
 |---|---|
-| Click-to-call from a record | |
-| Inbound and outbound calling | |
-| Call hold and resume | |
 | Warm and cold transfer | [Transfer and consult on voice calls](/dynamics365/customer-service/use/voice-channel-transfer-consult?tabs=enhancedvoicestack) |
 | Call recording | [Configure call transcripts and recordings](/dynamics365/customer-service/administer/voice-channel-configure-transcripts) |
 | Live call transcription | [Configure call transcripts and recordings](/dynamics365/customer-service/administer/voice-channel-configure-transcripts) |
@@ -52,7 +55,7 @@ The following table lists which capabilities are available in Public Preview and
 
 ## How the Sales Hub Dialer works
 
-You can access the dialer from the right pane of the Sales Hub app. You can start calls using click-to-call from CRM records or by manually entering a number. Inbound calls trigger a notification and open the call panel for immediate response. During calls, sellers have access to controls and AI features, and can take notes or mark calls as spam. After calls, activities are logged, recordings and transcripts are available, and AI-generated summaries highlight key points and action items.
+You can access the dialer from the right pane of the Sales Hub app. You can start calls using click-to-call from CRM records or by manually entering a number. Inbound calls trigger a notification and open the call panel for immediate response. During calls, sellers have access to controls and AI features, and can take notes or mark calls as spam. After calls, activities are logged, recordings and transcripts are available, and AI-generated summaries highlight key points.
 
 ## AI and conversation intelligence
 
@@ -60,7 +63,8 @@ The dialer leverages Dynamics 365 Conversation Intelligence to provide:
 
 - **Live transcription**: Converts speech to text in real time for both parties.
 - **Sentiment analysis**: Monitors customer sentiment throughout the call.
-- **Post-call summaries**: Automatically generates summaries, action items, and highlights keywords or competitor mentions.
+- **In-call  summaries:** Generates in-call summaries using Microsoft 365 Copilot to catch up on a live call.
+- **Post-call summaries**: Automatically generates summaries.
 - **Call analytics**: Aggregates call data for managers and sellers to review performance and trends.
 
 ## Security, compliance, and administration
