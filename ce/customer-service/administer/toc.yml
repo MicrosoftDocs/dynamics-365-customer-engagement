@@ -539,7 +539,9 @@
       - name: Configure persistent chat
         href: persistent-chat.md
       - name: Configure reconnection to a previous chat session
-        href: configure-reconnect-chat.md
+        href: display-previous-conversation.md
+      - name: Show customers their previous conversations
+        href: show-queue.md
       - name: Show customers their position in a queue
         href: show-queue.md
       - name: Show customers their average wait time in a queue
