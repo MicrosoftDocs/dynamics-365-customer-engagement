@@ -379,6 +379,8 @@ items:
                 href: sales-hub-dialer-call-routing.md
               - name: Configure voicemail
                 href: sales-hub-dialer-voicemail.md
+              - name: FAQs about Sales Hub Dialer
+                href: faq-sales-hub-dialer.md
       - name: Productivity and document management
         items:
           - name: Activity management
@@ -1055,6 +1057,8 @@ items:
                 href: sales-hub-dialer-overview.md
               - name: Make and receive calls in Sales Hub Dialer
                 href: make-receive-calls-sales-hub-dialer.md
+              - name: FAQs about Sales Hub Dialer
+                href: faq-sales-hub-dialer.md
       - name: Productivity and document management
         items:
           - name: Activity management

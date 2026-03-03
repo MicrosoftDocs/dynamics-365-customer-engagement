@@ -6,7 +6,6 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.date: 02/18/2026
 ms.topic: concept-article
-ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
@@ -18,14 +17,14 @@ The new Sales Hub Dialer is an embedded softphone in Dynamics 365 Sales that ena
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
-The Sales Hub Dialer is tightly integrated with CRM records and automatically logs call activities. It provides essential features for sellers such as call transfers and consultations, participant addition, spam detection, and call history. Advanced AI capabilities including real-time transcription, sentiment analysis, and in-call and post-call summaries help sales teams streamline communication, capture critical details, and improve productivity.
+The Sales Hub Dialer is tightly integrated with CRM records and automatically logs call activities. It provides essential features for sellers such as call transfers and consultations, participant addition, spam detection, and call history. 
 
 ## Key features of the Sales Hub Dialer
 
 The Sales Hub Dialer offers a comprehensive set of telephony and AI capabilities that support modern sales teams:
 
 - **Built on existing telephony infrastructure**: Leverages the same platform as Dynamics 365 Contact Center for reliable and scalable voice communication.
-- **Enterprise-grade reliability and quality**: Calls are routed through Azure’s globally distributed services, ensuring high uptime and consistent audio quality.
+- **Enterprise-grade reliability and quality**: Calls are routed through Azure's globally distributed services, ensuring high uptime and consistent audio quality.
 - **AI-driven insights**: Real-time transcription, live sentiment monitoring, and AI-generated call summaries help sellers focus on conversations and capture important information.
 - **Rich call controls**: Sellers can mute, hold, resume, and transfer calls (both warm and cold transfers), and add participants for consultation.
 - **Seamless CRM integration**: Calls can be initiated from any lead or contact record, and all call activities are automatically logged on timelines.
@@ -35,7 +34,6 @@ The Sales Hub Dialer offers a comprehensive set of telephony and AI capabilities
 ## Feature availability
 
 The Sales Hub Dialer offers traditional calling functionalities such as outbound and inbound calling, click-to-call from records and views, call hold and resume, and automatic CRM logging. In addition, it provides advanced features that enhance the seller experience. The following table lists these advanced features and where to learn more about each one:
-
 
 | Feature | Learn more |
 |---|---|
@@ -47,15 +45,10 @@ The Sales Hub Dialer offers traditional calling functionalities such as outbound
 | Spam call identification | [Block phone numbers](/dynamics365/customer-service/administer/voice-channel-block-number) |
 | Post-call AI summary | [View call recordings and transcripts](/dynamics365/customer-service/use/voice-channel-call-recordings-transcripts) |
 | Voicemail | [Configure voicemail](/dynamics365/customer-service/administer/voice-channel-voicemail) |
-| Manual call outcome tagging | |
-| Call queues and skills-based routing | [Set up queues to manage activities](/dynamics365/customer-service/administer/set-up-queues-manage-activities-cases) |
-| Real-time translation | [Enable real-time translation](/dynamics365/customer-service/administer/enable-real-time-translation) |
-| AI-generated notes and action items | [Enable Copilot summarization](/dynamics365/contact-center/administer/copilot-enable-summary) |
-| Keyword and mention extraction | |
 
 ## How the Sales Hub Dialer works
 
-You can access the dialer from the right pane of the Sales Hub app. You can start calls using click-to-call from CRM records or by manually entering a number. Inbound calls trigger a notification and open the call panel for immediate response. During calls, sellers have access to controls and AI features, and can take notes or mark calls as spam. After calls, activities are logged, recordings and transcripts are available, and AI-generated summaries highlight key points.
+You can access the dialer from the right pane of the Sales Hub app. You can start calls using click-to-call from CRM records, by searching for CRM records, or by manually entering a number. Inbound calls trigger a notification and open the call panel for immediate response. During calls, sellers have access to controls and AI features, and can take notes or mark calls as spam. After calls, activities are logged, recordings and transcripts are available, and AI-generated summaries highlight key points.
 
 ## AI and conversation intelligence
 
@@ -63,18 +56,16 @@ The dialer leverages Dynamics 365 Conversation Intelligence to provide:
 
 - **Live transcription**: Converts speech to text in real time for both parties.
 - **Sentiment analysis**: Monitors customer sentiment throughout the call.
-- **In-call  summaries:** Generates in-call summaries using Microsoft 365 Copilot to catch up on a live call.
+- **In-call summaries**: Generates in-call summaries using Microsoft 365 Copilot to catch up on a live call.
 - **Post-call summaries**: Automatically generates summaries.
 - **Call analytics**: Aggregates call data for managers and sellers to review performance and trends.
 
 ## Security, compliance, and administration
 
-All calls are encrypted in transit and at rest. Administrators can configure data masking for sensitive information and manage access to call recordings. The dialer uses the same telephony platform as Dynamics 365 Contact Center, and setup involves licensing, voice channel provisioning, and enabling the dialer for users. Telephony charges may apply based on the organization’s calling plan or provider.
+All calls are encrypted in transit and at rest. Administrators can configure data masking for sensitive information and manage access to call recordings. The dialer uses the same telephony platform as Dynamics 365 Contact Center, and setup involves licensing, voice channel provisioning, and enabling the dialer for users. Telephony charges may apply based on the organization's calling plan or provider.
 
 ## Related information
 
 - [Enable and configure the Sales Hub Dialer (preview)](configure-sales-hub-dialer.md)
 - [Make and receive calls with the Sales Hub Dialer (preview)](make-receive-calls-sales-hub-dialer.md)
-
-
 

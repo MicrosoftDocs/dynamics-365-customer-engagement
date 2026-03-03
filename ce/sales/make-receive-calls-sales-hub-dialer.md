@@ -21,7 +21,6 @@ Key capabilities include:
 - **Inbound call handling** with automatic caller identification and screen pop.
 - **Full call controls** including hold, resume, mute, warm transfer, and cold transfer.
 - **Real-time transcription and sentiment analysis** powered by Conversation Intelligence.
-- **AI-generated post-call summaries** with action items and keyword highlights.
 - **Spam call detection** to block unwanted callers.
 - **Automatic call logging** as Phone Call activities on record timelines.
 
@@ -90,7 +89,7 @@ These features help you gauge customer mood and capture details during complex d
 
 ### Take notes during the call
 
-To capture key details or next steps, type your notes in the **Notes** area of the call panel. These notes are saved to the call activity when the call ends.
+To capture key details or next steps, add the notes to the call record in the **Timeline** of the associated lead or contact. These notes are saved as part of the call activity and can be referenced later.
 
 ### Mark a call as spam
 
@@ -102,25 +101,20 @@ When a call ends, the Sales Hub Dialer automatically captures and enriches the c
 
 ### View the call log
 
-The system saves the call as a completed Phone Call activity in Dynamics 365 Sales. The call record includes:
+The system saves the call as a Conversation activity in Dynamics 365 Sales. The call record includes:
 
 - Call duration and timestamps
 - Participants (customer phone number and seller)
-- Notes and call outcome tags you applied during the call
+- Notes you captured during the call
 
 The call appears on the **Timeline** of the associated lead, contact, or opportunity record.
 
-### Review the AI-generated summary
+### Review the call summary
 
-If call recording and post-call summarization are enabled, the call record includes:
+If call recording is enabled, the call record includes:
 
 - **Call recording** — Select the recording to play back the conversation.
 - **Full transcript** — Read the complete text of the conversation.
-- **AI-generated summary** — Review key points, action items, decision points, sentiment timeline, and detected keywords automatically extracted by conversation intelligence.
-
-### Create follow-up actions
-
-Based on the AI-generated summary, review any identified action items—such as "send a product catalog" or "schedule a demo"—and manually create follow-up tasks.
 
 ## Related information
 
@@ -129,15 +123,3 @@ Based on the AI-generated summary, review any identified action items—such as 
 - [Transfer and consult on voice calls](/dynamics365/customer-service/use/voice-channel-transfer-consult?tabs=enhancedvoicestack)
 - [Block phone numbers](/dynamics365/customer-service/administer/voice-channel-block-number)
 - [Configure voicemail](/dynamics365/customer-service/administer/voice-channel-voicemail)
-
-
-
-
-
-
-
-
-
-
-
-
