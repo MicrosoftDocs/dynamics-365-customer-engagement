@@ -191,7 +191,7 @@ items:
             items:
               - name: Overview
                 href: sales-close-agent.md
-              - name: Set up and configure Sales Close Agent - Research  
+              - name: Set up and configure Sales Close Agent - Research
                 items:
                   - name: Set up and configure Sales Close Agent - Research
                     href: configure-opportunity-research-agent.md
@@ -204,7 +204,7 @@ items:
                   - name: View agent insights and metrics
                     href: view-sales-close-agent-research-insights-metrics.md
               - name: Set up and configure Sales Close Agent - Engage
-                href: configure-sales-close-agent.md      
+                href: configure-sales-close-agent.md
                 items:
                 - name: Set up through the Setup Assistant (preview)
                   href: sales-close-agent-engage-setup-assistant.md
@@ -251,7 +251,7 @@ items:
               - name: Set up and configure Sales Research Agent
                 href: configure-sales-research-agent.md
           - name: Manage consumption-based billing
-            href: copilot-consumption-based-billing.md                         
+            href: copilot-consumption-based-billing.md
           - name: Copilot Studio agents and Entra app registrations
             href: ai-agents-apps.md
           - name: Stay compliant with privacy regulations
@@ -276,10 +276,22 @@ items:
             href: extend-copilot-chat.md
           - name: Copilot in Dynamics 365 Sales FAQ
             href: sales-copilot-faq.md
-          - name: Connect to Dynamics 365 Sales with Model Context Protocol (preview)
-            href: connect-to-model-context-protocol-sales.md
           - name: Configure zero prompt experience
             href: zero-prompt-experience.md
+      - name: Dynamics 365 Sales Model Context Protocol (MCP) Server
+        items:
+          - name: Overview of Sales MCP Server
+            href: connect-to-model-context-protocol-sales.md
+          - name: Connect to Sales MCP Server
+            href: connect-agents-to-model-context-protocol.md
+          - name: MCP tools for Copilot Capabilities
+            href: copilot-in-sales-tools.md
+          - name: MCP tools for Sales Qualification Agent capabilities
+            href: sales-qualification-agent-tools.md
+          - name: MCP tools for Sales Close Agent - Research capabilities (preview)
+            href: sales-close-agent-research-tools.md
+          - name: Examples of using Sales MCP Server with AI agents and assistants
+            href: model-context-protocol-examples.md
       - name: Digital selling capabilities in Sales Enterprise
         items:
           - name: Overview
@@ -903,7 +915,7 @@ items:
             href: use-sales-copilot.md
           - name: Summarize records
             items:
-              - name: Summarize records 
+              - name: Summarize records
                 href: copilot-summarize-records.md
               - name: Default attributes used in Copilot summaries
                 href: understand-copilot-summaries.md
