@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 10/10/2025
+ms.date: 03/05/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -46,6 +46,9 @@ The latest news feature is available only if the following conditions are met:
 
 - Your admin has provided consent for Copilot to use Bing search. Learn more in [provide consent for Copilot to use Bing search](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).  
 - You haven't turned off the Bing search. Learn more in [Turn off Bing search](use-sales-copilot.md#turn-off-bing-search)
+
+>[!NOTE]
+>When Bing‑powered skills are enabled, Copilot in Dynamics 365 Sales follows the [data protection and privacy policies](/copilot/privacy-and-protections).
 
 As always when you're working with AI-sourced content, read articles thoroughly to confirm they're from authentic sources and are indeed about your customer.
 
