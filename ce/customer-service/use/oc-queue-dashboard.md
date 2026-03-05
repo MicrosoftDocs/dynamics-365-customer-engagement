@@ -60,7 +60,7 @@ The following charts are displayed in the Queue dashboard.
 | ---------------- | ---------------- |
 | Incoming sessions | An incoming session is a conversation that is either escalated from a Microsoft Copilot Service voice or chat agent, or routed directly to an available representative. Learn more in [Incoming session](../develop/calculate-session-metrics.md#incoming-session). |
 | Engaged sessions | The number of sessions accepted by a service representative.  |
-| Avg. wait time (sec) | The average time customers waited before connecting to service representatives. This is similar to "speed to answer," but it includes wait time from each session within a conversation. |
+| Avg. wait time (sec) | The average time customers waited before connecting to service representatives. It's similar to "speed to answer," but it includes wait time from each session within a conversation. |
 | Session rejected/timed out rate | The number of sessions presented to a service representative that weren't accepted. |
 | Transfer rate | The percentage of conversations that were transferred to another service representative or queue. |
 | Avg. session time (min) | The average time, from session start to end, for engaged sessions. |
