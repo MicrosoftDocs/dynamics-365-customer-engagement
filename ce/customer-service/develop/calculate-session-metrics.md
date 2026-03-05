@@ -18,7 +18,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-This article explains how to use session metrics to track agent performance, monitor key performance indicators (KPIs), and improve customer satisfaction in Dynamics 365 Customer Service.
+This article explains how to use session metrics in Dynamics 365 Customer Service. You can use session metrics to track agent performance, monitor key performance indicators (KPIs), and improve customer satisfaction.
 
 An omnichannel session (msdyn_ocsession) represents a customer interaction and captures events such as assigning, associating, creating, and updating records. A single conversation might include multiple sessions, starting with the initial interaction, typically handled by an agent, and followed by more sessions if the conversation escalates to another customer service representative (service representative or representative).
 
