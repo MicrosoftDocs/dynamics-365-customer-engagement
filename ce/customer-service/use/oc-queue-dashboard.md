@@ -47,7 +47,8 @@ The following charts are displayed in the Queue dashboard.
 
 | Title | Description |
 | ---------------- | ------------------ |
-| Incoming session vs engaged session |The total number of sessions that are either escalated from a Microsoft Copilot Service voice or chat agent, or routed directly to an available representative versus the number of sessions initiated and accepted by a service representative.|
+| Incoming session vs engaged session | This metric compares the total number of sessions that are escalated from a Microsoft Copilot Service voice or chat agent, or routed directly to an available representative.
+It compares those sessions with the number of sessions that a service representative initiates and accepts. |
 | Avg. wait time (sec) | The average time customers waited before connecting to a service representative. It's similar to "speed to answer," but this metric includes wait time from each session within a conversation. |
 | Avg. session active time (min) | The average total session active time across engaged conversations. |
 | Avg. session handle time (min) | The average total session handle time across engaged conversations. |
