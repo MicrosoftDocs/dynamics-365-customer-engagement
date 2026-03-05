@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 02/25/2026
+ms.date: 03/05/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -79,7 +79,10 @@ You can integrate Case Management Agent with custom Microsoft Copilot Studio age
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Use synthetic datasets or sample organizational records to test and compare Case Management Agent case resolution before enabling in production.
+Use sample organizational records to test and compare case resolution by Case Management Agent before enabling in production.
+
+> [!NOTE]
+> Simulations consume Copilot or AI credits in the same way as agent runs.
 
 ### Set up a simulation
 
@@ -88,16 +91,16 @@ Use synthetic datasets or sample organizational records to test and compare Case
 1. On the **Simulation setup** tab, provide the following information:
 
     1. **Simulation name**: Provide a simulation name.
-    1. Select the line of business from the dropdown.
+    1. Select the line of business from the dropdown. You can select only disabled line of business.
     1. Select **Show matching cases**. The **Selected record** section appears that shows cases based on line of business and any additional filters that you might have added in the **Additional record filters** dropdown. Only the first 100 matching cases are shown, as simulations can run on a maximum of 100 cases at a time.
-  1. Select  the cases and then select **Run simulation**. The **Simulation result** tab shows the results.
+  1. Select the cases and then select **Run simulation**. The **Simulation result** tab shows the results.
 
 ### View a simulation report
 
 Simulations are listed with details of the simulation name, line of business, run date, status, and results on the **Simulation result** tab.
 
 - Select **Download** to export an Excel report.
-- Select **View** to see simulation results for a specific line of business. The page displays the run details along with individual case predictions showing intent, action type, and generated response.
+- Select **View** to see simulation results for a specific line of business. The page displays the run details along with individual case predictions showing intent, action type, and generated response. Select **View Email** to view the generated response email before you publish.
 
 ## Related information
 
