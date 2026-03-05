@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: concept-article
 ms.collection:
-ms.date: 03/03/2026
+ms.date: 03/05/2026
 ms.custom: bap-template 
 ---
 
@@ -351,7 +351,7 @@ DIVIDE (SUMX ( FactSession, IF ( FactSession[IsTransferredOut], 1, 0 ) ),​ SUM
 
 *Applies to Omnichannel historical dashboards.*
 
-An incoming session is a conversation that is either escalated from a Microsoft Copilot Service voice or chat agent, or routed directly to an available representative.
+An incoming session is a conversation that is escalated by a chat or voice-enabled agent created in Microsoft Copilot Studio, or routed directly to an available representative.
 
 It represents a work item created when a customer initiates contact through any supported channel (for example, live chat or voice). The session is then queued for assignment based on routing rules, agent availability, and skill matching.
 

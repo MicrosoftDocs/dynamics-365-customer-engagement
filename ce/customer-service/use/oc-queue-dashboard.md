@@ -1,7 +1,7 @@
 ---
 title: Queue Dashboard 
 description: Learn about the Queue dashboard to better understand customer service representative performance in your organization.
-ms.date: 03/03/2026
+ms.date: 03/05/2026
 ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
@@ -32,9 +32,9 @@ The following KPIs are displayed in the Queue dashboard.
 
 | KPI | Description |
 | ----------------- | ------------------ |
-| Incoming sessions | An incoming session is a conversation that is either escalated from a Microsoft Copilot Service voice or chat agent, or routed directly to an available representative. Learn more in [Incoming session](../develop/calculate-session-metrics.md#incoming-session).|
+| Incoming sessions | An incoming session is a conversation that is escalated by a chat or voice-enabled agent created in Microsoft Copilot Studio, or routed directly to an available representative. Learn more in [Incoming session](../develop/calculate-session-metrics.md#incoming-session).|
 | Engaged sessions | The number of sessions presented to a service representative that were accepted. |
-| Avg. wait time (sec) | The average time customers waited before connecting to a service representative. It's similar to "speed to answer," but this metric includes the wait time from each session within a conversation. |
+| Avg. wait time (sec) | The average time customers waited before connecting to a service representative. This metric is similar to "speed to answer," but includes the wait time from each session within a conversation. |
 | Avg. session handle time | The total session active time across engaged sessions. |
 | Transfer rate | The percentage of conversations that were transferred to another service representative or queue. |
 | Avg. session sentiment | The average predicted customer sentiment for a given session. |
@@ -49,7 +49,7 @@ The following charts are displayed in the Queue dashboard.
 | ---------------- | ------------------ |
 | Incoming session vs engaged session | This metric compares the total number of sessions that are escalated from a Microsoft Copilot Service voice or chat agent, or routed directly to an available representative.
 It compares those sessions with the number of sessions that a service representative initiates and accepts. |
-| Avg. wait time (sec) | The average time customers waited before connecting to a service representative. It's similar to "speed to answer," but this metric includes wait time from each session within a conversation. |
+| Avg. wait time (sec) | The average time customers waited before connecting to a service representative. This metric is similar to "speed to answer," but includes wait time from each session within a conversation. |
 | Avg. session active time (min) | The average total session active time across engaged conversations. |
 | Avg. session handle time (min) | The average total session handle time across engaged conversations. |
 | Sessions rejected/timed out rate | The number of sessions presented to a service representative that weren't accepted. |
@@ -59,9 +59,9 @@ It compares those sessions with the number of sessions that a service representa
 
 | Session summary | Description |
 | ---------------- | ---------------- |
-| Incoming sessions | An incoming session is a conversation that is either escalated from a Microsoft Copilot Service voice or chat agent, or routed directly to an available representative. Learn more in [Incoming session](../develop/calculate-session-metrics.md#incoming-session). |
+| Incoming sessions | An incoming session is a conversation that is escalated by a chat or voice-enabled agent created in Microsoft Copilot Studio, or routed directly to an available representative. Learn more in [Incoming session](../develop/calculate-session-metrics.md#incoming-session). |
 | Engaged sessions | The number of sessions accepted by a service representative.  |
-| Avg. wait time (sec) | The average time customers waited before connecting to service representatives. It's similar to "speed to answer," but it includes wait time from each session within a conversation. |
+| Avg. wait time (sec) | The average time customers waited before connecting to service representatives. This metric is similar to "speed to answer," but includes wait time from each session within a conversation. |
 | Session rejected/timed out rate | The number of sessions presented to a service representative that weren't accepted. |
 | Transfer rate | The percentage of conversations that were transferred to another service representative or queue. |
 | Avg. session time (min) | The average time, from session start to end, for engaged sessions. |
