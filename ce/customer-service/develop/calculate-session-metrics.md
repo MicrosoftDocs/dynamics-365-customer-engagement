@@ -257,7 +257,7 @@ Transferred sessions are customer interactions—such as chats, voice calls, or 
 
 - **Representative-to-representative**: A representative manually transfers a session to another representative, often due to skill mismatch or workload balancing.
 - **Representative-to-queue**: The session is routed to a different queue for reassignment, typically for escalation or specialized support.
-- **Agent-to-representative**: The AI agent escalates the session to a representative, either at the customer’s request or due to business rules such as maximum retries or unsupported intent.
+- **Agent-to-representative**: The AI agent escalates the session to a representative. This behavior happens either at the customer’s request or when business rules apply, such as reaching the maximum number of retries or encountering an unsupported intent.
 - **External transfers**:  Sessions transferred to external phone numbers or contact centers. For example, through Session Initiation Protocol (SIP) routing.
 
 ​
