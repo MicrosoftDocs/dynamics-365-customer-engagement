@@ -76,7 +76,7 @@ IF (FactSessionParticipant[LeftOnReason] ==
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Session rejection rate is the rate at which service representatives reject work that's assigned to them. 
+Session rejection rate is the rate at which service representatives reject assigned work. 
 Session Rejection Rate =​ Number of sessions rejected by agents / Total number of sessions assigned to agents. A session is considered rejected when a representative selects **Reject** on the incoming work item notification, rather than letting it time out.
 
 ### DAX query and Dataverse reference
