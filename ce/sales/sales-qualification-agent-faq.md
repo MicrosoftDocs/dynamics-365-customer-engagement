@@ -1,7 +1,7 @@
 ---
 title: FAQs about Sales Qualification Agent
 description: Find answers to frequently asked questions about the Sales Qualification Agent in Dynamics 365 Sales.
-ms.date: 02/05/2026
+ms.date: 03/06/2026
 ms.update-cycle: 180-days
 ms.topic: faq
 ms.service: dynamics-365-sales
@@ -87,10 +87,20 @@ If you see an error that says "Insights couldn't be generated due to an error in
 
 Update the lead's email address or account information to put the lead back in the agent's queue for processing.
 
-## Why the agent didn't process my lead?
+## Why isn't the agent processing leads that meet the selection criteria?
 
-If the agent is stuck and isn't processing your lead, verify the following conditions:
+If the agent is stuck and isn't processing leads, verify the following conditions:
 
 - Ensure that the seller has at least read access to the custom entities and fields used in the custom criteria.
 
 - Ensure that the fields used in custom criteria are not removed from Dataverse. If you remove fields used in a custom criterion from Dataverse, the agent won't be able to generate summaries or hand off leads to sellers. Remove the custom criterion related to the deleted fields and try again.
+
+<a name="no-leads-for-simulation"></a>
+## Why can't the simulation find any leads?
+
+The simulation runs the agent on a sample of existing leads that meet the selection criteria. If the simulation can't find any leads, it means there are no leads in your system that meet the selection criteria defined for the agent. You can do one of the following:
+
+- Create a test lead that meets the selection criteria and come back to run the simulation. 
+- Change the selection criteria to be less restrictive so that existing leads can meet the criteria, and then try the simulation again. Learn more in [Configure your Sales Qualification Agent](configure-sales-qualification-agent.md#configure-selection-criteria).
+
+The **Start agent** button is disabled until you run the simulation successfully. 
