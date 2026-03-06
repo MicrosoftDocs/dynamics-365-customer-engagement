@@ -1,7 +1,7 @@
 ---
 title: FAQ about automatic record creation
 description: Learn answers to frequently asked questions about automatic record creation.
-ms.date: 04/30/2025
+ms.date: 03/05/2026
 ms.topic: concept-article
 author: Soumyasd27
 ms.author: sdas
@@ -69,6 +69,16 @@ Multiple cases can get created from a single email because of various reasons. P
     1. Rule item flow definition, to verify if the child flow adds the email to queue. Duplicate queue items can be created because of various reasons, such as a flow step calling **AddToQueue** bound action, queue item creation, another custom flow that the ARC flow calls from within, or a post operation plugin of an action performed within ARC flow, such as case creation.
     1. Email background processes, to verify if there are any custom workflows. You can do this action during live debugging, where successful background processes get cleaned up. If you don't see any background processes for an email received, it doesn’t necessarily mean that there are no custom runs.
     1. Multiple queues with active ARC rule set up in the email's recipient or CC list. By default, an email gets added to all the queues, which are listed as recipient and CC.
+
+### Why is my automatic record creation rule disconnected from the Power Automate flow?
+
+The automatic record creation rule is disconnected from the Power Automate flow, when the system doesn't have the required callback registration record. This disconnection prevents the automatic record creation child flow from running.
+
+To confirm that the disconnection is due to a missing callback registration record, complete the following checks:
+
+1. Review the Activity Monitor events for the automatic record creation rule. When the rule is disconnected, the **Reason** and **Recommendation** columns provide diagnostic details.
+1. Verify that the automatic record creation child flow isn't triggered. Review the Power Automate run history to confirm that there are no recent runs.
+**Resolution**: Deactivate and then reactivate the automatic record creation rule.
 
 ## FAQ about modern automatic record creation
 
