@@ -70,16 +70,15 @@ Multiple cases can get created from a single email because of various reasons. P
     1. Email background processes, to verify if there are any custom workflows. You can do this action during live debugging, where successful background processes get cleaned up. If you don't see any background processes for an email received, it doesn’t necessarily mean that there are no custom runs.
     1. Multiple queues with active ARC rule set up in the email's recipient or CC list. By default, an email gets added to all the queues, which are listed as recipient and CC.
 
-### Why is my ARC rule disconnected from the Power Automate flow?
+### Why is my automatic record creation rule disconnected from the Power Automate flow?
 
-The ARC child flow can't be triggered because the ARC rule is disconnected from the Power Automate flow. This disconnect occurs when the system is missing the required callback registration (CBR) record, which prevents the flow from executing as expected.
+The automatic record creation rule is disconnected from the Power Automate flow, when the system doesn't have the required callback registration record. This disconnection prevents the automatic record creation child flow from running.
 
-To verify that the ARC rule is disconnected from the flow specifically due to a missing CBR record, follow these steps:
+To confirm that the disconnection is due to a missing callback registration record, complete the following checks:
 
-1. Review the Activity Monitor events for the ARC rule. The **Reason** and **Recommendation** columns provide diagnostic information when the ARC rule is disconnected from the flow.
-1. Confirm that the Power Automate flow (ARC child flow) isn't being triggered. Review the run history in Power Automate to verify that there are no recent executions of the flow.
-
-**Resolution**: Deactivate the ARC rule, then reactivate it to restore normal ARC execution.
+1. Review the Activity Monitor events for the automatic record creation rule. When the rule is disconnected, the **Reason** and **Recommendation** columns provide diagnostic details.
+1. Verify that the automatic record creation child flow isn't triggered. Review the Power Automate run history to confirm that there are no recent runs.
+**Resolution**: Deactivate and then reactivate the automatic record creation rule.
 
 ## FAQ about modern automatic record creation
 
