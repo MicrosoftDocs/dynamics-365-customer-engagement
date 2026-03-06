@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: concept-article
 ms.collection:
-ms.date: 10/13/2025
+ms.date: 03/06/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -199,21 +199,25 @@ Total capacity units represent the workload capacity assigned to a representativ
 
 *Applies to Omnichannel real-time dashboards.*
 
-The total default maximum capacity units assigned to representatives based on their capacity profile.
+The total maximum capacity profile units available, for both agent-specific and default capacity profile limits.
 
 ### DAX query and Dataverse reference
 
 ```dax
 
-Total agent work item capacity =SUM( FactAgentCapacityProfile[AgentDefaultMaxProfileUnits])
+Total agent work item capacity = SUM(FactAgentCapacityProfile[TotalAgentCapacityProfileUnitsLimit])
 
 ```
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | - FactAgentCapacityProfile-[msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit) along with - [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile)|
+|Dataverse entities | - Consolidate (msdyn_agentcapacityprofileunit.msdyn_defaultmaxunits, msdyn_capacityprofile.msdyn_defaultmaxunits) along with agent-specific limit (msdyn_agentcapacityprofileunit.msdyn_defaultmaxunits) if configured. Otherwise the value falls back to the capacity profile default (msdyn_capacityprofile.msdyn_defaultmaxunits).|
 |Attributes  | - msdyn_agentcapacityprofileunit.msdyn_defaultmaxunits |
 |Filters  | None ​|
+
+### Related metrics
+
+- **Available capacity**: The total number of available capacity profile units for new work item assignments.
 
 ## Assigned capacity profile count
 
@@ -258,7 +262,30 @@ Total work item capacity in use = SUM ( FactAgentCapacityProfile[OccupiedProfile
 ### Related metrics
 
 - **Total available work item capacity**: The maximum number of new work items that can be assigned.
-- **Total work item capacity in use**: The work items currently handled by a representative.
+
+## Load percentage in agent capacity profile
+
+*Applies to **need info**.*
+
+A percentage measure that calculates agent capacity utilization. This metric is available only through visual or data model customization.
+
+```dax
+
+Load % : Divide ([Total work item capacity in use] by [Total agent work item capacity]) 
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |- msdyn_agentcapacityprofileunit - Stores per-agent capacity profile unit tracking <br> -   msdyn_capacityprofile - Stores capacity profile configuration|
+|Attributes  |- msdyn_agentcapacityprofileunit.msdyn_availablecapacityprofileunits: Available capacity units for the agent <br>-  msdyn_agentcapacityprofileunit.msdyn_defaultmaxunits: Agent-specific maximum capacity units (overrides profile default if set) <br>- msdyn_capacityprofile.msdyn_defaultmaxunits: Capacity profile default maximum units <br>- msdyn_agentcapacityprofileunit.msdyn_agentid: Agent (systemuser) <br>- msdyn_agentcapacityprofileunit.msdyn_capacityprofileid |
+|Filters  | Need info ​|
+
+### Related metrics
+
+- [Total work item capacity in use](#total-work-item-capacity-in-use)
+- [Total representative work item capacity](#total-representative-work-item-capacity)
+- **Total available capacity units**: The number of capacity units that are available to handle conversations.
 
 ## Logged in service representatives
 
