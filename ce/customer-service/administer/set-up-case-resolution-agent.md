@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 01/19/2026
+ms.date: 03/06/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -74,6 +74,33 @@ When the case resolution process is triggered, based on your configuration, the 
 ## Integrate Case Management Agent with custom Copilot Studio agents 
 
 You can integrate Case Management Agent with custom Microsoft Copilot Studio agents to enhance the case resolution process. For example, you can create a custom agent that provides additional context or performs specific actions based on the case details. Learn more in [Integrate Case Management Agent with custom Copilot Studio agents](../develop/case-management-agent-integration.md).
+
+##  Run simulations to evaluate case resolution by Case Management Agent (preview) 
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+Use sample records to test and compare case resolution by Case Management Agent before enabling the agent in production.
+
+> [!NOTE]
+> Simulations consume Copilot or AI credits in the same way as agent runs.
+
+### Set up a simulation
+
+1. On the **Case Management Agent** page, in **Case resolution**, select **Manage**. The **Case resolution** page appears.
+1. Select **Go to simulation** in the **Command** menu. The **Case resolution simulation** page appears.
+1. On the **Simulation setup** tab, provide the following information:
+
+    1. **Simulation name**: Provide a simulation name.
+    1. Select the line of business from the dropdown. You can select a disabled line of business only.
+    1. Select **Show matching cases**. The **Selected record** section appears that shows cases based on line of business and any additional filters that you might have added in the **Additional record filters** dropdown. The first 100 matching cases only are shown because simulations can run on a maximum of 100 cases at a time.
+  1. Select the cases and then select **Run simulation**. The **Simulation result** tab shows the results.
+
+### View a simulation report
+
+Simulations are listed with details of the simulation name, line of business, run date, status, and results on the **Simulation result** tab.
+
+- Select **Download** to export an Excel report.
+- Select **View** to see simulation results for a specific line of business. The page displays the run details along with individual case predictions showing intent, action type, and generated response. Select **View Email** to view the generated response email.
 
 ## Related information
 
