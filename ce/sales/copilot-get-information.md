@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 10/10/2025
+ms.date: 03/06/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -24,7 +24,7 @@ Use Copilot to get information about your pipeline, summarize your opportunities
 <a name="copilot-show-pipeline"></a>
 ## Show my pipeline
 
-Copilot can provide a list of open opportunities that are assigned to you, sorted by the estimated close date.
+Copilot provides a list of open opportunities that are assigned to you, sorted by the estimated close date.
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot), and then select **View Prompts** above the Copilot chat box.
 
@@ -32,7 +32,7 @@ Copilot can provide a list of open opportunities that are assigned to you, sorte
 
 ## Would you like to view a summary of different fields?
 
-Copilot generates its summary from a set of predefined fields. Other fields might be more important to you, however. For example, estimated revenue, close date, contact, pipeline stage, and proposed solution might be the first things you look for in an opportunity. Work with your Dynamics 365 Sales administrator to [add those fields to the summary](copilot-configure-summary-fields.md).
+Copilot generates its summary from a set of predefined fields. However, other fields might be more important to you. For example, you might want to see estimated revenue, close date, contact, pipeline stage, and proposed solution as the first things in an opportunity. Work with your Dynamics 365 Sales administrator to [add those fields to the summary](copilot-configure-summary-fields.md).
 
 Keep in mind that the summary fields are set at the organization level. Make sure that your entire sales team agrees on the *top 15* fields that are most relevant for your business.
 
@@ -42,10 +42,13 @@ Keep in mind that the summary fields are set at the organization level. Make sur
 
 Copilot can get the latest news that features or mentions your accounts, curated by Bing. These news articles can be great conversation starters and help you understand the dynamics in your customers' organizations.
 
-The latest news feature is available only if the following conditions are met:  
+You can use the latest news feature only if the following conditions are met:  
 
-- Your admin has provided consent for Copilot to use Bing search. Learn more in [provide consent for Copilot to use Bing search](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).  
-- You haven't turned off the Bing search. Learn more in [Turn off Bing search](use-sales-copilot.md#turn-off-bing-search)
+- Your admin provides consent for Copilot to use Bing search. Learn more in [provide consent for Copilot to use Bing search](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).  
+- You don't turn off the Bing search. Learn more in [Turn off Bing search](use-sales-copilot.md#turn-off-bing-search).
+
+>[!NOTE]
+>When Bing‑powered skills are enabled, Copilot in Dynamics 365 Sales follows the [data protection and privacy policies](/copilot/privacy-and-protections).
 
 As always when you're working with AI-sourced content, read articles thoroughly to confirm they're from authentic sources and are indeed about your customer.
 
@@ -57,6 +60,10 @@ As always when you're working with AI-sourced content, read articles thoroughly 
     - If you're in the grid view, Copilot lists news articles for the top 10 accounts you work with, ordered by their associated revenue.
 
 1. To get the news articles for a specific account, type a slash (**/**) and then start typing the name of the account.
+
+>[!NOTE]
+>To hide Bing-sourced news from your search results, turn off Bing search. In [the Copilot Studio page](https://copilotstudio.microsoft.com/), go to the **Copilot in Dynamics 365 Sales** agent and disable the **Gen AI Bing News** topic.
+
 
 ## Related information
 
