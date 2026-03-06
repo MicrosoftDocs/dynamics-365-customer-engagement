@@ -79,7 +79,7 @@ You can integrate Case Management Agent with custom Microsoft Copilot Studio age
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Use sample organizational records to test and compare case resolution by Case Management Agent before enabling in production.
+Use sample records to test and compare case resolution by Case Management Agent before enabling the agent in production.
 
 > [!NOTE]
 > Simulations consume Copilot or AI credits in the same way as agent runs.
