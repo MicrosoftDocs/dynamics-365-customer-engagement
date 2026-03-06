@@ -101,6 +101,6 @@ If the agent is stuck and isn't processing leads, verify the following condition
 The simulation runs the agent on a sample of existing leads that meet the selection criteria. If the simulation can't find any leads, it means there are no leads in your system that meet the selection criteria defined for the agent. You can do one of the following:
 
 - Create a test lead that meets the selection criteria and come back to run the simulation. 
-- Change the selection criteria to be less restrictive so that existing leads can meet the criteria, and then try the simulation again. Learn more in [Configure your Sales Qualification Agent](configure-sales-qualification-agent.md#configure-selection-criteria).
+- Change the selection criteria to be less restrictive so that existing leads can meet the criteria, and then try the simulation again. Learn more in [Configure selection criteria](sales-qualification-agent-selection-criteria.md).
 
 The **Start agent** button is disabled until you run the simulation successfully. 
