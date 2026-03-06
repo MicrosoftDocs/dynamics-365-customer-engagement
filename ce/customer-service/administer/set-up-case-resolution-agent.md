@@ -79,20 +79,20 @@ You can integrate Case Management Agent with custom Microsoft Copilot Studio age
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Use sample organizational records to test and compare case resolution by Case Management Agent before enabling in production.
+Use sample records to test and compare case resolution by Case Management Agent before enabling the agent in production.
 
 > [!NOTE]
 > Simulations consume Copilot or AI credits in the same way as agent runs.
 
 ### Set up a simulation
 
-1. On the **Case Management Agent** page, **Case resolution** section, select **Manage**. The **Case resolution** page appears.
+1. On the **Case Management Agent** page, in **Case resolution**, select **Manage**. The **Case resolution** page appears.
 1. Select **Go to simulation** in the **Command** menu. The **Case resolution simulation** page appears.
 1. On the **Simulation setup** tab, provide the following information:
 
     1. **Simulation name**: Provide a simulation name.
-    1. Select the line of business from the dropdown. You can select only disabled line of business.
-    1. Select **Show matching cases**. The **Selected record** section appears that shows cases based on line of business and any additional filters that you might have added in the **Additional record filters** dropdown. Only the first 100 matching cases are shown, as simulations can run on a maximum of 100 cases at a time.
+    1. Select the line of business from the dropdown. You can select a disabled line of business only.
+    1. Select **Show matching cases**. The **Selected record** section appears that shows cases based on line of business and any additional filters that you might have added in the **Additional record filters** dropdown. The first 100 matching cases only are shown because simulations can run on a maximum of 100 cases at a time.
   1. Select the cases and then select **Run simulation**. The **Simulation result** tab shows the results.
 
 ### View a simulation report
