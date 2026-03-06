@@ -86,7 +86,7 @@ Use sample records to test and compare case resolution by Case Management Agent 
 
 ### Set up a simulation
 
-1. On the **Case Management Agent** page, **Case resolution** section, select **Manage**. The **Case resolution** page appears.
+1. On the **Case Management Agent** page, in **Case resolution**, select **Manage**. The **Case resolution** page appears.
 1. Select **Go to simulation** in the **Command** menu. The **Case resolution simulation** page appears.
 1. On the **Simulation setup** tab, provide the following information:
 
