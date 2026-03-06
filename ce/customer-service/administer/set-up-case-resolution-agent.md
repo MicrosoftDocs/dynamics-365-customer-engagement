@@ -100,7 +100,7 @@ Use sample records to test and compare case resolution by Case Management Agent 
 Simulations are listed with details of the simulation name, line of business, run date, status, and results on the **Simulation result** tab.
 
 - Select **Download** to export an Excel report.
-- Select **View** to see simulation results for a specific line of business. The page displays the run details along with individual case predictions showing intent, action type, and generated response. Select **View Email** to view the generated response email before you publish.
+- Select **View** to see simulation results for a specific line of business. The page displays the run details along with individual case predictions showing intent, action type, and generated response. Select **View Email** to view the generated response email.
 
 ## Related information
 
