@@ -91,7 +91,7 @@ Use sample records to test and compare case resolution by Case Management Agent 
 1. On the **Simulation setup** tab, provide the following information:
 
     1. **Simulation name**: Provide a simulation name.
-    1. Select the line of business from the dropdown. You can select only disabled line of business.
+    1. Select the line of business from the dropdown. You can select a disabled line of business only.
     1. Select **Show matching cases**. The **Selected record** section appears that shows cases based on line of business and any additional filters that you might have added in the **Additional record filters** dropdown. The first 100 matching cases only are shown because simulations can run on a maximum of 100 cases at a time.
   1. Select the cases and then select **Run simulation**. The **Simulation result** tab shows the results.
 
