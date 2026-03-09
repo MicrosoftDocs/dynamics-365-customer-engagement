@@ -1,7 +1,7 @@
 ---
 title: Summarize records with Copilot 
 description: Learn how to summarize your records in Dynamics 365 Sales such as opportunities, leads, and accounts with Copilot. 
-ms.date: 02/02/2026
+ms.date: 03/09/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -85,10 +85,10 @@ After you select a lead, Copilot suggests other records that might be associated
 
 1. Open the Copilot side pane and ask to summarize the lead.  
     If Copilot finds possible matching contact records based on the lead's email address, it lists them after the summary. Learn more in [How does Copilot match leads with contacts and can I customize the matching fields?](sales-copilot-faq.md#how-does-copilot-match-leads-with-contacts-and-can-i-customize-the-matching-fields).  
-1. To choose the correct match, select **Connect**.  
+1. To connect the lead to a contact record, hover over the contact record in the response, select the ellipsis (**...**), and then select **Connect**.  
     :::image type="content" source="media/copilot-lead-enrichment.png" alt-text="Screenshot of a lead card in the Copilot chat, with a matching account highlighted.":::  
-1. To generate a new summary that includes information from the connected record, select **Get updated lead summary**.  
-    Copilot also lists the fields that can be updated with information from the connected record, such as the city, state, phone numbers, and postal code.  
+1. Generate a new summary for the lead.  
+    Copilot uses the information from the connected contact record to enrich the summary of the lead. The new summary also includes a section called **Add missing info** that provides details about the connected contact record, such as the contact's city, state, phone numbers, and postal code. 
 1. To update the lead record with the suggested values, select **Update all**.
 
 ## Account summary
@@ -154,7 +154,7 @@ If the opportunity summary widget isn't displayed in the **Opportunity** form, c
 
 ### View deeper research insights for the opportunity
 
-If the Opportunity Research Agent is configured for your organization, you can view the research insights for the opportunity. The insights provide a comprehensive overview of the opportunity, including risk mitigation, key insights and signals, and deeper insights on various aspects of the opportunity, such as stakeholders, pain points, needs, and opportunity health. Learn more in [Work on opportunities handed over by the Opportunity Research Agent](use-opportunity-research-agent.md).
+If the Opportunity Research Agent is configured for your organization, you can view the research insights for the opportunity. The insights provide a comprehensive overview of the opportunity, including risk mitigation, key insights and signals, and deeper insights on various aspects of the opportunity, such as stakeholders, pain points, needs, and opportunity health. Learn more in [Opportunity research page](use-opportunity-research-agent.md#opportunity-research-page).
 
 ## Related information
 
