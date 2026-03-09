@@ -555,4 +555,4 @@
     - name: Dynamics 365 Contact Center documentation
       href: /dynamics365/contact-center/
     - name: Contribute to documentation
-      href: /dynamics365/get-started/contribute?context=../../context/customer-service-use-context.yml
+      href: /dynamics365/get-started/contribute?context=/dynamics365/context/customer-service-use-context
