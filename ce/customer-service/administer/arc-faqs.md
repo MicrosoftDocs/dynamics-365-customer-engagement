@@ -72,7 +72,7 @@ Multiple cases can get created from a single email because of various reasons. P
 
 ### Why is my automatic record creation rule disconnected from the Power Automate flow?
 
-The automatic record creation rule is disconnected from the Power Automate flow, when the system doesn't have the required callback registration record. This disconnection prevents the automatic record creation child flow from running.
+The automatic record creation rule is disconnected from the Power Automate flow when the system doesn't have the required callback registration record. This disconnection prevents the automatic record creation child flow from running.
 
 To confirm that the disconnection is due to a missing callback registration record, complete the following checks:
 
