@@ -22,7 +22,7 @@ Agent-specific prerequisites are covered in their respective agent setup article
 
 ## Verify prerequisites
 
-1. Ensure that you have the Power Platform administrator role.
+1. Ensure that you have the [Power Platform administrator or Dynamics 365 administrator role](/power-platform/admin/use-service-admin-role-manage-tenant).
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
