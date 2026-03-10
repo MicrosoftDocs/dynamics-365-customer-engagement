@@ -76,7 +76,7 @@ You can assign a priority to the queue that helps you prioritize assignment of w
 
 ## Define metrics threshold for a queue
 
-Define queue-specific thresholds for key contact center performance metrics to measure and report service level agreement (SLA) and short abandonment performance.
+Define queue-specific thresholds for key contact center performance metrics to measure and report service level agreement (SLA) and short abandonment performance. These thresholds remove the limitation of fixed SLA filters and enable consistent KPI roll ups across queues while still allowing operational flexibility.
 
 1. In Copilot Service admin center, on the **Queues** page, select the queue for which you want to set the thresholds.
 1. In **Metrics Threshold**, select **Add Threshold**, and then enter a value in seconds for the following settings:
