@@ -15,6 +15,8 @@ items:
         href: trial-faq.md
   - name: Buy a subscription
     href: buy-fs.md
+  - name: Navigate the user interface
+    href: navigate-ui.md
   - name: Get started
     href: field-service-get-started.md
 
@@ -374,10 +376,14 @@ items:
       items:
         - name: Agreements overview
           href: agreements-overview.md
-        - name: Set up agreements
-          href: set-up-customer-agreements.md
+        - name: Set up agreements to generate work orders
+          href: set-up-agreements-work-orders.md
+        - name: Set up agreements to generate invoices
+          href: set-up-agreements-invoices.md
         - name: Set up agreement substatuses
           href: set-up-agreement-sub-statuses.md
+        - name: Manage agreements
+          href: manage-agreements.md  
     - name: Entitlements
       items:
         - name: Entitlements overview

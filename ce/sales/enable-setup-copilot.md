@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales to improve sales productivity and effectiveness. 
-ms.date: 01/29/2026
+ms.date: 03/10/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -38,29 +38,11 @@ Throughout this article, the term "sales app" refers to apps that have lead and 
 
 - Make sure that your organization is in one of the [regions where Copilot in Dynamics 365 Sales is available](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
 
-- Make sure that your region has an Azure OpenAI Service endpoint. Check the list of [regions where data is processed for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features). If it doesn't, you must [provide consent for data movement](#provide-consent-for-data-movement) in the Power Platform admin center.
+- Verify if your region has an Azure OpenAI Service endpoint. Check the list of [regions where data is processed for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features). If it doesn't, you must provide consent for data movement in the Power Platform admin center. Learn more in [Turn on data movement and Bing search for Copilot and generative AI features](/power-platform/admin/geographical-availability-copilot?branch=main#turn-on-data-movement-bing-search-and-m365-for-copilots-and-generative-ai-features).
 
 - Make sure that your organization's [data loss prevention policies allow the connectors that Copilot requires](sales-copilot-faq.md#copilot-isnt-working-what-should-i-do).
 
 - Make sure that your Power Platform administrator or Dynamics 365 administrator has [turned on Copilot in Dynamics 365 Sales in Power Platform Admin Center](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales).
-
-## Control access to Copilot in Dynamics 365 Sales
-
-Your organization can control who can use Copilot in Dynamics 365 Sales at the environment, Entra group, and app levels. All these settings are turned on by default. The levels of control are as follows:
-
-1. **Tenant-level control for model-driven apps**: The Power Platform administrator or Dynamics 365 administrator specifies which environments or environment groups can use Copilot chat in model-driven apps. This setting determines the default behavior for all model-driven apps, including Dynamics 365 Sales. Configure this setting in the Power Platform admin center from **Copilot** > **Settings** > **Chat agent in Model-Driven Apps**. Learn more the administrator roles in [Use service admin roles to manage your tenant](/power-platform/admin/use-service-admin-role-manage-tenant). 
-
-
-1. **Tenant-level control for Copilot in Dynamics 365 Sales**: The Power Platform administrator or Dynamics 365 administrator specifies which environments or environment groups can use Copilot in Dynamics 365 Sales. Configure this setting in the Power Platform admin center from **Copilot** > **Settings** > **Dynamics 365 Sales** > **Copilot**.
-1. **Entra group-level control**: The Power Platform administrator or Dynamics 365 administrator specifies which Entra groups within the tenant can use Copilot across all model-driven apps. Configure this setting in the Power Platform admin center from **Copilot** > **Settings** > **Control who can use AI features in model-driven apps**. By default, all users in the environment can use Copilot in Dynamics 365 Sales unless restricted by this setting. Ensure that sellers who need access to Copilot in Dynamics 365 Sales are included in the allowed Entra groups.
-1. **App-level control**: The Dynamics 365 Sales system administrator specifies whether to enable Copilot in the Sales Hub app and other sales apps. Configure this setting in the Sales Hub app from **App Settings** > **Copilot**. If the tenant-level controls are turned off, the Copilot settings page is disabled.
-
-
-## Provide consent for data movement
-
-If your organization is in a region where an Azure OpenAI Service endpoint isn't available, you must provide consent for data movement across regions to use Copilot in Dynamics 365 Sales. You may also provide consent for Bing search so that your sellers can get the latest news about their accounts. Sellers can [turn off Bing search](use-sales-copilot.md#turn-off-bing-search) if they don't want Copilot to use it.
-
-[Turn on data movement and Bing search for Copilot and generative AI features](/power-platform/admin/geographical-availability-copilot?branch=main#turn-on-data-movement-bing-search-and-m365-for-copilots-and-generative-ai-features).
 
 ## Turn Copilot features on or off in Sales Hub
 
@@ -88,9 +70,7 @@ When you turn on Copilot features, you enable the chat and embedded Copilot expe
 
     The initial setting depends on the setting for both the organization and the app. For example, if your Power Platform admin turns on Copilot for your organization, but your Power Apps admin turns it off for the Sales Hub app, the initial setting is **Off** for the Sales Hub app and **On** for all other sales apps.
 
-1. To get all Copilot preview features automatically, select **Try our newest preview features before they're rolled out to everyone**.
-
-1. Select **Save**.
+1. Save the changes.
 
 ## Next steps
 
