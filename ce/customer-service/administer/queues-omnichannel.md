@@ -81,7 +81,7 @@ Define queue-specific thresholds for key contact center performance metrics to m
 1. In Copilot Service admin center, on the **Queues** page, select the queue for which you want to set the thresholds.
 1. In **Metrics Threshold**, select **Add Threshold**, and then enter a value in seconds for the following settings:
     - **Service Level Threshold**: Defines the maximum time within which a conversation must be answered for it to be considered compliant with the SLA.
-    - **Short Abandoned Threshold**: Defines the maximum time after which a conversation is considered abandoned before it meaningfully waits for a representative to be connected. If a conversation is abandoned before the specified time lapses, it's excluded from the abandoned conversations metric.
+    - **Short Abandoned Threshold**: Defines the maximum time after which a conversation is considered abandoned before it meaningfully waits for a representative to be connected.
 1. Save and close the changes.
 
 ### Manage queues for unified routing
