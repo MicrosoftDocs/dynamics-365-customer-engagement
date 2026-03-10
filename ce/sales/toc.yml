@@ -262,6 +262,8 @@ items:
             href: copilot-overview.md
           - name: Turn on and set up Copilot in Dynamics 365 Sales
             href: enable-setup-copilot.md
+          - name: Control access to Copilot
+            href: copilot-control-access.md
           - name: Configure fields for summary and recent changes
             href: copilot-configure-summary-fields.md
           - name: Configure fields for what's new
