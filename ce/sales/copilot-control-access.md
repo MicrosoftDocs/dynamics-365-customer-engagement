@@ -14,7 +14,7 @@ ai-usage: ai-assisted
 ms.custom: bap-template
 ---
 
-## Control access to Copilot in Dynamics 365 Sales
+# Control access to Copilot in Dynamics 365 Sales
 
 Your organization can control who can use Copilot in Dynamics 365 Sales at the environment, Entra group, and app levels. All these settings are turned on by default. The levels of control are as follows:
 

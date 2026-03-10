@@ -29,7 +29,7 @@ Open the Sales Qualification Agent settings to configure or manage the Sales Qua
 1. To create an agent:  
     1. Select **Create**.
     1. In the **Create an AI agent** dialog, under **Sales Qualification Agent**, select **Choose**.
-    1. Select the automation level for the agent. **Research** is selected by default and is non-editable. You can add engage capabilities to the agent by selecting **Engage**. Learn more about the capabilities in [Sales Qualification Agent modes](sales-qualification-agent-modes.md).
+    1. Select the automation level for the agent. **Research** is selected by default and is non-editable. You can add engage capabilities to the agent by selecting **Engage**. Learn more about the capabilities in [Sales Qualification Agent modes](sales-qualification-agent.md#sales-qualification-agent-modes).
 
 ## Related information
 
