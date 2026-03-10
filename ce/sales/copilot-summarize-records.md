@@ -116,7 +116,7 @@ The account summary includes the following information:
 To summarize the account, Copilot uses the information in the account record and the associated leads, opportunities, and cases. To know which fields are required to generate the summary, see [Default attributes used in account summaries](understand-copilot-summaries.md#account-summary).
 
 To drill down into the details of the account in the Copilot side pane, select the suggested prompts that are displayed below the summary. If you have a LinkedIn Sales Navigator license, the **Find relevant Sales Navigator accounts** prompt is also suggested.  
-[Would you like to view a summary of different fields?](copilot-get-information.md#would-you-like-to-view-a-summary-of-different-fields)
+[Would you like to view a summary of different fields?](sales-copilot-faq.md#summary-fields)
 
 ## Opportunity summary
 <a name="copilot-summarize-opportunity"></a>
@@ -142,7 +142,7 @@ The opportunity summary includes the following information, if the information i
 
 To summarize the opportunity, Copilot uses the information in the opportunity record and the associated records. To know which fields are required to generate the summary, see [Default attributes used in opportunity summaries](understand-copilot-summaries.md#opportunity-summary).
 
-[Would you like to view a summary of different fields?](copilot-get-information.md#would-you-like-to-view-a-summary-of-different-fields)
+[Would you like to view a summary of different fields?](sales-copilot-faq.md#summary-fields)
 
 ### View the opportunity summary widget
 

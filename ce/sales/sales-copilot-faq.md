@@ -31,6 +31,13 @@ Only an administrator can disable Copilot in Dynamics 365 Sales. Learn more in [
 
 The data that's included in the requests varies based on the type of request. For example, when you summarize an opportunity, the relevant fields of the opportunity and associated metadata are pushed to the Azure OpenAI endpoint to generate a summary.
 
+<a name="summary-fields"></a>
+## Can I view the summary of different fields?
+
+Copilot generates its summary from a set of predefined fields. However, other fields might be more important to you. For example, you might want to see estimated revenue, close date, contact, pipeline stage, and proposed solution as the first things in an opportunity. Work with your Dynamics 365 Sales administrator to [add those fields to the summary](copilot-configure-summary-fields.md).
+
+Keep in mind that the summary fields are set at the organization level. Make sure that your entire sales team agrees on the *top 15* fields that are most relevant for your business.
+
 ## Why can't I see the latest news for an account?
 
 Copilot uses Bing to fetch the latest news for an account. If you can't see the latest news for an account, it might be because of the following reasons:
