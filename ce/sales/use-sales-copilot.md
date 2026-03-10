@@ -45,7 +45,7 @@ You can interact with Copilot through the side pane in the following ways:
 - Select **View Prompts** (notebook icon) above the Copilot chat box to get a list of predefined requests, or *prompts*, that Copilot can help you with, . [Learn more about predefined prompts](copilot-prompt-guide.md).
 - [Ask a question in natural language](#chat-with-copilot-in-NL) in the Copilot chat box.
 
-## Turn off Bing search
+## Turn on or off Bing search
 
 If Bing search is turned on for your organization, an option to turn it off is displayed at the bottom of the Copilot side pane. Copilot uses Bing search only to provide news about your accounts. If you turn it off, the **Get latest news for accounts** prompt doesn't return any results.
 

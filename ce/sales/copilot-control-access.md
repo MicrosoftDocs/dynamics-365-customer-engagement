@@ -24,3 +24,9 @@ Your organization can control who can use Copilot in Dynamics 365 Sales at the e
 1. **Tenant-level control for Copilot in Dynamics 365 Sales**: The Power Platform administrator or Dynamics 365 administrator specifies which environments or environment groups can use Copilot capabilities in Dynamics 365 Sales. Configure this setting in the Power Platform admin center from **Copilot** > **Settings** > **Dynamics 365 Sales** > **Copilot**.
 1. **Entra group-level control**: The Power Platform administrator or Dynamics 365 administrator specifies which Entra groups within the tenant can use Copilot across all model-driven apps. Configure this setting in the Power Platform admin center from **Copilot** > **Settings** > **Control who can use AI features in model-driven apps**. By default, all users in the environment can use Copilot in Dynamics 365 Sales unless restricted by this setting. Ensure that seller users who need access to Copilot in Dynamics 365 Sales are included in the allowed Entra groups.
 1. **App-level control**: The administrator of the Sales Hub app specifies whether to enable Copilot in the Dynamics 365 Sales and other sales apps. Configure this setting in the Sales Hub app from **App Settings** > **Copilot**. If the tenant-level controls are turned off, the Copilot settings page is disabled.
+
+
+## Related information
+
+- [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md)
+- 
