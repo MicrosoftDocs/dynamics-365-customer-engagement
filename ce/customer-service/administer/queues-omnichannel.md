@@ -40,9 +40,9 @@ The queue types allow issues to be routed correctly and help avoid cross-queue a
 ## Create a queue for unified routing
 
 1. In the site map of Copilot Service admin center, select **Queues** in **Customer support**.
-    
+
 1. On the **Queues** page, select **Manage** for **Advanced queues**.
-    
+
 1. On the **Queues** page, do the following steps:
 
     1. Select **New**.
@@ -53,7 +53,6 @@ The queue types allow issues to be routed correctly and help avoid cross-queue a
     1. Select **Create**. The queue that you created is displayed.
 
        :::image type="content" source="../media/queue-summary-ur.png" alt-text="A screenshot of an advanced queue in admin center.":::
-
 
 1. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, and then select **Add**. The users are added to the queue.
 
@@ -74,6 +73,16 @@ The queue types allow issues to be routed correctly and help avoid cross-queue a
 ## Configure queue prioritization
 
 You can assign a priority to the queue that helps you prioritize assignment of work. Queues are ordered from highest to lowest priority when work items are assigned. Unified routing prioritizes a queue with a smaller number over a queue with a larger number. For example, if you need to prioritize conversations over cases, you can assign queue priority numbers to the corresponding queues accordingly. For the queues that handle conversations, you can assign a number 1 and for the queues that handle cases, you can assign 2 as the priority number. Similarly, you can prioritize one type of work over another. Assign priority number 1 to the queue with premium customer chats for higher priority and priority number 2 to the queue that handles general customer questions to give it lower priority. Learn more in [How unified routing prioritizes work items](assignment-methods.md#how-unified-routing-prioritizes-work-items).
+
+## Define metrics threshold for a queue
+
+Define queue-specific thresholds for key contact center performance metrics to measure and report service level agreement (SLA) and short abandonment performance.
+
+1. In Copilot Service admin center, on the **Queues** page, select the queue for which you want to set the thresholds.
+1. In **Metrics Threshold**, select **Add Threshold**, and then enter a value in seconds for the following settings:
+    - **Service Level Threshold**: Defines the maximum time within which a conversation must be answered for it to be considered compliant with the SLA.
+    - **Short Abandoned Threshold**: Defines the maximum time after which a conversation is considered abandoned before it meaningfully waits for a representative to be connected. If a conversation is abandoned before the specified time lapses, it's excluded from the abandoned conversations metric.
+1. Save and close the changes.
 
 ### Manage queues for unified routing
 
