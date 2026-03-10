@@ -66,7 +66,7 @@ You can ask the following types of questions:
 
 - **Questions with sales-specific terminology** are based on terms that are specific to sales organizations. You can ask questions about your sales pipeline ("Show my pipeline with deals closing in the next 30 days"), deal cycle ("What's the average deal cycle for my opportunities?"), conversion rates ("What's my lead conversion rate for the last quarter?"), and deal sizes and values ("Display open deals with deal size greater than 10000"). You can find more examples of the kinds of questions you can ask in [Questions with sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology).
 
-  If your organization uses different sales terminology or custom fields, reach out to your Dynamics 365 admin to add those terms to the glossary to help Copilot better understand the context of your questions.
+  If your organization uses different sales terminology or custom fields, reach out to your Dynamics 365 Sales admin to add those terms to the glossary to help Copilot better understand the context of your questions.
 
 For more such questions, see [Questions about sales data](faqs-sales-copilot-natural-language.md#questions-about-sales-data).
 
@@ -78,7 +78,7 @@ For more such questions, see [Questions about sales data](faqs-sales-copilot-nat
   - **Pipeline with filters**. For example, show my pipeline with deals closing in next 30 days.
   - **Deal sizes and values**. For example, display open deals with deal size greater than 10000.
   
-For a list of sample questions, see [Questions with sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology). If your organization uses a different sales terminology or uses custom fields, reach out to your Dynamics 365 admin to [add those terms to the glossary](extend-copilot-chat.md#add-glossary). The glossary helps Copilot understand the context of your questions better.
+For a list of sample questions, see [Questions with sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology). If your organization uses a different sales terminology or uses custom fields, reach out to your Dynamics 365 Sales admin to [add those terms to the glossary](extend-copilot-chat.md#add-glossary). The glossary helps Copilot understand the context of your questions better.
 
 These questions are first answered using the data stored in Dataverse, which is the underlying data platform for Dynamics 365 Sales. If the answer isn't available in Dataverse, Copilot displays a follow-up prompt to search for the answer in SharePoint.  
 
