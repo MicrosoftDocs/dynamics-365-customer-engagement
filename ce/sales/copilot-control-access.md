@@ -1,7 +1,7 @@
 ---
 title: Control access to Copilot in Dynamics 365 Sales
 description: Learn how to control access to Copilot in Dynamics 365 Sales to manage who can use AI features and improve sales productivity.
-ms.date: 01/29/2026
+ms.date: 03/10/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -11,12 +11,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ai-usage: ai-assisted
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-desc
-  - ai-seo-date:10/03/2023
-  - ignite-2024
+ms.custom: bap-template
 ---
 
 ## Control access to Copilot in Dynamics 365 Sales
