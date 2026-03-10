@@ -1,9 +1,9 @@
 ---
 title: Default attributes used in Copilot summaries
 description: Learn about the default attributes used to generate summaries in Copilot in Dynamics 365 Sales. 
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: concept-article
 ms.collection: 
 ms.date: 11/07/2025

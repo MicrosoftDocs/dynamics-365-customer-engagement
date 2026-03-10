@@ -8,9 +8,9 @@ ms.custom:
 ms.topic: faq
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot 
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # FAQ about Copilot for emails
