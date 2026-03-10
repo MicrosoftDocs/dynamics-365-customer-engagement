@@ -42,7 +42,7 @@ Throughout this article, the term "sales app" refers to apps that have lead and 
 
 - Make sure that your organization's [data loss prevention policies allow the connectors that Copilot requires](sales-copilot-faq.md#copilot-isnt-working-what-should-i-do).
 
-- Make sure that your Power Platform administrator or Dynamics 365 administrator has [turned on Copilot in Dynamics 365 Sales in Power Platform Admin Center](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales).
+- Make sure that your Power Platform administrator has [turned on Copilot in Dynamics 365 Sales in Power Platform Admin Center](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales).
 
 ## Turn Copilot features on or off in Sales Hub
 
@@ -68,7 +68,7 @@ When you turn on Copilot features, you enable the chat and embedded Copilot expe
 
     You can override the global setting at the app level. For example, to turn on Copilot only for the Sales Hub app, select **Off** for **All apps**, and then under **Individual apps**, select **On** only for the Sales Hub app.
 
-    The initial setting depends on the setting for both the organization and the app. For example, if your Power Platform admin turns on Copilot for your organization, but your Power Apps admin turns it off for the Sales Hub app, the initial setting is **Off** for the Sales Hub app and **On** for all other sales apps.
+    The initial setting depends on the setting for both the organization and the app. For example, if your Power Platform admin turns on Copilot for your organization, but your Power Apps admin turns it off for the Sales Hub app, the initial setting is **Off** for the Sales Hub app and **On** for all other sales apps. Learn more in [Control access to Copilot in Dynamics 365 Sales](copilot-control-access.md).
 
 1. Save the changes.
 
