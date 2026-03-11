@@ -19,7 +19,7 @@ As of March 2026, extensibility configuration for Copilot is primarily managed i
 ## Prerequisites
 
 - You have the System Administrator or Customer Service administrator role.
-- A license for Microsoft Copilot Studio is available in your tenant. Learn more in [Manage Copilot credits and capacity](../power-platform/admin/manage-copilot-studio-messages-capacity) and [View agent's billing consumption](../microsoft-copilot-studio/analytics-consumption).
+- A license for Microsoft Copilot Studio is available in your tenant. Learn more in [Manage Copilot credits and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity) and [View agent's billing consumption](/microsoft-copilot-studio/analytics-consumption).
 - Copilot is enabled in Dynamics 365 Customer Service.
 
 ## Understand how Copilot extensibility works
