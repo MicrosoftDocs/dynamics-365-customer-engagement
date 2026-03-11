@@ -34,7 +34,7 @@ This report provides a holistic view of the conversations in real time. It inclu
 
 You can perform different actions, such as assign or transfer a conversation, as described in the following sections. 
 > [!NOTE]
-> You can't assign, transfer, monitor, or force close conversations in customized reports.
+> Actions like assign, transfer, monitor, or force close conversations aren't supported in model-customized reports.
 
 ## Assign or transfer conversations
 
