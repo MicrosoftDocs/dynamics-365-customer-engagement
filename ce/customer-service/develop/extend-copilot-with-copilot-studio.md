@@ -1,7 +1,6 @@
-
 ---
 title: Extend Copilot with Copilot Studio (preview)
-description: Learn how to extend Copilot in Dynamics 365 Customer Service by using Microsoft Copilot Studio.
+description: Learn how to extend Copilot in Dynamics 365 Customer Service by using the Microsoft Copilot Studio.
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -38,22 +37,21 @@ This approach ensures that custom extensibility is used when appropriate while m
 
 If your organization already uses plugins, the following scenarios apply:
 
-### You’re already using plugins and don’t need to make changes
+**You’re already using plugins and don’t need to make changes**
 
 No action is required. Existing plugins continue to work and remain available in **Ask a question** and other Copilot experiences.
 
-### You want to update existing plugins
+**You want to update existing plugins**
 
 To make changes to existing plugins, locate the relevant agent tool in Copilot Studio, and then update the tool configuration as needed.
 
 If you want to change anything beyond the connector or description, we recommend that you create a new tool in Copilot Studio. In this case, configuration in the Copilot Service admin center is no longer required, except for context settings.
 
-
 ## Enable Copilot Studio extensibility
 
 To enable Copilot Studio extensibility:
 
-1. Open the **Copilot Service admin center**.
+1. Open the **Copilot Service admin center** app.
 2. In the site map, go to **Copilot** > **Extend agent**.
 3. Select **Extend agent with Copilot Studio**.
 
