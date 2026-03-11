@@ -1,7 +1,7 @@
 ---
 title: Welcome to Dynamics 365 Customer Service
 description: Overview of Dynamics 365 Customer Service.
-ms.date: 06/30/2025
+ms.date: 03/31/2026
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -84,6 +84,12 @@ If you use a mobile device with Dynamics 365 for phones and tablets installed, y
 
 > [!NOTE]
 > If you previously installed any portal solution, to create a case in the Customer Service Hub app or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. Learn more in [Turn off Read-only in mobile option](../../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
+
+## Copilot agent overview
+
+Copilot in Dynamics 365 Customer Service includes AI agents that support different service scenarios.
+
+These agents are grouped into categories based on the type of work they support, such as assisting customer service representatives during interactions, helping supervisors with operations, or enabling administrators to configure Copilot experiences.
 
 ## Accessibility and privacy in the Customer Service apps
 
