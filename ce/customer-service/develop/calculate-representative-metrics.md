@@ -129,7 +129,7 @@ Service level (10 seconds) = ​DIVIDE (​SUMX (​FactConversation,​IF (​F
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Percentage of eligible conversations that were accepted within the configured service‑level threshold (first wait time ≤ queue service level threshold), excluding short‑abandoned conversations, divided by total eligible incoming conversations.
+The percentage of eligible conversations accepted within the configured service‑level threshold (first wait time ≤ queue service level threshold), excluding short‑abandoned conversations, divided by total eligible incoming conversations.
 
 ### DAX query and Dataverse reference
 
@@ -144,12 +144,12 @@ Service level % =  DIVIDE (SUMX (FactConversation, IF (FactConversation[InServic
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |  [queue](https://learn.microsoft.com/en-us/dynamics365/developer/reference/entities/queue)|
-|Attributes  |- [msdyn_queueservicelevelthreshold](/developer/reference/entities/queue#BKMK_msdyn_queueservicelevelthreshold)  |
+|Dataverse entities |  [queue](/dynamics365/developer/reference/entities/queue)|
+|Attributes  |- [msdyn_queueservicelevelthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_queueservicelevelthreshold)  |
 
 ## Service level excluding short abandons percentage
 
-Percentage of eligible incoming conversations that were accepted within the configured service‑level threshold, excluding conversations that were abandoned within the short‑abandon threshold, calculated as accepted-in‑SLA conversations divided by total eligible incoming conversations (excluding short abandons).
+The percentage of eligible incoming conversations accepted within the configured service-level threshold. Conversations abandoned within the short-abandon threshold are excluded. This metric divides accepted within SLA conversations by the total eligible incoming conversations, minus short abandons.
 
 ### DAX query and Dataverse reference
 
@@ -163,12 +163,12 @@ Service level excluding short abandons % =  VAR SuccessfulAnswers =  SUMX ( Fact
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |  [queue](https://learn.microsoft.com/en-us/dynamics365/developer/reference/entities/queue) |
-|Attributes  |- [msdyn_queueservicelevelthreshold](/developer/reference/entities/queue#BKMK_msdyn_queueservicelevelthreshold) <br> - [msdyn_shortabandonedthreshold]/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold)|
+|Dataverse entities |  [queue](/dynamics365/developer/reference/entities/queue) |
+|Attributes  |- [msdyn_queueservicelevelthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_queueservicelevelthreshold) <br> - [msdyn_shortabandonedthreshold]/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold)|
 
 ## Service level including abandon percentage
 
-Percentage of eligible incoming conversations whose first wait time is within the configured service‑level threshold, including conversations that are later abandoned (no exclusion for short abandons), calculated as conversations meeting the SLA threshold divided by total eligible incoming conversations.
+The percentage of eligible incoming conversations whose first wait time is within the configured service‑level threshold, including conversations that are later abandoned (no exclusion for short abandons), calculated as conversations meeting the SLA threshold divided by total eligible incoming conversations.
 
 ### DAX query and Dataverse reference
 
@@ -182,8 +182,8 @@ Service level including abandons % = VAR SuccessfulAnswers = SUMX ( FactConversa
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |  [queue](https://learn.microsoft.com/en-us/dynamics365/developer/reference/entities/queue) |
-|Attributes  |- [msdyn_queueservicelevelthreshold](/developer/reference/entities/queue#BKMK_msdyn_queueservicelevelthreshold) |
+|Dataverse entities |  [queue](/dynamics365/developer/reference/entities/queue) |
+|Attributes  |- [msdyn_queueservicelevelthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_queueservicelevelthreshold) |
 
 
 ## Conversations in service level (10, 20, 30, 40, 50, 60, 120 secs)
