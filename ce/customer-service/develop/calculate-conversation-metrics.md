@@ -294,7 +294,7 @@ DIVIDE( [Abandoned conversations], CALCULATE([Incoming conversations], REMOVEFIL
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |[msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension)|
-|Attributes | [msdyn_OverflowCondition](/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowCondition)|
+|Attributes | [msdyn_OverflowCondition](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowCondition)|
 |Filters  | msdyn_sessionextension.msdyn_overflowcondition isn't null.|
 
 ## Conversation first wait time
