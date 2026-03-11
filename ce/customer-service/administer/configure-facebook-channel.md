@@ -43,9 +43,9 @@ The following Facebook roles and permissions are required for integrating your F
 
 - Facebook users who don’t have a role in the Facebook app must have the `pages_messaging` permission to send messages to a Facebook page from contact center. The app owner must provide the `pages_messaging` permission for users to be able to send messages. More information: [pages_messaging](https://developers.facebook.com/docs/permissions/reference/pages_messaging/)
 
-- If the Facebook app that you’re using is in development mode, only those Facebook users who have roles within the app can send messages to the Facebook page. The messages can be received by or forwarded to Dynamics 365 Contact Center. More information: [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/)
+- If the Facebook app that you’re using is in development mode, only Facebook users who have roles within the app can send messages to the Facebook page. The Facebook app can receive messages from or forward messages to Dynamics 365 Contact Center. Learn more in [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/).
 
-- For Dynamics 365 Contact Center to be able to retrieve the customer’s username from Facebook, the customer must request for Business Asset User Profile Access in their Facebook app. More information: [Business Asset User Profile Access](https://developers.facebook.com/docs/features-reference/business-asset-user-profile-access)
+- For Dynamics 365 Contact Center to be able to retrieve the customer’s username from Facebook, the customer must request for Business Asset User Profile Access in their Facebook app. Learn more in [Business Asset User Profile Access](https://developers.facebook.com/docs/features-reference/business-asset-user-profile-access).
 - 
 ## Privacy notice
 
@@ -63,7 +63,7 @@ To configure a Facebook channel, the following steps are required:
 
 ### Create the Facebook channel account
 
-1. In the site map of Copilot Service admin center, in **Customer support**, select **Channels**.
+1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**.
 1. In **Accounts**, for **Messaging accounts**, select **Manage**.
 
 1. On the **Accounts and channels** page, select **New account**.
