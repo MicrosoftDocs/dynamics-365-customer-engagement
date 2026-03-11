@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: concept-article
 ms.collection:
-ms.date: 03/06/2026
+ms.date: 03/11/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -199,7 +199,7 @@ Total capacity units represent the workload capacity assigned to a representativ
 
 *Applies to Omnichannel real-time dashboards.*
 
-The total maximum capacity profile units available, for both agent-specific and default capacity profile limits.
+The total maximum capacity profile units available across agent‑specific and default profiles, representing the overall capacity ceiling for work distribution.
 
 ### DAX query and Dataverse reference
 
@@ -265,7 +265,7 @@ Total work item capacity in use = SUM ( FactAgentCapacityProfile[OccupiedProfile
 
 ## Load percentage in agent capacity profile
 
-*Applies to **need info**.*
+*Applies to Omnichannel real-time dashboards.*
 
 A percentage measure that calculates agent capacity utilization. This metric is available only through visual or data model customization.
 
@@ -277,15 +277,29 @@ Load % : Divide ([Total work item capacity in use] by [Total agent work item cap
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |- msdyn_agentcapacityprofileunit - Stores per-agent capacity profile unit tracking <br> -   msdyn_capacityprofile - Stores capacity profile configuration|
-|Attributes  |- msdyn_agentcapacityprofileunit.msdyn_availablecapacityprofileunits: Available capacity units for the agent <br>-  msdyn_agentcapacityprofileunit.msdyn_defaultmaxunits: Agent-specific maximum capacity units (overrides profile default if set) <br>- msdyn_capacityprofile.msdyn_defaultmaxunits: Capacity profile default maximum units <br>- msdyn_agentcapacityprofileunit.msdyn_agentid: Agent (systemuser) <br>- msdyn_agentcapacityprofileunit.msdyn_capacityprofileid |
-|Filters  | Need info ​|
+|Dataverse entities |- [msdyn_agentcapacityprofileunit](/developer/reference/entities/msdyn_agentcapacityprofileunit) - Stores per-agent capacity profile unit tracking <br> -   [msdyn_capacityprofile](/developer/reference/entities/msdyn_capacityprofile) - Stores capacity profile configuration|
+|Attributes  |- [msdyn_agentcapacityprofileunit](/developer/reference/entities/msdyn_agentcapacityprofileunit).[msdyn_availablecapacityprofileunits](/developer/reference/entities/msdyn_agentcapacityprofileunit#BKMK_msdyn_availablecapacityprofileunits): Available capacity units for the agent <br>-  [msdyn_agentcapacityprofileunit](/developer/reference/entities/msdyn_agentcapacityprofileunit).[msdyn_defaultmaxunits](/developer/reference/entities/msdyn_agentcapacityprofileunit#BKMK_msdyn_availablecapacityprofileunits): Agent-specific maximum capacity units (overrides profile default if set) <br>- [msdyn_capacityprofile](/developer/reference/entities/msdyn_capacityprofile).[msdyn_defaultmaxunits](/developer/reference/entities/msdyn_agentcapacityprofileunit#BKMK_msdyn_defaultmaxunits): Capacity profile default maximum units <br>- [msdyn_agentcapacityprofileunit](/developer/reference/entities/msdyn_agentcapacityprofileunit).[msdyn_agentid](/developer/reference/entities/msdyn_agentcapacityprofileunit#BKMK_msdyn_agentid): Agent (systemuser) <br>- msdyn_agentcapacityprofileunit.msdyn_capacityprofileid |
 
 ### Related metrics
 
 - [Total work item capacity in use](#total-work-item-capacity-in-use)
 - [Total representative work item capacity](#total-representative-work-item-capacity)
 - **Total available capacity units**: The number of capacity units that are available to handle conversations.
+
+## Available capacity
+
+The total number of unoccupied capacity profile units currently available, indicating the remaining capacity for new work item assignments.
+
+```dax
+
+SUM(FactAgentCapacityProfile[AvailableProfileUnits])
+
+```
+
+Element|Value  |
+|---------|---------|
+|Dataverse entities |- msdyn_agentcapacityprofileunit: Stores per agent capacity profile unit tracking <br> - msdyn_capacityprofile: Stores capacity profile configuration |
+|Attributes| msdyn_availablecapacityprofileunits|
 
 ## Logged in service representatives
 
