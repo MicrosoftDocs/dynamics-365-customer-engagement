@@ -7,9 +7,9 @@ ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-author: lavanyakr01
-ms.author: lavanyakr
-ms.reviewer: lavanyakr
+author: udaykirang
+ms.author: udag
+ms.reviewer: udag
 ms.custom:
   - bap-template
 ---
