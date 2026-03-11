@@ -2,7 +2,7 @@
 title: Extend Copilot with Copilot Studio (preview)
 description: Learn how to extend Copilot in Dynamics 365 Customer Service by using the Microsoft Copilot Studio.
 author: lalexms
-ms.author: laalexan
+ms.author: borisvolfson
 ms.reviewer: laalexan
 ms.topic: how-to
 ms.date: 03/11/2026
