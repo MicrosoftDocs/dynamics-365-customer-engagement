@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
 description: Learn how to configure a Facebook channel and corresponding Facebook pages in Dynamics 365 Contact Center.
-ms.date: 03/03/2025
+ms.date: 03/12/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -103,7 +103,7 @@ To configure a Facebook channel, the following steps are required:
    1. On the **Language** page, select the language to use.
    
    1. On the **Behaviors** page, configure the following options:
-      - Custom automated messages
+      - [Custom automated messages](configure-automated-message.md)
       - [Post-conversation survey](configure-post-conversation-survey.md)
    1. On the **User features** page, configure the following options:
       - **File attachments:** When set to yes for both customer and representative, they can send and receive file attachments. Learn more in [Enable file attachments](enable-file-attachments.md). The availability and support of media is dependent on the Facebook application settings. Learn more in [Facebook updates](https://developers.facebook.com/docs/messenger-platform/europe-updates).
