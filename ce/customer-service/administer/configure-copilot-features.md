@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 01/19/2026
+ms.date: 03/31/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.collection: bap-ai-copilot
@@ -21,6 +21,18 @@ However, for representatives to use these features in Customer Service Hub and c
 
 > [!NOTE]
 > Summarize conversations is available for use in Copilot Service workspace only.
+
+## Copilot agent categories
+
+Copilot features in Dynamics 365 Customer Service are delivered through AI agents that are grouped by the type of scenarios they support and the users who interact with them.
+
+The following agent categories are available:
+
+- **Service delivery agents** help customer service representatives during active customer interactions.
+- **Service operations agents** help supervisors with operational and analytical tasks.
+- **Service onboarding agents** help administrators enable, configure, and manage Copilot experiences.
+
+This article focuses on administering Copilot features by enabling and managing the relevant agents and their capabilities.
 
 ## Prerequisites
 
@@ -55,9 +67,9 @@ Copilot feature performance is based on the regional availability of the Azure O
 Learn about supported languages for Copilot in [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
 
 
-## Data sharing for copilot features
+## Data sharing for Copilot features
 
-You can turn on data sharing for Dynamics 365 copilot features in the Power Platform admin center app. Data sharing allows Microsoft to capture and manually review customer data, including, but not limited to, users' natural language inputs, outputs, and related telemetry to build, improve, and/or validate Microsoft's features, services, machine learning models, and related systems for Dynamics 365 and Power Platform Copilot AI features. We don't use customer data to train Azure OpenAI Service foundation models.
+You can turn on data sharing for Dynamics 365 Copilot features in the Power Platform admin center app. Data sharing allows Microsoft to capture and manually review customer data, including, but not limited to, users' natural language inputs, outputs, and related telemetry to build, improve, and/or validate Microsoft's features, services, machine learning models, and related systems for Dynamics 365 and Power Platform Copilot AI features. We don't use customer data to train Azure OpenAI Service foundation models.
 
 Learn more in [Tenant settings](/power-platform/admin/tenant-settings) and [FAQ for optional data sharing for Copilot AI features in Dynamics 365 and Power Platform](/power-platform/faqs-copilot-data-sharing).
 
@@ -113,7 +125,7 @@ In the **Summaries** and **Copilot for questions and emails** configuration page
 
 ## Assign roles and privileges
 
-Out of the box, users with the Customer Service Representative role only can use the copilot features. Therefore, make sure that users with custom roles have the following privileges: 
+Out of the box, users with the Customer Service Representative role only can use the Copilot features. Therefore, make sure that users with custom roles have the following privileges: 
 
 |Table | Name | Create | Read | Write | Append | Append To |
 |------|------|--------|------|-------|--------|-----------|
@@ -154,5 +166,5 @@ Out of the box, users with the Customer Service Representative role only can use
 ### Related information
  
 [Draft a chat response](../use/use-copilot-features.md)  
-[Responsible AI FAQ for Copilot in Customer Servic](../implement/faq-responsible-ai-copilot.md)  
+[Responsible AI FAQ for Copilot in Customer Service](../implement/faq-responsible-ai-copilot.md)  
 [FAQ for Copilot in Customer Service](faq-copilot-features.md)  
