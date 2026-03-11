@@ -232,9 +232,9 @@ IsEngaged = CALCULATE(TRUE(),FactConversation[IsOffered], FactConversation[IsAge
 
 *Applies to Omnichannel real-time dashboards.*
 
-An abandoned conversation occurs when a customer escalates to a service representative—either directly or through a voice or chat agent—and the conversation closes before the representative accepts it.
+An abandoned conversation occurs when a customer escalates to a service representative, either directly or through a voice or chat agent, and the conversation closes before the representative accepts it.
 
-Only inbound conversations count toward abandonment rates. Outbound conversations and those deflected by a chatbot or IVR/voice agent aren't included.
+Only inbound conversations count toward abandonment rates. Outbound conversations and those deflected by an agent or IVR/voice agent aren't included.
 
 Customers may abandon a conversation because of long wait times, supervisor intervention, or overflow rules like voicemail or external transfers.
 
@@ -252,6 +252,102 @@ Abandoned conversations = ​SUMX(FactConversation, IF (FactConversation[IsAband
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)​, msdyn_liveworkstream |
 |Attributes |- msdyn_ocliveworkitem.msdyn_isagentsession ​<br> - msdyn_ocliveworkitem.msdyn_channelinstanceid ​<br> - msdyn_liveworkstream.msdyn_streamsource ​<br> - msdyn_ocliveworkitem.msdyn_isabandoned ​<br> - msdyn_ocliveworkitem.statuscode ​<br> - msdyn_ocliveworkitem.msdyn_isoutbound  |
 |Filters  | - Direction is only incoming conversations and when isagentsession is set to 1. <br> - msdyn_ocliveworkitem.msdyn_isagentsession is set to 1 for conversations escalated to a service representative (either directly or through Voice or chat agent). <br> - Filter the FactConversations table to include only rows from msdyn_ocliveworkitem where msdyn_channelinstanceid is NULL. <br> -  Exclude rows where msdyn_liveworkstream.msdyn_streamsource isn't equal to '192350000'​. <br> - Isoutbound is based on msdyn_ocliveworkitem.msdyn_isoutbound not equal to 1 for incoming conversations.|
+
+## Abandoned conversations (excludes short abandons)
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Inbound conversations that customers abandoned beyond the short‑abandon threshold, representing meaningful abandons that impact service performance. Excluding short abandons removes noise from early hang‑ups, producing more accurate abandonment and service‑level KPIs that better reflect operational performance.
+
+**DAX query**
+
+```dax
+
+Abandoned conversations (excl. short abandons) = [Abandoned conversations] - [Short abandoned]
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[queue](/dynamics365/developer/reference/entities/queue)​ |
+|Attributes |msdyn_shortabandonedthreshold |
+
+## Short abandoned
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Number of inbound conversations that were abandoned within the short abandon threshold (based on first wait time).
+
+**DAX query**
+
+```dax
+
+Short abandoned = SUMX ( FactConversation, IF(FactConversation[IsShortAbandoned], 1, 0))
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[queue](/dynamics365/developer/reference/entities/queue)​ |
+|Attributes |msdyn_shortabandonedthreshold |
+
+## Short abandon rate
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Short Abandon Rate measures the percentage of inbound conversations that were abandoned within the short abandon threshold, relative to all incoming conversations.
+
+**DAX query**
+
+```dax
+
+Short abandon rate = DIVIDE ([Short abandoned], CALCULATE ([Incoming conversations], REMOVEFILTER (ProxyConversationLastOverflow) ), BLANK())
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |msdyn_sessionextension, [queue](/dynamics365/developer/reference/entities/queue)​ |
+|Attributes |msdyn_overflowcondition, msdyn_shortabandonedthreshold |
+
+## Abandoned rate (excluding short abandons)
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Percentage of inbound conversations abandoned beyond the short‑abandon threshold, calculated against all incoming conversations regardless of overflow conditions.
+
+**DAX query**
+
+```dax
+
+Abandoned rate (excl. short abandons) = DIVIDE ( [Abandoned conversations (excl. short abandons)], CALCULATE ( [Incoming conversations], REMOVEFILTERS(ProxyConversationLastOverflow) ), BLANK())
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |msdyn_sessionextension, [queue](/dynamics365/developer/reference/entities/queue)​ |
+|Attributes |msdyn_overflowcondition, msdyn_shortabandonedthreshold |
+
+## Incoming conversation (excludes short abandons)
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Incoming conversations excluding short abandons represent all inbound conversations minus those that were abandoned within the configured short‑abandon threshold (based on first wait time). Only conversations that are not classified as short abandoned are counted. It provides a cleaner denominator for KPIs (e.g., abandonment rate, service level excluding short abandons) by removing very short, early abandons that would otherwise skew rates.
+
+**DAX query**
+
+```dax
+
+Incoming conversation (excl. short abandons) = [Incoming conversations] - [Short abandoned]
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[queue](/dynamics365/developer/reference/entities/queue)​ |
+|Attributes | msdyn_shortabandonedthreshold |
+
 
 ## Conversation first wait time
 
