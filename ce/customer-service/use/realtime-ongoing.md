@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: concept-article
 ms.collection:
-ms.date: 03/10/2026
+ms.date: 03/11/2026
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -32,7 +32,9 @@ This report provides a holistic view of the conversations in real time. It inclu
 
 :::image type="content" source="../media/realtime_ongoing conversations.png" alt-text="The image shows real-time ongoing conversations report.":::
 
-You can perform different actions, such as assign or transfer a conversation, as described in the following sections.
+You can perform different actions, such as assign or transfer a conversation, as described in the following sections. 
+> [!NOTE]
+> You can't assign, transfer, monitor, or force close conversations in customized reports.
 
 ## Assign or transfer conversations
 
