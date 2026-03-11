@@ -307,7 +307,7 @@ Short abandon rate = DIVIDE ([Short abandoned], CALCULATE ([Incoming conversatio
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |[msdyn_sessionextension](/dynamics365//developer/reference/entities/msdyn_sessionextension), [queue](/dynamics365/developer/reference/entities/queue)​ |
+|Dataverse entities |[msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension), [queue](/dynamics365/developer/reference/entities/queue)​ |
 |Attributes |[msdyn_overflowcondition](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowCondition), [msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold) |
 
 ## Abandoned rate (excluding short abandons)
