@@ -217,7 +217,7 @@ Total agent work item capacity = SUM(FactAgentCapacityProfile[TotalAgentCapacity
 
 ### Related metrics
 
-- **Available capacity**: The total number of available capacity profile units for new work item assignments.
+- [Available capacity](#available-capacity)
 
 ## Assigned capacity profile count
 
