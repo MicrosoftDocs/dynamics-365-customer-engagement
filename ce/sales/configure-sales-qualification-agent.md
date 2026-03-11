@@ -1,7 +1,7 @@
 ---
 title: Set up and configure the Sales Qualification Agent
 description: Set up the Sales Qualification Agent in Dynamics 365 Sales to automate lead research, engagement, and outreach with AI-powered assistance. Learn how to configure it effectively.
-ms.date: 03/09/2026
+ms.date: 03/11/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -94,6 +94,9 @@ If you're using out-of-the-box security roles such as Salesperson and Sales Mana
 | Notification (appnotification) | **Basic-level**: Read |
 | Synthesizer Output (msdyn_synthesizeroutput)<br>Summary Synthesizer Input (msdyn_summarysynthesizerinput)<br>Lead Agent Result (msdyn_leadagentresult)<br>Sales Agent Profile (msdyn_salesagentprofile)<br>Sales Agent Run (msdyn_salesagentrun)<br>Sales Agent Configuration v2 (msdyn_salesagentconfigurationv2) | **Global-level**: Read |
 | Engagement Readiness Agent Result (msdyn_engagereadinessagentresult) | **Basic-level**: Read, Write |
+| Account Research Result (msdyn_accountresearchresult)<br>Account Research Agent Trigger (msdyn_accountresearchagenttrigger)<br>Customization Agent Trigger (msdyn_customizationagenttrigger)<br>Custom OOB Research Result (msdyn_customoobresearchresult)<br>OOB Account Research Result (msdyn_oobaccountresearchresult)<br>Custom Account Insights Result (msdyn_customaccountinsightsresult) | **Global-level**: Read, Append, Append To, Assign, Write, Create, Delete |
+| Outreach Agent Result (msdyn_outreachagentresult)<br>Outreach Trigger Agent (msdyn_outreachtriggeragent) | **Global-level**: Read; **Basic-level**: Append, Append To, Assign, Write, Create, Delete |
+
 
 Learn more about granting permissions in [Define the privileges and properties of a security role](/power-platform/admin/security-roles-privileges?tabs=new#define-the-privileges-and-properties-of-a-security-role).
 
