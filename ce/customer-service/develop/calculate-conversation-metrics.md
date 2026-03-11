@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 10/17/2025
+ms.date: 03/10/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -252,6 +252,50 @@ Abandoned conversations = ​SUMX(FactConversation, IF (FactConversation[IsAband
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)​, msdyn_liveworkstream |
 |Attributes |- msdyn_ocliveworkitem.msdyn_isagentsession ​<br> - msdyn_ocliveworkitem.msdyn_channelinstanceid ​<br> - msdyn_liveworkstream.msdyn_streamsource ​<br> - msdyn_ocliveworkitem.msdyn_isabandoned ​<br> - msdyn_ocliveworkitem.statuscode ​<br> - msdyn_ocliveworkitem.msdyn_isoutbound  |
 |Filters  | - Direction is only incoming conversations and when isagentsession is set to 1. <br> - msdyn_ocliveworkitem.msdyn_isagentsession is set to 1 for conversations escalated to a service representative (either directly or through Voice or chat agent). <br> - Filter the FactConversations table to include only rows from msdyn_ocliveworkitem where msdyn_channelinstanceid is NULL. <br> -  Exclude rows where msdyn_liveworkstream.msdyn_streamsource isn't equal to '192350000'​. <br> - Isoutbound is based on msdyn_ocliveworkitem.msdyn_isoutbound not equal to 1 for incoming conversations.|
+
+## Abandoned conversations (by overflow filter)
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboard.*
+
+The number of abandoned conversations attributed to the last overflow condition or action. You can filter abandoned conversations by overflow reason. This metric doesn't change the core abandoned conversation calculation.
+
+### DAX query and Dataverse reference
+
+[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)]
+
+**DAX query**
+
+```dax
+
+Abandoned conversations (by overflow filter) = [Abandoned conversations]
+
+```
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |msdyn_ocliveworkitem, msdyn_liveworkstream|
+|Attributes | msdyn_ocliveworkitem.msdyn_isagentsession <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid <br> - msdyn_liveworkstream.msdyn_streamsource <br> - msdyn_ocliveworkitem.msdyn_isabandoned <br> - msdyn_ocliveworkitem.statuscode <br> - msdyn_ocliveworkitem.msdyn_isoutbound |
+|Filters  | Direction is incoming conversations only and when isagentsession is set to 1. <br> - msdyn_ocliveworkitem.msdyn_isagentsession is set to 1 for conversations escalated to a service representative (either directly or through coice or chat agent). <br> - Filter the FactConversations table to include only rows from msdyn_ocliveworkitem where msdyn_channelinstanceid is NULL. <br> - Exclude rows where msdyn_liveworkstream.msdyn_streamsource isn't equal to '192350000'. <br> - Isoutbound is based on msdyn_ocliveworkitem.msdyn_isoutbound not equal to 1 for incoming conversations.|
+
+## Conversations abandoned rate (by overflow filter) 
+
+Conversations abandoned rate (by Overflow Filter) is a metric that measures the proportion of incoming conversations that are abandoned, specifically when filtered by overflow conditions. It is calculated by dividing the number of abandoned conversations by the total number of incoming conversations, while explicitly removing the overflow filter from the denominator. This ensures the rate is based on all incoming conversations, not just those affected by a particular overflow condition, providing a more accurate baseline for comparison.
+
+### DAX query and Dataverse reference
+
+[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)]
+
+**DAX query**
+
+```dax
+
+DIVIDE( [Abandoned conversations], CALCULATE([Incoming conversations],               REMOVEFILTERS(ProxyConversationLastOverflow)), BLANK())
+
+```
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |msdyn_sessionextension|
+|Attributes | msdyn_OverflowCondition |
+|Filters  | msdyn_sessionextension.msdyn_overflowcondition isn't null.|
 
 ## Conversation first wait time
 
