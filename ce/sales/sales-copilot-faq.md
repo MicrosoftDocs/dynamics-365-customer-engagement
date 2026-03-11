@@ -7,7 +7,7 @@ ms.reviewer: lavanyakr
 ms.topic: concept-article
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 08/07/2025
+ms.date: 03/09/2026
 ms.update-cycle: 180-days
 ---
 
@@ -31,14 +31,21 @@ Only an administrator can disable Copilot in Dynamics 365 Sales. Learn more in [
 
 The data that's included in the requests varies based on the type of request. For example, when you summarize an opportunity, the relevant fields of the opportunity and associated metadata are pushed to the Azure OpenAI endpoint to generate a summary.
 
+<a name="summary-fields"></a>
+## Can I view the summary of different fields?
+
+Copilot generates its summary from a set of predefined fields. However, other fields might be more important to you. For example, you might want to see estimated revenue, close date, contact, pipeline stage, and proposed solution as the first things in an opportunity. Work with your Dynamics 365 Sales administrator to [add those fields to the summary](copilot-configure-summary-fields.md).
+
+Keep in mind that the summary fields are set at the organization level. Make sure that your entire sales team agrees on the *top 15* fields that are most relevant for your business.
+
 ## Why can't I see the latest news for an account?
 
 Copilot uses Bing to fetch the latest news for an account. If you can't see the latest news for an account, it might be because of the following reasons:
 
 - Bing doesn't have any news for that account.  
-- Your administrator hasn't provided consent for Copilot to use Bing.
+- You might have [turned off Bing search](use-sales-copilot.md#turn-off-bing-search) in the Copilot settings. 
+- Your administrator hasn't [provided consent for Copilot to use Bing](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
 
-Learn more about turning on Bing consent in [Turn on copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1)
 
 ## Is any of my data stored outside of Dynamics 365?
 
@@ -91,7 +98,7 @@ Copilot in Dynamics 365 Sales can't be turned on for the following applications:
 
 ## Why does my tenant have an app called Copilot in Dynamics 365 Sales?
 
-The Copilot in Dynamics 365 Sales app is part of the Dynamics 365 Sales solution. It can't be deleted or turned off. It's installed in all Dynamics 365 Sales environments, whether Copilot in Dynamics 365 Sales is turned on or not. When Copilot in Dynamics 365 Sales is turned on, the app is used to authenticate and authorize Copilot. If Copilot in Dynamics 365 Sales is turned off, the app remains dormant in your environment. The app is updated automatically.
+The Copilot in Dynamics 365 Sales app is part of the Dynamics 365 Sales solution. It can't be deleted or turned off. It's installed in all Dynamics 365 Sales environments, whether Copilot in Dynamics 365 Sales is turned on or not. When Copilot in Dynamics 365 Sales is turned on, the app is used to authenticate and authorize Copilot. If Copilot is turned off, the app remains dormant in your environment. The app is updated automatically.
 
 
 A related app with the same name is also created for your tenant in Microsoft Azure for authentication and authorization purposes. The app is automatically renewed when it nears expiration. We recommend that you don't delete or turn off this app.
@@ -104,7 +111,7 @@ Copilot determines whether a document is a sales document or not based on the co
 
 When you open Copilot in Dynamics 365 Sales, Copilot doesn't respond, and you might see a message stating that Copilot is unable to connect and to try again later. There could be several reasons why Copilot isn't working as expected. Some of the common reasons are:
 
-- Publishing of agent might have failed when it was created for the first time. To resolve this issue, try republishing the agent. After you successfully publish the agent, you don't need to republish it unless you change the agent configuration.
+- Publishing of the Copilot in Dynamics 365 Sales agent in Microsoft Copilot Studio might have failed when it was created for the first time. To resolve this issue, try republishing the agent. After you successfully publish the agent, you don't need to republish it unless you change the agent configuration.
 - Your organization has [Data policies](/power-platform/admin/wp-data-loss-prevention) which are blocking the following connectors.  
     - Microsoft Dataverse  
     - Direct Line channels in Copilot Studio  
