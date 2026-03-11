@@ -1,7 +1,7 @@
 ---
 title: Copilot Service admin center
 description: Get started with Copilot Service admin center to configure the various features and settings in Customer Service.
-ms.date: 02/19/2026
+ms.date: 03/31/2026
 ms.topic: concept-article
 ms.collection: get-started
 author: neeranelli
@@ -31,6 +31,18 @@ The features include:
 - The site map adapts to the capabilities that are provisioned. Based in core Customer Service, if Dynamics 365 Contact Center is provisioned, then other features are automatically available.
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=1a9dd7f8-3c00-46c9-bda3-b567b5651f71]
+
+## Copilot agent management
+
+The Copilot Service admin center is where administrators manage Copilot agents and their capabilities.
+
+Copilot agents are organized into categories:
+
+- **Service delivery agents** for customer service representatives
+- **Service operations agents** for supervisors
+- **Service onboarding agents** for administrators
+
+Administrators use this app to manage the availability of Copilot agents, configure their capabilities, and control access based on user roles.
 
 ## Prerequisites
 
