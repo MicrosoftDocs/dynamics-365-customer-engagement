@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
 description: Learn how to configure a Facebook channel and corresponding Facebook pages in Dynamics 365 Contact Center.
-ms.date: 03/12/2026
+ms.date: 03/11/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
