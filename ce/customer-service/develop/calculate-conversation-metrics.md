@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 10/17/2025
+ms.date: 03/11/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -257,7 +257,7 @@ Abandoned conversations = ​SUMX(FactConversation, IF (FactConversation[IsAband
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Inbound conversations that customers abandoned beyond the short‑abandon threshold, representing meaningful abandons that impact service performance. Excluding short abandons removes noise from early hang‑ups, producing more accurate abandonment and service‑level KPIs that better reflect operational performance.
+Inbound conversations that customers abandoned after the short-abandon threshold. These are meaningful abandons that affect service performance. Because short abandons from early hang-ups are excluded, the resulting abandonment and service-level KPIs more accurately reflect operational performance.
 
 **DAX query**
 
@@ -276,7 +276,7 @@ Abandoned conversations (excl. short abandons) = [Abandoned conversations] - [Sh
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Number of inbound conversations that were abandoned within the short abandon threshold (based on first wait time).
+Number of inbound conversations that customers abandoned within the short-abandon threshold, based on first wait time.
 
 **DAX query**
 
@@ -295,7 +295,7 @@ Short abandoned = SUMX ( FactConversation, IF(FactConversation[IsShortAbandoned]
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Short Abandon Rate measures the percentage of inbound conversations that were abandoned within the short abandon threshold, relative to all incoming conversations.
+Percentage of inbound conversations that customers abandoned within the short-abandon threshold, out of all the incoming conversations.
 
 **DAX query**
 
@@ -307,14 +307,14 @@ Short abandon rate = DIVIDE ([Short abandoned], CALCULATE ([Incoming conversatio
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |msdyn_sessionextension, [queue](/dynamics365/developer/reference/entities/queue)​ |
+|Dataverse entities |[msdyn_sessionextension](/developer/reference/entities/msdyn_sessionextension), [queue](/dynamics365/developer/reference/entities/queue)​ |
 |Attributes |msdyn_overflowcondition, [msdyn_shortabandonedthreshold](/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold) |
 
 ## Abandoned rate (excluding short abandons)
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Percentage of inbound conversations abandoned beyond the short‑abandon threshold, calculated against all incoming conversations regardless of overflow conditions.
+Percentage of inbound conversations that customers abandoned after the short-abandon threshold, out of all incoming conversations, regardless of overflow conditions.
 
 **DAX query**
 
@@ -326,14 +326,14 @@ Abandoned rate (excl. short abandons) = DIVIDE ( [Abandoned conversations (excl.
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |msdyn_sessionextension, [queue](/dynamics365/developer/reference/entities/queue)​ |
+|Dataverse entities |[msdyn_sessionextension](/developer/reference/entities/msdyn_sessionextension), [queue](/dynamics365/developer/reference/entities/queue)​ |
 |Attributes |msdyn_overflowcondition, [msdyn_shortabandonedthreshold](/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold) |
 
 ## Incoming conversation (excludes short abandons)
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Incoming conversations excluding short abandons represent all inbound conversations minus those that were abandoned within the configured short‑abandon threshold (based on first wait time). Only conversations that are not classified as short abandoned are counted. It provides a cleaner denominator for KPIs (e.g., abandonment rate, service level excluding short abandons) by removing very short, early abandons that would otherwise skew rates.
+Total inbound conversations minus those abandoned within the short-abandon threshold (based on first wait time). This metric excludes short abandons, giving you a more accurate denominator for KPIs like abandonment rate and service level. By filtering out early hang-ups, these rates better reflect actual operational performance.
 
 **DAX query**
 
