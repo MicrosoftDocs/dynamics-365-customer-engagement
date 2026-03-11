@@ -1,7 +1,7 @@
 ---
 title: Configure the Sales Close Agent - Research (preview)
 description: Learn how to set up and configure the Sales Close Agent - Research in Dynamics 365 Sales.
-ms.date: 03/13/2026
+ms.date: 03/09/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -20,6 +20,14 @@ ai-usage: ai-assisted
 As an administrator, you can configure the Sales Close Agent - Research in Dynamics 365 Sales to help sales professionals gain insights and recommendations for the opportunities they're working on. The agent automatically gathers information from various sources, providing a streamlined research experience, stakeholder and competitor intelligence, and actionable risk mitigation strategies. Learn more in [Sales Close Agent](sales-close-agent.md).
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+## Plan your implementation
+
+Before you set up the agent, consider the following:
+
+- **Pick one product line.** The products should be handled by a single sales team. If your company sells multiple products through different sales teams, start with one product line.
+- **Define an opportunity segment.** Determine the segment of opportunities for the agent to handle. For example, only opportunities that are **Hot** with an estimated revenue of $100,000 or more.
+- **Predictive scoring dependency.** The agent uses the machine learning model in predictive opportunity scoring for risk assessment. If you didn't configure scoring in your environment, it's configured automatically when you start the agent.
 
 ## Prerequisites
 
@@ -42,14 +50,6 @@ Ensure that you meet the following prerequisites before configuring the agent.
 
     Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tabs=new).
 
-## Plan your implementation
-
-Before you set up the agent, consider the following:
-
-- **Pick one product line.** The products should be handled by a single sales team. If your company sells multiple products through different sales teams, start with one product line.
-- **Define an opportunity segment.** Determine the segment of opportunities for the agent to handle. For example, only opportunities that are **Hot** with an estimated revenue of $100,000 or more.
-- **Predictive scoring dependency.** The agent uses the machine learning model in predictive opportunity scoring for risk assessment. If you didn't configure scoring in your environment, it's configured automatically when you start the agent.
-
 ## Grant permissions to sellers <a name="grant-permissions"></a>
 
 By default, the **Salesperson** and **Sales Manager** security roles have the necessary permissions. If you're using a custom security role, ensure sellers have the following minimum permissions:
@@ -63,7 +63,7 @@ By default, the **Salesperson** and **Sales Manager** security roles have the ne
 Before you start, ensure you have [planned your implementation](#plan-your-implementation) and met [all prerequisites](#prerequisites). Use the following steps to configure the Sales Close Agent - Research:
 
 1. [Open the Sales Close Agent - Research settings page](open-sales-close-agent-research-settings.md).
-1. [Configure the agent profile](configure-sales-close-agent-profile-research.md) for agent such as name and language.
+1. [Configure the agent profile](configure-sales-close-agent-research-profile.md) for agent such as name and language.
 1. [Configure company info](configure-sales-close-agent-research-company-info.md) for agent to understand value proposition and curate research insights.
 1. [Configure refresh frequency](configure-sales-close-agent-research-refresh-frequency.md) to specify how often the agent refreshes research data.
 1. [Set selection criteria for opportunities](configure-sales-close-agent-research-selection-criteria.md) to define which opportunities the agent should research.
@@ -123,7 +123,7 @@ If both are enabled, the agent reads emails from both sources.
 
 1. In the **Agent profile** tab, specify the following details:
    1. Enter a meaningful name for the agent, such as *Opportunity Research*. This name identifies the agent in Dynamics 365 Sales and Copilot Studio.
-   1. Select the agent's language. 
+   1. Select the agent's language. The agent uses this language to generate research insights. [What happens when the agent's language is different from user's preferred language?](opportunity-research-agent-faqs.md#agent-language-difference)
 
 1. In the **Company info** tab:
    1. Enter your company name and website URL.
