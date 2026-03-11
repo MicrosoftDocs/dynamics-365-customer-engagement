@@ -14,7 +14,7 @@ search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: lavanyakr01
+ms.reviewer: lavanyakr
 ---
 
 # FAQ about natural language chat in Copilot in Dynamics 365 Sales
