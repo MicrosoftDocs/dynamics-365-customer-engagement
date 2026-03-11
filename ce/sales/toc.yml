@@ -182,7 +182,7 @@ items:
               - name: Sales Qualification Agent FAQ
                 href: sales-qualification-agent-faq.md
               - name: Test the Sales Qualification Agent
-                href: test-sales-qualification-agent.md
+                href: test-sales-qualification-agent-research-engage.md
               - name: Custom criteria examples
                 href: custom-icp-examples.md
               - name: Use fields enriched with Zoominfo or Dun & Bradstreet data
@@ -262,6 +262,8 @@ items:
             href: copilot-overview.md
           - name: Turn on and set up Copilot in Dynamics 365 Sales
             href: enable-setup-copilot.md
+          - name: Control access to Copilot
+            href: copilot-control-access.md
           - name: Configure fields for summary and recent changes
             href: copilot-configure-summary-fields.md
           - name: Configure fields for what's new
@@ -270,8 +272,6 @@ items:
             href: copilot-sharepoint-config.md
           - name: Enable Copilot email assist
             href: enable-copilot-email-assist.md
-          - name: Turn on Copilot preview features
-            href: copilot-preview-features.md
           - name: Customize Copilot in Dynamics 365 Sales
             href: extend-copilot-chat.md
           - name: Copilot in Dynamics 365 Sales FAQ
