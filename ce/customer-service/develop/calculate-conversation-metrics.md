@@ -289,7 +289,7 @@ Short abandoned = SUMX ( FactConversation, IF(FactConversation[IsShortAbandoned]
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |[queue](/dynamics365/developer/reference/entities/queue)​ |
-|Attributes |[msdyn_shortabandonedthreshold](/dynamics365//developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold)|
+|Attributes |[msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold)|
 
 ## Short abandon rate
 
@@ -308,7 +308,7 @@ Short abandon rate = DIVIDE ([Short abandoned], CALCULATE ([Incoming conversatio
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |[msdyn_sessionextension](/dynamics365//developer/reference/entities/msdyn_sessionextension), [queue](/dynamics365/developer/reference/entities/queue)​ |
-|Attributes |msdyn_overflowcondition, [msdyn_shortabandonedthreshold](/dynamics365//developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold) |
+|Attributes |msdyn_overflowcondition, [msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold) |
 
 ## Abandoned rate (excluding short abandons)
 
@@ -327,7 +327,7 @@ Abandoned rate (excl. short abandons) = DIVIDE ( [Abandoned conversations (excl.
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |[msdyn_sessionextension](/dynamics365//developer/reference/entities/msdyn_sessionextension), [queue](/dynamics365/developer/reference/entities/queue)​ |
-|Attributes |msdyn_overflowcondition, [msdyn_shortabandonedthreshold](/dynamics365//developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold) |
+|Attributes |msdyn_overflowcondition, [msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold) |
 
 ## Incoming conversation (excludes short abandons)
 
@@ -346,7 +346,7 @@ Incoming conversation (excl. short abandons) = [Incoming conversations] - [Short
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |[queue](/dynamics365/developer/reference/entities/queue)​ |
-|Attributes |  [msdyn_shortabandonedthreshold](/dynamics365//developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold) |
+|Attributes |  [msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold) |
 
 
 ## Conversation first wait time
