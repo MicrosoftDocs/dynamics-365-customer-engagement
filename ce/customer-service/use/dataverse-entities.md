@@ -147,6 +147,8 @@ The article describes the Dataverse entities used in historical and real-time an
 - knowledgearticleviews
 - msdyn_copilotknowledgeinteraction
 
+## Entities used for agent insights
+
 
 ## Related information
 
