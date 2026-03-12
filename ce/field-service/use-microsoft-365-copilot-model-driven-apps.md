@@ -5,7 +5,7 @@ author: puneet-singh1
 ms.author: puneetsingh
 ms.reviewer: puneetsingh
 ms.topic: overview
-ms.date: 03/04/2026
+ms.date: 03/12/2026
 ---
 
 # Use Microsoft 365 Copilot chat in Field Service (preview)
