@@ -164,7 +164,7 @@ Service level excluding short abandons % =  VAR SuccessfulAnswers =  SUMX ( Fact
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |  [queue](/dynamics365/developer/reference/entities/queue) |
-|Attributes  |- [msdyn_queueservicelevelthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_queueservicelevelthreshold) <br> - [msdyn_shortabandonedthreshold](/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold)|
+|Attributes  |- [msdyn_queueservicelevelthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_queueservicelevelthreshold) <br> - [msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold)|
 
 ## Service level including abandon percentage
 
