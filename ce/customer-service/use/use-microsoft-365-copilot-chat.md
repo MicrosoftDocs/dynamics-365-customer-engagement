@@ -4,7 +4,7 @@ description: Learn how to use Microsoft 365 Copilot chat to gain insights about 
 author: neeranelli
 ms.author: nenellim
 ms.topic: overview
-ms.date: 03/04/2026
+ms.date: 03/12/2026
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---
