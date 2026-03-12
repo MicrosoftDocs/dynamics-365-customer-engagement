@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 01/19/2026
+ms.date: 03/12/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -39,54 +39,23 @@ If you don't select a default template and Copilot recommended email templates i
 In Copilot Service admin center, follow these steps to configure the automation level for each line of business:
 
 1. Select **Manage** for **Case Management Agent** in **Case settings**. The **Case Management Agent** page appears.
-1. Select **Manage** for **Case Resolution**. The Case Resolution Agent page appears.
-1. In **Level of automation per LOB**, the lines of business you configured in the Customer Intent Agent appear. Select the required line of business and then select **Edit**. You can specify the following automation levels for each line of business:
+1. Select **Manage** for **Case Resolution**. The **Case resolution** page appears.
+1. In **Level of automation per line of business**, the lines of business you configured for Customer Intent Agent appear. Select the required line of business and then select **Edit**. You can specify the following automation levels for each line of business:
    - **Full**: The AI agent automatically resolves cases.
    - **Require agent confirmation**: The AI agent drafts email responses, but requires a representative to review and send the email.
    - **Disabled**: The agent doesn't draft email responses. 
 
-## Language support for case resolution
+## Configure language for case resolution
 
-Case Management Agent supports configurable language behavior for drafting customer communications during the case resolution process. These settings determine how the agent selects the language used for email responses and ensure that generated content aligns with your organization’s language requirements.
+Define the language that Case Management Agent can use for drafting customer communications like emails during the case resolution process. If the agent can't determine a valid and supported langauge because the case field is empty or contains a locale that isn't supported, the agent hands off the case to a service representative and doesn't draft or send an email. This ensures that customer communications proceed only when the language requirement is met.
 
-### Configure language support for case resolution
+1.In Copilot Service admin center, go to **Case resolution**. The **Case resolution** page appears.
 
-To access the language settings:
+1. In **Language settings**, select one of the following options:
 
-1. Select **Manage** for **Case Management Agent** in **Case settings**. The **Case Management Agent** page appears.
-2. Select **Manage** for **Case Resolution**. The **Case Resolution Agent** page appears.
-
-Under **Language settings**, configure how Case Management Agent determines the language used during the case resolution process.
-
-### Select a language configuration option
-
-You can choose one of the following options.
-
-#### 1. Use case record
-
-Use the language locale stored directly on the case record.
-
-- Select the **case field** that stores the language locale value.  
-- The value must be in a valid **ISO language–country code format** (for example: `en-US`).  
-- Recommended when your organization supports multiple languages and stores the customer’s preferred language on each case.
-
-#### 2. A single language
-
-Use one consistent language for all case resolution emails.
-
-- Select a single supported language that the Case Management Agent will use for every case.  
-- Recommended when your support operations are standardized on one language.
-
-### Runtime behavior and fallback handling
-
-When the case resolution process is triggered, the Case Management Agent uses the configured language setting to draft email responses.
-
-If the agent cannot determine a **valid and supported language**—for example, if the case field is empty, contains an invalid value, or contains a locale that is not supported:
-
-- The case is **handed off to a service representative**.  
-- Case Management Agent does **not** draft or send any email responses.
-
-This ensures that customer communications proceed only when the language requirement is met.
+   - **Use case record**: Uses the language locale stored in the case record. Use this option if your organization supports multiple languages and stores the customer’s preferred language on each case.
+      - **Locale field/record**: Select the **case field** that stores the language locale value. The value must be in a valid **ISO language–country code format** (for example: `en-US`).
+   - **A single language**: Select a supported language. Case Management Agent uses it for all case resolution emails. Use this option if your support operations are standardized on one language.
 
 ## Record representative interactions with the AI agent
 
