@@ -10,8 +10,6 @@ ms.reviewer: lavanyakr
 
 # Install the Sales Professional app
 
-# Overview
-
 The Sales Professional app is a streamlined version of Dynamics 365 Sales designed for small and medium-sized businesses. It provides essential sales force automation capabilities—such as lead and opportunity management, contact tracking, and sales pipeline visibility—without the complexity of the full Dynamics 365 Sales application.
 
 > [!NOTE]
