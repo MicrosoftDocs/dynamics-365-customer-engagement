@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: concept-article
 ms.collection:
-ms.date: 03/11/2026
+ms.date: 03/12/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -164,7 +164,7 @@ Service level excluding short abandons % =  VAR SuccessfulAnswers =  SUMX ( Fact
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |  [queue](/dynamics365/developer/reference/entities/queue) |
-|Attributes  |- [msdyn_queueservicelevelthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_queueservicelevelthreshold) <br> - [msdyn_shortabandonedthreshold]/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold)|
+|Attributes  |- [msdyn_queueservicelevelthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_queueservicelevelthreshold) <br> - [msdyn_shortabandonedthreshold](/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold)|
 
 ## Service level including abandon percentage
 
