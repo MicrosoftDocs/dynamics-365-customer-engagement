@@ -1,7 +1,7 @@
 ---
 title: Sales forecasting overview
 description: Accurately project sales for your team and estimate the revenue by using sales forecasting in Dynamics 365 Sales.
-ms.date: 04/23/2025
+ms.date: 03/12/2026
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
@@ -22,7 +22,12 @@ searchScope:
 ---
 # Overview of sales forecasting
 
-A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. When done correctly, it can play a significant role in your company's success. 
+In Dynamics 365 Sales, forecasting gives teams a shared, near real-time view of expected revenue by combining pipeline activity, forecast categories, quotas, and hierarchy rollups. It helps sellers understand whether they are on track, helps managers identify risks early, and helps leadership make faster planning decisions based on current data instead of end-of-period surprises.
+
+Forecasts are most effective when they are reviewed regularly and used as a planning tool, not just a reporting artifact. By comparing committed revenue, best-case opportunities, and gaps to target, teams can take corrective actions earlier in the cycle.
+
+:::image type="content" source="media/forecast-for-team-hierarchy.png" alt-text="Screenshot of a forecast grid showing the forecast for a team hierarchy." lightbox="media/forecast-for-team-hierarchy.png":::
+
 
 >[!IMPORTANT]
 >This feature is intended to help sales managers or supervisors enhance their team’s performance. This feature isn't intended for use in making, and shouldn't be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
@@ -38,6 +43,8 @@ By using a forecast:
 - Directors can use forecast trends to anticipate departmental sales and reallocate resources if necessary.
 
 - Organization leaders can use projected estimates to change product strategy or convey updated projections to investors.
+
+Let's understand this with an example. A software organization sees that its quarterly forecast is trending 12% below target in one region. Using the forecast grid, the sales manager identifies that several high-value opportunities are still in an early category and are unlikely to close on time. The manager reassigns experienced sellers, adds executive support to key deals, and launches a short campaign for late-stage opportunities. As a result, the region improves forecast accuracy and closes the quarter closer to quota.
 
 ## Review prerequisites
 
