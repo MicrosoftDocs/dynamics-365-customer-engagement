@@ -1,8 +1,6 @@
 ---
 title: Set up own storage for call recordings
-description: This article describes how to create a call recording repository in Azure storage for storing yo
-
-ur Teams recordings.
+description: This article describes how to create a call recording repository in Azure storage for storing your Teams recordings.
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr 
