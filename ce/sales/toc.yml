@@ -208,7 +208,9 @@ items:
                   - name: Configure importance and risk assessment
                     href: configure-sales-close-agent-research-opportunity-assessment.md
                   - name: Configure knowledge sources
-                    href: configure-sales-close-agent-research-knowledge-sources.md
+                    href: configure-sqa-knowledge-source.md
+                  - name: Define custom research insights
+                    href: define-custom-research-topics.md                    
                   - name: Configure advanced settings
                     href: configure-sales-close-agent-research-advanced-settings.md  
                   - name: Start the agent 

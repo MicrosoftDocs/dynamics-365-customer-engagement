@@ -60,7 +60,7 @@ By default, the **Salesperson** and **Sales Manager** security roles have the ne
 
 ## Setup the Sales Close Agent - Research
 
-Before you start, ensure you have [planned your implementation](#plan-your-implementation) and met [all prerequisites](#prerequisites). Use the following steps to configure the Sales Close Agent - Research:
+Before you setup the agent, ensure you have [planned your implementation](#plan-your-implementation) and met [all prerequisites](#prerequisites). Use the following steps to configure and start the Sales Close Agent - Research:
 
 1. [Open the Sales Close Agent - Research settings page](open-sales-close-agent-research-settings.md).
 1. [Configure the agent profile](configure-sales-close-agent-profile-research.md) for agent such as name and language.
@@ -68,10 +68,9 @@ Before you start, ensure you have [planned your implementation](#plan-your-imple
 1. [Configure refresh frequency](configure-sales-close-agent-research-refresh-frequency.md) to specify how often the agent refreshes research data.
 1. [Set selection criteria for opportunities](configure-sales-close-agent-research-selection-criteria.md) to define which opportunities the agent should research.
 1. [Configure importance and risk assessment](configure-sales-close-agent-research-opportunity-assessment.md) to select the fields the agent uses to assess opportunity importance and risk.
-1. [Configure knowledge sources](configure-sales-close-agent-research-knowledge-sources.md) to add public and internal knowledge sources for the agent to generate insights.
+1. [Configure knowledge sources](configure-sqa-knowledge-source.md) to add public and internal knowledge sources for the agent to generate insights.
 1. [Configure advanced settings (optional)](configure-sales-close-agent-research-advanced-settings.md) to customize risk and importance criteria.
 1. [Start the agent](start-sales-close-agent-research.md) to begin researching opportunities and generating insights.
-
 
 
 
@@ -119,53 +118,9 @@ If both are enabled, the agent reads emails from both sources.
 
    :::image type="content" source="media/opportunity-research-agent-settings.png" alt-text="Screenshot of the Sales Close Agent - Research settings page.":::
 
-## Step 4: Define the agent and company profile
 
-1. In the **Agent profile** tab, specify the following details:
-   1. Enter a meaningful name for the agent, such as *Opportunity Research*. This name identifies the agent in Dynamics 365 Sales and Copilot Studio.
-   1. Select the agent's language. 
 
-1. In the **Company info** tab:
-   1. Enter your company name and website URL.
-   1. Enter the value proposition of the products associated with the opportunities the agent handles.
 
-      A clear value proposition helps the agent focus its account research on the most relevant information. For example, instead of "We sell coffee machines to businesses," specify "Our smart vending machine offers a variety of premium blends, customizable to your taste, with zero wait time, and minimal maintenance."
-
-## Step 5: Set selection criteria for opportunities
-
-1. In the **Selection criteria** tab, specify the following information:
-   - **Segment name:** Enter a name for the segment, such as *Microsoft 365 Opportunities*. The segment name is only used to identify the opportunities the agent handles (it doesn't use the segmentation feature in Dynamics 365 Sales).
-   - **Description:** Enter a description, such as *Opportunities related to Microsoft 365 products*.
-   - **Filter conditions:** Define the filter conditions. Opportunities that are **open** and match these conditions are handled by the agent. For example:
-     - Rating equals **Hot**
-     - Est. revenue greater than or equal to $100,000
-     - Status equals **Open**
-
-1. To have the agent research opportunities created in the past, select the **Consider opportunities created in the last** checkbox and specify a look-back period in days. Otherwise, the agent only considers opportunities created after it's turned on.
-
-1. Select **Preview** to view a sample of matching opportunities and verify that the agent is picking the right ones.
-
-   > [!NOTE]
-   > If you haven't specified a look-back period, the preview is empty because the agent only considers opportunities created after it's turned on.
-
-   :::image type="content" source="media/opportunity-research-agent-selection-criteria.png" alt-text="Screenshot of the Selection criteria tab for Sales Close Agent - Research.":::
-
-## Step 6: Set refresh frequency
-
-In the **Refresh frequency** tab, specify how often the agent refreshes research data. The default is **Medium**.
-
-| Frequency | Refresh interval | Best for |
-|-----------|-----------------|----------|
-| **High** | Every day | Businesses that always need the latest information. Consumes more capacity. |
-| **Medium** | Every three days | Most businesses that need regular updates without daily overhead. |
-| **Low** | Every seven days | Businesses that don't need frequent updates and want to conserve capacity. |
-
-## Step 7: Configure importance and risk assessment
-
-In the **Opportunity assessment** tab, select the fields the agent uses to assess importance and risk. In addition to these fields, the agent uses signals such as customer interactions and stakeholder engagement. You can customize the thresholds in the **Advanced** section. Learn more in [Configure risk and importance criteria](opportunity-research-agent-advanced-settings.md).
-
-- **Monetary value:** Select the field that represents the monetary value, such as **Est. revenue**.
-- **Estimated close date:** Select the field that represents the estimated close date, such as **Est. close date**.
 
 ## Step 8: Configure knowledge sources
 
