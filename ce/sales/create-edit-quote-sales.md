@@ -111,6 +111,8 @@ The price calculation for a quote depends on the product catalog, line items, pr
 You can share the quote with your customer by exporting it to a PDF file and printing it, or directly sending the PDF through email. 
 
 To send the quote through email, open the quote and select **Export to PDF** on the command bar. In the **Export to PDF** dialog, select the **Email** option, and then enter the recipient's email address, subject, and message body. The quote PDF is automatically attached to the email.
+
+:::image type="content" source="media/quote-export-pdf.png" alt-text="Screenshot of the Export to PDF dialog.":::
  
 To export the quote to PDF, open the quote record and select **Export to PDF** on the command bar. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Export to PDF](create-quote-pdf.md#export-to-pdf). 
 

@@ -22,8 +22,8 @@ Dashboards in Dynamics 365 Sales offer a comprehensive view of actionable busine
 
 To create a personalized dashboard that surfaces insights that matter most to you, refer to the following articles:
 
-[Create a dashboard with charts](/power-apps/user/track-your-progress-with-dashboard-and-charts#create-a-dashboard-with-charts)
-[Add or edit Power BI visualizations on your dashboard](/power-apps/user/add-powerbi-dashboards?WT.mc_id=ppac_inproduct_settings#privacy-notice)
+- [Create a dashboard with charts](/power-apps/user/track-your-progress-with-dashboard-and-charts#create-a-dashboard-with-charts)  
+- [Add or edit Power BI visualizations on your dashboard](/power-apps/user/add-powerbi-dashboards?WT.mc_id=ppac_inproduct_settings#privacy-notice)
 
 Dashboards use views, lists, and charts to bring data that's meaningful to you to one place.
 
