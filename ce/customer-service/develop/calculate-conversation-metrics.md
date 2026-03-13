@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 03/11/2026
+ms.date: 03/13/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -308,7 +308,7 @@ Short abandon rate = DIVIDE ([Short abandoned], CALCULATE ([Incoming conversatio
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |[msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension), [queue](/dynamics365/developer/reference/entities/queue)​ |
-|Attributes |[msdyn_overflowcondition](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowCondition), [msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold) |
+|Attributes |- [msdyn_OverflowCondition](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowCondition), <br> - [msdyn_OverflowAction](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowAction), <br> - [msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold), <br> -[msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
 
 ## Abandoned rate (excluding short abandons)
 
@@ -327,7 +327,7 @@ Abandoned rate (excl. short abandons) = DIVIDE ( [Abandoned conversations (excl.
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |[msdyn_sessionextension](/dynamics365//developer/reference/entities/msdyn_sessionextension), [queue](/dynamics365/developer/reference/entities/queue)​ |
-|Attributes |[msdyn_overflowcondition](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowCondition), [msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold) |
+|Attributes |- [msdyn_OverflowCondition](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowCondition), <br> - [msdyn_OverflowAction](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowAction), <br> -[msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold) <br> - [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
 
 ## Incoming conversation (excludes short abandons)
 
