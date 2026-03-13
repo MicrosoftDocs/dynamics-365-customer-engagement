@@ -1,25 +1,25 @@
 ---
-title: Dataverse entities used in historical and real-time analytics 
-description: Learn about the Dataverse entities used in historical and real-time analytics.
+title: Micorsoft Dataverse tables used in historical and real-time analytics 
+description: Learn about the Dataverse tables used in historical and real-time analytics.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: reference
 ms.collection: 
-ms.date: 03/12/2026
+ms.date: 03/13/2026
 ms.custom: bap-template
 ---
 
-# Dataverse entities used in historical and real-time analytics
+# Dataverse tables used in historical and real-time analytics
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 > [!Note]
 > Case information is applicable to Customer Service only.
 
-The article describes the Dataverse entities used in historical and real-time analytics.
+The article lists the Dataverse tables used in historical and real-time analytics.
 
-## Entities used in historical analytics
+## Tables used in historical analytics
 
 - appmodule
 - bot
@@ -68,7 +68,7 @@ The article describes the Dataverse entities used in historical and real-time an
 - systemuserroles
 
 
-## Entities used in historical bot analytics
+## Tables used in historical bot analytics
 
 - conversationtranscript
 - bot
@@ -86,7 +86,7 @@ The article describes the Dataverse entities used in historical and real-time an
 - queuemembership
 
 
-## Entities used in real-time analytics
+## Tables used in real-time analytics
 
 - queuemembership
 - queue
@@ -119,7 +119,7 @@ The article describes the Dataverse entities used in historical and real-time an
 - msdyn_ocphonenumber
 - msdyn_sessionextension
 
-## Entities used in real-time bot analytics
+## Tables used in real-time bot analytics
 
 - conversationtranscript
 - bot
@@ -136,7 +136,7 @@ The article describes the Dataverse entities used in historical and real-time an
 - queue
 - qeuemembership
 
-## Entities used in knowledge analytics
+## Tables used in knowledge analytics
 
 - msdyn_knowledgesearchinsight
 - msdyn_knowledgeinteractioninsight
@@ -147,8 +147,54 @@ The article describes the Dataverse entities used in historical and real-time an
 - knowledgearticleviews
 - msdyn_copilotknowledgeinteraction
 
-## Entities used for agent insights
+## Tables used for agent insights
 
+### Conversation tables
+
+- msdyn_ocliveworkitem 
+- msdyn_ocsession
+- msdyn_sessionparticipant
+- msdyn_evaluation
+- msdyn_copilotevent
+- msdyn_intententity 
+- msdyn_intent
+- msdyn_intentfamily
+- msdyn_channel
+- Owner
+- Systemuser
+- msdyn_historicalcaseharvestrun 
+- msdyn_knowledgeharvestjobrecord 
+- Knowledgearticle 
+
+### Case tables
+
+- incident
+- Incidentresolution
+- msdyn_aiagentstatus 
+- msdyn_evaluation
+- msdyn_copilotevent 
+- msdyn_intententity 
+- msdyn_intent
+- msdyn_intentfamily
+- systemuser
+- owner 
+- msdyn_historicalcaseharvestrun 
+- msdyn_knowledgeharvestjobrecord 
+- Knowledgearticle
+- msdyn_datainsightsandanalyticsfeature
+
+## Shared tables in conversation and case
+
+- msdyn_evaluation
+- msdyn_copilotevent
+- msdyn_intententity
+- msdyn_intent
+- msdyn_intentfamily
+- systemuser
+- owner
+- msdyn_historicalcaseharvestrun
+- msdyn_knowledgeharvestjobrecord
+- knowledgearticle 
 
 ## Related information
 
