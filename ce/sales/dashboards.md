@@ -1,7 +1,7 @@
 ---
 title: Gain insights with dashboards | MicrosoftDocs
 description: Learn how to navigate different types of dashboards, apply filters, and perform quick actions to enhance your sales processes.
-ms.date: 03/19/2025
+ms.date: 03/13/2026
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,7 +18,12 @@ searchScope:
 
 # Gain insights with dashboards
 
-Dashboards in Dynamics 365 Sales offer a comprehensive view of actionable business data, enabling you to monitor and analyze key metrics across your organization. This article helps you understand how to utilize pre-built dashboards to gain insights into your sales team's performance and streamline your daily activities.
+Dashboards in Dynamics 365 Sales offer a comprehensive view of actionable business data, enabling you to monitor and analyze key metrics across your organization. This article helps you understand how to utilize pre-built dashboards to gain insights into your sales team's performance and streamline your daily activities. 
+
+To create a personalized dashboard that surfaces insights that matter most to you, refer to the following articles:
+
+[Create a dashboard with charts](/power-apps/user/track-your-progress-with-dashboard-and-charts#create-a-dashboard-with-charts)
+[Add or edit Power BI visualizations on your dashboard](/power-apps/user/add-powerbi-dashboards?WT.mc_id=ppac_inproduct_settings#privacy-notice)
 
 Dashboards use views, lists, and charts to bring data that's meaningful to you to one place.
 
