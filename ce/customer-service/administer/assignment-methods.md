@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues and how you can use them in unified routing in Dynamics 365 Contact Center and Customer Service.
-ms.date: 01/08/2026
+ms.date: 03/13/2026
 ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
@@ -130,7 +130,7 @@ You can also build a [custom report](model-customize-reports.md) to track a repr
 
 > [!IMPORTANT]
 >
-> The least-active assignment method is available for the voice and messaging channels only and is the default selection when you create a voice queue.
+> The least-active assignment method is available for the voice and messaging channels only and is the default selection when you create a voice or messaging queue.
 >
 > This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making—and should not be used to make—decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
 
