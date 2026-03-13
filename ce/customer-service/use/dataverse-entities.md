@@ -147,7 +147,7 @@ The article lists the Dataverse tables used in historical and real-time analytic
 - knowledgearticleviews
 - msdyn_copilotknowledgeinteraction
 
-## Tables used for agent insights
+## Tables used in agent insights
 
 ### Conversation tables
 
@@ -183,7 +183,7 @@ The article lists the Dataverse tables used in historical and real-time analytic
 - Knowledgearticle
 - msdyn_datainsightsandanalyticsfeature
 
-## Shared tables in conversation and case
+### Shared tables in conversation and case
 
 - msdyn_evaluation
 - msdyn_copilotevent
