@@ -2,7 +2,7 @@
 title: Configure knowledge sources for agents
 description: Learn how to configure knowledge sources for agents in Dynamics 365 Sales.
 ms.topic: how-to 
-ms.date: 11/27/2025
+ms.date: 03/16/2026
 ms.service: dynamics-365-sales
 ms.custom: bap-template
 author: udaykirang
@@ -24,7 +24,7 @@ By default, the agent uses public web data sources to research records and their
 
 Before you configure knowledge sources for agents, consider the following factors:
 
-- When you add a knowledge source to the agent, you’re redirected to Microsoft Copilot Studio. So, ensure that you have the necessary permissions to access and modify the knowledge sources in Copilot Studio. The agents use specialized micro agents in Copilot Studio for outreach emails, follow-up emails, and research insights. Knowledge sources you add to these micro agents are only used for the specific purpose they're configured for. For example, knowledge sources you add to the **Research** micro agent are only used for research insights, and not for outreach emails or follow-up emails.
+- When you add a knowledge source to the agent, you're redirected to Microsoft Copilot Studio. So, ensure that you have the necessary permissions to access and modify the knowledge sources in Copilot Studio. The agents use specialized micro agents in Copilot Studio for outreach emails, follow-up emails, and research insights. Knowledge sources you add to these micro agents are only used for the specific purpose they're configured for. For example, knowledge sources you add to the **Research** micro agent are only used for research insights, and not for outreach emails or follow-up emails.
 
 - If the Sales Qualification Agent and Sales Close Agent - Research are in the same environment, they share the same knowledge sources for account research insights. The knowledge sources that you add to or remove from one of the agents also affect the other agent. If you see knowledge sources that you didn't add, it's possible that those sources are configured for the Sales Close Agent - Research. Don't remove them unless you want to remove them from both agents.
 
@@ -38,7 +38,7 @@ Before you configure knowledge sources for agents, consider the following factor
 
 By default, the agent uses public web data sources to research records and their companies. However, you can add custom knowledge sources that you want the agent to use to get more relevant and specific insights about the record and their company.
 
-1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
+1. Depending on the agent you're configuring, go to the [Sales Qualification Agent settings page](open-sales-qualification-agent-settings.md) or the [Sales Close Agent - Research settings page](open-sales-close-agent-research-settings.md).  
 
 1. In the **Knowledge** section, select **Research**.
 1. Under **Enrich research with knowledge sources**, select **Company research**. Company insights include industry type, company size, financials, priorities, and news. The following examples are the best sources to add as knowledge sources for company research:
@@ -65,13 +65,13 @@ The agent can provide insights about competitors for a record. These insights in
 
 The agent identifies competitors for a record from the following sources:
 
-- Competitors added to the record record. The agent gives these competitors the highest priority. If the record record has a competitor specified, the agent researches only that competitor.
+- Competitors you add to the record. The agent gives these competitors the highest priority. If you specify a competitor in the record, the agent researches only that competitor.
 
-- If the record record doesn't specify competitors, the agent looks for competitors from:
+- If you don't specify competitors in the record, the agent looks for competitors from:
     - Web search results based on account research and value proposition.
 
     - Closed opportunities that include competitor information.
-    - Competitors list configured in the agent settings (as explained in the following section).
+    - Competitors list you configure in the agent settings (as explained in the following section).
 
     The agent ranks competitors based on the number of sources they appear in. If a competitor is mentioned in more sources than others, the agent ranks it as the top competitor. If there are multiple competitors with the same rank, the agent picks the one associated with the recently won opportunity.
 
@@ -87,11 +87,11 @@ The agent identifies competitors for a record from the following sources:
 
 ### Add competitors and knowledge sources for competitor insights
 
-When the agent doesn't find competitor information in the record record or doesn't find any overlapping mentions of competitors across different sources, it uses the competitors list you add in the agent settings as explained in this section.
+When the agent doesn't find competitor information in the record or doesn't find any overlapping mentions of competitors across different sources, it uses the competitors list you add in the agent settings as explained in this section.
 
 You can also upload relevant documents such as battle cards, positioning briefs, and market analysis reports to help the agent generate more accurate and relevant insights. To learn more, see [considerations for knowledge sources](configure-sqa-knowledge-source.md#considerations).
 
-1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
+1. Depending on the agent you're configuring, go to the [Sales Qualification Agent settings page](open-sales-qualification-agent-settings.md) or the [Sales Close Agent - Research settings page](open-sales-close-agent-research-settings.md).  
 
 1. Under **Knowledge**, select **Research**, and then scroll down to the **Competitor research** section.
 1. Under **Key competitors**, select **+ Competitor** to add up to three competitors for the product line that the agent works on. 
@@ -111,6 +111,9 @@ You can also upload relevant documents such as battle cards, positioning briefs,
 
 ## Add knowledge sources for outreach and follow-up emails
 
+>[!NOTE]
+>This section applies only to the **Sales Qualification Agent**. The Sales Close Agent - Research doesn't have outreach or follow-up email capabilities.
+
 You can add knowledge sources that the agent uses to draft outreach and follow-up emails to records. For example, add customer testimonials and case studies as knowledge sources for outreach emails to engage with records effectively.
 
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).
@@ -122,7 +125,6 @@ You can add knowledge sources that the agent uses to draft outreach and follow-u
     For email responses, the **D365 Sales Agent - Engage Autonomous** agent's **Knowledge** page opens in Copilot Studio.
 1. Add relevant knowledge sources and go back to the agent settings page.
    The knowledge sources you added in Copilot Studio are listed under the respective email type.
-
 
 ## Example scenario: Contoso Investment Bank targets high-net-worth (HNW) records
 
@@ -152,7 +154,7 @@ Consider the following best practices when adding knowledge sources:
 - **Review security**. The agent only presents data that the signed-in seller is permitted to access.  
 - **Monitor capacity**. Large files and frequent refreshes consume AI credits; track usage in Power Platform admin center.  
 
-With curated knowledge sources, the agent becomes a best researcher that understands your organization and surfaces the insights your sellers value most.
+By using curated knowledge sources, the agent becomes a top researcher that understands your organization and surfaces the insights your sellers value most.
 
 ## Next steps
 
@@ -168,3 +170,4 @@ With curated knowledge sources, the agent becomes a best researcher that underst
 
 [Add knowledge to an agent](/microsoft-copilot-studio/knowledge-add-existing-copilot)  
 [Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
+[Set up and configure Sales Close Agent - Research](configure-opportunity-research-agent.md)

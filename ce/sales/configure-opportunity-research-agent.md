@@ -69,7 +69,7 @@ Before you setup the agent, ensure you have [planned your implementation](#plan-
 1. [Set selection criteria for opportunities](configure-sales-close-agent-research-selection-criteria.md) to define which opportunities the agent should research.
 1. [Configure importance and risk assessment](configure-sales-close-agent-research-opportunity-assessment.md) to select the fields the agent uses to assess opportunity importance and risk.
 1. [Configure knowledge sources](configure-sqa-knowledge-source.md) to add public and internal knowledge sources for the agent to generate insights.
-1. [Configure advanced settings (optional)](configure-sales-close-agent-research-advanced-settings.md) to customize risk and importance criteria.
+1. [Configure advanced settings (optional)](opportunity-research-agent-advanced-settings.md) to customize risk and importance criteria.
 1. [Start the agent](start-sales-close-agent-research.md) to begin researching opportunities and generating insights.
 
 

@@ -198,7 +198,7 @@ items:
                   - name: Open the settings page
                     href: open-sales-close-agent-research-settings.md
                   - name: Configure the agent profile
-                    href: configure-sales-close-agent-research-profile.md
+                    href: configure-sales-close-agent-profile-research.md
                   - name: Configure company information
                     href: configure-sales-close-agent-research-company-info.md  
                   - name: Configure refresh frequency
@@ -212,24 +212,13 @@ items:
                   - name: Define custom research insights
                     href: define-custom-research-topics.md                    
                   - name: Configure advanced settings
-                    href: configure-sales-close-agent-research-advanced-settings.md  
+                    href: opportunity-research-agent-advanced-settings.md  
                   - name: Start the agent 
                     href: start-sales-close-agent-research.md
                   - name: Configure requirements for Sales Close Agent - Research
                     href: configure-requirements-for-sales-close-agent-research.md
                   - name: Edit settings of Sales Close Agent - Research
                     href: edit-opportunity-research-agent-settings.md  
-
-                  
-                  
-                  
-                  
-                  
-                  - name: Configure risk and importance criteria
-                    href: opportunity-research-agent-advanced-settings.md
-                  - name: Define custom research insights
-                    href: define-custom-research-topics.md
-
                   - name: View agent insights and metrics
                     href: view-sales-close-agent-research-insights-metrics.md
               - name: Set up and configure Sales Close Agent - Engage
