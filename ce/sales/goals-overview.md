@@ -1,7 +1,7 @@
 ---
 title: Define and track your sales goals
 description: Define, track, and measure performance-based Sales and Customer Service goals in Dynamics 365.
-ms.date: 06/18/2025
+ms.date: 03/13/2026
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
@@ -108,9 +108,9 @@ You can set a fiscal period, such as a quarter or year, or a custom period, such
 
 If your organization merges with another organization that uses different time periods, you can change yours to match with the new organization.
 
-Changing a fiscal year or fiscal period doesn't automatically change the dates for the goals; you need to update them to show the new dates as a separate step.
+Changing a fiscal year or fiscal period doesn't automatically change the dates for the goals. When you open an existing goal after changing the fiscal year, you'll see a notification banner indicating that the fiscal settings have been changed. Select **Align with Fiscal Period** on the command bar to update the goal's time period to match the new fiscal year settings. The dates are updated based on the new fiscal year start date and the fiscal period configured for the goal. 
 
-More information: [Create or edit goals](create-edit-goal-sales.md)
+For example, if the fiscal year start date is changed to February 1, and the goal's fiscal period is quarter, then Q1 goals are updated to February 1 to April 30. More information: [Create or edit goals](create-edit-goal-sales.md)
 
 ## Monitor goals
 
