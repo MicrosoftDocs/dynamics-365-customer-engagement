@@ -48,8 +48,10 @@ items:
     - name: Preview new features
       href: /dynamics365/get-started/release-schedule
 
-- name: Administration
+- name: Admin setup
   items:
+    - name: Administration overview
+      href: admin-guide.yml
     - name: Field Service settings
       href: configure-default-settings.md
     - name: Users and security roles
