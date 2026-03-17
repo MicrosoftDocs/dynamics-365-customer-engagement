@@ -28,7 +28,7 @@ You need the following prerequisites:
 - Your admin has configured the Sales Close Agent - Research for your organization.  
 - You're part of the sales team that works on the opportunity segment that the agent is configured for.  
 - You have the necessary permissions to view and work on the opportunities researched by the agent.  
-- Your mailbox is configured to allow tracking of email messages. This setting is required for the agent to gather insights from your emails and meetings. See the personalization setting explained in Step 4 in [Configure server-side synchronization](configure-opportunity-research-agent.md#configure-server-side-synchronization).
+- Your mailbox is configured to allow tracking of email messages. This setting is required for the agent to gather insights from your emails and meetings. See the personalization setting explained [Configure server-side synchronization](configure-requirements-for-sales-close-agent-research.md#configure-server-side-synchronization).
 
 ## View opportunities researched by the Sales Close Agent - Research
 

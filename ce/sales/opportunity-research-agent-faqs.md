@@ -41,18 +41,18 @@ The agent uses fields like monetary value (for example, Est. revenue) and estima
 
 ## Which opportunities are processed by the agent and when?
 
-The agent processes only those opportunities that meet the selection criteria defined by your admin in the Opportunity Research Agent settings page. Learn more in [Configure selection criteria for opportunities](configure-opportunity-research-agent.md#configure-selection-criteria-for-opportunities).
+The agent processes only those opportunities that meet the selection criteria defined by your admin in the Opportunity Research Agent settings page. Learn more in [Configure selection criteria for opportunities](configure-sales-close-agent-research-selection-criteria.md).
 
 The following table illustrates when the Opportunity Research Agent processes opportunities in different scenarios:
 
-| Scenario                                                                                          | When processed                                      |
-|------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| Opportunities created within the look back period.                                         | Immediately after agent activation. For example, if your admin sets a 30-day look back period and activates the agent on August 1, 2025, the agent processes opportunities created from July 2, 2025, to August 1, 2025. |
-| Opportunities created after the agent activation.                                          | Immediately after the opportunity is created.                         |
-| Opportunities already processed by the agent.                       | During the next scheduled refresh cycle.           |
-| Updates to opportunity fields that cause the opportunity to meet the selection criteria. | Immediately after the opportunity is saved.            |
-| Updates to [fields that trigger](#which-fields-trigger-the-agent-to-refresh-the-research-data-when-updated) the agent to refresh the research data. | Immediately after the opportunity is saved.            |
-| Updates to other fields in existing opportunities.                                            | During the next scheduled refresh cycle.            |
+| Scenario | When processed |
+|----------|----------------|
+| Opportunities created within the look back period. | Immediately after agent activation. For example, if your admin sets a 30-day look back period and activates the agent on August 1, 2025, the agent processes opportunities created from July 2, 2025, to August 1, 2025. |
+| Opportunities created after the agent activation. | Immediately after the opportunity is created. |
+| Opportunities already processed by the agent. | During the next scheduled refresh cycle. |
+| Updates to opportunity fields that cause the opportunity to meet the selection criteria. | Immediately after the opportunity is saved. |
+| Updates to [fields that trigger](#which-fields-trigger-the-agent-to-refresh-the-research-data-when-updated) the agent to refresh the research data. | Immediately after the opportunity is saved. |
+| Updates to other fields in existing opportunities. | During the next scheduled refresh cycle. |
 
 > [!NOTE]
 > The refreshed research insights might take a few minutes to appear in the opportunity record.
@@ -83,7 +83,7 @@ The Sales Qualification Agent and Opportunity Research Agent share the same Copi
 <a name="agent-paused"></a>
 ## Why did the Opportunity Research Agent pause?
 
-The agent pauses when the admin turns it off. You see the following message in the banner: "Opportunity Research Agent paused, data may be outdated and actions might be disabled." Contact your admin to [turn on the agent](configure-opportunity-research-agent.md#step-5-start-or-stop-the-agent). 
+The agent pauses when the admin turns it off. You see the following message in the banner: "Opportunity Research Agent paused, data may be outdated and actions might be disabled." Contact your admin to [start the agent](start-sales-close-agent-research.md). 
 
 <a name="unexpected-error"></a>
 ## I see "An unexpected error occurred" message. What should I do?
