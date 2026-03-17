@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 01/19/2026
+ms.date: 03/17/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -84,6 +84,16 @@ The AI agent should automatically initiate the case follow-up process for cases 
 
 The AI agent first evaluates all the cases that have "Contoso Coffee" in the title and are older than 7 days. If the **Status Reason** of the case is set to "On Hold", and if the customer hasn't responded to the email sent by the AI agent in the last 48 hours, the AI agent initiates the case follow-up process. If the customer doesn't respond after the third follow-up, the AI agent populates the case resolution dialog with the required information and closes the case.
 
+## Enable shadow mode and view results (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+Use shadow mode to evaluate predicted actions from Case Management Agent on live cases without sending emails or updating records. Validate Case Management Agent recommendations against human actions, uncover gaps, and assess automation readiness.
+
+1. On the **Case follow-up and closure** page, in **Rules**, select a rule.
+1. Select **Shadow mode** from the toolbar. The rule status changes to **Shadow mode**.
+1. Select **Go to shadow results** from the **Command** menu. On the **Case follow-up and closure shadow mode results** page, you can view the first and the second follow-up email.
+1. Select **View Email** to view the email preview.
 
 ## Next steps
 
