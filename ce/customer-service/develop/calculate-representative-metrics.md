@@ -125,11 +125,11 @@ Service level (10 seconds) = ​DIVIDE (​SUMX (​FactConversation,​IF (​F
 ---
 
 
-## Service level abandon percentage
+## Service level percentage
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-The percentage of eligible conversations accepted within the configured service‑level threshold (first wait time ≤ queue service level threshold), excluding short‑abandoned conversations, divided by total eligible incoming conversations.
+The percentage of inbound conversations accepted by the representative and answered within the target service time.
 
 ### DAX query and Dataverse reference
 
