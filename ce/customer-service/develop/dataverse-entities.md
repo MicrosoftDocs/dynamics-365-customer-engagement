@@ -1,5 +1,5 @@
 ---
-title: Micorsoft Dataverse tables used in historical and real-time analytics 
+title: Microsoft Dataverse tables used in historical and real-time analytics 
 description: Learn about the Dataverse tables used in historical and real-time analytics.
 author: Soumyasd27
 ms.author: sdas
@@ -198,5 +198,5 @@ The article lists the Dataverse tables used in historical and real-time analytic
 
 ## Related information
 
-[Use the out-of-the-box data model in your custom reports](use-datamodel.md#use-the-out-of-the-box-data-model-in-your-custom-reports)  
+[Use the out-of-the-box data model in your custom reports](../use/use-datamodel.md)
 [Customize data models of historical and real-time analytics reports](../administer/model-customize-reports.md#customize-data-models-of-historical-and-real-time-analytics-reports)
