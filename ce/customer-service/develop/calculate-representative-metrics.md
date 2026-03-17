@@ -436,7 +436,7 @@ This metric represents the service representative in the **Consult** mode. The r
 
 - **Consult requests accepted**: The total number of consult sessions requested and accepted by a service representative.
 
-- **Consult requests not accepted**: The total number of consult sessions requested but not accepted by a service representative. This happens when the representative doesn't join the consult.
+- **Consult requests not accepted**: The total number of consult sessions requested but not accepted by a service representative. This situation happens when the representative doesn't join the consult.
 
 -  **Consult not acceptance rate**: The percentage of consult sessions that a service representative didn't accept, including timed-out and rejected requests out of all the consult sessions requested. This situation happens when the representative doesn't join the conversation.
 
