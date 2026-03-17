@@ -442,7 +442,7 @@ This metric represents the service representative in the **Consult** mode. The r
 
 - **Consult requests rejected**: The total number of consult sessions requested but rejected by a service representative.
 
-- **Consult rejection rate**: The percentage of consult sessions rejected by a service representative out of all the requested sessions. This happens when representatives reject the consult.
+- **Consult rejection rate**: The percentage of consult sessions rejected by a service representative out of all the requested sessions. 
 
 - **Consults requested**: The total number of consult sessions requested.
 
