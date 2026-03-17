@@ -160,11 +160,11 @@ The article lists the Dataverse tables used in historical and real-time analytic
 - msdyn_intent
 - msdyn_intentfamily
 - msdyn_channel
-- Owner
-- Systemuser
+- owner
+- systemuser
 - msdyn_historicalcaseharvestrun 
 - msdyn_knowledgeharvestjobrecord 
-- Knowledgearticle 
+- knowledgearticle 
 
 ### Case tables
 
@@ -180,7 +180,7 @@ The article lists the Dataverse tables used in historical and real-time analytic
 - owner 
 - msdyn_historicalcaseharvestrun 
 - msdyn_knowledgeharvestjobrecord 
-- Knowledgearticle
+- knowledgearticle
 - msdyn_datainsightsandanalyticsfeature
 
 ### Shared tables in conversation and case
