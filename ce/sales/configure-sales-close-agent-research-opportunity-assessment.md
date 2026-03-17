@@ -39,7 +39,7 @@ Configure the fields that the agent uses as a factor to assess the importance an
 
 ## Next step
 
-[Configure knowledge sources.](configure-sales-close-agent-research-knowledge-sources.md)
+[Configure knowledge sources.](configure-sqa-knowledge-source.md)
 
 ## Related information
 

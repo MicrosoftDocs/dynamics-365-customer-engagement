@@ -42,9 +42,12 @@ Open the Sales Close Agent - Research settings to configure or manage the agent.
     > [!NOTE]
     > You can't create more than one Sales Close Agent - Research. If an active agent of the same type already exists in your organization, the option to create the agent is inactive.  
 
-<!--    :::image type="content" source="media/sca-research-setup-assistant-open.png" alt-text="Sales Close Agent - Research settings page showing the option to create a new agent.":::  -->
-
+    <!--    :::image type="content" source="media/sca-research-setup-assistant-open.png" alt-text="Sales Close Agent - Research settings page showing the option to create a new agent.":::  -->
 1. To edit or deactivate the agent, in the **AI agents** page, from the list of agents, select the name of the Sales Close Agent - Research.  
+
+## Next step
+
+[Configure requirements for Sales Close Agent - Research](configure-requirements-for-sales-close-agent-research.md)
 
 ## Related information
 

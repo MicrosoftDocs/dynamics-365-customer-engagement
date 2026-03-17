@@ -163,7 +163,7 @@ By using curated knowledge sources, the agent becomes a top researcher that unde
     - [Start the Sales Qualification Agent.](start-sales-qualification-agent.md)
 
 - For **Sales Close Agent - Research**:
-    - [Configure advanced settings (optional).](configure-sales-close-agent-research-advanced-settings.md)
+    - [Configure advanced settings (optional).](opportunity-research-agent-advanced-settings.md)
     - [Start the Sales Close Agent - Research.](start-sales-close-agent-research.md)
 
 ## Related information

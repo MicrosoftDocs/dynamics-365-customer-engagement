@@ -197,6 +197,8 @@ items:
                     href: configure-opportunity-research-agent.md
                   - name: Open the settings page
                     href: open-sales-close-agent-research-settings.md
+                  - name: Configure requirements for Sales Close Agent - Research
+                    href: configure-requirements-for-sales-close-agent-research.md
                   - name: Configure the agent profile
                     href: configure-sales-close-agent-profile-research.md
                   - name: Configure company information
@@ -215,8 +217,6 @@ items:
                     href: opportunity-research-agent-advanced-settings.md  
                   - name: Start the agent 
                     href: start-sales-close-agent-research.md
-                  - name: Configure requirements for Sales Close Agent - Research
-                    href: configure-requirements-for-sales-close-agent-research.md
                   - name: Edit settings of Sales Close Agent - Research
                     href: edit-opportunity-research-agent-settings.md  
                   - name: View agent insights and metrics
