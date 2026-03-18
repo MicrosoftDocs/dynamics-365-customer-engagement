@@ -17,10 +17,10 @@ search.audienceType:
 
 Your users can access their data stored in Microsoft Dataverse while they're out in the field by using either of the following apps:  
   
-- **[!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]**: With [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], you can design your information architecture once and the customizations will automatically flow to all form factors. Much is shared with [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
+- **[!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]**: By using [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], you can design your information architecture once and the customizations automatically flow to all form factors. It shares much with [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
   
   
-- **[!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**: With the same basic features as [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], tablet users will appreciate the experience optimized for a larger screen.  
+- **[!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**: With the same basic features as [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], tablet users appreciate the experience optimized for a larger screen.  
     
   
 ## Requirements  
@@ -28,7 +28,7 @@ Your users can access their data stored in Microsoft Dataverse while they're out
   
 ### Required privileges  
 
-Microsoft Dataverse uses security privileges to provide access to [Power Apps mobile](/powerapps/mobile/run-powerapps-on-mobile). The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.
+Microsoft Dataverse uses security privileges to provide access to [Power Apps mobile](/powerapps/mobile/run-powerapps-on-mobile). The privilege is preconfigured for Sales roles, but not other security roles, so you might want to add it to other roles for your teams.
  
  The app should be shared for the security role that user has been assigned.
   
@@ -46,20 +46,20 @@ Microsoft Dataverse uses security privileges to provide access to [Power Apps mo
   
 6. Send an email to mobile-enabled users to let them know they can download the mobile app from the app store. Include the organization URL and sign-in information in the email.  
   
-This applies to new installations of Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises). You can add or remove this privilege from custom or default security roles to meet your business needs. Users who do not have this privilege will see and see an empty app list or the following error: **Contact your administrator for access your organization’s mobile apps**  
+This process applies to new installations of Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises). You can add or remove this privilege from custom or default security roles to meet your business needs. Users who don't have this privilege see an empty app list or the following error: **Contact your administrator for access your organization’s mobile apps**.  
 > 
 > [!NOTE]
-> Both Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises) include the ability to audit user access. Audit events are logged if a user accesses your Dynamics 365 apps organization through the Dynamics 365 mobile app. However, there isn't a new event type that indicates the access was through the mobile app. The audit sign-in events would appear as **User Access via Web**.  
+> Both Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises) include the ability to audit user access. Audit events are logged if a user accesses your Dynamics 365 apps organization through the Dynamics 365 mobile app. However, there isn't a new event type that indicates the access was through the mobile app. The audit sign-in events appear as **User Access via Web**.  
   
 ### Required privileges for custom security roles
 
-In addition, particularly if you have created a custom security role, validate that these entities have **Read** permission.  
+Also, if you create a custom security role, validate that these entities have **Read** permission.  
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
 2. Select **Security Roles**.  
   
-3. Choose a security role > **Customization** tab. Verify that the **Read** permission is set for the following entities:   
+3. Choose a security role and select the **Customization** tab. Verify that the **Read** permission is set for the following entities:   
   
    -   System Application Metadata  
   
@@ -71,19 +71,19 @@ In addition, particularly if you have created a custom security role, validate t
  
    -   Model-driven App
 
-4. Choose a security role > **Business Management** tab. Verify that the **Read** permission is set for the following entity:
+4. Choose a security role and select the **Business Management** tab. Verify that the **Read** permission is set for the following entity:
 
    -   User Settings
 
 5. Select **Save and Close** to save the changes to the security role.
 
 > [!NOTE]
-> To see a model-driven app in the list of apps on your mobile app, you need to have a [predefined security role](/power-platform/admin/database-security#predefined-security-roles) in the environment that the app is in. If a predefined security role is assigned to a user using a Dataverse team, you need to use an Azure Active Directory (AAD) group team. Users won't see model-driven apps if a predefined security role is assigned using a Dataverse owner team.
+> To see a model-driven app in the list of apps on your mobile app, you need to have a [predefined security role](/power-platform/admin/database-security#predefined-security-roles) in the environment that the app is in. If you assign a predefined security role to a user by using a Dataverse team, you need to use an Azure Active Directory (AAD) group team. Users won't see model-driven apps if you assign a predefined security role by using a Dataverse owner team.
 
 ### Required services
-This list identifies all services to which Power Apps mobile talks and their usages. Your network must **not** block these services.
+This list identifies all services that the Power Apps mobile app communicates with and their usages. Your network must **not** block these services.
 
-| Domain(s) | Protocols | Uses |
+| Domains | Protocols | Uses |
 | --- | --- | --- |
 | management.azure.com |https |Between versions 4.3.19022.10 and 4.3.19081.22 (Android) or 13.19022.10 and 13.19081.22 (iOS), used to fetch the list of apps to populate the app list. </br> Starting with version 13.19033.0 ([for mobile app for Windows](windows-mobile-app.md)), used for email sign-in and the app list.|
 | api.businessappdiscovery.microsoft.com |https |Between versions 4.3.19091.0 and 4.3.20081.1 (Android) or 13.19091.0 and 13.20081.1 (iOS), used to fetch the list of apps to populate the app list. |
@@ -91,27 +91,27 @@ This list identifies all services to which Power Apps mobile talks and their usa
 | api.powerplatform.com |https |Starting with version 4.3.22113.19 (Android) and 13.22113.19 (iOS), used to fetch the list of apps to populate the app list. |
 |<br>login.microsoft.com</br> <br>login.windows.net</br> <br>login.microsoftonline.com</br> <br>secure.aadcdn.microsoftonline-p.com</br>|https |Azure Active Directory - used for authentication (in all versions).
   
-This list identifies all resources used by Dynamics 365 for phones and tablets. Your configuration (for example, Azure Active Directory or Intune) must not block these resources.
+This list identifies all resources that Dynamics 365 for phones and tablets uses. Your configuration (for example, Azure Active Directory or Intune) must not block these resources.
 
 | Resources(s) | Uses |
 | --- | --- |
-| service.powerapps.com |Starting with version 13.19091.20, used for email sign-in and the app list. |
-| api.powerplatform.com |Starting with version 4.3.22113.19 (Android) and 13.22113.19 (iOS), used for email sign-in and the app list. |
+| service.powerapps.com | Starting with version 13.19091.20, the app uses this resource for email sign-in and the app list. |
+| api.powerplatform.com | Starting with version 4.3.22113.19 (Android) and 13.22113.19 (iOS), the app uses this resource for email sign-in and the app list. |
 
 ### Security privileges  
- Both Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises) use a security privilege, **Dynamics 365 apps for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you might want to add to other roles for your teams. For more information on how to share apps in Microsoft Dataverse, see [Share a model-driven app using Power Apps](/powerapps/maker/model-driven-apps/share-model-driven-app).
+ Both Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises) use a security privilege, **Dynamics 365 apps for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. This privilege is preconfigured for Sales roles, but not other security roles, so you might want to add it to other roles for your teams. For more information on how to share apps in Microsoft Dataverse, see [Share a model-driven app using Power Apps](/powerapps/maker/model-driven-apps/share-model-driven-app).
   
   
 <a name="BKMK_Configure"></a>   
 ## Configure customer engagement apps in Dynamics 365  
 
- You must configure apps that will be available for Dynamics 365 for phones and tablets mobile app.  
+ You must configure apps that are available for Dynamics 365 for phones and tablets mobile app.  
 
  - For Microsoft Dataverse, see [Create a custom entity](/powerapps/maker/common-data-service/data-platform-create-entity).
- - For Dynamics 365 Customer Engagement (on-premises), see [App making and customization overview](../customerengagement/on-premises/customize/overview.md) 
+ - For Dynamics 365 Customer Engagement (on-premises), see [App making and customization overview](../customerengagement/on-premises/customize/overview.md). 
   
 ### Charts  
- All the charts you can create in the Chart Designer, such as Bar, Line, Pie, and Funnel charts, are viewable in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
+ You can view all the charts you create in the Chart Designer, such as bar, line, pie, and funnel charts, in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
   
  Some more things to note:  
   
@@ -124,13 +124,13 @@ This list identifies all resources used by Dynamics 365 for phones and tablets. 
 - You can add charts to dashboards and chart pages only. 
 
 ### Dashboards
-The mobile app has multiple dashboards are available for users. After you set up standard or custom dashboards for mobile access, users can easily modify which dashboards appear and how they appear on their phones or tablets.  
+The mobile app offers multiple dashboards for users. After you set up standard or custom dashboards for mobile access, users can easily modify which dashboards appear and how they appear on their phones or tablets.  
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
 2. Select **Customize the System**.  
   
-3. Under Components, select **Dashboards**.  
+3. Under **Components**, select **Dashboards**.  
   
 4. Double-click or press and hold the dashboard you want to enable for phone or tablet access.  
   
@@ -142,21 +142,21 @@ The mobile app has multiple dashboards are available for users. After you set up
  
 6. Select **Save**.  
   
-   Show your users how to set and view the enabled dashboards on their phones or tablets. More information: [User Guide for Dynamics 365 for phones and tablets](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)  
+   Show your users how to set and view the enabled dashboards on their phones or tablets. For more information, see [User Guide for Dynamics 365 for phones and tablets](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md).  
   
-You can assign security roles to a dashboard, so the dashboard appears only to users with certain security roles. For example, to set who has access to the Sales Dashboard.
+You can assign security roles to a dashboard, so the dashboard appears only to users with certain security roles. For example, you can set who has access to the Sales Dashboard.
 
 1. Select **Settings** > **Customizations** > **Customize the System** > **Components** > **Dashboards**.
 2. Select the **Sales Dashboard**, and then select **Enable Security Roles**.  
   
 ### Forms  
- Forms in the Dynamics 365 mobile app are based on the development principle of *Design once and deploy across clients*.
+ Forms in the Dynamics 365 mobile app follow the development principle of *Design once and deploy across clients*.
  
 ![Sales form in Dynamics 365 apps.](media/sales_form.png "Sales form in Dynamics 365 apps")
   
- Forms in the Dynamics 365 mobile app use the Main form type. The main form is used by all model-driven apps. This form provides a consistent user experience whether someone is using a web browser or the Dynamics 365 mobile app.
+ Forms in the Dynamics 365 mobile app use the Main form type. All model-driven apps use the main form. This form provides a consistent user experience whether someone is using a web browser or the Dynamics 365 mobile app.
   
- To further simplify forms, you can hide components from appearing in the phone app. You can hide tabs, sections, subgrids, fields, and charts. For example, to hide the Details tab in the Contact form.
+ To further simplify forms, you can hide components from appearing in the phone app. You can hide tabs, sections, subgrids, fields, and charts. For example, you can hide the Details tab in the Contact form.
  
 1. Select **Settings** > **Customizations** > **Customize the System** > **Components**.
 2. Expand **Entities** > expand the **Contact** entity > **Forms** and then select the **Contact** form.
@@ -178,7 +178,7 @@ You can assign security roles to a dashboard, so the dashboard appears only to u
 <a name="BKMK_PhoneEntities"></a>   
 ## Enable entities for the mobile app
 
- You can enable a limited set of entities for the mobile app. To see if an entity is enabled or to enable an entity.
+ You can enable a limited set of entities for the mobile app. To see if an entity is enabled or to enable an entity, follow these steps.
  
  
 1. Go to **Settings** > **Customizations** > **Customize the System**. 
@@ -196,9 +196,9 @@ You can assign security roles to a dashboard, so the dashboard appears only to u
 
 Things to note:  
   
-- All custom entities can be enabled for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
+- You can enable all custom entities for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
   
-- You can use the Lookup for entities that aren't enabled for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] from a record that is enabled and see the data. However, you won’t be able to edit the entity.  
+- You can use the Lookup for entities that aren't enabled for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] from a record that is enabled and see the data. However, you can't edit the entity.  
   
   **Entities that are visible and read/write in the mobile app**  
   
@@ -242,21 +242,21 @@ Things to note:
 <a name="BKMK_PhoneAuth"></a>   
 ## Authentication 
 
- [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] authenticate users with browser-based authentication, which means no credentials are stored on the phone.  
+ [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] authenticate users by using browser-based authentication, so the app doesn't store any credentials on the phone.  
     
 <a name="BKMK_SecuringData"></a>   
 ## Best practices for securing app data on the mobile app
- Consider the following when planning security for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]:  
+ Consider the following best practices when planning security for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]:  
   
-- **Data transmission**. [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] requires an [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)], so when your organization’s mobile devices synchronize Dynamics 365 apps data with your Microsoft Dataverse environment or Dynamics 365 Customer Engagement (on-premises) organization, the data is encrypted with [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)].  
+- **Data transmission**. [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] requires an [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)]. When your organization's mobile devices synchronize Dynamics 365 apps data with your Microsoft Dataverse environment or Dynamics 365 Customer Engagement (on-premises) organization, the data is encrypted by using [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)].  
   
-- **Cached data**. [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] only cache records and lists that you’ve recently accessed in the app. To clear cached data, users can either sign out or reconfigure.
+- **Cached data**. [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] only cache records and lists that you recently accessed in the app. To clear cached data, users can either sign out or reconfigure.
 
-- **Encrypting cached data**. By default, data aren't encrypted but can be encrypted through several mechanisms:
+- **Encrypting cached data**. By default, data aren't encrypted but you can encrypt data through several mechanisms:
 
-  - You can use Intune's MDM capabilities to enforce device-wide encryption. 
-  - The mobile application also implements and enforces Intune's application policies. This allows you to encrypt data at the application level.  
-  - You can use BitLocker to encrypt the entire hard drive on a Windows 8 or later device.
+  - Use Intune's MDM capabilities to enforce device-wide encryption. 
+  - The mobile application also implements and enforces Intune's application policies. Use these policies to encrypt data at the application level.  
+  - Use BitLocker to encrypt the entire hard drive on a Windows 8 or later device.
 
 
 <a name="BKMK_OtherFeatures"></a>
@@ -284,7 +284,7 @@ Things to note:
 ## Privacy notice
  [!INCLUDE[cc_privacy_crm_for_tablets](../includes/cc-privacy-crm-for-tablets.md)]
 
-### See Also
+### See also
  [Secure and manage Dynamics 365 for phones and tablets](secure-manage-phones-tablets.md) </br>
  [What's supported](support-phones-tablets.md) </br>
  [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md) </br>
