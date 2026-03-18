@@ -142,7 +142,7 @@ The mobile app offers multiple dashboards for users. After you set up standard o
  
 6. Select **Save**.  
   
-   Show your users how to set and view the enabled dashboards on their phones or tablets. For more information, see [User Guide for Dynamics 365 for phones and tablets](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md).  
+   Show your users how to set and view the enabled dashboards on their phones or tablets. Learn more in [User Guide for Dynamics 365 for phones and tablets](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md).  
   
 You can assign security roles to a dashboard, so the dashboard appears only to users with certain security roles. For example, you can set who has access to the Sales Dashboard.
 
