@@ -84,7 +84,6 @@ Learn more about Omnichannel for Customer Service in [Videos](../use/videos.md).
 [Understand routing](../administer/overview-unified-routing.md)    
 [Agents using Unified Service Desk](../../unified-service-desk/oc-usd/omnichannel-agent.md)  
 [Agents using Omnichannel for Customer Service app](../use/omnichannel-customer-service-app-agent.md)  
-[System customizers guide](../administer/omnichannel-customizer.md)  
 [Developer guide](../develop/omnichannel-developer.md)
 
 
