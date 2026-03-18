@@ -274,6 +274,9 @@ Things to note:
 
 -   Disabled for the organization, users must use the command bar and select **Save** to save form changes.
 
+> [!NOTE]
+> AutoSave is not supported for mobile apps.
+
 ### Images
  The mobile app honors the server's caching policies and won't store the content locally unless it's permitted to do so by the server.
  
