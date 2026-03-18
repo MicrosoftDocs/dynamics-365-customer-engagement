@@ -22,8 +22,6 @@
         href: capacity-profiles.md
       - name: Manage personas and custom security roles
         href: role-persona-mapping.md
-      - name: Delete historical data of agent capacity updates
-        href: manage-historical-data-capacity-updates.md
     - name: Unified routing and assignment
       items:
       - name: Overview of unified routing
@@ -552,8 +550,6 @@
         href: add-customer-summary-settings.md
       - name: Customize chat forms
         items:
-        - name: Overview
-          href: omnichannel-customizer.md
         - name: Customize active conversation form
           href: customize-customer-summary.md
         - name: Customize quick view forms
