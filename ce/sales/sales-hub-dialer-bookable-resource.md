@@ -10,7 +10,7 @@ ms.topic: concept-article
 
 # Step 6: Create a bookable resource
 
-Capacity profiles are bound to bookable resources, not directly to users. You must create a bookable resource for each seller before capacity profiles appear on their user record. After you create a bookable resource, you can associate the appropriate capacity profiles with that seller to manage their call routing and availability.
+Capacity profiles are bound to bookable resources, not directly to users. You must create a bookable resource for each seller before capacity profiles appear on their user record. After you create a bookable resource, you can associate the appropriate capacity profiles with that seller to manage their call routing and availability. Learn more about bookable resources in [Manage users using the classic experience](/dynamics365/customer-service/administer/users-user-profiles#manage-users-using-the-classic-experience)
 
 ## Create a bookable resource and assign capacity profiles
 
