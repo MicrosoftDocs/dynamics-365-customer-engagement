@@ -15,6 +15,8 @@ items:
         href: trial-faq.md
   - name: Buy a subscription
     href: buy-fs.md
+  - name: Navigate the user interface
+    href: navigate-ui.md
   - name: Get started
     href: field-service-get-started.md
 
@@ -46,8 +48,10 @@ items:
     - name: Preview new features
       href: /dynamics365/get-started/release-schedule
 
-- name: Administration
+- name: Admin setup
   items:
+    - name: Administration overview
+      href: admin-guide.yml
     - name: Field Service settings
       href: configure-default-settings.md
     - name: Users and security roles
@@ -118,7 +122,21 @@ items:
         - name: Work order update
           href: work-order-update.md
         - name: Create inspection templates
-          href: inspections-copilot.md      
+          href: inspections-copilot.md
+        - name: Use Microsoft 365 Copilot (preview)
+          href: use-microsoft-365-copilot-model-driven-apps.md
+        - name: Supervise agents with agent feed (preview)
+          href: supervise-agents-with-agent-feed.md
+        - name: Use Copilot's form fill assistance 
+          href: form-fill-assistance.md
+        - name: Find data with AI (preview)
+          href: find-data-with-ai.md
+        - name: Visualize data with Copilot (preview)
+          href: visualize-data-in-copilot.md
+        - name: Use row summaries
+          href: record-summaries.md
+        - name: Use timeline highlights with generative AI
+          href: use-timeline-highlights-powered-by-generative-ai.md                
     - name: AI agents
       items:
         - name: AI agents overview
@@ -339,6 +357,8 @@ items:
           href: mobile/get-work-done-mobile-app.md
         - name: Work offline
           href: mobile/work-offline.md
+        - name: Scan a barcode
+          href: mobile/scan-barcode-technician.md
         - name: Access related applications
           href: mobile/access-related-apps.md
         - name: View booking maps
@@ -358,10 +378,14 @@ items:
       items:
         - name: Agreements overview
           href: agreements-overview.md
-        - name: Set up agreements
-          href: set-up-customer-agreements.md
+        - name: Set up agreements to generate work orders
+          href: set-up-agreements-work-orders.md
+        - name: Set up agreements to generate invoices
+          href: set-up-agreements-invoices.md
         - name: Set up agreement substatuses
           href: set-up-agreement-sub-statuses.md
+        - name: Manage agreements
+          href: manage-agreements.md  
     - name: Entitlements
       items:
         - name: Entitlements overview

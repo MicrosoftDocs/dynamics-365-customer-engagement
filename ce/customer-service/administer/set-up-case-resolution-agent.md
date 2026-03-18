@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 01/19/2026
+ms.date: 03/12/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -39,13 +39,25 @@ If you don't select a default template and Copilot recommended email templates i
 In Copilot Service admin center, follow these steps to configure the automation level for each line of business:
 
 1. Select **Manage** for **Case Management Agent** in **Case settings**. The **Case Management Agent** page appears.
-1. Select **Manage** for **Case Resolution**. The Case Resolution Agent page appears.
-1. In **Level of automation per LOB**, the lines of business you configured in the Customer Intent Agent appear. Select the required line of business and then select **Edit**. You can specify the following automation levels for each line of business:
+1. Select **Manage** for **Case Resolution**. The **Case resolution** page appears.
+1. In **Level of automation per line of business**, the lines of business you configured for Customer Intent Agent appear. Select the required line of business and then select **Edit**. You can specify the following automation levels for each line of business:
    - **Full**: The AI agent automatically resolves cases.
    - **Require agent confirmation**: The AI agent drafts email responses, but requires a representative to review and send the email.
    - **Disabled**: The agent doesn't draft email responses. 
 
-### Record representative interactions with the AI agent
+## Configure language for case resolution
+
+Define the language that Case Management Agent can use for drafting customer communications like emails during the case resolution process. If the agent can't determine a valid and supported langauge because the case field is empty or contains a locale that isn't supported, the agent hands off the case to a service representative and doesn't draft or send an email. This ensures that customer communications proceed only when the language requirement is met.
+
+1.In Copilot Service admin center, go to **Case resolution**. The **Case resolution** page appears.
+
+1. In **Language settings**, select one of the following options:
+
+   - **Use case record**: Uses the language locale stored in the case record. Use this option if your organization supports multiple languages and stores the customer’s preferred language on each case.
+      - **Locale field/record**: Select the **case field** that stores the language locale value. The value must be in a valid **ISO language–country code format** (for example: `en-US`).
+   - **A single language**: Select a supported language. Case Management Agent uses it for all case resolution emails. Use this option if your support operations are standardized on one language.
+
+## Record representative interactions with the AI agent
 
  You can select **Record service representative interactions with AI, including agent actions and their feedback on AI suggestions** to record and understand how representatives are interacting with the AI agent and how the agent is performing in a support organization. You can also download and use the data to analyze knowledge sources, and build usage reports.
 
@@ -74,6 +86,33 @@ When the case resolution process is triggered, based on your configuration, the 
 ## Integrate Case Management Agent with custom Copilot Studio agents 
 
 You can integrate Case Management Agent with custom Microsoft Copilot Studio agents to enhance the case resolution process. For example, you can create a custom agent that provides additional context or performs specific actions based on the case details. Learn more in [Integrate Case Management Agent with custom Copilot Studio agents](../develop/case-management-agent-integration.md).
+
+##  Run simulations to evaluate case resolution by Case Management Agent (preview) 
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+Use sample records to test and compare case resolution by Case Management Agent before enabling the agent in production.
+
+> [!NOTE]
+> Simulations consume Copilot or AI credits in the same way as agent runs.
+
+### Set up a simulation
+
+1. On the **Case Management Agent** page, in **Case resolution**, select **Manage**. The **Case resolution** page appears.
+1. Select **Go to simulation** in the **Command** menu. The **Case resolution simulation** page appears.
+1. On the **Simulation setup** tab, provide the following information:
+
+    1. **Simulation name**: Provide a simulation name.
+    1. Select the line of business from the dropdown. You can select a disabled line of business only.
+    1. Select **Show matching cases**. The **Selected record** section appears that shows cases based on line of business and any additional filters that you might have added in the **Additional record filters** dropdown. The first 100 matching cases only are shown because simulations can run on a maximum of 100 cases at a time.
+  1. Select the cases and then select **Run simulation**. The **Simulation result** tab shows the results.
+
+### View a simulation report
+
+Simulations are listed with details of the simulation name, line of business, run date, status, and results on the **Simulation result** tab.
+
+- Select **Download** to export an Excel report.
+- Select **View** to see simulation results for a specific line of business. The page displays the run details along with individual case predictions showing intent, action type, and generated response. Select **View Email** to view the generated response email.
 
 ## Related information
 
