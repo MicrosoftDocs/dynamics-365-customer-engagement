@@ -373,6 +373,8 @@ items:
                 href: sales-hub-dialer-call-profiles.md
               - name: "Step 5: Assign phone numbers to sellers"
                 href: sales-hub-dialer-assign-numbers.md
+              - name: "Step 6: Create a bookable resource"
+                href: sales-hub-dialer-bookable-resource.md
               - name: Enable Dataverse search for dialer
                 href: sales-hub-dialer-dataverse-search.md
               - name: Understand how call routing works
