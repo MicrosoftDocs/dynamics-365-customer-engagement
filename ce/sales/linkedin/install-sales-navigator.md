@@ -1,7 +1,7 @@
 ---
 title: Install LinkedIn Sales Navigator for Dynamics 365
 description: Learn how to install and enable the LinkedIn Sales Navigator for your organization. You can install through Advanced Settings, Marketplace, or App Settings.
-ms.date: 01/31/2025
+ms.date: 02/27/2026
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -14,7 +14,7 @@ search.audienceType:
 
 # Install and enable LinkedIn Sales Navigator
 
-As an administrator, You can install and enable LinkedIn Sales Navigator for your organization.  
+As an administrator, you can install and enable LinkedIn Sales Navigator for your organization.  
 
 > [!IMPORTANT]
 > Dynamics 365 Sales (on-premises) doesn't support LinkedIn Sales Navigator.
@@ -24,19 +24,19 @@ As an administrator, You can install and enable LinkedIn Sales Navigator for you
 Review the following prerequisites to install and enable LinkedIn Sales Navigator:
 
 - You have a System Administrator security role in [!INCLUDE[pn-dynamics-365](../../includes/pn-dynamics-365.md)].  
-- You can integrate LinkedIn Sales Navigator with Dynamics 365 Customer Engagement apps only and can't be integrated with a Microsoft Dataverse organization.
+- You can integrate LinkedIn Sales Navigator with Dynamics 365 Customer Engagement apps only and can't integrate it with a Microsoft Dataverse organization.
 - <a name='unable-to-sign-into-display-widget'></a>You have a [Microsoft Relationship Sales subscription](https://dynamics.microsoft.com/sales/relationship-sales/) for Dynamics 365. Microsoft Relationship Sales (MRS) solution includes Dynamics Sales Enterprise and [LinkedIn Sales Navigator Advanced](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/crm) license.<br>or<br>
     If you don't have MRS Solution or MRS Solution plus for LinkedIn Sales Navigator license, you need to sign up your team for [LinkedIn Sales Navigator Advanced](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/crm) or [LinkedIn Sales Navigator Advanced Plus](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/crm) license.
 
     > [!NOTE]
     > We recommend having a Microsoft Relationship Sales solution Plus license that includes Dynamics 365 Sales Enterprise and [LinkedIn Sales Navigator Advanced Plus](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/crm) license. To learn more, see the **Dynamics 365 Sales** section from the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-- You have to enable JavaScript in your browser.  
+- You need to enable JavaScript in your browser.  
 - You have to disable your pop-up blocker for the [!INCLUDE[pn-dynamics-365](../../includes/pn-dynamics-365.md)] domain.  
 
 ## Install LinkedIn Sales Navigator
 
-1. To install, go to the **Install LinkedIn Sales Navigator for Dynamics 365** pane. There are three ways to navigate to the pane:
+1. To install the app, go to the **Install LinkedIn Sales Navigator for Dynamics 365** pane. You can access this pane in three ways:
 
     - **App Settings**
 
@@ -62,11 +62,11 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
 
 1. Select the check boxes for Microsoft and Dynamics 365 legal terms and privacy statements, and then select **Install**.
 
-    The installation might take few minutes to complete.  
+    The installation might take a few minutes to complete.  
 
-1. (Optional) To know the installation status, go to **Environments** > ***your environment*** > **Dynamics 365 apps** and verify that the status of **Dynamics 365 Sales LinkedIn Integration** solution is **Installed**.
+1. (Optional) To check the installation status, go to **Environments** > ***your environment*** > **Dynamics 365 apps** and verify that the status of **Dynamics 365 Sales LinkedIn Integration** solution is **Installed**.
 
-1. (Optional) Validate the installation to help ensure that the installation in successful. More information: [Validate the installation](#validate-the-installation).
+1. (Optional) Validate the installation to help ensure that the installation is successful. For more information, see [Validate the installation](#validate-the-installation).
 
 ## Validate the installation
 
@@ -85,15 +85,15 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
     :::image type="content" source="media/verify-solution-installation.png" alt-text="Screenshot of LinkedIn sales navigator related solutions installed.":::
 
     >[!NOTE]
-    >If the **LinkedInSalesNavigatorControlsForUnifiedClient** solution is not available in the list, follow the steps as described in the [LinkedInSalesNavigatorControlsForUnifiedClient solution is not available in the organization to configure LinkedIn Sales Navigator](/troubleshoot/dynamics-365/sales/lisn-unable-upgrade-lisn-solution) section.
+    >If the **LinkedInSalesNavigatorControlsForUnifiedClient** solution isn't available in the list, follow the steps described in the [LinkedInSalesNavigatorControlsForUnifiedClient solution is not available in the organization to configure LinkedIn Sales Navigator](/troubleshoot/dynamics-365/sales/lisn-unable-upgrade-lisn-solution) section.
 
-After the installation is complete, [enable LinkedIn Sales Navigator](#enable-linkedin-sales-navigator).  
+After the installation finishes, [enable LinkedIn Sales Navigator](#enable-linkedin-sales-navigator).  
 
 ## Enable LinkedIn Sales Navigator
 
-When enabled, the Sales Navigator controls appear on Account, Contact, Lead, and Opportunity pages by default. You can also customize other forms and entities to show Sales Navigator controls.  
+When you enable this feature, the Sales Navigator controls appear on Account, Contact, Lead, and Opportunity pages by default. You can also customize other forms and entities to show Sales Navigator controls.  
 
-1. Use one of the following ways to go to LinkedIn integration page.  
+1. Use one of the following methods to go to the LinkedIn integration page:  
 
     - **App Settings**
 
@@ -119,29 +119,29 @@ When enabled, the Sales Navigator controls appear on Account, Contact, Lead, and
 
 1. Select **Save**.
 
-After you have enabled the LinkedIn Sales Navigator solution, [enable CRM sync and activity writeback](#enable-crm-sync-and-activity-writeback). 
+After you enable the LinkedIn Sales Navigator solution, [enable CRM sync and activity writeback](#enable-crm-sync-and-activity-writeback). 
 
 ## Enable CRM sync and activity writeback
 
-By enabling the CRM sync and activity writeback, the Sales Navigator matches the Accounts, Leads, and Contacts in Dynamics 365 Sales. The sync also allows you to see the data created in LinkedIn Sales Navigator from Dynamics 365 Sales, including InMails and Messages.
+When you enable CRM sync and activity writeback, Sales Navigator matches the Accounts, Leads, and Contacts in Dynamics 365 Sales. The sync also allows you to see the data created in LinkedIn Sales Navigator from Dynamics 365 Sales, including InMails and Messages.
 
-To enable the CRM sync and activity writeback, follow the process as defined in [CRM Sync & Activity Writeback for Dynamics 365](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback).
+To enable CRM sync and activity writeback, follow the process described in [CRM Sync & Activity Writeback for Dynamics 365](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback).
 
 ## Existing orgs that got updated with April 19 features
 
-In the [April 19 release](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled), we introduced changes to how the Sales Navigator controls are enabled. Here are a few things to consider if you don't plan to enable the integration:
+In the [April 19 release](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled), Microsoft introduced changes to how the Sales Navigator controls are enabled. Here are a few things to consider if you don't plan to enable the integration:
 
-- Three solutions related to the LinkedIn integration appear in the **All Solutions** view in **Settings** > **Customization** > **Solutions**. Although these solutions are preinstalled, the functionality and data transfer between the two systems will be disabled unless you [enable LinkedIn Sales Navigator](#enable-linkedin-sales-navigator). Additionally, **CRM Sync** needs to be explicitly enabled on LinkedIn Sales Navigator Admin Settings page.
+- Three solutions related to the LinkedIn integration appear in the **All Solutions** view in **Settings** > **Customization** > **Solutions**. Although these solutions are preinstalled, the functionality and data transfer between the two systems is disabled unless you [enable LinkedIn Sales Navigator](#enable-linkedin-sales-navigator). Additionally, you need to explicitly enable **CRM Sync** on LinkedIn Sales Navigator Admin Settings page.
 
    > [!div class="mx-imgBorder"] 
    > ![List of LinkedIn related solutions.](media/solution-list.png)
 
-- System customizers will see the new LinkedIn controls in Account, Contact, Lead, and Opportunity form editors. However, the visibility for these controls is turned off by default and users won't be able to see them on forms unless the feature is enabled by a system administrator. Customizers can remove these controls from pages as they'd remove any control that they consider too distracting.  
+- System customizers see the new LinkedIn controls in Account, Contact, Lead, and Opportunity form editors. However, the visibility for these controls is turned off by default and users can't see them on forms unless the feature is enabled by a system administrator. Customizers can remove these controls from pages as they'd remove any control that they consider too distracting.  
 
    > [!div class="mx-imgBorder"] 
    > ![Visibility settings in tab properties.](media/visibility-settings.jpg)
 
-- While using **Advanced Find**, users see the new entities introduced by these solutions (InMails, Messages, and Smart Links) even if the integration wasn't enabled. This is the intended behavior; users can ignore these entities if they aren't actively using LinkedIn Sales Navigator.
+- While using **Advanced Find**, users see the new entities introduced by these solutions (InMails, Messages, and Smart Links) even if the integration isn't enabled. This behavior is intended; users can ignore these entities if they aren't actively using LinkedIn Sales Navigator.
 
 ## Related information
 

@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: concept-article
 ms.collection:
-ms.date: 01/21/2026
+ms.date: 03/11/2026
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -32,7 +32,9 @@ This report provides a holistic view of the conversations in real time. It inclu
 
 :::image type="content" source="../media/realtime_ongoing conversations.png" alt-text="The image shows real-time ongoing conversations report.":::
 
-You can perform different actions, such as assign or transfer a conversation, as described in the following sections.
+You can perform different actions, such as assign or transfer a conversation, as described in the following sections. 
+> [!NOTE]
+> Actions like assign, transfer, monitor, or force close conversations aren't supported in model-customized reports.
 
 ## Assign or transfer conversations
 
@@ -98,39 +100,6 @@ Forcibly close a conversation by closing the work item. When you select **Force 
 1. Select a conversation and then select **Force Close**.
 
 The participants receive a notification that a supervisor ended their conversation.
-
-## Assign, transfer, monitor, or force close conversations in customized reports
-
-To perform the actions on your customized reports, complete these prerequisites:
-
-- Enable all of the customizations in [data model customization](../administer/model-customize-reports.md#customize-data-models-of-historical-and-real-time-analytics-reports), including step 4 [Step 4: Embed customized reports back to Dynamics 365](../administer/model-customize-reports.md#step-4-embed-customized-reports-back-to-dynamics-365).
-- Create reports using [the out-of-the-box data model in your custom reports](use-datamodel.md#use-the-out-of-the-box-data-model-in-your-custom-reports).
-- Make sure appropriate roles exist for viewing and embedding reports. Learn more in [Configure analytics and insights dashboards](../administer/configure-customer-service-analytics-insights-csh.md#configure-analytics-and-insights-dashboards).
-
-In Copilot Service workspace, go to **Customized reports** > **Ongoing conversations** report, and then select the conversation that needs to be updated.
- 
-When the **Agent Name** doesn't exist, the following options are enabled.
-  - **Assign**: Assign a representative by queue for the conversation.
-  - **Force close**: Force close the conversation if necessary.
-  :::image type="content" source="../media/actions-no-agent-name.png" alt-text="Screenshot shows the actions enabled when no agent name is assigned":::
-    
-When the **Agent Name** exists, the following options are enabled.
-  - **Transfer**: Transfer the conversation from one representative to another in the same queue.
-  - **Monitor**: To monitor the chat, open the conversation dialog.
-  - **Force close**: Force close the conversation if necessary.
-    :::image type="content" source="../media/actions-agent-name.png" alt-text="Screenshot that shows actions enabled when agent name is enabled.":::
-
-Refer to the following table to see actions that are enabled, depending on the various conversation states.
-
-|Type |Conversation state  |Assign  |Transfer  |Monitor| Force close
-|---------|---------|---------|---------|-----|----|
-|Record    |    Open     | Assign to queue        |   Not enabled      | Not enabled| Enabled|
-|Record   |  Open       | Assign to representative        |   Transfer to representative      | Not enabled|Enabled|
-|Record   |   Active      |      Assign to representative   |    Transfer to representative     |Not enabled | Enabled|
-|Record    | Wrap-up        | Not enabled        | Not enabled        |Enabled |Enabled |
-|Record| Waiting | Enabled | Enabled | Enabled| Enabled| 
-
-After you assign or transfer conversations, manually refresh the report to view the latest status.
 
 ### Related information
 

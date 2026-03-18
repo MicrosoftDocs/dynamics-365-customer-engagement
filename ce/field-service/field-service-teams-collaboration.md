@@ -1,18 +1,17 @@
 ---
 title: Collaborate on work orders with Microsoft Teams
 description: Collaborate in the context of work orders or other tables by integrating with Microsoft Teams.
-ms.date: 02/10/2025
+ms.date: 02/19/2026
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
 ---
 
-# Collaborate on work orders with Microsoft Teams
+# Collaborate on work orders by using Microsoft Teams
 
-Integration with Microsoft Teams enables you to chat with team members about work orders. The Teams integration helps find answers and fix issues the first time without leaving the Field Service app. It also lists team members who previously worked on a work order. Connecting all the associated chats to a work order provides all chats related to that work order in one place for all stakeholders to view.
+By integrating with Microsoft Teams, you can chat with team members about work orders. The Teams integration helps you find answers and fix issues the first time without leaving the Field Service app. It also lists team members who previously worked on a work order. By connecting all the associated chats to a work order, all stakeholders can view all chats related to that work order in one place.
 
-> [!div class="mx-imgBorder"]
-> ![Field Service work order, with a Teams chat panel showing related chats.](./media/work-order-teams-messages.png)
+:::image type="content" source="./media/work-order-teams-messages.png" alt-text="Field Service work order, with a Teams chat panel showing related chats.":::
 
 For a guided walkthrough, check out the following video.
 >
@@ -32,11 +31,11 @@ Start a chat that's connected to a record, such as a work order.
 
 ## Connect and disconnect existing chats
 
-[Connect or disconnect and existing chat from a record](/dynamics365/customer-service/use/use-teams-chat#connect-or-disconnect-an-existing-chat-from-a-record).
+Go to [Connect or disconnect an existing chat from a record](/dynamics365/customer-service/use/use-teams-chat#connect-or-disconnect-an-existing-chat-from-a-record).
 
 ## Start a regular Teams chat in Dynamics 365
 
-Start a chat unrelated to a record.
+Start a chat that's unrelated to a record.
 
 1. Select the **Teams chats and channels integration** icon.
 1. Select the **Start a new chat** icon.
