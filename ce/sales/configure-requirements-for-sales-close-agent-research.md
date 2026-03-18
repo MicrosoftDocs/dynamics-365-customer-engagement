@@ -23,7 +23,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Before you configure the Sales Close Agent - Research, ensure that the following prerequisites are configured in your Dynamics 365 Sales environment.
+Before you configure the Sales Close Agent - Research, ensure that your Dynamics 365 Sales environment meets the following prerequisites.
 
 | Prerequisite | Description |
 |--------------|-------------|
@@ -33,34 +33,35 @@ Before you configure the Sales Close Agent - Research, ensure that the following
 ## Configure the prerequisites
 
 1. [Open the Sales Close Agent - Research settings page](open-sales-close-agent-research-settings.md).  
-1. On the **Scenario** page, go to the **Prerequites** section and configure the following:
-   - **Bing search**: Select **Accept terms** to open the Power Platform admin center and accept the terms for Bing search. learn more in [Turn on data movement, Bing search, and Microsoft 365 services for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot?tabs=new#turn-on-data-movement-bing-search-and-microsoft-365-services-for-copilots-and-generative-ai-features)
+1. On the **Scenario** page, go to the **Prerequisites** section and configure the following settings:
+   - **Bing search**: Select **Accept terms** to open the Power Platform admin center and accept the terms for Bing search. To learn more, see [Turn on data movement, Bing search, and Microsoft 365 services for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot?tabs=new#turn-on-data-movement-bing-search-and-microsoft-365-services-for-copilots-and-generative-ai-features).  
+   - DataverseSearch
    - **Microsoft 365 Services**: (Optional) To allow the agent to read emails directly from the sellers' Microsoft 365 mailboxes, select **Mark as done** and then select **Apply changes**. Sellers are also prompted to provide consent when they first access the Opportunity research page. If you want to [use server-side synchronization](#configure-server-side-synchronization) for reading emails, don't select the checkbox.
 
      To configure and use Microsoft 365 Services, you need:
-     - At least *ONE* of the following roles: Global administrator, Dynamics 365 administrator, or tenant administrator.
-     - At least *ONE* of the following licenses: Microsoft 365/Office 365, Power Automate Premium, or Dynamics 365 Sales Enterprise Edition.
+     - At least one of the following roles: Global administrator, Dynamics 365 administrator, or tenant administrator.
+     - At least one of the following licenses: Microsoft 365/Office 365, Power Automate Premium, or Dynamics 365 Sales Enterprise Edition.
 
      > [!NOTE]
      > The agent reads emails of the opportunity owner to generate insights. However, the insights are visible to all users who can access the opportunity.
 
 1. Select **Continue** to proceed to the agent configuration page.
 
-   :::image type="content" source="media/opportunity-research-agent-settings.png" alt-text="Screenshot of the Sales Close Agent - Research settings page.":::
+   :::image type="content" source="media/sca-research-agent-prerequisites-configured.png" alt-text="Screenshot of the Sales Close Agent - Research settings page with prerequisites configured.":::
 
 ## Configure server-side synchronization
 
 If you want the agent to access only the emails and meetings synced to Dynamics 365 Sales, configure server-side synchronization for seller mailboxes. Alternatively, you can enable Microsoft 365 Services for the agent to read emails directly from the sellers' Microsoft 365 mailboxes.
 
-If both server-side synchronization and Microsoft 365 Services are enabled, the agent reads emails from both sources and generates insights accordingly.
+If you enable both server-side synchronization and Microsoft 365 Services, the agent reads emails from both sources and generates insights accordingly.
 
 1. [Create an email server profile for Exchange Online](/power-platform/admin/connect-exchange-online?tabs=new#create-an-email-server-profile-for-exchange-online).
 
 1. [Configure default email processing and synchronization](/power-platform/admin/connect-exchange-online?tabs=new#configure-default-email-processing-and-synchronization).
-1. [Configure mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#configure-mailboxes) of sellers who own the opportunities and [approve their mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#approve-mailboxes). When the configuration is successful, the **Incoming Email Status** and **Outgoing Email Status** for the mailbox are set to **Success**.
+1. [Configure mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#configure-mailboxes) of sellers who own the opportunities and [approve their mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#approve-mailboxes). When the configuration succeeds, the **Incoming Email Status** and **Outgoing Email Status** for the mailbox are set to **Success**.
     :::image type="content" source="mailbox-status.png" alt-text="Screenshot of a user mailbox in Dynamics 365 Sales with status indicators.":::
 
-1. Make sure that the personalization option for email tracking is set to an appropriate value to allow the agent to access emails and meetings from the sellers' mailboxes. You can choose an option that best suits your organization's privacy policies. Perform *ONE* of the following actions:
+1. Make sure that the personalization option for email tracking is set to an appropriate value to allow the agent to access emails and meetings from the sellers' mailboxes. Choose an option that best suits your organization's privacy policies. Perform *one* of the following actions:
 
     - Notify the sellers to set the tracking option in the Sales Hub app from **Settings** > **Personalization settings** > **Emails**  > **Track**.
       :::image type="content" source="media/email-track-personal-options.png" alt-text="Screenshot of the Personalization settings page in Dynamics 365 Sales with the All email messages option selected.":::
@@ -71,8 +72,8 @@ If both server-side synchronization and Microsoft 365 Services are enabled, the 
 
 ## Next step
 
-[Configure the agent profile for Sales Close Agent](configure-sales-close-agent-profile.md)
+[Configure the agent profile for Sales Close Agent](configure-sales-close-agent-profile.md).
 
 ## Related information
 
-[Set up and configure the Sales Close Agent (preview)](configure-sales-close-agent.md)
+[Set up and configure the Sales Close Agent (preview)](configure-sales-close-agent.md).
