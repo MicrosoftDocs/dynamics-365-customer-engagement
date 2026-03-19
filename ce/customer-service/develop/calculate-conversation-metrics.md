@@ -198,7 +198,7 @@ Outgoing conversations = ​CALCULATE (​DISTINCTCOUNTNOBLANK ( FactConversatio
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
 |Attributes | - msdyn_ocliveworkitem.msdyn_channel <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid <br> - msdyn_conversationtopic_conversation.msdyn_conversationid <br> - msdyn_ocliveworkitem.msdyn_isoutbound   |
-|Filters  | - Filter the FactConversations table to include only rows from msdyn_ocliveworkitem.​ <br> - Ensure that msdyn_channel isn't equal to '192350000' and msdyn_channelinstanceid is NULL. Conversationid is set to the value of msdyn_conversationtopic_conversation.msdyn_conversationid. <br> - IsOutbound is set to the value of msdyn_ocliveworkitem.msdyn_isoutbound.|
+|Filters  | - Filter the FactConversations table to include only rows from msdyn_ocliveworkitem.​ <br> - Ensure that msdyn_channel isn't equal to "192350000" and msdyn_channelinstanceid is NULL. Conversationid is set to the value of msdyn_conversationtopic_conversation.msdyn_conversationid. <br> - IsOutbound is set to the value of msdyn_ocliveworkitem.msdyn_isoutbound.|
 
 ### Related metric
 
