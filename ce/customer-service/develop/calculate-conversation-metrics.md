@@ -547,7 +547,7 @@ Avg. conversation hold time (sec) = AVERAGE(FactConversation[ConversationHoldTim
 |---------|---------|
 |Dataverse entities | [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_liveworkstream |
 |Attributes | - msdyn_channelinstanceid​ <br> - msdyn_streamsource ​<br> - isagentsession ​<br> - msdyn_conversationholdtimeinseconds   |
-|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL. <br> -  msdyn_ocliveworkitem.msdyn_isagentsession is set to 1. <br> - Exclude rows where msdyn_streamsource is'192350000'. ConversationHoldTimeInSeconds is obtained from msdyn_ocliveworkitem.msdyn_conversationholdtimeinseconds.|
+|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL. <br> -  msdyn_ocliveworkitem.msdyn_isagentsession is set to 1. <br> - Exclude rows where msdyn_streamsource is "192350000". ConversationHoldTimeInSeconds is obtained from msdyn_ocliveworkitem.msdyn_conversationholdtimeinseconds.|
 
 ---
 
