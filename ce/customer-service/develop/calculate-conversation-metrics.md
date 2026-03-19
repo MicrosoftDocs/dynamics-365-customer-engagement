@@ -278,7 +278,7 @@ Abandoned conversations (by overflow filter) = [Abandoned conversations]
 
 ## Conversations abandoned rate (by overflow filter) 
 
-Conversations abandoned rate (by Overflow Filter) is a metric that measures the proportion of incoming conversations that are abandoned, specifically when filtered by overflow conditions. It is calculated by dividing the number of abandoned conversations by the total number of incoming conversations, while explicitly removing the overflow filter from the denominator. This ensures the rate is based on all incoming conversations, not just those affected by a particular overflow condition, providing a more accurate baseline for comparison.
+Conversations abandoned rate (by Overflow Filter) is a metric that measures the proportion of incoming conversations that are abandoned, specifically when filtered by overflow conditions. It's calculated by dividing the number of abandoned conversations by the total number of incoming conversations, while explicitly removing the overflow filter from the denominator. This calculation ensures the rate is based on all incoming conversations, not just conversations affected by a particular overflow condition. This approach provides a more accurate baseline for comparison.
 
 ### DAX query and Dataverse reference
 
