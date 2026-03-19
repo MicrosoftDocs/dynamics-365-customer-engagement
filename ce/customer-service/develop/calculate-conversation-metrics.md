@@ -151,7 +151,7 @@ Incoming conversations_FactConversation = CALCULATE(DISTINCTCOUNTNOBLANK(FactCon
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem) |
 |Attributes | - msdyn_ocliveworkitem.msdyn_isoutbound <br> - msdyn_ocliveworkitem.msdyn_channel ​<br> - msdyn_ocliveworkitem.msdyn_channelinstanceid ​<br> - systemuser.msdyn_botapplicationid   |
-|Filters  | - Set IsOutbound to the value of msdyn_ocliveworkitem.msdyn_isoutbound. <br> -​ Filter the FactConversations table to include only rows from msdyn_ocliveworkitem.​ <br> - Ensure that msdyn_channel isn't equal to '192350000' and msdyn_channelinstanceid is NULL.​ <br> - Determine if an agent is involved by checking if there is at least one session where IsAgentSession is true.​ <br> - IsAgentSession is set to true if systemuser.msdyn_botapplicationid isn't null.​|
+|Filters  | - Set IsOutbound to the value of msdyn_ocliveworkitem.msdyn_isoutbound. <br> -​ Filter the FactConversations table to include only rows from msdyn_ocliveworkitem.​ <br> - Ensure that msdyn_channel isn't equal to "192350000" and msdyn_channelinstanceid is NULL.​ <br> - Determine if an agent is involved by checking if there is at least one session where IsAgentSession is true.​ <br> - IsAgentSession is set to true if systemuser.msdyn_botapplicationid isn't null.​|
 
 
 ### [Real-time analytics](#tab/realtimepage)
