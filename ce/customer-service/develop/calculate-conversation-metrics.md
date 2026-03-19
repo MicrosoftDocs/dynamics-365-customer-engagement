@@ -412,7 +412,7 @@ AVERAGEX (FactConversation,IF (FactConversation[IsAgentAccepted] && NOT FactConv
 |---------|---------|
 |Dataverse entities | [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
 |Attributes |- msdyn_ocliveworkitem.msdyn_isagentsession​ <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_liveworkstream.msdyn_streamsource <br> - msdyn_ocliveworkitem.msdyn_conversationfirstwaittimeinseconds​ <br> - msdyn_isoutbound​|
-|Filters  |- Filter the FactConversations table to include only rows where msdyn_isagentsession is equal to 1.​ Ensure that msdyn_channelinstanceid is NULL. <br> - Exclude rows where msdyn_streamsource is'192350000'. <br> - ConversationSpeedToAnswerInSeconds is obtained from msdyn_conversationfirstwaittimeinseconds and msdyn_isagentaccepted is 1.|
+|Filters  |- Filter the FactConversations table to include only rows where msdyn_isagentsession is equal to 1.​ Ensure that msdyn_channelinstanceid is NULL. <br> - Exclude rows where msdyn_streamsource is "192350000". <br> - ConversationSpeedToAnswerInSeconds is obtained from msdyn_conversationfirstwaittimeinseconds and msdyn_isagentaccepted is 1.|
 
 ---
 ## Conversation handle time
