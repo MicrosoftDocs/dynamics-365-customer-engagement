@@ -692,7 +692,7 @@ FactConversation[IsAgentAccepted] = "1"))
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem) |
 |Attributes |- msdyn_closedon​ <br> - msdyn_createdon​ <br> - msdyn_channel ​<br> - msdyn_channelinstanceid |
-|Filters  | - Filter the FactConversations table to include only rows where msdyn_channel isn't equal to '192350000' and msdyn_channelinstanceid is NULL. <br> - msdyn_ocliveworkitem.statuscode isn't set to 4. <br> - IsAgentSession is set to true. IsAgentInvolved is used if there's atleast one session with IsAgentSession set to true. <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL.​ |
+|Filters  | - Filter the FactConversations table to include only rows where msdyn_channel isn't equal to "192350000" and msdyn_channelinstanceid is NULL. <br> - msdyn_ocliveworkitem.statuscode isn't set to 4. <br> - IsAgentSession is set to true. The system uses IsAgentInvolved if there's at least one session with IsAgentSession set to true. <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL.​ |
 
 ### [Real-time analytics](#tab/realtimepage)
 
