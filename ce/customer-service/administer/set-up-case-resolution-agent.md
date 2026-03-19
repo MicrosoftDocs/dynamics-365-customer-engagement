@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 03/17/2026
+ms.date: 03/19/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -118,11 +118,14 @@ Simulations are listed with details of the simulation name, line of business, ru
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Use shadow mode to evaluate predicted actions from Case Management Agent on live cases without sending emails or updating records. Validate Case Management Agent recommendations against human actions, uncover gaps, and assess automation readiness.
+Use shadow mode to evaluate predicted actions from Case Management Agent on live cases without sending emails or updating records.
+
+> [!NOTE]
+> Shadow mode consumes Copilot or AI credits in the same way as agent runs.
 
 1. On the **Case resolution** page, in **Level of automation per line of business**, select a line of business.
 1. Select **Edit** and on the **Settings** pane, select **Shadow mode** from the **Level of automation** dropdown list and save the changes. 
-1. Select **Shadow mode results** from the **Command** menu. On the **Case resolution shadow mode results** page, you can view the status, intent predicted, action type, and the response. 
+1. Select **Shadow mode results** from the **Command** menu. On the **Case resolution shadow mode results** page, you can view the line of business, status, intent predicted, action type, and the response. Expand a case to view all shadow responses associated with it.
 1. Select **View Email** to view the email preview.
 
 ## Related information

@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 03/17/2026
+ms.date: 03/19/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -256,11 +256,14 @@ On the **Case creation and update simulation** page, go to the **Simulation resu
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Use shadow mode to evaluate predicted actions from Case Management Agent on live cases without sending emails or updating records. Validate Case Management Agent recommendations against human actions, uncover gaps, and assess automation readiness.
+Use shadow mode to evaluate predicted actions from Case Management Agent on live cases without sending emails or updating records.
+
+> [!NOTE]
+> Shadow mode consumes Copilot or AI credits in the same way as regular field predictions.
 
 1. On the **Case creation and update** page, in **Case update by AI agent (any channel)**, select a case update rule.
 1. Select **Shadow mode** from the toolbar. The rule status changes to **Shadow mode**.
-1. Select **Go to shadow results** from the **Command** menu. On the **Case creation and update shadow mode results** page, you can view the old and new value for the cases. 
+1. Select **Review shadow runs** from the **Command** menu. On the **Case creation and update shadow mode results** page, you can view the old and new value for the cases. Responses are grouped by case. Expand a case to view all shadow responses associated with it.
 
 ## Next steps
 
