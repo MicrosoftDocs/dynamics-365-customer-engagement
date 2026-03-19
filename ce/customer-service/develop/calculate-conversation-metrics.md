@@ -1001,7 +1001,7 @@ Avg. first response time (sec) = AVERAGE(FactConversation[ReponseTimeInSecondsAd
 |---------|---------|
 |Dataverse entities |  [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_liveworkstream |
 |Attributes  | - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_liveworkstream.msdyn_streamsource <br> - msdyn_ocliveworkitem.msdyn_firstresponsetime​ <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel  |
-|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL and​  msdyn_isagentsession set to 1​. Avg. first response time (sec) is defined by msdyn_ocliveworkitem.msdyn_firstresponsetimeinms​. <br> - Exclude rows where msdyn_streamsource is'192350000'​. ​|
+|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL and​  msdyn_isagentsession set to 1​. The system defines Avg. first response time (sec) by msdyn_ocliveworkitem.msdyn_firstresponsetimeinms​. <br> - Exclude rows where msdyn_streamsource is "192350000". ​|
 
 ---
 
