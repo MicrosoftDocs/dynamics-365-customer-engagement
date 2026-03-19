@@ -116,7 +116,7 @@ Total bot conversation = CALCULATE(DISTINCTCOUNTNOBLANK(FactSession[Conversation
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)  |
 |Attributes |- systemuser.msdyn_BotApplicationId​ <br>- msdyn_liveworkstream.msdyn_streamsource |
-|Filters  |- Filter the records to include only the records where BotApplicationId isn't null. <br> - msdyn_liveworkstream.msdyn_streamsource isn't equal to '192350000.' |
+|Filters  |- Filter the records to include only the records where BotApplicationId isn't null. <br> - msdyn_liveworkstream.msdyn_streamsource isn't equal to "192350000." |
 
 ---
 
