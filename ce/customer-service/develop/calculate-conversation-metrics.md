@@ -100,7 +100,7 @@ Bot conversations_FactSession=CALCULATE(DISTINCTCOUNT(FactSession[ConversationId
 |---------|---------|
 |Dataverse entities | [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_ocsession​, and msdyn_ocsessionparticipantevent.|
 |Attributes |- msdyn_ocsessionparticipantevent.msdyn_eventreason . <br> - msdyn_ocsessionparticipantevent.msdyn_eventtype ​<br> - msdyn_ocsession.msdyn_sessioncreatedon ​<br> - msdyn_ocsession.msdyn_channel​ <br> - msdyn_ocsession.msdyn_channelinstanceid |
-|Filters  |-  Filter the FactSession table to exclude records from msdyn_ocsessionparticipantevent where msdyn_eventreason is '192350001' (in-transit records). <br> - Include records from msdyn_ocsessionparticipantevent where msdyn_eventtype is '192350001' (hold events).​ <br> - Exclude sessions from msdyn_ocsession where msdyn_sessioncreatedon is empty.​ <br> - Exclude sessions from msdyn_ocsession where msdyn_channel is '192350000' (Entity Records channel). <br> - Exclude sessions where msdyn_channelinstanceid is NULL (SMS filter)​.
+|Filters  |-  Filter the FactSession table to exclude records from msdyn_ocsessionparticipantevent where msdyn_eventreason is "192350001" (in-transit records). <br> - Include records from msdyn_ocsessionparticipantevent where msdyn_eventtype is "192350001" (hold events).​ <br> - Exclude sessions from msdyn_ocsession where msdyn_sessioncreatedon is empty.​ <br> - Exclude sessions from msdyn_ocsession where msdyn_channel is "192350000" (Entity Records channel). <br> - Exclude sessions where msdyn_channelinstanceid is NULL (SMS filter)​.
 
 ### [Real-time analytics](#tab/realtimepage)
 
