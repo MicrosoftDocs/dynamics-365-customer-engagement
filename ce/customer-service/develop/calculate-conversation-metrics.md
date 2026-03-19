@@ -938,7 +938,7 @@ Avg. conversation active time (min) = CALCULATE(AVERAGE(FactConversation[ActiveT
 
 *Applies to Omnichannel historical dashboards.*
 
-The metric refers to the average amount of time during a conversation when an agent isn't actively engaged with the customer. This metric is especially relevant in chat and digital messaging channels, where agents often handle multiple sessions concurrently.​ Inactive time is the duration when a conversation is open but the agent isn't focused on it—either because they’ve switched to another session or aren't interacting with the customer. 
+The metric refers to the average amount of time during a conversation when an agent isn't actively engaged with the customer. This metric is especially relevant in chat and digital messaging channels, where agents often handle multiple sessions concurrently.​ Inactive time is the duration when a conversation is open but the agent isn't focused on it—either because they switched to another session or aren't interacting with the customer. 
 
 ### DAX query and Dataverse reference
 
