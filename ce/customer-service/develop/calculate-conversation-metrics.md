@@ -168,7 +168,7 @@ Incoming conversations = ​SUMX ( FactConversation, IF ( NOT FactConversation[D
 |---------|---------|
 |Dataverse entities | [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
 |Attributes | - msdyn_liveworkstream.msdyn_streamsource ​<br> - msdyn_ocliveworkitem.msdyn_isoutbound ​<br> - msdyn_ocliveworkitem.msdyn_isagentsession ​<br> - msdyn_ocliveworkitem.msdyn_channelinstanceid   |
-|Filters  | - Filter the FactConversations table to include only rows from msdyn_ocliveworkitem.​ <br> - Ensure that msdyn_streamsource isn't equal to '192350000' and msdyn_channelinstanceid is NULL.​ <br>- Determine if an agent is involved by checking if there is at least one session where IsAgentSession is true.​ <br> - IsOutbound is set to the value of msdyn_ocliveworkitem.msdyn_isoutbound.​|
+|Filters  | - Filter the FactConversations table to include only rows from msdyn_ocliveworkitem.​ <br> - Ensure that msdyn_streamsource isn't equal to "192350000" and msdyn_channelinstanceid is NULL.​ <br>- Determine if an agent is involved by checking if there is at least one session where IsAgentSession is true.​ <br> - IsOutbound is set to the value of msdyn_ocliveworkitem.msdyn_isoutbound.​|
 
 ---
 
