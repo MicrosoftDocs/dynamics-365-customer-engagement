@@ -499,7 +499,7 @@ Avg. handle time (sec) = AVERAGE(FactConversation[ConversationHandleTimeInSecond
 |---------|---------|
 |Dataverse entities | [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
 |Attributes |- msdyn_ocliveworkitem.msdyn_isagentsession​ <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_liveworkstream.msdyn_streamsource <br>-msdyn_ocliveworkitem.msdyn_conversationhandletimeinseconds​    |
-|Filters  |- Filter the FactConversations table to include only rows where msdyn_isagentsession is equal to 1.​ <br> - Ensure that msdyn_channelinstanceid is NULL.​ Exclude rows where msdyn_streamsource is'192350000'. <br> - ConversationHandleTimeInSeconds is obtained from msdyn_conversationhandletimeinseconds.|
+|Filters  |- Filter the FactConversations table to include only rows where msdyn_isagentsession is equal to 1.​ <br> - Ensure that msdyn_channelinstanceid is NULL.​ Exclude rows where msdyn_streamsource is "192350000". <br> - ConversationHandleTimeInSeconds is obtained from msdyn_conversationhandletimeinseconds.|
 
 ---
 
