@@ -1058,6 +1058,6 @@ TransferedConversationCount = CALCULATE(COUNTROWS(FactConversation), FactConvers
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
 |Attributes  |- msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br> - msdyn_ocliveworkitem.msdyn_transfercount 
-|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​  <br>- Exclude rows where msdyn_channel is'192350000’. <br> - Transfer count is defined by msdyn_ocliveworkitem.msdyn_transfercount > 0. ​|
+|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​  <br>- Exclude rows where msdyn_channel is "192350000". <br> - The system defines Transfer count by msdyn_ocliveworkitem.msdyn_transfercount > 0. ​|
 
 ---
