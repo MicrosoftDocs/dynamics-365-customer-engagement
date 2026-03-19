@@ -123,7 +123,7 @@ items:
           href: work-order-update.md
         - name: Create inspection templates
           href: inspections-copilot.md
-        - name: Use Microsoft 365 Copilot chat (preview)
+        - name: Use Microsoft 365 Copilot (preview)
           href: use-microsoft-365-copilot-model-driven-apps.md
         - name: Supervise agents with agent feed (preview)
           href: supervise-agents-with-agent-feed.md
