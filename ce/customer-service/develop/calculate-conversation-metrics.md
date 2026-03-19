@@ -591,7 +591,7 @@ Avg. conversation talk time (sec) = AVERAGE(FactConversation[ConversationTalkTim
 |---------|---------|
 |Dataverse entities | [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem),  msdyn_ocliveworkitem, msdyn_liveworkstream |
 |Attributes  | - msdyn_channelinstanceid​ <br> - msdyn_streamsource ​<br> - isagentsession ​<br> - msdyn_conversationholdtimeinseconds   |
-|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL. <br> - msdyn_ocliveworkitem.msdyn_isagentsession is set to 1. <br> - Exclude rows where msdyn_streamsource is'192350000'. ConversationTalkTimeInSeconds is obtained from msdyn_ocliveworkitem.msdyn_conversationtalktimeinseconds ​|
+|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL. <br> - msdyn_ocliveworkitem.msdyn_isagentsession is set to 1. <br> - Exclude rows where msdyn_streamsource is "192350000". ConversationTalkTimeInSeconds is obtained from msdyn_ocliveworkitem.msdyn_conversationtalktimeinseconds ​|
 
 ---
 ### Related metric
