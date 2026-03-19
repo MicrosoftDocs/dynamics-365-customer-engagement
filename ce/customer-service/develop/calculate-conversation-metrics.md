@@ -530,7 +530,7 @@ Avg. conversation hold time (min) = AVERAGE(FactConversation[HoldTime])/60.00
 |---------|---------|
 |Dataverse entities | [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem) |
 |Attributes | - msdyn_eventstarttime ​<br> - msdyn_eventendtime ​<br> - msdyn_channel ​<br> - msdyn_channelinstanceid ​ |
-|Filters  | Filter the FactConversations table to include only rows where msdyn_channel isn't equal to '192350000' and msdyn_channelinstanceid is NULL (SMS filter). Holdtime is calculated based on the duration between msdyn_eventstarttime and msdyn_eventendtime  |
+|Filters  | Filter the FactConversations table to include only rows where msdyn_channel isn't equal to "192350000" and msdyn_channelinstanceid is NULL (SMS filter). Holdtime is calculated based on the duration between msdyn_eventstarttime and msdyn_eventendtime  |
 
 
 ### [Real-time analytics](#tab/realtimepage)
