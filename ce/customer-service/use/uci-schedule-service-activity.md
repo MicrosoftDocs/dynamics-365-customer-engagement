@@ -6,7 +6,7 @@ ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.update-cycle: 365-days
+ms.update-cycle: 1095-days
 search.audienceType: 
   - admin
   - customizer
