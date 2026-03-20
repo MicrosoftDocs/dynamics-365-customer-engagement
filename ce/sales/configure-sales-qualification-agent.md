@@ -126,7 +126,7 @@ Let's look at the steps to set up and configure the agents.
 
 1. [Configure general information](sales-qualification-agent-general-settings.md) for agent such as profile, company info, and products.  
 1. [Configure selection criteria](sales-qualification-agent-selection-criteria.md) for the agent process the leads.  
-1. [Configure email instructions and address validation](sales-qualification-agent-email-instruction-validation.md) for the agent.
+1. [Configure email instructions, define custom outreach scenario, and specify custom email field](sales-qualification-agent-email-instruction-validation.md) for the agent.
 1. [Configure handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) for the agent to identify leads that are a good fit for further engagement.  
 1. [Configure assignment rules](configure-sqa-assignment-rules.md) for the agent to assign processed leads to the appropriate sellers.  
 1. [Configure knowledge sources](configure-sqa-knowledge-source.md) for company and competitor insights, outreach, and follow-up emails.
