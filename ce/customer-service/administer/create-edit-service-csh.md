@@ -10,7 +10,7 @@ ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
-  - enduserp
+  - enduser
 ms.custom: 
   - dyn365-customerservice
   - evergreen
