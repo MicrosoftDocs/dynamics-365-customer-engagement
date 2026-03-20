@@ -1,11 +1,12 @@
 ---
 title: Navigate the service calendar
 description: Learn about the various features of the service calendar in Dynamics 365 Customer Service.
-ms.date: 02/15/2024
+ms.date: 03/20/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
+ms.update-cycle: 365-days
 search.audienceType: 
   - admin
   - customizer
