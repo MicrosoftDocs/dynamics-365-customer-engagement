@@ -14,14 +14,14 @@ Learn how to navigate the Dynamics 365 Field Service web app.
 
 ## Navigate using the site map
 
-The following image shows the site map or navigation panel of the Field Service web app. The site map helps you navigate to different areas of the app.
+The following image shows the site map, also called the navigation panel in the Field Service web app. The site map helps you navigate to different areas of the app.
 
 :::image type="content" source="media/navigate-site-map.png" alt-text="Screenshot in the Field Service web app highlighting key navigation tools." lightbox="media/navigate-site-map.png":::
 
 | Number | Description |
 |--------|-------------|
-| 1      | **Collaps/expand**: Open or collapse the site map. The collapsed map shows icons for the different pages in the app. |
-| 2      | **Recent records/Pinned records**: Access the recent records you worked on or the records you pinned. Use the **Recent** list and select a pin next to a page to add it to the **Pinned records**. |
+| 1      | **Collapse/expand**: Open or collapse the site map. When collapsed, the site map shows icons for the different pages in the app. |
+| 2      | **Recent records/Pinned records**: Access you recently worked on or records you pinned. Use the **Recent** list and select the pin next to a page to add it to the **Pinned records**. |
 | 3      | **Page navigation**: Access different pages in the app to do your work. |
 | 4      | **Area**: Use area to switch between different work areas in the app. For example, Service, Settings, or Resources. |
 | 5      | **App selector**: Use the app selector to switch to another app. |
@@ -73,6 +73,6 @@ Open a record view by selecting a record that appears in a list view. You can al
 
 ## Next step
 
-[Get started](field-service-get-started.md)
+- [Get started](field-service-get-started.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
