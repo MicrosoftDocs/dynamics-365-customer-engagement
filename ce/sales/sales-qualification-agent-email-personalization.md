@@ -144,6 +144,6 @@ These are preferences that guide the agent's output. The agent uses them as targ
 
 ## Related information
 
-- [Configure Sales Qualification Agent](configure-sales-qualification-agent.md)
-- [Sales Qualification Agent overview](sales-qualification-agent-overview.md)
+- [Configure email settings for the Sales Qualification Agent](sales-qualification-agent-email-instruction-validation.md)
+- [Run simulation to review outreach email content](run-simulation-sqa-outreach-email.md)
 
