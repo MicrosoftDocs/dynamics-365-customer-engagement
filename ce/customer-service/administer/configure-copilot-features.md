@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 01/19/2026
+ms.date: 03/31/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.collection: bap-ai-copilot
@@ -55,15 +55,15 @@ Copilot feature performance is based on the regional availability of the Azure O
 Learn about supported languages for Copilot in [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
 
 
-## Data sharing for copilot features
+## Data sharing for Copilot features
 
-You can turn on data sharing for Dynamics 365 copilot features in the Power Platform admin center app. Data sharing allows Microsoft to capture and manually review customer data, including, but not limited to, users' natural language inputs, outputs, and related telemetry to build, improve, and/or validate Microsoft's features, services, machine learning models, and related systems for Dynamics 365 and Power Platform Copilot AI features. We don't use customer data to train Azure OpenAI Service foundation models.
+You can turn on data sharing for Dynamics 365 Copilot features in the Power Platform admin center app. Data sharing allows Microsoft to capture and manually review customer data, including, but not limited to, users' natural language inputs, outputs, and related telemetry to build, improve, and/or validate Microsoft's features, services, machine learning models, and related systems for Dynamics 365 and Power Platform Copilot AI features. We don't use customer data to train Azure OpenAI Service foundation models.
 
 Learn more in [Tenant settings](/power-platform/admin/tenant-settings) and [FAQ for optional data sharing for Copilot AI features in Dynamics 365 and Power Platform](/power-platform/faqs-copilot-data-sharing).
 
 ## Opt in to continue with Copilot setup
 
-In Copilot Service admin center, on the [**Copilot for questions and emails**](/dynamics365/contact-center/administer/copilot-enable-help-pane) or [**Summaries**](/dynamics365/contact-center/administer/copilot-enable-summary) pages, the application displays the following message and links:
+In Copilot Service admin center, on the [**Copilot settings**](/dynamics365/contact-center/administer/copilot-enable-help-pane) or [**Summaries**](/dynamics365/contact-center/administer/copilot-enable-summary) pages, the application displays the following message and links:
 
 - An error message to allow data movement across regions if you're in a region where Copilot features aren't available by default or if you want to opt out of using Copilot.
 - A link to the Power Platform admin center app to allow data movement across regions.
@@ -74,10 +74,10 @@ In Copilot Service admin center, on the [**Copilot for questions and emails**](/
 
 ## Opt out of using Copilot features
 
-In Copilot Service admin center, opt out from the Copilot features on the **Copilot for questions and emails** or **Summaries** page. You can navigate to these pages using one of the following navigation options:
+In Copilot Service admin center, opt out from the Copilot features on the **Copilot settings** or **Summaries** page. You can navigate to these pages using one of the following navigation options:
 
-- **Support Experience** > **Productivity** 
-- **Operations** > **Insights** 
+- **Support Experience** > **Productivity** > **Copilot Settings**
+- **Operations** > **Insights** > **Summaries**
 
 When you opt out, the application erases the training data. If you want to use the features again, you must consent to the terms of use and opt in.
 
@@ -89,22 +89,14 @@ If you want to limit the features that representatives can use, you can create a
 
 For Customer Service Hub, when you enable the feature, it's available to all the representatives.
 
-To add the Copilot features to an experience profile, perform the following steps:
+To configure Copilot features for representatives, perform the following steps:
 
-1. Go to [**Experience profiles**](create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels) using one of the following navigation options:
-   - **Support experience** > **Workspaces**
-   - **Support experience** > **Productivity** > **Copilot for questions and emails** > **Representative access** > **Experience profiles**
-1. Select the required experience profile.
-1. On the **Productivity pane**, turn on the **Copilot** toggle so that representatives can use the Copilot features such suggest a response, ask a question, and write an email on the productivity pane.
-
-   :::image type="content" source="../media/copilot-help-pane-enable-mini.png" alt-text="Screenshot of the Productivity panel in experience profile." lightbox="../media/copilot-help-pane-enable.png":::|
-
-1.  In the **Copilot AI features** section, select **Edit**, and then select the required features that you want to enable for that profile, such as **Ask a question**, **Scan customer conversation and suggest a response**, **Write an email**, **Case summary**, **Live conversation summary**.  
-
-    :::image type="content" source="../media/copilot-agent-experience-mini.png" alt-text="Screenshot of Copilot AI features section in Copilot." lightbox="../media/copilot-agent-experience.png":::|
-
-    > [!NOTE]
-    > You must turn on the **Copilot** toggle to enable the **Ask a question**, **Suggest a response**, **Intent-based suggestion (preview)**, **Write an email -- help pane** features.
+1. In Copilot Service admin center, in **Support experience**, select **Productivity**.
+1. For **Copilot settings**, select **Manage**.
+1. Select the **Copilot immersive** check box if you want your representatives have a conversational, focused experience.
+1. Select the **Copilot side pane** to enable the use of knowledge sources when representatives chat using AI. 
+1. Select **Manage** next to **Customer Support**.
+1. Configure the required Copilot features for representatives across the available tabs.
 
 ## Record representative interactions with Copilot
 
@@ -113,7 +105,7 @@ In the **Summaries** and **Copilot for questions and emails** configuration page
 
 ## Assign roles and privileges
 
-Out of the box, users with the Customer Service Representative role only can use the copilot features. Therefore, make sure that users with custom roles have the following privileges: 
+Out of the box, users with the Customer Service Representative role only can use the Copilot features. Therefore, make sure that users with custom roles have the following privileges: 
 
 |Table | Name | Create | Read | Write | Append | Append To |
 |------|------|--------|------|-------|--------|-----------|
