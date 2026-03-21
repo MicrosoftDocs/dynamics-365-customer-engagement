@@ -93,15 +93,16 @@ To configure Copilot features for representatives, perform the following steps:
 
 1. In Copilot Service admin center, in **Support experience**, select **Productivity**.
 1. For **Copilot settings**, select **Manage**.
-1. Select the **Copilot immersive** check box if you want your representatives have a conversational, focused experience.
-1. Select the **Copilot side pane** to enable the use of knowledge sources when representatives chat using AI. 
-1. Select **Manage** next to **Customer Support**.
+1. In the **Agents within Copilot** section, select **Manage** next to **Customer Support**.
 1. Configure the required Copilot features for representatives across the available tabs.
+
+## Let representatives use Copilot to tranlate responses
+
+On the **Copilot settings** page, in the **Translation using Copilot** section, you can select **Let representattves translate responses using Copilot** to allow your representatives to choose from the languages that your organization added to Dynamics 365.
 
 ## Record representative interactions with Copilot
 
-In the **Summaries** and **Copilot for questions and emails** configuration pages, you can select **Record transcripts of representative interactions with Copilot, representative actions, and representative feedback on AI suggestions** to record and understand how representatives are interacting with Copilot and how Copilot is performing in a support organization. Representatives can also share feedback about Copilot actions, which helps Copilot perform better. You can also [download](../develop/download-copilot-transcript-data.md) and use the data to analyze knowledge sources, and build usage reports.
-
+On the **Copilot settings** page, in the **Support experience data** section you can select **Record transcripts of representative interactions with Copilot, representative actions, and representative feedback on AI suggestions** to record and understand how representatives are interacting with Copilot and how Copilot is performing in a support organization. Representatives can also share feedback about Copilot actions, which helps Copilot perform better. You can also [download](../develop/download-copilot-transcript-data.md) and use the data to analyze knowledge sources, and build usage reports.
 
 ## Assign roles and privileges
 
