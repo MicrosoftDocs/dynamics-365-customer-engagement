@@ -142,7 +142,7 @@ Out of the box, users with the Customer Service Representative role only can use
 
 [Enable Copilot case and conversation summaries](/dynamics365/contact-center/administer/copilot-enable-summary)  
 [Enable features in Copilot pane](/dynamics365/contact-center/administer/copilot-enable-help-pane)  
-[Configure copilot features for custom case forms and custom apps](copilot-powerapps-settings.md)  
+[Configure Copilot features for custom case forms and custom apps](copilot-powerapps-settings.md)  
 
 ### Related information
  
