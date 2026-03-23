@@ -30,6 +30,11 @@ After phone numbers are synced to Dynamics 365, assign a dedicated number to eac
 
 Repeat for each seller who needs a dedicated number.
 
+## Next step
+
+> [!div class="nextstepaction"]
+> [Step 6: Create a bookable resource](sales-hub-dialer-bookable-resource.md)
+
 ## Related information
 
 - [Enable and configure the Sales Hub Dialer](configure-sales-hub-dialer.md)

@@ -13,7 +13,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-The new Sales Hub Dialer is an embedded softphone in Dynamics 365 Sales that enables sellers to make and receive voice calls directly within the Sales Hub application. It allows users to place outbound calls and receive inbound calls from the public telephone network without leaving the Sales Hub. 
+The new Sales Hub Dialer is an embedded softphone in Dynamics 365 Sales that enables sellers to make and receive voice calls directly within the Sales Hub application. It allows users to place outbound calls and receive inbound calls from the public telephone network without leaving the Sales Hub. [What is Sales Hub Dialer and how is it different from the current Teams-based dialer?](faq-sales-hub-dialer.md#what-is-sales-hub-dialer-and-how-is-it-different-from-the-current-teams-based-dialer)
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
@@ -48,7 +48,7 @@ The Sales Hub Dialer offers traditional calling functionalities such as outbound
 
 ## How the Sales Hub Dialer works
 
-You can access the dialer from the right pane of the Sales Hub app. You can start calls using click-to-call from CRM records, by searching for CRM records, or by manually entering a number. Inbound calls trigger a notification and open the call panel for immediate response. During calls, sellers have access to controls and AI features, and can take notes or mark calls as spam. After calls, activities are logged, recordings and transcripts are available, and AI-generated summaries highlight key points.
+You can access the dialer from the right pane of the Sales Hub app. You can start calls using click-to-call from CRM records, by searching for CRM records, or by manually entering a number. Inbound calls trigger a notification and open the call panel for immediate response. During calls, sellers have access to controls and AI features, and can take notes or mark calls as spam. After calls, activities are logged, recordings and transcripts are available, and AI-generated summaries highlight key points. Learn more in [Make and receive calls with the Sales Hub Dialer (preview)](make-receive-calls-sales-hub-dialer.md)
 
 ## AI and conversation intelligence
 
