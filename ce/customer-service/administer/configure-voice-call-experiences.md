@@ -54,7 +54,7 @@ ACSCallSurvey
 
 ```
 
-## Prevent customers from being taken off hold automatically
+## Disable taking a customer off hold automatically
 
 When you transfer a call to another representative, the customer is automatically put on hold. The customer is removed from hold automatically when the secondary representative accepts the transferred call.
 
