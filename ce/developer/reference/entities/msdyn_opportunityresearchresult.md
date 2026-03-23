@@ -19,24 +19,18 @@ Messages represent operations that can be performed on the table. They may also 
 
 | Name <br />Is Event? |Web API Operation |SDK for .NET |
 | ---- | ----- |----- |
-| `Assign`<br />Event: True |`PATCH` /msdyn_opportunityresearchresults(*msdyn_opportunityresearchresultid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) the `ownerid` property. |<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
 | `Associate`<br />Event: True |[Associate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Associate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-associate-method-or-associaterequest)|
 | `BulkRetain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.BulkRetain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Create`<br />Event: True |`POST` /msdyn_opportunityresearchresults<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api) |[Create records](/power-apps/developer/data-platform/org-service/entity-operations-create#basic-create)|
 | `CreateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
 | `Delete`<br />Event: True |`DELETE` /msdyn_opportunityresearchresults(*msdyn_opportunityresearchresultid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete) |[Delete records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-delete)|
 | `Disassociate`<br />Event: True |[Disassociate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Disassociate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-disassociate-method-or-disassociaterequest)|
-| `GrantAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-| `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_opportunityresearchresults(*msdyn_opportunityresearchresultid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_opportunityresearchresults<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
-| `RetrievePrincipalAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-| `RetrieveSharedPrincipalsAndAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-| `RevokeAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RevokeAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
 | `RollbackRetain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RollbackRetain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `SetState`<br />Event: True |`PATCH` /msdyn_opportunityresearchresults(*msdyn_opportunityresearchresultid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) the `statecode` and `statuscode` properties. |<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 | `Update`<br />Event: True |`PATCH` /msdyn_opportunityresearchresults(*msdyn_opportunityresearchresultid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) |[Update records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-update)|
@@ -61,23 +55,24 @@ The following table lists selected properties for the Opportunity Research Resul
 | **PrimaryIdAttribute** | `msdyn_opportunityresearchresultid` |
 | **PrimaryNameAttribute** |`msdyn_name` |
 | **TableType** | `Standard` |
-| **OwnershipType** | `UserOwned` |
+| **OwnershipType** | `None` |
 
 ## Writable columns/attributes
 
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_customresearchinsightconfigid](#BKMK_msdyn_customresearchinsightconfigid)
+- [msdyn_IsResearchStale](#BKMK_msdyn_IsResearchStale)
 - [msdyn_macroagentorchestrationid](#BKMK_msdyn_macroagentorchestrationid)
 - [msdyn_Name](#BKMK_msdyn_Name)
+- [msdyn_Opportunity](#BKMK_msdyn_Opportunity)
 - [msdyn_OpportunityId](#BKMK_msdyn_OpportunityId)
 - [msdyn_OpportunityResearchResultId](#BKMK_msdyn_OpportunityResearchResultId)
 - [msdyn_OpportunityResearchTopic](#BKMK_msdyn_OpportunityResearchTopic)
 - [msdyn_OpportunityResearchTopicResult](#BKMK_msdyn_OpportunityResearchTopicResult)
 - [msdyn_SalesAgentRunId](#BKMK_msdyn_SalesAgentRunId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
-- [OwnerId](#BKMK_OwnerId)
-- [OwnerIdType](#BKMK_OwnerIdType)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
 - [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
@@ -96,6 +91,34 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_customresearchinsightconfigid"></a> msdyn_customresearchinsightconfigid
+
+|Property|Value|
+|---|---|
+|Description|**Custom Research Insight Config Id**|
+|DisplayName|**Custom Research Insight Config Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_customresearchinsightconfigid`|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_IsResearchStale"></a> msdyn_IsResearchStale
+
+|Property|Value|
+|---|---|
+|Description|**Marks whether the research results are stale for this Opportunity**|
+|DisplayName|**Is Research Stale**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isresearchstale`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_isresearchstale_optionset`|
+|DefaultValue|False|
+|True Label|True|
+|False Label|False|
 
 ### <a name="BKMK_msdyn_macroagentorchestrationid"></a> msdyn_macroagentorchestrationid
 
@@ -125,6 +148,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|850|
+
+### <a name="BKMK_msdyn_Opportunity"></a> msdyn_Opportunity
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Opportunity**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_opportunity`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|opportunity|
 
 ### <a name="BKMK_msdyn_OpportunityId"></a> msdyn_OpportunityId
 
@@ -180,6 +216,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100000009|**Competitor Insights**|
 |100000010|**Related Conversation Mapping**|
 |100000011|**Deal Summary**|
+|100000012|**Chain Of Thoughts**|
+|100000013|**Custom OOB Account Research**|
+|100000014|**Custom Research Insight**|
+|100000015|**Summerized Account Research**|
 
 ### <a name="BKMK_msdyn_OpportunityResearchTopicResult"></a> msdyn_OpportunityResearchTopicResult
 
@@ -226,31 +266,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Format|DateOnly|
 |ImeMode|Inactive|
 |SourceTypeMask|0|
-
-### <a name="BKMK_OwnerId"></a> OwnerId
-
-|Property|Value|
-|---|---|
-|Description|**Owner Id**|
-|DisplayName|**Owner**|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|`ownerid`|
-|RequiredLevel|SystemRequired|
-|Type|Owner|
-|Targets|systemuser, team|
-
-### <a name="BKMK_OwnerIdType"></a> OwnerIdType
-
-|Property|Value|
-|---|---|
-|Description|**Owner Id Type**|
-|DisplayName||
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|`owneridtype`|
-|RequiredLevel|SystemRequired|
-|Type|EntityName|
 
 ### <a name="BKMK_statecode"></a> statecode
 
@@ -333,8 +348,8 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedOn](#BKMK_ModifiedOn)
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
-- [OwnerIdName](#BKMK_OwnerIdName)
-- [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
+- [OwnerId](#BKMK_OwnerId)
+- [OwnerIdType](#BKMK_OwnerIdType)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
 - [OwningTeam](#BKMK_OwningTeam)
 - [OwningUser](#BKMK_OwningUser)
@@ -426,39 +441,30 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |Type|Lookup|
 |Targets|systemuser|
 
-### <a name="BKMK_OwnerIdName"></a> OwnerIdName
+### <a name="BKMK_OwnerId"></a> OwnerId
 
 |Property|Value|
 |---|---|
-|Description|**Name of the owner**|
-|DisplayName||
-|IsValidForForm|False|
+|Description|**Owner Id**|
+|DisplayName|**Owner**|
+|IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|`owneridname`|
+|LogicalName|`ownerid`|
 |RequiredLevel|SystemRequired|
-|Type|String|
-|Format|Text|
-|FormatName|Text|
-|ImeMode|Auto|
-|IsLocalizable|False|
-|MaxLength|100|
+|Type|Owner|
+|Targets|systemuser, team|
 
-### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
+### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
 |Property|Value|
 |---|---|
-|Description|**Yomi name of the owner**|
+|Description|**Owner Id Type**|
 |DisplayName||
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|`owneridyominame`|
+|LogicalName|`owneridtype`|
 |RequiredLevel|SystemRequired|
-|Type|String|
-|Format|Text|
-|FormatName|Text|
-|ImeMode|Auto|
-|IsLocalizable|False|
-|MaxLength|100|
+|Type|EntityName|
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
@@ -517,27 +523,11 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 
 These relationships are many-to-one. Listed by **SchemaName**.
 
-- [business_unit_msdyn_opportunityresearchresult](#BKMK_business_unit_msdyn_opportunityresearchresult)
 - [lk_msdyn_opportunityresearchresult_createdby](#BKMK_lk_msdyn_opportunityresearchresult_createdby)
 - [lk_msdyn_opportunityresearchresult_createdonbehalfby](#BKMK_lk_msdyn_opportunityresearchresult_createdonbehalfby)
 - [lk_msdyn_opportunityresearchresult_modifiedby](#BKMK_lk_msdyn_opportunityresearchresult_modifiedby)
 - [lk_msdyn_opportunityresearchresult_modifiedonbehalfby](#BKMK_lk_msdyn_opportunityresearchresult_modifiedonbehalfby)
-- [owner_msdyn_opportunityresearchresult](#BKMK_owner_msdyn_opportunityresearchresult)
-- [team_msdyn_opportunityresearchresult](#BKMK_team_msdyn_opportunityresearchresult)
-- [user_msdyn_opportunityresearchresult](#BKMK_user_msdyn_opportunityresearchresult)
-
-### <a name="BKMK_business_unit_msdyn_opportunityresearchresult"></a> business_unit_msdyn_opportunityresearchresult
-
-One-To-Many Relationship: [businessunit business_unit_msdyn_opportunityresearchresult](businessunit.md#BKMK_business_unit_msdyn_opportunityresearchresult)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`businessunit`|
-|ReferencedAttribute|`businessunitid`|
-|ReferencingAttribute|`owningbusinessunit`|
-|ReferencingEntityNavigationPropertyName|`owningbusinessunit`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+- [msdyn_OpportunityResearchResult_Opportunity_Opportunity](#BKMK_msdyn_OpportunityResearchResult_Opportunity_Opportunity)
 
 ### <a name="BKMK_lk_msdyn_opportunityresearchresult_createdby"></a> lk_msdyn_opportunityresearchresult_createdby
 
@@ -591,44 +581,18 @@ One-To-Many Relationship: [systemuser lk_msdyn_opportunityresearchresult_modifie
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_owner_msdyn_opportunityresearchresult"></a> owner_msdyn_opportunityresearchresult
+### <a name="BKMK_msdyn_OpportunityResearchResult_Opportunity_Opportunity"></a> msdyn_OpportunityResearchResult_Opportunity_Opportunity
 
-One-To-Many Relationship: [owner owner_msdyn_opportunityresearchresult](owner.md#BKMK_owner_msdyn_opportunityresearchresult)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`owner`|
-|ReferencedAttribute|`ownerid`|
-|ReferencingAttribute|`ownerid`|
-|ReferencingEntityNavigationPropertyName|`ownerid`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_team_msdyn_opportunityresearchresult"></a> team_msdyn_opportunityresearchresult
-
-One-To-Many Relationship: [team team_msdyn_opportunityresearchresult](team.md#BKMK_team_msdyn_opportunityresearchresult)
+One-To-Many Relationship: [opportunity msdyn_OpportunityResearchResult_Opportunity_Opportunity](opportunity.md#BKMK_msdyn_OpportunityResearchResult_Opportunity_Opportunity)
 
 |Property|Value|
 |---|---|
-|ReferencedEntity|`team`|
-|ReferencedAttribute|`teamid`|
-|ReferencingAttribute|`owningteam`|
-|ReferencingEntityNavigationPropertyName|`owningteam`|
+|ReferencedEntity|`opportunity`|
+|ReferencedAttribute|`opportunityid`|
+|ReferencingAttribute|`msdyn_opportunity`|
+|ReferencingEntityNavigationPropertyName|`msdyn_Opportunity`|
 |IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_user_msdyn_opportunityresearchresult"></a> user_msdyn_opportunityresearchresult
-
-One-To-Many Relationship: [systemuser user_msdyn_opportunityresearchresult](systemuser.md#BKMK_user_msdyn_opportunityresearchresult)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`systemuser`|
-|ReferencedAttribute|`systemuserid`|
-|ReferencingAttribute|`owninguser`|
-|ReferencingEntityNavigationPropertyName|`owninguser`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

@@ -658,6 +658,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350035|**AgentTransferToAgentGroup**|
 |192350036|**ExternalAgentAccept**|
 |192350037|**ExternalAgentReject**|
+|192350038|**ExternalAgentTransfer**|
 |192350052|**MonitorDisconnected**|
 
 ### <a name="BKMK_msdyn_liveworkitemid"></a> msdyn_liveworkitemid

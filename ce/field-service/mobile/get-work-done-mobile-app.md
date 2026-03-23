@@ -50,6 +50,8 @@ The **Service** tab contains work order details like service tasks, products, an
 
 :::image type="content" source="../media/mobile-2020-work-order-service-notes-new.jpg" alt-text="Renderings of three mobile devices showing service tasks, parts used, and the Notes screen in the Field Service mobile app.":::
 
+To perform an inspection, go to [Perform inspections on mobile](../inspections.md#perform-inspections-on-mobile).
+
 ## Add notes and attachments
 
 On the **Notes** tab, frontline workers can add text, image, audio, and video notes and link them to the booking. These notes help document and build a work history. Images added to notes [use image optimization](/power-apps/mobile/optimize-images-upload) to save storage space.

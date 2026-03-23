@@ -1,7 +1,7 @@
 ---
 title: Allow travel time outside of working hours with Resource Scheduling Optimization
 description: Learn how to configure the Resource Scheduling Optimization add-in for Field Service to consider travel outside of working hours.
-ms.date: 02/19/2025
+ms.date: 02/05/2026
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
 author: andrewclear-ms
@@ -23,8 +23,6 @@ To allow travel outside of working hours:
 1. [Enable a resource](#enable-a-resource-for-scheduling-outside-of-working-hours) for traveling outside working hours.
 
 The system can then schedule a technician to begin their workday a little earlier. In this way, they can start to travel before the beginning of working hours and arrive at the work location when their work hours begin.
-
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=ee03b616-b4e1-4ae4-9bd3-3513c14f8f5e]
 
 ## Remove the schedule within working hours constraint
 

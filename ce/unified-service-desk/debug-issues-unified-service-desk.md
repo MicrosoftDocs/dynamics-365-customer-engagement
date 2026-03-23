@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 tags: MigrationHO
 ---
 # Debug issues in Unified Service Desk

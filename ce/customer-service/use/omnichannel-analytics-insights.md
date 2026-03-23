@@ -78,7 +78,7 @@ Optionally, you can also add the **Business Unit** filter that provides a consis
 
 ## Reports refresh and data retention
 
-See [Analytics reports refresh and data retention](info-analytics-reports.md#analytics-reports-refresh-and-data-retention)
+See [Reports refresh and data retention](customer-service-analytics-insights-csh.md#reports-refresh-and-data-retention).
 
 ## View historical analytics reports in customized representative apps
 

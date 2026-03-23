@@ -1,7 +1,7 @@
 ---
 title: Ask Copilot questions
 description: Learn how to use Copilot in Dynamics 365 Sales to summarize sales records, catch up on recent changes, prepare for meetings, and answer sales-related questions.
-ms.date: 08/21/2025
+ms.date: 03/09/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -33,48 +33,24 @@ Your admin turned on and set up Copilot in your sales app. "Sales app" refers to
 
 ## Open Copilot in your sales app
 
-You can open Copilot in a side pane to view it side-by-side with a record such as an opportunity or a lead, or in an immersive, full-screen view.
-
-[Open the Copilot side pane](#chat-with-copilot-in-a-side-pane) when you want to get quick insights about a record or ask Copilot to summarize other records, display recent changes, and prepare for meetings without leaving the current page. You can open the Copilot side pane from any page in your app except the **Copilot** page.
-
-[Open the Copilot page in a full-screen view](#chat-with-copilot-in-full-screen-view-preview) when you want more space to focus on your chat with Copilot.
-
-<a name=open-copilot-sidepane></a>
-
-### Chat with Copilot in a side pane
-
-Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.svg" border="false":::) on the right side of your app.
+Select the **Copilot** icon on the command bar to open the Copilot side pane.
 
 :::image type="content" source="media/view-prompts.png" alt-text="Screenshot of the prompt guide in the Copilot side pane in Dynamics 365 Sales, with the notebook icon highlighted.":::
 
-<a name=open-copilot-immersive></a>
-
-### Chat with Copilot in full-screen view (preview)
-
->[!IMPORTANT]
->Effective September 2025, the Copilot in full-screen view preview feature in Copilot in Dynamics 365 Sales is deprecated region-wise. Learn more about the deprecation in, [Copilot in Dynamics 365 Sales in full-screen view](deprecations-sales.md#copilot-in-dynamics-365-sales-in-full-screen-view).
-
-[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
-Select **Copilot** in your app's site map.
-
-If Copilot isn't there, ask your admin to turn on Copilot preview features. If you're using a custom app, ask your admin to add the Copilot page to your app's site map.
-
-:::image type="content" source="media/copilot-immersive.png" alt-text="Screenshot of the Copilot page in Dynamics 365 Sales showing suggested requests, with the Copilot icons in the left and right side panes highlighted.":::
-
 ## Interact with Copilot
 
-Whether you're using Copilot in a side pane or in full-screen view, you can interact with it in the following ways:
+You can interact with Copilot through the side pane in the following ways:
 
+- Select one of the starter prompts displayed in the side pane when you open Copilot. The starter prompts are designed to help you get started with using Copilot and cover common scenarios like catching up on recent changes and preparing for meetings.
+- Select **View Prompts** (notebook icon) above the Copilot chat box to get a list of predefined requests, or *prompts*, that Copilot can help you with, . [Learn more about predefined prompts](copilot-prompt-guide.md).
 - [Ask a question in natural language](#chat-with-copilot-in-NL) in the Copilot chat box.
-- Select one of the suggestions from the card. 
-- To get a list of predefined requests, or *prompts*, that Copilot can help you with, select **View Prompts** (notebook icon) above the Copilot chat box. [Learn more about predefined prompts](copilot-prompt-guide.md).
 
-## Turn off Bing search
+<a name="turn-off-bing-search"></a>
+## Turn on or off Bing search
 
-If Bing search is turned on for your organization, an option to turn it off is displayed at the bottom of the Copilot side pane and Copilot page. Copilot uses Bing search only to provide news about your accounts. If you turn it off, the **Get latest news for accounts** prompt doesn't return any results.
+If Bing search is turned on for your organization, an option to turn it off is displayed at the bottom of the Copilot side pane. Copilot uses Bing search only to provide news about your accounts. If you turn it off, the **Get latest news for accounts** prompt doesn't return any results.
+
+To turn off Bing search, select the **Tools** icon at the bottom of the Copilot side pane, and then select the toggle to turn it off.
 
 :::image type="content" source="media/bing-consent-seller.png" alt-text="Screenshot of the Copilot side pane in Dynamics 365 Sales, with the Bing consent option highlighted.":::
 
@@ -90,7 +66,7 @@ You can ask the following types of questions:
 
 - **Questions with sales-specific terminology** are based on terms that are specific to sales organizations. You can ask questions about your sales pipeline ("Show my pipeline with deals closing in the next 30 days"), deal cycle ("What's the average deal cycle for my opportunities?"), conversion rates ("What's my lead conversion rate for the last quarter?"), and deal sizes and values ("Display open deals with deal size greater than 10000"). You can find more examples of the kinds of questions you can ask in [Questions with sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology).
 
-  If your organization uses different sales terminology or custom fields, reach out to your Dynamics 365 admin to add those terms to the glossary to help Copilot better understand the context of your questions.
+  If your organization uses different sales terminology or custom fields, reach out to your Dynamics 365 Sales admin to add those terms to the glossary to help Copilot better understand the context of your questions.
 
 For more such questions, see [Questions about sales data](faqs-sales-copilot-natural-language.md#questions-about-sales-data).
 
@@ -102,11 +78,11 @@ For more such questions, see [Questions about sales data](faqs-sales-copilot-nat
   - **Pipeline with filters**. For example, show my pipeline with deals closing in next 30 days.
   - **Deal sizes and values**. For example, display open deals with deal size greater than 10000.
   
-For a list of sample questions, see [Questions with sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology). If your organization uses a different sales terminology or uses custom fields, reach out to your Dynamics 365 admin to [add those terms to the glossary](extend-copilot-chat.md#add-glossary). The glossary helps Copilot understand the context of your questions better.
+For a list of sample questions, see [Questions with sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology). If your organization uses a different sales terminology or uses custom fields, reach out to your Dynamics 365 Sales admin to [add those terms to the glossary](extend-copilot-chat.md#add-glossary). The glossary helps Copilot understand the context of your questions better.
 
 These questions are first answered using the data stored in Dataverse, which is the underlying data platform for Dynamics 365 Sales. If the answer isn't available in Dataverse, Copilot displays a follow-up prompt to search for the answer in SharePoint.  
 
-You can also access some of these question from the Prompt guide that appears when you select **View Prompts** above the chat box in the Copilot side pane or Copilot page.
+You can also access some of these question from the Prompt guide that appears when you select **View Prompts** above the chat box in the Copilot side pane.
 
 ## Related information
 

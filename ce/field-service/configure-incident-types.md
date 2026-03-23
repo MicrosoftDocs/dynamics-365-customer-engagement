@@ -222,7 +222,7 @@ You can add multiple incident types to a work order. For example, a machine has 
 1. Select **Save**.
 
 > [!TIP]
-> To change the incident type on a work order, delete the **Work Order Incident** first. Then, create a new work order incident with a different incident type. You can manage work order incidents on the **Work Order** > **Related** > **Incidents**.
+> To change the incident type on a work order, delete the **Work Order Incident** first. Then, create a new work order incident with a different incident type. You can manage work order incidents from **Work Order** > **Related** > **Incidents**.
 
 ## Relate a customer asset to an incident
 

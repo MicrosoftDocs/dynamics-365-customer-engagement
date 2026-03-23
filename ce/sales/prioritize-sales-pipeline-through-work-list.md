@@ -6,9 +6,6 @@ ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
-products:
-- Sales premium 
-- Sales enterprise
 ---
 # Prioritize sales pipeline with work lists  
 

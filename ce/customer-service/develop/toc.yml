@@ -153,6 +153,8 @@
           href: calculate-session-metrics.md
         - name: Calculate representative metrics
           href: calculate-representative-metrics.md
+      - name: Dataverse tables used in historical and real-time analytics
+        href: dataverse-entities.md
       - name: Extend Customer Service
         items: 
         - name: Extend Omnichannel for Customer Service
@@ -363,3 +365,5 @@
       href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml
     - name: Dynamics 365 Contact Center documentation
       href: /dynamics365/contact-center/
+    - name: Contribute to documentation
+      href: /dynamics365/get-started/contribute?context=/dynamics365/context/customer-service-develop-context

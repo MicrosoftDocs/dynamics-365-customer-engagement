@@ -16,7 +16,7 @@ If you use requirement details to define the allocation method, manually schedul
 1. Change the view to daily, weekly, or monthly.
 
    > [!CAUTION]
-   > Don't drag and drop multi-day requirement to a resource on the hourly board view. It creates a long continuous booking through nonworking hours.
+   > Don't drag and drop a multi-day requirement to a resource on the hourly board view. It creates a long continuous booking through nonworking hours.
 
 1. Select the multi-day requirement in the requirements pane.
 
@@ -39,14 +39,17 @@ If you use requirement details to define the allocation method, manually schedul
 
 ## Schedule a multi-day requirement with the schedule assistant
 
-This scenario schedules a requirement *without* a related work order. The requirement needs an allocation method set before saving. The requirements that schedulable entities such as work orders automatically create have an allocation method of **None** by default.
+This scenario schedules a requirement *without* a related work order. You need to set an allocation method for the requirement before saving it. The requirements that schedulable entities such as work orders automatically create have an allocation method of **None** by default.
 
 > [!NOTE]
 > To schedule a multi-day work order with the schedule assistant, manually add a related requirement with an allocation method and delete or disregard the automatically created ones. Alternatively, you can manually [create requirement detail records with **Specify Pattern**](#specify-patterns-for-requirements).
 
-1. Create a multi-day requirement record with an allocation method set. Provide details such as skills, roles, resource preferences, and service territory to define the eligible resources.
+1. Create a multi-day requirement record and set the allocation method. Provide details such as skills, roles, resource preferences, and service territory to define the eligible resources.
 
-1. On the requirement record, select **Related** > **Requirement Details**.
+    > [!NOTE]
+    > The Resource Requirement fields, such as **From Date**, **To Date**, and **Duration**, are editable only when the **Allocation Method** is set to **None**.
+
+1. Select **Related** > **Requirement Details** on the requirement record.
 
    The system automatically creates requirement details and splits them into segments based on the duration and the allocation method. The requirement details are based on the requirement's calendar. Edit them by selecting **Modify Calendar** on the resource requirement record.
 
@@ -54,13 +57,13 @@ This scenario schedules a requirement *without* a related work order. The requir
 
 1. Select **Book** to launch the schedule assistant for the multi-day requirement.
 
-1. Resources with availability that also meet the other attributes show as results. Choose a resource, the dates, and select **Book** to create multiple bookings according to the pattern of the allocation method.
+1. The results show resources with availability that also meet the other attributes. Choose a resource, the dates, and select **Book** to create multiple bookings according to the pattern of the allocation method.
 
 Alternatively, you can set up a work hours template, which you can assign to a resource requirement. The system generates resource requirements details based on the work hours template.
 
 ## Specify patterns for requirements
 
-You can define how to split a long-running requirement into individual bookings. With patterns, you can customize the requirement details beyond the default allocation methods.
+You can define how to split a long-running requirement into individual bookings. By using patterns, you can customize the requirement details beyond the default allocation methods.
 
 ### Create patterns for requirements
 
@@ -78,7 +81,7 @@ You can define how to split a long-running requirement into individual bookings.
 
 ### Edit patterns for requirements
 
-To edit existing requirement details that you created with patterns, select the requirement and then select **Specify Pattern**.
+To edit existing requirement details that you created by using patterns, select the requirement and then select **Specify Pattern**.
 
 1. To edit one requirement detail, select it. The **Edit detail** pane appears. Change the duration or time window and save the changes.
 
@@ -90,12 +93,12 @@ To edit existing requirement details that you created with patterns, select the 
 
 1. Use the settings under **Duration allocation** to control how to distribute the changed durations across multiple details.
 
-   When decreasing duration, you have two options:
+   When you decrease duration, you have two options:
 
    - **Proportionally distributed**: The decrease in duration is split among all contained details in proportion to their respective durations, so that all decrease by the same percentage.
    - **Subtracted from total**: The decrease is subtracted from the total length of all contained details. This new total is then evenly distributed among contained details.
 
-   When increasing duration, you have four options:
+   When you increase duration, you have four options:
 
    - **Proportionally distributed**: The increase in duration is split among all contained details in proportion to their respective durations, so that all increase by the same percentage.
    - **Front loaded**: The increase in duration is added to the first contained detail until it hits capacity. Then it's added to the next detail and so on.

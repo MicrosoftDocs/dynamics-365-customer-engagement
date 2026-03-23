@@ -1,7 +1,7 @@
 ---
 title: Set up the Teams integration with Field Service
 description: Learn how to integrate Dynamics 365 Field Service with Microsoft Teams.
-ms.date: 01/27/2025
+ms.date: 01/27/2026
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
@@ -30,7 +30,7 @@ Enable collaboration in Teams.
    - **Turn on for all Dynamics 365 apps** – Enables Teams chat for all supported Dynamics 365 apps in your organization, including any that you add in the future.
    - **Turn on for selected Dynamics 365 apps** – Enables Teams chat for the apps you choose. If your organization already uses Teams, the selection you made previously remains. If Teams isn't set up, it's enabled by default.
 
-1. In the **Connect Teams chats to Dynamics 365 records** section, add all the tables you'd like to collaborate on.
+1. In the **Connect Teams chats to Dynamics 365 records** section, add all the tables you want to collaborate on.
 
 1. Save the changes.
 
@@ -42,11 +42,11 @@ When a user starts a new chat, predefined information creates a welcome message 
 
 1. Under **Connect Teams chats to Dynamics 365 records**, edit *Work Order*.
 
-1. Under **Message view**, select the message you want to show in the first chat. Hover over each option for a description. Or, to create a custom message view, select **Create view in Power Apps**.
+1. Under **Message view**, select the message you want to show in the first chat. Hover over each option for a description. To create a custom message view, select **Create view in Power Apps**.
 
 1. Select **Save**.
 
-The first five columns in the view you choose appears in the welcome message when a user invites someone to collaborate on a record. If there's no data in a field, the field doesn't display.
+The first five columns in the view you choose appear in the welcome message when a user invites someone to collaborate on a record. If there's no data in a field, the field doesn't display.
 
 ## See also
 

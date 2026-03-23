@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 12/12/2025
+ms.date: 02/06/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -51,7 +51,7 @@ Use the following steps to set up connection references for Customer Knowledge M
 |AI agent  | AI Agent flow  |
 |---------|---------|
 |Customer Knowledge Management Agent |    **Knowledge Harvest Trigger Flow V2**    |
-|Quality Evaluation Agent   | <ul> <li> **QEA On Demand Evaluation Case** for cases. <li> **AI Evaluation Flow for Conversation** for conversations. </li>  <li>  **Expire evaluations**</li> <ul>  |
+|Quality Evaluation Agent   | <ul> <li> **QEA On Demand Evaluation Case** for cases. <li> **AI Evaluation Flow for Conversation** for conversations. </li>  <li>  **Expire evaluations**. </li> <li> **QEA Simulation** <ul> |
 
 In [Power Automate](https://powerautomate.microsoft.com), search for your flow, for example, **Knowledge Harvest Trigger Flow V2** in **Cloud flows**, and turn it on. Learn more in [Power Automate](/power-automate/overview-cloud#find-your-flows-easily).
 

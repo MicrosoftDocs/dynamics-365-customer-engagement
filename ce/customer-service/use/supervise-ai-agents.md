@@ -7,6 +7,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.collection: bap-ai-copilot
+ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
 

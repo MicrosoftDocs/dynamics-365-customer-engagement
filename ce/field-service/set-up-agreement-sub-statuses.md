@@ -20,4 +20,10 @@ Set up agreement substatuses to specify the current agreement status more precis
 
 1. Use the tooltips to help fill in your information, and then select **Save & Close**.
 
+## Next Steps
+
+- [Manage customer agreements](manage-agreements.md)
+- [Create work order templates with incident types](configure-incident-types.md)
+- [Create and manage customer accounts](accounts.md)
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

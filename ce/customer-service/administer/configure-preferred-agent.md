@@ -1,7 +1,7 @@
 ---
 title: Configure routing to preferred representatives
 description: Learn how to configure settings to route work items to preferred representatives in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 09/16/2025
+ms.date: 02/19/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

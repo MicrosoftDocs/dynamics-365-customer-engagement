@@ -1,11 +1,12 @@
 ---
 title: Overview of the Scheduling Service
 description: Overview of the Unified Interface-based Scheduling Service in Dynamics 365 Customer Service.
-ms.date: 05/20/2025
+ms.date: 03/20/2026
 ms.topic: overview
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
+ms.update-cycle: 1095-days
 search.audienceType: 
   - admin
   - customizer
@@ -18,30 +19,27 @@ ms.collection: get-started
 
 # Service scheduling overview
 
-Unified Interface-based service scheduling has replaced the legacy service scheduling experience.
+Unified Interface-based service scheduling is the replacement for the legacy service scheduling experience.
 
-The following topics contain information about legacy service scheduling features: 
+In Copilot Service admin center, go to **Service Scheduling** in **Operations**. The **Service scheduling** page appears. 
 
-- Create or change a service
+:::image type="content" source="../media/service-scheduling.png" alt-text="Screenshot of Service Scheduling entry point from Copilot Service admin center.":::
 
-- Schedule a service activity 
+You can do the following actions:
 
-- Add facilities and equipment  
+- Add facilities and equipment
 
 - Create resource groups
 
+- Create or change a service
+
+- Set up a business closure
+
+- Schedule a service activity 
+
 - Use sites to manage your service locations 
 
-- Navigate to the Service Calendar  
-
-- Set up a business closure 
-
-> [!Note]
-> To set up a business closure, navigate to the [Admin portal](https://admin.powerplatform.microsoft.com/), as shown in the following screen.
-
-   ![Admin portal business closure navigation.](../media/uci-business-closure.png "Navigation to the business closure link in the Admin portal")
-
-You can also set up service scheduling in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/whats-new.md)
+You can also set up service scheduling in Dynamics 365 Customer Engagement (on-premises) 9.1. Learn more in [New features in Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/whats-new.md).
 
 ## Access service scheduling in Copilot Service workspace
 

@@ -16,7 +16,7 @@ ms.custom:
 
 # Forecasting management FAQs
 
-This article answers frequently asked questions about forecasting management in Dynamics 365 Sales and Sales premium.
+This article answers frequently asked questions about forecasting management in Dynamics 365 Sales.
 
 ## Who owns the forecast?
   

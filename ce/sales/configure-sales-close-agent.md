@@ -29,11 +29,7 @@ As an administrator, you can set up the autonomous Sales Close Agent - Engage ty
 
 Ensure that the following prerequisites are met:  
 
-- Your tenant admin has configured the following settings in Power Platform Admin Center:  
-    - Copilot Studio capacity to run the agent. Ensure that you have enough capacity. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
-    - AI Agents in Dynamics 365 Sales is turned on for your environment. Learn more in [Turn on AI capabilities in Dynamics 365 Sales](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales).
-    - AI prompts feature is enabled. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).  
-    - AI insight cards is turned on. This feature is required for sellers to get notified about records handovers and view insights on the record. Learn more about turning on this feature in [Manage feature settings](/power-platform/admin/settings-features).  
+- You have completed the [common prerequisites applicable to all Sales agents](prerequisites-for-all-agents.md).
 - You have admin permissions in Dynamics 365 Sales.  
 - You have a Copilot Studio license. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).  
 - You turned on the modern UI for the Sales Hub app. Learn more in [Enabling the modern look for my app and removing the toggle](/power-apps/user/modern-fluent-design#enabling-the-modern-look-for-my-app-and-removing-the-toggle).  

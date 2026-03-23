@@ -3464,6 +3464,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [Lead_Tasks](#BKMK_Lead_Tasks)
 - [lk_leadtoopportunitysalesprocess_leadid](#BKMK_lk_leadtoopportunitysalesprocess_leadid)
 - [msdyn_activitymapping_lead](#BKMK_msdyn_activitymapping_lead)
+- [msdyn_dcaengageagentresult_regarding_lead](#BKMK_msdyn_dcaengageagentresult_regarding_lead)
 - [msdyn_engageandreadinessagentresult_lead](#BKMK_msdyn_engageandreadinessagentresult_lead)
 - [msdyn_engagereadinessagentresult_lead](#BKMK_msdyn_engagereadinessagentresult_lead)
 - [msdyn_lead_dailyleadkpiitem_entityid](#BKMK_msdyn_lead_dailyleadkpiitem_entityid)
@@ -4092,6 +4093,18 @@ Many-To-One Relationship: [msdyn_activitymapping msdyn_activitymapping_lead](msd
 |ReferencedEntityNavigationPropertyName|`msdyn_activitymapping_lead`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_dcaengageagentresult_regarding_lead"></a> msdyn_dcaengageagentresult_regarding_lead
+
+Many-To-One Relationship: [msdyn_dcaengageagentresult msdyn_dcaengageagentresult_regarding_lead](msdyn_dcaengageagentresult.md#BKMK_msdyn_dcaengageagentresult_regarding_lead)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_dcaengageagentresult`|
+|ReferencingAttribute|`msdyn_regarding`|
+|ReferencedEntityNavigationPropertyName|`msdyn_dcaengageagentresult_regarding_lead`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_engageandreadinessagentresult_lead"></a> msdyn_engageandreadinessagentresult_lead
 

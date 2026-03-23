@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Register actions for event in Unified Service Desk
 This topic describes the events that can be registered for an action.  

@@ -1,7 +1,7 @@
 ---
 title: Create and manage operating hours
 description: Perform the steps mentioned in the article to create, manage, and define operating hours in Dynamics 365 Contact Center.
-ms.date: 03/03/2025
+ms.date: 03/18/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

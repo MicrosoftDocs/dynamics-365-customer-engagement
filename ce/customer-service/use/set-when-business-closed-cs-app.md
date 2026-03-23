@@ -1,11 +1,12 @@
 ---
-title: Set when your business is closed (Dynamics 365 Customer Service) | MicrosoftDocs
+title: Set when your business is closed (Dynamics 365 Customer Service)
 description: Learn how to define both the days and times that your organization will be closed in Microsoft Dynamics 365 Customer Service.
-ms.date: 09/15/2017
+ms.date: 03/20/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
+ms.update-cycle: 1095-days
 search.audienceType: 
   - admin
   - customizer

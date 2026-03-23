@@ -2665,6 +2665,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [lk_leadtoopportunitysalesprocess_opportunityid](#BKMK_lk_leadtoopportunitysalesprocess_opportunityid)
 - [lk_opportunitysalesprocess_opportunityid](#BKMK_lk_opportunitysalesprocess_opportunityid)
 - [msdyn_activitymapping_opportunity](#BKMK_msdyn_activitymapping_opportunity)
+- [msdyn_dcaengageagentresult_regarding_opportunity](#BKMK_msdyn_dcaengageagentresult_regarding_opportunity)
 - [msdyn_msdyn_salescopilotinsight_opportunity_msdyn_targetentityid](#BKMK_msdyn_msdyn_salescopilotinsight_opportunity_msdyn_targetentityid)
 - [msdyn_opportunity_dailyopportunitykpiitem_entityid](#BKMK_msdyn_opportunity_dailyopportunitykpiitem_entityid)
 - [msdyn_opportunity_msdyn_mostcontacted_regardingObjectId](#BKMK_msdyn_opportunity_msdyn_mostcontacted_regardingObjectId)
@@ -2673,7 +2674,10 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_opportunity_msdyn_salesroutingrun_targetobject](#BKMK_msdyn_opportunity_msdyn_salesroutingrun_targetobject)
 - [msdyn_opportunity_msdyn_timespent_opplookup](#BKMK_msdyn_opportunity_msdyn_timespent_opplookup)
 - [msdyn_OpportunityResearchIndicator_Opportunity_Opportunity](#BKMK_msdyn_OpportunityResearchIndicator_Opportunity_Opportunity)
+- [msdyn_OpportunityResearchResult_Opportunity_Opportunity](#BKMK_msdyn_OpportunityResearchResult_Opportunity_Opportunity)
+- [msdyn_OpportunityResearchUserInteractions_Opportunity_Opportunity](#BKMK_msdyn_OpportunityResearchUserInteractions_Opportunity_Opportunity)
 - [msdyn_sabackupdiagnostic_opportunity_msdyn_target](#BKMK_msdyn_sabackupdiagnostic_opportunity_msdyn_target)
+- [msdyn_salesagentprocessingstate_regardingentity_opportunity](#BKMK_msdyn_salesagentprocessingstate_regardingentity_opportunity)
 - [msdyn_salesagentrun_opportunity](#BKMK_msdyn_salesagentrun_opportunity)
 - [msdyn_salesroutingdiagnostic_opportunity_msdyn_target](#BKMK_msdyn_salesroutingdiagnostic_opportunity_msdyn_target)
 - [msdyn_salessuggestion_opportunity_qualifiedrecord](#BKMK_msdyn_salessuggestion_opportunity_qualifiedrecord)
@@ -2788,6 +2792,18 @@ Many-To-One Relationship: [msdyn_activitymapping msdyn_activitymapping_opportuni
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_dcaengageagentresult_regarding_opportunity"></a> msdyn_dcaengageagentresult_regarding_opportunity
+
+Many-To-One Relationship: [msdyn_dcaengageagentresult msdyn_dcaengageagentresult_regarding_opportunity](msdyn_dcaengageagentresult.md#BKMK_msdyn_dcaengageagentresult_regarding_opportunity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_dcaengageagentresult`|
+|ReferencingAttribute|`msdyn_regarding`|
+|ReferencedEntityNavigationPropertyName|`msdyn_dcaengageagentresult_regarding_opportunity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_msdyn_salescopilotinsight_opportunity_msdyn_targetentityid"></a> msdyn_msdyn_salescopilotinsight_opportunity_msdyn_targetentityid
 
 Many-To-One Relationship: [msdyn_salescopilotinsight msdyn_msdyn_salescopilotinsight_opportunity_msdyn_targetentityid](msdyn_salescopilotinsight.md#BKMK_msdyn_msdyn_salescopilotinsight_opportunity_msdyn_targetentityid)
@@ -2884,6 +2900,30 @@ Many-To-One Relationship: [msdyn_opportunityresearchindicator msdyn_OpportunityR
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_OpportunityResearchResult_Opportunity_Opportunity"></a> msdyn_OpportunityResearchResult_Opportunity_Opportunity
+
+Many-To-One Relationship: [msdyn_opportunityresearchresult msdyn_OpportunityResearchResult_Opportunity_Opportunity](msdyn_opportunityresearchresult.md#BKMK_msdyn_OpportunityResearchResult_Opportunity_Opportunity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_opportunityresearchresult`|
+|ReferencingAttribute|`msdyn_opportunity`|
+|ReferencedEntityNavigationPropertyName|`msdyn_OpportunityResearchResult_Opportunity_Opportunity`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10001<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_OpportunityResearchUserInteractions_Opportunity_Opportunity"></a> msdyn_OpportunityResearchUserInteractions_Opportunity_Opportunity
+
+Many-To-One Relationship: [msdyn_opportunityresearchuserinteractions msdyn_OpportunityResearchUserInteractions_Opportunity_Opportunity](msdyn_opportunityresearchuserinteractions.md#BKMK_msdyn_OpportunityResearchUserInteractions_Opportunity_Opportunity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_opportunityresearchuserinteractions`|
+|ReferencingAttribute|`msdyn_opportunity`|
+|ReferencedEntityNavigationPropertyName|`msdyn_OpportunityResearchUserInteractions_Opportunity_Opportunity`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10002<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_sabackupdiagnostic_opportunity_msdyn_target"></a> msdyn_sabackupdiagnostic_opportunity_msdyn_target
 
 Many-To-One Relationship: [msdyn_sabackupdiagnostic msdyn_sabackupdiagnostic_opportunity_msdyn_target](msdyn_sabackupdiagnostic.md#BKMK_msdyn_sabackupdiagnostic_opportunity_msdyn_target)
@@ -2895,6 +2935,18 @@ Many-To-One Relationship: [msdyn_sabackupdiagnostic msdyn_sabackupdiagnostic_opp
 |ReferencedEntityNavigationPropertyName|`msdyn_sabackupdiagnostic_opportunity_msdyn_target`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_salesagentprocessingstate_regardingentity_opportunity"></a> msdyn_salesagentprocessingstate_regardingentity_opportunity
+
+Many-To-One Relationship: [msdyn_salesagentprocessingstate msdyn_salesagentprocessingstate_regardingentity_opportunity](msdyn_salesagentprocessingstate.md#BKMK_msdyn_salesagentprocessingstate_regardingentity_opportunity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_salesagentprocessingstate`|
+|ReferencingAttribute|`msdyn_regardingentity`|
+|ReferencedEntityNavigationPropertyName|`msdyn_salesagentprocessingstate_regardingentity_opportunity`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_salesagentrun_opportunity"></a> msdyn_salesagentrun_opportunity
 

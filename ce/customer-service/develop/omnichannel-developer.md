@@ -96,8 +96,7 @@ Read how you can implement a connector to integrate custom messaging channels us
 
 ### Related information
 
-[Introduction to Omnichannel for Customer Service](../implement/introduction-omnichannel.md)<br />
-[Omnichannel for Customer Service for system customizers](../administer/omnichannel-customizer.md)<br />
+[Introduction to Omnichannel for Customer Service](../implement/introduction-omnichannel.md)  
 [Live chat SDK reference](omnichannel-reference.md)  
 
 

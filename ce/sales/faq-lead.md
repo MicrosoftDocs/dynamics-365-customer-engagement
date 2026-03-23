@@ -16,7 +16,7 @@ ms.custom:
 
 # Lead management FAQs
 
-This article answers frequently asked questions about Lead management in Dynamics 365 Sales, Sales premium, and Sales professional.
+This article answers frequently asked questions about Lead management in Dynamics 365 Sales.
 
 ## FAQs about lead qualification experience
 

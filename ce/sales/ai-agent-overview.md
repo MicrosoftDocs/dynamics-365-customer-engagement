@@ -1,7 +1,7 @@
 ---
-title: AI Agents in Dynamics 365 Sales
+title: AI agents in Dynamics 365 Sales
 description: Learn about the out-of-the-box AI agents in Dynamics 365 Sales that help sales teams qualify leads and close deals faster.
-ms.date: 11/10/2025
+ms.date: 01/29/2026
 ms.update-cycle: 180-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
@@ -18,23 +18,19 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# AI Agents in Dynamics 365 Sales
+# AI agents in Dynamics 365 Sales
 
-Dynamics 365 Sales includes out-of-the-box AI agents that help sales teams qualify leads and close deals faster by autonomously researching leads and opportunities, providing insights, and engaging with customers. These agents support sales professionals in enhancing productivity and effectiveness. 
+Dynamics 365 Sales includes out-of-the-box AI agents that autonomously research leads and opportunities. These agents help sales professionals qualify leads and close deals faster by providing insights and engaging with customers.
 
-## Sales Qualification Agent
+[!INCLUDE[ai-agents-dynamics-365-sales](../../ce-shared/ai-agents-dynamics-365-sales.md)]
 
-The Sales Qualification Agent helps sales teams qualify leads effortlessly by autonomously researching leads, determining if they're a good fit for further engagement, sending outreach emails, and engaging with leads. This agent is available in two modes: Research-only and Research and engage. Depending on your sales process and requirements, you can choose the mode that best fits your needs. Learn more in [Sales Qualification Agent overview](sales-qualification-agent.md). 
+## Data movement and residency for AI agents
 
-## Sales Close Agent
+The AI agents in Dynamics 365 Sales use the same data processing and storage infrastructure as other Copilot features in Power Platform. This behavior means that the data that the agents use might be processed and stored in regions outside of the user's primary region, depending on the availability of services and infrastructure. For more information about data residency and movement for Copilot features, see [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot).
 
-The Sales Close Agent - Research helps sales teams close deals faster by autonomously researching opportunities, providing visibility into emerging risks, and highlighting promising opportunities. Learn more in [Sales Close Agent - Research overview (preview)](opportunity-research-agent.md). 
+## Geographical availability and languages supported
 
-The Sales Close Agent - Engage autonomously manages the end-to-end sales cycle for high-velocity, low-complexity deals. It engages customers, recommends products, handles objections, and drives transactions to closure using templated personalization for outreach and follow-ups. Learn more in [Sales Close Agent - Engage overview (preview)](sales-close-agent.md).
-
-## Sales Research Agent
-
-The Sales Research Agent in Dynamics 365 Sales empowers you to solve complex business questions through a dialog with your data using natural language. This AI-powered research canvas offers rich insights into all aspect of your sales data, empowering you to make informed decisions taking a myriad of variables into account. Learn more in [Sales Research Agent overview (preview)](sales-research-agent.md).
+AI agents in Dynamics 365 Sales are available in geographical regions and languages listed in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport). [Learn how to use the report](copilot-overview.md#how-to-use-the-copilot-international-availability-report).
 
 <a name="monitor-agent-performance"></a>
 ## Monitor agent performance

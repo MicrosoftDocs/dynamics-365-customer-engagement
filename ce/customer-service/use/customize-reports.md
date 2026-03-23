@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 09/02/2025
+ms.date: 02/13/2026
 ms.custom:
   - dyn365-customerservice
   - bap-template
@@ -84,7 +84,7 @@ Fact tables organize key KPIs logically. For example, **FactConversation** has c
 
 You can use facts and dimensions to visualize data according to your organizational requirements. If you want to understand how average handle time varies by queue, create a visualization like a bar chart, and divide the fact **FactConversation** > **Average Handle Time** by the dimension **DimQueue** > **Queue Name**.
 
-### Future data model updates
+### Data model updates
 
 If you customize your reports and then Microsoft changes the default data model for a report, the data model updates don't overwrite your customizations. However, if the naming conventions in the Power BI embedded editing experience change, those changes are reflected in the respective list. You may need to reselect the metric with the new name. [Learn more about data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
 

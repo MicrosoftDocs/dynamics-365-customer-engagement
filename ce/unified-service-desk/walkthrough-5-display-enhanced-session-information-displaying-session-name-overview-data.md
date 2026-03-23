@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Walkthrough 5: Display enhanced session information by displaying session name and overview data
 

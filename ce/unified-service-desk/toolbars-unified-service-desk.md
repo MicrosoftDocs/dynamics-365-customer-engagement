@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Toolbars in Unified Service Desk
 Toolbars in [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)] hold and display a list of buttons with images and text. Clicking or tapping the buttons can execute one or more actions.  

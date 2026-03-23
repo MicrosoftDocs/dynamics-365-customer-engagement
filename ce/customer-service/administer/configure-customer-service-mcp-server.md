@@ -31,6 +31,7 @@ Use [Microsoft Copilot Studio](https://www.microsoft.com/microsoft-365-copilot/m
 - Dynamics 365 Customer Service MCP Server is configured and appears in Copilot Studio tools list. Learn more in [Microsoft MCP connectors available in Copilot Studio](/microsoft-copilot-studio/agent-extend-action-mcp#microsoft-mcp-connectors-available-in-copilot-studio).
 
 > [!NOTE]
+>
 > - The existing D365 Service MCP Server is deprecated and you must remove it. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 > - Claude Desktop isn't supported with Dynamics 365 Customer Service MCP Server.
 > - We recommend that you don't use deprecated connections and consider deleting them.
@@ -65,7 +66,7 @@ You can also access your MCP tools from external sources such as Visual Studio C
 1. In Visual Studio Code, select the command palette or use CTRL+Shift+P, type **MCP: Add Server**, and press enter.
 
 1. Select **Http or Server sent Events** server and press enter.
-1. Add the following URLs
+1. Add the following URLs:
     - Dataverse: Use the orgID in the URL. For example: https://`<OrgURL>`/api/mcp
     - Customer Service: Use the environment ID.
     The system generates the following code.
@@ -87,9 +88,9 @@ You can also access your MCP tools from external sources such as Visual Studio C
 
 After you configure the AI agent with the Dataverse MCP server and Dynamics 365 Customer Service MCP Server, you can navigate to the **Channels** tab and publish your AI Agent to Teams or M365 Copilot. Your service representatives can use it to resolve customer issues.
 
-The following tools are available in Dynamics 365 Customer Service MCP Server (preview).
+The following tools are available in Dynamics 365 Customer Service MCP Server (Preview).
 
-|Tool name|	Description|
+|Tool name| Description|
 |---|---|
 | enrich_case  | This tool enriches an existing case (incident) or similar Dataverse entity with an optional activity entity (like email) as enrichment context by predicting case field values using AI. It uses an AI-powered field prediction model to infer the best values for the case record based on a source activity and updates the case with these predicted values. |
 | get_next_suggestion_on_case      | Finds the next suggested steps for a case (incident) or similar Dataverse entities, optionally using an activity (like email) as context for finding suggested next steps. |
@@ -97,12 +98,12 @@ The following tools are available in Dynamics 365 Customer Service MCP Server (p
 | draft_email_with_suggested_response | Drafts email responses based on the context of the case and the suggested response from the get_next_suggestion_on_case tool. The draft email is for sharing a solution or requesting more information with interview questions. |
 | resolve_incident | Closes (resolves) a case (incident) with resolution in Dataverse Incident entity. A resolution note is required to resolve a case.|
 
-The following tools are available in Dataverse MCP Server (preview).
+The following tools are available in Dataverse MCP Server (Preview).
 
 | Tool name                | Description                                                                                                                                                                                                                                                                                                                                                                   |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | list_tables              | This tool gets a list of all tables in the Dataverse and returns an array of table names. This doesn't retrieve the tables from external sources.                                                                                                                                                                                                                              |
-| describe_table           | Get the TSQL schema definition of a table in the Dataverse database.                                                                                                                                                                                                                                                                                                          |
+| describe_table           | Get the TSQL schema definition of a table in the Dataverse database.  |
 | read_query               | Executes SQL SELECT statements against Dataverse, enabling complex query scenarios like filtering, joins, aggregations, and more. Works best with grounded knowledge from the describe and list table tools, as well as insights gained from search tools.                                                                              |
 | create_table             | Create a new table in Dataverse with the specified columns.                                                                                                                                                                                                                                                                                                                   |
 | update_table             | Update an existing table in Dataverse by adding new columns.                                                                                                                                                                                                                                                                                                                  |

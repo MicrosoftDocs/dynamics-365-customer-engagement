@@ -22,8 +22,6 @@
         href: capacity-profiles.md
       - name: Manage personas and custom security roles
         href: role-persona-mapping.md
-      - name: Delete historical data of agent capacity updates
-        href: manage-historical-data-capacity-updates.md
     - name: Unified routing and assignment
       items:
       - name: Overview of unified routing
@@ -310,6 +308,8 @@
         href: add-recipient-control.md
       - name: Configure a default signature template for a queue
         href: add-signature-template-queue.md
+      - name: Configure sentiment analysis for emails (preview)
+        href: configure-sentiment-analysis.md
       - name: Email FAQ and known issues
         href: /power-apps/user/activities-known-issues?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Inbox
@@ -550,8 +550,6 @@
         href: add-customer-summary-settings.md
       - name: Customize chat forms
         items:
-        - name: Overview
-          href: omnichannel-customizer.md
         - name: Customize active conversation form
           href: customize-customer-summary.md
         - name: Customize quick view forms
@@ -800,8 +798,6 @@
           href: configure-agent-forecasting-conversation.md
       - name: Configure AI suggestions
         href: csw-enable-ai-suggested-cases-knowledge-articles.md
-      - name: Configure AI suggestions for article keywords and descriptions
-        href: configure-ai-suggested-article-keywords-description.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
       - name: Customize interactive dashboards based on Unified Interface
@@ -848,6 +844,8 @@
           href: add-facilities-equipment-cs-app.md
         - name: Create resource groups
           href: create-edit-resource-group.md
+        - name: Create a simple selection rule for resource selection
+          href: create-simple-selection-rule.md
       - name: Service Scheduling FAQ
         items:
         - name: Service Scheduling FAQ
@@ -946,7 +944,7 @@
             href: migrate-tool-faqs.md
     - name: Audit
       items:
-      - name: Search Customer Service admin logs in Microsoft Purview
+      - name: Enable tables for Customer Service audit logs
         href: enable-audit-tables.md
     - name: Known issues in Customer Service and Dynamics 365 Contact Center
       href: https://go.microsoft.com/fwlink/p/?linkid=2165393
@@ -981,7 +979,7 @@
   - name: Implement Dynamics 365 Customer Service
     href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
   - name: Use Dynamics 365 Customer Service
-    href: ../use/supervisor-historical-analytics.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+    href: ../use/supervisor-access-diagnostics.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
   - name: Develop Dynamics 365 Customer Service
     href: ../develop/omnichannel-developer.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml
   - name: Dynamics 365 Channel Integration Framework
@@ -990,3 +988,5 @@
     href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml
   - name: Dynamics 365 Contact Center documentation
     href: /dynamics365/contact-center/
+  - name: Contribute to documentation
+    href: /dynamics365/get-started/contribute?context=/dynamics365/context/customer-service-administer-context

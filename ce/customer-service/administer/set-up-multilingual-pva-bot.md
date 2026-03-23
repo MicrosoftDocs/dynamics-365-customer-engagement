@@ -1,7 +1,7 @@
 ---
 title: Set up a multilingual agent to use in voice channel
-description: Use this article to learn how to set up a multilingual bot to use in the voice channel in Dynamics 365 Contact Center.
-ms.date: 12/14/2024
+description: Use this article to learn how to set up a multilingual agent to use in the voice channel in Dynamics 365 Contact Center.
+ms.date: 01/30/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -13,9 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
-
 
 You can configure routing rules to route voice calls to appropriate agents based on the language that your customer has selected. A multilingual contact center helps you serve global customers who want to interact with your contact center in the language of their choice. You can also set up agents as the first contact who can handle such requests.
 
@@ -105,7 +103,7 @@ For example, you can create an agent with the following details:
    1. Select the **Add** (+) node and then select **Manage properties** > **Set a property** and enter the following details:
 
       - **Condition**: virtualagent.va_CustomerLocale
-      - **Value**: en-US   
+      - **Value**: en-US
       
      Repeat the steps to **Set a property** for fr-FR, pt-PT, hi-IN.
 

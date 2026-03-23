@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Keyboard shortcuts for panels in Unified Service Desk
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] now lets you cycle through all the active panels using a predefined keyboard shortcut and also define keyboard shortcuts to directly access individual panels in the panel layout.  

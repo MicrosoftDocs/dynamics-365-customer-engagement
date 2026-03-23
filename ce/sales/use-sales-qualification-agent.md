@@ -1,15 +1,12 @@
 ---
 title: Work on leads handed over by the Sales Qualification Agent
 description: Learn how to work with leads handed over by the Sales Qualification Agent in Dynamics 365 Sales. Discover research insights, handover summaries, and recommended actions for effective lead management.
-ms.date: 11/27/2025
+ms.date: 02/04/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
   - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -69,6 +66,9 @@ The lead handover process goes through the following stages:
 ## View leads handed over by the agent
 
 If you're a seller, you get notified when a lead is handed over to you. If you missed that, follow the steps in this section to view all leads handed over to you by the Sales Qualification Agent.
+
+> [!NOTE]
+> Your admin must have granted you the necessary permissions to work on leads handed over by the agent. Learn more in [Grant permissions to sellers to work on leads handed over by agent](configure-sales-qualification-agent.md#grant-permissions).
 
 If you're a supervisor, you get notified when a lead is disqualified by the agent. Learn more in [View leads disqualified by the agent](#view-leads-disqualified-by-the-agent). You can also view detailed agent performance metrics and data on the AI Optimization hub. Learn more in [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md).
 

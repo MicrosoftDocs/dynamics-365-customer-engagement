@@ -1,15 +1,15 @@
 ---
-title: Create and manage article versions
+title: Manage knowledge article versions
 description: Learn how to create, manage, review, and publish versions of your knowledge articles.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 04/09/2025
+ms.date: 01/28/2026
 ms.custom: bap-template
 ---
 
-# Create and manage article versions
+# Manage knowledge article versions
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
@@ -53,4 +53,9 @@ Managing your article versions means publishing and archiving different versions
   
 5.  When prompted, select **OK**.  
   
-     Deleting an article version is permanent and can’t be undone. You can't go back to that version of the article, so make sure that you don’t need any of the information. It’s a good idea to create a local backup of any versions you delete.
+     If you delete an article version, it can’t be undone. You can't go back to that version of the article, so make sure that you don’t need any of the information. It’s a good idea to create a local backup of any versions you delete.
+
+## Related information
+
+[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md#create-and-manage-knowledge-articles)  
+[Publish knowledge articles](publish-ka.md#publish-knowledge-articles)

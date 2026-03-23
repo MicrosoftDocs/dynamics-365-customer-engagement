@@ -8,7 +8,6 @@ ms.author: mgandham
 ms.reviewer: mgandham
 search.audienceType: 
   - admin
-ms.custom: evergreen
 monikerRange: '>= dynamics-usd-4.1'
 ---
 

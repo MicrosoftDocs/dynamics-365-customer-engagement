@@ -1,7 +1,7 @@
 ---
 title: Configure persistent chat
 description: Use this article to understand how persistent chat works and how you can configure it in Dynamics 365 Contact Center.
-ms.date: 02/05/2025
+ms.date: 03/10/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -36,7 +36,7 @@ Make sure that the authentication settings are configured. Learn more in [Create
 
 ## Set up persistent chat
 
-In admin center, select the **Make chats persistent** checkbox when you create the chat workstream. Learn more in [Create and manage workstreams](create-workstreams.md).
+In Copilot Service admin center, select the **Make chats persistent** checkbox when you create the chat workstream. Learn more in [Create and manage workstreams](create-workstreams.md).
 
 Make sure that you set the **Keep same agent for entire conversation** toggle to **Yes** in the **Work distribution** settings of the workstream. Learn more in [Configure work distribution](create-workstreams.md#configure-work-distribution).
 
@@ -52,6 +52,12 @@ If you want to make sure that the same service representative is assigned to the
 
 > [!NOTE]
 > We recommend that you use the auto-assign setting cautiously because if the representative goes offline for an extended period, the chat might still remain assigned to them.
+
+### Display previous conversations to customers
+
+Your persistent chat customers can view the previous conversations and get context of the responses when you enable the setting.
+
+In Copilot Service admin center, go to the live chat channel that's enabled for persistent chat and edit it. On the **Chat widget** page, turn on the toggle for **Show previous conversations**, and select a value in **History duration (months)**. The system saves previous messages up to this limit.
 
 ### Related information
 

@@ -1,7 +1,7 @@
 ---
 title: Copilot Service admin center
 description: Get started with Copilot Service admin center to configure the various features and settings in Customer Service.
-ms.date: 12/13/2024
+ms.date: 02/19/2026
 ms.topic: concept-article
 ms.collection: get-started
 author: neeranelli
@@ -121,7 +121,7 @@ Use the search option on the **Search admin settings** page to quickly list the 
 
 ### FAQ
 
-See the [FAQ about Copilot Service admin center](../administer/faq-customer-service-admin-center.md) for any questions that you might have.
+Go to the [FAQ about Copilot Service admin center](../administer/faq-customer-service-admin-center.md) for any questions that you might have.
 
 ### Related information
 

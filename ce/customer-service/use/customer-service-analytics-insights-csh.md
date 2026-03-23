@@ -1,7 +1,7 @@
 ---
 title: Customer Service dashboards
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
-ms.date: 11/07/2025
+ms.date: 01/30/2026
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -50,7 +50,14 @@ Optionally, you can also add the **Business Unit** filter, which provides a cons
 
 ## Reports refresh and data retention
 
-Learn more in [Analytics reports refresh and data retention](info-analytics-reports.md#analytics-reports-refresh-and-data-retention).
+The reports refresh shows the following information.
+
+- **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. The **Last updated** timestamp in the report pages indicates when the latest data was included in the report, and the time reflects the time zone set in your user preferences.
+- **Custom refresh:** Isn't available.
+- **Data refresh for inactive environments:** Data refresh is paused for organizations that aren't in use for 30 days. After 60 days of inactivity, the analytics feature is deprovisioned on the organization.
+- **Data retention:** Data is stored for 24 months.
+
+To view the documentation for a report, select the **About this report** link.
 
 ## Supported tables
 

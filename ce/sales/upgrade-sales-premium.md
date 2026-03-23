@@ -19,7 +19,7 @@ Sellers achieve more with Dynamics 365 Sales Premium as they align to new custom
 
 - Spend their time on the activities that make them more productive
 
-- Automate sales processes with AI Agents. Using the bundled Copilot credits, sellers can use AI Agents to eliminate tedious work, research and engage with leads, get pipeline insights, and close deals with proactive risk alerts. For more information, see [FAQs about Copilot credits bundled with Dynamics 365 Sales Premium licenses](faq-licenses-storage.md#faqs-about-copilot-credits-bundled-with-dynamics-365-sales-premium-licenses).
+- Automate sales processes with AI Agents. Using the bundled Copilot credits, sellers can use AI Agents to eliminate tedious work, research and engage with leads, get pipeline insights, and close deals with proactive risk alerts. For more information, see [FAQs about Copilot credits bundled with specific Dynamics 365 Sales licenses](faq-licenses-storage.md#faqs-about-copilot-credits-bundled-with-specific-dynamics-365-sales-licenses).
 
 - Build stronger relationships with their customers
 

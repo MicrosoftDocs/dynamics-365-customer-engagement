@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management
 description: Learn how to configure the settings for knowledge management in Dynamics 365 Customer Service.
-ms.date: 04/22/2025
+ms.date: 01/29/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -55,7 +55,6 @@ After you configure knowledge management on your app, you must also set up the v
 - [Configure knowledge base article URLs](#configure-knowledge-base-article-urls)
 - [Create and manage categories](create-manage-categories.md#create-and-manage-categories)
 - [Create templates for knowledge articles](../use/create-templates-knowledge-article.md#create-templates-for-knowledge-articles)
-- [Set up AI suggestions for article keywords and description](#set-up-ai-suggestions-for-article-keywords-and-description)
 - [Set up external search providers][Set up external search providers](set-up-search-providers.md#set-up-external-search-providers)
 
 ## Set up knowledge management
@@ -152,9 +151,9 @@ With the knowledge article attachments option, you can stop using notes attachme
 1. Set the **Sync attachments to portal** toggle to **Yes**.
 1. Select **Save**.
 
-## Set up AI suggestions for article keywords and description
+## Automatically generate article keywords and description
 
-You can enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in knowledge article entity. Learn more in [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description).
+[Fill forms using Copilot](/power-apps/user/form-filling-assistance) to automatically generate knowledge article keywords and description.
 
 ## Set up knowledge search logic
 

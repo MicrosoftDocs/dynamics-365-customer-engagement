@@ -27,7 +27,7 @@ Changes from [ObjectId (Microsoft Dataverse)](/power-apps/developer/data-platfor
 
 |Property|Value|
 |---|---|
-|Targets|msdyn_channelmessageattachment, msdyn_conversationinsight, msdyn_copilotinteractiondata, msdyn_copilottranscriptdata, msdyn_customerassetattachment, msdyn_entityattachment, msdyn_ocexternalcontext, msdyn_ocrecording, msdyn_ocrichobject, msdyn_soundfile, msdyn_transcript, msfp_fileresponse|
+|Targets|msdyn_channelmessageattachment, msdyn_conversationinsight, msdyn_copilotinteractiondata, msdyn_copilottranscriptdata, msdyn_customerassetattachment, msdyn_entityattachment, msdyn_ocexternalcontext, msdyn_ocrecording, msdyn_ocrichobject, msdyn_soundfile, msdyn_transcript, msdyncrm_file, msfp_fileresponse|
 
 
 ## Many-to-One relationships
@@ -45,6 +45,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_ocrichobject_FileAttachments](#BKMK_msdyn_ocrichobject_FileAttachments)
 - [msdyn_soundfile_FileAttachments](#BKMK_msdyn_soundfile_FileAttachments)
 - [msdyn_transcript_FileAttachments](#BKMK_msdyn_transcript_FileAttachments)
+- [msdyncrm_file_FileAttachments](#BKMK_msdyncrm_file_FileAttachments)
 - [msfp_fileresponse_FileAttachments](#BKMK_msfp_fileresponse_FileAttachments)
 
 ### <a name="BKMK_msdyn_channelmessageattachment_FileAttachments"></a> msdyn_channelmessageattachment_FileAttachments
@@ -190,6 +191,19 @@ One-To-Many Relationship: [msdyn_transcript msdyn_transcript_FileAttachments](ms
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyncrm_file_FileAttachments"></a> msdyncrm_file_FileAttachments
+
+One-To-Many Relationship: [msdyncrm_file msdyncrm_file_FileAttachments](msdyncrm_file.md#BKMK_msdyncrm_file_FileAttachments)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyncrm_file`|
+|ReferencedAttribute|`msdyncrm_fileid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyncrm_file`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msfp_fileresponse_FileAttachments"></a> msfp_fileresponse_FileAttachments
 
 One-To-Many Relationship: [msfp_fileresponse msfp_fileresponse_FileAttachments](msfp_fileresponse.md#BKMK_msfp_fileresponse_FileAttachments)
@@ -224,6 +238,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [FileAttachment_msdyn_transcript_msdyn_rawvoicetranscript](#BKMK_FileAttachment_msdyn_transcript_msdyn_rawvoicetranscript)
 - [FileAttachment_msdyn_transcript_msdyn_voicetranscript](#BKMK_FileAttachment_msdyn_transcript_msdyn_voicetranscript)
 - [FileAttachment_msdyn_transcript_msdyn_voicetranscript_formatted](#BKMK_FileAttachment_msdyn_transcript_msdyn_voicetranscript_formatted)
+- [FileAttachment_msdyncrm_file_msdyncrm_filecontent](#BKMK_FileAttachment_msdyncrm_file_msdyncrm_filecontent)
 - [FileAttachment_msfp_fileresponse_msfp_file1](#BKMK_FileAttachment_msfp_fileresponse_msfp_file1)
 - [FileAttachment_msfp_fileresponse_msfp_file10](#BKMK_FileAttachment_msfp_fileresponse_msfp_file10)
 - [FileAttachment_msfp_fileresponse_msfp_file2](#BKMK_FileAttachment_msfp_fileresponse_msfp_file2)
@@ -424,6 +439,18 @@ Many-To-One Relationship: [msdyn_transcript FileAttachment_msdyn_transcript_msdy
 |ReferencingEntity|`msdyn_transcript`|
 |ReferencingAttribute|`msdyn_voicetranscript_formatted`|
 |ReferencedEntityNavigationPropertyName|`FileAttachment_msdyn_transcript_msdyn_voicetranscript_formatted`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_FileAttachment_msdyncrm_file_msdyncrm_filecontent"></a> FileAttachment_msdyncrm_file_msdyncrm_filecontent
+
+Many-To-One Relationship: [msdyncrm_file FileAttachment_msdyncrm_file_msdyncrm_filecontent](msdyncrm_file.md#BKMK_FileAttachment_msdyncrm_file_msdyncrm_filecontent)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyncrm_file`|
+|ReferencingAttribute|`msdyncrm_filecontent`|
+|ReferencedEntityNavigationPropertyName|`FileAttachment_msdyncrm_file_msdyncrm_filecontent`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

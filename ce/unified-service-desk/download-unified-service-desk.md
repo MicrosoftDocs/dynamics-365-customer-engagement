@@ -10,7 +10,6 @@ search.audienceType:
   - customizer
   - developer
 monikerRange: '>= dynamics-usd-4'
-ms.custom: evergreen
 ---
 
 # Download Unified Service Desk and administration tools

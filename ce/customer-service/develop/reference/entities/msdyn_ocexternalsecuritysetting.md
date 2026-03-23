@@ -139,9 +139,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |---|---|
-|426140000|**No hold**|
+|426140000|**Follow workstream settings**|
 |426140001|**Agent on hold**|
-|426140002|**Customer on hold**|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 

@@ -23,7 +23,7 @@ The integrated business card scanner in Dynamics 365 Sales helps salespeople to 
 > [!IMPORTANT]
 > - To learn about the availability of the business card feature in a region, see [Feature availability by region](/ai-builder/availability-region#availability-and-release-status-of-features-by-region).
 > - Ensure that your security role has read permissions for the **msdyn_AIModel** and **msdyn_AITemplate** tables. To get permissions, contact your system administrator. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
-> - To know about the business card scan limits with your user license, see the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+> - To know about the business card scan limits for your user license, see the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 > - The card scanner is available in lead and contact forms. If you'd like to add the card scanner to other forms, see [Use the business card reader component in model-driven apps in Power Apps](/ai-builder/business-card-reader-component-model-driven)
 
 

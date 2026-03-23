@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # UIA Pattern List in Unified Service Desk
 This article lists the UIA patterns.  

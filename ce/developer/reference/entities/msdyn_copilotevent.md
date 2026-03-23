@@ -240,6 +240,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100230323|**ResolveCase**|
 |100230324|**Escalate**|
 |100230325|**TemplateRecommended**|
+|100230326|**CheckSources**|
+|100230327|**TemplateInstantiation**|
+|100230328|**AboutThisSuggestion**|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
@@ -317,6 +320,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100230322|**Resolve case**|
 |100230323|**Case Follow Up**|
 |100230324|**Case Closure**|
+|100230325|**Workload**|
 
 ### <a name="BKMK_msdyn_verbatim"></a> msdyn_verbatim
 

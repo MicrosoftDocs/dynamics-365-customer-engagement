@@ -68,10 +68,12 @@ The following table lists selected properties for the Evaluation Plan Batch (m
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_AssignedTo](#BKMK_msdyn_AssignedTo)
 - [msdyn_BatchProcessingCompletedOn](#BKMK_msdyn_BatchProcessingCompletedOn)
 - [msdyn_BatchProcessingStartedOn](#BKMK_msdyn_BatchProcessingStartedOn)
 - [msdyn_BatchSize](#BKMK_msdyn_BatchSize)
 - [msdyn_CriteriaJson](#BKMK_msdyn_CriteriaJson)
+- [msdyn_Evaluationmethod](#BKMK_msdyn_Evaluationmethod)
 - [msdyn_EvaluationPlanBatchId](#BKMK_msdyn_EvaluationPlanBatchId)
 - [msdyn_evaluationplanbatchids](#BKMK_msdyn_evaluationplanbatchids)
 - [msdyn_EvaluationPlanRun](#BKMK_msdyn_EvaluationPlanRun)
@@ -98,6 +100,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_AssignedTo"></a> msdyn_AssignedTo
+
+|Property|Value|
+|---|---|
+|Description|**User or team to whom the evaluation plan is assigned.**|
+|DisplayName|**Assigned To**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_assignedto`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|systemuser|
 
 ### <a name="BKMK_msdyn_BatchProcessingCompletedOn"></a> msdyn_BatchProcessingCompletedOn
 
@@ -163,6 +178,28 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|1048576|
+
+### <a name="BKMK_msdyn_Evaluationmethod"></a> msdyn_Evaluationmethod
+
+|Property|Value|
+|---|---|
+|Description|**The method the evaluation went through.**|
+|DisplayName|**Evaluation method**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_evaluationmethod`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_evaluationmethod`|
+
+#### msdyn_Evaluationmethod Choices/Options
+
+|Value|Label|
+|---|---|
+|700610000|**AI assisted**|
+|700610001|**AI agent**|
+|700610002|**Manual**|
 
 ### <a name="BKMK_msdyn_EvaluationPlanBatchId"></a> msdyn_EvaluationPlanBatchId
 
@@ -550,6 +587,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_evaluationplanbatch_createdonbehalfby](#BKMK_lk_msdyn_evaluationplanbatch_createdonbehalfby)
 - [lk_msdyn_evaluationplanbatch_modifiedby](#BKMK_lk_msdyn_evaluationplanbatch_modifiedby)
 - [lk_msdyn_evaluationplanbatch_modifiedonbehalfby](#BKMK_lk_msdyn_evaluationplanbatch_modifiedonbehalfby)
+- [msdyn_evaluationplanbatch_AssignedTo_systemuser](#BKMK_msdyn_evaluationplanbatch_AssignedTo_systemuser)
 - [msdyn_evaluationplanbatch_EvaluationPlanRun_msdyn_evaluationplanrun](#BKMK_msdyn_evaluationplanbatch_EvaluationPlanRun_msdyn_evaluationplanrun)
 - [owner_msdyn_evaluationplanbatch](#BKMK_owner_msdyn_evaluationplanbatch)
 - [team_msdyn_evaluationplanbatch](#BKMK_team_msdyn_evaluationplanbatch)
@@ -619,6 +657,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_evaluationplanbatch_modifiedonbeh
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_evaluationplanbatch_AssignedTo_systemuser"></a> msdyn_evaluationplanbatch_AssignedTo_systemuser
+
+One-To-Many Relationship: [systemuser msdyn_evaluationplanbatch_AssignedTo_systemuser](systemuser.md#BKMK_msdyn_evaluationplanbatch_AssignedTo_systemuser)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`systemuser`|
+|ReferencedAttribute|`systemuserid`|
+|ReferencingAttribute|`msdyn_assignedto`|
+|ReferencingEntityNavigationPropertyName|`msdyn_AssignedTo`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_evaluationplanbatch_EvaluationPlanRun_msdyn_evaluationplanrun"></a> msdyn_evaluationplanbatch_EvaluationPlanRun_msdyn_evaluationplanrun
 

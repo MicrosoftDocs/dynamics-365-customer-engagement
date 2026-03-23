@@ -16,7 +16,7 @@ ms.custom:
 
 # Focused view FAQs
 
-This article answers frequently asked questions about focused view in Dynamics 365 Sales, Sales premium, and Sales professional.
+This article answers frequently asked questions about focused view in Dynamics 365 Sales.
 
 ## In which organizations is focused view supported?
 

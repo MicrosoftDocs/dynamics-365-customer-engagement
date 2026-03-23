@@ -18,7 +18,7 @@ ms.custom:
 Microsoft Teams dialer helps sellers make Teams calls to customers directly from within Dynamics 365 Sales.
 
 > [!NOTE]
-> You can also enable Teams dialer through quick setup (with the Dynamics 365 Sales Enterprise license). More information: [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)
+> You can also enable Teams dialer through quick setup. More information: [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)
 
 ## How to configure the dialer?
 
@@ -55,7 +55,7 @@ Additionally, you must grant the following permissions to your users:
 1. In the Sales Hub app, go to **App settings**, and under **General settings**, select **Teams calls**.
 
     > [!NOTE]
-    > If you are a Sales Professional customer, append the following parameters to your Dynamics 365 org URL to open the Teams calls configuration page:
+    > If you're using the Sales Professional app, append the following parameters to your Dynamics 365 org URL to open the Teams calls configuration page:
     >
     > `pagetype=control&controlName=MscrmControls.TeamsDialerSettings.DialerSettingsHostControl`
     >

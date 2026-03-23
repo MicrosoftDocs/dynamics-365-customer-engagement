@@ -85,7 +85,7 @@ Based on these time stamps, the system creates the corresponding booking journal
 
 ## View booking journals
 
-To view booking journals, open a bookable resource booking record and select **Related** > **Booking Journals**.
+To view booking journals, open a *Bookable Resource Booking* record and select **Related** > **Booking Journals**.
 
 ## Next steps
 

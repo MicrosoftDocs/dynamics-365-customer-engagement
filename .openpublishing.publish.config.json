@@ -23,11 +23,11 @@
         "LandingData": "Content"
       },
       "build_entry_point": "docs",
+      "template_folder": "_themes",
       "redirection_files": [
         ".openpublishing.redirection.json",
         "ce/unified-service-desk/.openpublishing.redirection.usd.json"
       ],
-      "template_folder": "_themes",
       "moniker_groups": [],
       "version": 0,
       "customized_tasks": {
@@ -50,9 +50,7 @@
   "branches_to_filter": [],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/dynamics-365-customer-engagement",
   "git_repository_branch_open_to_public_contributors": "main",
-  "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
-  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -92,15 +90,15 @@
       "Pdf"
     ]
   },
-  "need_generate_pdf_url_template": true,
   "targets": {
     "Pdf": {
       "template_folder": "_themes.pdf"
     }
   },
-  "docs_build_engine": {
-    "name": "docfx_v3"
-  },
+  "docs_build_engine": {},
+  "skip_source_output_uploading": false,
+  "contribution_branch_mappings": {},
+  "need_generate_pdf_url_template": true,
   "dependent_packages": [
     {
       "id": "Microsoft.OpenPublishing.CommonPlugins",

@@ -1,13 +1,12 @@
 ---
 title: Universal Resource Scheduling for Dynamics 365 Field Service overview
 description: Learn all about Universal Resource Scheduling for Dynamics 365 Field Service
-ms.date: 02/07/2025
+ms.date: 02/19/2026
 ms.custom: bap-template
 ms.topic: overview
 author: mkelleher-msft
 ms.author: mkelleher
 ---
-
 
 # Universal Resource Scheduling for Dynamics 365 Field Service overview
 
@@ -27,7 +26,7 @@ In other words, Field Service defines **what** needs to be done and **where**, w
 
 For every work order, the system creates a related requirement. It outlines the specific details for resources that can perform the work order. Requirements are scheduled to resources and reference the work order.
 
-By default, the system created one requirement for each work order. However, a work order can have multiple requirements or a requirement group with multiple requirements. [Create incident types to configure templates for work order](configure-incident-types.md).
+By default, the system creates one requirement for each work order. However, a work order can have multiple requirements or a requirement group with multiple requirements. [Create incident types to configure templates for work order](configure-incident-types.md).
 
 Requirements inherit attributes from the work order, such as name, location, duration, and more. Updating work order attributes updates requirement attributes. Manual edits to requirements can be made before scheduling, too.
 
@@ -38,7 +37,7 @@ Requirements inherit attributes from the work order, such as name, location, dur
 
 After a work order and related requirement are ready for scheduling, dispatchers book the requirement to the most appropriate resource.
 
-Booking a requirement related to a work order creates a bookable resource booking record. That record keeps track of which resource does the work, the status of the booking, travel time, and start/end times.
+Booking a requirement related to a work order creates a *Bookable Resource Booking* record. That record keeps track of which resource does the work, the status of the booking, travel time, and start/end times.
 
 ## Scheduling personas
 
@@ -75,21 +74,6 @@ You can launch the schedule assistant from the **Book** button on the ribbon fro
 ### Automated scheduling with the Resource Scheduling Optimization add-in
 
 Resource Scheduling Optimization is an add-in for Dynamics 365 Field Service, which requires a separate license. It includes capabilities to automatically schedule requirements and optimize resource utilization based on custom logic. The add-in plays well with manual or semi-automated scheduling scenarios.
-
-## Enable Universal Resource Scheduling for Field Service
-
-There are a few things you need to configure to enable Universal Resource Scheduling for Field Service.
-
-1. [Enable Resource scheduling](schedule-new-entity.md) for the *msdyn_workorder* entity.
-
-1. [Enable location and map settings](field-service-maps-address-locations.md).
-
-1. [Configure booking statuses](set-up-booking-statuses.md) to let field technicians communicate the progress of their work to stakeholders.
-
-1. [Enable autogeocoding](turn-on-auto-geocoding.md) to account for start and end location of resources.
-
-  > [!TIP]
-  > Work orders or requirements without location are treated as location-agnostic and the system doesn't consider the location during scheduling.
 
 ## Measure scheduling effectiveness
 

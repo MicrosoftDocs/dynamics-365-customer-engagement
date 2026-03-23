@@ -1,6 +1,6 @@
 ---
 title: Enhanced experience for Adding products to quotes, orders, or invoices
-description: Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales Enterprise.
+description: Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice.
 ms.date: 11/12/2024
 ms.topic: how-to
 author: lavanyakr01
@@ -23,8 +23,6 @@ searchScope:
 
 Use the enhanced experience to quickly identify and add multiple products from the catalog to opportunities.
 
-> [!NOTE]
-> Product families are only supported for Sales Enterprise and Sales Premium licenses.
 
 ## What's in the enhanced experience?
 
@@ -34,7 +32,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 - See matching products as you enter text in the search field.
 
-- (Applicable for Sales Premium and Sales Enterprise) Pick products from the categorized list of product families.
+- Pick products from the categorized list of product families.
 
 - See the most recently used list of products while you add multiple products.
 
@@ -82,7 +80,7 @@ If you've created a quote from an opportunity, the products added to the opportu
 4. Use one of the following options to identify and add products:
     
    - If you know the product names, simply search for them and add. [Learn more about how the search works](add-products-search.md).
-   - (Applicable for Sales Premium and Sales Enterprise) If you want to choose products from a specific product family, use the left pane or the drop-down menu before the search box to filter products by family.
+   - If you want to choose products from a specific product family, use the left pane or the drop-down menu before the search box to filter products by family.
 
        > [!NOTE]
        > The products and product families displayed depend on the price list that you've chosen, so if you don't see a product, ensure that the product is associated with the selected price list.

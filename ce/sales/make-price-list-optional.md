@@ -23,9 +23,9 @@ When adding products to opportunities, quotes, orders, or invoices, at times, sa
 
 ## Make price list optional
 
-Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information: 
+Select a tab based on the sales app that you use:
 
-# [Sales Premium and Sales Enterprise](#tab/SE)
+# [Sales Hub app](#tab/SE)
 
 If you have the Sales Hub app, follow the instructions in this tab. Otherwise, follow the instructions in the **Sales Professional** tab to configure the option in Power Platform.
 
@@ -38,7 +38,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
     :::image type="Option to make selection of price list optional in Product Catalog Settings" source="media/sales-hub-make-price-list-optional.png" alt-text="Option to make selection of price list optional in Product Catalog Settings":::
 
 
-# [Sales Professional](#tab/SP)
+# [Sales Professional app](#tab/SP)
 
 1.  In your app, on the nav bar, select the **Settings** icon, and then select **Advanced Settings**.
      > [!NOTE]

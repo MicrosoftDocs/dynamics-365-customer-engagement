@@ -16,7 +16,7 @@ ms.custom:
 
 # Assistant FAQs
 
-This article answers frequently asked questions about the assistant in Dynamics 365 Sales and Sales premium.
+This article answers frequently asked questions about the assistant in Dynamics 365 Sales.
 
 ## Why am I getting an "insufficient permissions" alert while using an insight card?
 

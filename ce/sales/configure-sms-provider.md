@@ -1,7 +1,7 @@
 ---
 title: Configure SMS provider to send and receive text messages
 description: This article explains how to set up the SMS service provider with phone numbers in Dynamics 365 Sales.
-ms.date: 11/15/2024
+ms.date: 02/27/2026
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -38,7 +38,7 @@ Currently, the following providers are supported:
     > [!NOTE]
     > You can purchase or reuse an existing SMS account to send text messages. **The integration works for all countries** in which a phone number can be purchased through Azure Communication Services, Infobip, LINK Mobility, Telesign, Twilio, or Vibes.
 
-2. [Set up the SMS provider in Dynamics 365 Sales](#set-up-the-sms-provider-in-dynamics-365-sales). 
+1. [Set up the SMS provider in Dynamics 365 Sales](#set-up-the-sms-provider-in-dynamics-365-sales). 
 
 ### Sign up for and configure Azure Communication Services subscription 
 

@@ -20,7 +20,7 @@ Use sensitivity labels to protect your content in Microsoft Teams so that your u
 
 Users in your organization collaborate with others both inside and outside the organization. This means that content no longer stays behind a firewall. It can roam everywhere—across devices, apps, and services. And when it roams, you want it to do so in a secure, protected way that meets your organization's business and compliance policies. For more information, see [Get started with sensitivity labels](/microsoft-365/compliance/get-started-with-sensitivity-labels).
 
-Microsoft Teams integration with Dynamics 365 customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation) allows you to create teams with sensitivity labels and make the teams private so that only the owner of each team can add other members.
+Microsoft Teams integration with Dynamics 365 customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Customer Insights - Journeys, and Dynamics 365 Project Service Automation) allows you to create teams with sensitivity labels and make the teams private so that only the owner of each team can add other members.
 
 :::image type="content" source="media/teams-enter-team-name-5.png" alt-text="Screenshot of the sensitivity labels drop-down while creating a team.":::
 

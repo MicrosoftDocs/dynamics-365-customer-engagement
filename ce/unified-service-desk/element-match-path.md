@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # ElementMatchPath in Unified Service Desk
 `<ElementMatchPath>` tag uses a sequence of `HTML` tags delimited by forward slashes. This topic describes how `<ElementMatchPath>` works.  

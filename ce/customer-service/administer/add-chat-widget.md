@@ -1,7 +1,7 @@
 ---
-title: Configure a chat widget
+title: Configure a chat widget in Dynamics 365 Contact Center
 description: Learn how to configure a chat widget in Dynamics 365 Contact Center.
-ms.date: 04/08/2025
+ms.date: 03/10/2026
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -14,7 +14,6 @@ ms.topic: how-to
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-
 You can configure a live chat widget that can be displayed on your portal for customers to interact with AI agents and service representatives.
 
 To add a chat widget, configure a workstream that defines how chat conversations are routed to queues. Learn more in [Create a workstream](create-workstreams.md).
@@ -22,9 +21,9 @@ To add a chat widget, configure a workstream that defines how chat conversations
 ## Configure a chat widget
 
 1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
-    
+
 1. Select **Manage** for **Chat**. The **Chat channels** page appears.
-    
+
 1. Select **Add chat channel**.
 
 1. On the **Channel details** page, enter a name and select a language in the **Name** and **Language** fields, respectively.
@@ -49,14 +48,11 @@ To add a chat widget, configure a workstream that defines how chat conversations
    - [Custom automated messages](configure-automated-message.md)
    - [Pre-conversation survey](configure-pre-chat-survey.md)
    - [Post-conversation survey](configure-post-conversation-survey.md)
-   - [Authentication settings](create-chat-auth-settings.md)
-   - Customer wait time
-      
-      > [!Note] 
-      > These settings aren't configurable for the persistent chat feature. Learn more in [Configure persistent chat](persistent-chat.md).
-   
-       - **Show position in queue:** Select to show customers their position in the queue when they're waiting to interact with a service representative. Learn more in [Show customers their queue position](show-queue.md).
-       - **Show average wait time:** Select to display the average wait time in the queue when customers are waiting to interact with a representative. Learn more in [Show customers their average wait time in a queue](average-wait-time.md).
+   - [Authentication settings](create-chat-auth-settings.md). The authentication setting is mandatory for persistent chat.
+   - Customer wait time: This setting isn't applicable to [persistent chat](persistent-chat.md).
+  
+      - **Show position in queue:** Select to show customers their position in the queue when they're waiting to interact with a service representative. Learn more in [Show customers their queue position](show-queue.md).
+      - **Show average wait time:** Select to display the average wait time in the queue when customers are waiting to interact with a representative. Learn more in [Show customers their average wait time in a queue](average-wait-time.md).
    - **Customer location detection:** Select a location provider. Learn more in [Set up visitor location detection](geo-location-provider.md).
 
 1. On the **User features** page, configure the following options:
@@ -69,7 +65,7 @@ To add a chat widget, configure a workstream that defines how chat conversations
 
       > [!NOTE]
       > - You must install a non-Microsoft provider from Microsoft Marketplace to use the screen sharing or co-browse feature.
-      > - You can select only one co-browse provider and or one screen sharing provider for each chat widget. Solutions published on Marketplace only appear in the lists.
+      > - You can select one co-browse provider only and or one screen sharing provider for each chat widget. Solutions published on Marketplace only appear in the lists.
 
 1. On the **Review and finish** page, review the channel settings, and select **Create channel**.
 

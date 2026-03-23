@@ -70,6 +70,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_OwnerId](#BKMK_msdyn_OwnerId)
 - [msdyn_RCSWatermarkId](#BKMK_msdyn_RCSWatermarkId)
+- [msdyn_SourceType](#BKMK_msdyn_SourceType)
 - [msdyn_Watermark](#BKMK_msdyn_Watermark)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -121,6 +122,27 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_rcswatermarkid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_SourceType"></a> msdyn_SourceType
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether the source is SSS or M365**|
+|DisplayName|**Source Type**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_sourcetype`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_rcswatermark_msdyn_sourcetype`|
+
+#### msdyn_SourceType Choices/Options
+
+|Value|Label|
+|---|---|
+|733400000|**SSS**|
+|733400001|**M365**|
 
 ### <a name="BKMK_msdyn_Watermark"></a> msdyn_Watermark
 

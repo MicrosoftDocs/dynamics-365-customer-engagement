@@ -1,7 +1,7 @@
 ---
 title: Overview of knowledge management
 description: Learn about knowledge management in Dynamics 365 Customer Service.
-ms.date: 04/22/2025
+ms.date: 01/30/2026
 ms.topic: overview
 author: Soumyasd27
 ms.author: sdas
@@ -39,29 +39,29 @@ This section explains how different roles in your organization can use the featu
 
 As a **knowledge author**, you can:
 
-- Create rich, well-formatted content for emails or knowledge articles by using the new rich text editor. More information: [Use the rich text editor to create knowledge articles and emails](customer-service-hub-user-guide-knowledge-article.md#use-the-rich-text-editor-to-create-knowledge-articles-and-emails)
-- Review knowledge articles for accuracy before they are published or made available to others. More information: [Review knowledge articles](review-ka.md#review-knowledge-articles)
-- Quickly create knowledge articles by using templates that include prepopulated fields. Templates also help knowledge managers and authors maintain consistent branding, language, and structure. More information: [Create a knowledge article template](create-templates-knowledge-article.md#create-a-knowledge-article-template)
-- Set up a default knowledge article authoring language. More information: [Configure a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#configure-a-default-knowledge-article-authoring-language-for-your-organization)
+- Create rich, well-formatted content for emails or knowledge articles by using the new rich text editor. Learn more in [Use the rich text editor to create knowledge articles and emails](customer-service-hub-user-guide-knowledge-article.md#use-the-rich-text-editor-to-create-knowledge-articles-and-emails).
+- Review knowledge articles for accuracy before they are published or made available to others. Learn more in [Review knowledge articles](review-ka.md#review-knowledge-articles).
+- Quickly create knowledge articles by using templates that include prepopulated fields. Templates also help knowledge managers and authors maintain consistent branding, language, and structure. Learn more in [Create a knowledge article template](create-templates-knowledge-article.md#create-a-knowledge-article-template).
+- Set up a default knowledge article authoring language. Learn more in [Configure a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#configure-a-default-knowledge-article-authoring-language-for-your-organization).
 
 As an **administrator**, you can:
 
-- Enable a setting so that representatives can propose knowledge drafts after they resolve a case. More information: [Use Copilot to generate knowledge drafts from cases (preview)](use-copilot-knowledge-from-cases.md#use-copilot-to-generate-knowledge-drafts-from-cases-preview)
-- Configure third-party sources, such as enterprise websites that are based on the site map protocol. Knowledge articles are ingested into Dataverse and are available for representatives to search. Therefore, your representatives can view and sort search results from any search providers that you add. More information: [Manage integrated search providers](../administer/add-search-provider.md#manage-integrated-search-providers)
+- Enable a setting so that representatives can propose knowledge drafts after they resolve a case. Learn more in [Use Copilot to generate knowledge drafts from cases (preview)](use-copilot-knowledge-from-cases.md#use-copilot-to-generate-knowledge-drafts-from-cases-preview).
+- Configure third-party sources, such as enterprise websites that are based on the site map protocol. Knowledge articles are ingested into Dataverse and are available for representatives to search. Therefore, your representatives can view and sort search results from any search providers that you add. Learn more in [Manage integrated search providers](../administer/add-search-provider.md#manage-integrated-search-providers).
 
 #### Manage the lifecycle of knowledge articles
 
 As a **knowledge author**, you can:
 
-- Create major and minor versions of a knowledge article, and keep your articles up to date with the latest information while you track changes throughout the lifecycle of your products and services. More information: [Create and manage article versions](ka-versions.md#create-and-manage-article-versions)
-- Create translations for a knowledge article record in multiple languages. More information: [Create a knowledge article translation](../administer/work-knowledge-articles.md#create-a-knowledge-article-translation)
-- Publish articles as soon as they are approved, or schedule them for later publication. You can also set expiration dates on articles. More information: [Publish knowledge articles](publish-ka.md#publish-knowledge-articles)
+- Create major and minor versions of a knowledge article, and keep your articles up to date with the latest information while you track changes throughout the lifecycle of your products and services. Learn more in [Manage knowledge article versions](ka-versions.md#manage-knowledge-article-versions).
+- Create translations for a knowledge article record in multiple languages. Learn more in [Create a knowledge article translation](../administer/work-knowledge-articles.md#create-a-knowledge-article-translation).
+- Publish articles as soon as they are approved, or schedule them for later publication. You can also set expiration dates on articles. Learn more in [Publish knowledge articles](publish-ka.md#publish-knowledge-articles).
 
 :::image type="content" source="../media/create- knowledge.png" alt-text="Screenshot that illustrates the functionality for creating and managing the lifecycle of knowledge articles.":::
 
 #### Create and manage categories for your knowledge articles
 
-As an **administrator**, you can create hierarchical, categorical data to help group records. Categories are useful for reporting, sorting, segmenting, and categorizing records. More information: [Create and manage categories](../administer/create-manage-categories.md#create-and-manage-categories)
+As an **administrator**, you can create hierarchical, categorical data to help group records. Categories are useful for reporting, sorting, segmenting, and categorizing records. Learn more in [Create and manage categories](../administer/create-manage-categories.md#create-and-manage-categories).
 
 ### Search knowledge articles
 
@@ -69,20 +69,20 @@ As an **administrator**, you can create hierarchical, categorical data to help g
 
 As a **representative**, you can use either smart assist or the **Knowledge search** pane to search articles in Copilot Service workspace. Smart assist suggests knowledge articles that are related to your case and that can help you quickly resolve customer issues. Fore more information about the **Knowledge search** pane, go to, [Search knowledge articles](../csw-search-knowledge-articles.md).
 
-As a **customizer**, you can set up the knowledge base search control on a standard or custom form to help users in your organization easily find knowledge articles. More information: [Add the Knowledge Base Search control to forms](../administer/add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms)
+As a **customizer**, you can set up the knowledge base search control on a standard or custom form to help users in your organization easily find knowledge articles. Learn more in [Add the Knowledge Base Search control to forms](../administer/add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms).
 
-As an **administrator**, you can configure how the knowledge base search control appears for your entities in the app side pane of Copilot Service workspace and Omnichannel for Customer Service. By configuring a record type, you can specify the information that is shown to your representatives while they interact with customers. More information: [Configure knowledge search control on app side pane for an entity record](../administer/configure-knowledge-search-control-productivity-pane.md#configure-knowledge-search-control-on-app-side-pane-for-an-entity-record)
+As an **administrator**, you can configure how the knowledge base search control appears for your entities in the app side pane of Copilot Service workspace and Omnichannel for Customer Service. By configuring a record type, you can specify the information that is shown to your representatives while they interact with customers. Learn more in [Configure knowledge search control on app side pane for an entity record](../administer/configure-knowledge-search-control-productivity-pane.md#configure-knowledge-search-control-on-app-side-pane-for-an-entity-record).
 
 #### Search multiple knowledge providers
 
-As an **administrator**, you can use search providers to federate the search of files, documents, or articles from data sources outside your organization. More information: [Set up external search providers](../administer/set-up-search-providers.md#set-up-external-search-providers)
+As an **administrator**, you can use search providers to federate the search of files, documents, or articles from data sources outside your organization. Learn more in [Set up external search providers](../administer/set-up-search-providers.md#set-up-external-search-providers).
 
 #### Set up search logic and search filters
 
 As an **administrator**, you can:
 
-- Set up knowledge search logic for your knowledge articles to help representatives find only the articles that they need. More information: [Set up knowledge search logic](../administer/set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-search-logic).
-- Create filters to help your representatives more quickly find what they are looking for. More information: [Customize knowledge article search filters](../administer/enable-knowledge-article-search-filters.md)
+- Set up knowledge search logic for your knowledge articles to help representatives find only the articles that they need. Learn more in [Set up knowledge search logic](../administer/set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-search-logic).
+- Create filters to help your representatives more quickly find what they are looking for. Learn more in [Customize knowledge article search filters](../administer/enable-knowledge-article-search-filters.md).
 
 ### Perform knowledge self-service
 
@@ -101,15 +101,15 @@ As an **administrator**, you can integrate a Copilot agent with knowledge manage
 As an **administrator**, you can:
 
 - Track how many times an article is used, viewed, and sent to customers. You can then use this information to proactively create knowledge articles based on search insights across customers and representatives. 
-- Use the knowledge search analytics dashboard to give supervisors and knowledge workers valuable insights into how your support representatives find and use knowledge articles. More information: [Manage Knowledge analytics](../administer/enable-knowledge-search-insights.md#manage-knowledge-analytics)
+- Use the knowledge search analytics dashboard to give supervisors and knowledge workers valuable insights into how your support representatives find and use knowledge articles. Learn more in [Manage Knowledge analytics](../administer/enable-knowledge-search-insights.md#manage-knowledge-analytics).
 
 :::image type="content" source="../media/knowledge-article-insights-dashboard.png" alt-text="Screenshot of the knowledge search analytics dashboard":::
 
-As a **supervisor**, you can use the knowledge search analytics dashboard to identify searches that have low success or return no results. In this way, you can help identify knowledge gaps, improve search results, and surface the most relevant articles. More information: [Introduction to knowledge analytics](knowledge-search-analytics-cs.md#introduction-to-knowledge-analytics)
+As a **supervisor**, you can use the knowledge search analytics dashboard to identify searches that have low success or return no results. In this way, you can help identify knowledge gaps, improve search results, and surface the most relevant articles. Learn more in [Introduction to knowledge analytics](knowledge-search-analytics-cs.md#introduction-to-knowledge-analytics).
 
 ### Provide feedback
 
-As a **representative**, you can use knowledge article rating to easily provide feedback about knowledge articles. Knowledge managers can capture and review this feedback to improve and maintain a relevant knowledge base. More information: [Submit ratings and feedback for knowledge articles](submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles)
+As a **representative**, you can use knowledge article rating to easily provide feedback about knowledge articles. Knowledge managers can capture and review this feedback to improve and maintain a relevant knowledge base. Learn more in [Submit ratings and feedback for knowledge articles](submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles).
 
 ## Related information
 

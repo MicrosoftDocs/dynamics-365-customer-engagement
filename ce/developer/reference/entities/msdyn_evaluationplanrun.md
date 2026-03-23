@@ -68,8 +68,10 @@ The following table lists selected properties for the Evaluation Plan Run (msd
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_AssignedTo](#BKMK_msdyn_AssignedTo)
 - [msdyn_DueDate](#BKMK_msdyn_DueDate)
 - [msdyn_EvaluationCriteria](#BKMK_msdyn_EvaluationCriteria)
+- [msdyn_Evaluationmethod](#BKMK_msdyn_Evaluationmethod)
 - [msdyn_EvaluationPlan](#BKMK_msdyn_EvaluationPlan)
 - [msdyn_EvaluationPlanEndDate](#BKMK_msdyn_EvaluationPlanEndDate)
 - [msdyn_EvaluationPlanRunId](#BKMK_msdyn_EvaluationPlanRunId)
@@ -78,6 +80,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_PageIndex](#BKMK_msdyn_PageIndex)
 - [msdyn_PaginationMarker](#BKMK_msdyn_PaginationMarker)
 - [msdyn_PlanName](#BKMK_msdyn_PlanName)
+- [msdyn_RecordsIdentificationCompletedOn](#BKMK_msdyn_RecordsIdentificationCompletedOn)
 - [msdyn_RecordType](#BKMK_msdyn_RecordType)
 - [msdyn_TotalRecordsDiscovered](#BKMK_msdyn_TotalRecordsDiscovered)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -101,6 +104,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_AssignedTo"></a> msdyn_AssignedTo
+
+|Property|Value|
+|---|---|
+|Description|**User or team to whom the evaluation plan is assigned.**|
+|DisplayName|**Assigned To**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_assignedto`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|systemuser|
 
 ### <a name="BKMK_msdyn_DueDate"></a> msdyn_DueDate
 
@@ -131,6 +147,28 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|ApplicationRequired|
 |Type|Lookup|
 |Targets|msdyn_evaluationcriteria|
+
+### <a name="BKMK_msdyn_Evaluationmethod"></a> msdyn_Evaluationmethod
+
+|Property|Value|
+|---|---|
+|Description|**The method the evaluation went through.**|
+|DisplayName|**Evaluation method**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_evaluationmethod`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_evaluationmethod`|
+
+#### msdyn_Evaluationmethod Choices/Options
+
+|Value|Label|
+|---|---|
+|700610000|**AI assisted**|
+|700610001|**AI agent**|
+|700610002|**Manual**|
 
 ### <a name="BKMK_msdyn_EvaluationPlan"></a> msdyn_EvaluationPlan
 
@@ -255,6 +293,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|200|
+
+### <a name="BKMK_msdyn_RecordsIdentificationCompletedOn"></a> msdyn_RecordsIdentificationCompletedOn
+
+|Property|Value|
+|---|---|
+|Description|**Date and time when the records identification was completed.**|
+|DisplayName|**Records Identification Completed On**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_recordsidentificationcompletedon`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
 
 ### <a name="BKMK_msdyn_RecordType"></a> msdyn_RecordType
 
@@ -418,7 +473,6 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedOn](#BKMK_ModifiedOn)
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
-- [msdyn_RecordsIdentificationCompletedOn](#BKMK_msdyn_RecordsIdentificationCompletedOn)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -511,23 +565,6 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|systemuser|
-
-### <a name="BKMK_msdyn_RecordsIdentificationCompletedOn"></a> msdyn_RecordsIdentificationCompletedOn
-
-|Property|Value|
-|---|---|
-|Description|**Date and time when the records identification was completed.**|
-|DisplayName|**Records Identification Completed On**|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|`msdyn_recordsidentificationcompletedon`|
-|RequiredLevel|None|
-|Type|DateTime|
-|CanChangeDateTimeBehavior|False|
-|DateTimeBehavior|UserLocal|
-|Format|DateAndTime|
-|ImeMode|Inactive|
-|SourceTypeMask|0|
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
@@ -625,6 +662,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_evaluationplanrun_createdonbehalfby](#BKMK_lk_msdyn_evaluationplanrun_createdonbehalfby)
 - [lk_msdyn_evaluationplanrun_modifiedby](#BKMK_lk_msdyn_evaluationplanrun_modifiedby)
 - [lk_msdyn_evaluationplanrun_modifiedonbehalfby](#BKMK_lk_msdyn_evaluationplanrun_modifiedonbehalfby)
+- [msdyn_evaluationplanrun_AssignedTo_systemuser](#BKMK_msdyn_evaluationplanrun_AssignedTo_systemuser)
 - [msdyn_evaluationplanrun_EvaluationCriteria_msdyn_evaluationcriteria](#BKMK_msdyn_evaluationplanrun_EvaluationCriteria_msdyn_evaluationcriteria)
 - [msdyn_evaluationplanrun_EvaluationPlan_msdyn_evaluationplan](#BKMK_msdyn_evaluationplanrun_EvaluationPlan_msdyn_evaluationplan)
 - [owner_msdyn_evaluationplanrun](#BKMK_owner_msdyn_evaluationplanrun)
@@ -695,6 +733,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_evaluationplanrun_modifiedonbehal
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_evaluationplanrun_AssignedTo_systemuser"></a> msdyn_evaluationplanrun_AssignedTo_systemuser
+
+One-To-Many Relationship: [systemuser msdyn_evaluationplanrun_AssignedTo_systemuser](systemuser.md#BKMK_msdyn_evaluationplanrun_AssignedTo_systemuser)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`systemuser`|
+|ReferencedAttribute|`systemuserid`|
+|ReferencingAttribute|`msdyn_assignedto`|
+|ReferencingEntityNavigationPropertyName|`msdyn_AssignedTo`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_evaluationplanrun_EvaluationCriteria_msdyn_evaluationcriteria"></a> msdyn_evaluationplanrun_EvaluationCriteria_msdyn_evaluationcriteria
 

@@ -64,13 +64,16 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_defaultlanguage](#BKMK_msdyn_defaultlanguage)
 - [msdyn_instanceid](#BKMK_msdyn_instanceid)
+- [msdyn_isrecurring](#BKMK_msdyn_isrecurring)
 - [msdyn_messagedescription](#BKMK_msdyn_messagedescription)
+- [msdyn_messageinterval](#BKMK_msdyn_messageinterval)
 - [msdyn_messagereceiver](#BKMK_msdyn_messagereceiver)
 - [msdyn_messagetemplatetrigger](#BKMK_msdyn_messagetemplatetrigger)
 - [msdyn_messagetext](#BKMK_msdyn_messagetext)
 - [msdyn_messagetype](#BKMK_msdyn_messagetype)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_ocsystemmessageId](#BKMK_msdyn_ocsystemmessageId)
+- [msdyn_repeatcount](#BKMK_msdyn_repeatcount)
 - [msdyn_streamsource](#BKMK_msdyn_streamsource)
 - [msdyn_systemmessageeventtype](#BKMK_msdyn_systemmessageeventtype)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -123,6 +126,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|2000|
 
+### <a name="BKMK_msdyn_isrecurring"></a> msdyn_isrecurring
+
+|Property|Value|
+|---|---|
+|Description|**Indicates if the system message is recurring.**|
+|DisplayName|**Is Recurring**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isrecurring`|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_ocsystemmessage_msdyn_isrecurring`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_messagedescription"></a> msdyn_messagedescription
 
 |Property|Value|
@@ -139,6 +158,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|2000|
+
+### <a name="BKMK_msdyn_messageinterval"></a> msdyn_messageinterval
+
+|Property|Value|
+|---|---|
+|Description|**The interval for the system message**|
+|DisplayName|**Message Interval**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_messageinterval`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|900|
+|MinValue|1|
 
 ### <a name="BKMK_msdyn_messagereceiver"></a> msdyn_messagereceiver
 
@@ -247,6 +280,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_ocsystemmessageid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_repeatcount"></a> msdyn_repeatcount
+
+|Property|Value|
+|---|---|
+|Description|**The repeat count for this system message**|
+|DisplayName|**Repeat Count**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_repeatcount`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|900|
+|MinValue|1|
 
 ### <a name="BKMK_msdyn_streamsource"></a> msdyn_streamsource
 
@@ -364,6 +411,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192370001|**Customer's message couldn't be sent: Service is down.**|
 |192370002|**Please wait a moment to give us feedback about your experience..**|
 |192370003|**This survey has timed out. To start a new conversation, reopen this chat window.**|
+|192370004|**Estimated wait time notification.**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

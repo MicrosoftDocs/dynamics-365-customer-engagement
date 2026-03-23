@@ -57,7 +57,12 @@ The following table lists selected properties for the Sales Copilot User Setting
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_connectionname](#BKMK_msdyn_connectionname)
 - [msdyn_exchangeconsentgiven](#BKMK_msdyn_exchangeconsentgiven)
+- [msdyn_m365infradetails](#BKMK_msdyn_m365infradetails)
+- [msdyn_m365skillconsentgiven](#BKMK_msdyn_m365skillconsentgiven)
+- [msdyn_m365skillinfrastatus](#BKMK_msdyn_m365skillinfrastatus)
+- [msdyn_m365skillinfrastatuslastverifiedon](#BKMK_msdyn_m365skillinfrastatuslastverifiedon)
 - [msdyn_nbaskillconsentgiven](#BKMK_msdyn_nbaskillconsentgiven)
 - [msdyn_nbaskillinfradetails](#BKMK_msdyn_nbaskillinfradetails)
 - [msdyn_nbaskillinfrastatus](#BKMK_msdyn_nbaskillinfrastatus)
@@ -84,6 +89,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxValue|2147483647|
 |MinValue|-2147483648|
 
+### <a name="BKMK_msdyn_connectionname"></a> msdyn_connectionname
+
+|Property|Value|
+|---|---|
+|Description|**Connection Name**|
+|DisplayName|**Connection Name**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_connectionname`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|10000|
+
 ### <a name="BKMK_msdyn_exchangeconsentgiven"></a> msdyn_exchangeconsentgiven
 
 |Property|Value|
@@ -105,6 +127,84 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |0|**None**|
 |1|**Yes**|
 |2|**No**|
+
+### <a name="BKMK_msdyn_m365infradetails"></a> msdyn_m365infradetails
+
+|Property|Value|
+|---|---|
+|Description|**M365 Infra Details**|
+|DisplayName|**M365 Infra Details**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_m365infradetails`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|10000|
+
+### <a name="BKMK_msdyn_m365skillconsentgiven"></a> msdyn_m365skillconsentgiven
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**M365 Skill Consent Given**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_m365skillconsentgiven`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|0|
+|GlobalChoiceName|`msdyn_salescopilotusersetting_msdyn_m365skillconsentgiven`|
+
+#### msdyn_m365skillconsentgiven Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**None**|
+|1|**Yes**|
+|2|**No**|
+
+### <a name="BKMK_msdyn_m365skillinfrastatus"></a> msdyn_m365skillinfrastatus
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**M365 Skill Infrastructure status**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_m365skillinfrastatus`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|0|
+|GlobalChoiceName|`msdyn_salescopilotusersetting_msdyn_m365skillinfrastatus`|
+
+#### msdyn_m365skillinfrastatus Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**None**|
+|1|**Active**|
+|2|**Error**|
+
+### <a name="BKMK_msdyn_m365skillinfrastatuslastverifiedon"></a> msdyn_m365skillinfrastatuslastverifiedon
+
+|Property|Value|
+|---|---|
+|Description|**M365 Skill Infra Status Last Checked On**|
+|DisplayName|**M365 Skill Infra Status Last Checked On**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_m365skillinfrastatuslastverifiedon`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|True|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Auto|
+|SourceTypeMask|0|
 
 ### <a name="BKMK_msdyn_nbaskillconsentgiven"></a> msdyn_nbaskillconsentgiven
 

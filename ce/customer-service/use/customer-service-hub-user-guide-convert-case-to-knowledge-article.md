@@ -1,7 +1,7 @@
 ---
-title: Convert a case to a knowledge article
-description: Perform the steps mentioned in the topic to convert a case to a Knowledge article.
-ms.date: 08/30/2024
+title: Convert cases into knowledge articles
+description: Learn how to convert a case to a knowledge article.
+ms.date: 01/30/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

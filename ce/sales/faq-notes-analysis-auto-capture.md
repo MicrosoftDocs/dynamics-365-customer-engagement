@@ -16,7 +16,7 @@ ms.custom:
 
 # Notes analysis and auto capture FAQs
 
-This article answers frequently asked questions about notes analysis and auto capture in Dynamics 365 Sales and Sales premium.
+This article answers frequently asked questions about notes analysis and auto capture in Dynamics 365 Sales.
 
 ## Notes analysis
 

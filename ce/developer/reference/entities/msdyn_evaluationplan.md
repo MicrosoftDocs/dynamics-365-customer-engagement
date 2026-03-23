@@ -172,7 +172,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|ApplicationRequired|
 |Type|DateTime|
 |CanChangeDateTimeBehavior|True|
-|DateTimeBehavior|TimeZoneIndependent|
+|DateTimeBehavior|UserLocal|
 |Format|DateAndTime|
 |ImeMode|Auto|
 |SourceTypeMask|0|
@@ -316,7 +316,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|ApplicationRequired|
 |Type|DateTime|
 |CanChangeDateTimeBehavior|True|
-|DateTimeBehavior|TimeZoneIndependent|
+|DateTimeBehavior|UserLocal|
 |Format|DateAndTime|
 |ImeMode|Auto|
 |SourceTypeMask|0|
@@ -350,7 +350,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|ApplicationRequired|
 |Type|DateTime|
 |CanChangeDateTimeBehavior|True|
-|DateTimeBehavior|TimeZoneIndependent|
+|DateTimeBehavior|UserLocal|
 |Format|DateAndTime|
 |ImeMode|Auto|
 |SourceTypeMask|0|
@@ -960,6 +960,8 @@ One-To-Many Relationship: [systemuser user_msdyn_evaluationplan](systemuser.md#B
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_evaluation_EvaluationPlan_msdyn_evaluationplan](#BKMK_msdyn_evaluation_EvaluationPlan_msdyn_evaluationplan)
+- [msdyn_evaluationnotificationconfiguration_msdyn_evaluationplan](#BKMK_msdyn_evaluationnotificationconfiguration_msdyn_evaluationplan)
 - [msdyn_evaluationplan_AsyncOperations](#BKMK_msdyn_evaluationplan_AsyncOperations)
 - [msdyn_evaluationplan_BulkDeleteFailures](#BKMK_msdyn_evaluationplan_BulkDeleteFailures)
 - [msdyn_evaluationplan_DuplicateBaseRecord](#BKMK_msdyn_evaluationplan_DuplicateBaseRecord)
@@ -969,6 +971,30 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_evaluationplan_ProcessSession](#BKMK_msdyn_evaluationplan_ProcessSession)
 - [msdyn_evaluationplan_SyncErrors](#BKMK_msdyn_evaluationplan_SyncErrors)
 - [msdyn_evaluationplanrun_EvaluationPlan_msdyn_evaluationplan](#BKMK_msdyn_evaluationplanrun_EvaluationPlan_msdyn_evaluationplan)
+
+### <a name="BKMK_msdyn_evaluation_EvaluationPlan_msdyn_evaluationplan"></a> msdyn_evaluation_EvaluationPlan_msdyn_evaluationplan
+
+Many-To-One Relationship: [msdyn_evaluation msdyn_evaluation_EvaluationPlan_msdyn_evaluationplan](msdyn_evaluation.md#BKMK_msdyn_evaluation_EvaluationPlan_msdyn_evaluationplan)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_evaluation`|
+|ReferencingAttribute|`msdyn_evaluationplan`|
+|ReferencedEntityNavigationPropertyName|`msdyn_evaluation_EvaluationPlan_msdyn_evaluationplan`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_evaluationnotificationconfiguration_msdyn_evaluationplan"></a> msdyn_evaluationnotificationconfiguration_msdyn_evaluationplan
+
+Many-To-One Relationship: [msdyn_evaluationnotificationconfiguration msdyn_evaluationnotificationconfiguration_msdyn_evaluationplan](msdyn_evaluationnotificationconfiguration.md#BKMK_msdyn_evaluationnotificationconfiguration_msdyn_evaluationplan)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_evaluationnotificationconfiguration`|
+|ReferencingAttribute|`msdyn_evaluationplanid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_evaluationnotificationconfiguration_msdyn_evaluationplan`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_evaluationplan_AsyncOperations"></a> msdyn_evaluationplan_AsyncOperations
 

@@ -14,6 +14,11 @@ After the offline profile is set up and data is downloaded to the mobile device 
 
 To define how often data automatically syncs on the user's mobile device, [set sync intervals](#set-sync-intervals). To define how much control the user has in synchronizing their data, [set offline sync settings](#set-offline-sync-settings).
 
+For a guided walkthrough, check out the following video.
+
+>
+> [!VIDEO c7ac206d-c092-4db7-801c-515b317bbafc]
+
 ## Set sync intervals
 
 Sync intervals define how often data automatically syncs on users' devices. They can be as short as five minutes or as long as one day. Records that change often can sync more often, and records that don't change as often don't need to sync as often.

@@ -20,9 +20,6 @@ searchScope:
 
 Use the enhanced experience to quickly identify and add multiple products from the catalog to opportunities.
 
-> [!NOTE]
-> Product families are only supported for Sales Enterprise and Sales Premium.  
-
 ## What's in the enhanced experience?
 
 As a salesperson, you want to be able to easily identify and add products from the catalog that best fit the opportunity at hand. With the enhanced experience of adding products, you can:
@@ -31,7 +28,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 - See matching products as you enter text in the search field.
 
-- (Applicable for Sales Premium and Sales Enterprise) Pick products from the categorized list of product families.
+- (Sales Hub only) Pick products from the categorized list of product families.
 
 - See the most recently used list of products while you add multiple products.
 
@@ -47,7 +44,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 ## Add products to an opportunity
 
-1. In the Sales Hub site map, select **Opportunities**.
+1. In your Sales app, select **Opportunities**.
 
 2. Open the opportunity to which you want to add products.
 
@@ -78,7 +75,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 6. Use one of the following options to identify and add products:
 
    - If you know the product names, simply search for them and add. [Learn more about how the search works](add-products-search.md).
-   - (Applicable for Sales Premium and Sales Enterprise) To choose products from a specific product family, use the left pane or the drop-down menu before the search box to filter products by family.
+   - To choose products from a specific product family, use the left pane or the drop-down menu before the search box to filter products by family.
 
      > [!NOTE]
      > - The products and product families displayed depend on the price list that you've chosen, so if you don't see a product, ensure that the product is associated with the selected price list.

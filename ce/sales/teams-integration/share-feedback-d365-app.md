@@ -32,4 +32,4 @@ If you have any feedback about the Dynamics 365 app, you can share it from withi
 [Edit settings of the Dynamics 365 app](edit-d365-app.md)    
 [Share Dynamics 365 records within Microsoft Teams conversations](share-dynamics-records-in-teams.md)   
 [View and update record details](view-update-dynamics-records.md)   
-[Add chat messages to Dynamics 365 as notes or tasks](add-chat-d365.md)   
+

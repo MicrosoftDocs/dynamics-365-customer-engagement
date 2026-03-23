@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Relationship analytics KPI calculations
 
-Relationship analytics values are derived from an analysis of the related people, activities, companies, appointments, and emails stored in Dynamics 365 Sales and, for Sales Premium customers, Exchange servers. [View relationship analytics and KPIs](relationship-analytics.md).
+Relationship analytics values are derived from an analysis of the related people, activities, companies, appointments, and emails stored in Dynamics 365 Sales and Exchange servers. [View relationship analytics and KPIs](relationship-analytics.md).
 
 The following diagram summarizes the process for finding and calculating relationship scores:
 

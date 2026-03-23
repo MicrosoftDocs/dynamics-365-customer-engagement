@@ -109,7 +109,6 @@ You can customize the timeline dropdown labels for case, account, and contact by
 
 ### Related information
 
-[Omnichannel system customizers](omnichannel-customizer.md)  
 [Customize the conversation form](customize-session-form.md)  
 [Configure representative and supervisor configurations in Unified Service Desk](../../unified-service-desk/oc-customizer/create-agent-supervisor-configurations-unified-service-desk.md)  
 [Configure notification for representatives](../../unified-service-desk/oc-customizer/configure-notification-screen-pop-agents.md)  

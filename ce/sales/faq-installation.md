@@ -15,7 +15,7 @@ ms.custom:
 
 # Installation FAQs
 
-This article answers frequently asked questions about installation of Dynamics 365 Sales, Sales premium, and Sales professional.
+This article answers frequently asked questions about installation of Dynamics 365 Sales.
 
 ## Why am I unable to install the Sales Professional app in my environment?
 

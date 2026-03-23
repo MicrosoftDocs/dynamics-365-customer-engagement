@@ -30,6 +30,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_isassistantinorgchart](#BKMK_msdyn_isassistantinorgchart)
 - [msdyn_orgchangestatus](#BKMK_msdyn_orgchangestatus)
 - [msdyn_PrimaryTimeZone](#BKMK_msdyn_PrimaryTimeZone)
+- [msdyn_segmentid](#BKMK_msdyn_segmentid)
 - [OriginatingLeadId](#BKMK_OriginatingLeadId)
 - [PreferredEquipmentId](#BKMK_PreferredEquipmentId)
 - [PreferredServiceId](#BKMK_PreferredServiceId)
@@ -186,6 +187,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxValue|1500|
 |MinValue|-1500|
 
+### <a name="BKMK_msdyn_segmentid"></a> msdyn_segmentid
+
+|Property|Value|
+|---|---|
+|Description|**Unique identifier for Segment associated with contact.**|
+|DisplayName|**Segment Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_segmentid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_segment|
+
 ### <a name="BKMK_OriginatingLeadId"></a> OriginatingLeadId
 
 |Property|Value|
@@ -247,6 +261,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [contact_originating_lead](#BKMK_contact_originating_lead)
 - [equipment_contacts](#BKMK_equipment_contacts)
 - [msdyn_msdyn_contactkpiitem_contact_contactkpiid](#BKMK_msdyn_msdyn_contactkpiitem_contact_contactkpiid)
+- [msdyn_msdyn_segment_contact](#BKMK_msdyn_msdyn_segment_contact)
 - [price_level_contacts](#BKMK_price_level_contacts)
 - [service_contacts](#BKMK_service_contacts)
 
@@ -288,6 +303,19 @@ One-To-Many Relationship: [msdyn_contactkpiitem msdyn_msdyn_contactkpiitem_conta
 |ReferencingEntityNavigationPropertyName|`msdyn_contactkpiid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_msdyn_segment_contact"></a> msdyn_msdyn_segment_contact
+
+One-To-Many Relationship: [msdyn_segment msdyn_msdyn_segment_contact](msdyn_segment.md#BKMK_msdyn_msdyn_segment_contact)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_segment`|
+|ReferencedAttribute|`msdyn_segmentid`|
+|ReferencingAttribute|`msdyn_segmentid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_segmentid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_price_level_contacts"></a> price_level_contacts
 
@@ -351,6 +379,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_contact_msdyn_ocliveworkitem_Customer](#BKMK_msdyn_contact_msdyn_ocliveworkitem_Customer)
 - [msdyn_contact_msdyn_salesroutingrun_targetobject](#BKMK_msdyn_contact_msdyn_salesroutingrun_targetobject)
 - [msdyn_contact_msdyn_salessuggestion](#BKMK_msdyn_contact_msdyn_salessuggestion)
+- [msdyn_dcaengageagentresult_regarding_contact](#BKMK_msdyn_dcaengageagentresult_regarding_contact)
 - [msdyn_linkeditemvalidity_polymorphic_contactid](#BKMK_msdyn_linkeditemvalidity_polymorphic_contactid)
 - [msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User](#BKMK_msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User)
 - [msdyn_msdyn_lastagent_contact_msdyn_recordId](#BKMK_msdyn_msdyn_lastagent_contact_msdyn_recordId)
@@ -738,6 +767,18 @@ Many-To-One Relationship: [msdyn_salessuggestion msdyn_contact_msdyn_salessugges
 |ReferencedEntityNavigationPropertyName|`msdyn_contact_msdyn_salessuggestion`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_dcaengageagentresult_regarding_contact"></a> msdyn_dcaengageagentresult_regarding_contact
+
+Many-To-One Relationship: [msdyn_dcaengageagentresult msdyn_dcaengageagentresult_regarding_contact](msdyn_dcaengageagentresult.md#BKMK_msdyn_dcaengageagentresult_regarding_contact)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_dcaengageagentresult`|
+|ReferencingAttribute|`msdyn_regarding`|
+|ReferencedEntityNavigationPropertyName|`msdyn_dcaengageagentresult_regarding_contact`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_linkeditemvalidity_polymorphic_contactid"></a> msdyn_linkeditemvalidity_polymorphic_contactid
 

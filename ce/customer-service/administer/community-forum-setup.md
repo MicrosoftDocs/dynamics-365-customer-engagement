@@ -1,7 +1,7 @@
 ---
 title: Set up Community forums
 description: Learn how to configure a Community forum in Dynamics 365 Customer Service.
-ms.date: 09/18/2024
+ms.date: 02/28/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -9,7 +9,6 @@ ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
-  - enduser
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -20,7 +19,7 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
 
 ## Create a forum
 
-1.	On the navigation pane, select **Forum**, and then select **New**.
+1.	In **Power Pages**, select the appropriate environment, go to **Community** > **Forums**, and then select **New**.
      > [!div class="mx-imgBorder"] 
      > ![Create a new Community forum.](../media/community-create-new-forum.png)
 
@@ -66,10 +65,8 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
      > [!div class="mx-imgBorder"] 
      > ![Search for and select an existing contact or create a new one.](../media/community-select-create-contact.png)
      
-1.	To publish your forum to the web, go to the **Web** tab, and then select **Yes** in the **Publish to web** dropdown menu.
-
-  	 > [!div class="mx-imgBorder"] 
-     > ![Select Yes to publish to the web.](../media/community-publish-settings.png)
+1.	To make the forum available on your Community site, ensure it's associated with an active Power Pages site and that appropriate authentication and access permissions are configured.
+    Publishing and access to forums are controlled through Power Pages site configuration, authentication settings, and permissions.    
 
 1.	Under the **User Access Level**, select the access level for your users in public forums. The default values are **None** for all three configurations.
     **Important**: For private forums, leave the default settings set to **None**.

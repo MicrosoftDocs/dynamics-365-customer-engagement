@@ -160,8 +160,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Stream Source**|
-|DisplayName|**Stream Source**|
+|Description|**Channel**|
+|DisplayName|**Channel**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_streamsource`|

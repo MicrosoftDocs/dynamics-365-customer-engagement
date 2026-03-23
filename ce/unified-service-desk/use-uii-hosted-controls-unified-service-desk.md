@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Use UII hosted controls with Unified Service Desk
 [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] hosted controls are user controls that are derived from the [HostedControl](/dotnet/api/microsoft.uii.csr.hostedcontrol) class, and  implements the [IHostedApplication4](/dotnet/api/microsoft.uii.csr.ihostedapplication4) interface, which provides most of the implementation code for a hosted control. You can override the functions in the [HostedControl](/dotnet/api/microsoft.uii.csr.hostedcontrol) class, as required.  

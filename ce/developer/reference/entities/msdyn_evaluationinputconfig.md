@@ -65,6 +65,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_EvaluatedEntity](#BKMK_msdyn_EvaluatedEntity)
 - [msdyn_EvaluationInputConfigId](#BKMK_msdyn_EvaluationInputConfigId)
 - [msdyn_InputConfig](#BKMK_msdyn_InputConfig)
+- [msdyn_isBulkEnabled](#BKMK_msdyn_isBulkEnabled)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_ProvisioningStatus](#BKMK_msdyn_ProvisioningStatus)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -145,6 +146,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|4000|
 
+### <a name="BKMK_msdyn_isBulkEnabled"></a> msdyn_isBulkEnabled
+
+|Property|Value|
+|---|---|
+|Description|**What is the bulk processing status for the entity (1 for bulk enabled, 0 for not bulk enabled)**|
+|DisplayName|**Is Bulk Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isbulkenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_evaluationinputconfig_msdyn_isbulkenabled`|
+|DefaultValue|False|
+|True Label|True|
+|False Label|False|
+
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 
 |Property|Value|
@@ -173,7 +190,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_provisioningstatus`|
 |RequiredLevel|None|
 |Type|Picklist|
-|DefaultFormValue||
+|DefaultFormValue|0|
 |GlobalChoiceName|`msdyn_evaluationinputconfig_msdyn_provisioningstatus`|
 
 #### msdyn_ProvisioningStatus Choices/Options

@@ -1,7 +1,7 @@
 ---
 title: Service Scheduling FAQ
 description: Find answers to common questions about service scheduling, including license requirements, availability, and resource selection.
-ms.date: 08/29/2025
+ms.date: 03/20/2026
 ms.update-cycle: 1095-days
 ms.topic: concept-article
 author: Soumyasd27

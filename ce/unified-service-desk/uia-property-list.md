@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # UIA property list in Unified Service Desk
 The following is a list of the UIA properties:  
