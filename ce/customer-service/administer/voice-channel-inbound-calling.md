@@ -4,13 +4,12 @@ description: Learn about how to set up workstreams and queues for inbound callin
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 04/08/2025
+ms.date: 03/23/2026
 ms.topic: how-to
 ms.custom: bap-template 
 ---
 
 # Set up inbound calling
-
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
@@ -189,9 +188,7 @@ The supported configurations for the voice channel are as follows:
     }; 
  
   ```
-
- > [!NOTE]
- > The DTMF input isn't supported if the call is transferred to an external phone number in the existing voice experience.
+[Enable DTMF input broadcast across all participants during a call](configure-voice-call-experiences.md#allow-dtmf-input-broadcast-across-all-participants-during-a-call).
 
 ### Configure call overflow for the voice queue
 
