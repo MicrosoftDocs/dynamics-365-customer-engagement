@@ -21,7 +21,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Close Agent - Engage setup assistant provides a guided experience to help you configure the agent step-by-step. This method is ideal for administrators who prefer a streamlined setup process with AI assistance.  
+The Sales Close Agent setup assistant provides a guided experience to help you configure the agent step-by-step. This method is ideal for administrators who prefer a streamlined setup process with AI assistance.  
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -44,7 +44,7 @@ You can open the setup assistant using the following ways, depending on when you
 1. In the **Create Sales Close Agent** page, select **Scenario** as **Engage**.  
 1. Select **Assisted setup** to open the AI setup assistant opens.  
 
-    :::image type="content" source="media/sca-engage-setup-assistant-open.png" alt-text="Sales Close Agent - Engage settings page showing the option to create a new agent.":::
+    :::image type="content" source="media/sca-engage-setup-assistant-open.png" alt-text="Sales Close Agent settings page showing the option to create a new agent.":::
 
 ## Choose a setup mode
 
@@ -55,7 +55,7 @@ When you're configuring the agent for the first time, the AI assistant suggests 
 - **Guided setup**: To configure the agent with your customized settings through a guided setup, enter the prompt *Walk through the setup together*. You can also configure the agent based on your organization’s data by entering the prompt with necessary details. For example, *Focus on deals under $50K using recent CRM data*. The assistant analyzes your data and suggests optimal configurations to process opportunities below $50K.  
     This mode is ideal for production environments where accuracy and precision are critical. This interactive mode guides you through a sequence of questions and answers to ensure all necessary details are captured.  
 
-:::image type="content" source="media/sca-engage-setup-assistant-choose-modes.png" alt-text="Sales Close Agent - Engage setup assistant showing the option to choose between Quick setup and Guided setup.":::
+:::image type="content" source="media/sca-engage-setup-assistant-choose-modes.png" alt-text="Sales Close Agent setup assistant showing the option to choose between Quick setup and Guided setup.":::
 
 The assistant starts setting up the agent. Follow the [chat instructions to configure the agent](#set-up-the-agent-through-chat-interactions).  
 At any stage of the setup process, should you wish to configure the agent manually without losing progress, select **Edit in settings**.
@@ -97,11 +97,11 @@ In the chat, when you complete each step, each section, the assistant suggests t
 
 1. When all the checks are complete, the chat assistant prompts you to start the agent.  
 
-    :::image type="content" source="media/sca-engage-setup-assistant-summary.png" alt-text="Sales Close Agent - Engage setup assistant showing the summary of configurations before starting the agent.":::
+    :::image type="content" source="media/sca-engage-setup-assistant-summary.png" alt-text="Sales Close Agent setup assistant showing the summary of configurations before starting the agent.":::
 
     Select **Start agent** and a confirmation message is displayed.  
 
-    :::image type="content" source="media/sca-engage-setup-assistant-start-agent-confirmation.png" alt-text="Sales Close Agent - Engage setup assistant showing the confirmation message after starting the agent.":::
+    :::image type="content" source="media/sca-engage-setup-assistant-start-agent-confirmation.png" alt-text="Sales Close Agent setup assistant showing the confirmation message after starting the agent.":::
 
     Select **Go to setup review** and you're redirect to the manual setup experience, where you can review all your agent’s settings in a structured format.  
 After confirming everything is correct, select **Start agent** in the manual settings page to start your agent. The agent takes few minutes to start the agent.  
@@ -111,5 +111,5 @@ After confirming everything is correct, select **Start agent** in the manual set
 
 ## Related information
 
-[Set up and configure the Sales Close Agent - Engage](configure-sales-close-agent.md)  
-[How the Sales Close Agent - Engage works](how-sales-close-agent-engage-mode-works.md)
+[Set up and configure the Sales Close Agent](configure-sales-close-agent.md)  
+[How the Sales Close Agent works](how-sales-close-agent-engage-mode-works.md)

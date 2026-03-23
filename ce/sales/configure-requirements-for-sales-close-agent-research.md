@@ -1,6 +1,6 @@
 ---
-title: Configure requirements for Sales Close Agent - Research
-description: Configure the prerequisites for the Sales Close Agent in Dynamics 365 Sales.
+title: Configure requirements for Sales Opportunity Agent
+description: Configure the prerequisites for the Sales Opportunity Agent in Dynamics 365 Sales.
 ms.date: 03/19/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -17,13 +17,13 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure requirements for Sales Close Agent - Research
+# Configure requirements for Sales Opportunity Agent
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Before you configure the Sales Close Agent - Research, ensure that your Dynamics 365 Sales environment meets the following prerequisites.
+Before you configure the Sales Opportunity Agent, ensure that your Dynamics 365 Sales environment meets the following prerequisites.
 
 | Prerequisite | Description |
 |--------------|-------------|
@@ -32,7 +32,7 @@ Before you configure the Sales Close Agent - Research, ensure that your Dynamics
 
 ## Configure the prerequisites
 
-1. [Open the Sales Close Agent - Research settings page](open-sales-close-agent-research-settings.md).  
+1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
 1. On the **Scenario** page, go to the **Prerequisites** section and configure the following settings:
    - **Bing search**: Select **Accept terms** to open the Power Platform admin center and accept the terms for Bing search. To learn more, see [Turn on data movement, Bing search, and Microsoft 365 services for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot?tabs=new#turn-on-data-movement-bing-search-and-microsoft-365-services-for-copilots-and-generative-ai-features).  
    - DataverseSearch
@@ -47,7 +47,7 @@ Before you configure the Sales Close Agent - Research, ensure that your Dynamics
 
 1. Select **Continue** to proceed to the agent configuration page.
 
-   :::image type="content" source="media/sca-research-agent-prerequisites-configured.png" alt-text="Screenshot of the Sales Close Agent - Research settings page with prerequisites configured.":::
+   :::image type="content" source="media/sca-research-agent-prerequisites-configured.png" alt-text="Screenshot of the Sales Opportunity Agent settings page with prerequisites configured.":::
 
 ## Configure server-side synchronization
 
@@ -72,8 +72,8 @@ If you enable both server-side synchronization and Microsoft 365 Services, the a
 
 ## Next step
 
-[Configure the agent profile for Sales Close Agent](configure-sales-close-agent-profile.md).
+[Configure the agent profile for Sales Opportunity Agent](configure-sales-close-agent-profile.md).
 
 ## Related information
 
-[Set up and configure the Sales Close Agent (preview)](configure-sales-close-agent.md).
+[Set up and configure the Sales Opportunity Agent (preview)](configure-sales-close-agent.md).

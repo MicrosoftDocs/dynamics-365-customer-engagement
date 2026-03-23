@@ -1,6 +1,6 @@
 ---
-title: How the Sales Close Agent - Engage works
-description: Learn how the Sales Close Agent - Engage operates to autonomously manage customer interactions and drive sales for high-velocity, low-complexity deals.
+title: How the Sales Close Agent works
+description: Learn how the Sales Close Agent operates to autonomously manage customer interactions and drive sales for high-velocity, low-complexity deals.
 ms.date: 12/17/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -17,17 +17,17 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# How the Sales Close Agent - Engage works
+# How the Sales Close Agent works
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-In this section, you learn how the Sales Close Agent - Engage operates to autonomously manage customer interactions and drive sales for high-velocity, low-complexity deals.
+In this section, you learn how the Sales Close Agent operates to autonomously manage customer interactions and drive sales for high-velocity, low-complexity deals.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## How the records are processed
 
-When the Sales Close Agent - Engage is started, it processes records based on the configuration settings defined during setup. The agent works through the following steps to engage with customers and drive sales:
+When the Sales Close Agent is started, it processes records based on the configuration settings defined during setup. The agent works through the following steps to engage with customers and drive sales:
 
 1. **Record selection**: The agent selects records that [match the criteria](configure-sales-close-agent-target-customers.md) for high-velocity, low-complexity deals.  
 1. **Personalized outreach**: The agent uses templated messaging and customer data to craft personalized outreach communications configured in [the Email content settings](configure-sales-close-agent-email-content.md).  
@@ -57,7 +57,7 @@ Records that require human intervention are escalated by the agent and can be vi
 
 1. In the Sales Hub app, go to **Sales**.  
 1. Select the relevant entity. For example, **Opportunities**.  
-1. From the view selector, select the ***Entity* from Sales Close Agent - Engage** view.  
+1. From the view selector, select the ***Entity* from Sales Close Agent** view.  
     This view displays all records that have been escalated by the Sales Close Agent for human intervention.  
 
     >[!NOTE]
@@ -67,10 +67,10 @@ Records that require human intervention are escalated by the agent and can be vi
 
     | Entity | View name |
     |--------|-----------|
-    | Account | Accounts from Sales Close Agent - Engage |
-    | Contact | Contacts from Sales Close Agent - Engage |
-    | Lead | Leads from Sales Close Agent - Engage |
-    | Opportunity | Opportunities from Sales Close Agent - Engage |  
+    | Account | Accounts from Sales Close Agent |
+    | Contact | Contacts from Sales Close Agent |
+    | Lead | Leads from Sales Close Agent |
+    | Opportunity | Opportunities from Sales Close Agent |  
 
 1. Open a record to review the details and take necessary actions to assist the customer. The Timeline on the record provides a history of interactions and actions taken by the agent.  
 

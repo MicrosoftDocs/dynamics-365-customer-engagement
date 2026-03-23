@@ -1,6 +1,6 @@
 ---
-title: Configure refresh frequency for Sales Close Agent - Research
-description: Define how often the Sales Close Agent - Research refreshes its research data to provide up-to-date insights on opportunities.
+title: Configure refresh frequency for Sales Opportunity Agent
+description: Define how often the Sales Opportunity Agent refreshes its research data to provide up-to-date insights on opportunities.
 ms.date: 03/13/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -17,19 +17,19 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure refresh frequency for Sales Close Agent - Research
+# Configure refresh frequency for Sales Opportunity Agent
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Define how often the Sales Close Agent - Research refreshes its research data to provide up-to-date insights on opportunities.
+Define how often the Sales Opportunity Agent refreshes its research data to provide up-to-date insights on opportunities.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 **Follow these steps**:
 
-1. [Open the Sales Close Agent - Research settings page](open-sales-close-agent-research-settings.md).  
+1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
 1. Under the **Guidance** settings section, select **Refresh frequency**.  
-    :::image type="content" source="media/sca-research-refresh-frequency.png" alt-text="Screenshot of the Sales Close Agent - Research refresh frequency settings page.":::  
+    :::image type="content" source="media/sca-research-refresh-frequency.png" alt-text="Screenshot of the Sales Opportunity Agent refresh frequency settings page.":::  
 1. In the **Refresh frequency** page, specify how often the agent should refresh its research data.  
     The frequency is set to **Medium** by default, which is ideal for most businesses. You can refresh the research data more or less often based on how quickly your market and competitive landscape change and the available Copilot Studio capacity.
 
@@ -44,4 +44,4 @@ Define how often the Sales Close Agent - Research refreshes its research data to
 
 ## Related information
 
-[Set up and configure the Sales Close Agent - Research (preview).](configure-opportunity-research-agent.md)
+[Set up and configure the Sales Opportunity Agent (preview).](configure-opportunity-research-agent.md)

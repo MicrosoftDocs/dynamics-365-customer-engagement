@@ -1,6 +1,6 @@
 ---
-title: Configure selection criteria for Sales Close Agent - Research
-description: Add conditions to filter opportunities for the Sales Close Agent - Research to focus on.
+title: Configure selection criteria for Sales Opportunity Agent
+description: Add conditions to filter opportunities for the Sales Opportunity Agent to focus on.
 ms.date: 03/13/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -17,19 +17,19 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure selection criteria for Sales Close Agent - Research
+# Configure selection criteria for Sales Opportunity Agent
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Add conditions to filter opportunities for the Sales Close Agent - Research to focus on. The agent researches only opportunities that meet the specified criteria, so you can prioritize high-value or strategic opportunities.
+Add conditions to filter opportunities for the Sales Opportunity Agent to focus on. The agent researches only opportunities that meet the specified criteria, so you can prioritize high-value or strategic opportunities.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 **Follow these steps**:
 
-1. [Open the Sales Close Agent - Research settings page](open-sales-close-agent-research-settings.md).  
+1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
 1. In the **Guidance** section, select **Selection criteria**.  
-    :::image type="content" source="media/sca-selection-criteria-settings-page.png" alt-text="Screenshot of the Sales Close Agent - Research selection criteria settings page.":::
+    :::image type="content" source="media/sca-selection-criteria-settings-page.png" alt-text="Screenshot of the Sales Opportunity Agent selection criteria settings page.":::
 1. In the **Selection criteria** tab, specify the following information:
    - **Segment name:** Enter a name for the segment, such as *Microsoft 365 Opportunities*. Use the segment name to identify the opportunities the agent handles (it doesn't use the segmentation feature in Dynamics 365 Sales).
    - **Description:** Enter a description, such as *Opportunities related to Microsoft 365 products*.
@@ -53,4 +53,4 @@ Add conditions to filter opportunities for the Sales Close Agent - Research to f
 
 ## Related information
 
-[Set up and configure Sales Close Agent - Research.](configure-opportunity-research-agent.md)
+[Set up and configure Sales Opportunity Agent.](configure-opportunity-research-agent.md)

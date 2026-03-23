@@ -1,6 +1,6 @@
 ---
-title: Configure risk and importance criteria for Sales Close Agent - Research
-description: Learn how to configure the risk and importance criteria specific to your organization so that the Sales Close Agent - Research can provide more accurate assessments of opportunities.
+title: Configure risk and importance criteria for Sales Opportunity Agent
+description: Learn how to configure the risk and importance criteria specific to your organization so that the Sales Opportunity Agent can provide more accurate assessments of opportunities.
 ms.date: 01/09/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -13,11 +13,11 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure risk and importance criteria for Sales Close Agent - Research
+# Configure risk and importance criteria for Sales Opportunity Agent
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-By default, the Sales Close Agent - Research determines the risk and importance of an opportunity based on company research and predefined criteria. However, you can customize these criteria to better align with your organization's specific needs. For example, Contoso Inc has a typical sales cycle that lasts 15 days, and the company wants to flag opportunities that are in the same stage for more than 10 days as risky. They can modify the "Stalled in stage" criterion to reflect this requirement.
+By default, the Sales Opportunity Agent determines the risk and importance of an opportunity based on company research and predefined criteria. However, you can customize these criteria to better align with your organization's specific needs. For example, Contoso Inc has a typical sales cycle that lasts 15 days, and the company wants to flag opportunities that are in the same stage for more than 10 days as risky. They can modify the "Stalled in stage" criterion to reflect this requirement.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -31,13 +31,13 @@ Use the overall risk and importance scores to prioritize which opportunities nee
 
 ## Configure the risk criteria
 
-1. [Open the Sales Close Agent - Research settings page](open-sales-close-agent-research-settings.md).
+1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).
 1. Under the **Advanced** settings section, select **Risk criteria**.
 
 1. Open the list of available criteria and review the existing risk criteria.  
 
-   :::image type="content" source="media/sales-close-agent-risk-criteria.png" alt-text="Screenshot showing the risk criteria section in the Sales Close Agent - Research configuration page.":::
-1. Modify the criteria as needed. The following table lists the available risk criteria for the **Sales Close Agent - Research**:
+   :::image type="content" source="media/sales-close-agent-risk-criteria.png" alt-text="Screenshot showing the risk criteria section in the Sales Opportunity Agent configuration page.":::
+1. Modify the criteria as needed. The following table lists the available risk criteria for the **Sales Opportunity Agent**:
 
     | Risk criteria | Description |
     |---------------|-------------|
@@ -57,13 +57,13 @@ Use the overall risk and importance scores to prioritize which opportunities nee
 
 ## Configure the importance criteria
 
-1. [Open the Sales Close Agent - Research settings page](open-sales-close-agent-research-settings.md).
+1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).
 1. Under the **Advanced** settings section, select **Risk criteria**.
 
 1. Open the list of available criteria and review the existing importance criteria.
  
-   :::image type="content" source="media/sales-close-agent-importance-criteria.png" alt-text="Screenshot showing the importance criteria section in the Sales Close Agent - Research configuration page.":::
-1. Modify the criteria as needed. The following table lists the available importance criteria for the Sales Close Agent - Research:
+   :::image type="content" source="media/sales-close-agent-importance-criteria.png" alt-text="Screenshot showing the importance criteria section in the Sales Opportunity Agent configuration page.":::
+1. Modify the criteria as needed. The following table lists the available importance criteria for the Sales Opportunity Agent:
 
     | Importance criteria | Description |
     |---------------------|-------------|
@@ -86,8 +86,8 @@ Use the overall risk and importance scores to prioritize which opportunities nee
 
 ## Next step
 
-[Start the Sales Close Agent - Research.](start-sales-close-agent-research.md)
+[Start the Sales Opportunity Agent.](start-sales-close-agent-research.md)
 
 ## Related information
 
-[Set up and configure Sales Close Agent - Research.](configure-opportunity-research-agent.md)
+[Set up and configure Sales Opportunity Agent.](configure-opportunity-research-agent.md)

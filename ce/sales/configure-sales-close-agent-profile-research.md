@@ -1,6 +1,6 @@
 ---
-title: Configure the agent profile for Sales Close Agent - Research (preview)
-description: Define the agent information, email signature, disclaimer, and other terms to set the context for the Sales Close Agent - Research.
+title: Configure the agent profile for Sales Opportunity Agent (preview)
+description: Define the agent information, email signature, disclaimer, and other terms to set the context for the Sales Opportunity Agent.
 ms.date: 03/13/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -17,19 +17,19 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure the agent profile for Sales Close Agent - Research (preview)
+# Configure the agent profile for Sales Opportunity Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Define the agent information such as the name and the language to set the context for the Sales Close Agent - Research.
+Define the agent information such as the name and the language to set the context for the Sales Opportunity Agent.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 **Follow these steps**:
 
-1. [Open the Sales Close Agent - Research settings page](open-sales-close-agent-research-settings.md).  
+1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
 1. Under the **General** settings section, select **Agent profile**.  
-    :::image type="content" source="media/sca-research-agent-profile-settings.png" alt-text="Screenshot of the Sales Close Agent - Research agent profile settings page.":::  
+    :::image type="content" source="media/sca-research-agent-profile-settings.png" alt-text="Screenshot of the Sales Opportunity Agent agent profile settings page.":::  
 1. In the **Agent profile** page, enter the following information:  
 
     | Field name | Description |
@@ -43,4 +43,4 @@ Define the agent information such as the name and the language to set the contex
 
 ## Related information
 
-[Set up and configure the Sales Close Agent - Research (preview).](configure-opportunity-research-agent.md)
+[Set up and configure the Sales Opportunity Agent (preview).](configure-opportunity-research-agent.md)

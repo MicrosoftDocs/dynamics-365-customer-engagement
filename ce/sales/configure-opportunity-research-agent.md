@@ -1,6 +1,6 @@
 ---
-title: Configure the Sales Close Agent - Research (preview)
-description: Learn how to set up and configure the Sales Close Agent - Research in Dynamics 365 Sales.
+title: Configure the Sales Opportunity Agent (preview)
+description: Learn how to set up and configure the Sales Opportunity Agent in Dynamics 365 Sales.
 ms.date: 03/13/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -13,11 +13,11 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Setup and configure the Sales Close Agent - Research (preview)
+# Setup and configure the Sales Opportunity Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-As an administrator, you can configure the Sales Close Agent - Research in Dynamics 365 Sales to help sales professionals gain insights and recommendations for the opportunities they're working on. The agent automatically gathers information from various sources, providing a streamlined research experience, stakeholder and competitor intelligence, and actionable risk mitigation strategies. Learn more in [Sales Close Agent](sales-close-agent.md).
+As an administrator, you can configure the Sales Opportunity Agent in Dynamics 365 Sales to help sales professionals gain insights and recommendations for the opportunities they're working on. The agent automatically gathers information from various sources, providing a streamlined research experience, stakeholder and competitor intelligence, and actionable risk mitigation strategies. Learn more in [Sales Close Agent](sales-close-agent.md).
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -58,11 +58,11 @@ By default, the **Salesperson** and **Sales Manager** security roles have the ne
 |---------|----------------------------|----------|
 | Consent to use Microsoft 365 emails for opportunity research | Basic-level - Read | prvReadconnector |
 
-## Setup the Sales Close Agent - Research
+## Setup the Sales Opportunity Agent
 
-Before you setup the agent, ensure you have [planned your implementation](#plan-your-implementation) and met [all prerequisites](#prerequisites). Use the following steps to configure and start the Sales Close Agent - Research:
+Before you setup the agent, ensure you have [planned your implementation](#plan-your-implementation) and met [all prerequisites](#prerequisites). Use the following steps to configure and start the Sales Opportunity Agent:
 
-1. [Open the Sales Close Agent - Research settings page](open-sales-close-agent-research-settings.md).  
+1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
 1. [Verify that the prerequisites are configured](configure-requirements-for-sales-close-agent-research.md).
 1. [Configure the agent profile](configure-sales-close-agent-profile-research.md) for agent such as name and language.
 1. [Configure company info](configure-sales-close-agent-research-company-info.md) for agent to understand value proposition and curate research insights.
@@ -75,5 +75,5 @@ Before you setup the agent, ensure you have [planned your implementation](#plan-
 
 ## Related information
 
-- [Work on opportunities handled by the Sales Close Agent - Research (preview)](use-opportunity-research-agent.md)
-- [FAQs about Sales Close Agent - Research (preview)](faqs-about-opportunity-research.md)
+- [Work on opportunities handled by the Sales Opportunity Agent (preview)](use-opportunity-research-agent.md)
+- [FAQs about Sales Opportunity Agent (preview)](faqs-about-opportunity-research.md)

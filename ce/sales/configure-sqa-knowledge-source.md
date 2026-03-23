@@ -18,7 +18,7 @@ ai-usage: ai-assisted
 By default, the agent uses public web data sources to research records and their companies. However, you can enhance the relevance of the research insights and email content by adding custom knowledge sources that are specific to your organization and industry. For example, in Sales Qualification Agent, you can add customer testimonials and case studies as knowledge sources for outreach emails to engage with records effectively.
 
 >[!NOTE]
->This article applies to both **Sales Qualification Agent** and **Sales Close Agent - Research**. 
+>This article applies to both **Sales Qualification Agent** and **Sales Opportunity Agent**. 
 
 ## Considerations
 
@@ -26,7 +26,7 @@ Before you configure knowledge sources for agents, consider the following factor
 
 - When you add a knowledge source to the agent, you're redirected to Microsoft Copilot Studio. So, ensure that you have the necessary permissions to access and modify the knowledge sources in Copilot Studio. The agents use specialized micro agents in Copilot Studio for outreach emails, follow-up emails, and research insights. Knowledge sources you add to these micro agents are only used for the specific purpose they're configured for. For example, knowledge sources you add to the **Research** micro agent are only used for research insights, and not for outreach emails or follow-up emails.
 
-- If the Sales Qualification Agent and Sales Close Agent - Research are in the same environment, they share the same knowledge sources for account research insights. The knowledge sources that you add to or remove from one of the agents also affect the other agent. If you see knowledge sources that you didn't add, it's possible that those sources are configured for the Sales Close Agent - Research. Don't remove them unless you want to remove them from both agents.
+- If the Sales Qualification Agent and Sales Opportunity Agent are in the same environment, they share the same knowledge sources for account research insights. The knowledge sources that you add to or remove from one of the agents also affect the other agent. If you see knowledge sources that you didn't add, it's possible that those sources are configured for the Sales Opportunity Agent. Don't remove them unless you want to remove them from both agents.
 
 - Ensure that you place any files or documents that you want the agent to use in a SharePoint folder. The agent doesn't support any other file sources, such as OneDrive.
 
@@ -38,7 +38,7 @@ Before you configure knowledge sources for agents, consider the following factor
 
 By default, the agent uses public web data sources to research records and their companies. However, you can add custom knowledge sources that you want the agent to use to get more relevant and specific insights about the record and their company.
 
-1. Depending on the agent you're configuring, go to the [Sales Qualification Agent settings page](open-sales-qualification-agent-settings.md) or the [Sales Close Agent - Research settings page](open-sales-close-agent-research-settings.md).  
+1. Depending on the agent you're configuring, go to the [Sales Qualification Agent settings page](open-sales-qualification-agent-settings.md) or the [Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
 
 1. In the **Knowledge** section, select **Research**.
 1. Under **Enrich research with knowledge sources**, select **Company research**. Company insights include industry type, company size, financials, priorities, and news. The following examples are the best sources to add as knowledge sources for company research:
@@ -91,7 +91,7 @@ When the agent doesn't find competitor information in the record or doesn't find
 
 You can also upload relevant documents such as battle cards, positioning briefs, and market analysis reports to help the agent generate more accurate and relevant insights. To learn more, see [considerations for knowledge sources](configure-sqa-knowledge-source.md#considerations).
 
-1. Depending on the agent you're configuring, go to the [Sales Qualification Agent settings page](open-sales-qualification-agent-settings.md) or the [Sales Close Agent - Research settings page](open-sales-close-agent-research-settings.md).  
+1. Depending on the agent you're configuring, go to the [Sales Qualification Agent settings page](open-sales-qualification-agent-settings.md) or the [Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
 
 1. Under **Knowledge**, select **Research**, and then scroll down to the **Competitor research** section.
 1. Under **Key competitors**, select **+ Competitor** to add up to three competitors for the product line that the agent works on. 
@@ -112,7 +112,7 @@ You can also upload relevant documents such as battle cards, positioning briefs,
 ## Add knowledge sources for outreach and follow-up emails
 
 >[!NOTE]
->This section applies only to the **Sales Qualification Agent**. The Sales Close Agent - Research doesn't have outreach or follow-up email capabilities.
+>This section applies only to the **Sales Qualification Agent**. The Sales Opportunity Agent doesn't have outreach or follow-up email capabilities.
 
 You can add knowledge sources that the agent uses to draft outreach and follow-up emails to records. For example, add customer testimonials and case studies as knowledge sources for outreach emails to engage with records effectively.
 
@@ -162,12 +162,12 @@ By using curated knowledge sources, the agent becomes a top researcher that unde
     - [Run simulation to review outreach email content.](run-simulation-sqa-outreach-email.md)
     - [Start the Sales Qualification Agent.](start-sales-qualification-agent.md)
 
-- For **Sales Close Agent - Research**:
+- For **Sales Opportunity Agent**:
     - [Configure advanced settings (optional).](opportunity-research-agent-advanced-settings.md)
-    - [Start the Sales Close Agent - Research.](start-sales-close-agent-research.md)
+    - [Start the Sales Opportunity Agent.](start-sales-close-agent-research.md)
 
 ## Related information
 
 [Add knowledge to an agent](/microsoft-copilot-studio/knowledge-add-existing-copilot)  
 [Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
-[Set up and configure Sales Close Agent - Research](configure-opportunity-research-agent.md)
+[Set up and configure Sales Opportunity Agent](configure-opportunity-research-agent.md)

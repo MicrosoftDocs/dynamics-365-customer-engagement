@@ -187,17 +187,17 @@ items:
                 href: custom-icp-examples.md
               - name: Use fields enriched with Zoominfo or Dun & Bradstreet data
                 href: use-zoominfo-dnb-data-in-sales-qualification-agent.md
-          - name: Sales Close Agent (preview)
+          - name: Sales Opportunity Agent
             items:
               - name: Overview
-                href: sales-close-agent.md
-              - name: Set up and configure Sales Close Agent - Research
+                href: sales-opportunity-agent.md
+              - name: Set up and configure Sales Opportunity Agent
                 items:
-                  - name: Set up and configure Sales Close Agent - Research
+                  - name: Set up and configure Sales Opportunity Agent
                     href: configure-opportunity-research-agent.md
                   - name: Open the settings page
                     href: open-sales-close-agent-research-settings.md
-                  - name: Configure requirements for Sales Close Agent - Research
+                  - name: Configure requirements for Sales Opportunity Agent
                     href: configure-requirements-for-sales-close-agent-research.md
                   - name: Configure the agent profile
                     href: configure-sales-close-agent-profile-research.md
@@ -215,13 +215,24 @@ items:
                     href: define-custom-research-topics.md                    
                   - name: Configure advanced settings
                     href: opportunity-research-agent-advanced-settings.md  
-                  - name: Start the agent 
-                    href: start-sales-close-agent-research.md
-                  - name: Edit settings of Sales Close Agent - Research
-                    href: edit-opportunity-research-agent-settings.md  
-                  - name: View agent insights and metrics
-                    href: view-sales-close-agent-research-insights-metrics.md
-              - name: Set up and configure Sales Close Agent - Engage
+              - name: Start the agent 
+                href: start-sales-close-agent-research.md
+              - name: Edit settings of Sales Opportunity Agent
+                href: edit-opportunity-research-agent-settings.md  
+              - name: View agent insights and metrics
+                href: view-sales-close-agent-research-insights-metrics.md
+          
+          
+          
+          
+          
+          
+          - name: Sales Close Agent (preview)
+            items:
+              - name: Overview
+                href: sales-close-agent.md
+              
+              - name: Set up and configure Sales Close Agent
                 href: configure-sales-close-agent.md
                 items:
                 - name: Set up through the Setup Assistant (preview)
@@ -246,7 +257,7 @@ items:
                   href: start-sales-close-agent.md
                 - name: Manage the agent
                   href: manage-sales-close-agent.md
-                - name: Configure requirements for Sales Close Agent - Engage
+                - name: Configure requirements for Sales Close Agent
                   href: configure-requirements-for-sales-close-agent.md  
                 - name: View agent insights and metrics
                   href: view-sales-close-agent-engage-insights-metrics.md
@@ -304,7 +315,7 @@ items:
             href: copilot-in-sales-tools.md
           - name: MCP tools for Sales Qualification Agent capabilities
             href: sales-qualification-agent-tools.md
-          - name: MCP tools for Sales Close Agent - Research capabilities (preview)
+          - name: MCP tools for Sales Opportunity Agent capabilities (preview)
             href: sales-close-agent-research-tools.md
           - name: Examples of using Sales MCP Server with AI agents and assistants
             href: model-context-protocol-examples.md
@@ -889,19 +900,19 @@ items:
           items:
             - name: Overview
               href: sales-close-agent.md
-            - name: Sales Close Agent - Research (preview)
+            - name: Sales Opportunity Agent (preview)
               items:
               - name: Work on opportunities researched by agent
                 href: use-opportunity-research-agent.md
               - name: Manage opportunity risks using AI-generated insights  
                 href: next-best-actions-to-manage-opportunities.md
-              - name: FAQs about Sales Close Agent - Research
+              - name: FAQs about Sales Opportunity Agent
                 href: opportunity-research-agent-faqs.md
-            - name: Sales Close Agent - Engage (preview)
+            - name: Sales Close Agent (preview)
               items:
               - name: View records processed by agent
                 href: view-sales-close-agent-engage-processed-records.md  
-              - name: How the Sales Close Agent - Engage works
+              - name: How the Sales Close Agent works
                 href: how-sales-close-agent-engage-mode-works.md
         - name: AI-powered Data Enrichment (preview)
           items:
@@ -1550,9 +1561,9 @@ items:
             href: faqs-sales-qualification-agent-engage.md
       - name: Responsible AI FAQs about Sales Close Agent (preview)
         items:
-          - name: Sales Close Agent - Research FAQs
+          - name: Sales Opportunity Agent FAQs
             href: faqs-about-opportunity-research.md
-          - name: Sales Close Agent - Engage FAQ
+          - name: Sales Close Agent FAQ
             href: faqs-about-sales-close-agent-engage.md  
       - name: Responsible AI FAQs about Data Enrichment (preview)
         href: faqs-data-enrichment-agent.md

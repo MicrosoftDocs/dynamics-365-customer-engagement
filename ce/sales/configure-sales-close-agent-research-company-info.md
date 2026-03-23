@@ -1,6 +1,6 @@
 ---
-title: Configure company info for Sales Close Agent - Research
-description: Define the company information such as name, website URL, and value propositions that the Sales Close Agent - Research uses to engage with customers.
+title: Configure company info for Sales Opportunity Agent
+description: Define the company information such as name, website URL, and value propositions that the Sales Opportunity Agent uses to engage with customers.
 ms.date: 03/13/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -17,19 +17,19 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure company info for Sales Close Agent - Research
+# Configure company info for Sales Opportunity Agent
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Define the company information such as name, website URL, and value propositions that the Sales Close Agent - Research uses to engage with customers.
+Define the company information such as name, website URL, and value propositions that the Sales Opportunity Agent uses to engage with customers.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 **Follow these steps**:
 
-1. [Open the Sales Close Agent - Research settings page](open-sales-close-agent-research-settings.md).  
+1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
 1. Under the **General** settings section, select **Company info**.  
-    :::image type="content" source="media/sca-research-company-info.png" alt-text="Screenshot of the Sales Close Agent - Research company info settings page.":::  
+    :::image type="content" source="media/sca-research-company-info.png" alt-text="Screenshot of the Sales Opportunity Agent company info settings page.":::  
 1. In the **Company info** page, enter the following information:  
 
     | Field name | Description |
@@ -44,4 +44,4 @@ Define the company information such as name, website URL, and value propositions
 
 ## Related information
 
-[Set up and configure the Sales Close Agent - Research (preview).](configure-opportunity-research-agent.md)
+[Set up and configure the Sales Opportunity Agent (preview).](configure-opportunity-research-agent.md)

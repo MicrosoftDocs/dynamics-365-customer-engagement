@@ -1,6 +1,6 @@
 ---
-title: Work on opportunities handled by the Sales Close Agent - Research (preview)
-description: Learn how to work on opportunities handled by the Sales Close Agent - Research.
+title: Work on opportunities handled by the Sales Opportunity Agent (preview)
+description: Learn how to work on opportunities handled by the Sales Opportunity Agent.
 ms.date: 02/09/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -13,11 +13,11 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Work on opportunities handled by Sales Close Agent - Research (preview)
+# Work on opportunities handled by Sales Opportunity Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Close Agent - Research in Dynamics 365 Sales helps you focus on the most important opportunities. By identifying high-value and at-risk opportunities, the agent helps you prioritize your efforts. With critical insights and recommendations, you can quickly ramp up on opportunities, engage the right stakeholders, and mitigate risks effectively.
+The Sales Opportunity Agent in Dynamics 365 Sales helps you focus on the most important opportunities. By identifying high-value and at-risk opportunities, the agent helps you prioritize your efforts. With critical insights and recommendations, you can quickly ramp up on opportunities, engage the right stakeholders, and mitigate risks effectively.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -25,12 +25,12 @@ The Sales Close Agent - Research in Dynamics 365 Sales helps you focus on the mo
 
 You need the following prerequisites:  
 
-- Your admin has configured the Sales Close Agent - Research for your organization.  
+- Your admin has configured the Sales Opportunity Agent for your organization.  
 - You're part of the sales team that works on the opportunity segment that the agent is configured for.  
 - You have the necessary permissions to view and work on the opportunities researched by the agent.  
 - Your mailbox is configured to allow tracking of email messages. This setting is required for the agent to gather insights from your emails and meetings. See the personalization setting explained [Configure server-side synchronization](configure-requirements-for-sales-close-agent-research.md#configure-server-side-synchronization).
 
-## View opportunities researched by the Sales Close Agent - Research
+## View opportunities researched by the Sales Opportunity Agent
 
 1. In the Sales Hub app, select **Opportunities**.  
 1. From the views drop-down, select **My top opportunities from AI agent**.  
@@ -153,5 +153,5 @@ The agent refreshes the research insights based on the refresh frequency configu
 
 ## Related information
 
-- [Configure the Sales Close Agent - Research (preview)](configure-opportunity-research-agent.md)
-- [FAQs about Sales Close Agent - Research (preview)](faqs-about-opportunity-research.md)
+- [Configure the Sales Opportunity Agent (preview)](configure-opportunity-research-agent.md)
+- [FAQs about Sales Opportunity Agent (preview)](faqs-about-opportunity-research.md)

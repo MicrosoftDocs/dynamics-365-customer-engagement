@@ -1,7 +1,7 @@
 ---
-title: Edit settings of Sales Close Agent - Research
+title: Edit settings of Sales Opportunity Agent
 ms.date: 07/09/2025
-description: Learn how to edit the settings of Sales Close Agent - Research to customize knowledge sources, update frequency, and opportunity segments for your business needs.
+description: Learn how to edit the settings of Sales Opportunity Agent to customize knowledge sources, update frequency, and opportunity segments for your business needs.
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -13,7 +13,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Edit settings of Sales Close Agent - Research
+# Edit settings of Sales Opportunity Agent
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 

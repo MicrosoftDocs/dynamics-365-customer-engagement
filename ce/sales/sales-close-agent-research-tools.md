@@ -1,6 +1,6 @@
 ---
-title: MCP tools for Sales Close Agent - Research capabilities (preview)
-description: Learn about the tools available in the Sales MCP server that support the Sales Close Agent - Research capabilities in Dynamics 365 Sales.
+title: MCP tools for Sales Opportunity Agent capabilities (preview)
+description: Learn about the tools available in the Sales MCP server that support the Sales Opportunity Agent capabilities in Dynamics 365 Sales.
 ms.date: 02/27/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
@@ -15,11 +15,11 @@ ai-usage: ai-assisted
 ---
 
 
-# MCP tools for Sales Close Agent - Research capabilities (preview)
+# MCP tools for Sales Opportunity Agent capabilities (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-This article lists the tools for using the Sales Close Agent - Research capabilities. Make sure that the Sales Close Agent - Research is [configured and turned on](configure-opportunity-research-agent.md). 
+This article lists the tools for using the Sales Opportunity Agent capabilities. Make sure that the Sales Opportunity Agent is [configured and turned on](configure-opportunity-research-agent.md). 
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 

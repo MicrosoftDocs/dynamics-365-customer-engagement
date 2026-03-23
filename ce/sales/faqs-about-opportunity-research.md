@@ -1,6 +1,6 @@
 ---
-title: Responsible AI FAQ about the Sales Close Agent - Research (preview)
-description: Learn about the responsible AI practices and limitations of the Sales Close Agent - Research in Dynamics 365 Sales.
+title: Responsible AI FAQ about the Sales Opportunity Agent (preview)
+description: Learn about the responsible AI practices and limitations of the Sales Opportunity Agent in Dynamics 365 Sales.
 ms.date: 01/07/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -13,15 +13,15 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Responsible AI FAQs about Sales Close Agent - Research (preview)
+# Responsible AI FAQs about Sales Opportunity Agent (preview)
 
-These frequently asked questions are intended to help you understand the impact of AI on Sales Close Agent - Research in Dynamics 365 Sales.
+These frequently asked questions are intended to help you understand the impact of AI on Sales Opportunity Agent in Dynamics 365 Sales.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-## What is Sales Close Agent - Research?
+## What is Sales Opportunity Agent?
 
-The Sales Close Agent - Research is designed to help sellers quickly understand and take action on opportunities by surfacing research-driven insights directly within the Dynamics 365 Sales. It automatically analyzes deal context from information stored in Dynamics 365 Sales, communications, and external signals to generate a prioritized view of key information such as:  
+The Sales Opportunity Agent is designed to help sellers quickly understand and take action on opportunities by surfacing research-driven insights directly within the Dynamics 365 Sales. It automatically analyzes deal context from information stored in Dynamics 365 Sales, communications, and external signals to generate a prioritized view of key information such as:  
 
 - Top risk and mitigation for the opportunity  
 - A synthesized deal overview  
@@ -32,7 +32,7 @@ The Sales Close Agent - Research is designed to help sellers quickly understand 
 
 This functionality uses AI to reduce manual research time, support better sales conversations, and improve deal progression outcomes.
 
-## How is the Sales Close Agent - Research intended to be used?
+## How is the Sales Opportunity Agent intended to be used?
 
 The agent is designed to help sellers quickly understand and take action on opportunities by surfacing research-driven insights directly within the Dynamics 365 Sales. Here are the key use cases for this functionality:  
 
@@ -44,22 +44,22 @@ The agent is designed to help sellers quickly understand and take action on oppo
 
 It's embedded natively within the opportunity record in Dynamics 365 Sales, requiring no workflow changes from the user.  
 
-## How was Sales Close Agent - Research evaluated? What metrics are used to measure performance?
+## How was Sales Opportunity Agent evaluated? What metrics are used to measure performance?
 
-The Sales Close Agent - Research was rigorously evaluated on curated real-world scenarios, with clear success criteria for each of its outputs. The team assembled diverse sample opportunities (varying industries, company types, deal stages, etc.) and measured the agent’s performance against a detailed quality rubric. Each aspect of the agent’s report – from the deal overview and key insights to risk identification and stakeholder analysis – was checked for factual accuracy, completeness of insights, and relevance/clarity to ensure it aligned with the ground-truth data. We iteratively refined the model until it met our quality benchmarks, meaning the agent’s answers passed a high percentage of these criteria (exceeding the threshold we set for "High quality" output). This process ensures the Sales Close Agent - Research consistently produces reliable, accurate deal insights before being released to users.
+The Sales Opportunity Agent was rigorously evaluated on curated real-world scenarios, with clear success criteria for each of its outputs. The team assembled diverse sample opportunities (varying industries, company types, deal stages, etc.) and measured the agent’s performance against a detailed quality rubric. Each aspect of the agent’s report – from the deal overview and key insights to risk identification and stakeholder analysis – was checked for factual accuracy, completeness of insights, and relevance/clarity to ensure it aligned with the ground-truth data. We iteratively refined the model until it met our quality benchmarks, meaning the agent’s answers passed a high percentage of these criteria (exceeding the threshold we set for "High quality" output). This process ensures the Sales Opportunity Agent consistently produces reliable, accurate deal insights before being released to users.
 
-## What are the limitations of the Sales Close Agent - Research? How can users minimize the impact of these limitations?
+## What are the limitations of the Sales Opportunity Agent? How can users minimize the impact of these limitations?
 
-The following limitations apply to the Sales Close Agent - Research:
+The following limitations apply to the Sales Opportunity Agent:
 
 - **Number of agents**: Only one agent can be created per org. Customers need to decide the products for which they want to activate this agent.  
 - **Entity**: Agent only works on the out-of-the-box opportunity entity.  
 - **Initial agent activation**: When the agent gets activated for the first time, all the open opportunities that match the criteria defined by the admin are processed and researched.  
 - **Research Refresh**: The agent can be configured to refresh the research data on a set cadence. The admin can choose a refresh frequency of 1 day, 3 days, or 7 days for all the opportunities in the segment.
 
-## What operational factors and settings allow for effective and responsible use of the Sales Close Agent - Research?
+## What operational factors and settings allow for effective and responsible use of the Sales Opportunity Agent?
 
-The Sales Close Agent - Research has a configuration experience that allows an admin to personalize the agent to work for their specific sales team:
+The Sales Opportunity Agent has a configuration experience that allows an admin to personalize the agent to work for their specific sales team:
 
 - Select which opportunities the agent should process and research on.  
 - Select how frequently the agent should refresh the research data.  
@@ -69,7 +69,7 @@ The Sales Close Agent - Research has a configuration experience that allows an a
 
 ## Which languages are supported by Opportunity Research?
 
-The Sales Close Agent - Research is currently only supported in English.
+The Sales Opportunity Agent is currently only supported in English.
 
 ## What data is passed to Bing Search?
 
