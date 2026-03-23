@@ -1,6 +1,6 @@
 ---
 title: Navigate the user interface
-description: Learn how to navigate the Dynamics 365 Field Service app.
+description: Learn how to navigate the Dynamics 365 Field Service app, including the site map, list views, record views, and app navigation tools.
 ms.date: 02/25/2026
 ms.topic: how-to
 ms.author: jacoh
@@ -35,7 +35,7 @@ Use the app selector to switch between apps.
 
    :::image type="content" source="media/navigate-app-selector.png" alt-text="Screenshot of the app selector.":::
 
-1. On the **Apps** page, select the app you want to open. You see only apps that your organization has installed.
+1. On the **Apps** page, select the app you want to open. You see only apps that your organization installs.
 
    :::image type="content" source="media/navigate-switch-apps.png" alt-text="Screenshot of the Apps page.":::
 
@@ -53,7 +53,7 @@ When you select most pages in the Field Service web app, a list of records appea
 | 4      | **Sort or filter the list**: Select the arrow to sort or filter the list by values in that column. |
 | 5      | **View selector**: Change the current view. |
 | 6      | **Edit columns**: Add, remove, or reorder columns. Learn more in [Column editor](/power-apps/user/grid-filters-advanced#select-columns-in-the-column-editor) |
-| 7      | **Edit filters**: View, add or modify filters applied to the current view. Learn more in [Filter editor](/power-apps/user/grid-filters-advanced#select-filter-conditions-in-the-filter-editor) |
+| 7      | **Edit filters**: View, add, or modify filters applied to the current view. Learn more in [Filter editor](/power-apps/user/grid-filters-advanced#select-filter-conditions-in-the-filter-editor) |
 | 8      | **Filter by keyword**: Enter text in the search field to show only records that match the keyword in the current view. |
 
 ## Work with record views
@@ -66,10 +66,10 @@ To open a record view, select a record from a list view. You can also open a rec
 
 | Number | Description |
 |--------|-------------|
-| 1      | **Tabs**: Record views are divided into tabs. Each tab contains a group of related fields from the record. The current tab appears underlined. Select a tab to view its fields. |
+| 1      | **Tabs**: Record views are divided into tabs. Each tab contains a group of related fields from the record. The current tab appears underlined. Mention the goal before the action? Select a tab to view its fields. |
 | 2      | **Related**: Most records include a **Related** tab. Use this drop-down list to view records related to the current record. |
 | 3      | **Heading bar**: Some record views display key fields in the heading bar, such as the record owner. |
-| 4      | **View and edit all field values**: The main body of the record view, shows fields for the selected tabe. Required fields are marked with a red asterisk, and you can't save the record without valid values. Fields marked with a blue plus sign are especially important or recommended, but aren't strictly required. Fields showing a lock icon are read-only and can't be edited. |
+| 4      | **View and edit all field values**: The main body of the record view, shows fields for the selected table. Required fields are marked with a red asterisk, and you can't save the record without valid values. Fields marked with a blue plus sign are especially important or recommended, but aren't strictly required. Fields showing a lock icon are read-only and can't be edited. |
 
 ## Next step
 
