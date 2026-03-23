@@ -35,7 +35,7 @@ The option to enable Copilot AI features is available "in region"<sup>**1**</sup
 
   :::image type="content" source="../media/ppac-enable-gen-ai.png" alt-text="Screenshot of the power platform admin center generative ai features.":::
 
-The respond to questions, compose an email, and summarize cases and conversations features are generally available in the North America region only. These features are in preview in the rest of the supported regions. Learn more in [Region availability](cs-region-availability-e-limits.md#region-availability-of-analytics-and-insights).
+The respond to questions, compose an email, and summarize cases and conversations features are generally available in the North America region only. These features are in preview in the rest of the supported regions. Learn more in [Region availability](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights).
 
 ### Understand cross region data movement for Copilot features
 
@@ -52,7 +52,7 @@ Copilot feature performance is based on the regional availability of the Azure O
 
 ## Supported languages
 
-Learn about supported languages for Copilot in [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-e-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
+Learn about supported languages for Copilot in [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
 
 
 ## Data sharing for Copilot features
