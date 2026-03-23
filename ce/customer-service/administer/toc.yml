@@ -415,7 +415,7 @@
       - name: Configure outbound dialer settings 
         href: add-outbound-dialer-settings.md
       - name: Configure voice call experiences
-        href: configure-voice-call-experiences.md  
+        href: configure-voice-call-experiences.md
       - name: Use Azure Virtual Desktop to access voice channel
         href: /dynamics365/contact-center/administer/configure-voice-avd?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Install and manage Desktop companion application (preview)

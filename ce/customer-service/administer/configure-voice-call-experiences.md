@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
 ms.collection: 
-ms.date: 01/28/2026
+ms.date: 03/23/2026
 ms.custom: bap-template 
 ---
 
@@ -29,8 +29,8 @@ Customer service representatives (service representatives or representatives) ca
 Perform the following steps to enable representative call quality surveys:
 
 1. In Copilot Service admin center, select **Workspaces** in **Support experience** and then select **Voice call experiences**. You can enable the survey from **Voice settings** in voice workstreams. 
-3. Switch the **Customer service representative call quality survey** toggle to **On**.
-4. Specify the frequency at which the survey should be presented to the representative. Optionally, you can also switch the **Set survey duration** toggle to **On** and specify the duration during which the survey must appear for the representative.
+1. Switch the **Customer service representative call quality survey** toggle to **On**.
+1. Specify the frequency at which the survey should be presented to the representative. Optionally, you can also switch the **Set survey duration** toggle to **On** and specify the duration during which the survey must appear for the representative.
 
  :::image type="content" source="../media/voice-configure-rating.png" alt-text="Screen shot of the Customer service representative call quality survey page." :::
 
@@ -70,4 +70,4 @@ After you enable this feature, the keypad input is sent faster and more reliably
 ## Related information
 
 [Share feedback on call quality](/dynamics365/contact-center/use/voice-channel-agent-experience#share-feedback-on-call-quality)  
-[Configure user input recognition](voice-channel-inbound-calling.md#configure-user-input-recognition)
+[Configure user input recognition](voice-channel-inbound-calling.md#configure-user-input-recognition)  

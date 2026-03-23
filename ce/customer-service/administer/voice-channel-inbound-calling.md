@@ -111,14 +111,14 @@ You see the following transfer and consult options:
 ### [Enhanced voice](#tab/enhancedvoice)
 
   1. Set the toggles for **External phone number** and **External Microsoft Teams users** in **Consult** and **Transfer**. This allows representatives to consult with other representatives or Teams subject matter experts during an ongoing call, and also enables them to transfer calls.
-  2. Select the **Use bridged transfers** checkbox. The following actions occur when a representative transfers a call to an external phone number or a Microsoft Teams user:
+  1. Select the **Use bridged transfers** checkbox. The following actions occur when a representative transfers a call to an external phone number or a Microsoft Teams user:
      - Call ends for the primary representative as soon as the secondary representative or Teams user accepts or rejects a call.
      - The caller ID on the call to the external number is the Dynamics phone number.
      - The customer hears a transfer message followed by hold music. The original call continues.
      - The recording and transcription continue when the call is transferred.
      - Customers can't send Dual Tone Multi Frequency (DTMF) inputs to external numbers. 
      - Post conversation survey, if configured, is triggered once the external representative or Teams user hangs up.<br>
-  3. If the **Use bridged transfers** checkbox isn't selected, the following actions occur when a representative transfers a call to an external phone number or a Microsoft Teams user:
+  1. If the **Use bridged transfers** checkbox isn't selected, the following actions occur when a representative transfers a call to an external phone number or a Microsoft Teams user:
      - Call ends for the primary representative as soon as the secondary representative or Teams user accepts or rejects a call.
      - The caller ID on the call to the external user is the customer's phone number.
      - The customer hears a transfer message followed by ringing. A new call begins.
@@ -206,20 +206,13 @@ Go to the workstream for which you've configured the voice channel and do the fo
 
 1. In the **Routing rules** area, in the **Route to queues** option, select **Create ruleset**.
 
-2. On the **Created route-to-queues ruleset** dialog, provide a name and description, and then select **Create**.
-
-3. On the page that appears, select **Create rule**.
-
-4. On the **Create rule** page, enter a rule name, and in **Conditions**, define the set of conditions using the conversation entity and related entity attributes.
-
-5. In **Route to queues**, select the queue that you created and to which the voice call must be routed when the conditions specified are met.
-
-
-6. To configure percentage-based distribution of work items, see [Percentage-based allocation of work to queues](configure-route-to-queue-rules.md#percentage-based-allocation-of-work-to-queues)
-
-7. Select **Create**. The rule is created and appears in the list of rules.
-
-8. Create as many rules as your business requires.
+1. On the **Created route-to-queues ruleset** dialog, provide a name and description, and then select **Create**.
+1. On the page that appears, select **Create rule**.
+1. On the **Create rule** page, enter a rule name, and in **Conditions**, define the set of conditions using the conversation entity and related entity attributes.
+1. In **Route to queues**, select the queue that you created and to which the voice call must be routed when the conditions specified are met.
+1. To configure percentage-based distribution of work items, see [Percentage-based allocation of work to queues](configure-route-to-queue-rules.md#percentage-based-allocation-of-work-to-queues)
+1. Select **Create**. The rule is created and appears in the list of rules.
+1. Create as many rules as your business requires.
 
 ## Configure work classification rules
 
