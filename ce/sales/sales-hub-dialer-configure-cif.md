@@ -1,7 +1,7 @@
 ---
-title: Step 2:\ Configure the Sales Hub Dialer
+title: "Step 2: Configure the Sales Hub Dialer"
 description: Learn how to enable the Sales Hub Dialer for Sales Hub.
-ms.date: 03/01/2026
+ms.date: 03/23/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

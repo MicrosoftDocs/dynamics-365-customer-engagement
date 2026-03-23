@@ -1,7 +1,7 @@
 ---
 title: Understand call routing for the Sales Hub Dialer
 description: Learn how inbound calls are routed to sellers based on inbound profiles, capacity profiles, and notification templates in the Sales Hub Dialer.
-ms.date: 03/01/2026
+ms.date: 03/23/2026
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr

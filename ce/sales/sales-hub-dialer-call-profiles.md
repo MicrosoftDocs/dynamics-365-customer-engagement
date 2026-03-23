@@ -1,7 +1,7 @@
 ---
-title: Step 4:\ Configure inbound and outbound profiles for the Sales Hub Dialer
+title: "Step 4: Configure inbound and outbound profiles for the Sales Hub Dialer"
 description: Learn how to create inbound and outbound call profiles that control call routing, consult/transfer behavior, and outgoing call settings for the Sales Hub Dialer.
-ms.date: 03/01/2026
+ms.date: 03/23/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

@@ -1,7 +1,7 @@
 ---
 title: Enable and configure the Sales Hub Dialer (preview)
 description: Step-by-step guidance for administrators to enable the Omnichannel dialer in Dynamics 365 Sales Hub, sync Teams Phone numbers, configure profiles, and assign numbers to sellers.
-ms.date: 03/01/2026
+ms.date: 03/23/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

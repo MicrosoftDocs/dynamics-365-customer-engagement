@@ -1,7 +1,7 @@
 ---
 title: "Step 1: Sync Teams phone numbers to Dynamics 365 (preview)"
 description: Learn how to retrieve environment IDs, convert numbers, create resource accounts, license them, and sync Teams phone numbers to Dynamics 365.
-ms.date: 03/01/2026
+ms.date: 03/23/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

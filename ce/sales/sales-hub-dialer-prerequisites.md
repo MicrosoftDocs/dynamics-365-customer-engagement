@@ -1,7 +1,7 @@
 ---
 title: Prerequisites for the Sales Hub Dialer
 description: Learn about required admin roles, licenses, voice channel provisioning, and seller roles needed to enable the Sales Hub Dialer.
-ms.date: 03/01/2026
+ms.date: 03/23/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

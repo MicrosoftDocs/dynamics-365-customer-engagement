@@ -4,7 +4,7 @@ description: Bookable resources in Dynamics 365 Sales Hub connect sellers to cap
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 03/18/2026
+ms.date: 03/23/2026
 ms.topic: concept-article
 ---
 

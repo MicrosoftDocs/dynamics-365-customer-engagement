@@ -1,7 +1,7 @@
 ---
 title: Make and receive calls with the Sales Hub Dialer
 description: Learn how to use the Sales Hub Dialer in Dynamics 365 Sales to place outbound calls, handle inbound calls, use in-call AI features, and review post-call summaries.
-ms.date: 03/01/2026
+ms.date: 03/23/2026
 ms.topic: how-to
 ms.collection: bap-ai-copilot
 author: lavanyakr01

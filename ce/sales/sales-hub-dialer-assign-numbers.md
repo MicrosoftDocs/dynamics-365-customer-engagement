@@ -1,7 +1,7 @@
 ---
-title: Step 5: Assign phone numbers to sellers for the Sales Hub Dialer
+title: "Step 5: Assign phone numbers to sellers for the Sales Hub Dialer"
 description: Learn how to assign dedicated phone numbers to sellers in Dynamics 365 Sales Hub using User Management or the phone number setup flow.
-ms.date: 03/01/2026
+ms.date: 03/23/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

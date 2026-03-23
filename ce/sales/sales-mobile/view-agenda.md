@@ -38,7 +38,7 @@ To see details of a specific meeting, tap the meeting record on either the home 
 Meeting details include the following:
 
 1. [Meeting information and participants](#meeting-information-and-participants)   
-2. [Related content](#related-content)
+2. [Related information](#related-information)
 
 ### Meeting information and participants
 

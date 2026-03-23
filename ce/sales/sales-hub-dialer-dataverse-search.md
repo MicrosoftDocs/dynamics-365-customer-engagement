@@ -1,7 +1,7 @@
 ---
 title: Enable Dataverse search for the Sales Hub Dialer dial pad
 description: Learn how to enable Dataverse search so sellers can search for CRM records directly from the Sales Hub Dialer keypad.
-ms.date: 03/01/2026
+ms.date: 03/23/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
