@@ -58,11 +58,11 @@ ACSCallSurvey
 
 When you transfer a call to another representative, the customer is automatically put on hold. The customer is removed from hold automatically when the secondary representative accepts the transferred call. To disable this behavior, and manually take the customer off hold, perform the following steps:
 - In Copilot Service admin center, select **Workspaces** and then select **Voice call experiences**.
-- Turn off the **Un-hold customer after representative transfer is accepted** toggle. 
+- Turn off the **Un-hold customer after representative transfer is accepted** toggle.
 
 ## Allow DTMF input broadcast across all participants during a call
 
-After you enable this feature, the keypad input is sent faster and more reliably from representatives to all parties in the call. In transfer scenarios, after the representative transfers the call to an external participant, the external participant also receives any keypad input that customers send.
+After you enable dual-tone multi-frequency (DTMF) input broadcast, the keypad input is sent faster and more reliably from representatives to all parties in the call. In transfer scenarios, after the representative transfers the call to an external participant, the external participant also receives any keypad input that customers send.
 
 1. In Copilot Service admin center, select **Workspaces** > **Voice call experiences** > **Manage**.
 1. Turn on the toggle for **Allow DTMF to be broadcasted across all participants during a call** and save the changes.
