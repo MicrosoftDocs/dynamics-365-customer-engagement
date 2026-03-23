@@ -1,6 +1,6 @@
 ---
 title: Manage Copilot features in Customer Service
-description: Learn how to enable the various Copilot features in Customer Service.
+description: Learn how to enable Copilot features in Dynamics 365 Customer Service to help service representatives handle cases more efficiently and resolve issues faster.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -13,7 +13,7 @@ ms.collection: bap-ai-copilot
 
 # Manage Copilot features in Customer Service 
 
-Copilot in Customer Service provides real-time AI assistance that helps customer service representatives (service representatives or representatives) automate time-consuming tasks to handle cases efficiently and resolve issues faster so that they can deliver value to customers.
+Copilot in Customer Service provides real-time AI assistance for customer service representatives (service representatives or representatives). It helps automate time-consuming tasks so representatives can handle cases efficiently, resolve issues faster, and deliver more value to customers.
 
 When you turn on Copilot features, representatives can respond to questions, compose emails, draft chat responses, and summarize case and conversations in the Copilot Service workspace app.
 
@@ -35,11 +35,11 @@ The option to enable Copilot AI features is available "in region"<sup>**1**</sup
 
   :::image type="content" source="../media/ppac-enable-gen-ai.png" alt-text="Screenshot of the power platform admin center generative ai features.":::
 
-The respond to questions, compose an email, and summarize cases and conversations features are generally available in the North America region only. These features are in preview in the rest of the supported regions. Learn more in [Region availability](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights).
+The respond to questions, compose an email, and summarize cases and conversations features are generally available in the North America region only. These features are in preview in the rest of the supported regions. Learn more in [Region availability](cs-region-availability-e-limits.md#region-availability-of-analytics-and-insights).
 
 ### Understand cross region data movement for Copilot features
 
-Copilot feature performance is based on the regional availability of the Azure OpenAI services. The following table describes the scenarios in which you must [enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center app before you can opt in to use Copilot.
+Copilot feature performance is based on the regional availability of the Azure OpenAI es. The following table describes the scenarios in which you must [enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center app before you can opt in to use Copilot.
 
 |Scenario| Requires enabling data movement |
 |----------------|------------------|
@@ -52,12 +52,12 @@ Copilot feature performance is based on the regional availability of the Azure O
 
 ## Supported languages
 
-Learn about supported languages for Copilot in [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
+Learn about supported languages for Copilot in [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-e-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
 
 
 ## Data sharing for Copilot features
 
-You can turn on data sharing for Dynamics 365 Copilot features in the Power Platform admin center app. Data sharing allows Microsoft to capture and manually review customer data, including, but not limited to, users' natural language inputs, outputs, and related telemetry to build, improve, and/or validate Microsoft's features, services, machine learning models, and related systems for Dynamics 365 and Power Platform Copilot AI features. We don't use customer data to train Azure OpenAI Service foundation models.
+You can turn on data sharing for Dynamics 365 Copilot features in the Power Platform admin center app. Data sharing allows Microsoft to capture and manually review customer data. This data includes users' natural language inputs, outputs, and related telemetry. Microsoft uses this data to build, improve, and validate features, services, machine learning models, and related systems for Dynamics 365 and Power Platform Copilot AI features. We don't use customer data to train Azure OpenAI foundation models.
 
 Learn more in [Tenant settings](/power-platform/admin/tenant-settings) and [FAQ for optional data sharing for Copilot AI features in Dynamics 365 and Power Platform](/power-platform/faqs-copilot-data-sharing).
 
@@ -96,9 +96,9 @@ To configure Copilot features for representatives, perform the following steps:
 1. In the **Agents within Copilot** section, select **Manage** next to **Customer Support**.
 1. Configure the required Copilot features for representatives across the available tabs.
 
-## Let representatives use Copilot to tranlate responses
+## Let representatives use Copilot to translate responses
 
-On the **Copilot settings** page, in the **Translation using Copilot** section, you can select **Let representattves translate responses using Copilot** to allow your representatives to choose from the languages that your organization added to Dynamics 365.
+On the **Copilot settings** page, in the **Translation using Copilot** section, you can select **Let representatives translate responses using Copilot** to allow your representatives to choose from the languages that your organization added to Dynamics 365.
 
 ## Record representative interactions with Copilot
 
@@ -147,5 +147,5 @@ Out of the box, users with the Customer Service Representative role only can use
 ### Related information
  
 [Draft a chat response](../use/use-copilot-features.md)  
-[Responsible AI FAQ for Copilot in Customer Servic](../implement/faq-responsible-ai-copilot.md)  
+[Responsible AI FAQ for Copilot in Customer Service](../implement/faq-responsible-ai-copilot.md)  
 [FAQ for Copilot in Customer Service](faq-copilot-features.md)  
