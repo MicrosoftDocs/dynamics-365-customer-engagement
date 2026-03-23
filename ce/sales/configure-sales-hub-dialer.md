@@ -6,6 +6,7 @@ ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ai-usage: ai-assisted
 ---
 
 # Enable and configure the Sales Hub Dialer (preview)

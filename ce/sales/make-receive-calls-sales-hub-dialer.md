@@ -7,6 +7,7 @@ ms.collection: bap-ai-copilot
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ai-usage: ai-assisted
 ---
 
 # Make and receive calls with the Sales Hub Dialer (preview)

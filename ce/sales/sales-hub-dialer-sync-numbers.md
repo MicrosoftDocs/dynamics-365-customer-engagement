@@ -6,6 +6,7 @@ ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ai-usage: ai-assisted
 ---
 
 # Step 1: Sync Teams phone numbers to Dynamics 365 (preview)

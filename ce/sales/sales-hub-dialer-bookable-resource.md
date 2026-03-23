@@ -6,6 +6,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.date: 03/23/2026
 ms.topic: concept-article
+ai-usage: ai-assisted
 ---
 
 # Step 6: Create a bookable resource

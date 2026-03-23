@@ -6,6 +6,7 @@ ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ai-usage: ai-assisted
 ---
 
 # Enable Dataverse search for the Sales Hub Dialer dial pad (preview)

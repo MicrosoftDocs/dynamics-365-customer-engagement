@@ -6,6 +6,7 @@ ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ai-usage: ai-assisted
 ---
 
 # Understand call routing for the Sales Hub Dialer (preview)
