@@ -139,7 +139,7 @@ You are presented with following transfer and consult options:
 
 ## Create queues for voice channels
 
-In Dynamics 365 Contact Center or Dynamics 365 Customer Service, work items are assigned to a queue and representative with the help of unified routing. Unified routing is an intelligent and scalable routing and assignment capability. It assigns incoming work items to the most appropriate queue and representative based on work item requirements and representative capabilities by using round robin routing. Learn more in [Overview of unified routing](overview-unified-routing.md)
+In Dynamics 365 Contact Center or Dynamics 365 Customer Service, work items are assigned to a queue and representative with the help of unified routing. Unified routing is an intelligent and scalable routing and assignment capability. It assigns incoming work items to the most appropriate queue and representative based on work item requirements and representative capabilities by using round-robin routing. Learn more in [Overview of unified routing](overview-unified-routing.md)
 
 In this section, we cover information on how to create a queue for the voice channel and routing rules to evaluate conditions and assign work items.
 
@@ -194,9 +194,9 @@ With call overflow, you can reduce the wait time for customer calls by setting o
 
 ### Assignment rules for a queue
 
-By default, the assignment method for a voice queue is round robin. In the round robin method, work items are prioritized in the order they enter the queue. Among the representatives who match skills, presence, and capacity, work is assigned to representatives in the order they're listed. The representative listed on the top is assigned first. You can also choose highest capacity or create custom assignment methods. Learn more in [Assignment methods](assignment-methods.md)
+By default, the assignment method for a voice queue is round robin. In the round-robin method, work items are prioritized in the order they enter the queue. Among the representatives who match skills, presence, and capacity, work is assigned to representatives in the order they're listed. The representative listed on the top is assigned first. You can also choose highest capacity or create custom assignment methods. Learn more in [Assignment methods](assignment-methods.md)
 
-For a simple and quick voice call routing, you don't need to set up any rules for unified routing. By default, all the incoming voice calls are routed to the "default voice queue" and assigned to the representatives with the round robin assignment method.
+For a simple and quick voice call routing, you don't need to set up any rules for unified routing. By default, all the incoming voice calls are routed to the "default voice queue" and assigned to the representatives with the round-robin assignment method.
 
 ## Configure routing rules for the voice workstream
 
