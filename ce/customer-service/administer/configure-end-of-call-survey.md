@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
 ms.collection: 
-ms.date: 05/05/2025
+ms.date: 01/28/2026
 ms.custom: bap-template 
 ---
 
@@ -18,12 +18,13 @@ Use the **Voice call experiences** page in Copilot Service admin center to confi
 
 - [Configure representative call quality feedback survey](#configure-representative-call-quality-feedback-survey)
 - [Disable taking a customer off hold automatically](#disable-taking-a-customer-off-hold-automatically)
+- [Allow DTMF input broadcast across all participants during a call](#allow-dtmf-input-broadcast-across-all-participants-during-a-call)
 
-## Configure representative call quality feedback survey 
+## Configure representative call quality feedback survey
 
 Customer service representatives (service representatives or representatives) can rate and provide feedback on their voice calling experience after the call ends using the representative call quality survey. The survey helps you evaluate call quality beyond technical factors such as audio and video bitrate, jitter, and latency, enabling you to understand if the service representative had a satisfactory experience. You can analyze the survey data in Azure logs to gain insights and identify areas that require improvement.
 
-## Enable representative call quality surveys
+### Enable representative call quality surveys
 
 Perform the following steps to enable representative call quality surveys:
 
@@ -59,6 +60,14 @@ When you transfer a call to another representative, the customer is automaticall
 - In Copilot Service admin center, select **Workspaces** and then select **Voice call experiences**.
 - Turn off the **Un-hold customer after representative transfer is accepted** toggle. 
 
-## Next steps
+## Allow DTMF input broadcast across all participants during a call
+
+After you enable this feature, the keypad input is sent faster and more reliably from representatives to all parties in the call. In transfer scenarios, after the representative transfers the call to an external participant, the external participant also receives any keypad input that customers send.
+
+1. In Copilot Service admin center, select **Workspaces** > **Voice call experiences** > **Manage**.
+1. Turn on the toggle for **Allow DTMF to be broadcasted across all participants during a call** and save the changes.
+
+## Related information
 
 [Share feedback on call quality](/dynamics365/contact-center/use/voice-channel-agent-experience#share-feedback-on-call-quality)  
+[Configure user input recognition](voice-channel-inbound-calling.md#configure-user-input-recognition)
