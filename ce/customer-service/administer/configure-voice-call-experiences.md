@@ -36,11 +36,11 @@ Perform the following steps to enable representative call quality surveys:
 
 ### Store and view survey data
 
-You must enable the Call Survey Logs [Diagnostic Setting](/azure/communication-services/concepts/analytics/enable-logging) in Azure Monitor to send the [log data](/azure/communication-services/concepts/analytics/logs/end-of-call-survey-logs) of your surveys to a Log Analytics workspace, Event Hubs, or an Azure storage account to receive and analyze your survey data. If you don't send survey data to one of these options your survey data isn't stored and can be lost.
+You must enable the Call Survey Logs [Diagnostic Setting](/azure/communication-services/concepts/analytics/enable-logging) in Azure Monitor to send the [log data](/azure/communication-services/concepts/analytics/logs/end-of-call-survey-logs) of your surveys to a Log Analytics workspace, Event Hubs, or an Azure storage account to receive and analyze your survey data. If you don't send survey data to one of these options, your survey data isn't stored and can be lost.
 
 **Sample query**
 
-You can modify any of the out-of-the-box queries to get the required call id information. Here's a sample query to see the audio issues column chart.
+You can modify any of the out-of-the-box queries to get the required call ID information. Here's a sample query to see the audio issues column chart.
 
 ```
 
@@ -54,11 +54,14 @@ ACSCallSurvey
 
 ```
 
-## Disable taking a customer off hold automatically
+## Prevent customers from being taken off hold automatically
 
-When you transfer a call to another representative, the customer is automatically put on hold. The customer is removed from hold automatically when the secondary representative accepts the transferred call. To disable this behavior, and manually take the customer off hold, perform the following steps:
-- In Copilot Service admin center, select **Workspaces** and then select **Voice call experiences**.
-- Turn off the **Un-hold customer after representative transfer is accepted** toggle.
+When you transfer a call to another representative, the customer is automatically put on hold. The customer is removed from hold automatically when the secondary representative accepts the transferred call.
+
+To manually take the customer off hold, turn off this behavior by performing the following steps:
+
+1. In Copilot Service admin center, select **Workspaces** and then select **Voice call experiences**.
+1. Turn off the **Un-hold customer after representative transfer is accepted** toggle.
 
 ## Allow DTMF input broadcast across all participants during a call
 
