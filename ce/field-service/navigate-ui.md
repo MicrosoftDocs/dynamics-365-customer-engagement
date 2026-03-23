@@ -66,7 +66,7 @@ To open a record view, select a record from a list view. You can also open a rec
 
 | Number | Description |
 |--------|-------------|
-| 1      | **Tabs**: Record views are divided into tabs. Each tab contains a group of related fields from the record. The current tab appears underlined. Mention the goal before the action? Select a tab to view its fields. |
+| 1      | **Tabs**: Record views are divided into tabs. Each tab contains a group of related fields from the record. The current tab appears underlined. Mention the goal before the action. To view its fields, select a tab. |
 | 2      | **Related**: Most records include a **Related** tab. Use this drop-down list to view records related to the current record. |
 | 3      | **Heading bar**: Some record views display key fields in the heading bar, such as the record owner. |
 | 4      | **View and edit all field values**: The main body of the record view, shows fields for the selected table. Required fields are marked with a red asterisk, and you can't save the record without valid values. Fields marked with a blue plus sign are especially important or recommended, but aren't strictly required. Fields showing a lock icon are read-only and can't be edited. |
