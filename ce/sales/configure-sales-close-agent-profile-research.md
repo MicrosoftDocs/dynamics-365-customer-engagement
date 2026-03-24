@@ -17,13 +17,9 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure the agent profile for Sales Opportunity Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Configure the agent profile for Sales Opportunity Agent
 
 Define the agent information such as the name and the language to set the context for the Sales Opportunity Agent.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 **Follow these steps**:
 
@@ -39,8 +35,8 @@ Define the agent information such as the name and the language to set the contex
 
 ## Next step
 
-[Configure company info.](configure-sales-close-agent-research-company-info.md)
+[Configure company info](configure-sales-close-agent-research-company-info.md).
 
 ## Related information
 
-[Set up and configure the Sales Opportunity Agent (preview).](configure-opportunity-research-agent.md)
+[Set up and configure the Sales Opportunity Agent (preview)](configure-opportunity-research-agent.md).

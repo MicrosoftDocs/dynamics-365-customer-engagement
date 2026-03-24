@@ -19,11 +19,7 @@ ai-usage: ai-assisted
 
 # Configure refresh frequency for Sales Opportunity Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
 Define how often the Sales Opportunity Agent refreshes its research data to provide up-to-date insights on opportunities.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 **Follow these steps**:
 
@@ -37,10 +33,16 @@ Define how often the Sales Opportunity Agent refreshes its research data to prov
     - **High**: Data is refreshed every three days. This option is ideal for businesses that always need the latest information, but it consumes more capacity.
     - **Medium**: Data is refreshed every week days. This option is suitable for businesses that need regular updates but don't require daily insights. It balances performance and data accuracy.
     - **Low**: Data is refreshed every 14 days. This option consumes the least capacity and is suitable for businesses that don't need frequent updates and want to save capacity.
+1. To manage the capacity that the agent uses, in the **Manage consumption limit** section, select **Manage limits**.
+    The **Copilot Studio** page opens in a new tab. 
+    Open the **Sales Opportunity Agent** for the environment to set up a usage limit.
+    Rate-limiting configuration controls message usage per agent and sets monthly consumption limits for the agents. Set up a message limit at the agent level and enable the **Stop Usage** option to automatically stop the agent once the configured token or message threshold is exceeded.
+    When the message limit is reached, the Sales Opportunity Agent automatically pauses and prevents any further usage. Processing resumes once you increase the threshold or when message capacity is available in the next usage cycle.
+    To learn more about managing consumption limits, see [Manage monthly consumption limits for Copilot Studio agents](/power-platform/admin/manage-copilot-studio-messages-capacity#manage-monthly-consumption-limits-for-copilot-studio-agents).
 
 ## Next step
 
-[Set selection criteria for opportunities.](configure-sales-close-agent-research-selection-criteria.md)
+[Configure importance and risk assessment.](configure-sales-close-agent-research-opportunity-assessment.md)
 
 ## Related information
 

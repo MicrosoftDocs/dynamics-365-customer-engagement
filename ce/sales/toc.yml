@@ -197,16 +197,16 @@ items:
                     href: configure-opportunity-research-agent.md
                   - name: Open the settings page
                     href: open-sales-close-agent-research-settings.md
-                  - name: Configure requirements for Sales Opportunity Agent
+                  - name: Configure prerequisites
                     href: configure-requirements-for-sales-close-agent-research.md
                   - name: Configure the agent profile
                     href: configure-sales-close-agent-profile-research.md
                   - name: Configure company information
                     href: configure-sales-close-agent-research-company-info.md  
-                  - name: Configure refresh frequency
-                    href: configure-sales-close-agent-research-refresh-frequency.md
                   - name: Set selection criteria for opportunities
                     href: configure-sales-close-agent-research-selection-criteria.md  
+                  - name: Configure refresh frequency
+                    href: configure-sales-close-agent-research-refresh-frequency.md
                   - name: Configure importance and risk assessment
                     href: configure-sales-close-agent-research-opportunity-assessment.md
                   - name: Configure knowledge sources
@@ -221,12 +221,6 @@ items:
                 href: edit-opportunity-research-agent-settings.md  
               - name: View agent insights and metrics
                 href: view-sales-close-agent-research-insights-metrics.md
-          
-          
-          
-          
-          
-          
           - name: Sales Close Agent (preview)
             items:
               - name: Overview

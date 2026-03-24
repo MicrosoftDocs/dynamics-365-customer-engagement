@@ -19,11 +19,7 @@ ai-usage: ai-assisted
 
 # Configure company info for Sales Opportunity Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
 Define the company information such as name, website URL, and value propositions that the Sales Opportunity Agent uses to engage with customers.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 **Follow these steps**:
 
@@ -36,11 +32,11 @@ Define the company information such as name, website URL, and value propositions
     |------------|-------------|
     | **Company name** | Enter the name of your company. |
     | **Company website** | Enter the URL of your company's website. |
-    | **Value proposition of what you sell to the selected opportunities** | Enter the value proposition of the products associated with the opportunities that the agent will handle. Providing a clear value proposition helps the agent focus its account research on the most relevant information. Instead of returning broad or generic insights about a company, the agent uses the value proposition to tailor its research and deliver insights that are specific to your product and its effect for the customer.<br>For example, if the agent is handling opportunities that are related to a coffee machine, you can specify "Our smart vending machine offers a variety of premium blends, customizable to your taste, with zero wait time, and minimal maintenance." instead of "We sell coffee machines to businesses." |
+    | **Value proposition of what you sell to the selected opportunities** | Enter the value proposition of the products associated with the opportunities that the agent handles. Providing a clear value proposition helps the agent focus its account research on the most relevant information. Instead of returning broad or generic insights about a company, the agent uses the value proposition to tailor its research and deliver insights that are specific to your product and its effect for the customer.<br>For example, if the agent is handling opportunities that are related to a coffee machine, you can specify "Our smart vending machine offers a variety of premium blends, customizable to your taste, with zero wait time, and minimal maintenance." instead of "We sell coffee machines to businesses." |
 
 ## Next step
 
-[Configure refresh frequency.](configure-sales-close-agent-research-refresh-frequency.md)
+[Set selection criteria for opportunities.](configure-sales-close-agent-research-selection-criteria.md)
 
 ## Related information
 

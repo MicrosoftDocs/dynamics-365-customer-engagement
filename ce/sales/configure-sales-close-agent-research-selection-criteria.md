@@ -19,11 +19,7 @@ ai-usage: ai-assisted
 
 # Configure selection criteria for Sales Opportunity Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
 Add conditions to filter opportunities for the Sales Opportunity Agent to focus on. The agent researches only opportunities that meet the specified criteria, so you can prioritize high-value or strategic opportunities.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 **Follow these steps**:
 
@@ -49,8 +45,8 @@ Add conditions to filter opportunities for the Sales Opportunity Agent to focus 
 
 ## Next step
 
-[Configure importance and risk assessment.](configure-sales-close-agent-research-opportunity-assessment.md)
+[Configure refresh frequency.](configure-sales-close-agent-research-refresh-frequency.md)
 
 ## Related information
 
-[Set up and configure Sales Opportunity Agent.](configure-opportunity-research-agent.md)
+[Set up and configure Sales Opportunity Agent](configure-opportunity-research-agent.md).

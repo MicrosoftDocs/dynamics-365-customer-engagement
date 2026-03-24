@@ -19,11 +19,7 @@ ai-usage: ai-assisted
 
 # Configure opportunity assessment for Sales Opportunity Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-Configure the fields that the agent uses as a factor to assess the importance and risk of the opportunities. In addition to these fields, the agent uses other signals such as customer interactions, stakeholder engagement, and so on. 
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+Configure the fields that the agent uses to assess the importance and risk of the opportunities. In addition to these fields, the agent uses other signals such as customer interactions, stakeholder engagement, and so on. 
 
 **Follow these steps**:
 
@@ -35,7 +31,7 @@ Configure the fields that the agent uses as a factor to assess the importance an
     - **Estimated close date:** Select the field that represents the estimated close date, such as **Est. close date**. 
 
     >[!NOTE]
-    >You can customize the thresholds for risk and importance criteria in the **Advanced** settings. Learn more in [Configure risk and importance criteria](opportunity-research-agent-advanced-settings.md).
+    >You can customize the thresholds for risk and importance criteria in the **Advanced** settings. To learn more, see [Configure risk and importance criteria](opportunity-research-agent-advanced-settings.md).
 
 ## Next step
 

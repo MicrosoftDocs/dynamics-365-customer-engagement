@@ -17,13 +17,9 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Open the Sales Opportunity Agent settings page (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Open the Sales Opportunity Agent settings page
 
 Open the Sales Opportunity Agent settings to configure or manage the agent.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 **Follow these steps**:
 
@@ -37,12 +33,12 @@ Open the Sales Opportunity Agent settings to configure or manage the agent.
 1. To create an agent:  
     1. Select **Create**.
         The create an agent dialog opens.  
-    1. In the **Sales Close Agent** section, select **Choose**.  
-    1. In the **Scenario** page, select **Research**.  
+    1. In the **Sales Opportunity Agent** section, select **Choose**.  
+
     > [!NOTE]
     > You can't create more than one Sales Opportunity Agent. If an active agent of the same type already exists in your organization, the option to create the agent is inactive.  
 
-    <!--    :::image type="content" source="media/sca-research-setup-assistant-open.png" alt-text="Sales Opportunity Agent settings page showing the option to create a new agent.":::  -->
+    :::image type="content" source="media/sca-research-setup-assistant-open.png" alt-text="Sales Opportunity Agent settings page showing the option to create a new agent.":::
 1. To edit or deactivate the agent, in the **AI agents** page, from the list of agents, select the name of the Sales Opportunity Agent.  
 
 ## Next step

@@ -20,7 +20,7 @@ Open the Sales Qualification Agent settings to configure or manage the Sales Qua
 **Follow these steps**:
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.  
-1. Go to **General settings** > **Dynamics 365 AI hub**. If you have trouble finding or accessing the AI hub, it might be due to permission restrictions. Learn more in [Access Dynamics 365 AI Hub](dynamics-365-ai-hub.md)
+1. Go to **General settings** > **Dynamics 365 AI hub**. If you have trouble finding or accessing the AI hub, it might be due to permission restrictions. To learn more, see [Access Dynamics 365 AI Hub](dynamics-365-ai-hub.md).
 
    :::image type="content" source="media/sqa-settings-home-page.png" alt-text="Screenshot of the Sales Qualification Agent settings home page.":::
 
@@ -30,7 +30,7 @@ Open the Sales Qualification Agent settings to configure or manage the Sales Qua
     1. Select **Create**.  
     1. In the **Sales Qualification Agent** section, select **Choose**.  
     1. Select the automation level&mdash;**Research** or **Engage** based on your requirement.  
-1. To edit or deactivate the agent, in the AI agents page, select the agent name.  
+1. To edit or deactivate the agent, in the **AI agents** page, select the agent name.  
 
 ## Related information
 

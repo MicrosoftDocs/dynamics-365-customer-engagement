@@ -20,11 +20,11 @@ ai-usage: ai-assisted
 
 # Sales Opportunity Agent overview
 
-Sales Opportunity Agent in Dynamics 365 Sales is an AI-powered assistant designed to help sales professionals manage their deals more effectively. By consolidating CRM updates, email threads, meeting intelligence, and real-time web research, the agent provides actionable insights in one place—helping you prioritize opportunities, identify risks, and take the right action at the right time. This results in faster deal closures and improved sales performance.
+Sales Opportunity Agent in Dynamics 365 Sales is an AI-powered assistant designed to help sales professionals manage their deals more effectively. By consolidating CRM updates, email threads, meeting intelligence, and real-time web research, the agent provides actionable insights in one place. It helps you prioritize opportunities, identify risks, and take the right action at the right time. This approach results in faster deal closures and improved sales performance.
 
 ## How does the Sales Opportunity Agent help you?
 
-Managing deals effectively requires timely insights and a clear understanding of where each opportunity stands. The Sales Opportunity Agent simplifies this by bringing together data from multiple sources and surfacing what matters most.
+Managing deals effectively requires timely insights and a clear understanding of where each opportunity stands. The Sales Opportunity Agent simplifies this process by bringing together data from multiple sources and surfacing what matters most.
 
 Here's how it helps:
 
@@ -55,7 +55,7 @@ The Sales Opportunity Agent uses the capacity assigned to your tenant to process
 
 ## Responsible AI
 
-Sales Opportunity Agent is built with responsible AI principles in mind. The agent has been carefully evaluated to ensure that it meets quality standards and is designed to be used as a productivity tool. For more information about the agent's responsible AI practices, see [FAQs about Sales Opportunity Agent](faqs-about-opportunity-research.md).
+Sales Opportunity Agent is built with responsible AI principles in mind. The agent meets quality standards and is designed to be used as a productivity tool. For more information about the agent's responsible AI practices, see [FAQs about Sales Opportunity Agent](faqs-about-opportunity-research.md).
 
 ## How to set up and use the agent
 
