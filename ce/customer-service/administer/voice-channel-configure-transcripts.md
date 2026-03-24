@@ -104,13 +104,13 @@ The maximum file size of a recording can be 512 MB. The data storage cost with t
 
 Learn more about long term data retention with Dataverse in [Dataverse long term data retention overview](/power-apps/maker/data-platform/data-retention-overview).
 
-## Set retention rules for omnichannel call recordings and transcripts
+## Set retention rules for omnichannel screen recordings and transcripts
 
 Administrators can configure retention rules for omnichannel call recordings and transcripts in Dynamics 365 Contact Center by using **Bulk Record Deletion** jobs. Setting appropriate retention periods helps organizations comply with regulatory requirements and manage storage efficiently.
 
 By default, call recordings and Omnichannel transcripts are retained indefinitely. Microsoft Copilot Studio transcripts are retained for 30 days.
 
-## Set retention for call recordings
+## Set retention for screen recordings
 
 1. Sign in to your Dynamics 365 environment.
 1. In your browser, go to the following URL:
