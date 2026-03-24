@@ -35,34 +35,30 @@ Yes, our [Community Forum](https://community.dynamics.com/forums/thread/?groupid
 
 Contact [Dynamics support](https://dynamics.microsoft.com/contact-us/) to get help with your issues.
 
-### What channels are supported with Omnichannel for Customer Service?
+### What channels are supported with Customer Service or Contact Center?
 
-Some of the supported channels are LINE and Facebook. For the complete list of supported channels, refer to the [Overview of channels](../use/channels.md).
+For the complete list of supported channels, refer to the [Overview of channels](../use/channels.md).
 
-### Are Chat and the associated Omnichannel for Customer Service capabilities available as part of my Dynamics 365 Customer Service license?
+### Are Chat and the associated Customer Service capabilities available as part of my Dynamics 365 Customer Service license?
 
-No, Chat and related capabilities in Omnichannel for Customer Service require a separate add-in. Learn more about licenses and pricing in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). You can also purchase add-ins on the Microsoft 365 admin center. Learn more in [Buy add-ons](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true).
+Learn more about licenses and pricing in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). 
 
 ### How do I get started?
 
-If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](../use/channels.md). Learn more in [Provision channels](/dynamics365/contact-center/implement/provision-channels
+Sign up for a trial using these [Instructions](../use/channels.md). Learn more in [Provision channels](/dynamics365/contact-center/implement/provision-channels
 ) for setting up channels in your organization.
 
 ## Representative experience
-
-### In which apps can I use Chat for Dynamics 365?
-
-You can use Chat in the Omnichannel for Customer Service and Copilot Service workspace apps.
 
 ### Can I work on cases along with chats?
 
 Yes. You can work on cases alongside customer conversations in different sessions. You can open case sessions from the dashboards and grids using gestures. Learn more about starting a session in [Manage sessions in Omnichannel for Customer Service](../use/oc-manage-sessions.md#start-a-session).
 
-### Can I work on third-party communication widgets built using Dynamics 365 Channel Integration Framework in the Omnichannel for Customer Service app module? 
+### Can I work on third-party communication widgets built using Dynamics 365 Channel Integration Framework in the Copilot Service Workspace app module? 
 
-Omnichannel for Customer Service supports Chat for Dynamics 365 and SMS channels. You should continue to use the third-party communication widgets in the single-session Unified Interface apps like Customer Service Hub. Support for integrating third-party channels is available in [Dynamics 365 Channel Integration Framework v2](../../channel-integration-framework/v1/administer/overview-channel-integration-framework.md).
+You should continue to use the third-party communication widgets in the single-session Unified Interface apps like Customer Service Hub. Support for integrating third-party channels is available in [Dynamics 365 Channel Integration Framework v2](../../channel-integration-framework/v1/administer/overview-channel-integration-framework.md).
 
-### Can I open Omnichannel for Customer Service in multiple browser tabs, windows or devices?
+### Can I open Copilot Service Workspace in multiple browser tabs, windows or devices?
 Omnichannel for Customer Service supports accepting notifications across browser tabs or devices, however sessions started in one tab cannot be transferred to other tabs.
 We recommend that you don't open Omnichannel for Customer Service in multiple browser tabs or windows. The app is inherently designed to help customer service representatives (service representatives or representatives) work in a multisession environment wherein each session has contextual application tabs. The sessions aren't synced across browser tabs.
 
