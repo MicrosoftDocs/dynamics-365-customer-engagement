@@ -1,5 +1,5 @@
 ---
-title: "Step 2: Configure the Sales Hub Dialer"
+title: Configure the Sales Hub Dialer in Channel Integration Framework (preview)
 description: Learn how to enable the Sales Hub Dialer for Sales Hub.
 ms.date: 03/23/2026
 ms.topic: how-to
@@ -9,7 +9,7 @@ ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
 
-# Step 2: Configure the Sales Hub Dialer in Channel Integration Framework (preview)
+# Configure the Sales Hub Dialer in Channel Integration Framework (preview)
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
