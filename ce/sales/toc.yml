@@ -206,36 +206,36 @@ items:
               - name: Set up and configure Sales Close Agent - Engage
                 href: configure-sales-close-agent.md
                 items:
-                - name: Set up through the Setup Assistant (preview)
-                  href: sales-close-agent-engage-setup-assistant.md
-                - name: Open the settings page
-                  href: open-sales-close-agent-settings.md
-                - name: Configure the agent profile
-                  href: configure-sales-close-agent-profile.md
-                - name: Configure product details
-                  href: configure-sales-close-agent-product-details.md  
-                - name: Configure target customers
-                  href: configure-sales-close-agent-target-customers.md
-                - name: Configure email delivery
-                  href: configure-sales-close-agent-email-delivery.md
-                - name: Configure email content
-                  href: configure-sales-close-agent-email-content.md
-                - name: Configure knowledge sources
-                  href: configure-sales-close-agent-knowledge-sources.md
-                - name: Test the agent
-                  href: sales-close-agent-engage-test.md  
-                - name: Start the agent 
-                  href: start-sales-close-agent.md
-                - name: Manage the agent
-                  href: manage-sales-close-agent.md
-                - name: Configure requirements for Sales Close Agent - Engage
-                  href: configure-requirements-for-sales-close-agent.md  
-                - name: View agent insights and metrics
-                  href: view-sales-close-agent-engage-insights-metrics.md
-                - name: View records processed by agent
-                  href: view-sales-close-agent-engage-processed-records.md  
-                - name: How the agent works
-                  href: how-sales-close-agent-engage-mode-works.md
+                  - name: Set up through the Setup Assistant (preview)
+                    href: sales-close-agent-engage-setup-assistant.md
+                  - name: Open the settings page
+                    href: open-sales-close-agent-settings.md
+                  - name: Configure the agent profile
+                    href: configure-sales-close-agent-profile.md
+                  - name: Configure product details
+                    href: configure-sales-close-agent-product-details.md
+                  - name: Configure target customers
+                    href: configure-sales-close-agent-target-customers.md
+                  - name: Configure email delivery
+                    href: configure-sales-close-agent-email-delivery.md
+                  - name: Configure email content
+                    href: configure-sales-close-agent-email-content.md
+                  - name: Configure knowledge sources
+                    href: configure-sales-close-agent-knowledge-sources.md
+                  - name: Test the agent
+                    href: sales-close-agent-engage-test.md
+                  - name: Start the agent
+                    href: start-sales-close-agent.md
+                  - name: Manage the agent
+                    href: manage-sales-close-agent.md
+                  - name: Configure requirements for Sales Close Agent - Engage
+                    href: configure-requirements-for-sales-close-agent.md
+                  - name: View agent insights and metrics
+                    href: view-sales-close-agent-engage-insights-metrics.md
+                  - name: View records processed by agent
+                    href: view-sales-close-agent-engage-processed-records.md
+                  - name: How the agent works
+                    href: how-sales-close-agent-engage-mode-works.md
           - name: AI-powered Data Enrichment (preview)
             items:
               - name: Overview
@@ -367,6 +367,34 @@ items:
                 href: teams-integration/enable-record-linking.md
               - name: Enable Sensitivity labels
                 href: teams-integration/sensitivity-labels.md
+          - name: Sales Hub Dialer
+            items:
+              - name: Overview
+                href: sales-hub-dialer-overview.md
+              - name: Enable and configure Sales Hub Dialer
+                href: configure-sales-hub-dialer.md
+              - name: Prerequisites
+                href: sales-hub-dialer-prerequisites.md
+              - name: "Step 1: Sync Teams phone numbers to Dynamics 365"
+                href: sales-hub-dialer-sync-numbers.md
+              - name: "Step 2: Configure Omnichannel dialer"
+                href: sales-hub-dialer-configure-cif.md
+              - name: "Step 3: Set up capacity profiles"
+                href: sales-hub-dialer-capacity-profiles.md
+              - name: "Step 4: Configure inbound and outbound profiles"
+                href: sales-hub-dialer-call-profiles.md
+              - name: "Step 5: Assign phone numbers to sellers"
+                href: sales-hub-dialer-assign-numbers.md
+              - name: "Step 6: Create a bookable resource"
+                href: sales-hub-dialer-bookable-resource.md
+              - name: Enable Dataverse search for dialer
+                href: sales-hub-dialer-dataverse-search.md
+              - name: Understand how call routing works
+                href: sales-hub-dialer-call-routing.md
+              - name: Configure voicemail
+                href: sales-hub-dialer-voicemail.md
+              - name: FAQs about Sales Hub Dialer
+                href: faq-sales-hub-dialer.md
       - name: Productivity and document management
         items:
           - name: Activity management
@@ -1035,6 +1063,14 @@ items:
                 href: teams-integration/teams-collaboration-enhanced-experience.md
               - name: Linking records to Microsoft Teams channels FAQs
                 href: teams-integration/link-records-to-teams-faq.md
+          - name: Sales Hub Dialer
+            items:
+              - name: Overview
+                href: sales-hub-dialer-overview.md
+              - name: Make and receive calls in Sales Hub Dialer
+                href: make-receive-calls-sales-hub-dialer.md
+              - name: FAQs about Sales Hub Dialer
+                href: faq-sales-hub-dialer.md
       - name: Productivity and document management
         items:
           - name: Activity management
@@ -1537,7 +1573,7 @@ items:
           - name: Sales Close Agent - Research FAQs
             href: faqs-about-opportunity-research.md
           - name: Sales Close Agent - Engage FAQ
-            href: faqs-about-sales-close-agent-engage.md  
+            href: faqs-about-sales-close-agent-engage.md
       - name: Responsible AI FAQs about Data Enrichment (preview)
         href: faqs-data-enrichment-agent.md
       - name: Responsible AI FAQs about Sales Research Agent

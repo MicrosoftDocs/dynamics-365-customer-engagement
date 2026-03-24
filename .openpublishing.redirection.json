@@ -35965,6 +35965,11 @@
      "redirect_document_id": "false"
     },
     {
+     "source_path": "ce/customer-service/administer/configure-end-of-call-survey.md",
+     "redirect_url": "/dynamics365/customer-service/administer/configure-voice-call-experiences",
+     "redirect_document_id": "false"
+    },
+    {
      "source_path": "ce/customer-service/use/dataverse-entities.md",
      "redirect_url": "/dynamics365/customer-service/develop/dataverse-entities",
      "redirect_document_id": "false"
