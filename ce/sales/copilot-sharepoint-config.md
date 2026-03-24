@@ -19,7 +19,8 @@ Sales organizations often store documents that are related to products and sales
 
 The results that Copilot returns are based on the permissions that users have in SharePoint. If a user doesn't have access to a SharePoint folder, Copilot doesn't show results from that location.
 
-Both content recommendation and question-answering capabilities support only files of type Word, Excel, PowerPoint, and PDF.
+> [!NOTE]
+> Both content recommendation and question-answering capabilities support only files of type Word, Excel, PowerPoint, and PDF.
 
 ## Prerequisites
 
