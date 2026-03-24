@@ -41,11 +41,42 @@ Add conditions to filter opportunities for the Sales Opportunity Agent to focus 
    > [!NOTE]
    > If you didn't specify a look-back period, the preview is empty because the agent only considers opportunities created after it's turned on.
 
-    A sample list of matched opportunities appears along with total matching opportunities. Review the sample to ensure the criteria are correctly set to capture the right opportunities for the agent to research. You can adjust the filter conditions and preview again until you're satisfied with the results. 
+    A sample list of matched opportunities appears along with total matching opportunities. Review the sample to ensure the criteria are correctly set to capture the right opportunities for the agent to research. You can adjust the filter conditions and preview again until you're satisfied with the results.
+
+The agent process a maximum of 2160 opportunities per research cycle, which is determined by the refresh frequency you set. If more opportunities match the criteria, they are processed in the next cycles based on priority and differs the others to next cycle or manual refresh. For example, if 3000 opportunities match the criteria and the agent can only process 2160 in a cycle, it will prioritize and research the top 2160 opportunities based on the prioritization factors below, and the remaining 840 will be eligible for research in subsequent cycles.  
+
+## How the system prioritizes records
+
+Selection criteria help the agent pick the records to research. The agent also prioritizes which records to process first based on factors like opportunity value, estimated close date, and research freshness. This prioritization ensures that the agent researches the most important and relevant opportunities first and surfaces the most effective insights to sellers.
+
+The system scores opportunities based on these factors in the following order of importance:
+
+| Priority order | Factor | What it measures | Higher priority when |
+|----------------|--------|------------------|----------------------|
+| 1 | Estimated revenue | Deal value relative to other opportunities. | The estimated revenue is higher. |
+| 2 | Estimated close date | How soon the deal is expected to close. | The estimated close date is sooner. |
+| 3 | Research freshness | How recently the agent researched the opportunity. | The opportunity hasn't been researched recently. |
+| 4 | Email activity | Emails received from the last research cycle. | More emails received since the last research cycle. |
+| 5 | Predictive score | AI-generated score indicating the likelihood of winning the deal. | The opportunity has a *lower* predicted win rate&mdash;it might need more attention. |
+| 6 | Manual refresh request | Whether a seller manually requested the agent to refresh research on the opportunity. | The seller requested a manual refresh. |
+
+Each opportunity receives a score between 0 and 100, with higher scores indicating higher priority. The system recalculates scores for [each research cycle](configure-sales-close-agent-research-refresh-frequency.md), so an opportunity's position in the queue can change as the factors evolve.  
+By default, the system gives more weight to research freshness and manual refresh request, reflecting the importance of keeping data current and responding to seller intent. When an opportunity receives multiple manual refresh requests within the same refresh cycle, the agent automatically prioritizes it high regardless of its score on other factors.
+
+To manually refresh an opportunity, go to the opportunity record in research mode and select **Refresh**.
+
+### Considerations for prioritization
+
+The following considerations apply to how the system prioritizes records for research:
+
+- Each research cycle has a fixed processing capacity based on your configured refresh frequency. 
+- If more records are eligible than the system can process in a single cycle, it prioritizes and processes only the highest-priority opportunities.
+- If your selection criteria exceed the current cycle's capacity, the selection criteria preview shows a warning message.
+- Unprocessed records remain eligible and the system can pick them up in subsequent cycles as it recalculates priorities.
 
 ## Next step
 
-[Configure refresh frequency.](configure-sales-close-agent-research-refresh-frequency.md)
+[Configure refresh frequency](configure-sales-close-agent-research-refresh-frequency.md).
 
 ## Related information
 
