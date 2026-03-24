@@ -37,23 +37,23 @@ When you receive an incoming call, you can transfer the call to a service repres
 1. Select **Transfer** in the call window.
 
     :::image type="content" source="../media/oc-transfer-scn.png" alt-text="A screenshot of the transfer option.":::
-   
+
    The **Transfer** dialog displays **Representatives**, **Queue**, **Teams**, and **External number** tabs.   
 
 1. Based on your requirement, perform one of the following steps.
 
     - **Transfer to a representative**: On the **Representative** tab, search for the representative you want to transfer the call to. Select the representative from the search results, and then select **Transfer**. The customer is put on hold. The representative who picks up the transferred call becomes the primary representative and you become the secondary representative and are removed from the call. Your capacity and presence status are updated accordingly.
     - **Transfer to a queue**: Select **Queue**, search for the queue you want to transfer the call to, and then select **Transfer**. The customer is put on hold. The representative who picks up the transferred call becomes the primary representative and you become the secondary and are removed from the call.
-    
+
       > [!NOTE]
       > - When you transfer a call to a queue that doesn't have any representatives, the application automatically ends the call and sets the status to Closed.
       > - If you transfer a call from a phone number linked to an inbound or outbound profile to a queue with a Copilot agent, the agent can only speak to the customer and end the call. The agent can't transfer the call to another agent or external number, even if you configure the Escalation topic in Copilot Studio.
 
         :::image type="content" source="../media/voice-call-transfer-to-representative-mini.png" alt-text="Screenshot of selecting a representative to transfer the call." lightbox="../media/voice-call-transfer-to-representative.png":::
-    
+
     - **Transfer to an external PSTN number or Teams user**: Select **External number**. On the number pad that appears, enter the customer's area or region code, phone number, and then select **Call** to make your call. 
-    -  **Transfer to Teams user**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence of the users in Microsoft Teams. <br> 
-    
+    - **Transfer to Teams user**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence of the users in Microsoft Teams. <br> 
+
     The transfer and consult behaviors depend on the voice channel experience your administrator configured.
 
     > [!NOTE]
@@ -62,7 +62,7 @@ When you receive an incoming call, you can transfer the call to a service repres
     ### [Enhanced voice](#tab/enhancedvoicestack)
 
     When you initiate a transfer, the application ends the call for you as soon as the Teams user or user with the external number accepts or rejects the call. You don't need to press a button to leave the call. To make sure that the secondary service representative answers the call, you can use the **Consult** option to collaborate with the secondary representative before transferring the call.
-     
+
     The following actions occur based on the **Use bridged transfers** setting:
     - **Enabled**
        - Customer hears hold music.
@@ -131,6 +131,33 @@ When you initiate a consult, the following actions occur:
 ### Consult to queue
 
 If your administrator enabled [consult to queue](../administer/enable-transfer-consult.md#enable-consult-to-queue), the option to consult with a queue appears on the chat window when you select the consult option. Learn more in [Consult to queue](oc-conversation-control.md#consult-queue).
+
+## Consult with external contacts and transfer a call securely (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+
+If your administrator configured [security settings](../administer/configure-voice-call-experiences.md#set-up-secured-experience-for-consult-with-and-transfer-to-external-contacts-preview) for consult with or transfer to external contacts, learn how the system handles recording and transcription of the call.
+
+The secure settings work only when the following prerequisites are fulfilled:
+
+- [Inbound calling](/dynamics365/customer-service/administer/voice-channel-inbound-calling) is set up with the **External phone numbers** checkbox selected for **Consult** and **Transfer** in the Workstream.
+- **Use bridged transfer** is enabled for the workstream. If bridged transfer isn't enabled, recording and transcription settings for bridged transfer won't apply and the system stops recording and transcription by default when the call is transferred. Learn more in [Transfer calls to external numbers](../administer/voice-channel-inbound-calling.md#transfer-calls-to-external-numbers-and-teams-users).
+
+The system automatically applies one of the following security settings when the external contact joins the call or the call is transferred to the contact.  
+
+- Recording and transcription occur based on workstream settings.
+- Recording stops, but transcription continues if active. For consult, you can't modify the recording or transcription state during active consultation.
+- Recording and transcription stop for maximum security. For consult, you can't modify the recording or transcription state during active consultation.
+
+For secure consult, one of the following hold actions are applicable:
+
+- You're placed on hold while the customer interacts with the external contact. If there are multiple service representatives on the call when secure consult is initiated, all the service representatives are put on hold when secure consult joins the call. Everyone is removed from hold when the secure consult leaves the call. You can't modify the hold during consultation.
+- Hold settings configured for the workstream are applicable.
+
+> [!NOTE]
+> If secure settings aren't configured for external contacts, recording and transcription continue after consult or bridged transfer to external contacts.
+
+When the external contact leaves the call, recording and transcription resume, and participants are removed from hold based on the workstream settings. You can initiate a transfer to the secure number after consult begins. The bridged transfer settings are applicable to the call.
 
 ### Related information
 
