@@ -75,15 +75,23 @@ To create your own custom outreach scenario and personalization guidance, provid
 
 You can use personalization tokens in your email guidance to dynamically insert information into the generated emails. Personalization tokens pull data from lead records and help create contextually relevant outreach.
 
-Common personalization tokens include:
-- `[First Name]` - Recipient's first name
-- `[Company Name]` - Lead's company name
-- `[Industry]` - Lead's industry
-- `[Topic]` - Relevant topic or product area
-- `[Value Prop]` - Your value proposition
+Out-of-the-box personalization tokens include:
+
+- `[lead.firstname]`
+- `[lead.lastname]`
+- `[lead.companyname]`
+- `[lead.subject]`
+- `[lead.industry]`
+- `[lead.city]`
+- `[lead.country]`
+- `[accountResearch.accountoverview]`
+- `[accountResearch.accountnews]`
+- `[sellerCompanyName]`
+- `[valueProposition]`
+- `[sellerCompanyWebsite]`
 
 **Example:** 
-**Subject Line:** "Casual, brief, and formatted as a question. (For example, "Still looking at [Topic]?" or "Still interested in [Value Prop]?")"
+**Subject Line:** "Casual, brief, and formatted as a question. (For example, "Still looking at [lead.subject]?" or "Still interested in [valueProposition]?")"
 
 ### Define the outreach scenario
 
