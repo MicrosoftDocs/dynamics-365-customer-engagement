@@ -25,7 +25,7 @@ This article covers a scenario that shows how agreements can generate work order
 
 Before you set up a customer agreement, confirm that the following are already in place:
 
-- Work order-related data is configured in your system, including accounts, incident types, products, services, and service tasks .
+- Work order-related data is configured in your system, including accounts, incident types, products, services, and service tasks.
 
 - [Agreement settings](configure-default-settings.md#agreement-settings) are configured. Consider specifying an agreement prefix and start number.
 
@@ -36,7 +36,7 @@ Before you set up a customer agreement, confirm that the following are already i
 
 ## Automatically generate work orders for asset maintenance
 
-An organization must perform monthly maintenance on a piece of equipment they installed at a customer's location for the next year. They want to use Dynamics 365 Field Service to automatically generate the maintenance jobs in the middle of each month, with *some* flexibility. They want dispatchers to schedule the monthly maintenance jobs to the best and most appropriate field technicians and bill the customer for completed work at an agreed price.
+The scenario: An organization must perform monthly maintenance on a piece of equipment they installed at a customer's location for the next year. They want to use Dynamics 365 Field Service to automatically generate the maintenance jobs in the middle of each month, with *some* flexibility. They want dispatchers to schedule the monthly maintenance jobs to the best and most appropriate field technicians and bill the customer for completed work at an agreed-on price.
 
 This scenario is independent of [Set up agreements to automatically generate invoices](set-up-agreements-invoices.md). You can generate work orders without generating invoices.
 
@@ -58,7 +58,7 @@ To configure this scenario, use agreements, customer assets, incident types, and
 
    :::image type="content" source="media/agreement-create.svg" alt-text="Screenshot of an agreement showing all the fields.":::
 
-1. In the **Other** tab, enter more details such as the **Service Territory** for the resulting work orders, and **Record Generation Time**, which determines the time of day work orders, invoices, and other records related to this agreement are generated. This definition is important because some organizations don't want agreements to create work orders in the middle of the working day. If no value is set, it defaults to the value in **Field Service Settings**.
+1. In the **Other** tab, enter more details such as the **Service Territory** for the resulting work orders, and **Record Generation Time**, which determines the time of day that work orders, invoices, and other records related to this agreement are generated. This definition is important because some organizations don't want agreements to create work orders in the middle of the working day. If no value is set, it defaults to the value in **Field Service Settings**.
 
 1. Select **Save**.  
 
@@ -69,7 +69,7 @@ Once the agreement is created, specify how often work orders should be generated
 1. On the **General** tab in the **Booking Setups** section, select **New Agreement Booking Setup**.
 
    > [!TIP]
-   > You might need to select the vertical ellipsis &vellip; before selecting **New Agreement Booking Setup**.
+   > You might need to select the vertical ellipsis ( **&vellip;** ) before selecting **New Agreement Booking Setup**.
 
    :::image type="content" source="media/agreement-create-booking-setup.svg" alt-text="Screenshot of an agreement highlighting New Agreement Booking Setup.":::
 
@@ -94,7 +94,7 @@ Once the agreement is created, specify how often work orders should be generated
 
    - **Estimated Duration**: Select the time estimated for this type of work order.
 
-   - **Pre Booking Flexibility** and **Post Booking Flexibility** fields specify how many days before and after the anticipated schedule date the work order can be scheduled. These fields populate the **Date Window Start** and **Date Window End** fields on the generated work orders to aid the schedule assistant. For example, if you plan to perform monthly maintenance on the eighth of each month, and set pre and post-booking flexibility to seven days, then the work orders can be scheduled between the first and the 15th of each month.
+   - **Pre Booking Flexibility** and **Post Booking Flexibility** fields specify how many days before and after the anticipated schedule date the work order can be scheduled. These fields populate the **Date Window Start** and **Date Window End** fields on the generated work orders to aid the schedule assistant. For example, if you plan to perform monthly maintenance on the eighth of each month, and set pre- and post-booking flexibility to seven days, then the work orders can be scheduled between the first and the 15th of each month.
 
    - **Time Window Start** and **Time Window End** can be specified to create a time window for generated work orders, which the schedule assistant includes. (Example: Work order should be scheduled between 8:00 AM and 12:00 PM).  
 
@@ -131,7 +131,7 @@ If you don't want to use agreement booking incident types, you can add products,
 1. On the **General** tab in the **Incidents** section, select **New Agreement Booking Incident**. Use the tooltips as a guide to specify the incident details.
 
    > [!TIP]
-   > You might need to select the vertical ellipsis &vellip; before selecting **New Agreement Booking Setup**.
+   > You might need to select the vertical ellipsis ( **&vellip;** ) before selecting **New Agreement Booking Setup**.
 
    :::image type="content" source="media/agreement-incident.svg" alt-text="Screenshot of an agreement booking incident.":::
 
@@ -178,7 +178,7 @@ After a field technician performs an agreement work order and a manager closes i
 
 - [Set up agreements to automatically generate invoices](set-up-agreements-invoices.md)
 - [Manage customer agreements](manage-agreements.md)
-- [Set up agreement sub-statuses](set-up-agreement-sub-statuses.md)
+- [Set up agreement substatuses](set-up-agreement-sub-statuses.md)
 - [Create work order templates with incident types](configure-incident-types.md)
 - [Create and manage customer accounts](accounts.md)
 
