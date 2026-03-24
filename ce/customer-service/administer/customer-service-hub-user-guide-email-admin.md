@@ -1,7 +1,7 @@
 ---
 title: Configure email
 description: Learn how to configure enhanced email settings, attachment limits, and blocked file types for email in Dynamics 365 customer engagement apps.
-ms.date: 03/24/2025
+ms.date: 03/24/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
