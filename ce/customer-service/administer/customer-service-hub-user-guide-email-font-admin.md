@@ -1,12 +1,13 @@
 ---
 title: Configure the email experience in customer engagement apps 
-description: Learn how to configure the email experience in customer engagement apps.
-ms.date: 03/03/2025
+description: Learn how to configure the email editor, template builder, and signature builder in Dynamics 365 customer engagement apps.
+ms.date: 03/24/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
-ms.custom: bap-template
+ms.service: dynamics-365-customer-engagement
+ms.subservice: administrator
 ---
 
 
@@ -17,7 +18,7 @@ The email configuration experience enables users to be more effective and effici
 > [!NOTE]
 > If you're using the Activity Editor control, we recommend that you use the rich text editor control instead because the Activity Editor control has been deprecated. Learn more in [Use the rich text editor control in Power Apps](/power-apps/maker/model-driven-apps/rich-text-editor-control#defaultsupportedprops). 
 
-Each instance of the email editor or builder can be configured independently, enabling you to:
+You can configure each instance of the email editor or builder independently to:
 
 - Choose the fonts you want
 - Set a default font
@@ -30,7 +31,7 @@ Each instance of the email editor or builder can be configured independently, en
 
 You can configure email by using a web resource file that can be modified as needed and then linked to the email form.
 
-Enabling the user configured settings to an email form consists of the following steps:
+Enabling user-configured settings for an email form consists of the following steps:
 1.	[Configure the web resource file](#configure-the-web-resource-file)
 1.	[Enable the RTE control in the email form](#enable-the-rte-control-in-the-email-form)
 
@@ -65,7 +66,7 @@ Enabling the user configured settings to an email form consists of the following
 3.  Save the URL to the new web resource because you need it to map the new web resource file to the **Enhanced Email** form.
    
      ![Save web resource URL.](../media/email-web-resource-url.png "Save the web resource URL.")
-5.  Navigate to **Customization** > **Customize the system** > **Entity** > **Email** > **Forms**.
+5.  Navigate to **Customizations** > **Customize the system** > **Entity** > **Email** > **Forms**.
 6.  Open the **Enhanced Email** form, double-click **Description**, and then navigate to the **Control** tab.
 7.  Add the RTE control, select **Custom Configuration URL**, and then in the URL field, enter the URL from the new web resource file you created.
 8.  Select **Save** and then **Publish All Customizations**.
@@ -115,7 +116,7 @@ To enable the language filter for the [enhanced email template selection](/power
 1. In **Visible**, select **Visible by default**. 
 1. Save and publish the changes.
 
-## Customize the enhanced email template selection view
+## Customize the enhanced email template selection experience
 
 The [enhanced email template selection](/power-apps/user/insert-email-template#new-email-template-selection-window) window displays the **Select Record dialog** and allows service representatives to toggle between email template views. To enable these features, complete the following steps.
 
