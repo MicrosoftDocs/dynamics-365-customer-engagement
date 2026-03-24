@@ -75,7 +75,7 @@ After you enable dual-tone multi-frequency (DTMF) input broadcast, the keypad in
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-Configure the system to enforce security for recording, transcription, and hold settings during consultation with or transfer to external contacts, such as payment gateways and verification service numbers. Learn how the security settings affect consultation and transfer experiences in [Consult with external contacts and transfer a call securely](../use/voice-channel-transfer-consult.md#)
+Configure the system to enforce security for recording, transcription, and hold settings during consultation with or transfer to external contacts, such as payment gateways and verification service numbers. Learn how the security settings affect consultation and transfer experiences in [Consult with external contacts and transfer a call securely](../use/voice-channel-transfer-consult.md#consult-with-external-contacts-and-transfer-a-call-securely-preview).
 
 > [!NOTE]
 > If you don't configure the secure settings, recording and transcription continue during consultation or after bridged transfer to external contacts.
