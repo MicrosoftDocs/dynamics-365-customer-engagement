@@ -14,7 +14,7 @@ Learn how to navigate the Dynamics 365 Field Service web app.
 
 ## Navigate using the site map
 
-The following image shows the site map, also called the navigation panel in the Field Service web app. Use site map helps you navigate to different areas of the app.
+The following image shows the site map, also called the navigation panel in the Field Service web app. Use the site map to help you navigate to different areas of the app.
 
 :::image type="content" source="media/navigate-site-map.png" alt-text="Screenshot in the Field Service web app highlighting key navigation tools." lightbox="media/navigate-site-map.png":::
 
