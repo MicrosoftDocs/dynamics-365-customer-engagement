@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.reviwer: nenellim
-ms.date: 09/25/2025
+ms.date: 03/24/2026
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -25,7 +25,8 @@ As an administrator, you can enable live translation, transcription, and recordi
 
 ## Prerequisites
 
-For call recording to work as expected, allow the audio and mpeg MIME type for your environment in Power Platform admin center. Learn more in [Manage privacy and security settings](/power-platform/admin/settings-privacy-security).
+- You must have the **System Administrator** role.
+- For call recording to work as expected, allow the audio and mpeg MIME type for your environment in Power Platform admin center. Learn more in [Manage privacy and security settings](/power-platform/admin/settings-privacy-security).
 
 ## Enable call recording and transcription for voice
 
@@ -102,6 +103,39 @@ The maximum file size of a recording can be 512 MB. The data storage cost with t
 - 20-minute call transcript = 40 KB
 
 Learn more about long term data retention with Dataverse in [Dataverse long term data retention overview](/power-apps/maker/data-platform/data-retention-overview).
+
+## Set retention rules for omnichannel call recordings and transcripts
+
+Administrators can configure retention rules for omnichannel call recordings and transcripts in Dynamics 365 Contact Center by using **Bulk Record Deletion** jobs. Setting appropriate retention periods helps organizations comply with regulatory requirements and manage storage efficiently.
+
+By default, call recordings and Omnichannel transcripts are retained indefinitely. Microsoft Copilot Studio transcripts are retained for 30 days.
+
+## Set retention for call recordings
+
+1. Sign in to your Dynamics 365 environment.
+1. In your browser, go to the following URL:
+https://yourURL.crm.dynamics.com/tools/bulkdelete/home_bulkDeletionJobs.aspx and replace yourURL with your organization’s Dynamics 365 URL.
+1. On the **Bulk Record Deletion** page, select **New** to start a new bulk delete job.
+1. In **Bulk Deletion Wizard**, select **Next**.
+1. In **Define search criteria**, in the **Look for** dropdown, select **Screen recordings**.
+1. Select the **Select** hyperlink and then select **Created On**.
+1. Set the condition to **Older Than X Days**. Enter the retention period in days (for example, 365 for one year) in the **Choose Date **text box. 
+1. Select **Next**.
+1. Enter a name for the job, such as **Bulk Delete Screen Recordings Older Than 1 Year**.
+1. Schedule the job during a low-activity period (for example, 3:00 AM).
+1. Set the job recurrence (daily or every few days). Optionally, enable email notifications for job completion.
+1. Select **Next**.
+1. In **Review and Submit Bulk Deletion Details**, review your configuration.
+1. Select **Submit** to create the bulk delete job.
+
+[!WARNING]
+Deleted call recordings can’t be recovered. Verify your criteria carefully before submitting the job.
+
+## Set retention for omnichannel transcripts
+
+To configure retention for omnichannel transcripts, repeat the same steps used for screen recordings except for the following:
+
+In the **Look for **list, select **Transcripts* *instead of **Screen Recordings**.
 
 ### Related information
 
