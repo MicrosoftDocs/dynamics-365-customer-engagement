@@ -1,18 +1,19 @@
 ---
 title: Download file attachments from an Azure bot
 description: Learn how to download attachments from an Azure bot in the Microsoft Teams channel.
-ms.date: 02/28/2026
+ms.date: 03/24/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
-ms.custom: bap-template
+ms.service: dynamics-365-customer-service
+ms.subservice: developer
 ---
 # Download file attachments from an Azure bot
 
-This article describes how to download file attachments from an Azure bot (AI agent) used in Omnichannel for Dynamics 365 Customer Service. 
+This article describes how to download file attachments from an Azure bot used with messaging in Dynamics 365 Customer Service.
 
-Follow these steps to download attachments from an Azure bot in Omnichannel.
+To download attachments from an Azure bot, complete the following steps:
 
 1. [Get the token for your bot](/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0&preserve-view=true) using your bot's Microsoft App ID and client secret.
 
@@ -39,15 +40,15 @@ HttpResponseMessage response = await client.SendAsync(httpRequest);
 > [!NOTE]
 > The information in this section is applicable to Government Community Cloud (GCC) only.
 
-This section describes how to manage file attachments in the Omnichannel agent service messaging platform.
+This section describes how to manage file attachments in the messaging channel.
 
-First, let's quickly review file attachment formats in the Omnichannel agent service channel.
+First, review file attachment formats in the messaging channel.
 
 ### File attachment formats
 
-When file attachments are sent from Dynamics 365 Contact Center to the Azure agent on the Omnichannel agent service channel, the information required to download the files is passed in the `amsReferences` and `amsMetadata` fields of the `Activity.ChannelData` property.
+When file attachments are sent from Dynamics 365 Contact Center to the Azure agent on the messaging channel, the information required to download the files is passed in the `amsReferences` and `amsMetadata` fields of the `Activity.ChannelData` property.
 
-**Omnichannel agent service channel**
+**Messaging channel**
 
 ```json
 {
