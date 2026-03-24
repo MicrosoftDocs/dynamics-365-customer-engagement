@@ -1,4 +1,4 @@
-<img width="1087" height="482" alt="image" src="https://github.com/user-attachments/assets/71c26b91-2ec2-49d6-8a8b-6c93afb2bf9a" />---
+---
 title: Configure Copilot to use specific SharePoint folders
 description: Learn how to configure Copilot to look at specific SharePoint locations to get content recommendations and answers from SharePoint.
 ms.date: 03/13/2026
