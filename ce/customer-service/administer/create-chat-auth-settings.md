@@ -1,7 +1,7 @@
 ---
 title: Configure authentication settings
 description: Perform the steps mentioned in this article to configure chat and channel authentication settings in Dynamics 365 Contact Center.
-ms.date: 03/03/2025
+ms.date: 03/24/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -18,7 +18,7 @@ You can create authentication settings to validate a signed-in customer from a d
 
 For example, you can have separate queues for anonymous customers and authenticated customers. Because you have more information about your authenticated customers, you can also prioritize them based on specific variables, such as a shopping cart value or a privileged status.
 
-After you create an authentication settings record, you must add it to a channel instance within a workstream's channel setup to make it work. Authentication is supported for these channels:
+After you create an authentication settings record, you must add it to a channel instance in a workstream to make it work. Authentication is supported for these channels:
 - Chat
 - Apple Messages for Business
 
@@ -31,7 +31,7 @@ To indicate whether a customer is authenticated, the customer service representa
 
 ## Create an authentication setting record for chat
 
-You can create a chat authentication setting record in the admin app.
+You can create a chat authentication setting record in Copilot Service admin center.
 
 1. In the site map of Copilot Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 
@@ -234,7 +234,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
      > ![Authenticated chat runtime.](../media/auth-chat-runtime.png "Authenticated chat runtime")
 
 
-## Create authentication settings for Apple Messages for Business<a name="socialauth"></a>
+## Create authentication settings for Apple Messages for Business
 
 ### Prerequisites
 
@@ -246,13 +246,13 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
 ### Create an authentication setting record for Apple Messages for Business using OAuth 2.0 OpenID connect flow
 
-1. In the Copilot Service admin center site map, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings appear.
+1. In the Copilot Service admin center site map, go to **Customer support** > **Customer settings**, and then select **Manage** for **Authentication settings**. A list of existing authentication settings appears.
 
 1. Select **New authentication setting**, and on the **Add authentication setting** page, provide the following details:
 
      1. On the **Channel type** page, enter a name, and then select **Apple Messages for Business** as the channel type.<br>
         
-     2. Change the authentication type **OAuth 2.0 OpenID connect flow**.<br>
+     2. For **Authentication type**, select **OAuth 2.0 OpenID connect flow**.<br>
     
      3. On the **Add authentication setting** page, provide the following information:<br>
         - **Client ID**: OAuth 2.0 Client Identifier issued by an authorization server.<br>
@@ -263,7 +263,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
         - **Additional parameters**: Allows authentication services to take extra parameters from the request.
      
      3. On the **Additional details** page, you can optionally define an access token expiry time, in seconds. The default expiry time is one hour.<br>
-        After the specified time, the **Authenticated** field in the **Customer summary** section of a previously authenticated conversation changes to **No**.<br>
+        After the specified time, the **Authenticated** field in the **Conversation summary** section of a previously authenticated conversation changes to **No**.<br>
       
      4. On the **Rich messages** page, select **Add**, and then select one or more rich messages to associate with this authentication setting.<br>
     
