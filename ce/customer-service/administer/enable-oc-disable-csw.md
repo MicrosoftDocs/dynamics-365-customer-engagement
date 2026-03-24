@@ -1,6 +1,6 @@
 ---
 title: Manage app visibility for Omnichannel users during transition to Copilot Service workspace
-description: Enable the Dynamics 365 Omnichannel for Customer Service app and disable the Copilot Service workspace app for Omnichannel users
+description: Learn how to manage app visibility for users assigned Omnichannel roles during the transition to Copilot Service workspace in Dynamics 365 Customer Service.
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
