@@ -1,5 +1,5 @@
 ---
-title: Configure the Sales Opportunity Agent (preview)
+title: Set up and configure the Sales Opportunity Agent (preview)
 description: Learn how to set up and configure the Sales Opportunity Agent in Dynamics 365 Sales.
 ms.date: 03/13/2026
 ms.topic: overview
@@ -13,7 +13,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Setup and configure the Sales Opportunity Agent (preview)
+# Set up and configure the Sales Opportunity Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 

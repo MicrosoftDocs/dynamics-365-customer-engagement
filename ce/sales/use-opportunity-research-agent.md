@@ -1,5 +1,5 @@
 ---
-title: Work on opportunities handled by the Sales Opportunity Agent (preview)
+title: Work on opportunities handled by the Sales Opportunity Agent
 description: Learn how to work on opportunities handled by the Sales Opportunity Agent.
 ms.date: 02/09/2026
 ms.topic: how-to
@@ -13,13 +13,9 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Work on opportunities handled by Sales Opportunity Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Work on opportunities handled by Sales Opportunity Agent
 
 The Sales Opportunity Agent in Dynamics 365 Sales helps you focus on the most important opportunities. By identifying high-value and at-risk opportunities, the agent helps you prioritize your efforts. With critical insights and recommendations, you can quickly ramp up on opportunities, engage the right stakeholders, and mitigate risks effectively.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
@@ -153,5 +149,5 @@ The agent refreshes the research insights based on the refresh frequency configu
 
 ## Related information
 
-- [Configure the Sales Opportunity Agent (preview)](configure-opportunity-research-agent.md)
-- [FAQs about Sales Opportunity Agent (preview)](faqs-about-opportunity-research.md)
+- [Configure the Sales Opportunity Agent](configure-opportunity-research-agent.md)
+- [FAQs about Sales Opportunity Agent](faqs-about-opportunity-research.md)

@@ -67,8 +67,8 @@ If you enable both server-side synchronization and Microsoft 365 Services, the a
 
 ## Next step
 
-[Configure the agent profile for Sales Opportunity Agent](configure-sales-close-agent-profile.md).
+[Configure the agent profile for Sales Opportunity Agent](configure-sales-close-agent-profile-research.md).
 
 ## Related information
 
-[Set up and configure the Sales Opportunity Agent (preview)](configure-sales-close-agent.md).
+[Set up and configure the Sales Opportunity Agent](configure-opportunity-research-agent.md).
