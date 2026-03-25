@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.reviwer: nenellim
-ms.date: 03/24/2026
+ms.date: 09/25/2025
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -25,8 +25,7 @@ As an administrator, you can enable live translation, transcription, and recordi
 
 ## Prerequisites
 
-- You must have the **System Administrator** role.
-- For call recording to work as expected, allow the audio and mpeg MIME type for your environment in Power Platform admin center. Learn more in [Manage privacy and security settings](/power-platform/admin/settings-privacy-security).
+For call recording to work as expected, allow the audio and mpeg MIME type for your environment in Power Platform admin center. Learn more in [Manage privacy and security settings](/power-platform/admin/settings-privacy-security).
 
 ## Enable call recording and transcription for voice
 
