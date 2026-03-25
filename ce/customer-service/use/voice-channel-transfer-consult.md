@@ -140,7 +140,7 @@ If your administrator configured [security settings](../administer/configure-voi
 
 The secure settings work only when the following prerequisites are fulfilled:
 
-- [Inbound calling](/dynamics365/customer-service/administer/voice-channel-inbound-calling) is set up with the **External phone numbers** checkbox selected for **Consult** and **Transfer** in the Workstream.
+- [Inbound calling](/dynamics365/customer-service/administer/voice-channel-inbound-calling) is set up with the **External phone numbers** checkbox selected for **Consult** and **Transfer** in the workstream.
 - **Use bridged transfer** is enabled for the workstream. If bridged transfer isn't enabled, recording and transcription settings for bridged transfer won't apply and the system stops recording and transcription by default when the call is transferred. Learn more in [Transfer calls to external numbers](../administer/voice-channel-inbound-calling.md#transfer-calls-to-external-numbers-and-teams-users).
 
 The system automatically applies one of the following security settings when the external contact joins the call or the call is transferred to the contact.  
