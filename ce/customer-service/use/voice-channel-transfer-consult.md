@@ -136,7 +136,7 @@ If your administrator enabled [consult to queue](../administer/enable-transfer-c
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-If your administrator configured [security settings](../administer/configure-voice-call-experiences.md#set-up-secured-experience-for-consult-with-and-transfer-to-external-contacts-preview) for consult with or transfer to external contacts, learn how the system handles recording and transcription of the call.
+If your administrator configured [security settings](../administer/configure-voice-call-experiences.md#set-up-secure-consult-with-and-transfer-to-external-contacts-preview) for consult with or transfer to external contacts, learn how the system handles recording and transcription of the call.
 
 The secure settings work only when the following prerequisites are fulfilled:
 

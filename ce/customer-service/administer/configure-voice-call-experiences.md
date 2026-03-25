@@ -19,7 +19,7 @@ Use the **Voice call experiences** page in Copilot Service admin center to confi
 - [Configure representative call quality feedback survey](#configure-representative-call-quality-feedback-survey)
 - [Disable taking a customer off hold automatically](#disable-taking-a-customer-off-hold-automatically)
 - [Allow DTMF input broadcast across all participants during a call](#allow-dtmf-input-broadcast-across-all-participants-during-a-call)
-- [Set up secured experience for consult with and transfer to external contact]
+- [Set up secured experience for consult with and transfer to external contact](#set-up-secure-consult-with-and-transfer-to-external-contacts-preview)
 
 ## Configure representative call quality feedback survey
 
@@ -71,7 +71,7 @@ After you enable dual-tone multi-frequency (DTMF) input broadcast, the keypad in
 1. In Copilot Service admin center, select **Workspaces** > **Voice call experiences** > **Manage**.
 1. Turn on the toggle for **Allow DTMF to be broadcasted across all participants during a call** and save the changes.
 
-## Set up secured experience for consult with and transfer to external contacts (preview)
+## Set up secure consult with and transfer to external contacts (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -87,21 +87,21 @@ Configure the system to enforce security for recording, transcription, and hold 
    - **First name**  
    - **Last name**  
    - **Mobile number**  
-   - Under **Privacy & security** > **Consult** and **Privacy & security** > **Bridged transfer**, set how calls need to be handled:  
-     - **Transcription & recording**: Select one of the following options for **Consult** and **Bridged transfer** to indicate how the system should handle recording and transcription when consulting with or transferring a call to this external contact.
-          - **Follow workstream settings**: Inherits the workstream configuration for transcription and recording. You can use this option when you don’t need a override for this number. Learn more in [Enable call recording and transcription for voice](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice).
-          - **Turn off recording (keep transcription if active)**: Stops audio recording but continues transcription. This option is useful when audio storage isn’t allowed, but text transcripts are allowed for auditing.
-          - **Turn off transcription & recording**: Recording and transcription are disabled. This setting is ideal for highly sensitive calls where data capture isn't allowed.  
-     - **Hold**: This setting is applicable to consult only. Select one of the following options to indicate how the system should handle hold settings when consult is in progress with this external contact.
-          - **Customer on hold**: The customer is automatically placed on hold during the secure consult, and the hold cannot be removed by the representative.
-          - **Agent on hold**: The customer service representative is automatically placed on hold during the secure consult, and the hold cannot be removed by the representative. If multiple service representatives are on the call, they are all placed on hold.
-          - **Follow workstream settings**: Inherits the workstream configuration setting.
+1. Under **Privacy & security** > **Consult** and **Privacy & security** > **Bridged transfer**, set how calls need to be handled:  
+   - **Transcription & recording**: Select one of the following options for **Consult** and **Bridged transfer** to indicate how the system should handle recording and transcription when consulting with or transferring a call to this external contact.
+     - **Follow workstream settings**: Inherits the workstream configuration for transcription and recording. You can use this option when you don’t need a override for this number. Learn more in [Enable call recording and transcription for voice](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice).
+     - **Turn off recording (keep transcription if active)**: Stops audio recording but continues transcription. This option is useful when audio storage isn’t allowed, but text transcripts are allowed for auditing.
+     - **Turn off transcription & recording**: Recording and transcription are disabled. This setting is ideal for highly sensitive calls where data capture isn't allowed.  
+   - **Hold**: This setting is applicable to consult only. Select one of the following options to indicate how the system should handle hold settings when consult is in progress with this external contact.
+     - **Customer on hold**: The customer is automatically placed on hold during the secure consult, and the hold cannot be removed by the representative.
+     - **Agent on hold**: The customer service representative is automatically placed on hold during the secure consult, and the hold cannot be removed by the representative. If multiple service representatives are on the call, they are all placed on hold.
+     - **Follow workstream settings**: Inherits the workstream configuration setting.
 1. Save and close. The external contact is listed with the configured options.
 
-Manage the external contact to edit the options or delete the contact.
+Edit the external contact to update the options or delete the contact.
 
 > [!NOTE]
-> Secure settings apply to all bridged transfers, including those initiated from AI agents or Overflow actions.
+> Secure settings apply to all bridged transfers, including those initiated from AI agents or overflow actions.
 
 ## Related information
 
