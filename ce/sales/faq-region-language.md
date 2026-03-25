@@ -84,6 +84,7 @@ Exchange integration is only available in specific regions. To use Exchange data
 - Global Geography 1 – EMEA (Austria, Finland, France, England, Ireland, Netherlands).
 - Global Geography 2 – Asia Pacific (Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
 - Global Geography 3 – Americas (Brazil, Chile, United States).
+- GCC and GCC High - Virgina and Texas in the United States. 
 
 Region-specific data center locations aren't supported. If your organization's Office 365 data is in any other region, who-knows-whom insights aren't available. However, relationship analytics are available based on data stored in Dynamics 365.
 
