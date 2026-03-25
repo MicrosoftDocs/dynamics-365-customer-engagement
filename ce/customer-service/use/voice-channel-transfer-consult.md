@@ -155,7 +155,7 @@ For secure consult, one of the following hold actions are applicable:
 - Hold settings configured for the workstream are applicable.
 
 > [!NOTE]
-> If secure settings aren't configured for external contacts, recording and transcription continue after consult or bridged transfer to external contacts.
+> If secure settings aren't configured for external contacts, recording and transcription continue, if they are enabled through workstream settings, after consult or bridged transfer to external contacts.
 
 When the external contact leaves the call, recording and transcription resume, and participants are removed from hold based on the workstream settings. You can initiate a transfer to the secure number after consult begins. The bridged transfer settings are applicable to the call.
 
