@@ -78,7 +78,7 @@ After you enable dual-tone multi-frequency (DTMF) input broadcast, the keypad in
 Configure the system to enforce security for recording, transcription, and hold settings during consultation with or transfer to external contacts, such as payment gateways and verification service numbers. Learn how the security settings affect consultation and transfer experiences in [Consult with external contacts and transfer a call securely](../use/voice-channel-transfer-consult.md#consult-with-external-contacts-and-transfer-a-call-securely-preview).
 
 > [!NOTE]
-> If you don't configure the secure settings, recording and transcription continue, if they are enabled through workstream settings, during consultation or after bridged transfer to external contacts.
+> If you don't configure the secure settings, during consultation with or after bridged transfer to external contacts, recording and transcription continue based on the workstream settings.
 
 1. In Copilot Service admin center, select **Workspaces** > **Voice call experiences** > **Manage**. The **Voice call experiences** page appears.
 
