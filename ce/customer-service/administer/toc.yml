@@ -453,7 +453,7 @@
       - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
       - name: Set up secured experience for consult, transfer to external contacts (preview)
-        href: configure-voice-call-experiences.md#set-up-secured-experience-for-consult-and-transfer-to-external-contacts-preview
+        href: configure-voice-call-experiences.md#set-up-secured-experience-for-consult-with-and-transfer-to-external-contacts-preview
       - name: Manage phone music
         href: voice-channel-music.md
       - name: Use bot framework composer to set up a multilingual bot for voice channel
