@@ -33,6 +33,7 @@ Complete the following tasks in order to enable the Sales Hub Dialer for your or
 | 3 | [Set up capacity profiles](sales-hub-dialer-capacity-profiles.md) | Define how many concurrent calls sellers can handle by configuring default or custom capacity profiles. |
 | 4 | [Configure inbound and outbound profiles](sales-hub-dialer-call-profiles.md) | Create inbound profiles to control call routing behavior and outbound profiles to control how sellers place calls. |
 | 5 | [Assign phone numbers to sellers](sales-hub-dialer-assign-numbers.md) | Assign dedicated geographic phone numbers to individual sellers via User Management or the phone number setup flow. |
+| 6 | [Create bookable resources](sales-hub-dialer-bookable-resource.md) | Create bookable resources for sellers and associate them with capacity profiles to enable call routing and availability management. |
 
 ## Post-setup configuration
 
