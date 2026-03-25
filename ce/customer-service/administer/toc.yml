@@ -128,6 +128,8 @@
           href: smart-assist.md
         - name: Manage agent scripts
           href: agent-scripts.md
+        - name: Configure screen recording
+          href: /dynamics365/contact-center/administer/screen-recording?context=/dynamics365/context/customer-service-administer-context
         - name: macros
           items:  
           - name: Manage macros
