@@ -1,7 +1,7 @@
 ---
 title: Configure company info for Sales Opportunity Agent
 description: Define the company information such as name, website URL, and value propositions that the Sales Opportunity Agent uses to engage with customers.
-ms.date: 03/13/2026
+ms.date: 03/30/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -40,4 +40,4 @@ Define the company information such as name, website URL, and value propositions
 
 ## Related information
 
-[Set up and configure the Sales Opportunity Agent (preview).](configure-opportunity-research-agent.md)
+[Set up and configure the Sales Opportunity Agent](configure-opportunity-research-agent.md)

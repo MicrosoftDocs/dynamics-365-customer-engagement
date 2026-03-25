@@ -19,11 +19,7 @@ ai-usage: ai-assisted
 
 # View Sales Opportunity Agent insights and metrics
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
 After the Sales Opportunity Agent is set up and running, you can monitor its performance by viewing insights and metrics. These insights help you understand how effectively the agent is engaging with customers and driving sales.  
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 The insights dashboard is displayed as shown in the following image:
 

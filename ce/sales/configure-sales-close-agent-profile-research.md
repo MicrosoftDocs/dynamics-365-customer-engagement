@@ -1,7 +1,7 @@
 ---
-title: Configure the agent profile for Sales Opportunity Agent (preview)
+title: Configure the agent profile for Sales Opportunity Agent
 description: Define the agent information, email signature, disclaimer, and other terms to set the context for the Sales Opportunity Agent.
-ms.date: 03/13/2026
+ms.date: 03/30/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -39,4 +39,4 @@ Define the agent information such as the name and the language to set the contex
 
 ## Related information
 
-[Set up and configure the Sales Opportunity Agent (preview)](configure-opportunity-research-agent.md).
+[Set up and configure the Sales Opportunity Agent](configure-opportunity-research-agent.md).

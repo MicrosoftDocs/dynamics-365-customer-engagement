@@ -15,13 +15,9 @@ ai-usage: ai-assisted
 
 # Start the Sales Opportunity Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
 > [!IMPORTANT]
 > - Ensure that you properly configure the agent before starting it. Don't edit configurations after starting. Editing the agent changes how opportunities are processed, so you get different results before and after the change.
 > - Ensure that you accept the terms for Bing Search and Move data across regions in Power Platform admin center.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 The **Start agent** option is enabled only after you complete all the sections in the agent configuration page and mark them with a green check mark, as shown in the following image.  
 

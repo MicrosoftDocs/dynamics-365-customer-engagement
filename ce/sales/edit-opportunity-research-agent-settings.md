@@ -15,13 +15,9 @@ ai-usage: ai-assisted
 
 # Edit settings of Sales Opportunity Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
 After starting the agent, you can edit its settings to suit your business needs. You can change the knowledge sources that the agent uses to generate insights, the frequency of research updates, and the segment of opportunities that the agent works on. 
 
 This article describes the impact of the edits to the Sales Close Agent settings.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## What happens when you edit the agent settings?
 
@@ -34,3 +30,7 @@ This article describes the impact of the edits to the Sales Close Agent settings
 | Opportunity assessment fields | Changes applied during the next refresh. | Continue with previous fields until next refresh. |
 | Value proposition      | Changes applied during the next refresh. | Continue with previous value proposition until next refresh. |
 
+## Related information
+
+- [Set up and configure Sales Opportunity Agent](configure-opportunity-research-agent.md)  
+- [Start the Sales Opportunity Agent](start-sales-close-agent-research.md)

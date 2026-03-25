@@ -1,7 +1,7 @@
 ---
 title: Configure selection criteria for Sales Opportunity Agent
 description: Add conditions to filter opportunities for the Sales Opportunity Agent to focus on.
-ms.date: 03/13/2026
+ms.date: 03/30/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -43,7 +43,7 @@ Add conditions to filter opportunities for the Sales Opportunity Agent to focus 
 
     A sample list of matched opportunities appears along with total matching opportunities. Review the sample to ensure the criteria are correctly set to capture the right opportunities for the agent to research. You can adjust the filter conditions and preview again until you're satisfied with the results.
 
-The agent process a maximum of 2160 opportunities per research cycle, which is determined by the refresh frequency you set. If more opportunities match the criteria, they are processed in the next cycles based on priority and differs the others to next cycle or manual refresh. For example, if 3000 opportunities match the criteria and the agent can only process 2160 in a cycle, it will prioritize and research the top 2160 opportunities based on the prioritization factors below, and the remaining 840 will be eligible for research in subsequent cycles.  
+The agent process a maximum of 2160 opportunities per day. If more opportunities match the criteria, the agent processes them the next day based on priority or defers them until the next manual refresh. For example, if 3,000 opportunities match the criteria and the agent can only process 2,160 in a day, it prioritizes and researches the top 2,160 opportunities based on the prioritization factors. The remaining 840 are eligible for research the next day.  
 
 ## How the system prioritizes records
 

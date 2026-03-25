@@ -2,7 +2,7 @@
 title: Configure knowledge sources for agents
 description: Learn how to configure knowledge sources for agents in Dynamics 365 Sales.
 ms.topic: how-to 
-ms.date: 03/16/2026
+ms.date: 03/30/2026
 ms.service: dynamics-365-sales
 ms.custom: bap-template
 author: udaykirang
@@ -85,6 +85,39 @@ The agent identifies competitors for a record from the following sources:
     | Contoso, Fabrikam, and Northwind each appear in one source (No overlap among sources)     | Competitors configured by the admin are shown as fallback           |
     | No competitor information available in records and no competitors configured in agent settings             | Competitors from web search results are shown                       |
 
+### How Sales Opportunity Agent ranks competitors
+
+Historical trends show win or loss rates from past opportunities, helping sellers understand the competitive landscape.
+
+#### Identify competitors
+
+By default, when you directly associate an opportunity with a competitor, the agent uses that competitor.  
+When you don't directly associate a competitor, the agent identifies competitors from closed opportunities based on the following criteria:
+
+1. The closed opportunity belongs to the same account as the current opportunity.
+1. When the current opportunity has linked products, the closed opportunity must share the same products.
+1. Only opportunities closed within the last year are considered, and the agent fetches up to 10 closed opportunities.
+1. The agent picks the competitors present in the opportunity close record.
+
+#### Rank competitors
+
+The agent ranks identified competitors using the following factors in order of precedence and selects the top three competitors for research.
+
+| Order | Factor | Description |
+|-------|--------|-------------|
+| 1     | Admin configuration match	| Competitors that match your admin-configured competitor list are selected first. |
+| 2     | Frequency in closed opportunities | Competitors appearing in the most closed opportunities are ranked higher. |
+| 3     | Reported revenue	| Competitors are sorted by their reported revenue, highest first. |
+| 4     | Alphabetical order | If all other factors are equal, competitors are sorted alphabetically as a tiebreaker. |
+
+#### Win or loss rate
+
+The win or loss rate represents how many of the fetched closed opportunities (up to 10) were won against the total number of closed opportunities considered.
+
+#### Generate insights
+
+The agent generates insights from the description field in the opportunity close record.
+
 ### Add competitors and knowledge sources for competitor insights
 
 When the agent doesn't find competitor information in the record or doesn't find any overlapping mentions of competitors across different sources, it uses the competitors list you add in the agent settings as explained in this section.
@@ -112,9 +145,9 @@ You can also upload relevant documents such as battle cards, positioning briefs,
 ## Add custom fields for research
 
 >[!NOTE]
->This section applies only to the **Sales Qualification Agent**. The Sales Opportunity Agent doesn't have custom field capabilities.
+>This section applies only to the **Sales Opportunity Agent**. The Sales Opportunity Agent doesn't have custom field capabilities.
 
-Add custom fields to the agent to enhance the context for generating research insights. For example, if you have a custom field that indicates whether a record is a high-priority account, add that field to the agent to help it prioritize insights for those accounts. Add both **Opportunity** and its related entities' custom fields to the Sales Qualification Agent.
+Add custom fields to the agent to enhance the context for generating research insights. For example, if you have a custom field that indicates whether a record is a high-priority account, add that field to the agent to help it prioritize insights for those accounts. Add both **Opportunity** and its related entities' custom fields to the Sales Opportunity Agent.
 
 1. In the **Agent research** settings page, go to the **Add fields to include** section.
 1. Select **+ Add** and choose custom fields that you want the agent to include in the research context.

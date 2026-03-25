@@ -1,7 +1,7 @@
 ---
-title: Open the Sales Opportunity Agent settings page (preview)
+title: Open the Sales Opportunity Agent settings page
 description: Open the Sales Opportunity Agent settings to configure or manage the Sales Opportunity Agent.  
-ms.date: 03/13/2026
+ms.date: 03/30/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -47,5 +47,5 @@ Open the Sales Opportunity Agent settings to configure or manage the agent.
 
 ## Related information
 
-- [Set up and configure the Sales Opportunity Agent](configure-sales-close-agent.md)  
-- [Manage Sales Opportunity Agent](manage-sales-close-agent.md)
+- [Set up and configure the Sales Opportunity Agent](configure-opportunity-research-agent.md)  
+- [Manage Sales Opportunity Agent](edit-opportunity-research-agent-settings.md)

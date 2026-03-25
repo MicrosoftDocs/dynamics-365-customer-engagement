@@ -1,13 +1,13 @@
 ---
 title: Configure risk and importance criteria for Sales Opportunity Agent
 description: Learn how to configure the risk and importance criteria specific to your organization so that the Sales Opportunity Agent can provide more accurate assessments of opportunities.
-ms.date: 01/09/2026
+ms.date: 03/302026
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
-author: lavanyakr01
-ms.author: lavanyakr
-ms.reviewer: lavanyakr
+author: udaykirang
+ms.author: udag
+ms.reviewer: udag
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
@@ -15,11 +15,7 @@ ai-usage: ai-assisted
 
 # Configure risk and importance criteria for Sales Opportunity Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
 By default, the Sales Opportunity Agent determines the risk and importance of an opportunity based on company research and predefined criteria. However, you can customize these criteria to better align with your organization's specific needs. For example, Contoso Inc has a typical sales cycle that lasts 15 days, and the company wants to flag opportunities that are in the same stage for more than 10 days as risky. They can modify the "Stalled in stage" criterion to reflect this requirement.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 The agent evaluates multiple risk and importance criteria to generate overall indicators for each opportunity:
 

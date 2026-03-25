@@ -1,5 +1,5 @@
 ---
-title: Responsible AI FAQ about the Sales Opportunity Agent (preview)
+title: Responsible AI FAQ about the Sales Opportunity Agent
 description: Learn about the responsible AI practices and limitations of the Sales Opportunity Agent in Dynamics 365 Sales.
 ms.date: 01/07/2026
 ms.topic: overview
@@ -13,11 +13,9 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Responsible AI FAQs about Sales Opportunity Agent (preview)
+# Responsible AI FAQs about Sales Opportunity Agent
 
 These frequently asked questions are intended to help you understand the impact of AI on Sales Opportunity Agent in Dynamics 365 Sales.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## What is Sales Opportunity Agent?
 

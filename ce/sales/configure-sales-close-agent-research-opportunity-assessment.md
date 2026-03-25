@@ -1,7 +1,7 @@
 ---
 title: Configure opportunity assessment for Sales Opportunity Agent
 description: Learn how to configure the opportunity assessment settings for the Sales Opportunity Agent in Dynamics 365 Sales.
-ms.date: 03/13/2026
+ms.date: 03/30/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:

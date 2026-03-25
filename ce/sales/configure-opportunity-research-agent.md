@@ -1,7 +1,7 @@
 ---
-title: Set up and configure the Sales Opportunity Agent (preview)
+title: Set up and configure the Sales Opportunity Agent
 description: Learn how to set up and configure the Sales Opportunity Agent in Dynamics 365 Sales.
-ms.date: 03/13/2026
+ms.date: 03/30/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -13,13 +13,9 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Set up and configure the Sales Opportunity Agent (preview)
+# Set up and configure the Sales Opportunity Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-As an administrator, you can configure the Sales Opportunity Agent in Dynamics 365 Sales to help sales professionals gain insights and recommendations for the opportunities they're working on. The agent automatically gathers information from various sources, providing a streamlined research experience, stakeholder and competitor intelligence, and actionable risk mitigation strategies. Learn more in [Sales Close Agent](sales-close-agent.md).
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+As an administrator, you can configure the Sales Opportunity Agent in Dynamics 365 Sales to help sales professionals gain insights and recommendations for the opportunities they're working on. The agent automatically gathers information from various sources, providing a streamlined research experience, stakeholder and competitor intelligence, and actionable risk mitigation strategies. 
 
 ## Prerequisites
 
@@ -75,5 +71,5 @@ Before you setup the agent, ensure you have [planned your implementation](#plan-
 
 ## Related information
 
-- [Work on opportunities handled by the Sales Opportunity Agent (preview)](use-opportunity-research-agent.md)
-- [FAQs about Sales Opportunity Agent (preview)](faqs-about-opportunity-research.md)
+- [Work on opportunities handled by the Sales Opportunity Agent](use-opportunity-research-agent.md)
+- [FAQs about Sales Opportunity Agent](faqs-about-opportunity-research.md)
