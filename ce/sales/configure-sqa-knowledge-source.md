@@ -109,6 +109,18 @@ You can also upload relevant documents such as battle cards, positioning briefs,
 
 1. Return to the agent settings page and select the Test icon (:::image type="icon" source="media/test-icon.png" border="false":::) in the **Competitor research** section. Follow the instructions in the **Test insight** pane and verify whether the agent is generating relevant research insights using the knowledge sources you added.
 
+## Add custom fields for research
+
+>[!NOTE]
+>This section applies only to the **Sales Qualification Agent**. The Sales Opportunity Agent doesn't have custom field capabilities.
+
+Add custom fields to the agent to enhance the context for generating research insights. For example, if you have a custom field that indicates whether a record is a high-priority account, add that field to the agent to help it prioritize insights for those accounts. Add both **Opportunity** and its related entities' custom fields to the Sales Qualification Agent.
+
+1. In the **Agent research** settings page, go to the **Add fields to include** section.
+1. Select **+ Add** and choose custom fields that you want the agent to include in the research context.
+
+   :::image type="content" source="media/soa-research-add-custom-fields.png" alt-text="Screenshot of the Add fields to include section in the Sales opportunity Agent research settings page.":::
+ 
 ## Add knowledge sources for outreach and follow-up emails
 
 >[!NOTE]
