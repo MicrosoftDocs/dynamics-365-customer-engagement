@@ -81,7 +81,7 @@ You can transfer an active call to another user or external phone number.
 
 ### View live transcription and sentiment
 
-If Conversation Intelligence is enabled for your organization, the call panel displays:
+If [Conversation Intelligence is enabled](fre-setup-ci-sales-app.md) for your organization, the call panel displays:
 
 - **Real-time transcription** — The conversation is transcribed as it happens, converting speech to text in near real time.
 - **Sentiment indicator** — An AI-powered meter shows the customer's sentiment (positive, neutral, or negative) as the conversation progresses.
