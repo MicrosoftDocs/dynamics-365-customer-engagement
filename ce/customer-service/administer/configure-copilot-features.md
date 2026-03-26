@@ -15,7 +15,7 @@ ms.collection: bap-ai-copilot
 
 Copilot in Customer Service provides real-time AI assistance for customer service representatives (service representatives or representatives). It helps automate time-consuming tasks so representatives can handle cases efficiently, resolve issues faster, and deliver more value to customers.
 
-When you turn on Copilot features, representatives can respond to questions, compose emails, draft chat responses, and summarize case and conversations in the Copilot Service workspace app.
+When you turn on Copilot features, representatives can respond to questions, compose emails, draft chat responses, and summarize case and conversation details in the Copilot Service workspace app.
 
 However, for representatives to use these features in Customer Service Hub and custom apps, you must perform the steps in [Enable Copilot features](copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps). 
 
@@ -39,7 +39,7 @@ The respond to questions, compose an email, and summarize cases and conversation
 
 ### Understand cross region data movement for Copilot features
 
-Copilot feature performance is based on the regional availability of the Azure OpenAI es. The following table describes the scenarios in which you must [enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center app before you can opt in to use Copilot.
+Copilot feature performance is based on the regional availability of the Azure OpenAI services. The following table describes the scenarios in which you must [enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center app before you can opt in to use Copilot.
 
 |Scenario| Requires enabling data movement |
 |----------------|------------------|
@@ -76,7 +76,7 @@ In Copilot Service admin center, on the [**Copilot settings**](/dynamics365/cont
 
 In Copilot Service admin center, opt out from the Copilot features on the **Copilot settings** or **Summaries** page. You can navigate to these pages using one of the following navigation options:
 
-- **Support Experience** > **Productivity** > **Copilot Settings**
+- **Support experience** > **Productivity** > **Copilot settings**
 - **Operations** > **Insights** > **Summaries**
 
 When you opt out, the application erases the training data. If you want to use the features again, you must consent to the terms of use and opt in.
@@ -93,8 +93,62 @@ To configure Copilot features for representatives, perform the following steps:
 
 1. In Copilot Service admin center, in **Support experience**, select **Productivity**.
 1. For **Copilot settings**, select **Manage**.
-1. In the **Agents within Copilot** section, select **Manage** next to **Customer Support**.
-1. Configure the required Copilot features for representatives across the available tabs.
+1. Select the checkbox to turn on the Copilot experiences you want representatives to use:
+   - **Copilot immersive**
+   - **Copilot side pane**
+1. In the **Agents within Copilot** section, select **Settings** next to **Customer Support**. The **Customer Support** page displays.
+1. Configure the required Copilot features for representatives across the available tabs:
+   - **Overview**
+   - **Immersive settings**
+   - **Email settings**
+   - **Prompts**
+   - **User access**
+  
+### Configure Customer Support settings
+
+Use the **Customer Support** settings tabs to configure Copilot behavior for your representatives.
+
+**Overview**
+
+On the **Overview** tab, you can configure the following features:
+- **Instructions**: Custom instructions Copilot follows when responding to users.
+- **Deterministic response**: Enables deterministic responses for supported scenarios.
+- **Enhanced features**: Enables advanced Copilot capabilities. These features are always enabled for the immersive Copilot experience and are optional for the Copilot side pane.
+- **Suggested prompts**: Suggest AI-generated prompts to representatives when they're chatting with Copilot.
+- **Proactive insights**: Proactively suggest knowledge-based answers and insights to representatives.
+- **Knowledge sources**: Configure the sources Copilot can use when generating responses.
+
+**Immersive settings**
+
+Use **Immersive settings** to configure options that apply specifically to the immersive Copilot experience.
+
+**Email settings**
+
+Use **Email settings** to configure email-related Copilot features.
+
+**Prompts**
+
+Use the **Prompts** tab to manage the prompt library for Copilot.
+
+- **Prompt text** is the prompt shown to users.
+- **In guide** controls whether the prompt appears in the prompt guide. If a prompt isn't shown in the guide, Copilot can still use it automatically when it's relevant.
+
+**User access**
+
+Use the **User access** tab to control who can use the configured capability for this agent.
+
+User access settings apply to the selected Copilot agent and don't replace experience profile assignment.
+
+### Admin Management (preview)
+
+Admin Management is an optional Copilot agent available in public preview. It provides administrators with a centralized way to manage administrative prompts, control user access, and connect tools and knowledge through Copilot Studio.
+
+Admin Management includes the following settings tabs:
+- **Overview**
+- **Prompts**
+- **User access**
+
+Use Admin Management to configure prompts and access for administrative Copilot scenarios. To manage tools and knowledge associated with this agent, use the links provided to **Copilot Studio**.
 
 ## Let representatives use Copilot to translate responses
 
