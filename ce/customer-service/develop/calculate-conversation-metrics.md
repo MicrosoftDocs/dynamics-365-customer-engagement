@@ -314,7 +314,7 @@ Short abandon rate = DIVIDE ([Short abandoned], CALCULATE ([Incoming conversatio
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Percentage of inbound conversations that customers abandoned after the short-abandon threshold, out of all incoming conversations, regardless of overflow conditions.
+Percentage of inbound conversations that customers abandoned after the short-abandon threshold out of all incoming conversations, regardless of overflow conditions.
 
 **DAX query**
 
