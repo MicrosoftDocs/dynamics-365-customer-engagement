@@ -65,61 +65,36 @@ The agent can provide insights about competitors for a record. These insights in
 
 The agent identifies competitors for a record from the following sources:
 
-- Competitors you add to the record. The agent gives these competitors the highest priority. If you specify a competitor in the record, the agent researches only that competitor.
+- **Competitors you add to the record**.
+    The agent gives these competitors the highest priority. If you specify a competitor in the record, the agent researches only that competitor.
 
-- If you don't specify competitors in the record, the agent looks for competitors from:
-    - Web search results based on account research and value proposition.
+- **No competitors are specified in the opportunity record**.
+    The agent identifies competitors using the following sources, in order:
 
-    - Closed opportunities that include competitor information.
-    - Competitors list you configure in the agent settings (as explained in the following section).
+    - **Closed opportunities with competitor information**.
+        When the agent identifies multiple competitors, it ranks them and selects the top three for research by using the following factors, in order of importance:
 
-    The agent ranks competitors based on the number of sources they appear in. If a competitor is mentioned in more sources than others, the agent ranks it as the top competitor. If there are multiple competitors with the same rank, the agent picks the one associated with the recently won opportunity.
+        | Order | Factor | Description |
+        |-------|--------|-------------|
+        | 1     | Admin configuration match	| The agent selects competitors that match your admin-configured competitor list first. |
+        | 2     | Frequency in closed opportunities | The agent ranks higher competitors that appear in the most closed opportunities. |
+        | 3     | Reported revenue	| The agent sorts competitors by their reported revenue, highest first. |
+        | 4     | Alphabetical order | If all other factors are equal, the agent sorts competitors alphabetically as a tiebreaker. |
 
-    The following table illustrates how the agent prioritizes competitors in different scenarios:
+    - **Closed opportunities with no competitor information**
+        The agent identifies competitors using web search results based on account research and the opportunity’s value proposition. It then matches these competitors against the competitor list configured in the agent settings.
+        The agent uses only competitors that both appear in the web search results and are included in your configured competitor list.
 
-    | Scenario                                                                                  | Which competitors are considered?                                   |
-    |-------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-    | Contoso appears in three sources, Fabrikam in two, and Northwind in one                   | Contoso                     |
-    | Contoso and Fabrikam each appear in three sources, Northwind in two                       | Contoso or Fabrikam depending on which one was associated with the most recently won opportunity.  |
-    | Contoso and Fabrikam both appear in two sources           | The competitor from the most recent opportunity is prioritized      |
-    | Contoso, Fabrikam, and Northwind each appear in one source (No overlap among sources)     | Competitors configured by the admin are shown as fallback           |
-    | No competitor information available in records and no competitors configured in agent settings             | Competitors from web search results are shown                       |
+        - If no web-identified competitors match the configured list, the agent uses all competitors from the configured list.
+        - If no competitors are configured, the agent uses competitors identified through web research alone.
 
-### How Sales Opportunity Agent ranks competitors
+#### Specific to Sales Opportunity Agent
 
-Sales Opportunity Agent analyzes competitors to help sellers focus on the most relevant competitive threats for an opportunity. It follows the same identification logic described earlier but researches no more than three competitors to keep insights focused and actionable. When it identifies more than three competitors, the agent prioritizes them by using a clear, data-driven approach.
+In addition to the above sources, Sales Opportunity Agent analyzes the historical trends show win and loss rates from past opportunities, and generates insights.
 
-#### How the agent identifies competitors
+- **Win or loss rate**: The win or loss rate shows how often your organization won deals against a competitor. It's calculated by using the closed opportunities analyzed (up to 10) and represents the proportion of wins compared to the total number of opportunities considered.
 
-- If you explicitly associate a competitor with an opportunity, the agent uses that competitor directly.
-- If you don't associate a competitor, the agent looks at similar closed opportunities to infer likely competitors. The agent does this by:
-    - Reviewing closed opportunities from the same account as the current opportunity.
-    - Matching products, when products are linked to the current opportunity.
-    - Considering only opportunities closed within the last year, up to a maximum of 10.
-    - Extracting competitor information from the opportunity close records.
-
-This approach ensures the agent bases its analysis on recent, relevant sales history rather than generic assumptions.
-
-#### How the agent prioritizes competitors
-
-When the agent identifies multiple competitors, it ranks them and selects the top three for research by using the following factors, in order of importance:
-
-| Order | Factor | Description |
-|-------|--------|-------------|
-| 1     | Admin configuration match	| The agent selects competitors that match your admin-configured competitor list first. |
-| 2     | Frequency in closed opportunities | The agent ranks higher competitors that appear in the most closed opportunities. |
-| 3     | Reported revenue	| The agent sorts competitors by their reported revenue, highest first. |
-| 4     | Alphabetical order | If all other factors are equal, the agent sorts competitors alphabetically as a tiebreaker. |
-
-This ranking ensures the agent focuses on competitors that are both strategically important and historically relevant.
-
-#### Win or loss rate
-
-The win or loss rate shows how often your organization won deals against a competitor. It's calculated by using the closed opportunities analyzed (up to 10) and represents the proportion of wins compared to the total number of opportunities considered.
-
-#### Insight generation
-
-To provide additional context, the agent generates insights by analyzing the Description field in the opportunity close records. These insights highlight patterns, outcomes, and competitive signals from past deals.
+- **Insight generation**: To provide additional context, the agent generates insights by analyzing the Description field in the opportunity close records. These insights highlight patterns, outcomes, and competitive signals from past deals.
 
 ### Add competitors and knowledge sources for competitor insights
 
@@ -148,7 +123,7 @@ You can also upload relevant documents such as battle cards, positioning briefs,
 ## Add custom fields for research
 
 >[!NOTE]
->This section applies only to the **Sales Opportunity Agent**. The Sales Opportunity Agent doesn't have custom field capabilities.
+>This section applies only to the **Sales Opportunity Agent**. The Sales Opportunity Agent doesn't support custom fields.
 
 Add custom fields to the agent to enhance the context for generating research insights. For example, if you have a custom field that indicates whether a record is a high-priority account, add that field to the agent to help it prioritize insights for those accounts. Add both **Opportunity** and its related entities' custom fields to the Sales Opportunity Agent.
 
@@ -162,7 +137,7 @@ Add custom fields to the agent to enhance the context for generating research in
 >[!NOTE]
 >This section applies only to the **Sales Qualification Agent**. The Sales Opportunity Agent doesn't have outreach or follow-up email capabilities.
 
-You can add knowledge sources that the agent uses to draft outreach and follow-up emails to records. For example, add customer testimonials and case studies as knowledge sources for outreach emails to engage with records effectively.
+Add knowledge sources that the agent uses to draft outreach and follow-up emails to records. For example, add customer testimonials and case studies as knowledge sources for outreach emails to engage with records effectively.
 
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).
 1. In the **Knowledge** section, select **Agent emails**. Add knowledge sources for the following email types:
