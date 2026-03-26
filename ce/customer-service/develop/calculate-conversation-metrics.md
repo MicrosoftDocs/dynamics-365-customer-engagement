@@ -228,7 +228,7 @@ IsEngaged = CALCULATE(TRUE(),FactConversation[IsOffered], FactConversation[IsAge
 |Attributes |- systemuser.msdyn_botapplicationid <br> - msdyn_sessionparticipant.msdyn_joinedon <br> - msdyn_ocliveworkitem.msdyn_channel<br> - msdyn_ocliveworkitem.msdyn_channelinstanceid |
 |Filters  | - Filter the FactConversations table to​ exclude rows where msdyn_channel is equal to '192350000' and msdyn_channelinstanceid is NULL. <br>-  IsAgentInvolved is used if there's atleast one session with IsAgentSession set to true. <br>- IsAgentSession is set to true if systemuser.msdyn_botapplicationid isn't null.​ <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon isn't empty, then IsAgentAcceptedSession is 1.​ Otherwise, it's 0.​ |
 
-## Abandoned conversations
+## Abandoned conversations (default — excludes overflow)
 
 *Applies to Omnichannel real-time dashboards.*
 
@@ -244,7 +244,17 @@ Customers may abandon a conversation because of long wait times, supervisor inte
 
 ```dax
 
-Abandoned conversations = ​SUMX(FactConversation, IF (FactConversation[IsAbandoned] && FactConversation[StatusCode] == 4 && FactConversation[DirectionCode],1,0)) 
+Abandoned conversations (default — excludes overflow)
+  SUMX(
+      FactConversation,
+      IF(
+          FactConversation[IsAbandoned]
+&& FactConversation[StatusCode] == 4
+&& NOT FactConversation[DirectionCode]
+&& ISBLANK(RELATED(ProxyConversationLastOverflow[OverflowConditionCode])),
+          1, 0
+      )
+  )
 
 ```
 |Element|Value  |
@@ -875,7 +885,7 @@ Wrap-up conversations = SUMX ( FactConversation, IF ( FactConversation[statuscod
 
 - **Agents in wrap-up conversations**: Number of representatives handling conversations that are in wrap-up state.
 
-## Abandoned rate
+## Abandon rate (default — excludes overflow)
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
@@ -893,17 +903,7 @@ The following DAX query and the corresponding Dataverse entities are used in the
 
 ```dax
 
-Abandon rate_FactConversation = ​
-
-var abandoned = CALCULATE(FactConversation[Incoming conversations_FactConversation], FactConversation[IsOffered], NOT FactConversation[IsAgentAccepted])​
-
-var source = FactConversation[Incoming conversations_FactConversation]​
-
-var rate = DIVIDE(abandoned, source, 0)​
-
-return​
-
-IF(ISBLANK(rate), 0, rate)​
+= DIVIDE([Abandoned conversations], [Incoming conversations], BLANK())
 
 ```
 
