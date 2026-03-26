@@ -40,10 +40,22 @@ Define how often the Sales Opportunity Agent refreshes its research data to prov
     When the message limit is reached, the Sales Opportunity Agent automatically pauses and prevents any further usage. Processing resumes once you increase the threshold or when message capacity is available in the next usage cycle.
     To learn more about managing consumption limits, see [Manage monthly consumption limits for Copilot Studio agents](/power-platform/admin/manage-copilot-studio-messages-capacity#manage-monthly-consumption-limits-for-copilot-studio-agents).
 
+## How the agent processes records
+
+The Sales Opportunity Agent processes opportunities based on the defined selection criteria and refresh frequency. Here's how it works:
+
+1. The agent selects opportunities that meet the [defined selection criteria](configure-sales-close-agent-research-selection-criteria.md) and [prioritizes](configure-sales-close-agent-research-selection-criteria.md#how-the-agent-prioritizes-records) them using factors such as estimated revenue, expected close date, and research freshness. The agent establishes these factors when it initially researches each opportunity.
+1. **Refresh frequency** determines how often the agent updates its research data and re-evaluates opportunity priority. Opportunity prioritization is dynamic and can change with each refresh based on the latest data. For example: 
+    - When set to High, the agent refreshes its research every three days and might reprioritize opportunities based on the latest information.
+    - When set to Initial research only, the agent doesn't refresh its research after the initial run, so prioritization stays based on the original data.
+1. The agent processes up to a maximum number of opportunities per day, which varies by region. If more opportunities match the criteria than the daily limit allows, the agent prioritizes and researches the highest-ranked opportunities first.
+1. The agent defers any remaining opportunities that exceed the daily processing limit. These opportunities become eligible for processing the next day or during the next manual refresh. For example, if 3,000 opportunities match the criteria and the daily limit is 2,160, the agent processes the top 2,160 opportunities and carries forward the remaining 840.
+
+
 ## Next step
 
-[Configure importance and risk assessment.](configure-sales-close-agent-research-opportunity-assessment.md)
+[Configure importance and risk assessment](configure-sales-close-agent-research-opportunity-assessment.md).
 
 ## Related information
 
-[Set up and configure the Sales Opportunity Agent](configure-opportunity-research-agent.md)
+[Set up and configure the Sales Opportunity Agent](configure-opportunity-research-agent.md).

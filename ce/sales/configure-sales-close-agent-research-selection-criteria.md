@@ -36,6 +36,8 @@ Add conditions to filter opportunities for the Sales Opportunity Agent to focus 
 
 1. To have the agent research opportunities you created in the past, select the **Consider opportunities created in the last** checkbox and specify a look-back period in days. Otherwise, the agent only considers opportunities created after it's turned on.
 
+1. To know your daily processing capacity based on your refresh frequency, see the **Daily refresh limit** section. The capacity might vary based on your region.  
+
 1. Select **Preview** to view a sample of matching opportunities and verify that the agent is picking the right ones.
 
    > [!NOTE]
@@ -43,9 +45,7 @@ Add conditions to filter opportunities for the Sales Opportunity Agent to focus 
 
     A sample list of matched opportunities appears along with total matching opportunities. Review the sample to ensure the criteria are correctly set to capture the right opportunities for the agent to research. You can adjust the filter conditions and preview again until you're satisfied with the results.
 
-The agent process a maximum of 2160 opportunities per day. If more opportunities match the criteria, the agent processes them the next day based on priority or defers them until the next manual refresh. For example, if 3,000 opportunities match the criteria and the agent can only process 2,160 in a day, it prioritizes and researches the top 2,160 opportunities based on the prioritization factors. The remaining 840 are eligible for research the next day.  
-
-## How the system prioritizes records
+## How the agent prioritizes records
 
 Selection criteria help the agent pick the records to research. The agent also prioritizes which records to process first based on factors like opportunity value, estimated close date, and research freshness. This prioritization ensures that the agent researches the most important and relevant opportunities first and surfaces the most effective insights to sellers.
 
