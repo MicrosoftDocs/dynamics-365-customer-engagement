@@ -37,13 +37,13 @@ Before sellers can use the Sales Hub Dialer, the following requirements must be 
 - **Hardware**: A computer with a microphone, speakers or headset, and a supported browser.
 
 > [!NOTE]
-> **Telephony costs:** The Sales Hub Dialer is included with Dynamics 365 Sales, but outbound and inbound PSTN calls incur telephony charges from your calling plan or provider. Azure Communication Services usage for call routing, recording, and transcription may incur additional charges after GA. Refer to the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544) for details.
+> **Telephony costs:** The Sales Hub Dialer is included with Dynamics 365 Sales, but outbound and inbound PSTN calls incur telephony charges from your calling plan or provider.
 
 ## Place an outbound call
 
 As a seller, you can start an outbound call in two ways:
 
-1. To call a lead, contact, or opportunity, open the record in the Sales Hub app and select the **phone icon** next to the phone number field. The dialer pane opens and automatically dials the number.
+1. To call a lead, contact, or opportunity, open the record in the Sales Hub app and select the **Phone** icon next to the phone number field. The dialer pane opens and automatically dials the number.
 
 2. To call a number not in CRM, select the **Call** icon in the right pane of the Sales Hub app, enter the phone number using the keypad, and select **Call**.
 
