@@ -25,7 +25,7 @@ searchScope:
 
 # View a forecast
 
-Forecasts help you to see the health of your pipeline or to see how your sales team is doing against their quota or target.
+Forecasts are a powerful tool in Dynamics 365 Sales that provide visibility into your sales pipeline and help track progress toward targets. Sales managers [configure forecasts](configure-forecast.md) to align with organizational goals, define sales periods, and set quotas for their teams. Once configured, you can easily view forecasts to understand your performance, identify opportunities, and prioritize your actions. As a seller, you get a clear snapshot of your quota attainment, areas that need attention, and can make informed decisions to drive sales success.
 
 The forecasting feature isn't supported on mobile devices.
 
@@ -38,7 +38,7 @@ Bottoms-up forecasting is the projection of what a salesperson, team, or organiz
 1. In the Sales Hub sitemap, go to **Performance** and select **Forecasts**.  
    If your organization hasn't configured a forecast or you don't have access to a configured forecast, you see an [out-of-the-box forecast](#out-of-the-box-forecast) for the current month. For more information, see [values displayed in the forecast](#default-columns-in-an-org-chart-forecast).
 
- **To view your organization's configured a forecast**
+ **To view your organization's configured forecast**
 
   1. Select a forecast from the dropdown list on the left. Any forecasts for which you have permissions will appear here.
 

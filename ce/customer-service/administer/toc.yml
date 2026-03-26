@@ -22,8 +22,6 @@
         href: capacity-profiles.md
       - name: Manage personas and custom security roles
         href: role-persona-mapping.md
-      - name: Delete historical data of agent capacity updates
-        href: manage-historical-data-capacity-updates.md
     - name: Unified routing and assignment
       items:
       - name: Overview of unified routing
@@ -415,7 +413,9 @@
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
       - name: Configure outbound dialer settings 
-        href: add-outbound-dialer-settings.md  
+        href: add-outbound-dialer-settings.md
+      - name: Configure voice call experiences
+        href: configure-voice-call-experiences.md
       - name: Use Azure Virtual Desktop to access voice channel
         href: /dynamics365/contact-center/administer/configure-voice-avd?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Install and manage Desktop companion application (preview)
@@ -452,6 +452,8 @@
         href: voice-channel-delete-calls.md
       - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
+      - name: Set up secure consult, transfer to external contacts (preview)
+        href: configure-voice-call-experiences.md#set-up-secure-consult-with-and-transfer-to-external-contacts-preview
       - name: Manage phone music
         href: voice-channel-music.md
       - name: Use bot framework composer to set up a multilingual bot for voice channel
@@ -552,8 +554,6 @@
         href: add-customer-summary-settings.md
       - name: Customize chat forms
         items:
-        - name: Overview
-          href: omnichannel-customizer.md
         - name: Customize active conversation form
           href: customize-customer-summary.md
         - name: Customize quick view forms
@@ -750,8 +750,8 @@
       items:
       - name: Configure feedback surveys using Copilot Studio
         href: /dynamics365/contact-center/administer/configure-surveys?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-      - name: Enable voice call experiences
-        href: configure-end-of-call-survey.md
+      - name: Enable representative call quality surveys
+        href: configure-voice-call-experiences.md#configure-representative-call-quality-feedback-survey
       - name: Configure post-call survey
         href: voice-channel-survey.md  
       - name: Configure post-conversation surveys using Customer Voice
