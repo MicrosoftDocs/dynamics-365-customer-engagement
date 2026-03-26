@@ -43,4 +43,4 @@ The information in the interactive card is displayed using the view of type **Qu
 [Share feedback](share-feedback-d365-app.md)    
 [Share Dynamics 365 records within Microsoft Teams conversations](share-dynamics-records-in-teams.md)   
 [View and update record details](view-update-dynamics-records.md)   
-[Add chat messages to Dynamics 365 as notes or tasks](add-chat-d365.md)   
+

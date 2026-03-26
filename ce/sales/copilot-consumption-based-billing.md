@@ -4,7 +4,7 @@ description: Learn about managing consumption-based billing for agent capabiliti
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.topic: conceptual
+ms.topic: concept-article
 ms.search.keywords: administration, tenant, admin, environment, telemetry, billing
 ms.date: 05/20/2025
 
@@ -73,7 +73,7 @@ Dynamics 365 Sales regularly checks the available capacity (quota) of Copilot St
 
 ## View the agent's usage consumption
 
-After the sales agent (Sales Qualification Agent or Opportunity Research Agent) is published, you can start monitoring the capacity it consumes and how much capacity is left. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new)
+After the sales agent (Sales Qualification Agent, Sales Close Agent - Research, or Sales Close Agent - Engage) is published, you can start monitoring the capacity it consumes and how much capacity is left. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new)
 
 ## Related information
 
@@ -83,5 +83,4 @@ After the sales agent (Sales Qualification Agent or Opportunity Research Agent) 
 - [Orchestrate copilot topics and actions with generative AI](/microsoft-copilot-studio/advanced-generative-actions)  
 - [Work with Power Platform environments in Copilot Studio](/microsoft-copilot-studio/environments-first-run-experience)  
 - [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview)  
-
 

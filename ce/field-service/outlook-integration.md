@@ -1,7 +1,7 @@
 ---
 title: Integrate Field Service bookings with Outlook calendars
 description: Set up Microsoft Online Exchange to integrate with Dynamics 365 Field Service to synchronize bookings.
-ms.date: 09/30/2025
+ms.date: 12/09/2025
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -100,5 +100,29 @@ For privilege errors, go to:
 
 - [PrivilegeDenied error occurs when using Server-Side Synchronization](/previous-versions/troubleshoot/dynamics/crm/privilegedenied-error-when-using-server-side-sync)
 - [Privilege or permission error for Outlook](/troubleshoot/power-platform/dataverse/d365-app-outlook/privilege-error-occurs-when-using-dynamics-365-app-for-outlook#more-information)
+
+### Bookings scheduled more than two weeks in advance don't synchronize in Outlook Exchange
+
+Bookings scheduled more than two weeks in advance in Field Service don't synchronize in Outlook.
+
+#### Symptoms
+
+Bookings that were originally created and scheduled more than two weeks in advance don't synchronize automatically when the booking enters the two-week window. This is a known limitation.
+
+#### Resolution
+
+To make sure synchronization for these bookings occurs, [update any field in the booking record](#booking-synchronization) within the two-week window. For example, update the time window or resource assignment. Updates to fields in related entities don't trigger synchronization.
+
+### Duplicate bookings appear in Outlook Exchange
+
+Duplicate bookings appear in Outlook.
+
+#### Symptoms
+
+The Outlook integration is a built-in solution that synchronizes bookings with Outlook calendars. Customers who use a custom solution to synchronize bookings between Field Service and Exchange might see duplicate booking entries in Outlook.
+
+#### Resolution
+
+Either disable the custom synchronization solution and use the built-in Field Service solution, or [create a support case](/power-platform/admin/get-help-support) to request Microsoft to disable the built-in Field Service solution for specific environments.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

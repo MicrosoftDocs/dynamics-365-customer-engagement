@@ -57,7 +57,6 @@ It's important to become familiar with the feature to understand the nuances of 
 
 5. [View and update record details](view-update-dynamics-records.md)
 
-6. [Add chat messages to Dynamics 365 as notes or tasks](add-chat-d365.md)
 
 
 ## How is the information displayed in the interactive card?

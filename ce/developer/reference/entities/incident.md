@@ -33,6 +33,7 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `Merge`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Merge?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.MergeRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+| `msdyn_StartCaseFollowupMonitoring`<br />Event: True |**msdyn_StartCaseFollowupMonitoring action** |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /incidents(*incidentid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /incidents<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -104,6 +105,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [LastOnHoldTime](#BKMK_LastOnHoldTime)
 - [MasterId](#BKMK_MasterId)
 - [MessageTypeCode](#BKMK_MessageTypeCode)
+- [msdyn_aiagentstatus](#BKMK_msdyn_aiagentstatus)
 - [msdyn_casesentiment](#BKMK_msdyn_casesentiment)
 - [msdyn_CaseSurveyInviteUrl](#BKMK_msdyn_CaseSurveyInviteUrl)
 - [msdyn_copilotengaged](#BKMK_msdyn_copilotengaged)
@@ -730,6 +732,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |0|**Public Message**|
 |1|**Private Message**|
+
+### <a name="BKMK_msdyn_aiagentstatus"></a> msdyn_aiagentstatus
+
+|Property|Value|
+|---|---|
+|Description|**Status of AI Agent for the given record.**|
+|DisplayName|**AI Agent Status**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_aiagentstatus`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_aiagentstatus|
 
 ### <a name="BKMK_msdyn_casesentiment"></a> msdyn_casesentiment
 
@@ -1819,6 +1834,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_incidentbase_modifiedby](#BKMK_lk_incidentbase_modifiedby)
 - [lk_incidentbase_modifiedonbehalfby](#BKMK_lk_incidentbase_modifiedonbehalfby)
 - [manualsla_cases](#BKMK_manualsla_cases)
+- [msdyn_incident_msdyn_aiagentstatus](#BKMK_msdyn_incident_msdyn_aiagentstatus)
 - [msdyn_msdyn_iotalert_incident_IoTAlert](#BKMK_msdyn_msdyn_iotalert_incident_IoTAlert)
 - [owner_incidents](#BKMK_owner_incidents)
 - [processstage_incident](#BKMK_processstage_incident)
@@ -2053,6 +2069,19 @@ One-To-Many Relationship: [sla manualsla_cases](sla.md#BKMK_manualsla_cases)
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_incident_msdyn_aiagentstatus"></a> msdyn_incident_msdyn_aiagentstatus
+
+One-To-Many Relationship: [msdyn_aiagentstatus msdyn_incident_msdyn_aiagentstatus](msdyn_aiagentstatus.md#BKMK_msdyn_incident_msdyn_aiagentstatus)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_aiagentstatus`|
+|ReferencedAttribute|`msdyn_aiagentstatusid`|
+|ReferencingAttribute|`msdyn_aiagentstatus`|
+|ReferencingEntityNavigationPropertyName|`msdyn_aiagentstatus`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_msdyn_iotalert_incident_IoTAlert"></a> msdyn_msdyn_iotalert_incident_IoTAlert
 
 One-To-Many Relationship: [msdyn_iotalert msdyn_msdyn_iotalert_incident_IoTAlert](msdyn_iotalert.md#BKMK_msdyn_msdyn_iotalert_incident_IoTAlert)
@@ -2260,8 +2289,12 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [Incident_Tasks](#BKMK_Incident_Tasks)
 - [knowledgearticle_incidents](#BKMK_knowledgearticle_incidents)
 - [lk_phonetocaseprocess_incidentid](#BKMK_lk_phonetocaseprocess_incidentid)
+- [msdyn_autocaseclosureagentactivity_regarding_incident](#BKMK_msdyn_autocaseclosureagentactivity_regarding_incident)
+- [msdyn_autocaseclosureagentmonitoring_regarding_incident](#BKMK_msdyn_autocaseclosureagentmonitoring_regarding_incident)
 - [msdyn_incident_feedback_context](#BKMK_msdyn_incident_feedback_context)
 - [msdyn_incident_msdyn_aicontactsuggestion_sourcerecord](#BKMK_msdyn_incident_msdyn_aicontactsuggestion_sourcerecord)
+- [msdyn_incident_msdyn_autocaseclosureagentactivity_incidentid](#BKMK_msdyn_incident_msdyn_autocaseclosureagentactivity_incidentid)
+- [msdyn_incident_msdyn_autocaseclosureagentmonitoring_incidentid](#BKMK_msdyn_incident_msdyn_autocaseclosureagentmonitoring_incidentid)
 - [msdyn_incident_msdyn_caseenrichment_caseid](#BKMK_msdyn_incident_msdyn_caseenrichment_caseid)
 - [msdyn_incident_msdyn_casesuggestion_suggestedentity](#BKMK_msdyn_incident_msdyn_casesuggestion_suggestedentity)
 - [msdyn_incident_msdyn_casesuggestionrequestpayload_caseid](#BKMK_msdyn_incident_msdyn_casesuggestionrequestpayload_caseid)
@@ -2837,6 +2870,30 @@ Many-To-One Relationship: [phonetocaseprocess lk_phonetocaseprocess_incidentid](
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_autocaseclosureagentactivity_regarding_incident"></a> msdyn_autocaseclosureagentactivity_regarding_incident
+
+Many-To-One Relationship: [msdyn_autocaseclosureagentactivity msdyn_autocaseclosureagentactivity_regarding_incident](msdyn_autocaseclosureagentactivity.md#BKMK_msdyn_autocaseclosureagentactivity_regarding_incident)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_autocaseclosureagentactivity`|
+|ReferencingAttribute|`msdyn_regarding`|
+|ReferencedEntityNavigationPropertyName|`msdyn_autocaseclosureagentactivity_regarding_incident`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_autocaseclosureagentmonitoring_regarding_incident"></a> msdyn_autocaseclosureagentmonitoring_regarding_incident
+
+Many-To-One Relationship: [msdyn_autocaseclosureagentmonitoring msdyn_autocaseclosureagentmonitoring_regarding_incident](msdyn_autocaseclosureagentmonitoring.md#BKMK_msdyn_autocaseclosureagentmonitoring_regarding_incident)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_autocaseclosureagentmonitoring`|
+|ReferencingAttribute|`msdyn_regarding`|
+|ReferencedEntityNavigationPropertyName|`msdyn_autocaseclosureagentmonitoring_regarding_incident`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_incident_feedback_context"></a> msdyn_incident_feedback_context
 
 Many-To-One Relationship: [feedback msdyn_incident_feedback_context](feedback.md#BKMK_msdyn_incident_feedback_context)
@@ -2860,6 +2917,30 @@ Many-To-One Relationship: [msdyn_aicontactsuggestion msdyn_incident_msdyn_aicont
 |ReferencedEntityNavigationPropertyName|`msdyn_incident_msdyn_aicontactsuggestion_sourcerecord`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_incident_msdyn_autocaseclosureagentactivity_incidentid"></a> msdyn_incident_msdyn_autocaseclosureagentactivity_incidentid
+
+Many-To-One Relationship: [msdyn_autocaseclosureagentactivity msdyn_incident_msdyn_autocaseclosureagentactivity_incidentid](msdyn_autocaseclosureagentactivity.md#BKMK_msdyn_incident_msdyn_autocaseclosureagentactivity_incidentid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_autocaseclosureagentactivity`|
+|ReferencingAttribute|`msdyn_incidentid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_incident_msdyn_autocaseclosureagentactivity_incidentid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_incident_msdyn_autocaseclosureagentmonitoring_incidentid"></a> msdyn_incident_msdyn_autocaseclosureagentmonitoring_incidentid
+
+Many-To-One Relationship: [msdyn_autocaseclosureagentmonitoring msdyn_incident_msdyn_autocaseclosureagentmonitoring_incidentid](msdyn_autocaseclosureagentmonitoring.md#BKMK_msdyn_incident_msdyn_autocaseclosureagentmonitoring_incidentid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_autocaseclosureagentmonitoring`|
+|ReferencingAttribute|`msdyn_incidentid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_incident_msdyn_autocaseclosureagentmonitoring_incidentid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_incident_msdyn_caseenrichment_caseid"></a> msdyn_incident_msdyn_caseenrichment_caseid
 

@@ -12,7 +12,7 @@ By default, a new schedule board tab is visible only to the user who creates it 
 
    - **Everyone** exposes the tab to all users who can access the schedule board.
    - **Just Me** restricts the tab to you only.
-   - **Specific People** shares the tab with other users that you choose. When this option is selected, a share drop-down menu appears with easy access to email and/or copy a link to the tab. Choose *Manage access* in this menu to open a panel where you can directly manage the tab's permissions for each desired user. 
+   - **Specific People** shares the tab with other users that you choose. When this option is selected, a share drop-down menu appears with easy access to email and/or copy a link to the tab. Choose *Manage access* in this menu to open a panel where you can directly manage the tab's permissions for each desired user.
+
    > [!NOTE]
    > Every user with the Schedule Board Setting read privilege set to User can see tabs shared with them. Admins can create custom security roles. Users with higher privileges to Schedule Board Setting records can access schedule board tabs even if they aren't shared with them directly. Managing schedule board access for teams by creating custom security roles and editing permissions isn't supported. Instead, choose users to share the schedule board tab.
-

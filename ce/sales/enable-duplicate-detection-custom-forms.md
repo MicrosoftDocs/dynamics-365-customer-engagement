@@ -5,16 +5,16 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 11/14/2024
+ms.date: 02/27/2026
 ms.custom: bap-template 
 ---
 
 # Enable duplicate lead detection for custom forms
 
-The duplicate lead detection feature in Dynamics 365 Sales helps detect duplicate leads. By default, this feature is enabled for the main lead form in the Sales Hub app. However, if you've customized the main lead form, you must manually enable duplicate lead detection.
+The duplicate lead detection feature in Dynamics 365 Sales helps detect duplicate leads. By default, this feature is enabled for the main lead form in the Sales Hub app. However, if you customize the main lead form, you must manually enable duplicate lead detection.
 
 > [!NOTE]
-> This customization can be applied only to main forms of the `Lead` table in the custom app.
+> You can apply this customization only to main forms of the `Lead` table in the custom app.
 
 ## Add an OnLoad event handler to the custom form
 
@@ -34,7 +34,7 @@ Add an event handler to the `OnLoad` event of the main lead form to enable dupli
 
     :::image type="content" source="media/dld-add-onload-event-library.png" alt-text="Screenshot of the event configuration for the event handler for duplicate lead detection.":::
 
-    In the **Handlers** section, notice that the required event handler has been added to the custom lead form.
+    In the **Handlers** section, the required event handler is added to the custom lead form.
     
 
 1. Save and publish the form.

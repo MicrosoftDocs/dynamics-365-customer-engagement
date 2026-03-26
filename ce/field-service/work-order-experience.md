@@ -88,7 +88,7 @@ Work orders are primarily designed for fewer than five bookings. It can support 
 
 The **Booking** card contains different information, depending on the work order's status.
 
-- **Unscheduled**: Get booking suggestions that fit the required or promised timeframe and the required skills. For each resource, the card shows the suggested appointment time and the travel time from the technician's previous appointment. If no suggestion works, select **Find more availability** to open the schedule assistant and choose a resource to book.
+- **Unscheduled**: Get booking suggestions that fit the required or promised timeframe and the required characteristics. For each resource, the card shows the suggested appointment time and the travel time from the technician's previous appointment. If no suggestion works, select **Find more availability** to open the schedule assistant and choose a resource to book.
 
 - **Scheduled**: View the technician's contact information, the time and duration of the appointment, and the expected travel time. You can start a phone call or email using the default client set in your browser. The **Message** link opens Microsoft Teams. You can change the booking's status and rebook it if needed.
 

@@ -15,7 +15,7 @@ ms.topic: overview
 
 When you (a customer service representative) get an incoming conversation request, the system searches and opens the records like case, contact, or account. However, your organization might have different requirements and want to use different custom entities and correlate to a conversation.
 
-Also, Omnichannel for Customer Service allows you to open third-party web applications in the application tabs. Your organization might have different line-of-business applications, and while starting a session, you might want to load the line-of-business applications for a specific conversation type.
+Also, Dynamics 365 Contact Center allows you to open third-party web applications in the application tabs. Your organization might have different line-of-business applications, and while starting a session, you might want to load the line-of-business applications for a specific conversation type.
 
 For example, when you accept an incoming chat conversation notification, a session starts. For every chat session, when the application identifies the customer, you want to open a contact record, related case page, SharePoint site, and the line-of-business application.
 

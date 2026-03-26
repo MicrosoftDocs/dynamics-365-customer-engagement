@@ -16,7 +16,7 @@ ms.custom:
 
 # Product and price list FAQs
 
-This article answers frequently asked questions about product and price list in Dynamics 365 Sales, Sales premium, and Sales professional.
+This article answers frequently asked questions about product and price list in Dynamics 365 Sales.
 
 ## Why can't I make inline edits or see grid actions like move up or move down in the Product subgrid?
 

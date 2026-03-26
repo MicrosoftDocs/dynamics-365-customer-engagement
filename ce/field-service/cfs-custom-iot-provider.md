@@ -17,7 +17,7 @@ ms.custom:
 
 The Dynamics 365 Field Service IoT provider feature allows seamless integration with IoT (Internet of Things) devices from any IoT vendor. It integrates IoT alerts from different vendors in a unified list regardless of their origin. When users interact with an IoT device, Field Service identifies the device's provider and routes the command to the corresponding IoT system.
 
-In Field Service, the [out-of-box deployment experience integrates with Azure IoT Hub](installation-setup-iothub.md). Developers, partners, and independent software vendors (ISVs) can build custom IoT solutions on this framework and even publish them in the [Microsoft AppSource marketplace](https://appsource.microsoft.com/).
+In Field Service, the [out-of-box deployment experience integrates with Azure IoT Hub](installation-setup-iothub.md). Developers, partners, and independent software vendors (ISVs) can build custom IoT solutions on this framework and even publish them in the [Microsoft Marketplace marketplace](https://marketplace.microsoft.com/).
 
 This article describes the IoT provider data model and provides an overview of the connection methods you can use.
 

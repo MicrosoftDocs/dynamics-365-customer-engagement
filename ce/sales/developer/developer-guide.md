@@ -1,7 +1,7 @@
 ---
 title: Developer Guide
 description: This guide contains entity reference and action reference information that developers need to know while developing for Dynamics 365 Sales.
-ms.date: 05/01/2024
+ms.date: 03/12/2026
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
@@ -52,7 +52,7 @@ As a developer or system customizer, you can [use the Dataverse WebAPI](/powerap
   <li><a href="reference/recalculateprice-action.md" data-raw-source="[RecalculatePrice Action](reference/recalculateprice-action.md)">RecalculatePrice Action</a></li>
 </td>
 <td>
-<h2>Sales Premium</h2>
+<h2>Sales Insights</h2>
 <li><a href="reference/custom-actions/msdyn-ConnectSequence-action.md" data-raw-source="[msdyn_ConnectSequence Action](reference/custom-actions/msdyn-ConnectSequence-action.md)">msdyn_ConnectSequence Action</a></li>
 <li><a href="about-entity-reference.md" data-raw-source="[Entity reference](about-entity-reference.md)">Entity reference</a></li>
 
@@ -66,6 +66,6 @@ As a developer or system customizer, you can [use the Dataverse WebAPI](/powerap
 [Overview of Sales and Sales Hub](../overview.md)<br />
 [Help resources for seller in Dynamics 365 Sales](../user-guide.yml)  
 [Administrator and Sales Manager Guide](../admin-guide.yml)<br />
-
+[Work with formula columns](/power-apps/maker/data-platform/formula-columns)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

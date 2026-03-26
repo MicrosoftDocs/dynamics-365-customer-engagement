@@ -1,7 +1,7 @@
 ---
 title: Share feedback about the Dynamics 365 app
 description: Learn how to share feedback about the Dynamics 365 app
-ms.date: 08/21/2024
+ms.date: 10/21/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -32,4 +32,4 @@ If you have any feedback about the Dynamics 365 app, you can share it from withi
 [Edit settings of the Dynamics 365 app](edit-d365-app.md)    
 [Share Dynamics 365 records within Microsoft Teams conversations](share-dynamics-records-in-teams.md)   
 [View and update record details](view-update-dynamics-records.md)   
-[Add chat messages to Dynamics 365 as notes or tasks](add-chat-d365.md)   
+

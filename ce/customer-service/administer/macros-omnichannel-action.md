@@ -14,12 +14,12 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-You can use Omnichannel connector to use actions to perform Omnichannel for Customer Service&ndash;related operations. Omnichannel connector macros allow you to link and unlink records to conversations.
+You can use Omnichannel connector to use actions to perform Dynamics 365 Contact Center&ndash;related operations. Omnichannel connector macros allow you to link and unlink records to conversations.
 
-You can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
+You can use the actions any number of times across different macros to automate and perform operations related to Dynamics 365 Contact Center.
 
 > [!NOTE]
-> Macro actions for the Omnichannel connector is available if Copilot Service workspace in Omnichannel for Customer Service is installed.
+> Macro actions for the Omnichannel connector is available if Copilot Service workspace in Dynamics 365 Contact Center is installed.
 
    :::image type="content" source="../media/macro-omnichannel-connector.png" alt-text="Macro actions Omnichannel connector.":::
 

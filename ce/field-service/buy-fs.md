@@ -40,6 +40,8 @@ For more information, see [Set up users, licenses, and security roles](users-lic
 
 ## Field Service and mixed reality apps
 
+[!INCLUDE[remote-assist-guides-deprecate](../includes/remote-assist-guides-deprecate.md)]
+
 The Field Service license also includes Dynamics 365 Guides and Dynamics 365 Remote Assist at no extra cost. No action is required to assign the new licenses to existing users. However, the system doesn't install the applications automatically. For more information about installing the mixed reality apps, see [Collaborate in mixed reality with Field Service and Remote Assist](remote-assist-hololens.md) and [Integrate Guides with Field Service](mixed-reality-guides-integration.md).
 
 Users with predefined Field Service security roles automatically get security roles for Guides and Remote Assist assigned. Admins can disable that setting to stop the automated role assignment for new users. For more information, see [Mixed Reality settings](configure-default-settings.md#mixed-reality-settings).

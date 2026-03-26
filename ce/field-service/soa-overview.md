@@ -3,8 +3,8 @@ title: Scheduling Operations Agent overview (preview)
 description: Learn about the key benefits and functionality of the Scheduling Operations Agent for Dynamics 365 Field Service.
 ms.date: 03/28/2025
 ms.topic: overview
-ms.author: anilmur
-author: anilmur
+ms.author: anclear
+author: andrewclear-ms
 ---
 
 # Scheduling Operations Agent overview (preview)

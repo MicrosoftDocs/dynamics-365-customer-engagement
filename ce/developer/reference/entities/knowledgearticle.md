@@ -308,9 +308,23 @@ Many-To-One Relationship: [msdyn_suggestioninteraction msdyn_knowledgearticle_ms
 
 These relationships are many-to-many. Listed by **SchemaName**.
 
+- [msdyn_msdyn_agentcopilotterm_knowledgearticle](#BKMK_msdyn_msdyn_agentcopilotterm_knowledgearticle)
 - [msdyn_msdyn_customerasset_knowledgearticle](#BKMK_msdyn_msdyn_customerasset_knowledgearticle)
 - [msdyn_msdyn_ocliveworkitem_knowledgearticle](#BKMK_msdyn_msdyn_ocliveworkitem_knowledgearticle)
 - [msdyn_product_knowledgearticle](#BKMK_msdyn_product_knowledgearticle)
+
+### <a name="BKMK_msdyn_msdyn_agentcopilotterm_knowledgearticle"></a> msdyn_msdyn_agentcopilotterm_knowledgearticle
+
+See [msdyn_agentcopilotterm msdyn_msdyn_agentcopilotterm_knowledgearticle Many-To-Many Relationship](msdyn_agentcopilotterm.md#BKMK_msdyn_msdyn_agentcopilotterm_knowledgearticle)
+
+|Property|Value|
+|---|---|
+|IntersectEntityName|`msdyn_msdyn_agentcopilotterm_knowledgeart`|
+|IsCustomizable|True|
+|SchemaName|`msdyn_msdyn_agentcopilotterm_knowledgearticle`|
+|IntersectAttribute|`knowledgearticleid`|
+|NavigationPropertyName|``|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_customerasset_knowledgearticle"></a> msdyn_msdyn_customerasset_knowledgearticle
 

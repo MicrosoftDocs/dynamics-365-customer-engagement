@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Use UII inspector to create bindings for the hosted application in Unified Service Desk
 After you create a hosted application, you can inspect it to create bindings. Inspecting an application means that you can select user interface (UI) controls for automating the hosted application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Automate hosted applications using HAT automation activities](../unified-service-desk/automate-hosted-applications-using-hat-automation-activities.md)  

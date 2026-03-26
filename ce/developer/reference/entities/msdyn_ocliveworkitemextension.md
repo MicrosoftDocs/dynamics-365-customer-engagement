@@ -62,8 +62,10 @@ The following table lists selected properties for the Conversation Analytic (msd
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_EvaluationId](#BKMK_msdyn_EvaluationId)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_ocliveworkitemextensionId](#BKMK_msdyn_ocliveworkitemextensionId)
+- [msdyn_Score](#BKMK_msdyn_Score)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
@@ -83,6 +85,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_EvaluationId"></a> msdyn_EvaluationId
+
+|Property|Value|
+|---|---|
+|Description|**Unique Id of evaluation record**|
+|DisplayName|**EvaluationId**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_evaluationid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 
@@ -112,6 +131,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_ocliveworkitemextensionid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_Score"></a> msdyn_Score
+
+|Property|Value|
+|---|---|
+|Description|**Evaluation score of a conversation**|
+|DisplayName|**Score**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_score`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|100|
+|MinValue|0|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

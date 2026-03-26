@@ -65,9 +65,9 @@ Take a look at some of the key capabilities that makes the voice channel great f
 [Install the voice channel](voice-channel-install.md)  
 [Supported cloud locations, languages, and locale codes ](voice-channel-region-availability.md)  
 [International availability of Omnichannel for Customer Service](../implement/international-availability.md)  
-[System requirements](../implement/system-requirements-omnichannel.md)  
+[System requirements](/dynamics365/contact-center/implement/system-requirements-contact-center)  
 [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  
-[FAQ about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  
+[FAQ about the voice channel in Dynamics 365 Contact Center](voice-channel-faqs.md)  
 [Blog: New voice channel streamlines omnichannel customer experiences](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/)  
 
 

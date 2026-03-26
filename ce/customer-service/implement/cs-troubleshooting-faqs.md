@@ -4,7 +4,7 @@ description: Troubleshoot and resolve Microsoft Customer Service issues with det
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
 ms.date: 05/02/2025
 ms.custom:

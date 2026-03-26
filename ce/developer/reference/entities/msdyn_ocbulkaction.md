@@ -1,6 +1,6 @@
 ---
-title: "OCBulkAction (msdyn_ocbulkaction) table/entity reference (Microsoft Dynamics 365)"
-description: "Includes schema information and supported messages for the OCBulkAction (msdyn_ocbulkaction) table/entity with Microsoft Dynamics 365."
+title: "Bulk Action (msdyn_ocbulkaction) table/entity reference (Microsoft Dynamics 365)"
+description: "Includes schema information and supported messages for the Bulk Action (msdyn_ocbulkaction) table/entity with Microsoft Dynamics 365."
 ms.topic: generated-reference
 author: JimDaly
 ms.author: jdaly
@@ -8,13 +8,13 @@ search.audienceType:
   - developer
 ---
 
-# OCBulkAction (msdyn_ocbulkaction) table/entity reference (Microsoft Dynamics 365)
+# Bulk Action (msdyn_ocbulkaction) table/entity reference (Microsoft Dynamics 365)
 
 
 
 ## Messages
 
-The following table lists the messages for the OCBulkAction (msdyn_ocbulkaction) table.
+The following table lists the messages for the Bulk Action (msdyn_ocbulkaction) table.
 Messages represent operations that can be performed on the table. They may also be events.
 
 | Name <br />Is Event? |Web API Operation |SDK for .NET |
@@ -42,12 +42,12 @@ Messages represent operations that can be performed on the table. They may also 
 
 ## Properties
 
-The following table lists selected properties for the OCBulkAction (msdyn_ocbulkaction) table.
+The following table lists selected properties for the Bulk Action (msdyn_ocbulkaction) table.
 
 |Property|Value|
 | --- | --- |
-| **DisplayName** | **OCBulkAction** |
-| **DisplayCollectionName** | **OCBulkActions** |
+| **DisplayName** | **Bulk Action** |
+| **DisplayCollectionName** | **Bulk Action History** |
 | **SchemaName** | `msdyn_ocbulkaction` |
 | **CollectionSchemaName** | `msdyn_ocbulkactions` |
 | **EntitySetName** | `msdyn_ocbulkactions`|
@@ -69,6 +69,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_createdon](#BKMK_msdyn_createdon)
 - [msdyn_endtime](#BKMK_msdyn_endtime)
 - [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_nb_of_recipients](#BKMK_msdyn_nb_of_recipients)
 - [msdyn_ocbulkactionId](#BKMK_msdyn_ocbulkactionId)
 - [msdyn_starttime](#BKMK_msdyn_starttime)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -96,7 +97,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**job status**|
-|DisplayName|**msdyn\_actionstatus**|
+|DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_actionstatus`|
@@ -118,7 +119,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**A mapping from lwi to its action status**|
-|DisplayName|**msdyn\_actionstatusdetails**|
+|DisplayName|**Action status details**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_actionstatusdetails`|
@@ -135,7 +136,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**type of action for which bulk action was triggered**|
-|DisplayName|**msdyn\_bulkactiontype**|
+|DisplayName|**Action Type**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_bulkactiontype`|
@@ -159,7 +160,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn\_createdon**|
+|DisplayName|**Created On**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_createdon`|
@@ -176,7 +177,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**end time of the job/action**|
-|DisplayName|**msdyn\_endtime**|
+|DisplayName|**End time**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_endtime`|
@@ -193,7 +194,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Primary name of the bulk action status record.**|
-|DisplayName|**Name**|
+|DisplayName|**Title**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_name`|
@@ -205,12 +206,26 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|100|
 
+### <a name="BKMK_msdyn_nb_of_recipients"></a> msdyn_nb_of_recipients
+
+|Property|Value|
+|---|---|
+|Description|**Number of recipients involved in the bulk action request.**|
+|DisplayName|**Recipients**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_nb_of_recipients`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|1|
+
 ### <a name="BKMK_msdyn_ocbulkactionId"></a> msdyn_ocbulkactionId
 
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**msdyn\_ocbulkactionid**|
+|DisplayName|**Bulk action Id**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_ocbulkactionid`|
@@ -221,8 +236,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**start time of the job/action**|
-|DisplayName|**msdyn\_starttime**|
+|Description|**Start time of the job/action**|
+|DisplayName|**Start time**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_starttime`|

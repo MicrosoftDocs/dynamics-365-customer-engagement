@@ -6,8 +6,6 @@ Enabling an entity for scheduling allows dispatchers to schedule the requirement
 
 ## Enable an entity for scheduling
 
-Enable an entity for scheduling.
-
 1. In Resource Scheduling, change to the **Settings** area. Under **Scheduling**, select **Administration**. Select **Enable Resource Scheduling for Entities**.
 
    :::image type="content" source="../../field-service/media/enablescheduling.png" alt-text="Screenshot of scheduling settings showing the Enable Resource Scheduling for Entities option.":::

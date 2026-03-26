@@ -4,7 +4,7 @@ description: Learn how to associate templates with scenarios in Dynamics 365 Cha
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 12/10/2024
 ms.custom: bap-template
 ---

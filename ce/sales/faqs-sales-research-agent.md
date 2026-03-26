@@ -13,7 +13,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
 
-# Frequently asked questions about Sales Research Agent (preview)
+# FAQs about Sales Research Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -24,7 +24,7 @@ ms.reviewer: lavanyakr
 
 You might not be able to access the Sales Research Agent in the following scenarios:
 
-- You're in a region where the Sales Research Agent is not available. The Sales Research Agent is only available in the European Union (EU) and United States currently. If you're in the EU or United States but still see a notification that the agent isn't available, your tenant's data residency may be outside these regions.
+- Your tenant is in a region where the Sales Research Agent is not available. The Sales Research Agent is only available in the European Union (EU) and United States currently. If you're in the EU or United States but still see a notification that the agent isn't available, your tenant's data residency may be outside these regions.
 - You don't have the required permissions to access the Sales Research Agent. You need the **Sales Research Agent Reader** role to access the agent. 
 - You don't have enough credits in Copilot Studio to use the Sales Research Agent.
 

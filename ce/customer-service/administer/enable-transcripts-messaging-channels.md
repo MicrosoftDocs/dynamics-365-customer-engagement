@@ -1,6 +1,6 @@
 ---
 title: Enable transcript for messaging channels
-description: Learn how to set up the transcript experience for messaging channels in Omnichannel for Customer Service.
+description: Learn how to set up the transcript experience for messaging channels in Dynamics 365 Contact Center.
 ms.date: 04/25/2025
 ms.topic: how-to
 author: neeranelli

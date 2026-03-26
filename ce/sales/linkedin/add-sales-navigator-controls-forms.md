@@ -16,9 +16,6 @@ search.audienceType:
 
 [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Sales Navigator controls are custom controls that you can add to forms in [!INCLUDE[pn-dynamics-365](../../includes/pn-dynamics-365.md)] to show information about a [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] member profile or company profile.
 
-> [!NOTE]
-> For Dynamics 365 Sales Professional, the lead and contact forms must be treated as custom forms and add the controls to these forms.
-
 ## Prerequisites
 
 - You have Customizer or System Administrator security role in [!INCLUDE[pn-dynamics-365](../../includes/pn-dynamics-365.md)].  

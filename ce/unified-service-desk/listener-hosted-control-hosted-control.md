@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Listener Hosted Control (Hosted Control)
 Use the `Listener Hosted Control` type of hosted control, introduced in [!INCLUDE[pn_unified_service_desk_20](../includes/pn-unified-service-desk-20.md)], to configure a custom listener for your auditing, diagnostic, and trace logs. The hosted control contains a reference to your assembly and class that contains the code for the custom listener. This type of hosted control doesn’t have any predefined UII actions or events.  

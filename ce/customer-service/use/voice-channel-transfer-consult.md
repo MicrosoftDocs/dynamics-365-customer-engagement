@@ -1,7 +1,7 @@
 ---
 title: Transfer calls and consult with users
 description: Use this article to understand how customer service representatives can use transfer and consult options to make and receive customer calls in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 09/15/2025
+ms.date: 03/25/2026
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -15,42 +15,45 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-You can transfer calls or consult with other service representatives or supervisors to collaborate with them on questions that you might have when you're on a call with a customer. 
+You can transfer calls or consult with other service representatives or supervisors to collaborate with them on questions that you might have when you're on a call with a customer.
 
 To familiarize yourself with the call controls, see [Understand how to use the agent dashboard and call controls](/dynamics365/contact-center/use/voice-channel-agent-experience).
 
 ## Prerequisites
 
-- To transfer the calls to another service representative, the [transfer to representative](../administer/enable-transfer-consult.md) setting is enabled by your administrator.
-- To transfer calls to an external PSTN number or a Teams user, the transfer settings must be enabled in the voice channel instance settings.
+Your administrator enabled the following settings;
+
+- To transfer the calls to another service representative, [direct transfer of conversations](../administer/enable-transfer-consult.md#enable-direct-transfer-of-conversations) setting.
+- To automatically select a representative to consult with, [consult to queue](../administer/enable-transfer-consult.md#enable-consult-to-queue) setting,
+- To transfer calls to an external PSTN number or a Teams user, the transfer settings must be enabled in the [voice channel instance](../administer/voice-channel-inbound-calling.md#configure-a-voice-channel) settings.
 
 ## Transfer calls
 
 When you receive an incoming call, you can transfer the call to a service representative, a queue, a public switched telephone network (PSTN) Teams user, or an external PSTN number. After you transfer the call, the following actions occur:
 
- - The customer is automatically put on hold. Hold music plays for the customer. 
- - By default, the customer is automatically removed from hold once a secondary service representative accepts the transferred call. If the **Un-hold customer after representative transfer is accepted** setting is disabled, the primary service representative must manually remove the customer from hold.
+- The customer is automatically put on hold. Hold music plays for the customer.
+- By default, the customer is automatically removed from hold after a secondary service representative accepts the transferred call. If the **Un-hold customer after representative transfer is accepted** setting is disabled, the primary service representative must manually remove the customer from hold.
 
-1. Select **Transfer** in the call window. 
+1. Select **Transfer** in the call window.
 
     :::image type="content" source="../media/oc-transfer-scn.png" alt-text="A screenshot of the transfer option.":::
-   
+
    The **Transfer** dialog displays **Representatives**, **Queue**, **Teams**, and **External number** tabs.   
 
 1. Based on your requirement, perform one of the following steps.
 
     - **Transfer to a representative**: On the **Representative** tab, search for the representative you want to transfer the call to. Select the representative from the search results, and then select **Transfer**. The customer is put on hold. The representative who picks up the transferred call becomes the primary representative and you become the secondary representative and are removed from the call. Your capacity and presence status are updated accordingly.
     - **Transfer to a queue**: Select **Queue**, search for the queue you want to transfer the call to, and then select **Transfer**. The customer is put on hold. The representative who picks up the transferred call becomes the primary representative and you become the secondary and are removed from the call.
-    
+
       > [!NOTE]
-      > - When you transfer a call to a queue that doesn't have any service representatives, the application automatically ends the call and sets the status to Closed.
-      > - If you transfer a call from a phone number linked to an inbound or outbound profile to a queue with a Copilot agent, the agent can only speak to the customer and end the call. The agent can't transfer the call to another agent or external number, even when you have configured the Escalation topic in Copilot Studio.
+      > - When you transfer a call to a queue that doesn't have any representatives, the application automatically ends the call and sets the status to Closed.
+      > - If you transfer a call from a phone number linked to an inbound or outbound profile to a queue with a Copilot agent, the agent can only speak to the customer and end the call. The agent can't transfer the call to another agent or external number, even if you configure the Escalation topic in Copilot Studio.
 
         :::image type="content" source="../media/voice-call-transfer-to-representative-mini.png" alt-text="Screenshot of selecting a representative to transfer the call." lightbox="../media/voice-call-transfer-to-representative.png":::
-    
+
     - **Transfer to an external PSTN number or Teams user**: Select **External number**. On the number pad that appears, enter the customer's area or region code, phone number, and then select **Call** to make your call. 
-    -  **Transfer to Teams user**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence of the users in Microsoft Teams. <br> 
-    
+    - **Transfer to Teams user**: Select **Teams**, and use the search option to search for a Microsoft Teams user. The results are filtered based on the name and the live presence of the users in Microsoft Teams. <br> 
+
     The transfer and consult behaviors depend on the voice channel experience your administrator configured.
 
     > [!NOTE]
@@ -59,7 +62,7 @@ When you receive an incoming call, you can transfer the call to a service repres
     ### [Enhanced voice](#tab/enhancedvoicestack)
 
     When you initiate a transfer, the application ends the call for you as soon as the Teams user or user with the external number accepts or rejects the call. You don't need to press a button to leave the call. To make sure that the secondary service representative answers the call, you can use the **Consult** option to collaborate with the secondary representative before transferring the call.
-     
+
     The following actions occur based on the **Use bridged transfers** setting:
     - **Enabled**
        - Customer hears hold music.
@@ -89,48 +92,78 @@ When you receive an incoming call, you can transfer the call to a service repres
 The consult option allows you to collaborate with another representative, a supervisor, or an external participant (a PSTN number or a Teams PSTN number). You can initiate a chat, a call consult, or both.
 
 When you initiate a consult, the following actions occur:
-- You're the primary representative. 
+
+- You're the primary representative.
+
 - You can search for representatives to consult within the same queue or other queues. Additionally, you can filter representatives within a queue based on their skills. The application shows representatives whose skills fully or partially match the selected criteria, along with their name and current presence status. You can add multiple representatives to the consult.
 - The customer is automatically put on hold. Hold music plays for the customer.
-- When the invited collaborator joins the call, they have a consult role. Consulting on a call doesn't affect the collaborator's available capacity. You can also add multiple collaborators to the consult.
-- When you have multiple participants in a consult, you can manage each participant individually:
-    - Place consulting representative on hold. Select the hold control next to any consulting participant to place them on hold individually. The consulting representative hears hold music while on hold.
-    - Transfer to specific consulting representatives. Use the transfer controls positioned next to each consulting participant to transfer the call directly to that specific representative within the consult. 
-    - When you initiate a consult with an external participant, the system allows Dual-tone multi frequency inputs. The primary representative can also remove the consulting external participant from the call. 
-- The primary representative must manually remove the customer from hold. During a consult, the primary representative can choose to transfer the call to the new participant.  When more than one participant joins a consult, the system shows the customer as "off hold" to all representatives who aren't currently on hold in the consult.
-- If the primary representative or customer ends the call, the call ends for everyone. 
-- If the primary representative refreshes their browser, all the participants are placed on hold until the primary representative returns to the call. 
+- When the invited collaborator joins the call, they have a consult role. Consulting on a call doesn't affect the collaborator's available capacity.
+- When you initiate a consult with an external participant, the system allows dual-tone multi-frequency inputs. The primary representative can also remove the consulting external participant from the call.
+- The primary representative must manually remove the customer from hold. During a consult, the primary representative can choose to transfer the call to the new participant.
+- If the primary representative or customer ends the call, the call ends for everyone.
+- If the primary representative refreshes their browser, all the participants are placed on hold until the primary representative returns to the call.
 
+### Consult with another user
 
-**Consult with another user**
-
-1. Select **Consult** in the call window. 
+1. Select **Consult** in the call window.
 
     :::image type="content" source="../media/oc-consult-btn.png" alt-text="Image of consult icon on the call controls.":::
-   
-   The **Consult** dialog box appears. The **Agent**, **Teams**, and **External number** tabs are displayed.
+ 
+   The **Consult** dialog appears. The **Representatives**, **Teams**, and **External number** tabs are displayed.
 
    :::image type="content" source="../media/oc-consult-optns.png" alt-text="Screenshot of available consult options.":::
 
 1. Based on your requirement, perform one of the following steps.
 
-    - **Consult with an internal agent or supervisor**: Select **Agent**. You can either have a call or chat with an internal agent or supervisor. Select the conversation channel and then search for the representative you'd like to consult with.<br>
+    - **Consult with an internal agent or supervisor**: Select **Representatives**. You can either have a call or chat with an internal agent or supervisor. Select the conversation channel and then search for the representative you'd like to consult with.
 
-   - **Consult with external PSTN number**: Select the **Number Pad**. On the number pad that appears, enter the customer's area code, phone number, and then select **Call** to make your call. 
-     By default, the consultation is private. The customer is on hold while the primary representative speaks with the new participant. You can also have a public consultation, where the customer is actively involved in the conversation by taking them off hold. <br>
+    - **Consult with external PSTN number**: Select the **Number Pad**. On the number pad that appears, enter the customer's area code, phone number, and then select **Call** to make your call.
+     By default, the consultation is private. The customer is on hold while the primary representative speaks with the new participant. You can also have a public consultation, where the customer is actively involved in the conversation by taking them off hold.
 
-   - **Consult with Teams user**: Select **Teams** and use the search option to search for and select the Microsoft Teams user you'd like to consult with. Learn more at [Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md). If you've migrated to the enhanced voice experience, PSTN doesn't appear on the Teams tab. Enter the phone number of the Teams user directly in the external transfer tab.
+    - **Consult with Teams user**: Select **Teams** and use the search option to search for and select the Microsoft Teams user you'd like to consult with. Learn more in [Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md). If you've migrated to the enhanced voice experience, PSTN doesn't appear on the Teams tab. Enter the phone number of the Teams user directly in the external transfer tab.
 
-   - **Consult, then transfer**: The primary representative who initiated the consult can transfer the call to any participant involved in the consult. To transfer a conversation to the consulting representative in the conversation, perform the following steps:
+    - **Consult, then transfer**: The primary representative who initiated the consult can transfer the call to any participant involved in the consult. To transfer a conversation to the consulting representative in the conversation, perform the following steps:
        - If the consult is with an external participant (PSTN or Teams user), select **Transfer** next to the external phone number or Teams user name at the top of the call window. If your administrator didn't enable **Use bridged transfers**, the external user receives a new call request from the customer, and the customer hears a message that they're being transferred, then the ringing sound.  If your administrator enabled **Use bridged transfers**, the current call continues between the external user and the customer, and the original representative is dropped from the call.
        - If the consult is with an internal representative or a supervisor, select **Transfer** on the call controls. The application displays the **Agent** tab with the representative or supervisor in the consult. 
-    
+
     The call recording and transcript of the conversation with the Teams user during consult is saved in the application for reporting and compliance.
+
+### Consult to queue
+
+If your administrator enabled [consult to queue](../administer/enable-transfer-consult.md#enable-consult-to-queue), the option to consult with a queue appears on the chat window when you select the consult option. Learn more in [Consult to queue](oc-conversation-control.md#consult-queue).
+
+## Consult with external contacts and transfer a call securely (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+
+If your administrator configured [security settings](../administer/configure-voice-call-experiences.md#set-up-secure-consult-with-and-transfer-to-external-contacts-preview) for consult with or transfer to external contacts, learn how the system handles recording and transcription of the call.
+
+The secure settings work only when the following prerequisites are fulfilled:
+
+- [Inbound calling](/dynamics365/customer-service/administer/voice-channel-inbound-calling) is set up with the **External phone numbers** checkbox selected for **Consult** and **Transfer** in the workstream.
+- **Use bridged transfer** is enabled for the workstream. If bridged transfer isn't enabled, recording and transcription settings for bridged transfer won't apply and the system stops recording and transcription by default when the call is transferred. Learn more in [Transfer calls to external numbers](../administer/voice-channel-inbound-calling.md#transfer-calls-to-external-numbers-and-teams-users).
+
+The system automatically applies one of the following security settings when the external contact joins the call or the call is transferred to the contact.  
+
+- Recording and transcription occur based on workstream settings.
+- Recording stops, but transcription continues if active. For consult, you can't modify the recording or transcription state during active consultation.
+- Recording and transcription stop for maximum security. For consult, you can't modify the recording or transcription state during active consultation.
+
+For secure consult, one of the following hold actions are applicable:
+
+- You're placed on hold while the customer interacts with the external contact. If there are multiple service representatives on the call when secure consult is initiated, all the service representatives are put on hold when secure consult joins the call. Everyone is removed from hold when the secure consult leaves the call. You can't modify the hold during consultation.
+- Hold settings configured for the workstream are applicable.
+
+> [!NOTE]
+> If you don't configure the secure settings, during consultation with or after bridged transfer to external contacts, recording and transcription continue based on the workstream settings.
+
+When the external contact leaves the call, recording and transcription resume, and participants are removed from hold based on the workstream settings. You can initiate a transfer to the secure number after consult begins. The bridged transfer settings are applicable to the call.
 
 ### Related information
 
 [Overview of the voice channel](../administer/voice-channel.md)  
 [Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md)  
 [Call a customer](voice-channel-call-customer.md)  
+[Enable consult and transfer](../administer/enable-transfer-consult.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

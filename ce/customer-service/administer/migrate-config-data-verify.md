@@ -1,6 +1,6 @@
 ---
 title: Verify migration of records
-description: Learn to verify your migration of data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service.
+description: Learn to verify your migration of data pertaining to records enabled for unified routing from source to target environments in Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

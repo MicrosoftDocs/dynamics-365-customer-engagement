@@ -1,6 +1,6 @@
 ---
 title: Enable formatted messages
-description: Use this topic to understand how to enable your representatives to send and receive formatted messages in Omnichannel for Customer Service.
+description: Use this topic to understand how to enable your representatives to send and receive formatted messages in Dynamics 365 Contact Center.
 author: gandhamm
 ms.author: mgandham
 ms.date: 06/26/2025

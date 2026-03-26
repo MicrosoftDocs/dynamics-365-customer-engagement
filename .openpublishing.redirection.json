@@ -1,5 +1,20 @@
 {
   "redirections": [
+   {
+      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocsessionparticipantevent.md",
+      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_ocsessionparticipantevent",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/administer/cs-enable-ai-generated-summary.md",
+      "redirect_url": "/dynamics365/contact-center/administer/copilot-enable-summary#enable-conversation-summaries",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/use/cs-ai-generated-summary.md",
+      "redirect_url": "/dynamics365/contact-center/use/copilot-summarize-conversations",
+      "redirect_document_id": "false"
+    },
     {
       "source_path": "ce/sales/developer/entities/flowmachineimage.md",
       "redirect_url": "/dynamics365/developer/reference/entities/flowmachineimage",
@@ -31,6 +46,46 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/monitor-opportunity-agent.md",
+      "redirect_url": "/dynamics365/sales/opportunity-research-agent",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/sales-qualification-agent-custom-research-topics.md",
+      "redirect_url": "/dynamics365/sales/define-custom-research-topics",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/use-form-fill-assistance.md",
+      "redirect_url": "/dynamics365/sales/form-fill-assistance",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/find-data-in-view-with-ai.md",
+      "redirect_url": "/dynamics365/sales/find-data-with-ai",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/visualize-data-in-view-with-ai.md",
+      "redirect_url": "/dynamics365/sales/visualize-data-in-copilot",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/sales-ai-agents-faqs.md",
+      "redirect_url": "/dynamics365/sales/ai-agent-overview",
+      "redirect_document_id": "false"
+    },
+   {
+      "source_path": "ce/sales/sales-qualification-agent-competitor-insights.md",
+      "redirect_url": "/dynamics365/sales/configure-sqa-knowledge-source#configure-competitor-insights",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/copilot-preview-features.md",
+      "redirect_url": "/dynamics365/sales/sales-qualification-agent",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/develop/reference/entities/quotedetail.md",
       "redirect_url": "/dynamics365/developer/reference/entities/quotedetail",
       "redirect_document_id": "false"
@@ -52,7 +107,12 @@
     },
     {
       "source_path": "ce/sales/prepare-for-ci-migration-to-dataverse.md",
-      "redirect_url": "/dynamics365/sales//create-azure-repo",
+      "redirect_url": "/dynamics365/sales/create-azure-repo",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/opportunity-research-agent.md",
+      "redirect_url": "/dynamics365/sales/sales-close-agent",
       "redirect_document_id": "false"
     },
     {
@@ -1888,11 +1948,6 @@
     {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_omnichannelsyncconfig.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_omnichannelsyncconfig",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customer-service/develop/reference/entities/msdyn_overflowactionconfig.md",
-      "redirect_url": "/dynamics365/developer/reference/entities/msdyn_overflowactionconfig",
       "redirect_document_id": "false"
     },
     {
@@ -6742,7 +6797,7 @@
     },
     {
       "source_path": "ce/insights-insideview/insights-powered-by-insideview.md",
-      "redirect_url": "https://appsource.microsoft.com/en-us/product/dynamics-365/insideviewinc.b5386882-4312-4d69-879a-23081897c012?tab=Overview",
+      "redirect_url": "https://marketplace.microsoft.com/en-us/product/dynamics-365/insideviewinc.b5386882-4312-4d69-879a-23081897c012?tab=Overview",
       "redirect_document_id": "false"
     },
     {
@@ -27500,6 +27555,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/teams-integration/add-chat-d365.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#add-chat-message-to-dynamics-365-record-in-microsoft-teams",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/cfs-authorize-api-connection.md",
       "redirect_url": "/dynamics365/field-service/installation-setup-iothub"
     },
@@ -30121,6 +30181,11 @@
     {
       "source_path": "ce/common-scheduler/preview-schedule-board.md",
       "redirect_url": "/dynamics365/common-scheduler/use-schedule-board",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/common-scheduler/developer/extensibility-release-notes.md",
+      "redirect_url": "/dynamics365/field-service/version-history",
       "redirect_document_id": "false"
     },
     {
@@ -35584,6 +35649,76 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/field-service/flw-admin.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-copilot-setup.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-customization.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-outlook-get-started.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-outlook.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-overview.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-teams-manager-get-started.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-teams-manager.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-teams-worker-get-started.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-teams-worker.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-whats-new.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/faqs-flm-copilot-email.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/faqs-wo-flw-copilot.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/planner-sync.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-integrations-with-microsoft-outlook-teams-viva-connections-and-planner---september-1-2025",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/field-service/flw-m365-chat.md",
       "redirect_url": "/dynamics365/field-service/deprecations-field-service",
       "redirect_document_id": false
@@ -35666,6 +35801,16 @@
     {
       "source_path": "ce/customer-service/use/oc-metrics-dimensions.md",
       "redirect_url": "/dynamics365/customer-service/develop/calculate-conversation-metrics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/session-metrics.md",
+      "redirect_url": "/dynamics365/customer-service/develop/calculate-session-metrics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/service-rep-metrics.md",
+      "redirect_url": "/dynamics365/customer-service/develop/calculate-representative-metrics",
       "redirect_document_id": false
     },
     {
@@ -35766,6 +35911,73 @@
     {"source_path": "ce/customer-service/use/oc-conversation-topics-dashboard.md",
       "redirect_url": "/previous-versions/dynamics365/customer-service/use/oc-conversation-topics-dashboard",
       "redirect_document_id": false
+    },
+    {"source_path": "ce/customer-service/implement/system-requirements-omnichannel.md",
+      "redirect_url": "/dynamics365/contact-center/implement/system-requirements-contact-center",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/customer-service/administer/configure-ai-agent-to-use-mcp-server.md",
+      "redirect_url": "/dynamics365/customer-service/configure-customer-service-mcp-server",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/customer-service/use/case-topics-dashboard-cs.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/use/case-topics-dashboard-cs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/create-simple-selection-rule.md",
+      "redirect_url": "/dynamics365/customer-service/administer/create-simple-selection-rule",
+      "redirect_document_id": false
+    },   
+    {
+      "source_path": "ce/customer-service/use/supervisor-historical-analytics.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/use/supervisor-historical-analytics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/info-analytics-reports.md",
+      "redirect_url": "/dynamics365/customer-service/use/customer-service-analytics-insights-csh",
+      "redirect_document_id": false
+    },
+        {
+      "source_path": "ce/customer-service/use/use-copilot-to-work-with-data.md",
+      "redirect_url": "/dynamics365/customer-service/use/find-data-with-ai",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/configure-ai-suggested-article-keywords-description.md",
+      "redirect_url": "/power-apps/user/form-filling-assistance",
+      "redirect_document_id": false
+    },
+    {
+     "source_path": "ce/field-service/set-up-customer-agreements.md",
+     "redirect_url": "/dynamics365/field-service/agreements-overview",
+     "redirect_document_id": "false"
+    },    
+    {
+     "source_path": "ce/customer-service/administer/manage-historical-data-capacity-updates.md",
+     "redirect_url": "/dynamics365/customer-service/administer/capacity-profiles",
+     "redirect_document_id": "false"
+    },    
+    {
+     "source_path": "ce/customer-service/administer/omnichannel-customizer.md",
+     "redirect_url": "/dynamics365/customer-service/administer/customize-customer-summary",
+     "redirect_document_id": "false"
+    },
+    {
+     "source_path": "ce/customer-service/administer/configure-end-of-call-survey.md",
+     "redirect_url": "/dynamics365/customer-service/administer/configure-voice-call-experiences",
+     "redirect_document_id": "false"
+    },
+    {
+     "source_path": "ce/customer-service/use/dataverse-entities.md",
+     "redirect_url": "/dynamics365/customer-service/develop/dataverse-entities",
+     "redirect_document_id": "false"
+    },
+    {
+     "source_path": "ce/customer-service/use/use-microsoft-365-copilot-chat.md",
+     "redirect_url": "/dynamics365/customer-service/use/use-microsoft-365-copilot",
+     "redirect_document_id": "false"
     }
   ]
 }

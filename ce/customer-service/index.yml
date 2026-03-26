@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 02/07/2025
+  ms.date: 01/30/2026
   ms.custom: bap-template
   hide_bc: true
 
@@ -58,9 +58,9 @@ additionalContent:
     - title: Set up 
       links:
       - url: implement/add-users-assign-roles.md
-        text: Set up roles and enable users in Omnichannel for Customer Service
+        text: Set up roles and enable users in Customer Service
       - url: implement/persona-privilege-mapping.md
-        text: Set up personas and privileges in Customer Service and Omnichannel for Customer Service
+        text: Set up personas and privileges in Customer Service
       - url: implement/customer-service-workspace-system-requirements.md
         text: System requirements for Copilot Service workspace  
   - title: Administer and develop
@@ -68,15 +68,17 @@ additionalContent:
     - title: Configure
       links:
       - url: administer/provision-unified-routing.md
-        text: Provision unified routing for Customer Service
+        text: Enable unified routing for Customer Service
       - url: administer/voice-channel-install.md
         text: Configure the voice channel
       - url: administer/define-service-level-agreements.md
-        text: Configure service-level agreements      
+        text: Configure service-level agreements
+      - url: /dynamics365/contact-center/administer/create-rollout-plans
+        text: Create rollout plans to manage AI agents        
     - title: Develop
       links:
       - url: develop/reference/about-entity-reference.md
-        text: Omnichannel for Customer Service entity reference
+        text: Contact center entity reference
       - url: develop/omnichannel-reference.md
         text: Live chat SDK Reference
       - url: develop/develop-live-chat-widget.md
@@ -85,16 +87,14 @@ additionalContent:
       links:
       - url: administer/add-enhanced-case-management.md
         text: Customize the case resolution experience
-      - url: administer/omnichannel-customizer.md
-        text: Customize forms for your agents and supervisors
       - url: administer/analytics_overview.md
         text: Customize analytics and insights
       - url: administer/model-customize-reports.md
         text: Customize data models of historical and real-time analytics reports
     - title: Integrate
       links: 
-      - url: administer/voice-channel-contextual-transfer-external-ivr.md
-        text: Integrate a third-party IVR system with voice channel
+      - url: administer/voice-channel-pva-bots.md
+        text: Set up IVR agents in the voice channel
       - url: administer/configure-bot-virtual-agent.md
         text: Integrate AI agents
       - url: administer/integrate-KM-with-PVA.md
@@ -104,7 +104,7 @@ additionalContent:
     - title: Configure Copilot features
       links:
       - url: administer/configure-copilot-features.md
-        text: Manage copilot features in Customer Service
+        text: Manage Copilot features in Customer Service
       - url: administer/copilot-enable-help-pane.md
         text: Enable features in Copilot pane
       - url: administer/copilot-enable-summary.md
@@ -155,20 +155,18 @@ additionalContent:
         text: Ask a question
       - url: use/use-copilot-email.md
         text: Write an email with Copilot
-    - title: Use AI capabilities
+    - title: Use AI agents
       links:
-      - url: use/csw-view-ai-suggested-cases-knowledge-articles.md
-        text: View AI-suggested similar cases and knowledge articles 
-      - url: use/teams-use-suggested-contacts.md
-        text: Use suggested contacts
-      - url: use/cs-ai-generated-summary.md
-        text: Use auto-summarization for ongoing conversations
-      - url: use/use-ai-suggested-contacts-teams.md
-        text: Collaborate with AI-suggested contacts in Microsoft Teams
+      - url: use/use-case-creation-agent.md
+        text: Use Case Management Agent to create and update cases 
+      - url: use/admin-km-agent-review.md
+        text: Use Knowledge Management Agent
+      - url: /dynamics365/contact-center/use/use-intent-suggestions
+        text: Use Customer Intent Agent
     - title: Get insights and analyze service operations 
       links:
       - url: use/omnichannel-analytics-insights.md
-        text: Use Omnichannel for Customer Service dashboards
+        text: Use Omnichannel dashboards
       - url: use/intro-realtime-analytics-dashboard.md
         text: Use Omnichannel real-time analytics dashboards
       - url: use/oc-metrics-dimensions.md

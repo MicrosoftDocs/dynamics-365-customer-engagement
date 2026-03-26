@@ -1,8 +1,7 @@
 ---
 title: Open the schedule board from a URL
 description: Access the schedule board from a constructed URL with custom parameters.
-ms.date: 06/06/2024
-ms.reviewer: mhart
+ms.date: 08/20/2025
 ms.subservice: common-scheduler
 ms.topic: how-to
 author: mkelleher-msft

@@ -1,19 +1,17 @@
 ---
-title: Set up Case Management Agent for case creation and update (preview)
+title: Set up Case Management Agent for case creation and update 
 description: Learn how to set up autonomous Case Management Agent to help customer support teams efficiently handle case management tasks.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 09/15/2025
+ms.date: 03/20/2026
+ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
 
-
-# Set up Case Management Agent to create and update cases (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Set up Case Management Agent to create and update cases 
 
 Case Management Agent streamlines the case management process, reducing manual effort and data entry errors.
 
@@ -25,11 +23,10 @@ You can use the creation and update feature of Case Management Agent to do the f
      - When a customer service representative (service representative or representative) manually creates a case from an email or conversation
      - When a case is created from an incoming email using automatic record creation and update rules
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-
 ## Prerequisites
 
 - Administrators must have the CSR Manager or System Administrator role.
+
 - Enable [AI form fill assistance](/power-platform/admin/settings-features#ai-form-fill-assistance) in the Power Platform admin center application.
 - [Automatically create or update records](automatically-create-update-records.md) are set up to create case records from emails.
 - The following configurations are set up if you want to create a case from conversations:
@@ -39,57 +36,95 @@ You can use the creation and update feature of Case Management Agent to do the f
 -  [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center application.
 - Case Management Agent uses the Data Entry Agent in the background. The Power Platform [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview) mandates the usage of an Azure subscription the system charges when the agent runs. Make sure you [Set up consumption-based billing](setup-pay-as-you-go.md).
 - Transcription is enabled for the channels that support voice conversations. For more information, see [Enable transcription for voice channels](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice).
--  We recommend that you enable audit history and make sure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
+- We recommend that you enable audit history and make sure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
 - For customers to provide the details that the AI agent can use, you can configure [preconversation survey](configure-pre-chat-survey.md).
 - Make sure the service representatives working on the case and accepting conversations have read privileges on the `msdyn_entityattributepredictionrules` table.
-- For the AI agent to predict case fields from emails autonomously, do the steps in [Configure global settings for Case Management Agent (preview)](case-management-global-settings.md).
+- For the AI agent to predict case fields from emails autonomously, do the steps in [Configure global settings for Case Management Agent](case-management-global-settings.md).
 
 ### Update field and lookup descriptions in Power Apps
 
 To help the AI agent make better predictions for lookup fields, add descriptive information to your lookup records. Do the following steps in Power Apps:
 
-- Add meaningful field descriptions in your table columns to help the AI understand the context. For example, in the **Account Number** column of the **Account** table, add a description like: "This is an account number. Account numbers start with ACC."
+- To help the AI agent understand the context, add meaningful field descriptions in your table columns. For example, in the **Account Number** column of the **Account** table, add a description like: "This is an account number. Account numbers start with ACC."
 -  Do the following steps to improve the AI agent's prediction accuracy with lookup fields:
     - For the required lookup entity, add a new optional text field to contain a description of the record if a description field doesn't already exist.
     - Add the meaning and usage for the description fields in the lookup records.
     - Update the **Quick Find** view of the lookup entity to include the new description field as a column. 
     - Save and publish the changes.
     
-  For example, consider case categories like "Billing" and "Account Issues". When a customer writes "I can't access my account to pay my bill," it fits both categories. By adding clear descriptions to each lookup record, the AI agent can make more accurate predictions. If you include descriptions to the "Billing" category such as "Questions about charges and invoices, payment processing issues, refund requests," and  "Login problems and password resets, profile updates and settings, account access difficulties" to "Account issues", the AI agent categorizes the customer's message as "Account Issues" because the primary problem relates to account access rather than billing.
+  For example, consider case categories like "Billing" and "Account Issues". When a customer writes "I can't access my account to pay my bill," it fits both categories. When you add clear descriptions to each lookup record, the AI agent can make more accurate predictions. If you include descriptions to the "Billing" category such as "Questions about charges and invoices, payment processing issues, refund requests," and  "Login problems and password resets, profile updates and settings, account access difficulties" to "Account issues", the AI agent categorizes the customer's message as "Account Issues" because the primary problem relates to account access rather than billing.
    > [!NOTE]
    > The Subject entity includes a description field by default, but we recommend not using these descriptions for lookup predictions because subject lookup views are read-only.
 
 **Best practices for lookup descriptions**
 
-We recommend that you follow these guidelines when you are adding descriptions for lookup fields:
+We recommend that you follow these guidelines when you add descriptions for lookup fields:
 
 - Use simple, direct language and keep the descriptions under two or three sentences to ensure clarity. Don't add unnecessary information or domain jargon.
-- Include typical scenarios, keywords, and phrases that users might use when describing their issue. This helps the AI agent to make semantic connections between user input and the correct record.
+- Include typical scenarios, keywords, and phrases that users might use when describing their issue. This information helps the AI agent to make semantic connections between user input and the correct record.
 - Distinguish between similar records by specifying what makes each record unique, preventing confusion and improving prediction accuracy.
 - Don’t repeat the record name unless it adds clarity. Specify what the name doesn't convey about the record's intended use and scope.
 - Use labeled sections like "Use when:" or "Not for:" to provide clear boundaries and usage guidelines for the AI agent.
 - Provide synonyms, related terms, and specific examples. Avoid terms such as "general" or "miscellaneous" that lack meaningful context.
 - Avoid overly generic descriptions, excessive detail, unexplained abbreviations, and assumptions about internal business logic that the AI agent can't access or understand.
 
+## Use Quick Find views to enable hierarchical lookup
+
+Hierarchical lookup allows Case Management Agent to resolve values across related tables that are organized in a parent–child structure, such as categories and subcategories. When hierarchical resolution is used, the agent evaluates both the selected record and its related parent records to determine the most relevant match.
+
+For these scenarios to work correctly, hierarchical resolution depends on how the **Quick Find Active** view is configured on the child table. The parent lookup column must be included in this view so that Case Management Agent can evaluate relationships and resolve hierarchical values during case creation and updates.
+
+### Prerequisites for hierarchical lookup
+
+- A parent–child lookup relationship exists between the tables.
+- The parent lookup column is available on the child table.
+- You have permissions to edit, save, and publish views in Power Apps.
+
+### Example hierarchy
+
+The following example shows a typical configuration for a hierarchical relationship:
+
+| Role | Table |
+|------|-------|
+| Parent (root) | Product family |
+| Child | Product |
+
+### Configure hierarchical lookup
+
+The **Quick Find Active** view on the child table can include multiple lookup columns. To enable hierarchical lookup, make sure that the parent lookup column is included.
+
+> [!Important]
+> Hierarchical lookup works only when the parent lookup column is included in the **Quick Find Active** view of the child table. Hierarchical lookup doesn’t work in the following scenarios:
+>
+> - The parent lookup column is added only to main, system, or custom views.
+> - A correct parent–child lookup relationship is defined, but the **Quick Find Active** view isn’t updated to include the parent lookup column.
+
+1. In **Power Apps**, go to **Solutions**, and then open the relevant solution.
+1. Select the child table. For example, **Product**.
+1. Select **Views**.
+1. Open the **Quick Find Active** view, and then select **View columns**.
+1. Find the parent lookup column (for example, **Product family**) and add it to the view.
+1. Select **Save** and **Publish**.
+
 ## Configure autonomous case updates
 
-In the Copilot Service admin center, configure the AI agent to predict and update case fields after a conversation ends or when processing an incoming email. The rules you specify in this section apply to all channels unless you explicitly configure them to apply to specific channels.
+In Copilot Service admin center, configure the AI agent to predict and update case fields after a conversation ends or when processing an incoming email. The rules you specify in this section apply to all channels unless you explicitly configure them to apply to specific channels.
 
 > [!NOTE]
 > The AI agent can predict and update fields of the following data types:
->   - Lookup fields. Upto 50 options are supported for each lookup field.
->   - Boolean
->   - Integer
->   - Choice
->   - Option Set
->   - Currency
->   - Multiple Lines of Text
->   - Single line of text
->   - Email
+> - Lookup fields. Upto 50 options are supported for each lookup field.
+> - Boolean
+> - Integer
+> - Choice
+> - Option Set
+> - Currency
+> - Multiple Lines of Text
+> - Single line of text
+> - Email
 
 1. In **Customer support**, select **Case settings**.
 2. On the **Case settings** page, select **Manage** for **Case Management Agent**.
-3. On the **Case Management Agent** page, select **Case creation and update with autonomous AI assistance (preview)**.
+3. On the **Case Management Agent** page, select **Case creation and update with autonomous AI assistance**.
 1. In the page that appears, in **Case update by AI agent (any channel)**, select **Create**. Specify the following information:
    - A unique name for the rule. 
    - Conditions for the AI agent to apply the rule. If no conditions are defined, the rule applies to all channels.
@@ -97,9 +132,10 @@ In the Copilot Service admin center, configure the AI agent to predict and updat
    - Select **Save**.   
   
  For example, if you only specify **Issue description** and **Contact** fields in the **Fields for AI prediction** section, the AI agent updates these fields when the conversation ends or from an incoming email. If you also specify a condition such as live chat status equals Active, then the rule applies only for live chat conversations that are active.
+
 1. The system runs case update rules in the order they're listed. You can select the arrow buttons to reorder the rules as needed.
 1. Select **Activate** to activate the rules.
-1. Select **Allow AI agent to override human edits during autonomous updates** for the AI agent to automatically overwrite fields. During autonomous case update, the AI agent overwrites fields that were previously edited by service representatives. 
+1. Select **Allow AI agent to override human edits during autonomous updates** for the AI agent to automatically overwrite fields. During autonomous case update, the AI agent overwrites fields that service representatives previously edited. 
 
 ## Configure autonomous case creation
 
@@ -110,12 +146,12 @@ The following actions trigger the case creation process of Case Management Agent
 
 To allow the AI agent to autonomously create cases across all provisioned messaging and voice channels, perform the following steps:
 
-1. Go to **Case creation and update (preview)** > **Case creation by AI agent (from chats and calls)** and select **Make Case Processing Agent available for case creation from conversations**.
+1. Go to **Case creation and update** > **Case creation by AI agent (from chats and calls)** and select **Make Case Processing Agent available for case creation from conversations**.
 1. In **Fields for AI prediction**, specify the fields the agent predicts and populates in the case form using information from the conversation. The AI agent populates only those fields that have sufficient context available.
 
 ## Configure AI-assisted case creation for service representatives
 
-Select the channels from which service representatives can create cases with AI assistance. You can select **Email** or **Conversation(chats and calls)**. When a service representative creates a case from a conversation or an email, the AI agent analyzes the conversation or email and predicts and populates the fields available on the case form. Service representatives can then review the predicted values and make any necessary changes before saving the case.
+Select the channels from which service representatives can create cases with AI assistance. You can select **Email** or **Conversation (chats and calls)**. When a service representative creates a case from a conversation or an email, the AI agent analyzes the conversation or email, and then predicts and populates the fields available on the case form. Service representatives can then review the predicted values and make any necessary changes before saving the case.
 
 ## Enable service representatives to use autonomous Case Management Agent
 
@@ -125,23 +161,21 @@ By default, service representatives added to the out-of-the-box experience profi
 
 1. Go to **Experience profiles** using one of the following navigation options:
    - **Support experience** > **Workspaces**
-   -  Select **Manage** for **Case Management Agent**, and then select **agent experience profiles** in **Case creation and update (preview)** > **Representative access**.
+   -  Select **Manage** for **Case Management Agent**, and then select **agent experience profiles** in **Case creation and update** > **Representative access**.
 2. Select the required experience profile.
-3. In the **Copilot AI features** section do the following actions:
+3. In the **Copilot AI features** section, do the following actions:
      - Select **From conversations** in **Autonomous case creation and update**.
      - In **Form fill assistance for cases** select **During case creation from conversation** and **During case creation from email** to indicate which channels the AI agent can assist service representatives in creating cases.
-  
   
 ## Record representative interactions with the AI agent
 
 In **Agent experience data from Representative experience data**, you can select **Record transcripts of representative interactions with AI, including representative actions, and their feedback on AI suggestions** to record and understand how representatives are interacting with the AI agent and how the agent is performing in a support organization. Representatives can also share feedback about AI agent actions, which helps Copilot perform better. You can also download and use the data to analyze knowledge sources, and build usage reports.
 
+### Example
 
-## Example 
+When a customer initiates a chat conversation with the service representative, the AI agent creates a case if there's enough context to update at least one of the **Issue description** or **Contact** fields.
 
-When a customer initiates a chat conversation with the service representative, the AI agent creates a case if there is enough context to update at least one of the **Issue description** or **Contact** fields.
-
-For the agent to run this scenario, specify the following in the **Case creation and update (preview)** page:
+For the agent to run this scenario, specify the following in the **Case creation and update** page:
  
 - **Channel**: Chat  
 - **Fields for AI prediction**: Issue description, Contact  
@@ -159,6 +193,78 @@ For the agent to run this scenario, in addition to the **Issue description** and
   - Specify fields for AI prediction when this condition is met:  
     - **Product**, **Priority**, **Serial number**
 
+##  Run simulations to evaluate field prediction accuracy in Case Management Agent
+
+Use simulation in Case Management Agent to validate the performance of AI‑powered field prediction on your organization’s historical data, sample email, or chat input. Assess prediction quality for confidence in the output before you enable the capability in production.
+
+> [!NOTE]
+> Simulations run the same field prediction pipeline that Case Management Agent uses in live cases. As predictions are generated in bulk, simulations consume Copilot or AI credits in the same way as regular field predictions.
+
+### Set up a simulation
+
+You can configure a simulation by using organization records or uploading an Excel file containing exported email or chat responses.
+
+1. On the **Case creation and update** page, select **Go to simulation** in the **Command** menu. The **Case creation and update simulation** page appears.
+1. On the **Simulation setup** tab, provide the following information:
+
+    1. **Simulation name**: Provide a simulation name. For example: Surface product cases, Refund category evaluation, or Email‑based sample test.
+    1. **Data source**: Select a data source from the dropdown.
+        1. For **Organization records**, do as follows:
+            1. **Fields for AI prediction**: Provide the fields for AI prediction.
+            1. **Conditions**: Define the conditions to fetch the records to be used in simulation.
+            1. **Show records**: Displays a list of records that you can select to use in simulation. You can select up to 100 case records.
+        1. **Excel Upload**: Select an unencrypted file. The values are consolidated into a single string before they are used in prediction.
+            1. **Fields for AI prediction**: Provide the fields for AI prediction.
+            1. **Upload File**: Upload the simulation input Excel file. The maximum file size is 1 MB with a maximum of 100 records.
+  1. Select **Run simulation**.
+
+**Excel sample 1:**
+
+|Email  |
+|---------|
+|Subject: Sign in Issue <br> Hello Support Team, <br>I’m unable to log in to my account despite using the correct credentials. Please help resolve this issue. <br> Thanks, John Doe. <br> Mobile: +91 xxxxx xxxx    |
+|Subject: Password Reset Help <br> Hello Customer Support, <br>I’m not receiving the password reset email. Could you please assist? Regards, John Doe. <br>Mobile: +91 xxxxx xxxx |
+
+**Excel sample 2:**
+
+|Email subject  | Email body  |Sent  |
+|---------|---------|---------|
+|Sign in Issue | Hello Support Team, <br>I’m unable to log in to my account despite using the correct credentials. Please help resolve this issue. <br>Thanks, John Doe. <br>Mobile: +91 xxxxx xxxx |  6/1/26 8pm    |
+|Password Reset Help |  Hello Customer Support, I’m not receiving the password reset email. Could you please assist?<br> Regards, John Doe. <br> Mobile: +91 xxxxx xxxx  | 6/1/26 8pm | 
+
+### View a simulation report
+
+On the **Case creation and update simulation** page, go to the **Simulation result** tab. Simulations are listed with details of the simulation name, run date, status, result, average prediction match, and action.
+
+- Select **Download** to export an Excel report. The report displays the record ID and predicted field values for each record. 
+- Select **View**. The **Simulation overview** page displays the following details:
+  - **Simulation setup (read-only)**: Configuration details used for the simulation.
+  - **Field prediction match**: Details of the AI predictions when you select organization records. You can sort the list by prediction accuracy or alphabetically.
+    - Prediction match (%) indicates how often predicted values match actual case values.
+    - Cases are included only when both predicted and actual values are available. Text and multiline text fields are excluded.
+  - **Detailed view**: Shows case-level details, such as actual and predicted values, and lets you add columns or download the data as an Excel file.
+- Select **Re-run** if you modify field descriptions or prediction rules.
+
+#### Best practices for data sources
+
+- Start with small record sets (20–30 cases) to validate your field descriptions.
+- Run multiple simulations focusing on different product lines, categories, and languages or regions.
+- Refine field descriptions whenever prediction errors show recurring patterns.
+- Test chats or emails with Excel files before launch. 
+
+## Enable shadow mode and view results (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+Use shadow mode to evaluate predicted actions from Case Management Agent on live cases without sending emails or updating records.
+
+> [!NOTE]
+> Shadow mode consumes Copilot or AI credits in the same way as regular field predictions.
+
+1. On the **Case creation and update** page, in **Case update by AI agent (any channel)**, select a case update rule.
+1. Select **Shadow mode** from the toolbar. The rule status changes to **Shadow mode**.
+1. Select **Review shadow runs** from the **Command** menu. On the **Case creation and update shadow mode results** page, you can view the old and new value for the cases. Responses are grouped by case. Expand a case to view all shadow responses associated with it.
+
 ## Next steps
 
- [Use Case Management Agent to create and update cases (preview)](../use/use-case-creation-agent.md)
+[Use Case Management Agent to create and update cases](../use/use-case-creation-agent.md)  

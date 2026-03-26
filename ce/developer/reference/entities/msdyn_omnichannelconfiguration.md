@@ -62,6 +62,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_consulttoqueuemessagingtimeoutvalue](#BKMK_msdyn_consulttoqueuemessagingtimeoutvalue)
+- [msdyn_consulttoqueuevoicetimeoutvalue](#BKMK_msdyn_consulttoqueuevoicetimeoutvalue)
 - [msdyn_defaultAgentInputLanguage](#BKMK_msdyn_defaultAgentInputLanguage)
 - [msdyn_delegated_prioritization_migration](#BKMK_msdyn_delegated_prioritization_migration)
 - [msdyn_dnd_presence_lookup](#BKMK_msdyn_dnd_presence_lookup)
@@ -80,7 +82,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_enablenewconversationform](#BKMK_msdyn_enablenewconversationform)
 - [msdyn_EnableRealTimeTranslation](#BKMK_msdyn_EnableRealTimeTranslation)
 - [msdyn_enablesoundnotifications](#BKMK_msdyn_enablesoundnotifications)
+- [msdyn_encryptmaskedmessages](#BKMK_msdyn_encryptmaskedmessages)
 - [msdyn_inactive_presence_lookup](#BKMK_msdyn_inactive_presence_lookup)
+- [msdyn_isconsultcapacityblocking](#BKMK_msdyn_isconsultcapacityblocking)
 - [msdyn_isconsulttoagentenabled](#BKMK_msdyn_isconsulttoagentenabled)
 - [msdyn_isconsulttoagentenabledformessaging](#BKMK_msdyn_isconsulttoagentenabledformessaging)
 - [msdyn_isconsulttoagentenabledforvoice](#BKMK_msdyn_isconsulttoagentenabledforvoice)
@@ -102,12 +106,15 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_IsWEMShiftBasedRoutingEnabled](#BKMK_msdyn_IsWEMShiftBasedRoutingEnabled)
 - [msdyn_maskforagent](#BKMK_msdyn_maskforagent)
 - [msdyn_maskforcustomer](#BKMK_msdyn_maskforcustomer)
+- [msdyn_maskingpermission](#BKMK_msdyn_maskingpermission)
 - [msdyn_maximumnumberofattemptsforconsulttoqueue](#BKMK_msdyn_maximumnumberofattemptsforconsulttoqueue)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_number_of_declines_allowed](#BKMK_msdyn_number_of_declines_allowed)
 - [msdyn_omnichannelconfigurationId](#BKMK_msdyn_omnichannelconfigurationId)
 - [msdyn_preferredagentbackupmode](#BKMK_msdyn_preferredagentbackupmode)
+- [msdyn_publickeyurl](#BKMK_msdyn_publickeyurl)
 - [msdyn_SoundFormControl](#BKMK_msdyn_SoundFormControl)
+- [msdyn_timeoutrulecsroverride](#BKMK_msdyn_timeoutrulecsroverride)
 - [msdyn_translationwebresourceurl](#BKMK_msdyn_translationwebresourceurl)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
@@ -140,6 +147,34 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`iscustomizable`|
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
+
+### <a name="BKMK_msdyn_consulttoqueuemessagingtimeoutvalue"></a> msdyn_consulttoqueuemessagingtimeoutvalue
+
+|Property|Value|
+|---|---|
+|Description|**Timeout value in seconds for consult to queue for messaging conversations.**|
+|DisplayName|**Consult to queue messaging timeout value**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_consulttoqueuemessagingtimeoutvalue`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|86400|
+|MinValue|30|
+
+### <a name="BKMK_msdyn_consulttoqueuevoicetimeoutvalue"></a> msdyn_consulttoqueuevoicetimeoutvalue
+
+|Property|Value|
+|---|---|
+|Description|**Timeout value in seconds for consult to queue for voice conversations.**|
+|DisplayName|**Consult to queue voice timeout value**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_consulttoqueuevoicetimeoutvalue`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|86400|
+|MinValue|30|
 
 ### <a name="BKMK_msdyn_defaultAgentInputLanguage"></a> msdyn_defaultAgentInputLanguage
 
@@ -473,6 +508,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Yes|
 |False Label|No|
 
+### <a name="BKMK_msdyn_encryptmaskedmessages"></a> msdyn_encryptmaskedmessages
+
+|Property|Value|
+|---|---|
+|Description|**Encrypt masked messages**|
+|DisplayName|**Encrypt masked messages**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_encryptmaskedmessages`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_omnichannelconfiguration_msdyn_encryptmaskedmessages`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_inactive_presence_lookup"></a> msdyn_inactive_presence_lookup
 
 |Property|Value|
@@ -485,6 +536,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|msdyn_presence|
+
+### <a name="BKMK_msdyn_isconsultcapacityblocking"></a> msdyn_isconsultcapacityblocking
+
+|Property|Value|
+|---|---|
+|Description|**Setting to indicate if consult blocks capacity**|
+|DisplayName|**Is consult capacity blocking**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isconsultcapacityblocking`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_omnichannelconfiguration_msdyn_isconsultcapacityblocking`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_isconsulttoagentenabled"></a> msdyn_isconsulttoagentenabled
 
@@ -798,6 +865,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Yes|
 |False Label|No|
 
+### <a name="BKMK_msdyn_maskingpermission"></a> msdyn_maskingpermission
+
+|Property|Value|
+|---|---|
+|Description|**Enable Customer Service Representatives with masking permission to hide messages**|
+|DisplayName|**Masking permission**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_maskingpermission`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_omnichannelconfiguration_msdyn_maskingpermission`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_maximumnumberofattemptsforconsulttoqueue"></a> msdyn_maximumnumberofattemptsforconsulttoqueue
 
 |Property|Value|
@@ -876,6 +959,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350000|**NoAssignment**|
 |192350001|**NextBestAssignment**|
 
+### <a name="BKMK_msdyn_publickeyurl"></a> msdyn_publickeyurl
+
+|Property|Value|
+|---|---|
+|Description|**Public Key URL**|
+|DisplayName|**Public Key URL**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_publickeyurl`|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
 ### <a name="BKMK_msdyn_SoundFormControl"></a> msdyn_SoundFormControl
 
 |Property|Value|
@@ -892,6 +992,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_timeoutrulecsroverride"></a> msdyn_timeoutrulecsroverride
+
+|Property|Value|
+|---|---|
+|Description|**Allow Customer Service Representatives to override timeout rules**|
+|DisplayName|**Timeout rule CSR override**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_timeoutrulecsroverride`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_omnichannelconfiguration_msdyn_timeoutrulecsroverride`|
+|DefaultValue|True|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_translationwebresourceurl"></a> msdyn_translationwebresourceurl
 

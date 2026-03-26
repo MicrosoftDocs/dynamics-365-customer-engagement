@@ -5,15 +5,22 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 02/27/2025
+ms.date: 12/18/2025
 ms.custom: bap-template
+contributors: 
+    - DerekBraunMSFT
 ---
 
 # Create and send an email message <a name="CreateAndSend"></a>
 
-In general, you can send email messages to your customers directly from Dynamics 365 Sales. However, When the email engagement feature is enabled, more choices are available for emails, such as follow or unfollow, when you compose an email.
+In general, you can send email messages to your customers directly from Dynamics 365 Sales. However, when you enable the email engagement feature, you get more choices for emails, such as follow or unfollow, when you compose an email.
 
 Contact your administrator if you don't see the email engagement features described here. More information: [Configure email engagement](configure-email-engagement.md).
+
+## Consideration
+
+Before using email engagement features, make sure your sales app's personal time zone matches your current time zone. This setting is used when you [schedule email delivery time](#DeliveryTime) and [follow-up reminders](#FollowUpAlert). If you don't set this value, the application uses your app's personal time zone, which might not match your actual time zone. For example, if your personal time zone in the application is set to IST (Indian Standard Time) and your current time is set to GMT (Greenwich Mean Time), scheduling an email for 10:00 AM GMT sets the delivery time to 3:30 PM IST, which might not be your intended delivery time.  
+To set your personal time zone, go to your personalization settings and change **Set the time zone you are in** to your current time zone. For more information, see [Set your personal options](/power-apps/user/set-personal-options).  
 
 ## Create a message <a name="NewMessage"></a>  
 
@@ -21,17 +28,17 @@ The features of email engagement apply to every email that you send through Dyna
 
 >[!NOTE]
 >
->- Emails can't be tracked if a recipient chooses to block. More information: [blocks followed messages](configure-individuals-privacy-preferences.md).
+>- You can't track emails if a recipient chooses to block tracking. For more information, see [blocks followed messages](configure-individuals-privacy-preferences.md).
 >- Email engagement isn't supported when you send bulk email.  
->- You can only follow emails and attachments that are sent through Dynamics 365 email. Email and attachments sent through the Outlook client aren't followed though they are marked as tracked in Dynamics 365 Sales.
+>- You can only follow emails and attachments that are sent through Dynamics 365 email. You can't follow email and attachments sent through the Outlook client, though they're marked as tracked in Dynamics 365 Sales.
 
-Before creating the email, let's understand the different options that are available in the email form:  
+Before creating the email, understand the different options that are available in the email form:  
 
 :::image type="content" source="media/new-email-page-email-engagement-callouts.png" alt-text="Screenshot of the New Email page in Dynamics 365 Sales, with email engagement features highlighted." lightbox="media/new-email-page-email-engagement-callouts.png":::
 
 1. **Attachment**: A list of files attached to your email along with controls for adding, removing, and modifying the attachments.  
-1. **Follow/Don't Follow**: Turn on following to track your customer's engagement with the message or turn it off to stop tracking. Other controls and links appear as needed, such as when a recipient doesn't allow following. More information: [Follow or unfollow a message](#EnableTrackingOnMessages).  
-1. **Send Later**: Set the delivery time for your message if you don't want to send it right away. Recommended delivery times may appear here, depending on the recipient's time zone.  
+1. **Follow/Don't Follow**: Turn on following to track your customer's engagement with the message or turn it off to stop tracking. Other controls and links appear as needed, such as when a recipient doesn't allow following. For more information, see [Follow or unfollow a message](#EnableTrackingOnMessages).  
+1. **Send Later**: Set the delivery time for your message if you don't want to send it right away. Recommended delivery times might appear here, depending on the recipient's time zone.  
 1. **Set a Reminder**: Set a reminder to follow up at a specific time. For example, you might want to get an alert if the message remains unopened for three days.  
 1. **Insert Template**: Insert standard text that you can revise as needed. Your organization can have multiple templates depending on the business requirements, such as a meeting follow-up or an introduction. Email engagement suggests a template based on previous performance.
 
@@ -48,9 +55,9 @@ Before creating the email, let's understand the different options that are avail
 
 ## Use an email template <a name="EmailTemplates"></a>
 
-Email templates are standard messages that you send often, such as introductions, confirmations, thank-you messages, and reminders. They can include dynamic values that are filled in automatically, such as the recipient's name or an order number. They give you a quick start when you're writing common messages.
+Email templates are standard messages that you send often, such as introductions, confirmations, thank-you messages, and reminders. They can include dynamic values that the system fills in automatically, such as the recipient's name or an order number. They give you a quick start when you're writing common messages.
 
-Email engagement analyzes the performance of all the messages your sales team has sent from Dynamics 365 Sales and identifies the most successful templates. It shows all available templates, but highlights the ones that it found to generate the most opens, replies, or sales.
+Email engagement analyzes the performance of all the messages your sales team sends from Dynamics 365 Sales and identifies the most successful templates. It shows all available templates, but it highlights the ones that generate the most opens, replies, or sales.
 
 1. [Create a message](#NewMessage).  
 1. On the command bar, select **Insert Template**.  
@@ -63,7 +70,7 @@ Email engagement analyzes the performance of all the messages your sales team ha
 ## Add attachments <a name="FollowedAttachments"></a>
 
 When you attach documents, spreadsheets, or images to your emails, you can follow these attachments to know whether the recipient opened them. You can include both followed and unfollowed attachments in the same email.  
-By default, attachments aren't followed. You have to manually follow each attachment you want to track. Also, you can't follow attachments when the message recipients don't allow following.  
+By default, attachments aren't followed. You must manually follow each attachment you want to track. Also, you can't follow attachments when the message recipients don't allow following.  
 
 1. [Create a message](#NewMessage).  
 1. In the **Attachment** section, select **+**.
@@ -81,25 +88,28 @@ By default, attachments aren't followed. You have to manually follow each attach
 
 ## Follow or unfollow a message <a name="EnableTrackingOnMessages"></a>  
 
-When you follow an email, email engagement can tell you if the recipient opened it, replied to it, opened an attachment, or selected a link in it. More information: [View message interactions with email engagement](email-engagement.md).  
+When you follow an email, email engagement can tell you if the recipient opened it, replied to it, opened an attachment, or selected a link in it. For more information, see [View message interactions with email engagement](email-engagement.md).  
 
 The **Email Engagement** section includes the following indicators and controls:
 
 | Indicator or control | Description |
 |----------------------|-------------|
-| ![Email follow state on](media/email-follow-state-on.png "Email follow state on") | Indicates you're following the current email, including any links you include, and you have the option to follow any files you attach. Select **Don't Follow** to stop tracking the message.<br>This state is the default for new messages when your organization has turned on email engagement and all the recipients allow following. |
+| ![Email follow state on](media/email-follow-state-on.png "Email follow state on") | Indicates you're following the current email, including any links you include, and you have the option to follow any files you attach. Select **Don't Follow** to stop tracking the message.<br>This state is the default for new messages when your organization turns on email engagement and all the recipients allow following. |
 | ![Email follow state off](media/email-follow-state-off.png "Email follow state set off") | Indicates you're not following the current email, including any links you include. You can't follow any attachments either. Select **Follow** to turn on following if the recipients allow it. |
-| ![Email follow state blocked](media/email-follow-state-blocked.png "Email follow state blocked") | Indicates that one or more recipients have following set to **Do Not Allow**. You can't follow this message unless you either remove the recipients that don't allow following or change their setting.<br>- Select **View Preferences** to view the recipient names and following preferences in a new window. Select a name to open the recipient's record.<br>- If you removed recipients who don't want to be followed or changed their setting to allow following, select **Retry Follow** to try again.<br>- Select **Don't Follow** to stop trying to follow this message.<br>Within about 15 minutes after a followed message is opened, the system creates an action card in the assistant. The card includes links to the message and related records and action buttons to generate a call activity, snooze the alert, or dismiss it. [Learn more about guided customer communications with assistant](assistant.md). |
+| ![Email follow state blocked](media/email-follow-state-blocked.png "Email follow state blocked") | Indicates that one or more recipients set following to **Do Not Allow**. You can't follow this message unless you either remove the recipients that don't allow following or change their setting.<br>- Select **View Preferences** to view the recipient names and following preferences in a new window. Select a name to open the recipient's record.<br>- If you removed recipients who don't want to be followed or changed their setting to allow following, select **Retry Follow** to try again.<br>- Select **Don't Follow** to stop trying to follow this message.<br>Within about 15 minutes after a followed message is opened, the system creates an action card in the assistant. The card includes links to the message and related records and action buttons to generate a call activity, snooze the alert, or dismiss it. [Learn more about guided customer communications with assistant](assistant.md). |
 
 ## Choose the most effective delivery time <a name="DeliveryTime"></a>
 
 Your email messages might receive more or less attention depending on when they arrive in recipients' inboxes. For example, many people start their day with a full inbox, so messages that arrive overnight must compete for attention and might get put off or even forgotten. Emails that arrive later in the day might get noticed and handled right away. With email engagement, you can compose your email messages when it's convenient for you, but let Dynamics 365 Sales deliver them when it's best for your recipients.  
+
 The system sometimes recommends a delivery time based on the recipient's time zone. It assumes a standard workday of 8:00 AM to 5:00 PM, Monday through Friday, and suggests the next closest business hour if you're working outside the recipient's business day. If the message has more than one recipient or no address is provided, the system doesn't make a recommendation.  
+
 Your organization must turn on Bing Maps and the recipient must have a physical address in Sales for email engagement to determine the time zone.  
+
 If no recommendation is given, or if you prefer to use your own logic, you can specify any delivery time you choose.  
 
 > [!NOTE]
-> Currently, sending emails might be delayed up to 30 minutes due to server-side synchronization issues.
+> Sending emails might be delayed up to 30 minutes.
 
 The delivery time feature is available for both followed and unfollowed messages.
 
@@ -113,11 +123,14 @@ The delivery time feature is available for both followed and unfollowed messages
 
     :::image type="content" source="media/send-later-control.png" alt-text="Screenshot of the Send Later control under the email engagement section.":::
 
-    If the system recommended a time or date, then that information is filled in for you. If not, the date is blank. In either case, it uses *your local time*, not the recipient's.
+    If the system recommended a time or date, that information is filled in for you. If not, the date is blank. In either case, it uses *your local time*, not the recipient's.
 
-1. In the **Schedule email** dialog box, select date and time for delivery.
+1. In the **Schedule email** dialog box, select date and time for delivery. 
 
-    :::image type="content" source="media/send-later-window.png" alt-text="Screenshot of the Schedule Email window.":::
+    :::image type="content" source="media/send-later-window.png" alt-text="Screenshot of the Schedule Email window.":::  
+
+    >[!NOTE]
+    >The date picker uses your app's personal time zone. Make sure it's set to your current time zone. For more information, see [the Consideration section](#consideration). 
 
 1. Select **Schedule email**.
 
@@ -131,7 +144,7 @@ Scheduled messages appear as such in the **Activities** list for the **Regarding
 
 ## Set a message follow-up reminder <a name="FollowUpAlert"></a>
 
-If you want to make sure you don't forget to follow up on an important email, set a reminder. This feature is available only for sent email.
+To make sure you don't forget to follow up on an important email, set a reminder. This feature is available only for sent email.
 
 1. [Create a message](#NewMessage).
 
@@ -142,13 +155,16 @@ If you want to make sure you don't forget to follow up on an important email, se
 1. In the **Set Reminder** dialog box, fill in the following fields.
 
     - **Condition**: Select the condition that triggers the reminder:  
-        - **If I do not receive a reply by**: Triggers the reminder if no reply has been received by the **Remind by** date. Only available for followed messages.  
-        - **If the email is not opened by**: Triggers the reminder if the message hasn't been opened by the **Remind by** date. Only available for followed messages.  
+        - **If I do not receive a reply by**: Triggers the reminder if no reply is received by the **Remind by** date. Only available for followed messages.  
+        - **If the email is not opened by**: Triggers the reminder if the message isn't opened by the **Remind by** date. Only available for followed messages.  
         - **Remind me anyway at**: Triggers the reminder at the specified time and date, no matter what.  
     - **Remind by**: Specify the date and time to show the reminder when the **Condition** is met.  
     - **Comment**: Optionally, add a note to the reminder.
 
-    :::image type="content" source="media/set-reminder-window.png" alt-text="Screenshot of the Set Reminder window.":::
+    :::image type="content" source="media/set-reminder-window.png" alt-text="Screenshot of the Set Reminder window.":::  
+
+    >[!NOTE]
+    >The date picker uses your app's personal time zone. Make sure it's set to your current time zone. For more information, see [the Consideration section](#consideration).
 
 1. Select **OK** to save your settings and close the window.
 

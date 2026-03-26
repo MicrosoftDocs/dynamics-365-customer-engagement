@@ -51,7 +51,6 @@ When you configure Azure and Copilot agents in Dynamics 365 Contact Center, use 
 
 ## Considerations for context variables
 
-When you configure context variables, check for the following conditions:
 [!INCLUDE[cc-context-variable-considerations](../../includes/cc-context-variable-considerations.md)]
 
 ### Related information

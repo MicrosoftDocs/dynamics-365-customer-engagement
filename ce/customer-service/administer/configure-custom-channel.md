@@ -18,7 +18,7 @@ ms.collection:
 
 
 > [!IMPORTANT]
-> The Telegram and Kik custom messaging channels were deprecated and removed from Omnichannel for Customer Service on October 8, 2024. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+> The Telegram and Kik custom messaging channels were deprecated and removed on October 8, 2024. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
 Apart from built-in channels like chat and email, your organization can integrate custom messaging channels like Direct Line. With the custom messaging channel capability, you can:
 
@@ -36,7 +36,8 @@ Apart from built-in channels like chat and email, your organization can integrat
 
 ## Configure a custom messaging channel
 
-1. In the site map of Copilot Service admin center, go to **Customer support**, and then select **Channels**. 
+1. In the site map of Copilot Service admin center, go to **Customer support**, and then select **Channels**.
+
 1. In **Accounts**, for **Messaging accounts**, select **Manage**.
 
 1. On the **Accounts and channels** page, select **New account**.

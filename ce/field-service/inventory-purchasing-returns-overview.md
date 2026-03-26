@@ -1,7 +1,7 @@
 ---
 title: Overview of inventory, purchasing, and returns
 description: Learn about inventory, purchasing, and returns in Dynamics 365 Field Service.
-ms.date: 01/15/2025
+ms.date: 01/30/2026
 ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"
@@ -22,11 +22,11 @@ Inventory capabilities in Dynamics 365 Field Service include:
 - Returns
 - Inventory journals
 
-Before you use inventory, purchasing, and returns, it's critical that you're familiar with [product catalog capabilities](create-product-or-service.md) in Field Service. Products are tracked in inventory only if their **Field Service Type** field is set to *Inventory*. Otherwise, inventory changes aren't shown when you add products to work orders, purchase orders, and return merchandise authorizations (RMAs).
+Before you use inventory, purchasing, and returns, it's critical that you're familiar with [product catalog capabilities](create-product-or-service.md) in Field Service. You track products in inventory only if their **Field Service Product Type** field is set to *Inventory*. Otherwise, inventory changes don't show when you add products to work orders, purchase orders, and return merchandise authorizations (RMAs).
 
 To give a resource access to create and edit inventory-related tables, add the *Inventory Purchase* security role to their existing security role.
 
-For basic inventory requirements, many organizations use the out-of-box capabilities. For more complex inventory and pricing requirements, Field Service is designed to integrate with enterprise resource planning (ERP) systems. In one common example, Field Service integrates with [Dynamics 365 Supply Chain Management](/dynamics365/supply-chain/sales-marketing/prospect-to-cash) by using a prebuilt [Dataverse "Prospect to cash" template](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3?src=office&tab=Overview).
+For basic inventory requirements, many organizations use the out-of-box capabilities. For more complex inventory and pricing requirements, Field Service is designed to integrate with enterprise resource planning (ERP) systems. In one common example, Field Service integrates with [Dynamics 365 Supply Chain Management](/dynamics365/supply-chain/sales-marketing/prospect-to-cash) by using a prebuilt [Dataverse "Prospect to cash" template](https://marketplace.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3?src=office&tab=Overview).
 
 The following diagram illustrates the flow of inventory, purchasing, and returns in Field Service.
 
@@ -41,7 +41,7 @@ In Field Service, a warehouse is any company location that holds inventory. Ware
 - Distribution centers
 - Loading docks
 
-Inventory at each warehouse is updated based on used work order products, purchase order returns, adjustments, and transfers. Updates are recorded in the related **Product Inventory** table.
+Inventory at each warehouse is updated based on used work order products, purchase order returns, adjustments, and transfers. The system records the updates in the related **Product Inventory** table.
 
 :::image type="content" source="media/inventory-product-inventory.svg" alt-text="Screenshot of product inventory in the main warehouse.":::
 
@@ -49,8 +49,8 @@ For each product in the warehouse, the system tracks the following information:
 
 - **Quantity Available**: The number of units that remain to be sold.
 - **Quantity Allocated**: The number of units that are currently listed on work orders as allocated work order products.
-- **Quantity on Hand**: The sum of **Quantity Available** and **Quantity Allocated** values. Basically, this field represents units still physically present in your warehouse, even if they're already committed to work.
-- **Quantity on Order**: The number of units that are currently listed on purchase orders, but aren't received and added to inventory. Basically, this field represents units that are on the way.
+- **Quantity on Hand**: The sum of **Quantity Available** and **Quantity Allocated** values. This field represents units still physically present in your warehouse, even if they're already committed to work.
+- **Quantity on Order**: The number of units that are currently listed on purchase orders, but aren't received and added to inventory. This field represents units that are on the way.
 
 > [!NOTE]
 > By adding a warehouse to each bookable resource, you can define the default warehouse that is used when that bookable resource uses a work order product.
@@ -59,7 +59,7 @@ For each product in the warehouse, the system tracks the following information:
 
 Use inventory adjustments to manually add inventory to warehouses or subtract inventory from warehouses. For example, use them during routine checkups to reflect shrinkage and defects, and to compare expected inventory to actual inventory. You can then adjust for the difference.
 
-:::image type="content" source="media/inventory-adjustment.svg" alt-text="Screenshot of an inventory adjustment.":::
+:::image type="content" source="media/inventory-adjustment.png" alt-text="Screenshot of an inventory adjustment.":::
 
 Use inventory transfers to transfer inventory from a source warehouse to a destination warehouse. For example, you can transfer inventory from a warehouse to a technician's truck.
 
@@ -69,15 +69,15 @@ You can also enable adjustments and transfers on the Field Service mobile app. F
 
 ## Work order inventory
 
-Inventory is affected when products are added to work orders and used. 
+Inventory changes when you add products to work orders and use them. 
 
-For example, a product is added as estimated and allocated (that is, the **Line Status** field is set to *Estimated*, and the **Allocated** field is set to *Yes*). In this case, a portion of inventory is reserved from the specified warehouse, but it isn't deducted.
+For example, you add a product as estimated and allocated (that is, the **Line Status** field is set to *Estimated*, and the **Allocated** field is set to *Yes*). In this case, you reserve a portion of inventory from the specified warehouse, but the system doesn't deduct it.
 
-If a work order product is used during a work order (that is, the **Line Status** field is set to *Used*), the inventory at the related warehouse is deducted by the quantity of the work order product. Typically, the warehouse that is listed on a work order product is a technician's truck.
+If you use a work order product during a work order (that is, the **Line Status** field is set to *Used*), the system deducts the inventory at the related warehouse by the quantity of the work order product. Typically, the warehouse that you list on a work order product is a technician's truck.
 
 ## Purchase orders
 
-Purchase orders (POs) are used to order products for a warehouse. They're also used to order products directly for a work order so that on-site work can be completed.
+Use purchase orders (POs) to order products for a warehouse. You can also use them to order products directly for a work order so that on-site work can be completed.
 
 The purchase order process includes the following steps:
 
@@ -89,7 +89,7 @@ The purchase order process includes the following steps:
 
 Sometimes, the same organization that installs parts and equipment at a customer's location must process a return of the product or customer asset. You can issue credits to customers who initiate returns. You can also track returns as part of a customer asset's service history.
 
-Common reasons why returns are initiated include:
+Common reasons for initiating returns include:
 
 - The part or equipment is defective.
 - The customer is dissatisfied.
@@ -111,9 +111,9 @@ The system automatically adjusts inventory and customer assets.
 
 ## Inventory journals
 
-All inventory transactions are recorded in inventory journals. For example, when one product is allocated to a work order, an inventory journal is created that increases the allocated quantity by one. When that same product is used to complete the work order, another inventory journal is created that decreases the on-hand quantity. Journals are recorded for all increases and decreases of product inventory. Basically, inventory journals serve as an inventory ledger in Field Service.
+All inventory transactions are recorded in inventory journals. For example, when you allocate one product to a work order, an inventory journal is created that increases the allocated quantity by one. When you use that same product to complete the work order, another inventory journal is created that decreases the on-hand quantity. Journals are recorded for all increases and decreases of product inventory. Basically, inventory journals serve as an inventory ledger in Field Service.
 
-Most importantly, inventory journals are sometimes used to integrate Field Service inventory transactions with external ERP systems, depending on the architecture of the integration. To make integrations easier and more flexible, [inventory journals can be manually created](manual-inventory-journals.md).
+Most importantly, depending on the architecture of the integration, you can use inventory journals to integrate Field Service inventory transactions with external ERP systems. To make integrations easier and more flexible, [inventory journals can be manually created](manual-inventory-journals.md).
 
 ## Next steps
 

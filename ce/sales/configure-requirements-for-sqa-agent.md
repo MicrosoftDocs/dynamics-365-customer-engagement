@@ -4,8 +4,6 @@ description: Learn how to configure the requirements for the Research-only and R
 ms.topic: how-to
 ms.date: 07/31/2025
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom: bap-template
 author: udaykirang
 ms.author: udag
@@ -16,10 +14,6 @@ ai-usage: ai-assisted
 ---
 
 # Configure requirements for Sales Qualification Agent
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Before you configure the agents, ensure that prerequisites are configured in your Dynamics 365 Sales environment. Depending on the type of automation, you must configure the requirements as follows:
 
@@ -84,7 +78,7 @@ To learn more about shared mailboxes, see [Shared mailboxes in Exchange Online](
 1. In Power Platform admin center, select the environment where you want to create the app user.  
 1. Go to **Settings** > **Users + permissions** > **Application users** and then select **+ New app user**.  
 1. In the **Create a new app user** pane, select **+ Add an app** and then add the application (Application client ID) that is registered in Azure.  
-1. Enter the business unit name, and enter the security role for the app user as **AIsalesperson**.  
+1. Enter the root business unit name, and the security role for the app user as **AIsalesperson**.  
 1. Select **Save**.  
 1. Go back to the agent settings page and select the **Mark as done** checkbox in the **Create an app user in Dataverse** section. You must select this checkbox to proceed with the agent configuration.  
 

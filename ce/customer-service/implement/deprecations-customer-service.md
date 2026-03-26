@@ -4,8 +4,8 @@ description: Use this article to get information about features that are depreca
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: conceptual
-ms.date: 08/18/2025
+ms.topic: concept-article
+ms.date: 12/17/2025
 ms.custom: bap-template
 ms.collection:
 ---
@@ -18,6 +18,14 @@ Administrators and IT professionals can use this information to prepare for futu
 
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## AI-suggested article keywords and descriptions is deprecated
+
+As of December 15, 2025, the AI-suggested article keywords and descriptions feature is deprecated. Support ends on Jan 31, 2026. We recommend that you use [Fill forms using Copilot](/power-apps/user/form-filling-assistance) to automatically generate knowledge article keywords and descriptions.
+
+## D365 Service MCP Server is deprecated
+
+As on November 24, 2025, the D365 Service MCP Server is deprecated and will be removed in a future release. We recommend that you use the new [Dynamics 365 Customer Service MCP Server](../administer/configure-customer-service-mcp-server.md) and remove the deprecated tool.
 
 ## Historical analytics dashboards for unified routing are deprecated in Customer Service and Dynamics 365 Contact Center
 
@@ -45,7 +53,6 @@ The effort estimation model in unified routing was deprecated on May 02, 2025. T
 
 Starting April 16, 2025, we no longer support the auto-summarization of ongoing conversations in Customer Service apps. We recommend that you use [Copilot-generated conversation summary](/dynamics365/contact-center/use/copilot-summarize-conversations#view-a-conversation-summary).
 
-
 ## Rich text editor classic experience is deprecated
 
 As of April 18, 2025, the classic rich text editor experience is deprecated in Customer Service apps. The new, modernized rich text editor is the default experience, and customers who used the classic experience were upgraded automatically. Learn more in [Modern text editor enhancements](/power-apps/maker/model-driven-apps/rich-text-editor-control#modern-text-editor-enhancements).
@@ -68,7 +75,7 @@ Effective February 2025, the Customer Service Hub app is no longer available for
 
 ## Diagnostics in unified routing is deprecated
 
-The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unified routing is deprecated as of May 09, 2024. The feature will be removed on January 01, 2026. We recommend that you use [Conversation diagnostics in Azure Application Insights](../administer/configure-conversation-diagnostics.md) to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in [Manage routing diagnostics data](../administer/manage-routing-diagnostics-data.md). Contact Microsoft Support if you need help.
+The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unified routing is deprecated as of May 09, 2024. The feature will be removed on March 31, 2026. We recommend that you use [Conversation diagnostics in Azure Application Insights](../administer/configure-conversation-diagnostics.md) to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in [Manage routing diagnostics data](../administer/manage-routing-diagnostics-data.md). Contact Microsoft Support if you need help.
 
 ## Omnichannel for Customer Service on Unified Service Desk is deprecated and will be removed in October 2025
 

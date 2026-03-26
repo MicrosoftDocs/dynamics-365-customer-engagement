@@ -62,11 +62,11 @@ To verify that the pipeline view is set as the default view, from the Sales Hub 
 
 Open the settings page to configure and customize the opportunity pipeline view experience for your sellers. You'll be accessing the settings page in all the procedures explained in this article.
 
-Do one of the following depending on your license:
+Do one of the following depending on the sales app you use:
 
-- If you have the Sales Enterprise or Sales Premium license, select **App Settings** from the Sales Hub Change area and then select **Opportunity pipeline view** under **General Settings**. 
+- **Sales Hub:**select **App Settings** from the Sales Hub Change area and then select **Opportunity pipeline view** under **General Settings**. 
 
-- If you have the Sales Professional license, append the following URL after the base URL of your Sales Professional app: `&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`. Example: `https://contoso.crm.dynamics.com/main.aspx?appid=00001111-aaaa-2222-bbbb-3333cccc4444&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`.
+- **Sales Professional app:** Append the following URL after the base URL of your Sales Professional app: `&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`. Example: `https://contoso.crm.dynamics.com/main.aspx?appid=00001111-aaaa-2222-bbbb-3333cccc4444&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`.
   
     :::image type="content" source="media/pipeline-view-settings-small.png" alt-text="Screenshot of the opportunity pipeline view settings page." lightbox="media/pipeline-view-settings.png":::
 

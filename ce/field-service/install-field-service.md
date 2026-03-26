@@ -2,7 +2,7 @@
 title: Install Dynamics 365 Field Service
 description: Learn how to install Dynamics 365 Field Service on a Power Platform environment.
 ms.topic: how-to
-ms.date: 02/26/2025
+ms.date: 11/27/2025
 ms.author: jacoh
 author: jasonccohen
 ---
@@ -27,7 +27,7 @@ When you [get a free trial](trial-signup.md), the Field Service application inst
 
 ## Access Field Service
 
-Once the installation is complete, the "Field Service" and "Field Service Mobile" apps appear in the list of apps when you sign in to your Dynamics 365 organization. You can find these apps by going to:
+Once the installation is complete, the *Field Service* and *Field Service Mobile* apps appear in the list of apps when you sign in to your Dynamics 365 organization. You can find these apps by going to:
 
 ```https://[your-environment-URL].crm.dynamics.com/apps```
 

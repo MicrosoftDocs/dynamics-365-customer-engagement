@@ -559,8 +559,12 @@ These relationships are one-to-many. Listed by **SchemaName**.
 
 - [email_activitymonitor](#BKMK_email_activitymonitor)
 - [email_campaignresponse](#BKMK_email_campaignresponse)
+- [email_msdynmkt_contactpointconsent4_messageid](#BKMK_email_msdynmkt_contactpointconsent4_messageid)
 - [msdyn_email_email_msdyn_emailsentiment](#BKMK_msdyn_email_email_msdyn_emailsentiment)
+- [msdyn_email_msdyn_autocaseclosureagentactivity_activityid](#BKMK_msdyn_email_msdyn_autocaseclosureagentactivity_activityid)
+- [msdyn_email_msdyn_autocaseclosureagentactivity_autocaseclosureagentgeneratedemailid](#BKMK_msdyn_email_msdyn_autocaseclosureagentactivity_autocaseclosureagentgeneratedemailid)
 - [msdyn_email_msdyn_originatingqueue_email](#BKMK_msdyn_email_msdyn_originatingqueue_email)
+- [msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity](#BKMK_msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity)
 - [msdyn_msdyn_salescopilotinsight_email_msdyn_activityid](#BKMK_msdyn_msdyn_salescopilotinsight_email_msdyn_activityid)
 - [msdyn_readtracker_poly_email](#BKMK_msdyn_readtracker_poly_email)
 
@@ -588,6 +592,18 @@ Many-To-One Relationship: [campaignresponse email_campaignresponse](campaignresp
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_email_msdynmkt_contactpointconsent4_messageid"></a> email_msdynmkt_contactpointconsent4_messageid
+
+Many-To-One Relationship: [msdynmkt_contactpointconsent4 email_msdynmkt_contactpointconsent4_messageid](msdynmkt_contactpointconsent4.md#BKMK_email_msdynmkt_contactpointconsent4_messageid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdynmkt_contactpointconsent4`|
+|ReferencingAttribute|`msdynmkt_messageid`|
+|ReferencedEntityNavigationPropertyName|`email_msdynmkt_contactpointconsent4_messageid`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_email_email_msdyn_emailsentiment"></a> msdyn_email_email_msdyn_emailsentiment
 
 Many-To-One Relationship: [msdyn_emailsentiment msdyn_email_email_msdyn_emailsentiment](msdyn_emailsentiment.md#BKMK_msdyn_email_email_msdyn_emailsentiment)
@@ -597,6 +613,30 @@ Many-To-One Relationship: [msdyn_emailsentiment msdyn_email_email_msdyn_emailsen
 |ReferencingEntity|`msdyn_emailsentiment`|
 |ReferencingAttribute|`msdyn_email`|
 |ReferencedEntityNavigationPropertyName|`msdyn_email_email_msdyn_emailsentiment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_email_msdyn_autocaseclosureagentactivity_activityid"></a> msdyn_email_msdyn_autocaseclosureagentactivity_activityid
+
+Many-To-One Relationship: [msdyn_autocaseclosureagentactivity msdyn_email_msdyn_autocaseclosureagentactivity_activityid](msdyn_autocaseclosureagentactivity.md#BKMK_msdyn_email_msdyn_autocaseclosureagentactivity_activityid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_autocaseclosureagentactivity`|
+|ReferencingAttribute|`msdyn_activityid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_email_msdyn_autocaseclosureagentactivity_activityid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_email_msdyn_autocaseclosureagentactivity_autocaseclosureagentgeneratedemailid"></a> msdyn_email_msdyn_autocaseclosureagentactivity_autocaseclosureagentgeneratedemailid
+
+Many-To-One Relationship: [msdyn_autocaseclosureagentactivity msdyn_email_msdyn_autocaseclosureagentactivity_autocaseclosureagentgeneratedemailid](msdyn_autocaseclosureagentactivity.md#BKMK_msdyn_email_msdyn_autocaseclosureagentactivity_autocaseclosureagentgeneratedemailid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_autocaseclosureagentactivity`|
+|ReferencingAttribute|`msdyn_autocaseclosureagentgeneratedemailid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_email_msdyn_autocaseclosureagentactivity_autocaseclosureagentgeneratedemailid`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
@@ -610,6 +650,18 @@ Many-To-One Relationship: [msdyn_originatingqueue msdyn_email_msdyn_originatingq
 |ReferencingAttribute|`msdyn_emailid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_email_msdyn_originatingqueue_email`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity"></a> msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity
+
+Many-To-One Relationship: [msdyn_conversationactionitem msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity](msdyn_conversationactionitem.md#BKMK_msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationactionitem`|
+|ReferencingAttribute|`msdyn_createdactivity`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_conversationactionitem_email_msdyn_createdactivity`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_salescopilotinsight_email_msdyn_activityid"></a> msdyn_msdyn_salescopilotinsight_email_msdyn_activityid

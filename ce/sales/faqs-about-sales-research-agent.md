@@ -53,7 +53,7 @@ The Sales Research Agent is currently only available to organizations where the 
 
 ## What operational factors and settings allow for effective and responsible use of the Sales Research Agent?  
 
-Users have multiple ways to customize the Sales Research Agent so it suits their needs best. Users can provide the agent with more business context upfront in their prompt or through "Manage context for your business." Once the agent creates a blueprint, users can use the Regenerate feature and the AI cursor to modify either the entire blueprint or a specific data visualization block from the blueprint. Users can also adjust the wording of the prompt or the set of data sources connected.  
+Users have multiple ways to customize the Sales Research Agent so it suits their needs best. Users can provide the agent with more business context upfront in their prompt or through "Manage your context". Once the agent creates a blueprint, users can use the Regenerate feature and the AI cursor to modify either the entire blueprint or a specific data visualization block from the blueprint. Users can also adjust the wording of the prompt or the set of data sources connected.  
 
 Under "Show Work" The Sales Research Agent explains how it developed its outputs, providing explainability and transparency which a customer can use to evaluate accuracy or prompt the agent to modify its output. 
 

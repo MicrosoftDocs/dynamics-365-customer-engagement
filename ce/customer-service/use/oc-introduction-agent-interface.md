@@ -2,7 +2,7 @@
 title: Introduction to representative interface
 description: Learn about the representative interface in the Omnichannel for Customer Service app and the capabilities that it offers to representatives.
 ms.date: 04/21/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

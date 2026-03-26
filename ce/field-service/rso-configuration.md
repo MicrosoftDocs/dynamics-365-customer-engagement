@@ -1,8 +1,8 @@
 ---
 title: Configure Resource Scheduling Optimization
 description: Learn how to configure Resource Scheduling Optimization in Dynamics 365 Field Service
-author: AnilMur
-ms.author: anilmur
+author: andrewclear-ms
+ms.author: anclear
 ms.date: 03/31/2025
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization

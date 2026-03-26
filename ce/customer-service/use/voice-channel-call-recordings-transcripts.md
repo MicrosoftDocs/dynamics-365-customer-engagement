@@ -1,7 +1,7 @@
 ---
 title: View conversation transcripts and call recordings
 description: Use this article to learn how to view conversation transcripts and call recordings.
-ms.date: 06/10/2025
+ms.date: 11/06/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -14,6 +14,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 When conversations end in your contact center, users can view the recordings and transcripts of those conversations and the following details:
+
 - Sentiment analysis
 - Key metrics
 - AI summary
@@ -34,7 +35,7 @@ When conversations end in your contact center, users can view the recordings and
 
 ## View recordings and transcripts
 
-Customer service representatives (service representative or representative) and supervisors can view closed conversations. Service representatives can view their closed conversations from the Inbox. Supervisors can see a list of all closed conversations in the **Activities** view and filter by **Conversations**. 
+Customer service representatives (service representative or representative) and supervisors can view closed conversations. Service representatives can view their closed conversations from the Inbox. Supervisors can see a list of all closed conversations in the **Activities** view and filter by **Conversations**.
 
 Users with the System Administrator role can access conversations that are handled by other service representatives.
 
@@ -44,10 +45,9 @@ The **Details** tab of the **Conversation - Conversation Form** displays the con
 
 :::image type="content" source="../media/voice-channel-recording.png" alt-text="Screenshot of call recording and transcript controls." lightbox="../media/voice-channel-recording.png":::
 
-**Recording playback**
+### Recording playback
 
-> [!NOTE]
-> This section is applicable to voice calls only.
+The information pertaining to recording playbook is available for the voice channel only.
 
 - **Play**: Select the button to listen to the conversation audio.
 
@@ -57,7 +57,7 @@ The **Details** tab of the **Conversation - Conversation Form** displays the con
 - **Speed**: From the dropdown menu, select the playback speed of the conversation, whether slower or faster. **Normal** is the default, and is the speed in which the conversation was recorded.
 - **Conversation scroll bar**: Move the scroll bar to any point of the conversation, or listen to it from beginning to end. When you select a location in the recording visualization, the transcript also moves to the same place in the conversation.
 
-**Overview**
+### Overview
 
 - **Channel**: The type of communication conducted.
 - **Status**: The state of the communication.
@@ -65,15 +65,15 @@ The **Details** tab of the **Conversation - Conversation Form** displays the con
 - **Workstream**: The workstream the conversation was conducted in.
 - **Skills**: The list of agent skills.
 - **Regarding**: The link to the case or customer record.
+- **Sentiment**: The average sentiment of the conversation; values can be positive, neutral, or negative only.
 
-**Summary**
+### Summary
 
 If your administrator configured Copilot to generate summaries after a conversation ends, the conversation summary appears on the form when the conversation ends. If no summary is generated when the call or chat ends, such as the call or chat ended with an AI agent, then a new summary is generated when the transcript viewer appears.
 
-> [!NOTE]
-> If you open the conversation before the transcription is processed, the summary isn't available; refresh the summary when the transcription appears.
+If you open the conversation before the system processes the transcription, the summary isn't available; refresh the page to view the summary when the transcription appears.
 
-**Transcript**
+### Transcript
 
 - **Search**: Enter keywords in the search field to locate the required sections of the conversation.
 
@@ -82,20 +82,18 @@ If your administrator configured Copilot to generate summaries after a conversat
    > [!NOTE]
    > Inline images and rendering of videos isn't supported in downloaded transcripts.
 
-**Call Metrics**
+### Call Metrics
 
-> [!NOTE]
-> This section is applicable to voice calls only.
-
-- **Sentiment**: The average sentiment of the call; values can be positive, neutral, or negative.
+The call metrics are available for the voice channel only.
 
 - **Talking speed**: The rate of speed in which participants conversed during the call.
+
 - **Talk to listen ratio**: The ratio in which the representative spoke versus listened to the customer.
 - **Average pause**: The average amount of time in which the conversation was paused.
 - **Longest customer monologue**: The longest amount of time that the customer spoke during the conversation.
 - **Switches per conversation**: The number of times the conversation switched from representative to customer, and vice versa.
 
-**Post-conversation survey**
+### Post-conversation survey
 
 You can view the following details from the post-conversation survey:
 
@@ -112,16 +110,25 @@ The following considerations apply:
 - If one of the three values (**CSAT**, **First Contact Resolution**, or **Net Promoter Score**) aren't collected in a survey, they're hidden.
 - If the customer doesn't provide a value, the corresponding label isn't displayed in the survey results.
 
-**Conversation Journey**
+### Conversation Journey
 
-Displays details about the number of agents assigned to the conversation, other participants, and the duration, date, and time of each leg of the conversation.
+The conversation journey displays details of each AI agent or representative session in the conversation. If more than one session exists or other representatives join the conversation, then each participant details are also displayed.
 
-- The system generates a session every time a new primary agent is assigned to the conversation.
+- **Conversation Id**: Displays the [conversation ID](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_ocliveworkitemid) of the entire conversation that could include one or more sessions.
 
+- The system generates a [session](/dynamics365/developer/reference/entities/msdyn_ocsession) every time a new primary agent is assigned to the conversation.
 - Each session header displays the start time and total duration of the session.
-- The session lists the primary agent, their assignment time, and whether they joined the conversation.
-- When the primary representative leaves the session, the session ends, and the **Closure reason** is displayed with the time. Learn more about closure reasons in [Session closure reasons](/dynamics365/contact-center/extend/closure-reasons-descriptions).
-- If a consult session is added to the conversation, the consultee representative is shown indented to the primary representative. Their consult join and exit times are displayed with details on whether they accepted the consult.
+- The session lists the primary agent that can be an AI agent or service representative, their assignment time, and whether they joined the conversation.
+- When the primary representative or AI agent leaves the session, the session ends, and the **Closure reason** is displayed with the time. Learn more about closure reasons in [Session closure reasons](/dynamics365/contact-center/extend/closure-reasons-descriptions).
+- When a consult session is added to the conversation, the representative being consulted appears indented beneath the primary representative. Their join and exit times for the consult are displayed, with details about whether they accepted the consult.
+- **Copilot Agent Outcome Reason**: Provides insights into why a Copilot session ended, helping you understand the outcome of each interaction.
+- **Copilot Agent Client SessionId**: A unique identifier that allows you to locate the corresponding Copilot conversation transcript and access additional session details stored in Dataverse.
+    Learn more in [session outcomes and reasons](oc-bot-dashboard.md#engaged-unengaged).
+    
+    > [!NOTE]
+    > The Copilot Agent Outcome Reason and Copilot Agent Client SessionId values are available for sessions handled by AI agents only. After the conversation ends, the system might take up to 30 minutes to display this information.
+
+   :::image type="content" source="../media/closed-conversation-journey.png" alt-text="Screenshot of a conversation journey that appears in the closed conversation form." lightbox="../media/closed-conversation-journey.png":::
 
 ### Related information
 

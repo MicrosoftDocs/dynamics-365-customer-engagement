@@ -8,4 +8,3 @@ The **Summary** dashboard appears by default. To switch dashboards, select the r
 :::image type="content" source="../customer-service/media/dashboard-filter-omnichannel-historical.png" alt-text="Screenshot of dashboard filter":::
 
 For example, to view the **Agent** dashboard, select **Agent** from the dashboard filter.
-

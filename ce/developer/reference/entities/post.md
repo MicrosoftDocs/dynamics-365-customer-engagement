@@ -28,7 +28,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [incident_Posts](#BKMK_incident_Posts)
 - [knowledgearticle_Posts](#BKMK_knowledgearticle_Posts)
 - [lead_Posts](#BKMK_lead_Posts)
-- [msdyn_salessuggestion_Posts](#BKMK_msdyn_salessuggestion_Posts)
 - [msdyn_swarm_Posts](#BKMK_msdyn_swarm_Posts)
 - [opportunity_Posts](#BKMK_opportunity_Posts)
 - [systemuser_Posts](#BKMK_systemuser_Posts)
@@ -108,19 +107,6 @@ One-To-Many Relationship: [lead lead_Posts](lead.md#BKMK_lead_Posts)
 |ReferencedAttribute|`leadid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_lead`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_salessuggestion_Posts"></a> msdyn_salessuggestion_Posts
-
-One-To-Many Relationship: [msdyn_salessuggestion msdyn_salessuggestion_Posts](msdyn_salessuggestion.md#BKMK_msdyn_salessuggestion_Posts)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_salessuggestion`|
-|ReferencedAttribute|`msdyn_salessuggestionid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_salessuggestion`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

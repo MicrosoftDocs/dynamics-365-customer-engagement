@@ -84,7 +84,7 @@ If you chose the full copy option, it can take up to an hour for the data to app
 
 1. Delete any agents in Azure in all workstreams and the environment.
 
-1. Reconnect the agent following the steps in [Configure the agent user](../administer/configure-bot-azure.md#integrate-azure-agents-with-omnichannel-for-customer-service).
+1. Reconnect the agent following the steps in [Configure the agent user](../administer/configure-bot-azure.md#integrate-azure-agents-with-contact-center).
 
 ## Configure real-time and historical analytics
 

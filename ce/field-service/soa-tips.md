@@ -3,8 +3,8 @@ title: Improve the Scheduling Operations Agent's suggestions (preview)
 description: Learn how to troubleshoot and improve suggested results of the Scheduling Operations Agent for Dynamics 365 Field Service.
 ms.date: 03/28/2025
 ms.topic: how-to
-ms.author: anilmur
-author: anilmur
+ms.author: anclear
+author: andrewclear-ms
 ---
 
 # Improve the Scheduling Operations Agent's suggestions (preview)

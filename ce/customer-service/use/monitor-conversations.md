@@ -2,7 +2,7 @@
 title: Monitor, assign, transfer, and end conversations as a supervisor
 description: Learn how to monitor, assign, transfer, and end conversations that your customer service representatives handle using the Omnichannel Ongoing Conversations dashboard.
 ms.date: 04/21/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

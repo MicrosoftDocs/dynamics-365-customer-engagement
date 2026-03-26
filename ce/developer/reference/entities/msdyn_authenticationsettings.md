@@ -363,7 +363,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |FormatName|Text|
 |ImeMode|Auto|
 |IsLocalizable|False|
-|MaxLength|256|
+|MaxLength|2048|
 
 ### <a name="BKMK_msdyn_redirecturi"></a> msdyn_redirecturi
 

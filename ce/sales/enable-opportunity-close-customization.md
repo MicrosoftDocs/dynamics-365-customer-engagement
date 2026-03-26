@@ -1,7 +1,7 @@
 ---
 title: "Enable customization of Opportunity Close form | MicrosoftDocs"
 description: "Enable system customizers to customize the opportunity close experience so that sales reps can capture details about why an opportunity was closed."
-ms.date: 02/25/2025
+ms.date: 03/13/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -20,17 +20,16 @@ To allow users in your organization to capture more relevant details about an op
 
 Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:
 
-# [Sales Premium and Sales Enterprise](#tab/SE)
+# [Sales Hub app](#tab/SE)
 
 If you have the Sales Hub app, follow the instructions in this tab. Otherwise, follow the instructions in the **Sales Professional** tab to configure the option in Power Platform.
 
 1. In lower-left corner of the screen, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
 
-1. In the site map, select **Overview**, and on the **Overview** page, select **Manage** for **Custom fields on closing form**.
-1. On the **Opportunity Closing** page, turn the **Custom fields on closing form** toggle to **Yes**.
+1. Under **General Settings**, select **Lead + Opportunity management** > **Opportunity Closing** page, turn the **Custom fields on closing form** toggle to **Yes**.
 1. Select **Save**.
 
-# [Sales Professional](#tab/SP)
+# [Sales Professional app](#tab/SP)
 
 1.  In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar.](media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
 
@@ -38,9 +37,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
     > [!NOTE]
     > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
-1.  On the navigation bar, select **Settings**, and then select **Administration**.
-
-2.  Select **System Settings**.
+1.  On the navigation bar, go to **System** > **Administration** > **Synchronization**.
 
 3.  In the **System Settings** dialog box, on the **Sales** tab, set **Customize close opportunity form** to **Yes**.
 

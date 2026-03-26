@@ -1,18 +1,18 @@
 ---
-title: Enable location tracking
-description: Learn how to enable and set up location tracking for the Dynamics 365 Field Service mobile app.
-ms.date: 03/11/2025
+title: Enable location tracking for mobile technicians
+description: Enable location tracking in the Field Service mobile app so dispatchers can view technician locations and history in real time.
+ms.date: 03/13/2026
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
 ms.author: jobaker
 ---
 
-# Enable location tracking
+# Enable location tracking for mobile technicians
 
-Field technicians often travel to various locations throughout their workday, and it's helpful for schedulers to know where technicians are at any given time.
+Use location tracking to help schedulers see where field technicians are throughout the workday and make faster dispatch decisions.
 
-An administrator enables location tracking for the Dynamics 365 Field Service app and technicians enable location sharing from the mobile app. Schedulers can visualize technician's locations on the schedule board and see their location history.
+An administrator enables location tracking for the Dynamics 365 Field Service app, and technicians enable location sharing from the mobile app. Schedulers can visualize technicians' locations on the schedule board and see their location history.
 
 For a guided walkthrough, check out the following video.
 >
@@ -21,7 +21,7 @@ For a guided walkthrough, check out the following video.
 ## Prerequisites
 
 - Administrator access to Dynamics 365 Field Service.
-- Read access to the *msdyn_geolocationsetting* table for the security role of mobile app users. These permissions are included with the default Field Service - Resource role.
+- Read access to the *msdyn_geolocationsetting* table for the security role of mobile app users. The default Field Service - Resource role includes these permissions.
 
 ## Enable tracking
 
@@ -37,7 +37,7 @@ To send a technician's location information to Field Service, enable location tr
 
 1. Enter a **Refresh interval** in seconds to define how often the system checks the location information. We recommend values between 60 and 300 seconds.
 
-1. Set the **Tracking Times** by day for when you want the system to track location data. The start time must be set to occur before the end time. For 24 hours, select 12:00 am to 11:59 pm.
+1. Set the **Tracking Times** by day for when you want the system to track location data. Set the start time to occur before the end time. For 24 hours, select 12:00 AM to 11:59 PM.
 
 1. Select **Save & Close**.
 
@@ -59,7 +59,7 @@ To have location tracking work properly, complete all the following steps when p
 
 ## [Windows app](#tab/Windows)
 
-Location tracking is currently not available in the Dynamics 365 Field Service Windows app that you can get from the Microsoft Store.
+Location tracking isn't currently available in the Dynamics 365 Field Service Windows app that you get from the Microsoft Store.
 
 ---
 
@@ -67,16 +67,24 @@ Location tracking is currently not available in the Dynamics 365 Field Service W
 
 In the Field Service web application, open the schedule board and select a resource that has location tracking enabled. The current location of the resource appears on the schedule board map.
 
+:::image type="content" source="../media/schedule-board-current-location.png" alt-text="Screenshot of the Schedule Board map showing a technician's current location.":::
+
 > [!NOTE]
 > Dispatchers can use current locations for schedule assistant travel time calculations by selecting **Real time mode** in the schedule assistant filter pane. For more information, see [Advanced filters for the schedule assistant](../schedule-assistant-advanced-filters.md).
 
 ### Location tracking events
 
-The *Geolocation Tracking (msdyn_geolocationtracking)* table stores location information. Users location is captured at the frequency in the **Refresh interval**. The users location is sent to the server and stored only during the set **Tracking Times**. You can view the table in Power Apps.
+The *Geolocation Tracking (msdyn_geolocationtracking)* table stores location information. The app captures each user's location at the frequency set in the **Refresh interval**. The app sends and stores each user's location on the server only during the set **Tracking Times**. You can [view the table in Power Apps](/power-apps/maker/data-platform/create-edit-entities-portal?tabs=excel#view-tables).
 
 > [!NOTE]
-> Location tracking events might be sent less frequently based on the mobile device operating system. The frequency might be influenced by battery savings settings, device battery charge status, and other applications running on the device that might consume device resources.
+> Based on the mobile device operating system, the app might send location tracking events less frequently. Battery savings settings, device battery charge status, and other applications running on the device that might consume device resources can influence the frequency.
 
-You can configure how far back in time a geolocation is valid. This setting is important for scenarios when a mobile device loses internet connection, making dispatchers unaware of the true location. The time threshold can be configured in **Resource Scheduling**  **Settings** area. Select **Administration** > **Scheduling Parameter**. On the **Geo Data** tab, select **Geo Location Expires After X Minutes**.
+You can configure how far back in time a geolocation is valid. This setting is important for scenarios when a mobile device loses internet connection, making dispatchers unaware of the true location. Configure the time threshold:
+
+1. In Field Service, select the **Resources** area and then **Scheduling Parameters**.
+
+1. Open the Resource Scheduling record and select the **Geo Data** tab.
+
+1. Select **Geo Location Expires After X Minutes** and enter the time.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

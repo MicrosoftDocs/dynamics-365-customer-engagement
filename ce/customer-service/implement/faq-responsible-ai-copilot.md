@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: faq
 ms.collection: bap-ai-copilot
-ms.date: 07/30/2025
+ms.date: 12/01/2025
 ms.update-cycle: 180-days
 ms.custom: 
 - bap-template
@@ -21,7 +21,7 @@ This FAQ article helps answer the questions around the responsible use of AI in 
 
 ## What is Copilot in Dynamics 365 Customer Service?
 
-Copilot is an AI-powered tool that transforms the customer service representative (service representative or representative) experience in Dynamics 365 Customer Service. It provides real-time AI powered assistance that will help representatives resolve issues faster, handle cases more efficiently, and automate time-consuming tasks, allowing them to focus on delivering high-quality service to their customers.
+Copilot is an AI-powered tool that transforms the customer service representative (service representative or representative) experience in Dynamics 365 Customer Service. It provides real-time AI powered assistance that can help representatives resolve issues faster, handle cases more efficiently, and automate time-consuming tasks, allowing them to focus on delivering high-quality service to their customers.
 
 ## What are the systems capabilities?
 
@@ -38,9 +38,12 @@ Copilot provides the following main features:
 - **Summarize a conversation**: Copilot provides representatives with a summary of a conversation at key points throughout the customer journey such as virtual representative handoffs, transfers and on demand.
 
 - **Generate knowledge draft from case (preview)**: Copilot generates a knowledge article draft as a proposal that's based on information from the case. Representatives can review and refine the draft by giving revision instructions to Copilot and then save it.
+  
 - **Summarize a custom record**: Copilot provides representatives with a summary of a record based on fields that the administrator configures for the custom table so that representatives can quickly catch up on the important details of a support record.
 
 - **Generate resolution notes**: Copilot provides representatives with a summary of case details, emails, and notes linked to the case on the **Ask a question** tab, so they can close the case or incident faster.
+  
+- **Forecast using AI‑driven optimal method selection (preview)**: Enhances forecast scenarios by intelligently recommending and applying the most suitable method based on scenario inputs. Administrators can opt in during setup and choose between the traditional approach and the AI‑based option. Supervisors can also run forecasts on demand instead of waiting for scheduled runs, giving teams flexibility and faster insights.
 
 ## What is the system’s intended use?
 
@@ -52,9 +55,9 @@ Copilot in Customer Service has been evaluated against real world scenarios with
 
 ## What are the limitations of Copilot in Customer Service? How can users minimize the impact of Copilot limitations?  
 
-Copilot’s knowledge-based capabilities like ask a question, write an email, and draft a chat response, are dependent on high-quality and up-to-date knowledge articles for grounding. Without these knowledge articles, users are more likely to encounter Copilot responses that aren't factual.  
+Copilot's knowledge-based capabilities like ask a question, write an email, and draft a chat response, are dependent on high-quality and up-to-date knowledge articles for grounding. Without these knowledge articles, users are more likely to encounter Copilot responses that aren't factual.  
 
-To minimize the likelihood of seeing non-factual responses from Copilot, it’s important that Microsoft employs robust knowledge management practices to ensure the business knowledge that connects to Copilot is of high-quality and up-to-date.
+To minimize the likelihood of seeing non-factual responses from Copilot, it's important that Microsoft employs robust knowledge management practices to ensure the business knowledge that connects to Copilot is high quality and up to date.
 
 ## What operational factors and settings allow for effective and responsible use of the system?  
 
@@ -68,49 +71,45 @@ When you're interacting with Copilot, it's important to keep in mind that the st
 
 ### Ask clear and specific questions
 
-Clear intent is essential when asking questions, as it directly impacts the quality of the response. For instance, asking a broad question like “Why is the customer’s coffee machine not starting up?” is less likely to yield a useful response compared to a more specific question, such as “What steps can I take to determine why the customer’s coffee machine isn't starting up?”.
+Clear intent is essential when asking questions, as it directly impacts the quality of the response. For instance, asking a broad question like "Why is the customer’s coffee machine not starting up?" is less likely to yield a useful response compared to a more specific question, such as "What steps can I take to determine why the customer’s coffee machine isn't starting up?"
 
-However, asking an even more detailed question like “What steps can I take to determine why a Contoso 900 coffee machine with a 5-bar pressure rating isn't starting up?” narrows down the scope of the problem and provides more context, leading to more accurate and targeted responses.
+However, asking an even more detailed question like "What steps can I take to determine why a Contoso 900 coffee machine with a 5-bar pressure rating isn't starting up?" narrows down the scope of the problem and provides more context, leading to more accurate and targeted responses.
 
 ### Add Context
 
 Adding context helps the conversational AI system better understand the user's intent and provide more accurate and relevant responses. Without context, the system might misunderstand the user's question or provide generic or irrelevant responses.
 
-For example, "Why is the coffee machine not starting up?" will result in a generic response when compared to a question with more context like, "Recently, the customer initiated descaling mode on their coffee machine and completed descaling successfully. They even received three flashes from the power light at the end to confirm that descaling was complete. Why are they unable to start the coffee machine anymore?"
+For example, "Why is the coffee machine not starting up?" results in a generic response when compared to a question with more context like, "Recently, the customer initiated descaling mode on their coffee machine and completed descaling successfully. They even received three flashes from the power light at the end to confirm that descaling was complete. Why are they unable to start the coffee machine anymore?"
 
 Adding context in this manner is important because it helps Copilot better understand the user's intent and provide more accurate and relevant responses.
 
 ### Avoid technical terms if possible
 
-We recommend that you avoid using extremely technical terms and resource names when interacting with Copilot because the system may not always understand it accurately or appropriately. The use of simpler, natural language helps ensure that the system can understand the user's intent correctly and provide clear, useful responses. For example –  
+We recommend that you avoid using highly technical terms and resource names when you interact with Copilot because the system might not always understand it accurately or appropriately. The use of simpler, natural language helps ensure that the system can understand the user's intent correctly and provide clear, useful responses.
 
-"The customer can't SSH into the VM after having changed the firewall config."  
-
-Instead, you can rephrase as –  
-
-“The customer changed the firewall rules on their virtual machine. However, they can no longer connect using Secure Shell (SSH). Can you help?”
+For example, you could rephrase "The customer can't SSH into the VM after having changed the firewall config" to "The customer changed the firewall rules on their virtual machine. However, they can no longer connect using Secure Shell (SSH). Can you help?"
 
 By following the suggestions, representatives can enhance their interactions with Copilot and increase the likelihood of receiving accurate and confident responses from it.
 
 ### Summarizing or expanding a response
 
-Sometimes the response from Copilot can be longer than expected. This could be the case when the representative is in a live chat conversation with a customer and needs to send concise responses when compared with sending a response over email. In such cases, asking Copilot to “summarize the response” will result in a concise answer to the question.  Similarly, if there's a need for more detail, asking Copilot to “Provide more details” will result in a more detailed answer to your question. If the response is truncated, typing “continue” will display the remaining part of the response.
+Sometimes the response from Copilot can be longer than expected. This could be the case when the representative is in a live chat conversation with a customer and needs to send concise responses when compared with sending a response over email. In such cases, asking Copilot to "summarize the response" results in a concise answer to the question. Similarly, if there's a need for more detail, asking Copilot to “Provide more details” results in a more detailed answer to your question. If the response is truncated, typing "continue" displays the remaining part of the response.
 
-## How can I influence the responses generated by copilot? Can I fine tune the underlying LLM?
+## How can I influence the responses generated by Copilot? Can I fine-tune the underlying LLM?
 
-It's not possible to customize the large language model (LLM) directly.  Copilot responses can be influenced by updating the source documentation. All the feedback content from Copilot responses is stored. Reports can be created using this data to determine the data sources that need to be updated. It’s a good idea to have processes in place to periodically review the feedback data and ensure knowledge articles are providing the best and most up-to-date information to Copilot.
+It's not possible to customize the large language model (LLM) directly. Copilot responses can be influenced by updating the source documentation. All feedback content from Copilot responses is stored. Reports can be created using this data to determine the data sources that need to be updated. It's a good idea to have processes in place to periodically review the feedback data and ensure knowledge articles are providing the best, most up-to-date information to Copilot.
 
 ## What's the data security model for Copilot?
 
-Copilot enforces the role-based access (RBAC) controls defined and adheres to all the existing security constructs. Therefore, representatives can't view data that they don't have access to. Additionally, only data sources that the representative has access to are used for copilot response generation.
+Copilot enforces the role-based access (RBAC) controls defined, and adheres to all the existing security constructs. Therefore, representatives can't view data that they don't have access to. Additionally, only data sources that the representative has access to are used for Copilot response generation.
 
 ## How does Copilot determine whether content is offensive or harmful?
 
-Copilot determines whether content is harmful through a severity rating system based on distinct categories of objectionable content. You can learn more at [Harm categories in Azure AI Content Safety](/azure/ai-services/content-safety/concepts/harm-categories?tabs=warning).
+Copilot determines whether content is harmful through a severity rating system based on distinct categories of objectionable content. Learn more in [Harm categories in Azure AI Content Safety](/azure/ai-services/content-safety/concepts/harm-categories?tabs=warning).
 
 ## Where does data processing and retrieval occur to generate copilot responses?  
 
-Copilot isn't calling the public OpenAI service that powers ChatGPT. Copilot in Customer Service uses the [Microsoft Azure OpenAI Service](/azure/ai-services/openai/overview) in a Microsoft managed tenant. All data processing and retrieval occurs within Microsoft managed tenants. Additionally, customer’s data isn't shared and isn't fed back into public models.
+Copilot doesn't call the public OpenAI service that powers ChatGPT. Copilot in Customer Service uses the [Microsoft Azure OpenAI Service](/azure/ai-services/openai/overview) in a Microsoft managed tenant. All data processing and retrieval occurs within Microsoft managed tenants. Additionally, customer’s data isn't shared and isn't fed back into public models.
 
 ### What are the language limitations for summaries that Copilot generates from cases and conversations?
 
@@ -122,7 +121,7 @@ The model is tested for quality and harmful content, every time there's a change
 
 ## How frequently is the model monitored to detect performance degradation?
 
-The generative AI GPT Model is hosted and managed by Azure OpenAI. The use of the model in customer service scenarios is bound by responsible AI practices and Deployment Safety Board checks. Any changes to model versions or underlying prompts are validated for quality and harmful content. Learn more in the [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
+Azure OpenAI hosts and manages the generative AI GPT Model. The use of the model in customer service scenarios is bound by responsible AI practices and Deployment Safety Board checks. Any changes to model versions or underlying prompts are validated for quality and harmful content. Learn more in the [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
 
 ## Does the product or service employ more than one model or a system of interdependent models?
 
@@ -150,7 +149,7 @@ Yes. Learn more in Responsible AI Transparency Report.
 
 ## Does Microsoft document, practice, and measure incident response plans for AI system incidents including measuring response and down times?
 
-Yes. The responsible AI process requires that team have a incident response plan for AI issues, similar to what's done for functional issues. The feature teams continuously monitor the performance and reliability of the system. Learn more in Responsible AI Transparency Report.
+Yes. The responsible AI process requires that team have an incident response plan for AI issues, similar to the process for functional issues. The feature teams actively monitor the performance and reliability of the system. Learn more in Responsible AI Transparency Report.
 
 ## Does Microsoft establish procedures to share information about error incidences and negative impacts with relevant stakeholders, operators, practitioners, users and affected parties?
 
@@ -186,19 +185,19 @@ No.
 
 ## Is there an established model governance policy?
 
-Yes, there's an established governance policy supported by Azure OpenAI. Learn more in Responsible AI Transparency Report.
+Yes. Azure OpenAI supports an established governance policy. Learn more in Responsible AI Transparency Report.
 
 ## Are there established and documented protocols (authorization, duration, type) and access controls for training or production data sets containing PII in accordance with privacy and data governance policies?
 
-Currently, there's no model training, hence no requirement surrounding the data set. However when a customer service representative engages with Copilot, depending on the feature, context data (case or chat) is used to generate a response. 
+Currently, there's no model training, hence no requirement surrounding the data set. However, when a customer service representative engages with Copilot, depending on the feature, context data (case or chat) is used to generate a response. 
 
 ## Are PII disclosures and inference of sensitive or legally protected attributes monitored?
 
-Yes, privacy review is done for every feature.
+Yes. Privacy review is conducted for every feature.
 
 ## Does Microsoft have a process to consider legal and regulatory issues and requirements specific to its industry, business purpose, and the application environment of the deployed AI systems?
 
-Yes. Legal review is done for every feature to help with regulatory requirements and other legal matters.
+Yes. Legal review is conducted for every feature to help with regulatory requirements and other legal matters.
 
 ### Related information
 

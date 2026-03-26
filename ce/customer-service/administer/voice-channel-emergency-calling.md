@@ -1,6 +1,6 @@
 ---
 title: Support emergency calls made by service representatives
-description: Use this article to understand how emergency calls work and how you can set up email recipients for emergency calls in Omnichannel for Customer Service.
+description: Use this article to understand how emergency calls work and how you can set up email recipients for emergency calls in Dynamics 365 Contact Center.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

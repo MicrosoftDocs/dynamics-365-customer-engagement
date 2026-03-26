@@ -1,6 +1,6 @@
 ---
-title: "Copilot for Sales customer list (msdyn_vivacustomerlist) table/entity reference (Microsoft Dynamics 365)"
-description: "Includes schema information and supported messages for the Copilot for Sales customer list (msdyn_vivacustomerlist) table/entity with Microsoft Dynamics 365."
+title: "M365 Copilot Sales customer list (msdyn_vivacustomerlist) table/entity reference (Microsoft Dynamics 365)"
+description: "Includes schema information and supported messages for the M365 Copilot Sales customer list (msdyn_vivacustomerlist) table/entity with Microsoft Dynamics 365."
 ms.topic: generated-reference
 author: JimDaly
 ms.author: jdaly
@@ -8,13 +8,13 @@ search.audienceType:
   - developer
 ---
 
-# Copilot for Sales customer list (msdyn_vivacustomerlist) table/entity reference (Microsoft Dynamics 365)
+# M365 Copilot Sales customer list (msdyn_vivacustomerlist) table/entity reference (Microsoft Dynamics 365)
 
 
 
 ## Messages
 
-The following table lists the messages for the Copilot for Sales customer list (msdyn_vivacustomerlist) table.
+The following table lists the messages for the M365 Copilot Sales customer list (msdyn_vivacustomerlist) table.
 Messages represent operations that can be performed on the table. They may also be events.
 
 | Name <br />Is Event? |Web API Operation |SDK for .NET |
@@ -47,12 +47,12 @@ Messages represent operations that can be performed on the table. They may also 
 
 ## Properties
 
-The following table lists selected properties for the Copilot for Sales customer list (msdyn_vivacustomerlist) table.
+The following table lists selected properties for the M365 Copilot Sales customer list (msdyn_vivacustomerlist) table.
 
 |Property|Value|
 | --- | --- |
-| **DisplayName** | **Copilot for Sales customer list** |
-| **DisplayCollectionName** | **Copilot for Sales customer lists** |
+| **DisplayName** | **M365 Copilot Sales customer list** |
+| **DisplayCollectionName** | **M365 Copilot Sales customer lists** |
 | **SchemaName** | `msdyn_vivacustomerlist` |
 | **CollectionSchemaName** | `msdyn_vivacustomerlists` |
 | **EntitySetName** | `msdyn_vivacustomerlists`|
@@ -104,7 +104,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Id of the view (saved query) backing this Copilot for Sales customer list. Only used for lists of the "CRM list" type.**|
+|Description|**Id of the view (saved query) backing this M365 Copilot Sales customer list. Only used for lists of the "CRM list" type.**|
 |DisplayName|**Backing view**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -121,7 +121,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Type of the Copilot for Sales customer list.**|
+|Description|**Type of the M365 Copilot Sales customer list.**|
 |DisplayName|**List type**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -193,15 +193,15 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |---|---|
-|10000|**Copilot for Sales**|
-|10001|**Copilot for Service**|
+|10000|**M365 Copilot Sales**|
+|10001|**M365 Copilot Service**|
 |11000|**Shared**|
 
 ### <a name="BKMK_msdyn_sortexpression"></a> msdyn_sortexpression
 
 |Property|Value|
 |---|---|
-|Description|**Defines the configured sort for data in this Copilot for Sales customer list. Contains either CRM sort expression or Graph API sort expression, depending on the list type.**|
+|Description|**Defines the configured sort for data in this M365 Copilot Sales customer list. Contains either CRM sort expression or Graph API sort expression, depending on the list type.**|
 |DisplayName|**Sort expression**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -218,7 +218,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Time range qualifier configured for this Copilot for Sales customer list. Used in conjunction with the msdyn\_timerangetype field. Only used for list types other than "CRM list".**|
+|Description|**Time range qualifier configured for this M365 Copilot Sales customer list. Used in conjunction with the msdyn\_timerangetype field. Only used for list types other than "CRM list".**|
 |DisplayName|**Time range qualifier**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -232,7 +232,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Time range configured for this Copilot for Sales customer list. Only used for list types other than "CRM list".**|
+|Description|**Time range configured for this M365 Copilot Sales customer list. Only used for list types other than "CRM list".**|
 |DisplayName|**Time range type**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -279,7 +279,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**Copilot for Sales customer list**|
+|DisplayName|**M365 Copilot Sales customer list**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_vivacustomerlistid`|
@@ -332,7 +332,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Status of the Copilot for Sales customer list**|
+|Description|**Status of the M365 Copilot Sales customer list**|
 |DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -353,7 +353,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Reason for the status of the Copilot for Sales customer list**|
+|Description|**Reason for the status of the M365 Copilot Sales customer list**|
 |DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|

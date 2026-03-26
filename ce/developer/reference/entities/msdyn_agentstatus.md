@@ -73,6 +73,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_assignedconversationcount](#BKMK_msdyn_assignedconversationcount)
 - [msdyn_availableunitscapacity](#BKMK_msdyn_availableunitscapacity)
 - [msdyn_capacitymodifiedon](#BKMK_msdyn_capacitymodifiedon)
+- [msdyn_capacitymodifiedonwithmilliseconds](#BKMK_msdyn_capacitymodifiedonwithmilliseconds)
 - [msdyn_currentpresenceid](#BKMK_msdyn_currentpresenceid)
 - [msdyn_eventname](#BKMK_msdyn_eventname)
 - [msdyn_isagentloggedin](#BKMK_msdyn_isagentloggedin)
@@ -81,6 +82,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_presencemodifiedby](#BKMK_msdyn_presencemodifiedby)
 - [msdyn_presencemodifiedbyuserid](#BKMK_msdyn_presencemodifiedbyuserid)
 - [msdyn_presencemodifiedon](#BKMK_msdyn_presencemodifiedon)
+- [msdyn_presencemodifiedonwithmilliseconds](#BKMK_msdyn_presencemodifiedonwithmilliseconds)
 - [msdyn_subeventname](#BKMK_msdyn_subeventname)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -173,6 +175,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Format|DateOnly|
 |ImeMode|Auto|
 |SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_capacitymodifiedonwithmilliseconds"></a> msdyn_capacitymodifiedonwithmilliseconds
+
+|Property|Value|
+|---|---|
+|Description|**The date and time when the capacity was modified, including milliseconds in ISO format.**|
+|DisplayName|**Capacity Modified On With Milliseconds**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_capacitymodifiedonwithmilliseconds`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_currentpresenceid"></a> msdyn_currentpresenceid
 
@@ -315,6 +334,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Format|DateOnly|
 |ImeMode|Auto|
 |SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_presencemodifiedonwithmilliseconds"></a> msdyn_presencemodifiedonwithmilliseconds
+
+|Property|Value|
+|---|---|
+|Description|**The date and time when the presence was modified, including milliseconds in ISO format.**|
+|DisplayName|**Presence Modified On With Milliseconds**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_presencemodifiedonwithmilliseconds`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_subeventname"></a> msdyn_subeventname
 

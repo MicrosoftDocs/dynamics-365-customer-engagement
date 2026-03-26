@@ -1,7 +1,7 @@
 ---
 title: Share Dynamics 365 records within Microsoft Teams conversations
 description: Learn how to share Dynamics 365 records within Microsoft Teams conversations
-ms.date: 08/21/2024
+ms.date: 09/17/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -71,4 +71,4 @@ You can also share a record by pasting the URL of a Dynamics 365 record. You can
 [Edit settings of the Dynamics 365 app](edit-d365-app.md)    
 [Share feedback](share-feedback-d365-app.md)    
 [View and update record details](view-update-dynamics-records.md)   
-[Add chat messages to Dynamics 365 as notes or tasks](add-chat-d365.md)   
+

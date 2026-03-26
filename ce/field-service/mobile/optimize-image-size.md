@@ -4,8 +4,8 @@ description: Turn on a user setting to optimize file sizes of images before uplo
 ms.topic: how-to
 ms.subservice: field-service-mobile
 ms.date: 09/23/2025
-author: josephshum-msft
-ms.author: jshum
+author: JonBaker007
+ms.author: jobaker
 ---
 
 # Optimize images for upload

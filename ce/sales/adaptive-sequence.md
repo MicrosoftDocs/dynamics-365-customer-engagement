@@ -1,7 +1,7 @@
 ---
 title: Add condition steps to sequences
 description: Discover how to use adaptive sequences in sales accelerator to define condition steps that guide the path of a sequence.
-ms.date: 07/22/2025
+ms.date: 10/23/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -43,7 +43,22 @@ Conditions in the adaptive sequences work as defined only when **Sales Insights 
  
     :::image type="content" source="media/sa-condition-enable-process-turn-on-adaptive-sequence-timeout-flow.png" alt-text="Screenshot of enabling the Sales Insights Adaptive sequence timeout flow in Power Automate.":::
 
-    The process is enabled.
+    The process is enabled. 
+
+### Verify the flow
+
+Sales Insights Adaptive sequence timeout flow handles the wait time for step types like field value evaluation, BPF, and update field. After the wait time, the flow advances to next sequence step. To verify that the flow is working as expected, follow these steps:
+
+1. Ensure that you have admin access to Power Automate and a valid Dynamics 365 Sales license.  
+1. Go to [Power Automate](https://flow.microsoft.com) and change the environment to your organization.  
+1. In the left navigation pane, go to **Solutions** > **Default Solution** > **Cloud flows** and open **Sales Insights Adaptive sequence timeout flow**.  
+1. In the **Connection References** section, verify that all connections are valid and authenticated. A green check mark indicates that the connection is valid.  
+1. If any connection is invalid, a red exclamation mark is displayed. To resolve the invalid connections, follow these steps:  
+    1. In the left navigation pane, go to **Solutions** > **Default Solution** > **Connection References**.  
+    1. Open the connection that is invalid. For example, open the **Common Data Service (current environment)** (`msdyn_acceleratedsales_connection`) if that connection is invalid.    
+        :::image type="content" source="media/sa-condition-verify-adaptive-sequence-timeout-flow.png" alt-text="Screenshot of opening common data services connection in Power Automate.":::  
+    1. In the **Edit Common Data Service (current environment)** pane, verify if the **Connection** field includes an invalid connection or left blank. Select an existing connection to Dataverse or create a new one. This opens the connections page where you can choose Microsoft Dataverse.  
+    1. Save the changes and verify that the connection is now valid with a green check mark.  
 
 <a name="define-conditions-for-email-activity"></a>
 ## Define conditions for an email activity
@@ -136,7 +151,7 @@ Let's define a flow where you want to trigger the next step when a customer open
     When a customer performs both of these actions on the email, the **Yes** path is initiated.  
 
     > [!NOTE]
-    > If you've selected the **One of them** option, the **Yes** path will be initiated when the email is opened or the attachment is downloaded.
+    > If you've selected the **One of them** option, the **Yes** path is initiated when the email is opened or the attachment is downloaded.
 
     :::image type="content" source="media/sa-condition-email-select-email-open-attachment-download-option.png" alt-text="Screenshot of selecting the Email open and Attachment downloaded checkboxes.":::
 
@@ -172,7 +187,7 @@ Let's define a flow where you want to initiate the **Yes** path when the custome
     :::image type="content" source="media/sa-condition-phone-call-select-advanced-call-conditions.png" alt-text="Screenshot of advanced call conditions on the Conditions tab.":::
 
 1. In the **Advanced phone conditions** pane, from the **Select results** dropdown list, select the **Made** and **Received** options.  
-    When any of the selected activities is completed, the **Yes** path will be initiated.  
+    When any of the selected activities is completed, the **Yes** path is initiated.  
 
     :::image type="content" source="media/sa-condition-phone-call-select-made-received-option.png" alt-text="Screenshot of selecting the Made and Received options.":::
 
@@ -188,7 +203,7 @@ Let's define a flow where you want to initiate the **Yes** path when the custome
 
 When you add a condition based on a field value, you determine the next course of action for the sequence according to the value given in the field. The available field values&mdash;including related entities&mdash;are based on the type of record you've selected for the sequence.
 
-In the the **Add an action or other element** dialog box, go to the **Conditions** tab, choose a field, and create a condition. The sequence follows the **Yes** path when the condition is true and the **No** path when the condition is false.
+In the **Add an action or other element** dialog box, go to the **Conditions** tab, choose a field, and create a condition. The sequence follows the **Yes** path when the condition is true and the **No** path when the condition is false.
 
 In the following example, let's set the sequence to follow the **Yes** path when a lead's company name is **Contoso**.
 
@@ -218,7 +233,7 @@ In the following example, let's set the sequence to follow the **Yes** path when
 
 When you add a condition based on the stage of a business process, you determine the path of a sequence based on which stage the business process is in. The business process flows are listed based on the type of record you've selected for the sequence.
 
-In the the **Add an action or other element** dialog box, go to the **Conditions** tab, choose a **Business process stage**, and create a condition. The sequence follows the **Yes** path when the condition is true and the **No** path when the condition is false.
+In the **Add an action or other element** dialog box, go to the **Conditions** tab, choose a **Business process stage**, and create a condition. The sequence follows the **Yes** path when the condition is true and the **No** path when the condition is false.
 
 >[!NOTE]
 >Verify that business process flows are defined for the record type you've selected in the sequence.

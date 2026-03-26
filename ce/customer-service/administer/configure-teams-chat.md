@@ -1,6 +1,6 @@
 ---
-title: Configure Microsoft Teams chats in Customer Service
-description: Learn how to configure Microsoft Teams chat functionality for customer service representatives in Dynamics 365 Customer Service.
+title: Configure Microsoft Teams chats
+description: Learn how to configure Microsoft Teams chat functionality for customer service representatives in Dynamics 365 Contact Center.
 ms.date: 09/30/2025
 author: lalexms
 ms.author: laalexan
@@ -210,7 +210,7 @@ The following table details the apps and security roles where the disconnect cha
 |---------|-----------|
 |Admin    |System admin  |
 |Customer Service apps | CSR manager<br>Customer Service Representative |
-|Omnichannel for Customer Service | OC admin<br>OC supervisor<br>OC agent |
+|Dynamics 365 Contact Center | OC admin<br>OC supervisor<br>OC agent |
 
 
 **To edit disconnect chat rights to security roles:**

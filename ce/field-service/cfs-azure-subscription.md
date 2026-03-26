@@ -17,9 +17,9 @@ Before an administrator deploys Connected Field Service with Azure IoT Hub, revi
 
 ## Prerequisites
 
-1. Connected Field Service with IoT Hub can only be deployed to one Azure tenant. Ideally, the main Azure tenant tied to your credentials.
+1. You can only deploy Connected Field Service with IoT Hub to one Azure tenant. Ideally, use the main Azure tenant tied to your credentials.
 
-1. In order to deploy and administer IoT Hub, you need one of the following Azure security roles:
+1. To deploy and administer IoT Hub, you need one of the following Azure security roles:
 
     - Owner
     - Coadministrator

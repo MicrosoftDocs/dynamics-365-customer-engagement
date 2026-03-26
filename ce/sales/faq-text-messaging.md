@@ -1,7 +1,7 @@
 ---
 title: Text messaging FAQs
 description: Get answers to frequently asked questions about text messaging.
-ms.date: 07/19/2024
+ms.date: 10/09/2025
 ms.topic: faq
 author: udaykirang
 ms.author: udag
@@ -16,7 +16,7 @@ ms.custom:
 
 # Text messaging FAQs
 
-This article answers frequently asked questions about text messaging in Dynamics 365 Sales and Sales premium.
+This article answers frequently asked questions about text messaging in Dynamics 365 Sales.
 
 ## Why can't I see the SMS feature in my sales app?​
 

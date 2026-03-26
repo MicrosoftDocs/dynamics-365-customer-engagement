@@ -21,8 +21,6 @@ ms.reviewer: m-hartmann
 [!INCLUDE[faqs-feature](../includes/faqs-feature.md)]
 
 - [FAQ about work order summary with Copilot (preview)](faqs-work-order-recap.md)
-- [FAQ about work order creation in Outlook using Copilot](faqs-wo-flw-copilot.md)
-- [FAQ about draft email responses in Outlook using Copilot](faqs-flm-copilot-email.md)
 - [FAQ about work order update](faqs-work-order-update.md)
 - [FAQ about creating inspection templates with Copilot in Field Service (preview)](faqs-inspection-designer.md)
 - [FAQ about Scheduling Operations Agent (preview)](faqs-soa.md)

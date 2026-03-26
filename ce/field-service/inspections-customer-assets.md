@@ -3,8 +3,8 @@ title: "Use inspections without work orders in Dynamics 365 Field Service | Micr
 description: Learn how to use inspections without work orders in Dynamics 365 Field Service.
 ms.date: 03/28/2025
 ms.topic: how-to
-author: josephshum-msft
-ms.author: jshum
+author: jasonccohen
+ms.author: jacoh
 ---
 
 # Use inspections without work orders
@@ -12,7 +12,7 @@ ms.author: jshum
 Organizations often need to conduct inspections independent of work orders. Currently, inspections can be added to customer assets in Field Service.
 
 > [!NOTE]
-> Inspections without work orders don't work in [the mobile offline profile](mobile/best-practices-limitations-offline-profile.md). Default functionality for inspections, like the export to PDF are only available on work order service tasks.
+> Inspections without work orders don't work in [the mobile offline profile](mobile/set-up-offline-profile.md). Default functionality for inspections, like the export to PDF are only available on work order service tasks.
 
 ## Enable inspections on customer assets without a work order
 

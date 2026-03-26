@@ -1,7 +1,7 @@
 ---
-title: Create and manage capacity profiles
+title: Create and manage capacity profiles in Dynamics 365 Customer Service and Dynamics 365 Contact Center
 description: Learn how to create and manage capacity profiles for service representatives, and set custom limits for the profiles.
-ms.date: 04/16/2025
+ms.date: 02/03/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -14,14 +14,14 @@ ms.collection:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-You can create capacity profiles and assign them to your customer service representatives (service representative or representative) to define the types and amount of work they can take. Capacity profiles contain information, such as the amount of work, concurrent or daily capacity, and whether other channels are affected.
+Create capacity profiles and assign them to your customer service representatives (service representative or representative) to define the types and amount of work they can take. Capacity profiles contain information, such as the amount of work, concurrent or daily capacity, and whether other channels are affected.
 
 - Capacity management helps administrators create various capacity profiles and associate users with matching profiles. You can assign multiple capacity profiles to users.
 - The administrator can block the assignment of extra work to the service representatives when they're working on certain channels, such as phone calls.
 - The supervisor can override the representative's configured capacity and assign work to user manually.
-- The representative's capacity might display a negative value when the representative manually picks a work item or is assigned a conversation forcibly that results in negative capacity. This is applicable for both capacity profiles and unit-based capacity.
+- The representative's capacity might display a negative value when the representative manually picks a work item or is assigned a conversation forcibly that results in negative capacity. This representation is applicable for both capacity profiles and unit-based capacity.
 - We recommend that you configure either capacity profiles or capacity units in your organization, but not both.
-- The capacity isn't considered when the representative takes part in consult or monitors a conversation.
+- The capacity isn't considered when the representative monitors a conversation.
 
 You might find it helpful to configure profile-based capacity in the following scenarios:
 
@@ -31,8 +31,7 @@ You might find it helpful to configure profile-based capacity in the following s
 - Assignment in one channel impacts the assignments of another channel. For example, you can't assign another work to representatives who are on phone calls.
 
 > [!IMPORTANT]
-> This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making—and shouldn't be used to make—decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
-
+> This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making—and shouldn't be used to make—decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with representatives might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
 
 ## Create a capacity profile and assign to users
 
@@ -41,11 +40,9 @@ Create a capacity profile, and use it in a workstream for routing work items.
 For a capacity profile, you can add or remove users and edit any setting except reset frequency. If you no longer require the profile, you can delete it.
 
 1. In the site map of Copilot Service admin center, select **User management** in **Customer support**. The **User management** page appears.
-   
+
 1. Select the **Manage** option for **Capacity profile**.
-
 1. On the **Capacity profiles** page, select **Create new**.
-
 1. On the **Details** tab of the **Create capacity profile** dialog box, enter the following details:
    - **Profile name**: Name for the capacity profile.
    - **Work item limit**: Number of units of the work type that you can assign to the representative.
@@ -55,7 +52,7 @@ For a capacity profile, you can add or remove users and edit any setting except 
 
      Once configured, you have to recreate the capacity profile if you want to change the reset frequency.
 
-   - **Assignment blocking**: Set the toggle to **Yes**. When the work item limit is met, the representative isn't assigned a new work item automatically.
+   - **Assignment blocking**: Set the toggle to **Yes**. When the work item limit is met, the representative isn't automatically assigned new work items, including unit-based capacity work items even if other capacity profiles or capacity units are available. The presence is set to **Busy-DND**.
 
    :::image type="content" source="../media/create-capacity-profile.png" alt-text="Create a capacity profile.":::
 
@@ -63,7 +60,6 @@ For a capacity profile, you can add or remove users and edit any setting except 
 
    > [!IMPORTANT]
    > Users must be configured as a bookable resource to be assigned the capacity profile. Learn more in [Manage users](users-user-profiles.md).
-
 1. Select **Add user**. The capacity profile is assigned to the user.
 
 ## Configure representative-specific work limits in capacity profiles<a name="custom-limits"></a>
@@ -75,6 +71,7 @@ For selective representatives, you can define a work item limit that's different
 To set the custom limits, do the following steps:
 
 1. In Copilot Service admin center, select **User management** under **Customer support**, and on the page that appears, select **Manage** for **Enhanced user management**.
+
 1. In **Contact center users**, select the representatives for whom you want to allocate a custom limit, and then select **Update user attributes** > **Update capacity profiles**.
 1. On the **Update Capacity profiles** pane, in **Capacity profiles**, select a profile, and in **Custom limit**, enter a value according to your business need.
 1. Select **Add to all**. The capacity profile with the custom limit is added to the users in the list. 
@@ -101,7 +98,7 @@ However, if you configure custom limits through capacity profiles, then represen
 
 An example of the custom limit is as follows:
 
-Ana, a representative at Contoso Coffee, is an expert in handling Return queries for Café A 100 machine. Henry, who has joined Contoso recently, is learning the nuances of Café A 100 machine. Eugene, the admin at Contoso has configured a capacity profile for “Return orders” with a default limit of two conversations per day. Eugene assigns the “Return orders” profile with the default limit to Henry. Eugene allocates a custom limit of five to Ana in the “Return orders” profile. Ana receives maximum of five conversations per day from the “Return orders” profile while Henry receives a maximum of two conversations only in a day for the same profile.
+Ana, a representative at Contoso Coffee, is an expert in handling Return queries for Café A 100 machine. Henry, who joined Contoso recently, is learning the nuances of Café A 100 machine. Eugene, the admin at Contoso configured a capacity profile for "Return orders" with a default limit of two conversations per day. Eugene assigns the "Return orders" profile with the default limit to Henry. Eugene allocates a custom limit of five to Ana in the "Return orders" profile. Ana receives maximum of five conversations per day from the "Return orders" profile while Henry receives a maximum of two conversations only in a day for the same profile.
 
 ### Update work limits using OData
 
@@ -136,7 +133,7 @@ You need not define assignment rules specific to capacity profiles at queue leve
 For the system to efficiently manage representatives workload, you must automatically release the representative's capacity when representatives complete their assigned work items. Based on system settings, the representative's capacity is released in the following manner:
 
 - **Conversation**: When the representatives end the conversation and close their session.
-- **Case**: When the representative resolves the case. Capacity is also released automatically when the representative cancels the case or removes their assignment by clearing their name from the **Worked By** field on the **Queue Item details** dialog. If you manually assign the case to another representative or team using the **Assign** option on the case form, capacity is updated.
+- **Case**: When the representative resolves the case. Capacity is also released automatically when the representative cancels the case or removes their assignment by clearing their name from the **Worked By** field on the **Queue Item details** dialog.
 - **All records and activities**: Capacity isn't released automatically for activities, such as email, that's configured for record routing. To release the representative capacity, do one of the following steps:
     - [Deactivate the assigned queue item](../develop/deactivate-queue-items.md); the associated work item is closed.
     - If you need to keep the record open, go to the queue item dialog and remove the representative name from the **Worked By** field. The automatic assignment tries to reassign the item to the representative in the queue.
@@ -177,9 +174,17 @@ When a work item is labeled with multiple capacity profiles, the assignment stra
 2. The representative who has capacity in both these profiles only is selected. When the work item is assigned, capacity is consumed from both the profiles.
 3. Similarly, for normal priority cases, the capacity is consumed from both "Total-capacity profile" and "Normal-priority profile".
 
+## Delete historical data of representatives' capacity updates
+
+The history of updates to your service representatives' capacity profiles is stored in [Dataverse for Apps](/power-platform/admin/capacity-storage). To help you use your storage capacity efficiently, we recommend that you periodically delete the historical data.
+
+[Review your storage consumption](/power-platform/admin/capacity-storage#capacity-page-details). If the storage consumed is 50%&ndash;60% of the total capacity, consider moving the data to a different data store if you want to keep it. Otherwise, [delete it](/power-platform/admin/delete-bulk-records).
+
+> [!CAUTION]
+> You can't recover deleted data. We recommend that you verify the data isn't required before you delete it.
+
 ### Related information
 
 [Create workstreams](create-workstreams.md)  
-[Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
+[Manage users in contact center](users-user-profiles.md)  
 [Map role personas](role-persona-mapping.md)  
-[Manage historical data of capacity updates for agents](manage-historical-data-capacity-updates.md)  

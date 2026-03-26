@@ -17,6 +17,18 @@ search.audienceType:
 
 
 
+## Customized columns/attributes
+
+Microsoft Dynamics 365 Customer Service modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
+
+### <a name="BKMK_mspp_redirecturl"></a> mspp_redirecturl
+
+Changes from [mspp_redirecturl (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/mspp_redirect#BKMK_mspp_redirecturl)
+
+|Property|Value|
+|---|---|
+|MaxLength|400|
+
 
 ## One-to-Many relationships
 

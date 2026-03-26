@@ -79,7 +79,7 @@ To enable service representatives to use the copilot features in Copilot Service
 
 [Manage session template](session-templates.md)  
 [Overview of Dynamics 365 Productivity Tools](productivity-tools.md)  
-[Overview of channels in Omnichannel for Customer Service](../use/channels.md)  
+[Overview of channels in Dynamics 365 Contact Center](../use/channels.md)  
 [Overview of experience profiles](overview.md)  
 
 

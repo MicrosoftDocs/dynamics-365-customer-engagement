@@ -1,6 +1,6 @@
 ---
-title: Extend Omnichannel for Customer Service
-description: Integrate third-party telephony systems, more digital channels, and custom experiences with Dynamics 365 Customer Service to extend Omnichannel for Customer Service.
+title: Extend Dynamics 365 Contact Center
+description: Integrate third-party telephony systems, more digital channels, and custom experiences with Dynamics 365 Customer Service to extend Dynamics 365 Contact Center.
 ms.date: 04/22/2025
 ms.topic: reference
 author: neeranelli
@@ -14,11 +14,11 @@ ms.custom:
   - ai-seo-date:11/24/2023
 ---
 
-# Extend Omnichannel for Customer Service
+# Extend Dynamics 365 Contact Center
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-Dynamics 365 supports several scenarios to extend Omnichannel for Customer Service. You can integrate third-party telephony systems and custom channels.
+Dynamics 365 supports several scenarios to extend Dynamics 365 Contact Center. You can integrate third-party telephony systems and custom channels.
 
 The following table shows the SKUs that correspond with each experience.
 
@@ -32,7 +32,7 @@ The following table shows the SKUs that correspond with each experience.
 > [!NOTE]
 > [SMS](../use/sms-channel-overview.md) requires other third-party subscriptions.
 
-## Embed other tools in Omnichannel for Customer Service
+## Embed other tools in Dynamics 365 Contact Center
 
 ### Telephony
 
@@ -42,9 +42,9 @@ Dynamics 365 Channel Integration Framework 2.0 provides APIs to integrate your t
 
 ### Other messaging channels
 
-You can integrate your line-of-business (in-house), social, and other messaging channels with Omnichannel for Customer Service. This integration is primarily done by configuring a custom messaging channel via Direct Line. After integration, you can use unified routing to automatically assign work items (conversations) to customer service representatives on these custom channels.
+You can integrate your line-of-business (in-house), social, and other messaging channels with Dynamics 365 Contact Center. This integration is primarily done by configuring a custom messaging channel via Direct Line. After integration, you can use unified routing to automatically assign work items (conversations) to customer service representatives on these custom channels.
 
-Direct Line allows custom channels to be brought into Omnichannel for Customer Service by using the Microsoft Bot Framework. To bring in a custom channel, you can set up a Direct Line connection through the Azure Bot Service (which incurs Azure charges), and then bring that Direct Line AI agent into Omnichannel for Customer Service. More information: [Configure a custom messaging channel](../administer/configure-custom-channel.md)
+Direct Line allows custom channels to be brought into Dynamics 365 Contact Center by using the Microsoft Bot Framework. To bring in a custom channel, you can set up a Direct Line connection through the Azure Bot Service (which incurs Azure charges), and then bring that Direct Line AI agent into Dynamics 365 Contact Center. More information: [Configure a custom messaging channel](../administer/configure-custom-channel.md)
 
 ### Related information
 

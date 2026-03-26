@@ -1,7 +1,7 @@
 ---
 title: Configure Copilot to use specific SharePoint folders
 description: Learn how to configure Copilot to look at specific SharePoint locations to get content recommendations and answers from SharePoint.
-ms.date: 06/26/2025
+ms.date: 03/13/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -15,10 +15,12 @@ ms.custom: bap-template
 
 # Configure Copilot to use specific SharePoint folders
 
-Sales organizations often store documents that are related to products and sales, such as product brochures and specifications, price lists, and sales pitches, in SharePoint. You can configure Copilot to look at specific SharePoint locations when your sellers ask for [content recommendations and answers from SharePoint](copilot-get-doc-suggestions.md) and [summaries of sales documents](copilot-get-information.md#summarize-proposals-or-sales-documents). If you don't configure Copilot to use specific SharePoint folders, it searches all the SharePoint folders that the user has access to. 
+Sales organizations often store documents that are related to products and sales, such as product brochures and specifications, price lists, and sales pitches, in SharePoint. You can configure Copilot to look at specific SharePoint locations when your sellers ask for [content recommendations and answers from SharePoint](copilot-get-doc-suggestions.md). If you don't configure Copilot to use specific SharePoint folders, it searches all the SharePoint folders that the user has access to. 
 
 The results that Copilot returns are based on the permissions that users have in SharePoint. If a user doesn't have access to a SharePoint folder, Copilot doesn't show results from that location.
 
+> [!NOTE]
+> Both content recommendation and question-answering capabilities support only files of type Word, Excel, PowerPoint, and PDF.
 
 ## Prerequisites
 
@@ -26,7 +28,7 @@ The results that Copilot returns are based on the permissions that users have in
 
 - Copy the Path URL of the SharePoint folders that you want to configure for Copilot to use. Open the folder in SharePoint and select the information icon to copy the **Path** URL as shown in the following image.
 
-:::image type="content" source="media/sharepoint-path.png" alt-text="Screenshot of the details pane in SharePoint with information icon and Path fields highlighted.":::
+    :::image type="content" source="media/sharepoint-path.png" alt-text="Screenshot of the details pane in SharePoint with information icon and Path fields highlighted.":::
 
 ## Configure SharePoint folders
 
@@ -44,5 +46,5 @@ The results that Copilot returns are based on the permissions that users have in
 
 ## Related information
 
-- [Use Copilot to get content recommendations and answers from SharePoint](copilot-get-doc-suggestions.md)
-- [Summarize proposals or sales documents](copilot-get-information.md#summarize-proposals-or-sales-documents)
+[Use Copilot to get content recommendations and answers from SharePoint](copilot-get-doc-suggestions.md)
+

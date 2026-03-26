@@ -1,7 +1,7 @@
 ---
 title: Customize session forms
-description: Learn how to customize session forms in Omnichannel for Customer Service to meet your business needs.
-ms.date: 02/05/2025
+description: Learn how to customize session forms in Dynamics 365 Contact Center to meet your business needs.
+ms.date: 03/18/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -28,7 +28,6 @@ As a system customizer, you might want to customize the session forms to suit yo
 
 ### Related information
 
-[Omnichannel system customizers](omnichannel-customizer.md)  
 [Customize Active Conversation form](customize-customer-summary.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

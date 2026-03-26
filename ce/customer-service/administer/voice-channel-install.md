@@ -35,8 +35,7 @@ Specific licensing requirements apply to use the voice channel in Dynamics 365 C
 > [!NOTE]  
 > The voice channel supports a maximum call duration of two hours, after which the call is disconnected. As a workaround, we recommend that you activate the callback feature.
 
-
 ### Related information
 
-[System requirements for using the voice channel](../implement/system-requirements-omnichannel.md)  
+[System requirements for using the voice channel](/dynamics365/contact-center/implement/system-requirements-contact-center)  
 [Set up inbound calling](../voice-channel-route-queues.md)  

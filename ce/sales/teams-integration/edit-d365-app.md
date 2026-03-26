@@ -1,7 +1,7 @@
 ---
 title: Edit setting of the Dynamics 365 app
 description: Learn how to edit settings of the Dynamics 365 app
-ms.date: 08/19/2024
+ms.date: 10/09/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -40,4 +40,4 @@ This article provides information on how to edit settings of the Dynamics 365 ap
 [Share feedback](share-feedback-d365-app.md)    
 [Share Dynamics 365 records within Microsoft Teams conversations](share-dynamics-records-in-teams.md)   
 [View and update record details](view-update-dynamics-records.md)   
-[Add chat messages to Dynamics 365 as notes or tasks](add-chat-d365.md)   
+

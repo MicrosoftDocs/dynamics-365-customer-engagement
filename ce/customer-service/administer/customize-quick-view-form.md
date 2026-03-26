@@ -1,7 +1,7 @@
 ---
-title: "Customize quick view forms | MicrosoftDocs"
-description: "This topic provides procedural steps to customize the quick view forms present in the Active Conversation page in Omnichannel for Customer Service."
-ms.date: 12/30/2024
+title: Customize quick view forms
+description: This article provides procedural steps to customize the quick view forms present in the Active Conversation page in Dynamics 365 Contact Center.
+ms.date: 03/18/2026
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -40,7 +40,6 @@ The following procedure shows how to modify the **Customer profile** quick view 
 
 ### Related information
 
-[Omnichannel system customizers](omnichannel-customizer.md)  
 [Customize Active Conversation form](customize-customer-summary.md)   
 
 

@@ -45,11 +45,9 @@ By default, the **Add products** dialog displays the following columns in the gr
 - Price per unit
 - Quantity
 
-You can add other columns that are relevant to your business by customizing the add products view. Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:  
-
-# [Sales Premium and Sales Enterprise](#tab/SEAddColumns)
-
-If you have the Sales Hub app, follow the instructions in this tab. Otherwise, follow the instructions in the **Sales Professional** tab to configure the option in Power Apps.
+You can add other columns that are relevant to your business by customizing the add products view. Select a tab based on the sales app that you use:
+ 
+# [Sales Hub app](#tab/SEAddColumns)
 
 **To add or remove columns in the grid**
 
@@ -75,7 +73,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 8. Open the entity you customized. If you customized the add products view for quotes, open a quote and then select **Add products**. Verify whether the customizations to the grid are reflected in the dialog.
 
-# [Sales Professional](#tab/SPAddColumns)
+# [Sales Professional app](#tab/SPAddColumns)
 
 **To add or remove columns in the grid**
 
@@ -108,11 +106,9 @@ By default, the **Product** column in the **Add product dialog** includes the pr
 
 **Note**: The **Product** column can display up to three attributes, apart from the product name.  
 
-Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information: 
+Select a tab based on the sales app that you use:
 
-# [Sales Premium and Sales Enterprise](#tab/SEProductColumns)
-
-If you have the Sales Hub app, follow the instructions in this tab. Otherwise, follow the instructions in the **Sales Professional** tab to configure the option in Power Apps.
+# [Sales Hub app](#tab/SEProductColumns)
 
 **To add or edit product attributes:**
 
@@ -136,7 +132,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 7. To verify the changes, open an opportunity and select **Add products**.  
    You see updated attributes in the **Product** column.
 
-# [Sales Professional](#tab/SPProductColumns)
+# [Sales Professional app](#tab/SPProductColumns)
 
 **To add or edit product attributes:**
 

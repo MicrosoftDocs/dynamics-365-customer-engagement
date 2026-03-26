@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Integrate with external applications and web applications
 Use the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] hosted application to host your external application or a web application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. To host an external or web application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you configure a hosted control of type **CCA Hosted Application**, and then select **Web Hosted Application** or **External Hosted Application** from the **Hosted Application** list. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [UII Hosted Applications](../unified-service-desk/uii-hosted-applications.md)  
