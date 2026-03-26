@@ -16,9 +16,9 @@ This topic provides details on how to import booking recurrences and how to chan
 > [!NOTE]
 > Use this section if you need to reuse or migrate existing booking recurrence data. If you’re creating a new agreement from scratch, you don’t need to import booking recurrences.
 
-You can import a booking recurrence pattern for an agreement booking setup (ABS) or agreement invoice setup (AIS). The recurrence dialog, when saved, populates a field on the ABS or AIS records. The field is called **Recurrence Settings** and isn't displayed on the form by default. To import a recurrence with one or more ABS or AIS records through CSV, perform the following steps.
+You can import a booking recurrence pattern for an agreement booking setup or agreement invoice setup. The recurrence dialog, when saved, populates a field on the agreement booking setup or agreement invoice setup records. The field is called **Recurrence Settings** and it isn't displayed on the form by default. To import a recurrence with one or more agreement booking setup or agreement invoice setup records through a CSV file, perform the following steps:
 
-1. Get a representative string from an ABS or AIS that is set up similarly to how you would like the imported records configured.
+1. Get a representative string from an agreement booking setup or agreement invoice setup that is set up similarly to how you would like the imported records configured.
 
 1. In that string, identify the values that determine the record's behavior, such as the start and end dates or the frequency in months.
 
@@ -37,7 +37,7 @@ For example, see a recurrence in the following screenshot, and related XML.
 > [!IMPORTANT]
 > Changing the owner can affect whether work orders or invoices are created successfully.
 
-As agreement automation runs using the permissions of the agreement owner, do the following steps to change owner of an agreement:
+As agreement automation runs using the permissions of the agreement owner, do the following steps to change the owner of an agreement:
 
 1. Change the agreement **System Status** to **Estimate** and select **Save**. Wait five minutes to allow all asynchronous processes to run.
 

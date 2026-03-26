@@ -1,7 +1,7 @@
 ---
 title: Region and language FAQs
 description: Find answers to frequently asked questions about regions and languages.
-ms.date: 03/02/2026
+ms.date: 03/25/2026
 ms.topic: faq
 author: udaykirang
 ms.author: udag
@@ -36,27 +36,29 @@ Sales Premium is only available in the following countries or regions:
 - South America (SAM)
 - Switzerland (CHE)
 - United Arab Emirates (UAE)
+- Government Community Cloud (GCC)
+- GCC High
 
-Sales Premium isn't available in all other regions and Government Community Cloud (GCC), including USG.
+Sales Premium isn't available in all other regions, including DoD.
 
 ## In which country/region are Sales Premium features available?
 
 The following table lists the regions in which Sales Premium features are available.
 
-| Feature | NAM | EMEA | GBR | APJ | CAN | IND | JPN | OCE | CHE | FRA | GER | SAM | ZAF | UAE |
-|---------|-----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| [Assistant](assistant.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| [Conversation intelligence](dynamics365-sales-insights-app.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| [Email engagement](email-engagement.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes |
-| [Notes analysis](notes-analysis.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| [Premium forecasting](configure-premium-forecasting.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes | Yes | Yes |
-| [Predictive lead scoring](work-predictive-lead-scoring.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| [Predictive opportunity scoring](work-predictive-opportunity-scoring.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| [Sales accelerator](digital-selling-sales-accelerator.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| [Relationship analytics (Basic)](relationship-analytics-overview.md#basic-relationship-insights) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| [Relationship analytics (Enhanced)](relationship-analytics-overview.md#enhanced-relationship-insights)\* | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| [Who knows whom (Basic)](who-knows-whom.md#basic-who-knows-whom-information) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| [Who knows whom (Enhanced)](who-knows-whom.md#enhanced-who-knows-whom-information) | Yes | Yes | Yes | Yes | Yes | No | No | No | No | Yes | No | No | No | No |
+| Feature | NAM | EMEA | GBR | APJ | CAN | IND | JPN | OCE | CHE | FRA | GER | SAM | ZAF | UAE | GCC/GCC High |
+|---------|-----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| [Assistant](assistant.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| [Conversation intelligence](dynamics365-sales-insights-app.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| [Email engagement](email-engagement.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | No |
+| [Notes analysis](notes-analysis.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| [Premium forecasting](configure-premium-forecasting.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes | Yes | Yes | No |
+| [Predictive lead scoring](work-predictive-lead-scoring.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Predictive opportunity scoring](work-predictive-opportunity-scoring.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Sales accelerator](digital-selling-sales-accelerator.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| [Relationship analytics (Basic)](relationship-analytics-overview.md#basic-relationship-insights) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Relationship analytics (Enhanced)](relationship-analytics-overview.md#enhanced-relationship-insights)\* | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Who knows whom (Basic)](who-knows-whom.md#basic-who-knows-whom-information) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| [Who knows whom (Enhanced)](who-knows-whom.md#enhanced-who-knows-whom-information) | Yes | Yes | Yes | Yes | Yes | No | No | No | No | Yes | No | No | No | No | No |
 
 \* To use Exchange data for relationship analytics (enhanced), your organization's Office 365 data location must be in one of the [supported locations](#in-which-regions-is-exchange-integration-available).
 
@@ -77,13 +79,14 @@ The following table lists the supported Exchange versions for Sales Premium feat
 
 ## In which regions is Exchange integration available?
 
-Exchange integration is only available in specific regions. To use Exchange data for relationship analytics and the who-knows-whom feature, your organization's Office 365 data location must be in one of the following locations. Region-specific data center locations aren't supported.
+Exchange integration is only available in specific regions. To use Exchange data for relationship analytics and the who-knows-whom feature, your organization's Office 365 data location must be in one of the following locations:
 
 - Global Geography 1 – EMEA (Austria, Finland, France, England, Ireland, Netherlands).
 - Global Geography 2 – Asia Pacific (Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
 - Global Geography 3 – Americas (Brazil, Chile, United States).
+- GCC and GCC High - Virginia and Texas in the United States. 
 
-If your organization's Office 365 data is in any other region, who-knows-whom insights aren't available. However, relationship analytics are available based on data stored in Dynamics 365.
+Region-specific data center locations aren't supported. If your organization's Office 365 data is in any other region, who-knows-whom insights aren't available. However, relationship analytics are available based on data stored in Dynamics 365.
 
 To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 

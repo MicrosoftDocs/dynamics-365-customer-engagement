@@ -1,5 +1,5 @@
 ---
-title: "Step 5: Assign phone numbers to sellers for the Sales Hub Dialer"
+title: Assign phone numbers to sellers for the Sales Hub Dialer (preview)
 description: Learn how to assign dedicated phone numbers to sellers in Dynamics 365 Sales Hub using User Management or the phone number setup flow.
 ms.date: 03/23/2026
 ms.topic: how-to
@@ -9,7 +9,7 @@ ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
 
-# Step 5: Assign phone numbers to sellers for the Sales Hub Dialer (preview)
+# Assign phone numbers to sellers for the Sales Hub Dialer (preview)
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
@@ -34,7 +34,7 @@ Repeat for each seller who needs a dedicated number.
 ## Next step
 
 > [!div class="nextstepaction"]
-> [Step 6: Create a bookable resource](sales-hub-dialer-bookable-resource.md)
+> [Create a bookable resource](sales-hub-dialer-bookable-resource.md)
 
 ## Related information
 

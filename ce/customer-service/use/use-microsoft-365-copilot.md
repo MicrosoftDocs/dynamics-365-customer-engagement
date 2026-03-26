@@ -4,7 +4,7 @@ description: Learn how to use Microsoft 365 Copilot to gain insights about the d
 author: neeranelli
 ms.author: nenellim
 ms.topic: overview
-ms.date: 03/16/2026
+ms.date: 03/04/2026
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---

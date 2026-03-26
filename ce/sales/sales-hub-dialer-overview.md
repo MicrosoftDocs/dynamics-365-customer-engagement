@@ -13,7 +13,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-The new Sales Hub Dialer is an embedded softphone in Dynamics 365 Sales that enables sellers to make and receive voice calls directly within the Sales Hub application. It allows users to place outbound calls and receive inbound calls from the public telephone network without leaving the Sales Hub. [How is the Sales Hub Dialer different from the current Teams-based dialer?](faq-sales-hub-dialer.md#what-is-sales-hub-dialer-and-how-is-it-different-from-the-current-teams-based-dialer)
+The Sales Hub Dialer is an embedded softphone in Dynamics 365 Sales that enables sellers to make and receive voice calls directly within the Sales Hub application. It allows users to place outbound calls and receive inbound calls from the public telephone network without leaving the Sales Hub. [How is the Sales Hub Dialer different from the current Teams-based dialer?](faq-sales-hub-dialer.md#what-is-sales-hub-dialer-and-how-is-it-different-from-the-current-teams-based-dialer)
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 

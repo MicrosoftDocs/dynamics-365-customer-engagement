@@ -367,7 +367,7 @@ items:
                 href: teams-integration/enable-record-linking.md
               - name: Enable Sensitivity labels
                 href: teams-integration/sensitivity-labels.md
-          - name: Sales Hub Dialer
+          - name: Sales Hub Dialer (preview)
             items:
               - name: Overview
                 href: sales-hub-dialer-overview.md
@@ -375,17 +375,17 @@ items:
                 href: configure-sales-hub-dialer.md
               - name: Prerequisites
                 href: sales-hub-dialer-prerequisites.md
-              - name: "Step 1: Sync Teams phone numbers to Dynamics 365"
+              - name: Sync Teams phone numbers to Dynamics 365
                 href: sales-hub-dialer-sync-numbers.md
-              - name: "Step 2: Configure Omnichannel dialer"
+              - name: Configure Omnichannel dialer
                 href: sales-hub-dialer-configure-cif.md
-              - name: "Step 3: Set up capacity profiles"
+              - name: Set up capacity profiles
                 href: sales-hub-dialer-capacity-profiles.md
-              - name: "Step 4: Configure inbound and outbound profiles"
+              - name: Configure inbound and outbound profiles
                 href: sales-hub-dialer-call-profiles.md
-              - name: "Step 5: Assign phone numbers to sellers"
+              - name: Assign phone numbers to sellers
                 href: sales-hub-dialer-assign-numbers.md
-              - name: "Step 6: Create a bookable resource"
+              - name: Create a bookable resource
                 href: sales-hub-dialer-bookable-resource.md
               - name: Enable Dataverse search for dialer
                 href: sales-hub-dialer-dataverse-search.md
@@ -1063,7 +1063,7 @@ items:
                 href: teams-integration/teams-collaboration-enhanced-experience.md
               - name: Linking records to Microsoft Teams channels FAQs
                 href: teams-integration/link-records-to-teams-faq.md
-          - name: Sales Hub Dialer
+          - name: Sales Hub Dialer (preview)
             items:
               - name: Overview
                 href: sales-hub-dialer-overview.md
