@@ -1,10 +1,10 @@
 ---
 title: Configure sentiment analysis for case (preview)
-description: Learn how to configure sentiment analysis for case in Dynamics 365 Customer Service.
+description: Learn how to configure case sentiment analysis in Dynamics 365 Customer Service by selecting channels, assigning weights, and understanding sentiment calculation.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 09/17/2025
+ms.date: 03/26/2026
 ms.topic: concept-article
 ---
 
@@ -55,7 +55,7 @@ In the Copilot Service admin center, perform the following steps:
        - **Equal weightage**: The system automatically assigns equal weights to all selected channels.
        - **Unequal weightage**: Manually assign weights to each channel. The total weightage must equal 100 for accurate sentiment calculation.
     
-    - If the channel is deprovisioned or deleted after the weightage is defined for the channel, the application redistributes the weight assigned to the remaining channels.
+    - If the channel is deprovisioned or deleted after you define its weight, the application redistributes that weight across the remaining channels.
     
 4.  Save and close.
 
@@ -96,11 +96,13 @@ For case sentiment to be visible on the agent inbox, perform the following steps
 
 ## Understand case sentiment calculation
 
-The application calculates case sentiment considering both the sentiment score of individual interactions linked to the case and their recency. The calculation involves following steps for each channel:
+The application calculates case sentiment considering both the sentiment score of individual interactions linked to the case and the recency of those interactions. For each channel, the application performs the following steps:
 
-1.  Calculate interaction weight by dividing the weightage of the channel of interaction (voice call, email, or chat) by the number of days since the interaction.
-1. Calculate sentiment factor by multiplying the interaction sentiment score and interaction weight.
-1. Case sentiment is calculated by dividing the sum of all sentiment factors across channels by the sum of all interaction weights across channels. The sentiment score is a numerical representation of the sentiment for use in calculations.
+1. **Calculate the interaction weight** by dividing the channel weight (voice call, email, or chat) by the number of days since the interaction occurred.
+1. **Calculate the sentiment factor** by multiplying the interaction sentiment score by the interaction weight.
+1. **Calculate the case sentiment** by dividing the total of all sentiment factors across channels by the total of all interaction weights across channels.
+
+The sentiment score is a numerical value that the application uses only for calculation.
 
 For a chat or a voice conversation, the application recalculates the case sentiment based on the conversation sentiment only when the conversation is closed and the conversation transcript is generated.
  
@@ -129,5 +131,5 @@ The application calculates the case sentiment as follows:
 | **Sentiment score × interaction weight** | 0.1667 × 9 = 1.5 | 0.1 × 8 = 0.8 | 2.3 |
 | **Case sentiment** = Total sentiment score / total interaction weight | | | 2.3/0.2667 = 8.6 |
 
-On the case sentiment score range of 7 to 14, where 7 is very negative and 14 being very positive, the sentiment score is 8.6, which indicates that the overall sentiment for the case is slightly negative.
+The case sentiment score is 8.6, based on a range of 7 to 14, where 7 is very negative and 14 is very positive. This score indicates that the overall sentiment for the case is slightly negative.
 
