@@ -51,7 +51,6 @@ The Sales Opportunity Agent processes opportunities based on the defined selecti
 1. The agent processes up to a maximum number of opportunities per day, which varies by region. If more opportunities match the criteria than the daily limit allows, the agent prioritizes and researches the highest-ranked opportunities first.
 1. The agent defers any remaining opportunities that exceed the daily processing limit. These opportunities become eligible for processing the next day or during the next manual refresh. For example, if 3,000 opportunities match the criteria and the daily limit is 2,160, the agent processes the top 2,160 opportunities and carries forward the remaining 840.
 
-
 ## Next step
 
 [Configure importance and risk assessment](configure-sales-close-agent-research-opportunity-assessment.md).

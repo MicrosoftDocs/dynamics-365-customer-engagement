@@ -87,36 +87,39 @@ The agent identifies competitors for a record from the following sources:
 
 ### How Sales Opportunity Agent ranks competitors
 
-Historical trends show win or loss rates from past opportunities, helping sellers understand the competitive landscape.
+Sales Opportunity Agent analyzes competitors to help sellers focus on the most relevant competitive threats for an opportunity. It follows the same identification logic described earlier but researches no more than three competitors to keep insights focused and actionable. When it identifies more than three competitors, the agent prioritizes them by using a clear, data-driven approach.
 
-#### Identify competitors
+#### How the agent identifies competitors
 
-By default, when you directly associate an opportunity with a competitor, the agent uses that competitor.  
-When you don't directly associate a competitor, the agent identifies competitors from closed opportunities based on the following criteria:
+- If you explicitly associate a competitor with an opportunity, the agent uses that competitor directly.
+- If you don't associate a competitor, the agent looks at similar closed opportunities to infer likely competitors. The agent does this by:
+    - Reviewing closed opportunities from the same account as the current opportunity.
+    - Matching products, when products are linked to the current opportunity.
+    - Considering only opportunities closed within the last year, up to a maximum of 10.
+    - Extracting competitor information from the opportunity close records.
 
-1. The closed opportunity belongs to the same account as the current opportunity.
-1. When the current opportunity has linked products, the closed opportunity must share the same products.
-1. Only opportunities closed within the last year are considered, and the agent fetches up to 10 closed opportunities.
-1. The agent picks the competitors present in the opportunity close record.
+This approach ensures the agent bases its analysis on recent, relevant sales history rather than generic assumptions.
 
-#### Rank competitors
+#### How the agent prioritizes competitors
 
-The agent ranks identified competitors using the following factors in order of precedence and selects the top three competitors for research.
+When the agent identifies multiple competitors, it ranks them and selects the top three for research by using the following factors, in order of importance:
 
 | Order | Factor | Description |
 |-------|--------|-------------|
-| 1     | Admin configuration match	| Competitors that match your admin-configured competitor list are selected first. |
-| 2     | Frequency in closed opportunities | Competitors appearing in the most closed opportunities are ranked higher. |
-| 3     | Reported revenue	| Competitors are sorted by their reported revenue, highest first. |
-| 4     | Alphabetical order | If all other factors are equal, competitors are sorted alphabetically as a tiebreaker. |
+| 1     | Admin configuration match	| The agent selects competitors that match your admin-configured competitor list first. |
+| 2     | Frequency in closed opportunities | The agent ranks higher competitors that appear in the most closed opportunities. |
+| 3     | Reported revenue	| The agent sorts competitors by their reported revenue, highest first. |
+| 4     | Alphabetical order | If all other factors are equal, the agent sorts competitors alphabetically as a tiebreaker. |
+
+This ranking ensures the agent focuses on competitors that are both strategically important and historically relevant.
 
 #### Win or loss rate
 
-The win or loss rate represents how many of the fetched closed opportunities (up to 10) were won against the total number of closed opportunities considered.
+The win or loss rate shows how often your organization won deals against a competitor. It's calculated by using the closed opportunities analyzed (up to 10) and represents the proportion of wins compared to the total number of opportunities considered.
 
-#### Generate insights
+#### Insight generation
 
-The agent generates insights from the description field in the opportunity close record.
+To provide additional context, the agent generates insights by analyzing the Description field in the opportunity close records. These insights highlight patterns, outcomes, and competitive signals from past deals.
 
 ### Add competitors and knowledge sources for competitor insights
 
