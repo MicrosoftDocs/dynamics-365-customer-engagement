@@ -295,7 +295,7 @@ Short abandoned = SUMX ( FactConversation, IF(FactConversation[IsShortAbandoned]
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Percentage of inbound conversations that customers abandoned within the short-abandon threshold, out of all the incoming conversations.
+Percentage of inbound conversations that customers abandoned within the short-abandon threshold out of all the incoming conversations.
 
 **DAX query**
 
