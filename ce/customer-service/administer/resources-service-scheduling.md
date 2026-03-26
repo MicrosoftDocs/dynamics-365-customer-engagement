@@ -1,7 +1,7 @@
 ---
 title: Set up resources for Service Scheduling (Dynamics 365 Customer Service)
 description: Know how to create and set up resources for service scheduling in Dynamics 365 Customer Service.
-ms.date: 08/28/2025
+ms.date: 03/20/2026
 ms.update-cycle: 1095-days
 ms.topic: how-to
 author: Soumyasd27

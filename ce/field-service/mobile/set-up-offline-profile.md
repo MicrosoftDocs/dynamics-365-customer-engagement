@@ -1,7 +1,7 @@
 ---
 title: Set up the mobile offline profile
 description: Learn how to configure the mobile offline profile to work with the Dynamics 365 Field Service mobile app when no network is available.
-ms.date: 02/01/2026
+ms.date: 03/17/2026
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -61,6 +61,8 @@ Administrators control what data the Field Service mobile app downloads with the
       :::image type="content" source="../media/fs-mobile-power-apps-offline-table-edit.png" alt-text="Screenshot of the Bookable Resource Booking table offline data settings in the Field Service mobile app offline profile.":::
 
    - Select the rows or filters, relationships, files, and images to make available offline. Learn more: [Apply filters](/power-apps/mobile/setup-mobile-offline#add-a-table-to-an-offline-profile-and-apply-filters).
+
+     **Advanced option**: To boost offline performance of large datasets, power users can review and manually edit Fetch XML for your offline filters. Select **Edit filter** to adjust filters through the [FetchXML editor for offline profiles (preview)](/power-apps/mobile/fetchxml-editor).
 
    - Select the sync frequency.
 

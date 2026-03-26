@@ -6,13 +6,13 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr 
 ms.topic: overview
 ms.collection: get-started 
-ms.date: 08/05/2025
+ms.date: 03/13/2026
 ms.custom: bap-template 
 ---
 
 # Manage leads
 
-Leads are potential customers who have shown interest in your products or services. Leads are the first step in the sales process. You can use Dynamics 365 Sales to manage leads and convert them into opportunities.
+Lead management is a critical process in sales, enabling organizations to capture, track, and nurture potential customers from initial interest to conversion. Effective lead management helps sales teams prioritize prospects, engage with them at the right time, and increase the likelihood of closing deals. Dynamics 365 Sales provides tools to automate lead assignment, score leads based on potential, and streamline qualification, ensuring sellers focus on the most promising opportunities and drive business growth.
 
 ## Configure lead management
 
