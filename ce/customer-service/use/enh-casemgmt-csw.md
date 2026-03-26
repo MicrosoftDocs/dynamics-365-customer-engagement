@@ -1,18 +1,18 @@
 ---
 title: Enhanced case management in multisession apps
-description: Learn about the enhanced case management in Customer Service multisession apps.
+description: Learn about enhanced case management in Customer Service multisession apps, including faster case creation and streamlined case updates.
 author: gandhamm 
 ms.author: mgandham 
 ms.reviewer: mgandham
 ms.topic: conceptual
-ms.date: 04/30/2025 
+ms.date: 03/26/2026
 ms.custom: bap-template 
 ---
 
 
 # Enhanced case management in multisession apps
 
-The Copilot Service workspace offers an enhanced case management experience. Customer service representatives (service representatives or representatives) can verify and edit customer details without switching tabs, and can update existing cases without interrupting the case creation flow. The enhanced experience also helps prevent case duplication.
+The Copilot Service workspace app offers an enhanced case management experience. Customer service representatives (service representatives or representatives) can verify and edit customer details without switching tabs, update existing cases during case creation, and help prevent case duplication.
 
 ## Create cases by using a quick create from
 
@@ -113,7 +113,7 @@ If you save the case by using the enhanced full case form, the application displ
 
 ## View customer details and recent cases
 
-When you create a new case and specify a customer or an account, or open a case after you save it, the application displays the following details, based on your administrator's configurations:
+When you create a new case and specify a customer or an account, or open a case after saving it, the application displays the following details based on your administrator’s configuration:
 
 - **Customer Details**: Displays the customer details configured by your administrator. You can edit the information inline, copy the information, and initiate activities such as email or a phone call. The activities open as a new quick create form on the main page.
 - **Recent Cases**: Displays the recent cases that are linked to the customer or account. More information: [Configure components to display customer details and recent records](../administer/add-display-components-to-case-form.md).
