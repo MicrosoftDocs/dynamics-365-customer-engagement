@@ -804,6 +804,8 @@
         href: csw-enable-ai-suggested-cases-knowledge-articles.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
+      - name: Configure case sentiment (preview)
+        href: configure-case-sentiment-analysis.md
       - name: Customize interactive dashboards based on Unified Interface
         href: configure-interactive-dashboards-customer-service-hub.md
       - name: FAQ about AI suggestions for cases and knowledge articles
