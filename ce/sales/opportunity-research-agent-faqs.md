@@ -1,7 +1,7 @@
 ---
-title: FAQs about Opportunity Research Agent (preview)
+title: FAQs about Opportunity Research Agent
 description: Get to know answers to frequently asked questions about the Opportunity Research Agent in Dynamics 365 Sales.
-ms.date: 02/09/2026
+ms.date: 03/30/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom:
@@ -17,11 +17,9 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# FAQs about Opportunity Research Agent (preview)
+# FAQs about Opportunity Research Agent
 
 This article provides answers to frequently asked questions about the Opportunity Research Agent in Dynamics 365 Sales. 
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 <a name="agent-language-difference"></a>
 ## What happens when the agent's language is different from the user's preferred language?
