@@ -284,6 +284,8 @@ items:
             href: copilot-overview.md
           - name: Turn on and set up Copilot in Dynamics 365 Sales
             href: enable-setup-copilot.md
+          - name: Control access to Copilot
+            href: copilot-control-access.md
           - name: Configure fields for summary and recent changes
             href: copilot-configure-summary-fields.md
           - name: Configure fields for what's new
@@ -387,6 +389,34 @@ items:
                 href: teams-integration/enable-record-linking.md
               - name: Enable Sensitivity labels
                 href: teams-integration/sensitivity-labels.md
+          - name: Sales Hub Dialer (preview)
+            items:
+              - name: Overview
+                href: sales-hub-dialer-overview.md
+              - name: Enable and configure Sales Hub Dialer
+                href: configure-sales-hub-dialer.md
+              - name: Prerequisites
+                href: sales-hub-dialer-prerequisites.md
+              - name: Sync Teams phone numbers to Dynamics 365
+                href: sales-hub-dialer-sync-numbers.md
+              - name: Configure Omnichannel dialer
+                href: sales-hub-dialer-configure-cif.md
+              - name: Set up capacity profiles
+                href: sales-hub-dialer-capacity-profiles.md
+              - name: Configure inbound and outbound profiles
+                href: sales-hub-dialer-call-profiles.md
+              - name: Assign phone numbers to sellers
+                href: sales-hub-dialer-assign-numbers.md
+              - name: Create a bookable resource
+                href: sales-hub-dialer-bookable-resource.md
+              - name: Enable Dataverse search for dialer
+                href: sales-hub-dialer-dataverse-search.md
+              - name: Understand how call routing works
+                href: sales-hub-dialer-call-routing.md
+              - name: Configure voicemail
+                href: sales-hub-dialer-voicemail.md
+              - name: FAQs about Sales Hub Dialer
+                href: faq-sales-hub-dialer.md
       - name: Productivity and document management
         items:
           - name: Activity management
@@ -895,7 +925,7 @@ items:
                 href: sales-opportunity-agent.md
               - name: Work on opportunities researched by agent
                 href: use-opportunity-research-agent.md
-              - name: Manage opportunity risks using AI-generated insights  
+              - name: Manage opportunity risks using AI-recommended actions  
                 href: next-best-actions-to-manage-opportunities.md
               - name: FAQs about Sales Opportunity Agent
                 href: opportunity-research-agent-faqs.md
@@ -1055,6 +1085,14 @@ items:
                 href: teams-integration/teams-collaboration-enhanced-experience.md
               - name: Linking records to Microsoft Teams channels FAQs
                 href: teams-integration/link-records-to-teams-faq.md
+          - name: Sales Hub Dialer (preview)
+            items:
+              - name: Overview
+                href: sales-hub-dialer-overview.md
+              - name: Make and receive calls in Sales Hub Dialer
+                href: make-receive-calls-sales-hub-dialer.md
+              - name: FAQs about Sales Hub Dialer
+                href: faq-sales-hub-dialer.md
       - name: Productivity and document management
         items:
           - name: Activity management

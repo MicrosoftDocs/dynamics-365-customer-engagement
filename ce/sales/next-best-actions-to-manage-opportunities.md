@@ -1,5 +1,5 @@
 ---
-title: Manage opportunity risks using AI-generated insights (preview)
+title: Manage opportunity risks using AI-recommended actions (preview)
 description: Learn how action cards are created and shown in the carousel to help sellers address opportunity risks. 
 ms.date: 02/10/2026
 ms.topic: overview
@@ -12,7 +12,7 @@ ms.reviewer: udag
 ai-usage: ai-assisted
 ---
 
-# Manage opportunity risks using AI-generated insights (preview)
+# Manage opportunity risks using AI-recommended actions (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ The Sales Opportunity Agent generates risk insights and ranks them based on the 
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]  
 
-## View AI-generated risk insights action cards
+## View AI-recommended risk insights action cards
 
 The action cards appear in a carousel on the **Opportunities** list page in Dynamics 365 Sales under the **Suggested actions** section.  
 

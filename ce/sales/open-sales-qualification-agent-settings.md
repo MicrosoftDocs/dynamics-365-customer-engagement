@@ -2,12 +2,12 @@
 title: Open the sales qualification settings
 description: Learn how to access and configure the Sales Qualification Agent settings in Dynamics 365 Sales to streamline your sales processes effectively.
 ms.topic: how-to
-ms.date: 07/31/2025
+ms.date: 03/09/2026
 ms.service: dynamics-365-sales
 ms.custom: bap-template
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
@@ -25,12 +25,18 @@ Open the Sales Qualification Agent settings to configure or manage the Sales Qua
    :::image type="content" source="media/sqa-settings-home-page.png" alt-text="Screenshot of the Sales Qualification Agent settings home page.":::
 
 1. In the **Agent manager** section, select **Create and manage agent**.  
-    The **AI agent** page opens.  
+   If you're creating an agent for the first time, the **Prerequisites** page opens, displaying the list of prerequisites required to create and use AI agents in Dynamics 365 Sales. Learn more in [Prerequisites applicable to all Sales agents](prerequisites-for-all-agents.md).
 1. To create an agent:  
+<<<<<<< HEAD
     1. Select **Create**.  
     1. In the **Sales Qualification Agent** section, select **Choose**.  
     1. Select the automation level&mdash;**Research** or **Engage** based on your requirement.  
 1. To edit or deactivate the agent, in the **AI agents** page, select the agent name.  
+=======
+    1. Select **Create**.
+    1. In the **Create an AI agent** dialog, under **Sales Qualification Agent**, select **Choose**.
+    1. Select the automation level for the agent. **Research** is selected by default and is non-editable. You can add engage capabilities to the agent by selecting **Engage**. Learn more about the capabilities in [Sales Qualification Agent modes](sales-qualification-agent.md#sales-qualification-agent-modes).
+>>>>>>> ce6e299cf4d16a2dc4c2c817b82b5f5920462fe1
 
 ## Related information
 

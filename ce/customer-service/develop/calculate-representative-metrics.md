@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: concept-article
 ms.collection:
-ms.date: 10/13/2025
+ms.date: 03/17/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -124,6 +124,68 @@ Service level (10 seconds) = ​DIVIDE (​SUMX (​FactConversation,​IF (​F
 
 ---
 
+
+## Service level percentage
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+The percentage of inbound conversations accepted by the representative and answered within the target service time.
+
+### DAX query and Dataverse reference
+
+[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)] 
+
+```dax
+Service level % =  DIVIDE (SUMX (FactConversation, IF (FactConversation[InServiceLevel] && FactConversation[IsAgentAccepted]
+&& NOT FactConversation[DirectionCode], 1, 0 ) ), SUMX ( FactConversation, IF ( FactConversation[IsAgentAccepted]
+&& NOT FactConversation[DirectionCode], 1, 0 ) ), BLANK ())
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |  [queue](/dynamics365/developer/reference/entities/queue)|
+|Attributes  |- [msdyn_queueservicelevelthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_queueservicelevelthreshold)  |
+
+## Service level excluding short abandons percentage
+
+The percentage of eligible incoming conversations accepted within the configured service-level threshold. Conversations abandoned within the short-abandon threshold are excluded. This metric divides accepted within SLA conversations by the total eligible incoming conversations, minus short abandons.
+
+### DAX query and Dataverse reference
+
+[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)] 
+
+```dax
+
+Service level excluding short abandons % =  VAR SuccessfulAnswers =  SUMX ( FactConversation,  IF ( FactConversation[InServiceLevel] = TRUE, 1, 0 )) VAR EligibleConversations = SUMX ( FactConversation, IF ( FactConversation[IsShortAbandoned] = FALSE, 1, BLANK() ) ) RETURN DIVIDE ( SuccessfulAnswers, EligibleConversations )
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |  [queue](/dynamics365/developer/reference/entities/queue) |
+|Attributes  |- [msdyn_queueservicelevelthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_queueservicelevelthreshold) <br> - [msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold)|
+
+## Service level including abandon percentage
+
+The percentage of eligible incoming conversations whose first wait time is within the configured service‑level threshold, including conversations that are later abandoned (no exclusion for short abandons), calculated as conversations meeting the SLA threshold divided by total eligible incoming conversations.
+
+### DAX query and Dataverse reference
+
+[!INCLUDE[dax-queries-for-metrics](../../includes/dax-queries-for-metrics.md)] 
+
+```dax
+
+Service level including abandons % = VAR SuccessfulAnswers = SUMX ( FactConversation, IF ( FactConversation[InServiceLevel] = TRUE, 1, 0 ) ) VAR TotalIncoming = [Incoming conversations] RETURN DIVIDE ( SuccessfulAnswers, TotalIncoming )
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |  [queue](/dynamics365/developer/reference/entities/queue) |
+|Attributes  |- [msdyn_queueservicelevelthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_queueservicelevelthreshold) |
+
+
 ## Conversations in service level (10, 20, 30, 40, 50, 60, 120 secs)
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
@@ -199,21 +261,25 @@ Total capacity units represent the workload capacity assigned to a representativ
 
 *Applies to Omnichannel real-time dashboards.*
 
-The total default maximum capacity units assigned to representatives based on their capacity profile.
+The total maximum capacity profile units available across agent‑specific and default profiles, representing the overall capacity ceiling for work distribution.
 
 ### DAX query and Dataverse reference
 
 ```dax
 
-Total agent work item capacity =SUM( FactAgentCapacityProfile[AgentDefaultMaxProfileUnits])
+Total agent work item capacity = SUM(FactAgentCapacityProfile[TotalAgentCapacityProfileUnitsLimit])
 
 ```
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities | - FactAgentCapacityProfile-[msdyn_agentcapacityprofileunit](/dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit) along with - [msdyn_capacityprofile](/dynamics365/developer/reference/entities/msdyn_capacityprofile)|
+|Dataverse entities | - Consolidate (msdyn_agentcapacityprofileunit.msdyn_defaultmaxunits, msdyn_capacityprofile.msdyn_defaultmaxunits) along with agent-specific limit (msdyn_agentcapacityprofileunit.msdyn_defaultmaxunits) if configured. Otherwise the value falls back to the capacity profile default (msdyn_capacityprofile.msdyn_defaultmaxunits).|
 |Attributes  | - msdyn_agentcapacityprofileunit.msdyn_defaultmaxunits |
 |Filters  | None ​|
+
+### Related metrics
+
+- [Available capacity](#available-capacity)
 
 ## Assigned capacity profile count
 
@@ -258,7 +324,44 @@ Total work item capacity in use = SUM ( FactAgentCapacityProfile[OccupiedProfile
 ### Related metrics
 
 - **Total available work item capacity**: The maximum number of new work items that can be assigned.
-- **Total work item capacity in use**: The work items currently handled by a representative.
+
+## Load percentage in agent capacity profile
+
+*Applies to Omnichannel real-time dashboards.*
+
+A percentage measure that calculates agent capacity utilization. This metric is available only through visual or data model customization.
+
+```dax
+
+Load % : Divide ([Total work item capacity in use] by [Total agent work item capacity]) 
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |- [msdyn_agentcapacityprofileunit](/dynamics365//developer/reference/entities/msdyn_agentcapacityprofileunit) - Stores per-agent capacity profile unit tracking <br> -   [msdyn_capacityprofile](/dynamics365//developer/reference/entities/msdyn_capacityprofile) - Stores capacity profile configuration|
+|Attributes  |- [msdyn_agentcapacityprofileunit](/dynamics365//developer/reference/entities/msdyn_agentcapacityprofileunit).[msdyn_availablecapacityprofileunits](/dynamics365//developer/reference/entities/msdyn_agentcapacityprofileunit#BKMK_msdyn_availablecapacityprofileunits): Available capacity units for the agent <br>-  [msdyn_agentcapacityprofileunit](/dynamics365//developer/reference/entities/msdyn_agentcapacityprofileunit).[msdyn_defaultmaxunits](/dynamics365//developer/reference/entities/msdyn_agentcapacityprofileunit#BKMK_msdyn_availablecapacityprofileunits): Agent-specific maximum capacity units (overrides profile default if set) <br>- [msdyn_capacityprofile](/dynamics365//developer/reference/entities/msdyn_capacityprofile).[msdyn_defaultmaxunits](/dynamics365//developer/reference/entities/msdyn_agentcapacityprofileunit#BKMK_msdyn_defaultmaxunits): Capacity profile default maximum units <br>- [msdyn_agentcapacityprofileunit](/dynamics365//developer/reference/entities/msdyn_agentcapacityprofileunit).[msdyn_agentid](/dynamics365//developer/reference/entities/msdyn_agentcapacityprofileunit#BKMK_msdyn_agentid): Agent (systemuser) <br>- [msdyn_agentcapacityprofileunit](/dynamics365//developer/reference/entities/msdyn_agentcapacityprofileunit).[msdyn_capacityprofileid](/dynamics365//developer/reference/entities/msdyn_agentcapacityprofileunit#BKMK_msdyn_capacityprofileid)|
+
+### Related metrics
+
+- [Total work item capacity in use](#total-work-item-capacity-in-use)
+- [Total representative work item capacity](#total-representative-work-item-capacity)
+- **Total available capacity units**: The number of capacity units that are available to handle conversations.
+
+## Available capacity
+
+The total number of unoccupied capacity profile units currently available, indicating the remaining capacity for new work item assignments.
+
+```dax
+
+SUM(FactAgentCapacityProfile[AvailableProfileUnits])
+
+```
+
+Element|Value  |
+|---------|---------|
+|Dataverse entities |- [msdyn_agentcapacityprofileunit](/dynamics365//developer/reference/entities/msdyn_agentcapacityprofileunit): Stores per agent capacity profile unit tracking <br> - [msdyn_capacityprofile](/dynamics365//developer/reference/entities/msdyn_capacityprofile): Stores capacity profile configuration |
+|Attributes| [msdyn_availablecapacityprofileunits](/dynamics365//developer/reference/entities/msdyn_agentcapacityprofileunit#msdyn_availablecapacityprofileunits)|
 
 ## Logged in service representatives
 
@@ -333,13 +436,13 @@ This metric represents the service representative in the **Consult** mode. The r
 
 - **Consult requests accepted**: The total number of consult sessions requested and accepted by a service representative.
 
-- **Consult requests not accepted**: The total number of consult sessions requested but not accepted by a service representative. This happens when the representative doesn't join the consult.
+- **Consult requests not accepted**: The total number of consult sessions requested but not accepted by a service representative. This situation happens when the representative doesn't join the consult.
 
--  **Consult not acceptance rate**: The percentage of consult sessions that a service representative didn't accept, including timed-out and rejected requests out of all the consult sessions requested. This happens when representative doesn't join the conversation.
+-  **Consult not acceptance rate**: The percentage of consult sessions that a service representative didn't accept, including timed-out and rejected requests out of all the consult sessions requested. This situation happens when the representative doesn't join the conversation.
 
 - **Consult requests rejected**: The total number of consult sessions requested but rejected by a service representative.
 
-- **Consult rejection rate**: The percentage of consult sessions rejected by a service representative out of all the requested sessions. This happens when representatives reject the consult.
+- **Consult rejection rate**: The percentage of consult sessions rejected by a service representative out of all the requested sessions. 
 
 - **Consults requested**: The total number of consult sessions requested.
 
@@ -575,7 +678,7 @@ Consult requests rejected = SUMX (​FactSessionParticipant,​ IF (FactSessionP
 |---------|---------|
 |Dataverse entities | [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant), [systemuser](/dynamics365/developer/reference/entities/systemuser) |
 |Attributes |- msdyn_sessionparticipant.msdyn_leftonreason​ <br> - msdyn_sessionparticipant_msdyn_mode​ <br> - systemuser.msdyn_botapplicationid|
-|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is AgentReject and​ msdyn_sessionparticipant.msdyn_mode is Consult.​ <br> - Session participant is defined by FactSessionParticipant where systemuser.msdyn_botapplicationid isn't null​. ​​|
+|Filters  |- All conversations where ​msdyn_sessionparticipant.msdyn_leftonreason is AgentReject and​ msdyn_sessionparticipant.msdyn_mode is Consult.​ <br> - The system defines a session participant by using FactSessionParticipant when systemuser.msdyn_botapplicationid isn't null. ​​|
 
 ---
 

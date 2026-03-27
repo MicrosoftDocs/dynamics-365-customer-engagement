@@ -172,8 +172,6 @@ The customized reports site map in the Copilot service workspace is shared betwe
 > [!NOTE]
 > For custom reports that you deploy in Copilot Service workspace, manually update the semantic data model to get the updates, then refresh and redeploy the custom reports. 
 
-You can also perform supervisor actions like [assign, transfer, monitor, and force close](../use/realtime-ongoing.md#assign-transfer-monitor-or-force-close-conversations-in-customized-reports) on model customized reports.
-
 ## Enable automatic page refresh for reports
 
 Automatic page refresh is available only for real-time reports.

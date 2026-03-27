@@ -1,0 +1,220 @@
+### YamlMime:Landing
+
+title: Resources for Field Service administrator
+summary: Navigate to the administration and configuration documentation based on what you want to do. See other sections for more administrative tasks.
+metadata:
+  title: Resources for Field Service administrator
+  description: Index page showing administration, system, user, and application configurations for Dynamics 365 Field Service.
+  services: service
+  ms.topic: landing-page
+  ms.collection: collection
+  author: v-wendysmith
+  ms.author: v-wendysmith
+  ms.reviewer: puneetsingh
+  ms.date: 02/09/2026
+
+landingContent:
+
+# Card 
+  - title: Initial setup 
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Configure default settings
+            url: configure-default-settings.md
+          - text: Create products and services 
+            url: create-product-or-service.md
+          - text: Create service task types
+            url: set-up-service-task-types.md
+          - text: Create price lists
+            url: create-price-list.md
+          - text: Enable location and map settings
+            url: field-service-maps-address-locations.md
+
+# Card 
+  - title: Users and frontline resources 
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Set up users and security roles
+            url: users-licenses-permissions.md
+          - text: Set up frontline workers 
+            url: frontline-worker-set-up.md
+          - text: Create bookable resources
+            url: set-up-bookable-resources.md
+          - text: Specify characteristics for resources
+            url: set-up-characteristics.md
+
+# Card 
+  - title: Work orders 
+    linkLists:
+       - linkListType: concept
+         links:
+          - text: Work order process
+            url: field-service-architecture.md
+       - linkListType: how-to-guide
+         links:
+          - text: Create work order types
+            url: create-work-order-types.md
+          - text: Create work order templates
+            url: configure-incident-types.md
+          - text: Customize work order form
+            url: work-order-customization.md
+
+# Card 
+  - title: Copilot and agent setup
+    linkLists:
+       - linkListType: overview
+         links:
+          - text: Copilot overview 
+            url: copilot-overview.md
+          - text: AI agents overview
+            url: ai-agents-overview.md
+       - linkListType: how-to-guide
+         links:
+          - text: Enable and configure Copilot
+            url: /power-apps/maker/model-driven-apps/add-ai-copilot#enable-copilot-for-model-driven-apps-feature-for-your-environment
+          - text: Enable work order summary
+            url: enable-work-order-recap.md
+          - text: Enable the inspection builder
+            url: inspections-copilot.md
+          - text: Set up the Scheduling Operations Agent
+            url: soa-setup.md
+
+# Card 
+  - title: Customers 
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Set up customer accounts 
+            url: accounts.md
+          - text: Set up customer assets 
+            url: assets.md
+          - text: Create functional locations
+            url: functional-locations.md
+
+# Card 
+  - title: Inspections 
+    linkLists:
+       - linkListType: overview
+         links:
+          - text: Inspections overview
+            url: inspections-overview.md
+       - linkListType: how-to-guide
+         links:
+          - text: Create inspections
+            url: inspections.md
+          - text: Configure advanced options for inspections
+            url: inspections-advanced.md
+
+# Card 
+  - title: Service agreements 
+    linkLists:
+       - linkListType: overview
+         links:
+          - text: Recurring agreements
+            url: agreements-overview.md
+       - linkListType: how-to-guide
+         links:
+          - text: Set up recurring agreements for work orders
+            url: set-up-agreements-work-orders.md
+          - text: Set up recurring agreements for invoices
+            url: set-up-agreements-invoices.md
+          - text: Define service-level agreements (SLAs)
+            url: sla-work-orders.md
+          - text: Create entitilements
+            url: work-order-entitlements.md
+
+# Card 
+  - title: Scheduling 
+    linkLists:
+       - linkListType: overview
+         links:
+          - text: Scheduling overview
+            url: universal-resource-scheduling-for-field-service.md
+          - text: Schedule board
+            url: work-with-schedule-board.md
+          - text: Scheduling assistant
+            url: schedule-assistant.md
+       - linkListType: how-to-guide
+         links: 
+          - text: Enable an entity for scheduling
+            url: schedule-new-entity.md
+          - text: Set up booking statuses
+            url: set-up-booking-statuses.md
+          - text: Configure scheduling parameters
+            url: scheduling-parameters-settings.md
+          - text: Customize the schedule board
+            url: extend-schedule-board-custom-resource-attribute.md
+            
+# Card 
+  - title: Mobile app 
+    linkLists:
+       - linkListType: concept
+         links:
+          - text: Mobile app overview
+            url: mobile/overview.md
+          - text: Offline best practices
+            url: mobile/best-practices-limitations-offline-profile.md
+       - linkListType: how-to-guide
+         links: 
+          - text: Set up the mobile app
+            url: mobile/set-up-field-service-mobile.md
+          - text: Set up the mobile offline profile
+            url: mobile/set-up-offline-profile.md
+          - text: Customize the mobile app
+            url: mobile/customize-mobile-app.md
+          - text: Enable push notifications
+            url: mobile/enable-push-notifications.md
+          - text: Enable location tracking
+            url: mobile/track-technician-location.md
+   
+# Card 
+  - title: Connected Field Service (IoT)
+    linkLists:
+       - linkListType: overview
+         links:
+          - text: Connected Field Service overview
+            url: connected-field-service-overview.md
+          - text: IoT data connections overview
+            url: cfs-connect-data-overview.md
+       - linkListType: how-to-guide
+         links:
+          - text: Add IoT security roles
+            url: cfs-security-roles.md 
+          - text: Set up an IoT provider
+            url: cfs-custom-iot-provider.md
+          - text: Register IoT devices
+            url: cfs-register-devices.md
+           
+# Card 
+  - title: Resource Scheduling Optimization (RSO)
+    linkLists:
+       - linkListType: overview
+         links:
+          - text: Resource Scheduling Optimization
+            url: rso-overview.md
+       - linkListType: how-to-guide
+         links:
+          - text: Create optimization scopes
+            url: rso-optimization-scope.md
+          - text: Define optimization goals
+            url: rso-optimization-goal.md
+          - text: Create optimization schedules
+            url: rso-optimization-schedule.md
+       
+# Card 
+  - title: Field Service integrations
+    linkLists:
+       - linkListType: overview
+         links:
+          - text: Overview of Field Service integrations
+            url: field-service-integration-overview.md
+          - text: Project Operations integration
+            url: project-operations-integration.md
+          - text: Integrate bookings with Outlook calendars
+            url: outlook-integration.md
+          - text: Business Central integration
+            url: business-central-integration.md
+          - text: Supply Chain Management integration
+            url: supply-chain-field-service-integration.md
