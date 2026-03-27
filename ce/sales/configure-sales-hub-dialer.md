@@ -13,14 +13,14 @@ ai-usage: ai-assisted
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-As a sales administrator, you can enable the Sales Hub Dialer in Dynamics 365 Sales Hub so that sellers can make and receive calls directly within the application using dedicated phone numbers. The Sales Hub Dialer offers a more advanced voice experience built on the same cloud telephony infrastructure that powers Dynamics 365 Contact Center. It includes enhanced features like intelligent call routing, integrated CRM context, and improved call management capabilities that provide a better alternative to the Teams-based dialer.
+As an administrator, you can enable the Sales Hub Dialer in Dynamics 365 Sales Hub so that sellers can make and receive calls directly within the application using dedicated phone numbers. The Sales Hub Dialer offers a more advanced voice experience built on the same cloud telephony infrastructure that powers Dynamics 365 Contact Center. It includes enhanced features like intelligent call routing, integrated CRM context, and improved call management capabilities that provide a better alternative to the Teams-based dialer. Learn more about the features in [Sales Hub Dialer overview](sales-hub-dialer-overview.md).
 
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 ## Prerequisites
 
-For details on required admin roles, licenses, voice channel provisioning, and seller roles, see [Prerequisites for the Sales Hub Dialer](sales-hub-dialer-prerequisites.md).
+For details on required admin roles, entitlements, and seller roles, see [Prerequisites for the Sales Hub Dialer](sales-hub-dialer-prerequisites.md).
 
 ## Set up the dialer
 
@@ -45,5 +45,8 @@ After the dialer is enabled, configure these optional features:
 
 ## Related information
 
-[Make and receive calls with the Sales Hub Dialer](make-receive-calls-sales-hub-dialer.md)
+- [Make and receive calls with the Sales Hub Dialer](make-receive-calls-sales-hub-dialer.md)
+- [Configure call transcripts and recordings](/dynamics365/customer-service/administer/voice-channel-configure-transcripts)
+- [Enable sentiment analysis](/dynamics365/customer-service/administer/enable-sentiment-analysis)
+- [Configure voicemail](/dynamics365/customer-service/administer/voice-channel-voicemail)
 
