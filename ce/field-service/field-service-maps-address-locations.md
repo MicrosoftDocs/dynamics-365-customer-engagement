@@ -13,13 +13,13 @@ ms.custom: bap-template
 Locations and maps are important for getting the most value out of Field Service. For example, knowing the location of work orders and resources allows the solution to effectively route the closest technician (resource) to the service request (work order).
 
 > [!IMPORTANT]
-> By connecting to a mapping service, you allow the system to share your data. Data includes - but isn't limited to - addresses and coordinates, with external systems outside of your Microsoft Dynamics 365 environment. "Mapping service" refers to Bing Maps or other third-party mapping service designated by you or your operating system. This sharing also applies to Government Cloud environments. Your use of the mapping service is subject to their separate terms of use. Data imported from such external systems into Microsoft Dynamics 365 are subject to the [Microsoft privacy statement](https://privacy.microsoft.com/privacystatement).
+> By connecting to a mapping service, you allow the system to share your data. Data includes - but isn't limited to - addresses and coordinates, with external systems outside of your Microsoft Dynamics 365 environment. "Mapping service" refers to the default first-party provider or other third-party mapping service designated by you or your operating system. This sharing also applies to Government Cloud environments. Your use of the mapping service is subject to their separate terms of use. Data imported from such external systems into Microsoft Dynamics 365 are subject to the [Microsoft privacy statement](https://privacy.microsoft.com/privacystatement).
 
-## Enable Bing Maps (Show Bing Maps on forms)
+## Enable Maps (Show maps on forms)
 
 Enable maps so dispatchers and technicians see a map view on work orders, accounts, and other records. They can also use address recommendations for quick and accurate data entry, get directions, and view real-time traffic.
 
-Bing Maps is enabled by default for new environments outside the EU. EU customers can opt in to use Bing Maps with the privacy notice and consent to share data with an external system. To change the setting, go to [Manage Bing Maps](/power-platform/admin/manage-bing-maps-organization).
+Maps are enabled by default for new environments outside the EU. EU customers can opt in to use maps with the privacy notice and consent to share data with an external system.
 
 ## Connect to maps
 
@@ -35,7 +35,7 @@ Connecting to maps is enabled by default for new environments. To validate or ch
 
 1. Select **Save & Close**.
 
-Enable the connection to Bing Maps to get service enhancements, such as location information for work orders and resources. When you leave the Map API field blank, Field Service pulls location and travel time information from the Bing Maps API on your behalf. However, admins can specify their own API key to [use custom implementations](/bingmaps/spatial-data-services/data-source-management-api). Using a custom API key incurs the costs of usage on the Azure service.
+Enable the connection to the mapping provider to get service enhancements, such as location information for work orders and resources. When you leave the Map API field blank, Field Service pulls location and travel time information from the Mapping API on your behalf. However, admins can specify their own API key to [use custom implementations](/bingmaps/spatial-data-services/data-source-management-api). Using a custom API key incurs the costs of usage on the Azure service.
 
 ## Enable auto geocoding for addresses
 
@@ -67,18 +67,5 @@ Frontline workers often travel to various locations throughout their work day, a
 ## Geofencing
 
 A geofence is a virtual perimeter around a specific location. Geofencing allows you to draw zones around places of work, customer sites, and secure areas. You can configure the system to trigger various actions when a person or an equipped vehicle crosses a geofence. Learn more in [Geofencing](mobile/configure-geofencing.md).
-
-## Use custom Bing Maps API key
-
-Enable the connection to Bing Maps to get service enhancements, such as location information for work orders and resources. When you leave the Map API field blank, Field Service pulls location and travel time information from the Bing Maps API on your behalf. However, admins can specify their own API key to [use custom implementations](/bingmaps/spatial-data-services/data-source-management-api). Using a custom API key incurs the costs of usage on the Azure service.
-
-Basic tier Bing Maps accounts are now deprecated and their associated API keys are no longer supported for geocoding. If you use these custom API keys, you might see unexpected results or errors when updating a record’s address and attempting geocoding either automatically or manually.
-
-To fix this issue, choose one of the following options:
-
-- Remove your custom key and use Universal Resource Scheduling’s default. This option is most appropriate for users without extensive custom mapping data. Navigate to [**Scheduling Parameters**](#connect-to-maps) and delete any input in the **Map Api Key** field. 
-- Upgrade to a “Bing Maps for Enterprise Key”. This option is most appropriate for users with extensive custom mapping data and is the least disruptive. Learn more at [What are my options regarding Bing Maps for Enterprise Retirement?](https://blogs.bing.com/maps/2025-01/What-are-my-options-regarding-Bing-Maps-for-Enterprise-Retirement).
-- Acquire a shared enterprise key. This option provides the same benefits as upgrading a Bing account, and might be a cost-effective option.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
