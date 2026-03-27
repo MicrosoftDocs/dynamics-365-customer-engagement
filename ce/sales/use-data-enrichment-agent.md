@@ -1,5 +1,5 @@
 ---
-title: Review and approve suggestions from Data Enrichment (preview)
+title: Review and approve suggestions from Data Enrichment
 description: Learn how to review and approve suggestions made by the Data Enrichment Agent and revert automatic updates if necessary.
 author: lavanyakr01
 ms.author: lavanyakr
@@ -10,16 +10,12 @@ ms.service: dynamics-365-sales
 ms.collection: bap-ai-copilot
 ---
 
-# Review and approve Data Enrichment suggestions (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Review and approve Data Enrichment suggestions
 
 As a seller, you can review the suggestions made by Data Enrichment for opportunity records that you own and choose to accept or reject them. If your admin has configured Data Enrichment to automatically update fields, you can still review the changes and revert them if necessary.
 
 > [!NOTE]
 > Data Enrichment suggestions are available only for opportunity records that individual users own. Team-owned opportunity records aren't supported.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 

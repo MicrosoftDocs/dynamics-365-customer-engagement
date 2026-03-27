@@ -1,5 +1,5 @@
 ---
-title: FAQs about AI-powered Data Enrichment for opportunities (preview)
+title: FAQs about AI-powered Data Enrichment for opportunities
 description: Explore frequently asked questions about AI-powered Data Enrichment in Dynamics 365 Sales and how it transforms your CRM data into valuable insights.
 ms.date: 02/16/2026
 ms.update-cycle: 180-days
@@ -15,13 +15,9 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# FAQs about AI-powered Data Enrichment for opportunities (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# FAQs about AI-powered Data Enrichment for opportunities
 
 This article provides answers to frequently asked questions about the AI-powered Data Enrichment feature in Dynamics 365 Sales.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## What data does AI-powered Data Enrichment use?
 

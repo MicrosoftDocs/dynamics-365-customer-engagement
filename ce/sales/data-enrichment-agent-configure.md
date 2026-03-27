@@ -1,5 +1,5 @@
 ---
-title: Set up and configure AI-powered Data Enrichment (preview)
+title: Set up and configure AI-powered Data Enrichment
 description: Learn how to set up and configure the AI-powered Data Enrichment feature for opportunity records in Dynamics 365 Sales.
 author: lavanyakr01
 ms.author: lavanyakr
@@ -10,13 +10,9 @@ ms.service: dynamics-365-sales
 ms.collection: bap-ai-copilot
 ---
 
-# Set up and configure AI-powered Data Enrichment (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Set up and configure AI-powered Data Enrichment
 
 As an admin, you can configure AI-powered Data Enrichment to work on specific opportunity records and set preferences for how updates are applied.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
