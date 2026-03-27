@@ -1,7 +1,7 @@
 ---
 title: Configure product details for Sales Close Agent
 description: Define the products and value propositions that the Sales Close Agent uses to engage with customers.
-ms.date: 11/07/2025
+ms.date: 03/30/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:

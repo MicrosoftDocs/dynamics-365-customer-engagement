@@ -1,7 +1,7 @@
 ---
 title: Open the Sales Close Agent settings page (preview)
 description: Open the Sales Close Agent settings to configure or manage the Sales Close Agent.  
-ms.date: 11/07/2025
+ms.date: 03/30/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -35,9 +35,10 @@ Open the Sales Close Agent settings to configure or manage the Sales Close Agent
 1. In the **Agent manager** section, select **Create and manage agent**.  
     The **AI agent** page opens.  
 1. To create an agent:  
-    1. Select **Create**.  
+    1. Select **Create**.
+        The create an agent dialog opens.  
     1. In the **Sales Close Agent** section, select **Choose**.  
-    1. In the **Scenario** page, select **Engage** and then select **Manual setup**.  
+    1. In the configuration page, select **Manual setup**.  
     > [!NOTE]
     > The option to create a new agent will be inactive, if an agent is already configured in your organization. At any given time, only one agent can be active per organization.  
 

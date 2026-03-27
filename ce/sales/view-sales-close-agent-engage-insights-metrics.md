@@ -1,5 +1,5 @@
 ---
-title: View Sales Close Agent (Engage) insights and metrics
+title: View Sales Close Agent insights and metrics
 description: Learn how to view insights and metrics for the Sales Close Agent's Engage type, including key performance indicators and engagement statistics.
 ms.date: 01/09/2026
 ms.topic: how-to
@@ -17,7 +17,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# View Sales Close Agent (Engage) insights and metrics
+# View Sales Close Agent insights and metrics
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 

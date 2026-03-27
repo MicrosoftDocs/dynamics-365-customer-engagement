@@ -1,7 +1,7 @@
 ---
 title: Configure email delivery settings for Sales Close Agent
 description: Configure the compliance profile that the Sales Close Agent uses to send outreach and follow-up emails to customers.  
-ms.date: 11/07/2025
+ms.date: 03/30/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:

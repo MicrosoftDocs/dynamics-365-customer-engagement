@@ -32,7 +32,7 @@ Before you configure knowledge sources for agents, consider the following factor
 
 - In Copilot Studio, when you upload files from SharePoint, select the **SharePoint** option in the **Featured** section. The **SharePoint** option under the **Upload file** section isn't supported. Selecting this option blocks the agent from processing the records. The following screenshot shows the correct option to select in Copilot Studio:
 
-   :::image type="content" source="media/sales-qualification-agent-knowledge-source-sharepoint.png" alt-text="Screenshot showing the correct SharePoint option to select in Copilot Studio":::
+   :::image type="content" source="media/sales-qualification-agent-knowledge-source-sharepoint.png" alt-text="Screenshot showing the correct SharePoint option to select in Copilot Studio.":::
 
 ## Add knowledge sources for company research
 
@@ -65,25 +65,21 @@ The agent can provide insights about competitors for a record. These insights in
 
 The agent identifies competitors for a record from the following sources:
 
-- **Competitors you add to the record**.
-    The agent gives these competitors the highest priority. If you specify a competitor in the record, the agent researches only that competitor.
+- **Competitors you add to the record**. The agent gives these competitors the highest priority. If you specify a competitor in the record, the agent researches only that competitor.
 
-- **No competitors are specified in the opportunity record**.
-    The agent identifies competitors using the following sources, in order:
+- **No competitors are specified in the opportunity record**. The agent identifies competitors using the following sources, in order:
 
-    - **Closed opportunities with competitor information**.
-        When the agent identifies multiple competitors, it ranks them and selects the top three for research by using the following factors, in order of importance:
+    - **Closed opportunities with competitor information**. When the agent identifies multiple competitors, it ranks them and selects the top three for research by using the following factors, in order of importance:
 
         | Order | Factor | Description |
         |-------|--------|-------------|
-        | 1     | Admin configuration match	| The agent selects competitors that match your admin-configured competitor list first. |
+        | 1     | Admin configuration match | The agent selects competitors that match your admin-configured competitor list first. |
         | 2     | Frequency in closed opportunities | The agent ranks higher competitors that appear in the most closed opportunities. |
-        | 3     | Reported revenue	| The agent sorts competitors by their reported revenue, highest first. |
+        | 3     | Reported revenue | The agent sorts competitors by their reported revenue, highest first. |
         | 4     | Alphabetical order | If all other factors are equal, the agent sorts competitors alphabetically as a tiebreaker. |
 
-    - **Closed opportunities with no competitor information**
-        The agent identifies competitors using web search results based on account research and the opportunity’s value proposition. It then matches these competitors against the competitor list configured in the agent settings.
-        The agent uses only competitors that both appear in the web search results and are included in your configured competitor list.
+    - **Closed opportunities with no competitor information**. The agent identifies competitors using web search results based on account research and the opportunity’s value proposition. It then matches these competitors against the competitor list configured in the agent settings.  
+        The agent uses only competitors that both appear in the web search results and are included in your configured competitor list.  
 
         - If no web-identified competitors match the configured list, the agent uses all competitors from the configured list.
         - If no competitors are configured, the agent uses competitors identified through web research alone.
@@ -122,8 +118,8 @@ You can also upload relevant documents such as battle cards, positioning briefs,
 
 ## Add custom fields for research
 
->[!NOTE]
->This section applies only to the **Sales Opportunity Agent**. The Sales Opportunity Agent doesn't support custom fields.
+> [!NOTE]
+> This section applies only to the **Sales Opportunity Agent**. The Sales Opportunity Agent doesn't support custom fields.
 
 Add custom fields to the agent to enhance the context for generating research insights. For example, if you have a custom field that indicates whether a record is a high-priority account, add that field to the agent to help it prioritize insights for those accounts. Add both **Opportunity** and its related entities' custom fields to the Sales Opportunity Agent.
 
@@ -134,8 +130,8 @@ Add custom fields to the agent to enhance the context for generating research in
  
 ## Add knowledge sources for outreach and follow-up emails
 
->[!NOTE]
->This section applies only to the **Sales Qualification Agent**. The Sales Opportunity Agent doesn't have outreach or follow-up email capabilities.
+> [!NOTE]
+> This section applies only to the **Sales Qualification Agent**. The Sales Opportunity Agent doesn't have outreach or follow-up email capabilities.
 
 Add knowledge sources that the agent uses to draft outreach and follow-up emails to records. For example, add customer testimonials and case studies as knowledge sources for outreach emails to engage with records effectively.
 

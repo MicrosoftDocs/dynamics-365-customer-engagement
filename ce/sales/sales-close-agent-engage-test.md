@@ -1,6 +1,6 @@
 ---
 title: Test the Sales Close Agent (preview)
-description: Learn how to test the Sales Close Agent using the AI Setup Assistant in Dynamics 365 Sales.
+description: Learn how to test the Sales Close Agent in a simulated environment to evaluate its performance in real-world scenarios without impacting actual data. 
 ms.date: 01/09/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -65,5 +65,5 @@ You can simulate interactions between the Sales Close Agent and a customer. This
 ## Related information
 
 [Set up and configure the Sales Close Agent](configure-sales-close-agent.md)  
-[Set up Sales Close Agent (Engage) through the Setup Assistant](sales-close-agent-engage-setup-assistant.md)  
+[Set up Sales Close Agent through the Setup Assistant](sales-close-agent-engage-setup-assistant.md)  
 [How the Sales Close Agent works](how-sales-close-agent-engage-mode-works.md)

@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge sources for Sales Close Agent
 description: Configure the knowledge sources that the Sales Close Agent uses to provide relevant information and context during customer interactions.
-ms.date: 11/07/2025
+ms.date: 03/30/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:

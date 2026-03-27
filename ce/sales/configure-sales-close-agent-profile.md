@@ -1,7 +1,7 @@
 ---
 title: Configure the agent profile for Sales Close Agent (preview)
 description: Define the agent information, email signature, disclaimer, and other terms to set the context for the Sales Close Agent.
-ms.date: 11/07/2025
+ms.date: 03/30/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
