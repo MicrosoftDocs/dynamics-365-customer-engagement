@@ -79,6 +79,8 @@ You can transfer an active call to another user or external phone number.
    - **Warm transfer**: Speak with the recipient privately before completing the transfer.
    - **Cold transfer**: Transfer the call immediately without speaking to the recipient first.
 
+Learn more about transferring calls in [Transfer and consult on voice calls](/dynamics365/customer-service/use/voice-channel-transfer-consult?tabs=enhancedvoicestack).
+
 ### View live transcription and sentiment
 
 If [Conversation Intelligence is enabled](fre-setup-ci-sales-app.md) for your organization, the call panel displays:
@@ -92,13 +94,19 @@ These features help you gauge customer mood and capture details during complex d
 
 To capture key details or next steps, add the notes to the call record in the **Timeline** of the associated lead or contact. These notes are saved as part of the call activity and can be referenced later.
 
+Learn more about taking notes in [Take notes during conversations](/dynamics365/customer-service/use/oc-take-notes)
+
 ### Mark a call as spam
 
 If an inbound call is unwanted, select **Mark as Spam** in the call panel. This labels the number and helps the system filter future calls from that number.
 
+Learn more about blocking unwanted calls in [Block phone numbers](/dynamics365/customer-service/administer/voice-channel-block-number)
+
 ## Review post-call information
 
 When a call ends, the Sales Hub Dialer automatically captures and enriches the call record.
+
+Learn more about post-call information in [View call recordings and transcripts](/dynamics365/customer-service/use/voice-channel-call-recordings-transcripts)
 
 ### View the call log
 
@@ -117,10 +125,4 @@ If call recording is enabled, the call record includes:
 - **Call recording** — Select the recording to play back the conversation.
 - **Full transcript** — Read the complete text of the conversation.
 
-## Related information
 
-- [Configure call transcripts and recordings](/dynamics365/customer-service/administer/voice-channel-configure-transcripts)
-- [Enable sentiment analysis](/dynamics365/customer-service/administer/enable-sentiment-analysis)
-- [Transfer and consult on voice calls](/dynamics365/customer-service/use/voice-channel-transfer-consult?tabs=enhancedvoicestack)
-- [Block phone numbers](/dynamics365/customer-service/administer/voice-channel-block-number)
-- [Configure voicemail](/dynamics365/customer-service/administer/voice-channel-voicemail)

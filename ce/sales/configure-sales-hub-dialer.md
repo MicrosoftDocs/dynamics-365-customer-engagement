@@ -45,5 +45,8 @@ After the dialer is enabled, configure these optional features:
 
 ## Related information
 
-[Make and receive calls with the Sales Hub Dialer](make-receive-calls-sales-hub-dialer.md)
+- [Make and receive calls with the Sales Hub Dialer](make-receive-calls-sales-hub-dialer.md)
+- [Configure call transcripts and recordings](/dynamics365/customer-service/administer/voice-channel-configure-transcripts)
+- [Enable sentiment analysis](/dynamics365/customer-service/administer/enable-sentiment-analysis)
+- [Configure voicemail](/dynamics365/customer-service/administer/voice-channel-voicemail)
 
