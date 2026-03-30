@@ -1,6 +1,6 @@
 ---
-title: IoT – Parent IoT Alerts workflow
-description: "Learn how to link potential redundant IoT alerts to an existing parent alert in Customer Service to reduce duplicate processing.
+title: IoT - Parent IoT Alerts workflow
+description: Learn how to link potential redundant IoT alerts to an existing parent alert in Customer Service to reduce duplicate processing.
 ms.date: 03/30/2026
 ms.topic: concept-article
 author: lalexms
