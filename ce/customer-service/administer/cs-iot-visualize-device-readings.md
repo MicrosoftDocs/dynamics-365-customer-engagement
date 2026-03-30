@@ -28,10 +28,6 @@ To enable device readings, administrators must deploy **Azure Time Series Insigh
 
 - Customer Service version 9.0.20034.20XX or later
 - This feature is available only in United States English (en-US)
-- This feature is in **preview** and isn’t available in all regions
-
-## Enable the device readings chart
-
 
 ## Enable the device readings chart
 
