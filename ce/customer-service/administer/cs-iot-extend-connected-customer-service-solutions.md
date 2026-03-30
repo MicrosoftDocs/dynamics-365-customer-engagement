@@ -14,13 +14,13 @@ Connected Customer Service supports customization of standard components and the
 
 ## Extend Azure services
 
-The Azure services and components used by Connected Customer Service—including those described in [Connected Customer Service architecture](cs-iot-connected-customer-service-architecture.md)—are designed for reliability, scalability, and extensibility. These services support customization and management through:
+The Azure services and components used by Connected Customer Service—including the Azure service components described in [Connected Customer Service architecture](cs-iot-connected-customer-service-architecture.md)—are designed for reliability, scalability, and extensibility. These services support customization and management through:
 
 - UI-based administration  
 - PowerShell and JSON-based deployments  
 - REST APIs and client libraries (for example, .NET, Python, Java, and Node.js)  
 
-After the standard installation, Connected Customer Service configures an Azure resource group that includes services similar to the following:
+After the standard installation, Connected Customer Service configures an Azure resource group that includes services similar to the following components:
 
 ![Connected Customer Service Standard Azure Services](../media/cs-iot-standard-azure-service.png)
 
@@ -55,7 +55,7 @@ The following table lists custom actions, workflows, and entities that Connected
 
 ### IoT-enable an entity type
 
-Entities in Customer Service can be associated with the IoT entities listed above so they can participate in IoT-related business processes and analyses.
+Entities in Customer Service can be associated with the IoT entities listed in the previous table so they can participate in IoT-related business processes and analyses.
 
 You can IoT-enable an entity in the following ways:
 
