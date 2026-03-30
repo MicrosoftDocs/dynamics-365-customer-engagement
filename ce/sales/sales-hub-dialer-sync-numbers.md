@@ -15,7 +15,9 @@ ai-usage: ai-assisted
 
 To enable calling in the Sales Hub Dialer, you must provision Teams phone numbers as service numbers, create resource accounts for each number, license those accounts, and sync everything to Dynamics 365. This article walks through each step.
 
-For general guidance, see [Configure Teams Phone in voice channel](/dynamics365/contact-center/administer/configure-teams-phone-in-voice-channel).
+This article focuses on specific guidance for syncing Teams phone numbers to Dynamics 365 for use with the Sales Hub Dialer. For general guidance on configuring Teams Phone in the voice channel, see [Configure Teams Phone in voice channel](/dynamics365/contact-center/administer/configure-teams-phone-in-voice-channel).
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 

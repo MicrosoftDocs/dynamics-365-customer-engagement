@@ -26,17 +26,17 @@ You can [customize the command bar](/power-apps/maker/model-driven-apps/use-comm
 
 Work order system statuses should *never* be edited because system jobs and plug-ins rely on these statuses. Instead, administrators can create custom work order substatuses that map to work order system statuses. For more information, see [Don't edit option set (choice) values](/dynamics365/guidance/resources/field-service-customize-best-practices#dont-edit-option-set-choice-values).
 
-## Add Bing Maps to the work order form
+## Add Maps to the work order form
 
-If the Bing Maps control is manually removed from the out-of-the-box work order form, it can't be added back.
+If the maps control is manually removed from the out-of-the-box work order form, it can't be added back.
 
-To enable Bing Maps button in form designer, at least one of the attributes of type address should have the mask *ValidForMap* added in the form.
+To enable maps button in form designer, at least one of the attributes of type address should have the mask *ValidForMap* added in the form.
 
 ```xml
 <DisplayMask>ValidForAdvancedFind\|ValidForForm\|ValidForGrid\|ValidForMap</DisplayMask>
 ```
 
-1. Create a solution on a sandbox environment that includes the form to which the Bing Maps control needs to be added. Export it as managed solution.
+1. Create a solution on a sandbox environment that includes the form to which the maps control needs to be added. Export it as managed solution.
 
 1. In the solution's `customizations.xml` file, go the `formxml` part of it.
 
@@ -125,7 +125,7 @@ To enable Bing Maps button in form designer, at least one of the attributes of t
 
 ```
 
-1. Search for "Bing Maps" in the same file.
+1. Search for "Maps" in the same file.
 
 1. Add the control with the following code to the row and cell wherever it needs to be added.
 
