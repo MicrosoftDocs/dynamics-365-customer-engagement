@@ -42,13 +42,13 @@ You can create a chat authentication setting record in Copilot Service admin cen
     - **Name**: Enter a name for the authentication setting.
     - **Owner:** Accept the default value or change it to a required value.
     - **Authentication type:** By default, OAuth 2.0 can't be edited.
-    - **Public key URL**: Specify the public key URL of the domain. This URL is used to validate the information that comes in from the JavaScript Object Notation (JSON) Web Token (JWT) of the domain that a customer signed into.
-    - **JavaScript client function**: Specify the JavaScript client function to use for authentication. This function extracts a token from the token endpoint.
+    - **Public key URL**: Specify the public key URL of the domain. This URL is used to validate the information that comes in from the javascript Object Notation (JSON) Web Token (JWT) of the domain that a customer signed into.
+    - **Javascript client function**: Specify the javascript client function to use for authentication. This function extracts a token from the token endpoint.
 
         > [!div class=mx-imgBorder]
         > ![Configure chat authentication setting record.](../media/chat-auth-settings.png "Configure chat authentication setting record")
 
-    Learn more about how to find the public key URL and JavaScript client function in [Setup for Power Apps portals](#setup-for-power-apps-portals) or [Setup for custom portals](#setup-for-custom-portals) sections later in this article.
+    Learn more about how to find the public key URL and javascript client function in [Setup for Power Apps portals](#setup-for-power-apps-portals) or [Setup for custom portals](#setup-for-custom-portals) sections later in this article.
 
 1. Select **Save**.
 
@@ -58,14 +58,14 @@ You can create a chat authentication setting record in Copilot Service admin cen
 
 2. In the **Authentication settings** box, browse and select the chat authentication record.
 
-When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated using the public key, and the information is then passed to the chat representative in Dynamics 365 Contact Center. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they are in the workstream associated with the chat widget. Learn more in [Manage context variables](manage-context-variables.md#considerations).
+When a signed-in customer on a portal opens the chat widget, the javascript client function passes the JWT from the client to the server. The JWT is decrypted and validated using the public key, and the information is then passed to the chat representative in Dynamics 365 Contact Center. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they are in the workstream associated with the chat widget. Learn more in [Manage context variables](manage-context-variables.md#considerations).
 
 ### Setup for Power Apps portals
 
-If you add authentication for a chat widget on a website developed using Power Apps portals, then the public key URL and JavaScript client function are available out of the box. You need to [upload a custom certificate](/power-apps/maker/portals/oauth-implicit-grant-flow#custom-certificates) to have a valid public key URL on Power Apps portals. 
+If you add authentication for a chat widget on a website developed using Power Apps portals, then the public key URL and javascript client function are available out of the box. You need to [upload a custom certificate](/power-apps/maker/portals/oauth-implicit-grant-flow#custom-certificates) to have a valid public key URL on Power Apps portals. 
 
 - **Public key URL**: `<portal_base_URL>/_services/auth/publickey`
-- **JavaScript client function**: `auth.getAuthenticationToken`
+- **Javascript client function**: `auth.getAuthenticationToken`
 
 For an out of box Power Apps portal, the javascript client function returns a token, which by default has the proper claim to link a contact record to the conversation. This token contains the sub claim with the contact ID of the logged in user. This sub claim provides a unique identifier for Omnichannel to automatically identify and link the contact record from your Dataverse environment. Learn more in the table of the section that follows.
 
@@ -117,7 +117,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
     a. The JWT header looks similar to the following example.
        
-    ```JavaScript
+    ```javascript
     { 
       "alg": "RS256", 
       "typ": "JWT", 
@@ -126,7 +126,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
     If you use multiple public keys, you need to pass in the key ID (kid). Your header looks similar to the following example:
 
-    ```JavaScript
+    ```javascript
     { 
       "alg": "RS256", 
       "typ": "JWT",
@@ -154,7 +154,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
       Your payload should look similar to the following example:
 
-      ```JavaScript
+      ```javascript
         { 
             "sub" : "aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb",  
             "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\", \"portalcontactid\":\"aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb\"}", 
@@ -171,7 +171,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
       > - If the token has expired or is invalid, the chat widget throws an error event. 
       > - The [setContextProvider method](../develop/reference/methods/setContextProvider.md) isn't supported for authenticated chat. You should pass in your lwicontexts as a part of the JWT payload.
 
-4. Create a JavaScript function on your website that accepts a callback function and returns a JWT to the callback function. To avoid timeout, this JavaScript function should return a JWT within 10 seconds. This JWT must meet the following criteria: 
+4. Create a javascript function on your website that accepts a callback function and returns a JWT to the callback function. To avoid timeout, this javascript function should return a JWT within 10 seconds. This JWT must meet the following criteria: 
 
     - It must contain the header, payload, and signature from step 3. 
 
@@ -179,10 +179,10 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
       We recommend generating your JWT on your web server. 
 
-      The name of this JavaScript method is used to create the authentication settings record in the Copilot Service admin app.
+      The name of this javascript method is used to create the authentication settings record in the Copilot Service admin app.
 
-        ```JavaScript
-        // This is a sample JavaScript client function  
+        ```javascript
+        // This is a sample javascript client function  
 
         auth.getAuthenticationToken = function(callback){ 
 
@@ -208,7 +208,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
        
       Example: https://www.contoso.com/auth/publickey 
 
-    b. The name of the JavaScript client function from step 4. The live chat widget calls this name internally during the start of a chat.
+    b. The name of the javascript client function from step 4. The live chat widget calls this name internally during the start of a chat.
        
       Example: auth.getAuthenticationToken
 
