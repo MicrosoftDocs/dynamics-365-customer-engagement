@@ -5,9 +5,8 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to
-ms.date: 03/24/2026
+ms.date: 03/30/2026
 ms.service: dynamics-365-customer-service
-ms.subservice: administrator
 ms.custom: ce-admin
 ---
 
