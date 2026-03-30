@@ -1,7 +1,7 @@
 ---
 title: Sync Teams phone numbers to Dynamics 365 (preview)
 description: Learn how to retrieve environment IDs, convert numbers, create resource accounts, license them, and sync Teams phone numbers to Dynamics 365.
-ms.date: 03/23/2026
+ms.date: 03/30/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -55,7 +55,7 @@ A Teams resource account must be created for each service phone number. Repeat t
 
 ### Option B: Teams PowerShell
 
-Ensure the [Microsoft Teams PowerShell module](/microsoftteams/teams-powershell-install) is installed and up to date. Run the following in an elevated PowerShell session, changing the email address and display name for each number:
+Ensure the [Microsoft Teams PowerShell module](/microsoftteams/teams-powershell-install) is installed and up to date. Run the following commands in an elevated PowerShell session, changing the email address and display name for each number:
 
 ```powershell
 # Install the MicrosoftTeams module if not already installed
@@ -182,7 +182,7 @@ Replace the placeholders:
 
 ## Sync Teams resource accounts to Sales Hub Dialer Voice Channel 
 
-This step binds the Azure Communication Services resource to each Teams resource account. There is no UI for this step — it must be completed through PowerShell. Repeat for every resource account.
+This step binds the Azure Communication Services resource to each Teams resource account. There isn't a UI for this step—you must use PowerShell to complete it. Repeat for every resource account.
 
 > [!IMPORTANT]
 > Complete this PowerShell sync before you run the sync in the Sales Hub Dialer settings. 
@@ -211,7 +211,7 @@ Sync-CsOnlineApplicationInstance `
 After the PowerShell sync completes, finalize the phone number records in Dynamics 365.
 
 > [!IMPORTANT]
-> Do not perform this step until all PowerShell commands in the previous section have been run successfully.
+> Don't perform this step until all PowerShell commands in the previous section run successfully.
 
 1. Open the Sales Hub app, and select **Change area** > **Sales Hub Dialer settings**.
 1. Select **Phone numbers** and then select **Manage** > **Advanced**.
