@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
-Whhen you deploy and administer Connected Customer Service with Azure IoT Hub, ensure that your Azure subscription meets the following prerequisites and considerations.
+When you deploy and administer Connected Customer Service with Azure IoT Hub, your Azure subscription must meet the following prerequisites and considerations.
 
 ## Prerequisites 
 
@@ -26,7 +26,7 @@ Whhen you deploy and administer Connected Customer Service with Azure IoT Hub, e
     - Account administrator
 
 - Only subscriptions associated with your **primary Microsoft Entra ID tenant** are visible in the deployment app.  
-  For example, if `david@contoso.com` signs in, only subscriptions from the `contoso.com` directory appear. If `jason@fabrikam.com` invites David to a `fabrikam.onmicrosoft.com` subscription, David cannot use that subscription in the deployment app.
+  For example, if `david@contoso.com` signs in, only subscriptions from the `contoso.com` directory appear. If `jason@fabrikam.com` invites David to a `fabrikam.onmicrosoft.com` subscription, David can't use that subscription in the deployment app.
 
 - Only organizational Azure accounts can be used to deploy Connected Customer Service with Azure IoT Hub. Personal accounts, such as Outlook.com or Gmail, aren't supported.
 
