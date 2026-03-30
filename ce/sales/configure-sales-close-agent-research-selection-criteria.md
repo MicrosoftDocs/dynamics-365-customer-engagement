@@ -4,11 +4,7 @@ description: Add conditions to filter opportunities for the Sales Opportunity Ag
 ms.date: 03/30/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
+ms.custom: bap-template
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -34,7 +30,7 @@ Add conditions to filter opportunities for the Sales Opportunity Agent to focus 
      - Est. revenue greater than or equal to $100,000
      - Status equals **Open**
 
-1. To have the agent research opportunities you created in the past, select the **Consider opportunities created in the last** checkbox and specify a look-back period in days. Otherwise, the agent only considers opportunities created after it's turned on.
+1. To have the agent research on opportunities you created in the past, select the **Consider opportunities created in the last** checkbox and specify a look-back period in days. Otherwise, the agent only considers opportunities created after it's turned on.
 
 1. To know your daily processing capacity based on your refresh frequency, see the **Daily refresh limit** section. The capacity might vary based on your region.  
 

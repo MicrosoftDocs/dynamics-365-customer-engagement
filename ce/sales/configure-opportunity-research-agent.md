@@ -25,7 +25,6 @@ Ensure that you meet the following prerequisites before configuring the agent.
 - You have admin permissions in Dynamics 365 Sales.  
 - You have a Copilot Studio license. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).  
 - You turned on the modern UI for the Sales Hub app. Learn more in [Enabling the modern look for my app and removing the toggle](/power-apps/user/modern-fluent-design#enabling-the-modern-look-for-my-app-and-removing-the-toggle).  
-- Configure [Bing search and Microsoft 365 services](configure-requirements-for-sales-close-agent-research.md) before you set up the agent.  
 - Allow the following connectors in your organization's data policies for the agent to use various knowledge sources. 
 
     | Connector | Why is it required? |
@@ -56,10 +55,10 @@ By default, the **Salesperson** and **Sales Manager** security roles have the ne
 
 ## Setup the Sales Opportunity Agent
 
-Before you setup the agent, ensure you have [planned your implementation](#plan-your-implementation) and met [all prerequisites](#prerequisites). Use the following steps to configure and start the Sales Opportunity Agent:
+Before you set up the agent, ensure you have [planned your implementation](#plan-your-implementation) and met [all prerequisites](#prerequisites). Use the following steps to configure and start the Sales Opportunity Agent:
 
 1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
-1. [Verify that the prerequisites are configured](configure-requirements-for-sales-close-agent-research.md).
+1. [Configure requirements for the agent](configure-requirements-for-sales-close-agent-research.md).
 1. [Configure the agent profile](configure-sales-close-agent-profile-research.md) for agent such as name and language.
 1. [Configure company info](configure-sales-close-agent-research-company-info.md) for agent to understand value proposition and curate research insights.
 1. [Configure refresh frequency](configure-sales-close-agent-research-refresh-frequency.md) to specify how often the agent refreshes research data.

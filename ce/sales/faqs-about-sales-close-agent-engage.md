@@ -4,11 +4,7 @@ description: Get to know answers to frequently asked questions about the Sales C
 ms.date: 11/07/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
+ms.custom: bap-template
 author: udaykirang    
 ms.author: udag
 ms.reviewer: udag

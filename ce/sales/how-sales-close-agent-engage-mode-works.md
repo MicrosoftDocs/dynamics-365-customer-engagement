@@ -4,11 +4,7 @@ description: Learn how the Sales Close Agent operates to autonomously manage cus
 ms.date: 12/17/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
+ms.custom: bap-template
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

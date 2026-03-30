@@ -4,11 +4,7 @@ description: Configure the prerequisites for the Sales Opportunity Agent in Dyna
 ms.date: 03/30/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
+ms.custom: bap-template
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -36,7 +32,7 @@ Before you configure the Sales Opportunity Agent, ensure that your Dynamics 365 
    - **Microsoft 365 Services**: (Optional) To allow the agent to read emails directly from the sellers' Microsoft 365 mailboxes, select **Mark as done** and then select **Apply changes**. Sellers are also prompted to provide consent when they first access the Opportunity research page. If you want to [use server-side synchronization](#configure-server-side-synchronization) for reading emails, don't select the checkbox.
 
      To configure and use Microsoft 365 Services, you need:
-     - At least one of the following roles: Global administrator, Dynamics 365 administrator, or tenant administrator.
+     - At least one of the following roles: Global administrator, Dynamics 365 administrator, or similar.
      - At least one of the following licenses: Microsoft 365/Office 365, Power Automate Premium, or Dynamics 365 Sales Enterprise Edition.
 
      > [!NOTE]

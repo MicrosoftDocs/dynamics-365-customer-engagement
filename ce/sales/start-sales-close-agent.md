@@ -4,11 +4,7 @@ description: Learn how to start the Sales Close Agent in Dynamics 365 Sales.
 ms.date: 03/30/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
+ms.custom: bap-template
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

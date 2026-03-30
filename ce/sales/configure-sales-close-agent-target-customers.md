@@ -4,15 +4,7 @@ description: Define target customer segments for the Sales Close Agent to effect
 ms.date: 03/30/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
-search.app: salescopilot-docs
+ms.custom: bap-templateocs
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
