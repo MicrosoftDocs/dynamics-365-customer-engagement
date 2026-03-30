@@ -53,7 +53,6 @@ To enable device readings, administrators must deploy **Azure Time Series Insigh
 
 ## Use the device readings chart
 
-
 The following table outlines the required data for each form.
 
 | Form | Required data |
@@ -95,7 +94,7 @@ Use the following table to troubleshoot issues related to device readings.
 |---|---|---|
 | 5000101 | Local Config Store isn’t available | Contact Microsoft Support. |
 | 4001002 | Search Span value is null | Verify required parameters. |
-| 4000103 | From or To date isn’t valid | Verify date parameters. |
+| 4000103 | The "From" or "To" date isn’t valid | Verify date parameters. |
 | 4000104 | Interval isn’t a valid duration | Use ISO 8601 duration format (for example, PT1H). |
 | 4000201 | IoTDeviceId isn’t a valid GUID | Use msdyn_iotdeviceid value. |
 | 4010202 | Insufficient permissions on Device entity | Grant access to msdyn_iotdevice. |
@@ -107,12 +106,12 @@ Use the following table to troubleshoot issues related to device readings.
 | 5000603 | Time Series Insights API failure | Retry or contact Support. |
 | 5000604 | Unexpected TSI API response | Retry or contact Support. |
 
-## Additional notes
+## Other notes
 
 - Available only in en-US
-- Known issues:
+- Limitations:
   - Custom time zones always display local time.
-  - You may see a temporary credential error immediately after creating a new app registration. Retry after one minute.
+  - You might receive a temporary credential error immediately after creating a new app registration. Retry after one minute.
 - Azure Time Series Insights (Preview) uses a pay‑as‑you‑go pricing model. Pricing details are available in the [Azure pricing documentation](https://azure.microsoft.com/pricing/details/time-series-insights/).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
