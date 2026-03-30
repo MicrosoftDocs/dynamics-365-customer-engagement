@@ -2,7 +2,7 @@
 title: Connected Customer Service overview (IoT)
 description: Learn how Connected Customer Service integrates Dynamics 365 Customer Service with Azure IoT Central and Azure IoT Hub to support IoT-based service scenarios.
 ms.topic: overview
-ms.service: dynamics365-customer-service
+ms.service: dynamics-365-customer-service
 author: lalexms
 ms.author: laalexan
 ms.date: 03/30/2026
