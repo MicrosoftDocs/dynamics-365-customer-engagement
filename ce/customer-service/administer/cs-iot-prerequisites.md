@@ -4,6 +4,8 @@ description: Prerequisites for connecting Azure IoT Central to Connected Custome
 ms.date: 03/30/2026
 topic: overview
 author: lalexms
+ms-author: laalexan
+ms-reviewer: laalexan
 ---
 
 # Prerequisites for setting up Connected Customer Service for Azure IoT Central
@@ -31,7 +33,7 @@ To create an Azure IoT Central application, perform the following steps:
 
 After the application is created, the Azure IoT Central application home page opens.
 
-:::image type="content" source="media/cs-iot-azure-central-app-home.png" alt-text="Azure IoT Central application home page":::
+:::image type="content" source="../media/cs-iot-azure-central-app-home.png" alt-text="Azure IoT Central application home page":::
 
 ## Customer Service environment requirements
 
@@ -40,7 +42,7 @@ You need a Customer Service environment with the following requirements:
 - System Administrator security role
 - Access to connect external services by using Power Automate
 
-If you don't already have a Customer Service environment, you can create one by signing up for a free trial for development or evaluation. Learn more in [Sign up for a Dynamics 365 Customer Service free trial](https://learn.microsoft.com/dynamics365/customer-service/implement/try-customer-service).
+If you don't already have a Customer Service environment, you can create one by signing up for a free trial for development or evaluation. Learn more in [Sign up for a Dynamics 365 Customer Service free trial]](../implement/try-customer-service.md).
 
 ## Install Connected Customer Service
 
