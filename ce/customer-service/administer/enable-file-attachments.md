@@ -1,13 +1,12 @@
 ---
 title: Enable file attachments
 description: Learn how to enable file attachments in messaging channels so that customer service representatives and customers can share files during conversations in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 03/24/2025
+ms.date: 03/30/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.service: dynamics-365-customer-engagement
-ms.subservice: administrator
 ---
 
 # Enable file attachments
