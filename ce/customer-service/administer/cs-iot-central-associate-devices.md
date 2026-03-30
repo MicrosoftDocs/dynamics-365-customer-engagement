@@ -1,4 +1,4 @@
---
+---
 title: Associate devices with customer accounts in Connected Customer Service
 description: Learn how to associate devices with customer accounts in Connected Customer Service for Azure IoT Central.
 ms.date: 03/30/2026
