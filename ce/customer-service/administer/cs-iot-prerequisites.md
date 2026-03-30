@@ -2,7 +2,7 @@
 title: Prerequisites for setting up Connected Customer Service for Azure IoT Central
 description: Prerequisites for connecting Azure IoT Central to Connected Customer Service using Power Automate.
 ms.date: 03/30/2026
-topic: overview
+ms.topic: overview
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
