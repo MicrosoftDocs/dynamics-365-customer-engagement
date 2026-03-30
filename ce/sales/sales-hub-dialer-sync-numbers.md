@@ -103,33 +103,40 @@ Each resource account must be licensed before a phone number can be assigned to 
 ### Option B: PowerShell
 
 ```powershell
-if (-not (Get-Module -ListAvailable -Name Microsoft.Graph)) {
-    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-    Install-Module Microsoft.Graph -Scope CurrentUser -Repository PSGallery -Force
+# Install the Microsoft.Graph module if not already installed
+if (-not (Get-Module -ListAvailable -Name Microsoft.Graph)) { 
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser 
+    Install-Module Microsoft.Graph -Scope CurrentUser -Repository PSGallery -Force 
+} 
+
+# Sign in 
+Connect-MgGraph -Scopes "Directory.Read.All","User.ReadWrite.All","Organization.Read.All","Group.ReadWrite.All" 
+
+# Get Teams Phone Number Resource Account License Sku 
+try { 
+    $ResourceAccountSku = Get-MgSubscribedSku -All | Where SkuPartNumber -eq 'PHONESYSTEM_VIRTUALUSER' 
+    $CallForwardSku = Get-MgSubscribedSku -All | Where SkuPartNumber -eq 'MCOPSTN2' 
+    Write-Host "Get Teams Phone Number Resource Account License successfully." -ForegroundColor Green 
+} catch { 
+    Write-Host "Failed to get Teams Phone Number Resource Account License: $_" -ForegroundColor Red 
+    exit 
+} 
+
+# Assign Teams phone resource account license to the resource account. 
+try { 
+    # Uncomment below two commands if you need to update license region code 
+    # $SetUserRegionOutput = Update-MgUser -UserId $UserPrincipalName -UsageLocation <IsoCountryCode> 
+    # Write-Host "Update Resource Account Region successfully: $setUserLicenseOutput" -ForegroundColor Green 
+    $setUserLicenseOutput = Set-MgUserLicense -UserId $UserPrincipalName -AddLicenses @{SkuId=$ResourceAccountSku.skuId} -RemoveLicenses @() 
+    $setUserLicenseOutput2 = Set-MgUserLicense -UserId $UserPrincipalName -AddLicenses @{SkuId=$CallForwardSku.skuId} -RemoveLicenses @() 
+    Write-Host "Assign license successfully: $setUserLicenseOutput $setUserLicenseOutput2" -ForegroundColor Green 
+} catch { 
+    Write-Host "Failed to assign license: $_" -ForegroundColor Red 
+    exit 
 }
-
-# Sign in to Microsoft Graph
-Connect-MgGraph -Scopes "Directory.Read.All","User.ReadWrite.All","Organization.Read.All","Group.ReadWrite.All"
-
-# Get license SKUs
-$ResourceAccountSku = Get-MgSubscribedSku -All | Where-Object { $_.SkuPartNumber -eq 'PHONESYSTEM_VIRTUALUSER' }
-$CallForwardSku = Get-MgSubscribedSku -All | Where-Object { $_.SkuPartNumber -eq 'MCOPSTN2' }
-
-$UserPrincipalName = "<NewResourceAccountEmail>"
-
-# Uncomment the next line to fix region mismatches:
-# Update-MgUser -UserId $UserPrincipalName -UsageLocation <IsoCountryCode>
-
-# Assign the Teams Phone Resource Account license
-Set-MgUserLicense -UserId $UserPrincipalName `
-    -AddLicenses @{SkuId = $ResourceAccountSku.SkuId} `
-    -RemoveLicenses @()
-
-# Assign the Calling Plan license
-Set-MgUserLicense -UserId $UserPrincipalName `
-    -AddLicenses @{SkuId = $CallForwardSku.SkuId} `
-    -RemoveLicenses @()
 ```
+
+Replace `$UserPrincipalName` with the resource account email address. 
 
 ## Assign service numbers to resource accounts
 
@@ -151,15 +158,31 @@ For details, see [Manage resource accounts for service numbers](/microsoftteams/
 Connect-MicrosoftTeams
 
 # Assign the phone number to the resource account
-Set-CsPhoneNumberAssignment `
-    -Identity $TeamsResourceAccountId `
-    -PhoneNumber <NumberWithoutPlus> `
-    -PhoneNumberType <NumberType>
-```
+try { 
 
-Replace `<NumberWithoutPlus>` with the phone number (omit the `+` prefix) and `<NumberType>` with the number type shown on the Teams phone numbers page (for example, `CallingPlan`).
+    $setPhoneNumberOutput = Set-CsPhoneNumberAssignment -Identity $TeamsResourceAccountId -PhoneNumber <NumberWithoutPlus> -PhoneNumberType <NumberType> 
 
-## Sync resource accounts to Dynamics 365
+    Write-Host "Assign Phone Number successfully: $setPhoneNumberOutput" -ForegroundColor Green 
+
+} catch { 
+
+    Write-Host "Failed to assign phone number: $_" -ForegroundColor Red 
+
+    exit 
+
+}
+```    
+
+Replace the placeholders:
+
+| Placeholder | Description |
+|---|---|
+| `$TeamsResourceAccountId` | The Teams resource account identity (email address). |
+| `<NumberWithoutPlus>` | The phone number without the `+` prefix. |
+| `<NumberType>` | The number type shown on the Teams phone numbers page (for example, `CallingPlan`). |
+
+
+## Sync Teams resource accounts to Sales Hub Dialer Voice Channel 
 
 This step binds the Azure Communication Services resource to each Teams resource account. There is no UI for this step — it must be completed through PowerShell. Repeat for every resource account.
 
@@ -188,6 +211,9 @@ Sync-CsOnlineApplicationInstance `
 ## Confirm the sync in Sales Hub Dialer settings
 
 After the PowerShell sync completes, finalize the phone number records in Dynamics 365.
+
+> [!IMPORTANT]
+> Do not perform this step until all PowerShell commands in the previous section have been executed successfully.
 
 1. Open the Sales Hub app, and select **Change area** > **Sales Hub Dialer settings**.
 1. Select **Phone numbers** and then select **Manage** > **Advanced**.
