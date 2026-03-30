@@ -113,7 +113,7 @@ To open the Customer Support agent, perform the following steps.
    - **Prompts**
    - **User access**
 
-Learn more about the Customer Support agent and how to configure the settings on each of the tabs in [Enable features in Copilot](../contact-center/administer/enable-copilot-features.md).
+Learn more about the Customer Support agent and how to configure the settings on each of the tabs in [Enable features in Copilot](/dynamics365/contact-center/administer/copilot-enable-help-pane).
 
 ## Configure Copilot features for administrators
 
@@ -127,7 +127,7 @@ To open the Admin Management agent, perform the following steps.
    - **Prompts**
    - **User access**
 
-To manage tools and knowledge associated with this agent, use the links to **Copilot Studio** provided on the **Overview** tab. Learn more in [Enable features in Copilot](../contact-center/administer/enable-copilot-features.md).
+To manage tools and knowledge associated with this agent, use the links to **Copilot Studio** provided on the **Overview** tab. Learn more in [Enable features in Copilot](/dynamics365/contact-center/administer/copilot-enable-help-pane).
 
 ## Let representatives use Copilot to translate responses
 
