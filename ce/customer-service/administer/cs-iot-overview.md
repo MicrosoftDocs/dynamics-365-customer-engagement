@@ -31,7 +31,7 @@ The following sections describe the differences between these solutions.
 
 Connected Customer Service for IoT Central provides a direct integration of Dynamics 365 Customer Service with Microsoft Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution.
 
-Microsoft Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts are created in Connected Customer Service. Also, based on service activities in Connected Customer Service, information can be sent back to IoT Central. This is accomplished by using Power Automate, a SaaS offering for automating workflows across applications and services. 
+Microsoft Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts are created in Connected Customer Service. Also, based on service activities in Connected Customer Service, information can be sent back to IoT Central. This integration is accomplished by using Power Automate for automating workflows across applications and services. 
 
 > [!div class="mx-imgBorder"]
 > ![Diagram representing the relationship between Azure IoT Central, Power Automate, and Connected Customer Service.](../media/cs-iot-overview.png)
@@ -61,7 +61,7 @@ The Azure components and services that are involved with Connected Customer Serv
 
 [Service bus queue](/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues)
 
-Connected Customer Service provides a queue for both inbound and outbound messages (commands) flowing between Dynamics 365 Customer Service and Azure. When an IoT alert is sent to Dynamics 365 Customer Service, or a command is sent from Dynamics 365 for Customer Service to the IoT hub, it's queued here.
+Connected Customer Service provides a queue for both inbound and outbound messages (commands) flowing between Dynamics 365 Customer Service and Azure. IoT alerts and commands between Customer Service and the IoT hub are queued here.
 
 [Logic Apps](https://azure.microsoft.com/services/logic-apps/)
 
@@ -69,7 +69,7 @@ Connected Customer Service provides an orchestration service that uses a Custome
 
 [Stream analytics](https://azure.microsoft.com/services/stream-analytics/)
 
-This provides a fully managed, real-time event processing engine that helps to unlock deep insights from data. Stream Analytics makes it easy to set up real-time analytic computations on data streaming from devices, sensors, web sites, social media, applications, infrastructure systems, and more. It's functioning as a funnel to send selective IoT alerts to Dynamics 365 Customer Service.
+This service provides a fully managed, real-time event processing engine that helps to unlock deep insights from data. Stream Analytics lets you easily analyze real-time data from devices and other sources. It functions as a funnel to send selective IoT alerts to Dynamics 365 Customer Service.
 
 [IoT Hub](https://azure.microsoft.com/services/iot-hub/)
 
@@ -90,7 +90,7 @@ Queries that Stream Analytics uses are stored to Azure Blob storage.
 - [Connected Customer Service Device Readings (Preview)](cs-iot-visualize-device-readings.md) uses [Azure Time Series Insight (Preview)](/azure/time-series-insights/) as part of the legacy Connected Customer Service Device Readings experience to store, process, and query IoT devices measurements from IoT Hub.
 
 > [!NOTE]
-> Learn more about additional Azure service offerings in [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/).
+> Learn more about other Azure service offerings in [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/).
 
 ## User experience for Connected Customer Service
 
