@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 This article explains how to install and set up Connected Customer Service with Azure IoT Hub. After setup, Customer Service can ingest device telemetry, generate IoT alerts, create cases, and send commands to registered devices.
 
-For scenarios that use Azure IoT Central instead of IoT Hub, learn more in [Connected Customer Service for Azure IoT Central](connected-customer-service-for-azure-iot-central.md).
+For scenarios that use Azure IoT Central instead of IoT Hub, learn more in [Connected Customer Service for Azure IoT Central](cs-iot-azure-overview.md).
 
 ## Prerequisites
 
@@ -25,7 +25,7 @@ Before you install Connected Customer Service with Azure IoT Hub, make sure that
 - A supported Customer Service role such as **Customer Service Dispatcher**
 - An active Azure subscription with sufficient privileges  
 
-or Azure-specific requirements, learn more in [Azure subscription prerequisites for Connected Customer Service with Azure IoT Hub](azure-subscription-prerequisites-connected-customer-service-iot-hub.md).
+or Azure-specific requirements, learn more in [Azure subscription prerequisites for Connected Customer Service with Azure IoT Hub](cs-iot-prerequisites.md).
 
 ### Optional: Power BI requirements
 
@@ -166,7 +166,7 @@ To view the history of commands sent to a device:
 
 You can guide or automate responses to IoT alerts by using business process flows. Business process flows help service teams diagnose issues, send commands, and create cases or work orders when escalation is required.
 
-Learn more in [Create business process flows](../processes/create-business-process-flow.md).
+Learn more in [Create business process flows](../implement/create-business-process-flow.md).
 
 ## View the IoT dashboard
 
