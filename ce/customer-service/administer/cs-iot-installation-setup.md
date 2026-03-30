@@ -166,7 +166,7 @@ To view the history of commands sent to a device:
 
 You can guide or automate responses to IoT alerts by using business process flows. Business process flows help service teams diagnose issues, send commands, and create cases or work orders when escalation is required.
 
-Learn more in [Create business process flows](../implement/create-business-process-flow.md).
+Learn more in [Create business process flows](cs-iot-parent-alerts-workflow.md).
 
 ## View the IoT dashboard
 
