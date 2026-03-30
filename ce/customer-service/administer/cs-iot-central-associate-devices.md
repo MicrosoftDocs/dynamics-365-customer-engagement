@@ -26,7 +26,7 @@ This article explains how to associate an IoT device with a customer account so 
    > <img src="../media/cs-iot-central-device-account.png" alt="Device details page showing customer account field" />
    > </div>
 
-3. Select the customer account, and then select **Save**.
+1. Select the customer account, and then select **Save**.
 
 After you save the changes, the device is associated with the selected customer account. Connected Customer Service can now create cases or work orders when it receives IoT alerts for this device from Azure IoT Central.
 
