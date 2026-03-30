@@ -29,7 +29,7 @@ Use the agent to:
 
 1. The Sales Research Agent connects to your Dynamics 365 Sales data by default. You can connect it to other data sources such as other Dataverse environments or Fabric Lakehouse, or upload Excel, CSV, or PDF files to further enrich the basis of your explorations.
 
-1. When you ask the agent a question using one of the starter prompts or in natural language, the agent responds by generating a research blueprint containing data visualizations with a text-based summary. Ask follow-up questions, change visualizations, and add more data to your research. 
+1. When you ask the agent a question using one of the starter prompts or in natural language, the agent responds by generating a research blueprint containing data visualizations with a text-based overview. Ask follow-up questions, change visualizations, and add more data to your research. 
 1. The agent uses the context you provide and the data it has access to in order to generate insights. The more context you provide, the better the insights will be. You can provide either general context about your business or create specific business functions to tailor the agent's output to specific use cases.
 1. The agent stores how it arrived at its conclusions in a research blueprint, which includes the data it used, the steps it took to analyze the data, and the reasoning behind its conclusions. You can view the reasoning by selecting **Show work** on the research blueprint.
 
@@ -46,7 +46,8 @@ Depending on your role, use the following links to learn about configuring and u
 
 ## Legal and regulatory considerations
 
-Organizations need to evaluate potential specific legal and regulatory obligations when using the Sales Research Agent. The Sales Research Agent isn't appropriate for use in every industry or scenario. In certain scenarios, the Sales Research Agent will query Bing Search based on the content of the prompt the user submits. Your use of Bing is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839). Additionally, the agent isn't designed for and shouldn't be used for social scoring. Always use the Sales Research Agent in accordance with the applicable terms of service and the Generative [AI Code of Conduct](/legal/ai-code-of-conduct).
+Organizations need to evaluate potential specific legal and regulatory obligations when using the Sales Research Agent. Sales Research Agent is not designed for social scoring and must be used in accordance with the Microsoft Product Terms and [Generative AI Code of Conduct](https://learn.microsoft.com/en-us/legal/ai-code-of-conduct). The Sales Research Agent may use Microsoft Bing Search for its responses, but only based on the content of the prompt the user submits, and only if the [Bing search consent](/power-platform/admin/geographical-availability-copilot?tabs=new_) setting is enabled. When this setting is disabled, the agent operates solely on internal data sources the user is already permitted to access. Your use of Bing is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
+
 
 ## Related information
 

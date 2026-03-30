@@ -43,9 +43,7 @@ The Sales Research Agent was rigorously evaluated on curated real-world scenario
 
 The Sales Research Agent is built to understand the Dynamics 365 Sales schema as well as terminology and context relevant to sales organizations. When a user asks a question, the agent reasons over that organization's schema and specific context to inform its answers. In some cases, the agent may not have the necessary context to provide an answer that is completely accurate. For example, if an organization's fiscal year starts in April, the agent needs to have that context provided somewhere to give an accurate answer to a question about Q1 sales. Users can mitigate this limitation by checking responses for accuracy and providing the Sales Research Agent with relevant context in natural language through the user experience.  
 
-The blueprints created by the Sales Research Agent are currently only supported in English. 
-
-The Sales Research Agent is currently only available to organizations where the tenant's primary location is in the U.S. or the European Union. 
+The Sales Research Agent is not yet available in every geo or every language. For a list of supported languages and geos, please refer to the [Product availability reports](https://releaseplans.microsoft.com/availability-reports/?report=featuregeoreport).
 
 ## What operational factors and settings allow for effective and responsible use of the Sales Research Agent?  
 

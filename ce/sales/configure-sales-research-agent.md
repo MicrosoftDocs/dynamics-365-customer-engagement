@@ -19,11 +19,11 @@ As an admin, set up and configure the Sales Research Agent in Dynamics 365 Sales
 
 ## Configure Copilot Studio capacity
 
-The agent needs Copilot Studio capacity to run. Generating a research blueprint requires 48 credits. Ensure that the environment from which you will be accessing the agent has Copilot credits available to it. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
+The agent needs Copilot Studio capacity to run. Ensure that the environment from which you will be accessing the agent has Copilot credits available to it. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
 
 ## Grant access to the Sales Research Agent
 
-By default, the **Sales Research Agent** menu in the Sales Hub app is only visible and accessible to the **System Administrator** role.  
+By default, the **Sales Research Agent** menu in the Sales Hub app is only visible and accessible to the **System Administrator**  and **System Customizer** roles.  
 :::image type="content" source="media/sales-research-agent-navigation.png" alt-text="Screenshot of the Sales Research Agent navigation in the Sales Hub app.":::
 
 To grant access to other users, you must assign the **Sales Research Agent Reader** security role to users in the Power Platform Admin Center. Learn more in [Assign a security role to a user](/power-platform/admin/assign-security-roles).

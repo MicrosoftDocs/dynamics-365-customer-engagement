@@ -32,7 +32,7 @@ If you're using the AI Cursor and you pressed **Enter** after typing your prompt
 
 ## Can I connect to other data sources?
 
-Yes, you can connect to other Dynamics 365 and Dataverse environments if you have access to those. Additionally, you can upload data files to enrich your research further. Learn more in [Connect the Sales Research Agent to a different data source](sales-research-agent-connect-data.md).
+Yes, you can connect to other Dynamics 365 and Dataverse environments, and Fabric Lakehouse if you have access to those. Additionally, you can upload data files to enrich your research further. Learn more in [Connect the Sales Research Agent to a different data source](sales-research-agent-connect-data.md).
 
 ## Why do I get an error when trying to upload a file?
 
@@ -40,7 +40,7 @@ You can upload a PDF (.pdf), CSV (.csv), and Excel (.xlsx) file. Learn more in [
 
 ## Which languages are supported by the Sales Research Agent?
 
-Blueprints created by the Sales Research Agent are currently supported in English only. However, you can ask questions in other supported languages, and the agent will try to understand and respond in English. For a list of supported languages, go to the [International availability report](https://releaseplans.microsoft.com/en-US/availability-reports/?report=featurelangreport).
+For a list of supported languages, go to the [International availability report](https://releaseplans.microsoft.com/en-US/availability-reports/?report=featurelangreport).
 
 ## How does the Sales Research Agent handle currency? 
 
@@ -50,6 +50,6 @@ The Sales Research Agent uses the base currency of the Dynamics 365 Sales enviro
 
 Yes, the Sales Research Agent uses Microsoft Bing if no data sources are provided. The agent only uses the prompt provided by the user to write the query that goes to Bing Search. The use of Bing is subject to the Bing section of the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
-Where can I find the terms of use? 
+## Where can I find the terms of use? 
 
 The use of the Sales Research Agent is subject to the terms outlined in [Microsoft Product Terms](https://www.microsoft.com/en-us/licensing/product-licensing/products).
