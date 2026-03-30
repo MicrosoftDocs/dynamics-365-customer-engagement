@@ -18,7 +18,7 @@ Connected Customer Service enables organizations to detect issues with customer 
 
 ## What you need to get started
 
-To build a Connected Customer Service solution, you need the following:
+To build a Connected Customer Service solution, you need the following components:
 
 - **Customer Service environment with system administrator access**
 
