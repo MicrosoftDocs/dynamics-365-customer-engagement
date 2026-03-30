@@ -1,49 +1,49 @@
 ---
-title: "Quickstart  Build your own Connected Customer Service (IoT) solution | MicrosoftDocs"
-description: "Learn how to build your own Connected Customer Service solution that integrates IoT data with Dynamics 365 Customer Service."
-ms.date: 04/03/2020
-ms.topic: how-to
+title: "Quickstart: Build a Connected Customer Service (IoT) solution"
+description: "Learn how to build a Connected Customer Service solution that integrates IoT data with Customer Service using Azure IoT services."
+ms.date: 03/30/2026
+ms.topic: quickstart
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ---
 
-# Quickstart: Build your own Connected Customer Service (IoT) solution
+# Quickstart: Build a Connected Customer Service (IoT) solution
 
-This article shows you how to get up and running quickly to build your own Connected Customer Service solution that integrates IoT data with Dynamics 365 Customer Service.
+This article helps you get started building a Connected Customer Service solution that integrates IoT data with Customer Service by using Azure IoT services.
 
-## What is Connected Customer Service?
-Connected Customer Service enables businesses to actively look for issues with customers' devices through IoT signals and proactively resolve those issues, simultaneously increasing customer satisfaction and reducing assisted support service costs.   
+## About Connected Customer Service
+
+Connected Customer Service enables organizations to detect issues with customer devices by using IoT signals and respond proactively. Device telemetry can trigger IoT alerts, create cases, and support remote diagnostics and remediation within Customer Service.
 
 ## What you need to get started
 
-Here are the 3 things you need to get started building your own IoT solution:
+To build a Connected Customer Service solution, you need the following:
 
-- **Dynamics 365 Customer Service with system administrator credentials** 
+- **Customer Service environment with system administrator access**
 
-     You'll need a Dynamics 365 Customer Service tenant so that you can import your IoT solution on top of it. You'll build an IoT app within that Customer Service tenant.  
+  You need a Customer Service environment to install and configure Connected Customer Service components.
 
-     New to Customer Service and need a tenant? No worries. [Sign up for a free trial for development purposes.](https://marketplace.microsoft.com/product/dynamics-365/mscrm.40fd37ef-dca4-4b0d-9f41-d16703b7d070
-)
+  If you don’t already have an environment, you can create one for evaluation and development purposes.
 
-- **Azure subscription with admin credentials**     
+- **Azure subscription with administrator access**
 
-    The Azure IoT services you'll deploy need to be associated with an Azure subscription. 
-      
-    New to IoT and need an Azure subscription? We've got you covered. [Sign up for an Azure free trial.](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn)
+  Azure IoT services used by Connected Customer Service must be deployed in an Azure subscription.  
+  The subscription must belong to the same Microsoft Entra ID tenant used by Customer Service.
 
-- **Dynamics 365 Connected Customer Service add-on**  
+- **Connected Customer Service (IoT) solution**
 
-    The free Connected Customer Service add-on automatically provisions a number of Azure IoT services with predefined demo data seamlessly on top of Dynamics 365 Customer Service. The add-on comes with demo data that enables you to see the capabilities IoT data brings to Customer Service, including command modeling, customer asset to device mapping, IoT alert – to – case workflow, and more.  
-   
+  Connected Customer Service provisions a set of Azure IoT services and sample configurations that demonstrate how IoT data can be integrated with Customer Service scenarios, such as:
+  - Modeling device commands
+  - Mapping customer assets to devices
+  - Converting IoT alerts into cases
+
 ## Documentation resources
 
-[Learn about Azure IoT extensibility, analytics, and more](https://azure.microsoft.com/product-categories/iot/)  
- 
-[See a component architecture diagram and learn which Azure IoT resources are included in a standard installation](/previous-versions/dynamicscrm-2016/developers-guide/mt744253(v=crm.8))  
- 
-[Check out more Azure documentation resources](/azure/iot-hub/)  
+Use the following resources to learn more about Azure IoT services and Connected Customer Service architecture:
 
-
+- [Azure IoT product documentation](/azure/iot-hub/)
+- [Azure IoT architecture and analytics concepts](/azure/architecture/browse/?products=iot)
+- [Architecture of Connected Customer Service with Azure IoT Hub](architecture-of-connected-customer-service-with-iot-hub.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
