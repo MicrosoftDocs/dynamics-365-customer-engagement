@@ -7,7 +7,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.service: dynamics-365-sales
-ms.custom: bap-templateocs
+ms.custom: bap-template
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
