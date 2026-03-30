@@ -1,5 +1,5 @@
 ---
-title: Sales Research Agent overview (preview)
+title: Sales Research Agent overview 
 description: Learn how to use the Sales Research Agent in Dynamics 365 Sales to get insights about your customers, prospects, sales targets, and competitors.
 manager:
 ms.date: 09/16/2025
@@ -13,15 +13,11 @@ ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
 
-# Sales Research Agent overview (preview)
+# Sales Research Agent overview 
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-The Sales Research Agent in Dynamics 365 Sales empowers you to solve complex business questions through a dialog with your data using natural language. This AI-powered research canvas offers rich insights into all aspect of your sales data, empowering you to make informed decisions taking a myriad of variables into account. You can provide general and business context to the agent to improve the relevance and consistency of the content generated. Learn more in [Provide context to enhance the Sales Research Agent (preview)](sales-research-agent-provide-context.md).
+The Sales Research Agent in Dynamics 365 Sales empowers you to solve complex business questions through a dialog with your data using natural language. This AI-powered research canvas offers rich insights into all aspect of your sales data, empowering you to make informed decisions taking a myriad of variables into account. You can provide general and business context to the agent to improve the relevance and consistency of the content generated. Learn more in [Provide context to enhance the Sales Research Agent](sales-research-agent-provide-context.md).
 
 :::image type="content" source="media/sales-research-agent-insights.png" alt-text="Screenshot of the research canvas in the Sales Research Agent." lightbox="media/sales-research-agent-insights.png":::
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 Use the agent to:
 
@@ -44,8 +40,8 @@ Depending on your role, use the following links to learn about configuring and u
 
 | Role(s)                        | Which app to use?                                                                                 | Link to documentation                                                                                   |
 |--------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| System administrators, makers  | Power Platform admin center                         | [Set up and configure Sales Research Agent (preview)](configure-sales-research-agent.md)     |
-| Sellers and Sales managers     | Sales Hub app             | <ul><li>[Analyze your sales performance using the Sales Research Agent (preview)](use-sales-research-agent.md)</li><li>[Connect the agent to a different data source](sales-research-agent-connect-data.md)</li><li>[Provide context to the Sales Research Agent (preview)](sales-research-agent-provide-context.md)</li></ul> |
+| System administrators, makers  | Power Platform admin center                         | [Set up and configure Sales Research Agent](configure-sales-research-agent.md)     |
+| Sellers and Sales managers     | Sales Hub app             | <ul><li>[Analyze your sales performance using the Sales Research Agent](use-sales-research-agent.md)</li><li>[Connect the agent to a different data source](sales-research-agent-connect-data.md)</li><li>[Provide context to the Sales Research Agent](sales-research-agent-provide-context.md)</li></ul> |
 
 
 ## Legal and regulatory considerations
@@ -54,6 +50,6 @@ Organizations need to evaluate potential specific legal and regulatory obligatio
 
 ## Related information
 
-[Frequently asked questions about Sales Research Agent (preview)](faqs-sales-research-agent.md)  
-[Responsible AI FAQ about the Sales Research Agent (preview)](faqs-about-sales-research-agent.md)  
+[Frequently asked questions about Sales Research Agent](faqs-sales-research-agent.md)  
+[Responsible AI FAQ about the Sales Research Agent](faqs-about-sales-research-agent.md)  
 

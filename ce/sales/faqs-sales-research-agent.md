@@ -1,5 +1,5 @@
 ---
-title: FAQ about Sales Research Agent (preview)
+title: FAQ about Sales Research Agent
 description: Get answers to frequently asked questions about sales research agent in Dynamics 365 Sales.
 ms.date: 03/27/2025
 ms.custom:
@@ -13,11 +13,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
 
-# FAQs about Sales Research Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+# FAQs about Sales Research Agent
 
 
 ## Why can't I access the Sales Research Agent?
@@ -49,7 +45,3 @@ Currently, the agent supports only English.
 ## Does the agent use Bing to search for information?
 
 Yes, the Sales Research Agent uses Microsoft Bing when it can't find the information in the data sources you provided or if no data sources are provided. The use of Bing is subject to the Bing section of the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
-
-## What are the preview terms? Is Microsoft using my data to train their models? How do I know my data is safe?
-
-The use of the Sales Research Agent is subject to the terms outlined in [Preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).

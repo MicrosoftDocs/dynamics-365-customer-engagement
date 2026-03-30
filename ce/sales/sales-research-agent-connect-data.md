@@ -1,5 +1,4 @@
----
-title: Connect the Sales Research Agent to a different data source or upload data (preview)
+title: Connect the Sales Research Agent to a different data source or upload data
 description: Learn how to connect the Sales Research Agent to your data.
 manager:
 ms.date: 02/18/2026
@@ -13,13 +12,9 @@ ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
 
-# Connect the Sales Research Agent to a different data source (preview) 
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Connect the Sales Research Agent to a different data source or upload data
 
 The Sales Research Agent is connected to your Dynamics 365 Sales environment by default. However, you can connect to other Dataverse environments or upload data files (CSV, Excel, PDF) as additional data sources with sales and business data. You can also choose to remove existing connection entirely and just use the uploaded files as basis for your research. This allows you to create comprehensive research blueprints with the Dynamics 365 data, uploaded data, or both combined.
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 ## Considerations
 
@@ -47,21 +42,21 @@ You can upload a PDF (.pdf), CSV (.csv), or Excel (.xls) file. The following lim
 
 - The maximum supported file size is 10 MB. 
 - The maximum number of uploaded files is 5, and the maximum total size for all files is 30 MB. 
-- Encrypted, password-protected, or copyright-managed files aren’t supported.
+- Encrypted, password-protected, or copyright-managed files aren't supported.
 - CSV:
     - Data within the file needs to be separated by commas.
 - Excel:
     - Column header in the first row only.
     - No more than 10 tables and a maximum of 50 columns for each table.
-    - Can’t contain merged cells.
+    - Can't contain merged cells.
     - Elements such as images, charts, and macros can't be processed.
 - PDF:
     - 150 maximum supported number of pages per file.
-    - Must contain selectable text. You can test it by trying to highlight text within the PDF. If you can’t select or highlight the text, then it can't be processed.
+    - Must contain selectable text. You can test it by trying to highlight text within the PDF. If you can't select or highlight the text, then it can't be processed.
     - Use original digital documents or PDFs that are converted directly from word processors or other digital sources. A scanned PDF doesn't work.
     - If the PDF contains tables, make sure the borders are clearly outlined. Avoid using any contrasting colors to differentiate between rows and columns.
 
 ## Related information
 
-- [Analyze your sales performance using the Sales Research Agent (preview)](use-sales-research-agent.md)
-- [Frequently asked questions about Sales Research Agent (preview)](faqs-sales-research-agent.md)
+- [Analyze your sales performance using the Sales Research Agent](use-sales-research-agent.md)
+- [Frequently asked questions about Sales Research Agent](faqs-sales-research-agent.md)

@@ -1,5 +1,5 @@
 ---
-title: Analyze your sales performance using the Sales Research Agent (preview)
+title: Analyze your sales performance using the Sales Research Agent
 description: Learn how to use the Sales Research Agent in Dynamics 365 Sales to analyze your sales performance and get insights quickly.
 ms.date: 11/17/2025
 ms.topic: overview
@@ -12,22 +12,17 @@ ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
 
-# Analyze your sales performance using the Sales Research Agent (preview)
+# Analyze your sales performance using the Sales Research Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+The Sales Research Agent is an AI-based research canvas that reasons over an organization's most complex business problems based on its sales and business data. The agent helps sales leaders understand business performance and make evidence-based decisions to improve sales outcomes.
 
-The Sales Research Agent is an AI-based research canvas that reasons over an organization’s most complex business problems based on its sales and business data. The agent helps sales leaders understand business performance and make evidence-based decisions to improve sales outcomes.
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
-
-Ask the agent a question about your business data, and it will generate a blueprint&mdash;a summary of its analysis and recommendations with supporting charts and graphs. You can then instruct the agent to explore a follow-on question or ask it to tailor the summary or data visualizations to get the output that suits your needs best. Research and analysis that used to take weeks is now done in minutes, leading to faster decision-making based on data.
+Ask the agent a question about your business data, and it will generate a blueprint—a summary of its analysis and recommendations with supporting charts and graphs. You can then instruct the agent to explore a follow-on question or ask it to tailor the summary or data visualizations to get the output that suits your needs best. Research and analysis that used to take weeks is now done in minutes, leading to faster decision-making based on data.
 
 
 ## Start your research journey
 
 1. In the Sales Hub site map, go to **My Work** > **Sales Research Agent**.  
    The **Sales Research Agent** page opens with the business functions and suggested research topics in each function.
-
     > [!NOTE]
     > The agent availability is subject to usage limits and capacity throttling. If your organization doesn't have enough credits, you won't be able to generate a blueprint or interact with it. Reach out to your administrator to increase Copilot Studio capacity.
 
@@ -75,7 +70,7 @@ Use the AI cursor to interact with the generated data or ask a new question abou
 1. Select **Generate** and choose whether you want to update the existing block or generate a new blueprint.
    :::image type="content" source="media/sales-research-agent-ai-cursor.png" alt-text="Screenshot of the AI cursor icon and dialog on the blueprint.":::
 
-   If you select **Update block**, the agent updates the existing block with the new information. If you select **Generate new blueprint**, the agent creates a new blueprint and adds a journey line to the existing blueprint.`
+   If you select **Update block**, the agent updates the existing block with the new information. If you select **Generate new blueprint**, the agent creates a new blueprint and adds a journey line to the existing blueprint.
 
 ## Refresh or regenerate the blueprint
 
@@ -85,5 +80,5 @@ To refresh the blueprint with the latest data or regenerate it with new visualiz
 
 ## Related information
 
-- [Set up and configure Sales Research Agent (preview)](configure-sales-research-agent.md)
-- [Frequently asked questions about Sales Research Agent (preview)](faqs-sales-research-agent.md)
+- [Set up and configure Sales Research Agent](configure-sales-research-agent.md)
+- [Frequently asked questions about Sales Research Agent](faqs-sales-research-agent.md)

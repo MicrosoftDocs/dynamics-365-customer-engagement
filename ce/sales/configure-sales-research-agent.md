@@ -1,5 +1,5 @@
 ---
-title: Set up and configure Sales Research Agent (preview)
+title: Set up and configure Sales Research Agent
 description: Learn how to configure the Sales Research Agent so that sellers can get AI-generated insights and provide feedback on the insights.
 manager:
 ms.date: 06/03/2025
@@ -13,13 +13,9 @@ ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
 
-# Set up and configure Sales Research Agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Set up and configure Sales Research Agent
 
 As an admin, set up and configure the Sales Research Agent in Dynamics 365 Sales to help sales managers and sales leaders gain insights from their sales data.  
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Configure Copilot Studio capacity
 
@@ -59,5 +55,5 @@ This ensures that external data usage is fully controlled by tenant-level polici
 
 ## Related information
 
-- [Analyze your sales performance using the Sales Research Agent (preview)](use-sales-research-agent.md)
-- [Frequently asked questions about Sales Research Agent (preview)](faqs-sales-research-agent.md)
+- [Analyze your sales performance using the Sales Research Agent](use-sales-research-agent.md)
+- [Frequently asked questions about Sales Research Agent](faqs-sales-research-agent.md)
