@@ -3,8 +3,11 @@ title: Configure refresh frequency for Sales Opportunity Agent
 description: Define how often the Sales Opportunity Agent refreshes its research data to provide up-to-date insights on opportunities.
 ms.date: 03/30/2026
 ms.topic: how-to
+author: udaykirang
+ms.author: udag
+ms.reviewer: udag
 ms.service: dynamics-365-sales
-ms.custom: bap-templateocs
+ms.custom: bap-template
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---

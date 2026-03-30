@@ -2,9 +2,12 @@
 title: Configure target customers for Sales Close Agent
 description: Define target customer segments for the Sales Close Agent to effectively engage with during outreach and follow-up activities. 
 ms.date: 03/30/2026
+author: udaykirang
+ms.author: udag
+ms.reviewer: udag
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom: bap-templateocs
+ms.custom: bap-template
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
