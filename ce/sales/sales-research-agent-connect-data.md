@@ -1,3 +1,4 @@
+---
 title: Connect the Sales Research Agent to a different data source or upload data
 description: Learn how to connect the Sales Research Agent to your data.
 manager:
