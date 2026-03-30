@@ -19,8 +19,6 @@ This article focuses on specific guidance for syncing Teams phone numbers to Dyn
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
-
 ## Retrieve the Azure Communication Services resource ID and Dynamics App ID
 
 These identifiers are required throughout the remaining configuration steps. Store them in a safe location.
