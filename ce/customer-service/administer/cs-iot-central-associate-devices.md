@@ -1,50 +1,36 @@
 ---
-title: "Associate devices with customer accounts in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Learn about how to associate devices with customer accounts in Connected Customer Service for Azure IoT Central."
-ms.date: 01/25/2022
+title: Associate devices with customer accounts in Connected Customer Service
+description: Learn how to associate devices with customer accounts in Connected Customer Service for Azure IoT Central.
+ms.date: 03/30/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ---
 
-
 # 2 - Associate devices with customer accounts in Connected Customer Service
 
-If an IoT device isn't associated with a customer account in Connected Customer Service, the system won't be able to generate work orders or cases for incoming alerts. In this tutorial, we'll walk through how to associate a device with a customer account. While customer accounts are an optional association in Azure IoT Central, they're required in Connected Customer Service.
+If an IoT device isn't associated with a customer account in Connected Customer Service, the system doesn't generate work orders or cases for incoming IoT alerts. Device association is optional in Azure IoT Central but required in Connected Customer Service.
 
-## Goal
+This article explains how to associate an IoT device with a customer account. When an IoT alert is received, Connected Customer Service can then create a case or work order.
 
-Associate a device in Connected Customer Service with a customer account so that work orders or cases can be generated against incoming IoT alerts.
+## Associate a device with a customer account
 
-## Steps
+1. In the Connected Customer Service application, select **Devices** from the left navigation pane.
 
-1. In your Connected Customer Service application, select **Devices** from the left pane.  
+1. Select the device that you want to associate with a customer account.
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of "Devices" in the menu](../media/cs-iot-device-page.png)
+   On the device details page, in the **Customer account** field, start typing the name of the customer account.
 
-2. On the **Active Devices** page, select one of the devices that doesn't have an account already associated with it.
+   > <div class="mx-imgBorder">
+   > <img src="../media/cs-iot-central-device-account.png" alt="Device details page showing customer account field" />
+   > </div>
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of a list of IoT devices in Connected Customer Service.](../media/cs-iot-central-associate-devices.png)
+1. Select the customer account, and then select **Save**.
 
-3. On the device detail page, start typing the name of the customer account in the **Account** field.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the account field on the device detail page in Connected Customer Service.](../media/cs-iot-central-device-account.png)
-
-4. Save the changes.
-
-## See the results
-
-This device will now be associated with a customer account, and can receive IoT alerts from Azure IoT Central.
-
+After you save the changes, the device is associated with the selected customer account. Connected Customer Service can now create cases or work orders when it receives IoT alerts for this device from Azure IoT Central.
 
 ### Related information
 
-[Prerequisites for setting up Connected Customer Service for Azure IoT Central](cs-iot-prerequisites.md)<br>
-[Receive IoT alerts in Connected Customer Service from Azure IoT Central](cs-iot-receive-alerts.md)<br>
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Prerequisites for setting up Connected Customer Service for Azure IoT Central](cs-iot-prerequisites.md)  
+[Receive IoT alerts in Connected Customer Service from Azure IoT Central](cs-iot-receive-alerts.md)
