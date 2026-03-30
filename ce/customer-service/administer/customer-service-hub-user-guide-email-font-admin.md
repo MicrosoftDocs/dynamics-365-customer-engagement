@@ -6,7 +6,7 @@ ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
-ms.service: dynamics-365-customer-engagement
+ms.service: dynamics-365-customer-service
 ---
 
 # Customize the email experience
