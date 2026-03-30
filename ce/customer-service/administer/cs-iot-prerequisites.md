@@ -24,11 +24,10 @@ Azure IoT Central provides industry templates that include device models and tel
 
 To create an Azure IoT Central application, perform the following steps:
 
-
 1. Go to [Azure IoT Central](https://azure.microsoft.com/services/iot-central/).
-2. Select **Create a custom app**.
-3. Choose a **Legacy template** or create a custom application from scratch.
-4. Complete the application setup.
+1. Select **Create a custom app**.
+1. Choose a **Legacy template** or create a custom application from scratch.
+1. Complete the application setup.
 
 After the application is created, the Azure IoT Central application home page opens.
 
