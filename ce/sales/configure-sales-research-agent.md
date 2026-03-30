@@ -19,7 +19,7 @@ As an admin, set up and configure the Sales Research Agent in Dynamics 365 Sales
 
 ## Configure Copilot Studio capacity
 
-The agent needs Copilot Studio capacity to run. Ensure that you have enough capacity for the agent. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
+The agent needs Copilot Studio capacity to run. Generating a research blueprint requires 48 credits. Ensure that the environment from which you will be accessing the agent has Copilot credits available to it. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
 
 ## Grant access to the Sales Research Agent
 
@@ -29,6 +29,8 @@ By default, the **Sales Research Agent** menu in the Sales Hub app is only visib
 To grant access to other users, you must assign the **Sales Research Agent Reader** security role to users in the Power Platform Admin Center. Learn more in [Assign a security role to a user](/power-platform/admin/assign-security-roles).
 
 Alternatively, you can create a group team in Power Platform Admin Center, add users to that group, and then assign the **Sales Research Agent Reader** role to that security group. This approach simplifies role management for larger teams. Learn more in [Manage group teams](/power-platform/admin/manage-group-teams).
+
+In addition to this, users will also need to have the appropriate Dynamics 365 Sales licenses to access the agent. Learn more about licensing requirements in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 ## Configure tenant settings
 
@@ -46,7 +48,7 @@ These settings help organizations tailor the feedback experience to their privac
 
 ### Bing search consent
 
-The Sales Research Agent also honors the [Bing search consent setting](/power-platform/admin/geographical-availability-copilot?tabs=new#turn-on-data-movement-bing-search-and-microsoft-365-services-for-copilots-and-generative-ai-features). This means:
+The Sales Research Agent queries Bing only based on the prompt the user submits. The Sales Research Agent also honors the [Bing search consent setting](/power-platform/admin/geographical-availability-copilot?tabs=new#turn-on-data-movement-bing-search-and-microsoft-365-services-for-copilots-and-generative-ai-features). This means:
 
 - If Bing search is **enabled**, the agent can access external web search capabilities to enhance its responses.
 - If Bing search is **disabled**, the agent will operate solely on internal data sources—such as uploaded files or connected Dynamics 365 data—without querying the web.
@@ -57,3 +59,4 @@ This ensures that external data usage is fully controlled by tenant-level polici
 
 - [Analyze your sales performance using the Sales Research Agent](use-sales-research-agent.md)
 - [Frequently asked questions about Sales Research Agent](faqs-sales-research-agent.md)
+- [Responsible AI FAQ about the Sales Research Agent](faqs-about-sales-research-agent.md)

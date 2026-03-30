@@ -21,18 +21,15 @@ The Sales Research Agent is connected to your Dynamics 365 Sales environment by 
 - If you have access to multiple environments, choose the environment that has the data you want to analyze.
 
 - Based on the question you ask, the agent looks through the data source for the most relevant data to answer the question. The agent depends on the metadata available (for example, table, column headers, and descriptions) to help identify the most relevant data. 
-- Make sure that custom tables and fields added to Dynamics 365 Sales have proper descriptions. The agent uses these descriptions to understand the data and provide better insights.
+- Make sure that custom tables and fields added to Dynamics 365 Sales have proper descriptions. The agent uses these descriptions to understand the data and provide better insights. If these descriptions are missing, you might need to add natural language data instructions in a business function. Learn more in [Provide context to enhance the Sales Research Agent](sales-research-agent-provide-context.md).
 - The blueprint generated depends on the data found. If no data is found, then the Sales Research Agent shows an error and might ask if you can rephrase the question.  
 - If you use the AI cursor to ask follow-up questions, the agent considers the same data source to answer it unless you specify a different data source.
 
 ## Connect to a data source
 
-Add the data source using *one* of the following options on the **Sales Research Agent** page:
+Select **Add data** in the **Ask any business question** prompt box to connect to a different data source or upload files.
 
-- Select **Data** at the top-right corner of the page and choose **Add data**.
-- Select **Add data** in the **Ask any business question** prompt box.
-
-    :::image type="content" source="media/sales-research-agent-add-data.png" alt-text="Screenshot of the Add data option in the Sales Research Agent." lightbox="media/sales-research-agent-add-data.png":::
+:::image type="content" source="media/sales-research-agent-add-data.png" alt-text="Screenshot of the Add data option in the Sales Research Agent." lightbox="media/sales-research-agent-add-data.png":::
 
 For Microsoft Fabric Lakehouse connection, review the article [Connect Sales Research Agent to Microsoft Fabric Lakehouse](sales-research-agent-lakehouse-integration.md) for detailed instructions and considerations.
 

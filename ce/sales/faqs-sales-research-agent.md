@@ -20,7 +20,7 @@ ms.reviewer: lavanyakr
 
 You might not be able to access the Sales Research Agent in the following scenarios:
 
-- Your tenant is in a region where the Sales Research Agent is not available. The Sales Research Agent is only available in the European Union (EU) and United States currently. If you're in the EU or United States but still see a notification that the agent isn't available, your tenant's data residency may be outside these regions.
+- Your tenant is in a region where the Sales Research Agent is not available. For a list of supported regions, go to the [International availability report](https://releaseplans.microsoft.com/en-US/availability-reports/?report=featuregeoreport). If you're in one of these geographies or regions but still see a notification that the agent isn't available, your tenant's data residency may be outside these regions.
 - You don't have the required permissions to access the Sales Research Agent. You need the **Sales Research Agent Reader** role to access the agent. 
 - You don't have enough credits in Copilot Studio to use the Sales Research Agent.
 
@@ -40,8 +40,16 @@ You can upload a PDF (.pdf), CSV (.csv), and Excel (.xlsx) file. Learn more in [
 
 ## Which languages are supported by the Sales Research Agent?
 
-Currently, the agent supports only English.
+Blueprints created by the Sales Research Agent are currently supported in English only. However, you can ask questions in other supported languages, and the agent will try to understand and respond in English. For a list of supported languages, go to the [International availability report](https://releaseplans.microsoft.com/en-US/availability-reports/?report=featurelangreport).
+
+## How does the Sales Research Agent handle currency? 
+
+The Sales Research Agent uses the base currency of the Dynamics 365 Sales environment that it is connected to. For analysis using Fabric Lakehouse or uploaded files, the agent infers the currency based on the information available to it through the Lakehouse environment, or based on instructions in general context or any business function applied to the prompt. 
 
 ## Does the agent use Bing to search for information?
 
-Yes, the Sales Research Agent uses Microsoft Bing when it can't find the information in the data sources you provided or if no data sources are provided. The use of Bing is subject to the Bing section of the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
+Yes, the Sales Research Agent uses Microsoft Bing if no data sources are provided. The agent only uses the prompt provided by the user to write the query that goes to Bing Search. The use of Bing is subject to the Bing section of the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
+
+Where can I find the terms of use? 
+
+The use of the Sales Research Agent is subject to the terms outlined in [Microsoft Product Terms](https://www.microsoft.com/en-us/licensing/product-licensing/products).

@@ -22,7 +22,7 @@ Ask the agent a question about your business data, and it will generate a bluepr
 ## Start your research journey
 
 1. In the Sales Hub site map, go to **My Work** > **Sales Research Agent**.  
-   The **Sales Research Agent** page opens with the business functions and suggested research topics in each function.
+   The **Sales Research Agent** page opens with the business functions and suggested research topics in each function. If the page content doesn't load, ensure that you've allowed third-party cookies for this page in your browser.
     > [!NOTE]
     > The agent availability is subject to usage limits and capacity throttling. If your organization doesn't have enough credits, you won't be able to generate a blueprint or interact with it. Reach out to your administrator to increase Copilot Studio capacity.
 
