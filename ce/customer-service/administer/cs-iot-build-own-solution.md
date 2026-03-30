@@ -44,6 +44,6 @@ Use the following resources to learn more about Azure IoT services and Connected
 
 - [Azure IoT product documentation](/azure/iot-hub/)
 - [Azure IoT architecture and analytics concepts](/azure/architecture/browse/?products=iot)
-- [Architecture of Connected Customer Service with Azure IoT Hub](architecture-of-connected-customer-service-with-iot-hub.md)
+- [Architecture of Connected Customer Service with Azure IoT Hub](cs-iot-connected-customer-service-architecture.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
