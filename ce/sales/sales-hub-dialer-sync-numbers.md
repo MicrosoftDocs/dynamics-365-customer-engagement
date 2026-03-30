@@ -213,7 +213,7 @@ Sync-CsOnlineApplicationInstance `
 After the PowerShell sync completes, finalize the phone number records in Dynamics 365.
 
 > [!IMPORTANT]
-> Do not perform this step until all PowerShell commands in the previous section have been executed successfully.
+> Do not perform this step until all PowerShell commands in the previous section have been run successfully.
 
 1. Open the Sales Hub app, and select **Change area** > **Sales Hub Dialer settings**.
 1. Select **Phone numbers** and then select **Manage** > **Advanced**.
