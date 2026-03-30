@@ -12,7 +12,7 @@ ms.custom: ce-admin
 
 # Manage app visibility for Omnichannel users during transition to Copilot Service workspace
 
-During the transition from the Omnichannel for Customer Service app to Copilot Service workspace, you may need to manage app visibility for users who are assigned Omnichannel roles.
+During the transition from the Omnichannel for Customer Service app to Copilot Service workspace, you might need to manage app visibility for users who are assigned Omnichannel roles.
 
 By default, the Copilot Service workspace app is shown to the following Omnichannel user profiles:
 
