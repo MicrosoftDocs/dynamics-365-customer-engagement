@@ -10,7 +10,7 @@ search.audienceType:
 
 # SCA Engage Agent Result (msdyn_dcaengageagentresult) table/entity reference (Microsoft Dynamics 365)
 
-This table displays the outcome of interactions handled by the Engage Agent within the Sales Close Agent - Engage process.
+This table displays the outcome of interactions handled by the Engage Agent within the Sales Close Agent process.
 
 ## Messages
 
