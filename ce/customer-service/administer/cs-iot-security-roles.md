@@ -1,4 +1,3 @@
-
 ---
 title: Security roles for Connected Customer Service
 description: Learn how security roles for Connected Customer Service control access to Internet of Things (IoT) entities such as alerts, devices, assets, and commands.
