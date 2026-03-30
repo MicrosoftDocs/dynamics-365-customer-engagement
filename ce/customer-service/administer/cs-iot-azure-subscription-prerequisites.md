@@ -1,37 +1,35 @@
 ---
-title: "Azure subscription prerequisites for Connected Customer Service with IoTHub | MicrosoftDocs"
-description: "Learn about prerequisites and considerations for your Azure subscription When deploying and administering Connected Customer Service (CFS) with IoTHub."
-ms.date: 08/31/2023
+title: Azure subscription prerequisites for Connected Customer Service with Azure IoT Hub
+description: Learn about Azure subscription prerequisites and considerations when deploying and administering Connected Customer Service with Azure IoT Hub.
+ms.date: 03/30/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ---
 
-# Azure subscription prerequisites for Connected Customer Service with IoTHub
+# Azure subscription prerequisites for Connected Customer Service with Azure IoT Hub
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
-When you're deploying and administering Connected Customer Service with IoTHub, you must make sure of the considerations and prerequisites for your Azure subscription. 
+Whhen you deploy and administer Connected Customer Service with Azure IoT Hub, ensure that your Azure subscription meets the following prerequisites and considerations.
 
 ## Prerequisites 
 
-- You can deploy and administer Connected Customer Service with IoTHub in one Azure tenant only, which should be the home (first) Azure tenant tied to your credentials.
+- You can deploy and administer Connected Customer Service with Azure IoT Hub in only one Azure tenant. This tenant must be the home (primary) Azure tenant associated with your credentials.
 
-- To deploy and administer IotHub, you must have one of the following Azure security roles:
-
-  - Owner in role assignments
+- To deploy and administer Azure IoT Hub, you must have one of the following Azure security roles:
+  - **Owner** (role assignment)
   - One of the following administrator roles:
     - Co-administrator
     - Service administrator
     - Account administrator
 
-- You'll see subscriptions that are tied to your sign-in **primary active directory** only. For example, david@contoso.com will see subscriptions from the contoso.com directory only. If jason@fabrikam.com invites David into their fabrikam.onmicrosoft.com subscription, David won't be able to use the fabrikam subscription on the deployment app.
+- Only subscriptions associated with your **primary Microsoft Entra ID tenant** are visible in the deployment app.  
+  For example, if `david@contoso.com` signs in, only subscriptions from the `contoso.com` directory appear. If `jason@fabrikam.com` invites David to a `fabrikam.onmicrosoft.com` subscription, David cannot use that subscription in the deployment app.
 
-- Organizational Azure accounts only can be used to deploy CCS with IoTHub; personal accounts such as Outlook or Gmail can't be used.
+- Only organizational Azure accounts can be used to deploy Connected Customer Service with Azure IoT Hub. Personal accounts, such as Outlook.com or Gmail, aren't supported.
 
-- Your user must have permission to use the Dynamics API within the Microsoft Entra ID tenant.
-
-
+- Your user account must have permission to use the Dynamics API within the Microsoft Entra ID tenant.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
