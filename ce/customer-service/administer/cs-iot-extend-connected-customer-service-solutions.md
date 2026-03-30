@@ -1,4 +1,3 @@
-
 ---
 title: Extend Connected Customer Service solutions
 description: Customize Connected Customer Service by extending standard components and adding custom Azure-based services.
