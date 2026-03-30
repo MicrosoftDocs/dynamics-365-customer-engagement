@@ -18,11 +18,7 @@ This article explains how to associate an IoT device with a customer account so 
 
 1. In the Connected Customer Service application, select **Devices** from the left navigation pane.
 
-   > <div class="mx-imgBorder">
-   > <img src="../media/cs-iot-central-active-devices.png" alt="Active devices list in Connected Customer Service" />
-   > </div>
-
-2. Select the device that you want to associate with a customer account.
+1. Select the device that you want to associate with a customer account.
 
    On the device details page, in the **Customer account** field, start typing the name of the customer account.
 
