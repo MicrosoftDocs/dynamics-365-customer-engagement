@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 Authorizing API connections enables Azure Logic Apps to read and write data. This authorization allows IoT alerts, device data, and commands to flow between Azure IoT Hub and Customer Service. You must complete this authorization step when you deploy Connected Customer Service for Azure IoT Hub by using the [IoT deployment app](https://iotdeployment.dynamics.com/).
 
-Without completing this step, you won't be able to:
+Without completing this step, you can't do the following actions:
 
  - Send Iot alerts from IoT Hub to Customer Service
  - Add a device in Customer Service and register it in IoT Hub
