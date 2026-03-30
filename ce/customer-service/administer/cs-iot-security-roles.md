@@ -1,8 +1,9 @@
+
 ---
-title: "Security roles for Connected Customer Service | MicrosoftDocs"
-description: "Learn how security roles for Connected Customer Service allow administrators to give appropriate access to Internet of Things (IoT) entities."
-ms.date: 04/03/2020
-ms.topic: upgrade-and-migration-article
+title: Security roles for Connected Customer Service
+description: Learn how security roles for Connected Customer Service control access to Internet of Things (IoT) entities such as alerts, devices, assets, and commands.
+ms.date: 03/30/2026
+ms.topic: concept-article
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -10,26 +11,31 @@ ms.reviewer: laalexan
 
 # Security roles for Connected Customer Service
 
-Security roles for Connected Customer Service allow administrators to give appropriate access to Internet of Things (IoT) entities, including alerts, assets, devices, and commands, which are all included with Customer Service 9.0.20034.20XX +. These security roles should be added to existing Customer Service security roles. 
+Security roles for Connected Customer Service control user access to Internet of Things (IoT) entities, including alerts, devices, assets, and commands. These entities are included with Customer Service version 9.0.20034.xx and later.
 
-1. Customer Service Representative who needs to work with device registration and device data pulls (IoT Hub operations). 
-- CSR should be given the IoT Administrator and IoT Endpoint User security roles. General knowledge of Customer Service security roles. For more information, see the topic on setting up customer service users and security roles. 
+The Connected Customer Service–specific roles are intended to be added to existing Customer Service security roles, based on how users interact with IoT data.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of device management.](../media/cs-iot-entities-navbar.png)
+## Service representatives working with IoT devices and alerts
 
-In general, access to IoT entities should mimic access to the customer asset entity for field service administrators, dispatchers, and resources.
+Customer service representatives who register devices, view device data, or work with IoT alerts require access to IoT entities that support these activities.
 
-2. A Customer Service administrator who needs to can set up IoT Configuration. 
-- The CSR admin should be granted Dynamics 365 system administrator access. 
+Assign the following roles in addition to their existing Customer Service role:
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an admin security role.](../media/cs-iot-admin-security-role.png)
+- **IoT Administrator**
+- **IoT Endpoint User**
 
+These roles allow service representatives to view and manage device data, alerts, and related operations that originate from Azure IoT integrations.
 
+[!div class="mx-imgBorder"]
+![Screenshot of IoT device management navigation.](../media/cs-iot-entities-navbar.png)
 
+In general, access to IoT entities should align with access to customer asset records for roles such as service representatives, dispatchers, and administrators.
 
+## Administrators configuring IoT settings
 
+Administrators who configure and manage Connected Customer Service and IoT integrations must have broader permissions. The **System Administrator** role is required to configure IoT settings, manage integrations, and administer related entities for Connected Customer Service.
 
+[!div class="mx-imgBorder"]
+![Screenshot showing an administrator security role.](../media/cs-iot-admin-security-role.png)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
