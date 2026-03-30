@@ -153,6 +153,8 @@
           href: calculate-session-metrics.md
         - name: Calculate representative metrics
           href: calculate-representative-metrics.md
+      - name: Dataverse tables used in historical and real-time analytics
+        href: dataverse-entities.md
       - name: Extend Customer Service
         items: 
         - name: Extend Omnichannel for Customer Service

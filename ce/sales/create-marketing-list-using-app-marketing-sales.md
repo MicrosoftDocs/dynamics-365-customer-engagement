@@ -1,7 +1,7 @@
 ---
 title: Create a marketing list using in-app marketing
 description: A marketing list can include any one type of customer record, such as leads, accounts, or contacts. Add members to the list statically or dynamically.
-ms.date: 05/28/2025
+ms.date: 03/12/2026
 ms.update-cycle: 1095-days
 ms.topic: how-to
 author: lavanyakr01
@@ -69,10 +69,10 @@ You can manage members in a static marketing list by using one of the following 
 
 This option allows you to add members to a marketing list by searching through the records.
 
-1. Open a marketing list, select the three-dot menu on the command bar.
-2. Select the right arrow next to **Manage Members**, and then select **Add using Lookup**.
-3. In the **Lookup Records** dialog box, select your search criteria.
-4. Select the records that you want to add, and then select **Add**.
+1. Open a marketing list.
+1. On the command bar, select **Manage Members** > **Add using Lookup**.
+1. In the **Lookup Records** dialog box, select your search criteria.
+1. Select the records that you want to add, and then select **Add**.
 
 ### Add using Advanced Find
 
@@ -81,27 +81,24 @@ This option allows you to add members to a marketing list in bulk based on a sea
 1. Open a marketing list, select the three-dot menu on the command bar.
 2. Select the right arrow next to **Manage Members** and then select **Add using Advanced Find**.
 3. In the **Add members using advanced find** dialog box, the entity that the marketing list is targeted at is automatically selected.
-4. In the **Use Saved View** drop-down box, select a view for the selected entity, which will be used for filtering.
-5. Select **Add**, and then select **Add row**, to define the search criteria. For example, to find all the contacts in the Seattle city, in the first box select the field as **Address 1: City**. Then, in the second box, select the query relational operator as **Equals**. In the third box, type **Seattle**. You can select fields from the current record type, or from related record types.
-6. Select **Find**.
-7. Select the members that you want to add, and then select one of the following options:
-    - Add only selected
-    - Add all
+1. In the **Use Saved View** drop-down box, select a view for the selected entity. The filter criteria defined in the view are displayed in the filter area. You can use the existing filter criteria or modify them to meet your needs. 
+1. If you want to filter further, select **Add**, and then select **Add row**, to define the search criteria. For example, to find all the contacts in the Seattle city, in the first box select the field as **Address 1: City**. Then, in the second box, select the query relational operator as **Equals**. In the third box, type **Seattle**. You can select fields from the current record type, or from related record types.
+   :::image type="content" source="media/advanced-find-marketing-list.png" alt-text="Screenshot of the Add members using advanced find dialog box with the targeted entity pre-selected.":::
+1. Select **Find**.
+   A list of records that match the search criteria is displayed.
+1. Select **Add all** to add all the records or select the records that you want to add and then select **Add selected**.
 
 ### Remove using Advanced Find
 
 This option allows you to remove members from a marketing list in bulk based on a search criteria.
 
-1. Open a marketing list, select the three-dot menu on the command bar.
-2. Select the right arrow next to **Manage Members**, and then select **Remove using Advanced Find**.
-3. In the **Remove members using advanced find** dialog box, the entity that the marketing list is targeted at is automatically selected.
-4. In the **Use Saved View** drop-down box, select a view for the selected entity, which will be used for filtering.
-5. Select **Add**, and then select **Add row**, to define the search criteria. For example, to find all the contacts in the Seattle city, in the first box select the field as **Address 1: City**. Then, in the second box, select the query relational operator as **Equals**. In the third box, type **Seattle**. You can select fields from the current record type, or from related record types.
-6. Select **Find**.
-7. Select the members that you want to remove, select one of the following options:
-
-    - Remove only selected
-    - Remove all
+1. Open a marketing list, 
+1. On the command bar, select **Manage Members** > **Remove using Advanced Find**.
+1. In the **Remove members using advanced find** dialog box, the entity that the marketing list is targeted at is automatically selected.
+1. In the **Use Saved View** drop-down box, select a view for the selected entity. The filter criteria defined in the view are displayed in the filter area. You can use the existing filter criteria or modify them to meet your needs.
+1. If you want to filter further, select **Add**, and then select **Add row**, to define the search criteria. 
+1. Select **Find**.
+1. Select **Remove all** to remove all the records or select the records that you want to remove and then select **Remove selected**.
     
 > [!NOTE]
 > For the better performance of application and avoid time outs, remove the members in the marketing list in groups of 10000 at a time. For example, if there are 20,000 members in a marketing list and you want to remove the members. Remove 10,000 members first and then remove the other 10000.
@@ -110,36 +107,32 @@ This option allows you to remove members from a marketing list in bulk based on 
 
 After you add members to a marketing list, you can evaluate which members to keep in the marketing list based on search criteria. This option is useful when you want to keep only those members who meet certain criteria.
 
-1. Open a marketing list, select the three-dot menu on the command bar.
-2. Select the right arrow next to **Manage Members**, and then select **Evaluate using Advanced Find**.
-3. In the **Evaluate members using advanced find** dialog box, the entity that the marketing list is targeted at is automatically selected.
-4. In the **Use Saved View** drop-down box, select a view for the selected entity, which will be used for filtering.
-5. Select **Add**, and then select **Add row**, to define the search criteria. For example, to find all the contacts in the Seattle city, in the first box select the field as **Address 1: City**. Then, in the second box, select the query relational operator as **Equals**. In the third box, type **Seattle**. You can select fields from the current record type, or from related record types.
-6. Select **Find**.
-7. Select the members that you want to keep, select one of the following options:
-    - Keep only selected
-    - Keep all
+1. Open a marketing list. 
+1. On the command bar, select **Manage Members** > **Evaluate using Advanced Find**.
+1. In the **Evaluate members using advanced find** dialog box, the entity that the marketing list is targeted at is automatically selected.
+1. In the **Use Saved View** drop-down box, select a view for the selected entity. The filter criteria defined in the view are displayed.
+1. If you want to filter further, select **Add**, and then select **Add row**, to define the search criteria. 
+1. Select **Find**.
+1. Select **Keep all** to keep all the records or select the records that you want to keep and then select **Keep selected**. The records that you don't select are removed from the marketing list.
     
 ## Define the member selection criteria for a dynamic marketing list
 
-1. Open a marketing list, select the three-dot menu on the command bar, and then select **Manage Members**.
-2. In the **Manage Dynamic List Members** dialog box, the entity that the marketing list is targeted at is automatically selected.
-3. In the **Use Saved View** drop-down box, select a view for the selected entity, which will be used for filtering.
-4. Select **Add**, and then select **Add row**, to define the search criteria. For example, to find all the contacts in the Seattle city, in the first box select the field as **Address 1: City**. Then, in the second box, select the query relational operator as **Equals**. In the third box, type **Seattle**. You can select fields from the current record type, or from related record types.
-5. Select **Find**.
-6. Select **Use Query** to add the matching records to your marketing list.
+1. Open a dynamic marketing list.
+1. On the command bar, select **Manage Members**.
+1. In the **Manage Dynamic List Members** dialog box, the entity that the marketing list is targeted at is automatically selected.
+1. In the **Use Saved View** drop-down box, select a view for the selected entity. The filter criteria defined in the view are displayed.
+1. If you want to filter further, select **Add**, and then select **Add row**, to define the search criteria. For example, to find all the contacts in the Seattle city, in the first box select the field as **Address 1: City**. Then, in the second box, select the query relational operator as **Equals**. In the third box, type **Seattle**. You can select fields from the current record type, or from related record types.
+1. Select **Find**.
+1. Select **Use Query** to add the matching records to your marketing list.
    The list of members is updated each time you open or use the list, based on the search criteria you set.
 
-## Associate campaigns or quick campaigns to a marketing list
+## Associate an existing campaign to a marketing list
 
-After you create a campaign or quick campaign, you can associate it to your marketing list. You can also create a new campaign or quick campaign from your marketing list.
+1. Open a marketing list.
+1. In the **Campaigns** area on the **Summary** tab, select **Add Existing Campaign** and search for the campaign you want to associate to this marketing list.
+1. Select the campaign, and then select **Add**.
 
-1. In the **Campaigns** or **Quick Campaigns** area, select **New Campaign** or **New Quick Campaign**.
-2. Search for the campaign or quick campaign you want to associate to this marketing list.
-
-  > [!NOTE]
-  > - If you don't have any campaigns, or if you want to create a new one, you can select **New**.
-  > - If you don't have any quick campaigns, the Quick Campaign Wizard starts.
+You can't associate an existing quick campaign to a marketing list. You must create the quick campaign from the marketing list to have it associated with the marketing list. For more information, see [Create a quick campaign using in-app marketing](create-quick-campaign-using-app-marketing-sales.md).
 
 ## Customized marketing list form
 

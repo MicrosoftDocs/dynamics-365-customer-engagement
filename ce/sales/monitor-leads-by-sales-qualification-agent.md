@@ -26,8 +26,10 @@ As a supervisor or administrator, you can monitor the performance of the Sales Q
 1. Under General settings, select **Dynamics 365 AI hub**. If you have trouble finding or accessing the AI hub, it might be due to permission restrictions. Learn more in [Access Dynamics 365 AI Hub](dynamics-365-ai-hub.md)
 1. In the **AI optimization hub** card, select **See insights**.  
    The Agent insights page opens with the available insights for the agents configured in your organization.
+   :::image type="content" source="media/agent-optimization-metrics-page.png" alt-text="Screenshot of the agent insights page with a list of agents and insights.":::
 1. Verify the **Last refreshed** date and time to ensure the data is up-to-date. The data is refreshed when you open the dashboard. If needed, you can refresh the dashboard by selecting the **Refresh** icon.
-1. Select the **Time period** for which you want to view the data and select **Apply filter**. By default, the dashboard shows data for the last 7 days.
+1. Select **Sales Qualification Agent** from the list of agents. 
+1. Select the **Time period** for which you want to view the data and select **Apply filters**. By default, the dashboard shows data for the last 7 days.
 1. To view the list of leads handled by the agent, select the **View leads category** drop-down, and then choose any of the following options:
 
     > [!NOTE]
@@ -130,3 +132,8 @@ If your admin has configured the Sales Qualification Agent to run in research an
     
     - **Positive buying interest**: The percentage of leads that were handed over to the seller with positive buying interest, compared to the total number of leads processed by the agent. You can also see the number of leads with positive, negative, and undetected intent. This metric is calculated as Leads handed over with positive buying interest ÷ Total leads processed by agent × 100.
     - **Top accounts**: Displays the accounts with the highest number of leads handled by the agent during the selected time period.
+
+## Related information
+
+- [Work on leads handed over by the Sales Qualification Agent](use-sales-qualification-agent.md)
+- [FAQs about Sales Qualification Agent](sales-qualification-agent-faq.md)

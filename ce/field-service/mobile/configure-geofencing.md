@@ -16,7 +16,7 @@ In Dynamics 365 Field Service, the default use case for geofencing is to create 
 
 ## Prerequisites
 
-- [Connect to Bing Maps](../field-service-maps-address-locations.md#connect-to-maps) to locate service accounts
+- [Connect to Maps](../field-service-maps-address-locations.md#connect-to-maps) to locate service accounts
 
 - [Set up auto geocoding for addresses](../turn-on-auto-geocoding.md) to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required to place geofences.
 

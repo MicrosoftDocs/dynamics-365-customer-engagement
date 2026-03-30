@@ -25,7 +25,7 @@ Model Context Protocol (MCP) is a standard that enables AI agents and assistants
 The following tools are currently available in the Sales MCP server:
 
 - [Sales Qualification Agent capabilities](sales-qualification-agent-tools.md)
-- [Sales Close Agent - Research capabilities](sales-close-agent-research-tools.md)
+- [Sales Opportunity Agent capabilities](sales-close-agent-research-tools.md)
 - [Copilot in Dynamics 365 Sales capabilities](copilot-in-sales-tools.md)
 
 In addition, the Sales MCP server also supports tools for performing CRUD operations on Dataverse records, which can be used across various sales scenarios. Learn more about the supported Dataverse MCP server tools in [Connect to Dataverse with Model Context Protocol](/power-apps/maker/data-platform/data-platform-mcp).

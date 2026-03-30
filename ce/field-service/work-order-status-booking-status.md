@@ -1,7 +1,7 @@
 ---
 title: Work order lifecycle and system statuses
 description: Track the status of a work order in its lifecycle with system statuses, substatuses, and booking statuses.
-ms.date: 02/02/2026
+ms.date: 03/17/2026
 ms.topic: concept-article
 author: lmasieri
 ms.author: lmasieri
@@ -26,7 +26,7 @@ Work orders use system statuses, work order substatuses, and booking statuses to
 
 **Work Order Substatuses** appear on the `workorder` entity. They relate to and provide more detail for work order system statuses. Each organization creates custom work order substatuses to communicate more granular and meaningful information about the state of a work order.
 
-**Booking Statuses** appear on the `bookableresourcebooking` entity. Field technicians update them on the Field Service mobile app to track their progress for a specific work order. Additionally, the schedule board visualizes booking statuses with a distinct color and icon. A few booking statuses are introduced by default, though you can add more custom ones. Out of the box, the booking statuses are just records. You can modify or remove them if they're not meaningful to your process. The **Booking Statuses** available out of the box are:
+**Booking Statuses** appear on the `bookableresourcebooking` entity. Field technicians update them on the Dynamics 365 Field Service mobile app to track their progress for a specific work order. Additionally, the schedule board visualizes booking statuses with a distinct color and icon. A few booking statuses are introduced by default, though you can add more custom ones. Out of the box, the booking statuses are just records. You can modify or remove them if they're not meaningful to your process. The **Booking Statuses** available out of the box are:
 
 - Scheduled
 - Traveling
@@ -77,7 +77,7 @@ The default work order and booking statuses map to the following stages of the w
 
 1. Technicians indicate break time by changing the booking status to *On Break* to ensure accurate billing.
 
-1. When the work is complete, the technician changes the booking status to *Completed*. The duration is updated to the actual duration of the booking, and the end time is updated to reflect the time the status was changed to completed. The related work order system status changes to *Completed* when all related bookings are completed or canceled. If another user updates the booking status to *Completed* on behalf of a technician, the booking’s end time preserves the existing end time value.
+1. When the work is complete, the technician changes the booking status to *Completed*. The duration updates to the actual duration of the booking, and the end time updates to reflect the time the status changed to completed. The related work order system status changes to *Completed* when all related bookings are completed or canceled. If another user updates the booking status to *Completed* on behalf of a technician, the booking’s end time preserves the existing end time value.
 
 1. Finally, a back-office worker reviews the completed work order and starts the billing process. They change the work order system status to *Posted*. If products and services were used, this status triggers **Invoice** generation, depending on the system's configuration in Field Service Settings.
 
@@ -111,7 +111,7 @@ Every booking status change creates a booking timestamp to keep track of the upd
 
 #### Traveling
 
-- When a technician updates a booking to a *Traveling* booking status from the mobile app, the **Start time** is updated to the current time. When they update the status from web, the start time isn't automatically updated.
+- When a technician updates a booking to a *Traveling* booking status from the mobile app, the **Start time** updates to the current time. When they update the status from web, the start time isn't automatically updated.
 
 #### In Progress
 
@@ -135,7 +135,7 @@ Every booking status change creates a booking timestamp to keep track of the upd
 
 Save time and communicate the status of the work accurately on work orders that require follow-up by returning them to an unscheduled state after completing a booking.
 
-By default, work orders are set to completed when the associated booking gets completed. To change the default logic, [create or edit a booking status](set-up-booking-statuses.md), go to the **Field Service** tab and set the *Status completes work order* toggle accordingly. On existing booking statuses, the setting only impacts future bookings. No changes are made to existing bookings.
+By default, the system sets work orders to completed when the associated booking gets completed. To change the default logic, [create or edit a booking status](set-up-booking-statuses.md), go to the **Field Service** tab and set the *Status completes work order* toggle accordingly. On existing booking statuses, the setting only impacts future bookings. No changes are made to existing bookings.
 
 - **On** marks a work order *Completed* when the booking changes to that status.
 - **Off** applies the work order system status according to [status mapping table](#status-mapping-table) when the booking changes to that status.
@@ -165,6 +165,10 @@ Review the following table to understand how the booking status maps to the work
 |  Booking1: In Progress <br>Booking2: Partially Completed   | In Progress  |
 |  Booking1: Completed <br>Booking2: Partially Completed  | Completed  |
 |  Booking1: Canceled <br>Booking2: Partially Completed   | **Unscheduled**  |
+
+## Record deactivation behavior
+
+When you deactivate a parent record, such as a work order in Field Service, the system doesn't automatically deactivate its child records. Existing products, services, time entries, and actuals remain in place. To remove or update them, you must act on each record directly. This behavior preserves historical data.
 
 ## Next steps
 

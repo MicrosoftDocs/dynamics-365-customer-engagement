@@ -128,7 +128,7 @@ Routing rules for a workstream consists of work classification rules and route-t
 [Understand how unified routing affects queue items and live work items for routed records](../develop/unified-routing-impact-on-APIs.md)  
 [How to close live work items or deactivate queue items](../develop/deactivate-queue-items.md)  
 [Release capacity for representatives](capacity-profiles.md#release-capacity-for-representatives)  
-[FAQ about time taken by configuration changes in unified routing](faqs.md#how-long-does-a-configuration-change-to-the-omnichannel-for-customer-service-and-unified-routing-settings-take-to-update)  
+[FAQ about time taken by configuration changes in unified routing](faqs.md#how-long-does-a-configuration-change-to-the-dynamics-365-contact-center-and-unified-routing-settings-take-to-update)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

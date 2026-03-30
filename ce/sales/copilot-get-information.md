@@ -21,21 +21,6 @@ ms.collection: bap-ai-copilot
 
 Use Copilot to get information about your pipeline, summarize your opportunities, leads, and accounts, and get the latest news about your accounts. You can either use predefined prompts or ask questions in natural language. This article describes some of the prompts that you can use to get information from Copilot. [Learn more about chatting with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL).
 
-<a name="copilot-show-pipeline"></a>
-## Show my pipeline
-
-Copilot provides a list of open opportunities that are assigned to you, sorted by the estimated close date.
-
-1. [Open Copilot](use-sales-copilot.md#open-copilot), and then select **View Prompts** above the Copilot chat box.
-
-1. Select **Get info** > **Show my pipeline**, and then press Enter.
-
-## Would you like to view a summary of different fields?
-
-Copilot generates its summary from a set of predefined fields. However, other fields might be more important to you. For example, you might want to see estimated revenue, close date, contact, pipeline stage, and proposed solution as the first things in an opportunity. Work with your Dynamics 365 Sales administrator to [add those fields to the summary](copilot-configure-summary-fields.md).
-
-Keep in mind that the summary fields are set at the organization level. Make sure that your entire sales team agrees on the *top 15* fields that are most relevant for your business.
-
 <a name="copilot-get-news"></a>
 
 ## Show the latest news about an account
@@ -44,8 +29,8 @@ Copilot can get the latest news that features or mentions your accounts, curated
 
 You can use the latest news feature only if the following conditions are met:  
 
-- Your admin provides consent for Copilot to use Bing search. Learn more in [provide consent for Copilot to use Bing search](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).  
-- You don't turn off the Bing search. Learn more in [Turn off Bing search](use-sales-copilot.md#turn-off-bing-search).
+- Your admin provided consent for Copilot to use Bing search. Learn more in [provide consent for Copilot to use Bing search](/power-platform/admin/geographical-availability-copilot#turn-on-data-movement-bing-search-and-microsoft-365-services-for-copilots-and-generative-ai-features).  
+- You didn't turn off the Bing search. Learn more in [Turn off Bing search](use-sales-copilot.md#turn-off-bing-search).
 
 >[!NOTE]
 >When Bing‑powered skills are enabled, Copilot in Dynamics 365 Sales follows the [data protection and privacy policies](/copilot/privacy-and-protections).

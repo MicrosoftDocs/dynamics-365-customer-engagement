@@ -30,7 +30,7 @@ Using the elements of a goal, you define how bookings should be optimized.
 
    - **Travel Time Calculation**: The method of calculating travel distance between resources and requirements.
 
-      When using Bing Maps, you can include historical traffic information to get more accurate travel time estimates based on past traffic patterns. This option doesn't account for real-time disruptions like road maintenance or accidents. It results in longer processing times and supports up to 500 requirements in the optimization scope. If you have more requirements, split them into smaller chunks and create separate optimization goals with historical traffic for each scope. Due to the longer processing time, it's best to use this option for schedules that run automated off business hours.
+      When using maps, you can include historical traffic information to get more accurate travel time estimates based on past traffic patterns. This option doesn't account for real-time disruptions like road maintenance or accidents. It results in longer processing times and supports up to 500 requirements in the optimization scope. If you have more requirements, split them into smaller chunks and create separate optimization goals with historical traffic for each scope. Due to the longer processing time, it's best to use this option for schedules that run automated off business hours.
 
    - [**Constraints**](#understand-constraints): Restrictions that are imposed on the bookings that the system creates.
 

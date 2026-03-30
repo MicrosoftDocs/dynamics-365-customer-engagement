@@ -35,7 +35,7 @@ Review default settings for the Field Service app.
 
 Field Service needs latitude and longitude values for service account records to estimate travel times when scheduling a work order to a resource.
 
-1. Make sure the environment is [connected to the Bing Maps service](field-service-maps-address-locations.md#connect-to-maps).
+1. Make sure the environment is [connected to the map service](field-service-maps-address-locations.md#connect-to-maps).
 
 1. [Enable **Auto Geo Code Addresses**](turn-on-auto-geocoding.md) to let the system help assign coordinates to an address.
 

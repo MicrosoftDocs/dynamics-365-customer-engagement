@@ -136,5 +136,5 @@ The following screenshot includes the truncated version of the output from Visua
 ## Related information
 
 - [MCP tools for Sales Qualification Agent capabilities](sales-qualification-agent-tools.md)
-- [MCP tools for Sales Close Agent - Research capabilities (preview)](sales-close-agent-research-tools.md)
+- [MCP tools for Sales Opportunity Agent capabilities (preview)](sales-close-agent-research-tools.md)
 - [MCP tools for Copilot in Dynamics 365 Sales](copilot-in-sales-tools.md)

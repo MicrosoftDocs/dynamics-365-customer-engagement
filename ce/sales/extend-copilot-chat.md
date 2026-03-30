@@ -27,7 +27,7 @@ Customize Copilot chat to make it more intelligent and relevant for your organiz
 
 ## Prerequisites for customization
 
-To customize Copilot in Dynamics 365 Sales, you must have the **Copilot Studio Author** role. Contact your tenant administrator to assign the role to you in the Power Platform Admin Center. To know more about the role, see [Copilot Studio authors](/microsoft-copilot-studio/billing-licensing#copilot-studio-authors).  
+To customize Copilot in Dynamics 365 Sales, you must have the **Copilot Studio Author** role. Contact your Power Platform administrator to assign the role to you in the Power Platform Admin Center. To know more about the role, see [Copilot Studio authors](/microsoft-copilot-studio/billing-licensing#copilot-studio-authors).  
 
 
 ## Customize Copilot using Copilot Studio (preview)

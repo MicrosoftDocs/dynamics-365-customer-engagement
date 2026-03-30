@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 02/13/2026
+ms.date: 03/20/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -149,6 +149,50 @@ To allow the AI agent to autonomously create cases across all provisioned messag
 1. Go to **Case creation and update** > **Case creation by AI agent (from chats and calls)** and select **Make Case Processing Agent available for case creation from conversations**.
 1. In **Fields for AI prediction**, specify the fields the agent predicts and populates in the case form using information from the conversation. The AI agent populates only those fields that have sufficient context available.
 
+## Configure AI-assisted case creation for service representatives
+
+Select the channels from which service representatives can create cases with AI assistance. You can select **Email** or **Conversation (chats and calls)**. When a service representative creates a case from a conversation or an email, the AI agent analyzes the conversation or email, and then predicts and populates the fields available on the case form. Service representatives can then review the predicted values and make any necessary changes before saving the case.
+
+## Enable service representatives to use autonomous Case Management Agent
+
+For service representatives to use Case Management Agent in Copilot Service workspace, allow the autonomous case creation and update, case follow-up, and closure in **agent experience profiles**.
+
+By default, service representatives added to the out-of-the-box experience profiles can use the autonomous Case Management Agent.
+
+1. Go to **Experience profiles** using one of the following navigation options:
+   - **Support experience** > **Workspaces**
+   -  Select **Manage** for **Case Management Agent**, and then select **agent experience profiles** in **Case creation and update** > **Representative access**.
+2. Select the required experience profile.
+3. In the **Copilot AI features** section, do the following actions:
+     - Select **From conversations** in **Autonomous case creation and update**.
+     - In **Form fill assistance for cases** select **During case creation from conversation** and **During case creation from email** to indicate which channels the AI agent can assist service representatives in creating cases.
+  
+## Record representative interactions with the AI agent
+
+In **Agent experience data from Representative experience data**, you can select **Record transcripts of representative interactions with AI, including representative actions, and their feedback on AI suggestions** to record and understand how representatives are interacting with the AI agent and how the agent is performing in a support organization. Representatives can also share feedback about AI agent actions, which helps Copilot perform better. You can also download and use the data to analyze knowledge sources, and build usage reports.
+
+### Example
+
+When a customer initiates a chat conversation with the service representative, the AI agent creates a case if there's enough context to update at least one of the **Issue description** or **Contact** fields.
+
+For the agent to run this scenario, specify the following in the **Case creation and update** page:
+ 
+- **Channel**: Chat  
+- **Fields for AI prediction**: Issue description, Contact  
+
+When the conversation ends, the AI agent must update the **Issue description** and **Contact** fields, if there are any updates. The **Product**, **Priority**, and **Serial number** fields should also be updated if the case category is set to **product defect**. 
+
+For the agent to run this scenario, in addition to the **Issue description** and **Contact** fields set in **Fields for AI prediction**, specify the following in the **Case update by AI agent (any channel)** section:
+
+- Select **Create** for **Case update rules**. 
+- In the **New rule** page, specify the **Rule name** and the following:
+  - In **Define conditions**, select **Add** and then specify the following:
+    - **Select a field:** Case category  
+    - **Operator:** Equals  
+    - **Value:** Product defect  
+  - Specify fields for AI prediction when this condition is met:  
+    - **Product**, **Priority**, **Serial number**
+
 ##  Run simulations to evaluate field prediction accuracy in Case Management Agent
 
 Use simulation in Case Management Agent to validate the performance of AI‑powered field prediction on your organization’s historical data, sample email, or chat input. Assess prediction quality for confidence in the output before you enable the capability in production.
@@ -208,49 +252,18 @@ On the **Case creation and update simulation** page, go to the **Simulation resu
 - Refine field descriptions whenever prediction errors show recurring patterns.
 - Test chats or emails with Excel files before launch. 
 
-## Configure AI-assisted case creation for service representatives
+## Enable shadow mode and view results (preview)
 
-Select the channels from which service representatives can create cases with AI assistance. You can select **Email** or **Conversation (chats and calls)**. When a service representative creates a case from a conversation or an email, the AI agent analyzes the conversation or email, and then predicts and populates the fields available on the case form. Service representatives can then review the predicted values and make any necessary changes before saving the case.
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-## Enable service representatives to use autonomous Case Management Agent
+Use shadow mode to evaluate predicted actions from Case Management Agent on live cases without sending emails or updating records.
 
-For service representatives to use Case Management Agent in Copilot Service workspace, allow the autonomous case creation and update, case follow-up, and closure in **agent experience profiles**.
+> [!NOTE]
+> Shadow mode consumes Copilot or AI credits in the same way as regular field predictions.
 
-By default, service representatives added to the out-of-the-box experience profiles can use the autonomous Case Management Agent.
-
-1. Go to **Experience profiles** using one of the following navigation options:
-   - **Support experience** > **Workspaces**
-   -  Select **Manage** for **Case Management Agent**, and then select **agent experience profiles** in **Case creation and update** > **Representative access**.
-2. Select the required experience profile.
-3. In the **Copilot AI features** section, do the following actions:
-     - Select **From conversations** in **Autonomous case creation and update**.
-     - In **Form fill assistance for cases** select **During case creation from conversation** and **During case creation from email** to indicate which channels the AI agent can assist service representatives in creating cases.
-  
-## Record representative interactions with the AI agent
-
-In **Agent experience data from Representative experience data**, you can select **Record transcripts of representative interactions with AI, including representative actions, and their feedback on AI suggestions** to record and understand how representatives are interacting with the AI agent and how the agent is performing in a support organization. Representatives can also share feedback about AI agent actions, which helps Copilot perform better. You can also download and use the data to analyze knowledge sources, and build usage reports.
-
-### Example
-
-When a customer initiates a chat conversation with the service representative, the AI agent creates a case if there's enough context to update at least one of the **Issue description** or **Contact** fields.
-
-For the agent to run this scenario, specify the following in the **Case creation and update** page:
- 
-- **Channel**: Chat  
-- **Fields for AI prediction**: Issue description, Contact  
-
-When the conversation ends, the AI agent must update the **Issue description** and **Contact** fields, if there are any updates. The **Product**, **Priority**, and **Serial number** fields should also be updated if the case category is set to **product defect**. 
-
-For the agent to run this scenario, in addition to the **Issue description** and **Contact** fields set in **Fields for AI prediction**, specify the following in the **Case update by AI agent (any channel)** section:
-
-- Select **Create** for **Case update rules**. 
-- In the **New rule** page, specify the **Rule name** and the following:
-  - In **Define conditions**, select **Add** and then specify the following:
-    - **Select a field:** Case category  
-    - **Operator:** Equals  
-    - **Value:** Product defect  
-  - Specify fields for AI prediction when this condition is met:  
-    - **Product**, **Priority**, **Serial number**
+1. On the **Case creation and update** page, in **Case update by AI agent (any channel)**, select a case update rule.
+1. Select **Shadow mode** from the toolbar. The rule status changes to **Shadow mode**.
+1. Select **Review shadow runs** from the **Command** menu. On the **Case creation and update shadow mode results** page, you can view the old and new value for the cases. Responses are grouped by case. Expand a case to view all shadow responses associated with it.
 
 ## Next steps
 

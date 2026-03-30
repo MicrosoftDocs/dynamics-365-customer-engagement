@@ -87,8 +87,6 @@ additionalContent:
       links:
       - url: administer/add-enhanced-case-management.md
         text: Customize the case resolution experience
-      - url: administer/omnichannel-customizer.md
-        text: Customize forms for your agents and supervisors
       - url: administer/analytics_overview.md
         text: Customize analytics and insights
       - url: administer/model-customize-reports.md

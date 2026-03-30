@@ -1,14 +1,10 @@
 ---
-title: Test the Sales Close Agent - Engage (preview)
-description: Learn how to test the Sales Close Agent - Engage using the AI Setup Assistant in Dynamics 365 Sales.
+title: Test the Sales Close Agent (preview)
+description: Learn how to test the Sales Close Agent in a simulated environment to evaluate its performance in real-world scenarios without impacting actual data. 
 ms.date: 01/09/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
+ms.custom: bap-template
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -17,11 +13,11 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Test the Sales Close Agent - Engage (preview)
+# Test the Sales Close Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-When you test the agent, you can check how the Sales Close Agent - Engage interacts with a potential customer. You can review the outreach email content, tone, and structure. You can also see how the agent responds to customer replies. For example, you can test how the agent handles questions about product features, pricing, or availability through chat by providing sample customer replies.  
+When you test the agent, you can check how the Sales Close Agent interacts with a potential customer. You can review the outreach email content, tone, and structure. You can also see how the agent responds to customer replies. For example, you can test how the agent handles questions about product features, pricing, or availability through chat by providing sample customer replies.  
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -41,13 +37,13 @@ You can simulate interactions between the Sales Close Agent and a customer. This
 
 1. Choose one of the following ways to open the test chat pane:  
 
-    - From the **Sales Close Agent - Engage** settings page, select **Test**.  
-        :::image type="content" source="media/sca-engage-settings-test-option.png" alt-text="Sales Close Agent - Engage settings page showing the option to test the agent.":::
+    - From the **Sales Close Agent** settings page, select **Test**.  
+        :::image type="content" source="media/sca-engage-settings-test-option.png" alt-text="Sales Close Agent settings page showing the option to test the agent.":::
     - From the **Setup assistant**, after completing the configurations, select **Test**.  
         :::image type="content" source="media/sca-engage-assisted-setup-test-option.png" alt-text="Assisted setup page showing the option to test the agent.":::  
 
 1. In the test chat pane, you see the sample outreach email that the agent sends to a potential customer. The email includes personalized content based on the configurations you set up earlier.  
-    :::image type="content" source="media/sca-engage-test-chat-pane.png" alt-text="Sales Close Agent - Engage test chat pane showing a sample outreach email.":::
+    :::image type="content" source="media/sca-engage-test-chat-pane.png" alt-text="Sales Close Agent test chat pane showing a sample outreach email.":::
 
     Review the email content and ensure it aligns with your expectations. You can further interact with the agent by simulating customer replies to the outreach email with follow-up questions, express negative intent, and observe how the agent responds.  
     If the agent's response isn't satisfactory, there are typically a few underlying reasons:  
@@ -60,10 +56,10 @@ You can simulate interactions between the Sales Close Agent and a customer. This
 
 ## Next step
 
-[Start the Sales Close Agent - Engage](start-sales-close-agent.md)  
+[Start the Sales Close Agent](start-sales-close-agent.md)  
 
 ## Related information
 
-[Set up and configure the Sales Close Agent - Engage](configure-sales-close-agent.md)  
-[Set up Sales Close Agent (Engage) through the Setup Assistant](sales-close-agent-engage-setup-assistant.md)  
-[How the Sales Close Agent - Engage works](how-sales-close-agent-engage-mode-works.md)
+[Set up and configure the Sales Close Agent](configure-sales-close-agent.md)  
+[Set up Sales Close Agent through the Setup Assistant](sales-close-agent-engage-setup-assistant.md)  
+[How the Sales Close Agent works](how-sales-close-agent-engage-mode-works.md)

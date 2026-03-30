@@ -1,13 +1,13 @@
 ---
 title: Link projects to work orders and agreements
 description: Learn how to link a project in Dynamics 365 Project Operations to a work order in Dynamics 365 Field Service.
-ms.date: 01/29/2026
+ms.date: 03/17/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
 ---
 
-# Link projects to work orders and agreements
+# Link projects to work orders and agreements 
 
 To ensure accurate financial tracking in Project Operations, link Field Service work orders to an eligible project. This link allows material usage, labor entries, and actual costs to flow into the correct project contract line and billing structure. You can link work orders manually or through agreements. Project linkage must occur before the **Work Order System Status** is *Posted*.
 
@@ -66,6 +66,10 @@ To remove the project, open the work order in Field Service and remove the proje
 ### Change a project on an agreement with work orders
 
 When you update the project on an agreement that already generated work orders, only new work orders inherit the newly selected project lookup. You must manually correct any existing work orders that you created under the previous project.
+
+## Deactivation behavior with Project Operations integration
+
+When you integrate Field Service with Project Operations, deactivating a work order doesn't deactivate or reverse its child records. Time entries, material usage, and related actuals remain in Project Operations. To remove them, you must deactivate or delete those records separately.
 
 ## View work orders related to projects
 
