@@ -20,7 +20,7 @@ By default, the Copilot Service workspace app is shown to the following Omnichan
 - Omnichannel Supervisor  
 - Omnichannel Administrator  
 
-If users in these roles are not yet ready to use Copilot Service workspace, you can activate the Omnichannel app and limit visibility of Copilot Service workspace for those users.
+If users in these roles aren't ready to use Copilot Service workspace, you can activate the Omnichannel app and limit visibility of Copilot Service workspace for those users.
 
 ## Activate the Omnichannel app for assigned roles 
 
