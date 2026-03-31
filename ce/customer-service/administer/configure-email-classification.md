@@ -5,10 +5,9 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: mgandham
 ms.topic: how-to 
+ms.date: 03/31/2026
 ms.collection: bap-ai-copilot
-ms.update-cycle: 180-days 
-ms.date: 03/06/2026
-ms.custom: bap-template
+ms.update-cycle: 180-days
 ---
 
 # Configure email classification in Dynamics 365 Customer Service
@@ -25,7 +24,7 @@ Email classification analyzes the content of incoming emails and assigns each me
 
 - You have the **System administrator** or **Customer Service administrator** role.
 - [Email-to-case](automatically-create-case-from-email.md) is configured in your environment.
-- [Copilot features[(configure-copilot-features.md) are enabled.
+- [Copilot features](configure-copilot-features.md) are enabled.
 
 ## How email classification works
 
