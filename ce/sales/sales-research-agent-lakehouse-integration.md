@@ -1,23 +1,21 @@
 ---
-title: Connect Sales Research Agent to Microsoft Fabric Lakehouse (preview)
+title: Connect Sales Research Agent to Microsoft Fabric Lakehouse
 description: Discover how to connect to Microsoft Fabric Lakehouses for AI-powered data analysis. Ensure seamless access with inherited permissions and metadata-driven insights.
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 02/18/2026
+ms.date: 03/31/2026
 ms.topic: concept-article
 ms.collection: bap-ai-copilot
 ---
 
-# Connect Sales Research Agent to Microsoft Fabric Lakehouse (preview)
+# Connect Sales Research Agent to Microsoft Fabric Lakehouse
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+Connect the Sales Research Agent to Microsoft Fabric Lakehouse to unlock AI-powered analysis across the enterprise data you store in OneLake. When you choose Lakehouse, the agent automatically discovers Lakehouse shortcuts you have permission to access and makes them available as sources for reasoning. Use the connector on its own to analyze Lakehouse data directly, or combine Lakehouse data with your Dynamics 365 Sales data to deliver even richer, more contextual insights. Learn more about connecting to Fabric Lakehouse in [Connect the Sales Research Agent to a different data source or upload data](sales-research-agent-connect-data.md).
 
-Connect the Sales Research Agent to Microsoft Fabric Lakehouse to unlock AI-powered analysis across the enterprise data you store in OneLake. When you choose Lakehouse, the agent automatically discovers Lakehouse shortcuts you have permission to access and makes them available as sources for reasoning. Use the connector on its own to analyze Lakehouse data directly, or combine Lakehouse data with your Dynamics 365 Sales data to deliver even richer, more contextual insights.
+This article covers important considerations about how the agent connects to Microsoft Fabric Lakehouse, how it processes your data securely, and how administrators can manage access.
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
-## Considerations for the agent with Microsoft Fabric Lakehouse
+## Considerations to connect with Microsoft Fabric Lakehouse
 
 When connecting Sales Research Agent to Microsoft Fabric Lakehouse, consider the following information:
 
@@ -71,7 +69,7 @@ Microsoft Fabric administrators manage Lakehouse access using standard Fabric an
 
 ## What Sales Research Agent never bypasses 
 
-Sales Research Agent is designed with security and compliance in mind. It always operates under the user’s security context and never bypasses or elevates permissions. The agent strictly adheres to the following access controls:
+The Sales Research Agent is designed with security and compliance in mind. It always operates under the user’s security context and never bypasses or elevates permissions. The agent strictly adheres to the following access controls:
 
 - Workspace roles 
 - OneLake ACLs and shortcut access permissions 
@@ -89,3 +87,9 @@ When you query your Lakehouse, the Sales Research Agent performs the following 
 1.  Generates safe, read-only queries against Lakehouse Tables or Files folders. 
 
 1.  Applies all Fabric and OneLake permissions before returning data.
+
+
+## Related information
+
+- [Sales Research Agent overview](sales-research-agent.md)
+- [Connect the Sales Research Agent to a different data source or upload data](sales-research-agent-connect-data.md)
