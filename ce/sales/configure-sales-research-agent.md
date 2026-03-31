@@ -30,7 +30,7 @@ To grant access to other users, you must assign the **Sales Research Agent Reade
 
 Alternatively, you can create a group team in Power Platform Admin Center, add users to that group, and then assign the **Sales Research Agent Reader** role to that security group. This approach simplifies role management for larger teams. Learn more in [Manage group teams](/power-platform/admin/manage-group-teams).
 
-In addition to this, users will also need to have the appropriate Dynamics 365 Sales licenses to access the agent. Learn more about licensing requirements in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+In addition to this, users must also have a proper Dynamics 365 Sales licenses to access the agent. Learn more about licensing requirements in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 ## Configure tenant settings
 
