@@ -1,7 +1,7 @@
 ---
 title: FAQ about Sales Research Agent
 description: Get answers to frequently asked questions about sales research agent in Dynamics 365 Sales.
-ms.date: 03/27/2025
+ms.date: 03/31/2026
 ms.custom:
  - responsible-ai-faqs
  - bap-template

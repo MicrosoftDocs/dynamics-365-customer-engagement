@@ -2,7 +2,7 @@
 title: Connect the Sales Research Agent to a different data source or upload data
 description: Learn how to connect the Sales Research Agent to your data.
 manager:
-ms.date: 02/18/2026
+ms.date: 03/31/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs

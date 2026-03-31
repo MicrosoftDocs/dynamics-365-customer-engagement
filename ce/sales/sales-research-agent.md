@@ -2,7 +2,7 @@
 title: Sales Research Agent overview 
 description: Learn how to use the Sales Research Agent in Dynamics 365 Sales to get insights about your customers, prospects, sales targets, and competitors.
 manager:
-ms.date: 09/16/2025
+ms.date: 03/31/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -27,11 +27,11 @@ Use the agent to:
 
 ## How the agent works
 
-1. The Sales Research Agent connects to your Dynamics 365 Sales data by default. You can connect it to other data sources such as other Dataverse environments or Fabric Lakehouse, or upload Excel, CSV, or PDF files to further enrich the basis of your explorations.
+1. The Sales Research Agent connects to your Dynamics 365 Sales data by default. You can connect it to other data sources such as other Dataverse environments or Fabric Lakehouse, or upload Excel, CSV, or PDF files to further enrich the basis of your explorations. Learn more in [Connect the agent to a different data source](sales-research-agent-connect-data.md).
 
-1. When you ask the agent a question using one of the starter prompts or in natural language, the agent responds by generating a research blueprint containing data visualizations with a text-based overview. Ask follow-up questions, change visualizations, and add more data to your research. 
-1. The agent uses the context you provide and the data it has access to in order to generate insights. The more context you provide, the better the insights will be. You can provide either general context about your business or create specific business functions to tailor the agent's output to specific use cases.
-1. The agent stores how it arrived at its conclusions in a research blueprint, which includes the data it used, the steps it took to analyze the data, and the reasoning behind its conclusions. You can view the reasoning by selecting **Show work** on the research blueprint.
+1. When you ask the agent a question using one of the starter prompts or in natural language, the agent responds by generating a research blueprint containing data visualizations with a text-based overview. Ask follow-up questions, change visualizations, and add more data to your research. Learn more in [Analyze your sales performance using the Sales Research Agent](use-sales-research-agent.md).
+1. The agent uses the context you provide and the data it has access to in order to generate insights. The more context you provide, the better the insights will be. You can provide either general context about your business or create specific business functions to tailor the agent's output to specific use cases. Learn more in [Provide context to enhance the Sales Research Agent](sales-research-agent-provide-context.md).
+1. Show work on the research blueprint explains how the agent arrived at its conclusions, including what data it used and, the steps it took to analyze the data. Learn more in [Start your research journey](use-sales-research-agent.md#start-your-research-journey).
 
 
 ## How to set up and use the agent
@@ -41,7 +41,7 @@ Depending on your role, use the following links to learn about configuring and u
 | Role(s)                        | Which app to use?                                                                                 | Link to documentation                                                                                   |
 |--------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | System administrators, makers  | Power Platform admin center                         | [Set up and configure Sales Research Agent](configure-sales-research-agent.md)     |
-| Sellers and Sales managers     | Sales Hub app             | [Analyze your sales performance using the Sales Research Agent](use-sales-research-agent.md)<br>[Connect the agent to a different data source](sales-research-agent-connect-data.md)<br>[Provide context to the Sales Research Agent](sales-research-agent-provide-context.md)<br>[Connect Sales Research Agent to Microsoft Fabric Lakehouse](sales-research-agent-lakehouse-integration.md) |
+| Sellers and Sales managers     | Sales Hub app             | [Analyze your sales performance using the Sales Research Agent](use-sales-research-agent.md)<br>[Connect the agent to a different data source](sales-research-agent-connect-data.md)<br>[Provide context to enhance the Sales Research Agent](sales-research-agent-provide-context.md)<br>[Connect Sales Research Agent to Microsoft Fabric Lakehouse](sales-research-agent-lakehouse-integration.md) |
 
 
 ## Legal and regulatory considerations
