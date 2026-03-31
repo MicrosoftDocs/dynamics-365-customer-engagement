@@ -12,13 +12,15 @@ ms.update-cycle: 180 days
 
 # Enable Service Agent in Microsoft 365 Copilot (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Service Agent extends Microsoft 365 Copilot with customer service-specific capabilities. It enables Microsoft 365 Copilot to retrieve and reason over customer service data, such as cases, customer records, and recent interactions, when customer service representatives (service representatives, representatives) ask Copilot questions or request assistance.
   
 After you enable Service Agent, service representatives can use Copilot to get responses based on relevant service information—such as cases or customer records—without manually searching for the data.
   
 Representatives can also access Service Agent directly in Copilot Service workspace while working on customer interactions to retrieve relevant service information in-context.
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Enable Service Agent
 
