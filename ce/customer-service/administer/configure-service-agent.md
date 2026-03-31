@@ -29,7 +29,7 @@ After you enable Service Agent, service representatives in your organization can
 
 ## Enable and install Service in Microsoft 365 Copilot app
 
-Service in Microsoft 365 Copilot is an app that integrates with Dynamics 365 Customer Service and uses AI to help customer service representatives work more efficiently. It provides features that make common customer service tasks, such as saving Outlook interactions to your customer relationship management (CRM) system, viewing email and case summaries, and drafting responses, faster and easier.
+Service in Microsoft 365 Copilot is an app that integrates with Dynamics 365 Customer Service and uses AI to help customer service representatives work more efficiently.
 
 You can install Service in Microsoft 365 Copilot from [Microsoft Marketplace](https://marketplace.microsoft.com/) and [Microsoft Teams](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).
 
@@ -39,7 +39,7 @@ Before you can install Service in Microsoft 365 Copilot, make sure the following
 
 - You must be a tenant administrator to install the integrated app from the [Microsoft 365 admin center](https://admin.microsoft.com/). To find out who is your tenant admin, see [How do I find my Microsoft 365 admin?](https://support.microsoft.com/en-us/office/how-do-i-find-my-microsoft-365-admin-59b8e361-dbb6-407f-8ac3-a30889e7b99b).
 - You must be a Teams administrator to create a setup policy in the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
-- Admins must assign the Service in Microsoft 365 Copilot license to each user who can use the app. To learn how to assign licenses from the Microsoft 365 admin center, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true).
+- Admins must assign the Microsoft 365 Copilot license to each user who can use the app. To learn how to assign licenses from the Microsoft 365 admin center, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true).
 - Make sure that you are on the latest version of Outlook, Teams, or the Outlook Web application.
 
 ### Deploy Service in Microsoft 365 Copilot
