@@ -4,7 +4,7 @@ description: Learn how to configure outreach email personalization for the Sales
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 03/18/2026
+ms.date: 03/31/2026
 ms.topic: how-to
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
@@ -73,9 +73,7 @@ To create your own custom outreach scenario and personalization guidance, provid
 
 ### Use personalization tokens
 
-You can use personalization tokens in your email guidance to dynamically insert information into the generated emails. Personalization tokens pull data from lead records and help create contextually relevant outreach.
-
-Out-of-the-box personalization tokens include:
+You can use personalization tokens in your email guidance to dynamically insert information into the generated emails. The following tokens are available for use by default:
 
 - `[lead.firstname]`
 - `[lead.lastname]`
@@ -89,6 +87,8 @@ Out-of-the-box personalization tokens include:
 - `[sellerCompanyName]`
 - `[valueProposition]`
 - `[sellerCompanyWebsite]`
+
+To use other fields as tokens, include them in the [**Agent instructions** section](sales-qualification-agent-email-instruction-validation.md).
 
 **Example:** 
 **Subject Line:** "Casual, brief, and formatted as a question. (For example, "Still looking at [lead.subject]?" or "Still interested in [valueProposition]?")"
