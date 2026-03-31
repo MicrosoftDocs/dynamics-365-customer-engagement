@@ -36,7 +36,7 @@ To use Service Agent directly in Copilot Service workspace, perform the followin
    > [!Note]
    > If **Service (Preview)** isn’t visible, select **All agents**, and then select **Service (Preview)** from the list.
 
-   :::image type="content" source="media/service-agent-navigation.png" alt-text="Copilot navigation panel showing Service (Preview) selected under All agents":::
+   :::image type="content" source="../media/service-agent-navigation.png" alt-text="Copilot navigation panel showing Service (Preview) selected under All agents":::
 
    Service Agent opens in the Copilot pane.
 1. Ask a question or request assistance related to the current customer interaction.
@@ -52,7 +52,7 @@ Service Agent retrieves and updates customer service data from the Dynamics 365 
 
 If you have access to multiple environments, select **Sources** to view the available connections and choose the environment you want Service Agent to use. The selected source determines which customer service records Service Agent can retrieve and update during your session.
 
-:::image type="content" source="media/service-agent-sources.png" alt-text="Sources menu showing a connected Dynamics 365 Customer Service environment for Service Agent":::
+:::image type="content" source="../media/service-agent-sources.png" alt-text="Sources menu showing a connected Dynamics 365 Customer Service environment for Service Agent":::
 
 ## What you can do with Service Agent
 
