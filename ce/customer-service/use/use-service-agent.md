@@ -12,7 +12,7 @@ ms.update-cycle: 180 days
 
 # Use Service Agent in Customer Service (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Service Agent is a Microsoft 365 Copilot agent that helps customer service representatives (service representatives, representatives) find, summarize, and update customer service information by using data from Dynamics 365 Customer Service and connected knowledge sources. It supports assisted Copilot scenarios, such as reviewing cases, retrieving knowledge, and performing case actions.
 
@@ -24,6 +24,8 @@ You can use Service Agent in the following ways:
 -	In Microsoft 365 Copilot app
 -	Directly in Copilot Service workspace while working on customer interactions
 -	In any Microsoft 365, Dynamics 365 or Power Apps application where Microsoft 365 Copilot is enabled
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Access Service Agent in Customer Service
 
