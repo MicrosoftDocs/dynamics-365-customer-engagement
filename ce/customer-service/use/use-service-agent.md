@@ -55,10 +55,7 @@ Service Agent retrieves and updates customer service data from the Dynamics 365 
 
 If you have access to multiple environments, select **Sources** to view the available connections and choose the environment you want Service Agent to use. The selected source determines which customer service records Service Agent can retrieve and update during your session.
 
-:::image type="content"
-source="media/service-agent-select-source.png"
-alt-text="Sources menu showing a connected Dynamics 365 Customer Service environment in Service Agent"
-:::
+:::image type="content" source="media/service-agent-navigation.png" alt-text="Copilot navigation panel showing Service (Preview) selected under All agents":::
 
 ## What you can do with Service Agent
 
