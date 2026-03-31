@@ -23,10 +23,9 @@ You can provide two types of context in natural business language:
 
 - **Business function**: (Optional) Provides the agent with a role, context, and instructions that are relevant only for specific use cases. For example, create one business function to reflect how your org approaches market research and a separate business function for win/loss analysis. You can select which business function to use when researching a business question. 
 
-    Creating business functions may not be needed. We recommend that you try the Sales Research Agent first without creating the business function. After this, you can create a business function if you find you have the following needs:
-    - You have a need to define custom fields or logic
-
-    - You want more control over how data is displayed or interpreted
+    It's not mandatory to create a business function. We recommend that you try the Sales Research Agent first without creating the business function. After this, you can create a business function if you find you have the following needs:
+    - You have a need to define custom fields or logic.
+    - You want more control over how data is displayed or interpreted.
     - You want to apply your own business knowledge to how insights are generated and presented, again with a specific use case in mind.  
 
 ## Set the general context for the agent
