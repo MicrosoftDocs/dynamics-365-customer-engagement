@@ -50,7 +50,7 @@ To deploy Service in Microsoft 365 Copilot in Customer Service, follow these ste
 Individual users can also install Service in Microsoft 365 Copilot from [Microsoft Marketplace](https://marketplace.microsoft.com/) and [Microsoft Teams](https://support.microsoft.com/en-us/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77). <br>
    > [!NOTE]
    > - Service in Microsoft 365 Copilot accesses and manages the data in your CRM through the **Service in Microsoft 365 Copilot for Microsoft Outlook** add-in.
-   > - It may take up to six hours for Service in Microsoft 365 Copilot to appear in service representatives' Outlook ribbon. They'll receive a pop-up notification when their administrator installs a new app.
+   > - It might take up to six hours for Service in Microsoft 365 Copilot to appear in service representatives' Outlook ribbon. They receive a pop-up notification when their administrator installs a new app.
 1. **Install and pin the app in Microsoft Teams**: When you install Service in Microsoft 365 Copilot as an integrated app, the app is enabled in Teams but not installed automatically. You need to go to the Microsoft Teams admin center and create [setup policies](/microsoftteams/app-policies#app-setup-policies) to install and pin the app for your users. Pinning the app makes it easier for users to find and use it. To do this, follow these steps:
    - Sign in to the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
    - Follow the steps in [pin apps](/microsoftteams/teams-app-setup-policies#pin-apps) to pin the **Service in Microsoft 365 Copilot** app and then [assign the policy to a user group](/microsoftteams/policy-assignment-overview) (security group, organizational unit, or distribution list).
