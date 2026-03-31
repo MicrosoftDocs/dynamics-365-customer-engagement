@@ -19,7 +19,7 @@ As an admin, set up and configure the Sales Research Agent in Dynamics 365 Sales
 
 ## Configure Copilot Studio capacity
 
-The agent needs Copilot Studio capacity to run. Ensure that the environment from which you will be accessing the agent has Copilot credits available to it. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
+The agent needs Copilot Studio capacity to run. Ensure that you have enough Copilot credits for the environment from which you are accessing the agent. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
 
 ## Grant access to the Sales Research Agent
 
