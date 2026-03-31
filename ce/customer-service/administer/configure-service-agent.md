@@ -60,4 +60,4 @@ Individual users can also install Service in Microsoft 365 Copilot from [Microso
 
 ## Related information
 
-[Use Service Agent in Customer Service]
+[Use Service Agent in Customer Service](../use/use-service-agent.md) 
