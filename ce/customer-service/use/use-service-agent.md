@@ -12,12 +12,14 @@ ms.topic: how-to
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-After an administrator [enables Service Agent](../administer/configure-service-agent.md), customer service representatives can use Copilot to retrieve case and customer interaction summaries, details on their workload, responses from knowledge across Dynamics 365 and SharePoint, and take actions on cases such as adding notes, updating status and creating child cases. relevant customer service information without manually searching for records. 
+Service Agent is a Microsoft 365 Copilot agent that helps customer service representatives find, summarize, and update customer service information by using data from Dynamics 365 Customer Service and connected knowledge sources. It supports assisted Copilot scenarios, such as reviewing cases, retrieving knowledge, and performing case actions.
+
+After an administrator [enables Service Agent](../administer/configure-service-agent.md), customer service representatives can use Copilot to retrieve case and customer interaction summaries, details about their workload, and responses from knowledge across Dynamics 365 and SharePoint, and take actions on cases such as adding notes, updating status and creating child cases with Copilot assistance.
 
 When you ask Copilot a question or request assistance, Service Agent uses your organization’s customer service data—such as cases, customer records, and interactions—to generate Copilot responses without requiring you to manually search for that information.
 
 You can use Service Agent in the following ways:
--	In Microsoft 365 Copilot chat
+-	In Microsoft 365 Copilot app
 -	Directly in Copilot Service workspace while working on customer interactions
 -	In any Microsoft 365, Dynamics 365 or Power Apps application where Microsoft 365 Copilot is enabled
 
@@ -27,12 +29,31 @@ While you work on an active customer interaction in Customer Service, you can us
 
 To use Service Agent directly in Copilot Service workspace, perform the following steps:
 
-1. Select **Copilot** in the header to open the Microsoft 365 Copilot side pane.
-1. In the Copilot pane, select **Service (Preview)** from the list of available agents. Service Agent opens in the Copilot pane.
-1. Ask a question or request assistance related to the customer interaction.
+1. Select **Copilot** in the header to open the Copilot side pane.
+1. In the Copilot pane, select the **Open navigation panel** icon (hamburger menu).
+1. From the navigation panel, select **Service (Preview)**
+   
+   > [!Note]
+   > If **Service (Preview)** isn't visible, select **All agents**, and then select **Service (Preview)** from the list.
 
-> [!Note}
-> Service Agent runs within Microsoft 365 Copilot. When used outside of Copilot Service workspace, Service Agent isn’t tied to an active case or work item and doesn’t automatically use the available app context.
+   Service Agent opens in the Copilot pane.
+1. Ask a question or request assistance related to the current customer interaction.
+
+When you select **Service (Preview)**, Microsoft 365 Copilot activates customer service-specific skills. Service Agent can use the current app and customer interaction as context, such as an active case or work item, when that context is available.
+
+> [!Note]
+> When used outside of Copilot Service workspace, Service Agent isn’t tied to an active case or work item and doesn’t automatically use the available app context.
+
+### Select a data source
+
+Service Agent retrieves and updates customer service data from the Dynamics 365 Customer Service environment selected under **Sources**. 
+
+If you have access to multiple environments, select **Sources** to view the available connections and choose the environment you want Service Agent to use. The selected source determines which customer service records Service Agent can retrieve and update during your session.
+
+:::image type="content"
+source="media/service-agent-select-source.png"
+alt-text="Sources menu showing a connected Dynamics 365 Customer Service environment in Service Agent"
+:::
 
 ## What you can do with Service Agent
 
