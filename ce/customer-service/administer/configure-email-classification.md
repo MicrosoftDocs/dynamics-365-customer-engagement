@@ -18,7 +18,7 @@ Email classification helps you categorize incoming emails by using AI so you can
 
 Organizations receive many types of incoming email, including support requests, billing questions, partner inquiries, and general notifications. Email classification helps you use AI to understand the intent of each message so you can process it consistently—creating and routing cases when appropriate, and applying automation only where it adds value.
 
-Email classification analyzes the content of incoming emails and assigns each message to a configured category. You can then use that category to determine how the email is handled—for example, whether a case is created, how the case is routed, or whether additional automation applies.
+Email classification analyzes the content of incoming emails and assigns each message to a configured category. You can then use that category to determine how the email is handled—for example, whether a case is created, how the case is routed, or whether other automation applies.
 
 ## Prerequisites
 
@@ -37,7 +37,7 @@ You define custom categories that represent how emails should be handled, such a
 Consider the following when defining categories:
 
 - You must configure at least two categories.
-- You can configure up to 9 categories.
+- You can configure up to nine categories.
 - Each category includes a name and description.
 
 ### Scope classified emails
@@ -65,7 +65,7 @@ You can prevent certain categories of emails from creating cases. For example, y
 
 ### Route emails by intent
 
-You can use email categories in routing rules to route emails to the appropriate queues or customer service representatives based on email content instead of static keywords or sender rules.
+You can use email categories in routing rules to send emails to the right queues or customer service representatives (service representatives, representatives) based on what the email is about.
 
 ### Control downstream automation
 
@@ -75,14 +75,14 @@ You can reference email categories in:
 - Automatic Record Creation (ARC) rules
 - Case creation logic
 
-This lets you control whether additional automation or AI-based processing runs for specific email categories.
+This behavior lets you determine whether other automation or AI-based processing runs for specific email categories.
 
 ## Important considerations
 
 - Email classification always assigns one of the configured categories to an evaluated email, even if the email content doesn't clearly match any category.
 - If you configure only two categories (for example, Billing and Marketing), every email is classified as either Billing or Marketing, even if the email is unrelated.
 - To handle unrelated or ambiguous emails, consider adding a catch-all category, such as **Uncategorized**.
-- Depending on your configuration, customer service representatives might be able to manually update the email category.
+- Depending on your configuration, service representatives might be able to manually update the email category.
 
 ## Next steps
 
