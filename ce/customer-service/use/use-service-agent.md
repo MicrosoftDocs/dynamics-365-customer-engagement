@@ -8,18 +8,18 @@ ms.reviewer: laalexan
 ms.topic: how-to
 ---
 
-# Use Service Agent in Customer Service
+# Use Service Agent in Customer Service (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-After an administrator [enables Service Agent](../administer/configure-service-agent.md), customer service representatives can use Copilot to retrieve case and customer interaction summaries, details on their workload, responses from knowledge across Dynamics and SharePoint, and take actions on cases such as adding notes, updating status and creating child cases. relevant customer service information without manually searching for records. 
+After an administrator [enables Service Agent](../administer/configure-service-agent.md), customer service representatives can use Copilot to retrieve case and customer interaction summaries, details on their workload, responses from knowledge across Dynamics 365 and SharePoint, and take actions on cases such as adding notes, updating status and creating child cases. relevant customer service information without manually searching for records. 
 
 When you ask Copilot a question or request assistance, Service Agent uses your organization’s customer service data—such as cases, customer records, and interactions—to generate Copilot responses without requiring you to manually search for that information.
 
 You can use Service Agent in the following ways:
 -	In Microsoft 365 Copilot chat
 -	Directly in Copilot Service workspace while working on customer interactions
--	In any Microsoft 365, Dynamics 365 or Power Apps application where Microsoft 365 Copilot is enabled.
+-	In any Microsoft 365, Dynamics 365 or Power Apps application where Microsoft 365 Copilot is enabled
 
 ## Access Service Agent in Customer Service
 
@@ -58,7 +58,7 @@ For example, you can ask Copilot to:
 
 ### Summarize customer interactions
 
-You can use Copilot to summarize recent customer interactions. Copilot will discover data across Teams, Outlook and Dynamics Customer Service.
+You can use Copilot to summarize recent customer interactions. Copilot will discover data across Teams, Outlook and Customer Service.
 
 For example, you can ask Copilot to:
 -	Summarize recent interactions for this customer.
@@ -66,7 +66,7 @@ For example, you can ask Copilot to:
 
 ### Retrieve knowledge responses
 
-You can use Copilot to retrieve knowledge responses that are relevant to the customer’s issue. Copilot will discover answers from Dynamics knowledge and SharePoint. 
+You can use Copilot to retrieve knowledge responses that are relevant to the customer’s issue. Copilot will discover answers from Dynamics 365 knowledge and SharePoint. 
 
 For example, you can ask Copilot to:
 -	Find knowledge articles related to this case.
