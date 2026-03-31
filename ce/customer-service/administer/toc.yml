@@ -726,6 +726,10 @@
         href: /dynamics365/contact-center/administer/knowledge-copilot?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: FAQ for Copilot in Customer Service
         href: faq-copilot-features.md
+    - name: Service in Microsoft 365 Copilot
+      items:
+      - name: Enable Service Agent in Microsoft 365 Copilot (preview)
+        href: configure-service-agent.md
     - name: Agents
       items:
       - name: Overview of agents
