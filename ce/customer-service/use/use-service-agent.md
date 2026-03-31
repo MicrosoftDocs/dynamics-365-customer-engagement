@@ -7,7 +7,7 @@ ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.update-cycle: 180 days
+ms.update-cycle: 180-days
 ---
 
 # Use Service Agent in Customer Service (preview)
