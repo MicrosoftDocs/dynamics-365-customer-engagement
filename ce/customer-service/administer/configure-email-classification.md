@@ -24,9 +24,8 @@ Email classification analyzes the content of incoming emails and assigns each me
 ## Prerequisites
 
 - You have the **System administrator** or **Customer Service administrator** role.
-- Email-to-case is configured in your environment.
-- AI features are enabled.
-- You have planned the categories you want to use for classification.
+- [Email-to-case](automatically-create-case-from-email.md) is configured in your environment.
+- [Copilot features[(configure-copilot-features.md) are enabled.
 
 ## How email classification works
 
@@ -39,8 +38,8 @@ You define custom categories that represent how emails should be handled, such a
 Consider the following when defining categories:
 
 - You must configure at least two categories.
-- You can configure up to 30 categories.
-- Each category includes a name and description to help the AI understand classification intent.
+- You can configure up to 9 categories.
+- Each category includes a name and description.
 
 ### Scope classified emails
 
