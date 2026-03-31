@@ -52,7 +52,7 @@ Service Agent retrieves and updates customer service data from the Dynamics 365 
 
 If you have access to multiple environments, select **Sources** to view the available connections and choose the environment you want Service Agent to use. The selected source determines which customer service records Service Agent can retrieve and update during your session.
 
-:::image type="content" source="../media/service-agent-select-sources.png" alt-text="Sources menu showing a connected Dynamics 365 Customer Service environment for Service Agent":::
+:::image type="content" source="../media/service-agent-select-source.png" alt-text="Sources menu showing a connected Dynamics 365 Customer Service environment for Service Agent":::
 
 ## What you can do with Service Agent
 
@@ -78,7 +78,7 @@ For example, you can ask Copilot to:
 
 ### Summarize customer interactions
 
-You can use Copilot to summarize recent customer interactions. Copilot will discover data across Teams, Outlook and Customer Service.
+You can use Copilot to summarize recent customer interactions. Copilot discovers data across Teams, Outlook and Customer Service.
 
 For example, you can ask Copilot to:
 -	Summarize recent interactions for this customer.
@@ -86,7 +86,7 @@ For example, you can ask Copilot to:
 
 ### Retrieve knowledge responses
 
-You can use Copilot to retrieve knowledge responses that are relevant to the customer’s issue. Copilot will discover answers from Dynamics 365 knowledge and SharePoint. 
+You can use Copilot to retrieve knowledge responses that are relevant to the customer’s issue. Copilot discovers answers from Dynamics 365 knowledge and SharePoint. 
 
 For example, you can ask Copilot to:
 -	Find knowledge articles related to this case.
