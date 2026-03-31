@@ -6,13 +6,15 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to
+ms.collection: bap-ai-copilot
+ms.update-cycle: 180 days
 ---
 
 # Use Service Agent in Customer Service (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-Service Agent is a Microsoft 365 Copilot agent that helps customer service representatives find, summarize, and update customer service information by using data from Dynamics 365 Customer Service and connected knowledge sources. It supports assisted Copilot scenarios, such as reviewing cases, retrieving knowledge, and performing case actions.
+Service Agent is a Microsoft 365 Copilot agent that helps customer service representatives (service representatives, representatives) find, summarize, and update customer service information by using data from Dynamics 365 Customer Service and connected knowledge sources. It supports assisted Copilot scenarios, such as reviewing cases, retrieving knowledge, and performing case actions.
 
 After an administrator [enables Service Agent](../administer/configure-service-agent.md), customer service representatives can use Copilot to retrieve case and customer interaction summaries, details about their workload, and responses from knowledge across Dynamics 365 and SharePoint, and take actions on cases such as adding notes, updating status and creating child cases with Copilot assistance.
 
@@ -25,7 +27,7 @@ You can use Service Agent in the following ways:
 
 ## Access Service Agent in Customer Service
 
-While you work on an active customer interaction in Customer Service, you can use these Copilot capabilities to retrieve relevant service information in context.
+While you work on an active customer interaction in Customer Service, you can use Copilot capabilities to retrieve relevant service information in context.
 
 To use Service Agent directly in Copilot Service workspace, perform the following steps:
 
@@ -41,10 +43,10 @@ To use Service Agent directly in Copilot Service workspace, perform the followin
    Service Agent opens in the Copilot pane.
 1. Ask a question or request assistance related to the current customer interaction.
 
-When you select **Service (Preview)**, Microsoft 365 Copilot activates customer service-specific skills. Service Agent can use the current app and customer interaction as context, such as an active case or work item, when that context is available.
+When you select **Service (Preview)**, Microsoft 365 Copilot activates customer service-specific skills. Service Agent can use the current app and customer interaction, such as an active case or work item, as a context when it's available.
 
 > [!Note]
-> When used outside of Copilot Service workspace, Service Agent isn’t tied to an active case or work item and doesn’t automatically use the available app context.
+> In Copilot Service workspace, Service Agent can use the active case or work items as context when available. In other Microsoft 365 Copilot experiences, Service Agent doesn't automatically use case or work item context.
 
 ### Select a data source
 
@@ -56,29 +58,29 @@ If you have access to multiple environments, select **Sources** to view the avai
 
 ## What you can do with Service Agent
 
-Copilot uses the Service agent skills to help you review, summarize, and update customer service information while you work with customers.
+Copilot uses the Service Agent skills to help you review, summarize, and update customer service information while you work with customers.
 
 You can use Service Agent to do the following tasks in Customer Service:
 
 ### Review and prioritize cases
 
-You can use Copilot to review and prioritize cases based on relevant case information.
+You can use Service Agent to review and prioritize cases based on relevant case information.
 
-For example, you can ask Copilot to:
+For example, you can ask Service Agent to:
 - Show high-priority cases for this customer.
 - Identify open cases that require follow-up.
 
 ### Summarize case details
 
-You can use Copilot to summarize information from an existing case.
+You can use Service Agent to summarize information from an existing case.
 
-For example, you can ask Copilot to:
+For example, you can ask Service Agent to:
 -	Summarize the activity for this case.
 -	Provide an overview of this case.
 
 ### Summarize customer interactions
 
-You can use Copilot to summarize recent customer interactions. Copilot discovers data across Teams, Outlook and Customer Service.
+You can use Service Agent to summarize recent customer interactions. Copilot discovers data across Teams, Outlook and Customer Service.
 
 For example, you can ask Copilot to:
 -	Summarize recent interactions for this customer.
@@ -86,17 +88,18 @@ For example, you can ask Copilot to:
 
 ### Retrieve knowledge responses
 
-You can use Copilot to retrieve knowledge responses that are relevant to the customer’s issue. Copilot discovers answers from Dynamics 365 knowledge and SharePoint. 
+You can use Service Agent to retrieve knowledge responses that are relevant to the customer’s issue. Copilot discovers answers from Dynamics 365 knowledge and SharePoint. 
 
-For example, you can ask Copilot to:
+For example, you can ask Service Agent to:
 -	Find knowledge articles related to this case.
 -	Find details on how to address this case. 
 -	Show recommended knowledge responses.
 
 ### Perform case write actions
-You can use Copilot to update case information.
 
-For example, you can ask Copilot to:
+You can use Service Agent to update case information.
+
+For example, you can ask Service Agent to:
 -	Update the case priority.
 -	Add notes to this case.
 -	Create a new child case associated with this case.
