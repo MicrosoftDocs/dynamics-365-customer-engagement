@@ -34,7 +34,12 @@ To use Service Agent directly in Copilot Service workspace, perform the followin
 1. From the navigation panel, select **Service (Preview)**
    
    > [!Note]
-   > If **Service (Preview)** isn't visible, select **All agents**, and then select **Service (Preview)** from the list.
+   > If **Service (Preview)** isn't visible, select **All agents**, search for **Service**, and then select **Service (Preview)** from the list.
+   
+   :::image type="content"
+   source="media/service-agent-open-navigation.png"
+   alt-text="Copilot navigation panel showing All agents and Service (Preview) selected"
+   :::
 
    Service Agent opens in the Copilot pane.
 1. Ask a question or request assistance related to the current customer interaction.
@@ -105,5 +110,3 @@ For example, you can ask Copilot to:
 ## Related information
 
 [Configure Service Agent](../administer/configure-service-agent.md)
-
-
