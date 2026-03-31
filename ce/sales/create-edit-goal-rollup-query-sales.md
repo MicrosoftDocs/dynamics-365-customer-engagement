@@ -1,7 +1,7 @@
 ---
 title: "Define goal rollup queries (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Collect data about a given goal, including all its related goals, in one view by using rollup query in Dynamics 365 Sales."
-ms.date: 03/27/2026
+ms.date: 03/31/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -38,8 +38,8 @@ Use rollup queries to specify additional criteria that you want to apply on exis
 
     :::image type="Build a query for rollup" source="media/rollup-query-builder.png" alt-text="Build a query for rollup":::
 
-   If you're planning to use this rollup query for a goal that's applicable to all records (not just the goal owner), make sure to specify the actual values for the criteria. For example, if you want to include all opportunity records where the seller is a team member, make sure to specify the seller's name in the criteria instead of **Current User**. A rollup query with contextual criteria like **Current User** or **Last X Days** results in zero records for goals that are applicable to all records because the system doesn't know whose records to pull or what time frame to apply when the goal is rolled up. 
-  
+    Do not use dynamic values such as **Current User** or **Last X Days** in the rollup query  as these values aren't replaced with the values from the associated goal. Specify actual values instead. 
+ 
 7. To see the results for the query, select **View records**.  
   
 8. Save the query.  

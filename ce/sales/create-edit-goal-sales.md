@@ -1,7 +1,7 @@
 ---
 title: Create or edit goals
 description: Use goals to track your progress on achieving target revenue or other targets set by your organization. Propagate goals using parent and child goals.
-ms.date: 03/27/2026
+ms.date: 03/31/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -72,9 +72,8 @@ Use goals to keep track of your progress on achieving target revenue.
 1. On the **Goal Criteria** tab, define the criteria that will be used for rolling up the Actuals data against the goal.
 
    - **Roll Up Only From Child Goals**: If you want to limit the data used for the roll up to only child goals, select **Yes**. To allow other data to be used for the roll ups, select **No**.
-   - **Record Set for Rollup**: If you want to limit the records that can be included in the roll up to only those records owned by the goal owner, select **Owned by goal owner**. To allow all records to be included in the roll up data, select **All**.
-   > [!NOTE]
-   > If you select **All** for the **Record Set for Rollup** field, ensure to specify the criteria for the roll up query in the **Rollup Query - Actual**  and **Rollup Query - In-Progress** fields to indicate which records should be included in the roll up. Learn more about rollup queries in the [Create or edit a goal rollup query](create-edit-goal-rollup-query-sales.md) article. 
+   - **Record Set for Rollup**: If you want to limit the records that can be included in the roll up to only those records owned by the goal owner, select **Owned by goal owner**. To allow all records to be included in the roll up data, select **All**. 
+       - If you select **All** for the **Record Set for Rollup** field, specify the criteria for the roll up query in the **Rollup Query - Actual**  and **Rollup Query - In-Progress** fields to indicate which records should be included in the roll up. Otherwise, the roll up will include all records and might put unnecessary load on the system. Learn more about rollup queries in the [Create or edit a goal rollup query](create-edit-goal-rollup-query-sales.md) article. 
 
 1. On the **Notes** tab, enter any notes for this goal.
 
