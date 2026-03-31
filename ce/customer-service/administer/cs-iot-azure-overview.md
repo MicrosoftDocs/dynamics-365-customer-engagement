@@ -1,32 +1,30 @@
 ---
-title: "Connected Customer Service for Azure IoT Central - Overview | MicrosoftDocs"
-description: "Overview of Connected Customer Service for Azure IoT Central."
-ms.date: 04/03/2020
+title: Connected Customer Service for Azure IoT Central
+description: Learn how Connected Customer Service integrates Customer Service with Azure IoT Central to support IoT‑based service scenarios without custom development.
+ms.date: 03/30/2026
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
-
 ---
-
 
 # Connected Customer Service for Azure IoT Central - Overview
 
-Connected Customer Service for Azure IoT Central provides a direct integration of Dynamics 365 Customer Service with Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. 
+Connected Customer Service for Azure IoT Central integrates Dynamics 365 Customer Service with Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. 
 
-Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts will be created in Connected Customer Service. Also, based on service activities in Connected Customer Service, information can be sent back to Azure IoT Central. This is accomplished by using Power Automate, a SaaS offering for automating workflows across applications and services. 
+Azure IoT Central lets builders configure rules and actions that generate IoT alerts in Connected Customer Service. Service activity in Customer Service can also send information back to Azure IoT Central. This integration uses Power Automate to automate workflows across applications and services.
 
 > [!div class="mx-imgBorder"]
 > ![Diagram representing the relationship between Azure IoT Central, Power Automate, and Connected Customer Service.](../media/cs-iot-overview.png)
- 
-The below end-to-end integration processes can be easily implemented based on a pure configuration experience:
 
-- Azure IoT Central can send information about device anomalies to Connected Customer Service (as an IoT Alert) for diagnosis
-- Connected Customer Service can create cases or work orders triggered from device anomalies
+You can implement the following end-to-end integration scenarios through configuration only:
 
-Azure IoT Central requires no extensive cloud development or coding skills to get an IoT solution up and running.  
+- Azure IoT Central sends information about device anomalies to Connected Customer Service as IoT alerts for diagnosis.
+- Connected Customer Service creates cases or work orders triggered by device anomalies.
 
-With [Power Automate templates](https://preview.flow.microsoft.com/templates/), users can connect their accounts, take advantage of our pre-built templates, and customize their own flows in an easy visual designer without the need for coding experience.
+Azure IoT Central doesn't require extensive cloud development or coding skills to build an IoT solution.
+
+With [Power Automate templates](https://powerautomate.microsoft.com/templates/), users can connect their accounts, use prebuilt templates, and customize workflows through a visual designer without writing code.
 
 ## Learn more about Azure IoT Central
 
