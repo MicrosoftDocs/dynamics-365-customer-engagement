@@ -74,35 +74,35 @@ To avoid issues during knowledge article creation from historical data, we recom
     
      ``` 
 
-### Enable real-time knowledge harvesting for a custom entity 
+### Enable real-time knowledge harvesting for a custom record type
 
+Enable real-time knowledge harvesting for your custom record types in Dynamics 365 by adding a trigger button and surfacing harvested knowledge articles linked to your custom table.
 
-1. Create the custom entity in make.powerapps.com. 
-If the entity already exists, ensure it contains attributes that map to case descriptions and resolutions from which knowledge can be harvested. 
-1. [Add Record Types for Knowledge Management](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/configure-knowledge-search-control-productivity-pane#add-record-types-for-which-you-want-to-turn-on-knowledge-management)
-1. [Add Custom Record Types (preview)](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/admin-km-agent#add-custom-record-types-preview)
-1. [Enable Real-Time Knowledge Creation]
-    1. [Configure the knowledge search control on the app side pane for entity records](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/configure-knowledge-search-control-productivity-pane#configure-knowledge-search-control-on-the-app-side-pane)
-    1. Ensure your custom entity (for example, Custom_Knowledge_Harvest) appears as a tab, similar to Case or Conversation. 
-1. [Configure rules for real-time article creation](#manage-rules-for-real-time-article-creation) specifically for your custom entity tab.
-1. Configure which attributes from your entity are used to generate knowledge articles.
-1. Add a **Trigger Harvesting** command to your custom entity form.
-1. Navigate to your custom entity (for example, **Custom_Knowledge_Harvest**).
-1. Open an existing record. The **Trigger Harvesting** button should now appear in the command bar.
+1. [Create the custom table](/power-apps/maker/data-platform/create-edit-entities-portal?tabs=excel) in [Power Apps](https://make.powerapps.com/). If the table already exists, ensure it contains attributes that map to case descriptions and resolutions from which knowledge can be harvested. 
+1. [Add record types for which you want to turn on knowledge management](configure-knowledge-search-control-productivity-pane.md).
+1. [Add custom record types (preview)](#add-custom-record-types-preview).
+1. [Enable real-time knowledge creation]:
+    1. [Configure knowledge search control on app side pane for an entity record](configure-knowledge-search-control-productivity-pane.md).
+    1. Ensure your custom table (for example, Custom_Knowledge_Harvest) appears as a tab, similar to Case or Conversation. 
+1. [Configure rules for real-time article creation](#manage-rules-for-real-time-article-creation) specifically for your custom record tab.
+1. Configure which attributes from your table are used to generate knowledge articles.
+1. [Add a trigger harvesting button](#add-a-trigger-harvesting-button) to your custom table form.
+1. Navigate to your custom table (for example, **Custom_Knowledge_Harvest**).
+1. Open an existing record. The **Trigger Harvesting** button appears in the **Command** bar.
 1. Select the button to trigger knowledge harvesting for the current record. A confirmation dialog appears indicating that knowledge harvest has been triggered successfully.
 
 #### Add a trigger harvesting button
 
-Add a trigger harvesting command button to your custom entity's main form using Power Apps Command Designer to enable real-time knowledge harvesting for your custom entity records.
+Add a trigger harvesting command button to your custom table's main form using Power Apps Command Designer to enable real-time knowledge harvesting for your custom records.
 
-The JavaScript triggers knowledge harvesting by sending entity and user information to the API, displays progress indicators, handles responses, and controls button availability based on form state. The button works similarly to Case and Conversation entities.
+The JavaScript triggers knowledge harvesting by sending table and user information to the API, displays progress indicators, handles responses, and controls button availability based on form state. The button works similarly to Case and Conversation record types.
 
-[!NOTE]
-This is a sample implementation to trigger knowledge harvesting through a button click. You can customize the button behavior and JavaScript logic based on your organization's requirements.
+> [!NOTE]
+> This is a sample implementation to trigger knowledge harvesting through a button click. You can customize the button behavior and JavaScript logic based on your organization's requirements.
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
 1. Select **Tables** from the left navigation pane.
-1. Find and select your custom entity (for example, **Custom_Knowledge_Harvest**).
+1. Find and select your custom table (for example, **Custom_Knowledge_Harvest**).
 1. Select [Edit the command bar](/power-apps/maker/model-driven-apps/use-command-designer#edit-the-command-bar) and then select **main form**. Learn more in [Command bar locations](/power-apps/maker/model-driven-apps/command-designer-overview#command-bar-locations).
     1. In the right pane, enter a label that displays on the command button and select an icon for the command button.
     1. Under **Action**, provide the following JavaScript library and command to run the command action.  [Use JavaScript for actions](/power-apps/maker/model-driven-apps/use-command-designer#use-javascript-for-actions). 
@@ -203,9 +203,8 @@ This is a sample implementation to trigger knowledge harvesting through a button
     ``` 
     1. In the **Add JavaScript Library** dialog, select the JavaScript library you just created.
     1. Add the library to your command.
-    1. Function name: Enter **Msdyn.KnowledgeHarvest.triggerHarvest**
-    1. Select **+ Add** parameter.
-    1. **Parameter 1**: Select **PrimaryControl** from the dropdown.
+    1. For function name, enter **Msdyn.KnowledgeHarvest.triggerHarvest**.
+    1. Select **+ Add** parameter in **Parameter 1**, select **PrimaryControl** from the dropdown.
 
 1. Under **Visibility**, keep the default setting as **Show** or configure custom visibility rules based on your requirements.
 1. Drag and drop the command to the desired location. 
