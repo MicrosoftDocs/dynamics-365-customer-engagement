@@ -23,7 +23,7 @@ Email classification analyzes the content of incoming emails and assigns each me
 ## Prerequisites
 
 - You have the **System administrator** or **Customer Service administrator** role.
-- [Email-to-case](automatically-create-case-from-email.md) is configured in your environment.
+- [Email-to-case](automatically-create-update-records.md) is configured in your environment.
 - [Copilot features](configure-copilot-features.md) are enabled.
 
 ## How email classification works
