@@ -40,10 +40,6 @@ Configure email instructions to help the agent draft compliant, personalized out
       > [!NOTE]
       >- Remove any signature from the email template to avoid duplicate signatures in the outreach email. The agent automatically appends the sender's email signature to the outreach email.
       >- When you select fixed template, the agent doesn't use generative AI or the configured knowledge sources to draft the email content. Hence, no Copilot credits are consumed for outreach emails generated using fixed templates.
-1. Under **Personalize email based on key fields from Lead**, add the following information:
-    1. Select **New field** to add a text-based field from the `Lead` table.
-    1. In the **Agent Instructions** field, provide guidance on how to use the selected field in the email. For example, if you selected the **Job title** field, you might instruct the agent to tailor the email content based on the lead's job title so that it resonates with their specific role and responsibilities.
-
 
 ## Configure email validation settings
 
