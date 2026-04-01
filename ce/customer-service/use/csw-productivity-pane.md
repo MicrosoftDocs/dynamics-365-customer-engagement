@@ -1,7 +1,7 @@
 ---
-title: Overview of productivity pane | MicrosoftDocs
+title: Overview of productivity pane
 description: Overview of productivity pane in Dynamics 365 Copilot Service workspace.
-ms.date: 06/05/2025
+ms.date: 04/01/2026
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -71,6 +71,12 @@ A macro is a set of instructions that tells the system how to complete a task. W
 ## Knowledge article search
 
 The knowledge base search lets you search for relevant knowledge articles to resolve a case. These articles are displayed based on relevance and full-text search mechanisms. For more information, see [Search for knowledge articles](search-knowledge-articles-csh.md). 
+
+## Screen recording
+
+When enabled by your administrator, screen recording captures your on-screen actions while you handle customer interactions. Automated screen recording starts when you accept a voice call and stops when the voice call ends. If you switch to a video call, a system notification is shown to the end customer indicating that the video in the call might be recorded for quality and training purposes. 
+
+Alternately, you can also do a manual screen recording by selecting the screen recording option on the productivity pane. Select **Start recording** to start and **Stop recording** to end the recording. Manual recording is continuous and you can't pause the recording.
 
 ### Related information
 
