@@ -58,7 +58,7 @@ To use the predefined examples:
 1. In the **Email instructions** section, select the **AI Personalization** option.
 1. In the **Email guidance** field, select the pencil icon to open the text editor.
    :::image type="content" source="media/sqa-email-guidance.png" alt-text="Screenshot of the email guidance editor with the prompt drop-down highlighted":::
-1. In the **Prompt** drop-down, select an example outreach scenario that best matches your requirements. The agent uses the associated prompt to personalize outreach emails for leads that fit the scenario. You can edit the prompt or add additional instructions to further tailor the emails to your needs. The changes are saved to the selected prompt. [How to structure your instructions for effective personalization](#structure-your-instructions-for-effective-personalization).
+1. In the **Prompt** drop-down, select an example outreach scenario that best matches your requirements. The agent uses the associated prompt to personalize outreach emails for leads that fit the scenario.
 
 ## Define custom outreach scenario and personalization guidance
 
@@ -67,8 +67,8 @@ To create your own custom outreach scenario and personalization guidance, provid
 1. [Open the Sales Qualification Agent settings](open-sales-qualification-agent-settings.md).
 1. In the **Email instructions** section, select the **AI Personalization** option.
 1. In the **Email guidance** field, select the pencil icon to open the text editor.
-1. Select **Custom** from the **Prompt** drop-down and edit the instructions. [How to structure your instructions for effective personalization](#structure-your-instructions-for-effective-personalization).
-   :::image type="content" source="media/sqa-email-guidance.png" alt-text="Screenshot of the email guidance editor with the prompt drop-down highlighted":::
+1. Select an example outreach scenario from the **Prompt** drop-down and edit the instructions. The scenario name changes to **Custom** in the drop-down. Learn how to [structure your instructions for effective personalization](#structure-your-instructions-for-effective-personalization).
+   :::image type="content" source="media/sqa-email-guidance-custom.png" alt-text="Screenshot of the email guidance editor with the Custom prompt highlighted":::
    The outreach scenario is saved as a custom prompt that you can reuse or edit later.
 
 ## Structure your instructions for effective personalization
