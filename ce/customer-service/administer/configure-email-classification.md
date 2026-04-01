@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 03/31/2026
+ms.date: 04/01/2026
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---
@@ -16,7 +16,7 @@ Email classification helps you categorize incoming emails by using AI so you can
 
 ## Overview
 
-Organizations receive many types of incoming email, including support requests, billing questions, partner inquiries, and general notifications. Email classification helps you use AI to understand the intent of each message so you can process it consistently—creating and routing cases when appropriate, and applying automation only where it adds value.
+Organizations receive many types of incoming email, including support requests, billing questions, partner inquiries, and general notifications. Email classification helps you use AI to analyze the content each message so you can process it consistently—creating and routing cases when appropriate, and applying automation only where it adds value.
 
 Email classification analyzes the content of incoming emails and assigns each message to a configured category. You can then use that category to determine how the email is handled—for example, whether a case is created, how the case is routed, or whether other automation applies.
 
