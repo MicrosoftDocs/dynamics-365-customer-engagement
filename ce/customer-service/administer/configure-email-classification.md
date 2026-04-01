@@ -1,5 +1,5 @@
 ---
-title: Configure email classification in Dynamics 365 Customer Service 
+title: Configure email classification in Customer Service 
 description: Learn how to configure email classification settings to help you control how emails are processed in Dynamics 365 Customer Service for improved efficiency.
 author: lalexms
 ms.author: laalexan
@@ -10,7 +10,7 @@ ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---
 
-# Configure email classification in Dynamics 365 Customer Service
+# Configure email classification in Customer Service
 
 Email classification helps you categorize incoming emails by using AI so you can control how emails are processed in Dynamics 365 Customer Service. You can use classification to reduce unnecessary case creation, improve routing, and limit downstream automation to relevant emails.
 
