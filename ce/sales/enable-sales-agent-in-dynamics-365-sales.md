@@ -1,6 +1,6 @@
 ---
-title: Enable Sales Agent in Microsoft 365 Copilot for Dynamics 365 Sales (preview)
-description: Learn how to enable the Sales Agent in Dynamics 365 Sales so sales representatives can use Copilot to get responses based on relevant sales information.
+title: Enable Sales agent in Microsoft 365 Copilot for Dynamics 365 Sales (preview)
+description: Learn how to enable the Sales agent in Dynamics 365 Sales so sales representatives can use Copilot to get responses based on relevant sales information.
 ms.date: 03/31/2026
 author: lavanyakr01
 ms.author: lavanyakr
@@ -10,22 +10,22 @@ ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---
 
-# Enable Sales Agent in Microsoft 365 Copilot for Dynamics 365 Sales (preview)
+# Enable Sales agent in Microsoft 365 Copilot for Dynamics 365 Sales (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Sales Agent in Microsoft 365 Copilot is an AI-powered assistant that helps sales representatives by providing insights and responses based on relevant sales information from Dynamics 365 Sales. 
+The Sales agent is an AI-powered chat interface that allows you to interact with your sales data using natural language. You can ask questions and gain insights from your CRM data and past customer conversations—all through natural language.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Enable Sales Agent
+## Enable Sales agent
 
-To enable Sales Agent in Dynamics 365 Sales, there are two key procedures that are required:
+To enable Sales agent in Dynamics 365 Sales, there are two key procedures that are required:
 
-1. The Microsoft 365 administrator must enable and install the Sales in Microsoft 365 Copilot app that contains Sales Agent. Do the steps in [Enable and install Sales in Microsoft 365 Copilot app](#enable-and-install-sales-in-microsoft-365-copilot-app).
+1. The Microsoft 365 administrator must enable and install the Sales in Microsoft 365 Copilot app that contains Sales agent. Do the steps in [Enable and install Sales in Microsoft 365 Copilot app](#enable-and-install-sales-in-microsoft-365-copilot-app).
 1. The Dynamics 365 organization administrator must add the Microsoft 365 Copilot application to the Dynamics environment. Do the steps in [Add Microsoft 365 Copilot for app users in model-driven apps (preview)](/power-apps/maker/model-driven-apps/add-microsoft-365-copilot).
 
-After you enable Sales Agent, sales representatives in your organization can use the agent in Microsoft 365 Copilot chat and in the Copilot Sales workspace app.
+After you enable Sales agent, sales representatives in your organization can use the agent in Microsoft 365 Copilot chat and in the Copilot Sales workspace app.
 
 ## Enable and install Sales in Microsoft 365 Copilot app
 
