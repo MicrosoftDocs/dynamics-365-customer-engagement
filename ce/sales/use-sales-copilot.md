@@ -37,6 +37,13 @@ Select the **Copilot** icon on the command bar to open the Copilot side pane.
 
 :::image type="content" source="media/view-prompts.png" alt-text="Screenshot of the prompt guide in the Copilot side pane in Dynamics 365 Sales, with the notebook icon highlighted.":::
 
+> [!NOTE]
+> If your administrator has turned on Microsoft 365 Copilot for your sales app, you'll see two options under the Copilot icon:
+> - **Chat**: Select this option to access the Microsoft 365 Copilot chat experience.
+> - **App Skills**: Select this option to access the Copilot in Dynamics 365 Sales skills described in this article. 
+>
+> Learn more in [Use Microsoft 365 Copilot in model-driven apps (preview)](/power-apps/user/use-microsoft-365-copilot-model-driven-apps).
+
 ## Interact with Copilot
 
 You can interact with Copilot through the side pane in the following ways:
