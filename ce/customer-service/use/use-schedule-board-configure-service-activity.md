@@ -1,11 +1,12 @@
 ---
 title: Use the schedule board to configure service activity (Dynamics 365 Customer Service)
 description: Learn how to schedule a service activity using the schedule board in Dynamics 365 Customer Service.
-ms.date: 06/30/2025
+ms.date: 03/20/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
+ms.update-cycle: 1095-days
 search.audienceType: 
   - admin
   - customizer

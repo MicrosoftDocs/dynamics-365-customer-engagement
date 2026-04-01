@@ -1,7 +1,7 @@
 ---
 title: Create or edit quotes in Dynamics 365 Sales
 description: Quotes include the pricing details of products your potential customer is interested in. A quote becomes an order once the customer accepts it.
-ms.date: 08/08/2025
+ms.date: 03/13/2026
 ms.topic: how-to
 ms.custom: bap-template
 author: lavanyakr01
@@ -106,9 +106,22 @@ The price calculation for a quote depends on the product catalog, line items, pr
 
     In the active and closed states, the prices aren't adjusted to the actual prices on the price list when you open or edit the quote.
   
-## Export to PDF
+## Send the quote to the customer
 
-When you've added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, select **Export to PDF** on the command bar. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Export to PDF](create-quote-pdf.md#export-to-pdf)
+You can share the quote with your customer by exporting it to a PDF file and printing it, or directly sending the PDF through email. 
+
+To send the quote through email, open the quote and select **Export to PDF** on the command bar. In the **Export to PDF** dialog, select the **Email** option, and then enter the recipient's email address, subject, and message body. The quote PDF is automatically attached to the email.
+
+:::image type="content" source="media/quote-export-pdf.png" alt-text="Screenshot of the Export to PDF dialog.":::
+ 
+To export the quote to PDF, open the quote record and select **Export to PDF** on the command bar. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Export to PDF](create-quote-pdf.md#export-to-pdf). 
+
+To personalize the quote PDF, modify the word template used for the PDF generation. 
+1. Open a quote and select **Word Templates** > **Download Template** on the command bar. This downloads the word template used for quote PDF generation to your local drive. 
+1. Follow the instructions in [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365) to personalize the template. You can add your company logo, change the layout, and include additional information that you want to share with your customers.
+1. Upload it back by selecting **Word Templates** > **Upload Template**.
+1. Select the personalized template for PDF generation when exporting the quote to PDF.
+
 
 ## Typical next steps
 

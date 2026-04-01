@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 03/06/2026
+ms.date: 03/20/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -39,13 +39,25 @@ If you don't select a default template and Copilot recommended email templates i
 In Copilot Service admin center, follow these steps to configure the automation level for each line of business:
 
 1. Select **Manage** for **Case Management Agent** in **Case settings**. The **Case Management Agent** page appears.
-1. Select **Manage** for **Case Resolution**. The Case Resolution Agent page appears.
-1. In **Level of automation per LOB**, the lines of business you configured in the Customer Intent Agent appear. Select the required line of business and then select **Edit**. You can specify the following automation levels for each line of business:
+1. Select **Manage** for **Case Resolution**. The **Case resolution** page appears.
+1. In **Level of automation per line of business**, the lines of business you configured for Customer Intent Agent appear. Select the required line of business and then select **Edit**. You can specify the following automation levels for each line of business:
    - **Full**: The AI agent automatically resolves cases.
    - **Require agent confirmation**: The AI agent drafts email responses, but requires a representative to review and send the email.
    - **Disabled**: The agent doesn't draft email responses. 
 
-### Record representative interactions with the AI agent
+## Configure language for case resolution
+
+Define the language that Case Management Agent can use for drafting customer communications like emails during the case resolution process. If the agent can't determine a valid and supported langauge because the case field is empty or contains a locale that isn't supported, the agent hands off the case to a service representative and doesn't draft or send an email. This ensures that customer communications proceed only when the language requirement is met.
+
+1.In Copilot Service admin center, go to **Case resolution**. The **Case resolution** page appears.
+
+1. In **Language settings**, select one of the following options:
+
+   - **Use case record**: Uses the language locale stored in the case record. Use this option if your organization supports multiple languages and stores the customer’s preferred language on each case.
+      - **Locale field/record**: Select the **case field** that stores the language locale value. The value must be in a valid **ISO language–country code format** (for example: `en-US`).
+   - **A single language**: Select a supported language. Case Management Agent uses it for all case resolution emails. Use this option if your support operations are standardized on one language.
+
+## Record representative interactions with the AI agent
 
  You can select **Record service representative interactions with AI, including agent actions and their feedback on AI suggestions** to record and understand how representatives are interacting with the AI agent and how the agent is performing in a support organization. You can also download and use the data to analyze knowledge sources, and build usage reports.
 
@@ -101,6 +113,20 @@ Simulations are listed with details of the simulation name, line of business, ru
 
 - Select **Download** to export an Excel report.
 - Select **View** to see simulation results for a specific line of business. The page displays the run details along with individual case predictions showing intent, action type, and generated response. Select **View Email** to view the generated response email.
+
+## Enable shadow mode and view results (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+Use shadow mode to evaluate predicted actions from Case Management Agent on live cases without sending emails or updating records.
+
+> [!NOTE]
+> Shadow mode consumes Copilot or AI credits in the same way as agent runs.
+
+1. On the **Case resolution** page, in **Level of automation per line of business**, select a line of business.
+1. Select **Edit** and on the **Settings** pane, select **Shadow mode** from the **Level of automation** dropdown list and save the changes. 
+1. Select **Shadow mode results** from the **Command** menu. On the **Case resolution shadow mode results** page, you can view the line of business, status, intent predicted, action type, and the response. Expand a case to view all shadow responses associated with it.
+1. Select **View Email** to view the email preview.
 
 ## Related information
 

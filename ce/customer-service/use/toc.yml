@@ -336,8 +336,8 @@
           href: copilot-language-support.md
         - name: Chat with case data in Customer Service (preview)
           href: /dynamics365/contact-center/use/copilot-chat-customer-service-data?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Use Microsoft 365 Copilot chat (preview)
-          href: use-microsoft-365-copilot-chat.md
+        - name: Use Microsoft 365 Copilot (preview)
+          href: use-microsoft-365-copilot.md
         - name: Supervise AI agents with agent feed
           href: supervise-agents-with-agent-feed.md
         - name: Use form-fill assistance
@@ -350,6 +350,10 @@
           href: record-summaries.md
         - name: Use timeline highlights with generative AI
           href: use-timeline-highlights-with-generative-ai.md
+      - name: Service in Microsoft 365 Copilot
+        items:
+        - name: Use Service Agent in Microsoft 365 Copilot (preview)
+          href: use-service-agent.md
       - name: Analytics dashboards and insights
         items:
         - name: Supervise AI agents (preview)
@@ -470,8 +474,6 @@
             href: oob-data-models.md
           - name: Data model mapping for real-time analytics reports
             href: datamapping-realtime.md
-          - name: Dataverse entities used in historical and real-time analytics
-            href: dataverse-entities.md
       - name: Service scheduling
         items: 
           - name: Core Service Scheduling

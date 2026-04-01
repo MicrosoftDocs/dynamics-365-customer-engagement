@@ -1,7 +1,7 @@
 ---
 title: Set up unified routing for email records
 description: Learn how to use unified routing to route email records as work items in Dynamics 365 Customer Service.
-ms.date: 02/04/2025
+ms.date: 03/18/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

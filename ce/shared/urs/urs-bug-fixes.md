@@ -7,18 +7,60 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157.285) | TBD | 1/16/2026 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157.285) |  TBD | 1/23/2026 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157.285) |  TBD | 1/30/2026 |
-| | *USG* | [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157.285) |  TBD | 1/21/2026 |
-|**Station 4** |*Europe* |  [3.12.156.520](/dynamics365/field-service/field-service-version-history-resource-scheduling#312156520) |  [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157285-hotfix) | 1/16/2026 |
-|**Station 5** |  *North America, Oceania*| [3.12.156.520](/dynamics365/field-service/field-service-version-history-resource-scheduling#312156520)  | [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157285-hotfix) | 1/23/2026 |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.156.520](/dynamics365/field-service/field-service-version-history-resource-scheduling#312156520) | [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157285-hotfix)| 1/21/2026 |
-|**Station 6** | *Dedicated Scale Groups* |  [3.12.156.520](/dynamics365/field-service/field-service-version-history-resource-scheduling#312156520)  | [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157285-hotfix) | 1/30/2026|
+|**Station 1** |  *First Release*| [3.12.158.157](/dynamics365/field-service/field-service-version-history-resource-scheduling#312158157) | [3.12.159.741](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159741) | 3/13/2026 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.158.157](/dynamics365/field-service/field-service-version-history-resource-scheduling#312158157) |  [3.12.159.741](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159741) | 3/13/2026 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.158.157](/dynamics365/field-service/field-service-version-history-resource-scheduling#312158157) |  [3.12.159.741](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159741) | 3/13/2026 |
+| | *USG* | [3.12.158.157](/dynamics365/field-service/field-service-version-history-resource-scheduling#312158157) |  [3.12.159.741](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159741) | 3/13/2026 |
+|**Station 4** |*Europe* |  [3.12.158.157](/dynamics365/field-service/field-service-version-history-resource-scheduling#312158157) |  TBD | 3/20/2026 |
+|**Station 5** |  *North America, Oceania*| [3.12.158.157](/dynamics365/field-service/field-service-version-history-resource-scheduling#312158157)  | [3.12.158.341](/dynamics365/field-service/field-service-version-history-resource-scheduling#312158341) | 3/14/2026 |
+|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.158.157](/dynamics365/field-service/field-service-version-history-resource-scheduling#312158157) | TBD | 3/25/2026 |
+|**Station 6** | *Dedicated Scale Groups* |  [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157285-hotfix)  | [3.12.158.157](/dynamics365/field-service/field-service-version-history-resource-scheduling#312158157) | 3/13/2026 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.159.741
+
+**Resource Scheduling Controls:** 1.2.98.260581
+
+**Dataverse:** 4.0.159.741
+
+- Updated appearance of short bookings on the Schedule Board.
+- Resources that only have Proposed bookings can now be expanded.
+- Various performance enhancements.
+- Fixed a bug that was impacting booked start times when using promise windows and Schedule Assistant.
+- Fixed a bug that was allowing users to save a booking form when those changes violated a booking rule.
+- Updated filtering on the requirement panel to support searching from longer lists.
+- Added a "Starts with" parameter to the requirement panel filter options.
+- Currency formatted columns are now filterable in the requirements panel.
+- Fixed bugs that were impacting editing booking lengths by dragging in multi-day views.
+- Updated default mapping provider from Bing to Azure.
+
+## 3.12.158.341
+
+**Resource Scheduling Controls:** 1.2.97.260142
+
+**Dataverse:** 4.0.158.341
+
+- This release contains security improvements.
+
+## 3.12.158.157
+
+**Resource Scheduling Controls:** 1.2.97.260142
+
+**Dataverse:** 4.0.158.157
+
+- Week numbers are now supported on Schedule Board date pickers and in weekly view for users with week numbers enabled in their personalization settings.
+- Fixed a bug that was impacting date formats in column filters on the Requirements Panel.
+- Linked entities in the requirements panel now open in a pop-up instead of a new tab.
+- The work order summary column in the Unscheduled Work Orders panel now supports tooltips on all rows.
+- Fixed a bug that was impacting duration calculations when splitting requirements in Specify Pattern.
+- Fixed a bug that was impacting tooltip settings in multi-day views.
+- Fixed a bug that was causing some work order tooltips to open requirements instead of the parent work order.
+- Dragging a booking now reflects Daylight Saving Time in the tooltip.
+- Fixed a bug that was causing constant refreshing in the requirements panel for some users after clicking Find Availability.
+- Right-clicking and selecting "Open Link in a new tab" is now supported for requirements from the Schedule Board.
 
 ## 3.12.157.285 (hotfix)
 

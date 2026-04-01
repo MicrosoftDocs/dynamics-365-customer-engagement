@@ -1,7 +1,7 @@
 ---
 title: Work order lifecycle and system statuses
 description: Track the status of a work order in its lifecycle with system statuses, substatuses, and booking statuses.
-ms.date: 02/02/2026
+ms.date: 03/17/2026
 ms.topic: concept-article
 author: lmasieri
 ms.author: lmasieri
@@ -26,7 +26,7 @@ Work orders use system statuses, work order substatuses, and booking statuses to
 
 **Work Order Substatuses** appear on the `workorder` entity. They relate to and provide more detail for work order system statuses. Each organization creates custom work order substatuses to communicate more granular and meaningful information about the state of a work order.
 
-**Booking Statuses** appear on the `bookableresourcebooking` entity. Field technicians update them on the Field Service mobile app to track their progress for a specific work order. Additionally, the schedule board visualizes booking statuses with a distinct color and icon. A few booking statuses are introduced by default, though you can add more custom ones. Out of the box, the booking statuses are just records. You can modify or remove them if they're not meaningful to your process. The **Booking Statuses** available out of the box are:
+**Booking Statuses** appear on the `bookableresourcebooking` entity. Field technicians update them on the Dynamics 365 Field Service mobile app to track their progress for a specific work order. Additionally, the schedule board visualizes booking statuses with a distinct color and icon. A few booking statuses are introduced by default, though you can add more custom ones. Out of the box, the booking statuses are just records. You can modify or remove them if they're not meaningful to your process. The **Booking Statuses** available out of the box are:
 
 - Scheduled
 - Traveling
@@ -165,6 +165,10 @@ Review the following table to understand how the booking status maps to the work
 |  Booking1: In Progress <br>Booking2: Partially Completed   | In Progress  |
 |  Booking1: Completed <br>Booking2: Partially Completed  | Completed  |
 |  Booking1: Canceled <br>Booking2: Partially Completed   | **Unscheduled**  |
+
+## Record deactivation behavior
+
+When you deactivate a parent record, such as a work order in Field Service, the system doesn't automatically deactivate its child records. Existing products, services, time entries, and actuals remain in place. To remove or update them, you must act on each record directly. This behavior preserves historical data.
 
 ## Next steps
 

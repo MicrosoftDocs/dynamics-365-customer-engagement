@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues and how you can use them in unified routing in Dynamics 365 Contact Center and Customer Service.
-ms.date: 01/08/2026
+ms.date: 03/13/2026
 ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
@@ -40,7 +40,7 @@ Unified routing prioritizes work within individual queues and across queues. Pri
 - First-in-first-out is the default prioritization logic applicable for the out-of-box assignment methods and [custom assignment methods](configure-assignment-rules.md) that have no prioritization rules.
 - Custom prioritization that can be defined with a custom assignment method.
 
-The oldest conversation or work item in the queue is assigned first. For asynchronous messaging channels such as persistent chat, WhatsApp, and Facebook, the oldest conversation is determined based on the last interaction time. For example, if the first contact on WhatsApp for a customer is on Monday, and the initial problem is resolved by Tuesday but the conversation isn't closed, it goes into the [waiting state](../use/oc-conversation-state.md). If the same customer comes back on Thursday afternoon with a new question while new customers are waiting in the queue since Thursday morning, the returning customer is prioritized only after the customers who are waiting since Thursday morning.
+The oldest conversation or work item in the queue is assigned first. For asynchronous messaging channels such as persistent chat, WhatsApp, and Facebook, the oldest conversation is determined based on the last interaction time. For example, a customer contacts you on WhatsApp on Monday. The issue is resolved on Tuesday, but the conversation remains open. The conversation then enters the [waiting state](../use/oc-conversation-state.md). The same customer returns on Thursday afternoon with a new question. Other customers have been waiting in the queue since Thursday morning. The returning customer is prioritized only after those waiting customers.
 
 For record queues, the first-in-first-out assignment method is based on the time the record was routed, which is when the associated live work item is created. Learn more in [Understand how unified routing affects queue items and live work items for routed records](../develop/unified-routing-impact-on-apis.md).
 
@@ -50,7 +50,7 @@ When service representatives are subscribed to multiple queues, you can use the 
 - If they have the default first-in-first-out ordering, the oldest item across all these queues is assigned first.
 - If they have custom prioritization rules, then the queues are ordered alphabetically based on the queue names to determine the highest priority work. 
 
-If you have configured queues based on both out-of-the-box assignment methods and custom prioritization rules, the queues with out-of-the-box assignment methods are prioritized first followed by the queues based on custom prioritization rules.
+If you configured queues based on both out-of-the-box assignment methods and custom prioritization rules, the queues with out-of-the-box assignment methods are prioritized first followed by the queues based on custom prioritization rules.
 
 For example, lets look at a setup with the following four queues, all with priority defined as 1:
 
@@ -79,16 +79,17 @@ If you want to use skill-based routing, the "exact match" and "closest match" op
 If you need to distribute work fairly among representatives, then you should consider switching to a round robin assignment strategy.
 
 > [!NOTE]
-> When you modify a rating model, the ongoing conversations or open work items that have skills with the rating model continue to have the existing rating. Sometimes, this might result in no representatives who match the assignment criteria.
+> When you modify a rating model, the ongoing conversations or open work items that have skills with the rating model continue to have the existing rating. Sometimes, this action might result in no representatives who match the assignment criteria.
 
 ### Advanced round robin
 
 The system assigns a work item to the representative who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment, the work items are prioritized as mentioned at [How unified routing prioritizes work items](#how-unified-routing-prioritizes-work-items).
 
 The ordering for round robin assignment is maintained queue-wise. Some representatives can be a part of multiple queues. Therefore, depending on the representative's last assignment timestamp in a queue, the representatives might be assigned back-to-back or concurrent work items but from different queues.
-In scenarios when multiple representatives match the work item requirement, and there's a tie in the "order by", like, multiple matched representatives with the same available capacity, the system resolves the assignment using round robin based on the earliest time of the last assignment.
 
-For example, three representatives, Lesa, Alicia, and Alan, are available with the coffee refund skill and can handle up to three chats at a time. Their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM, respectively. A work item about a coffee refund arrives in the queue at 10:40 AM. With the order by set to "profile-based available capacity", all the representatives at 10:40 AM have the same available capacity of 2 each. To break the tie between the representatives, the system uses round robin. Therefore, the incoming chat is assigned to Lesa because her last assignment was the earliest at 10:30 AM. Later at 10:45 AM, if another coffee refund work item comes in, the system assigns it to Alicia. This is also based on the round robin order of assignment between Alicia and Alan because their available capacities are 2 each and Alicia had an earlier assignment than Alan at 10:35 AM.
+In some scenarios, multiple representatives match the work item requirements. If there's a tie in the order by value, such as the same available capacity, the system assigns the work item by using round robin. The system bases the order on the earliest time of the last assignment.
+
+For example, three representatives, Lesa, Alicia, and Alan, are available with the coffee refund skill and can handle up to three chats at a time. Their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM, respectively. A work item about a coffee refund arrives in the queue at 10:40 AM. With the order by set to "profile-based available capacity", all the representatives at 10:40 AM have the same available capacity of 2 each. To break the tie between the representatives, the system uses round robin. Therefore, the incoming chat is assigned to Lesa because her last assignment was the earliest at 10:30 AM. Later at 10:45 AM, if another coffee refund work item comes in, the system assigns it to Alicia. This action also uses round robin assignment. Alicia and Alan both have an available capacity of 2. Alicia is assigned first because her last assignment was earlier, at 10:35 AM.
 
 ### Least active
 
@@ -130,7 +131,7 @@ You can also build a [custom report](model-customize-reports.md) to track a repr
 
 > [!IMPORTANT]
 >
-> The least-active assignment method is available for the voice and messaging channels only and is the default selection when you create a voice queue.
+> The least-active assignment method is available for the voice and messaging channels only and is the default selection when you create a voice or messaging queue.
 >
 > This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making—and should not be used to make—decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
 
@@ -144,7 +145,7 @@ You can also create a custom assignment method to suit your business needs. The 
 > [!IMPORTANT]
 >
 > - While you can create custom assignment methods, we recommend that you use the out-of-the-box assignment methods or selection criteria that are robust and validated for most use cases.
-> - You must configure presence, capacity, and skill-matching rules in the custom assignment method because the default settings defined for the workstream won't be used in custom assignment method.
+> - You must configure presence, capacity, and skill-matching rules in the custom assignment method because the default settings defined for the workstream aren't used in custom assignment method.
 > - The out-of-the-box assignment strategies don't consider the representative operating hours. You must write a custom assignment method by using the "is_working" operator in the rule definition.
 
 ### Assignment cycle
@@ -173,22 +174,22 @@ As an example, consider the prioritization ruleset as seen in the following scre
 
 - The first rule, "High priority and premium," finds all work items in the queue where the associated case priority is "High" and the case category is "Premium". The system creates the top priority bucket with those work items and sorts them in the "First in and first out" manner as specified in the **Order by** attribute. The first work item to be assigned from the queue is the oldest item in this bucket.
 
-- The next priority bucket is the work items where case category is "Premium". The work items with "Premium" case category and "High" priority have already been put in top bucket as per the preceding rule, so this rule only considers other work items with "Premium" case priority. The **Order by** attribute in this case also is "First in and first out".
+- The next priority bucket is the work items where case category is "Premium". The preceding rule placed work items with the Premium case category and High priority in the top bucket. This rule considers only other work items with Premium case priority. The **Order by** attribute in this case also is "First in and first out".
 
-- The next priority bucket consists of work items where case priority is high and they haven't been bucketed already. Here the work items are ordered by their "First Response By" field in the ascending order—that is, the work items that require the first response at the earliest are prioritized first.
+- The next priority bucket includes work items with high case priority that aren't in a bucket yet. The system orders work items by the **First Response By** field in ascending order. That is, the work items that require the first response at the earliest are prioritized first.
 
 Some important points about prioritization rules are as follows:
 
 - You can create only one prioritization ruleset per queue.
 - Prioritization rules are run during every assignment cycle. If you change any attributes of the work item, such as the priority of the case, that change is considered during the next assignment cycle.
 - By default, the queue is sorted on a "first in and first out" manner. If you don't create a prioritization rule, then the oldest work item is assigned first.
-- In normal scenarios, when a sufficient number of representatives are available to take up the work items, the processing period is a couple of seconds only. The representatives are assigned work items in the priority order. However, if work items pile up because of fewer eligible representatives, and then a representative becomes available during the processing period, the representative is offered the next work item according to the priority order. This strategy might create a perception that the highest priority item wasn't assigned; especially after some top-priority items are attempted for assignment and yet remain in the queue.
-- The work items that don't match the criteria of any of the prioritization rulesets are kept in the last priority bucket, and are ordered by "first in first out".
+- In normal scenarios, when a sufficient number of representatives are available to take up the work items, the processing period is a couple of seconds only. The representatives are assigned work items in the priority order. Sometimes, work items pile up because there are fewer eligible representatives. If a representative becomes available during the processing period, the system offers the next work item based on priority order. This strategy can create the perception that the highest priority item wasn't assigned. This situation occurs when the system attempts to assign top‑priority items, but they remain in the queue.
+- The system places work items that don't match any prioritization ruleset in the last priority bucket and orders them on a first‑in, first‑out basis.
 - Prioritization rules are skipped for affinity work items and such work items are assigned before other work items in the queue. Learn more about affinity in [Representative affinity](create-workstreams.md#representative-affinity).
 
 ## How assignment rulesets work
 
-The assignment ruleset is an ordered list of assignment rules. Each assignment rule represents a set of conditions that is used to determine the representatives to select and an order-by field to sort the matching representatives. At runtime, the assignment rule with the top order is evaluated first. The representatives are matched as per the conditions specified in the rule. If more than one matching representative exists, they're sorted by the order-by field, and the top representative is assigned the work. If no representatives are matched, then the next assignment rule in the ruleset is evaluated. This method can be thought of as a gradual relaxation of constraints in the assignment, such that first, the strictest criteria are applied, and then the conditions are reduced so that the best representative is found. If no matching representatives are found, then the work item remains in the queue.
+The assignment ruleset is an ordered list of assignment rules. Each assignment rule represents a set of conditions that is used to determine the representatives to select and an order-by field to sort the matching representatives. At runtime, the assignment rule with the top order is evaluated first. The representatives are matched as per the conditions specified in the rule. If more than one matching representative exists, they're sorted by the order-by field, and the top representative is assigned the work. If no representatives are matched, then the next assignment rule in the ruleset is evaluated. This method gradually relaxes assignment constraints. The system first applies the strictest criteria and then reduces the conditions to find the best representative. If no matching representatives are found, then the work item remains in the queue. 
 
 In the assignment rule, the system user attributes are matched with the requirement of the work item. When you select static match, the condition is formed on the System User entity attribute and static values. When you select dynamic match, the conditions on the left are based on the system user root entity and the conditions on the right are based on the conversation root entity. You can drill down to two levels on the conversation root entity to form the rule conditions. An assignment rule with the dynamic match and static match is as follows.
 
@@ -207,7 +208,7 @@ The assignment rules comprise the following items:
     - **Capacity**: Maintained by the unified routing service based on user workloads and manual selection.
     - **User skills**: Represents the skills associated with the user that can be used for doing skill-based assignment.
     - **Calendar Schedule**: Schedule of the user as represented in the user service scheduling calendars.
-    - **Bot attributes**: Can be used only when you have configured agents as users and want to do some comparisons on them.
+    - **Bot attributes**: Can be used only when you configured agents as users and want to do some comparisons on them.
   - **Operators**: Define the comparison relationship between the User attribute and incoming work item attributes.
 
   > [!NOTE]
@@ -219,11 +220,11 @@ The assignment rules comprise the following items:
     |--------------|--------|----------|
     |Presence Status| Equals, Does not equal, Contains data, Does not contain data| Use an operator to find representatives who have matching presence status as specified in the work item. |
     |Capacity|Equals, Does not equal, Contains data, Does not contain data|Use an operator to compare if the representative has enough capacity to work on the specified items. <br>**Note**: The system implicitly performs capacity profile check in custom assignment but for unit-based capacity, you need to specify the conditions.|
-    |User skills|Exact match|Use an operator to find representatives who have all the skills which the incoming work item requires.|
+    |User skills|Exact match|Use an operator to find representatives who have all the skills that the incoming work item requires.|
     |User skills|Custom match|Use the operator to find representatives whose skills match at runtime based on the selected lookup attribute on the work item.|
     |Calendar schedule|Is working|Use this operator to find representatives who are working as per their service scheduling calendars. Automated assignment considers the representative calendar schedule only and doesn't consider the operating hours defined for the queues.|
   
-  - **Value**: The user attributes are compared against this value to find the right representative. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country/region is the same as that of the customer associated with the case.
+  - **Value**: The user attributes are compared against this value to find the right representative. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country/region matches the country/region of the customer associated with the case.
   
      :::image type="content" source="../media/dynamic-value-match.png" alt-text="Screenshot of a sample dynamic match.":::
 
@@ -248,22 +249,22 @@ A sample assignment rule is explained in the following scenario with a screensho
 
 :::image type="content" source="../media/ur-sample-assign-scenario.png" alt-text="Sample assignment method.":::
 
-The first condition specifies the "user skills" on which the operator is an exact match. Then the user attributes are evaluated. The different user attributes are specified with operators, and values for each attribute, such as the **Presence status** attribute, should be equal to "Available" or "Busy". On the right of the operator, you can specify the value that you want the attribute to be matched against. The values can be "static," such as "presence status equals Available or Busy". If you specify "dynamic," the condition is matched at runtime based on the expression you specify. For example, if you specify "Preferred Customer Type Equals Conversation.Contact.Membership Level," the "preferred customer type" of every representative is matched against the dynamically calculated membership level of the customer associated with the chat.
+The first condition specifies the "user skills" on which the operator is an exact match. Then the user attributes are evaluated. The different user attributes are specified with operators, and values for each attribute, such as the **Presence status** attribute, should be equal to "Available" or "Busy". On the right of the operator, you can specify the value that you want the attribute to be matched against. The values can be "static," such as "presence status equals Available or Busy". If you specify "dynamic", the condition is matched at runtime based on the expression you specify. For example, you can specify "Preferred Customer Type Equals Conversation.Contact.Membership Level". The system then matches each representative’s "preferred customer type" with the customer’s calculated membership level for the chat.
 
 Dynamic match reduces the effort of having to write and maintain multiple static rules for each permutation and combination of the possible value.
 
 ### Limits on offering a work item repeatedly to a representative
 
 Representatives can accept or decline work items that come through automatic assignment. Both [rejection](enable-agent-reject-notifications.md) and [allowing the notification to time out](manage-missed-notifications.md) are considered as declining the work item. If a representative declines a work item by either method, their priority for that conversation is reduced during the next assignment attempt. The representative might be reconsidered for the same work item up to three times or the specified limit in following scenarios:
-- If the representative is uniquely qualified for the declined conversation and meets the capacity and presence requirements.
-- If all other eligible representatives also decline.
+- The representative is uniquely qualified for the declined conversation and meets the capacity and presence requirements.
+- All other eligible representatives decline.
 
 If the representative declines the same work item three times or reaches the configured limit, the representative is no longer considered for auto assignment of that particular work item. The system then attempts to assign the declined work item to other eligible representatives in the queue. The representatives can still manually pick the work item.
 
-For example, representative Serena Davis rejects a chat from customer Ana Bowman twice and the assignment notification times out in the third attempt. The system considers it as three declines and auto assignment won't offer the same chat to Serena Davis again. But the system offers the chat from Ana Bowman to other eligible representatives. Also, Serena Davis is considered for other incoming conversations except the declined chat from Ana Bowman.
+For example, representative Serena Davis rejects a chat from customer Ana Bowman twice and the assignment notification times out in the third attempt. The system considers it as three declines and auto assignment doesn't offer the same chat to Serena Davis again. But the system offers the chat from Ana Bowman to other eligible representatives. Also, Serena Davis is considered for other incoming conversations except the declined chat from Ana Bowman.
 
 > [!NOTE]
-> If all matching representatives decline the work item because representative availability is low or the work requires a very specific skill and proficiency, the work remains in the queue. Similarly, if 100 representatives decline a particular work item, auto assignment won't consider the work item in further assignment cycles. It can be manually assigned by supervisors or can be picked up by other representatives including those who rejected it.
+> If all matching representatives decline the work item because representative availability is low or the work requires a specific skill and proficiency, the work remains in the queue. Similarly, if 100 representatives decline a particular work item, auto assignment doesn't consider the work item in further assignment cycles. Supervisors can manually assign it, or other representatives including representatives who rejected it can pick it up.
 
 You can update the default limit of three declines to a value between one and five based on your org requirement. The limit is applicable to all channels in the org.
 
@@ -271,7 +272,7 @@ You can make an OData call as follows to check the limit for your organization.
 
 `<org-url>/api/data/v9.0/msdyn_omnichannelconfigurations?$select=msdyn_number_of_declines_allowed`
 
-If this OData call returns the null value, it means that the decline limit is set to a default value of 3.
+If the OData call returns the null value, it means that the decline limit is set to a default value of 3.
 
 You can update the OData call as follows to modify the limit.
 

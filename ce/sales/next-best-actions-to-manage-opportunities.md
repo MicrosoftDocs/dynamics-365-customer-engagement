@@ -1,5 +1,5 @@
 ---
-title: Manage opportunity risks using AI-generated insights (preview)
+title: Manage opportunity risks using AI-recommended actions (preview)
 description: Learn how action cards are created and shown in the carousel to help sellers address opportunity risks. 
 ms.date: 02/10/2026
 ms.topic: overview
@@ -12,15 +12,15 @@ ms.reviewer: udag
 ai-usage: ai-assisted
 ---
 
-# Manage opportunity risks using AI-generated insights (preview)
+# Manage opportunity risks using AI-recommended actions (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Close Agent - Research generates risk insights and ranks them based on the deal importance and risk criticality. In this article, learn how to view cards, how the agent prioritizes and displays them in the carousel, and how to interact with them to manage your opportunities effectively.
+The Sales Opportunity Agent generates risk insights and ranks them based on the deal importance and risk criticality. In this article, learn how to view cards, how the agent prioritizes and displays them in the carousel, and how to interact with them to manage your opportunities effectively.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]  
 
-## View AI-generated risk insights action cards
+## View AI-recommended risk insights action cards
 
 The action cards appear in a carousel on the **Opportunities** list page in Dynamics 365 Sales under the **Suggested actions** section.  
 
@@ -52,7 +52,7 @@ Each action card displays the top risk for an opportunity and includes the follo
 
 ## How action cards are generated
 
-The agent generates action cards by detecting out-of-the-box risks that come from the Sales Close Agent - Research agent. It turns these risks into a prioritized set of action cards for an opportunity.
+The agent generates action cards by detecting out-of-the-box risks that come from the Sales Opportunity Agent agent. It turns these risks into a prioritized set of action cards for an opportunity.
 
 ## How action cards are prioritized
 
@@ -67,4 +67,4 @@ The agent prioritizes action cards by using simple first-release ranking rules a
 ## Related information
 
 [Sales Close Agent overview](sales-close-agent.md)  
-[Work on opportunities handled by Sales Close Agent - Research](use-opportunity-research-agent.md)
+[Work on opportunities handled by Sales Opportunity Agent](use-opportunity-research-agent.md)
