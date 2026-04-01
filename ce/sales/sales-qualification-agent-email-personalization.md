@@ -153,6 +153,77 @@ In your email guidance, specify:
 
 These are preferences that guide the agent's output. The agent uses them as targets rather than rigid constraints.
 
+## Examples
+
+The following examples show how you can configure outreach email personalization for common scenarios.
+
+### Example 1: Tailored cold outreach for a specific company
+
+Contoso Inc. wants all outreach emails to reflect their brand voice and messaging guidelines. They configure a custom scenario with specific instructions for the subject line, opening, value proposition, and tone.
+
+**Configuration in the Email guidance field:**
+
+```
+Outreach Scenario: Cold outreach to enterprise prospects addressing common supply chain challenges.
+
+Subject Line: Keep under 6 words, use sentence case, and reference the prospect's industry challenge. Do not use exclamation marks.
+
+Opening: Acknowledge a recent company initiative or milestone specific to the prospect. Reference [lead.companyname] to make it feel personalized.
+
+Value Proposition: We help companies like [lead.companyname] reduce operational costs through intelligent automation. Keep it to two concise bullet points. Include social proof if relevant.
+
+Tone and Voice: Calm and commercially sharp. No overselling. Sound like a trusted advisor, not a vendor. Never repeat the company name more than once.
+
+Call-to-Action: Ask for a 15-minute exploratory call. Keep it low pressure—no urgency language.
+```
+
+**Result:** The generated email opens with a reference to a recent initiative at the lead's company, follows the subject line style guidance, and closes with a low-pressure call-to-action—matching Contoso's brand voice.
+
+### Example 2: Web visit follow-up using a custom field
+
+Contoso wants to follow up with leads who visited their website. The web visit details are stored in the **Description** field of the lead record, and the email should tie the value proposition to the prospect's industry.
+
+Since **Description** isn't included as a token by default, they first add it in the [**Agent instructions** section](sales-qualification-agent-email-instruction-validation.md) along with a description of the signals it contains.
+
+**Configuration in the Email guidance field:**
+
+```
+Outreach Scenario: Web visit follow-up. The prospect recently visited our website and showed interest in specific products or solutions.
+
+Opening: Reference the prospect's recent web visit and their specific area of interest. Use signals from [lead.description] to make the opening relevant.
+
+Value Proposition: Tie the value proposition to the prospect's industry ([lead.industry]). For example, if the industry is vehicle retail, highlight solutions relevant to automotive sales operations.
+
+Tone and Voice: Warm and helpful. Do not be aggressive or pushy.
+
+Call-to-Action: Keep it low friction. Invite the prospect to reply with a short note rather than asking for a formal meeting.
+```
+
+**Result:** The generated email acknowledges the web visit and the specific product interest from the description field. The value proposition is tied to the lead's industry, and the CTA invites a simple, low-friction reply.
+
+### Example 3: Conditional personalization based on industry
+
+Contoso wants to offer different promotional discounts depending on the lead's industry. They use conditional instructions in the email guidance to achieve this.
+
+**Configuration in the Email guidance field:**
+
+```
+Outreach Scenario: Web visit follow-up with an industry-specific promotional offer.
+
+Messaging Guidance—apply conditionally based on [lead.industry]:
+- Manufacturing: Highlight a 30% discount on the annual subscription.
+- Retail: Highlight a 15% discount on the annual subscription.
+- Vehicle Retail: Highlight a 50% discount on the annual subscription.
+- All other industries: Highlight operational efficiency gains without mentioning a specific discount.
+
+Opening: Reference the prospect's recent web visit.
+
+Tone and Voice: Confident and commercially sharp.
+
+Call-to-Action: Invite the prospect to learn more about the offer by replying to the email.
+```
+
+**Result:** The generated email reflects the correct promotional offer based on the lead's industry. For example, a lead in the vehicle retail industry receives an email mentioning a 50% discount, while a manufacturing lead sees the 30% discount messaging.
 
 ## Related information
 
