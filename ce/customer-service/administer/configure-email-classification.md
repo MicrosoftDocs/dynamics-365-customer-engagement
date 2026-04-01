@@ -12,7 +12,7 @@ ms.update-cycle: 180-days
 
 # Configure email classification in Customer Service
 
-Email classification helps you categorize incoming emails by using AI so you can control how emails are processed in Dynamics 365 Customer Service. You can use classification to reduce unnecessary case creation, improve routing, and limit downstream automation to relevant emails.
+Email classification helps you categorize incoming emails by using AI so you can control how emails are processed in Dynamics 365 Customer Service. You can use classification to reduce unnecessary case creation, improve routing, and limit downstream automation to relevant messages.
 
 ## Overview
 
@@ -20,15 +20,21 @@ Organizations receive many types of incoming email, including support requests, 
 
 Email classification analyzes the content of incoming emails and assigns each message to a configured category. You can then use that category to determine how the email is handled—for example, whether a case is created, how the case is routed, or whether other automation applies.
 
+You configure email classification in the Customer Service admin center, under **Email settings**.
+
 ## Prerequisites
 
-- You have the **System administrator** or **Customer Service administrator** role.
-- [Email-to-case](automatically-create-update-records.md) is configured in your environment.
-- [Copilot features](configure-copilot-features.md) are enabled.
+- [Pay-as-you-go billing](/copilot/microsoft-365/pay-as-you-go/overview) is enabled for your environment.
+- You have the **System administrator** or **CSR Manager** role.
 
 ## How email classification works
 
-Email classification assigns a category to incoming emails based on content. You define the categories, specify which emails are evaluated, and enable classification so that emails are categorized automatically.
+Configuring email classification involves four high-level tasks:
+
+1. Define email categories that represent the types of messages your organization receives.
+1. Specify which incoming emails are evaluated by setting scope conditions.
+1. Enable email classification so incoming emails are automatically analyzed and assigned a category.
+1. Use the assigned email category in downstream processes, such as routing rules or automatic case creation.
 
 ### Define email categories
 
