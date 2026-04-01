@@ -34,7 +34,7 @@ Email classification assigns a category to incoming emails based on content. You
 
 You define custom categories that represent how emails should be handled, such as Billing, Marketing, or Support.
 
-Consider the following when defining categories:
+Consider the following criteria when defining categories:
 
 - You must configure at least two categories.
 - You can configure up to nine categories.
