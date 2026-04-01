@@ -55,7 +55,7 @@ For the experience profile that you created, you can add users and configure opt
    - In the **Productivity pane**, select **On** to enable the productivity tools pane and then turn on the options that the service representatives can access when they work on their assigned tasks. The following productivity tool options are available:
   
       - Default mode: Set the toggle to expanded or collapsed mode as the default.
-      - Copilot help pane
+      - Copilot
       - Knowledge search
       - Agent scripts
       - Join a Teams call
