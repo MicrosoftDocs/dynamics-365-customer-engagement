@@ -76,7 +76,7 @@ The knowledge base search lets you search for relevant knowledge articles to res
 
 When enabled by your administrator, screen recording captures your on-screen actions while you handle customer interactions. Automated screen recording starts when you accept a voice call and stops when the voice call ends. If you switch to a video call, a system notification is shown to the end customer indicating that the video in the call might be recorded for quality and training purposes. 
 
-Alternately, you can also do a manual screen recording by selecting the screen recording option on the productivity pane. Select **Start recording** to start and **Stop recording** to end the recording. Manual recording is continuous and you can't pause the recording.
+Alternatively, you can manually record your screen by selecting Screen recording in the productivity pane. Select Start recording to begin and Stop recording to end the session. Manual recordings run continuously and can’t be paused.
 
 ### Related information
 
