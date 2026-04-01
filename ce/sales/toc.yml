@@ -981,6 +981,8 @@ items:
             href: copilot-get-doc-suggestions.md
           - name: Copilot in Dynamics 365 Sales FAQ
             href: sales-copilot-faq.md
+          - name: Use Microsoft 365 Copilot (preview)
+            href: microsoft-365-copilot-chat-in-sales.md
           - name: Use Copilot's form fill assistance
             href: form-fill-assistance.md
           - name: Find data using natural language with AI (preview)
