@@ -55,13 +55,15 @@ For the experience profile that you created, you can add users and configure opt
    - In the **Productivity pane**, select **On** to enable the productivity tools pane and then turn on the options that the service representatives can access when they work on their assigned tasks. The following productivity tool options are available:
   
       - Default mode: Set the toggle to expanded or collapsed mode as the default.
-      - Copilot
+      - Copilot help pane
       - Knowledge search
-      - Scripts
+      - Agent scripts
       - Join a Teams call
       - Teams chats
       - Smart assist
       - Case handling time
+      - Screen Recording
+      - Timeout Rules
       
       Turn on the toggle against each option in the **Productivity Pane** to enable it for the service representative.
    - In the **Inbox** section, select **Edit** to enable the inbox view. Service representatives can view all their work items on one screen and prioritize tasks and efficiently work on multiple tasks.
