@@ -454,6 +454,8 @@
         href: voice-channel-delete-calls.md
       - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
+      - name: Set up secure consult, transfer to external contacts (preview)
+        href: configure-voice-call-experiences.md#set-up-secure-consult-with-and-transfer-to-external-contacts-preview
       - name: Manage phone music
         href: voice-channel-music.md
       - name: Use bot framework composer to set up a multilingual bot for voice channel
@@ -706,6 +708,8 @@
         href: enable-ask-summarize-cases.md
       - name: Enable Copilot plugins for generative AI (preview)
         href: /dynamics365/contact-center/administer/enable-copilot-plugins-for-generative-ai?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
+      - name: Enable email classification
+        href: configure-email-classification.md
       - name: Enable Copilot to create knowledge from cases
         href: enable-copilot-suggest-knowledge-from-cases.md
       - name: View feedback data
@@ -726,6 +730,10 @@
         href: /dynamics365/contact-center/administer/knowledge-copilot?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: FAQ for Copilot in Customer Service
         href: faq-copilot-features.md
+    - name: Service in Microsoft 365 Copilot
+      items:
+      - name: Enable Service Agent in Microsoft 365 Copilot (preview)
+        href: configure-service-agent.md
     - name: Agents
       items:
       - name: Overview of agents
@@ -804,6 +812,8 @@
         href: csw-enable-ai-suggested-cases-knowledge-articles.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
+      - name: Configure case sentiment (preview)
+        href: configure-case-sentiment-analysis.md
       - name: Customize interactive dashboards based on Unified Interface
         href: configure-interactive-dashboards-customer-service-hub.md
       - name: FAQ about AI suggestions for cases and knowledge articles

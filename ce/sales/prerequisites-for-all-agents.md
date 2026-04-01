@@ -46,5 +46,5 @@ Agent-specific prerequisites are covered in their respective agent setup article
 ## Related information
 
 - [Set up and configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
-- [Set up and configure the Sales Close Agent - Engage (preview)](configure-sales-close-agent.md)
-- [Configure the Sales Close Agent - Research (preview)](configure-opportunity-research-agent.md)
+- [Set up and configure the Sales Close Agent (preview)](configure-sales-close-agent.md)
+- [Configure the Sales Opportunity Agent (preview)](configure-opportunity-research-agent.md)

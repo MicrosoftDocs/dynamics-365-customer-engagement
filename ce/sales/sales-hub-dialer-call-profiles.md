@@ -1,5 +1,5 @@
 ---
-title: "Step 4: Configure inbound and outbound profiles for the Sales Hub Dialer"
+title: Configure inbound and outbound profiles for the Sales Hub Dialer (preview)
 description: Learn how to create inbound and outbound call profiles that control call routing, consult/transfer behavior, and outgoing call settings for the Sales Hub Dialer.
 ms.date: 03/23/2026
 ms.topic: how-to
@@ -9,7 +9,7 @@ ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
 
-# Step 4: Configure inbound and outbound profiles for the Sales Hub Dialer (preview)
+# Configure inbound and outbound profiles for the Sales Hub Dialer (preview)
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
@@ -39,7 +39,7 @@ This article covers quick steps to create inbound and outbound profiles for the 
 Follow the same steps as for an inbound profile, but set **Profile Type** to **Outbound** in step 4.
 
 > [!NOTE]
-> The number assigned to an outbound profile will be the default number and this number CANNOT be assigned to another seller. 
+> The number assigned to an outbound profile will be the default number and this number can't be assigned to another seller. 
 
 
 ## Ensure profile consistency

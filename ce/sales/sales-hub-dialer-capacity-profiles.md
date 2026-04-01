@@ -1,5 +1,5 @@
 ---
-title: "Step 3: Set up capacity profiles for the Sales Hub Dialer"
+title: Set up capacity profiles for the Sales Hub Dialer (preview)
 description: Learn how to configure capacity profiles that define how many concurrent calls sellers can handle in the Sales Hub Dialer.
 ms.date: 03/23/2026
 ms.topic: how-to
@@ -9,7 +9,7 @@ ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
 
-# Step 3: Set up capacity profiles for the Sales Hub Dialer (preview)
+# Set up capacity profiles for the Sales Hub Dialer (preview)
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 

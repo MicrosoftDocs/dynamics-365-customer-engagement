@@ -1,28 +1,29 @@
 ---
 title: Configure email
-description: Learn how to configure email in customer engagement apps.
-ms.date: 03/03/2025
+description: Learn how to configure enhanced email settings, attachment limits, and blocked file types for email in Dynamics 365 customer engagement apps.
+ms.date: 03/30/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
+ms.service: dynamics-365-customer-service
 ---
 
 # Configure email
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-Email is typically used as a communication channel between customers and customer service representatives (service representatives or representatives) throughout the lifecycle of support delivery. Regardless of the channel where a customer begins a conversation, service representatives often use email to send their customers confirmations, case IDs, attachments, or other communications of record throughout the support lifecycle.
+Email is a communication channel that customers and customer service representatives (service representatives, representatives) use throughout the support lifecycle to send confirmations, case IDs, attachments, and other communications.
 
-In customer engagement apps, system administrators can configure email templates and enable quick access to email to help users create emails directly from the timeline so they can deliver a more personalized service.	
+In customer engagement apps, system administrators can configure enhanced email settings, attachment limits, and blocked file types so that users can create and manage email from the timeline.
 
 The following email configuration options are available:	
 - [Configure the email form order](#configure-the-email-form-order): Allow users to access email capabilities and create an option on the command bar.
 - [Enable the enhanced email experience](#enable-the-enhanced-email-experience): Allow users to use broader email functionality, such as expand the email editor pop-up window, apply predefined templates, and insert attachments to email.
-- [Configure email attachments size limitations](#configure-email-attachment-size-limitations): Allows you to manage file size limits for email attachments.
-- [Configure the attachment tiles thumbnail layout](#configure-attachment-tiles-thumbnail-layout): Allows you to configure the visual layout of attachments and the number of attachments to show per page.
+- [Configure email attachments size limitations](#configure-email-attachment-size-limitations): Manage file size limits for email attachments.
+- [Configure the attachment tiles thumbnail layout](#configure-attachment-tiles-thumbnail-layout): Configure the visual layout of attachments and the number of attachments to show per page.
 - [Change the number of attachments to show per page](#change-the-number-of-attachments-to-show-per-page): Configure how many attachments you want to show.
-- [Manage blocked attachment file types](#manage-blocked-attachment-file-types): Allows you to configure the types of file types you want to block users from being able to upload as email attachments.
+- [Manage blocked attachment file types](#manage-blocked-attachment-file-types): Configure the types of file types you want to block users from being able to upload as email attachments.
 
 ## Configure the email form order
 
@@ -45,11 +46,9 @@ To enable email:
 
 ## Enable the enhanced email experience	
 
-Enhanced email is the default setting, but you must enable email for users to access and use the features. 
+Enhanced email is enabled by default. You can turn on enhanced email for the timeline at the organization level so that users can access the enhanced email experience. 
 
-1. Sign in to https://`<YourOrgURL>`.dynamics.com/apps and open a customer engagement app.
-
-1. In the app, go to **Settings** > **Advanced Settings**.
+1. In your customer engagement app, go to **Settings** > **Advanced Settings**.
 
 2. Select **Settings** > **Administration**.
 
@@ -67,7 +66,7 @@ You can manage file size limits for email file attachments by completing the fol
 
 2. In the **System Settings** display window that appears, go to the **Email** tab.
 
-3. Scroll down to the  **Set file size limit for attachments** section, set the file size you want to use for attachment, and then select **OK**.
+3. Scroll down to the  **Set file size limit for attachments** section, set the maximum file size for attachments, and then select **OK**.
 
   > [!Note] 	
   > The default file size limit for attachments is 5 MB. The size limit for attachments can be increased to a maximum of 132 MB per file.
@@ -83,14 +82,14 @@ Perform the following steps to display the email editor as a pop-up window:
 1. Select  **Settings** > **Advanced Settings**.
 2. Select **System** > **Administration**. 
 3. Select **System Settings**. 
-2. In the **System Settings** display window that appears, go to the **Email** tab.
-3. Select **Multitask, compose, and save drafts using email pop-up windows when creating email from timeline** in the  **Enhanced email for Timeline** section, and then select **Ok**.
+2. In the **System Settings** window that appears, go to the **Email** tab.
+3. In the **Enhanced email for Timeline** section, select **Multitask, compose, and save drafts using email pop-up windows when creating email from timeline**, and then select **OK**.
 
 ## Configure attachment tiles thumbnail layout
 
 You can configure the attachment tiles thumbnail layout in email by selecting the Email entity form for enhanced email from the Advanced settings menu.
 
-1. In Power Apps, go to **Advanced settings**.
+1. In Power Apps, go to **Advanced Settings**.
 
 2. Select **Customizations** > **Customize the System**.
 

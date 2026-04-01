@@ -1,5 +1,5 @@
 ﻿---
-title: "Step 6: Create a bookable resource"
+title: Create a bookable resource (preview)
 description: Bookable resources in Dynamics 365 Sales Hub connect sellers to capacity profiles. Learn how to set up resources, route calls, and manage voicemails.
 author: lavanyakr01
 ms.author: lavanyakr
@@ -9,9 +9,13 @@ ms.topic: concept-article
 ai-usage: ai-assisted
 ---
 
-# Step 6: Create a bookable resource
+# Create a bookable resource (preview)
+
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
 Capacity profiles are bound to bookable resources, not directly to users. You must create a bookable resource for each seller before capacity profiles appear on their user record. After you create a bookable resource, you can associate the appropriate capacity profiles with that seller to manage their call routing and availability. Learn more about bookable resources in [Manage users using the classic experience](/dynamics365/customer-service/administer/users-user-profiles#manage-users-using-the-classic-experience)
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 ## Create a bookable resource and assign capacity profiles
 
@@ -22,3 +26,7 @@ Capacity profiles are bound to bookable resources, not directly to users. You mu
    After the bookable resource is created, the capacity profile section appears. 
 1. Associate the capacity profiles with the seller.
 
+## Related information
+
+- [Enable and configure the Sales Hub Dialer](configure-sales-hub-dialer.md)
+- [Understand call routing](sales-hub-dialer-call-routing.md)

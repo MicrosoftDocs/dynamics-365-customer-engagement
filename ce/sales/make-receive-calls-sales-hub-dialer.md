@@ -37,13 +37,13 @@ Before sellers can use the Sales Hub Dialer, the following requirements must be 
 - **Hardware**: A computer with a microphone, speakers or headset, and a supported browser.
 
 > [!NOTE]
-> **Telephony costs:** The Sales Hub Dialer is included with Dynamics 365 Sales, but outbound and inbound PSTN calls incur telephony charges from your calling plan or provider. Azure Communication Services usage for call routing, recording, and transcription may incur additional charges after GA. Refer to the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544) for details.
+> **Telephony costs:** The Sales Hub Dialer is included with Dynamics 365 Sales, but outbound and inbound PSTN calls incur telephony charges from your calling plan or provider.
 
 ## Place an outbound call
 
 As a seller, you can start an outbound call in two ways:
 
-1. To call a lead, contact, or opportunity, open the record in the Sales Hub app and select the **phone icon** next to the phone number field. The dialer pane opens and automatically dials the number.
+1. To call a lead, contact, or opportunity, open the record in the Sales Hub app and select the **Phone** icon next to the phone number field. The dialer pane opens and automatically dials the number.
 
 2. To call a number not in CRM, select the **Call** icon in the right pane of the Sales Hub app, enter the phone number using the keypad, and select **Call**.
 
@@ -79,9 +79,11 @@ You can transfer an active call to another user or external phone number.
    - **Warm transfer**: Speak with the recipient privately before completing the transfer.
    - **Cold transfer**: Transfer the call immediately without speaking to the recipient first.
 
+Learn more about transferring calls in [Transfer and consult on voice calls](/dynamics365/customer-service/use/voice-channel-transfer-consult?tabs=enhancedvoicestack).
+
 ### View live transcription and sentiment
 
-If Conversation Intelligence is enabled for your organization, the call panel displays:
+If [Conversation Intelligence is enabled](fre-setup-ci-sales-app.md) for your organization, the call panel displays:
 
 - **Real-time transcription** — The conversation is transcribed as it happens, converting speech to text in near real time.
 - **Sentiment indicator** — An AI-powered meter shows the customer's sentiment (positive, neutral, or negative) as the conversation progresses.
@@ -92,13 +94,19 @@ These features help you gauge customer mood and capture details during complex d
 
 To capture key details or next steps, add the notes to the call record in the **Timeline** of the associated lead or contact. These notes are saved as part of the call activity and can be referenced later.
 
+Learn more about taking notes in [Take notes during conversations](/dynamics365/customer-service/use/oc-take-notes)
+
 ### Mark a call as spam
 
 If an inbound call is unwanted, select **Mark as Spam** in the call panel. This labels the number and helps the system filter future calls from that number.
 
+Learn more about blocking unwanted calls in [Block phone numbers](/dynamics365/customer-service/administer/voice-channel-block-number)
+
 ## Review post-call information
 
 When a call ends, the Sales Hub Dialer automatically captures and enriches the call record.
+
+Learn more about post-call information in [View call recordings and transcripts](/dynamics365/customer-service/use/voice-channel-call-recordings-transcripts)
 
 ### View the call log
 
@@ -117,10 +125,4 @@ If call recording is enabled, the call record includes:
 - **Call recording** — Select the recording to play back the conversation.
 - **Full transcript** — Read the complete text of the conversation.
 
-## Related information
 
-- [Configure call transcripts and recordings](/dynamics365/customer-service/administer/voice-channel-configure-transcripts)
-- [Enable sentiment analysis](/dynamics365/customer-service/administer/enable-sentiment-analysis)
-- [Transfer and consult on voice calls](/dynamics365/customer-service/use/voice-channel-transfer-consult?tabs=enhancedvoicestack)
-- [Block phone numbers](/dynamics365/customer-service/administer/voice-channel-block-number)
-- [Configure voicemail](/dynamics365/customer-service/administer/voice-channel-voicemail)

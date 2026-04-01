@@ -1,59 +1,65 @@
 ---
-title: "Architecture of Connected Customer Service with IoT Hub | MicrosoftDocs"
-description: "Learn about the architecture of Connected Customer Service with IoT Hub."
-ms.date: 04/03/2020
+title: Architecture of Connected Customer Service with IoT Hub
+description: Learn about the architecture and data flow for Connected Customer Service with Azure IoT Hub.
+ms.date: 03/30/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ---
 
-# Architecture of Connected Customer Service with IoT Hub
+# Architecture of Connected Customer Service with Azure IoT Hub
 
-Connected Customer Service with IoT Hub brings together Azure IoT and Dynamics 365 Customer Service. In this topic, you will find an explanation of the architecture and how it all works together.
+Connected Customer Service with Azure IoT Hub integrates Azure IoT services with Dynamics 365 Customer Service. This article explains the architecture and how each component works together to support IoT-driven service scenarios.
 
-## Prerequisites
+## Concepts
 
-To understand what's covered in this topic, you need to know that Connected Customer Service (CCS) refers to a set of solutions, entities, and processes built inside the Dynamics 365 Customer Service Hub app. As of Customer Service Hub 9.0.20034.20XX,  CCS is included as part of Customer Service. 
+To understand the content in this article, be familiar with the following concepts:
 
-For this topic, the words **data** and **telemetry** refer to information sent from an IoT device to the cloud. The words **devices** and **sensors** refer to Internet-connected things like thermometers, gyroscopes, magnetometers, pressure readers, and more that take specific measurements. An **asset** is a piece of equipment that can have one or more sensors connected to it.
+- **Connected Customer Service** refers to a set of solutions, entities, and processes built in Dynamics 365 Customer Service.
+- In this article, **data** and **telemetry** refer to information sent from IoT devices to the cloud.
+- **Devices** and **sensors** refer to internet-connected components—such as thermometers, pressure sensors, or gyroscopes—that collect measurements.
+- An **asset** is a piece of equipment that can have one or more sensors attached.
 
-## Architecture
+## Architecture overview
 
 > [!div class="mx-imgBorder"]
 > ![Diagram illustrating the connections between Connected Customer Service with IoT Hub architecture, and how each of the elements relate to each other.](../media/cs-iot-architecture.png)
 
-- **IoT Devices & Edge**: Internet-connected sensors on equipment send data to IoT Hub typically via WiFi or cellular connectivity. A single piece of equipment can have multiple sensors, each taking different measurements such as temperature and pressure. If a building or area has a collection of equipment each with multiple sensors, then an **Edge device** can be used to organize them and broker telemetry sent to IoT Hub.
+- **IoT Devices & Edge**: Internet-connected sensors send telemetry to Azure IoT Hub, typically over WiFi or cellular networks. A single piece of equipment can contain multiple sensors that capture different measurements, such as temperature or pressure. In environments with collections of devices, an edge device can aggregate telemetry and forward it to IoT Hub.
 
-- **Device Simulator**: Administrators can simulate devices and telemetry for testing and development purposes before the hardware is set up. This lets them see how simulated alerts flow to Dynamics 365 Customer Service and create work orders.
+- **Device Simulator**: Administrators can simulate devices and telemetry for testing and development before physical hardware is available. This helps validate how alerts flow into Customer Service and generate IoT alerts or cases.
 
-- **IoT Hub**: The gateway to the cloud, capable of ingesting data on a large scale. IoT Hub is a collection of applications and processes tailored to connected device scenarios that are also customizable. Deploying IoT Hub will deploy a resource group with this collection of applications and processes.
+- **Azure IoT Hub**: The gateway for ingesting device telemetry at scale. IoT Hub consists of services and processes designed for connected-device scenarios and is deployed as an Azure resource group.
 
-- **Azure Stream Analytics**: Queries device data as it enters IoT Hub. Data only passes through and is not stored.
+- **Azure Stream Analytics**: Processes device data as it enters IoT Hub. Data passes through Stream Analytics but is not stored unless additional storage is configured.
 
-- **Threshold Rules Store**: Helps decide if device data is abnormal and beyond acceptable boundaries. Abnormal data is characterized as a **Fault**.
+- **Threshold rules store**: Evaluates incoming telemetry against predefined thresholds to detect abnormal conditions. When telemetry exceeds acceptable limits, the data is classified as a fault.
 
-- **Service Bus**: Takes faults and enters them into a queue to systematically keep track of them. The queue is helpful for scenarios where faults fail to get transferred to Dynamics 365 and should be attempted again after some time.
+- **Azure Service Bus**: Stores detected faults in a queue to ensure reliable delivery to Customer Service. Queuing supports retry scenarios if faults fail to transfer immediately.
 
-- **Stream Analytics & Azure SQL**: Used to store device data for longer time periods to perform data analysis. For example, this would be an option for organizations interested in analyzing large amounts of historical data to predict device failures in the future. This generally incurs a greater Azure cost.
+- **Azure Stream Analytics and Azure SQL**: Store telemetry for longer-term analysis. This configuration supports historical analysis and predictive scenarios but can increase Azure costs
 
-- **Logic App Azure to Dynamics**: Connects Azure with Dynamics 365 (and other applications and platforms). Serves as a way to apply more logic, map entities, and trigger the appropriate actions in Dynamics 365, such as the creation of an **IoT Alert** record. Compare this to IoT Central, which uses Power Automate.
+- **Azure Logic Apps (Azure to Customer Service**: Connect Azure services with Dynamics 365 Customer Service. Logic Apps apply business logic, map entities, and trigger actions such as creating **IoT alert** records. For Azure IoT Central integrations, Power Automate is used instead of Logic Apps.
 
-- **IoT Alert**: Faults are passed from IoT Hub to Dynamics 365 in the form of IoT alerts, which is an entity in Customer Service. An IoT alert is the first part of the process inside Dynamics 365. An IoT alert is a subset of all device data that requires attention and potentially an action from the customer service or customer service department.
+- **IoT alert**: An entity in Customer Service that represents actionable telemetry from devices. IoT alerts are created when faults require attention from a customer service team.
 
-- **Connected Customer Service Model Driven App**: A set of entities and processes built on Dynamics 365 Customer Service. Among other things, Connected Customer Service allows you to connect IoT devices (sensors) with Customer Service customer assets.
+- **Connected Customer Service Model Driven App**: A set of entities and processes built on Customer Service that enables associating devices with customer assets, managing IoT alerts, and initiating service actions.
 
-- **Customer Service Agent**: The end users of Connected Customer Service who interact with IoT alerts and cases, on their phones, tablets, and computers.
+- **Customer service representatives**: The users who interact with IoT alerts, cases, and devices within Customer Service on desktop or mobile devices.
 
-- **Devices**: Entities in Connected Customer Service in Dynamics 365 that help you manage the sensors and equipment that your organization manages.
+- **Devices (entity)**: Customer Service entities that represent managed devices and sensors responsible for generating telemetry.
 
-- **Registration, Commands & Properties**: Processes used in Connected Customer Service to interact with and send data back to IoT Hub and finally to the device, making CCS a bi-directional solution. For example, commands allow you to execute actions on devices such as reboot. Another example is to display a message on the device for someone to view..
+- **Registration, Commands & Properties**: Enable bi-directional communication between Customer Service and IoT Hub. For example, commands can reboot a device or display a message on-device.
 
-- **Logic App Dynamics to Azure**: The reverse of the previously explained Logic App, this adds detail to data and actions that need to be sent to IoT Hub from Dynamics. IoT Hub will then send the data or action to the connected device.
-
+- **Azure Logic Apps (Customer Service to Azure)**: Send commands and data from Customer Service back to IoT Hub, which then forwards them to the connected devices.
 
 ## Component data flow diagram
-A data flow between the Azure IoT Hub and Connected Customer Service components is detailed in this [downloadable diagram](https://download.microsoft.com/download/3/A/7/3A744B76-3E04-49F5-A30B-938400CEB73E/AzureIoTCfsDataFlowDiagram.jpg). It details each information flow, its flow direction and relative order for a standard installation of Connected Customer Service for Dynamics 365.
 
+A detailed data flow between Azure IoT Hub and Connected Customer Service components is available in the following downloadable diagram:
+
+[Download the component data flow diagram](https://download.microsoft.com/download/3/A/7/3A744B76-3E04-49F5-A30B-938400CEB73E/AzureIoTCfsDataFlowDiagram.jpg)
+
+The diagram shows the direction and order of data flow for a standard installation of Connected Customer Service with Azure IoT Hub.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
