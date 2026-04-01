@@ -29,3 +29,7 @@ Search for: "Opportunities from accounts in the Technology industry, with estima
 
 You're in the My Open Leads view and want to find leads from a specific marketing campaign that were created last month.
 Search for: "Leads from Summer Campaign created last month"
+
+### Related information
+
+[Agents, Copilot, and AI capabilities in Dynamics 365 apps](/dynamics365/copilot/ai-get-started)  

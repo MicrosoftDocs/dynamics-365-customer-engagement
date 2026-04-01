@@ -17,4 +17,5 @@ ms.update-cycle: 180-days
 
 ### Related information
 
+[Agents, Copilot, and AI capabilities in Dynamics 365 apps](/dynamics365/copilot/ai-get-started)  
 [Copilot feature availability across products](/dynamics365/contact-center/use/copilot-feature-availability)  
