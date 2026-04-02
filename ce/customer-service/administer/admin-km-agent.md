@@ -201,10 +201,10 @@ The JavaScript triggers knowledge harvesting by sending table and user informati
     })();
     
     ``` 
-        1. In the **Add JavaScript Library** dialog, select the JavaScript library you just created.
-        1. Add the library to your command.
-        1. For function name, enter **Msdyn.KnowledgeHarvest.triggerHarvest**.
-        1. Select **+ Add** parameter, and in **Parameter 1**, select **PrimaryControl** from the dropdown.
+    1. In the **Add JavaScript Library** dialog, select the JavaScript library you just created.
+    1. Add the library to your command.
+    1. For function name, enter **Msdyn.KnowledgeHarvest.triggerHarvest**.
+    1. Select **+ Add** parameter, and in **Parameter 1**, select **PrimaryControl** from the dropdown.
 
 1. Under **Visibility**, keep the default setting as **Show** or configure custom visibility rules based on your requirements.
 1. Drag and drop the command to the desired location. 
