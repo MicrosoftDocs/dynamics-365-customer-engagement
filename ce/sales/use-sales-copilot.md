@@ -36,7 +36,7 @@ Select the **Copilot** icon on the command bar to open the Copilot side pane.
 
 > [!NOTE]
 > If your administrator has turned on Microsoft 365 Copilot for your sales app, you'll see two options under the Copilot icon:
-> - **Chat**: Select this option to access the Microsoft 365 Copilot chat experience.
+> - **Chat**: Select this option to access the Microsoft 365 Copilot chat experience and the [Sales agent in Microsoft 365 Copilot](use-sales-agent-in-m365-copilot.md).
 > - **App Skills**: Select this option to access the Copilot in Dynamics 365 Sales skills described in this article. 
 >
 > Learn more in [Use Microsoft 365 Copilot in Dynamics 365 Sales (preview)](microsoft-365-copilot-chat-in-sales.md).
