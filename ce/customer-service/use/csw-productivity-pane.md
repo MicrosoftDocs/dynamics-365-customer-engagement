@@ -1,7 +1,7 @@
 ---
 title: Overview of productivity pane
 description: Overview of productivity pane in Dynamics 365 Copilot Service workspace.
-ms.date: 04/01/2026
+ms.date: 04/02/2026
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -74,9 +74,9 @@ The knowledge base search lets you search for relevant knowledge articles to res
 
 ## Screen recording
 
-When enabled by your administrator, screen recording captures your on-screen actions while you handle customer interactions. Automated screen recording starts when you accept a voice call and stops when the voice call ends. If you switch to a video call, a system notification is shown to the end customer indicating that the video in the call might be recorded for quality and training purposes. 
+When your administrator enables this feature, screen recording captures your on-screen actions as you handle customer interactions. Automated screen recording starts when you accept a voice call and stops when the call ends. 
 
-Alternatively, you can manually record your screen by selecting Screen recording in the productivity pane. Select Start recording to begin and Stop recording to end the session. Manual recordings run continuously and can’t be paused.
+Alternatively, you can manually record your screen by selecting the recording icon in the productivity pane. Manual recordings run continuously and can’t be paused.
 
 ### Related information
 
