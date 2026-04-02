@@ -39,5 +39,10 @@ Before you can use the Sales agent, your administrator must have completed the f
    The Microsoft 365 Copilot chat experience opens in the side pane.
 1. Select the Hamburger menu on the top left of the chat pane to view the list of agents and past chats.
 1. Select **Sales** from the list of agents to start interacting with it. If you don't see the Sales agent in the list, select **All agents** and then search for and select **Sales**.
+   :::image type="content" source="media/microsoft-365-copilot-sales.png" alt-text="Screenshot of the Sales agent in Microsoft 365 Copilot.":::
+1. Ask the agent questions in natural language to get the following types of insights:
+   - [Get a summary of an account](/microsoft-sales-copilot/use-sales-chat#get-a-summary-of-an-account)
+   - [Catch up on past customer meetings](/microsoft-sales-copilot/use-sales-chat#catch-up-on-past-customer-meetings)
+   - [Look up information about CRM](/microsoft-sales-copilot/use-sales-chat#look-up-information-about-crm-records)
 
-   Learn more about the Sales agent and its capabilities in the Sales agent documentation: [Use the Sales agent in Microsoft 365 Copilot (preview)](/microsoft-sales-copilot/use-sales-chat).
+Learn more about the Sales agent and its capabilities in the Sales agent documentation: [Use the Sales agent in Microsoft 365 Copilot (preview)](/microsoft-sales-copilot/use-sales-chat).
