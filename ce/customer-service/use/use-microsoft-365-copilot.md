@@ -1,5 +1,5 @@
 ---
-title: Use Microsoft 365 Copilot (preview) in Customer Service and Dynamics 365 Contact Center
+title: Use Microsoft 365 Copilot in Customer Service and Dynamics 365 Contact Center (preview)
 description: Learn how to use Microsoft 365 Copilot to gain insights about the data in Customer Service and Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
