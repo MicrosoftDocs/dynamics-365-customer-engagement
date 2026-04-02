@@ -179,7 +179,7 @@ These are preferences that guide the agent's output. The agent uses them as targ
 
 The following examples show how you can configure outreach email personalization for common scenarios.
 
-### Example 1: Web visit follow-up using a custom field
+### Example 1: Intent signals from website visits
 
 Contoso wants to follow up with leads who visited their website. The web visit details are stored in the **Description** field of the lead record, and the email should tie the value proposition to the prospect's industry.
 
@@ -187,17 +187,15 @@ As **Description** isn't included in the default token, they first add it in the
 
 **Configuration in the Email guidance field:**
 
-```
-Outreach Scenario: Web visit follow-up. The prospect recently visited our website and showed interest in specific products or solutions.
+**Outreach Scenario:** Web visit follow-up. The prospect recently visited our website and showed interest in specific products or solutions.
 
-Opening: Reference the prospect's recent web visit and their specific area of interest. Use signals from [lead.description] to make the opening relevant.
+**Opening:** Reference the prospect's recent web visit and their specific area of interest. Use signals from [lead.description] to make the opening relevant.
 
-Value Proposition: Tie the value proposition to the prospect's industry ([lead.industry]). For example, if the industry is vehicle retail, highlight solutions relevant to automotive sales operations.
+**Value Proposition:** Tie the value proposition to the prospect's industry ([lead.industry]). For example, if the industry is vehicle retail, highlight solutions relevant to automotive sales operations.
 
-Tone and Voice: Warm and helpful. Do not be aggressive or pushy.
+**Tone and Voice:** Warm and helpful. Do not be aggressive or pushy.
 
-Call-to-Action: Keep it low friction. Invite the prospect to reply with a short note rather than asking for a formal meeting.
-```
+**Call-to-Action:** Keep it low friction. Invite the prospect to reply with a short note rather than asking for a formal meeting.
 
 **Result:** The generated email acknowledges the web visit and the specific product interest from the description field. The value proposition is tied to the lead's industry, and the CTA invites a simple, low-friction reply.
 
@@ -207,21 +205,19 @@ Contoso wants to offer different promotional discounts depending on the lead's i
 
 **Configuration in the Email guidance field:**
 
-```
-Outreach Scenario: Web visit follow-up with an industry-specific promotional offer.
+**Outreach Scenario:** Web visit follow-up with an industry-specific promotional offer.
 
-Messaging Guidance—apply conditionally based on [lead.industry]:
+**Messaging Guidance**—apply conditionally based on [lead.industry]:
 - Manufacturing: Highlight a 30% discount on the annual subscription.
 - Retail: Highlight a 15% discount on the annual subscription.
 - Vehicle Retail: Highlight a 50% discount on the annual subscription.
 - All other industries: Highlight operational efficiency gains without mentioning a specific discount.
 
-Opening: Reference the prospect's recent web visit.
+**Opening:** Reference the prospect's recent web visit.
 
-Tone and Voice: Confident and commercially sharp.
+**Tone and Voice:** Confident and commercially sharp.
 
-Call-to-Action: Invite the prospect to learn more about the offer by replying to the email.
-```
+**Call-to-Action:** Invite the prospect to learn more about the offer by replying to the email.
 
 **Result:** The generated email reflects the correct promotional offer based on the lead's industry. For example, a lead in the vehicle retail industry receives an email mentioning a 50% discount, while a manufacturing lead sees the 30% discount messaging.
 
