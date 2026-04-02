@@ -957,6 +957,10 @@ items:
                 href: use-sales-research-agent.md
               - name: FAQs about Sales Research Agent
                 href: faqs-sales-research-agent.md
+          - name: Sales agent in Microsoft 365 Copilot
+            items:
+              - name: Use the Sales agent in Microsoft 365 Copilot
+                href: use-sales-agent-in-m365-copilot.md
       - name: Copilot in Dynamics 365 Sales
         items:
           - name: Copilot overview
@@ -981,7 +985,7 @@ items:
             href: copilot-get-doc-suggestions.md
           - name: Copilot in Dynamics 365 Sales FAQ
             href: sales-copilot-faq.md
-          - name: Use Microsoft 365 Copilot (preview)
+          - name: Use Microsoft 365 Copilot chat (preview)
             href: microsoft-365-copilot-chat-in-sales.md
           - name: Use Copilot's form fill assistance
             href: form-fill-assistance.md

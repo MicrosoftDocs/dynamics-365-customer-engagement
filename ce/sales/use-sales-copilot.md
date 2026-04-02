@@ -8,9 +8,6 @@ ms.service: dynamics-365-sales
 content_well_notification:
  - AI-contribution
 ms.custom:
- - ai-gen-docs-bap
- - ai-gen-desc
- - ai-seo-date:10/04/2023
  - bap-template
  - ignite-2024
 author: lavanyakr01
@@ -42,7 +39,7 @@ Select the **Copilot** icon on the command bar to open the Copilot side pane.
 > - **Chat**: Select this option to access the Microsoft 365 Copilot chat experience.
 > - **App Skills**: Select this option to access the Copilot in Dynamics 365 Sales skills described in this article. 
 >
-> Learn more in [Use Microsoft 365 Copilot in model-driven apps (preview)](/power-apps/user/use-microsoft-365-copilot-model-driven-apps).
+> Learn more in [Use Microsoft 365 Copilot in Dynamics 365 Sales (preview)](microsoft-365-copilot-chat-in-sales.md).
 
 ## Interact with Copilot
 
