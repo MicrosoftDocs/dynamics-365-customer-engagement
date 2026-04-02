@@ -17,3 +17,8 @@ ms.update-cycle: 180-days
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 [!INCLUDE [use-microsoft-365-copilot-model-driven-apps](~/../shared-content/shared/dynamics365-core/use-microsoft-365-copilot-model-driven-apps.md)]
+
+## Related information
+
+- [Use the Sales agent in Microsoft 365 Copilot from within Dynamics 365 Sales (preview)](use-sales-agent-in-m365-copilot.md)
+- [Agents, Copilot, and AI capabilities in Dynamics 365 apps](/dynamics365/copilot/ai-get-started)
