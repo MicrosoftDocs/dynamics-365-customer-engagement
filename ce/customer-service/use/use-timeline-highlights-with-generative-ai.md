@@ -4,7 +4,7 @@ description: Learn how generative AI enhances timeline highlights, helping you a
 author: neeranelli
 ms.author: nenellim
 ms.topic: overview
-ms.date: 02/23/2026
+ms.date: 04/02/2026
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---
