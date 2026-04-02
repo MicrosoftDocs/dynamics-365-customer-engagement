@@ -4,7 +4,7 @@ description: Learn how to configure outreach email personalization for the Sales
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 03/31/2026
+ms.date: 04/02/2026
 ms.topic: how-to
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
@@ -75,6 +75,7 @@ To create your own custom outreach scenario and personalization guidance, provid
 1. (Optional) Dynamically insert information into outreach emails using personalization tokens. Use one of the following options:
     - Use the [default tokens](#use-personalization-tokens). These tokens pull information from the lead record, account research, or agent settings to personalize email content. 
     - Add your own tokens based on the fields in the `Lead` table and provide instructions on how to use them in the email content. Learn how to add custom tokens in the next step. 
+<a name="add-custom-tokens"></a>
 1. (Optional) To add custom tokens, follow these steps:
     1. In the **Personalize email based on key fields from Lead** section, select **New field**.
     2. Select a text-based field from the `Lead` table and then select **Add**.
@@ -110,7 +111,7 @@ You can use personalization tokens in your email guidance to dynamically insert 
     - `[lead.city]`
     - `[lead.country]`
     > [!NOTE]
-    > To use any other fields from the lead table as tokens, include them in the **Personalize email based on key fields from Lead** section.
+    > To use any other fields from the lead table as tokens, add them as [custom tokens](#add-custom-tokens).
 - From the Sales Qualification Agent account research:
     - `[accountResearch.accountoverview]`
     - `[accountResearch.accountnews]`
@@ -183,7 +184,7 @@ The following examples show how you can configure outreach email personalization
 
 Contoso wants to follow up with leads who visited their website. The web visit details are stored in the **Description** field of the lead record, and the email should tie the value proposition to the prospect's industry.
 
-As **Description** isn't included in the default token, they first add it in the [**Personalize email based on key fields from Lead** section](#define-custom-outreach-scenario-and-personalization-guidance) along with a description of the signals it contains.
+As **Description** isn't included in the default token, they first add it as a [custom token](#add-custom-tokens) along with a description of the signals it contains.
 
 **Configuration in the Email guidance field:**
 
