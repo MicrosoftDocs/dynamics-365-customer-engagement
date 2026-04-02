@@ -6,7 +6,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection:
-ms.date: 12/05/2025
+ms.date: 04/02/2026
 ms.custom: bap-template 
 ---
 
@@ -27,6 +27,14 @@ Select the **Visual hierarchy** option to open the hierarchy page, which display
 > - If the **Visual hierarchy** option isn't visible on the command bar, select **More commands for *Table*** (⋮) on the command bar to see more options, and check if the **Visual hierarchy** option is available there.  
 
 :::image type="content" source="media/hv-select-visual-hierarchy.png" alt-text="Screenshot of the Visual hierarchy option in the command bar.":::
+
+## Consaideration for viewing a hierarchy
+
+When you view a record, the application looks for a hierarchy to display it in. To do this, the hierarchy searches only the first‑ and second‑level tables of the published hierarchies. It doesn't search deeper levels.
+
+For example, in a multi-table hierarchy such as Account > Contacts > Opportunities, the hierarchy opens an account or a contact record, but not an opportunity record because the opportunity table is greater than two levels deep.
+
+For a single table hierarchy such as Account with the **Expand all** option enabled, the hierarchy opens an account with a parent or child account, no matter the depth because the **Account** table is the top of this hierarchy.
 
 ## Understand a hierarchy
 
