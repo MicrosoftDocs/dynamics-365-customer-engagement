@@ -73,24 +73,25 @@ To create your own custom outreach scenario and personalization guidance, provid
    The scenario name changes to **Custom** in the drop-down. Learn how to [provide effective personalization instructions](#instructions-for-effective-personalization).
    :::image type="content" source="media/sqa-email-guidance-custom.png" alt-text="Screenshot of the email guidance editor with the Custom prompt highlighted":::
 1. (Optional) Dynamically insert information into outreach emails using personalization tokens. Use one of the following options:
-    - Use the [default tokens](#use-personalization-tokens). These tokens pull information from the lead record, account research, or agent settings to personalize email content. 
-    - Add your own tokens based on the fields in the `Lead` table and provide instructions on how to use them in the email content. Learn how to add custom tokens in the next step. 
+    - Use the [default personalization tokens](#default-personalization-tokens). These tokens pull information from the lead record, account research, or agent settings to personalize email content. 
+    - Add your own personalization tokens based on the fields in the `Lead` table. Learn how to add custom personalization tokens in the next step. 
 <a name="add-custom-tokens"></a>
-1. (Optional) To add custom tokens, follow these steps:
+1. (Optional) To add custom personalization tokens, follow these steps:
     1. In the **Personalize email based on key fields from Lead** section, select **New field**.
+  
     2. Select a text-based field from the `Lead` table and then select **Add**.
-    3. In the **Agent Instructions** field, provide guidance on how to use the selected field in the email. For example, if you selected the **Job title** field, you might instruct the agent to tailor the email content based on the lead's job title so that it resonates with their specific role and responsibilities.
-    You can add up to 3 custom fields as tokens.  
-    **Example token usage:**  
+    3. In the **Agent Instructions** field, add a description for the field. You can provide guidance on how the agent should use the field in the **Email guidance** section. 
+    You can add up to 3 custom fields as personalization tokens.  
+    **Example personalization token usage:**  
     **Subject Line:** "Casual, brief, and formatted as a question. (For example, "Still looking at [lead.subject]?" or "Still interested in [valueProposition]?")"  
 
-   The outreach scenario is saved as a custom prompt that you can reuse or edit later.
+The outreach scenario is saved as a custom prompt that you can reuse or edit later.
 
 ## Instructions for effective personalization
 
 When providing custom instructions for outreach email personalization, consider the best practices in the following sections to ensure that the agent generates effective and relevant emails.
 
-- [Use personalization tokens](#use-personalization-tokens)
+- [Default personalization tokens](#default-personalization-tokens)
 - [Define the outreach scenario](#define-the-outreach-scenario)
 - [Define the call-to-action](#define-the-call-to-action)
 - [Provide subject line guidance](#provide-subject-line-guidance)
@@ -98,9 +99,9 @@ When providing custom instructions for outreach email personalization, consider 
 - [Specify brand language guardrails](#specify-brand-language-guardrails)
 - [Set message length and formatting preferences](#set-message-length-and-formatting-preferences)
 
-### Use personalization tokens
+### Default personalization tokens
 
-You can use personalization tokens in your email guidance to dynamically insert information into the generated emails. The following tokens are available for use by default:
+You can use personalization tokens in your email guidance to dynamically insert information into the generated emails. The following personalization tokens are available for use by default:
 
 - From the lead record:
     - `[lead.firstname]`
@@ -111,7 +112,7 @@ You can use personalization tokens in your email guidance to dynamically insert 
     - `[lead.city]`
     - `[lead.country]`
     > [!NOTE]
-    > To use any other fields from the lead table as tokens, add them as [custom tokens](#add-custom-tokens).
+    > To use any other fields from the lead table, add them as [custom personalization tokens](#add-custom-tokens).
 - From the Sales Qualification Agent account research:
     - `[accountResearch.accountoverview]`
     - `[accountResearch.accountnews]`
@@ -184,7 +185,7 @@ The following examples show how you can configure outreach email personalization
 
 Contoso wants to follow up with leads who visited their website. The web visit details are stored in the **Description** field of the lead record, and the email should tie the value proposition to the prospect's industry.
 
-As **Description** isn't included in the default token, they first add it as a [custom token](#add-custom-tokens) along with a description of the signals it contains.
+As **Description** isn't included in the default personalization tokens, they first add it as a [custom personalization token](#add-custom-tokens) along with a description of the signals it contains.
 
 **Configuration in the Email guidance field:**
 
