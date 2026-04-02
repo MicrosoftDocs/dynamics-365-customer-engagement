@@ -30,6 +30,8 @@ The summary feature adheres to [responsible AI guidelines](faqs-work-order-recap
 
 - You must have a paid Field Service environment. The work order summary feature isn't available in trial environments.
 
+- Your environment must run Dynamics 365 Field Service version 8.8.142.320 or later. [Update your environment](update-field-service.md) if needed.
+
 ## How summaries are generated
 
 When you generate a summary, the system uses the work order ID and your security profile to check if relevant data exists and that you have access to it. If so, the system pulls contextual information directly from the work order and related records to generate the summary. The summary is generated in the language that you define in the personalization settings. It provides references so that you can navigate to the source records for more details.

@@ -27,6 +27,10 @@ Copilot converts uploaded documents into draft inspection templates that technic
 > - Users can provide feedback for inspection builder by default. Environment administrators can switch the feedback mechanism on or off for each individual environment from the organization table. The tenant-level Copilot feedback setting in Power Platform admin center currently has no effect on this feature. To make sure user feedback is disabled across a tenant, you must switch it off for each environment.
 > - This feature isn't currently available for Power Platform or Dynamics 365 environments that are hosted in the United Kingdom and Italy.
 
+## Prerequisites
+
+- Your environment must run Dynamics 365 Field Service version 8.8.142.320 or later. [Update your environment](update-field-service.md) if needed.
+
 ## Enable the inspection builder
 
 An administrator must enable this feature for users in an environment.
