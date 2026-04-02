@@ -207,7 +207,7 @@ Contoso wants to offer different promotional discounts depending on the lead's i
 
 **Outreach Scenario:** Web visit follow-up with an industry-specific promotional offer.
 
-**Messaging Guidance**—apply conditionally based on [lead.industry]:
+**Messaging Guidance:** Apply conditionally based on [lead.industry]:
 - Manufacturing: Highlight a 30% discount on the annual subscription.
 - Retail: Highlight a 15% discount on the annual subscription.
 - Vehicle Retail: Highlight a 50% discount on the annual subscription.
