@@ -89,7 +89,7 @@ Enable real-time knowledge harvesting for your custom record types in Dynamics 3
 1. [Add a trigger harvesting button](#add-a-trigger-harvesting-button) to your custom table form.
 1. Navigate to your custom table (for example, **Custom_Knowledge_Harvest**).
 1. Open an existing record. The **Trigger Harvesting** button appears in the **Command** bar.
-1. Select the button to trigger knowledge harvesting for the current record. A confirmation dialog appears indicating that knowledge harvest has been triggered successfully.
+1. Select the button to trigger knowledge harvesting for the current record. A confirmation dialog appears, indicating that the knowledge harvest has been triggered successfully.
 
 #### Add a trigger harvesting button
 
