@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 03/31/2026
+ms.date: 04/02/2026
 ms.custom: bap-template
 ---
 
@@ -81,21 +81,21 @@ Enable real-time knowledge harvesting for your custom record types in Dynamics 3
 1. [Create the custom table](/power-apps/maker/data-platform/create-edit-entities-portal?tabs=excel) in [Power Apps](https://make.powerapps.com/). If the table already exists, ensure it contains attributes that map to case descriptions and resolutions from which knowledge can be harvested. 
 1. [Add record types for which you want to turn on knowledge management](configure-knowledge-search-control-productivity-pane.md).
 1. [Add custom record types (preview)](#add-custom-record-types-preview).
-1. [Enable real-time knowledge creation]:
+1. Enable real-time knowledge creation:
     1. [Configure knowledge search control on app side pane for an entity record](configure-knowledge-search-control-productivity-pane.md).
-    1. Ensure your custom table (for example, Custom_Knowledge_Harvest) appears as a tab, similar to Case or Conversation. 
+    1. Ensure your custom table (for example, **Custom_Knowledge_Harvest**) appears as a tab, similar to Case or Conversation. 
 1. [Configure rules for real-time article creation](#manage-rules-for-real-time-article-creation) specifically for your custom record tab.
 1. Configure which attributes from your table are used to generate knowledge articles.
 1. [Add a trigger harvesting button](#add-a-trigger-harvesting-button) to your custom table form.
 1. Navigate to your custom table (for example, **Custom_Knowledge_Harvest**).
-1. Open an existing record. The **Trigger Harvesting** button appears in the **Command** bar.
+1. Open an existing record. The **Trigger Harvesting** button appears on the **Command** bar.
 1. Select the button to trigger knowledge harvesting for the current record. A confirmation dialog appears, indicating that the knowledge harvest has been triggered successfully.
 
 #### Add a trigger harvesting button
 
 Add a trigger harvesting command button to your custom table's main form using Power Apps Command Designer to enable real-time knowledge harvesting for your custom records.
 
-The JavaScript triggers knowledge harvesting by sending table and user information to the API, displays progress indicators, handles responses, and controls button availability based on form state. The button works similarly to Case and Conversation record types.
+The JavaScript triggers knowledge harvesting by sending table and user information to the API, displays progress indicators, handles responses, and controls button availability based on the form state. The button works similarly to Case and Conversation record types.
 
 > [!NOTE]
 > This is a sample implementation to trigger knowledge harvesting through a button click. You can customize the button behavior and JavaScript logic based on your organization's requirements.
@@ -105,7 +105,7 @@ The JavaScript triggers knowledge harvesting by sending table and user informati
 1. Find and select your custom table (for example, **Custom_Knowledge_Harvest**).
 1. Select [Edit the command bar](/power-apps/maker/model-driven-apps/use-command-designer#edit-the-command-bar) and then select **main form**. Learn more in [Command bar locations](/power-apps/maker/model-driven-apps/command-designer-overview#command-bar-locations).
     1. In the right pane, enter a label that displays on the command button and select an icon for the command button.
-    1. Under **Action**, provide the following JavaScript library and command to run the command action.  [Use JavaScript for actions](/power-apps/maker/model-driven-apps/use-command-designer#use-javascript-for-actions). 
+    1. Under **Action**, provide the following JavaScript library and command to run the command action. Learn more in [Use JavaScript for actions](/power-apps/maker/model-driven-apps/use-command-designer#use-javascript-for-actions). 
 
     ```javascript 
     
@@ -201,14 +201,14 @@ The JavaScript triggers knowledge harvesting by sending table and user informati
     })();
     
     ``` 
-    1. In the **Add JavaScript Library** dialog, select the JavaScript library you just created.
-    1. Add the library to your command.
-    1. For function name, enter **Msdyn.KnowledgeHarvest.triggerHarvest**.
-    1. Select **+ Add** parameter in **Parameter 1**, select **PrimaryControl** from the dropdown.
+     1. In the **Add JavaScript Library** dialog, select the JavaScript library you just created.
+     1. Add the library to your command.
+     1. For function name, enter **Msdyn.KnowledgeHarvest.triggerHarvest**.
+     1. Select **+ Add** parameter, and in **Parameter 1**, select **PrimaryControl** from the dropdown.
 
 1. Under **Visibility**, keep the default setting as **Show** or configure custom visibility rules based on your requirements.
 1. Drag and drop the command to the desired location. 
-1. Select **Save and Publish** to make the command available to app users.
+1. Save and publish to make the command available to app users.
 
 ## Enable historical knowledge creation
 
