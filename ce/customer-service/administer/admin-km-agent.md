@@ -56,11 +56,11 @@ You can map which record types and data fields are used for each element. You ca
 
 Case attribute selections are applicable to both historical and real-time creation from cases. 
 
-#### Enable track changes and add mapped entities to the Entity Analytics Config table
+### Enable track changes and add mapped entities to the Entity Analytics Config table
 
 To avoid issues during knowledge article creation from historical data, we recommend that you enable **Track changes** for the mapped entities and add them to the **Entity Analytics Config** table .
 
-1. [Enable track changes](/power-platform/admin/enable-change-tracking-control-data-synchronization#using-power-apps-settings)
+1. [Enable track changes](/power-platform/admin/enable-change-tracking-control-data-synchronization#using-power-apps-settings).
 2. To add mapped entities to the **Entity Analytics Config** table:
     
     1. Open the model-driven app ( `https://<org>.crm.dynamics.com/...` ).   
@@ -91,7 +91,7 @@ Enable real-time knowledge harvesting for your custom record types in Dynamics 3
 1. Open an existing record. The **Trigger Harvesting** button appears on the **Command** bar.
 1. Select the button to trigger knowledge harvesting for the current record. A confirmation dialog appears, indicating that the knowledge harvest has been triggered successfully.
 
-#### Add a trigger harvesting button
+### Add a trigger harvesting button
 
 Add a trigger harvesting command button to your custom table's main form using Power Apps Command Designer to enable real-time knowledge harvesting for your custom records.
 
