@@ -39,7 +39,7 @@ The refreshed user experience in the Dynamics 365 Field Service mobile app helps
 
 Configuration options for the refreshed mobile user experience are in the settings area of the Field Service Mobile app module. Makers in an organization can access these settings to enable the new user experience and its features.
 
-If you use a custom app module and don't see the settings area, [review the troubleshooting guide to show the settings area](/dynamics365/field-service/troubleshooting-mobile-newux#settings-area-is-missing-in-the-field-service-mobile-app-module-navigation).
+If you use a custom app module and don't see the settings area, [review the troubleshooting guide to show the settings area](/troubleshoot/dynamics-365/field-service/mobile-app/settings-area-missing).
 
 ### Enable the new mobile user experience
 

@@ -1,14 +1,10 @@
 ---
-title: Configure the agent profile for Sales Close Agent - Engage (preview)
-description: Define the agent information, email signature, disclaimer, and other terms to set the context for the Sales Close Agent - Engage.
-ms.date: 11/07/2025
+title: Configure the agent profile for Sales Close Agent (preview)
+description: Define the agent information, email signature, disclaimer, and other terms to set the context for the Sales Close Agent.
+ms.date: 03/30/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
+ms.custom: bap-template
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -17,19 +13,19 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure the agent profile for Sales Close Agent - Engage (preview)
+# Configure the agent profile for Sales Close Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Define the agent information, email signature, disclaimer, and other terms to set the context for the Sales Close Agent - Engage.
+Define the agent information, email signature, disclaimer, and other terms to set the context for the Sales Close Agent.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 **Follow these steps**:
 
-1. [Open the Sales Close Agent - Engage settings page](open-sales-close-agent-settings.md).  
+1. [Open the Sales Close Agent settings page](open-sales-close-agent-settings.md).  
 1. Under the **General** settings section, select **Agent profile**.  
-    :::image type="content" source="media/sca-general-agent-profile-settings-page.png" alt-text="Screenshot of the Sales Close Agent - Engage profile settings page.":::  
+    :::image type="content" source="media/sca-general-agent-profile-settings-page.png" alt-text="Screenshot of the Sales Close Agent profile settings page.":::  
 1. In the **Agent profile** page, enter the following information:  
 
     | Field name | Description |
@@ -47,4 +43,4 @@ Define the agent information, email signature, disclaimer, and other terms to se
 
 ## Related information
 
-[Set up and configure the Sales Close Agent - Engage (preview)](configure-sales-close-agent.md)
+[Set up and configure the Sales Close Agent (preview)](configure-sales-close-agent.md)

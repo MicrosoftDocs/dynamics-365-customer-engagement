@@ -6,6 +6,7 @@ ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
 ---
+
 # Set up agreements to automatically generate invoices
 
 Customer agreements contain predefined details to generate invoices. For more information, go to [agreements overview](agreements-overview.md). As agreement work increases, consider whether to add [multiple incidents or multiple recurrences](agreements-overview.md#multiple-incidents-vs-multiple-recurrences).
@@ -18,7 +19,7 @@ The following table shows the overall agreement setup flow to generate invoices 
 | 2. [Add Agreement Invoice Setup (AIS)](#step-2-set-up-invoice-recurrence-and-products) | Invoice recurrence, billing defaults | Generate invoices on a schedule |
 | 3. [Activate](#step-3-activate-invoice-recurrence-and-view-invoices) | Change status to Active  | Start automated generation. Agreement Invoice Dates (Scheduled → Processed → Invoices)  |
 
-This article covers scenario to show how agreements can generate invoices.
+This article covers a scenario to show how agreements can generate invoices.
 
 ## Prerequisites
 
@@ -50,9 +51,9 @@ In this example, quarterly invoices are added to the existing agreement.
 1. From the agreement, select **Invoice Setup** > **Add New Agreement Invoice Setup**.
 
    > [!TIP]
-   > You might need to select the vertical ellipsis &vellip; before selecting **New Agreement Invoice Setup**.
+   > You might need to select the vertical ellipsis ( **&vellip;** ) before selecting **New Agreement Invoice Setup**.
 
-   :::image type="content" source="media/agreement-invoice-create-recurrence.png" alt-text="Screenshot of an agreement showing the Add new agreement invoice option under Invoice setup.":::
+   :::image type="content" source="media/agreement-invoice-create-recurrence.png" alt-text="Screenshot of an agreement showing the Add New Agreement Invoice option under Invoice setup.":::
 
 1. Enter a name for the service agreement and select **Save**.
 
@@ -75,7 +76,7 @@ In this example, quarterly invoices are added to the existing agreement.
    - **Repeat by**: Day of the month
    - **Every specified month(s)**: 3
 
-1. Select **OK**, then **Save**.
+1. Select **OK**, and then select **Save**.
 
 ### Step 3: Activate invoice recurrence and view invoices
 
@@ -94,7 +95,7 @@ You can't manually generate agreement invoices like you can with agreement work 
 
 - [Set up agreements to automatically generate work orders](set-up-agreements-work-orders.md)
 - [Manage customer agreements](manage-agreements.md)
-- [Set up agreement sub-statuses](set-up-agreement-sub-statuses.md)
+- [Set up agreement substatuses](set-up-agreement-sub-statuses.md)
 - [Create work order templates with incident types](configure-incident-types.md)
 - [Create and manage customer accounts](accounts.md)
 

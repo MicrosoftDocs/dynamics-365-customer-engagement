@@ -35953,10 +35953,30 @@
      "source_path": "ce/field-service/set-up-customer-agreements.md",
      "redirect_url": "/dynamics365/field-service/agreements-overview",
      "redirect_document_id": "false"
+    },    
+    {
+     "source_path": "ce/customer-service/administer/manage-historical-data-capacity-updates.md",
+     "redirect_url": "/dynamics365/customer-service/administer/capacity-profiles",
+     "redirect_document_id": "false"
+    },    
+    {
+     "source_path": "ce/customer-service/administer/omnichannel-customizer.md",
+     "redirect_url": "/dynamics365/customer-service/administer/customize-customer-summary",
+     "redirect_document_id": "false"
+    },
+    {
+     "source_path": "ce/customer-service/administer/configure-end-of-call-survey.md",
+     "redirect_url": "/dynamics365/customer-service/administer/configure-voice-call-experiences",
+     "redirect_document_id": "false"
     },
     {
      "source_path": "ce/customer-service/use/dataverse-entities.md",
      "redirect_url": "/dynamics365/customer-service/develop/dataverse-entities",
+     "redirect_document_id": "false"
+    },
+    {
+     "source_path": "ce/customer-service/use/use-microsoft-365-copilot-chat.md",
+     "redirect_url": "/dynamics365/customer-service/use/use-microsoft-365-copilot",
      "redirect_document_id": "false"
     }
   ]

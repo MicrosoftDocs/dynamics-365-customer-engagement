@@ -1,7 +1,7 @@
 ---
 title: Region and language FAQs
 description: Find answers to frequently asked questions about regions and languages.
-ms.date: 03/02/2026
+ms.date: 03/25/2026
 ms.topic: faq
 author: udaykirang
 ms.author: udag
@@ -36,13 +36,16 @@ Sales Premium is only available in the following countries or regions:
 - South America (SAM)
 - Switzerland (CHE)
 - United Arab Emirates (UAE)
-- Government Community Cloud (GCC, USG)
+- Government Community Cloud (GCC)
+- GCC High
+
+Sales Premium isn't available in all other regions, including DoD.
 
 ## In which country/region are Sales Premium features available?
 
 The following table lists the regions in which Sales Premium features are available.
 
-| Feature | NAM | EMEA | GBR | APJ | CAN | IND | JPN | OCE | CHE | FRA | GER | SAM | ZAF | UAE | GCC |
+| Feature | NAM | EMEA | GBR | APJ | CAN | IND | JPN | OCE | CHE | FRA | GER | SAM | ZAF | UAE | GCC/GCC High |
 |---------|-----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | [Assistant](assistant.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 | [Conversation intelligence](dynamics365-sales-insights-app.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
@@ -76,13 +79,14 @@ The following table lists the supported Exchange versions for Sales Premium feat
 
 ## In which regions is Exchange integration available?
 
-Exchange integration is only available in specific regions. To use Exchange data for relationship analytics and the who-knows-whom feature, your organization's Office 365 data location must be in one of the following locations. Region-specific data center locations aren't supported.
+Exchange integration is only available in specific regions. To use Exchange data for relationship analytics and the who-knows-whom feature, your organization's Office 365 data location must be in one of the following locations:
 
 - Global Geography 1 – EMEA (Austria, Finland, France, England, Ireland, Netherlands).
 - Global Geography 2 – Asia Pacific (Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
 - Global Geography 3 – Americas (Brazil, Chile, United States).
+- GCC and GCC High - Virginia and Texas in the United States. 
 
-If your organization's Office 365 data is in any other region, who-knows-whom insights aren't available. However, relationship analytics are available based on data stored in Dynamics 365.
+Region-specific data center locations aren't supported. If your organization's Office 365 data is in any other region, who-knows-whom insights aren't available. However, relationship analytics are available based on data stored in Dynamics 365.
 
 To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 

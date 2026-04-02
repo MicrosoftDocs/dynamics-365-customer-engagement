@@ -22,8 +22,6 @@
         href: capacity-profiles.md
       - name: Manage personas and custom security roles
         href: role-persona-mapping.md
-      - name: Delete historical data of agent capacity updates
-        href: manage-historical-data-capacity-updates.md
     - name: Unified routing and assignment
       items:
       - name: Overview of unified routing
@@ -415,7 +413,9 @@
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
       - name: Configure outbound dialer settings 
-        href: add-outbound-dialer-settings.md  
+        href: add-outbound-dialer-settings.md
+      - name: Configure voice call experiences
+        href: configure-voice-call-experiences.md
       - name: Use Azure Virtual Desktop to access voice channel
         href: /dynamics365/contact-center/administer/configure-voice-avd?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Install and manage Desktop companion application (preview)
@@ -452,6 +452,8 @@
         href: voice-channel-delete-calls.md
       - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
+      - name: Set up secure consult, transfer to external contacts (preview)
+        href: configure-voice-call-experiences.md#set-up-secure-consult-with-and-transfer-to-external-contacts-preview
       - name: Manage phone music
         href: voice-channel-music.md
       - name: Use bot framework composer to set up a multilingual bot for voice channel
@@ -504,6 +506,8 @@
         items: 
           - name: Configure global settings for Case Management Agent
             href: case-management-global-settings.md
+          - name: Enable email classification
+            href: configure-email-classification.md
           - name: Set up Case Management Agent to create and update cases 
             href: set-up-autonomous-case-agents.md
           - name: Set up Case Management Agent to resolve cases
@@ -552,8 +556,6 @@
         href: add-customer-summary-settings.md
       - name: Customize chat forms
         items:
-        - name: Overview
-          href: omnichannel-customizer.md
         - name: Customize active conversation form
           href: customize-customer-summary.md
         - name: Customize quick view forms
@@ -705,7 +707,7 @@
       - name: Enable case summaries through ask a question (preview)
         href: enable-ask-summarize-cases.md
       - name: Enable Copilot plugins for generative AI (preview)
-        href: /dynamics365/contact-center/administer/enable-copilot-plugins-for-generative-ai?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
+        href: /dynamics365/contact-center/administer/enable-copilot-plugins-for-generative-ai?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Enable Copilot to create knowledge from cases
         href: enable-copilot-suggest-knowledge-from-cases.md
       - name: View feedback data
@@ -726,6 +728,10 @@
         href: /dynamics365/contact-center/administer/knowledge-copilot?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: FAQ for Copilot in Customer Service
         href: faq-copilot-features.md
+    - name: Service in Microsoft 365 Copilot
+      items:
+      - name: Enable Service Agent in Microsoft 365 Copilot (preview)
+        href: configure-service-agent.md
     - name: Agents
       items:
       - name: Overview of agents
@@ -750,8 +756,8 @@
       items:
       - name: Configure feedback surveys using Copilot Studio
         href: /dynamics365/contact-center/administer/configure-surveys?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-      - name: Enable voice call experiences
-        href: configure-end-of-call-survey.md
+      - name: Enable representative call quality surveys
+        href: configure-voice-call-experiences.md#configure-representative-call-quality-feedback-survey
       - name: Configure post-call survey
         href: voice-channel-survey.md  
       - name: Configure post-conversation surveys using Customer Voice
@@ -804,6 +810,8 @@
         href: csw-enable-ai-suggested-cases-knowledge-articles.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
+      - name: Configure case sentiment (preview)
+        href: configure-case-sentiment-analysis.md
       - name: Customize interactive dashboards based on Unified Interface
         href: configure-interactive-dashboards-customer-service-hub.md
       - name: FAQ about AI suggestions for cases and knowledge articles
