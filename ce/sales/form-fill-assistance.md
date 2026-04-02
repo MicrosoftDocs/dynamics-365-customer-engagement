@@ -41,3 +41,7 @@ Eliminate manual transcription from physical documents and reduce errors when di
 - **Trade show lead capture:** After collecting dozens of business cards at a trade show, you can quickly upload photos of business cards to create contact records. AI extracts names, job titles, company names, phone numbers, and email addresses, turning hours of manual data entry into minutes of review and confirmation.
 
 - **Document-based lead generation:** When prospects send company brochures or proposal documents, AI can extract key business information like company details, decision-maker names, and contact information to create comprehensive lead records without manual typing.
+
+### Related information
+
+[Agents, Copilot, and AI capabilities in Dynamics 365 apps](/dynamics365/copilot/ai-get-started)  
