@@ -26,7 +26,7 @@ Select the **Visual hierarchy** button to open the current record in the hierarc
 >
 > - If hierarchies aren't enabled, contact your administrator to enable hierarchies.  
 > - The **View hierarchy** button only appears if the selected record has appropriate parent-child relationships to display in a hierarchy.
-> - You might need to select **More commands for *Table*** (⋮) on the command bar, if the **View hierarchy** button is available in the overflow menu.  
+> - You might need to select **More commands for *Table*** (⋮) on the command bar, if the **View hierarchy** button is not available directly on the command bar.  
 
 :::image type="content" source="media/hv-select-visual-hierarchy.png" alt-text="Screenshot of the Visual hierarchy button in the command bar.":::
 
@@ -34,9 +34,9 @@ Select the **Visual hierarchy** button to open the current record in the hierarc
 
 When you view a record, the application looks for a hierarchy to display it in. To do this, the hierarchy searches only the first‑ and second‑level tables of the published hierarchies. It doesn't search deeper levels.
 
-For example, in a multitable hierarchy such as Account > Contacts > Opportunities, the hierarchy opens an account or a contact record, but not an opportunity record because the opportunity table is greater than two levels deep.
+For example, in a multitable hierarchy such as Account > Contacts > Opportunities, the hierarchy opens an account or a contact record, but not an opportunity record because the opportunity table is more than two levels deep.
 
-For a single table hierarchy such as Account with the **Expand all** option enabled, the hierarchy opens an account with a parent or child account, no matter the depth because the **Account** table is the top of this hierarchy.
+For a single table hierarchy such as Account with the **Expand all** option enabled, the hierarchy opens an account with a parent or child account, irrespective of the depth because the **Account** table is the top of this hierarchy.
 
 ## Understand a hierarchy
 
@@ -49,8 +49,8 @@ Let's look at the key features and functionality of a hierarchy.
 | 1 | View hierarchy treeview | Search and quickly navigate large hierarchies. |
 | 2 | Record count | Displays the number of immediate child records next to the parent record. |
 | 3 | Expand and collapse| Expand or collapse child nodes. |
-| 4 | Change record | Search and change the selected record shown. |
-| 5 | Highlight selected tiles| Select the name in the list on the left pane to highlight the corresponding tile in the hierarchy. |
+| 4 | Change record | Search and change the selected record. |
+| 5 | Highlight selected tiles| Select the name on the left pane to highlight the corresponding tile in the hierarchy. |
 | 6 | Switch hierarchies| Switch between multiple hierarchies that are available for the same table. |
 
 :::image type="content" source="media/hv-hierarchy-navigation.png" alt-text="Screenshot of annotations in the hierarchy.":::
