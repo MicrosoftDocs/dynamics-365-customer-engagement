@@ -25,7 +25,7 @@ To be able to monitor, assign, transfer, or close conversations, your administra
 
 ## Monitor and join conversations
 
-As a supervisor, you can monitor or assign conversations that are configured for all channels, including records. You can monitor all conversations that are in the **Active** or **Wrap-up** states. By joining the conversation, you provide necessary details to both the service representative and customer in the communication panel.  
+As a supervisor, you can monitor or assign conversations that are configured for all channels, including records. You can monitor all digital channel conversations that are in the **Active** or **Wrap-up** states. For voice channel you can only monitor conversations in the **Active** state. By joining the conversation, you can provide necessary details to both the service representative and customer in the communication panel.  
 
 You can't monitor conversations that are assigned to you.
 
