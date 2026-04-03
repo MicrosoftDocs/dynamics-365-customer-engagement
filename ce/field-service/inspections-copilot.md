@@ -1,7 +1,7 @@
 ---
 title: Create inspections with Copilot
 description: Learn how to create inspections from existing documents with Copilot in Dynamics 365 Field Service.
-ms.date: 10/23/2025
+ms.date: 04/03/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jasonccohen
