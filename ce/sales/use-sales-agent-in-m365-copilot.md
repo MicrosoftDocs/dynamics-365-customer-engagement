@@ -17,7 +17,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-The Sales agent is an AI-powered chat interface that allows you to interact with your sales data using natural language. You can ask questions and gain insights from your Dynamics 365 Sales data and past customer interactions, all without leaving the chat experience. The Sales agent is available in the Copilot chat experience in Dynamics 365 Sales and across Microsoft 365 apps where Microsoft 365 Copilot is available.
+The Sales agent in Microsoft 365 Copilot (known as the Sales agent) is an AI-powered chat interface that allows you to interact with your sales data using natural language. You can ask questions and gain insights from your Dynamics 365 Sales data and past customer interactions, all without leaving the chat experience. The Sales agent is available in the Copilot chat experience in Dynamics 365 Sales and across Microsoft 365 apps where Microsoft 365 Copilot is available. The Sales agent will eventually replace the existing Copilot in Dynamics 365 Sales after all the capabilities are available in the Sales agent.
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
@@ -46,3 +46,8 @@ Before you can use the Sales agent, your administrator must have completed the f
    - [Look up information about CRM](/microsoft-sales-copilot/use-sales-chat#look-up-information-about-crm-records)
 
 Learn more about the Sales agent and its capabilities in the Sales agent documentation: [Use the Sales agent in Microsoft 365 Copilot (preview)](/microsoft-sales-copilot/use-sales-chat).
+
+## Related information
+
+- [Use Microsoft 365 Copilot in Dynamics 365 Sales (preview)](microsoft-365-copilot-chat-in-sales.md)
+- [Ask Copilot questions in Dynamics 365 Sales](/dynamics365/copilot/ask-copilot-questions)
