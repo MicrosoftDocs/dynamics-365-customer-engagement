@@ -1,7 +1,7 @@
 ---
 title: Enable work order summary with Copilot in Field Service
 description: Use Copilot in Field Service to generate AI-powered work order summaries, quickly understand work order status, and take the next steps.
-ms.date: 12/05/2025
+ms.date: 04/03/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jasonccohen
@@ -29,6 +29,8 @@ The summary feature adheres to [responsible AI guidelines](faqs-work-order-recap
 - The feature is disabled by default for environments in the United Kingdom. An administrator must enable [**Copilot for work order**](configure-default-settings.md#features-settings). For regional availability, see the [Copilot International Availability Report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 - You must have a paid Field Service environment. The work order summary feature isn't available in trial environments.
+
+- Your environment must run Dynamics 365 Field Service version 8.8.142.320 or later. [Update your environment](update-field-service.md) if needed.
 
 ## How summaries are generated
 
