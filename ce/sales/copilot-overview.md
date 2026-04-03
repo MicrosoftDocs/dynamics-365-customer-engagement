@@ -22,7 +22,8 @@ ai-usage: ai-assisted
 
 Copilot is an AI assistant in Dynamics 365 Sales that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on recent changes to their records, prepare for meetings, and read the latest news about their accounts. Sellers can chat with Copilot in natural language or use predefined prompts to get the information they need. Learn how to use [Copilot in Dynamics 365 Sales](use-sales-copilot.md).
 
-Sales is also available as an app in Outlook and in Teams. By using it, sellers can capture, view, and update their customer account data in the apps they use every day. The app has generative AI capabilities such as record summarization and email content generation. Learn more about [Sales in Microsoft 365 Copilot](/microsoft-sales-copilot/introduction) and its generative AI capabilities.
+> [!NOTE]
+> You can also access the [Sales agent in Microsoft 365 Copilot](use-sales-agent-in-m365-copilot.md) from your Dynamics 365 Sales app to get AI-powered assistance for sales activities such as summarizing accounts, catching up on customer meetings, and looking up sales record information. 
 
 ## Licensing requirements
 
@@ -37,13 +38,6 @@ Copilot in Dynamics 365 Sales can only get information from records and files th
 Copilot in Dynamics 365 Sales supports natural language chat. You can ask Copilot questions related to your sales records or sales-specific terms. You can also use predefined prompts to get the information you need. Copilot provides suggestions for prompts based on the context of the record you're viewing. 
   
 Learn more in [Ask questions of Copilot in Dynamics 365 Sales](use-sales-copilot.md). 
-
-## Accessing Copilot
-
-You can access the Copilot skills for sales from the following chat experiences:
-
-- The Copilot in Dynamics 365 Sales skills are available in the Copilot side pane in Dynamics 365 Sales. Select the **Copilot** icon on the command bar and then select **App Skills** to access the skills. Learn more in [Ask questions of Copilot in Dynamics 365 Sales](use-sales-copilot.md).
-- The Sales agent in Microsoft 365 Copilot is available across Microsoft 365 apps, including Dynamics 365 Sales. Select the **Copilot** icon on the command bar and then select **Chat** to access the Sales agent in Microsoft 365 Copilot. Learn more in [Use the Sales agent in Microsoft 365 Copilot from within Dynamics 365 Sales (preview)](use-sales-agent-in-m365-copilot.md).
 
 ## Copilot in Dynamics 365 Sales capabilities
 
