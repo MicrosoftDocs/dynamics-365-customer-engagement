@@ -1,7 +1,7 @@
 ---
 title: Overview of productivity pane Dynamics 365 Copilot Service workspace
 description: Learn how Dynamics 365 Copilot Service workspace enables agents to resolve issues quickly with various tools available on the productivity pane.
-ms.date: 04/02/2026
+ms.date: 04/03/2026
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
