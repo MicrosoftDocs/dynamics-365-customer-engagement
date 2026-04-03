@@ -72,6 +72,8 @@ To create your own custom outreach scenario and personalization guidance, provid
 1. Select an example outreach scenario from the **Prompt** drop-down and edit the instructions. 
    The scenario name changes to **Custom** in the drop-down. Learn how to [provide effective personalization instructions](#instructions-for-effective-personalization).
    :::image type="content" source="media/sqa-email-guidance-custom.png" alt-text="Screenshot of the email guidance editor with the Custom prompt highlighted":::
+   > [!NOTE]
+   > You can save only one custom outreach scenario. When you edit the instructions for a selected example scenario, it becomes a custom scenario. If you select another example scenario and edit it, the previous custom instructions will be overwritten. So make sure to save your custom instructions externally if you want to reuse or modify them later.
 1. (Optional) Dynamically insert information into outreach emails using personalization tokens. Use one of the following options:
     - Use the [default personalization tokens](#default-personalization-tokens). These tokens pull information from the lead record, account research, or agent settings to personalize email content. 
     - Add your own personalization tokens based on the fields in the `Lead` table. Learn how to add custom personalization tokens in the next step. 
