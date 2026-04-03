@@ -959,8 +959,6 @@ items:
                 href: faqs-sales-research-agent.md
       - name: Use Sales agent in Microsoft 365 Copilot
         items:
-          - name: Overview
-            href: /microsoft-sales-copilot/sales-chat-overview?context=/dynamics365/context/sales-context
           - name: Use the Sales agent in Microsoft 365 Copilot
             href: use-sales-agent-in-m365-copilot.md
           - name: Use Microsoft 365 Copilot chat (preview)
