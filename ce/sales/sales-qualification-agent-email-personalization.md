@@ -4,7 +4,7 @@ description: Learn how to configure outreach email personalization for the Sales
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 04/02/2026
+ms.date: 04/03/2026
 ms.topic: how-to
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
