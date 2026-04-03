@@ -62,6 +62,7 @@ You can configure routing rules to route a voicemail that your customer records 
 The following considerations apply:
 
 * To route voicemails, avoid defining rules based on skills or sentiment category for the missed conversation attribute because the rules might not work as expected.
+* The voicemail entity has an attribute called "msdyn_hascontent" that can be used to determine if the voicemail has any transcripted words. 
 * You can't route voicemails to voice queues because the system categorizes them as records.
 
 ## Use voicemail to manage direct inbound calls to service representatives
