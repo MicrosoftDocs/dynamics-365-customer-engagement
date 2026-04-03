@@ -959,6 +959,8 @@ items:
                 href: faqs-sales-research-agent.md
           - name: Sales agent in Microsoft 365 Copilot
             items:
+              - name: Overview
+                href: /microsoft-sales-copilot/sales-chat-overview?context=/dynamics365/context/sales-context
               - name: Use the Sales agent in Microsoft 365 Copilot
                 href: use-sales-agent-in-m365-copilot.md
       - name: Copilot in Dynamics 365 Sales
@@ -995,6 +997,12 @@ items:
             href: visualize-data-in-copilot.md
           - name: View Copilot-generated row summaries
             href: record-summaries.md
+          - name: Sales agent in Microsoft 365 Copilot
+            items:
+              - name: Overview
+                href: /microsoft-sales-copilot/sales-chat-overview?context=/dynamics365/context/sales-context
+              - name: Use the Sales agent in Microsoft 365 Copilot
+                href: use-sales-agent-in-m365-copilot.md
       - name: Dashboards and reports
         items:
           - name: Track your progress with dashboards and charts
