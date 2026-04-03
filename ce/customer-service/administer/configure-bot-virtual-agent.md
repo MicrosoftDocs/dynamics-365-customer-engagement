@@ -24,6 +24,7 @@ Use agents to simulate human-like conversations for routine activities so that y
 The following capabilities are available for the agent conversations:
 
 - Seamlessly integrate your agent with all channels without needing to add channel-specific code in the agent.
+- Use real-time voice agents. A real-time voice agent supports fully voice-driven interactions. Customers speak with the agent and receive a spoken response instantly. Learn more in [Real-time voice agents](/microsoft-copilot-studio/voice-realtime-voice-agents).
 - Configure interactive voice response (IVR) capabilities for voice-enabled agents.
 - [!INCLUDE[cc-natural-language-model](../../includes/cc-natural-language-model.md)]  
 - Configure contextual transfers to service representatives.
