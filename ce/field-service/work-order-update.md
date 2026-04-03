@@ -1,7 +1,7 @@
 ---
 title: AI-powered work order update (preview)
 description: Update work orders with the help of Copilot in Dynamics 365 Field Service.
-ms.date: 10/23/2025
+ms.date: 04/03/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: JonBaker007
