@@ -33,7 +33,7 @@ After you enable Service Agent, service representatives in your organization can
 
 ## Enable and install Service in Microsoft 365 Copilot app
 
-Service in Microsoft 365 Copilot is an app that integrates with Dynamics 365 Customer Service and uses AI to help customer service representatives work more efficiently.
+Service is an app that integrates with Dynamics 365 Customer Service and uses AI to help customer service representatives work more efficiently.
 
 You can install Service in Microsoft 365 Copilot from [Microsoft Marketplace](https://marketplace.microsoft.com/).
 
@@ -42,9 +42,7 @@ You can install Service in Microsoft 365 Copilot from [Microsoft Marketplace](ht
 Before you can install Service in Microsoft 365 Copilot, make sure the following requirements are met:
 
 - You must be a Microsoft 365 administrator to install the Service in Microsoft 365 Copilot integrated app from the [Microsoft 365 admin center](https://admin.microsoft.com/). To find out who is your tenant admin, see [How do I find my Microsoft 365 admin?](https://support.microsoft.com/en-us/office/how-do-i-find-my-microsoft-365-admin-59b8e361-dbb6-407f-8ac3-a30889e7b99b).
-- You must be a Teams administrator to create a setup policy in the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
 - Admins must assign the Microsoft 365 Copilot license to each user who can use the app. Specific licensing requirements apply when you use Service in Microsoft Copilot in Customer Service. Learn more in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
-- Make sure that your representatives are on the latest version of Outlook, Teams, or the Outlook Web application.
 
 ### Deploy Service in Microsoft 365 Copilot
 
