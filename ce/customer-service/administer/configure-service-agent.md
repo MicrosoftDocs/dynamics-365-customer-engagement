@@ -1,7 +1,7 @@
 ---
 title: Enable Service Agent in Microsoft 365 Copilot (preview)
 description: Learn how to enable Service Agent in Microsoft 365 Copilot for Dynamics 365 Customer Service so customer service representatives can use Copilot to get responses on case and customer records without manually searching for information.
-ms.date: 03/31/2026
+ms.date: 04/06/2026
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
