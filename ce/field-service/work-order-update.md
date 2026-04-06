@@ -14,6 +14,8 @@ ms.collection: bap-ai-copilot
 
 # AI-powered work order update (preview)
 
+<!--- Also update faqs-work-order-update.md --->
+
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
 With the help of Copilot in Dynamics 365 Field Service, technicians can update work orders in the new user experience of the Field Service mobile app. This AI-powered feature allows frontline workers to describe work performed in natural language using standard text or speech-to-text capabilities. Based on their input, Copilot recommends updates to fields on the work order and updates them after confirmation.  
