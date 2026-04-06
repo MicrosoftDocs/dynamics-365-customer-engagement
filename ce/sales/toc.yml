@@ -159,7 +159,7 @@ items:
                     href: sales-qualification-agent-selection-criteria.md
                   - name: Configure email instructions and address validation
                     href: sales-qualification-agent-email-instruction-validation.md
-                  - name: Personalize outreach emails
+                  - name: Personalize outreach emails (preview)
                     href: sales-qualification-agent-email-personalization.md
                   - name: Configure handoff criteria
                     href: configure-sales-qualification-agent-handoff-criteria.md
