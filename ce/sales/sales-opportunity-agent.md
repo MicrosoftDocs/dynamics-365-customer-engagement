@@ -1,7 +1,7 @@
 ---
 title: Sales Opportunity Agent overview
 description: Discover how Sales Opportunity Agent in Dynamics 365 Sales helps sales professionals manage deals effectively with AI-powered insights, risk detection, and deal prioritization.
-ms.date: 11/07/2025
+ms.date: 04/17/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -52,6 +52,16 @@ The Sales Opportunity Agent uses the capacity assigned to your tenant to process
 ## Responsible AI
 
 Sales Opportunity Agent is built with responsible AI principles in mind. The agent meets quality standards and is designed to be used as a productivity tool. For more information about the agent's responsible AI practices, see [FAQs about Sales Opportunity Agent](faqs-about-opportunity-research.md).
+
+## Language support and output quality
+
+To know the languages supported by the Sales Opportunity Agent, see [the feature availability by language page](https://releaseplans.microsoft.com/availability-reports/?report=featurelangreport).  
+The following are the considerations regarding the agent's output quality:
+
+- Content is generated in the selected target language using AI. In some cases, sentence structure or word order might reflect English patterns.
+- Certain languages (for example, Spanish, Danish, and Swedish) might show minor stylistic differences compared to native writing. These variations don't affect the accuracy or meaning of the content.
+- Business and CRM terminology (such as MEDDPICC terms or CRM role names) might appear in English when no widely accepted equivalent exists in the target language.
+- Number, date, and currency formats might vary based on locale and regional settings.
 
 ## How to set up and use the agent
 

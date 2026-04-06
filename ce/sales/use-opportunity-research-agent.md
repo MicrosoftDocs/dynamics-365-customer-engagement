@@ -45,7 +45,7 @@ You need the following prerequisites:
    If you see a banner prompting you to provide consent for Microsoft 365 Services, read the section [Provide consent for Microsoft 365 Services](#provide-consent-for-microsoft-365-services)
 
 > [!NOTE]
-> The research insights are refreshed based on the refresh frequency configured by your admin and when specific fields in the opportunity record are updated. Learn more in [How often does the Opportunity Research Agent refresh research data?](opportunity-research-agent-faqs.md#how-often-does-the-opportunity-research-agent-refresh-research-data).
+> The research insights are refreshed based on the refresh frequency configured by your admin and when specific fields in the opportunity record are updated. Learn more in [How often does the Sales Opportunity Agent refresh research data?](opportunity-research-agent-faqs.md#how-often-does-the-opportunity-research-agent-refresh-research-data).
 
 ### Provide consent for Microsoft 365 Services
 

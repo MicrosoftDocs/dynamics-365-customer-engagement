@@ -38,7 +38,7 @@ landingContent:
          links:
           - text: Set up and configure the Sales Qualification Agent
             url: configure-sales-qualification-agent.md
-          - text: Configure the Opportunity Research Agent 
+          - text: Configure the Sales Opportunity Agent 
             url: configure-opportunity-research-agent.md
           - text: Copilot Studio agents and Entra app registrations for sales agents
             url: ai-agents-apps.md

@@ -1031,7 +1031,7 @@ Changes from [ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer/data-p
 |11219|**Engage And Readiness Agent Result**|
 |11220|**DCA Engage Agent Result**|
 |11221|**Opportunity Ranker Mapping**|
-|11222|**Opportunity Research Agent Trigger**|
+|11222|**Sales Opportunity Agent Trigger**|
 |11223|**Opportunity Research Indicator**|
 |11224|**Opportunity Research Result**|
 |11225|**Opportunity Research User Interactions**|
