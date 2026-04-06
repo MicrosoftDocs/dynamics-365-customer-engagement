@@ -1,32 +1,42 @@
 ---
-title: View and understand a hierarchy
-description: Learn how to view and understand hierarchies in Dynamics 365 Sales.
+title: View and use a visual hierarchy
+description: Learn how to view and use visual hierarchies in Dynamics 365 Sales.
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.collection:
-ms.date: 12/05/2025
+ms.date: 04/03/2026
 ms.custom: bap-template 
 ---
 
-# View and understand a hierarchy
+# View and use a visual hierarchy 
 
-As a seller, you can view the hierarchy to better understand the relationships between records. Administrators must design and publish a hierarchy to display data in a hierarchical manner.  
-For example, your administrator might publish a **Account hierarchy** that allows you to visualize customer’s related companies, regional offices, and branch locations. Your administrator might also publish a hierarchy called **Account contacts** that shows a hierarchy of people and their reporting structure and job titles associated with a given account.  
+As a seller, you can view the hierarchy to better understand the relationships between records. An administrator must first design and publish a hierarchy before the organization can use it.  
+For example, your administrator might publish an **Account hierarchy** that you use to visualize a customer's related companies, regional offices, and branch locations. Your administrator might also publish a hierarchy called **Account contacts** that shows a hierarchy of people and their reporting structure and job titles associated with a given account.  
 
 ## Open a hierarchy
 
-In form view, open a record such as an account or a lead to see the **Visual hierarchy** option on the command bar.  
-In a grid view, select a single record to enable the **Visual hierarchy** option. If you select more than one record, the option is disabled.  
-Select the **Visual hierarchy** option to open the hierarchy page, which displays a tree of tiles representing records and their relationships.  
+When a hierarchy is available, you see a **View hierarchy** button on the command bar.  
+In form view, open a record such as an account or a contact to display the **Visual hierarchy** button on the command bar.  
+In a grid view, select a single record to enable the **Visual hierarchy** button. If you select more than one record, the button is disabled.  
+Select the **Visual hierarchy** button to open the current record in the hierarchy viewer, which displays a tree of tiles representing records and their relationships.  
 
 > [!NOTE]
 >
-> - The **Visual hierarchy** option isn't available if the admin doesn't configure a hierarchy for the table, or the table doesn't have parent record relationships.  
-> - If the **Visual hierarchy** option isn't visible on the command bar, select **More commands for *Table*** (⋮) on the command bar to see more options, and check if the **Visual hierarchy** option is available there.  
+> - If hierarchies aren't enabled, contact your administrator to enable hierarchies.  
+> - The **View hierarchy** button only appears if the selected record has appropriate parent-child relationships to display in a hierarchy.
+> - You might need to select **More commands for *Table*** (⋮) on the command bar, if the **View hierarchy** button is not available directly on the command bar.  
 
-:::image type="content" source="media/hv-select-visual-hierarchy.png" alt-text="Screenshot of the Visual hierarchy option in the command bar.":::
+:::image type="content" source="media/hv-select-visual-hierarchy.png" alt-text="Screenshot of the Visual hierarchy button in the command bar.":::
+
+## Considerations for viewing a hierarchy
+
+When you view a record, the application looks for a hierarchy to display it in. To do this, the hierarchy searches only the first‑ and second‑level tables of the published hierarchies. It doesn't search deeper levels.
+
+For example, in a multitable hierarchy such as Account > Contacts > Opportunities, the hierarchy opens an account or a contact record, but not an opportunity record because the opportunity table is more than two levels deep.
+
+For a single table hierarchy such as Account with the **Expand all** option enabled, the hierarchy opens an account with a parent or child account, irrespective of the depth because the **Account** table is the top of this hierarchy.
 
 ## Understand a hierarchy
 
@@ -35,13 +45,13 @@ Let's look at the key features and functionality of a hierarchy.
 ### Navigating a hierarchy
 
 | Number | Feature | Description |
-|--------|-------------|-------------|
-| 1 | Hierarchy list display | Records in the hierarchy are shown in the left pane and in the main area as tiles, with the parent node at the top and child nodes below. |
-| 2 | Record count per node | Each node displays the number of records next to the attribute name or tile. |
-| 3 | Expand/collapse nodes| Use the chevron icon to expand or collapse child nodes. Visualization adjusts automatically. |
-| 4 | Search and select record | Displays the record tile as main and its child records below. If any parent record exists, an option to go to its parent is displayed on the top of the tile.<br>Select the drop-down list and the **Lookup Records** pane appears. Search and select the record that you want to view. |
-| 5 | Highlighting selected tiles| Select the name in the list on the left pane, the corresponding tile is highlighted in the hierarchy. |
-| 6 | Switching hierarchies| If there are multiple hierarchies available for the same table, on the top right corner of the hierarchy pane, select a different hierarchy from the drop-down list. |
+|--------|---------|-------------|
+| 1 | View hierarchy treeview | Search and quickly navigate large hierarchies. |
+| 2 | Record count | Displays the number of immediate child records next to the parent record. |
+| 3 | Expand and collapse| Expand or collapse child nodes. |
+| 4 | Change record | Search and change the selected record. |
+| 5 | Highlight selected tiles| Select the name on the left pane to highlight the corresponding tile in the hierarchy. |
+| 6 | Switch hierarchies| Switch between multiple hierarchies that are available for the same table. |
 
 :::image type="content" source="media/hv-hierarchy-navigation.png" alt-text="Screenshot of annotations in the hierarchy.":::
 
