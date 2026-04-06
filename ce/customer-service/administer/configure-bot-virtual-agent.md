@@ -88,7 +88,7 @@ You can add an agent to the queue so that the agent can receive conversations fr
 
 ## Automatically close a conversation
 
-When an agent receives a conversation that isn't escalated to a service representative, the conversation closes if the customer abandons it. The conversation also closes automatically after 30 minutes of inactivity.
+When an agent receives a conversation that isn't escalated to a service representative, the system closes the conversation if the customer abandons it. The conversation also closes automatically after 30 minutes of inactivity.
 
 This conversation appears in the Omnichannel Agent dashboard with the status set to **Closed** and **Resolved/abandoned** state in the Copilot Studio dashboard. Learn more in [Session outcomes over time chart](/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart).
 
@@ -122,8 +122,8 @@ In the voice channel, the system doesn't listen for the **closeOmnichannelConver
 
 | Description     | Limitation     |
 |-----------------|----------------|
-| **Adaptive cards**</br>An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li> You can build an adaptive card by adding a skill through Copilot Studio. Learn more in [Use Microsoft Bot Framework Skills in Copilot Studio](/power-virtual-agents/advanced-use-skills) </li><li> Adaptive card styling isn't supported.</li><li> Adaptive cards won't appear in emailed transcripts. To help the reader understand the transcript, we recommend that you preface the adaptive card with a text message node (for example, "Please fill out this form").</li></ul> |
-| **Typing**</br>An agent receives a typing activity to indicate that the user is typing a response. An agent may send a typing activity to indicate to the user that it's working to fulfill a request or compile a response. | Typing indicators don't appear. |
+| **Adaptive cards**</br>An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li> You can build an adaptive card by adding a skill through Copilot Studio. Learn more in [Use Microsoft Bot Framework Skills in Copilot Studio](/power-virtual-agents/advanced-use-skills) </li><li> Adaptive card styling isn't supported.</li><li> Adaptive cards don't appear in emailed transcripts. To help the reader understand the transcript, we recommend that you preface the adaptive card with a text message node (for example, "Please fill out this form").</li></ul> |
+| **Typing**</br>An agent receives a typing activity to indicate that the user is typing a response. An agent might send a typing activity to indicate to the user that it's working to fulfill a request or compile a response. | Typing indicators don't appear. |
 | **Format bot messages**</br>You can set the optional `TextFormat` property to control how the text content of your message is rendered. | <ul><li> Copilot Studio doesn't support Markdown with images and text. </li><li>When Copilot Studio sends Markdown text, there's an extra space between lines. </li></ul>|
 
 ## Privacy notice
