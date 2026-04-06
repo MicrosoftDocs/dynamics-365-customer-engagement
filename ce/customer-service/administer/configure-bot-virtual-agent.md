@@ -1,7 +1,7 @@
 ---
-title: Integrate a Copilot agent
+title: Integrate a Copilot agent in Dynamics 365 Contact Center
 description: Use this article to get instructions on how to integrate a Copilot agent in your contact center.
-ms.date: 01/19/2026
+ms.date: 04/06/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: neeranelli
@@ -24,7 +24,7 @@ Use agents to simulate human-like conversations for routine activities so that y
 The following capabilities are available for the agent conversations:
 
 - Seamlessly integrate your agent with all channels without needing to add channel-specific code in the agent.
-- Use real-time voice agents. A real-time voice agent supports fully voice-driven interactions. Customers speak with the agent and receive a spoken response instantly. Learn more in [Real-time voice agents](/microsoft-copilot-studio/voice-realtime-voice-agents).
+- Use real-time voice agents. A real-time voice agent supports fully voice-driven interactions. Customers speak with the agent and receive a spoken response instantly. Learn more in [Real-time voice agents (preview)](/microsoft-copilot-studio/voice-realtime-voice-agents).
 - Configure interactive voice response (IVR) capabilities for voice-enabled agents.
 - [!INCLUDE[cc-natural-language-model](../../includes/cc-natural-language-model.md)]  
 - Configure contextual transfers to service representatives.
@@ -66,7 +66,7 @@ In Copilot Studio, you can add the following capabilities to your agent to finis
 
 - Add knowledge sources to your agent to help it answer customer questions. Learn more in [Add knowledge sources to your agent](/microsoft-copilot-studio/knowledge-copilot-studio).
 - Configure multilingual agents to support multiple languages. Learn more in [Configure multilingual agents](/microsoft-copilot-studio/multilingual).
--  IVR capabilities that are specific to voice-enabled agents such as dual-tone multi-frequency (DTMF) input, context variables, call transfer, and speech and DTMF customization. Learn more in [Configure Copilot Studio IVR agents](voice-channel-pva-bots.md).
+- IVR capabilities that are specific to voice-enabled agents such as dual-tone multi-frequency (DTMF) input, context variables, call transfer, and speech and DTMF customization. Learn more in [Configure Copilot Studio IVR agents](voice-channel-pva-bots.md).
 - [Customize the look and feel of a copilot](/microsoft-copilot-studio/customize-default-canvas).
 
 ## Add an agent to a workstream
