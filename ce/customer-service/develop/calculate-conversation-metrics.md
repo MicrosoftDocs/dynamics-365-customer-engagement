@@ -228,15 +228,15 @@ IsEngaged = CALCULATE(TRUE(),FactConversation[IsOffered], FactConversation[IsAge
 |Attributes |- systemuser.msdyn_botapplicationid <br> - msdyn_sessionparticipant.msdyn_joinedon <br> - msdyn_ocliveworkitem.msdyn_channel<br> - msdyn_ocliveworkitem.msdyn_channelinstanceid |
 |Filters  | - Filter the FactConversations table to​ exclude rows where msdyn_channel is equal to "192350000" and msdyn_channelinstanceid is NULL. <br>-  The system uses IsAgentInvolved if there's at least one session with IsAgentSession set to true. <br>- IsAgentSession is set to true if systemuser.msdyn_botapplicationid isn't null.​ <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon isn't empty, then IsAgentAcceptedSession is 1.​ Otherwise, it's 0.​ |
 
-## Abandoned conversations
+## Abandoned conversations (default—excludes overflow)
 
 *Applies to Omnichannel real-time dashboards.*
 
-An abandoned conversation occurs when a customer escalates to a service representative—either directly or through a voice or chat agent—and the conversation closes before the representative accepts it.
+An abandoned conversation occurs when a customer escalates to a service representative, either directly or through a voice or chat agent, and the conversation closes before the representative accepts it. The metric doesn't include overflow conditions.
 
 Only inbound conversations count toward abandonment rates. Outbound conversations and conversations deflected by a chatbot or IVR/voice agent aren't included.
 
-Customers may abandon a conversation because of long wait times, supervisor intervention, or overflow rules like voicemail or external transfers.
+Customers might abandon a conversation because of long wait times, supervisor intervention, or overflow rules like voicemail or external transfers.
 
 ### DAX query and Dataverse reference
 
@@ -244,14 +244,67 @@ Customers may abandon a conversation because of long wait times, supervisor inte
 
 ```dax
 
-Abandoned conversations = ​SUMX(FactConversation, IF (FactConversation[IsAbandoned] && FactConversation[StatusCode] == 4 && FactConversation[DirectionCode],1,0)) 
+Abandoned conversations (default — excludes overflow)
+  SUMX( FactConversation, IF( FactConversation[IsAbandoned]
+&& FactConversation[StatusCode] == 4
+&& NOT FactConversation[DirectionCode]
+&& ISBLANK(RELATED(ProxyConversationLastOverflow[OverflowConditionCode])), 1, 0 ) )
 
 ```
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)​, msdyn_liveworkstream |
 |Attributes |- msdyn_ocliveworkitem.msdyn_isagentsession ​<br> - msdyn_ocliveworkitem.msdyn_channelinstanceid ​<br> - msdyn_liveworkstream.msdyn_streamsource ​<br> - msdyn_ocliveworkitem.msdyn_isabandoned ​<br> - msdyn_ocliveworkitem.statuscode ​<br> - msdyn_ocliveworkitem.msdyn_isoutbound  |
-|Filters  | - Direction is only incoming conversations and when isagentsession is set to 1. <br> - msdyn_ocliveworkitem.msdyn_isagentsession is set to 1 for conversations escalated to a service representative (either directly or through Voice or chat agent). <br> - Filter the FactConversations table to include only rows from msdyn_ocliveworkitem where msdyn_channelinstanceid is NULL. <br> -  Exclude rows where msdyn_liveworkstream.msdyn_streamsource isn't equal to "192350000"​. <br> - Isoutbound is based on msdyn_ocliveworkitem.msdyn_isoutbound not equal to 1 for incoming conversations.|
+|Filters  | - Direction is only incoming conversations and when isagentsession is set to 1. <br> - msdyn_ocliveworkitem.msdyn_isagentsession is set to 1 for conversations escalated to a service representative (either directly or through Voice or chat agent). <br> - Filter the FactConversations table to include only rows from msdyn_ocliveworkitem where msdyn_channelinstanceid is NULL. <br> -  Exclude rows where msdyn_liveworkstream.msdyn_streamsource isn't equal to "192350000." <br> - Isoutbound is based on msdyn_ocliveworkitem.msdyn_isoutbound not equal to 1 for incoming conversations.|
+
+## Abandon rate (default—excludes overflow)
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+The abandoned rate refers to the percentage of incoming conversation requests that are terminated before a representative engages with the customer. Abandon conversations can happen in both representative and AI agent scenarios. This metric doesn't include overflow conditions. There are two primary types:​
+- Abandoned before assignment: The customer leaves before being assigned to a representative.​
+- Abandoned after assignment: The customer is assigned to a representative but disconnects before the representative accepts the conversation.
+
+### DAX query and Dataverse reference
+
+The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+= DIVIDE([Abandoned conversations], [Incoming conversations], BLANK())
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), systemuser |
+|Attributes | - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br> - msdyn_ocliveworkitem.msdyn_isoutbound​ <br> -  systemuser.msdyn_botapplicationid  |
+|Filters  | - Filter the FactConversations table to include only rows where, msdyn_channelinstanceid is NULL.​ <br>- Exclude rows where msdyn_channel is 192350000, which have at least one [systemuser.msdyn_botapplicationid  != null ]​ <br> - The system uses the msdyn_isoutbound field to determine the direction and excludes rows where the value equals 1​.​ |
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Conversations abandoned rate = ​
+
+DIVIDE(SUMX(FactConversation,IF(FactConversation[IsAbandoned] && NOT FactConversation[DirectionCode],1,0)),SUMX (FactConversation, IF ( NOT FactConversation[DirectionCode], 1, BLANK () )),BLANK ())
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem),  systemuser |
+|Attributes  | - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_liveworkstream.msdyn_streamsource <br> - msdyn_ocliveworkitem.msdyn_isoutbound​ <br> - msdyn_ocliveworkitem.isagentsession​ <br> - msdyn_ocliveworkitem.msdyn_isabandoned​ <br> -  systemuser.msdyn_botapplicationid    |
+|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL,​ msdyn_isabandoned is set to 1 and​  msdyn_isagentsession set to 1​. <br> - The system uses the msdyn_isoutbound field to determine the direction and excludes rows where the value equals 1. <br> - Exclude rows where msdyn_streamsource is "192350000."​|
+
+---
 
 ## Abandoned conversations (by overflow filter)
 
@@ -274,7 +327,7 @@ The number of abandoned conversations attributed to the last overflow condition 
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem), [msdyn_liveworkstream](/dynamics365/developer/reference/entities/msdyn_liveworkstream)|
 |Attributes | msdyn_ocliveworkitem.msdyn_isagentsession <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid <br> - msdyn_liveworkstream.msdyn_streamsource <br> - msdyn_ocliveworkitem.msdyn_isabandoned <br> - msdyn_ocliveworkitem.statuscode <br> - msdyn_ocliveworkitem.msdyn_isoutbound |
-|Filters  | Direction is incoming conversations only and when isagentsession is set to 1. <br> - msdyn_ocliveworkitem.msdyn_isagentsession is set to 1 for conversations escalated to a service representative (either directly or through coice or chat agent). <br> - Filter the FactConversations table to include only rows from msdyn_ocliveworkitem where msdyn_channelinstanceid is NULL. <br> - Exclude rows where msdyn_liveworkstream.msdyn_streamsource isn't equal to "192350000". <br> - Isoutbound is based on msdyn_ocliveworkitem.msdyn_isoutbound not equal to 1 for incoming conversations.|
+|Filters  | Direction is incoming conversations only and when isagentsession is set to 1. <br> - msdyn_ocliveworkitem.msdyn_isagentsession is set to 1 for conversations escalated to a service representative (either directly or through coice or chat agent). <br> - Filter the FactConversations table to include only rows from msdyn_ocliveworkitem where msdyn_channelinstanceid is NULL. <br> - Exclude rows where msdyn_liveworkstream.msdyn_streamsource isn't equal to "192350000." <br> - Isoutbound is based on msdyn_ocliveworkitem.msdyn_isoutbound not equal to 1 for incoming conversations.|
 
 ## Conversations abandoned rate (by overflow filter) 
 
@@ -296,6 +349,102 @@ DIVIDE( [Abandoned conversations (incl. overflow)], CALCULATE([Incoming conversa
 |Dataverse entities |[msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension)|
 |Attributes | [msdyn_OverflowCondition](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowCondition)|
 |Filters  | msdyn_sessionextension.msdyn_overflowcondition isn't null.|
+
+## Abandoned conversations (excludes short abandons)
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Inbound conversations that customers abandoned after the short-abandon threshold. These abandons are meaningful and affect service performance. Because short abandons from early hang-ups are excluded, the resulting abandonment and service-level KPIs more accurately reflect operational performance. This metric doesn't include overflow conditions.
+
+**DAX query**
+
+```dax
+
+Abandoned conversations (excl. short abandons) = [Abandoned conversations] - [Short abandoned]
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[queue](/dynamics365/developer/reference/entities/queue)​ |
+|Attributes |[msdyn_shortabandonedthreshold](/dynamics365//developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold) |
+
+## Incoming conversation (excludes short abandons)
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Total inbound conversations minus those abandoned within the short-abandon threshold (based on first wait time). This metric excludes short abandons, giving you a more accurate denominator for KPIs like abandonment rate and service level. By filtering out early hang-ups, these rates better reflect actual operational performance.
+
+**DAX query**
+
+```dax
+
+Incoming conversation (excl. short abandons) = [Incoming conversations] - [Short abandoned]
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[queue](/dynamics365/developer/reference/entities/queue)​ |
+|Attributes |  [msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold) |
+
+
+## Abandoned rate (excludes short abandons)
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Percentage of inbound conversations that customers abandoned after the short-abandon threshold out of all incoming conversations, regardless of overflow conditions.
+
+**DAX query**
+
+```dax
+
+Abandoned rate (excl. short abandons) = DIVIDE ( [Abandoned conversations (excl. short abandons)], CALCULATE ( [Incoming conversations], REMOVEFILTERS(ProxyConversationLastOverflow) ), BLANK())
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_sessionextension](/dynamics365//developer/reference/entities/msdyn_sessionextension), [queue](/dynamics365/developer/reference/entities/queue)​ |
+|Attributes |- [msdyn_OverflowCondition](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowCondition), <br> - [msdyn_OverflowAction](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowAction), <br> -[msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold) <br> - [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
+
+## Short abandoned
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Number of inbound conversations that customers abandoned within the short-abandon threshold, based on first wait time.
+
+**DAX query**
+
+```dax
+
+Short abandoned = SUMX ( FactConversation, IF(FactConversation[IsShortAbandoned], 1, 0))
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[queue](/dynamics365/developer/reference/entities/queue)​ |
+|Attributes |[msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold)|
+
+## Short abandon rate
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Percentage of inbound conversations that customers abandoned within the short-abandon threshold out of all the incoming conversations.
+
+**DAX query**
+
+```dax
+
+Short abandon rate = DIVIDE ([Short abandoned], CALCULATE ([Incoming conversations], REMOVEFILTER (ProxyConversationLastOverflow) ), BLANK())
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension), [queue](/dynamics365/developer/reference/entities/queue)​ |
+|Attributes |- [msdyn_OverflowCondition](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowCondition), <br> - [msdyn_OverflowAction](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowAction), <br> - [msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold), <br> -[msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
 
 ## Conversation first wait time
 
@@ -482,7 +631,7 @@ Avg. handle time (min) = CALCULATE(AVERAGE(FactConversation[HandleTime]) / 60.00
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_conversationhandletimeinseconds <br> - For **Voice**: msdyn_sessionparticipant.msdyn_talktime +  msdyn_sessionparticipant.msdyn_holdtime  +  msdyn_sessionparticipant.msdyn_activewrapuptime <br> - For **Chat**: msdyn_sessionparticipant.msdyn_activetime     + msdyn_sessionparticipant.msdyn_activewrapuptime  |
 |Attributes | - msdyn_ocliveworkitem.statuscode|
-|Filters  |- For Fact Session use following filters:​ <br> - Exclude records from msdyn_ocsessionparticipantevent table where msdyn_eventreason is "192350001" (in-transit records).​ Include records from msdyn_ocsessionparticipantevent table where msdyn_eventtype is "192350001" (hold events).​ Exclude sessions from msdyn_ocsession table where msdyn_sessioncreatedon is empty and msdyn_channel is "192350000" (Entity Records channel).​ Include sessions where msdyn_channelinstanceid is NULL (SMS filter).​ ConversationStatusId is "4"​. ConversationIsAgentAccepted is "1" <br> - For ActiveTimeInSeconds use the following filter: If ActiveTimeInSeconds is empty, set it to "0". <br> - For IsAgentAccepted in DAX use the following filter: If IsAgentAcceptedSession is empty, set it to "0". <br> - For IsAgentAcceptedSession in DAX refer to the following DV entities:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon isn't empty, set IsAgentAcceptedSession to 1.​ Otherwise, set IsAgentAcceptedSession to 0.|
+|Filters  |- For Fact Session use the following filters:​ <br> - Exclude records from msdyn_ocsessionparticipantevent table where msdyn_eventreason is "192350001" (in-transit records).​ Include records from msdyn_ocsessionparticipantevent table where msdyn_eventtype is "192350001" (hold events).​ Exclude sessions from msdyn_ocsession table where msdyn_sessioncreatedon is empty and msdyn_channel is "192350000" (Entity Records channel).​ Include sessions where msdyn_channelinstanceid is NULL (SMS filter).​ ConversationStatusId is "4"​. ConversationIsAgentAccepted is "1" <br> - For ActiveTimeInSeconds use the following filter: If ActiveTimeInSeconds is empty, set it to "0". <br> - For IsAgentAccepted in DAX use the following filter: If IsAgentAcceptedSession is empty, set it to "0". <br> - For IsAgentAcceptedSession in DAX refer to the following DV entities:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon isn't empty, set IsAgentAcceptedSession to 1.​ Otherwise, set IsAgentAcceptedSession to 0.|
 
 
 ### [Real-time analytics](#tab/realtimepage)
@@ -799,7 +948,7 @@ Waiting conversations =​
 
 *Applies to Omnichannel real-time dashboards.*
 
-Wrap-up conversations is a count of conversations that are currently in the [Wrap-up state](../use/oc-conversation-state.md#wrap-up).
+Wrap-up conversations are a count of conversations that are currently in the [Wrap-up state](../use/oc-conversation-state.md#wrap-up).
 
 ### DAX query and Dataverse reference
 
@@ -822,65 +971,6 @@ Wrap-up conversations = SUMX ( FactConversation, IF ( FactConversation[statuscod
 ### Related metric
 
 - **Agents in wrap-up conversations**: Number of representatives handling conversations that are in wrap-up state.
-
-## Abandoned rate
-
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
-
-The abandoned rate refers to the percentage of incoming conversation requests that are terminated before a representative engages with the customer. This rate can happen in both representative and AI agent scenarios. There are two primary types:​
-- Abandoned before assignment: The customer leaves before being assigned to a representative.​
-- Abandoned after assignment: The customer is assigned to a representative but disconnects before the representative accepts the conversation.
-
-### DAX query and Dataverse reference
-
-The following DAX query and the corresponding Dataverse entities are used in the Power BI semantic model.
-
-### [Historical analytics](#tab/historicalpage)
-
-**DAX query**
-
-```dax
-
-Abandon rate_FactConversation = ​
-
-var abandoned = CALCULATE(FactConversation[Incoming conversations_FactConversation], FactConversation[IsOffered], NOT FactConversation[IsAgentAccepted])​
-
-var source = FactConversation[Incoming conversations_FactConversation]​
-
-var rate = DIVIDE(abandoned, source, 0)​
-
-return​
-
-IF(ISBLANK(rate), 0, rate)​
-
-```
-
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), systemuser |
-|Attributes | - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br> - msdyn_ocliveworkitem.msdyn_isoutbound​ <br> -  systemuser.msdyn_botapplicationid  |
-|Filters  | - Filter the FactConversations table to include only rows where, msdyn_channelinstanceid is NULL.​ <br>- Exclude rows where msdyn_channel is 192350000, which have at least one [systemuser.msdyn_botapplicationid  != null ]​ <br> - The system uses the msdyn_isoutbound field to determine the direction and excludes rows where the value equals 1​.​ |
-
-### [Real-time analytics](#tab/realtimepage)
-
-**DAX query**
-
-```dax
-
-Conversations abandoned rate = ​
-
-DIVIDE(SUMX(FactConversation,IF(FactConversation[IsAbandoned] && NOT FactConversation[DirectionCode],1,0)),SUMX (FactConversation, IF ( NOT FactConversation[DirectionCode], 1, BLANK () )),BLANK ())
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities | [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem),  systemuser |
-|Attributes  | - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_liveworkstream.msdyn_streamsource <br> - msdyn_ocliveworkitem.msdyn_isoutbound​ <br> - msdyn_ocliveworkitem.isagentsession​ <br> - msdyn_ocliveworkitem.msdyn_isabandoned​ <br> -  systemuser.msdyn_botapplicationid    |
-|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL,​ msdyn_isabandoned is set to 1 and​  msdyn_isagentsession set to 1​. <br> - The system uses the msdyn_isoutbound field to determine the direction and excludes rows where the value equals 1. <br> - Exclude rows where msdyn_streamsource is "192350000".​|
-
----
 
 ## Average time to abandon (sec)
 
@@ -964,7 +1054,7 @@ Avg. conversation inactive time (min) = CALCULATE(AVERAGE(FactConversation[InAct
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Average first response time measures how quickly agents acknowledge or begin engaging with customers. It's measured in seconds or minutes and is used to assess the efficiency of initial engagement.
+Average first response time measures how quickly agents acknowledge or begin engaging with customers. This metric is measured in seconds or minutes and is used to assess the efficiency of initial engagement.
 
 ### DAX query and Dataverse reference
 
@@ -1033,7 +1123,7 @@ conversations_FactConversation])), 0, rate)
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem), msdyn_sessionparticipant, systemuser |
 |Attributes  |-  msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br>- msdyn_ocliveworkitem.statuscode​ <br> - msdyn_ocliveworkitem.msdyn_transfercount <br> - msdyn_sessionparticipant.msdyn_joinedon ​<br> -  systemuser.msdyn_botapplicationid|
-|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is "192350000". <br> - Include msdyn_ocliveworkitem.statuscode set to 4​. <br> - Ensure that systemuser.msdyn_botapplicationid and msdyn_sessionparticipant.msdyn_joinedon isn't null​. <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon isn't empty, then IsAgentAcceptedSession is 1.​ Otherwise, it's 0.​ <br> - The system defines Transfer rate by msdyn_ocliveworkitem.msdyn_transfercount > 0​.​|
+|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL.​ <br> - Exclude rows where msdyn_channel is "192350000". <br> - Include msdyn_ocliveworkitem.statuscode set to 4​. <br> - Ensure that systemuser.msdyn_botapplicationid and msdyn_sessionparticipant.msdyn_joinedon isn't null​. <br> - IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon isn't empty, then IsAgentAcceptedSession is 1.​ Otherwise, it's 0.​ <br> - The system defines Transfer rate by msdyn_ocliveworkitem.msdyn_transfercount > 0​.​|
 
 
 ## Transfer conversation count
@@ -1058,6 +1148,6 @@ TransferedConversationCount = CALCULATE(COUNTROWS(FactConversation), FactConvers
 |---------|---------|
 |Dataverse entities |[msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
 |Attributes  |- msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_ocliveworkitem.msdyn_channel​ <br> - msdyn_ocliveworkitem.msdyn_transfercount 
-|Filters  | - Filter the FactConversations table to include only rows where Ensure that msdyn_channelinstanceid is NULL.​  <br>- Exclude rows where msdyn_channel is "192350000". <br> - The system defines Transfer count by msdyn_ocliveworkitem.msdyn_transfercount > 0. ​|
+|Filters  | - Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL.​  <br>- Exclude rows where msdyn_channel is "192350000". <br> - The system defines Transfer count by msdyn_ocliveworkitem.msdyn_transfercount > 0. ​|
 
 ---
