@@ -24,7 +24,7 @@ Representatives can also access Service Agent directly in the Copilot Service wo
 
 ## Service Agent language availability
 
-Service Agent delivers the best experience in English. As the experience continues to evolve, support for other languages is expected to expand.
+Service Agent is supported in English and delivers the best experience in that language. Other languages might appear in the interface as the system continues to evolve.
 
 ## Enable Service Agent
 
