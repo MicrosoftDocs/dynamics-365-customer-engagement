@@ -24,13 +24,15 @@ Representatives can also access Service Agent directly in the Copilot Service wo
 
 ## Service Agent language availability
 
-Service Agent is supported in English. Other languages are available but aren't currently supported.
+Service Agent is supported in English. Other languages might appear in the interface but aren’t officially supported.
 
 ## Enable Service Agent
 
-To enable Service Agent in Customer Service, a Microsoft 365 administrator must first install the Service app in Microsoft 365 Copilot. Service is an app that integrates with Dynamics 365 Customer Service and uses AI to help service representatives work more efficiently. Service integrates with Customer Service and makes Service Agent available to service representatives through Microsoft 365 Copilot and Copilot Service workspace.
+To enable Service Agent in Dynamics 365 Customer Service, a Microsoft 365 administrator must install the Service app in Microsoft 365 Copilot. The Service app integrates with Customer Service and uses AI to help service representatives work more efficiently. Once installed, Service Agent becomes available to representatives through Microsoft 365 Copilot and the Copilot Service workspace app.
 
 ### Install Service app
+
+Installing the Service app makes Service Agent capabilities available within Copilot and establishes a connection between Copilot and your Customer Service environment.
 
 **Prerequisites**
 
@@ -39,18 +41,21 @@ Before you install the Service app, make sure the following requirements are met
 - You must be a Microsoft 365 administrator to install the Service app from the [Microsoft 365 admin center](https://admin.microsoft.com/). Learn more in [How do I find my Microsoft 365 admin?](https://support.microsoft.com/en-us/office/how-do-i-find-my-microsoft-365-admin-59b8e361-dbb6-407f-8ac3-a30889e7b99b).
 - Admins must assign the Microsoft 365 Copilot license to each user who can use the app. Specific licensing requirements apply when you use Service. Learn more in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-You can install Service in Microsoft 365 Copilot from [Microsoft Marketplace](https://marketplace.microsoft.com/product/WA200006602?tab=Overview).
+To install the Service app, do the following steps:
 
-### Add Microsoft 365 Copilot to Dynamics 365 environment
+1. Go to [Microsoft Marketplace](https://marketplace.microsoft.com/product/WA200006602?tab=Overview).
+1. Select **Get it now.**
+1. Complete the installation wizard.
 
-After the Service app is enabled, the Dynamics 365 organization administrator must add the Microsoft 365 Copilot app to the Dynamics 365 environment. Do the steps in [Add Microsoft 365 Copilot for app users in model-driven apps (preview)](/power-apps/maker/model-driven-apps/add-microsoft-365-copilot).
+### Add Microsoft 365 Copilot to Customer Service environment
 
-After these steps are completed, service representatives can use Service Agent in:
+After the Service app is enabled, the Dynamics 365 organization administrator must add Copilot to the Customer Service environment. Do the steps in [Add Microsoft 365 Copilot for app users in model-driven apps (preview)](/power-apps/maker/model-driven-apps/add-microsoft-365-copilot).
 
-- Microsoft 365 Copilot chat
-- Copilot Service workspace
+After setup is complete, representatives can ask Microsoft 365 Copilot questions about cases, customers, and interactions, and receive contextual responses powered by Service Agent.
 
 ## Known limitations
+
+The following limitations apply in the current preview:
 
 - The app switcher experience doesn't work in Copilot Service workspace.
 - If you have both Copilots enabled, two Copilot icons display in the command bar. 
