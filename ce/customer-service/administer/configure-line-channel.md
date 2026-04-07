@@ -43,7 +43,7 @@ The prerequisites to configure the LINE channel in Copilot Service admin center 
    1. On the **Account details** page, enter the following details:
       - **Channel ID:** ID of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (ensure that it's a Messaging API) > **Basic settings**, and then copy the value in the **Channel ID** box.
       - **Channel secret:** Application secret of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (ensure that it's a Messaging API) > **Basic settings**, and then copy the value in the **Channel secret** box.
-      - **Channel access token:** Token of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (ensure that it's a Messaging API) > **Messaging API**, and then copy the value in the **Channel access token (long-lived)** box.
+      - **Channel access token:** Token of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (make sure that it's a Messaging API) > **Messaging API**, and then copy the value in the **Channel access token (long-lived)** box.
    
    1. On the **Callback information** page, copy the text in the **Callback URL** box, and do as follows:
       1. Go back to the LINE developer portal > channel messaging API setting, and update the webhook URL with this copied text.
@@ -55,7 +55,7 @@ The prerequisites to configure the LINE channel in Copilot Service admin center 
 
 ## Configure routing and work distribution
 
-1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
+To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
 
 1. Select the workstream that you created for the LINE channel and on the workstream page, select **Set up LINE**, and configure the following options:
    1. On the **LINE** page, select an account from **Available LINE accounts**.
@@ -66,7 +66,7 @@ The prerequisites to configure the LINE channel in Copilot Service admin center 
       - [Custom automated messages](configure-automated-message.md)
       - [Post-conversation survey](configure-post-conversation-survey.md)
    
-   1. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow customer service representatives (service representatives or representatives) and customers to send and receive file attachments. For more information, refer to [Enable file attachments](enable-file-attachments.md).
+   1. On the **User features** page, turn on the toggle for **File attachments**, and select the following checkboxes if you want to allow customer service representatives (service representatives or representatives) and customers to send and receive file attachments. For more information, refer to [Enable file attachments](enable-file-attachments.md).
       - Customers can send file attachments.
       - Service representatives can send file attachments.
    1. Verify the settings on the **Summary** page, and select **Finish**. The LINE channel instance is configured.
