@@ -57,8 +57,8 @@ After setup is complete, representatives can ask Microsoft 365 Copilot questions
 
 The following limitations apply in the current preview:
 
-- The app switcher experience doesn't work in Copilot Service workspace.
-- If you have both Copilots enabled, two Copilot icons display in the upper-right pane. 
+- The app-switcher experience isn't available in Copilot Service workspace.
+- If you enabled Service Agent in Customer Service and Microsoft 365 Copilot, two Copilot icons display in the upper-right pane. 
 
 ## Related information
 
