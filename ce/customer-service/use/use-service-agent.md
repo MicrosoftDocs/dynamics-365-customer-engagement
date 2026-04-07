@@ -47,8 +47,11 @@ To use Service Agent directly in Copilot Service workspace, perform the followin
 
 When you select **Service (Preview)**, Microsoft 365 Copilot activates customer service-specific skills. Service Agent can use the current app and customer interaction, such as an active case or work item, as a context when it's available.
 
-> [!Note]
-> In Copilot Service workspace, Service Agent can use the active case or work items as context when available. In other Microsoft 365 Copilot experiences, Service Agent doesn't automatically use case or work item context.
+### How context is used
+
+In Copilot Service workspace, Service Agent can automatically use the active case or work item as context when it's available.
+
+In other Microsoft 365 Copilot experiences you might need to explicitly reference the case or record you want Copilot to use.
 
 ### Select a data source
 
