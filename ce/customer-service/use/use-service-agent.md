@@ -1,7 +1,7 @@
 ---
 title: Use Service Agent in Microsoft 365 Copilot (preview)
 description: Learn how to use Service Agent in Microsoft 365 Copilot to quickly get responses on case and customer records without manually searching for the information.
-ms.date: 03/31/2026
+ms.date: 04/07/2026
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
