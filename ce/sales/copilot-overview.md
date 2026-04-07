@@ -23,7 +23,7 @@ ai-usage: ai-assisted
 Copilot is an AI assistant in Dynamics 365 Sales that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on recent changes to their records, prepare for meetings, and read the latest news about their accounts. Sellers can chat with Copilot in natural language or use predefined prompts to get the information they need. Learn how to use [Copilot in Dynamics 365 Sales](use-sales-copilot.md).
 
 > [!NOTE]
-> You can also access the [Sales agent in Microsoft 365 Copilot](use-sales-agent-in-m365-copilot.md) from your Dynamics 365 Sales app to get AI-powered assistance for sales activities such as summarizing accounts, catching up on customer meetings, and looking up sales record information. 
+> You can also access the [Sales agent in Microsoft 365 Copilot](use-sales-agent-in-m365-copilot.md) from your Dynamics 365 Sales app to get AI-powered assistance for sales activities such as summarizing accounts, catching up on customer meetings, and looking up sales record information. As capabilities continue to evolve, the Sales agent will become the preferred way to access Copilot assistance in Dynamics 365 Sales.
 
 ## Licensing requirements
 

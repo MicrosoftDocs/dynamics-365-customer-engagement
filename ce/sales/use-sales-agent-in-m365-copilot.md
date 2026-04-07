@@ -19,7 +19,7 @@ ai-usage: ai-assisted
 
 The Sales agent in Microsoft 365 Copilot (referred to as the Sales agent throughout this article) is an AI-powered chat interface that allows you to interact with your sales data using natural language. You can ask questions and gain insights from your Dynamics 365 Sales data and past customer interactions, all without leaving the chat experience. The Sales agent is available in the Copilot chat experience in Dynamics 365 Sales and across Microsoft 365 apps where Microsoft 365 Copilot is available. 
 
-Learn more about the Sales agent and its capabilities in the [Sales agent documentation](/microsoft-sales-copilot/sales-chat-overview).
+Learn more about the Sales agent and its capabilities in the [Sales agent documentation](/microsoft-sales-copilot/sales-chat-overview). As capabilities continue to evolve, the Sales agent will become the preferred way to access Copilot assistance in Dynamics 365 Sales.
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
@@ -40,7 +40,7 @@ Before you can use the Sales agent, your administrator must have completed the f
 1. In your sales app, select the **Copilot** icon on the command bar, and then select the **Chat** option.
    The Microsoft 365 Copilot chat experience opens in the side pane.
 1. Select the Hamburger menu on the top left of the chat pane to view the list of agents and past chats.
-1. Select **Sales** from the list of agents to start interacting with it. If you don't see the Sales agent in the list, select **All agents** and then search for and select **Sales**.
+1. Select **Sales** from the list of agents to start interacting with it. If you don't see the Sales agent in the list, select **All agents** and then search for and select **Sales**.  
    :::image type="content" source="media/microsoft-365-copilot-sales.png" alt-text="Screenshot of the Sales agent in Microsoft 365 Copilot.":::
 1. Ask the agent questions in natural language to get the following types of insights:
    - [Get a summary of an account](/microsoft-sales-copilot/use-sales-chat#get-a-summary-of-an-account)
