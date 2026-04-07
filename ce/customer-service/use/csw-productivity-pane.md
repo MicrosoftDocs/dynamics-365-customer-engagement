@@ -1,7 +1,7 @@
 ---
-title: Overview of productivity pane | MicrosoftDocs
-description: Overview of productivity pane in Dynamics 365 Copilot Service workspace.
-ms.date: 06/05/2025
+title: Overview of productivity pane Dynamics 365 Copilot Service workspace
+description: Learn how Dynamics 365 Copilot Service workspace enables agents to resolve issues quickly with various tools available on the productivity pane.
+ms.date: 04/03/2026
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -71,6 +71,12 @@ A macro is a set of instructions that tells the system how to complete a task. W
 ## Knowledge article search
 
 The knowledge base search lets you search for relevant knowledge articles to resolve a case. These articles are displayed based on relevance and full-text search mechanisms. For more information, see [Search for knowledge articles](search-knowledge-articles-csh.md). 
+
+## Screen recording
+
+When your administrator enables this feature, screen recording captures your on-screen actions as you handle customer interactions. Automated screen recording starts when you accept a voice call and stops when the call ends. 
+
+Alternatively, you can manually record your screen by selecting the recording icon in the productivity pane. Manual recordings run continuously and can’t be paused.
 
 ### Related information
 

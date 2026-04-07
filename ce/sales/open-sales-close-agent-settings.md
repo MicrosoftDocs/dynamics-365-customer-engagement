@@ -1,14 +1,10 @@
 ---
-title: Open the Sales Close Agent - Engage settings page (preview)
-description: Open the Sales Close Agent - Engage settings to configure or manage the Sales Close Agent - Engage.  
-ms.date: 11/07/2025
+title: Open the Sales Close Agent settings page (preview)
+description: Open the Sales Close Agent settings to configure or manage the Sales Close Agent.  
+ms.date: 03/30/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
+ms.custom: bap-template
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -17,11 +13,11 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Open the Sales Close Agent - Engage settings page (preview)
+# Open the Sales Close Agent settings page (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Open the Sales Close Agent - Engage settings to configure or manage the Sales Close Agent - Engage.
+Open the Sales Close Agent settings to configure or manage the Sales Close Agent.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -35,17 +31,18 @@ Open the Sales Close Agent - Engage settings to configure or manage the Sales Cl
 1. In the **Agent manager** section, select **Create and manage agent**.  
     The **AI agent** page opens.  
 1. To create an agent:  
-    1. Select **Create**.  
+    1. Select **Create**.
+        The create an agent dialog opens.  
     1. In the **Sales Close Agent** section, select **Choose**.  
-    1. In the **Scenario** page, select **Engage** and then select **Manual setup**.  
+    1. In the configuration page, select **Manual setup**.  
     > [!NOTE]
     > The option to create a new agent will be inactive, if an agent is already configured in your organization. At any given time, only one agent can be active per organization.  
 
-    :::image type="content" source="media/sca-engage-setup-assistant-open.png" alt-text="Sales Close Agent - Engage settings page showing the option to create a new agent.":::
+    :::image type="content" source="media/sca-engage-setup-assistant-open.png" alt-text="Sales Close Agent settings page showing the option to create a new agent.":::
 
-1. To edit or deactivate the agent, in the **AI agents** page, from the list of agents, select the name of the Sales Close Agent - Engage.  
+1. To edit or deactivate the agent, in the **AI agents** page, from the list of agents, select the name of the Sales Close Agent.  
 
 ## Related information
 
-- [Set up and configure the Sales Close Agent - Engage](configure-sales-close-agent.md)  
-- [Manage Sales Close Agent - Engage](manage-sales-close-agent.md)
+- [Set up and configure the Sales Close Agent](configure-sales-close-agent.md)  
+- [Manage Sales Close Agent](manage-sales-close-agent.md)

@@ -1,7 +1,7 @@
 ---
 title: Use inspections in work orders
 description: Learn how to create inspections, add them to work orders, and perform inspections in Dynamics 365 Field Service.
-ms.date: 02/04/2026
+ms.date: 04/06/2026
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -114,6 +114,12 @@ Manually associate the inspection to a service task type.
 
 It's common to add service task types to incident types in order to bundle work together. However, it isn't required because you can add individual service tasks to work orders.
 
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO 3159b197-b2f4-4dbb-9a91-2c661d05cf45]
+
+<!--- https://learn-video.azurefd.net/vod/player?id=3159b197-b2f4-4dbb-9a91-2c661d05cf45 --->
+
 ## Add the inspection to a work order
 
 1. [Create a new work order](create-work-order.md) and select **Save**.
@@ -127,6 +133,12 @@ It's common to add service task types to incident types in order to bundle work 
    :::image type="content" source="./media/inspections-service-task-work-order2.svg" alt-text="Screenshot of the tasks section on a work order in Field Service.":::
 
 Alternatively, your inspection service task can be added to the work order via a work order incident type.
+
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO 7be4100f-9349-4064-b1bc-34eff6a11e83]
+
+<!--- https://learn-video.azurefd.net/vod/player?id=7be4100f-9349-4064-b1bc-34eff6a11e83 --->
 
 ## Perform inspections on mobile
 
@@ -161,6 +173,12 @@ If needed, you can select  **More** > **Clear Responses** to start over, and per
 
 > [!NOTE]
 > Only single responses are supported and you can't fill out the same inspection twice for a single task. If the responses are cleared or answered again, the original responses are deleted, and only the latest responses are saved.
+
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO ff44cc07-a13e-4a0f-ba9d-16d0b58b4a3e]
+
+<!--- https://learn-video.azurefd.net/vod/player?id=ff44cc07-a13e-4a0f-ba9d-16d0b58b4a3e --->
 
 ## View responses
 

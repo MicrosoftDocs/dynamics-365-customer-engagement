@@ -1,5 +1,5 @@
 ---
-title: Use Microsoft 365 Copilot (preview) in Customer Service and Dynamics 365 Contact Center
+title: Use Microsoft 365 Copilot in Customer Service and Dynamics 365 Contact Center (preview)
 description: Learn how to use Microsoft 365 Copilot to gain insights about the data in Customer Service and Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
@@ -17,4 +17,5 @@ ms.update-cycle: 180-days
 
 ### Related information
 
+[Agents, Copilot, and AI capabilities in Dynamics 365 apps](/dynamics365/copilot/ai-get-started)  
 [Copilot feature availability across products](/dynamics365/contact-center/use/copilot-feature-availability)  
