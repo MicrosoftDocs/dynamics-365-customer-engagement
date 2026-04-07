@@ -14,9 +14,9 @@ ms.update-cycle: 180-days
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Service Agent extends Microsoft 365 Copilot with customer service-specific capabilities. It enables Microsoft 365 Copilot to retrieve and reason over customer service data, such as cases, customer records, and recent interactions, when customer service representatives (service representatives, representatives) ask Copilot questions or request assistance.
+Service Agent extends Microsoft 365 Copilot with customer service-specific capabilities. It enables Copilot to retrieve and reason over customer service data—such as cases, customer records, and recent interactions—when customer service representatives (representatives) ask questions or request assistance.
   
-When you enable Service Agent, service representatives can use Copilot to get responses based on relevant service information—such as cases or customer records—without manually searching for the data.
+After you enable Service Agent, service representatives can use Copilot to get responses based on relevant service information—such as cases or customer records—without manually searching for the data.
   
 Representatives can also access Service Agent directly in the Copilot Service workspace app while working on customer interactions to retrieve relevant service information in-context.
 
@@ -24,15 +24,17 @@ Representatives can also access Service Agent directly in the Copilot Service wo
 
 ## Service Agent language availability
 
-Service Agent is currently supported in English only. Other languages might appear in the interface but aren’t supported.
+Service Agent is currently supported in English only. Other languages might appear in the interface but aren’t currently supported.
 
 ## Enable Service Agent
 
-To enable Service Agent in Dynamics 365 Customer Service, a Microsoft 365 administrator must install the Service app in Microsoft 365 Copilot. The Service app integrates with Customer Service and uses AI to help service representatives work more efficiently. Once installed, Service Agent becomes available to representatives through Microsoft 365 Copilot and the Copilot Service workspace app.
+Enabling Service Agent requires actions from both a Microsoft 365 administrator and a Dynamics 365 administrator.
+
+To enable Service Agent in Dynamics 365 Customer Service, a Microsoft 365 administrator must install the Service app in Microsoft 365 Copilot. The Service app integrates with Customer Service and uses AI to help representatives work more efficiently. Once installed, Service Agent becomes available to representatives through Copilot and the Copilot Service workspace app.
 
 ### Install Service app
 
-Installing the Service app makes Service Agent capabilities available within Copilot and establishes a connection between Copilot and your Customer Service environment.
+Installing the Service app makes Service Agent capabilities available within Copilot and connects it to your Customer Service environment.
 
 **Prerequisites**
 
@@ -47,7 +49,7 @@ To install the Service app, do the following steps:
 1. Select **Get it now.**
 1. Complete the installation wizard.
 
-### Add Microsoft 365 Copilot to Customer Service environment
+### Add Microsoft 365 Copilot to your Customer Service environment
 
 After the Service app is enabled, the Dynamics 365 organization administrator must add Copilot to the Customer Service environment. Do the steps in [Add Microsoft 365 Copilot for app users in model-driven apps (preview)](/power-apps/maker/model-driven-apps/add-microsoft-365-copilot).
 
@@ -58,7 +60,7 @@ After setup is complete, representatives can ask Microsoft 365 Copilot questions
 The following limitations apply in the current preview:
 
 - The app-switcher experience isn't available in Copilot Service workspace.
-- If you enabled Service Agent in Customer Service and Microsoft 365 Copilot, two Copilot icons display in the upper-right pane. 
+- If Service Agent is enabled in both Customer Service and Microsoft 365 Copilot, two Copilot icons display in the upper-right pane. 
 
 ## Related information
 
