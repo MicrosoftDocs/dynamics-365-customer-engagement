@@ -47,7 +47,7 @@ To install the Service app, do the following steps:
 
 1. Go to [Microsoft Marketplace](https://marketplace.microsoft.com/product/WA200006602?tab=Overview).
    > [!Note]
-   > If the Service app doesn't appear, go to [Microsoft Marketplace]((https://marketplace.microsoft.com/), search for "Service", and then select the Service app from the search results.
+   > If the Service app doesn't appear, go to [Microsoft Marketplace](https://marketplace.microsoft.com), search for "Service", and then select the Service app from the search results.
 1. Select **Get it now.**
 1. Complete the installation wizard.
 
