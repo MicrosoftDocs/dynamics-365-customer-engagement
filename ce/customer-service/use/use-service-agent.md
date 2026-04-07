@@ -49,9 +49,7 @@ When you select **Service (Preview)**, Microsoft 365 Copilot activates customer 
 
 ### How context is used
 
-In Copilot Service workspace, Service Agent can automatically use the active case or work item as context when it's available.
-
-In other Microsoft 365 Copilot experiences you might need to explicitly reference the case or record you want Copilot to use.
+In Copilot Service workspace, Service Agent can automatically use the active case or work item as context when it's available. In other Microsoft 365 Copilot experiences, you might need to reference the case or record you want Copilot to use.
 
 ### Select a data source
 
