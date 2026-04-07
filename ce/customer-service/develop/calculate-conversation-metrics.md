@@ -389,6 +389,25 @@ Incoming conversation (excl. short abandons) = [Incoming conversations] - [Short
 |Attributes |  [msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold) |
 
 
+## Abandoned rate (excludes short abandons)
+
+*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
+
+Percentage of inbound conversations that customers abandoned after the short-abandon threshold out of all incoming conversations, regardless of overflow conditions.
+
+**DAX query**
+
+```dax
+
+Abandoned rate (excl. short abandons) = DIVIDE ( [Abandoned conversations (excl. short abandons)], CALCULATE ( [Incoming conversations], REMOVEFILTERS(ProxyConversationLastOverflow) ), BLANK())
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |[msdyn_sessionextension](/dynamics365//developer/reference/entities/msdyn_sessionextension), [queue](/dynamics365/developer/reference/entities/queue)​ |
+|Attributes |- [msdyn_OverflowCondition](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowCondition), <br> - [msdyn_OverflowAction](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowAction), <br> -[msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold) <br> - [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
+
 ## Short abandoned
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
@@ -426,25 +445,6 @@ Short abandon rate = DIVIDE ([Short abandoned], CALCULATE ([Incoming conversatio
 |---------|---------|
 |Dataverse entities |[msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension), [queue](/dynamics365/developer/reference/entities/queue)​ |
 |Attributes |- [msdyn_OverflowCondition](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowCondition), <br> - [msdyn_OverflowAction](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowAction), <br> - [msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold), <br> -[msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
-
-## Abandoned rate (excluding short abandons)
-
-*Applies to Omnichannel real-time and Omnichannel historical dashboards.*
-
-Percentage of inbound conversations that customers abandoned after the short-abandon threshold out of all incoming conversations, regardless of overflow conditions.
-
-**DAX query**
-
-```dax
-
-Abandoned rate (excl. short abandons) = DIVIDE ( [Abandoned conversations (excl. short abandons)], CALCULATE ( [Incoming conversations], REMOVEFILTERS(ProxyConversationLastOverflow) ), BLANK())
-
-```
-
-|Element|Value  |
-|---------|---------|
-|Dataverse entities |[msdyn_sessionextension](/dynamics365//developer/reference/entities/msdyn_sessionextension), [queue](/dynamics365/developer/reference/entities/queue)​ |
-|Attributes |- [msdyn_OverflowCondition](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowCondition), <br> - [msdyn_OverflowAction](/dynamics365/developer/reference/entities/msdyn_sessionextension#BKMK_msdyn_OverflowAction), <br> -[msdyn_shortabandonedthreshold](/dynamics365/developer/reference/entities/queue#BKMK_msdyn_shortabandonedthreshold) <br> - [msdyn_sessionextension](/dynamics365/developer/reference/entities/msdyn_sessionextension) |
 
 ## Conversation first wait time
 
