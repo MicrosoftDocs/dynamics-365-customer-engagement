@@ -18,3 +18,4 @@ ms.update-cycle: 180-days
 ### Related information
 
 [Configure agent feed](../administer/configure-agent-feed.md)  
+[Agents, Copilot, and AI capabilities in Dynamics 365 apps](/dynamics365/copilot/ai-get-started)  

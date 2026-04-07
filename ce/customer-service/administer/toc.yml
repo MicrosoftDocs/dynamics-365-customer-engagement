@@ -128,6 +128,8 @@
           href: smart-assist.md
         - name: Manage agent scripts
           href: agent-scripts.md
+        - name: Configure screen recording
+          href: /dynamics365/contact-center/administer/screen-recording?context=/dynamics365/context/customer-service-administer-context
         - name: macros
           items:  
           - name: Manage macros
@@ -506,6 +508,8 @@
         items: 
           - name: Configure global settings for Case Management Agent
             href: case-management-global-settings.md
+          - name: Enable email classification
+            href: configure-email-classification.md
           - name: Set up Case Management Agent to create and update cases 
             href: set-up-autonomous-case-agents.md
           - name: Set up Case Management Agent to resolve cases
@@ -705,7 +709,7 @@
       - name: Enable case summaries through ask a question (preview)
         href: enable-ask-summarize-cases.md
       - name: Enable Copilot plugins for generative AI (preview)
-        href: /dynamics365/contact-center/administer/enable-copilot-plugins-for-generative-ai?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
+        href: /dynamics365/contact-center/administer/enable-copilot-plugins-for-generative-ai?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Enable Copilot to create knowledge from cases
         href: enable-copilot-suggest-knowledge-from-cases.md
       - name: View feedback data
@@ -726,6 +730,10 @@
         href: /dynamics365/contact-center/administer/knowledge-copilot?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: FAQ for Copilot in Customer Service
         href: faq-copilot-features.md
+    - name: Service in Microsoft 365 Copilot
+      items:
+      - name: Enable Service Agent in Microsoft 365 Copilot (preview)
+        href: configure-service-agent.md
     - name: Agents
       items:
       - name: Overview of agents
@@ -804,6 +812,8 @@
         href: csw-enable-ai-suggested-cases-knowledge-articles.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
+      - name: Configure case sentiment (preview)
+        href: configure-case-sentiment-analysis.md
       - name: Customize interactive dashboards based on Unified Interface
         href: configure-interactive-dashboards-customer-service-hub.md
       - name: FAQ about AI suggestions for cases and knowledge articles
@@ -966,9 +976,11 @@
       href: ../implement/faq-responsible-ai-copilot.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Responsible AI FAQs for NLUs in AI agents
       href: /dynamics365/contact-center/implement/natural-language-ai-faq?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-    - name: Constrained speech recognition
+    - name: Transparency note
       items:
-      - name: Transparency note
+      - name: Real-time voice agents
+        href: /dynamics365/contact-center/implement/transparency-note-real-time-voice-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Constrained speech recognition
         href: /dynamics365/contact-center/implement/transparency-note?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
   - name: Resources
     items:

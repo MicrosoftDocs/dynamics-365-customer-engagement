@@ -5,9 +5,13 @@ author: puneet-singh1
 ms.author: puneetsingh
 ms.reviewer: puneetsingh
 ms.topic: overview
-ms.date: 02/23/2026
+ms.date: 04/06/2026
 ---
 
 # Supervise agents in Field Service with agent feed (preview)
 
 [!INCLUDE [supervise-agents-with-agent-feed](~/../shared-content/shared/dynamics365-core/supervise-agents-with-agent-feed.md)]
+
+### Related information
+
+[Agents, Copilot, and AI capabilities in Dynamics 365 apps](/dynamics365/copilot/ai-get-started)  
