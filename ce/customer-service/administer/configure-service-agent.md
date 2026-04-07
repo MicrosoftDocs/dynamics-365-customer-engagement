@@ -24,7 +24,7 @@ Representatives can also access Service Agent directly in the Copilot Service wo
 
 ## Service Agent language availability
 
-Service Agent is officially supported in English. Other languages are available but aren't currently supported.
+Service Agent is supported in English. Other languages are available but aren't currently supported.
 
 ## Enable Service Agent
 
@@ -41,7 +41,7 @@ Before you install the Service app, make sure the following requirements are met
 
 You can install Service in Microsoft 365 Copilot from [Microsoft Marketplace](https://marketplace.microsoft.com/product/WA200006602?tab=Overview).
 
-## Add Microsoft 365 Copilot to Dynamics 365 environment
+### Add Microsoft 365 Copilot to Dynamics 365 environment
 
 After the Service app is enabled, the Dynamics 365 organization administrator must add the Microsoft 365 Copilot app to the Dynamics 365 environment. Do the steps in [Add Microsoft 365 Copilot for app users in model-driven apps (preview)](/power-apps/maker/model-driven-apps/add-microsoft-365-copilot).
 
