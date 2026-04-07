@@ -25,7 +25,7 @@ When you ask Copilot a question or request assistance, Service Agent uses your o
 You can use Service Agent in the following places:
 -	Microsoft 365 Copilot
 -	Copilot Service workspace while working on customer interactions
--	In any Microsoft 365, Dynamics 365, or Power Apps application where Copilot is enabled
+-	Any Microsoft 365, Dynamics 365, or Power Apps application where Copilot is enabled
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
