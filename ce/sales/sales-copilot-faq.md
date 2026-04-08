@@ -7,7 +7,7 @@ ms.reviewer: lavanyakr
 ms.topic: concept-article
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 03/09/2026
+ms.date: 04/08/2026
 ms.update-cycle: 180-days
 ---
 
@@ -15,6 +15,7 @@ ms.update-cycle: 180-days
 
 This article answers some common questions about Copilot in Dynamics 365 Sales.
 
+<a name="sales-agent-vs-copilot"></a>
 ## How does the Sales agent in Microsoft 365 Copilot differ from Copilot in Dynamics 365 Sales?
 
 Both the Sales agent in Microsoft 365 Copilot and Copilot in Dynamics 365 Sales use generative AI to help sellers be more productive, but they differ in their availability, capabilities, and integration. As capabilities continue to evolve, the Sales agent will become the preferred way to access Copilot assistance in Dynamics 365 Sales. 
@@ -29,17 +30,18 @@ Both the Sales agent in Microsoft 365 Copilot and Copilot in Dynamics 365 Sales 
 
 ## How do I migrate from Copilot in Dynamics 365 Sales to the Sales agent in Microsoft 365 Copilot?
 
-The Sales agent in Microsoft 365 Copilot is the evolution of the Copilot experience in Dynamics 365 Sales. As we continue to enhance the Sales agent's capabilities, we recommend that you start using the Sales agent to get AI-powered assistance for your sales activities. Learn more about how to set up and use the Sales agent in [Use the Sales agent in Microsoft 365 Copilot from within Dynamics 365 Sales (preview)](use-sales-agent-in-m365-copilot.md).
+In the following scenarios, you can start [using the Sales agent in Microsoft 365 Copilot](use-sales-agent-in-m365-copilot.md) immediately after setup:
 
-If you haven't done any customization to your existing Copilot in Dynamics 365 Sales experience, you can start using the Sales agent immediately after the setup. If you have customized your Copilot experience, you might need to reconfigure some of your customizations in the Sales agent. The following table shows the list of Copilot in Dynamics 365 Sales customizations that carry over to the Sales agent and the ones that require action on your part.
+- You haven't done any customization to your existing Copilot in Dynamics 365 Sales experience.
+- You added glossary and synonyms to the **Copilot in Dynamics 365 Sales** agent in Copilot Studio.
 
+If you have done any other customizations, such as configuring summary fields, you will need to take some additional steps to ensure a smooth transition to the Sales agent in Microsoft 365 Copilot. 
 
-| Customization | Carried over to Sales agent? | Action Required |
-|---|---|---|
-| Glossary and synonyms | Yes | No action needed. Both the Sales agent and Copilot in Dynamics 365 Sales use the same Copilot Studio agent for glossary and synonym management. So, your existing glossary customizations automatically apply to the Sales agent. |
-| Summary fields configuration (account, opportunity, lead) | No | Reconfigure your summary fields using the [Sales agent configuration](microsoft-sales-copilot/set-up-sales-chat#step-3-configure-account-summary). The Sales agent uses default summarization until you reconfigure. |
-| Custom topics and skills (Question and answers, and actions) | No | Build declarative agents to handle custom topics and skills in the Sales agent. Learn more in [Extend Sales Chat with custom tools](/microsoft-sales-copilot/extend-sales-chat-custom-tools) |
-| Welcome card customization and prompt suggestions | No | Not supported. The Sales agent's welcome experience has a fixed design and doesn't support customization yet. |
+| Customization | Action Required |
+|---|---|
+| Summary fields configuration (account, opportunity, lead) | Reconfigure your summary fields using the [Sales agent configuration](microsoft-sales-copilot/set-up-sales-chat#step-3-configure-account-summary). The Sales agent uses default summarization until you reconfigure. |
+| Custom topics and skills (Question and answers, and actions) | Build declarative agents to handle custom topics and skills in the Sales agent. Learn more in [Extend Sales Chat with custom tools](/microsoft-sales-copilot/extend-sales-chat-custom-tools) |
+| Welcome card customization and prompt suggestions | Not supported. The Sales agent's welcome experience has a fixed design and doesn't support customization yet. |
 
 Reach out to Microsoft support if you need help with the migration or have any questions about the Sales agent.
 

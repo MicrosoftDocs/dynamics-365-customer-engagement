@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 03/09/2026
+ms.date: 04/08/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -23,7 +23,7 @@ ai-usage: ai-assisted
 Copilot is an AI assistant in Dynamics 365 Sales that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on recent changes to their records, prepare for meetings, and read the latest news about their accounts. Sellers can chat with Copilot in natural language or use predefined prompts to get the information they need. Learn how to use [Copilot in Dynamics 365 Sales](use-sales-copilot.md).
 
 > [!NOTE]
-> You can also access the [Sales agent in Microsoft 365 Copilot](use-sales-agent-in-m365-copilot.md) from your Dynamics 365 Sales app to get AI-powered assistance for sales activities such as summarizing accounts, catching up on customer meetings, and looking up sales record information. As capabilities continue to evolve, the Sales agent will become the preferred way to access Copilot assistance in Dynamics 365 Sales.
+> The Sales agent in Microsoft 365 Copilot is the evolution of the Copilot experience for sales teams. The [Sales agent](use-sales-agent-in-m365-copilot.md) provides AI-powered assistance for sales activities across Microsoft 365 apps and Dynamics 365 Sales. As we continue to enhance the Sales agent's capabilities, we recommend that you start using the Sales agent to get AI-powered assistance for your sales activities. You can [access it from your Dynamics 365 Sales app](use-sales-agent-in-m365-copilot.md). As capabilities continue to evolve, the Sales agent will become the preferred way to access Copilot assistance in Dynamics 365 Sales.
 
 ## Licensing requirements
 
