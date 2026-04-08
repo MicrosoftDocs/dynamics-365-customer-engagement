@@ -22,11 +22,11 @@ Both the Sales agent in Microsoft 365 Copilot and Copilot in Dynamics 365 Sales 
 
 | Feature | Sales Agent in Microsoft 365 Copilot | Copilot in Dynamics 365 Sales |
 |---------|----------------------------------------|-------------------------------|
-| **Availability** | Available across Microsoft 365 applications (Teams, Outlook, Word, Excel) | Built into Dynamics 365 Sales application |
-| **Chat history** | Maintains a history of your interactions with the Sales agent across sessions and applications | Doesn't maintain chat history across sessions |
-| **Key Capabilities** | Summarizes accounts and past meeting data, and provides insights based on customer data | Summarizes accounts, opportunities, and leads, generates meeting preparation notes, fetches latest account news, answers questions about sales data, and more. |
-| **Access** | Access the Sales agent from the **Copilot** > **Chat** menu | Access Copilot in Dynamics 365 Sales from the **Copilot** > **App Skills** menu |
-| **CRM Support** | Works with Dynamics 365 Sales and Salesforce CRM | Works with Dynamics 365 Sales only |
+| **Availability** | Available across Microsoft 365 applications (Teams, Outlook, Word, Excel) and Dynamics 365 Sales. | Built into Dynamics 365 Sales application. |
+| **Chat history** | Maintains a history of your interactions with the Sales agent across sessions and applications. | Doesn't maintain chat history across sessions. |
+| **Key Capabilities** | Summarizes accounts and past meeting data, and provides insights based on customer data. | Summarizes accounts, opportunities, and leads, generates meeting preparation notes, fetches latest account news, answers questions about sales data, and more. |
+| **Access** | Access the Sales agent from the **Copilot** > **Chat** menu. | Access Copilot in Dynamics 365 Sales from the **Copilot** > **App Skills** menu. |
+| **CRM Support** | Works with Dynamics 365 Sales and Salesforce CRM. | Works with Dynamics 365 Sales only. |
 
 ## How do I migrate from Copilot in Dynamics 365 Sales to the Sales agent in Microsoft 365 Copilot?
 

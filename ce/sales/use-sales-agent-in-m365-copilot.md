@@ -35,6 +35,7 @@ Before you can use the Sales agent, your administrator must have completed the f
 - [Turned on and set up Microsoft 365 Copilot for your sales app](/power-apps/maker/model-driven-apps/add-microsoft-365-copilot)
 - [Set up Sales agent in Microsoft 365 Copilot](/microsoft-sales-copilot/set-up-sales-chat)
 
+<a name="access-sales-agent"></a>
 ## Access the Sales agent in Dynamics 365 Sales
 
 1. In your sales app, select the **Copilot** icon on the command bar, and then select the **Chat** option.
