@@ -24,8 +24,9 @@ Define the agent profile, company information, and product information to set th
 1. In the **Agent profile** section, provide the following information:
    - **Agent name**: Specify a meaningful name for the agent. 
 
-   - **Agent description**: Specify a brief description of the agent's purpose and the leads it will handle.
+   - **What should this agent do**: Specify a brief description of the agent's purpose and the leads it will handle.
    - **Agent user**: Select the [agent app user you created for the agent](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse-and-assign-aisalesperson-role). This user account is used to perform all the agent tasks such as owning leads, handing over leads, sending emails, and accessing data.
+   - **Agent language**: Select the language for generating research insights and outreach emails. For a list of language supported, go to the [international availability report](https://releaseplans.microsoft.com/availability-reports/?report=featurelangreport).  [What happens when the agent's language is different from user's preferred language?](opportunity-research-agent-faqs.md#agent-language-difference).
 
 1. (Applicable for Research and engage mode) If you're configuring the Research and engage mode, provide the following additional information to customize the agent's email communication:
    - **Email signature**: Enter the email signature that the agent will use when sending emails to leads. This signature will be appended to the end of each email sent by the agent. Select **Modify signature** to open the Email signature editor, where you can format the signature text and add links or images.
