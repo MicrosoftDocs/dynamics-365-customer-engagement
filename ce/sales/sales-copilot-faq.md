@@ -39,7 +39,7 @@ If you have done any other customizations, such as configuring summary fields, y
 
 | Customization | Action Required |
 |---|---|
-| Summary fields configuration (account, opportunity, lead) | Reconfigure your summary fields using the [Sales agent configuration](microsoft-sales-copilot/set-up-sales-chat#step-3-configure-account-summary). The Sales agent uses default summarization until you reconfigure. |
+| Summary fields configuration (account, opportunity, lead) | Reconfigure your summary fields using the [Sales agent configuration](/microsoft-sales-copilot/set-up-sales-chat#step-3-configure-account-summary). The Sales agent uses default summarization until you reconfigure. |
 | Custom topics and skills (Question and answers, and actions) | Build declarative agents to handle custom topics and skills in the Sales agent. Learn more in [Extend Sales Chat with custom tools](/microsoft-sales-copilot/extend-sales-chat-custom-tools) |
 | Welcome card customization and prompt suggestions | Not supported. The Sales agent's welcome experience has a fixed design and doesn't support customization yet. |
 
