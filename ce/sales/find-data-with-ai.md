@@ -2,7 +2,7 @@
 title: Find data using natural language with AI in Dynamics 365 Sales (preview)
 description: Learn how to find, filter, and sort data in a Dynamics 365 Sales view using AI.
 ms.topic: overview
-ms.date: 02/24/2026
+ms.date: 04/06/2026
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
