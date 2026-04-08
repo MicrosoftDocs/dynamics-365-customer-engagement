@@ -1,7 +1,7 @@
 ---
 title: Set up and configure the Sales Opportunity Agent
 description: Learn how to set up and configure the Sales Opportunity Agent in Dynamics 365 Sales.
-ms.date: 03/30/2026
+ms.date: 04/17/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -15,7 +15,9 @@ ai-usage: ai-assisted
 
 # Set up and configure the Sales Opportunity Agent
 
-As an administrator, you can configure the Sales Opportunity Agent in Dynamics 365 Sales to help sales professionals gain insights and recommendations for the opportunities they're working on. The agent automatically gathers information from various sources, providing a streamlined research experience, stakeholder and competitor intelligence, and actionable risk mitigation strategies. 
+As an administrator, you can configure the Sales Opportunity Agent in Dynamics 365 Sales to help sales professionals gain insights and recommendations for the opportunities they're working on. The agent automatically gathers information from various sources, providing a streamlined research experience, stakeholder and competitor intelligence, and actionable risk mitigation strategies.  
+
+Now, you can set up multiple agent instances to handle different product lines or opportunity segments simultaneously. Each agent instance can be configured independently with its own profile, selection criteria, and knowledge sources, allowing you to tailor the insights and recommendations to the specific needs of each segment. For more information, see [Create multiple agent instances](#create-multiple-agent-instances).
 
 ## Prerequisites
 
@@ -39,9 +41,9 @@ Ensure that you meet the following prerequisites before configuring the agent.
 
 ## Plan your implementation
 
-Before you set up the agent, consider the following:
+Before you set up the agent, consider the following points:
 
-- **Pick one product line.** The products should be handled by a single sales team. If your company sells multiple products through different sales teams, start with one product line.
+- **Pick one product line.** A single sales team should handle the products. If your company sells multiple products through different sales teams, start with one product line.
 - **Define an opportunity segment.** Determine the segment of opportunities for the agent to handle. For example, only opportunities that are **Hot** with an estimated revenue of $100,000 or more.
 - **Predictive scoring dependency.** The agent uses the machine learning model in predictive opportunity scoring for risk assessment. If you didn't configure scoring in your environment, it's configured automatically when you start the agent.
 
@@ -55,12 +57,12 @@ By default, the **Salesperson** and **Sales Manager** security roles have the ne
 
 ## Setup the Sales Opportunity Agent
 
-Before you set up the agent, ensure you have [planned your implementation](#plan-your-implementation) and met [all prerequisites](#prerequisites). Use the following steps to configure and start the Sales Opportunity Agent:
+Before setting up the agent, make sure you [plan your implementation](#plan-your-implementation) and meet [all prerequisites](#prerequisites). Use the following steps to configure and start the Sales Opportunity Agent:
 
 1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
 1. [Configure requirements for the agent](configure-requirements-for-sales-close-agent-research.md).
-1. [Configure the agent profile](configure-sales-close-agent-profile-research.md) for agent such as name and language.
-1. [Configure company info](configure-sales-close-agent-research-company-info.md) for agent to understand value proposition and curate research insights.
+1. [Configure the agent profile](configure-sales-close-agent-profile-research.md) for the agent such as name and language.
+1. [Configure company info](configure-sales-close-agent-research-company-info.md) for the agent to understand value proposition and curate research insights.
 1. [Configure refresh frequency](configure-sales-close-agent-research-refresh-frequency.md) to specify how often the agent refreshes research data.
 1. [Set selection criteria for opportunities](configure-sales-close-agent-research-selection-criteria.md) to define which opportunities the agent should research.
 1. [Configure importance and risk assessment](configure-sales-close-agent-research-opportunity-assessment.md) to select the fields the agent uses to assess opportunity importance and risk.
@@ -68,6 +70,25 @@ Before you set up the agent, ensure you have [planned your implementation](#plan
 1. [Configure advanced settings (optional)](opportunity-research-agent-advanced-settings.md) to customize risk and importance criteria.
 1. [Start the agent](start-sales-close-agent-research.md) to begin researching opportunities and generating insights.
 
+## Create multiple agent instances
+
+You can use multiple agents to handle different product lines or opportunity segments at the same time. You can configure each agent instance independently with its own profile, selection criteria, and knowledge sources. For example, you can create one agent for high-value enterprise deals and another for mid-market opportunities, tailoring the insights and recommendations to the specific needs of each segment.
+
+### Considerations
+
+Consider the following points when creating multiple agent instances:
+
+- **Maximum instances per organization**: Your organization can have up to 10 active agent instances.  
+- **Capacity usage**: All agent instances draw from the same capacity pool. Monitor your capacity usage to ensure you have enough resources to support multiple agents. For more information, see [Manage consumption-based billing for agent capabilities](copilot-consumption-based-billing.md).  
+
+### Configuring an agent instance
+
+When you create a new agent instance, configure it by following the steps outlined in the [Setup the Sales Opportunity Agent section](#setup-the-sales-opportunity-agent). Each instance can have its own unique configuration for selection criteria, knowledge sources, and other settings. This configuration allows you to customize the agent's behavior for different segments of opportunities.
+However, note the aspects for the following configuration sections for each agent instance:
+
+- **Selection criteria**: Each agent must have its own distinct selection criteria to determine which opportunities it processes. To learn how the selection criteria for multiple agent instances work, see [Selection criteria for multiple agent instances](configure-sales-close-agent-research-selection-criteria.md#selection-criteria-for-multiple-agent-instances). 
+- **Knowledge sources**: All instances share the same single Microsoft Copilot Studio knowledge base. For each agent instance, you can configure which knowledge sources it uses by applying filters. To learn how to filter knowledge sources for specific agent instances, see [Filter knowledge sources by agent instance](configure-sqa-knowledge-source.md#filter-knowledge-sources-by-agent-instance). 
+ 
 ## Related information
 
 - [Work on opportunities handled by the Sales Opportunity Agent](use-opportunity-research-agent.md)
