@@ -33,7 +33,7 @@ Both the Sales agent in Microsoft 365 Copilot and Copilot in Dynamics 365 Sales 
 In the following scenarios, you can start [using the Sales agent in Microsoft 365 Copilot](use-sales-agent-in-m365-copilot.md) immediately after setup:
 
 - You haven't done any customization to your existing Copilot in Dynamics 365 Sales experience.
-- You added glossary and synonyms to the **Copilot in Dynamics 365 Sales** agent in Copilot Studio.
+- You added glossary and synonyms to the **Copilot in Dynamics 365 Sales** agent in Copilot Studio. The glossary and synonyms are shared between the Sales agent in Microsoft 365 Copilot and Copilot in Dynamics 365 Sales, so you can use the same glossary and synonyms in the Sales agent too.
 
 If you have done any other customizations, such as configuring summary fields, you will need to take some additional steps to ensure a smooth transition to the Sales agent in Microsoft 365 Copilot. 
 
