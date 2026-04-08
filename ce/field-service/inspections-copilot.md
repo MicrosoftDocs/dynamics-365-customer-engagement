@@ -14,6 +14,8 @@ ms.collection: bap-ai-copilot
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
+<!--- Also update faqs-inspection-designer.md --->
+
 Service organizations often have numerous procedures, forms, and checklists stored in various formats like paper or PDF files. With Copilot in Field Service, makers can quickly digitize these documents and integrate them into Field Service work orders.
 
 Copilot converts uploaded documents into draft inspection templates that technicians can edit and publish to complete work order tasks in the Field Services mobile app.  
