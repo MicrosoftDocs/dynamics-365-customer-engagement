@@ -45,7 +45,7 @@ Perform the following steps:
 
 1. In the app, go to **Settings** > **Advanced Settings**. The **System Settings** page appears.
 1. 1. Select the **Email** tab. 
-1. In the **Set Email data sensitivity** section, select the checkbox for for **Email data sensitivity labels for emails**.
+1. In the **Set Email data sensitivity** section, select the **Email data sensitivity labels for emails** checkbox.
 1. Select **OK**.
 
 ### Related information 
