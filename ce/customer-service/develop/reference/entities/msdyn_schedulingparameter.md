@@ -454,8 +454,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Api key for map**|
-|DisplayName|**Map Api Key**|
+|Description|**Bing enterprise api key for maps. If left blank, the default key will be used. Note: Azure Maps key is not yet supported**|
+|DisplayName|**Bing Maps Api Key**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_mapapikey`|

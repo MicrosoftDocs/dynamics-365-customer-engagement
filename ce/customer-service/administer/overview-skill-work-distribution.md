@@ -1,7 +1,7 @@
 ---
-title: Skill-based routing in Omnichannel for Customer Service
-description: This topic provides information about the skill-based routing in the Omnichannel for Customer Service app to ensure that work items are assigned to the best-suited customer service representative.
-ms.date: 02/04/2025
+title: Skill-based routing in Dynamics 365 Contact Center
+description: This topic provides information about the skill-based routing in Dynamics 365 Contact Center to ensure that work items are assigned to the best-suited customer service representative.
+ms.date: 03/18/2026
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 > [!NOTE]
-> The data such as but not limited to skills, rating model, and rating value that is created, updated, and used in Omnichannel for Customer Service is shared with other model-driven apps (Field Service and Project Service Automation) installed in your environment. Similarly, the data that are created, updated, and used in other model-driven apps are available for use in Omnichannel for Customer Service.
+> The data such as but not limited to skills, rating model, and rating value that is created, updated, and used in Dynamics 365 Contact Center is shared with other model-driven apps (Field Service and Project Service Automation) installed in your environment. Similarly, the data that are created, updated, and used in other model-driven apps are available for use in Omnichannel for Customer Service.
 
 In the customer service center, your customer service representatives (service representatives or representatives) have different skill sets and abilities. The customers who reach out to the contact center might have different needs. Skill-based routing lets your customer service center distribute work items (conversations) to the representative who is most qualified to solve the issue. Skill-based routing improves the quality of customer service by automatically distributing work items to the representative who has the skills necessary to do the work.
 

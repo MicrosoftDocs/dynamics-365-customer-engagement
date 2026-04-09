@@ -1,10 +1,10 @@
 ---
 title: Set up the Scheduling Operations Agent (preview)
 description: Learn how to set up the Scheduling Operations Agent in Dynamics 365 Field Service for your dispatchers.
-ms.date: 03/26/2025
+ms.date: 03/23/2026
 ms.topic: how-to
-ms.author: anilmur
-author: anilmur
+ms.author: anclear
+author: andrewclear-ms
 ---
 
 # Set up the Scheduling Operations Agent (preview)
@@ -64,7 +64,9 @@ Dynamics 365 regularly checks the available capacity, or quota, of Copilot Studi
 
 ## Set properties for bookable resources
 
-Bookable resources that the agent supports must be of type *User*, *Contact*, or *Crew*. Set the following properties for each bookable resource that you want the agent to consider:
+The agent supports bookable resources of type *User*, *Contact*, or *Crew*.
+
+In the **Resources** area, set the following properties for each bookable resource that you want the agent to consider:
 
 - **Start Location** and **End Location** must be a value other than **Location Agnostic**.
 - **Display on schedule board** must be **Yes**.
@@ -81,22 +83,22 @@ Bookable resources that the agent supports must be of type *User*, *Contact*, or
 
 1. For each booking status, set the **Optimization Method** property to one of the following values:
 
-    - **Optimize**: The agent may move or delete bookings with this status to generate an optimal schedule. This method is typically used for bookings that aren't in progress yet; for example, statuses of *Scheduled* or *Committed*.
+    - **Optimize**: The agent can move or delete bookings with this status to generate an optimal schedule. Use this method for bookings that aren't in progress yet, such as *Scheduled* or *Committed* statuses.
 
-    - **Do Not Move**: The agent must preserve the estimated arrival time of bookings with this status. It only updates the travel time if a previous booking is moved or changed. That's typically the case when a technician is already traveling to a booking or has started or completed the work. You can also use this optimization method in situations where a specific arrival time was committed to a customer. *Do Not Move* is the default behavior if **Optimization Method** isn't set.
+    - **Do Not Move**: The agent must preserve the estimated arrival time of bookings with this status. It only updates the travel time if a previous booking is moved or changed. This method typically applies when a technician is already traveling to a booking or has started or completed the work. You can also use this optimization method in situations where a specific arrival time was committed to a customer. *Do Not Move* is the default behavior if **Optimization Method** isn't set.
 
-    - **Ignore**: The agent may override bookings with this status and move or create new bookings on top of them. This method is typically used for bookings with a status of *Canceled*.
+    - **Ignore**: The agent can override bookings with this status and move or create new bookings on top of them. Use this method for bookings with a status of *Canceled*.
 
     :::image type="content" source="media/soa-booking-status.png" alt-text="Screenshot of a booking status record with a configured optimization method in Dynamics 365 Field Service booking statuses settings.":::
 
 > [!TIP]
 > In addition to using the default booking statuses, we recommend that you create a booking status such as *Locked* with **Optimization Method** set to *Do Not Move*. Dispatchers can use that booking status to selectively indicate which bookings to preserve when the agent runs.
 >
-> If you don't set the **Optimization Method** for *Committed* or *Scheduled* statuses, then the agent has little flexibility in making changes to a schedule.
+> If you don't set the **Optimization Method** for *Committed* or *Scheduled* statuses, the agent has little flexibility in making changes to a schedule.
 
 ## Set priority values
 
-**Priority Value** is a new property of priorities that helps the agent decide which bookings or resource requirements are more important than others. It accepts numbers between 1 and 100. The higher the number, the higher the priority. For example, a high-priority booking with a **Priority Value** of 75 takes precedence over a high-priority booking with a **Priority Value** of 50. The agent ignores the **Level of Importance** field.
+The **Priority Value** property helps the agent decide which bookings or resource requirements are more important. It accepts numbers between 1 and 100. The higher the number, the higher the priority. For example, a high-priority booking with a **Priority Value** of 75 takes precedence over a high-priority booking with a **Priority Value** of 50. The agent ignores the **Level of Importance** field.
 
 1. Open the Field Service app and go to the **Settings** area.
 2. Select **Priorities**.
@@ -105,7 +107,7 @@ Bookable resources that the agent supports must be of type *User*, *Contact*, or
     :::image type="content" source="media/soa-priority-value.png" alt-text="Screenshot of a priority record with a configured priority value in Dynamics 365 Field Service priorities settings.":::
 
 > [!TIP]
-> We recommend setting priority values that are clearly distinguishable, such as 100 for the highest-priority emergency work, 75 for high-priority work, 50 for moderate-priority work, and so on. The agent might not effectively distinguish values that are too close to each other.
+> Set priority values that are clearly distinguishable, such as 100 for the highest-priority emergency work, 75 for high-priority work, 50 for moderate-priority work, and so on. The agent might not effectively distinguish values that are too close to each other.
 
 ## Next step
 

@@ -1,7 +1,7 @@
 ---
 title: Configure routing to preferred representatives
 description: Learn how to configure settings to route work items to preferred representatives in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 09/16/2025
+ms.date: 02/19/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -24,7 +24,7 @@ You can configure contacts and their preferred representatives in the Copilot Se
 
 - You must have one of the following roles to configure preferred representative routing:
   - **For Customer Service**: CSR Manager
-  - **For Omnichannel for Customer Service**: Omnichannel Administrator
+  - **For Dynamics 365 Contact Center**: Omnichannel Administrator
 
 - You must be able to access the [Contact table](../../developer/reference/entities/contact.md).
 - If you have a custom role, you must also have access to the [msdyn_preferredagent](../../developer/reference/entities/msdyn_preferredagent.md) and [msdyn_preferredagentcustomeridentity](../../developer/reference/entities/msdyn_preferredagentcustomeridentity.md) tables.

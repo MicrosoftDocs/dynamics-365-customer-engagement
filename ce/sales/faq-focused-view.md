@@ -1,7 +1,7 @@
 ---
 title: Focused view FAQs
 description: Get answers to frequently asked questions about focused view.
-ms.date: 07/10/2024
+ms.date: 10/10/2025
 ms.topic: faq
 author: udaykirang
 ms.author: udag
@@ -16,7 +16,7 @@ ms.custom:
 
 # Focused view FAQs
 
-This article answers frequently asked questions about focused view in Dynamics 365 Sales, Sales premium, and Sales professional.
+This article answers frequently asked questions about focused view in Dynamics 365 Sales.
 
 ## In which organizations is focused view supported?
 

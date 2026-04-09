@@ -1,8 +1,8 @@
 ---
-title: Monitor, assign, transfer, and end conversations as a supervisor
+title: Monitor, assign, transfer, and end conversations as a supervisor in Dynamics 365 Contact Center
 description: Learn how to monitor, assign, transfer, and end conversations that your customer service representatives handle using the Omnichannel Ongoing Conversations dashboard.
-ms.date: 04/21/2025
-ms.topic: conceptual
+ms.date: 04/08/2026
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -25,13 +25,13 @@ To be able to monitor, assign, transfer, or close conversations, your administra
 
 ## Monitor and join conversations
 
-As a supervisor, you can monitor or assign conversations that are configured for all channels, including records. You can monitor all conversations that are in the **Active** or **Wrap-up** states. By joining the conversation, you provide necessary details to both the service representative and customer in the communication panel.  
+You can monitor or assign conversations that are configured for all channels including records. You can monitor all digital channel conversations that are in the **Active** or **Wrap-up** states. For the voice channel you can monitor conversations in the **Active** state only. By joining the conversation, you can provide necessary details to both the service representative and customer in the communication panel.  
 
 You can't monitor conversations that are assigned to you.
 
 ## Assign conversations
 
-To manually assign a conversation, the conversation should be in an Open state and not assigned to any service representative. As a supervisor, you can override the service representative's presence and allocated capacity when assigning conversations to them. When you override representative capacity, the number of units by which their capacity is exceeded is displayed.
+To manually assign a conversation, the conversation should be in an **Open** state and not assigned to any service representative. As a supervisor, you can override the service representative's presence and allocated capacity when assigning conversations to them. When you override representative capacity, the number of units by which their capacity is exceeded is displayed.
 
 The conversation is now assigned to the service representative or queue that you selected.
 
@@ -50,7 +50,7 @@ When you transfer an **Active** conversation from one service representative to 
 
 End voice calls and conversations that take place on the voice and messaging channels. After the conversation ends, its status is set to **Closed**.
 
-We recommend that you use this feature judiciously to end service representative conversations.
+We recommend that you use this feature judiciously when you want to end service representative conversations.
 
 ### Related information
 

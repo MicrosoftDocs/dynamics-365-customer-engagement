@@ -67,11 +67,11 @@ If you want to test scenarios beyond the ones covered in the product tour, go ah
 
 ##  What features are available in the trial?
 
-Your trial includes a simplified Trial app with a few important capabilities to get you started quickly. However, you can access the fully functional, Dynamics 365 Sales Premium environment. Select the **Sales trial** link at the top of your trial app and select **Sales Hub** from the list of apps.
+Your trial includes a simplified Trial app with a few important capabilities to get you started quickly. However, you can access a fully functional environment by selecting the **Sales trial** link at the top of your trial app and selecting **Sales Hub** from the list of apps.
 
-The following licenses and capabilities pre-installed in the trial app:
+The following capabilities pre-installed in the trial app:
 
-**Dynamics 365 Sales Premium**
+**Dynamics 365 Sales**
 
 - Manage sales pipeline using leads and opportunities
 

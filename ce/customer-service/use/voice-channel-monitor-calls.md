@@ -4,16 +4,15 @@ description: Learn how to monitor calls in the voice channel for Omnichannel for
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
-ms.date: 05/23/2025
+ms.date: 09/30/2025
 ms.topic: how-to
-
 ---
 
 # Monitor calls
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-As a supervisor, it's useful to be able to monitor the calls between your customer service representatives (service representatives or representatives) and their customers without interrupting them to help identify which calls need attention. You can monitor the conversations without being seen as a participant by the service representative or customer, and step into conversations when more support is needed.
+As a supervisor, it's useful to be able to monitor the calls between your customer service representatives (service representatives or representatives) and their customers without interrupting them to help identify which calls need attention. You can monitor the conversations without being seen as a participant by the service representative or customer, and then step into conversations when more support is needed.
 
 ## Prerequisites
 
@@ -29,8 +28,7 @@ On the **Omnichannel Ongoing Conversations** dashboard, you, as a supervisor, ca
 
 To find out details about an individual conversation:
 
-- On the **Omnichannel Ongoing Conversations dashboard**, select it in the list of active conversations, and then select **Monitor**.
-
+- On the **Omnichannel Ongoing Conversations dashboard**, select the conversation in the list of active conversations, and then select **Monitor**.
 
 ## Consult with an agent during a conversation
 

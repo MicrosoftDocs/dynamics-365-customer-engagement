@@ -92,15 +92,19 @@ Changes from [ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer/data-p
 |4401|**Campaign Response**|
 |4402|**Campaign Activity**|
 |4406|**Quick Campaign**|
-|10478|**IoT Alert**|
-|10689|**Customer Voice alert**|
-|10699|**Customer Voice survey invite**|
-|10701|**Customer Voice survey response**|
-|10762|**Overflow Action Config**|
-|10786|**Ongoing conversation (Deprecated)**|
-|10798|**Conversation**|
-|10815|**Session**|
-|11037|**Copilot Transcript**|
+|10250|**Teams chat**|
+|10266|**Knowledge Article Template**|
+|10405|**Invite Redemption**|
+|10406|**Portal Comment**|
+|10505|**IoT Alert**|
+|10717|**Customer Voice alert**|
+|10732|**Customer Voice survey invite**|
+|10735|**Customer Voice survey response**|
+|10797|**Overflow Action Config**|
+|10821|**Ongoing conversation (Deprecated)**|
+|10833|**Conversation**|
+|10850|**Session**|
+|11083|**Copilot Transcript**|
 
 ## Many-to-One relationships
 

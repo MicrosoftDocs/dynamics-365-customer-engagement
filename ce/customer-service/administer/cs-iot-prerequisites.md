@@ -1,49 +1,52 @@
 ---
-title: "Prerequisites for Setting Up Connected Customer Service for Azure IoT Central | MicrosoftDocs"
-description: "Prerequisites for setting up Connected Customer Service for Azure IoT Central."
-ms.date: 02/03/2020
-ms.topic: how-to
+title: Prerequisites for setting up Connected Customer Service for Azure IoT Central
+description: Prerequisites for connecting Azure IoT Central to Connected Customer Service using Power Automate.
+ms.date: 03/30/2026
+ms.topic: overview
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ---
 
-
 # Prerequisites for setting up Connected Customer Service for Azure IoT Central
 
-Ready to connect Azure IoT Central to Connected Customer Service (CFS) using Power Automate to see how you can harness the power of the Internet of Things (IoT) and improve customer service (without writing any code)?
+Before you connect Azure IoT Central to Connected Customer Service by using Power Automate, complete the following prerequisites.
 
-Before you take these tutorials, you need to complete three tasks:
-- Provision the Azure IoT Central solution using the sample Legacy template.
-- Get a Dynamics 365 Customer Service tenant with system administrator credentials. 
-- Install the Dynamics 365 Connected Customer Service add-on from the Dynamics 365 admin center.
+## Prerequisite tasks
 
-This topic provides you with links to everything you need and walks you through the steps to get started.
+To set up Connected Customer Service with Azure IoT Central, you must complete these tasks:
 
-## Provision the Azure IoT Central solution using the Legacy template
+- Provision an Azure IoT Central application.
+- Obtain a Customer Service environment with system administrator credentials.
+- Install the Connected Customer Service add-on from the Dynamics 365 admin center.
 
-The various industry templates for retail, energy, government, and healthcare contain device templates that you can use for testing purposes.
+## Provision an Azure IoT Central application
 
-First, [navigate to Azure IoT Central](https://azure.microsoft.com/services/iot-central/). To start creating your new Azure IoT Central application, select **Create Custom App**. 
- 
-On the **Create Custom App** dialog: 
- 1. Select the Preview or Legacy template of your choosing (recommended for demo) or create a custom app to start from scratch. 
- 3. Then select **Create**.
+Azure IoT Central provides industry templates that include device models and telemetry schemas for testing and evaluation scenarios. Templates are available for industries such as retail, energy, government, and healthcare.
 
-> [!div class="mx-imgBorder"]
-> ![Azure IoT Central new application dialog.](../media/cs-iot-create-custom-app.PNG "Azure IoT Central new application dialog")  
+To create an Azure IoT Central application, perform the following steps:
 
-After a few seconds, you'll see the App home page. 
+1. Go to [Azure IoT Central](https://azure.microsoft.com/services/iot-central/).
+1. Select **Create a custom app**.
+1. Choose a **Legacy template** or create a custom application from scratch.
+1. Complete the application setup.
 
-> [!div class="mx-imgBorder"]
-> ![App home page for Azure IoT Central.](../media/cs-iot-azure-central-app-home.PNG "App home page for Azure IoT Central")
+After the application is created, the Azure IoT Central application home page opens.
 
-## Get a Dynamics 365 Customer Service tenant with system administrator credentials 
+:::image type="content" source="../media/cs-iot-azure-central-app-home.png" alt-text="Azure IoT Central application home page":::
 
-You'll need a Dynamics 365 Customer Service tenant that you can connect your IoT solution to.
-     
-New to Customer Service and need a tenant? No worries. [Sign up for a free trial for development purposes](https://appsource.microsoft.com/product/dynamics-365/mscrm.40fd37ef-dca4-4b0d-9f41-d16703b7d070).
+## Customer Service environment requirements
 
+You need a Customer Service environment with the following requirements:
 
+- System Administrator security role
+- Access to connect external services by using Power Automate
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+If you don't already have a Customer Service environment, you can create one by signing up for a free trial for development or evaluation. Learn more in [Sign up for a Dynamics 365 Customer Service free trial]](../implement/try-customer-service.md).
+
+## Install Connected Customer Service
+
+Connected Customer Service is installed from the Dynamics 365 admin center. After installation, the required entities and processes—such as **Devices** and **IoT alerts**—are available in the Customer Service environment.
+
+After installation completes, you can connect Azure IoT Central to Connected Customer Service by using Power Automate.
+

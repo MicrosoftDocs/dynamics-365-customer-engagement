@@ -1,16 +1,16 @@
 ---
 title: Create optimization schedules in Resource Scheduling Optimization
 description: Learn how to use optimization schedules in the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
-author: AnilMur
-ms.author: anilmur
-ms.date: 03/31/2025
+author: andrewclear-ms
+ms.author: anclear
+ms.date: 03/31/2026
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
 
 # Create optimization schedules in Resource Scheduling Optimization
 
-After you create a scope and a goal, you can combine and schedule them in an optimization schedule. An optimization schedule defines when Resource Scheduling Optimization automatically starts to optimize requirements and bookings. For example, an optimization schedule might specify that optimization occurs at 1:00 AM on weekdays. In this way, schedules are updated before the team starts to work, and there is minimal disruption during working hours.
+After you create a scope and a goal, combine and schedule them in an optimization schedule. An optimization schedule defines when Resource Scheduling Optimization automatically starts to optimize requirements and bookings. For example, an optimization schedule might specify that optimization occurs at 1:00 AM on weekdays. In this way, schedules are updated before the team starts to work, and there's minimal disruption during working hours.
 
 :::image type="content" source="media/optimization-schedule.png" alt-text="Screenshot of an unpublished optimization schedule. ":::
 
@@ -33,22 +33,22 @@ After you create a scope and a goal, you can combine and schedule them in an opt
 
 1. Use the **Valid From** and **Valid To** fields to define the date and time range that the schedule is active.
 
-1. On the **Filter** tab, you can specify more details to define when the schedule runs during the specified time range. Filters can be helpful if you want to run optimizations only on specific days.
+1. On the **Filter** tab, specify more details to define when the schedule runs during the specified time range. Filters can be helpful if you want to run optimizations only on specific days.
 
 1. Select **Save** and then **Publish** the schedule.
 
 ### Optimization schedule statuses
 
-- *Unpublished*: This status is the default status when a schedule is created or reset.
+- *Unpublished*: This status is the default status when you create or reset a schedule.
 - *Publishing*: The system is trying to publish schedules.
 - *Published*: The system published a schedule, and it's ready to run.
 - *Out of Sync*: The schedule must be published again because of changes that were made against it.
 - *Under Maintenance*: Someone is upgrading Resource Scheduling Optimization to a newer version.
-- *Failed*: The system failed to publish schedules. You can find error details on the schedule page. If you receive an error message that states, "A SASKey has not been configured for ServiceEndpoint RSO Data Sync," Azure resources for Resource Scheduling Optimization aren't set up correctly.
+- *Failed*: The system failed to publish schedules. You can find error details on the schedule page. If you receive an error message that states, "A SASKey isn't configured for ServiceEndpoint RSO Data Sync," Azure resources for Resource Scheduling Optimization aren't set up correctly.
 
 ## Reset an optimization schedule
 
-To unpublish a schedule and cancel all pending jobs that are related to it, you can reset the schedule.
+To unpublish a schedule and cancel all pending jobs that are related to it, reset the schedule.
 
 1. In Resource Scheduling Optimization, go to **Tools** > **Optimization Schedules**.
 1. Open a published schedule.

@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # JAccSelector tag in Unified Service Desk
 `<JAccSelector>` associates a named control to the [!INCLUDE[pn_Java](../includes/pn-java.md)] accessibility element that is specified in the search path. You can use this control type for all selection elements such as lists boxes or lists in combo boxes. This topic describes the elements of `<JAccSelector>`  

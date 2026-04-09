@@ -1,7 +1,7 @@
 ---
-title: Integrate a Copilot agent
+title: Integrate a Copilot agent in Dynamics 365 Contact Center
 description: Use this article to get instructions on how to integrate a Copilot agent in your contact center.
-ms.date: 07/09/2025
+ms.date: 04/06/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: neeranelli
@@ -24,6 +24,7 @@ Use agents to simulate human-like conversations for routine activities so that y
 The following capabilities are available for the agent conversations:
 
 - Seamlessly integrate your agent with all channels without needing to add channel-specific code in the agent.
+- Use real-time voice agents. A real-time voice agent supports fully voice-driven interactions. Customers speak with the agent and receive a spoken response instantly. Learn more in [Real-time voice agents (preview)](/microsoft-copilot-studio/voice-realtime-voice-agents).
 - Configure interactive voice response (IVR) capabilities for voice-enabled agents.
 - [!INCLUDE[cc-natural-language-model](../../includes/cc-natural-language-model.md)]  
 - Configure contextual transfers to service representatives.
@@ -41,7 +42,7 @@ You must have:
 - Specific licensing requirements apply to configure and use agents in Copilot Studio. Learn more in [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718).
 - Chat, digital messaging, or voice channel in Dynamics 365 Customer Service require specific licenses depending on your business requirements. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 - The CCI Admin security role to access the agent you create in Copilot Service admin center in Copilot Studio.
-- The Omnichannel administrator role. Learn more in [Manage user roles](/dynamics365/customer-service/implement/add-users-assign-roles)
+- The Omnichannel administrator role. Learn more in [Manage user roles](/dynamics365/customer-service/implement/add-users-assign-roles).
 
 ## Create a Copilot agent
 
@@ -55,7 +56,7 @@ You can create Copilot agents in one of the following ways:
 
 ## Connect your Copilot agent to omnichannel instance
 
-For the agent to be able to interact with customers in Dynamics 365 Contact Center or Customer Service, you must integrate the agent with your application. Follow the procedure in [Connect your Copilot agent to omnichannel](/microsoft-copilot-studio/configuration-hand-off-omnichannel) to connect your Copilot agent to the omnichannel instance. 
+For the agent to be able to interact with customers in Dynamics 365 Contact Center or Customer Service, you must integrate the agent with your application. Follow the procedure in [Connect your Copilot agent to omnichannel](/microsoft-copilot-studio/configuration-hand-off-omnichannel) to connect your Copilot agent to the omnichannel instance.
 
 When your customers need to speak with a representative, your agent can seamlessly hand off the conversation. When your agent hands off a conversation, it can share the full history of the conversation, and all relevant variables. Make sure you have an escalation article configured in your agent to hand off the conversation to a representative. Learn more in [hand off to a live agent](/microsoft-copilot-studio/advanced-hand-off).
 
@@ -65,7 +66,7 @@ In Copilot Studio, you can add the following capabilities to your agent to finis
 
 - Add knowledge sources to your agent to help it answer customer questions. Learn more in [Add knowledge sources to your agent](/microsoft-copilot-studio/knowledge-copilot-studio).
 - Configure multilingual agents to support multiple languages. Learn more in [Configure multilingual agents](/microsoft-copilot-studio/multilingual).
--  IVR capabilities that are specific to voice-enabled agents such as dual-tone multi-frequency (DTMF) input, context variables, call transfer, and speech and DTMF customization. Learn more in [Configure Copilot Studio IVR agents](voice-channel-pva-bots.md).
+- IVR capabilities that are specific to voice-enabled agents such as dual-tone multi-frequency (DTMF) input, context variables, call transfer, and speech and DTMF customization. Learn more in [Configure Copilot Studio IVR agents](voice-channel-pva-bots.md).
 - [Customize the look and feel of a copilot](/microsoft-copilot-studio/customize-default-canvas).
 
 ## Add an agent to a workstream
@@ -77,7 +78,6 @@ In the Copilot Service admin center app, select the Copilot agent from the list 
 > - Agents can receive conversations only if they're added to push-based workstreams.
 > - Voice-enabled agents that you create in the Copilot Service admin center work with enhanced voice workstreams only. Classic agents aren't supported in the enhanced voice experience. To create classic agents for existing voice workstreams that aren't migrated, use Copilot Studio.
 
-
 ### Configure context variables for the Copilot agent
 
 After you configure your agent and add it to a workstream, you can configure context variables to [route work items](/dynamics365/customer-service/administer/queues-omnichannel?context=/dynamics365/contact-center/context/administer-context). You can also share context from Omnichannel with your Copilot agent to create a rich and personalized experience. Learn more about creating context variables in [Manage context variables](/dynamics365/customer-service/administer/manage-context-variables?context=/dynamics365/contact-center/context/administer-context). Learn more about configuring context variables for Copilot agents in [Configure context variables for Copilot agent](/dynamics365/customer-service/administer/context-variables-for-bot#context-variables-for-copilot-studio-bots?context=/dynamics365/contact-center/context/administer-context).
@@ -86,10 +86,9 @@ After you configure your agent and add it to a workstream, you can configure con
 
 You can add an agent to the queue so that the agent can receive conversations from the queue. Learn more in [create and manage queues for unified routing](/dynamics365/customer-service/administer/queues-omnichannel?context=/dynamics365/contact-center/context/administer-context).
 
-
 ## Automatically close a conversation
 
-When an agent receives a conversation that isn't escalated to a service representative, the conversation closes if the customer abandons it. The conversation also closes automatically after 30 minutes of inactivity.
+When an agent receives a conversation that isn't escalated to a service representative, the system closes the conversation if the customer abandons it. The conversation also closes automatically after 30 minutes of inactivity.
 
 This conversation appears in the Omnichannel Agent dashboard with the status set to **Closed** and **Resolved/abandoned** state in the Copilot Studio dashboard. Learn more in [Session outcomes over time chart](/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart).
 
@@ -97,7 +96,7 @@ This conversation appears in the Omnichannel Agent dashboard with the status set
 
 You must include an end of conversation article in a Copilot agent to provide a clear and natural conclusion to the interaction, enhancing the overall user experience. It also allows the agent to suggest next steps, gather feedback, and handle any final errors, ensuring the user leaves the interaction satisfied. 
 
-In the voice channel, the system doesn't listen for the **closeOmnichannelConversation** context variable. You must configure an [end of conversation message](#end-agent-conversations) that explicitly ends the conversation in Omnichannel for Customer Service.
+In the voice channel, the system doesn't listen for the **closeOmnichannelConversation** context variable. You must configure an [end of conversation message](#end-agent-conversations) that explicitly ends the conversation in Dynamics 365 Contact Center.
 
 1. In Copilot Studio, for the selected agent, add a new topic.
 
@@ -105,7 +104,7 @@ In the voice channel, the system doesn't listen for the **closeOmnichannelConver
 
 1. On the Power Automate window that opens on a new tab, do the following steps:
    1. In the **Return value(s) to Power Virtual Agents** box, select **Add an output**, and then select **Yes/No**.
-   2. In the **Enter title** box, enter CloseOmnichannelConversation, which is the Omnichannel for Customer Service context variable name.
+   2. In the **Enter title** box, enter CloseOmnichannelConversation, which is the contact center context variable name.
    3. In the **Enter a value to respond** box, select the **Expression** tab, and then enter **bool(true)** to build the expression, and select **OK**.
    4. Save the changes, and then exit Power Automate.
 
@@ -113,7 +112,7 @@ In the voice channel, the system doesn't listen for the **closeOmnichannelConver
 
 1. In **Add node**, select **End the conversation**, and then select **Transfer to agent**.
 
-1. Go to the topic in which you need to invoke the topic for ending the agent conversation in Omnichannel for Customer Service, and use the **Go to another topic** option in **Add a node**.
+1. Go to the topic in which you need to invoke the topic for ending the agent conversation in Dynamics 365 Contact Center, and use the **Go to another topic** option in **Add a node**.
 
 1. Select the topic that you created for ending the agent conversation.
 
@@ -121,11 +120,10 @@ In the voice channel, the system doesn't listen for the **closeOmnichannelConver
 
 ### Limitations
 
-
 | Description     | Limitation     |
 |-----------------|----------------|
-| **Adaptive cards**</br>An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li> You can build an adaptive card by adding a skill through Copilot Studio. Learn more in [Use Microsoft Bot Framework Skills in Copilot Studio](/power-virtual-agents/advanced-use-skills) </li><li> Adaptive card styling isn't supported.</li><li> Adaptive cards won't appear in emailed transcripts. To help the reader understand the transcript, we recommend that you preface the adaptive card with a text message node (for example, "Please fill out this form").</li></ul> |
-| **Typing**</br>An agent receives a typing activity to indicate that the user is typing a response. An agent may send a typing activity to indicate to the user that it's working to fulfill a request or compile a response. | Typing indicators don't appear. |
+| **Adaptive cards**</br>An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li> You can build an adaptive card by adding a skill through Copilot Studio. Learn more in [Use Microsoft Bot Framework Skills in Copilot Studio](/power-virtual-agents/advanced-use-skills) </li><li> Adaptive card styling isn't supported.</li><li> Adaptive cards don't appear in emailed transcripts. To help the reader understand the transcript, we recommend that you preface the adaptive card with a text message node (for example, "Please fill out this form").</li></ul> |
+| **Typing**</br>An agent receives a typing activity to indicate that the user is typing a response. An agent might send a typing activity to indicate to the user that it's working to fulfill a request or compile a response. | Typing indicators don't appear. |
 | **Format bot messages**</br>You can set the optional `TextFormat` property to control how the text content of your message is rendered. | <ul><li> Copilot Studio doesn't support Markdown with images and text. </li><li>When Copilot Studio sends Markdown text, there's an extra space between lines. </li></ul>|
 
 ## Privacy notice
@@ -134,8 +132,7 @@ You understand that your data might be transmitted and shared with external syst
 
 ### Troubleshoot issues for agents
 
-[How to end an agent conversation in Omnichannel for Customer Service](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/pva-conversations-active-dashboard)
-
+[How to end an agent conversation in contact center](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/pva-conversations-active-dashboard)
 
 ## Next steps
 
@@ -150,7 +147,7 @@ You understand that your data might be transmitted and shared with external syst
 [Identify customers automatically](record-identification-rule.md)  
 [Enable an agent to escalate and end conversation](../develop/bot-escalate-end-conversation.md)  
 [Best practices for configuring Azure and Copilot agents](configure-bot-best-practices.md)  
-[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
+[Work with queues](queues-omnichannel.md)  
 [Understand and create workstreams](create-workstreams.md)  
 [Create and edit topics in Copilot agent](/power-virtual-agents/authoring-create-edit-topics)  
 [Suggested actions](../develop/suggested-actions.md)  

@@ -20,15 +20,13 @@ The who knows whom feature in Dynamics 365 Sales helps you to quickly identify c
 
 Sales representatives often interact with leads they have never met. If only you knew someone who knows the lead, an introduction could increase the chances of a positive outcome. That's where who knows whom comes in. Who knows whom suggests colleagues who have interacted with the lead through emails or meetings. It even helps you quickly email your colleagues to request an introduction.
 
-For Sales Enterprise users, who knows whom is based on emails and meetings in Dynamics 365. For Sales Premium users, it's based on Exchange data, provided your administrator has [configured server-side synchronization](configure-email.md). 
-
 ### Basic who knows whom information
 
-For Sales Enterprise users, the who knows whom information is populated based on emails and meeting data in Dynamics 365. This information is available out-of-the-box in all regions and doesn't require any setup.  
+By default, the who knows whom suggestion is populated based on emails and meeting data in Dynamics 365. This information is available out-of-the-box in all regions and doesn't require any setup.  
 
 ### Enhanced who knows whom information
 
-For Sales Premium users, the information is populated based on Exchange data, provided your administrator has [configured the server-side synchronization](configure-email.md). 
+Enhanced who knows whom suggestion is populated based on Exchange data, provided your administrator has [configured the server-side synchronization](configure-email.md). Exchange-based suggestions are only supported for specific Dynamics 365 Sales licenses. Learn more about the licensing requirements in the [Dynamics 365 Sales licensing guide](https://go.microsoft.com/fwlink/?linkid=2183923). 
 
 ## View who knows whom  
 

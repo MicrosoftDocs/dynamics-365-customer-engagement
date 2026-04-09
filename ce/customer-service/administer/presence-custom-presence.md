@@ -1,6 +1,6 @@
 ---
 title: Configure custom presence
-description: Learn to configure custom presence in Omnichannel for Customer Service.
+description: Learn to configure custom presence in Dynamics 365 Contact Center.
 ms.date: 06/11/2025
 ms.topic: how-to
 author: neeranelli
@@ -30,7 +30,7 @@ You must specify a [default presence](users-user-profiles.md#manage-users-using-
 
 ## Out-of-the-box presence statuses
 
-Omnichannel for Customer Service provides the following presence statuses out of the box:
+Dynamics 365 Contact Center provides the following presence statuses out of the box:
 
 - Available
 - Away
@@ -71,8 +71,8 @@ In addition to the out-of-box presence statuses, admins can configure custom pre
 
 ### Related information
 
-[Manage presence in Omnichannel for Customer Service](../use/oc-manage-presence-status.md)  
-[Manage a user in Omnichannel for Customer Service](users-user-profiles.md)  
+[Manage presence in Dynamics 365 Contact Center](../use/oc-manage-presence-status.md)  
+[Manage a user in Dynamics 365 Contact Center](users-user-profiles.md)  
 [Understand and create workstreams](create-workstreams.md)  
 [Overview of unified routing](overview-unified-routing.md)  
 [Presence API](../../channel-integration-framework/v2/develop/reference/microsoft-ciframework-v2.md#presence-apis)  

@@ -1,24 +1,25 @@
 ---
-title: Optimize multi-day service requests (preview)
+title: Optimize multi-day service requests
 description: Learn how the Resource Scheduling Optimization add-in for Dynamics 365 Field Service handles multi-day requirements.
 author: andrewclear-ms
 ms.author: anclear
-ms.date: 08/05/2025
+ms.date: 10/01/2025
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
 
-# Optimize multi-day service requests (preview)
-
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+# Optimize multi-day service requests
 
 A [service requirement can be manually scheduled across multiple days and weeks](schedule-multi-day-work.md). An example is a 40-hour work order across an entire work week, where the same field technician is expected to perform more detailed work at the same location each day. You can now use Resource Scheduling Optimization to optimize multi-day service requests of this type.
 
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
-
 ## Multi-day requirements for a single resource
 
-For multi-day requirements, the booking method set for the requirement determines what the scheduling logic is. The system then uses the duration of the requirement details to optimize the schedule.
+For multi-day requirements, the booking method set when the resource requirement is created determines what the scheduling logic will be. This is used to create requirement detail records that distribute the requirement across days. See the [multiday article](schedule-multi-day-work.md) for additional information on working with requirement detail records.
+
+For multi-day resource requirements to be schedule by Resource Scheduling Optimization, the resource requirement must have:
+
+* Valid From and To dates
+* Related requirement detail records
 
 Resource Scheduling Optimization assigns all bookings for a multi-day requirement to the same resource within the defined optimization range. If no resource is available, or available resources don't have enough capacity to fulfill the multi-day requirement, the system leaves the requirement unscheduled.
 

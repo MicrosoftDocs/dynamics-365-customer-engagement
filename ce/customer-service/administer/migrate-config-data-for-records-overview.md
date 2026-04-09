@@ -1,11 +1,11 @@
 ---
 title: Overview of data migration for records
-description: This article provides an overview of data migration in the records channel in Omnichannel for Customer Service.
+description: This article provides an overview of data migration in the records channel in Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: overview
-ms.date: 01/31/2025
+ms.date: 03/18/2026
 ms.custom: bap-template
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: Enable multisession experience and productivity tools in custom apps (preview)
+title: Enable multisession experience and productivity tools in custom apps
 description: Learn how to enable the multisession experience and productivity tools in custom apps.
-ms.date: 04/25/2025
+ms.date: 10/16/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -10,13 +10,9 @@ ms.custom: bap-template
 ms.collection:
 ---
 
-# Enable multisession experience and productivity tools in custom apps (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Enable multisession experience and productivity tools in custom apps
 
 The browser-like tabbed experience in Copilot Service workspace helps customer service representatives (service representatives or representatives) handle multiple sessions concurrently. Representatives can work on multiple cases and conversations, and perform other activities in a single workspace app. You can enable this experience and productivity tools for your representatives who use custom model-driven app.
-
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 

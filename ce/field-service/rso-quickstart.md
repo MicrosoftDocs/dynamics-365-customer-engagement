@@ -1,11 +1,11 @@
 ---
 title: Get started with the Resource Scheduling Optimization Add-in
 description: Learn how to get up and running quickly with the Resource Scheduling Optimization Add-in for Field Service.
-ms.date: 04/01/2025
+ms.date: 03/31/2026
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
-author: AnilMur
-ms.author: anilmur
+author: andrewclear-ms
+ms.author: anclear
 ---
 
 # Get started with the Resource Scheduling Optimization Add-in
@@ -46,7 +46,7 @@ For this example, if they don't match, go to **Resource Scheduling Optimization*
 
 ## Step 3: Create an optimization scope
 
-[Create an optimization scope](rso-optimization-scope.md) that defines the resources, requirements, or bookings, and the time range to consider for optimization. Make sure you select the resource and requirement views you identified that filter the records you want. In this example, we have a resource view called **WA - Bookable Resources** and a requirement view called **WA - Work Order Requirements**. Select a booking view such as **Active Bookable Resource Bookings**.
+[Create an optimization scope](rso-optimization-scope.md) that defines the resources, requirements, or bookings, and the time range to consider for optimization. Make sure you select the resource and requirement views you identified that filter the records you want. In this example, you have a resource view called **WA - Bookable Resources** and a requirement view called **WA - Work Order Requirements**. Select a booking view such as **Active Bookable Resource Bookings**.
 
 :::image type="content" source="media/rso-quickstart-scope.png" alt-text="Screenshot of an optimization scope.":::
 
@@ -56,7 +56,7 @@ Create an [optimization goal](rso-optimization-goal.md) to define how bookings s
 
 - **Engine Effort Level**: Select **Very Light**, which means that the system completes the run quickly in exchange for accuracy.
 
-- **Constraints**: Start with fewer [constraints](rso-optimization-goal.md#understand-constraints) and add more as you successfully run Resource Scheduling Optimization. This makes it easier to troubleshoot if Resource Scheduling Optimization produces unexpected results. For example:
+- **Constraints**: Start with fewer [constraints](rso-optimization-goal.md#understand-constraints) and add more as you successfully run Resource Scheduling Optimization. This approach makes it easier to troubleshoot if Resource Scheduling Optimization produces unexpected results. For example:
 
   - **Schedule Within Working Hours** if you have working hours defined.
   - **Meets Required Characteristics** if your requirements and resources both have characteristics.
@@ -76,9 +76,9 @@ Combine the scope and goal you created into a [schedule](rso-optimization-schedu
 
 ## Step 6: Run Resource Scheduling Optimization
 
-After the schedue is published, you can manually run Resource Scheduling Optimization by selecting **Run Now** on the optimization schedule.
+After you publish the schedule, you can manually run Resource Scheduling Optimization by selecting **Run Now** on the optimization schedule.
 
-Every time Resource Scheduling Optimization runs, successfully or not, an [optimization request record](rso-optimization-schedule.md#review-optimization-requests) is created.
+Every time Resource Scheduling Optimization runs, it creates an [optimization request record](rso-optimization-schedule.md#review-optimization-requests), whether the run is successful or not.
 
 ## Step 8: Analyze results
 
@@ -86,8 +86,8 @@ Go to **Optimization Request**. When the status of the request is **Completed**,
 
 The system creates a new schedule board tab named after your optimization scope.
 
-A simple example of Resource Scheduling Optimization optimizing travel time is when there's no travel time between two bookings. This means there were two work orders at the same location with the same service account and Resource Scheduling Optimization scheduled them back-to-back.
+A simple example of Resource Scheduling Optimization optimizing travel time is when there's no travel time between two bookings. This condition means two work orders are at the same location with the same service account, and Resource Scheduling Optimization schedules them back-to-back.
 
-On the completed scheduling optimization request in the **Bookings** tab, you'll find a list of bookings created or deleted, and a graph of the total travel time and working time of the optimized bookings.
+On the completed scheduling optimization request in the **Bookings** tab, you see a list of bookings created or deleted, and a graph of the total travel time and working time of the optimized bookings.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -20,7 +20,7 @@ You can import phone numbers that you purchased or acquired earlier via Azure Co
 3. Select **Sync** for **Sync from Azure**. A dialog requesting you to confirm the sync action is displayed.
 4. Select **Sync**.
 
-   After you perform the sync, all the phone numbers that were acquired previously are listed on the **Phone numbers** page with the numbers that have been acquired in Omnichannel for Customer Service.
+   After you perform the sync, all the phone numbers that were acquired previously are listed on the **Phone numbers** page with the numbers that have been acquired in Dynamics 365 Contact Center.
 
 ### Related information
  

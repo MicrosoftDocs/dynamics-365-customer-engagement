@@ -18,24 +18,24 @@ ms.custom: bap-template
 
 Use the information in this article to configure security roles and enable users to perform the various tasks in Customer Service.
 
-## Roles in Omnichannel for Customer Service
+## Roles in Dynamics 365 Contact Center
 
 The Dynamics 365 users can access and perform different functions based on the roles that are assigned to them. The following roles can be assigned individually or in combination based on the tasks that need to be performed:
 
-- **Basic User:** Required by all users of Omnichannel for Customer Service.
-- **Omnichannel administrator:**  Required for performing administrator tasks; also requires the **System Administrator** role to manage user roles and privileges in Omnichannel for Customer Service.
+- **Basic User:** Required by all users of Dynamics 365 Contact Center.
+- **Omnichannel administrator:**  Required for performing administrator tasks; also requires the **System Administrator** role to manage user roles and privileges in Dynamics 365 Contact Center.
 - **Omnichannel supervisor:** Required for performing supervisor tasks.
 - **Omnichannel agent:** Required for performing customer service representative (service representative or representative) tasks.
 - **Productivity tools user:** Required by users of Dynamics 365 Productivity Tools.
 - **Productivity tools administrator:** Required by administrator users of Dynamics 365 Productivity Tools.
-- **App Profile Manager Administrator:** Required for creating and assigning app profiles to users of Customer Service and Omnichannel for Customer Service.
-- **App Profile User:** Required by users of Customer Service and Omnichannel for Customer Service.
+- **App Profile Manager Administrator:** Required for creating and assigning app profiles to users of Customer Service and Dynamics 365 Contact Center.
+- **App Profile User:** Required by users of Customer Service and Dynamics 365 Contact Center.
 
 Ensure that the **Omnichannel API access** role isn't assigned to a supervisor or representative type of user.
 
 Additionally, the **Customer Service Representative** role is required to work with the Case entity.
 
-Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. Learn more in [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles).
+Use the Microsoft 365 admin center to create user accounts for every user who needs access to Dynamics 365 Contact Center. Learn more in [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles).
 
 ## Assign roles to users
 
@@ -53,11 +53,11 @@ Perform the following steps to assign roles to users in the advanced settings ar
 
 5. In the **Manage security roles** dialog, select the security roles that you want to assign to the user, and then select **Save**.
 
-To manage users in Omnichannel for Customer Service, go to [Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md).
+To manage users in Dynamics 365 Contact Center, go to [Manage users in Dynamics 365 Contact Center](../administer/users-user-profiles.md).
 
 ## Understand roles and their privileges
 
-Each role in Omnichannel for Customer Service can perform a set of actions based on the privileges that are listed as follows.
+Each role in Dynamics 365 Contact Center can perform a set of actions based on the privileges that are listed as follows.
 
 | Privileges | Omnichannel administrator | Omnichannel supervisor| Omnichannel agent|Productivity tools user| Productivity tools administrator|
 |---------|---------|-----------|---------|---------|---------|
@@ -134,7 +134,7 @@ The entities and their secret attributes are as follows. Learn more about the en
 ### Related information
 
 [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  
-[Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md)  
+[Manage users in Dynamics 365 Contact Center](../administer/users-user-profiles.md)  
 [Role personas for unified routing](../administer/role-persona-mapping.md)  
 [Guide agents with scripts](../administer/agent-scripts.md)  
 [Automate tasks with macros](../administer/macros.md)  

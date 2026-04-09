@@ -198,7 +198,6 @@ Use the following for help with migration:
 
 - [Knowledge Base Entities](../../customerengagement/on-premises/developer/knowledge-management-entities.md)
 - [KnowledgeArticle Entity](/power-apps/developer/data-platform/reference/entities/knowledgearticle)
-- [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md)
 - [KnowledgeArticleViews Entity](/power-apps/developer/data-platform/reference/entities/knowledgearticleviews)
 - [KnowledgeBaseRecord Entity](/power-apps/developer/data-platform/reference/entities/knowledgebaserecord)
 - [LanguageLocale Entity](/power-apps/developer/data-platform/reference/entities/languagelocale)

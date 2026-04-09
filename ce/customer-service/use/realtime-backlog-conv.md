@@ -4,15 +4,15 @@ description: Learn how to use the Backlog conversation report to monitor convers
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection: 
-ms.date: 09/16/2025
+ms.date: 11/07/2025
 ms.custom: bap-template
 ---
 
 # View and understand the Backlog conversation report in Omnichannel real-time analytics
 
-The Backlog conversation report lists all open, active, and waiting conversations that were created in the last 30 days. It allows you to view persistent chats that are longer than 24 hrs. Learn how to [access the report](intro-realtime-analytics-dashboard.md#access-reports).
+The Backlog conversation report lists all open, active, and waiting conversations that were created in the last 30 days. It allows you to view persistent chats that are longer than 2 hrs. Learn how to [access the report](intro-realtime-analytics-dashboard.md#access-reports).
 
 ## Key metrics
 
@@ -28,6 +28,6 @@ As supervisors, you can assign, transfer, monitor, and force close extended conv
 
 ## Related information
 
-[Manage real-time analytics reports in Omnichannel for Customer Service](../administer/enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service)
+[Manage real-time analytics reports in Omnichannel for Customer Service](../administer/enable-realtime-analytics-dashboard-administrator.md)
 
 [Overview of Omnichannel real-time analytics dashboard](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboard)

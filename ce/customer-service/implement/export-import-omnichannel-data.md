@@ -2,7 +2,7 @@
 title: Export and import app configuration data
 description: Export and import app configuration data for Omnichannel for Customer Service using the Configuration Migration tool.
 ms.date: 04/25/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

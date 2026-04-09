@@ -1,7 +1,7 @@
 ---
 title: Customer Service dashboards
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
-ms.date: 05/14/2025
+ms.date: 01/30/2026
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -18,9 +18,9 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Customer Service dashboards
 
-The insights dashboards for Customer Service contain various charts and metrics to help you understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases and topics that contribute to overall trends.
+The insights dashboards for Customer Service contain various charts and metrics to help you understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases that contribute to overall trends.
 
-The Customer Service dashboards give you a performance summary and detailed reports on cases, customer service representatives (service representatives or representatives), and topics. You can make changes to the visual display of the dashboards and also save your personalized views as bookmarks.
+The Customer Service dashboards give you a performance summary and detailed reports on cases and customer service representatives (service representatives or representatives). You can make changes to the visual display of the dashboards and also save your personalized views as bookmarks.
 
 ## Manage dashboards
 
@@ -32,23 +32,32 @@ The following dashboard reports are available for Customer Service historical an
 
 ### Summary
 
-The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses AI technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume. Learn more in [Summary dashboard](summary-dashboard-cs.md).
+The Summary dashboard gives you a broad overview of the customer service experience in your organization. Learn more in [Summary dashboard](summary-dashboard-cs.md).
 
 ### Agent
 
 The Agent dashboard shows charts and KPIs for individual service representatives and overall representative performance. Learn more in [Agent dashboard](agent-dashboard-cs.md).
 
-### Case Topics
-
-The Case Topics dashboard shows a detailed breakdown of cases and their assigned topics. Learn more in [Topics dashboard](case-topics-dashboard-cs.md).
-
 ## Access the dashboards
 
 [!INCLUDE[cc-navigation](../../includes/cc-navigation-cs.md)]
 
+## Filter information displayed on dashboard 
+
+Use the filters to drill down to KPIs across the dashboard. Adjust the filters based on the insights that you're looking for. The available filters include **Duration**, **Channel**, **Queue**, **Agent**, and **Time zone**. 
+
+Optionally, you can also add the **Business Unit** filter, which provides a consistent way to focus on a single business unit or compare multiple units. This filter can be configured through data model customization or by adjusting the visual under data measure for the dimension **DimBusinessUnit**. The **Business Unit** filter doesn't grant additional access; it simply restricts data visibility based on existing roles and business unit hierarchy. If a user doesn't have security permissions to view a business unit's data, selecting that business unit doesn't display any information.
+
 ## Reports refresh and data retention
 
-Learn more in [Analytics reports refresh and data retention](info-analytics-reports.md#analytics-reports-refresh-and-data-retention).
+The reports refresh shows the following information.
+
+- **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. The **Last updated** timestamp in the report pages indicates when the latest data was included in the report, and the time reflects the time zone set in your user preferences.
+- **Custom refresh:** Isn't available.
+- **Data refresh for inactive environments:** Data refresh is paused for organizations that aren't in use for 30 days. After 60 days of inactivity, the analytics feature is deprovisioned on the organization.
+- **Data retention:** Data is stored for 24 months.
+
+To view the documentation for a report, select the **About this report** link.
 
 ## Supported tables
 
@@ -61,16 +70,13 @@ The following tables are used for Customer Service historical analytics:
 - msfp_surveyresponse
 - msfp_question
 - msfp_questionresponse
-- msdyn_casetopic
-- msdyn_casetopic_incident
-- msdyn_casetopicsetting
 - Queue
 - QueueItem
 - Subject
 - SystemUser
 
 > [!NOTE]
-> A report might be blank if you've customized any of the listed entities or aren't using out-of-the-box entities.
+> A report might be blank if you customized any of the listed entities or aren't using out-of-the-box entities.
 
 ### Related information
 

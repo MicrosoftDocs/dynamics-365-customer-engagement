@@ -1,7 +1,7 @@
 ---
 title: Manage case queues and route cases
-description: Understand cases and SLA in Customer Service Hub for Dynamics 365 Customer Service.
-ms.date: 12/13/2024
+description: Understand cases and SLAs in Dynamics 365 Customer Service.
+ms.date: 01/30/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -26,11 +26,11 @@ To add a case to a queue, perform the following steps:
 
 1. [!INCLUDE[proc_service_cases](../../includes/proc-service-cases.md)]  
 
-2. In the list of cases, select the case that you want to add to a queue.  
+1. In the list of cases, select the case that you want to add to a queue.  
 
-3. On the command bar, select **Add to Queue**.  
+1. On the command bar, select **Add to Queue**.  
 
-5. In the **Queue** field, select the queue that you want to add the case to, and then select **Add**.
+1. In the **Queue** field, select the queue that you want to add the case to, and then select **Add**.
 
    If a case is already added to a queue, the **Queue** field displays the current queue by default. 
 
@@ -40,8 +40,7 @@ To add a case to a queue, perform the following steps:
 
      :::image type="content" source="../media/add-to-queue-display-after.png" alt-text="Screenshot of the lookup displaying only relevant queues" lightbox="../media/add-to-queue-display.png":::
 
-
-6. Select the queue you want to add the case to, and then select **Add**.  
+1. Select the queue you want to add the case to, and then select **Add**.  
 
 To know more about queues, see [Work with queues](work-with-queues.md).
 
@@ -49,16 +48,16 @@ To know more about queues, see [Work with queues](work-with-queues.md).
 
  To save a case record and route it to a queue in a single action, use the **Save & Route** option.  
 
-1.  From the list of cases, open a case record.  
+1. From the list of cases, open a case record.  
 
-2.  Make any changes, and on the command bar, select **Save & Route**.  
+1. Make any changes, and on the command bar, select **Save & Route**.  
 
-3.  In the **Route Case** dialog, select **Route**.  
+1. In the **Route Case** dialog, select **Route**.  
 
      The case will be routed based on the active routing rule set.  
 
     > [!IMPORTANT]
-    >  The **Save & Route** button is available only on active cases.  
+    >  **Save & Route** is available for active cases only.  
 
 ### Related information
 

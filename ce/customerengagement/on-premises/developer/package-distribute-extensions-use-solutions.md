@@ -33,7 +33,7 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], so
   
 ## See also
   
-[Publish your app on AppSource](publish-app-appsource.md)
+[Publish your app on Marketplace](publish-app-appsource.md)
 
 [Create and manage custom business apps in Customer Engagement using code](create-manage-custom-business-apps-using-code.md)  
   

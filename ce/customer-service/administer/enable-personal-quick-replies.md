@@ -1,6 +1,6 @@
 ---
-title: Enable personal quick replies in Omnichannel for Customer Service
-description: Learn how to enable personal quick replies in the representative experience for Omnichannel for Customer Service.
+title: Enable personal quick replies in Dynamics 365 Contact Center
+description: Learn how to enable personal quick replies in the representative experience for Dynamics 365 Contact Center.
 ms.date: 04/28/2025
 ms.topic: how-to
 author: neeranelli

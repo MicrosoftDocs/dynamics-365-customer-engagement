@@ -13,7 +13,7 @@ The base URL is `https://<domain>/main.aspx?pagetype=webresource&webresourceName
 
 ## Create parameters
 
-We'll use the browser console to create the parameters. [Learn more about the Console and DevTools in Microsoft Edge](/microsoft-edge/devtools-guide-chromium/console/).
+Use the browser console to create the parameters. Learn more at: [Console and DevTools in Microsoft Edge](/microsoft-edge/devtools-guide-chromium/console/).
 
 1. Open the console in the browser.
 
@@ -31,7 +31,7 @@ The following parameters open the schedule board in a separate browser window wi
 
 ## Add parameters to a sitemap
 
-You can customize the navigation of a model-driven app in Power Apps. Learn more: [Create a model-driven app site map using the site map designer](/power-apps/maker/model-driven-apps/create-site-map-app).
+You can customize the navigation of a model-driven app in Power Apps. Learn more in [Create a model-driven app site map using the site map designer](/power-apps/maker/model-driven-apps/create-site-map-app).
 
 Use the constructed URL to add a new navigation point or override the schedule board settings path. In the URL field, enter `/main.aspx?pagetype=entitylist&etn=msdyn_scheduleboardsetting` and encoded parameters like `?data=%7B%22map%22%3A%22true%22%2C%22viewmode%22%3A%22daily%22%7D`.
 

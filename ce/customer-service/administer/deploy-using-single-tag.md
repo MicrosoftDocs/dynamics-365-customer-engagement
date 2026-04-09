@@ -170,8 +170,7 @@ To see verbose console logging during rule evaluation, modify your script tag to
 
 ### Related information
 
-[Supported browsers for live chat widget](../implement/system-requirements-omnichannel.md#browsers-for-chat)  
+[Supported browsers for live chat widget](/dynamics365/contact-center/implement/system-requirements-contact-center)  
 [Add a chat widget](add-chat-widget.md)  
 [Embed chat widget in your website or portal](embed-chat-widget-portal.md)  
-[Develop a custom live chat widget](../develop/develop-live-chat-widget.md)   
-
+[Develop a custom live chat widget](../develop/develop-live-chat-widget.md)  

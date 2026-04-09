@@ -62,6 +62,7 @@ The following table lists selected properties for the User settings (msdyn_users
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_callconnectedpingpreference](#BKMK_msdyn_callconnectedpingpreference)
 - [msdyn_defaultcountrycode](#BKMK_msdyn_defaultcountrycode)
 - [msdyn_hidetranscript](#BKMK_msdyn_hidetranscript)
 - [msdyn_name](#BKMK_msdyn_name)
@@ -87,6 +88,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_callconnectedpingpreference"></a> msdyn_callconnectedpingpreference
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Call connected ping preference**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_callconnectedpingpreference`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_msdyn_usersetting_msdyn_callconnectedpingpreference`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_defaultcountrycode"></a> msdyn_defaultcountrycode
 

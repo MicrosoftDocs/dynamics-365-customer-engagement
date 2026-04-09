@@ -16,7 +16,7 @@ ms.custom:
 
 # Activity management FAQs
 
-This article answers frequently asked questions about the Activity management in Dynamics 365 Sales, Sales premium, and Sales professional.
+This article answers frequently asked questions about the Activity management in Dynamics 365 Sales.
 
 ## I'm redirected to the default tab when I save an appointment from a non-default tab. Why?
 

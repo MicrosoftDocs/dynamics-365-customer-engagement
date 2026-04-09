@@ -1,33 +1,33 @@
 ---
 title: Run reports on inspection responses
 description: Learn how to run reports for inspection responses in Dynamics 365 Field Service.
-ms.date: 03/06/2025
+ms.date: 03/19/2026
 ms.topic: how-to
-author: josephshum-msft
-ms.author: jshum
+author: jasonccohen
+ms.author: jacoh
 ---
 
 # Run reports on inspection responses
 
-Create reports or dashboards in Power BI to analyze and act on inspection responses from technicians. Once enabled, all responses entered for an inspection are stored in Microsoft Dataverse and can be parsed into individual question responses.
+Create reports or dashboards in Power BI to analyze and act on inspection responses from technicians. When you enable this feature, the system stores all responses entered for an inspection in Microsoft Dataverse and can parse them into individual question responses.
 
-The questions and responses are saved into the following Dataverse tables:
+The system saves the questions and responses into the following Dataverse tables:
 
 - [Customer Voice survey question (msfp_question)](../developer/reference/entities/msfp_question.md): Each inspection question.
 - [Customer Voice survey response (msfp_surveyresponse)](../developer/reference/entities/msfp_surveyresponse.md): A response to an inspection.
 - [Customer Voice survey question response (msfp_questionresponse)](../developer/reference/entities/msfp_questionresponse.md): Each individual response to each inspection question.
 
-Each image uploaded in inspections is stored as an annotation in the [Inspection Attachment (msdyn_inspectionattachment)](developer/reference/entities/msdyn_inspectionattachment.md) table. Retrieve them using Microsoft Power Automate flows.
+The system stores each image uploaded in inspections as an annotation in the [Inspection Attachment (msdyn_inspectionattachment)](developer/reference/entities/msdyn_inspectionattachment.md) table. You can retrieve these images by using Microsoft Power Automate flows.
 
 ## Prerequisites
 
-- You have admin privileges in Dynamics 365 Field Service
-- You have access to Microsoft Power Apps
-- You have access to Microsoft Power Automate
+- You have admin privileges in Dynamics 365 Field Service.
+- You have access to Microsoft Power Apps.
+- You have access to Microsoft Power Automate.
 
 ## Enable analysis on inspection responses
 
-Configure how often inspection responses are parsed and organized in a Dataverse table.
+Configure how often Field Service parses inspection responses and organizes them in a Dataverse table.
 
 1. In Field Service, change to the **Settings** area.
 1. Go to **Field Service Settings** and select the **Inspection** tab.
@@ -38,26 +38,26 @@ Configure how often inspection responses are parsed and organized in a Dataverse
    - **Immediately**: As soon as an inspection is marked complete.
    - **Custom**: A custom frequency between one and 365 days.
 
-   > [!Note]
-   > When analytics frequency is set to **Immediately**, the inspection response is parsed and persisted as soon as the service task is completed; the parsed responses won't be updated even if the technician makes changes and completes the inspection again. However, if the analytics frequency is set to **Daily** or **Custom**, the responses are stored from the latest completion of the service task *before* the flow start time.
+   > [!NOTE]
+   > When you set the analytics frequency to **Immediately**, Field Service parses and persists the inspection response as soon as the service task is completed. The parsed responses aren't updated even if the technician makes changes and completes the inspection again. However, if you set the analytics frequency to **Daily** or **Custom**, Field Service stores the responses from the latest completion of the service task *before* the flow start time.
 
 ## View inspection questions and responses
 
-Questions on inspections are stored in Dataverse, and can be found in the table in Power Apps.
+Field Service stores questions on inspections in Dataverse. You can find these questions in the table in Power Apps.
 
-1. Sign in to [Power Apps](https://make.powerapps.com/).
+1. Sign in to [Power Apps](https://make.powerapps.com/) and select your environment.
 1. Select **Tables** and then **All**.
-1. Search for and select the table you want to view. For example, **Customer Voice survey response**. This table is empty until an inspection is completed
+1. Search for and select the table you want to view. For example, **Customer Voice survey response**. This table is empty until an inspection is completed.
 
    :::image type="content" source="./media/9-CDS-data-upon-completion.jpg" alt-text="Screenshot of Power Apps, showing the inspection responses in the Customer Voice survey question response table.":::
 
-## View the status of the out-of-the-box inspection flows
+## View the status of the inspection flows
 
 Inspections use Power Automate flows, which are part of the out-of-the-box inspection capability. The following flows are used:
 
-- **Deserialization of Inspection Definition Flow**: This flow is triggered when an inspection is published. It populates inspection questions into the [Customer Voice survey question (msfp_question)](../developer/reference/entities/msfp_question.md) table.
+- **Deserialization of Inspection Definition Flow**: This flow triggers when a technician publishes an inspection. It populates inspection questions into the [Customer Voice survey question (msfp_question)](../developer/reference/entities/msfp_question.md) table.
 - **Deserialization of Inspection Response – Recurrent Flow**: This flow is triggered when the frequency is set to **Daily** or **Custom**. It updates the parsed inspection response JSON into [Customer Voice survey response (msfp_surveyresponse)](../developer/reference/entities/msfp_surveyresponse.md) and creates new records for responses and corresponding questions in the [Customer Voice survey question response (msfp_questionresponse)](../developer/reference/entities/msfp_questionresponse.md) table.
-- **Deserialization of Inspection Response Flow**: This flow takes care of response parsing when frequency is set to **Immediately**.
+- **Deserialization of Inspection Response Flow**: This flow handles response parsing when frequency is set to **Immediately**.
 
 To view the status of the flows, sign in to [Power Automate](https://make.powerautomate.com/), select your Field Service environment, and then select **My flows**. Open one of the flows.
 
@@ -67,8 +67,8 @@ To view the status of the flows, sign in to [Power Automate](https://make.powera
 
 When a technician fills out an inspection, the answers to each inspection question are stored as JSON in the [Inspection Response (msdyn_inspectionresponse)](developer/reference/entities/msdyn_inspectionresponse.md) table. You can use a Power Automate flow to run a workflow on inspection responses. For example, if a technician responds 'Yes' to the inspection question **Is a follow-up required?** then a new follow-up work order service task could be added to the related work order. For more information, watch the video on [running workflows on Inspection responses](https://youtu.be/fCjQmIw9ahs) or go to [Create a cloud flow in Power Automate](/power-automate/get-started-logic-flow).
 
-> [!Note]
-> Out-of-the-box flows cannot be customized. You must create or copy a Power Automate flow in order to customize them.
+> [!NOTE]
+> You can't customize out-of-the-box flows. To customize them, create or copy a Power Automate flow.
 
 [!INCLUDE [footer-banner](../includes/footer-banner.md)]
 

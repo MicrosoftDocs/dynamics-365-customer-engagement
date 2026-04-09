@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Use the generic listener adapter in Unified Service Desk
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides a generic listener adapter that can be used as a testing tool for integrating [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] with the [!INCLUDE[pn_computer_telephony_integration_cti](../includes/pn-computer-telephony-integration-cti.md)] middleware applications that have the ability to open a URL on the user's computer when a [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] event occurs. The generic listener adapter listens for HTTP request on a known port (5000): `http://localhost:5000/`  

@@ -34,7 +34,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_prequeueoverflowrulesetid](#BKMK_msdyn_prequeueoverflowrulesetid)
 - [msdyn_priority](#BKMK_msdyn_priority)
 - [msdyn_processqueueperiodically](#BKMK_msdyn_processqueueperiodically)
+- [msdyn_queueservicelevelthreshold](#BKMK_msdyn_queueservicelevelthreshold)
 - [msdyn_queuetype](#BKMK_msdyn_queuetype)
+- [msdyn_shortabandonedthreshold](#BKMK_msdyn_shortabandonedthreshold)
 - [msdyn_uniquename](#BKMK_msdyn_uniquename)
 
 ### <a name="BKMK_EmailSignature"></a> EmailSignature
@@ -230,6 +232,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Yes|
 |False Label|No|
 
+### <a name="BKMK_msdyn_queueservicelevelthreshold"></a> msdyn_queueservicelevelthreshold
+
+|Property|Value|
+|---|---|
+|Description|**Queue service level threshold in seconds**|
+|DisplayName|**Service level threshold**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_queueservicelevelthreshold`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|82800|
+|MinValue|0|
+
 ### <a name="BKMK_msdyn_queuetype"></a> msdyn_queuetype
 
 |Property|Value|
@@ -250,6 +266,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |192350000|**Messaging**|
 |192350001|**Entity**|
+
+### <a name="BKMK_msdyn_shortabandonedthreshold"></a> msdyn_shortabandonedthreshold
+
+|Property|Value|
+|---|---|
+|Description|**Short abandoned threshold in seconds**|
+|DisplayName|**Short Abandoned Threshold**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_shortabandonedthreshold`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|82800|
+|MinValue|0|
 
 ### <a name="BKMK_msdyn_uniquename"></a> msdyn_uniquename
 

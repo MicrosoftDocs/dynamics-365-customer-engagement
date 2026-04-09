@@ -1,6 +1,6 @@
 ---
 title: Customize the Active Conversation form
-description: Learn how to add or remove custom controls, customize form layout, and add web resources to the Active Conversation form in Omnichannel for Customer Service.
+description: Learn how to add or remove custom controls, customize form layout, and add web resources to the Active Conversation form in Dynamics 365 Contact Center.
 ms.date: 04/23/2025
 author: neeranelli
 ms.author: nenellim
@@ -109,7 +109,6 @@ You can customize the timeline dropdown labels for case, account, and contact by
 
 ### Related information
 
-[Omnichannel system customizers](omnichannel-customizer.md)  
 [Customize the conversation form](customize-session-form.md)  
 [Configure representative and supervisor configurations in Unified Service Desk](../../unified-service-desk/oc-customizer/create-agent-supervisor-configurations-unified-service-desk.md)  
 [Configure notification for representatives](../../unified-service-desk/oc-customizer/configure-notification-screen-pop-agents.md)  

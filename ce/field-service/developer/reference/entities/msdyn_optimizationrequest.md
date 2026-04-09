@@ -78,6 +78,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_Snapshot](#BKMK_msdyn_Snapshot)
 - [msdyn_SuggestedSchedule](#BKMK_msdyn_SuggestedSchedule)
 - [msdyn_UssOptimizationId](#BKMK_msdyn_UssOptimizationId)
+- [msdyn_UssPayloadSnapshot](#BKMK_msdyn_UssPayloadSnapshot)
 - [msdyn_UssSnapshot](#BKMK_msdyn_UssSnapshot)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -333,6 +334,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_ussoptimizationid`|
 |RequiredLevel|ApplicationRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_UssPayloadSnapshot"></a> msdyn_UssPayloadSnapshot
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**USS Payload Snapshot**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_usspayloadsnapshot`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Json|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
 
 ### <a name="BKMK_msdyn_UssSnapshot"></a> msdyn_UssSnapshot
 

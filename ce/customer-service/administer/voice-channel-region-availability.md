@@ -4,8 +4,8 @@ description: Use this article to learn about the supported cloud locations for t
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 09/15/2025
-ms.topic: conceptual
+ms.date: 12/10/2025
+ms.topic: concept-article
 ms.custom: bap-template
 ---
 
@@ -46,7 +46,7 @@ If you need your data to stay within a region, the following table lists the loc
 |Australia| crm6.dynamics.com |Available |Available|
 |United Kingdom **<sup>1</sup>**| crm11.dynamics.com |Available | To be announced|
 |Canada **<sup>1</sup>** |crm3.dynamics.com |Available | To be announced  |
-|South America |To be announced | To be announced|To be announced|
+|Brazil |crm2.dynamics.com | Available|To be announced|
 |France | To be announced | To be announced|To be announced|
 |Germany | To be announced | To be announced|To be announced|
 |United Arab Emirates **<sup>3</sup>**| crm15.dynamics.com | Available |To be announced|
@@ -89,7 +89,7 @@ You can bring your own carrier through Azure direct routing. This feature is sup
 
 In the geographic locations where the voice channel is generally available, Azure direct routing extends general availability support.
 
-The voice channel in Omnichannel for Customer Service doesn't support emergency calling when you use Azure direct routing.
+The voice channel in Dynamics 365 Contact Center doesn't support emergency calling when you use Azure direct routing.
 
 ## Next steps
 
@@ -98,5 +98,5 @@ The voice channel in Omnichannel for Customer Service doesn't support emergency 
 ### Related information
 
 [Overview of the voice channel](voice-channel.md)  
-[FAQ about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  
+[FAQ about the voice channel in Dynamics 365 Contact Center](voice-channel-faqs.md)  
 

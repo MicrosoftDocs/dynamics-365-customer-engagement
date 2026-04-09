@@ -1,6 +1,6 @@
 ---
 title: Manage context variables
-description: Use this article to understand how you can add context variables and then configure them in Omnichannel for Customer Service.
+description: Use this article to understand how you can add context variables and then configure them in Dynamics 365 Contact Center.
 ms.date: 04/21/2025
 ms.topic: how-to
 author: neeranelli
@@ -42,10 +42,10 @@ Learn how to use and send custom context in a conversation in [Send custom conte
 
 ### Related information
 
-[Integrate a Copilot Studio bot](configure-bot-virtual-agent.md)  
-[Integrate an Azure bot](configure-bot-azure.md)  
-[Configure context variables for bots](context-variables-for-bot.md)  
-[Configure bots to escalate and end conversations](../develop/bot-escalate-end-conversation.md)  
-[Best practices for configuring bots](configure-bot-best-practices.md)  
+[Integrate a Copilot Studio agent](configure-bot-virtual-agent.md)  
+[Integrate an Azure agent](configure-bot-azure.md)  
+[Configure context variables for agents](context-variables-for-bot.md)  
+[Configure agents to escalate and end conversations](../develop/bot-escalate-end-conversation.md)  
+[Best practices for configuring agents](configure-bot-best-practices.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

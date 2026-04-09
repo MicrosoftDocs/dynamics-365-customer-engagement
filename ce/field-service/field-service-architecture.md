@@ -34,7 +34,7 @@ Work orders are related to an [**Account** entity](accounts.md). Specifying a **
 
 [**Customer Assets**](assets.md) are pieces of equipment at the service account location. Work orders that are related to the maintenance, inspection, and repair of a customer asset should correlate to the asset's service account.
 
-Beyond adding basic details and an account to a work order, you can add **Revenue and Cost** items that better define the specific work to be done. **Work Order Incidents** are a defined package of recommended service tasks, products, services, and characteristics, or skills, that makes creating a work order faster. Instead of manually adding them to a work order, you can add an incident that effectively serves as a template to populate service tasks, products, services, and skills.
+Beyond adding basic details and an account to a work order, you can add **Revenue and Cost** items that better define the specific work to be done. **Work Order Incidents** are a defined package of recommended service tasks, products, services, and characteristics, or skills, that makes creating a work order faster. Instead of manually adding them to a work order, you can add an incident that effectively serves as a template to populate service tasks, products, services, and characteristics.
 
 Finally, you can define **Time and Resource Preferences**, which specify when a work order should be completed to meet a service agreement.
 

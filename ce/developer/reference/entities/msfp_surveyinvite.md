@@ -101,6 +101,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msfp_invitestatusreason](#BKMK_msfp_invitestatusreason)
 - [msfp_inviteupdateddate](#BKMK_msfp_inviteupdateddate)
 - [msfp_isincentiveEnabled](#BKMK_msfp_isincentiveEnabled)
+- [msfp_longurl](#BKMK_msfp_longurl)
 - [msfp_otherproperties](#BKMK_msfp_otherproperties)
 - [msfp_respondent](#BKMK_msfp_respondent)
 - [msfp_sourcesurveyidentifier](#BKMK_msfp_sourcesurveyidentifier)
@@ -563,7 +564,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Bounce category details for survey invite**|
+|Description|**Invite bounce category**|
 |DisplayName|**Invite bounce category**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -599,7 +600,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Bounce category details for survey invite**|
+|Description|**Bounce  details for survey invite**|
 |DisplayName|**Invite bounce details**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -761,6 +762,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msfp_longurl"></a> msfp_longurl
+
+|Property|Value|
+|---|---|
+|Description|**Long URL for survey invitation.**|
+|DisplayName|**Survey invitation Long URL**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msfp_longurl`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Url|
+|FormatName|Url|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2000|
 
 ### <a name="BKMK_msfp_otherproperties"></a> msfp_otherproperties
 
@@ -2320,6 +2338,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 
 - [CampaignResponse_msfp_surveyinvites](#BKMK_CampaignResponse_msfp_surveyinvites)
 - [msfp_msfp_surveyinvite_msfp_surveyresponse_surveyinviteid](#BKMK_msfp_msfp_surveyinvite_msfp_surveyresponse_surveyinviteid)
+- [msfp_shorturl_inviteid_msfp_surveyinvite](#BKMK_msfp_shorturl_inviteid_msfp_surveyinvite)
 - [msfp_surveyinvite_ActionCards](#BKMK_msfp_surveyinvite_ActionCards)
 - [msfp_surveyinvite_activity_parties](#BKMK_msfp_surveyinvite_activity_parties)
 - [msfp_surveyinvite_Annotations](#BKMK_msfp_surveyinvite_Annotations)
@@ -2357,6 +2376,18 @@ Many-To-One Relationship: [msfp_surveyresponse msfp_msfp_surveyinvite_msfp_surve
 |ReferencedEntityNavigationPropertyName|`msfp_msfp_surveyinvite_msfp_surveyresponse_surveyinviteid`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msfp_shorturl_inviteid_msfp_surveyinvite"></a> msfp_shorturl_inviteid_msfp_surveyinvite
+
+Many-To-One Relationship: [msfp_shorturl msfp_shorturl_inviteid_msfp_surveyinvite](msfp_shorturl.md#BKMK_msfp_shorturl_inviteid_msfp_surveyinvite)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_shorturl`|
+|ReferencingAttribute|`msfp_inviteid`|
+|ReferencedEntityNavigationPropertyName|`msfp_shorturl_inviteid_msfp_surveyinvite`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msfp_surveyinvite_ActionCards"></a> msfp_surveyinvite_ActionCards
 

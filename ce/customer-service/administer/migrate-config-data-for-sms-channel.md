@@ -1,6 +1,6 @@
 ---
 title: Migrate configuration data for SMS channel
-description: Learn to migrate data pertaining to SMS channel from source to target environments in Omnichannel for Customer Service.
+description: Learn to migrate data pertaining to SMS channel from source to target environments in Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
-description: Learn how to configure a Facebook channel and corresponding Facebook pages.
-ms.date: 03/03/2025
+description: Learn how to configure a Facebook channel and corresponding Facebook pages in Dynamics 365 Contact Center.
+ms.date: 03/11/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -34,18 +34,18 @@ Make sure that the following prerequisites are met:
    1. On the **Select an app type** page, select **Business**, and then type your app's name and contact email address.
    1. On the **Add products to your app** page, select **Messenger**, and then select **Set up**.
    1. On the Messenger settings page, select **Add or remove Pages**, and then add the Facebook page you created. After you add the page, the Page ID and the option to generate a token appear.
-- If you're using a test environment, set up test accounts in Facebook so that customer service representatives (service representatives or representatives) can send and receive messages in Omnichannel for Customer Service: Go to **App Roles** > **Roles** > **Testers (Add Testers)**.
+- If you're using a test environment, set up test accounts in Facebook. Then, customer service representatives (service representatives or representatives) can send and receive messages in the contact center: Go to **App Roles** > **Roles** > **Testers (Add Testers)**.
 - Values for application ID and application secret from the **App ID** and **App Secret** fields in the Facebook application > **Settings** > **Basic**.
 
 ## Roles and permissions
 
-The following Facebook roles and permissions are required for integrating your Facebook app with Omnichannel for Customer Service.
+The following Facebook roles and permissions are required for integrating your Facebook app with Dynamics 365 Contact Center.
 
-- Facebook users who don’t have a role in the Facebook app must have the `pages_messaging` permission to send messages to a Facebook page from Omnichannel for Customer Service. The app owner must provide the `pages_messaging` permission for users to be able to send messages. More information: [pages_messaging](https://developers.facebook.com/docs/permissions/reference/pages_messaging/)
+- Facebook users who don’t have a role in the Facebook app must have the `pages_messaging` permission to send messages to a Facebook page from contact center. The app owner must provide the `pages_messaging` permission for users to be able to send messages. More information: [pages_messaging](https://developers.facebook.com/docs/permissions/reference/pages_messaging/)
 
-- If the Facebook app that you’re using is in development mode, only those Facebook users who have roles within the app can send messages to the Facebook page. The messages can be received by or forwarded to Omnichannel for Customer Service. More information: [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/)
+- If the Facebook app that you’re using is in development mode, only Facebook users who have roles within the app can send messages to the Facebook page. The Facebook app can receive messages from or forward messages to Dynamics 365 Contact Center. Learn more in [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/).
 
-- For Omnichannel for Customer Service to be able to retrieve the customer’s username from Facebook, the customer must request for Business Asset User Profile Access in their Facebook app. More information: [Business Asset User Profile Access](https://developers.facebook.com/docs/features-reference/business-asset-user-profile-access)
+- For Dynamics 365 Contact Center to be able to retrieve the customer’s username from Facebook, the customer must request for Business Asset User Profile Access in their Facebook app. Learn more in [Business Asset User Profile Access](https://developers.facebook.com/docs/features-reference/business-asset-user-profile-access).
 - 
 ## Privacy notice
 
@@ -63,7 +63,7 @@ To configure a Facebook channel, the following steps are required:
 
 ### Create the Facebook channel account
 
-1. In the site map of Copilot Service admin center, in **Customer support**, select **Channels**.
+1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**.
 1. In **Accounts**, for **Messaging accounts**, select **Manage**.
 
 1. On the **Accounts and channels** page, select **New account**.
@@ -103,7 +103,7 @@ To configure a Facebook channel, the following steps are required:
    1. On the **Language** page, select the language to use.
    
    1. On the **Behaviors** page, configure the following options:
-      - Custom automated messages
+      - [Custom automated messages](configure-automated-message.md)
       - [Post-conversation survey](configure-post-conversation-survey.md)
    1. On the **User features** page, configure the following options:
       - **File attachments:** When set to yes for both customer and representative, they can send and receive file attachments. Learn more in [Enable file attachments](enable-file-attachments.md). The availability and support of media is dependent on the Facebook application settings. Learn more in [Facebook updates](https://developers.facebook.com/docs/messenger-platform/europe-updates).

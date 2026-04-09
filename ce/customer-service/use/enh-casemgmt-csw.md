@@ -1,18 +1,18 @@
 ---
 title: Enhanced case management in multisession apps
-description: Learn about the enhanced case management in Customer Service multisession apps.
+description: Learn about enhanced case management in Customer Service multisession apps, including faster case creation and streamlined case updates.
 author: gandhamm 
 ms.author: mgandham 
 ms.reviewer: mgandham
 ms.topic: conceptual
-ms.date: 04/30/2025 
+ms.date: 03/26/2026
 ms.custom: bap-template 
 ---
 
 
 # Enhanced case management in multisession apps
 
-The Copilot Service workspace offers an enhanced case management experience. Customer service representatives (service representatives or representatives) can verify and edit customer details without switching tabs, and can update existing cases without interrupting the case creation flow. The enhanced experience also helps prevent case duplication.
+The Copilot Service workspace app offers an enhanced case management experience. Customer service representatives (service representatives or representatives) can verify and edit customer details without switching tabs, update existing cases during case creation, and help prevent case duplication.
 
 ## Create cases by using a quick create from
 
@@ -66,7 +66,8 @@ Depending on the settings that are enabled for you, either the enhanced full cas
    - Specify the customer to display the relevant customer details and recent cases on **Customer Card** and  **Recent cases**.
    - Use **Case Notes** and **Description** to record notes and information related to the case. Use the rich text editor toolbar to format the text in the fields and add images and links. You can also drag files into the description section.
    - In **Attachments**, select **Add Attachment** to upload multiple attachments at once.
-   -  View color coded **Case Status** fields and **Priority** icons.
+   - View color coded **Case Status** fields and **Priority** icons.  
+   [!INCLUDE [cc-case-sentiment-feature](../../includes/cc-case-sentiment-feature.md)]
    - Select **Save and Resolve** at the top of the form to save the case and initiate the case resolution process.
     
      :::image type="content" source="../media/enh-case-newcase-mini.png" alt-text="Screenshot of the enhanced full case form." lightbox="../media/enh-case-newcase.png":::
@@ -75,7 +76,8 @@ Depending on the settings that are enabled for you, either the enhanced full cas
     
    On the **Case for Multisession experience** form, which is the default case form for Copilot Service workspace, you can do the following: 
 
-   - See color coded **Case Status** fields and **Priority** icons.
+   - See color coded **Case Status** fields and **Priority** icons.  
+   [!INCLUDE [cc-case-sentiment-feature](../../includes/cc-case-sentiment-feature.md)]
    - See the **Attachment** tab. The attachment tab displays the attachments that are linked to the case. You can upload attachments from this tab only if your administrator configured the attachment control.
    - **Activities Due** section. When the case is saved, the section displays links to the activities that are associated with the case, and are due or overdue on the current date. Select a link to view the activities in the **Due Activities** view.
    - **Queue item details**. Once you save the case and route the case to a queue, this field displays the current queue the case belongs to and the **Worked by** field
@@ -111,7 +113,7 @@ If you save the case by using the enhanced full case form, the application displ
 
 ## View customer details and recent cases
 
-When you create a new case and specify a customer or an account, or open a case after you save it, the application displays the following details, based on your administrator's configurations:
+When you create a new case and specify a customer or an account, or open a case after saving it, the application displays the following details based on your administrator’s configuration:
 
 - **Customer Details**: Displays the customer details configured by your administrator. You can edit the information inline, copy the information, and initiate activities such as email or a phone call. The activities open as a new quick create form on the main page.
 - **Recent Cases**: Displays the recent cases that are linked to the customer or account. More information: [Configure components to display customer details and recent records](../administer/add-display-components-to-case-form.md).

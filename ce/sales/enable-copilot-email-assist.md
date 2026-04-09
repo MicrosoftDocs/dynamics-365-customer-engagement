@@ -7,7 +7,7 @@ ms.reviewer: udag
 ms.topic: how-to 
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot 
-ms.date: 04/30/2025
+ms.date: 01/20/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ---
@@ -19,14 +19,14 @@ The Copilot for email assist feature helps sellers to generate content for email
 > [!NOTE]
 >
 > - Copilot email assist is supported only for lead and opportunity records through the Dynamics 365 email. For more information about email experience, see [Understand the email experience](/power-apps/user/view-create-email).
-> - Copilot email assist doesn’t require Microsoft 365 Copilot for Sales license.
+> - Copilot email assist doesn't require Microsoft 365 Copilot license.
 
 ## Enable the Copilot email assist feature
 
 1. Sign into [Power Apps](https://make.powerapps.com/).
 1. On the left pane, select **Apps**, and then select your app.
 1. Select **Settings**.
-1. In the **Settings** page, select **Features**.
+1. On the **Settings** page, select **Features**.
 1. Set the **Contextual email drafting with AI** toggle to **Yes**.
 1. Save and publish the app.
 

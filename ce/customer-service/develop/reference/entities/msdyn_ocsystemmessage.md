@@ -1,6 +1,6 @@
 ---
-title: "Message (msdyn_ocsystemmessage) table/entity reference (Microsoft Dynamics 365 Customer Service)"
-description: "Includes schema information and supported messages for the Message (msdyn_ocsystemmessage) table/entity with Microsoft Dynamics 365 Customer Service."
+title: "Automated Message (msdyn_ocsystemmessage) table/entity reference (Microsoft Dynamics 365 Customer Service)"
+description: "Includes schema information and supported messages for the Automated Message (msdyn_ocsystemmessage) table/entity with Microsoft Dynamics 365 Customer Service."
 ms.topic: generated-reference
 author: gandhamm
 ms.author: mgandham
@@ -8,12 +8,12 @@ search.audienceType:
   - developer
 ---
 
-# Message (msdyn_ocsystemmessage) table/entity reference (Microsoft Dynamics 365 Customer Service)
+# Automated Message (msdyn_ocsystemmessage) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
 Stores the system messages sent to the message receiver for various events.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service Message (msdyn_ocsystemmessage) table extends the [Microsoft Dynamics 365 Message (msdyn_ocsystemmessage) table](/dynamics365/developer/reference/entities/msdyn_ocsystemmessage).
+> The Microsoft Dynamics 365 Customer Service Automated Message (msdyn_ocsystemmessage) table extends the [Microsoft Dynamics 365 Automated Message (msdyn_ocsystemmessage) table](/dynamics365/developer/reference/entities/msdyn_ocsystemmessage).
 
 
 
@@ -97,6 +97,8 @@ Changes from [msdyn_systemmessageeventtype (Microsoft Dynamics 365)](/dynamics36
 |192360020|**Consult to queue or user group failed due to out of operating hours**|
 |192360021|**Consult with queue or user group is cancelled**|
 |192360022|**No service representatives found for consult with queue or user group**|
+|192370004|**Agent on hold**|
+|192370005|**Agent is no longer on hold**|
 
 ## Many-to-One relationships
 

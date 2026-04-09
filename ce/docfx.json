@@ -3,6 +3,7 @@
     "content": [
       {
         "group": "ce-all",
+        "src": ".",
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -23,6 +24,7 @@
       },
       {
         "group": "op-all",
+        "src": ".",
         "files": [
           "customerengagement/on-premises/**/*.md",
           "customerengagement/on-premises/**/*.yml"
@@ -37,6 +39,7 @@
       },
       {
         "group": "usd-all",
+        "src": ".",
         "files": [
           "unified-service-desk/**/*.md",
           "unified-service-desk/**/*.yml"
@@ -53,6 +56,7 @@
     "resource": [
       {
         "group": "ce-all",
+        "src": ".",
         "files": [
           "**/*.png",
           "**/*.jpg",
@@ -75,6 +79,7 @@
       },
       {
         "group": "op-all",
+        "src": ".",
         "files": [
           "customerengagement/on-premises/**/*.png",
           "customerengagement/on-premises/**/*.jpg",
@@ -94,6 +99,7 @@
       },
       {
         "group": "usd-all",
+        "src": ".",
         "files": [
           "unified-service-desk/**/*.png",
           "unified-service-desk/**/*.jpg",
@@ -151,7 +157,7 @@
       },
       "ms.service": {
         "mobile-app/**.*": "d365ce-op",
-        "legal/**.*": "dynamics-365-cross-app",
+        "legal/**.*": "dynamics-365",
         "outlook-addin/**.*": "d365ce-op",
         "outlook-app/**.*": "dynamics-365-outlook-app",
         "app-profile-manager/**.*": "dynamics-365-customer-service",
@@ -168,7 +174,7 @@
         "teams-integration/**.*": "dynamics-365",
         "admin/**.*": "d365ce-op",
         "customerengagement/**.*": "d365ce-op",
-        "developer/**.*": "dynamics-365-cross-app"
+        "developer/**.*": "dynamics-365"
       },
       "ms.prod": {
       },
@@ -177,18 +183,15 @@
         "customerengagement/**.*": "12/13/2024",
         "developer/reference/entities/*.md" : "08/29/2025",
         "field-service/developer/reference/entities/*.md" : "08/29/2025",
-        "sales/developer/entities/*.md" : "08/29/2025",
+        "sales/developer/entities/*.md" : "02/23/2026",
         "customer-service/develop/reference/entities/*.md" : "08/29/2025"
       },
-      "ms.custom": {
-        "unified-service-desk/**.*": "evergreen"
-      },
       "ms.update-cycle": {
-        "unified-service-desk/**.*": "1095-days"
+        "unified-service-desk/**.*": "1095-days",
+        "customerengagement/**.*": "3650-days"
       },
       "ms.subservice": {
         "channel-integration-framework/**.*": "channel-integration-framework",
-        "sales/sales-mobile/**.*": "d365-sales-mobile",
         "sales/teams-integration/**.*": "d365-sales-teams",
         "teams-integration/**.*": "dynamics-365-teams",
         "unified-service-desk/**.*": "unified-service-desk"

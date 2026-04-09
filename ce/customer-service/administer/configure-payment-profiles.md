@@ -1,6 +1,6 @@
 ---
 title: Configure payment profiles
-description: Learn how to configure payment profiles in Omnichannel for Customer Service.
+description: Learn how to configure payment profiles in Dynamics 365 Contact Center.
 ms.date: 05/20/2025
 ms.topic: how-to
 author: lalexms

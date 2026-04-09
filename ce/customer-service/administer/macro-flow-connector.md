@@ -4,7 +4,7 @@ description: Learn how to use flow connector to create macros.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection: 
 ms.date: 05/15/2025
 ms.custom: bap-template 
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-Flow connectors allow you to trigger Power Automate flows. You can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service and Copilot Service workspace.
+Flow connectors allow you to trigger Power Automate flows. You can use the actions any number of times across different macros to automate and perform operations related to Copilot Service workspace.
 
 ## Power Automate flow permissions
 

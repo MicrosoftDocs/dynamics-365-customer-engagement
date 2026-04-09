@@ -1,11 +1,11 @@
 ---
 title: Customizations supported by the Conversation table and form
-description: Learn about the customizations that you can and can't use with the Conversation table and form in Omnichannel for Customer Service.
+description: Learn about the customizations that you can and can't use with the Conversation table and form in Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 01/13/2025
+ms.date: 02/19/2026
 ms.custom: bap-template
 ---
 # Customizations supported by the Conversation table and form

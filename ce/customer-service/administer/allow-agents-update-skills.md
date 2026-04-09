@@ -20,7 +20,7 @@ By default, skill-based routing is enabled. You can create skills to attach to c
 
 ## Prerequisite
 
-To ensure that the skill control is loaded and displayed properly for the routed records, you must [allow access to these websites](../implement/system-requirements-omnichannel.md#allow-access-to-websites).
+To ensure that the skill control is loaded and displayed properly for the routed records, you must [allow access to these websites](/dynamics365/contact-center/implement/system-requirements-contact-center#allow-access-to-websites).
 
 ## Enable representatives to update skills at runtime
 

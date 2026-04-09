@@ -15,7 +15,7 @@ Dynamics 365 Channel Integration Framework is an application (solution) that's a
 organizations that have Dynamics 365 Customer Service.
 
 > [!NOTE] 
-> Installing Channel Integration Framework from the Microsoft AppSource is no longer supported and is only available on organizations with Dynamics 365 Customer Service. See: [Create and manage environments in the Power Platform admin center](/power-platform/admin/create-environment#create-an-environment-and-add-model-driven-apps).
+> Installing Channel Integration Framework from the Microsoft Marketplace is no longer supported and is only available on organizations with Dynamics 365 Customer Service. See: [Create and manage environments in the Power Platform admin center](/power-platform/admin/create-environment#create-an-environment-and-add-model-driven-apps).
 
 
 ## Prerequisites

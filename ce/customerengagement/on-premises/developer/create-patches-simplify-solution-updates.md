@@ -118,7 +118,7 @@ If you add an entity to a solution and export the solution, the entity and all o
  [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)   
  [Solution Entity](entities/solution.md)   
  [Maintain Managed Solutions](maintain-managed-solutions.md)   
- [Publish your app on AppSource](publish-app-appsource.md)
+ [Publish your app on Marketplace](publish-app-appsource.md)
  
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -61,7 +61,7 @@ You can use the following predefined automation actions to create macros:
 
 - [Session connector](macros-session-action.md): Provides actions to perform session-related operations. You can use these actions to get the ID of a tab, refresh a tab, pass the tab ID, set focus to a tab based on the tab ID, open a tab template, and refresh session context.
 
-- [Omnichannel connector](macros-omnichannel-action.md): Provides actions to perform Omnichannel for Customer Service&ndash;related operations. Omnichannel connector macros allow you to link and unlink records to conversations.
+- [Omnichannel connector](macros-omnichannel-action.md): Provides actions to perform Dynamics 365 Contact Center&ndash;related operations. Omnichannel connector macros allow you to link and unlink records to conversations.
 
 - [Flow connector](macro-flow-connector.md): Allows you to trigger a Power Automate flow.
 

@@ -1,7 +1,7 @@
 ---
 title: Copilot Service admin center
 description: Get started with Copilot Service admin center to configure the various features and settings in Customer Service.
-ms.date: 12/13/2024
+ms.date: 02/19/2026
 ms.topic: concept-article
 ms.collection: get-started
 author: neeranelli
@@ -28,7 +28,7 @@ The features include:
 
 - Landing pages per feature with an overview of all the capabilities.
 
-- The site map adapts to the capabilities that are provisioned. Based in core Customer Service, if Omnichannel for Customer Service is provisioned, then other features are automatically available.
+- The site map adapts to the capabilities that are provisioned. Based in core Customer Service, if Dynamics 365 Contact Center is provisioned, then other features are automatically available.
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=1a9dd7f8-3c00-46c9-bda3-b567b5651f71]
 
@@ -50,7 +50,7 @@ Also, to create a shared mailbox, you need the Microsoft 365 tenant admin privil
 
 If you use custom roles, you must make sure that you have the appropriate permissions corresponding to the feature you want to configure.
 
-More information: [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
+More information: [Assign roles and enable users for Dynamics 365 Contact Center](add-users-assign-roles.md)
 
 ## Access the app
 
@@ -121,7 +121,7 @@ Use the search option on the **Search admin settings** page to quickly list the 
 
 ### FAQ
 
-See the [FAQ about Copilot Service admin center](../administer/faq-customer-service-admin-center.md) for any questions that you might have.
+Go to the [FAQ about Copilot Service admin center](../administer/faq-customer-service-admin-center.md) for any questions that you might have.
 
 ### Related information
 

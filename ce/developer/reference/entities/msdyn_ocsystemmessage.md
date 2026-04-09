@@ -1,6 +1,6 @@
 ---
-title: "Message (msdyn_ocsystemmessage) table/entity reference (Microsoft Dynamics 365)"
-description: "Includes schema information and supported messages for the Message (msdyn_ocsystemmessage) table/entity with Microsoft Dynamics 365."
+title: "Automated Message (msdyn_ocsystemmessage) table/entity reference (Microsoft Dynamics 365)"
+description: "Includes schema information and supported messages for the Automated Message (msdyn_ocsystemmessage) table/entity with Microsoft Dynamics 365."
 ms.topic: generated-reference
 author: JimDaly
 ms.author: jdaly
@@ -8,13 +8,13 @@ search.audienceType:
   - developer
 ---
 
-# Message (msdyn_ocsystemmessage) table/entity reference (Microsoft Dynamics 365)
+# Automated Message (msdyn_ocsystemmessage) table/entity reference (Microsoft Dynamics 365)
 
 Stores the system messages sent to the message receiver for various events.
 
 ## Messages
 
-The following table lists the messages for the Message (msdyn_ocsystemmessage) table.
+The following table lists the messages for the Automated Message (msdyn_ocsystemmessage) table.
 Messages represent operations that can be performed on the table. They may also be events.
 
 | Name <br />Is Event? |Web API Operation |SDK for .NET |
@@ -41,12 +41,12 @@ Messages represent operations that can be performed on the table. They may also 
 
 ## Properties
 
-The following table lists selected properties for the Message (msdyn_ocsystemmessage) table.
+The following table lists selected properties for the Automated Message (msdyn_ocsystemmessage) table.
 
 |Property|Value|
 | --- | --- |
-| **DisplayName** | **Message** |
-| **DisplayCollectionName** | **Messages** |
+| **DisplayName** | **Automated Message** |
+| **DisplayCollectionName** | **Automated Messages** |
 | **SchemaName** | `msdyn_ocsystemmessage` |
 | **CollectionSchemaName** | `msdyn_ocsystemmessages` |
 | **EntitySetName** | `msdyn_ocsystemmessages`|
@@ -64,13 +64,16 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_defaultlanguage](#BKMK_msdyn_defaultlanguage)
 - [msdyn_instanceid](#BKMK_msdyn_instanceid)
+- [msdyn_isrecurring](#BKMK_msdyn_isrecurring)
 - [msdyn_messagedescription](#BKMK_msdyn_messagedescription)
+- [msdyn_messageinterval](#BKMK_msdyn_messageinterval)
 - [msdyn_messagereceiver](#BKMK_msdyn_messagereceiver)
 - [msdyn_messagetemplatetrigger](#BKMK_msdyn_messagetemplatetrigger)
 - [msdyn_messagetext](#BKMK_msdyn_messagetext)
 - [msdyn_messagetype](#BKMK_msdyn_messagetype)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_ocsystemmessageId](#BKMK_msdyn_ocsystemmessageId)
+- [msdyn_repeatcount](#BKMK_msdyn_repeatcount)
 - [msdyn_streamsource](#BKMK_msdyn_streamsource)
 - [msdyn_systemmessageeventtype](#BKMK_msdyn_systemmessageeventtype)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -123,6 +126,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|2000|
 
+### <a name="BKMK_msdyn_isrecurring"></a> msdyn_isrecurring
+
+|Property|Value|
+|---|---|
+|Description|**Indicates if the system message is recurring.**|
+|DisplayName|**Is Recurring**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isrecurring`|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_ocsystemmessage_msdyn_isrecurring`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_messagedescription"></a> msdyn_messagedescription
 
 |Property|Value|
@@ -139,6 +158,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|2000|
+
+### <a name="BKMK_msdyn_messageinterval"></a> msdyn_messageinterval
+
+|Property|Value|
+|---|---|
+|Description|**The interval for the system message**|
+|DisplayName|**Message Interval**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_messageinterval`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|900|
+|MinValue|1|
 
 ### <a name="BKMK_msdyn_messagereceiver"></a> msdyn_messagereceiver
 
@@ -185,8 +218,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Text sent to the message receiver.**|
-|DisplayName|**Message Text**|
+|Description|**Automated Message sent to the message receiver.**|
+|DisplayName|**Automated Message**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_messagetext`|
@@ -228,7 +261,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_name`|
-|RequiredLevel|None|
+|RequiredLevel|ApplicationRequired|
 |Type|String|
 |Format|Text|
 |FormatName|Text|
@@ -248,12 +281,26 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
+### <a name="BKMK_msdyn_repeatcount"></a> msdyn_repeatcount
+
+|Property|Value|
+|---|---|
+|Description|**The repeat count for this system message**|
+|DisplayName|**Repeat Count**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_repeatcount`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|900|
+|MinValue|1|
+
 ### <a name="BKMK_msdyn_streamsource"></a> msdyn_streamsource
 
 |Property|Value|
 |---|---|
-|Description|**List of all available channels.**|
-|DisplayName|**Channel**|
+|Description|**List of all available Channel Type.**|
+|DisplayName|**Channel Type**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_streamsource`|
@@ -362,6 +409,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350078|**Consult request failed due to system failure**|
 |192350079|**Consult to queue or user group failed due to out of operating hours**|
 |192370001|**Customer's message couldn't be sent: Service is down.**|
+|192370002|**Please wait a moment to give us feedback about your experience..**|
+|192370003|**This survey has timed out. To start a new conversation, reopen this chat window.**|
+|192370004|**Estimated wait time notification.**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
@@ -788,6 +838,24 @@ Many-To-One Relationship: [syncerror msdyn_ocsystemmessage_SyncErrors](syncerror
 |ReferencedEntityNavigationPropertyName|`msdyn_ocsystemmessage_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+
+## Many-to-Many relationships
+
+These relationships are many-to-many. Listed by **SchemaName**.
+
+### <a name="BKMK_msdyn_msdyn_channelprofile_msdyn_ocsystemmessage"></a> msdyn_msdyn_channelprofile_msdyn_ocsystemmessage
+
+See [msdyn_channelprofile msdyn_msdyn_channelprofile_msdyn_ocsystemmessage Many-To-Many Relationship](msdyn_channelprofile.md#BKMK_msdyn_msdyn_channelprofile_msdyn_ocsystemmessage)
+
+|Property|Value|
+|---|---|
+|IntersectEntityName|`msdyn_channelprofile_msdyn_ocsystemmess`|
+|IsCustomizable|True|
+|SchemaName|`msdyn_msdyn_channelprofile_msdyn_ocsystemmessage`|
+|IntersectAttribute|`msdyn_ocsystemmessageid`|
+|NavigationPropertyName|`msdyn_msdyn_channelprofile_msdyn_ocsystemmessage`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

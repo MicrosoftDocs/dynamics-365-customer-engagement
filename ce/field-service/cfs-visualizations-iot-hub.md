@@ -3,6 +3,7 @@ title: Visualize IoT device readings
 description: Learn how to better understand the state of a device and its repair history with visualized device readings in Connected Field Service.
 ms.date: 07/04/2024
 ms.subservice: connected-field-service
+ms.update-cycle: 1095-days
 ms.topic: how-to
 ms.custom: bap-template
 ms.author: vhorvath

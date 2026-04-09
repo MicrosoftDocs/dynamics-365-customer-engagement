@@ -77,6 +77,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msfp_embedcode](#BKMK_msfp_embedcode)
 - [msfp_enddate](#BKMK_msfp_enddate)
 - [msfp_friendlyname](#BKMK_msfp_friendlyname)
+- [msfp_latestsurveyidentifier](#BKMK_msfp_latestsurveyidentifier)
 - [msfp_name](#BKMK_msfp_name)
 - [msfp_otherproperties](#BKMK_msfp_otherproperties)
 - [msfp_PermanentID](#BKMK_msfp_PermanentID)
@@ -89,6 +90,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msfp_startdate](#BKMK_msfp_startdate)
 - [msfp_surveyId](#BKMK_msfp_surveyId)
 - [msfp_surveysource](#BKMK_msfp_surveysource)
+- [msfp_surveytableid](#BKMK_msfp_surveytableid)
 - [msfp_surveyurl](#BKMK_msfp_surveyurl)
 - [msfp_variables](#BKMK_msfp_variables)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -269,6 +271,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|400|
+
+### <a name="BKMK_msfp_latestsurveyidentifier"></a> msfp_latestsurveyidentifier
+
+|Property|Value|
+|---|---|
+|Description|**Latest identifier for the survey.**|
+|DisplayName|**Latest survey identifier**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msfp_latestsurveyidentifier`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|200|
 
 ### <a name="BKMK_msfp_name"></a> msfp_name
 
@@ -453,6 +472,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msfp_surveysource`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msfp_surveytableid"></a> msfp_surveytableid
+
+|Property|Value|
+|---|---|
+|Description|**Customer Voice Survey Table Id**|
+|DisplayName|**Survey Table Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msfp_surveytableid`|
 |RequiredLevel|None|
 |Type|String|
 |Format|Text|
@@ -973,12 +1009,15 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msfp_msfp_survey_msfp_surveyinvite_surveyid](#BKMK_msfp_msfp_survey_msfp_surveyinvite_surveyid)
 - [msfp_msfp_survey_msfp_surveyreminder_survey](#BKMK_msfp_msfp_survey_msfp_surveyreminder_survey)
 - [msfp_msfp_survey_msfp_surveyresponse_surveyid](#BKMK_msfp_msfp_survey_msfp_surveyresponse_surveyid)
+- [msfp_satisfactionmetricsurveymapping_surveyid_msfp_survey](#BKMK_msfp_satisfactionmetricsurveymapping_surveyid_msfp_survey)
+- [msfp_shorturl_surveyid_msfp_survey](#BKMK_msfp_shorturl_surveyid_msfp_survey)
 - [msfp_survey_AsyncOperations](#BKMK_msfp_survey_AsyncOperations)
 - [msfp_survey_BulkDeleteFailures](#BKMK_msfp_survey_BulkDeleteFailures)
 - [msfp_survey_MailboxTrackingFolders](#BKMK_msfp_survey_MailboxTrackingFolders)
 - [msfp_survey_PrincipalObjectAttributeAccesses](#BKMK_msfp_survey_PrincipalObjectAttributeAccesses)
 - [msfp_survey_ProcessSession](#BKMK_msfp_survey_ProcessSession)
 - [msfp_survey_SyncErrors](#BKMK_msfp_survey_SyncErrors)
+- [msfp_surveyinvitesummary_surveyid_msfp_survey](#BKMK_msfp_surveyinvitesummary_surveyid_msfp_survey)
 
 ### <a name="BKMK_msdyn_msfp_survey_msdyn_surveysetting_survey"></a> msdyn_msfp_survey_msdyn_surveysetting_survey
 
@@ -1076,6 +1115,30 @@ Many-To-One Relationship: [msfp_surveyresponse msfp_msfp_survey_msfp_surveyrespo
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msfp_satisfactionmetricsurveymapping_surveyid_msfp_survey"></a> msfp_satisfactionmetricsurveymapping_surveyid_msfp_survey
+
+Many-To-One Relationship: [msfp_satisfactionmetricsurveymapping msfp_satisfactionmetricsurveymapping_surveyid_msfp_survey](msfp_satisfactionmetricsurveymapping.md#BKMK_msfp_satisfactionmetricsurveymapping_surveyid_msfp_survey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_satisfactionmetricsurveymapping`|
+|ReferencingAttribute|`msfp_surveyid`|
+|ReferencedEntityNavigationPropertyName|`msfp_satisfactionmetricsurveymapping_surveyid_msfp_survey`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msfp_shorturl_surveyid_msfp_survey"></a> msfp_shorturl_surveyid_msfp_survey
+
+Many-To-One Relationship: [msfp_shorturl msfp_shorturl_surveyid_msfp_survey](msfp_shorturl.md#BKMK_msfp_shorturl_surveyid_msfp_survey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_shorturl`|
+|ReferencingAttribute|`msfp_surveyid`|
+|ReferencedEntityNavigationPropertyName|`msfp_shorturl_surveyid_msfp_survey`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msfp_survey_AsyncOperations"></a> msfp_survey_AsyncOperations
 
 Many-To-One Relationship: [asyncoperation msfp_survey_AsyncOperations](asyncoperation.md#BKMK_msfp_survey_AsyncOperations)
@@ -1147,6 +1210,18 @@ Many-To-One Relationship: [syncerror msfp_survey_SyncErrors](syncerror.md#BKMK_m
 |ReferencedEntityNavigationPropertyName|`msfp_survey_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msfp_surveyinvitesummary_surveyid_msfp_survey"></a> msfp_surveyinvitesummary_surveyid_msfp_survey
+
+Many-To-One Relationship: [msfp_surveyinvitesummary msfp_surveyinvitesummary_surveyid_msfp_survey](msfp_surveyinvitesummary.md#BKMK_msfp_surveyinvitesummary_surveyid_msfp_survey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_surveyinvitesummary`|
+|ReferencingAttribute|`msfp_surveyid`|
+|ReferencedEntityNavigationPropertyName|`msfp_surveyinvitesummary_surveyid_msfp_survey`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

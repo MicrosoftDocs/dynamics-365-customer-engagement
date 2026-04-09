@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # AnchorElement
 `<AnchorElement>` element is one of the binding elements of the WebDDA.  

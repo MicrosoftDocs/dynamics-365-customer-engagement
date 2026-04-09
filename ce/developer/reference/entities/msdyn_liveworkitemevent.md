@@ -589,7 +589,7 @@ One-To-Many Relationship: [msdyn_ocliveworkitem msdyn_ocliveworkitem_msdyn_livew
 |ReferencingAttribute|`msdyn_liveworkitemid`|
 |ReferencingEntityNavigationPropertyName|`msdyn_liveworkitemid`|
 |IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_owner_msdyn_liveworkitemevent"></a> owner_msdyn_liveworkitemevent
 

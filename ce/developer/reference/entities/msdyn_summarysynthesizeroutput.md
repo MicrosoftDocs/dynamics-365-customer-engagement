@@ -1,6 +1,6 @@
 ---
-title: "summarysynthesizeroutput (msdyn_summarysynthesizeroutput) table/entity reference (Microsoft Dynamics 365)"
-description: "Includes schema information and supported messages for the summarysynthesizeroutput (msdyn_summarysynthesizeroutput) table/entity with Microsoft Dynamics 365."
+title: "summarysynthesizeroutput (Deprecated) (msdyn_summarysynthesizeroutput) table/entity reference (Microsoft Dynamics 365)"
+description: "Includes schema information and supported messages for the summarysynthesizeroutput (Deprecated) (msdyn_summarysynthesizeroutput) table/entity with Microsoft Dynamics 365."
 ms.topic: generated-reference
 author: JimDaly
 ms.author: jdaly
@@ -8,13 +8,13 @@ search.audienceType:
   - developer
 ---
 
-# summarysynthesizeroutput (msdyn_summarysynthesizeroutput) table/entity reference (Microsoft Dynamics 365)
+# summarysynthesizeroutput (Deprecated) (msdyn_summarysynthesizeroutput) table/entity reference (Microsoft Dynamics 365)
 
 
 
 ## Messages
 
-The following table lists the messages for the summarysynthesizeroutput (msdyn_summarysynthesizeroutput) table.
+The following table lists the messages for the summarysynthesizeroutput (Deprecated) (msdyn_summarysynthesizeroutput) table.
 Messages represent operations that can be performed on the table. They may also be events.
 
 | Name <br />Is Event? |Web API Operation |SDK for .NET |
@@ -47,11 +47,11 @@ Messages represent operations that can be performed on the table. They may also 
 
 ## Properties
 
-The following table lists selected properties for the summarysynthesizeroutput (msdyn_summarysynthesizeroutput) table.
+The following table lists selected properties for the summarysynthesizeroutput (Deprecated) (msdyn_summarysynthesizeroutput) table.
 
 |Property|Value|
 | --- | --- |
-| **DisplayName** | **summarysynthesizeroutput** |
+| **DisplayName** | **summarysynthesizeroutput (Deprecated)** |
 | **DisplayCollectionName** | **summarysynthesizeroutputs** |
 | **SchemaName** | `msdyn_summarysynthesizeroutput` |
 | **CollectionSchemaName** | `msdyn_summarysynthesizeroutputs` |

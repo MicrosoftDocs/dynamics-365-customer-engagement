@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 07/17/2025
+ms.date: 01/19/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -17,7 +17,7 @@ ms.custom: bap-template
 
 Intent-based routing is an advanced approach that uses generative AI to enhance the efficiency and accuracy of routing customer interactions. By capturing customer intents from incoming conversations and mapping them to appropriate solutions, intent-based routing makes sure that customer queries are directed to the most suitable service representatives. This method allows for a more dynamic and responsive customer service experience, moving beyond traditional static routing rules. The system organizes intents into intent groups. The intent groups are then mapped to user groups with the necessary expertise to address the specific intents.
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Prerequisites
 

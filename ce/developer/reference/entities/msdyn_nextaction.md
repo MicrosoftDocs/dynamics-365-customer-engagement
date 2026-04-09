@@ -126,12 +126,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |---|---|
-|100000000|**KnowledgeArticleDraftReview**|
-|100000001|**ResolveCase**|
-|100000002|**EmailFollowup**|
-|100000003|**ReplyToCustomer**|
-|100000004|**GatherIntentDetails**|
-|100000005|**SuggestResolution**|
+|100000000|**Propose a knowledge article**|
+|100000001|**Resolve case**|
+|100000002|**Send next follow-up**|
+|100000003|**Reply to customer**|
+|100000004|**Reply to customer**|
+|100000005|**Suggest a resolution**|
 
 ### <a name="BKMK_msdyn_isfullautonomous"></a> msdyn_isfullautonomous
 

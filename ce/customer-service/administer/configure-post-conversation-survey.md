@@ -46,7 +46,7 @@ For the Live chat channel only, you can configure the survey link or survey ques
 
 ## Prerequisite
 
-The post-conversation survey uses Dynamics 365 Customer Voice to create surveys. Make sure that you have access to create surveys in Dynamics 365 Customer Voice in the same org as Omnichannel for Customer Service, and you created the required survey. The survey that you create is listed as an option to choose for linking to the conversation. Learn more in [Create surveys with Dynamics 365 Customer Voice](/dynamics365/customer-voice/create-survey).
+The post-conversation survey uses Dynamics 365 Customer Voice to create surveys. Make sure that you have access to create surveys in Dynamics 365 Customer Voice in the same org as Dynamics 365 Contact Center, and you created the required survey. The survey that you create is listed as an option to choose for linking to the conversation. Learn more in [Create surveys with Dynamics 365 Customer Voice](/dynamics365/customer-voice/create-survey).
 
 ## Configure the post-conversation survey
 
@@ -81,7 +81,7 @@ If the post-conversation survey is enabled for a conversation, after the convers
 
 For Live chat conversations, customers can receive survey questions within the same conversation or through a link that takes them to an external site. For SMS and social channels, a survey link is shared.
 
-The surveys that you create and the survey data that's processed isn't hosted or stored in Omnichannel for Customer Service. The survey responses are logged as "Anonymous" and appear as "anonymous-post-conversation@omnichannelengagementhub.com".
+The surveys that you create and the survey data that's processed isn't hosted or stored in Dynamics 365 Contact Center. The survey responses are logged as "Anonymous" and appear as "anonymous-post-conversation@omnichannelengagementhub.com".
 
 ### Related information
 

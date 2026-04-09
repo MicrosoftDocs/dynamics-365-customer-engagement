@@ -1,7 +1,7 @@
 ---
 title: View operational metrics and KPIs in Sales usage reports
 description: Explore operational metrics and KPIs in sales usage reports, providing historical data on contacts, accounts, leads, and opportunities.
-ms.date: 02/25/2025
+ms.date: 09/30/2025
 ms.topic: concept-article
 author: udaykirang
 ms.author: udag
@@ -14,6 +14,9 @@ ms.custom:
 ---
 
 # View operational metrics and KPIs in sales usage reports
+
+> [!NOTE]
+> Effective Dec 01, 2025, sales usage reports will be deprecated. [Learn more](deprecations-sales.md#sales-usage-reports).  
 
 The sales usage reports provide a snapshot view of the historical operational metrics and key performance indicators (KPIs) of your contacts, accounts, leads, and opportunities.  
 The reports only include data that has been added or updated in the application from the day of enablement. After enabling, it may take up to three days for the sales usage reports to display data, there after, the data is refreshed every 24 hours.  

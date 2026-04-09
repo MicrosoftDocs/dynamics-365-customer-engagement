@@ -71,6 +71,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_description](#BKMK_msdyn_description)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_rolloutplanId](#BKMK_msdyn_rolloutplanId)
+- [msdyn_scheduledutc](#BKMK_msdyn_scheduledutc)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -150,6 +151,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_rolloutplanid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_scheduledutc"></a> msdyn_scheduledutc
+
+|Property|Value|
+|---|---|
+|Description|**UTC time the rollout is scheduled to execute.**|
+|DisplayName|**Scheduled Date Time**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_scheduledutc`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|True|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
@@ -236,6 +254,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |1|Label: **Draft**<br />State:0<br />TransitionData: None|
 |2|Label: **Active**<br />State:1<br />TransitionData: None|
 |3|Label: **Inactive**<br />State:2<br />TransitionData: None|
+|4|Label: **Scheduled**<br />State:2<br />TransitionData: None|
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 

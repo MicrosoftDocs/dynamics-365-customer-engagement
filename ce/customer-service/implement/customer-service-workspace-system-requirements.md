@@ -42,7 +42,7 @@ Administrators can gain insights into network latency for their tenants across d
 Network latency issues are unique to your infrastructure. You must identify and address the specific issues in your network to resolve any latency issues.
 
 > [!IMPORTANT]
-> To use the omnichannel capabilities, you'll need a higher network bandwidth. Learn more in [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md).
+> To use the omnichannel capabilities, you'll need a higher network bandwidth. Learn more in [system requirements](/dynamics365/contact-center/implement/system-requirements-contact-center).
 
 Learn more about requirements in [Model-driven app requirements](/power-platform/admin/online-requirements).
 

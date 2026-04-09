@@ -58,7 +58,7 @@ Go to the Microsoft 365 admin center to install Dynamics 365 Sales app (solution
 After you complete these steps, your organization will be effectively moved to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional.
 
 > [!IMPORTANT]
-> [Hide](/power-apps/maker/model-driven-apps/deactivate-app) the Sales Hub app as it's only applicable for Sales Enterprise and Sales Premium licenses. Sales Professional users are entitled to use only the Sales Professional app.
+> [Hide](/power-apps/maker/model-driven-apps/deactivate-app) the Sales Hub app if your users are not entitled to use it, as it's only applicable for specific licenses.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

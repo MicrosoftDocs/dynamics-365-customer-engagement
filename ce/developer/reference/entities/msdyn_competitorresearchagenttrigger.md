@@ -76,6 +76,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_retrycount](#BKMK_msdyn_retrycount)
 - [msdyn_sellercompany](#BKMK_msdyn_sellercompany)
 - [msdyn_trigger_source](#BKMK_msdyn_trigger_source)
+- [msdyn_unprocessedinput](#BKMK_msdyn_unprocessedinput)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -225,6 +226,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|500|
+
+### <a name="BKMK_msdyn_unprocessedinput"></a> msdyn_unprocessedinput
+
+|Property|Value|
+|---|---|
+|Description|**Unprocessed Input Payload for PA Flow and MCS Agent**|
+|DisplayName|**Unprocessed Input**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_unprocessedinput`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048575|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

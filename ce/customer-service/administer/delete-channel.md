@@ -1,6 +1,6 @@
 ---
 title: Delete a configured channel or page to stop receiving messages
-description: Deactivate or delete a channel to turn off and stop receiving messages on the channel in Omnichannel for Customer Service.
+description: Deactivate or delete a channel to turn off and stop receiving messages on the channel in Dynamics 365 Contact Center.
 ms.date: 04/29/2025
 ms.topic: how-to
 author: neeranelli

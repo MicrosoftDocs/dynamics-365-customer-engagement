@@ -1,17 +1,19 @@
 ---
-title: Create a simple selection rule for resource selection in Dynamics 365 Customer Service | MicrosoftDocs
+title: Create a simple selection rule for resource selection in Dynamics 365 Customer Service
 description: This topic provides information on how to create a simple selection rule in Dynamics 365 Customer Service.
-ms.date: 09/15/2017
+ms.date: 03/20/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
+ms.update-cycle: 1095-days
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
   - dyn365-customerservice
+  - evergreen
 ---
 
 # Create a selection rule to determine how resources are selected for service activities (Customer Service app)

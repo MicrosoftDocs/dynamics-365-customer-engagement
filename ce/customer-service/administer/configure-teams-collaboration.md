@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams collaboration
 description: Learn how to configure collaboration with Microsoft Teams in Customer Service.
-ms.date: 04/29/2025
+ms.date: 01/19/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: neeranelli
@@ -21,7 +21,7 @@ This feature uses the AI capability to automatically suggest contacts in real-ti
 
 > [!NOTE]
 > - Case is applicable to Customer Service only.
-> - Through Teams, representatives can connect and engage with customers also if Omnichannel for Customer Service is enabled.
+> - Through Teams, representatives can connect and engage with customers also if Dynamics 365 Contact Center is enabled.
 
 ## Prerequisites
 

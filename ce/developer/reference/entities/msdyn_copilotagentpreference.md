@@ -70,9 +70,15 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_agentprompts](#BKMK_msdyn_agentprompts)
 - [msdyn_copilotagentpreferenceId](#BKMK_msdyn_copilotagentpreferenceId)
+- [msdyn_enabledefaultexecution](#BKMK_msdyn_enabledefaultexecution)
+- [msdyn_enabledskills](#BKMK_msdyn_enabledskills)
+- [msdyn_isfullpagecopilotenabled](#BKMK_msdyn_isfullpagecopilotenabled)
 - [msdyn_kbfilterscope](#BKMK_msdyn_kbfilterscope)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_pluginscope](#BKMK_msdyn_pluginscope)
+- [msdyn_prioritizationcolumns](#BKMK_msdyn_prioritizationcolumns)
+- [msdyn_prioritizationfetchxml](#BKMK_msdyn_prioritizationfetchxml)
+- [msdyn_prioritizationprompt](#BKMK_msdyn_prioritizationprompt)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -124,6 +130,55 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
+### <a name="BKMK_msdyn_enabledefaultexecution"></a> msdyn_enabledefaultexecution
+
+|Property|Value|
+|---|---|
+|Description|**Enable Default Execution**|
+|DisplayName|**Enable Default Execution**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enabledefaultexecution`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_copilotagentpreference_msdyn_enabledefaultexecution`|
+|DefaultValue|True|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_enabledskills"></a> msdyn_enabledskills
+
+|Property|Value|
+|---|---|
+|Description|**Enabled skills**|
+|DisplayName|**Enabled skills**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enabledskills`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|4000|
+
+### <a name="BKMK_msdyn_isfullpagecopilotenabled"></a> msdyn_isfullpagecopilotenabled
+
+|Property|Value|
+|---|---|
+|Description|**Is Full-page Copilot Enabled**|
+|DisplayName|**Is Full-page Copilot Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isfullpagecopilotenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_copilotagentpreference_msdyn_isfullpagecopilotenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_kbfilterscope"></a> msdyn_kbfilterscope
 
 |Property|Value|
@@ -167,6 +222,57 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_pluginscope`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
+### <a name="BKMK_msdyn_prioritizationcolumns"></a> msdyn_prioritizationcolumns
+
+|Property|Value|
+|---|---|
+|Description|**Prioritization Columns**|
+|DisplayName|**Prioritization Columns**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_prioritizationcolumns`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
+### <a name="BKMK_msdyn_prioritizationfetchxml"></a> msdyn_prioritizationfetchxml
+
+|Property|Value|
+|---|---|
+|Description|**Prioritization Fetch Xml**|
+|DisplayName|**Prioritization Fetch Xml**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_prioritizationfetchxml`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
+### <a name="BKMK_msdyn_prioritizationprompt"></a> msdyn_prioritizationprompt
+
+|Property|Value|
+|---|---|
+|Description|**Prioritization Prompt**|
+|DisplayName|**Prioritization Prompt**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_prioritizationprompt`|
 |RequiredLevel|None|
 |Type|Memo|
 |Format|Text|

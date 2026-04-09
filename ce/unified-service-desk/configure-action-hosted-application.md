@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Configure an action for the hosted application
 After you have configured your application using the Hosted Application Toolkit (HAT), you must configure actions for the application. The application along with the actions is deployed using the HAT Software Factory.  

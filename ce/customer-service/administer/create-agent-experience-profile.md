@@ -4,7 +4,7 @@ description: Learn how to create and manage experience profiles for customized s
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 06/10/2025
+ms.date: 04/03/2026
 ms.topic: how-to
 ---
 
@@ -57,11 +57,13 @@ For the experience profile that you created, you can add users and configure opt
       - Default mode: Set the toggle to expanded or collapsed mode as the default.
       - Copilot
       - Knowledge search
-      - Scripts
+      - Agent scripts
       - Join a Teams call
       - Teams chats
       - Smart assist
       - Case handling time
+      - Screen Recording
+      - Timeout Rules
       
       Turn on the toggle against each option in the **Productivity Pane** to enable it for the service representative.
    - In the **Inbox** section, select **Edit** to enable the inbox view. Service representatives can view all their work items on one screen and prioritize tasks and efficiently work on multiple tasks.
@@ -79,7 +81,7 @@ To enable service representatives to use the copilot features in Copilot Service
 
 [Manage session template](session-templates.md)  
 [Overview of Dynamics 365 Productivity Tools](productivity-tools.md)  
-[Overview of channels in Omnichannel for Customer Service](../use/channels.md)  
+[Overview of channels in Dynamics 365 Contact Center](../use/channels.md)  
 [Overview of experience profiles](overview.md)  
 
 

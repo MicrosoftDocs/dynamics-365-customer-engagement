@@ -83,6 +83,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_ondemandenabled](#BKMK_msdyn_ondemandenabled)
 - [msdyn_relatedrecordconfiguration](#BKMK_msdyn_relatedrecordconfiguration)
+- [msdyn_summarytype](#BKMK_msdyn_summarytype)
 - [msdyn_systemmetadata](#BKMK_msdyn_systemmetadata)
 - [msdyn_useagentlanguage](#BKMK_msdyn_useagentlanguage)
 - [msdyn_whenagentjoinsenabled](#BKMK_msdyn_whenagentjoinsenabled)
@@ -458,6 +459,28 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100000|
+
+### <a name="BKMK_msdyn_summarytype"></a> msdyn_summarytype
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Summary Setting Type**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_summarytype`|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_copilotsummarizationsetting_msdyn_summarytype`|
+
+#### msdyn_summarytype Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Default**|
+|1|**Custom**|
+|2|**Conversation**|
 
 ### <a name="BKMK_msdyn_systemmetadata"></a> msdyn_systemmetadata
 

@@ -1,10 +1,10 @@
 ---
 title: Improve the Scheduling Operations Agent's suggestions (preview)
 description: Learn how to troubleshoot and improve suggested results of the Scheduling Operations Agent for Dynamics 365 Field Service.
-ms.date: 03/28/2025
+ms.date: 03/23/2026
 ms.topic: how-to
-ms.author: anilmur
-author: anilmur
+ms.author: anclear
+author: andrewclear-ms
 ---
 
 # Improve the Scheduling Operations Agent's suggestions (preview)
@@ -26,7 +26,7 @@ The agent evaluates properties of resources and requirements when it optimizes a
   - [Territories](set-up-territories.md)
   - [Characteristics](set-up-characteristics.md)
 
-- Resource Requirements:
+- Resource requirements:
 
   - [From/To Date](schedule-time-constraints.md)
   - Duration
@@ -45,7 +45,7 @@ The agent treats existing bookings the same as unfulfilled requirements, which m
 
 1. For bookings that you want to persist, apply a booking status that has an optimization method of *Do Not Move*. Learn more in [Select an optimization method for booking statuses](soa-setup.md#select-an-optimization-method-for-booking-statuses).
 
-1. Create a requirement view that contains no requirements and choose that view in the agent settings. The agent suggests a schedule that only optimizes the order of existing bookings. This approach is especially helpful if you simply want to optimize the travel route for the day. However, keep in mind that the agent can still remove bookings that don't match other settings or for which the promised time window has expired.
+1. Create a requirement view that contains no requirements and choose that view in the agent settings. The agent suggests a schedule that only optimizes the order of existing bookings. This approach is especially helpful if you simply want to optimize the travel route for the day. However, keep in mind that the agent can still remove bookings that don't match other settings or for which the promised time window is expired.
 
 ## Eligible bookings
 
@@ -75,7 +75,7 @@ The Scheduling Operations Agent has some limitations:
 
 - It doesn't support resources of type *Account*, *Equipment*, *Pool*, and *Facility*. The agent supports *User*, *Contact*, or *Crew* resources only.
 
-- The resource must not be part of a crew during the entire optimization range.
+- The resource can't be part of a crew during the entire optimization range.
 
 - The resource can have up to three breaks during their work day or shift. With four or more breaks, the agent returns an error.
 

@@ -66,6 +66,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_caseaipredictionId](#BKMK_msdyn_caseaipredictionId)
 - [msdyn_channel](#BKMK_msdyn_channel)
 - [msdyn_fieldspredictedbyai](#BKMK_msdyn_fieldspredictedbyai)
+- [msdyn_fieldspredictionsbyapiversions](#BKMK_msdyn_fieldspredictionsbyapiversions)
 - [msdyn_sourceid](#BKMK_msdyn_sourceid)
 - [msdyn_targetid](#BKMK_msdyn_targetid)
 - [msdyn_targetlogicalname](#BKMK_msdyn_targetlogicalname)
@@ -132,6 +133,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_fieldspredictedbyai`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Json|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2000|
+
+### <a name="BKMK_msdyn_fieldspredictionsbyapiversions"></a> msdyn_fieldspredictionsbyapiversions
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**msdyn\_fieldspredictionsbyapiversions**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_fieldspredictionsbyapiversions`|
 |RequiredLevel|None|
 |Type|Memo|
 |Format|Text|

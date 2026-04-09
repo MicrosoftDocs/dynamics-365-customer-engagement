@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # UI Shell Framework in Unified Service Desk
 The UI Shell Framework is the part of [UII Application Integration Framework](../unified-service-desk/uii-application-integration-framework.md) that enables developers to build a desktop for hosting integrated applications. The UI Shell Framework has the following components:  

@@ -26,13 +26,13 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Summary dashboard
 
-The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses AI to provide insights into topics that generate the highest volume and topics that are emerging with the highest rate of change in volume. Learn how to [access the dashboard](customer-service-analytics-insights-csh.md#access-the-dashboards).
+The Summary dashboard gives you a broad overview of the customer service experience in your organization. Learn how to [access the dashboard](customer-service-analytics-insights-csh.md#access-the-dashboards).
 
 The summary dashboard includes various charts with graphical views of key performance indicators (KPIs) in Customer Service.
 
 :::image type="content" source="../media/cs-summary-dashboard.png" alt-text="Summary dashboard for Customer Service historical analytics":::
 
-The case volume drivers and emerging case volume by topic charts use natural language understanding to group support cases as topics that are a collection of related cases. These charts show you the customer support topics generate the most volume and emerging topics with the highest rate of change in volume. This helps you identify areas of improvement that can affect support performance.
+The case volume drivers and emerging case volume by topic charts use natural language understanding to group support cases as topics that are a collection of related cases. These charts show you the customer support topics generate the most volume and emerging topics with the highest rate of change in volume. This data helps you identify areas of improvement that can affect support performance.
 
 By default, the dashboard shows you KPIs for the past month and for all channels, queues, and customer service representatives (service representatives or representatives) in your system. The data filtering options allow you to select data for a specific time period, channel, queue, and representative. To filter data by duration, channel, queue, or representative, select a value from the respective dropdown list. 
 
@@ -45,8 +45,6 @@ The **Key Insights discovered** section has two areas:
 
 - **KPI insights**: Important subjects that impact performance, such as CSAT pertaining to priority, volume pertaining to channel, and open cases pertaining to queues.
 
-- **Topics to watch**: Topics that rank high across the three key areas to make it easier for customer service managers to discover top issues.
-  
 :::image type="content" source="../media/key-insights-card.png" alt-text="Screenshot shows the Key insights card":::
 
 ## Report details
@@ -76,21 +74,13 @@ The following metrics appear in the charts.
 | Chart    | Description     |
 |----------|------------|
 | Case volume by status    | A breakdown of case volume by status.   |
-| Open cases by priority      | A case breakdown by priority level.        |
+| Open cases by priority      | A case breakdown by priority level. |
 | Incoming cases by channel   | A case breakdown by channel.   |
 | Open cases by case age    |   A breakdown of cases by the amount of time in an open state.   |
 | Avg. CSAT trend      | The year-over-year trend of case volume.   |
 | Avg. survey sentiment trend   | The year-over-year trend of CSAT from Customer Voice survey responses.   |
 
 :::image type="content" source="../media/cs-summary-charts.png" alt-text="Charts on the Summary dashboard":::
-
-On the **Top 10 volume topics** tab, you can view the top 10 AI-discovered topics by case volume.
-
-:::image type="content" source="../media/cs-summary-topvol.png" alt-text="View the top 10 AI-discovered topics by case volume":::
-
-On the **Emerging case volume by topic** tab, you can view the the top emerging AI discovered topics based on increase in case volume.
-
-:::image type="content" source="../media/cs-summary-casevol.png" alt-text="View the top emerging AI discovered topics based on increase in case volume":::
 
 You can view the core case metrics by channel or core case metrics in relation to other metrics and date.
 
@@ -100,7 +90,6 @@ You can view the core case metrics by channel or core case metrics in relation t
 
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
 [Customer Service Representative dashboard](agent-dashboard-cs.md)  
-[Topics dashboard](case-topics-dashboard-cs.md)  
 [Manage report bookmarks](manage-bookmarks.md)  
 
 

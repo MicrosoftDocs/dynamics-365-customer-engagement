@@ -1,7 +1,7 @@
 ---
-title: FAQ for copilot features
-description: FAQ for copilot features in Dynamics 365 Customer Service.
-ms.date: 06/26/2025
+title: FAQ for Copilot features
+description: Learn about frequently asked questions for Microsoft 365 Copilot features in Dynamics 365 Customer Service.
+ms.date: 04/08/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: gandhamm
@@ -15,13 +15,13 @@ ms.collection: bap-ai-copilot
 
 # FAQ for Copilot in Customer Service
 
-This FAQ article helps answer the questions around the Copilot features in Customer Service.
+This FAQ article helps answer questions about Microsoft 365 Copilot features in Customer Service.
 
 ## In which Customer Service apps is Copilot available?  
 
 Copilot is available in Copilot Service workspace, Customer Service Hub, and [custom apps](../administer/copilot-powerapps-settings.md). 
 
-## Which are the copilot features available across apps?
+## Which are the Copilot features available across apps?
 
 The following table describes the availability of Copilot features across apps.
 
@@ -33,7 +33,7 @@ The following table describes the availability of Copilot features across apps.
 | Copilot analytics| Yes | Yes<sup>1</sup> | Yes<sup>1</sup> |
 | Conversation summarization| Yes | No | No |
 
-Yes<sup>1</sup>: Available, but configuration is required in Power Apps 
+Yes<sup>1</sup>: Available, but configuration is required in Power Apps. 
 
 Learn more in [Copilot feature availability across applications](/dynamics365/contact-center/use/copilot-feature-availability).
 
@@ -50,18 +50,16 @@ You can add up to five trusted domains as web sources, and the domains must be p
 
 ## Does Copilot support knowledge articles published in all languages? 
 
-Yes. Copilot supports knowledge articles published in the supported languages. See: 
-[Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service)
+Yes. Copilot supports knowledge articles published in the supported languages. Learn more in [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
 
-## What are the best practices for configuring copilot?
+## What are the best practices for configuring Copilot?
  
-- Make sure that you use high-quality knowledge sources for copilot to generate responses from.
-- Revisit your copilot knowledge sources before you enable Copilot.
-- Restrict access to sources from which you don't want your copilot responses to be generated.
+- Use high-quality knowledge sources for Copilot to generate responses from.
+- Revisit your Copilot knowledge sources before you enable Copilot.
+- Restrict access to sources from which you don't want your Copilot responses to be generated.
 
-## Where can I access feedback for copilot?
-The feedback that you as a customer service representative provide on Copilot responses is stored in  
-the msdyn_copilotinteraction and msdyn_copilotevent tables in Dataverse. Learn more in [Retrieve verbatim feedback](../develop/download-copilot-transcript-data.md#retrieve-verbatim-feedback).
+## Where can I access feedback for Copilot?
+The feedback that you as a customer service representative provide on Copilot responses is stored in the msdyn_copilotinteraction and msdyn_copilotevent tables in Dataverse. Learn more in [Retrieve verbatim feedback](../develop/download-copilot-transcript-data.md#retrieve-verbatim-feedback).
 
 ### Related information
 

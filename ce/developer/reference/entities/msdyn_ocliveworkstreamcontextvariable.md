@@ -830,6 +830,7 @@ One-To-Many Relationship: [systemuser user_msdyn_ocliveworkstreamcontextvariable
 These relationships are one-to-many. Listed by **SchemaName**.
 
 - [msdyn_msdyn_lwscv_msdyn_ocliveworkitemcontextitem_ocliveworkstreamcontextvariableid](#BKMK_msdyn_msdyn_lwscv_msdyn_ocliveworkitemcontextitem_ocliveworkstreamcontextvariableid)
+- [msdyn_ocliveworkitemcontextitemelastic_msdyn_ocliveworkstreamcontextvariableid_msdyn_ocliveworkstreamcontextvariable](#BKMK_msdyn_ocliveworkitemcontextitemelastic_msdyn_ocliveworkstreamcontextvariableid_msdyn_ocliveworkstreamcontextvariable)
 - [msdyn_ocliveworkstreamcontextvariable_AsyncOperations](#BKMK_msdyn_ocliveworkstreamcontextvariable_AsyncOperations)
 - [msdyn_ocliveworkstreamcontextvariable_BulkDeleteFailures](#BKMK_msdyn_ocliveworkstreamcontextvariable_BulkDeleteFailures)
 - [msdyn_ocliveworkstreamcontextvariable_DuplicateBaseRecord](#BKMK_msdyn_ocliveworkstreamcontextvariable_DuplicateBaseRecord)
@@ -848,6 +849,18 @@ Many-To-One Relationship: [msdyn_ocliveworkitemcontextitem msdyn_msdyn_lwscv_msd
 |ReferencingEntity|`msdyn_ocliveworkitemcontextitem`|
 |ReferencingAttribute|`msdyn_ocliveworkstreamcontextvariableid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_lwscv_msdyn_ocliveworkitemcontextitem_ocliveworkstreamcontextvariableid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocliveworkitemcontextitemelastic_msdyn_ocliveworkstreamcontextvariableid_msdyn_ocliveworkstreamcontextvariable"></a> msdyn_ocliveworkitemcontextitemelastic_msdyn_ocliveworkstreamcontextvariableid_msdyn_ocliveworkstreamcontextvariable
+
+Many-To-One Relationship: [msdyn_ocliveworkitemcontextitemelastic msdyn_ocliveworkitemcontextitemelastic_msdyn_ocliveworkstreamcontextvariableid_msdyn_ocliveworkstreamcontextvariable](msdyn_ocliveworkitemcontextitemelastic.md#BKMK_msdyn_ocliveworkitemcontextitemelastic_msdyn_ocliveworkstreamcontextvariableid_msdyn_ocliveworkstreamcontextvariable)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocliveworkitemcontextitemelastic`|
+|ReferencingAttribute|`msdyn_ocliveworkstreamcontextvariableid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocliveworkitemcontextitemelastic_msdyn_ocliveworkstreamcontextvariableid_msdyn_ocliveworkstreamcontextvariable`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

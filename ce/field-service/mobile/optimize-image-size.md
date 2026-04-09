@@ -3,9 +3,9 @@ title: Optimize images for upload
 description: Turn on a user setting to optimize file sizes of images before uploading it to Dataverse.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 08/28/2024
-author: josephshum-msft
-ms.author: jshum
+ms.date: 09/23/2025
+author: JonBaker007
+ms.author: jobaker
 ---
 
 # Optimize images for upload

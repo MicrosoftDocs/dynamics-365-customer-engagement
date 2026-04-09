@@ -1,7 +1,7 @@
 ---
 title: Send commands in Connected Field Service
 description: Send commands to IoT devices with Field Service to remotely control them.
-ms.date: 09/04/2024
+ms.date: 10/03/2025
 ms.topic: how-to
 ms.subservice: connected-field-service
 ms.custom: bap-template
@@ -22,9 +22,9 @@ Commands are programed instructions sent from the Field Service application to I
 
 Before configuring an IoT command in Field Service, you first need to create IoT definition properties. IoT definition properties help construct the message string for your IoT command.
 
-1. In Field Service, change to the **Settings** area.
-1. Under **IoT**, select **IoT Property Definitions** and select **New**.
-1. Enter a **Name** and choose the **Type** of data for the property.
+1. In Field Service, go to the **Settings** area.
+1. Under **IoT**, select **IoT Property Definitions**, and then select **New**.
+1. Enter a **Name** and select the **Type** of data for the property.
 1. Add information in the **Additional Properties** section. Select **Show string** to verify the constructed string.
 1. Select **Save**.
 
@@ -32,22 +32,22 @@ Before configuring an IoT command in Field Service, you first need to create IoT
 
 ## Configure IoT commands
 
-1. In Field Service, change to the **Settings** area.
-1. Under **IoT**, select **Command Definitions** and select **New**.
+1. In Field Service, go to the **Settings** area.
+1. Under **IoT**, select **Command Definitions**, and then select **New**.
 1. In the **Name** field, enter the command definition. For example: Reset Thermostat.
 1. Select **Save**.
-1. In the **Command Parameters** section, select the vertical ellipsis &vellip; and choose **Add Existing IoT Property**.
-1. Select a IoT property definition record and select **Add**.
+1. In the **Command Parameters** section, select the vertical ellipsis &vellip;, and then select **Add Existing IoT Property**.
+1. Select an IoT property definition record, and then select **Add**.
 1. Select **Save**.
 
 :::image type="content" source="media/IoT-command-definition.png" alt-text="Screenshot of an IoT command definition record.":::
 
 ## Send a command on an active IoT alert
 
-1. In Field Service, open the **Service** area.
-1. Under **Assets**, select **IoT Alerts** and open an existing IoT alert record.
-1. On the Iot alert record, select **Send Command**.
-1. Choose a command definition in the **Command** field and select **Send Command**.
+1. In Field Service, go to the **Service** area.
+1. Under **Assets**, select **IoT Alerts**, and then open an existing IoT alert record.
+1. On the IoT alert record, select **Send Command**.
+1. Select a command definition in the **Command** field, and then select **Send Command**.
 
 :::image type="content" source="media/IoT-alert-send-command.png" alt-text="Screenshot of an IoT alert with the send command dialog option.":::
 

@@ -16,7 +16,7 @@ ms.custom:
 
 # Sales accelerator FAQs
 
-This article answers frequently asked questions about sales accelerator in Dynamics 365 Sales and Sales premium.
+This article answers frequently asked questions about sales accelerator in Dynamics 365 Sales.
 
 ## How do I add the Up next widget to an entity form?
 

@@ -1,7 +1,7 @@
 ---
 title: View the status of prediction column
 description: Use the status of prediction column in a forecast to view the details such as, last predicted date and errors.
-ms.date: 10/01/2024
+ms.date: 10/10/2025
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr

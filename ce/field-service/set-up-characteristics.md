@@ -26,30 +26,30 @@ Add details to work orders to describe the characteristics needed to complete th
 
 1. Choose a **Characteristic Type**.
 
-   - **Skill**: The characteristic is specific knowledge or experience that is rated with a [rating level](#create-a-rating-model).
+   - **Characteristic**: The characteristic is specific knowledge or experience that is rated with a [proficiency model](#create-a-proficiency-model).
    - **Certification**: The characteristic is a designated credential, status, or level of achievement earned by a resource.
 
 1. Select **Save & Close**.
 
-## Create a rating model
+## Create a proficiency model
 
-You can define rating values in a rating model that's used to indicate the characteristic level of a resource.
+You can define values in a proficiency model that's used to indicate the characteristic level of a resource.
 
 1. In Resource Scheduling, change to the **Settings** area.
 
-1. Under **Resource**, select **Rating Models**.
+1. Under **Resource**, select **Proficiency Models**.
   
 1. Select **New** to create a new model or select an existing model.
 
-1. Provide a **Name** for the rating model.
+1. Provide a **Name** for the proficiency model.
 
-1. Set a minimum and maximum rating value and **Save** the rating model.
+1. Set a minimum and maximum rating value and **Save** the proficiency model.
 
-1. In the **Rating Values** section, select **New Rating Value**.
+1. In the **Proficiency Values** section, select **New Proficiency Value**.
 
 1. Provide a **Name** and a **Value**.
 
-1. Select **Save & Close**. Add more rating values for your rating model.
+1. Select **Save & Close**. Add more rating values for your proficiency model.
 
 ## Assign characteristics to resources  
   

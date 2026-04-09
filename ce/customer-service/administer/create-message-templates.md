@@ -1,6 +1,6 @@
 ---
 title: Create message templates
-description: Learn how to create message templates for reusable messages in Omnichannel for Customer Service.
+description: Learn how to create message templates for reusable messages in Dynamics 365 Contact Center.
 ms.date: 04/25/2025
 ms.topic: how-to
 author: neeranelli

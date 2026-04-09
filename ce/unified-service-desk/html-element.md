@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # HtmlElement in Unified Service Desk
 The `<HTMLElement>` element associates a named control to the `HTML` object specified by the search path. This topic describes the elements of `<HTMLElement>`.  
