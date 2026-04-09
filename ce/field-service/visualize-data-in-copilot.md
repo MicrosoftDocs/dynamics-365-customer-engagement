@@ -5,7 +5,7 @@ author: puneet-singh1
 ms.author: puneetsingh
 ms.reviewer: puneetsingh
 ms.topic: overview
-ms.date: 02/23/2026
+ms.date: 04/06/2026
 ---
 
 # Visualize data in a view with Copilot in Field Service (preview)
