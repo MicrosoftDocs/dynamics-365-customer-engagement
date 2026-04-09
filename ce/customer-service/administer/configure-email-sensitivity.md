@@ -13,7 +13,6 @@ ms.date: 04/09/2026
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-
 You can configure sensitivity labels in Dynamics 365 Customer Service and Contact Center to ensure email communications comply with your organization’s security and compliance policies. These labels help protect sensitive information and keep attachments, replies, and forwards aligned with organizational rules.
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
@@ -44,11 +43,10 @@ Perform the following steps:
 
 ## Set email data sensitivity labels
 
-1. In the app, go to **Settings** > **Advanced Settings**.
-1. Select **System** > **Email configuration**. The Email Configuration page appears.
-1. Select **Email Settings**. The **System Settings** page appears.
-1. Turn on the toggle for **Email data sensitivity labels**.
-1. Save the changes.
+1. In the app, go to **Settings** > **Advanced Settings**. The **System Settings** page appears.
+1. 1. Select the **Email** tab. 
+1. In the **Set Email data sensitivity** section, select the checkbox for for **Email data sensitivity labels for emails**.
+1. Select **OK**.
 
 ### Related information 
 
