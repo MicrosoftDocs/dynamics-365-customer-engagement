@@ -5,7 +5,7 @@ author: puneet-singh1
 ms.author: puneetsingh
 ms.reviewer: puneetsingh
 ms.topic: overview
-ms.date: 02/23/2026
+ms.date: 04/07/2026
 ---
 
 # Supervise agents in Field Service with agent feed (preview)
