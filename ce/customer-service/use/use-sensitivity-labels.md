@@ -67,4 +67,4 @@ AI capabilities such as case summarization aren't available for encrypted email 
 
 ### Related information
 
-[Configure sensitivity label support for emails (preview)](../admin/configure-email-sensitivity.md)
+[Configure sensitivity label support for emails (preview)](../administer/configure-email-sensitivity.md)
