@@ -50,33 +50,6 @@ Perform the following steps:
 1. Turn on the toggle for **Email data sensitivity labels**.
 1. Save the changes.
 
-
-## Work with encrypted emails
-
-When a customer sends an encrypted email, users can see that the email exists in the case timeline.
-
-The encrypted message content isn't displayed in the application.
-
-To view the message, users are redirected to Outlook on the web where the email can be decrypted and opened securely.
-
-> [!NOTE]  
-> Encrypted email content isn't decrypted or stored in Dataverse.
-
-Encrypted emails:
-
-- Appear in the timeline
-- Can't be opened or downloaded from within the application
-- Must be viewed through Outlook on the web
-
-Encrypted emails can't be used for:
-
-- Case summaries
-- Case enrichment
-- Intent detection
-- Other AI-driven workflows
-
-AI capabilities such as case summarization aren't available for encrypted email content unless the content is decrypted outside the application.
-
 ### Related information 
 
 [Use sensitivity labels in emails(preview)](../use/use-sensitivity-labels.md)
