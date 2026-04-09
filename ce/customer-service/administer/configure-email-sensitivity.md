@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
-ms.date: 09/21/2025
+ms.date: 04/09/2026
 ---
 
 # Configure sensitivity label support for emails (preview)
@@ -30,23 +30,52 @@ You can configure sensitivity labels in Dynamics 365 Customer Service and Contac
 
 Perform the following steps:
 
-1. In Power Apps, for your solution, select **Tables** > **Email**.  
-2. Select **Forms** and then select the required email form.  
-3. Add the **Sensitivity Label** table column to the form. Learn more in [Add column to a form](/power-apps/maker/model-driven-apps/add-field-form).  
-4. In the **Properties** pane for **Sensitivity Label**, do the following:  
-   - Select the **Hide Label** checkbox.  
-   - Set the **Form field width** in **Formatting** to 2 columns.  
-   - In **Components**, add the **Email sensitivity label control**. Learn more in [Add components for a column on the form](/power-apps/maker/model-driven-apps/add-control-field).  
-5. Save and publish your changes.  
+1. Go to **Power Apps**, and then open the default solution.
+1. Select **Email**, and then open the **Email form**.
+1. Add the **Sensitivity label** field to the Email form.
+1. Select the field, and then do the following steps:
+   1. Select **Component**.
+   1. Select **Get more component**.
+   1. Choose **Email sensitivity label control**.
+   1. Select **Add**.
+   1. Select the control, and then select **Done**.
+1. Save and publish your changes.
+ 
 
 ## Set email data sensitivity labels
 
 1. In the app, go to **Settings** > **Advanced Settings**.
-2. Select **System** > **Email configuration**. The Email Configuration page appears.
-3. Select **Email Settings**. The **System Settings** page appears.
-4. Select the **Email** tab, scroll down to the **Set email sensitivity labels** section, and then select **Enable email sensitivity labels**.
-1. Select **Ok**.
+1. Select **System** > **Email configuration**. The Email Configuration page appears.
+1. Select **Email Settings**. The **System Settings** page appears.
+1. Turn on the toggle for **Email data sensitivity labels**.
+1. Save the changes.
 
+
+## Work with encrypted emails
+
+When a customer sends an encrypted email, users can see that the email exists in the case timeline.
+
+The encrypted message content isn't displayed in the application.
+
+To view the message, users are redirected to Outlook on the web where the email can be decrypted and opened securely.
+
+> [!NOTE]  
+> Encrypted email content isn't decrypted or stored in Dataverse.
+
+Encrypted emails:
+
+- Appear in the timeline
+- Can't be opened or downloaded from within the application
+- Must be viewed through Outlook on the web
+
+Encrypted emails can't be used for:
+
+- Case summaries
+- Case enrichment
+- Intent detection
+- Other AI-driven workflows
+
+AI capabilities such as case summarization aren't available for encrypted email content unless the content is decrypted outside the application.
 
 ### Related information 
 
