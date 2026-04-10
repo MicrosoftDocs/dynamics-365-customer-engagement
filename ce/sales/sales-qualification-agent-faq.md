@@ -44,6 +44,10 @@ The possible causes for this issue are:
 
 The previous research data is stored in msdyn_leadagentresult (lead agent result) and msdyn_accountresearchresult (account research result). Learn more in [Upgrade your Sales Qualification Agent](upgrade-sales-qualification-agent.md).
 
+## Which languages are supported by the Sales Qualification Agent?
+
+The Sales Qualification Agent is supported in multiple languages. For a list of supported languages, go to the [international availability report](https://releaseplans.microsoft.com/availability-reports/?report=featurelangreport).
+
 <a name="agent-language-difference"></a>
 ## What happens when the agent's language is different from the user's preferred language?
 
