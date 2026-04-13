@@ -63,10 +63,6 @@ The Research-only mode has a configuration experience that allows admins to pers
 
 The agent primarily operates on data that resides in Dataverse. The more information available about a lead, the better the agent's outputs are.
 
-## Which languages are supported by the Research-only mode?
-
-The Research-only mode is only supported in English language.
-
 ## What data is passed to Bing Search?
 
 The agent uses Bing Search to find information about your lead from the public web and generate insights. The agent only passes the lead's company name, website URL, and any Dataverse fields that you manually define in the configuration settings to Bing Search.
