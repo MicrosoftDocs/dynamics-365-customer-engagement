@@ -37,7 +37,7 @@ You can use the creation and update feature of Case Management Agent to do the f
 - Case Management Agent uses the Data Entry Agent in the background. The Power Platform [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview) mandates the usage of an Azure subscription the system charges when the agent runs. Make sure you [Set up consumption-based billing](setup-pay-as-you-go.md).
 - Transcription is enabled for the channels that support voice conversations. For more information, see [Enable transcription for voice channels](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice).
 - We recommend that you enable audit history and make sure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
-- For customers to provide the details that the AI agent can use, you can configure [preconversation survey](configure-pre-chat-survey.md).
+- For customers to provide the details that the AI agent can use, configure [preconversation survey](configure-pre-chat-survey.md).
 - Make sure the service representatives working on the case and accepting conversations have read privileges on the `msdyn_entityattributepredictionrules` table.
 - For the AI agent to predict case fields from emails autonomously, do the steps in [Configure global settings for Case Management Agent](case-management-global-settings.md).
 
@@ -133,7 +133,7 @@ In Copilot Service admin center, configure the AI agent to predict and update ca
   
  For example, if you only specify **Issue description** and **Contact** fields in the **Fields for AI prediction** section, the AI agent updates these fields when the conversation ends or from an incoming email. If you also specify a condition such as live chat status equals Active, then the rule applies only for live chat conversations that are active.
 
-1. The system runs case update rules in the order they're listed. You can select the arrow buttons to reorder the rules as needed.
+1. The system runs case update rules in the order they're listed. Select the arrow buttons to reorder the rules as needed.
 1. Select **Activate** to activate the rules.
 1. Select **Allow AI agent to override human edits during autonomous updates** for the AI agent to automatically overwrite fields. During autonomous case update, the AI agent overwrites fields that service representatives previously edited. 
 
@@ -149,9 +149,9 @@ To allow the AI agent to autonomously create cases across all provisioned messag
 1. Go to **Case creation and update** > **Case creation by AI agent (from chats and calls)** and select **Make Case Processing Agent available for case creation from conversations**.
 1. In **Fields for AI prediction**, specify the fields the agent predicts and populates in the case form using information from the conversation. The AI agent populates only those fields that have sufficient context available.
 
-## Configure AI-assisted case creation for service representatives
+## Enable AI assistance during case creation
 
-Select the channels from which service representatives can create cases with AI assistance. You can select **Email** or **Conversation (chats and calls)**. When a service representative creates a case from a conversation or an email, the AI agent analyzes the conversation or email, and then predicts and populates the fields available on the case form. Service representatives can then review the predicted values and make any necessary changes before saving the case.
+Service representatives can create cases with AI assistance from email or chat nd voice conversations. Go to **Case creation and update** > **AI-assisted case creation by customer service representatives** select **Email** or **Conversation (chats and calls)**. When a service representative creates a case from a conversation or an email, the Case Management Agent analyzes the conversation or email, and then predicts and populates the fields available on the case form. Service representatives can then review the predicted values and make any necessary changes before saving the case.
 
 ## Enable service representatives to use autonomous Case Management Agent
 
@@ -169,9 +169,9 @@ By default, service representatives added to the out-of-the-box experience profi
   
 ## Record representative interactions with the AI agent
 
-In **Agent experience data from Representative experience data**, you can select **Record transcripts of representative interactions with AI, including representative actions, and their feedback on AI suggestions** to record and understand how representatives are interacting with the AI agent and how the agent is performing in a support organization. Representatives can also share feedback about AI agent actions, which helps Copilot perform better. You can also download and use the data to analyze knowledge sources, and build usage reports.
+In **Agent experience data from Representative experience data**, select **Record transcripts of representative interactions with AI, including representative actions, and their feedback on AI suggestions** to record and understand how representatives are interacting with the AI agent and how the agent is performing in a support organization. Representatives can also share feedback about AI agent actions, which helps Copilot perform better. Download and use the data to analyze knowledge sources, and build usage reports.
 
-### Example
+## Example: Create a case from a chat conversation
 
 When a customer initiates a chat conversation with the service representative, the AI agent creates a case if there's enough context to update at least one of the **Issue description** or **Contact** fields.
 
@@ -202,7 +202,7 @@ Use simulation in Case Management Agent to validate the performance of AI‑powe
 
 ### Set up a simulation
 
-You can configure a simulation by using organization records or uploading an Excel file containing exported email or chat responses.
+Configure a simulation by using organization records or uploading an Excel file containing exported email or chat responses.
 
 1. On the **Case creation and update** page, select **Go to simulation** in the **Command** menu. The **Case creation and update simulation** page appears.
 1. On the **Simulation setup** tab, provide the following information:
