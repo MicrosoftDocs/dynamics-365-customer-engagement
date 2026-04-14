@@ -4,7 +4,7 @@ description: Learn how to access and use Copilot-generated row summaries in Cust
 author: neeranelli
 ms.author: nenellim
 ms.topic: overview
-ms.date: 04/02/2026
+ms.date: 04/09/2026
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---

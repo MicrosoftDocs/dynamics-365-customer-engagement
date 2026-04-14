@@ -1,7 +1,7 @@
 ---
 title: Inspections overview (contains video)
 description: Learn about inspections in Dynamics 365 Field Service.
-ms.date: 03/19/2026
+ms.date: 04/06/2026
 ms.topic: overview
 author: jasonccohen
 ms.author: jacoh
@@ -27,10 +27,6 @@ The inspection process involves the following steps:
 1. The dispatcher adds the **Service Task Type** to a **Work Order**.
 1. The technician completes the inspection.
 1. The dispatcher views the inspection results.
-
-For a guided walkthrough, check out the following video.
-
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=cda3ec94-6398-4bb8-aaf6-e2d8906818fb]
 
 ## Field Service inspections or work order service tasks
 
