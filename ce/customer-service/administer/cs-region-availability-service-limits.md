@@ -21,7 +21,7 @@ The [AI Builder preview models](/ai-builder/administer#enable-or-disable-ai-buil
 
 ## Supported regions for Copilot features
 
-The following table lists the region availability of Copilot features for the respective geographical locations.
+The following table lists the region availability of Copilot features for the respective geographical locations. Learn about supported regions for autonomous agents in [Explore feature availability by geography](https://releaseplans.microsoft.com/availability-reports/?report=featuregeoreport).
 
 | Feature | North America| Europe | Asia Pacific | South America | Australia | Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland | Germany | Korea | Norway | Singapore | South Africa | Government Community Cloud - M | Government Community Cloud - H |
 | ------- | ------------ | ------ | ------------ | ------------- | --------- | ----- | ----- | ---- | ------ | -------------- | ------ | -------------------- | ----------- | ------- | ----- | ------ | --------- | ------------ | ------------------------------ | ------------------------------ |
@@ -38,11 +38,9 @@ No: Not available
 > [!NOTE]
 > By default, the Copilot features are available in the North America region only. Customers with environments outside the United States can use the Copilot features by opting in to data movement across geographical (data) boundaries to share relevant data outside their region for processing.
 
-Learn about supported regions for autonomous agents in [Explore feature availability by geography](https://releaseplans.microsoft.com/availability-reports/?report=featuregeoreport).
-
 ## Supported languages for Copilot features
 
-The following table lists the availability of Copilot features for the respective region languages.
+The following table lists the availability of Copilot features for the respective region languages. Learn about the supported languages for autonomous agents in [Explore feature availability by language](https://releaseplans.microsoft.com/availability-reports/?report=featurelangreport).
 
 | Feature | English | Arabic | Danish | Dutch | French | German | Italian | Japanese | Portuguese (Portugal) | Chinese (Simplified) | Spanish | Portuguese (Brazil) | Thai | Czech | Finnish | Greek | Hebrew | Korean | Norwegian (Bokmål) | Polish | Russian | Swedish | Turkish | Vietnamese |
 | ------- | ------- | ------ | ------ | ----- | ------ | ------ | ------- | -------- | --------------------- | -------------------- | ------- | ------------------- | ---- | ----- | ------- | ----- | ------ | ------ | ------------------ | ------ | ------- | ------- | ------- | ---------- |
@@ -57,8 +55,6 @@ Yes: Available
 No: Not available
 
 <sup>**1**</sup> Copilot might [generate summaries](../use/copilot-language-support.md) in the customer service representative (service representative or representative) UI language even if that isn't an officially supported language.
-
-Learn about the supported languages for autonomous agents in [Explore feature availability by language](https://releaseplans.microsoft.com/availability-reports/?report=featurelangreport).
 
 ## Region availability of analytics and insights
 
