@@ -35,7 +35,7 @@ The upgrade involves these steps:
 1. Go to Microsoft 365 admin center, and in the left pane, select **Users** > **Active users**.
 2. Select the users who need the new license.
 3. Select **Manage product licenses**.
-4. In the **Manage product licenses** pane, select **Replace**, and then select your new Dynamics 365 Sales license.
+4. In the **Manage product licenses** pane, select **Replace**, and then select your new Dynamics 365 Sales license.  
     :::image type="content" source="media/assign-licenses-multiple-users.png" alt-text="Screenshot of assigning licenses to multiple users.":::
 
 5. Select **Save changes**, and then select **Done**.
