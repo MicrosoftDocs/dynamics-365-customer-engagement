@@ -1,6 +1,6 @@
 ---
-title: Supported regions and languages for analytics and insights in Customer Service and Dynamics 365 Contact Center
-description: Learn about region availability and the languages supported for analytics and insights in Customer Service and Dynamics 365 Contact Center.
+title: Supported regions and languages for autonomous agents, copilot features, and analytics in Customer Service and Dynamics 365 Contact Center
+description: Learn about region availability and the languages supported for autonomous agents, copilot features, and analytics in Customer Service and Dynamics 365 Contact Center.
 ms.topic: concept-article
 ms.date: 04/14/2026
 ms.update-cycle: 180-days
@@ -11,17 +11,26 @@ ms.collection: bap-ai-copilot
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Supported regions and languages for analytics and insights
+# Supported regions and languages for autonomous agents, copilot features, and analytics
 
 Depending on your location, certain features are available in Dynamics 365 Customer Service insights. [Service limits](ana-ser-limits.md#service-limits-for-analytics-and-insights) also apply.
 
 ## Prerequisites
 
-The [AI Builder preview models](/ai-builder/administer#enable-or-disable-ai-builder-preview-features) setting must be enabled in [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+For analytics and insights, the [AI Builder preview models](/ai-builder/administer#enable-or-disable-ai-builder-preview-features) setting must be enabled in [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+
+## Supported regions for autonomous agents
+
+Learn about supported regions for the following autonomous agents in [Explore feature availability by geography](https://releaseplans.microsoft.com/availability-reports/?report=featuregeoreport):
+
+- Customer Intent Agent
+- Case Management Agent
+- Customer Knowledge Management Agent
+- Quality Evaluation Agent
 
 ## Supported regions for Copilot features
 
-The following table lists the region availability of Copilot features for the respective geographical locations. Learn about supported regions for autonomous agents in [Explore feature availability by geography](https://releaseplans.microsoft.com/availability-reports/?report=featuregeoreport).
+The following table lists the region availability of Copilot features for the respective geographical locations.
 
 | Feature | North America| Europe | Asia Pacific | South America | Australia | Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland | Germany | Korea | Norway | Singapore | South Africa | Government Community Cloud - M | Government Community Cloud - H |
 | ------- | ------------ | ------ | ------------ | ------------- | --------- | ----- | ----- | ---- | ------ | -------------- | ------ | -------------------- | ----------- | ------- | ----- | ------ | --------- | ------------ | ------------------------------ | ------------------------------ |
@@ -38,9 +47,18 @@ No: Not available
 > [!NOTE]
 > By default, the Copilot features are available in the North America region only. Customers with environments outside the United States can use the Copilot features by opting in to data movement across geographical (data) boundaries to share relevant data outside their region for processing.
 
+## Supported languages for autonomous agents
+
+Learn about the supported languages for the following autonomous agents in [Explore feature availability by language](https://releaseplans.microsoft.com/availability-reports/?report=featurelangreport):
+
+- Customer Intent Agent
+- Case Management Agent
+- Customer Knowledge Management Agent
+- Quality Evaluation Agent
+
 ## Supported languages for Copilot features
 
-The following table lists the availability of Copilot features for the respective region languages. Learn about the supported languages for autonomous agents in [Explore feature availability by language](https://releaseplans.microsoft.com/availability-reports/?report=featurelangreport).
+The following table lists the availability of Copilot features for the respective region languages.
 
 | Feature | English | Arabic | Danish | Dutch | French | German | Italian | Japanese | Portuguese (Portugal) | Chinese (Simplified) | Spanish | Portuguese (Brazil) | Thai | Czech | Finnish | Greek | Hebrew | Korean | Norwegian (Bokmål) | Polish | Russian | Swedish | Turkish | Vietnamese |
 | ------- | ------- | ------ | ------ | ----- | ------ | ------ | ------- | -------- | --------------------- | -------------------- | ------- | ------------------- | ---- | ----- | ------- | ----- | ------ | ------ | ------------------ | ------ | ------- | ------- | ------- | ---------- |
