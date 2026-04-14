@@ -64,6 +64,7 @@ You can define the file size limit for attachments and unsupported file types in
 
 > [!NOTE]
 > Customers with Apple devices must have iOS version 13 to send file attachments.
+> Blocking .txt extensions is not supported. If you block .txt extensions, transcripts won't be available for closed conversations.
 
 ## Customer experience of attaching a file
 
