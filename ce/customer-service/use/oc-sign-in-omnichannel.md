@@ -1,7 +1,7 @@
 ---
 title: Sign in to Omnichannel for Customer Service app
 description: Use this topic to understand how to sign in to Omnichannel for Customer Service app.
-ms.date: 04/25/2025
+ms.date: 04/15/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

@@ -4,7 +4,7 @@ description: Learn how to smartly assist representatives with the next-best step
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 06/11/2025
+ms.date: 04/15/2026
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -45,7 +45,7 @@ The smart assist feature can be enabled across all channels, such as Chat for Dy
 - Smart assist must be enabled.
 - One of the following:
   - AI-suggested similar cases and knowledge articles should be enabled by your administrator.
-  - Develop a smart assist bot and integrate it with Omnichannel for Customer Service. The smart-assist bot interprets the conversation context in real time and provides suggestions to representatives. For information: [Build a smart assist bot using Azure Bot Service](../develop/smart-assist-bot.md).
+  - Develop a smart assist agent and integrate it with Dynamics 365 Contact Center. The smart-assist bot interprets the conversation context in real time and provides suggestions to representatives. For information: [Build a smart assist agent using Azure Bot Service](../develop/smart-assist-bot.md).
 
   > [!NOTE]
   > - Microsoft Copilot agents aren't supported as smart assist agents.
@@ -55,21 +55,21 @@ The smart assist feature can be enabled across all channels, such as Chat for Dy
 
 To enable AI-suggested similar cases and knowledge articles, see [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md).
 
-## Enable smart assist for the bot framework in Omnichannel for Customer Service
+## Enable smart assist for the bot framework in Dynamics 365 Contact Center
 
-To enable smart assist for the bot framework in Omnichannel for Customer Service, perform the following steps:
+To enable smart assist for the bot framework in Dynamics 365 Contact Center, perform the following steps:
 
-1. [Create a bot user](#step-1-create-a-bot-user)
+1. [Create an agent user]
 
-1. [Add smart assist bot to a workstream](#step-2-add-smart-assist-bot-to-a-workstream)
+1. [Add smart assist agent to a workstream]
 
-### Create an agent user<a name="step-1-create-a-bot-user"></a>
+### Create an agent user<
 
 Create an agent user in the application to work as a smart assistant to the representative. An agent user is created as an application user and assigned the **Omnichannel agent** role. If your agent needs to search for knowledge base articles, then you need to provide either the **Customer Service Manager** or **Customer Service Representative** role.
 
 You can create an application user only in the web client. Use the agent application ID of the smart assist bot to create the agent user. More information: [Create an agent user](../configure-bot.md#configure-the-bot-user-as-an-omnichannel-agent)
 
-### Add a smart assist bot to a workstream<a name="step-2-add-smart-assist-bot-to-a-workstream"></a>
+### Add a smart assist agent to a workstream<a name="step-2-add-smart-assist-bot-to-a-workstream"></a>
 
 After you create an agent user, you need to add the agent to the workstream so that representatives who use the channel of this workstream can see the suggestions.
 

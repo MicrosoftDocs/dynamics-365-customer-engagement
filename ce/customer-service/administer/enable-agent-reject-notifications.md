@@ -17,7 +17,7 @@ You can enable agent presence to be updated automatically to **Do not disturb** 
 > [!IMPORTANT]
 > 
 > - Work items get routed to the agent if **Do not disturb** is an allowed presence in the workstream. Learn more in [Create workstreams for unified routing](create-workstreams.md).
-> - Automatic change of agent status when agent rejects a notification is not supported in Omnichannel for Customer Service on Unified Service Desk.
+> - Automatic change of agent status when agent rejects a notification isn't supported in Omnichannel for Customer Service on Unified Service Desk.
 
 ## Enable automatic update of agent presence
 

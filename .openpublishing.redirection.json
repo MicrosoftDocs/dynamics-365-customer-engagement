@@ -35978,6 +35978,21 @@
      "source_path": "ce/customer-service/use/use-microsoft-365-copilot-chat.md",
      "redirect_url": "/dynamics365/customer-service/use/use-microsoft-365-copilot",
      "redirect_document_id": "false"
+    },
+    {
+     "source_path": "ce/customer-service/implement/international-availability.md",
+     "redirect_url": "/dynamics365/contact-center/implement/international-availability",
+     "redirect_document_id": "false"
+    },
+    {
+     "source_path": "ce/customer-service/use/omnichannel-customer-service-app-agent.md.md",
+     "redirect_url": "/dynamics365/contact-center/use/ccw-overview",
+     "redirect_document_id": "false"
+    },
+    {
+     "source_path": "ce/customer-service/use/oc-sign-in-omnichannel.md",
+     "redirect_url": "/dynamics365/contact-center/use/ccw-overview",
+     "redirect_document_id": "false"
     }
   ]
 }

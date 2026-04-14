@@ -1,7 +1,7 @@
 ---
 title: Introduction to representative interface
-description: Learn about the representative interface in the Omnichannel for Customer Service app and the capabilities that it offers to representatives.
-ms.date: 04/21/2025
+description: Learn about the representative interface and the capabilities that it offers to representatives.
+ms.date: 04/15/2026
 ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
@@ -9,14 +9,14 @@ ms.reviewer: nenellim
 ms.collection: get-started
 ---
 
-# Introduction to the representative interface of Omnichannel for Customer Service
+# Introduction to the representative interface
 
 > [!IMPORTANT]
 > The Omnichannel for Customer Service representative-facing app is deprecated, and we recommend that you start using [Copilot Service workspace](../implement/csw-overview.md). Learn more in [Deprecations](../implement/deprecations-customer-service.md#omnichannel-for-customer-service-agent-facing-app-is-deprecated-and-removed-as-of-june-2024).
 
 The Omnichannel for Customer Service app for Dynamics enables organizations to instantly connect and engage with their customers via channels like Chat for Dynamics 365 Customer Service and SMS. The app provides context rich multitasking experience across different customer sessions.
 
-## Value propositions of Omnichannel for Customer Service app
+## Value propositions
 
 - **Unified experience:** The app provides unified and consistent single-view experience for the customer service representatives (service representatives or representatives) to view conversation details, Customer information, and access Line-of-Business applications from within the Omnichannel for Customer Service app.
 
@@ -30,7 +30,7 @@ The Omnichannel for Customer Service app for Dynamics enables organizations to i
 
 As a representative, you might engage with several customers simultaneously across different channels but managing all the customer sessions is a challenge, especially switching between the sessions while understanding the context of the engagement. Omnichannel for Customer Service provides a consistent experience regardless of the support channel and organizations can maximize representative productivity.
 
-Omnichannel for Customer Service provides the following key capabilities:
+Dynamics 365 Contact Center provides the following key capabilities:
 
 - Representatives dashboard
 - Multiple sessions
@@ -44,11 +44,11 @@ Omnichannel for Customer Service provides the following key capabilities:
 - Capture notes specific to the conversation
 
  > [!div class=mx-imgBorder]
- > ![Interface of Omnichannel for Customer Service app.](../media/oceh-oc-agent-interface-tier1-dashboard.png "Interface of Omnichannel for Customer Service app") 
+ > ![Interface of the app.](../media/oceh-oc-agent-interface-tier1-dashboard.png "Interface of the app") 
 
 ## Components in the representative interface
 
-When you start a chat session in Omnichannel for Customer Service, the representative interface has the following components:
+When you start a chat session in the app, the representative interface has the following components:
 
 - Communication panel
 
@@ -59,14 +59,14 @@ When you start a chat session in Omnichannel for Customer Service, the represent
 - Search, quick create, and presence
 
  > [!div class=mx-imgBorder]
- > ![Session panel in Omnichannel for Customer Service app.](../media/oceh-interface.png "Session panel in Omnichannel for Customer Service app") 
+ > ![Session panel in the app.](../media/oceh-interface.png "Session panel in the app") 
 
 ## Communication panel
 
 The communication panel is where you, as a representative, interact with your customer. When you sign in to the application, by default, the communication panel is in hidden mode. That is, the communication panel appears on the left side next to the session panel only when you accept an incoming conversation request. To learn more, see [View communication panel](oc-conversation-control.md).
 
  > [!div class=mx-imgBorder]
- > ![Communication panel in the representative interface of Omnichannel for Customer Service app.](../media/oceh-communication-panel.png "Communication panel in Omnichannel for Customer Service app")
+ > ![Communication panel in the representative interface of the app.](../media/oceh-communication-panel.png "Communication panel in the app")
 
 ## Application tab panel
 
@@ -125,7 +125,7 @@ The horizontal bar below the navigation bar is called the application tab panel.
 - [Manage sessions](oc-manage-sessions.md)
 - [Manage applications](oc-manage-applications.md)
 - [Understand conversation states](oc-conversation-state.md)
-- [Sign in to Omnichannel for Customer Service](oc-sign-in-omnichannel.md)
+- [Sign in to the app](oc-sign-in-omnichannel.md)
 - [View communication panel](oc-conversation-control.md)
 - [View agent dashboard and conversations (work items)](oc-agent-dashboard.md)
 
