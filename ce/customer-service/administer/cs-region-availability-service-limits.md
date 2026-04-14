@@ -136,7 +136,7 @@ Yes: Available
 No: Not available
 
 
-## Microsoft Power Platform capacity impact
+## Impact of insights on Power Platform capacity
 
 If you enable the insights feature, it affects Dataverse entitlements. Learn more in [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
 
