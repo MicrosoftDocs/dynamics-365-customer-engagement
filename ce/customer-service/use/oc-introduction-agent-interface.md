@@ -125,7 +125,6 @@ The horizontal bar below the navigation bar is called the application tab panel.
 - [Manage sessions](oc-manage-sessions.md)
 - [Manage applications](oc-manage-applications.md)
 - [Understand conversation states](oc-conversation-state.md)
-- [Sign in to the app](oc-sign-in-omnichannel.md)
 - [View communication panel](oc-conversation-control.md)
 - [View agent dashboard and conversations (work items)](oc-agent-dashboard.md)
 
