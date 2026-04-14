@@ -118,14 +118,8 @@ items:
                 href: manage-app.md
               - name: Add site map entry to custom app
                 href: add-custom-site-map.md
-      - name: Upgrade
-        items:
-          - name: Upgrade from Dynamics 365 Sales Professional
-            href: upgrade-sales-professional-sales-enterprise.md
-          - name: Move from Dynamics 365 Sales Enterprise to Professional
-            href: move-sales-enterprise-sales-professional.md
-          - name: Upgrade to Sales Premium
-            href: upgrade-sales-premium.md
+      - name: Upgrade Dynamics 365 Sales license
+        href: upgrade-sales-license.md
       - name: Region and language FAQs
         href: faq-region-language.md
       - name: Licenses and storage FAQs
