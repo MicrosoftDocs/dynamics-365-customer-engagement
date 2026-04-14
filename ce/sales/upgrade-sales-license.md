@@ -42,15 +42,14 @@ The upgrade involves these steps:
 
 ## Install the app
 
+The Sales Hub app is preinstalled with the Dynamics 365 Sales Enterprise and Premium licenses. If you're upgrading to one of these licenses, you can skip to the next section to remove the previous solution.
+
 1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com) as an admin.
-   > [!NOTE]
-   > The Sales Hub app is preinstalled with the Dynamics 365 Sales Enterprise and Premium licenses. If you're upgrading to one of these licenses, you can skip to the next section to remove the previous solution.
 1. Select **Environments**, and then open your environment.
 1. Select **Dynamics 365 apps**.
 1. Select **Install app**.
 1. Select the app specific to your Dynamics 365 Sales license, and then select **Next**.
     :::image type="content" source="media/select-install-app-dynamics365-apps-resource.png" alt-text="Screenshot of selecting the Sales app to install.":::
-
 6. Agree to the terms, and then select **Install**.
 
 ## Remove the previous solution
@@ -62,6 +61,6 @@ The upgrade involves these steps:
     > [!NOTE]
     > Deleting the solution removes associated app modules and configurations like site maps and form preferences.
 
-> [!IMPORTANT]
-> Check your licensing agreement. You cannot mix different license tiers on the same instance.
+## Related information
 
+[Licenses and storage FAQs](faq-licenses-storage.md)
