@@ -1,7 +1,7 @@
 ---
 title: Upgrade your Dynamics 365 Sales license
 description: Follow the steps in this topic to upgrade to a higher Dynamics 365 Sales license tier.
-ms.date: 04/06/2025
+ms.date: 04/14/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -17,10 +17,10 @@ As your business needs grow, you can upgrade your Dynamics 365 Sales license to 
 
 The upgrade involves these steps:
 
-1. Purchase the new Dynamics 365 Sales license subscription.
-2. Assign the new license to users.
-3. Install the corresponding Sales solution.
-4. Remove the previous solution.
+1. [Purchase the new Dynamics 365 Sales license subscription](#purchase-a-new-dynamics-365-sales-subscription).
+2. [Assign the new license to users](#assign-licenses-to-users).
+3. [Install the corresponding app](#install-the-app).
+4. [Remove the previous solution](#remove-the-previous-solution).
 
 ## Purchase a new Dynamics 365 Sales subscription
 
@@ -36,7 +36,6 @@ The upgrade involves these steps:
 2. Select the users who need the new license.
 3. Select **Manage product licenses**.
 4. In the **Manage product licenses** pane, select **Replace**, and then select your new Dynamics 365 Sales license.
-
     :::image type="content" source="media/assign-licenses-multiple-users.png" alt-text="Screenshot of assigning licenses to multiple users.":::
 
 5. Select **Save changes**, and then select **Done**.
@@ -50,7 +49,6 @@ The upgrade involves these steps:
 1. Select **Dynamics 365 apps**.
 1. Select **Install app**.
 1. Select the app specific to your Dynamics 365 Sales license, and then select **Next**.
-
     :::image type="content" source="media/select-install-app-dynamics365-apps-resource.png" alt-text="Screenshot of selecting the Sales app to install.":::
 
 6. Agree to the terms, and then select **Install**.
@@ -61,7 +59,6 @@ The upgrade involves these steps:
 2. Sign in to Dynamics 365, and select **Settings** > **Advanced Settings**.
 3. Select **Customization** > **Solutions**.
 4. Select your previous Dynamics 365 Sales solution, and then select **Delete**.
-
     > [!NOTE]
     > Deleting the solution removes associated app modules and configurations like site maps and form preferences.
 
