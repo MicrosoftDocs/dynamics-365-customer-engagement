@@ -10,11 +10,10 @@ ms.custom: bap-template
 ---
 # Integrate with multisession apps
 
-You can integrate Dynamics 365 Channel Integration Framework 2.0 with multisession apps like Copilot Service workspace and Omnichannel for Customer Service. 
+You can integrate Dynamics 365 Channel Integration Framework 2.0 with multisession apps like Copilot Service workspace. 
 
 Copilot Service workspace seamlessly allows customer service representatives to manage conversations across different channels. It's a modern, customizable, high-productivity app that allows representatives to work on multiple sessions at a time in a single workspace.
 
-The Omnichannel for Customer Service app enables organizations to instantly connect and engage with their customers via channels like Chat for Dynamics 365 Customer Service and SMS. The app provides a context-rich multitasking experience across different customer sessions.
 
 Learn more in:
 
