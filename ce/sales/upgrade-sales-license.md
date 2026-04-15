@@ -1,11 +1,12 @@
 ---
 title: Upgrade your Dynamics 365 Sales license
 description: Follow the steps in this topic to upgrade to a higher Dynamics 365 Sales license tier.
-ms.date: 04/14/2026
+ms.date: 04/15/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ai-usage: ai-assisted
 ---
 # Upgrade your Dynamics 365 Sales license
 
@@ -42,7 +43,7 @@ The upgrade involves these steps:
 
 ## Install the app
 
-The Sales Hub app is preinstalled with the Dynamics 365 Sales Enterprise and Premium licenses. If you're upgrading to one of these licenses, you can skip to the next section to remove the previous solution.
+Dynamics 365 Sales has two out-of-box apps: Sales Hub and Sales Professional. These apps are specific to licenses, and you must install the app that corresponds to your new license. Learn more about the apps included in each license in the [Dynamics 365 Sales licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com) as an admin.
 1. Select **Environments**, and then open your environment.
