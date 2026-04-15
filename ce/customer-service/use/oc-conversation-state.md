@@ -1,6 +1,6 @@
 ---
-title: Understand conversation states 
-description: Use this article to learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service.
+title: Understand conversation states in Dynamics 365 Contact Center
+description: Use this article to learn about various states and status reasons of conversations or work items in Dynamics 365 Contact Center.
 ms.date: 02/16/2026
 ms.topic: concept-article
 author: neeranelli
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-This article explains the various states and status reasons of the conversation (work item) in Omnichannel for Customer Service.
+This article explains the various states and status reasons of the conversation (work item) in Dynamics 365 Contact Center.
 
 The conversation can be in an open or closed state, and can have the following status reasons:
 
@@ -25,7 +25,7 @@ The conversation can be in an open or closed state, and can have the following s
 
  ![Omnichannel conversation states.](../media/oc-conversation-state.png "Conversation states")
 
- *Channel* refers to SMS, voice, social, and Microsoft Teams channels supported in Omnichannel for Customer Service.
+ *Channel* refers to SMS, voice, social, and Microsoft Teams channels supported in Dynamics 365 Contact Center.
 
 > [!NOTE]
 > Also, the conversation might have the resolved or scheduled status reason, which is for internal use only.

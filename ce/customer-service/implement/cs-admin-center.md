@@ -105,9 +105,9 @@ You can manage the following features in **Support experience**:
 
 You can manage the following features in **Operations**:
 
-- **Insights**: Historical analytics for Customer Service and Omnichannel for Customer Service, Omnichannel intraday insights and AI feature settings for cases and conversations, real-time translation and machine-learning models for skills, and skill-based, effort-based, and sentiment-based routing setup.
+- **Insights**: Historical analytics for Customer Service and Dynamics 365 Contact Center, AI feature settings for cases and conversations, real-time translation and machine-learning models for skills, and skill-based and sentiment-based routing setup.
 - **Calendar**: Operating hours, Customer Service calendar, and holiday calendar.
-- **Service terms**: Service-level agreements (SLAs), SLA KPIs, and entitlements
+- **Service terms**: Service-level agreements (SLAs), SLA KPIs, and entitlements.
 - **Service scheduling**: Organizational units, facilities and equipment, resources, service scheduling, business closure, fulfillment preferences, and resource categories.
 - **Miscellaneous**: Analysis jobs, migration tool, and IoT settings.
 
@@ -128,5 +128,5 @@ Go to the [FAQ about Copilot Service admin center](../administer/faq-customer-se
 [Help resources for Customer Service](../help-hub.md)  
 [Sign up for a free Dynamics 365 Customer Service trial](try-customer-service.md)  
 [Overview of user management](overview-users.md)  
-[Manage your bots in Omnichannel for Customer Service](../administer/manage-your-bots.md)  
+[Manage your agents in Dynamics 365 Contact Center](../administer/manage-your-bots.md)  
 [Check your contact center health](../administer/check-contact-center-health.md)  

@@ -1,5 +1,5 @@
 ---
-title: FAQ about unified routing
+title: FAQ about unified routing in Customer Service, Dynamics 365 Contact Center
 description: Learn about the frequently asked questions (FAQs) for unified routing.
 ms.date: 01/19/2026
 ms.topic: faq
@@ -9,7 +9,7 @@ ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
-# FAQ about unified routing in Customer Service, Omnichannel for Customer Service
+# FAQ about unified routing in Customer Service, Dynamics 365 Contact Center
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 

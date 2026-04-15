@@ -2,6 +2,7 @@
 title: View records processed by agent
 description: Learn how to view the records processed by the Sales Close Agent type in Dynamics 365 Sales.
 ms.date: 11/21/2025
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

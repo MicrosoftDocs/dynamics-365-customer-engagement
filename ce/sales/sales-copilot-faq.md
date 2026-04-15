@@ -8,7 +8,7 @@ ms.topic: concept-article
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ms.date: 04/09/2026
-ms.update-cycle: 180-days
+ms.update-cycle: 90-days
 ---
 
 # FAQ about Copilot in Dynamics 365 Sales
