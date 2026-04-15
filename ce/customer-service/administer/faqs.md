@@ -17,7 +17,7 @@ ms.custom: bap-template
 
 ### What regions are supported?
 
-Refer the list of supported regions at [International availability of Microsoft Dynamics 365](../implement/international-availability.md). 
+Refer the list of supported regions at [International availability](/dynamics365/contact-center/implement/international-availability).
 
 ### What platforms are supported?
 
@@ -52,7 +52,7 @@ Sign up for a trial using these [Instructions](../use/channels.md). Learn more i
 
 ### Can I work on cases along with chats?
 
-Yes. You can work on cases alongside customer conversations in different sessions. You can open case sessions from the dashboards and grids using gestures. Learn more about starting a session in [Manage sessions in Omnichannel for Customer Service](../use/oc-manage-sessions.md#start-a-session).
+Yes. You can work on cases alongside customer conversations in different sessions. You can open case sessions from the dashboards and grids using gestures. Learn more about starting a session in [Manage sessions](../use/oc-manage-sessions.md#start-a-session).
 
 ### Can I work on non-Microsoft communication widgets built using Dynamics 365 Channel Integration Framework in the Copilot Service Workspace app? 
 
@@ -67,7 +67,7 @@ We recommend that you don't open Copilot Service workspace in multiple browser t
 
 If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost. However, if you entered some data on the model-driven forms where AutoSave is enabled, they're saved into model-driven apps.
 
-Ongoing chat and voice conversations appear on your Omnichannel Agent Dashboard. You can pick the chat or [voice call](/dynamics365/contact-center/use/voice-channel-agent-experience#how-to-avoid-call-disconnection) from the dashboard and resume the conversation. The system preserves the chat or voice call conversation, and you can review the previous chat messages. If you were working on case sessions, you can reopen them using the gestures. For information on starting a session, go to [Manage sessions in Omnichannel for Customer Service](../use/oc-manage-sessions.md#start-a-session).
+Ongoing chat and voice conversations appear on your Omnichannel Agent Dashboard. You can pick the chat or [voice call](/dynamics365/contact-center/use/voice-channel-agent-experience#how-to-avoid-call-disconnection) from the dashboard and resume the conversation. The system preserves the chat or voice call conversation, and you can review the previous chat messages. If you were working on case sessions, you can reopen them using the gestures. For information on starting a session, go to [Manage sessions](../use/oc-manage-sessions.md#start-a-session).
 
 To restore browser sessions after the browser reopens, see [session restore (preview)](/dynamics365/customer-service/administer/enable-session-restore).
 
@@ -136,15 +136,15 @@ If you get an error that says, "Unable to perform the requested operation..." or
 
 ### What do I do if my dashboards (Omnichannel Agent Dashboard, Omnichannel Conversation Dashboard, Tier 1 Dashboard, Tier 2 Dashboard) aren’t showing up?
 
-When you use the Omnichannel for Customer Service app on Unified Service Desk or on the web, the **Active Omnichannel Agent Dashboard** view doesn't show certain dashboards like **Tier 1 Dashboard**, **Tier 2 Dashboard**, **Knowledge Manager**, and **My Knowledge Dashboard**. Learn more in [Dashboards don't appear in Omnichannel for Customer Service active dashboards view](../troubleshoot-omnichannel-customer-service.md#dashboards-do-not-appear-in-omnichannel-for-customer-service-active-dashboards-view).
+When you use the Omnichannel for Customer Service app on Unified Service Desk or on the web, the **Active Omnichannel Agent Dashboard** view doesn't show certain dashboards like **Tier 1 Dashboard**, **Tier 2 Dashboard**, **Knowledge Manager**, and **My Knowledge Dashboard**. Learn more in [Dashboards don't appear in Dynamics 365 Contact Center active dashboards view](../troubleshoot-omnichannel-customer-service.md#dashboards-do-not-appear-in-omnichannel-for-customer-service-active-dashboards-view).
 
 ### How long does a configuration change to the Dynamics 365 Contact Center and unified routing settings take to update?
 
 All configuration changes to a feature or setting, such as updating a queue membership or workstream setting, can take up to 15 minutes to reflect.
 
-### How can I bring custom entities, forms, and dashboards into the Omnichannel for Customer Service app? 
+### How can I bring custom entities, forms, and dashboards into the Copilot Service workspace app?
 
-The Copilot Service workspace app can be customized to include custom dashboards and custom forms the same as any Unified Interface app module. The sitemap can be updated to include custom entities, and default forms can be changed to load custom ones for the entities. All Microsoft Dataverse entities and pages are compatible with the Copilot Service workspace app. 
+The Copilot Service workspace app can be customized to include custom dashboards and custom forms the same as any Unified Interface app module. The sitemap can be updated to include custom entities, and default forms can be changed to load custom ones for the entities. All Microsoft Dataverse entities and pages are compatible with the Copilot Service workspace app.
 
 ### Can I customize the Conversation Summary form?
 
@@ -235,11 +235,11 @@ Yes, Omnichannel system automatically identifies the customer based on the incom
 
 ### Can I send automated SMS responses?
 
-Yes. In Omnichannel for Customer Service, you can send automated messages based on system-triggered or user-defined events. Learn more in [Configure outbound messaging](../administer/outbound-messaging.md).
+Yes. In Dynamics 365 Contact Center, you can send automated messages based on system-triggered or user-defined events. Learn more in [Configure outbound messaging](../administer/outbound-messaging.md).
 
 ### Is there anything unique about the way SMS messages are routed to representatives?
 
-All channels integrated into Omnichannel for Customer Service have the same routing capabilities, including SMS. You can create routing rule items with conditions based on Account or Contact entities. Other entities (Case, Context variable, and SMS Engagement Context) aren't supported at this time and shouldn't be used for creating conditions in routing rule items in an SMS workstream.
+All channels integrated into Dynamics 365 Contact Center have the same routing capabilities, including SMS. You can create routing rule items with conditions based on Account or Contact entities. Other entities (Case, Context variable, and SMS Engagement Context) aren't supported at this time and shouldn't be used for creating conditions in routing rule items in an SMS workstream.
 
 ## AI agent
 

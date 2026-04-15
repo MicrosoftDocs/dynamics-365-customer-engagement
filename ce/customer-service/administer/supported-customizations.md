@@ -10,7 +10,7 @@ ms.custom: bap-template
 ---
 # Customizations supported by the Conversation table and form
 
-This article lists the customizations that you can and can't use with the **Conversation** table (`msdyn_ocliveworkitem`) and the **Conversation** form in Omnichannel for Customer Service.
+This article lists the customizations that you can and can't use with the **Conversation** table (`msdyn_ocliveworkitem`) and the **Conversation** form in Dynamics 365 Contact Center.
 
 ## Customizations supported by the Conversation table
 
@@ -46,7 +46,7 @@ You can customize the **Conversation** form to:
 
 - Load the **Active Conversation** form as an application tab instead of an anchor tab in a session.
 - Edit existing forms in the following ways:
-  - Add custom controls. However, we recommend that you don't use custom controls to update a conversation because Omnichannel for Customer Service will overwrite the updates when the conversation ends.
+  - Add custom controls. However, we recommend that you don't use custom controls to update a conversation because Dynamics 365 Contact Center overwrites the updates when the conversation ends.
   - Edit the quick view for customers and cases.
   - Add web resources and external website controls.
   - Modify the form layout, resize controls, and create tabs and sections.

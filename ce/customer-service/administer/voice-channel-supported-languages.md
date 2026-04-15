@@ -4,7 +4,7 @@ description: Know about the supported languages and locale codes for the voice c
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 03/13/2025
+ms.date: 04/15/2026
 ms.topic: concept-article
 ms.collection:
 ms.custom: bap-template
@@ -205,7 +205,7 @@ Use the information in the following table to find out more about language suppo
 | Bring your own bot (IVR) | [Language and voice support for the Speech service](/azure/cognitive-services/speech-service/language-support)|
 | AI suggestions | [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#language-support-for-ai-suggestions)|
 | Sentiment Analysis | [Multilingual sentiment](enable-sentiment-analysis.md#multilingual-sentiment) |
-| Other Dynamics 365 Contact Center features | [Language availability in Omnichannel for Customer Service](../implement/international-availability.md#language-availability)|
+| Other Dynamics 365 Contact Center features | [Language availability in Dynamics 365 Contact Center](/dynamics365/contact-center/implement/international-availability#language-availability)|
 
 ## Next steps
 
@@ -214,5 +214,5 @@ Use the information in the following table to find out more about language suppo
 ### Related information
 
 [Overview of the voice channel](voice-channel.md)  
-[FAQ about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  
+[FAQ about the voice channel in Dynamics 365 Contact Center](voice-channel-faqs.md)  
 
