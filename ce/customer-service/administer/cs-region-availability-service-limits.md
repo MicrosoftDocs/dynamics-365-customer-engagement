@@ -1,23 +1,32 @@
 ---
-title: Supported regions and languages for analytics and insights
-description: Learn about region availability and the languages supported for analytics and insights.
+title: Supported regions and languages for autonomous agents, copilot features, and analytics in Customer Service and Dynamics 365 Contact Center
+description: Learn about region availability and the languages supported for autonomous agents, copilot features, and analytics in Customer Service and Dynamics 365 Contact Center.
 ms.topic: concept-article
-ms.date: 01/28/2026
-ms.update-cycle: 180-days
+ms.date: 04/15/2026
+ms.update-cycle: 90-days
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.collection: bap-ai-copilot
-feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
+feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Supported regions and languages for analytics and insights
+# Supported regions and languages for autonomous agents, copilot features, and analytics
 
 Depending on your location, certain features are available in Dynamics 365 Customer Service insights. [Service limits](ana-ser-limits.md#service-limits-for-analytics-and-insights) also apply.
 
 ## Prerequisites
 
-The [AI Builder preview models](/ai-builder/administer#enable-or-disable-ai-builder-preview-features) setting must be enabled in [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+For analytics and insights, the [AI Builder preview models](/ai-builder/administer#enable-or-disable-ai-builder-preview-features) setting must be enabled in [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+
+## Supported regions for autonomous agents
+
+Learn about supported regions for the following autonomous agents in [Explore feature availability by geography](https://releaseplans.microsoft.com/availability-reports/?report=featuregeoreport):
+
+- Customer Intent Agent
+- Case Management Agent
+- Customer Knowledge Management Agent
+- Quality Evaluation Agent
 
 ## Supported regions for Copilot features
 
@@ -25,10 +34,6 @@ The following table lists the region availability of Copilot features for the re
 
 | Feature | North America| Europe | Asia Pacific | South America | Australia | Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland | Germany | Korea | Norway | Singapore | South Africa | Government Community Cloud - M | Government Community Cloud - H |
 | ------- | ------------ | ------ | ------------ | ------------- | --------- | ----- | ----- | ---- | ------ | -------------- | ------ | -------------------- | ----------- | ------- | ----- | ------ | --------- | ------------ | ------------------------------ | ------------------------------ |
-| Customer Intent Agent | Yes | Yes | Yes |	Yes | Yes |	Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No |
-| Case Management Agent | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No| No |
-| Customer Knowledge Management Agent | Yes | Yes | Yes |	Yes | Yes |	Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No |
-| Quality Evaluation Agent | Yes | Yes | Yes |	Yes | Yes |	Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No |
 | Copilot&mdash;Summarize cases | Yes | Yes | Yes |	Yes | Yes |	Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 | Copilot&mdash;Summarize conversations | Yes | Yes | Yes |	Yes | Yes |	Yes | No | Yes | Yes |	Yes | No | No | No | No | No | No | No | No | No | No |
 | Copilot&mdash;Ask a question | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes |	Yes | Yes | Yes |	Yes | Yes |	Yes | Yes | Yes | Yes | Yes | Yes | No |
@@ -42,16 +47,21 @@ No: Not available
 > [!NOTE]
 > By default, the Copilot features are available in the North America region only. Customers with environments outside the United States can use the Copilot features by opting in to data movement across geographical (data) boundaries to share relevant data outside their region for processing.
 
+## Supported languages for autonomous agents
+
+Learn about the supported languages for the following autonomous agents in [Explore feature availability by language](https://releaseplans.microsoft.com/availability-reports/?report=featurelangreport):
+
+- Customer Intent Agent
+- Case Management Agent
+- Customer Knowledge Management Agent
+- Quality Evaluation Agent
+
 ## Supported languages for Copilot features
 
 The following table lists the availability of Copilot features for the respective region languages.
 
 | Feature | English | Arabic | Danish | Dutch | French | German | Italian | Japanese | Portuguese (Portugal) | Chinese (Simplified) | Spanish | Portuguese (Brazil) | Thai | Czech | Finnish | Greek | Hebrew | Korean | Norwegian (Bokmål) | Polish | Russian | Swedish | Turkish | Vietnamese |
 | ------- | ------- | ------ | ------ | ----- | ------ | ------ | ------- | -------- | --------------------- | -------------------- | ------- | ------------------- | ---- | ----- | ------- | ----- | ------ | ------ | ------------------ | ------ | ------- | ------- | ------- | ---------- |
-| Customer Intent Agent | Yes | No | No |	No | No |	No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No |
-| Case Management Agent | Yes | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No |
-| Customer Knowledge Management Agent | Yes | No | No |	No | No |	No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No |
-| Quality Evaluation Agent | Yes | No | No |	No | No |	No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No |
 | Copilot&mdash;Summarize cases<sup>**1**</sup> | Yes | Yes | Yes |	Yes | Yes |	Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Copilot&mdash;Summarize conversations<sup>**1**</sup> | Yes | Yes | Yes |	Yes | Yes |	Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Copilot&mdash;Ask a question | Yes | Yes | Yes | Yes | Yes |	Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
@@ -87,7 +97,6 @@ The following table lists the region availability of analytics and insights.
 | AI suggestions for cases and knowledge articles | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes |
 | Intelligent skill finder for unified routing | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Sentiment prediction-based routing | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Effort estimation model for unified routing | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 | AI suggestions for contacts in Microsoft Teams | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No |
 | AI generated summary for contacts in Microsoft Teams | Yes | Yes | No | No | No | No | No | No | No | No | No | No | No | No | No |
 | Forecast report for service representative, cases, and conversations | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
@@ -117,7 +126,6 @@ The following table lists the language availability of the other Customer Servic
 | Feature name | English | Arabic |  Danish | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish | Portugese (Brazil) |Thai |
 | ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |--------|
 | Intelligent skill finder for unified routing | Yes | No | No | No | Yes | Yes | Yes | Yes | No | No | Yes | No | No |
-| Effort estimation model for routing | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | No | No | Yes | No | No |
 | AI suggestions for cases and knowledge articles | Yes | No | No | Yes | Yes | Yes | Yes | Yes | No | No | Yes | No | No |
 | AI suggestions for contacts in Microsoft Teams | Yes | No | No | Yes | Yes | Yes | Yes | Yes | No | No | Yes | No | No |
 | AI topic discovery | Yes | No | No | No | Yes | Yes | Yes | Yes | Yes | No | Yes |  No | No |
@@ -128,7 +136,7 @@ Yes: Available
 No: Not available
 
 
-## Microsoft Power Platform capacity impact
+## Impact of insights on Power Platform capacity
 
 If you enable the insights feature, it affects Dataverse entitlements. Learn more in [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
 
