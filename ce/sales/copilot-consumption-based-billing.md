@@ -7,6 +7,7 @@ ms.reviewer: lavanyakr
 ms.topic: concept-article
 ms.search.keywords: administration, tenant, admin, environment, telemetry, billing
 ms.date: 05/20/2025
+ms.collection: bap-ai-copilot
 
 ---
 

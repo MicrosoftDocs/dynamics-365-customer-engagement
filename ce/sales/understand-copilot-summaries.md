@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: concept-article
-ms.collection: 
+ms.collection: bap-ai-copilot
 ms.date: 11/07/2025
 ms.custom: bap-template 
 ---

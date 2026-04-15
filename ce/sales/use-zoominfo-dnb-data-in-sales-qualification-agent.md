@@ -6,6 +6,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.date: 09/17/2025
 ms.topic: concept-article
+ms.collection: bap-ai-copilot
 ---
 
 # Configure Sales Qualification Agent to use Dataverse fields enriched by third-party data providers
