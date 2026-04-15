@@ -42,4 +42,4 @@ If you enable the insights feature, it affects Dataverse entitlements. Learn mor
 
 ## Related information
 
-[Supported regions and languages for analytics and insights](cs-region-availability-service-limits.md#supported-regions-and-languages-for-analytics-and-insights)
+[Supported regions and languages for analytics and insights](cs-region-availability-service-limits.md)  
