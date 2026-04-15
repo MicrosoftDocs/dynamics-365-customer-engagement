@@ -2,6 +2,7 @@
 title: View Sales Close Agent insights and metrics
 description: Learn how to view insights and metrics for the Sales Close Agent's Engage type, including key performance indicators and engagement statistics.
 ms.date: 01/09/2026
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

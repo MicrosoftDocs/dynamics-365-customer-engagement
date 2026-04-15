@@ -5,6 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.date: 04/03/2026
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted

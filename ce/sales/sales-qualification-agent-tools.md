@@ -2,7 +2,7 @@
 title: MCP tools for Sales Qualification Agent capabilities
 description: Learn about the tools available in the Sales MCP server that support the Sales Qualification Agent capabilities in Dynamics 365 Sales.
 ms.date: 02/27/2026
-ms.update-cycle: 180-days
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
