@@ -55,7 +55,7 @@ Supervisors can use the Agent forecasting for conversation report in the followi
 >
 > - Forecasts might misstate volume estimates for many reasons, including unanticipated trends or business developments.
 >
-> - The Agent forecasting for conversation report is currently available in certain geographical locations. Learn more in [Supported regions and languages for analytics and insights](cs-region-availability-service-limits.md#supported-regions-and-languages-for-analytics-and-insights).
+> - The Agent forecasting for conversation report is currently available in certain geographical locations. Learn more in [Supported regions and languages for analytics and insights](cs-region-availability-service-limits.md).
 
 ## How agent forecasting for conversation works
 
