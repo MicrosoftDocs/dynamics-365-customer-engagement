@@ -76,9 +76,9 @@ When you have multiple agent instances, you can configure knowledge sources for 
     The condition options are displayed.
 1. Choose the **is equal to** condition and paste the copied GUID in the value field.
     :::image type="content" source="media/knowledge-source-agent-instance-filter.png" alt-text="Screenshot of the knowledge source configuration form showing how to filter by agent instance using the agentProfileId variable.":::
-1. Save and publish the knowledge source. 
-   The knowledge source is now filtered to be used only by the agent instance.
-
+1. Save and publish the knowledge source.  
+   The knowledge source is added to the instance and the agent uses it to generate insights for that instance only.  
+    :::image type="content" source="media/knowledge-source-added-instance.png" alt-text="Screenshot of the knowledge source list showing a knowledge source with Conditional usage that indicates it's added to a specific agent instance."::: 
 
 <a name="configure-competitor-insights"></a>
 ## Configure the agent to generate competitor insights
