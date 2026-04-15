@@ -63,7 +63,7 @@ To enable smart assist for the bot framework in Dynamics 365 Contact Center, per
 
 1. [Add smart assist agent to a workstream]
 
-### Create an agent user<
+### Create an agent user
 
 Create an agent user in the application to work as a smart assistant to the representative. An agent user is created as an application user and assigned the **Omnichannel agent** role. If your agent needs to search for knowledge base articles, then you need to provide either the **Customer Service Manager** or **Customer Service Representative** role.
 

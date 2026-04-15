@@ -2,7 +2,7 @@
 title: Integrate with multisession apps
 description: Integrate Dynamics 365 Channel Integration Framework 2.0 with multisession apps like Copilot Service workspace.
 author: gandhamm
-ms.date: 12/10/2024
+ms.date: 04/15/2026
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: integration
