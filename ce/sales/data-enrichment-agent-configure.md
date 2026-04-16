@@ -32,13 +32,15 @@ Ensure that you meet the following prerequisites:
 1. In the **AI Agents** page, select **Create**.  
    If the **Create** button is disabled, select the **Prerequisites** button next to it to ensure that all the common prerequisites are met.
 1. Select **Data Enrichment** from the list of available AI agents.
-    A dialog box appears with the recommended default settings.
+   A dialog opens with a quick tour of the Data Enrichment feature and the option to create the agent.
+1. Select **Next** to get a quick overview of the feature or select **Skip & create agent** to go directly to the recommended defaults page.
     :::image type="content" source="media/data-enrichment-quick-setup.png" alt-text="Screenshot of the Data Enrichment quick setup dialog box with recommended default settings.":::
 1. Do *ONE* of the following:
-    - Review the default settings and select **Start agent** if you're satisfied with the defaults. 
+    - Review the recommended settings and select **Start agent** if you're satisfied with the defaults. 
     - Select **Edit in settings** to customize the configuration:
+       1. [Configure prerequisites](#configure-prerequisites) 
        1. [Define the agent profile](#define-the-agent-profile)
- 
+
        2. [Select records for enrichment](#select-records-for-enrichment)
        3. [Configure agent behavior](#configure-agent-behavior)
        4. After configuring the settings, select **Apply changes** and then **Start agent** to activate Data Enrichment with your specified configuration.
@@ -46,17 +48,40 @@ Ensure that you meet the following prerequisites:
   The agent doesn't analyze any opportunity records or emails until sellers [provide consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to read their emails. The consent is specific to each seller. 
 
 <a name="open-settings"></a>
-## Open Data Enrichment settings after agent creation
+## Open the Data Enrichment settings page
 
 To review or modify the Data Enrichment settings after the agent has been created, follow these steps:
 
 1. From the Sales Hub app, navigate to **App Settings**.
 1. Under **General Settings**, select **Dynamics 365 AI Hub** and then select **Create and manage agents**.
-1. In the **AI Agents** page, select the Data Enrichment agent that you created to open its settings.
+1. In the **AI Agents** page, select the agent with type **Conversation Enrichment**.
+1. 
+
+### Configure prerequisites
+
+1. [Open the Data Enrichment settings page](#open-the-data-enrichment-settings-page).
+1. On the **Prerequisites** section, configure the following settings:
+   - **Dataverse Search**: Data Enrichment uses Dataverse Search to find and enrich records in Dynamics 365 Sales. If you didn't set up Dataverse Search, select **Set up** to open the **Features** page in Power Platform admin center. Learn more about [configuring Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization). After setting up Dataverse Search, return to the agent configuration page and select **Refresh** to update the status of this prerequisite. 
+   - **Microsoft 365 Services**: (Optional but recommended) To allow the agent to read seller emails and fetch relevant data for enrichment, select **Mark as done** and then **Apply changes**. Sellers are prompted to provide consent the first time they access the **Opportunity** page. This method reads emails in place without storing them in CRM. If your organization already uses server-side synchronization, that continues to work as an alternative method. To learn more server-side synchronization, see [Configure server-side synchronization](#configure-server-side-synchronization).
+   
+     To configure and use Microsoft 365 Services, you need:
+     - At least one of the following roles: Global administrator, Dynamics 365 administrator, or similar.
+     - At least one of the following licenses: Microsoft 365/Office 365, Power Automate Premium, or Dynamics 365 Sales Enterprise Edition.
+
+     > [!NOTE]
+     > The agent reads emails of the opportunity owner to generate insights. However, the insights are visible to all users who can access the opportunity.
 
 ### Define the agent profile
 
 In the **Profile** section of the [Data Enrichment settings](#open-settings), specify the name and description. This name helps identify the agent in the list of AI agents.
+
+### Configure user access
+
+In the **User access** section of the [Data Enrichment settings](#open-settings), specify who can access the agent's suggestions. Only the selected users' opportunity records are analyzed and enriched by the agent and only those users can see the suggestions.
+ 
+- **All users with premium license**: Select this option to allow all users with a Dynamics 365 Sales Premium license to access the agent's suggestions.
+- **Specific groups**: Select this option to allow specific sellers (up to 10) or those who meet certain criteria to access the agent's suggestions. You can either select individual users or specify criteria based on fields such as sales team, job title, or geography to determine who can access the agent's suggestions.  
+
 
 ### Select records for enrichment
 
