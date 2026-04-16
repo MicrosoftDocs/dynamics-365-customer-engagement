@@ -1,15 +1,15 @@
 ---
-title: Use form-fill assistance in Customer Service and Dynamics 365 Contact Center
+title: Use AI form-fill assistance in Customer Service and Dynamics 365 Contact Center
 description: Learn how to use AI-generated optional suggestions for fields in Customer Service and Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
 ms.topic: overview
-ms.date: 04/09/2026
+ms.date: 04/16/2026
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---
 
-# Use form-fill assistance in Customer Service and Dynamics 365 Contact Center
+# Use AI form-fill assistance in Customer Service and Dynamics 365 Contact Center
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 

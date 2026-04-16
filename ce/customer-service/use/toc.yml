@@ -338,9 +338,9 @@
           href: supervise-agents-with-agent-feed.md
         - name: Use form-fill assistance
           href: form-fill-assistance.md
-        - name: Use natural language to find data with AI (preview)
+        - name: Use natural language to find data with AI
           href: find-data-with-ai.md
-        - name: Visualize data in a chart with Copilot (preview)
+        - name: Visualize data in a chart with Copilot
           href: visualize-data-using-copilot.md
         - name: View Copilot-generated row summaries
           href: record-summaries.md
