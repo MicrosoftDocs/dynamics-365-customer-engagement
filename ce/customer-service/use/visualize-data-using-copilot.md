@@ -1,10 +1,10 @@
 ---
-title: Visualize your data as a chart with Copilot in Customer Service and Dynamics 365 Contact Center (preview)
+title: Visualize your data as a chart with Copilot in Customer Service and Dynamics 365 Contact Center
 description: Learn how to visualize your Customer Service or Dynamics 365 Contact Center data as a chart using Copilot.
 author: neeranelli
 ms.author: nenellim
 ms.topic: overview
-ms.date: 04/15/2026
+ms.date: 04/16/2026
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---
