@@ -15,10 +15,6 @@ feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?cat
 
 Depending on your location, certain features are available in Dynamics 365 Customer Service insights. [Service limits](ana-ser-limits.md#service-limits-for-analytics-and-insights) also apply.
 
-## Prerequisites
-
-For analytics and insights, the [AI Builder preview models](/ai-builder/administer#enable-or-disable-ai-builder-preview-features) setting must be enabled in [Power Platform admin center](https://admin.powerplatform.microsoft.com).
-
 ## Supported regions for autonomous agents
 
 Learn about supported regions for the following autonomous agents in [Explore feature availability by geography](https://releaseplans.microsoft.com/availability-reports/?report=featuregeoreport):
