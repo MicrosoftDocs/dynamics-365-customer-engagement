@@ -24,7 +24,7 @@ This article provides answers to frequently asked questions about the AI-powered
 AI-powered Data Enrichment uses data from sources within your Dynamics 365 environment:
 
 - **Dataverse data**: Information stored in your organization's Microsoft Dataverse environment, including configured CRM entities such as accounts, contacts, leads, and opportunities.
-- **Email data**: Customer emails stored in Dynamics 365, which the feature analyzes to extract context and relevant information.
+- **Email data**: Customer emails stored in Dynamics 365 and Microsoft 365 (if enabled), which the feature analyzes to extract context and relevant information.
 
 AI-powered Data Enrichment only accesses fields and entities that have been approved by administrators through configuration settings. Data access is constrained by user roles and permissions configured in Dynamics 365. The feature does not have access to all data in your environment by default.
 
@@ -35,3 +35,7 @@ The quality and completeness of enrichment suggestions depend directly on the qu
 AI-powered Data Enrichment processes data within your Dynamics 365 environment and does not send customer data, email content, or CRM records outside your organization's tenant for enrichment purposes.
 
 All data processing occurs within Microsoft's cloud infrastructure in accordance with your organization's tenant configuration and Microsoft's data handling policies. Data residency and compliance settings configured for your Dynamics 365 environment apply to AI-powered Data Enrichment operations.
+
+## How frequently does AI-powered Data Enrichment update opportunity records?
+
+The agent analyzes emails and generates suggestions every 4 hours. For manual updates, sellers can review suggestions as soon as they're generated. For automatic updates, changes are applied based on the enrichment frequency, which is set to **Daily** by default. This frequency can't be changed.

@@ -36,7 +36,7 @@ If your admin has configured the agent for manual updates, you need to manually 
 1. Open your opportunity record in the Sales Hub app.
    If Data Enrichment has suggestions for the record, you see a notification banner at the top of the form indicating that new suggestions are available.
 
-1. Select **See suggestions** in the notification banner. 
+1. Select **Data Enrichment suggestions** in the notification banner. 
    The **Data Enrichment** pane opens. 
 1. In the **Suggestions** tab, hover over the information icon next to each suggestion to see details about the source of the suggestion. Review the suggestions and perform one of the following actions:
    - To accept or reject all the suggestions, select **Accept all** or **Reject all** at the bottom of the pane.
@@ -54,7 +54,7 @@ If your admin has configured Data Enrichment to automatically update fields in y
 1. Open your opportunity record in the Sales Hub app.
    If Data Enrichment has updated the record, you'll see a notification banner at the top of the form indicating that new suggestions are available.
 
-1. Select **See suggestions** in the notification banner. 
+1. Select **Data Enrichment suggestions** in the notification banner. 
    The **Data Enrichment** pane opens. 
 1. In the **Updates** tab, hover over the information icon next to each suggestion to see details about the source of the suggestion. Review the suggestions and do one of the following:
    - To keep or revert all the changes, select **Keep all** or **Undo all** respectively at the bottom of the pane.
@@ -73,10 +73,27 @@ The AI-powered Data Enrichment feature associates emails with an opportunity bas
 
 1. Open your opportunity record in the Sales Hub app.  
 
-1. In the **Timeline** section, look for emails with the agent icon (:::image type="icon" source="media/dea-agent-icon.png" border="false":::).   
-   This icon indicates that the email is associated with the opportunity by Data Enrichment.
+1. In the **Timeline** section, look for emails with the agent icon (:::image type="icon" source="media/dea-agent-icon.png" border="false":::). Depending on how your admin has configured the agent, one of the following scenarios applies:
+
+    1. If Microsoft 365 services are enabled for the agent, you would see the related emails from your mailbox. These emails are not tracked by default and are visible only in your timeline. Select **Track** on the email to track it in the opportunity record and make it visible to other users.   
+    2. Emails from Dataverse are tracked by default and visible to all users with access to the opportunity record.
 
 1. Select **Not related?** if you believe the email isn't related to the opportunity. You can then select whether you want to remove the email from the current opportunity or reassign it to another opportunity.
+
+## View stakeholder suggestions
+
+When an existing Dynamics 365 contact is added to an email thread related to an opportunity, the AI-powered Data Enrichment feature identifies the contact as a potential stakeholder for the opportunity and suggests adding them as a stakeholder in the opportunity record.
+
+To view the stakeholder suggestions:
+
+1. Open your opportunity record in the Sales Hub app.
+1. Select **Data Enrichment suggestions** in the notification banner. 
+1. In the Data Enrichment pane, select the **Related records** tab to view the list of suggested stakeholders based on recent email interactions. 
+1. Hover over the stakeholder suggestion and select the **Information** icon to view the source of the suggestion.
+1. (Manual update) Hover over the suggestion and select the **Accept** icon (check mark) to add the stakeholder to the opportunity record or the **Reject** icon (cross mark) to dismiss the suggestion. 
+1. (Automatic update) The stakeholder is added to the opportunity record automatically. Hover over the suggestion and select the **Undo** icon (cross mark) to remove the stakeholder from the opportunity record if you think the suggestion is incorrect.
+   To change the stakeholder's role, follow the instructions in [Add stakeholders and decision makers for the opportunity](add-stakeholder.md#add-stakeholders-and-decision-makers-for-the-opportunity).
+
 
 ## View change history
 
@@ -90,6 +107,6 @@ The information that you see depends on how Data Enrichment is configured:
 **To view the change history:**
 
 1. Open your opportunity record in the Sales Hub app.
-1. Select **See suggestions** in the notification banner. 
+1. Select **Data Enrichment suggestions** in the notification banner. 
    The **Data Enrichment** pane opens. 
 1. Select the **History** tab to view the list of changes made to the opportunity record based on Data Enrichment suggestions. 
