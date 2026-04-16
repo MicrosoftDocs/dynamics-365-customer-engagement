@@ -268,7 +268,7 @@ items:
                 href: data-enrichment-agent-configure.md
               - name: Data Enrichment FAQ
                 href: data-enrichment-agent-faqs.md
-          - name: Sales Research Agent (preview)
+          - name: Sales Research Agent
             items:
               - name: Overview
                 href: sales-research-agent.md
@@ -945,7 +945,7 @@ items:
                 href: data-enrichment-agent-overview.md
               - name: Review and approve suggestions from Data Enrichment
                 href: use-data-enrichment-agent.md
-          - name: Sales Research Agent (preview)
+          - name: Sales Research Agent
             items:
               - name: Overview
                 href: sales-research-agent.md
