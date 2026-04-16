@@ -5,7 +5,7 @@ author: puneet-singh1
 ms.author: puneetsingh
 ms.reviewer: puneetsingh
 ms.topic: overview
-ms.date: 03/16/2026
+ms.date: 04/15/2026
 ---
 
 # Use Microsoft 365 Copilot in Field Service (preview)
