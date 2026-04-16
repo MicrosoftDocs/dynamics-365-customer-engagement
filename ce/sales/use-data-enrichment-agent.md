@@ -25,7 +25,7 @@ Ensure that your admin has set up and configured the AI-powered Data Enrichment 
 
 ## Provide consent for Data Enrichment to read your emails
 
-When you open an opportunity record for the first time after Data Enrichment is enabled, you see a prompt asking for your consent to allow the agent to read your emails in Dataverse. Select **Allow** to provide consent. After you provide consent, the agent takes about four hours to analyze your emails and generate suggestions for your opportunity records and link relevant emails. You must provide consent for both automatic updates and manual updates.
+When you open an opportunity record for the first time after Data Enrichment is enabled, you see a prompt asking for your consent to allow the agent to read your emails in Microsoft 365. Select **Allow** to provide consent. After you provide consent, the agent takes about four hours to analyze your emails and generate suggestions for your opportunity records and link relevant emails. You must provide consent for both automatic updates and manual updates.
 
 > [!NOTE]
 > The agent only reads emails that are relevant to opportunities that you own.
@@ -36,7 +36,6 @@ If your admin has configured the agent for manual updates, you need to manually 
 
 1. Open your opportunity record in the Sales Hub app.
    If Data Enrichment has suggestions for the record, you see a notification banner at the top of the form indicating that new suggestions are available.
-
 1. Select **Data Enrichment suggestions** in the notification banner. 
    The **Data Enrichment** pane opens. 
 1. In the **Suggestions** tab, hover over the information icon next to each suggestion to see details about the source of the suggestion. Review the suggestions and perform one of the following actions:
@@ -54,7 +53,6 @@ If your admin has configured Data Enrichment to automatically update fields in y
 
 1. Open your opportunity record in the Sales Hub app.
    If Data Enrichment has updated the record, you'll see a notification banner at the top of the form indicating that new suggestions are available.
-
 1. Select **Data Enrichment suggestions** in the notification banner. 
    The **Data Enrichment** pane opens. 
 1. In the **Updates** tab, hover over the information icon next to each suggestion to see details about the source of the suggestion. Review the suggestions and do one of the following:
@@ -73,7 +71,6 @@ The AI-powered Data Enrichment feature associates emails with an opportunity bas
 **To view the associated emails:**
 
 1. Open your opportunity record in the Sales Hub app.  
-
 1. In the **Timeline** section, look for emails with the agent icon (:::image type="icon" source="media/dea-agent-icon.png" border="false":::). Depending on how your admin has configured the agent, one of the following scenarios applies:
 
     1. If Microsoft 365 services are enabled for the agent, you would see the related emails from your mailbox. These emails are not tracked by default and are visible only in your timeline. Select **Track** on the email to track it in the opportunity record and make it visible to other users.   
@@ -91,9 +88,13 @@ To view the stakeholder suggestions:
 1. Select **Data Enrichment suggestions** in the notification banner. 
 1. In the Data Enrichment pane, select the **Related records** tab to view the list of suggested stakeholders based on recent email interactions. 
 1. Hover over the stakeholder suggestion and select the **Information** icon to view the source of the suggestion.
-1. (Manual update) Hover over the suggestion and select the **Accept** icon (check mark) to add the stakeholder to the opportunity record or the **Reject** icon (cross mark) to dismiss the suggestion. 
-1. (Automatic update) The stakeholder is added to the opportunity record automatically. Hover over the suggestion and select the **Undo** icon (cross mark) to remove the stakeholder from the opportunity record if you think the suggestion is incorrect.
-   To change the stakeholder's role, follow the instructions in [Add stakeholders and decision makers for the opportunity](add-stakeholder.md#add-stakeholders-and-decision-makers-for-the-opportunity).
+1. (Manual update) Hover over the suggestion and take one of the following actions:
+    - Select the **Accept** icon (check mark) to add the stakeholder to the opportunity record or 
+    - Select the **Reject** icon (cross mark) to dismiss the suggestion. 
+1. (Automatic update) The stakeholder is added to the opportunity record automatically. Hover over the suggestion and take one of the following actions:
+    - Select the **Keep** icon (check mark) to retain the stakeholder.
+    - Select the **Undo** icon (cross mark) to remove the stakeholder from the opportunity record if you think the suggestion is incorrect.
+1. (Optional) To change the stakeholder's role, follow the instructions in [Add stakeholders and decision makers for the opportunity](add-stakeholder.md#add-stakeholders-and-decision-makers-for-the-opportunity).
 
 
 ## View change history
