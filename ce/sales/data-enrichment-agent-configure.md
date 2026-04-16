@@ -69,15 +69,14 @@ To review or modify the Data Enrichment settings after the agent has been create
 1. From the Sales Hub app, navigate to **App Settings**.
 1. Under **General Settings**, select **Dynamics 365 AI Hub** and then select **Create and manage agents**.
 1. In the **AI Agents** page, select the agent with type **Conversation Enrichment**.
-1. 
 
 ### Define the agent profile
 
-In the **Profile** section of the [Data Enrichment settings](#open-settings), specify the name and description. This name helps identify the agent in the list of AI agents.
+In the **Agent profile** section of the [Data Enrichment settings](#open-settings), specify the name and description. This name helps identify the agent in the list of AI agents.
 
 ### Configure user access
 
-In the **User access** section of the [Data Enrichment settings](#open-settings), specify who can access the agent's suggestions. Only the selected users' opportunity records are analyzed and enriched by the agent and only those users can see the suggestions.
+In the **User access** section of the [Data Enrichment settings](#open-settings), specify which sellers can access Data Enrichment suggestions. Data Enrichment analyzes only opportunities owned by selected sellers, and only those sellers can view the suggestions. You can choose one of the following options:
  
 - **All users with premium license**: Select this option to allow all users with a Dynamics 365 Sales Premium license to access the agent's suggestions.
 - **Specific groups**: Select this option to allow specific sellers (up to 10 of them) or those who meet certain criteria to access the agent's suggestions. You can either select individual users or specify criteria based on fields such as sales team, job title, or geography to determine who can access the agent's suggestions.  
@@ -85,7 +84,9 @@ In the **User access** section of the [Data Enrichment settings](#open-settings)
 
 ### Select records for enrichment
 
-In the **Record selection** section of the [Data Enrichment settings](#open-settings), define the criteria for the opportunity records that Data Enrichment will analyze. You can use filters based on fields in the opportunity entity or a related entity. For example, you can set Data Enrichment to work only on opportunities created within a certain date range or those associated with specific sales teams.
+In the **Record selection** section of the [Data Enrichment settings](#open-settings), define the criteria for the opportunity records that Data Enrichment will analyze. You can use filters based on fields in the opportunity entity or a related entity. 
+
+The record selection criteria are applied in addition to the user access criteria defined in the previous section. For example, if you select specific groups in the user access settings and set a filter for opportunities created within a certain date range, only the opportunities that meet both criteria will be analyzed and enriched by the agent.
 
 ### Configure agent behavior
 
