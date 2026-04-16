@@ -1,27 +1,28 @@
 ---
-title: Enable the Omnichannel for Customer Service app and disable the Copilot Service workspace app for Omnichannel users
-description: Enable the Dynamics 365 Omnichannel for Customer Service app and disable the Copilot Service workspace app for Omnichannel users
+title: Manage app visibility for Omnichannel users during transition to Copilot Service workspace
+description: Learn how to manage app visibility for users assigned Omnichannel roles during the transition to Copilot Service workspace in Dynamics 365 Customer Service.
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to
-ms.date: 10/29/2024
-ms.custom: bap-template
+ms.date: 03/30/2026
+ms.service: dynamics-365-customer-service
+ms.custom: ce-admin
 ---
 
-# Enable the Omnichannel for Customer Service app and disable the Copilot Service workspace app
+# Manage app visibility for Omnichannel users during transition to Copilot Service workspace
 
-By default, Copilot Service workspace is shown to the following user profiles:
+During the transition from the Omnichannel for Customer Service app to Copilot Service workspace, you might need to manage app visibility for users who are assigned Omnichannel roles.
 
-- Omnichannel Agent
-- Omnichannel Supervisor
-- Omnichannel Administrator
+By default, the Copilot Service workspace app is shown to the following Omnichannel user profiles:
 
-If your business still requires the Omnichannel for Customer Service app, use the steps in this article to [enable it](#enable-the-omnichannel-for-customer-service-app).
+- Omnichannel Agent  
+- Omnichannel Supervisor  
+- Omnichannel Administrator  
 
-If you don't want the Copilot Service workspace app to be visible for any of the above profiles, follow the steps in [Disable the Copilot Service workspace app](#disable-the-copilot-service-workspace-app) to remove it from the apps page in your environment.
+If users in these roles aren't ready to use Copilot Service workspace, you can activate the Omnichannel app and limit visibility of Copilot Service workspace for those users.
 
-## Enable the Omnichannel for Customer Service app 
+## Activate the Omnichannel app for assigned roles 
 
 1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083).
 
@@ -34,16 +35,16 @@ If you don't want the Copilot Service workspace app to be visible for any of the
 1. Select **Activate**. Omnichannel then becomes visible on your environment's apps page.
     
 
-## Disable the Copilot Service workspace app
+## Limit Copilot Service workspace visibility for assigned roles
 
 1. On the Dynamics 365 **Apps** page, navigate to the **Copilot Service workspace** app, and then select **MANAGE ROLES** from the app menu.
 
-1. On the **Manage Roles - Customer Service workspace** right-side pane, deselect the roles you don't want the Copilot Service workspace app to be visible to.
+1. On the **Manage Roles - Copilot Service workspace** right-side pane, deselect the roles you don't want the Copilot Service workspace app to be visible to.
 
-   :::image type="content" source="../media/deactivate-csw-app.png" alt-text="Remove the Omnichannel for Customer Service app from roles":::
+   :::image type="content" source="../media/deactivate-csw-app.png" alt-text="Remove the Copilot workspace app from roles":::
 
 1. Select **Save**.
 
 ## Next steps
 
-For migration information, go to [Migrate from removed or deprecated apps](migrate-to-csw.md).
+Learn more about transitioning from legacy apps in [Migrate from removed or deprecated apps](migrate-to-csw.md).

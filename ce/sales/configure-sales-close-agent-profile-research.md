@@ -2,6 +2,7 @@
 title: Configure the agent profile for Sales Opportunity Agent
 description: Define the agent information, email signature, disclaimer, and other terms to set the context for the Sales Opportunity Agent.
 ms.date: 03/30/2026
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

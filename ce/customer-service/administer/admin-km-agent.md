@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 10/27/2025
+ms.date: 04/02/2026
 ms.custom: bap-template
 ---
 
@@ -56,11 +56,11 @@ You can map which record types and data fields are used for each element. You ca
 
 Case attribute selections are applicable to both historical and real-time creation from cases. 
 
-#### Enable track changes and add mapped entities to the Entity Analytics Config table
+### Enable track changes and add mapped entities to the Entity Analytics Config table
 
 To avoid issues during knowledge article creation from historical data, we recommend that you enable **Track changes** for the mapped entities and add them to the **Entity Analytics Config** table .
 
-1. [Enable track changes](/power-platform/admin/enable-change-tracking-control-data-synchronization#using-power-apps-settings)
+1. [Enable track changes](/power-platform/admin/enable-change-tracking-control-data-synchronization#using-power-apps-settings).
 2. To add mapped entities to the **Entity Analytics Config** table:
     
     1. Open the model-driven app ( `https://<org>.crm.dynamics.com/...` ).   
@@ -73,6 +73,142 @@ To avoid issues during knowledge article creation from historical data, we recom
     Xrm.WebApi.createRecord('entityanalyticsconfig', {'parententitylogicalname':'{ENTITY_NAME}','isenabledforadls': true})
     
      ``` 
+
+### Enable real-time knowledge harvesting for a custom record type
+
+Enable real-time knowledge harvesting for your custom record types in Dynamics 365 by adding a trigger button and surfacing harvested knowledge articles linked to your custom table.
+
+1. [Create the custom table](/power-apps/maker/data-platform/create-edit-entities-portal?tabs=excel) in [Power Apps](https://make.powerapps.com/). If the table already exists, ensure it contains attributes that map to case descriptions and resolutions from which knowledge can be harvested. 
+1. [Add record types for which you want to turn on knowledge management](configure-knowledge-search-control-productivity-pane.md).
+1. [Add custom record types (preview)](#add-custom-record-types-preview).
+1. Enable real-time knowledge creation:
+    1. [Configure knowledge search control on app side pane for an entity record](configure-knowledge-search-control-productivity-pane.md).
+    1. Ensure your custom table (for example, **Custom_Knowledge_Harvest**) appears as a tab, similar to Case or Conversation. 
+1. [Configure rules for real-time article creation](#manage-rules-for-real-time-article-creation) specifically for your custom record tab.
+1. Configure which attributes from your table are used to generate knowledge articles.
+1. [Add a trigger harvesting button](#add-a-trigger-harvesting-button) to your custom table form.
+1. Navigate to your custom table (for example, **Custom_Knowledge_Harvest**).
+1. Open an existing record. The **Trigger Harvesting** button appears on the **Command** bar.
+1. Select the button to trigger knowledge harvesting for the current record. A confirmation dialog appears, indicating that the knowledge harvest has been triggered successfully.
+
+### Add a trigger harvesting button
+
+Add a trigger harvesting command button to your custom table's main form using Power Apps Command Designer to enable real-time knowledge harvesting for your custom records.
+
+The JavaScript triggers knowledge harvesting by sending table and user information to the API, displays progress indicators, handles responses, and controls button availability based on the form state. The button works similarly to Case and Conversation record types.
+
+> [!NOTE]
+> This is a sample implementation to trigger knowledge harvesting through a button click. You can customize the button behavior and JavaScript logic based on your organization's requirements.
+
+1. Sign in to [Power Apps](https://make.powerapps.com/).
+1. Select **Tables** from the left navigation pane.
+1. Find and select your custom table (for example, **Custom_Knowledge_Harvest**).
+1. Select [Edit the command bar](/power-apps/maker/model-driven-apps/use-command-designer#edit-the-command-bar) and then select **main form**. Learn more in [Command bar locations](/power-apps/maker/model-driven-apps/command-designer-overview#command-bar-locations).
+    1. In the right pane, enter a label that displays on the command button and select an icon for the command button.
+    1. Under **Action**, provide the following JavaScript library and command to run the command action. Learn more in [Use JavaScript for actions](/power-apps/maker/model-driven-apps/use-command-designer#use-javascript-for-actions). 
+
+    ```javascript 
+    
+    /**
+     * Knowledge Harvest Trigger - Command Bar Button Handler
+     * This script provides functionality to trigger Knowledge Harvesting for custom entities.
+     */
+    var Msdyn = Msdyn || {};
+    Msdyn.KnowledgeHarvest = Msdyn.KnowledgeHarvest || {};
+    
+    (function () {
+        "use strict";
+    
+        Msdyn.KnowledgeHarvest.triggerHarvest = function (primaryControl) {
+            var formContext = primaryControl;
+            var entityId = formContext.data.entity.getId();
+            if (entityId) {
+                entityId = entityId.replace("{", "").replace("}", "");
+            }
+    
+            var entityName = formContext.data.entity.getEntityName();
+            var globalContext = Xrm.Utility.getGlobalContext();
+            var userId = globalContext.userSettings.userId;
+            if (userId) {
+                userId = userId.replace("{", "").replace("}", "");
+            }
+    
+            var payload = JSON.stringify({
+                "entityname": entityName,
+                "entityrecordid": entityId,
+                "initiatinguserid": userId
+            });
+    
+            Xrm.Utility.showProgressIndicator("Triggering Knowledge Harvest...");
+    
+            var request = {
+                Payload: payload,
+                getMetadata: function () {
+                    return {
+                        boundParameter: null,
+                        operationName: "msdyn_knowledgeHarvestAgentTrigger",
+                        operationType: 0,
+                        parameterTypes: {
+                            "Payload": {
+                                typeName: "Edm.String",
+                                structuralProperty: 1
+                            }
+                        }
+                    };
+                }
+            };
+    
+            Xrm.WebApi.online.execute(request).then(
+                function (response) {
+                    Xrm.Utility.closeProgressIndicator();
+                    if (response.ok) {
+                        Xrm.Navigation.openAlertDialog({
+                            title: "Knowledge Harvest Triggered",
+                            text: "Knowledge Harvest has been triggered successfully.\\nA job has been created to generate a knowledge article.",
+                            confirmButtonLabel: "OK"
+                        });
+                    } else {
+                        throw new Error("API call failed with status: " + response.status);
+                    }
+                }
+            ).catch(
+                function (error) {
+                    Xrm.Utility.closeProgressIndicator();
+                    console.error("Knowledge Harvest Trigger Error:", error);
+                    Xrm.Navigation.openAlertDialog({
+                        title: "Knowledge Harvest Error",
+                        text: "Failed to trigger Knowledge Harvest.\\nError: " + error.message,
+                        confirmButtonLabel: "OK"
+                    });
+                }
+            );
+        };
+    
+        Msdyn.KnowledgeHarvest.enableHarvestButton = function (primaryControl) {
+            var formContext = primaryControl;
+            var entityId = formContext.data.entity.getId();
+            if (!entityId || entityId === "" || entityId === "{}") {
+                return false;
+            }
+    
+            var formType = formContext.ui.getFormType();
+            if (formType === 1) {
+                return false;
+            }
+    
+            return true;
+        };
+    })();
+    
+    ``` 
+    1. In the **Add JavaScript Library** dialog, select the JavaScript library you just created.
+    1. Add the library to your command.
+    1. For function name, enter **Msdyn.KnowledgeHarvest.triggerHarvest**.
+    1. Select **+ Add** parameter, and in **Parameter 1**, select **PrimaryControl** from the dropdown.
+
+1. Under **Visibility**, keep the default setting as **Show** or configure custom visibility rules based on your requirements.
+1. Drag and drop the command to the desired location. 
+1. Save and publish to make the command available to app users.
 
 ## Enable historical knowledge creation
 
@@ -99,7 +235,7 @@ Historical case or conversation creation is a long-running process that can't be
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-You can add custom record types that Customer Knowledge Management Agent can use to create new knowledge articles. Currently, these custom record types are supported only for historical article creation. 
+Add custom record types that Customer Knowledge Management Agent can use to create new knowledge articles. 
 
 To add a custom record type: 
 

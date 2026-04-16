@@ -2,6 +2,7 @@
 title: Manage the Sales Close Agent
 description: Learn how to manage such as stop or edit the sales close agent settings in Dynamics 365 Sales.
 ms.date: 11/07/2025
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

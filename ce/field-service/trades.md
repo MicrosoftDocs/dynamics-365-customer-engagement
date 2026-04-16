@@ -1,8 +1,8 @@
 ---
 title: Use trades to group services
 description: Learn how to configure and use trades in Dynamics 365 Field Service.
-ms.date: 04/10/2025
-ms.reviewer: mhart
+ms.date: 03/31/2026
+ms.reviewer: v-wendysmith
 ms.topic: how-to
 ms.custom: bap-template
 author: jshotts
@@ -11,9 +11,9 @@ ms.author: jasonshotts
 
 # Use trades to group services
 
-Trades are the types of services your organization provides to your customers. In Field Service, use trades to group [incident types](configure-incident-types.md) together. Configure trades and trade coverages to simplify the creation of [work orders](create-work-order.md) and the services that are provided in a functional location or for a service account, or for accounts at locations. Using trades adds another layer of details to create reports and filter charts on reports.
+Trades are the types of services your organization provides to your customers. In Field Service, use trades to group [incident types](configure-incident-types.md) together. Configure trades and trade coverages to simplify the creation of [work orders](create-work-order.md) and the services that are provided in a functional location or for a service account, or for accounts at locations. Using trades adds another layer of detail to create reports and filter charts on reports.
 
-Trade coverage defines which trades are covered for an account or a location to ensure the right level of service is provided. For example, if a location doesn’t have AC (air conditioning), it shouldn’t be possible to create an incident related to the AC system for that location. The same logic applies to accounts if the service contract doesn’t include HVAC (heating, ventilation, and air conditioning) maintenance.
+Trade coverage defines which trades are covered for an account or a location to ensure the right level of service is provided. For example, if a location doesn't have air conditioning, a user shouldn't be able to create an incident related to the AC system for that location. The same logic applies to accounts if the service contract doesn't include HVAC maintenance.
 
 ## Prerequisites
 

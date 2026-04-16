@@ -14,7 +14,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 > [!NOTE]
-> The data such as but not limited to skills, rating model, and rating value that is created, updated, and used in Dynamics 365 Contact Center is shared with other model-driven apps (Field Service and Project Service Automation) installed in your environment. Similarly, the data that are created, updated, and used in other model-driven apps are available for use in Omnichannel for Customer Service.
+> The data such as but not limited to skills, rating model, and rating value that is created, updated, and used in Dynamics 365 Contact Center is shared with other model-driven apps (Field Service and Project Service Automation) installed in your environment. Similarly, the data that are created, updated, and used in other model-driven apps are available for use in Dynamics 365 Contact Center.
 
 In the customer service center, your customer service representatives (service representatives or representatives) have different skill sets and abilities. The customers who reach out to the contact center might have different needs. Skill-based routing lets your customer service center distribute work items (conversations) to the representative who is most qualified to solve the issue. Skill-based routing improves the quality of customer service by automatically distributing work items to the representative who has the skills necessary to do the work.
 
@@ -48,7 +48,7 @@ If your environment has scheduling solutions, then you must have version 9.0.0.0
 
 ## Videos
 
-[Skill-based routing in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114717)
+[Skill-based routing](https://go.microsoft.com/fwlink/p/?linkid=2114717)
 
 
 ### Related information

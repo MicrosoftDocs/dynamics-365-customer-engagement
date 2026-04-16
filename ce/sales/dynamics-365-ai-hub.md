@@ -2,6 +2,7 @@
 title: Access Dynamics 365 AI Hub
 description: Learn how to add Dynamics 365 AI Hub sitemap entry to your custom app to manage your sales AI agents.
 ms.date: 10/06/2025
+ms.update-cycle: 90-days
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template

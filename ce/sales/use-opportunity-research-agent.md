@@ -2,6 +2,7 @@
 title: Work on opportunities handled by the Sales Opportunity Agent
 description: Learn how to work on opportunities handled by the Sales Opportunity Agent.
 ms.date: 03/30/2026
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

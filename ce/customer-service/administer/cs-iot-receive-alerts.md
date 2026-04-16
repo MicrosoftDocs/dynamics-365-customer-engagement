@@ -1,116 +1,105 @@
 ---
-title: "Receive IoT alerts in Connected Customer Service from Azure IoT Central | MicrosoftDocs"
-description: "This topic provides information on how to receive IoT alerts in Connected Customer Service from Azure IoT Central."
-ms.date: 01/25/2022
+title: Receive IoT alerts in Connected Customer Service from Azure IoT Central
+description: Receive and view IoT alerts in Connected Customer Service by integrating Azure IoT Central with Power Automate.
+ms.date: 03/30/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ---
 
-
-
 # 1 - Receive IoT alerts in Connected Customer Service from Azure IoT Central
 
-At the end of this step in the tutorial, you'll be able to receive and see alerts from Azure IoT Central in your instance of Connected Customer Service. IoT alerts will display on your dashboard and relate to relevant work orders that have been created automatically.  
+After you configure the integration between Azure IoT Central and Connected Customer Service, alerts generated in IoT Central appear in Customer Service. These alerts surface on dashboards and can be used to create or relate to cases and work orders automatically.
 
-## Goal
+## Configure alert integration by using Power Automate
 
-Connect Azure IoT Central to Connected Customer Service by configuring the "Create Connected Service alerts from IoT Central" template in Power Automate.
+Use a Power Automate template to send device alerts from Azure IoT Central to Connected Customer Service.
 
-## Steps
-
-1. Sign in to your Azure IoT Central application and navigate to **Devices**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of devices navigation in IoT Central.](../media/cs-iot-devices.png "Navigation to the Devices page of the Azure IoT Central application")
-
-2. From the list of devices, select **MXChip001**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the device list in IoT Central.](../media/cs-iot-device-list.png "Device list in IoT Central")
-   
-   The MXChip001 detail page is displayed.
-
-3. Select the **Rules** tab, and then create the rule, **Temperature level**. More information: [IoT Central tutorial](/azure/iot-central/tutorial-configure-rules).
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the rules tab in IoT Central.](../media/cs-iot-rules.png "Rules tab in IoT Central")
-
-4. Select the plus sign (+) next to **Conditions** to set up the alert trigger threshold. 
-    
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the conditions option in IoT Central.](../media/cs-iot-conditions.png "Set up the alert trigger threshold")
-
-5. Select the plus sign (+) next to **Actions**, and then select **Microsoft Flow**. This is where you'll set up your integrations.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Actions option in IoT Central.](../media/cs-iot-actions.png "Actions option in IoT Central")
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Microsoft Flow option in IoT Central.](../media/cs-iot-microsoft-flow.png)
-
-   The Power Automate template page for **Create Connected Service alerts from IoT Central** is displayed.
-
-6. Select **Use this template**. (If you can't find these templates, go to the [Power Automate Templates page](https://flow.microsoft.com/templates/) and search for "CDS").
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Power Automate template page.](../media/cs-iot-use-template.png "Power Automate template page")
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of "Use this template" highlighted on the Power Automate template page.](../media/cs-iot-use-template-2.png "Use this template button on Power Automate template page")
-
-7. You'll be prompted to sign in to both IoT Central and Dynamics 365 accounts. Select your accounts from each, and then select **Continue**. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Power Automate template page with prompt to sign in to both IoT Central and Dynamics 365 accounts.](../media/cs-iot-select-accounts.png "Sign in view for both IoT Central and Dynamics 365 on Power Automate template page")
-    
-   Now you'll see the actual flow.
-
-8. Because this is a template, you only need to take the following actions:
-
-    a. Select your Azure IoT Central application name.
-
-    b. Set **IoT rule** as the one you created earlier. In our suggested example, it would be: "Temperature level".
-
-    c. Select your Dynamics 365 organization name.
-
-    d. Set **Entity Name** to **IoT Alerts.**
-
-    e. Select **Show advanced options** to reveal several hidden customers.
-
-    f. Set **Alert Type Value** to **Anomaly**.
-
-    g. Save the flow.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Flow fields for IoT Central and Dynamics 365.](../media/cs-iot-central-alerts-1.png)
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the advanced fields, highlighting Alert Type Label.](../media/cs-iot-central-alerts-2.png)
-
-From here, the workflow will trigger based on the alert type.
-
-## See the results
-
-1. After you've saved your flow, sign in to Dynamics 365 Customer Service, and then select **Connected Customer Service**. 
-   You might see a window that offers a few links to learn more about Connected Customer Service and Azure IoT offerings. You can choose to learn more, or just dismiss this window. 
+1. Sign in to your Azure IoT Central application, and then open **Devices**.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of the IoT alerts in Connected Customer Service.](../media/cs-iot-central-alerts-3.png)
+   > ![Devices navigation in Azure IoT Central.](../media/cs-iot-devices.png)
 
-2. In Connected Customer Service, you should now see incoming alerts from Azure IoT Central on the dashboard. You can select one of these alerts to see more details, including device information, threshold, and the violated rules. You can also select the IoT Central alert URL that will take you back to IoT Central.
-
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of the IoT alerts in Connected Customer Service showing primary alerts.](../media/cs-iot-central-alerts-4.png)
+1. Select a device from the list.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of an IoT alert detail, showing the URL back to IoT Central where the alert originated.](../media/cs-iot-central-alerts-5.png)
+   > ![Device list in Azure IoT Central.](../media/cs-iot-device-list.png)
 
-### Related information
+1. On the device details page, select **Rules**, and then create a rule (for example, a temperature threshold rule).
 
-[Prerequisites for setting up Connected Customer Service for Azure IoT Central](cs-iot-prerequisites.md)<br>
-[Associate devices with customer accounts in Connected Customer Service](cs-iot-central-associate-devices.md)<br>
+   Learn more about configuring rules in Azure IoT Central:  
+   [Set up rules in Azure IoT Central](/azure/iot-central/tutorial-configure-rules)
 
+   > [!div class="mx-imgBorder"]
+   > ![Rules tab in Azure IoT Central.](../media/cs-iot-rules.png)
+
+1. Under **Conditions**, select **Add** to define the threshold that triggers the alert.
+
+   > [!div class="mx-imgBorder"]
+   > ![Alert condition configuration in IoT Central.](../media/cs-iot-conditions.png)
+
+1. Under **Actions**, select **Add**, and then choose **Power Automate**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Actions configuration in IoT Central.](../media/cs-iot-actions.png)
+
+   The Power Automate template page for **Create Connected Service alerts from IoT Central** opens.
+
+1. Select **Use this template**.
+
+   If the template isn’t visible, search for it from the  
+   [Power Automate templates gallery](https://powerautomate.microsoft.com/templates/).
+
+   > [!div class="mx-imgBorder"]
+   > ![Power Automate template page.](../media/cs-iot-use-template.png)
+
+
+1. When prompted, sign in to both Azure IoT Central and Customer Service, and then select **Continue**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Account selection for IoT Central and Customer Service.](../media/cs-iot-select-accounts.png)
+
+1. Configure the template fields:
+
+   - Select your **Azure IoT Central application**
+   - Select the **IoT rule** you created
+   - Select your **Customer Service organization**
+   - Set **Entity name** to **IoT Alerts**
+   - Select **Show advanced options**
+   - Set **Alert type value** to **Anomaly**
+   - Save the flow
+
+   > [!div class="mx-imgBorder"]
+   > ![Configured Power Automate flow fields.](../media/cs-iot-central-alerts-1.png)
+
+   > [!div class="mx-imgBorder"]
+   > ![Advanced fields showing alert type.](../media/cs-iot-central-alerts-2.png)
+
+After you save the flow, it runs automatically whenever the IoT rule conditions are met.
+
+## View IoT alerts in Connected Customer Service
+
+1. Sign in to Customer Service, and then open **Connected Customer Service**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Connected Customer Service dashboard showing IoT alerts.](../media/cs-iot-central-alerts-3.png)
+
+1. Review incoming IoT alerts on the dashboard.  
+   Select an alert to view details such as device information, the violated rule, and threshold values.
+
+   > [!div class="mx-imgBorder"]
+   > ![IoT alert list in Connected Customer Service.](../media/cs-iot-central-alerts-4.png)
+
+1. From the alert record, select the IoT Central URL to open the originating alert in Azure IoT Central.
+
+   > [!div class="mx-imgBorder"]
+   > ![IoT alert detail showing link back to Azure IoT Central.](../media/cs-iot-central-alerts-5.png)
+
+## Related information
+
+[Prerequisites for setting up Connected Customer Service for Azure IoT Central](cs-iot-prerequisites.md)  
+[Associate devices with customer accounts in Connected Customer Service](cs-iot-central-associate-devices.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

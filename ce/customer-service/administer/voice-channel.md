@@ -1,10 +1,10 @@
 ---
 title: Introduction to the voice channel
-description: Enable customer service representatives to communicate with customers on the phone to resolve issues using the voice channel in Customer Service.
+description: Enable customer service representatives to communicate with customers on the phone to resolve issues using the voice channel in Customer Service and Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 04/04/2025
+ms.date: 04/15/2026
 ms.topic: overview
 ms.custom:
   - ai-gen-docs-bap
@@ -13,7 +13,6 @@ ms.custom:
 ---
 
 # Introduction to the voice channel
-
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
@@ -64,7 +63,7 @@ Take a look at some of the key capabilities that makes the voice channel great f
 
 [Install the voice channel](voice-channel-install.md)  
 [Supported cloud locations, languages, and locale codes ](voice-channel-region-availability.md)  
-[International availability of Omnichannel for Customer Service](../implement/international-availability.md)  
+[International availability](/dynamics365/contact-center/implement/international-availability)  
 [System requirements](/dynamics365/contact-center/implement/system-requirements-contact-center)  
 [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  
 [FAQ about the voice channel in Dynamics 365 Contact Center](voice-channel-faqs.md)  

@@ -12,16 +12,16 @@ ms.custom: bap-template
 
 # Uninstall omnichannel solutions
 
-When you uninstall Omnichannel for Customer Service from your organization, the omnichannel solutions are not removed. If you want to remove omnichannel solutions from your organization, you must use the same order as mentioned in the following table.
+When you uninstall Dynamics 365 Contact Center from your organization, the omnichannel solutions are not removed. If you want to remove omnichannel solutions from your organization, you must use the same order as mentioned in the following table.
 
 ## Prerequisite
 
-You must have removed [Omnichannel for Customer Service](/dynamics365/contact-center/implement/provision-channels#turn-off-channels).
+You must have removed [Channels](/dynamics365/contact-center/implement/provision-channels#turn-off-channels).
 
 ## Considerations
 
 Some solutions are shared across apps, and you shouldn't remove them unless you intend to uninstall those apps too; skip those solutions if they are required.
-For example, if you plan to remove omnichannel solutions from your organization, you must remember that the unified routing part of Omnichannel for Customer Service solutions might be used in unified routing for Customer Service. Therefore, you must make sure that you don't uninstall or delete the common solutions because it might affect the way unified routing works in Customer Service.
+For example, if you plan to remove omnichannel solutions from your organization, you must remember that the unified routing part of Dynamics 365 Contact Center solutions might be used in unified routing for Customer Service. Therefore, you must make sure that you don't uninstall or delete the common solutions because it might affect the way unified routing works in Customer Service.
 
 You must not remove the following out-of-the-box solutions that come preinstalled in your Customer Service organization.
 - msdyn_UnifiedRoutingForEntity

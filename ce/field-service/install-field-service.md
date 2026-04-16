@@ -2,7 +2,7 @@
 title: Install Dynamics 365 Field Service
 description: Learn how to install Dynamics 365 Field Service on a Power Platform environment.
 ms.topic: how-to
-ms.date: 11/27/2025
+ms.date: 03/30/2026
 ms.author: jacoh
 author: jasonccohen
 ---
@@ -11,15 +11,24 @@ author: jasonccohen
 
 After purchasing licenses for Field Service, an administrator installs the application on a Power Platform environment.
 
+## Requirements
+
+When installing Field Service, you must meet these requirements:
+
+- You have the **System Administrator** or **Dynamics 365 admin** security role.
+- The environment has an attached **Dataverse data store**. The installation process explains how to create a new environment. Field Service isn't supported on a bare Common Data Service (CDS) instance.
+- **Enable Dynamics 365 apps** is turned on in the environment settings. The installation process explains how to enable this setting.
+- The environment isn't a developer or sandbox environment created without a database.
+
 ## Install on a new environment
 
-Create a Power Platform environment with an attached **Dataverse data store** and turn on the **Enable Dynamics 365 apps** setting. Installing Field Service on an environment that doesn't meet these prerequisites isn't supported.
+[Create a Power Platform environment with an attached **Dataverse data store** and turn on the **Enable Dynamics 365 apps** setting](/power-platform/admin/create-environment).
 
-For detailed information, see [Create a Power Platform environment](/power-platform/admin/create-environment).
+Installing Field Service on an environment that doesn't meet these requirements isn't supported.
 
 ## Install on an existing environment
 
-If your organization already maintains environments, you can [install the app on an existing environment with a database](/power-platform/admin/manage-apps#install-an-app). Similar to other Dynamics 365 business applications, the environment must have a Dataverse data store attached and Dynamics 365 apps enabled.
+If your organization already maintains environments, you can [install the app on an existing environment with a database](/power-platform/admin/manage-apps#install-an-app) and **Enable Dynamics 365 apps** turned on. If your environment doesn't meet these requirements, [create a Power Platform environment with an attached **Dataverse data store** and turn on the **Enable Dynamics 365 apps** setting](/power-platform/admin/create-environment).
 
 ## Install a trial
 

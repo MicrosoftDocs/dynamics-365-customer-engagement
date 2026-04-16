@@ -1,7 +1,8 @@
 ---
 title: Edit settings of Sales Opportunity Agent
 ms.date: 07/09/2025
-description: Learn how to edit the settings of Sales Opportunity Agent to customize knowledge sources, update frequency, and opportunity segments for your business needs.
+ms.update-cycle: 90-days
+description: Learn how to edit the settings of Sales Opportunity Agentto customize knowledge sources, update frequency, and opportunity segments for your business needs.
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template

@@ -2,7 +2,8 @@
 title: Find data using natural language with AI in Dynamics 365 Sales (preview)
 description: Learn how to find, filter, and sort data in a Dynamics 365 Sales view using AI.
 ms.topic: overview
-ms.date: 02/24/2026
+ms.date: 04/06/2026
+ms.update-cycle: 90-days
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -29,3 +30,7 @@ Search for: "Opportunities from accounts in the Technology industry, with estima
 
 You're in the My Open Leads view and want to find leads from a specific marketing campaign that were created last month.
 Search for: "Leads from Summer Campaign created last month"
+
+### Related information
+
+[Agents, Copilot, and AI capabilities in Dynamics 365 apps](/dynamics365/copilot/ai-get-started)  

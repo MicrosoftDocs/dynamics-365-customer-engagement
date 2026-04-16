@@ -1,7 +1,7 @@
 ---
-title: Configure a LINE channel
-description: Instructions to configure a LINE channel.
-ms.date: 04/25/2025
+title: Configure a LINE channel in Dynamics 365 Contact Center
+description: Learn how to configure a LINE channel in Dynamics 365 Contact Center.
+ms.date: 04/07/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -24,17 +24,11 @@ The LINE channel gives you an opportunity to capitalize on the social media tren
 
 The prerequisites to configure the LINE channel in Copilot Service admin center are as follows:
 
-1.	Create a [LINE](https://line.me/en/) handle.
-2.	Create a LINE channel in the LINE Developers console. For more information, refer to [Create a LINE channel](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel).
+-	Create a [LINE](https://line.me/en/) handle.
 
-After completing the prerequisites, you can add the LINE channel for your organization by following these steps:
-
-1.	Create a LINE channel.
-2.	Create routing rules.
+-	Create a LINE channel in the LINE Developers console. Learn more in [Create a LINE channel](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel).
 
 ## Create a LINE channel
-
-**To configure the LINE channel**
 
 1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
     
@@ -49,11 +43,19 @@ After completing the prerequisites, you can add the LINE channel for your organi
    1. On the **Account details** page, enter the following details:
       - **Channel ID:** ID of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (ensure that it's a Messaging API) > **Basic settings**, and then copy the value in the **Channel ID** box.
       - **Channel secret:** Application secret of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (ensure that it's a Messaging API) > **Basic settings**, and then copy the value in the **Channel secret** box.
-      - **Channel access token:** Token of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (ensure that it's a Messaging API) > **Messaging API**, and then copy the value in the **Channel access token (long-lived)** box.
+      - **Channel access token:** Token of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (make sure that it's a Messaging API) > **Messaging API**, and then copy the value in the **Channel access token (long-lived)** box.
    
-   1. On the **Callback information** page, copy the text in the **Callback URL** box. You use the copied information in the LINE account.
-   1. Select **Done**.
-1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
+   1. On the **Callback information** page, copy the text in the **Callback URL** box, and do as follows:
+      1. Go back to the LINE developer portal > channel messaging API setting, and update the webhook URL with this copied text.
+      1. Make sure that the webhook toggle is turned on.
+      1. Verify that LINE can connect to the webhook URL.
+   1. Save and close.
+
+1. Save the changes.
+
+## Configure routing and work distribution
+
+To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
 
 1. Select the workstream that you created for the LINE channel and on the workstream page, select **Set up LINE**, and configure the following options:
    1. On the **LINE** page, select an account from **Available LINE accounts**.
@@ -64,7 +66,7 @@ After completing the prerequisites, you can add the LINE channel for your organi
       - [Custom automated messages](configure-automated-message.md)
       - [Post-conversation survey](configure-post-conversation-survey.md)
    
-   1. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow customer service representatives (service representatives or representatives) and customers to send and receive file attachments. For more information, refer to [Enable file attachments](enable-file-attachments.md).
+   1. On the **User features** page, turn on the toggle for **File attachments**, and select the following checkboxes if you want to allow customer service representatives (service representatives or representatives) and customers to send and receive file attachments. For more information, refer to [Enable file attachments](enable-file-attachments.md).
       - Customers can send file attachments.
       - Service representatives can send file attachments.
    1. Verify the settings on the **Summary** page, and select **Finish**. The LINE channel instance is configured.

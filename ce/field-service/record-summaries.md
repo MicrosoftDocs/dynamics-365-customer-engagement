@@ -5,9 +5,13 @@ author: puneet-singh1
 ms.author: puneetsingh
 ms.reviewer: puneetsingh
 ms.topic: overview
-ms.date: 02/23/2026
+ms.date: 04/15/2026
 ---
 
 # Use row summaries in Field Service
 
 [!INCLUDE [record-summaries](~/../shared-content/shared/dynamics365-core/record-summaries.md)]
+
+### Related information
+
+[Agents, Copilot, and AI capabilities in Dynamics 365 apps](/dynamics365/copilot/ai-get-started)  

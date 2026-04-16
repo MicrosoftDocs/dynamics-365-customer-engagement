@@ -1,7 +1,7 @@
 ---
-title: Scripts in the Omnichannel for Customer Service app
+title: Scripts in the Copilot Service workspace app
 description: Learn how to use scripts in Copilot Service workspace and serve customers faster.
-ms.date: 04/21/2025
+ms.date: 04/15/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

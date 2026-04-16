@@ -159,6 +159,8 @@ items:
                     href: sales-qualification-agent-selection-criteria.md
                   - name: Configure email instructions and address validation
                     href: sales-qualification-agent-email-instruction-validation.md
+                  - name: Personalize outreach emails (preview)
+                    href: sales-qualification-agent-email-personalization.md
                   - name: Configure handoff criteria
                     href: configure-sales-qualification-agent-handoff-criteria.md
                   - name: Configure assignment rules
@@ -957,6 +959,12 @@ items:
                 href: use-sales-research-agent.md
               - name: FAQs about Sales Research Agent
                 href: faqs-sales-research-agent.md
+      - name: Use Sales agent in Microsoft 365 Copilot
+        items:
+          - name: Use the Sales agent in Microsoft 365 Copilot
+            href: use-sales-agent-in-m365-copilot.md
+          - name: Use Microsoft 365 Copilot chat (preview)
+            href: microsoft-365-copilot-chat-in-sales.md
       - name: Copilot in Dynamics 365 Sales
         items:
           - name: Copilot overview

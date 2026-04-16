@@ -2,7 +2,7 @@
 title: Copilot Studio agents and app registrations for sales agents
 description: Learn about Copilot Studio agents and Microsoft Entra app registrations used by various Dynamics 365 Sales agents.
 ms.date: 01/16/2026
-ms.update-cycle: 180-days
+ms.update-cycle: 90-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
 ms.custom:

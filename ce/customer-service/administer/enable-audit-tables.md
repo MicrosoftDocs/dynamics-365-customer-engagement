@@ -128,10 +128,10 @@ The following table lists the activities that can appear in Customer Service aud
 | msdyn_businessclosure | Prevent scheduling resources on holidays. |
 | msdyn_timegroup | Customize how to show assistant results. |
 | bookableresourcecategory | Group bookable resources by type. |
-| organization | Set up Omnichannel for Customer Service in an organization. |
+| organization | Set up Dynamics 365 Contact Center in an organization. |
 | organization | Upgrade omnichannel solutions in an organization. |
-| organization | Turn off Omnichannel for Customer Service in an organization. |
-| organization | Turn on Omnichannel for Customer Service in a trial organization. |
+| organization | Turn off Dynamics 365 Contact Center in an organization. |
+| organization | Turn on Dynamics 365 Contact Center in a trial organization. |
 
 ## Manage audit logs for unified routing configurations
 

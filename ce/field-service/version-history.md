@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 03/20/2026
+ms.date: 04/11/2026
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
@@ -18,18 +18,49 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.142.390](/dynamics365/field-service/version-history#88142390)  | [8.8.143.233](/dynamics365/field-service/version-history#88143233) | 3/13/2026 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.142.390](/dynamics365/field-service/version-history#88142390) |  [8.8.143.233](/dynamics365/field-service/version-history#88143233) | 3/13/2026 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom* | [8.8.142.390](/dynamics365/field-service/version-history#88142390) |  [8.8.143.233](/dynamics365/field-service/version-history#88143233)  | 3/13/2026 |
-| | *USG* | [8.8.142.390](/dynamics365/field-service/version-history#88142390) |  [8.8.143.233](/dynamics365/field-service/version-history#88143233) | 3/13/2026 |
-|**Station 4** |*Europe* | [8.8.142.390](/dynamics365/field-service/version-history#88142390) |  TBD |  3/20/2026 |
-|**Station 5** | *North America, Oceania*|  [8.8.142.390](/dynamics365/field-service/version-history#88142390)  | [8.8.142.393](/dynamics365/field-service/version-history#88142393)  |  3/14/2026 |
-|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.142.390](/dynamics365/field-service/version-history#88142390)  | TBD  | 3/25/2026 |
-| | *Dedicated Scale Groups* | [8.8.141.554](/dynamics365/field-service/version-history#88141554) | [8.8.142.390](/dynamics365/field-service/version-history#88142390) | 3/13/2026 |
+|**Station 1** |  *First Release*| [8.8.144.46](/dynamics365/field-service/version-history#8814446) | TBD | 04/17/2026 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|  [8.8.144.46](/dynamics365/field-service/version-history#8814446) |  TBD | 04/24/2026 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom* | [8.8.144.46](/dynamics365/field-service/version-history#8814446) | TBD | 05/01/2026 |
+| | *USG* | [8.8.144.46](/dynamics365/field-service/version-history#8814446) |   TBD  | 04/22/2026 |
+|**Station 4** |*Europe* | [8.8.143.234](/dynamics365/field-service/version-history#88143234) |  [8.8.144.46](/dynamics365/field-service/version-history#8814446) |  04/17/2026 |
+|**Station 5** | *North America, Oceania*| [8.8.143.234](/dynamics365/field-service/version-history#88143234) | [8.8.144.46](/dynamics365/field-service/version-history#8814446) |  04/24/2026 |
+|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.143.234](/dynamics365/field-service/version-history#88143234) | [8.8.144.46](/dynamics365/field-service/version-history#8814446) | 04/22/2026 |
+| | *Dedicated Scale Groups* | [8.8.143.234](/dynamics365/field-service/version-history#88143234) | [8.8.144.46](/dynamics365/field-service/version-history#8814446) | 05/01/2026 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.144.46
+This release is a hotfix on Field Service version [8.8.144.38](/dynamics365/field-service/version-history#88144.38)
+(Includes Universal Resource Scheduling version [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) and Resource Scheduling controls version 1.2.99.260971)
+
+- No updates were made to Dynamics 365 Field Service in this release.
+
+## 8.8.144.38
+(Includes Universal Resource Scheduling version [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) and Resource Scheduling controls version 1.2.99.260833)
+
+- **New Features**
+    - Suppress Field Service Inventory in Finance Integration: When Field Service is used alongside Dynamics 365 Finance and Operations, Field Service inventory is now hidden to prevent confusion with purchase order and Finance data. This applies to customers using the Field Service and Finance dual-write integration.
+
+- **Fixes & Improvements**
+    - Booking Suggestions Missing When Booking Setup Metadata Has Empty Queries: Fixed an issue where the Work Order booking card returned no booking suggestions when the Booking Setup Metadata record had empty query string values. The booking card now falls back to default query values, matching the behavior of the schedule board.
+    - Inconsistent Booking Suggestions Between Booking Card and Schedule Board: Fixed an inconsistency where the booking card and schedule board showed different resource suggestions for the same work order.
+    - Booking Card Resource List Causes Browser Hang: Fixed an issue where clicking the resource lookup in the booking card caused the browser to hang when the list contained more than 5,000 items.
+    - Duplicate Resource Requirements When Changing Work Order Priority: Fixed an issue where changing a Work Order's priority generated duplicate resource requirements when users lacked read permissions on resource requirements.
+    - Error When Duplicating Resource Requirements in Requirement Group: Fixed an error thrown when duplicating resource requirements within a Work Order requirement group.
+    - Time Picker Showing Date Values: Fixed an issue where the time picker and booking card time fields incorrectly displayed date values for certain times of day.
+    - Resource Hover Not Working in Booking Card: Fixed an issue where hovering over a resource in the Work Order booking card did not display the resource details popup.
+    - Keyboard Accessibility — Work Order Side Pane Controls: Fixed an accessibility issue where the Side Pane, More Options, and Priority controls on work orders could not be accessed using the keyboard.
+    - Screen Reader — Products and Services Tabs: Fixed an accessibility issue where screen readers did not announce the selected state for the Products and Services tabs in the Work Order Products grid.
+    - Error When Publishing Customizations: Fixed an error that appeared when publishing customizations in environments with Field Service installed.
+    - Incident Type from Recent Records Ignores Trade Filter: Fixed an issue where selecting an Incident Type from the Recent Records list could add an unrelated incident type that did not match the currently selected Trade.
+
+## 8.8.143.234
+This release is a hotfix on Field Service version [8.8.143.233](/dynamics365/field-service/version-history#88143233)
+(Includes Universal Resource Scheduling version [3.12.159.757](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159757) and Resource Scheduling controls version 1.2.98.260781)
+
+- No updates were made to Dynamics 365 Field Service in this release.
 
 ## 8.8.143.233
 (Includes Universal Resource Scheduling version [3.12.159.741](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159741) and Resource Scheduling controls version 1.2.98.260581)

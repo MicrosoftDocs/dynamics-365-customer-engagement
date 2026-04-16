@@ -16,7 +16,7 @@ ms.custom:
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-This article answers your most frequently asked questions about the free product trial of Customer Service and Omnichannel for Customer Service.
+This article answers your most frequently asked questions about the free product trial of Customer Service and Dynamics 365 Contact Center.
 
 [!INCLUDE [trial-platform-faqs](../../shared/trials/trial-faq-platform.md)]
 
@@ -49,7 +49,7 @@ The environment you receive in trial is a fully functional, Power Platform envir
 - Dynamics 365 Customer Service Enterprise
   - Copilot Service workspace with AI-powered case and knowledge suggestions, knowledge search, and scripts with macros for common tasks automation
   - Case management, knowledge management, email
-- Digital Messaging and Voice Channel for Dynamics 365 Customer Service
+- Digital Messaging and voice channel for Dynamics 365 Customer Service
   - Chat, voice, and other digital messaging channels, and unified routing
     > [!NOTE]
     > The enhanced voice experience isn't available in the trial version.
@@ -95,11 +95,11 @@ Yes. You can also make outbound calls in a trial org when you bring your own pho
 
 For the list of geographical regions supported in Customer Service, see [Datacenter regions](/power-platform/admin/new-datacenter-regions).
 
-For the list of geographical regions supported in Omnichannel for Customer Service, see [International availability](international-availability.md). Additionally, the new trial experience isn't supported in Brazil, Government Community Cloud, Norway, and South Africa.
+For the list of geographical regions supported in Omnichannel for Customer Service, see [International availability](/dynamics365/contact-center/implement/international-availability). Additionally, the new trial experience isn't supported in Brazil, Government Community Cloud, Norway, and South Africa.
 
 ### Which languages are supported in the trial version of Omnichannel for Customer Service?
 
-For the list of languages supported in Omnichannel for Customer Service, see [Language availability](international-availability.md#language-availability).
+For the list of languages supported in Omnichannel for Customer Service, see [Language availability](/dynamics365/contact-center/implement/international-availability#language-availability).
 
 ### Related information
 

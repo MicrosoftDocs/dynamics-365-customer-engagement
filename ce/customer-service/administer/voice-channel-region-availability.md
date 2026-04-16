@@ -4,7 +4,7 @@ description: Use this article to learn about the supported cloud locations for t
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 12/10/2025
+ms.date: 04/15/2026
 ms.topic: concept-article
 ms.custom: bap-template
 ---
@@ -17,11 +17,11 @@ ms.custom: bap-template
 
 This article provides information about the supported cloud locations for the voice channel.
 
-For information about international availability of live chat and digital messaging channels, go to [International availability of Omnichannel for Customer Service](../implement/international-availability.md#international-availability-of-omnichannel-for-customer-service).
+For information about international availability of live chat and digital messaging channels, go to [International availability](/dynamics365/contact-center/implement/international-availability).
 
 > [!IMPORTANT]
 >
-> - Your Microsoft 365 tenant must be colocated in one of the following geographic locations where Omnichannel for Customer Service is available.
+> - Your Microsoft 365 tenant must be colocated in one of the following geographic locations where Dynamics 365 Contact Center is available.
 > - The geographic locations refer to your Microsoft 365 tenant only and not the data center where your Power Platform environment or org instance resides.
 
 ## Global cloud deployments
@@ -79,7 +79,7 @@ The following table lists the sovereign region, URL, and general availability of
 
 Microsoft calling plans are available for customers with billing locations in select geographies around the world. To learn more about your eligibility, go to [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
 
-You can purchase new phone numbers through the Azure portal and then sync them with Omnichannel for Customer Service. Learn more in [Import phone numbers](voice-channel-sync-from-acs.md).
+You can purchase new phone numbers through the Azure portal and then sync them with Dynamics 365 Contact Center. Learn more in [Import phone numbers](voice-channel-sync-from-acs.md).
 
 You can also port existing US or toll-free phone numbers. Learn more in [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number).
 

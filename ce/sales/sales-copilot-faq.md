@@ -7,13 +7,43 @@ ms.reviewer: lavanyakr
 ms.topic: concept-article
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 03/09/2026
-ms.update-cycle: 180-days
+ms.date: 04/09/2026
+ms.update-cycle: 90-days
 ---
 
 # FAQ about Copilot in Dynamics 365 Sales
 
 This article answers some common questions about Copilot in Dynamics 365 Sales.
+
+<a name="sales-agent-vs-copilot"></a>
+## How does the Sales agent in Microsoft 365 Copilot differ from Copilot in Dynamics 365 Sales?
+
+Both the Sales agent in Microsoft 365 Copilot and Copilot in Dynamics 365 Sales use generative AI to help sellers be more productive, but they differ in their availability, capabilities, and integration. As capabilities continue to evolve, the Sales agent will become the preferred way to access Copilot assistance in Dynamics 365 Sales. 
+
+| Feature | Sales Agent in Microsoft 365 Copilot | Copilot in Dynamics 365 Sales |
+|---------|----------------------------------------|-------------------------------|
+| **Availability** | Available across Microsoft 365 applications (Teams, Outlook, Word, Excel) and Dynamics 365 Sales. | Built into Dynamics 365 Sales application. |
+| **Chat history** | Maintains a history of your interactions with the Sales agent across sessions and applications. | Doesn't maintain chat history across sessions. |
+| **Key Capabilities** | Summarizes accounts and past meeting data, and provides insights based on customer data. | Summarizes accounts, opportunities, and leads, generates meeting preparation notes, fetches latest account news, answers questions about sales data, and more. |
+| **Access** | Access the Sales agent from the **Copilot** > **Chat** menu. | Access Copilot in Dynamics 365 Sales from the **Copilot** > **App Skills** menu. |
+| **CRM Support** | Works with Dynamics 365 Sales and Salesforce CRM. | Works with Dynamics 365 Sales only. |
+
+## How do I migrate from Copilot in Dynamics 365 Sales to the Sales agent in Microsoft 365 Copilot?
+
+In the following scenarios, you can start [using the Sales agent in Microsoft 365 Copilot](use-sales-agent-in-m365-copilot.md) immediately after setup:
+
+- You haven't done any customization to your existing Copilot in Dynamics 365 Sales experience.
+- You added glossary and synonyms to the **Copilot in Dynamics 365 Sales** agent in Copilot Studio. The glossary and synonyms are shared between the Sales agent in Microsoft 365 Copilot and Copilot in Dynamics 365 Sales, so you can use the same glossary and synonyms in the Sales agent too.
+
+If you have done any other customizations, such as configuring summary fields, you will need to take some additional steps to ensure a smooth transition to the Sales agent in Microsoft 365 Copilot. 
+
+| Customization | Action Required |
+|---|---|
+| Summary fields configuration (account, opportunity, lead) | Reconfigure your summary fields using the [Sales agent configuration](/microsoft-sales-copilot/set-up-sales-chat#step-3-configure-account-summary). The Sales agent uses default summarization until you reconfigure. |
+| Custom topics and skills (Question and answers, and actions) | Build declarative agents to handle custom topics and skills in the Sales agent. Learn more in [Extend Sales Chat with custom tools](/microsoft-sales-copilot/extend-sales-chat-custom-tools) |
+| Welcome card customization and prompt suggestions | Not supported. The Sales agent's welcome experience has a fixed design and doesn't support customization yet. |
+
+Reach out to Microsoft support if you need help with the migration or have any questions about the Sales agent.
 
 ## How does the data flow between Dynamics 365 and Azure OpenAI endpoints?
 
@@ -72,12 +102,6 @@ No. We don't use any customer data to train Azure OpenAI or any other language m
 ## In which regions is Copilot in Dynamics 365 Sales available?
 
 Learn more at [Explore Copilot products by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
-
-## What's the difference between the Sales in Microsoft 365 Copilot and Copilot in Dynamics 365 Sales?
-
-Sales in Microsoft 365 Copilot is a seller experience application that's available in Microsoft 365 applications and Microsoft Teams. It lets sellers capture, access, and update customer relationship data from Teams and Microsoft 365 applications like Outlook. It also has generative AI capabilities such as record summarization and email content generation. The Sales agent also works with Dynamics 365 Sales and Salesforce CRM. [Learn more about Sales in Microsoft 365 Copilot](/microsoft-sales-copilot/introduction).
-
-Copilot in Dynamics 365 Sales refers to the out-of-the-box AI assistant that's integrated with Dynamics 365 Sales. It uses generative AI to summarize opportunities and leads and generate meeting preparation notes. [Learn more about Copilot in Dynamics 365 Sales](copilot-overview.md).
 
 ## How does Copilot match leads with contacts and can I customize the matching fields?
 

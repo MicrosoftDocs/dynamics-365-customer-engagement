@@ -1,9 +1,9 @@
 ---
-title: Configure voicemail to manage inbound calls
+title: Configure voicemail to manage inbound calls in Dynamics 365 Contact Center
 description: Configure voicemail to manage inbound calls, route voicemails to representatives, and reduce on-hold wait times.
 author: neeranelli
 ms.author: nenellim
-ms.date: 06/19/2025
+ms.date: 04/08/2026
 ms.topic: how-to
 ms.reviewer: nenellim
 ms.collection:
@@ -61,8 +61,9 @@ You can configure routing rules to route a voicemail that your customer records 
 
 The following considerations apply:
 
-* To route voicemails, avoid defining rules based on skills or sentiment category for the missed conversation attribute because the rules might not work as expected.
-* You can't route voicemails to voice queues because the system categorizes them as records.
+- To route voicemails, avoid defining rules based on skills or sentiment category for the missed conversation attribute because the rules might not work as expected.
+- Use "msdyn_hascontent" to determine if the voicemail has any transcripted words.
+- You can't route voicemails to voice queues because the system categorizes the voicemails as records.
 
 ## Use voicemail to manage direct inbound calls to service representatives
 

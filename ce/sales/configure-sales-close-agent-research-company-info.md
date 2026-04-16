@@ -2,6 +2,7 @@
 title: Configure company info for Sales Opportunity Agent
 description: Define the company information such as name, website URL, and value propositions that the Sales Opportunity Agent uses to engage with customers.
 ms.date: 03/30/2026
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

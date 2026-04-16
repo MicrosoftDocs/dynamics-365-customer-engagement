@@ -5,8 +5,9 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: concept-article
-ms.collection: 
+ms.collection: bap-ai-copilot
 ms.date: 11/07/2025
+ms.update-cycle: 90-days
 ms.custom: bap-template 
 ---
 
