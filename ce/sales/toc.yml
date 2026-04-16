@@ -939,14 +939,14 @@ items:
                 href: view-sales-close-agent-engage-processed-records.md  
               - name: How the Sales Close Agent works
                 href: how-sales-close-agent-engage-mode-works.md
-        - name: AI-powered Data Enrichment
-          items:
+          - name: AI-powered Data Enrichment
+            items:
             - name: Overview
               href: data-enrichment-agent-overview.md
             - name: Review and approve suggestions from Data Enrichment
               href: use-data-enrichment-agent.md
-        - name: Sales Research Agent
-          items:
+          - name: Sales Research Agent
+            items:
             - name: Overview
               href: sales-research-agent.md
             - name: Provide context to the agent
