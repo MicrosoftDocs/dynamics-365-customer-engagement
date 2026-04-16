@@ -23,12 +23,16 @@ The AI-powered Data Enrichment feature helps sellers and managers maintain accur
 
 The agent behind the AI-powered Data Enrichment feature follows these steps to analyze and enrich opportunity records:
 
-1. **Filters opportunity records**: The agent applies the criteria that the admin defines to select relevant opportunity records for analysis.
+1. **Filters opportunity records**: The agent applies the user and record selection criteria that the admin defines to select relevant opportunity records for analysis.
 
 1. **Analyze recent changes**: The agent scans emails exchanged between sellers and customers to gather context about selected opportunities. It looks for context and deal-related information such as budget, authority, need, and timeline that can help enrich the opportunity records.
 1. **Identify missing or outdated fields**: The agent compares the information in the emails with the existing opportunity records to identify any discrepancies or gaps.  
 1. **Suggest updates**: The agent generates suggestions for updating opportunity fields, such as estimated close date and budget amount, and associating relevant emails. Alternatively, an admin can configure the agent to automatically update the records without any manual intervention. 
 1. **Review and apply updates**: Sellers can review the suggested updates and choose to apply them to the opportunity records with a single click. In cases where automatic updates are enabled, the sellers can still review the changes made by the agent and revert them if necessary.
+
+The following diagram illustrates the workflow of the AI-powered Data Enrichment feature for opportunities:
+
+:::image type="content" source="media/data-enrichment-agent-overview/ai-data-enrichment-process-steps.png" alt-text="Diagram of AI-powered data enrichment workflow for opportunities, showing steps from filtering records to applying updates.":::
 
 ## How to set up and use Data Enrichment
 
