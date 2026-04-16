@@ -21,6 +21,21 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/move-sales-enterprise-sales-professional.md",
+      "redirect_url": "/dynamics365/sales/upgrade-sales-license",
+      "redirect_document_id": "false"
+    },
+        {
+      "source_path": "ce/sales/upgrade-sales-premium.md",
+      "redirect_url": "/dynamics365/sales/upgrade-sales-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/upgrade-sales-professional-sales-enterprise.md",
+      "redirect_url": "/dynamics365/sales/upgrade-sales-license",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/developer/entities/msdyn_migrationtracker.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_migrationtracker",
       "redirect_document_id": "false"
