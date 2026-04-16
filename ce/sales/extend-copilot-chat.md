@@ -1,8 +1,8 @@
 ---
 title: Customize Copilot in Dynamics 365 Sales
 description: Learn how to extend Copilot in Dynamics 365 Sales to customize the welcome message, add prompts, and the prompt guide.
-ms.date: 01/16/2026
-ms.update-cycle: 180-days
+ms.date: 04/09/2026
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -43,10 +43,9 @@ Use a solution to manage your customizations so that you can easily deploy them 
 1. Select **Copilot in Dynamics 365 Sales** to customize Copilot in Dynamics 365 Sales.
 1. Customize the following aspects of Copilot chat experience:
 
-    - [Create or edit topics in Copilot Studio](/microsoft-copilot-studio/authoring-create-edit-topics). You can create new topics or edit existing topics to add more relevant data and actions specific to your organization. 
+    - [Create or edit topics in Copilot Studio](/microsoft-copilot-studio/authoring-create-edit-topics). You can create new topics or edit existing topics to add more relevant data, knowledge sources, and actions specific to your organization. 
       > [!NOTE]
       >- Custom topics will be charged as per the Copilot Studio credits consumed. Learn more about capacity in [Manage consumption-based billing for agent capabilities](copilot-consumption-based-billing.md).
-      >- Knowledge source isn't supported currently for Copilot in Dynamics 365 Sales.
       >- The [Image](/microsoft-copilot-studio/authoring-send-message#add-an-image) and [Video](/microsoft-copilot-studio/authoring-send-message#add-an-image) message types from agent to user aren't supported. As a workaround, you can use Adaptive Cards.
     - Edit the **SalesSparks** topic to [customize the prompt guide](/power-apps/maker/model-driven-apps/customize-copilot-chat#prompt-guide-customizations).
 

@@ -2,7 +2,7 @@
 title: FAQs about AI-powered Data Enrichment for opportunities
 description: Explore frequently asked questions about AI-powered Data Enrichment in Dynamics 365 Sales and how it transforms your CRM data into valuable insights.
 ms.date: 02/16/2026
-ms.update-cycle: 180-days
+ms.update-cycle: 90-days
 ms.topic: faq
 ms.service: dynamics-365-sales
 ms.custom:

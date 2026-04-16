@@ -3,7 +3,7 @@ title: FAQ about the voice channel
 description: Use this article to know answers to your frequently asked questions (FAQ) about the voice channel.
 author: neeranelli
 ms.author: nenellim
-ms.date: 04/21/2025
+ms.date: 04/15/2026
 ms.topic: faq
 ms.reviewer: nenellim
 ms.collection:
@@ -20,9 +20,9 @@ This article includes frequently asked questions (FAQ) about the voice channel.
 
 ## General
 
-### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app, such as, by adding omnichannel capabilities to a customer's Dynamics 365 app?
+### Is it possible to enable voice integrations outside of the Copilot Service workspace app, such as, by adding omnichannel capabilities to a customer's Dynamics 365 app?
 
-No, the voice channel isn't supported in the other apps of Dynamics 365. It's supported in the Copilot Service workspace and Omnichannel for Customer Service (deprecated) apps only.
+No, the voice channel isn't supported in the other apps of Dynamics 365. It's supported in the Copilot Service workspace app only.
 
 ## Setup
 
@@ -46,11 +46,11 @@ The voice channel supports the G.711 and Opus codecs for PSTN and VoIP services.
 
 ### Can I bring my own phone number?
 
-Yes, you can bring your existing numbers to Omnichannel for Customer Service in the following ways:
+Yes, you can bring your existing numbers to Dynamics 365 Contact Center in the following ways:
 
-- **Import numbers to Omnichannel for Customer Service**
+- **Import numbers to Dynamics 365 Contact Center**
     1. You must first port your existing phone numbers to Azure Communication Services. More information: [Quickstart: Port a phone number into Azure Communication Services](/azure/communication-services/quickstarts/telephony/port-phone-number)
-    2. You can then import the phone numbers from Azure Communication Services to Omnichannel for Customer Service. More information: [Sync from Azure Communication Services](voice-channel-sync-from-acs.md)
+    2. You can then import the phone numbers from Azure Communication Services to Dynamics 365 Contact Center. Learn more in [Sync from Azure Communication Services](voice-channel-sync-from-acs.md).
 
 - **Configure Azure direct routing**
     1. Configure a Session Border Controller (SBC) that's connected to your local carrier with Azure Communication Services.
@@ -68,7 +68,7 @@ You can purchase one phone number per tenant for Azure Communication Services th
 
 Yes, you can.
 
-### Can I configure a third-party voice provider in Omnichannel for Customer Service?
+### Can I configure a third-party voice provider in Dynamics 365 Contact Center?
 
 Yes, you can use the Dynamics 365 Channel Integration Framework 2.0 connector to integrate third-party contact centers, such as Genesys Engage, Solgari, and NICE inContact.
 

@@ -1,50 +1,47 @@
 ---
-title: "Authorize API connection between Dynamics 365 and Azure IoTHub  | MicrosoftDocs"
-description: "Learn how to authorize the API connection between Dynamics 365 and Azure IoTHub."
-ms.date: 04/03/2020
+title: Authorize API connections between Customer Service and Azure IoT Hub
+description: Learn how to authorize the API connection between Dynamics 365 Customer Service and Azure IoT Hub for Connected Customer Service.
+ms.date: 03/30/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ---
 
-# Authorizing API connections between Dynamics 365 and Azure IoT
+# Authorize API connections between Customer Service and Azure IoT Hub
 
-In order to begin using Connected Customer Service (CCS) with IoTHub, you need to authorize CRM API Management Access, which is the final step when deploying from [https://iotdeployment.dynamics.com/](https://iotdeployment.dynamics.com/). This allows data and actions to be passed between Azure IoTHub and Dynamics 365. More specifically, it allows LogicApps to read and write Dynamics 365 data bi-directionally. 
+Authorizing API connections enables Azure Logic Apps to read and write data. This authorization allows IoT alerts, device data, and commands to flow between Azure IoT Hub and Customer Service. You must complete this authorization step when you deploy Connected Customer Service for Azure IoT Hub by using the [IoT deployment app](https://iotdeployment.dynamics.com/).
 
-Without completing this step, you will not be able to: 
+Without completing this step, you can't do the following actions:
 
-1. Send IotAlerts from IoTHub to Dynamics 365
-2. Add a device in Dynamics 365 and register it in IoTHub
-
+ - Send Iot alerts from IoT Hub to Customer Service
+ - Add a device in Customer Service and register it in IoT Hub
 
 ## Prerequisites
 - Azure account and subscription
 - Dynamics 365 Customer Service 
-- CCS with IoTHub deployed though deployment app
-
+- Connected Customer Service with IoT Hub deployed through deployment app
 
 ## Instructions
 
 Sign into your Azure account, and then go to the [Azure portal](https://portal.azure.com). 
 
-From there, go to **Resource Groups** and find the resource group you recently deployed IoTHub to. See the following screenshot for reference.
-
+From there, go to **Resource Groups** and find the resource group you recently deployed IoT Hub to. See the following screenshot for reference.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Azure resource groups.](../media/cs-iot-resource-group.png)
 
-One such resource will be an API Connection type to Dynamics CRM. Select and edit this resource.
+One such resource is an API Connection type to Customer Service. Select and edit this resource.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of API connection between dynamics and azure.](../media/cs-iot-api-connection.png)
 
-Finally, select **Authorize**, **Save**, and use your Dynamics 365 credentials that you use to sign into your Connected Customer Service environment, which may be different than your Azure credentials to the Azure portal.
+Finally, select **Authorize**, **Save**, and use your Dynamics 365 Customer Service credentials that you use to sign into your Connected Customer Service environment, which may be different than your Azure credentials to the Azure portal.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of authorizing the subscription.](../media/cs-iot-hub-api-connection-authorize.png)
 
-Congratulations! You are now ready to pass data between Azure IoTHub and Dynamics 365 to use Connected Customer Service.
+You can now pass data between Azure IoT Hub and Customer Service to use Connected Customer Service.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

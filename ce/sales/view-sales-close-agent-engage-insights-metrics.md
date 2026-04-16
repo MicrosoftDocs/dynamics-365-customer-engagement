@@ -1,14 +1,11 @@
 ---
-title: View Sales Close Agent (Engage) insights and metrics
+title: View Sales Close Agent insights and metrics
 description: Learn how to view insights and metrics for the Sales Close Agent's Engage type, including key performance indicators and engagement statistics.
 ms.date: 01/09/2026
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
+ms.custom: bap-template
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -17,7 +14,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# View Sales Close Agent (Engage) insights and metrics
+# View Sales Close Agent insights and metrics
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -35,7 +32,7 @@ The insights dashboard is displayed as shown in the following image:
     If you have trouble finding or accessing the AI hub, it might be due to permission restrictions. Learn more in [Access Dynamics 365 AI Hub](dynamics-365-ai-hub.md).  
 1. In the **AI Optimization** card, select **See insights**.  
     The Agent insights page opens with the available insights for the agents configured in your organization.  
-1. Select the **Sales Close Agent - Engage** tab to view the insights specific to the Sales Close Agent engage mode.  
+1. Select the **Sales Close Agent** tab to view the insights specific to the Sales Close Agent engage mode.  
 1. Verify the **Last refreshed** date and time to ensure the data is up-to-date. The data is refreshed when you open the dashboard. If needed, you can refresh the dashboard by selecting the **Refresh** icon.  
 1. Select the **Time period** filter to specify the period for which you want to view the data. By default, the dashboard shows data for the last 7 days.  
 

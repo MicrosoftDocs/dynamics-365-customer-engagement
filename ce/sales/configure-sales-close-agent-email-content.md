@@ -1,14 +1,11 @@
 ---
-title: Configure email content for Sales Close Agent - Engage
-description: Configure the email content that the Sales Close Agent - Engage uses for outreach and follow-up emails to customers.   
-ms.date: 12/17/2025
+title: Configure email content for Sales Close Agent
+description: Configure the email content that the Sales Close Agent uses for outreach and follow-up emails to customers.   
+ms.date: 03/30/2026
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
+ms.custom: bap-template
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -17,7 +14,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure email content for Sales Close Agent - Engage
+# Configure email content for Sales Close Agent
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -27,9 +24,9 @@ Configure the agent to send personalized outreach emails to customers. You can s
 
 **Follow these steps**:
 
-1. [Open the Sales Close Agent - Engage settings page](open-sales-close-agent-settings.md).  
+1. [Open the Sales Close Agent settings page](open-sales-close-agent-settings.md).  
 1. In the **Guidance** section, select **Email content**.  
-    :::image type="content" source="media/sca-guidance-email-content-settings-page.png" alt-text="Screenshot of the Sales Close Agent - Engage email content settings page.":::  
+    :::image type="content" source="media/sca-guidance-email-content-settings-page.png" alt-text="Screenshot of the Sales Close Agent email content settings page.":::  
 1. In the **Email content** page, configure the following settings:  
 
     - **Outreach email templates**: Select a template that the agent should use for sending outreach emails to customers. Select **Choose template** and then pick a template from the list of available email templates.
@@ -48,4 +45,4 @@ Configure the agent to send personalized outreach emails to customers. You can s
 
 ## Related information
 
-[Set up and configure the Sales Close Agent - Engage (preview)](configure-sales-close-agent.md)
+[Set up and configure the Sales Close Agent (preview)](configure-sales-close-agent.md)

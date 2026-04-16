@@ -1,24 +1,24 @@
 ---
 title: Data access consent
-description: Learn about the consent requirements that are required for provisioning Omnichannel for Customer Service.
-ms.date: 03/17/2025
+description: Learn about the consent requirements that are required for provisioning Dynamics 365 Contact Center.
+ms.date: 04/15/2026
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: reference
 ---
 
-# Provide consent to access data to provision Omnichannel for Customer Service
+# Provide consent to access data to provision Dynamics 365 Contact Center
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
-This article provides information about the consent that's needed to access the different components and data during the installation and provision of Omnichannel for Customer Service.
+This article provides information about the consent that's needed to access the different components and data during the installation and provision of Dynamics 365 Contact Center.
 
 ## Provide consent to access data
 
-Omnichannel for Customer Service app requires the following permissions to read and write data on behalf of users:
+Copilot Service workspace app requires the following permissions to read and write data on behalf of users:
 
 - **Allow the application to read flows**: The app can access the flows if they have been used in macros.
 
@@ -60,7 +60,7 @@ A detailed explanation is as follows:
 
   - **For Omnichannel for Customer Service users**: Allows Omnichannel for Customer Service to automatically create a non-licensed, non-interactive application user, and assign security roles to the application user. This application user is primarily used to access omnichannel representatives' characteristics, such as capacity, skill, and presence, and to sync chat-related entities with Dataverse.
 
-## What happens when I provide data access consent and provision Omnichannel for Customer Service?
+## What happens when I provide data access consent and provision Dynamics 365 Contact Center?
 
 The following enterprise applications will be created in your Microsoft Entra ID and corresponding security permissions mentioned during data consent will get propagated to these apps. The Omnichannel Application User created in Dataverse will have reference to these AAD enterprise applications thereby helping it to interact with Dataverse and Omnichannel satellite services.
 

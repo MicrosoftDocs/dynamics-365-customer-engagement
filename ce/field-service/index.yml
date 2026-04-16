@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page
   author: puneet-singh1
   ms.author: puneetsingh
-  ms.date: 01/08/2025
+  ms.date: 04/10/2026
   ms.custom: bap-template
   hide_bc: true
 
@@ -104,17 +104,7 @@ additionalContent:
       - url: manage-agreements.md
         text: Manage agreements    
       - url: set-up-agreement-sub-statuses.md
-        text: Agreement substatuses                
-    - title: Develop
-      links:
-      - url: developer/reference/about-entity-reference.md
-        text: Field Service table/entity reference
-      - url: /dynamics365/guidance/resources/field-service-copilot-import-sample-data
-        text: Use Copilot to create sample data for Field Service
-      - url: /dynamics365/guidance/resources/field-service-deploy-copilot-studio-create-sample-data
-        text: Build an agent to create sample data in Dynamics 365 Field Service
-      - url: /dynamics365/guidance/resources/field-service-streamline-inventory-visibility
-        text: Streamline inventory visibility in Field Service
+        text: Agreement substatuses   
     - title: Mobile app
       links:
       - url: mobile/set-up-field-service-mobile.md
@@ -124,7 +114,17 @@ additionalContent:
       - url: mobile/offline-data-sync.md
         text: Configure offline capabilities
       - url: mobile/enable-push-notifications.md
-        text: Enable push notifications
+        text: Enable push notifications           
+    - title: Develop
+      links:
+      - url: developer/reference/about-entity-reference.md
+        text: Field Service table/entity reference
+      - url: search-resource-availability-api.md
+        text: Search resource availability API
+      - url: search-resource-availability-requirement-groups-api.md
+        text: Requirement group APIs
+      - url: /dynamics365/guidance/resources/field-service-copilot-import-sample-data
+        text: Use Copilot to create sample data for Field Service
     - title: Add-ons
       links:
       - url: connected-field-service.md

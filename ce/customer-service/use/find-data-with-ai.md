@@ -1,10 +1,10 @@
 ---
-title: Use natural language to find data with AI in Customer Service and Dynamics 365 Contact Center (preview)
+title: Find data with AI using natural language in Customer Service and Dynamics 365 Contact Center (preview)
 description: Learn how to find, filter, and sort data in Customer Service and Dynamics 365 Contact Center using natural language with AI.
 author: neeranelli
 ms.author: nenellim
 ms.topic: overview
-ms.date: 02/23/2026
+ms.date: 04/09/2026
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---
@@ -17,4 +17,5 @@ ms.update-cycle: 180-days
 
 ### Related information
 
+[Agents, Copilot, and AI capabilities in Dynamics 365 apps](/dynamics365/copilot/ai-get-started)  
 [Copilot feature availability across products](/dynamics365/contact-center/use/copilot-feature-availability)  

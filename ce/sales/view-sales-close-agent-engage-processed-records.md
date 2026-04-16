@@ -1,14 +1,11 @@
 ---
 title: View records processed by agent
-description: Learn how to view the records processed by the Sales Close Agent - Engage type in Dynamics 365 Sales.
+description: Learn how to view the records processed by the Sales Close Agent type in Dynamics 365 Sales.
 ms.date: 11/21/2025
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
+ms.custom: bap-template
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -33,13 +30,13 @@ The supervisor view shows insights into the records processed by the Sales Close
 >- The view is available for Accounts, Contacts, Leads, and Opportunities record types.
 
 1. In the Sales Hub app, go to ***Record type***. For example, go to **Contacts**.  
-1. In the command bar, select the ***Record type* from Sales Close Agent - Engage** view from the dropdown. For example, select **Contacts from Sales Close Agent - Engage**.  
+1. In the command bar, select the ***Record type* from Sales Close Agent** view from the dropdown. For example, select **Contacts from Sales Close Agent**.  
     The view displays the list of records processed by the agent.
 
 1. Select a record to view the details of actions taken by the agent.  
     The record form opens displaying the details of actions taken by the agent on the record.  
 
-    :::image type="content" source="media/sca-engage-processed-records-view.png" alt-text="Screenshot of the Contacts from Sales Close Agent - Engage view showing records processed by the agent.":::
+    :::image type="content" source="media/sca-engage-processed-records-view.png" alt-text="Screenshot of the Contacts from Sales Close Agent view showing records processed by the agent.":::
 
     - The Key insights section summarizes the actions taken by the agent on the record.  
     - The **Review escalated issue** section shows issues escalated to a seller when a customer requests human intervention during the engagement. Based on the summary, the seller can: 
@@ -50,5 +47,5 @@ The supervisor view shows insights into the records processed by the Sales Close
 
 ## Related information
 
-- [How the Sales Close Agent - Engage works](how-sales-close-agent-engage-mode-works.md)  
-- [Overview of Sales Close Agent - Engage](sales-close-agent.md)
+- [How the Sales Close Agent works](how-sales-close-agent-engage-mode-works.md)  
+- [Overview of Sales Close Agent](sales-close-agent.md)

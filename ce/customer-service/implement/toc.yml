@@ -46,8 +46,8 @@
         href: voice-channel-best-practices.md
     - name: Availability
       items:
-      - name: International availability of Omnichannel for Customer Service
-        href: international-availability.md
+      - name: International availability of Dynamics 365 Contact Center
+        href: /dynamics365/contact-center/implement/international-availability?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
       - name: Dynamics 365 US Government Community Cloud (GCC) availability
         href: government-availability.md
     - name: Accessibility and privacy
@@ -106,9 +106,11 @@
       href: faq-responsible-ai-copilot.md
     - name: Responsible AI FAQs for NLUs in AI agents
       href: /dynamics365/contact-center/implement/natural-language-ai-faq?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
-    - name: Constrained speech recognition
+    - name: Transparency note
       items:
-      - name: Transparency note
+      - name: Real-time voice agents
+        href: /dynamics365/contact-center/implement/transparency-note-real-time-voice-agents?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Constrained speech recognition
         href: /dynamics365/contact-center/implement/transparency-note?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
   - name: Resources
     items:
