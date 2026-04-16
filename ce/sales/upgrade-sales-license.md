@@ -1,7 +1,7 @@
 ---
 title: Upgrade your Dynamics 365 Sales license
 description: Follow the steps in this topic to upgrade to a higher Dynamics 365 Sales license tier.
-ms.date: 04/15/2026
+ms.date: 04/16/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -10,11 +10,11 @@ ai-usage: ai-assisted
 ---
 # Upgrade your Dynamics 365 Sales license
 
-Learn how to upgrade to a higher Dynamics 365 Sales license tier.
+Learn how to upgrade to a higher Dynamics 365 Sales license. Dynamics 365 Sales has the following licenses: Sales Professional, Sales Enterprise, Microsoft Relationship Sales, and Sales Premium. Each license offers different features and capabilities to meet the needs of various businesses. By upgrading your license, you can access additional functionalities that can help your sales team be more productive and efficient.
 
 ## Overview
 
-As your business needs grow, you can upgrade your Dynamics 365 Sales license to access additional features and capabilities. The upgrade process is the same regardless of which license tier you're upgrading to.
+The upgrade process is the same regardless of which license you're upgrading to. You must have the appropriate admin permissions to manage licenses in Microsoft 365 and manage environments and apps in Power Platform admin center.  
 
 The upgrade involves these steps:
 
@@ -55,10 +55,9 @@ Dynamics 365 Sales has two out-of-box apps: Sales Hub and Sales Professional. Th
 
 ## Remove the previous solution
 
-1. Make sure you have System Administrator or System Customizer security role.
-2. Sign in to Dynamics 365, and select **Settings** > **Advanced Settings**.
-3. Select **Customization** > **Solutions**.
-4. Select your previous Dynamics 365 Sales solution, and then select **Delete**.
+1. Sign in to Dynamics 365, and select **Settings** > **Advanced Settings**.
+2. Select **Customization** > **Solutions**.
+3. Select your previous Dynamics 365 Sales solution, and then select **Delete**.
     > [!NOTE]
     > Deleting the solution removes associated app modules and configurations like site maps and form preferences.
 
