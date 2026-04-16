@@ -19,9 +19,6 @@ ai-usage: ai-assisted
 
 The AI-powered Data Enrichment feature helps sellers and managers maintain accurate and complete opportunity data. Incomplete or outdated opportunity records can lead to missed sales, inaccurate forecasting, and inefficient deal reviews. The AI-powered Data Enrichment feature addresses this challenge by automatically analyzing recent email interactions and suggesting or making updates to opportunity records. This proactive approach reduces manual data entry, improves pipeline confidence, and supports more effective deal reviews and forecasting.
 
-> [!NOTE]
-> The Data Enrichment feature is supported only for emails stored in Dataverse. Ensure that your admin [enabled server-side synchronization](configure-email.md) for emails to leverage this feature.
-
 ## How the AI-powered Data Enrichment feature works
 
 The agent behind the AI-powered Data Enrichment feature follows these steps to analyze and enrich opportunity records:
