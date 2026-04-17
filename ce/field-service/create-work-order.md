@@ -1,7 +1,7 @@
 ---
 title: Create a work order
 description: Learn the different ways to create a work order in Dynamics 365 Field Service, including manually, from a case, agreement, opportunity, Power Automate, or API.
-ms.date: 03/24/2026
+ms.date: 03/27/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -27,6 +27,8 @@ Use the following table to find the right creation method for your scenario.
 | Customer called in with an issue | [Create work orders from a case](create-work-order-from-case.md) |
 | Recurring scheduled maintenance | [Create work orders from an agreement](create-work-order-from-agreement.md) |
 | Sales opportunity converted to service | [Create work orders from an opportunity](create-work-order-from-opportunity.md) |
+| Automate creation based on triggers or conditions | [Create work orders with Power Automate](create-work-order-flow.md) |
+| Programmatic bulk creation or integration | [Create work orders with the Dataverse Web API](create-work-order-api-example.md) |
 
 ## Prerequisites
 
@@ -85,6 +87,13 @@ To create work orders from an agreement, learn more in [Create work orders from 
 
 To create work orders from an opportunity, learn more in [Create a work order from an opportunity](create-work-order-from-opportunity.md).
 
+## Create work orders using Power Automate
+
+To automate work order creation based on triggers or conditions, learn more in [Create work orders using Power Automate](create-work-order-flow.md).
+
+## Create work orders using API
+
+To create multiple work orders using API, learn more in [Create work orders using the Dataverse Web API](create-work-order-api-example.md).
 
 ## Next steps
 

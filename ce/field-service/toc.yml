@@ -158,6 +158,10 @@ items:
       href: create-work-order-from-agreement.md
     - name: Create a work order from an opportunity
       href: create-work-order-from-opportunity.md
+    - name: Create work orders with Power Automate
+      href: create-work-order-flow.md  
+    - name: Create work orders using Dataverse APIs
+      href: create-work-order-api-example.md  
 
 - name: Inspections
   items:
