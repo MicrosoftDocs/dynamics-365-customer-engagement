@@ -131,7 +131,7 @@ To manage tools and knowledge associated with this agent, use the links to **Cop
 
 ## Let representatives use Copilot to translate responses
 
-On the **Copilot settings** page, in the **Translation using Copilot** section, you can select **Let representatives translate responses using Copilot** to allow your representatives to choose from the languages that your organization added to Dynamics 365.
+On the **Copilot settings** page, navigate to **Translation using Copilot** and select **Let representatives translate responses using Copilot**. Representatives can then select from languages configured in Dynamics 365.
 
 ## Record representative interactions with Copilot
 
