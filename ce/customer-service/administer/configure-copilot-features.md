@@ -1,6 +1,6 @@
 ---
 title: Manage Copilot features in Customer Service
-description: Learn how to enable Copilot features in Dynamics 365 Customer Service to help service representatives handle cases more efficiently and resolve issues faster.
+description: Learn how to enable Copilot features in Dynamics 365 Customer Service to help customer service representatives handle cases more efficiently and resolve issues faster.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
