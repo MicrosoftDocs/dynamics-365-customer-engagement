@@ -64,7 +64,7 @@ By default, the agent uses public web data sources to research records and their
 This section applies only to **Sales Opportunity Agent**.  
 When you have multiple agent instances, you can configure knowledge sources for specific instances by applying filters that use the agent profile ID (GUID) in Copilot Studio. To add filters for specific agent instances, follow these steps:
 
-1. Go to **Knowledge** > **Research** and copy the **Agent research** GUID that appears after you save the agent profile.  
+1. In the Sales Hub app, go to **Knowledge** > **Research** and copy the **Agent research** GUID that appears after you save the agent profile.  
 1. Open **Copilot Studio** from the agent configuration page and add a knowledge source as usual.
 1. Open your Sales Opportunity Agent and go to the **Knowledge** tab.  
     A list of knowledge sources is displayed. 

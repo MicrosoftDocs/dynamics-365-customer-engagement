@@ -56,7 +56,7 @@ Sales Opportunity Agent is built with responsible AI principles in mind. The age
 ## Language support and output quality
 
 To know the languages supported by the Sales Opportunity Agent, see [the feature availability by language page](https://releaseplans.microsoft.com/availability-reports/?report=featurelangreport).  
-The following are the considerations regarding the agent's output quality:
+The following are the considerations regarding the agent's language output quality:
 
 - Content is generated in the selected target language using AI. In some cases, sentence structure or word order might reflect English patterns.
 - Certain languages (for example, Spanish, Danish, and Swedish) might show minor stylistic differences compared to native writing. These variations don't affect the accuracy or meaning of the content.

@@ -44,7 +44,7 @@ Ensure that you meet the following prerequisites before configuring the agent.
 
 Before you set up the agent, consider the following points:
 
-- **Pick one product line.** A single sales team should handle the products. If your company sells multiple products through different sales teams, start with one product line.
+- **Pick a product line.** The agent can be configured to handle opportunities for a specific product line. Choose a product line that has a good amount of opportunities and is important for your business.
 - **Define an opportunity segment.** Determine the segment of opportunities for the agent to handle. For example, only opportunities that are **Hot** with an estimated revenue of $100,000 or more.
 - **Predictive scoring dependency.** The agent uses the machine learning model in predictive opportunity scoring for risk assessment. If you didn't configure scoring in your environment, it's configured automatically when you start the agent.
 
@@ -76,8 +76,7 @@ Before setting up the agent, make sure you [plan your implementation](#plan-your
 You can use multiple agents to handle different product lines or opportunity segments at the same time. You can configure each agent instance independently with its own profile, selection criteria, and knowledge sources. For example, you can create one agent for high-value enterprise deals and another for mid-market opportunities, tailoring the insights and recommendations to the specific needs of each segment.
 
 ### Considerations
-
-Consider the following points when creating multiple agent instances:
+Consider the following points when creating multiple agent instances of Sales Opportunity Agent:
 
 - **Maximum instances per organization**: Your organization can have up to 10 active agent instances.  
 - **Capacity usage**: All agent instances draw from the same capacity pool. Monitor your capacity usage to ensure you have enough resources to support multiple agents. For more information, see [Manage consumption-based billing for agent capabilities](copilot-consumption-based-billing.md).  
