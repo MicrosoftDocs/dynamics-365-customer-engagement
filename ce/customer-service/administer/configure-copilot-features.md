@@ -121,7 +121,7 @@ The Admin Management (preview) agent is an optional Copilot agent that provides 
 
 To configure Admin Management agent, perform the following steps.
 
-1. In Copilot Service admin center, in the **Agents within Copilot** section, select **Settings** next to **Admin Management**. The **Admin Management** page displays.
+1. In Copilot Service admin center, in the **Agents within Copilot** section, select **Settings** next to **Admin Management**. The **Admin Management** page appears.
 1. Configure the required Copilot features for administrators across the available tabs:
    - **Overview**
    - **Prompts**
