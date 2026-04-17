@@ -74,7 +74,7 @@ In Copilot Service admin center, on the [**Copilot settings**](/dynamics365/cont
 
 ## Opt out of Copilot features
 
-In Copilot Service admin center, opt out from the Copilot features on the **Copilot settings** or **Summaries** page. You can navigate to these pages using one of the following navigation options:
+In Copilot Service admin center, opt out of Copilot features on the **Copilot settings** or **Summaries** page. Navigate to these pages using one of the following navigation options:
 
 - **Support experience** > **Productivity** > **Copilot settings**
 - **Operations** > **Insights** > **Summaries**
