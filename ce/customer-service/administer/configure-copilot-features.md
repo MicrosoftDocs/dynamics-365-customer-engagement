@@ -117,7 +117,7 @@ Learn more about Customer Support agent and how to configure the settings on eac
 
 ## Configure Admin Management agent settings
 
-The Admin Management (preview) agent is an optional Copilot agent that provides administrators with a centralized way to manage administrative prompts, control user access, and connect tools and knowledge through Copilot Studio.
+The **Admin Management** (preview) agent is an optional Copilot agent that provides administrators with a centralized way to manage administrative prompts, control user access, and connect tools and knowledge through Copilot Studio.
 
 To configure Admin Management agent, perform the following steps.
 
