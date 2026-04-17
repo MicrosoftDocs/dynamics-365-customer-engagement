@@ -1,7 +1,7 @@
 ---
 title: Configure a WhatsApp channel through Twilio
 description: Use this article to learn how to configure the WhatsApp channel through Twilio.
-ms.date: 04/14/2025
+ms.date: 04/20/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -20,6 +20,10 @@ ms.custom: bap-template
 The WhatsApp channel feature lets you integrate WhatsApp through Twilio with either the Copilot Service admin center application to engage with customers who prefer to use the WhatsApp channel.
 
 The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from representatives should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
+
+[!INCLUDE[cs-whatsapp-bsuid](../../includes/cs-whatsapp-bsuid.md)]
+
+Learn more in [WhatsApp usernames](https://www.twilio.com/docs/whatsapp/key-concepts#whatsapp-usernames).
 
 ## Prerequisites
 
