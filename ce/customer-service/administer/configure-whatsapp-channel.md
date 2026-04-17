@@ -1,7 +1,7 @@
 ---
 title: Configure a WhatsApp channel through Twilio
 description: Use this article to learn how to configure the WhatsApp channel through Twilio.
-ms.date: 04/14/2025
+ms.date: 04/17/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -16,15 +16,26 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-
-The WhatsApp channel feature lets you integrate WhatsApp through Twilio with either the Copilot Service admin center application to engage with customers who prefer to use the WhatsApp channel.
+The WhatsApp channel feature lets you integrate WhatsApp through Twilio with the Copilot Service admin center application to engage with customers who prefer to use the WhatsApp channel.
 
 The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from representatives should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
+
+> [!IMPORTANT]
+> - From June 2026, usernames and a new customer identifier called the Business-Scoped User ID are being released for WhatsApp. For updates on the timeline for this change, refer to [WhatsApp Business-Scoped User IDs](https://developers.facebook.com/documentation/business-messaging/whatsapp/business-scoped-user-ids/) in the Meta documentation.
+> - A Business-Scoped User ID will be assigned to every WhatsApp user that interacts with your organization. When a user adopts a WhatsApp username, their phone number will no longer be sent, and their Business-Scoped User ID will act as the primary identifier.
+> - With this change, the Contact Book will be enabled by default for your business WhatsApp account. By keeping your Contact Book enabled, you will preserve your ability to identify customers by phone number even after they adopt a username. If you disable the Contact Book, the phone number will be permanently lost as an identifier for the WhatsApp customer.
+> - After a customer’s phone number is no longer available, the system displays their first and last name if linked to a contact record. Otherwise, the system shows "Visitor."
+> - **What action do I need to take?**
+>   - Review your routing rules. Any custom routing rules that have conditions on phone number patterns like country/region code–based routing will not match Business-Scoped User ID-only conversations. Add a fallback rule to ensure these conversations are routed correctly. Business-Scoped User ID will be prefixed with two-letter country code and a period, followed by up to 128 alphanumeric characters (for example, US.13491208655302741918)
+>   - Review any integrations or automation workflows like Power Automate flows that rely on phone numbers for customer identification and update them to handle Business-Scoped User ID. 
+>   - Review context variables in your AI agents. If you are using msdyn_CustomerPhoneNumber in your AI agent configuration, update your logic to also handle scenarios where the Business-Scoped User ID only is available.<br>
+> Learn more in [WhatsApp usernames](https://www.twilio.com/docs/whatsapp/key-concepts#whatsapp-usernames).
 
 ## Prerequisites
 
 - Make sure channels are provisioned in your environment. Learn more in [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
-  > For newly created Twilio accounts, you must disable a security setting that blocks the ability to send media files. Learn more in [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938).
+  
+- For newly-created Twilio accounts, you must disable a security setting that blocks the ability to send media files. Learn more in [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938).
 
 - Obtain a Twilio account with an appropriate subscription or a Twilio sandbox account. Learn more about configuring a Twilio sandbox account in [Integrate a Twilio sandbox account](#integrate-omnichannel-application-with-a-twilio-sandbox-account).
 
@@ -86,7 +97,7 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
     
     5. Select **Done**. The account is added to the list.
 
-1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
+1. To configure routing and work distribution, create a [workstream](create-workstreams.md) or select an existing one.
 
 1. Select the workstream that you've created for the WhatsApp channel and on the workstream page, select **Set up WhatsApp** to configure the following options:
    
