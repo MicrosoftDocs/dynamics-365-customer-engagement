@@ -115,7 +115,7 @@ Perform the following steps.
 
 Learn more about the Customer Support agent and how to configure the settings on each of the tabs in [Enable features in Copilot](/dynamics365/contact-center/administer/copilot-enable-help-pane).
 
-## Configure Copilot features for administrators
+## Configure Admin Management agent settings
 
 The Admin Management (preview) agent is an optional Copilot agent that provides administrators with a centralized way to manage administrative prompts, control user access, and connect tools and knowledge through Copilot Studio.
 
