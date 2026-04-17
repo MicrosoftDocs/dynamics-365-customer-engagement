@@ -63,7 +63,7 @@ Learn more in [Tenant settings](/power-platform/admin/tenant-settings) and [FAQ 
 
 ## Opt in to continue with Copilot setup
 
-In Copilot Service admin center, on the [**Copilot settings**](/dynamics365/contact-center/administer/copilot-enable-help-pane) or [**Summaries**](/dynamics365/contact-center/administer/copilot-enable-summary) pages, the application displays the following message and links:
+In Copilot Service admin center, on the [**Copilot settings**](/dynamics365/contact-center/administer/copilot-enable-help-pane) or [**Summaries**](/dynamics365/contact-center/administer/copilot-enable-summary) page, the application displays the following message and links:
 
 - An error message to allow data movement across regions if you're in a region where Copilot features aren't available by default or if you want to opt out of using Copilot.
 - A link to the Power Platform admin center app to allow data movement across regions.
