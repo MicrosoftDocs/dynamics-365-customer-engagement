@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ about the Sales Opportunity Agent
 description: Learn about the responsible AI practices and limitations of the Sales Opportunity Agent in Dynamics 365 Sales.
-ms.date: 01/07/2026
+ms.date: 04/17/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -64,10 +64,6 @@ The Sales Opportunity Agent has a configuration experience that allows an admin 
 - Enable the agent to use the org-specific customizations. The admin can configure the fields the agent should use for Estimated Revenue and Estimated Close Date of the opportunities.  
 - Define the products and value proposition of the products and/or services your sellers offer. This enables the agent to personalize talking points for sellers to use against competitors, identify pain points and requirements for each account, and highlight how your offerings address those needs.  
 - Provide comprehensive information about each opportunity as it improves the quality of the agent’s outputs. The agent primarily operates on data stored in Dataverse, public web sources, emails, and meeting transcripts.
-
-## Which languages are supported by Opportunity Research?
-
-The Sales Opportunity Agent is currently only supported in English.
 
 ## What data is passed to Bing Search?
 

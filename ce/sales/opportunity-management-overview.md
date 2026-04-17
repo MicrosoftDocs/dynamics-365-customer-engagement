@@ -25,7 +25,7 @@ The following table lists the tasks that each role performs to manage opportunit
 |-------------|---------|---------|
 |Visualize your sales pipeline, get metrics, manage deals easily|[Configure opportunity pipeline view](opportunity-pipeline-view-for-admins.md)     | [Manage opportunities using pipeline view](use-opportunity-pipeline-view.md)        |
 |Manage all your sales records and related activities from a single view|[Set focused view as the default view](set-focused-view-as-default.md)     |[View and manage records in focused view](focused-view.md)         |
-|Focus on most important deals with AI-generated insights and recommendations|[Configure opportunity research agent](configure-opportunity-research-agent.md)     |[Work on opportunities handled by the Opportunity Research Agent (preview)](use-opportunity-research-agent.md)         |
+|Focus on most important deals with AI-generated insights and recommendations|[Configure Sales Opportunity Agent](configure-opportunity-research-agent.md)     |[Work on opportunities handled by the Sales Opportunity Agent (preview)](use-opportunity-research-agent.md)         |
 |Prioritize your opportunities based on predictive scoring|[Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)     |[Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)         |
 |Customize the details you want to capture while closing a deal|[Customize the Opportunity Close form](customize-opportunity-close-experience.md)     |[Close opportunities as won or lost](close-opportunity-won-lost-sales.md)         |
 
