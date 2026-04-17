@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Sales Model Context Protocol overview
 description: Learn about the Model Context Protocol (MCP) server for Dynamics 365 Sales, its capabilities, and how it enables integration with AI agents and assistants.
-ms.date: 03/02/2026
+ms.date: 04/17/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
