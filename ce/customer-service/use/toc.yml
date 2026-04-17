@@ -332,7 +332,7 @@
           href: copilot-language-support.md
         - name: Chat with case data in Customer Service (preview)
           href: /dynamics365/contact-center/use/copilot-chat-customer-service-data?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Use Microsoft 365 Copilot (preview)
+        - name: Use Microsoft 365 Copilot
           href: use-microsoft-365-copilot.md
         - name: Supervise AI agents with agent feed
           href: supervise-agents-with-agent-feed.md
