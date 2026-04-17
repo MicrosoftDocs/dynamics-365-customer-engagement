@@ -105,7 +105,7 @@ To manage how Copilot behaves for your representatives, configure the **Customer
 
 Perform the following steps.
 
-1. In Copilot Service admin center, in the **Agents within Copilot** section, select **Settings** next to **Customer Support**. The **Customer Support** page displays.
+1. In Copilot Service admin center, in the **Agents within Copilot** section, select **Settings** next to **Customer Support**. The **Customer Support** page appears.
 1. Configure the required Copilot features for representatives across the available tabs:
    - **Overview**
    - **Immersive settings**
