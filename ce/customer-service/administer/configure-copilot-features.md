@@ -113,7 +113,7 @@ Perform the following steps.
    - **Prompts**
    - **User access**
 
-Learn more about the Customer Support agent and how to configure the settings on each of the tabs in [Enable features in Copilot](/dynamics365/contact-center/administer/copilot-enable-help-pane).
+Learn more about Customer Support agent and how to configure the settings on each of the tabs in [Enable features in Copilot](/dynamics365/contact-center/administer/copilot-enable-help-pane).
 
 ## Configure Admin Management agent settings
 
