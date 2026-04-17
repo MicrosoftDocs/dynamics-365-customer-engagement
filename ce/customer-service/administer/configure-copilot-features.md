@@ -72,7 +72,7 @@ In Copilot Service admin center, on the [**Copilot settings**](/dynamics365/cont
 
   :::image type="content" source="../media/copilot-enable-opt-in-mini.png" alt-text="Screenshot of the Copilot Help Pane page." lightbox="../media/copilot-enable-opt-in.png":::
 
-## Opt out of using Copilot features
+## Opt out of Copilot features
 
 In Copilot Service admin center, opt out from the Copilot features on the **Copilot settings** or **Summaries** page. You can navigate to these pages using one of the following navigation options:
 
