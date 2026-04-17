@@ -1,7 +1,7 @@
 ---
 title: Search resource availability API
 description: Learn how to use an API to find eligible resources in Field Service. 
-ms.date: 03/26/2026
+ms.date: 04/07/2026
 ms.topic: reference
 author: mkelleher
 ms.author: mkelleher
@@ -69,7 +69,7 @@ Review the **Retrieve Resources Query** on the schedule board settings to identi
 
 | Name | Type | Description |
 | --- | --- | --- | 
-| Characteristics | EntityCollection | A collection of characteristic IDs that a qualified resource must have. |
+| Characteristics | EntityCollection | A collection of characteristics that a qualified resource must have. Each entry contains a `characteristic` with the characteristic ID. Optionally, include a `ratingvalue` with the rating value ID to filter resources by a specific proficiency level. |
 | Roles | EntityCollection | A collection of role IDs that a qualified resource must have. |
 | Territories | EntityCollection | 	A collection of territory IDs. A qualified resource must be assigned to one of the territories. |
 | UnspecifiedTerritory | Boolean | In combination with the territories constraint, specifies that a qualified must be assigned to one of the territories or no territory at all. |
@@ -175,6 +175,10 @@ In this example, you use version 3 of the schedule assistant API, which supports
                     "characteristic": {
                         "@odata.type": "Microsoft.Dynamics.CRM.expando",
                         "value": "67387f9f-12e2-ec11-bb43-000d3aed25f7"
+                    },
+                    "ratingvalue": {
+                        "@odata.type": "Microsoft.Dynamics.CRM.expando",
+                        "value": "a1b2c3d4-5678-90ab-cdef-1234567890ab"
                     }
                 }
             ],
@@ -256,6 +260,10 @@ The following example demonstrates proper usage of entity collections. In this c
                     "characteristic": {
                         "@odata.type": "Microsoft.Dynamics.CRM.expando",
                         "value": "67387f9f-12e2-ec11-bb43-000d3aed25f7"
+                    },
+                    "ratingvalue": {
+                        "@odata.type": "Microsoft.Dynamics.CRM.expando",
+                        "value": "a1b2c3d4-5678-90ab-cdef-1234567890ab"
                     }
                 }
             ],

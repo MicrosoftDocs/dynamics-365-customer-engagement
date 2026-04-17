@@ -2,7 +2,7 @@
 title: FAQ about summarization in Copilot
 description: Get answers to frequently asked questions about Copilot's AI-powered summarization feature, which summarizes important sales information in an easy-to-consume format.
 ms.date: 11/11/2025
-ms.update-cycle: 180-days
+ms.update-cycle: 90-days
 ms.custom:
  - responsible-ai-faqs
  - ai-gen-docs-bap

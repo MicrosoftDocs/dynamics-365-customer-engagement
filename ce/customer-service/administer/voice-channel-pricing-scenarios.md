@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.collection:
 ms.topic: reference
-ms.date: 07/01/2024 
+ms.date: 04/15/2026
 ms.custom: bap-template 
 ---
 
@@ -87,7 +87,7 @@ Cost calculation:
 - One participant on VOIP (inbound to Matias) x 10 minutes x $0.004 per minute = $0.04
 - One participant on VOIP (Gaby joins to monitor) x 10 minutes x $0.004 per minute = $0.04 (charged only when Gaby joins the call)
 - Cost to record = 10 minutes x $0.002 per minute = $0.02
-- Omnichannel for Customer Service recording bot doesn't introduce extra Azure Communication Services VOIP charges.
+- Dynamics 365 Contact Center recording agent doesn't introduce extra Azure Communication Services VOIP charges.
 
 **Total cost for the call**: $0.22 + $0.04 + $0.04 + $0.02 + applicable Teams charges = $0.32 + applicable Teams charges
 
@@ -103,7 +103,7 @@ Cost calculation:
 - One participant on VOIP (inbound to Matias) x 20 minutes x $0.004 per minute = $0.08
 - One participant on VOIP (Gaby joins to consult) x 10 minutes x $0.004 per minute = $0.04 (charged only when Gaby joins the call)
 - Cost to record = 20 minutes x $0.002 per minute = $0.04
-- Omnichannel for Customer Service recording bot doesn't introduce extra Azure Communication Services VOIP charges.
+- Dynamics 365 Contact Center recording agent doesn't introduce extra Azure Communication Services VOIP charges.
 
 **Total cost for the call**: $0.44 + $0.08 + $0.04 + $0.04 = $0.60
 
@@ -121,13 +121,13 @@ Cost calculation:
 - One participant on PSTN (outbound to Cole) x 5 minutes x $0.013 per minute = $0.065
 - One participant on Microsoft Teams (outbound to Cole) x 5 minutes x rate per minute (Cole's call is covered by the Teams license)
 - Cost to record = 10 minutes x $0.002 per minute = $0.02
-- Omnichannel for Customer Service recording bot doesn't introduce extra Azure Communication Services VOIP charges.
+- Dynamics 365 Contact Center recording agent doesn't introduce extra Azure Communication Services VOIP charges.
 
 **Total cost for the call**: $0.22 + $0.02 + $0.065 + $0.02 + applicable Teams charges = $0.325 + applicable Teams charges
 
 ## Outbound: A service representative calls a customer
 
-Matias, the contact center service representative, makes an outbound call from Omnichannel for Customer Service to Mae, the customer. Matias talks to Mae for two minutes, then puts the call on hold to consult with supervisor Gaby. Matias talks to Gaby for five minutes, ends the consultation, and resumes the call with Mae. The call lasts another three minutes.
+Matias, the contact center service representative, makes an outbound call from Dynamics 365 Contact Center to Mae, the customer. Matias talks to Mae for two minutes, then puts the call on hold to consult with supervisor Gaby. Matias talks to Gaby for five minutes, ends the consultation, and resumes the call with Mae. The call lasts another three minutes.
 
 :::image type="content" source="../media/agent-calls-customer.png" alt-text="Diagram illustrating an outbound service representative call to a customer.":::
 
@@ -143,9 +143,9 @@ Cost calculation:
 
 Mae calls your [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept#azure-direct-routing) toll-free number from a mobile device. The call is routed to Matias and lasts 10 minutes.
 
-- Matias uses the Omnichannel for Customer Service client application.
+- Matias uses the Dynamics 365 Contact Center client application.
 - The call goes to a Session Border Controller (SBC) connected through Azure Communication Services direct routing.
-- An Omnichannel for Customer Service bot adds Matias to the call by escalating the direct routing call to a group call.
+- Dynamics 365 Contact Center agent adds Matias to the call by escalating the direct routing call to a group call.
 
 :::image type="content" source="../media/direct-routing-outbound.png" alt-text="Diagram illustrating an Azure direct routing inbound call from a customer.":::
 
@@ -160,12 +160,12 @@ Cost calculation
 
 ## Outbound: Azure direct routing
 
-Matias makes an outbound call from Omnichannel for Customer Service to Mae through Azure direct routing. The call lasts 10 minutes.
+Matias makes an outbound call from Dynamics 365 Contact Center to Mae through Azure direct routing. The call lasts 10 minutes.
 
-- Matias uses the Omnichannel for Customer Service client application.
-- A bot in Omnichannel for Customer Service starts an outgoing call through direct routing.
+- Matias uses the Dynamics 365 Contact Center client application.
+- An agent in Dynamics 365 Contact Center starts an outgoing call through direct routing.
 - The call goes to an SBC connected through Azure Communication Services direct routing.
-- The bot in Omnichannel for Customer Service adds Mae to a call by escalating the direct routing call to a group call.
+- The agent in Dynamics 365 Contact Center adds Mae to a call by escalating the direct routing call to a group call.
 
 :::image type="content" source="../media/direct-routing-inbound.png" alt-text="Diagram illustrating an Azure direct routing outbound call to a customer.":::
 

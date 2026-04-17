@@ -2,7 +2,7 @@
 title: Prerequisites applicable to all Sales agents
 description: Learn how to set up prerequisites for using Sales agents in Dynamics 365 Sales.
 ms.date: 03/09/2026
-ms.update-cycle: 180-days
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

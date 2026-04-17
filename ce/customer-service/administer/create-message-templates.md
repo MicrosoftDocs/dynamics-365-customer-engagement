@@ -1,7 +1,7 @@
 ---
-title: Create message templates
+title: Create message templates in Dynamics 365 Contact Center
 description: Learn how to create message templates for reusable messages in Dynamics 365 Contact Center.
-ms.date: 04/25/2025
+ms.date: 04/15/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
