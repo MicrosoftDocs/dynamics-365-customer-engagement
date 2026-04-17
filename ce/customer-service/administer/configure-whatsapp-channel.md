@@ -16,7 +16,6 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-
 The WhatsApp channel feature lets you integrate WhatsApp through Twilio with either the Copilot Service admin center application to engage with customers who prefer to use the WhatsApp channel.
 
 The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from representatives should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
@@ -28,7 +27,8 @@ Learn more in [WhatsApp usernames](https://www.twilio.com/docs/whatsapp/key-conc
 ## Prerequisites
 
 - Make sure channels are provisioned in your environment. Learn more in [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
-  > For newly created Twilio accounts, you must disable a security setting that blocks the ability to send media files. Learn more in [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938).
+  
+  For newly-created Twilio accounts, you must disable a security setting that blocks the ability to send media files. Learn more in [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938).
 
 - Obtain a Twilio account with an appropriate subscription or a Twilio sandbox account. Learn more about configuring a Twilio sandbox account in [Integrate a Twilio sandbox account](#integrate-omnichannel-application-with-a-twilio-sandbox-account).
 
