@@ -18,7 +18,7 @@ ai-usage: ai-assisted
 
 As an administrator, you can configure the Sales Opportunity Agent in Dynamics 365 Sales to help sales professionals gain insights and recommendations for the opportunities they're working on. The agent automatically gathers information from various sources, providing a streamlined research experience, stakeholder and competitor intelligence, and actionable risk mitigation strategies.  
 
-Now, you can set up multiple agent instances to handle different product lines or opportunity segments simultaneously. Each agent instance can be configured independently with its own profile, selection criteria, and knowledge sources, allowing you to tailor the insights and recommendations to the specific needs of each segment. For more information, see [Create multiple agent instances](#create-multiple-agent-instances).
+You can also set up multiple agent instances to handle different product lines or opportunity segments simultaneously. Each agent instance can be configured independently with its own profile, selection criteria, and knowledge sources, allowing you to tailor the insights and recommendations to the specific needs of each segment. For more information, see [Create multiple agent instances](#create-multiple-agent-instances).
 
 ## Prerequisites
 
