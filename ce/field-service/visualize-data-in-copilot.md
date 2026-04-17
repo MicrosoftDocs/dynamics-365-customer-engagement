@@ -5,9 +5,13 @@ author: puneet-singh1
 ms.author: puneetsingh
 ms.reviewer: puneetsingh
 ms.topic: overview
-ms.date: 02/23/2026
+ms.date: 04/15/2026
 ---
 
 # Visualize data in a view with Copilot in Field Service (preview)
 
 [!INCLUDE [visualize-data-in-copilot](~/../shared-content/shared/dynamics365-core/visualize-data-in-copilot.md)]
+
+### Related information
+
+[Agents, Copilot, and AI capabilities in Dynamics 365 apps](/dynamics365/copilot/ai-get-started)  

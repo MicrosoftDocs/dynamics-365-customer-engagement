@@ -1,14 +1,11 @@
 ---
-title: Configure knowledge sources for Sales Close Agent - Engage
-description: Configure the knowledge sources that the Sales Close Agent - Engage uses to provide relevant information and context during customer interactions.
-ms.date: 11/07/2025
+title: Configure knowledge sources for Sales Close Agent
+description: Configure the knowledge sources that the Sales Close Agent uses to provide relevant information and context during customer interactions.
+ms.date: 03/30/2026
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
+ms.custom: bap-template
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -17,7 +14,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure knowledge sources for Sales Close Agent - Engage
+# Configure knowledge sources for Sales Close Agent
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -27,7 +24,7 @@ This section explains how to configure knowledge sources to send replies, maximi
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-You can configure three types of knowledge sources for the Sales Close Agent - Engage: [Agent playbook](#agent-playbook), [Product documentation](#product-documentation), and [Product catalog](#product-catalog).
+You can configure three types of knowledge sources for the Sales Close Agent: [Agent playbook](#agent-playbook), [Product documentation](#product-documentation), and [Product catalog](#product-catalog).
 
 ## Agent playbook
 
@@ -66,9 +63,9 @@ This knowledge source is already set up by default for the agent. To enhance the
 
 ## Configure knowledge sources
 
-1. [Open the Sales Close Agent - Engage settings page](open-sales-close-agent-settings.md).  
+1. [Open the Sales Close Agent settings page](open-sales-close-agent-settings.md).  
 1. In the **Knowledge** section, select **Knowledge sources**.  
-    :::image type="content" source="media/sca-knowledge-knowledge-sources-settings-page.png" alt-text="Screenshot of the Sales Close Agent - Engage knowledge sources settings page.":::  
+    :::image type="content" source="media/sca-knowledge-knowledge-sources-settings-page.png" alt-text="Screenshot of the Sales Close Agent knowledge sources settings page.":::  
 1. To configure **Agent playbook**:  
     1. In the **Agent playbook** section, the **Default Agent playbook** is provided to you by default and the location in your organization's SharePoint is specified in the **SharePoint Location** field.  
 
@@ -88,7 +85,7 @@ This knowledge source is already set up by default for the agent. To enhance the
     1. In the **Product documentation** section, select **Manage**.  
     1. On the Microsoft Copilot Studio page, select **Add knowledge**, and then select **Upload file** to upload a file or folder from your local computer, or select **SharePoint** to upload from SharePoint.
 
-        :::image type="content" source="media/sca-knowledge-product-documentation-manage-page.png" alt-text="Screenshot of the Sales Close Agent - Engage product documentation manage page.":::  
+        :::image type="content" source="media/sca-knowledge-product-documentation-manage-page.png" alt-text="Screenshot of the Sales Close Agent product documentation manage page.":::  
 
         To learn more about product documentation, read the [Product documentation](#product-documentation) article.  
 
@@ -106,9 +103,9 @@ This knowledge source is already set up by default for the agent. To enhance the
 
 ## Next step  
 
-[Test the Sales Close Agent - Engage](sales-close-agent-engage-test.md)
+[Test the Sales Close Agent](sales-close-agent-engage-test.md)
 
 ## Related information
 
-[Set up and configure the Sales Close Agent - Engage (preview)](configure-sales-close-agent.md)  
+[Set up and configure the Sales Close Agent (preview)](configure-sales-close-agent.md)  
 [Add knowledge to an agent](/microsoft-copilot-studio/knowledge-add-existing-copilot)

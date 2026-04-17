@@ -1,7 +1,8 @@
 ---
-title: Responsible AI FAQ about the Sales Research Agent (preview)
+title: Responsible AI FAQ about the Sales Research Agent
 description: Learn about the responsible AI practices and limitations of the Sales Research Agent in Dynamics 365 Sales.
-ms.date: 09/22/2025
+ms.date: 03/31/2026
+ms.update-cycle: 90-days
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -13,11 +14,9 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Responsible AI FAQ about the Sales Research Agent (preview)
+# Responsible AI FAQ about the Sales Research Agent
 
 These frequently asked questions are intended to help you understand the impact of AI on Sales Research Agent in Dynamics 365 Sales.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## What is the Sales Research Agent?  
 
@@ -27,11 +26,11 @@ The Sales Research Agent is an AI-based research canvas that reasons over an org
 
 Ask the agent a question about your business data, and it will generate a blueprint: A summary of its analysis and recommendations with supporting charts and graphs. You can then instruct the agent to explore a follow-on question or ask it to modify its summary or data visualizations to get the output that suits your needs best.  
 
-The Sales Research Agent provides suggested prompts and guides to help start your exploration process, surfacing insights and suggested next steps which sales leaders may not have considered previously. 
+The Sales Research Agent provides starter prompts to help inspire your exploration process, surfacing insights and suggested next steps which sales leaders may not have considered previously. 
 
-The Sales Research Agent automatically connects to the Dynamics 365 Sales data in the environment in which the agent is accessed. When a user asks a question, the Sales Research Agent will answer using only the data in that environment which the user already has permission to access. In addition, the user can upload a file (CSV, PDF, or Excel) with data for the agent to use to provide context and enrich the analysis. 
+The Sales Research Agent automatically connects to the Dynamics 365 Sales data in the environment in which the agent is accessed. When a user asks a question, the Sales Research Agent will answer using only the data in that environment which the user already has permission to access. In addition, the user can connect to other data sources (other Dataverse environments or Fabric Lakehouse) and upload a file (CSV, PDF, or Excel) with data for the agent to use to provide context and enrich the analysis. 
 
-Users can enrich the relevance and depth of the agent's responses by providing natural-language instructions and context about their business and data, such as a list of internal acronyms, data dictionary and default values that should be used when interacting with the Sales Research Agent. 
+Users can enrich the relevance and depth of the agent's responses by providing natural-language instructions and context about their business and data in their general context or in a business function that they create for a specific use case. For example, users can include a list of internal acronyms, data dictionary and default values that should be used when interacting with the Sales Research Agent. 
 
 ## What are the Sales Research Agent's intended uses?  
 
@@ -45,15 +44,11 @@ The Sales Research Agent was rigorously evaluated on curated real-world scenario
 
 The Sales Research Agent is built to understand the Dynamics 365 Sales schema as well as terminology and context relevant to sales organizations. When a user asks a question, the agent reasons over that organization's schema and specific context to inform its answers. In some cases, the agent may not have the necessary context to provide an answer that is completely accurate. For example, if an organization's fiscal year starts in April, the agent needs to have that context provided somewhere to give an accurate answer to a question about Q1 sales. Users can mitigate this limitation by checking responses for accuracy and providing the Sales Research Agent with relevant context in natural language through the user experience.  
 
-If a user's prompt is vague or does not have enough information leveraging the connected data, the Sales Research Agent will use Bing to gain additional context. External knowledge obtained through Bing may not be accurate to a user's specific business scenario. 
-
-The Sales Research Agent is currently only supported in English. 
-
-The Sales Research Agent is currently only available to organizations where the tenant's primary location is in the U.S. or the European Union. 
+The Sales Research Agent is not yet available in every geo or every language. For a list of supported languages and geos, please refer to the [Product availability reports](https://releaseplans.microsoft.com/availability-reports/?report=featuregeoreport).
 
 ## What operational factors and settings allow for effective and responsible use of the Sales Research Agent?  
 
-Users have multiple ways to customize the Sales Research Agent so it suits their needs best. Users can provide the agent with more business context upfront in their prompt or through "Manage your context". Once the agent creates a blueprint, users can use the Regenerate feature and the AI cursor to modify either the entire blueprint or a specific data visualization block from the blueprint. Users can also adjust the wording of the prompt or the set of data sources connected.  
+Users have multiple ways to customize the Sales Research Agent so it suits their needs best. Users can provide the agent with more business context upfront in their prompt or through **Manage context**. Once the agent creates a blueprint, users can use the Regenerate feature and the AI cursor to modify either the entire blueprint or a specific data visualization block from the blueprint. Users can also adjust the wording of the prompt or the set of data sources connected.  
 
 Under "Show Work" The Sales Research Agent explains how it developed its outputs, providing explainability and transparency which a customer can use to evaluate accuracy or prompt the agent to modify its output. 
 

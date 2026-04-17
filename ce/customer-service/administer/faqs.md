@@ -1,7 +1,7 @@
 ---
-title: FAQ about Omnichannel for Customer Service
-description: Learn about the frequently asked questions (FAQ) on the different features in Omnichannel for Customer Service and their requirements.
-ms.date: 04/21/2025
+title: FAQ about Dynamics 365 Contact Center
+description: Learn about the frequently asked questions (FAQ) on the different features in Dynamics 365 Contact Center and their requirements.
+ms.date: 03/25/2026
 ms.topic: faq
 author: neeranelli
 ms.author: nenellim
@@ -9,7 +9,7 @@ ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
-# FAQ about Omnichannel for Customer Service
+# FAQ about Dynamics 365 Contact Center
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
@@ -17,7 +17,7 @@ ms.custom: bap-template
 
 ### What regions are supported?
 
-Refer the list of supported regions at [International availability of Microsoft Dynamics 365](../implement/international-availability.md). 
+Refer the list of supported regions at [International availability](/dynamics365/contact-center/implement/international-availability).
 
 ### What platforms are supported?
 
@@ -33,48 +33,45 @@ Yes, our [Community Forum](https://community.dynamics.com/forums/thread/?groupid
 
 ### How do I get help with the issues I face?
 
-Contact [Dynamics support](https://dynamics.microsoft.com/contact-us/) to get help with your issues.
+Contact [Dynamics 365 support](https://www.microsoft.com/dynamics-365/contact-us/) to get help with your issues.
 
-### What channels are supported with Omnichannel for Customer Service?
+### What channels are supported in Customer Service or Dynamics 365 Contact Center?
 
-Some of the supported channels are LINE and Facebook. For the complete list of supported channels, refer to the [Overview of channels](../use/channels.md).
+Learn about the supported channels in [Overview of channels](../use/channels.md).
 
-### Are Chat and the associated Omnichannel for Customer Service capabilities available as part of my Dynamics 365 Customer Service license?
+### Are Chat and the associated omnichannel capabilities available as part of my Dynamics 365 Customer Service license?
 
-No, Chat and related capabilities in Omnichannel for Customer Service require a separate add-in. Learn more about licenses and pricing in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). You can also purchase add-ins on the Microsoft 365 admin center. Learn more in [Buy add-ons](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true).
+Learn more about licenses and pricing in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). 
 
 ### How do I get started?
 
-If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](../use/channels.md). Learn more in [Provision channels](/dynamics365/contact-center/implement/provision-channels
+Sign up for a trial using these [Instructions](../use/channels.md). Learn more in [Provision channels](/dynamics365/contact-center/implement/provision-channels
 ) for setting up channels in your organization.
 
 ## Representative experience
 
-### In which apps can I use Chat for Dynamics 365?
-
-You can use Chat in the Omnichannel for Customer Service and Copilot Service workspace apps.
-
 ### Can I work on cases along with chats?
 
-Yes. You can work on cases alongside customer conversations in different sessions. You can open case sessions from the dashboards and grids using gestures. Learn more about starting a session in [Manage sessions in Omnichannel for Customer Service](../use/oc-manage-sessions.md#start-a-session).
+Yes. You can work on cases alongside customer conversations in different sessions. You can open case sessions from the dashboards and grids using gestures. Learn more about starting a session in [Manage sessions](../use/oc-manage-sessions.md#start-a-session).
 
-### Can I work on third-party communication widgets built using Dynamics 365 Channel Integration Framework in the Omnichannel for Customer Service app module? 
+### Can I work on non-Microsoft communication widgets built using Dynamics 365 Channel Integration Framework in the Copilot Service Workspace app? 
 
-Omnichannel for Customer Service supports Chat for Dynamics 365 and SMS channels. You should continue to use the third-party communication widgets in the single-session Unified Interface apps like Customer Service Hub. Support for integrating third-party channels is available in [Dynamics 365 Channel Integration Framework v2](../../channel-integration-framework/v1/administer/overview-channel-integration-framework.md).
+You should continue to use the non-Microsoft communication widgets in the single-session Unified Interface apps like Customer Service Hub. Support for integrating third-party channels is available in [Dynamics 365 Channel Integration Framework v2](../../channel-integration-framework/v1/administer/overview-channel-integration-framework.md).
 
-### Can I open Omnichannel for Customer Service in multiple browser tabs, windows or devices?
-Omnichannel for Customer Service supports accepting notifications across browser tabs or devices, however sessions started in one tab cannot be transferred to other tabs.
-We recommend that you don't open Omnichannel for Customer Service in multiple browser tabs or windows. The app is inherently designed to help customer service representatives (service representatives or representatives) work in a multisession environment wherein each session has contextual application tabs. The sessions aren't synced across browser tabs.
+### Can I open Copilot Service workspace in multiple browser tabs, windows or devices?
 
-### What happens if I accidentally close the browser, refresh the entire page, or the browser crashes?
+Dynamics 365 Contact Center supports notifications across browser tabs or devices, however sessions started in one tab cannot be transferred to other tabs.
+We recommend that you don't open Copilot Service workspace in multiple browser tabs or windows. The app is inherently designed to help customer service representatives (service representatives or representatives) work in a multisession environment wherein each session has contextual application tabs. The sessions aren't synced across browser tabs.
+
+### What happens if I accidentally close the browser, refresh entire page, or browser crashes?
 
 If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost. However, if you entered some data on the model-driven forms where AutoSave is enabled, they're saved into model-driven apps.
 
-Ongoing chat and voice conversations appear on your Omnichannel Agent Dashboard. You can pick the chat or [voice call](/dynamics365/contact-center/use/voice-channel-agent-experience#how-to-avoid-call-disconnection) from the dashboard and resume the conversation. The system preserves the chat or voice call conversation, and you can review the previous chat messages. If you were working on case sessions, you can reopen them using the gestures. For information on starting a session, go to [Manage sessions in Omnichannel for Customer Service](../use/oc-manage-sessions.md#start-a-session).
+Ongoing chat and voice conversations appear on your Omnichannel Agent Dashboard. You can pick the chat or [voice call](/dynamics365/contact-center/use/voice-channel-agent-experience#how-to-avoid-call-disconnection) from the dashboard and resume the conversation. The system preserves the chat or voice call conversation, and you can review the previous chat messages. If you were working on case sessions, you can reopen them using the gestures. For information on starting a session, go to [Manage sessions](../use/oc-manage-sessions.md#start-a-session).
 
 To restore browser sessions after the browser reopens, see [session restore (preview)](/dynamics365/customer-service/administer/enable-session-restore).
 
-### Does consult only work for managers and supervisors?
+### Does consult work for managers and supervisors only?
 
 No. You can consult with any available service representative in the queue from which the chat originated. The consult list shows you representatives in the queue who can take more chat requests.
 
@@ -125,37 +122,33 @@ If the default presence set by the administrator is "Away" or "Offline", then th
 
 ## Administrator experience
 
-### How does Automated Record Identification work with pre-chat fields?
+### How does automatic record identification work with pre-chat fields?
 
 If you're using multiple fields for automated record identification, they must all be an exact match. Learn more in [Automatically identify customers using pre-chat responses](../administer/record-identification-rule.md).
 
-### What do I do if the instance I want isn't available when I provision Omnichannel for Customer Service?
+### What do I do if the instance I want isn't available when I provision Dynamics 365 Contact Center?
 
-If you have instances in more than one region and provision Omnichannel for Customer Service without selecting the correct region, you might not be able to find the instance you're looking for. Learn more in [Instance unavailable to select on the provisioning application](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/instance-unavailable-provision-omnichannel).
+If you have instances in more than one region and provision Dynamics 365 Contact Center without selecting the correct region, you might not be able to find the instance you're looking for. Learn more in [Instance unavailable to select on the provisioning application](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/instance-unavailable-provision-omnichannel).
 
-### What do I do if I get an error when provisioning Omnichannel for Customer Service?
+### What do I do if I get an error when provisioning Dynamics 365 Contact Center?
 
-If you get an error that says, "Unable to perform the requested operation..." or "Request validation failed" when provisioning Omnichannel for Customer Service, it might be caused by signing in on the child business unit rather than the root, or because you're missing read permissions. Learn more in ["Unable to perform the requested operation..." or "Request validation failed" error when provisioning Omnichannel](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/omnichannel-provision-fail-errors).
+If you get an error that says, "Unable to perform the requested operation..." or "Request validation failed" when provisioning Dynamics 365 Contact Center, it might be caused by signing in on the child business unit rather than the root, or because you're missing read permissions. Learn more in ["Unable to perform the requested operation..." or "Request validation failed" error when provisioning Omnichannel](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/omnichannel-provision-fail-errors).
 
 ### What do I do if my dashboards (Omnichannel Agent Dashboard, Omnichannel Conversation Dashboard, Tier 1 Dashboard, Tier 2 Dashboard) aren’t showing up?
 
-When you use the Omnichannel for Customer Service app on Unified Service Desk or on the web, the **Active Omnichannel Agent Dashboard** view doesn't show certain dashboards like **Tier 1 Dashboard**, **Tier 2 Dashboard**, **Knowledge Manager**, and **My Knowledge Dashboard**. Learn more in [Dashboards don't appear in Omnichannel for Customer Service active dashboards view](../troubleshoot-omnichannel-customer-service.md#dashboards-do-not-appear-in-omnichannel-for-customer-service-active-dashboards-view).
+When you use the Omnichannel for Customer Service app on Unified Service Desk or on the web, the **Active Omnichannel Agent Dashboard** view doesn't show certain dashboards like **Tier 1 Dashboard**, **Tier 2 Dashboard**, **Knowledge Manager**, and **My Knowledge Dashboard**. Learn more in [Dashboards don't appear in Dynamics 365 Contact Center active dashboards view](../troubleshoot-omnichannel-customer-service.md#dashboards-do-not-appear-in-omnichannel-for-customer-service-active-dashboards-view).
 
-### How long does a configuration change to the Omnichannel for Customer Service and unified routing settings take to update?
+### How long does a configuration change to the Dynamics 365 Contact Center and unified routing settings take to update?
 
 All configuration changes to a feature or setting, such as updating a queue membership or workstream setting, can take up to 15 minutes to reflect.
 
-### How can I bring custom entities, forms, and dashboards into the Omnichannel for Customer Service app? 
+### How can I bring custom entities, forms, and dashboards into the Copilot Service workspace app?
 
-The Omnichannel for Customer Service app can be customized to include custom dashboards and custom forms the same as any Unified Interface app module. The sitemaps can be updated to include custom entities, and default forms can be changed to load custom ones for the entities. All Microsoft Dataverse entities and pages are compatible with the Omnichannel for Customer Service app. 
+The Copilot Service workspace app can be customized to include custom dashboards and custom forms the same as any Unified Interface app module. The sitemap can be updated to include custom entities, and default forms can be changed to load custom ones for the entities. All Microsoft Dataverse entities and pages are compatible with the Copilot Service workspace app.
 
 ### Can I customize the Conversation Summary form?
 
 Yes. For a list of supported customizations, go to [Customizations supported by the Conversation form](../administer/supported-customizations.md#customizations-supported-by-the-conversation-form).
-
-### Why am I not able to access the Intraday Monitoring report and datasets in Power BI service while configuring intraday insights dashboard for supervisors?
-
-Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in admin app, ensure that you save the configurations before you exit the configuration form. When you select **Save**, the creation of the report and dataset is initiated. If you missed saving the configuration, initiate the configuration for Supervisor Experience again. Learn more in [Configure Intraday insights for Omnichannel for Customer Service app on web](../implement/configure-intraday-dashboard-supervisor.md#configure-intraday-insights-for-omnichannel-for-customer-service).
 
 ### What is the application ID field on the application user form?
 
@@ -169,12 +162,7 @@ Yes, you can monitor conversations for the voice channel and all messaging chann
 
 ### Why am I not able to access the supervisor dashboards in my app?
 
-Check the following:
-
-- Make sure that the Omnichannel supervisor role is assigned to the user.
-- For the Power BI intraday dashboard, ensure that the dashboard is shared with the user both on Power BI service and in the Omnichannel app.
-
-Learn more in [Configure Intraday Insights dashboard](../implement/configure-intraday-dashboard-supervisor.md). 
+Make sure that the Omnichannel supervisor role is assigned to the user.
 
 ### Why are my Chat Insights and Sentiment dashboard reports empty?
 
@@ -192,8 +180,6 @@ Yes, you can customize the visualizations by editing the report in Power BI.
 
 The dataset for the Live Monitoring report is real time. If a report is refreshed or filters are changed, the data is updated as per the current state of the system.
 
-The dataset refresh interval for Intraday and Chat Insights reports depends on your settings in Power BI. Learn more in [Configure Intraday Insights dashboard](../implement/configure-intraday-dashboard-supervisor.md) and Chat Insights set-up. 
-
 ### Why am I not able to access more than 100 representatives while using filters in Omnichannel Ongoing Conversations dashboard?
 
 By default, the application only displays 100 representatives at any given time while filtering the conversation on the **Omnichannel Ongoing Conversations** dashboard. The list is displayed alphabetically. For example, you have 200 representatives in your organization, and 100 of them have names that start with the letters A through D, the application only displays those. The rest of the representatives with names that start with letters E through Z aren't listed.
@@ -202,7 +188,7 @@ By default, the application only displays 100 representatives at any given time 
 
 These controls are in place for exposing the data in reports:
 
-- Access to the Power BI reports is controlled by Power BI access roles, and sharing within the Omnichannel app. Learn more in [Configure Intraday Insights dashboard](../implement/configure-intraday-dashboard-supervisor.md).
+- Access to the Power BI reports is controlled by Power BI access roles, and sharing within the representative app.
 - Access to the Ongoing Conversation dashboard is controlled by the **Omnichannel supervisor** Dynamics role.
 - Sentiment can be turned on or off in Copilot Service admin center. Learn more in [Enable sentiment analysis](../administer/enable-sentiment-analysis.md).
 
@@ -231,9 +217,9 @@ Yes, you can create custom context variables and create routing rules based on t
 - [Configure assignment methods for queues](../administer/assignment-methods.md)
 - [Manage custom context](../develop/send-context-starting-chat.md)
 
-### Can routing in Omnichannel for Customer Service be used for other external channels (for example, my phone calls)?
+### Can routing in Dynamics 365 Contact Center be used for other external channels (for example, my phone calls)?
 
-Yes. In Omnichannel for Customer Service, routing can be used to route chat, SMS, and voice conversations.
+Yes. In Dynamics 365 Contact Center, routing can be used to route chat, SMS, and voice conversations.
 
 ## SMS
 
@@ -249,17 +235,17 @@ Yes, Omnichannel system automatically identifies the customer based on the incom
 
 ### Can I send automated SMS responses?
 
-Yes. In Omnichannel for Customer Service, you can send automated messages based on system-triggered or user-defined events. Learn more in [Configure outbound messaging](../administer/outbound-messaging.md).
+Yes. In Dynamics 365 Contact Center, you can send automated messages based on system-triggered or user-defined events. Learn more in [Configure outbound messaging](../administer/outbound-messaging.md).
 
 ### Is there anything unique about the way SMS messages are routed to representatives?
 
-All channels integrated into Omnichannel for Customer Service have the same routing capabilities, including SMS. You can create routing rule items with conditions based on Account or Contact entities. Other entities (Case, Context variable, and SMS Engagement Context) aren't supported at this time and shouldn't be used for creating conditions in routing rule items in an SMS workstream.
+All channels integrated into Dynamics 365 Contact Center have the same routing capabilities, including SMS. You can create routing rule items with conditions based on Account or Contact entities. Other entities (Case, Context variable, and SMS Engagement Context) aren't supported at this time and shouldn't be used for creating conditions in routing rule items in an SMS workstream.
 
 ## AI agent
 
-### Can a third-party agent be integrated with Omnichannel through this feature?
+### Can a non-Microsoft agent be integrated with Dynamics 365 Contact Center through this feature?
 
-Only AI agents created through [Microsoft Bot Framework](https://dev.botframework.com/) can be integrated at this time.
+AI agents created in Copilot Studio or [Microsoft Bot Framework](https://dev.botframework.com/) only can be integrated at this time.
 
 ### Related information
 

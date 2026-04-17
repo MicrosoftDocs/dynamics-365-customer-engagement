@@ -58,7 +58,7 @@ Learn more about how the forecast models work for this feature in [How agent for
 >
 > - Forecasts might misstate volume estimates for many reasons, including unanticipated trends or business developments.
 >
-> - The Forecast report is currently available in certain geographical locations. Learn more in [Supported regions and languages for analytics and insights](../administer/cs-region-availability-service-limits.md#supported-regions-and-languages-for-analytics-and-insights).
+> - The Forecast report is currently available in certain geographical locations. Learn more in [Supported regions and languages for analytics and insights](../administer/cs-region-availability-service-limits.md).
 
 ## Prerequisites
 

@@ -1,8 +1,8 @@
 ---
 title: Configure Copilot to use specific SharePoint folders
 description: Learn how to configure Copilot to look at specific SharePoint locations to get content recommendations and answers from SharePoint.
-ms.date: 01/16/2026
-ms.update-cycle: 180-days
+ms.date: 03/13/2026
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -19,6 +19,8 @@ Sales organizations often store documents that are related to products and sales
 
 The results that Copilot returns are based on the permissions that users have in SharePoint. If a user doesn't have access to a SharePoint folder, Copilot doesn't show results from that location.
 
+> [!NOTE]
+> Both content recommendation and question-answering capabilities support only files of type Word, Excel, PowerPoint, and PDF.
 
 ## Prerequisites
 

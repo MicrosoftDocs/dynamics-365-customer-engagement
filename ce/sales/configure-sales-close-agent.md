@@ -1,14 +1,11 @@
 ---
-title: Set up and configure the Sales Close Agent - Engage (preview)
-description: Set up and configure the Sales Close Agent - Engage to help your sales team engage with customers effectively.
+title: Set up and configure the Sales Close Agent (preview)
+description: Set up and configure the Sales Close Agent to help your sales team engage with customers effectively.
 ms.date: 11/28/2025
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
+ms.custom: bap-template
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -17,11 +14,11 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Set up and configure the Sales Close Agent - Engage (preview)
+# Set up and configure the Sales Close Agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-As an administrator, you can set up the autonomous Sales Close Agent - Engage type to help sales teams manage records efficiently without manual intervention. Once configured, you can only edit configurations if needed.
+As an administrator, you can set up the autonomous Sales Close Agent type to help sales teams manage records efficiently without manual intervention. Once configured, you can only edit configurations if needed.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -56,9 +53,9 @@ Ensure that the following prerequisites are met:
 
 ## Considerations
 
-Review the following considerations before you start deploying the autonomous Sales Close Agent - Engage type:  
+Review the following considerations before you start deploying the autonomous Sales Close Agent type:  
 
-- Only one instance of each agent type can be deployed in an environment. For example, if you have already deployed the Sales Close Agent - Research type in your environment, you can also deploy the Sales Close Agent - Engage type in the same environment. However, you can't deploy two instances of the Sales Close Agent - Engage type in the same environment.  
+- Only one instance of each agent type can be deployed in an environment. For example, if you have already deployed the Sales Opportunity Agent type in your environment, you can also deploy the Sales Close Agent type in the same environment. However, you can't deploy two instances of the Sales Close Agent type in the same environment.  
 - Deactivation of the agent will prevent new records from being assigned/processed by the agent. Existing records which are already in pipeline (orchestration), will continue until the record is handed over for next steps.  
 - You can’t delete an agent once configured. Contact your Microsoft support to delete the agent from your organization.  
 - Once an agent is published, we recommend only a few select fields to be edited.  Sections that have tag Avoid edits should not be edited as it can lead to the agent being in bad state.  
@@ -83,9 +80,9 @@ Learn more about granting permissions in [Define the privileges and properties o
 
 :::image type="content" source="media/sqa-custom-role-permissions.png" alt-text="Screenshot of the permissions to grant to a custom security role for use with the Sales Qualification Agent in Dynamics 365 Sales.":::  
 
-## Set up the Sales Close Agent - Engage
+## Set up the Sales Close Agent
 
-As an administrator, you can set up the autonomous Sales Close Agent - Engage to help sales teams manage records efficiently without manual intervention. Once configured, you can only edit configurations if needed. There are two ways to set up the agent:  
+As an administrator, you can set up the autonomous Sales Close Agent to help sales teams manage records efficiently without manual intervention. Once configured, you can only edit configurations if needed. There are two ways to set up the agent:  
 
 - **AI assisted setup**: A guided experience that helps you set up the agent step-by-step.  
 - **Manual setup**: A detailed guide that walks you through each configuration step.  
@@ -102,10 +99,10 @@ To begin the AI-assisted setup, follow these steps:
 
 ### Manual setup
 
-Helps you set up the Sales Close Agent - Engage manually by configuring various sections such as agent profile, product details, target customers, email delivery, email content, and knowledge sources. Each section has specific configurations that need to be completed for the agent to function effectively. When all the configurations are properly set up, a green check mark is displayed beside each section. Before you start the agent ensure that all the sections are marked green.  
+Helps you set up the Sales Close Agent manually by configuring various sections such as agent profile, product details, target customers, email delivery, email content, and knowledge sources. Each section has specific configurations that need to be completed for the agent to function effectively. When all the configurations are properly set up, a green check mark is displayed beside each section. Before you start the agent ensure that all the sections are marked green.  
 Let's look at the steps to set up and configure the agents.  
 
-1. [Open the Sales Close Agent - Engage settings page](open-sales-close-agent-settings.md).  
+1. [Open the Sales Close Agent settings page](open-sales-close-agent-settings.md).  
 1. [Configure the agent profile](configure-sales-close-agent-profile.md) for agent such as profile, company info, and email signature.  
 1. [Configure the product details](configure-sales-close-agent-product-details.md) that the agent uses to recommend products during customer interactions.  
 1. [Configure target customers](configure-sales-close-agent-target-customers.md) for the agent to process the records.  

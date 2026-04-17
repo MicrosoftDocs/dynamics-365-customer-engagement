@@ -1,23 +1,19 @@
 ---
-title: Configure target customers for Sales Close Agent - Engage
-description: Define target customer segments for the Sales Close Agent - Engage to effectively engage with during outreach and follow-up activities. 
-ms.date: 11/07/2025
-ms.topic: how-to
-ms.service: dynamics-365-sales
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
+title: Configure target customers for Sales Close Agent
+description: Define target customer segments for the Sales Close Agent to effectively engage with during outreach and follow-up activities. 
+ms.date: 03/30/2026
+ms.update-cycle: 90-days
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
-search.app: salescopilot-docs
+ms.topic: how-to
+ms.service: dynamics-365-sales
+ms.custom: bap-template
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure target customers for Sales Close Agent - Engage
+# Configure target customers for Sales Close Agent
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -27,9 +23,9 @@ Group customers into a segment to help the agent engage with them during outreac
 
 **Follow these steps**:
 
-1. [Open the Sales Close Agent - Engage settings page](open-sales-close-agent-settings.md).  
+1. [Open the Sales Close Agent settings page](open-sales-close-agent-settings.md).  
 1. In the **Guidance** section, select **Target customer**.  
-    :::image type="content" source="media/sca-guidance-target-customer-settings-page.png" alt-text="Screenshot of the Sales Close Agent - Engage target customer settings page.":::
+    :::image type="content" source="media/sca-guidance-target-customer-settings-page.png" alt-text="Screenshot of the Sales Close Agent target customer settings page.":::
 1. 1. Select a **Record type** that you want the agent to use as the basis for outreach and engagement. The supported record types are **Contact**, **Account**, **Lead**, and **Opportunity**. By default, the **Opportunity** record type is selected.  
 1. In the conditions section, add conditions that are used to evaluate records for processing to the segment.  
     You can have up to 10 conditions at any given time including conditions that are based on groups and related entities.  
@@ -57,4 +53,4 @@ Group customers into a segment to help the agent engage with them during outreac
 
 ## Related information
 
-[Set up and configure the Sales Close Agent - Engage (preview)](configure-sales-close-agent.md)
+[Set up and configure the Sales Close Agent (preview)](configure-sales-close-agent.md)

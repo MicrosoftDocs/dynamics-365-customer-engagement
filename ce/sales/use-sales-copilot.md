@@ -2,15 +2,12 @@
 title: Ask Copilot questions
 description: Learn how to use Copilot in Dynamics 365 Sales to summarize sales records, catch up on recent changes, prepare for meetings, and answer sales-related questions.
 ms.date: 03/09/2026
-ms.update-cycle: 180-days
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
  - AI-contribution
 ms.custom:
- - ai-gen-docs-bap
- - ai-gen-desc
- - ai-seo-date:10/04/2023
  - bap-template
  - ignite-2024
 author: lavanyakr01
@@ -36,6 +33,13 @@ Your admin turned on and set up Copilot in your sales app. "Sales app" refers to
 Select the **Copilot** icon on the command bar to open the Copilot side pane.
 
 :::image type="content" source="media/view-prompts.png" alt-text="Screenshot of the prompt guide in the Copilot side pane in Dynamics 365 Sales, with the notebook icon highlighted.":::
+
+> [!NOTE]
+> If your administrator has turned on Microsoft 365 Copilot for your sales app, you'll see two options under the Copilot icon:
+> - **Chat**: Select this option to access the Microsoft 365 Copilot chat experience and the [Sales agent in Microsoft 365 Copilot](use-sales-agent-in-m365-copilot.md).
+> - **App Skills**: Select this option to access the Copilot in Dynamics 365 Sales skills described in this article. 
+>
+> Learn more in [Use Microsoft 365 Copilot in Dynamics 365 Sales (preview)](microsoft-365-copilot-chat-in-sales.md).
 
 ## Interact with Copilot
 

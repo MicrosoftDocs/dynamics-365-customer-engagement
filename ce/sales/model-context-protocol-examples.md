@@ -2,7 +2,7 @@
 title: Examples of using Sales MCP Server with AI agents and assistants
 description: Learn about examples of how to use the Sales MCP Server with AI agents and assistants to enhance your sales processes in Dynamics 365 Sales.
 ms.date: 02/27/2026
-ms.update-cycle: 180-days
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -136,5 +136,5 @@ The following screenshot includes the truncated version of the output from Visua
 ## Related information
 
 - [MCP tools for Sales Qualification Agent capabilities](sales-qualification-agent-tools.md)
-- [MCP tools for Sales Close Agent - Research capabilities (preview)](sales-close-agent-research-tools.md)
+- [MCP tools for Sales Opportunity Agent capabilities (preview)](sales-close-agent-research-tools.md)
 - [MCP tools for Copilot in Dynamics 365 Sales](copilot-in-sales-tools.md)

@@ -2,7 +2,7 @@
 title: Prerequisites applicable to all Sales agents
 description: Learn how to set up prerequisites for using Sales agents in Dynamics 365 Sales.
 ms.date: 03/09/2026
-ms.update-cycle: 180-days
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -46,5 +46,5 @@ Agent-specific prerequisites are covered in their respective agent setup article
 ## Related information
 
 - [Set up and configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
-- [Set up and configure the Sales Close Agent - Engage (preview)](configure-sales-close-agent.md)
-- [Configure the Sales Close Agent - Research (preview)](configure-opportunity-research-agent.md)
+- [Set up and configure the Sales Close Agent (preview)](configure-sales-close-agent.md)
+- [Configure the Sales Opportunity Agent (preview)](configure-opportunity-research-agent.md)

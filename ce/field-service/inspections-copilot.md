@@ -1,7 +1,7 @@
 ---
 title: Create inspections with Copilot
 description: Learn how to create inspections from existing documents with Copilot in Dynamics 365 Field Service.
-ms.date: 10/23/2025
+ms.date: 04/03/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jasonccohen
@@ -13,6 +13,8 @@ ms.collection: bap-ai-copilot
 # Create inspections with Copilot (preview)
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+<!--- Also update faqs-inspection-designer.md --->
 
 Service organizations often have numerous procedures, forms, and checklists stored in various formats like paper or PDF files. With Copilot in Field Service, makers can quickly digitize these documents and integrate them into Field Service work orders.
 
@@ -26,6 +28,10 @@ Copilot converts uploaded documents into draft inspection templates that technic
 > - Preview features aren't meant for production use and might have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 > - Users can provide feedback for inspection builder by default. Environment administrators can switch the feedback mechanism on or off for each individual environment from the organization table. The tenant-level Copilot feedback setting in Power Platform admin center currently has no effect on this feature. To make sure user feedback is disabled across a tenant, you must switch it off for each environment.
 > - This feature isn't currently available for Power Platform or Dynamics 365 environments that are hosted in the United Kingdom and Italy.
+
+## Prerequisites
+
+- Your environment must run Dynamics 365 Field Service version 8.8.142.320 or later. [Update your environment](update-field-service.md) if needed.
 
 ## Enable the inspection builder
 

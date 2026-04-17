@@ -1,7 +1,7 @@
 ---
 title: Configure file attachment capability for a chat widget
 description: Learn how to configure file attachments for a chat widget in Dynamics 365 Contact Center.
-ms.date: 04/24/2025
+ms.date: 04/14/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -64,6 +64,7 @@ You can define the file size limit for attachments and unsupported file types in
 
 > [!NOTE]
 > Customers with Apple devices must have iOS version 13 to send file attachments.
+> Blocking of .txt extensions isn't supported. If you block .txt extensions, transcripts aren't available for closed conversations.
 
 ## Customer experience of attaching a file
 

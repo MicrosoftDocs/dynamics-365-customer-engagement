@@ -21,6 +21,21 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/move-sales-enterprise-sales-professional.md",
+      "redirect_url": "/dynamics365/sales/upgrade-sales-license",
+      "redirect_document_id": "false"
+    },
+        {
+      "source_path": "ce/sales/upgrade-sales-premium.md",
+      "redirect_url": "/dynamics365/sales/upgrade-sales-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/upgrade-sales-professional-sales-enterprise.md",
+      "redirect_url": "/dynamics365/sales/upgrade-sales-license",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/developer/entities/msdyn_migrationtracker.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_migrationtracker",
       "redirect_document_id": "false"
@@ -35952,6 +35967,46 @@
     {
      "source_path": "ce/field-service/set-up-customer-agreements.md",
      "redirect_url": "/dynamics365/field-service/agreements-overview",
+     "redirect_document_id": "false"
+    },    
+    {
+     "source_path": "ce/customer-service/administer/manage-historical-data-capacity-updates.md",
+     "redirect_url": "/dynamics365/customer-service/administer/capacity-profiles",
+     "redirect_document_id": "false"
+    },    
+    {
+     "source_path": "ce/customer-service/administer/omnichannel-customizer.md",
+     "redirect_url": "/dynamics365/customer-service/administer/customize-customer-summary",
+     "redirect_document_id": "false"
+    },
+    {
+     "source_path": "ce/customer-service/administer/configure-end-of-call-survey.md",
+     "redirect_url": "/dynamics365/customer-service/administer/configure-voice-call-experiences",
+     "redirect_document_id": "false"
+    },
+    {
+     "source_path": "ce/customer-service/use/dataverse-entities.md",
+     "redirect_url": "/dynamics365/customer-service/develop/dataverse-entities",
+     "redirect_document_id": "false"
+    },
+    {
+     "source_path": "ce/customer-service/use/use-microsoft-365-copilot-chat.md",
+     "redirect_url": "/dynamics365/customer-service/use/use-microsoft-365-copilot",
+     "redirect_document_id": "false"
+    },
+    {
+     "source_path": "ce/customer-service/implement/international-availability.md",
+     "redirect_url": "/dynamics365/contact-center/implement/international-availability",
+     "redirect_document_id": "false"
+    },
+    {
+     "source_path": "ce/customer-service/use/omnichannel-customer-service-app-agent.md",
+     "redirect_url": "/dynamics365/contact-center/use/ccw-overview",
+     "redirect_document_id": "false"
+    },
+    {
+     "source_path": "ce/customer-service/use/oc-sign-in-omnichannel.md",
+     "redirect_url": "/dynamics365/contact-center/use/ccw-overview",
      "redirect_document_id": "false"
     }
   ]

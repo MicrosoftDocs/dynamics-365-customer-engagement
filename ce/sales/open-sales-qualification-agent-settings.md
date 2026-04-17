@@ -2,7 +2,8 @@
 title: Open the sales qualification settings
 description: Learn how to access and configure the Sales Qualification Agent settings in Dynamics 365 Sales to streamline your sales processes effectively.
 ms.topic: how-to
-ms.date: 03/09/2026
+ms.date: 03/30/2026
+ms.update-cycle: 90-days
 ms.service: dynamics-365-sales
 ms.custom: bap-template
 author: lavanyakr01
@@ -20,7 +21,7 @@ Open the Sales Qualification Agent settings to configure or manage the Sales Qua
 **Follow these steps**:
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.  
-1. Go to **General settings** > **Dynamics 365 AI hub**. If you have trouble finding or accessing the AI hub, it might be due to permission restrictions. Learn more in [Access Dynamics 365 AI Hub](dynamics-365-ai-hub.md)
+1. Go to **General settings** > **Dynamics 365 AI hub**. If you have trouble finding or accessing the AI hub, it might be due to permission restrictions. To learn more, see [Access Dynamics 365 AI Hub](dynamics-365-ai-hub.md).
 
    :::image type="content" source="media/sqa-settings-home-page.png" alt-text="Screenshot of the Sales Qualification Agent settings home page.":::
 

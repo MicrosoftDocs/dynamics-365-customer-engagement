@@ -1,241 +1,95 @@
 ---
-title: Configure the Sales Close Agent - Research (preview)
-description: Learn how to set up and configure the Sales Close Agent - Research in Dynamics 365 Sales.
-ms.date: 02/09/2026
+title: Set up and configure the Sales Opportunity Agent
+description: Learn how to set up and configure the Sales Opportunity Agent in Dynamics 365 Sales.
+ms.date: 04/17/2026
+ms.update-cycle: 90-days
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
-author: lavanyakr01
-ms.author: lavanyakr
-ms.reviewer: lavanyakr
+author: udaykirang
+ms.author: udag
+ms.reviewer: udag
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure the Sales Close Agent - Research (preview)
+# Set up and configure the Sales Opportunity Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+As an administrator, you can configure the Sales Opportunity Agent in Dynamics 365 Sales to help sales professionals gain insights and recommendations for the opportunities they're working on. The agent automatically gathers information from various sources, providing a streamlined research experience, stakeholder and competitor intelligence, and actionable risk mitigation strategies.  
 
-As an administrator, you can configure the Sales Close Agent - Research in Dynamics 365 Sales to help sales professionals gain insights and recommendations for the opportunities they're working on. The agent automatically gathers information from various sources, providing a streamlined research experience, stakeholder and competitor intelligence, and actionable risk mitigation strategies. Learn more in [Sales Close Agent](sales-close-agent.md).
+You can also set up multiple agent instances to handle different product lines or opportunity segments simultaneously. Each agent instance can be configured independently with its own profile, selection criteria, and knowledge sources, allowing you to tailor the insights and recommendations to the specific needs of each segment. For more information, see [Create multiple agent instances](#create-multiple-agent-instances).
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+## Prerequisites
 
-## Step 1: Plan your implementation
+Ensure that you meet the following prerequisites before configuring the agent.
 
-As the agent consumes capacity, it's important to plan and configure it to handle the right opportunities. Here are some considerations to keep in mind before you set up the Sales Close Agent - Research: 
+- Complete the [common prerequisites applicable to all sales agents](prerequisites-for-all-agents.md).
+- You have admin permissions in Dynamics 365 Sales.  
+- You have a Copilot Studio license. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).  
+- You turned on the modern UI for the Sales Hub app. Learn more in [Enabling the modern look for my app and removing the toggle](/power-apps/user/modern-fluent-design#enabling-the-modern-look-for-my-app-and-removing-the-toggle).  
+- Allow the following connectors in your organization's data policies for the agent to use various knowledge sources. 
 
-- Determine the products that you want the Sales Close Agent - Research to handle. The products should be handled by a single sales team. If your company sells multiple products through different sales teams, pick one product line.
+    | Connector | Why is it required? |
+    |-----------|---------------------|
+    | Knowledge source with public websites and data | Access public data for enrichment. |
+    | Microsoft Copilot Studio | Core platform for building and deploying the agent. |
+    | Knowledge source with SharePoint or OneDrive | Required only if the agent uses internal documents on SharePoint or OneDrive. |
+    | Knowledge source with documents | Required only if the agent uses internal documents. |
+    | Direct Line channels in Copilot Studio | Required for the agent to connect to Microsoft Copilot Studio. |
 
-- Determine the segment of opportunities that you want the Sales Close Agent - Research to handle. For example, you might want it to handle only the opportunities that are **Hot** and with an estimated revenue of $100,000 or more. 
+    Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tabs=new).
 
-- The agent uses the machine learning model in predictive opportunity scoring for risk assessment. If you didn't configure scoring in your environment, it's configured automatically when you start the agent.
+## Plan your implementation
 
-## Step 2: Configure prerequisites
+Before you set up the agent, consider the following points:
 
-### Verify and complete prerequisites applicable to all sales agents
+- **Pick a product line.** The agent can be configured to handle opportunities for a specific product line. Choose a product line that has a good amount of opportunities and is important for your business.
+- **Define an opportunity segment.** Determine the segment of opportunities for the agent to handle. For example, only opportunities that are **Hot** with an estimated revenue of $100,000 or more.
+- **Predictive scoring dependency.** The agent uses the machine learning model in predictive opportunity scoring for risk assessment. If you didn't configure scoring in your environment, it's configured automatically when you start the agent.
 
-Make sure that you meet the [common prerequisites applicable to all sales agents](prerequisites-for-all-agents.md).
+## Grant permissions to sellers <a name="grant-permissions"></a>
 
-### Modify data policies and allow the following connectors
+By default, the **Salesperson** and **Sales Manager** security roles have the necessary permissions. If you're using a custom security role, ensure sellers have the following minimum permissions:
 
-Ensure that your organization's data policies allow the use of the following connectors required by the Opportunity Research Agent:
-  
-| Connector                                 | Why is it required?                                                                                   |
-|--------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Knowledge source with public websites and data | The agent needs it to access public data for enrichment.     |
-| Microsoft Copilot Studio                       | Copilot Studio is the core platform for building and deploying the agent.                      |
-| Knowledge source with SharePoint or OneDrive      | Required only if the agent is configured to use internal documents on SharePoint or OneDrive for enrichment.                         |
-| Knowledge source with documents                | Required only if the agent is configured to use internal documents for enrichment.                   |
-| Direct Line channels in Copilot Studio | Required for the agent to connect to Microsoft Copilot Studio. |
-
-Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tabs=new).
-
-<a name="grant-permissions"></a>
-### Grant permissions to sellers to work on agent-handled opportunities
-
-By default, the **Salesperson** and **Sales Manager** security roles have the necessary permissions to work on opportunities handled by the Sales Close Agent - Research. However, if you're using a custom security role, ensure that the sellers have the following minimum permissions:
-
-| Purpose | Access level - Permissions | Entities|
-|---------|----------------------------|---------|
+| Purpose | Access level - Permissions | Entities |
+|---------|----------------------------|----------|
 | Consent to use Microsoft 365 emails for opportunity research | Basic-level - Read | prvReadconnector |
 
-<a name="configure-server-side-synchronization"></a>
-### (Optional) Configure server-side synchronization
+## Setup the Sales Opportunity Agent
 
-If you want the agent to access only the emails and meetings synced to Dynamics 365 Sales, configure server-side synchronization for seller mailboxes. Alternatively, you can enable Microsoft 365 Services for the agent to read emails directly from the sellers' Microsoft 365 mailboxes. Learn more in [Verify prerequisites](#verify-prerequisites).
+Before setting up the agent, make sure you [plan your implementation](#plan-your-implementation) and meet [all prerequisites](#prerequisites). Use the following steps to configure and start the Sales Opportunity Agent:
 
-If both server-side synchronization and Microsoft 365 Services are enabled, the agent reads emails from both sources and generates insights accordingly.
+1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
+1. [Configure requirements for the agent](configure-requirements-for-sales-close-agent-research.md).
+1. [Configure the agent profile](configure-sales-close-agent-profile-research.md) for the agent such as name and language.
+1. [Configure company info](configure-sales-close-agent-research-company-info.md) for the agent to understand value proposition and curate research insights.
+1. [Configure refresh frequency](configure-sales-close-agent-research-refresh-frequency.md) to specify how often the agent refreshes research data.
+1. [Set selection criteria for opportunities](configure-sales-close-agent-research-selection-criteria.md) to define which opportunities the agent should research.
+1. [Configure importance and risk assessment](configure-sales-close-agent-research-opportunity-assessment.md) to select the fields the agent uses to assess opportunity importance and risk.
+1. [Configure knowledge sources](configure-sqa-knowledge-source.md) to add public and internal knowledge sources for the agent to generate insights.
+1. [Configure advanced settings (optional)](opportunity-research-agent-advanced-settings.md) to customize risk and importance criteria.
+1. [Start the agent](start-sales-close-agent-research.md) to begin researching opportunities and generating insights.
 
-**To configure server-side synchronization:**
+## Create multiple agent instances
 
-1. [Create an email server profile for Exchange Online](/power-platform/admin/connect-exchange-online?tabs=new#create-an-email-server-profile-for-exchange-online).
+You can use multiple agents to handle different product lines or opportunity segments at the same time. You can configure each agent instance independently with its own profile, selection criteria, and knowledge sources. For example, you can create one agent for high-value enterprise deals and another for mid-market opportunities, tailoring the insights and recommendations to the specific needs of each segment.
 
-1. [Configure default email processing and synchronization](/power-platform/admin/connect-exchange-online?tabs=new#configure-default-email-processing-and-synchronization).
-1. [Configure mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#configure-mailboxes) of sellers who own the opportunities and [approve their mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#approve-mailboxes). When the configuration is successful, the **Incoming Email Status** and **Outgoing Email Status** for the mailbox are set to **Success**.
-    :::image type="content" source="mailbox-status.png" alt-text="Screenshot of a user mailbox in Dynamics 365 Sales with status indicators.":::
+### Considerations
+Consider the following points when creating multiple agent instances of Sales Opportunity Agent:
 
-1. Make sure that the personalization option for email tracking is set to an appropriate value to allow the agent to access emails and meetings from the sellers' mailboxes. You can choose an option that best suits your organization's privacy policies. Perform *ONE* of the following actions:
+- **Maximum instances per organization**: Your organization can have up to 10 active agent instances.  
+- **Capacity usage**: All agent instances draw from the same capacity pool. Monitor your capacity usage to ensure you have enough resources to support multiple agents. For more information, see [Manage consumption-based billing for agent capabilities](copilot-consumption-based-billing.md).  
 
-    - Notify the sellers to set the tracking option in the Sales Hub app from **Settings** > **Personalization settings** > **Emails**  > **Track**.
-      :::image type="content" source="media/email-track-personal-options.png" alt-text="Screenshot of the Personalization settings page in Dynamics 365 Sales with the All email messages option selected.":::
+### Configuring an agent instance
 
-    - Use the **User Settings Utility** in [XRMToolBox](/power-apps/developer/data-platform/community-tools) to select multiple sellers and set the `Track email messages` setting to an appropriate tracking option.
-   
-      :::image type="content" source="media/xrmtoolbox-email-tracking.png" alt-text="Screenshot of the User Settings Utility in XRMToolBox with the Track email messages option set to All email messages.":::
+When you create a new agent instance, configure it by following the steps outlined in the [Setup the Sales Opportunity Agent section](#setup-the-sales-opportunity-agent). Each instance can have its own unique configuration for selection criteria, knowledge sources, and other settings. This configuration allows you to customize the agent's behavior for different segments of opportunities.
+However, note the aspects for the following configuration sections for each agent instance:
 
-<a name="verify-prerequisites"></a>
-## Step 3: Verify prerequisites
-
-1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
-
-1. Go to **General Settings** > **Dynamics 365 AI hub**. If you have trouble finding or accessing the AI hub, it might be due to permission restrictions. Learn more in [Access Dynamics 365 AI Hub](dynamics-365-ai-hub.md).
-
-1. Select **Create and manage agents** under **Agent manager**.
-1. On the **AI agents** page, select **Create** and then in the **Create an AI agent** dialog, select **Sales Close Agent**.
-1. In the **Scenario** section, select **Research** and then scroll down to the **Prerequisites** section. Ensure that all the prerequisites specific to the Sales Close Agent - Research are met. If any of them isn't marked as **Done**, select the appropriate call-to-action to complete the prerequisite:
-   - **Bing search**: Select **Accept terms** to open the Power Platform admin center and accept the terms for Bing search.
-   - **Microsoft 365 Services**: (Optional) To allow the agent to read emails directly from the sellers' Microsoft 365 mailboxes, select **Mark as done** and then select **Apply changes**. Sellers will also be prompted to provide consent when they first access the Opportunity research page. If you want to [use server-side synchronization](#optional-configure-server-side-synchronization) for reading emails, don't select the checkbox.  
-    To configure and use Microsoft 365 Services for the agent, you must have the following permissions and licenses:
-    - You must have at least *ONE* of the following roles to configure Microsoft 365 Services: Dynamics 365 administrator, Power Platform administrator, or Global administrator role to enable Microsoft 365 Services for the agent. If you don't have the required role, the **Mark as done** checkbox is disabled.
-    - You must have at least *ONE* of the following licenses: Microsoft 365/Office 365, Power Automate Premium license, or Dynamics 365 Sales Enterprise Edition to enable Microsoft 365 Services for the agent.
-    > [!NOTE]
-    > The agent reads emails of the opportunity owner to generate insights for an opportunity. However, the insights are visible to all users who can access the opportunity.
-> 
-1. Select **Continue** to proceed to the agent configuration page.
-  :::image type="content" source="media/opportunity-research-agent-settings.png" alt-text="Screenshot of the Sales Close Agent - Research settings page.":::
-
-## Step 4: Configure the agent
-
-After verifying the prerequisites, define the agent and company profile, selection criteria for opportunities, refresh frequency, fields for importance and risk assessment, and knowledge sources for generating research insights.
-
-### Configure agent and company profile
-
-1. In the **Agent profile** tab, specify the following details:
+- **Selection criteria**: Each agent must have its own distinct selection criteria to determine which opportunities it processes. To learn how the selection criteria for multiple agent instances work, see [Selection criteria for multiple agent instances](configure-sales-close-agent-research-selection-criteria.md#selection-criteria-for-multiple-agent-instances). 
+- **Knowledge sources**: All instances share the same single Microsoft Copilot Studio knowledge base. For each agent instance, you can configure which knowledge sources it uses by applying filters. To learn how to filter knowledge sources for specific agent instances, see [Filter knowledge sources by agent instance](configure-sqa-knowledge-source.md#filter-knowledge-sources-by-agent-instance). 
  
-   1. Enter a meaningful name for the agent, such as *Opportunity Research*. This name is used to identify the agent in Dynamics 365 Sales and Copilot Studio. 
-
-    1. Select the agent's language.  
-       The agent uses this language to generate research insights for the opportunities. The drop-down list shows the supported languages for the agent. [What happens when the agent's language is different from user's preferred language?](opportunity-research-agent-faqs.md#agent-language-difference)
-       
-1. In the **Company info** tab, enter the following information:
-    1. Enter your company name and website URL.  
-
-    1. Enter the value proposition of the products associated with the opportunities that the agent will handle.  
- 
-          Providing a clear value proposition helps the agent focus its account research on the most relevant information. Instead of returning broad or generic insights about a company, the agent uses the value proposition to tailor its research and deliver insights that are specific to your product and its effect for the customer.  
-          For example, if the agent is handling opportunities that are related to a coffee machine, you can specify "Our smart vending machine offers a variety of premium blends, customizable to your taste, with zero wait time, and minimal maintenance." instead of "We sell coffee machines to businesses."  
-
-### Configure selection criteria for opportunities
-
-1. In the **Selection criteria** tab, specify the following information:
-   - **Segment name:** Enter a name for the segment that the agent will handle, such as Microsoft 365 Opportunities. The agent doesn't use the segmentation feature in Dynamics 365 Sales. The segment name is only used to identify the opportunities that the agent will handle.
-
-   - **Description:** Enter a description for the segment, such as Opportunities related to Microsoft 365 products.
-   - **Filter conditions:** Define the filter conditions for the segment. Opportunities that are **open** and match these conditions will be handled by the agent. 
-     For example, to handle only the opportunities that are **Hot** and of high value, you can specify the following conditions:
-     - Rating equals **Hot**.
-     - Est. revenue greater than or equal to $100,000.
-     - Status equals **Open**.
-
-1. If you want the agent to research on opportunities created in the past, select the **Consider opportunities created in the last** checkbox and specify the number of days for the look back period. Otherwise, the agent only considers opportunities created after the agent is turned on.
-
-1. Select **Preview** to view a set of opportunities that match the filter conditions. This isn't the full list, but it helps you verify that the agent is picking the right opportunities. 
-   > [!NOTE]
-   > If you haven't specified the look back period, you'll not see any opportunities in the preview as the agent only considers opportunities created after the agent is turned on.
-
-  :::image type="content" source="media/opportunity-research-agent-selection-criteria.png" alt-text="Screenshot of the Selection criteria tab for Sales Close Agent - Research.":::
-
-### Configure refresh frequency
-
-In the **Refresh frequency** tab, specify how frequently you want the agent to refresh the research data for the opportunities. The frequency is set to **Medium** by default, which is ideal for most businesses. You can refresh the research data more or less often based on how quickly your market and competitive landscape change and the available Copilot Studio capacity.
-
-- **High:** Data is refreshed every day. This option is ideal for businesses that always need the latest information, but it consumes more capacity.
-- **Medium:** Data is refreshed every three days. This option is suitable for businesses that need regular updates but don't require daily insights. It balances performance and data accuracy.
-- **Low:** Data is refreshed every seven days. This option consumes the least capacity and is suitable for businesses that don't need frequent updates and want to save capacity.
-
-### Configure fields for importance and risk assessment
-
-In the **Opportunity assessment** tab, specify the fields that the agent should use as a factor to assess the importance and risk of the opportunities. In addition to these fields, the agent uses other signals such as customer interactions, stakeholder engagement, and so on. You can customize the thresholds for risk and importance criteria in the **Advanced** section. Learn more in [Configure risk and importance criteria for Sales Close Agent - Research](opportunity-research-agent-advanced-settings.md).  
-
-- **Monetary value:** Select the field that represents the monetary value of the opportunity, such as **Est. revenue**. This field determines the importance of the opportunity.
-- **Estimated close date**: Select the field that represents the estimated close date of the opportunity, such as **Est. close date**. This field helps the agent assess the urgency of the opportunity and identify potential risks.
-
-### Configure knowledge for generating account insights
-
-By default, the agent generates research insights for your accounts from public web sources. However, you can configure more knowledge sources, both from your internal knowledge base and external websites, to help the agent generate more relevant and reliable insights. Learn about the best practices for configuring knowledge sources.
-
-> [!NOTE]
-> Ensure that the knowledge sources that you want the agent to use are in the SharePoint folder. Any other file sources such as OneDrive are not supported.
-
-1. In the **Research insights** section, go to **Company insights** > **Knowledge sources for insight**.
-   > [!NOTE]
-   > If the Sales Qualification Agent and Sales Close Agent - Research are in the same environment, they share the same knowledge sources for account insights. The knowledge sources that you add to or remove from one of the agents is reflected in the other agent as well. If you see knowledge sources already, it's possible that those are configured for the Sales Qualification Agent. Don't remove them unless you want to remove them from both the agents.
-
-1. Select **Add** or **Manage** to add or manage knowledge sources for account insights. 
-   The **D365 Sales Agent - Research agent**'s **Knowledge** page opens in Copilot Studio. 
-
-1. Add the knowledge sources that you refer to while researching accounts, such as specific websites, internal documents, or knowledge bases. The agent uses this information to provide account context and insights about the opportunities.  
-   When you upload files from SharePoint in Copilot Studio, select the **SharePoint** option in the **Featured** section. The **SharePoint** option under the **Upload file** section isn't supported. Selecting this option blocks the agent from processing the leads. The following screenshot shows the correct option to select in Copilot Studio:
-
-   :::image type="content" source="media/sales-qualification-agent-knowledge-source-sharepoint.png" alt-text="Screenshot showing the correct SharePoint option to select in Copilot Studio":::
-
-   Learn more about the [best practices for configuring knowledge sources](#best-practices-for-configuring-knowledge-sources).
-
-1. After you add the knowledge sources in Copilot Studio, return to the **Sales Close Agent - Research** settings page in Dynamics 365 Sales. At this point, you can test the agent's output based on the knowledge sources you added.
-    1. Scroll up to the **How this works** section and copy the test snippet under Step 2.
-    1. Open Copilot Studio and paste the json snippet in the **Test your agent** chat window of the **D365 Sales Agent - Research agent**.
-    1. Modify the companyName and accountDomain values in the snippet to one of your accounts and select **Send**.
-    1. Review the agent's response to ensure it's using the knowledge sources you added.
-1. In Copilot Studio, select **Publish** to publish the changes to the Research agent.
-
-### Configure knowledge for generating competitor insights
-
-By default, the agent generates research insights for your competitors from public web sources. However, you can configure additional knowledge sources such as battle cards, positioning briefs that show competitive advantages, and product comparisons. The agent uses this information to provide competitive intelligence and help sellers understand the competitive landscape. Learn more about the [best practices for configuring knowledge sources](#best-practices-for-configuring-knowledge-sources).
- 
-> [!NOTE]
-> You can only upload slide decks or documents as knowledge sources for competitor insights.
-
-1. In the **Research insights** section, go to **Competitor insights**.
-
-1. Under **Key competitors**, select **+ Competitor** to add competitors for the product line that the agent will work on. The agent first looks for competitors in the opportunity and customer conversations and then uses the competitors that you specify here. 
-
-1. Select **Add** or **Manage** to add or remove knowledge sources for competitor insights. 
-   The **D365 Sales Agent - Competitors** agent's **Knowledge** page opens in Copilot Studio. 
-
-1. Select **Add knowledge** and then select **Upload file**.
-1. Select the documents. You can group similar documents into a group to help the agent understand the context better. For example, you can group all documents related to a specific competitor. Select **Upload** > **Upload as a group** to upload the documents as a group.  
-
-   :::image type="content" source="media/group-upload-copilot-studio.png" alt-text="Screenshot of the Group upload option in Copilot Studio.":::  
-
-   You can also group individual documents into a single group after uploading them. Select a document in the Knowledge page and select **Create file group** to create a group and add the document to it.
-
-#### Best practices for configuring knowledge sources
-
-Consider the following best practices while configuring knowledge sources for the Sales Close Agent - Research:
-
-- Keep descriptions specific. Adding descriptions such as "Dataverse table with Assets Under Management by client" is more helpful than just "Finance table".
-- Limit public sites. Too many broad domains dilute relevance; add the few that best match your industry.
-- Review security. The agent will only present data that the signed-in seller is permitted to access.
-- Monitor capacity. Large files and frequent refreshes consume AI credits; track usage in Power Platform admin center.
-- With curated knowledge sources, the agent becomes a best researcher that understands your organization and surfaces the insights your sellers value most.
-
-
-### Configure advanced settings (optional)
-
-Under **Advanced** section, you can configure the risk and importance criteria for the opportunities. Learn more in [Configure risk and importance criteria for Sales Close Agent - Research](opportunity-research-agent-advanced-settings.md). 
-
-## Step 5: Start or stop the agent
-
-Start the agent only after you have configured all the settings and verified that they're correct. The agent will begin processing the opportunities that match the selection criteria right after you start it.
-
-Select **Start agent** on the agent settings page.
-The agent is started and its status is set to **On** on the **AI agents** page. The agent starts processing the opportunities that match the selection criteria and generates research insights based on the configured knowledge sources. This process might take some time, depending on the number of opportunities and the complexity of the knowledge sources.
-
-> [!NOTE]
-> If starting of agent fails due to unknown issues, contact Microsoft support.
-
 ## Related information
 
-- [Work on opportunities handled by the Sales Close Agent - Research (preview)](use-opportunity-research-agent.md)  
-- [FAQs about Sales Close Agent - Research (preview)](faqs-about-opportunity-research.md)
+- [Work on opportunities handled by the Sales Opportunity Agent](use-opportunity-research-agent.md)
+- [FAQs about Sales Opportunity Agent](faqs-about-opportunity-research.md)

@@ -1,5 +1,5 @@
 ---
-title: FAQ about unified routing
+title: FAQ about unified routing in Customer Service, Dynamics 365 Contact Center
 description: Learn about the frequently asked questions (FAQs) for unified routing.
 ms.date: 01/19/2026
 ms.topic: faq
@@ -9,7 +9,7 @@ ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
-# FAQ about unified routing in Customer Service, Omnichannel for Customer Service
+# FAQ about unified routing in Customer Service, Dynamics 365 Contact Center
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
@@ -94,7 +94,7 @@ Yes, you can update the limit. Learn more in [How the limit on offering a work i
 
 The representatives aren't offered the same conversation anymore after they decline it and are removed from priority but can be offered other conversations. However, if they're the only ones eligible, the system offers the same conversation up to three times or the configured limit.
 
-### Do assign to and worked by have the same behavior>
+### Do assign to and worked by have the same behavior?
 
 Yes, the presence and capacity are updated.
 

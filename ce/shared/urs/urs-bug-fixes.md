@@ -7,18 +7,107 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157.285) | TBD | 1/16/2026 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157.285) |  TBD | 1/23/2026 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157.285) |  TBD | 1/30/2026 |
-| | *USG* | [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157.285) |  TBD | 1/21/2026 |
-|**Station 4** |*Europe* |  [3.12.156.520](/dynamics365/field-service/field-service-version-history-resource-scheduling#312156520) |  [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157285-hotfix) | 1/16/2026 |
-|**Station 5** |  *North America, Oceania*| [3.12.156.520](/dynamics365/field-service/field-service-version-history-resource-scheduling#312156520)  | [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157285-hotfix) | 1/23/2026 |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.156.520](/dynamics365/field-service/field-service-version-history-resource-scheduling#312156520) | [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157285-hotfix)| 1/21/2026 |
-|**Station 6** | *Dedicated Scale Groups* |  [3.12.156.520](/dynamics365/field-service/field-service-version-history-resource-scheduling#312156520)  | [3.12.157.285](/dynamics365/field-service/field-service-version-history-resource-scheduling#312157285-hotfix) | 1/30/2026|
+|**Station 1** |  *First Release*| [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | TBD | 04/17/2026 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | TBD | 04/24/2026 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | TBD | 05/01/2026 |
+| | *USG* | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | TBD | 04/22/2026 |
+|**Station 4** |*Europe* | [3.12.159.757](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159757) | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | 04/17/2026 |
+|**Station 5** |  *North America, Oceania*| [3.12.159.757](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159757) | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | 04/24/2026 |
+|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.159.757](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159757) | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | 04/22/2026 |
+|**Station 6** | *Dedicated Scale Groups* | [3.12.159.757](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159757) | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | 05/01/2026 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.3370.1 (hotfix)
+
+**Resource Scheduling Controls:** 1.2.99.260971
+
+**Dataverse:** 4.0.3370.1
+
+- Fixed a bug that caused filter options to be unavailable for aliased columns in the Schedule Board.
+
+## 3.12.3370.1
+
+**Resource Scheduling Controls:** 1.2.99.260833
+
+**Dataverse:** 4.0.3370.1
+
+- Edit Bookings Panel — Daily Gantt View: Fixed an issue where the Edit Bookings panel did not display all days of a multi-day booking when the schedule board was in daily Gantt view.
+- Schedule Board Settings Configuration List Limit: Fixed an issue where the configuration list in Schedule Board Settings only retrieved the first 5,000 records. If the active configuration was beyond that limit, it would not appear in the list.
+- Requirement Lookup Search Filter: Fixed an issue where an incorrect requirement view filter was applied to the Lookup Search panel on the schedule board, limiting search results.
+- Resource Booking Percentage Calculation: Fixed an incorrect calculation of the booking percentage shown in resource cells on the schedule board.
+- Booking Tooltip Scrollbar: Fixed an issue where booking tooltips with long content displayed an unexpected scrollbar in the React schedule board.
+- Requirement Panel Tooltip Fields Missing: Fixed an issue where not all configured fields were shown in the requirement tooltip view.
+- Requirement Panel Cannot Be Resized: Fixed an issue where users could not resize the requirement panel on the schedule board.
+- Schedule Assistant Filter Loading Order: Fixed an issue where Schedule Assistant was incorrectly loading Schedule Board filters before Schedule Assistant-specific filters, causing inconsistent filter state.
+- Move To Panel Invalid Resource Error: Fixed an issue where the Move To panel displayed an invalid resource error when the default resource fell outside the suggestion limit.
+- Multiday View Expand Button Visibility: Fixed an issue where the expand button was incorrectly shown in multiday views when no bookings existed in the selected date range.
+- Resource Search with Accented Characters: Fixed an issue where searching for resources with accented characters in the Move To Resource search box returned no results.
+- Resource Utilization Board Export: Fixed an issue where exporting from the Resource Utilization Board only exported the current page of resources instead of all resources.
+- Multiday Booking Edit with Total Method: Fixed an issue where adjusting a multiday booking using the Total method in the Edit Booking panel created a new booking for the first day without cancelling the original booking.
+- Schedule Board Crash for Croatian Language: Fixed a crash that occurred when the schedule board was used with Croatian as the display language.
+- Quick Book — Requirement Group without Date Range: Fixed an issue where Quick Book for a Requirement Group with no specified date range showed incorrect resource availability dates.
+- Booking Resize Cancel After Booking Rules: Fixed an issue where resizing a booking and then cancelling after booking rules applied did not re-render the booking to its original state.
+- Intermittent "[object Object]" Error in Schedule Board: Fixed an intermittent error where "[object Object]" was shown as an error message in the schedule board.
+- Requirement Panel Links Not Rendering: Fixed an issue where hyperlinks in the requirement panel were not rendered correctly, preventing "open in new window" from working
+- Infinite Spinner When Switching to Hourly View: Fixed an issue where switching from Daily View to Hourly view caused an infinite spinner when a booking context menu had been opened.
+- Book Substitute Incorrect Results with Time Zone Adjustment: Fixed an issue where the Book Substitute feature returned incorrect results when time zone adjustments were applied.
+- Azure Maps Travel Time Overflow: Fixed an issue where resources traveling longer than 18.2 hours triggered an unhandled exception in the Azure Maps distance service. Travel time is now clamped to the maximum supported value, preventing scheduling failures.
+- Azure Maps Route Matrix Size Restriction: Removed an internal size restriction on the Azure Maps route matrix that was unnecessarily limiting scheduling accuracy for large resource sets.
+
+## 3.12.159.757
+
+**Resource Scheduling Controls:** 1.2.98.260781
+
+**Dataverse:** 4.0.159.757
+
+- Azure Maps Synchronous Route Matrix: When calculating distances for fewer than 100 routes, the scheduling engine now uses the Azure Maps synchronous API for faster, more immediate distance results.
+- Schedule Board Requirement Tooltip Fields Missing: Fixed an issue where not all configured fields were displayed in the requirement tooltip view on the schedule board.
+
+
+## 3.12.159.741
+
+**Resource Scheduling Controls:** 1.2.98.260581
+
+**Dataverse:** 4.0.159.741
+
+- Updated appearance of short bookings on the Schedule Board.
+- Resources that only have Proposed bookings can now be expanded.
+- Various performance enhancements.
+- Fixed a bug that was impacting booked start times when using promise windows and Schedule Assistant.
+- Fixed a bug that was allowing users to save a booking form when those changes violated a booking rule.
+- Updated filtering on the requirement panel to support searching from longer lists.
+- Added a "Starts with" parameter to the requirement panel filter options.
+- Currency formatted columns are now filterable in the requirements panel.
+- Fixed bugs that were impacting editing booking lengths by dragging in multi-day views.
+- Updated default mapping provider from Bing to Azure.
+
+## 3.12.158.341
+
+**Resource Scheduling Controls:** 1.2.97.260142
+
+**Dataverse:** 4.0.158.341
+
+- This release contains security improvements.
+
+## 3.12.158.157
+
+**Resource Scheduling Controls:** 1.2.97.260142
+
+**Dataverse:** 4.0.158.157
+
+- Week numbers are now supported on Schedule Board date pickers and in weekly view for users with week numbers enabled in their personalization settings.
+- Fixed a bug that was impacting date formats in column filters on the Requirements Panel.
+- Linked entities in the requirements panel now open in a pop-up instead of a new tab.
+- The work order summary column in the Unscheduled Work Orders panel now supports tooltips on all rows.
+- Fixed a bug that was impacting duration calculations when splitting requirements in Specify Pattern.
+- Fixed a bug that was impacting tooltip settings in multi-day views.
+- Fixed a bug that was causing some work order tooltips to open requirements instead of the parent work order.
+- Dragging a booking now reflects Daylight Saving Time in the tooltip.
+- Fixed a bug that was causing constant refreshing in the requirements panel for some users after clicking Find Availability.
+- Right-clicking and selecting "Open Link in a new tab" is now supported for requirements from the Schedule Board.
 
 ## 3.12.157.285 (hotfix)
 

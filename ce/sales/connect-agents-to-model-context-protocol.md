@@ -2,7 +2,7 @@
 title: Connect AI agents and assistants to Dynamics 365 Sales MCP Server
 description: Learn how to connect your AI agents and assistants to the Dynamics 365 Sales MCP Server to enable them to perform actions and retrieve information from Dynamics 365 Sales.
 ms.date: 02/27/2026
-ms.update-cycle: 180-days
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -80,6 +80,6 @@ To connect to the Sales MCP server with GitHub Copilot in Visual Studio Code, fo
 ## Related information
 
 - [MCP tools for Sales Qualification Agent capabilities](sales-qualification-agent-tools.md)
-- [MCP tools for Sales Close Agent - Research capabilities](sales-close-agent-research-tools.md)
+- [MCP tools for Sales Opportunity Agent capabilities](sales-close-agent-research-tools.md)
 - [MCP tools for Copilot in Dynamics 365 Sales](copilot-in-sales-tools.md)
 - [Examples of using Sales MCP Server with AI agents and assistants](model-context-protocol-examples.md)

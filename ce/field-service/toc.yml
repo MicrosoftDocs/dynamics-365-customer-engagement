@@ -48,8 +48,10 @@ items:
     - name: Preview new features
       href: /dynamics365/get-started/release-schedule
 
-- name: Administration
+- name: Admin setup
   items:
+    - name: Administration overview
+      href: admin-guide.yml
     - name: Field Service settings
       href: configure-default-settings.md
     - name: Users and security roles
@@ -121,7 +123,7 @@ items:
           href: work-order-update.md
         - name: Create inspection templates
           href: inspections-copilot.md
-        - name: Use Microsoft 365 Copilot chat (preview)
+        - name: Use Microsoft 365 Copilot (preview)
           href: use-microsoft-365-copilot-model-driven-apps.md
         - name: Supervise agents with agent feed (preview)
           href: supervise-agents-with-agent-feed.md
@@ -150,6 +152,16 @@ items:
       href: work-order-experience.md
     - name: Create a new work order
       href: create-work-order.md
+    - name: Create a work order from a case
+      href: create-work-order-from-case.md
+    - name: Create a work order from an agreement
+      href: create-work-order-from-agreement.md
+    - name: Create a work order from an opportunity
+      href: create-work-order-from-opportunity.md
+    - name: Create work orders with Power Automate
+      href: create-work-order-flow.md  
+    - name: Create work orders using Dataverse APIs
+      href: create-work-order-api-example.md  
 
 - name: Inspections
   items:

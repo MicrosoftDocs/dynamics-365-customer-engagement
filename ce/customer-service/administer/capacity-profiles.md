@@ -1,5 +1,5 @@
 ---
-title: Create and manage capacity profiles
+title: Create and manage capacity profiles in Dynamics 365 Customer Service and Dynamics 365 Contact Center
 description: Learn how to create and manage capacity profiles for service representatives, and set custom limits for the profiles.
 ms.date: 02/03/2026
 ms.topic: how-to
@@ -14,14 +14,14 @@ ms.collection:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-You can create capacity profiles and assign them to your customer service representatives (service representative or representative) to define the types and amount of work they can take. Capacity profiles contain information, such as the amount of work, concurrent or daily capacity, and whether other channels are affected.
+Create capacity profiles and assign them to your customer service representatives (service representative or representative) to define the types and amount of work they can take. Capacity profiles contain information, such as the amount of work, concurrent or daily capacity, and whether other channels are affected.
 
 - Capacity management helps administrators create various capacity profiles and associate users with matching profiles. You can assign multiple capacity profiles to users.
 - The administrator can block the assignment of extra work to the service representatives when they're working on certain channels, such as phone calls.
 - The supervisor can override the representative's configured capacity and assign work to user manually.
 - The representative's capacity might display a negative value when the representative manually picks a work item or is assigned a conversation forcibly that results in negative capacity. This representation is applicable for both capacity profiles and unit-based capacity.
 - We recommend that you configure either capacity profiles or capacity units in your organization, but not both.
-- The capacity isn't considered when the representative takes part in consult or monitors a conversation.
+- The capacity isn't considered when the representative monitors a conversation.
 
 You might find it helpful to configure profile-based capacity in the following scenarios:
 
@@ -42,9 +42,7 @@ For a capacity profile, you can add or remove users and edit any setting except 
 1. In the site map of Copilot Service admin center, select **User management** in **Customer support**. The **User management** page appears.
 
 1. Select the **Manage** option for **Capacity profile**.
-
 1. On the **Capacity profiles** page, select **Create new**.
-
 1. On the **Details** tab of the **Create capacity profile** dialog box, enter the following details:
    - **Profile name**: Name for the capacity profile.
    - **Work item limit**: Number of units of the work type that you can assign to the representative.
@@ -62,7 +60,6 @@ For a capacity profile, you can add or remove users and edit any setting except 
 
    > [!IMPORTANT]
    > Users must be configured as a bookable resource to be assigned the capacity profile. Learn more in [Manage users](users-user-profiles.md).
-
 1. Select **Add user**. The capacity profile is assigned to the user.
 
 ## Configure representative-specific work limits in capacity profiles<a name="custom-limits"></a>
@@ -74,6 +71,7 @@ For selective representatives, you can define a work item limit that's different
 To set the custom limits, do the following steps:
 
 1. In Copilot Service admin center, select **User management** under **Customer support**, and on the page that appears, select **Manage** for **Enhanced user management**.
+
 1. In **Contact center users**, select the representatives for whom you want to allocate a custom limit, and then select **Update user attributes** > **Update capacity profiles**.
 1. On the **Update Capacity profiles** pane, in **Capacity profiles**, select a profile, and in **Custom limit**, enter a value according to your business need.
 1. Select **Add to all**. The capacity profile with the custom limit is added to the users in the list. 
@@ -176,9 +174,17 @@ When a work item is labeled with multiple capacity profiles, the assignment stra
 2. The representative who has capacity in both these profiles only is selected. When the work item is assigned, capacity is consumed from both the profiles.
 3. Similarly, for normal priority cases, the capacity is consumed from both "Total-capacity profile" and "Normal-priority profile".
 
+## Delete historical data of representatives' capacity updates
+
+The history of updates to your service representatives' capacity profiles is stored in [Dataverse for Apps](/power-platform/admin/capacity-storage). To help you use your storage capacity efficiently, we recommend that you periodically delete the historical data.
+
+[Review your storage consumption](/power-platform/admin/capacity-storage#capacity-page-details). If the storage consumed is 50%&ndash;60% of the total capacity, consider moving the data to a different data store if you want to keep it. Otherwise, [delete it](/power-platform/admin/delete-bulk-records).
+
+> [!CAUTION]
+> You can't recover deleted data. We recommend that you verify the data isn't required before you delete it.
+
 ### Related information
 
 [Create workstreams](create-workstreams.md)  
 [Manage users in contact center](users-user-profiles.md)  
 [Map role personas](role-persona-mapping.md)  
-[Manage historical data of capacity updates for agents](manage-historical-data-capacity-updates.md)  

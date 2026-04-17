@@ -1,22 +1,45 @@
 ---
 title: Create a work order
-description: Create a work order to coordinate and schedule resources and activities for installations, repairs, or preventive maintenance.
-ms.date: 04/04/2025
+description: Learn the different ways to create a work order in Dynamics 365 Field Service, including manually, from a case, agreement, opportunity, Power Automate, or API.
+ms.date: 03/27/2026
 ms.topic: how-to
-author: lmasieri
-ms.author: lmasieri
+author: vhorvathms
+ms.author: vhorvath
+ms.reviewer: puneetsingh
 ms.custom: bap-template
 ---
 
 # Create a work order
 
-A work order in Dynamics 365 Field Service has information on what work needs to be done. Work orders are used to coordinate and schedule resources and activities. They can be used for different types of work, such as installations, repairs, or preventive maintenance.  
-  
-A work order is often created from a case, an [agreement](set-up-customer-agreements.md), or an opportunity. It gets scheduled either manually, with the [schedule assistant](schedule-assistant.md), or the [Resource Scheduling Optimization add-in](rso-overview.md). Once the work is complete, a supervisor reviews and approves it.
+A work order in Dynamics 365 Field Service has information on what work needs to be done. Work orders are used to coordinate and schedule resources and activities. They can be used for different types of work, such as installations, repairs, or preventive maintenance.
 
-The system determines the work order's location by looking at a manually-entered **Service address** first, then the address from the [**Functional location**](functional-locations.md) if set, then the **Service Address** from the account.
+The system determines the work order's location by looking at a manually entered **Service address** first, then the address from the [**Functional location**](functional-locations.md) if set, then the **Service Address** from the account.
 
-## Create a work order from the work order form and record list
+Once a work order is created, it gets scheduled either manually, with the [schedule assistant](schedule-assistant.md), or the [Resource Scheduling Optimization add-in](rso-overview.md). After the work is complete, a supervisor reviews and approves it.
+
+## Choose a work order creation method
+
+Use the following table to find the right creation method for your scenario.
+
+| Scenario | Method |
+|---|---|
+| Ad-hoc request or one-off job | [Create a work order manually from the work order form](#create-a-work-order-manually) |
+| Customer called in with an issue | [Create work orders from a case](create-work-order-from-case.md) |
+| Recurring scheduled maintenance | [Create work orders from an agreement](create-work-order-from-agreement.md) |
+| Sales opportunity converted to service | [Create work orders from an opportunity](create-work-order-from-opportunity.md) |
+| Automate creation based on triggers or conditions | [Create work orders with Power Automate](create-work-order-flow.md) |
+| Programmatic bulk creation or integration | [Create work orders with the Dataverse Web API](create-work-order-api-example.md) |
+
+## Prerequisites
+
+You need to have at least one of the following Field Service security roles:
+
+- Field Service - Dispatcher
+- Field Service - Administrator
+
+## Create a work order manually
+
+### From the work order form
 
 1. In Field Service, change to the **Service** area.
 
@@ -33,14 +56,14 @@ The system determines the work order's location by looking at a manually-entered
     - For **System Status**, select **Unscheduled**.
     - For **Price List**, select a price list from list or [create a new price list](create-price-list.md).
     - If [taxes are enabled](set-up-tax-codes.md), choose if the work order is **Taxable** or not. If the work order isn't taxable, work order products and services aren't considered taxable either, regardless of the taxable setting on the product or service.
-  
+
 1. Provide optional information for the work order such as service tasks, products, services, or knowledge articles. You can also add this information later.
 
    If you don't add a service task or incident type to the work order, the system sets the estimated duration of the work order to the default booking duration. You can change this value by updating the Booking Setup Metadata for the [msdyn_workorder table](./developer/reference/entities/msdyn_workorder.md). For more information, go to [Edit settings for entities enabled for scheduling](/dynamics365/field-service/schedule-new-entity#edit-settings-for-enabled-entities).
-  
+
 1. Select **Save** or **Save and close**.
 
-## Create a work order from the Get Started page
+### From the Get Started page
 
 1. As a Field Service administrator or system administrator in the **Field Service** app, go to the **Get Started** page.
 
@@ -51,6 +74,26 @@ The system determines the work order's location by looking at a manually-entered
 1. In the form, add as many tasks, products, and services as needed.
 
 1. If you want to immediately schedule the work order, select **Save & Book**. Select **Save & Close** to only save the work order.
+
+## Create work orders from a case
+
+To create work orders from a case, learn more in [Create a work order from a case](create-work-order-from-case.md).
+
+## Create work orders from an agreement
+
+To create work orders from an agreement, learn more in [Create work orders from an agreement](create-work-order-from-agreement.md).
+
+## Create work orders from an opportunity
+
+To create work orders from an opportunity, learn more in [Create a work order from an opportunity](create-work-order-from-opportunity.md).
+
+## Create work orders using Power Automate
+
+To automate work order creation based on triggers or conditions, learn more in [Create work orders using Power Automate](create-work-order-flow.md).
+
+## Create work orders using API
+
+To create multiple work orders using API, learn more in [Create work orders using the Dataverse Web API](create-work-order-api-example.md).
 
 ## Next steps
 
