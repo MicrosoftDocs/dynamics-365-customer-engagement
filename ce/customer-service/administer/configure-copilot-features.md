@@ -101,7 +101,7 @@ To configure Copilot features for representatives, perform the following steps:
 
 ### Configure Customer Support agent settings
 
-To configure how Copilot behaves for your representatives, use the **Customer Support** agent.
+To manage how Copilot behaves for your representatives, configure the **Customer Support** agent.
 
 To open the Customer Support agent, perform the following steps.
 
