@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 03/31/2026
+ms.date: 04/17/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.collection: bap-ai-copilot
@@ -57,7 +57,7 @@ Learn about supported languages for Copilot in [Language support for AI-based an
 
 ## Data sharing for Copilot features
 
-You can turn on data sharing for Dynamics 365 Copilot features in the Power Platform admin center app. Data sharing allows Microsoft to capture and manually review customer data. This data includes users' natural language inputs, outputs, and related telemetry. Microsoft uses this data to build, improve, and validate features, services, machine learning models, and related systems for Dynamics 365 and Power Platform Copilot AI features. We don't use customer data to train Azure OpenAI foundation models.
+You can turn on data sharing for Copilot features in the Power Platform admin center. Data sharing allows Microsoft to capture and manually review customer data. This data includes users' natural language inputs, outputs, and related telemetry. Microsoft uses this data to build, improve, and validate features, services, machine learning models, and related systems for Dynamics 365 and Power Platform Copilot AI features. We don't use customer data to train Azure OpenAI foundation models.
 
 Learn more in [Tenant settings](/power-platform/admin/tenant-settings) and [FAQ for optional data sharing for Copilot AI features in Dynamics 365 and Power Platform](/power-platform/faqs-copilot-data-sharing).
 
