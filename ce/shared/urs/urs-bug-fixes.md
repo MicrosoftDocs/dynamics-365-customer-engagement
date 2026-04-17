@@ -9,16 +9,24 @@ For information about older versions, see [Version history archive](../../field-
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | TBD | 04/17/2026 |
 |**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | TBD | 04/24/2026 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.159.757](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159757) | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | 4/10/2026 |
-| | *USG* | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | TBD | 4/22/2026 |
-|**Station 4** |*Europe* | [3.12.159.757](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159757)|  [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | 4/17/2026 |
-|**Station 5** |  *North America, Oceania*| [3.12.159.757](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159757)  | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | 4/24/2026 |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.159.757](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159757) |  [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | 4/22/2026 |
-|**Station 6** | *Dedicated Scale Groups* | [3.12.158.157](/dynamics365/field-service/field-service-version-history-resource-scheduling#312158157) | [3.12.159.757](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159757) | 4/10/2026 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | TBD | 05/01/2026 |
+| | *USG* | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | TBD | 04/22/2026 |
+|**Station 4** |*Europe* | [3.12.159.757](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159757) | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | 04/17/2026 |
+|**Station 5** |  *North America, Oceania*| [3.12.159.757](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159757) | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | 04/24/2026 |
+|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.159.757](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159757) | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | 04/22/2026 |
+|**Station 6** | *Dedicated Scale Groups* | [3.12.159.757](/dynamics365/field-service/field-service-version-history-resource-scheduling#312159757) | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | 05/01/2026 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.3370.1 (hotfix)
+
+**Resource Scheduling Controls:** 1.2.99.260971
+
+**Dataverse:** 4.0.3370.1
+
+- Fixed a bug that caused filter options to be unavailable for aliased columns in the Schedule Board.
 
 ## 3.12.3370.1
 

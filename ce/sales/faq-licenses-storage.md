@@ -77,7 +77,7 @@ Dynamics 365 Sales data is pushed to Dataverse to generate insights like predict
 
 ## What happens to my organization data if I switch between licenses?
 
-Your organization data is preserved when you switch from one license to the other. More information: [Move from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise](upgrade-sales-professional-sales-enterprise.md) and [Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional](move-sales-enterprise-sales-professional.md)
+Your organization data is preserved when you switch from one license to the other. More information: [Upgrade your Dynamics 365 Sales license](upgrade-sales-license.md).
 
 ## What happens to my organization data if my license expires?
 

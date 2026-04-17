@@ -2,6 +2,7 @@
 title: Configure selection criteria for Sales Opportunity Agent
 description: Add conditions to filter opportunities for the Sales Opportunity Agent to focus on.
 ms.date: 04/17/2026
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

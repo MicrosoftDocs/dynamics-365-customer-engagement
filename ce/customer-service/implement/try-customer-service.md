@@ -44,4 +44,4 @@ The trial environment includes many of the same features as the paid version. Th
 [Dynamics 365 Customer Service free trial sign up page](https://www.microsoft.com/dynamics-365/free-trial)  
 [Explore Microsoft Learn training](/training/browse/?filter-products=dynamics-customer-service)  
 [Watch videos on the product playlist](https://learn-video.azurefd.net/vod/player?id=7d4b2cb4-65f6-4b15-9738-545ac06e2476)  
-[Try channels in Omnichannel for Customer Service](try-channels.md)  
+[Try channels](try-channels.md)  
