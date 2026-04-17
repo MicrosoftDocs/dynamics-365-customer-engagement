@@ -111,7 +111,7 @@ Perform the following steps.
    - **Immersive settings**
    - **Email settings**
    - **Prompts**
-   - **User access**
+   - **Extend agent**
 
 Learn more about Customer Support agent and how to configure the settings on each of the tabs in [Enable features in Copilot](/dynamics365/contact-center/administer/copilot-enable-help-pane).
 
