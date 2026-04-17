@@ -16,7 +16,7 @@ ai-usage: ai-assisted
 
 # Access Dynamics 365 AI Hub
 
-Dynamics 365 AI Hub is a centralized hub for managing all your sales AI agents, such as the Sales Qualification Agent and Opportunity Research Agent. The AI Hub provides a unified interface to create, configure, and monitor your AI agents. It has the resources and tools you need to get started with agents and manage their performance over time. The following screenshot shows the Dynamics 365 AI Hub interface:
+Dynamics 365 AI Hub is a centralized hub for managing all your sales AI agents, such as the Sales Qualification Agent and Sales Opportunity Agent. The AI Hub provides a unified interface to create, configure, and monitor your AI agents. It has the resources and tools you need to get started with agents and manage their performance over time. The following screenshot shows the Dynamics 365 AI Hub interface:
 
 :::image type="content" source="media/dynamics-365-ai-hub.png" alt-text="Screenshot of the Dynamics 365 AI Hub interface.":::
 
@@ -51,12 +51,12 @@ If you're using custom roles, ensure that users have the `read` permissions to t
 If you're using custom security roles, ensure that users have the necessary agent-specific privileges to manage the agents and access the dashboards in the AI Hub. Otherwise, users will have access issues, or see inaccurate or incomplete data in the dashboard.
 
 - [Permissions required for Sales Qualification Agent](configure-sales-qualification-agent.md#grant-permissions)
-- [Permissions required for Opportunity Research Agent](configure-opportunity-research-agent.md#grant-permissions)
+- [Permissions required for Sales Opportunity Agent](configure-opportunity-research-agent.md#grant-permissions)
 
 
 ## Related resources
 
-- [Monitor opportunities handed over by the Opportunity Research Agent](monitor-opportunity-agent.md) 
+- [Monitor opportunities handed over by the Sales Opportunity Agent](monitor-opportunity-agent.md) 
 - [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md)
 - [Set up and configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
-- [Configure the Opportunity Research Agent](configure-opportunity-research-agent.md)
+- [Configure the Sales Opportunity Agent](configure-opportunity-research-agent.md)

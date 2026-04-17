@@ -1592,12 +1592,10 @@ items:
             href: faqs-sales-qualification-agent.md
           - name: Responsible AI FAQs about Engage mode
             href: faqs-sales-qualification-agent-engage.md
+      - name: Responsible AI FAQs about Sales Opportunity Agent
+        href: faqs-about-opportunity-research.md      
       - name: Responsible AI FAQs about Sales Close Agent (preview)
-        items:
-          - name: Sales Opportunity Agent FAQs
-            href: faqs-about-opportunity-research.md
-          - name: Sales Close Agent FAQ
-            href: faqs-about-sales-close-agent-engage.md  
+        href: faqs-about-sales-close-agent-engage.md  
       - name: Responsible AI FAQs about Data Enrichment (preview)
         href: faqs-data-enrichment-agent.md
       - name: Responsible AI FAQs about Sales Research Agent
