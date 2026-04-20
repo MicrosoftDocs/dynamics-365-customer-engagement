@@ -40,7 +40,7 @@ Ensure that you meet the following prerequisites:
    
    - - **Dataverse Search**: Data Enrichment uses Dataverse Search to find and enrich records in Dynamics 365 Sales. If you didn't set up Dataverse Search, select **Set up** to open the **Features** page in Power Platform admin center. Learn more about [configuring Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization). After setting up Dataverse Search, return to the agent configuration page and select **Refresh** to update the status of this prerequisite. 
   
-   - **Microsoft 365 Services**: To allow the agent to read seller emails and fetch relevant data for enrichment, select **Mark as done** and then **Apply changes**. Sellers are prompted to provide consent the first time they access the **Opportunity** page. This method reads emails in place without storing them in CRM. The agent uses emails from both Microsoft 365 and Dataverse to generate suggestions for opportunity records.
+   - **Microsoft 365 Services**: To allow the agent to read seller emails and fetch relevant data for enrichment, select **Mark as done** and then **Apply changes**. Sellers are prompted to provide consent the first time they access the **Opportunity** page. This method reads emails in place without storing them in CRM. The agent uses emails from Microsoft 365 to generate suggestions for opportunity records.
    
      To configure and use Microsoft 365 Services, you need:
      - At least one of the following roles: Global administrator, Dynamics 365 administrator, or similar.
@@ -95,7 +95,7 @@ In the **Agent behavior** section of the [Data Enrichment settings](#open-settin
 - **Field scope**: Select the fields that you don't want Data Enrichment to enrich. These could be fields that are critical to your business processes or those that you prefer to manage manually. Some fields are excluded from enrichment by default and cannot be modified. See [Fields excluded from enrichment](#fields-excluded-from-enrichment) for more details.  
 - **Field update behavior**: Turn on **Automatically update fields** to allow Data Enrichment to make changes without a manual review. By default, this option is off, meaning sellers need to review and apply suggestions manually.
 - **Enrichment frequency**: Indicates how often Data Enrichment applies updates automatically. The agent analyzes emails and generates suggestions every 4 hours. For manual updates, sellers can review suggestions as soon as they're generated. For automatic updates, changes are applied based on the enrichment frequency, which is set to **Daily** by default. This setting is informational and can't be changed.
-- **Data sources**: Shows the data sources that Data Enrichment will use to analyze and enrich opportunity records. It currently uses email interactions in Dataverse to gather context about opportunities and suggest updates. This field is informational and cannot be changed.
+- **Data sources**: Shows the data sources that Data Enrichment will use to analyze and enrich opportunity records. It currently uses email interactions in your Microsoft 365 mailbox to gather context about opportunities and suggest updates. This field is informational and cannot be changed.
 
 ## Fields excluded from enrichment
 

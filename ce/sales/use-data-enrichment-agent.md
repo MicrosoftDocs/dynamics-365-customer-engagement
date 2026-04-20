@@ -77,10 +77,11 @@ The AI-powered Data Enrichment feature associates emails with an opportunity bas
 **To view the associated emails:**
 
 1. Open your opportunity record in the Sales Hub app.  
-1. In the **Timeline** section, look for emails with the agent icon (:::image type="icon" source="media/dea-agent-icon.png" alt-text="Data Enrichment icon." border="false":::). Depending on how your admin has configured the agent, one of the following scenarios applies:
 
-    1. If Microsoft 365 services are enabled for the agent, you would see the related emails from your mailbox. These emails are not tracked by default and are visible only in your timeline. Select **Track** on the email to track it in the opportunity record and make it visible to other users.   
-    2. Emails from Dataverse are tracked by default and visible to all users with access to the opportunity record.
+1. In the **Timeline** section, look for emails with the agent icon (:::image type="icon" source="media/dea-agent-icon.png" alt-text="Data Enrichment icon." border="false":::). These emails are not tracked by default and are visible only in your timeline, even if your admin has configured Data Enrichment for automatic updates. 
+1. Select **Track** on the email to track it in the opportunity record and make it visible to other users.
+
+  :::image type="content" source="media/untracked-email-data-enrichment.png" alt-text="Screenshot of an email in the timeline with the Data Enrichment icon and the Track button" border="false":::
 
 1. Select **Not related?** if you believe the email isn't related to the opportunity. You can then select whether you want to remove the email from the current opportunity or reassign it to another opportunity.
 
