@@ -266,6 +266,8 @@ items:
                 href: data-enrichment-agent-overview.md
               - name: Set up and configure Data Enrichment
                 href: data-enrichment-agent-configure.md
+              - name: Edit Data Enrichment settings
+                href: data-enrichment-agent-edit-settings.md
               - name: Delete linked Microsoft 365 emails
                 href: delete-microsoft-365-email-link.md
               - name: Data Enrichment FAQ

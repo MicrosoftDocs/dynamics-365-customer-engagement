@@ -47,62 +47,24 @@ Ensure that you meet the following prerequisites:
      - At least one of the following licenses: Microsoft 365/Office 365, Power Automate Premium, or Dynamics 365 Sales Enterprise Edition.
 
 1. Select **Create agent**.
-   The Start your Data Enrichment with recommended defaults dialog opens with recommended default settings for the agent profile, user access, record selection, and agent behavior.    
+   The Start your Data Enrichment with recommended defaults dialog opens with recommended default settings:    
     :::image type="content" source="media/data-enrichment-quick-setup.png" alt-text="Screenshot of the Data Enrichment quick setup dialog box with recommended default settings.":::
+    The default settings include:
+
+    | Setting | Value |
+    |---------|-------|
+    | User access | All premium users in your organization |
+    | Target records | Active Opportunities created in the last 30 days |
+    | Action | Enrich BANT-related fields in the opportunity record |
+    | Schedule | Runs everyday |
+    | Behavior | Suggests field updates based on email conversations (seller approval required) |
+    | Data sources | Email, Outlook |
+    
 1. Do *ONE* of the following:
     - Review the recommended settings and select **Start agent** if the default settings work for your business needs. 
-    - Select **Edit in settings** to customize the configuration:
- 
-       1. [Define the agent profile](#define-the-agent-profile)
-       1. [Configure user access](#configure-user-access)
-       2. [Select records for enrichment](#select-records-for-enrichment)
-       3. [Configure agent behavior](#configure-agent-behavior)
-       4. After configuring the settings, select **Apply changes** and then **Start agent** to activate Data Enrichment with your specified configuration.
-
-  The agent doesn't analyze any opportunity records or emails until sellers [provide consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to read their emails. The consent is specific to each seller. 
-
-<a name="open-settings"></a>
-## Open the Data Enrichment settings page
-
-To review or modify the Data Enrichment settings after the agent has been created, follow these steps:
-
-1. From the Sales Hub app, navigate to **App Settings**.
-1. Under **General Settings**, select **Dynamics 365 AI Hub** and then select **Create and manage agents**.
-1. In the **AI Agents** page, select the agent with type **Conversation Enrichment**.
-
-### Define the agent profile
-
-In the **Agent profile** section of the [Data Enrichment settings](#open-settings), specify the name and description. This name helps identify the agent in the list of AI agents.
-
-### Configure user access
-
-In the **User access** section of the [Data Enrichment settings](#open-settings), specify which sellers can access Data Enrichment suggestions. Data Enrichment analyzes only opportunities owned by selected sellers, and only those sellers can view the suggestions. You can choose one of the following options:
- 
-- **All users with premium license**: Select this option to allow all users with a Dynamics 365 Sales Premium license to access the agent's suggestions.
-- **Specific groups**: Select this option to allow specific sellers (up to 10 of them) or those who meet certain criteria to access the agent's suggestions. You can either select individual users or specify criteria based on fields such as sales team, job title, or geography to determine who can access the agent's suggestions.  
+    - Select **Edit in settings** to customize the configuration. Learn more about configuring the settings in the [Configure AI-powered Data Enrichment settings](data-enrichment-agent-edit-settings.md) article.
 
 
-### Select records for enrichment
+## Related information
 
-In the **Record selection** section of the [Data Enrichment settings](#open-settings), define the criteria for the opportunity records that Data Enrichment will analyze. You can use filters based on fields in the opportunity entity or a related entity. 
-
-The record selection criteria are applied in addition to the user access criteria defined in the previous section. For example, if you select specific groups in the user access settings and set a filter for opportunities created within a certain date range, only the opportunities that meet both criteria will be analyzed and enriched by the agent.
-
-### Configure agent behavior
-
-In the **Agent behavior** section of the [Data Enrichment settings](#open-settings), choose how Data Enrichment should handle updates:
-
-- **Field scope**: Select the fields that you don't want Data Enrichment to enrich. These could be fields that are critical to your business processes or those that you prefer to manage manually. Some fields are excluded from enrichment by default and cannot be modified. See [Fields excluded from enrichment](#fields-excluded-from-enrichment) for more details.  
-- **Field update behavior**: Turn on **Automatically update fields** to allow Data Enrichment to make changes without a manual review. By default, this option is off, meaning sellers need to review and apply suggestions manually.
-- **Enrichment frequency**: Indicates how often Data Enrichment applies updates automatically. The agent analyzes emails and generates suggestions every 4 hours. For manual updates, sellers can review suggestions as soon as they're generated. For automatic updates, changes are applied based on the enrichment frequency, which is set to **Daily** by default. This setting is informational and can't be changed.
-- **Data sources**: Shows the data sources that Data Enrichment will use to analyze and enrich opportunity records. It currently uses email interactions in your Microsoft 365 mailbox to gather context about opportunities and suggest updates. This field is informational and cannot be changed.
-
-## Fields excluded from enrichment
-
-The following fields are excluded from enrichment by default and cannot be modified:
-
-- Opportunity Name
-
-- Opportunity State
-- Fields with the following attribute types: Uniqueidentifier, Virtual, Lookup, Customer, Owner, PartyList, CalendarRules, ManagedProperty, EntityName
-- Read-only fields and system fields
+[Review and approve Data Enrichment suggestions](use-data-enrichment-agent.md)
