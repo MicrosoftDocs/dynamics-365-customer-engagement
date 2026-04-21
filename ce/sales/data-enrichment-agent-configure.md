@@ -36,7 +36,7 @@ Ensure that you meet the following prerequisites:
 1. Select **Next** to get a quick tour of the feature or select **Skip** to get started with the agent configuration.
 1. In the **Set up required prerequisites** dialog, configure the following prerequisites:
    > [!NOTE]
-   > Sales Opportunity Agent and Data Enrichment use the same Microsoft 365 Services and Dataverse Search configuration. If you have already configured these prerequisites for Sales Opportunity Agent, they will be marked as done for Data Enrichment too.
+   > Sales Opportunity Agent and Data Enrichment use the same Microsoft 365 Services and Dataverse Search configuration. If you have already [configured these prerequisites for Sales Opportunity Agent](configure-requirements-for-sales-close-agent-research.md), they will be marked as done for Data Enrichment too. 
    
    - - **Dataverse Search**: Data Enrichment uses Dataverse Search to find and enrich records in Dynamics 365 Sales. If you didn't set up Dataverse Search, select **Set up** to open the **Features** page in Power Platform admin center. Learn more about [configuring Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization). After setting up Dataverse Search, return to the agent configuration page and select **Refresh** to update the status of this prerequisite. 
   
