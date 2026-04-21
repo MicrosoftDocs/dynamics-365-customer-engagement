@@ -46,9 +46,22 @@ Depending on your role, refer to the following articles to set up and use the AI
 
 ## Capacity usage
 
-The AI-powered Data Enrichment feature uses the capacity assigned to your tenant only to analyze unlinked emails and associate them with opportunity records. This feature uses the Sales Close Agent's capability for email analysis and suggestions, so the capacity usage is tracked under the Sales Close Agent in the Power Platform admin center.  
+AI-powered Data Enrichment runs as a background process that monitors seller emails. It doesn't process all emails but focuses on those relevant to opportunities owned by the sellers. Assuming a scenario where a seller receives around 100 emails per day with the following distribution: 
 
-Use the following resources to learn more about setting up capacity and monitoring usage:  
+- 35 are internal emails, which are skipped by the agent.
+- 25 are from external contacts who aren't registered in the system, thus treated as personal and not processed by the agent.
+- 15 are already linked to existing opportunity records and are processed by the agent for potential data enrichment.
+- 25 are from external contacts registered in the system but aren't linked to any opportunity records. These emails are processed by the agent for potential opportunity matching and enrichment.  
+
+The credit consumption depends on the number of emails processed by the agent for matching and enriching opportunity records. The following table provides credits consumed for different tasks performed by the agent:
+
+| Task | Credit consumption |
+|------|-----------------------------|
+| Initial setup of the agent | 50 credits, charged once during setup at the tenant level |
+| Opportunity matching | 4 credits per email for emails from external contacts registered in the system but not linked to any opportunity records |
+| Opportunity enrichment | 2 credits per email for emails already linked to existing opportunity records | 
+
+Use the following resources to learn more about setting up capacity and monitoring usage:
 
 - [Manage consumption-based billing for agent capabilities](copilot-consumption-based-billing.md)
 - [View the agent's usage consumption](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new#use-the-summary-tab)
