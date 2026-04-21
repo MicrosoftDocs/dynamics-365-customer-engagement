@@ -1,15 +1,15 @@
 ---
-title: Find data with AI using natural language in Customer Service and Dynamics 365 Contact Center (preview)
+title: Find data with AI using natural language in Customer Service and Dynamics 365 Contact Center
 description: Learn how to find, filter, and sort data in Customer Service and Dynamics 365 Contact Center using natural language with AI.
 author: neeranelli
 ms.author: nenellim
 ms.topic: overview
-ms.date: 04/09/2026
+ms.date: 04/16/2026
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---
 
-# Use natural language to find data with AI in a view in Customer Service and Dynamics 365 Contact Center (preview)
+# Use natural language to find data with AI in a view in Customer Service and Dynamics 365 Contact Center
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 

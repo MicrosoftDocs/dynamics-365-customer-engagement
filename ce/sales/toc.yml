@@ -33,7 +33,7 @@ items:
         href: whats-new.md
   - name: Troubleshooting and FAQs
     href: troubleshooting.md
-  - name: Try, buy, and install
+  - name: Try, buy, install, and upgrade
     items:
       - name: Try
         items:
@@ -118,14 +118,8 @@ items:
                 href: manage-app.md
               - name: Add site map entry to custom app
                 href: add-custom-site-map.md
-      - name: Upgrade
-        items:
-          - name: Upgrade from Dynamics 365 Sales Professional
-            href: upgrade-sales-professional-sales-enterprise.md
-          - name: Move from Dynamics 365 Sales Enterprise to Professional
-            href: move-sales-enterprise-sales-professional.md
-          - name: Upgrade to Sales Premium
-            href: upgrade-sales-premium.md
+      - name: Upgrade Dynamics 365 Sales license
+        href: upgrade-sales-license.md
       - name: Region and language FAQs
         href: faq-region-language.md
       - name: Licenses and storage FAQs
@@ -1596,12 +1590,10 @@ items:
             href: faqs-sales-qualification-agent.md
           - name: Responsible AI FAQs about Engage mode
             href: faqs-sales-qualification-agent-engage.md
+      - name: Responsible AI FAQs about Sales Opportunity Agent
+        href: faqs-about-opportunity-research.md      
       - name: Responsible AI FAQs about Sales Close Agent (preview)
-        items:
-          - name: Sales Opportunity Agent FAQs
-            href: faqs-about-opportunity-research.md
-          - name: Sales Close Agent FAQ
-            href: faqs-about-sales-close-agent-engage.md  
+        href: faqs-about-sales-close-agent-engage.md  
       - name: Responsible AI FAQs about Data Enrichment
         href: faqs-data-enrichment-agent.md
       - name: Responsible AI FAQs about Sales Research Agent

@@ -38,7 +38,7 @@ landingContent:
          links:
           - text: Set up and configure the Sales Qualification Agent
             url: configure-sales-qualification-agent.md
-          - text: Configure the Opportunity Research Agent 
+          - text: Configure the Sales Opportunity Agent 
             url: configure-opportunity-research-agent.md
           - text: Copilot Studio agents and Entra app registrations for sales agents
             url: ai-agents-apps.md
@@ -102,14 +102,12 @@ landingContent:
             url: configure-relationship-analytics.md
 
 # Card 
-  - title: Upgrade/downgrade
+  - title: Upgrade
     linkLists:
        - linkListType: how-to-guide
          links:
-          - text: Upgrade from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise 
-            url: upgrade-sales-professional-sales-enterprise.md
-          - text: Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional 
-            url: move-sales-enterprise-sales-professional.md
+          - text: Upgrade your Dynamics 365 Sales license 
+            url: upgrade-sales-license.md
 
 # Card 
   - title: LinkedIn integration

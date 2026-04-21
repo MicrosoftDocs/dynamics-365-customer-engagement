@@ -42,5 +42,5 @@ You can monitor the performance of the Sales Qualification Agent and Sales Close
 ## FAQs about sales AI agents
 
 - [FAQs about Sales Qualification Agent](sales-qualification-agent-faq.md)
-- [FAQs about Opportunity Research Agent (preview)](opportunity-research-agent-faqs.md)
+- [FAQs about Sales Opportunity Agent (preview)](opportunity-research-agent-faqs.md)
 - [FAQs about Sales Research Agent (preview)](faqs-sales-research-agent.md)
