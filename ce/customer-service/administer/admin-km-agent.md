@@ -270,6 +270,12 @@ You can map which record types and data fields are used for each element. You ca
 1. Select **Save and Close**.
 1. Select **Save** on the **Customer Knowledge Management Agent** settings page. 
 
+## Generate knowledge drafts from cases
+
+Generate a knowledge draft while you are resolving a case or after you have resolved the case. Learn more in [Use Copilot to generate knowledge drafts from cases (preview)](../use/use-copilot-knowledge-from-cases.md#use-copilot-to-generate-knowledge-drafts-from-cases-preview).
+
+
+
 ## Configure automatic article updates (preview)
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
