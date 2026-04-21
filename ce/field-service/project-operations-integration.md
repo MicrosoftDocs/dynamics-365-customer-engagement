@@ -1,8 +1,8 @@
 ---
 title: Field Service integration with Project Operations overview
-ms.reviewer: wesmith
+ms.reviewer: v-wendysmith
 description: Learn about the integration between Dynamics 365 Field Service and Project Operations.
-ms.date: 02/12/2026
+ms.date: 04/21/2026
 ms.topic: overview
 author: vhorvathms
 ms.author: vhorvath
@@ -20,9 +20,9 @@ This integration is designed for organizations that use:
 
 - Field Service, Project Operations, Finance, and Supply Chain Management, which deliver full end-to-end service, project, and financial orchestration.
 
-- Field Service, Finance, and Supply Chain Management, without using the Project Operations application. This approach uses a minimal set of Project Operations setup forms embedded within Field Service.
+- Field Service, Finance, and Supply Chain Management, without using the Project Operations application. A minimal set of Project Operations configuration forms is embedded in Field Service, enabling users to manage projects without switching applications. A Project Operations license is required to install the integration.
 
-- Field Service, Finance, and Supply Chain Management, without using the Project Operations application. Field Service and Project Operations remain integrated, but users don't need to open the Project Operations app because all essential workflows are available directly in Field Service. A minimal set of Project Operations configuration forms is embedded in Field Service, enabling customers to complete required setup for Project Operations and Finance and Supply Chain Management without switching applications.
+- Field Service and Project Operations, without using Finance and Supply Chain Management. This approach supports project-based service and financial alignment under an organizing container. This approach can be used for integration to other ERP solutions or for direct execution and management purposes.
 
 ## How it works: the integration flow
 
@@ -40,7 +40,7 @@ When work in the field is complete and the work order product or service line st
 
 **Project Operations**
 
-**Material Usage Logs (MULs)** represent raw consumption of materials and services. They are converted into **project journal lines** (cost and revenue), which are reviewed and approved for financial accuracy.
+**Material Usage Logs (MULs)** represent raw consumption of materials and services. They're converted into **project journal lines** (cost and revenue), which are reviewed and approved for financial accuracy.
 
 Once approved, the journal lines generate **project actuals**, the authoritative financial records tied to the project and contract line.
 
