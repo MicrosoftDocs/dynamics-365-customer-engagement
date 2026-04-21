@@ -20,9 +20,9 @@ This integration is designed for organizations that use:
 
 - Field Service, Project Operations, Finance, and Supply Chain Management, which deliver full end-to-end service, project, and financial orchestration.
 
-- Field Service, Finance, and Supply Chain Management, without using the Project Operations application. A minimal set of Project Operations configuration forms is embedded in Field Service, enabling users to manage projects without switching applications. A Project Operations license is required to install the integration.
+- Field Service, Finance, and Supply Chain Management, without using the Project Operations application. A minimal set of Project Operations configuration forms is embedded in Field Service, enabling users to manage projects without switching applications. The user who installs the integration must have a Project Operations license.
 
-- Field Service and Project Operations, without using Finance and Supply Chain Management. This approach supports project-based service and financial alignment under an organizing container. This approach can be used for integration to other ERP solutions or for direct execution and management purposes.
+- Field Service and Project Operations, without using Finance and Supply Chain Management. This approach supports project-based service and financial alignment under a project in Project Operations. This approach can be used for integration to other ERP solutions or for direct execution and management purposes.
 
 ## How it works: the integration flow
 
