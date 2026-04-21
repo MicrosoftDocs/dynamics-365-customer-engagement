@@ -53,15 +53,7 @@ AI-powered Data Enrichment runs as a background process that monitors seller ema
 - 15 are already linked to existing opportunity records and are processed by the agent for potential data enrichment.
 - 25 are from external contacts registered in the system but aren't linked to any opportunity records. These emails are processed by the agent for potential opportunity matching and enrichment.  
 
-The credit consumption depends on the number of emails processed by the agent for matching and enriching opportunity records. The following table provides credits consumed for different tasks performed by the agent:
-
-| Task | Credit consumption |
-|------|-----------------------------|
-| Initial setup of the agent | 50 credits, charged once during setup at the tenant level |
-| Opportunity matching | 4 credits per email for emails from external contacts registered in the system but not linked to any opportunity records |
-| Opportunity enrichment | 2 credits per email for emails already linked to existing opportunity records | 
-
-Use the following resources to learn more about setting up capacity and monitoring usage:
+The credit consumption depends on the number of emails processed by the agent for matching and enriching opportunity records. Use the following resources to learn more about setting up capacity and monitoring usage:
 
 - [Manage consumption-based billing for agent capabilities](copilot-consumption-based-billing.md)
 - [View the agent's usage consumption](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new#use-the-summary-tab)

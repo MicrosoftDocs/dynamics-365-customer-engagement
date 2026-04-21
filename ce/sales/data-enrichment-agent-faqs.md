@@ -39,3 +39,14 @@ All data processing occurs within Microsoft's cloud infrastructure in accordance
 ## How frequently does AI-powered Data Enrichment update opportunity records?
 
 The agent analyzes emails and generates suggestions every 4 hours. For manual updates, sellers can review suggestions as soon as they're generated. For automatic updates, changes are applied based on the enrichment frequency, which is set to **Daily** by default. This frequency can't be changed.
+
+## Why can't I see the AI-powered Data Enrichment suggestions?
+
+If you don't see suggestions, it could be due to several reasons:
+
+- **Configuration settings**: Your administrator might not have configured the feature. 
+- **User permissions**: It's possible that you are not a part of the group that has access to view suggestions. 
+- **Consent**: The opportunity owner might not have provided consent to analyze their emails.
+    - If you are the owner of the opportunity, ensure that you have [provided consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to analyze your emails. 
+    - If you're looking at an opportunity that you don't own, it's possible that the owner of that opportunity has not provided consent to analyze their emails or they don't have access to the Data Enrichment feature.
+- **Data availability**: There may not be sufficient data or relevant email interactions to generate suggestions for that opportunity.
