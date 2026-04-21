@@ -1,11 +1,11 @@
 ---
 title: Manage Copilot features in Customer Service
-description: Learn how to enable the various Copilot features in Customer Service.
+description: Learn how to enable and configure Copilot features in Dynamics 365 Customer Service to automate tasks and support representatives with AI assistance.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 03/31/2026
+ms.date: 04/21/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.collection: bap-ai-copilot
@@ -13,26 +13,24 @@ ms.collection: bap-ai-copilot
 
 # Manage Copilot features in Customer Service 
 
-Copilot in Customer Service provides real-time AI assistance that helps customer service representatives (service representatives or representatives) automate time-consuming tasks to handle cases efficiently and resolve issues faster so that they can deliver value to customers.
+Copilot in Customer Service provides real-time AI assistance that helps customer service representatives (service representatives or representatives) automate tasks, resolve cases faster, and deliver better customer experiences.
 
-When you turn on Copilot features, representatives can respond to questions, compose emails, draft chat responses, and summarize case and conversations in the Copilot Service workspace app.
+When you turn on Copilot features, representatives can respond to questions, compose emails, draft chat responses, and summarize cases and conversations in the Copilot Service workspace app.
 
 However, for representatives to use these features in Customer Service Hub and custom apps, you must perform the steps in [Enable Copilot features](copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps). 
 
 > [!NOTE]
 > Summarize conversations is available for use in Copilot Service workspace only.
 
-## Copilot agent categories
+## How Copilot features are delivered
 
-Copilot features in Dynamics 365 Customer Service are delivered through AI agents that are grouped by the type of scenarios they support and the users who interact with them.
+Copilot features in Dynamics 365 Customer Service are powered by Microsoft 365 Copilot and exposed in Customer Service apps such as Copilot Service workspace.
 
-The following agent categories are available:
+Copilot features use customer service data—such as cases, customer records, and interactions—to help customer service representatives (service representatives or representatives) retrieve information, generate responses, and complete actions without leaving their workflow.
 
-- **Service delivery agents** help customer service representatives during active customer interactions.
-- **Service operations agents** help supervisors with operational and analytical tasks.
-- **Service onboarding agents** help administrators enable, configure, and manage Copilot experiences.
+Some Copilot capabilities are delivered through Copilot agents, such as Service Agent. These agents extend Copilot with customer service–specific functionality that helps representatives summarize cases, retrieve knowledge, and perform actions.
 
-This article focuses on administering Copilot features by enabling and managing the relevant agents and their capabilities.
+This article describes how to enable and manage Copilot capabilities through the Copilot Service admin center.
 
 ## Prerequisites
 
