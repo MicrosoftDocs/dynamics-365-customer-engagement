@@ -27,11 +27,10 @@ When you navigate to the Customer Knowledge Management Agent page in Copilot Ser
 
 1. In Copilot Service admin center, go to **Support experience** > **Knowledge**.
 1. Select **Manage** for **Customer Knowledge Management Agent**. The **Customer Knowledge Management Agent** page appears.
-1. In the **Prerequisites** section, verify if **Step 1: Connection References**, **Step 2: Power Automate Flows**, and **Step 3: Copilot Studio Agent** show as **Ready**.
-    1. If **Step 1: Connection References** shows as **In progress** or **Incomplete**, then select **Enable**.
-    1. In the **Configure Connections** dialog, select **Update connection references to use your connector** to complete connection references.
-    1. In **Step 2: Power Automate Flows**, if a flow is turned off, use the navigation link to open the flow in Power Automate and enable it.
-    1. Once all tiles show as **Ready**, select **Publish** in **Step 3: Copilot Studio Agent** to complete the setup.
+1. In the **Prerequisites** section, for **Step 1: Connection References**, select **Setup connections**.
+1. In the **Configure Connections** dialog, select **Update connection references to use your connector** to complete connection references.
+1. In **Step 2: Power Automate Flows**, select **Enable**.
+1. Once all tiles show as **Ready**, select **Publish** in **Step 3: Copilot Studio Agent** to complete the setup.
 
 If you have issues configuring connection references from the **Customer Knowledge Management Agent** page, you can do a manual setup. Follow the steps provided in [Connection references for Customer Knowledge Management Agent flow](admin-km-agent-connections.md#set-connection-references-for-ai-agent-flow).
 
