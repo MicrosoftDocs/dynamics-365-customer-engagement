@@ -28,7 +28,7 @@ When you navigate to the Customer Knowledge Management Agent page in Copilot Ser
 1. In Copilot Service admin center, go to **Support experience** > **Knowledge**.
 1. Select **Manage** for **Customer Knowledge Management Agent**. The **Customer Knowledge Management Agent** page appears.
 1. In the **Prerequisites** section, for **Step 1: Connection References**, select **Setup connections**.
-1. In the **Configure Connections** dialog, select **Update connection references to use your connector** to complete connection references.
+1. In the **Configure Connections** dialog, select **Update connection references to use your connector** to update connection references.
 1. In **Step 2: Power Automate Flows**, select **Enable**.
 1. Once all tiles show as **Ready**, select **Publish** in **Step 3: Copilot Studio Agent** to complete the setup.
 
