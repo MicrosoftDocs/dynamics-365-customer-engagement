@@ -10,7 +10,7 @@ ms.author: vhorvath
 
 # What's new in the Field Service integration with Project Operations
 
-This article summarizes public preview features, general availability enhancements, and feature updates.
+This article summarizes feature updates, bug fixes, and other improvements.
 
 ## April 30, 2026
 
