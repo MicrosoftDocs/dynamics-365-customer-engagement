@@ -12,7 +12,7 @@ ms.author: vhorvath
 
 This article summarizes public preview features, general availability enhancements, and feature updates.
 
-## April 30, 2025
+## April 30, 2026
 
 The Dynamics 365 Field Service and Project Operations Integration package version 1.1.3384.2 contains the following updates.
 
@@ -31,7 +31,7 @@ The Dynamics 365 Field Service and Project Operations Integration package versio
 
 - Improved error messages on work order lines.
 
-- Reduced multi-currency restrictions for work orders. Additional multi-currency options are suppoted.
+- Reduced multi-currency restrictions for work orders. Additional multi-currency options are supported.
 
 - Improved system monitoring.
 
