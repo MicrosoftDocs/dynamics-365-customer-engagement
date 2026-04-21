@@ -98,7 +98,7 @@ additionalContent:
       - url: configure-sales-qualification-agent.md
         text: Set up and configure the Sales Qualification Agent
       - url: configure-opportunity-research-agent.md
-        text: Configure the Opportunity Research Agent 
+        text: Configure the Sales Opportunity Agent 
     - title: Copilot
       links: 
       - url: enable-setup-copilot.md
@@ -141,7 +141,7 @@ additionalContent:
       - url: monitor-leads-by-sales-qualification-agent.md
         text: Monitor leads handled by the Sales Qualification Agent 
       - url: use-opportunity-research-agent.md  
-        text: Work on opportunities handled by the Opportunity Research Agent
+        text: Work on opportunities handled by the Sales Opportunity Agent
     - title: Copilot
       links: 
       - url: use-sales-copilot.md

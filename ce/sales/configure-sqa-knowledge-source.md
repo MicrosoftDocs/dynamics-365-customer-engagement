@@ -2,7 +2,7 @@
 title: Configure knowledge sources for agents
 description: Learn how to configure knowledge sources for agents in Dynamics 365 Sales.
 ms.topic: how-to 
-ms.date: 03/30/2026
+ms.date: 04/17/2026
 ms.service: dynamics-365-sales
 ms.custom: bap-template
 author: udaykirang
@@ -52,9 +52,33 @@ By default, the agent uses public web data sources to research records and their
 
 1. Select **Add in Microsoft Copilot Studio** or **Manage in Microsoft Copilot Studio** to add or remove knowledge sources.
    You're redirected to the D365 Sales Agent - Research agent's **Knowledge** page in Copilot Studio.
+    >[!NOTE]
+    > When adding multiple instances for Sales Opportunity Agent, see [Filter knowledge sources by agent instance](#filter-knowledge-sources-by-agent-instance) section for information about how to add knowledge sources for specific instances. 
+
 1. Add relevant knowledge sources and return to the agent settings page.
    The knowledge sources you added in Copilot Studio are listed under **Company research**. You can now test the knowledge source.
 1. Select the Test icon (:::image type="icon" source="media/test-icon.png" border="false":::) in the **Company research** section. Follow the instructions in the **Test insight** pane and verify whether the agent is generating relevant research insights using the knowledge sources you added.
+
+### Filter knowledge sources by agent instance
+
+This section applies only to **Sales Opportunity Agent**.  
+When you have multiple agent instances, you can configure knowledge sources for specific instances by applying filters that use the agent profile ID (GUID) in Copilot Studio. To add filters for specific agent instances, follow these steps:
+
+1. In the Sales Hub app, go to **Knowledge** > **Research** and copy the **Agent research** GUID that appears after you save the agent profile.  
+1. Open **Copilot Studio** from the agent configuration page and add a knowledge source as usual.
+1. Open your Sales Opportunity Agent and go to the **Knowledge** tab.  
+    A list of knowledge sources is displayed. 
+    The **Usage** column shows **Conditional** for a knowledge source when specific agent instances use it. **General** specifies that the knowledge source is available to all instances.
+1. Open the knowledge source or add a new one that you want to filter.
+1. In the **Include/exclude options** section, from the **Agents can use this knowledge source** dropdown, select **Builder**.
+    The **Select a variable** text box is added to the form.
+1. Select the text box and choose the `agentProfileId` variable.
+    The condition options are displayed.
+1. Choose the **is equal to** condition and paste the copied GUID in the value field.
+    :::image type="content" source="media/knowledge-source-agent-instance-filter.png" alt-text="Screenshot of the knowledge source configuration form showing how to filter by agent instance using the agentProfileId variable.":::
+1. Save and publish the knowledge source.  
+   The knowledge source is added to the instance and the agent uses it to generate insights for that instance only.  
+    :::image type="content" source="media/knowledge-source-added-instance.png" alt-text="Screenshot of the knowledge source list showing a knowledge source with Conditional usage that indicates it's added to a specific agent instance."::: 
 
 <a name="configure-competitor-insights"></a>
 ## Configure the agent to generate competitor insights
