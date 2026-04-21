@@ -568,6 +568,8 @@ items:
       items:
       - name: Integrate with Project Operations overview
         href: project-operations-integration.md
+      - name: What's new in the integration
+        href: project-operations-whats-new.md
       - name: Admin guide
         items:
             - name: Set up the integration
