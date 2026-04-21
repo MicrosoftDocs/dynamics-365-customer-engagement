@@ -1,11 +1,11 @@
 ---
 title: Manage Copilot features in Customer Service
-description: Learn how to enable Copilot features in Dynamics 365 Customer Service to help customer service representatives handle cases more efficiently and resolve issues faster.
+description: Learn how to enable and configure Copilot features in Dynamics 365 Customer Service to automate tasks and support representatives with AI assistance.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 04/17/2026
+ms.date: 04/21/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ms.collection: bap-ai-copilot
@@ -13,14 +13,24 @@ ms.collection: bap-ai-copilot
 
 # Manage Copilot features in Customer Service 
 
-Copilot in Customer Service provides real-time AI assistance for customer service representatives (service representatives or representatives). It helps automate time-consuming tasks so representatives can handle cases efficiently, resolve issues faster, and deliver more value to customers.
+Copilot in Customer Service provides real-time AI assistance that helps customer service representatives (service representatives or representatives) automate tasks, resolve cases faster, and deliver better customer experiences.
 
-When you turn on Copilot features, service representatives can respond to questions, compose emails, draft chat responses, and summarize case and conversation details in the Copilot Service workspace app.
+When you turn on Copilot features, representatives can respond to questions, compose emails, draft chat responses, and summarize cases and conversations in the Copilot Service workspace app.
 
 However, for service representatives to use these features in Customer Service Hub and custom apps, you must perform the steps in [Enable Copilot features](copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps). 
 
 > [!NOTE]
 > Summarize conversations is available for use in Copilot Service workspace only.
+
+## How Copilot features are delivered
+
+Copilot features in Dynamics 365 Customer Service are powered by Microsoft 365 Copilot and exposed in Customer Service apps such as Copilot Service workspace.
+
+Copilot features use customer service data—such as cases, customer records, and interactions—to help customer service representatives (service representatives or representatives) retrieve information, generate responses, and complete actions without leaving their workflow.
+
+Some Copilot capabilities are delivered through Copilot agents, such as Service Agent. These agents extend Copilot with customer service–specific functionality that helps representatives summarize cases, retrieve knowledge, and perform actions.
+
+This article describes how to enable and manage Copilot capabilities through the Copilot Service admin center.
 
 ## Prerequisites
 
@@ -57,7 +67,7 @@ Learn about supported languages for Copilot in [Language support for AI-based an
 
 ## Data sharing for Copilot features
 
-You can turn on data sharing for Copilot features in the Power Platform admin center. Data sharing allows Microsoft to capture and manually review customer data. This data includes users' natural language inputs, outputs, and related telemetry. Microsoft uses this data to build, improve, and validate features, services, machine learning models, and related systems for Dynamics 365 and Power Platform Copilot AI features. We don't use customer data to train Azure OpenAI foundation models.
+You can turn on data sharing for Dynamics 365 Copilot features in the Power Platform admin center app. Data sharing allows Microsoft to capture and manually review customer data, including, but not limited to, users' natural language inputs, outputs, and related telemetry to build, improve, and/or validate Microsoft's features, services, machine learning models, and related systems for Dynamics 365 and Power Platform Copilot AI features. We don't use customer data to train Azure OpenAI Service foundation models.
 
 Learn more in [Tenant settings](/power-platform/admin/tenant-settings) and [FAQ for optional data sharing for Copilot AI features in Dynamics 365 and Power Platform](/power-platform/faqs-copilot-data-sharing).
 
