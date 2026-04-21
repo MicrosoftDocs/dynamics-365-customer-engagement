@@ -28,7 +28,7 @@ In the **Agent profile** section of the [Data Enrichment settings](#open-setting
 
 ## Configure user access
 
-In the **User access** section of the [Data Enrichment settings](#open-settings), specify which sellers can access Data Enrichment suggestions. Data Enrichment analyzes only opportunities owned by selected sellers, and only those sellers can view the suggestions. You can choose one of the following options:
+In the **User access** section of the [Data Enrichment settings](#open-settings), specify which sellers can access Data Enrichment suggestions. Data Enrichment analyzes opportunities owned only by selected sellers. You can choose one of the following options:
  
 - **All users with premium license**: Select this option to allow all users with a Dynamics 365 Sales Premium license to access the agent's suggestions.
 - **Specific groups**: Select this option to allow specific sellers (up to 10 of them) or those who meet certain criteria to access the agent's suggestions. You can either select individual users or specify criteria based on fields such as sales team, job title, or geography to determine who can access the agent's suggestions.  
