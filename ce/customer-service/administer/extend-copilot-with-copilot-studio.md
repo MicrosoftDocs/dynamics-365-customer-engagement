@@ -10,11 +10,13 @@ ms.date: 04/21/2026
 
 # Extend Copilot with Copilot Studio (preview)
 
-[!INCLUDE [preview-banner](../../includes/cc-preview-features-definition.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Administrators can extend Copilot in Dynamics 365 Customer Service by using Microsoft Copilot Studio. This capability enables organizations to configure custom knowledge sources, agents, and tools that Copilot can use when responding to user questions.
 
 As of April 2026, extensibility configuration for Copilot is primarily managed in Copilot Studio instead of the Copilot Service admin center.
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Prerequisites
 
