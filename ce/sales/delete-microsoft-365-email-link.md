@@ -29,12 +29,10 @@ To delete Microsoft 365 emails linked by Data Enrichment, remove the links betwe
 
 Follow these steps to perform the deletion:
 
-1. Retrieve the email record's ID from Microsoft Graph by using Graph Explorer.
-1. In the `msdyn_dataqualitysource` table, find the record corresponding to the email using one of the following methods:
-    - Query the table with a filter on `msdyn_originalsourceid` as the ID of the email retrieved from Microsoft Graph. 
-    - Alternatively, you can also query on `msdyn_sourceitemid` with `internetMessageId` of the email. 
-    
-1. After you retrieve the `msdyn_dataqualitysource` record, use the record ID (`msdyn_dataqualitysourceid`) to delete the corresponding record. Note the ID of the deleted record for the next step.
-
-1. Query `msdyn_dataqualitysuggestion` with a filter on `msdyn_dataqualitysourceid` as the ID retrieved in step 3. After you successfully retrieve the record, delete the corresponding suggestion record. Note the ID of the deleted suggestion record for the next step.
-1. Query `msdyn_dataqualitylog` with a filter on `msdyn_dataqualitysuggestionid` as the IDs retrieved in step 4. After you successfully retrieve the records, delete the corresponding log records. 
+1. In Microsoft Graph Explorer, find the email and note its ID. You use this value to locate related Data Enrichment records.
+1. In the `msdyn_dataqualitysource` table, find the source record for that email by using either of these filters:
+    - `msdyn_originalsourceid` equals the email ID from Microsoft Graph.
+    - `msdyn_sourceitemid` equals the email `internetMessageId`.
+1. Delete the matching record in `msdyn_dataqualitysource`, and note its `msdyn_sourceid`.
+1. In the `msdyn_dataqualitysuggestion` table, find records where `msdyn_dataqualitysourceid` equals the `msdyn_sourceid` from the previous step. Delete the matching suggestion records, and note their IDs.
+1. In the `msdyn_dataqualitylog` table, find records where `msdyn_suggestionid` equals the suggestion IDs from the previous step. Delete all matching log records.
