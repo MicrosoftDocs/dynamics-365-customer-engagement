@@ -2,7 +2,7 @@
 title: Summarize records with Copilot 
 description: Learn how to summarize your records in Dynamics 365 Sales such as opportunities, leads, and accounts with Copilot. 
 ms.date: 03/09/2026
-ms.update-cycle: 180-days
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -154,7 +154,7 @@ If the opportunity summary widget isn't displayed in the **Opportunity** form, c
 
 ### View deeper research insights for the opportunity
 
-If the Opportunity Research Agent is configured for your organization, you can view the research insights for the opportunity. The insights provide a comprehensive overview of the opportunity, including risk mitigation, key insights and signals, and deeper insights on various aspects of the opportunity, such as stakeholders, pain points, needs, and opportunity health. Learn more in [Opportunity research page](use-opportunity-research-agent.md#opportunity-research-page).
+If the Sales Opportunity Agent is configured for your organization, you can view the research insights for the opportunity. The insights provide a comprehensive overview of the opportunity, including risk mitigation, key insights and signals, and deeper insights on various aspects of the opportunity, such as stakeholders, pain points, needs, and opportunity health. Learn more in [Opportunity research page](use-opportunity-research-agent.md#opportunity-research-page).
 
 ## Related information
 

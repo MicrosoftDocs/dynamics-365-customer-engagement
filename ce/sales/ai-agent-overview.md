@@ -2,7 +2,7 @@
 title: AI agents in Dynamics 365 Sales
 description: Learn about the out-of-the-box AI agents in Dynamics 365 Sales that help sales teams qualify leads and close deals faster.
 ms.date: 01/29/2026
-ms.update-cycle: 180-days
+ms.update-cycle: 90-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
 ms.custom:
@@ -42,5 +42,5 @@ You can monitor the performance of the Sales Qualification Agent and Sales Close
 ## FAQs about sales AI agents
 
 - [FAQs about Sales Qualification Agent](sales-qualification-agent-faq.md)
-- [FAQs about Opportunity Research Agent (preview)](opportunity-research-agent-faqs.md)
+- [FAQs about Sales Opportunity Agent (preview)](opportunity-research-agent-faqs.md)
 - [FAQs about Sales Research Agent (preview)](faqs-sales-research-agent.md)

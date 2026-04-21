@@ -2,6 +2,7 @@
 title: Responsible AI FAQ about the Sales Research Agent
 description: Learn about the responsible AI practices and limitations of the Sales Research Agent in Dynamics 365 Sales.
 ms.date: 03/31/2026
+ms.update-cycle: 90-days
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template

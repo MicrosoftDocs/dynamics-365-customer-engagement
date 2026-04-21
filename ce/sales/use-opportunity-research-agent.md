@@ -2,6 +2,7 @@
 title: Work on opportunities handled by the Sales Opportunity Agent
 description: Learn how to work on opportunities handled by the Sales Opportunity Agent.
 ms.date: 03/30/2026
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -45,7 +46,7 @@ You need the following prerequisites:
    If you see a banner prompting you to provide consent for Microsoft 365 Services, read the section [Provide consent for Microsoft 365 Services](#provide-consent-for-microsoft-365-services)
 
 > [!NOTE]
-> The research insights are refreshed based on the refresh frequency configured by your admin and when specific fields in the opportunity record are updated. Learn more in [How often does the Opportunity Research Agent refresh research data?](opportunity-research-agent-faqs.md#how-often-does-the-opportunity-research-agent-refresh-research-data).
+> The research insights are refreshed based on the refresh frequency configured by your admin and when specific fields in the opportunity record are updated. Learn more in [How often does the Sales Opportunity Agent refresh research data?](opportunity-research-agent-faqs.md#how-often-does-the-sales-opportunity-agent-refresh-research-data).
 
 ### Provide consent for Microsoft 365 Services
 

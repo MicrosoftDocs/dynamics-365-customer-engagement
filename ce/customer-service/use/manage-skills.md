@@ -1,7 +1,7 @@
 ---
 title: Manage skills
-description: Learn how to view or remove existing skills, and add new skills using the skill control in Omnichannel for Customer Service.
-ms.date: 04/28/2025
+description: Learn how to view or remove existing skills, and add new skills using the skill control in Dynamics 365 Contact Center.
+ms.date: 04/15/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

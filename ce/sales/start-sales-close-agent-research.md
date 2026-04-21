@@ -3,6 +3,7 @@ title: Start the Sales Opportunity Agent
 description: Learn how to start the Sales Opportunity Agent in Dynamics 365 Sales.
 ms.topic: how-to 
 ms.date: 03/16/2026
+ms.update-cycle: 90-days
 ms.service: dynamics-365-sales
 ms.custom: bap-template
 author: udaykirang

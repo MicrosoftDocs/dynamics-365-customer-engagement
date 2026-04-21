@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
-ms.date: 07/10/2025
+ms.date: 04/15/2026
 ms.custom: bap-template
 ---
 
@@ -23,7 +23,7 @@ When you sign in to the Copilot Service workspace app, the Omnichannel Agent Das
 - Open work items
 - Closed work items
 
- ![Agent dashboard of Omnichannel for Customer Service app.](../media/oceh-oc-mydashboard.png "Screenshot of Agent dashboard in the Copilot Service workspace app")
+ ![Agent dashboard.](../media/oceh-oc-mydashboard.png "Screenshot of Agent dashboard in the Copilot Service workspace app")
 
 OCStreamcontrol, an out-of-the-box dataset control, displays conversations view for all the three streams. My work items, Open work items, and Closed work items are displayed in a card form format on the Omnichannel Agent dashboard. However, the OCStreamcontrol doesn't work on custom dashboards, and can be used with Omnichannel Agent dashboard only. 
 

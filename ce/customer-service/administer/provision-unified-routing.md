@@ -46,7 +46,7 @@ When the omnichannel capabilities are available but not deployed, in the **Servi
 
   "Some required services need to be installed before unified routing can be turned on. Please contact Microsoft Support."
 
-When Omnichannel for Customer Service doesn't have the required solutions, the following message appears:
+When the omnichannel application doesn't have the required solutions, the following message appears:
 
   "Before unified routing can be turned on, Omnichannel needs to be updated. Please contact Microsoft Support."
 

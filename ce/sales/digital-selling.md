@@ -29,7 +29,7 @@ Watch this brief video for an overview of digital selling capabilities in Dynami
 
 ## Licensing options
 
-When you set up digital sales by using a Sales Enterprise license, you can explore Sales Premium features such as the sales accelerator, conversation intelligence, and predictive scoring with a limited monthly capacity. If you need more capacity or want access to all the premium features, [upgrade to Dynamics 365 Sales Premium](upgrade-sales-premium.md). The following table describes the capacity available with the Sales Enterprise and Sales Premium licenses.
+When you set up digital sales by using a Sales Enterprise license, you can explore Sales Premium features such as the sales accelerator, conversation intelligence, and predictive scoring with a limited monthly capacity. If you need more capacity or want access to all the premium features, [upgrade your Dynamics 365 Sales license](upgrade-sales-license.md). The following table describes the capacity available with the Sales Enterprise and Sales Premium licenses.
 
 | Feature | Sales Enterprise license | Sales Premium license |
 |---------|---------|---------|

@@ -2,6 +2,7 @@
 title: Open the Sales Close Agent settings page (preview)
 description: Open the Sales Close Agent settings to configure or manage the Sales Close Agent.  
 ms.date: 03/30/2026
+ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template
