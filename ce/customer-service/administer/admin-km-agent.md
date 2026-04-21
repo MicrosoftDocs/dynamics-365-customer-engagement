@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 04/17/2026
+ms.date: 04/21/2026
 ms.custom: bap-template
 ---
 
@@ -33,7 +33,7 @@ When you navigate to the Customer Knowledge Management Agent page in Copilot Ser
     1. In **Step 2: Power Automate Flows**, if a flow is turned off, use the navigation link to open the flow in Power Automate and enable it.
     1. Once all tiles show as **Ready**, select **Publish** in **Step 3: Copilot Studio Agent** to complete the setup.
 
-If you have issues configuring connection references from the **Customer Knowledge Management Agent** page, you can do a manual setup. Follow the steps provided in [Connection references for Customer Knowledge Management Agent  flow](admin-km-agent-connections.md#set-connection-references-for-ai-agent-flow).
+If you have issues configuring connection references from the **Customer Knowledge Management Agent** page, you can do a manual setup. Follow the steps provided in [Connection references for Customer Knowledge Management Agent flow](admin-km-agent-connections.md#set-connection-references-for-ai-agent-flow).
 
 
 ## Enable Customer Knowledge Management Agent
@@ -52,7 +52,7 @@ Real-time knowledge creation is triggered when a customer service representative
 
 ### Manage rules for real-time article creation  
 
-You can create multiple rules to specify the conditions that must be met for a resolved case or closed conversation to be processed by Customer Knowledge Management Agent in real time. For example, you might limit this process to cases or conversations owned by a certain user, or any other fields on the case or conversation. 
+Create multiple rules to specify the conditions that Customer Knowledge Management Agent must meet to process a resolved case or closed conversation in real time. For example, you might limit this process to cases or conversations owned by a certain user, or any other fields on the case or conversation. 
 
 1. From the **Case** or **Conversations** tab, in the **Real-time creation** section, select **Manage rules**. 
 1. In the **Manage rules** dialog, select **New** to add a new rule.
@@ -72,7 +72,7 @@ Case attribute selections are applicable to both historical and real-time creati
 
 ### Enable track changes and add mapped entities to the Entity Analytics Config table
 
-To avoid issues during knowledge article creation from historical data, we recommend that you enable **Track changes** for the mapped entities and add them to the **Entity Analytics Config** table .
+To avoid issues during knowledge article creation from historical data, we recommend that you enable **Track changes** for the mapped entities and add them to the **Entity Analytics Config** table.
 
 1. [Enable track changes](/power-platform/admin/enable-change-tracking-control-data-synchronization#using-power-apps-settings).
 2. To add mapped entities to the **Entity Analytics Config** table:
@@ -103,7 +103,7 @@ Enable real-time knowledge harvesting for your custom record types in Dynamics 3
 1. [Add a trigger harvesting button](#add-a-trigger-harvesting-button) to your custom table form.
 1. Navigate to your custom table (for example, **Custom_Knowledge_Harvest**).
 1. Open an existing record. The **Trigger Harvesting** button appears on the **Command** bar.
-1. Select the button to trigger knowledge harvesting for the current record. A confirmation dialog appears, indicating that the knowledge harvest has been triggered successfully.
+1. Select the button to trigger knowledge harvesting for the current record. A confirmation dialog appears, indicating that the knowledge harvest is triggered successfully.
 
 ### Add a trigger harvesting button
 
@@ -112,7 +112,7 @@ Add a trigger harvesting command button to your custom table's main form using P
 The JavaScript triggers knowledge harvesting by sending table and user information to the API, displays progress indicators, handles responses, and controls button availability based on the form state. The button works similarly to Case and Conversation record types.
 
 > [!NOTE]
-> This is a sample implementation to trigger knowledge harvesting through a button click. You can customize the button behavior and JavaScript logic based on your organization's requirements.
+> The follwoing example is a sample implementation to trigger knowledge harvesting through a button click. You can customize the button behavior and JavaScript logic based on your organization's requirements.
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
 1. Select **Tables** from the left navigation pane.
@@ -215,7 +215,7 @@ The JavaScript triggers knowledge harvesting by sending table and user informati
     })();
     
     ``` 
-    1. In the **Add JavaScript Library** dialog, select the JavaScript library you just created.
+    1. In the **Add JavaScript Library** dialog, select the JavaScript library you created.
     1. Add the library to your command.
     1. For function name, enter **Msdyn.KnowledgeHarvest.triggerHarvest**.
     1. Select **+ Add** parameter, and in **Parameter 1**, select **PrimaryControl** from the dropdown.
@@ -226,7 +226,7 @@ The JavaScript triggers knowledge harvesting by sending table and user informati
 
 ## Enable historical knowledge creation
 
-When enabled, the agent considers all the cases and conversations that meet the specified conditions and then determines if new articles are needed by comparing the content of the cases or conversations with the existing knowledge base. The agent then creates a new article, if required, based on the content of the cases and conversations. You can also [add custom record types (preview)](#add-custom-record-types-preview) that Customer Knowledge Management Agent can use to create new knowledge articles.
+When enabled, the agent considers all the cases and conversations that meet the specified conditions and then determines if new articles are needed by comparing the content of the cases or conversations with the existing knowledge base. The agent then creates a new article, if necessary, based on the content of the cases and conversations. You can also [add custom record types (preview)](#add-custom-record-types-preview) that Customer Knowledge Management Agent can use to create new knowledge articles.
 
 1. Select the **Cases**, **Conversations**, or the **Custom record types (preview)** tab.
 
@@ -237,7 +237,7 @@ When enabled, the agent considers all the cases and conversations that meet the 
     1. For custom record types, in the **Custom record type** section, select the **Let copilot use information from historical custom record types to create knowledge articles** option.
 
 1. Select **Manage rules** to configure the conditions for the harvest.
-1. On the **Default rule** dialog, enter a rule name, condition name, and then add your conditions to filter historical articles. You may also specify a custom article template to be used for this rule. 
+1. On the **Default rule** dialog, enter a rule name, condition name, and then add your conditions to filter historical articles. You might also specify a custom article template to be used for this rule. 
 1. Select **Save**.
 1. Select **Save** on the **Customer Knowledge Management Agent** settings page.
 1. Select **Start** on the **Creation from historical cases, conversations, or custom record types** section. 
@@ -271,13 +271,13 @@ When you specify a custom article, Customer Knowledge Management Agent uses the 
 - Provide a detailed description for each section, explaining the type of content expected.
 - Clearly indicate which fields are required and which are optional within the template.
 - If categorization is needed, include the list of category options directly in the template.
-- Clearly separate any compliance text (for example, add a note such as “Do not edit below this line.”).
+- Clearly separate any compliance text (for example, add a note such as “Don't edit below this line.”).
 - Use a consistent format for placeholders and variables, such as {{ProductName}} or {{ErrorCode}}.
 - Where possible, include a minimal, well-structured example within the template to guide users.
 
-## Manage additional record type attributes used to create knowledge articles
+## Manage more record type attributes used to create knowledge articles
 
-Customer Knowledge Management Agent uses **Title**, **Description**, **Product**, **Subject**, **Email Content**, and **Case Notes** to create an article. You can modify all the fields except **Email Content**, **Incident Resolution** and **Conversation Summary**. 
+Customer Knowledge Management Agent uses **Title**, **Description**, **Product**, **Subject**, **Email Content**, and **Case Notes** to create an article. You can modify all the fields except **Email Content**, **Incident Resolution, and **Conversation Summary**. 
  
 1. In your custom record type section, select **Manage attributes**. The **Manage data** page appears. 
 You can map which record types and data fields are used for each element. You can choose to include and exclude data.
@@ -298,7 +298,7 @@ You can set the default compliance state for articles and their updated versions
 
 To set the default compliance state of articles created by Customer Knowledge Management Agent, on the **Customer Knowledge Management Agent** page, **Compliance** section, select your default compliance state from the available options.
 
-Articles with the **Non Compliant** status can't be published.
+Articles with the **Noncompliant** status can't be published.
 
 > [!NOTE]
 > Customer Knowledge Management Agent removes personal data from the case data before drafting articles. However, the agent might not detect all instances of sensitive information.
@@ -307,7 +307,7 @@ Articles with the **Non Compliant** status can't be published.
 
 You can configure whether the AI agent can automatically publish articles and minor updates that meet the specified **Compliance** status. You can also select the target audience that can view the published articles.
 
-To set the auto-publishing of articles created by Customer Knowledge Management Agent, on the **Customer Knowledge Management Agent** page, **Auto publishing** section, select the **Automatically publish compliant articles as soon as they’re created** option.
+To set the autopublishing of articles created by Customer Knowledge Management Agent, on the **Customer Knowledge Management Agent** page, **Auto publishing** section, select the **Automatically publish compliant articles as soon as they’re created** option.
 
 - Select **Internal target audiences**, if you want articles to be available to your service representatives and Copilot internally. 
 - Select **Internal and external target audiences**, if you want these articles to be published to external portals.
