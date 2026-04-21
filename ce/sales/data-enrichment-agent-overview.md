@@ -32,7 +32,7 @@ The agent behind the AI-powered Data Enrichment feature follows these steps to a
 
 The following diagram illustrates the workflow of the AI-powered Data Enrichment feature for opportunities:
 
-:::image type="content" source="media/data-enrichment-agent-overview/ai-data-enrichment-process-steps.png" alt-text="Diagram of AI-powered data enrichment workflow for opportunities, showing steps from filtering records to applying updates.":::
+:::image type="content" source="media/data-enrichment-agent-overview/ai-data-enrichment-process-steps.png" alt-text="Diagram of AI-powered data enrichment workflow for opportunities, showing steps from filtering records to applying updates." lightbox="media/data-enrichment-agent-overview/ai-data-enrichment-process-steps.png":::
 
 ## How to set up and use Data Enrichment
 
