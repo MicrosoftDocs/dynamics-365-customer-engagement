@@ -90,7 +90,7 @@ Copilot in Dynamics 365 Customer Service includes AI-powered agents that extend 
 
 These agents use your organization’s customer service data—such as cases, customer records, and interactions—to help customer service representatives find information, summarize context, and take actions without leaving their workflow.
 
-For example, [Service Agent](../use/use-service-agent) helps representatives retrieve case details, generate summaries, and perform actions such as updating cases and creating follow-ups directly within Copilot experiences.
+For example, [Service Agent](../use/use-service-agent.md) helps representatives retrieve case details, generate summaries, and perform actions such as updating cases and creating follow-ups directly within Copilot experiences.
 
 You can use Copilot agents in Microsoft 365 Copilot and within Copilot Service workspace while working on customer interactions.
 
