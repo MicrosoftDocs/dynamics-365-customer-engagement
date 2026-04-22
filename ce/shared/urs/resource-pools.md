@@ -1,18 +1,26 @@
-Resource pools are groups of similar resources. Dispatchers manage capacity and get the option to assign resources later.
+Resource pools let you book work to a group of interchangeable resources without immediately assigning a specific person. Use pools when you want to collect requirements centrally and assign specific resources later, manage capacity across a group of similar resources, or defer the assignment decision until closer to the work date.
 
-Resource pool scheduling is ideal for several scenarios:
+If your resources need to work together as a team, use [crews](../../field-service/resource-crews.md) instead.
 
-- Avoid booking specific resources right away. For example, a hotel checks room availability (pool) and assigns a room (resource) to guests when they arrive.  
+## Pool scheduling at a glance
 
-- Collect requirements centrally but let a local manager book them. For example, a repair shop chain takes appointments through a call center. The central agent books the appointment to the customer's preferred location (pool). The local store manager assigns appointments to an available specialist (resource).
+| Step | What you do | Key detail |
+|---|---|---|
+| **1. Create a pool** | Create a bookable resource with type **Pool**, set capacity, and add members. | Use the same resource type within a pool. |
+| **2. Book to the pool** | Use the schedule assistant to book requirements to the pool. | The assistant can split work across multiple pool members. |
+| **3. Assign pool bookings** | Reassign pool bookings to specific members before the work begins. | Drag-drop, substitute, or rebook. |
 
-- Know the capacity of a pool but not the specific resource it contains. For example, a trade show offers different booth options. it considers the capacity of booths (pool) when booking, but assigns the specific booths (resource) later.
+## Prerequisites
 
-- Enable overbooking for expected cancellations. For example, a hotel has a fixed number of rooms, but might inflate capacity and take more reservations than available rooms to account for cancellations.
+- [Bookable resources](../../field-service/set-up-bookable-resources.md) created for each pool member (recommended: same resource type within a pool).
+- Pool members added with date ranges for their membership.
+- Start and end location configured (**Organizational Unit Address** for physical location, **Location Agnostic** for remote).
 
-## Create a resource pool
+> [!NOTE]
+> - Crews and other pools can't be children of a pool.
+> - Don't choose the *Resource address* option for pool start/end location.
 
-We recommended creating pools that use the same resource type. If you want to create groups with different types of resources, [create a crew](../../field-service/resource-crews.md).
+## Step 1: Create a pool
 
 1. Open the **Resources** area, select **Resources**, and then select **New**.  
 
@@ -26,8 +34,11 @@ We recommended creating pools that use the same resource type. If you want to cr
    > Don't choose the *Resource address* option.
 
 1. Choose an option for **Derive Capacity From Group Members** and then select **Save**.
-   - **Yes**: The capacity of the pool resource is calculated based on its member's work hour calendars. Pool capacity changes when adding or removing pool members.
-   - **No**: The system sets the capacity of the pool but you can change it. Adding and removing pool members doesn't change the capacity.
+
+   | Derive Capacity setting | Behavior |
+   |---|---|
+   | **Yes** | Pool capacity calculated dynamically from members' work calendars. Pool capacity changes when you add or remove members. |
+   | **No** | Fixed pool capacity, independent of member changes. You can change the capacity manually. |
 
 1. Add resource attributes to consider for scheduling. Consider the pool as a standard resource as it relates to adding attributes like [characteristics](../../field-service/set-up-characteristics.md) or [territories](../../field-service/set-up-territories.md).
 
@@ -47,11 +58,11 @@ Add members to a pool. The location of the pool member is taken from the pool.
 
    :::image type="content" source="../../field-service/media/scheduling-resource-pool-children.png" alt-text="Screenshot of pool children view.":::
 
-## Book a pool with the schedule assistant
+## Step 2: Book to the pool
 
-Pool resources show as available in the schedule assistant if the system can distribute the planned work duration across multiple child resources. For example, if you want to schedule a task of one hour and no resource is available for the full hour, the system suggests two resources that are available for 30 minutes each.
+Use the schedule assistant to book requirements to the pool. Pool resources show as available if the system can distribute the planned work duration across multiple child resources. For example, if you want to schedule a one-hour task and no single resource is available for the full hour, the system suggests two resources available for 30 minutes each.
 
-Pool resources don't show as available in the schedule assistant if the pool is fully booked for the time period, even if the individual resource isn't booked for the period.
+Pool resources don't show as available if the pool is fully booked for the time period, even if individual members aren't booked.
 
 1. Select **Book** on a requirement form to open the schedule assistant. The schedule assistant shows the pool and individual pool members based on the configuration of the requirement.
 
@@ -60,7 +71,11 @@ Pool resources don't show as available in the schedule assistant if the pool is 
 > [!NOTE]
 > The schedule assistant doesn't return resource pools for onsite work requirements.
 
-## Manage a pool on the schedule board
+## Step 3: Assign pool bookings
+
+Before the actual work begins, assign pool bookings to specific members on the schedule board. Bookings assigned to pool member resources during nonworking hours count against the capacity of the pool resource twice.
+
+### Manage a pool on the schedule board
 
 1. On the **Schedule Board**, open the **Filters** pane. Set the **Resource Types** filter to *Pool* and select **Apply**.
 
@@ -70,13 +85,11 @@ Pool resources don't show as available in the schedule assistant if the pool is 
 
    :::image type="content" source="../../field-service/media/scheduling-resource-pool-view-members.png" alt-text="Screenshot showing the result of a right-click on a pool resource to view pool members.":::
 
-### Assign pool bookings
-
-Assign specific resources to a requirement booked to a pool. Bookings assigned to pool member resources during nonworking hours count against the capacity of the pool resource twice.
+### Reassign a pool booking
 
 1. To change a booking assignment, choose one of the following options:
 
-    - **Manually drag and drop**: Select and drag a booking from the resource pool and drag it to one of the pool members.
+    - **Drag and drop**: Select and drag a booking from the resource pool to one of the pool members.
 
     - **Substitution**: Right-click a booking in the resource pool, select **Book Substitute**, and choose a pool member.
 

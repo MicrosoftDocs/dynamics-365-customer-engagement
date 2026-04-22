@@ -3,7 +3,7 @@ title: Manage the Sales Qualification Agent
 description: Learn how to manage such as stop or edit the sales qualification settings in Dynamics 365 Sales.
 ms.topic: how-to 
 ms.date: 08/01/2025
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.service: dynamics-365-sales
 ms.custom: bap-template
 author: lavanyakr01

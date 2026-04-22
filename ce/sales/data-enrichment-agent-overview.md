@@ -2,7 +2,7 @@
 title: AI-powered Data Enrichment for opportunities
 description: Learn how the AI-powered Data Enrichment helps automate updating and enriching opportunity data based on recent email interactions.
 ms.date: 02/16/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom:
