@@ -1,7 +1,7 @@
 ---
 title: Use the Sales agent in Microsoft 365 Copilot from within Dynamics 365 Sales (preview)
 description: Learn how to use the Sales agent in Microsoft 365 Copilot from within Dynamics 365 Sales to get AI-powered assistance for your sales activities.
-ms.date: 04/08/2026
+ms.date: 04/22/2026
 ms.update-cycle: 90-days
 ms.topic: how-to
 ms.custom: bap-template
