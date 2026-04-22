@@ -24,7 +24,7 @@ This integration is designed for organizations that use:
 
 - Field Service and Project Operations, without using Finance and Supply Chain Management. This approach supports project-based service and financial alignment under a project in Project Operations. This approach can be used for integration to other ERP solutions or for direct execution and management purposes.
 
-## How it works: the integration flow
+## Integration flow overview
 
 This diagram shows how Field Service, Project Operations, and Finance activities connect into one continuous process.
 
