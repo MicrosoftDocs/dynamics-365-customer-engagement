@@ -4,7 +4,7 @@ description: Learn how to set up and configure the AI-powered Data Enrichment fe
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 02/16/2026
+ms.date: 04/22/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
