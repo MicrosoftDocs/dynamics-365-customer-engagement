@@ -34,7 +34,7 @@ Configure governance policies to enforce compliance, security, and content‑saf
     - msdyn_guardrail_rule
     - msdyn_guardrail_rule_version
     - msdyn_guardrail_scenariotype
-- Set up [Microsoft Copilot credits](setup-pay-as-you-go.md#set-up-pay-as-you-go).
+- Set up [Microsoft Copilot credits](setup-pay-as-you-go.md).
 - Provide consent for potential [data movement across regions](/power-platform/admin/geographical-availability-copilot?utm_source=chatgpt.com&tabs=new).
 - Enable AI agents for your Dynamics 365 environment in Power platform admin center. Learn more in [Copilot adoption in the Power Platform](/power-platform/admin/copilot/copilot-hub).
 
