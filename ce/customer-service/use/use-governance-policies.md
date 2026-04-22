@@ -44,7 +44,7 @@ Use governance policies to evaluate AI-generated email responses before sending.
         1. **Content type**: The content type is **Email** by default.
         1. **Written by**: Select **Customer service representatives** or **Autonomous AI**.
         1. **How strictly to enforce**: Select **Flag noncompliant content** or **Block noncompliant content**.
-    1. **Conditions for content**: Add conditions to select a subset of emails that meet the conditions. If you don’t select any conditions, all emails are run through for the check.
+    1. **Conditions for content**: Add conditions to select a subset of emails that meet the conditions. If you don’t select any conditions, the system evaluates all emails in the check.
 1. Save and publish.
 
 You must review the generated prompt before you publish the policy. To refine the policy behavior, update the prompt instructions. Each prompt generation consumes Microsoft Copilot credits.
