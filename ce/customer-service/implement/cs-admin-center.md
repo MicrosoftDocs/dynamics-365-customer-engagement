@@ -1,7 +1,7 @@
 ---
 title: Copilot Service admin center in Customer Service
 description: Get started with Copilot Service admin center to configure the various features and settings in Customer Service.
-ms.date: 02/19/2026
+ms.date: 04/21/2026
 ms.topic: concept-article
 ms.collection: get-started
 author: neeranelli
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 Welcome to Copilot Service admin center, the app that unifies and simplifies administration experience across the Customer Service suite.
 
-Use the Copilot Service admin center app to set up the features in Customer Service, such as unified routing, cases, queues, knowledge articles, channels, rules for automatic record creation, agent experience profiles, and customer service schedules.
+Use the Copilot Service admin center to configure Customer Service features, such as cases, queues, knowledge articles, channels, unified routing, and agent experience profiles.
 
 The features include:  
 
@@ -31,6 +31,18 @@ The features include:
 - The site map adapts to the capabilities that are provisioned. Based in core Customer Service, if Dynamics 365 Contact Center is provisioned, then other features are automatically available.
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=1a9dd7f8-3c00-46c9-bda3-b567b5651f71]
+
+
+## Copilot agent management
+
+The Copilot Service admin center is where administrators configure Copilot for Dynamics 365 Customer Service, including agent capabilities and extensibility settings.
+
+Administrators use the app to:
+- Enable and configure Copilot features
+- Manage agent capabilities and extensibility
+- Control access based on user roles
+
+Copilot agents help customer service representatives retrieve information, summarize data, and take action during customer service work. Administrators can extend these capabilities by configuring knowledge sources, tools, and other extensibility options.
 
 ## Prerequisites
 
@@ -79,7 +91,7 @@ You can use the guided channel setup wizard to configure channels, such as a cha
 The Customer Service features are organized in the site map as follows. Every group contains an overview page with deep links to the features within the area.
 
 > [!NOTE]
-> The options that appear on the site map are dependent on the features that you have provisioned.
+> The options that appear on the site map are dependent on the features that you provisioned.
 
 The overview page for every group lists a summary of the objects that are available for each feature. For example, the number of users who are available, and channels and queues that are configured in the organization.
 
@@ -105,7 +117,7 @@ You can manage the following features in **Support experience**:
 
 You can manage the following features in **Operations**:
 
-- **Insights**: Historical analytics for Customer Service and Dynamics 365 Contact Center, AI feature settings for cases and conversations, real-time translation and machine-learning models for skills, and skill-based and sentiment-based routing setup.
+- **Insights**: Historical analytics for Customer Service and Dynamics 365 Contact Center. Configure AI features for cases and conversations, including translation, skills models, and routing.
 - **Calendar**: Operating hours, Customer Service calendar, and holiday calendar.
 - **Service terms**: Service-level agreements (SLAs), SLA KPIs, and entitlements.
 - **Service scheduling**: Organizational units, facilities and equipment, resources, service scheduling, business closure, fulfillment preferences, and resource categories.

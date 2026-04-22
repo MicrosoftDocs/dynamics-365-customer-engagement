@@ -4,7 +4,7 @@ description: Learn how to use AI-generated optional suggestions for fields in Cu
 author: neeranelli
 ms.author: nenellim
 ms.topic: overview
-ms.date: 04/16/2026
+ms.date: 04/21/2026
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---

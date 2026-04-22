@@ -2,7 +2,7 @@
 title: Visualize data as charts with Copilot in Dynamics 365 Sales (preview)
 description: Learn how to visualize your data in a view as a chart using Copilot in Dynamics 365 Sales.
 ms.topic: overview
-ms.date: 04/06/2026
+ms.date: 04/15/2026
 ms.update-cycle: 180-days
 author: lavanyakr01
 ms.author: lavanyakr

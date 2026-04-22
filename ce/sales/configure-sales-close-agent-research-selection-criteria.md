@@ -1,7 +1,7 @@
 ---
 title: Configure selection criteria for Sales Opportunity Agent
 description: Add conditions to filter opportunities for the Sales Opportunity Agent to focus on.
-ms.date: 03/30/2026
+ms.date: 04/17/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -42,6 +42,15 @@ Add conditions to filter opportunities for the Sales Opportunity Agent to focus 
 
     A sample list of matched opportunities appears along with total matching opportunities. Review the sample to ensure the criteria are correctly set to capture the right opportunities for the agent to research. You can adjust the filter conditions and preview again until you're satisfied with the results.
 
+## Selection criteria for multiple agent instances
+
+When you configure selection criteria for multiple agent instances, each agent instance must have its own selection criteria to determine which opportunities it processes. Keep the following points in mind when configuring selection criteria for multiple instances:
+
+- **Minimize overlap**: Define criteria that avoid overlap between instances to prevent conflicts in opportunity processing.
+- **Instance priority**: When multiple instances match the same opportunity, the instance with the earliest agent start time takes precedence.
+- **Opportunity ownership**: Once an agent instance picks an opportunity, the opportunity stays associated with that instance throughout its lifecycle. Other instances don't reprocess it.
+- **No overlap alerts**: You might not receive alerts for overlapping selection criteria, so carefully plan criteria for each instance to ensure they target distinct segments of opportunities.  
+
 ## How the agent prioritizes records
 
 Selection criteria help the agent pick the records to research. The agent also prioritizes which records to process first based on factors like opportunity value, estimated close date, and research freshness. This prioritization ensures that the agent researches the most important and relevant opportunities first and surfaces the most effective insights to sellers.
@@ -69,7 +78,8 @@ The following considerations apply to how the system prioritizes records for res
 - Each research cycle has a fixed processing capacity based on your configured refresh frequency. 
 - If more records are eligible than the system can process in a single cycle, it prioritizes and processes only the highest-priority opportunities.
 - If your selection criteria exceed the current cycle's capacity, the selection criteria preview shows a warning message.
-- Unprocessed records remain eligible and the system can pick them up in subsequent cycles as it recalculates priorities.
+- Unprocessed records remain eligible, and the system can pick them up in subsequent cycles as it recalculates priorities.
+
 
 ## Next step
 
