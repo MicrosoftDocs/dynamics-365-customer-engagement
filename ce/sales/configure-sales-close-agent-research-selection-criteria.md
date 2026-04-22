@@ -80,7 +80,6 @@ The following considerations apply to how the system prioritizes records for res
 - If your selection criteria exceed the current cycle's capacity, the selection criteria preview shows a warning message.
 - Unprocessed records remain eligible, and the system can pick them up in subsequent cycles as it recalculates priorities.
 
-
 ## Next step
 
 [Configure refresh frequency](configure-sales-close-agent-research-refresh-frequency.md).
