@@ -1,7 +1,7 @@
 ---
 title: AI agents in Dynamics 365 Sales
 description: Learn about the out-of-the-box AI agents in Dynamics 365 Sales that help sales teams qualify leads and close deals faster.
-ms.date: 01/29/2026
+ms.date: 05/01/2026
 ms.update-cycle: 90-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
@@ -37,10 +37,12 @@ AI agents in Dynamics 365 Sales are available in geographical regions and langua
 
 You can monitor the performance of the Sales Qualification Agent and Sales Close Agent using the Agent insights dashboard. Learn more in [Monitor leads handled by the Sales Qualification Agent](monitor-leads-by-sales-qualification-agent.md) and [View Sales Close Agent engage mode insights and metrics](view-sales-close-agent-engage-insights-metrics.md). 
 
+## Manage AI agents across environments
 
+AI agents are deployed in sandbox or test environments before being deployed in production. This allows environments to test and validate the agents' performance and behavior before they are used in a live environment to avoid any potential disruptions to business operations. Learn how to manage AI agents across environments in [Import an agent into a target environment](import-export-agent-solutions.md).
 
 ## FAQs about sales AI agents
 
 - [FAQs about Sales Qualification Agent](sales-qualification-agent-faq.md)
-- [FAQs about Sales Opportunity Agent (preview)](opportunity-research-agent-faqs.md)
+- [FAQs about Sales Opportunity Agent](opportunity-research-agent-faqs.md)
 - [FAQs about Sales Research Agent (preview)](faqs-sales-research-agent.md)

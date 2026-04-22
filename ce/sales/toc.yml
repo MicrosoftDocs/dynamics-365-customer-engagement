@@ -268,6 +268,8 @@ items:
                 href: sales-research-agent.md
               - name: Set up and configure Sales Research Agent
                 href: configure-sales-research-agent.md
+          - name: Import an agent into a target environment
+            href: import-export-agent-solutions.md
           - name: Manage consumption-based billing
             href: copilot-consumption-based-billing.md
           - name: Copilot Studio agents and Entra app registrations
