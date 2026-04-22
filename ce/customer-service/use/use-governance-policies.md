@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-feature-availability-cs-only](../../includes/cc-feature-availability-cs-only.md)]
 
-Create and enforce policies to prevent noncompliant customer communications. Governance policy checks evaluate AI-generated emails before sending, ensuring compliance with business, legal, and regulatory standards. Failed responses are blocked, and violations are surfaced for review and improvement.
+Use governance policies to evaluate AI-generated email responses before sending. These policies help enforce business, legal, and regulatory requirements. If a response violates a policy, the system blocks it and logs the violation for review.
 
 
 > [!IMPORTANT]
@@ -26,10 +26,10 @@ Create and enforce policies to prevent noncompliant customer communications. Gov
 
 ## Prerequisites
 
-- The CSR Manager role.
-- Set up [Microsoft Copilot credits](../administer/setup-pay-as-you-go.md#set-up-pay-as-you-go)
-- Provide consent for potential [data movement across regions](/power-platform/admin/geographical-availability-copilot?utm_source=chatgpt.com&tabs=new).
-- Enable AI agents for your Dynamics 365 environment in Power platform admin center. Learn more in [Copilot adoption in the Power Platform](/power-platform/admin/copilot/copilot-hub).
+- You have the CSR Manager role.
+- You set up [Microsoft Copilot credits](../administer/setup-pay-as-you-go.md#set-up-pay-as-you-go).
+- You provided consent for potential [data movement across regions](/power-platform/admin/geographical-availability-copilot?utm_source=chatgpt.com&tabs=new).
+- You enabled AI agents for your Dynamics 365 environment in Power platform admin center. Learn more in [Copilot adoption in the Power Platform](/power-platform/admin/copilot/copilot-hub).
 
 ## Enable governance policies
 
@@ -47,11 +47,11 @@ Create and enforce policies to prevent noncompliant customer communications. Gov
     1. **Conditions for content**: Add conditions to select a subset of emails that meet the conditions. If you don’t select any conditions, all emails are run through for the check.
 1. Save and publish.
 
-You must review the generated prompt. If you want to make changes, update the instructions to refine prompt. Microsoft Copilot credits are consumed each time a prompt is generated.
+You must review the generated prompt before you publish the policy. To refine the policy behavior, update the prompt instructions. Each prompt generation consumes Microsoft Copilot credits.
 
 ## Manage policies
 
-You can deactivate a policy by selecting **Upublish**, delete a policy, or run a simulation for a policy.
+You can deactivate a policy by selecting **Unpublish**, delete a policy, or run a simulation for a policy.
 
 ## Run a simulation
 
@@ -70,7 +70,7 @@ You can view the results under the **Simulation result** tab. You can **View** o
 
 ## View detection log
 
-You can view logs under the **Policy flags/blocks log** tab on the **Governance** page. You can also delete or refresh the logs as required.
+View logs on the **Policy flags/blocks log** tab on the **Governance** page. You can delete or refresh the logs as needed.
 
 ## Related information
 
