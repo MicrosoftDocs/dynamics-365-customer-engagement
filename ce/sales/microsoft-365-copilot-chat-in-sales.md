@@ -5,9 +5,9 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: overview
-ms.date: 04/03/2026
+ms.date: 04/15/2026
 ms.collection: bap-ai-copilot
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ---
 
 # Use Microsoft 365 Copilot in Dynamics 365 Sales (preview)

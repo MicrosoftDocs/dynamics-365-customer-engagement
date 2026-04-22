@@ -2,7 +2,7 @@
 title: MCP tools for Copilot in Dynamics 365 Sales
 description: Learn about the tools available in the Sales MCP server that support the Copilot capabilities in Dynamics 365 Sales.
 ms.date: 02/27/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs

@@ -2,7 +2,7 @@
 title: View Sales Opportunity Agent insights and metrics
 description: Learn how to view insights and metrics for the Sales Opportunity Agent, including key performance indicators and engagement statistics.
 ms.date: 11/21/2025
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

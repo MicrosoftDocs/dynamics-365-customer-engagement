@@ -2,7 +2,7 @@
 title: Configure handoff criteria for the Sales Qualification Agent
 description: Configure target customer profile, budget, authority, need, and timeline criteria for the Sales Qualification Agent to effectively qualify leads.
 ms.date: 08/01/2025
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

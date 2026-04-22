@@ -60,8 +60,6 @@ items:
           href: users-licenses-permissions.md
         - name: Security roles and column-level security profiles
           href: security-permissions.md
-    - name: Territories
-      href: set-up-territories.md
     - name: Location and map settings
       href: field-service-maps-address-locations.md
     - name: Postal codes
@@ -141,6 +139,18 @@ items:
       items:
         - name: AI agents overview
           href: ai-agents-overview.md
+        - name: Scheduling Operations Agent (preview)
+          items:
+            - name: Overview
+              href: soa-overview.md
+            - name: Set up the Scheduling Operations Agent
+              href: soa-setup.md
+            - name: Use the Scheduling Operations Agent
+              href: soa-run.md
+            - name: Improve the Scheduling Operations Agent's suggestions
+              href: soa-tips.md
+            - name: Scheduling Operations Agent FAQ
+              href: faqs-soa.md
 
 - name: Work orders
   items:
@@ -197,20 +207,12 @@ items:
         - name: Property logs
           href: property-logs.md
 
-- name: Frontline workers + bookable resources
+- name: Frontline workers
   items:
     - name: Set up frontline workers
       href: frontline-worker-set-up.md
     - name: Email for frontline workers
       href: frontline-worker-set-up-email-approval.md
-    - name: Create bookable resources
-      href: set-up-bookable-resources.md
-    - name: Apply a calendar to a bookable resource
-      href: calendar-resource.md
-    - name: Bookable resource categories
-      href: set-up-bookable-resource-categories.md
-    - name: Characteristics
-      href: set-up-characteristics.md
     - name: Resource pay types
       href: set-up-resource-pay-types.md
     - name: Submit and approve time-off requests
@@ -237,92 +239,126 @@ items:
   items:
   - name: Universal Resource Scheduling for Field Service overview
     href: universal-resource-scheduling-for-field-service.md
-  - name: Scheduling Operations Agent (preview)
+  - name: Resources and requirements
     items:
-      - name: Overview
-        href: soa-overview.md
-      - name: Set up the Scheduling Operations Agent
-        href: soa-setup.md
-      - name: Use the Scheduling Operations Agent
-        href: soa-run.md
-      - name: Improve the Scheduling Operations Agent's suggestions
-        href: soa-tips.md
-      - name: Scheduling Operations Agent FAQ
-        href: faqs-soa.md
-  - name: Schedule board
+    - name: Resources
+      items:
+      - name: Resource types
+        href: scheduling-resource-types.md
+      - name: Create bookable resources
+        href: set-up-bookable-resources.md
+      - name: Apply a calendar to a bookable resource
+        href: calendar-resource.md
+      - name: Travel time and distance
+        href: schedule-with-travel-time.md
+      - name: Geocoding for travel time
+        href: turn-on-auto-geocoding.md
+    - name: Requirements
+      items:
+      - name: Requirement types
+        href: scheduling-requirement-types.md
+      - name: Work locations
+        href: scheduling-requirement-locations.md
+      - name: Time constraints and promise windows
+        href: schedule-time-constraints.md
+      - name: Time zones
+        href: schedule-timezone-agnostic.md
+      - name: Fulfillment preferences
+        href: set-up-time-groups.md
+      - name: Include appointments in scheduling
+        href: appointment-scheduling.md
+    - name: Constraints
+      items:
+      - name: Characteristics
+        href: set-up-characteristics.md
+      - name: Bookable resource categories
+        href: set-up-bookable-resource-categories.md
+      - name: Territories
+        href: set-up-territories.md
+      - name: Preferred resources
+        href: resource-preferences.md
+  - name: Scheduling actions
     items:
+    - name: Schedule board
+      items:
       - name: Use the schedule board
         href: work-with-schedule-board.md
+      - name: Filtering resources and requirements
+        href: schedule-board-filtering.md
+      - name: Drag and drop scheduling
+        href: schedule-board-drag-drop.md
+      - name: Manual scheduling
+        href: schedule-board-manual-scheduling.md
+      - name: Review resource utilization
+        href: schedule-board-utilization.md
+    - name: Schedule assistant
+      items:
+      - name: Schedule assistant overview
+        href: schedule-assistant.md
+      - name: Launch with the Book button
+        href: schedule-assistant-book-button.md
+      - name: Quick scheduling
+        href: quick-scheduling.md
+      - name: Advanced filters
+        href: schedule-assistant-advanced-filters.md
+    - name: Booking states and statuses
+      items:
+      - name: Booking and requirement status relationship
+        href: booking-requirement-status-relationship.md
+      - name: Booking statuses
+        href: set-up-booking-statuses.md
+      - name: Booking timestamps and journals
+        href: booking-timestamps.md
+  - name: Admin, configuration, and customization
+    items:
+    - name: Enable an entity for scheduling
+      href: schedule-new-entity.md
+    - name: Booking rules
+      href: set-up-booking-rules.md
+    - name: Scheduling parameters (Settings)
+      href: scheduling-parameters-settings.md
+    - name: Schedule board configuration
+      items:
       - name: Configure schedule board settings
         href: schedule-board-tab-settings.md
       - name: Manage booking alerts
         href: booking-alert.md
-      - name: Review resource utilization
-        href: schedule-board-utilization.md
-      - name: Customize the schedule board
-        items:
-        - name: Use custom fields on the schedule board
-          href: extend-schedule-board-custom-resource-attribute.md
-        - name: Create custom booking templates
-          href: booking-template.md
-        - name: Show account names on booking details
-          href: account-names-booking-details.md
-  - name: Scheduling assistant
-    items:
-      - name: Schedule assistant overview
-        href: schedule-assistant.md
-      - name: Travel time and distance
-        href: schedule-with-travel-time.md
-      - name: Time constraints
-        href: schedule-time-constraints.md
-      - name: Time zones
-        href: schedule-timezone-agnostic.md
-      - name: Preferred resources
-        href: resource-preferences.md
-      - name: Quick scheduling
-        href: quick-scheduling.md
-      - name: Multi-resource
-        href: multi-resource-scheduling-requirement-groups.md
-      - name: Multi-day
-        href: schedule-multi-day-work.md
-      - name: Crews
-        href: resource-crews.md
-      - name: Pools
-        href: resource-pools.md
-      - name: Facilities
-        items:
-         - name: Schedule a facility
-           href: facility-scheduling.md
-         - name: Facility scheduling examples
-           href: facility-scheduling-examples.md
-      - name: Advanced filters
-        href: schedule-assistant-advanced-filters.md
+      - name: Use custom fields on the schedule board
+        href: extend-schedule-board-custom-resource-attribute.md
+      - name: Create custom booking templates
+        href: booking-template.md
+      - name: Show account names on booking details
+        href: account-names-booking-details.md
+    - name: Schedule Assistant APIs
+      items:
       - name: Search resource availability API
         href: search-resource-availability-api.md
       - name: Search resource availability for requirement groups API
         href: search-resource-availability-requirement-groups-api.md
-  - name: Administration and configuration
+    - name: Edit work hours calendar with APIs
+      href: field-service-work-hours-calendar-api.md
+    - name: Health diagnostics tool
+      href: health-diagnostics-tool.md
+  - name: Scheduling scenarios
     items:
-      - name: Enable an entity for scheduling
-        href: schedule-new-entity.md
-      - name: Geocoding for travel time
-        href: turn-on-auto-geocoding.md
-      - name: Booking statuses
-        href: set-up-booking-statuses.md
-      - name: Booking timestamps + journals
-        href: booking-timestamps.md
-      - name: Include appointments in scheduling
-        href: appointment-scheduling.md
-      - name: Fulfillment preferences
-        href: set-up-time-groups.md
-      - name: Booking rules
-        href: set-up-booking-rules.md
-      - name: Edit work hours calendar with APIs
-        href: field-service-work-hours-calendar-api.md
-      - name: Scheduling parameters (Settings)
-        href: scheduling-parameters-settings.md
-      - name: Health diagnostics tool
-        href: health-diagnostics-tool.md
+    - name: Standard work order
+      href: scenario-normal-scheduling.md
+    - name: Multi-day
+      href: schedule-multi-day-work.md
+    - name: Facilities
+      items:
+      - name: Schedule a facility
+        href: facility-scheduling.md
+      - name: Facility scheduling examples
+        href: facility-scheduling-examples.md
+    - name: Crews
+      href: resource-crews.md
+    - name: Pools
+      href: resource-pools.md
+    - name: Multi-resource (requirement groups)
+      href: multi-resource-scheduling-requirement-groups.md
+    - name: Location-agnostic (remote work)
+      href: scenario-location-agnostic.md
 
 - name: Mobile app
   items:
