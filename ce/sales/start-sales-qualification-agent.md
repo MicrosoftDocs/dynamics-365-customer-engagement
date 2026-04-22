@@ -3,7 +3,7 @@ title: Start the Sales Qualification Agent
 description: Learn how to start the sales qualification settings in Dynamics 365 Sales.
 ms.topic: how-to 
 ms.date: 02/04/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.service: dynamics-365-sales
 ms.custom: bap-template
 author: lavanyakr01

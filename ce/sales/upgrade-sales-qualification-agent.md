@@ -2,7 +2,7 @@
 title: Upgrade your Sales Qualification Agent
 description: Learn how to upgrade your Sales Qualification Agent in Dynamics 365 Sales to the latest version or extend its capabilities.
 ms.date: 07/31/2025
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
