@@ -105,6 +105,6 @@ After you import the solution, the agent is in draft state. Configure environmen
     1. Verify that all configured knowledge sources are available. If any knowledge source is missing or not correctly configured, update it to ensure the agent has access to the necessary information.
 1. **Activate the agent**. After updating the environment‑specific settings, save and start the agent.
 
-## Relted information
+## Related information
 
 [AI agents in Dynamics 365 Sales](ai-agent-overview.md)
