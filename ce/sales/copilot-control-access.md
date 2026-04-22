@@ -2,7 +2,7 @@
 title: Control access to Copilot in Dynamics 365 Sales
 description: Learn how to control access to Copilot in Dynamics 365 Sales to manage who can use AI features and improve sales productivity.
 ms.date: 03/10/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs

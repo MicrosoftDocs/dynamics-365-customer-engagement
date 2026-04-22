@@ -2,7 +2,7 @@
 title: FAQs about Sales Qualification Agent
 description: Find answers to frequently asked questions about the Sales Qualification Agent in Dynamics 365 Sales.
 ms.date: 03/06/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: faq
 ms.service: dynamics-365-sales
 ms.custom: bap-template

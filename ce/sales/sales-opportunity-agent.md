@@ -2,7 +2,7 @@
 title: Sales Opportunity Agent overview
 description: Discover how Sales Opportunity Agent in Dynamics 365 Sales helps sales professionals manage deals effectively with AI-powered insights, risk detection, and deal prioritization.
 ms.date: 11/07/2025
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
