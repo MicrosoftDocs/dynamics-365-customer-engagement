@@ -13,6 +13,8 @@ ms.custom: bap-template
 
 # Use governance policies (preview)
 
+[!INCLUDE [cc-feature-availability-cs-only](../../includes/cc-feature-availability-cs-only.md)]
+
 Create and enforce policies to prevent noncompliant customer communications. Governance policy checks evaluate AI-generated emails before sending, ensuring compliance with business, legal, and regulatory standards. Failed responses are blocked, and violations are surfaced for review and improvement.
 
 
@@ -25,7 +27,7 @@ Create and enforce policies to prevent noncompliant customer communications. Gov
 ## Prerequisites
 
 - The CSR Manager role.
-- Set up [Microsoft Copilot credits](setup-pay-as-you-go.md#set-up-pay-as-you-go).
+- Set up [Microsoft Copilot credits](setup-pay-as-you-go.md).
 - Provide consent for potential [data movement across regions](/power-platform/admin/geographical-availability-copilot?utm_source=chatgpt.com&tabs=new).
 - Enable AI agents for your Dynamics 365 environment in Power platform admin center. Learn more in [Copilot adoption in the Power Platform](/power-platform/admin/copilot/copilot-hub).
 
