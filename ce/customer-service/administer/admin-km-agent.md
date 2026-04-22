@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 04/02/2026
+ms.date: 04/22/2026
 ms.custom: bap-template
 ---
 
@@ -272,9 +272,14 @@ You can map which record types and data fields are used for each element. You ca
 
 ## Generate knowledge drafts from cases
 
-Generate a knowledge draft while you are resolving a case or after you have resolved the case. Learn more in [Use Copilot to generate knowledge drafts from cases (preview)](../use/use-copilot-knowledge-from-cases.md#use-copilot-to-generate-knowledge-drafts-from-cases-preview).
+Let representatives generate a knowledge draft in a specific template and language, while they are resolving a case or after they have resolved the case.
 
+In the **Case-based knowledge creation** section, select the following checkboxes:
 
+- **Let agents use Copilot to propose new knowledge based on case information during or after case resolution**
+    - **In the case resolution step, keep the option to propose a knowledge article selected by default** 
+
+Representatives will now be able to [use Copilot to generate knowledge drafts from cases (preview)](../use/use-copilot-knowledge-from-cases.md#use-copilot-to-generate-knowledge-drafts-from-cases-preview).
 
 ## Configure automatic article updates (preview)
 
