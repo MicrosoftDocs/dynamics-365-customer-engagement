@@ -36,20 +36,24 @@ Perform the following steps:
 
 1. Select **OK**.
 
-## Add the sensitivity label column to the email form
+## Add the sensitivity label column to email form
+
+To display sensitivity labels in emails, add the **Sensitivity label** column and control to the email form in Power Apps.
 
 Perform the following steps:
 
 1. Go to [Power Apps](https://make.powerapps.com).
 1. Select the environment.
-1. In the navigation pane, select **Tables**.
-1. Select the **Email** table.
+1. In the navigation pane, select **Solutions**.
+1. Open **Default Solution**.
+1. Select **Table**, and then select the **Email** table.
 1. Select **Forms**, and then open the main email form.
 1. In the form designer, select **Columns**.
-1. Search for **Sensitivity label** column.
+1. Search for **Sensitivity label**.
 1. Drag the **Sensitivity label** column onto the form canvas.
-1. On the properties pane, select **Component** > **More components**.   
-1. Select **Email sensitivity label control**, and then select **Add**.
+1. Select the **Sensitivity label** column on the form.
+1. In the properties pane, select **Component** > **More components**.   
+1. Search for and select **Email sensitivity label control**, and then select **Add**.
    
    :::image type="content" source="../media/email-sensitivity-label-control.png" alt-text="Screenshot of the email sensitivity label control properties.":::
    
