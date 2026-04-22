@@ -24,6 +24,7 @@ Ensure that you meet the following prerequisites:
 - You have admin privileges in Dynamics 365 Sales.
 - If you have custom fields that you want the agent to enrich, ensure that these fields have a meaningful name and description to help the agent understand their purpose and provide accurate suggestions.
 
+<a name="set-up-data-enrichment"></a>
 ## Set up and configure AI-powered Data Enrichment
 
 1. From the Sales Hub app, navigate to **App Settings**.

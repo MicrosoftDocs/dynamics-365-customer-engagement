@@ -26,6 +26,7 @@ After you [create the AI-powered Data Enrichment agent](data-enrichment-agent-co
 
 In the **Agent profile** section of the [Data Enrichment settings](#open-settings), specify the name and description for the agent. This name helps identify the agent in the list of AI agents.
 
+<a name="configure-user-access"></a>
 ## Configure user access
 
 In the **User access** section of the [Data Enrichment settings](#open-settings), specify which sellers can access Data Enrichment suggestions. Data Enrichment analyzes opportunities owned only by sellers selected in this section. These sellers also get access to the data enrichment suggestions for all opportunities that they have read and write access to.
@@ -41,6 +42,7 @@ In the **Record selection** section of the [Data Enrichment settings](#open-sett
 
 The record selection criteria are applied in addition to the user access criteria defined in the previous section. For example, if you select specific seller groups in the user access settings and set a filter for opportunities created within a certain date range, only the opportunities that meet both criteria will be analyzed and enriched by the agent.
 
+<a name="configure-agent-behavior"></a>
 ## Configure agent behavior
 
 In the **Agent behavior** section of the [Data Enrichment settings](#open-settings), choose how Data Enrichment should handle updates:
@@ -50,6 +52,7 @@ In the **Agent behavior** section of the [Data Enrichment settings](#open-settin
 - **Enrichment frequency**: Indicates how often Data Enrichment applies updates automatically. The agent analyzes emails and generates suggestions every 4 hours. For manual updates, sellers can review suggestions as soon as they're generated. For automatic updates, changes are applied based on the enrichment frequency, which is set to **Daily** by default. This setting is informational and can't be changed.
 - **Data sources**: Shows the data sources that Data Enrichment will use to analyze and enrich opportunity records. It currently uses email interactions in your Microsoft 365 mailbox to gather context about opportunities and suggest updates. This field is informational and cannot be changed.
 
+<a name="start-agent"></a>
 ## Start or stop the agent
 
 After configuring the settings, select **Apply changes** and then **Start agent** to activate Data Enrichment with your specified configuration. You can stop the agent at any time by selecting **Stop agent** on the settings page. When the agent is stopped, it won't analyze records or generate suggestions.
