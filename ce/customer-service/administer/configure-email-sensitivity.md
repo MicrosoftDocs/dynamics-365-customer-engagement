@@ -26,28 +26,29 @@ Before you add sensitivity labels to the email form, enable email data sensitivi
 
 Perform the following steps:
 
-1. In **Copilot Service admin center**, select **Settings** (gear icon), and then select **Advanced Settings**.
-1. In **Power Platform**, select **Email Configuration**, and then select **Email settings**.
-1. On the **System Settings** page, select the **Email** tab. 
-1. In the **Set email data sensitivity** section, select the **Enable data sensitivity labels for emails** checkbox.
+1. Go to **Copilot Service admin center**.
+1. Select **Settings** (gear icon), and then select **Advanced Settings**.
+1. Go to **Email Configuration** > **Email settings**.
+1. On the **System Settings** page, select the **Email** tab.
+1. In the **Email data sensitivity** section, select **Enable data sensitivity labels for emails**.
 
-      :::image type="content" source="../media/enable-data-sensitivity-labels-emails.png" alt-text="Screenshot of the Enable data sensitivity labels for emails checkbox on the System Settings page.":::
+   :::image type="content" source="../media/enable-data-sensitivity-labels-emails.png" alt-text="Screenshot of the Enable data sensitivity labels for emails checkbox on the System Settings page.":::
 
 1. Select **OK**.
 
-## Enable sensitivity labels on email form
+## Add the sensitivity label column to the email form
 
 Perform the following steps:
 
-1. In **Copilot Service admin center**, select **Settings** (gear icon), and then select **Advanced settings**.
-1. In the **Power Platform** sitemap, select **Email Configuration**.
-1. On the **Email Configuration** page, select **Email settings**.
-1. In the site map, go to **Customization** > **Solutions**.
-1. Select **Default Solution**.
-1. In the search box, search for **Email**.
-1. Expand **Email** in the left pane, and then select **Forms**.
-1. Select the **Sensitivity Label** form.
-1. On the properties pane, select **Component** > **Get more components**.   
+1. Go to [Power Apps](https://make.powerapps.com).
+1. Select the environment.
+1. In the navigation pane, select **Tables**.
+1. Select the **Email** table.
+1. Select **Forms**, and then open the main email form.
+1. In the form designer, select **Columns**.
+1. Search for **Sensitivity label** column.
+1. Drag the **Sensitivity label** column onto the form canvas.
+1. On the properties pane, select **Component** > **More components**.   
 1. Select **Email sensitivity label control**, and then select **Add**.
    
    :::image type="content" source="../media/email-sensitivity-label-control.png" alt-text="Screenshot of the email sensitivity label control properties.":::
