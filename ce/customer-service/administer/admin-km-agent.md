@@ -272,7 +272,7 @@ You can map which record types and data fields are used for each element. You ca
 
 ## Generate knowledge drafts from cases
 
-Let representatives generate a knowledge draft in a specific template and language, while they're resolving a case or after they've resolved the case. If you don't select a template, Copilot generates a draft using the default template with sections for title, issue, cause, and resolution in a rich text editor.
+Let representatives generate a knowledge draft in a specific template and language in Copilot Service workspace, while they're resolving a case or after they've resolved the case. If representatives don't select a template, Copilot generates a draft using the default template with sections for title, issue, cause, and resolution in a rich text editor.
 
 In the **Case-based knowledge creation** section, select the following checkboxes:
 
