@@ -3,7 +3,7 @@ title: Configure requirements for Sales Qualification Agent
 description: Learn how to configure the requirements for the Research-only and Research and engage modes of the Sales Qualification Agent in Dynamics 365 Sales.
 ms.topic: how-to
 ms.date: 07/31/2025
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.service: dynamics-365-sales
 ms.custom: bap-template
 author: udaykirang

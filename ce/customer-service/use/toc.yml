@@ -216,7 +216,7 @@
             href: admin-km-agent-review.md
           - name: Use knowledge insights for Customer Knowledge Management Agent
             href: admin-km-agent-insights.md
-        - name: Quality Evaluation Agent
+        - name: Quality Management
           items:
           - name: Use evaluation criteria
             href: /dynamics365/contact-center/use/evaluation-criteria?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
@@ -226,6 +226,8 @@
             href: /dynamics365/contact-center/use/on-demand-evaluation?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
           - name: Use evaluations
             href: /dynamics365/contact-center/use/use-evaluations?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Use governance policies (preview)
+            href: use-governance-policies.md
       - name: Chat and Channels
         items:
         - name: Know the agent interface in Omnichannel for Customer Service
