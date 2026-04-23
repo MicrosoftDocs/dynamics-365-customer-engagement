@@ -20,7 +20,7 @@ Copilot Hub (Copilot immersive) is an AI-powered workspace that helps customer s
 
 ## Prerequisites
 
-- You have the Dynamics 365 Customer Service Enterprise or Premium role. 
+- You have the Dynamics 365 Customer Service Enterprise or Premium license. 
 - Your organization is in a Dynamics 365 Customer Service-supported region.
 
 ## Enable the Copilot immersive experience
@@ -42,7 +42,7 @@ You must enable Copilot Hub at both the environment level and the experience pro
 4. Turn on **Copilot immersive**.
 5. Select **Save and close**.
 
-All users assigned to the experience profile can access Copilot hub.
+All users assigned to the experience profile can access Copilot Hub.
 
 ## Copilot help pane and Copilot immersive
 
