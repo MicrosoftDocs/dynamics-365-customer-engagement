@@ -296,6 +296,8 @@ items:
             href: enable-copilot-email-assist.md
           - name: Customize Copilot in Dynamics 365 Sales
             href: extend-copilot-chat.md
+          - name: Use Sales agent in Microsoft 365
+            href: /microsoft-sales-copilot/use-sales-chat?context=/dynamics365/context/sales-context
           - name: Copilot in Dynamics 365 Sales FAQ
             href: sales-copilot-faq.md
           - name: Configure zero prompt experience
