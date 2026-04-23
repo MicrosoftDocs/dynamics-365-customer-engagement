@@ -125,4 +125,4 @@ To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-do
 ## Related information
 
 - [Configure Copilot Hub](../administer/configure-copilot-hub.md)
-- [Copilot Hub FAQ](copilot-hub-faq)
+- [Copilot Hub FAQ](copilot-hub-faq.md)
