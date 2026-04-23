@@ -78,5 +78,5 @@ Copilot Hub supports languages available in Dynamics 365 Customer Service. Quali
 ## Related information
 
 - [Use Copilot Hub](../use/use-copilot-hub.md)
-- [Copilot Hub FAQ](copilot-hub-faq.md)
+- [Copilot Hub FAQ](../use/copilot-hub-faq.md)
 
