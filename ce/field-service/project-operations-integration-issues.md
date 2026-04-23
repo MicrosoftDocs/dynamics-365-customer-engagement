@@ -2,7 +2,7 @@
 title: Known issues and limitations
 ms.reviewer: wesmith
 description: Learn about the known issues and limitations with the Field Service and Project Operations integration.
-ms.date: 01/29/2026
+ms.date: 04/23/2026
 ms.topic: article
 author: vhorvathms
 ms.author: vhorvath
