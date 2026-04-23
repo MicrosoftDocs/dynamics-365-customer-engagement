@@ -1,6 +1,6 @@
 ---
 title: Use Copilot Hub (preview)
-description: Learn how to use Copilot Hub to manage your workload, ask questions, and get assistance on cases.
+description: Learn how to use Copilot Hub in Dynamics 365 Customer Service to manage your workload, ask questions, and get assistance on cases.
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -40,7 +40,7 @@ When you open Copilot Hub without selecting a case, your workload appears.
 
 Your workload:
 - Shows a prioritized list of assigned cases  
-- Evaluates cases using factors such as escalation risk, sentiment, and SLA compliance
+- Evaluates cases using factors such as escalation risk, sentiment, and service level agreement (SLA) compliance
 
 The cases that appear depend on the workload prompt assigned to your experience profile. Copilot evaluates each case using factors like escalation risk, sentiment, SLA compliance, and completeness. Copilot sorts the cases and displays highest priority cases first.
 
@@ -84,7 +84,7 @@ With case assistance, you can do the following tasks:
 
 - **Ask questions about the case**: Ask Copilot about the case history, customer context, related communications, or SLA status, and get answers that Copilot takes from the cases data.
 - **Ask follow-up questions**: Continue to work with Copilot to refine the answers. You can ask follow-up questions to guide it in a natural, conversational way.
-- **Review and edit proposed actions**: When Copilot suggests and action that would modify data-such as updating case status or adding a note-it presents the details in an adaptive care. You can edit the proposed action, and then approve or dismiss it.  
+- **Review and edit proposed actions**: When Copilot suggests an action that would modify data-such as updating case status or adding a note-it presents the details in an adaptive care. You can edit the proposed action, and then approve or dismiss it.  
 
 Copilot doesn't make changes without your approval.
 
@@ -117,7 +117,7 @@ Copilot automatically retrieves information to build context, but any action tha
 1. Review the proposed action.
 2. Optionally edit the details.
 3. Approve to run the action, or dismiss it.
-If you dismiss the action, you can provide additional guidance and ask Copilot to propose an alternative.
+If you dismiss the action, you can provide more guidance and ask Copilot to propose an alternative.
 
 ## Provide feedback
 To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon at the bottom of each response. You can also provide written feedback through the feedback form in the Copilot experience.
