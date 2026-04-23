@@ -36,7 +36,7 @@ Dynamics 365 Customer Service Enterprise or Premium.
 
 ### Why can't I view Copilot Hub?
 
-To view Copilot Hub in your enviornment, confirm that your setup is as follows:
+To view Copilot Hub in your environment, confirm that your setup is as follows:
 
 - Copilot Immersive is enabled in Customer Service admin center under **Productivity** > **Copilot settings**.  
 - **Copilot help pane** is enabled in your experience profile.   
