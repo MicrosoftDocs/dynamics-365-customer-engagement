@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-feature-availability-cs-only](../../includes/cc-feature-availability-cs-only.md)]
 
-Use governance policies to evaluate AI-generated email responses before sending. These policies help enforce business, legal, and regulatory requirements. If a response violates a policy, the system blocks it and logs the violation for review.
+Use governance policies to evaluate AI-generated email responses before sending. These policies help enforce compliance with business, legal, and regulatory requirements. If a response violates a policy, the system blocks it and logs the violation for review.
 
 
 > [!IMPORTANT]
@@ -47,7 +47,7 @@ Use governance policies to evaluate AI-generated email responses before sending.
     1. **Conditions for content**: Add conditions to select a subset of emails that meet the conditions. If you don’t select any conditions, the system evaluates all emails in the check.
 1. Save and publish.
 
-You must review the generated prompt before you publish the policy. To refine the policy behavior, update the prompt instructions. Each prompt generation consumes Microsoft Copilot credits.
+You must review the generated prompt. To refine the policy behavior, update the prompt instructions. Each prompt generation consumes Microsoft Copilot credits.
 
 ## Manage policies
 
