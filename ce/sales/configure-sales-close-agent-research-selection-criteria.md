@@ -2,7 +2,7 @@
 title: Configure selection criteria for Sales Opportunity Agent
 description: Add conditions to filter opportunities for the Sales Opportunity Agent to focus on.
 ms.date: 04/17/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -79,7 +79,6 @@ The following considerations apply to how the system prioritizes records for res
 - If more records are eligible than the system can process in a single cycle, it prioritizes and processes only the highest-priority opportunities.
 - If your selection criteria exceed the current cycle's capacity, the selection criteria preview shows a warning message.
 - Unprocessed records remain eligible, and the system can pick them up in subsequent cycles as it recalculates priorities.
-
 
 ## Next step
 

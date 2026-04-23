@@ -1,18 +1,18 @@
 ---
-title: Schedule work with multiple requirements using requirement groups
-description: Learn about multi-resource scheduling with requirement groups in Dynamics 365 Field Service.
-ms.date: 11/19/2025
-ms.topic: how-to
+title: Schedule multiple resources with requirement groups
+description: Learn how to use requirement groups to schedule multiple resources for a single job in Dynamics 365 Field Service.
+ms.date: 03/30/2026
 ms.custom: bap-template
+ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
 ---
 
-# Schedule work with multiple requirements using requirement group
+# Schedule multiple resources with requirement groups
 
 [!INCLUDE[multi-resource](../shared/urs/multi-resource-scheduling.md)]
 
-## Requirement groups for field service scenarios
+## Requirement groups for Field Service scenarios
 
 Requirement group templates work with [incident types](configure-incident-types.md). When you associate a requirement group template with an incident type, you automatically add requirement groups to work orders. Requirement groups can affect how quickly you can create work orders and work order incidents. The number of requirements in a requirement group determines the level of impact.
 
@@ -33,5 +33,12 @@ You can now book the work order.
 
 > [!NOTE]
 > When requirement groups perform onsite work, the schedule assistant looks for groups of resources that can arrive at the same time, not resources that can begin traveling at the same time.
+
+## Related scenarios
+
+- [Schedule a standard work order](scenario-normal-scheduling.md)
+- [Schedule crews](resource-crews.md)
+- [Schedule work over multiple days](schedule-multi-day-work.md)
+- [Schedule a facility](facility-scheduling.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

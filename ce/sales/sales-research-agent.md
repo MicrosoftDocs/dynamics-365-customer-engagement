@@ -3,7 +3,7 @@ title: Sales Research Agent overview
 description: Learn how to use the Sales Research Agent in Dynamics 365 Sales to get insights about your customers, prospects, sales targets, and competitors.
 manager:
 ms.date: 03/31/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -47,7 +47,7 @@ Depending on your role, use the following links to learn about configuring and u
 
 ## Legal and regulatory considerations
 
-Organizations need to evaluate potential specific legal and regulatory obligations when using the Sales Research Agent. Sales Research Agent is not designed for social scoring and must be used in accordance with the Microsoft Product Terms and [Generative AI Code of Conduct](https://learn.microsoft.com/legal/ai-code-of-conduct). The Sales Research Agent may use Microsoft Bing Search for its responses, but only based on the content of the prompt the user submits, and only if the [Bing search consent](/power-platform/admin/geographical-availability-copilot?tabs=new_) setting is enabled. When this setting is disabled, the agent operates solely on internal data sources the user is already permitted to access. Your use of Bing is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
+Organizations need to evaluate potential specific legal and regulatory obligations when using the Sales Research Agent. Sales Research Agent is not designed for social scoring and must be used in accordance with the Microsoft Product Terms and [Generative AI Code of Conduct](/legal/ai-code-of-conduct). The Sales Research Agent may use Microsoft Bing Search for its responses, but only based on the content of the prompt the user submits, and only if the [Bing search consent](/power-platform/admin/geographical-availability-copilot?tabs=new_) setting is enabled. When this setting is disabled, the agent operates solely on internal data sources the user is already permitted to access. Your use of Bing is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 
 ## Related information
