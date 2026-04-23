@@ -1,7 +1,7 @@
 ---
 title: Use the Sales agent in Microsoft 365 Copilot from within Dynamics 365 Sales (preview)
 description: Learn how to use the Sales agent in Microsoft 365 Copilot from within Dynamics 365 Sales to get AI-powered assistance for your sales activities.
-ms.date: 04/08/2026
+ms.date: 04/22/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.custom: bap-template
@@ -27,6 +27,7 @@ You can use the sales agent to get assistance with a variety of sales-related ta
 - Summarizing your accounts
 - Catch up on past customer meetings
 - Look up for information about sales records
+- Create and update sales records
 
 ## Prerequisites
 
@@ -44,9 +45,10 @@ Before you can use the Sales agent, your administrator must have completed the f
 1. Select **Sales** from the list of agents to start interacting with it. If you don't see the Sales agent in the list, select **All agents** and then search for and select **Sales**.  
    :::image type="content" source="media/microsoft-365-copilot-sales.png" alt-text="Screenshot of the Sales agent in Microsoft 365 Copilot.":::
 1. Ask the agent questions in natural language to get the following types of insights:
-   - [Get a summary of an account](/microsoft-sales-copilot/use-sales-chat#get-a-summary-of-an-account)
+   - [Get a summary of an account or opportunity](/microsoft-sales-copilot/use-sales-chat#get-a-summary-of-an-account-or-opportunity)
    - [Catch up on past customer meetings](/microsoft-sales-copilot/use-sales-chat#catch-up-on-past-customer-meetings)
    - [Look up information about CRM](/microsoft-sales-copilot/use-sales-chat#look-up-information-about-crm-records)
+   - [Set up record creation in Dynamics 365 with Sales agent (preview)](/microsoft-sales-copilot/set-up-record-creation-dynamics-365)
 
 Learn more about the Sales agent and its capabilities in the Sales agent documentation: [Use the Sales agent in Microsoft 365 Copilot (preview)](/microsoft-sales-copilot/use-sales-chat).
 
