@@ -1,6 +1,6 @@
 ---
-title: "Set field security permissions in Dynamics 365 Customer Engagement (on-premises)"
-description: "Restrict access to a field by creating a field security profile. Assign users and or teams to that profile, and set up specific permissions for the field."
+title: "Set column security permissions in Dynamics 365 Customer Engagement (on-premises)"
+description: "Restrict access to a column by creating a column security profile. Assign users and or teams to that profile, and set up specific permissions for the column."
 ms.custom: 
 ms.reviewer: 
 
@@ -17,13 +17,13 @@ ms.author: matp
 search.audienceType: 
   - admin
 ---
-# Set up security permissions for a field 
+# Set up security permissions for a column 
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
 ::: moniker-end
 
-You can restrict access to a field by creating a field security profile. After you create the profile, assign users and or teams to that profile, and set up specific read, create, or write permissions for the field.  
+You can restrict access to a column by creating a column security profile. After you create the profile, assign users and or teams to that profile, and set up specific read, create, or write permissions for the column.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security concepts](security-concepts.md)  
   
@@ -37,13 +37,13 @@ You can restrict access to a field by creating a field security profile. After y
   
 2. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
-3. Click **Field Security Profiles**, and then on the command bar, click **New**.  
+3. Click **Column Security Profiles**, and then on the command bar, click **New**.  
   
 4. Enter a name and a description (optional) and click **Save**.  
   
-5. Under **Common**, click **Field permissions**.  
+5. Under **Common**, click **Column Permissions**.  
   
-6. Select a field, and then click **Edit**.  
+6. Select a column, and then click **Edit**.  
   
 7. Select the permissions that you want to assign to users or teams, and then click **OK**.  
   
