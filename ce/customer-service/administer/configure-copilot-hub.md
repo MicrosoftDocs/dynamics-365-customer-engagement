@@ -1,3 +1,4 @@
+---
 title: Configure Copilot Hub (preview)
 description: Learn how to configure the Copilot Hub immersive experience in Dynamics 365 Customer Service so representatives can manage their work more efficiently.
 author: laalexan
