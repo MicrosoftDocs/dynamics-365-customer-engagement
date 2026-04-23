@@ -1,7 +1,7 @@
 ---
 title: Configure Copilot Hub (preview)
 description: Learn how to configure the Copilot Hub immersive experience in Dynamics 365 Customer Service so representatives can manage their work more efficiently.
-author: laalexan
+author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to
@@ -12,7 +12,11 @@ ms.custom: bap-template
 
 # Configure Copilot Hub (preview)
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 Copilot Hub (Copilot immersive) is an AI-powered workspace that helps customer service representatives manage their work from a single location. As an administrator, you enable Copilot immersive at the environment level, configure it in experience profiles, and manage organization-level prompts.
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Prerequisites
 
@@ -70,4 +74,9 @@ Saved prompts follow the same behavior as prompts created in the Copilot help pa
 ## Language support
 
 Copilot Hub supports languages available in Dynamics 365 Customer Service. Quality might vary depending on the language.
+
+## Related information
+
+- [Use Copilot Hub](../use/use-copilot-hub.md)
+- [Copilot Hub FAQ](copilot-hub-faq.md)
 
