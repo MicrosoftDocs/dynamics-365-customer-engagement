@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 01/19/2026
+ms.date: 04/23/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -28,7 +28,11 @@ Your administrator must have enabled the setting to generate knowledge drafts fr
 Use the following steps to generate a knowledge draft while you are resolving a case or after you have resolved the case in Copilot Service workspace.
 
 1. In your list of active cases, select and open the case that you need to resolve.
-1. On the **Resolve Case** dialog, select the **Propose new knowledge article for this case** checkbox, and then select **Resolve**. The **Propose new knowledge (preview)** dialog displays a draft with title, issue, cause, and resolution in a rich text editor.
+1. On the **Resolve Case** dialog, select the **Propose new knowledge article for this case** checkbox, and then select **Resolve**. The **Propose new knowledge (preview)** dialog appears.
+1. On the **Propose new knowledge (preview)** dialog, select a template and language, if required.
+1. Select **Generate draft**. The draft is created as per the selected template. 
+> [!NOTE]
+> If you don't select a template, Copilot generates a draft using the default template with sections for title, issue, cause, and resolution in a rich text editor.
 1. To generate a knowledge draft from a resolved case, open the case and then select **Propose Knowledge Article** on the command menu.
 1. While Copilot is drafting the proposal, you have the option to select **stop drafting**.
 1. You can do the following actions with the draft proposal:
@@ -36,7 +40,7 @@ Use the following steps to generate a knowledge draft while you are resolving a 
     - Use **Revise with instructions** to modify and refine the proposed draft. You can propose up to five revisions.
     - Use **Create proposal** after reviewing the draft. The system saves the Copilot generated knowledge draft as a proposal.
 
-    :::image type="content" source="../media/screenshot-of-propose-knowledge-draft-from-case.png" alt-text="A screenshot of knowledge from case proposed by Copilot.":::
+    :::image type="content" source="../media/screenshot-of-propose-knowledge-draft-from-case.png" alt-text="A screenshot of knowledge from case proposed by Copilot." lightbox="../media/screenshot-of-propose-knowledge-draft-from-case.png":::
 
 ### Related information
 
