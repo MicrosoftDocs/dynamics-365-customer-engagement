@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 04/02/2026
+ms.date: 04/23/2026
 ms.custom: bap-template
 ---
 
@@ -269,6 +269,17 @@ Customer Knowledge Management Agent uses **Title**, **Description**, **Product**
 You can map which record types and data fields are used for each element. You can choose to include and exclude data.
 1. Select **Save and Close**.
 1. Select **Save** on the **Customer Knowledge Management Agent** settings page. 
+
+## Generate knowledge drafts from cases
+
+Let representatives generate a knowledge draft in a specific template and language in Copilot Service workspace, while they're resolving a case or after they've resolved the case. If representatives don't select a template, Copilot generates a draft using the default template with sections for title, issue, cause, and resolution in a rich text editor.
+
+In the **Case-based knowledge creation** section, select the following checkboxes:
+
+- **Let agents use Copilot to propose new knowledge based on case information during or after case resolution**
+    - **In the case resolution step, keep the option to propose a knowledge article selected by default** 
+
+Representatives will now be able to [use Copilot to generate knowledge drafts from cases (preview)](../use/use-copilot-knowledge-from-cases.md#use-copilot-to-generate-knowledge-drafts-from-cases-preview).
 
 ## Configure automatic article updates (preview)
 

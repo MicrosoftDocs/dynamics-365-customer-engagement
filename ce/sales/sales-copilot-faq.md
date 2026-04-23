@@ -8,7 +8,7 @@ ms.topic: concept-article
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ms.date: 04/09/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ---
 
 # FAQ about Copilot in Dynamics 365 Sales
@@ -30,7 +30,7 @@ Both the Sales agent in Microsoft 365 Copilot and Copilot in Dynamics 365 Sales 
 
 ## How do I migrate from Copilot in Dynamics 365 Sales to the Sales agent in Microsoft 365 Copilot?
 
-In the following scenarios, you can start [using the Sales agent in Microsoft 365 Copilot](use-sales-agent-in-m365-copilot.md) immediately after setup:
+In the following scenarios, you can start [using the Sales agent in Microsoft 365 Copilot](/microsoft-sales-copilot/use-sales-chat?context=/dynamics365/context/sales-context) immediately after setup:
 
 - You haven't done any customization to your existing Copilot in Dynamics 365 Sales experience.
 - You added glossary and synonyms to the **Copilot in Dynamics 365 Sales** agent in Copilot Studio. The glossary and synonyms are shared between the Sales agent in Microsoft 365 Copilot and Copilot in Dynamics 365 Sales, so you can use the same glossary and synonyms in the Sales agent too.

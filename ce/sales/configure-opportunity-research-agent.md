@@ -2,7 +2,7 @@
 title: Set up and configure the Sales Opportunity Agent
 description: Learn how to set up and configure the Sales Opportunity Agent in Dynamics 365 Sales.
 ms.date: 04/17/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template

@@ -1,8 +1,8 @@
 ---
-title: Responsible AI FAQs about AI-powered Data Enrichment for opportunities (preview)
+title: Responsible AI FAQs about AI-powered Data Enrichment for opportunities
 description: Learn about responsible AI considerations for the AI-powered Data Enrichment feature in Dynamics 365 Sales.
-ms.date: 02/16/2026
-ms.update-cycle: 90-days
+ms.date: 04/22/2026
+ms.update-cycle: 180-days
 ms.topic: faq
 ms.service: dynamics-365-sales
 ms.custom:
@@ -17,13 +17,9 @@ search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
-# Responsible AI FAQ about AI-powered Data Enrichment for opportunities (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Responsible AI FAQ about AI-powered Data Enrichment for opportunities
 
 These frequently asked questions help you understand the effect of AI on the AI-powered Data Enrichment feature in Dynamics 365 Sales.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## What is AI-powered Data Enrichment?
 
@@ -95,7 +91,7 @@ Administrators have several controls to manage how AI-powered Data Enrichment op
 - **Enable or disable the feature**: AI-powered Data Enrichment can be turned on or off at the organizational level.
 - **Configure scope**: Administrators define which fields must be excluded from enrichment.
 - **Set update mode**: Administrators can configure whether the feature suggests values for user review or automatically updates fields.
-- **Control access**: Sellers with appropriate permissions can view the suggestions on the records that they own.
+- **Control user access**: Administrators can define which users or groups have access to enrichment suggestions and updates. 
 - **Monitor audit logs**: All enrichment actions, including automatic updates and user reverts, are logged and can be reviewed through Dynamics 365 audit capabilities.
 These controls allow organizations to tailor AI-powered Data Enrichment behavior to their specific governance, compliance, and operational requirements. Organizations can choose the level of automation that aligns with their data quality standards and risk tolerance.
 
@@ -106,7 +102,7 @@ AI-powered Data Enrichment is designed to support responsible AI use through sev
 - **Transparency**: Users can see which fields have been enriched and review suggestions before applying them.
 - **Human oversight**: The feature is designed to assist users, not replace them, and requires human review and approval of suggestions.
 - **Auditability**: Enrichment actions can be tracked and reviewed through Dynamics 365 audit and activity logs, depending on configuration.
-- **Configurability**: Administrators control the scope, and exclude fields for the feature, enabling alignment with organizational policies.
+- **Configurability**: Administrators control the scope, user access, and exclude fields for the feature, enabling alignment with organizational policies.
 - **Alignment with principles**: The design reflects Microsoft's commitment to AI principles including fairness, reliability, safety, privacy, security, inclusiveness, transparency, and accountability.
 
 Organizations are encouraged to establish clear policies for reviewing and validating AI-generated enrichment suggestions and to train users on interpreting and using enriched data appropriately.

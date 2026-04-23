@@ -31,7 +31,8 @@ Switch between hourly, daily, weekly, and monthly views of the board. Choose the
 
 ### View type
 
-- **Gantt**: Illustrates the schedule in a Gantt bar chart. Use it to show activities over time. The position and length of an activity reflects the start date, duration, and end date.
+- **Gantt**: Illustrates the schedule in a Gantt bar chart. Use it to show activities over time. The position and length of an activity reflects the start date, duration, and end date. When you reschedule a task in Gantt view, the board may scroll to the first resource in the list instead of keeping the selected resource centered. Use the resource search or filter to quickly navigate back to the resource you're working with.
+
 - **List**: Shows resources in a list. Expand a resource to show the selected time granularity in the selected time frame. You can change columns in the list.
 
 ### Date range
@@ -52,7 +53,7 @@ Select **Show more schedule board actions** (&hellip;) > **Print schedule board*
 
 ### Contextual details
 
-To see more details about the selected booking, resource, or requirement, select the **Details panel** icon.
+To see more details about the selected booking, resource, or requirement, select the **Details panel** icon. Custom booking tooltip views apply to the hourly view only. In daily, weekly, and monthly views, the schedule board displays a simplified tooltip that doesn't reflect custom view columns.
 
 ### Booking alerts
 
