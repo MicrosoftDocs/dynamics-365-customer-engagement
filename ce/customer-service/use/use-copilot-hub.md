@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Use Copilot Hub (preview)
 
-[!INCLUDE [cc-feature-availability-cs-only](../../includes/cc-feature-availability-cs-only.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > AI-generated content is a suggestion. Review and edit the content to ensure it's accurate and appropriate before taking action.
