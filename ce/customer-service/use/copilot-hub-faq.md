@@ -12,13 +12,17 @@ ms.custom: bap-template
 
 # Copilot Hub FAQ (preview)
 
-This article provides answers to frequently asked questions regarding Copilot Hub, including its features, setup, workload management, analytics, case assistance, and known limitations.
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+This article answers common questions about Copilot Hub, including features, setup, workload management, analytics, and case assistance.
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## General
 
 ### What is Copilot Hub?
 
-Copilot Hub is an AI-powered workspace in Customer Service that helps customer service representatives manage their caseload, analyze workload trends, and get assistance when working on cases. 
+Copilot Hub is an AI-powered workspace in Customer Service. It helps customer service representatives manage their caseload, analyze workload trends, and get assistance when they work on cases.
 
 ### How is Copilot Hub different from Copilot help pane?
 
@@ -30,9 +34,9 @@ Dynamics 365 Customer Service Enterprise or Premium.
 
 ## Setup and access
 
-### Why can't I see Copilot Hub?
+### Why can't I view Copilot Hub?
 
-Confirm the following:
+To view Copilot Hub in your enviornment, confirm that your setup is as follows:
 
 - Copilot Immersive is enabled in Customer Service admin center under **Productivity** > **Copilot settings**.  
 - **Copilot help pane** is enabled in your experience profile.   
@@ -51,7 +55,7 @@ Both can be enabled, but the help pane isn't displayed during a Copilot Hub sess
 
 ### How does Copilot decide which cases to show?
 
-Copilot uses the workload prompt assigned to your profile to determine which cases appear and how they are prioritized. 
+Copilot uses the workload prompt assigned to your profile to determine which cases appear and how they're prioritized. 
 
 ### Why don't I see all my cases?
 
@@ -65,7 +69,7 @@ Select **Refresh** or wait for the session to update.
 
 ### What kinds of questions can I ask?
 
-You can ask about trends, distributions, and outliers across your caseload, such as escalation risk, SLA forecasts, and team quality trends. 
+You can ask about trends, distributions, and outliers across your caseload, such as escalation risk, service level agreement (SLA) forecasts, and team quality trends. 
 
 ### Can I take action from analytics?
 
@@ -108,4 +112,4 @@ Select the feedback icons in Copilot responses to rate usefulness and provide co
 ## Related information
 
 - [Configure Copilot Hub](../administer/configure-copilot-hub.md)  
-- [Use Copilot Hub](use-copilot-hub)
+- [Use Copilot Hub](use-copilot-hub.md)
