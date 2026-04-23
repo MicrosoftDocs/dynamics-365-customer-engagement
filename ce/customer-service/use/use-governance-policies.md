@@ -47,7 +47,7 @@ Use governance policies to evaluate AI-generated email responses before sending.
     1. **Conditions for content**: Add conditions to select a subset of emails that meet the conditions. If you don’t select any conditions, the system evaluates all emails in the check.
 1. Save and publish.
 
-You must review the generated prompt. If you want to make changes, update the instructions to refine prompt. Microsoft Copilot credits are consumed each time a prompt is generated.
+You must review the generated prompt. To refine the policy behavior, update the prompt instructions. Each prompt generation consumes Microsoft Copilot credits.
 
 ## Manage policies
 
