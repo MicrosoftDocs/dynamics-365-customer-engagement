@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to get content recommendations and answers from SharePoint
 description: Discover how integrating SharePoint with Sales allows Copilot to recommend product-related documents and answer queries from stored files.
-ms.date: 07/09/2025
+ms.date: 04/23/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
