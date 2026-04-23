@@ -55,8 +55,8 @@ Your administrator must enable Copilot Immersive at the environment level and in
 To view Copilot Hub in your environment, confirm that your setup is as follows:
 
 - Copilot Immersive is enabled in Customer Service admin center under **Productivity** > **Copilot settings**.  
-- **Copilot help pane** is enabled in your experience profile.   
-- **Copilot Immersive** is enabled in your experience profile.  
+- The Copilot help pane is enabled in your experience profile.   
+- Copilot Immersive is enabled in your experience profile.  
 - You're using Copilot Service workspace.
 
 ### Where do I find Copilot Hub?
