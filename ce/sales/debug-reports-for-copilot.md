@@ -16,7 +16,7 @@ ai-usage: ai-assisted
 
 # Generate debug reports for Copilot in Dynamics 365 Sales
 
-Generate a debug report whenever you encounter issues in Copilot in Dynamics 365 Sales and need to share diagnostic information with your support team. With a simple prompt, you can export a detailed Excel file containing all session activity—queries, intents, skills triggered, timestamps, and correlation IDs—eliminating the need for manual HAR file captures.
+Generate a debug report whenever you encounter issues in Copilot in Dynamics 365 Sales and need to share diagnostic information with the support team. With a simple prompt, you can export a detailed log to an Excel file containing all session activity—queries, intents, skills triggered, timestamps, and correlation IDs—eliminating the need for manual HAR file captures.
 
 ## Generate a debug report
 
