@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 04/22/2026
+ms.date: 04/23/2026
 ms.custom: bap-template
 ---
 
@@ -272,7 +272,7 @@ You can map which record types and data fields are used for each element. You ca
 
 ## Generate knowledge drafts from cases
 
-Let representatives generate a knowledge draft in a specific template and language, while they are resolving a case or after they have resolved the case.
+Let representatives generate a knowledge draft in a specific template and language, while they are resolving a case or after they have resolved the case. If you don't select a template, Copilot generates a draft using the default template with sections for title, issue, cause, and resolution in a rich text editor.
 
 In the **Case-based knowledge creation** section, select the following checkboxes:
 
