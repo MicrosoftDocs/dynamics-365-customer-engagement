@@ -20,19 +20,18 @@ Customer Knowledge Management Agent lets you autonomously turn cases and case-re
 - [Dynamics 365 knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management) is configured.
 - You enabled Copilot to access Dynamics 365 knowledge base. You can utilize the internal knowledge base resources only for generating responses. Learn more in [Configure knowledge sources](/dynamics365/contact-center/administer/copilot-enable-help-pane#configure-knowledge-sources?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml).
 - You [set up pay-as-you-go](setup-pay-as-you-go.md#set-up-pay-as-you-go).
+- Configure connection references:
 
-## Configure connection references
-
-When you navigate to the Customer Knowledge Management Agent page in Copilot Service admin center, a **Prerequisites** section appears at the top of the page that indicates whether connection references are set up. You need to configure connection references for Customer Knowledge Management Agent flow to integrate with Microsoft services. These connections link flow to essential data sources such as Microsoft Dataverse and Copilot Studio, ensuring smooth operation and enhanced functionality.
-
-1. In Copilot Service admin center, go to **Support experience** > **Knowledge**.
-1. Select **Manage** for **Customer Knowledge Management Agent**. The **Customer Knowledge Management Agent** page appears.
-1. In the **Prerequisites** section, for **Step 1: Connection References**, select **Setup connections**.
-1. In the **Configure Connections** dialog, select **Update connection references to use your connector** to update connection references.
-1. In **Step 2: Power Automate Flows**, select **Enable**.
-1. Once all tiles show as **Ready**, select **Publish** in **Step 3: Copilot Studio Agent** to complete the setup.
-
-If you have issues configuring connection references from the **Customer Knowledge Management Agent** page, you can do a manual setup. Follow the steps provided in [Connection references for Customer Knowledge Management Agent flow](admin-km-agent-connections.md#set-connection-references-for-ai-agent-flow).
+    When you navigate to the Customer Knowledge Management Agent page in Copilot Service admin center, a **Prerequisites** section appears at the top of the page that indicates whether connection references are set up. You need to configure connection references for Customer Knowledge Management Agent flow to integrate with Microsoft services. These connections link flow to essential data sources such as Microsoft Dataverse and Copilot Studio, ensuring smooth operation and enhanced functionality.
+    
+    1. In Copilot Service admin center, go to **Support experience** > **Knowledge**.
+    1. Select **Manage** for **Customer Knowledge Management Agent**. The **Customer Knowledge Management Agent** page appears.
+    1. In the **Prerequisites** section, for **Step 1: Connection References**, select **Setup connections**.
+    1. In the **Configure Connections** dialog, select **Update connection references to use your connector** to update connection references.
+    1. In **Step 2: Power Automate Flows**, select **Enable**.
+    1. Once all tiles show as **Ready**, select **Publish** in **Step 3: Copilot Studio Agent** to complete the setup.
+    
+    If you have issues configuring connection references from the **Customer Knowledge Management Agent** page, you can do a manual setup. Follow the steps provided in [Connection references for Customer Knowledge Management Agent flow](admin-km-agent-connections.md#set-connection-references-for-ai-agent-flow).
 
 
 ## Enable Customer Knowledge Management Agent
