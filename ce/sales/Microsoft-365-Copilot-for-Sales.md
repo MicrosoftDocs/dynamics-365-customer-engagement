@@ -2,7 +2,7 @@
 title: FAQ about chat with Sales data on Microsoft 365 Copilot (preview)
 description: Discover how to use Microsoft 365 Copilot to chat with Sales data and ask questions in natural language.
 ms.date: 11/11/2025
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.custom:
   - bap-template
   - ai-gen-docs-bap

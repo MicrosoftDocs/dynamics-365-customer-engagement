@@ -1,0 +1,10 @@
+flowchart TD
+    A[Start] --> B[Filter opportunity records based on user and record selection criteria]
+    B --> C[Analyze recent changes by scanning emails between sellers and customers]
+    C --> D[Identify missing or outdated fields by comparing emails with records]
+    D --> E[Suggest updates for opportunity fields or auto-update if configured]
+    E --> F{Are updates applied automatically?}
+    F -- Yes --> G[Apply updates automatically; sellers can review and revert if needed]
+    F -- No --> H[Sellers review suggestions and apply updates with one click]
+    G --> I[End]
+    H --> I[End]
