@@ -19,5 +19,5 @@ ms.update-cycle: 180-days
 
 ## Related information
 
-- [Use the Sales agent in Microsoft 365 Copilot from within Dynamics 365 Sales (preview)](use-sales-agent-in-m365-copilot.md)
+- [Use the Sales agent in Microsoft 365 Copilot from within Dynamics 365 Sales (preview)](/microsoft-sales-copilot/use-sales-chat?context=/dynamics365/context/sales-context)
 - [Agents, Copilot, and AI capabilities in Dynamics 365 apps](/dynamics365/copilot/ai-get-started)

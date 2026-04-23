@@ -31,6 +31,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/use-sales-agent-in-m365-copilot.md",
+      "redirect_url": "/microsoft-sales-copilot/use-sales-chat?context=/dynamics365/context/sales-context",
+      "redirect_document_id": "false"
+    }, 
+    {
       "source_path": "ce/sales/upgrade-sales-professional-sales-enterprise.md",
       "redirect_url": "/dynamics365/sales/upgrade-sales-license",
       "redirect_document_id": "false"
