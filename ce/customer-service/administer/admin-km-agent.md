@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 04/21/2026
+ms.date: 04/23/2026
 ms.custom: bap-template
 ---
 
@@ -20,7 +20,7 @@ Customer Knowledge Management Agent lets you autonomously turn cases and case-re
 - [Dynamics 365 knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management) is configured.
 - You enabled Copilot to access Dynamics 365 knowledge base. You can utilize the internal knowledge base resources only for generating responses. Learn more in [Configure knowledge sources](/dynamics365/contact-center/administer/copilot-enable-help-pane#configure-knowledge-sources?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml).
 - You [set up pay-as-you-go](setup-pay-as-you-go.md#set-up-pay-as-you-go).
-- Configure connection references:
+- Set up flow connections for Dataverse and Copilot Studio integration:
 
     When you navigate to the Customer Knowledge Management Agent page in Copilot Service admin center, a **Prerequisites** section appears at the top of the page that indicates whether connection references are set up. You need to configure connection references for Customer Knowledge Management Agent flow to integrate with Microsoft services. These connections link flow to essential data sources such as Microsoft Dataverse and Copilot Studio, ensuring smooth operation and enhanced functionality.
     
