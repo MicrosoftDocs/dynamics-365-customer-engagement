@@ -24,15 +24,12 @@ The Dynamics 365 Field Service and Project Operations Integration package versio
 
 ### Bug fixes
 
-- Aligned transaction types with Project Operations so that only relevant and supported transaction types are available in Field Service.
+- Aligned transaction types with Project Operations so that only relevant and supported transaction types are available in Field Service. In some existing environments, previously available options might still be visible.
 
-  > [!NOTE]
-  > In some existing environments, previously available options might still be visible.
-
-- Improved error messages on work order lines.
+- Improved error messages and system monitoring. Work order line error messages are more detailed and actionable to help users quickly identify and fix the issue.
 
 - Reduced multi-currency restrictions for work orders. Additional multi-currency options are supported.
 
-- Improved system monitoring.
-
 - Expanded project lookup for all billing customers, not just the default project contract billing customer. All customers listed on the associated project-based contract line are available in the project lookup.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
