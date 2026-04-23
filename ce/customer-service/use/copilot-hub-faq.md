@@ -103,7 +103,7 @@ Copilot assembles context from the case record and related entities, including e
 
 ### Can Copilot modify data?
 
-Only with your approval. Copilot presents actions for review before applying them. Any action that creates, modifies, or deletes data appears in an adapative card for your review. You can edit the proposed action before you approve it, or dismiss it entirely.
+Only with your approval. Copilot presents actions for review before applying them. Any action that creates, modifies, or deletes data appears in an adaptive card for your review. You can edit the proposed action before you approve it, or dismiss it entirely.
 
 ## Prompts
 
