@@ -27,7 +27,7 @@ Your administrator enabled Copilot Immersive for your environment and your exper
 
 ## Open Copilot Hub
 
-1. In **Customer Service workspace**, select the **Copilot** button in the session bar.
+In **Copilot Service workspace** or **Contact Center**, select the **Copilot** button in the session bar.
 
 Copilot Hub opens in a full-screen experience and replaces the Inbox view.
 
@@ -125,4 +125,4 @@ To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-do
 ## Related information
 
 - [Configure Copilot Hub](../administer/configure-copilot-hub.md)
-- [Copilot Hub FAQ](../use/copilot-hub-faq.md)
+- [Copilot Hub FAQ](copilot-hub-faq)
