@@ -46,7 +46,7 @@ You can harvest knowledge articles from cases, conversation summaries associated
 
 - For conversations, go to the **Conversations** tab, and in the **Real-time creation** section, select the **Let Copilot use information from current chat and messaging conversations to create knowledge articles** option.
 
-Real-time knowledge creation is triggered when a customer service representative (service representative) resolves a case or closes a conversation. The agent determines whether a new knowledge article is needed by comparing the content of the case or conversation with the existing knowledge articles in Dynamics 365 knowledge base. If an article is required, the Customer Knowledge Management Agent creates the article using the case or conversation content.  
+Real-time knowledge creation is triggered when a customer service representative (service representative) resolves a case or closes a conversation. The agent compares the content of the case or conversation with existing knowledge articles in the Dynamics 365 knowledge base. It then determines if a new article is required. If an article is required, the Customer Knowledge Management Agent creates the article using the case or conversation content.  
 
 ### Manage rules for real-time article creation  
 
@@ -224,7 +224,7 @@ The JavaScript triggers knowledge harvesting by sending table and user informati
 
 ## Enable historical knowledge creation
 
-When enabled, the agent considers all the cases and conversations that meet the specified conditions and then determines if new articles are needed by comparing the content of the cases or conversations with the existing knowledge base. The agent then creates a new article, if necessary, based on the content of the cases and conversations. You can also [add custom record types (preview)](#add-custom-record-types-preview) that Customer Knowledge Management Agent can use to create new knowledge articles.
+When enabled, the agent considers cases and conversations that meet the specified conditions. It compares their content with existing knowledge articles in the Dynamics 365 knowledge base to determine whether a new article is required. The agent then creates a new article, if necessary, based on the content of the cases and conversations. You can also [add custom record types (preview)](#add-custom-record-types-preview) that Customer Knowledge Management Agent can use to create new knowledge articles.
 
 1. Select the **Cases**, **Conversations**, or the **Custom record types (preview)** tab.
 
