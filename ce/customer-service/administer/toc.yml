@@ -684,6 +684,8 @@
       items:
       - name: Manage Copilot features in Customer Service
         href: configure-copilot-features.md
+      - name: Configure Copilot Hub
+        href: configure-copilot-hub.md
       - name: Make Copilot available to agents
         href: configure-copilot-features.md#make-copilot-available-to-representatives
       - name: Case and conversation summaries
