@@ -32,7 +32,7 @@ Perform the following steps:
 1. In **Copilot Service admin center**, select **Settings** (gear icon) > **Advanced Settings**.
 1. Copy the environment URL from your address browser bar.
 1. Append the following string to the URL: `main.aspx?settingsonly=true#133657686`
-1. Open the modified URL in your browser to access the legacy experience.
+1. Open the modified URL in your browser.
 1. Go to **Email Configuration** > **Email settings**.
 1. On the **System Settings** page, select the **Email** tab.
 1. In the **Email data sensitivity** section, select **Enable data sensitivity labels for emails**.
