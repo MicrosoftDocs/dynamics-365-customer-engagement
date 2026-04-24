@@ -110,7 +110,7 @@ Add a trigger harvesting command button to your custom table's main form using P
 The JavaScript triggers knowledge harvesting by sending table and user information to the API, displays progress indicators, handles responses, and controls button availability based on the form state. The button works similarly to Case and Conversation record types.
 
 > [!NOTE]
-> The follwoing example is a sample implementation to trigger knowledge harvesting through a button click. You can customize the button behavior and JavaScript logic based on your organization's requirements.
+> The following example is a sample implementation to trigger knowledge harvesting through a button click. You can customize the button behavior and JavaScript logic based on your organization's requirements.
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
 1. Select **Tables** from the left navigation pane.
