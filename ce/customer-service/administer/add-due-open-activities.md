@@ -1,11 +1,11 @@
 ---
 title: Use the Due open activities control to customize forms
-description: Learn about adding Due open activities control to forms.
+description: Learn about adding Due open activities control to forms in Dynamics 365 Customer Service.
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 06/27/2025 
+ms.date: 04/22/2026 
 ms.custom: bap-template 
 ---
 
@@ -36,6 +36,6 @@ Configure the tab that the representatives must be redirected to when they selec
    :::image type="content" source="../media/set-open-activities.png" alt-text="Open activities in a new tab" lightbox="../media/set-open-activities.png":::
 
 ### Related information
-[Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
+[Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form)   
 [Case management in multisession apps](../use/enh-casemgmt-csw.md)   
 [Get started with Copilot Service workspace](../implement/csw-overview.md) 
