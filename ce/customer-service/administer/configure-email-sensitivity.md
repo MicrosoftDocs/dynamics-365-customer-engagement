@@ -25,7 +25,7 @@ You can configure sensitivity labels in Dynamics 365 Customer Service and Contac
 Before you add sensitivity labels to the email form, enable email data sensitivity labels in the environment.
 
 > [!IMPORTANT]
-> The current interface doesn't support enabling sensitivity labels. To enable labels, use the legacy experience.
+> The current interface doesn't support enabling sensitivity labels. To enable labels, use the legacy experience. This workaround is temporary.
 
 Perform the following steps:
 
