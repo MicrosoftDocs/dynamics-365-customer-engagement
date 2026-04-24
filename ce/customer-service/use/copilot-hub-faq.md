@@ -38,11 +38,11 @@ Copilot Hub is verified for English during the public preview. It might work in 
 
 ### Which regions are supported?
 
-All regions supported by Dynamics 365 Customer Service, excluding GCC, are supported. GCC support is expected to be available in a future release.
+All regions supported by Dynamics 365 Customer Service, excluding Government Community Cloud (GCC), are supported. GCC support is expected to be available in a future release.
 
 ### Is Copilot Hub available for conversations, email, or voice?
 
-No. Copilot Hub is currently usable for case records only. The entity selector in the admin configuration supports extensibility to additional entities, such as conversation and email. These features are planned for a future release.
+No. Copilot Hub is currently usable for case records only. The entity selector in the admin configuration supports extensibility to more entities, such as conversation and email. These features are planned for a future release.
 
 ## Setup and access
 
@@ -99,7 +99,7 @@ When you open a case from analytics, Copilot starts a case assistance session. Y
 
 ### What information does Copilot use when I work on a case?
 
-Copilot assembles context from the case record and related entities, including emails, notes, account information, contact details, activities, entitlements, knowledge articles, SLA items, and queue items. More entity types might be supported in a future release. 
+Copilot gathers context from the case record. It uses emails, notes, account and contact details, activities, entitlements, knowledge articles, and SLA items. More entity types might be supported in a future release. 
 
 ### Can Copilot modify data?
 
@@ -115,7 +115,7 @@ You can access suggested prompts in the Copilot Hub experience or from the **Vie
 
 ### Can I create my own prompts?
 
-Yes. You can create and save personal prompts for workload and case scenarios. Saved prompts are personal to you and have a 10,000-character limit. Personal prompts follow the same saving pattern as the ask a question feature.
+Yes. You can create and save personal prompts for workload and case scenarios. Saved prompts are personal to you and have a 10,000-character limit. Personal prompts follow the same saving pattern as the **Ask a question** feature.
 
 ### Why don't I see a prompt my colleague has?
 
