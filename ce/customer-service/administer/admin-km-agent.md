@@ -88,7 +88,7 @@ To avoid issues during knowledge article creation from historical data, we recom
 
 ### Enable real-time knowledge harvesting for a custom record type
 
-Enable real-time knowledge harvesting for your custom record types in Dynamics 365 by adding a trigger button and surfacing harvested knowledge articles linked to your custom table.
+Enable real-time knowledge harvesting for custom record types in Dynamics 365. Add a trigger button and surface the harvested knowledge articles in your custom table.
 
 1. [Create the custom table](/power-apps/maker/data-platform/create-edit-entities-portal?tabs=excel) in [Power Apps](https://make.powerapps.com/). If the table already exists, ensure it contains attributes that map to case descriptions and resolutions from which knowledge can be harvested. 
 1. [Add record types for which you want to turn on knowledge management](configure-knowledge-search-control-productivity-pane.md).
@@ -269,7 +269,7 @@ When you specify a custom article, Customer Knowledge Management Agent uses the 
 - Provide a detailed description for each section, explaining the type of content expected.
 - Clearly indicate which fields are required and which are optional within the template.
 - If categorization is needed, include the list of category options directly in the template.
-- Clearly separate any compliance text (for example, add a note such as “Don't edit below this line.”).
+- Clearly separate any compliance text (for example, add a note such as "Don't edit below this line.").
 - Use a consistent format for placeholders and variables, such as {{ProductName}} or {{ErrorCode}}.
 - Where possible, include a minimal, well-structured example within the template to guide users.
 
