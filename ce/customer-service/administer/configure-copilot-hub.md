@@ -30,17 +30,17 @@ You must enable Copilot Hub at both the environment level and the experience pro
 ### Enable Copilot immersive for the environment
 
 1. In **Copilot Service admin center**, go to **Productivity**.
-2. Select **Copilot settings**, and then select **Manage**.
-3. Turn on **Copilot immersive (preview)**.
-4. Select **Save**.
+1. Select **Copilot settings**, and then select **Manage**.
+1. Turn on **Copilot immersive (preview)**.
+1. Select **Save**.
 
 ### Enable Copilot immersive in experience profiles
 
 1. In **Copilot Service admin center**, go to **Workspaces** > **Experience profiles**.
-2. Select the experience profile that you want to configure.
-3. Ensure that **Copilot help pane** is turned on.
-4. Turn on **Copilot immersive**.
-5. Select **Save and close**.
+1. Select the experience profile that you want to configure.
+1. Ensure that **Copilot help pane** is turned on.
+1. Turn on **Copilot immersive**.
+1. Select **Save and close**.
 
 All users assigned to the experience profile can access Copilot Hub.
 
@@ -56,7 +56,7 @@ Administrators can create organization-level prompts that are available to all u
 
 1. In **Copilot Service admin center**, go to **Productivity** > **Copilot settings**, and then select **Manage**.
 1. In the prompts section, select **Add a new prompt**.
-1. Enter a **prompt alias**, a short name users see when they select the prompt.
+1. Enter a **prompt alias**. This alias is a short name that appears when the user selects the prompt.
 1. (Optional): Turn on **Show in guide** if you want the prompt to appear as a suggested prompt.
 1. Select where the prompt is available:
    - **Copilot side pane**
