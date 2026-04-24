@@ -316,9 +316,9 @@
         items: 
         - name: Copilot feature availability across applications
           href: /dynamics365/contact-center/use/copilot-feature-availability?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Use Copilot hub
+        - name: Use Copilot hub (preview)
           href: use-copilot-hub.md
-        - name: FAQ for Copilot hub
+        - name: FAQ for Copilot hub (preview)
           href: copilot-hub-faq.md
         - name: Use Copilot-generated case summaries
           href: copilot-use-summary.md
