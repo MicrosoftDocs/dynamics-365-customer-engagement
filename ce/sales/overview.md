@@ -36,7 +36,7 @@ There's a Dynamics 365 Sales offering to fit every need of a business:
 
 - **Relationship sales**: Ideal for enterprises that need to connect sales records with LinkedIn to enhance business processes with data about people, organizations, and relationships. [Learn more about Microsoft Relationship Sales](#microsoft-relationship-sales).
 
-- **Sales in Microsoft 365 Copilot:** Ideal for enterprises that wants sellers to use Outlook and Microsoft Teams to automatically capture data, access, and register data into any customer relationship management (CRM) system, eliminating manual data entry. [Sales in Microsoft 365 Copilot](#sales-in-microsoft-365-copilot). 
+- **Sales agent:** Ideal for enterprises that wants sellers to use Outlook and Microsoft Teams to automatically capture data, access, and register data into any customer relationship management (CRM) system, eliminating manual data entry. [Sales agent](#sales-in-microsoft-365-copilot). 
 
 ### Dynamics 365 Sales Premium
 
@@ -74,9 +74,9 @@ Here's a short video to help you understand how Dynamics 365 Sales Professional 
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=67fb63b7-d1f7-4e3c-9c3f-39e6ad7c0704]
 
-### Sales in Microsoft 365 Copilot
+### Sales agent
 
-Dynamics 365 Sales customers have limited capabilities included within the Sales Enterprise, Sales Premium, and Relationship Sales licenses. The standard functionality showcases capabilities such as email replies and conversation intelligence in Teams. With the purchase of Microsoft 365 Copilot, customers can access the full functionality.
+Dynamics 365 Sales customers have limited capabilities included within the Sales Enterprise, Sales Premium, and Relationship Sales licenses. The standard functionality showcases capabilities such as email replies and conversation intelligence in Teams. With the purchase of Microsoft 365 Copilot, customers can access the full functionality of Sales agent. [Learn more about Sales agent](/microsoft-sales-copilot/introduction).
 
 ## Compare solutions
 
