@@ -38,7 +38,7 @@ Copilot Hub is verified for English during the public preview. It might work in 
 
 ### Which regions are supported?
 
-All regions supported by Dynamics 365 Customer Service, excluding Government Community Cloud (GCC), are supported. GCC support is expected to be available in a future release.
+All regions supported by Dynamics 365 Customer Service, excluding Government Community Cloud (GCC), are supported.
 
 ### Is Copilot Hub available for conversations, email, or voice?
 
