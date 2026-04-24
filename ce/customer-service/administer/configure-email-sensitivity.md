@@ -1,12 +1,12 @@
 ---
 title: Configure sensitivity labels in emails
 description: Learn how to configure sensitivity label support for emails in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-author: gandhamm
-ms.author: mgandham
-ms.reviewer: mgandham
+author: lalexms
+ms.author: laalexan
+ms.reviewer: laalexan
 ms.topic: how-to 
 ms.collection: 
-ms.date: 04/14/2026
+ms.date: 04/23/2026
 ---
 
 # Configure sensitivity label support for emails
@@ -24,10 +24,15 @@ You can configure sensitivity labels in Dynamics 365 Customer Service and Contac
 
 Before you add sensitivity labels to the email form, enable email data sensitivity labels in the environment.
 
+> [!IMPORTANT]
+> The current interface doesn't support enabling sensitivity labels. To enable labels, use the legacy experience.
+
 Perform the following steps:
 
-1. Go to **Copilot Service admin center**.
-1. Select **Settings** (gear icon), and then select **Advanced Settings**.
+1. In **Copilot Service admin center**, select **Settings** (gear icon) > **Advanced Settings**.
+1. Copy the environment URL from your address browser bar.
+1. Append the following string to the URL: `main.aspx?settingsonly=true#133657686`
+1. Open the modified URL in your browser to access the legacy experience.
 1. Go to **Email Configuration** > **Email settings**.
 1. On the **System Settings** page, select the **Email** tab.
 1. In the **Email data sensitivity** section, select **Enable data sensitivity labels for emails**.
