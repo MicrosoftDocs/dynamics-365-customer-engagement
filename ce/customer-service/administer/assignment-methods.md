@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues and how you can use them in unified routing in Dynamics 365 Contact Center and Customer Service.
-ms.date: 03/13/2026
+ms.date: 04/27/2026
 ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
@@ -186,6 +186,126 @@ Some important points about prioritization rules are as follows:
 - In normal scenarios, when a sufficient number of representatives are available to take up the work items, the processing period is a couple of seconds only. The representatives are assigned work items in the priority order. Sometimes, work items pile up because there are fewer eligible representatives. If a representative becomes available during the processing period, the system offers the next work item based on priority order. This strategy can create the perception that the highest priority item wasn't assigned. This situation occurs when the system attempts to assign top‑priority items, but they remain in the queue.
 - The system places work items that don't match any prioritization ruleset in the last priority bucket and orders them on a first‑in, first‑out basis.
 - Prioritization rules are skipped for affinity work items and such work items are assigned before other work items in the queue. Learn more about affinity in [Representative affinity](create-workstreams.md#representative-affinity).
+
+## How dynamic prioritization works (preview)
+
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+Dynamic Prioritization is an AI-led approach to increase the priority of conversations based on:
+
+- **Increasing wait time**: Priority escalates as customers wait longer
+- **Conversation transfers**: Priority boost when conversations move between queues
+
+Learn more in [Configure conversation orchestration using AI-powered playbooks](/dynamics365/contact-center/administer/configure-conversation-orchestration).
+
+### Priority score system
+
+The priority score conversation attribute works as follows:
+
+- Holds the dynamically increasing priority value of conversations
+- Cumulatively adds incremental values to maintain a running priority score.
+- Initial/base priority score can be set using classification rules.
+- Priority increment logic is authored through prompt templates in the conversation orchestration playbook.
+- Any queues that have a priority escalation or update playbook enabled, shouldn't have any custom prioritization rules configured.
+- Priority scores range from 0 to 100,000.
+- Minimum wait time interval is 30 seconds.
+- Tie-breaking: When priority scores are equal, "first in and first out" (FIFO) is used.
+
+### Scenario: Wait time escalation
+
+This scenario automatically increases the priority of conversations based on how long customers wait in the queue.
+
+**Trigger event**: Conversation is waiting in queue.
+
+**How it works**
+
+1. When a conversation enters the queue, the playbook evaluates the configured conditions.
+1. Based on matching context variable values, the system increases the priority score at the specified time interval.
+1. The system offers higher priority conversations to representatives first than the lower priority ones.
+
+**Example:**
+
+| Customer segment | Priority increase | Time interval |
+|------------------|-------------------|---------------|
+| VIP customers | 20 | Every 30 seconds |
+| Gold tier customers | 15 | Every 30 seconds |
+| All other customers | 5 | Every 30 seconds |
+
+### Scenario: Queue transfer escalation
+
+This scenario increases conversation priority when a conversation is transferred to a specific queue.
+
+**Trigger event**: Conversation is transferred to queue.
+
+**How it works**
+
+1. When you transfer a conversation to a queue where this playbook is active, the priority increases immediately.
+1. The priority increase is a one-time adjustment based on the configured conditions.
+1. Transferred conversations receive appropriate attention based on your business rules.
+
+**Example**: Priority escalation
+
+| Customer segment | Priority increase |
+|------------------|-------------------|
+| VIP customers | 50 |
+| Escalation transfers | 30 |
+| All other transfers | 10 |
+
+**Example**: Priority update
+
+| Customer segment | Priority increase |
+|------------------|-------------------|
+| VIP customers | 5 |
+| Escalation transfers | 3 |
+| All other transfers | 1 |
+
+### Scenario: Wait time-based prioritization
+
+**Playbook**
+
+The following prioritization logic is followed for every 30 seconds increase in conversation wait time.
+
+| Customer segment | Priority increase |
+|------------------|-------------------|
+| Diamond          | 10                |
+| Gold             | 9                 |
+| Yellow           | 8                 |
+| All other        | 1                 |
+
+**Runtime timeline**
+
+The following table displays how dynamic prioritization assigns priority to Customers A, B, C, and D, who belong to different service tiers, when they are placed in the same queue.
+
+| Time | Queue state | Priority scores | Notes |
+|---|---|---|---|
+| T=0 | A enters | A=0 | Customer A (Yellow tier) arrives |
+| T=10 | B enters | A=0, B=0 | Customer B (Yellow tier) arrives |
+| T=20 | C enters | A=0, B=0, C=0 | Customer C (Gold tier) arrives |
+| T=30 | D enters | A=8, B=0, C=0, D=0 | A gets +8 boost, D (Diamond) arrives |
+| T=31 | Representative available | A=8 served | A is assigned (highest score) |
+| T=61 | Representative available | B=8, C=9, D=10 | D served next (highest score) |
+
+Key outcomes:
+
+- Conversation "A" wasn't ignored despite higher-tier conversations being in the queue. Its long wait time was factored into priority.
+- Conversations "C" and "D" weren't pushed to the top even though they belonged to a higher tier. They received higher boosts proportional to their tier but still competed fairly.
+
+**Priority score attribute**
+
+**Type**: Numeric, cumulative
+**Initial value**: 0 (or base priority set during classification)
+**Range**: 0 to 100,000
+**Update triggers**: Wait time intervals (minimum 30 seconds), transfer to selected queues
+**Prioritization criteria**: Primary sorting order by priority score in descending order, tie break sorting by conversation creation time (FIFO)
+
+### Integration with existing features
+
+| Feature | Integration behavior |
+|---|---|
+| Custom prioritization rules | Dynamic prioritization playbooks aren't applicable to queues configured with custom prioritization rules. Remove any custom prioritization rules in queues before enabling the priority escalate or update playbooks. |
+| Cross-queue prioritization | Supported with priority score as primary sorting criteria |
+| FIFO queues | Update priority score action can be used to set priority to default values in queues for strict FIFO behavior |
+| Classification rules | Can set initial or base priority scores |
 
 ## How assignment rulesets work
 
