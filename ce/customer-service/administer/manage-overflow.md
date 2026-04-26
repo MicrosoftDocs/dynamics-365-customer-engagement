@@ -236,7 +236,7 @@ When a work item is added to a queue, the system evaluates whether any eligible 
 
 This check happens before the work item is offered to a service representative. If a representative is available and the conversation is offered, this condition isn’t triggered.
 
-You can configure this behavior by using a playbook in Conversation Orchestration.
+You can configure this behavior by using a playbook in [conversation orchestration](/dynamics365/contact-center/administer/configure-conversation-orchestration).
 
 **What determines representative availability**
 
