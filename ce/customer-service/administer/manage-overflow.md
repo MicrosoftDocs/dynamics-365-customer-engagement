@@ -256,7 +256,7 @@ You configure immediate overflow through a playbook in conversation orchestratio
 
 The playbook evaluates the condition:
 **If there are no service rep available right now**
-and run the selected action.
+and runs the selected action.
 
 **Supported scope**
 
