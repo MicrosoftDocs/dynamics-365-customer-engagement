@@ -191,7 +191,7 @@ Some important points about prioritization rules are as follows:
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-Dynamic Prioritization is an AI-led approach to increase the priority of conversations based on:
+Dynamic Prioritization is an AI-led approach to increase the priority of conversations (Voice and live chat only) based on:
 
 - **Increasing wait time**: Priority escalates as customers wait longer
 - **Conversation transfers**: Priority boost when conversations move between queues
