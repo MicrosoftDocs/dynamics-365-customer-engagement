@@ -1,7 +1,7 @@
 ---
 title: Import an agent into a target environment
 description: Learn how to export and import sales agent solutions across environments in Dynamics 365 Sales. 
-ms.date: 05/01/2026
+ms.date: 04/27/2026
 ms.update-cycle: 90-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
@@ -43,7 +43,7 @@ Export the agent from the source environment as a solution. During the export pr
     Select **Add existing** > **More** > **Other** and then add the following components:  
     - **SalesAgentProfile**. When you create the agent, a corresponding agent profile is automatically created. In the **Add existing SalesAgentProfile** pane, select the agent profile from the list of existing agent profiles.  
     - **SalesAgentConfigurationV2**. When you create the agent, corresponding agent configurations are automatically created with the same name as the agent profile. In the **Add existing SalesAgentConfigurationV2** pane, select the agent configuration that has the same name as the agent profile you selected.  
-    - **Sequence** (for Sales Qualification Agent only). When you create the Sales Qualification Agent, a corresponding sequence record is automatically created in the sequence component. In the **Add existing Sequence** pane, select the sequence record that has the same name as the agent profile you selected.  
+    - **Sequence** (for Sales Qualification Agent only). When you create the Sales Qualification Agent, a corresponding sequence record is automatically created in the sequence component. In the **Add existing Sequence** pane, select the sequence record with the name **AgenticSequence**.  
 
 1. Add knowledge sources.  
     Select **Add existing** > **Agent** > **Agent** and then add agents that contain knowledge sources relevant to the agent you want to export. For example, if you're exporting the **Sales Opportunity Agent - Account Research**, knowledge sources related to account research are automatically added as part of the agent component. Each agent type requires a specific set of agents in the solution. The following table shows the agents you need to add for each agent solution.  
@@ -51,8 +51,8 @@ Export the agent from the source environment as a solution. During the export pr
     | Sales agent solution type | Agents to add |
     | ------------------------- |------------- |
     | Sales Qualification Agent | D365 Sales Agent - Research<br> D365 Sales Agent - Competitor<br> D365 Sales Agent - Custom Research<br> D365 Sales Agent - Readiness<br> D365 Sales Agent - Email Validation<br> D365 Sales Agent - Outreach<br> D365 Sales Agent - Engage Autonomous<br> D365 Sales Agent - TCP Prefill Agent<br> D365 Sales Agent - Stakeholder Research<br> D365 Sales Agent - Engage Autonomous<br> D365 Sales Agent - Summary Synthesizer |
-    | Sales Opportunity Agent |  |
-    | Sales Close Agent | D365 Sales Agent - Research<br> D365 Sales Agent - Competitor<br> D365 Sales Agent - Custom Research |
+    | Sales Opportunity Agent | Sales Opportunity Agent<br> Sales Opportunity Agent - Account Research<br>Sales Opportunity Agent - Compete Research<br>Sales Opportunity Agent - Custom Research<br>Sales Opportunity Agent - Stakeholder |
+    | Sales Close Agent | Sales Close Agent |
  
     The following image shows an example of the added components for Sales Qualification Agent.  
     :::image type="content" source="media/import-export-agent-solutions-add-tables.png" alt-text="Screenshot of the added tables in the solution.":::
@@ -68,7 +68,7 @@ Import the exported solution file into the target environment. During the import
 
 >[!NOTE]
 >- The agent is always imported in draft state.  
->- When you open the imported agent for the first time, select **Apply changes** to ensure that all the components of the agent are correctly applied in the target environment. 
+>- When you open the imported agent, select **Apply changes** to ensure that all the components of the agent are correctly applied in the target environment.  
 
 ### Import the solution
 
@@ -137,7 +137,6 @@ After you import the solution, the agent is imported in draft state. Open the ag
     To learn more about field scope, see [Configure agent behavior](data-enrichment-agent-edit-settings.md#configure-agent-behavior).  
 
 1. **Activate the agent**. After updating the environment‑specific settings, save and start the agent.
-
 
 ## Related information
 
