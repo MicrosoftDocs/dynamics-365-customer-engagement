@@ -4,7 +4,7 @@ description: Learn how to set up and configure the AI-powered Data Enrichment fe
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 04/22/2026
+ms.date: 04/27/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -64,6 +64,10 @@ Ensure that you meet the following prerequisites:
 1. Do *ONE* of the following:
     - Review the recommended settings and select **Start agent** if the default settings work for your business needs. 
     - Select **Edit in settings** to customize the configuration. Learn more about configuring the settings in the [Configure AI-powered Data Enrichment settings](data-enrichment-agent-edit-settings.md) article.
+
+## Migrate agents across environments
+
+When you have configured the Data Enrichment Agent in one environment, you can export the agent as a solution and import it into another environment. This is especially useful when you have set up the agent in a sandbox or test environment and want to deploy it in production after testing and validation. Learn more in [Import an agent into a target environment](import-export-agent-solutions.md).
 
 
 ## Related information
