@@ -232,33 +232,25 @@ This capability is useful for scenarios where you want to avoid any wait time in
 
 ### How it works
 
-When a work item is added to a queue, the system evaluates whether any eligible service representatives are currently available. If no representatives meet the assignment requirements, the configured overflow action is triggered immediately.
-
-This check happens before the work item is offered to a service representative. If a representative is available and the conversation is offered, this condition isn’t triggered.
+When a work item is added to a queue, the system evaluates whether any eligible service representatives are currently available. This check happens before the work item is offered to a service representative. If no representatives meet the assignment requirements, the configured overflow action is triggered immediately.
 
 You can configure this behavior by using a playbook in [conversation orchestration](/dynamics365/contact-center/administer/configure-conversation-orchestration).
 
 **What determines representative availability**
 
-The system evaluates availability using the same assignment criteria that are used for routing work items. A representative is considered available only if all configured conditions are satisfied:
+The system evaluates availability using the same assignment criteria that are used for routing work items. A representative is considered available only if all configured conditions are satisfied.
 
-- **Skills and work distribution**: If skills are configured, only representatives with the required skills are considered. Otherwise, all representatives in the queue are eligible.
+- **Skills and work distribution**: If skills are configured, the system considers representatives with the required skills only. Otherwise, all representatives in the queue are eligible.
 
 - **Custom assignment rules**: Any configured rules that determine representative eligibility are honored.
 - **Capacity**: The representative must have sufficient capacity based on configured profiles or capacity units.
 - **Presence**: The representative must be in one of the allowed presence states defined in the workstream.
 
-If representatives are online but busy, at capacity, or in unsupported presence states like, "Do Not Disturb", they aren’t considered available and the condition can still be triggered.
-
 ### Configure immediate overflow using playbooks
 
 You configure immediate overflow through a playbook in conversation orchestration.
 
-The playbook evaluates the condition:
-**If there are no service rep available right now**
-and runs the selected action.
-
-**Supported scope**
+The playbook evaluates the condition **If there are no service rep available right now** and runs the selected action.
 
 You can apply the playbook to:
 
@@ -266,9 +258,7 @@ You can apply the playbook to:
 - Selected queues
 - All queues except specific queues
 
-**Supported actions**
-
-You can configure the following actions when no representatives are available:
+You can configure the following actions:
 
 - Transfer to another queue
 - End the conversation
@@ -278,54 +268,20 @@ You can configure the following actions when no representatives are available:
 
 ### Behavior and evaluation
 
-**Immediate trigger scenario**
-
-If no eligible representatives are available when the work item enters the queue:
+**Immediate trigger scenario**: If no eligible representatives are available when the work item enters the queue:
 
 - The condition evaluates to true.
-- The configured overflow action is triggered immediately (for example, offering direct callback).
+- The configured overflow action is triggered immediately (for example, offer direct callback).
 
-When a representative is available
+**Reject or timeout scenarios**: If a representative is available but rejects the assignment, or doesn’t respond to the notification,
 
-If a representative is available and is offered the conversation:
-- The condition isn’t triggered.
-- Normal assignment behavior continues.
-
-**Reject or timeout scenarios**
-
-If a representative is available but:
-
-- Rejects the assignment, or
-- Doesn’t respond to the notification
-
-Then:
-
-- The condition doesn’t re-evaluate as true.
+- The playbook condition doesn’t reevaluate as true.
 - The work item continues through standard assignment retries and routing logic.
 
-**Multiple representatives scenario**
-
-If multiple representatives are available:
-
-- The work item is offered based on unified routing logic.
-- If representatives reject or time out, the system continues assignment attempts.
-- Immediate overflow isn’t triggered because availability existed at assignment time.
-
-**Use with other overflow conditions**
-
-Immediate overflow based on service representatives availability can be used together with other overflow conditions defined on the queue.
-
-For example:
+**Use with other overflow conditions**: Immediate overflow based on service representatives availability can be used together with other overflow conditions defined on the queue, such as follows:
 
 - Combine with wait-time conditions to handle cases where representatives are available but don’t accept the work item.
 - Provide fallback actions after a specified wait duration.
-
-**When to use this feature**
-
-Use immediate overflow based on service representatives availability when:
-
-- You want to eliminate queue waiting time entirely.
-- You want to offer self-service or callback options immediately when staffing capacity isn’t available.
 
 ### Related information
 
