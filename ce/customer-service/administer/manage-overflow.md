@@ -258,25 +258,15 @@ You can apply the playbook to:
 - Selected queues
 - All queues except specific queues
 
-You can configure the following actions:
+You can configure the following actions.
 
-- Transfer to another queue
-- End the conversation
-- Transfer to an external number (Voice channel only)
-- Offer direct callback (Voice channel only)
-- Send to voicemail (Voice channel only)
-
-### Behavior and evaluation
-
-**Immediate trigger scenario**: If no eligible representatives are available when the work item enters the queue:
-
-- The condition evaluates to true.
-- The configured overflow action is triggered immediately (for example, offer direct callback).
-
-**Reject or timeout scenarios**: If a representative is available but rejects the assignment, or doesn’t respond to the notification,
-
-- The playbook condition doesn’t reevaluate as true.
-- The work item continues through standard assignment retries and routing logic.
+| Action | Description |
+|--------|-------------|
+| **Transfer to queue** | Route the conversation to a different queue |
+| **End conversation** | End the conversation with a message |
+| **Direct callback** | Offer the customer a callback option (Voice channel only) |
+| **Voicemail** | Route to voicemail for later follow-up (Voice channel only) |
+| **Transfer to an external number** |Transfer the call to an external contact(Voice channel only)|
 
 **Use with other overflow conditions**: Immediate overflow based on service representatives availability can be used together with other overflow conditions defined on the queue, such as follows:
 
