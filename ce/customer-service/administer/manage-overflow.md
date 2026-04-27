@@ -226,31 +226,17 @@ If you set **End call** or **End conversation** as an overflow action, you can e
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-You can configure overflow handling to trigger immediately when no eligible service representatives are available for a work item, instead of waiting for time-based or volume-based conditions.
+Configure overflow handling to trigger immediately when eligible service representatives aren't available for a work item, instead of waiting for time or volume-based conditions.
 
 This capability is useful for scenarios where you want to avoid any wait time in the queue. For example, offering options such as callback or voicemail as soon as it’s determined that no representative can take the conversation.
 
 ### How it works
 
-When a work item is added to a queue, the system evaluates whether any eligible service representatives are currently available. This check happens before the work item is offered to a service representative. If no representatives meet the assignment requirements, the configured overflow action is triggered immediately.
+When a work item is added to a queue, the system evaluates whether any eligible service representatives are available using the same assignment criteria that are used for routing work items. This check happens before the work item is offered to a service representative. If no representatives meet the assignment requirements, the configured overflow action is triggered immediately.
 
-You can configure this behavior by using a playbook in [conversation orchestration](/dynamics365/contact-center/administer/configure-conversation-orchestration).
+Configure immediate overflow by using a playbook in [conversation orchestration](/dynamics365/contact-center/administer/configure-conversation-orchestration).
 
-**What determines representative availability**
-
-The system evaluates availability using the same assignment criteria that are used for routing work items. A representative is considered available only if all configured conditions are satisfied.
-
-- **Skills and work distribution**: If skills are configured, the system considers representatives with the required skills only. Otherwise, all representatives in the queue are eligible.
-
-- **Custom assignment rules**: Any configured rules that determine representative eligibility are honored.
-- **Capacity**: The representative must have sufficient capacity based on configured profiles or capacity units.
-- **Presence**: The representative must be in one of the allowed presence states defined in the workstream.
-
-### Configure immediate overflow using playbooks
-
-You configure immediate overflow through a playbook in conversation orchestration.
-
-The playbook evaluates the condition **If there are no service rep available right now** and runs the selected action.
+The playbook evaluates the condition **If no service representative is available** and runs the configured action.
 
 You can apply the playbook to:
 

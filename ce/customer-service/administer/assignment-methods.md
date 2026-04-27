@@ -204,9 +204,9 @@ The priority score attribute works as follows:
 
 - Holds the dynamically increasing priority value of conversations.
 - Cumulatively adds incremental values to maintain a running priority score.
-- Initial/base priority score can be set using classification rules.
+- Initial or base priority score can be set using classification rules.
 - Priority increment logic is authored through prompt templates in the conversation orchestration playbook.
-- Any queues that have a priority escalation or update playbook enabled, shouldn't have any custom prioritization rules configured.
+- Any queues that have a priority escalation enabled, shouldn't have any custom prioritization rules configured.
 - Priority scores range from 0 to 100,000.
 - Minimum wait time interval is 30 seconds.
 - Tie-breaking: When priority scores are equal, "first in and first out" (FIFO) is used.
@@ -289,14 +289,6 @@ Key outcomes:
 
 - Conversation "A" wasn't ignored despite higher-tier conversations being in the queue. Its long wait time was factored into priority.
 - Conversations "C" and "D" weren't pushed to the top even though they belonged to a higher tier. They received higher boosts proportional to their tier but still competed fairly.
-
-**Priority score attribute**
-
-**Type**: Numeric, cumulative
-**Initial value**: 0 (or base priority set during classification)
-**Range**: 0 to 100,000
-**Update triggers**: Wait time intervals (minimum 30 seconds), transfer to selected queues
-**Prioritization criteria**: Primary sorting order by priority score in descending order, tie break sorting by conversation creation time (FIFO)
 
 ### Integration with existing features
 
