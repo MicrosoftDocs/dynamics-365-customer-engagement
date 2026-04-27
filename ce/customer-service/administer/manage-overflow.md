@@ -4,7 +4,7 @@ description: Learn how to set up overflow conditions and actions for your voice,
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 11/27/2025
+ms.date: 04/27/2026
 ms.topic: how-to
 ms.custom:
  - bap-template
@@ -197,6 +197,7 @@ You can configure the following wait time for the channels:
 - **Records**: 3 minutes to 2 days
 
 The "wait time in queue" condition is evaluated in any of the following scenarios:
+
 - Work item is routed to a queue via the route-to-queue rules.
 - Work item is transferred by a representative or supervisor to the queue.
 - Work item overflows from another queue.
@@ -220,6 +221,43 @@ If you set **End call** or **End conversation** as an overflow action, you can e
   :::image type="content" source="../media/voice-channel-overflow-end-call-message.png" alt-text="Screenshot of the list of automated messages.":::
 
 [Learn more about customizing automated messages](configure-automated-message.md#customize-automated-messages-at-the-channel-level).
+
+## Use AI-powered playbooks to configure overflow actions for work items in queue (preview)
+
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+Configure overflow handling to trigger immediately when eligible service representatives aren't available for a work item, instead of waiting for time or volume-based conditions.
+
+This capability is useful for scenarios where you want to avoid any wait time in the queue. For example, offering options such as callback or voicemail as soon as it’s determined that no representative can take the conversation.
+
+### How it works
+
+When a work item is added to a queue, the system evaluates whether any eligible service representatives are available using the same assignment criteria that are used for routing work items. This check happens before the work item is offered to a service representative. If no representatives meet the assignment requirements, the configured overflow action is triggered immediately.
+
+Configure immediate overflow by using a playbook in [conversation orchestration](/dynamics365/contact-center/administer/configure-conversation-orchestration).
+
+The playbook evaluates the condition **If no service representative is available** and runs the configured action.
+
+You can apply the playbook to:
+
+- All queues
+- Selected queues
+- All queues except specific queues
+
+You can configure the following actions.
+
+| Action | Description |
+|--------|-------------|
+| **Transfer to queue** | Route the conversation to a different queue |
+| **End conversation** | End the conversation with a message |
+| **Direct callback** | Offer the customer a callback option (Voice channel only) |
+| **Voicemail** | Route to voicemail for later follow-up (Voice channel only) |
+| **Transfer to an external number** |Transfer the call to an external contact(Voice channel only)|
+
+**Use with other overflow conditions**: Immediate overflow based on service representatives availability can be used together with other overflow conditions defined on the queue, such as follows:
+
+- Combine with wait-time conditions to handle cases where representatives are available but don’t accept the work item.
+- Provide fallback actions after a specified wait duration.
 
 ### Related information
 
