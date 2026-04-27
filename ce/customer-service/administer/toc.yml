@@ -520,10 +520,12 @@
         items:
         - name: Manage Customer Knowledge Management Agent
           href: admin-km-agent.md
-      - name: Quality Evaluation Agent
+      - name: Quality Management
         items:
         - name: Manage Quality Evaluation Agent
           href: /dynamics365/contact-center/administer/manage-quality-evaluation-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Configure governance policies (preview)
+          href: configure-governance-policies.md
     - name: Chat
       items:
       - name: Introduction to the chat channel
@@ -682,6 +684,8 @@
       items:
       - name: Manage Copilot features in Customer Service
         href: configure-copilot-features.md
+      - name: Configure Copilot Hub (preview)
+        href: configure-copilot-hub.md
       - name: Make Copilot available to agents
         href: configure-copilot-features.md#make-copilot-available-to-representatives
       - name: Case and conversation summaries

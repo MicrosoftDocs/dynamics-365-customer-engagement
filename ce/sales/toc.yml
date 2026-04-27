@@ -254,12 +254,16 @@ items:
                 href: view-sales-close-agent-engage-processed-records.md  
               - name: How the agent works
                 href: how-sales-close-agent-engage-mode-works.md
-          - name: AI-powered Data Enrichment (preview)
+          - name: AI-powered Data Enrichment
             items:
               - name: Overview
                 href: data-enrichment-agent-overview.md
               - name: Set up and configure Data Enrichment
                 href: data-enrichment-agent-configure.md
+              - name: Edit Data Enrichment settings
+                href: data-enrichment-agent-edit-settings.md
+              - name: Delete linked Microsoft 365 emails
+                href: delete-microsoft-365-email-link.md
               - name: Data Enrichment FAQ
                 href: data-enrichment-agent-faqs.md
           - name: Sales Research Agent
@@ -935,30 +939,30 @@ items:
                 href: view-sales-close-agent-engage-processed-records.md  
               - name: How the Sales Close Agent works
                 href: how-sales-close-agent-engage-mode-works.md
-          - name: AI-powered Data Enrichment (preview)
+          - name: AI-powered Data Enrichment
             items:
-              - name: Overview
-                href: data-enrichment-agent-overview.md
-              - name: Review and approve suggestions from Data Enrichment
-                href: use-data-enrichment-agent.md
+            - name: Overview
+              href: data-enrichment-agent-overview.md
+            - name: Review and approve suggestions from Data Enrichment
+              href: use-data-enrichment-agent.md
           - name: Sales Research Agent
             items:
-              - name: Overview
-                href: sales-research-agent.md
-              - name: Provide context to the agent
-                href: sales-research-agent-provide-context.md
-              - name: Connect the agent to different data sources
-                href: sales-research-agent-connect-data.md
-              - name: Connect the agent to Microsoft Fabric Lakehouse (preview)
-                href: sales-research-agent-lakehouse-integration.md
-              - name: Analyze your sales performance using the agent
-                href: use-sales-research-agent.md
-              - name: FAQs about Sales Research Agent
-                href: faqs-sales-research-agent.md
+            - name: Overview
+              href: sales-research-agent.md
+            - name: Provide context to the agent
+              href: sales-research-agent-provide-context.md
+            - name: Connect the agent to different data sources
+              href: sales-research-agent-connect-data.md
+            - name: Connect the agent to Microsoft Fabric Lakehouse (preview)
+              href: sales-research-agent-lakehouse-integration.md
+            - name: Analyze your sales performance using the agent
+              href: use-sales-research-agent.md
+            - name: FAQs about Sales Research Agent
+              href: faqs-sales-research-agent.md
       - name: Use Sales agent in Microsoft 365 Copilot
         items:
           - name: Use the Sales agent in Microsoft 365 Copilot
-            href: use-sales-agent-in-m365-copilot.md
+            href: /microsoft-sales-copilot/use-sales-chat?context=/dynamics365/context/sales-context
           - name: Use Microsoft 365 Copilot chat (preview)
             href: microsoft-365-copilot-chat-in-sales.md
       - name: Copilot in Dynamics 365 Sales
@@ -1598,7 +1602,7 @@ items:
         href: faqs-about-opportunity-research.md      
       - name: Responsible AI FAQs about Sales Close Agent (preview)
         href: faqs-about-sales-close-agent-engage.md  
-      - name: Responsible AI FAQs about Data Enrichment (preview)
+      - name: Responsible AI FAQs about Data Enrichment
         href: faqs-data-enrichment-agent.md
       - name: Responsible AI FAQs about Sales Research Agent
         href: faqs-about-sales-research-agent.md
