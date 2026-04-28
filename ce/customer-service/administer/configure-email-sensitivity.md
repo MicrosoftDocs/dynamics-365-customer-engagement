@@ -29,13 +29,12 @@ Before you add sensitivity labels to the email form, enable email data sensitivi
 
 Perform the following steps:
 
-1. In **Copilot Service admin center**, select **Settings** (gear icon) > **Advanced Settings**.
-1. Copy the environment URL from your address browser bar.
-1. Append the following string to the URL: `main.aspx?settingsonly=true#133657686`
-1. Open the modified URL in your browser.
-1. Go to **Email Configuration** > **Email settings**.
-1. On the **System Settings** page, select the **Email** tab.
-1. In the **Email data sensitivity** section, select **Enable data sensitivity labels for emails**.
+1. Go to [Power Apps](https://make.powerapps.com) and select your environment.
+1. In your browser's address bar, append the following string to the environment URL, and then open it: `main.aspx?settingsonly=true#133657686`
+1. On the **Settings** page, select **Email Configuration**. The **Email Configuration ** page appears.
+1. Select the **Email Configuration Settings**. The **System Settings** page appears.
+1. Select the **Email** tab.
+1. Select the **Enable data sensitivity labels for emails** checkbox.
 
    :::image type="content" source="../media/enable-data-sensitivity-labels-emails.png" alt-text="Screenshot of the Enable data sensitivity labels for emails checkbox on the System Settings page.":::
 
