@@ -149,6 +149,9 @@ After `the last </filter> tag of the <!-- Territory filter -->`, insert the foll
 
 Go to the schedule board. A maximum cost factor of 5 and an ascending sort order based on cost is available.
 
+> [!NOTE]
+> The schedule board user interface is not supported within the Power Apps Maker Portal. Use the schedule board in the app itself.
+
 ## Next steps
 
 - [Overview of scheduling extensibility](../../common-scheduler/developer/understanding-and-customizing-resource-matching-in-urs.md)
