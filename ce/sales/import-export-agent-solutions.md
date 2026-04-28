@@ -43,9 +43,13 @@ Export the agent from the source environment as a solution. During the export pr
     Select **Add existing** > **More** > **Other** and then add the following components:  
     - **SalesAgentProfile**. When you create the agent, a corresponding agent profile is automatically created. In the **Add existing SalesAgentProfile** pane, select the agent profile from the list of existing agent profiles.  
     - **SalesAgentConfigurationV2**. When you create the agent, corresponding agent configurations are automatically created with the same name as the agent profile. In the **Add existing SalesAgentConfigurationV2** pane, select the agent configuration that has the same name as the agent profile you selected.  
-    - **Sequence** (for Sales Qualification Agent only). When you create the Sales Qualification Agent, a corresponding sequence record is automatically created in the sequence component. In the **Add existing Sequence** pane, select the sequence record with the name **AgenticSequence**.  
+    - **Sequence** (for **Sales Qualification Agent** only). When you create the Sales Qualification Agent, a corresponding sequence record is automatically created in the sequence component. In the **Add existing Sequence** pane, select the sequence record with the name **AgenticSequence**.  
 
 1. Add knowledge sources.  
+
+    > [!NOTE]
+    > This step isn't applicable for **Data Enrichment Agent**.
+
     Select **Add existing** > **Agent** > **Agent** and then add agents that contain knowledge sources relevant to the agent you want to export. For example, if you're exporting the **Sales Opportunity Agent - Account Research**, knowledge sources related to account research are automatically added as part of the agent component. Each agent type requires a specific set of agents in the solution. The following table shows the agents you need to add for each agent solution.  
 
     | Sales agent solution type | Agents to add |
@@ -59,7 +63,7 @@ Export the agent from the source environment as a solution. During the export pr
 
 1. Save and publish the customizations.
 1. Select **Export** to export the solution and save it to a location on your computer.  
-    During the export process, choose the solution managed solution. A managed solution is typically used for production environments.
+    During the export process, choose the solution as managed solution. A managed solution is typically used for production environments.
     For more information about exporting solutions, see [Export solutions](/power-apps/maker/data-platform/export-solutions).  
 
 ## Import the agent solution into the target environment
@@ -82,7 +86,7 @@ Import the exported solution file into the target environment. During the import
 
 ### Configure and start the agent
 
-After you import the solution, the agent is imported in draft state. Open the agent and configure environment‑specific settings before starting the agent.
+After you import the solution, the agent is imported in draft state. Open the agent and configure environment‑specific settings before starting the agent. Configuring and starting the agent is different for [Sales Qualification Agent, Sales Opportunity Agent, Sales Close Agent](#for-sales-qualification-agent-sales-opportunity-agent-and-sales-close-agent), and [Data Enrichment Agent](#for-data-enrichment-agent). Follow the corresponding steps based on the type of agent you imported:
 
 #### For Sales Qualification Agent, Sales Opportunity Agent, and Sales Close Agent
 
@@ -114,7 +118,7 @@ After you import the solution, the agent is imported in draft state. Open the ag
 
 1. **Activate the agent**. After updating the environment‑specific settings, save and start the agent.
 
-#### For Deal Enrichment Agent
+#### For Data Enrichment Agent
 
 1. **Configure the prerequisites**. The exported solution doesn't include prerequisites because they often contain environment‑specific values that might differ between source and target environments. See [Configure prerequisites](data-enrichment-agent-configure.md#prerequisites) for more information.  
 
