@@ -30,6 +30,10 @@ You can perform the following tasks in the communication panel:
 - Generate a summary of the conversation. Learn more in [View and share auto-summarized conversations](cs-ai-generated-summary.md).
 - [Use Copilot to summarize conversations](/dynamics365/contact-center/use/copilot-summarize-conversations).
 
+## Prerequisites
+
+Make sure **Resizable Communication Panel** check box is selected in Copilot Service admin center > **Operations** > **Miscellaneous** > **New and upcoming features** to be able to resize your communication panel.
+
 ## Enhance productivity by using keyboard commands
 
 The communication panel has options that you can use to perform actions, such as see quick replies, consult, and transfer, and launch notes control. You can also use keyboard commands to perform these actions.
