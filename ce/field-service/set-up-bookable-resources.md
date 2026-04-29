@@ -150,6 +150,45 @@ To enable features like routing, travel estimations, or the map view of the sche
 
 1. Confirm geocoding works. Open the **Schedule Board** and verify that the resource appears on the map. Select a resource to highlight their location on the map.
 
+## Manage resource availability and lifecycle
+
+Over time, resources leave the organization, change roles, or their contracts end. To prevent expired or inactive resources from appearing on the schedule board or being booked, use the following controls.
+
+### Remove a resource from the schedule board
+
+To stop a resource from showing on the schedule board without deactivating the record:
+
+1. Open the resource record and select the **Scheduling** tab.
+1. Set **Display On Schedule Board** to **No**.
+1. Set **Enable for Availability Search** to **No** to also exclude the resource from schedule assistant results.
+1. **Save** the record.
+
+The resource record remains active and retains its booking history, but dispatchers no longer see it when scheduling new work.
+
+### Deactivate a resource
+
+Deactivating a bookable resource record removes it from schedule board views and schedule assistant results entirely.
+
+1. Open the resource record.
+1. On the command bar, select **Deactivate**.
+1. Confirm the deactivation.
+
+> [!NOTE]
+> Deactivating a resource doesn't cancel existing bookings assigned to that resource. Review and reassign any upcoming bookings before you deactivate the resource to avoid unattended work orders.
+
+### Update work hours for temporary changes
+
+If a resource is temporarily unavailable (for example, during a leave of absence), update their work hours instead of deactivating the record:
+
+1. Open the resource record and select the **Work Hours** tab.
+1. Add a **Time Off** entry for the period the resource is unavailable.
+1. The schedule board grays out the resource's time slots and the schedule assistant excludes them during that period.
+
+For more information, see [Submit and approve time-off requests](submit-approve-time-off-requests.md).
+
+> [!TIP]
+> If expired resources still appear on your schedule board, check whether the board tab uses a custom resource view that includes inactive records. Update the view to filter on active resources only, or use [board tab settings](schedule-board-tab-settings.md) to apply a territory or resource filter.
+
 ## Related information
 
 - [Show appointments on the schedule board](appointment-scheduling.md)

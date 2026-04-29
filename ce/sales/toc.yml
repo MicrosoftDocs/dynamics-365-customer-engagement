@@ -272,6 +272,8 @@ items:
                 href: sales-research-agent.md
               - name: Set up and configure Sales Research Agent
                 href: configure-sales-research-agent.md
+          - name: Import an agent into a target environment
+            href: import-export-agent-solutions.md
           - name: Manage consumption-based billing
             href: copilot-consumption-based-billing.md
           - name: Copilot Studio agents and Entra app registrations
@@ -957,6 +959,12 @@ items:
               href: use-sales-research-agent.md
             - name: FAQs about Sales Research Agent
               href: faqs-sales-research-agent.md
+      - name: Use Sales agent in Microsoft 365 Copilot
+        items:
+          - name: Use the Sales agent in Microsoft 365 Copilot
+            href: /microsoft-sales-copilot/use-sales-chat?context=/dynamics365/context/sales-context
+          - name: Use Microsoft 365 Copilot chat (preview)
+            href: microsoft-365-copilot-chat-in-sales.md
       - name: Copilot in Dynamics 365 Sales
         items:
           - name: Copilot overview
