@@ -36008,6 +36008,16 @@
      "source_path": "ce/customer-service/use/oc-sign-in-omnichannel.md",
      "redirect_url": "/dynamics365/contact-center/use/ccw-overview",
      "redirect_document_id": "false"
-    }
+    },
+    {
+     "source_path": "ce/customer-service/develop/suggested-actions.md",
+     "redirect_url": "/dynamics365/customer-service/develop/customize-chat-widget",
+     "redirect_document_id": "false"
+    },
+    {
+     "source_path": "ce/customer-service/administer/csac-resize-cp.md",
+     "redirect_url": "/dynamics365/customer-service/use/oc-conversation-control",
+     "redirect_document_id": "false"
+    }  
   ]
 }
