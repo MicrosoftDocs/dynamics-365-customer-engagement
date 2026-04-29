@@ -34,7 +34,7 @@ In the **User access** section of the [Data Enrichment settings](#open-settings)
 You can choose one of the following options:
  
 - **All users with premium license**: Select this option to allow all users with a Dynamics 365 Sales Premium license to access the agent's suggestions.
-- **Specific groups**: Select this option to allow specific sellers (up to 10 of them) or those who meet certain criteria to access the agent's suggestions. You can either select individual users or specify criteria based on fields such as sales team, job title, or geography to determine who can access the agent's suggestions.  
+- **Specific groups**: Select this option to allow specific sellers (up to 10 users) or those who meet certain criteria to access the agent's suggestions. You can either select individual users or specify criteria based on fields such as sales team, job title, or geography to determine who can access the agent's suggestions.  
 
 ## Select records for enrichment
 
