@@ -3,7 +3,7 @@ title: Connect the Sales Research Agent to a different data source or upload dat
 description: Learn how to connect the Sales Research Agent to your data.
 manager:
 ms.date: 03/31/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs

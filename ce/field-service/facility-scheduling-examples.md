@@ -26,9 +26,9 @@ The following examples show how to schedule multiple spaces at a facility or res
 
 An auto repair shop has five identical bays and schedulers don't need to book each bay specifically. They must, however, ensure that no more than five repairs are booked across all bays during any one time slot.
 
-1. [Create a facility resource](facility-scheduling.md#create-a-facility-resource). On the **Work Hours** tab, enable **Capacity** and set it to 5. For more information on capacity, go to [Add work hours](set-up-bookable-resources.md#add-work-hours).
+1. [Create a facility resource](facility-scheduling.md#step-1-create-a-facility-resource). On the **Work Hours** tab, enable **Capacity** and set it to 5. Learn more in [Add work hours](set-up-bookable-resources.md#add-work-hours).
 
-1. [Create a requirement for the facility](facility-scheduling.md#create-a-requirement-for-a-facility).
+1. [Create a requirement for the facility](facility-scheduling.md#step-2-create-a-requirement-for-a-facility) with **Work Location** set to **Facility**.
 
 1. Book the requirements at the facility. The facility resource shows as available and can be double-booked up to the capacity limit (in this case, five times).
 
@@ -39,7 +39,7 @@ An auto repair shop has five identical bays and schedulers don't need to book ea
 
 An auto repair shop offers transmission repairs including luxury cars. They have a mechanic that specializes in luxury cars. Schedulers want to schedule the specialized mechanic at their facility. You can associate a resource (user, account, or contact) to a facility.
 
-1. [Create a facility resource](facility-scheduling.md#create-a-facility-resource) for the auto repair shop.
+1. [Create a facility resource](facility-scheduling.md#step-1-create-a-facility-resource) for the auto repair shop.
 
 1. Create a resource to represent the specialized mechanic.
 
@@ -54,7 +54,7 @@ An auto repair shop offers transmission repairs including luxury cars. They have
 
    :::image type="content" source="media/scheduling-facility-associate-resource.png" alt-text="Screenshot of the association between the mechanic resource and facility resource.":::
 
-1. [Create a requirement group](facility-scheduling.md#create-a-requirement-for-a-facility) with one requirement for the facility (auto repair shop) and another requirement for the mechanic resource.
+1. [Create a requirement group](facility-scheduling.md#step-2-create-a-requirement-for-a-facility) with one requirement for the facility (auto repair shop) and another requirement for the mechanic resource.
 
    - Set **Select** to **All** so that all requirements must be met.
    - Set **Part of Same** to **Resource Tree** so that resources from different locations aren't recommended for work at this facility. As an example, a mechanic associated with Facility B shouldn't be paired with Facility A.
@@ -72,7 +72,7 @@ An auto repair shop offers transmission repairs including luxury cars. They have
 
 An auto repair shop wants to schedule each individual bay at their facility. Create a pool of facilities to represent the auto repair shop and each individual bay.
 
-1. [Create a facility resource](facility-scheduling.md#create-a-facility-resource) for the auto repair shop where the **Resource Type = Pool** and **Pool Type = Facility**.
+1. [Create a facility resource](facility-scheduling.md#step-1-create-a-facility-resource) for the auto repair shop where the **Resource Type = Pool** and **Pool Type = Facility**.
 
 1. Create multiple facility resources to represent each bay.
 
@@ -86,7 +86,7 @@ An auto repair shop wants to schedule each individual bay at their facility. Cre
 
    :::image type="content" source="media/scheduling-facility-room-specific-children.png" alt-text="Screenshot of all bay resources related as children to the auto repair shop facility.":::
 
-1. [Create a requirement group](facility-scheduling.md#create-a-requirement-for-a-facility). In this example, we're looking for two specific bays within the same auto repair shop. Create two requirements in the group.
+1. [Create a requirement group](facility-scheduling.md#step-2-create-a-requirement-for-a-facility). In this example, we're looking for two specific bays within the same auto repair shop. Create two requirements in the group.
 
    - Set **Part of Same** to **Same Location** to ensure each bay is at the same physical address.
    - Set duration, characteristics, or other criteria.
@@ -104,7 +104,7 @@ An auto repair shop wants to schedule each individual bay at their facility. Cre
 
 An auto repair shop wants to schedule specific bays at their facility to a pool of specialized mechanics who work at the facility. Create a pool of facilities and a pool of mechanics.
 
-1. [Create a facility pool resource](facility-scheduling.md#create-a-facility-resource) for the auto repair shop where the **Resource Type = Pool** and **Pool Type = Facility**.
+1. [Create a facility pool resource](facility-scheduling.md#step-1-create-a-facility-resource) for the auto repair shop where the **Resource Type = Pool** and **Pool Type = Facility**.
 
 1. Create facility resources to represent each bay.
 

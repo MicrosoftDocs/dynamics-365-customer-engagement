@@ -1,7 +1,8 @@
 ---
 title: Use the schedule board in Field Service
 description: Learn about the schedule board experience in Dynamics 365 Field Service.
-ms.date: 03/24/2026
+ms.date: 04/24/2026
+ms.custom: bap-template
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
@@ -9,11 +10,11 @@ ms.author: mkelleher
 
 # Use the schedule board in Field Service
 
-[!INCLUDE[use-schedule-board.md](../shared/urs/use-schedule-board.md)]
+[!INCLUDE[use-schedule-board](../shared/urs/use-schedule-board.md)]
 
 ## View appointments on the schedule board
 
-If your [organization enabled appointments](appointment-scheduling.md#enable-appointments-for-your-organization), you can view them on the schedule board. Appointments are read-only and you can't move them. They show for all required attendees and the owner. Hover over an appointment to see more details.
+If your [organization enabled appointments](appointment-scheduling.md#enable-appointments-for-your-organization), you can view them on the schedule board. Appointments are read-only and you can't move them. They show for all required attendees and the owner. To see more details, hover over an appointment.
 
 Appointments marked *Private* in Outlook and synced to Dynamics 365 don't show their subject on the schedule board.
 
@@ -35,7 +36,7 @@ Select **Book resources (Preview)** to let the system find the optimal resources
 
 ### Optimize the schedule of a single resource
 
-After a resource's planned schedule has changed due to cancellations or emergency work, you can use Resource Scheduling Optimization for reoptimization. To optimize only a resource's schedule, right-click a resource on the schedule board and select **Optimize schedule**. Learn more: [Single resource optimization with Resource Scheduling Optimization](rso-single-resource-optimization.md).
+After a resource's planned schedule changes due to cancellations or emergency work, use Resource Scheduling Optimization for reoptimization. To optimize only a resource's schedule, right-click a resource on the schedule board and select **Optimize schedule**. Learn more in [Single resource optimization with Resource Scheduling Optimization](rso-single-resource-optimization.md).
 
 ## Known behavior changes with the new schedule board
 
@@ -48,5 +49,12 @@ When you switch to the new schedule board experience, you might notice the follo
 | Requirement view uses "Starts with" filtering | To improve performance and reduce the risk of throttling, filters in the Requirement view now use **Starts with** instead of **Contains**. | To use **Contains**, apply a column-level filter. |
 | Requirement lookup uses Requirement panel view | When you book a requirement, the lookup now uses the same view as the Requirement panel instead of the default lookup view. This change is fixed as of release [8.8.133.214](version-history-archive.md#88133214). | No action needed. |
 | RSO checkboxes limited to RSO extension tab | For organizations with Resource Scheduling Optimization (RSO): checkboxes now appear only on the RSO extension tab (which uses the classic board), not on other schedule board tabs. | Use the RSO extension tab to access checkboxes. |
+
+## Next steps
+
+- [Filter resources and requirements](schedule-board-filtering.md)
+- [Drag and drop scheduling](schedule-board-drag-drop.md)
+- [Manual scheduling](schedule-board-manual-scheduling.md)
+- [Review resource utilization](schedule-board-utilization.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
