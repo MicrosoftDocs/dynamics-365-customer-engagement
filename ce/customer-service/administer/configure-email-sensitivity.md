@@ -6,7 +6,7 @@ ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to 
 ms.collection: 
-ms.date: 04/23/2026
+ms.date: 05/01/2026
 ---
 
 # Configure sensitivity label support for emails
