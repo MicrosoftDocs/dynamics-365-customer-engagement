@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
-ms.date: 04/14/2026
+ms.date: 05/01/2026
 ---
 
 # Use sensitivity labels in emails
