@@ -36,13 +36,15 @@ Depending on your role, refer to the following articles to set up and use the AI
 
 | User role | Reference |
 |-----------|-----------|
-| Administrator | [Set up and configure AI-powered Data Enrichment](data-enrichment-agent-configure.md)<br>[Responsible AI FAQ about AI-powered Data Enrichment for opportunities](FAQs-data-enrichment-agent.md) |
+| Administrator | [Set up and configure AI-powered Data Enrichment](data-enrichment-agent-configure.md)<br>[Edit AI-powered Data Enrichment settings](data-enrichment-agent-edit-settings.md)<br>[Responsible AI FAQ about AI-powered Data Enrichment for opportunities](FAQs-data-enrichment-agent.md) |
 | Seller | [Review and approve Data Enrichment suggestions](use-data-enrichment-agent.md) |
 
 
 ## Capacity usage
 
-AI-powered Data Enrichment runs as a background process that monitors seller emails. It doesn't process all emails but focuses on those relevant to opportunities owned by the sellers. Assuming a scenario where a seller receives around 100 emails per day with the following distribution: 
+AI-powered Data Enrichment runs as a background process that monitors seller emails. It doesn't process all emails but focuses on those relevant to opportunities owned by the sellers. 
+
+**Example:** Assuming a scenario where a seller receives around 100 emails per day with the following distribution: 
 
 - 35 are internal emails, which are skipped by the agent.
 - 25 are from external contacts who aren't registered in the system, thus treated as personal and not processed by the agent.

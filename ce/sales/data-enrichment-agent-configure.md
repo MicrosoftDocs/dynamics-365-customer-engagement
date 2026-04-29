@@ -39,7 +39,7 @@ Ensure that you meet the following prerequisites:
    > [!NOTE]
    > Sales Opportunity Agent and Data Enrichment use the same Microsoft 365 Services and Dataverse Search configuration. If you have already [configured these prerequisites for Sales Opportunity Agent](configure-requirements-for-sales-close-agent-research.md), they will be marked as done for Data Enrichment too. 
    
-   - - **Dataverse Search**: Data Enrichment uses Dataverse Search to find and enrich records in Dynamics 365 Sales. If you didn't set up Dataverse Search, select **Set up** to open the **Features** page in Power Platform admin center. Learn more about [configuring Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization). After setting up Dataverse Search, return to the agent configuration page and select **Refresh** to update the status of this prerequisite. 
+   - **Dataverse Search**: Data Enrichment uses Dataverse Search to find and enrich records in Dynamics 365 Sales. If you didn't set up Dataverse Search, select **Set up** to open the **Features** page in Power Platform admin center. Learn more about [configuring Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization). After setting up Dataverse Search, return to the agent configuration page and select **Refresh** to update the status of this prerequisite. 
   
    - **Microsoft 365 Services**: To allow the agent to read seller emails and fetch relevant data for enrichment, select **Mark as done** and then **Apply changes**. Sellers are prompted to provide consent the first time they access the **Opportunity** page. This method reads emails in place without storing them in CRM. The agent uses emails from Microsoft 365 to generate suggestions for opportunity records.
    
@@ -59,11 +59,11 @@ Ensure that you meet the following prerequisites:
     | Action | Enrich BANT-related fields in the opportunity record |
     | Schedule | Runs everyday |
     | Behavior | Suggests field updates based on email conversations (seller approval required) |
-    | Data sources | Email, Outlook |
+    | Data sources | Outlook |
     
 1. Do *ONE* of the following:
-    - Review the recommended settings and select **Start agent** if the default settings work for your business needs. 
-    - Select **Edit in settings** to customize the configuration. Learn more about configuring the settings in the [Configure AI-powered Data Enrichment settings](data-enrichment-agent-edit-settings.md) article.
+    - Review the recommended settings and select **Start agent** if the default settings work for your business needs. The agent doesn't analyze any opportunity records or emails until sellers [provide consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to read their emails. The consent is specific to each seller. 
+    - Select **Edit in settings** to customize the configuration. The agent doesn't start until you finish configuring the settings. Learn more about configuring the settings in the [Configure AI-powered Data Enrichment settings](data-enrichment-agent-edit-settings.md) article.
 
 ## Migrate agents across environments
 
