@@ -32,7 +32,7 @@ You can perform the following tasks in the communication panel:
 
 ## Prerequisites
 
-Make sure **Resizable Communication Panel** check box is selected in Copilot Service admin center > **Operations** > **Miscellaneous** > **New and upcoming features** to be able to resize your communication panel.
+Make sure that the **Resizable Communication Panel** check box is selected in Copilot Service admin center > **Operations** > **Miscellaneous** > **New and upcoming features** so you can resize your communication panel.
 
 ## Enhance productivity by using keyboard commands
 

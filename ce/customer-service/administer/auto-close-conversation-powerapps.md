@@ -1,6 +1,6 @@
 ---
 title: Close conversations automatically
-description: Use this article to understand how to configure the auto-close duration of conversations in Dynamics 365 Customer Service and Contact Center.
+description: Use this article to understand how to configure the auto-close duration of conversations in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 ms.date: 04/28/2026
 ms.topic: how-to
 author: gandhamm

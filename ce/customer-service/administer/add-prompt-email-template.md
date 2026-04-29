@@ -1,6 +1,6 @@
 ---
 title: Add Copilot prompts to email templates 
-description: Learn how to add Copilot prompts to email templates in Dynamics 365 Customer Service and Contact Center.
+description: Learn how to add Copilot prompts to email templates in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 ms.date: 04/29/2025
 ms.topic: how-to
 author: gandhamm
@@ -49,7 +49,7 @@ You have an email template that contains the following text:
 
 When the service representative inserts this template, they have to manually add the personal statement of empathy and level of urgency. This takes time and can lead to inconsistencies in the tone of the email.
 
-If you replace this instruction in the template with a Copilot prompt, "Add warranty information and pitch extended warranty," the service representative can quickly generate a personalized response that includes the warranty information and a pitch for an extended warranty.
+If you replace this instruction in the template with a Copilot prompt like, "Add warranty information and pitch extended warranty," the service representative can quickly generate a personalized response that includes both the warranty information and a pitch for an extended warranty.
 
 ## Related information
 
