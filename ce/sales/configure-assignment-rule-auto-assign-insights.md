@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to 
 ms.collection: 
-ms.date: 04/02/2025
+ms.date: 04/30/2026
 ms.custom: bap-template 
 ---
 
@@ -14,12 +14,12 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Create assignment rules to assign insights to sellers. In this way, you ensure that the insights that are displayed to the sellers are relevant to them. These rules also prevent every insight from being displayed to every seller.
+Create assignment rules to assign insights to sellers. By using this method, you ensure that the insights displayed to the sellers are relevant to them. These rules also prevent every insight from being displayed to every seller.
 
-For the **Seller insights** option to appear in assignment rules, the **Insights** record type and the **Insights** form must be added to the sales accelerator workspace. [Learn how to add a record type and form.](enable-configure-sales-accelerator.md#choose-content-and-layout)
+For the **Seller insights** option to appear in assignment rules, add the **Insights** record type and the **Insights** form to the sales accelerator workspace. [Learn how to add a record type and form.](enable-configure-sales-accelerator.md#choose-content-and-layout)
 
 > [!NOTE]
-> To learn more about assignment rules, go to [Manage assignment rules for routing](create-manage-assignment-rules.md).
+> To learn more about assignment rules, see [Manage assignment rules for routing](create-manage-assignment-rules.md).
 
 ## Configure an assignment rule
 

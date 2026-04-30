@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 03/07/2025
+ms.date: 04/30/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -15,10 +15,10 @@ ms.custom:
 
 # Delete or deactivate assignment rules
 
-Sometimes, you might want to get rid of assignment rules that are no longer relevant or useful for your sales team's activities. You have two options to do this in Dynamics 365 Sales Hub:
+Sometimes, you might want to remove assignment rules that are no longer relevant or useful for your sales team's activities. In Dynamics 365 Sales Hub, you have two options:
 
-- **Deactivate a rule** to keep it in the app but stop it from assigning any new records. The records that were already assigned remain assigned. You can reactivate the rule later if you need it again.
-- **Delete a rule** to remove it from the app completely. The records that were already assigned aren't affected. You can't undo this action.
+- **Deactivate a rule** to keep it in the app but stop it from assigning any new records. The records that are already assigned remain assigned. You can reactivate the rule later if you need it again.
+- **Delete a rule** to remove it from the app completely. The records that are already assigned aren't affected. You can't undo this action.
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 

@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 03/31/2025
+ms.date: 04/30/2026
 ms.custom: bap-template 
 ---
 
@@ -13,13 +13,13 @@ ms.custom: bap-template
 
 A *Custom instance* is the representation of a provider in Dynamics 365 Sales. When you create the channel, you need to configure a sender&mdash;for example, the sender of a text message. Each instance of a channel&mdash;that is, the entity **Channel Instance**&mdash;represents a single sender.
 
-For each channel solution, you need to:
+For each channel solution, complete the following steps:
 
 1. [Create a custom table](/power-apps/maker/data-platform/data-platform-create-entity) to represent the extended configuration of the **Channel Instance** table (**msdyn_channelinstance**) defined in the base solution.
 
-    The name of the table is assigned to the attribute **msdyn_channeldefinitionexternalentity** at the [channel definition step](custom-define-sms-definition.md).
+    Assign the name of the table to the attribute **msdyn_channeldefinitionexternalentity** at the [channel definition step](custom-define-sms-definition.md).
 
-1. [Create and edit One-to-many or Many-to-one table relationships](/power-apps/maker/data-platform/create-edit-1n-relationships-portal) to the base **Channel Instance** table in the `msdyn_extendedentityid` attribute.
+1. [Create and edit one-to-many or many-to-one table relationships](/power-apps/maker/data-platform/create-edit-1n-relationships-portal) to the base **Channel Instance** table in the `msdyn_extendedentityid` attribute.
 
     This attribute is a [polymorphic lookup](/power-apps/developer/data-platform/webapi/multitable-lookup). Here's an example of the relationship in XML:
 
@@ -62,7 +62,7 @@ For each channel solution, you need to:
 
 1. Create a form to expose the configuration fields.
 
-    The form is loaded in the Sales setup wizard. The form ID is assigned to the attribute **msdyn_channeldefinitionexternalformid** at the [channel definition step](custom-define-sms-definition.md).
+    The Sales setup wizard loads the form. Assign the form ID to the attribute **msdyn_channeldefinitionexternalformid** at the [channel definition step](custom-define-sms-definition.md).
 
     :::image type="content" source="media/sms-custom-form.png" alt-text="Screenshot of a form for an SMS channel.":::
 

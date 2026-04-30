@@ -5,13 +5,13 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 03/31/2025
+ms.date: 04/30/2026
 ms.custom: bap-template 
 ---
 
-# Define localization for the admin interface (optional)
+# Define localization for the admin interface
 
-If you want to localize your admin interface for a diverse audience, you need to define a **Channel Definition Locale** entity. When your solution is imported, a new row for every [message part](custom-sms-message-parts.md) is created in the **msdyn_channeldefinitionlocale** table.
+To localize your admin interface for a diverse audience, define a **Channel Definition Locale** entity. When you import your solution, the process creates a new row for every [message part](custom-sms-message-parts.md) in the **msdyn_channeldefinitionlocale** table.
 
 ## Channel Definition Locale contract
 
@@ -28,7 +28,7 @@ Primary ID attribute name: **msdyn_channeldefinitionlocaleid**
   - **ChannelMessagePart.%partname%.DisplayName** - override for msdyn_channelmessagepart.msdyn_displayname attribute content in UI for the message part of the channel with name %partname%.
   - **ChannelMessagePart.%partname%.Description** - override for msdyn_channelmessagepart.msdyn_description description content in UI for the message part of the channel with name %partname%.
 
-Channel definition locales are defined in **customizations.xml** as solution components. Place every **msdyn_channeldefinitionlocale** under **ImportExportXml** > **msdyn_channeldefinitionlocales** elements. Each message part element **msdyn_channeldefinitionlocale** must include its own unique ID in the form of the GUID as the XML attribute **msdyn_channeldefinitionlocaleid**.
+Define channel definition locales in **customizations.xml** as solution components. Place every **msdyn_channeldefinitionlocale** under **ImportExportXml** > **msdyn_channeldefinitionlocales** elements. Each message part element **msdyn_channeldefinitionlocale** must include its own unique ID in the form of the GUID as the XML attribute **msdyn_channeldefinitionlocaleid**.
 
 Example of **customizations.xml** including channel definition locales:
 
