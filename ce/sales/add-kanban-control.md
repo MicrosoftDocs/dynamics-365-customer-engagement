@@ -1,7 +1,7 @@
 ---
 title: Add Kanban control to entities to opportunities or activities
 description: Add the Kanban control to create Kanban views that help sellers to manage their opportunities or activities effectively.
-ms.date: 01/31/2025
+ms.date: 04/30/2026
 ms.topic: how-to
 ms.custom: bap-template
 author: lavanyakr01
