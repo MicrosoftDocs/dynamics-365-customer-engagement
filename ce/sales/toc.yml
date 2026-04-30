@@ -1586,27 +1586,27 @@ items:
     items:
       - name: Overview
         href: responsible-ai-overview.md
-      - name: Responsible AI FAQs about summarization in Copilot
+      - name: Responsible AI FAQ about summarization in Copilot
         href: faqs-sales-copilot-for-summarization.md
-      - name: Responsible AI FAQs about natural language chat in Copilot
+      - name: Responsible AI FAQ about natural language chat in Copilot
         href: faqs-sales-copilot-natural-language.md
-      - name: Responsible AI FAQs about email in Copilot
+      - name: Responsible AI FAQ about email in Copilot
         href: faqs-sales-copilot-for-email.md
-      - name: Responsible AI FAQs about Sales Qualification Agent
+      - name: Responsible AI FAQ about Sales Qualification Agent
         items:
-          - name: Responsible AI FAQs about Research-only mode
+          - name: Responsible AI FAQ about Research-only mode
             href: faqs-sales-qualification-agent.md
-          - name: Responsible AI FAQs about Engage mode
+          - name: Responsible AI FAQ about Engage mode
             href: faqs-sales-qualification-agent-engage.md
-      - name: Responsible AI FAQs about Sales Opportunity Agent
+      - name: Responsible AI FAQ about Sales Opportunity Agent
         href: faqs-about-opportunity-research.md      
-      - name: Responsible AI FAQs about Sales Close Agent (preview)
+      - name: Responsible AI FAQ about Sales Close Agent (preview)
         href: faqs-about-sales-close-agent-engage.md  
-      - name: Responsible AI FAQs about Data Enrichment
+      - name: Responsible AI FAQ about Data Enrichment
         href: faqs-data-enrichment-agent.md
-      - name: Responsible AI FAQs about Sales Research Agent
+      - name: Responsible AI FAQ about Sales Research Agent
         href: faqs-about-sales-research-agent.md
-      - name: Responsible AI FAQs about chat with Sales data in Microsoft 365 Copilot (preview)
+      - name: Responsible AI FAQ about chat with Sales data in Microsoft 365 Copilot (preview)
         href: Microsoft-365-Copilot-for-Sales.md
   - name: Resources for other Sales apps
     items:

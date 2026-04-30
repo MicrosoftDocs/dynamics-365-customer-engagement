@@ -1,12 +1,12 @@
 ---
 title: Use session connector macros
-description: Learn how to use session connector to create macros.
+description: Learn how to use session connector to create macros in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
 ms.collection: 
-ms.date: 05/05/2025
+ms.date: 04/22/2026
 ms.custom: bap-template 
 ---
 
