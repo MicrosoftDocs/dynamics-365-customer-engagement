@@ -1,5 +1,5 @@
 ---
-title: Configure sensitivity labels in emails
+title: Configure sensitivity labels for emails
 description: Learn how to configure sensitivity label support for emails in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 author: lalexms
 ms.author: laalexan
