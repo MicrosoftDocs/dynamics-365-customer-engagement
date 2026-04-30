@@ -1,7 +1,7 @@
 ---
 title: View assigned records and details
 description: Learn how to view assigned records in Dynamics 365 Sales so that you can assign them to sellers manually or run assignment rules again.
-ms.date: 12/09/2024
+ms.date: 04/30/2026
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -15,23 +15,23 @@ ms.custom:
 
 # View assigned records and details
 
-View assigned records to reassign them to different sellers or teams. Also, you get detailed information of the record such as topic, owner, created on date, and error details depending on the record type. The supported default record types are leads, opportunities, contacts, and accounts.
+View assigned records to reassign them to different sellers or teams. You also get detailed information about the record, such as topic, owner, created on date, and error details depending on the record type. The supported default record types are leads, opportunities, contacts, and accounts.
 
 ## View assigned records
 
-1. Go to **Sales Insights settings**, under **Sales accelerator**, select **Work assignment**.  
+1. Go to **Sales Insights settings**. Under **Sales accelerator**, select **Work assignment**.  
 1. Select a **Record type** to view segments for that type.  
 1. Select **Monitor *record type***.
 
     :::image type="content" source="media/wa-home-page-unassigned-records-column.png" alt-text="Screenshot of select the monitor leads option.":::
 
     The monitor record page has the following tabs:  
-    - **To be processed**: Lists the records that are scheduled for process. Any records listed here are automatically assigned to sellers, teams, or queues by the application, and might take up to two minutes.  
-    - **Processed**: Lists the records that are processed. Information of each record is displayed such as, record's name, status, along with name of the connected segment, assignment rule, and sequence (as applicable).  
-        When a record isn't connected to a segment, assignment rule, or sequence, the **Status** column displays **Needs attention**. An information icon is displayed corresponding to the column. Hover over the icon to view the error details. To know more about the error details and resolve the issue, see [View record status details](#view-record-status-details).
+    - **To be processed**: Lists the records that are scheduled for process. The application automatically assigns any records listed here to sellers, teams, or queues, and the process might take up to two minutes.  
+    - **Processed**: Lists the records that are processed. Information for each record is displayed, such as the record's name and status, along with the name of the connected segment, assignment rule, and sequence (as applicable).  
+        When a record isn't connected to a segment, assignment rule, or sequence, the **Status** column displays **Needs attention**. An information icon is displayed corresponding to the column. Hover over the icon to view the error details. To learn more about the error details and resolve the issue, see [View record status details](#view-record-status-details).
 
     > [!NOTE]
-    > Though there are no issues with a record, you still view the status as **Needs attention**. This is because the record is created using the previous version of the work assignment feature. Also, you can see that the **Sequence** column is empty for such records.  
+    > Though there are no problems with a record, you still see the status as **Needs attention**. This status is because the record was created by using the previous version of the work assignment feature. Also, you can see that the **Sequence** column is empty for such records.  
 
     :::image type="content" source="media/sa-ar-view-unassigned-records-view-records.png" alt-text="Screenshot of the list of unassigned lead records.":::
 

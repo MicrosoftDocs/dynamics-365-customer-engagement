@@ -1,7 +1,7 @@
 ---
-title: Extend assistant card type (custom card)
+title: Extend assistant card type (custom card) (Sample)
 description: Learn how to download and what resources are present to create a custom actions or learn about extending the assistant action card.
-ms.date: 12/04/2024
+ms.date: 04/30/2026
 ms.custom: 
 ms.topic: sample
 ms.assetid: 1b7a3dda-59c9-4b5d-b4b2-7fbc039a3f22
@@ -11,25 +11,26 @@ ms.reviewer: udag
 ms.suite: 
 ms.tgt_pltfrm: 
 ---
+
 # Sample: Extend assistant card type (custom card)  
 
-Learn how to download and what resources are present to create a custom actions or learn about extending the assistant action card.
+Learn how to download the sample and what resources are available to create custom actions or learn about extending the assistant action card.
 
 ## Create custom action card
 The following process explains how to create a custom card:  
 
-- **Step 1:** Download the extend Assistant card type sample solution
-- **Step 2:** Build the solution (ExtPkgDeployer.sln)
-- **Step 3:** Import the package using the package deployer tool
-- **Step 4:** Verify the new card type
-- **Step 5:** Create Action card for the new card type using the Web API.
-- **Step 6:** Verify the new custom card 
+- **Step 1:** Download the extend assistant card type sample solution.
+- **Step 2:** Build the solution (ExtPkgDeployer.sln).
+- **Step 3:** Import the package by using the package deployer tool.
+- **Step 4:** Verify the new card type.
+- **Step 5:** Create action card for the new card type by using the Web API.
+- **Step 6:** Verify the new custom card. 
 
 ## Prerequisites
 
 Review the prerequisites before you create the custom cards in your organization:
 
-- You must have the Package Deployer tool (packagedeployer.exe) to deploy packages. To download the package deployer, see [Download tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget)
+- You must have the Package Deployer tool (packagedeployer.exe) to deploy packages. To download the package deployer, see [Download tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget).
 
 - To use this feature, you must purchase a **Dynamics 365 Sales Insights** license, or start a trial to use Sales Insights features.
 
@@ -49,7 +50,7 @@ Go to the path `ExtPkgDeployer\PkgFolder\extensibility_example_sol\WebResources`
 
 ### Schema Definition (new_cardtype_schemaxml9dd7e039-33a1-4778-9972-66536dc5e829)
 
-The contains schema definition for new card type.
+The schema definition for the new card type.
 > [!NOTE]
 > Ensure that card type ID value is greater than 10000.
 
@@ -68,7 +69,7 @@ The contains schema definition for new card type.
 
 ### Command (new_commands8db43275-0291-401d-923a-90a6c373cc18)
 
-The file contains the command for action card.
+The file contains the command for the action card.
 
 ```JavaScript
 function CardCommand() {
@@ -76,7 +77,7 @@ function CardCommand() {
 }
 ```
 
-When you execute the command, the command is invoked through the `RibbonDiff` defined in the **customization.xml** of the **ActionCard** entity.
+When you execute the command, the `RibbonDiff` defined in the **customization.xml** of the **ActionCard** entity invokes the command.
 
 ```XML
 <ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -182,19 +183,19 @@ When you execute the command, the command is invoked through the `RibbonDiff` de
 
 ### Icon (new_msicon6aa7c568-4830-4da6-89f9-18a8fd9c2285)
 
-The file contains the icon that is used for the card.
+The file contains the icon that the card uses.
 
 ## Step 2: Build the solution (ExtPkgDeployer.sln)
 
-1. Open command prompt (cmd).
+1. Open Command Prompt (cmd).
 
-2. Go to the root folder.
+1. Go to the root folder.
 `C:\<directory>\RACards Extensibility Example\RACards Extensibility Example\ExtPkgDeployer\PkgFolder`
 
-3. Execute the command to build the solution.
+1. Run the command to build the solution.
 `msbuild ExtPkgDeployer.sln`
 
-The build is successful, and you can see that under the `<folder>\ExtPkgDeployer\bin\Debug`, the `PkgFolder` and the `ExtPkgDeployer.dll` are generated.
+The build is successful. You see that under the `<folder>\ExtPkgDeployer\bin\Debug`, the `PkgFolder` and the `ExtPkgDeployer.dll` are generated.
 
 ## Step 3: Import the package using the package deployer tool
 
@@ -202,19 +203,19 @@ The build is successful, and you can see that under the `<folder>\ExtPkgDeployer
 
 1. Run the tool by double-clicking the `PackageDeployer.exe` from the folder where you have saved the package deployer tool.
 
-2. In the introduction screen of the Package Deployer tool, choose **Continue**.
+1. In the introduction screen of the Package Deployer tool, choose **Continue**.
 
-3. In the authentication screen, provide authentication details to connect to the Dynamics 365 Sales instance where you want to deploy the package. If you have multiple organizations and want to select the organization where you want to deploy the Unified Service Desk package, select the Display list of available organizations check box. Choose **Login**.
+1. In the authentication screen, provide authentication details to connect to the Dynamics 365 Sales instance where you want to deploy the package. If you have multiple organizations and want to select the organization where you want to deploy the Unified Service Desk package, select the Display list of available organizations check box. Choose **Login**.
 
-4. The next screen displays detailed information about the selected package and the things that will be installed on your Dynamics 365 Sales instance. Review the information and choose **Next**. 
+1. The next screen displays detailed information about the selected package and the things that will be installed on your Dynamics 365 Sales instance. Review the information and choose **Next**. 
  
-5. The **Ready to Install** screen displays the package selected for deployment and name of the Dynamics 365 Sales organization where it will be deployed to. Review the information and choose **Next**.
+1. The **Ready to Install** screen displays the package selected for deployment and name of the Dynamics 365 Sales organization where it will be deployed to. Review the information and choose **Next**.
  
-6. The next screen displays the validation status of the package selected to be deployed. After the validation completes successfully, choose **Next**.
+1. The next screen displays the validation status of the package selected to be deployed. After the validation completes successfully, choose **Next**.
 
-7. The next page displays the package deployment status. Click **Next**.
+1. The next page displays the package deployment status. Click **Next**.
 
-8. The next screen displays the name and information about the package that you just deployed. Review the information and choose **Finish** to exit the Package Deployer tool.
+1. The next screen displays the name and information about the package that you just deployed. Review the information and choose **Finish** to exit the Package Deployer tool.
  
 After you deploy the package, a new card type is created with an ID - `00aa00aa-bb11-cc22-dd33-44ee44ee44ee`, which is defined in the schema (new_cardtype_schemaxml9dd7e039-33a1-4778-9972-66536dc5e829).
 
@@ -222,6 +223,7 @@ After you deploy the package, a new card type is created with an ID - `00aa00aa-
 
 Verify the card type with an ID '00aa00aa-bb11-cc22-dd33-44ee44ee44ee'.
 Send a GET method request.
+
 ### Request
 
 ```HTTP
@@ -316,20 +318,19 @@ You can verify the custom cards are created in your organization as end user and
 **As end user**
 
 1. Log in to **Dynamics 365 Sales**.
-2. Under **Assistant** section, you can see your created action card.
+1. Under **Assistant** section, you can see your created action card.
     
-    > [!div class="mx-imgBorder"]
-    > ![example of extended action card](media/devdoc-extended-card.png "example of extended action card")
+    :::image type="content" source="media/devdoc-extended-card.png" alt-text="Screenshot of an example of extended action card.":::
 
 **As administrator**
 
 1. Log in to **Dynamics 365 Sales** and go to **Sales Hub app**.
 
-2. Go to **Change area** and select **Sales Insights settings**.
+1. Go to **Change area** and select **Sales Insights settings**.
 
-3. On the sitemap, select **Insights cards** under **Assistant** to go to **Manage insight cards** page.
+1. On the sitemap, select **Insights cards** under **Assistant** to go to **Manage insight cards** page.
 
-4. On the **Manage insight cards** page, you see an option to enable created custom actions cards in your organization.
+1. On the **Manage insight cards** page, you see an option to enable created custom actions cards in your organization.
 
 To learn more on how to enable cards, see [Turn on or off insights cards](edit-insight-cards.md#turn-cards-on-or-off).
 
