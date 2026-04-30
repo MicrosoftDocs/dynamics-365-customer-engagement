@@ -1,7 +1,7 @@
 ---
 title: Integrate a Copilot agent in Dynamics 365 Contact Center
 description: Use this article to get instructions on how to integrate a Copilot agent in your contact center.
-ms.date: 04/06/2026
+ms.date: 04/30/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: neeranelli
@@ -59,6 +59,8 @@ You can create Copilot agents in one of the following ways:
 For the agent to be able to interact with customers in Dynamics 365 Contact Center or Customer Service, you must integrate the agent with your application. Follow the procedure in [Connect your Copilot agent to omnichannel](/microsoft-copilot-studio/configuration-hand-off-omnichannel) to connect your Copilot agent to the omnichannel instance.
 
 When your customers need to speak with a representative, your agent can seamlessly hand off the conversation. When your agent hands off a conversation, it can share the full history of the conversation, and all relevant variables. Make sure you have an escalation article configured in your agent to hand off the conversation to a representative. Learn more in [hand off to a live agent](/microsoft-copilot-studio/advanced-hand-off).
+
+ You can also use the representative availability APIs from your agent to retrieve customer service representative and queue availability information before escalating the conversation to a service representative. By determining availability before escalating, you improve the customer experience and reduce queue abandonment. Learn more in [Use representative availability APIs in a Copilot Studio agent](/dynamics365/contact-center/extend/use-representative-availability-api).
 
 ## Set up agent capabilities
 
