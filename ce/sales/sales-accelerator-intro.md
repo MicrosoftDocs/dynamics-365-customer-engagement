@@ -1,7 +1,7 @@
 ---
 title: Understand what is sales accelerator
 description: Accelerate your sales process with the Sales accelerator in Dynamics 365. It provides a tailored experience for sellers, helping them prioritize customers and streamline their approach.
-ms.date: 04/16/2025
+ms.date: 04/30/2026
 ms.topic: overview
 author: udaykirang
 ms.author: udag
@@ -30,7 +30,7 @@ By using the Sales accelerator:
     Also, you can use the sequence designer to create and manage your own sequences. More information: [Create and connect sequence for yourself](create-sequence-seller.md)
 
 >[!NOTE]
->Sales accelerator is not supported on mobile devices, such as tablets and smartphones.
+>Sales accelerator isn't supported on mobile devices, such as tablets and smartphones.
 
 ## Related information
 

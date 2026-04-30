@@ -1,7 +1,7 @@
 ---
 title: Uninstall Sales Insights Add-ons
 description: Uninstall the Sales Insights Add-ons for Dynamics 365 Sales if you don't want to use it in your organization.
-ms.date: 01/31/2025
+ms.date: 04/30/2026
 ms.custom: bap-template
 ms.topic: how-to
 author: udaykirang
@@ -26,11 +26,11 @@ You can uninstall the Sales Insights Add-ons for Dynamics 365 Sales if you don't
     - msdynce_RelationshipAssistantAddOn
     - msdyn_connectiongraph
 
-Although you've deleted the solutions, your organization data might still be stored in Azure Data Lake Storage. To completely remove data and reclaim the data storage, contact Dynamics 365 support.  
+Although you deleted the solutions, your organization data might still be stored in Azure Data Lake Storage. To completely remove data and reclaim the data storage, contact Dynamics 365 support.  
 
 ## What happens to data
 
-After you uninstall Sales Insights, Dynamics 365 won't keep any Sales Insights data for your organization in the storage locations where it's hosted.
+After you uninstall Sales Insights, Dynamics 365 doesn't keep any Sales Insights data for your organization in the storage locations where it's hosted.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

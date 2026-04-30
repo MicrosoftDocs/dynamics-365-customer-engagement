@@ -1,7 +1,7 @@
 ---
 title: Enable and configure auto capture
 description: Configure auto capture to help your sellers to get suggestions on relevant customer activities by capturing emails and meetings from Outlook.
-ms.date: 03/24/2025
+ms.date: 04/30/2026
 ms.custom: bap-template
 ms.topic: how-to
 ms.assetid: d4d130c5-3494-4677-9093-0a0e0124d953
@@ -19,7 +19,7 @@ applies_to:
 
 # Enable and configure auto capture 
 
-Configure auto capture to help your sellers to get suggestions on relevant customer activities by capturing emails and meetings from the user's Exchange account that's in the same tenant as Dynamics 365.
+Configure auto capture to help your sellers get suggestions on relevant customer activities by capturing emails and meetings from the user's Exchange account that's in the same tenant as Dynamics 365.
 
 ## Configure auto capture
 
@@ -35,25 +35,25 @@ Enable auto capture by following these steps:
 
 1.	[Review prerequisites for auto capture](#prerequisites-for-auto-capture).
 
-2.	[Enable auto capture](#enable-auto-capture).
+1.	[Enable auto capture](#enable-auto-capture).
 
 ### Prerequisites for auto capture
 
-Before you enable auto capture, perform the following tasks: 
+Before you enable auto capture, complete the following tasks: 
 
 -	Enable Sales Insights. To learn more, see [Enable and configure standard Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-standard-sales-insights-features).
 
 - Use Exchange as the server and Outlook as the mail client. 
-- Approve the email addresses of users to allow queries against their Exchange data (this requires tenant-level admin privileges). To learn more, see [Approve email](/dynamics365/customer-engagement/admin/connect-exchange-online#approve-email). 
+- Approve the email addresses of users to allow queries against their Exchange data (this step requires tenant-level admin privileges). To learn more, see [Approve email](/dynamics365/customer-engagement/admin/connect-exchange-online#approve-email). 
 -	[Set up server-side synchronization](/power-platform/admin/email-message-filtering-correlation).
 
 ### Enable auto capture
 
 1.	Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** > **Sales Insights settings**.
 
-2.	On the site map under **Productivity**, select **Auto capture**. 
+1.	On the site map under **Productivity**, select **Auto capture**. 
 
-3.	Turn on the **Enable basic auto capture** toggle.
+1.	Turn on the **Enable basic auto capture** toggle.
 
 :::image type="content" source="media/si-admin-auto-capture-enable-disable.png" alt-text="Screenshot of the toggle to enable or disable auto capture in Dynamics 365 Sales.":::
 

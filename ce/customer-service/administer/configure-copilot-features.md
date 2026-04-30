@@ -151,7 +151,7 @@ You can also [download](../develop/download-copilot-transcript-data.md) and use 
 
 ## Assign roles and privileges
 
-Out of the box, users with the Customer Service Representative role only can use the Copilot features. Therefore, make sure that users with custom roles have the following privileges: 
+Out of the box, users with the Customer Service Representative role only can use the Copilot features. Therefore, make sure that users with custom roles have the following privileges.
 
 |Table | Name | Create | Read | Write | Append | Append To |
 |------|------|--------|------|-------|--------|-----------|
@@ -171,7 +171,7 @@ Out of the box, users with the Customer Service Representative role only can use
 
 
 > [!NOTE]
-> - Make sure that your users have **Miscellaneous privileges** > **prvIntelligenceUsage** assigned to the required custom security roles to access the Copilot case summary. Learn more in [Security roles and privileges](/power-platform/admin/security-roles-privileges).
+> - Make sure that your users have **Miscellaneous privileges** > **prvIntelligenceUsage** assigned to the required custom security roles to access Copilot. Learn more in [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 > - For custom CSR roles, make sure the role has the following permissions and corresponding access levels:
 >    - Read and Write have access level set to Basic.
 >        - `<RolePrivilege name="prvReadmsdyn_copilotevent" level="Basic" />`  
@@ -181,7 +181,6 @@ Out of the box, users with the Customer Service Representative role only can use
 >      - `<RolePrivilege name="prvReadmsdyn_copilotevent" level="Global" />`   
 >      - `<RolePrivilege name="prvCreatemsdyn_copilotevent" level="Global" />`   
 >      - `<RolePrivilege name="prvWritemsdyn_copilotevent" level="Global" />`  
-
 
 ## Next steps
 

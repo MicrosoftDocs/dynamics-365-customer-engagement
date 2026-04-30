@@ -1,8 +1,8 @@
 ---
-title: "Sample: Clone product records (Dynamics 365 Sales)"
-description: "Sample demonstrates how to clone a product record."
+title: Clone product records (Sample)
+description: Sample demonstrates how to clone a product record.
 ms.custom: 
-ms.date: 01/02/2020
+ms.date: 04/30/2026
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: sample
@@ -32,7 +32,7 @@ This sample code is for Dynamics 365 Sales. [Download the Product Catalog sample
  [!code-csharp[ProductCatalog#CloneProducts](../../snippets/csharp/CRMV8/productcatalog/cs/cloneproducts.cs#cloneproducts)]  
   
 ## Related information  
- [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)   
+ [Create and manage product families, products, and bundles](create-manage-product-families-products-bundles-product-properties.md)   
  [Product catalog tables](product-catalog-entities.md)
 
 

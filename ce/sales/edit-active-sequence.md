@@ -1,12 +1,13 @@
 ---
-title: "Edit an active sequence (Sales Insights)"
-description: "Edit an active sequence by creating new versions of the sequence without deactivating it in sales accelerator."
-ms.date: 01/03/2025
+title: Edit an active sequence and view version history 
+description: Edit an active sequence by creating new versions of the sequence without deactivating it in sales accelerator.
+ms.date: 04/30/2026
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ---
+
 # Edit an active sequence and view version history 
 
 When you've changed the process of an active sequence, you can create a new version of the sequence without deactivating it. You can update a sequence multiple times, and when you connect a record to the sequence, the record will be connected to the latest version.
@@ -17,22 +18,22 @@ When you've changed the process of an active sequence, you can create a new vers
 ## Edit an active sequence
 
 1.	Sign in to your Dynamics 365 Sales Hub app.   
-2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
-3.	Under **Sales accelerator**, select **Sequences**.   
-4.	On the **Sequences** page, open the sequence that is in active state.    
-5.	On the sequence view page, select **Edit sequence**.
+1.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
+1.	Under **Sales accelerator**, select **Sequences**.   
+1.	On the **Sequences** page, open the sequence that is in active state.    
+1.	On the sequence view page, select **Edit sequence**.
 
-    :::image type="Edit a sequence" source="media/sequence-edit-active-select-edit-sequence.png" alt-text="Edit a sequence":::    
+    :::image type="content" source="media/sequence-edit-active-select-edit-sequence.png" alt-text="Screenshot of the Edit sequence option on a sequence view page.":::    
  
 1. On the confirmation message, select **OK**.  
 
     A version is created for the sequence.
  
-6.	Edit the sequence as required, and then select **Activate**.
+1.	Edit the sequence as required, and then select **Activate**.
  
-    :::image type="Activate the edited sequence" source="media/sequence-edit-active-sequence-activate.png" alt-text="Activate the edited sequence":::    
+    :::image type="content" source="media/sequence-edit-active-sequence-activate.png" alt-text="Screenshot of activating the edited sequence.":::    
 
-7.	On the confirmation message, provide a description of the change, and then select **Save**.    
+1.	On the confirmation message, provide a description of the change, and then select **Save**.    
  
 A new version of the existing sequence is created and saved.
 
@@ -44,7 +45,7 @@ Viewing the version history helps you to understand the number of versions that 
 
 1.	To view the version history, select **Show full version history** from the dropdown list beside the sequence name.
 
-    :::image type="Select version history option" source="media/sequence-version-select-version-history.png" alt-text="Select version history option":::
+    :::image type="content" source="media/sequence-version-select-version-history.png" alt-text="Screenshot of selecting the Show full version history option.":::
 
     A list of versions that exist for the sequence is displayed on the right pane.
 
@@ -57,7 +58,7 @@ Viewing the version history helps you to understand the number of versions that 
 
     A list of leads that are connected to the sequence is displayed, along with the version to which they're connected.   
 
-    :::image type="View the list of leads with associated versions" source="media/sequence-version-view-leads-list.png" alt-text="View the list of leads with associated versions":::     
+    :::image type="content" source="media/sequence-version-view-leads-list.png" alt-text="Screenshot of the list of leads with associated sequence versions.":::     
  
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 

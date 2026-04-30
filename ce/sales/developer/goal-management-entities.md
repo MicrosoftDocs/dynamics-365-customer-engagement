@@ -1,8 +1,7 @@
 ---
-title: Goal management tables (Dynamics 365 Sales)
+title: Goal management tables
 description: Learn about goal management tables in Dynamics 365 Sales with a selection of topics and tutorials.
-ms.custom: 
-ms.date: 01/30/2025
+ms.date: 04/30/2026
 ms.topic: concept-article
 author: udaykirang
 ms.author: udag
@@ -11,15 +10,16 @@ search.audienceType:
   - developer
 
 ---
+
 # Goal management tables
 
-The *goal management* in Dynamics 365 Sales lets you set sales, marketing, and other business goals for your organization and measure the results against the targets. The goal management will help you motivate your work force, identify successful programs, do better planning, and grow your business.  
+The *goal management* feature in Dynamics 365 Sales helps you set sales, marketing, and other business goals for your organization and measure the results against the targets. Goal management helps you motivate your workforce, identify successful programs, improve planning, and grow your business.  
   
  Goal management offers the following capabilities:  
   
--   Create a complex goal hierarchy where each goal is assigned to an individual goal contributor or a team.  
+-   Create a complex goal hierarchy where you assign each goal to an individual goal contributor or a team.  
   
--   Use the goals in the hierarchy to track important business data, such as revenues, customer services cases, or phone calls. You can also track data represented by custom tables.  
+-   Use the goals in the hierarchy to track important business data, such as revenues, customer service cases, or phone calls. You can also track data represented by custom tables.  
   
 -   Roll up the totals for each goal, such as total revenues or units shipped, in the hierarchy tree.  
 -   Measure the results of the rollup against the targets or stretch targets.  

@@ -1,7 +1,7 @@
 ---
-title: Sales literature entities (Dynamics 365 Sales)
+title: Sales literature entities
 description: Create and manage sales literature items to associate attachments and articles to enrich an organization's sales information.
-ms.date: 01/30/2024
+ms.date: 04/30/2026
 ms.topic: concept-article
 author: udaykirang
 ms.author: udag
@@ -10,17 +10,18 @@ search.audienceType:
   - developer
 
 ---
+
 # Sales literature entities in Dynamics 365 Sales
 
-A *sales literature* item is the basic unit of the marketing encyclopedia in Dynamics 365 Sales. For example, a business unit might decide to create an article about a specific product. The article can contain multiple sales literature items (sales attachments) such as a brochure, detailed specifications, and a CAD file, together with appropriate search terms, for example, "bolt" or "stainless steel." Any PC-compatible file format can be uploaded and attached to an article in the marketing encyclopedia. Specific search terms can be specified for each item.  
+A *sales literature* item is the basic unit of the marketing encyclopedia in Dynamics 365 Sales. For example, a business unit might decide to create an article about a specific product. The article can contain multiple sales literature items (sales attachments) such as a brochure, detailed specifications, and a CAD file, together with appropriate search terms, such as "bolt" or "stainless steel." You can upload and attach any PC-compatible file format to an article in the marketing encyclopedia. You can specify specific search terms for each item.  
   
- You can use the sales literature management entities to create a central repository for your organization's sales information (in the form of  sales literature items (sales attachments)) that provides an easy way to distribute information to users, both online and offline. Sales literature can be organized into categories and types to provide easier management and searching. Dynamics 365 Sales also supports a subject manager and knowledge base.  
+ Use the sales literature management entities to create a central repository for your organization's sales information in the form of sales literature items (sales attachments). This repository provides an easy way to distribute information to users, both online and offline. Organize sales literature into categories and types to provide easier management and searching. Dynamics 365 Sales also supports a subject manager and knowledge base.  
   
- A sales literature record can have one or more sales literature items (sales attachments) attached to it in various formats, such as .doc, .pub, and .pdf. An item can't be shared between sales literature records.  
+ You can attach one or more sales literature items (sales attachments) in various formats, such as .doc, .pub, and .pdf, to a sales literature record. You can't share an item between sales literature records.  
   
- Sales literature records can also be attached to competitors and products (both yours and your competitors').  
+ You can also attach sales literature records to competitors and products (both yours and your competitors').  
   
- The following operations are supported in the marketing encyclopedia:  
+ The marketing encyclopedia supports the following operations:  
   
 - Create a sales literature item  
 - View a sales literature item  
@@ -49,7 +50,7 @@ A *sales literature* item is the basic unit of the marketing encyclopedia in Dyn
   
 ## Related Sections  
 
- [Model your business data with Dataverse](/power-apps/maker/data-platform/data-platform-intro))  
+ [Model your business data with Dataverse](/power-apps/maker/data-platform/data-platform-intro)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
