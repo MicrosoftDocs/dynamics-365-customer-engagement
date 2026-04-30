@@ -1,7 +1,7 @@
 ---
 title: Set up the Scheduling Operations Agent (preview)
 description: Learn how to set up the Scheduling Operations Agent in Dynamics 365 Field Service for your dispatchers.
-ms.date: 03/23/2026
+ms.date: 04/27/2026
 ms.topic: how-to
 ms.author: anclear
 author: andrewclear-ms
@@ -39,7 +39,7 @@ You can use both billing models in the same environment. Prepaid capacity is con
 
 ### Set up pay-as-you-go billing
 
-To set up pay-as-you-go billing, you first need an active Azure subscription. Then you link the subscription to your Power Platform environment using the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) or in [Power Apps](https://make.powerapps.com/). Learn more in [Set up pay-as-you-go](/power-platform/admin/pay-as-you-go-set-up).
+To set up pay-as-you-go billing, you first need an active Azure subscription. Link the subscription to your Power Platform environment by using the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) or [Power Apps](https://make.powerapps.com/). Learn more in [Set up pay-as-you-go](/power-platform/admin/pay-as-you-go-set-up).
 
 ### Manage capacity and usage
 
@@ -57,7 +57,9 @@ Dynamics 365 regularly checks the available capacity, or quota, of Copilot Studi
 ## Turn on the Scheduling Operations Agent
 
 1. Open the Field Service app.
+
 1. Change to the **Resources** area and go to **Scheduling Parameters** > **Resource Scheduling**.
+
 1. Go to the **Agents** tab and turn on **Scheduling Operations Agent (Preview)**.
 
 :::image type="content" source="media/soa-enable-agent.png" alt-text="Screenshot of the Scheduling Operations Agent toggle in Dynamics 365 Field Service Resource Scheduling settings.":::
@@ -101,8 +103,10 @@ In the **Resources** area, set the following properties for each bookable resour
 The **Priority Value** property helps the agent decide which bookings or resource requirements are more important. It accepts numbers between 1 and 100. The higher the number, the higher the priority. For example, a high-priority booking with a **Priority Value** of 75 takes precedence over a high-priority booking with a **Priority Value** of 50. The agent ignores the **Level of Importance** field.
 
 1. Open the Field Service app and go to the **Settings** area.
-2. Select **Priorities**.
-3. For each priority that you want the agent to consider, set a **Priority Value**.  
+
+1. Select **Priorities**.
+
+1. For each priority that you want the agent to consider, set a **Priority Value**.  
 
     :::image type="content" source="media/soa-priority-value.png" alt-text="Screenshot of a priority record with a configured priority value in Dynamics 365 Field Service priorities settings.":::
 
