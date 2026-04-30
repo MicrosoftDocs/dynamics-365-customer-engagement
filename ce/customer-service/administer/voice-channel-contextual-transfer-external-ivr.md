@@ -1,7 +1,7 @@
 ---
 title: Integrate a non-Microsoft IVR system with voice channel
 description: Use this article to understand how you can integrate non-Microsoft IVR systems with the voice channel and set up contextual call transfer via Azure direct routing.
-ms.date: 05/15/2025
+ms.date: 04/28/2026
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
