@@ -46,7 +46,7 @@ To display sensitivity labels in emails, add the **Sensitivity label** column an
 
 Perform the following steps:
 
-1. Go to [Power Apps](https://make.powerapps.com).
+1. Go to [Power Apps](https://make.powerapps.com) and select your environment.
 1. Select the environment.
 1. In the navigation pane, select **Solutions**.
 1. Open **Default Solution**.
