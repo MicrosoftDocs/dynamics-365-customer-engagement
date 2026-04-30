@@ -1,5 +1,5 @@
 ---
-title: Responsible AI FAQs about AI-powered Data Enrichment for opportunities
+title: Responsible AI FAQ about AI-powered Data Enrichment for opportunities
 description: Learn about responsible AI considerations for the AI-powered Data Enrichment feature in Dynamics 365 Sales.
 ms.date: 04/22/2026
 ms.update-cycle: 180-days
@@ -17,6 +17,7 @@ search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
+
 # Responsible AI FAQ about AI-powered Data Enrichment for opportunities
 
 These frequently asked questions help you understand the effect of AI on the AI-powered Data Enrichment feature in Dynamics 365 Sales.
