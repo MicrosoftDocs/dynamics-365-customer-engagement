@@ -35,5 +35,6 @@ The feature is rolling out gradually across the supported Azure regions. Rollout
 
 - [Set up the Scheduling Operations Agent (preview)](soa-setup.md)
 - [Run the Scheduling Operations Agent (preview)](soa-run.md)
+- [Scheduling Operations Agent FAQ](faqs-soa.md)
 
 [!INCLUDE [footer-banner](../includes/footer-banner.md)]
