@@ -1,6 +1,6 @@
 ---
 title: Use the Scheduling Operations Agent (preview)
-description: Learn how to use the Scheduling Operations Agent to optimize a technicians schedule in Dynamics 365 Field Service.
+description: Learn how to use the Scheduling Operations Agent to optimize a technician's schedule in Dynamics 365 Field Service.
 ms.date: 04/30/2026
 ms.topic: how-to
 ms.collection: bap-ai-copilot
@@ -13,9 +13,13 @@ author: andrewclear-ms
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-Use the Scheduling Operations Agent to quickly optimize a single technician's schedule. Make sure the agent is configured: [Set up the Scheduling Operations Agent](soa-setup.md).
+Use the Scheduling Operations Agent to quickly optimize a single technician's schedule.
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
+## Prerequisites
+
+An administrator must [set up the agent](soa-setup.md) before you can use it.
 
 ## Launch the Scheduling Operations Agent
 
