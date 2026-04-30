@@ -13,7 +13,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Responsible AI FAQs about Sales Opportunity Agent
+# Responsible AI FAQ about Sales Opportunity Agent
 
 These frequently asked questions are intended to help you understand the impact of AI on Sales Opportunity Agent in Dynamics 365 Sales.
 
