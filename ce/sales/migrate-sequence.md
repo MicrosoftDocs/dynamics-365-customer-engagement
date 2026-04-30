@@ -1,7 +1,7 @@
 ---
 title: Migrate sequences from one environment to another
 description: Use the solution export and import functionality to migrate sequences from one environment to another in Dynamics 365 Sales.
-ms.date: 01/31/2025
+ms.date: 04/30/2026
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -14,7 +14,7 @@ Use the solution export and import functionality to migrate sequences from one e
 
 ## Migrate sequences
 
-Organizations use staging (non-production) environments to set up and test complex steps, such as sequences, assignment rules, and segments. Organizations then use the staging environments to test these steps to avoid any disruption in their operations, saving time and money. Also, the staging environments help in training the sellers.  
+Organizations use staging (non-production) environments to set up and test complex steps, such as sequences, assignment rules, and segments. By testing these steps in the staging environments, organizations avoid any disruption in their operations, saving time and money. The staging environments also help in training the sellers.  
 Administrators and sales managers can now migrate sequences along with their dependent entities from one environment to the other. To migrate sequences, complete the following steps:  
 
 1. [Create a solution](#create-a-solution)  
