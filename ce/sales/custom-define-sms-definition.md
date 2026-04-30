@@ -5,16 +5,16 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 03/31/2025
+ms.date: 04/30/2026
 ms.custom: bap-template 
 ---
 
 # Define the custom SMS channel
 
-Now that you've defined the parts of your custom SMS channel, it's time to define the channel. This step is where you connect all the previous pieces in one metadata file, which is a record of the **Channel Definition** entity (`msdyn_channeldefinition`).
+After you define the parts of your custom SMS channel, define the channel. In this step, you connect all the previous pieces in one metadata file. This file is a record of the **Channel Definition** entity (`msdyn_channeldefinition`).
 
 > [!IMPORTANT]
-> If you're configuring metadata records directly in the customization file, make sure that the GUIDs are in lowercase.
+> If you configure metadata records directly in the customization file, make sure that the GUIDs are in lowercase.
 
 ## Channel Definition contract
 
@@ -75,17 +75,17 @@ Example of customizations.xml including channel definition:
 
 ## Sample solutions
 
-The following sample includes unpacked solutions for Dataverse and plugins projects. To pack and import these solutions, first build the plugin project. The project copies the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](/power-platform/alm/solution-packager-tool).
+The following sample includes unpacked solutions for Dataverse and plugins projects. To pack and import these solutions, first build the plugin project. The project copies the assembly to the solution project. Then, pack the solution by using the [Solution Packager tool](/power-platform/alm/solution-packager-tool).
 
 - [SampleSmsChannel.zip](https://download.microsoft.com/download/c/c/6/cc6fed59-f95a-4577-aed5-49daa62b1f66/SampleSmsChannel-2022.12.zip)
 
 ### How to build the plugins project and pack the solution
 
-1. Build the plugins project with MSBuild or Visual Studio.
+1. Build the plugins project by using MSBuild or Visual Studio.
 
-    Building the project creates a DLL in the PluginAssemblies folder inside the Dataverse solution folder.
+    Building the project creates a DLL in the `PluginAssemblies` folder inside the Dataverse solution folder.
 
-1. Pack the unmanaged folder with the Solution Packager using either:
+1. Pack the unmanaged folder by using the Solution Packager with either:
 
     - [pac CLI](/power-platform/developer/cli/reference/solution#pac-solution-pack) (**preferred**)
     - [Solution packager](/dynamics365/customerengagement/on-premises/developer/compress-extract-solution-file-solutionpackager)
