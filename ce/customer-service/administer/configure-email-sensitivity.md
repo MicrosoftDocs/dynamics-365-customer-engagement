@@ -34,7 +34,7 @@ Perform the following steps:
 1. On the **Settings** page, select **Email Configuration**. The **Email Configuration** page appears.
 1. Select the **Email Configuration Settings**. The **System Settings** page appears.
 1. Select the **Email** tab.
-1. Select the **Enable data sensitivity labels for emails** checkbox.
+1. In **Set Email data sensitivity labels**, select the **Enable data sensitivity labels for emails** checkbox.
 
    :::image type="content" source="../media/enable-data-sensitivity-labels-emails.png" alt-text="Screenshot of the Enable data sensitivity labels for emails checkbox on the System Settings page.":::
 
