@@ -11,7 +11,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:03/28/2024
-ai-usage:ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Customize views

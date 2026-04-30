@@ -17,7 +17,7 @@ Microsoft Teams dialer eliminates context switching by bringing Teams calling di
 > [!NOTE]
 > You can also enable Teams dialer through quick setup. More information: [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)
 
-## Configure the dialer
+## Set up and configure the dialer
 
 Set up Microsoft Teams dialer to allow your sales team to make and receive calls from Dynamics 365.
 
