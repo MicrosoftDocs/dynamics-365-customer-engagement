@@ -1,7 +1,7 @@
 ---
 title: Set up and configure the Sales Opportunity Agent
 description: Configure the Sales Opportunity Agent in Dynamics 365 Sales to automate opportunity research, get stakeholder and competitor intelligence, and enable risk assessment for your sales team.
-ms.date: 04/17/2026
+ms.date: 04/27/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -100,6 +100,10 @@ However, note the aspects for the following configuration sections for each agen
 
 - **Selection criteria**: Each agent must have its own distinct selection criteria to determine which opportunities it processes. To learn how the selection criteria for multiple agent instances work, see [Selection criteria for multiple agent instances](configure-sales-close-agent-research-selection-criteria.md#selection-criteria-for-multiple-agent-instances). 
 - **Knowledge sources**: All instances share the same single Microsoft Copilot Studio knowledge base. For each agent instance, you can configure which knowledge sources it uses by applying filters. To learn how to filter knowledge sources for specific agent instances, see [Filter knowledge sources by agent instance](configure-sqa-knowledge-source.md#filter-knowledge-sources-by-agent-instance). 
+
+## Migrate agents across environments
+
+When you have configured the Sales Opportunity Agent in one environment, you can export the agent as a solution and import it into another environment. This is especially useful when you have set up the agent in a sandbox or test environment and want to deploy it in production after testing and validation. Learn more in [Import an agent into a target environment](import-export-agent-solutions.md). 
  
 ## Related content
 
