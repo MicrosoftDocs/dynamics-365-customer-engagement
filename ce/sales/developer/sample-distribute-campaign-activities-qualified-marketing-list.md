@@ -1,7 +1,7 @@
 ---
-title: "Sample: Distribute campaign activities to qualified marketing list (Dynamics 365 Sales)"
+title: Distribute campaign activities to qualified marketing list (Sample)
 description: "The sample code demonstrates how to distribute campaign activities to the qualified members of a marketing list."
-ms.date: 03/01/2023
+ms.date: 04/30/2026
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
@@ -21,22 +21,22 @@ This sample shows how to distribute campaign activities to the qualified members
 
 ## How this sample works
 
-In order to simulate the scenario described above, the sample will do the following:
+To simulate the scenario described earlier, the sample performs the following steps:
 
 ### Setup
 
 1. Checks for the current version of the org. 
-2. The `CreateRequiredRecords` method creates any table rows that this sample requires.
+1. The `CreateRequiredRecords` method creates any table rows that this sample requires.
 
 ### Demonstrate
 
-1. The `DistributeCampaign` method creates and distributes campaign. 
-2. The `CreateMarketingList` method creates static marketing lists. 
-3. The `RemoveRelationships` method removes the marketing list from the campaign activity.
+1. The `DistributeCampaign` method creates and distributes the campaign. 
+1. The `CreateMarketingList` method creates static marketing lists. 
+1. The `RemoveRelationships` method removes the marketing list from the campaign activity.
 
 ### Clean up
 
-Display an option to delete the rows created in the [Setup](#setup). The deletion is optional in case you want to examine the table and data created by the sample. You can manually delete the rows to achieve the same result.
+The sample displays an option to delete the rows created in the [Setup](#setup). The deletion is optional in case you want to examine the table and data created by the sample. You can manually delete the rows to achieve the same result.
   
 ## Related information  
  [Campaign Tables](campaign-entities.md)   
