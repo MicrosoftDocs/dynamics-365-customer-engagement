@@ -31,7 +31,7 @@ Perform the following steps:
 
 1. Go to [Power Apps](https://make.powerapps.com) and select your environment.
 1. In your browser's address bar, append the following string to the environment URL, and then open it: `main.aspx?settingsonly=true#133657686`
-1. On the **Settings** page, select **Email Configuration**. The **Email Configuration ** page appears.
+1. On the **Settings** page, select **Email Configuration**. The **Email Configuration** page appears.
 1. Select the **Email Configuration Settings**. The **System Settings** page appears.
 1. Select the **Email** tab.
 1. Select the **Enable data sensitivity labels for emails** checkbox.
