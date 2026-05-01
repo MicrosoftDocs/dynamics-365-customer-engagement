@@ -54,7 +54,7 @@ Encrypted emails aren’t supported for the following features:
 - Other AI-driven workflows
 
 > [!Note]
-> Copilot features that rely on email content for AI-generated insights aren't avaialble for encrypted email content unless the content is decrypted outside the application.
+> Copilot features that rely on email content for AI-generated insights aren't available for encrypted email content unless the content is decrypted outside the application.
 
 
 ### Related information
