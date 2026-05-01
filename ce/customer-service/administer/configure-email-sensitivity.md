@@ -36,7 +36,7 @@ Perform the following steps:
 1. Select the **Email** tab.
 1. In **Set Email data sensitivity labels**, select the **Enable data sensitivity labels for emails** checkbox.
 
-   :::image type="content" source="../media/enable-data-sensitivity-labels-emails.png" alt-text="Screenshot of the Enable data sensitivity labels for emails checkbox on the System Settings page.":::
+::image type="content" source="../media/enable-data-sensitivity-labels-emails.png" alt-text="Screenshot of the Enable data sensitivity labels for emails checkbox on the System Settings page." lightbox="true":::
 
 1. Select **OK**.
 
@@ -47,7 +47,6 @@ To display sensitivity labels in emails, add the **Sensitivity label** column an
 Perform the following steps:
 
 1. Go to [Power Apps](https://make.powerapps.com) and select your environment.
-1. Select the environment.
 1. In the navigation pane, select **Solutions**.
 1. Open **Default Solution**.
 1. Select **Table**, and then select the **Email** table.
