@@ -56,7 +56,7 @@ Perform the following steps:
 1. Search for **Sensitivity label**.
 1. Drag the **Sensitivity label** column onto the form canvas.
 1. Select the **Sensitivity label** column on the form.
-1. In the properties pane, select **Component** > **More components**.   
+1. In the **Properties** pane, select **Components** > **More components**.   
 1. Search for and select **Email sensitivity label control**, and then select **Add**.
    
    :::image type="content" source="../media/email-sensitivity-label-control.png" alt-text="Screenshot of the email sensitivity label control properties.":::
