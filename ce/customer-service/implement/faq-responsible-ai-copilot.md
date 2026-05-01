@@ -31,7 +31,7 @@ Copilot provides the following main features:
 
 - **Write an email**: Is the second tab on the Copilot help pane helps representatives quickly create email responses based on the context of the case, reducing the time users need to spend creating emails.
 
-- **Analyze email sentiment**: Enables representatives to detect whether customer emails express a positive, negative, or neutral sentiment, helping representatives understand the customer’s tone and tailor responses effectively. This feature applies only to incoming customer emails, and doesn’t infer specific emotions. It doesn't evaluate representative performance and shouldn’t be used as the sole input for performance management of customer service representatives. Any use of sentiment data for evaluation must include human oversight.
+- **Analyze email sentiment**: Enables representatives to detect whether customer emails express a positive, negative, or neutral sentiment, helping representatives understand the customer’s tone and tailor responses more effectively. This feature applies only to incoming customer emails, and doesn’t infer specific emotions. It doesn't evaluate representative performance and shouldn’t be used as the sole input for performance management of customer service representatives. Any use of sentiment data for evaluation must include human oversight.
 
 - **Draft a chat response**: Enables representatives to create a response in a single click to the ongoing digital messaging conversation from knowledge sources configured by your organization.
 
