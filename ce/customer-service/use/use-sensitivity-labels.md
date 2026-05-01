@@ -46,7 +46,7 @@ Encrypted emails:
 - Appear in the timeline
 - Must be viewed through Outlook on the web
 
-Encrypted emails can't be used for:
+Encrypted emails aren’t supported for the following features:
 
 - Case summaries
 - Case enrichment
