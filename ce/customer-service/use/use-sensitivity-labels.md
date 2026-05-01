@@ -15,7 +15,7 @@ Sensitivity labels help you classify and protect business data. When you send or
 
 ## How sensitivity labels work in your emails
 
-You can apply a sensitivity label to an email as follows:
+You can apply a sensitivity label to an email in the following ways:
 
 - From the **Inbox** in **Copilot Service workspace**, select an email. In the preview pane, select the sensitivity label dropdown in the command bar to choose a label.
 - From the email editor, when composing a new email or replying to an existing one. To choose a label, select the sensitivity label dropdown in the command bar.
