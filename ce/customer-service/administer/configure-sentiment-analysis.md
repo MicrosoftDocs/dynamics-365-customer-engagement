@@ -1,7 +1,7 @@
 ---
 title:  Configure sentiment analysis for emails
 description: Learn how to configure sentiment for emails in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 04/17/2026
+ms.date: 05/01/2026
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -63,6 +63,11 @@ You can use the rule builder to define which incoming customer emails sentiment 
 1. On the **Inbox settings** dialog, do the following:
      1. Select **Inbox record types** and then select **Email**.
      1. Select the ellipsis to add the **Sentiment** field and **Sentiment** icon. Learn more in [Custom card configuration](configure-inbox.md#custom-card-configuration).
+
+> [!IMPORTANT]
+> Email sentiment is automatically available on the out-of-the-box (OOB) email form and the enhanced email form.  
+>  
+> If your organization uses custom email forms, you must add the **Sentiment** field to the form to display sentiment.
 
 ### Related information
 
