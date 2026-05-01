@@ -21,17 +21,17 @@ This FAQ article helps answer the questions around the responsible use of AI in 
 
 ## What is Copilot in Dynamics 365 Customer Service?
 
-Copilot is an AI-powered tool that transforms the customer service representative (service representative or representative) experience in Dynamics 365 Customer Service. It provides real-time AI powered assistance that can help representatives resolve issues faster, handle cases more efficiently, and automate time-consuming tasks, allowing them to focus on delivering high-quality service to their customers.
+Copilot is an AI-powered tool that transforms the customer service representative (service representative or representative) experience in Dynamics 365 Customer Service.It provides real-time, AI-powered assistance that helps representatives resolve issues faster, manage cases more efficiently, and automate routine tasks so they can focus on delivering high-quality customer service.
 
 ## What are the systems capabilities?
 
 Copilot provides the following main features:
 
-- **Ask a question**: Is the first tab that service representatives see when they activate the Copilot help pane. It's a conversational interface with Copilot, which helps provide contextual responses to the representatives' questions. Copilot’s responses are based on both internal and external knowledge sources provided by your organization during setup.
+- **Ask a question**: The first tab that service representatives see when they activate the Copilot help pane. It's a conversational interface with Copilot, which helps provide contextual responses to the representatives' questions. Copilot’s responses are based on both internal and external knowledge sources provided by your organization during setup.
 
-- **Write an email**: Is the second tab on the Copilot help pane helps representatives quickly create email responses based on the context of the case, reducing the time users need to spend creating emails.
+- **Write an email**: The second tab on the Copilot help pane helps representatives quickly create email responses based on the context of the case, reducing the time users need to spend creating emails.
 
-- **Analyze email sentiment**: Enables representatives to detect whether customer emails express a positive, negative, or neutral sentiment, helping representatives understand the customer’s tone and tailor responses more effectively. This feature applies only to incoming customer emails, and doesn’t infer specific emotions. It doesn't evaluate representative performance and shouldn’t be used as the sole input for performance management of customer service representatives. Any use of sentiment data for evaluation must include human oversight.
+- **Analyze email sentiment**: Detects whether a customer email expresses positive, negative, or neutral sentiment. This insight helps representatives understand tone and respond more effectively. This feature applies only to incoming customer emails, and doesn’t infer specific emotions. It doesn't evaluate representative performance and shouldn’t be used as the sole input for performance management of customer service representatives. Any use of sentiment data for evaluation must include human oversight.
 
 - **Draft a chat response**: Enables representatives to create a response in a single click to the ongoing digital messaging conversation from knowledge sources configured by your organization.
 
@@ -41,7 +41,7 @@ Copilot provides the following main features:
 
 - **Generate knowledge draft from case (preview)**: Copilot generates a knowledge article draft as a proposal that's based on information from the case. Representatives can review and refine the draft by giving revision instructions to Copilot and then save it.
   
-- **Summarize a custom record**: Copilot provides representatives with a summary of a record based on fields that the administrator configures for the custom table so that representatives can quickly catch up on the important details of a support record.
+- **Summarize a custom record**: Copilot provides a summary of a record by using fields that an administrator configures for the custom table. This summary helps representatives quickly understand key details of a support record.
 
 - **Generate resolution notes**: Copilot provides representatives with a summary of case details, emails, and notes linked to the case on the **Ask a question** tab, so they can close the case or incident faster.
   
@@ -53,19 +53,21 @@ Copilot in Customer Service is intended to help customer service representatives
 
 ## How is Copilot in Customer Service evaluated? What metrics are used to measure performance?
 
-Copilot in Customer Service has been evaluated against real world scenarios with customers around the world through each phase of its design, development, and release. Using a combination of research and business impact studies, we’ve evaluated various quantitative and qualitative metrics about Copilot, including its accuracy, usefulness, and representative-trust. Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf). 
+Copilot in Customer Service is evaluated against real-world customer scenarios throughout its design, development, and release phases. Using a combination of research and business impact studies, we evaluate quantitative and qualitative metrics for Copilot, including accuracy, usefulness, and representative trust. Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf). 
 
 ## What are the limitations of Copilot in Customer Service? How can users minimize the impact of Copilot limitations?  
 
 Copilot's knowledge-based capabilities like ask a question, write an email, and draft a chat response, are dependent on high-quality and up-to-date knowledge articles for grounding. Without these knowledge articles, users are more likely to encounter Copilot responses that aren't factual.  
 
-To minimize the likelihood of seeing non-factual responses from Copilot, it's important that Microsoft employs robust knowledge management practices to ensure the business knowledge that connects to Copilot is high quality and up to date.
+To reduce the risk of non-factual responses, Microsoft uses strong knowledge management practices. These practices help ensure that the business knowledge connected to Copilot stays accurate and up to date.
 
 ## What operational factors and settings allow for effective and responsible use of the system?  
 
 ### Always review results from Copilot
 
-Copilot is built on large language model technology, which is probabilistic in nature. When presented with a piece of input text, the model calculates the probability of each word in that text given the words that came before it. The model then chooses the word that is most likely to follow. However, since the model is based on probabilities, it can't say with absolute certainty what the correct next word is. Instead, it gives us its best guess based on the probability distribution it has learned from the data it was trained on. Copilot uses an approach called grounding, which involves adding additional information to the input to contextualize the output to your organization. It uses semantic search to understand the input and retrieve relevant internal organizational documents and trusted public web search results, and guides the language model to respond based on that content. While this is helpful in ensuring Copilot responses adhere to organizational data, it's important to always review results produced by Copilot prior to using them.
+Copilot is built on large language model technology, which is probabilistic in nature. When presented with a piece of input text, the model calculates the probability of each word in that text given the words that came before it. The model then chooses the word that is most likely to follow. However, since the model is based on probabilities, it can't say with absolute certainty what the correct next word is. Instead, it gives its best guess based on probability patterns learned from its training data.
+
+Copilot uses an approach called grounding, which involves adding additional information to the input to contextualize the output to your organization. It uses semantic search to understand the input and retrieve relevant internal documents and trusted public web results. It then guides the model to generate a response based on that content. While this approach helps ensure that Copilot responses align with organizational data, you should always review the results before using them.
 
 ### Get the best out of Copilot
 
@@ -95,15 +97,15 @@ By following the suggestions, representatives can enhance their interactions wit
 
 ### Summarizing or expanding a response
 
-Sometimes the response from Copilot can be longer than expected. This could be the case when the representative is in a live chat conversation with a customer and needs to send concise responses when compared with sending a response over email. In such cases, asking Copilot to "summarize the response" results in a concise answer to the question. Similarly, if there's a need for more detail, asking Copilot to “Provide more details” results in a more detailed answer to your question. If the response is truncated, typing "continue" displays the remaining part of the response.
+Sometimes the response from Copilot can be longer than expected. This could be the case when the representative is in a live chat conversation with a customer and needs to send concise responses when compared with sending a response over email. In such cases, asking Copilot to "summarize the response" will result in a concise answer to the question.  Similarly, if there's a need for more detail, asking Copilot to "Provide more details" will result in a more detailed answer to your question. If the response is truncated, typing "continue" displays the remaining part of the response.
 
 ## How can I influence the responses generated by Copilot? Can I fine-tune the underlying LLM?
 
-It's not possible to customize the large language model (LLM) directly. Copilot responses can be influenced by updating the source documentation. All feedback content from Copilot responses is stored. Reports can be created using this data to determine the data sources that need to be updated. It's a good idea to have processes in place to periodically review the feedback data and ensure knowledge articles are providing the best, most up-to-date information to Copilot.
+It's not possible to customize the large language model (LLM) directly. Copilot responses can be influenced by updating the source documentation. All the feedback content from Copilot responses is stored. Reports can be created using this data to determine the data sources that need to be updated. We recommend that you have processes in place to periodically review the feedback data and ensure knowledge articles are providing the best, most up-to-date information to Copilot.
 
 ## What's the data security model for Copilot?
 
-Copilot enforces the role-based access (RBAC) controls defined, and adheres to all the existing security constructs. Therefore, representatives can't view data that they don't have access to. Additionally, only data sources that the representative has access to are used for Copilot response generation.
+Copilot enforces the role-based access (RBAC) controls defined and adheres to all the existing security constructs. Therefore, representatives can't view data that they don't have access to. Also, only data sources that the representative has access to are used for Copilot response generation.
 
 ## How does Copilot determine whether content is offensive or harmful?
 
@@ -111,7 +113,7 @@ Copilot determines whether content is harmful through a severity rating system b
 
 ## Where does data processing and retrieval occur to generate Copilot responses?  
 
-Copilot doesn't call the public OpenAI service that powers ChatGPT. Copilot in Customer Service uses the [Microsoft Azure OpenAI Service](/azure/ai-services/openai/overview) in a Microsoft managed tenant. All data processing and retrieval occurs within Microsoft managed tenants. Additionally, customer’s data isn't shared and isn't fed back into public models.
+Copilot doesn't use the public OpenAI service that powers ChatGPT. Copilot in Customer Service uses the [Microsoft Azure OpenAI Service](/azure/ai-services/openai/overview), hosted in a Microsoft-managed environment. All data processing and retrieval occurs within Microsoft-managed environments. Customer data isn't shared with public models or used to train them.
 
 ### What are the language limitations for summaries that Copilot generates from cases and conversations?
 
@@ -119,7 +121,7 @@ Many languages are supported in Copilot-generated summaries from cases and conve
 
 ## Is the model tested and monitored on an ongoing basis? If so, how frequently? What testing is performed?
 
-The model is tested for quality and harmful content, every time there's a change to the model interaction or version. Learn more in the Responsible AI Transparency Report.
+The model is tested and monitored continuously. It's evaluated for quality and harmful content each time there's a change to the model version or its interactions. Learn more in the [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
 
 ## How frequently is the model monitored to detect performance degradation?
 
@@ -181,7 +183,7 @@ Yes. Moderation filters are applied in multiple layers, including on output to m
 
 Similar to all Azure services, backup and recovery are supported via multiple data centers for high availability.
 
-## Is the model dependent upon, embedded within third-party tools or solutions that makes it difficult to migrate the model to a different environment (including variables such as hosting provider, hardware, software systems) that would impede the model's explainability?
+## Is the model dependent upon, embedded within third-party tools or solutions that make it difficult to migrate the model to a different environment (including variables such as hosting provider, hardware, software systems) that would impede the model's explainability?
 
 No.
 
