@@ -1,7 +1,7 @@
 ---
 title: "Integrate Dynamics 365 Field Service and Supply Chain Management | MicrosoftDocs"
 description: Learn about integration between Dynamics 365 Field Service and Dynamics 365 Supply Chain Management.
-ms.date: 04/17/2025
+ms.date: 04/30/2026
 ms.topic: integration
 ms.author: jacoh
 author: jasonccohen
@@ -9,9 +9,9 @@ author: jasonccohen
 
 # Integrate Dynamics 365 Field Service and Supply Chain Management
 
-Dynamics 365 Field Service includes basic [inventory capabilities](./inventory-purchasing-returns-overview.md) to manage technician truck stock, track asset service history, or documenting returns. Organizations often integrate Field Service with their Enterprise Resource Planning (ERP) systems, for example [Dynamics 365 Supply Chain Management](/dynamics365/supply-chain/).
+Dynamics 365 Field Service includes basic [inventory capabilities](./inventory-purchasing-returns-overview.md) to manage technician truck stock, track asset service history, or document returns. Organizations often integrate Field Service with their Enterprise Resource Planning (ERP) systems, such as [Dynamics 365 Supply Chain Management](/dynamics365/supply-chain/).
 
-Based on the Common Data Model and Microsoft Dataverse, you can set up a synchronous two-way integration for the following tables:
+Because they're based on the Common Data Model and Microsoft Dataverse, you can set up a synchronous two-way integration for the following tables:
 
 - [**Warehouse**](./developer/reference/entities/msdyn_warehouse.md)
 - [**Customer Asset**](./developer/reference/entities/msdyn_customerasset.md)
@@ -26,8 +26,8 @@ Based on the Common Data Model and Microsoft Dataverse, you can set up a synchro
 Here are a few examples of how the integration is useful.
 
 1. **Asset management**: When a user creates a work order for repair or maintenance on a customer asset, the integration allows dispatchers to pick from a full list of customer assets, regardless of which system it was created in.
-2. **Nearby warehouses**: Integration provides technicians with a complete list of nearby warehouses and relevant details.
-3. **Purchase orders**: A purchase order is created in Supply Chain Management; then a technician documents receipt of the products in the Field Service app while onsite at the customer's location.
+1. **Nearby warehouses**: Integration provides technicians with a complete list of nearby warehouses and relevant details.
+1. **Purchase orders**: A purchase order is created in Supply Chain Management; then a technician documents receipt of the products in the Field Service app while onsite at the customer's location.
 
 ## Prerequisites
 
@@ -35,21 +35,21 @@ Here are a few examples of how the integration is useful.
 
 ## How it works
 
-Field Service is built on top of Dataverse and uses [dual-write](https://powerapps.microsoft.com/blog/announcing-dual-write-preview/), which writes changes in Dynamics 365 Supply Chain Management to Dataverse and vice versa.
+Field Service is built on Dataverse and uses [dual-write](https://powerapps.microsoft.com/blog/announcing-dual-write-preview/) to write changes between Dynamics 365 Supply Chain Management and Dataverse.
 
-After dual-write is enabled, a solution is imported into Field Service that adds the required fields to make the entities in each system integratable.
+When you enable dual-write, you import a solution into Field Service that adds the fields needed to integrate the entities in each system.
 
-For example, in Field Service, new fields are added to the warehouse entity that are required in Supply Chain Management.
+For example, in Field Service, you add new fields to the warehouse entity that Supply Chain Management requires.
 
 :::image type="content" source="./media/inventory-warehouse-supply-chain2.png" alt-text="Screenshot of a warehouse, showing the integration section.":::
 
-When a warehouse record is created or updated in either system, the change shows in the other system in near real time.
+When you create or update a warehouse record in either system, the change appears in the other system in near real time.
 
-Business rules and validations in either system are respected in the other system. For example, imagine a warehouse can't be created in Supply Chain Management without a specific field value. When a user attempts to create the warehouse in Field Service, an error appears based on the validation logic in Supply Chain Management.
+Each system respects the business rules and validations of the other system. For example, if Supply Chain Management requires a specific field value to create a warehouse, Field Service shows an error when a user tries to create the warehouse without that value.
 
 ## Purchase orders
 
-A purchase order is created in either system. In the following example, a purchase order was created in Supply Chain Management.
+Create a purchase order in either system. In the following example, you create a purchase order in Supply Chain Management.
 
 :::image type="content" source="./media/scm-po-form.jpg" alt-text="Screenshot of purchase order form in supply chain management.":::
 
@@ -59,7 +59,7 @@ In dual-write, you can see the integration is running.
 
 For each table in the integration, the relevant fields are mapped to the other system. The following screenshot shows the mapping between purchase orders in Supply Chain Management and purchase orders in Field Service.
 
-As the last part of the process, a purchase order is created in Field Service with relevant information from both systems.
+As the last part of the process, create a purchase order in Field Service with relevant information from both systems.
 
 :::image type="content" source="./media/scm-po-form-fs.jpg" alt-text="Screenshot of purchase order in Field Service.":::
 
