@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: faq
 ms.collection: bap-ai-copilot
-ms.date: 12/01/2025
+ms.date: 05/01/2026
 ms.update-cycle: 180-days
 ms.custom: 
 - bap-template
@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-This FAQ article helps answer the questions around the responsible use of AI in copilot features in Customer Service.
+This FAQ article helps answer the questions around the responsible use of AI in Copilot features in Customer Service.
 
 ## What is Copilot in Dynamics 365 Customer Service?
 
@@ -30,6 +30,8 @@ Copilot provides the following main features:
 - **Ask a question**: Is the first tab that service representatives see when they activate the Copilot help pane. It's a conversational interface with Copilot, which helps provide contextual responses to the representatives' questions. Copilot’s responses are based on both internal and external knowledge sources provided by your organization during setup.
 
 - **Write an email**: Is the second tab on the Copilot help pane helps representatives quickly create email responses based on the context of the case, reducing the time users need to spend creating emails.
+
+- **Analyze email sentiment**: Enables representatives to detect whether customer emails express a positive, negative, or neutral sentiment, helping representatives understand the customer’s tone and tailor responses effectively. This feature applies only to incoming customer emails, and doesn’t infer specific emotions. It doesn't evaluate representative performance and shouldn’t be used as the sole input for performance management of customer service representatives. Any use of sentiment data for evaluation must include human oversight.
 
 - **Draft a chat response**: Enables representatives to create a response in a single click to the ongoing digital messaging conversation from knowledge sources configured by your organization.
 
@@ -75,7 +77,7 @@ Clear intent is essential when asking questions, as it directly impacts the qual
 
 However, asking an even more detailed question like "What steps can I take to determine why a Contoso 900 coffee machine with a 5-bar pressure rating isn't starting up?" narrows down the scope of the problem and provides more context, leading to more accurate and targeted responses.
 
-### Add Context
+### Add context
 
 Adding context helps the conversational AI system better understand the user's intent and provide more accurate and relevant responses. Without context, the system might misunderstand the user's question or provide generic or irrelevant responses.
 
@@ -107,7 +109,7 @@ Copilot enforces the role-based access (RBAC) controls defined, and adheres to a
 
 Copilot determines whether content is harmful through a severity rating system based on distinct categories of objectionable content. Learn more in [Harm categories in Azure AI Content Safety](/azure/ai-services/content-safety/concepts/harm-categories?tabs=warning).
 
-## Where does data processing and retrieval occur to generate copilot responses?  
+## Where does data processing and retrieval occur to generate Copilot responses?  
 
 Copilot doesn't call the public OpenAI service that powers ChatGPT. Copilot in Customer Service uses the [Microsoft Azure OpenAI Service](/azure/ai-services/openai/overview) in a Microsoft managed tenant. All data processing and retrieval occurs within Microsoft managed tenants. Additionally, customer’s data isn't shared and isn't fed back into public models.
 
