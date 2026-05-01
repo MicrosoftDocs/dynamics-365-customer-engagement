@@ -26,7 +26,7 @@ When you compose or respond to emails, the following actions apply:
 
 - If you apply labels such as **Do Not Forward** or **Do Not Reply** to an email, the corresponding actions are automatically restricted for email recipients within the organization.
 - When you reply to or forward an email that has a sensitivity label, the system automatically applies the same label to your email. You can’t change the current label to a less restrictive label. For example, if the original email is labeled **Confidential**, you can’t change it to **General**.
-- Your organization can have a default sensitivity label configured. This label is automatically applied when you start composing a new email in the email editor. 
+- Your organization can have a default sensitivity label configured. The default label is automatically applied when you start composing a new email in the email editor. 
 - Based on your organization's configurations, you can't send or save an email until you apply the required sensitivity label.
 - When you add an attachment to an email, the attachment keeps its existing sensitivity label. If there’s a conflict between the attachment’s label and the email’s label, a message appears in the email indicating which label should take priority. Displaying this message helps ensure the entire message is classified consistently.
 
