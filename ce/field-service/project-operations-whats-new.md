@@ -22,6 +22,8 @@ The Dynamics 365 Field Service and Project Operations Integration package versio
 
 - Clearer inventory experience in the integrated Project Operations with Finance model. In this model, since inventory is managed in Dynamics 365 Supply Chain Management and not Field Service, Field Service hides inventory features. For example, Product Inventory, Transfers, and Adjustments no longer appear. You can still view inventory in Field Service through [warehouses](/dynamics365/field-service/inventory-purchasing-returns-overview#warehouses-and-product-inventory), but you can't change it.
 
+- Expanded project lookup for all billing customers, not just the default project contract billing customer. All customers listed on the associated project-based contract line are available in the project lookup.
+
 ### Bug fixes
 
 - Aligned transaction types with Project Operations so that only relevant and supported transaction types are available in Field Service. In some existing environments, previously available options might still be visible.
@@ -29,7 +31,5 @@ The Dynamics 365 Field Service and Project Operations Integration package versio
 - Improved error messages and system monitoring. Work order line error messages are more detailed and actionable to help users quickly identify and fix the issue.
 
 - Reduced multi-currency restrictions for work orders. Additional multi-currency options are supported.
-
-- Expanded project lookup for all billing customers, not just the default project contract billing customer. All customers listed on the associated project-based contract line are available in the project lookup.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
