@@ -14,9 +14,9 @@ ms.custom: bap-template
 
 Email sentiment analysis helps customer service representatives and supervisors understand the tone of incoming customer email communications. The application uses natural language processing (NLP) and machine learning (ML) to analyze the sentiment expressed in customer emails.
 
-The application displays sentiment intensity indicators based on the content and tone of incoming customer emails. Email sentiment intensity is measured across seven levels, three positive, three negative, and one neutral, providing detailed insight into customer emotional states.
+The application displays sentiment intensity indicators based on the content and tone of incoming customer emails. Email sentiment intensity is measured across seven levels: three positive, three negative, and one neutral. These levels help provide insight into customer sentiment.
 
-Email sentiment analysis supports multiple languages. Using the Microsoft Azure Text Translator API, emails written in more than 40 languages are automatically translated and scored for sentiment, enabling comprehensive coverage of global customer communications.
+Email sentiment analysis supports multiple languages. The application uses the Microsoft Azure Text Translator API to translate and score emails written in more than 40 languages for sentiment. This capability enables comprehensive coverage of global customer communications.
 
 > [!NOTE]
 > - Non-English conversations are translated to English and then scored.
