@@ -21,7 +21,7 @@ This FAQ article helps answer the questions around the responsible use of AI in 
 
 ## What is Copilot in Dynamics 365 Customer Service?
 
-Copilot is an AI-powered tool that transforms the customer service representative (service representative or representative) experience in Dynamics 365 Customer Service.It provides real-time, AI-powered assistance that helps representatives resolve issues faster, manage cases more efficiently, and automate routine tasks so they can focus on delivering high-quality customer service.
+Copilot is an AI-powered tool that transforms the customer service representative (service representative or representative) experience in Dynamics 365 Customer Service. It provides real-time, AI-powered assistance that helps representatives resolve issues faster, manage cases more efficiently, and automate routine tasks so they can focus on delivering high-quality customer service.
 
 ## What are the systems capabilities?
 
@@ -39,7 +39,7 @@ Copilot provides the following main features:
 
 - **Summarize a conversation**: Copilot provides representatives with a summary of a conversation at key points throughout the customer journey such as virtual representative handoffs, transfers and on demand.
 
-- **Generate knowledge draft from case (preview)**: Copilot generates a knowledge article draft as a proposal that's based on information from the case. Representatives can review and refine the draft by giving revision instructions to Copilot and then save it.
+- **Generate knowledge draft from case (preview)**: Copilot generates a knowledge article draft as a proposal based on information from the case. Representatives can review and refine the draft by giving revision instructions to Copilot and then save it.
   
 - **Summarize a custom record**: Copilot provides a summary of a record by using fields that an administrator configures for the custom table. This summary helps representatives quickly understand key details of a support record.
 
@@ -59,7 +59,7 @@ Copilot in Customer Service is evaluated against real-world customer scenarios t
 
 Copilot's knowledge-based capabilities like ask a question, write an email, and draft a chat response, are dependent on high-quality and up-to-date knowledge articles for grounding. Without these knowledge articles, users are more likely to encounter Copilot responses that aren't factual.  
 
-To reduce the risk of non-factual responses, Microsoft uses strong knowledge management practices. These practices help ensure that the business knowledge connected to Copilot stays accurate and up to date.
+To reduce the risk of nonfactual responses, Microsoft uses strong knowledge management practices. These practices help ensure that the business knowledge connected to Copilot stays accurate and up to date.
 
 ## What operational factors and settings allow for effective and responsible use of the system?  
 
@@ -91,17 +91,17 @@ Adding context in this manner is important because it helps Copilot better under
 
 We recommend that you avoid using highly technical terms and resource names when you interact with Copilot because the system might not always understand it accurately or appropriately. The use of simpler, natural language helps ensure that the system can understand the user's intent correctly and provide clear, useful responses.
 
-For example, you could rephrase "The customer can't SSH into the VM after having changed the firewall config" to "The customer changed the firewall rules on their virtual machine. However, they can no longer connect using Secure Shell (SSH). Can you help?"
+For example, you could rephrase "The customer can't SSH into the VM after having changed the firewall config" to The customer changed the firewall rules on their virtual machine. They can no longer connect using Secure Shell (SSH)." Can you help?"
 
 By following the suggestions, representatives can enhance their interactions with Copilot and increase the likelihood of receiving accurate and confident responses from it.
 
 ### Summarizing or expanding a response
 
-Sometimes the response from Copilot can be longer than expected. This could be the case when the representative is in a live chat conversation with a customer and needs to send concise responses when compared with sending a response over email. In such cases, asking Copilot to "summarize the response" will result in a concise answer to the question.  Similarly, if there's a need for more detail, asking Copilot to "Provide more details" will result in a more detailed answer to your question. If the response is truncated, typing "continue" displays the remaining part of the response.
+Sometimes the response from Copilot can be longer than expected. This scenario could occur when the representative is in a live chat conversation with a customer and needs to send concise responses compared to sending a response over email. In such cases, asking Copilot to "summarize the response" results in a concise answer to the question.  Similarly, if there's a need for more detail, asking Copilot to "Provide more details" results in a more detailed answer to your question. If the response is truncated, typing "continue" displays the remaining part of the response.
 
 ## How can I influence the responses generated by Copilot? Can I fine-tune the underlying LLM?
 
-It's not possible to customize the large language model (LLM) directly. Copilot responses can be influenced by updating the source documentation. All the feedback content from Copilot responses is stored. Reports can be created using this data to determine the data sources that need to be updated. We recommend that you have processes in place to periodically review the feedback data and ensure knowledge articles are providing the best, most up-to-date information to Copilot.
+It's not possible to customize the large language model (LLM) directly. Copilot responses can be influenced by updating the source documentation. The feedback content from Copilot responses is stored. Reports can be created using this data to determine the data sources that need to be updated. We recommend that you have processes in place to periodically review the feedback data and ensure knowledge articles are providing the best, most up-to-date information to Copilot.
 
 ## What's the data security model for Copilot?
 
@@ -121,11 +121,11 @@ Many languages are supported in Copilot-generated summaries from cases and conve
 
 ## Is the model tested and monitored on an ongoing basis? If so, how frequently? What testing is performed?
 
-The model is tested and monitored continuously. It's evaluated for quality and harmful content each time there's a change to the model version or its interactions. Learn more in the [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
+The model is tested and monitored continuously. The model is evaluated for quality and harmful content each time there's a change to the model version or its interactions. Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
 
 ## How frequently is the model monitored to detect performance degradation?
 
-Azure OpenAI hosts and manages the generative AI GPT Model. The use of the model in customer service scenarios is bound by responsible AI practices and Deployment Safety Board checks. Any changes to model versions or underlying prompts are validated for quality and harmful content. Learn more in the [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
+Azure OpenAI hosts and manages the generative AI GPT Model. Responsible AI practices and Deployment Safety Board checks govern how the model is used in customer service scenarios. Any changes to model versions or underlying prompts are validated for quality and harmful content. Learn more in the [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
 
 ## Does the product or service employ more than one model or a system of interdependent models?
 
@@ -135,9 +135,9 @@ Different features in the system could be using different versions of Azure Open
 
 Copilot is built using Azure OpenAI, a fully managed AI service that integrates OpenAI with Microsoft-developed content filtering and abuse detection models. Learn more in [Transparency note for Azure OpenAI](/legal/cognitive-services/openai/transparency-note?context=%2Fazure%2Fai-services%2Fopenai%2Fcontext%2Fcontext&tabs=text).
 
-## Is there a set process to communicate any changes in models, upstream models or outputs that are used from other AI/ML or model solutions?
+## Is there a set process to communicate any changes in models, upstream models, or outputs that are used from other AI/ML or model solutions?
 
-Any planned changes to the Copilot features are communicated via public documentation. However changes with respect to model version or prompts, are governed by the internal responsible AI processes. These changes aren't communicated, as they're incremental and ongoing functional improvements.
+Any planned changes to the Copilot features are communicated via public documentation. However, internal responsible AI processes govern changes to model versions and prompts. These changes aren't communicated, as they're incremental and ongoing functional improvements.
 
 ## Is user verbatim feedback available to Microsoft to improve the product?
 
@@ -145,15 +145,15 @@ No.
 
 ## Does Microsoft have policies and procedures that define and differentiate the various human roles and responsibilities when they interact with or monitor AI systems?
 
-Yes. In the responsible AI process, all stakeholders and users involved are considered, and their use or unintended use of the system is discussed. Based on the identified scenarios, required mitigations are brought in within the product or via documentation. Learn more in Responsible AI Transparency Report.
+Yes. In the responsible AI process, all stakeholders and users involved are considered, and their use or unintended use of the system is discussed. Based on the identified scenarios, required mitigations are brought in within the product or via documentation. Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
 
-## Does Microsoft identify and document approaches to engage, capture, and incorporate input from other end users and key stakeholders to assist with the continuous monitoring for potential impacts and emerging risks?
+## Does Microsoft identify and document ways to gather input from end users and stakeholders to monitor potential impacts and risks?
 
-Yes. Learn more in Responsible AI Transparency Report.
+Yes. Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
 
 ## Does Microsoft document, practice, and measure incident response plans for AI system incidents including measuring response and down times?
 
-Yes. The responsible AI process requires that team have an incident response plan for AI issues, similar to the process for functional issues. The feature teams actively monitor the performance and reliability of the system. Learn more in Responsible AI Transparency Report.
+Yes. The responsible AI process requires that team have an incident response plan for AI issues, similar to the process for functional issues. The feature teams actively monitor the performance and reliability of the system. Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
 
 ## Does Microsoft establish procedures to share information about error incidences and negative impacts with relevant stakeholders, operators, practitioners, users and affected parties?
 
@@ -165,31 +165,31 @@ Yes. The feature teams continuously monitor the performance and reliability of t
 
 ## Does Microsoft test the quality of systems explanations with end users and other stakeholders?
 
-Yes. Learn more in Responsible AI Transparency Report.
+Yes. Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
 
-## Does Microsoft have established policies and procedures for monitoring and addressing model system performance and trustworthiness, including bias and security problems across the lifecycle of the model, when evaluating AI systems for negative risks and benefits?
+## Does Microsoft have policies and procedures to monitor and address model performance, trustworthiness, bias, and security across the model lifecycle?
 
 Yes. Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
 
 ## Does Microsoft conduct fairness assessments to manage computational and statistical forms of bias?
 
-Yes. Learn more in Responsible AI Transparency Report.
+Yes. Learn more in Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
 
 ## Does Microsoft monitor system outputs for performance or bias issues?
 
-Yes. Moderation filters are applied in multiple layers, including on output to make sure that there's no harmful content in the response. Learn more in Responsible AI Transparency Report.
+Yes. Moderation filters are applied in multiple layers, including on output to make sure that there's no harmful content in the response. Learn more in Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
 
 ## What is the level of resiliency in the model's operation? For example, is there a disaster recovery and contingency plan for instances when the model is unavailable?
 
 Similar to all Azure services, backup and recovery are supported via multiple data centers for high availability.
 
-## Is the model dependent upon, embedded within third-party tools or solutions that make it difficult to migrate the model to a different environment (including variables such as hosting provider, hardware, software systems) that would impede the model's explainability?
+## Is the model dependent upon, embedded within non-Microsoft tools or solutions that make it difficult to migrate the model to a different environment (including variables such as hosting provider, hardware, software systems) that would impede the model's explainability?
 
 No.
 
 ## Is there an established model governance policy?
 
-Yes. Azure OpenAI supports an established governance policy. Learn more in Responsible AI Transparency Report.
+Yes. Azure OpenAI supports an established governance policy. Learn more in Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
 
 ## Are there established and documented protocols (authorization, duration, type) and access controls for training or production data sets containing PII in accordance with privacy and data governance policies?
 
