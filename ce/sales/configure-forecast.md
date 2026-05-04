@@ -20,7 +20,7 @@ ms.custom: bap-template
 
 # Configure forecasts in your organization
 
-Forecasting empowers your sales organization to make data-driven decisions and hit revenue targets consistently. By configuring forecasts based on your sales pipeline, you gain visibility into revenue projections, identify risks early, and enable your team to take corrective action before it's too late. For example, if a forecast shows your team is tracking 15% below target midquarter, managers can coach sellers on pipeline gaps or accelerate deals to close the gap—turning a potential miss into a win.
+Forecasting empowers your sales organization to make data-driven decisions and hit revenue targets consistently. By configuring forecasts based on your sales pipeline, you gain visibility into revenue projections, identify risks early, and enable your team to take corrective action before it's too late. For example, if a forecast shows your team is tracking 15% below target mid-quarter, managers can coach sellers on pipeline gaps or accelerate deals to close the gap—turning a potential miss into a win.
 
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
@@ -37,7 +37,7 @@ Forecasting isn't supported on Government Community Cloud (GCC) or mobile device
 
 ## Configure forecasting
 
-You can configure forecasts that are based on revenue or quantity. You define the type of forecast, the hierarchy, access permissions, and the details you want to see in the forecast grid. After a forecast is activated, your sales team can view the revenue, or quantity, and pipeline projections. Until you activate a forecast, your sales team can view an [out-of-the-box forecast](view-forecasts.md#out-of-the-box-forecast) for the current month. The out-of-the-box forecast isn't available in the forecast configuration page and neither can it be deleted nor deactivated.
+You can configure forecasts based on revenue or quantity by defining the forecast type, hierarchy, access permissions, and grid columns. Once activated, your sales team can view revenue, quantity, and pipeline projections. Before activation, they see a default [out-of-the-box forecast](view-forecasts.md#out-of-the-box-forecast) for the current month—which can't be customized, deleted, or deactivated.
 
 1. In the Sales Hub app, select the Change area icon ![Icon to change the work area](./media/change-area-icon.png "Icon to change the work area") in the lower-left corner, and then select **App Settings**.  
 
