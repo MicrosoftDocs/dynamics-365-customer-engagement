@@ -2,7 +2,7 @@
 title: Configure general settings for the Sales Qualification Agent
 description: Configure the Sales Qualification Agent's general settings, including agent profile, company details, and product information, to set the context for the agent.
 ms.date: 08/01/2025
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

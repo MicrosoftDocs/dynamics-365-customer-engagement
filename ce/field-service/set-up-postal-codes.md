@@ -1,14 +1,14 @@
 ---
 title: Set up postal codes
 description: Learn how to set up postal codes and relate them to territories in Dynamics 365 Field Service.
-ms.date: 04/18/2025
+ms.date: 04/30/2026
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
 ---
 # Create and manage postal codes
 
-Create postal code records to automatically assign accounts to a [service territory](set-up-territories.md). Enter the address on the [account form](accounts.md) and the system automatically populates the service territory if the postal code matches.  
+Create postal code records to automatically assign accounts to a [service territory](set-up-territories.md). When a user enters the address on the [account form](accounts.md), the system automatically populates the service territory if the postal code matches.    
   
 Postal codes relate to territories. However, they aren't required for the territories feature to work.
 
@@ -36,7 +36,7 @@ You can't assign a postal code to multiple territories.
 
 1. In the **General** section, select **Postal Codes**.
 
-1. Select the postal code you want to change and edit the record. You can also select multiple records and select **Edit** if you want to change the territory in bulk.
+1. Select the postal code you want to change and edit the record. To change the territory for multiple postal codes, select multiple records and select **Edit**.
 
 1. Select **Save**.
 
@@ -46,7 +46,7 @@ You can't assign a postal code to multiple territories.
 
 1. In the **General** section, select **Postal Codes**.
 
-1. Select the postal code you want to remove. You can also select multiple records for deletion.
+1. Select the postal code you want to remove. To delete multiple postal codes, select multiple records.
 
 1. Select **Delete** and confirm the deletion.
   

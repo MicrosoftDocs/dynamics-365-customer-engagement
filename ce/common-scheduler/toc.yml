@@ -11,6 +11,8 @@ items:
     items: 
     - name: Schedule assistant overview
       href: schedule-assistant.md
+    - name: Launch the schedule assistant
+      href: schedule-assistant-book-button.md
     - name: Quick scheduling
       href: quick-scheduling.md
     - name: Travel time and distance
@@ -51,6 +53,12 @@ items:
       href: schedule-board-tab-settings.md
     - name: Work with the schedule board
       href: use-schedule-board.md
+    - name: Drag and drop scheduling
+      href: schedule-board-drag-drop.md
+    - name: Filter resources and requirements
+      href: schedule-board-filtering.md
+    - name: Manual scheduling
+      href: schedule-board-manual-scheduling.md
   - name: Extensibility
     items: 
     - name: Preferred geospatial data provider

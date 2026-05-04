@@ -2,7 +2,7 @@
 title: Sales Close Agent overview (preview)
 description: Discover how Sales Close Agent in Dynamics 365 Sales automates the sales process for high-velocity, low-complexity deals using AI-powered assistance to enhance customer engagement and drive transactions to closure.
 ms.date: 11/07/2025
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template

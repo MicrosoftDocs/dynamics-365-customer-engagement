@@ -2,7 +2,7 @@
 title: Analyze your sales performance using the Sales Research Agent
 description: Learn how to use the Sales Research Agent in Dynamics 365 Sales to analyze your sales performance and get insights quickly.
 ms.date: 03/31/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs

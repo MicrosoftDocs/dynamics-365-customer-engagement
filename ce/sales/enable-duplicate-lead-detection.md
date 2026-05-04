@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 01/23/2025
+ms.date: 04/30/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -21,24 +21,24 @@ Enable duplicate lead detection to help your sellers identify and address potent
 
 >[!VIDEO https://learn-video.azurefd.net/vod/player?id=94602225-e5b4-4070-abc8-3ada754da622]
 
-The duplicate detection capability helps sellers to check for potential duplicate leads in the app. When you enable this capability, the AI model uses the following rules to identify duplicates:
+The duplicate detection capability helps sellers check for potential duplicate leads in the app. When you enable this capability, the AI model uses the following rules to identify duplicates:
 
 - Same email address  
 - Same phone number  
 - Similar lead name and company name  
 - Similar lead name and the same email domain  
 
-Further, sellers can compare and remove the duplicate leads in the organization. More information: [Manage duplicate leads](manage-duplicate-leads.md)
+Sellers can compare and remove the duplicate leads in the organization. For more information, see [Manage duplicate leads](manage-duplicate-leads.md).
 
 > [!NOTE]
 > - If the Microsoft Power Platform duplicate detection feature is enabled in your organization, a message is displayed as shown in the following image: 
 > :::image type="content" source="media/lead-power-platform-duplicate-detection-enabled-message.png" alt-text="Screenshot showing message when the Microsoft Power Platform duplicate detection feature is enabled." lightbox="media/lead-power-platform-duplicate-detection-enabled-message.png":::
-> - To know the difference between the Microsoft Power Platform and Sales duplicate detection features, go to [What is the difference between the duplicate detection capability in Microsoft Power Platform and duplicate detection of leads in Dynamics 365 Sales?](faq-lead.md#whats-the-difference-between-the-duplicate-detection-capability-in-power-platform-and-dynamics-365-sales)
-> - For an optimal experience of the duplicate detection of leads in Dynamics 365 Sales, disable the duplicate detection of leads in Microsoft Power Platform. More information [Turn duplicate detection rules on or off for the whole organization](/power-platform/admin/turn-duplicate-detection-rules-off-whole-organization)  
+> - To learn about the difference between the Microsoft Power Platform and Sales duplicate detection features, see [What is the difference between the duplicate detection capability in Microsoft Power Platform and duplicate detection of leads in Dynamics 365 Sales?](faq-lead.md#whats-the-difference-between-the-duplicate-detection-capability-in-power-platform-and-dynamics-365-sales)
+> - For an optimal experience of the duplicate detection of leads in Dynamics 365 Sales, disable the duplicate detection of leads in Microsoft Power Platform. For more information, see [Turn duplicate detection rules on or off for the whole organization](/power-platform/admin/turn-duplicate-detection-rules-off-whole-organization).  
 
 ## Enable the duplicate detection feature
 
-1. At the lower-left corner of the Sales Hub app, select **Change area** ![Change area icon](media/change-area-icon.png) > **App Settings**.
+1. At the lower-left corner of the Sales Hub app, select **Change area** :::image type="icon" source="media/change-area-icon.png" border="false"::: > **App Settings**.
 1. On the site map, select **Data improvement** > **Duplicate detection**.
 
     :::image type="content" source="media/lead-enable-duplicate-detection-page.png" alt-text="Screenshot of duplicate detection enablement page.":::
@@ -47,9 +47,9 @@ Further, sellers can compare and remove the duplicate leads in the organization.
 
     :::image type="content" source="media/lead-duplicate-detection-feature-enabled.png" alt-text="Screenshot of enabling the duplicate detection feature.":::
 
-## Trouble in identifying duplicate leads?
+## Trouble identifying duplicate leads?
 
-If the duplicate detection feature isn't working, do the following steps:  
+If the duplicate detection feature isn't working, follow these steps:  
 
 1. Turn off the feature.
 1. Ensure that the following requirements are met:
@@ -61,11 +61,11 @@ If the duplicate detection feature isn't working, do the following steps:
 
 ### Enable the Dataverse search
 
-Dataverse search is enabled in your organization. The AI model that detects duplicate leads uses Dataverse search for better results. More information: [Configure Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization)   
+Dataverse search is enabled in your organization. The AI model that detects duplicate leads uses Dataverse search for better results. For more information, see [Configure Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization).   
  
 ### Enable the required fields for leads  
 
-The following fields are enabled in the **Quick Find All Leads** view for leads, under the **Find by** section: 
+Enable the following fields in the **Quick Find All Leads** view for leads, under the **Find by** section: 
 - `firstname`
 - `lastname`
 - `emailaddress1`
@@ -81,15 +81,15 @@ To go to the **Quick Find All Leads** view, follow these steps:
 1. Select an [environment](/power-apps/maker/model-driven-apps/model-driven-app-glossary#environment)
         
     > [!NOTE]
-    > It is best practice to create tables inside a custom solution. More information: [Solution (glossary)](/power-apps/maker/model-driven-apps/model-driven-app-glossary#solution)
+    > Create tables inside a custom solution. For more information, see [Solution (glossary)](/power-apps/maker/model-driven-apps/model-driven-app-glossary#solution).
 
-1. Expand **Dataverse**, select **Tables**, go to the **All** tab and select the **Lead** table.   
-1. On the **Lead** table page, under the **Data experiences** section, select **Views**.  If using a custom solution, open the solution, open the table, and then select the **Views** area.  
+1. Expand **Dataverse**, select **Tables**, go to the **All** tab, and select the **Lead** table.   
+1. On the **Lead** table page, under the **Data experiences** section, select **Views**. If you're using a custom solution, open the solution, open the table, and then select the **Views** area.  
 1. On the **Views** page, select the **Quick Find All Leads** view.   
 
 ### Activate the required processes
 
-Verify the following processes are in active state:
+Verify that the following processes are active:
 - CheckForDuplicatesAction
 - DuplicateDetectionTriggerAction  
 - GetDuplicatesAction
@@ -98,13 +98,13 @@ To go to the **Processes** page, follow these steps:
 
 1. In the sales app, go to **Settings** > **Advanced Settings**.
 1. Go to **Process Center** > **Processes**, and then select **Processes** on the page. 
-1. Select the **All Processes** view and verify that the above mentioned processes are in active state.
+1. Select the **All Processes** view and verify that the preceding processes are active.
 
 
 ### Provide read permissions for process
 
-The security roles who use the feature have at least read permission for **Process** under **Customization**.  
-More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges) 
+The security roles that use the feature need at least read permission for **Process** under **Customization**.  
+For more information, see [Security roles and privileges](/power-platform/admin/security-roles-privileges). 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

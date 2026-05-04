@@ -2,7 +2,7 @@
 title: Set up and configure the Sales Close Agent (preview)
 description: Set up and configure the Sales Close Agent to help your sales team engage with customers effectively.
 ms.date: 11/28/2025
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -111,6 +111,10 @@ Let's look at the steps to set up and configure the agents.
 1. [Configure knowledge sources](configure-sales-close-agent-knowledge-sources.md) that the agent uses to enrich customer interactions.  
 1. [Test the agent](sales-close-agent-engage-test.md) to simulate interactions between the Sales Close Agent and a customer without impacting real CRM data.  
 1. After you are satisfied with the configuration, [start the agent](start-sales-close-agent.md).
+
+## Migrate agents across environments
+
+When you have configured the Sales Close Agent in one environment, you can export the agent as a solution and import it into another environment. This is especially useful when you have set up the agent in a sandbox or test environment and want to deploy it in production after testing and validation. Learn more in [Import an agent into a target environment](import-export-agent-solutions.md).
 
 ## Related information
 

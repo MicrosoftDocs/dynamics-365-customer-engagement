@@ -2,7 +2,7 @@
 title: Set up Sales Close Agent through the Setup Assistant (preview)
 description: Learn how to set up the Sales Close Agent using the AI Setup Assistant in Dynamics 365 Sales.
 ms.date: 11/28/2025
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

@@ -1,7 +1,7 @@
 ---
 title: Retrieve data using msdyn_RetrieveKPIValuesForGDPR action
 description: Use the action to programmatically retrieve profiles, interactions, and KPIs for an account, contact, lead or opportunity that is stored Azure service.
-ms.date: 04/21/2023
+ms.date: 04/30/2026
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -11,14 +11,14 @@ ms.assetid: d0d20528-0a72-4dd2-8c91-6367a9d4279d
 topic-status: Drafting
 ---
 
-# Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action
+# Retrieve insights data by using msdyn_RetrieveKPIValuesForGDPR action
 
 [!INCLUDE [gdpr-intro](~/../shared-content/shared/privacy-includes/gdpr-intro.md)]
 
-Use the **msdyn_RetrieveKPIValuesForGDPR** action to programmatically retrieve profiles, interactions, and KPIs stored in Azure service that is used to compute and store data for an contact, lead, opportunity, or systemuser. This action is useful for responding to data requests to fulfill your data privacy compliance obligations in Dynamics 365 Sales Insights.
+Use the **msdyn_RetrieveKPIValuesForGDPR** action to programmatically retrieve profiles, interactions, and KPIs stored in Azure service that computes and stores data for a contact, lead, opportunity, or systemuser. This action is useful for responding to data requests to fulfill your data privacy compliance obligations in Dynamics 365 Sales Insights.
 
 > [!NOTE]
-> - You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](/dynamics365/customer-engagement/developer/create-own-actions#generate-early-bound-types-for-an-action&preserve-view=true)
+> - You can also generate request and response classes for this action to include in your application code. For more information, see [Generate early-bound types for an action](/dynamics365/customer-engagement/developer/create-own-actions#generate-early-bound-types-for-an-action&preserve-view=true).
 > - This topic is applicable only for the [Relationship Analytics](relationship-analytics.md) and [Introduction to Sales Insights application](dynamics365-sales-insights-app.md) features.
 
 ## Action parameters
@@ -27,7 +27,7 @@ The **msdyn_RetrieveKPIValuesForGDPR** action expects the following input parame
 
 | Name | Type | Description |
 |------|------|-------------|
-| `CRMRecord` | <a href="/dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9&preserve-view=true" data-raw-source="[mscrm.crmbaseentity](dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9&preserve-view=true)">mscrm.crmbaseentity</a> | Entity type for which you want to retrieve the data. Required.<br><p>You can specify one of the following values:</p><ul><li><code>Microsoft.Dynamics.CRM.contact</code></li><li><code>Microsoft.Dynamics.CRM.lead</code></li><li><code>Microsoft.Dynamics.CRM.opportunity</code></li><li><code>Microsoft.Dynamics.CRM.systemuser</code></li></ul><p>Depending on the specified entity type, you must specify <code>contactid</code>, <code>leadid</code>, <code>opportunityid</code>, or <code>systemuserid</code> as the second key to identify the entity record you want to retrieve data for. See <a href="#example" data-raw-source="[Example](#example)">Example</a> later in this topic.</p>|
+| `CRMRecord` | [mscrm.crmbaseentity](/dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9&preserve-view=true) | Entity type for which you want to retrieve the data. Required.<br><p>You can specify one of the following values:</p><ul><li><code>Microsoft.Dynamics.CRM.contact</code></li><li><code>Microsoft.Dynamics.CRM.lead</code></li><li><code>Microsoft.Dynamics.CRM.opportunity</code></li><li><code>Microsoft.Dynamics.CRM.systemuser</code></li></ul><p>Depending on the specified entity type, you must specify <code>contactid</code>, <code>leadid</code>, <code>opportunityid</code>, or <code>systemuserid</code> as the second key to identify the entity record you want to retrieve data for. See [Example](#example) later in this topic.</p>|
 |
 
 ## Action return type
@@ -36,7 +36,7 @@ The **msdyn_RetrieveKPIValuesForGDPR** action returns the following value:
 
 | Name | Type | Description |
 |------|------|-------------|
-| `msdyn_RetrieveKPIValuesForGDPRResponse` | <a href="/dynamics365/customer-engagement/developer/webapi/web-api-types-operations#complex-types">ComplexType</a> | Contains the response from the <b>msdyn_RetrieveKPIValuesForGDPR</b> action. It contains the following property that contain the structured data of the type:<ul><li><b>Name:</b> `Response`</li><li><b>Type:</b> Edm.String </li><li><b>Description:</b> List of data as an escaped JSON array. |
+| `msdyn_RetrieveKPIValuesForGDPRResponse` | <a href="/dynamics365/customer-engagement/developer/webapi/web-api-types-operations#complex-types">ComplexType</a> | Contains the response from the <b>msdyn_RetrieveKPIValuesForGDPR</b> action. It contains the following property that contains the structured data of the type:<ul><li><b>Name:</b> `Response`</li><li><b>Type:</b> Edm.String </li><li><b>Description:</b> List of data as an escaped JSON array. |
 
 
 ## Example

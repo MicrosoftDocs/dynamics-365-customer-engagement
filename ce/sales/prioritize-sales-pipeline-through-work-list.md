@@ -1,12 +1,13 @@
 ---
 title: Prioritize sales pipeline with work lists
 description: Use work lists in the sales accelerator to prioritize your sales pipeline and ensure important records aren't left behind.
-ms.date: 03/17/2025
+ms.date: 04/30/2026
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ---
+
 # Prioritize sales pipeline with work lists  
 
 Use work lists in the sales accelerator to prioritize your sales pipeline and ensure that important records aren't left behind.
@@ -24,7 +25,7 @@ The sales accelerator work list gives you the following capabilities:
 - [Add manual activities to records—in addition to those that have been defined in a sequence—if an ad-hoc activity is required.](understand-the-up-next-widget.md#add-manual-activities-to-records)  
 
 > [!NOTE]
-> The work list is configured by a sales manager who defines the sequence of activities for records by using the sequence designer. More information: [Create and manage sequences](create-manage-sequences.md)   
+> A sales manager configures the work list by defining the sequence of activities for records by using the sequence designer. More information: [Create and manage sequences](create-manage-sequences.md)   
 
 ## Prerequisites  
   
@@ -35,28 +36,28 @@ Review the following prerequisites before you start using work lists:
 - Dynamics 365 Channel Integration Framework version 1 is installed, and a channel provider is configured for your Dynamics 365 organization. More information: [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)   
 
 > [!NOTE]
-> Although [predictive lead scoring](configure-predictive-lead-scoring.md) and [predictive opportunity scoring](configure-predictive-opportunity-scoring.md) aren't required for work lists, the work list functionality described in this topic assumes that these features have been enabled and models generated for your organization. Contact your administrator to enable these features.
+> Although [predictive lead scoring](configure-predictive-lead-scoring.md) and [predictive opportunity scoring](configure-predictive-opportunity-scoring.md) aren't required for work lists, the work list functionality described in this topic assumes that these features are enabled and models generated for your organization. Contact your administrator to enable these features.
 
 ## View my records by using the work list<a name="view-my-records-through-work-list"></a>  
 
-The work list displays a list of records that are assigned to you or the security role you're associated with. The records display activities that are due for the current date&mdash;or pending from previous dates&mdash;that were created manually or through a sequence. This helps you to access all records that include activities in one place, instead of navigating across multiple forms in the application. A sales manager can configure and determine the entities to display to you in the work list. The top of the record in the work list will always be the next-best customer with the highest prediction score.
+The work list displays a list of records that are assigned to you or the security role you're associated with. The records display activities that are due for the current date or pending from previous dates that were created manually or through a sequence. This feature helps you access all records that include activities in one place, instead of navigating across multiple forms in the application. A sales manager can configure and determine the entities to display to you in the work list. The top of the record in the work list is always the next-best customer with the highest prediction score.
 
 >[!NOTE]
 >
->From version 9.1.23093.10010, to optimize the performance of loading forms from the work list, the **Back**, **Save & Close**, and **Open in new window** options on the form command bar are removed. If you want these options on your forms in work list, contact Microsoft Support.  
+>Starting with version 9.1.23093.10010, to optimize the performance of loading forms from the work list, the **Back**, **Save & Close**, and **Open in new window** options on the form command bar are removed. If you want these options on your forms in work list, contact Microsoft Support.  
 
 **To view the work list**
 
-1. Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** ![change area icon.](media/change-area-icon.png) > **Sales**.
+1. Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** :::image type="icon" source="media/change-area-icon.png" border="false"::: > **Sales**.
 
-2. From the site map, under **My Work**, select **Sales accelerator**.    
+1. From the site map, under **My Work**, select **Sales accelerator**.    
     The work list page opens, as shown in the following image.   
     :::image type="content" source="media/sa-worklist-page.png" alt-text="Screenshot of the work list page.":::   
 
     | Number | Feature | Description |
     |--------|---------|-------------|
     | 1 | **Search, filter, sort, and group records** | You can search, filter, sort, and group the records that you want to view in the list to quickly identify the customers to contact, as [described later in this topic](#filter-records-in-work-list).<br><br>By using the lookup icon, you can search for a specific record by using the record name. Select **More options** (&vellip;) to [send bulk emails](#send-bulk-emails), [configure work list settings](#configure-personal-settings), and refresh the list, as described later in this topic. |
-    | 2 | **Records list** | Displays a list of records that are assigned to you or to a security role that you're part of. The unread records appear in bold with a blue vertical bar on the left. You must perform and complete the activities on these records from the current date and from previous dates.<br><br>Each record displays the name of the record, primary contact name, next best action, priority scoring, and entity name. Hover over the record to view more options.<br><br> Select **More options** (&vellip;) to perform the following actions on the record:<ul><li>Mark as complete.</li><li>Skip the current activity.</li><li>Snooze the activity.</li><li>Change the state of the record to unread or read.</li><li>Follow or unfollow the record.</li><li>Skip wait time (this option is available for items that are in the wait state).</li></ul><br>Also, you can select the activity icon to perform the specified activity for the record.<br>![Options for records.](media/sa-record-hover-view.png "Options for records")<br>More information: [Connect with customers by using a record or the Up next widget](connect-with-customers.md) <br><br>When you complete an activity on the record, select the refresh icon. The list will be refreshed, and the record will be removed from the list.<br><br>**Note**<br>The list displays records for a month from the current date. The records that are older than 30 days are automatically removed and won't be displayed.|
+    | 2 | **Records list** | Displays a list of records that are assigned to you or to a security role that you're part of. The unread records appear in bold with a blue vertical bar on the left. You must perform and complete the activities on these records from the current date and from previous dates.<br><br>Each record displays the name of the record, primary contact name, next best action, priority scoring, and entity name. Hover over the record to view more options.<br><br> Select **More options** (&vellip;) to perform the following actions on the record:<ul><li>Mark as complete.</li><li>Skip the current activity.</li><li>Snooze the activity.</li><li>Change the state of the record to unread or read.</li><li>Follow or unfollow the record.</li><li>Skip wait time (this option is available for items that are in the wait state).</li></ul><br>Also, you can select the activity icon to perform the specified activity for the record.<br>![Options for records.](media/sa-record-hover-view.png "Options for records")<br>More information: [Connect with customers by using a record or the Up next widget](connect-with-customers.md) <br><br>When you complete an activity on the record, select the refresh icon. The list is refreshed, and the record is removed from the list.<br><br>**Note**<br>The list displays records for a month from the current date. The records that are older than 30 days are automatically removed and aren't displayed.|
     | 3 | **Up next widget** | Displays the next best action that you can perform on a record for the given date, as [described later in this topic](understand-the-up-next-widget.md).|
 
 ## Filter, sort, and more options<a name="filter-records-in-work-list"></a>     
@@ -74,15 +75,15 @@ Filters are categorized into two types:
 
 #### Default filters
 
-The following filters are available by default in the sales accelerator:
+The sales accelerator provides the following default filters:
 
-- **Unopened**: View records that haven't been opened or read.   
+- **Unopened**: View records that you didn't open or read.   
 - **Followed**: View records that you're following.   
 - **Due by**: Filter records according to the time that a task must be completed for a record. The following options are available:
 
-  - **Today**: View records with pending tasks that haven't been completed today.   
+  - **Today**: View records with pending tasks that aren't completed today.   
   - **From tomorrow**: View records with pending tasks that are to be completed tomorrow.   
-  - **Overdue**: View records with pending tasks that haven't been completed on time.   
+  - **Overdue**: View records with pending tasks that aren't completed on time.   
 
 - **Record type**: These filter options are the record types that the sales accelerator is configured for. You can select all options to view all records, or you can select an individual type to view only the records of that type.
 
@@ -94,15 +95,15 @@ The following filters are available by default in the sales accelerator:
 
 #### Custom filters
 
-Custom filters are created specifically for you to view records that are important and relevant to you. You can contact your administrator to create a custom filter for you to use to filter records.
+Create custom filters to view records that are important and relevant to you. Contact your administrator to create a custom filter for you to use to filter records.
 
-In the following example, your administrator has created a filter based on lead and currency. You want to view leads that have currency set to **US Dollar**, so you choose the filter and select **US Dollar** as the currency.
+In the following example, your administrator creates a filter based on lead and currency. You want to view leads that have currency set to **US Dollar**, so you choose the filter and select **US Dollar** as the currency.
 
 1.	From the filter options, expand **Leads**.  
 
     :::image type="content" source="media/sa-worklist-filter-options-custom-select-lead.png" alt-text="Screenshot of selecting Leads from filters.":::    
  
-2.	Expand **Leads.Currency**, and then select **US Dollar**.
+1.	Expand **Leads.Currency**, and then select **US Dollar**.
 
     :::image type="content" source="media/sa-worklist-filter-select-dollar.png" alt-text="Screenshot of selecting the filter as US dollar.":::    
  
@@ -110,7 +111,7 @@ The work items list is filtered to show only leads with the currency type of **U
 
 ### Sort
 
-Select **Sort** ![sort icon.](media/sa-worklist-sort.png) to organize records into groups and display them in the sort order you choose (ascending or descending).
+Select **Sort** :::image type="icon" source="media/sa-worklist-sort.png" border="false"::: to organize records into groups and display them in the sort order you choose (ascending or descending).
 
 ### More options
 
@@ -126,7 +127,7 @@ Select **More options** (&vellip;) to perform the following actions:
 
 ## Send bulk email<a name="send-bulk-emails"></a>
 
-The bulk email feature helps you to optimize your work by sending the same email to a list of leads simultaneously. The leads need to have the same email step from the same sequence attached to all their records.
+The bulk email feature helps you optimize your work by sending the same email to a list of leads simultaneously. The leads need to have the same email step from the same sequence attached to all their records.
 
 For example, let's say 10 leads have a sequence step to send an introduction email, and this step is pending for today. By using the bulk email feature, you can select all or some of the 10 leads and send them the introduction email all at once.
 
@@ -142,15 +143,15 @@ For example, let's say 10 leads have a sequence step to send an introduction ema
 
     :::image type="content" source="media/sa-worklist-bulk-email-selected.png" alt-text="Screenshot of records grouped according to task after selecting bulk email.":::
  
-2.	Choose the leads to whom you want to send the bulk email.
+1.	Choose the leads to whom you want to send the bulk email.
     You can select all the leads at once by selecting the step name, or you can expand the step and then select the leads individually.
-    In this example, we're sending a bulk email to the leads Ivan Komashinsky, Lidman Anna, Counts Vongple, and Nancy Anderson.
+    In this example, you're sending a bulk email to the leads Ivan Komashinsky, Lidman Anna, Counts Vongple, and Nancy Anderson.
 
     :::image type="content" source="media/sa-worklist-bulk-email-records-selected.png" alt-text="Screenshot of lead records selected to send bulk email to.":::
  
-3.	On the command bar, select **Bulk email**.
+1.	On the command bar, select **Bulk email**.
 
-    The email composer opens. If you've selected an email template for the step, the template opens in the composer.  
+    The email composer opens. If you selected an email template for the step, the template opens in the composer.  
 
     :::image type="content" source="media/sa-worklist-bulk-email-email-composer-open.png" alt-text="Screenshot of the email composer opened.":::
 
@@ -159,19 +160,19 @@ For example, let's say 10 leads have a sequence step to send an introduction ema
     >- On the **Details** tab under **CONTACT METHOD**, **Email** is set to **Allow**. 
     >- On the **Summary** tab under **CONTACT**, the user has a valid email address.
 
-4.	(Optional) To preview the email, select **Preview**.
+1.	(Optional) To preview the email, select **Preview**.
 
-    The preview opens and shows tags that contain information about the first recipient (in this example, Ivan Komashinsky). However, when the actual email is sent, each email will include relevant information from each lead in your recipient list.
+    The preview opens and shows tags that contain information about the first recipient (in this example, Ivan Komashinsky). However, when the actual email is sent, each email includes relevant information from each lead in your recipient list.
 
     :::image type="content" source="media/sa-worklist-bulk-email-preview-email.png" alt-text="Screenshot of the preview of the email.":::
 
-5. (Optional) To schedule the email, select **Schedule** and then choose a date and time at which you want to send the email.  
+1. (Optional) To schedule the email, select **Schedule** and then choose a date and time at which you want to send the email.  
 
     :::image type="content" source="media/sa-worklist-bulk-email-schedule-email.png" alt-text="Screenshot of choosing a date and time to send the email.":::
  
-6.	Select **Send to all**.
+1.	Select **Send to all**.
 
-The email will be sent to all the recipients you specify. You can verify that the timelines for those entities are updated with the email. After you refresh the work list, all the records you just sent email to will move to the next step.
+The email is sent to all the recipients you specify. You can verify that the timelines for those entities are updated with the email. After you refresh the work list, all the records you just sent email to move to the next step.
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]

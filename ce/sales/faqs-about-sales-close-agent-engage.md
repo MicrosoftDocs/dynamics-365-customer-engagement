@@ -1,8 +1,8 @@
 ---
-title: FAQs about Sales Close Agent (preview)
+title: Responsible AI FAQ about Sales Close Agent (preview)
 description: Get to know answers to frequently asked questions about the Sales Close Agent in Dynamics 365 Sales.
 ms.date: 11/07/2025
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -14,7 +14,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# FAQs about Sales Close Agent (preview)
+# Responsible AI FAQ about Sales Close Agent (preview)
 
 These frequently asked questions (FAQ) describe the AI impact of Sales Close Agent feature in Dynamics 365 Sales.  
 

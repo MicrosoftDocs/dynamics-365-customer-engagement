@@ -21,6 +21,26 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/move-sales-enterprise-sales-professional.md",
+      "redirect_url": "/dynamics365/sales/upgrade-sales-license",
+      "redirect_document_id": "false"
+    },
+        {
+      "source_path": "ce/sales/upgrade-sales-premium.md",
+      "redirect_url": "/dynamics365/sales/upgrade-sales-license",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/use-sales-agent-in-m365-copilot.md",
+      "redirect_url": "/microsoft-sales-copilot/use-sales-chat?context=/dynamics365/context/sales-context",
+      "redirect_document_id": "false"
+    }, 
+    {
+      "source_path": "ce/sales/upgrade-sales-professional-sales-enterprise.md",
+      "redirect_url": "/dynamics365/sales/upgrade-sales-license",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/developer/entities/msdyn_migrationtracker.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_migrationtracker",
       "redirect_document_id": "false"
@@ -35993,6 +36013,11 @@
      "source_path": "ce/customer-service/use/oc-sign-in-omnichannel.md",
      "redirect_url": "/dynamics365/contact-center/use/ccw-overview",
      "redirect_document_id": "false"
-    }
+    },
+    {
+     "source_path": "ce/customer-service/administer/csac-resize-cp.md",
+     "redirect_url": "/dynamics365/customer-service/use/oc-conversation-control",
+     "redirect_document_id": "false"
+    }  
   ]
 }

@@ -2,7 +2,7 @@
 title: Configure risk and importance criteria for Sales Opportunity Agent
 description: Learn how to configure the risk and importance criteria specific to your organization so that the Sales Opportunity Agent can provide more accurate assessments of opportunities.
 ms.date: 03/30/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template

@@ -3,7 +3,7 @@ title: Open the sales qualification settings
 description: Learn how to access and configure the Sales Qualification Agent settings in Dynamics 365 Sales to streamline your sales processes effectively.
 ms.topic: how-to
 ms.date: 03/30/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.service: dynamics-365-sales
 ms.custom: bap-template
 author: lavanyakr01

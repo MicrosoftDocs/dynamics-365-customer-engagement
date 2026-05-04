@@ -1,31 +1,28 @@
 ---
 title: Configure Microsoft Teams dialer in Dynamics 365 Sales
-description: Configure Microsoft Teams dialer to enable sellers to make and receive calls from Dynamics 365.
-ms.date: 07/16/2024
+description: Learn how to configure Microsoft Teams dialer in Dynamics 365 Sales to enable your sellers to make and receive Teams calls directly from the application.
+ms.date: 04/30/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.collection:
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-desc
-  - ai-seo-date:10/16/2023
+ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 # Configure Microsoft Teams dialer
 
-Microsoft Teams dialer helps sellers make Teams calls to customers directly from within Dynamics 365 Sales.
+Microsoft Teams dialer eliminates context switching by bringing Teams calling directly into Dynamics 365 Sales. Your sellers can make and receive calls without leaving the application, keeping customer information and call history at their fingertips. This streamlines workflows, reduces missed details, and accelerates deal progression. For example, a sales rep can see a customer's account details, recent interactions, and call history all at once while speaking with them—enabling more informed, personalized conversations that close deals faster.
 
 > [!NOTE]
 > You can also enable Teams dialer through quick setup. More information: [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)
 
-## How to configure the dialer?
+## Set up and configure the dialer
 
-As an administrator, you must configure Microsoft Teams dialer to enable sellers to make and receive calls from Dynamics 365.
+Set up Microsoft Teams dialer to allow your sales team to make and receive calls from Dynamics 365.
 
-1. [Review the prerequisites](#review-the-prerequisites).
-2. [Configure the dialer](#configure-the-dialer).
+1. [Review the prerequisites](#review-the-prerequisites)
+1. [Configure the dialer](#configure-the-dialer)
 
 ## Review the prerequisites
 

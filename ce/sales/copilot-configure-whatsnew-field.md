@@ -2,7 +2,7 @@
 title: Configure fields for generating what's new with my sales records list
 description: Learn how to configure fields for generating what's new with my sales records list in Copilot for leads, opportunities, and accounts.
 ms.date: 01/16/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
