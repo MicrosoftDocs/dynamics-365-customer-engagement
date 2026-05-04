@@ -1,7 +1,7 @@
 ---
 title: Configure forecasts in your organization
 description: Learn how to configure forecasts based on revenue or quantity to predict how much revenue your sales team will generate in a given time frame.
-ms.date: 04/10/2025
+ms.date: 04/30/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -15,16 +15,12 @@ searchScope:
   - Dynamics 365
   - Sales
   - Customer Engagement
-ms.custom:
-  - ai-gen-docs-bap
-  - ai-gen-desc
-  - ai-seo-date:03/12/2024
-  - bap-template
+ms.custom: bap-template
 ---
 
 # Configure forecasts in your organization
 
-A forecast helps your organization predict how much revenue your sales team generates in a given time frame. When done correctly, forecasting can play a significant role in your company's success.  
+Forecasting empowers your sales organization to make data-driven decisions and hit revenue targets consistently. By configuring forecasts based on your sales pipeline, you gain visibility into revenue projections, identify risks early, and enable your team to take corrective action before it's too late. For example, if a forecast shows your team is tracking 15% below target midquarter, managers can coach sellers on pipeline gaps or accelerate deals to close the gap—turning a potential miss into a win.
 
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
