@@ -1,7 +1,7 @@
 ---
 title: setMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 
 description: Learn about setMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0.
-ms.date: 05/04/2026
+ms.date: 05/05/2026
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
