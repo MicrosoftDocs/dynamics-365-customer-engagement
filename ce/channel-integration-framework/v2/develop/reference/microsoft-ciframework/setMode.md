@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # setMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
- >[!NOTE]  
+ > [!NOTE]  
  > Use this API only when the focused session belongs to the provider.
 
 [!INCLUDE[setMode](../../../../v1/develop/reference/microsoft-ciframework/Includes/setMode-description.md)]
