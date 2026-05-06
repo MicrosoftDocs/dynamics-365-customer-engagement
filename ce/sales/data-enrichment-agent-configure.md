@@ -71,7 +71,7 @@ By default, the **Salesperson** and **Sales Manager** security roles have the ne
 
 | Entities | Access level - Permissions | Purpose |
 |---------|----------------------------|----------|
-| prvReadconnector | User-level - Read | Required to provide consent to use Microsoft 365 emails for opportunity enrichment |
+| Connector | User-level - Read | Required to provide consent to use Microsoft 365 emails for opportunity enrichment |
 | Process (Workflow) | User-level - Read, Write, and Create | Required to create the necessary flow and Dataverse connection on the seller's behalf |
 
 ## Migrate agents across environments
