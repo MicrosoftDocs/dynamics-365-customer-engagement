@@ -2,14 +2,11 @@
 title: Import an agent into a target environment
 description: Learn how to export and import sales agent solutions across environments in Dynamics 365 Sales. 
 ms.date: 04/27/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
 ms.custom:
   - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:07/09/2025
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

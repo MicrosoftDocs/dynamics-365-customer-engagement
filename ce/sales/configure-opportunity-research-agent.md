@@ -52,9 +52,9 @@ Before you set up the agent, consider the following points:
 
 By default, the **Salesperson** and **Sales Manager** security roles have the necessary permissions. If you're using a custom security role, ensure sellers have the following minimum permissions:
 
-| Purpose | Access level - Permissions | Entities |
+| Purpose | Access level - Permissions | Entities | 
 |---------|----------------------------|----------|
-| Consent to use Microsoft 365 emails for opportunity research | Basic-level - Read | prvReadconnector |
+| Consent to use Microsoft 365 emails for opportunity research | User-level - Read | Connector |
 
 ## Set up the Sales Opportunity Agent
 
