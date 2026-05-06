@@ -4,7 +4,7 @@ description: Learn how to set up and configure the AI-powered Data Enrichment fe
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 04/27/2026
+ms.date: 05/06/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -72,7 +72,7 @@ By default, the **Salesperson** and **Sales Manager** security roles have the ne
 | Entities | Access level - Permissions | Purpose |
 |---------|----------------------------|----------|
 | prvReadconnector | User-level - Read | Consent to use Microsoft 365 emails for opportunity enrichment |
-| Process (Workflow) | User-level - Read, Write, and Create | Allow the agent to create and manage workflows for automatic enrichment |
+| Process (Workflow) | User-level - Read, Write, and Create | Required to create the necessary flow and Dataverse connection on the seller's behalf |
 
 ## Migrate agents across environments
 
