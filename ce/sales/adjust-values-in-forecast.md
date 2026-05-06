@@ -1,7 +1,7 @@
 ---
-title: "Adjust forecast values in sales forecasting | MicrosoftDocs"
+title: Adjust values in a forecast
 description: "Adjust values in a forecast to estimate the final amount that you expect the forecast's opportunities to bring in at the close of the forecast period."
-ms.date: 02/28/2025
+ms.date: 05/05/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -22,34 +22,38 @@ searchScope:
 ---
 # Adjust values in a forecast 
 
-Adjust values in a forecast to estimate the final amount that you expect the forecast's opportunities to bring in at the close of the forecast period.
+An adjustment provides sales managers or sellers the ability to estimate the final amount that they expect for a forecast's opportunities to bring in at the close of the forecast period. Sales managers have the ability to adjust their own or a direct report's forecast. For example, if the sales manager thinks that one of their direct report's best-case opportunities might have more value than the proposed value, they can increase the value in the forecast. On saving the adjustment, the changes will be rolled up to the parent record and up the hierarchy. 
 
 ## Why should you adjust values?
 
-An adjustment provides sales managers or sellers the ability to estimate the final amount that they expect for a forecast's opportunities to bring in at the close of the forecast period. Sales managers have the ability to adjust their own or a direct report's forecast. For example, if the sales manager thinks that one of their direct report's best-case opportunities might have more value than the proposed value, they can increase the value in the forecast. On saving the adjustment, the changes will be rolled up to the parent record and up the hierarchy. 
+**When to adjust:** Your forecast automatically pulls data from your opportunities. However, you may have pipeline knowledge that isn't yet captured in the system — for example, a verbal commitment from a customer, a deal that paused and is expected to return, or a known risk on a high-value opportunity. Adjustments let you account for these factors without waiting for opportunity data to be updated.
+
+**When NOT to adjust:** If underlying opportunities are outdated, update the opportunities directly instead of masking the issue with an adjustment. If a deal fell through, close the opportunity as Lost — don't adjust its value to zero.
 
 ## Adjust a value in a forecast
 
-To make adjustments, a forecast column must be set as editable. While configuring a forecast, the forecast owner must identify and set the editable columns through the **Allow adjustments** option. To learn more, see [configure columns](choose-layout-and-columns-forecast.md#configure-columns). 
+To make adjustments, a forecast column must be set as editable. While configuring a forecast, the forecast owner must identify and set the editable columns through the **Allow adjustments** option in the **Layout** section of the forecast configuration. To learn more, see [configure columns](choose-layout-and-columns-forecast.md#rollup-type). 
 
-You can also view the history of the adjustments that are made on a forecast, and you can get more information about the following types of adjustments:
+The following types of adjustments can be made to a forecast value:
 
--	**Direct Adjustment**: Specifies that a user directly modified the value in the current cell. A direct adjustment can be reverted.
+- **Direct Adjustment**: You changed a specific cell value directly (for example, increased Pipeline from $10K to $15K). This change rolls up to your manager's totals. A direct adjustment can be reverted.
 
--	**Indirect Adjustment**: Specifies that a user made an adjustment to another value somewhere in the grid, and that adjustment was propagated through the forecast.
+- **Indirect Adjustment**: Someone else in the hierarchy made an adjustment that propagated to your row. For example, your manager adjusted their own total, and that change is reflected in your values. Visible in the adjustment History tab.
 
--	**Calculated value**: Shows the system-calculated value if no direct or indirect adjustments are made.
+- **Calculated value**: The system-computed value when no direct or indirect adjustments have been made.
 
 > [!NOTE]
 > You can't adjust values for users or territories above your level in the hierarchy, even if you've been given access through your security role.
 
 **To adjust a value in a forecast**
 
-1.	Hover over the field, and select the pencil icon that appears.
+1. In the Sales Hub site map, select **Forecasts** and then open a forecast.
+1. Hover over the cell that you want to adjust.  
+   A pencil icon appears — select it to open the adjustment dialog. The pencil icon only appears on columns that are set as editable in the forecast configuration. Learn more in [configure columns in a forecast](choose-layout-and-columns-forecast.md#rollup-type).
+
+    :::image type="content" source="media/forecast-adjust-value-open-dialog.png" alt-text="Screenshot of hovering over a cell to show the pencil icon to open the adjustment dialog.":::
 
 2.	On the **Adjustment** tab, enter the value and add a note for the adjustment. For example, the **Pipeline** column is configured as editable and you know that Nicolas Frizzell has a pipeline revenue of $20,000 instead of the existing value, $11,752.16. Enter the value as **20000**. You can see that the actual system-calculated value for the forecast, based on existing data, is $10,000.
-
-    :::image type="content" source="media/forecast-adjust-value-enter-value.png" alt-text="Screenshot of entering values to adjust in the forecast.":::
 
 3.	Select **Adjust**.  
     The new value is displayed in the **Pipeline** column for Nicolas Frizzell. The adjusted value is also rolled up to the top of the hierarchy from Nicolas's manager.

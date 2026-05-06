@@ -16,7 +16,9 @@ ms.custom:
 
 # Forecast recalculation methods
 
-When you update the underlying records, adjust the forecast values, or update the forecast hierarchy, the forecast data should be recalculated to reflect the changes. Forecasts are recalculated using the methods described in this article.
+Your forecast reflects your live pipeline — but forecast data doesn't always update instantly. Understanding when and how recalculation happens helps you avoid making decisions on stale numbers and know when to trigger a manual refresh.
+
+When you update the underlying records, adjust the forecast values, or update the forecast hierarchy, the forecast data is recalculated to reflect the changes. Forecasts are recalculated using the methods described in this article.
 
 ## Automatic delta recalculation
 
@@ -44,7 +46,10 @@ You can [trigger a manual recalculation](keep-forecast-data-up-to-date.md) at an
 
 ## Example of forecast recalculation methods
 
-Let's understand the different methods with an example. Consider a scenario where you have a forecast with 4 quarterly periods and an annual period. Assume that you're currently in Q4. The following table shows when and how the forecast data is updated for different scenarios and periods.
+> [!TIP]
+> **Key insight:** Updates made directly on the **Forecasts page** (including value adjustments) are reflected immediately. Updates made on the **Opportunities page** or to the forecast hierarchy take longer — up to end of day for the current period, or require a manual recalculation for past periods.
+
+Let's understand the different methods with an example.Consider a scenario where you have a forecast with 4 quarterly periods and an annual period. Assume that you're currently in Q4. The following table shows when and how the forecast data is updated for different scenarios and periods.
 
 | Scenario | Current quarter (Q4) | Past quarters | Annual | 
 |----------|----|---------------|--------|
@@ -67,3 +72,11 @@ When recalculation happens, the following updates are made to the forecast data:
 > - Only the current forecast period is recalculated when the daily job runs.
 > - No changes are made to the forecast values that were manually adjusted.
 > - No changes are made to the **Prediction** column. Predictions are only recalculated after every seven days. Hover over the information icon on the column header to view the last recalculation date.
+
+## Related information
+
+[Recalculate forecasts manually](keep-forecast-data-up-to-date.md)  
+[View a forecast](view-forecasts.md)  
+[Configure forecasts in your organization](configure-forecast.md)  
+[Troubleshooting forecasts](ts-forecasts.md)
+

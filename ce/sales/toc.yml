@@ -613,8 +613,6 @@ items:
                 href: forecast-periods.md
               - name: Manage forecast periods
                 href: manage-forecast-periods.md
-          - name: Capture forecast category for opportunity
-            href: capture-forecast-category-opportunity.md
           - name: Configure forecast using custom rollup table
             href: configure-forecast-using-custom-rollup-entity.md
           - name: Provide viewing and adjustment privileges
@@ -1235,6 +1233,8 @@ items:
             href: view-forecasts.md
           - name: Share a forecast
             href: share-forecasts.md
+          - name: Capture forecast category for opportunity
+            href: capture-forecast-category-opportunity.md
           - name: View and understand data through drill-down entities
             href: view-understand-data-through-drill-down.md
           - name: View and manage underlying opportunities

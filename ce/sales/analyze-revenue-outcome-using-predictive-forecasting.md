@@ -11,7 +11,15 @@ ms.reviewer: lavanyakr
 
 # Analyze revenue outcome by using predictive forecasting
 
-Use predictive forecasting to analyze the revenue outcome by providing forecast projections based on your data.
+Predictive forecasting uses AI to estimate how much revenue you'll actually close, based on your historical performance and current pipeline. Unlike your manual forecast (Committed, Best Case), predictive forecasting accounts for historical close rates and pipeline trajectory — helping you spot risks like deals slipping to the next period, or opportunities from new deals flowing in that you might miss otherwise.
+
+## Prerequisites
+
+> [!IMPORTANT]
+> To use predictive forecasting, you need the following:
+>
+> - **Predictive opportunity scoring** must be enabled with at least one model configured. [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
+> - **Premium forecasting** must be enabled (requires a specific Dynamics 365 Sales license). [Learn more about premium forecasting](configure-premium-forecasting.md)
 
 ## Understand the prediction column and details in a forecast
 
@@ -22,32 +30,24 @@ The **Prediction** column shows the predicted revenue for each seller and manage
 > [!NOTE]
 > If sufficient data isn't available for predictive forecasting, an error message is displayed and the **Prediction** column is left empty.
 
-### Prerequisites
-
-Review the following prerequisite before you start using predictive forecasting:
-
-- Ensure that predictive opportunity scoring is enabled and at least one model is configured. To learn more, see [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md).  
-
--	Ensure that the predictive forecasting feature is enabled and a forecast is configured accordingly. To learn more, see [About premium forecasting](configure-premium-forecasting.md).
-
 
 ### Prediction column
 
-Open a forecast that includes a **Prediction** column. To learn more, see [View a forecast](/dynamics365/sales-enterprise/view-forecasts).
+The **Prediction** column shows the predicted revenue for each seller or manager — separate from the manual forecast columns (Committed, Best Case). Predictions are based on historical close rates and the current pipeline trajectory, and are recalculated automatically every seven days.
+
+Open a forecast and view the **Prediction** column. To learn more, see [View a forecast](/dynamics365/sales-enterprise/view-forecasts).
 
 The following screen shows an example of a **Prediction** column.
 
-> [!div class="mx-imgBorder"]
-> ![Prediction column](media/predictive-forecasting-prediction-column.png "Prediction column")
+:::image type="content" source="media/predictive-forecasting-prediction-column.png" alt-text="Screenshot of the Prediction column in the forecast grid.":::
 
-When you hover over the information icon on the column header, the last recalculation date of the prediction is shown. Predictions are recalculated after every seven days; you can't trigger a manual recalculation.
+When you hover over the information icon on the **Prediction** column header, the last recalculation date of the prediction is shown. Predictions are recalculated after every seven days; you can't trigger a manual recalculation.
 
 ### Prediction details
 
-Select a value in the prediction column to display the **Prediction details** pane.
+Select a value in the **Prediction** column to display the **Prediction details** pane.
 
-> [!div class="mx-imgBorder"]
-> ![Prediction details pane](media/predictive-forecasting-prediction-details.png "Prediction details pane")
+:::image type="content" source="media/predictive-forecasting-prediction-details.png" alt-text="Screenshot of the Prediction details pane.":::
 
 The graph in the **Prediction details** pane consists of the following values:  
 
@@ -71,14 +71,13 @@ The top prediction factors are categorized into three types:
 
 The following image shows an example of a **Top factors that influence prediction** section. 
 
-> [!div class="mx-imgBorder"]
-> ![Prediction top factors](media/predictive-forecasting-top-factors.png "Prediction top factors")  
+:::image type="content" source="media/predictive-forecasting-top-factors.png" alt-text="Screenshot of the Top factors that influence prediction section.":::
 
-| Icon | Influencing factor
-| - | -|
-| ![Green icon](media/predictive-forecasting-factor-green-icon.png) |The top positive influencing factor is that $247.22K will flow from new deals in the remaining 59 days of the period, and $124.91K (51%) of it will flow in the last 17 days.|
-| ![Red icon](media/predictive-forecasting-factor-red-icon.png) | The negative influencing factor is that 22% of opportunities are predicted to slip to the next period. |
-|  ![Gray icon](media/predictive-forecasting-factor-gray-icon.png) | The neutral influencing factor is that 3,614 opportunities in the pipeline are expected to close within this forecast period. |
+| Icon | Influencing factor | What to do |
+| - | - | - |
+| ![Green icon](media/predictive-forecasting-factor-green-icon.png) | The top positive influencing factor is that $247.22K will flow from new deals in the remaining 59 days of the period, and $124.91K (51%) of it will flow in the last 17 days. | Protect these deals. Assign resources to ensure they close on time. |
+| ![Red icon](media/predictive-forecasting-factor-red-icon.png) | The negative influencing factor is that 22% of opportunities are predicted to slip to the next period. | Prioritize these deals. Consider adding executive support or accelerating the close plan. |
+| ![Gray icon](media/predictive-forecasting-factor-gray-icon.png) | The neutral influencing factor is that 3,614 opportunities in the pipeline are expected to close within this forecast period. | Use as baseline context. No immediate action needed. |
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 

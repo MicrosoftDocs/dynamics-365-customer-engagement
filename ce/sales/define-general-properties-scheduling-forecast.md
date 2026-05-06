@@ -13,7 +13,7 @@ ms.custom:
 
 # Define and schedule a forecast model
 
-Use general properties and scheduling options to define and schedule a forecast model.
+In this step, you define the data sources for your forecast (which records to include), the hierarchy structure (how data rolls up), and the time periods (monthly, quarterly, annually). These settings form the foundation of your forecast configuration.
 
 ## Define a forecast model
 
@@ -26,6 +26,8 @@ Define the entities that must be used to generate the forecast.
 1. Enter a descriptive name for the forecast. Example: *Kenny's Org FY2023 Forecast*.
 
 1. Select a **Rollup entity**.
+
+    The **rollup entity** is the source of data for your forecast — the entity whose records are aggregated to calculate forecast values. For example, using **Opportunity** as the rollup entity means your forecast is based on revenue from opportunity records. You can also use **Opportunity Product** to forecast by product or quantity, or a custom entity to meet specific organizational needs.
 
     The forecast is based on the gross rollup of the entity you select. Each forecast template starts with a default rollup entity:
 
@@ -70,11 +72,9 @@ Define the entities that must be used to generate the forecast.
 
     In the example screenshot, we selected **User** as the hierarchy entity. We can choose from fields in the **Opportunity** entity that are related to the **User** entity. As we want to build a forecast based on sellers who own opportunities, we selected **Owner** as the relationship. The relationship is mapped as *Opportunity > Owner (User) > User*. The mapping specifies that the forecast values are based on the **Owner** field in the **Opportunity** entity.
  
-    What if there is no direct relationship between the rollup entity and the hierarchy entity? In that case, you can choose a field from a related entity to define an indirect relationship. Select the **Related** tab, and then choose a field from the list. Only fields in hierarchical entities are shown in the **Related** list.
+    If there's no direct relationship between the rollup entity and the hierarchy entity, you can choose a field from a related entity to define an indirect relationship. Select the **Related** tab, and then choose a field from the list. Only fields in hierarchical entities are shown in the **Related** list.
 
-    In the following example, we selected **Opportunity** as the rollup entity and **Territory** as the hierarchy entity. Because there's no direct relationship between them, we must select the **Related** tab.
-
-    In our example, the **Territory** field in the **Related** list is indirectly related to **Opportunity** through the **Account** entity. In other words, **Account** is an intermediate entity for establishing a relationship between **Opportunity** and **Territory**.
+    In the following example, the **Territory** field in the **Related** list is indirectly related to **Opportunity** through the **Account** entity. In other words, **Account** is an intermediate entity for establishing a relationship between **Opportunity** and **Territory**.
 
     :::image type="content" source="./media/forecast-relationship-entity-related-attribute-account-user.png" alt-text="A screenshot of the General step of the Forecast configuration page, with the related field selected.":::
 
