@@ -50,7 +50,7 @@ The following types of adjustments can be made to a forecast value:
 
 1. In the Sales Hub site map, select **Forecasts** and then open a forecast.
 1. Hover over the cell that you want to adjust.  
-   A pencil icon appears — select it to open the adjustment dialog. The pencil icon only appears on columns that are set as editable in the forecast configuration. Learn more in [configure columns in a forecast](choose-layout-and-columns-forecast.md#rollup-type).
+   A pencil icon appears — select it to open the adjustment dialog. The pencil icon only appears on columns that your admin sets as editable in the forecast configuration. Learn more in [configure columns in a forecast](choose-layout-and-columns-forecast.md#rollup-type).
 
     :::image type="content" source="media/forecast-adjust-value-enter-value.png" alt-text="Screenshot of hovering over a cell to show the pencil icon to open the adjustment dialog.":::
 
