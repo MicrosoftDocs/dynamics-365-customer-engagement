@@ -1,12 +1,13 @@
 ---
 title: "Analyze revenue outcome using predictive forecasting"
 description: "Use predictive forecasting to analyze the revenue outcome by providing forecast projections based on your data."
-ms.date: 08/22/2025
+ms.date: 05/06/2026
 ms.custom: 
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ai-usage: ai-assisted
 ---
 
 # Analyze revenue outcome by using predictive forecasting

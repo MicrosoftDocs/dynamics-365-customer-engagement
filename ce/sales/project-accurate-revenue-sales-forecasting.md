@@ -1,7 +1,7 @@
 ---
 title: Sales forecasting overview
 description: Accurately project sales for your team and estimate the revenue by using sales forecasting in Dynamics 365 Sales.
-ms.date: 03/12/2026
+ms.date: 05/06/2026
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
@@ -19,6 +19,7 @@ searchScope:
   - Dynamics 365
   - Sales
   - Customer Engagement
+ai-usage: ai-assisted
 ---
 # Forecast revenue accurately with Dynamics 365 Sales
 

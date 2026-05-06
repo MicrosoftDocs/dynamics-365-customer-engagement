@@ -1,11 +1,12 @@
 ---
 title: "Clone a forecast in Dynamics 365 Sales"
 description: "Learn how to clone a forecast in Dynamics 365 Sales."
-ms.date: 12/2/2024
+ms.date: 05/06/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ai-usage: ai-assisted
 ---
 # Clone a forecast 
 

@@ -6,12 +6,13 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: concept-article
 ms.collection: get-started
-ms.date: 10/16/2025
+ms.date: 05/06/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:12/21/2023
+ai-usage: ai-assisted
 ---
 
 # Forecast recalculation methods

@@ -1,7 +1,7 @@
 ---
 title: View and manage a forecast
 description: Learn how to review forecasts in Dynamics 365 Sales to know the health of your pipeline or to track how your sales team is doing against their quota or target.
-ms.date: 03/25/2025
+ms.date: 05/06/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -21,6 +21,7 @@ searchScope:
   - Dynamics 365
   - Sales
   - Customer Engagement
+ai-usage: ai-assisted
 ---
 
 # View your forecast: Check pipeline health and track quota progress

@@ -1,12 +1,13 @@
 ---
 title: Share a forecast
 description: "Share forecasts with other users in the hierarchy or outside the hierarchy with a specific access permission."
-ms.date: 10/16/2025
+ms.date: 05/06/2026
 ms.topic: how-to
 
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ai-usage: ai-assisted
 ---
 
 # Share a forecast
