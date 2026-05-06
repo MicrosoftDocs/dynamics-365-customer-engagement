@@ -65,6 +65,15 @@ Ensure that you meet the following prerequisites:
     - Review the recommended settings and select **Start agent** if the default settings work for your business needs. The agent doesn't analyze any opportunity records or emails until sellers [provide consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to read their emails. The consent is specific to each seller. 
     - Select **Edit in settings** to customize the configuration. The agent doesn't start until you finish configuring the settings. Learn more about configuring the settings in the [Configure AI-powered Data Enrichment settings](data-enrichment-agent-edit-settings.md) article.
 
+## Grant permissions to sellers
+
+By default, the **Salesperson** and **Sales Manager** security roles have the necessary permissions to use the Data Enrichment agent. If you're using a custom security role, ensure sellers have the following minimum permissions:
+
+| Entities | Access level - Permissions | Purpose |
+|---------|----------------------------|----------|
+| prvReadconnector | User-level - Read | Consent to use Microsoft 365 emails for opportunity enrichment |
+| Process (Workflow) | User-level - Read, Write, and Create | Allow the agent to create and manage workflows for automatic enrichment |
+
 ## Migrate agents across environments
 
 When you have configured the Data Enrichment Agent in one environment, you can export the agent as a solution and import it into another environment. This is especially useful when you have set up the agent in a sandbox or test environment and want to deploy it in production after testing and validation. Learn more in [Import an agent into a target environment](import-export-agent-solutions.md).

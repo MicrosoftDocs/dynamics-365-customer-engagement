@@ -54,7 +54,7 @@ By default, the **Salesperson** and **Sales Manager** security roles have the ne
 
 | Purpose | Access level - Permissions | Entities |
 |---------|----------------------------|----------|
-| Consent to use Microsoft 365 emails for opportunity research | Basic-level - Read | prvReadconnector |
+| Consent to use Microsoft 365 emails for opportunity research | User-level - Read | prvReadconnector |
 
 ## Set up the Sales Opportunity Agent
 
