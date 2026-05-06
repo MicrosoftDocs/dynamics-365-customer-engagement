@@ -25,12 +25,12 @@ ai-usage: ai-assisted
 
 In Dynamics 365 Sales, forecasting gives teams a shared, near real-time view of expected revenue by combining pipeline activity, forecast categories, quotas, and hierarchy rollups. It helps sellers understand whether they are on track, helps managers identify risks early, and helps leadership make faster planning decisions based on current data instead of end-of-period surprises.
 
-Forecasts are most effective when they are reviewed regularly and used as a planning tool, not just a reporting artifact. By comparing committed revenue, best-case opportunities, and gaps to target, teams can take corrective actions earlier in the cycle.
+Forecasts are most effective when they're reviewed regularly and used as a planning tool, not just a reporting artifact. By comparing committed revenue, best-case opportunities, and gaps to target, teams can take corrective actions earlier in the cycle.
 
 :::image type="content" source="media/forecast-for-team-hierarchy.png" alt-text="Screenshot of a forecast grid showing the forecast for a team hierarchy." lightbox="media/forecast-for-team-hierarchy.png":::
 
 > [!TIP]
-> **Ready to get started?** [View the out-of-the-box forecast](view-forecasts.md#open-and-view-a-forecast) or [Set up a forecast in 7 steps](configure-forecast.md) 
+> **Ready to get started?** [View the out-of-the-box forecast](view-forecasts.md#open-and-view-a-forecast) or [Set up a forecast in seven steps](configure-forecast.md) 
 
 >[!IMPORTANT]
 >This feature is intended to help sales managers or supervisors enhance their team’s performance. This feature isn't intended for use in making, and shouldn't be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
@@ -39,13 +39,13 @@ Forecasts are most effective when they are reviewed regularly and used as a plan
 
 Forecasts give everyone in the organization a shared, data-driven picture of expected revenue. Here's what that means by role:
 
-**For Sellers** — Track performance against quota, identify pipeline risks before they derail targets, and focus effort on the right deals.
+**For Seller:** —Track performance against quota, identify pipeline risks before they derail targets, and focus effort on the right deals.
 
-**For Managers** — Monitor individual performance, coach sellers on pipeline gaps, and spot risks early enough to take corrective action.
+**For Managers:** — Monitor individual performance, coach sellers on pipeline gaps, and spot risks early enough to take corrective action.
 
-**For Directors** — Anticipate departmental revenue trends and reallocate resources to high-opportunity regions or teams.
+**For Directors:** — Anticipate departmental revenue trends and reallocate resources to high-opportunity regions or teams.
 
-**For Leadership** — Use projected estimates to adjust product strategy or communicate updated projections to investors and stakeholders.
+**For Leadership:** — Use projected estimates to adjust product strategy or communicate updated projections to investors and stakeholders.
 
 ### Example
 
@@ -59,7 +59,7 @@ Review the following prerequisites before using forecasts:
 
     -  A hierarchy that you're part of.
 
-    -  A security role that you're part of has been granted access.
+    -  A security role that you're part of is granted access.
 
     To learn more, see [Configure a forecast](configure-forecast.md).
 

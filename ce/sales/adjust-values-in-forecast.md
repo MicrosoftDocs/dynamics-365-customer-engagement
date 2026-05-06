@@ -52,7 +52,7 @@ The following types of adjustments can be made to a forecast value:
 1. Hover over the cell that you want to adjust.  
    A pencil icon appears — select it to open the adjustment dialog. The pencil icon only appears on columns that are set as editable in the forecast configuration. Learn more in [configure columns in a forecast](choose-layout-and-columns-forecast.md#rollup-type).
 
-    :::image type="content" source="media/forecast-adjust-value-open-dialog.png" alt-text="Screenshot of hovering over a cell to show the pencil icon to open the adjustment dialog.":::
+    :::image type="content" source="media/forecast-adjust-value-enter-value.png" alt-text="Screenshot of hovering over a cell to show the pencil icon to open the adjustment dialog.":::
 
 2.	On the **Adjustment** tab, enter the value and add a note for the adjustment. For example, the **Pipeline** column is configured as editable and you know that Nicolas Frizzell has a pipeline revenue of $20,000 instead of the existing value, $11,752.16. Enter the value as **20000**. You can see that the actual system-calculated value for the forecast, based on existing data, is $10,000.
 

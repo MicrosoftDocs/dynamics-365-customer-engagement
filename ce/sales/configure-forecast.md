@@ -47,6 +47,7 @@ Forecasting isn't supported on Government Community Cloud (GCC) or mobile device
 
 You can configure forecasts based on revenue or quantity by defining the forecast type, hierarchy, access permissions, and grid columns. Once activated, your sales team can view revenue, quantity, and pipeline projections. If you don't configure a forecast, sellers see a default [out-of-the-box forecast](view-forecasts.md#out-of-the-box-forecast) for the current month—which can't be customized, deleted, or deactivated.
 
+<a name="use-the-sample-forecast-configuration"></a>
 ### Get started with sample forecast configuration
 
 A ready-to-publish sample forecast configuration is available to you. Use the sample forecast to experiment and discover how forecasting works.  Learn how to tweak the parameters and filters to suit your organization's needs.  

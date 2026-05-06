@@ -92,16 +92,17 @@ In the **Layout** step of the forecast configuration, you can configure each col
 
     The following column types are supported:
 
-    -	[Rollup type](#configure-rollup-type)
-    -	[Calculated type](#configure-calculated-type)
-    -	[Simple type](#configure-simple-type)
-    -	[Hierarchy related type](#configure-hierarchy-related-type)
+    -	[Rollup type](#rollup-type)
+    -	[Calculated type](#calculated-type)
+    -	[Simple type](#simple-type)
+    -	[Hierarchy related type](#hierarchy-related-type)
 
     When configuring columns, you'll see a preview of the configuration in the **Preview** section.
 
 4.	Save and close the configuration.
 
 5.	Repeat steps 1 through 4 for each column that you want to edit.
+
 <a name="configure-rollup-type"> </a>
 ### Rollup type
 

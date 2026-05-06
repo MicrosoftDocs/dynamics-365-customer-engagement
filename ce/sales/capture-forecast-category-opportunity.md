@@ -1,6 +1,6 @@
 ---
-title: "Capture forecast category for opportunity"
-description: "Capture the forecast category to indicate the confidence level of an opportunity getting converted into a sale."
+title: Capture forecast category for opportunity
+description: Capture the forecast category to indicate the confidence level of an opportunity getting converted into a sale.
 ms.date: 05/06/2026
 ms.topic: how-to
 author: lavanyakr01
@@ -12,14 +12,14 @@ ai-usage: ai-assisted
 ---
 # Capture forecast category for opportunity 
 
-Forecast categories tell your team how confident you are in closing each deal. They determine which forecast column each opportunity contributes to — for example, **Committed** (high confidence) or **Pipeline** (early-stage). Keeping forecast categories accurate ensures your forecast reflects the real state of your pipeline.
+Forecast categories tell your team how confident you are in closing each deal. They determine which forecast column each opportunity contributes to. For example, **Committed** (high confidence) or **Pipeline** (early-stage). Keeping forecast categories accurate ensures your forecast reflects the real state of your pipeline.
 
 ## Set the forecast confidence level for an opportunity
 
 When you create or edit an opportunity, set its **Forecast Category** to reflect your current confidence in closing it. This value determines which column the opportunity appears in on the forecast grid.
 
 > [!IMPORTANT]
-> **Don't manually select Won or Lost.** Instead, close the opportunity using the Close Opportunity dialog — the forecast category will update automatically. Manually setting Won or Lost can cause the opportunity to disappear from the forecast or produce inaccurate rollup values. See [Close opportunities as won or lost](close-opportunity-won-lost-sales.md).
+> **Don't manually select Won or Lost.** Instead, close the opportunity using the Close Opportunity dialog; the forecast category updates automatically. Manually setting Won or Lost can cause the opportunity to disappear from the forecast or produce inaccurate rollup values. See [Close opportunities as won or lost](close-opportunity-won-lost-sales.md).
 
 1. In the site map, select **Opportunities**.
 
@@ -28,17 +28,17 @@ When you create or edit an opportunity, set its **Forecast Category** to reflect
 
 1. In the **Forecast Category** drop-down list, select the category that best reflects your confidence, then select **Save**:
 
-    - **Pipeline** (default): Early-stage or stalled deal, low confidence. *When to use: You've just discovered this opportunity or early conversations are underway.*
+    - **Pipeline** (default): Early-stage or stalled deal, low confidence. *When to use: You just discovered this opportunity or early conversations are underway.*
 
-    - **Best case**: Deal is progressing — you've shared quotes or had substantive conversations — but no commitment yet. Medium confidence. *When to use: Customer is actively evaluating; deal could go either way.*
+    - **Best case**: Deal is progressing&mdash;you shared quotes or had substantive conversations&mdash;but no commitment yet. Medium confidence. *When to use: Customer is actively evaluating; deal could go either way.*
 
     - **Committed**: Customer has made a verbal or contractual commitment. High confidence. *When to use: You're mainly waiting on paperwork or final approvals.*
 
-    - **Omitted**: Exclude this opportunity from all forecast totals. *When to use : The deal is on hold, irrelevant to this period, or you want to remove it temporarily.*
+    - **Omitted**: Exclude this opportunity from all forecast totals. *When to use: The deal is on hold, irrelevant to this period, or you want to remove it temporarily.*
 
-    - **Won**: Set automatically when you close an opportunity as Won. Do not select manually.
+    - **Won**: Set automatically when you close an opportunity as Won. Don't select manually.
 
-    - **Lost**: Set automatically when you close an opportunity as Lost. Do not select manually.
+    - **Lost**: Set automatically when you close an opportunity as Lost. Don't select manually.
 
        :::image type="Capture forecast category on an opportunity" source="media/capture-forecast-category-opportunity-form.png" alt-text="Capture forecast category on an opportunity":::
 
