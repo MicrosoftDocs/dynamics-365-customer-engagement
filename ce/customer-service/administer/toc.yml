@@ -182,8 +182,6 @@
         href: create-manage-subject-tree.md
       - name: Define parent and child cases
         href: define-settings-parent-child-cases.md
-      - name: Enable AI suggestions for similar cases
-        href: csw-enable-ai-suggested-cases-knowledge-articles.md#enable-ai-suggestions-for-similar-cases
       - name: View similar case suggestions
         href: suggest-similar-cases-for-a-case.md
       - name: Allow updates for resolved and canceled cases
@@ -820,8 +818,6 @@
         href: configure-case-sentiment-analysis.md
       - name: Customize interactive dashboards based on Unified Interface
         href: configure-interactive-dashboards-customer-service-hub.md
-      - name: FAQ about AI suggestions for cases and knowledge articles
-        href: csw-faqs-ai-suggestions.md
     - name: Service scheduling
       items:
       - name: Core Service Scheduling
