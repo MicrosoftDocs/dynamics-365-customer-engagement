@@ -2,7 +2,7 @@
 title: Understand how skill match algorithm works in unified routing
 description: Understand how skill match works in unified routing in Customer Service and Dynamics 365 Contact Center.
 ms.date: 05/07/2026
-ms.topic: how-to
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -10,7 +10,7 @@ ms.collection:
 ms.custom: bap-template
 ---
 
-# Set up skill-based routing in unified routing
+# Understand how skill match algorithm works in unified routing
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
@@ -54,7 +54,7 @@ If a representative isn't available with all the required skills and correspondi
 You can configure exact skill match in one of the following ways:
 
 - **Out-of-the-box assignment**: In the work distribution settings of the workstream, set the value for **Default skill matching algorithm** as **Exact Match**. In the assignment method of the queue, choose highest capacity or round robin assignment method.
-When a workstream is configured with 'exact match' skill matching and an out-of-the-box assignment method is set, if multiple agents possess the exact skills required for a work item, the system ranks them based on the assignment method. The work item is then assigned to the representative based on this ordering.
+When a workstream is configured with "exact match" skill matching and an out-of-the-box assignment method is set, if multiple agents possess the exact skills required for a work item, the system ranks them based on the assignment method. The work item is then assigned to the representative based on this ordering.
 - **Custom assignment**: In the custom assignment rule conditions, create a rule with **User skills**, select **Exact match** and then select **All skills** or a specific skill type. Use **All skills** if you want to find an agent matching all the skills that are attached to the work item. This lets the assignment logic find representatives who either match all required skills or match all skills within a selected skill type.
 The exact match algorithm configured in workstream isn't applicable if custom assignment method is applied to a queue. You need to write rules to achieve exact match for the custom assignment method. 
 
@@ -112,7 +112,7 @@ To achieve closest match, select order by > Proficiency > All skills or skill ty
   |<ul><li>Cafe A-100 (Type: Product); Proficiency required: 2</li><li>Coffee machine (Type: Product); Proficiency required: 3</li><li>Spanish (Type: Language); Proficiency required: 3</li></ul> |<ul><li>Name: Carlos; Cafe A-100 (2); Coffee machine (3); Spanish (3)</li><li>Name: Eric; Cafe A-100 (5); Coffee machine (4);</li><li>Name: Jamie; Cafe A-100 (1);</li></ul> |Closest match product skill only using skill count |Agent.PresenceStatus Equals Conversation.Work Stream. Allowed Presences AND Agent. Available capacity >= Conversation.Work Stream.Capacity|Order by:<br> Skill count: System randomly picks from Carlos or Eric|
 
 > [!NOTE]
-> The default skill-matching algorithm configured in the workstream works with the out-of-the-box assignment method only. We recommend that you use the same rating model across skills. However, if skills that belong to different rating models are there, then the system normalizes and calculates the skill scores.
+> We recommend that you use the same rating model across skills. However, if skills that belong to different rating models are there, then the system normalizes and calculates the skill scores.
 
 ### Related information
 
