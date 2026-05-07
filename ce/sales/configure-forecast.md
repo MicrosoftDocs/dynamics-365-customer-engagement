@@ -68,7 +68,7 @@ A ready-to-publish sample forecast configuration is available to you. Use the sa
 
 After you activate your forecast, your next steps are:
 
-- [Upload quota data using the provided Excel template](activate-upload-simple-columns-data-forecast.md#upload-quota-data-for-the-sample-forecast).
+- [Upload quota data using the provided Excel template](activate-upload-simple-columns-data-forecast.md).
 - [View your forecast](view-forecasts.md) — review pipeline health and quota attainment
 - [Share with your team](share-forecasts.md) — give colleagues access to view or adjust
 - [Adjust forecast values](adjust-values-in-forecast.md) — account for insights not yet in opportunities
