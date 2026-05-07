@@ -1,0 +1,1 @@
+In [Microsoft Copilot Studio](https://copilotstudio.microsoft.com), select your environment, search for and [Publish the agent](/microsoft-copilot-studio/publication-fundamentals-publish-channels?tabs=web)
