@@ -1,6 +1,6 @@
 ---
-title: Set up skill-based routing in unified routing
-description: Use the information to set up skill-based routing for unified routing in Customer Service.
+title: Understand how skill match algorithm works in unified routing
+description: Understand how skill match works in unified routing in Customer Service and Dynamics 365 Contact Center.
 ms.date: 05/07/2026
 ms.topic: how-to
 author: neeranelli
