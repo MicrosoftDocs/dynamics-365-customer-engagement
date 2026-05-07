@@ -31,7 +31,7 @@ Customer Knowledge Management Agent lets you autonomously turn cases and case-re
     1. In **Step 2: Power Automate Flows**, select **Enable**.
     1. Once all tiles show as **Ready**, select **Publish** in **Step 3: Copilot Studio Agent** to complete the setup.
     
-    If you have issues configuring connection references from the **Customer Knowledge Management Agent** page, you can do a manual setup. Follow the steps provided in [Connection references for Customer Knowledge Management Agent flow](admin-km-agent-connections.md#set-connection-references-for-ai-agent-flow).
+    If you have issues configuring connection references from the **Customer Knowledge Management Agent** page, you can do a manual setup. Follow the steps provided in [Connection references for Customer Knowledge Management Agent flow](admin-km-agent-connections.md#set-up-connection-references-for-customer-knowledge-management-agent).
 
 
 ## Enable Customer Knowledge Management Agent

@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: concept-article
 ms.search.keywords: administration, tenant, admin, environment, telemetry, billing
-ms.date: 05/20/2025
+ms.date: 05/07/2026
 ms.update-cycle: 180-days
 ms.collection: bap-ai-copilot
 
