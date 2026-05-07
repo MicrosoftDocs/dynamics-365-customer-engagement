@@ -25,16 +25,16 @@ Configure columns and layouts you want sellers to see in the forecast grid. Add 
 
 Before adding columns, choose the right column type for what you want to display:
 
-| You want to... | Column type | Example |
+| You want to | Column type | Example |
 |---|---|---|
-| Show aggregated opportunity data (rolled up from the pipeline) | **Rollup** | Committed revenue, Best Case |
-| Create a derived metric calculated from other columns | **Calculated** | Total forecast = Committed + Best Case + Pipeline |
-| Manually upload external data (like quotas) | **Simple** | Quota, target budget |
-| Display additional attributes from the hierarchy entity | **Hierarchy related** | Manager's email, territory name |
+| Show aggregated opportunity data (rolled up from the pipeline) | [**Rollup**](#rollup-type) | Committed revenue, Best Case |
+| Create a derived metric calculated from other columns | [**Calculated**](#calculated-type) | Total forecast = Committed + Best Case + Pipeline |
+| Manually upload external data (like quotas) | [**Simple**](#simple-type) | Quota, target budget |
+| Display additional attributes from the hierarchy entity | [**Hierarchy related**](#hierarchy-related-type) | Manager's email, territory name |
 
 ## Add and configure columns
 
-In the **Layout** step of the forecast configuration, you can configure columns to define the forecast grid that appears for users.You can configure rollup columns from option sets that are defined for opportunities in your organization.
+In the **Layout** step of the forecast configuration, you can configure columns to define the forecast grid that appears for users. You can configure rollup columns from option sets that are defined for opportunities in your organization.
 
 > [!IMPORTANT]
 > If you add a column that has field-level security applied, you must grant the **# Dynamics 365 Sales Forecasting** system user read access in the field security profile. Otherwise, the column will show no data. For more information, see [Field-level security to control access](/power-platform/admin/field-level-security#example-for-restricting-the-mobile-phone-field-for-the-contact-entity).

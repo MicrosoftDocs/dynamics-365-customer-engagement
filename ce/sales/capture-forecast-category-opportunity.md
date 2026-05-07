@@ -24,7 +24,7 @@ When you create or edit an opportunity, set its **Forecast Category** to reflect
 1. In the site map, select **Opportunities**.
 
 1. Open the opportunity you want to update.
-1. Switch to the **Opportunity** form if you're not already on it. By default, the **Forecast Category** field is only available on the Opportunity form.
+1. Switch to the **Opportunity** form if you're not already on it. By default, the **Forecast Category** field is available only on the Opportunity form.
 
 1. In the **Forecast Category** drop-down list, select the category that best reflects your confidence, then select **Save**:
 

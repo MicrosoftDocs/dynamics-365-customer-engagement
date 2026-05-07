@@ -26,18 +26,16 @@ ai-usage: ai-assisted
 
 # View your forecast: Check pipeline health and track quota progress
 
-Your forecast is your real-time view of quota attainment, pipeline health, and revenue risk. Opening your forecast answers key questions: Am I on track to hit my quota? Where are my pipeline gaps? Which deals need attention right now? Sales managers [configure forecasts](configure-forecast.md) to align with organizational goals, define sales periods, and set quotas for their teams.
+Your forecast is your real-time view of quota attainment, pipeline health, and revenue risk. Opening your forecast answers key questions: Am I on track to hit my quota? Where are my pipeline gaps? Which deals need attention right now? By regularly reviewing your forecast, you can identify deals at risk and take corrective action to close gaps before the end of the quarter. 
 
 The forecasting feature isn't supported on mobile devices.
 
 ## Open and view a forecast
 
-Bottoms-up forecasting is the projection of what a salesperson, team, or organization will sell in a given predefined period (week, month, quarter, or year). Sellers can also use forecasts to track their performance by using assigned sales targets or quotas.
-
 **To view a forecast**
 
 1. In the Sales Hub sitemap, go to **Performance** and select **Forecasts**.  
-   If your organization hasn't configured a forecast or you don't have access to a configured forecast, you see an [out-of-the-box forecast](#out-of-the-box-forecast) for the current month. For more information, see [values displayed in the forecast](#default-columns-in-an-org-chart-forecast).
+   If your organization hasn't configured a forecast or you don't have access to a configured forecast, you see an [out-of-the-box forecast](#out-of-the-box-forecast) for the current month. Learn more about the [values displayed in the forecast](#default-columns-in-an-org-chart-forecast).
 
  **To view your organization's configured forecast**
 
@@ -124,7 +122,6 @@ The real-time conversion of forecast data always takes place based on the latest
 
 For example, you have sales teams in the US and Europe. The base currency for your organization is defined as US Dollar and Euro is defined as one of the currencies. When you create forecast with multi currency enabled, sales teams see the data 
 displayed in Dollar. Sales teams in Europe can select currency as Euro and the forecast data is displayed in Euro. The conversion of currency happens in real time based on the current exchange rate. Also, manual adjustments can be made on the chosen currency.
-
 
 
 ## Tasks you can do on the forecast grid

@@ -62,13 +62,13 @@ A ready-to-publish sample forecast configuration is available to you. Use the sa
 
 4. To limit access to the forecast, go to the **Permissions** section of the **Sample Forecast** and select the appropriate security roles.
 
-5. In the **Activate & add quotas** section, select **Activate forecast** to activate the sample forecast with the default configuration.
+5. In the **Activate & add quotas** section, select **Activate forecast** to activate the sample forecast with the default configuration.  
     :::image type="content" source="media/activate-sample-forecast.png" alt-text="Screenshot of the three-dot menu for activating the sample forecast.":::
-
 6. After the status turns **Active**, the forecast is available to users in the hierarchy and you can [view the forecast](view-forecasts.md).
 
 After you activate your forecast, your next steps are:
 
+- [Upload quota data using the provided Excel template](activate-upload-simple-columns-data-forecast.md#upload-quota-data-for-the-sample-forecast).
 - [View your forecast](view-forecasts.md) — review pipeline health and quota attainment
 - [Share with your team](share-forecasts.md) — give colleagues access to view or adjust
 - [Adjust forecast values](adjust-values-in-forecast.md) — account for insights not yet in opportunities
@@ -94,7 +94,16 @@ After you activate your forecast, your next steps are:
     1. [Configure advanced settings](forecast-configure-advanced-settings.md).
 
     1. [Activate the forecast and upload data](activate-upload-simple-columns-data-forecast.md).
-    
+
+## Add forecast grid and configuration site map entries to custom app
+
+When you create a custom model-driven app, you can choose a default solution to create a sitemap for the app. However, the list contains solutions that are based on entity forms only. The forecast options are based on URL custom control forms and do not appear in the solution list. You must manually add these options to the sitemap. After you add these options, users in your organization can see them on the app's sitemap.  
+Use the following URLs to add the forecast site map to your custom app and perform the steps in [add site map entry to custom app](add-custom-site-map.md):
+
+| Feature name           | URL                                                                                           |
+|------------------------|-----------------------------------------------------------------------------------------------|
+| Forecast grid          | `/main.aspx?pagetype=control&controlName=ForecastingControls.FieldControls.ForecastGridPage`  |
+| Forecast configuration | `/main.aspx?pagetype=control&controlName=ForecastingControls.FieldControls.CCFForecastConfig` |  
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

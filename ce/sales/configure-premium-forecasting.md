@@ -43,6 +43,7 @@ Before you begin, ensure that you have the following prerequisites in place:
 Once your data meets the prerequisites above, you can enable premium forecasting:
 
 1. Go to **Sales Hub** > **Change area** > **App Settings**.
+
 1. Under **Performance management**, select **Forecast configuration**.
 1. Select your forecast and go to the **Layout** step.
 1. Add a **Prediction** column to the layout. This column is only available when premium forecasting is licensed.

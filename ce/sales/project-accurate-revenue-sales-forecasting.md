@@ -25,7 +25,7 @@ ai-usage: ai-assisted
 
 In Dynamics 365 Sales, forecasting gives teams a shared, near real-time view of expected revenue by combining pipeline activity, forecast categories, quotas, and hierarchy rollups. It helps sellers understand whether they are on track, helps managers identify risks early, and helps leadership make faster planning decisions based on current data instead of end-of-period surprises.
 
-Forecasts are most effective when they're reviewed regularly and used as a planning tool, not just a reporting artifact. By comparing committed revenue, best-case opportunities, and gaps to target, teams can take corrective actions earlier in the cycle.
+Forecasts are most effective when they're reviewed regularly and used as a planning tool, not just a reporting artifact. By comparing committed revenue, best-case opportunities, and gaps to target, teams can take corrective actions earlier in the cycle. The following screenshot shows an example of a forecast grid with different forecast categories to help sellers and managers understand the health of the pipeline and take action to close gaps:
 
 :::image type="content" source="media/forecast-for-team-hierarchy.png" alt-text="Screenshot of a forecast grid showing the forecast for a team hierarchy." lightbox="media/forecast-for-team-hierarchy.png":::
 
@@ -47,36 +47,19 @@ Forecasts give everyone in the organization a shared, data-driven picture of exp
 
 **For Leadership:** — Use projected estimates to adjust product strategy or communicate updated projections to investors and stakeholders.
 
-### Example
+## How to set up and use forecasts
 
-A software organization sees its quarterly forecast trending 12% below target in one region. Using the forecast grid, the sales manager identifies that several high-value opportunities are still in an early category and are unlikely to close on time. The manager reassigns experienced sellers, adds executive support to key deals, and launches a short campaign for late-stage opportunities. As a result, the region improves forecast accuracy and closes the quarter closer to quota.
+To set up and use forecasts, complete the following tasks based on your role:
 
-## Review prerequisites
-
-Review the following prerequisites before using forecasts:
-
- -  The forecast was created with at least one of the following options:
-
-    -  A hierarchy that you're part of.
-
-    -  A security role that you're part of is granted access.
-
-    To learn more, see [Configure a forecast](configure-forecast.md).
-
--  You must have read privileges for User and Territory entities. To learn more, see [Security roles and privileges](/power-platform/admin/security-roles-privileges).
-
-
-## Add forecast grid and configuration site map entries to custom app
-
-When you create a custom model-driven app, you can choose a default solution to create a sitemap for the app. However, the list contains solutions that are based on entity forms only. The forecast options are based on URL custom control forms and do not appear in the solution list. You must manually add these options to the sitemap. After you add these options, users in your organization can see them on the app's sitemap.  
-Use the following URLs to add the forecast site map to your custom app and perform the steps in [add site map entry to custom app](add-custom-site-map.md):
-
-| Feature name           | URL                                                                                           |
-|------------------------|-----------------------------------------------------------------------------------------------|
-| Forecast grid          | `/main.aspx?pagetype=control&controlName=ForecastingControls.FieldControls.ForecastGridPage`  |
-| Forecast configuration | `/main.aspx?pagetype=control&controlName=ForecastingControls.FieldControls.CCFForecastConfig` |
+| User role | Task | Purpose |
+|---|---|---|
+| Sellers and managers | [View the out-of-the-box forecast](view-forecasts.md#open-and-view-a-forecast) or [activate the sample forecast](configure-forecast.md#get-started-with-sample-forecast-configuration) | Get started immediately without configuration. The out-of-the-box forecast is available for the current month; the sample forecast can be activated without much setup. |
+| Forecast owner or admin | [Configure a forecast](configure-forecast.md) | Define the forecast type, hierarchy, access permissions, and grid columns. |
+| Forecast owner or admin | [Provide permissions to access and share a forecast](provide-permissions-forecast.md) | Ensure the right people have access to the forecast data. | 
+| Sellers and managers | [View a forecast](view-forecasts.md) | Analyze the forecast data and identify areas of improvement. |
+| Managers and supervisors | [Adjust values in a forecast](adjust-values-in-forecast.md) | Account for factors that aren't yet captured in the system, such as a verbal commitment from a customer or a deal that paused and is expected to return. |
+| Forecast owner | [Share a forecast](share-forecasts.md) | Give other users in the hierarchy access to the forecast. |
 
 ## Related information
 
-[Configure a forecast](configure-forecast.md)<br>
-[View a forecast](view-forecasts.md)
+[Forecasting management FAQs](faq-forecasting.md)
