@@ -1,12 +1,13 @@
 ---
 title: Add LinkedIn activities to a sequence
 description: Use LinkedIn features to define activities for sequences in the sales accelerator to display steps in the work list and Up next widget.
-ms.date: 01/31/2025
+ms.date: 04/30/2026
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ---
+
 # Add LinkedIn activities to a sequence 
 
 Use LinkedIn features to define activities for sequences in the sales accelerator to display steps in the work list and **Up next** widget.
@@ -22,21 +23,20 @@ As an administrator or sequence manager, you can add the following activities to
 - [Get connected](#get-connected)  
 - [Send InMail](#send-inmail)  
 
->[!div class="mx-imgBorder"]
->![LinkedIn activity selection box.](media/sa-linkedin-activity-selection.png "LinkedIn activity selection box")
+:::image type="content" source="media/sa-linkedin-activity-selection.png" alt-text="Screenshot of LinkedIn activity selection box.":::
 
 ## Prerequisites  
 
 Ensure that you meet the following requirements before configuring LinkedIn activities:
 
-- LinkedIn Sales Navigator is configured in your organization. More information: [Install and enable LinkedIn Sales Navigator](/dynamics365/linkedin/install-sales-navigator)
+- LinkedIn Sales Navigator is configured in your organization. For more information, see [Install and enable LinkedIn Sales Navigator](/dynamics365/linkedin/install-sales-navigator).
 - The latest version of the solution is installed. Go to **Advanced settings** > **Solutions**, and search for **msdyn_LinkedInSalesNavigatorAnchor**. The version number should be **3.0.1.1060** or later. 
 
 ## Complete the research
 
-Sellers can use the **Research** activity to view a customer's LinkedIn profile, including contact and account information. This helps sellers to better understand customers before starting to work with them. More information: [Leads Module References](/linkedin/sales/display-services/leads-screenshots) and [Accounts Module References](/linkedin/sales/display-services/accounts-screenshots)
+Sellers can use the **Research** activity to view a customer's LinkedIn profile, including contact and account information. This feature helps sellers better understand customers before starting to work with them. For more information, see [Leads Module References](/linkedin/sales/display-services/leads-screenshots) and [Accounts Module References](/linkedin/sales/display-services/accounts-screenshots).
 
-When the activity is displayed to the seller, the LinkedIn **Research** step is displayed in the **Up next** widget and work list. 
+When the activity is displayed to the seller, the LinkedIn **Research** step appears in the **Up next** widget and work list. 
 
 **To add the Research activity**
 
@@ -51,9 +51,9 @@ When the activity is displayed to the seller, the LinkedIn **Research** step is 
 
 ## Get introduced
 
-Sellers can use the **Get introduced** activity to ask for an introduction to the customer from anyone within their network in LinkedIn who's already connected to the customer. More information: [Get Introduced](/linkedin/sales/display-services/leads-screenshots#get-introduced)
+Sellers can use the **Get introduced** activity to ask for an introduction to the customer from anyone within their network in LinkedIn who's already connected to the customer. For more information, see [Get Introduced](/linkedin/sales/display-services/leads-screenshots#get-introduced).
 
-When this activity is displayed to the seller, the **Find intro person** step is displayed in the **Up next** widget and work list.
+When this activity is displayed to the seller, the **Find intro person** step appears in the **Up next** widget and work list.
 
 To add the Get introduced activity:
 
@@ -68,9 +68,9 @@ To add the Get introduced activity:
 
 ## Get connected
 
-Sellers can use the **Get connected** activity to send connection invites to customers along with personal messages, to help solidify customer relationships and add them to their network. More information: [Connect](/linkedin/sales/display-services/leads-screenshots#connect)
+Sellers can use the **Get connected** activity to send connection invites to customers along with personal messages. This approach helps solidify customer relationships and adds them to their network. For more information, see [Connect](/linkedin/sales/display-services/leads-screenshots#connect).
 
-When this activity is displayed to the seller, the **Get connected** step is displayed in the **Up next** widget and work list.
+When the seller sees this activity, the **Get connected** step appears in the **Up next** widget and work list.
 
 To add the Connect activity:
 
@@ -86,20 +86,20 @@ To add the Connect activity:
 
 ## Send InMail
 
-The **Send InMail** activity allows sellers to directly message customers who they're not already connected to through LinkedIn. More information: [Send an InMail Message](https://www.linkedin.com/help/linkedin/answer/437)
+The **Send InMail** activity enables sellers to directly message customers they're not already connected to through LinkedIn. For more information, see [Send an InMail Message](https://www.linkedin.com/help/linkedin/answer/437).
 
-When this activity is displayed to the seller, the Send InMail step is displayed in the Up next widget and work list. 
+When the seller sees this activity, the **Send InMail** step appears in the **Up next** widget and work list. 
 
-To add the Send InMail activity:
+To add the **Send InMail** activity:
 
 1. In the sequence designer page, select the **Add** (**+**) icon under a step.  
-1. On the **Add an action or other element** dialog box, under the **LinkedIn** tab, select **Send InMail**.  
-1. In the **InMail** pane, enter a description for the activity.  
+1. On **Add an action or other element**, under the **LinkedIn** tab, select **Send InMail**.  
+1. In **InMail**, enter a description for the activity.  
 
     :::image type="content" source="media/sa-linkedin-activity-send-inmail-box.png" alt-text="Screenshot of Send InMail activity selected.":::
 
-1. Close the **InMail** pane.  
-    The LinkedIn send InMail step is created and added to the sequence.
+1. Close **InMail**.  
+    The LinkedIn **Send InMail** step is created and added to the sequence.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

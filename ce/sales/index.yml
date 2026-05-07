@@ -211,7 +211,7 @@ additionalContent:
     items:
         # Card
         
-        - title: Sales in Microsoft 365 Copilot
+        - title: Sales agent
           summary: Use Microsoft 365 applications to automatically capture, access, and register data into any CRM system. 
           url: /Viva/sales/introduction
         - title: Dynamics 365 Customer Insights

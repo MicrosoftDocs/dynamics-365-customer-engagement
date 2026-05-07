@@ -1,19 +1,20 @@
 ---
-title: "Clone and edit a sequence in sales accelerator"
-description: "You can clone and edit a sequence when there's a change in the process of selling in your organization."
-ms.date: 12/31/2024
+title: Clone and edit a sequence in sales accelerator
+description: You can clone and edit a sequence when there's a change in the process of selling in your organization.
+ms.date: 04/30/2026
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ---
+
 # Clone and edit a sequence 
 
-If your organization changes its selling process, you might want to edit a sequence to reflect the changes. You can only edit a sequence that's in an inactive state, so you must deactivate or create a copy of it.
+If your organization changes its selling process, you might want to edit a sequence to reflect the changes. You can only edit a sequence that's inactive, so you must deactivate a sequence or create a copy of it.
 
 ## Clone a sequence
 
-Cloning a sequence makes it easier to add or remove steps, and save the changes to create new sequence. Also, cloning pulls down a full copy of the sequence data that you're cloning at that point in time, including all steps and configurations. After you make the changes, you can save and activate the cloned sequence and apply it to records.
+Cloning a sequence makes it easier to add or remove steps and save the changes to create a new sequence. Cloning pulls down a full copy of the sequence data that you're cloning at that point in time, including all steps and configurations. After you make the changes, you can save and activate the cloned sequence and apply it to records.
 
 1. Sign in to your sales app.   
 1. Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.   
@@ -23,11 +24,11 @@ Cloning a sequence makes it easier to add or remove steps, and save the changes 
     >[!TIP]
     >Alternatively, hover over a sequence, and then select **More options** > **Create a copy**.    
     
-    :::image type="Select create a copy" source="media/sequence-clone-copy-sequence.png" alt-text="Select create a copy":::  
+    :::image type="content" source="media/sequence-clone-copy-sequence.png" alt-text="Screenshot of selecting Create a copy option for a sequence.":::  
 
-1. On the **Create a copy** dialog, enter the name of the sequence and description.    
+1. On **Create a copy**, enter the name of the sequence and description.    
 
-    :::image type="Enter the name of the sequence and description" source="media/sequence-clone-name-description-dialog.png" alt-text="Enter the name of the sequence and description":::  
+    :::image type="content" source="media/sequence-clone-name-description-dialog.png" alt-text="Screenshot of entering the name and description of the sequence in the Create a copy dialog.":::  
 
 1. Select one of the buttons:   
     - **Save and edit**: Select this button to open the sequence editor and add steps as necessary. To edit a sequence, see [Edit a sequence](#edit-a-sequence).

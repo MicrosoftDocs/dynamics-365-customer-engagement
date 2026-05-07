@@ -2,7 +2,7 @@
 title: Sales Opportunity Agent overview
 description: Discover how Sales Opportunity Agent in Dynamics 365 Sales helps sales professionals manage deals effectively with AI-powered insights, risk detection, and deal prioritization.
 ms.date: 04/17/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -71,4 +71,3 @@ Depending on your role, use the following links to configure and use the Sales O
 |------|--------|
 | Admin | [Set up and configure Sales Opportunity Agent](configure-opportunity-research-agent.md).<br>[Start the agent](start-sales-close-agent.md).|
 | Seller | [Work on opportunities researched by the Sales Opportunity Agent](use-opportunity-research-agent.md).<br>[View agent insights and metrics](view-sales-close-agent-research-insights-metrics.md). |
-

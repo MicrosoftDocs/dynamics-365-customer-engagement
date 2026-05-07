@@ -1,8 +1,8 @@
 ---
 title: Monitor leads handled by the Sales Qualification Agent
 description: Monitor Sales Qualification Agent performance in Dynamics 365 Sales with supervisor dashboard insights. Track lead processing rates, revenue generation, and engagement effectiveness.
-ms.date: 08/04/2025
-ms.update-cycle: 90-days
+ms.date: 04/23/2026
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:

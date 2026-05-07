@@ -2,7 +2,7 @@
 title: Configure requirements for Sales Opportunity Agent
 description: Configure the prerequisites for the Sales Opportunity Agent in Dynamics 365 Sales.
 ms.date: 04/09/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

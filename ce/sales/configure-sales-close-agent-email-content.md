@@ -2,7 +2,7 @@
 title: Configure email content for Sales Close Agent
 description: Configure the email content that the Sales Close Agent uses for outreach and follow-up emails to customers.   
 ms.date: 03/30/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

@@ -1,7 +1,7 @@
 ---
 title: Delete or deactivate segments
 description: Learn how to remove segments that you don't need anymore in Dynamics 365 Sales. You can either deactivate them to keep them in the app or delete them completely.
-ms.date: 02/26/2025
+ms.date: 04/30/2026
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -15,13 +15,13 @@ ms.custom:
 
 # Delete or deactivate segments
 
-Sometimes, you might want to get rid of segments that are no longer relevant or useful for your sales team's activities. You have two options to do this in Dynamics 365 Sales Hub:
+Sometimes, you might want to remove segments that are no longer relevant or useful for your sales team's activities. In Dynamics 365 Sales Hub, you have two options to manage these segments:
 
-- **Deactivate a segment** to keep it in the app but stop it from connecting to any new records. The records that were already connected to the segment remain connected. You can reactivate the segment later if you need it again.
-- **Delete a segment** to remove it from the app completely. The records that were already connected to the segment in a sequence aren't affected. You can't undo this action.
+- **Deactivate a segment** to keep it in the app but stop it from connecting to any new records. The records that are already connected to the segment remain connected. You can reactivate the segment later if you need it again.
+- **Delete a segment** to remove it from the app completely. The records that are already connected to the segment in a sequence aren't affected. You can't undo this action.
 
 > [!NOTE]
-> The **Default segment** cannot be **Deleted** or **Deactivated**.
+> You can't **Delete** or **Deactivate** the **Default segment**.
 
 ## Deactivate or delete a segment
 

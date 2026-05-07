@@ -14,7 +14,7 @@ ms.collection: bap-ai-copilot
 
 # AI-powered work order update (preview)
 
-<!--- Also update faqs-work-order-update.md --->
+<!--- Also update faqs-work-order-update.md and responsible-ai-overview.md--->
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 

@@ -1,8 +1,8 @@
 ---
-title: Responsible AI FAQs about Research and engage mode of Sales Qualification Agent
+title: Responsible AI FAQ about the Research and engage mode of Sales Qualification Agent
 description: Get answers to frequently asked questions about the use of AI in the Research and engage mode (part of Sales Qualification Agent) in Dynamics 365 Sales.
 ms.date: 01/16/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.topic: faq
 search.app: salescopilot-docs
@@ -12,7 +12,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
 
-# Responsible AI FAQs about Research and engage mode of Sales Qualification Agent
+# Responsible AI FAQ about the Research and engage mode of Sales Qualification Agent
 
 These frequently asked questions help you understand the impact of AI on the Research and engage mode (part of Sales Qualification Agent) in Dynamics 365 Sales.
 

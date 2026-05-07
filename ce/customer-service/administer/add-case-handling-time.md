@@ -1,11 +1,11 @@
 ---
 title: Add case handling time widget to case forms 
-description: Learn how to enable and configure the case handling time widget, which shows the total time customer service representatives spend on a case.
+description: Learn how to enable and configure the case handling time widget, which shows the total time customer service representatives spend on a case in Dynamics 365 Customer Service.
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 06/10/2025 
+ms.date: 04/22/2026 
 ms.custom: bap-template 
 ---
 
@@ -35,7 +35,7 @@ To display the case handling time widget on a case form, follow these steps:
       - **Allow users to add time logs**: Set this value to **True** or **False**, depending on whether you want representatives to manually add time on the case. The default is **True**.
       - **Show users only their contributed time**: Set this value to **True** or **False**, depending on whether you want representatives to see only their own time or the total time of all representatives on the case. The default is **False**.
       - **Make CHT widget visible to users**: Set this value to **False** to hide the time tracking widget from representatives. However, the application still tracks time in the background. The default is **True**. 
-    1. Select **Show related records**.
+1. Select **Show related records**.
     > [!NOTE]
     >  - In Copilot Service workspace, the application tracks the time automatically in the background whenever a representative opens the case and the case form is in focus, even if you don't add the widget to the case form. You can create reports on automatic time tracked per representative for each case.
     > - In Customer Service Hub, you must add the widget to the case form for automatic time to be tracked.

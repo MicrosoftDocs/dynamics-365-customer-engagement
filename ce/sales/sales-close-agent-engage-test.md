@@ -2,7 +2,7 @@
 title: Test the Sales Close Agent (preview)
 description: Learn how to test the Sales Close Agent in a simulated environment to evaluate its performance in real-world scenarios without impacting actual data. 
 ms.date: 01/09/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

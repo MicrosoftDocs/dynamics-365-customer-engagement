@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
 ms.collection:
-ms.date: 03/11/2025
+ms.date: 04/30/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -16,7 +16,7 @@ ms.custom:
 
 # Prioritize assignment rules
 
-When assignment rules run, a lead or an opportunity might meet the criteria of multiple rules. To determine which rule should take precedence, you can set their priority. A record that matches more than one rule is assigned by the rule that has a higher priority.
+When assignment rules run, a lead or an opportunity might meet the criteria of multiple rules. To determine which rule takes precedence, set their priority. The rule with the higher priority assigns a record that matches more than one rule.
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
@@ -32,7 +32,7 @@ When assignment rules run, a lead or an opportunity might meet the criteria of m
 
 1. Open a segment that has at least two assignment rules, and then select the **Assignment rules** tab.
 
-1. Change the priority of the rules using either of these methods:
+1. Change the priority of the rules by using either of these methods:
 
     - Hover your pointer over a rule and use the drag handle (**&vellip;&vellip;**) to drag the rule up or down in the list. The change is saved automatically.
     - Select a rule, select **Change rule priority**, type the new priority number, and then select **Save**.

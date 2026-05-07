@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.date: 09/17/2025
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: concept-article
 ms.collection: bap-ai-copilot
 ---

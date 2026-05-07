@@ -2,7 +2,7 @@
 title: Configure email settings for the Sales Qualification Agent
 description: "Learn how to configure email settings for the Sales Qualification Agent to personalize outreach, ensure compliance, and validate email addresses effectively."
 ms.date: 04/03/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template

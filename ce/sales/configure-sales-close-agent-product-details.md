@@ -2,7 +2,7 @@
 title: Configure product details for Sales Close Agent
 description: Define the products and value propositions that the Sales Close Agent uses to engage with customers.
 ms.date: 03/30/2026
-ms.update-cycle: 90-days
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom: bap-template
