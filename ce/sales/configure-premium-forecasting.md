@@ -1,5 +1,5 @@
 ---
-title: Predict future revenue outcomes using premium forecasting
+title: Enable premium forecasting
 description: Premium forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data.
 ms.date: 05/06/2026
 ms.custom: 
@@ -9,7 +9,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
-# About premium forecasting: Revenue predictions based on past data
+# Enable premium forecasting
 
 Premium forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data. To achieve this, premium forecasting uses AI-driven models that look at historical data and the sales pipeline to predict future revenue outcomes.
 
@@ -38,7 +38,7 @@ Before you begin, ensure that you have the following prerequisites in place:
 - For best results, consider enabling predictive opportunity scoring, which improves the underlying model quality. See [Predictive opportunity scoring](configure-predictive-opportunity-scoring.md).
 
 
-## Enable premium forecasting
+## How to enable premium forecasting 
 
 Once your data meets the prerequisites above, you can enable premium forecasting:
 
@@ -52,8 +52,9 @@ Once your data meets the prerequisites above, you can enable premium forecasting
    >-  All underlying opportunities must have system users as owners for predictive forecasting to consider while generating the values. 
 1. Save and activate the forecast.
    After activation, the **Prediction** column displays data within approximately two hours.
+1. Turn on **Prediction factors** in the **Advanced** step to see the top factors influencing the prediction for each forecast row. This helps sellers understand why a certain revenue is being predicted and take action to improve it. Learn more in [View prediction factors](forecast-configure-advanced-settings.md#view-prediction-factors).
 
-For configuration details, see [Configure forecasts in your organization](configure-forecast.md).
+
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]

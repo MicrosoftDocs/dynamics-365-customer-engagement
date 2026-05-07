@@ -635,7 +635,7 @@ items:
             href: deactivate-delete-forecast.md
           - name: Clone a forecast
             href: clone-forecast.md
-          - name: Premium forecasting overview
+          - name: Enable premium forecasting
             href: configure-premium-forecasting.md
           - name: View prediction model status
             href: view-prediction-model-status.md
