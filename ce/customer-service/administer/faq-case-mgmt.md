@@ -1,7 +1,7 @@
 ---
 title: FAQ on managing cases
 description: Learn about the frequently asked questions (FAQ) on the different features in case management.
-ms.date: 05/05/2025
+ms.date: 04/22/2026
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -39,7 +39,7 @@ If you see a warning once you select the case attributes that a child case must 
 
 ### Why can't I see Billable time, Remarks, or Total time fields on the case resolution dialog box?
 
-As part of April 2023 wave, by default, representatives see the minimal case resolution dialog. The minimal case resolution dialog displays the **Resolution Type** and **Resolution** only. You can disable the minimal case resolution dialog and switch to the legacy experience. More information: [Disable the minimal case resolution dialog](add-enhanced-case-management.md#disable-the-minimal-case-resolution-dialog). 
+By default, representatives see the minimal case resolution dialog. The minimal case resolution dialog displays the **Resolution Type** and **Resolution** only. You can disable the minimal case resolution dialog and switch to the legacy experience. Learn more in [Disable the minimal case resolution dialog](add-enhanced-case-management.md#disable-the-minimal-case-resolution-dialog). 
 
    > [!NOTE]
    > - You can revert to the legacy case resolution dialog only if the **Case settings** > **Other settings** > **Resolve case dialog** is set to **Standard dialog** in Copilot Service admin center.

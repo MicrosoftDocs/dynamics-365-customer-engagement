@@ -1,23 +1,19 @@
-Universal Resource Scheduling (URS) allows organizations to schedule interactions between customers and company resources. For scenarios where the customer is expected to travel to the company's location, the facility scheduling feature coordinates physical spaces and related resources.
+Facility scheduling is for work that happens at your location — the customer travels to you. Use facility scheduling when customers bring devices or vehicles to a repair center, appointments happen at a company office or clinic, or you need to reserve physical spaces like rooms, bays, or docks.
 
-Typical examples include:
+## Facility scheduling at a glance
 
-**Reserving a physical space**
+| Step | What you do | Key detail |
+|---|---|---|
+| **1. Create a facility resource** | Create a bookable resource with type **Facility** and a valid address. | The facility's location comes from its organizational unit. |
+| **2. Create a requirement** | Create a requirement (typically in a requirement group) with **Work Location** set to **Facility**. | Travel time is calculated from the customer to the facility. |
+| **3. Book the facility** | Use the schedule assistant or schedule board to book the appointment. | The assistant filters to show only facility-type resources. |
 
-- Reserve a room for an event or party
-- Reserve a room for an exercise class
-- Reserve a bay at a mechanic shop
-- Reserve a boat
+## Prerequisites
 
-**Reserving an appointment with a person at a facility**
+- A [bookable resource](../../field-service/set-up-bookable-resources.md) with resource type **Facility** and a valid address (latitude/longitude).
+- A requirement with **Work Location** set to **Facility**.
 
-- Laptop repair at a Microsoft retail store
-- Wealth management consultation at bank branch
-- Doctor's office with related nurse and doctor
-
-In general, to use facility scheduling, you create a facility resource, configure a requirement that calls for the facility resource, and book the requirement. In the following example, an auto repair shop in Redmond, Washington wants to schedule their auto repair bay. Create a facility resource to represent the repair shop, create a requirement to represent the customer's request for an appointment, and then book the appointment.
-
-## Create a facility resource
+## Step 1: Create a facility resource
 
 1. Open the **Resources** area, select **Resources** and then select **New**.
 
@@ -38,7 +34,7 @@ In general, to use facility scheduling, you create a facility resource, configur
 
 1. Select **Save & Close**.
 
-## Create a requirement for a facility
+## Step 2: Create a requirement for a facility
 
 1. Go to **Resource Scheduling > Requirement Groups** and select **New**. Enter the requirement name and select **Save**.
 
@@ -57,7 +53,7 @@ In general, to use facility scheduling, you create a facility resource, configur
 
 1. Select **Save & Close**.
 
-## Book a facility with the schedule assistant
+## Step 3: Book the facility
 
 When you book a requirement group for a facility, the schedule assistant automatically sets the **Work Location** filter to *Facility*. It considers availability of resources and other set requirement constraints, such as characteristics, organizational units, and categories.
 
@@ -81,21 +77,18 @@ To view facility resources on the schedule board, select **Schedule Board** and 
 
 Facility resources are displayed on the schedule board map based on the location of the related organizational unit.
 
-## When to use "facility with capacity," "multiple facilities," and "facility pool"
+## Facility variations
 
-- **Facility with capacity**: Use this option when schedulers care most about not overbooking, and either don't need to schedule specific facilities or can handle coordination in person when customers arrive at the facility. Configure this option by adding a capacity to a single facility.
+Choose the facility setup that matches your scenario:
 
-- **Multiple facilities**: Use this option when each facility needs to be scheduled individually. Configure this option by creating multiple facility resources and relating them to each other through an organizational unit.  
+| Variation | Use when | How it works |
+|---|---|---|
+| **Single facility with capacity** | You don't need to track specific rooms or bays | One facility resource with a capacity setting allows concurrent bookings. |
+| **Multiple facilities** | You need to schedule specific rooms or bays | Create individual facility resources and relate them through an organizational unit. |
+| **Facility pool** | You want to defer specific facility assignment | A [pool](../../field-service/resource-pools.md) of facilities; book to the pool, assign a specific facility later. |
 
-- **Facility pool**: Use this option when schedulers want to:
-  - Utilize capacity scheduling by having the facility pool capacity increase and decrease as facilities are added or removed and
-  - Use local scheduling where bookings are first assigned to the facility pool and then later assigned to pool members
-  
-  For example: a hotel (facility pool) is first scheduled for a weekend and travelers are assigned specific rooms (facility pool members) at a later date when they arrive. Configure this option by creating a facility pool and adding facilities as pool members.
-
-### Facility pool location
-
-The location for a facility pool is taken from the parent organizational unit. If a facility resource is a member of a facility pool, the location of the facility is taken from the pool resource. For example, if you create a facility with a location/organizational unit of **location A**, and you add this facility to a pool, which is located at **location B**, the facility is considered as located at **location B** for as long as it remains in the pool.
+> [!NOTE]
+> **Facility pool location**: The location for a facility pool is taken from the parent organizational unit. If a facility resource is a member of a facility pool, the location of the facility is taken from the pool resource. For example, if you create a facility at **location A** and add it to a pool at **location B**, the facility is considered located at **location B** for as long as it remains in the pool.
 
 ### Booking location
 

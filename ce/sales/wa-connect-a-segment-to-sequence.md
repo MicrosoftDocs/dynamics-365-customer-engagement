@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to 
-ms.date: 11/18/2024
+ms.date: 04/30/2026
 ms.custom:
  - ai-gen-docs-bap
  - ai-gen-desc
@@ -15,14 +15,14 @@ ms.custom:
 
 # Connect segments to sequences
 
-After you [create and activate a segment](./create-and-activate-a-segment.md), connect the segment to a sequence. Leads, opportunities, accounts, contacts, and insights that are connected to the segment automatically start the sequence.
+After you [create and activate a segment](./create-and-activate-a-segment.md), connect the segment to a sequence. When you connect the segment, leads, opportunities, accounts, contacts, and insights automatically start the sequence.
 
-You can connect segments to sequences in your work assignment settings or using the [sequence designer](view-sequence-details-connected-records.md).
+You can connect segments to sequences in your work assignment settings or by using the [sequence designer](view-sequence-details-connected-records.md).
 
 ## Prerequisites
 
 - [Sales accelerator is configured for your organization](./enable-configure-sales-accelerator.md).
-- [The sequence has been created and activated](./create-and-activate-a-sequence.md).
+- [The sequence is created and activated](./create-and-activate-a-sequence.md).
 
 ## Connect a segment to a sequence
 
@@ -48,8 +48,8 @@ If you want to connect a different sequence to the segment, disconnect the curre
 
 Keep the following considerations in mind when you're connecting segments to sequences:
 
-- The application runs on a pooling mechanism and retrieved records are processed at regular intervals. There might be a delay between when a record meets the segment criteria and when it's added to a sequence.  
-- Records are segmented only if at least one active segment is connected to a sequence or at least one active segment has an active assignment rule.  
+- The application runs on a pooling mechanism and retrieves records that it processes at regular intervals. There might be a delay between when a record meets the segment criteria and when it's added to a sequence.  
+- The system segments records only if at least one active segment is connected to a sequence or at least one active segment has an active assignment rule.  
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

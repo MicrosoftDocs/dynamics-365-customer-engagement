@@ -1,7 +1,7 @@
 ---
-title: "Sample: Retrieve an opportunity (early bound) (Dynamics 365 Sales)"
+title: Retrieve an opportunity (early bound) (Sample)
 description: The sample demonstrates how to retrieve an opportunity and products related to the opportunity.
-ms.date: 03/01/2023
+ms.date: 04/30/2026
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
@@ -11,6 +11,7 @@ ms.reviewer: udag
 search.audienceType: 
   - developer
 ---
+
 # Sample: Retrieve an opportunity (early bound)
 
 This sample code is for Dynamics 365 Sales. [Download the Business Management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement).

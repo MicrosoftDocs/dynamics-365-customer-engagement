@@ -29,7 +29,7 @@ As on November 24, 2025, the D365 Service MCP Server is deprecated and will be r
 
 ## Historical analytics dashboards for unified routing are deprecated in Customer Service and Dynamics 365 Contact Center
 
-Starting June 30, 2025, [Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing) and [Historical analytics for unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing-in-customer-service) dashboards are deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Support ends on August 31, 2025, after which this feature will be removed.
+Starting June 30, 2025, [Historical analytics for unified routing in Dynamics 365 Contact Center](../use/oc-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing) and [Historical analytics for unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing-in-customer-service) dashboards are deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Support ends on August 31, 2025, after which this feature will be removed.
 
 ## Legacy version of Case and Conversation Topics in Customer Service and Contact Center is deprecated
 

@@ -1,7 +1,7 @@
 ---
 title: Monitor, assign, transfer, and end conversations as a supervisor in Dynamics 365 Contact Center
 description: Learn how to monitor, assign, transfer, and end conversations that your customer service representatives handle using the Omnichannel Ongoing Conversations dashboard.
-ms.date: 04/08/2026
+ms.date: 04/28/2026
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
