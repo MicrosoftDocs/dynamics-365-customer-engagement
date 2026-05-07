@@ -1,7 +1,7 @@
 ---
 title: Stay compliant with privacy regulations
 description: Learn how to set up and manage consent for email communications sent from AI agents in Dynamics 365 Sales to comply with regional privacy regulations.
-ms.date: 09/24/2025
+ms.date: 05/07/2026
 ms.topic: concept-article
 ms.service: dynamics-365-sales
 ms.custom: bap-template
