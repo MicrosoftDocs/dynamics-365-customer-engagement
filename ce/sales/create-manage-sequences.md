@@ -1,7 +1,7 @@
 ---
 title: Manage conditional workflows with sequences
 description: Manage conditional workflows with sequences. Help sales managers enforce best practices and prioritize activities for sellers.
-ms.date: 04/11/2025
+ms.date: 04/30/2026
 ms.topic: overview
 author: udaykirang
 ms.author: udag
@@ -12,6 +12,7 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:03/19/2024
 ---
+
 # Manage conditional workflows with sequences
 
 Sequences help sales managers enforce best practices by introducing a set of consecutive activities for sellers to follow during the course of their day. A manager can connect sequences to leads and opportunities that appear in a seller's work queue, to help sellers prioritize activities to focus on selling, be more productive, and better align to business processes.
@@ -42,17 +43,12 @@ You can use the sequence designer to do the following tasks:
 
 ## Review prerequisite
 
-Before you start, be sure you that the sales accelerator feature is configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md).
+Before you start, make sure your organization is configured for the sales accelerator feature. For more information, see [Configure the sales accelerator](enable-configure-sales-accelerator.md).
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]  
 
-<table>
-<tr><td>
-
 > [!div class="nextstepaction"] 
-> [Next step: Create and activate a sequence](create-and-activate-a-sequence.md)
-</td></tr>
-</table>   
+> [Next step: Create and activate a sequence](create-and-activate-a-sequence.md)   
 
 ## Related information
 

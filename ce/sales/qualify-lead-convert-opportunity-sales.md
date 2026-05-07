@@ -1,7 +1,7 @@
 ---
 title: Qualify and convert a lead to opportunity
 description: Learn how to qualify leads in the Sales app to create corresponding accounts and opportunities, and how to disqualify leads that don't turn into an opportunity.
-ms.date: 10/14/2024
+ms.date: 04/30/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -22,7 +22,7 @@ searchScope:
 
 # Qualify and convert a lead to opportunity
 
-After you identify the time frame, budget, and purchase process for a lead, qualify the lead to create the corresponding account, contact, and opportunity records. If a lead isn't likely to turn into an opportunity, disqualify it to keep a record of the sales process.
+Qualifying leads is essential to move prospects through your sales pipeline efficiently. When you qualify a lead, you validate that it's a genuine sales opportunity and associate an account and contact, and create the corresponding opportunity record to track the deal. For leads that don't meet your criteria, you can disqualify them while maintaining an audit trail. For example, if a prospect provides a budget and a clear decision timeline, you'd qualify them to generate an opportunity you can actively work toward closing.
 
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
@@ -53,13 +53,13 @@ As part of the [new lead qualification experience](define-lead-qualification-exp
 
 #### Record creation
 
-- If your admin turned on the new experience and also turned on automatic creation of account, contact, and opportunity records, the records are automatically created. While the records are being created, a "Processing" message is shown. After the records are created, the opportunity record is opened.
-- If your admin turned off automatic creation for all records, the **Qualify lead** side pane for creating contact, account, and opportunity records appears. For contact and account records, you can create a new record, use an existing record, or skip record creation.
+- If your admin turned on the new experience and the automatic creation of account, contact, and opportunity records, the system automatically creates the records. While the system creates the records, it shows a "Processing" message. After the system creates the records, it opens the opportunity record.
+- If your admin turned off automatic creation for all records, the **Qualify lead** side pane appears for creating contact, account, and opportunity records. For contact and account records, you can create a new record, use an existing record, or skip record creation.
 
     > [!NOTE]
     > For the account record, the **Create new** option is available only when the **Company name** field is set in the lead record.
 
-- If your admin turned on automatic creation for some records and manual creation for others, the **Qualify lead** side pane is displayed. It shows records that will be created automatically and records that you must create manually. For example, the account and contact records might be set for automatic creation, whereas the opportunity record is set for manual creation. The following screenshot shows an example of the side pane displays for this scenario:
+- If your admin turned on automatic creation for some records and manual creation for others, the **Qualify lead** side pane is displayed. It shows records that the system creates automatically and records that you must create manually. For example, the account and contact records might be set for automatic creation, whereas the opportunity record is set for manual creation. The following screenshot shows an example of the side pane for this scenario:
 
     :::image type="content" source="media/qualify-lead-dialog-box-mix.png" alt-text="Screenshot of the Qualify lead side pane when record creation is set to automatic for the contact and account records, but set to manual for the opportunity record.":::
 
@@ -75,7 +75,7 @@ If your admin turned on multiple opportunity creation, you can create up to five
 1. In the **Quick create** form for adding opportunities, enter the details of the opportunity. If you want the opportunity form to include different fields, talk to your admin about [customizing the opportunity form](define-lead-qualification-experience.md#customize-opportunity-creation-experience-for-qualified-leads).
 1. Save the opportunity record.
 
-    The records aren't created until you select **Qualify**. If you close the **Qualify lead** side pane without qualifying the lead, no records are created. The business process flow is only available in the default opportunity record. Learn more in [Why can't I see the business process flow on all the newly created opportunities?](faq-lead.md#why-cant-i-see-the-business-process-flow-on-all-the-newly-created-opportunities)
+    The system doesn't create the records until you select **Qualify**. If you close the **Qualify lead** side pane without qualifying the lead, the system doesn't create any records. The business process flow is only available in the default opportunity record. Learn more in [Why can't I see the business process flow on all the newly created opportunities?](faq-lead.md#why-cant-i-see-the-business-process-flow-on-all-the-newly-created-opportunities)
 
 #### Lead summary
 
@@ -87,8 +87,8 @@ Select **Finish** to open the primary opportunity record, and select the **Close
 
 ### Legacy experience
 
-- If your admin turned on automatic creation, account, contact, and opportunity records are automatically created when the lead is qualified.
-- If your admin turned off automatic creation, you're prompted to select which records should be created when the lead is qualified (account, contact, or opportunity).
+- If your admin turned on automatic creation, account, contact, and opportunity records are automatically created when you qualify the lead.
+- If your admin turned off automatic creation, you're prompted to select which records to create when you qualify the lead (account, contact, or opportunity).
 
     ![Screenshot that shows account and contact records selected for creation in the Qualify lead dialog.](media/qualify-lead-dialog-box.png "Screenshot that shows account and contact records selected for creation in the Qualify lead dialog")
 
@@ -102,7 +102,7 @@ Learn more:
 
 You can qualify multiple leads at the same time. To qualify multiple leads, open the **Leads** page in a read-only grid view, and select the leads that you want to qualify. Then, on the command bar, select **Qualify**.
 
-If your admin turned automatic creation in the legacy experience, the records are automatically created. If your admin turned off automatic creation or turned on the new experience, a dialog appears. There, you can select which records should be created when the lead is qualified.
+If your admin turned on automatic creation in the legacy experience, the records are automatically created. If your admin turns off automatic creation or turns on the new experience, a dialog appears. In the dialog, you can select which records to create when you qualify the lead.
 
 ## Disqualify a lead
 
@@ -115,7 +115,7 @@ To disqualify a lead, select the lead, and then, on the command bar, select **Di
 
 ## Troubleshoot issues and get answers to frequently asked questions about lead qualification
 
-- Learn how to fix the common errors that you might encounter while you qualify a lead in the [troubleshooting guide](troubleshooting.md).
+- Learn how to fix common errors that you might encounter while qualifying a lead in the [troubleshooting guide](troubleshooting.md).
 - Get answers to frequently asked questions about lead qualification in [Lead management FAQs](faq-lead.md).
 
 ## Typical next steps

@@ -5,18 +5,18 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to 
-ms.date: 03/11/2025
+ms.date: 04/30/2026
 ms.custom: bap-template
 ---
 
 # Turn on or off insight cards
 
-You can decide which insight cards you'd like to see or hide. 
+You can decide which insight cards you want to see or hide. 
 
 ## Turn on or off a card    
 
 > [!NOTE]
-> You can override the administrator configuration for certain cards, such as **No activity with a record**, where you can display the card when there is activity for the set number of days on the record. This configuration will be applicable only for you.
+> You can override the administrator configuration for certain cards, such as **No activity with a record**, where you can display the card when there's activity for the set number of days on the record. This configuration applies only to you.
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Personal settings** > **Insights**.
 
@@ -26,27 +26,27 @@ You can decide which insight cards you'd like to see or hide.
 
     :::image type="content" source="media/assistant-personal-settings.png" alt-text="Screenshot of the Personal settings for assistant.":::   
 
-**To turn on a card**
+### To turn on a card
 
 Choose a card that's turned off, and then select **Turn on cards**.  
 
-Alternatively, you can select the **More options** icon on the card, and then select **Turn on card**. 
+Alternatively, select the **More options** icon on the card, and then select **Turn on card**. 
 
 :::image type="content" source="media/assistant-personal-settings-card-turn-on.png" alt-text="Screenshot of turning on an insight card.":::  
 
->[!NOTE]
->You can select multiple cards that are turned off, and then turn them on simultaneously. 
+> [!NOTE]
+> Select multiple cards that are turned off, and then turn them on simultaneously.  
 
-**To turn off a card**
+### To turn off a card
 
-Choose a card that's turned on, and then select **Turn off cards**. The card will no longer be displayed for you. 
+Choose a card that's turned on, and then select **Turn off cards**. The card no longer displays for you. 
 
-Alternatively, you can select the **More options** icon on the card, and then select **Turn off card**. 
+Alternatively, select the **More options** icon on the card, and then select **Turn off card**. 
 
 :::image type="content" source="media/assistant-personal-settings-card-turn-off.png" alt-text="Screenshot of turning off an insight card.":::
 
 > [!NOTE]
-> You can select multiple cards that are turned on, and then turn them off simultaneously. 
+> Select multiple cards that are turned on, and then turn them off simultaneously. 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

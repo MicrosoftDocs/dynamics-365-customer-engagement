@@ -1,6 +1,6 @@
 ---
-title: Personas and privileges
-description: Learn about the privileges and recommended access levels for administrator, supervisor, and service representative personas in Customer Service and Omnichannel for Customer Service.
+title: Personas and privileges in Dynamics 365 Contact Center
+description: Learn about the privileges and recommended access levels for administrator, supervisor, and service representative personas in Customer Service and Dynamics 365 Contact Center.
 ms.date: 06/27/2025
 ms.topic: how-to
 author: gandhamm
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-This topic lists the table privileges and recommended access levels for the administrator, supervisor, and customer service representative personas in Customer Service and Omnichannel for Customer Service.
+This topic lists the table privileges and recommended access levels for the administrator, supervisor, and customer service representative personas in Customer Service and Dynamics 365 Contact Center.
 
 To know more about the various access levels, see [Security roles](/power-platform/admin/security-roles-privileges#security-roles).
 

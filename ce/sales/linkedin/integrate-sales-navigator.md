@@ -1,7 +1,7 @@
 ---
 title: Integrate LinkedIn Sales Navigator with Dynamics 365 Sales
 description: Learn how to integrate the Sales Navigator solutions with Dynamics 365 Sales to enhance your business processes with data about people and organizations.
-ms.date: 11/04/2024
+ms.date: 04/30/2026
 ms.topic: integration
 author: lavanyakr01
 ms.author: lavanyakr
@@ -17,7 +17,7 @@ ms.assetid: e9258994-b84a-cefb-4d97-762f4bc3ca5a
 
 # Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales
 
-Digital transformation is real. Across every industry vertical, companies are rethinking their business processes and reorganizing their segments. Use LinkedIn Sales Navigator to enhance key application scenarios by connecting the system of record with the [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] data graph and insights. You can also build custom applications by using [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Sales Navigator to enhance business processes with data about people, organizations, and relationships. 
+Integrate LinkedIn Sales Navigator with Dynamics 365 Sales to access real-time intelligence about prospects and organizations. Enhance your sales processes with verified company insights, buyer intent signals, and AI-powered recommendations to identify high-value opportunities and personalize outreach. A sales representative can view a prospect's LinkedIn profile directly in Dynamics 365, see mutual connections for warm introductions, and identify key decision-makers in the target company—all without leaving the CRM. 
 
 >[!NOTE]
 >The LinkedIn Sales Navigator solution is also available in the Sales Professional app.
@@ -26,7 +26,7 @@ Digital transformation is real. Across every industry vertical, companies are re
 
 You need one of the following licenses to use the LinkedIn Sales Navigator solutions with Dynamics 365 Sales:
 
-- [Microsoft Relationship Sales subscription](https://dynamics.microsoft.com/sales/relationship-sales/) for Dynamics 365. This subscription includes Dynamics Sales Enterprise and [LinkedIn Sales Navigator Advanced Plus](https://business.linkedin.com/sales-solutions/compare-plans) licenses.  
+- [Microsoft Relationship Sales subscription](https://www.microsoft.com/dynamics-365/products/sales/relationship-sales/) for Dynamics 365. This subscription includes Dynamics Sales Enterprise and [LinkedIn Sales Navigator Advanced Plus](https://business.linkedin.com/sales-solutions/compare-plans) licenses.  
 
 - LinkedIn Sales Navigator Advanced Plus license. Dynamics 365 Sales integration is available only with the Advanced Plus license. Learn more about the features available with each license on the [LinkedIn Sales Navigator plans](https://business.linkedin.com/sales-solutions/compare-plans) page.
 
@@ -75,12 +75,7 @@ The control binds to a field that is used to match the record with [!INCLUDE[pn-
 
 ## Dynamics CRM 2016 and Dynamics 365 apps: [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Sales Navigator for Microsoft Dynamics
 
-Two [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Sales Navigator widgets are available to display on forms in [!INCLUDE[pn-dynamics-365](../../includes/pn-dynamics-365.md)]. Please refer to the link below for more information and detailed steps for installing and setting up the solution. 
-
-> [!NOTE]
->Before April 2019, there were two separate solutions on Marketplace. Now there is a single solution included out of box, however there is still some required setup to configure LinkedIn's CRM sync.
-
-[Set up the LinkedIn Sales Navigator for Microsoft Dynamics integration](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback)
+Two [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Sales Navigator widgets are available to display on forms in [!INCLUDE[pn-dynamics-365](../../includes/pn-dynamics-365.md)]. Learn more in [Set up the LinkedIn Sales Navigator for Microsoft Dynamics integration](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback)
 
 
 ## Related information

@@ -1,7 +1,7 @@
 ---
 title: Create and manage users and user profiles
 description: This article provides steps that you can perform to manage users in Dynamics 365 Contact Center.
-ms.date: 04/10/2025
+ms.date: 04/15/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -80,7 +80,7 @@ Users should be configured as a bookable resource so that they can be assigned w
     | Section | Field | Description | Example value |
     |---------------|---------------------|---------------------|-------------------------------------------------|
     | User Details | Capacity | If capacity units is configured, allocate a value that indicates the capacity of the representative. Learn more in [Capacity](#capacity). | 100 |
-    | User Details | Default Presence | Assign a default presence status for a representative. This is the status that the representative is logged in with, in the Omnichannel for Customer Service app. | Available |
+    | User Details | Default Presence | Assign a default presence status for a representative. This is the status that the representative is logged in with, in the Copilot Service workspace app. | Available |
 
 1. Select **New Bookable Resource** under the **Skills Configuration** section. The **New Bookable Resource** page appears.
 
@@ -114,11 +114,11 @@ Users should be configured as a bookable resource so that they can be assigned w
    > [!NOTE]
    > Agents in a queue are modeled as a bookable resource and therefore will be considered for assignment. However, we recommend that you don't add agents to queues that are used for routing records.
 
-All users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** security role can use Omnichannel for Customer Service.
+All users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** security role can use Dynamics 365 Contact Center.
 
-Learn more about how to create users and assign security roles in [Assign roles and enable users for Omnichannel for Customer Service](../implement/add-users-assign-roles.md).
+Learn more about how to create users and assign security roles in [Assign roles and enable users for Dynamics 365 Contact Center](../implement/add-users-assign-roles.md).
 
-For users to access the Omnichannel for Customer Service experiences, the roles that you map to personas in role persona mapping must be assigned to the users directly and not through team memberships. Learn more about role persona mapping in [Role persona mapping](role-persona-mapping.md).
+For users to access the Dynamics 365 Contact Center experiences, the roles that you map to personas in role persona mapping must be assigned to the users directly and not through team memberships. Learn more about role persona mapping in [Role persona mapping](role-persona-mapping.md).
 
 ### Capacity
 
@@ -128,7 +128,7 @@ For example, if the capacity unit is 1 for a workstream and you want a represent
 
 ### Related information
 
-[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
+[Work with queues in Dynamics 365 Contact Center](queues-omnichannel.md)  
 [Configure and manage presence status](presence-custom-presence.md)  
 [Role personas for unified routing](role-persona-mapping.md)  
 [Configure custom limits in capacity profiles](capacity-profiles.md#custom-limits)  

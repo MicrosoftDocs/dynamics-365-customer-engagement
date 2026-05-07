@@ -11,7 +11,10 @@ ms.collection:
 ---
 # Customize live chat widgets using data tags
 
-You can customize live chat widgets by using data tags in the widget script. You can use the following tags in the chat widget script that you copy from your admin app such as Copilot Service admin center. More information: [Embed chat widget in your website or portal](../administer/embed-chat-widget-portal.md)
+You can customize live chat widgets by using data tags in the widget script. You can use the following tags in the chat widget script that you copy from your admin app such as Copilot Service admin center. Learn more in [Embed chat widget in your website or portal](../administer/embed-chat-widget-portal.md).
+
+You can also use the data tags in agents to present buttons or options in the chat window.
+
 
 |Attribute name|Description|Example|
 |----|-----|-----|

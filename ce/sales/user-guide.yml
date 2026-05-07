@@ -67,7 +67,7 @@ landingContent:
             url: sales-qualification-agent.md
           - text: Understand the Sales Qualification Agent concepts 
             url: sales-qualification-agent-concepts.md
-          - text: Opportunity Research Agent overview 
+          - text: Sales Opportunity Agent overview 
             url: opportunity-research-agent.md
        - linkListType: how-to-guide
          links:
@@ -76,7 +76,7 @@ landingContent:
           - url: monitor-leads-by-sales-qualification-agent.md
             text: Monitor leads handled by the Sales Qualification Agent 
           - url: use-opportunity-research-agent.md  
-            text: Work on opportunities handled by the Opportunity Research Agent
+            text: Work on opportunities handled by the Sales Opportunity Agent
 
 # Card 
   - title: Copilot

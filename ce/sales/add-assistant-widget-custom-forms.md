@@ -1,7 +1,7 @@
 ---
 title: Add the assistant widget to a custom form
 description: Display the assistant widget on your customized forms in Dynamics 365 Sales.
-ms.date: 01/31/2025
+ms.date: 04/30/2026
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -15,8 +15,8 @@ By default, the assistant widget is available only in the out-of-the-box forms&m
 ## Add the widget
 
 >[!NOTE]
->- Adding the assistant widget is only supported in Unified Interface apps.
->- The assistant widget can't be added by using the new experience in Power Apps.
+>- You can only add the assistant widget in Unified Interface apps.
+>- You can't add the assistant widget by using the new experience in Power Apps.
 
 1. In the sales app, go to **Settings** > **Advanced Settings**.
 
@@ -24,28 +24,25 @@ By default, the assistant widget is available only in the out-of-the-box forms&m
 
 1. Go to **Customization** > **Customizations** > **Customize the System**.
 
-1. Under **Components**, expand *Entities*, and then the entity you want, and select **Forms**.
+1. Under **Components**, expand *Entities*, and then the entity you want. Select **Forms**.
 
 1. In the list of forms, select the form to which you want to add the assistant widget.
 
 1. Go to the **Insert** tab and add a section with column to the form.
 
-    > [!div class="mx-imgBorder"]
-    > ![Add a section with column to the form.](media/customization-add-section-with-column-form.png "Add a section with column to the form")
+    :::image type="content" source="media/customization-add-section-with-column-form.png" alt-text="Screenshot of adding a section with column to the form.":::
 
-1. Select the added section and then on the tool bar, select **Assistant**.   
+1. Select the added section. On the toolbar, select **Assistant**.   
 
-    > [!div class="mx-imgBorder"]
-    > ![Select assistant to add to the section.](media/customization-select-assistant-widget.png "Select assistant to add to the section")
+    :::image type="content" source="media/customization-select-assistant-widget.png" alt-text="Screenshot of selecting Assistant to add to the section.":::
 
     The assistant widget is added to the section.
 
-    > [!div class="mx-imgBorder"]
-    > ![The assistant widget is added to the section.](media/customization-assistant-widget-added.png "The assistant widget is added to the section")
+    :::image type="content" source="media/customization-assistant-widget-added.png" alt-text="Screenshot of the assistant widget added to the section.":::
 
     >[!NOTE]
-    >- When you add the widget to the form, the assistant icon in the tool bar becomes inactive and you can't add it to the same form.
-    >- When you open the form and see that the assistant icon is inactive, specifies that the assistant widget is already added to the form. 
+    >- When you add the widget to the form, the assistant icon in the toolbar becomes inactive and you can't add it to the same form.
+    >- When you open the form and see that the assistant icon is inactive, it specifies that the assistant widget is already added to the form. 
 
 1. Save and publish the form.
 

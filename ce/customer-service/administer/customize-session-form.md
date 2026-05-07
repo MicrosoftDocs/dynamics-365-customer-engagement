@@ -9,22 +9,21 @@ ms.reviewer: nenellim
 ---
 # Customize session forms
 
-As a system customizer, you might want to customize the session forms to suit your business requirements for the customer service representatives who use Omnichannel for Customer Service and other model-driven apps. 
+As a system customizer, you might want to customize the session forms to suit your business requirements for the customer service representatives who use Copilot Service workspace and other model-driven apps.
 
 ## Modify the position of sections in the session form
 
-1.  Sign in to the Dynamics 365 instance.
+1. Sign in to the Dynamics 365 instance.
 
-2.  Go to **Settings** > **Customization** > **Customize the system**.
+1. Go to **Settings** > **Customization** > **Customize the system**.
 
-3.  Expand **Components** > **Entities** > **Session** and then select **Forms**.
+1. Expand **Components** > **Entities** > **Session** and then select **Forms**.
 
-4.  Select **Omnichannel session form** from the list.
+1. Select **Omnichannel session form** from the list.
 
-5.  Drag and drop the field in the order you want to modify.
+1. Drag and drop the field in the order you want to modify.
 
-6.  Select **Save** and select **Publish**.
-
+1. Select **Save** and select **Publish**.
 
 ### Related information
 
