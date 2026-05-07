@@ -1,7 +1,7 @@
 ---
 title: Route records automatically using custom flow
 description: Learn how to route records automatically by setting up custom flow in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 03/26/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

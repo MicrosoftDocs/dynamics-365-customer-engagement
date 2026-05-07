@@ -1,7 +1,7 @@
 ---
 title: Automatically route cases using basic routing rulesets
 description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service.
-ms.date: 04/07/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

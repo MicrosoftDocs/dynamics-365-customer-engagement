@@ -1,7 +1,7 @@
 ---
 title: Manage personas and custom security roles
 description: Get information about how custom security roles can be mapped to personas in Customer Service and Dynamics 365 Contact Center.
-ms.date: 04/15/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
