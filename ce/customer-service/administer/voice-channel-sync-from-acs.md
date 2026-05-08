@@ -1,7 +1,7 @@
 ---
 title: Sync from Azure Communication Services
 description: Understand how you can import phone numbers that you purchased or acquired earlier via Azure Communication Services resources into Dynamics 365 Contact Center.
-ms.date: 04/25/2025
+ms.date: 05/08/2026
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim

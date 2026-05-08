@@ -1,7 +1,7 @@
 ---
 title: Enable representatives to update skills
 description: Learn how to enable the setting that allows representatives to update skills at runtime.
-ms.date: 04/25/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

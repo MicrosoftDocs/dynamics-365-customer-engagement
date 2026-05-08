@@ -4,7 +4,7 @@ description: Learn how to use the similarity rules and relevance search in Custo
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 04/21/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 search.audienceType: 
   - admin

@@ -4,7 +4,7 @@ description: Learn about templates and how to configure and use them in your con
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 04/30/2025
+ms.date: 05/08/2026
 ms.topic: overview
 
 ---
@@ -29,7 +29,7 @@ You can use the following templates:
  
 ### Related information
 
-[Associate templates with workstreams](associate-templates.md)  
+[Associate templates with workstreams](create-workstreams.md#associate-templates)  
 [Understand and create workstream](create-workstreams.md)  
 
 

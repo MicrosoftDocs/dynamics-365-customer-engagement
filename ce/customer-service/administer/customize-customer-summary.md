@@ -1,7 +1,7 @@
 ---
 title: Customize the Active Conversation form
 description: Learn how to add or remove custom controls, customize form layout, and add web resources to the Active Conversation form in Dynamics 365 Contact Center.
-ms.date: 04/23/2025
+ms.date: 05/08/2026
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
