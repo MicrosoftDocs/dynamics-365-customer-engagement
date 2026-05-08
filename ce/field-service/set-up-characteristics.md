@@ -10,9 +10,9 @@ ms.author: chenryan
 
 # Specify characteristics for resources
 
-Characteristics are skills or attributes that resources possess. For example, they can be used to indicate a license or certification is needed for certain types of work.  
+Characteristics are skills or attributes that resources possess. For example, you can use them to indicate that a license or certification is needed for certain types of work.  
   
-Add details to work orders to describe the characteristics needed to complete the job. Use these details to match the characteristics of available workers to make sure the right person is chosen for the task.
+Add details to work orders to describe the characteristics needed to complete the job. Use these details to match the characteristics of available workers to make sure users choose the right person for the task.
   
 ## Add characteristics  
   
@@ -22,18 +22,18 @@ Add details to work orders to describe the characteristics needed to complete th
 
 1. Select **New** to add a characteristic.
 
-1. Provide a **Name** and an optional **Description**.
+1. Enter a **Name** and an optional **Description**.
 
 1. Choose a **Characteristic Type**.
 
-   - **Characteristic**: The characteristic is specific knowledge or experience that is rated with a [proficiency model](#create-a-proficiency-model).
-   - **Certification**: The characteristic is a designated credential, status, or level of achievement earned by a resource.
+   - **Characteristic**: The characteristic is specific knowledge or experience that you rate with a [proficiency model](#create-a-proficiency-model).
+   - **Certification**: The characteristic is a designated credential, status, or level of achievement that a resource earns.
 
 1. Select **Save & Close**.
 
 ## Create a proficiency model
 
-You can define values in a proficiency model that's used to indicate the characteristic level of a resource.
+Define values in a proficiency model to indicate the characteristic level of a resource.
 
 1. In Resource Scheduling, change to the **Settings** area.
 
@@ -41,13 +41,13 @@ You can define values in a proficiency model that's used to indicate the charact
   
 1. Select **New** to create a new model or select an existing model.
 
-1. Provide a **Name** for the proficiency model.
+1. Enter a **Name** for the proficiency model.
 
-1. Set a minimum and maximum rating value and **Save** the proficiency model.
+1. Set a minimum and maximum rating value, and **Save** the proficiency model.
 
 1. In the **Proficiency Values** section, select **New Proficiency Value**.
 
-1. Provide a **Name** and a **Value**.
+1. Enter a **Name** and a **Value**.
 
 1. Select **Save & Close**. Add more rating values for your proficiency model.
 
@@ -73,7 +73,7 @@ You can define values in a proficiency model that's used to indicate the charact
 
 Add more details to a resource's characteristics. More detail is especially useful if you want to document when a certification was issued or when it expires.
 
-Before users can specify enhanced characteristics, a Field Service administrator has to enable the feature after [updating to the early access release](/dynamics365/get-started/release-schedule).
+Before users can specify enhanced characteristics, a Field Service administrator must enable the feature after [updating to the early access release](/dynamics365/get-started/release-schedule).
 
 1. In Field Service, change to the **Settings** area.
 
@@ -88,7 +88,7 @@ With enhanced characteristics enabled, you can add more information to *Bookable
 A section for **Supporting Information** shows on the record. You can provide an **ID**, **Issue Date**, **Expiration Date**, and a **Description** of a characteristic that relates to a specific resource.
 
 > [!NOTE]
-> With enhanced characteristics, the system doesn't allow duplicate *Bookable Resource Characteristic* records with the same combination of **Name**, **Characteristic**, **Rating Value**, **ID**, **Issue Date**, and **Expiration Date**.
+> When you use enhanced characteristics, the system doesn't allow duplicate *Bookable Resource Characteristic* records with the same combination of **Name**, **Characteristic**, **Rating Value**, **ID**, **Issue Date**, and **Expiration Date**.
 
 ## Assign characteristics to work orders  
   
@@ -96,7 +96,7 @@ A section for **Supporting Information** shows on the record. You can provide an
   
 1. Select **Related** > **Characteristics**.  
   
-1. On the **Requirement Characteristic Associated View** view, select **New Requirement Characteristic**.  
+1. On the **Requirement Characteristic Associated View**, select **New Requirement Characteristic**.  
   
 1. Choose the **Characteristic**, an optional **Rating Value**, and the related **Resource Requirement**.
   
