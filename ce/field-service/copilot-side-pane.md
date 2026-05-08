@@ -1,7 +1,7 @@
 ---
 title: Use Copilot in the Dynamics 365 Field Service web application
 description: Learn how to use Copilot to summarize records, catch up on recent changes, and prepare for onsite jobs.
-ms.date: 12/05/2025
+ms.date: 04/29/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: JonBaker007
@@ -17,7 +17,7 @@ Copilot is a next-generation AI assistant that helps you be more productive and 
 
 ## Prerequisites
 
-An administrator must enable the copilot feature for all users in the environment from the Power Platform admin center. Learn more in [Enable copilot for model-driven apps feature for your environment](/power-apps/maker/model-driven-apps/add-ai-copilot#enable-copilot-for-model-driven-apps-feature-for-your-environment).
+Copilot is enabled by default in Dynamics 365 Field Service environments. If Copilot isn't available, an administrator can verify the setting in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). Learn more in [Add Copilot for app users in model-driven apps](/power-apps/maker/model-driven-apps/add-ai-copilot).
 
 ## Open Copilot
 
@@ -54,6 +54,26 @@ The out-of-the-box Field Service app module includes a preconfigured agent for t
 You might need to allow data movement across regions for Generative AI features as a prerequisite for running copilot in Power Apps. This step is especially important if your organization and your environment are in different regions. For more information, see [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
 
 For regional availability, see the [Copilot International Availability Report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
+
+## Resolve common Copilot issues
+
+If Copilot isn't working as expected in your Field Service environment, check the following common causes.
+
+### Copilot icon doesn't appear
+
+- Copilot is enabled by default in Dynamics 365 Field Service environments. If the icon is missing, a maker might have disabled it at the app level. Learn more in [Add Copilot for app users in model-driven apps](/power-apps/maker/model-driven-apps/add-ai-copilot).
+- Verify that the user has the required security role to access Copilot. Users need at least the **Field Service - Dispatcher** or **Field Service - Resource** role.
+
+### Copilot isn't generating responses
+
+- **Data Loss Prevention (DLP) policies** might block the required connectors. Verify that Dataverse and HTTP connectors aren't blocked for your environment. Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss).
+- **Data movement across regions** must be enabled if your tenant and environment are in different regions. Learn more in [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
+- Verify that the environment is in a [supported region](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
+
+### Copilot provides incorrect or limited answers
+
+- Copilot works with data the signed-in user has access to. Ensure that the user has the right permissions to view the records they're asking about.
+- If Copilot doesn't recognize a prompt, try rephrasing it or select **View Prompts** for predefined prompt examples.
 
 ## Related information
 

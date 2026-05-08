@@ -1,7 +1,7 @@
 ---
 title: Update apps and solutions
 description: Learn how to upgrade Dynamics 365 Field Service, mobile apps, and related solutions.
-ms.date: 04/08/2026
+ms.date: 04/29/2026
 ms.topic: how-to
 ms.custom: bap-template
 author: jshotts
@@ -26,6 +26,36 @@ Multiple updates are released throughout the year.
 ## Early Access update
 
 The Early Access concept is deprecated and is replaced by the monthly release channel. [Learn more about how to get early access updates by using the monthly release channel](/power-platform/admin/opt-in-early-access-updates).
+
+## Choose your update path
+
+Field Service updates roll out through release channels. Understanding your options helps you plan for changes in your production environment.
+
+| Release channel | Feature delivery | Best for |
+|---|---|---|
+| Monthly channel | New features every month | Dev/test environments, organizations wanting the latest capabilities |
+| Semi-annual channel | New features at general availability in April and October | Production environments preferring stability |
+
+Learn more at [Changing the release channel](/power-apps/maker/model-driven-apps/channel-change#changing-the-environment-channel).
+
+### Configure the release channel
+
+1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+1. Select **Environments** > select your environment > **Settings**.
+1. Select **Product** > **Behavior**.
+1. Set the **Release channel** option to **Monthly channel** or **Semi-annual channel**.
+1. Select **Save**. Changes are applied immediately.
+
+You can switch between channels at any time. The change controls feature visibility, not the underlying platform version.
+
+### Recommendations for production environments
+
+- Use the **Monthly channel** in dev/test environments to preview features before they reach production.
+- Keep the **Semi-annual channel** for production environments if your organization prefers fewer, predictable changes.
+- **Test in a sandbox first**: Create a copy of your production environment on the Monthly channel to validate customizations and workflows against upcoming features.
+- You can't permanently skip platform deployments. Microsoft deploys updates every week to all environments regardless of your channel setting. The release channel controls feature visibility only.
+
+Learn more at [Release channels for your model-driven app](/power-apps/maker/model-driven-apps/channel-overview).
 
 ## Dynamics 365 Field Service
 
