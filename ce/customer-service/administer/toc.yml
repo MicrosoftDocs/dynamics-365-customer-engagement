@@ -119,7 +119,7 @@
         - name: Manage notification templates
           href: notification-templates.md
         - name: Associate templates with workstreams
-          href: associate-templates.md
+          href: create-workstreams.md#associate-templates
       - name: Productivity tools
         items:
         - name: Overview of productivity tools

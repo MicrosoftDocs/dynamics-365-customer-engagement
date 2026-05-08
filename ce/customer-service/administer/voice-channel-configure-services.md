@@ -1,7 +1,7 @@
 ---
 title: Set up incoming calls, call recording, and SMS services
 description: Learn how to set up incoming calls, call recording, and SMS services using the Azure Event Grid.
-ms.date: 04/14/2025
+ms.date: 05/08/2026
 ms.custom: bap-template
 ms.topic: how-to
 author: neeranelli
@@ -97,7 +97,6 @@ To enable call recording and SMS services, you must first configure your applica
    It can take up to 15 minutes to sync. If you get an error like, "Webhook validation handshake failed," then retry this step after a few minutes.
 
 Learn more about configuring call recordings at [Configure call recording, transcription, and real-time translation](./voice-channel-configure-transcripts.md). To create custom user roles for providing access to call recordings, refer to [Manage personas and custom security roles in Customer Service](./role-persona-mapping.md).
-
 
 ## Set up SMS webhook
 

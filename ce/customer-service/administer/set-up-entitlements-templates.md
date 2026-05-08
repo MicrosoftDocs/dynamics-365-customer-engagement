@@ -1,7 +1,7 @@
 ---
 title: Set up entitlements quickly with templates
 description: See how to set up entitlements quickly with templates in Dynamics 365 Customer Service.
-ms.date: 04/29/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

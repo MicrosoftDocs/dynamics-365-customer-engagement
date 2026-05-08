@@ -1,7 +1,7 @@
 ---
 title: Copilot Service admin center FAQ
 description: FAQ pertaining to Copilot Service admin center.
-ms.date: 04/25/2025
+ms.date: 05/08/2026
 ms.topic: faq
 author: neeranelli
 ms.author: nenellim
@@ -26,7 +26,7 @@ Similar to other apps, you can use the App designer to  customize the site map e
 
 ### When do you plan to deprecate the existing admin experience?
 
-Copilot service admin center is generally available since April 2022. We've announced the deprecation and subsequent end of support for Omnichannel admin center and service management experience in Customer Service Hub. We recommend that you start using the Copilot Service admin center app for the seamless benefits it offers. More information: [Deprecations in Customer Service](../implement/deprecations-customer-service.md#some-admin-apps-are-deprecated)
+Copilot Service admin center is generally available since April 2022. We've announced the deprecation and subsequent end of support for Omnichannel admin center and service management experience in Customer Service Hub. We recommend that you start using the Copilot Service admin center app for the seamless benefits it offers. More information: [Deprecations in Customer Service](../implement/deprecations-customer-service.md#some-admin-apps-are-deprecated)
 
 ### How do I move from the existing admin apps to Copilot Service admin center?
 
@@ -34,7 +34,7 @@ You can start using Copilot Service admin center immediately if you don't have a
 
 ### Why do I see deprecated apps in the organization?
 
-The Omnichannel admin center app has been deprecated and therefore is hidden by default. However, the app will be visible in Power Apps.
+The Omnichannel admin center app is deprecated and therefore is hidden by default. However, the app is visible in Power Apps.
 
 ### Related information
 

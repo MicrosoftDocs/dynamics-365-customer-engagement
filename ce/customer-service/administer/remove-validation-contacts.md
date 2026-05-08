@@ -1,7 +1,7 @@
 ---
 title: Remove validation on contact and customer for cases in Customer Service
 description: Learn how to remove validation on contact and customer for cases in Dynamics 365 Customer Service
-ms.date: 04/28/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -29,7 +29,7 @@ Perform the following steps to disable the validation on contacts and customers:
 5. Select the ellipses for msdyn_IncidentShouldValidatePrimaryContact, and then select Edit.
 6. On the flyout menu that appears, select **New value**, enter the number **0**, and select **Save**.
 
-Now, when customer service representatives (service representatives or representatives) are creating or updating a case, they can select contacts who are not part of the customer organization.
+Now, when customer service representatives (service representatives or representatives) are creating or updating a case, they can select contacts who aren't a part of the customer organization.
 
 ### Related information
 
