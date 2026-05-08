@@ -90,14 +90,13 @@ You can associate application tabs that need to open when a session is started. 
 
   :::image type="content" source="../media/session-template.png" alt-text="Session template":::
 
-The session template is configured. Now, you must associate the session template with a workstream. To learn more, see [Associate templates with workstreams](associate-templates.md).
+The session template is configured. Now, you must associate the session template with a workstream. To learn more, see [Associate templates with workstreams](create-workstreams.md#associate-templates).
 
 ### Related information
 
 [Get started with Copilot Service admin center](../implement/cs-admin-center.md)  
 [Manage application tab templates](application-tab-templates.md)  
-[Manage notification templates](notification-templates.md)  
-[Associate templates with workstreams](associate-templates.md)  
+[Manage notification templates](notification-templates.md)   
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

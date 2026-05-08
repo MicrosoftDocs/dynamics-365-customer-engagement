@@ -1,7 +1,7 @@
 ---
 title: Configure reconnection to a chat session
 description: Learn about configuring reconnection to previous chat sessions in Dynamics 365 Contact Center.
-ms.date: 04/24/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

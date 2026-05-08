@@ -1,7 +1,7 @@
 ---
 title: Search for transcripts in Dynamics 365 Contact Center
 description: Learn how to search for transcripts and view transcript details for a conversation.
-ms.date: 04/28/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

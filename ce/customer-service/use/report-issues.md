@@ -1,7 +1,7 @@
 ---
 title: Report issues in representative app
 description: Learn how you can report issues in Copilot Service workspace when you raise a support ticket with Microsoft.
-ms.date: 04/29/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

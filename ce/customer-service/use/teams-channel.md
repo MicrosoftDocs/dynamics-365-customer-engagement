@@ -1,7 +1,7 @@
 ---
 title: Use Microsoft Teams channel
 description: This article provides an overview of Microsoft Teams channel and incoming chat notifications in the customer service representative dashboard.
-ms.date: 04/29/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

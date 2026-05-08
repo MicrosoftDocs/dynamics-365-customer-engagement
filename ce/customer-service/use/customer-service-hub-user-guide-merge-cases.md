@@ -1,7 +1,7 @@
 ---
 title: Merge cases
 description: Learn about how to merge cases when multiple cases are created about the same issue in different channels.
-ms.date: 04/21/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

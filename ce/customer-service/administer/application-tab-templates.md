@@ -215,6 +215,6 @@ The following out-of-the-box application tab templates are available.
 [Get started with Copilot Service admin center](../implement/cs-admin-center.md)  
 [Manage session templates](session-templates.md)  
 [Manage notification templates](notification-templates.md)  
-[Associate templates with workstreams](associate-templates.md)  
+[Associate templates with workstreams](create-workstreams.md#associate-templates)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
