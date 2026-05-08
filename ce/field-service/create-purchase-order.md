@@ -13,7 +13,7 @@ In Dynamics 365 Field Service, create a purchase order (PO) to add inventory to 
 
 ## Prerequisites
 
-- Understand how [products and services](../field-service/create-product-or-service.md) are used in Field Service.
+- Understand how [products and services](create-product-or-service.md) are used in Field Service.
 
 ## Step 1: Create a purchase order
   

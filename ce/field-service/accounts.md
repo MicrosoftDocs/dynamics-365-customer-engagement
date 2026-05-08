@@ -1,7 +1,7 @@
 ---
 title: Create and manage customer accounts in Field Service
 description: Learn how to create and manage service accounts and billing accounts in Dynamics 365 Field Service. Set up accounts before creating work orders.
-ms.date: 05/04/2026
+ms.date: 05/07/2026
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -38,7 +38,7 @@ For example, a wine producer corporation owns several vineyards. Each vineyard i
 
 1. (Optional) Select the **Servicing** tab and enter accounting and service defaults for work orders associated with the account.
 
-        - **Billing Account**: Sets the billing account on the work order when a dispatcher selects this account as the service account. If you don't specify a billing account, the service account acts as both the service account and the billing account.
+    - **Billing Account**: Sets the billing account on the work order when a dispatcher selects this account as the service account. If you don't specify a billing account, the service account acts as both the service account and the billing account.
 
     - **Price List**: Sets the [price list](create-price-list.md) for this account. If you specify a billing account, work orders use the price list in the billing account record. If the selected price list doesn't contain products or services, the list price on the product record is used.
 
