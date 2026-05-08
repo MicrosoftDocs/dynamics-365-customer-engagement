@@ -6,7 +6,9 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: concept-article
 ms.search.keywords: administration, tenant, admin, environment, telemetry, billing
-ms.date: 05/20/2025
+ms.date: 05/07/2026
+ms.update-cycle: 180-days
+ms.collection: bap-ai-copilot
 
 ---
 
@@ -73,7 +75,7 @@ Dynamics 365 Sales regularly checks the available capacity (quota) of Copilot St
 
 ## View the agent's usage consumption
 
-After the sales agent (Sales Qualification Agent, Sales Close Agent - Research, or Sales Close Agent - Engage) is published, you can start monitoring the capacity it consumes and how much capacity is left. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new)
+After the sales agent (Sales Qualification Agent, Sales Opportunity Agent, or Sales Close Agent) is published, you can start monitoring the capacity it consumes and how much capacity is left. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new)
 
 ## Related information
 

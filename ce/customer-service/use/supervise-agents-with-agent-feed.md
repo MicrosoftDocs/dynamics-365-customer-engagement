@@ -4,7 +4,7 @@ description: Learn how to supervise AI agents in Customer Service with agent fee
 author: neeranelli
 ms.author: nenellim
 ms.topic: overview
-ms.date: 02/23/2026
+ms.date: 04/07/2026
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---
@@ -18,3 +18,4 @@ ms.update-cycle: 180-days
 ### Related information
 
 [Configure agent feed](../administer/configure-agent-feed.md)  
+[Agents, Copilot, and AI capabilities in Dynamics 365 apps](/dynamics365/copilot/ai-get-started)  

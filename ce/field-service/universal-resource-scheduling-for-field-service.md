@@ -14,6 +14,20 @@ This article describes how Dynamics 365 Field Service uses [Universal Resource S
 
 Field service organizations often book technicians to complete work orders. Efficiently scheduling resources to requirements helps reduce travel time and costs.
 
+## The scheduling process
+
+All scheduling in Field Service follows four key steps:
+
+1. **Set up administration and configuration** — Configure scheduling parameters, booking rules, and board settings. Learn more in [Admin, configuration, and customization](schedule-new-entity.md).
+
+1. **Set up your resources** — Define who or what can perform work, including their types, work hours, and locations. Learn more in [Resources](set-up-bookable-resources.md).
+
+1. **Set up your requirements** — Define what needs to be done, including time restrictions, locations, and constraints like skills and territories. Learn more in [Requirements](schedule-time-constraints.md) and [Constraints](set-up-characteristics.md).
+
+1. **Schedule** — Connect resources to requirements using the [schedule board](work-with-schedule-board.md), the [schedule assistant](schedule-assistant.md), or the [Scheduling Operations Agent](soa-overview.md) for AI-driven scheduling.
+
+For complex scheduling needs, explore [scheduling scenarios](schedule-multi-day-work.md) like multi-day work, crews, pools, and facilities.
+
 ## Universal Resource Scheduling and Field Service work orders
 
 When [Field Service is installed](install-field-service.md), Universal Resource Scheduling is added automatically.
@@ -87,8 +101,10 @@ Take a staggered approach to implement scheduling processes in your organization
   
 ## Next steps
 
-- [Use schedule board in Field Service](work-with-schedule-board.md)
+- [Set up bookable resources](set-up-bookable-resources.md)
+- [Use the schedule board in Field Service](work-with-schedule-board.md)
 - [Overview of the schedule assistant](schedule-assistant.md)
+- [Explore scheduling scenarios](schedule-multi-day-work.md)
 - [Get Resource Scheduling Optimization](rso-get-install.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

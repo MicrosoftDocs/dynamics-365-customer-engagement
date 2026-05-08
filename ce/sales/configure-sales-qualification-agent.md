@@ -1,14 +1,11 @@
 ---
 title: Set up and configure the Sales Qualification Agent
 description: Set up the Sales Qualification Agent in Dynamics 365 Sales to automate lead research, engagement, and outreach with AI-powered assistance. Learn how to configure it effectively.
-ms.date: 03/11/2026
+ms.date: 04/27/2026
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
+ms.custom: bap-template
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -126,13 +123,17 @@ Let's look at the steps to set up and configure the agents.
 
 1. [Configure general information](sales-qualification-agent-general-settings.md) for agent such as profile, company info, and products.  
 1. [Configure selection criteria](sales-qualification-agent-selection-criteria.md) for the agent process the leads.  
-1. [Configure email instructions and address validation](sales-qualification-agent-email-instruction-validation.md) for the agent.
+1. [Configure email instructions, define custom outreach scenario, and specify custom email field](sales-qualification-agent-email-instruction-validation.md) for the agent.
 1. [Configure handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) for the agent to identify leads that are a good fit for further engagement.  
 1. [Configure assignment rules](configure-sqa-assignment-rules.md) for the agent to assign processed leads to the appropriate sellers.  
 1. [Configure knowledge sources](configure-sqa-knowledge-source.md) for company and competitor insights, outreach, and follow-up emails.
 1. (**Research and engage mode**) [Run simulation to review the agent's outreach emails](run-simulation-sqa-outreach-email.md) are customized and relevant to the leads.  
 1. After you are satisfied with the configuration, [start the agent](start-sales-qualification-agent.md).
 1. (Optional) [Test the Sales Qualification Agent](test-sales-qualification-agent-research-engage.md).
+
+## Migrate agents across environments
+
+When you have configured the Sales Qualification Agent in one environment, you can export the agent as a solution and import it into another environment. This is especially useful when you have set up the agent in a sandbox or test environment and want to deploy it in production after testing and validation. Learn more in [Import an agent into a target environment](import-export-agent-solutions.md).
 
 
 ## Related information

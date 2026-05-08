@@ -80,6 +80,6 @@ To connect to the Sales MCP server with GitHub Copilot in Visual Studio Code, fo
 ## Related information
 
 - [MCP tools for Sales Qualification Agent capabilities](sales-qualification-agent-tools.md)
-- [MCP tools for Sales Close Agent - Research capabilities](sales-close-agent-research-tools.md)
+- [MCP tools for Sales Opportunity Agent capabilities](sales-close-agent-research-tools.md)
 - [MCP tools for Copilot in Dynamics 365 Sales](copilot-in-sales-tools.md)
 - [Examples of using Sales MCP Server with AI agents and assistants](model-context-protocol-examples.md)

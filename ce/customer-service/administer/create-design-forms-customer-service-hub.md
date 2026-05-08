@@ -1,7 +1,7 @@
 ---
 title: Create and design forms for Customer Service Hub
 description: Know how to create and design main forms for Customer Service Hub
-ms.date: 04/30/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

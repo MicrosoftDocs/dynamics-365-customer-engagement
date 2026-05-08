@@ -16,7 +16,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Close Agent - Research generates risk insights and ranks them based on the deal importance and risk criticality. In this article, learn how to view cards, how the agent prioritizes and displays them in the carousel, and how to interact with them to manage your opportunities effectively.
+The Sales Opportunity Agent generates risk insights and ranks them based on the deal importance and risk criticality. In this article, learn how to view cards, how the agent prioritizes and displays them in the carousel, and how to interact with them to manage your opportunities effectively.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]  
 
@@ -52,7 +52,7 @@ Each action card displays the top risk for an opportunity and includes the follo
 
 ## How action cards are generated
 
-The agent generates action cards by detecting out-of-the-box risks that come from the Sales Close Agent - Research agent. It turns these risks into a prioritized set of action cards for an opportunity.
+The agent generates action cards by detecting out-of-the-box risks that come from the Sales Opportunity Agent agent. It turns these risks into a prioritized set of action cards for an opportunity.
 
 ## How action cards are prioritized
 
@@ -67,4 +67,4 @@ The agent prioritizes action cards by using simple first-release ranking rules a
 ## Related information
 
 [Sales Close Agent overview](sales-close-agent.md)  
-[Work on opportunities handled by Sales Close Agent - Research](use-opportunity-research-agent.md)
+[Work on opportunities handled by Sales Opportunity Agent](use-opportunity-research-agent.md)

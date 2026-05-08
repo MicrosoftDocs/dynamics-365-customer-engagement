@@ -1,7 +1,7 @@
 ---
-title: "Manage your sequences in the sales accelerator"
-description: "Manage your sequences by viewing, cloning, editing, deleting, and apply tags in the sales accelerator."
-ms.date: 02/19/2025
+title: Manage your sequences in the sales accelerator
+description: Manage your sequences by viewing, cloning, editing, deleting, and applying tags in the sales accelerator.
+ms.date: 04/30/2026
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -14,11 +14,11 @@ Manage your sequences in the sales accelerator by viewing details and cloning, e
 
 ## View details of sequences and connected records
 
-1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
+1. Sign in to your sales app. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
 
-2. Under **Sales accelerator**, select **Sequences**.   
+1. Under **Sales accelerator**, select **Sequences**.   
 
-3. On the **Sequences** page, select and open the sequence for which you want to view details such as activities and assigned records.
+1. On the **Sequences** page, select and open the sequence for which you want to view details such as activities and assigned records.
     
     >[!TIP]
     >Alternatively, you can hover over a sequence and then select **More options** > **View sequence**.
@@ -27,27 +27,27 @@ Manage your sequences in the sales accelerator by viewing details and cloning, e
 
     :::image type="content" source="media/sequence-designer-sequence-tab.png" alt-text="Designer tab of a sequence.":::
    
-4. To view the list of connected records, select the **Connected *record*** tab. In this example, we're selecting a sequence with the lead record type. You can also remove and connect records with the sequence through this view. More information: [Connect a sequence to records](connect-a-sequence-to-records.md#ContactThroughASequence)
+1. To view the list of connected records, select the **Connected *record*** tab. In this example, you're selecting a sequence with the lead record type. You can also remove and connect records with the sequence through this view. For more information, see [Connect a sequence to records](connect-a-sequence-to-records.md#ContactThroughASequence).
 
     - The **Connected segments** section lists the segments that are associated with the sequence.
     - The **Connected *records*** section displays the list of records that are connected to the sequence, with the following columns:
-        - **Progress**: Shows the number of steps that have been completed in the record.  
+        - **Progress**: Shows the number of steps that are completed in the record.  
         - **Current step**: Shows the step that is to be completed.
         - **Days elapsed**: Shows the number of days since the record moved into the current step.
 
     :::image type="content" source="media/sequence-connected-records-tab.png" alt-text="Connected records tab of a sequence.":::
 
-5. To view the properties of the sequence&mdash;such as, name, description, record type, and owner&mdash;select **Properties**. If the sequence is in the active state, you can only view the information. To update the name or description, you must deactivate the sequence. You can't edit record type or owner information at any time.
+1. To view the properties of the sequence&mdash;such as, name, description, record type, and owner&mdash;select **Properties**. If the sequence is in the active state, you can only view the information. To update the name or description, you must deactivate the sequence. You can't edit record type or owner information at any time.
 
     :::image type="content" source="media/sequence-view-properties.png" alt-text="View properties of a sequence.":::
 
-More information: [View details of a sequence and its connected records](view-sequence-details-connected-records.md)
+For more information, see [View details of a sequence and its connected records](view-sequence-details-connected-records.md).
 
 ## Clone and edit a sequence
 
-Cloning a sequence makes it easier to edit, and save the changes to create new sequence. Also, cloning pulls down a full copy of the sequence data that you're cloning then, including all steps and configurations. After you edit, you can save and activate the cloned sequence and apply it to records.
+Cloning a sequence makes it easier to edit and save the changes to create a new sequence. Cloning pulls down a full copy of the sequence data that you're cloning, including all steps and configurations. After you edit the sequence, you can save and activate the cloned sequence and apply it to records.
 
-1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.   
+1. Sign in to your sales app. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.   
 
 1. Under **Sales accelerator**, select **Sequences**.   
 
@@ -62,9 +62,9 @@ Cloning a sequence makes it easier to edit, and save the changes to create new s
 
     :::image type="content" source="media/sequence-clone-name-description-dialog.png" alt-text="Screenshot of entering a name and description for the sequence.":::   
 
-1. Select one of the following:   
+1. Select one of the following options:   
 
-    - **Save and edit**: Select this button to open the sequence editor and add steps as necessary. For details, go to the [following section](#edit-a-sequence-seller).
+    - **Save and edit**: Opens the sequence editor so you can add steps. For details, see the [following section](#edit-a-sequence-seller).
     - **Save and close**: Select this button to save and create the sequence. 
 
 **To edit the sequence**<a name='edit-a-sequence-seller'></a>  
@@ -76,7 +76,7 @@ Cloning a sequence makes it easier to edit, and save the changes to create new s
     >- Deactivate the sequence, or create a copy.
     >- Select **Edit sequence**.
 
-1. Do one of the following:
+1. Do one of the following steps:
 
     - To add an activity, perform **step 4** from [Create and connect sequences for yourself](create-sequence-seller.md ).
     - To edit an activity, select the activity. In the right pane, make the edits you want, and then select **Save**.
@@ -89,28 +89,28 @@ More information: [Clone and edit a sequence](edit-a-sequence.md)
 
 ## Delete a sequence
 
-1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.   
+1. Sign in to your sales app. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.   
 
 1. Under **Sales accelerator**, select **Sequences**.   
 
 1. On the **Sequences** page, hover over the sequence you want to delete, and then select **More options** > **Delete**.  
 
-1. In the confirmation message that appears, select **Delete permanently**.
+1. In the confirmation message, select **Delete permanently**.
     
     >[!NOTE]
-    >If you're deleting a sequence that's in the active state, a confirmation message is displayed that the sequence will be deactivated and deleted. Select **Deactivate and delete**.
+    >If you delete a sequence that's in the active state, the confirmation message explains that the sequence is deactivated and deleted. Select **Deactivate and delete**.
     
     :::image type="content" source="media/sequence-delete-confirmation-message.png" alt-text="Screenshot of the confirmation message for deleting a sequence.":::
 
 ## Apply and remove tags from your sequences
 
-Tags help you quickly filter and identify sequences from a list by categories that you define. To know more about tags, go to [Manage tags for sequences](manage-tags-for-sequences.md).  
+Tags help you quickly filter and identify sequences from a list by categories that you define. To learn more about tags, see [Manage tags for sequences](manage-tags-for-sequences.md).  
 
 ### Apply tags to a sequence
 
 With the Salesperson role, you can't create, edit, or delete tags. However, if your sales manager or administrator created tags, you can apply them to sequences.  
 
-1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
+1. Sign in to your sales app. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
 
 1. Under **Sales accelerator**, select **Sequences**.   
 
@@ -143,11 +143,11 @@ With the Salesperson role, you can't create, edit, or delete tags. However, if y
 
 1.	In your sales app, go to the **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 
-2.	Under **Sales accelerator**, select **Sequence**.   
+1. Under **Sales accelerator**, select **Sequence**.   
 
-3.	Select the sequence from which you want to remove tags, and then select **Edit tags**.
+1. Select the sequence from which you want to remove tags, and then select **Edit tags**.
 
-4.	In the **Sequence tags** section, select the **X** next to the tag, and then select **Apply**.
+1. In the **Sequence tags** section, select the **X** next to the tag, and then select **Apply**.
 
 The tag is removed from the sequence.
 

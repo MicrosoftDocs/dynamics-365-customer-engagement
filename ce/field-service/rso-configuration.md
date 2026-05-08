@@ -3,7 +3,7 @@ title: Configure Resource Scheduling Optimization
 description: Learn how to configure Resource Scheduling Optimization in Dynamics 365 Field Service
 author: andrewclear-ms
 ms.author: anclear
-ms.date: 03/31/2025
+ms.date: 03/27/2026
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
@@ -89,6 +89,6 @@ The settings described in this section apply to all optimization scopes.
    - **Ignore**: Resource Scheduling Optimization ignores this booking for both, location and time. Use this setting when the booking status is proposed or canceled.
 
     > [!NOTE]
-    > Booking statuses with no specified scheduling method are treated as Do Not Move.
+    > Booking statuses with no specified scheduling method are treated as **Do Not Move**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

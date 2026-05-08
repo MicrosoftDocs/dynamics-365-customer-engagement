@@ -60,7 +60,8 @@ When you select this option, a share drop-down menu appears with easy access to 
 :::image type="content" source="../../field-service/media/share-records-manage-access.png" alt-text="Screenshot of the Share records panel displaying various permission for a user, such as Read, Write, Append, and Share as selected.":::
 
 > [!NOTE]
-> Managing schedule board access for teams by creating custom security roles and editing permissions isn't supported.
+> - Managing schedule board access for teams by creating custom security roles and editing permissions isn't supported.
+> - The share option only appears when **Shared With** is set to **Specific People**. If the tab is configured as **Everyone** or **Just Me**, the share button isn't displayed.
 
 ### Map section
 
@@ -69,6 +70,9 @@ The **Map** section specifies views that pull details from a record when users s
 #### Resource tooltips view
 
 This view defines the fields displayed in a tooltip that appears when you select a resource pin on the map.
+
+> [!NOTE]
+> Booking tooltip view settings apply to the hourly view of the schedule board. Daily, weekly, and monthly views display a simplified tooltip.
 
 #### Resource details view
 

@@ -1,6 +1,6 @@
-When [scheduling an entity enabled for scheduling](../../common-scheduler/schedule-new-entity.md), set date and time parameters to control when to book the requirement.
+When scheduling a requirement, set date and time parameters to control when to book the requirement. Use promise windows when you commit to a customer that service happens within a specific window - for example, "between 9 AM and 12 PM."
 
-The time parameter fields **Time From/To Promised** and **Time Window Start/End** are available on the resource requirement entity. Use these fields when scheduling entities other than work orders.
+The time parameter fields **Time From Promised / Time To Promised** and **Time Window Start / Time Window End** are available on the resource requirement entity. Use these fields when [scheduling any entity enabled for scheduling](../../common-scheduler/schedule-new-entity.md).
 
 > [!NOTE]
 > Field Service doesn't support variable calendars, which limit scheduling to certain days and times. For example, if a customer requests completion of the work order on Monday, Wednesday, or Friday between 12:00 PM and 5:00 PM. As a workaround, use notes to inform the dispatcher of the customer's preferences or [create booking rules](../../field-service/set-up-booking-rules.md) that use custom logic with JavaScript.
@@ -11,11 +11,38 @@ The time parameter fields **Time From/To Promised** and **Time Window Start/End*
 
 1. Set the **Promised window** fields to define the time window in which a resource must arrive and start the work. These values automatically populate the corresponding fields on the related resource requirement and vice versa.
 
-:::image type="content" source="../../field-service/media/work-order-time-window.png" alt-text="Screenshot of the time window preferences on a work order form.":::
+   :::image type="content" source="../../field-service/media/work-order-time-window.png" alt-text="Screenshot of the time window preferences on a work order form.":::
 
 1. Select **Save & Close**.
 
 When searching for suitable resources to work on the requirements, the schedule assistant populates the filters accordingly. Resources available for the entire duration show as options. The time promised window needs to be within the search range (search start and search end) to show as a search result. If a value of the time promised window is missing, the system uses the other value. To return such results when searching, make sure the search range includes the time from promised plus the expected duration. If no value for the promised time value is provided, the fields are ignored when searching in the schedule assistant.
+
+## Promise window fields
+
+The resource requirement has two pairs of fields for promise windows:
+
+| Fields | Purpose |
+|---|---|
+| **Time From Promised / Time To Promised** | The time window when the resource should arrive. The schedule assistant shows these fields as preferred time slots. |
+| **Time Window Start / Time Window End** | Alternative fields that behave the same way. If one pair is missing, the system uses the other. |
+
+These fields auto-populate between the work order and its resource requirement. You can also set them manually on the requirement.
+
+> [!IMPORTANT]
+> The search range in the schedule assistant must cover the full promise window plus the job duration. For example, if the promise window is 9 AM–12 PM and the job takes 2 hours, the search range must extend to at least 2 PM.
+
+## Promise windows vs. fulfillment preferences
+
+Promise windows and [fulfillment preferences](../../field-service/set-up-time-groups.md) both affect how the schedule assistant displays time slots, but they serve different purposes:
+
+| | Promise windows | Fulfillment preferences |
+|---|---|---|
+| **Set on** | Individual requirement | Fulfillment preference record (reusable) |
+| **Purpose** | Hard constraint - resource must arrive in this window | Display preference - how time slots are grouped and presented |
+| **Effect** | Filters out slots outside the window | Groups available slots into intervals or time blocks (for example, morning/afternoon) |
+| **Example** | "Arrive between 9 AM and 12 PM" | "Show availability in 30-minute intervals" or "Show morning/afternoon blocks" |
+
+You can use both together. The promise window restricts the overall range, and fulfillment preferences control how results within that range are displayed.
 
 ## Set a time zone for the requirement
 
@@ -38,8 +65,3 @@ You can customize which fields serve as the start and end dates for the related 
 1. Select the entity name and go to the **Attribute Mapping** section to choose any date/time field you want to use.
 
 1. Select **Save & Close**.
-
-## Next steps
-
-- [Define intervals and time groups with fulfillment preferences](../../field-service/set-up-time-groups.md)
-- [Set up booking rules](../../field-service/set-up-booking-rules.md)

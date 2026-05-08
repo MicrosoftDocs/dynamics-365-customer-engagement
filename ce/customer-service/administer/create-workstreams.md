@@ -1,7 +1,7 @@
 ---
 title: Create and manage workstreams
 description: Learn about how to create and manage workstreams in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 11/03/2025
+ms.date: 05/08/2026
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -79,14 +79,14 @@ You can create workstreams for unified routing in the Copilot Service admin cent
 > [!NOTE]
 > If asynchronous plug-ins are installed but disabled in your organization, make sure that you set the value of "DisabledForAsyncProcessing" to "No" to avoid issues when you're creating workstreams.
 
-### Configure routing rules
+## Configure routing rules
 
 Routing rules for a workstream consist of work classification rules and route-to-queue rules. Learn about how to configure routing rules:
 
 - [Configure work classification rules](configure-work-classification.md)
 - [Configure route-to-queue rules](configure-route-to-queue-rules.md)
 
-### Configure work distribution
+## Configure work distribution
 
 In the **Work distribution** area of a workstream, you can either accept the default settings or select **See more** and update the following options:
 
@@ -108,7 +108,7 @@ In the **Work distribution** area of a workstream, you can either accept the def
 - **Default skill matching algorithm**: Select **Exact Match**, **Closest Match**, or **None**.
 - **Keep same representative for entire conversation**: Set the toggle to **Yes** if you want the conversation to remain assigned to the originally assigned representative. Learn more in [Representative affinity](#representative-affinity).
 
-### Configure advanced settings
+## Configure advanced settings
 
 For a selected workstream, expand **Advanced settings** to configure the following options:
 
@@ -119,7 +119,7 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 - [Quick replies](create-quick-replies.md)
 - [Configure live conversation counter to view customer wait time](configure-live-conv-counter.md)
 
-### Add an agent to a workstream
+## Add an agent to a workstream
 
 To add an agent to a workstream, you must configure the agent and make it available for selection.
 
@@ -137,7 +137,7 @@ When a work item needs assignment, the classification rules run, and the work di
 > - Agents can receive conversations only if they're added to push-based workstreams.
 > - We recommend that you don't add agents to workstreams that are meant for record routing.
 
-### Manage workstreams
+## Manage workstreams
 
 You can manage workstreams on the workstreams page of the Copilot Service admin center app.
 
@@ -151,7 +151,7 @@ Select a workstream to perform any of the following actions:
 - **Fallback queue**: Select an existing queue or create a queue to set as the fallback queue. More information: [Fallback queues](queues-omnichannel.md#how-fallback-queues-work)
 - **Share**: Select a workstream to share with users or teams in your organization. In the **Share records** dialog that appears, select the users or teams. You can also set the permissions for each user or team. When you share a record permission, it doesn't automatically grant privileges to all the records of the related tables. You need to create a custom plugin to set permissions for the related tables listed for the workstream when you set permissions for the parent table record.
 
-### Representative affinity
+## Representative affinity
 
 The representative affinity feature makes sure that work items are assigned to the service representatives based on their work history. When a waiting conversation becomes active, it's automatically reassigned to the same representative who handled the conversation previously, irrespective of the representative's capacity and presence. However, the agent affinity setting must align with the settings of the notification template that's associated with the workstream. If auto assign work items is set to no in the notification template, the system overrides the agent affinity setting.
 
@@ -162,9 +162,24 @@ However, for live chat, there's no waiting state. So, when the state of the conv
 > [!NOTE]
 > Agent affinity is applicable for push type of work distribution only.
 
-### Associate templates
+## Associate templates
 
-You can keep the default templates for sessions and notifications or update to use custom templates. More information: [Associate templates with workstreams](associate-templates.md)
+After a service representative accepts a conversation request, a session starts for which the session template is used. In the session, certain application tabs are required such as dashboard, knowledge article search, and case pages. These application tabs are configured using the application tab templates and are associated with a session. You can keep the default templates for sessions and notifications or update to use custom templates.
+
+Do the following steps to use custom templates:
+
+1. Under Advanced settings, select **Edit** for **Sessions**, and on the **Sessions** panel that appears, select a template in the **Default template** list.
+
+1. Save and close.
+1. Select **Edit** for **Customer service representative notifications**, and on the **Customer service representative notifications** panel that appears, select a template for each of the following types of notifications:
+    - Incoming unauthenticated
+    - Incoming authenticated
+    - Consult
+    - Transfer
+    - Supervisor assign
+    - Returning Conversation (available for persistent chat workstreams only)
+
+1. Save and close.
 
 ### Related information
 

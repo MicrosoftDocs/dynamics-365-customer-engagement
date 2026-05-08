@@ -1,7 +1,8 @@
 ---
 title: Upgrade your Sales Qualification Agent
 description: Learn how to upgrade your Sales Qualification Agent in Dynamics 365 Sales to the latest version or extend its capabilities.
-ms.date: 07/31/2025
+ms.date: 05/07/2026
+ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -15,38 +16,7 @@ ai-usage: ai-assisted
 
 # Upgrade your Sales Qualification Agent
 
-The following upgrade scenarios are supported for the Sales Qualification Agent in Dynamics 365 Sales:
-
-- **Upgrade the agent to 7.3**: This upgrade is available for customers who signed up for the April 2025 public preview of the Sales Qualification Agent.
-- **Upgrade the agent to handle both research and engagement**: This upgrade is available for customers who are currently using the Research-only mode of the agent and want to extend its capabilities to include engagement as well.
-
-## Considerations for upgrading the agent to 7.3
-
-After the 7.3 release is deployed in your environment, your existing Sales Qualification Agent is automatically set to the **Draft** mode. This change impacts the following functionalities:
-
-- The agent can't process new leads until it's upgraded to 7.3.
-
-- For leads that are already processed by the agent, sellers can see the lead insights until the agent is reconfigured and restarted. Sellers will see a notification informing them that the admin needs to reconfigure the agent.
-- When you upgrade or reconfigure the agent, existing agent settings are preserved.
-- After the agent is reconfigured, leads that fulfill the selection criteria will get processed:
-    - If a lead that was previously processed by the agent still fulfills the selection criteria, the agent processes it again for research and generates the outreach email.
- 
-    - For leads that no longer fulfill the selection criteria, sellers will only see the lead summary on the Lead research page. The seller is informed that due to the recent changes to agent settings, the research pages for some leads may not be available.
-    :::image type="content" source="media/lead-research-not-accessible-banner.png" alt-text="Screenshot of the lead research page for leads that aren't processed by the agent after upgrade.":::
-    > [!NOTE]
-    > You can access the previous research data from the msdyn_leadagentresult (lead agent result) and msdyn_accountresearchresult (account research result) tables.
- 
-
-## Upgrade the agent to 7.3
-
-1. From the **App Settings** area, select **Dynamics 365 AI Hub**. 
-   In the list of agents, you see that your Sales Qualification Agent is in **Draft** mode.
-
-1. Select the agent.
-   The **Edit agent** page opens with your existing agent settings.
-1. Review the settings and make changes if needed. If you want to upgrade the agent to handle both research and engagement, you need more prerequisites and settings. Learn more in [Set up and configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
-1. Select **Start agent** when you're ready to upgrade the agent.
-   The agent is turned **On** and starts processing leads that fulfill the selection criteria.
+You can upgrade your Sales Qualification Agent to handle both research and engagement. This upgrade is available for customers who are currently using the Research-only mode of the agent and want to extend its capabilities to include engagement as well.
 
 ## Considerations for upgrading the agent to handle both research and engagement
 

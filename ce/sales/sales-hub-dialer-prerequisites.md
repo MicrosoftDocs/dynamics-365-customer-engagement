@@ -19,17 +19,17 @@ Before you enable the Sales Hub Dialer, verify that your environment meets the f
 
 ## Admin roles
 
-Ensure you have both of the following role combinations to configure voice channel:
+Ensure you have the following roles to configure voice channel:
 
-- **License Administrator** role, **Teams Administrator** or **Teams Telephony Administrator** role, and **TeamsResourceAccount.Read.All** Graph permission.
-- **System Administrator** or **Omnichannel Administrator** role in Dynamics 365.
+- License Administrator
+- Teams Administrator or Teams Telephony Administrator role with **TeamsResourceAccount.Read.All** Graph permission.
+- System Administrator or Omnichannel Administrator role in Dynamics 365.
 
 ## Entitlements
 
 Verify that you have the following entitlements in the [Microsoft 365 admin center](https://admin.cloud.microsoft/):
 
 - [Teams Phone](/microsoftteams/teams-phone-licensing) with a Teams Calling Plan, Teams Direct Routing, or Teams Operator Connect [PSTN connectivity](/microsoftteams/pstn-connectivity) option.
-- [Dynamics 365 Contact Center](https://www.microsoft.com/dynamics-365/products/contact-center) or Dynamics 365 Customer Service.
 - [Microsoft Teams Phone Resource Account](/microsoftteams/teams-add-on-licensing/virtual-user).
 - Dynamics 365 Sales
 

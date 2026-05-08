@@ -1,7 +1,7 @@
 ---
 title: Who knows whom in Dynamics 365 Sales
 description: Learn how to use the who knows whom feature in Dynamics 365 Sales to quickly identify colleagues who can introduce you to a lead or contact.
-ms.date: 02/27/2025
+ms.date: 04/30/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -14,7 +14,7 @@ ms.custom:
 
 # Use who knows whom to connect with leads and contacts  
 
-The who knows whom feature in Dynamics 365 Sales helps you to quickly identify colleagues who can introduce you to a lead or contact.
+The who knows whom feature in Dynamics 365 Sales helps you to quickly identify colleagues who can introduce you to a lead or contact. By analyzing communication patterns in emails and meetings, who knows whom suggests colleagues who have interacted with the lead or contact. You can then reach out to those colleagues to request an introduction, increasing your chances of building a relationship with the lead or contact.
 
 ## What is who knows whom?
 
@@ -36,7 +36,7 @@ The **Who Knows Whom** widget shows up to five people in your organization who h
 
     :::image type="content" source="media/wkw-widget.png" alt-text="Screenshot of the Who Knows Whom widget." lightbox="media/wkw-widget.png":::
 
-    If you see a message that you don't have sufficient privileges, ask your admin to give you the [necessary permissions](grant-access-wkw.md).
+    If you see a message that you don't have sufficient privileges, ask your admin to give you the [necessary permissions](grant-access-wkw.md) to view the widget.
 
 1. Select the icon in the upper-right corner of the **Who Knows Whom** widget to switch between graph and list views.
 1. Based on the connection strength, identify a colleague who can introduce you to the lead and select **Get introduced**.
@@ -49,6 +49,4 @@ The **Who Knows Whom** widget shows up to five people in your organization who h
 ## Related information
 
 [Configure who knows whom](configure-who-knows-whom.md)
-
-
-[!INCLUDE [footer-include](../includes/footer-banner.md)]
+[Grant access to who knows whom](grant-access-wkw.md)

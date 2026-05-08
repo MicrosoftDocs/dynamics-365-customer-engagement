@@ -1,7 +1,7 @@
 ---
-title: View and  manage a forecast 
+title: View and manage a forecast
 description: Learn how to review forecasts in Dynamics 365 Sales to know the health of your pipeline or to track how your sales team is doing against their quota or target.
-ms.date: 03/25/2025
+ms.date: 05/06/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -21,22 +21,21 @@ searchScope:
   - Dynamics 365
   - Sales
   - Customer Engagement
+ai-usage: ai-assisted
 ---
 
-# View a forecast
+# View your forecast: Check pipeline health and track quota progress
 
-Forecasts are a powerful tool in Dynamics 365 Sales that provide visibility into your sales pipeline and help track progress toward targets. Sales managers [configure forecasts](configure-forecast.md) to align with organizational goals, define sales periods, and set quotas for their teams. Once configured, you can easily view forecasts to understand your performance, identify opportunities, and prioritize your actions. As a seller, you get a clear snapshot of your quota attainment, areas that need attention, and can make informed decisions to drive sales success.
+Your forecast is your real-time view of quota attainment, pipeline health, and revenue risk. Opening your forecast answers key questions: Am I on track to hit my quota? Where are my pipeline gaps? Which deals need attention right now? By regularly reviewing your forecast, you can identify deals at risk and take corrective action to close gaps before the end of the quarter. 
 
 The forecasting feature isn't supported on mobile devices.
 
 ## Open and view a forecast
 
-Bottoms-up forecasting is the projection of what a salesperson, team, or organization will sell in a given predefined period (week, month, quarter, or year). Sellers can also use forecasts to track their performance by using assigned sales targets or quotas.
-
 **To view a forecast**
 
 1. In the Sales Hub sitemap, go to **Performance** and select **Forecasts**.  
-   If your organization hasn't configured a forecast or you don't have access to a configured forecast, you see an [out-of-the-box forecast](#out-of-the-box-forecast) for the current month. For more information, see [values displayed in the forecast](#default-columns-in-an-org-chart-forecast).
+   If your organization hasn't configured a forecast or you don't have access to a configured forecast, you see an [out-of-the-box forecast](#out-of-the-box-forecast) for the current month. Learn more about the [values displayed in the forecast](#default-columns-in-an-org-chart-forecast).
 
  **To view your organization's configured forecast**
 
@@ -59,25 +58,21 @@ Bottoms-up forecasting is the projection of what a salesperson, team, or organiz
 
 The following columns are displayed by default in an org chart forecast.
 
-- **Users**: Shows the hierarchy of users as defined by the **Manager** field. To learn more, see [Forecasts and sales hierarchy](#forecasts-and-sales-hierarchy).
+| Column | What it shows | What to do |
+|--------|---------------|------------|
+| **Users** | Hierarchy of users based on the **Manager** field. | Expand a user to see their direct reports' forecasts rolled up. |
+| **Quota** | Target amount set for a specific owner over the forecast period. | Compare with Committed to see the gap that needs to be closed. |
+| **Committed** | Revenue from opportunities with high confidence (forecast category: Committed). | Review first — these are most likely to close. Look for any stalled deals and coach sellers to advance them. |
+| **Best Case** | Revenue from opportunities with medium confidence (forecast category: Best Case). | Work with sellers to move top deals into Committed. These are your growth opportunities. |
+| **Pipeline** | Revenue from early-stage opportunities (forecast category: Pipeline). | Nurture active deals or remove stalled ones that are inflating the number. |
+| **Omitted** | Revenue excluded from the forecast (forecast category: Omitted). | Review periodically to ensure valid deals aren't accidentally excluded. |
+| **Won** | Revenue from closed-won opportunities. | Track against Quota to see actual attainment. |
+| **Lost** | Revenue from closed-lost opportunities. | Analyze patterns for coaching and pipeline strategy. |
 
-- **Quota**: A target amount set for a specific owner over a given time frame. This value is specified in the forecast configuration. The progress bar is calculated against this value. For the out-of-the-box forecast, this value is set to the previous month's won amount.
+<a name="out-of-the-box-forecast"></a>
+## Starting with the default forecast
 
-- **Committed**: Shows the aggregated (rolled-up) value of estimated revenue for all open opportunities that have the forecast category set as **Committed** (high confidence). This value can be adjusted during forecast.
-
-- **Best case**: Shows the aggregated (rolled-up) value of estimated revenue of all open opportunities that have the forecast category set as **Best Case** (medium confidence). This value can be adjusted during forecast.
-
-- **Pipeline**: Shows the aggregated (rolled-up) value of estimated revenue for all open opportunities that have the forecast category set as **Pipeline** (low confidence). This value can be adjusted during forecast.
-
-- **Omitted**: Shows the aggregated (rolled-up) value of excluded revenue for all open opportunities that have the forecast category set as **Omitted**.
-
-- **Won**: Shows the aggregated (rolled-up) value of revenue that's generated for all won opportunities that have the forecast category set as **Won**.
-
-- **Lost**: Shows the aggregated (rolled-up) value of revenue that's lost for all lost opportunities that have the forecast category set as **Lost**.
-
-## Out-of-the-box forecast
-
-You can take advantage of forecasts even if your administrator hasn't configured one. 
+Every user has instant access to a forecast for the current month — no administrator configuration required.
 
 - The out-of-the-box forecast is based on the org chart template and is available to all users. 
 
@@ -118,13 +113,16 @@ To see the rolled-up forecast for everyone in the hierarchy, expand a specific f
 
 When your sales teams are spread across different regions, it might be confusing for users in different regions to analyze and understand the forecast in the organization's base currency. The multi-currency selection option allows the sales teams to choose and convert the forecast data in real time based on the latest exchange rate to the currencies defined in your organization. This feature aids in better planning, organization, and understanding of the current forecast state.
 
-The real time conversion of forecast data always takes place based on the latest exchange rate defined in your organization.
-
-For example, you have sales teams in the US and Europe. The base currency for your organization is defined as US Dollar and also, Euro is defined as one of the currencies. When you create forecast with multi currency enabled, sales teams open the forecast the data is displayed in Dollar. Sales teams in Europe can select currency as Euro and the forecast data is displayed in Euro. The conversion of currency happens in real time based on the current exchange rate. Also, manual adjustments can be made on the chosen currency.
-
 :::image type="content" source="media/forecast-multi-currency-select.png" alt-text="Screenshot of the Select currency drop-down.":::
 
-Administrator or forecast manager must enable the option to select currency. For more information, see [Turn on multi-currency selection](forecast-configure-advanced-settings.md#turn-on-multi-currency-selection).
+ Administrator or forecast manager must enable the option to select currency. For more information, see [Turn on multi-currency selection](forecast-configure-advanced-settings.md#turn-on-multi-currency-selection).
+
+
+The real-time conversion of forecast data always takes place based on the latest exchange rate defined in your organization.
+
+For example, you have sales teams in the US and Europe. The base currency for your organization is defined as US Dollar and Euro is defined as one of the currencies. When you create forecast with multi currency enabled, sales teams see the data 
+displayed in Dollar. Sales teams in Europe can select currency as Euro and the forecast data is displayed in Euro. The conversion of currency happens in real time based on the current exchange rate. Also, manual adjustments can be made on the chosen currency.
+
 
 ## Tasks you can do on the forecast grid
 

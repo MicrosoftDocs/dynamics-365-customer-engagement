@@ -1,6 +1,6 @@
 ---
-title: View Active Conversation in Omnichannel for Customer Service 
-description: Learn about Active Conversation, its sections, and how you can view customer information in Omnichannel for Customer Service.
+title: View Active Conversation in Dynamics 365 Contact Center
+description: Learn about Active Conversation, its sections, and how you can view customer information in Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

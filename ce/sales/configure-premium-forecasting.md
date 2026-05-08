@@ -1,52 +1,59 @@
 ---
-title: Predict future revenue outcomes using premium forecasting
+title: Enable premium forecasting
 description: Premium forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data.
-ms.date: 11/06/2025
+ms.date: 05/06/2026
 ms.custom: 
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ai-usage: ai-assisted
 ---
-# Predict future revenue outcomes using premium forecasting
+# Enable premium forecasting
 
 Premium forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data. To achieve this, premium forecasting uses AI-driven models that look at historical data and the sales pipeline to predict future revenue outcomes.
 
 >[!IMPORTANT]
->- Premium forecasting is not available on Government Community Cloud (GCC), France, and India.
->- Premium forecasting is available only with a specific Dynamics 365 Sales licenses. For more information, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+>**Premium forecasting requires a specific Dynamics 365 Sales license and is not available in all regions.**
+>- Check whether your license includes premium forecasting: [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544)
+>- **Not available in:** Government Community Cloud (GCC), France, and India
+>- Not sure if you have the right license? Contact your Microsoft representative or check your subscription in the Microsoft 365 admin center.
 
-## Features available in premium forecasting
+## Prerequisites for premium forecasting
 
-Before you begin, ensure that forecasting is enabled. More information: [Configure forecasts in your organization](configure-forecast.md).
+Before you begin, ensure that you have the following prerequisites in place:
 
-### Forecast predictions
+- Forecasting is enabled. More information: [Configure forecasts in your organization](configure-forecast.md).
+ 
+- **More than 10 closed opportunities** with **Actual Value**, **Actual Close Date**, **Estimated Value**, and **Estimated Close Date** filled in. *(Fewer opportunities means less training data, which results in lower prediction accuracy.)*
 
-Provides an AI-powered forecast that helps sellers and managers understand how much revenue their sales team can achieve. These predictions are calculated based on historical data and the current sales pipeline, and are available at each level of the hierarchy. A detailed breakdown is also provided. 
+- **Open opportunities** with **Estimated Value** and **Estimated Close Date** filled in. *(These are the records used to forecast future revenue.)*
 
-To verify that the predictive forecasting feature is enabled in your organization, go to **Change area** > **App settings** > **Forecast configuration**. The **Prediction** column appears in a forecast grid when you select it as a column. To learn more, see [Choose layout and columns](/dynamics365/sales-enterprise/choose-layout-and-columns-forecast).
+- **Real data** that reflects actual usage — for example, opportunity created date should be before the close date. *(Test or dummy data skews the prediction model.)*
 
->[!NOTE]
-> - **Prediction** column is now available for all hierarchies with rollup entity as **Opportunity**.
-> -  All underlying opportunities must have system users as owners for predictive forecasting to consider while generating the values. 
+- A larger volume of closed opportunities with complete field values results in more accurate predictions. The AI selects the best model based on the available data.
 
-After you activate the forecast for the first time, predictive forecasting will take about two hours to display data in the column.
+- Additional filters applied to the forecast don't negatively affect the prediction model.
 
-To learn more, see [Configure forecasts in your organization](/dynamics365/sales-enterprise/configure-forecast).
+- For best results, consider enabling predictive opportunity scoring, which improves the underlying model quality. See [Predictive opportunity scoring](configure-predictive-opportunity-scoring.md).
 
-Consider the following before you start using predictive forecasting, you must have:
 
--	More than 10 closed opportunities with values filled for the fields–**Actual Value**, **Actual Close Date**, **Estimated Value**, and **Estimated Close Date**. 
+## How to enable premium forecasting 
 
--	Open opportunities with values filled for the fields–**Estimated Value** and **Estimated Close Date**. 
+Once your data meets the prerequisites above, you can enable premium forecasting:
 
--	Data should be real as in the usage scenarios for both closed and open opportunities. For example, opportunity created date should be before close date.
+1. Go to **Sales Hub** > **Change area** > **App Settings**.
 
-- Predictive forecasting service selects forecast model according to the available data, so, larger volume of closed opportunities with more complete values will result in getting more accurate forecasts.
+1. Under **Performance management**, select **Forecast configuration**.
+1. Select your forecast and go to the **Layout** step.
+1. Add a **Prediction** column to the layout. This column is only available when premium forecasting is licensed.
+   >[!NOTE]
+   >- **Prediction** column is now available for all hierarchies with rollup entity as **Opportunity**.
+   >-  All underlying opportunities must have system users as owners for predictive forecasting to consider while generating the values. 
+1. Save and activate the forecast.
+   After activation, the **Prediction** column displays data within approximately two hours.
+1. Turn on **Prediction factors** in the **Advanced** step to see the top factors influencing the prediction for each forecast row. This helps sellers understand why a certain revenue is being predicted and take action to improve it. Learn more in [View prediction factors](forecast-configure-advanced-settings.md#view-prediction-factors).
 
-- Additional filters created for the forecast don't negatively affect the outcome of the predictive forecasting model.
-
-- To optimize the accuracy of the predictive forecast model, consider activating and publishing predictive opportunity scoring. To learn more, see [Predictive opportunity scoring](configure-predictive-opportunity-scoring.md).
 
 
 

@@ -25,7 +25,7 @@ Define settings for scheduling your resources.
 | Auto Update Booking Travel | Enable or disable automatic updates to travel time and distance in the hourly view of the schedule board. |
 | Include Appointments | Enable [tracking of appointments for resources](./appointment-scheduling.md) on the schedule board. |
 | Enable Interday Account Names | Toggle on or off to display the service account on the booking template in the daily, weekly, or monthly view. |
-| Connect to Maps | Enable a [mapping service](./field-service-maps-address-locations.md) to calculate travel and show maps. If you want to use a specific map, enter the map API key. By default, Bing is used. |
+| Connect to Maps | Enable a [mapping service](./field-service-maps-address-locations.md) to calculate travel and show maps. If you want to use a specific map, enter the map API key. |
 
 ## Schedule assistant
 

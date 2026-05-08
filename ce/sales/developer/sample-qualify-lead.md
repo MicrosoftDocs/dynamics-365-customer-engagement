@@ -1,8 +1,7 @@
 ---
-title: "Sample: Qualify a lead (Dynamics 365 Sales)"
+title: Qualify a lead (Sample)
 description: The sample demonstrates how to qualify a lead and create an account, contact, or opportunity.
-ms.custom: 
-ms.date: 03/01/2023
+ms.date: 04/30/2026
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
@@ -14,7 +13,7 @@ search.audienceType:
 ---
 # Sample: Qualify a lead
 
-This sample code is for Dynamics 365 Sales. Download the complete sample here [Business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement).  
+This sample code is for Dynamics 365 Sales. Download the complete sample here: [Business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement).  
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]

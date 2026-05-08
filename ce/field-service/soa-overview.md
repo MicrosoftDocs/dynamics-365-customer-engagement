@@ -1,7 +1,7 @@
 ---
 title: Scheduling Operations Agent overview (preview)
 description: Learn about the key benefits and functionality of the Scheduling Operations Agent for Dynamics 365 Field Service.
-ms.date: 03/28/2025
+ms.date: 03/23/2026
 ms.topic: overview
 ms.author: anclear
 author: andrewclear-ms
@@ -11,7 +11,7 @@ author: andrewclear-ms
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-The Scheduling Operations Agent is a new feature of Dynamics 365 Field Service that allows dispatchers to improve the schedule of a single technician quickly and efficiently. Dispatchers often spend considerable time on the schedule board adjusting technician schedules manually throughout their day. They sometimes face the following challenges:
+Dispatchers can quickly and efficiently improve the schedule of a single technician by using the Scheduling Operations Agent. Dispatchers often spend considerable time on the schedule board adjusting technician schedules manually throughout their day. They sometimes face the following challenges:
 
 - A technician has one or more same-day cancellations. The dispatcher needs to choose work to fill the open slots&mdash;ideally, according to the promised time, the priority, and with optimized travel time for the technician,  meaning the work is near other bookings.
 
@@ -35,5 +35,6 @@ The feature is rolling out gradually across the supported Azure regions. Rollout
 
 - [Set up the Scheduling Operations Agent (preview)](soa-setup.md)
 - [Run the Scheduling Operations Agent (preview)](soa-run.md)
+- [Scheduling Operations Agent FAQ](faqs-soa.md)
 
 [!INCLUDE [footer-banner](../includes/footer-banner.md)]

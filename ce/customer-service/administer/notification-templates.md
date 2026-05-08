@@ -4,7 +4,7 @@ description: Manage notification settings and templates for optimal functioning 
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 05/20/2025
+ms.date: 05/04/2026
 ms.topic: how-to
 ms.custom:
   - ai-gen-docs-bap
@@ -92,6 +92,7 @@ The application supports the following slugs.
 | `{caseId}` | GUID of a case. The case ID is displayed only if a case is linked to the conversation. |
 | `{caseTitle}` | Title of the case. The title of the case is displayed only if a case linked to the conversation. |
 | `{queueId}` | GUID of a queue. |
+| `{msdyn_WorkstreamId}` | GUID of the workstream. |
 | `{visitorLanguage}` | The language in which the customer initiates the conversation. |
 | `{visitorDevice}` | The device of the customer who initiates the conversation. |
 | `{entityRoutingLogicalName}` | Name of the entity if the notification is for entity records. |
@@ -247,7 +248,7 @@ As an administrator, you need to customize the notification template to show the
 [Get started with Copilot Service admin center](../implement/cs-admin-center.md)  
 [Manage session templates](session-templates.md)  
 [Manage application tab templates](application-tab-templates.md)  
-[Associate templates with workstreams](associate-templates.md)  
+[Associate templates with workstreams](create-workstreams.md#associate-templates)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

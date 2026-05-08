@@ -1,7 +1,7 @@
 ---
 title: Customize the case resolution dialog
 description: Add custom fields and values to the case resolution dialog to improve case management and organization.
-ms.date: 04/19/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -52,7 +52,7 @@ You can modify the custom case resolution dialog to add and remove a field.
 For example, you must add the **Billable Time** field to the case resolution dialog.
 
 > [!NOTE]
-> - Ensure that the **Total Time** field is  added to the case resolution dialog, for the **Billable Time** field to display the amount of time a representative worked on a case automatically. 
+> - Ensure that the **Total Time** field is added to the case resolution dialog, for the **Billable Time** field to display the amount of time a representative worked on a case automatically. 
 > - Case resolution isn't supported if **Regarding** field is added to **Case resolution dialog**.
 
 1. In [Power Apps](https://make.powerapps.com/), select your environment.

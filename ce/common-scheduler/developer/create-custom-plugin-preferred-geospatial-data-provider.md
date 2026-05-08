@@ -1,6 +1,6 @@
 ---
 title: "Create plug-in to use preferred geospatial data provider in Universal Resource Scheduling"
-description: "Learn how to create a custom plug-in for Universal Resource Scheduling in order to use the geospatial data provider of your choice instead of Bing Maps."
+description: "Learn how to create a custom plug-in for Universal Resource Scheduling in order to use the geospatial data provider of your choice."
 ms.date: 07/28/2025
 searchScope: 
   - Field Service
@@ -43,7 +43,7 @@ You can view the input and output parameters for the two geospatial actions in t
 
 Plug-ins are custom classes that implement the <xref:Microsoft.Xrm.Sdk.IPlugin> interface. To create a plug-in, go to [Plug-in development](../../customerengagement/on-premises/developer/plugin-development.md)
 
-A custom plug-in sample is provided for your reference that demonstrates how to use the Google Maps API to provide geospatial data for field operations instead of the default Bing Maps API. Learn more in [Sample: Custom plug-in to use Google Maps API as geospatial data provider](sample-custom-plugin-google-geospatial-data-provider.md).
+A custom plug-in sample is provided for your reference that demonstrates how to use the Google Maps API to provide geospatial data for field operations instead of the default API. Learn more in [Sample: Custom plug-in to use Google Maps API as geospatial data provider](sample-custom-plugin-google-geospatial-data-provider.md).
 
 The following code in each sample plug-in uses data from the Google API:
 

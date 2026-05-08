@@ -47,11 +47,11 @@ Unified routing optimizes businesses in the following ways:
 
 ## System requirements, supported geographical regions
 
-Unified routing is supported in the same geographical regions as those supported by Omnichannel for Customer Service. Learn more in [International availability of Omnichannel for Customer Service](../implement/international-availability.md).
+Unified routing is supported in the same geographical regions as those supported by Dynamics 365 Contact Center. Learn more in [International availability](/dynamics365/contact-center/implement/international-availability).
 
 Learn about [system requirements](/dynamics365/contact-center/implement/system-requirements-contact-center).
 
-Learn more about the languages that are supported in unified routing in [Supported languages](../implement/international-availability.md#language-availability).
+Learn more about the languages that are supported in unified routing in [Supported languages](/dynamics365/contact-center/implement/international-availability#language-availability).
 
 You can configure unified routing through the Copilot Service admin center app. Representatives must use the Copilot Service workspace app only to be assigned work through unified routing.
 

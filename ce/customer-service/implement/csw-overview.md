@@ -25,7 +25,7 @@ Learn more about licensing and system requirements in [Copilot Service workspace
 
 **Set up Omnichannel in Copilot Service workspace** 
 
-With the Dynamics 365 Customer Service Digital Messaging add-on, the representative who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the Copilot Service workspace app. Learn more in [Set up Omnichannel for Customer Service channels in Copilot Service workspace](/dynamics365/app-profile-manager/csw-enable-channels).
+With the Dynamics 365 Customer Service Digital Messaging add-on, the representative who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the Copilot Service workspace app.
 
 :::image type="content" source="../media/csw-default-overview.png" alt-text="Screenshot of the enhanced multisession Copilot Service workspace":::
 
@@ -110,7 +110,7 @@ Here are a few things to note when you use Copilot Service workspace in your org
   - A new tab in the focused session is initiated if you open a form through `XRM.Navigation.openForm` from a case session.
 - Opening a WebResource through `Xrm.Navigation.openWebResource` opens a new browser window but doesn't remove the navigation and command bars. You can programmatically open web resources as session tabs using the `Microsoft.Apm.createTab` method. Learn more in [createTab method](../develop/reference/methods/createTab.md).
 - You can open sessions and tabs using Microsoft.Apm APIs. Learn more in [App profile manager JavaScript API Reference](../develop/microsoft-apm.md).
-- The multisession capabilities are supported in the Copilot Service workspace and Omnichannel for Customer Service apps only. You won't be able to navigate across multiple sessions in a custom app or a copy of the Copilot Service workspace app in your environment.
+- The multisession capabilities are supported in the Copilot Service workspace app only. You won't be able to navigate across multiple sessions in a custom app or a copy of the Copilot Service workspace app in your environment.
 
 ### Limitations
 
