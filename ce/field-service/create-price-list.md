@@ -77,7 +77,7 @@ You can add more pricing options for products and services by creating **Field S
 
 ## Add a price list to work orders
 
-When [creating a work order](create-work-order.md), choose a price list. You can enter the price list manually or have it automatically filled in based on the billing account or the work order.
+When [creating a work order](create-work-order.md), choose a price list. You can enter the price list manually or the system automatically enters it based on the billing account for the work order.
 
 :::image type="content" source="media/price-list-work-order.png" alt-text="Screenshot of a work order with a highlight on the price list.":::
 

@@ -18,7 +18,7 @@ You can access the service report in the mobile app and web app. For a guided wa
 
 ## Prerequisites
 
-An admin has [installed and enabled the custom reporting control for service reports](/dynamics365/guidance/resources/fs-reporting-solution-service-reports).
+An admin [installed and enabled the custom reporting control for service reports](/dynamics365/guidance/resources/fs-reporting-solution-service-reports).
 
 ## Generate reports in the mobile app
 

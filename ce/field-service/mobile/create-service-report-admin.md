@@ -19,7 +19,7 @@ Administrators or developers can install and extend a reporting solution, add th
 For detailed instructions, go to [Add a custom reporting control for service reports in Dynamics 365 Field Service](/dynamics365/guidance/resources/fs-reporting-solution-service-reports).
 
 > [!IMPORTANT]
-> The source code and managed solution provided are supplied "as-is" without any warranties or guarantees. Microsoft won't provide support for any issues or inquiries related to this code and its associated controls.
+> The source code and managed solution provided are supplied "as-is" without any warranties or guarantees. Microsoft doesn't provide support for any issues or inquiries related to this code and its associated controls.
 
 ## Next steps
 
