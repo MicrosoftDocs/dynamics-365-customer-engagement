@@ -69,7 +69,7 @@ Here's a sample code that shows how to use the `setContextProvider` method.
 
                 'jwtToken': {'value':'token','isDisplayable':true},
 
-                'Email': {'value':'test@test.com','isDisplayable':true},
+                'Email': {'value':'mae.gibbins@contoso.com','isDisplayable':true},
 
                 'client': {'value':'true','isDisplayable':true},
 
