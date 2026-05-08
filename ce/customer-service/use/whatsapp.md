@@ -1,7 +1,7 @@
 ---
 title: WhatsApp channel representative experience
 description: Learn about the representative experience for conversations that come through the WhatsApp channel.
-ms.date: 04/30/2025
+ms.date: 05/08/2026
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

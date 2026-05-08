@@ -1,7 +1,7 @@
 ---
 title: Keyboard shortcuts for the Customer Service Hub
 description: Use the keyboard shortcuts to perform common tasks in Customer Service Hub.
-ms.date: 04/30/2025
+ms.date: 05/08/2026
 ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
