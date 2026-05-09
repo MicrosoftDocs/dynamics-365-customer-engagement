@@ -1,7 +1,7 @@
 ---
 title: Use price lists
 description: Learn about using price lists in Dynamics 365 Field Service.
-ms.date: 05/12/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
@@ -9,9 +9,9 @@ ms.custom: bap-template
 ---
 # Use price lists
 
-Dynamics 365 Field Service builds on [Dynamics 365 Sales price lists](../sales/create-price-lists-price-list-items-define-pricing-products.md) and [product catalogs](../sales/set-up-product-catalog-walkthrough.md). Use price lists to add products and services to work orders with appropriate pricing.  
+Use price lists in Dynamics 365 Field Service to control how [products and services](create-product-or-service.md) are priced on work orders. Field Service builds on [Dynamics 365 Sales price lists](../sales/create-price-lists-price-list-items-define-pricing-products.md) and [product catalogs](../sales/set-up-product-catalog-walkthrough.md).
 
-For work order [products and services](create-product-or-service.md) that represent parts or labor billed to your customers, use price lists and price list items. You can also use price lists with **Field Service Price List Items** for more pricing options.
+For work order products and services that represent parts or labor, use price lists and price list items. Price list items define the base price for a product or service. For more advanced pricing options such as minimum charge amounts, duration rounding, and flat fees, use **Field Service Price List Items**.
 
 ## Create a price list
 
@@ -19,7 +19,7 @@ Define basic properties of the price list.
   
 1. In Field Service, change to the **Settings** area.
 
-1. In the **General** section, select **Price Lists**, and then select **New**.
+1. Under **General**, select **Price Lists**, and then select **New**.
 
 1. On the **General** tab, enter the following information:
 
@@ -36,7 +36,7 @@ Define basic properties of the price list.
 
 ## Add price list items  
 
-Add products and services as price list items to the price list. For more information about options for price list items, go to [Define product pricing with price lists and price list items](../sales/create-price-lists-price-list-items-define-pricing-products.md).
+Add products and services as price list items to the price list. For more information about price list item options, go to [Define product pricing with price lists and price list items](../sales/create-price-lists-price-list-items-define-pricing-products.md).
 
 1. Open a price list.
 
@@ -47,7 +47,7 @@ Add products and services as price list items to the price list. For more inform
 1. On the **Pricing information** tab, enter the following information:
 
    - **Pricing Method**: Select **Currency Amount**.
-   - **Amount**: The price of the product or service or the hourly rate for services.
+   - **Amount**: Enter the price of the product or service or the hourly rate for services.
 
 1. Select **Save**.
 
@@ -77,7 +77,7 @@ You can add more pricing options for products and services by creating **Field S
 
 ## Add a price list to work orders
 
-When [creating a work order](create-work-order.md), choose a price list. The price list can be entered manually or filled in automatically based on the billing account or the work order.
+When [creating a work order](create-work-order.md), choose a price list. You can enter the price list manually or the system automatically enters it based on the billing account for the work order.
 
 :::image type="content" source="media/price-list-work-order.png" alt-text="Screenshot of a work order with a highlight on the price list.":::
 
@@ -92,7 +92,7 @@ Add default price lists for [territories](set-up-territories.md) or customer seg
 
 1. Open a price list.
 
-1. In the **Territory Relationships** section, select **New Connection**.  
+1. Select the **Territory Relationships** tab and then select **New Connection**.  
   
 1. Select one or more territories.  
   
