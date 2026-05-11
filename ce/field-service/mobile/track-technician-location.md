@@ -1,7 +1,7 @@
 ---
 title: Enable location tracking for mobile technicians
 description: Enable location tracking in the Field Service mobile app so dispatchers can view technician locations and history in real time.
-ms.date: 03/13/2026
+ms.date: 05/11/2026
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -12,7 +12,7 @@ ms.author: jobaker
 
 Use location tracking to help schedulers see where field technicians are throughout the workday and make faster dispatch decisions.
 
-An administrator enables location tracking for the Dynamics 365 Field Service app, and technicians enable location sharing from the mobile app. Schedulers can visualize technicians' locations on the schedule board and see their location history.
+An administrator enables location tracking for the Dynamics 365 Field Service app, and technicians enable location sharing from the mobile app. Location signals are sent to the server at predefined intervals. Schedulers can visualize technicians' locations on the schedule board and see their location history.
 
 For a guided walkthrough, check out the following video.
 >
@@ -21,7 +21,7 @@ For a guided walkthrough, check out the following video.
 ## Prerequisites
 
 - Administrator access to Dynamics 365 Field Service.
-- Read access to the *msdyn_geolocationsetting* table for the security role of mobile app users. The default Field Service - Resource role includes these permissions.
+- Read access to the *msdyn_geolocationsetting* table for the security role of mobile app users. The default **Field Service - Resource** role includes these permissions.
 
 ## Enable tracking
 
@@ -51,7 +51,7 @@ To have location tracking work properly, allow the app to use **Precise Location
 
 ## [Android app](#tab/Android)
 
-To have location tracking work properly, complete all the following steps when prompted. Depending on the Android OS version, some steps might not appear or might look slightly different.
+To ensure location tracking works properly, complete all the following steps when prompted. Depending on the Android OS version, some steps might not appear or might look slightly different.
 
 1. In the Field Service mobile app, select **Start location tracking** or **Update settings**.
 1. Select **Precise Location** and then **Allow all the time** to ensure the app uses the accurate location.
@@ -86,5 +86,10 @@ You can configure how far back in time a geolocation is valid. This setting is i
 1. Open the Resource Scheduling record and select the **Geo Data** tab.
 
 1. Select **Geo Location Expires After X Minutes** and enter the time.
+
+### On-demand location tracking
+
+As an alternative to interval-based location tracking, you can implement on-demand location tracking by using the [getCurrentPosition API](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-device/getcurrentposition). On-demand location tracking runs when a user selects a button or takes another action in the app. You don't need to enable interval-based location tracking to use the `getCurrentPosition` API. The app prompts users to share their location only when an event that requires location occurs.
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
