@@ -68,7 +68,7 @@
           href: setup-skills-assign-agents.md
         - name: Enable representatives to update skills
           href: allow-agents-update-skills.md
-        - name: Set up skill-based routing in unified routing
+        - name: Understand how skill match algorithm works in unified routing
           href: set-up-skill-based-routing.md
         - name: Set up intelligent skill finder model in unified routing
           href: set-up-isf-model.md
@@ -119,7 +119,7 @@
         - name: Manage notification templates
           href: notification-templates.md
         - name: Associate templates with workstreams
-          href: associate-templates.md
+          href: create-workstreams.md#associate-templates
       - name: Productivity tools
         items:
         - name: Overview of productivity tools

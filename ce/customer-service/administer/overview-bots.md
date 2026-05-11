@@ -1,7 +1,7 @@
 ---
 title: Overview of agents
 description: Get an overview of agents and how you can configure and use them in Dynamics 365 Contact Center.
-ms.date: 04/21/2025
+ms.date: 05/08/2026
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

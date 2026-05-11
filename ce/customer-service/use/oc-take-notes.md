@@ -1,7 +1,7 @@
 ---
 title: Take notes specific to conversations
 description: As a representative, learn how to take notes specific to conversations when you are interacting with customers in Copilot Service workspace.
-ms.date: 04/30/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

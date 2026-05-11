@@ -248,7 +248,7 @@ As an administrator, you need to customize the notification template to show the
 [Get started with Copilot Service admin center](../implement/cs-admin-center.md)  
 [Manage session templates](session-templates.md)  
 [Manage application tab templates](application-tab-templates.md)  
-[Associate templates with workstreams](associate-templates.md)  
+[Associate templates with workstreams](create-workstreams.md#associate-templates)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

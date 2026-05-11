@@ -3,7 +3,7 @@ title: Configure a preconversation survey
 description: Configure a preconversation survey in Copilot Service admin center to ask customers questions before they start a conversation.
 author: neeranelli
 ms.author: nenellim
-ms.date: 04/23/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 ms.collection:
 ms.reviewer: nenellim

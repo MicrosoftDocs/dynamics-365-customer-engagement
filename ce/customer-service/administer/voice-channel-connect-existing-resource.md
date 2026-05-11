@@ -1,7 +1,7 @@
 ---
 title: Connect using an existing Azure resource
 description: Learn how to connect your voice and SMS channels to Azure Communication Services using an existing Azure resource.
-ms.date: 04/14/2025
+ms.date: 05/08/2026
 ms.custom: bap-template
 ms.topic: how-to
 author: neeranelli

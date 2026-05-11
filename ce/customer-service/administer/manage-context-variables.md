@@ -1,7 +1,7 @@
 ---
 title: Manage context variables
 description: Use this article to understand how you can add context variables and then configure them in Dynamics 365 Contact Center.
-ms.date: 04/21/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

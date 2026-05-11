@@ -3,7 +3,7 @@ title: Assign roles, enable users
 description: Perform the steps to assign roles to users and enable them in contact center.
 author: neeranelli
 ms.author: nenellim
-ms.date: 04/16/2025 
+ms.date: 05/08/2026
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -14,7 +14,6 @@ ms.custom: bap-template
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
-
 
 Use the information in this article to configure security roles and enable users to perform the various tasks in Customer Service.
 

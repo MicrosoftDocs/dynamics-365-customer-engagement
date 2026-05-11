@@ -3,22 +3,22 @@ title: Create service reports
 description: Learn how to create service reports in the field with Dynamics 365 Field Service.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 05/12/2025
+ms.date: 05/07/2026
 author: JonBaker007
 ms.author: jobaker
 ---
 
 # Create service reports
 
-Field Service technicians can create service reports to summarize the work they performed. These reports can contain details such as tasks completed, and products or parts used during the service. Technicians can capture a signature on the report and then save it to the timeline. The service reports can be delivered to the customer as a PDF file. Technicians have access to the report even without internet connectivity.
+Field Service technicians can create service reports to summarize the work they performed. These reports can contain details such as tasks completed, and products or parts used during the service. Technicians can capture a signature on the report and then save it to the timeline. You can deliver the service reports to the customer as a PDF file. Technicians can access the report even without internet connectivity.
 
-The service report is available in the mobile app and web app. For a guided walkthrough, check out the following video.
+You can access the service report in the mobile app and web app. For a guided walkthrough, check out the following video.
 >
 > [!VIDEO 9743a9c9-3c5c-433d-8609-52acb0420302]
 
 ## Prerequisites
 
-An admin has [installed and enabled the custom reporting control for service reports](/dynamics365/guidance/resources/fs-reporting-solution-service-reports).
+An admin [installed and enabled the custom reporting control for service reports](/dynamics365/guidance/resources/fs-reporting-solution-service-reports).
 
 ## Generate reports in the mobile app
 
@@ -32,7 +32,7 @@ An admin has [installed and enabled the custom reporting control for service rep
 
 ## Generate reports in the web app
 
-Administrators and dispatchers can also generate reports when viewing a booking in the Field Service web application.
+Administrators and dispatchers can generate reports when viewing a booking in the Field Service web application.
 
 1. Open a booking in the Field Service web app.
 

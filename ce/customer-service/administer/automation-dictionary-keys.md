@@ -4,7 +4,7 @@ description: Learn about the supported formats to pass parameter values in the t
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 04/21/2025
+ms.date: 05/08/2026
 ms.topic: overview
 ---
 
@@ -228,7 +228,7 @@ Session title = `Chat conversation`
 [Manage session templates](session-templates.md)  
 [Manage application tab templates](application-tab-templates.md)  
 [Manage notification templates](notification-templates.md)  
-[Associate templates with workstreams](associate-templates.md)  
+[Associate templates with workstreams](create-workstreams.md#associate-templates)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
