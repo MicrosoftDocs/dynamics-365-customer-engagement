@@ -97,11 +97,14 @@ When you initiate a consult, the following actions occur:
 
 - You can search for representatives to consult within the same queue or other queues. Additionally, you can filter representatives within a queue based on their skills. The application shows representatives whose skills fully or partially match the selected criteria, along with their name and current presence status. You can add multiple representatives to the consult.
 - The customer is automatically put on hold. Hold music plays for the customer.
-- When the invited collaborator joins the call, they have a consult role. Consulting on a call doesn't affect the collaborator's available capacity.
+- When the invited collaborator joins the call, they have a consult role. Consulting on a call doesn't affect the collaborator's available capacity. You can also add multiple collaborators to the consult. 
+    - Place consulting representative on hold. Select the hold control next to any consulting participant to place them on hold individually. The consulting representative will hear hold music while on hold. 
+    - Transfer to specific consulting representatives. Use the transfer controls positioned next to each consulting participant to transfer the call directly to that specific representative within the consult. 
 - When you initiate a consult with an external participant, the system allows dual-tone multi-frequency inputs. The primary representative can also remove the consulting external participant from the call.
-- The primary representative must manually remove the customer from hold. During a consult, the primary representative can choose to transfer the call to the new participant.
+- The primary representative must manually remove the customer from hold. During a consult, the primary representative can choose to transfer the call to the new participant. When multiple participants are involved in a consult, the system displays the customer as "off hold" for all representatives who are also not currently on hold in the consult.
 - If the primary representative or customer ends the call, the call ends for everyone.
 - If the primary representative refreshes their browser, all the participants are placed on hold until the primary representative returns to the call.
+- The primary representative can promote consulting representative to primary. This allows the consulting agent to take over as the main contact for the customer while you can step back or leave the call. 
 
 ### Consult with another user
 
