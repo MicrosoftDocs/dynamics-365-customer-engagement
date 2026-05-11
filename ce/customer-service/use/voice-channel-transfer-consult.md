@@ -1,7 +1,7 @@
 ---
 title: Transfer calls and consult with users
 description: Use this article to understand how customer service representatives can use transfer and consult options to make and receive customer calls in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 03/25/2026
+ms.date: 05/11/2026
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -82,7 +82,7 @@ When you receive an incoming call, you can transfer the call to a service repres
 
     ### [Existing voice](#tab/existingvoicestack)
  
-    If you selected the external PSTN number or Teams to transfer the call, you can speak with the secondary representative who picks up the call, while the customer is on hold. To complete the call transfer, you must select the transfer button next to the secondary representative name in the call window. The secondary representative is now the primary representative and you're removed from the call. However, the secondary representative is disconnected from the call if you as the primary service representative don't complete the transfer within eight minutes.
+    If you select an external PSTN number or a Teams user, you can speak with the secondary representative who answers the call while the customer is on hold. To complete the call transfer, you must select the transfer button next to the secondary representative name in the call window. The secondary representative is now the primary representative and you're removed from the call. However, the secondary representative is disconnected from the call if you as the primary service representative don't complete the transfer within eight minutes.
      
     > [!NOTE]
     > The call recording and transcript of the conversation with the Teams user after transfer is saved in the application for reporting and compliance.
@@ -94,14 +94,16 @@ The consult option allows you to collaborate with another representative, a supe
 When you initiate a consult, the following actions occur:
 
 - You're the primary representative.
-
 - You can search for representatives to consult within the same queue or other queues. Additionally, you can filter representatives within a queue based on their skills. The application shows representatives whose skills fully or partially match the selected criteria, along with their name and current presence status. You can add multiple representatives to the consult.
 - The customer is automatically put on hold. Hold music plays for the customer.
-- When the invited collaborator joins the call, they have a consult role. Consulting on a call doesn't affect the collaborator's available capacity.
+- When the invited collaborator joins the call, they have a consult role. Consulting on a call doesn't affect the collaborator's available capacity. You can also add multiple collaborators to the consult. 
+    - Place consulting representative on hold. To place a consulting participant on hold individually, select the hold control next to the representative. The consulting representative hears hold music while on hold. 
+    - Transfer to specific consulting representatives. Use the transfer controls positioned next to each consulting participant to transfer the call directly to that specific representative within the consult. 
 - When you initiate a consult with an external participant, the system allows dual-tone multi-frequency inputs. The primary representative can also remove the consulting external participant from the call.
-- The primary representative must manually remove the customer from hold. During a consult, the primary representative can choose to transfer the call to the new participant.
+- The primary representative must manually remove the customer from hold. During a consult, the primary representative can choose to transfer the call to the new participant. When multiple participants are involved in a consult, the system displays the customer as "off hold" for all representatives who are also not currently on hold in the consult.
 - If the primary representative or customer ends the call, the call ends for everyone.
 - If the primary representative refreshes their browser, all the participants are placed on hold until the primary representative returns to the call.
+- The primary representative can promote consulting representative to primary. The promotion to primary representative allows the consulting agent to take over as the main contact while you step back or leave the call. 
 
 ### Consult with another user
 
@@ -120,7 +122,7 @@ When you initiate a consult, the following actions occur:
     - **Consult with external PSTN number**: Select the **Number Pad**. On the number pad that appears, enter the customer's area code, phone number, and then select **Call** to make your call.
      By default, the consultation is private. The customer is on hold while the primary representative speaks with the new participant. You can also have a public consultation, where the customer is actively involved in the conversation by taking them off hold.
 
-    - **Consult with Teams user**: Select **Teams** and use the search option to search for and select the Microsoft Teams user you'd like to consult with. Learn more in [Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md). If you've migrated to the enhanced voice experience, PSTN doesn't appear on the Teams tab. Enter the phone number of the Teams user directly in the external transfer tab.
+    - **Consult with Teams user**: Select **Teams** and use the search option to search for and select the Microsoft Teams user you'd like to consult with. Learn more in [Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md). If you migrated to the enhanced voice experience, PSTN doesn't appear on the Teams tab. Enter the phone number of the Teams user directly in the external transfer tab.
 
     - **Consult, then transfer**: The primary representative who initiated the consult can transfer the call to any participant involved in the consult. To transfer a conversation to the consulting representative in the conversation, perform the following steps:
        - If the consult is with an external participant (PSTN or Teams user), select **Transfer** next to the external phone number or Teams user name at the top of the call window. If your administrator didn't enable **Use bridged transfers**, the external user receives a new call request from the customer, and the customer hears a message that they're being transferred, then the ringing sound.  If your administrator enabled **Use bridged transfers**, the current call continues between the external user and the customer, and the original representative is dropped from the call.
@@ -141,7 +143,7 @@ If your administrator configured [security settings](../administer/configure-voi
 The secure settings work only when the following prerequisites are fulfilled:
 
 - [Inbound calling](/dynamics365/customer-service/administer/voice-channel-inbound-calling) is set up with the **External phone numbers** checkbox selected for **Consult** and **Transfer** in the workstream.
-- **Use bridged transfer** is enabled for the workstream. If bridged transfer isn't enabled, recording and transcription settings for bridged transfer won't apply and the system stops recording and transcription by default when the call is transferred. Learn more in [Transfer calls to external numbers](../administer/voice-channel-inbound-calling.md#transfer-calls-to-external-numbers-and-teams-users).
+- **Use bridged transfer** is enabled for the workstream. If bridged transfer isn't enabled, the bridged transfer settings don't apply. The system stops recording and transcription by default when the call is transferred. Learn more in [Transfer calls to external numbers](../administer/voice-channel-inbound-calling.md#transfer-calls-to-external-numbers-and-teams-users).
 
 The system automatically applies one of the following security settings when the external contact joins the call or the call is transferred to the contact.  
 
