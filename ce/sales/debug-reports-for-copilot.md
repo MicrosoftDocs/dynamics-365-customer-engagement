@@ -16,18 +16,18 @@ ai-usage: ai-assisted
 
 # Generate debug reports for Copilot in Dynamics 365 Sales
 
-Generate a debug report whenever you encounter issues in Copilot in Dynamics 365 Sales and need to share diagnostic information with the support team. With a simple prompt, you can export a detailed log to an Excel file containing all session activity—queries, intents, skills triggered, timestamps, and correlation IDs—eliminating the need for manual HAR file captures.
+Generate a debug report whenever you encounter issues in Copilot in Dynamics 365 Sales and need to share diagnostic information with the support team. With a simple prompt, you can export a detailed log to an Excel file containing all session activity—queries, intents, payloads, timestamps, and correlation IDs—eliminating the need for manual HAR file captures.
 
 ## Generate a debug report
 
-1. Select the **Copilot** icon in the top right corner of your app and choose **App skills**.
+1. Open the Copilot chat interface in Dynamics 365 Sales. You must have an active Copilot session with queries and responses to generate a meaningful debug report.
 
 1. In the message input field, enter the following prompt:
    ```
    Generate Cis Debug report
    ```
 1. Select **Send**.
-   Copilot processes your request and prepares the debug report with all relevant information from your session. This may take a few moments depending on the length of the session and the amount of data being compiled. You see the **Download** option once the report is ready.
+   Copilot processes your request and prepares the debug report with all relevant information from your Copilot chat window. This may take a few moments depending on the length of the conversation and the amount of data being compiled. You see the **Download** option once the report is ready.
 1. Select **Download** to download the Excel file containing your debug report. 
    :::image type="content" source="media/cis-debug-report.png" alt-text="Screenshot of the Copilot interface showing the option to download the debug report after generation.":::
    
