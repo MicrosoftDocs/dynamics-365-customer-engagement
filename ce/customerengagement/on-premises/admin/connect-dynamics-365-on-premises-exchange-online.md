@@ -16,17 +16,18 @@ author: DerekBraunMSFT
 # Connect Customer Engagement (on-premises) to Exchange Online
 
 > [!WARNING]
-> This configuration uses the Exchange Web Services (EWS) protocol to communicate with Exchange Online, which is going to be removed from Microsoft Exchange Online in October 2026. Learn more in [Deprecation of Exchange Web Services in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-ews-exchange-online).
+> This configuration uses the Exchange Web Services (EWS) protocol to communicate with Exchange Online, which is going to be removed from Microsoft Exchange Online in April 2027. Learn more in [Deprecation of Exchange Web Services in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-ews-exchange-online).
 >
-> Using this feature requires a manual connection process. Starting October 1st 2025, no new tenants will be connected to this feature.
+> Using this feature requires a manual connection process. Starting October 1st 2025, there will be no new updates, and no new tenants will be connected to this feature.
 >
 > This integration will be removed in the following months:
 >
 > - On-premises version 8x (currently deprecated): January 1st, 2026
-> - On-premises version 9x: October 1st, 2026
+> - On-premises version 9x: April, 2027
 >
 > If you need server-side synchronization functionality, we recommend that you migrate to Dynamics 365 Online. Learn more in [Dynamics CRM (on-premises) to Dynamics 365 migration](/dynamics365/guidance/fasttrack/migration) and [Dynamics CRM (on-premises) to Dynamics 365 online migration process overview](/dynamics365/guidance/migrate/opol-crm-migration-high-level-overview).
-
+>
+> Another alternative is to use Exchange On-Prem instead of Exchange-Online. Learn more in [Connect Customer Engagement (on-premises) to Exchange Server (on-premises)](/dynamics365/customerengagement/on-premises/admin/connect-on-prem-exchange-server-on-prem).
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
 ::: moniker-end
