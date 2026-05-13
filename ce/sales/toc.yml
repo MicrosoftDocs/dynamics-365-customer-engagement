@@ -272,6 +272,12 @@ items:
                 href: sales-research-agent.md
               - name: Set up and configure Sales Research Agent
                 href: configure-sales-research-agent.md
+          - name: Recommended actions
+            items:
+              - name: Overview
+                href: recommended-actions-overview.md
+              - name: Configure recommended actions
+                href: configure-recommended-actions.md
           - name: Import an agent into a target environment
             href: import-export-agent-solutions.md
           - name: Manage consumption-based billing
@@ -1408,6 +1414,8 @@ items:
         href: developer/developer-guide.md
       - name: Understand terminology
         href: /power-apps/developer/data-platform/understand-terminology?context=/dynamics365/context/sales-context
+      - name: Add Custom Agent to the Recommended Actions Agent
+        href: developer/recommended-actions-api.md
       - name: Sales tables
         items:
           - name: Sales tables (lead, opportunity, competitor, quote, order, invoice)
