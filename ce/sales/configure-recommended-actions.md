@@ -24,7 +24,7 @@ As an admin, you can configure recommended actions to control which agents are u
 
 ## Enable recommended actions for agents
 
-Enable recommended actions depending on the agents you have in your organization. When you turn on the recommended actions toggle for an agent, the **Recommended Actions** agent appears in the list of AI agents. 
+Enable recommended actions depending on the agents you have in your organization. When you turn on the recommended actions toggle for an agent, the **Recommended Actions** agent appears in the list of AI agents.  
 
 ### Sales Opportunity Agent
 

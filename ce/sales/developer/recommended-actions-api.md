@@ -174,9 +174,9 @@ Agent-specific signal metadata that tells the scoring engine how to interpret yo
 | `interpretation` | string | Natural-language description of what the signal means for scoring - injected into the LLM prompt |
 | `reliability` | string | How reliable this signal is: `"high"`, `"medium"`, `"low"` |
 | `required` | boolean | Whether the signal must be present for scoring |
-| `fetch_info` | object | Controls where and how the signal value is retrieved at scoring time. See [Fetch info](#fetch-info--fetch_type-values) section below. |
+| `fetch_info` | object | Controls where and how the signal value is retrieved at scoring time. See [Fetch info](#fetch-info-fetchtype-values) section below. |
 
-<a name="fetch_info--fetch_type-values"></a>
+<a name="fetch-info-fetchtype-values"></a>
 #### Fetch info - `fetch_type` values
 
 The `fetch_type` field inside `fetch_info` determines **how** the scoring engine retrieves the signal value. The following types are supported (from `SignalFetchService.cs`):
@@ -207,7 +207,7 @@ The `fetch_info` object supports the following fields (from `SignalFetchInfo` mo
 
 | Field | JSON key | Used by | Description |
 |-------|----------|---------|-------------|
-| `FetchType` | `fetch_type` | All | [The fetch strategy](#fetch-info--fetch_type-values) |
+| `FetchType` | `fetch_type` | All | [The fetch strategy](#fetch-info-fetchtype-values) |
 | `SelectField` | `select_field` | `entity_field`, `linked_entity`, `aggregation` | The Dataverse column to read or aggregate |
 | `CrmField` | `crm_field` | `action_data`, alias for `select_field` | JSON key in `msdyn_prioritizationdata` (for `action_data`), or alias for `select_field` (normalized on load) |
 | `SourceEntityName` | `source_entity_name` | `entity_field` | Base entity logical name (for example, `"opportunity"`) |
