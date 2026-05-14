@@ -1,7 +1,7 @@
 ---
 title: Set up the mobile offline profile
 description: Learn how to configure the mobile offline profile to work with the Dynamics 365 Field Service mobile app when no network is available.
-ms.date: 03/17/2026
+ms.date: 05/04/2026
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -15,13 +15,13 @@ Field Service technicians often work in areas with no internet connection, like 
 - Consistent performance. Technicians interact with the app in the same way regardless of their device connectivity.
 - Seamless and uninterrupted experience. Data synchronization occurs in the background without disrupting the technician's workflow.
 
-The default offline profile, Field Service Mobile - Offline Profile, has common Field Service tables preconfigured for offline use and recommended filters to limit the data that gets downloaded. It has predetermined sync intervals for each table, based on typical usage patterns. We recommend you use the default offline profile, but you can copy the default profile and build on the copied profile.
+The default offline profile, Field Service Mobile - Offline Profile, has common Field Service tables preconfigured for offline use and recommended filters to limit the data that gets downloaded. It has predetermined sync intervals for each table, based on typical usage patterns. We recommend you use the default offline profile, or copy it and build on the copied profile.
 
 For a guided walkthrough, check out the following video.
 >
 > [!VIDEO 02bf237b-8c58-4513-bd4e-1c66b7163793]
 
-Administrators control what data the Field Service mobile app downloads with the offline profile. In the offline profile, you can:
+Administrators control what data the Field Service mobile app downloads by using the offline profile. In the offline profile, you can:
 
 - Define tables that are available offline and how often they sync.
 - Define filters for each table. For example, by default the offline profile downloads bookings that start within the next seven days.
@@ -41,7 +41,7 @@ Administrators control what data the Field Service mobile app downloads with the
 
 1. Select **Settings**, and then select the **General** tab.
 
-1. Scroll to **Can be used offline** and toggle it on.
+1. Scroll to **Can be used offline** and turn it on.
 
 1. Under **Select offline mode and profile**, choose which users should have access to the mobile app offline:
 
@@ -62,11 +62,11 @@ Administrators control what data the Field Service mobile app downloads with the
 
    - Select the rows or filters, relationships, files, and images to make available offline. Learn more: [Apply filters](/power-apps/mobile/setup-mobile-offline#add-a-table-to-an-offline-profile-and-apply-filters).
 
-     **Advanced option**: To boost offline performance of large datasets, power users can review and manually edit Fetch XML for your offline filters. Select **Edit filter** to adjust filters through the [FetchXML editor for offline profiles (preview)](/power-apps/mobile/fetchxml-editor).
+     **Advanced option**: To boost offline performance of large datasets, power users can review and manually edit Fetch XML for your offline filters. Select **Edit filter** to adjust filters through the [FetchXML editor for offline profiles](/power-apps/mobile/fetchxml-editor).
 
    - Select the sync frequency.
 
-     The default offline profile is updated periodically as part of Field Service updates. If you edit a table's offline sync filter, the sync filter isn't updated. Table sync filters that haven't been edited are updated, but the updates are unpublished. Administrators can review the updates and decide to take them or continue with the previous sync filters. This only applies to sync filters. Relationships receive updates while keeping your specific changes.
+     The default offline profile is updated periodically as part of Field Service updates. If you edit a table's offline sync filter, the sync filter isn't updated. Table sync filters that you didn't edit are updated, but the updates are unpublished. Administrators can review the updates and decide to take them or continue with the previous sync filters. This process only applies to sync filters. Relationships receive updates while keeping your specific changes.
 
    - Select **Save**.
 
