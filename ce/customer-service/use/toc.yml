@@ -320,6 +320,8 @@
             href: /dynamics365/contact-center/use/wfm-forecast-scenarios?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
           - name: Import historical data
             href: /dynamics365/contact-center/use/wfm-import-historical-data?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Estimate AI agent credits from forecasts
+            href: /dynamics365/contact-center/use/workforce-management-credit-estimation?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Capacity planning
           items:
           - name: Create and manage capacity plans
