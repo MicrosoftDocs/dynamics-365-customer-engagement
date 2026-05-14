@@ -274,11 +274,11 @@ items:
                 href: sales-research-agent.md
               - name: Set up and configure Sales Research Agent
                 href: configure-sales-research-agent.md
-          - name: Recommended actions
+          - name: Recommended Actions Agent
             items:
               - name: Overview
                 href: recommended-actions-overview.md
-              - name: Configure recommended actions
+              - name: Configure Recommended Actions Agent
                 href: configure-recommended-actions.md
           - name: Import an agent into a target environment
             href: import-export-agent-solutions.md
@@ -969,7 +969,7 @@ items:
             items:
               - name: Overview
                 href: recommended-actions-overview.md
-              - name: Manage opportunity risks using AI-recommended actions
+              - name: Manage opportunity risks and data enrichment
                 href: next-best-actions-to-manage-opportunities.md
       - name: Use Sales agent in Microsoft 365 Copilot
         items:

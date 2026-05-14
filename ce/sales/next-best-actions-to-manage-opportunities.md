@@ -1,6 +1,6 @@
 ---
-title: Manage opportunity risks by using AI-recommended actions (preview)
-description: Learn how action cards are created and shown in the carousel to help sellers address opportunity risks. 
+title: Manage opportunity risks and data enrichment using AI-recommended actions (preview)
+description: Learn how action cards are created and shown in the carousel to help sellers address opportunity risks and data enrichment. 
 ms.date: 02/10/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -12,7 +12,7 @@ ms.reviewer: udag
 ai-usage: ai-assisted
 ---
 
-# Manage opportunity risks by using AI-recommended actions (preview)
+# Manage opportunity risks and data enrichment using AI-recommended actions (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -147,5 +147,4 @@ This prioritization logic is applied consistently across all selected data sourc
 
 ## Related information
 
-[Sales Close Agent overview](sales-close-agent.md)  
-[Work on opportunities handled by Sales Opportunity Agent](use-opportunity-research-agent.md)
+[Recommended Actions overview](sales-close-agent.md)  
