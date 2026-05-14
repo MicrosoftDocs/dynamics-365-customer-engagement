@@ -29,7 +29,7 @@ When you open an opportunity record for the first time after Data Enrichment is 
 
 :::image type="content" source="media/seller-consent-data-enrichment.png" alt-text="Screenshot of the consent banner that sellers see when they open an opportunity record after Data Enrichment is enabled" lightbox="media/seller-consent-data-enrichment.png" border="false":::
 
-After you provide consent, the agent takes about four hours to analyze your emails and generate suggestions for your opportunity records and link relevant emails. You must provide consent for both automatic updates and manual updates.
+After you provide consent, the agent takes about four hours to analyze your emails and generate suggestions, provided the [requirements for generating suggestions](#requirements-for-generating-suggestions-based-on-your-emails) are met. You must provide consent for both automatic updates and manual updates.
 
 > [!NOTE]
 > The agent only reads emails that are relevant to opportunities that you own.
