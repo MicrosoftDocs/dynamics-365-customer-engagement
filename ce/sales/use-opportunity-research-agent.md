@@ -63,6 +63,15 @@ Consider the following information:
 - The agent processes emails every six hours to keep research insights current. 
 - The agent reads emails of the opportunity owner to generate insights for an opportunity. However, the insights are visible to all users who can access the opportunity.
 
+## Requirements for generating insights based on your emails
+
+For generating insights based on your emails, the following conditions must be met:
+
+1. The opportunity must have at least one email received from an external contact.
+1. The sender's email address must map to a contact who is associated with the opportunity (for example, as the primary contact, a stakeholder, or the primary contact of the parent account).
+1. There can be a delay in Outlook-to-Graph synchronization. [Learn more about expected latency](/graph/change-notifications-overview#latency).
+1. Email insight generation runs as a background process, so enrichment suggestions might take some time to appear.
+
 
 ## Opportunity research page
 

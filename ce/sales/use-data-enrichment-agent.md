@@ -34,6 +34,15 @@ After you provide consent, the agent takes about four hours to analyze your emai
 > [!NOTE]
 > The agent only reads emails that are relevant to opportunities that you own.
 
+## Requirements for generating suggestions based on your emails
+
+For data enrichment suggestions to appear based on the analysis of your emails, the following conditions must be met:
+
+1. The opportunity must have at least one email received from an external contact.
+1. The sender's email address must map to a contact who is associated with the opportunity (for example, as the primary contact, a stakeholder, or the primary contact of the parent account).
+1. There can be a delay in Outlook-to-Graph synchronization. [Learn more about expected latency](/graph/change-notifications-overview#latency).
+1. Email insight generation runs as a background process, so enrichment suggestions might take some time to appear.
+
 <a name="open-data-enrichment-suggestions"></a>
 ## Open Data Enrichment pane 
 
