@@ -176,6 +176,7 @@ Agent-specific signal metadata that tells the scoring engine how to interpret yo
 | `required` | boolean | Whether the signal must be present for scoring |
 | `fetch_info` | object | Controls where and how the signal value is retrieved at scoring time. See [Fetch info](#fetch-info--fetch_type-values) section below. |
 
+<a name="fetch_info--fetch_type-values"></a>
 #### Fetch info - `fetch_type` values
 
 The `fetch_type` field inside `fetch_info` determines **how** the scoring engine retrieves the signal value. The following types are supported (from `SignalFetchService.cs`):
@@ -1018,5 +1019,5 @@ When Sales Opportunity Agent research completes and identifies deal risks, `Deal
 
 ## Related information
 
-- [Recommended Actions overview](recommended-actions-overview.md)  
-- [Configure Recommended Actions](configure-recommended-actions.md)
+- [Recommended Actions overview](../recommended-actions-overview.md)  
+- [Configure Recommended Actions](../configure-recommended-actions.md)
