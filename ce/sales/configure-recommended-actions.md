@@ -80,7 +80,7 @@ Add custom agents to show actions in the recommended actions experience by addin
 >[!IMPORTANT]
 >
 >- Copy the **Source ID** value and use it in your custom agent configuration to ensure the insights from the agent are associated with the correct source.
->- You must configure custom agents to return actionable insights in the format required by the recommended actions framework. For more information, refer to the [Recommended actions API documentation](developer/recommended-actions-api.md).
+>- You must configure custom agents using the ```msdyn_PushActionDataToRecommendedActionAgent``` API to return actionable insights in the format required by the recommended actions framework. For more information, refer to the [Recommended actions API documentation](developer/recommended-actions-api.md).
 
 ## Disable recommended actions
 

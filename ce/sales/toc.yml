@@ -201,6 +201,8 @@ items:
                     href: configure-sales-close-agent-research-company-info.md  
                   - name: Set selection criteria for opportunities
                     href: configure-sales-close-agent-research-selection-criteria.md  
+                  - name: Configure recommended actions for Sales Opportunity Agent  
+                    href: configure-sales-opportunity-agent-connected-skills.md
                   - name: Configure refresh frequency
                     href: configure-sales-close-agent-research-refresh-frequency.md
                   - name: Configure importance and risk assessment
@@ -963,6 +965,12 @@ items:
               href: use-sales-research-agent.md
             - name: FAQs about Sales Research Agent
               href: faqs-sales-research-agent.md
+          - name: Recommended Actions Agent
+            items:
+              - name: Overview
+                href: recommended-actions-overview.md
+              - name: Manage opportunity risks using AI-recommended actions
+                href: next-best-actions-to-manage-opportunities.md
       - name: Use Sales agent in Microsoft 365 Copilot
         items:
           - name: Use the Sales agent in Microsoft 365 Copilot
