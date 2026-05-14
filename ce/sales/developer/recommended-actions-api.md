@@ -1,113 +1,76 @@
-# Onboarding a Custom Agent to the Recommended Actions Agent (NBA)
-
-> **Version:** 1.0 — April 2026  
-> **Audience:** Agent developers integrating a new upstream agent with the NBA prioritization pipeline  
-> **Currently Onboarded:** ORA (Opportunity Research Agent — via Deal Risk integration)
-
+---
+title: Onboard a custom agent to the Recommended Actions Agent
+description: Recommended actions is an intelligent capability that shows prioritized actions so sellers focus on the most effective tasks for their opportunities. 
+ms.date: 05/19/2026
+ms.update-cycle: 180-days
+ms.topic: how-to
+ms.service: dynamics-365-sales
+ms.custom: bap-template
+author: udaykirang
+ms.author: udag
+ms.reviewer: udag
+search.app: salescopilot-docs
+ms.collection: bap-ai-copilot
+ai-usage: ai-assisted
 ---
 
-## Table of Contents
+# Onboard a custom agent to the Recommended Actions Agent
 
-1. [Overview](#1-overview)
-2. [Architecture — How Your Agent Fits In](#2-architecture--how-your-agent-fits-in)
-3. [Prerequisites](#3-prerequisites)
-4. [Step 1 — Register Your Agent (Source Agent Config)](#step-1--register-your-agent-source-agent-config)
-5. [Step 2 — Push Actions via Custom API](#step-2--push-actions-via-custom-api)
-6. [Step 3 — Action UI Payload Contract](#step-3--action-ui-payload-contract)
-7. [Step 4 — Prioritization Data Contract](#step-4--prioritization-data-contract)
-8. [Step 5 — Handle Action Updates (Versioning)](#step-5--handle-action-updates-versioning)
-9. [Step 6 — Bidirectional State Sync](#step-6--bidirectional-state-sync)
-10. [Step 7 — Feature Control Settings](#step-7--feature-control-settings)
-11. [Step 8 — (Optional) Derived Insights Integration](#step-8--optional-derived-insights-integration)
-12. [Step 9 — OCV Feedback Configuration](#step-9--ocv-feedback-configuration)
-13. [Step 10 — Testing & Validation](#step-10--testing--validation)
-14. [Entity Reference (Source of Truth)](#entity-reference-source-of-truth)
-15. [Custom API Reference (Source of Truth)](#custom-api-reference-source-of-truth)
-16. [Discrepancies Between Docs and Source of Truth](#discrepancies-between-docs-and-source-of-truth)
-17. [End-to-End ORA Example (Reference Implementation)](#end-to-end-ora-example-reference-implementation)
+The **Recommended Actions Agent** is a prioritization engine that:
 
----
+1. **Ingests** raw action cards from multiple upstream agents such as Sales Opportunity Risk Agent, Data Enrichment Agent, and custom agents
+1. **Scores** each action on four dimensions — **Urgency, Impact, Confidence, Effort** (UICE framework, 0–10 each)
+1. **Ranks** actions across all agents using a configurable priority formula
+1. **Surfaces** the top 5 actions in the Recommended Actions Agent carousel in Dynamics 365 Sales
 
-## 1. Overview
+Your agent pushes actions into the Recommended Actions Agent pipeline via a Custom API. Recommended Actions Agent handles everything downstream: prioritization, deduplication, versioning, and UI rendering.
 
-The **Recommended Actions Agent** (also called NBA — Next Best Action) is a prioritization engine that:
-
-1. **Ingests** raw action cards from multiple upstream agents (ORA, DCA, SQA, custom agents)
-2. **Scores** each action on four dimensions — **Urgency, Impact, Confidence, Effort** (UICE framework, 0–10 each)
-3. **Ranks** actions across all agents using a configurable priority formula
-4. **Surfaces** the top 5 actions in the NBA carousel in Dynamics 365 Sales
-
-Your agent pushes actions into the NBA pipeline via a Custom API. NBA handles everything downstream: prioritization, deduplication, versioning, and UI rendering.
-
-```
-Your Agent ──→ msdyn_PushActionDataToRecommendedActionAgent ──→ msdyn_rawactioncatalogue
-                                                                       │
-                                                            ┌──────────▼──────────┐
-                                                            │  NBA Scoring Engine  │
-                                                            │  (DTF Orchestration) │
-                                                            │  UICE + LLM ranking  │
-                                                            └──────────┬───────────┘
-                                                                       │
-                                                            msdyn_prioritizedactioncatalogue
-                                                                       │
-                                                            ┌──────────▼──────────┐
-                                                            │  NBA Carousel UI    │
-                                                            │  (Suggested Actions) │
-                                                            └─────────────────────┘
-```
-
----
-
-## 2. Architecture — How Your Agent Fits In
+## Integration architecture
 
 ### Processing Pipeline
 
-1. **Your agent** detects an actionable insight (e.g., a deal risk, a stalled deal, a missing stakeholder)
-2. **Your agent calls** `msdyn_PushActionDataToRecommendedActionAgent` Custom API to push the action
-3. The action is persisted in `msdyn_rawactioncatalogue` (input table)
-4. **NBA DTF Orchestrator** (runs every ~4 hours, triggered by CRM or on-demand) picks up unprocessed actions
-5. For each action, the **Scoring Engine** (on the CoPilot Service Fabric service `RecommendedActionsAgentServices`):
+1. **Your agent** detects an actionable insight (for example, a deal risk, a stalled deal, or a missing stakeholder)
+1. **Your agent calls** `msdyn_PushActionDataToRecommendedActionAgent` Custom API to push the action
+1. The action is persisted in `msdyn_rawactioncatalogue` (input table)
+1. **Recommended Actions Agent DTF Orchestrator** (runs every ~4 hours, triggered by CRM or on-demand) picks up unprocessed actions
+1. For each action, the **Scoring Engine** (on the CoPilot Service Fabric service `RecommendedActionsAgentServices`):
    - Fetches entity signals (deal value, stage, competitors, etc.) from Dataverse
    - Fetches agent-specific prioritization data from the action record
    - Calls LLM (via CAPI) to score on UICE dimensions
    - Applies floor/ceiling rules
    - Computes final priority score: `U × 0.30 + I × 0.35 + C × 0.20 − E × 0.15 + PP × 0.05`
-6. Scored action is upserted into `msdyn_prioritizedactioncatalogue` (output table)
-7. **NBA Carousel** fetches scored actions via `msdyn_RAAgent_FetchScoredRecommendedActions` and renders cards
+1. Scored action is upserted into `msdyn_prioritizedactioncatalogue` (output table)
+1. **Recommended Actions Agent Carousel** fetches scored actions via `msdyn_RAAgent_FetchScoredRecommendedActions` and renders cards
 
-### Key Components
+### Key components
 
 | Component | Location | Description |
 |-----------|----------|-------------|
-| Input table | `msdyn_rawactioncatalogue` (Dataverse) | Raw actions pushed by upstream agents |
-| Output table | `msdyn_prioritizedactioncatalogue` (Dataverse) | Scored and ranked actions for UI |
-| Agent config | `msdyn_recommendedactionsourceagentconfig` (Dataverse) | Per-agent registration and config |
-| Run tracking | `msdyn_recommendedactionrundetails` (Dataverse) | Processing state per action |
-| Push API | `msdyn_PushActionDataToRecommendedActionAgent` (Custom API) | Agent → NBA action push |
+| Input table | `msdyn_rawactioncatalogue` (Dataverse) | Raw actions that upstream agents push |
+| Output table | `msdyn_prioritizedactioncatalogue` (Dataverse) | Scored and ranked actions for the UI |
+| Agent config | `msdyn_recommendedactionsourceagentconfig` (Dataverse) | Per-agent registration and configuration |
+| Run tracking | `msdyn_recommendedactionrundetails` (Dataverse) | Processing state for each action |
+| Push API | `msdyn_PushActionDataToRecommendedActionAgent` (Custom API) | Agent → Recommended Actions Agent action push |
 | Scoring Engine | `RecommendedActionsAgentServices` (SF microservice) | DTF orchestration + LLM scoring |
 | Fetch API | `msdyn_RAAgent_FetchScoredRecommendedActions` (Custom API) | UI → scored actions fetch |
 | Solution | `NextBestActionAgent` (Dataverse solution) | Contains all entities, APIs, plugins, FCS |
 
----
+## Prerequisites
 
-## 3. Prerequisites
+Before onboarding, make sure that the following prerequisites are met:
 
-Before onboarding, ensure:
+- **NextBestActionAgent solution** is deployed to the target org.
+- **Feature Control Setting** `SalesService.NextBestAction:EnableNBASuggestions` is set to `true`.
+- **Feature Control Setting** `SalesService.NextBestAction:EnableRecommendedActionsAgent` is set to `true` (or not explicitly `false`).
+- **RecommendedActionsAgentServices** SF microservice is deployed and healthy (CoPilot Service Fabric app).
+- Your agent has appropriate **Dataverse security roles** to call the `msdyn_PushActionDataToRecommendedActionAgent` API (requires `prvWritemsdyn_rawactioncatalogue` privilege).
+- You have a stable, unique **SourceAgentId** string for your agent (such as `"DealClosingAgent"`, `"SQAAgent"`).
 
-- [ ] **NextBestActionAgent solution** is deployed to the target org
-- [ ] **Feature Control Setting** `SalesService.NextBestAction:EnableNBASuggestions` = `true`
-- [ ] **Feature Control Setting** `SalesService.NextBestAction:EnableRecommendedActionsAgent` = `true` (or not explicitly `false`)
-- [ ] **RecommendedActionsAgentServices** SF microservice is deployed and healthy (CoPilot Service Fabric app)
-- [ ] Your agent has appropriate **Dataverse security roles** to call the `msdyn_PushActionDataToRecommendedActionAgent` API (requires `prvWritemsdyn_rawactioncatalogue` privilege)
-- [ ] You have a stable, unique **SourceAgentId** string for your agent (e.g., `"DealClosingAgent"`, `"SQAAgent"`)
+## Step 1: Register your agent (source agent config)
 
----
+Register your agent by calling `msdyn_RAAgent_UpsertRecommendationAgentConfig`. Don't create records directly - the API handles upsert logic, record lookup, and Sales Opportunity Agent-specific defaulting.
 
-## Step 1 — Register Your Agent (Source Agent Config)
-
-Register your agent by calling `msdyn_RAAgent_UpsertRecommendationAgentConfig`. **Do not** create records directly — the API handles upsert logic, record lookup, and ORA-specific defaulting.
-
-### Via Custom API
+### Via custom API
 
 **API:** `msdyn_RAAgent_UpsertRecommendationAgentConfig`
 
@@ -130,7 +93,8 @@ Register your agent by calling `msdyn_RAAgent_UpsertRecommendationAgentConfig`. 
 }
 ```
 
-> **Important:** Do **not** pass `recommendedActionSourceAgentConfigId`. The plugin resolves the target record by looking up an existing config via `salesAgentProfileId`. If no record exists, a new one is created. If `agentType` is `"CustomAgent"` and no `salesAgentProfileId` is provided, the plugin auto-creates and activates a new `msdyn_salesagentprofile` record.
+> [!IMPORTANT]
+> Don't pass `recommendedActionSourceAgentConfigId`. The plugin resolves the target record by looking up an existing config via `salesAgentProfileId`. If no record exists, the plugin creates a new one. If `agentType` is `"CustomAgent"` and no `salesAgentProfileId` is provided, the plugin auto-creates and activates a new `msdyn_salesagentprofile` record.
 
 **Response:** JSON with the upserted record ID and success status.
 
@@ -144,28 +108,26 @@ Register your agent by calling `msdyn_RAAgent_UpsertRecommendationAgentConfig`. 
 | `agentImpactMapping` | string | Flat JSON array of principle names (see below). Maps to `msdyn_agentimpactmapping`. |
 | `internalPrioritizationInstruction` | string | JSON with `signals` array (see below). Maps to `msdyn_internalprioritizationinstruction`. |
 | `syncActionExecutionStateApiConfig` | string | JSON object `{"syncactionuistatusapiname":"..."}`. Maps to `msdyn_syncactionexecutionstateapiconfig`. |
-| `agentType` | string | Agent category. Use `"CustomAgent"` for non-ORA agents to auto-create a profile. |
+| `agentType` | string | Agent category. Use `"CustomAgent"` for non-Sales Opportunity Agent agents to auto-create a profile. |
 | `sourceAgentUniqueId` | string | Maps to `msdyn_sourceagentuniqueid`. Only written on create, ignored on update. |
 | `description` | string | Maps to `msdyn_sourcedescription` (max 1000 chars). |
 
-> **Source of truth:** `solutions/NextBestActionAgent/Plugins/NextBestActionAgentPlugins/Core/Models/UpsertRecommendationAgentConfigRequest.cs` and `solutions/NextBestActionAgent/Plugins/NextBestActionAgentPlugins/CustomApis/UpsertRecommendationAgentConfig.cs`
+### Sales Opportunity Agent vs. Non-Sales Opportunity Agent behavior
 
-### ORA vs Non-ORA Behavior
+The upsert plugin uses **agent-specific defaulting** for Sales Opportunity Agent (when `agentName` = `"Sales Opportunity Agent"`):
 
-The upsert plugin has **agent-specific defaulting** for ORA (when `agentName` = `"ORA"`):
-- On **create**, if `agentImpactMapping`, `internalPrioritizationInstruction`, or `syncActionExecutionStateApiConfig` are omitted/null, ORA defaults from `OraDefaults.cs` are applied automatically.
-- On **update**, omitted fields are left unchanged (preserving the current Dataverse value).
-- A JSON null in the request is treated the same as an omitted key — you **cannot** clear ORA-owned fields by sending null.
+- On **create**, if `agentImpactMapping`, `internalPrioritizationInstruction`, or `syncActionExecutionStateApiConfig` are omitted or null, the plugin automatically applies Sales Opportunity Agent defaults from `OraDefaults.cs`.
+- On **update**, omitted fields remain unchanged (preserving the current Dataverse value).
+- A JSON null in the request is treated the same as an omitted key - you **can't** clear Sales Opportunity Agent-owned fields by sending null.
 
-For **non-ORA agents** (the `default` switch branch):
+For **non-Sales Opportunity Agent agents** (the `default` switch branch):
+
 - Explicit values (including null) are forwarded directly to the Dataverse column.
-- Sending a JSON null **will** clear the field — this is intentional so custom agents can reset fields.
+- Sending a JSON null **clears** the field - this action is intentional so custom agents can reset fields.
 
-> **Source of truth:** `SetAgentSpecificFields()` and `SetOraConfigField()` in `UpsertRecommendationAgentConfig.cs`
+### Agent impact mapping
 
-### Agent Impact Mapping
-
-Maps your agent's actions to NBA's prioritization principles. The scoring engine uses this to weight your actions.
+Maps your agent's actions to Recommended Actions Agent's prioritization principles. The scoring engine uses this mapping to weight your actions.
 
 **Format:** A **flat JSON array of strings** — each string is a prioritization principle name (or numeric optionset value). The code parses this as `List<string>`, supporting both `["name1","name2"]` and `"name1,name2"` (comma-separated) formats.
 
@@ -187,85 +149,80 @@ Maps your agent's actions to NBA's prioritization principles. The scoring engine
 | 7 | Stakeholder Coverage | `PrincipleStakeholderCoverage` | Ensure decision-maker engagement, multi-threaded relationships |
 
 You can pass **either** the label string or the numeric optionset value. The `ResolvePrincipleDisplayValue()` method resolves both:
+
 - **Numeric** → matched against `OptionSetValue` or `Rank` in the org's `PrioritizationPrinciples` config (from `msdyn_salesagentconfigurationv2`)
 - **String** → case-insensitive match against `Name` in the principles list
 - **No match** → raw value passed through as-is
 
-**Recommendation:** Use display name strings (e.g., `[4, 2, "custom principle"]`) — they're human-readable and won't break if the admin reorders principles.
+**Recommendation:** Use display name strings (for example, `[4, 2, "custom principle"]`) — they're human-readable and won't break if the admin reorders principles.
 
-> **⚠️ Discrepancy:** The optionset label is `"Risk Reduction"` (value 4), but the code constant is `PrincipleRiskMitigation` with value `"Risk Mitigation"`. Use the optionset label (`"Risk Reduction"`) for forward compatibility.
+> [!IMPORTANT]
+> The optionset label is `"Risk Reduction"` (value 4), but the code constant is `PrincipleRiskMitigation` with value `"Risk Mitigation"`. Use the optionset label (`"Risk Reduction"`) for forward compatibility.
 
-> **Source of truth (optionset):** `solutions/NextBestActionAgent/Solution/OptionSets/msdyn_RecommendedActionAgent_SalesPrioritizationPrinciples.xml`
-> **Source of truth (constants):** `src/CoPilot/Microsoft.SalesInsights.RecommendedActionsAgentServices/Models/RecommendedActionsAgentConstants.cs`
-> **Source of truth (resolution logic):** `ResolvePrincipleDisplayValue()` in `src/CoPilot/Microsoft.SalesInsights.ActionScoringService/Services/ActionPromptHydrationService.cs`
+### Internal prioritization instruction
 
-### Internal Prioritization Instruction
-
-Agent-specific signal metadata telling the scoring engine how to interpret your agent's prioritization data fields.
+Agent-specific signal metadata that tells the scoring engine how to interpret your agent's prioritization data fields.
 
 **Format:** A JSON object with a top-level `signals` array. Each signal is deserialized into `AgentSignalInstructionConfig` with these fields:
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `name` | string | Signal identifier — used as the key in the scoring prompt's Signal Reference section |
+| `name` | string | Signal identifier - used as the key in the scoring prompt's Signal Reference section |
 | `type` | string | Data type: `"string"`, `"number"`, `"boolean"` |
-| `source` | string | Descriptive label for where the signal comes from. Not used for routing — `fetch_info.fetch_type` controls the actual fetch mechanism. Typically `"action_data"` for agent-pushed signals. |
+| `source` | string | Descriptive label for where the signal comes from. Not used for routing - `fetch_info.fetch_type` controls the actual fetch mechanism. Typically `"action_data"` for agent-pushed signals. |
 | `dimension_influence` | `{dimension: strength}` | Which UICE dimensions this signal affects and how strongly. Keys: `"urgency"`, `"impact"`, `"confidence"`, `"effort"`. Strengths: `"strong"`, `"moderate"`, `"weak"` |
-| `interpretation` | string | Natural-language description of what the signal means for scoring — injected into the LLM prompt |
+| `interpretation` | string | Natural-language description of what the signal means for scoring - injected into the LLM prompt |
 | `reliability` | string | How reliable this signal is: `"high"`, `"medium"`, `"low"` |
 | `required` | boolean | Whether the signal must be present for scoring |
-| `fetch_info` | object | Controls where and how the signal value is retrieved at scoring time. See **Fetch Info** section below. |
+| `fetch_info` | object | Controls where and how the signal value is retrieved at scoring time. See [Fetch info](#fetch-info--fetch_type-values) section below. |
 
-#### Fetch Info — `fetch_type` Values
+#### Fetch info - `fetch_type` values
 
 The `fetch_type` field inside `fetch_info` determines **how** the scoring engine retrieves the signal value. The following types are supported (from `SignalFetchService.cs`):
 
 | `fetch_type` | What it does | `crm_field` meaning | CRM query? |
 |---|---|---|---|
-| **`action_data`** | Reads the value from the per-action `msdyn_prioritizationdata` JSON. **This is what custom agents should use.** | JSON property key to look up in `msdyn_prioritizationdata`. Falls back to `name` if omitted. | No — reads from the action record's JSON, no Dataverse query needed |
-| **`entity_field`** | Fetches a column directly from the target entity (e.g., `estimatedvalue` from `opportunity`). | Dataverse column logical name on the target entity (e.g., `estimatedvalue`, `estimatedclosedate`). | Yes — single `QueryExpression` with `TopCount=1` on the target entity |
-| **`linked_entity`** | Fetches a column from a related entity via a LEFT OUTER JOIN (e.g., account name from the parent account). | Column logical name on the linked entity. Also requires `source_entity_field`, `target_entity_name`, `target_entity_field`. | Yes — added as a LEFT OUTER JOIN to the entity_field query (single round-trip) |
-| **`aggregation`** | Runs an aggregation query on a related entity (e.g., count of competitors, sum of activities). | Column to aggregate. Also requires `target_entity_name`, `aggregation_type`. | Yes — separate `FetchXML` aggregation query |
-| **`custom_signal`** | Handled by `CustomSignalFetchService` — BPF stage, competitor associations, and other complex multi-step queries. | Depends on the custom handler. | Yes — custom Dataverse queries |
-| **`derived_insight`** | Reads from `msdyn_recommendedactionderivedinsight` entity (see Step 8). | JSON property key inside the `msdyn_derivedinsightvalue` JSON column. | Yes — `Top(1)` query on derived insights table |
-| **`derived`** | Post-processing derivation (e.g., `days_until_date` converts a date field to days until close). | References another signal's value. Also requires `derivation` field. | No — computed from already-fetched signals |
+| **`action_data`** | Reads the value from the per-action `msdyn_prioritizationdata` JSON. **This is what custom agents should use.** | JSON property key to look up in `msdyn_prioritizationdata`. Falls back to `name` if omitted. | No - reads from the action record's JSON, no Dataverse query needed |
+| **`entity_field`** | Fetches a column directly from the target entity (for example, `estimatedvalue` from `opportunity`). | Dataverse column logical name on the target entity (for example, `estimatedvalue`, `estimatedclosedate`). | Yes - single `QueryExpression` with `TopCount=1` on the target entity |
+| **`linked_entity`** | Fetches a column from a related entity via a LEFT OUTER JOIN (for example, account name from the parent account). | Column logical name on the linked entity. Also requires `source_entity_field`, `target_entity_name`, `target_entity_field`. | Yes - added as a LEFT OUTER JOIN to the entity_field query (single round-trip) |
+| **`aggregation`** | Runs an aggregation query on a related entity (for example, count of competitors, sum of activities). | Column to aggregate. Also requires `target_entity_name`, `aggregation_type`. | Yes - separate `FetchXML` aggregation query |
+| **`custom_signal`** | Handled by `CustomSignalFetchService` - BPF stage, competitor associations, and other complex multi-step queries. | Depends on the custom handler. | Yes - custom Dataverse queries |
+| **`derived_insight`** | Reads from `msdyn_recommendedactionderivedinsight` entity (see Step 8). | JSON property key inside the `msdyn_derivedinsightvalue` JSON column. | Yes - `Top(1)` query on derived insights table |
+| **`derived`** | Post-processing derivation (for example, `days_until_date` converts a date field to days until close). | References another signal's value. Also requires `derivation` field. | No - computed from already-fetched signals |
 
-> **For custom agents:** Use `fetch_type: "action_data"` for your agent-specific signals. Agent-level signals from `internalPrioritizationInstruction` **are** merged into the unified signal list via `MergeAgentSignals()` and all fetch types are dispatched. However, there is a **critical limitation**: the merge only copies `FetchType` and `CrmField` from your signal config — it does **not** copy `SourceEntityName`, `TargetEntityName`, `SourceEntityField`, `SelectField`, `AggregationType`, `Derivation`, `FilterField`, `FilterValue`, `JsonPath`, or `ValueType`.
+> [!NOTE]
+> - **For custom agents:** Use `fetch_type: "action_data"` for your agent-specific signals. Agent-level signals from `internalPrioritizationInstruction` **are** merged into the unified signal list via `MergeAgentSignals()` and all fetch types are dispatched. However, there's a **critical limitation**: the merge only copies `FetchType` and `CrmField` from your signal config - it doesn't copy `SourceEntityName`, `TargetEntityName`, `SourceEntityField`, `SelectField`, `AggregationType`, `Derivation`, `FilterField`, `FilterValue`, `JsonPath`, or `ValueType`.
 >
 > **What this means in practice:**
-> - **`action_data` works perfectly** — it only needs `CrmField` (the JSON key in `msdyn_prioritizationdata`)
-> - **`entity_field` will silently fail** — the engine filters by `s.FetchInfo?.SourceEntityName == actionData.EntityTypeName` (line 72), but `SourceEntityName` is null after merge, so the signal is skipped
-> - **`linked_entity`**, **`aggregation`**, **`derived_insight`** will also fail — they require `TargetEntityName`, `SourceEntityField`, etc. which are not copied
+> - **`action_data` works perfectly** - it only needs `CrmField` (the JSON key in `msdyn_prioritizationdata`)
+> - **`entity_field` silently fails** - the engine filters by `s.FetchInfo?.SourceEntityName == actionData.EntityTypeName` (line 72), but `SourceEntityName` is null after merge, so the signal is skipped
+> - **`linked_entity`**, **`aggregation`**, **`derived_insight`** also fail - they require `TargetEntityName`, `SourceEntityField`, etc. which aren't copied
 >
-> If you need CRM-fetched signals (entity fields, linked entities, aggregations), these must be configured at the **org level** in `msdyn_salesagentconfigurationv2` — they are shared across all agents. Your `internalPrioritizationInstruction` should only define `action_data` signals that read from your per-action `msdyn_prioritizationdata` JSON.
->
-> **Source of truth:** `MergeAgentSignals()` in `SignalFetchService.cs` (line ~198–265)
+> If you need CRM-fetched signals (entity fields, linked entities, aggregations), configure these at the **org level** in `msdyn_salesagentconfigurationv2` - they're shared across all agents. Your `internalPrioritizationInstruction` should only define `action_data` signals that read from your per-action `msdyn_prioritizationdata` JSON.
 
-#### `SignalFetchInfo` — All Available Fields
+#### `SignalFetchInfo` - All available fields
 
 The `fetch_info` object supports the following fields (from `SignalFetchInfo` model class). Different `fetch_type` values use different subsets:
 
 | Field | JSON key | Used by | Description |
 |-------|----------|---------|-------------|
-| `FetchType` | `fetch_type` | All | The fetch strategy (see table above) |
+| `FetchType` | `fetch_type` | All | [The fetch strategy](#fetch-info--fetch_type-values) |
 | `SelectField` | `select_field` | `entity_field`, `linked_entity`, `aggregation` | The Dataverse column to read or aggregate |
 | `CrmField` | `crm_field` | `action_data`, alias for `select_field` | JSON key in `msdyn_prioritizationdata` (for `action_data`), or alias for `select_field` (normalized on load) |
-| `SourceEntityName` | `source_entity_name` | `entity_field` | Base entity logical name (e.g., `"opportunity"`) |
+| `SourceEntityName` | `source_entity_name` | `entity_field` | Base entity logical name (for example, `"opportunity"`) |
 | `CrmEntity` | `crm_entity` | alias | Alias for `source_entity_name` (or `target_entity_name` for linked/aggregation) |
-| `SourceEntityField` | `source_entity_field` | `linked_entity` | FK column on the base entity used for the JOIN (e.g., `"accountid"`) |
+| `SourceEntityField` | `source_entity_field` | `linked_entity` | FK column on the base entity used for the JOIN (for example, `"accountid"`) |
 | `LinkedVia` | `linked_via` | alias | Alias for `source_entity_field` |
-| `TargetEntityName` | `target_entity_name` | `linked_entity`, `aggregation` | Related entity logical name (e.g., `"account"`, `"connection"`) |
+| `TargetEntityName` | `target_entity_name` | `linked_entity`, `aggregation` | Related entity logical name (for example, `"account"`, `"connection"`) |
 | `TargetEntityField` | `target_entity_field` | `linked_entity` | PK column on the related entity (defaults to `{target_entity_name}id`) |
 | `RelationshipName` | `relationshipname` | `linked_entity` | Alias for the LEFT OUTER JOIN (defaults to auto-generated) |
 | `AggregationType` | `aggregation_type` | `aggregation` | `"count"`, `"exists_role"`, `"max_days_since"`, `"list"`, `"concat"` |
-| `Filter` | `filter` | `aggregation` | `{ "field": "...", "op": "eq|not_null", "value": ... }` — filters rows before aggregation |
+| `Filter` | `filter` | `aggregation` | `{ "field": "...", "op": "eq|not_null", "value": ... }` - filters rows before aggregation |
 | `Derivation` | `derivation` | `entity_field` (post-process) | `"days_until_date"`, `"days_since_date"`, `"normalize_0_to_1"`, `"format_currency"` |
 | `ValueType` | `value_type` | `entity_field` | `"both"` to return `{"code": int, "name": "label"}` for OptionSet fields |
 | `JsonPath` | `json_path` | `derived_insight` | Dotted path to extract from `msdyn_derivedinsightvalue` JSON |
 
-> **Source of truth:** `SignalFetchInfo` class in `src/CoPilot/Microsoft.SalesInsights.RecommendedActionsAgentServices/Models/RecommendedActionsAgentConfig.cs` (line ~344)
-
-#### Concrete Examples per `fetch_type` (from unit tests)
+#### Examples per `fetch_type`
 
 All examples below are verified against `SignalFetchServiceTests.cs`.
 
@@ -297,9 +254,11 @@ Result: `500000.0` (Money values are extracted as `double`)
   }
 }
 ```
+
 Result: `"Propose"` (OptionSet values return the formatted label by default)
 
 To get **both** the numeric code and the label, set `"value_type": "both"`:
+
 ```json
 {
   "name": "stage",
@@ -313,9 +272,11 @@ To get **both** the numeric code and the label, set `"value_type": "both"`:
   }
 }
 ```
+
 Result: `{"code": 3, "name": "Propose"}`
 
 To **derive** days remaining from a date field (post-processing):
+
 ```json
 {
   "name": "close_date_days",
@@ -329,9 +290,10 @@ To **derive** days remaining from a date field (post-processing):
   }
 }
 ```
+
 Result: `30` (positive = future), `-5` (negative = overdue)
 
-Other derivations: `"days_since_date"` (e.g., days since last modified), `"normalize_0_to_1"` (divides by 100 if > 1), `"format_currency"` (parses `"$500,000"` → `500000.0`)
+Other derivations: `"days_since_date"` (for example, days since last modified), `"normalize_0_to_1"` (divides by 100 if > 1), `"format_currency"` (parses `"$500,000"` → `500000.0`)
 
 **2. `linked_entity` — Read a column from a related entity (LEFT OUTER JOIN)**
 
@@ -350,6 +312,7 @@ Other derivations: `"days_since_date"` (e.g., days since last modified), `"norma
   }
 }
 ```
+
 Result: `"Large"` (OptionSet → formatted label)
 
 ```json
@@ -367,13 +330,16 @@ Result: `"Large"` (OptionSet → formatted label)
   }
 }
 ```
+
 Result: `1000000.0` (Money → double)
 
-> **Note:** `entity_field` and `linked_entity` signals are fetched in a **single Dataverse round-trip** — the engine builds one `QueryExpression` with LEFT OUTER JOINs for all linked entities.
+> [!NOTE]
+> The engine fetches `entity_field` and `linked_entity` signals in a **single Dataverse round-trip**. It builds one `QueryExpression` with LEFT OUTER JOINs for all linked entities.
 
 **3. `aggregation` — Aggregate over related entity records**
 
 Count of products on the opportunity:
+
 ```json
 {
   "name": "product_count",
@@ -386,9 +352,11 @@ Count of products on the opportunity:
   }
 }
 ```
+
 Result: `2`
 
 Count with filter (outbound emails only):
+
 ```json
 {
   "name": "outbound_emails",
@@ -402,9 +370,11 @@ Count with filter (outbound emails only):
   }
 }
 ```
+
 Result: `1`
 
 Check if a decision maker connection exists:
+
 ```json
 {
   "name": "has_decision_maker",
@@ -417,9 +387,11 @@ Check if a decision maker connection exists:
   }
 }
 ```
+
 Result: `true` (if any connection has role containing "Decision" or "Maker")
 
 Days since most recent email:
+
 ```json
 {
   "name": "last_email_days",
@@ -433,9 +405,11 @@ Days since most recent email:
   }
 }
 ```
+
 Result: `5` (days since the most recent email's `createdon`)
 
 List of distinct products:
+
 ```json
 {
   "name": "products",
@@ -449,6 +423,7 @@ List of distinct products:
   }
 }
 ```
+
 Result: `["Product A", "Product B"]`
 
 **4. `action_data` — Read from per-action `msdyn_prioritizationdata` JSON (no CRM query)**
@@ -461,7 +436,8 @@ Result: `["Product A", "Product B"]`
   "fetch_info": { "fetch_type": "action_data", "crm_field": "riskType" }
 }
 ```
-Result: reads `riskType` key from `msdyn_prioritizationdata` JSON → e.g., `"8"`
+
+Result: reads `riskType` key from `msdyn_prioritizationdata` JSON → for example, `"8"`
 
 If `crm_field` is omitted, falls back to the signal `name` as the JSON key.
 
@@ -479,7 +455,8 @@ If `crm_field` is omitted, falls back to the signal `name` as the JSON key.
   }
 }
 ```
-Result: reads from `msdyn_derivedinsightvalue` JSON column → e.g., `"positive"`
+
+Result: reads from `msdyn_derivedinsightvalue` JSON column → for example, `"positive"`
 
 **6. `custom_signal` — Complex multi-step queries (BPF stage, competitors)**
 
@@ -491,14 +468,12 @@ Result: reads from `msdyn_derivedinsightvalue` JSON column → e.g., `"positive"
   "fetch_info": { "fetch_type": "custom_signal" }
 }
 ```
-Handled by `CustomSignalFetchService` — uses specialized Dataverse queries for BPF stages, competitor associations, etc.
 
-> **Source of truth (all examples):** `src/CoPilot/Microsoft.SalesInsights.RecommendedActionsAgentServices.Tests/Services/SignalFetchServiceTests.cs`
-> **Source of truth (fetch logic):** `src/CoPilot/Microsoft.SalesInsights.RecommendedActionsAgentServices/Services/SignalFetchService.cs`
+Handled by `CustomSignalFetchService` — uses specialized Dataverse queries for BPF stages, competitor associations, and other complex scenarios.
 
-#### How `entity_field` / `linked_entity` Signals Are Fetched
+#### How the scoring engine fetches `entity_field` and `linked_entity` signals
 
-These are typically **org-level signals**, configured by the admin in `msdyn_salesagentconfigurationv2`. While agent-level signals with these fetch types are technically merged via `MergeAgentSignals()`, **only `FetchType` and `CrmField` are copied** — the other required fields (`SourceEntityName`, `TargetEntityName`, `SelectField`, etc.) are dropped, causing the signals to be silently skipped. To use these fetch types, define them at the org level.
+These signals are typically **org-level signals** that the admin configures in `msdyn_salesagentconfigurationv2`. While the scoring engine technically merges agent-level signals with these fetch types through `MergeAgentSignals()`, **it only copies `FetchType` and `CrmField`**. The engine drops the other required fields (`SourceEntityName`, `TargetEntityName`, `SelectField`, and more), which causes the signals to be silently skipped. To use these fetch types, define them at the org level.
 
 The scoring engine builds a **single `QueryExpression`** per action:
 
@@ -511,9 +486,9 @@ QueryExpression("opportunity")
   .TopCount = 1
 ```
 
-This fetches the opportunity's own fields AND the parent account's fields in **one Dataverse round-trip**. The `crm_field` in `fetch_info` for these signals refers to the actual Dataverse column logical name (e.g., `estimatedvalue`, `name`).
+This query fetches the opportunity's own fields and the parent account's fields in **one Dataverse round-trip**. The `crm_field` in `fetch_info` for these signals refers to the actual Dataverse column logical name, such as `estimatedvalue` or `name`.
 
-**Example: ORA's production value** (from `OraDefaults.cs`):
+**Example: Sales Opportunity Agent's production value** (from `OraDefaults.cs`):
 
 ```json
 {
@@ -542,34 +517,17 @@ This fetches the opportunity's own fields AND the parent account's fields in **o
 }
 ```
 
-> **Source of truth:** Model class `AgentSignalInstructionConfig` at `src/CoPilot/Microsoft.SalesInsights.RecommendedActionsAgentServices/Models/RecommendedActionsAgentConfig.cs` (line ~838). Wrapper `AgentSignalInstructionsWrapper` at `OrgConfigProvider.cs` (line ~483). ORA defaults at `solutions/NextBestActionAgent/Plugins/NextBestActionAgentPlugins/Core/Constants/OraDefaults.cs`.
-
-### How the Three Configs Correlate (Signal Pipeline)
+### How the three configs correlate (signal pipeline)
 
 The three configuration fields form a **three-layer signal pipeline** that feeds the LLM scoring prompt:
 
-```
-┌─────────────────────────────────────┐
-│  agentImpactMapping                 │  "Which principles does this agent serve?"
-│  (Agent Config — per agent)         │  → Injected into prompt §2 (Agent Impact Profiles)
-│  e.g. ["Risk Reduction",           │  → LLM knows which principles to assign
-│        "Deal Velocity"]             │
-└──────────────┬──────────────────────┘
-               │
-┌──────────────▼──────────────────────┐
-│  internalPrioritizationInstruction  │  "How should the LLM interpret my signals?"
-│  (Agent Config — per agent)         │  → Injected into prompt §5 (Signal Reference)
-│  e.g. signals[].interpretation,     │  → LLM knows meaning + UICE dimension influence
-│       dimension_influence            │
-└──────────────┬──────────────────────┘
-               │  fetch_info.crm_field must match ↓
-┌──────────────▼──────────────────────┐
-│  msdyn_prioritizationdata           │  "What are the actual signal values for THIS action?"
-│  (Per-action — Push API)            │  → Injected into prompt §8 (Signals JSON)
-│  e.g. {"riskType":"8",             │  → LLM scores based on real values
-│        "risk":"Missing BANT Info"}  │
-└─────────────────────────────────────┘
-```
+| Layer | Scope | Purpose | Prompt mapping | Example |
+|---|---|---|---|---|
+| `agentImpactMapping` | Agent config (per agent) | Defines which principles the agent serves. | Injected into prompt section 2 (Agent Impact Profiles). | `["Risk Reduction", "Deal Velocity"]` |
+| `internalPrioritizationInstruction` | Agent config (per agent) | Explains how the LLM should interpret your signals. | Injected into prompt section 5 (Signal Reference). | `signals[].interpretation`, `dimension_influence` |
+| `msdyn_prioritizationdata` | Per action (push API payload) | Carries actual signal values for each action. | Injected into prompt section 8 (Signals JSON). | `{"riskType":"8","risk":"Missing BANT Info"}` |
+
+`fetch_info.crm_field` must match keys in `msdyn_prioritizationdata` so signal values resolve correctly.
 
 **Critical linkage: `fetch_info.crm_field` → `msdyn_prioritizationdata` JSON keys**
 
@@ -580,39 +538,37 @@ var jsonKey = sig.FetchInfo?.CrmField ?? sig.Name;  // falls back to signal name
 var token = prioritizationJson[jsonKey];             // looks up in your PrioritizationData JSON
 ```
 
-**ORA example of the correlation:**
+**Sales Opportunity Agent example of the correlation:**
 
 | `internalPrioritizationInstruction` signal | `fetch_info.crm_field` | `msdyn_prioritizationdata` key | Example value |
 |---|---|---|---|
 | `risk_type` | `"riskType"` | `riskType` | `"8"` |
 | `risk_label` | `"risk"` | `risk` | `"Missing BANT Info"` |
 
-So ORA's per-action `msdyn_prioritizationdata` JSON looks like:
+So Sales Opportunity Agent's per-action `msdyn_prioritizationdata` JSON looks like:
 ```json
 {"riskType": "8", "risk": "Missing BANT Info"}
 ```
 
 **To onboard your own agent, follow the same pattern:**
 
-1. Define signals in `internalPrioritizationInstruction` with `fetch_type: "action_data"` and a `crm_field` key
-2. When pushing actions via `msdyn_PushActionDataToRecommendedActionAgent`, set `msdyn_ActionPrioritizationData` to a JSON object using those same keys
-3. If the keys don't match, the signal value will be `null` and the LLM will treat it as missing (logged as `"action_data signal '{name}' not found in PrioritizationData"`)
+1. Define signals in `internalPrioritizationInstruction` with `fetch_type: "action_data"` and a `crm_field` key.
+1. When pushing actions via `msdyn_PushActionDataToRecommendedActionAgent`, set `msdyn_ActionPrioritizationData` to a JSON object using those same keys.
+1. If the keys don't match, the signal value is `null` and the LLM treats it as missing (logged as `"action_data signal '{name}' not found in PrioritizationData"`).
 
 **How `dimension_influence` affects scoring:**
 
 Each signal's `dimension_influence` is rendered into the prompt's Signal Reference like:
+
 ```
 - **risk_type** (string, source: agent): Risk category code... [urgency(moderate), confidence(weak)] reliability=high
 ```
 
-The LLM uses these hints as guidance (not hard multipliers) to determine how strongly each signal should affect each UICE dimension score.
+The LLM uses these hints as guidance (not hard multipliers) to determine how strongly each signal affects each UICE dimension score.
 
-> **Source of truth (signal extraction):** `ExtractActionDataSignals()` in `src/CoPilot/Microsoft.SalesInsights.RecommendedActionsAgentServices/Services/SignalFetchService.cs`
-> **Source of truth (prompt injection):** `FormatAgentImpactProfile()` and signal reference builder in `src/CoPilot/Microsoft.SalesInsights.ActionScoringService/Services/ActionPromptHydrationService.cs`
+### Sync action execution state API config
 
-### Sync Action Execution State API Config
-
-**Format:** A JSON object (not a plain string) specifying the Custom API name that NBA calls when a seller acts on your card:
+**Format:** A JSON object (not a plain string) specifying the Custom API name that Recommended Actions Agent calls when a seller acts on your card:
 
 ```json
 {
@@ -620,19 +576,15 @@ The LLM uses these hints as guidance (not hard multipliers) to determine how str
 }
 ```
 
-**ORA's actual value:** `{"syncactionuistatusapiname":"msdyn_SyncDealRiskActionFromNba"}`
+**Sales Opportunity Agent's actual value:** `{"syncactionuistatusapiname":"msdyn_SyncDealRiskActionFromNba"}`
 
-> **Source of truth:** `OraDefaults.cs`
-
----
-
-## Step 2 — Push Actions via Custom API
+## Step 2 — Push actions via custom API
 
 **API:** `msdyn_PushActionDataToRecommendedActionAgent`
 
 Call this API each time your agent generates or updates an action for a target entity.
 
-### Request Parameters
+### Request parameters
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
@@ -641,7 +593,7 @@ Call this API each time your agent generates or updates an action for a target e
 | `msdyn_TargetEntityId` | uniqueidentifier (GUID) | **Yes** | The GUID of the target record (Opportunity, Lead) this action relates to |
 | `msdyn_TargetEntityTypeName` | string | **Yes** | Logical name of the target entity. Example: `"opportunity"`, `"lead"` |
 | `msdyn_ActionReason` | string | **Yes** | Reason why the action was generated. Used by the scoring engine for principle mapping. Example: `"Competitor Intel mentioned in recent email"` |
-| `msdyn_ActionUIPayload` | string | No | JSON payload for card rendering (see Step 3). If omitted, NBA cannot display the card. |
+| `msdyn_ActionUIPayload` | string | No | JSON payload for card rendering (see Step 3). If omitted, Recommended Actions Agent can't display the card. |
 | `msdyn_ActionPrioritizationData` | string | No | JSON with agent-specific data for scoring (see Step 4) |
 | `msdyn_ActionCTA` | string | No | CTA type string. Example: `"Email"`, `"Review"`, `"Call"` |
 | `msdyn_PrioritizationPrinciples` | string | No | JSON array of prioritization principles this specific action maps to (can override agent-level mapping) |
@@ -680,13 +632,9 @@ var response = orgService.Execute(request);
 bool success = (bool)response["msdyn_IsSuccess"];
 ```
 
-> **Source of truth:** Custom API XML at `solutions/NextBestActionAgent/Solution/customapis/msdyn_PushActionDataToRecommendedActionAgent/`
+## Step 3 — Action UI payload contract
 
----
-
-## Step 3 — Action UI Payload Contract
-
-The `msdyn_ActionUIPayload` field contains a JSON payload that controls how your action card appears in the NBA carousel.
+The `msdyn_ActionUIPayload` field contains a JSON payload that controls how your action card appears in the Recommended Actions Agent carousel.
 
 ### Schema
 
@@ -712,7 +660,7 @@ The `msdyn_ActionUIPayload` field contains a JSON payload that controls how your
 | `onctaClickActionType` | No | What happens when seller clicks the CTA button. |
 | `onctaClickActionTypeParameters` | No | JSON string with CTA navigation parameters. |
 
-### How the UI Consumes This
+### How the UI consumes this data
 
 The `msdyn_RAAgent_FetchScoredRecommendedActions` plugin reads the `msdyn_actionuipayload` from the scored output table (`msdyn_prioritizedactioncatalogue`) and maps it to `SuggestedActionItem`:
 
@@ -724,10 +672,6 @@ The `msdyn_RAAgent_FetchScoredRecommendedActions` plugin reads the `msdyn_action
 | (from scoring) | `PrioritizationHeader` | `"Important"` if action crossed ceiling, else null |
 | (from scoring) | `PrioritizationTitle` | LLM-generated score explanation |
 | (from scoring) | `PrioritizationDescription` | LLM-generated impact description |
-
-> **Source of truth:** `docs/NBA/RawActionCataloglld.md` + `docs/NBA/SalesFetchScoredRecommendedActions_LLD.md`
-
----
 
 ## Step 4 — Prioritization Data Contract
 
@@ -743,11 +687,11 @@ The `msdyn_prioritizationdata` field lets you pass agent-specific signals that i
 ]
 ```
 
-### How This Data Is Used
+### How this data is used
 
-1. The scoring engine reads these signals alongside entity-level signals (deal value, stage, competitors, etc.)
-2. Your `msdyn_internalprioritizationinstruction` from the agent config tells the LLM how to interpret each signal
-3. Signals are combined into the UICE scoring prompt
+1. The scoring engine reads these signals alongside entity-level signals (deal value, stage, competitors, and more).
+1. Your `msdyn_internalprioritizationinstruction` from the agent config tells the LLM how to interpret each signal.
+1. The scoring engine combines signals into the UICE scoring prompt.
 
 **Signal interpretation mapping (from your agent config):**
 
@@ -756,112 +700,100 @@ The `msdyn_prioritizationdata` field lets you pass agent-specific signals that i
 | `dca_deal_health: low` | "Low = at risk, raises urgency, lowers confidence" | Urgency ↑, Confidence ↓ |
 | `dca_silence_days: 14` | "Higher value = longer silence, raises urgency" | Urgency ↑ |
 
-### Entity-Level Signals (Fetched Automatically by NBA)
+### Entity-level signals (fetched automatically by Recommended Actions Agent)
 
-NBA also fetches these signals from Dataverse for each target entity. Your agent does **not** need to provide these:
+Recommended Actions Agent also fetches these signals from Dataverse for each target entity. Your agent doesn't need to provide these signals:
 
 | Signal | Entity | Field | Effect |
 |--------|--------|-------|--------|
 | `deal_value` | opportunity | `estimatedvalue` | Higher → higher impact |
-| `stage` | opportunity | (custom logic) | Later stage → higher urgency+impact |
+| `stage` | opportunity | (custom logic) | Later stage → higher urgency and impact |
 | `close_date_days` | opportunity | `estimatedclosedate` | <7 days → critical urgency |
 | `competitors_in_record` | opportunity | (custom logic) | Non-empty → raises urgency |
 | `email_competitor_mentions` | opportunity | via `msdyn_opportunityrankermapping` | Non-empty → raises urgency |
 
-> **Source of truth:** `docs/NBA/datafetch.md` + NBA config in `msdyn_salesagentconfigurationv2`
-
----
-
-## Step 5 — Handle Action Updates (Versioning)
+## Step 5 — Handle action updates (versioning)
 
 When your agent has updated data for a previously pushed action, **create a new record** with the same `msdyn_ActionId` by calling `msdyn_PushActionDataToRecommendedActionAgent` again.
 
-### How Versioning Works
+### How versioning works
 
-1. A new row is created in `msdyn_rawactioncatalogue` with the same `msdyn_actionid` but a new `msdyn_rawactioncatalogueid`
-2. **NBA keeps showing the old version** until the new version is processed
-3. When NBA picks up the new version for scoring, it:
-   - Marks older unprocessed versions as `Skipped` (status = 3)
-   - Scores only the newest version
-   - **Updates** the existing output record in `msdyn_prioritizedactioncatalogue` (same record, updated score + payload)
+1. The system creates a new row in `msdyn_rawactioncatalogue` with the same `msdyn_actionid` but a new `msdyn_rawactioncatalogueid`.
+1. **Recommended Actions Agent keeps showing the old version** until it processes the new version.
+1. When Recommended Actions Agent picks up the new version for scoring, it:
+   - Marks older unprocessed versions as `Skipped` (status = 3).
+   - Scores only the newest version.
+   - **Updates** the existing output record in `msdyn_prioritizedactioncatalogue` (same record, updated score and payload).
 
-### Invalidating an Action
+### Invalidating an action
 
-If an action is no longer valid (e.g., the risk was resolved):
+If an action is no longer valid (for example, the risk was resolved):
 
-- Call `msdyn_RAAgent_RemoveActions` Custom API with the `actionId`
-- This marks all `msdyn_rawactioncatalogue` records for that action as `Inactive`
-- The output table record is also marked `Inactive`
-- The card disappears from the carousel
+- Call `msdyn_RAAgent_RemoveActions` Custom API with the `actionId`.
+- This process marks all `msdyn_rawactioncatalogue` records for that action as `Inactive`.
+- The output table record is also marked `Inactive`.
+- The card disappears from the carousel.
 
-### Status Lifecycle
+### Status lifecycle
 
 **Input Table (`msdyn_rawactioncatalogue`):**
 
 | Status Value | State | Label | Purpose |
 |:---:|:---:|---|---|
-| 1 | Active | Active | Default — newly created/unprocessed actions |
+| 1 | Active | Active | Default - newly created or unprocessed actions |
 | 2 | Active | Obsolete | A newer version of this action exists |
-| 3 | Active | Skipped | Skipped by NBA processor (newer version available) |
-| 4 | Inactive | Error | Malformed data (e.g., invalid JSON) |
-| 5 | Inactive | Removed | Explicitly removed/deleted |
+| 3 | Active | Skipped | Skipped by Recommended Actions Agent processor (newer version available) |
+| 4 | Inactive | Error | Malformed data (for example, invalid JSON) |
+| 5 | Inactive | Removed | Explicitly removed or deleted |
 
-> **Source of truth:** `docs/NBA/handling-action-updates.md` + `docs/NBA/NBA_LLD.md`
+## Step 6 — Bidirectional state sync
 
----
+### 6a. Recommended Actions Agent to your agent (seller acts in carousel)
 
-## Step 6 — Bidirectional State Sync
+When a seller marks an action as **Done** or **Dismissed** in the Recommended Actions Agent carousel:
 
-### 6a. NBA → Your Agent (Seller acts in carousel)
+1. Recommended Actions Agent updates the `msdyn_actionuistatus` in `msdyn_prioritizedactioncatalogue`.
+1. Recommended Actions Agent reads your `msdyn_syncactionexecutionstateapiconfig` from the agent config.
+1. Recommended Actions Agent calls your Custom API with:
 
-When a seller marks an action as **Done** or **Dismissed** in the NBA carousel:
-
-1. NBA updates the `msdyn_actionuistatus` in `msdyn_prioritizedactioncatalogue`
-2. NBA reads your `msdyn_syncactionexecutionstateapiconfig` from the agent config
-3. NBA calls your Custom API with:
-
-| Parameter | Type | Description |
-|-----------|------|-------------|
-| `actionid` | GUID | The action identifier |
-| `state` | string | `"MarkedDone"` or `"Dismissed"` |
+    | Parameter | Type | Description |
+    |-----------|------|-------------|
+    | `actionid` | GUID | The action identifier |
+    | `state` | string | `"MarkedDone"` or `"Dismissed"` |
 
 **You must implement a Custom API** that accepts these two parameters and updates the action state in your own data store.
 
-**Example:** ORA uses `ora_UpdatedActionStateFromRAAgent` which updates the risk state on the research page.
+**Example:** Sales Opportunity Agent uses `ora_UpdatedActionStateFromRAAgent` which updates the risk state on the research page.
 
-### 6b. Your Agent → NBA (Seller acts in your UI)
+### 6b. Your agent to Recommended Actions Agent (seller acts in your UI)
 
-When a seller acts on an action in **your** UI (e.g., marks a risk as mitigated on the research page), sync that state to NBA:
+When a seller acts on an action in **your** UI (for example, marks a risk as mitigated on the research page), sync that state to Recommended Actions Agent:
 
 **API:** `msdyn_SyncActionExecutionStateFromAgent`
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | `msdyn_ActionId` | string | Yes | The action identifier (same as what you pushed) |
-| `msdyn_ActionState` | integer | Yes | New state — values TBD (mapped to MarkAsDone/Dismissed) |
+| `msdyn_ActionState` | integer | Yes | New state - values TBD (mapped to MarkAsDone/Dismissed) |
 | `msdyn_TargetEntityId` | uniqueidentifier | Yes | Target entity GUID |
 | `TargetEntityTypeName` | string | Yes | Target entity logical name |
 | `msdyn_TrackingId` | string | No | Optional tracking/correlation ID |
 
-This updates the action's state in the NBA output table, hiding it from the carousel.
+This action updates the state in the Recommended Actions Agent output table, hiding it from the carousel.
 
-> **Source of truth:** Custom API XML at `solutions/NextBestActionAgent/Solution/customapis/msdyn_SyncActionExecutionStateFromAgent/` + `docs/ORA-NBA-Integration.md`
-
----
-
-## Step 7 — Feature Control Settings
+## Step 7 - Feature control settings
 
 ### Platform-Level FCS (in `SalesService.NextBestAction` namespace)
 
 | FCS Key | Type | Default | Description |
 |---------|------|---------|-------------|
-| `EnableNBASuggestions` | Boolean | `true` | Master kill switch — if false, NBA carousel is hidden and all integration is disabled |
+| `EnableNBASuggestions` | Boolean | `true` | Master switch - if false, Recommended Actions Agent carousel is hidden and all integration is disabled |
 | `EnableNBARetrieveMultiplePlugin` | Boolean | `true` | Controls retrieve multiple plugin behavior |
 | `EnableRecommendedActionsAgent` | Boolean | `false` | Controls whether the scoring engine processes actions |
 
-### Per-Agent Toggle
+### Per-agent toggle
 
-Each agent config has an `isRecommendedActionAgentEnabled` flag (set via `msdyn_RAAgent_UpsertRecommendationAgentConfig`). This is the per-profile control that admins can toggle in the AI config UI.
+Each agent configuration has an `isRecommendedActionAgentEnabled` flag (set through `msdyn_RAAgent_UpsertRecommendationAgentConfig`). Admins can use this flag as the per-profile control and toggle it in the AI config UI.
 
 **Toggle hierarchy:**
 
@@ -869,16 +801,12 @@ Each agent config has an `isRecommendedActionAgentEnabled` flag (set via `msdyn_
 FCS EnableNBASuggestions = false  →  Everything disabled (platform kill switch)
 FCS EnableNBASuggestions = true   →  Check per-agent toggle:
   isRecommendedActionAgentEnabled = false  →  Agent integration disabled
-  isRecommendedActionAgentEnabled = true   →  Agent actions processed by NBA
+  isRecommendedActionAgentEnabled = true   →  Agent actions processed by Recommended Actions Agent
 ```
 
-> **Source of truth:** `solutions/NextBestActionAgent/Solution/featurecontrolsettings/FCS_SalesService.NextBestAction/` + `docs/ORA-NBA-Integration.md`
+## Step 8 — (Optional) Derived insights integration
 
----
-
-## Step 8 — (Optional) Derived Insights Integration
-
-If your agent produces entity-level insights (e.g., customer sentiment, deal health scores) that NBA should use as additional scoring signals, persist them to `msdyn_recommendedactionderivedinsight`.
+If your agent produces entity-level insights, such as customer sentiment or deal health scores, that Recommended Actions Agent should use as additional scoring signals, persist them to `msdyn_recommendedactionderivedinsight`.
 
 ### Entity: `msdyn_recommendedactionderivedinsight`
 
@@ -891,31 +819,23 @@ If your agent produces entity-level insights (e.g., customer sentiment, deal hea
 | `msdyn_derivedinsightsource` | picklist | `Email` (100000000), `Meeting` (100000001), `Notes` (100000002), `Entity` (100000003) |
 | `msdyn_conversationid` | nvarchar(450) | Associated conversation ID |
 
-### How NBA Uses Derived Insights
+### How Recommended Actions Agent uses derived insights
 
-The scoring engine can read derived insights for a target entity to enrich the signal set used in UICE scoring. For example, if your agent persists a `CustomerSentiment` insight, the scorer can incorporate it alongside standard entity signals.
+The scoring engine reads derived insights for a target entity to enrich the signal set used in UICE scoring. For example, if your agent persists a `CustomerSentiment` insight, the scorer incorporates it alongside standard entity signals.
 
-> **Source of truth:** Entity XML at `solutions/NextBestActionAgent/Solution/Entities/msdyn_recommendedactionderivedinsight/Entity.xml` + `docs/NBA/DerivedInsightsEntity.md`
+## Step 9 — Office Customer Voice feedback configuration
 
----
+The Recommended Actions Agent carousel supports OCV (Office Customer Voice) feedback dialogs. Feedback configuration is API-driven - the `msdyn_RAAgent_FetchScoredRecommendedActions` response includes a `feedbackConfig` property.
 
-## Step 9 — OCV Feedback Configuration
-
-The NBA carousel supports OCV (Office Customer Voice) feedback dialogs. Feedback configuration is API-driven — the `msdyn_RAAgent_FetchScoredRecommendedActions` response includes a `feedbackConfig` property.
-
-If your agent requires custom feedback options, extend `FeedbackOptionsFactory.CreateDefault()` in the `NextBestActionAgentPlugins` project. See `docs/NBA/ocv-feedback-onboarding-guide.md` for the full configuration schema.
+If your agent requires custom feedback options, extend `FeedbackOptionsFactory.CreateDefault()` in the `NextBestActionAgentPlugins` project. For the full configuration schema, see `docs/NBA/ocv-feedback-onboarding-guide.md`.
 
 The default config provides:
-- **Upvote:** "What did you like?" — Correct prioritization, Relevant action suggestion, etc.
-- **Downvote:** "What went wrong?" — Wrong prioritization, Wrong action suggestion, etc.
+- **Upvote:** "What did you like?" - Correct prioritization, Relevant action suggestion, and more.
+- **Downvote:** "What went wrong?" - Wrong prioritization, Wrong action suggestion, and more.
 
-> **Source of truth:** `docs/NBA/ocv-feedback-onboarding-guide.md`
+## Step 10 — Testing and validation
 
----
-
-## Step 10 — Testing & Validation
-
-### 10a. Verify Agent Config
+### 10a. Verify agent config
 
 ```http
 GET [org-url]/api/data/v9.2/msdyn_recommendedactionsourceagentconfigs
@@ -923,17 +843,18 @@ GET [org-url]/api/data/v9.2/msdyn_recommendedactionsourceagentconfigs
   &$select=msdyn_agentname,msdyn_agentimpactmapping,msdyn_internalprioritizationinstruction,msdyn_syncactionexecutionstateapiconfig
 ```
 
-### 10b. Push a Test Action
+### 10b. Push a test action
 
 Call `msdyn_PushActionDataToRecommendedActionAgent` with test data and verify:
+
 - `msdyn_IsSuccess` = `true`
 - A new record appears in `msdyn_rawactioncatalogue` with your action data
 
-### 10c. Trigger Scoring
+### 10c. Trigger scoring
 
 Call `msdyn_RAAgent_TriggerRecommendedActionsAgentOrchestration` to trigger an on-demand scoring run (instead of waiting for the 4-hour timer).
 
-### 10d. Verify Scored Output
+### 10d. Verify scored output
 
 ```http
 GET [org-url]/api/data/v9.2/msdyn_prioritizedactioncatalogues
@@ -942,27 +863,27 @@ GET [org-url]/api/data/v9.2/msdyn_prioritizedactioncatalogues
 ```
 
 Verify:
-- `msdyn_actionscore` is populated (0–10 range)
-- `msdyn_hascrossedfloor` = `false` (action is above floor → will show in carousel)
-- `msdyn_actionuistatus` = `1` (Active)
-- `msdyn_scoredetails` contains LLM-generated explanation
+- `msdyn_actionscore` is populated with a value in the 0–10 range.
+- `msdyn_hascrossedfloor` is `false` (action is above floor and shows in carousel).
+- `msdyn_actionuistatus` is `1` (Active).
+- `msdyn_scoredetails` contains the LLM-generated explanation.
 
-### 10e. Verify Carousel Display
+### 10e. Verify carousel display
 
-Navigate to an Opportunity form in Dynamics 365 Sales and check the Suggested Actions section. Your scored action should appear in the carousel.
+Go to an Opportunity form in Dynamics 365 Sales and check the Suggested Actions section. Your scored action appears in the carousel.
 
-### 10f. Verify State Sync
+### 10f. Verify state sync
 
-1. **NBA → Your Agent:** Dismiss an action in the carousel. Verify your sync-back API was called with `state = "Dismissed"`.
-2. **Your Agent → NBA:** Mark an action in your UI. Verify the output table record has `msdyn_actionuistatus` updated.
+1. **Recommended Actions Agent → Your Agent:** Dismiss an action in the carousel. Verify your sync-back API is called with `state = "Dismissed"`.
+1. **Your Agent → Recommended Actions Agent:** Mark an action in your UI. Verify the output table record has `msdyn_actionuistatus` updated.
 
 ---
 
-## Entity Reference (Source of Truth)
+## Entity reference
 
-All entity definitions are in `solutions/NextBestActionAgent/Solution/Entities/` as `Entity.xml` files. These are the **authoritative source** — docs may lag behind.
+All entity definitions are in `solutions/NextBestActionAgent/Solution/Entities/` as `Entity.xml` files. These files are the **authoritative source**. Docs might lag behind.
 
-### msdyn_rawactioncatalogue (Input Table)
+### msdyn_rawactioncatalogue (Input table)
 
 | Field | Type | Max Length | Required | Notes |
 |-------|------|-----------|----------|-------|
@@ -973,7 +894,7 @@ All entity definitions are in `solutions/NextBestActionAgent/Solution/Entities/`
 | `msdyn_prioritizationdata` | ntext | 1048576 | None | JSON with agent-specific scoring signals |
 | `msdyn_targetentityid` | lookup (polymorphic) | — | None | Lookup to Opportunity or Lead |
 
-### msdyn_recommendedactionsourceagentconfig (Agent Config)
+### msdyn_recommendedactionsourceagentconfig (Agent config)
 
 | Field | Type | Max Length | Required | Notes |
 |-------|------|-----------|----------|-------|
@@ -984,26 +905,24 @@ All entity definitions are in `solutions/NextBestActionAgent/Solution/Entities/`
 | `msdyn_syncactionexecutionstateapiconfig` | nvarchar | — | None | Name of your sync-back Custom API |
 | Ownership | OrgOwned | — | — | Organization-level entity |
 
-### msdyn_prioritizedactioncatalogue (Output Table)
+### msdyn_prioritizedactioncatalogue (Output table)
 
 | Field | Type | Notes |
 |-------|------|-------|
-| `msdyn_prioritizedactioncatalogueid` | primarykey | Auto-generated |
+| `msdyn_prioritizedactioncatalogueid` | primary key | Auto-generated |
 | `msdyn_actionid` | string | Matches input `msdyn_actionid` |
 | `msdyn_actionscore` | double | UICE priority score |
 | `msdyn_actionuipayload` | string | Copied from input (latest version) |
 | `msdyn_scoredetails` | string | JSON: `{Explanation, Citations, CeilingExplanation, actionImpact}` |
 | `msdyn_hascrossedceiling` | boolean | Whether action is above ceiling threshold |
-| `msdyn_hascrossedfloor` | boolean | Whether action is BELOW floor (false = above floor = shown) |
+| `msdyn_hascrossedfloor` | boolean | Whether action is below floor (false = above floor = shown) |
 | `msdyn_actionuistatus` | optionset | `1-Active`, `2-MarkAsDone`, `3-Dismissed` |
 | `msdyn_targetentity` | polymorphic lookup | Opportunity/Lead |
 | Ownership | UserOwned | — |
 
----
+## Custom API Reference
 
-## Custom API Reference (Source of Truth)
-
-All Custom API definitions are in `solutions/NextBestActionAgent/Solution/customapis/`. These are the **authoritative source**.
+All Custom API definitions are in `solutions/NextBestActionAgent/Solution/customapis/`. These files are the **authoritative source**.
 
 ### msdyn_PushActionDataToRecommendedActionAgent
 
@@ -1043,7 +962,8 @@ Privilege required: `prvReadmsdyn_prioritizedactioncatalogue`
 | `msdyn_operationtype` | Request | integer | Yes |
 | `msdyn_response` | Response | string | — |
 
-Note: This is a **private** API (isprivate=1) — used internally by the NBA UI.
+> [!NOTE]
+> This is a **private** API (isprivate=1) - used internally by the Recommended Actions Agent UI.
 
 ### msdyn_RAAgent_UpsertRecommendationAgentConfig
 
@@ -1060,44 +980,25 @@ No input parameters. Returns all active, above-floor scored actions.
 |-----------|-----------|------|
 | `msdyn_response` | Response | string (JSON) |
 
----
 
-## Discrepancies Between Docs and Source of Truth
+## End-to-end sales opportunity agent example (reference implementation)
 
-During cross-verification, the following discrepancies were found between the design docs (`docs/NBA/`) and the actual entity definitions in `solutions/NextBestActionAgent/`:
+Sales Opportunity Agent is the first agent onboarded to Recommended Actions Agent. Its integration serves as the reference implementation.
 
-| # | Doc Claim | Actual (Entity XML / Code) | Severity |
-|---|-----------|---------------------------|----------|
-| 1 | LLD claims `msdyn_sourceagentuniqueid` field exists as alternate key on `msdyn_recommendedactionsourceagentconfig` | **Field does not exist** in Entity XML. `msdyn_agentname` is the PrimaryName field. No alternate key defined. | High — doc is outdated/incorrect |
-| 2 | LLD field name `syncactionexecutionstatefromraagentapiname` | Actual field name is `msdyn_syncactionexecutionstateapiconfig` | Medium — naming mismatch in docs |
-| 3 | LLD refers to entity as `msdyn_rawactioncatalogue` (UK spelling) | Actual entity name is `msdyn_rawactioncatalogue` (UK spelling confirmed in Entity XML). Consistent. | None |
-| 4 | LLD field `msdyn_actionprioritizationdata` | Actual field name is `msdyn_prioritizationdata` (no `action` prefix) | Medium — naming mismatch |
-| 5 | LLD describes `msdyn_sourceagent` as lookup on rawactioncatalogue | Field exists as `msdyn_targetentityid` (polymorphic lookup to Opty/Lead), but **no sourceagent lookup** in Entity XML for rawactioncatalogue — the `msdyn_SourceAgentId` is passed only via the Custom API, not stored as a Dataverse lookup | Medium — doc implies a lookup relationship that doesn't exist |
-| 6 | LLD describes `msdyn_recommendedactionwatermark` entity | Entity folder **not present** in the solution `Entities/` directory — may not be implemented yet or may use a different mechanism | High — entity may not exist |
-| 7 | Push API parameter `msdyn_ActionReason` is marked **required** in Custom API XML | LLD describes it as optional | Low — API is stricter than doc suggests |
+### Agent configuration values (Sales Opportunity Agent)
 
-> **Recommendation:** Always refer to the Custom API XML definitions and Entity XML as the source of truth over the design docs.
-
----
-
-## End-to-End ORA Example (Reference Implementation)
-
-ORA (Opportunity Research Agent) is the first agent onboarded to NBA. Its integration serves as the reference implementation.
-
-### Agent Config Values (ORA)
-
-| Config Field | ORA Value (from `OraDefaults.cs`) |
+| Config Field | Sales Opportunity Agent Value (from `OraDefaults.cs`) |
 |--------------|----------|
-| `msdyn_agentname` | `"ORA"` |
+| `msdyn_agentname` | `"SalesOpportunityAgent"` |
 | `msdyn_agentimpactmapping` | `["DealRisk","Deal Velocity"]` |
 | `msdyn_syncactionexecutionstateapiconfig` | `{"syncactionuistatusapiname":"msdyn_SyncDealRiskActionFromNba"}` |
-| `msdyn_internalprioritizationinstruction` | See [ORA's actual production value](#internal-prioritization-instruction) above |
+| `msdyn_internalprioritizationinstruction` | See [Sales Opportunity Agent's actual production value](#internal-prioritization-instruction) above |
 
-### Action Push (ORA → NBA)
+### Action push (Sales Opportunity Agent to Recommended Actions Agent)
 
-When ORA research completes and identifies deal risks, `DealRiskToNBAService` pushes each risk as a separate action:
+When Sales Opportunity Agent research completes and identifies deal risks, `DealRiskToNBAService` pushes each risk as a separate action:
 
-| Push Parameter | ORA Value |
+| Push Parameter | Sales Opportunity Agent Value |
 |----------------|-----------|
 | `msdyn_ActionId` | `"DealRisk_{opportunityId}_{riskType}"` |
 | `msdyn_SourceAgentId` | `"DealRiskAgent"` |
@@ -1105,33 +1006,17 @@ When ORA research completes and identifies deal risks, `DealRiskToNBAService` pu
 | `msdyn_ActionReason` | Risk description from research |
 | `msdyn_ActionUIPayload` | Card with risk header + description |
 
-### State Sync (ORA)
+### State sync (Sales Opportunity Agent)
 
-- **ORA → NBA:** When seller marks risk as done on research page → calls `msdyn_SyncActionExecutionStateFromAgent`
-- **NBA → ORA:** When seller dismisses card in carousel → NBA calls `ora_UpdatedActionStateFromRAAgent` (configured in agent config)
+- **Sales Opportunity Agent → Recommended Actions Agent:** When seller marks risk as done on research page → calls `msdyn_SyncActionExecutionStateFromAgent`
+- **Recommended Actions Agent → Sales Opportunity Agent:** When seller dismisses card in carousel → Recommended Actions Agent calls `ora_UpdatedActionStateFromRAAgent` (configured in agent config)
 
-### Feature Toggle (ORA)
+### Feature toggle (Sales Opportunity Agent)
 
-- Admin toggle in "Sales Opportunity Agent → General → Connected Agents" section
-- Per-agent-profile control — enterprise vs SMB configs can have independent toggles
+- Admin toggle in **Sales Opportunity Agent → General → Connected Agents** section
+- Per-agent-profile control - enterprise vs SMB configs can have independent toggles
 
-> **Source of truth:** `docs/ORA-NBA-Integration.md`
+## Related information
 
----
-
-## Onboarding Checklist
-
-- [ ] Choose a unique, stable `SourceAgentId` string
-- [ ] Register agent config via `msdyn_RAAgent_UpsertRecommendationAgentConfig` (do not pass `recommendedActionSourceAgentConfigId`)
-- [ ] Define `agentImpactMapping` — map to relevant prioritization principles
-- [ ] Define `internalPrioritizationInstruction` — describe your agent's signals for LLM interpretation
-- [ ] Implement action push — call `msdyn_PushActionDataToRecommendedActionAgent` when actions are generated
-- [ ] Design `ActionId` format — must be deterministic for deduplication (e.g., `"{AgentPrefix}_{entityId}_{actionType}"`)
-- [ ] Design `ActionUIPayload` — card header, description, navigation parameters
-- [ ] Design `PrioritizationData` — agent-specific signals for UICE scoring
-- [ ] Implement sync-back Custom API — handle `actionid` + `state` parameters from NBA
-- [ ] Implement forward sync — call `msdyn_SyncActionExecutionStateFromAgent` when seller acts in your UI
-- [ ] (Optional) Implement action invalidation — call `msdyn_RAAgent_RemoveActions` when actions expire
-- [ ] (Optional) Persist derived insights to `msdyn_recommendedactionderivedinsight`
-- [ ] Add feature toggle for your agent (admin opt-in)
-- [ ] Test end-to-end: push → score → display → sync
+- [Recommended Actions overview](recommended-actions-overview.md)  
+- [Configure Recommended Actions](configure-recommended-actions.md)
