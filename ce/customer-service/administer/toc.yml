@@ -150,12 +150,38 @@
           href: automation-dictionary-keys.md
         - name: FAQ about adding users to agent experience profile
           href: faq-agent-experience-profile.md
-    - name: Manage your workforce
-      items:
-      - name: Configure the agent calendar view
-        href: configure-agent-calendar.md 
-      - name: Configure shift-based routing for work items
-        href: configure-routing-on-agent-calendar.md
+   - name: Workforce Management
+     items:
+     - name: Install the package
+       href: /dynamics365/contact-center/administer/wfm-package-installation?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+     - name: User management
+       href: /dynamics365/contact-center/administer/wfm-user-management?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+     - name: Forecasting
+       items:
+       - name: Enable volume forecasting
+         href: /dynamics365/contact-center/administer/wfm-configure-forecast-scenarios?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+       - name: Enable capacity planning
+         href: /dynamics365/contact-center/administer/wfm-configure-capacity-planning?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+     - name: Shift and schedule management
+       items: 
+       - name: Enable shift activity types
+         href: /dynamics365/contact-center/administer/wfm-shift-activity-types?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+       - name: Enable schedule management
+         href: /dynamics365/contact-center/administer/wfm-enable-schedule-management?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+       - name: Enable shift-based routing
+         href: /dynamics365/contact-center/administer/wfm-enable-shift-based-routing?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+     - name: Time management
+       items:
+       - name: Enable the representative calendar
+         href: /dynamics365/contact-center/administer/wfm-configure-representative-calendar?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+       - name: Enable time-off request types
+         href: /dynamics365/contact-center/administer/wfm-time-off-request-types?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+       - name: Enable shift bidding
+         href: /dynamics365/contact-center/administer/wfm-enable-shift-bids?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+       - name: Enable shift swapping
+         href: /dynamics365/contact-center/administer/wfm-enable-shift-swapping?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+       - name: Configure shift-based routing for work items
+         href: configure-routing-on-agent-calendar.md
     - name: Community
       items:
       - name: Overview of Community
