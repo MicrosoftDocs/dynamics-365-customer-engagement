@@ -43,11 +43,12 @@ To connect to the Sales MCP server with GitHub Copilot in Visual Studio Code, fo
 1. Download and open Visual Studio Code.
 
 1. Press Ctrl + Shift + P (Windows/Linux) or Cmd + Shift + P (Mac).
-1. Type **MCP: Add Server**, and select the server type as `HTTP (HTTP or Server-Sent Events)`.
+1. Type `MCP: Add Server`, and select the server type as `HTTP (HTTP or Server-Sent Events)`.
 1. Add the MCP server URL for Dynamics 365 Sales and Dataverse by using the following information:
     - For Dataverse, use the orgID in the URL. For example: https://northwind.crm10.dynamics.com
 
-    - For Dynamics 365 Sales, use the environmentID. For example: 00aa00aa-bb11-cc22-dd33-44ee44ee44ee
+    - For Dynamics 365 Sales, use the following URL and replace the environment ID.
+      `https://agent365.svc.cloud.microsoft/mcp/environments/<EnvironmentID>/servers/msdyn_SalesMCPServer`
     - Optional: If you want to send emails as well, add the Mail MCP Server, with the same Dynamics 365 environment ID.
    The following is a sample configuration:
     
