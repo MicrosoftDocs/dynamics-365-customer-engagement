@@ -36,7 +36,7 @@ After you provide consent, the agent takes about four hours to analyze your emai
 
 ## Requirements for generating suggestions based on your emails
 
-For data enrichment suggestions to appear based on the analysis of your emails, the following conditions must be met:
+For data enrichment suggestions to appear based on your emails, the following conditions must be met:
 
 1. The opportunity must have at least one email received from an external contact.
 1. The sender's email address must map to a contact who is associated with the opportunity (for example, as the primary contact, a stakeholder, or the primary contact of the parent account).
