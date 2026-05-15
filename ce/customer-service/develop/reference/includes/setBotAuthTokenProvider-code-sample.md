@@ -19,6 +19,7 @@ window.Microsoft.Omnichannel.LiveChatWidget.SDK.setBotAuthTokenProvider(async (b
 
   const data = {
     token: "token",
+    type: "TokenExchangeRequest"
   };
 
   const payload = {
