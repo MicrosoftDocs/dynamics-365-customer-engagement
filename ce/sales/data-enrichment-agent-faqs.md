@@ -40,6 +40,12 @@ All data processing occurs within Microsoft's cloud infrastructure in accordance
 
 The agent analyzes emails and generates suggestions every 4 hours. For manual updates, sellers can review suggestions as soon as they're generated. For automatic updates, changes are applied based on the enrichment frequency, which is set to **Daily** by default. This frequency can't be changed.
 
+## How do I know if my administrator has enabled manual updates or automatic updates?
+
+You can check the update mode in the [Data Enrichment pane](use-data-enrichment-agent.md) when you review suggestions for an opportunity:
+- If you see options to accept or reject suggestions, then manual updates are enabled.
+- If you see options to keep or undo changes, then automatic updates are enabled.
+
 ## Why can't I see the AI-powered Data Enrichment suggestions?
 
 If you don't see suggestions, it could be due to several reasons:
