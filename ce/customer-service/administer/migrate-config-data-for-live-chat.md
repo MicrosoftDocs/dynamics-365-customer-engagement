@@ -1,7 +1,7 @@
 ---
 title: Migrate data for live chat channel
 description: Learn to export and import data pertaining to live chat from source to target environments in Dynamics 365 Contact Center.
-ms.date: 04/29/2025
+ms.date: 05/08/2026
 ms.topic: upgrade-and-migration-article
 author: neeranelli
 ms.author: nenellim

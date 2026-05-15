@@ -1,7 +1,7 @@
 ---
 title: Export and import app configuration data
 description: Export and import app configuration data for Dynamics 365 Contact Center using the Configuration Migration tool.
-ms.date: 04/25/2025
+ms.date: 05/08/2026
 ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim

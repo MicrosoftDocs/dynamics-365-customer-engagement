@@ -1,7 +1,7 @@
 ---
 title: Set up rules to automatically create or update records
 description: Automatically create or update records from incoming activities, such as emails, social activities, or custom activities, without the need for coding.
-ms.date: 04/15/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

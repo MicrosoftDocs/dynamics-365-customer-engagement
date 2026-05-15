@@ -1,7 +1,7 @@
 ---
 title: Agent sessions and licensing
 description: Use this article to learn about agent sessions and licensing in your contact center.
-ms.date: 04/23/2025
+ms.date: 05/08/2026
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

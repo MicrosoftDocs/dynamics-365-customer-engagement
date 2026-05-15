@@ -4,7 +4,7 @@ description: Learn how to review and approve suggestions made by the Data Enrich
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 04/22/2026
+ms.date: 05/14/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -29,10 +29,19 @@ When you open an opportunity record for the first time after Data Enrichment is 
 
 :::image type="content" source="media/seller-consent-data-enrichment.png" alt-text="Screenshot of the consent banner that sellers see when they open an opportunity record after Data Enrichment is enabled" lightbox="media/seller-consent-data-enrichment.png" border="false":::
 
-After you provide consent, the agent takes about four hours to analyze your emails and generate suggestions for your opportunity records and link relevant emails. You must provide consent for both automatic updates and manual updates.
+After you provide consent, the agent takes about four hours to analyze your emails and generate suggestions, provided the [requirements for generating suggestions](#requirements-for-generating-suggestions-based-on-your-emails) are met. You must provide consent for both automatic updates and manual updates.
 
 > [!NOTE]
 > The agent only reads emails that are relevant to opportunities that you own.
+
+## Requirements for generating suggestions based on your emails
+
+For data enrichment suggestions to appear based on your emails, the following conditions must be met:
+
+1. The opportunity must have at least one email received from an external contact.
+1. The sender's email address must map to a contact who is associated with the opportunity (for example, as the primary contact, a stakeholder, or the primary contact of the parent account).
+1. There can be a delay in Outlook-to-Graph synchronization. [Learn more about expected latency](/graph/change-notifications-overview#latency).
+1. Email insight generation runs as a background process, so enrichment suggestions might take some time to appear.
 
 <a name="open-data-enrichment-suggestions"></a>
 ## Open Data Enrichment pane 

@@ -1,6 +1,6 @@
 ---
 title: Edit settings of Sales Opportunity Agent
-ms.date: 07/09/2025
+ms.date: 05/07/2026
 ms.update-cycle: 180-days
 description: Learn how to edit the settings of Sales Opportunity Agentto customize knowledge sources, update frequency, and opportunity segments for your business needs.
 ms.topic: overview

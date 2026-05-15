@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.collection: get-started
 ms.topic: concept-article
-ms.date: 04/29/2025
+ms.date: 05/08/2026
 ---
 
 # Use the Facebook channel
