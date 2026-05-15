@@ -52,6 +52,14 @@ In the **Agent behavior** section of the [Data Enrichment settings](#open-settin
 - **Enrichment frequency**: Indicates how often Data Enrichment applies updates automatically. The agent analyzes emails and generates suggestions every 4 hours. For manual updates, sellers can review suggestions as soon as they're generated. For automatic updates, changes are applied based on the enrichment frequency, which is set to **Daily** by default. This setting is informational and can't be changed.
 - **Data sources**: Shows the data sources that Data Enrichment will use to analyze and enrich opportunity records. It currently uses email interactions in your Microsoft 365 mailbox to gather context about opportunities and suggest updates. This field is informational and cannot be changed.
 
+## Enable connected skills
+
+In the **Connected skills** section of the [Data Enrichment settings](#open-settings), you can enable additional skills that Data Enrichment should leverage. The following connected skills is available for Data Enrichment:
+
+**Recommended action**: This skill surfaces the next best action to take based on the context of the opportunity. If you enable this skill for Data Enrichment, sellers can see the data enrichment suggestions in the **Suggested actions** carousel and apply the suggestions directly from there. 
+
+:::image type="content" source="media/data-enrichment-in-carousal.png" alt-text="Screenshot of the Suggested actions carousel showing a Data Enrichment suggestions.":::
+
 <a name="start-agent"></a>
 ## Start or stop the agent
 
