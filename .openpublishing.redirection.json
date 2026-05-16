@@ -36023,6 +36023,21 @@
      "source_path": "ce/customer-service/administer/associate-templates.md",
      "redirect_url": "/dynamics365/customer-service/administer/create-workstreams#associate-templates",
      "redirect_document_id": "false"
-    }  
+    },
+    {
+        "source_path": "ce/customer-service/administer/csw-enable-ai-suggested-cases-knowledge-articles.md",
+      "redirect_url": "/dynamics365/customer-service/administer/configure-copilot-features#make-copilot-available-to-representatives",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/administer/csw-faqs-ai-suggestions.md",
+      "redirect_url": "/dynamics365/customer-service/administer/configure-copilot-features#make-copilot-available-to-representatives",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/use/csw-view-ai-suggested-cases-knowledge-articles.md",
+      "redirect_url": "/dynamics365/customer-service/use/use-ask-a-question",
+      "redirect_document_id": "false"
+    }
   ]
 }

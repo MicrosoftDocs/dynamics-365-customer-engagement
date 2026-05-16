@@ -2,7 +2,7 @@
 title: Supported regions and languages for autonomous agents, copilot features, and analytics in Customer Service and Dynamics 365 Contact Center
 description: Learn about region availability and the languages supported for autonomous agents, copilot features, and analytics in Customer Service and Dynamics 365 Contact Center.
 ms.topic: concept-article
-ms.date: 04/15/2026
+ms.date: 05/07/2026
 ms.update-cycle: 90-days
 author: Soumyasd27
 ms.author: sdas
@@ -149,6 +149,5 @@ If you enable the insights feature, it affects Dataverse entitlements. Learn mor
 [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot)  
 [Set up intelligent skill finder model](set-up-isf-model.md#set-up-intelligent-skill-finder-model)  
 [Before you build a category classification model - AI Builder](/ai-builder/before-you-build-text-classification-model)  
-[Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)  
 [Configure AI topic clustering for conversations](ai-topic-clustering-conversations.md)  

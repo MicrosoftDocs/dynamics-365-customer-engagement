@@ -46,8 +46,6 @@
             href: view-social-profile.md
           - name: Convert a case to a knowledge article
             href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
-          - name: View AI-suggested similar cases and knowledge articles
-            href: csw-view-ai-suggested-cases-knowledge-articles.md
           - name: Manage cases using interactive dashboards
             href: customer-service-hub-user-guide-dashboard.md
       - name: Service-level agreements
