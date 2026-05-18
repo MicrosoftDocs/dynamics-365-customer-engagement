@@ -4,7 +4,7 @@ description: Learn how to review and approve suggestions made by the Data Enrich
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 05/14/2026
+ms.date: 05/18/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -46,8 +46,8 @@ For data enrichment suggestions to appear based on your emails, the following co
 ## Access data enrichment suggestions
 
 You can access the Data Enrichment suggestions for your opportunities in two ways:
-- By selecting the suggestions in the **Suggested actions** carousel in the opportunity list view. This allows you to see all available suggestions for your opportunities in one place.
-- By opening the Data Enrichment pane from an opportunity record. This allows you to review the suggestions specific to that opportunity.
+- By selecting the suggestions in the **Suggested actions** carousel in the opportunity list view. This option allows you to see all available suggestions for your opportunities in one place.
+- By opening the Data Enrichment pane from an opportunity record. This option allows you to review suggestions specific to the opportunity.
 
 ### View Data Enrichment suggestions for all your opportunities
 
@@ -58,7 +58,7 @@ The **Suggested actions** carousel provides a quick view of the next best action
 
 1. In the Sales Hub app, select **Opportunities** from the left navigation pane. 
 2. Switch to the read-only grid view by selecting **Show As > Read Only Grid** from the top of the opportunity list. 
-   The **Suggested actions** carousel appears at the top of the opportunity list if there are any suggestions available for your opportunities. The enrichment suggestions appear at the end of the carousel as stacked cards if suggestions for multiple opportunities are available.
+   The **Suggested actions** carousel appears at the top of the opportunity list. The enrichment suggestions appear at the end of the carousel as stacked cards if suggestions for multiple opportunities are available.
    :::image type="content" source="media/data-enrichment-in-carousal.png" alt-text="Screenshot of the Suggested actions carousel showing stacked cards for Data Enrichment suggestions for multiple opportunities" border="false":::
 1. Select the **New enrichment suggestions** stacked card.
    The list of opportunities with suggestions appears in the **Opportunities with pending enrichment** view. The **Data Enrichment** pane for the first opportunity in the list opens on the right side.
@@ -77,7 +77,7 @@ The **Suggested actions** carousel provides a quick view of the next best action
 
 ## Review and approve suggestions manually
 
-If your admin has configured the agent for manual updates, you need to manually review and approve the suggestions.
+If your admin has configured the agent for manual updates, you need to manually review and approve the suggestions. [How do I know if my administrator has enabled manual updates or automatic updates?](data-enrichment-agent-faqs.md#how-do-i-know-if-my-administrator-has-enabled-manual-updates-or-automatic-updates)
 
 1. In the **Suggestions** tab of the Data Enrichment pane, hover over the information icon next to each suggestion to see details about the source of the suggestion. 
    :::image type="content" source="media/data-enrichment-pane.png" alt-text="Screenshot of the Data Enrichment pane showing suggestions for an opportunity record" border="false":::
@@ -147,3 +147,9 @@ The information that you see depends on how Data Enrichment is configured:
 **To view the change history:**
 
 In the **History** tab of the Data Enrichment pane, view the list of changes made to the opportunity record based on Data Enrichment suggestions. 
+
+## Related information
+
+- [Edit AI-powered Data Enrichment settings](data-enrichment-agent-edit-settings.md)  
+- [FAQs about AI-powered Data Enrichment for opportunities](data-enrichment-agent-faqs.md)
+- [Responsible AI FAQ about AI-powered Data Enrichment for opportunities](FAQs-data-enrichment-agent.md)

@@ -4,7 +4,7 @@ description: Discover how to update agent settings, define access, and set enric
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 04/22/2026
+ms.date: 05/18/2026
 ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -54,10 +54,11 @@ In the **Agent behavior** section of the [Data Enrichment settings](#open-settin
 
 ## Enable connected skills
 
-Connected skills extend Data Enrichment by integrating it with other features in Dynamics 365 Sales. In the **Connected skills** section of the [Data Enrichment settings](#open-settings), the following connected skill is available:
+Connected skills extend Data Enrichment by integrating it with other features in Dynamics 365 Sales. In the **Connected skills** section of the [Data Enrichment settings](#open-settings), the following skill is currently available:
 
 **Recommended action**: When enabled, Data Enrichment suggestions appear as cards in the **Suggested actions** carousel on the opportunity list view, so sellers can review and apply suggestions without opening each opportunity individually. The skill surfaces the next best action based on the context of the opportunity. If this skill isn't enabled, sellers can still access Data Enrichment suggestions directly from within each opportunity record, but the suggestions won't appear in the **Suggested actions** carousel.
 
+The following screenshot shows an example of a Data Enrichment suggestion surfaced in the Suggested actions carousel for sellers to act on:
 :::image type="content" source="media/data-enrichment-in-carousal.png" alt-text="Screenshot of the Suggested actions carousel showing Data Enrichment suggestions.":::
 
 To enable a connected skill, select it and then select **Apply changes**.
