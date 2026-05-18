@@ -302,6 +302,8 @@ items:
             href: sales-copilot-faq.md
           - name: Configure zero prompt experience
             href: zero-prompt-experience.md
+          - name: Generate debug reports for Copilot in Dynamics 365 Sales
+            href: debug-reports-for-copilot.md
       - name: Dynamics 365 Sales Model Context Protocol (MCP) Server
         items:
           - name: Overview of Sales MCP Server
