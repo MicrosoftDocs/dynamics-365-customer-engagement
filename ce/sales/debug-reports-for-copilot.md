@@ -22,11 +22,10 @@ Generate a debug report whenever you encounter issues in Copilot in Dynamics 365
 
 1. Open the Copilot chat interface in Dynamics 365 Sales. You must have an active Copilot session with queries and responses to generate a meaningful debug report.
 
-1. In the message input field, enter the following prompt:
+1. In the message input field, enter the following prompt and select **Send**.
    ```
    Generate Cis Debug report
    ```
-1. Select **Send**.
    Copilot processes your request and prepares the debug report with all relevant information from your Copilot chat window. This may take a few moments depending on the length of the conversation and the amount of data being compiled. You see the **Download** option once the report is ready.
 1. Select **Download** to download the Excel file containing your debug report. 
    :::image type="content" source="media/copilot-debug-report.png" alt-text="Screenshot of the Copilot interface showing the option to download the debug report after generation.":::
