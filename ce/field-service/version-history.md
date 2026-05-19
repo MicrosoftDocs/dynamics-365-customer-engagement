@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 05/01/2026
+ms.date: 05/15/2026
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
@@ -18,18 +18,25 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.145.42](/dynamics365/field-service/version-history#8814542) | TBD | 05/22 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.145.42](/dynamics365/field-service/version-history#8814542) |  TBD | 05/29 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom* | [8.8.145.42](/dynamics365/field-service/version-history#8814542) | TBD | 06/05 |
-| | *USG* | [8.8.145.42](/dynamics365/field-service/version-history#8814542) | TBD | 05/27 |
-|**Station 4** |*Europe* | [8.8.144.50](/dynamics365/field-service/version-history#8814450) |  [8.8.145.42](/dynamics365/field-service/version-history#8814542) |  05/08 |
-|**Station 5** | *North America, Oceania*| [8.8.144.50](/dynamics365/field-service/version-history#8814450) | [8.8.145.42](/dynamics365/field-service/version-history#8814542) |  05/15 |
-|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.144.50](/dynamics365/field-service/version-history#8814450) | [8.8.145.42](/dynamics365/field-service/version-history#8814542) | 05/13 |
-| | *Dedicated Scale Groups* | [8.8.144.50](/dynamics365/field-service/version-history#8814450) | [8.8.145.42](/dynamics365/field-service/version-history#8814542) | 05/22 |
+|**Station 1** |  *First Release*| [8.8.145.43](/dynamics365/field-service/version-history#8814543) | TBD | 05/22 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.145.43](/dynamics365/field-service/version-history#8814543) |  TBD | 05/29 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom* | [8.8.145.43](/dynamics365/field-service/version-history#8814543) | TBD | 06/05 |
+| | *USG* | [8.8.145.43](/dynamics365/field-service/version-history#8814543) | TBD | 05/27 |
+|**Station 4** |*Europe* | [8.8.145.43](/dynamics365/field-service/version-history#8814543) |  TBD |  06/12 |
+|**Station 5** | *North America, Oceania*| [8.8.145.43](/dynamics365/field-service/version-history#8814543) | TBD |  06/19 |
+|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.145.43](/dynamics365/field-service/version-history#8814543) | TBD | 06/17 |
+| | *Dedicated Scale Groups* | [8.8.144.50](/dynamics365/field-service/version-history#8814450) | [8.8.145.43](/dynamics365/field-service/version-history#8814543) | 05/22 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.145.43
+This release is a hotfix on Field Service version [8.8.145.42](/dynamics365/field-service/version-history#8814542)
+(Includes Universal Resource Scheduling version [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix) and Resource Scheduling controls version 1.2.100.261021)
+
+- **Fixes & Improvements**
+    - Booking Status control in the new mobile experience: Fixed an issue where turning off icons in Booking Status settings didn't take effect. Icons now correctly hide when the setting is set to No.
 
 ## 8.8.145.42
 This release is a hotfix on Field Service version [8.8.145.22](/dynamics365/field-service/version-history#8814522)
