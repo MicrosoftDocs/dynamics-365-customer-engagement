@@ -30224,11 +30224,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/field-service/share-schedule-board-tab.md",
-      "redirect_url": "/dynamics365/field-service/schedule-board-tab-settings",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/field-service/set-work-hours-resource.md",
       "redirect_url": "/dynamics365/field-service/set-up-bookable-resources",
       "redirect_document_id": false
