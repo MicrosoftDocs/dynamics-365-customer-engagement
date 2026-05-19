@@ -1,7 +1,7 @@
 ---
 title: FAQs about AI-powered Data Enrichment for opportunities
 description: Explore frequently asked questions about AI-powered Data Enrichment in Dynamics 365 Sales and how it transforms your CRM data into valuable insights.
-ms.date: 04/22/2026
+ms.date: 05/19/2026
 ms.update-cycle: 180-days
 ms.topic: faq
 ms.service: dynamics-365-sales
@@ -56,3 +56,11 @@ If you don't see suggestions, it could be due to several reasons:
     - If you are the owner of the opportunity, ensure that you have [provided consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to analyze your emails. 
     - If you're looking at an opportunity that you don't own, it's possible that the owner of that opportunity has not provided consent to analyze their emails or they don't have access to the Data Enrichment feature.
 - **Data availability**: There may not be sufficient data or relevant email interactions to generate suggestions for that opportunity.
+
+## Why did my data enrichment suggestions disappear?
+
+If you previously saw suggestions from AI-powered Data Enrichment but no longer see them, it could be due to the following reasons:
+
+- **Suggestions have been applied:** If you or another user applied the suggestions to the opportunity records, they'll no longer be visible.
+- **Suggestions were dismissed:** If suggestions were dismissed by users, they will not be shown again.
+- **Suggestions were more than 180 days old:** Suggestions are retained only for 180 days. Suggestions generated more than 180 days ago are automatically deleted and are no longer visible in the Data Enrichment pane. 
