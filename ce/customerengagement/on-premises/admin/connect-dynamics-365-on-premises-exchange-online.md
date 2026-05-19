@@ -22,8 +22,11 @@ author: DerekBraunMSFT
 >
 > This integration will be removed in the following months:
 >
-> - On-premises version 8x (currently deprecated): January 1st, 2026
-> - On-premises version 9x: April, 2027
+> **Important dates**
+>
+> - **May 25, 2026** — End of support for V8.0 On-Prem -> Exchange Online.
+> - **October 1, 2026** — Recommended deadline to migrate to Dynamics 365 Online, or [Whitelist tenant with EWS for continued support](https://techcommunity.microsoft.com/blog/exchange/exchange-online-ews-your-time-is-almost-up/4492361).
+> - **April 1, 2027** — End of support for v9.0 On-Prem -> Exchange Online.
 >
 > If you need server-side synchronization functionality, we recommend that you migrate to Dynamics 365 Online. Learn more in [Dynamics CRM (on-premises) to Dynamics 365 migration](/dynamics365/guidance/fasttrack/migration) and [Dynamics CRM (on-premises) to Dynamics 365 online migration process overview](/dynamics365/guidance/migrate/opol-crm-migration-high-level-overview).
 >
