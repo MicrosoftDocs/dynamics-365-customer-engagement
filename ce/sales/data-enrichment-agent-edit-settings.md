@@ -52,16 +52,16 @@ In the **Agent behavior** section of the [Data Enrichment settings](#open-settin
 - **Enrichment frequency**: Indicates how often Data Enrichment applies updates automatically. The agent analyzes emails and generates suggestions every 4 hours. For manual updates, sellers can review suggestions as soon as they're generated. For automatic updates, changes are applied based on the enrichment frequency, which is set to **Daily** by default. This setting is informational and can't be changed.
 - **Data sources**: Shows the data sources that Data Enrichment will use to analyze and enrich opportunity records. It currently uses email interactions in your Microsoft 365 mailbox to gather context about opportunities and suggest updates. This field is informational and cannot be changed.
 
-## Enable connected skills
+## Enable or disable connected skills
 
-Connected skills extend Data Enrichment by integrating it with other features in Dynamics 365 Sales. In the **Connected skills** section of the [Data Enrichment settings](#open-settings), the following skill is currently available:
+Connected skills extend Data Enrichment by integrating it with other features in Dynamics 365 Sales. In the **Connected skills** section of the [Data Enrichment settings](#open-settings), the following skill is currently available and turned on by default:
 
-**Recommended action**: When enabled, Data Enrichment suggestions appear as cards in the **Suggested actions** carousel on the opportunity list view, so sellers can review and apply suggestions without opening each opportunity individually. The skill surfaces the next best action based on the context of the opportunity. If this skill isn't enabled, sellers can still access Data Enrichment suggestions directly from within each opportunity record, but the suggestions won't appear in the **Suggested actions** carousel.
+**Recommended action**: When enabled, this skill displays Data Enrichment suggestions in the **Suggested actions** carousel on the opportunity list view, allowing sellers to review and apply suggestions without opening individual opportunities. The skill recommends the next best action based on opportunity context. If disabled, sellers can still access data enrichment suggestions from within each opportunity record, but they won't appear in the carousel.
 
 The following screenshot shows an example of a Data Enrichment suggestion surfaced in the Suggested actions carousel for sellers to act on:
 :::image type="content" source="media/data-enrichment-in-carousal.png" alt-text="Screenshot of the Suggested actions carousel showing Data Enrichment suggestions.":::
 
-To enable a connected skill, select it and then select **Apply changes**.
+Select the toggle next to the skill name to enable or disable it based on your preferences.
 
 <a name="start-agent"></a>
 ## Start or stop the agent
