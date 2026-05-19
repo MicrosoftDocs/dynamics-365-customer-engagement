@@ -7,18 +7,26 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix) | TBD | 05/22 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix) | TBD | 05/29 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix) | TBD| 06/05 |
-| | *USG* | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix) | TBD | 05/27 |
-|**Station 4** |*Europe* | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix) | 05/08 |
-|**Station 5** |  *North America, Oceania*| [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix) | 05/15 |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix) | 05/13 |
-|**Station 6** | *Dedicated Scale Groups* | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix) | 05/22 |
+|**Station 1** |  *First Release*| [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix2) | TBD | 05/22 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix2) | TBD | 05/29 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix2) | TBD| 06/05 |
+| | *USG* | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix2) | TBD | 05/27 |
+|**Station 4** |*Europe* | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix2) | TBD | 06/12 |
+|**Station 5** |  *North America, Oceania*| [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix2) | TBD | 06/19 |
+|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix2) | TBD | 06/17 |
+|**Station 6** | *Dedicated Scale Groups* | [3.12.3370.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233701) | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix2) | 05/22 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.3399.1 (hotfix2)
+
+**Resource Scheduling Controls:** 1.2.100.261021
+
+**Dataverse:** 4.0.3399.1
+
+- No updates were made to Universal Resource Scheduling in this release.
 
 ## 3.12.3399.1 (hotfix)
 

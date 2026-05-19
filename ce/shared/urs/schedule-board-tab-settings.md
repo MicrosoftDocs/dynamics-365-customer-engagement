@@ -63,6 +63,8 @@ When you select this option, a share drop-down menu appears with easy access to 
 > - Managing schedule board access for teams by creating custom security roles and editing permissions isn't supported.
 > - The share option only appears when **Shared With** is set to **Specific People**. If the tab is configured as **Everyone** or **Just Me**, the share button isn't displayed.
 
+Learn more in [Share a schedule board tab in Field Service](../../field-service/share-schedule-board-tab.md#understand-schedule-board-access-control) and [Share a schedule board tab in Universal Resource Scheduling](../../common-scheduler/share-schedule-board-tab.md#understand-schedule-board-access-control).
+
 ### Map section
 
 The **Map** section specifies views that pull details from a record when users select an icon on the map. You can only select public views. Even though you can change existing views, it's better to copy the default view and apply changes to the copy. Views related to resources are based on the *Bookable Resource* entity. Views related to organizational units are based on the *Organizational Unit* entity.
