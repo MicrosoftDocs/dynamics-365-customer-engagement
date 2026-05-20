@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales to improve sales productivity and effectiveness. 
-ms.date: 03/10/2026
+ms.date: 05/20/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -43,6 +43,7 @@ Throughout this article, the term "sales app" refers to apps that have lead and 
 - Make sure that your organization's [data loss prevention policies allow the connectors that Copilot requires](sales-copilot-faq.md#copilot-isnt-working-what-should-i-do).
 
 - Make sure that your Power Platform administrator has [turned on Copilot in Dynamics 365 Sales in Power Platform Admin Center](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales).
+- Review the [levels of control for Copilot in Dynamics 365 Sales](copilot-control-access.md) to understand who can access Copilot features in your organization. Ensure that users who need access to Copilot in Dynamics 365 Sales are included in the allowed Entra groups and follow the instructions in this article to turn on Copilot features in the Sales Hub app.
 
 ## Turn Copilot features on or off in Sales Hub
 
