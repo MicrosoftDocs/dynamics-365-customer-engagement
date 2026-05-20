@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
 description: Learn how to configure a Facebook channel and corresponding Facebook pages in Dynamics 365 Contact Center.
-ms.date: 03/11/2026
+ms.date: 05/20/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -111,7 +111,7 @@ To configure a Facebook channel, the following steps are required:
 
       If you enable the Facebook human agent message tag during an active conversation between the representative and customer, the representative must close the conversation and reopen it to communicate with the latter customer 24 hours of inactivity. Representatives can start conversations with customers for up to seven days.
 
-      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. Learn more in [Facebook Developer Tools](https://developers.facebook.com/tools/).  
+      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. Learn more in [Facebook Human Agent](https://developers.facebook.com/docs/features-reference/human-agent/).  
    1. Review the **Summary** page, and select **Create**. The channel instance is configured.
 
 1. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).
