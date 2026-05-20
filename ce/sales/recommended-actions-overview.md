@@ -32,13 +32,15 @@ Recommended actions is an intelligent capability that shows prioritized actions 
 
 - **Actionable insights**: Provides clear, actionable recommendations that sellers can execute directly from the interface. This capability reduces friction and accelerates time to action. 
 
+- **Ranking actions**: Ranks actions based on custom prioritization models that consider factors like deal importance, risk criticality, and potential impact. This capability ensures sellers focus on what matters most.  
+
 ## Supported agents and behavior
 
 | Agent type | Behavior | Charging model |
 |------------|----------|----------------|
 | Sales Opportunity Agent | Provides prioritized actions | Charged |
 | Data Enrichment Agent | Displayed in carousel, not prioritized | Not charged.<br>Data Enrichment agent actions are shown but not processed through the prioritization engine, which is why they're not billed. |
-| Custom agents | Can be onboarded and prioritized | Charged (if using intelligence layer) |
+| Custom agents | Can be onboarded and prioritized | Charged |
 
 ## Capacity usage
 
