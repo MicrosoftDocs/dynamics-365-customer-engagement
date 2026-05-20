@@ -20,6 +20,11 @@ The features that have been removed or deprecated in  Dynamics 365 Sales are lis
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.  
 
+## Chat-based AI setup assistant for Sales Close Agent
+
+The setup assistant, an AI-assisted chat-based setup feature available in preview for Sales Close Agent, is retired on June 25, 2026, after which it's removed from all environments and no longer appears in the product. Organizations that used or evaluated this preview no longer see the AI-assisted setup option. However, core Sales Close Agent functionality isn't affected, and the [standard manual setup process](configure-sales-close-agent.md) remains fully supported.  
+No action is required, but admins who used the preview should transition to the manual setup process and inform any users testing the feature.
+
 ## Add chat message to Dynamics 365 record in Microsoft Teams
 
 Effective January 2026, the ability to add chat messages from Microsoft Teams to Dynamics 365 records is deprecated. After the deprecation, you can no longer use the **Add to Dynamics 365** option in Microsoft Teams chat messages to save them to Dynamics 365 records.
