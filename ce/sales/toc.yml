@@ -272,6 +272,14 @@ items:
                 href: sales-research-agent.md
               - name: Set up and configure Sales Research Agent
                 href: configure-sales-research-agent.md
+          - name: Sales agent in Microsoft 365 Copilot
+            items:
+              - name: Overview
+                href: /microsoft-sales-copilot/sales-chat-overview?context=/dynamics365/context/sales-context
+              - name: Set up Sales agent in Microsoft 365 Copilot
+                href: /microsoft-sales-copilot/set-up-sales-chat?context=/dynamics365/context/sales-context
+              - name: Set up record creation in Dynamics 365 with Sales agent
+                href: /microsoft-sales-copilot/set-up-record-creation-dynamics-365?context=/dynamics365/context/sales-context
           - name: Import an agent into a target environment
             href: import-export-agent-solutions.md
           - name: Manage consumption-based billing
