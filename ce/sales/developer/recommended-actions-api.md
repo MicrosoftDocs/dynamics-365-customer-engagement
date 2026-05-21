@@ -67,7 +67,7 @@ Before onboarding, make sure that the following prerequisites are met:
 
 ## Step 1: Register your agent (source agent config)
 
-Add the agent to your organization through the agent creation process described in [Add custom agents for recommended actions](configure-recommended-actions.md#add-custom-agents-for-recommended-actions). During agent creation, select the option to add the agent to the recommended actions framework and provide the necessary information about the agent.  
+Add the agent to your organization through the agent creation process described in [Add custom agents for recommended actions](../configure-recommended-actions.md#add-custom-agents-for-recommended-actions). During agent creation, select the option to add the agent to the recommended actions framework and provide the necessary information about the agent.  
 Register the agent in the `msdyn_recommendedactionsourceagentconfig` table. The Recommended Actions Agent uses this table to recognize and fetch actions from your agent. 
 The key field that links your agent to the recommended actions framework is the `msdyn_internalprioritizationinstruction` field in the `msdyn_syncactionexecutionstateapiconfig` table. This field should match the `SourceAgentId` value you use when pushing actions via the API.
 
