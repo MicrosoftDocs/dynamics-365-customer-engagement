@@ -7,8 +7,7 @@ author: udaykirang
 ms.author: ramakris
 ms.reviewer: ramakris
 ms.owner: shujoshi
-ai-usage:
-  - ai-assisted
+ai-usage: ai-assisted
 search.audienceType: 
   - admin
   - customizer
