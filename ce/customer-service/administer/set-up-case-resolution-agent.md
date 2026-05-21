@@ -31,7 +31,7 @@ You can use Case Management Agent to resolve cases by identifying case intent, a
  You can specify the user the AI agent should use to send emails, the default Copilot template, and if the AI agent must use Copilot recommended template to draft emails. Perform these steps for the fully-autonomous case resolution process:
 
 1. Select **Manage** for **Case Management Agent** in **Case settings**. The **Case Management Agent** page appears.
-1. Select **Manage** for **Global settings**. The **Global settings** page appears.
+1. Select **Manage** for **Case resolution**. The **Case resolution** page appears.
 1. Set the **Application user** to the application user created in the prerequisites section. This is the user that the AI agent uses to send emails on behalf of your organization.
 1. Optionally, select **Use copilot recommended template for drafting emails**.
 1. Optionally, you can set the **Default email template** dropdown to a template the AI agent uses when Copilot email template recommendations are unavailable. If you configured Copilot recommended email templates and [line-of-business segregated email templates](configure-lob-email-templates.md), the system uses the default email template when no line-of-business email template is available for the case. 

@@ -60,7 +60,7 @@ For case resolution and follow-up, you can configure the agent to function in on
 
 - **Fully autonomous**: The agent performs end-to-end actions without human intervention.
 
-To configure fully autonomous flows, you must configure an Application User and a Shared Mailbox. The Application User handles systemic database operations (like updating case statuses), while the Shared Mailbox ensures automated outbound emails are sent from a centralized service address rather than an individual agent's account.
+To configure fully autonomous flows, you must configure an Application User and a Shared Mailbox. The agent uses the Application to send and respond to customer emails and own autonomous cases, while the Shared Mailbox ensures automated outbound emails are sent from a centralized service address rather than an individual agent's account.
 
 Perform the following steps.
 
@@ -85,7 +85,7 @@ The application user you create in Power Platform admin center is used to receiv
 | **Case Resolution** | Semi-autonomous | AI agent suggests resolutions and drafts emails for service representative review. | Guided Setup | [Set up Case Management Agent to resolve cases](set-up-case-resolution-agent.md) |
 | **Case Resolution** | Fully autonomous | AI agent automatically resolves cases and emails, based on defined logic. | Guided Setup, Application User, Shared Mailbox | [Set up Case Management Agent to resolve cases](set-up-case-resolution-agent.md) |
 | **Case Follow-up and Closure** | Semi-autonomous | AI suggests follow-up actions and drafts closure summaries for agent review. | Guided Setup | [Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md) |
-| **Case Follow-up and Closure** | Fully autonomous | AI handles the complete follow-up cadence and case closure automatically. | Guided Setup, Application User, Shared Mailbox | [Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md) |
+| **Case Follow-up and Closure** | Fully autonomous | AI handles the complete follow-up cadence and case closure automatically. | Guided Setup, Application User, Shared Mailbox. If fully autonomous case resolution is configured, the agent uses the configured shared mailbox. | [Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md) |
 
 
 

@@ -21,7 +21,7 @@ Case Management Agent follows up with customers over email. If customers don’t
 - The CSR Manager or System Administrator role.
 - [Agents are enabled](#enable-ai-agents) in Power Platform admin center.
 - For the AI agent to send follow-up emails autonomously, you must set up a dedicated application user to send and receive emails on behalf of your organization. Perform the steps in [Configure global settings for Case Management Agent](case-management-global-settings.md).
-- Copilot recommended email templates and default email templates configured in the **Global settings** page. Learn more in [Configure global settings](set-up-case-resolution-agent.md#configure-case-resolution-settings).
+- Copilot recommended email templates and default email templates configured in the **Case resolution** page. Learn more in [Configure global settings](set-up-case-resolution-agent.md).
 
 [!INCLUDE[enable-ai-agents-ppac](../../includes/ai-features/enable-ai-agents-ppac.md)]
 
@@ -31,7 +31,7 @@ Perform the following steps in Copilot Service admin center to set up autonomous
 
 1. Select **Case settings** in **Customer support**. The **Case settings** page appears.
 1. On the **Case settings** page, select **Manage** for **Case Management Agent**.
-1. On the **Case Management Agent** page, select **Autonomous case follow-up and closure**.
+1. On the **Case Management Agent** page, select **Case follow-up and closure**.
 1. On the page that appears, select **Turn on the case follow-up and closure automation**.
 1. Select **Add** to create a new rule for case follow-up and closure.
 1. In **Rules**, specify the following information. 
@@ -46,7 +46,7 @@ Perform the following steps in Copilot Service admin center to set up autonomous
    - **Follow-up wait times:** The duration between follow-up emails.
    - **Follow-up email templates**: Select **Edit** to specify the email templates that the AI agent must use to send emails for follow ups.
     > [!NOTE]
-    > The AI agent uses the rule-specific email templates to generate emails even if you configured the Copilot recommended email templates and default email templates in the **Global settings** page.
+    > The AI agent uses the rule-specific email templates to generate emails even if you configured the Copilot recommended email templates and default email templates in the **Case resolution** page.
    - Select **Save**.
 5. On the **Case follow-up and closure** page, select the rule and then select **Activate**.
 1. Optionally, after creating the rules, you can:
