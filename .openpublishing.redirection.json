@@ -36033,6 +36033,11 @@
       "source_path": "ce/customer-service/use/csw-view-ai-suggested-cases-knowledge-articles.md",
       "redirect_url": "/dynamics365/customer-service/use/use-ask-a-question",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/ci-third-party-sp-integration.md",
+      "redirect_url": "/dynamics365/sales/fre-setup-ci-sales-app",
+      "redirect_document_id": false
     }
   ]
 }
