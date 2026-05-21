@@ -26,7 +26,9 @@ Case Management Agent enables organizations to automate case lifecycle processes
 - An Azure account that has an active subscription.
 - You have the [Application Developer](/entra/identity/role-based-access-control/permissions-reference#application-developer) role to create app registrations.
 - You have the System Administrator role.
-- [Agents are enabled](#enable-ai-agents) in Power Platform admin center.
+
+[!INCLUDE[enable-ai-agents-ppac](../../includes/ai-features/enable-ai-agents-ppac.md)]
+
 
 ## Setup Case Management Agent
 
@@ -47,17 +49,18 @@ Perform the following steps in Copilot Service admin center:
         - CSCaseClosure Representative Flow
         - CSCaseFollowupAndClosure Recurrence Flow
        You can also select each item to review and enable the flows.
-    3. Publish the Case Management Agent to make it available for use.
+    3. Publish the Case Management Agent.
+1. Select **Manage** for the required flow. The corresponding page opens where you must finish the setup.
 
 ## Determine operational autonomy
 
 For case resolution and follow-up, you can configure the agent to function in one of the following modes:
 
-- Semi-autonomous (Human-in-the-loop): The AI agent acts as an assistant. It suggests resolutions and drafts follow-up emails, which a customer service representative must review and approve.
+- **Semi-autonomous (Human-in-the-loop)**: The AI agent acts as an assistant. It suggests resolutions and drafts follow-up emails, which a customer service representative must review and approve.
 
-- Fully autonomous: The agent executes end-to-end actions without human intervention.
+- **Fully autonomous**: The agent performs end-to-end actions without human intervention.
 
-To deploy fully autonomous flows securely, you must configure an Application User and a Shared Mailbox. The Application User handles systemic database operations (like updating case statuses), while the Shared Mailbox ensures automated outbound emails are sent from a centralized service address rather than an individual agent's account.
+To configure fully autonomous flows, you must configure an Application User and a Shared Mailbox. The Application User handles systemic database operations (like updating case statuses), while the Shared Mailbox ensures automated outbound emails are sent from a centralized service address rather than an individual agent's account.
 
 Perform the following steps.
 
@@ -85,7 +88,6 @@ The application user you create in Power Platform admin center is used to receiv
 | **Case Follow-up and Closure** | Fully autonomous | AI handles the complete follow-up cadence and case closure automatically. | Guided Setup, Application User, Shared Mailbox | [Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md) |
 
 
-[!INCLUDE[enable-ai-agents-ppac](../../includes/ai-features/enable-ai-agents-ppac.md)]
 
 ### Next steps
 
