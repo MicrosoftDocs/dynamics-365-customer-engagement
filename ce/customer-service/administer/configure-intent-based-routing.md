@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 05/25/2026
+ms.date: 05/21/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -19,7 +19,7 @@ Intent-driven routing makes intent a native part of unified routing. Administrat
 
 This article describes how intent-driven routing works, and how to author routing rules that use intent, intent group, and line of business as live work item attributes.
 
-In preview, live chat, voice, and record channels are supported.
+In preview, live chat, voice, and case are supported. The intent for case is determined when it's routed.
 
 > [!NOTE]
 > Intent-driven routing replaces the intent-based routing experience. Existing customers don't need to maintain intent group to user group mappings because they aren’t applicable anymore.
@@ -31,8 +31,7 @@ In preview, live chat, voice, and record channels are supported.
 - [Customer Intent Agent is enabled](/dynamics365/contact-center/administer/manage-customer-intent-agent#enable-customer-intent-agent).
 - [Intent discovery is set up](/dynamics365/contact-center/administer/manage-customer-intent-agent#manage-intent-discovery-setup).
 - For live chat, the prerequisites and steps in [Configure intent-based suggestions for Copilot agents](/dynamics365/contact-center/administer/set-up-intent-agent) are applicable. Make sure that the Copilot agent is configured in the messaging workstream, which is critical for runtime invocation.
-- For the voice channel, the prerequisites and steps in [Set up voice agents to use intents] are applicable. Make sure that the voice agent is configured in the voice workstream, which is critical for runtime invocation.
-- For case, the intent determination for case occurs when the case is routed.
+- For the voice channel, the prerequisites and steps in [Set up voice agents to use intents](/dynamics365/contact-center/administer/set-up-voice-agents-to-use-intents) are applicable. Make sure that the voice agent is configured in the voice workstream, which is critical for runtime invocation.
 
 ## How intent-based routing works
 
