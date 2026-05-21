@@ -66,8 +66,7 @@ Enter the following values::
 
     - **Unique name:** Specify a name and note it down. You'll have to use it in the next steps
 
-    - **Session Recording Server:** Specify the Dynamics 365 media recording server URL. For a list of recorders and regions supported, see [Recorder endpoints and regions supported](ci-third-party-sp-integration.md#recorder-endpoints-and-regions-supported).
-
+    - **Session Recording Server:** Specify the Dynamics 365 media recording server URL. 
         - If you would like to fork the media to the closest recorder, use the following URL: **sip:SRS@media.recording.dynamics.com:5061;secure=true**
 
         - Credentials fields can remain empty. The authentication is done with certificate on the TLS setup between Twilio and Dynamics.
