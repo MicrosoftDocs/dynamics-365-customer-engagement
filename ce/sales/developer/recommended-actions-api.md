@@ -399,7 +399,7 @@ If an action is no longer valid (for example, the risk was resolved):
 
     This action updates the state in the Recommended Actions Agent output table, hiding it from the carousel.
 
-## Step 7 — Testing and validation
+## Step 7: Testing and validation
 
 After you complete the configuration and implementation, test the end-to-end flow: 
 
