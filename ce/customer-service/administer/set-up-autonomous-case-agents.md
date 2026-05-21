@@ -27,6 +27,7 @@ You can use the creation and update feature of Case Management Agent to do the f
 
 - Administrators must have the CSR Manager or System Administrator role.
 
+- [Agents are enabled](#enable-ai-agents) in Power Platform admin center.
 - Enable [AI form fill assistance](/power-platform/admin/settings-features#ai-form-fill-assistance) in the Power Platform admin center application.
 - [Automatically create or update records](automatically-create-update-records.md) are set up to create case records from emails.
 - The following configurations are set up if you want to create a case from conversations:
@@ -40,6 +41,8 @@ You can use the creation and update feature of Case Management Agent to do the f
 - For customers to provide the details that the AI agent can use, configure [preconversation survey](configure-pre-chat-survey.md).
 - Make sure the service representatives working on the case and accepting conversations have read privileges on the `msdyn_entityattributepredictionrules` table.
 - For the AI agent to predict case fields from emails autonomously, do the steps in [Configure global settings for Case Management Agent](case-management-global-settings.md).
+
+[!INCLUDE[enable-ai-agents-ppac](../../includes/ai-features/enable-ai-agents-ppac.md)]
 
 ### Update field and lookup descriptions in Power Apps
 
