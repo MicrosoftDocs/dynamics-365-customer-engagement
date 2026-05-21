@@ -7,8 +7,7 @@ author: lavanyakr01
 ms.author: ramakris
 ms.reviewer: ramakris
 ms.custom: bap-template
-ai-usage:
-  - ai-assisted
+ai-usage: ai-assisted
 ---
 # Customize the Opportunity Close form 
 
