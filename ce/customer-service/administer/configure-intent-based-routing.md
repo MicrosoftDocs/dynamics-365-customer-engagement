@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Intent-driven routing makes intent a native part of unified routing. Administrators configure intent routing through the same rule authoring surfaces they use for every other routing attribute&mdash;classification rules and route-to-queue rules&mdash;and combine intent with skill-based routing in a single flow.
+Intent-driven routing makes intent a native part of unified routing. Administrators configure intent routing through the same rule authoring interface they use for every other routing attribute&mdash;classification rules and route-to-queue rules&mdash;and combine intent with skill-based routing in a single flow.
 
 This article describes how intent-driven routing works, and how to author routing rules that use intent, intent group, and line of business as live work item attributes.
 
@@ -40,21 +40,19 @@ In preview, live chat, voice, and case are supported. The intent for case is det
 1. The Copilot agent, configured for the workstream, detects intent from the customer and asks follow-up questions related to the intent. It then provides a solution based on customer-provided information from the connected Copilot agent knowledge source.
 1. If the issue is escalated, the Copilot agent persists the intent fields to the work item and routing is triggered.
 1. During routing, if intent-based rules are configured in classification or route-to-queue setup, unified routing honors the intent fields to take routing decisions as follows:
-   - **Classification**: Classification rules read these fields and enrich the LWI, for example, by attaching skills, priority, or other attributes based on the identified intent fields.
-   - **Route-to-queue**: Route-to-queue rules use the intent fields (along with any other LWI attributes) to select the right queue.
+   - **Classification**: Classification rules read these fields and enrich the live work item, for example, by attaching skills, priority, or other attributes based on the identified intent fields.
+   - **Route-to-queue**: Route-to-queue rules use the intent fields with any other live work item attributes to select the right queue.
    - **Assignment**: The skill-based routing engine evaluates the queue's eligible pool against the attached skills and the queue's assignment strategy, and assigns the work to the most qualified available representative.
 
 ## Configure classification rules using intent
 
-Follow the steps in [Configure work classification rulesets](configure-work-classification.md) to set up classification rules to determine the requirements of the work items and enrich the work item, typically by attaching skills or other attributes based on intent fields.
+Follow the steps in [Configure work classification rulesets](configure-work-classification.md) to set up classification rules to identify the work item requirements and enrich it, typically by attaching skills or other attributes based on intent fields.
 
 - In the rule, set the condition using one or more intent fields: Intent, Intent group, or Line of business.
 - Set the action to attach the relevant skill or other attribute to the work item.
 - Save the rule and make sure that it's active.
 
-For example, the condition can be as follows:
-
-If intent equals **cancel-order**, attach the skill **cancellations** to the work item.
+For example, if intent equals **cancel-order**, attach the **cancellations** skill to the work item.
 
 ## Configure route-to-queue rules using intent
 
