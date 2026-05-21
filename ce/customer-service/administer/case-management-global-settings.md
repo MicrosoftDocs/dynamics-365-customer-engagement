@@ -11,42 +11,55 @@ ms.date: 02/20/2026
 ms.custom: bap-template
 ---
 
-# Configure global settings for Case Management Agent 
+# Configure Case Management Agent 
 
-Configure global settings for Case Management Agent in Dynamics 365 Customer Service to enable fully autonomous case resolution, follow-up, and closure capabilities.
+Case Management Agent enables organizations to automate case lifecycle processes, including creation, updates, resolution, follow-up, and closure. The Case Management Agent has the following flows that you can configure to work together as a seamless end-to-end process, or set them up individually to address specific stages of the case lifecycle.
+
+**Case creation and update**: The agent processes incoming customer requests to create comprehensive case records. It automatically extracts key details to populate relevant fields and updates case data as new information is received.
+
+**Case resolution**: By analyzing the case context and referencing organizational knowledge bases, the agent formulates accurate resolution steps, surfaces relevant resources, and drafts tailored responses to the customer.
+
+**Case follow-up and closure**: The agent manages the post-resolution cadence. It can generate follow-up communications to ensure customer satisfaction, create concise case summaries for future reference, and automatically close the case record once all requirements are met.
 
 ## Prerequisites
 
 - An Azure account that has an active subscription.
 - You have the [Application Developer](/entra/identity/role-based-access-control/permissions-reference#application-developer) role to create app registrations.
-- The following connectors with the listed actions are available:
-    - **Connector name**: Microsoft Dataverse
-    - **List of actions**:
-        - Add a new row to selected environment
-        - Delete a row from selected environment
-        - Get a row by ID from selected environment
-        - List rows from selected environment
-        - Perform a bound action in selected environment
-        - Perform an unbound action in selected environment
-        - Relate rows in selected environment
-        - Unrelate rows in selected environment
-        - Update a row in selected environment
-        - Upsert a row in selected environment
-    - **Connector name**: Microsoft Copilot Studio
-        - **Name of the action**: ExecuteCopilotAsyncV2
+- You have the System Administrator role.
+- [Agents are enabled](#enable-ai-agents) in Power Platform admin center.
 
-## Configure global settings
+## Setup Case Management Agent
 
-The AI agent requires a dedicated application user to send emails and resolve cases autonomously. This application user handles all email communication on behalf of your organization. Do the steps in the following sections in the order specified.
+Perform the following steps in Copilot Service admin center:
 
-The global settings, such as connection references or Power Automate flows, appear on the **Case Management Agent** page with the current status under the **Prerequisites** section. Use the options to quickly navigate to the settings that need to be configured for Case Management Agent.
+1. Select **Case settings** in **Customer support**.
+1. Select **Manage** for **Case Management Agent** in the Case Settings page. The Case Management Agent appears.
+1. In **Prerequisites**, finish the guided setup. The guided lists all required configuration steps and shows the current status of each item. Use this section to complete setup, validate configuration, and resolve missing dependencies.
+    1. Select **Manage connections** to configure and authenticate the following connection references. Connection references allow the agent to access required services.
+       - Microsoft Dataverse CDS Connection
+       - Case Management Agent CDS Connection
+       - Microsoft Copilot Studio
+       - Case Management Agent MCS Connection   
+    2. Enable the following flows that allow the agent to perform actions such as case creation, updates, follow-up, and closure.
+        - Invoke case management agent
+        - Call custom agent
+        - CSCaseFollowup Representative Flow
+        - CSCaseClosure Representative Flow
+        - CSCaseFollowupAndClosure Recurrence Flow
+       You can also select each item to review and enable the flows.
+    3. Publish the Case Management Agent to make it available for use.
 
-:::image type="content" source="../media/global-settings-case-management-agent.png" alt-text="A screenshot of the prerequisites with status of each prerequisite configuration.":::
+## Determine operational autonomy
 
-### Register an application and create a secret
+For case resolution and follow-up, you can configure the agent to function in one of the following modes:
 
-1. Sign in to [Microsoft Entra admin center](https://entra.microsoft.com) and perform the steps in [register a single-tenant application registration](/entra/identity-platform/quickstart-register-app#register-an-application). After your application is registered, copy the values of **Client ** and **Tenant ** from the application overview page.
-1. Perform the steps in [Create a client secret](/entra/identity-platform/how-to-add-credentials?tabs=client-secret#add-a-credential-to-your-application) and copy **Value** of the client secret.
+- Semi-autonomous (Human-in-the-loop): The AI agent acts as an assistant. It suggests resolutions and drafts follow-up emails, which a customer service representative must review and approve.
+
+- Fully autonomous: The agent executes end-to-end actions without human intervention.
+
+To deploy fully autonomous flows securely, you must configure an Application User and a Shared Mailbox. The Application User handles systemic database operations (like updating case statuses), while the Shared Mailbox ensures automated outbound emails are sent from a centralized service address rather than an individual agent's account.
+
+Perform the following steps.
 
 ### Create an application user in Power Platform admin center
 
@@ -60,56 +73,19 @@ The application user you create in Power Platform admin center is used to receiv
 1. Go to [Microsoft 365 admin center](https://admin.cloud.microsoft/) and do the steps 1 through 4 in [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox#create-a-shared-mailbox-and-add-members). Copy the email  of the shared mailbox.
 1. In Power Platform admin center, open the application user that you created in [Create an application user](#create-an-application-user-in-power-platform-admin-center) and set the shared mailbox ID to the email ID you copied in the previous step. Learn more in [View or edit the details of an application user](/power-platform/admin/manage-application-users?tabs=new#view-or-edit-the-details-of-an-application-user).
 
-### Assign a security group to the application user
 
-1. Go to [Microsoft 365 admin center](https://admin.cloud.microsoft/) and do the steps 1 through 4 in [Create a security group](/microsoft-365/admin/email/create-edit-or-delete-a-security-group#add-a-security-group). Copy the group ID of the security group.
-1. In Power Platform admin center, open the application user that you created and update the security group ID. Learn more in [View or edit the details of an application user](/power-platform/admin/manage-application-users?tabs=new#view-or-edit-the-details-of-an-application-user).
+## Configure individual capabilities
 
-### Connect and authenticate connection references
+| Feature Area | Operational Mode | Description | Key Prerequisites | Documentation Link |
+| :--- | :--- | :--- | :--- | :--- |
+| **Case Creation and Update** | Standard AI Assistance | Manage how AI assists agents during the initial intake and continuous updating of case records. | Guided Setup | [Set up Case Management Agent for case creation and update](set-up-autonomous-case-agents.md) |
+| **Case Resolution** | Semi-autonomous | AI suggests resolutions and drafts emails for agent review. | Guided Setup | [Set up Case Management Agent to resolve cases](set-up-case-resolution-agent.md) |
+| **Case Resolution** | Fully autonomous | AI automatically resolves cases and emails customers based on defined logic. | Guided Setup, Application User, Shared Mailbox | [Set up Case Management Agent to resolve cases]set-up-case-resolution-agent.md) |
+| **Case Follow-up and Closure** | Semi-autonomous | AI suggests follow-up actions and drafts closure summaries for agent review. | Guided Setup | [Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md) |
+| **Case Follow-up and Closure** | Fully autonomous | AI handles the complete follow-up cadence and case closure automatically. | Guided Setup, Application User, Shared Mailbox | [Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md) |
 
-Authenticate the following connection references using an admin account to enable Case Management Agent to access data sources. These connections are essential for the agent to perform autonomous case processing, data retrieval, and AI-powered customer interactions. 
 
-- **Case Processing Agent CDS Connection**
-- **Case Processing Agent MCS Connection**
-- **Microsoft Copilot Studio for Sales**, if Dynamics 365 Sales application is configured in your environment. If you don't have Dynamics 365 Sales application, use **Microsoft Dataverse CDS Connection**.
-
-Perform the following steps:
-
-1. In [Power Apps](https://make.powerapps.com/), select **Solutions** and then select **Default Solution**.
-1. In the **Objects** pane, search for and select **Connection References**. The list of existing connection references appears.
-1. Select **Case Processing Agent CDS Connection**.
-1. In the **Edit Case Processing Agent CDS Connection** pane that appears, do the following steps:
-    1. Select **New connection** from the **Connection** dropdown. The **New connection** page appears in a new tab. Perform the following steps:
-       1. Search and select **Dataverse**.
-       1. Select OAuth as the authentication type and then select **Create**.
-       1. In the pop-up, select the admin account to authenticate the connection.
-       1. After the connection is created, the status of the connection reference changes to **Connected**.
-1. In the **Edit Case Processing Agent CDS Connection** pane, from the **Connection** dropdown, select the admin connection that you created.
-
-- Repeat the steps to authenticate the **Case Processing Agent MCS Connection** connection reference. Make sure to select **Microsoft Copilot Studio** instead of **Dataverse** when you're creating a new connection.
-- For **Microsoft Copilot Studio for Sales** or **Microsoft Dataverse CDS Connection**, in the edit pane that appears, the admin ID appears in the **Connection** dropdown. Select the admin ID. You don't have to create a new connection.
-
-### Enable flows
-
-In Power Automate, make sure that the **Invoke case processing agent** and **Call custom agent** flows are enabled. Learn more in [Turn on a flow](/power-automate/disable-flow#turn-on-a-flow).
-
-### Add connection references in Copilot Studio
-
-In Copilot Studio, perform the following steps:
-
- 1. Select **Agents** and then select **Case Processing Agent**.
- 1. In the **Case Processing Agent** page, select **Publish**.
- 1. In the **Case Processing Agent** page, do the steps to [View connections on the Connection Settings page](/microsoft-copilot-studio/authoring-connections#view-connections-on-the-connection-settings-page). **Microsoft Dataverse** and **Call custom agent** appears on the **Manage connections** page.
-
-   - For Dataverse, add a new connection reference using service principal authentication to establish the identity and authorization framework for Case Management Agent. Perform the following steps:
-       1. Select **Connect** for **Microsoft Dataverse**.
-       1. On the page that appears, select **...** > **Add new connection**.
-       1. Select Service Principal as the authentication type.
-       1. Specify the **Client ID**, **Client Secret**, and **Tenant ID** that you copied in the [Register an application and create a secret](#register-an-application-and-create-a-secret) section and then select **Create**. After the connection is created, the status of the connection reference changes to **Connected**.
-   - For **Call custom agent**, you can use the Oauth authentication.
-       1. Select **Connect** for **Call custom agent**.
-       1. On the page that appears, select **...** and then select the admin connection.
-       1. Select **Submit**. After the connection is created, the status of the connection reference changes to **Connected**.
+[!INCLUDE[enable-ai-agents-ppac](../../includes/ai-features/enable-ai-agents-ppac.md)]
 
 ### Next steps
 
