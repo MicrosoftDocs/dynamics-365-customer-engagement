@@ -83,7 +83,7 @@ The application user you create in Power Platform admin center is used to receiv
 | :--- | :--- | :--- | :--- | :--- |
 | **Case Creation and Update** | Standard AI Assistance | Manage how AI assists agents during the initial intake and continuous updating of case records. | Guided Setup | [Set up Case Management Agent for case creation and update](set-up-autonomous-case-agents.md) |
 | **Case Resolution** | Semi-autonomous | AI suggests resolutions and drafts emails for agent review. | Guided Setup | [Set up Case Management Agent to resolve cases](set-up-case-resolution-agent.md) |
-| **Case Resolution** | Fully autonomous | AI automatically resolves cases and emails customers based on defined logic. | Guided Setup, Application User, Shared Mailbox | [Set up Case Management Agent to resolve cases]set-up-case-resolution-agent.md) |
+| **Case Resolution** | Fully autonomous | AI automatically resolves cases and emails customers based on defined logic. | Guided Setup, Application User, Shared Mailbox | [Set up Case Management Agent to resolve cases](set-up-case-resolution-agent.md) |
 | **Case Follow-up and Closure** | Semi-autonomous | AI suggests follow-up actions and drafts closure summaries for agent review. | Guided Setup | [Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md) |
 | **Case Follow-up and Closure** | Fully autonomous | AI handles the complete follow-up cadence and case closure automatically. | Guided Setup, Application User, Shared Mailbox | [Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md) |
 
