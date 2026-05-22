@@ -18,10 +18,10 @@ Case Management Agent follows up with customers over email. If customers don’t
 
 ## Prerequisites
 
-- The CSR Manager or System Administrator role.
-- [Agents are enabled](#enable-ai-agents) in Power Platform admin center.
+- The CSR Manager or Customer Service Representative role.
 - For the AI agent to send follow-up emails autonomously, you must set up a dedicated application user to send and receive emails on behalf of your organization. Perform the steps in [Configure global settings for Case Management Agent](case-management-global-settings.md).
-- Copilot recommended email templates and default email templates configured in the **Case resolution** page. Learn more in [Configure global settings](set-up-case-resolution-agent.md).
+- The global settings for Case Management Agent are configured. Learn more in [Configure Case Management Agent](case-management-global-settings.md).
+- Make sure you review and configure the prerequisites, such as application user and shared mailbox, if you want to configure the fully autonomous Case Management Agent flow. Learn more in [Configure individual capabilities](case-management-global-settings.md#configure-individual-capabilities).
 
 [!INCLUDE[enable-ai-agents-ppac](../../includes/ai-features/enable-ai-agents-ppac.md)]
 
@@ -41,7 +41,10 @@ Perform the following steps in Copilot Service admin center to set up autonomous
         - **Require human confirmation**: The AI agent drafts follow-up emails, initiates case closure and populates the required fields, but requires the service representative to review and send the email and manually close the case. 
         - **Full automation**: The AI agent automatically sends follow-up emails and closes the case if the customer does not respond after the specified number of follow-ups.
    - **Follow-up emails:** Fields the agent should refer to when drafting the follow-up emails. This is optional.
-   - **Status Reason:** The status reason that triggers a follow-up action as a suggestion to the representative.
+   - Use the **Follow-up trigger** settings to define how and when the Case Management Agent initiates each follow-up step in the case lifecycle. You must select at least one trigger option.
+       - Select **Follow-up based on context** for the agent to automatically start follow-up actions based on the content of customer emails, irrespective of the case status.
+       - Select **Follow-up based on status reason** for the agent to start follow-up actions when the case reaches a specific status reason value
+       - **Status Reason:** The status reason that triggers a follow-up action as a suggestion to the representative.
    - **Number of follow-ups:** The number of follow-up emails the agent must send without a response from the customer before resolving a case. The application considers the email sent by the service representative without a response from the customer as the first follow-up.
    - **Follow-up wait times:** The duration between follow-up emails.
    - **Follow-up email templates**: Select **Edit** to specify the email templates that the AI agent must use to send emails for follow ups.
@@ -53,20 +56,8 @@ Perform the following steps in Copilot Service admin center to set up autonomous
    - Change the order in which the rules are evaluated.
    - Search for rules.
    - View the condition used for each rule by hovering over the condition.
-1. Select **Let Copilot fill out resolution details when a customer service representative wants to resolve a case** for the AI agent to automatically fill out the case resolution dialog, when the case status is set to resolved. 
+1. Select **Let Copilot fill out resolution details when a customer service representative wants to resolve a case** for the AI agent to automatically fill out the case resolution dialog, when the case status is set to resolved.
 1. Select **Manage data sources** to specify the fields the AI agent must use to fill out the resolution dialog.
-
-## Enable Power Automate flows
-
-In Power Apps, make sure that the **CSCaseClosure Agent Flow**, **CSCaseFollowup Agent flow**, and **CSCaseClosure Representative Flow** are connected to Microsoft Dataverse and Microsoft Copilot Studio.
-
-1. Navigate to **Power Automate** > **Solutions**.
-1. Select your solution.
-1. In **Objects**, search for and select **Cloud flows**. The default Cloud flows in the organization are displayed. 
-1. Select edit for each of **CSCaseClosure Agent Flow**, **CSCaseFollowup Agent flow**, and **CSCaseClosure Representative Flow**. The connection status of the flow should be **Connected**.
-
-
-:::image type="content" source="../media/powerapps-flow-status.png" alt-text="Screenshot of connection status of flow.":::
 
 ## Example
 
@@ -86,6 +77,35 @@ The AI agent should automatically initiate the case follow-up process for cases 
     3. Final follow-up: 48 hours  
 
 The AI agent first evaluates all the cases that have "Contoso Coffee" in the title and are older than 7 days. If the **Status Reason** of the case is set to "On Hold", and if the customer hasn't responded to the email sent by the AI agent in the last 48 hours, the AI agent initiates the case follow-up process. If the customer doesn't respond after the third follow-up, the AI agent populates the case resolution dialog with the required information and closes the case.
+
+
+##  Run simulations to evaluate case resolution by Case Management Agent (preview) 
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+Use sample records to test and compare case resolution by Case Management Agent before enabling the agent in production.
+
+> [!NOTE]
+> - You can run simulation only if the level of automation for the line of business is set to Disabled.
+> - Simulations consume Copilot or AI credits in the same way as agent runs.
+
+### Set up a simulation
+
+1. On the **Case Management Agent** page, in **Case follow-up and closure**, select **Manage**. The **Case resolution** page appears.
+1. Select **Go to simulation** in the **Command** menu. The **Case resolution simulation** page appears.
+1. On the **Simulation setup** tab, provide the following information:
+
+    1. **Simulation name**: Provide a simulation name.
+    1. Specify **Follow-up rules** to validate how your draft rule matches real cases and ensure the follow-up conditions behave as expected before activation.
+    1. Select **Show matching cases**. The **Selected record** section appears that shows cases based on line of business and any additional filters that you might have added in the **Additional record filters** dropdown. The first 100 matching cases only are shown because simulations can run on a maximum of 100 cases at a time.
+  1. Select the cases and then select **Run simulation**. The **Simulation result** tab shows the results.
+
+### View a simulation report
+
+Simulations are listed with details of the simulation name, line of business, run date, status, and results on the **Simulation result** tab.
+
+- Select **Download** to export an Excel report.
+- Select **View** to see simulation results for a specific line of business. The page displays the run details along with individual case predictions showing intent, action type, and generated response. Select **View Email** to view the generated response email.
 
 ## Enable shadow mode and view results (preview)
 

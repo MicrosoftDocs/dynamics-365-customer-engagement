@@ -25,34 +25,23 @@ Case Management Agent enables organizations to automate case lifecycle processes
 
 - An Azure account that has an active subscription.
 - You have the [Application Developer](/entra/identity/role-based-access-control/permissions-reference#application-developer) role to create app registrations.
-- You have the System Administrator role.
+- You have the CSR Manager or Customer Service Representative role.
 
 [!INCLUDE[enable-ai-agents-ppac](../../includes/ai-features/enable-ai-agents-ppac.md)]
 
 
 ## Setup Case Management Agent
 
-Perform the following steps in Copilot Service admin center:
+The AI agent requires a dedicated application user to send emails and resolve cases autonomously. This application user handles all email communication on behalf of your organization. Do the steps in the following sections in the order specified.
+
+The global settings, such as connection references or Power Automate flows, appear on the **Case Management Agent** page with the current status under the **Prerequisites** section. Use the options to quickly navigate to the settings that need to be configured for Case Management Agent. You can navigate to the **Case Management Agent** page as follows:
 
 1. Select **Case settings** in **Customer support**.
-1. Select **Manage** for **Case Management Agent** in the Case Settings page. The Case Management Agent appears.
-1. In **Prerequisites**, finish the guided setup. The guided lists all required configuration steps and shows the current status of each item. Use this section to complete setup, validate configuration, and resolve missing dependencies.
-    1. Select **Manage connections** to configure and authenticate the following connection references. Connection references allow the agent to access required services.
-       - Microsoft Dataverse CDS Connection
-       - Case Management Agent CDS Connection
-       - Microsoft Copilot Studio
-       - Case Management Agent MCS Connection   
-    2. Enable the following flows that allow the agent to perform actions such as case creation, updates, follow-up, and closure.
-        - Invoke case management agent
-        - Call custom agent
-        - CSCaseFollowup Representative Flow
-        - CSCaseClosure Representative Flow
-        - CSCaseFollowupAndClosure Recurrence Flow
-       You can also select each item to review and enable the flows.
-    3. Publish the Case Management Agent.
-1. Select **Manage** for the required flow. The corresponding page opens where you must finish the setup.
+1. Select **Manage** for **Case Management Agent** in the Case Settings page. 
 
-## Determine operational autonomy
+Select **Manage** for the required flow you want to configure.
+
+## Determine level of automation
 
 For case resolution and follow-up, you can configure the agent to function in one of the following modes:
 
@@ -60,7 +49,7 @@ For case resolution and follow-up, you can configure the agent to function in on
 
 - **Fully autonomous**: The agent performs end-to-end actions without human intervention.
 
-To configure fully autonomous flows, you must configure an Application User and a Shared Mailbox. The agent uses the Application to send and respond to customer emails and own autonomous cases, while the Shared Mailbox ensures automated outbound emails are sent from a centralized service address rather than an individual agent's account.
+To configure fully autonomous flows, you must configure an application user and a shared mailbox. Through the application user, agents manage autonomous cases and handle customer correspondence. For automated outbound emails, a Shared Mailbox is used to ensure messages come from a centralized address.
 
 Perform the following steps.
 
@@ -76,7 +65,6 @@ The application user you create in Power Platform admin center is used to receiv
 1. Go to [Microsoft 365 admin center](https://admin.cloud.microsoft/) and do the steps 1 through 4 in [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox#create-a-shared-mailbox-and-add-members). Copy the email  of the shared mailbox.
 1. In Power Platform admin center, open the application user that you created in [Create an application user](#create-an-application-user-in-power-platform-admin-center) and set the shared mailbox ID to the email ID you copied in the previous step. Learn more in [View or edit the details of an application user](/power-platform/admin/manage-application-users?tabs=new#view-or-edit-the-details-of-an-application-user).
 
-
 ## Configure individual capabilities
 
 | Feature Area | Operational Mode | Description | Prerequisites | Learn more |
@@ -86,8 +74,6 @@ The application user you create in Power Platform admin center is used to receiv
 | **Case Resolution** | Fully autonomous | AI agent automatically resolves cases and emails, based on defined logic. | Guided Setup, Application User, Shared Mailbox | [Set up Case Management Agent to resolve cases](set-up-case-resolution-agent.md) |
 | **Case Follow-up and Closure** | Semi-autonomous | AI suggests follow-up actions and drafts closure summaries for agent review. | Guided Setup | [Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md) |
 | **Case Follow-up and Closure** | Fully autonomous | AI handles the complete follow-up cadence and case closure automatically. | Guided Setup, Application User, Shared Mailbox. If fully autonomous case resolution is configured, the agent uses the configured shared mailbox. | [Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md) |
-
-
 
 ### Next steps
 

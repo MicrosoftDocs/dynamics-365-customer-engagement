@@ -18,13 +18,24 @@ You can use Case Management Agent to resolve cases by identifying case intent, a
 
 ## Prerequisites
 
-- [Agents are enabled](#enable-ai-agents) in Power Platform admin center.
 - Make sure [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot) is set up in the Power Platform admin center application.
 - The Power Platform [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview) mandates the use of an Azure subscription the system charges when the agent runs. Make sure you [Set up consumption-based billing](setup-pay-as-you-go.md).
 - [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent) is configured.
-- For the AI agent to send emails and resolve cases autonomously, you must set up a dedicated application user to send and receive emails on behalf of your organization. Perform the steps in [Configure global settings for Case Management Agent](case-management-global-settings.md).
+- The global settings for Case Management Agent are configured. Learn more in [Configure Case Management Agent](case-management-global-settings.md).
+- Make sure you review and configure the prerequisites, such as application user and shared mailbox, if you want to configure the fully autonomous Case Management Agent flow. Learn more in [Configure individual capabilities](case-management-global-settings.md#configure-individual-capabilities).
 
-[!INCLUDE[enable-ai-agents-ppac](../../includes/ai-features/enable-ai-agents-ppac.md)]
+
+## Configure level of automation
+
+In Copilot Service admin center, follow these steps to configure the automation level for each line of business:
+
+1. Select **Manage** for **Case Management Agent** in **Case settings**. The **Case Management Agent** page appears.
+1. Select **Manage** for **Case resolution**. The **Case resolution** page appears.
+1. In **Level of automation per line of business**, the lines of business you configured for Customer Intent Agent appear. Select the required line of business and then select **Edit**. You can specify the following automation levels for each line of business:
+   - **Full**: The AI agent automatically resolves cases.
+   - **Require agent confirmation**: The AI agent drafts email responses, but requires a representative to review and send the email.
+   - [**Shadow mode**](#enable-shadow-mode-and-view-results-preview)
+   - **Disabled**: The agent doesn't draft email responses. 
 
 ## Configure case resolution settings
 
@@ -32,21 +43,11 @@ You can use Case Management Agent to resolve cases by identifying case intent, a
 
 1. Select **Manage** for **Case Management Agent** in **Case settings**. The **Case Management Agent** page appears.
 1. Select **Manage** for **Case resolution**. The **Case resolution** page appears.
-1. Set the **Application user** to the application user created in the prerequisites section. This is the user that the AI agent uses to send emails on behalf of your organization.
+1. Set the **Application user** to the application user created in the prerequisites section. This is the user that the AI agent uses to send emails on behalf of your organization. This is required only when configuring the fully-autonomous agent flow.
 1. Optionally, select **Use copilot recommended template for drafting emails**.
 1. Optionally, you can set the **Default email template** dropdown to a template the AI agent uses when Copilot email template recommendations are unavailable. If you configured Copilot recommended email templates and [line-of-business segregated email templates](configure-lob-email-templates.md), the system uses the default email template when no line-of-business email template is available for the case. 
 If you don't select a default template and Copilot recommended email templates is configured, after the agent identifies the intent, it sends emails using the [Copilot inline email assist capabilities](/dynamics365/contact-center/use/use-copilot-email#use-copilot-to-draft-an-email).
 
-## Configure level of automation
-
-In Copilot Service admin center, follow these steps to configure the automation level for each line of business:
-
-1. Select **Manage** for **Case Management Agent** in **Case settings**. The **Case Management Agent** page appears.
-1. Select **Manage** for **Case Resolution**. The **Case resolution** page appears.
-1. In **Level of automation per line of business**, the lines of business you configured for Customer Intent Agent appear. Select the required line of business and then select **Edit**. You can specify the following automation levels for each line of business:
-   - **Full**: The AI agent automatically resolves cases.
-   - **Require agent confirmation**: The AI agent drafts email responses, but requires a representative to review and send the email.
-   - **Disabled**: The agent doesn't draft email responses. 
 
 ## Configure language for case resolution
 
@@ -97,7 +98,8 @@ You can integrate Case Management Agent with custom Microsoft Copilot Studio age
 Use sample records to test and compare case resolution by Case Management Agent before enabling the agent in production.
 
 > [!NOTE]
-> Simulations consume Copilot or AI credits in the same way as agent runs.
+> - You can run simulation only if the level of automation for the line of business is set to Disabled.
+> - Simulations consume Copilot or AI credits in the same way as agent runs.
 
 ### Set up a simulation
 
