@@ -1,7 +1,7 @@
 ---
 title: Set up and configure the Sales Qualification Agent
 description: Set up the Sales Qualification Agent in Dynamics 365 Sales to automate lead research, engagement, and outreach with AI-powered assistance. Learn how to configure it effectively.
-ms.date: 04/27/2026
+ms.date: 05/29/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -135,6 +135,9 @@ Let's look at the steps to set up and configure the agents.
 
 When you have configured the Sales Qualification Agent in one environment, you can export the agent as a solution and import it into another environment. This is especially useful when you have set up the agent in a sandbox or test environment and want to deploy it in production after testing and validation. Learn more in [Import an agent into a target environment](import-export-agent-solutions.md).
 
+## Manage views in custom model-driven apps
+
+If your sellers use a custom model-driven app instead of the Sales Hub, you need to ensure that the required Sales Qualification Agent views are added to the custom app for sellers to see AI-generated insights and use agent capabilities. Learn more in [Use Sales Qualification Agent in custom model-driven apps](sqa-custom-model-driven-app.md).
 
 ## Related information
 
