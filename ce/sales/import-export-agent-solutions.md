@@ -20,7 +20,7 @@ ai-usage: ai-assisted
 Deploy agents in sandbox or test environments before deploying them in production. This approach ensures they function correctly and helps you avoid potential disruptions to your business operations.  
 In Dynamics 365 Sales, use the Application Lifecycle Management (ALM) capabilities of Power Platform to export and import agent solutions across environments. Export the agent solution from a source environment, like a sandbox or test environment, and then import it into the target environment, typically production.
 
-Use this procedure to import a sales agent solution such as Sales Qualification Agent, Sales Opportunity Agent, Sales Close Agent, or Data Enrichment Agent into a target environment.
+Use this procedure to import a sales agent solution such as Sales Qualification Agent, Sales Opportunity Agent, Sales Close Agent, Recommended Actions Agent, or Data Enrichment Agent into a target environment.
 
 ## Best practices
 

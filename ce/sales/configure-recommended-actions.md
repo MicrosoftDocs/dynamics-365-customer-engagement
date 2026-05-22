@@ -96,8 +96,15 @@ If you use custom security roles in your organization, add the following privile
 | `prvWritemsdyn_prioritizedactioncatalogue` | msdyn_prioritizedactioncatalogue | User (Basic) |
 | `prvReadmsdyn_recommendedactionsourceagentconfig` | msdyn_recommendedactionsourceagentconfig | Organization (Global) |
 | `prvReadmsdyn_salesagentprofile` | msdyn_salesagentprofile | Organization (Global) |
+| `prvReadmsdyn_dataqualitysuggestion` | msdyn_dataqualitysuggestion | Organization (Global) |
+| `prvWritemsdyn_dataqualitysuggestion` | msdyn_dataqualitysuggestion | User (Basic) |
+| `prvReadmsdyn_dataqualitysource` | msdyn_dataqualitysource | Organization (Global) |
 
 To add these privileges to a custom security role, go to **Power Platform admin center** > **Environments** > select your environment > **Settings** > **Users + permissions** > **Security roles**. Open the custom role, locate each table on the **Custom Entities** or relevant tab, and set the specified access level.
+
+## Migrate agents across environments
+
+When you have configured the Recommended Actions Agent in one environment, you can export the agent as a solution and import it into another environment. This is especially useful when you have set up the agent in a sandbox or test environment and want to deploy it in production after testing and validation. Learn more in [Import an agent into a target environment](import-export-agent-solutions.md). 
 
 ## Related information
 

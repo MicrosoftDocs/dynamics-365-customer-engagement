@@ -475,3 +475,4 @@ When Sales Opportunity Agent research completes and identifies deal risks, `Deal
 
 - [Recommended Actions overview](../recommended-actions-overview.md)  
 - [Configure Recommended Actions](../configure-recommended-actions.md)
+
