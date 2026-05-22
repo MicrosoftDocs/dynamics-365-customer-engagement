@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
 description: Learn how to configure a Facebook channel and corresponding Facebook pages in Dynamics 365 Contact Center.
-ms.date: 05/20/2026
+ms.date: 05/22/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -14,7 +14,6 @@ ms.custom: bap-template
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
-
 
 Many customers use social messaging channels like Facebook for their personal communication needs. Many also prefer using messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time. This ability contrasts with real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window closes.
 
@@ -46,7 +45,7 @@ The following Facebook roles and permissions are required for integrating your F
 - If the Facebook app that you’re using is in development mode, only Facebook users who have roles within the app can send messages to the Facebook page. The Facebook app can receive messages from or forward messages to Dynamics 365 Contact Center. Learn more in [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/).
 
 - For Dynamics 365 Contact Center to be able to retrieve the customer’s username from Facebook, the customer must request for Business Asset User Profile Access in their Facebook app. Learn more in [Business Asset User Profile Access](https://developers.facebook.com/docs/features-reference/business-asset-user-profile-access).
-- 
+ 
 ## Privacy notice
 
 If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Community Cloud region). Learn more in [Connect an AI agent to Facebook](/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
