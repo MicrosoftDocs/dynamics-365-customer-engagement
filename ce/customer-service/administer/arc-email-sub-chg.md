@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 05/06/2025
+ms.date: 05/25/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -29,7 +29,7 @@ Make sure to enable the **Skipped** and **Ready for Power Automate** monitored o
 
 ## How it works
 
-A new default Boolean field, named correlatedsubjectchanged, is available for the email entity. The field is populated as true or false for inreplyto-correlated emails, and detects changes in the subject field of the email. A default regex is available that ignores the prefixes **Re:**, **re:**, or **RE:** in the email response, and then compares the subject with the correlated email’s subject. If the subject matches, the Boolean value, correlatedsubjectchanged, is set to false. 
+A new default Boolean field, named correlatedsubjectchanged, is available for the email entity. The field is populated as true or false for inreplyto-correlated emails, and detects changes in the subject field of the email. A default regex is available that ignores the prefixes **Re:**, **re:**, or **RE:** in the email response, and then compares the subject with the correlated email’s subject. If the subject matches, the Boolean value, correlatedsubjectchanged, is set to false.
 
 However, the default regex doesn’t ignore the prefixes **Fw:**, **FW:**, or **FWD:** in the forwarded email, so the Boolean value, correlatedsubjectchanged, is set to true in these cases, and if an email is forwarded, a new case is created. You can customize the default regex if it doesn't match your requirements. You can write regex expressions for multiple languages. Learn more in [Regular Expression Language - Quick Reference](/dotnet/standard/base-types/regular-expression-language-quick-reference). To edit the regex, use the OrgDbOrgSetting tool and follow the [guidance](https://github.com/seanmcne/OrgDbOrgSettings).
 
@@ -39,39 +39,50 @@ To define whether automatic record creation and update rules must create a new c
 
 1. Go to https://make.powerautomate.com/ and select the environment in which you have automatic record creation and update rules configured.
 
-1. Navigate to **My flows** from the site map, and then select **+New flow** > **Automated Cloud flow**.
+1. From the site map, navigate to **My flows** , and then select **+New flow** > **Automated Cloud flow**.
 
     If using custom roles, the owner of the flow must have read/write/delete privileges to the activity monitor entity. The CSR manager and system administrator roles have the required privileges by default.
 
 1. Name the flow, and then select the **When a row is added, modified or deleted** trigger.
 
-1. Select **Create**.
+1. Expand **Advanced Options**.
 
-1. Create a custom flow that is triggered when case creation is skipped for an email and there's an entry in the activity monitor table with the **Skipped** state.
+1. Select the following values for the fields:
 
-1. Check for the email subject change within the flow and execute automatic record creation and update rules child flow to create the case.
-    
-    1. Select the following values for the fields:
-        
-        - Change type: **Added**
-        - Table name: **Activity monitors**
-        - Scope: **Organizations**
-        - Run as: **Modifying user**
-        - Filter rows: The reason can be adjusted according to your business requirements. For example, currentstate eq 3 refers to the **Skipped** activity monitor state, and the reason can be any of the following:
-            
-            - An existing entity is already connected with this record.
-            - An active case is already connected with this record.
-            - A resolved case is already connected with this record.
-            - The rule requires a connected case to be resolved for a specific amount of time before creating a new one. This connected case is resolved for less than the amount of time selected.
+    - Change type: **Added**
+    - Table name: **Activity monitors**
+    - Scope: **Organizations**
+    - Filter rows: The reason can be adjusted according to your business requirements. For example, currentstate eq 3 and (reason eq2 or reason eq3 or reason eq 4 or reason eq5).
+    - Run as: **Modifying user**
 
-    1. Retrieve the email record. Enter **RowID** as **Monitored activity item (Value)**.
-    
-    1. Add a conditional check to verify whether the correlatedsubjectchanged attribute is set to true and proceed only if yes; otherwise, cancel. If you have complex conditional logic, we recommend that you write your logic in an unbound custom action that gives certain simple structured output, such as Boolean. Check the Boolean value and define case creation based on condition.
-    
-    1. Update the activity monitor status. If the correlatedsubjectchanged attribute is set to true from step 6c (subject doesn't match), update the current state of that activity monitor ID to **Ready for Power Automate**, and then set the **Reason** to **blank**.
-    
-    1. Continue executing automatic record creation and update rules and create case. Perform an unbound action and add the fields as shown in the screenshot.
-    
-        :::image type="content" source="../media/arc_sub_change.png" alt-text="Screenshot describes the email subject change flow."lightbox="../media/arc_sub_change.png":::
-        
-    After you complete the steps, the automatic record creation and update rule can be conditionally bypassed (based on email subject change condition) and a new case can be created.
+1. Add new step.
+1. Select **Get a row by ID** Dataverse action.
+1. Select the following values for the fields:
+
+    - Table name: **Email messages**
+    - Enter **RowID** as **Monitored activity item (Value)**.
+
+1. Add a new step.
+1. Select **Initialize variable**.
+1. Select the following values for the fields:
+    - Name: **Queue Item Id**
+    - Type: **String**
+    - Value: **json(triggerOutputs()?['body/advancedsettings'])['queueitemid']**
+
+1. Add a new step.
+1. Select **Condtion**.
+1. For the first value select **Correlated subject changed**, **is equal to**, **true**.
+1. Add an action in the **If yes** path.
+1. Select the **Update a row** Dataverse action.
+1. Select **Show advanced options**.
+1. Select the following values for the fields:
+    - Table Name: **Activity monitors**
+    - Row ID: **Activity monitor id**
+    - Current state: **Ready for Power Automate**
+1. In the **If Yes** path, select **Add an action**.
+1. Select **Perform an unbound action** Dataverse action.
+1. Select the following values for the fields:
+    - Action Name: **msdyn_ExecuteARC**
+    - CreatedEntityReference: **queueitems(@{variables('Queue Item Id')})**
+    - Rule ID: **Rule Name (Value)**
+1. Save the flow.
