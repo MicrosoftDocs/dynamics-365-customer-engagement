@@ -21,7 +21,7 @@ When a customer replies to an email after modifying or removing the content in t
 
 Administrators can use regex expressions to define whether a new case should be created when the email subject changes on a reply or a forwarded email that has a related active or resolved case.
 
-This article describes the customization steps that you can perform to create a new case when an email subject changes.
+The article describes the customization steps that you can perform to create a new case when an email subject changes.
 
 ## Prerequisites
 
@@ -43,7 +43,7 @@ To define whether automatic record creation and update rules must create a new c
 
     If using custom roles, the owner of the flow must have read/write/delete privileges to the activity monitor entity. The CSR manager and system administrator roles have the required privileges by default.
 
-1. Name the flow, and then select the **When a row is added, modified or deleted** trigger.
+1. Name the flow, and then select the **When a row is added, modified, or deleted** trigger.
 
 1. Expand **Advanced Options**.
 
@@ -55,22 +55,19 @@ To define whether automatic record creation and update rules must create a new c
     - Filter rows: The reason can be adjusted according to your business requirements. For example, currentstate eq 3 and (reason eq2 or reason eq3 or reason eq 4 or reason eq5).
     - Run as: **Modifying user**
 
-1. Add new step.
-1. Select **Get a row by ID** Dataverse action.
+1. Add a new step and select **Get a row by ID** Dataverse action.
 1. Select the following values for the fields:
 
     - Table name: **Email messages**
     - Enter **RowID** as **Monitored activity item (Value)**.
 
-1. Add a new step.
-1. Select **Initialize variable**.
+1. Add a new step and select **Initialize variable**.
 1. Select the following values for the fields:
     - Name: **Queue Item Id**
     - Type: **String**
     - Value: **json(triggerOutputs()?['body/advancedsettings'])['queueitemid']**
 
-1. Add a new step.
-1. Select **Condtion**.
+1. Add a new step and select **Condition**.
 1. For the first value select **Correlated subject changed**, **is equal to**, **true**.
 1. Add an action in the **If yes** path.
 1. Select the **Update a row** Dataverse action.
