@@ -1,7 +1,7 @@
 ---
 title: Connect AI agents and assistants to Dynamics 365 Sales MCP Server
 description: Learn how to connect your AI agents and assistants to the Dynamics 365 Sales MCP Server to enable them to perform actions and retrieve information from Dynamics 365 Sales.
-ms.date: 02/27/2026
+ms.date: 05/26/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -45,7 +45,7 @@ To connect to the Sales MCP server with GitHub Copilot in Visual Studio Code, fo
 1. Press Ctrl + Shift + P (Windows/Linux) or Cmd + Shift + P (Mac).
 1. Type `MCP: Add Server`, and select the server type as `HTTP (HTTP or Server-Sent Events)`.
 1. Add the MCP server URL for Dynamics 365 Sales and Dataverse by using the following information:
-    - For Dataverse, use the orgID in the URL. For example: https://northwind.crm10.dynamics.com
+    - For Dataverse, use the orgID in the URL. For example: https://<OrgURL>/api/mcp
 
     - For Dynamics 365 Sales, use the following URL and replace the environment ID.
       `https://agent365.svc.cloud.microsoft/mcp/environments/<EnvironmentID>/servers/msdyn_SalesMCPServer`
@@ -56,16 +56,12 @@ To connect to the Sales MCP server with GitHub Copilot in Visual Studio Code, fo
     {
             "servers": {
                 "Dataverse-mcp-server": {
-                    "url": "Northwind.crm10.dynamics.com/api/mcp",
+                    "url": "https://northwind.crm10.dynamics.com/api/mcp",
                     "type": "http"
                 },
                 "Sales-mcp-server": {
-                    "url": "https://Northwind.crm10.dynamics.com/mcp/environments/00aa00aa-bb11-cc22-dd33-44ee44ee44ee/servers/msdyn_SalesMCPServer",
+                    "url": "https://agent365.svc.cloud.microsoft/mcp/environments/00aa00aa-bb11-cc22-dd33-44ee44ee44ee/servers/msdyn_SalesMCPServer",
                     "type": "http" 
-                },
-                "Mail-server": {
-                    "url": "https://Northwind.crm10.dynamics.com/mcp/environments/00aa00aa-bb11-cc22-dd33-44ee44ee44ee/servers/mcp_MailTools",
-                    "type": "http"
                 }
                 
             },
