@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 05/25/2026
+ms.date: 05/26/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -17,7 +17,7 @@ ms.custom:
 
 # Create a new case when email subject changes
 
-When a customer replies to an email after modifying or removing the content in the subject, a new case isn't created in Dynamics 365 because the InReplyTo value of the reply email matches the messageID of the previous email that’s already in Dynamics 365. This creates an email correlation, and the case associated with the previous email is linked with the reply email. As a result, the automatic record creation and update rule skips the case creation, even if the subject changes.
+When a customer replies to an email after changing or removing the content in the subject, a new case isn't created in Dynamics 365. This behavior occurs because the **InReplyTo** value of the reply email matches the **messageID** of of an existing email, which maintains email correlation and associates the reply with the existing case. As a result, the automatic record creation and update rules don't create a new case, even if the subject changes.
 
 Administrators can use regex expressions to define whether a new case should be created when the email subject changes on a reply or a forwarded email that has a related active or resolved case.
 
@@ -25,7 +25,7 @@ The article describes the customization steps that you can perform to create a n
 
 ## Prerequisites
 
-Make sure to enable the **Skipped** and **Ready for Power Automate** monitored options for the activity monitor in the Copilot Service admin center app. Learn more in [Use activity monitor to review and track rules](manage-activity-arc.md).
+Enable the **Skipped** and **Ready for Power Automate** monitored options for the activity monitor in the Copilot Service admin center app. Learn more in [Use activity monitor to review and track rules](manage-activity-arc.md).
 
 ## How it works
 
@@ -39,7 +39,7 @@ To define whether automatic record creation and update rules must create a new c
 
 1. Go to https://make.powerautomate.com/ and select the environment in which you have automatic record creation and update rules configured.
 
-1. From the site map, navigate to **My flows** , and then select **+New flow** > **Automated Cloud flow**.
+1. From the site map, navigate to **My flows**, and then select **+New flow** > **Automated Cloud flow**.
 
     If using custom roles, the owner of the flow must have read/write/delete privileges to the activity monitor entity. The CSR manager and system administrator roles have the required privileges by default.
 
@@ -55,7 +55,7 @@ To define whether automatic record creation and update rules must create a new c
     - Filter rows: The reason can be adjusted according to your business requirements. For example, currentstate eq 3 and (reason eq2 or reason eq3 or reason eq 4 or reason eq5).
     - Run as: **Modifying user**
 
-1. Add a new step and select **Get a row by ID** Dataverse action.
+1. Add a new step and select the **Get a row by ID** Dataverse action.
 1. Select the following values for the fields:
 
     - Table name: **Email messages**
@@ -77,7 +77,7 @@ To define whether automatic record creation and update rules must create a new c
     - Row ID: **Activity monitor id**
     - Current state: **Ready for Power Automate**
 1. In the **If Yes** path, select **Add an action**.
-1. Select **Perform an unbound action** Dataverse action.
+1. Select the **Perform an unbound action** Dataverse action.
 1. Select the following values for the fields:
     - Action Name: **msdyn_ExecuteARC**
     - CreatedEntityReference: **queueitems(@{variables('Queue Item Id')})**
