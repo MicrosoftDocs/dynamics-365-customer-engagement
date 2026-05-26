@@ -1,6 +1,6 @@
 ---
-title: Understand conversation diagnostics data
-description: Learn about the metadata for conversation diagnostics in Application Insights.
+title: Understand unified routing diagnostics data
+description: Learn about the metadata for unified routing diagnostics in Application Insights.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -10,7 +10,7 @@ ms.date: 01/19/2026
 ms.custom: bap-template
 ---
 
-# Understand conversation diagnostics data
+# Understand unified routing diagnostics data
 
 When the system routes a work item, its corresponding data starts appearing in Azure Application Insights within 15 minutes. The conversation diagnostics data is presented in the form of scenarios and subscenarios as discussed in the following sections.
 
@@ -18,7 +18,7 @@ When the system routes a work item, its corresponding data starts appearing in A
 
 [Conversation diagnostics](configure-conversation-diagnostics.md) is configured.
 
-## Conversation diagnostics scenarios
+## Diagnostics scenarios
 
 The conversation diagnostics scenario captures data related to unified routing, AI agent, customer service representative (service representative or representative), and supervisor actions. The following tables contain data about the subscenarios corresponding to the scenario. Other telemetry events might appear in the logs but the ones listed here only are relevant.
 
@@ -219,7 +219,7 @@ Provides status and capacity history of service representatives, including their
 | ChatSessionInitialization | Logs when chat session is available for customer to converse. |
 | UnrecognizedOrgUrl | Live chat widget contains an invalid org URL. |
 
-## Understand conversation logs
+## Understand diagnostics logs
 
 The event log entries and their descriptions of some events in the subscenarios are as follows.
 
@@ -398,17 +398,17 @@ Displays information on the user group identified for the conversation.
       **Scenario**: CSRInitiatedTransfer for Conversation: xxxx failed with exception: xxxx
 - **omnichannel.initiator_agent.id**:	Captures the ID of the representative initiating the consult request
 - **Omnichannel.target_agent.id**: Captures the ID of the representative receiving the consult request
-- **Channel type**:	Channel from which work item originated.
+- **Channel type**: Channel from which work item originated.
 
 ### Subscenario: Call End
 
-- **Omnichannel.description and Omnichannel.messsage**: Captures whether the subscenario started, completed successfully, or failed. If the subscenario failed, error or exception information is provided 
+- **Omnichannel.description and Omnichannel.messsage**: Captures whether the subscenario started, completed successfully, or failed. If the subscenario failed, error or exception information is provided.
 
-- **Call Status Code**: A code that can be used to learn more details about how/why the call ended. 
+- **Call Status Code**: A code that can be used to learn more details about how/why the call ended.
 
 - **Conversation stage**: End
 
-### Subscenario: Other subscenarios for agents and supervisors
+### Subscenario: Other subscenarios for representatives and supervisors
 
 - **Subscenarios**:
     - CSRRejected
@@ -517,3 +517,4 @@ Displays information on the user group identified for the conversation.
 
 [Configure conversation diagnostics](configure-conversation-diagnostics.md)  
 [Sample queries and dashboard](/dynamics365/guidance/resources/conversation-diagnostics-sample-queries)  
+[Diagnose contact center health using Application Insights dashboard](/dynamics365/contact-center/use/diagnose-dashboard)  

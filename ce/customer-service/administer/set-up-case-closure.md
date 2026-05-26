@@ -19,8 +19,11 @@ Case Management Agent follows up with customers over email. If customers don’t
 ## Prerequisites
 
 - The CSR Manager or System Administrator role.
+- [Agents are enabled](#enable-ai-agents) in Power Platform admin center.
 - For the AI agent to send follow-up emails autonomously, you must set up a dedicated application user to send and receive emails on behalf of your organization. Perform the steps in [Configure global settings for Case Management Agent](case-management-global-settings.md).
 - Copilot recommended email templates and default email templates configured in the **Global settings** page. Learn more in [Configure global settings](set-up-case-resolution-agent.md#configure-case-resolution-settings).
+
+[!INCLUDE[enable-ai-agents-ppac](../../includes/ai-features/enable-ai-agents-ppac.md)]
 
 ## Configure autonomous case follow-up and closure
 

@@ -272,6 +272,14 @@ items:
                 href: sales-research-agent.md
               - name: Set up and configure Sales Research Agent
                 href: configure-sales-research-agent.md
+          - name: Sales agent in Microsoft 365 Copilot
+            items:
+              - name: Overview
+                href: /microsoft-sales-copilot/sales-chat-overview?context=/dynamics365/context/sales-context
+              - name: Set up Sales agent in Microsoft 365 Copilot
+                href: /microsoft-sales-copilot/set-up-sales-chat?context=/dynamics365/context/sales-context
+              - name: Set up record creation in Dynamics 365 with Sales agent
+                href: /microsoft-sales-copilot/set-up-record-creation-dynamics-365?context=/dynamics365/context/sales-context
           - name: Import an agent into a target environment
             href: import-export-agent-solutions.md
           - name: Manage consumption-based billing
@@ -302,6 +310,8 @@ items:
             href: sales-copilot-faq.md
           - name: Configure zero prompt experience
             href: zero-prompt-experience.md
+          - name: Generate debug reports for Copilot in Dynamics 365 Sales
+            href: debug-reports-for-copilot.md
       - name: Dynamics 365 Sales Model Context Protocol (MCP) Server
         items:
           - name: Overview of Sales MCP Server
@@ -853,8 +863,6 @@ items:
                 href: connect-dynamics365-sales-environment.md
               - name: Data retention and deletion through Privacy
                 href: data-retention-deletion-policy.md
-          - name: Integrate third-party dialers (preview)
-            href: ci-third-party-sp-integration.md
           - name: Integrate with Twilio Flex (preview)
             href: Integrate-TwilioFlex-with-CI.md
           - name: Languages supported

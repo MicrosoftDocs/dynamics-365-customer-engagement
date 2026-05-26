@@ -66,11 +66,31 @@ Enter the following values::
 
     - **Unique name:** Specify a name and note it down. You'll have to use it in the next steps
 
-    - **Session Recording Server:** Specify the Dynamics 365 media recording server URL. For a list of recorders and regions supported, see [Recorder endpoints and regions supported](ci-third-party-sp-integration.md#recorder-endpoints-and-regions-supported).
-
-        - If you would like to fork the media to the closest recorder, use the following URL: **sip:SRS@media.recording.dynamics.com:5061;secure=true**
+    - **Session Recording Server:** Specify the Dynamics 365 media recording server URL. 
+        - If you would like to fork the media to the closest recorder, use the following URL: **sip:SRS@media.recording.dynamics.com:5061;secure=true**. For a list of recorder endpoints, go to [Recorder endpoints and regions supported](#recorder-endpoints-and-regions-supported).
 
         - Credentials fields can remain empty. The authentication is done with certificate on the TLS setup between Twilio and Dynamics.
+
+### Recorder endpoints and regions supported
+
+The following table lists the supported recorder endpoints and their regions. You can configure the recorders you want to use in your telephony provider settings. To learn about how this is done for Twilio Flex, see [Step 2: Install the SIPREC connector and route the calls to Dynamics 365](Integrate-TwilioFlex-with-CI.md#step-2-install-the-siprec-connector-and-route-the-calls-to-dynamics-365).
+
+| Endpoint                                      | Region                  |
+|-----------------------------------------------|-------------------------|
+| media.recording.dynamics.com                  | Global (closest region) |
+| southeastasia.media.recording.dynamics.com    | Southeast Asia          |
+| australiaeast.media.recording.dynamics.com    | Australia               |
+| sam.media.recording.dynamics.com              | South America           |
+| canadacentral.media.recording.dynamics.com    | Canada                  |
+| switzerlandnorth.media.recording.dynamics.com | Switzerland             |
+| eastus.media.recording.dynamics.com           | US                      |
+| francecentral.media.recording.dynamics.com    | France                  |
+| centralindia.media.recording.dynamics.com     | India                   |
+| japaneast.media.recording.dynamics.com        | Japan                   |
+| uae.media.recording.dynamics.com              | UAE                     |
+| uksouth.media.recording.dynamics.com          | UK                      |
+| westeurope.media.recording.dynamics.com       | West Europe             |
+| zaf.media.recording.dynamics.com              | South Africa            |
 
 ## Step 3: Configure call flow to fork the media to Dynamics 365
 

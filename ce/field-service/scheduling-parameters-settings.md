@@ -31,7 +31,7 @@ Define settings for scheduling your resources.
 
 | Field | Description |
 | --- | --- |
-| Default Radius Unit | Select *miles* or *kilometers*. |
+| Default Radius Unit | Select *miles* or *kilometers* for the schedule assistant search radius. This setting determines the unit used when the schedule assistant searches for available resources near a work order location. Changing this value applies to all new schedule assistant searches in the environment. |
 | Default Radius Value | Select the default radius that the schedule assistant uses when it searches for resources for work orders. For example, if you select a 20-mile radius, the schedule assistant finds resources within 20 miles of the work order booking location. |
 | Include Outlook Free/Busy in Search Resource Availability API | Select whether the system should include the resource's Outlook schedule when it searches for resource availability in the scheduling API. |
 
