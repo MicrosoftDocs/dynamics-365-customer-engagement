@@ -17,7 +17,7 @@ ms.custom:
 
 # Create a new case when email subject changes
 
-When a customer replies to an email after changing or removing the content in the subject, a new case isn't created in Dynamics 365. This behavior occurs because the **InReplyTo** value of the reply email matches the **messageID** of of an existing email, which maintains email correlation and associates the reply with the existing case. As a result, the automatic record creation and update rules don't create a new case, even if the subject changes.
+When a customer replies to an email after changing or removing the content in the subject, a new case isn't created in Dynamics 365. This behavior occurs because the **InReplyTo** value of the reply email matches the **messageID** of an existing email, which maintains email correlation and associates the reply with the existing case. As a result, the automatic record creation and update rules don't create a new case, even if the subject changes.
 
 Administrators can use regex expressions to define whether a new case should be created when the email subject changes on a reply or a forwarded email that has a related active or resolved case.
 
