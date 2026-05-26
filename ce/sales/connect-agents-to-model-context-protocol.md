@@ -43,7 +43,7 @@ To connect to the Sales MCP server in Microsoft Copilot Studio, follow the steps
 1. Press Ctrl + Shift + P (Windows/Linux) or Cmd + Shift + P (Mac).
 1. Type `MCP: Add Server`, and select the server type as `HTTP (HTTP or Server-Sent Events)`.
 1. Add the MCP server URL for Dynamics 365 Sales and Dataverse by using the following information:
-    - For Dataverse, use the orgID in the URL. For example: `https://<OrgURL>/api/mcp`
+    - For Dataverse, use `https://<OrgURL>/api/mcp`.
 
     - For Dynamics 365 Sales, use the following URL and replace the environment ID.
       `https://agent365.svc.cloud.microsoft/mcp/environments/<EnvironmentID>/servers/msdyn_SalesMCPServer`
