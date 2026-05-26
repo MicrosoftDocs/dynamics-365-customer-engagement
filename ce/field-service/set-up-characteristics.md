@@ -1,7 +1,7 @@
 ---
 title: Specify characteristics for resources
 description: Assign characteristics to resources and work orders to list the characteristics needed to complete the job.
-ms.date: 05/23/2025
+ms.date: 05/26/2026
 ms.topic: how-to
 ms.custom: bap-template
 author: ryanchen8
@@ -26,30 +26,30 @@ Add details to work orders to describe the characteristics needed to complete th
 
 1. Choose a **Characteristic Type**.
 
-   - **Characteristic**: The characteristic is specific knowledge or experience that you rate with a [proficiency model](#create-a-proficiency-model).
+   - **Skill**: The characteristic is specific knowledge or experience that you rate with a [rating level](#create-a-rating-level).
    - **Certification**: The characteristic is a designated credential, status, or level of achievement that a resource earns.
 
 1. Select **Save & Close**.
 
-## Create a proficiency model
+## Create a rating model
 
-Define values in a proficiency model to indicate the characteristic level of a resource.
+Define rating values in a rating model to indicate the characteristic level of a resource.
 
 1. In Resource Scheduling, change to the **Settings** area.
 
-1. Under **Resource**, select **Proficiency Models**.
+1. Under **Resource**, select **Rating Models**.
   
 1. Select **New** to create a new model or select an existing model.
 
-1. Enter a **Name** for the proficiency model.
+1. Enter a **Name** for the rating model.
 
-1. Set a minimum and maximum rating value, and **Save** the proficiency model.
+1. Set a minimum and maximum rating value, and **Save** the rating model.
 
-1. In the **Proficiency Values** section, select **New Proficiency Value**.
+1. In the **Rating Values** section, select **New Rating Value**.
 
 1. Enter a **Name** and a **Value**.
 
-1. Select **Save & Close**. Add more rating values for your proficiency model.
+1. Select **Save & Close**. Add more rating values for your rating model.
 
 ## Assign characteristics to resources  
   
@@ -83,7 +83,7 @@ Before users can specify enhanced characteristics, a Field Service administrator
 
 1. Select **Save & Close**.
 
-With enhanced characteristics enabled, you can add more information to *Bookable Resource Characteristic* records.
+When you enable enhanced characteristics, you can add more information to *Bookable Resource Characteristic* records.
 
 A section for **Supporting Information** shows on the record. You can provide an **ID**, **Issue Date**, **Expiration Date**, and a **Description** of a characteristic that relates to a specific resource.
 

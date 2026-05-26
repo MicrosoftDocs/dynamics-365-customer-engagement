@@ -27,7 +27,7 @@ Define settings for scheduling your resources.
 | Enable Interday Account Names | Toggle on or off to display the service account on the booking template in the daily, weekly, or monthly view. |
 | Connect to Maps | Enable a [mapping service](./field-service-maps-address-locations.md) to calculate travel and show maps. If you want to use a specific map, enter the map API key. |
 
-## Schedule assistant
+### Schedule assistant
 
 | Field | Description |
 | --- | --- |
