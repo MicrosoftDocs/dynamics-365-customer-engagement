@@ -38,33 +38,30 @@ After purchasing a Dynamics 365 Sales license, install your apps from the Power 
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 
-1. In the left navigation, select **Resources** > **Dynamics 365 apps**.
+1. In the left pane, select **Manage** > **Environments** and then search and select your Dynamics 365 Sales environment.
+1. From the command bar, select **Resources** > **Dynamics 365 apps**.
 
    You see a list of all available Dynamics 365 apps for your organization.
 
+1. Search for "Sales" and find the app you want to install. Select **...** (More options) next to the app name, and then select **Install**.
+   
    :::image type="content" source="media/ppac-dynamics365-apps-list.png" alt-text="Screenshot of the Power Platform admin center showing the Dynamics 365 apps list under Resources.":::
 
-1. Find the app you want to install, select **...** (More options), and then select **Install**.
+1. After installation completes, verify the app appears on the Power Apps **Apps** page.
+   1. Go to [Power Apps](https://make.powerapps.com) and switch to your Dynamics 365 Sales environment.
+   2. Select **Apps** > **All**, and confirm the app is listed.
+   3. Search for **Sales** to view all apps related to Dynamics 365 Sales. 
 
-   :::image type="content" source="media/ppac-install-app-menu.png" alt-text="Screenshot showing the Install option in the More options menu for a Dynamics 365 app.":::
-
-1. Select the environment where you want to install the app, and then follow the installation wizard to complete the setup.
-
-1. After installation completes, verify the app appears on the Power Apps **Apps** page. Go to [Power Apps](https://make.powerapps.com), select **Apps** > **All**, and confirm the app is listed.
-
-   :::image type="content" source="media/powerapps-verify-app-installed.png" alt-text="Screenshot of the Power Apps Apps page showing the Sales Hub app listed under All apps.":::
+      :::image type="content" source="media/powerapps-verify-app-installed.png" alt-text="Screenshot of the Power Apps Apps page showing the Sales Hub app listed under All apps.":::
 
 ## Share the app with users
 
-After you install the app, share it with users in your organization.
+After you install the app, share it with users in your organization. Before you share the app, ensure that users have been [assigned the necessary licenses](/power-platform/admin/assign-licenses).
 
-1. Open the app and copy the URL that includes `appid=`.
+1. In Power Apps, select **...** (More options) next to the app name, and then select **Share**.
+2. Select a user and assign the [appropriate security roles](grant-access-saleshub.md) to the user on the right pane. 
 
-1. Before sharing this URL with users, make sure that:
+   :::image type="content" source="media/share-app-powerapps.png" alt-text="Screenshot of the Power Apps Apps page showing the Share Sales Hub page.":::
+3. Select **Share**.
 
-   - Users have been [assigned the necessary licenses](/power-platform/admin/assign-licenses).
-   - Users have the [appropriate security roles](grant-access-saleshub.md) for the app.
-
-1. Share the URL with the users who need access.
-
-For detailed steps on granting access and assigning security roles, see [Grant or revoke access to the Sales Hub app](grant-access-saleshub.md).
+Alternatively, you can share the app URL with the users after granting them [appropriate security roles](grant-access-saleshub.md).
