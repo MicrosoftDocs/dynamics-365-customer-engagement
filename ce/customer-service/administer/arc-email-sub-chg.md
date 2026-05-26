@@ -35,7 +35,9 @@ However, the default regex doesn’t ignore the prefixes **Fw:**, **FW:**, or **
 
 ## Customization steps to create a new case
 
-To define whether automatic record creation and update rules must create a new case, you can add a condition to check if the correlatedsubjectchanged field is true and create a case by performing the customization steps:
+To define whether automatic record creation and update rules create a new case, add a condition that checks whether the correlatedsubjectchanged field is set to true.
+
+If the value is true, configure the rule to create a new case by performing the following customization steps:
 
 1. Go to https://make.powerautomate.com/ and select the environment in which you have automatic record creation and update rules configured.
 
