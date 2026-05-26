@@ -26,7 +26,7 @@ Add details to work orders to describe the characteristics needed to complete th
 
 1. Choose a **Characteristic Type**.
 
-   - **Skill**: The characteristic is specific knowledge or experience that you rate with a [rating level](#create-a-rating-level).
+   - **Skill**: The characteristic is specific knowledge or experience that you rate with a [rating level](#create-a-rating-model).
    - **Certification**: The characteristic is a designated credential, status, or level of achievement that a resource earns.
 
 1. Select **Save & Close**.
