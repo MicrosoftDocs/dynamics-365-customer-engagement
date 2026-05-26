@@ -49,7 +49,7 @@ To connect to the Sales MCP server with GitHub Copilot in Visual Studio Code, fo
 
     - For Dynamics 365 Sales, use the following URL and replace the environment ID.
       `https://agent365.svc.cloud.microsoft/mcp/environments/<EnvironmentID>/servers/msdyn_SalesMCPServer`
-    - Optional: If you want to send emails as well, add the Mail MCP Server, with the same Dynamics 365 environment ID.
+
    The following is a sample configuration:
     
     ```json
