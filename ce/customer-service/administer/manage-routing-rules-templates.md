@@ -1,4 +1,4 @@
----
+﻿---
 title: Manage template rulesets for unified routing
 description: Learn how to create and maintain templated rulesets that help in bulk maintenance of workstreams and queues.
 author: neeranelli
@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
 ms.collection: 
-ms.date: 05/27/2025
+ms.date: 05/27/2026
 ms.custom: bap-template
 ---
 

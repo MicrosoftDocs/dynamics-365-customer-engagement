@@ -1,7 +1,7 @@
----
-title: "Send custom context during live chat| MicrosoftDocs"
-description: "Learn how you can send custom context to a chat session that can help decide the queue to which you must route the chat."
-ms.date: 01/20/2022
+﻿---
+title: Send custom context during live chat
+description: Learn how you can send custom context to a chat session that can help decide the queue to which you must route the chat.
+ms.date: 05/27/2026
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -16,7 +16,7 @@ The custom context is a collection of key or value pairs. Only primitive values 
 > - For authenticated chat, you can also pass context in the JSON Web Token (JWT). Learn more in [Send authentication tokens](send-auth-token-starting-chat.md).
 > - You can pass only 100 custom context variables during each chat session.
 
-When a customer starts a chat from the portal, you can pass custom context to Omnichannel for Customer Service. This custom context can be used to [display information on the user interface](display-custom-context.md) and to create routing rules that eventually determine the queue to which you must route the chats.
+When a customer starts a chat from the portal, you can pass custom context to Dynamics 365 Contact Center. This custom context can be used to [display information on the user interface](display-custom-context.md) and to create routing rules that eventually determine the queue to which you must route the chats.
 
 Follow these steps to send custom context when you start a chat:
 
@@ -64,3 +64,4 @@ For information about how to display the context variables in Conversation summa
 [Configure context variables for a bot](../administer/context-variables-for-bot.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
