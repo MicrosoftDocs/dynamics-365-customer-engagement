@@ -21,9 +21,9 @@ You can use Case Management Agent to resolve cases by identifying case intent, a
 - Make sure [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot) is set up in the Power Platform admin center application.
 - The Power Platform [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview) mandates the use of an Azure subscription the system charges when the agent runs. Make sure you [Set up consumption-based billing](setup-pay-as-you-go.md).
 - [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent) is configured.
-- - The guided setup for Case Management Agent is completed. Learn more in [Configure Case Management Agent](case-management-global-settings.md).
+- The guided setup for Case Management Agent is completed. Learn more in [Configure Case Management Agent](case-management-global-settings.md).
 - Make sure you review and configure the prerequisites, such as application user and shared mailbox, if you want to configure the fully autonomous Case Management Agent flow. Learn more in [Configure individual capabilities](case-management-global-settings.md#configure-individual-capabilities).
-- To configure fully autonomous case resolution, you must configure an application user and a shared mailbox. Through the application user, the agent manages autonomous cases and handle customer correspondence. For automated outbound emails, a Shared Mailbox is used to ensure messages come from a centralized address.
+- To configure fully autonomous case resolution, you must configure an application user and a shared mailbox. Through the application user, the agent manages autonomous cases and handles customer correspondence. For automated outbound emails, a shared mailbox is used to ensure messages come from a centralized address.
 
 Perform the following steps.
 
@@ -31,12 +31,12 @@ Perform the following steps.
 
 The application user you create in Power Platform admin center is used to receive and send responses. Perform the following steps:
 
-1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com) and perform the steps in [Create an application user](/power-platform/admin/manage-application-users?tabs=new#create-an-application-user) to create a new application user.
+1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com) and [create an application user](/power-platform/admin/manage-application-users?tabs=new#create-an-application-user).
 1. Assign the Customer Service Representative role to the application user.
 
 ### Assign a shared mailbox to the application user
 
-1. Go to [Microsoft 365 admin center](https://admin.cloud.microsoft/) and do the steps 1 through 4 in [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox#create-a-shared-mailbox-and-add-members). Copy the email  of the shared mailbox.
+1. Sign in to [Microsoft 365 admin center](https://admin.cloud.microsoft/) and do the steps 1 through 4 in [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox#create-a-shared-mailbox-and-add-members). Copy the email  of the shared mailbox.
 1. In Power Platform admin center, open the application user that you created in [Create an application user](#create-an-application-user-in-power-platform-admin-center) and set the shared mailbox ID to the email ID you copied in the previous step. Learn more in [View or edit the details of an application user](/power-platform/admin/manage-application-users?tabs=new#view-or-edit-the-details-of-an-application-user).
 
 ## Configure level of automation

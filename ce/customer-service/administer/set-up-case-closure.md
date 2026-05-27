@@ -42,7 +42,7 @@ Perform the following steps in Copilot Service admin center to set up autonomous
    - **Follow-up emails:** Fields the agent should refer to when drafting the follow-up emails. This is optional.
    - Use the **Follow-up trigger** settings to define how and when the Case Management Agent initiates each follow-up step in the case lifecycle. You must select at least one trigger option.
        - Select **Follow-up based on context** for the agent to automatically start follow-up actions based on the content of customer emails, irrespective of the case status.
-       - Select **Follow-up based on status reason** for the agent to start follow-up actions when the case reaches a specific status reason value
+       - Select **Follow-up based on status reason** for the agent to start follow-up actions when the case reaches a specific status reason value.
        - **Status Reason:** The status reason that triggers a follow-up action as a suggestion to the representative.
    - **Number of follow-ups:** The number of follow-up emails the agent must send without a response from the customer before resolving a case. The application considers the email sent by the service representative without a response from the customer as the first follow-up.
    - **Follow-up wait times:** The duration between follow-up emails.
