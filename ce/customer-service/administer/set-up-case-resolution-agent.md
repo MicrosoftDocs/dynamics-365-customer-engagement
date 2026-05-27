@@ -37,7 +37,7 @@ To configure fully autonomous case resolution, you must configure an application
     1. In [Microsoft 365 admin center](https://admin.cloud.microsoft/) complere the steps 1 through 4 in [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox#create-a-shared-mailbox-and-add-members). 
     1. Copy the email  of the shared mailbox.
 1. Associate the shared mailbox with the application user
-    1. In Power Platform admin center, open the application user that you created in [Create an application user](#create-an-application-user-in-power-platform-admin-center). 
+    1. In Power Platform admin center, open the application user that you created. 
     1. Set the shared mailbox ID to the email ID you copied. Learn more in [View or edit the details of an application user](/power-platform/admin/manage-application-users?tabs=new#view-or-edit-the-details-of-an-application-user).
 
 ## Configure level of automation
