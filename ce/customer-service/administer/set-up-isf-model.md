@@ -1,7 +1,7 @@
----
+﻿---
 title: Set up intelligent skill finder model in unified routing
 description: Use the information to set up intelligent skill finder model for unified routing in Customer Service.
-ms.date: 05/23/2025
+ms.date: 05/27/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -99,19 +99,19 @@ A sample of each file is as follows. You can select the links to download the sa
 |Skill finder model|Training record name|Input data|
 |------------------|--------------------|----------|
 |CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10001|Hi, I work at Trey Research. One of the automatic espresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help! Yes. No.|
-|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10002|Hi, I recently bought Café A-100  coffee machine and its top plate is getting heated after 15 minutes of usage. Please resolve this at the earliest.|
+|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10002|Hi, I recently bought CafÃ© A-100  coffee machine and its top plate is getting heated after 15 minutes of usage. Please resolve this at the earliest.|
 |CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10003|Hi, I am unable to start my recently bought espresso machine, looks like the electrical plug provided with it is not functioning.|
 |CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10004|Hi, I work at Trey Research. I am looking for replacement of coffee machine purchased 3 months ago. Even after raising complaints earlier about overheating the issue still persists. Please help! |
-|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10005|Hi, my recently bought Café A-100 machine is not in the color I ordered. Please replace the same. |
+|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10005|Hi, my recently bought CafÃ© A-100 machine is not in the color I ordered. Please replace the same. |
 
 [**msdyn_ocsitdskill.csv**](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-isf-sample-data/msdyn_ocsitdskill.csv)
 
 |Training record|Characteristic mapping|Characteristic|
 |---------|--------|-----------|
-|CCSFM01-Contoso Coffee training data A10001|Café A-100|Café A-100|
+|CCSFM01-Contoso Coffee training data A10001|CafÃ© A-100|CafÃ© A-100|
 |CCSFM01-Contoso Coffee training data A10001|Heating|Heating|
 |CCSFM01-Contoso Coffee training data A10001|Electrical|Electrical|
-|CCSFM01-Contoso Coffee training data A10002|Café A-100|Café A-100|
+|CCSFM01-Contoso Coffee training data A10002|CafÃ© A-100|CafÃ© A-100|
 |CCSFM01-Contoso Coffee training data A10002|Heating|Heating|
 
 Perform the following steps to upload the data for training your model:
@@ -133,3 +133,4 @@ Perform the following steps to upload the data for training your model:
 [Set up skill-based routing in unified routing](set-up-skill-based-routing.md) 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]  
+

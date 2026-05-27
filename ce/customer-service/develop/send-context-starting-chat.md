@@ -1,7 +1,7 @@
----
+﻿---
 title: "Send custom context during live chat| MicrosoftDocs"
 description: "Learn how you can send custom context to a chat session that can help decide the queue to which you must route the chat."
-ms.date: 01/20/2022
+ms.date: 05/27/2026
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -64,3 +64,4 @@ For information about how to display the context variables in Conversation summa
 [Configure context variables for a bot](../administer/context-variables-for-bot.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

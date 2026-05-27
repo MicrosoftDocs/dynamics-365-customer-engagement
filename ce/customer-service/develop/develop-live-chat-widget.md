@@ -1,7 +1,7 @@
----
+﻿---
 title: Develop a custom live chat widget
 description: Learn where to find information about using the Omnichannel Chat SDK and the Omnichannel Live Chat Widget UI Components library to develop a custom live chat widget.
-ms.date: 05/02/2025
+ms.date: 05/27/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -88,3 +88,4 @@ After you install the latest version of the Omnichannel Chat SDK, customize your
 [lcw:chatQueued](reference/events/lcw-chatQueued.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

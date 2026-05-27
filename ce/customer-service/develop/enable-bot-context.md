@@ -1,7 +1,7 @@
----
+﻿---
 title: Configure agent context  
 description: Use this article to understand how you can enable your Azure or Copilot agents to understand context while authoring agent flows.
-ms.date: 04/29/2025
+ms.date: 05/27/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -29,3 +29,4 @@ For Copilot agents, see [Configure agent context in Copilot agents](enable-bot-c
 [Integrate an Azure agent](../administer/configure-bot-azure.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

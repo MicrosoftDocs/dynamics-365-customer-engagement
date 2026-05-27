@@ -1,7 +1,7 @@
----
+﻿---
 title: Add a web resource for real-time translation of messages
 description: Learn how to add a web resource to implement the logic for enabling real-time translation of messages exchanged between your customers and service representatives.
-ms.date: 04/25/2025
+ms.date: 05/27/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -25,17 +25,17 @@ To add a web resource:
 
 Perform the following steps to upload the web resource file for real-time translation:
 
-1. In Dynamics 365, on the top right of the Copilot Service admin center page, select **Settings**, and select **Advanced Settings**.
+1. In the top right corner of the Copilot Service admin center page, select the settings icon, and select **Advanced Settings**. The Power Platform Environment Settings page appears on a new tab.
 
-2. On the page that appears on a new tab, select **Settings**, and then select **Solutions**.
+1. In the site map, under **Customization**, select **Solutions**.
 
-3. In **All Solutions**, select **New**, and do the following:
+1. In **All Solutions**, select **New**, and do the following:
    1. In the General section of the **Solution: New Solution** page, enter the details for the mandatory fields.
    2. Save the solution and close the form.
 
-4. For the added solution, in the left pane, select **Web Resources** under **Components**.
+1. For the added solution, in the left pane, select **Web Resources** under **Components**.
 
-5. Select **New**, and perform the following steps:
+1. Select **New**, and perform the following steps:
    1. In the **General** section, enter a name for the web resource.
    1. In the **Content** section, select Script (JScript) for **Type**.
    1. For **Upload File**, select **Choose File** to upload the JavaScript file that you customized.
@@ -43,12 +43,12 @@ Perform the following steps to upload the web resource file for real-time transl
    1. Copy the link in the **URL** field. You'll provide this link in the administrator settings in [Copilot Service admin center](../implement/cs-admin-center.md) for configuring real-time translation.
    1. Select the option to publish all customizations on the **Solution** page, and close the form.
    
-6. In the site map of the admin center app, select **Productivity** under **Support experience**, then select **Manage** for **Real-time translation**.
+1. In the site map of the admin center app, select **Productivity** under **Support experience**, then select **Manage** for **Real-time translation**.
 
-7. In the **Web resource URL** field, paste the link that you copied, and save the changes.
+1. In the **Web resource URL** field, paste the link that you copied, and save the changes.
 
    ![Add a web resource.](../media/real-time-translation-web-resource.png "Add a web resource")
-8. Select **Save**.
+1. Select **Save**.
 
 ### Related information
 
@@ -57,3 +57,4 @@ Perform the following steps to upload the web resource file for real-time transl
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

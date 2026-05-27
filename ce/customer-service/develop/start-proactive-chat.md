@@ -1,21 +1,20 @@
----
+﻿---
 title: "Start a chat proactively | MicrosoftDocs"
 description: "Read how you can start a chat proactively to see if customers need help and thereby improve customer experience."
-ms.date: 01/25/2022
+ms.date: 05/27/2026
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ---
-# Start a chat proactively
 
+# Start a chat proactively
 
 You can help improve customer satisfaction by anticipating areas where customers need help, and then engaging them through chat when they've been browsing your website for some time.
 
 Consider the following scenarios for proactively starting a chat.
 
->[!Note]
->
+>[!NOTE]
 > The code samples listed in the following scenarios use the [setContextProvider API](reference/methods/setContextProvider.md) that can be used for unauthenticated chat only. For authenticated chat, you must use the JSON Web Token (JWT). More information: [Send authentication tokens](send-auth-token-starting-chat.md)
 
 ## Scenario 1: Customer wait time
@@ -23,10 +22,10 @@ Consider the following scenarios for proactively starting a chat.
 Amy has accidentally damaged a Surface Book and is on the product knowledge base trying to seek answers for about 20 seconds. A proactive chat request is triggered based on the product page that Amy was browsing and the time spent on the page.
 
 ```
-Hi! Just checking in to see if I can help answer any questions you may have. 
+Hi! Just checking in to see if I can help answer any questions you might have. 
 ```
 
-Amy can accept the chat offer and start the conversation to sort out the issue. 
+Amy can accept the chat offer and start the conversation to sort out the issue.
 
 **Sample code**
 
@@ -62,6 +61,7 @@ Realizing this scenario, the organization offers a chat request to the customer 
 ```
 Hi! Do you have a question on Surface device ? I am here to help.
 ```
+
 **Sample code**
 
 ```html
@@ -281,7 +281,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 
 ## Scenario 6: Customer signs in from a specific geographic region
 
-Klarissa logs in to your website from Ruritania where your company is running a special discount on products. You can set up a trigger for customers coming from a particular location that proactively starts a chat session. Klarissa is prompted to chat with the following message.
+Klarissa signs in to your website from Ruritania where your company is running a special discount on products. You can set up a trigger for customers coming from a particular location that proactively starts a chat session. Klarissa is prompted to chat with the following message.
 
 ```
 Hi! Just checking in to see if I can help answer any questions you may have.
@@ -421,3 +421,4 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
