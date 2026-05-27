@@ -77,7 +77,7 @@ This means a single ruleset can route based on intent and agent skill, language,
 ### Considerations
 
 - Intent discovery is required to populate the intent library.
-- Unified routing doesn't perform intent determination for live chat or voice work items. Case intent determination is owned by the Case team.
+- Unified routing doesn't perform intent determination for live chat or voice work items.
 - Existing queues, routing rules, skills, capacity profiles, and assignment strategies continue to function unchanged.
 
 ### Related information
