@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 03/20/2026
+ms.date: 05/27/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -25,9 +25,7 @@ You can use the creation and update feature of Case Management Agent to do the f
 
 ## Prerequisites
 
-- Administrators must have the CSR Manager or System Administrator role.
-
-- [Agents are enabled](#enable-ai-agents) in Power Platform admin center.
+- Administrators must have the CSR Manager or Customer Service Representative role.
 - Enable [AI form fill assistance](/power-platform/admin/settings-features#ai-form-fill-assistance) in the Power Platform admin center application.
 - [Automatically create or update records](automatically-create-update-records.md) are set up to create case records from emails.
 - The following configurations are set up if you want to create a case from conversations:
@@ -40,9 +38,8 @@ You can use the creation and update feature of Case Management Agent to do the f
 - We recommend that you enable audit history and make sure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
 - For customers to provide the details that the AI agent can use, configure [preconversation survey](configure-pre-chat-survey.md).
 - Make sure the service representatives working on the case and accepting conversations have read privileges on the `msdyn_entityattributepredictionrules` table.
-- For the AI agent to predict case fields from emails autonomously, do the steps in [Configure global settings for Case Management Agent](case-management-global-settings.md).
+- The guided setup for Case Management Agent is completed. Learn more in [Configure Case Management Agent](case-management-global-settings.md).
 
-[!INCLUDE[enable-ai-agents-ppac](../../includes/ai-features/enable-ai-agents-ppac.md)]
 
 ### Update field and lookup descriptions in Power Apps
 
@@ -127,7 +124,7 @@ In Copilot Service admin center, configure the AI agent to predict and update ca
 
 1. In **Customer support**, select **Case settings**.
 2. On the **Case settings** page, select **Manage** for **Case Management Agent**.
-3. On the **Case Management Agent** page, select **Case creation and update with autonomous AI assistance**.
+3. On the **Case Management Agent** page, select **Manage** for **Case creation and update**.
 1. In the page that appears, in **Case update by AI agent (any channel)**, select **Create**. Specify the following information:
    - A unique name for the rule. 
    - Conditions for the AI agent to apply the rule. If no conditions are defined, the rule applies to all channels.
@@ -149,12 +146,12 @@ The following actions trigger the case creation process of Case Management Agent
 
 To allow the AI agent to autonomously create cases across all provisioned messaging and voice channels, perform the following steps:
 
-1. Go to **Case creation and update** > **Case creation by AI agent (from chats and calls)** and select **Make Case Processing Agent available for case creation from conversations**.
+1. Go to **Case creation and update** > **Case creation by AI agent (from chats and voice)** and select **Make Case Processing Agent available for case creation from conversations**.
 1. In **Fields for AI prediction**, specify the fields the agent predicts and populates in the case form using information from the conversation. The AI agent populates only those fields that have sufficient context available.
 
 ## Enable AI assistance during case creation
 
-Service representatives can create cases with AI assistance from email or chat and voice conversations. Go to **Case creation and update** > **AI-assisted case creation by customer service representatives** select **Email** or **Conversation (chats and calls)**. When a service representative creates a case from a conversation or an email, Case Management Agent analyzes the conversation or email, and then predicts and populates the fields available on the case form. Service representatives can then review the predicted values and make any necessary changes before saving the case.
+Service representatives can create cases with AI assistance from email or chat and voice conversations. Go to **Case creation and update** > **AI-assisted case creation by customer service representatives** select **Email** or **Conversation (chats and voice)**. When a service representative creates a case from a conversation or an email, Case Management Agent analyzes the conversation or email, and then predicts and populates the fields available on the case form. Service representatives can then review the predicted values and make any necessary changes before saving the case.
 
 ## Enable service representatives to use autonomous Case Management Agent
 
@@ -172,7 +169,7 @@ By default, service representatives added to the out-of-the-box experience profi
   
 ## Record representative interactions with the AI agent
 
-In **Agent experience data from Representative experience data**, select **Record transcripts of representative interactions with AI, including representative actions, and their feedback on AI suggestions** to record and understand how representatives are interacting with the AI agent and how the agent is performing in a support organization. Representatives can also share feedback about AI agent actions, which helps Copilot perform better. Download and use the data to analyze knowledge sources, and build usage reports.
+In **Agent experience data from Representative experience data**, select **Record transcripts of representative interactions with AI, including representative actions, and their feedback on AI suggestions** to record and understand how representatives are interacting with the AI agent and how the agent is performing in a support organization. Representatives can also share feedback about AI agent actions, which helps the agent perform better. Download and use the data to analyze knowledge sources, and build usage reports.
 
 ## Example: Create a case from a chat conversation
 
