@@ -89,7 +89,7 @@ Use sample records to test and compare case follow-up and closure by Case Manage
 ### Set up a simulation
 
 1. On the **Case Management Agent** page, in **Case follow-up and closure**, select **Manage**. The **Case follow-up and closure** page appears.
-1. Select **Go to simulation** in the **Command** menu. The **Case follow-up and closure simulation** page appears.
+1. Select **Go to simulation** in the Command menu. The **Case follow-up and closure simulation** page appears.
 1. On the **Simulation setup** tab, provide the following information:
 
     1. **Simulation name**: Provide a simulation name.
