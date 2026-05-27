@@ -1,7 +1,7 @@
 ---
 title: Booking and requirement status relationship
 description: Learn how booking statuses and requirement statuses work together in the scheduling lifecycle in Dynamics 365 Field Service.
-ms.date: 03/30/2026
+ms.date: 05/26/2026
 ms.custom: bap-template
 ms.topic: concept-article
 author: mkelleher-msft
@@ -10,7 +10,7 @@ ms.author: mkelleher
 
 # Booking and requirement status relationship
 
-When you schedule a requirement to a resource, the system creates a booking. From that point, the booking status and the requirement status work together to track progress through the scheduling lifecycle.
+When you assign a requirement to a resource, the system creates a booking. From that point, the booking status and the requirement status work together to track progress through the scheduling lifecycle.
 
 ## Scheduling lifecycle
 
@@ -24,7 +24,7 @@ The typical flow from requirement to completed booking:
 
 ## Booking statuses
 
-Booking statuses track where a booking is in its lifecycle. Field Service provides default statuses that map to parent system statuses:
+Booking statuses track where a booking is in its lifecycle. Field Service provides default statuses that map to parent system statuses.
 
 | Default booking status | Parent Field Service status | Meaning |
 |---|---|---|
@@ -45,7 +45,7 @@ You can create custom booking statuses and map them to these parent statuses. Cu
 
 ## Requirement statuses
 
-Requirement statuses track whether a requirement still needs to be fulfilled:
+Requirement statuses track whether a requirement still needs to be fulfilled.
 
 | Status | Meaning |
 |---|---|
@@ -69,7 +69,7 @@ Requirement statuses track whether a requirement still needs to be fulfilled:
 
 ## Booking timestamps and journals
 
-Each time a booking status changes, the system can automatically create a **booking timestamp** to record the date, time, and source of the change. When a booking is completed, the system generates **booking journals** that break down the time into categories:
+Each time a booking status changes, the system can automatically create a **booking timestamp** to record the date, time, and source of the change. When a booking is completed, the system generates **booking journals** that break down the time into categories.
 
 | Journal type | What it records |
 |---|---|
