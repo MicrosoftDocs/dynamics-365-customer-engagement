@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: overview 
-ms.date: 05/20/2026
+ms.date: 05/27/2026
 ms.custom: bap-template
 ai-usage: ai-assisted
 ---
@@ -45,7 +45,7 @@ After purchasing a Dynamics 365 Sales license, install your apps from the Power 
 
 1. Search for "Sales" and find the app you want to install. Select **...** (More options) next to the app name, and then select **Install**.
    
-   :::image type="content" source="media/ppac-dynamics365-apps-list.png" alt-text="Screenshot of the Power Platform admin center showing the Dynamics 365 apps list under Resources.":::
+   :::image type="content" source="media/dynamics365-apps-list.png" alt-text="Screenshot of the Power Platform admin center showing the Dynamics 365 apps list under Resources.":::
 
 1. After installation completes, verify the app appears on the Power Apps **Apps** page.
    1. Go to [Power Apps](https://make.powerapps.com) and switch to your Dynamics 365 Sales environment.
