@@ -73,8 +73,6 @@ Define rating values in a rating model to indicate the characteristic level of a
 
 Add more details to a resource's characteristics. More detail is especially useful if you want to document when a certification was issued or when it expires.
 
-Before users can specify enhanced characteristics, a Field Service administrator must enable the feature after [updating to the early access release](/dynamics365/get-started/release-schedule).
-
 1. In Field Service, change to the **Settings** area.
 
 1. Under **General**, select **Field Service Settings**.
