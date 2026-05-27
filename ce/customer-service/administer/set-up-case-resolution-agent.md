@@ -54,13 +54,13 @@ In Copilot Service admin center, follow these steps to configure the automation 
 
 ## Configure case resolution settings
 
- You can specify the user the AI agent should use to send emails, the default Copilot template, and if the AI agent must use Copilot recommended template to draft emails. Perform these steps for the fully-autonomous case resolution process:
+You can specify the user the AI agent should use to send emails, the default Copilot template, and if the AI agent must use the Copilot recommended template to draft emails. Perform these steps for the fully-autonomous case resolution process:
 
 1. Select **Manage** for **Case Management Agent** in **Case settings**. The **Case Management Agent** page appears.
 1. Select **Manage** for **Case resolution**. The **Case resolution** page appears.
-1. Set the **Application user** to the application user created in the prerequisites section. This is the user that the AI agent uses to send emails on behalf of your organization. This is required only when configuring the fully-autonomous agent flow.
+1. Set the **Application user** to the required application user. This is the user that the AI agent uses to send emails on behalf of your organization. This is required only when configuring the fully-autonomous agent flow.
 1. Optionally, select **Use copilot recommended template for drafting emails**.
-1. Optionally, you can set the **Default email template** dropdown to a template the AI agent uses when Copilot email template recommendations are unavailable. If you configured Copilot recommended email templates and [line-of-business segregated email templates](configure-lob-email-templates.md), the system uses the default email template when no line-of-business email template is available for the case. 
+1. Optionally, select a default email template that the AI agent uses when Copilot recommendations are unavailable. If you configured Copilot recommended email templates and [line-of-business segregated email templates](configure-lob-email-templates.md), the system uses the default email template when no line-of-business email template is available for the case.
 If you don't select a default template and Copilot recommended email templates is configured, after the agent identifies the intent, it sends emails using the [Copilot inline email assist capabilities](/dynamics365/contact-center/use/use-copilot-email#use-copilot-to-draft-an-email).
 
 
@@ -68,8 +68,7 @@ If you don't select a default template and Copilot recommended email templates i
 
 Define the language that Case Management Agent can use for drafting customer communications like emails during the case resolution process. If the agent can't determine a valid and supported langauge because the case field is empty or contains a locale that isn't supported, the agent hands off the case to a service representative and doesn't draft or send an email. This ensures that customer communications proceed only when the language requirement is met.
 
-1.In Copilot Service admin center, go to **Case resolution**. The **Case resolution** page appears.
-
+1. In Copilot Service admin center, go to **Case resolution**. The **Case resolution** page appears.
 1. In **Language settings**, select one of the following options:
 
    - **Use case record**: Uses the language locale stored in the case record. Use this option if your organization supports multiple languages and stores the customer’s preferred language on each case.
