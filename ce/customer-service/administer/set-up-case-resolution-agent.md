@@ -23,21 +23,22 @@ You can use Case Management Agent to resolve cases by identifying case intent, a
 - [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent) is configured.
 - The guided setup for Case Management Agent is completed. Learn more in [Configure Case Management Agent](case-management-global-settings.md).
 - Make sure you review and configure the prerequisites, such as application user and shared mailbox, if you want to configure the fully autonomous Case Management Agent flow. Learn more in [Configure individual capabilities](case-management-global-settings.md#configure-individual-capabilities).
-- To configure fully autonomous case resolution, you must configure an application user and a shared mailbox. Through the application user, the agent manages autonomous cases and handles customer correspondence. For automated outbound emails, a shared mailbox is used to ensure messages come from a centralized address.
 
-Perform the following steps.
+### Set up an application user and shared mailbox
+To configure fully autonomous case resolution, you must configure an application user and a shared mailbox. Through the application user, the agent manages autonomous cases and handles customer correspondence. For automated outbound emails, a shared mailbox is used to ensure messages come from a centralized address.
 
-### Create an application user in Power Platform admin center
+ Perform the following steps:
 
-The application user you create in Power Platform admin center is used to receive and send responses. Perform the following steps:
-
-1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com) and [create an application user](/power-platform/admin/manage-application-users?tabs=new#create-an-application-user).
-1. Assign the Customer Service Representative role to the application user.
-
-### Assign a shared mailbox to the application user
-
-1. Sign in to [Microsoft 365 admin center](https://admin.cloud.microsoft/) and do the steps 1 through 4 in [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox#create-a-shared-mailbox-and-add-members). Copy the email  of the shared mailbox.
-1. In Power Platform admin center, open the application user that you created in [Create an application user](#create-an-application-user-in-power-platform-admin-center) and set the shared mailbox ID to the email ID you copied in the previous step. Learn more in [View or edit the details of an application user](/power-platform/admin/manage-application-users?tabs=new#view-or-edit-the-details-of-an-application-user).
+1. Create an application user.
+    1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+    1. Follow the steps in [create an application user](/power-platform/admin/manage-application-users?tabs=new#create-an-application-user) to create a new application user.
+    1. Assign the **Customer Service Representative** role to the application user.
+1. Create and assign a shared mailbox
+    1. In [Microsoft 365 admin center](https://admin.cloud.microsoft/) complere the steps 1 through 4 in [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox#create-a-shared-mailbox-and-add-members). 
+    1. Copy the email  of the shared mailbox.
+1. Associate the shared mailbox with the application user
+    1. In Power Platform admin center, open the application user that you created in [Create an application user](#create-an-application-user-in-power-platform-admin-center). 
+    1. Set the shared mailbox ID to the email ID you copied. Learn more in [View or edit the details of an application user](/power-platform/admin/manage-application-users?tabs=new#view-or-edit-the-details-of-an-application-user).
 
 ## Configure level of automation
 
@@ -53,13 +54,13 @@ In Copilot Service admin center, follow these steps to configure the automation 
 
 ## Configure case resolution settings
 
- You can specify the user the AI agent should use to send emails, the default Copilot template, and if the AI agent must use the Copilot recommended template to draft emails. Perform these steps for the fully-autonomous case resolution process:
+ You can specify the user the AI agent should use to send emails, the default Copilot template, and if the AI agent must use Copilot recommended template to draft emails. Perform these steps for the fully-autonomous case resolution process:
 
 1. Select **Manage** for **Case Management Agent** in **Case settings**. The **Case Management Agent** page appears.
 1. Select **Manage** for **Case resolution**. The **Case resolution** page appears.
-1. Set the **Application user** to the application user that you created as a prerequisite.
+1. Set the **Application user** to the application user created in the prerequisites section. This is the user that the AI agent uses to send emails on behalf of your organization. This is required only when configuring the fully-autonomous agent flow.
 1. Optionally, select **Use copilot recommended template for drafting emails**.
-1. Optionally, select a default email template that the AI agent uses when Copilot recommendations are unavailable. If you configured Copilot recommended email templates and [line-of-business segregated email templates](configure-lob-email-templates.md), the system uses the default email template when no line-of-business email template is available for the case. 
+1. Optionally, you can set the **Default email template** dropdown to a template the AI agent uses when Copilot email template recommendations are unavailable. If you configured Copilot recommended email templates and [line-of-business segregated email templates](configure-lob-email-templates.md), the system uses the default email template when no line-of-business email template is available for the case. 
 If you don't select a default template and Copilot recommended email templates is configured, after the agent identifies the intent, it sends emails using the [Copilot inline email assist capabilities](/dynamics365/contact-center/use/use-copilot-email#use-copilot-to-draft-an-email).
 
 

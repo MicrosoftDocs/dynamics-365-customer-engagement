@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 # Set up Case Management Agent for case follow-up and closure
 
-Case Management Agent follows up with customers over email. If customers don’t respond after a specified number of follow-ups, the agent closes the cases automatically. This reduces manual communication overhead and streamlines case resolution.
+Case Management Agent follows up with customers over email. If customers don’t respond after a specified number of follow-ups, the AI agent closes the cases automatically. This reduces manual communication overhead and streamlines case resolution.
 
 ## Prerequisites
 
@@ -21,7 +21,7 @@ Case Management Agent follows up with customers over email. If customers don’t
 - The guided setup for Case Management Agent is completed. Learn more in [Configure Case Management Agent](case-management-global-settings.md).
 
   > [!NOTE]
-  > If autonomous case resolution is configured, the agent uses the Shared Mailbox to send follow-up emails for autonomous case resolution.
+  > If autonomous case resolution is configured, the AI agent uses the Shared Mailbox to send follow-up emails for autonomous case resolution.
 
 ## Configure autonomous case follow-up and closure
 
@@ -38,12 +38,12 @@ Perform the following steps in Copilot Service admin center to set up autonomous
    - **Level of automation**: The automation level.
         - **Require human confirmation**: The AI agent drafts follow-up emails, initiates case closure and populates the required fields, but requires the service representative to review and send the email and manually close the case. 
         - **Full automation**: The AI agent automatically sends follow-up emails and closes the case if the customer does not respond after the specified number of follow-ups.
-   - **Follow-up emails:** Fields the agent should refer to when drafting the follow-up emails. This is optional.
+   - **Follow-up emails:** Fields the AI agent should refer to when drafting the follow-up emails. This is optional.
    - Use the **Follow-up trigger** settings to define how and when the Case Management Agent initiates each follow-up step in the case lifecycle. You must select at least one trigger option.
-       - Select **Follow-up based on context** for the agent to automatically start follow-up actions based on the content of customer emails, irrespective of the case status.
-       - Select **Follow-up based on status reason** for the agent to start follow-up actions when the case reaches a specific status reason value
+       - Select **Follow-up based on context** for the AI agent to automatically start follow-up actions based on the content of customer emails, irrespective of the case status.
+       - Select **Follow-up based on status reason** for the AI agent to start follow-up actions when the case reaches a specific status reason value
        - **Status Reason:** The status reason that triggers a follow-up action as a suggestion to the representative.
-   - **Number of follow-ups:** The number of follow-up emails the agent must send without a response from the customer before resolving a case. The application considers the email sent by the service representative without a response from the customer as the first follow-up.
+   - **Number of follow-ups:** The number of follow-up emails the AI agent must send without a response from the customer before resolving a case. The application considers the email sent by the service representative without a response from the customer as the first follow-up.
    - **Follow-up wait times:** The duration between follow-up emails.
    - **Follow-up email templates**: Select **Edit** to specify the email templates that the AI agent must use to send emails for follow ups.
     > [!NOTE]
@@ -59,7 +59,7 @@ Perform the following steps in Copilot Service admin center to set up autonomous
 
 ## Example
 
-The AI agent should automatically initiate the case follow-up process for cases related to **Contoso Coffee** issues where the case age is greater than seven days and the service representative sets the case **Status Reason** to **On Hold**. The agent should send three follow-up emails every 48 hours. If the customer doesn't respond after the third follow-up, the service representative can close the case.
+The AI agent should automatically initiate the case follow-up process for cases related to **Contoso Coffee** issues where the case age is greater than seven days and the service representative sets the case **Status Reason** to **On Hold**. The AI agent should send three follow-up emails every 48 hours. If the customer doesn't respond after the third follow-up, the service representative can close the case.
 
 **Configuration Example:**
 - **Rule:** Contoso Coffee follow-up and closure  
@@ -81,7 +81,7 @@ The AI agent first evaluates all the cases that have "Contoso Coffee" in the tit
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Use sample records to test and compare case resolution by Case Management Agent before enabling the agent in production.
+Use sample records to test and compare case resolution by Case Management Agent before enabling the AI agent in production.
 
 > [!NOTE]
 > - You can run simulation only if the level of automation for the line of business is set to Disabled.
@@ -112,7 +112,7 @@ Simulations are listed with details of the simulation name, line of business, ru
 Use shadow mode to evaluate predicted actions from Case Management Agent on live cases without sending emails or updating records.
 
 > [!NOTE]
-> Shadow mode consumes Copilot or AI credits in the same way as agent runs.
+> Shadow mode consumes Copilot or AI credits in the same way as AI agent runs.
 
 1. On the **Case follow-up and closure** page, in **Rules**, select a rule.
 1. Select **Shadow mode** from the toolbar. The rule status changes to **Shadow mode**.
