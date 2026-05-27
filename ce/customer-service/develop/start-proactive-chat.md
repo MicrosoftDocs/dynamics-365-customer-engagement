@@ -1,6 +1,6 @@
 ﻿---
-title: "Start a chat proactively | MicrosoftDocs"
-description: "Read how you can start a chat proactively to see if customers need help and thereby improve customer experience."
+title: Start a chat proactively
+description: Read how you can start a chat proactively to see if customers need help and improve customer experience.
 ms.date: 05/27/2026
 ms.topic: reference
 author: neeranelli
@@ -10,7 +10,7 @@ ms.reviewer: nenellim
 
 # Start a chat proactively
 
-You can help improve customer satisfaction by anticipating areas where customers need help, and then engaging them through chat when they've been browsing your website for some time.
+You can help improve customer satisfaction by anticipating areas where customers need help, and then engage them through chat when they browse your website for some time.
 
 Consider the following scenarios for proactively starting a chat.
 
@@ -19,7 +19,7 @@ Consider the following scenarios for proactively starting a chat.
 
 ## Scenario 1: Customer wait time
 
-Amy has accidentally damaged a Surface Book and is on the product knowledge base trying to seek answers for about 20 seconds. A proactive chat request is triggered based on the product page that Amy was browsing and the time spent on the page.
+Amy accidentally damages a Surface Book and is on the product knowledge base trying to seek answers for about 20 seconds. The system starts a proactive chat request based on the product page that Amy was browsing and the time spent on the page.
 
 ```
 Hi! Just checking in to see if I can help answer any questions you might have. 
@@ -166,7 +166,7 @@ VisitCounter();
 
 ## Scenario 3: Customer checks status of open support case
 
-Jacob is browsing through the support page for Microsoft Surface devices to find more information regarding the open support case. Jacob has been on the page for 10 seconds, and is then offered a proactive chat with the following message.
+Jacob is browsing through the support page for Microsoft Surface devices to find more information regarding the open support case. Jacob is on the page for 10 seconds, and is then offered a proactive chat with the following message.
 
 ```
 Hi! How are you doing today? The status of the case:<caseid> is in progress. Would you like to get more details?
@@ -199,7 +199,7 @@ Hi! How are you doing today? The status of the case:<caseid> is in progress. Wou
 
 ## Scenario 4: Customer tries to leave a webpage after spending some time on it
 
-Amy has been browsing a webpage for 15 seconds and is not satisfied with the available information. When Amy is about to switch tabs on the web browser, a proactive chat request with the following message is sent to Amy.
+Amy browses a webpage for 15 seconds and isn't satisfied with the available information. When Amy is about to switch tabs on the web browser, a proactive chat request with the following message is sent to Amy.
 
 ```
 Hi! Just checking in to see if I can help answer any questions you may have.
@@ -397,7 +397,7 @@ The following sample code shows how you can proactively offer chat invites to cu
 
 ## Scenario 8: Proactively offer chat with pre-survey to customers
 
-Suppose your organization wants consent authorization to start a chat with a customer or wants to ask about the topics related to the customer's enquiry before routing the session to the appropriate agent.
+Suppose your organization wants consent authorization to start a chat with a customer or wants to ask about the topics related to the customer enquiry before routing the session to an appropriate representative.
 
 **Sample code**
 
