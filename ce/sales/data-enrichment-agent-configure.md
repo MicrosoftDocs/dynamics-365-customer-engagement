@@ -20,7 +20,7 @@ As an admin, you can configure AI-powered Data Enrichment to work on specific op
 Ensure that you meet the following prerequisites:
 
 - You marked the prerequisites common to all Sales agents as **Done**. For more information, see [Prerequisites for all Sales agents](prerequisites-for-all-agents.md).
-- You have the appropriate Dynamics 365 Sales license. Check out the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?linkid=2152923) to know more about licensing requirements.
+- You have the appropriate Dynamics 365 Sales license. Check out the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544) to know more about licensing requirements.
 - You have admin privileges in Dynamics 365 Sales.
 - If you have custom fields that you want the agent to enrich, ensure that these fields have a meaningful name and description to help the agent understand their purpose and provide accurate suggestions.
 

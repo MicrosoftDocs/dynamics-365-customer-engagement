@@ -1,7 +1,7 @@
 ---
 title: Requirement types for scheduling
 description: Learn about the different types of resource requirements in Dynamics 365 Field Service and how they drive scheduling.
-ms.date: 03/30/2026
+ms.date: 05/26/2026
 ms.custom: bap-template
 ms.topic: concept-article
 author: mkelleher-msft
@@ -33,11 +33,11 @@ Requirements define what needs to be done and what kind of resource can do the w
 | **How to create** | Default for each work order | Configure via incident types or create manually |
 | **Schedule assistant** | Standard resource search | Shows combinations of resources that can fulfill all requirements together |
 
-Learn more about requirement groups in [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md).
+Learn more about requirement groups in [multi-resource scheduling](multi-resource-scheduling-requirement-groups.md).
 
 ## Key fields on a requirement
 
-These fields on the resource requirement record determine how the scheduling engine finds matching resources:
+These fields on the resource requirement record determine how the scheduling engine finds matching resources.
 
 | Field | What it controls |
 |---|---|
@@ -48,12 +48,12 @@ These fields on the resource requirement record determine how the scheduling eng
 | **Latitude / Longitude** | Job location for travel time calculations |
 | **Territory** | Geographic constraint for resource matching |
 | **Characteristics** | [Required skills or certifications](set-up-characteristics.md) |
-| **Resource Type** | What kind of resource is needed (User, Equipment, Facility, etc.) |
+| **Resource Type** | What kind of resource is needed (such as User, Equipment, Facility) |
 | **Priority** | Relative priority for scheduling decisions |
 
 ## Work order changes and requirements
 
-When you update a work order, the system automatically updates the related requirement's attributes - including name, location, duration, and more. This synchronization ensures the requirement always reflects the latest work order details.
+When you update a work order, the system automatically updates the related requirement's attributes including name, location, duration, and more. This synchronization ensures the requirement always reflects the latest work order details.
 
 However, if you manually edit a requirement field, that field stops syncing from the work order. Manual edits take precedence.
 
