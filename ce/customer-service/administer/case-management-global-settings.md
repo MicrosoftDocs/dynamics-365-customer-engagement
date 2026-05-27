@@ -49,21 +49,6 @@ For case resolution and follow-up, you can configure the agent to function in on
 
 - **Fully autonomous**: The agent performs end-to-end actions without human intervention.
 
-To configure fully autonomous flows, you must configure an application user and a shared mailbox. Through the application user, agents manage autonomous cases and handle customer correspondence. For automated outbound emails, a Shared Mailbox is used to ensure messages come from a centralized address.
-
-Perform the following steps.
-
-### Create an application user in Power Platform admin center
-
-The application user you create in Power Platform admin center is used to receive and send responses. Perform the following steps:
-
-1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com) and perform the steps in [Create an application user](/power-platform/admin/manage-application-users?tabs=new#create-an-application-user) to create a new application user.
-1. Assign the Customer Service Representative role to the application user.
-
-### Assign a shared mailbox to the application user
-
-1. Go to [Microsoft 365 admin center](https://admin.cloud.microsoft/) and do the steps 1 through 4 in [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox#create-a-shared-mailbox-and-add-members). Copy the email  of the shared mailbox.
-1. In Power Platform admin center, open the application user that you created in [Create an application user](#create-an-application-user-in-power-platform-admin-center) and set the shared mailbox ID to the email ID you copied in the previous step. Learn more in [View or edit the details of an application user](/power-platform/admin/manage-application-users?tabs=new#view-or-edit-the-details-of-an-application-user).
 
 ## Configure individual capabilities
 
@@ -73,7 +58,7 @@ The application user you create in Power Platform admin center is used to receiv
 | **Case Resolution** | Semi-autonomous | AI agent suggests resolutions and drafts emails for service representative review. | Guided Setup | [Set up Case Management Agent to resolve cases](set-up-case-resolution-agent.md) |
 | **Case Resolution** | Fully autonomous | AI agent automatically resolves cases and emails, based on defined logic. | Guided Setup, Application User, Shared Mailbox | [Set up Case Management Agent to resolve cases](set-up-case-resolution-agent.md) |
 | **Case Follow-up and Closure** | Semi-autonomous | AI suggests follow-up actions and drafts closure summaries for agent review. | Guided Setup | [Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md) |
-| **Case Follow-up and Closure** | Fully autonomous | AI handles the complete follow-up cadence and case closure automatically. | Guided Setup, Application User, Shared Mailbox. If fully autonomous case resolution is configured, the agent uses the configured shared mailbox. | [Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md) |
+| **Case Follow-up and Closure** | Fully autonomous | AI handles the complete follow-up cadence and case closure automatically. | Guided Setup | [Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md) |
 
 ### Next steps
 

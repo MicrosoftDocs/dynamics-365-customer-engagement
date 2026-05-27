@@ -19,11 +19,10 @@ Case Management Agent follows up with customers over email. If customers don’t
 ## Prerequisites
 
 - The CSR Manager or Customer Service Representative role.
-- For the AI agent to send follow-up emails autonomously, you must set up a dedicated application user to send and receive emails on behalf of your organization. Perform the steps in [Configure global settings for Case Management Agent](case-management-global-settings.md).
-- The global settings for Case Management Agent are configured. Learn more in [Configure Case Management Agent](case-management-global-settings.md).
-- Make sure you review and configure the prerequisites, such as application user and shared mailbox, if you want to configure the fully autonomous Case Management Agent flow. Learn more in [Configure individual capabilities](case-management-global-settings.md#configure-individual-capabilities).
+- The guided setup for Case Management Agent is completed. Learn more in [Configure Case Management Agent](case-management-global-settings.md).
 
-[!INCLUDE[enable-ai-agents-ppac](../../includes/ai-features/enable-ai-agents-ppac.md)]
+  > [!NOTE]
+  > If autonomous case resolution is configured, the agent uses the Shared Mailbox to send follow-up emails for autonomous case resolution.
 
 ## Configure autonomous case follow-up and closure
 
