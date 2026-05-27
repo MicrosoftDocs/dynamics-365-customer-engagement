@@ -1,7 +1,7 @@
----
+﻿---
 title: Extend Dynamics 365 Contact Center
 description: Integrate third-party telephony systems, more digital channels, and custom experiences with Dynamics 365 Customer Service to extend Dynamics 365 Contact Center.
-ms.date: 04/22/2025
+ms.date: 05/27/2026
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -53,3 +53,4 @@ Direct Line allows custom channels to be brought into Dynamics 365 Contact Cente
 [Dynamics 365 Channel Integration Framework 2.0](../../channel-integration-framework/v2/administer/overview-channel-integration-framework.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

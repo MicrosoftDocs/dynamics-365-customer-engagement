@@ -1,7 +1,7 @@
 ---
 title: Strategy for migrating from contracts to entitlements migration strategy
 description: Learn more about contract to entitlement migration for Dynamics 365 Customer Service.
-ms.date: 06/04/2025
+ms.date: 05/27/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

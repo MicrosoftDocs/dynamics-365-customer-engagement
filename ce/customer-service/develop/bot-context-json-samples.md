@@ -1,7 +1,7 @@
----
+﻿---
 title: Code samples for parsing activity JSON
 description: Learn how to parse the activity JSON object to retrieve the agent context for Azure or Copilot agents.
-ms.date: 04/28/2025
+ms.date: 05/27/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
