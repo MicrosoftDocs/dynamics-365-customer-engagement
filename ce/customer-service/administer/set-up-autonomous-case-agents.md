@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 03/20/2026
+ms.date: 05/27/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -38,7 +38,7 @@ You can use the creation and update feature of Case Management Agent to do the f
 - We recommend that you enable audit history and make sure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
 - For customers to provide the details that the AI agent can use, configure [preconversation survey](configure-pre-chat-survey.md).
 - Make sure the service representatives working on the case and accepting conversations have read privileges on the `msdyn_entityattributepredictionrules` table.
-- The global settings for Case Management Agent are configured. Learn more in [Configure Case Management Agent](case-management-global-settings.md).
+- The guided setup for Case Management Agent is completed. Learn more in [Configure Case Management Agent](case-management-global-settings.md).
 
 
 ### Update field and lookup descriptions in Power Apps

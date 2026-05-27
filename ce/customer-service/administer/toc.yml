@@ -530,7 +530,7 @@
           href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Case Management Agent
         items: 
-          - name: Configure global settings for Case Management Agent
+          - name: Configure Case Management Agent
             href: case-management-global-settings.md
           - name: Enable email classification
             href: configure-email-classification.md

@@ -21,7 +21,7 @@ You can use Case Management Agent to resolve cases by identifying case intent, a
 - Make sure [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot) is set up in the Power Platform admin center application.
 - The Power Platform [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview) mandates the use of an Azure subscription the system charges when the agent runs. Make sure you [Set up consumption-based billing](setup-pay-as-you-go.md).
 - [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent) is configured.
-- The global settings for Case Management Agent are configured. Learn more in [Configure Case Management Agent](case-management-global-settings.md).
+- - The guided setup for Case Management Agent is completed. Learn more in [Configure Case Management Agent](case-management-global-settings.md).
 - Make sure you review and configure the prerequisites, such as application user and shared mailbox, if you want to configure the fully autonomous Case Management Agent flow. Learn more in [Configure individual capabilities](case-management-global-settings.md#configure-individual-capabilities).
 - To configure fully autonomous case resolution, you must configure an application user and a shared mailbox. Through the application user, the agent manages autonomous cases and handle customer correspondence. For automated outbound emails, a Shared Mailbox is used to ensure messages come from a centralized address.
 
