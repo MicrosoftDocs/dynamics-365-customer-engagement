@@ -77,7 +77,7 @@ The AI agent should automatically initiate the case follow-up process for cases 
 The AI agent first evaluates all the cases that have "Contoso Coffee" in the title and are older than 7 days. If the **Status Reason** of the case is set to "On Hold", and if the customer hasn't responded to the email sent by the AI agent in the last 48 hours, the AI agent initiates the case follow-up process. If the customer doesn't respond after the third follow-up, the AI agent populates the case resolution dialog with the required information and closes the case.
 
 
-##  Run simulations to evaluate case resolution by Case Management Agent (preview) 
+##  Run simulations to evaluate case follow-up and closure (preview) 
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -90,7 +90,7 @@ Use sample records to test and compare case resolution by Case Management Agent 
 ### Set up a simulation
 
 1. On the **Case Management Agent** page, in **Case follow-up and closure**, select **Manage**. The **Case resolution** page appears.
-1. Select **Go to simulation** in the **Command** menu. The **Case resolution simulation** page appears.
+1. Select **Go to simulation** in the **Command** menu. The **Case follow-up and closure simulation** page appears.
 1. On the **Simulation setup** tab, provide the following information:
 
     1. **Simulation name**: Provide a simulation name.
