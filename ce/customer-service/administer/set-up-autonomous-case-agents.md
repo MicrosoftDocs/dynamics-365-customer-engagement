@@ -169,7 +169,7 @@ By default, service representatives added to the out-of-the-box experience profi
   
 ## Record representative interactions with the AI agent
 
-In **Agent experience data from Representative experience data**, select **Record transcripts of representative interactions with AI, including representative actions, and their feedback on AI suggestions** to record and understand how representatives are interacting with the AI agent and how the agent is performing in a support organization. Representatives can also share feedback about AI agent actions, which helps Copilot perform better. Download and use the data to analyze knowledge sources, and build usage reports.
+In **Agent experience data from Representative experience data**, select **Record transcripts of representative interactions with AI, including representative actions, and their feedback on AI suggestions** to record and understand how representatives are interacting with the AI agent and how the agent is performing in a support organization. Representatives can also share feedback about AI agent actions, which helps the agent perform better. Download and use the data to analyze knowledge sources, and build usage reports.
 
 ## Example: Create a case from a chat conversation
 
