@@ -54,9 +54,9 @@ Amy can accept the chat offer and start the conversation to sort out the issue.
 
 ## Scenario 2: Customer visits a webpage multiple times
 
-Thomas is browsing through the Microsoft Surface community webpage and is looking for information on Microsoft Surface device. Thomas has visited a webpage multiple times but is not able to find the answers.
+Thomas is browsing through the Microsoft Surface community webpage and is looking for information on Microsoft Surface device. Thomas visited a webpage multiple times but isn't able to find the answers.
 
-Realizing this scenario, the organization offers a chat request to the customer with the following message.
+The organization realizes this scenario and offers a chat request to the customer with the following message.
 
 ```
 Hi! Do you have a question on Surface device ? I am here to help.
@@ -166,7 +166,7 @@ VisitCounter();
 
 ## Scenario 3: Customer checks status of open support case
 
-Jacob is browsing through the support page for Microsoft Surface devices to find more information regarding the open support case. Jacob is on the page for 10 seconds, and is then offered a proactive chat with the following message.
+Jacob browses the support page for Microsoft Surface devices to find more information about the open support case. Jacob is on the page for 10 seconds, and then the following message offers a proactive chat.
 
 ```
 Hi! How are you doing today? The status of the case:<caseid> is in progress. Would you like to get more details?
@@ -243,7 +243,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 
 ## Scenario 5: Customer browsed another webpage and then spends time on the current webpage
 
-Amy has browsed the FAQ's document of the product and is currently on the Knowledge Base page for more than 15 seconds. Amy is proactively offered a chat session with the following message.
+Amy browsed the FAQs document of the product and is currently on the Knowledge Base page for more than 15 seconds. Amy is proactively offered a chat session with the following message.
 
 ```
 Hi! Just checking in to see if I can help answer any questions you may have.
@@ -281,7 +281,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 
 ## Scenario 6: Customer signs in from a specific geographic region
 
-Klarissa signs in to your website from Ruritania where your company is running a special discount on products. You can set up a trigger for customers coming from a particular location that proactively starts a chat session. Klarissa is prompted to chat with the following message.
+Klarissa signs in to your website from Ruritania where your company is running a special discount on products. You can set up a trigger to start a chat session proactively for customers who come from a particular location. Klarissa is prompted to chat with the following message.
 
 ```
 Hi! Just checking in to see if I can help answer any questions you may have.
@@ -397,7 +397,7 @@ The following sample code shows how you can proactively offer chat invites to cu
 
 ## Scenario 8: Proactively offer chat with pre-survey to customers
 
-Suppose your organization wants consent authorization to start a chat with a customer or wants to ask about the topics related to the customer enquiry before routing the session to an appropriate representative.
+Your organization wants consent authorization to start a chat with a customer. Or, it wants to ask about the topics related to the customer enquiry before routing the session to an appropriate representative.
 
 **Sample code**
 
