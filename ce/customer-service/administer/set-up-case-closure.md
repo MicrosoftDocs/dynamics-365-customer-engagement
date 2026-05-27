@@ -20,8 +20,7 @@ Case Management Agent follows up with customers over email. If customers don’t
 - The CSR Manager or Customer Service Representative role.
 - The guided setup for Case Management Agent is completed. Learn more in [Configure Case Management Agent](case-management-global-settings.md).
 
-  > [!NOTE]
-  > If autonomous case resolution is configured, the AI agent uses the Shared Mailbox to send follow-up emails for autonomous case resolution.
+
 
 ## Configure autonomous case follow-up and closure
 
@@ -81,7 +80,7 @@ The AI agent first evaluates all the cases that have "Contoso Coffee" in the tit
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Use sample records to test and compare case resolution by Case Management Agent before enabling the AI agent in production.
+Use sample records to test and compare case follow-up and closure by Case Management Agent before enabling the AI agent in production.
 
 > [!NOTE]
 > - You can run simulation only if the level of automation for the line of business is set to Disabled.
