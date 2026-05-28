@@ -41,7 +41,7 @@ To create a case from the note, perform the following steps:
 
 1.	On the timeline, select the note you created for the Contoso Coffee account. 
 1.	Select **Link to record**. 
-1.	On the window that appears, select **Add a new record**. Available options such as **Case**, **Account**, or **Contact** depend on the adminstrator configuration.
+1.	On the window that appears, select **Add a new record**. Available options such as **Case**, **Account**, or **Contact** depend on the administrator configuration.
 1. Select **Case**. The case form opens, with fields prepopulated from the note based on the administrator configuration. For example, if your administrator configured the notes title to be copied as the case title and the notes description to be copied to the case description, **Case Title** and **Description** are automatically populated from the note. 
 1. Add the information on the quick create case form and save the details.
 1. When prompted to unlink the note from the original record, select **OK**. The note appears on the timeline of the new case.
