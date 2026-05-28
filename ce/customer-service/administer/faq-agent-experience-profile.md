@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: concept-article
-ms.date: 05/27/2026
+ms.date: 05/28/2026
 ms.custom: bap-template 
 ---
 
@@ -15,11 +15,11 @@ ms.custom: bap-template
 
 This article contains the frequently asked questions (FAQ) that you as an administrator might have when adding users to the custom experience profiles using the **Set as default** and **Set rank and roles** options in Copilot Service admin center.
 
-## Can I set the profiles that are available out-of-the box as default profiles?
+## Can I set the profiles that are available out of the box as default profiles?
 
-No. The **Set as default** and **Set rank and roles** options aren't applicable to profiles that are available out-of-the-box.
+No. The **Set as default** and **Set rank and roles** options aren't applicable to profiles that are available out of the box.
 
-## Can I create experience profiles, customize them and move between environments using solutions?
+## Can I create experience profiles, customize them, and move between environments using solutions?
 Yes. You can create and customize profiles in an environment, add them to a solution and then import them to other environments.
 
 ## Why I can't I edit some of the custom experience profiles?
@@ -32,11 +32,11 @@ No. The **Set as default** and **Set rank and roles** options aren't applicable 
 
 ## Why do I see multiple profiles with the same rank?
 
-You can't create multiple profiles with the same rank from the Copilot Service admin center. However, if  you've imported profiles created in different environments, you can have two or more profiles with the same rank. We recommend that you resolve the conflict from the source environments and then import the profiles.
+You can't create multiple profiles with the same rank from the Copilot Service admin center. However, if you imported profiles created in different environments, you can have two or more profiles with the same rank. We recommend that you resolve the conflict from the source environments and then import the profiles.
 
 ## Can I have multiple profiles marked as default?
 
-No. You can't have multiple default custom profiles when you're setting the default profile in Copilot Service admin center.  However, if  you've imported profiles created in different environments, you might see multiple default profiles. We recommend that you resolve the issue in the source environments and then import the profiles.
+No. You can't have multiple default custom profiles when you're setting the default profile in Copilot Service admin center.  However, if you imported profiles created in different environments, you might see multiple default profiles. We recommend that you resolve the issue in the source environments and then import the profiles.
 
 ### Related information
 
