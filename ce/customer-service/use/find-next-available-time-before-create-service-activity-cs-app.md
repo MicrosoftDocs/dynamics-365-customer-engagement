@@ -14,7 +14,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Find the next available time before creating a service activity (Customer Service app)
+# Find the next available time before creating a service activity
 
 Avoid conflicts while scheduling services by finding the time the resources are available beforehand.  
   
