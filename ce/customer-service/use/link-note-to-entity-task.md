@@ -1,6 +1,6 @@
 ---
-title:  Learn about linking timeline notes with table records
-description: Learn how-to link timeline notes to other table records.
+title:  Link timeline notes with table records
+description: Learn how to move timeline notes between records and create new table records such as cases, accounts, or contacts directly from notes.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -10,9 +10,9 @@ ms.date: 05/28/2026
 ms.custom: bap-template 
 ---
 
-# Learn about linking timeline notes with table records
+# Link timeline notes with table records
 
-You can use notes on the timeline to record case summary, investigations, or add images and files for reference. You can use **Relate note to a table record** on the timeline to perform the following actions on case, account, and contact tables without leaving the page that you're on:
+Use timeline notes to document case summaries, investigations, or supporting information such as images or files. You can use **Relate note to a table record** on the timeline to perform the following actions on case, account, and contact tables without leaving the page:
 
 - Move a note on the timeline of an existing table record to another table record. For example, you can move a note on the timeline of a contact to an existing case. After you move the note, it appears only on the timeline to which you moved and not on both. 
 - Create a new table record from the note. For example, you can create a case from an existing note on a contact's timeline.
@@ -28,12 +28,12 @@ Consider the following scenario: You created a note on the timeline of the accou
 To link the note on the Contoso Coffee account to the Issue with coffee machine case:
 1.	On the Contoso Coffee account timeline, select the note to link.
 2.	Select **Link to record** button. 
-3.	On the window that appears, search for the case to move the note to. The case is "Issue with coffee machine".
+3.	In the dialog, search for the case to move the note to. The case is "Issue with coffee machine".
 4.	The application displays a message to confirm if the note must be unlinked from the account table. Select **OK**. The note now appears only on the timeline of the "Issue with coffee machine" case.
 
 ## Create a table record from a note
 
-Consider a scenario where in a voice conversation, the customer record **Contoso Coffee** appears in the **Customer Details** section of the **Active Conversation** form. The timeline reflects either the account or contact record, depending on the selected record. Learn more in [Take notes specific to conversation](oc-take-notes.md).
+Consider the following scenario: In a voice conversation, the customer record **Contoso Coffee** appears in the **Customer Details** section of the **Active Conversation** form. The timeline reflects either the account or contact record, depending on the selected record. Learn more in [Take notes specific to conversation](oc-take-notes.md).
 
 To add a note, select **Notes** in the communication panel. After you save the note, it displays on the timeline.  
 
