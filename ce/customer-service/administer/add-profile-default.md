@@ -1,11 +1,11 @@
 ---
 title: Add users to experience profiles
-description: Learn about adding a default profile and mapping experience profiles to security roles.
+description: Learn about adding a default profile and mapping experience profiles to security roles in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 04/30/2025
+ms.date: 05/27/2026
 ms.custom: bap-template 
 ---
 
