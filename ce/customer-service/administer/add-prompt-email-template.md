@@ -1,7 +1,7 @@
 ---
 title: Add Copilot prompts to email templates 
 description: Learn how to add Copilot prompts to email templates in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 04/29/2025
+ms.date: 05/28/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
