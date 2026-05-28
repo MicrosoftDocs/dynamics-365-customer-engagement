@@ -1,11 +1,11 @@
 ---
-title: Schedule time off (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Learn how to schedule time off for a user, a facility, or equipment in Microsoft Dynamics 365 Customer Service.
-ms.date: 09/15/2017
+title: Schedule time off
+description: Learn how to schedule time off for a user, a facility, or equipment in Dynamics 365 Customer Service.
+ms.date: 05/28/2026
 ms.topic: how-to
-author: lalexms
-ms.author: laalexan
-ms.reviewer: laalexan
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -16,10 +16,10 @@ ms.custom:
 
 # Schedule time off 
 
-You can schedule a period of time in the middle of a schedule when a resource is not available to be scheduled for a service activity. For a user, this could be a sick day or vacation. For a facility or equipment, this could be an equipment failure.
+You can schedule a period of time in the middle of a schedule when a resource isn't available to be scheduled for a service activity. For example, the resource might take a sick day or vacation. For a facility or equipment, you might need to schedule time if there's an equipment failure.
 
 > [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> Service scheduling is deprecated. For more information, see [Important changes coming](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 More information on scheduling a resource for business closure or holiday: *Set or change work hours for a user, facility, or equipment*.  
   
@@ -37,30 +37,31 @@ More information on scheduling a resource for business closure or holiday: *Set 
   
 4.  In the list, open the resource you want to modify.  
   
-5.  Under **Common**, click **Work Hours**.  
+5.  In **Common**, select **Work Hours**.  
   
 6.  On the **Monthly View** tab, select a date on the calendar.  
   
-7.  On the Actions toolbar, click **Set Up** > **Time Off**, and then in the **Schedule Time Off** dialog box, enter the following details:  
+7.  On the Actions toolbar, select **Set Up** > **Time Off**, and then in the **Schedule Time Off** dialog box, enter the following details:  
   
     - **Reason**. Type a short explanation for the resource’s absence.  
   
     - **All Day Event**. Select this check box if the resource is unavailable for the entire day (midnight to midnight) for all of the days.  
   
-    - **Start Time** and **End Time**. If you have not selected the **All Day Event** check box, you can set specific start and end times. When the end date is reached, the previous schedule continues.  
+    - **Start Time** and **End Time**. If you haven't selected the **All Day Event** check box, you can set specific start and end times. When the end date is reached, the previous schedule continues.  
   
     - **Duration**. If you don’t want to calculate the end date, select the number of days the resource is unavailable.  
   
     - **Time Zone**. If the resource is in a different time zone, select the time zone. The application automatically adjusts the times on the calendars.  
   
-8.  Click **OK**.  
+8.  Select **OK**.  
   
-     In the working hours calendar, affected days are marked with a red block. In the Service calendar the time appears as a white block and cannot be scheduled.  
+     In the working hours calendar, affected days are marked with a red block. In the Service calendar, the time appears as a white block that can't be scheduled.  
   
-     You can update your own working hours or time off, and add yourself to teams and resource groups. On the **Tools** menu, click **Options**. On the **General** tab, at the bottom of the page, click the **user information** link.  
+     You can update your own working hours or time off, and add yourself to teams and resource groups. On the **Tools** menu, select **Options**. On the **General** tab, at the bottom of the page, select the **user information** link.  
   
-### Related information  
- [Set work hours for a resource](set-work-hours-resource.md)
+### Related information
+
+[Set work hours for a resource](set-work-hours-resource.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
