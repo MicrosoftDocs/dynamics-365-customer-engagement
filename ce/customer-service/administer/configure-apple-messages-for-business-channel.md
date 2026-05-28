@@ -1,7 +1,7 @@
 ---
 title: Configure an Apple Messages for Business channel
 description: This article provides steps to configure an Apple Messages for Business channel and Apple pages in the admin center.
-ms.date: 12/04/2025
+ms.date: 05/28/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
