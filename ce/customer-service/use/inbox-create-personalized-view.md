@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to
-ms.date: 05/28/2025
+ms.date: 05/28/2026
 ---
 
 # Create a personalized view in the inbox
