@@ -1,7 +1,7 @@
 ---
 title: FAQ about Facebook channel setup
 description: Review frequently asked questions (FAQ) about Facebook channel configuration in Dynamics 365 Contact Center.
-ms.date: 03/03/2025
+ms.date: 05/28/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
