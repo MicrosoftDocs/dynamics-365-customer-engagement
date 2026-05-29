@@ -2,7 +2,7 @@
 title: Understand the Sales Qualification Agent concepts
 description: Learn about the concepts of the Sales Qualification Agent in Dynamics 365 Sales, including target customer profile, purchase interest, and BANT.
 ms.topic: concept-article 
-ms.date: 05/07/2026
+ms.date: 05/29/2026
 ms.update-cycle: 180-days
 ms.service: dynamics-365-sales
 ms.custom: bap-template

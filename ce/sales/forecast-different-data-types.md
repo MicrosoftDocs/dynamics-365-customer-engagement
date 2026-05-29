@@ -1,7 +1,7 @@
 ---
 title: Forecast with multiple data type columns
 description: Configure a forecast with columns of different data types.
-ms.date: 01/02/2025
+ms.date: 05/29/2026
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr

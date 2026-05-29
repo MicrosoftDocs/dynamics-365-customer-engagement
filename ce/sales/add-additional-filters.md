@@ -1,7 +1,7 @@
 ---
 title: Add additional filters to a forecast
 description: Add filters to refine the opportunities and hierarchies that participate in calculating the forecast values.
-ms.date: 03/07/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

@@ -1,7 +1,7 @@
 ---
 title: Use Dynamics 365 for phones and Dynamics 365 for tablets apps
 description: Learn how to use the Sales Hub app and Sales Professional app on your phones and tablets.
-ms.date: 02/22/2023
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

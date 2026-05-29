@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: concept-article 
 ms.collection: bap-ai-copilot
-ms.date: 05/07/2026
+ms.date: 05/29/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---

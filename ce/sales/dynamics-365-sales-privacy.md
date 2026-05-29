@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Sales and privacy laws and regulations
 description: To comply with privacy laws and regulations, we’ve made it possible to update read-only records through an export and import, and through SDKs.
-ms.date: 07/06/2022
+ms.date: 05/29/2026
 ms.topic: legal
 author: lavanyakr01
 ms.author: lavanyakr
