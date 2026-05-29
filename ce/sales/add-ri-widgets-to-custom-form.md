@@ -1,6 +1,6 @@
 ---
-title: "Add Relationship intelligence widgets to custom forms"
-description: "If you're using custom forms, add the health score and who knows whom widgets manually to the form."
+title: Add Relationship intelligence widgets to custom forms
+description: If you're using custom forms, add the health score and who knows whom widgets manually to the form.
 ms.date: 05/29/2026
 ms.custom: 
 ms.topic: how-to

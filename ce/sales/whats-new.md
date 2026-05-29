@@ -33,8 +33,4 @@ Preview features are features that aren't complete, but are made available on a 
 
 If you'd like to try out the latest features before they're released to all customers, you can opt in to early access updates. Learn more about how to [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates#how-to-get-early-access-updates).
 
-## Related information
-
-- [2024 release wave 1](/dynamics365/release-plan/2024wave1/sales/dynamics365-sales/planned-features)  
-- [2024 release wave 2](/dynamics365/release-plan/2024wave2/sales/dynamics365-sales/planned-features)
 

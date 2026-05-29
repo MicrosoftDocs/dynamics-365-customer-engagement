@@ -1,6 +1,6 @@
 ---
-title: "Work with activities in the Kanban view in Dynamics 365 Sales"
-description: "Use the opportunity Kanban view to visualize your activities with a card-based view and manage these activities quickly by moving them across the swim lanes."
+title: Work with activities in the Kanban view in Dynamics 365 Sales
+description: Use the opportunity Kanban view to visualize your activities with a card-based view and manage these activities quickly by moving them across the swim lanes.
 ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
@@ -23,12 +23,12 @@ The Kanban view for activities helps salespeople to manage multiple activities q
 
 ## Open a Kanban view
 
-A Kanban view is available when the Kanban control is added to the Activity entity. If you don't see the Kanban view, check with your system customizer. 
+A Kanban view is available when the Kanban control is added to the Activity entity. If you don't see the Kanban view, check with your system customizer to ensure that the Kanban control is added to the form and configured properly. For more information, see [Add the Kanban control to Opportunity or Activity entities](add-kanban-control.md).
 
 To open the Kanban view:
 
 1. In the site map, select **Activities**.
-2. On the command bar, select **Kanban**.
+2. On the command bar, select **Show As** > **Kanban**.
 
     :::image type="Show activities in the Kanban view" source="media/activity-show-as-kanban-view.png" alt-text="Show activities in the Kanban view":::
 

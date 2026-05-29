@@ -4,7 +4,7 @@ description: Learn to configure the Sales Qualification Agent in Dynamics 365 Sa
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 05/29/2026
+ms.date: 05/07/2026
 ms.update-cycle: 180-days
 ms.topic: concept-article
 ms.collection: bap-ai-copilot
