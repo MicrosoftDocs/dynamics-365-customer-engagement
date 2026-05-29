@@ -157,7 +157,7 @@ If you encounter issues during or after installation, use the following guidance
 If the LinkedIn Sales Navigator integration status shows **Inactive** after you complete all installation and enablement steps:
 
 1. Go to **Advanced settings** > **Customizations** > **Solutions** and verify that **LinkedInSalesNavigatorControlsForUnifiedClient**, **LinkedIn**, and **msdyn_LinkedInSalesNavigatorAnchor** solutions show status as **Installed**.
-1. Go to the LinkedIn Sales Navigator Admin Settings page and confirm that **CRM Sync** is explicitly enabled.
+1. Go to the LinkedIn Sales Navigator Admin Settings page and verify that **CRM Sync** is enabled.
 1. Verify that the LinkedIn Sales Navigator license is active and assigned to users who need the integration.
 
 ### LinkedIn Sales Navigator tab is missing
