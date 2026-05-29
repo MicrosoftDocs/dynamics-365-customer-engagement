@@ -6,8 +6,7 @@ ms.topic: how-to
 author: lavanyakr01
 ms.author: ramakris
 ms.reviewer: ramakris
-ai-usage:
- - ai-assisted
+ai-usage: ai-assisted
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
