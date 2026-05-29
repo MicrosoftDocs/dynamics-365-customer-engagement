@@ -1,7 +1,7 @@
 ---
 title: Grant access to who knows whom information
 description: Learn how to configure who knows whom in Dynamics 365 Sales to help sellers quickly identify colleagues who can introduce them to leads or contacts.
-ms.date: 01/28/2025
+ms.date: 05/29/2026
 ms.custom: bap-template
 ms.topic: how-to
 author: lavanyakr01

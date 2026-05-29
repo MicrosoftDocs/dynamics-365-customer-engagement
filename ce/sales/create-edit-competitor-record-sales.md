@@ -1,7 +1,7 @@
 ---
 title: "Create or edit competitor records  | MicrosoftDocs"
 description: "Track information about your competitor’s strengths and weaknesses and share it with your colleagues to help everyone stay current."
-ms.date: 11/26/2024
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

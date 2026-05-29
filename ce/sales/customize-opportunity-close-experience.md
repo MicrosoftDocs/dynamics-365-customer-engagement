@@ -1,7 +1,7 @@
 ---
 title: Customize the Opportunity Close form
 description: Customize the opportunity close form so that sellers can capture details about why an opportunity was closed.
-ms.date: 01/31/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

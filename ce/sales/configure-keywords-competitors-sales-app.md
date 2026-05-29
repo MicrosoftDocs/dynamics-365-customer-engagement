@@ -1,7 +1,7 @@
 ---
 title: "Configure keywords and competitors in Dynamics 365 Sales"
 description: "Configure conversation content, such as keywords and competitors to track in conversation intelligence in Dynamics 365 Sales."
-ms.date: 02/19/2025
+ms.date: 05/29/2026
 ms.custom: 
 ms.topic: how-to
 author: lavanyakr01
