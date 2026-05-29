@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
 ms.collection: 
-ms.date: 01/19/2026
+ms.date: 05/29/2026
 ms.custom: bap-template
 ---
 
@@ -15,7 +15,8 @@ ms.custom: bap-template
 Time-out rules are useful settings that administrators can configure to enact certain automatic actions when conditions are met. The timeout rules can help businesses run their operations smoothly and meet the required service-level agreements (SLAs) when they connect with their customers through the messaging channels. Sometimes, AI agents are used as an equivalent to the customer service representative (service representative or representative) persona.
 
 > [!NOTE]
-> Time-out rules support live chat and all messaging channels except the voice channel.
+> - Time-out rules support live chat and all messaging channels except the voice channel.
+> - The time-out rules aren't applicable for AI agent-only conversations.
 
 ## Prerequisite
 
