@@ -1,7 +1,7 @@
 ---
 title: Qualify and convert a lead to opportunity
 description: Learn how to qualify leads in the Sales app to create corresponding accounts and opportunities, and how to disqualify leads that don't turn into an opportunity.
-ms.date: 05/29/2026
+ms.date: 04/30/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
