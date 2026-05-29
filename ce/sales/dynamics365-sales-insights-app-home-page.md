@@ -1,8 +1,8 @@
 ---
-title: "View overall insights of your sales and sellers"
-description: "View high-level information on sales and sellers with AI-driven insights readily available for conversation intelligence."
+title: View overall insights of your sales and sellers
+description: View high-level information on sales and sellers with AI-driven insights readily available for conversation intelligence.
 keywords: ""
-ms.date: 11/24/2021
+ms.date: 05/29/2026
 ms.custom: 
 ms.topic: concept-article
 author: lavanyakr01
@@ -13,21 +13,24 @@ topic-status: Drafting
 ---
 # View and understand the home page
 
-When you sign in to conversation intelligence as a sales manager, you'll see the home page. This page provides high-level information on the status of your current sales period and insights into what your customers are talking about, the behaviors of your top sellers, and the team's sales pipeline for the selected time period.
+Use this page to quickly answer four questions for the selected time period:
+
+- Are we on track to hit revenue targets?
+- What are customers discussing most in calls?
+- What behaviors separate top sellers from the rest of the team?
+- How are call recording trends changing month over month?
+
+In this article, you'll learn where to find each insight on the home page and what action to take next.
 
 ## Sections of the home page
 
-When you sign in to [conversation intelligence](https://sales.ai.dynamics.com/), the home page appears with the following sections:
+When you sign in to [conversation intelligence](https://sales.ai.dynamics.com/), start with the section that matches your goal:
 
--	[Time period filter](#time-period-filter)
-
--	[Base KPIs](#base-kpis)
-
--	[What are customers talking about?](#what-are-customers-talking-about)
-
--	[What characterizes top sellers?](#what-characterizes-top-sellers)
-
--	[Call recording KPIs](#call-recording-kpis)
+- Need a snapshot of period performance? Go to [Base KPIs](#base-kpis).
+- Need coaching signals from calls? Go to [What are customers talking about?](#what-are-customers-talking-about).
+- Need repeatable behaviors from top performers? Go to [What characterizes top sellers?](#what-characterizes-top-sellers).
+- Need call trend volume data? Go to [Call recording KPIs](#call-recording-kpis).
+- Need to change reporting scope first? Use [Time period filter](#time-period-filter).
 
 ## Time period filter
 
@@ -41,19 +44,20 @@ You can filter the information on the home page based on a time period, such as 
 
 ## Base KPIs
 
-The base KPIs provide information on the status of your current sales period. By viewing these KPIs, you'll know:
+The base KPIs provide information on the status of your current sales period. Use these metrics to track your progress and identify areas for improvement.
 
--	The time left in the current period to achieve your sales target.
+**What you can see:**
+- Time left in the current period to achieve your sales target
+- Sum of actual revenue from all won opportunities
+- Total estimated revenues from all open opportunities
+- Total deals won in this period
+- Percentage of deals won against available opportunities
+- Average revenue generated per deal
 
--	The sum of actual revenue of all won opportunities.
-
--	The total estimated revenues of all open opportunities.
-
--	The total deals that you won in this period.
-
--	The percentage of deals that you won against available opportunities in this period.
-
--	The average revenue generated through each deal in this period.
+**How it helps:**
+- Monitor progress toward revenue goals
+- Identify pipeline health and deal velocity
+- Benchmark performance against targets
 
 The following image is an example of how the base KPIs are displayed.
 
@@ -91,7 +95,13 @@ The following image is an example of how the "customer sentiment" insight is dis
 
 In this example, you can see that 200 calls have been analyzed and 27 percent of them have higher than the average negative customer sentiment. The doughnut chart shows the percentage of calls that are positive, neutral, and negative.
 
-Select **Show details** to view more details on how the customer sentiment is trending over time and the list of calls that contributed to this analysis. Furthermore, you can select each call and view the summary. To learn more about call summary, see [View and understand call summary](view-and-understand-call-summary.md).  
+Select **Show details** to:
+
+- View sentiment trends over time.
+- Review calls included in the analysis.
+- Open a call and inspect its summary.
+
+Next step: [View and understand call summary](view-and-understand-call-summary.md).
 
 > [!div class="mx-imgBorder"]
 > ![Customer sentiment more details page.](media/si-app-customer-sentiment-details.png "Customer sentiment more details page")
@@ -135,7 +145,15 @@ Select **Show details** to view more details on top trending competitors. The de
 
 ### Other brands and organizations
 
-This insight helps to discover new products, brands, and organizations that customers are speaking about in sales calls, which they never spoke of in previous calls. These products, brands, and organizations aren't defined in the application (under tracked keywords and competitors); the application uses the Microsoft Bing knowledge repository to identify the products, brands, and organizations to display. Using this insight, you can identify whether any competitor brands and organizations are mentioned on the sales calls and update your sales strategies accordingly.
+Use this insight to detect newly mentioned products, brands, and organizations in recent calls.
+
+How it works:
+- It excludes items already configured under tracked keywords and competitors.
+- It identifies emerging entities by using the Microsoft Bing knowledge repository.
+
+Why it matters:
+- You can spot newly referenced competitor brands early.
+- You can adjust coaching and sales strategy based on new mentions.
 
 The following image is an example of how the "brands and organizations detected" insight is displayed.
 

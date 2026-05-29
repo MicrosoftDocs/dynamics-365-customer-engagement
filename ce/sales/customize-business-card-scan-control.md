@@ -1,7 +1,7 @@
 ---
 title: Customize the business card scan control
 description: Customize how the data from the scanned business cards maps to the fields in the Contact and Lead forms.
-ms.date: 01/31/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

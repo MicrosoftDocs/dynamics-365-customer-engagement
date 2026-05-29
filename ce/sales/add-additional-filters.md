@@ -1,15 +1,16 @@
 ---
 title: Add additional filters to a forecast
 description: Add filters to refine the opportunities and hierarchies that participate in calculating the forecast values.
-ms.date: 03/07/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
-# Apply additional filters
 
-Add filters to refine the opportunities and hierarchies that participate in calculating the forecast values.
+# Add additional filters to a forecast
+
+Apply filters to your forecasts to focus on the right data and improve accuracy. For example, you can filter out opportunities from specific accounts or focus on a particular sales territory to get more targeted insights for your sales planning.
 
 ## Filter hierarchy records in the forecast
 

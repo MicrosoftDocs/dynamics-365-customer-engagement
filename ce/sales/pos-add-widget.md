@@ -1,7 +1,7 @@
 ---
 title: Add the opportunity scoring widget to a form
 description: Learn how to display the predictive opportunity scoring widget on your custom forms in Dynamics 365 Sales.
-ms.date: 02/19/2025
+ms.date: 05/29/2026
 ms.custom: 
 ms.topic: how-to
 author: lavanyakr01

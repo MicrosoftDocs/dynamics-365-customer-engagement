@@ -1,7 +1,7 @@
 ---
 title: Manage your accounts and contacts
 description: Learn how to create and use accounts and contacts in Dynamics 365 Sales to store information about companies and people you work with.
-ms.date: 02/26/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

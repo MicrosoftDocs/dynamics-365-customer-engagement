@@ -2,7 +2,7 @@
 title: Configure selection criteria for Sales Qualification Agent
 description: Discover how to set up selection criteria for the Sales Qualification Agent to segment leads that it needs to process.
 ms.topic: how-to
-ms.date: 09/10/2025
+ms.date: 05/29/2026
 ms.update-cycle: 180-days
 ms.service: dynamics-365-sales
 ms.custom: bap-template

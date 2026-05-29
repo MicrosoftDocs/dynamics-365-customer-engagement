@@ -1,7 +1,7 @@
 ---
-title: "Add products to quotes, orders, or invoices (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Include details about the products that your customer is interested in purchasing in your quote, order, or invoice in Dynamics 365 Sales."
-ms.date: 11/12/2024
+title: Add products to quotes, orders, or invoices
+description: Include details about the products that your customer is interested in purchasing in your quote, order, or invoice in Dynamics 365 Sales.
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -19,6 +19,7 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
+
 # Add products to quotes, orders, or invoices
 
 You can add products or product bundles to a quote, order, or invoice record. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog or an ad hoc product that you add as a write-in product. 
@@ -27,7 +28,7 @@ You can add products or product bundles to a quote, order, or invoice record. Th
 
 If you've created a quote from an opportunity, the products added to the opportunity are automatically added to the quote. You can add more products or remove the existing ones. You can also add products from a different opportunity by selecting **Get products** from the command bar.
 
-The process for adding a product to a quote record is the same as adding a product to an order or an invoice. This topic explains how to add products to a quote record.
+The process for adding a product to a quote record is the same as adding a product to an order or an invoice. This topic explains how to add products to a quote record. 
 
 1. From the list of quotes, open the quote record you want to add the product to. 
 
@@ -35,7 +36,7 @@ The process for adding a product to a quote record is the same as adding a produ
     - To add products from an opportunity, select the **More commands** button :::image type="icon" source="media/more-commands-icon.png" border="false"::: > **Get products** and select the opportunity.  
        Products from the selected opportunity are added to the quote.
   
-    - To find and add products manually, select **Add product**.
+    - To find and add products manually, select **Add product**. If you see **Add products** instead of **Add product**, it means your admin has enabled [enhanced experience for adding products](add-products-qoi-enhanced.md). 
 
         1. In the **Quick Create: Quote Product** form, do the following: 
     
