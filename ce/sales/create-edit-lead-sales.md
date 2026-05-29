@@ -1,11 +1,13 @@
 ---
 title: Create or edit leads
 description: Learn how to create a lead in Dynamics 365 to track business prospects and add notes, activities, and related contacts.
-ms.date: 08/12/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
-ms.author: lavanyakr
-ms.reviewer: lavanyakr
+ms.author: ramakris
+ms.reviewer: ramakris
+ai-usage:
+ - ai-assisted
 searchScope:
  - D365-App-msdynce_saleshub
  - D365-App-msdynce_salespro
@@ -36,9 +38,14 @@ Create leads in Dynamics 365 to track potential new customers. A lead can be an 
 
 1. Select **Qualify** in the process bar and select or [create an account and contact](accounts-contacts.md).
 
-    - If you select an account or a contact, the company name and contact address details are filled in for you if they were empty. If that information was already entered, your selection doesn't change the existing values.
+    - If you select an existing account, the **Company Name** is automatically populated in the lead form.
+    - If you select an existing contact, the following fields are automatically populated in the lead form: **First Name**, **Last Name**, **Job Title**, **Business Phone**, **Mobile Phone**, and **Email**.
+
+      > [!NOTE]
+      > Auto-population happens only when creating a new lead and when the corresponding fields in the lead form are empty. If fields are already populated or data is manually entered, the auto-population doesn't override the existing values.
+
     - If you create an account or a contact, Bing Maps can fill in the address details for you if your administrator has turned on address suggestions. Scroll down to the **Address** box and start typing the street address. Select an address from the list of suggestions provided by Bing Maps.
-    - When you create a lead, you can select any values for **Existing Contact** and **Existing Account** until you save the lead. After you save the new lead, you can only select values that have been filtered to avoid duplicates.
+    - On new (unsaved) lead records, you can select any values for **Existing Contact** and **Existing Account**. After you save the lead record, these fields are filtered to show only records that meet the duplicate detection rules to avoid duplicates.
 
 1. Select or enter the remaining details in the **Qualify** step.
 
@@ -50,7 +57,7 @@ Create leads in Dynamics 365 to track potential new customers. A lead can be an 
     - By default, the contact you connect is assigned the Stakeholder role. To select a different role, select the space to the left of the contact in the list, select **Edit**, and assign the correct role.
   
    > [!IMPORTANT]
-   > If you don't see "New Connection", it means your organization is using a customized view of leads. In that case, select the **Connections** tab, and then select **Connect** to connect a stakeholder to the lead.
+   > The **New** button on Connection sub-grids is supported only for the out-of-box **Stakeholders** views on the Lead entity. For any other Connection sub-grid or **Stakeholders** sub-grids that are based on custom views, the **New** button doesn't appear on the sub-grid. In such cases, navigate to the **Connections** tab for the record and select **Connect** to create a new connection.
 
 1. Select the **Details** tab and enter any other information you have about your lead, such as industry and preferred contact method.
 
