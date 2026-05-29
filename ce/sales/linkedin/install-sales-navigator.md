@@ -34,7 +34,7 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
     > We recommend having a Microsoft Relationship Sales solution Plus license that includes Dynamics 365 Sales Enterprise and [LinkedIn Sales Navigator Advanced Plus](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/crm) license. To learn more, see the **Dynamics 365 Sales** section from the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
     > [!TIP]
-    > If you see a "LinkedIn Sales Navigator subscription not found" message after installation, verify that the correct LinkedIn Sales Navigator license (Advanced or Advanced Plus) is assigned to the users who need access. A Microsoft Relationship Sales subscription alone doesn't automatically provision LinkedIn licenses—both the Dynamics 365 and LinkedIn license components must be active.
+    > If you see a "LinkedIn Sales Navigator subscription not found" message after installation, verify that a proper LinkedIn Sales Navigator license is assigned to you. A Microsoft Relationship Sales subscription alone doesn't automatically provision LinkedIn licenses—both the Dynamics 365 and LinkedIn license components must be active. 
 
 - You need to enable JavaScript in your browser.  
 - You have to disable your pop-up blocker for the [!INCLUDE[pn-dynamics-365](../../includes/pn-dynamics-365.md)] domain.  
