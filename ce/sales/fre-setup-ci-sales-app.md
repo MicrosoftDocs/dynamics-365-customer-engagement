@@ -31,12 +31,6 @@ If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call
 - [Teams dialer enabled and configured for your organization](configure-microsoft-teams-dialer.md)
 - (Optional) [Set up own storage for call recordings](create-azure-repo.md) if you want to use your own Azure storage for storing call recordings and transcripts, and the call insights. Otherwise, the application uses Microsoft-provided storage.
 
-## Prerequisites for third-party dialers
-
-- A valid license and subscription to use the third-party dialers. Refer to your telephony provider's documentation to set up the phone system and dialer.
-
-- [Integrate the third-party dialer with Dynamics 365 Sales](ci-third-party-sp-integration.md).  
-
 ## Open the conversation intelligence settings page
 
 1. Select **Change area** in the lower-left corner of the page, and then select **Sales Insights settings**.  

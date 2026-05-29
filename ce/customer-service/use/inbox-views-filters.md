@@ -1,7 +1,7 @@
 ---
 title: Use views and filters in the inbox
-description: Learn about the inbox views and filters that are available out of the box.
-ms.date: 07/22/2025
+description: Learn about the inbox views and filters that are available out of the box in Dynamics 365 Customer Service.
+ms.date: 05/28/2026
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

@@ -1,11 +1,11 @@
 ---
 title: Use the Schedule Calendar
 description: Learn how to use the Schedule Calendar views in Copilot Service workspace to effectively plan your schedule.
-author: lalexms
-ms.author: laalexan
-ms.reviewer: laalexan
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 ms.topic: how-to 
-ms.date: 05/09/2024 
+ms.date: 05/28/2026 
 ms.custom: bap-template 
 ---
  

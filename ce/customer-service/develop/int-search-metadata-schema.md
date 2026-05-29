@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham 
 ms.reviewer: mgandham
 ms.topic: overview
-ms.date: 06/27/2025
+ms.date: 05/28/2026
 ms.custom: bap-template
 ---
 
@@ -26,7 +26,7 @@ The following table lists the fields and field details that you must use in your
 |UniqueTargetFieldName     |The unique identifier or alternate key of the knowledge article entity. Typically, this field is the ID on the content provider side. |Yes     |A string indicating the name of the field. You can set the value to "msydn_externalreferenceid" |
 |ContentTargetFieldName     | Field value shouldn't be changed. |Yes     |Set the value to "content". |
 |ApiPathLeafName     |Field value shouldn't be changed. |Yes     |Set the value to "knowledgearticles". |
-|List&lt;FieldDefinitions&gt;   |Is a list of field definitions. |Yes     |A set of definitions for the fields. See the following table for the list of supported fields for setting field definitions. |
+|List&lt;FieldDefinitions&gt;   |A list of field definitions. |Yes     |A set of definitions for the fields. See the following table for the list of supported fields for setting field definitions. |
 
 ### Field definitions
 
@@ -37,7 +37,7 @@ The following table lists the required and optional attributes that you can use 
 |TargetFieldName     |Is the logical field name of the target attribute in the knowledge article entity. |Yes |Any string indicating the name of the target field |
 |TargetFieldType    |Indicates the type of the target field. |Yes  |A string indicating the type of the field. |
 |DocFieldSource    | Indicates how the source field value is identified and resolved at run time |Yes     |Set the value to one of the following source types: <UL><li>Regex</li><li>Meta</li><li>Constant</li><li>Url</li><li>Document</li></ul>To know about these data types, refer to the following Field source types section. |
-|DocFieldPattern  |Indicates the nature of the target field to be fetched. |No  |Set this value based on the DocFieldSource value. See the examples below on how to set DocFieldPatterns. |
+|DocFieldPattern  |Indicates the nature of the target field to be fetched. |No  |Set this value based on the DocFieldSource value. Review the examples on how to set DocFieldPatterns. |
 |MaxLength    |Is the maximum length of the string that can be stored in the target field. |No. Can be used when **TargetFieldType** attribute is of type String    |Int |
 |UseRegexCapture    |Stores the regex pattern that can be applied to the URL. |No. Can be used when the **TargetFieldType** attribute is of type String and **DocFieldSource** attribute is of type Url. |Url or String. |
 
@@ -77,7 +77,7 @@ Your mapping template must include:
       }
 
     ```
-- You must include the below **FieldDefinitions** list and populate its attributes such as **FieldUse**, **DocFieldSource**, **TargetFieldName**, and **TargetFieldType** with default values.  Be sure to include the following fields and attributes with their values, “as-is”, in your template. However, the Docfieldsource and Docfieldpattern for the title and content value fields can be set by you to either **Regex**, **Meta**, **Document**, **Constant**, or **Url**.
+- You must include the following **FieldDefinitions** list and populate its attributes such as **FieldUse**, **DocFieldSource**, **TargetFieldName**, and **TargetFieldType** with default values. Make sure to include the following fields and attributes with their values, “as-is”, in your template. However, you can set the Docfieldsource and Docfieldpattern for the title and content value fields to **Regex**, **Meta**, **Document**, **Constant**, or **Url**.
 
     ```JSON
 
@@ -123,7 +123,7 @@ Your mapping template must include:
 
     ```
 
-- After you listed the mandatory fields and attribute information, you can include any additional metadata mappings and set your own custom values for them. For example, you can include a Meta type of **DocFieldSource** and set any custom values for the attribute, as follows.
+- After you list the mandatory fields and attribute information, you can include any additional metadata mappings and set your own custom values for them. For example, you can include a Meta type of **DocFieldSource** and set any custom values for the attribute, as follows.
 
     ```JSON
 
@@ -202,15 +202,15 @@ You can use the following metadata mapping JSON sample as template to build your
 
 ### Transform, map external source data to knowledge fields
 
-When you're mapping information from external data providers to knowledge article entities, if the source value is of a different data type, you must transform the value before you can map it to the target knowledge attribute. You can create a plug-in and register it on `Create` and `Update` messages so that the target knowledge article attributes have values that are inline with the articles from the external providers.
+When you map information from external data providers to knowledge article entities, if the source value is of a different data type, you must transform the value before you can map it to the target knowledge attribute. You can create a plug-in and register it on `Create` and `Update` messages so that the target knowledge article attributes have values that are inline with the articles from the external providers.
 
 To transform and map the source values, perform the following steps:
 
 1. Create a custom field in the `KnowledgeArticle` entity. Learn more at [How to create and edit columns](/power-apps/maker/data-platform/create-edit-fields).
-1.  Map the required external source value to the newly created custom field. Learn more at [Configure knowledge article schema mapping (preview)](../administer/int-data-mapping.md). This is a temporary mapping from which your plug-in picks up the source value.
+1.  Map the required external source value to the newly created custom field. Learn more at [Configure knowledge article schema mapping (preview)](../administer/int-data-mapping.md). This mapping is temporary and your plug-in picks up the source value from it.
 1. Create a plug-in. Learn more at [Create a plug-in project](/power-apps/developer/data-platform/tutorial-write-plug-in#create-a-plug-in-project).
 1. You can write your own code to convert the external source value and map it to the required target knowledge article attribute.  
-In this example, we show how you can map a source value that's of the type **String** to an article field attribute of type **OptionSet**. In the plug-in that you created, replace the entire class with the following sample code.
+The following example shows how you can map a source value with the **String** type to an article field attribute of type **OptionSet**. In the plug-in that you created, replace the entire class with the following sample code.
 
       
  ``` C#

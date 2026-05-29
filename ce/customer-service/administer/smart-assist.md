@@ -4,7 +4,7 @@ description: Learn how to smartly assist representatives with the next-best step
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 04/15/2026
+ms.date: 05/07/2026
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -20,7 +20,7 @@ ms.custom: bap-template
 
 The new-age customer service industry is moving toward the vision of being intelligent rather than process-driven while interacting with customers. Pivoting on intelligence capabilities helps unleash the productivity of representatives to perform better on key performance indicators and&mdash;at the same time&mdash;deliver better customer experience.
 
-Smart assist is an intelligent assistant that provides real-time recommendations to representatives, helping them take actions while interacting with customers. It allows organizations to build a custom AI agent (agent) and plug-in to their environment. These custom agents interpret conversations in real time and provide relevant recommendations such as knowledge articles, similar cases, and next-best steps to the representative's user interface.
+Smart assist is an intelligent assistant that provides real-time recommendations to representatives, helping them take actions while interacting with customers. It allows organizations to build a custom AI agent (agent) and plug-in to their environment. These custom agents interpret conversations in real time and provide relevant recommendations and next-best steps to the representative's user interface.
 
 The smart assist feature can be enabled across all channels, such as Chat for Dynamics 365 Customer Service, SMS, and Facebook (excluding Entity Records Channel), making it a consistent experience for representatives.
 
@@ -43,17 +43,11 @@ The smart assist feature can be enabled across all channels, such as Chat for Dy
 
 - Productivity pane must be enabled. Out of the box, productivity pane is enabled by default.
 - Smart assist must be enabled.
-- One of the following:
-  - AI-suggested similar cases and knowledge articles should be enabled by your administrator.
-  - Develop a smart assist agent and integrate it with Dynamics 365 Contact Center. The smart-assist bot interprets the conversation context in real time and provides suggestions to representatives. For information: [Build a smart assist agent using Azure Bot Service](../develop/smart-assist-bot.md).
+- Develop a smart assist agent and integrate it with Dynamics 365 Contact Center. The smart-assist bot interprets the conversation context in real time and provides suggestions to representatives. For information: [Build a smart assist agent using Azure Bot Service](../develop/smart-assist-bot.md).
 
   > [!NOTE]
   > - Microsoft Copilot agents aren't supported as smart assist agents.
   > - End conversation command isn't supported in the smart assist agents.
-
-## Enable AI suggestions for similar cases and knowledge articles
-
-To enable AI-suggested similar cases and knowledge articles, see [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md).
 
 ## Enable smart assist for the bot framework in Dynamics 365 Contact Center
 

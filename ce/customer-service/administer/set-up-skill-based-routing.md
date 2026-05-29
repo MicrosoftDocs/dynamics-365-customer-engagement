@@ -2,7 +2,7 @@
 title: Understand how skill match algorithm works in unified routing
 description: Understand how skill match works in unified routing in Customer Service and Dynamics 365 Contact Center.
 ms.date: 05/07/2026
-ms.topic: conceptual
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

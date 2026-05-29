@@ -46,8 +46,6 @@
             href: view-social-profile.md
           - name: Convert a case to a knowledge article
             href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
-          - name: View AI-suggested similar cases and knowledge articles
-            href: csw-view-ai-suggested-cases-knowledge-articles.md
           - name: Manage cases using interactive dashboards
             href: customer-service-hub-user-guide-dashboard.md
       - name: Service-level agreements
@@ -312,6 +310,44 @@
           href: oc-agent-scripts.md
         - name: Rich messages in conversation control
           href: rich-messages-conversation-control.md
+      - name: Workforce Management
+        items:
+        - name: Forecasting
+          items: 
+          - name: Create and manage forecast scenarios
+            href: /dynamics365/contact-center/use/workforce-management-forecast-scenarios?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Import historical data
+            href: /dynamics365/contact-center/use/workforce-management-import-historical-data?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Estimate AI agent credits from forecasts
+            href: /dynamics365/contact-center/use/workforce-management-credit-estimation?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Capacity planning
+          items:
+          - name: Create and manage capacity plans
+            href: /dynamics365/contact-center/use/workforce-management-capacity-planning?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Shift planning and scheduling
+          items:
+          - name: Create and manage shift plans
+            href: /dynamics365/contact-center/use/workforce-management-shift-plan?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Use auto schedule to schedule service representatives
+            href: /dynamics365/contact-center/use/workforce-management-use-auto-schedule?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Use shift bidding
+            href: /dynamics365/contact-center/use/workforce-management-representative-shift-bidding?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Use shift swapping
+            href: /dynamics365/contact-center/use/workforce-management-use-shift-swapping?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Use shift-based routing for work items
+            href: /administer/configure-routing-on-agent-calendar.md
+          - name: Use the Schedule Calendar
+            href: use-agent-calendar.md
+          - name: Use break distribution to assign breaks
+            href: /dynamics365/contact-center/use/workforce-management-use-break-distribution?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Time-off request management
+          items:
+          - name: Manage time-off requests
+            href: /dynamics365/contact-center/use/workforce-management-view-time-off-requests?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Create a time-off request
+            href: /dynamics365/contact-center/use/workforce-management-create-time-off-request?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Adherence tracker
+          href: /dynamics365/contact-center/use/workforce-management-adherence-tracker?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml 
       - name: Copilot in Customer Service
         items: 
         - name: Copilot feature availability across applications

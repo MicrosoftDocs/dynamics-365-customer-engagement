@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: overview 
-ms.date: 08/01/2025
+ms.date: 05/04/2026
 ms.custom: bap-template 
 ---
 
@@ -34,6 +34,7 @@ In the application, you can configure the following SMS channels:
 
 - SMS channel using Azure Communication Services
 - SMS channel for Twilio
+- SMS channel for Infobip
 
 > [!NOTE]
 > SMS isn't supported with Azure direct routing. Learn more in [Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing).
@@ -41,7 +42,8 @@ In the application, you can configure the following SMS channels:
 ## Next steps
 
 [Configure an SMS channel using Azure Communication Services](configure-sms-channel-acs.md)  
-[Configure SMS channel for Twilio](Configure-sms-channel-twilio.md)    
+[Configure SMS channel for Twilio](Configure-sms-channel-twilio.md)  
+[Configure SMS channel for Infobip](/dynamics365/contact-center/administer/configure-sms-channel-infobip)  
 
 ### Related information
 

@@ -1,12 +1,12 @@
 ---
 title: Configure components to display case associations
-description: Learn about adding the associated grid control to forms.
+description: Learn about adding the associated grid control to forms in Dynamics 365 Customer Service.
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
-ms.date: 04/30/2025 
+ms.date: 05/29/2026 
 ms.custom: bap-template 
 ---
 

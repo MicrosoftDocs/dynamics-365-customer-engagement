@@ -4,7 +4,7 @@ description: Discover how to update agent settings, define access, and set enric
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 04/22/2026
+ms.date: 05/18/2026
 ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -34,7 +34,7 @@ In the **User access** section of the [Data Enrichment settings](#open-settings)
 You can choose one of the following options:
  
 - **All users with premium license**: Select this option to allow all users with a Dynamics 365 Sales Premium license to access the agent's suggestions.
-- **Specific groups**: Select this option to allow specific sellers (up to 10 users) or those who meet certain criteria to access the agent's suggestions. You can either select individual users or specify criteria based on fields such as sales team, job title, or geography to determine who can access the agent's suggestions.  
+- **Specific groups**: Select this option to allow specific sellers or those who meet certain criteria to access the agent's suggestions. You can either select individual users (up to 10) or specify criteria based on fields such as sales team, job title, or geography to determine who can access the agent's suggestions.  
 
 ## Select records for enrichment
 
@@ -52,13 +52,16 @@ In the **Agent behavior** section of the [Data Enrichment settings](#open-settin
 - **Enrichment frequency**: Indicates how often Data Enrichment applies updates automatically. The agent analyzes emails and generates suggestions every 4 hours. For manual updates, sellers can review suggestions as soon as they're generated. For automatic updates, changes are applied based on the enrichment frequency, which is set to **Daily** by default. This setting is informational and can't be changed.
 - **Data sources**: Shows the data sources that Data Enrichment will use to analyze and enrich opportunity records. It currently uses email interactions in your Microsoft 365 mailbox to gather context about opportunities and suggest updates. This field is informational and cannot be changed.
 
-## Turn on recommended actions
+## Enable or disable connected skills
 
-The Data Enrichment Agent can integrate with the [Recommended Actions Agent](recommended-actions-overview.md) to provide sellers with prioritized action recommendations based on detected risks in their opportunities. 
+Connected skills extend Data Enrichment by integrating it with other features in Dynamics 365 Sales. In the **Connected skills** section of the [Data Enrichment settings](#open-settings), the following skill is currently available and turned on by default:
 
-In the Data Enrichment configuration page, go to **General** > **Connected skills** and turn on the toggle for recommended actions to enable this integration. After you enable recommended actions for the Data Enrichment Agent, action insight cards from the agent start appearing on opportunities that meet the criteria for the agent, providing sellers with prioritized recommendations to manage their opportunities effectively.
+**Recommended action**: When enabled, this skill displays Data Enrichment suggestions in the **Suggested actions** carousel on the opportunity list view, allowing sellers to review and apply suggestions without opening individual opportunities. The skill recommends the next best action based on opportunity context. If disabled, sellers can still access data enrichment suggestions from within each opportunity record, but they won't appear in the carousel. For more information, see [Configure Recommended Actions Agent](configure-recommended-actions.md).
 
-The Data Enrichment Agent appears in the recommended actions configuration page, where it's listed under **Sources** > **Default sources**. Manage the agent's settings and view its insights through the recommended actions interface. For more information, see [Configure Recommended Actions Agent](configure-recommended-actions.md).
+The following screenshot shows an example of a Data Enrichment suggestion surfaced in the Suggested actions carousel for sellers to act on:
+:::image type="content" source="media/data-enrichment-in-carousal.png" alt-text="Screenshot of the Suggested actions carousel showing Data Enrichment suggestions.":::
+
+Select the toggle next to the skill name to enable or disable it based on your preferences.
 
 <a name="start-agent"></a>
 ## Start or stop the agent

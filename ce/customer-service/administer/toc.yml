@@ -150,12 +150,38 @@
           href: automation-dictionary-keys.md
         - name: FAQ about adding users to agent experience profile
           href: faq-agent-experience-profile.md
-    - name: Manage your workforce
+    - name: Workforce Management
       items:
-      - name: Configure the agent calendar view
-        href: configure-agent-calendar.md 
-      - name: Configure shift-based routing for work items
-        href: configure-routing-on-agent-calendar.md
+      - name: Install the package
+        href: /dynamics365/contact-center/administer/workforce-management-package-installation?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: User management
+        href: /dynamics365/contact-center/administer/workforce-management-user-management?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Forecasting
+        items:
+        - name: Enable volume forecasting
+          href: /dynamics365/contact-center/administer/workforce-management-configure-forecast-scenarios?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Enable capacity planning
+          href: /dynamics365/contact-center/administer/workforce-management-configure-capacity-planning?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Shift and schedule management
+        items: 
+        - name: Enable shift activity types
+          href: /dynamics365/contact-center/administer/workforce-management-shift-activity-types?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Enable schedule management
+          href: /dynamics365/contact-center/administer/workforce-management-enable-schedule-management?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Enable shift-based routing
+          href: /dynamics365/contact-center/administer/workforce-management-enable-shift-based-routing?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Time management
+        items:
+        - name: Enable the representative calendar
+          href: /dynamics365/contact-center/administer/workforce-management-configure-representative-calendar?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Enable time-off request types
+          href: /dynamics365/contact-center/administer/workforce-management-time-off-request-types?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Enable shift bidding
+          href: /dynamics365/contact-center/administer/workforce-management-enable-shift-bids?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Enable shift swapping
+          href: /dynamics365/contact-center/administer/workforce-management-enable-shift-swapping?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Configure shift-based routing for work items
+          href: configure-routing-on-agent-calendar.md
     - name: Community
       items:
       - name: Overview of Community
@@ -182,8 +208,6 @@
         href: create-manage-subject-tree.md
       - name: Define parent and child cases
         href: define-settings-parent-child-cases.md
-      - name: Enable AI suggestions for similar cases
-        href: csw-enable-ai-suggested-cases-knowledge-articles.md#enable-ai-suggestions-for-similar-cases
       - name: View similar case suggestions
         href: suggest-similar-cases-for-a-case.md
       - name: Allow updates for resolved and canceled cases
@@ -498,7 +522,7 @@
           href: /dynamics365/contact-center/administer/overview-customer-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
         - name: Manage Customer Intent Agent
           href: /dynamics365/contact-center/administer/manage-customer-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Configure intent-based routing
+        - name: Configure intent-driven routing (preview)
           href: configure-intent-based-routing.md
         - name: Enable intent-based suggestions for service representatives
           href: /dynamics365/contact-center/administer/enable-intent-for-service-reps?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
@@ -506,7 +530,7 @@
           href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Case Management Agent
         items: 
-          - name: Configure global settings for Case Management Agent
+          - name: Configure Case Management Agent
             href: case-management-global-settings.md
           - name: Enable email classification
             href: configure-email-classification.md
@@ -820,8 +844,6 @@
         href: configure-case-sentiment-analysis.md
       - name: Customize interactive dashboards based on Unified Interface
         href: configure-interactive-dashboards-customer-service-hub.md
-      - name: FAQ about AI suggestions for cases and knowledge articles
-        href: csw-faqs-ai-suggestions.md
     - name: Service scheduling
       items:
       - name: Core Service Scheduling

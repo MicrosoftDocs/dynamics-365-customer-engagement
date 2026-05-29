@@ -121,7 +121,7 @@ items:
           href: work-order-update.md
         - name: Create inspection templates
           href: inspections-copilot.md
-        - name: Use Microsoft 365 Copilot (preview)
+        - name: Use Microsoft 365 Copilot
           href: use-microsoft-365-copilot-model-driven-apps.md
         - name: Supervise agents with agent feed (preview)
           href: supervise-agents-with-agent-feed.md
@@ -329,6 +329,8 @@ items:
         href: booking-template.md
       - name: Show account names on booking details
         href: account-names-booking-details.md
+      - name: Share schedule board tab
+        href: share-schedule-board-tab.md  
     - name: Schedule Assistant APIs
       items:
       - name: Search resource availability API

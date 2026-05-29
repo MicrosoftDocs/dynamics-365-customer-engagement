@@ -1,7 +1,7 @@
 ---
 title: Work on opportunities handled by the Sales Opportunity Agent
 description: Learn how to work on opportunities handled by the Sales Opportunity Agent.
-ms.date: 03/30/2026
+ms.date: 05/14/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -59,9 +59,18 @@ If your admin has configured the agent to use server-side synchronization instea
 Consider the following information:
 
 - The agent reads your emails directly from Microsoft 365 without storing them. 
-- After you grant consent, the agent analyzes up to 100 recent emails from your inbox to gather opportunity insights. This consent can't be revoked. 
+- After you grant consent, the agent analyzes emails received in the last 30 days to gather opportunity insights, provided the [requirements for generating insights](#requirements-for-generating-insights-based-on-your-emails) are met. This consent can't be revoked. 
 - The agent processes emails every six hours to keep research insights current. 
 - The agent reads emails of the opportunity owner to generate insights for an opportunity. However, the insights are visible to all users who can access the opportunity.
+
+## Requirements for generating insights based on your emails
+
+For generating insights based on your emails, the following conditions must be met:
+
+1. The opportunity must have at least one email received from an external contact.
+1. The sender's email address must map to a contact who is associated with the opportunity (for example, as the primary contact, a stakeholder, or the primary contact of the parent account).
+1. There can be a delay in Outlook-to-Graph synchronization. [Learn more about expected latency](/graph/change-notifications-overview#latency).
+1. Email insight generation runs as a background process, so enrichment suggestions might take some time to appear.
 
 
 ## Opportunity research page
