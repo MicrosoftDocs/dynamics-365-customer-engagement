@@ -4,7 +4,7 @@ description: Learn how to set up and configure the AI-powered Data Enrichment fe
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 05/19/2026
+ms.date: 05/27/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -20,7 +20,7 @@ As an admin, you can configure AI-powered Data Enrichment to work on specific op
 Ensure that you meet the following prerequisites:
 
 - You marked the prerequisites common to all Sales agents as **Done**. For more information, see [Prerequisites for all Sales agents](prerequisites-for-all-agents.md).
-- You have the appropriate Dynamics 365 Sales license. Check out the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?linkid=2152923) to know more about licensing requirements.
+- You have the appropriate Dynamics 365 Sales license. Check out the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544) to know more about licensing requirements.
 - You have admin privileges in Dynamics 365 Sales.
 - If you have custom fields that you want the agent to enrich, ensure that these fields have a meaningful name and description to help the agent understand their purpose and provide accurate suggestions.
 
@@ -68,12 +68,19 @@ Ensure that you meet the following prerequisites:
 
 ## Grant permissions to sellers
 
-By default, the **Salesperson** and **Sales Manager** security roles have the necessary permissions to use the Data Enrichment agent. If you're using a custom security role, ensure sellers have the following minimum permissions:
+For **Salesperson** security role, grant the following permission: 
+
+| Entity | Access level - Permissions | Purpose |
+|---------|----------------------------|----------|
+| Connection | Business unit-level - Delete | Required to allow the agent to create and delete connections to Microsoft 365 on behalf of the seller |
+
+For a custom security role, grant the following permissions:
 
 | Entities | Access level - Permissions | Purpose |
 |---------|----------------------------|----------|
 | Connector | User-level - Read | Required to provide consent to use Microsoft 365 emails for opportunity enrichment |
 | Process (Workflow) | User-level - Read, Write, and Create | Required to create the necessary flow and Dataverse connection on the seller's behalf |
+| Connection | Business unit-level - Delete | Required to allow the agent to create and delete connections to Microsoft 365 on behalf of the seller |
 
 ## Migrate agents across environments
 

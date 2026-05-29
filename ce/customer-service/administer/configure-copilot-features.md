@@ -26,7 +26,7 @@ However, for service representatives to use these features in Customer Service H
 
 Copilot features in Dynamics 365 Customer Service are powered by Microsoft 365 Copilot and exposed in Customer Service apps such as Copilot Service workspace.
 
-Copilot features use customer service data—such as cases, customer records, and interactions—to help customer service representatives (service representatives or representatives) retrieve information, generate responses, and complete actions without leaving their workflow.
+Copilot features use customer service data, such as cases, customer records, and interactions, to help customer service representatives (service representatives or representatives) retrieve information, generate responses, and complete actions without leaving their workflow.
 
 Some Copilot capabilities are delivered through Copilot agents, such as Service Agent. These agents extend Copilot with customer service–specific functionality that helps representatives summarize cases, retrieve knowledge, and perform actions.
 
@@ -36,6 +36,9 @@ This article describes how to enable and manage Copilot capabilities through the
 
 - You must have the System Administrator role.
 - Specific licensing requirements apply when you use the feature with product environments. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+- Copilot features are enabled for Customer Service in Power Platform admin center.
+
+[!INCLUDE[enable-copilot-features-ppac](../../includes/ai-features/enable-copilot-features-ppac.md)]
 
 ## Region availability and data movement
 
@@ -63,7 +66,6 @@ Copilot feature performance is based on the regional availability of the Azure O
 ## Supported languages
 
 Learn about supported languages for Copilot in [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
-
 
 ## Data sharing for Copilot features
 
@@ -169,10 +171,9 @@ Out of the box, users with the Customer Service Representative role only can use
 |Pane tab configuration | msdyn_panetabconfiguration | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
 |Organization Setting | organizationsetting | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
 
-
 > [!NOTE]
 > - Make sure that your users have **Miscellaneous privileges** > **prvIntelligenceUsage** assigned to the required custom security roles to access Copilot. Learn more in [Security roles and privileges](/power-platform/admin/security-roles-privileges).
-> - For custom CSR roles, make sure the role has the following permissions and corresponding access levels:
+> - For custom roles for representatives, make sure the role has the following permissions and corresponding access levels:
 >    - Read and Write have access level set to Basic.
 >        - `<RolePrivilege name="prvReadmsdyn_copilotevent" level="Basic" />`  
 >        - `<RolePrivilege name="prvWritemsdyn_copilotevent" level="Basic" />`  

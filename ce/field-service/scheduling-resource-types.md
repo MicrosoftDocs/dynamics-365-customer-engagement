@@ -1,7 +1,7 @@
 ---
 title: Resource types for scheduling
-description: Learn about the different resource types available for scheduling in Dynamics 365 Field Service and when to use each one.
-ms.date: 03/30/2026
+description: Learn about the different resource types available for scheduling in Dynamics 365 Field Service and when to use each.
+ms.date: 05/26/2026
 ms.custom: bap-template
 ms.topic: concept-article
 author: mkelleher-msft
@@ -10,7 +10,7 @@ ms.author: mkelleher
 
 # Resource types for scheduling
 
-When you [set up resources](set-up-bookable-resources.md) for scheduling, assign each resource a resource type. The type determines how the resource is scheduled and how it interacts with the schedule board and schedule assistant.
+When you [set up resources](set-up-bookable-resources.md) for scheduling, assign each a resource type. The type determines how the resource is scheduled and how it interacts with the schedule board and schedule assistant.
 
 ## Available resource types
 
@@ -37,16 +37,16 @@ Each resource has a start and end location that determines how the system calcul
 
 ## Resource type impact on scheduling
 
-- **Schedule assistant** filters results by resource type. When you search for a [facility requirement](facility-scheduling.md), only Facility-type resources appear.
-- **Crews** are scheduled as a single unit - booking the crew books all its members. Learn more in [Crews](resource-crews.md).
-- **Pools** support deferred allocation - you book the pool first, then assign a specific member later. Learn more in [Pools](resource-pools.md).
+- **Schedule assistant** filters results by resource type. When you search for a [facility requirement](facility-scheduling.md), only facility-type resources appear.
+- **Crews** are scheduled as a single unit. Booking the crew books all its members. Learn more in [Crews](resource-crews.md).
+- **Pools** support deferred allocation. Book the pool first, then assign a specific member later. Learn more in [Pools](resource-pools.md).
 - **Equipment** resources don't have user accounts and can't access the mobile app. Dispatchers manage these resources on the schedule board.
 
 ## Key properties that affect scheduling
 
 Beyond resource type and location, these properties shape how a resource is matched to requirements:
 
-- **Work hours** - When the resource is available. Learn more in [Apply a calendar to a bookable resource](calendar-resource.md).
+- **Work hours** - When the resource is available. Learn more in [Apply a calendar to a resource](calendar-resource.md).
 - **Characteristics** - Skills and certifications the resource has. Learn more in [Characteristics](set-up-characteristics.md).
 - **Categories** - Role or job title classification. Learn more in [Bookable resource categories](set-up-bookable-resource-categories.md).
 - **Territories** - Geographic regions the resource serves. Learn more in [Territories](set-up-territories.md).

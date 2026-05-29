@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 09/23/2025
+ms.date: 05/21/2026
 ms.custom: bap-template
 ---
 
@@ -46,7 +46,7 @@ Service quotas are the limits on resources, configurations, and items provided a
 | Bulk user calendar or schedule updates  | Number of users whose calendars can be updated in bulk  |  500 per 15 minutes<sup>2</sup>   | Yes   |
 | Dataverse Storage Entitlement (aggregated at tenant level)  |  Microsoft Dataverse storage entitlement based on license; includes SQL/DB, file, and log storage in Dataverse <br><br>More information: [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544) |  32 GB of base storage per tenant<sup>3</sup><br><br>2.25 GB of extra storage per Customer Service license per user<sup>4</sup><br><br>35 GB of extra file storage for the Voice Channel Add-in per user<br>| Other Dataverse storage can be purchased     |
 | Time for configuration updates to take effect, including channel and routing settings and updates to skills, capacity profile, and calendar  | Maximum time for configuration changes to reflect in the user experience |   15 minutes |    No.  |
-| Updates to routed records | Number of actions per minute like resolve a case, queue transfer, transfer to customer service representatives (service representatives or representatives), queue item delete that can be done for routed records. | 25 updates per minute per organization. | Yes. |
+| Updates to routed records | Number of actions per minute like resolve a case, queue transfer, transfer to customer service representatives (service representatives or representatives), queue item delete that can be done for routed records. | Governed by the Dataverse limits applicable to the org. Learn more in [Microsoft Dataverse limits](/power-apps/maker/data-platform/api-limits-overview). | Yes. |
 
 <sup>1</sup> To get quality service in a channel, ensure that you don't exceed the defined limit for that channel. When multiple channels are in use, the total conversations per minute should remain under the overall limit of 100. For example, with 50 voice calls per minute, 35 live chat sessions per minute, and 15 digital messages, the total limit is considered to be 100. Any conversation coming in after the 100<sup>th</sup> item, irrespective of the channel, might reduce the service quality.
 

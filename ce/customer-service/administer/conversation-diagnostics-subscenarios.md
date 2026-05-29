@@ -398,17 +398,17 @@ Displays information on the user group identified for the conversation.
       **Scenario**: CSRInitiatedTransfer for Conversation: xxxx failed with exception: xxxx
 - **omnichannel.initiator_agent.id**:	Captures the ID of the representative initiating the consult request
 - **Omnichannel.target_agent.id**: Captures the ID of the representative receiving the consult request
-- **Channel type**:	Channel from which work item originated.
+- **Channel type**: Channel from which work item originated.
 
 ### Subscenario: Call End
 
-- **Omnichannel.description and Omnichannel.messsage**: Captures whether the subscenario started, completed successfully, or failed. If the subscenario failed, error or exception information is provided 
+- **Omnichannel.description and Omnichannel.messsage**: Captures whether the subscenario started, completed successfully, or failed. If the subscenario failed, error or exception information is provided.
 
-- **Call Status Code**: A code that can be used to learn more details about how/why the call ended. 
+- **Call Status Code**: A code that can be used to learn more details about how/why the call ended.
 
 - **Conversation stage**: End
 
-### Subscenario: Other subscenarios for agents and supervisors
+### Subscenario: Other subscenarios for representatives and supervisors
 
 - **Subscenarios**:
     - CSRRejected

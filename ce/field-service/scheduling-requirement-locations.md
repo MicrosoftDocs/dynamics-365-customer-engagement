@@ -1,7 +1,7 @@
 ---
 title: Work locations for scheduling requirements
 description: Learn about on-site, facility, and location-agnostic work locations for scheduling requirements in Dynamics 365 Field Service.
-ms.date: 03/30/2026
+ms.date: 05/26/2026
 ms.custom: bap-template
 ms.topic: concept-article
 author: mkelleher-msft
@@ -31,7 +31,7 @@ The requirement uses the work order's location (latitude/longitude). The schedul
 
 ### Facility
 
-Set the requirement's **Work Location** to **Facility** when customers come to your location. The schedule assistant automatically filters to show only Facility-type resources and calculates travel time from the customer's location to the facility.
+Set the requirement's **Work Location** to **Facility** when customers come to your location. The schedule assistant automatically filters to show only facility-type resources and calculates travel time from the customer's location to the facility.
 
 Facility scheduling supports several variations:
 
@@ -47,9 +47,9 @@ Set the requirement's **Work Location** to **Location Agnostic** for remote or v
 
 This setting is useful for:
 
-- Remote support or virtual consultations
-- Back-office tasks that don't require physical presence
-- Scheduling equipment that doesn't need to be transported
+- Remote support or virtual consultations.
+- Back-office tasks that don't require physical presence.
+- Scheduling equipment that doesn't need to be transported.
 
 ## Set the work location
 

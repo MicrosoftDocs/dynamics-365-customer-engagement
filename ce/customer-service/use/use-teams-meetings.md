@@ -1,7 +1,7 @@
 ---
 title: Use Microsoft Teams meetings 
 description: Learn how to use Microsoft Teams meetings integration 
-ms.date: 06/17/2025
+ms.date: 05/28/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -11,8 +11,7 @@ search.audienceType:
   - customizer
   - enduser
 ms.custom: 
-  - dyn365-customerservice
-  
+  - dyn365-customerservice  
 ---
 
 # Use Microsoft Teams meeting integration (preview)

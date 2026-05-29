@@ -865,8 +865,6 @@ items:
                 href: connect-dynamics365-sales-environment.md
               - name: Data retention and deletion through Privacy
                 href: data-retention-deletion-policy.md
-          - name: Integrate third-party dialers (preview)
-            href: ci-third-party-sp-integration.md
           - name: Integrate with Twilio Flex (preview)
             href: Integrate-TwilioFlex-with-CI.md
           - name: Languages supported

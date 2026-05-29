@@ -1,32 +1,31 @@
----
-title: "Start a chat proactively | MicrosoftDocs"
-description: "Read how you can start a chat proactively to see if customers need help and thereby improve customer experience."
-ms.date: 01/25/2022
+﻿---
+title: Start a chat proactively
+description: Read how you can start a chat proactively to see if customers need help and improve customer experience.
+ms.date: 05/27/2026
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ---
+
 # Start a chat proactively
 
-
-You can help improve customer satisfaction by anticipating areas where customers need help, and then engaging them through chat when they've been browsing your website for some time.
+You can help improve customer satisfaction by anticipating areas where customers need help, and then engage them through chat when they browse your website for some time.
 
 Consider the following scenarios for proactively starting a chat.
 
->[!Note]
->
+>[!NOTE]
 > The code samples listed in the following scenarios use the [setContextProvider API](reference/methods/setContextProvider.md) that can be used for unauthenticated chat only. For authenticated chat, you must use the JSON Web Token (JWT). More information: [Send authentication tokens](send-auth-token-starting-chat.md)
 
 ## Scenario 1: Customer wait time
 
-Amy has accidentally damaged a Surface Book and is on the product knowledge base trying to seek answers for about 20 seconds. A proactive chat request is triggered based on the product page that Amy was browsing and the time spent on the page.
+Amy accidentally damages a Surface Book and is on the product knowledge base trying to seek answers for about 20 seconds. The system starts a proactive chat request based on the product page that Amy was browsing and the time spent on the page.
 
 ```
-Hi! Just checking in to see if I can help answer any questions you may have. 
+Hi! Just checking in to see if I can help answer any questions you might have. 
 ```
 
-Amy can accept the chat offer and start the conversation to sort out the issue. 
+Amy can accept the chat offer and start the conversation to sort out the issue.
 
 **Sample code**
 
@@ -55,13 +54,14 @@ Amy can accept the chat offer and start the conversation to sort out the issue.
 
 ## Scenario 2: Customer visits a webpage multiple times
 
-Thomas is browsing through the Microsoft Surface community webpage and is looking for information on Microsoft Surface device. Thomas has visited a webpage multiple times but is not able to find the answers.
+Thomas is browsing through the Microsoft Surface community webpage and is looking for information on Microsoft Surface device. Thomas visited a webpage multiple times but isn't able to find the answers.
 
-Realizing this scenario, the organization offers a chat request to the customer with the following message.
+The organization realizes this scenario and offers a chat request to the customer with the following message.
 
 ```
 Hi! Do you have a question on Surface device ? I am here to help.
 ```
+
 **Sample code**
 
 ```html
@@ -166,7 +166,7 @@ VisitCounter();
 
 ## Scenario 3: Customer checks status of open support case
 
-Jacob is browsing through the support page for Microsoft Surface devices to find more information regarding the open support case. Jacob has been on the page for 10 seconds, and is then offered a proactive chat with the following message.
+Jacob browses the support page for Microsoft Surface devices to find more information about the open support case. Jacob is on the page for 10 seconds, and then the following message offers a proactive chat.
 
 ```
 Hi! How are you doing today? The status of the case:<caseid> is in progress. Would you like to get more details?
@@ -199,7 +199,7 @@ Hi! How are you doing today? The status of the case:<caseid> is in progress. Wou
 
 ## Scenario 4: Customer tries to leave a webpage after spending some time on it
 
-Amy has been browsing a webpage for 15 seconds and is not satisfied with the available information. When Amy is about to switch tabs on the web browser, a proactive chat request with the following message is sent to Amy.
+Amy browses a webpage for 15 seconds and isn't satisfied with the available information. When Amy is about to switch tabs on the web browser, a proactive chat request with the following message is sent to Amy.
 
 ```
 Hi! Just checking in to see if I can help answer any questions you may have.
@@ -243,7 +243,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 
 ## Scenario 5: Customer browsed another webpage and then spends time on the current webpage
 
-Amy has browsed the FAQ's document of the product and is currently on the Knowledge Base page for more than 15 seconds. Amy is proactively offered a chat session with the following message.
+Amy browsed the FAQs document of the product and is currently on the Knowledge Base page for more than 15 seconds. Amy is proactively offered a chat session with the following message.
 
 ```
 Hi! Just checking in to see if I can help answer any questions you may have.
@@ -281,7 +281,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 
 ## Scenario 6: Customer signs in from a specific geographic region
 
-Klarissa logs in to your website from Ruritania where your company is running a special discount on products. You can set up a trigger for customers coming from a particular location that proactively starts a chat session. Klarissa is prompted to chat with the following message.
+Klarissa signs in to your website from Ruritania where your company is running a special discount on products. You can set up a trigger to start a chat session proactively for customers who come from a particular location. Klarissa is prompted to chat with the following message.
 
 ```
 Hi! Just checking in to see if I can help answer any questions you may have.
@@ -397,7 +397,7 @@ The following sample code shows how you can proactively offer chat invites to cu
 
 ## Scenario 8: Proactively offer chat with pre-survey to customers
 
-Suppose your organization wants consent authorization to start a chat with a customer or wants to ask about the topics related to the customer's enquiry before routing the session to the appropriate agent.
+Your organization wants consent authorization to start a chat with a customer. Or, it wants to ask about the topics related to the customer enquiry before routing the session to an appropriate representative.
 
 **Sample code**
 
@@ -421,3 +421,4 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -26,7 +26,7 @@ By default, the who knows whom suggestion is populated based on emails and meeti
 
 ### Enhanced who knows whom information
 
-Enhanced who knows whom suggestion is populated based on Exchange data, provided your administrator has [configured the server-side synchronization](configure-email.md). Exchange-based suggestions are only supported for specific Dynamics 365 Sales licenses. Learn more about the licensing requirements in the [Dynamics 365 Sales licensing guide](https://go.microsoft.com/fwlink/?linkid=2183923). 
+Enhanced who knows whom suggestion is populated based on Exchange data, provided your administrator has [configured the server-side synchronization](configure-email.md). Exchange-based suggestions are only supported for specific Dynamics 365 Sales licenses. Learn more about the licensing requirements in the [Dynamics 365 Sales licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544). 
 
 ## View who knows whom  
 
