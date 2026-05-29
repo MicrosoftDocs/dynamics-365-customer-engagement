@@ -172,7 +172,7 @@ If you don't see the **LinkedIn Sales Navigator** tab on Account, Contact, Lead,
 
 If the installation remains stuck on **Install Requested** or fails:
 
-1. Go to **Environments** > ***your environment*** > **Dynamics 365 apps** in the Power Platform admin center and check the installation status and any error details.
+1. In the Power Platform admin center, select **Environments** > ***your environment*** > **Dynamics 365 apps** and verify the installation status for any errors.
 1. Verify that you have a System Administrator security role and that the environment is a Dynamics 365 Customer Engagement environment (not a standalone Dataverse environment).
 1. If the installation fails due to existing solution dependencies, try uninstalling and reinstalling the LinkedIn solutions. For more information, see [Remove LinkedIn Sales Navigator from Dynamics 365](uninstall-sales-navigator.md).
 
