@@ -1,6 +1,6 @@
 ---
 title: Create and manage basic queues for cases
-description: Learn how to set up basic queues to manage activities and cases in Dynamics 365 Customer Service.
+description: Learn how to set up basic queues to manage activities and cases in Dynamics 365 Customer Service for better organization and tracking.
 ms.date: 05/29/2026
 ms.topic: how-to
 author: neeranelli
@@ -26,7 +26,7 @@ searchScope:
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
-In Dynamics 365 Customer Service, *queues* are containers taht store work items that require action. These items can include tasks to complete or cases to close. Queues help you to organize, prioritize, and monitor the progress of your work. 
+In Dynamics 365 Customer Service, *queues* are containers that store work items that require action. These items can include tasks to complete or cases to close. Queues help you to organize, prioritize, and monitor the progress of your work. 
 
 Queues can be used to:
   
@@ -81,7 +81,7 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
    - In the **SUMMARY** section, do the following:  
       - **Name**: Enter the name of the queue.  
       - **Type**: Select whether the queue is a private or public queue. 
-          If you’re creating a private queue, you need to add members to this queue manually. In the **Members** section, select **Add** to add members to the queue. Only these members will be able to work on the items in this queue.  
+          If you’re creating a private queue, you need to add members to this queue manually. In the **Members** section, select **Add** to add members to the queue. Only these members can work on the items in this queue.  
       - **Incoming Email**: Enter the email address that receives all messages sent to the queue. 
       - **Description**: Enter a description.
   
@@ -150,8 +150,8 @@ To assign items in the queue to representatives, select **Assign** after selecti
 > [!NOTE]
 >
 > - When two representatives simultaneously add cases to the queue, the system creates two queue items instead of a single queue item.
-> - If you create workflows or use a custom API to assign cases, the system creates two queue items when a case is assigned to two representatives at the same time. This behavor occurs instead of creating a single queue item.
-> - When one representative picks a casethat another represenative created and then releases it from the queue, the system assigns the case to the queue owner. It doesn't assign the case to the representative who created it.
+> - If you create workflows or use a custom API to assign cases, the system creates two queue items when a case is assigned to two representatives at the same time. This behavior occurs instead of creating a single queue item.
+> - When one representative picks a case that another representative created and then releases it from the queue, the system assigns the case to the queue owner. It doesn't assign the case to the representative who created it.
 
 #### Create a queue in legacy Service Management
 
