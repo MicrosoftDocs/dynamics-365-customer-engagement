@@ -165,7 +165,7 @@ If the LinkedIn Sales Navigator integration status shows **Inactive** after you 
 If you don't see the **LinkedIn Sales Navigator** tab on Account, Contact, Lead, or Opportunity records:
 
 1. Verify that the **Sales navigator integration** toggle is turned on in the [LinkedIn integration settings](#enable-linkedin-sales-navigator).
-1. Make sure the solution version for **msdyn_LinkedInSalesNavigatorAnchor** is **3.0.1.1060** or later. Go to **Settings** > **Customization** > **Solutions** to check the version.
+1. Go to **Advanced settings** > **Customizations** > **Solutions** and verify that the version for the **msdyn_LinkedInSalesNavigatorAnchor** solution is **3.0.1.1060** or later. 
 1. If the controls were removed by a system customizer, add them back using the form editor. For more information, see [Customize forms to show Sales Navigator controls](add-sales-navigator-controls-forms.md).
 
 ### Installation is stuck or fails
