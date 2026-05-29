@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
 ms.collection: 
-ms.date: 01/19/2026
+ms.date: 05/29/2026
 ms.custom: bap-template
 ---
 
@@ -15,7 +15,8 @@ ms.custom: bap-template
 Time-out rules are useful settings that administrators can configure to enact certain automatic actions when conditions are met. The timeout rules can help businesses run their operations smoothly and meet the required service-level agreements (SLAs) when they connect with their customers through the messaging channels. Sometimes, AI agents are used as an equivalent to the customer service representative (service representative or representative) persona.
 
 > [!NOTE]
-> Time-out rules support live chat and all messaging channels except the voice channel.
+> - Time-out rules support live chat and all messaging channels except the voice channel.
+> - The time-out rules aren't applicable for AI agent-only conversations.
 
 ## Prerequisite
 
@@ -35,12 +36,12 @@ For the automatic actions to run, set up the timeout rules per workstream.
    - Set the **Status** toggle to active.
    - **Trigger event**: Select one of the following events:
       - **Customer Non-Response Time**: The time a customer stays inactive after the representative’s last message. 
-        The duration is calculated by subtracting the time of the representative’s last message from the current time. The system calculates the duration only when the most recent message is sent by the service representative.
+        The duration is calculated by subtracting the time of the representative’s last message from the current time. The system calculates the duration only when the service representative sends the most recent message.
       - **Representative Non-Response Time**: 
-        - Unresponsive to the first message: The duration between the first message by the customer and post-assignment of the representative to the conversation. The duration is calculated by subtracting the current time from the representative’s assignment time. The system calculates the duration only when the representative accepts the notification or autoassigns the notification timeout, or is force-assigned by the supervisor.
+        - Unresponsive to the first message: The duration between the first message by the customer and post-assignment of the representative to the conversation. The duration is calculated by subtracting the current time from the representative’s assignment time. The system calculates the duration only when the representative accepts the notification, autoassigns the notification timeout, or the supervisor force-assigns the conversation.
         - Unresponsive to the messages mid-conversation: The nonresponsive time of the representative since the customer’s last message. The duration is calculated by subtracting the customer’s last message time from the current time. The system calculates the duration only when the last message is from the customer.
    - Select a workstream that corresponds to the channels where you want the rule to run.
-1. In **Trigger conditions**, for the trigger event that you selected on the previous page, enter the following:
+1. In **Trigger conditions**, for the trigger event that you selected on the previous page, enter the following details:
    - **Operator**: By default, **Greater than**.
    - **Value**: A numeric value that denotes the timeout period.
      > [!NOTE]
@@ -55,7 +56,7 @@ For the automatic actions to run, set up the timeout rules per workstream.
 
         :::image type="content" source="../media/timeout-rule-action.png" alt-text="Screenshot of timeout rule action settings.":::
 
-   - **Close conversation**: Closes the [conversation automatically](auto-close-conversation-powerapps.md) based on the duration that's set for the channel. The conversation moves from open, active, or waiting to the closed state and the system frees the representative capacity.
+   - **Close conversation**: Closes the [conversation automatically](auto-close-conversation-powerapps.md) based on the duration set for the channel. The conversation moves from open, active, or waiting to the closed state and the system frees the representative capacity.
    - **Move active conversation to waiting**: For asynchronous messaging or persistent chat channels, the system moves the active conversation to the waiting state. The representative receives a notification when the customer restarts the conversation. Representatives can restart the conversation from their inbox.
    - **Release conversation back to queue for reassignment**: Releases the conversation from the current representative and reassigns the conversation to a different representative in the same queue.  
 1. Select **Done**. The rule that you created is listed on the **Timeout rules** page. 
@@ -69,13 +70,13 @@ You can change the priority per timeout rule so that if any condition is the sam
 
 ## Enable override by representative
 
-The ability to override ensures automation never disrupts active or sensitive conversations. Representatives can pause or restart time‑out rules as needed, preventing conversations from closing too early and enabling more flexible, customer‑focused service.
+The ability to override ensures automation never disrupts active or sensitive conversations. Representatives can pause or restart timeout rules as needed. This behavior prevents conversations from closing too early and supports flexible, customer-focused service.
 
 To enable the representative override option, you need to:
 
 1. **Enable timeout rules**
 
-- In Copilot Service admin center, turn on the **Customer service representative override** toggle. This ensures that the feature is available for the conversations with timeout rules enabled. 
+- In Copilot Service admin center, turn on the **Customer service representative override** toggle. This setting ensures that the feature is available for the conversations with timeout rules enabled. 
 
 2. **Turn On CSR Override Panel**:
 
