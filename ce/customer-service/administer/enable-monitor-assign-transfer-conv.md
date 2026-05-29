@@ -1,7 +1,7 @@
 ---
 title: Enable supervisor access to manage conversations | MicrosoftDocs
 description: How to enable supervisors to monitor, assign, transfer, and close conversations in the Copilot Service admin center app.
-ms.date: 6/17/2025
+ms.date: 05/28/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan

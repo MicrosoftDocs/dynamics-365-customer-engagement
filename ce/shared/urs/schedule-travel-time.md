@@ -58,7 +58,7 @@ The Resource Scheduling Optimization add-in takes [historical traffic informatio
 
 ## Estimated travel time and booking fulfilled duration
 
-In the **Fulfilled Duration** field on a scheduled requirement, the estimated travel time is automatically deducted from the total time allocated to the requirement in any associated bookings. Users can quickly see the total duration fulfilled for active work on the requirement regardless of the associated travel time.
+In the **Fulfilled Duration** field on a scheduled requirement, the system automatically subtracts the estimated travel time from the total time allocated to the requirement in any associated bookings. Users can quickly see the total duration fulfilled for active work on the requirement regardless of the associated travel time.
 
 ## Next steps
 

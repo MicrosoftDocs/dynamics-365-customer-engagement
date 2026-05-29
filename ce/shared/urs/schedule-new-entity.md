@@ -1,4 +1,4 @@
-Enabling an entity for scheduling allows dispatchers to schedule the requirements related to that entity to the matching resources.
+When you enable an entity for scheduling, dispatchers can schedule the requirements related to that entity to the matching resources.
 
 ## Prerequisites
 
@@ -6,14 +6,16 @@ Enabling an entity for scheduling allows dispatchers to schedule the requirement
 
 ## Enable an entity for scheduling
 
-1. In Resource Scheduling, change to the **Settings** area. Under **Scheduling**, select **Administration**. Select **Enable Resource Scheduling for Entities**.
+1. Select the **Resource Scheduling** app.
+
+1. Change to the **Settings** area. Under **Scheduling**, select **Administration**. Select **Enable Resource Scheduling for Entities**.
 
    :::image type="content" source="../../field-service/media/enablescheduling.png" alt-text="Screenshot of scheduling settings showing the Enable Resource Scheduling for Entities option.":::
 
 1. In the **Enable New Entity** section, under **Add Entity**, choose an entity from the list.
 
    > [!TIP]
-   > If the entity you want to enable doesn't show in list, update the **Can be customized** setting to **True** for [the managed property](/dynamics365/customer-engagement/customize/set-managed-properties).
+   > If the entity you want to enable doesn't show in the list, update the **Can be customized** setting to **True** for [the managed property](/dynamics365/customer-engagement/customize/set-managed-properties).
 
 1. For **Booking Relationship** and **Requirement Relationship**, choose **Create New Relationship**. Or, if you have an existing relationship to the *bookable resource booking* or *resource requirement* entities, select it.
 
@@ -37,7 +39,7 @@ Edit booking settings for entities you enabled for scheduling.
 
 1. In Resource Scheduling, change to the **Settings** area. Under **Scheduling**, select **Administration**. Select **Enable Resource Scheduling for Entities**.
 
-1. In the **Enabled Entities** section, double-click the entity you want to edit. A new tab with the booking setup metadata for the selected entity opens.
+1. In the **Enabled Entities** section, double-click the entity you want to edit. A new tab opens with the booking setup metadata for the selected entity.
 
     | Setting | Effect | Value |
     |---|---|---|
@@ -47,7 +49,7 @@ Edit booking settings for entities you enabled for scheduling.
     | Default requirement canceled status | Sets the default value to use when a requirement moves into *Canceled* state. | Available requirement statuses. |
     | Resource availability retrieval limit | Defines the maximum number of resources returned as a result in the   scheduling assistant. | Number. |
     | Enable quick book | Use the [quick book experience](../../field-service/quick-scheduling.md) on an entity record. | Yes: Use quick book experience.<br>     No: Use schedule assistant experience. |
-    | Cancel bookings when moving | Cancel bookings when moving the booking to a different time slot by using the *Move bookings* feature on the schedule board. | Yes: Cancel booking and create a new one in the updated time slot.<br>     No: Keep booking and update start/end time. |
+    | Cancel bookings when moving | Cancel bookings when moving the booking to a different time slot by using the *Move bookings* feature on the schedule board. | Yes: Cancel booking and create a new one in the updated time slot.<br>     No: Keep booking and update start and end time. |
     | Default booking canceled status | Sets the default value to use when a booking moves into *Canceled* state. | Available [booking statuses](../../field-service/set-up-booking-statuses.md). |
     | Disable requirement auto creation for   bookings | Defines if the system creates a requirement for a booking. | Yes: Disable automated requirement creation.<br>     No: Enable automated booking creation. |
     | Default requirement completed status | Sets the default value to use when a requirement moves into *Completed* state. | Available requirement statuses. |
@@ -58,7 +60,7 @@ Edit booking settings for entities you enabled for scheduling.
 
 1. **Save** your changes.
   
-An entity is successfully enabled for scheduling when:
+You successfully enable an entity for scheduling when:
 
 - *Resource Requirements* shows as a related entity. Create them manually or with a custom workflow.
 - The **Book** option appears on the entity record.
