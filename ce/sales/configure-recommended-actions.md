@@ -1,7 +1,7 @@
 ---
 title: Configure recommended actions
 description: Learn how to configure recommended actions in Dynamics 365 Sales to help sellers focus on the most effective tasks for their opportunities.
-ms.date: 05/19/2026
+ms.date: 06/01/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales

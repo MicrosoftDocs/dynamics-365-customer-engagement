@@ -1,7 +1,7 @@
 ---
 title: Import an agent into a target environment
 description: Learn how to export and import sales agent solutions across environments in Dynamics 365 Sales. 
-ms.date: 04/27/2026
+ms.date: 06/01/2026
 ms.update-cycle: 180-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
@@ -40,7 +40,8 @@ Export the agent from the source environment as a solution. During the export pr
     Select **Add existing** > **More** > **Other** and then add the following components:  
     - **SalesAgentProfile**. When you create the agent, a corresponding agent profile is automatically created. In the **Add existing SalesAgentProfile** pane, select the agent profile from the list of existing agent profiles.  
     - **SalesAgentConfigurationV2**. When you create the agent, corresponding agent configurations are automatically created with the same name as the agent profile. In the **Add existing SalesAgentConfigurationV2** pane, select the agent configuration that has the same name as the agent profile you selected.  
-    - **Sequence** (for **Sales Qualification Agent** only). When you create the Sales Qualification Agent, a corresponding sequence record is automatically created in the sequence component. In the **Add existing Sequence** pane, select the sequence record with the name **AgenticSequence**.  
+    - **Sequence** (for **Sales Qualification Agent** only). When you create the Sales Qualification Agent, a corresponding sequence record is automatically created in the sequence component. In the **Add existing Sequence** pane, select the sequence record with the name **AgenticSequence**. 
+    - **msdyn_PushActionDataToRecommendedActionAgent** (for **Recommended Actions Agent** only when using custom actions). This is a custom API that the Recommended Actions Agent uses to receive action data from other agents.  
 
 1. Add knowledge sources.  
 
@@ -83,7 +84,7 @@ Import the exported solution file into the target environment. During the import
 
 ### Configure and start the agent
 
-After you import the solution, the agent is imported in draft state. Open the agent and configure environment‑specific settings before starting the agent. Configuring and starting the agent is different for [Sales Qualification Agent, Sales Opportunity Agent, Sales Close Agent](#for-sales-qualification-agent-sales-opportunity-agent-and-sales-close-agent), and [Data Enrichment Agent](#for-data-enrichment-agent). Follow the corresponding steps based on the type of agent you imported:
+After you import the solution, the agent is imported in draft state. Open the agent and configure environment‑specific settings before starting the agent. Configuring and starting the agent is different for [Sales Qualification Agent, Sales Opportunity Agent, Sales Close Agent](#for-sales-qualification-agent-sales-opportunity-agent-and-sales-close-agent), [Data Enrichment Agent](#for-data-enrichment-agent), and [Recommended Actions Agent](#for-recommended-actions-agent). Follow the corresponding steps based on the type of agent you imported.
 
 #### For Sales Qualification Agent, Sales Opportunity Agent, and Sales Close Agent
 
@@ -136,6 +137,20 @@ After you import the solution, the agent is imported in draft state. Open the ag
     1. In the configuration page, go to the **Agent behavior** settings page.  
     1. In the **Field scope** section, review the selected fields and update them if necessary to ensure the agent enriches the correct data in the target environment.  
     To learn more about field scope, see [Configure agent behavior](data-enrichment-agent-edit-settings.md#configure-agent-behavior).  
+
+1. **Activate the agent**. After updating the environment‑specific settings, save and start the agent.
+
+## For Recommended Actions Agent
+
+1. **Select the application user**. Application users differ between source and target environments.
+
+    1. Go to the imported agent configuration page.  
+    1. In the agent profile settings page, select the Dataverse application user created for this agent.  
+
+1. Depending on the sources you have configured for the Recommended Actions Agent in the source environment, you might need to perform additional steps to ensure those sources are correctly set up in the target environment. Configure the sources based on the type of agents you have set up as sources in the source environment.  
+
+    - If you have configured Sales Opportunity Agent or Data Enrichment Agent, no action is required. These agents are part of the solution and are imported together with the Recommended Actions Agent and automatically set up as sources.
+    - If you are using custom agents as sources for the Recommended Actions Agent, ensure that those custom agents are also imported and configured in the target environment. The [`msdyn_PushActionDataToRecommendedActionAgent` API](developer/recommended-actions-api.md) is used to send actionable insights from custom agents to the Recommended Actions Agent, so the custom agents must be set up correctly for their insights to appear in the recommended actions experience.  
 
 1. **Activate the agent**. After updating the environment‑specific settings, save and start the agent.
 
