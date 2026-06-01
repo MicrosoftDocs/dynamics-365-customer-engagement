@@ -140,7 +140,7 @@ After you import the solution, the agent is imported in draft state. Open the ag
 
 1. **Activate the agent**. After updating the environment‑specific settings, save and start the agent.
 
-## For Recommended Actions Agent
+#### For Recommended Actions Agent
 
 1. **Select the application user**. Application users differ between source and target environments.
 
