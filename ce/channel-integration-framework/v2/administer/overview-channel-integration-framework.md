@@ -21,14 +21,16 @@ With the Dynamics 365 Channel Integration Framework app, you can configure a cha
 
 ## Challenges of channel provider integration systems
 
-Organizations expect their call centers to do more while using fewer resources. There's a constant drive to increase productivity by having call center service representatives handle more phone calls. Reducing the average time to handle customer calls can save companies millions of dollars. A telephony channel in a call center is one of the key indicators for success and customer satisfaction. Some of the challenges the call center industry faces with telephony channels include:
+Organizations expect call centers to do more with fewer resources. There's a constant drive to increase productivity by enabling customer service representatives to handle more phone calls. Reducing the average handling time for customer calls can save companies millions of dollars. Telephony channels are a key factor in call center success and customer satisfaction.
 
--  Integrating non-Microsoft telephony channels into their customer relationship management (CRM) platform.
--  Accessing and performing operations on the CRM platform from the telephony widget area.
--  Developing and deploying the telephony channel, which requires writing adapters and complex custom code for solution integration.
--  Using APIs and out-of-the-box customizations that aren't supported for the production environment.
--  The dependency of the telephony channel on the operating system and web browsers.
--  Customizing the telephony channel based on business needs and process workflows.
+When integrating telephony channels, organizations might experience the following challenges:
+
+- Integrating non-Microsoft telephony channels into a customer relationship management (CRM) platform.
+- Accessing and performing operations on the CRM platform from the telephony widget area.
+- Developing and deploying telephony channels can be complex because it requires writing adapters and custom code for integration.
+- Using APIs and out-of-the-box customizations that aren't supported in production environments.
+- Relying on operating systems and web browsers for telephony channel functionality.
+- Customizing telephony channels based on business needs and process workflows.
 
 ## Advantages and value propositions of Dynamics 365 Channel Integration Framework 2.0
 
@@ -70,7 +72,7 @@ Other capabilities offered by Dynamics 365 Channel Integration Framework include
 
 - **Standard and supported APIs**
 
-  Dynamics 365 Channel Integration Framework exposes JavaScript APIs, which are the standard set of APIs that you can use for the communication between the telephony channel and model-driven apps in Dynamics 365.
+  Dynamics 365 Channel Integration Framework exposes JavaScript APIs. These APIs are the standard set that you can use for communication between the telephony channel and model-driven apps in Dynamics 365.
 
 - **Ease of development and deployment**
 
