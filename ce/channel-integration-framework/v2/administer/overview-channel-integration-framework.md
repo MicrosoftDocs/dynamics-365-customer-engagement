@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Channel Integration Framework 2.0
-description: Get an overview of Dynamics 365 Channel Integration Framework 2.0 and how to get started using it.
-ms.date: 05/07/2025
+description: Learn about Dynamics 365 Channel Integration Framework 2.0 and how to get started using it.
+ms.date: 06/02/2026
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
@@ -13,9 +13,9 @@ ms.custom:
 
 # What is Dynamics 365 Channel Integration Framework 2.0?
 
-Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework for integrating telephony channels with model-driven apps in Dynamics 365 by using a browser-based JavaScript API library. With this framework, you can integrate any telephony channel into a model-driven app in Dynamics 365, and the framework will act as the interface between the channel and the app.
+Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework for integrating telephony channel providers with model-driven apps in Dynamics 365 by using a browser-based JavaScript API library. With this framework, you can integrate any telephony channel into a model-driven app in Dynamics 365, and the framework will act as the interface between the channel and the app.
 
-Technically, Dynamics 365 Channel Integration Framework is a set of APIs (methods, events, and protocols) that enable developers and partners to build immersive communication experiences so that third-party telephony running on a channel provider cloud can interact with model-driven apps in Dynamics 365.
+Technically, Dynamics 365 Channel Integration Framework is a set of APIs (methods, events, and protocols) that enable developers and partners to build immersive communication experiences so that non-Microsoft telephony running on a channel provider cloud can interact with model-driven apps in Dynamics 365.
 
 With the Dynamics 365 Channel Integration Framework app, you can configure the channel in the model-driven app so that your customer service representatives (service representatives or service representatives) can access and serve your customers.
 
@@ -23,7 +23,7 @@ With the Dynamics 365 Channel Integration Framework app, you can configure the c
 
 Organizations expect their call centers to do more while using fewer resources. There's a constant drive to increase productivity by having call center service representatives handle more phone calls. Reducing the average time to handle customer calls can save companies millions of dollars. A telephony channel in a call center is one of the key indicators for success and customer satisfaction. Some of the challenges the call center industry faces with telephony channels include:
 
--  Integrating third-party telephony channels into their customer relationship management (CRM) platform.
+-  Integrating non-Microsoft telephony channels into their customer relationship management (CRM) platform.
 -  Accessing and performing operations on the CRM platform from the telephony widget area.
 -  Developing and deploying the telephony channel, which requires writing adapters and complex custom code for solution integration.
 -  Using APIs and out-of-the-box customizations that aren't supported for the production environment.
@@ -33,7 +33,7 @@ Organizations expect their call centers to do more while using fewer resources. 
 ## Advantages and value propositions of Dynamics 365 Channel Integration Framework 2.0
 
 > [!NOTE]
-> Dynamics 365 Channel Integration Framework 2.0 supports only telephony channels.
+> Dynamics 365 Channel Integration Framework 2.0 is designed for integrating telephony channel providers. It works within multisession experiences such as Omnichannel for Customer Service and Copilot Service workspace.
 
 Dynamics 365 Channel Integration Framework 2.0, provides multiple enhancements over Channel Integration Framework 1.0, particularly in its ability to integrate with the latest multisession agent experiences for customer service.
 
@@ -55,14 +55,14 @@ Key new features in Dynamics 365 Channel Integration Framework 2.0 include:
 
   With Dynamics 365 Channel Integration Framework 2.0, organizations can configure multiple telephony channels. This enables service representatives to simultaneously work on multiple sessions catering to different customers on different channels, where each of these sessions belongs to different telephony channel providers. The service representative can perform all the interactions on these channels from a familiar conversation control.
 
-  More information: [Support for multiple providers](support-multiple-providers.md)
+  Learn more in [Support for multiple providers](support-multiple-providers.md).
 
   
 Additional capabilities offered by Dynamics 365 Channel Integration Framework include:
 
 - **Bring-your-own telephony channel providers**
 
-  Dynamics 365 Channel Integration Framework provides an extensible framework to integrate third-party cloud-based telephony channels, including the ones that have been developed internally or are hyperlocal, with model-driven apps in Dynamics 365.
+  Dynamics 365 Channel Integration Framework provides an extensible framework to integrate non-Microsoft, cloud-based telephony channels, including the ones that have been developed internally or are hyperlocal, with model-driven apps in Dynamics 365.
 
 - **Two-way communication**
 
@@ -97,7 +97,7 @@ Additional capabilities offered by Dynamics 365 Channel Integration Framework in
 
 - **Upgrading to new versions**
 
-  You can seamlessly upgrade to new versions of third-party channel providers or channel aggregators because the Dynamics 365 Channel Integration Framework provides the infrastructure framework to integrate the channels, but it doesn't control the channel versions.
+  You can seamlessly upgrade to new versions of non-Microsoft channel providers or channel aggregators because the Dynamics 365 Channel Integration Framework provides the infrastructure framework to integrate the channels, but it doesn't control the channel versions.
 
 ### Related information
 
