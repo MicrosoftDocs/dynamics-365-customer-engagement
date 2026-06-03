@@ -20,6 +20,7 @@ The features that have been removed or deprecated in  Dynamics 365 Sales are lis
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.  
 
+
 ## Add chat message to Dynamics 365 record in Microsoft Teams
 
 Effective January 2026, the ability to add chat messages from Microsoft Teams to Dynamics 365 records is deprecated. After the deprecation, you can no longer use the **Add to Dynamics 365** option in Microsoft Teams chat messages to save them to Dynamics 365 records.

@@ -20,6 +20,7 @@ ai-usage: ai-assisted
 
 The Sales Close Agent setup assistant provides a guided experience to help you configure the agent step-by-step. This method is ideal for administrators who prefer a streamlined setup process with AI assistance.  
 
+
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Key features
