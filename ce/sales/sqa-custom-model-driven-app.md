@@ -14,18 +14,11 @@ ai-usage: ai-assisted
 
 # Use Sales Qualification Agent in custom model-driven apps
 
+Sales Qualification Agent supports both the **Sales Hub app** and **custom model-driven apps**. If you're using a custom app, you must complete additional configuration steps to ensure that agent views and insights are visible to sellers.
 
-Sales Qualification Agent supports both the **Sales Hub app** and **custom model-driven apps (MDAs)**. If you're using a custom app, you must complete additional configuration steps to ensure that agent views and insights are visible to sellers.
+## Consideration
 
-## Considerations
-
-Keep the following points in mind when configuring Sales Qualification Agent views in a custom model-driven app:
-
-- **Views visible in the designer might not appear in the app.** If views show up in the app designer but aren't visible to sellers in the running app, confirm that the views are [added to the app](#add-sales-qualification-agent-views-to-a-custom-model-driven-app), that the app is published after any changes, and that users have the required security roles.
-
-- **Some Sales Qualification Agent views might not appear in solution explorer.** Certain Sales Qualification Agent views don't surface in solution explorer the same way as standard views. Add these views through the app designer rather than relying solely on solution explorer.
-
-- **A missing AI *record type* views error indicates required views aren't available to users.** Ensure that all required Sales Qualification Agent views are active, visible to users, and included in the app.
+**Some Sales Qualification Agent views might not appear in solution explorer.** Certain Sales Qualification Agent views don't surface in solution explorer the same way as standard views. Add these views through the app designer rather than relying solely on solution explorer.
 
 ## Add Sales Qualification Agent views to a custom model-driven app
 
@@ -36,7 +29,7 @@ To make the agent insights available in a custom model-driven app, add the requi
 1. Open your custom model-driven app in **Edit** mode.
 1. In the app designer, select the required table. For example, **Lead**.
 1. Select **Views**.
-1. Add all Sales Qualification Agent-related views for the table.
+1. Search and add all Sales Qualification Agent-related views for the table.
 1. Save and publish the app.
 
 ## Verify views in the custom model-driven app
@@ -56,6 +49,29 @@ Most organizations use custom model-driven apps instead of the Sales Hub. Withou
 - **Use the Sales Hub app as a reference implementation.** Compare your custom app's configuration against Sales Hub to identify gaps.
 - **Replicate out-of-box (OOB) view configurations.** If needed, mirror the configuration of OOB views in your custom app to preserve agent functionality.
 - **Maintain consistency across environments.** Use solutions and application lifecycle management (ALM) processes to keep configuration consistent across development, test, and production environments.
+
+## Troubleshooting
+
+### Views aren't visible or available
+
+**Reasons**
+
+Views that are visible in the app designer might not appear in the running app, or users might see an error indicating that required views are missing. Common causes include:
+
+- The required views aren't added to the app.
+- The app wasn't published after changes were made.
+- Users don't have the required security roles or permissions to access the views.
+- Required Sales Qualification Agent views are inactive or hidden from users.
+
+**Resolutions**
+
+- If a view appears in the app designer but isn't visible to sellers in the running app, verify that:
+
+    - The view is [added to the app](#add-sales-qualification-agent-views-to-a-custom-model-driven-app).
+    - The app is published after changes are made.
+    - Users have the required security roles to access the view.
+
+- If users see an error indicating that required views are missing, ensure that all required Sales Qualification Agent views are active, visible to users, and included in the app.
 
 ## Related information
 
