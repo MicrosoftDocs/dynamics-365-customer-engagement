@@ -1,7 +1,7 @@
 ---
 title: Set up branding and theming
 description: Learn how to create a custom look and feel for your app by making changes to the default colors and visual elements provided in your system.
-ms.date: 02/11/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

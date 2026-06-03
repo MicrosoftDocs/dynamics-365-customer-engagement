@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr  
 ms.service: dynamics-365-sales
 ms.topic: concept-article 
-ms.date: 05/15/2023
+ms.date: 05/29/2026
 ms.custom: bap-template 
 ---
 

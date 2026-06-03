@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.collection: get-started
-ms.date: 03/11/2025
+ms.date: 05/29/2026
 searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-territory

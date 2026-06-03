@@ -1,7 +1,7 @@
 ---
 title: "Select a default forecast (Preview)"
 description: "When you have multiple forecast configurations, you can select the most used forecast configuration as the default."
-ms.date: 01/03/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

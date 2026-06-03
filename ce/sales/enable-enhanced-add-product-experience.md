@@ -1,7 +1,7 @@
 ---
 title: Enable or disable the enhanced add products experience
 description: "Enable your salespeople to quickly find and add multiple products to an opportunity, quote, order, or invoice by enabling the enhanced add product experience."
-ms.date: 11/21/2024
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
