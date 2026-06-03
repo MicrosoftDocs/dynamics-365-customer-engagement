@@ -173,6 +173,8 @@ items:
                 href: manage-sales-qualification-agent.md
               - name: Configure requirements for Sales Qualification Agent
                 href: configure-requirements-for-sqa-agent.md
+              - name: Use Sales Qualification Agent in custom apps
+                href: sqa-custom-model-driven-app.md  
               - name: Understand Sales Qualification Agent concepts
                 href: sales-qualification-agent-concepts.md
               - name: Sales Qualification Agent FAQ
