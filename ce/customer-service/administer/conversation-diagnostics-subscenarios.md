@@ -1,12 +1,12 @@
 ---
-title: Understand unified routing diagnostics data
+title: Understand unified routing diagnostics data in Customer Service and Dynamics 365 Contact Center
 description: Learn about the metadata for unified routing diagnostics in Application Insights.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: concept-article
 ms.collection:
-ms.date: 01/19/2026
+ms.date: 06/05/2026
 ms.custom: bap-template
 ---
 
@@ -34,6 +34,15 @@ The conversation diagnostics scenario captures data related to unified routing, 
 | CSRPickedConversation | Representative picked the work item. |
 | CopilotAgentAssignedToConversation | A Copilot agent is assigned to the conversation. |
 | CSRAssignment | Assignment attempted by unified routing when new work item is added to the queue. It can also include assignment to a representative when they become available. |
+| Intake | Logs the entry of a work item into the unified routing pipeline, including intake rule evaluation results. |
+| RecordBuffered | Work item is placed into a buffer before the routing pipeline begins processing it. |
+| RoutingContextEnrichment | Extra context data is enriched on the conversation before routing rules are evaluated. |
+| RecordIdentification | Logs the matching of a record (such as a case or contact) to the incoming conversation. |
+| ChannelProfileIdentification | Logs the resolution of the channel profile associated with the incoming conversation. |
+| RuleGenerated | Assignment or prioritization rule is generated for the conversation by the rule generation engine. |
+| AverageWaitTimeEstimate | Logs the estimated wait time calculated for the conversation and whether it was communicated to the customer. |
+| QueueConsult | Representative initiated a consultation with another queue. |
+| CancelQueueConsult | Representative cancelled an in-progress queue consultation. |
 
 ### Conversation end
 
@@ -47,6 +56,9 @@ The conversation diagnostics scenario captures data related to unified routing, 
 | CustomerDisconnected | Customer disconnected from the call or conversation. |
 | CustomerEndedConversation | Customer ended the conversation. |
 | SupervisorForceClosedConversation | Supervisor forcefully closed the conversation. |
+| AgentChatEnd | Messaging conversation ended by the representative. |
+| CustomerChatEnd | Messaging conversation ended by the customer. |
+| SystemChatEnd | Messaging conversation ended by the system. |
 
 ### Transfer and consult
 
@@ -66,6 +78,21 @@ The conversation diagnostics scenario captures data related to unified routing, 
 | TRANSFER_CSR_REQUEST2COMPLETED | Representative requests a transfer to another representative. |
 | TRANSFER_QUEUE_REQUEST2COMPLETED | Representative requests a transfer of conversation to another queue. |
 | CONSULT_BYVOICE_REQUESTAGENT | Representative initiates consult over voice channel. |
+| TransferToUserGroupInitiated | Representative initiated a transfer of the conversation to a user group. |
+| TransferToExternalInitiated | Representative initiated a transfer of the conversation to an external participant. |
+| ConsultToUserGroupInitiated | Representative initiated a consultation with a user group. |
+| ConsultToExternalInitiated | Representative initiated a consultation with an external participant. |
+| ConsultToExternalClosed | Representative closed an in-progress consultation with an external participant. |
+
+### Supervisor actions
+
+| Subscenario | Description |
+| --- | --- |
+| SupervisorMonitor | Supervisor started monitoring a live conversation. |
+| SupervisorJoin | Supervisor joined an active conversation. |
+| SupervisorAssignedToCSR | Supervisor reassigned the conversation to a specific representative. |
+| SupervisorAssignedToQueue | Supervisor assigned the conversation to a specific queue. |
+| SupervisorAssignedToUserGroup | Supervisor assigned the conversation to a user group. |
 
 ## Other non-channel specific events
 
@@ -87,6 +114,14 @@ The conversation diagnostics scenario captures data related to unified routing, 
 | PRESENCE_FIRST_LOAD | Representative presence initialized. |
 | CSRAvailabilityCheck | Check if any service representative is available. |
 | CopilotAgentSessionInitialization | Agent is connected to conversation. |
+| CSRDisconnected | Representative was disconnected from the conversation. |
+| CSRPreviewedOpenConversation | Representative previewed an open conversation before accepting it. |
+| BotSessionInitialization | Copilot agent session is initialized and connected to the conversation. |
+| BotTransferToAgent | Copilot agent escalated and transferred the conversation to a human representative. |
+| ConversationDetails | Logs details about the conversation at a specific point in its lifecycle. |
+| ConversationAutoRejected | Conversation was automatically rejected because no representative accepted it within the allowed time. |
+| ConversationPriorityIncreased | Priority of the conversation was escalated by the system or a supervisor. |
+| RecordDetails | Logs details of the record matched to the conversation. |
 
 ## Assignment snapshot
 
@@ -188,6 +223,8 @@ Provides status and capacity history of service representatives, including their
 | MessageProcessed | For async channels, this tracks sending and receiving of message, including buffering delays. |
 | TimeoutRuleTriggered | Timeout rule is triggered with information about trigger of timeout rule. |
 | PostChatSurvey | Captures sending or starting of a post-chat survey. |
+| DownloadTranscripts | Chat transcript download is processed server-side on behalf of the customer or representative. |
+| EmailTranscripts | Chat transcript email is processed server-side on behalf of the customer or representative. |
 
 ### Live chat
 
@@ -295,6 +332,311 @@ The following metadata can be a part of the custom dimensions in the **Traces** 
     - **AllowedPresences**: Allowed representative presences for the work item.
     - **CapacityProfiles**: Required representative capacity profiles for the work item.
     - **RequiredSkills**: Skills required by the representative to work on the work item.
+
+### Subscenario: Intake
+
+Logs the entry of a work item into the unified routing pipeline. Captures intake rule evaluation results, including which rules were processed and their outcomes.
+
+- **omnichannel.additional_info**: JSON object containing intake rule evaluation data:
+  - **lm**: Serialized intake rule evaluation result.
+- **omnichannel.entity_logical_name**: The logical name of the entity type associated with the record, for example, `incident` or `msdyn_ocliveworkitem`. Used to support deep-link navigation to the record.
+- **Channel type**: Channel from which the work item originated.
+- **Omnichannel.description**: Captures whether intake completed successfully or failed.
+  - **Success**: Intake for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: Intake for Conversation: {Conversation ID} failed with exception: {exception}
+
+### Subscenario: RecordBuffered
+
+Logs when a work item is placed into a buffer before the routing pipeline begins processing it.
+
+- **Omnichannel.description**: Captures whether buffering completed successfully or failed.
+  - **Success**: RecordBuffered for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: RecordBuffered for Conversation: {Conversation ID} failed with exception: {exception}
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: RoutingContextEnrichment
+
+Logs the enrichment of routing context data added to the conversation before routing rules are evaluated. Captures the additional attributes set on the work item to support rule matching.
+
+- **omnichannel.additional_info**: JSON object with enrichment rule evaluation details:
+  - **RuleSetName**: Name of the enrichment ruleset that ran.
+  - **RuleHitPolicy**: Policy applied, for example, `First Match` or `Run All`.
+  - **RuleSetInfo**: Details for each rule evaluated:
+    - **RuleId**: Rule ID.
+    - **Status**:
+      - **Processed**: Work item was evaluated against the rule but did not match.
+      - **Applied**: Work item matched the rule and the enrichment output was applied.
+      - **Not processed**: Rule was not evaluated for this work item.
+    - **Order**: Rule order.
+    - **RuleItem**: Rule name.
+    - **Condition**: Conditions defined in the rule.
+- **Omnichannel.description**: Captures whether enrichment completed successfully or failed.
+  - **Success**: RoutingContextEnrichment for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: RoutingContextEnrichment for Conversation: {Conversation ID} failed with exception: {exception}
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: RecordIdentification
+
+Logs the matching of a record (such as a case or contact) to the incoming conversation, including which identification rules were evaluated.
+
+- **omnichannel.additional_info**: JSON object with rule evaluation details:
+  - **RuleSetName**: Name of the record identification ruleset.
+  - **RuleHitPolicy**: Policy applied, for example, `First Match`.
+  - **RuleSetInfo**: Details for each rule evaluated:
+    - **RuleId**: Rule ID.
+    - **Status**:
+      - **Processed**: Work item was evaluated but did not match the rule.
+      - **Applied**: Work item matched the rule and the record was identified.
+      - **Not processed**: Rule was not evaluated for this work item.
+    - **Order**: Rule order.
+    - **RuleItem**: Rule name.
+    - **Condition**: Conditions defined in the rule.
+    - **Output**: The identified record output.
+- **omnichannel.entity_logical_name**: Logical name of the matched entity type, for example, `incident`.
+- **Omnichannel.description**: Captures whether record identification completed successfully or failed.
+  - **Success**: RecordIdentification for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: RecordIdentification for Conversation: {Conversation ID} failed with exception: {exception}
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: ChannelProfileIdentification
+
+Logs the resolution of the channel profile for the incoming conversation.
+
+- **omnichannel.additional_info**: JSON object with rule evaluation details:
+  - **RuleSetName**: Name of the channel profile identification ruleset.
+  - **RuleHitPolicy**: Policy applied.
+  - **RuleSetInfo**: Details for each rule evaluated:
+    - **RuleId**: Rule ID.
+    - **Status**: `Processed`, `Applied`, or `Not processed`.
+    - **Order**: Rule order.
+    - **RuleItem**: Rule name.
+    - **Condition**: Conditions defined in the rule.
+    - **Output**: The resolved channel profile.
+- **Omnichannel.description**: Captures whether channel profile identification completed successfully or failed.
+  - **Success**: ChannelProfileIdentification for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: ChannelProfileIdentification for Conversation: {Conversation ID} failed with exception: {exception}
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: RuleGenerated
+
+Logs when an assignment, prioritization, or selection rule is generated for the conversation by the rule generation engine.
+
+- **Omnichannel.description**: Captures whether rule generation succeeded or failed.
+  - **Success**: Rule generation succeeded. TriggerType: {TriggerType}. GeneratedRule: {GeneratedRule}. InputContract: {InputContract}. OutputContract: {OutputContract}
+  - **Failure**: Rule generation failed. TriggerType: {TriggerType}. Reason: {FailureReason}
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: AverageWaitTimeEstimate
+
+Logs the estimated wait time calculated for a conversation in a queue and whether that estimate was communicated to the customer.
+
+- **Omnichannel.description**: JSON object containing:
+  - **QueueId**: ID of the queue for which the wait time was estimated.
+  - **WasAWTInformedToCustomer**: `true` if the estimated wait time was communicated to the customer; `false` otherwise.
+  - **AWTValue**: Estimated wait time in seconds.
+  - **Reason**: Reason why the wait time was not communicated to the customer, if applicable.
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: QueueConsult
+
+Logs when a representative initiates a consultation with another queue.
+
+- **Omnichannel.description**: Captures whether the queue consultation was initiated successfully or failed.
+  - **Success**: QueueConsult for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: QueueConsult for Conversation: {Conversation ID} failed with exception: {exception}
+- **omnichannel.initiator_agent.id**: ID of the representative who initiated the queue consultation.
+- **omnichannel.target_queue.id**: ID of the queue to which the consultation was directed.
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: CancelQueueConsult
+
+Logs when a representative cancels an in-progress queue consultation.
+
+- **Omnichannel.description**: Captures whether the cancellation of the queue consultation completed successfully or failed.
+  - **Success**: CancelQueueConsult for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: CancelQueueConsult for Conversation: {Conversation ID} failed with exception: {exception}
+- **omnichannel.initiator_agent.id**: ID of the representative who cancelled the queue consultation.
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: BotSessionInitialization
+
+Logs when a Copilot agent session is initialized and connected to the conversation.
+
+- **Omnichannel.description**: Captures whether the bot session initialization completed successfully or failed.
+  - **Success**: BotSessionInitialization for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: BotSessionInitialization for Conversation: {Conversation ID} failed with exception: {exception}
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: BotTransferToAgent
+
+Logs when a Copilot agent escalates and transfers the conversation to a human representative.
+
+- **Omnichannel.description**: Captures whether the bot-to-agent transfer completed successfully or failed.
+  - **Success**: BotTransferToAgent for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: BotTransferToAgent for Conversation: {Conversation ID} failed with exception: {exception}
+- **omnichannel.target_agent.id**: ID of the representative to whom the conversation was transferred.
+- **omnichannel.target_queue.id**: ID of the queue through which the transfer was routed, if applicable.
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: CSRDisconnected
+
+Logs when a representative is disconnected from the conversation.
+
+- **Omnichannel.description**: Captures information when a representative is disconnected from the conversation.
+  - **Success**: CSRDisconnected for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: CSRDisconnected for Conversation: {Conversation ID} failed with exception: {exception}
+- **omnichannel.initiator_agent.id**: ID of the representative who was disconnected.
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: CSRPreviewedOpenConversation
+
+Logs when a representative previews an open conversation before accepting it.
+
+- **Omnichannel.description**: Captures information when a representative previews an open conversation.
+  - **Success**: CSRPreviewedOpenConversation for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: CSRPreviewedOpenConversation for Conversation: {Conversation ID} failed with exception: {exception}
+- **omnichannel.initiator_agent.id**: ID of the representative who previewed the conversation.
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: TransferToUserGroupInitiated
+
+Logs when a representative initiates a transfer of the conversation to a user group.
+
+- **Omnichannel.description**: Captures whether the transfer to a user group was initiated successfully or failed.
+  - **Success**: TransferToUserGroupInitiated for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: TransferToUserGroupInitiated for Conversation: {Conversation ID} failed with exception: {exception}
+- **omnichannel.initiator_agent.id**: ID of the representative who initiated the transfer.
+- **omnichannel.target_agent_group.name**: Name of the user group to which the conversation was transferred.
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: TransferToExternalInitiated
+
+Logs when a representative initiates a transfer of the conversation to an external participant.
+
+- **Omnichannel.description**: Captures whether the external transfer was initiated successfully or failed.
+  - **Success**: TransferToExternalInitiated for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: TransferToExternalInitiated for Conversation: {Conversation ID} failed with exception: {exception}
+- **omnichannel.initiator_agent.id**: ID of the representative who initiated the transfer.
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: ConsultToUserGroupInitiated
+
+Logs when a representative initiates a consultation with a user group.
+
+- **Omnichannel.description**: Captures whether the user group consultation was initiated successfully or failed.
+  - **Success**: ConsultToUserGroupInitiated for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: ConsultToUserGroupInitiated for Conversation: {Conversation ID} failed with exception: {exception}
+- **omnichannel.initiator_agent.id**: ID of the representative who initiated the consultation.
+- **omnichannel.target_agent_group.name**: Name of the user group consulted.
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: ConsultToExternalInitiated
+
+Logs when a representative initiates a consultation with an external participant.
+
+- **Omnichannel.description**: Captures whether the external consultation was initiated successfully or failed.
+  - **Success**: ConsultToExternalInitiated for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: ConsultToExternalInitiated for Conversation: {Conversation ID} failed with exception: {exception}
+- **omnichannel.initiator_agent.id**: ID of the representative who initiated the consultation.
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: ConsultToExternalClosed
+
+Logs when a representative closes an in-progress consultation with an external participant.
+
+- **Omnichannel.description**: Captures whether the external consultation was closed successfully or failed.
+  - **Success**: ConsultToExternalClosed for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: ConsultToExternalClosed for Conversation: {Conversation ID} failed with exception: {exception}
+- **omnichannel.initiator_agent.id**: ID of the representative who closed the consultation.
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: SupervisorMonitor, SupervisorJoin, SupervisorAssignedToCSR, SupervisorAssignedToQueue, SupervisorAssignedToUserGroup
+
+Logs actions taken by a supervisor on an active conversation, such as monitoring, joining, or reassigning to a representative, queue, or user group.
+
+- **Subscenarios**:
+  - SupervisorMonitor
+  - SupervisorJoin
+  - SupervisorAssignedToCSR
+  - SupervisorAssignedToQueue
+  - SupervisorAssignedToUserGroup
+- **Omnichannel.description**: Captures whether the supervisor action was completed successfully or failed.
+  - **Success**: {Subscenario} for Conversation: {Conversation ID} completed successfully. **Example**: SupervisorJoin for Conversation: XXXX completed successfully.
+  - **Failure**: {Subscenario} for Conversation: {Conversation ID} failed with exception: {exception} **Example**: SupervisorAssignedToCSR for Conversation: XXXX failed with exception: Too many requests.
+- **omnichannel.initiator_agent.id**: ID of the supervisor initiating the action.
+- **omnichannel.target_agent.id**: ID of the representative receiving the action. Applicable for `SupervisorAssignedToCSR`.
+- **omnichannel.target_queue.id**: ID of the target queue. Applicable for `SupervisorAssignedToQueue`.
+- **omnichannel.target_agent_group.name**: Name of the target user group. Applicable for `SupervisorAssignedToUserGroup`.
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: ConversationDetails
+
+Logs details about the conversation at a specific point in its lifecycle.
+
+- **Omnichannel.description**: Captures whether conversation details were logged successfully or failed.
+  - **Success**: ConversationDetails for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: ConversationDetails for Conversation: {Conversation ID} failed with exception: {exception}
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: ConversationAutoRejected
+
+Logs when a conversation is automatically rejected by the system because no representative accepted it within the allowed notification time.
+
+- **Omnichannel.description**: Captures whether the auto-rejection was processed successfully or failed.
+  - **Success**: ConversationAutoRejected for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: ConversationAutoRejected for Conversation: {Conversation ID} failed with exception: {exception}
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: ConversationPriorityIncreased
+
+Logs when the priority of a conversation is escalated by the system or a supervisor.
+
+- **Omnichannel.description**: Captures whether the priority increase was processed successfully or failed.
+  - **Success**: ConversationPriorityIncreased for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: ConversationPriorityIncreased for Conversation: {Conversation ID} failed with exception: {exception}
+- **omnichannel.initiator_agent.id**: ID of the supervisor who increased the priority, if applicable.
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: RecordDetails
+
+Logs details of the record matched to the conversation, such as case or contact information.
+
+- **omnichannel.entity_logical_name**: Logical name of the matched entity type, for example, `incident`.
+- **Omnichannel.description**: Captures whether record details were logged successfully or failed.
+  - **Success**: RecordDetails for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: RecordDetails for Conversation: {Conversation ID} failed with exception: {exception}
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: AgentChatEnd, CustomerChatEnd, SystemChatEnd
+
+Logs the end of a messaging conversation and captures who or what triggered the end event.
+
+- **Subscenarios**:
+  - AgentChatEnd
+  - CustomerChatEnd
+  - SystemChatEnd
+- **Omnichannel.description**: Captures whether the chat end event was processed successfully or failed.
+  - **Success**: {Subscenario} for Conversation: {Conversation ID} completed successfully. **Example**: AgentChatEnd for Conversation: XXXX completed successfully.
+  - **Failure**: {Subscenario} for Conversation: {Conversation ID} failed with exception: {exception}
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: DownloadTranscripts
+
+Logs server-side processing of a chat transcript download request on behalf of the customer or representative.
+
+- **Omnichannel.description**: Captures whether the transcript download was processed successfully or failed.
+  - **Success**: DownloadTranscripts for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: DownloadTranscripts for Conversation: {Conversation ID} failed with exception: {exception}
+- **Channel type**: Channel from which the work item originated.
+
+### Subscenario: EmailTranscripts
+
+Logs server-side processing of a chat transcript email request on behalf of the customer or representative.
+
+- **Omnichannel.description**: Captures whether the transcript email was processed successfully or failed.
+  - **Success**: EmailTranscripts for Conversation: {Conversation ID} completed successfully.
+  - **Failure**: EmailTranscripts for Conversation: {Conversation ID} failed with exception: {exception}
+- **Channel type**: Channel from which the work item originated.
 
 ### Subscenario: IntentDetermination
 
