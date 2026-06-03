@@ -24,3 +24,4 @@ You can customize the mobile app in various ways including: editing the navigati
 - [Use deep links](/dynamics365/guidance/resources/field-service-mobile-use-deep-links)
 - [Use Power Apps to configure the mobile app](/dynamics365/guidance/resources/field-service-mobile-customize-powerapps)
 - [Vendor self-service for technician management](/dynamics365/guidance/resources/field-service-vendor-self-service-technician-management)
+- [Add a note taking control (preview)](/dynamics365/guidance/resources/field-service-mobile-take-notes)
