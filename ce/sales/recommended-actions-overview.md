@@ -1,7 +1,7 @@
 ---
 title: Recommended actions overview
 description: Recommended actions is an intelligent capability that shows prioritized actions so sellers focus on the most effective tasks for their opportunities. 
-ms.date: 06/01/2026
+ms.date: 06/03/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales

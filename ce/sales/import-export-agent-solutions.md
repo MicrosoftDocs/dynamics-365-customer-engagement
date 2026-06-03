@@ -1,7 +1,7 @@
 ---
 title: Import an agent into a target environment
 description: Learn how to export and import sales agent solutions across environments in Dynamics 365 Sales. 
-ms.date: 06/01/2026
+ms.date: 06/03/2026
 ms.update-cycle: 180-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
@@ -41,7 +41,7 @@ Export the agent from the source environment as a solution. During the export pr
     - **SalesAgentProfile**. When you create the agent, a corresponding agent profile is automatically created. In the **Add existing SalesAgentProfile** pane, select the agent profile from the list of existing agent profiles.  
     - **SalesAgentConfigurationV2**. When you create the agent, corresponding agent configurations are automatically created with the same name as the agent profile. In the **Add existing SalesAgentConfigurationV2** pane, select the agent configuration that has the same name as the agent profile you selected.  
     - **Sequence** (for **Sales Qualification Agent** only). When you create the Sales Qualification Agent, a corresponding sequence record is automatically created in the sequence component. In the **Add existing Sequence** pane, select the sequence record with the name **AgenticSequence**. 
-    - **msdyn_PushActionDataToRecommendedActionAgent** (for **Recommended Actions Agent** only when using custom actions). This is a custom API that the Recommended Actions Agent uses to receive action data from other agents.  
+    - **msdyn_recommendedactionsourceagentconfigs** (for **Recommended Actions Agent** only). This component contains the configurations of the Recommended Actions.  
 
 1. Add knowledge sources.  
 

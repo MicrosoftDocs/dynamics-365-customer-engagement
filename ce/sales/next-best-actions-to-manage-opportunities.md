@@ -1,7 +1,7 @@
 ---
 title: Manage opportunity risks and data enrichment using AI-recommended actions (preview)
 description: Learn how action cards are created and shown in the carousel to help sellers address opportunity risks and data enrichment. 
-ms.date: 06/01/2026
+ms.date: 06/03/2026
 ms.topic: overview
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
