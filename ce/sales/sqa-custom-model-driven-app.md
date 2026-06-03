@@ -1,7 +1,7 @@
 ---
 title: Use Sales Qualification Agent in custom model-driven apps
 description: Custom model-driven apps need extra setup for Sales Qualification Agent. Follow this guide to enable agent views and insights for your sales team.
-ms.date: 05/29/2026
+ms.date: 06/03/2026
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs

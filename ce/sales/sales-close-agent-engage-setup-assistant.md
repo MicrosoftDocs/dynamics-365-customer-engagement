@@ -20,8 +20,6 @@ ai-usage: ai-assisted
 
 The Sales Close Agent setup assistant provides a guided experience to help you configure the agent step-by-step. This method is ideal for administrators who prefer a streamlined setup process with AI assistance.  
 
->[!NOTE]
->The setup assistant for Sales Close Agent will not be available from June 25, 2026. This change does not affect core functionality. You can continue using the [manual setup process](configure-sales-close-agent.md#set-up-the-sales-close-agent). No action is required unless you were using this preview.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
