@@ -1,7 +1,7 @@
 ---
 title: Define and schedule a forecast model
 description: Define a forecast model using rollup and hierarchy entities and schedule how often to generate the forecast in Dynamics 365 Sales.
-ms.date: 05/06/2026
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

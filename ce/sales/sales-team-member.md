@@ -1,7 +1,7 @@
 ---
 title: Sales Team Member app for users with Team Member license
 description: Learn about the Team Member license entitlements and the new Sales Team Member app.
-ms.date: 10/15/2024
+ms.date: 05/29/2026
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr

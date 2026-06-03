@@ -1,7 +1,7 @@
 ---
 title: Customize the Add Products dialog
 description: Customize the **Add products dialog** so sellers can quickly identify and add products to opportunity, quote, order, or invoice records.
-ms.date: 03/12/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

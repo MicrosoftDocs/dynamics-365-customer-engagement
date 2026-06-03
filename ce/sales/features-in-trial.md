@@ -1,7 +1,7 @@
 ---
 title: Explore features in included in the trial
 description: Learn about the features available in your Dynamics 365 Sales trial.
-ms.date: 06/28/2024
+ms.date: 05/29/2026
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
