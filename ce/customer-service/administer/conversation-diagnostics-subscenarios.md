@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: concept-article
 ms.collection:
-ms.date: 06/05/2026
+ms.date: 06/04/2026
 ms.custom: bap-template
 ---
 
@@ -350,8 +350,8 @@ Logs the entry of a work item into the unified routing pipeline. Captures intake
 Logs when a work item is placed into a buffer before the routing pipeline begins processing it.
 
 - **Omnichannel.description**: Captures whether buffering completed successfully or failed.
-  - **Success**: RecordBuffered for Conversation: {Conversation ID} completed successfully.
-  - **Failure**: RecordBuffered for Conversation: {Conversation ID} failed with exception: {exception}
+  - **Success**: RecordBuffered for Record: {Record ID} completed successfully.
+  - **Failure**: RecordBuffered for Record: {Record ID} failed with exception: {exception}
 - **Channel type**: Channel from which the work item originated.
 
 ### Subscenario: RoutingContextEnrichment
