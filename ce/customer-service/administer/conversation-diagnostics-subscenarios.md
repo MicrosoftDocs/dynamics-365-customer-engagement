@@ -78,8 +78,8 @@ The conversation diagnostics scenario captures data related to unified routing, 
 | TRANSFER_CSR_REQUEST2COMPLETED | Representative requests a transfer to another representative. |
 | TRANSFER_QUEUE_REQUEST2COMPLETED | Representative requests a transfer of conversation to another queue. |
 | CONSULT_BYVOICE_REQUESTAGENT | Representative initiates consult over voice channel. |
-| TransferToUserGroupInitiated | Representative initiated a transfer of the conversation to a user group. |
-| TransferToExternalInitiated | Representative initiated a transfer of the conversation to an external participant. |
+| TransferToUserGroupInitiated | Representative initiated a transfer to a user group. |
+| TransferToExternalInitiated | Representative initiated a transfer to an external participant. |
 | ConsultToUserGroupInitiated | Representative initiated a consultation with a user group. |
 | ConsultToExternalInitiated | Representative initiated a consultation with an external participant. |
 | ConsultToExternalClosed | Representative closed an in-progress consultation with an external participant. |
@@ -116,8 +116,8 @@ The conversation diagnostics scenario captures data related to unified routing, 
 | CopilotAgentSessionInitialization | Agent is connected to conversation. |
 | CSRDisconnected | Representative was disconnected from the conversation. |
 | CSRPreviewedOpenConversation | Representative previewed an open conversation before accepting it. |
-| BotSessionInitialization | Copilot agent session is initialized and connected to the conversation. |
-| BotTransferToAgent | Copilot agent escalated and transferred the conversation to a human representative. |
+| BotSessionInitialization | Copilot agent session is initialized and linked to the conversation. |
+| BotTransferToAgent | Copilot agent escalated and transferred the conversation to a service representative. |
 | ConversationDetails | Logs details about the conversation at a specific point in its lifecycle. |
 | ConversationAutoRejected | Conversation was automatically rejected because no representative accepted it within the allowed time. |
 | ConversationPriorityIncreased | Priority of the conversation was escalated by the system or a supervisor. |
