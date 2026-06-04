@@ -28,7 +28,7 @@ Follow these steps to enable recommended actions for the Sales Opportunity Agent
 1. Under the **Guidance** settings section, select **Connected skills**.
 1. In the **Recommended action** section, turn on the toggle.  
 
-        :::image type="content" source="media/soa-recommended-actions-toggle.png" alt-text="Recommended actions toggle in Sales Opportunity Agent configuration page":::  
+    :::image type="content" source="media/soa-recommended-actions-toggle.png" alt-text="Recommended actions toggle in Sales Opportunity Agent configuration page":::  
 
 The recommended actions feature is enabled for the Sales Opportunity Agent. Action insight cards start appearing on opportunities that meet the criteria for the agent, providing sellers with prioritized recommendations to manage their opportunities effectively.  
 

@@ -74,7 +74,7 @@ Add custom agents to show actions in the recommended actions experience by addin
 
 1. Select **Add**.
     The custom source is added to the recommended actions framework and listed in the custom sources section of the configuration page. Your custom agent can now use the added custom source to return actionable insights that appear in the recommended actions interface.
-    
+
     :::image type="content" source="media/custom-source-added.png" alt-text="Screenshot of the recommended actions configuration page showing the added custom source.":::
 
 1. Configure the custom agents using the ```msdyn_PushActionDataToRecommendedActionAgent``` API to return actionable insights in the format required by the recommended actions framework. For more information, refer to the [Recommended actions API documentation](developer/recommended-actions-api.md).
