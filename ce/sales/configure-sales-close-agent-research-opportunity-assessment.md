@@ -32,7 +32,7 @@ Configure the fields that the agent uses to assess the importance and risk of th
 
 ## Next step
 
-[Configure knowledge sources.](configure-sqa-knowledge-source.md)
+[Configure recommended actions for Sales Opportunity Agent](configure-sales-opportunity-agent-connected-skills.md)
 
 ## Related information
 

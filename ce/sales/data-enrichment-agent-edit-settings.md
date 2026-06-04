@@ -56,7 +56,7 @@ In the **Agent behavior** section of the [Data Enrichment settings](#open-settin
 
 Connected skills extend Data Enrichment by integrating it with other features in Dynamics 365 Sales. In the **Connected skills** section of the [Data Enrichment settings](#open-settings), the following skill is currently available and turned on by default:
 
-**Recommended action**: When enabled, this skill displays Data Enrichment suggestions in the **Suggested actions** carousel on the opportunity list view, allowing sellers to review and apply suggestions without opening individual opportunities. The skill recommends the next best action based on opportunity context. If disabled, sellers can still access data enrichment suggestions from within each opportunity record, but they won't appear in the carousel.
+**Recommended action**: When enabled, this skill displays Data Enrichment suggestions in the **Suggested actions** carousel on the opportunity list view, allowing sellers to review and apply suggestions without opening individual opportunities. The skill recommends the next best action based on opportunity context. If disabled, sellers can still access data enrichment suggestions from within each opportunity record, but they won't appear in the carousel. For more information, see [Configure Recommended Actions Agent](configure-recommended-actions.md).
 
 The following screenshot shows an example of a Data Enrichment suggestion surfaced in the Suggested actions carousel for sellers to act on:
 :::image type="content" source="media/data-enrichment-in-carousal.png" alt-text="Screenshot of the Suggested actions carousel showing Data Enrichment suggestions.":::
