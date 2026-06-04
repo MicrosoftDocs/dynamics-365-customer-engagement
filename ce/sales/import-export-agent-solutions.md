@@ -41,7 +41,7 @@ Export the agent from the source environment as a solution. During the export pr
     - **SalesAgentProfile**. When you create the agent, a corresponding agent profile is automatically created. In the **Add existing SalesAgentProfile** pane, select the agent profile from the list of existing agent profiles.  
     - **SalesAgentConfigurationV2**. When you create the agent, corresponding agent configurations are automatically created with the same name as the agent profile. In the **Add existing SalesAgentConfigurationV2** pane, select the agent configuration that has the same name as the agent profile you selected.  
     - **Sequence** (for **Sales Qualification Agent** only). When you create the Sales Qualification Agent, a corresponding sequence record is automatically created in the sequence component. In the **Add existing Sequence** pane, select the sequence record with the name **AgenticSequence**. 
-    - **msdyn_recommendedactionsourceagentconfigs** (for **Recommended Actions Agent** only). This component contains the configurations of the Recommended Actions.  
+    - **msdyn_recommendedactionsourceagentconfig** (for **Recommended Actions Agent** only). This component contains the configurations of the Recommended Actions.  
 
 1. Add knowledge sources.  
 

@@ -1,5 +1,5 @@
 ---
-title: Configure recommended actions
+title: Configure Recommended Actions agent
 description: Learn how to configure recommended actions in Dynamics 365 Sales to help sellers focus on the most effective tasks for their opportunities.
 ms.date: 06/03/2026
 ms.update-cycle: 180-days
@@ -14,18 +14,18 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure Recommended actions (preview)
+# Configure Recommended Actions agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-As an admin, you can configure recommended actions to control which agents are used, how actions are prioritized, and whether the feature is enabled.
+As an admin, you can configure which agents can use the Recommended Actions agent, how actions are prioritized, and whether the feature is enabled.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Enable recommended actions for agents
 
-Enable recommended actions depending on the agents you have in your organization. When you turn on the recommended actions toggle for an agent, the **Recommended Actions** agent appears in the list of AI agents.  
-
+When you turn on the recommended actions toggle for an agent, that agent's action insights are integrated into the recommended actions interface. Instead of appearing only in the agent's own interface, the agent's action insights now appear as action cards in the recommended actions experience, giving sellers a unified view of prioritized, actionable recommendations. For example, when this feature is enabled, the Data Enrichment Agent displays action insights related to data quality improvements in the recommended actions interface.  
+  
 ### Sales Opportunity Agent
 
 1. In the agent configuration page, go to **Guidance** > **Connected skills**.
@@ -77,12 +77,12 @@ Add custom agents to show actions in the recommended actions experience by addin
     
     :::image type="content" source="media/custom-source-added.png" alt-text="Screenshot of the recommended actions configuration page showing the added custom source.":::
 
-1. Comfigure the custom agents using the ```msdyn_PushActionDataToRecommendedActionAgent``` API to return actionable insights in the format required by the recommended actions framework. For more information, refer to the [Recommended actions API documentation](developer/recommended-actions-api.md).
+1. Configure the custom agents using the ```msdyn_PushActionDataToRecommendedActionAgent``` API to return actionable insights in the format required by the recommended actions framework. For more information, refer to the [Recommended actions API documentation](developer/recommended-actions-api.md).
 
 ## Disable recommended actions
 
 To disable recommended actions for an agent, turn off the recommended actions toggle in the agent's configuration page.  
-When  disabled, the agent continues to run and generate insights in its own interface but the insights don't appear in the recommended actions interface. You can re-enable the source at any time to get the insights back in the recommended actions interface.  
+When disabled, the agent continues to run and generate insights in its own interface but the insights don't appear in the recommended actions interface. You can re-enable the source at any time to get the insights back in the recommended actions interface.  
 
 ## Permissions required for custom security roles
 

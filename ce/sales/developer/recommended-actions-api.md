@@ -27,18 +27,20 @@ Your agent pushes actions into the Recommended Actions Agent pipeline via a Cust
 
 ## Integration architecture
 
+The section describes the architecture and components involved in integrating a custom agent with the Recommended Actions Agent.  
+
 ### Processing Pipeline
 
 1. **Your agent** detects an actionable insight (for example, a deal risk, a stalled deal, or a missing stakeholder).
 1. **Your agent calls** `msdyn_PushActionDataToRecommendedActionAgent` Custom API to push the action.
 1. The action is persisted in `msdyn_rawactioncatalogue` (input table).
-1. For each action, the **Scoring Engine** (on the CoPilot Service Fabric service `RecommendedActionsAgentServices`):
+1. For each action, the **Scoring Engine** (on the Copilot Service Fabric service `RecommendedActionsAgentServices`):
    - Fetches entity signals from Dataverse.
    - Fetches agent-specific prioritization data from the action catalogue.
    - Calls LLM (via CAPI) to score on UICE dimensions.
    - Applies floor/ceiling.
    - Computes final priority score: `U × 0.30 + I × 0.35 + C × 0.20 − E × 0.15 + PP × 0.05`.
-1. Scored action is upserted into `msdyn_prioritizedactioncatalogue` (output table).
+1. Scored action is inserted into `msdyn_prioritizedactioncatalogue` (output table).
 1. **Recommended Actions Agent Carousel** fetches scored actions via `msdyn_RAAgent_FetchScoredRecommendedActions` and renders cards.
 
 ### Key components
