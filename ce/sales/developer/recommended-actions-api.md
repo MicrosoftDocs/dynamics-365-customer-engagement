@@ -1,6 +1,6 @@
 ---
 title: Onboard a custom agent to the Recommended Actions Agent
-description: Recommended actions is an intelligent capability that shows prioritized actions so sellers focus on the most effective tasks for their opportunities. 
+description: Learn how to onboard a custom agent to the Recommended Actions Agent in Dynamics 365 Sales by using the API to push actionable insights for prioritization and display in the suggested actions interface. 
 ms.date: 05/19/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
