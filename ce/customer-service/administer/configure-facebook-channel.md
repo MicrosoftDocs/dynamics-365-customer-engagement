@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
 description: Learn how to configure a Facebook channel and corresponding Facebook pages in Dynamics 365 Contact Center.
-ms.date: 05/27/2026
+ms.date: 06/04/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -77,7 +77,7 @@ To configure a Facebook channel, the following steps are required:
 
    1. Select **Add**, and in the **Add Facebook Page** pane, enter the following details:
       - **Page name:** Name of the Facebook page.
-      - **Page ID:** ID of the Facebook page. To get the page ID, go to your Facebook page, select About, and copy the value in the Page ID field.
+      - **Page ID:** ID of the Facebook page. To get the page ID, go to your Facebook page, select **Account** or your profile photo in the top-right corner, select **See all profiles**, and then select **See all pages** in the left-side menu. Select **Transparency and privacy**, and then copy the value in the **Page ID** field.
       - **Page access token:** Specify the Page access token of the Facebook application. To get the page access token, go to your Facebook application and then go to **Messenger** > **Settings**. In the **Access Tokens** section, select the page, and copy the value in the **Page Access Token** field.
       - On the **Callback information** page, the **Callback URL** and **Verify token** fields are populated automatically when you save the settings. Use the information to configure webhooks in the Facebook application. The values for the fields aren't generated if the Facebook page is reused across multiple instances of the channel.
 
