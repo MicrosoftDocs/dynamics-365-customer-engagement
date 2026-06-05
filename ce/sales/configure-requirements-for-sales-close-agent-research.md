@@ -1,7 +1,7 @@
 ---
 title: Configure requirements for Sales Opportunity Agent
 description: Configure the prerequisites for the Sales Opportunity Agent in Dynamics 365 Sales.
-ms.date: 04/09/2026
+ms.date: 06/05/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -29,7 +29,10 @@ Before you configure the Sales Opportunity Agent, ensure that your Dynamics 365 
 1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
 1. On the **Prerequisites** section, configure the following settings:
    - **Bing search**: Select **Accept terms** to open the Power Platform admin center and accept the terms for Bing search. To learn more, see [Turn on data movement, Bing search, and Microsoft 365 services for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot?tabs=new#turn-on-data-movement-bing-search-and-microsoft-365-services-for-copilots-and-generative-ai-features).  
-   - **Dataverse Search**: The agent uses Dataverse Search to retrieve relevant records from Dynamics 365 Sales. If you didn't set up Dataverse Search, select **Set up** to open the **Dataverse Search** settings page and follow the instructions to set it up. After setting up Dataverse Search, return to the agent configuration page and select **Refresh** to update the status of this prerequisite. Learn more about [configuring Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization).
+   - **Dataverse search**: The agent uses Dataverse Search to retrieve relevant records from Dynamics 365 Sales. If you didn't set up Dataverse Search, select **Set up** to open the Power Platform admin center features settings page. In the **Dataverse Search** section, enable the following options:  
+       - Turn on search indexing to support Dataverse intelligence (Work IQ) in AI and agent experiences.  
+       - Show global search bar in all model driven apps and turn on search indexing to support search-only experiences.  
+     After setting up Dataverse Search, return to the agent configuration page and select **Refresh** to update the status of this prerequisite. Learn more about [configuring Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization).
    - **Microsoft 365 Services**: (Optional but recommended) To allow the agent to read seller emails, select **Mark as done** and then **Apply changes**. Sellers are prompted to provide consent the first time they access the **Opportunity research** page. This method reads emails in place without storing them in CRM. If your organization already uses server-side synchronization, that continues to work as an alternative method. To learn more server-side synchronization, see [Configure server-side synchronization](#configure-server-side-synchronization).
    
      To configure and use Microsoft 365 Services, you need:
