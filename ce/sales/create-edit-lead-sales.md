@@ -1,10 +1,10 @@
 ---
 title: Create or edit leads
 description: Learn how to create a lead in Dynamics 365 to track business prospects and add notes, activities, and related contacts.
-ms.date: 05/29/2026
+ms.date: 06/05/2026
 ms.topic: how-to
 author: lavanyakr01
-ms.author: ramakris
+ms.author: lavanyakr
 ms.reviewer: ramakris
 ai-usage: ai-assisted
 searchScope:
@@ -56,7 +56,7 @@ Create leads in Dynamics 365 to track potential new customers. A lead can be an 
     - By default, the contact you connect is assigned the Stakeholder role. To select a different role, select the space to the left of the contact in the list, select **Edit**, and assign the correct role.
   
    > [!IMPORTANT]
-   > The **New** button on Connection sub-grids is supported only for the out-of-box **Stakeholders** views on the Lead entity. For any other Connection sub-grid or **Stakeholders** sub-grids that are based on custom views, the **New** button doesn't appear on the sub-grid. In such cases, navigate to the **Connections** tab for the record and select **Connect** to create a new connection.
+   > The **New Connection** button on Connection sub-grids is supported only for the out-of-box **Stakeholders** views on the Lead entity. For any other Connection sub-grid or **Stakeholders** sub-grids that are based on custom views, the **New Connection** button doesn't appear on the sub-grid. In such cases, navigate to the **Connections** tab for the record and select **Connect** to create a new connection.
 
 1. Select the **Details** tab and enter any other information you have about your lead, such as industry and preferred contact method.
 
