@@ -4,7 +4,7 @@ description: Customize the opportunity close form so that sellers can capture de
 ms.date: 06/05/2026
 ms.topic: how-to
 author: lavanyakr01
-ms.author: ramakris
+ms.author: lavanyakr
 ms.reviewer: ramakris
 ms.custom: bap-template
 ai-usage: ai-assisted
