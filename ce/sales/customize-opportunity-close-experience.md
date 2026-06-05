@@ -95,56 +95,6 @@ After you're done with the customizations, select **Publish All Customizations**
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-## Troubleshoot common issues
-
-### Quick Create form doesn't appear when closing an opportunity
-
-If the **Main** form appears instead of the **Quick Create** form when you close an opportunity:
-
-1. Verify that the **Custom fields on closing form** toggle is set to **Yes** in Sales Hub. Go to **App Settings** > **General Settings** > **Lead + Opportunity management** > **Opportunity Closing**.
-1. In **Advanced Settings**, go to **Administration** > **System Settings** > **Sales** tab, and confirm **Customize close opportunity form** is set to **Yes**.
-1. In the solution explorer, go to **Entities** > **Opportunity Close** > **General** tab and verify that both **Allow quick create** and **Enable for Unified Client** are enabled.
-1. If the settings are correct in one environment but the issue occurs only in production, compare the **Opportunity Close** entity configuration across environments.
-
-### Custom fields don't appear on the Opportunity Close form
-
-If you added custom fields to the Opportunity Close form but they don't appear in the app:
-
-1. Ensure that the **Opportunity Close** entity is added to your custom app module. In the app designer, select **Add** > **Entities**, search for **Opportunity Close**, add it, and then select **Include entity metadata**.
-1. After adding the entity, publish the app again.
-
-### "Selected entity is not valid for this client" error
-
-If you receive this error when you enable the **Custom fields on closing form** toggle and try to close an opportunity:
-
-1. Verify that your app is built on Unified Interface. The Opportunity Close form customization is only supported in Unified Interface apps.
-1. Ensure that the **Opportunity Close** entity is added to your custom app module with all assets included.
-1. Check for any unmanaged solution layers on the Sales Hub app that might override the configuration. Go to **Settings** > **Advanced Settings** > **Customizations** > **Customize the System** > **Client Extensions**, select the affected app, and review the solution layers.
-
-### Custom status reasons don't appear in the close form
-
-If you added new status reason values to the Opportunity Close entity but they don't appear in the form:
-
-1. Verify that the custom values were added to the `opportunitystatuscode` attribute (not the `statuscode` attribute) on the Opportunity Close entity.
-1. Ensure that matching values exist on both the Opportunity entity's **Status Reason** field and the Opportunity Close entity's `opportunitystatuscode` attribute.
-1. Check for and remove any unmanaged layers that might be overriding the field options.
-1. Publish all customizations and clear your browser cache.
-
-### Customization option is missing from settings
-
-If you can't find the option to enable Opportunity Close form customization:
-
-1. In Sales Hub, go to **App Settings** > **General Settings** > **Lead + Opportunity management** > **Opportunity Closing**.
-1. If the option isn't visible, check for an active solution layer on the app that might hide it. Go to **Settings** > **Advanced Settings** > **Customizations** > **Customize the System** > **Client Extensions**, select the Sales Hub app, and review and remove any blocking solution layer.
-
-### Errors when closing an opportunity with custom form
-
-If you receive errors when closing an opportunity after customizing the form, the issue might be caused by customizations on the **Quick Create** form. Try the following:
-
-1. Disable any custom JavaScript or business rules on the Opportunity Close form temporarily to isolate the issue.
-1. If you have customizations on the **Opportunity Line Quick Create** form, review them for conflicts.
-1. Verify that all required fields have valid values before closing.
-
 ## Related information
 
 [Close opportunity as won or lost](close-opportunity-won-lost-sales.md)  
