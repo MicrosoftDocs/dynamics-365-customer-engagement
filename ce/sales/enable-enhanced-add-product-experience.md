@@ -4,7 +4,7 @@ description: "Enable your salespeople to quickly find and add multiple products 
 ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
-ms.author: ramakris
+ms.author: lavanyakr
 ms.reviewer: ramakris
 ai-usage: ai-assisted
 searchScope: 
