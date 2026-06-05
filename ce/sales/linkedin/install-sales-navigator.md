@@ -4,7 +4,7 @@ description: Learn how to install and enable the LinkedIn Sales Navigator for yo
 ms.date: 05/21/2026
 ms.topic: how-to
 author: udaykirang
-ms.author: ramakris
+ms.author: udag
 ms.reviewer: ramakris
 ms.owner: shujoshi
 ai-usage: ai-assisted
