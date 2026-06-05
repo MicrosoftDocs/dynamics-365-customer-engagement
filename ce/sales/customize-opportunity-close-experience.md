@@ -25,7 +25,8 @@ Customize the opportunity close form so that sellers can capture details about t
 1. [Create a custom field in the Opportunity Close entity](#step-2-create-a-custom-field-in-the-opportunity-close-entity)
 1. [Add the field to the Opportunity Close form](#step-3-add-the-field-to-the-opportunity-close-form)
 1. [Pre-populate values in the Opportunity Close form from the corresponding opportunity](#step-4-pre-populate-values-in-the-opportunity-close-form-from-the-corresponding-opportunity)
-1. [Publish the customizations](#step-5-publish-the-customizations)
+1. [Customize Status Reason fields](#step-5-customize-status-reason-fields)
+1. [Publish the customizations](#step-6-publish-the-customizations)
 
 ### Step 1: Open the solution explorer page
 
