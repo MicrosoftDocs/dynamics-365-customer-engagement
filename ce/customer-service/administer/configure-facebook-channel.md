@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
 description: Learn how to configure a Facebook channel and corresponding Facebook pages in Dynamics 365 Contact Center.
-ms.date: 03/11/2026
+ms.date: 06/04/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -15,7 +15,6 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-
 Many customers use social messaging channels like Facebook for their personal communication needs. Many also prefer using messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time. This ability contrasts with real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window closes.
 
 > [!NOTE]
@@ -25,9 +24,9 @@ Many customers use social messaging channels like Facebook for their personal co
 
 Make sure that the following prerequisites are met:
 
-- Create a Facebook page. More information: [Create and Manage a Page](https://www.facebook.com/help/135275340210354/?helpref=hc_fnav)
-- Enable Messenger. More information: [Messaging](https://www.facebook.com/help/994476827272050/?helpref=hc_fnav)
-- Create a Facebook application. More information: [App Development](https://developers.facebook.com/docs/apps/)
+- Create a Facebook page. Learn more in [Create and Manage a Page](https://www.facebook.com/help/135275340210354/?helpref=hc_fnav).
+- Enable Messenger. Learn more in [Messaging](https://www.facebook.com/help/994476827272050/?helpref=hc_fnav).
+- Create a Facebook application. Learn more in [App Development](https://developers.facebook.com/docs/apps/).
 - Sign in to the [developer site on Facebook](https://developers.facebook.com/) or create an account, and then complete the following steps:
    1. Select **My Apps**, and then select **Create app**.
    1. On the **What do you want your app to do?** page, select **Other**, and then select **Next**.
@@ -41,12 +40,12 @@ Make sure that the following prerequisites are met:
 
 The following Facebook roles and permissions are required for integrating your Facebook app with Dynamics 365 Contact Center.
 
-- Facebook users who don’t have a role in the Facebook app must have the `pages_messaging` permission to send messages to a Facebook page from contact center. The app owner must provide the `pages_messaging` permission for users to be able to send messages. More information: [pages_messaging](https://developers.facebook.com/docs/permissions/reference/pages_messaging/)
+- Facebook users who don’t have a role in the Facebook app must have the `pages_messaging` permission to send messages to a Facebook page from contact center. The app owner must provide the `pages_messaging` permission for users to be able to send messages. Learn more in [Permissions Reference for Meta Technologies APIs - pages_messaging](https://developers.facebook.com/docs/permissions#pages_messaging).
 
 - If the Facebook app that you’re using is in development mode, only Facebook users who have roles within the app can send messages to the Facebook page. The Facebook app can receive messages from or forward messages to Dynamics 365 Contact Center. Learn more in [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/).
 
 - For Dynamics 365 Contact Center to be able to retrieve the customer’s username from Facebook, the customer must request for Business Asset User Profile Access in their Facebook app. Learn more in [Business Asset User Profile Access](https://developers.facebook.com/docs/features-reference/business-asset-user-profile-access).
-- 
+ 
 ## Privacy notice
 
 If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Community Cloud region). Learn more in [Connect an AI agent to Facebook](/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
@@ -78,7 +77,7 @@ To configure a Facebook channel, the following steps are required:
 
    1. Select **Add**, and in the **Add Facebook Page** pane, enter the following details:
       - **Page name:** Name of the Facebook page.
-      - **Page ID:** ID of the Facebook page. To get the page ID, go to your Facebook page, select About, and copy the value in the Page ID field.
+      - **Page ID:** ID of the Facebook page. To get the page ID, go to your Facebook page, select **Account** or your profile photo in the top-right corner, select **See all profiles**, and then select **See all pages** in the left-side menu. Select **Transparency and privacy**, and then copy the value in the **Page ID** field.
       - **Page access token:** Specify the Page access token of the Facebook application. To get the page access token, go to your Facebook application and then go to **Messenger** > **Settings**. In the **Access Tokens** section, select the page, and copy the value in the **Page Access Token** field.
       - On the **Callback information** page, the **Callback URL** and **Verify token** fields are populated automatically when you save the settings. Use the information to configure webhooks in the Facebook application. The values for the fields aren't generated if the Facebook page is reused across multiple instances of the channel.
 
@@ -111,7 +110,7 @@ To configure a Facebook channel, the following steps are required:
 
       If you enable the Facebook human agent message tag during an active conversation between the representative and customer, the representative must close the conversation and reopen it to communicate with the latter customer 24 hours of inactivity. Representatives can start conversations with customers for up to seven days.
 
-      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. Learn more in [Facebook Developer Tools](https://developers.facebook.com/tools/).  
+      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. Learn more in [Facebook Human Agent](https://developers.facebook.com/docs/features-reference/human-agent/).  
    1. Review the **Summary** page, and select **Create**. The channel instance is configured.
 
 1. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).

@@ -1,7 +1,7 @@
 ---
 title: Set up the enhanced email experience
 description: Set up the enhanced email experience so sales reps can compose and send email without leaving the context of what they are working on.
-ms.date: 01/29/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

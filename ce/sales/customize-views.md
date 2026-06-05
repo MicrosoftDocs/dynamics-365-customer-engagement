@@ -1,7 +1,7 @@
 ---
 title: Create and customize views
 description: Learn how to create and customize system and personal views in Dynamics 365 Sales. Configure columns, filters, sort order, and column widths to display relevant sales data.
-ms.date: 04/30/2026
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

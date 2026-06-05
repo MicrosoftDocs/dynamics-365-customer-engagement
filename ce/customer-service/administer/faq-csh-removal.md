@@ -1,7 +1,7 @@
 ---
 title: Customer Service Hub app removal and migration FAQ
 description: Learn about frequently asked questions about the Customer Service Hub app removal and migration to Copilot Service workspace.
-ms.date: 06/20/2025
+ms.date: 05/28/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan

@@ -1,7 +1,7 @@
 ---
 title: Adjust values in a forecast
 description: "Adjust values in a forecast to estimate the final amount that you expect the forecast's opportunities to bring in at the close of the forecast period."
-ms.date: 05/06/2026
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

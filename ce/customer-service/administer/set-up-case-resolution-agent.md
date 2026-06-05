@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 03/20/2026
+ms.date: 05/27/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -18,42 +18,57 @@ You can use Case Management Agent to resolve cases by identifying case intent, a
 
 ## Prerequisites
 
-- [Agents are enabled](#enable-ai-agents) in Power Platform admin center.
 - Make sure [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot) is set up in the Power Platform admin center application.
 - The Power Platform [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview) mandates the use of an Azure subscription the system charges when the agent runs. Make sure you [Set up consumption-based billing](setup-pay-as-you-go.md).
 - [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent) is configured.
-- For the AI agent to send emails and resolve cases autonomously, you must set up a dedicated application user to send and receive emails on behalf of your organization. Perform the steps in [Configure global settings for Case Management Agent](case-management-global-settings.md).
+- The guided setup for Case Management Agent is completed. Learn more in [Configure Case Management Agent](case-management-global-settings.md).
+- Make sure you review and configure the prerequisites, such as application user and shared mailbox, if you want to configure the fully autonomous Case Management Agent flow. Learn more in [Configure individual capabilities](case-management-global-settings.md#configure-individual-capabilities).
 
-[!INCLUDE[enable-ai-agents-ppac](../../includes/ai-features/enable-ai-agents-ppac.md)]
+### Set up an application user and shared mailbox
+To configure fully autonomous case resolution, you must configure an application user and a shared mailbox. Through the application user, the agent manages autonomous cases and handles customer correspondence. For automated outbound emails, a shared mailbox is used to ensure messages come from a centralized address.
 
-## Configure case resolution settings
+ Perform the following steps:
 
- You can specify the user the AI agent should use to send emails, the default Copilot template, and if the AI agent must use Copilot recommended template to draft emails. Perform these steps for the fully-autonomous case resolution process:
-
-1. Select **Manage** for **Case Management Agent** in **Case settings**. The **Case Management Agent** page appears.
-1. Select **Manage** for **Global settings**. The **Global settings** page appears.
-1. Set the **Application user** to the application user created in the prerequisites section. This is the user that the AI agent uses to send emails on behalf of your organization.
-1. Optionally, select **Use copilot recommended template for drafting emails**.
-1. Optionally, you can set the **Default email template** dropdown to a template the AI agent uses when Copilot email template recommendations are unavailable. If you configured Copilot recommended email templates and [line-of-business segregated email templates](configure-lob-email-templates.md), the system uses the default email template when no line-of-business email template is available for the case. 
-If you don't select a default template and Copilot recommended email templates is configured, after the agent identifies the intent, it sends emails using the [Copilot inline email assist capabilities](/dynamics365/contact-center/use/use-copilot-email#use-copilot-to-draft-an-email).
+1. Create an application user.
+    1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+    1. Follow the steps in [create an application user](/power-platform/admin/manage-application-users?tabs=new#create-an-application-user) to create a new application user.
+    1. Assign the **Customer Service Representative** role to the application user.
+1. Create and assign a shared mailbox
+    1. In [Microsoft 365 admin center](https://admin.cloud.microsoft/) complere the steps 1 through 4 in [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox#create-a-shared-mailbox-and-add-members). 
+    1. Copy the email  of the shared mailbox.
+1. Associate the shared mailbox with the application user
+    1. In Power Platform admin center, open the application user that you created. 
+    1. Set the shared mailbox ID to the email ID you copied. Learn more in [View or edit the details of an application user](/power-platform/admin/manage-application-users?tabs=new#view-or-edit-the-details-of-an-application-user).
 
 ## Configure level of automation
 
 In Copilot Service admin center, follow these steps to configure the automation level for each line of business:
 
 1. Select **Manage** for **Case Management Agent** in **Case settings**. The **Case Management Agent** page appears.
-1. Select **Manage** for **Case Resolution**. The **Case resolution** page appears.
+1. Select **Manage** for **Case resolution**. The **Case resolution** page appears.
 1. In **Level of automation per line of business**, the lines of business you configured for Customer Intent Agent appear. Select the required line of business and then select **Edit**. You can specify the following automation levels for each line of business:
    - **Full**: The AI agent automatically resolves cases.
    - **Require agent confirmation**: The AI agent drafts email responses, but requires a representative to review and send the email.
+   - [**Shadow mode**](#enable-shadow-mode-and-view-results-preview)
    - **Disabled**: The agent doesn't draft email responses. 
+
+## Configure case resolution settings
+
+You can specify the user the AI agent should use to send emails, the default Copilot template, and if the AI agent must use the Copilot recommended template to draft emails. Perform these steps for the fully-autonomous case resolution process:
+
+1. Select **Manage** for **Case Management Agent** in **Case settings**. The **Case Management Agent** page appears.
+1. Select **Manage** for **Case resolution**. The **Case resolution** page appears.
+1. Set the **Application user** to the required application user.
+1. Optionally, select **Use copilot recommended template for drafting emails**.
+1. Optionally, select a default email template that the AI agent uses when Copilot recommendations are unavailable. If you configured Copilot recommended email templates and [line-of-business segregated email templates](configure-lob-email-templates.md), the system uses the default email template when no line-of-business email template is available for the case.
+If you don't select a default template and Copilot recommended email templates is configured, after the agent identifies the intent, it sends emails using the [Copilot inline email assist capabilities](/dynamics365/contact-center/use/use-copilot-email#use-copilot-to-draft-an-email).
+
 
 ## Configure language for case resolution
 
 Define the language that Case Management Agent can use for drafting customer communications like emails during the case resolution process. If the agent can't determine a valid and supported langauge because the case field is empty or contains a locale that isn't supported, the agent hands off the case to a service representative and doesn't draft or send an email. This ensures that customer communications proceed only when the language requirement is met.
 
-1.In Copilot Service admin center, go to **Case resolution**. The **Case resolution** page appears.
-
+1. In Copilot Service admin center, go to **Case resolution**. The **Case resolution** page appears.
 1. In **Language settings**, select one of the following options:
 
    - **Use case record**: Uses the language locale stored in the case record. Use this option if your organization supports multiple languages and stores the customer’s preferred language on each case.
@@ -97,7 +112,8 @@ You can integrate Case Management Agent with custom Microsoft Copilot Studio age
 Use sample records to test and compare case resolution by Case Management Agent before enabling the agent in production.
 
 > [!NOTE]
-> Simulations consume Copilot or AI credits in the same way as agent runs.
+> - You can run simulation only if the level of automation for the line of business is set to Disabled.
+> - Simulations consume Copilot or AI credits in the same way as agent runs.
 
 ### Set up a simulation
 

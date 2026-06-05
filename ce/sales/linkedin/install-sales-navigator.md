@@ -1,11 +1,13 @@
 ---
 title: Install LinkedIn Sales Navigator for Dynamics 365
 description: Learn how to install and enable the LinkedIn Sales Navigator for your organization. You can install through Advanced Settings, Marketplace, or App Settings.
-ms.date: 02/27/2026
+ms.date: 05/21/2026
 ms.topic: how-to
 author: udaykirang
-ms.author: udag
+ms.author: ramakris
+ms.reviewer: ramakris
 ms.owner: shujoshi
+ai-usage: ai-assisted
 search.audienceType: 
   - admin
   - customizer
@@ -30,6 +32,9 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
 
     > [!NOTE]
     > We recommend having a Microsoft Relationship Sales solution Plus license that includes Dynamics 365 Sales Enterprise and [LinkedIn Sales Navigator Advanced Plus](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/crm) license. To learn more, see the **Dynamics 365 Sales** section from the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+
+    > [!TIP]
+    > If you see a "LinkedIn Sales Navigator subscription not found" message after installation, verify that a proper LinkedIn Sales Navigator license is assigned to you. A Microsoft Relationship Sales subscription alone doesn't automatically provision LinkedIn licenses—both the Dynamics 365 and LinkedIn license components must be active. 
 
 - You need to enable JavaScript in your browser.  
 - You have to disable your pop-up blocker for the [!INCLUDE[pn-dynamics-365](../../includes/pn-dynamics-365.md)] domain.  
@@ -142,6 +147,34 @@ In the [April 19 release](/power-platform/admin/preview-october-2019-updates#whe
    > ![Visibility settings in tab properties.](media/visibility-settings.jpg)
 
 - While using **Advanced Find**, users see the new entities introduced by these solutions (InMails, Messages, and Smart Links) even if the integration isn't enabled. This behavior is intended; users can ignore these entities if they aren't actively using LinkedIn Sales Navigator.
+
+## Troubleshoot common issues
+
+If you encounter issues during or after installation, use the following guidance to resolve them.
+
+### Integration shows as inactive
+
+If the LinkedIn Sales Navigator integration status shows **Inactive** after you complete all installation and enablement steps:
+
+1. Go to **Advanced settings** > **Customizations** > **Solutions** and verify that **LinkedInSalesNavigatorControlsForUnifiedClient**, **LinkedIn**, and **msdyn_LinkedInSalesNavigatorAnchor** solutions show status as **Installed**.
+1. Go to the LinkedIn Sales Navigator Admin Settings page and verify that **CRM Sync** is enabled.
+1. Verify that the LinkedIn Sales Navigator license is active and assigned to users who need the integration.
+
+### LinkedIn Sales Navigator tab is missing
+
+If you don't see the **LinkedIn Sales Navigator** tab on Account, Contact, Lead, or Opportunity records:
+
+1. Verify that the **Sales navigator integration** toggle is turned on in the [LinkedIn integration settings](#enable-linkedin-sales-navigator).
+1. Go to **Advanced settings** > **Customizations** > **Solutions** and verify that the version for the **msdyn_LinkedInSalesNavigatorAnchor** solution is **3.0.1.1060** or later. 
+1. If any relevant controls were removed, add them back using the form editor. For more information, see [Customize forms to show Sales Navigator controls](add-sales-navigator-controls-forms.md).
+
+### Installation is stuck or fails
+
+If the installation remains stuck on **Install Requested** or fails:
+
+1. In the Power Platform admin center, select **Environments** > ***your environment*** > **Dynamics 365 apps** and verify the installation status for any errors.
+1. Verify that you have a System Administrator security role and that the environment is a Dynamics 365 Customer Engagement environment (not a standalone Dataverse environment).
+1. If the installation fails due to existing solution dependencies, try uninstalling and reinstalling the LinkedIn solutions. For more information, see [Remove LinkedIn Sales Navigator from Dynamics 365](uninstall-sales-navigator.md).
 
 ## Related information
 

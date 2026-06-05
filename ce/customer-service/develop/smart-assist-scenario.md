@@ -1,7 +1,7 @@
----
+﻿---
 title: Implement a custom scenario for smart assist agent
 description: Use this topic to learn how to enable similar case suggestions and use custom actions to build your custom smart assist agents.
-ms.date: 04/29/2025
+ms.date: 05/27/2026
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -17,7 +17,7 @@ This topic provides information on how you can enable similar case suggestions i
 ## Prerequisites
 
 > [!IMPORTANT]
-> Read the topic [Build a smart assist agent](smart-assist-bot.md) for information on how to get started with building a custom smart assist agent. 
+> Read [Build a smart assist agent](smart-assist-bot.md) for information on how to get started with building a custom smart assist agent.
 
 - You need to have an understanding on how to create an agent using [Azure Bot Service](/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&preserve-view=true). When you register your agent with Azure Bot Service, you obtain `Microsoft App ID` and `Client secret` which you need to update the `appsettings.json` file in the agent.
 - Create a Language Understanding (LUIS) app by following the instructions mentioned in [Add natural language understanding to your agent](/azure/bot-service/bot-builder-howto-v4-luis?tabs=csharp&view=azure-bot-service-4.0&preserve-view=true). See the section [Retrieve application information from the LUIS.ai portal](/azure/bot-service/bot-builder-howto-v4-luis?tabs=csharp&view=azure-bot-service-4.0&preserve-view=true#retrieve-application-information-from-the-luisai-portal) for information on how to retrieve the values you need to setup the agent.
@@ -147,3 +147,4 @@ You can use the client-side APIs to open knowledge base articles. See [Client AP
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

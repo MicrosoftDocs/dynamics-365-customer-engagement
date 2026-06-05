@@ -1,7 +1,7 @@
 ---
 title: Customize the business card scan control
 description: Customize how the data from the scanned business cards maps to the fields in the Contact and Lead forms.
-ms.date: 01/31/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,7 +18,7 @@ Dynamics 365 Sales comes with an out-of-the-box business card control that defin
 
 > [!IMPORTANT]
 > - To learn about the availability of the business card feature in a region, see [Feature availability by region](/ai-builder/availability-region#availability-and-release-status-of-features-by-region).
-> - To know about the business card scan limits with your user license, refer to the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+> - To know about the business card scan limits with your user license, refer to the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 To customize the mappings:
 

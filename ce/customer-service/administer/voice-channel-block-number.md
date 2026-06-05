@@ -1,7 +1,7 @@
 ---
 title: Block spam numbers in the voice channel
 description: Learn how to review, mark numbers as spam, and block the numbers in Dynamics 365 Contact Center.
-ms.date: 05/05/2025
+ms.date: 05/28/2026
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham

@@ -14,7 +14,7 @@ The actions area at the top of the schedule board provides tools for scheduling 
 
 - **Filters** - Apply filters to define which resources show on the board. Learn more in [Filter resources and requirements](../../field-service/schedule-board-filtering.md).
 - **Time scale** - Switch between hourly, daily, weekly, and monthly views. The weekly view always considers Sunday as the start of the week regardless of day visibility settings.
-- **View type** - Choose **Gantt** (bar chart showing activities over time) or **List** (expandable resource list with time granularity).
+- **View type** - Choose **Gantt** (bar chart showing activities over time), **List** (expandable resource list with time granularity), or **Map** (large format map of resources, requirements, and routes for a single day).
 
   > [!NOTE]
   > In Gantt view, when you reschedule a task, the board may scroll to the first resource in the list instead of keeping the selected resource centered. Use the resource search or filter to navigate back.
@@ -22,7 +22,7 @@ The actions area at the top of the schedule board provides tools for scheduling 
 - **Book** - Manually create a booking. Learn more in [Manual scheduling](../../field-service/schedule-board-manual-scheduling.md).
 - **Move bookings** - Select **&hellip;** > **Move bookings** to move bookings to a different day. Learn more in [Drag and drop scheduling](../../field-service/schedule-board-drag-drop.md).
 - **Print** - Select **&hellip;** > **Print schedule board** to configure and print the schedule.
-- **Details panel** - Select the **Details panel** icon to see more details about the selected booking, resource, or requirement.
+- **Details panel** - Select the **Details panel** icon to see more details about the selected booking, resource, or requirement. In aggregate views (daily, weekly, monthly), you can also adjust hours or delete portions of a multi-day booking.
 
   > [!NOTE]
   > Custom booking tooltip views apply to the hourly view only. In daily, weekly, and monthly views, the schedule board displays a simplified tooltip that doesn't reflect custom view columns.
@@ -60,7 +60,7 @@ Enter the [relevant details about your new schedule board](../../field-service/s
 
 ## Copy the link to a schedule board
 
-The simplest way to share a schedule board URL is to configure the board as you prefer, select **More options (&hellip;)** and choose **Copy link**. The generated link includes the parameters currently configured on your board.
+The simplest way to share a schedule board URL is to configure the board as you prefer, select **More options (&hellip;)**, and choose **Copy link**. The generated link includes the parameters currently configured on your board.
 
 :::image type="content" source="../../field-service/media/schedule-board-copy-link.png" alt-text="Screenshot of the Copy link option on the schedule board.":::
 

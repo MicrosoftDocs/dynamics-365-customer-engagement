@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio and the .NET Framework (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn about managed code development tools and requirements."
-ms.date: 09/05/2025
+ms.date: 06/03/2026
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
@@ -40,7 +40,7 @@ The SDK APIs available in [Microsoft.CrmSdk.CoreAssembly](https://www.nuget.org/
 Event handlers called *plug-ins* and custom workflow activities, used to extend the run-time capabilities of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], must only be built to target .NET Framework 4.6.2.
 
 > [!NOTE]
-> Official Microsoft [support](/lifecycle/products/microsoft-net-framework) for .NET Framework 4.6.2 ends on January 12, 2027. We intend to introduce Dataverse plug-in support for the .NET Framework 4.8 runtime by June 2026.
+> Official Microsoft [support](/lifecycle/products/microsoft-net-framework) for .NET Framework 4.6.2 ends on January 12, 2027. Microsoft plans to introduce Dataverse plug-in support for the .NET Framework 4.8 runtime sometime during the fourth quarter of 2026.
 
 More information: [Write plug-ins to extend business processes](write-plugin-extend-business-processes.md)
 

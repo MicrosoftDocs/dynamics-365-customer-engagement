@@ -1,7 +1,7 @@
 ---
 title: Sales Team Member app for users with Team Member license
 description: Learn about the Team Member license entitlements and the new Sales Team Member app.
-ms.date: 10/15/2024
+ms.date: 05/29/2026
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -45,7 +45,7 @@ At a high level, users with the Team Member license can perform the following ta
 - Lead and opportunity management: see leads or opportunities linked with accounts or contacts, or see other sales-related data.
 - Add notes and activities, such as tasks.
 
-Administrators can configure the app for additional scenarios, but not beyond those listed in the Microsoft Dynamics 365 Licensing Guide. For more information about the user rights for the Team Member license, see the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+Administrators can configure the app for additional scenarios, but not beyond those listed in the Microsoft Dynamics 365 Licensing Guide. For more information about the user rights for the Team Member license, see the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 ## Related information
 

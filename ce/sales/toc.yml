@@ -173,6 +173,8 @@ items:
                 href: manage-sales-qualification-agent.md
               - name: Configure requirements for Sales Qualification Agent
                 href: configure-requirements-for-sqa-agent.md
+              - name: Use Sales Qualification Agent in custom apps
+                href: sqa-custom-model-driven-app.md  
               - name: Understand Sales Qualification Agent concepts
                 href: sales-qualification-agent-concepts.md
               - name: Sales Qualification Agent FAQ
@@ -201,6 +203,8 @@ items:
                     href: configure-sales-close-agent-research-company-info.md  
                   - name: Set selection criteria for opportunities
                     href: configure-sales-close-agent-research-selection-criteria.md  
+                  - name: Configure recommended actions for Sales Opportunity Agent  
+                    href: configure-sales-opportunity-agent-connected-skills.md
                   - name: Configure refresh frequency
                     href: configure-sales-close-agent-research-refresh-frequency.md
                   - name: Configure importance and risk assessment
@@ -272,6 +276,12 @@ items:
                 href: sales-research-agent.md
               - name: Set up and configure Sales Research Agent
                 href: configure-sales-research-agent.md
+          - name: Recommended Actions Agent
+            items:
+              - name: Overview
+                href: recommended-actions-overview.md
+              - name: Configure Recommended Actions Agent
+                href: configure-recommended-actions.md
           - name: Sales agent in Microsoft 365 Copilot
             items:
               - name: Overview
@@ -965,6 +975,12 @@ items:
               href: use-sales-research-agent.md
             - name: FAQs about Sales Research Agent
               href: faqs-sales-research-agent.md
+          - name: Recommended Actions Agent
+            items:
+              - name: Overview
+                href: recommended-actions-overview.md
+              - name: Manage opportunity risks and data enrichment
+                href: next-best-actions-to-manage-opportunities.md
       - name: Use Sales agent in Microsoft 365 Copilot
         items:
           - name: Use the Sales agent in Microsoft 365 Copilot
@@ -1416,6 +1432,10 @@ items:
         href: developer/developer-guide.md
       - name: Understand terminology
         href: /power-apps/developer/data-platform/understand-terminology?context=/dynamics365/context/sales-context
+      - name: AI agents
+        items:
+          - name: Add Custom Agent to the Recommended Actions Agent
+            href: developer/recommended-actions-api.md
       - name: Sales tables
         items:
           - name: Sales tables (lead, opportunity, competitor, quote, order, invoice)

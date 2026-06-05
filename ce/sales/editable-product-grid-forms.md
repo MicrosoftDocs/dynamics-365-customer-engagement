@@ -1,7 +1,7 @@
 ---
 title: "Add editable Products grid to forms (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Editable Products grid helps sales users to make changes to the product details inline in Dynamics 365 Sales."
-ms.date: 11/21/2024
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

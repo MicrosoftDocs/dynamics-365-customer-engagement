@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 05/15/2026
+ms.date: 05/26/2026
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
@@ -18,18 +18,32 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.145.43](/dynamics365/field-service/version-history#8814543) | TBD | 05/22 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.145.43](/dynamics365/field-service/version-history#8814543) |  TBD | 05/29 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom* | [8.8.145.43](/dynamics365/field-service/version-history#8814543) | TBD | 06/05 |
-| | *USG* | [8.8.145.43](/dynamics365/field-service/version-history#8814543) | TBD | 05/27 |
-|**Station 4** |*Europe* | [8.8.145.43](/dynamics365/field-service/version-history#8814543) |  TBD |  06/12 |
-|**Station 5** | *North America, Oceania*| [8.8.145.43](/dynamics365/field-service/version-history#8814543) | TBD |  06/19 |
-|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.145.43](/dynamics365/field-service/version-history#8814543) | TBD | 06/17 |
-| | *Dedicated Scale Groups* | [8.8.144.50](/dynamics365/field-service/version-history#8814450) | [8.8.145.43](/dynamics365/field-service/version-history#8814543) | 05/22 |
+|**Station 1** |  *First Release*| [8.8.146.43](/dynamics365/field-service/version-history#8814643) | TBD | 06/19 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.145.43](/dynamics365/field-service/version-history#8814543) | [8.8.146.43](/dynamics365/field-service/version-history#8814643) | 05/29 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom* | [8.8.145.43](/dynamics365/field-service/version-history#8814543) | [8.8.146.43](/dynamics365/field-service/version-history#8814643) | 06/05 |
+| | *USG* | [8.8.145.43](/dynamics365/field-service/version-history#8814543) | [8.8.146.43](/dynamics365/field-service/version-history#8814643) | 05/27 |
+|**Station 4** |*Europe* | [8.8.145.43](/dynamics365/field-service/version-history#8814543) | [8.8.146.43](/dynamics365/field-service/version-history#8814643) |  06/12 |
+|**Station 5** | *North America, Oceania*| [8.8.145.43](/dynamics365/field-service/version-history#8814543) | [8.8.146.43](/dynamics365/field-service/version-history#8814643) |  06/19 |
+|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.145.43](/dynamics365/field-service/version-history#8814543) | [8.8.146.43](/dynamics365/field-service/version-history#8814643) | 06/17 |
+| | *Dedicated Scale Groups* | [8.8.145.43](/dynamics365/field-service/version-history#8814543) | [8.8.146.43](/dynamics365/field-service/version-history#8814643) | 06/26 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.146.43
+(Includes Universal Resource Scheduling version [3.12.3426.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#31234263) and Resource Scheduling controls version 1.2.101.261301)
+
+- **New Features**
+    - Suppress Field Service Inventory in Finance Integration: Improved integration behavior for environments using dual-write with Dynamics 365 Finance and Operations by reducing inventory-related confusion in Field Service.
+
+- **Fixes & Improvements**
+    - Work Order List View Pagination: Fixed an issue where the new Work Order list view didn't navigate correctly between pages.
+    - Resource Requirement Ownership: Fixed an issue where some Resource Requirements were created with owner set to System.
+    - Price/Cost NTE Fields: Fixed an issue where users couldn't view or edit Price/Cost NTE fields due to missing field controls.
+    - Booking Create/Update Permissions: Fixed a booking create/update error path that could occur for users without specific Work Order permissions.
+    - Promise Window Sync: Fixed backend logic for Time To Promised updates to ensure Resource Requirement and Work Order values stay synchronized.
+    - Field Service Mobile Booking Status Menu: Fixed an issue on Android and iOS where the Edit Booking Status menu could overlap booking details after initial sign-in.
 
 ## 8.8.145.43
 This release is a hotfix on Field Service version [8.8.145.42](/dynamics365/field-service/version-history#8814542)

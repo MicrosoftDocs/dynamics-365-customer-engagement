@@ -1,7 +1,7 @@
 ---
 title: "Set up email by integrating with Exchange | MicrosoftDocs"
 description: "Configure email by integrating with Exchange that enables users to store email and other messaging records in Dynamics 365 Sales."
-ms.date: 02/27/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

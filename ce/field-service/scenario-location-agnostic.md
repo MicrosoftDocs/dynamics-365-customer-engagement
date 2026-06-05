@@ -1,7 +1,7 @@
 ---
 title: Schedule remote or location-agnostic work
 description: Learn how to schedule work that doesn't require physical presence in Dynamics 365 Field Service.
-ms.date: 03/30/2026
+ms.date: 05/26/2026
 ms.custom: bap-template
 ms.topic: how-to
 author: mkelleher-msft
@@ -33,7 +33,7 @@ Learn more in [Requirement types for scheduling](scheduling-requirement-types.md
 
 ## Mix location-agnostic and on-site work
 
-A single resource can handle both on-site and remote work. The scheduling engine uses the **requirement's** work location to determine whether to calculate travel time - not the resource's location setting.
+A single resource can handle both on-site and remote work. The scheduling engine uses the requirement's work location to determine whether to calculate travel time, not the resource's location setting.
 
 This condition means:
 

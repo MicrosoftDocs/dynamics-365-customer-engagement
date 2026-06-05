@@ -1,7 +1,7 @@
----
+﻿---
 title: Build a smart assist agent
 description: Read how you can build a smart assist agent to help representatives resolve customer queries faster and more effectively.
-ms.date: 04/25/2025
+ms.date: 05/27/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -45,3 +45,4 @@ After setting up a sample agent using above steps, you can configure your agent 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

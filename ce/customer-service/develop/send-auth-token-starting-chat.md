@@ -1,14 +1,13 @@
----
-title: "Send authentication token | MicrosoftDocs"
-description: "Understand how to pass authentication token to Omnichannel for Customer Service. Also included is a code snippet to send an authentication token to start a chat."
-ms.date: 12/03/2020
+﻿---
+title: Send authentication token
+description: Understand how to pass authentication token to Dynamics 365 Contact Center. Also included is a code snippet to send an authentication token to start a chat.
+ms.date: 05/27/2026
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ---
 # Send authentication token
-
 
 To authenticate a customer when they start a chat, pass an authentication token to Omnichannel for Customer Service. This token is used to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. Custom authentication is optional and is relevant only when the chat widget is hosted outside Power Apps portals.
 
@@ -24,9 +23,9 @@ Follow these steps to send an authentication token when you start a chat:
 
 1. Generate a valid JWT from the JSON payload. More information: [setAuthTokenProvider](reference/methods/setAuthTokenProvider.md)
 
-2. The live chat methods should be invoked after the [lcw:ready event](reference/events/lcw-ready.md) is raised. You can listen for this event by adding your own event listener on the window object.
+1. The live chat methods should be invoked after the [lcw:ready event](reference/events/lcw-ready.md) is raised. You can listen for this event by adding your own event listener on the window object.
 
-3. After the `lcw:ready` event is raised, register an authentication token provider with live chat by using the [setAuthTokenProvider](reference/methods/setAuthTokenProvider.md) method.
+1. After the `lcw:ready` event is raised, register an authentication token provider with live chat by using the [setAuthTokenProvider](reference/methods/setAuthTokenProvider.md) method.
     > [!NOTE]
     > 
     > To avoid timeout, the [authTokenProvider](reference/methods/setAuthTokenProvider.md#parameters) function in the [setAuthTokenProvider](reference/methods/setAuthTokenProvider.md) method must respond within 10 seconds.
@@ -82,3 +81,4 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 [Send custom context](send-context-starting-chat.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -1,7 +1,7 @@
 ---
 title: Work with opportunities in the Kanban view
 description: Use the opportunity Kanban view to effectively monitor the pipeline and see the opportunities in their different statuses or stages of business process flow.
-ms.date: 12/9/2024
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

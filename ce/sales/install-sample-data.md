@@ -1,7 +1,7 @@
 ---
 title: Add or remove sample data in the Sales Professional app | MicrosoftDocs"
 description: Explore the Sales Professional app with sample data."
-ms.date: 02/27/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
