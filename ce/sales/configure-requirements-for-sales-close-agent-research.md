@@ -35,7 +35,7 @@ Before you configure the Sales Opportunity Agent, ensure that your Dynamics 365 
      After setting up Dataverse Search, return to the agent configuration page and select **Refresh** to update the status of this prerequisite. Learn more about [configuring Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization).
    - **Microsoft 365 Services**: (Optional but recommended) To allow the agent to read seller emails, select **Mark as done** and then **Apply changes**. Sellers are prompted to provide consent the first time they access the **Opportunity research** page. This method reads emails in place without storing them in CRM. If your organization already uses server-side synchronization, that continues to work as an alternative method. To learn more server-side synchronization, see [Configure server-side synchronization](#configure-server-side-synchronization).
    
-     To configure and use Microsoft 365 Services, yosu need:
+     To configure and use Microsoft 365 Services, you need:
      - At least one of the following roles: Global administrator, Dynamics 365 administrator, or similar.
      - At least one of the following licenses: Microsoft 365/Office 365, Power Automate Premium, or Dynamics 365 Sales Enterprise Edition.
 
