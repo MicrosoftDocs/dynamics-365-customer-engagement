@@ -48,9 +48,9 @@ The following Facebook roles and permissions are required for integrating your F
  
 ## Privacy notice
 
-By enabling this feature, you allow customer and organizational data to be exchanged with Facebook. This data might be stored and processed outside of your organization's compliance and geographic boundaries, including in Government Community Cloud environments. Learn more in [Compliance certifications for Customer Service](/implement/compliance-certifications) .
+By enabling this feature, you allow customer and organizational data to be exchanged with Facebook. This data might be stored and processed outside of your organization's compliance and geographic boundaries, including in Government Community Cloud environments. Learn more in [Compliance certifications for Customer Service](dynamics365/customer-service/implement/compliance-certifications) .
 
-Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with service representatives might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
+Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with service representatives might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users might be monitored, recorded, or stored.
 
 ## Configure a Facebook channel
 
