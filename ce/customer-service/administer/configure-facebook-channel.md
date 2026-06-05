@@ -48,7 +48,7 @@ The following Facebook roles and permissions are required for integrating your F
  
 ## Privacy notice
 
-By enabling this feature, you allow customer and organizational data to be exchanged with Facebook. This data might be stored and processed outside of your organization's compliance and geographic boundaries, including in Government Community Cloud environments. Learn more in [Compliance certifications for Customer Service](dynamics365/customer-service/implement/compliance-certifications) .
+By enabling this feature, you allow customer and organizational data to be exchanged with Facebook. This data might be stored and processed outside of your organization's compliance and geographic boundaries, including in Government Community Cloud environments. Learn more in [Compliance certifications for Customer Service](../implement/compliance-certifications.md) .
 
 Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with service representatives might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users might be monitored, recorded, or stored.
 
@@ -110,7 +110,7 @@ To configure a Facebook channel, the following steps are required:
 
       If you enable the Facebook human agent message tag during an active conversation between the representative and customer, the representative must close the conversation and reopen it to communicate with the latter customer 24 hours of inactivity. Representatives can start conversations with customers for up to seven days.
 
-      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. Learn more in [Facebook Human Agent](https://developers.facebook.com/docs/features-reference/human-agent/).  
+      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. Learn more in [Human agent handover protocol](https://developers.facebook.com/docs/messenger-platform/handoff/human-agent).  
    1. Review the **Summary** page, and select **Create**. The channel instance is configured.
 
 1. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).
@@ -150,12 +150,12 @@ The customer can send attachments only if you enable them. When the option isn't
 
 ### Related information
 
-[Facebook channel setup FAQ](facebook-channel-setup-faq.md)<br>
-[Understand and create workstreams](create-workstreams.md)<br>  
-[Configure automated messages](configure-automated-message.md)<br> 
-[Configure a prechat survey](configure-pre-chat-survey.md)<br> 
-[Configure a post conversation survey](configure-post-conversation-survey.md)<br>
-[Delete a configured channel](delete-channel.md)<br>
-[Support for live chat and asynchronous channels](card-support-in-channels.md)
+[Facebook channel setup FAQ](facebook-channel-setup-faq.md)  
+[Understand and create workstreams](create-workstreams.md)   
+[Configure automated messages](configure-automated-message.md)  
+[Configure a prechat survey](configure-pre-chat-survey.md)  
+[Configure a post conversation survey](configure-post-conversation-survey.md)  
+[Delete a configured channel](delete-channel.md)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
