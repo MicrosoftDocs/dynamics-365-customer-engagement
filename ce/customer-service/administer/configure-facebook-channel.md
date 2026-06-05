@@ -110,7 +110,7 @@ To configure a Facebook channel, the following steps are required:
 
       If you enable the Facebook human agent message tag during an active conversation between the representative and customer, the representative must close the conversation and reopen it to communicate with the latter customer 24 hours of inactivity. Representatives can start conversations with customers for up to seven days.
 
-      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. Learn more in [App Development with Meta: Human Agent](https://developers.facebook.com/docs/features-reference/human-agent/).  
+      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. Learn more in [Facebook Developer Tools](https://developers.facebook.com/docs/features-reference/).  
    1. Review the **Summary** page, and then select **Create**. The channel instance is configured.
 
 1. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).
