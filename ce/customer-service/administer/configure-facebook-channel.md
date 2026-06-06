@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
 description: Learn how to configure a Facebook channel and corresponding Facebook pages in Dynamics 365 Contact Center.
-ms.date: 06/04/2026
+ms.date: 06/05/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -48,9 +48,9 @@ The following Facebook roles and permissions are required for integrating your F
  
 ## Privacy notice
 
-If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Community Cloud region). Learn more in [Connect an AI agent to Facebook](/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
+By enabling this feature, you allow customer and organizational data to be exchanged with Facebook. This data might be stored and processed outside of your organization's compliance and geographic boundaries, including in Government Community Cloud environments. Learn more in [Compliance certifications for Customer Service](../implement/compliance-certifications.md) .
 
-Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with service representatives might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
+Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with service representatives might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users might be monitored, recorded, or stored.
 
 ## Configure a Facebook channel
 
@@ -110,8 +110,8 @@ To configure a Facebook channel, the following steps are required:
 
       If you enable the Facebook human agent message tag during an active conversation between the representative and customer, the representative must close the conversation and reopen it to communicate with the latter customer 24 hours of inactivity. Representatives can start conversations with customers for up to seven days.
 
-      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. Learn more in [Facebook Human Agent](https://developers.facebook.com/docs/features-reference/human-agent/).  
-   1. Review the **Summary** page, and select **Create**. The channel instance is configured.
+      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. Learn more in the [Meta Messenger Platform Send Messages Guide](https://developers.facebook.com/documentation/business-messaging/messenger-platform/send-messages).  
+   1. Review the **Summary** page, and then select **Create**. The channel instance is configured.
 
 1. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).
 
@@ -150,12 +150,12 @@ The customer can send attachments only if you enable them. When the option isn't
 
 ### Related information
 
-[Facebook channel setup FAQ](facebook-channel-setup-faq.md)<br>
-[Understand and create workstreams](create-workstreams.md)<br>  
-[Configure automated messages](configure-automated-message.md)<br> 
-[Configure a prechat survey](configure-pre-chat-survey.md)<br> 
-[Configure a post conversation survey](configure-post-conversation-survey.md)<br>
-[Delete a configured channel](delete-channel.md)<br>
-[Support for live chat and asynchronous channels](card-support-in-channels.md)
+[Facebook channel setup FAQ](facebook-channel-setup-faq.md)  
+[Understand and create workstreams](create-workstreams.md)   
+[Configure automated messages](configure-automated-message.md)  
+[Configure a prechat survey](configure-pre-chat-survey.md)  
+[Configure a post conversation survey](configure-post-conversation-survey.md)  
+[Delete a configured channel](delete-channel.md)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
