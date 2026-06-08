@@ -64,31 +64,28 @@ To configure a Facebook channel, the following steps are required:
 
 1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**.
 1. In **Accounts**, for **Messaging accounts**, select **Manage**.
-
 1. On the **Accounts and channels** page, select **New account**.
-
 1. Enter the following details:
+   1. On the **Channel details** page, enter a name and select **Facebook** in **Channels**.
+   1. On the **Add account** page, in the **Application ID** and **Application secret** fields, enter the Facebook App ID and App secret.
 
-   1. On the **Channel details** page, enter a name and select Facebook in **Channels**.
+      To get these values, follow these steps:
 
-   1. On the **Add account** page, in the **Application ID** and **Application secret** fields, specify the Facebook App ID and App secret that you copied from the Facebook application.
+      1. Go to the Facebook for Developers site.
+      1. Select **My Apps**, and then select your app.
+      1. In the left navigation pane, select **Settings** > **Basic**.
+      1. Copy the values of **App ID** and **App secret**.
 
-   1. On **Add Facebook Pages to this account**, do the following steps:
-
-   1. Select **Add**, and in the **Add Facebook Page** pane, enter the following details:
-      - **Page name:** Name of the Facebook page.
-      - **Page ID:** ID of the Facebook page. To get the page ID, go to your Facebook page, select **Account** or your profile photo in the top-right corner, select **See all profiles**, and then select **See all pages** in the left-side menu. Select **Transparency and privacy**, and then copy the value in the **Page ID** field.
-      - **Page access token:** Specify the Page access token of the Facebook application. To get the page access token, go to your Facebook application and then go to **Messenger** > **Settings**. In the **Access Tokens** section, select the page, and copy the value in the **Page Access Token** field.
-      - On the **Callback information** page, the **Callback URL** and **Verify token** fields are populated automatically when you save the settings. Use the information to configure webhooks in the Facebook application. The values for the fields aren't generated if the Facebook page is reused across multiple instances of the channel.
+   1. On the **Add Facebook Pages to this account** page, select **Add**, and then in the **Add Facebook Page** pane, enter the following details:
+         - **Page name:** Name of the Facebook page.
+         - **Page ID:** ID of the Facebook page. To get this ID, go to your Facebook page, select **Account** or your profile photo in the upper-right corner, select **See all profiles**, and then select **See all pages** in the left navigation pane. Select **Transparency and privacy**, and then copy the value in the **Page ID** field.
+         - **Page access token:** Specify the page access token of the Facebook application. To get the page access token, go to your Facebook application, and then go to **Messenger** > **Settings**. In the **Access Tokens** section, select the page, and copy the value in the **Page Access Token** field.
+         - On the **Callback information** page, the **Callback URL** and **Verify token** fields are populated automatically when you save the settings. Use this information to configure webhooks in the Facebook application. These values aren't generated if the Facebook page is reused across multiple instances of the channel.
 
 1. Navigate back to the **Facebook Application Messenger settings** page, and then add the callback URL.
-
-1. Select **Add subscriptions for the page**, and then on the **Edit page subscriptions** page, select **messages**.
-
+1. Select **Add subscriptions for the page**, and then on the **Edit page subscriptions** page, select **Messages**.
 1. Save your changes.
-
-1. Open Copilot Service admin center, and then go to **Channels** > **Messaging Accounts** > **Your FB Account**.
-
+1. Open Copilot Service admin center, and then go to **Channels** > **Messaging accounts** > **Your Facebook account**.
 1. On the **Account settings** page, select the **Facebook Pages** tab, and then verify that the **Provisioning state** shows as **Running**.
 
 ### Create a Facebook workstream
