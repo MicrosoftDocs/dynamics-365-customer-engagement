@@ -84,6 +84,9 @@ Type any of the following options in the compose box to search for the messages 
   * Type **/q**, followed by <**tagname**> <**keyword**>, to list quick replies that match the tag and keyword.
   * Type **/q**, followed by <**tagname**>, to list all quick replies that match the tag. Additionally, you can also add another tag after the <**tagname**> for example, type **/q**, followed by <**tagname**> <**tagname**>, to further refine the quick replies matching both the tags.
 
+> [!NOTE]
+> For accessibility reasons, the browser focus moves into the quick replies interface when you type **/q**. To continue typing, reselect the text input area.
+
   :::image type="content" source="../media/oceh-send-quick-replies-filter.png" alt-text="Screenshot of typing shortcut and keyword to filter the replies.":::
 
 ### Share reconnection link with customers
