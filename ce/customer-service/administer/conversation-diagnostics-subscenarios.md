@@ -1,6 +1,6 @@
 ---
-title: Understand unified routing diagnostics data in Customer Service and Dynamics 365 Contact Center
-description: Learn about the metadata for unified routing diagnostics in Application Insights.
+title: Understand conversation diagnostics data in Customer Service and Dynamics 365 Contact Center
+description: Learn about the metadata for conversation diagnostics in Application Insights.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -10,7 +10,7 @@ ms.date: 06/04/2026
 ms.custom: bap-template
 ---
 
-# Understand unified routing diagnostics data
+# Understand conversation diagnostics data
 
 When the system routes a work item, its corresponding data starts appearing in Azure Application Insights within 15 minutes. The conversation diagnostics data is presented in the form of scenarios and subscenarios as discussed in the following sections.
 
