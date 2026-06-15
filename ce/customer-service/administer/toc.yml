@@ -162,6 +162,8 @@
           href: /dynamics365/contact-center/administer/workforce-management-configure-forecast-scenarios?context=/dynamics365/context/customer-service-administer-context
         - name: Enable capacity planning
           href: /dynamics365/contact-center/administer/workforce-management-configure-capacity-planning?context=/dynamics365/context/customer-service-administer-context
+        - name: Enable adherence historical analytics
+          href: /dynamics365/contact-center/administer/workforce-management-enable-adherence-historical-analytics?context=/dynamics365/context/customer-service-administer-context
       - name: Shift and schedule management
         items: 
         - name: Enable shift activity types
