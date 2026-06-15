@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Close Agent through the Setup Assistant (preview)
 description: Learn how to set up the Sales Close Agent using the AI Setup Assistant in Dynamics 365 Sales.
-ms.date: 11/28/2025
+ms.date: 06/15/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -20,6 +20,8 @@ ai-usage: ai-assisted
 
 The Sales Close Agent setup assistant provides a guided experience to help you configure the agent step-by-step. This method is ideal for administrators who prefer a streamlined setup process with AI assistance.  
 
+>[!NOTE]
+>The setup assistant for Sales Close Agent will not be available from June, 2026. This change does not affect the core functionality. You can continue using the [manual setup process](configure-sales-close-agent.md#set-up-the-sales-close-agent).
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 

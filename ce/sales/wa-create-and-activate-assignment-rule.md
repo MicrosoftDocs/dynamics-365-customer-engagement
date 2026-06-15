@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 02/27/2026
+ms.date: 06/15/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -109,9 +109,10 @@ If you assign the records to a sales team, this section isn't shown because the 
 
     - The rule first considers sellers who are available to work on the records. If sellers don't set their [work availability](personalize-sales-accelerator.md#configure-your-work-availability), the rule considers them always available.
 
-    - If no seller is available&mdash;perhaps because of a day off or the time is outside working hours&mdash;the rule considers sellers who are available within the number of hours you selected in step 2.
+    - If no seller is available&mdash;perhaps because of a day off, the time is outside working hours, or on a break during working hours&mdash;the rule considers sellers who are available within the number of hours you selected in step 2.
 
-    - If no seller is available within that time, the record is [left unassigned and marked overdue](wa-manage-unassigned-records.md).
+    - If no seller is available within that time, the record is [left unassigned and marked overdue](wa-manage-unassigned-records.md).  
+    - 
 
 1. (Optional) To consider [a seller's workload](./wa-manage-seller-attributes.md), select **Assign *record type* based on seller capacity**.
 
