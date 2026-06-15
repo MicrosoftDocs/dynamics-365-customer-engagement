@@ -153,33 +153,33 @@
     - name: Workforce Management
       items:
       - name: Install the package
-        href: /dynamics365/contact-center/administer/workforce-management-package-installation?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        href: /dynamics365/contact-center/administer/workforce-management-user-management?context=/dynamics365/context/customer-service-administer-context
       - name: User management
-        href: /dynamics365/contact-center/administer/workforce-management-user-management?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        href: /dynamics365/contact-center/administer/workforce-management-user-management?context=/dynamics365/context/customer-service-administer-context
       - name: Forecasting
         items:
         - name: Enable volume forecasting
-          href: /dynamics365/contact-center/administer/workforce-management-configure-forecast-scenarios?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+          href: /dynamics365/contact-center/administer/workforce-management-configure-forecast-scenarios?context=/dynamics365/context/customer-service-administer-context
         - name: Enable capacity planning
-          href: /dynamics365/contact-center/administer/workforce-management-configure-capacity-planning?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+          href: /dynamics365/contact-center/administer/workforce-management-configure-capacity-planning?context=/dynamics365/context/customer-service-administer-context
       - name: Shift and schedule management
         items: 
         - name: Enable shift activity types
-          href: /dynamics365/contact-center/administer/workforce-management-shift-activity-types?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+          href: /dynamics365/contact-center/administer/workforce-management-shift-activity-types?context=/dynamics365/context/customer-service-administer-context
         - name: Enable schedule management
-          href: /dynamics365/contact-center/administer/workforce-management-enable-schedule-management?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+          href: /dynamics365/contact-center/administer/workforce-management-enable-schedule-management?context=/dynamics365/context/customer-service-administer-context
         - name: Enable shift-based routing
-          href: /dynamics365/contact-center/administer/workforce-management-enable-shift-based-routing?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+          href: /dynamics365/contact-center/administer/workforce-management-enable-shift-based-routing?context=/dynamics365/context/customer-service-administer-context
       - name: Time management
         items:
         - name: Enable the representative calendar
-          href: /dynamics365/contact-center/administer/workforce-management-configure-representative-calendar?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+          href: /dynamics365/contact-center/administer/workforce-management-configure-representative-calendar?context=/dynamics365/context/customer-service-administer-context
         - name: Enable time-off request types
-          href: /dynamics365/contact-center/administer/workforce-management-time-off-request-types?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+          href: /dynamics365/contact-center/administer/workforce-management-time-off-request-types?context=/dynamics365/context/customer-service-administer-context
         - name: Enable shift bidding
-          href: /dynamics365/contact-center/administer/workforce-management-enable-shift-bids?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+          href: /dynamics365/contact-center/administer/workforce-management-enable-shift-bids?context=/dynamics365/context/customer-service-administer-context
         - name: Enable shift swapping
-          href: /dynamics365/contact-center/administer/workforce-management-enable-shift-swapping?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+          href: /dynamics365/contact-center/administer/workforce-management-enable-shift-swapping?context=/dynamics365/context/customer-service-administer-context
         - name: Configure shift-based routing for work items
           href: configure-routing-on-agent-calendar.md
     - name: Community
