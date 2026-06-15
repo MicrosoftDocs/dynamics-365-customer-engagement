@@ -312,6 +312,8 @@
           href: rich-messages-conversation-control.md
       - name: Workforce Management
         items:
+        - name: Overview
+          href: workforce-management-overview.md
         - name: Forecasting
           items: 
           - name: Create and manage forecast scenarios
@@ -346,8 +348,12 @@
             href: /dynamics365/contact-center/use/workforce-management-view-time-off-requests?context=/dynamics365/context/customer-service-use-context
           - name: Create a time-off request
             href: /dynamics365/contact-center/use/workforce-management-create-time-off-request?context=/dynamics365/context/customer-service-use-context
-        - name: Adherence tracker
-          href: /dynamics365/contact-center/use/workforce-management-adherence-tracker?context=/dynamics365/context/customer-service-use-context 
+        - name: Intraday management
+          items:
+          - name: Use the adherence tracker
+            href: /dynamics365/contact-center/use/workforce-management-adherence-tracker?context=/dynamics365/context/customer-service-use-context
+          - name: Use the Adherence History report
+            href: /dynamics365/contact-center/use/workforce-management-use-adherence-history-report?context=/dynamics365/context/customer-service-use-context
       - name: Copilot in Customer Service
         items: 
         - name: Copilot feature availability across applications
