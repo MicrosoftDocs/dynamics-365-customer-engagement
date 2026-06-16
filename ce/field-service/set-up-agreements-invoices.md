@@ -1,7 +1,7 @@
 ---
 title: Set up customer agreements to generate invoices in Dynamics 365 Field Service
 description: Learn how to set up customer agreements to automatically generate invoices in Dynamics 365 Field Service.
-ms.date: 03/02/2026
+ms.date: 04/29/2026
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -90,6 +90,25 @@ You can't manually generate agreement invoices like you can with agreement work 
 
 > [!NOTE]
 > Invoices generate in advance based on the value you set for the **Generate Agreement Invoices X Days in Advance** field in [**Field Service Settings** under the **Agreement** section](configure-default-settings.md#agreement-settings). The invoice due date is set based on your recurring invoice setup but the system creates it X days in advance. If **Generate Agreement Invoices X Days in Advance** has no value, the system creates the invoice on the invoice date set in the **Record Generation Timing** field of the agreement and in the Field Service settings.
+
+## Common issues
+
+**Invoices aren't being generated**
+
+- Confirm the agreement **System Status** is **Active**. Agreements in **Estimate** or **Canceled** status don't trigger invoice generation.
+- Confirm the Agreement Invoice Setup has a recurrence configured. Open the Agreement Invoice Setup record and verify that the **Recurrence** section specifies a valid pattern (for example, quarterly or monthly) with correct start and end dates. Learn more in [Step 2: Set up invoice recurrence and products](#step-2-set-up-invoice-recurrence-and-products).
+- Check the **Generate Agreement Invoices X Days in Advance** field in [**Field Service Settings** > **Agreement** tab](configure-default-settings.md#agreement-settings). If this field is blank, the system generates invoices on the invoice date based on the **Record Generation Timing** setting.
+- Confirm the agreement owner has permissions to create invoices and invoice details. Agreement processes run with the permissions of the agreement owner. If the owner's account is disabled or lacks the required security role, invoices aren't generated. Learn more in [Change the owner of an agreement](manage-agreements.md#change-the-owner-of-an-agreement).
+- Check the background system job. Go to **Settings** (gear icon) > **Advanced Settings** > **System** > **System Jobs** and search for **Field Service - Process Agreement Invoice Dates**. If the job shows **Failed**, open it to review the error details.
+
+**Invoice dates exist but status remains Scheduled**
+
+The invoice date status remains **Scheduled** until it falls within the generation window defined by the [**Generate Agreement Invoices X Days in Advance** setting](configure-default-settings.md#agreement-settings). Check whether today's date is within the configured advance window relative to the invoice date.
+
+**Invoices are generated with missing products**
+
+- Open the Agreement Invoice Setup and select **Invoice Products**. Verify that products are added with the correct quantities and unit prices. Learn more in [Step 2: Set up invoice recurrence and products](#step-2-set-up-invoice-recurrence-and-products).
+- Confirm the products exist in the price list associated with the agreement.
 
 ### Next steps
 
