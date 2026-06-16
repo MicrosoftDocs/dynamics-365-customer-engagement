@@ -26,11 +26,9 @@ The work order update feature adheres to [responsible AI guidelines](faqs-work-o
 
 ## Prerequisites
 
-- The feature is disabled by default for environments in the United Kingdom. An administrator must [enable it](#enable-copilot-to-update-work-order). For regional availability, see the [Copilot International Availability Report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
+- For regional availability, see the [Copilot International Availability Report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 - You must have a paid Field Service environment. Copilot isn't available in trial environments.
-
-- You must [update your environment](update-field-service.md) to Dynamics 365 Field Service version 8.8.142.320 or later.
 
 - You [enabled the new mobile experience](mobile/set-up-field-service-mobile.md).
 
