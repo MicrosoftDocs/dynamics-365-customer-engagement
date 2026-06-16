@@ -86,7 +86,7 @@ You can also access your MCP tools from external sources such as Visual Studio C
 
 ## Use the AI agent
 
-After you configure the AI agent with the Dataverse MCP server and Dynamics 365 Customer Service MCP Server, you can navigate to the **Channels** tab and publish your AI Agent to Teams or M365 Copilot. Your service representatives can use it to resolve customer issues.
+After you configure the AI agent with the Dataverse MCP server and Dynamics 365 Customer Service MCP Server, you can navigate to the **Channels** tab and publish your AI Agent to Teams or Microsoft 365 Copilot. Your service representatives can use it to resolve customer issues.
 
 The following tools are available in Dynamics 365 Customer Service MCP Server (Preview).
 
