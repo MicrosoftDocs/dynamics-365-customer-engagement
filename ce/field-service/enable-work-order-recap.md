@@ -1,7 +1,7 @@
 ---
 title: Enable work order summary with Copilot in Field Service
 description: Use Copilot in Field Service to generate AI-powered work order summaries, quickly understand work order status, and take the next steps.
-ms.date: 04/03/2026
+ms.date: 06/15/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jasonccohen
@@ -29,8 +29,6 @@ The summary feature adheres to [responsible AI guidelines](faqs-work-order-recap
 - The feature is disabled by default for environments in the United Kingdom. An administrator must enable [**Copilot for work order**](configure-default-settings.md#features-settings). For regional availability, see the [Copilot International Availability Report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 - You must have a paid Field Service environment. The work order summary feature isn't available in trial environments.
-
-- Your environment must run Dynamics 365 Field Service version 8.8.142.320 or later. [Update your environment](update-field-service.md) if needed.
 
 ## How summaries are generated
 
@@ -63,8 +61,8 @@ Administrators can follow the steps in this section to create a custom summary c
 1. In Field Service, change to the **Settings** area and go to **Copilot settings** > **Summary Configuration**.
 1. From the list, choose the table for which you want to configure the summary. Currently, you can configure two out-of-the-box tables: work orders and bookable resource bookings.
 1. Enable the **Configure summary** setting.
-1. You can add, remove, and change the data columns that Copilot uses to generate the summary. Under **Table name**, open the drop-down to search or select the table by navigating through relationships. After you choose a table, the columns of the table appear under **Column name**.
-1. In the **Sample summary** section, you can test this configuration using a row from the Dataverse table and preview the summary that Copilot generates based on real data.
+1. Add, remove, and change the data columns that Copilot uses to generate the summary. Under **Table name**, open the drop-down to search or select the table by navigating through relationships. After you choose a table, the columns of the table appear under **Column name**.
+1. In the **Sample summary** section, test this configuration by using a row from the Dataverse table and preview the summary that Copilot generates based on real data.
 1. **Save** your changes.
 
 To revert to the default summary provided by Field Service, disable the **Configure summary** setting.
