@@ -352,7 +352,7 @@
           items:
           - name: Use the adherence tracker
             href: /dynamics365/contact-center/use/workforce-management-adherence-tracker?context=/dynamics365/context/customer-service-use-context
-          - name: Use the Adherence History report
+          - name: Use the adherence history report
             href: /dynamics365/contact-center/use/workforce-management-use-adherence-history-report?context=/dynamics365/context/customer-service-use-context
       - name: Copilot in Customer Service
         items: 
