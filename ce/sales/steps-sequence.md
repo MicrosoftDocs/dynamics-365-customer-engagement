@@ -1,7 +1,7 @@
 ---
 title: Add steps to define activities for sequences
 description: Explore steps to define activities for sequences in sales accelerator, including A/B test, email activity, text message activity and more.
-ms.date: 06/17/2025
+ms.date: 06/16/2026
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -35,7 +35,7 @@ The A/B tests help you to examine your trigger-based sequence path, allowing you
 Using A/B tests, you can measure which channel or content messaging strategy leads to higher success. Each test compares a control group of users (version A) against a variant (version B). The control group receives a default experience. The variant group receives a different experience or message. By comparing the results of the groups, you can determine which one is the most effective.  
 The sequence usually runs the entire test automatically. The test starts by sending versions A and B to a small part of your audience as they funnel through the sequence. The sequence then analyzes the interaction results and chooses a winner based on your selected criteria (click through, open rate, or sequence goal). The sequence then sends the winning version to the rest of your audience automatically.  
 
-To create and add A/B test:
+To create and add an A/B test:
 
 1. In the sequence designer page, select the **Add** (**+**) icon under a step.  
 1. On the **Add an action or other element** dialog box, under the **Steps** tab, select **Test which variation performs better**.  
@@ -94,38 +94,35 @@ Now, you can define conditions for an email activity to determine the branch tha
 
 ## Automated email activity  
 
-Creates an automated email activity for sellers to communicate with customers. When this activity is shown to the seller, a send icon ![Send icon.](media/send-icon.png "Send icon") is displayed on the record. The email is automatically sent to the customer based on the selected template.  
+Creates an automated email activity that sends an email to customers by using a selected template. The email is sent automatically without seller intervention.  
+Use this step to scale consistent outreach while reducing manual effort and ensuring the right messaging is delivered at the right time.
+ 
 
 >[!TIP]
->Add a **Set wait time** activity before the **Automated email** activity. Adding wait time provides a time gap between the previous step and sending the automated email. If the time gap isn't configured, the automated email will be sent immediately after the previous activity is completed, which won't give sellers the time they might need to take action on the automated email activity.  
+>Add a **Set wait time** activity before the **Automated email** activity. Adding wait time provides a time gap between the previous step and sending the automated email. If you don't configure the time gap, the automated email is sent immediately after the previous activity is completed, which doesn't give sellers the time they might need to take action on the automated email activity.  
 
 >[!NOTE]
->- Verify that required email templates are created in your organization. More information: [Create templates for email](/power-platform/admin/create-templates-email?context=/dynamics365/context/sales-context)   
->- Configure [the email engagement feature](configure-email-engagement.md) in your organization before you start using the automated email step.
->- The account to which the automated email is sent must have a primary contact with an email address. If the account doesn't have one, the automated email won't be sent and the sequence won't move to the next step. To continue the sequence, send the email manually to the account.  
+>- Ensure that your organization has the required email templates. For more information, see [Create templates for email](/power-platform/admin/create-templates-email?context=/dynamics365/context/sales-context).   
+>- Configure [the email engagement feature](configure-email-engagement.md) before using this step.
+>- The account must have a primary contact with a valid email address. Otherwise, the email isn't sent. To continue the sequence, send the email manually to the account.  
 
 To add the automated email activity step:
 
 1. In the sequence designer page, select the **Add** (**+**) icon under a step.  
 1. On the **Add an action or other element** dialog box, under the **Steps** tab, select **Send an automated email**.  
-1. On the **Automated email** activity pane, enter the following information to configure the automated email activity:  
+1. On the **Automated email** activity pane, enter a name and description.  
+1. Select **Add email template**.<a name="automated-email"></a>
+1. In the template picker, configure the following information:
 
-    - A name and description for the activity. The information you enter here is displayed to sellers.  
-    - <a name="automated-email"></a>An email template that you want to assign for this step.  
-        1. Select **Add email template**. 
-        1. In the **Email templates** dialog, select the language and then choose a template. When a template is chosen, you can see the preview.  
+    - Select a view (for example, My templates, Team templates, or Approved templates) to quickly find relevant templates.
+    - Select a template, or create or edit a template without leaving the sequence flow.
+ 
+    :::image type="content" source="media/sequence-activity-automated-email-choose-template.png" alt-text="Screenshot of choosing an email template.":::
 
-            :::image type="content" source="media/sequence-activity-automated-email-choose-template.png" alt-text="Screenshot of choosing an email template.":::
+1. Preview the template and select **Apply template**.  
+1. Close the pane to add the step to the sequence.
 
-        1. Select **Apply template**.  
-            The template is selected for the step.  
-
-    :::image type="content" source="media/sequence-activity-add-automated-email.png" alt-text="Screenshot of adding an automated email activity.":::  
-
-1. Close the automated email pane.  
-The automated email activity is added to the sequence.
-
-Now, you can define conditions for automated email activity to determine the branch that sequence moves to next step. More information: [Define conditions for email activity](adaptive-sequence.md#define-conditions-for-email-activity).  
+Now, you can define conditions for automated email activity to determine the branch that sequence moves to next step. For more information, see [Define conditions for email activity](adaptive-sequence.md#define-conditions-for-email-activity).  
 
 ## Send a text message
 
