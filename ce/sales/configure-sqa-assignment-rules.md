@@ -18,7 +18,8 @@ ai-usage: ai-assisted
 Once the leads are qualified based on the handover criteria, the agent hands them over to sellers or teams based on your selection. The agent uses the round-robin distribution to assign leads fairly among the selected sellers or team.
 
 > [!NOTE]
-> Supervisors and sellers must have the salesperson role assigned to them and have at least read permission for the leads handed over by the agent.  
+>- Supervisors and sellers must have the salesperson role assigned to them and have at least read permission for the leads handed over by the agent.  
+>- Only security roles that include a specific set of minimum privileges appear in the assignment rule seller/team dropdown. If you're using custom security roles, the role must include at a minimum the privileges defined in [Grant permissions to sellers](configure-sales-qualification-agent.md#grant-permissions).  
 
 **Follow these steps**:
 
