@@ -1,18 +1,17 @@
 ---
 title: Migrate configurations for channels using solutions
 description: Learn to use solutions for exporting and importing configurations pertaining to channels from source to target environments in Dynamics 365 Contact Center.
-ms.date: 05/29/2024
+ms.date: 05/15/2026
 ms.topic: how-to
-author: mjfjesus
-ms.author: marcoje
-ms.reviewer: marcoje
+author: neeranelli
+ms.author: nenellim
+ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
 ---
 # Migrate configurations for channels using solutions
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
-
 
 Use solutions and the Configuration Migration tool to migrate the configurations from the source environment to the target environment for channels.
 

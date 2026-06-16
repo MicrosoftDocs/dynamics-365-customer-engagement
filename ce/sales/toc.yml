@@ -405,12 +405,6 @@ items:
             items:
               - name: Configure Microsoft Teams dialer
                 href: configure-microsoft-teams-dialer.md
-          - name: Link Dynamics 365 records to Microsoft Teams channels
-            items:
-              - name: Enable linking of Dynamics 365 records to Teams channels
-                href: teams-integration/enable-record-linking.md
-              - name: Enable Sensitivity labels
-                href: teams-integration/sensitivity-labels.md
           - name: Sales Hub Dialer (preview)
             items:
               - name: Overview
@@ -1105,16 +1099,6 @@ items:
             items:
               - name: Make and receive Teams calls in Dynamics 365
                 href: call-using-microsoft-teams.md
-          - name: Link Dynamics 365 records to Microsoft Teams channels
-            items:
-              - name: Basic vs Enhanced Collaboration Experience
-                href: teams-integration/teams-basic-vs-enhanced-collaboration.md
-              - name: Basic Collaboration with Teams
-                href: teams-integration/teams-collaboration.md
-              - name: Enhanced Collaboration with Teams
-                href: teams-integration/teams-collaboration-enhanced-experience.md
-              - name: Linking records to Microsoft Teams channels FAQs
-                href: teams-integration/link-records-to-teams-faq.md
           - name: Sales Hub Dialer (preview)
             items:
               - name: Overview
