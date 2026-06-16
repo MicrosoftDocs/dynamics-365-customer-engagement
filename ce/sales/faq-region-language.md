@@ -1,7 +1,7 @@
 ---
 title: Region and language FAQs
 description: Find answers to frequently asked questions about regions and languages.
-ms.date: 05/06/2026
+ms.date: 06/16/2026
 ms.topic: faq
 author: udaykirang
 ms.author: udag
@@ -34,6 +34,7 @@ Sales Premium is only available in the following countries or regions:
 - Oceania (OCE)
 - South Africa (ZAF)
 - South America (SAM)
+- Sweden (SE)
 - Switzerland (CHE)
 - United Arab Emirates (UAE)
 - Government Community Cloud (GCC)
@@ -45,20 +46,20 @@ Sales Premium isn't available in all other regions, including DoD.
 
 The following table lists the regions in which Sales Premium features are available.
 
-| Feature | NAM | EMEA | GBR | APJ | CAN | IND | JPN | OCE | CHE | FRA | GER | SAM | ZAF | UAE | GCC/GCC High |
-|---------|-----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| [Assistant](assistant.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| [Conversation intelligence](dynamics365-sales-insights-app.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| [Email engagement](email-engagement.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | No |
-| [Notes analysis](notes-analysis.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| [Premium forecasting](configure-premium-forecasting.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes | Yes | Yes | No |
-| [Predictive lead scoring](work-predictive-lead-scoring.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| [Predictive opportunity scoring](work-predictive-opportunity-scoring.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| [Sales accelerator](digital-selling-sales-accelerator.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| [Relationship analytics (Basic)](relationship-analytics-overview.md#basic-relationship-insights) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| [Relationship analytics (Enhanced)](relationship-analytics-overview.md#enhanced-relationship-insights)\* | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| [Who knows whom (Basic)](who-knows-whom.md#basic-who-knows-whom-information) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| [Who knows whom (Enhanced)](who-knows-whom.md#enhanced-who-knows-whom-information) | Yes | Yes | Yes | Yes | Yes | No | No | No | No | Yes | No | No | No | No | Yes |
+| Feature | NAM | EMEA | GBR | APJ | CAN | IND | JPN | OCE | CHE | FRA | GER | SAM | ZAF | UAE | SE | GCC/GCC High |
+|---------|-----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| [Assistant](assistant.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No |
+| [Conversation intelligence](dynamics365-sales-insights-app.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No |
+| [Email engagement](email-engagement.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | No | No |
+| [Notes analysis](notes-analysis.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No |
+| [Premium forecasting](configure-premium-forecasting.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes | Yes | Yes | No | No |
+| [Predictive lead scoring](work-predictive-lead-scoring.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Predictive opportunity scoring](work-predictive-opportunity-scoring.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Sales accelerator](digital-selling-sales-accelerator.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No |
+| [Relationship analytics (Basic)](relationship-analytics-overview.md#basic-relationship-insights) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Relationship analytics (Enhanced)](relationship-analytics-overview.md#enhanced-relationship-insights)\* | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Who knows whom (Basic)](who-knows-whom.md#basic-who-knows-whom-information) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes |
+| [Who knows whom (Enhanced)](who-knows-whom.md#enhanced-who-knows-whom-information) | Yes | Yes | Yes | Yes | Yes | No | No | No | No | Yes | No | No | No | No | No | Yes |
 
 \* To use Exchange data for relationship analytics (enhanced), your organization's Office 365 data location must be in one of the [supported locations](#in-which-regions-is-exchange-integration-available).
 
