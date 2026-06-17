@@ -4,7 +4,7 @@ description: Dynamics 365 Sales Skills in Copilot Cowork help teams prep for mee
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 06/16/2026
+ms.date: 06/17/2026
 ms.topic: how-to
 ms.update-cycle: 180-days
 ai.collection: bap-ai-copilot
@@ -46,7 +46,7 @@ For example, you can ask "*Prepare me for the Contoso Inc's Renewal. Surface dea
 
 To use the sales skills in your Cowork experience, turn on the plugin for Dynamics 365 Sales in Cowork. 
 
-1. In Microsoft 365 Copilot, select **Cowork** from the left pane. If you don't see Cowork, select **Agents** and then search for "Cowork" to find and select it.
+1. In Microsoft 365 Copilot, select the **Cowork** tab. 
 1. In the chat composer, select the **+** button and then select **Customize**.
 1. Turn on the toggle for **Dynamics 365 Sales**.
 1. Select the plugin to view the details like the skills available.
@@ -58,12 +58,14 @@ Environment selection lets you choose the Dynamics 365 environment that Cowork p
 
 After you turn on the plugin, the settings icon is available on the plugin. Select the settings icon, and in the pop-up window, select the environment to connect.
 
+:::image type="content" source="media/cowork-environment-selection.png" alt-text="Screenshot of the plugin page with the Settings option highlighted.":::
+
 ## Use sales skills in Cowork
 
 When you submit a request in Cowork, the workspace plan translates the request into a sequence of smaller actions that can run reliably and transparently. Instead of treating the prompt as one opaque task, Cowork identifies the intention, determines the systems that hold the needed data, and then invokes the appropriate skill for each step. The plan makes this visible to you by showing the order of operations.
 
-1. In Microsoft 365 Copilot, select **Cowork** from the left pane. 
-1. Ask a sales-related question in natural language. You need not specify that you want to use the Dynamics 365 Sales plugin in your prompt. If the question is related to sales and the plugin is enabled, Cowork automatically uses the plugin to answer your question. The following screenshot shows the response from Cowork for the prompt "*Help me prepare for my upcoming meeting with Adatam Corp, what should I know?*" 
+1. In Microsoft 365 Copilot, select the **Cowork** tab. 
+1. Ask a sales-related question in natural language. You need not specify that you want to use the Dynamics 365 Sales plugin in your prompt. If the question is related to sales and the plugin is enabled, Cowork automatically uses the plugin to answer your question. The following screenshot shows the response from Cowork for the prompt "*Help me prepare for my upcoming meeting with Adatum Corp, what should I know?*" 
    :::image type="content" source="media/copilot-cowork-response.png" alt-text="Screenshot of response from Cowork with a step-by-step plan and real-time progress for a sales-related question.":::
 
 If you want to know the environment that Cowork is pulling data from, or if you want to change it, refer to [Select the environment](#select-the-environment).
