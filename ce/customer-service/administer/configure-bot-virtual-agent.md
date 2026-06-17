@@ -24,7 +24,7 @@ Use agents to simulate human-like conversations for routine activities so that y
 The following capabilities are available for the agent conversations:
 
 - Seamlessly integrate your agent with all channels without needing to add channel-specific code in the agent.
-- Use real-time voice agents. A real-time voice agent supports fully voice-driven interactions. Customers speak with the agent and receive a spoken response instantly. Learn more in [Real-time voice agents (preview)](/microsoft-copilot-studio/voice-realtime-voice-agents).
+- Use real-time voice agents. A real-time voice agent supports fully voice-driven and natural, context-carrying interactions. It also supports user interruptions (barge-in) and dynamic language switching in the same session when multilingual option is configured. Customers speak with the agent and receive spoken responses instantly. Learn more in [Real-time voice agents](/microsoft-copilot-studio/voice-realtime-voice-agents).
 - Configure interactive voice response (IVR) capabilities for voice-enabled agents.
 - [!INCLUDE[cc-natural-language-model](../../includes/cc-natural-language-model.md)]  
 - Configure contextual transfers to service representatives.
@@ -54,6 +54,8 @@ You can create Copilot agents in one of the following ways:
   - [Create a custom agent from a template](/microsoft-copilot-studio/template-fundamentals)
   - [Create voice-enabled agents from templates](/microsoft-copilot-studio/voice-build-from-template)
 
+Dynamics 365 Contact Center includes pre-built agents such as Customer Assist Agent, which handles high-volume voice and digital requests. Real-time voice agents in Copilot Studio are integrated with these pre-built agents. Learn more in [Overview of contact center agents](/dynamics365/contact-center/administer/overview-contact-center-agents).
+
 ## Connect your Copilot agent to omnichannel instance
 
 For the agent to be able to interact with customers in Dynamics 365 Contact Center or Customer Service, you must integrate the agent with your application. Follow the procedure in [Connect your Copilot agent to omnichannel](/microsoft-copilot-studio/configuration-hand-off-omnichannel) to connect your Copilot agent to the omnichannel instance.
@@ -67,7 +69,7 @@ When your customers need to speak with a representative, your agent can seamless
 In Copilot Studio, you can add the following capabilities to your agent to finish your setup:
 
 - Add knowledge sources to your agent to help it answer customer questions. Learn more in [Add knowledge sources to your agent](/microsoft-copilot-studio/knowledge-copilot-studio).
-- Configure multilingual agents to support multiple languages. Learn more in [Configure multilingual agents](/microsoft-copilot-studio/multilingual).
+- Configure multilingual agents to support multiple languages. For real-time voice agents, multilingual configuration also lets the conversation switch languages mid-conversation. Learn more in [Configure multilingual agents](/microsoft-copilot-studio/multilingual) and [Real-time voice agents](/microsoft-copilot-studio/voice-realtime-voice-agents).
 - IVR capabilities that are specific to voice-enabled agents such as dual-tone multi-frequency (DTMF) input, context variables, call transfer, and speech and DTMF customization. Learn more in [Configure Copilot Studio IVR agents](voice-channel-pva-bots.md).
 - [Customize the look and feel of a copilot](/microsoft-copilot-studio/customize-default-canvas).
 
