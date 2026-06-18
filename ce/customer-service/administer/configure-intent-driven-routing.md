@@ -33,13 +33,13 @@ In preview, live chat, voice, and case are supported. The intent for case is det
 - For live chat, the prerequisites and steps in [Configure intent-based suggestions for Copilot agents](/dynamics365/contact-center/administer/set-up-intent-agent) are applicable. Make sure that the Copilot agent is configured in the messaging workstream, which is critical for runtime invocation.
 - For the voice channel, the prerequisites and steps in [Set up voice agents to use intents](/dynamics365/contact-center/administer/set-up-voice-agents-to-use-intents) are applicable. Make sure that the voice agent is configured in the voice workstream, which is critical for runtime invocation.
 
-## How intent-based routing works
+## How intent-driven routing works
 
 1. An administrator sets up intent, uses historical data to build the intent library, and enables the library for Copilot agents and representatives.
 
 1. The Copilot agent, configured for the workstream, detects intent from the customer and asks follow-up questions related to the intent. It then provides a solution based on customer-provided information from the connected Copilot agent knowledge source.
 1. If the issue is escalated, the Copilot agent persists the intent fields to the work item and routing is triggered.
-1. During routing, if intent-based rules are configured in classification or route-to-queue setup, unified routing honors the intent fields to take routing decisions as follows:
+1. During routing, if intent-driven rules are configured in classification or route-to-queue setup, unified routing honors the intent fields to take routing decisions as follows:
    - **Classification**: Classification rules read these fields and enrich the live work item, for example, by attaching skills, priority, or other attributes based on the identified intent fields.
    - **Route-to-queue**: Route-to-queue rules use the intent fields with any other live work item attributes to select the right queue.
    - **Assignment**: The skill-based routing engine evaluates the queue's eligible pool against the attached skills and the queue's assignment strategy, and assigns the work to the most qualified available representative.

@@ -36073,6 +36073,11 @@
       "source_path": "ce/sales/ci-third-party-sp-integration.md",
       "redirect_url": "/dynamics365/sales/fre-setup-ci-sales-app",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/configure-intent-based-routing.md",
+      "redirect_url": "/dynamics365/customer-service/administer/configure-intent-driven-routing",
+      "redirect_document_id": "false"
     }
   ]
 }
