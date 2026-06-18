@@ -1,14 +1,14 @@
 ---
 title: Create a work order type
-description: Learn how to create work order types in Dynamics 365 Field Service to categorize work orders.
-ms.date: 06/18/2025
+description: Create work order types in Dynamics 365 Field Service to categorize and organize your work orders by type.
+ms.date: 06/18/2026
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
 ---
 # Create a work order type
 
-Work order types define the general types of work that your organization offers. It lets your users categorize and build different types of work orders. For example, work orders for installation, preventative maintenance, inspection, or repair. Work order types help separate work order information into views, reports, and dashboards.
+Work order types define the general types of work that your organization offers. They let your users categorize and build different types of work orders. For example, work orders for installation, preventative maintenance, inspection, or repair. Work order types help separate work order information into views, reports, and dashboards.
   
 1. In the Field Service application, change to the **Settings** area.
 
