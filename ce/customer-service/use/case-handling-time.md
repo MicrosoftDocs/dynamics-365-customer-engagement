@@ -1,16 +1,15 @@
 ---
 title: Track your time on cases 
-description: Learn how to use the case handling time widget to view and log your time on cases in Customer Service.
+description: Learn how to use the case handling time widget to view and log your time on cases in Dynamics 365 Customer Service.
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 05/05/2025 
+ms.date: 06/17/2026 
 ms.custom: bap-template 
 ---
 
 # Track your time on cases 
-
 
 
 Case handling time is the total time you spend to actively work on a case. This includes time taken to review case details, past cases and customer interactions, do offline research, collaborate with team members, or document case notes. Case handling time helps supervisors measure your productivity and plan staffing.

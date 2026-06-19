@@ -1,12 +1,12 @@
 ---
 title: Integrate Case Management Agent with custom Copilot Studio agents
-description: Learn how to integrate autonomous Case Management Agent with custom Copilot Studio agents.
+description: Learn how to integrate autonomous Case Management Agent with custom Copilot Studio agents in Dynamics 365 Customer Service.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
-ms.date: 08/08/2025
+ms.date: 06/17/2026
 ms.custom: bap-template
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Use trial phone numbers in the voice channel
-description: Use this article to understand how you can use trial phone numbers in Dynamics 365.
-ms.date: 06/27/2025
+description: Use this article to understand how you can use trial phone numbers in Dynamics 365 Contact Center.
+ms.date: 06/17/2026
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
