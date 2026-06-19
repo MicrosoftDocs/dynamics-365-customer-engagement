@@ -1,7 +1,7 @@
 ---
 title: Configure email
 description: Learn how to configure enhanced email settings, attachment limits, and blocked file types for email in Dynamics 365 customer engagement apps.
-ms.date: 03/30/2026
+ms.date: 06/19/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -11,7 +11,7 @@ ms.service: dynamics-365-customer-service
 
 # Configure email
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability-cs-only](../../includes/cc-feature-availability-cs-only.md)]
 
 Email is a communication channel that customers and customer service representatives (service representatives, representatives) use throughout the support lifecycle to send confirmations, case IDs, attachments, and other communications.
 
