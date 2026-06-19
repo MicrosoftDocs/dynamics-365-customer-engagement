@@ -4,7 +4,7 @@ description: Learn how to set up overflow conditions and actions for your voice,
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 04/27/2026
+ms.date: 06/19/2026
 ms.topic: how-to
 ms.custom:
  - bap-template
@@ -148,12 +148,6 @@ Sometimes you might not want an overflow action to run for specific types of wor
 
 1. [Select overflow condition-action pairs](#configure-overflow-conditions-for-before-a-work-item-is-queued).
 
-### View diagnostics for overflow handling
-
-When a work item is handled by an overflow action instead of being assigned to a representative, you can view its status in **Routing diagnostics** > **Route to queue**.
-
-:::image type="content" source="../media/overflow-diagnostics.png" alt-text="Screenshot of routing diagnostics for a work item that triggered an overflow action.":::
-
 ## Handle overflow when a work item is queued
 
 When a work item is in a queue and the actual wait is long because representatives aren't available or have declined the notification, then the system triggers overflow and reroutes the work item to another queue that has representatives available.
@@ -222,21 +216,19 @@ If you set **End call** or **End conversation** as an overflow action, you can e
 
 [Learn more about customizing automated messages](configure-automated-message.md#customize-automated-messages-at-the-channel-level).
 
-## Use AI-powered playbooks to configure overflow actions for work items in queue (preview)
+## Use natural language playbooks to configure overflow actions for work items in queue (preview)
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-Configure overflow handling to trigger immediately when eligible service representatives aren't available for a work item, instead of waiting for time or volume-based conditions.
+Configure overflow handling to trigger immediately when eligible service representatives aren't available for a work item or queues are out of operating hours, instead of waiting for time or volume-based conditions.
 
 This capability is useful for scenarios where you want to avoid any wait time in the queue. For example, offering options such as callback or voicemail as soon as it’s determined that no representative can take the conversation.
 
 ### How it works
 
-When a work item is added to a queue, the system evaluates whether any eligible service representatives are available using the same assignment criteria that are used for routing work items. This check happens before the work item is offered to a service representative. If no representatives meet the assignment requirements, the configured overflow action is triggered immediately.
+When a work item is added to a queue, the system evaluates whether any eligible service representatives are available using the same assignment criteria that are used for routing work items. This check happens before the work item is offered to a service representative.
 
 Configure immediate overflow by using a playbook in [conversation orchestration](/dynamics365/contact-center/administer/configure-conversation-orchestration).
-
-The playbook evaluates the condition **If no service representative is available** and runs the configured action.
 
 You can apply the playbook to:
 
@@ -258,6 +250,26 @@ You can configure the following actions.
 
 - Combine with wait-time conditions to handle cases where representatives are available but don’t accept the work item.
 - Provide fallback actions after a specified wait duration.
+
+Configure overflow behavior based on a combination of the following conditions:
+
+**Queue state conditions**
+
+- Queue goes out of operating hours while conversations are waiting.
+- Queue is out of operating hours when conversations enter the queue.
+
+> [!NOTE]
+> You can use the "queue is out of operating hours" condition in the existing overflow rules on the **Queue** page and playbooks. The key difference is that the system evaluates the queue overflow rules once only before the system adds the work item to the queue, whereas the playbook condition is evaluated continuously, including after transfers.
+
+**Agent availability conditions**
+
+- **No representatives are available immediately**: Evaluates representative availability based on skills, capacity, and assignment rules.
+- **All representatives are signed out**: Evaluates for incoming conversations and triggers when representatives sign out, close their browser session, or there's a network outage.
+- **All representatives sign out while conversations are waiting**: Evaluates waiting conversations and is triggered when representatives sign out, close their browser session, or there's a network outage.
+
+### View diagnostics for overflow handling
+
+You can view the diagnostics information by using a custom query. Learn more in [Sample queries and dashboards](/dynamics365/guidance/resources/conversation-diagnostics-sample-queries#conversation-orchestration).
 
 ### Related information
 

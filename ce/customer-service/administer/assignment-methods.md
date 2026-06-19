@@ -191,12 +191,12 @@ Some important points about prioritization rules are as follows:
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-Dynamic prioritization is an AI-led approach to increase the priority of conversations (voice and live chat only) based on:
+Dynamic prioritization is a natural language-based approach to increase the priority of conversations (voice and live chat only) based on:
 
 - **Increasing wait time**: Priority escalates as customers wait longer.
 - **Conversation transfers**: Priority boost when conversations move between queues.
 
-Learn more in [Configure conversation orchestration using AI-powered playbooks](/dynamics365/contact-center/administer/configure-conversation-orchestration).
+Learn more in [Configure conversation orchestration using natural language playbooks](/dynamics365/contact-center/administer/configure-conversation-orchestration).
 
 ### Priority score system
 
@@ -298,6 +298,8 @@ Key outcomes:
 | Cross-queue prioritization | Supported with priority score as primary sorting criteria |
 | FIFO queues | Update priority score action can be used to set priority to default values in queues for strict FIFO behavior |
 | Classification rules | Can set initial or base priority scores |
+
+You can view the diagnostics information by using a custom query. Learn more in [Sample queries and dashboards](/dynamics365/guidance/resources/conversation-diagnostics-sample-queries#conversation-orchestration).
 
 ## How assignment rulesets work
 
