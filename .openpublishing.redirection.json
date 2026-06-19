@@ -2361,6 +2361,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/customer-service/implement/cs-voice-historical-analytics.md",
+      "redirect_url": "/dynamics365/customer-service/administer/oc-historical-analytics-reports",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/customer-service/administer/oc-nuance-overview.md",
       "redirect_url": "/dynamics365/customer-service/administer/voice-channel-contextual-transfer-external-ivr",
       "redirect_document_id": false

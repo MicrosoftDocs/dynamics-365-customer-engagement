@@ -1,7 +1,7 @@
 ---
 title: Use queues to organize, prioritize, and monitor work
 description: Learn how to work with queues, find queue items, and pick work items from queues in Dynamics 365 Customer Service.
-ms.date: 05/15/2025
+ms.date: 06/17/2026
 ms.topic: how-to 
 author: gandhamm
 ms.author: mgandham

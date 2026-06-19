@@ -1,7 +1,7 @@
 ---
 title: Agent dashboard in Omnichannel historical analytics
-description: Learn about the Agent dashboard in Omnichannel historical analytics to better understand customer service representative performance in your organization.
-ms.date: 08/26/2025
+description: Learn about the Agent dashboard in Omnichannel historical analytics to better understand customer service representative performance in your organization in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
+ms.date: 06/17/2026
 ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
@@ -82,7 +82,7 @@ The charts display the following metrics.
 
 | Availability | Description |
 | --------------- | ---------------- |
-| Agent total login time (hrs) | The time a service representative is logged into Omnichannel for Customer Service. |
+| Agent total sign in time (hrs) | The time a service representative is logged into Omnichannel for Customer Service. |
 | Agent available duration (hrs) | The time a service representative is in the available state in Omnichannel for Customer Service. |
 | Agent busy duration (hrs) | The time a service representative is in the busy state in  Omnichannel for Customer Service. |
 | Agent busy (DND) duration (hrs) | The time a service representative is in the busy don't disturb (DND) state in Omnichannel for Customer Service. |
@@ -100,7 +100,7 @@ To access the drill-down view, select any metric value for the service represent
 
 ## Drill down view of agent hourly details
 
-The Agent hourly details drill-down view provides granular insight into the hour-by-hour breakdown of key conversation metrics within the contact center. The metrics for Session summary, Session details, Consult/Monitor, and Availability are the same as in the day-by-day view, ensuring that supervisors can consistently analyze their contact center operation regardless of duration granularity. 
+The Agent hourly detail drill-down view provides granular insight into the hour-by-hour breakdown of key conversation metrics within the contact center. The metrics for Session summary, Session details, Consult/Monitor, and Availability are the same as in the day-by-day view, ensuring that supervisors can consistently analyze their contact center operation regardless of duration granularity. 
 To view the drill-down view, select any single metric value on the required day, then select **Hourly details**. 
 
 

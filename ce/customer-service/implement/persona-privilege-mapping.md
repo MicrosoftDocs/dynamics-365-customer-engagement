@@ -1,7 +1,7 @@
 ---
 title: Personas and privileges in Dynamics 365 Contact Center
 description: Learn about the privileges and recommended access levels for administrator, supervisor, and service representative personas in Customer Service and Dynamics 365 Contact Center.
-ms.date: 06/27/2025
+ms.date: 06/17/2026
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -44,7 +44,7 @@ The following table lists the privileges and recommended access levels for the a
 |	App Profile	                          |	msdyn_appconfiguration	              |	Append, Append To, Create, Delete, Read, Update	 |	Global	|
 |	App Configuration	                  |	AppConfig	                          |	Read	                               |	Global	|
 | App Parameter Definition<br>(Deprecated)</br>| msdyn_consoleappparameterdefinition | Append, Append To, Create, Delete, Read, Update | Global	|
-|	Apple messages for business acount             	|	msdyn_ocapplebusinessaccount	        |	Read	                                         |	Global	|
+|	Apple messages for business account             	|	msdyn_ocapplebusinessaccount	        |	Read	                                         |	Global	|
 |	Application Extension	              |	msdyn_applicationextension	          |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 |	Application Tab Template	          |	msdyn_applicationtabtemplate	      |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 |	Application Tab Template <br>(Deprecated)</br> |	msdyn_consoleapplicationtemplate | Append, Append To, Create, Delete, Read, Update   |	Global	|
@@ -201,7 +201,7 @@ The following table lists the privileges and recommended access levels for the s
 |	App Module	                    |	AppModule	                                        |	Read	                           |	Global	|
 |	App Profile	                    |	msdyn_appconfiguration	                            | 	Read	                            |	Global	|
 |	App Parameter Definition<br> (Deprecated)</br>	|	msdyn_consoleappparameterdefinition	|	Read	                           |	Global	|
-|	Apple messages for business acount             	|	msdyn_ocapplebusinessaccount	        |	Read	                                         |	Global	|
+|	Apple messages for business account             	|	msdyn_ocapplebusinessaccount	        |	Read	                                         |	Global	|
 |	Application Extension	        |	msdyn_applicationextension	                        |	Read                               |	Global	|
 |	Application Tab Template	    |	msdyn_applicationtabtemplate          	            |	Read	                           |	Global	|
 |	Application Tab Template <br>(Deprecated)</br>	|	msdyn_consoleapplicationtemplate	|	Read                             |	Global	|
@@ -320,7 +320,7 @@ The following table lists the privileges and recommended access levels for the a
 |	App Module                    	|	AppModule	                    |	Read                                            	|	Global	|
 |	App Profile                    	|	msdyn_appconfiguration        	|	Read	                                            |	Global	|
 |	App Parameter Definition <br>(Deprecated)</br>	|	msdyn_consoleappparameterdefinition	|	Read	                        |	Global	|
-|	Apple messages for business acount             	|	msdyn_ocapplebusinessaccount	        |	Read	                                         |	Global	|
+|	Apple messages for business account             	|	msdyn_ocapplebusinessaccount	        |	Read	                                         |	Global	|
 |	Application Extension	        |	msdyn_applicationextension    	|	Read                                            	|   Global	|
 |	Application Tab Template	    |	msdyn_applicationtabtemplate	|	Read                                            	|	Global	|
 |	Application Tab Template <br>(Deprecated)</br>	|	msdyn_consoleapplicationtemplate	|	Read                        	|	Global	|
