@@ -3,7 +3,7 @@ title: Assign roles, enable users
 description: Perform the steps to assign roles to users and enable them in contact center.
 author: neeranelli
 ms.author: nenellim
-ms.date: 06/16/2026
+ms.date: 05/08/2026
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -15,14 +15,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-Use the information in this article to configure security roles and enable users to perform the various tasks in Customer Service and Dynamics 365 Contact Center.
-
-Assign the roles and privileges in one of the following ways that are discussed in this article. Users inherit the prvAgent, prvSupervisor, or prvAdmin privileges through teams or persona.
-
-- [Assign roles through team memberships using Microsoft Entra security groups](#manage-users-through-microsoft-entra-security-groups)
-- [Assign roles to users directly](#assign-roles-to-users)
-
-If you [create custom security roles](../administer/role-persona-mapping.md#create-custom-security-roles) to manage your users, make sure that you assign the permissions and privileges according to your business needs.
+Use the information in this article to configure security roles and enable users to perform the various tasks in Customer Service.
 
 ## Roles in Dynamics 365 Contact Center
 
@@ -39,24 +32,9 @@ The Dynamics 365 users can access and perform different functions based on the r
 
 Ensure that the **Omnichannel API access** role isn't assigned to a supervisor or representative type of user.
 
-The **Customer Service Representative** role is required to work with Case.
+The **Customer Service Representative** role is required to work on cases.
 
 Use the Microsoft 365 admin center to create user accounts for every user who needs access to Dynamics 365 Contact Center. Learn more in [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles).
-
-## Manage users through Microsoft Entra security groups
-
-Use Microsoft Entra security groups to manage Dynamics 365 Contact Center user privileges and simplify user management. Service representatives gain application access through their team membership and the roles assigned to the team.
-
-1. Do the steps in [Manage Microsoft Entra groups](/entra/fundamentals/how-to-manage-groups) to create a Microsoft Entra group.
-1. Add representative users as members to the Microsoft Entra group.
-1. Create a [team in Power Platform admin center](/power-platform/admin/manage-teams#create-a-new-team). Make sure that you set the value for **Team type** as **Microsoft Entra ID Security Group** and in **Group name**, select the group that you created in Microsoft Entra.
-1. Assign the following [security roles to the team](/power-platform/admin/manage-teams#manage-the-security-roles-of-a-team):
-    - Basic User
-    - Customer Service Representative
-    - Omnichannel agent
-1. Save the changes.
-
-To sync the user permissions immediately with the Microsoft Entra group, create a Power Automate flow and run it. Learn about the API call in [SyncGroupMembersToTeam Action](/power-apps/developer/data-platform/webapi/reference/syncgroupmemberstoteam).
 
 ## Assign roles to users
 
@@ -130,7 +108,7 @@ Administrator users need column-level permissions on secure columns when they co
 - [Payment profiles for Apple Messages for Business channel](../administer/configure-payment-profiles.md)
 - [WhatsApp channel](../administer/configure-whatsapp-channel.md)
 
-The secure columns are identified by the information icon that's present for the column.
+You can identify the secure columns by the information icon that's present for the column.
 
 The entities and their secret attributes are as follows. Learn more about the entities and their attributes in [Overview of entities](../develop/reference/entities/overview-entity-ref.md).
 
