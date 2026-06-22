@@ -1,7 +1,7 @@
 ---
 title: "Use Microsoft Teams chat in Sales Hub | MicrosoftDocs"
 description: "Start Teams chat conversations from within Sales Hub and connect them to records"
-ms.date: 11/26/2024
+ms.date: 06/22/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -132,8 +132,6 @@ Connect relevant Teams channels to a record so that all the members can easily a
 1.  Open any Dynamics 365 customer engagement record, and select :::image type="icon" source="media/teams-icon.png" border="false":::.
 
     The **Teams chats** pane opens.
-
-    Alternatively, select **Collaborate** on the command bar to connect a channel to the record. For more information, go to [Enhanced Collaboration Experience with Microsoft Teams](teams-collaboration-enhanced-experience.md).
 
 2.  Select the **Channel** tab. The tab lists the channels that are already connected to the record.
 

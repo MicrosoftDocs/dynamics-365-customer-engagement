@@ -1,7 +1,7 @@
 ---
 title: "Collaborate using Microsoft Teams with the Dynamics 365 Sales Enterprise license | MicrosoftDocs"
 description: "Learn how to collaborate using Microsoft Teams with the Dynamics 365 Sales Enterprise license."
-ms.date: 02/27/2026
+ms.date: 06/22/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -23,8 +23,7 @@ By connecting Dynamics 365 and Microsoft Teams, your sales teams can collaborate
 ## Set up Teams collaboration
 
 1. On the **Sales settings** page, under **Microsoft Teams collaboration**, select **Quick setup**.  
-1. Turn on the **Chat and collaborate from Dynamics 365 (preview)** toggle to enable the [embedded Teams chat](../teams-integration/using-teams-chat-in-dynamics.md) capability.  
-1. Turn on the **Connect records to channels in Microsoft Teams** toggle to enable [basic Teams integration](../teams-integration/teams-collaboration.md).  
+1. Turn on the **Chat and collaborate from Dynamics 365 (preview)** toggle to enable the [embedded Teams chat](../teams-integration/using-teams-chat-in-dynamics.md) capability.   
 1. Select **Apply**.
 
 After you enable the settings, your sellers can use Teams in Dynamics 365 and link chats to records to collaborate on deals. They can also pin records and views to Teams channels so they can collaborate on deals directly from Microsoft Teams.

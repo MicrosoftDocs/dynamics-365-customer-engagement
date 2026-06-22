@@ -1,7 +1,7 @@
 ---
 title: Welcome to Dynamics 365 Sales
 description: Transform your sales organization with Dynamics 365 Sales to build strong relationships with customers, take actions based on insights, and close deals faster.
-ms.date: 01/20/2026
+ms.date: 06/22/2026
 ms.topic: overview
 author: udaykirang
 ms.author: udag
@@ -112,7 +112,7 @@ Engage and interact with your customers at the right time and place, using metho
 | Complete the next best activity | Help sellers focus by giving them clear and achievable sales activities, prioritized through artificial intelligence (AI) and predictive scoring. | Administrator: [Configure the sales accelerator](enable-configure-sales-accelerator.md)<br>Seller: [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md) |
 | Communicate with effective call techniques | Converse with empathy by employing AI-powered conversation intelligence to detect customer emotion, sentiment, and priorities. | Administrator: [First-run setup experience for conversation intelligence](fre-setup-sales-insight-app.md)<br>Seller: [View and understand call summary page](view-and-understand-call-summary.md) |
 | Connect across channels | Streamline selling with integrated multichannel communications such as, soft phone dialer, Microsoft Teams dialer, and email templates. | Administrator:<br> - [Integrate a sample softphone with Dynamics 365 Sales](sample-softphone-integration.md)<br>- [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)<br>- [Set up enhanced email](set-up-enhanced-email.md)<br>Seller:<br> - [Call a customer](connect-with-customers.md#call-a-customer)<br> - [Send email using the enhanced email experience](enhanced-email.md) |
-| Meet and collaborate virtually | Provide coordinated virtual engagement with an enterprise collaboration hub that brings together colleagues, customers, and contextual customer data. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)<br>Seller: [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration)|
+| Meet and collaborate virtually | Provide coordinated virtual engagement with an enterprise collaboration hub that brings together colleagues, customers, and contextual customer data. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)|
 | Gather and act on customer feedback | See the customer’s point of view and improve sales engagement by incorporating survey insights from Dynamics 365 Customer Voice—included with Dynamics 365 Sales. | [Dynamics 365 Customer Voice documentation](/dynamics365/customer-voice/help-hub) |
 
 ### Build relationships  
@@ -133,8 +133,8 @@ Collaborate with customers by getting visibility into the right data data and co
 
 | Capability | Description | Reference link |
 |------------|-------------|----------------|
-| Gain visibility into the right data | Access customer data and insights in Microsoft Teams to collaborate productively within the sales team. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)<br>Seller: [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration) |
-| Communicate in context | Use embedded Microsoft Teams chats in Dynamics 365 for real-time collaboration within the sales team. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)<br>Seller: [Enhanced Collaboration Experience with Microsoft Teams](/dynamics365/teams-integration/teams-collaboration-enhanced-experience) |
+| Gain visibility into the right data | Access customer data and insights in Microsoft Teams to collaborate productively within the sales team. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app) |
+| Communicate in context | Use embedded Microsoft Teams chats in Dynamics 365 for real-time collaboration within the sales team. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app) |
 
 ### Boost seller productivity
 
