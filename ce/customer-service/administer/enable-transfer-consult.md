@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
 ms.collection:
-ms.date: 01/23/2026
+ms.date: 06/22/2026
 ms.custom: bap-template
 ---
 
@@ -56,7 +56,30 @@ In a transfer scenario, service representatives need time for post-interaction t
 
 In **Transfer settings**, enable **Wrap up after transfer**. The system blocks dedicated time for the wrap-up activities as configured in the workstream.
 
-When a service representative transfers a conversation to another representative, queue, AI agent, or external representatives, the system automatically provides wrap-up time after the transfer is completed. The **Block capacity for wrap up** under [work distribution settings](create-workstreams.md#configure-work-distribution) of the workstream determines the wrap-up behavior. Learn more about wrap up in [Understand conversation states](..\use\oc-conversation-state.md#wrap-up).
+When a service representative transfers a conversation to another representative, queue, AI agent, or external representatives, the system automatically provides wrap-up time after the transfer is completed. The **Block capacity for wrap up** under [work distribution settings](create-workstreams.md#configure-work-distribution) of the workstream determines the wrap-up behavior. Learn more about wrap-up in [Understand conversation states](..\use\oc-conversation-state.md#wrap-up).
+
+## Manage pins
+
+Pinned queues and external contacts help service representatives quickly find important destinations during consult and transfer scenarios in active voice and chat conversations, and outbound calls. Pins reduce scrolling and improve efficiency in environments with a large number of queues or contacts.
+
+Pinned favorites appear at the top of the consult and transfer to queue experience, and below the dialer in the consult and transfer to external number or outbound dialer experience.
+
+- **Administrator-pinned items**: You configure pins centrally for specific representatives. These pins always appear first, and representatives can't unpin them.
+- **Representative-pinned items**: Representatives set pins that are personal to them.
+
+### Create pins
+
+1. In the site map of Copilot Service admin center, under **Customer settings**, select **Manage** for **Manage pins**.
+
+   - **Queues**:
+      1. Select **New**.
+      1. On the pane that appears, search for and select a queue.
+      1. Select a business unit to limit the pinned queue visibility. If you don't specify a business unit, all representatives can see the pinned queue by default.
+   - **External contacts**:
+      1. Select **New**.
+      1. On the page that appears, search for an existing contact or add a new contact.
+      1. Select a business unit to limit the pinned contact visibility. If you don't specify a business unit, all representatives can see the pinned contact by default.
+1. Save and close.
 
 ## Configure custom inbox view for consult sessions
 
@@ -65,7 +88,7 @@ Representatives can configure the inbox to show their consult sessions. The inbo
 1. Create a view by using the **Advanced** option in [Configure custom views for the inbox](configure-inbox.md#configure-custom-views-for-the-inbox).
 1. To configure the view, use the conditions shown in the following screenshot.
 
-   :::image type="content" source="../media/configure-consult-inbox-view.png" alt-text="Screenshot of the conditions builder to view consult sessions in inbox.":::
+   :::image type="content" source="../media/configure-consult-inbox-view.png" alt-text="Screenshot of the conditions builder to view consult sessions in the inbox.":::
 
 ## Configure filters to display representatives selectively in consult and transfer scenarios
 
