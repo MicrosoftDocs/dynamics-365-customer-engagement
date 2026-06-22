@@ -110,7 +110,7 @@ Administrator users need column-level permissions on secure columns when they co
 
 You can identify the secure columns by the information icon that's present for the column.
 
-The entities and their secret attributes are as follows. Learn more about the entities and their attributes in [Overview of entities](../develop/reference/entities/overview-entity-ref.md).
+The entities and their secret attributes are as follows. Learn more about the entities and their attributes in [Overview of entities](../develop/reference/about-entity-reference.md).
 
 | Entity | Secret attributes |
 |--------|-------------------|
