@@ -7,18 +7,46 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.3426.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#31234263) | TBD | 06/19 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix2) | [3.12.3426.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#31234263) | 05/29 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix2) | [3.12.3426.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#31234263) | 06/05 |
-| | *USG* | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix2) | [3.12.3426.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#31234263) | 05/27 |
-|**Station 4** |*Europe* | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix2) | [3.12.3426.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#31234263) | 06/12 |
-|**Station 5** |  *North America, Oceania*| [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix2) | [3.12.3426.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#31234263) | 06/19 |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix2) | [3.12.3426.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#31234263) | 06/17 |
-|**Station 6** | *Dedicated Scale Groups* | [3.12.3399.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#31233991-hotfix2) | [3.12.3426.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#31234263) | 06/26 |
+|**Station 1** |  *First Release*| [3.12.4000.8](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240008) | TBD | 07/24 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.3426.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#31234263) | [3.12.4000.8](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240008) | 06/26 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.3426.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#31234263) | [3.12.4000.8](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240008) | 07/03 |
+| | *USG* | [3.12.3426.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#31234263) | [3.12.4000.8](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240008) | 06/24 |
+|**Station 4** |*Europe* | [3.12.3426.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#31234263) | [3.12.4000.8](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240008) | 07/10 |
+|**Station 5** |  *North America, Oceania*| [3.12.3426.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#31234263) | [3.12.4000.8](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240008) | 07/17 |
+|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.3426.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#31234263) | [3.12.4000.8](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240008) | 07/15 |
+|**Station 6** | *Dedicated Scale Groups* | [3.12.3426.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#31234263) | [3.12.4000.8](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240008) | 07/24 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.4000.8
+
+**Resource Scheduling Controls:** 1.2.102.261675
+
+**Dataverse:** 4.0.4000.8
+
+- Partial Cancel for Multiday Bookings: Added the ability to partially cancel multiday bookings in aggregates from the edit booking panel.
+- Configurable Booking Method: Added a configurable booking method setting for the schedule board and schedule assistant.
+- Schedule Optimization — Large Batches: Added support for scheduling large optimization batches.
+- Schedule Assistant Date Formatting: Fixed an issue where Schedule Assistant filter dates didn't respect CRM date format settings.
+- Schedule Board Travel Duration Rendering: Fixed an issue where bookings rendered as an invisible thin line because the renderer used estimated instead of actual travel duration.
+- Lookup Column Filter: Fixed an issue where you couldn't place the caret by mouse click in a lookup column filter input in Chromium.
+- Requirement Panel Duration: Fixed an issue where the remaining duration value in the requirement panel didn't update to match the booking duration.
+- Multiday View Selection: Fixed misaligned selection in multiday views when the board time zone and local PC time zone differ.
+- Schedule Assistant Time Zones: Fixed an issue where Schedule Assistant didn't book the full requirement when the board time zone differed from the resource time zone.
+- Schedule Assistant Search Times: Fixed an issue where search start and end time dropdowns didn't start at 12:00 AM in the filter panel.
+- Aggregate Move and Reassign: Fixed move and reassign independence for aggregated bookings.
+- Read-Only Scheduling Goals: Save and Delete buttons are now hidden or disabled for read-only scheduling goals in list and form views.
+- Select Resources Dialog: Long resource names are no longer truncated without a way to view the full name.
+- Schedule Optimization Status: Fixed issues where the applying/applied status wasn't reflected in the optimization request subgrid and the status reason wasn't shown on the form.
+- Schedule Optimization Apply Results: Fixed an issue where Apply reported success even when it failed, and where booking details incorrectly cached a "Success" status for jobs with apply conflicts.
+- Schedule Optimization Dialog: Fixed multiple optimization dialog issues, including crashes while reviewing a run, the dialog not closing after re-optimize, empty request names, special characters in titles, and filters not resetting.
+- Schedule Optimization Review: Fixed an issue where the review modal failed to display results on a second attempt for large optimizations.
+- Multi-Resource Optimization: Fixed an issue where multi-resource optimization failed when using equipment-type resources, and corrected the 24-hour range messaging.
+- Optimization Role Messaging: Corrected an error message that referenced a nonexistent "Optimization User" role.
+- Schedule Optimization Accessibility: Fixed the aria-disabled state on the optimization context menu.
+- This release contains additional security improvements.
 
 ## 3.12.3426.3
 
