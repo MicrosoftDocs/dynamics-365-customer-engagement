@@ -1,7 +1,7 @@
 ---
-title: View the communication panel for conversations
+title: View the communication panel for conversations in Dynamics 365 Contact Center
 description: Learn what you can do as a representative in the communication panel when you interact with the customer.
-ms.date: 01/19/2026
+ms.date: 06/22/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -17,7 +17,7 @@ The communication panel is where you, as a customer service representative (serv
 
 If you want to minimize the communication panel, select **Minimize**. The communication panel collapses to a window in the left corner of the Active Conversation form, giving you more screen space.
 
-Use the right edge of the communication panel to resize it to your needs. The resized width of the communication panel is channel specific. For example, if you increase the width of the communication panel for chat, the next time you get a chat conversation, you'll see the resized panel. However, the width remains the same for another channel, such as WhatsApp.
+Use the right edge of the communication panel to resize it. The panel width is specific to each channel. For example, if you increase the width for chat, the resized panel appears the next time you receive a chat conversation. The width remains unchanged for other channels, such as WhatsApp.
 
 You can resize the communication panel when it's in the expanded mode only.
 
@@ -36,7 +36,7 @@ Make sure that the **Resizable Communication Panel** check box is selected in Co
 
 ## Enhance productivity by using keyboard commands
 
-The communication panel has options that you can use to perform actions, such as see quick replies, consult, and transfer, and launch notes control. You can also use keyboard commands to perform these actions.
+The communication panel includes options to perform actions such as accessing quick replies, consulting, transferring, and launching notes control. You can also use keyboard commands to perform these actions.
 
 :::image type="content" source="../media/oceh-conversation-control-chat-interface.png" alt-text="Screenshot of the communication panel interface that's available for service representatives.":::
 
@@ -59,11 +59,11 @@ Use the following options to use quick replies in your conversation:
 
 - Select the **Quick replies** button to retrieve the messages and send them to the customers and representatives with whom you consult.
 
-- Use a keyboard command to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q**, the **Quick replies** panel is displayed.
+- Use a keyboard command to access the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q**, the **Quick replies** panel is displayed.
 
 - Select **View all**. The quick replies are displayed in the right pane. You can select a quick reply in the list to send to the customer. You can also choose a language of your choice and search for the quick replies.
 
-   :::image type="content" source="../media/view-all-quick-replies.png" alt-text="Vew all quick replies option that lets you see quick replies in the right pane.":::
+   :::image type="content" source="../media/view-all-quick-replies.png" alt-text="View all quick replies option that lets you access quick replies in the right pane.":::
 
 You or the administrator can create the quick replies. If your administrator enables personal quick replies, you can create them. Your quick replies are available on the **Personal** tab of the **Quick replies** panel. Quick replies created by the administrator are available on the **All** tab. Use the personal quick replies when you're in a conversation with a customer by doing the following steps:
 
@@ -118,7 +118,7 @@ The following events are common to all consult experiences:
 
    :::image type="content" source="../media/consult-primary-agent-view.png" alt-text="View of consult pane for the primary representative.":::
 
-- The secondary representative sees a consultation window on the page with an option to leave. They also have a read-only view of the messages exchanged between the primary representative and customer. Consulting on a chat conversation doesn't affect the secondary representative's capacity.
+- The secondary representative has a consultation window on the page with an option to leave. They also have a read-only view of the messages exchanged between the primary representative and customer. Consulting on a chat conversation doesn't affect the secondary representative's capacity.
 
 - The primary representative can add the secondary representative to the customer conversation by selecting the people icon. The secondary representative can join the customer conversation only after the primary representative selects to add the representative.
 - If the representative refreshes the browser, the consult session isn't reestablished. However, based on the consult type or block capacity setting, the representative capacity continues to be blocked.
@@ -128,7 +128,7 @@ Additionally, the following considerations apply:
 - You can use the UI buttons to collapse and expand the consult pane. When the primary representative selects the option to take notes, the consult pane is in collapsed mode.
 - The primary representative can end the consult or the secondary representative can leave. After that, the secondary representative can't view the interaction between the primary representative and customer.
 
-You can also use a keyboard command to see the list of representatives and or supervisors who are available for consultation. Type the forward slash (/) key and the letter c (**/c**). Type forward slash and the letters caq (**/caq**) to view the list of queues.
+Use a keyboard command to see the list of representatives and supervisors who are available for consultation. Type the forward slash (/) key and the letter c (**/c**). Type forward slash and the letters caq (**/caq**) to view the list of queues.
 
 > [!NOTE]
 > We recommend that you invite no more than five consulting representatives when conversing with the customer.
@@ -167,13 +167,13 @@ In the communication panel, you can transfer the work item to a representative o
 > [!NOTE]
 > When you transfer a conversation to a queue, the assignment strategy runs to find the best representative in the queue. If the queue doesn't have any representatives, the application automatically sets the status of the conversation to Closed.
 
-After the transfer is complete, the representative who initiated the transfer can't participate in the conversation any more. The primary representative's capacity and presence status are updated accordingly.
+After the transfer is complete, the representative who initiated the transfer can't participate in the conversation anymore. The primary representative's capacity and presence status are updated accordingly.
 
 Representatives whose presence is set to Busy-DND, Away, or Offline don't appear in the representative list of the transfer pane.
 
-Use the keyboard command to see the list of representatives and the supervisor who is available for transfer. Type the forward slash (/) key and the letter t (**/t**).
+Use the keyboard command to access the list of representatives and the supervisor who is available for transfer. Type the forward slash (/) key and the letter t (**/t**).
 
-Use the keyboard command to see the list of queues to transfer the conversation request. Press the forward slash (/) key and the letters T and Q (**/tq**).
+Use the keyboard command to access the list of queues to transfer the conversation request. Press the forward slash (/) key and the letters T and Q (**/tq**).
 
 **/t** (forward slash, letter t) launches the **Representatives** and **Queues** tabs. Select a tab and then select the representative or the queue from the list to transfer the conversation. The **/t** command keeps the focus on the **Representatives** tab whereas the **/tq** command keeps the focus on the **Queues** tab.
 
@@ -191,11 +191,19 @@ After you type **/t** or **/tq** in the communication panel messaging area, you 
 
 **/taq** (forward slash, letter t, letter a, letter q) helps you search for the queue in the **Representatives** tab of the transfer window.
 
+## Use pinned contacts and queues during consult and transfer
+
+If your administrator enabled pins, you can access pinned items during an active voice or chat conversation when you start a consult or transfer. The **Pinned** tab displays administrator-pinned items first, followed by your personal pins.
+
+During a consult or transfer when on an active call, search for and pin an external contact or a queue. You can pin and unpin your personal pinned items only by selecting the pin icon in the right corner of the contact or queue. Administrator-set pins for you are greyed out and can't be altered.
+
+When you're consulting with or transferring directly to a queue, you can pin or unpin personal queue pins. When you're consulting or transferring to another representative, though pinned queues are visible, you can't modify them. Pinned queues are visible based on the active workstream. Chat conversations show chat-enabled queues only, while voice conversations show voice-enabled queues. Some pinned queues might not appear if they aren't compatible with the active channel.
+
 ## Take notes specific to conversations
 
 Use the notes option to capture information specific to the conversation when you interact with customers. Use the More commands option in the communication panel to launch the notes.
 
-To learn more, see [Take notes specific to conversation](oc-take-notes.md).
+Learn more in [Take notes specific to conversation](oc-take-notes.md).
 
 ## Link to conversations
 
@@ -204,19 +212,19 @@ To learn more, see [Take notes specific to conversation](oc-take-notes.md).
 
 When you have a conversation with a customer, you can use the link option that's at the bottom of the conversation control to link the conversation to the case, account, or contact record.
 
-To learn more, see [Search, link, and unlink a record to the conversation](oc-search-link-unlink-record.md).
+Learn more in [Search, link, and unlink a record to the conversation](oc-search-link-unlink-record.md).
 
 ## Monitor real-time customer satisfaction
 
 As a representative, you can view the real-time customer satisfaction levels on the communication panel. A sentiment icon is displayed at the top of the communication panel based on the previous six customer messages sent to you.
 
-To learn more, see [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
+Learn more in [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md).
 
 ## Close or end a conversation
 
 When you select the close button (**X**) to close the communication panel, a confirmation message appears to let you know that the session will end. Select **Close** on the dialog if you want to end the session.
 
-When you select the **End** button, the conversation ends, and the customer receives a message that the service representative has ended the conversation.
+When you select the **End** button, the conversation ends, and the customer receives a message that the service representative ended the conversation.
 
 :::image type="content" source="../media/conversation-end-close.png" alt-text="Screenshot of the communication channel with the close and end options.":::
 

@@ -640,6 +640,8 @@
         href: presence-custom-presence.md
       - name: Enable transfer of conversations
         href: enable-transfer-consult.md
+      - name: Manage pins for queues, external contacts
+        href: enable-transfer-consult.md#manage-pins
       - name: Configure file attachments
         href: configure-file-attachment.md
       - name: Enable file attachments
