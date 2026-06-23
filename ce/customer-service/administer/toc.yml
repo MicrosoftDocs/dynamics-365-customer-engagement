@@ -536,12 +536,14 @@
             href: case-management-global-settings.md
           - name: Enable email classification
             href: configure-email-classification.md
-          - name: Set up Case Management Agent to create and update cases 
+          - name: Set up Case Management Agent to create and update cases
             href: set-up-autonomous-case-agents.md
           - name: Set up Case Management Agent to resolve cases
-            href: set-up-case-resolution-agent.md  
+            href: set-up-case-resolution-agent.md
           - name: Set up Case Management Agent to follow up and close cases
-            href: set-up-case-closure.md  
+            href: set-up-case-closure.md
+          - name: Configure email resolution to resolve cases (preview)
+            href: configure-email-resolution.md
       - name: Customer Knowledge Management Agent
         items:
         - name: Manage Customer Knowledge Management Agent
