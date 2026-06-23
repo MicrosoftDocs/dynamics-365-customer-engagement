@@ -38,7 +38,7 @@ Review the following prerequisites before you start using work lists:
 > [!NOTE]
 > Although [predictive lead scoring](configure-predictive-lead-scoring.md) and [predictive opportunity scoring](configure-predictive-opportunity-scoring.md) aren't required for work lists, the work list functionality described in this topic assumes that these features are enabled and models generated for your organization. Contact your administrator to enable these features.
 
-## View my records by using the work list<a name="view-my-records-through-work-list"></a>  
+## View your records by using the work list<a name="view-my-records-through-work-list"></a>  
 
 The work list displays a list of records that are assigned to you or the security role you're associated with. The records display activities that are due for the current date or pending from previous dates that were created manually or through a sequence. This feature helps you access all records that include activities in one place, instead of navigating across multiple forms in the application. A sales manager can configure and determine the entities to display to you in the work list. The top of the record in the work list is always the next-best customer with the highest prediction score.
 
@@ -64,7 +64,7 @@ The work list displays a list of records that are assigned to you or the securit
 
 ### Filter
 
-Use filters to prioritize the records in the work list so you can reach customers at the right time. The following image shows the list of options that are available to filter the work list.
+Use filters to prioritize the records in the work list so you can reach customers at the right time. The following image shows the list of options that you can use to filter the work list.
 
 :::image type="content" source="media/sa-worklist-filter-options.png" alt-text="Screenshot of the work list filter options.":::    
  
@@ -130,6 +130,9 @@ Select **More options** (&vellip;) to perform the following actions:
 The bulk email feature helps you optimize your work by sending the same email to a list of leads simultaneously. The leads need to have the same email step from the same sequence attached to all their records.
 
 For example, let's say 10 leads have a sequence step to send an introduction email, and this step is pending for today. By using the bulk email feature, you can select all or some of the 10 leads and send them the introduction email all at once.
+
+> [!NOTE]
+> You must have the `delete` permission for the `email` entity to use the bulk email feature. 
 
 **To send bulk email**
 
