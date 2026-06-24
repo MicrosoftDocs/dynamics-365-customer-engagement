@@ -1,7 +1,7 @@
 ---
 title: Set defaults for work orders, bookings, the schedule board, and agreements
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 02/26/2026
+ms.date: 06/24/2026
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -188,5 +188,14 @@ Inspections are forms that technicians use to answer a list of questions as part
 | Enable Address Suggestions   | Enable this setting to get suggestions when entering the addresses in various forms.  |
 | Product cost order   | Choose the order for product cost.   |
 | Work Order Subgrid Records Open as Popups | Specify if work order subgrid records open as a popup on work order form. Subentities of the work order entity: work order product, work order service, work order service task, work order incident, bookable resource booking, and time entry.   |
+
+## Related information
+
+If you run into issues when configuring Field Service settings, see the following troubleshooting articles:
+
+- [A user has no roles](/troubleshoot/dynamics-365/field-service/administration/user-has-no-roles)
+- [Can't install Field Service](/troubleshoot/dynamics-365/field-service/administration/cant-install-field-service)
+- [Disable automatic geocoding](/troubleshoot/dynamics-365/field-service/administration/disable-auto-geo-code)
+- [Date window fields are missing](/troubleshoot/dynamics-365/field-service/administration/date-window-fields-missing)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

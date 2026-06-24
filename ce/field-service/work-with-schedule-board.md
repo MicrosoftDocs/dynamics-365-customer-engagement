@@ -1,7 +1,7 @@
 ---
 title: Use the schedule board in Field Service
 description: Learn about the schedule board experience in Dynamics 365 Field Service.
-ms.date: 06/03/2026
+ms.date: 06/24/2026
 ms.custom: bap-template
 ms.topic: how-to
 author: mkelleher-msft
@@ -69,5 +69,14 @@ Learn more about setting up work hours in [Set up bookable resources](set-up-boo
 - [Drag and drop scheduling](schedule-board-drag-drop.md)
 - [Manual scheduling](schedule-board-manual-scheduling.md)
 - [Review resource utilization](schedule-board-utilization.md)
+
+## Related information
+
+If you run into issues with the schedule board, see the following troubleshooting articles:
+
+- [Schedule board isn't loading](/troubleshoot/dynamics-365/field-service/scheduling/schedule-board-not-loading)
+- [Schedule board performance issues](/troubleshoot/dynamics-365/field-service/scheduling/schedule-board-performance)
+- [Schedule board is missing resources](/troubleshoot/dynamics-365/field-service/scheduling/schedule-board-missing-resources)
+- [Schedule board shows NaN or datetime errors](/troubleshoot/dynamics-365/field-service/scheduling/schedule-board-nan-datetime)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

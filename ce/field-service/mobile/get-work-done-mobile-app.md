@@ -3,7 +3,7 @@ title: Work with the mobile app (Unified Interface)
 description: Learn how to use the Dynamics 365 Field Service mobile app to plan your work day, track your work orders, and view customer details.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 03/11/2025
+ms.date: 06/24/2026
 author: JonBaker007
 ms.author: jobaker
 ms.reviewer: v-wendysmith
@@ -118,5 +118,13 @@ Select your profile icon in the upper-left corner, select **Reconfigure**, and c
 :::image type="content" source="../media/mobile-2020-offline-reconfigure.png" alt-text="Rendering of a mobile device showing the Reconfigure option in the Field Service mobile app.":::
 
 A synchronization of all data occurs, which can take some time. To avoid excessive data usage, don't reconfigure the app unless necessary.
+
+## Related information
+
+If you run into issues with the Field Service mobile app, see the following troubleshooting articles:
+
+- [Field Service mobile app common issues](/troubleshoot/dynamics-365/field-service/mobile-app/mobile-app-common-issues)
+- [Incorrect or missing data in offline mode](/troubleshoot/dynamics-365/field-service/mobile-app/incorrect-missing-data-offline-mode)
+- [WebView reset errors](/troubleshoot/dynamics-365/field-service/mobile-app/webview-reset)
 
 [!INCLUDE [footer-include](../../includes/footer-banner.md)]
