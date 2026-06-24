@@ -1,7 +1,7 @@
 ---
 title: Work order architecture
 description: Understand work order architecture across creation, scheduling, execution, and completion.
-ms.date: 06/18/2026
+ms.date: 06/24/2026
 author: jshotts
 ms.author: jasonshotts
 ms.topic: concept-article
@@ -28,11 +28,11 @@ The following diagram illustrates the entities, attributes, and relationships th
 
 The **Work Order** entity contains the details of the job that needs to be completed, such as work order type, status, duration, and priority.
 
-Work orders are related to an [**Account** entity](accounts.md). Specifying a **Service Account** on the work order adds related account information like territory, address, and service and billing defaults.
+Work orders can be related to an [**Account** entity](accounts.md) through the **Service Account** field. When a Service Account is specified, the work order can use related account information such as service address, territory, billing defaults, tax settings, and work instructions. Administrators can configure whether Service Account is required by Work Order Type, which lets account-based work continue to require an account while other work order types support service context from another source. For more information, go to [Configure service account requirements for work orders](configure-service-account-requirements-work-orders.md).
 
 [**Service Agreements**](set-up-customer-agreements.md) automatically generate recurring work orders. A service agreement can be associated with one service account. That means that all work orders that are generated as part of a service agreement are associated with that service account location. The type of work to be done and assets involved can vary.
 
-[**Customer Assets**](assets.md) are pieces of equipment at the service account location. Work orders that are related to the maintenance, inspection, and repair of a customer asset should correlate to the asset's service account.
+[**Customer Assets**](assets.md) are pieces of equipment associated with a customer or service location. Work orders that are related to the maintenance, inspection, and repair of a customer asset should keep the asset, location, and customer context aligned. In account-based scenarios, that often means correlating the work order to the asset's Service Account. For work order types where Service Account isn't required, use the appropriate asset, functional location, contact, project, or other process-specific fields to preserve service context.
 
 Beyond adding basic details and an account to a work order, you can add **Revenue and Cost** items that better define the specific work to be done. **Work Order Incidents** are a defined package of recommended service tasks, products, services, and characteristics, or skills, that makes creating a work order faster. Instead of manually adding them to a work order, you can add an incident that effectively serves as a template to populate service tasks, products, services, and characteristics.
 

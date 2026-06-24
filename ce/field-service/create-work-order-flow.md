@@ -1,7 +1,7 @@
 ---
 title: Create work orders using Power Automate
 description: Learn how to automatically create work orders in Dynamics 365 Field Service using Power Automate flows with the Dataverse connector.
-ms.date: 04/06/2026
+ms.date: 06/24/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -21,10 +21,10 @@ Power Automate flows use the **Microsoft Dataverse** connector to interact with 
 - At least one of the following Field Service security roles assigned to the flow's connection account. Learn more in [Set up users and security roles](users-licenses-permissions.md).
   - Field Service - Dispatcher
   - Field Service - Administrator
-- Existing records for the required lookup fields:
-  - **Service Account** (`account` entity)
+- Existing records for the lookup fields used by your work order process:
   - **Work Order Type** (`msdyn_workordertype` entity)
-  - **Price List** (`pricelevel` entity)
+  - **Price List** (`pricelevel` entity), if required by your process
+  - **Service Account** (`account` entity), if the selected Work Order Type requires Service Account or if you want account-derived context
 
 ## Option 1: Create a work order when a Dataverse record changes
 
@@ -64,14 +64,14 @@ Use this pattern to create a work order in response to a change in another Datav
    | Field | Value |
    |---|---|
    | **Work Order Number** | Enter the expression `guid()` as a placeholder. The Work Order Number field is required by the Dataverse connector UI, but Field Service's autonumber plugin automatically assigns the correct sequential work order number when the record is saved. To enter an expression, select the field, switch to the **Expression** tab in the dynamic content panel, type `guid()`, and select **OK**. |
-   | **Service Account** | Select the account using the search field, or enter the expression `concat('/accounts(', 'service-account-guid', ')')` in the **Expression** tab if you need to use a hardcoded or dynamic GUID. See below for how to find this. |
+   | **Service Account** | Required only when the selected Work Order Type requires Service Account. Select the account using the search field, or enter the expression `concat('/accounts(', 'service-account-guid', ')')` in the **Expression** tab if you need to use a hardcoded or dynamic GUID. Leave this field blank for work order types where Service Account isn't required and the work order uses another service context. |
    | **Work Order Type** | Select the work order type using the search field, or enter the expression `concat('/msdyn_workordertypes(', 'work-order-type-guid', ')')` in the **Expression** tab if you need to use a hardcoded or dynamic GUID. See below for how to find this. |
    | **Price List** | Select the price list using the search field, or enter the expression `concat('/pricelevels(', 'your-price-list-guid', ')')` in the **Expression** tab if you need to use a hardcoded or dynamic GUID. If you retrieve the price list dynamically using a **List rows** action inside a **For each** loop, use `concat('/pricelevels(', items('YourLoopName')?['pricelevelid'], ')')` instead, replacing `YourLoopName` with your loop's name. See below for how to find this. |
    | **System Status** | `690970000` (Unscheduled) |
    | **Taxable** | `false` |
    | **Instructions** | Use dynamic content from the trigger, for example the asset name |
 
-   **Service Account**: Type the account name directly in the **Service Account** field to search for and select it. If the trigger is a Customer Asset change and the asset is linked to an account, you can instead select **Account (Customer Assets)** from the dynamic content panel. If you need to use a GUID directly, go to **Service** area > **Customers** > **Accounts** in Field Service, open the account, and copy the record ID from the browser URL (the value between `%7B` and `%7D`, or the plain GUID if the URL is unencoded).
+   **Service Account**: Type the account name directly in the **Service Account** field to search for and select it. If the trigger is a Customer Asset change and the asset is linked to an account, you can instead select **Account (Customer Assets)** from the dynamic content panel. If you need to use a GUID directly, go to **Service** area > **Customers** > **Accounts** in Field Service, open the account, and copy the record ID from the browser URL (the value between `%7B` and `%7D`, or the plain GUID if the URL is unencoded). For more information about when Service Account is required, go to [Configure service account requirements for work orders](configure-service-account-requirements-work-orders.md).
 
    **Work Order Type**: Type the work order type name directly in the **Work Order Type** field to search for and select it. If you need to use a GUID directly, go to **Settings** area > **Work Order** > **Work Order Types** in Field Service, open the work order type, and copy the record ID from the browser URL.
 
@@ -105,9 +105,11 @@ Use this pattern to create a work order from an external system, such as a custo
        "priceListId": { "type": "string" },
        "instructions": { "type": "string" }
      },
-     "required": ["serviceAccountId", "workOrderTypeId", "priceListId"]
+     "required": ["workOrderTypeId", "priceListId"]
    }
    ```
+
+   Include `serviceAccountId` when the selected Work Order Type requires Service Account or when you want the work order to use account-derived context. Omit it for work order types where Service Account isn't required.
 
 1. For **Who can trigger the flow**, select one of the following options:
 
@@ -127,9 +129,9 @@ Use this pattern to create a work order from an external system, such as a custo
    Content-Type: application/json
 
    {
-     "serviceAccountId": "<account record GUID>",
      "workOrderTypeId": "<work order type record GUID>",
      "priceListId": "<price list record GUID>",
+     "serviceAccountId": "<optional account record GUID>",
      "instructions": "Reported issue: equipment not functioning"
    }
    ```
@@ -149,7 +151,7 @@ Use this pattern to create a work order from an external system, such as a custo
    | Work order field | Value |
    |---|---|
    | **Work Order Number** | Enter the expression `guid()` as a placeholder. The Work Order Number field is required by the Dataverse connector UI, but Field Service's autonumber plugin automatically assigns the correct sequential work order number when the record is saved. To enter an expression, select the field, switch to the **Expression** tab in the dynamic content panel, type `guid()`, and select **OK**. | 
-   | **Service Account** | `concat('/accounts(', triggerBody()?['serviceAccountId'], ')')` |
+   | **Service Account** | Use `concat('/accounts(', triggerBody()?['serviceAccountId'], ')')` only when `serviceAccountId` is provided. If Service Account isn't required for the selected Work Order Type and the request doesn't include `serviceAccountId`, don't map this lookup field. |
    | **Work Order Type** | `concat('/msdyn_workordertypes(', triggerBody()?['workOrderTypeId'], ')')` |
    | **Price List** | `concat('/pricelevels(', triggerBody()?['priceListId'], ')')` |
    | **System Status** | `690970000` (Unscheduled) |

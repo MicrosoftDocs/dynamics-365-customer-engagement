@@ -1,7 +1,7 @@
 ---
 title: Create work orders from an agreement
 description: Learn how agreements automatically generate work orders in Dynamics 365 Field Service, how to verify generation, and how to manually trigger work order creation from a booking date.
-ms.date: 03/24/2026
+ms.date: 06/24/2026
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -35,6 +35,8 @@ The generated work order inherits key values from the agreement and the ABS:
 | **Service Tasks** | **Work Order Service Tasks** |
 | **Pre/Post Booking Flexibility** | **Date Window Start / Date Window End** |
 | **Time Window Start / End** | **Time Window Start / End** |
+
+Agreements commonly use a Service Account because recurring service is often tied to an account, site, or customer location. If your organization configures a Work Order Type that allows work orders without Service Account, validate the agreement and booking setup behavior before using it for recurring work generation. Make sure generated work orders include the required location, billing, price list, territory, and service context for your process. For more information, go to [Configure service account requirements for work orders](configure-service-account-requirements-work-orders.md).
 
 ## Prerequisites
 
@@ -96,6 +98,10 @@ If you configured **Auto Generate Booking** on the ABS, the work order is automa
 **Booking dates exist but no work order link appears**
 
 The booking date status shows **Active** until the date falls within the generation window. Check whether today's date is within the **Generate Work Orders Day in Advance** window relative to the booking date.
+
+**Generated work orders are missing account-derived details**
+
+If generated work orders don't have a Service Account, confirm that the Work Order Type allows work orders without Service Account. Then verify how your agreement or booking setup provides details that are commonly derived from Service Account, such as service territory, price list, billing context, tax settings, or work instructions.
 
 **Generated work orders are missing products, services, or service tasks**
 

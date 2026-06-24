@@ -162,6 +162,8 @@ items:
       href: work-order-experience.md
     - name: Create a new work order
       href: create-work-order.md
+    - name: Configure service account requirements
+      href: configure-service-account-requirements-work-orders.md
     - name: Create a work order from a case
       href: create-work-order-from-case.md
     - name: Create a work order from an agreement

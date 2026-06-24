@@ -15,6 +15,8 @@ A work order in Dynamics 365 Field Service has information on what work needs to
 
 The system determines the work order's location by looking at a manually entered **Service address** first, then the address from the [**Functional location**](functional-locations.md) if set, then the **Service Address** from the account.
 
+The **Service Account** requirement depends on the selected **Work Order Type**. For account-based service processes, Service Account can provide important defaults such as service address, billing account, price list, tax settings, service territory, and work instructions. If the selected Work Order Type allows work orders without Service Account, you can create a work order without selecting an account. In that case, enter the required service, billing, location, and scheduling details directly on the work order or through the related records used by your process.
+
 Once a work order is created, it gets scheduled either manually, with the [schedule assistant](schedule-assistant.md), or the [Resource Scheduling Optimization add-in](rso-overview.md). After the work is complete, a supervisor reviews and approves it.
 
 ## Choose a work order creation method
@@ -51,11 +53,14 @@ You need to have at least one of the following Field Service security roles:
 
 1. At a minimum, enter information in the following required fields.
 
-    - For **Service Account**, select an account from the list or [create a new service account](accounts.md).
+    - For **Service Account**, select an account from the list or [create a new service account](accounts.md) if the selected **Work Order Type** requires one. If the selected Work Order Type allows work orders without Service Account, leave the field blank when the work order uses another service context.
     - For **Work Order Type**, select a work order type from the list or [create a new work order type](create-work-order-types.md).
     - For **System Status**, select **Unscheduled**.
     - For **Price List**, select a price list from list or [create a new price list](create-price-list.md).
     - If [taxes are enabled](set-up-tax-codes.md), choose if the work order is **Taxable** or not. If the work order isn't taxable, work order products and services aren't considered taxable either, regardless of the taxable setting on the product or service.
+
+    > [!TIP]
+    > If you're creating work orders for B2C service, internal maintenance, project-centered work, or another process where service context doesn't always come from an account, ask your Field Service administrator whether the appropriate Work Order Type allows work orders without Service Account. For more information, go to [Configure service account requirements for work orders](configure-service-account-requirements-work-orders.md).
 
 1. Provide optional information for the work order such as service tasks, products, services, or knowledge articles. You can also add this information later.
 

@@ -1,7 +1,7 @@
 ---
 title: "Create work orders using the Dataverse Web API"
 description: "Learn how to create one or multiple work orders in Dynamics 365 Field Service using the Dataverse Web API with HTTP/JSON examples."
-ms.date: 04/07/2026
+ms.date: 06/24/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -18,10 +18,10 @@ This article provides examples of creating work orders in Dynamics 365 Field Ser
 
 - A Dynamics 365 Field Service environment with the Web API endpoint (for example, `https://yourorg.api.crm.dynamics.com/api/data/v9.2/`).
 - An authenticated request using OAuth 2.0. Learn more in [Authenticate to Dataverse with the Web API](/power-apps/developer/data-platform/webapi/authenticate-web-api).
-- Existing records for the required lookup fields:
-  - **Service Account** (`account` entity)
+- Existing records for the lookup fields used by your work order process:
   - **Work Order Type** (`msdyn_workordertype` entity)
-  - **Price List** (`pricelevel` entity)
+  - **Price List** (`pricelevel` entity), if required by your process
+  - **Service Account** (`account` entity), if the selected Work Order Type requires Service Account or if you want account-derived context
 
 > [!IMPORTANT]
 > The GUIDs in the following examples are fictitious. Replace them with the actual record IDs from your Dynamics 365 environment.
@@ -29,6 +29,8 @@ This article provides examples of creating work orders in Dynamics 365 Field Ser
 ## Create a single work order
 
 Send a `POST` request to the `msdyn_workorders` entity set to create a work order. Learn more in [Create a table row using the Web API](/power-apps/developer/data-platform/webapi/create-entity-web-api).
+
+The examples in this article include Service Account. If the selected Work Order Type allows work orders without Service Account, omit `msdyn_serviceaccount@odata.bind` when the work order uses another service context. For more information, go to [Configure service account requirements for work orders](configure-service-account-requirements-work-orders.md).
 
 ### HTTP request
 
@@ -53,6 +55,29 @@ Authorization: Bearer <access_token>
 ### HTTP response
 
 A successful request returns `HTTP 204 No Content` with a `OData-EntityId` header containing the URL of the new work order record.
+
+### Create a work order without Service Account
+
+Use this pattern only when the selected Work Order Type allows work orders without Service Account.
+
+```http
+POST [Organization URL]/api/data/v9.2/msdyn_workorders
+Accept: application/json
+Content-Type: application/json
+OData-MaxVersion: 4.0
+OData-Version: 4.0
+Authorization: Bearer <access_token>
+
+{
+  "msdyn_workordertype@odata.bind": "/msdyn_workordertypes(a1b2c3d4-5678-9abc-def0-1234567890cd)",
+  "msdyn_pricelist@odata.bind": "/pricelevels(f1e2d3c4-5678-9abc-def0-1234567890ef)",
+  "msdyn_systemstatus": 690970000,
+  "msdyn_taxable": false,
+  "msdyn_instructions": "Internal maintenance request"
+}
+```
+
+When Service Account is omitted, include the location, billing, contact, and service context required by your process through the appropriate work order fields or related records.
 
 ## Create multiple work orders
 
@@ -141,11 +166,11 @@ Common error responses when creating work orders:
 
 | Status Code | Reason | Resolution |
 |---|---|---|
-| `400 Bad Request` | Missing required fields or invalid field values. | Verify that all required fields (`msdyn_serviceaccount`, `msdyn_workordertype`, `msdyn_pricelist`, `msdyn_systemstatus`, `msdyn_taxable`) are included with valid values. |
+| `400 Bad Request` | Missing required fields or invalid field values. | Verify that all fields required by your selected Work Order Type and business process are included with valid values. `msdyn_serviceaccount` is required when the selected Work Order Type requires Service Account. It can be omitted only when the selected Work Order Type allows work orders without Service Account. |
 | `400 Bad Request` (code `0x80060888`) | Lookup field value is a bare GUID without an entity set path. | Use the full OData entity reference format, for example `/accounts(guid)` instead of just the GUID. |
 | `401 Unauthorized` | Missing or expired access token. | Refresh or obtain a new OAuth 2.0 access token. |
 | `403 Forbidden` | Insufficient privileges. | Ensure the user has the **Field Service - Dispatcher** or **Field Service - Administrator** security role. |
-| `404 Not Found` | A referenced lookup record doesn't exist. | Verify that the GUIDs for Service Account, Work Order Type, and Price List reference existing records. |
+| `404 Not Found` | A referenced lookup record doesn't exist. | Verify that the GUIDs for referenced lookup records, such as Service Account, Work Order Type, and Price List, reference existing records. If you omit Service Account, confirm that the selected Work Order Type allows work orders without Service Account. |
 
 ## Related content
 

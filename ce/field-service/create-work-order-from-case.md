@@ -1,7 +1,7 @@
 ---
 title: Create a work order from a case
 description: Learn how to create a work order from a case in Dynamics 365 Field Service using the Case to Work Order business process flow.
-ms.date: 02/27/2026
+ms.date: 06/24/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -38,7 +38,7 @@ A work order in Dynamics 365 Field Service can be created from a case using the 
 
 1. On the new work order form, verify or fill in the required fields:
 
-   - **Service Account**: Populated from the case's customer account.
+   - **Service Account**: Populated from the case's customer account when one is available and when the selected Work Order Type requires or uses Service Account. If the case is associated with a contact or another customer model and the selected Work Order Type allows work orders without Service Account, you can create the work order without selecting a Service Account.
    - **Work Order Type**: Select a work order type from the list or [create a new work order type](create-work-order-types.md).
    - **Price List**: Select a price list from the list or [create a new price list](create-price-list.md).
    - **System Status**: Set to **Unscheduled** by default.
@@ -49,6 +49,8 @@ A work order in Dynamics 365 Field Service can be created from a case using the 
    - The case's **Incident Type** maps to the work order's **Primary Incident Type**.
    - The case's **Description** maps to the work order's **Instructions**.
    - The case's **Functional Location** maps to the work order's **Functional Location**.
+
+   For contact-centered cases, confirm that the resulting work order includes the information your process requires, such as contact, service address, functional location, billing context, and price list. These details can come from the work order or related records when Service Account isn't selected. For more information, go to [Configure service account requirements for work orders](configure-service-account-requirements-work-orders.md).
 
 1. Select **Save** or **Save and Close**.
 
