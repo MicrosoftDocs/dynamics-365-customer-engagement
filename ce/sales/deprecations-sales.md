@@ -1,7 +1,7 @@
 ---
 title: Removed or deprecated features in Dynamics 365 Sales
 description: Visit this page to see the deprecating features in Dynamics 365 Sales.
-ms.date: 06/16/2026
+ms.date: 06/25/2026
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -106,5 +106,10 @@ You can create your own cards using Power Automate. [Learn more](create-insight-
 ## Rank optimization of insight cards
 
 Effective October 1, 2023, the rank optimization feature of insights cards is deprecated. Any ranking rules that you might have set up are no longer available and won't apply to insight cards. To optimize and prioritize the cards, turn off those cards that aren't in use.
+
+## Sales Insights Add-on
+
+The standalone Sales Insights Add-on package was deprecated in 2023 and is no longer supported. You can access Sales Insights capabilities through the primary Sales Insights solution in Dynamics 365 Sales instead of separate Sales Insights Anchor and Sales Insights Add-on packages that customers install on demand. This consolidation simplifies deployment and improves installation. 
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
