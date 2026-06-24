@@ -1,8 +1,8 @@
-The schedule board can be customized and extended to meet business needs. For example, resource information, fields in the filter pane, or sort options.
+You can customize and extend the schedule board to meet your business needs. For example, you can customize resource information, fields in the filter pane, or sort options.
 
 Consider the following customization scenario:
 
-Each bookable resource has a cost based on factors like seniority and certification level. Dispatchers would like to see the general cost of their resources, along with the ability to filter and sort by cost. Rather than use an exact resource cost, this scenario uses a relative cost score from 1 (lowest resource cost) to 10 (highest resource cost). We use the scope in the resource cell, the filter panel, and in the sort options.
+Each bookable resource has a cost based on factors like seniority and certification level. Dispatchers want to see the general cost of their resources, along with the ability to filter and sort by cost. Rather than use an exact resource cost, this scenario uses a relative cost score from 1 (lowest resource cost) to 10 (highest resource cost). Use the scope in the resource cell, the filter panel, and in the sort options.
 
 ## Step 1: Add the new attribute to the bookable resource table
 
@@ -18,17 +18,20 @@ Each bookable resource has a cost based on factors like seniority and certificat
    - **Sync this choice with**: **Level of Importance** to use a list of values from 1 to 10
    - **Schema name**: tsp_resourcecost
 
+   >[!TIP]
+   > You might have to select **Advanced options** to enter the schema name.
+
 1. Select **Save**.
 
 1. [Add the newly created field to the form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form#add-columns-to-a-form) before you **Publish** the changes.
 
 ## Step 2: Modify the resource cell template
 
-The resource cost indicator should be displayed in the resource cell template. [Font Awesome](https://fontawesome.com/) can be used to display icons, such as €, $, £.
+The resource cost indicator should appear in the resource cell template. Use [Font Awesome](https://fontawesome.com/) to display icons, such as €, $, or £.  
 
-The HTML first draws five gray icons as a background, and then yellow icons as foreground. The number of the foreground icons is mapped to the value of the resource cost. For example, a resource cost value of 2 is 20%, so only one of the five yellow Euro icons shows.
+The HTML first draws five gray icons as a background, and then yellow icons as a foreground. The number of the foreground icons maps to the value of the resource cost. For example, a resource cost value of 2 is 20%, so only one of the five yellow Euro icons shows.  
 
-1. In the **Field Service** or **Resource Scheduling** app, go to the schedule board that you want to add the new resource cost attribute to.
+1. In the **Field Service** or **Resource Scheduling** app, go to the schedule board where you want to add the new resource cost attribute.  
 
 1. Select **Scheduler settings** > **All board settings**.
 
@@ -128,11 +131,11 @@ Define a maximum cost score when filtering and searching for resources and sorti
 
 ## Step 4: Modify the query
 
-Modify the actual query and include the new filter. In the Board settings, under **Other**, go to **Retrieve resource query**, edit the default query, and copy the entire code. Then, create a custom template and paste the default code. The default code is lengthy. The following are only the code snippets to paste within an existing resource query.
+Modify the query to include the new filter. In the **Board settings** under **Other**, go to **Retrieve resource query**, edit the default query, and copy the entire code. Then, create a custom template and paste the default code. The default code is lengthy. The following snippets show the code to paste within an existing resource query.
 
-After `<entity name="bookableresource">`, insert `<attribute name="tsp_resourcecost" alias="resourcecost" groupby="true"/>`
+After `<entity name="bookableresource">`, insert `<attribute name="tsp_resourcecost" alias="resourcecost" groupby="true"/>`.
 
-After `the last </filter> tag of the <!-- Territory filter -->`, insert the following code snippet:
+After the last `</filter>` tag of the `<!-- Territory filter -->` section, insert the following code snippet:
 
 ```UFX
 <filter type="or" ufx:if="$input/ResourceCost">
@@ -143,11 +146,11 @@ After `the last </filter> tag of the <!-- Territory filter -->`, insert the foll
 
 ```
 
-   :::image type="content" source="../../field-service/media/../../field-service/media/schedule-board-tab-settings-resource-query-snippet2.png" alt-text="Screenshot of code edit to resource query, filter type.":::
+   :::image type="content" source="../../field-service/media/schedule-board-tab-settings-resource-query-snippet2.png" alt-text="Screenshot of code edit to resource query, filter type.":::
 
 ## Step 5: Test your new schedule board
 
-Go to the schedule board. A maximum cost factor of 5 and an ascending sort order based on cost is available.
+Go to the schedule board. You can use a maximum cost factor of 5 and an ascending sort order based on cost.
 
 > [!NOTE]
 > The schedule board user interface isn't supported within the Power Apps Maker Portal. Use the schedule board in the app itself.
