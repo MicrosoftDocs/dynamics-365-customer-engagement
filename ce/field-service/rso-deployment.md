@@ -1,7 +1,7 @@
 ---
 title: Deploy the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service
 description: Learn how to deploy and manage the deployment for the Resource Scheduling Optimization add-in for Dynamics 365 Field Service.
-ms.date: 11/11/2025
+ms.date: 06/24/2026
 ms.topic: how-to
 ms.custom: bap-template
 ms.subservice: resource-scheduling-optimization
@@ -49,5 +49,14 @@ Learn how to [configure Resource Scheduling Optimization in your environment](./
 
 - [Quickstart for Resource Scheduling Optimization](rso-quickstart.md)
 - [Resource Scheduling Optimization configuration](rso-configuration.md)
+
+## Related information
+
+If you run into issues with Resource Scheduling Optimization, see the following troubleshooting articles:
+
+- [Troubleshoot RSO deployment](/troubleshoot/dynamics-365/field-service/rso/troubleshoot-rso-deployment)
+- [A requirement isn't scheduled in RSO](/troubleshoot/dynamics-365/field-service/rso/requirement-not-scheduled-in-rso)
+- [User lacks privileges error](/troubleshoot/dynamics-365/field-service/rso/user-lacks-privileges-error)
+- [SAS key isn't configured error](/troubleshoot/dynamics-365/field-service/rso/sas-key-not-configured-error)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

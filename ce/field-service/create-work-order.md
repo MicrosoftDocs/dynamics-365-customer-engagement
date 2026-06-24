@@ -1,7 +1,7 @@
 ---
 title: Create a work order
 description: Learn the different ways to create a work order in Dynamics 365 Field Service, including manually, from a case, agreement, opportunity, Power Automate, or API.
-ms.date: 03/27/2026
+ms.date: 06/24/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -99,5 +99,13 @@ To create multiple work orders using API, learn more in [Create work orders usin
 
 - [Create work order types](create-work-order-types.md)
 - [Set up booking statuses](set-up-booking-statuses.md)
+
+## Related information
+
+If you run into issues when creating work orders, see the following troubleshooting articles:
+
+- [Work order creation errors](/troubleshoot/dynamics-365/field-service/work-order/work-order-creation-errors)
+- [Work order status is stuck](/troubleshoot/dynamics-365/field-service/work-order/work-order-status-stuck)
+- [Agreement work orders aren't generated](/troubleshoot/dynamics-365/field-service/work-order/agreement-work-orders-not-generated)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
