@@ -44,7 +44,7 @@
           href: assignment-methods.md
         - name: Configure assignment methods for queues
           href: configure-assignment-rules.md
-        - name: Configure routing to preferred agents
+        - name: Configure routing to preferred or previously engaged representatives
           href: configure-preferred-agent.md
         - name: Manage overflow of work items in queues
           href: manage-overflow.md
