@@ -3,7 +3,7 @@ title: Best practices and limitations for the offline profile
 description: Learn how to use the mobile offline profile to make the best use of the Field Service mobile app when your field technicians don't have Internet access.
 ms.topic: overview
 ms.subservice: field-service-mobile
-ms.date: 02/02/2026
+ms.date: 04/29/2026
 author: JonBaker007
 ms.author: jobaker
 ---
@@ -33,6 +33,8 @@ Before you set up the offline profile, consider these important guidelines:
 - **Don't use "All records" as an offline filter**. The offline profile is the gate that controls the amount of data to download to users' devices. Technically, there's no limit to the number of records the offline profile supports. Practically, however, the less data that gets downloaded the faster and more efficient syncing is. Don't use "All records" as a table filter, and avoid wide date ranges. For example, rather than downloading all customer asset records, download only the records that are related to scheduled work orders. It reduces the number of customer asset records that need to be synced without affecting the work at hand.
 
 - **Use offline JavaScript**. Organizations often need to run workflows on mobile devices to execute business processes. However, Power Automate flows only run when the device has a network connection or on the next sync. If you need to run workflows on the device on-demand and without Internet access, use offline JavaScript instead. [Learn more about workflows and scripts for the Field Service mobile app](/dynamics365/guidance/resources/fs-mobile-automate-business-processes).
+
+- **Limit concurrent offline data calls**. Keep custom calls to the offline database to 2–4 concurrent requests. The app already makes many offline calls on its own, and adding more degrades performance. 
 
 [Learn more best practices for using mobile apps offline](/power-apps/mobile/mobile-offline-guidelines).
 
@@ -70,6 +72,20 @@ To reduce the amount of data the mobile app uses, consider the following actions
 - Use default views that filter data to only the data that's important to the field worker. For example, my recent bookings instead of all bookings.
 - Allow image resolution to default to smaller file sizes for photo capture.
 - Review other [performance considerations for customizing the mobile app](/dynamics365/guidance/resources/fs-improve-mobile-performance).
+
+## Performance considerations for custom controls
+
+If your organization uses custom Power Apps component framework (PCF) controls that call the offline WebApi (such as `Xrm.WebApi.retrieveMultipleRecords`), be aware of the following performance differences:
+
+### Recommended patterns for custom controls
+
+- **Use pagination**: Instead of retrieving all records at once, retrieve data in smaller pages (for example, 50 records per request) using the `?$top=50&$skiptoken=` pattern.
+- **Limit columns retrieved**: Use `?$select=` to return only the columns your control needs, reducing data transfer and processing time.
+- **Filter at the query level**: Apply `?$filter=` conditions to reduce the result set before it's returned to the control, rather than filtering after retrieval.
+- **Align with offline profile filters**: Ensure your control only queries data that's included in the user's offline profile sync filters. Queries for records not available offline return empty results without an error.
+- **Test with realistic data volumes**: Test custom controls with the same data volume that technicians encounter in the field. Performance that seems acceptable with test data might degrade with production data volumes.
+
+Learn more at [Offline limitations for custom controls](/power-apps/mobile/offline-limitations) and [Performance considerations for customizing the mobile app](/dynamics365/guidance/resources/fs-improve-mobile-performance).
 
 ## Next steps
 

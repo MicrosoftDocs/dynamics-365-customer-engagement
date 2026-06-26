@@ -83,6 +83,20 @@ You can optimize the mobile offline profile by selectively enabling columns to i
 <!--- Move a mobile offline profile between environments removed because it was incorrect per Jon Baker 01/30/2026. Power Apps is supposed to be coming up with a new way to do this.
 --->
 
+## Verify and manage profile assignments
+
+If a technician reports missing data or unexpected behavior in the mobile app, they might be assigned to the wrong offline profile. The following table lists common symptoms and how to resolve them.
+
+| Symptom | Resolution |
+|---|---|
+| Technician sees limited or no data offline | Verify the user is assigned to a profile. In [Power Apps](https://make.powerapps.com/), open **Field Service Mobile** settings, edit the offline profile, and confirm the user appears under **Users with this profile**. If the profile has restrictive filters, broaden them as needed. Learn more in [Set up mobile offline](/power-apps/mobile/setup-mobile-offline#add-users-to-a-mobile-offline-profile). |
+| Technician sees data from other regions or teams | Remove the user from the current profile and add them to the correct one. In [Power Apps](https://make.powerapps.com/), edit the offline profile, remove the user from **Users with this profile**, then open the correct profile and add them. Save and publish the app. Learn more in [Troubleshoot common issues in the Field Service mobile app](/troubleshoot/dynamics-365/field-service/mobile-app/mobile-app-common-issues). |
+| Forms or views are missing fields offline | Edit the offline profile and add the missing tables or columns. Save and publish the app. Learn more in [Offline profile guidelines](/power-apps/mobile/mobile-offline-guidelines). |
+
+The user's device syncs with the updated profile data during the next sync cycle.
+
+Learn more in [Troubleshoot offline sync errors](/troubleshoot/power-platform/power-apps/mobile-apps/mobile-offline-troubleshooting).
+
 ## Best practices for offline mode
 
 Review the following blog posts about using the offline profiles in the Field Service mobile app, including best practices and advanced scenarios.
