@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 05/27/2026
+ms.date: 06/26/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -19,8 +19,18 @@ Case Management Agent follows up with customers over email. If customers don’t
 
 - The CSR Manager or Customer Service Representative role.
 - The guided setup for Case Management Agent is completed. Learn more in [Configure Case Management Agent](case-management-global-settings.md).
+- Configuration of email template groups if you want to associate multiple email templates to a single follow-up.
 
+### Configure email template group
 
+In Copilot Service admin center, complete the following steps:
+
+1. Select **Email template groups** in Customer Support. The **Email template groups** page appears.
+1. Select **New group**. Specify the following values in the page that appears:
+    - Group name
+    - Entity type
+    - Select **Add template** to add the required template to the group. Repeat this step for all the templates you want to add to the group.
+    - Select **Save**.
 
 ## Configure autonomous case follow-up and closure
 
@@ -44,9 +54,7 @@ Perform the following steps in Copilot Service admin center to set up autonomous
        - **Status Reason:** The status reason that triggers a follow-up action as a suggestion to the representative.
    - **Number of follow-ups:** The number of follow-up emails the AI agent must send without a response from the customer before resolving a case. The application considers the email sent by the service representative without a response from the customer as the first follow-up.
    - **Follow-up wait times:** The duration between follow-up emails.
-   - **Follow-up email templates**: Select **Edit** to specify the email templates that the AI agent must use to send emails for follow ups.
-    > [!NOTE]
-    > The AI agent uses the rule-specific email templates to generate emails even if you configured the Copilot recommended email templates and default email templates in the **Case resolution** page.
+   - **Follow-up email templates**: Select **Edit** to specify the email templates that the AI agent must use to send emails for follow ups. You can associate individual email templates or email template groups as follow-up templates. You can use email template groups to associate multiple email templates to a single follow-up step instead of creating multiple rules. For example, instead of creating separate rules for the same template in different languages, you can just add an email template group with all the language templates.
    - Select **Save**.
 5. On the **Case follow-up and closure** page, select the rule and then select **Activate**.
 1. Optionally, after creating the rules, you can:
