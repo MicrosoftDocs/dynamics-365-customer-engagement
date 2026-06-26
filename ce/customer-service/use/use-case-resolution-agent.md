@@ -48,3 +48,5 @@ Autonomous case resolution identifies intent from an incoming email, automatical
          - On the email editor, you can see the email template the agent used to generate the email. You can use the response as-is or edit the content or use another email template to generate the email. Learn more in [Use Copilot to draft an email](/dynamics365/contact-center/use/use-copilot-email)
 
 --- 
+
+[!INCLUDE[review-agent-activity](../../includes/review-agent-activity.md)]

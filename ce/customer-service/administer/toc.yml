@@ -802,7 +802,7 @@
       items:
       - name: Supervise AI agents (preview)
         items:
-        - name: Configure agent feed
+        - name: Configure AI agent monitoring
           href: configure-agent-feed.md
       - name: Enable Agent insights dashboard
         href: /dynamics365/contact-center/administer/enable-agent-insights?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
