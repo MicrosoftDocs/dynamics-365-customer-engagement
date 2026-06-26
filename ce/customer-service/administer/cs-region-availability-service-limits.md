@@ -2,7 +2,7 @@
 title: Supported regions and languages for autonomous agents, copilot features, and analytics in Customer Service and Dynamics 365 Contact Center
 description: Learn about region availability and the languages supported for autonomous agents, copilot features, and analytics in Customer Service and Dynamics 365 Contact Center.
 ms.topic: concept-article
-ms.date: 05/07/2026
+ms.date: 06/26/2026
 ms.update-cycle: 90-days
 author: Soumyasd27
 ms.author: sdas

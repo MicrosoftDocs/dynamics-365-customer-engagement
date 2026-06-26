@@ -1,7 +1,7 @@
 ---
 title: Introduction to Customer Service
 description: Learn about the Customer Service Hub in Microsoft Dynamics 365.
-ms.date: 09/12/2025
+ms.date: 06/26/2026
 ms.topic: get-started
 author: Soumyasd27
 ms.author: sdas

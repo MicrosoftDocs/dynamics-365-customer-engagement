@@ -1,7 +1,7 @@
 ---
 title: Manage cases with case grids 
 description: Learn how to configure and work with case grids to help representatives manage cases efficiently and improve productivity.
-ms.date: 03/26/2026
+ms.date: 06/26/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas

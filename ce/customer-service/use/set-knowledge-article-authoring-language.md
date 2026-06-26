@@ -2,7 +2,7 @@
 title: Configure a default knowledge article authoring language for your organization
 description: Learn how to configure a default language for authoring knowledge articles.
 ms.topic: how-to
-ms.date: 05/07/2025
+ms.date: 06/26/2026
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
