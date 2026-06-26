@@ -2,7 +2,7 @@
 title: Manage the impact of changes to customer service or holiday schedules of SLA KPIs.
 description: Learn how to manage the impact of a change to customer service or holiday schedules in Dynamics 365 Customer Service.
 ms.topic: concept-article
-ms.date: 05/07/2025
+ms.date: 06/26/2026
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas

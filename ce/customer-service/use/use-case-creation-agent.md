@@ -77,6 +77,8 @@ The case appears in a new tab. You can do the following actions:
 
 If your administrator configured autonomous case updates, the AI agent then autonomously updates the case fields with information from a conversation that's in wrap-up state or incoming emails.
 
+[!INCLUDE[review-agent-activity](../../includes/review-agent-activity.md)]
+
 
 ## Next steps
 

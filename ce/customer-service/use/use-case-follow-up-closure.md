@@ -58,7 +58,9 @@ The email drafted by the AI agent is based on the configuration you set in **Glo
 
 - [Use Copilot recommended email templates](/dynamics365/contact-center/use/use-copilot-email#use-copilot-recommended-email-templates)
 - [Use line-of-business tagged email templates](/dynamics365/contact-center/use/use-copilot-email#use-email-templates-tagged-with-line-of-business)
- 
+
+
+[!INCLUDE[review-agent-activity](../../includes/review-agent-activity.md)]
 
 ## Related information
 

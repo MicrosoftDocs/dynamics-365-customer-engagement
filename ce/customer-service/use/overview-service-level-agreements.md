@@ -1,7 +1,7 @@
 ---
 title: Overview of service-level agreements
 description: Configure and manage service-level agreements (SLAs) to track support policies and provide customers with measured and predictable service.
-ms.date: 04/22/2025
+ms.date: 06/26/2026
 ms.topic: overview
 author: Soumyasd27
 ms.author: sdas

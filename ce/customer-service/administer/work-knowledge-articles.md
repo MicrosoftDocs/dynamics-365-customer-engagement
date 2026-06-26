@@ -1,7 +1,7 @@
 ---
 title: Work with knowledge articles
 description: This topic provides information about working with the new native knowledge management capabilities in Dynamics 365 Customer Service.
-ms.date: 05/02/2025
+ms.date: 06/26/2026
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas

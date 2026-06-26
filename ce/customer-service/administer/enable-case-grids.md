@@ -2,7 +2,7 @@
 title: Enable case grids
 description: Learn how you can enable case grids and increase service representative productivity.
 ms.topic: how-to
-ms.date: 05/06/2025
+ms.date: 06/26/2026
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas

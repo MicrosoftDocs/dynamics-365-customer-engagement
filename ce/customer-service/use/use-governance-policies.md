@@ -7,7 +7,7 @@ ms.reviewer: sdas
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
-ms.date: 04/22/2026
+ms.date: 06/26/2026
 ms.custom: bap-template
 ---
 

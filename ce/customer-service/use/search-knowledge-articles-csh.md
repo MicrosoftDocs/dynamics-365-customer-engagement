@@ -5,8 +5,8 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 09/26/2025
-ms.custom: 
+ms.date: 06/26/2026
+ms.custom:
   - dyn365-customerservice
   - bap-template
 search.audienceType: 
