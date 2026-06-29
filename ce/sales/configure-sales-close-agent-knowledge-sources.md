@@ -1,7 +1,7 @@
 ---
-title: Configure knowledge sources for Sales Close Agent
+title: Configure knowledge sources for Sales Close Agent (preview)
 description: Configure the knowledge sources that the Sales Close Agent uses to provide relevant information and context during customer interactions.
-ms.date: 03/30/2026
+ms.date: 06/29/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -14,15 +14,13 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure knowledge sources for Sales Close Agent
+# Configure knowledge sources for Sales Close Agent (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 The agent engages with customers and drives sales by using structured product data and curated knowledge sources. This capability integrates product and sales collateral, like product documentation, FAQs, and internal playbooks, to enable the agent to provide accurate, context-aware responses to customer inquiries.  
 Unlike generic web-based solutions, the agent uses organization-specific resources to answer questions, handle objections, and deliver tailored product information. This approach ensures compliance and consistency in customer interactions.  
 This section explains how to configure knowledge sources to send replies, maximize the agent's effectiveness, and align its behavior with your organization's sales strategy.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 You can configure three types of knowledge sources for the Sales Close Agent: [Agent playbook](#agent-playbook), [Product documentation](#product-documentation), and [Product catalog](#product-catalog).
 

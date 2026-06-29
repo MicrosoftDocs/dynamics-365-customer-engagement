@@ -1,7 +1,7 @@
 ---
 title: Sales Close Agent overview (preview)
 description: Discover how Sales Close Agent in Dynamics 365 Sales automates the sales process for high-velocity, low-complexity deals using AI-powered assistance to enhance customer engagement and drive transactions to closure.
-ms.date: 11/07/2025
+ms.date: 06/29/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -16,11 +16,9 @@ ai-usage: ai-assisted
 
 # Sales Close Agent overview (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 Closing deals in today’s dynamic environment requires more than strong selling skills—it demands trust-building, relationship management, and agility to respond to rapid changes in customer interactions, team updates, and competitive moves. Dynamics 365 Sales introduces AI-powered agents to simplify and optimize this process.  
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## How does the Sales Close Agent help you?
 

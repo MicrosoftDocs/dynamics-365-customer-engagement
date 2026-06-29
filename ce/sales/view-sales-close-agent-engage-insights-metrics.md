@@ -1,7 +1,7 @@
 ---
 title: View Sales Close Agent insights and metrics
 description: Learn how to view insights and metrics for the Sales Close Agent's Engage type, including key performance indicators and engagement statistics.
-ms.date: 01/09/2026
+ms.date: 06/29/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -16,10 +16,9 @@ ai-usage: ai-assisted
 
 # View Sales Close Agent insights and metrics
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 After the Sales Close Agent Engage type is set up and running, you can monitor its performance by viewing insights and metrics. These insights help you understand how effectively the agent is engaging with customers and driving sales.  
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 The insights dashboard is displayed as shown in the following image:
 

@@ -1,7 +1,7 @@
 ---
 title: View records processed by agent
 description: Learn how to view the records processed by the Sales Close Agent type in Dynamics 365 Sales.
-ms.date: 11/21/2025
+ms.date: 06/29/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -16,11 +16,9 @@ ai-usage: ai-assisted
 
 # View records processed by agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 The supervisor view shows insights into the records processed by the Sales Close Agent—Engage type. Supervisors monitor the actions agents take on record types.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## View and understand the records processed by agent
 

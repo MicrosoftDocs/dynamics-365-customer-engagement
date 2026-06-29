@@ -1,7 +1,7 @@
 ---
 title: Configure requirements for Sales Close Agent
 description: Configure the prerequisites for the Sales Close Agent in Dynamics 365 Sales.
-ms.date: 09/24/2025
+ms.date: 06/29/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -16,9 +16,7 @@ ai-usage: ai-assisted
 
 # Configure requirements for Sales Close Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 Before you configure the agents, ensure that the following prerequisites are configured in your Dynamics 365 Sales environment.  
 

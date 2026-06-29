@@ -1,7 +1,7 @@
 ---
 title: Set up and configure the Sales Close Agent (preview)
 description: Set up and configure the Sales Close Agent to help your sales team engage with customers effectively.
-ms.date: 11/28/2025
+ms.date: 06/29/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -16,11 +16,9 @@ ai-usage: ai-assisted
 
 # Set up and configure the Sales Close Agent (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 As an administrator, you can set up the autonomous Sales Close Agent type to help sales teams manage records efficiently without manual intervention. Once configured, you can only edit configurations if needed.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 

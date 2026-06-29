@@ -1,7 +1,7 @@
 ---
-title: Configure email content for Sales Close Agent
+title: Configure email content for Sales Close Agent (preview)
 description: Configure the email content that the Sales Close Agent uses for outreach and follow-up emails to customers.   
-ms.date: 03/30/2026
+ms.date: 06/29/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -14,13 +14,11 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure email content for Sales Close Agent
+# Configure email content for Sales Close Agent (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 Configure the agent to send personalized outreach emails to customers. You can select templates that the agent should use to personalize emails based on customer data and predefined variables. This ensures relevant and engaging communication and sets the tone for interactions by providing prompts that guide agents' language. Also, you can customize the formatting and style in email communications by defining specific prompts.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 **Follow these steps**:
 
