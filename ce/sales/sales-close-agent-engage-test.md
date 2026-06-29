@@ -1,7 +1,7 @@
 ---
 title: Test the Sales Close Agent (preview)
 description: Learn how to test the Sales Close Agent in a simulated environment to evaluate its performance in real-world scenarios without impacting actual data. 
-ms.date: 01/09/2026
+ms.date: 06/29/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -16,11 +16,9 @@ ai-usage: ai-assisted
 
 # Test the Sales Close Agent (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 When you test the agent, you can check how the Sales Close Agent interacts with a potential customer. You can review the outreach email content, tone, and structure. You can also see how the agent responds to customer replies. For example, you can test how the agent handles questions about product features, pricing, or availability through chat by providing sample customer replies.  
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 

@@ -1,7 +1,7 @@
 ---
-title: Configure target customers for Sales Close Agent
+title: Configure target customers for Sales Close Agent (preview)
 description: Define target customer segments for the Sales Close Agent to effectively engage with during outreach and follow-up activities. 
-ms.date: 03/30/2026
+ms.date: 06/29/2026
 ms.update-cycle: 180-days
 author: udaykirang
 ms.author: udag
@@ -13,13 +13,11 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure target customers for Sales Close Agent
+# Configure target customers for Sales Close Agent (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 Group customers into a segment to help the agent engage with them during outreach and follow-up activities. For example, opportunities that are unattended and potentially of lower value could be mapped to a segment and worked on by the agent. The agent only considers records that aren't assigned to any other segments. So, ensure that the conditions for this record type don't overlap with those of other segments. Learn more about segmentation in the [create and activate a segment](wa-create-and-activate-a-segment.md#create-and-activate-a-segment) article.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 **Follow these steps**:
 

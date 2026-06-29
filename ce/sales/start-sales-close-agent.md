@@ -1,7 +1,7 @@
 ---
 title: Start the Sales Close Agent
 description: Learn how to start the Sales Close Agent in Dynamics 365 Sales.
-ms.date: 03/30/2026
+ms.date: 06/29/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -16,9 +16,7 @@ ai-usage: ai-assisted
 
 # Start the Sales Close Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 > [!IMPORTANT]
 > Ensure that the agent is properly configured to avoid editing configurations after starting. Editing the agent changes how records are processed before and after the change, giving different results.

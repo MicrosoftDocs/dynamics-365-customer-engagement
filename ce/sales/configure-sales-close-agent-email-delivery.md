@@ -1,7 +1,7 @@
 ---
-title: Configure email delivery settings for Sales Close Agent
+title: Configure email delivery settings for Sales Close Agent (preview)
 description: Configure the compliance profile that the Sales Close Agent uses to send outreach and follow-up emails to customers.  
-ms.date: 03/30/2026
+ms.date: 06/29/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -14,14 +14,12 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure email delivery settings for Sales Close Agent
+# Configure email delivery settings for Sales Close Agent (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 Configure the compliance profile that the Sales Close Agent should use to send outreach and follow-up emails to customers. The compliance profile ensures that all email communications adhere to organizational policies and regulatory requirements.  
-To understand more about the compliance profile, read the [Stay compliant with privacy regulations](consent-management-overview.md) article.  
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+To understand more about the compliance profile, read the [Stay compliant with privacy regulations](consent-management-overview.md) article.
 
 **Follow these steps**:
 

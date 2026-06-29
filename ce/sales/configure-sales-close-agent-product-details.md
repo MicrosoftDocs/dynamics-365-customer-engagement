@@ -1,7 +1,7 @@
 ---
-title: Configure product details for Sales Close Agent
+title: Configure product details for Sales Close Agent (preview)
 description: Define the products and value propositions that the Sales Close Agent uses to engage with customers.
-ms.date: 03/30/2026
+ms.date: 06/29/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -14,13 +14,11 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure product details for Sales Close Agent
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Configure product details for Sales Close Agent (preview)
+ 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 Configure the products you want the agent to sell in your product catalog. You can either use existing products from the catalog or create a new catalog of products for the agent to use. The agent displays pricing based on the default price list specified in the product record; therefore, each product record must include a price.  
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Best practices
 

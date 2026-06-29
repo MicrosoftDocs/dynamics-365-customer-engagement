@@ -1,7 +1,7 @@
 ---
 title: How the Sales Close Agent works
 description: Learn how the Sales Close Agent operates to autonomously manage customer interactions and drive sales for high-velocity, low-complexity deals.
-ms.date: 12/17/2025
+ms.date: 06/29/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -16,11 +16,9 @@ ai-usage: ai-assisted
 
 # How the Sales Close Agent works
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 In this section, you learn how the Sales Close Agent operates to autonomously manage customer interactions and drive sales for high-velocity, low-complexity deals.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## How the records are processed
 
