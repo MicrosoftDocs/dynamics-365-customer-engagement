@@ -16,6 +16,9 @@ Service Agent extends Microsoft 365 Copilot with customer service-specific capab
 
 After you enable Service Agent, representatives get responses based on relevant service information without manually searching for the data. They can use Service Agent in Microsoft 365 Copilot, and also directly in the Copilot Service workspace app to retrieve service information in-context while working on customer interactions.
 
+> [!IMPORTANT]
+> When you connect to other services, you might incur costs and data might be sent outside the Dynamics 365 compliance boundary and processed according to the applicable service terms and data handling policies. It's your responsibility to manage whether your data flows outside of your organization’s compliance and geographic boundaries and any related implications.
+
 ## Enable Service Agent
 
 Enabling Service Agent requires actions from both a Microsoft 365 administrator and a Dynamics 365 administrator:
