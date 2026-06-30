@@ -4,7 +4,7 @@ description: Learn how to set up overflow conditions and actions for your voice,
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 06/19/2026
+ms.date: 06/30/2026
 ms.topic: how-to
 ms.custom:
  - bap-template
@@ -216,6 +216,62 @@ If you set **End call** or **End conversation** as an overflow action, you can e
 
 [Learn more about customizing automated messages](configure-automated-message.md#customize-automated-messages-at-the-channel-level).
 
+## Use natural language playbooks to configure overflow actions for direct inward dialed calls (preview)
+
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+Direct inward dialed calls are phone calls from a customer that go to a specific service representative’s direct phone line via a personal number assigned to them instead of through a main support line or queue. This call type is different from a typical inbound call that comes in through a main support number and is routed by queues or an IVR system.
+By default, if a representative doesn't answer these calls because they're busy or away, the call usually goes to voicemail. By using conversation orchestration playbooks, you can extend the default behavior beyond voicemail and set up custom overflow actions that run when a direct call can't reach the intended representative. The customer experience is seamless when you route the call appropriately if the representative is unavailable, so that callers aren't abandoned.
+
+### Prerequisites for direct inward dialed calls
+
+- Voice channel is configured.
+- Direct inward dial is set up using [inbound profiles](/dynamics365/customer-service/administer/configure-outbound-inbound-profiles#create-inbound-profiles) for service representatives. 
+- Conversation orchestration is available.
+- At least one queue is set up to handle transfer scenarios.
+- External phone numbers are set up if you want to transfer calls externally.
+
+### Configure overflow actions for direct inward dialed calls
+
+Choose the action that best fits each scenario. You can mix and match actions. For example, if a representative is busy, transfer the call to a backup queue. If they actively reject the call, send it to voicemail immediately. If the call times out, you might offer voicemail or route the call elsewhere. 
+
+1. In the site map of Copilot Service admin center, in **Customer support**, select **Conversation Orchestration**.
+
+1. Select **Prompt gallery**, and select **Overflow handling** > **Handle overflow for direct inbound call**.
+1. Choose one of the scopes for the playbook:
+   - All inbound profiles
+   - List of inbound profiles
+   - All inbound profiles except
+1. Save your selection.
+1. In **Build playbook**, select the overflow action for each of the following conditions:
+   - User rejects notification
+   - User isn't available
+   - User notification times out  
+
+   The available actions are:
+   - Transfer to another queue
+   - End the conversation
+   - Send to voicemail
+   - Transfer to external number
+
+    :::image type="content" source="../media/screenshot-direct-inward-dial-playbook.png" alt-text="Screenshot of playbook configuration to handle overflow of direct inward dial call." lightbox="../media/screenshot-direct-inward-dial-playbook.png":::
+
+1. Save and publish the playbook.
+
+### How it works
+
+When a direct inward dialed call comes in, the system checks if the intended representative is available. If they're not, the system evaluates the conditions you set in the playbook and triggers the corresponding overflow action. This process ensures that the customer is routed appropriately without unnecessary delays or frustration.
+
+**Example scenario**:
+
+Suppose you configure a playbook as follows:
+-	If a representative isn't available, transfer to a general support queue.
+-	If the representative rejects the call, send it to voicemail.
+-	If the call times out, forward it to an external after-hours number.
+
+A customer calls Alicia's direct line. If Alicia is on another call, the playbook triggers and sends the call to the support queue, where another representative can help the customer. If Alicia rejects the notification, the caller is requested to leave a voicemail message for Alicia. If Alicia doesn't answer, the system forwards the call to the external number.
+
+
 ## Use natural language playbooks to configure overflow actions for work items in queue (preview)
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
@@ -240,11 +296,11 @@ You can configure the following actions.
 
 | Action | Description |
 |--------|-------------|
-| **Transfer to queue** | Route the conversation to a different queue |
-| **End conversation** | End the conversation with a message |
-| **Direct callback** | Offer the customer a callback option (Voice channel only) |
-| **Voicemail** | Route to voicemail for later follow-up (Voice channel only) |
-| **Transfer to an external number** |Transfer the call to an external contact(Voice channel only)|
+| **Transfer to another queue** | Route the conversation to a different queue |
+| **End the conversation** | End the conversation with a message |
+| **Offer direct callback** | Offer the customer a callback option (Voice channel only) |
+| **Send to voicemail** | Route to voicemail for later follow-up (Voice channel only) |
+| **Transfer to external number** |Transfer the call to an external contact(Voice channel only)|
 
 **Use with other overflow conditions**: Immediate overflow based on service representatives availability can be used together with other overflow conditions defined on the queue, such as follows:
 
