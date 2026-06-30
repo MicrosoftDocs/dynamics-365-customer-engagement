@@ -99,11 +99,18 @@ Common tasks include:
 - Build conversational experiences for case management, knowledge assistance, email workflows, and service operations.
 - Design experiences that use available tools at runtime rather than hard-coding dependencies on specific tool names or schemas.
 
-## Privileges and access
+## Privileges, access, and security considerations
 
 Access to Dynamics 365 Customer Service MCP tools is governed by Dataverse security privileges. A user must hold all of the privileges that a tool requires before that tool becomes discoverable to the AI-powered experience. Tools that aren't mapped to specific privileges are discoverable by default. Privileges are also enforced when a tool runs, so a tool can be discoverable yet still be denied at execution time if the underlying record or action isn't permitted.
 
 Because each tool maps to one or more privileges, administrators can use security roles to control which capabilities are available to service representatives, supervisors, administrators, and developers.
+
+Dynamics Customer Service MCP server is extensible by design.
+
+> [!IMPORTANT]
+> When you connect to non-Microsoft MCP servers, you do so at your own risk. Microsoft has no responsibility related to your use of non-Microsoft MCP servers, and you're responsible for any associated terms and charges. Some of your data might be passed to the non-Microsoft MCP server, or your MCP client might receive data from the non-Microsoft MCP server. You're responsible for managing whether your data flows outside your organization's compliance and geographic boundaries.
+> 
+> MCP implementations are vulnerable to attacks, cascading failures, and loss of human oversight. To mitigate these risks, vet MCP servers for security and reliability, follow Microsoft's recommendations and industry best practices, and implement approval mechanisms to monitor cascading behaviors.
 
 ## Available tools
 
