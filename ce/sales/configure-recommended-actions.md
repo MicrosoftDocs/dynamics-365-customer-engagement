@@ -77,7 +77,7 @@ Add custom agents to show actions in the recommended actions experience by addin
 
     :::image type="content" source="media/custom-source-added.png" alt-text="Screenshot of the recommended actions configuration page showing the added custom source.":::
 
-1. Configure the custom agents using the ```msdyn_PushActionDataToRecommendedActionAgent``` API to return actionable insights in the format required by the recommended actions framework. For more information, refer to the [Recommended actions API documentation](developer/recommended-actions-api.md).
+1. Configure the custom agents using the **msdyn_PushActionDataToRecommendedActionAgent** API to return actionable insights in the format required by the recommended actions framework.
 
 ## Disable recommended actions
 
@@ -108,6 +108,5 @@ When you have configured the Recommended Actions Agent in one environment, you c
 
 ## Related information
 
-- [Add Custom Agent to the Recommended Actions Agent](developer/recommended-actions-api.md)  
-- [Recommended actions overview](recommended-actions-overview.md)
+[Recommended actions overview](recommended-actions-overview.md)
 
