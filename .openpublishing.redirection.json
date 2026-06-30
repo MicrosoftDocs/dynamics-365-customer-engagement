@@ -1,5 +1,15 @@
 {
   "redirections": [
+    {
+      "source_path": "ce/field-service/soa-run.md",
+      "redirect_url": "/dynamics365/field-service/soa-interactive-optimizations",
+      "redirect_document_id": "true"
+    },
+    {
+      "source_path": "ce/field-service/soa-tips.md",
+      "redirect_url": "/dynamics365/field-service/soa-improve-results",
+      "redirect_document_id": "true"
+    },
    {
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocsessionparticipantevent.md",
       "redirect_url": "/dynamics365/developer/reference/entities/msdyn_ocsessionparticipantevent",
