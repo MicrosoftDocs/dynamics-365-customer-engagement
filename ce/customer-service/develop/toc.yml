@@ -100,7 +100,13 @@
       - name: Copilot in Customer Service
         items:  
         - name: Download Copilot transcripts and interaction data
-          href: download-copilot-transcript-data.md           
+          href: download-copilot-transcript-data.md       
+      - name: Service Agent
+        items: 
+        - name: Overview of Dynamics 365 Customer Service MCP tools
+          href: mcp-tools-overview.md
+        - name: Service Agent tools
+          href: ../../developer/reference/mcp-tools/toc.yml
       - name: Autonomous service agents
         items: 
         - name: Integrate Case Management Agent with custom Copilot Studio agents 
