@@ -1,7 +1,7 @@
 ---
 title: Configure automated messages
 description: Learn how to configure automated messages that can be sent through a channel in your contact center.
-ms.date: 05/29/2025
+ms.date: 06/30/2026
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

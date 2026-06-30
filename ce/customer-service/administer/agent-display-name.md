@@ -1,11 +1,12 @@
 ---
 title: Configure representative display name for a chat widget
 description: This article provides procedural information to configure a representative's display name for a chat widget.
-ms.date: 06/11/2025
+ms.date: 06/30/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
+ms.custom: bap-template
 ---
 
 # Configure agent display name
