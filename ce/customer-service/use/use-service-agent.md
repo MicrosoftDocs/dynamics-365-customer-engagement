@@ -1,7 +1,7 @@
 ---
-title: Use Service Agent in Customer Service (preview)
+title: Use Service Agent in Customer Service
 description: Learn how to use Service Agent in Microsoft 365 Copilot so representatives can quickly get answers about cases and customer records without manual searching.
-ms.date: 04/07/2026
+ms.date: 06/30/2026
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -10,9 +10,7 @@ ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---
 
-# Use Service Agent in Customer Service (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Use Service Agent in Customer Service
 
 Service Agent is a Microsoft 365 Copilot agent that helps customer service representatives (service representatives, representatives) find, summarize, and update customer service information by using data from Dynamics 365 Customer Service and connected knowledge sources. It supports assisted Copilot scenarios, such as reviewing cases, retrieving knowledge, and performing case actions.
 
@@ -27,8 +25,6 @@ You can use Service Agent in the following places:
 -	Copilot Service workspace while working on customer interactions
 -	Any Microsoft 365, Dynamics 365, or Power Apps application where Copilot is enabled
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-
 ## Access Service Agent in Customer Service
 
 While you work on an active customer interaction in Customer Service, you can use Copilot capabilities to retrieve relevant service information in context.
@@ -37,17 +33,17 @@ To use Service Agent directly in Copilot Service workspace, follow these steps:
 
 1. Select **Copilot** in the header to open the Copilot side pane.
 1. In the Copilot pane, select the **Open navigation panel** icon (hamburger menu).
-1. From the navigation panel, select **Service (Preview)**.
+1. From the navigation panel, select **Service**.
    
    > [!Note]
-   > If **Service (Preview)** isn’t visible, select **All agents**, and then select **Service (Preview)** from the list.
+   > If **Service** isn't visible, select **All agents**, and then select **Service** from the list.
 
-   :::image type="content" source="../media/service-agent-open-navigation.png" alt-text="Copilot navigation panel showing Service (Preview) selected under All agents":::
+   :::image type="content" source="../media/service-agent-open-navigation.png" alt-text="Copilot navigation panel showing Service selected under All agents":::
 
    Service Agent opens in the Copilot pane.
 1. Ask a question or request assistance related to the current customer interaction.
 
-When you select **Service (Preview)**, Microsoft 365 Copilot activates customer service-specific skills. Service Agent can use the current app and customer interaction, such as an active case or work item, as context when it's available.
+When you select **Service**, Microsoft 365 Copilot activates customer service-specific skills. Service Agent can use the current app and customer interaction, such as an active case or work item, as context when it's available.
 
 ### How context is used
 
