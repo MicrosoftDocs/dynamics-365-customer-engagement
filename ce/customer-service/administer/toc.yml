@@ -766,8 +766,16 @@
         href: faq-copilot-features.md
     - name: Service in Microsoft 365 Copilot
       items:
-      - name: Enable Service Agent in Microsoft 365 Copilot (preview)
+      - name: Enable Service Agent in Microsoft 365 Copilot
         href: configure-service-agent.md
+      - name: Configure Service Agent experiences
+        href: configure-service-agent-experiences.md
+      - name: Extensibility
+        items:
+        - name: Configure non-Microsoft MCP servers in Service Agent
+          href: configure-service-agent-mcp-servers.md
+        - name: Configure Copilot Studio agents in Service Agent
+          href: configure-service-agent-copilot-studio-agents.md
     - name: Agents
       items:
       - name: Overview of agents

@@ -36088,6 +36088,11 @@
       "source_path": "ce/sales/uninstall-sales-insights.md",
       "redirect_url": "/dynamics365/sales/install-overview",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/developer/recommended-actions-api.md",
+      "redirect_url": "/dynamics365/sales/configure-recommended-actions",
+      "redirect_document_id": false
     }
   ]
 }

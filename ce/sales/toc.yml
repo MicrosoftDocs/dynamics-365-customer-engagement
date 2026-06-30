@@ -284,12 +284,12 @@ items:
                 href: configure-recommended-actions.md
           - name: Sales agent in Microsoft 365 Copilot
             items:
-              - name: Overview
-                href: /microsoft-sales-copilot/sales-chat-overview?context=/dynamics365/context/sales-context
-              - name: Set up Sales agent in Microsoft 365 Copilot
-                href: /microsoft-sales-copilot/set-up-sales-chat?context=/dynamics365/context/sales-context
+              - name: Set up Sales agent in Microsoft 365 Copilot from Dynamics 365 Sales
+                href: sales-agent-settings-saleshub.md
               - name: Set up record creation in Dynamics 365 with Sales agent
                 href: /microsoft-sales-copilot/set-up-record-creation-dynamics-365?context=/dynamics365/context/sales-context
+              - name: FAQs about Sales agent in Microsoft 365 Copilot
+                href: faqs-sales-agent.md
           - name: Import an agent into a target environment
             href: import-export-agent-solutions.md
           - name: Manage consumption-based billing
@@ -977,10 +977,10 @@ items:
                 href: recommended-actions-overview.md
               - name: Manage opportunity risks and data enrichment
                 href: next-best-actions-to-manage-opportunities.md
-      - name: Use Sales agent in Microsoft 365 Copilot
+      - name: Use Microsoft 365 Copilot in Dynamics 365 Sales
         items:
-          - name: Use the Sales agent in Microsoft 365 Copilot
-            href: /microsoft-sales-copilot/use-sales-chat?context=/dynamics365/context/sales-context
+          - name: Use the Sales agent in Microsoft 365 Copilot from Dynamics 365 Sales
+            href: use-sales-agent-microsoft365-copilot.md
           - name: Use Microsoft 365 Copilot chat (preview)
             href: microsoft-365-copilot-chat-in-sales.md
       - name: Copilot capabilities
@@ -1422,10 +1422,6 @@ items:
         href: developer/developer-guide.md
       - name: Understand terminology
         href: /power-apps/developer/data-platform/understand-terminology?context=/dynamics365/context/sales-context
-      - name: AI agents
-        items:
-          - name: Add Custom Agent to the Recommended Actions Agent
-            href: developer/recommended-actions-api.md
       - name: Sales tables
         items:
           - name: Sales tables (lead, opportunity, competitor, quote, order, invoice)

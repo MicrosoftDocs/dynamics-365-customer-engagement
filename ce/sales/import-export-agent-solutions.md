@@ -150,7 +150,7 @@ After you import the solution, the agent is imported in draft state. Open the ag
 1. Depending on the sources you have configured for the Recommended Actions Agent in the source environment, you might need to perform additional steps to ensure those sources are correctly set up in the target environment. Configure the sources based on the type of agents you have set up as sources in the source environment.  
 
     - If you have configured Sales Opportunity Agent or Data Enrichment Agent, no action is required. These agents are part of the solution and are imported together with the Recommended Actions Agent and automatically set up as sources.
-    - If you are using custom agents as sources for the Recommended Actions Agent, ensure that those custom agents are also imported and configured in the target environment. The [`msdyn_PushActionDataToRecommendedActionAgent` API](developer/recommended-actions-api.md) is used to send actionable insights from custom agents to the Recommended Actions Agent, so the custom agents must be set up correctly for their insights to appear in the recommended actions experience.  
+    - If you use custom agents as sources for the Recommended Actions Agent, ensure that you also import and configure those custom agents in the target environment. The **msdyn_PushActionDataToRecommendedActionAgent** API sends actionable insights from custom agents to the Recommended Actions Agent. You must set up the custom agents correctly for their insights to appear in the recommended actions experience.  
 
 1. **Activate the agent**. After updating the environment‑specific settings, save and start the agent.
 

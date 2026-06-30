@@ -1,0 +1,209 @@
+items:
+- name: "Account Summary"
+  href: summarize_account.md
+- name: "Activity Quick-Create Form"
+  href: get_activity_quick_create_form.md
+- name: "Activity Timeline"
+  href: get_activity_timeline.md
+- name: "Adjust Email Tone"
+  href: adjust_email_tone.md
+- name: "Agent Configuration Capabilities"
+  href: get_agent_config_capabilities.md
+- name: "Apply Email Template"
+  href: apply_email_template.md
+- name: "Apply knowledge filter selections"
+  href: update_knowledge_filters.md
+- name: "Approve or reject time-off requests"
+  href: decide_wem_time_off_request.md
+- name: "Ask questions from knowledge articles"
+  href: answer_knowledge_question.md
+- name: "Case Detail"
+  href: get_case.md
+- name: "Case Highlights"
+  href: get_case_highlights.md
+- name: "Case Inbox — Work Items"
+  href: list_case_inbox_workitems.md
+- name: "Case SLA Status"
+  href: get_case_sla_status.md
+- name: "Case Summary"
+  href: summarize_case.md
+- name: "Case: Pick from Queue"
+  href: pick_case_from_queue.md
+- name: "Case: Resolve and Pick Next"
+  href: resolve_case_and_pick_next.md
+- name: "Cases with Emails Drafted for Review"
+  href: list_cma_drafts.md
+- name: "Cases with Suggested Actions"
+  href: list_case_suggested_actions.md
+- name: "Check for an existing knowledge article"
+  href: check_knowledge_gap.md
+- name: "Check knowledge article draft status"
+  href: check_harvest_status.md
+- name: "Check whether AI summaries are enabled"
+  href: check_summary_enabled.md
+- name: "Close Case"
+  href: close_case.md
+- name: "Configure Agent Layout"
+  href: save_agent_config.md
+- name: "Configure Profile Layout"
+  href: save_profile_config.md
+- name: "Contact Summary"
+  href: summarize_contact.md
+- name: "Copy Reply"
+  href: get_response_preview.md
+- name: "Create Activity"
+  href: create_activity.md
+- name: "Create Case from Email"
+  href: create_case_from_email.md
+- name: "Create Email Template"
+  href: create_email_template.md
+- name: "Create Note"
+  href: create_note.md
+- name: "Delete Entity Record"
+  href: delete_entity_record.md
+- name: "Delete External MCP Registration"
+  href: delete_mcp_registration.md
+- name: "Delete MCS Agent Registration"
+  href: delete_copilot_studio_registration.md
+- name: "Delete My Preference"
+  href: delete_user_prefs.md
+- name: "Discard a knowledge article draft"
+  href: discard_knowledge_draft.md
+- name: "Disconnect Environment"
+  href: disconnect_environment.md
+- name: "Draft a knowledge article from a source record"
+  href: harvest_knowledge_article.md
+- name: "Draft Email"
+  href: draft_email.md
+- name: "Draft Knowledge Article"
+  href: draft_knowledge_article.md
+- name: "Edit Draft Email"
+  href: edit_email_draft.md
+- name: "Email Signature"
+  href: get_email_signature.md
+- name: "Exit Configuration Mode"
+  href: maker_exit.md
+- name: "Find and manage cases"
+  href: list_cases.md
+- name: "Generate Email Content (Copilot)"
+  href: generate_email_content.md
+- name: "Get Active Environment"
+  href: get_environment.md
+- name: "Get Evaluation Insights"
+  href: get_evaluation_insights.md
+- name: "Get Next Suggested Action"
+  href: get_case_next_suggestion.md
+- name: "Getting Started with Agent Configuration"
+  href: browse_agent_config_options.md
+- name: "Knowledge Article Detail"
+  href: get_knowledge_article.md
+- name: "Link Email to Case"
+  href: link_email_to_case.md
+- name: "List / Search Emails"
+  href: list_emails.md
+- name: "List Accounts"
+  href: list_accounts.md
+- name: "List Agent Configurations"
+  href: list_agent_configs.md
+- name: "List AI-Escalated Cases"
+  href: list_cma_escalated_cases.md
+- name: "List Available MCS Bots"
+  href: list_copilot_studio_registration_bots.md
+- name: "List Contacts"
+  href: list_contacts.md
+- name: "List Entity Records"
+  href: list_entity_records.md
+- name: "List Environments"
+  href: list_environments.md
+- name: "List Evaluations"
+  href: list_evaluations.md
+- name: "List My Preferences"
+  href: list_user_prefs.md
+- name: "List Profile Configurations"
+  href: list_profile_configs.md
+- name: "List Tool Visibility"
+  href: list_tool_selection.md
+- name: "Manage Copilot Studio Agents"
+  href: manage_copilot_studio_registration.md
+- name: "Manage External MCP Tool Servers"
+  href: manage_mcp_registration.md
+- name: "Match Cases to Email"
+  href: match_cases.md
+- name: "Next Best Action for Case"
+  href: suggest_next_action_for_case.md
+- name: "Publish a knowledge article draft"
+  href: publish_knowledge_article.md
+- name: "Query Dataverse Data"
+  href: answer_service_question.md
+- name: "Reassign Case"
+  href: reassign_case.md
+- name: "Recommend Email Templates"
+  href: recommend_email_templates.md
+- name: "Remove Agent Configuration"
+  href: delete_agent_config.md
+- name: "Remove Profile Configuration"
+  href: delete_profile_config.md
+- name: "Reset Tool Visibility"
+  href: delete_tool_selection.md
+- name: "Rewrite a note with a structured template"
+  href: rewrite_structured_content.md
+- name: "Save edits to a knowledge article draft"
+  href: save_knowledge_draft.md
+- name: "Save Email Template"
+  href: save_email_template.md
+- name: "Save External MCP Registration"
+  href: save_mcp_registration.md
+- name: "Save MCS Agent Registration"
+  href: save_copilot_studio_registration.md
+- name: "Save My Preference"
+  href: save_user_prefs.md
+- name: "Search Cases"
+  href: search_cases.md
+- name: "Search Entity Records"
+  href: search_entities.md
+- name: "Search Knowledge Articles"
+  href: search_knowledge_articles.md
+- name: "Search Lookup Records"
+  href: search_lookup_records.md
+- name: "Select Environment"
+  href: select_environment.md
+- name: "Send Email"
+  href: send_email.md
+- name: "Set Tool Visibility"
+  href: save_tool_selection.md
+- name: "SLA Triage — query cases by SLA status"
+  href: query_cases_by_sla_status.md
+- name: "Structure Text for Case Note"
+  href: format_case_note.md
+- name: "Submit Intent Feedback"
+  href: submit_feedback.md
+- name: "Summarize a case in text"
+  href: summarize_case_text.md
+- name: "Summarize a closed conversation"
+  href: summarize_conversation.md
+- name: "Summarize Resolution Steps"
+  href: summarize_case_actions.md
+- name: "Test External MCP Connection"
+  href: test_mcp_registration_connection.md
+- name: "Test MCS Agent Connection"
+  href: test_copilot_studio_registration_connection.md
+- name: "Timeline Highlights (AI narrative)"
+  href: summarize_entity_timeline.md
+- name: "Translate Email"
+  href: translate_email.md
+- name: "Update Case"
+  href: update_case.md
+- name: "Update Entity Record"
+  href: update_entity_record.md
+- name: "Update Note"
+  href: update_note.md
+- name: "View Account"
+  href: get_account.md
+- name: "View Contact"
+  href: get_contact.md
+- name: "View Email"
+  href: view_email.md
+- name: "View Entity Record"
+  href: get_entity_record.md
+- name: "View or edit knowledge filters"
+  href: view_knowledge_filter_editor.md
