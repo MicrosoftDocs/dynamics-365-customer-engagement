@@ -1,5 +1,5 @@
 ---
-title: Configure governance policies (preview)
+title: Configure governance policies
 description: Governance policies help you enforce compliance, security, and content-safety for customer communications. Learn how to set up and manage effective policies.
 author: Soumyasd27
 ms.author: sdas
@@ -7,27 +7,25 @@ ms.reviewer: sdas
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
-ms.date: 06/26/2026
+ms.date: 07/01/2026
 ms.custom: bap-template
 ---
 
-# Configure governance policies (preview)
+# Configure governance policies
 
 [!INCLUDE [cc-feature-availability-cs-only](../../includes/cc-feature-availability-cs-only.md)]
 
-Configure governance policies to enforce compliance, security, and content‑safety standards across customer communications in your organization. The system evaluates outbound messages, both AI‑generated and representative-authored against configurable policies, to automatically detect and manage sensitive, restricted, or noncompliant content. Governance policy supports the email channel and extends the safety checks used across other autonomous agents.
+Configure governance policies to help enforce compliance, security, and content‑safety standards across customer communications in your organization. The system evaluates outbound messages, including both AI‑generated and representative-authored messages, against configurable policies to automatically detect and manage sensitive, restricted, or noncompliant content. Governance policy supports the email channel and extends the safety checks used across other autonomous agents.
 
 > [!IMPORTANT]
->
-> - This is a preview feature. 
-> - Preview features aren’t meant for production use and might have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520), and are available before an official release so that customers can get early access and provide feedback.
+> This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature isn't intended for use in making—and shouldn't be used to make—decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This responsibility also includes adequately notifying end users that their communications with representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
 
 ## Prerequisites
 
 - Administrators need the CSR Manager role.
 - Service representatives need the Customer Service Representative role.
 - For custom roles assigned to service representatives, you need to add Read at Global level on msdyn_governanceagent_status.
-- For custom roles assigned to administrators, you need to add Read, Create, Write, Delete, Append, Appendto, Assign at Global level on:
+- For custom roles assigned to administrators, add `Read`, `Create`, `Write`, `Delete`, `Append`, `Appendto`, and `Assign` permissions at Global level on:
     - msdyn_governanceagent_status
     - msdyn_guardrail_consumer_mapping
     - msdyn_guardrail_execution_info
@@ -41,49 +39,30 @@ Configure governance policies to enforce compliance, security, and content‑saf
 ## Enable governance
 
 1. In the site map of Copilot Service admin center, in **Customer Support** > select **Quality management**.
-1. On the **Quality management** page, select **Manage** for **Governance (preview)**.
-1. On the **Governance (preview)** page, turn on the toggle for governance.
+1. On the **Quality management** page, select **Manage** for **Governance**.
+1. On the **Governance** page, turn on the toggle for governance.
 
 ## How a governance policy works
 
 **Runtime evaluation**:
-The system evaluates each email drafted by a service representative or an AI agent by validating the content against active policies. When it detects a policy violation, the system performs one of the following actions:
+
+The system evaluates each email drafted by a service representative or an AI agent by validating the content against active policies. When it detects a policy violation, the system performs the following actions in accordance with your selected settings:
 
 - Blocks the outgoing message
 - Logs the violation for later review
 - Routes the message for manual approval workflows
 
-**Log and review**: 
+**Log and review**:
+
 Administrators can:
 
 - Review detection logs
 - Identify repeated risk patterns
 - Adjust policy descriptions to refine system prompts
 
-### Scenario examples
-
-**Prevent agents from sending political content**
-
-Administrator creates a governance policy: Ensure no political content is included in any customer communications.
-- System generates a policy prompt
-- All outbound emails are evaluated against this category
-
-**Block competitor comparisons in support responses**
-
-If teams prefer not to mention competitors:
-- Create a policy referencing known competitor names
-- Messages containing such content are automatically blocked
-
-**Enforce compliance for regulated industries**
-
-Healthcare, legal, and finance teams can set policy checks for:
-
-- High‑risk advice
-- Sensitive data leakage
-- Restricted terminology
-
-Governance policies ensure unsafe messages are intercepted before reaching customers. Until the representative updates the email draft to meet policy requirements, the checks continue to block it from being sent. Each failed policy check is recorded, allowing the representative to view previous failures for that draft.
-
 ## Related information
 
-[Use governance policies (preview)](../use/use-governance-policies.md#use-governance-policies-preview)
+[Use governance policies](../use/use-governance-policies.md)  
+[Use evaluation criteria](/dynamics365/contact-center/use/evaluation-criteria)  
+[Use evaluations](/dynamics365/contact-center/use/use-evaluations)  
+[Responsible AI FAQ for AI agents](/dynamics365/contact-center/implement/faq-rai-ai-agents)
