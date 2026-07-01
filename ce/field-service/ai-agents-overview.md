@@ -1,7 +1,7 @@
 ---
 title: AI agents in Dynamics 365 Field Service
 description: Discover how AI agents in Field Service can assist in scheduling and optimizing your field service operations.
-ms.date: 12/05/2025
+ms.date: 06/30/2026
 ms.topic: overview
 author: puneetsingh
 ms.author: puneetsingh

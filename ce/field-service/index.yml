@@ -189,8 +189,8 @@ additionalContent:
         text: Scheduling Operations Agent overview (preview)
       - url: soa-setup.md
         text: Set up the Scheduling Operations Agent (preview)
-      - url: soa-run.md
-        text: Use the Scheduling Operations Agent (preview)
+      - url: soa-interactive-optimizations.md
+        text: Run interactive optimizations (preview)
     - title: Copilot in Field Service
       links:
       - url: copilot-side-pane.md
