@@ -35,4 +35,3 @@ You can access the Sales agent in Microsoft 365 Copilot from any Microsoft 365 a
 
 - [Frequently asked questions about accessing Sales agent in Microsoft 365 Copilot from Sales Hub](faqs-sales-agent.md)
 - [Set up Sales agent in Microsoft 365 Copilot from Dynamics 365 Sales](sales-agent-settings-saleshub.md)
-- [Accessing Sales agent in Microsoft 365 Copilot from Dynamics 365 Sales](microsoft-365-copilot-sales-agent-overview.md)

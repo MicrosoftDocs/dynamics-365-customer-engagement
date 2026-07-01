@@ -49,9 +49,6 @@ If you don't see the Sales agent in the Sales Hub app, the agent might not be in
 <a name="no-response-from-agent"></a>
 ### Why don't I get any responses from the Sales agent?
 
-If you can see the Sales agent in the Sales Hub app but don't get any responses, one of the following reasons might be causing the problem:
-
-- The Sales agent isn't connected to your Dynamics 365 Sales environment. To connect the agent, follow the instructions in the [Connect the Sales agent to Dynamics 365 Sales](/microsoft-sales-copilot/sign-in-crm-outlook) article.
-- You don't have the necessary permissions to access the Sales agent. Learn more in [Privileges required for Dynamics 365 sellers](/microsoft-sales-copilot/privileges#dynamics-365-sellers).
+If you can see the Sales agent in the Sales Hub app but don't get any response from the agent, you might not have the necessary permissions to access the Sales agent. Learn more in [Privileges required for Dynamics 365 sellers](/microsoft-sales-copilot/privileges#dynamics-365-sellers).
 
 
