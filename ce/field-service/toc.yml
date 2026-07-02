@@ -82,6 +82,8 @@ items:
           href: configure-incident-types.md
     - name: Work order customization considerations
       href: work-order-customization.md
+    - name: Organizational units
+      href: set-up-organizational-units.md
     - name: Service task types
       href: set-up-service-task-types.md
     - name: Service level agreements
