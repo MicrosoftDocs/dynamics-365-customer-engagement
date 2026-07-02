@@ -1,7 +1,7 @@
 ---
 title: View the communication panel for conversations in Dynamics 365 Contact Center
 description: Learn what you can do as a representative in the communication panel when you interact with the customer.
-ms.date: 06/22/2026
+ms.date: 07/02/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -114,7 +114,7 @@ The following events are common to all consult experiences:
 
 - The secondary representative receives a notification for the consult request.
 
-- When the secondary representative accepts the consult request, a separate pane with an option to end the consult opens beside the communication panel for the primary representative. 
+- When the secondary representative accepts the consult request, a separate pane with an option to end the consult opens beside the communication panel for the primary representative.
 
    :::image type="content" source="../media/consult-primary-agent-view.png" alt-text="View of consult pane for the primary representative.":::
 
@@ -198,6 +198,18 @@ If your administrator enabled pins, you can access pinned items during an active
 During a consult or transfer when on an active call, search for and pin an external contact or a queue. You can pin and unpin your personal pinned items only by selecting the pin icon in the right corner of the contact or queue. Administrator-set pins for you are greyed out and can't be altered.
 
 When you're consulting with or transferring directly to a queue, you can pin or unpin personal queue pins. When you're consulting or transferring to another representative, though pinned queues are visible, you can't modify them. Pinned queues are visible based on the active workstream. Chat conversations show chat-enabled queues only, while voice conversations show voice-enabled queues. Some pinned queues might not appear if they aren't compatible with the active channel.
+
+## Use reroute (preview)
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+
+If your [administrator enables the feature](../administer/enable-transfer-consult.md#enable-representatives-to-reroute-conversations-preview), the reroute option lets you hand over a conversation to the system so that it can be routed again and handled appropriately.
+
+Before you select the reroute option, update the conversation details, like customer or case details and any other pertinent information that helps the system reroute to the right representative.
+
+1. For an ongoing conversation, on the communication panel, select the reroute option.
+   :::image type="content" source="../media/screenshot-csr-reroute-option.png" alt-text="A screenshot of the reroute UI on the communication panel for representative to use.":::
+1. Select **Reroute**. The system removes you from the conversation.
 
 ## Take notes specific to conversations
 
