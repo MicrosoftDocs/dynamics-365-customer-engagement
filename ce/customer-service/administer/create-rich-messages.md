@@ -123,6 +123,8 @@ To associate rich messages with a workstream, complete the following steps:
 1. To remove rich messages, select one or more within the table, and then select **Remove**. The removed rich message no longer appears in the list.
 
 ## Configure specific rich media message types for Live Chat and WhatsApp
+> [!IMPORTANT]
+> Apple Messages for Business is being deprecated and will not be available after August 31st, 2026.
 
 ### Suggested replies 
 (Applies to: Live Chat and WhatsApp)
