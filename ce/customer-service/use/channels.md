@@ -52,6 +52,9 @@ If you want to help your customers using SMS, you can use the following SMS chan
 
 ## Social channels
 
+> [!IMPORTANT]
+> Apple Messages for Business is being deprecated and will not be available after August 31st, 2026.
+
 If you want to help your customers using social media, you can use the following social channels:
 
 - [Apple Messages for Business](../administer/configure-apple-messages-for-business-channel.md)
