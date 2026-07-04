@@ -235,6 +235,8 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
 
 ## Create authentication settings for Apple Messages for Business
+> [!IMPORTANT]
+> Apple Messages for Business is being deprecated and will not be available after August 31st, 2026.
 
 ### Prerequisites
 
