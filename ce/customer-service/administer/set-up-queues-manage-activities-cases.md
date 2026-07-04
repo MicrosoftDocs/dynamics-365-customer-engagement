@@ -71,7 +71,7 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
 
 ## Create a queue
 
-1. In the site map of Copilot Service admin center, select **Queues** in **Customer support**.
+1. In the site map of Copilot Service admin center, select **Queues** in **Customer support**. Queues can also be created in the Customer Service admin center application. 
     
 1. On the **Queues** page, select **Manage** for **Basic queues**.
 
