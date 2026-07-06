@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 05/15/2025
+ms.date: 07/06/2026
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -70,6 +70,19 @@ Learn more in:
 
     - To deactivate the channel provider, select **Deactivate**. In the **Confirm Deactivation** dialog, select **Yes**. You can reactivate the channel later by selecting **Activate**.
     - To delete the channel provider, select **Delete**. In the **Confirm Deletion** dialog, select **Yes** if you're sure you want to delete the channel provider. You can't reactivate the channel provider after it is deleted.
+  
+## Enable local network access for the communication widget
+
+In some scenarios, the channel provider widget needs to access resources on the user's local machine or private network. To enable this functionality, configure the iframe allow list to include the local network access permission.
+
+Complete the following steps:
+
+1. In Power Apps, go to your environment settings.
+1. Search for and select `msdyn_CIFWidgetIframeAdditionalAllowValue` setting. 
+1. On the edit pane that appears, set the value of **Setting environment value** to `local-network-access`.
+1. Save your changes and refresh the application to clear the cache.
+
+When enabled, this setting allows the communication widget iframe to access local network resources required by the channel provider.
 
 ### Related information
 
