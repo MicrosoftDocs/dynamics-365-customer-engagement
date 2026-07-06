@@ -76,6 +76,7 @@ The **Omnichannel real-time analytics** dashboard consists of the following repo
 - **Bot**: The Bot report provides insights into key metrics for all the Copilot agents used in your contact center. It allows you to monitor the volumes of in-progress and completed AI agent conversations. Learn more in [Bot report](/dynamics365/contact-center/use/agent-realtime-dashboard). 
 - **Intent group report**: This report shows contact center data organized by intent, intent groups, and line of business that help you effectively monitor and track work items. This dashboard is available in Dynamics 365 Contact Center only. Learn more in [Intent group report](/dynamics365/contact-center/use/realtime-intent-group-report). 
 - **User group report**: This report helps you filter data by agent group, that help you quickly identify trends, assess team performance, and resolve issues faster. This dashboard is available in Dynamics 365 Contact Center only. Learn more in [User group report](/dynamics365/contact-center/use/realtime-agent-group-report).
+- **Proactive Engagement report**: The Proactive Engagement report gives you a live view of proactive outbound activity so you can monitor in-flight engagements, agent availability, and pacing as it happens. Learn more in [Proactive Engagement report](/dynamics365/contact-center/use/proactive-engagement-dashboard).
 
 ## Filter information displayed on dashboard
 
@@ -100,11 +101,5 @@ Report data is automatically updated in real time for all the reports except the
 [Manage bookmarks](manage-bookmarks.md)<br>
 [Customize the visual display of your analytics reports](customize-reports.md)<br>
 [Manage real-time analytics reports](../administer/enable-realtime-analytics-dashboard-administrator.md)<br>
-[Summary report](realtime-summary-dashboard.md)<br>
-[Voice report](realtime-voice-dashboard.md)<br>
-[Agents report](realtime-agents-analytics.md)<br>
-[Ongoing conversation report](realtime-ongoing.md)  
-[Backlog conversation report](realtime-backlog-conv.md)  
-[Bot report](/dynamics365/contact-center/use/agent-realtime-dashboard)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
