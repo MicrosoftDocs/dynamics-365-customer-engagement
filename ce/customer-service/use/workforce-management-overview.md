@@ -1,7 +1,7 @@
 ---
 title: Overview of Workforce Management
-description: Learn how workforce management capabilities in Dynamics 365 Customer Service and Dynamics 365 Contact Center help organizations forecast demand, plan staffing, schedule representatives, and monitor adherence.
-ms.date: 06/15/2026
+description: Learn how Workforce Management, a key capability of Workforce Engagement Management in Dynamics 365 Customer Service and Dynamics 365 Contact Center, helps organizations forecast demand, optimize staffing, schedule representatives, and track adherence.
+ms.date: 07/02/2026
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -18,6 +18,8 @@ ms.custom:
 Workforce Management in Dynamics 365 Customer Service and Dynamics 365 Contact Center helps organizations forecast customer demand, plan staffing requirements, schedule representatives, and monitor schedule adherence from a unified experience. 
 
 By combining forecasting, capacity planning, scheduling, and real-time monitoring capabilities, Workforce Management helps supervisors align staffing levels with expected workload and maintain consistent customer service delivery.
+
+As part of Workforce Engagement Management, Workforce Management provides capabilities that help organizations align staffing and scheduling with business demand while improving the representative experience. Workforce Engagement Management also includes [quality management](/dynamics365/contact-center/use/overview-quality-management), which helps you evaluate and improve the quality of service interactions.
 
 Workforce Management supports the complete workforce planning lifecycle, from forecasting future customer demand to monitoring schedule adherence in real time. These capabilities help organizations improve operational efficiency, optimize staffing, and provide representatives with greater visibility into their schedules.
 
@@ -152,4 +154,5 @@ A typical Workforce Management workflow includes the following steps:
 - [View and take action on time-off requests](/dynamics365/contact-center/use/workforce-management-view-time-off-requests?context=/dynamics365/context/customer-service-use-context)  
 - [Use the Schedule Calendar](use-agent-calendar.md)  
 - [Use the Adherence Tracker](/dynamics365/contact-center/use/workforce-management-adherence-tracker?context=/dynamics365/context/customer-service-use-context)  
+- [Overview of quality management](/dynamics365/contact-center/use/overview-quality-management)  
 
