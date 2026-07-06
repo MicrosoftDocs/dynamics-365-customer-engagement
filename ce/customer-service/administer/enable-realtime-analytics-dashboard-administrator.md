@@ -29,14 +29,15 @@ Real-time analytics reports give your supervisors access to real-time metrics an
 
 The following real-time analytics reports are available:
 
-- Summary
-- Voice
-- Bot
-- Agent
-- Ongoing conversation
-- Backlog conversation
-- Intent group
-- User group 
+- [Summary report](../use/realtime-summary-dashboard.md)  
+- [Voice report](../use/realtime-voice-dashboard.md)  
+- [Bot report](/dynamics365/contact-center/use/agent-realtime-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml)
+- [Agent report](../use/realtime-agents-analytics.md)  
+- [Ongoing Conversation report](../use/realtime-ongoing.md)  
+- [Backlog conversation report](../use/realtime-backlog-conv.md)
+- [Intent group report](/dynamics365/contact-center/use/realtime-intent-group-report)
+- [User group report](/dynamics365/contact-center/use/realtime-agent-group-report)
+- [Proactive Engagement report](/dynamics365/contact-center/use/proactive-engagement-dashboard)
 
 The Intent group and User group reports are available in Dynamics 365 Contact Center only.
 
@@ -88,12 +89,6 @@ If you customized the Copilot Service workspace app, you must complete the follo
 ### Related information
 
 [Overview of Omnichannel real-time analytics reports](../use/intro-realtime-analytics-dashboard.md)  
-[Summary report](../use/realtime-summary-dashboard.md)  
-[Voice report](../use/realtime-voice-dashboard.md)  
-[Agent report](../use/realtime-agents-analytics.md)  
-[Bot report](/dynamics365/contact-center/use/agent-realtime-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml)
-[Ongoing Conversation report](../use/realtime-ongoing.md)  
-[Backlog conversation report](../use/realtime-backlog-conv.md)
 [Use report metrics](../use/oc-metrics-dimensions.md)  
 [Configure user security to resources in an environment](/power-platform/admin/database-security)  
 [How access to a record is determined](/power-platform/admin/how-record-access-determined)  
