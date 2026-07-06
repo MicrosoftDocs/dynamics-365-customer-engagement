@@ -128,8 +128,6 @@
           href: smart-assist.md
         - name: Manage agent scripts
           href: agent-scripts.md
-        - name: Configure screen recording
-          href: /dynamics365/contact-center/administer/screen-recording?context=/dynamics365/context/customer-service-administer-context
         - name: macros
           items:  
           - name: Manage macros
@@ -184,6 +182,16 @@
           href: /dynamics365/contact-center/administer/workforce-management-enable-shift-swapping?context=/dynamics365/context/customer-service-administer-context
         - name: Configure shift-based routing for work items
           href: configure-routing-on-agent-calendar.md
+    - name: Quality management
+      items:
+        - name: Overview of Quality Management Agent
+          href: /dynamics365/contact-center/administer/overview-quality-management?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml 
+        - name: Manage quality evaluation
+          href: /dynamics365/contact-center/administer/manage-quality-evaluation-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Configure governance policies
+          href: configure-governance-policies.md
+        - name: Configure screen recording
+          href: /dynamics365/contact-center/administer/screen-recording?context=/dynamics365/context/customer-service-administer-context
     - name: Community
       items:
       - name: Overview of Community
@@ -548,12 +556,6 @@
         items:
         - name: Manage Customer Knowledge Management Agent
           href: admin-km-agent.md
-      - name: Quality Management
-        items:
-        - name: Manage Quality Evaluation Agent
-          href: /dynamics365/contact-center/administer/manage-quality-evaluation-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Configure governance policies (preview)
-          href: configure-governance-policies.md
     - name: Chat
       items:
       - name: Introduction to the chat channel
