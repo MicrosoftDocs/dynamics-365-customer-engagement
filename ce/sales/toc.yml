@@ -533,6 +533,8 @@ items:
             href: opportunity-pipeline-view-for-admins.md
           - name: Enable customization of the Opportunity Close form
             href: enable-opportunity-close-customization.md
+          - name: Disable copy opportunity feature
+            href: disable-copy-opportunity.md
           - name: Customize the Opportunity Close form
             href: customize-opportunity-close-experience.md
           - name: Predictive opportunity scoring
