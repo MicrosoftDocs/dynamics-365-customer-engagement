@@ -1,7 +1,7 @@
 ---
 title: Remove LinkedIn Sales Navigator from Dynamics 365
-description: If you want to uninstall LinkedIn Sales Navigator, follow these steps to delete the appropriate solutions in the correct order.
-ms.date: 06/26/2025
+description: Uninstall LinkedIn Sales Navigator by deleting the required Dynamics 365 solutions in the correct order. Follow these steps to get started.
+ms.date: 07/07/2026
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -11,11 +11,11 @@ ms.custom:
 
 # Uninstall LinkedIn Sales Navigator
 
-You can uninstall LinkedIn Sales Navigator if you don't want to use it in your organization. To uninstall, you must delete the following solutions in the given order:
+Use this article to uninstall LinkedIn Sales Navigator from your organization by deleting the required solutions in the correct order:
 
 1. LinkedInSalesNavigatorControlsForUnifiedClient
-2. LinkedIn
-3. msdyn_LinkedInSalesNavigatorAnchor
+1. LinkedIn
+1. msdyn_LinkedInSalesNavigatorAnchor
 
 **To uninstall LinkedIn Sales Navigator**
 

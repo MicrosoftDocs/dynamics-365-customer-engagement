@@ -2,7 +2,7 @@
 title: Configure assignment rules for Sales Qualification Agent
 description: Learn how to configure the assignment rules for the Sales Qualification Agent in Dynamics 365 Sales.
 ms.topic: how-to 
-ms.date: 08/01/2025
+ms.date: 07/07/2026
 ms.service: dynamics-365-sales
 ms.custom: bap-template
 author: udaykirang

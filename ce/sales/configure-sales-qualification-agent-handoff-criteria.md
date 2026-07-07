@@ -1,7 +1,7 @@
 ---
 title: Configure handoff criteria for the Sales Qualification Agent
 description: Configure target customer profile, budget, authority, need, and timeline criteria for the Sales Qualification Agent to effectively qualify leads.
-ms.date: 05/29/2026
+ms.date: 07/07/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -82,8 +82,8 @@ Use custom criteria to define characteristics that are important for your target
 1. If you added a URL, provide instructions for the agent to extract the information you're looking for.
    1. In the text box, enter the company's URL.
    2. Select **Next**.
-   3. In the **Provide instructions** dialog, add specific instructions about the information you want the agent to extract from the website. Also, you can add a Dataverse field to the instruction by adding a forward slash (/).
-   For example, you could say, "Look at the company's sustainability report and identify their key environmental initiatives /". The forward slash opens a dropdown list of available fields in the Dataverse table. Select a table and field from the list. In this example, Lead > Company Name is selected. The instruction is now "Look at the company's sustainability report and identify their key environmental initiatives based on {{Lead.Company Name}}."
+   1. In the **Provide instructions** dialog, add specific instructions about the information you want the agent to extract from the website. Also, you can add Dataverse fields to the instruction by adding a forward slash (/) - it's helpful to provide as much detail as possible to ensure that the agent finds the right information. 
+   For example, you could say, "Search for information about /". The forward slash opens a dropdown list of available fields in the Dataverse table. Select a table and field from the list. In this example, you can select Lead > CompanyName, Lead > City, and Lead > StateOrProvince to get the final instruction "Search for information about {{Lead.Company Name}} based in {{Lead.City}}, {{Lead.StateOrProvince}}. Find the company's sustainability report and identify their key environmental initiatives." Note that in this example, multiple Dataverse fields were referenced to provide the specific location to help the agent distinguish between different headquarters of the same company - the more detail you provide, the more accurate your results will be.
 
     :::image type="content" source="media/sqa-ideal-customer-profile-custom-criterion-instruction.png" alt-text="Screenshot of adding instructions for the custom criterion.":::
 

@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
 ms.collection:
-ms.date: 06/19/2025
+ms.date: 06/06/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -16,7 +16,7 @@ ms.custom:
 
 # Configure work assignment
 
-Work assignment is a feature of Dynamics 365 Sales that removes the burden of manually assigning leads, opportunities, and other work to your sales team. Using assignment rules that can consider sellers' attributes, availability, and capacity, the sales accelerator automatically assigns the right salesperson at the right time to the right leads and opportunities.
+Work assignment is a feature of Dynamics 365 Sales that removes the burden of manually assigning leads, opportunities, and other work to your sales team. By using assignment rules that consider sellers' attributes, availability, and capacity, the sales accelerator automatically assigns the right salesperson at the right time to the right leads and opportunities.
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
@@ -38,7 +38,7 @@ After you configure work assignment for your organization, you can make adjustme
 
 - [Stop assigning work to sellers](#stop-assigning-work-to-sellers) who are on vacation or otherwise unavailable.
 - [Change the priority of your assignment rules](wa-change-priority-assignment-rule.md).
-- [Edit your assignment rules](wa-edit-assignment-rule.md) if you need to more extensive changes.
+- [Edit your assignment rules](wa-edit-assignment-rule.md) if you need to make more extensive changes.
 - [Delete or deactivate assignment rules](wa-delete-deactivate-assignment-rule.md) you no longer need.
 - [Edit segments](wa-edit-a-segment.md) to fine-tune the records that get connected to them.
 - [Delete or deactivate segments](wa-delete-deactivate-a-segment.md) that are no longer useful.
@@ -61,10 +61,10 @@ While sellers are on vacation or are otherwise unavailable, you can stop new rec
 
 ## Add work assignment site map entry to custom app
 
->[!NOTE]
->Configure the Work assignment feature in your organization before you add the site map to your custom app.
+> [!NOTE]
+> Configure the Work assignment feature in your organization before you add the site map to your custom app.
 
-When you create a custom model-driven app, you choose a default solution to create a site map for the app. However, the site map contains only entries that are based on entity forms. The work assignment option is based on URL custom control form and does not appear in the site maps. You must manually add the option to the site map. After you add these options, users in your organization can see them on the app’s sitemap. Use the following URLs to add the work assignment site map to your custom app and perform the steps in [add site map entry to custom app](add-custom-site-map.md):
+When you create a custom model-driven app, you choose a default solution to create a site map for the app. However, the site map contains only entries that are based on entity forms. The work assignment option is based on URL custom control form and doesn't appear in the site maps. You must manually add the option to the site map. After you add these options, users in your organization can see them on the app’s sitemap. Use the following URLs to add the work assignment site map to your custom app and perform the steps in [add site map entry to custom app](add-custom-site-map.md):
 
 | Feature name      | URL                                                                                         |
 |-------------------|---------------------------------------------------------------------------------------------|

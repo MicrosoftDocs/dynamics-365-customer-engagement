@@ -54,7 +54,7 @@ If you enable both server-side synchronization and Microsoft 365 Services, the a
 
 1. [Configure default email processing and synchronization](/power-platform/admin/connect-exchange-online?tabs=new#configure-default-email-processing-and-synchronization).
 1. [Configure mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#configure-mailboxes) of sellers who own the opportunities and [approve their mailboxes](/power-platform/admin/connect-exchange-online?tabs=new#approve-mailboxes). When the configuration succeeds, the **Incoming Email Status** and **Outgoing Email Status** for the mailbox are set to **Success**.
-    :::image type="content" source="mailbox-status.png" alt-text="Screenshot of a user mailbox in Dynamics 365 Sales with status indicators.":::
+    :::image type="content" source="media/mailbox-status.png" alt-text="Screenshot of a user mailbox in Dynamics 365 Sales with status indicators.":::
 
 1. Make sure that the personalization option for email tracking is set to an appropriate value to allow the agent to access emails and meetings from the sellers' mailboxes. Choose an option that best suits your organization's privacy policies. Perform *one* of the following actions:
 

@@ -1,7 +1,7 @@
 ---
 title: Forecasting management FAQs
 description: Get answers to frequently asked questions about forecasting management.
-ms.date: 05/06/2026
+ms.date: 07/07/2026
 ms.topic: faq
 author: udaykirang
 ms.author: udag

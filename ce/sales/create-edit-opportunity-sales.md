@@ -1,7 +1,7 @@
 ---
 title: Create or edit opportunities
 description: An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy.
-ms.date: 07/10/2025
+ms.date: 07/07/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -55,6 +55,38 @@ Create an opportunity with the details you have. You can update the opportunity 
     > When you're ready to add products, you can choose to auto-calculate the revenue based on the products added, price list, discounts and so on.
 
 5. Select **Save**.
+
+## Copy an opportunity (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+You can copy an opportunity to quickly create repeat deals by duplicating existing opportunities. This method saves time on data entry, ensures consistency across related deals, and lets you review and modify key details before saving. For example, if you close a deal with a customer and want to create a follow-up opportunity with similar terms, you can copy the original opportunity, update the relevant fields (like dates and amounts), and create a new deal in seconds instead of manually re-entering all the information.
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+1. Open an existing opportunity, or go to the opportunity grid view and select a single opportunity.
+
+1. On the command bar, select **Copy opportunity**.
+
+   > [!NOTE]
+   > The **Copy opportunity** button appears only when:
+   > - You have **Create** permission on the **Opportunity** entity.
+   > - Your system administrator didn't [disable the copy opportunity feature](disable-copy-opportunity.md).
+
+1. Review the new opportunity.
+
+   The following table shows what gets copied initially, what gets copied after save, what gets reset, and what's not copied:
+
+   | Category | Details |
+   |----------|---------|
+   | **Copied initially** | - Account, primary contact, and currency<br>- Estimated value, budget, description, purchase timeframe, and ratings |
+   | **Copied after save** | - Every product line item (quantity, pricing; inactive products skipped)<br>- Every stakeholder connection, role, and description<br>- All custom fields (including hidden and off-form fields) |
+   | **Reset to default values** | - Status -> **Open**<br>- Sales process stage -> first stage<br>- Owner -> user initiating the copy<br>- Created and modified timestamp -> current date and time<br>- Actual close date -> blank<br>- Actual revenue -> blank<br>- Competitor -> blank (when copying lost deal) |
+   | **Not copied** | - Activities<br>- Notes and attachments<br>- Quotes<br>- Orders<br>- Invoices<br>- Timeline |
+
+1. Save the opportunity and verify that all items are copied as shown in the preceding table.
+
+1. Review the **Timeline** section to know which fields are copied, which fields are reset, and which products are skipped.
 
 ## Typical next steps
 

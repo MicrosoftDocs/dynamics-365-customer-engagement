@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
 ms.collection: 
-ms.date: 06/25/2025
+ms.date: 07/07/2026
 ms.custom: bap-template
 ---
 
@@ -14,23 +14,23 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Because seller insights are generated from your custom insights model, you must import that model into Dataverse. However, before you import the model, map your custom attributes with the attributes in the `msdyn_salessuggestion` entity in Dataverse.
+Because seller insights come from your custom insights model, you need to import that model into Dataverse. However, before you import the model, map your custom attributes to the attributes in the `msdyn_salessuggestion` entity in Dataverse.
 
 ## Import the data model into Dataverse
 
-The following diagram illustrates the process of importing the custom model into Dataverse.
+The following diagram shows the process of importing the custom model into Dataverse.
 
 :::image type="content" source="media/si-import-suggesstions-model.svg" alt-text="Flow diagram of the process of importing the custom data model into Dataverse.":::
 
 To import and map the attributes, follow these steps:
 
 1. Make sure that you [understand the msdyn\_salessuggestion entity](#understand-the-msdyn_salessuggestion-entity).
-1. Map the attributes from your custom model with attributes in the `msdyn_salessuggestion` entity. You can use various methods to map the custom attributes, such as Web APIs, comma-separated values (.csv) files, or XML Spreadsheet 2003 (.xml) files.
-1. Import your mapped attribute schema into Dataverse, so that Dynamics 365 Sales can access your data and display the insights. For more information, go to the [Map the schema and import it into Dataverse](#map-the-schema-and-import-it-into-dataverse) section.
+1. Map the attributes from your custom model to attributes in the `msdyn_salessuggestion` entity. You can use various methods to map the custom attributes, such as Web APIs, comma-separated values (.csv) files, or XML Spreadsheet 2003 (.xml) files.
+1. Import your mapped attribute schema into Dataverse, so that Dynamics 365 Sales can access your data and display the insights. For more information, see the [Map the schema and import it into Dataverse](#map-the-schema-and-import-it-into-dataverse) section.
 
 ## Understand the msdyn_salessuggestion entity
 
-The `msdyn_salessuggestion` entity helps you import your custom insights data into Dynamics 365 Sales. The custom attributes in your data might vary, based on the data. To help ensure that the insights are surfaced in the correct place and with the correct actions, map your custom attributes to the attributes in the `msdyn_salessuggestion` entity.
+The `msdyn_salessuggestion` entity helps you import your custom insights data into Dynamics 365 Sales. The custom attributes in your data might vary, based on the data. To help ensure that the insights surface in the correct place and with the correct actions, map your custom attributes to the attributes in the `msdyn_salessuggestion` entity.
 
 Use the following table to get a detailed understanding of the `msdyn_salessuggestion` entity attributes.
 
@@ -52,9 +52,9 @@ Use the following table to get a detailed understanding of the `msdyn_salessugge
 
 ## Map the schema and import it into Dataverse
 
-Use methods such as Web APIs, comma-separated values (.csv) files, or XML Spreadsheet 2003 (.xml) files to map custom attributes and create the schema. After you map the custom attributes with the `msdyn_salessuggestion` entity, you must import the schema into Dataverse. The insights can then be displayed in the records in Dynamics 365 Sales.
+Use methods such as Web APIs, comma-separated values (.csv) files, or XML Spreadsheet 2003 (.xml) files to map custom attributes and create the schema. After you map the custom attributes with the `msdyn_salessuggestion` entity, import the schema into Dataverse. The insights can then be displayed in the records in Dynamics 365 Sales.
 
-To learn more about how to import data into Dataverse, go to:
+To learn more about how to import data into Dataverse, see:
 
 - For Web APIs: [Work with data using code in Microsoft Dataverse](/power-apps/developer/data-platform/work-with-data).
 - For comma-separated values (.csv), XML Spreadsheet 2003 (.xml), or text files: [Import data](/power-apps/developer/data-platform/import-data).

@@ -1,57 +1,56 @@
 ---
 title: Manage text message conversations
-description: Manage customer conversations through incoming and outgoing text messages for your sales outreach.
-ms.date: 06/25/2025
+description: Manage text message conversations for sales outreach, including incoming replies and outbound texts. Learn how to open, route, and move them.
+ms.date: 07/07/2026
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.owner: shujoshi
 ms.custom: bap-template
-
 ---
 
 # Manage text message conversations
 
-You can manage customer conversations through incoming and outgoing text messages as a part of your sales outreach.   
+You can manage customer conversations through incoming and outgoing text messages as part of your sales outreach.   
 
 ## Prerequisites
 
 Before you start using the inbound text message feature, verify that the following prerequisites are met:
 
-- The text message feature is enabled with the callback URL configured in your SMS provider settings to receive incoming (replies) messages. For more information on the callback URL, see step 4 in [Set up the SMS provider in Dynamics 365 Sales](configure-sms-provider.md#set-up-the-sms-provider-in-dynamics-365-sales).
+- The text message feature is enabled with the callback URL configured in your SMS provider settings to receive incoming (replies) messages. For more information about the callback URL, see step 4 in [Set up the SMS provider in Dynamics 365 Sales](configure-sms-provider.md#set-up-the-sms-provider-in-dynamics-365-sales).
 
-- Contact your administrator to enable the **In-app notifications** option in [Power Apps portal](https://make.powerapps.com/) for your organization. Also, verify that you have the necessary permissions to view the in-app notifications. More information: [Enable the in-app notification feature](/power-apps/developer/model-driven-apps/clientapi/send-in-app-notifications?tabs=clientapi#enable-the-in-app-notification-feature)      
+- Contact your administrator to enable the **In-app notifications** option in [Power Apps portal](https://make.powerapps.com/) for your organization. Also, verify that you have the necessary permissions to view the in-app notifications. For more information, see [Enable the in-app notification feature](/power-apps/developer/model-driven-apps/clientapi/send-in-app-notifications?tabs=clientapi#enable-the-in-app-notification-feature).      
 
-- You must have the **Salesperson** privileges to receive incoming messages. If you have insufficient privileges, you're notified about the same through the in-app notification center. Contact your administrator to get sufficient privileges to use the text message feature. More information: [Salesperson permissions for the SMS feature](sms-intro.md#salesperson-roles-sms-feature) 
+- You must have the **Salesperson** privileges to receive incoming messages. If you have insufficient privileges, the in-app notification center notifies you about the same. Contact your administrator to get sufficient privileges to use the text message feature. For more information, see [Salesperson permissions for the SMS feature](sms-intro.md#salesperson-roles-sms-feature). 
 
 ## How incoming text messages are routed
 
-The incoming messages (replies) are attached to a record with the phone number from which the outbound message was sent. If the same phone number is associated with multiple records, then the incoming messages are routed to the record in the following priority order: 
+The system attaches incoming messages (replies) to a record with the phone number that sent the outbound message. If the same phone number is associated with multiple records, the system routes incoming messages to the record in the following priority order: 
 
--	Contains most recent conversation between the seller and the customer.
--	Owned by a seller to whom the incoming message is addressed.
--	Owned by a seller who belongs to the team owning the phone number.
--	Record entity type in following order: 
+-	The record that contains the most recent conversation between the seller and the customer.
+-	The record owned by a seller to whom the incoming message is addressed.
+-	The record owned by a seller who belongs to the team owning the phone number.
+-	The record entity type in the following order: 
     -	Contact
     -	Account
     -	Opportunity
     -	Lead
--	Active record receives the message over the inactive record.
--	Updated most recently.
+-	The active record receives the message over the inactive record.
+-	The record that's updated most recently.
 
 > [!IMPORTANT]
-> When you receive messages from a number associated with a record, make sure the number is in one of these fields&mdash;`mobilephone`, `telephone1`, or `telephone2`. If the phone number is in any other field, text messages aren't linked to that record. Instead, a new lead is created, and incoming messages are linked to that lead.
+> When you receive messages from a number associated with a record, make sure the number is in one of these fields&mdash;`mobilephone`, `telephone1`, or `telephone2`. If the phone number is in any other field, text messages aren't linked to that record. Instead, the system creates a new lead and links incoming messages to that lead.
   
 ## Open text message conversations
 
-You can only view conversations if the outbound phone number or record is assigned to you or your team. To view the conversations, use one of the following:
+You can view conversations only if you or your team is assigned the outbound phone number or record. To view the conversations, use one of the following options:
 
 - **Activities grid**: 
     
     1. Go to the **Activities** grid and select **Conversation** > **My text messages** from the view selector.       
         
-       A list of conversations that are related you is displayed.        
+       A list of conversations that are related to you is displayed.        
     
     1. Double-click a conversation.   
         
@@ -62,9 +61,9 @@ You can only view conversations if the outbound phone number or record is assign
     1. Open a record (account, contact, lead, or opportunity).        
     
     1.  Select the message icon corresponding to a phone number (Business Phone or Mobile Phone),          
-        >[!NOTE]
-        >For opportunity records, open the **Activity** tab and then double-click a conversation that you want to view.           
-        The conversation pane opens on the right-side of the page.
+        > [!NOTE]
+        > For opportunity records, open the **Activity** tab and then double-click a conversation that you want to view.                      
+        The conversation pane opens on the right side of the page.
         
 - **Notification center**: 
 
@@ -82,21 +81,21 @@ You can only view conversations if the outbound phone number or record is assign
     
 ## Move conversations to a different record
 
-The inbound text messages are connected to the record that has the most recent conversation between the seller and the customer. If the conversation is related to a different record, you can move the conversation to that record. Also, you can move conversation from one record type to another. For example, if the conversation related to a contact record is associated with an account record, you can move the conversation to the contact record.
+The inbound text messages connect to the record that has the most recent conversation between the seller and the customer. If the conversation relates to a different record, you can move the conversation to that record. You can also move a conversation from one record type to another. For example, if the conversation related to a contact record is associated with an account record, you can move the conversation to the contact record.
 
 1. From the conversation window, select the conversations.
 
-    :::image type="content" source="media/sms-text-message-pane.svg" alt-text="Screenshot of the conversation pane.":::
+    :::image type="content" source="media/sms-text-message-pane.svg" alt-text="Screenshot of the text message conversation pane showing messages and conversation actions.":::
 
 1. Select **Change**.
 
 1. Use the lookup field and select the record to which you want to move the conversation.
   
-The conversation are moved to the selected record. To verify, go to the target record and open the conversation pane.
+The conversation moves to the selected record. To verify, go to the target record and open the conversation pane.
 
 ## Understand the conversation pane
 
-The conversation pane is where you, as a seller, interact with your customer. You can do the following tasks through the conversation pane:
+The conversation pane is where you, as a seller, interact with your customer. Through the conversation pane, you can complete the following tasks:
 
 - Send and receive text messages.   
 - Choose templates to send personalized messages.    
@@ -109,11 +108,11 @@ The following image is an example of the conversation pane.
 
 1. **Related conversation to the selected phone number**: This option is available only for contact and opportunity records. When you open a contact, the drop-down list displays opportunities that are related to this contact. You can choose an option from the list to view the history and manage conversations related to that record.  
 
-2. **Manage templates**: Choose templates to send personalized messages to customers. Also, you can choose to create templates if any of the existing templates don't meet your requirements. More information: [Personalize text messages through templates](create-text-message-templates.md)  
+1. **Manage templates**: Choose templates to send personalized messages to customers. Also, you can choose to create templates if any of the existing templates don't meet your requirements. For more information, see [Personalize text messages through templates](create-text-message-templates.md).  
 
-3. **Choose phone numbers**: When there are multiple phone numbers are assigned to you or your team, you can choose a number from which you want to send and receive the message. Similarly, you can choose a phone number to send a message to the customer. More information: [Set up the SMS provider in Dynamics 365 Sales](configure-sms-provider.md#set-up-the-sms-provider-in-dynamics-365-sales)  
+1. **Choose phone numbers**: When multiple phone numbers are assigned to you or your team, you can choose a number from which you want to send and receive the message. Similarly, you can choose a phone number to send a message to the customer. For more information, see [Set up the SMS provider in Dynamics 365 Sales](configure-sms-provider.md#set-up-the-sms-provider-in-dynamics-365-sales).  
 
-4. **Delivery report**: Delivery report of the text message is displayed below the message. It's displayed only if the SMS provider supports it. More information: [Configure SMS provider](configure-sms-provider.md).  
+1. **Delivery report**: The delivery report of the text message is displayed below the message. It's displayed only if the SMS provider supports it. For more information, see [Configure SMS provider](configure-sms-provider.md).  
     If the message is undelivered, hover over the delivery message to view the reason for the failure. Take appropriate action to resolve the failure. For example, if the message is sent to an invalid number, the reason for the failure is displayed as **InvalidSendingParameters**. To resolve the failure, ensure that the number is valid and is in the international telephone numbering plan (E.164 format).
   
 ## Related information

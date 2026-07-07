@@ -1,12 +1,12 @@
 ---
 title: Default attributes used in Copilot summaries
-description: Learn about the default attributes used to generate summaries in Copilot in Dynamics 365 Sales. 
+description: Learn which default attributes Copilot uses for Dynamics 365 Sales opportunity and account summaries, and use them to validate summary output. Start now.
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: concept-article
 ms.collection: bap-ai-copilot
-ms.date: 11/07/2025
+ms.date: 07/07/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ---
@@ -17,7 +17,7 @@ This article helps you understand the default attributes used to generate summar
 
 ## Opportunity summary
 
-To generate the opportunity summary, Copilot in Dynamics 365 Sales uses the following attributes in each section of the summary. Let's learn about the attributes in detail.
+To generate the opportunity summary, Copilot in Dynamics 365 Sales uses the following attributes in each section of the summary. Learn about the attributes in detail.
 
 ### Key value pairs attributes
 
@@ -48,43 +48,43 @@ To generate the key value pairs in the opportunity summary, Copilot uses the fol
 
 ### Quote attributes
 
-The relationship between quote and opportunity tables is established using the `opportunityid` attribute.  
+The `opportunityid` attribute connects the quote and opportunity tables.  
 
-Depending on the `parentcontactid` attribute in the opportunity table, Copilot generates the following quote summary:
+Copilot generates the following quote summary based on the `parentcontactid` attribute in the opportunity table:
 
 - When the `parentcontactid` attribute is available, the summary statement is as follows:  
 
-  So far we've shared `totalcount` (total number of quotes) with `parentcontactid` for this opportunity, with the latest one sent on `createdon` (date of the last created quote). This quote for `totalamount` (total amount of last quote) will be valid until `effectiveto` (effective date of last quote).
+  So far, you shared `totalcount` (total number of quotes) with `parentcontactid` for this opportunity, with the latest one sent on `createdon` (date of the last created quote). This quote for `totalamount` (total amount of last quote) is valid until `effectiveto` (effective date of last quote).
     
-    **Example**: So far we've shared **1** quote with **Maria Campbell (sample)** for this opportunity, with the latest one sent on **8/22/2024 6:42 AM**.
+    **Example**: So far, you shared **1** quote with **Maria Campbell (sample)** for this opportunity, with the latest one sent on **8/22/2024 6:42 AM**.
 
 - When the `parentcontactid` attribute isn't available, the summary statement is as follows:  
 
-  So far we've shared `totalcount` (total number of quotes) for this opportunity, with the latest one sent on `createdon` (date of the last created quote). This quote for `totalamount` (total amount of last quote) will be valid until `effectiveto` (effective date of last quote).
+  So far, you shared `totalcount` (total number of quotes) for this opportunity, with the latest one sent on `createdon` (date of the last created quote). This quote for `totalamount` (total amount of last quote) is valid until `effectiveto` (effective date of last quote).
 
-    **Example**: So far we've shared **1** quote for this opportunity, with the latest one sent on **8/22/2024 6:42 AM**.
+    **Example**: So far, you shared **1** quote for this opportunity, with the latest one sent on **8/22/2024 6:42 AM**.
 
 ### Product information
 
-The relationship between opportunity product and opportunity tables is established using the `opportunityid` attribute.  
+The `opportunityid` attribute connects the opportunity product and opportunity tables.  
 
-Depending on the number of products associated with the opportunity, Copilot generates the following product information summary:
+Copilot generates the following product information summary based on the number of products associated with the opportunity:
 
 - When only one product is associated with the opportunity, the summary statement is as follows:  
 
-    There is 1 product, `productname` (latest product in the opportunity), in this opportunity with a value of `totalamount` (total amount of the opportunity). The opportunity budget is `budgetamount` (budget amount of the opportunity) but the estimated revenue that potentially can be generated from the opportunity is `estimatedvalue` (estimated value of the opportunity).
+    There is one product, `productname` (latest product in the opportunity), in this opportunity with a value of `totalamount` (total amount of the opportunity). The opportunity budget is `budgetamount` (budget amount of the opportunity) but the estimated revenue that can potentially be generated from the opportunity is `estimatedvalue` (estimated value of the opportunity).
 
-    **Example**: There is 1 product, **Laser printers**, in this opportunity with a value of **$500.00**. The opportunity budget is **$30,000.00** but the estimated revenue that can be potentially generated from the opportunity is **$10,000.00**.
+    **Example**: There is one product, **Laser printers**, in this opportunity with a value of **$500.00**. The opportunity budget is **$30,000.00** but the estimated revenue that can potentially be generated from the opportunity is **$10,000.00**.
 
 - When multiple products are associated with the opportunity, the summary statement is as follows:  
 
-   There are `totalCount` (number of products in the opportunity) products in this opportunity with a combined value of `totalamount` (total amount of the opportunity) and the top 2 products by value are `productname` (name of the product with the highest value) and `productname` (name of the product with the second highest value). The opportunity budget is `budgetamount` (budget amount of the opportunity) but the estimated revenue that potentially can be generated from the opportunity is `estimatedvalue` (estimated value of the opportunity).
+   There are `totalCount` (number of products in the opportunity) products in this opportunity with a combined value of `totalamount` (total amount of the opportunity) and the top two products by value are `productname` (name of the product with the highest value) and `productname` (name of the product with the second highest value). The opportunity budget is `budgetamount` (budget amount of the opportunity) but the estimated revenue that can potentially be generated from the opportunity is `estimatedvalue` (estimated value of the opportunity).
 
-    **Example**: There are **3** products in this opportunity with a combined value of **$3,000.00** and the top 2 products by value are **3D printers** and **Laser printers**. The opportunity budget is **$30,000.00** but the estimated revenue that potentially can be generated from the opportunity is **$10,000.00**.
+    **Example**: There are **3** products in this opportunity with a combined value of **$3,000.00** and the top two products by value are **3D printers** and **Laser printers**. The opportunity budget is **$30,000.00** but the estimated revenue that can potentially be generated from the opportunity is **$10,000.00**.
 
 ### Stakeholder information
 
-Stakeholder information is generated based on the contacts associated with the opportunity. Copilot gets the contact information by getting stakeholders for the opportunity. Copilot checks which stakeholders are common in the other opportunities connected to the same parent account, and these stakeholders are contacts connected to the opportunity by the entity `connection` with the role `stakeholder`.
+Generate stakeholder information based on the contacts associated with the opportunity. Copilot gets the contact information by getting stakeholders for the opportunity. Copilot checks which stakeholders are common in the other opportunities connected to the same parent account. These stakeholders are contacts connected to the opportunity by the entity `connection` with the role `stakeholder`.
 
 Depending on the number of stakeholders associated with the opportunity, Copilot generates the following stakeholder summary:
 
@@ -102,7 +102,7 @@ Depending on the number of stakeholders associated with the opportunity, Copilot
 
 ### Account history information
 
-Account history information is generated based on the closed opportunities associated with the account. Copilot gets the account history information by getting the parent account of the opportunity and then getting the closed opportunities associated with this account.
+Generate account history information from the closed opportunities associated with the account. Copilot gets the account history information by getting the parent account of the opportunity and then getting the closed opportunities associated with this account.
 
 Depending on the closed opportunities associated with the account, Copilot generates the following account history summary:
 
@@ -120,29 +120,29 @@ Depending on the closed opportunities associated with the account, Copilot gener
 
 ### Purchase history information
 
-Purchase history information is generated based on the closed opportunities associated with the parent account of the opportunity. Copilot gets the parent account of the opportunity and then gets the closed opportunities associated with this account.
+Generate purchase history information from the closed opportunities associated with the parent account of the opportunity. Copilot gets the parent account of the opportunity and then gets the closed opportunities associated with this account.
 
 The following statement is generated based on the opportunities associated with the account:  
 
-Our last successful opportunity with `parentaccount` (name of the parent account) for `lastclosedopportunity` (name of the last closed opportunity in the parent account) was worth `actualvalue` (total value of the last closed opportunity). We have successfully closed `count` (number of closed opportunities for the account) opportunity with them so far from a total of `count` (number of all opportunities).
+Our last successful opportunity with `parentaccount` (name of the parent account) for `lastclosedopportunity` (name of the last closed opportunity in the parent account) was worth `actualvalue` (total value of the last closed opportunity). We successfully closed `count` (number of closed opportunities for the account) opportunities with them so far from a total of `count` (number of all opportunities).
 
-**Example**: Our last successful opportunity with **Fourth Coffee (sample)** for **10 orders of Product SKU JJ202 (sample)** was worth **88**. We have successfully closed **1** opportunity with them so far from a total of **2**.
+**Example**: Our last successful opportunity with **Fourth Coffee (sample)** for **10 orders of Product SKU JJ202 (sample)** was worth **88**. We successfully closed **1** opportunity with them so far from a total of **2**.
 
 ### Opportunity stage update
 
-Opportunity stage is updated based on the audit history of the opportunity. Copilot gets the audit history within the last two months (top 200 records) for the opportunity.
+Copilot updates the opportunity stage based on the audit history of the opportunity. It retrieves the audit history within the last two months (top 200 records) for the opportunity.
 
-`userid` (name of the user) updated the opportunity stage from `oldstepname` (name of the previous stage) to `newstepname` (name of the new stage) on `createdon` (updated date).
+`userid` (name of the user) updates the opportunity stage from `oldstepname` (name of the previous stage) to `newstepname` (name of the new stage) on `createdon` (updated date).
 
 **Example**: **Kenny Smith** updated the opportunity stage from **3-Propose** to **2-Develop** on **8/22/2024 6:57 AM**.
 
 ## Account summary
 
-To generate the account summary, Copilot in Dynamics 365 Sales uses the following attributes in each section of the summary. Let's learn about the attributes in detail.  
+To generate the account summary, Copilot in Dynamics 365 Sales uses the following attributes in each section of the summary.  
 
 ### Account history
 
-Account history information is generated based on the closed opportunities associated with the account. Copilot gets the closed opportunities associated with the account.  
+Copilot generates account history information based on the closed opportunities associated with the account. It retrieves the closed opportunities associated with the account.  
 Based on the closed opportunities associated with the account, Copilot generates the following account history summary:  
 
 - On an account with closed opportunities, the summary statement is as follows:  
@@ -157,12 +157,12 @@ Based on the closed opportunities associated with the account, Copilot generates
 
 ### Purchase history
 
-Purchase history information is generated based on the closed opportunities associated with the account. Copilot gets the closed opportunities associated with the account.  
+Purchase history information comes from the closed opportunities associated with the account. Copilot gets the closed opportunities associated with the account.  
 The following statement is generated based on the opportunities associated with the account:
 
-Our last successful opportunity with `account` (name of the account) for `account.lastclosedopportunity` (name of the last closed opportunity for the account) was worth `account.lastclosedopportunity.actualvalue` (last closed opportunity's actual value). We have successfully closed `account.closedopportunities.count` (number of closed opportunities for the account) with them so far from a total of `account.allopportunities.count` (number of all opportunities).
+Our last successful opportunity with `account` (name of the account) for `account.lastclosedopportunity` (name of the last closed opportunity for the account) was worth `account.lastclosedopportunity.actualvalue` (last closed opportunity's actual value). We successfully closed `account.closedopportunities.count` (number of closed opportunities for the account) with them so far from a total of `account.allopportunities.count` (number of all opportunities).
 
-**Example**: Our last successful opportunity with **Contoso** for **1 Café BG-1 Grinder for Alpine Ski House** was worth **$10,000**. We have successfully closed **10** with them so far from a total of **25**.
+**Example**: Our last successful opportunity with **Contoso** for **1 Café BG-1 Grinder for Alpine Ski House** was worth **$10,000**. We successfully closed **10** with them so far from a total of **25**.
 
 ## Related information
 
