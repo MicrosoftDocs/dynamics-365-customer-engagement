@@ -1,7 +1,7 @@
 ---
 title: Enable Service Agent in Microsoft 365 Copilot
 description: Learn how to enable Service Agent in Microsoft 365 Copilot for Dynamics 365 Customer Service so representatives can get responses about cases and customer records without searching manually.
-ms.date: 06/30/2026
+ms.date: 07/07/2026
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -37,7 +37,7 @@ Installing the Service app connects Service Agent to your Customer Service envir
 Before you install the Service app, make sure the following requirements are met:
 
 - You must be a Microsoft 365 administrator to install the Service app from the [Microsoft 365 admin center](https://admin.microsoft.com/). Learn more in [How do I find my Microsoft 365 admin?](https://support.microsoft.com/en-us/office/how-do-i-find-my-microsoft-365-admin-59b8e361-dbb6-407f-8ac3-a30889e7b99b).
-- Admins must assign the Microsoft 365 Copilot license to each user who can use the app. Specific licensing requirements apply when you use Service. Learn more in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+- Specific licensing requirements apply when you use Service. Learn more in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 To install the Service app, do the following steps:
 
@@ -49,7 +49,7 @@ To install the Service app, do the following steps:
 
 ### Add Microsoft 365 Copilot to your Customer Service environment
 
-After the Service app is enabled, the Dynamics 365 organization administrator must add Copilot to the Customer Service environment. Do the steps in [Add Microsoft 365 Copilot for app users in model-driven apps (preview)](/power-apps/maker/model-driven-apps/add-microsoft-365-copilot).
+After the Service app is enabled, the Dynamics 365 organization administrator must add Copilot to the Customer Service environment. Complete the steps in [Add Microsoft 365 Copilot for app users in model-driven apps](/power-apps/maker/model-driven-apps/add-microsoft-365-copilot).
 
 After setup is complete, representatives can ask Microsoft 365 Copilot questions about cases, customers, and interactions, and receive contextual responses powered by Service Agent.
 
