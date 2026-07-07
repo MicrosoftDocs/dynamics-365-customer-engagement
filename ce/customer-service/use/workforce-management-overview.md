@@ -1,7 +1,7 @@
 ---
 title: Overview of Workforce Management
 description: Learn how Workforce Management, a key capability of Workforce Engagement Management in Dynamics 365 Customer Service and Dynamics 365 Contact Center, helps organizations forecast demand, optimize staffing, schedule representatives, and track adherence.
-ms.date: 07/02/2026
+ms.date: 07/07/2026
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -32,6 +32,7 @@ Workforce Management provides the following benefits:
 - Increase scheduling efficiency through automated scheduling and break distribution capabilities.
 - Give customer service representatives visibility into schedules and self-service tools for managing time off and shift changes.
 - Monitor schedule adherence in real time and respond quickly to staffing gaps that might affect customer experience.
+- Support staffing and monitoring workflows that can include both service representatives and AI agents in contact center operations.
 - Manage forecasting, planning, scheduling, and adherence tracking from a unified workforce management experience.
 
 ## Workforce Management capabilities
@@ -93,7 +94,8 @@ Representative self-service includes the following capabilities:
 - Viewing schedules through a personal calendar
 - Submitting time-off requests
 - Participating in shift bidding
-- Requesting shift swaps with eligible peers
+- Requesting intraday shift changes, such as shift swaps with eligible peers
+- Recording work time to help maintain accurate schedule and activity tracking
 
 Learn more in the following articles:
 
@@ -155,4 +157,3 @@ A typical Workforce Management workflow includes the following steps:
 - [Use the Schedule Calendar](use-agent-calendar.md)  
 - [Use the Adherence Tracker](/dynamics365/contact-center/use/workforce-management-adherence-tracker?context=/dynamics365/context/customer-service-use-context)  
 - [Overview of quality management](/dynamics365/contact-center/use/overview-quality-management)  
-
