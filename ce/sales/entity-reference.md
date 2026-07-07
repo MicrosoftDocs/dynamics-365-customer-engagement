@@ -1,23 +1,23 @@
 ---
-title: Table/entity reference for Sales Insights
+title: Table reference for Sales Insights
 description: Understand the operations you can perform for specific entities in predictive scoring in Microsoft Dynamics 365 Sales.
-ms.date: 01/26/2025
+ms.date: 07/07/2026
 ms.topic: reference
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ---
-# Sales insights table/entity reference 
+# Sales insights table reference 
 
 Understand the operations you can perform for specific entities, each entity's default attributes, and the relationships between entities.
 
 |Entity name|Description|
 |------|------|
-|[Predictive Score (msdyn_predictivescore)](../developer/reference/entities/msdyn_predictivescore.md)|This custom entity contains attributes such as, score, trend, grade, and score reasons. Use it to view information on views and forms, which has a relationship with lead and opportunity entities.|
-|[Predictive Model Score (msdyn_predictivemodelscore)](../developer/reference/entities/msdyn_predictivemodelscore.md)|This custom entity is used to generate scores for each model. For internal use only.|
-|msdyn_PredictiveScoringCommon|The solution contains relationships from lead and opportunity to **msdyn_predictivescore**, and information on **msdyn_PredictiveScore** and **msdyn_PredictiveModelScore** entities. This is a common solution that holds information related to lead and opportunity scoring.|
+|[Predictive Score (msdyn_predictivescore)](../developer/reference/entities/msdyn_predictivescore.md)|This custom entity contains attributes such as score, trend, grade, and score reasons. Use it to view information on views and forms. It has a relationship with lead and opportunity entities.|
+|[Predictive Model Score (msdyn_predictivemodelscore)](../developer/reference/entities/msdyn_predictivemodelscore.md)|This custom entity generates scores for each model. For internal use only.|
+|msdyn_PredictiveScoringCommon|The solution contains relationships from lead and opportunity to **msdyn_predictivescore**, and information on **msdyn_PredictiveScore** and **msdyn_PredictiveModelScore** entities. This common solution holds information related to lead and opportunity scoring.|
 |[wkwcolleaguesforcontact (msdyn_wkwcolleaguesforcontact)](../developer/reference/entities/msdyn_wkwcolleaguesforcontact.md)|This custom entity contains interactions between your organization's users and contacts in Dynamics 365, through emails, calls, and so on. Dynamics 365 Sales uses this data to surface the who knows whom connection.|
-|[wkwcolleaguesforcompany (msdyn_wkwcolleaguesforcompany) table/entity reference (Microsoft Dynamics 365)](../developer/reference/entities/msdyn_wkwcolleaguesforcompany.md)|This custom entity contains interactions between your organization's users and accounts in Dynamics 365, through emails, calls, and so on. For example, when a seller receives an email from a domain that's associated with an account, a connection record will be created in this entity.|
+|[wkwcolleaguesforcompany (msdyn_wkwcolleaguesforcompany) table reference (Microsoft Dynamics 365)](../developer/reference/entities/msdyn_wkwcolleaguesforcompany.md)|This custom entity contains interactions between your organization's users and accounts in Dynamics 365, through emails, calls, and so on. For example, when a seller receives an email from a domain that's associated with an account, a connection record is created in this entity.|
 
 ## Related information
 

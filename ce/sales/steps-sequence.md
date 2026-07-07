@@ -1,7 +1,7 @@
 ---
 title: Add steps to define activities for sequences
 description: Explore steps to define activities for sequences in sales accelerator, including A/B test, email activity, text message activity and more.
-ms.date: 06/16/2026
+ms.date: 07/07/2026
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -105,6 +105,7 @@ Use this step to scale consistent outreach while reducing manual effort and ensu
 >- Ensure that your organization has the required email templates. For more information, see [Create templates for email](/power-platform/admin/create-templates-email?context=/dynamics365/context/sales-context).   
 >- Configure [the email engagement feature](configure-email-engagement.md) before using this step.
 >- The account must have a primary contact with a valid email address. Otherwise, the email isn't sent. To continue the sequence, send the email manually to the account.  
+>- In the Power Platform admin center, enable the **Send Email as Another User** option to allow users to send emails on behalf of other users. If this isn't enabled, the automated email step fails and the sequence pauses. For more information, see [Send email on behalf of another user](/power-platform/admin/send-email-on-behalf).
 
 To add the automated email activity step:
 

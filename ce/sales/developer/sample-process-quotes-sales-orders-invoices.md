@@ -1,7 +1,7 @@
 ---
-title: "Sample: Process quotes, sales orders, and invoices (Dynamics 365 Sales)"
-description: The sample demonstrates how to convert an opportunity that is won to a quote, then convert a quote to a sales order, and then convert a sales order to an invoice.
-ms.date: 01/02/2020
+title: Sample to process quotes, sales orders, and invoices
+description: Learn how to process quotes, sales orders, and invoices by converting a won opportunity to a quote, order, and invoice. Try the sample now.
+ms.date: 07/07/2026
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
@@ -11,7 +11,7 @@ ms.reviewer: udag
 search.audienceType: 
   - developer
 ---
-# Sample: Process quotes, sales orders and invoices
+# Sample to process quotes, sales orders and invoices
 
 This sample code is for Dynamics 365 Sales. Download the complete sample here [Business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/sales/ProcessQuotesSalesOrdersInvoices).   
 

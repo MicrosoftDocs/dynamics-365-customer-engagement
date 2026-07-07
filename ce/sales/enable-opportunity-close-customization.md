@@ -1,5 +1,5 @@
 ---
-title: "Enable customization of Opportunity Close form | MicrosoftDocs"
+title: Enable customization of Opportunity Close form
 description: "Enable system customizers to customize the opportunity close experience so that sales reps can capture details about why an opportunity was closed."
 ms.date: 03/13/2026
 ms.topic: how-to
@@ -7,13 +7,15 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
-# Enable customization of the Opportunity Close form 
+# Enable customization of Opportunity Close form
 
-Enable system customizers to customize the opportunity close experience so that sellers can capture details about why an opportunity was closed.
+When you close an opportunity, capturing the right information helps your sales team learn from wins and losses, improve forecasting accuracy, and identify process improvements. By customizing the Opportunity Close form, you can tailor the fields and questions to match your organization's specific needs.
+
+For example, you might want to add fields to capture competitive information, customer feedback, or internal notes about what factors influenced the decision. This valuable data becomes part of your opportunity records and helps inform future sales strategies.
 
 ## Enable customization
 
-To allow users in your organization to capture more relevant details about an opportunity closing, a system administrator can enable the customization of the Opportunity Close form.
+To allow users in your organization to capture these relevant details when closing opportunities, a system administrator can enable the customization of the Opportunity Close form.
 
 > [!NOTE]
 > The capability to customize the **Opportunity Close** form is supported only in the sales app built on Unified Interface.
@@ -26,7 +28,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 1. In lower-left corner of the screen, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
 
-1. Under **General Settings**, select **Lead + Opportunity management** > **Opportunity Closing** page, turn the **Custom fields on closing form** toggle to **Yes**.
+1. Under **General Settings**, select **Lead + Opportunity management** > **Opportunity management**, and then turn the **Custom fields on closing form** toggle to **Yes**.
 1. Select **Save**.
 
 # [Sales Professional app](#tab/SP)

@@ -1,7 +1,7 @@
 ---
 title: Notes analysis and auto capture FAQs
 description: Get answers to frequently asked questions about notes analysis and auto capture.
-ms.date: 06/05/2025
+ms.date: 07/07/2026
 ms.topic: faq
 author: udaykirang
 ms.author: udag
@@ -20,16 +20,16 @@ This article answers frequently asked questions about notes analysis and auto ca
 
 ## Notes analysis
 
-### What does Notes analysis look at for the intent?​  
+### What does notes analysis look at for the intent?​  
 
-Notes analysis looks at notes and posts on the timeline for the intent that may indicate a record should be created. Notes analysis looks for meeting requests, meetings, tasks, and contacts.
+Notes analysis looks at notes and posts on the timeline for the intent that might indicate a record should be created. It looks for meeting requests, meetings, tasks, and contacts.
 
 ## Auto capture
 
 ### How long does the application take to display captured suggestions?
 
-For activities, the suggestions are displayed immediately.  
+For activities, the application displays the suggestions immediately.  
 
-### Which languages are supported for auto capture?
+### Which languages does auto capture support?
 
-For activity suggestions, the body of emails and meetings are analyzed in English, French, German, Italian, Dutch, and Norwegian.
+For activity suggestions, the application analyzes the body of emails and meetings in English, French, German, Italian, Dutch, and Norwegian.

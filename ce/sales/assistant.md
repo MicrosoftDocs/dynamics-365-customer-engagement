@@ -1,7 +1,7 @@
 ---
-title: Assistant for Dynamics 365 Sales
-description: Stay on top of your day with the Assistant feature in Dynamics 365 Sales. Get tailored and actionable insights to help you succeed.
-ms.date: 06/30/2025
+title: Use Assistant to prioritize work in Dynamics 365 Sales
+description: Use the Assistant in Dynamics 365 Sales to get tailored, actionable insights and stay on top of your day. Learn how to use it now.
+ms.date: 07/07/2026
 ms.topic: overview
 ms.collection: get-started
 author: udaykirang
@@ -14,15 +14,15 @@ ms.custom:
   - ai-seo-date:03/21/2024
 ---
 
-# Assistant for Dynamics 365 Sales 
+# Use Assistant to prioritize work in Dynamics 365 Sales 
 
-The assistant (formerly known as Relationship Assistant) is part of Dynamics 365 Sales. The assistant keeps an eye on your daily actions and communications, and helps you stay on top of your day with insight cards that are displayed prominently throughout the application to provide tailored and actionable insights. 
+The assistant (formerly Relationship Assistant) in Dynamics 365 Sales monitors your daily actions and communications and surfaces insight cards across the app. Use these tailored, actionable insights to stay on top of your day.
 
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
-## How can I use the assistant feature?
+## Use the assistant feature by role
 
-Depending on your role, you can use the text message feature as described in the list:
+Depending on your role, use the text message feature as described in the following list:
 
 **System administrator or any similar role**:
 
@@ -35,11 +35,11 @@ Depending on your role, you can use the text message feature as described in the
 **Sales manager, seller, or any other similar role**:
 
 - Use the assistant to stay on top of your day. More information: [Use the assistant to guide customer communications](use-assistant-guide-customer-communications.md)
-- Manage your insight cards by turning on or off. More information: [Turn on or off insight cards](turn-on-off-insight-cards.md)
+- Manage your insight cards by turning them on or off. More information: [Turn on or off insight cards](turn-on-off-insight-cards.md)
 - Reference of default insight cards. More information: [Insight cards reference](action-cards-reference.md)
 
-## Assistant studio tutorials
+## Create custom insight cards with Assistant studio tutorials
 
-Assistant tutorials are available for you to learn how to create custom insight cards by using minimal or no code through Power Automate. Using the tutorials, you learn from creating a basic custom insight, a "hello world" equivalent, and gradually increase the complexity as you go along.
+Assistant tutorials are available for you to learn how to create custom insight cards by using minimal or no code through Power Automate. By using the tutorials, you learn from creating a basic custom insight, a "hello world" equivalent, and gradually increase the complexity as you go along.
 
 More information: [Assistant studio tutorials for Dynamics 365 Sales Insights](/training/modules/sales-insights-lab/)
