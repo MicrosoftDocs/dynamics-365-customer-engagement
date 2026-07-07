@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
 ms.collection:
-ms.date: 04/25/2025
+ms.date: 07/07/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -16,9 +16,9 @@ ms.custom:
 
 # Enable focused view for all records
 
-Enable the focused view for all records in your organization to allow sellers to easily manage records and associated activities on one page. By default, the option is enabled and is displayed for all entities. Users can switch to the focused view by choosing the **Focused View** option from the command bar on the entity grid.
+When you enable the focused view for all records in your organization, sellers can easily manage records and associated activities on one page. By default, the option is enabled and displayed for all entities. Users can switch to the focused view by choosing the **Focused View** option from the command bar on the entity grid.
 
-When disabled, the focused view becomes unavailable for all entities within your organization and configured the entities won't display the focused view.
+When you disable this option, the focused view isn't available for any entities within your organization and configured entities don't display the focused view.
 
 You must have the **System Administrator** or similar security role to perform these configurations. 
 

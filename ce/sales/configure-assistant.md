@@ -1,7 +1,7 @@
 ---
 title: Configure the assistant
 description: Configure the assistant to help sellers track their daily actions and communications through actionable insight cards.
-ms.date: 04/30/2024
+ms.date: 07/07/2026
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -67,9 +67,9 @@ The premium assistant offers advanced capabilities, including:
 - [Creating custom insight cards](create-insight-cards-flow.md).
 - [Prioritizing individual cards](edit-insight-cards.md#set-priority-for-a-card).
 - [Assigning cards to users by roles](edit-insight-cards.md#assign-roles-to-or-remove-roles-from-a-card).
-- [Turn on or off insights cards](edit-insight-cards.md#turn-cards-on-or-off).
-- [Edit flow of an insight card](edit-insight-cards.md#edit-flow-of-a-card).
-- [View card usage metrics](edit-insight-cards.md#view-card-usage-metrics).
+- [Turning on or off insights cards](edit-insight-cards.md#turn-cards-on-or-off).
+- [Editing flow of an insight card](edit-insight-cards.md#edit-flow-of-a-card).
+- [Viewing card usage metrics](edit-insight-cards.md#view-card-usage-metrics).
 
 > [!NOTE]
 > You can create custom cards not only from the assistant studio but also directly by using the solution. For more information, see [Create custom cards in the assistant](extend-relationship-assistant-card.md).

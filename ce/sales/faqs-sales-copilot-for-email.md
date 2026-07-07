@@ -1,6 +1,6 @@
 ---
 title: Responsible AI FAQ about Copilot for emails
-description: This FAQ provides information about the AI technology that's used in Dynamics 365 Sales for emails. This FAQ also includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+description: Learn how Copilot for emails in Dynamics 365 Sales uses AI, how it’s evaluated, and its limitations so you can use it responsibly and confidently. Read the FAQ.
 ms.date: 11/12/2025
 ms.update-cycle: 180-days
 ms.custom: 
@@ -15,7 +15,7 @@ ms.reviewer: udag
 
 # Responsible AI FAQ about Copilot for emails
 
-These frequently asked questions (FAQ) describe the AI impact of the email capabilities in Copilot in Dynamics 365 Sales.
+These frequently asked questions explain how Copilot for emails in Dynamics 365 Sales works, including its AI capabilities, testing, and limitations for responsible use.
 
 ## What is Copilot for emails?
 
@@ -43,9 +43,9 @@ The email copilot features are aimed at improving the seller productivity, by he
 
 ## What operational factors and settings allow for effective and responsible use of the system?
 
-- The system doesn’t provide any setting or customization to the end user to tweak the system behavior.  
+- The system doesn't provide any settings or customization options to the end user to tweak the system behavior.  
 - Follow these procedures to make the most of the Copilot for email:  
-    -	Choose the right prompt to generate emails and choose the right tone and length for the content: Include the right keywords, use a group of words or a full sentence, keep all the key-points around the same topic.
+    -	Choose the right prompt to generate emails and choose the right tone and length for the content. Include the right keywords, use a group of words or a full sentence, and keep all the key points around the same topic.
     -	Always review and edit content ideas suggestions before sending them to your customer.
 
 ## Related information

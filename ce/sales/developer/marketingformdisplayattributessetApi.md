@@ -1,12 +1,13 @@
 ---
 title: Customize quick campaign form using marketingformdisplayattributesset Web API
-description: Customize quick campaign form using marketingformdisplayattributesset Web API in Dynamics 365 Sales.
-ms.date: 09/07/2023
+description: Learn how to customize quick campaign and campaign activity distribution forms with the marketingformdisplayattributesset Web API. Configure your form today.
+ms.date: 07/07/2026
 ms.topic: reference
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ---
+
 # Customize quick campaign and campaign activity distribution forms 
 
 As a developer, use this reference documentation for customizing the quick campaign and distribute campaign activity forms. 
@@ -14,7 +15,7 @@ As a developer, use this reference documentation for customizing the quick campa
 > [!IMPORTANT]
 >
 > - To enable users to view custom attributes on the activity distribution page, provide read permissions to the **Marketing Form Display Attributes** table under the **Custom Entities** tab within their assigned security role.
-> - Out-of-the-box fields in the form can't be removed using this customization.  
+> - You can't remove out-of-the-box fields in the form by using this customization.  
 
 ## Action parameters  
 
@@ -23,7 +24,7 @@ The **marketingformdisplayattributesset** action expects the following input par
 | Parameter name | Required? | Type | Description |
 |----------------|----------|------|-------------|
 | ```entitylogicalname``` | Yes | Edm.String | Specifies the name of the table for custom form.<br>**Note:** Each `entitylogicalname` must have only one record in the application. If there is more than one record, the application considers the record based on which it was first created. To view the list of records, make a GET API call:<br>```GET [Organization URI]/api/data/v9.0/marketingformdisplayattributesset```<br>```HTTP/1.1``` |
-| ```displayattributelist``` | Yes | Edm.String | Specifies the list of columns to be displayed in custom form. <br> You can get the column names from system customizations. For example, to view the column names of **Phone Call**, go to **Advance settings** > **Customizations** > **Customize the system** > **Tables** > **Phone Call** > **Fields** and the names are listed under **Name** column. <br>![Phone call column names under system customization settings.](../media/dev-phone-call-field-names.png "Phone call column names under system customization settings")<br>**Note:** Attributes with the following data types are not supported:<br><ul><li>Status</li><li>Status reason</li><li>Image</li><li>Owner</li><li>Unique identifier</li><li>Customer</li><li>Multi select option set</li></ul>|
+| ```displayattributelist``` | Yes | Edm.String | Specifies the list of columns to be displayed in custom form. <br> You can get the column names from system customizations. For example, to view the column names of **Phone Call**, go to **Advance settings** > **Customizations** > **Customize the system** > **Tables** > **Phone Call** > **Fields** and the names are listed under **Name** column. <br>:::image type="content" source="../media/dev-phone-call-field-names.png" alt-text="Screenshot of phone call column names under system customization settings.":::<br>**Note:** Attributes with the following data types aren't supported:<br><ul><li>Status</li><li>Status reason</li><li>Image</li><li>Owner</li><li>Unique identifier</li><li>Customer</li><li>Multi select option set</li></ul>|
 | ```name``` | Yes | Edm.String | Specifies the name of **Marketing Form Display Attributes**. To view this table, go to **Advance settings** > **Customizations** > **Customize the system** > **Tables**. |
 
 
