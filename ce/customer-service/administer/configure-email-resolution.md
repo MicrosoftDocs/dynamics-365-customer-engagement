@@ -6,7 +6,7 @@ ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 06/23/2026
+ms.date: 07/07/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -58,10 +58,11 @@ Complete the following steps:
 
 After you configure email resolution, the following actions occur:
 
--	Email resolution uses Customer Intent Agent to identify the intent from an incoming customer email.
--	Email resolution uses case resolution capabilities and available knowledge to generate a response. 
--	Based on your configuration, email resolution sends responses autonomously. 
--	If the issue isn't resolved, email resolution creates a case for a service representative to address.
+- Email resolution runs when an incoming email from a customer matches the email rules configured for a line of business in Customer Intent Agent.
+- Email resolution uses Customer Intent Agent to identify the intent from the incoming email.
+- Email resolution uses case resolution capabilities and available knowledge to generate a response. 
+- Based on your configuration, email resolution sends responses autonomously. 
+- If the issue isn't resolved, email resolution creates a case for a service representative to address.
 
 ## Related information
 
