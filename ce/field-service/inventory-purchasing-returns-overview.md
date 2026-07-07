@@ -1,7 +1,7 @@
 ---
 title: Overview of inventory, purchasing, and returns
 description: Learn about inventory, purchasing, and returns in Dynamics 365 Field Service.
-ms.date: 01/30/2026
+ms.date: 06/26/2026
 ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"
@@ -25,6 +25,33 @@ Inventory capabilities in Dynamics 365 Field Service include:
 Before you use inventory, purchasing, and returns, it's critical that you're familiar with [product catalog capabilities](create-product-or-service.md) in Field Service. You track products in inventory only if their **Field Service Product Type** field is set to *Inventory*. Otherwise, inventory changes don't show when you add products to work orders, purchase orders, and return merchandise authorizations (RMAs).
 
 To give a resource access to create and edit inventory-related tables, add the *Inventory Purchase* security role to their existing security role.
+
+## Prerequisites
+
+Before you set up inventory in Field Service, make sure the following requirements are met:
+
+- Users who create or edit inventory records need either the *Field Service - Administrator* security role, which includes permissions for all tables, or the *Inventory Purchase* security role added to their base Field Service security role. Learn more in [Security roles and column-level security profiles](security-permissions.md).
+- At least one [warehouse](create-warehouse.md) must exist in your system. Without a warehouse, you can't record inventory quantities or process purchase orders and returns.
+
+## Get started with inventory tracking
+
+Follow these steps to start tracking inventory in Field Service:
+
+1. [Create a warehouse](create-warehouse.md) to represent each physical location where you store products, including technician trucks.
+1. [Create products](create-product-or-service.md) and set the **Field Service Product Type** to *Inventory* for any product you want to track.
+1. Add initial inventory by [creating an inventory adjustment](#inventory-adjustments-and-transfers) to record the starting quantities at each warehouse. Adding a product to a warehouse record alone doesn't set quantities; use an inventory adjustment or [manual inventory journals](manual-inventory-journals.md) to record starting amounts or make bulk updates.
+1. [Associate a warehouse with each bookable resource](set-up-bookable-resources.md) so that work order product usage automatically deducts from the correct location.
+
+## Choose an inventory approach
+
+Use the following table to determine the right approach for your organization:
+
+| Scenario | Recommended approach |
+|---|---|
+| Track parts on technician trucks and deduct on use | Use Field Service warehouses and work order products. No external integration needed. |
+| Basic purchasing with vendor orders and receipts | Use Field Service [purchase orders](create-purchase-order.md) with approval workflows. |
+| Complex pricing, multiple currencies, or advanced procurement | Integrate with an ERP system such as Dynamics 365 Supply Chain Management. |
+| Sync inventory with finance and operations apps or an external ERP | Use the [Field Service integration with Project Operations](project-operations-integration.md) for Microsoft finance apps, or a custom Dataverse integration for non-Microsoft ERPs. |
 
 For basic inventory requirements, many organizations use the out-of-box capabilities. For more complex inventory and pricing requirements, Field Service is designed to integrate with enterprise resource planning (ERP) systems. In one common example, Field Service integrates with [Dynamics 365 Supply Chain Management](/dynamics365/supply-chain/sales-marketing/prospect-to-cash) by using a prebuilt [Dataverse "Prospect to cash" template](https://marketplace.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3?src=office&tab=Overview).
 
@@ -115,11 +142,24 @@ All inventory transactions are recorded in inventory journals. For example, when
 
 Most importantly, depending on the architecture of the integration, you can use inventory journals to integrate Field Service inventory transactions with external ERP systems. To make integrations easier and more flexible, [inventory journals can be manually created](manual-inventory-journals.md).
 
+## Common issues
+
+The following table lists common inventory issues and their causes.
+
+| Issue | Cause | Resolution |
+|---|---|---|
+| Inventory doesn't decrease when a product is used on a work order | The product's **Field Service Product Type** isn't set to *Inventory*. Non-inventory and service products don't trigger inventory transactions. | Open the product record and change **Field Service Product Type** to *Inventory*. Existing work order products aren't retroactively adjusted. |
+| Inventory quantities show negative values | Field Service doesn't enforce non-negative inventory by default. Quantities go negative when products are used or transferred beyond available stock. | Monitor product inventory quantities regularly. Use [inventory adjustments](#inventory-adjustments-and-transfers) to correct discrepancies, and ensure purchase orders are received before products are consumed. |
+| Inventory journals aren't created for a transaction | Journals are generated when inventory changes occur through work order product usage (line status set to *Used*), purchase order receipts, inventory adjustments, inventory transfers, and RMA receipts. Simply adding a product to a work order without changing line status doesn't create a journal. | Verify the work order product **Line Status** is set to *Used* and that a warehouse is specified. For integration scenarios, consider using [manual inventory journals](manual-inventory-journals.md). |
+| Products from an external ERP don't appear in Field Service | Products must be synced to Dataverse and must have a **Field Service Product Type** value assigned. Products without this field value can't be used on work orders or tracked in inventory. | Verify that the integration maps the product type field correctly. Check that synced products have **Field Service Product Type** set to *Inventory* and belong to a valid unit group. |
+
 ## Next steps
 
 - [Create a warehouse to track inventory](create-warehouse.md)
 - [Create a purchase order](create-purchase-order.md)
 - [Process a return (RMA and RTV)](process-return.md)
 - [Use manual inventory journals](manual-inventory-journals.md)
+- [Create products or services for work orders](create-product-or-service.md)
+- [Field Service integration with Project Operations](project-operations-integration.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
