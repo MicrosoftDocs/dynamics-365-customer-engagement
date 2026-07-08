@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 06/22/2026
+ms.date: 07/07/2026
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
@@ -18,18 +18,25 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.147.43](/dynamics365/field-service/version-history#8814743) | TBD | 07/24 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.146.46](/dynamics365/field-service/version-history#8814646) | [8.8.147.43](/dynamics365/field-service/version-history#8814743) | 06/26 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom* | [8.8.146.48](/dynamics365/field-service/version-history#8814648) | [8.8.147.43](/dynamics365/field-service/version-history#8814743) | 07/03 |
-| | *USG* | [8.8.146.48](/dynamics365/field-service/version-history#8814648) | [8.8.147.43](/dynamics365/field-service/version-history#8814743) | 06/24 |
-|**Station 4** |*Europe* | [8.8.146.48](/dynamics365/field-service/version-history#8814648) | [8.8.147.43](/dynamics365/field-service/version-history#8814743) |  07/10 |
-|**Station 5** | *North America, Oceania*| [8.8.146.48](/dynamics365/field-service/version-history#8814648) | [8.8.147.43](/dynamics365/field-service/version-history#8814743) |  07/17 |
-|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.146.48](/dynamics365/field-service/version-history#8814648) | [8.8.147.43](/dynamics365/field-service/version-history#8814743) | 07/15 |
-| | *Dedicated Scale Groups* | [8.8.146.48](/dynamics365/field-service/version-history#8814648) | [8.8.147.43](/dynamics365/field-service/version-history#8814743) | 07/24 |
+|**Station 1** |  *First Release*| [8.8.147.58](/dynamics365/field-service/version-history#8814758) | TBD | 07/24 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.147.58](/dynamics365/field-service/version-history#8814758) | TBD | 07/31 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom* | [8.8.147.58](/dynamics365/field-service/version-history#8814758) | TBD | 08/07 |
+| | *USG* | [8.8.147.58](/dynamics365/field-service/version-history#8814758) | TBD | 07/29 |
+|**Station 4** |*Europe* | [8.8.146.48](/dynamics365/field-service/version-history#8814648) | [8.8.147.58](/dynamics365/field-service/version-history#8814758) |  07/10 |
+|**Station 5** | *North America, Oceania*| [8.8.146.48](/dynamics365/field-service/version-history#8814648) | [8.8.147.58](/dynamics365/field-service/version-history#8814758) |  07/17 |
+|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.146.48](/dynamics365/field-service/version-history#8814648) | [8.8.147.58](/dynamics365/field-service/version-history#8814758) | 07/15 |
+| | *Dedicated Scale Groups* | [8.8.146.48](/dynamics365/field-service/version-history#8814648) | [8.8.147.58](/dynamics365/field-service/version-history#8814758) | 07/24 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.147.58
+This release is a hotfix on Field Service version [8.8.147.43](/dynamics365/field-service/version-history#8814743)
+(Includes Universal Resource Scheduling version [3.12.4000.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400027-hotfix1) and Resource Scheduling controls version 1.2.102.261771)
+
+- **Fixes and improvements**
+    - Field Service Mobile PDF Export: Fixed a crash that could occur when exporting to PDF in the mobile app, improving the reliability of PDF generation.
 
 ## 8.8.147.43
 (Includes Universal Resource Scheduling version [3.12.4000.8](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240008) and Resource Scheduling controls version 1.2.102.261675)
