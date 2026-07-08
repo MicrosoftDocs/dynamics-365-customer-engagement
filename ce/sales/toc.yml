@@ -985,6 +985,8 @@ items:
             href: use-sales-agent-microsoft365-copilot.md
           - name: Use Microsoft 365 Copilot chat (preview)
             href: microsoft-365-copilot-chat-in-sales.md
+          - name: View insights from Sales agent in the record summary banner
+            href: sales-agent-banner-summary.md
       - name: Copilot capabilities
         items:
           - name: Copilot in Dyamics 365 Sales
