@@ -1,5 +1,5 @@
 ---
-title: Use governance policies (preview)
+title: Use governance policies
 description: Learn about governance policies, a rule-based system that ensures AI assistants operate safely and within compliance guidelines.
 author: Soumyasd27
 ms.author: sdas
@@ -11,17 +11,13 @@ ms.date: 07/01/2026
 ms.custom: bap-template
 ---
 
-# Use governance policies (preview)
+# Use governance policies
 
 [!INCLUDE [cc-feature-availability-cs-only](../../includes/cc-feature-availability-cs-only.md)]
 
-[This article is prerelease documentation and is subject to change.]
-
 Use governance policies to evaluate AI-generated email responses before sending. These policies help enforce compliance with business, legal, and regulatory requirements. If a response violates a policy, the system either flags or blocks the violation for review.
 
-> [!IMPORTANT]
-> - This is a preview feature. 
-> - Preview features aren’t meant for production use and might have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520), and are available before an official release so that customers can get early access and provide feedback.
+
 > - This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature isn't intended for use in making—and shouldn't be used to make—decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This responsibility also includes adequately notifying end users that their communications with representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
 
 ## Prerequisites
@@ -33,7 +29,7 @@ Use governance policies to evaluate AI-generated email responses before sending.
 
 ## Enable governance policies
 
-1. In Copilot Service workspace, go to **Service** > **Governance (preview)**. The **Governance (preview)** page appears.
+1. In Copilot Service workspace, go to **Service** > **Governance**. The **Governance** page appears.
 1. Select **New policy** or select any of the default system policies, such as **Email Template Adherence**, **Groundedness**, or **Profanity**.
 1. If you select a system policy, you can edit the given conditions, save, and publish the policy to reactivate the policy. Select **Unpublish**, if you need to retain it in a draft state after editing the policy.
 1. If you select **New policy**, then on the **Add a policy** dialog, provide the following information:
@@ -111,5 +107,5 @@ To manually add the Governance entry, follow these steps:
 
 ## Related information
 
-[Configure governance policies (preview)](../administer/configure-governance-policies.md)  
+[Configure governance policies](../administer/configure-governance-policies.md)  
 [Responsible AI FAQ for AI agents](/dynamics365/contact-center/implement/faq-rai-ai-agents)
