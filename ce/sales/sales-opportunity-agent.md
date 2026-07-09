@@ -1,7 +1,7 @@
 ---
 title: Sales Opportunity Agent overview
 description: Discover how Sales Opportunity Agent in Dynamics 365 Sales helps sales professionals manage deals effectively with AI-powered insights, risk detection, and deal prioritization.
-ms.date: 04/17/2026
+ms.date: 07/09/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -16,7 +16,7 @@ ai-usage: ai-assisted
 
 # Sales Opportunity Agent overview
 
-Sales Opportunity Agent in Dynamics 365 Sales is an AI-powered assistant designed to help sales professionals manage their deals more effectively. By consolidating CRM updates, email threads, meeting intelligence, and real-time web research, the agent provides actionable insights in one place. It helps you prioritize opportunities, identify risks, and take the right action at the right time. This approach results in faster deal closures and improved sales performance.
+Sales Opportunity Agent (previously known as Opportunity Research Agent) in Dynamics 365 Sales is an AI-powered assistant designed to help sales professionals manage their deals more effectively. By consolidating CRM updates, email threads, meeting intelligence, and real-time web research, the agent provides actionable insights in one place. It helps you prioritize opportunities, identify risks, and take the right action at the right time. This approach results in faster deal closures and improved sales performance.
 
 ## How does the Sales Opportunity Agent help you?
 
