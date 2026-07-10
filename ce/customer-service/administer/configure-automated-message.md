@@ -1,7 +1,7 @@
 ---
 title: Configure automated messages
 description: Learn how to configure automated messages that can be sent through a channel in your contact center.
-ms.date: 06/30/2026
+ms.date: 07/09/2026
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -31,7 +31,7 @@ You can view a list of all representative and customer-facing automated messages
     > [!div class=mx-imgBorder]
     > ![Display all automated messages.](../media/automated-messages-list.png "Display all automated messages")
 
-1. To edit the language code and text, select one or more of the records. If you want to deactivate the messages, select the **Deactivate** button. If overflow conditions are configured, the default automated message is played for the overflow action if you deactivate the message that's configured for the overflow condition.
+1. To edit the language code and text, select one or more of the records. If you want to deactivate the messages, select the **Deactivate** button. If overflow conditions are configured, the default automated message plays for the overflow action if you deactivate the message that's configured for the overflow condition.
 
 ## Customize automated messages at the channel level
 
@@ -39,7 +39,7 @@ You can customize messages across instances within a channel. For example, you c
 
 1. Select a message on the **Automated messages** page, and then select **Edit**.
 
-2. On the **General** tab, edit the **Localized text** field, and then select **Save**.
+1. On the **General** tab, edit the **Localized text** field, and then select **Save**.
 
     The message field supports the following slugs and context variables.
     
@@ -70,31 +70,38 @@ Keep in mind the following rules when using context variables:
 
 Learn more about context variables in [Manage context variables](manage-context-variables.md).
 
-
 ## Customize automated messages at the channel instance level
 
 You can customize automated messages at the channel instance level. For example, you can apply a change to a specific Facebook account or a specific SMS number. If you don't create customized automated messages at the channel instance level, each instance inherits the channel-level settings.
 
 > [!IMPORTANT]
-> If you create customized automated messages at the channel instance level, then the channel-level settings are overwritten.
+> If you create customized automated messages at the channel instance level, the channel-level settings are overwritten.
 
 ### Add custom automated messages
 
 Complete the following steps for the channel in which you want to create custom automated messages in the Copilot Service admin center app:
 
 1. Go to the workstream, and then edit the channel instance.
-2. On the **Behaviors** page, select **Add message** in the **Custom automated messages** area.
-3. On the **Add automated message** pane, select a trigger from the **Select a message trigger** dropdown list.
-4. In the **Automated message** box, type the message that should be displayed.
-5. Select **Confirm**.
-6. Repeat steps 3 through 5 to create multiple messages.
-7. Save the settings.
+1. On the **Behaviors** page, select **Add message** in the **Custom automated messages** area.
+1. On the **Add automated message** pane, select a trigger from the **Select a message trigger** dropdown list.
+1. In the **Automated message** box, type the message that should be displayed.
+1. Select **Confirm**.
+1. To create multiple messages, repeat steps 3 through 5.
+1. Save the settings.
+
+### Add a wait time notification for the Messaging API channel
+
+For a Messaging API channel instance, you can notify customers of their position in the queue while they wait. Follow the steps in [Add custom automated messages](#add-custom-automated-messages). In step 3, select the **Estimate Wait Time Notification** trigger, and then complete these additional options before you select **Confirm**:
+
+- **Automated message**: Type the message to display. Use the `{QueuePosition}` variable anywhere in the message to dynamically display the customer's current position in the queue.
+- **Message interval**: Specify the time interval, in minutes, after which the message is sent.
+- **isRecurring**: Optionally, turn on this toggle to repeat the message until a representative is assigned.
 
 ## Preconfigured automated message triggers
 
 | **Message trigger** | **Definition** | **When to trigger** | Message recipient
 |-----------------|------------|-----------------|-------------------|
-| Greeting Message for Async Channels and Voice | The automated message played for the customer as soon as the call is connected. <br>**Note**<br> If the AI agent is enabled, ensure that the automated greeting message is different from the agent message. | You can set it up to be played as the first message that the customer should hear when they call the digital contact center. | Customer |
+| Greeting Message for Async Channels and Voice | The automated message that plays for the customer as soon as the call connects. <br>**Note**<br> If you enable the AI agent, make sure that the automated greeting message is different from the agent message. | Set it up to play as the first message that the customer hears when they call the digital contact center. | Customer |
 | Agent assigned to a conversation | Message displayed to the customer when the representative is assigned to the conversation. | The representative is assigned to the conversation. | Customer |
 | Agent couldn't be assigned to conversation | Message displayed to the customer when the representative assignment fails. | Work distribution fails or when routing is unable to add the representative to the chat due to system failure. For example, no representatives are available in the queue, or the default queue isn't found. <br>**Note**<br> This trigger isn't applicable to a scenario when a matching representative can't be identified based on the assignment configuration. |Customer |
 | Agent disconnected from conversation | Message displayed to the customer when the representative gets disconnected. | The representative gets disconnected due to browser tab closure, browser closure, offline presence, or network issue.  | Customer |
@@ -103,7 +110,7 @@ Complete the following steps for the channel in which you want to create custom 
 | Agent joined customer conversation | Message displayed to the customer when the representative joins a customer conversation. | The representative joins a customer conversation.  | Customer |
 | Agent left customer conversation | Message displayed to the customer when the representative leaves a customer conversation. | The representative leaves a customer conversation. | Customer |
 | Average wait time for customers: Hours <br> (applies to live chat and voice channels only) | Message displayed to the customer with the average wait time displayed in hours.  |  The customer is waiting in queue. | Customer |
-| Average wait time for customers: Hours and minutes <br> (applies to live chat and voice channels only) | Message displayed when the customer is waiting in queue with average wait time being displayed in both minutes and hours. | The customer is waiting in queue. | Customer |
+| Average wait time for customers: Hours and minutes <br> (applies to live chat and voice channels only) | Message displayed when the customer is waiting in queue with average wait time displayed in both minutes and hours. | The customer is waiting in queue. | Customer |
 | Average wait time for customers: Minutes <br> (applies to live chat and voice channels only)  | Message displayed to the customer with the average wait time displayed in minutes.  | The customer is waiting in queue. | Customer |
 | Consult accepted  | Message displayed to the customer when another representative is consulted successfully.  | Another representative accepts the consult request. | Customer |
 | Consult session ended  | Message displayed to the customer when the consulted representative ends the session. | The consult representative closes the session. | Customer |
@@ -129,11 +136,11 @@ Complete the following steps for the channel in which you want to create custom 
 
 Use the following best practices when you configure automated messages for the voice channel:
 
-- Make sure that you configure concise messages when you use automated and custom messages because lengthy messages might mean that representatives take longer to connect with customers.
+- Configure concise messages when you use automated and custom messages. Lengthy messages can delay representatives from connecting with customers.
 
 - Consider configuring **Greeting Message for Async Channels and Voice** instead of **Agent assigned to a conversation**.
 
-- If you configured both **Agent assigned to a conversation** and **Greeting Message for Async Channels and Voice**, consider configuring **Greeting Message for Async Channels and Voice** to avoid the accumulation of messages in the queue.
+- If you configure both **Agent assigned to a conversation** and **Greeting Message for Async Channels and Voice**, consider configuring **Greeting Message for Async Channels and Voice** to avoid the accumulation of messages in the queue.
 
 - Disable messages that announce the average wait times, unless your business requires that customers know this information. 
  
