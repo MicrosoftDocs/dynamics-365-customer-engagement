@@ -191,11 +191,6 @@ Inspections are forms that technicians use to answer a list of questions as part
 
 ## Related information
 
-If you run into issues when configuring Field Service settings, see the following troubleshooting articles:
-
-- [A user has no roles](/troubleshoot/dynamics-365/field-service/administration/user-has-no-roles)
-- [Can't install Field Service](/troubleshoot/dynamics-365/field-service/administration/cant-install-field-service)
-- [Disable automatic geocoding](/troubleshoot/dynamics-365/field-service/administration/disable-auto-geo-code)
-- [Date window fields are missing](/troubleshoot/dynamics-365/field-service/administration/date-window-fields-missing)
+- [Configure Field Service settings for common scenarios](configure-settings-common-scenarios.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

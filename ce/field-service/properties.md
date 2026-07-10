@@ -1,7 +1,7 @@
 ---
 title: Create properties and property templates
 description: Learn how to use asset properties in Dynamics 365 Field Service.
-ms.date: 07/17/2025
+ms.date: 07/06/2026
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -20,7 +20,7 @@ Before you can assign values to properties, you must define them.
 
 1. In Field Service, select the **Settings** area.
 
-1. Under **Asset Properties**, select **Property Definitions**, and then **New**.
+1. Under **Asset Properties**, select **Property Definitions**, and then select **New**.
 
     :::image type="content" source="media/assets-properties-nav.png" alt-text="Screenshot of a list of active properties with the New button highlighted.":::
 
@@ -36,9 +36,9 @@ Use property templates to quickly select a group of properties and apply them to
 
 1. In Field Service, select the **Settings** area.
 
-1. Under **Asset Properties**, select **Templates for Properties**, and then **New**.
+1. Under **Asset Properties**, select **Templates for Properties**, and then select **New**.
 
-1. Fill in the **Template Name** field, and then select **Save**.
+1. Enter a name in the **Template Name** field, and then select **Save**.
 
 1. In the **Properties** section, select **New Property Template Association**.
 

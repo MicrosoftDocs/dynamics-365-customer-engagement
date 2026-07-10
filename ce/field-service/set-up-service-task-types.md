@@ -1,7 +1,7 @@
 ---
 title: Set up service task types
 description: Learn how to set up service task types in Dynamics 365 Field Service.
-ms.date: 07/17/2025
+ms.date: 07/06/2026
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
@@ -9,7 +9,7 @@ ms.custom: bap-template
 ---
 # Set up service task types
 
-In Dynamics 365 Field Service, service task types define the types of service tasks that a field technician performs at a service location. Use them to create process steps or checklists that the field technician follows when they complete a work order. For example, on a work order for the replacement of a refrigerator's compressor, a service task type list can show five important steps in the processes. The field technician can then mark each task as it's completed.
+In Dynamics 365 Field Service, service task types define the types of service tasks that a field technician performs at a service location. Use them to create process steps or checklists that the field technician follows when they complete a work order. For example, on a work order for the replacement of a refrigerator's compressor, a service task type list can show five important steps in the processes. The field technician can then mark each task as they complete it.
 
 You add service tasks either manually or by associating incident types with each work order. You can assign a duration to each service task. This duration rolls up to the work order duration.
 
