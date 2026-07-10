@@ -1,7 +1,7 @@
 ---
 title: Overview of productivity pane Dynamics 365 Copilot Service workspace
 description: Learn how Dynamics 365 Copilot Service workspace enables agents to resolve issues quickly with various tools available on the productivity pane.
-ms.date: 04/03/2026
+ms.date: 07/10/2026
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -74,7 +74,9 @@ The knowledge base search lets you search for relevant knowledge articles to res
 
 ## Screen recording
 
-When your administrator enables this feature, screen recording captures your on-screen actions as you handle customer interactions. Automated screen recording starts when you accept a voice call and stops when the call ends. 
+When your administrator enables this feature, screen recording captures your entire screen as you handle customer interactions. Automated screen recording starts when you accept a voice call and stops when the call ends. You see a red border around the screen being actively recorded.
+
+You can select which monitors are recorded in a multimonitor setup, if your administrator enables the multi-screen capture setting in the Copilot Service admin center. All monitors are recorded by default if this setting isn't enabled.
 
 Alternatively, you can manually record your screen by selecting the recording icon in the productivity pane. Manual recordings run continuously and can’t be paused.
 

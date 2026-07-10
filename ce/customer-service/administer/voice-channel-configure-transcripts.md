@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.reviwer: nenellim
-ms.date: 09/25/2025
+ms.date: 07/10/2026
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -25,7 +25,9 @@ As an administrator, you can enable live translation, transcription, and recordi
 
 ## Prerequisites
 
-For call recording to work as expected, allow the audio and mpeg MIME type for your environment in Power Platform admin center. Learn more in [Manage privacy and security settings](/power-platform/admin/settings-privacy-security).
+- You need to enable the audio recording toggle in Copilot Service admin center, where tenant-level recording controls are enabled. Disabling audio recording at the tenant-level prevents audio recording regardless of workstream configuration. Learn more in [Configure screen and audio recording with desktop companion application](/dynamics365/contact-center/administer/configure-screen-recording).
+- For call recording to work as expected, allow the audio and mpeg MIME type for your environment in Power Platform admin center. Learn more in [Manage privacy and security settings](/power-platform/admin/settings-privacy-security).
+
 
 ## Enable call recording and transcription for voice
 
