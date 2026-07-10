@@ -54,6 +54,8 @@ items:
       href: admin-guide.yml
     - name: Field Service settings
       href: configure-default-settings.md
+    - name: Settings for common scenarios
+      href: configure-settings-common-scenarios.md
     - name: Users and security roles
       items:
         - name: Set up users and security roles
