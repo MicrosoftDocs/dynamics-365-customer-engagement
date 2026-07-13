@@ -16,7 +16,9 @@ Use the Microsoft 365 admin center to create user accounts. The user account reg
 
 When you assign the global administrator or the service administrator role to a user in the Microsoft Online Services environment, it automatically assigns the System Administrator security role.
 
-Learn more in [Assign a security role to a user](/power-platform/admin/assign-security-roles).
+Learn about assigning security roles for users in [Assign a security role to a user](/power-platform/admin/assign-security-roles).
+
+You can also manage access for your users through Microsoft Entra security groups. Learn more in [Manage users through Entra security groups](add-users-assign-roles.md#manage-users-through-microsoft-entra-security-groups).
 
 ## Next steps
 

@@ -67,7 +67,7 @@ The agent persona can manage the work items that're assigned to them through cus
 
 ## Create custom security roles
 
-Create custom security roles at the organizational or business unit level. You can edit the access level for records and tasks. Adding custom security roles is optional. To ensure persona mapping works, complete the following steps:
+Create custom security roles at the organizational or business unit level. You can edit the access level for records and tasks. Make sure that you assign the prvAgent, prvSupervisor, or prvAdmin privilege to the custom security role as required. Custom security roles are optional. To ensure persona mapping works, complete the following steps:
 
 1. Identify the tasks that a user will perform.
 
