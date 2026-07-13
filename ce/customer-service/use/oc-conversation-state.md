@@ -1,7 +1,7 @@
 ---
 title: Understand conversation states in Dynamics 365 Contact Center
 description: Use this article to learn about various states and status reasons of conversations or work items in Dynamics 365 Contact Center.
-ms.date: 02/16/2026
+ms.date: 07/13/2026
 ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
@@ -90,6 +90,7 @@ If **Wrap up after transfer** is enabled in the **Consult and transfer** page of
 - The session of the first representative goes into Wrap-up status and the second representative session becomes active.
 - After the wrap-up time lapses or the first representative closes the session, the session goes into closed state.
 - If the second representative ends the conversation, both the conversation and session for the second representative move into the wrap-up status.
+- The system releases the representative capacity after 15 minutes if you set up always block capacity.
 
 The following table displays the scenarios when the first representative completes the wrap-up activities before the second representative ends the call.
 
