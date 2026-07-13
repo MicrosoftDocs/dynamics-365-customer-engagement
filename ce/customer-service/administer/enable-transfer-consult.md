@@ -112,14 +112,17 @@ Pinned favorites appear at the top of the consult and transfer to queue experien
       1. Select a business unit to limit the pinned contact visibility. If you don't specify a business unit, all representatives can see the pinned contact by default.
 1. Save and close.
 
-## Configure custom inbox view for consult sessions
+## Configure custom inbox view for consulted and transferred sessions
 
-Representatives can configure the inbox to show their consult sessions. The inbox view helps representatives rejoin the consulted sessions and leave the consultation to release their capacity.
+Configure the inbox to display sessions that the representatives consulted with or transferred to another representative. Representatives use the view to access and rejoin the consulted sessions and leave the consultation to release their capacity. Similarly, if wrap-up time for transfer is enabled, representatives can view the transferred sessions in their inbox and close them so that their capacity is released.
 
 1. Create a view by using the **Advanced** option in [Configure custom views for the inbox](configure-inbox.md#configure-custom-views-for-the-inbox).
-1. To configure the view, use the conditions shown in the following screenshot.
+
+1. To configure the view for consult sessions, define a condition where the session participant mode equals consult as shown in the following screenshot.
 
    :::image type="content" source="../media/configure-consult-inbox-view.png" alt-text="Screenshot of the conditions builder to view consult sessions in the inbox.":::
+
+1. To configure the view for wrap-up after transfer, define a condition where the session state equals wrap-up.
 
 ## Configure filters to display representatives selectively in consult and transfer scenarios
 
