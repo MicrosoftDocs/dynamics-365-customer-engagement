@@ -1,7 +1,7 @@
 ---
 title: Use price lists
 description: Learn about using price lists in Dynamics 365 Field Service.
-ms.date: 05/08/2026
+ms.date: 06/26/2026
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
@@ -85,6 +85,8 @@ The selected price list automatically applies to all work order products and ser
 
 > [!TIP]
 > Use [Entitlements](./work-order-entitlements.md) to dynamically adjust the price of work order products and services.
+
+When more than one pricing rule applies, Field Service price list items (such as flat fees and minimum charges) take precedence over the base price list amount, and [entitlement](work-order-entitlements.md) adjustments are applied last.
 
 ## Add territory relationships
 
