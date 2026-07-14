@@ -1,7 +1,7 @@
 ---
 title: Overview of Workforce Management
 description: Learn how Workforce Management, a key capability of Workforce Engagement Management in Dynamics 365 Customer Service and Dynamics 365 Contact Center, helps organizations forecast demand, optimize staffing, schedule representatives, and track adherence.
-ms.date: 07/07/2026
+ms.date: 07/14/2026
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -41,7 +41,7 @@ Workforce Management includes capabilities across the workforce planning lifecyc
 
 ### Forecast demand
 
-Forecasting helps supervisors predict future workload demand using historical customer interaction data. 
+Forecasting helps supervisors predict future workload demand by using historical customer interaction data. 
 
 Forecasting capabilities include:
 
@@ -58,7 +58,7 @@ Learn more in the following articles:
 
 Capacity planning converts forecasted workload demand into staffing requirements. 
 
-Supervisors can take the use the following capabilities:
+Supervisors can use the following capabilities:
 
 - Create capacity plans linked to forecast scenarios.
 - Define service-level and response-time targets.
@@ -76,14 +76,13 @@ Scheduling capabilities include:
 - Shift plan creation and management
 - Manual scheduling
 - Automated scheduling
-- Automatic break distribution
 - Skills-based and queue-based workforce assignment
 
 Learn more in the following articles:
 
 - [Create and manage shift plans](/dynamics365/contact-center/use/workforce-management-shift-plan?context=/dynamics365/context/customer-service-use-context)  
 - [Use auto schedule to schedule representatives](/dynamics365/contact-center/use/workforce-management-use-auto-schedule?context=/dynamics365/context/customer-service-use-context)  
-- [Use break distribution to assign breaks](/dynamics365/contact-center/use/workforce-management-use-break-distribution?context=/dynamics365/context/customer-service-use-context)
+- [Create and manage shift rotation policies](/dynamics365/contact-center/use/workforce-management-shift-rotation-policies?context=/dynamics365/context/customer-service-use-context)
 
 ### Enable representative self-service
 
@@ -112,7 +111,7 @@ Learn more in [View and take action on time-off requests](/dynamics365/contact-c
 
 ### Monitor schedule adherence
 
-Real-time adherence tracking helps supervisors understand whether representatives are following scheduled activities and identify potential coverage issues.
+Real-time adherence tracking helps supervisors understand whether representatives are following scheduled activities and identify potential coverage problems.
 
 Adherence monitoring includes the following capabilities:
 
@@ -149,7 +148,6 @@ A typical Workforce Management workflow includes the following steps:
 - [Create and manage capacity planning](/dynamics365/contact-center/use/workforce-management-capacity-planning?context=/dynamics365/context/customer-service-use-context)  
 - [Create and manage shift plans](/dynamics365/contact-center/use/workforce-management-shift-plan?context=/dynamics365/context/customer-service-use-context)  
 - [Use auto schedule to schedule representatives](/dynamics365/contact-center/use/workforce-management-use-auto-schedule?context=/dynamics365/context/customer-service-use-context)  
-- [Use break distribution to assign breaks](/dynamics365/contact-center/use/workforce-management-use-break-distribution?context=/dynamics365/context/customer-service-use-context)  
 - [Use shift bidding to select shifts](/dynamics365/contact-center/use/workforce-management-representative-shift-bidding?context=/dynamics365/context/customer-service-use-context)  
 - [Use shift swapping](/dynamics365/contact-center/use/workforce-management-use-shift-swapping?context=/dynamics365/context/customer-service-use-context)  
 - [Create a time-off request](/dynamics365/contact-center/use/workforce-management-create-time-off-request?context=/dynamics365/context/customer-service-use-context)  
