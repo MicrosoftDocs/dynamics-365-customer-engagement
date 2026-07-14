@@ -327,7 +327,7 @@ items:
       - name: Dynamics 365 Sales Model Context Protocol (MCP) Server
         items:
           - name: Overview of Sales MCP Server
-            href: connect-to-model-context-protocol-sales.md
+            href: model-context-protocol-sales-overview.md
           - name: Connect to Sales MCP Server
             href: connect-agents-to-model-context-protocol.md
           - name: MCP tools for Copilot Capabilities
