@@ -1,10 +1,10 @@
 ---
 title: Work order lifecycle and system statuses
 description: Track the status of a work order in its lifecycle with system statuses, substatuses, and booking statuses.
-ms.date: 03/17/2026
+ms.date: 06/26/2026
 ms.topic: concept-article
-author: lmasieri
-ms.author: lmasieri
+author: vhorvathms
+ms.author: vhorvath
 ms.custom: bap-template
 ---
 
@@ -165,6 +165,9 @@ Review the following table to understand how the booking status maps to the work
 |  Booking1: In Progress <br>Booking2: Partially Completed   | In Progress  |
 |  Booking1: Completed <br>Booking2: Partially Completed  | Completed  |
 |  Booking1: Canceled <br>Booking2: Partially Completed   | **Unscheduled**  |
+
+> [!NOTE]
+> **Partially Completed** isn't one of the default booking statuses. It's an example of a [custom booking status](set-up-booking-statuses.md) with the **Status completes work order** toggle set to **Off**, so that completing the booking returns the work order to an earlier stage for follow-up instead of marking it *Completed*. Create custom booking statuses like this one to fit your organization's process.
 
 ## Record deactivation behavior
 
