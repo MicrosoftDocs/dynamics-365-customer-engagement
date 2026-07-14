@@ -4,7 +4,7 @@ description: Learn about the createSession API of app profile manager in Copilot
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 06/17/2027
+ms.date: 07/14/2026
 ms.topic: reference
 ---
 
