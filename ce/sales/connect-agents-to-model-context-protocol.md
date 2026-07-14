@@ -16,7 +16,7 @@ ai-usage: ai-assisted
 
 # Connect your AI agents and assistants to Dynamics 365 Sales MCP Server
 
-You can integrate the Dynamics 365 Sales Model Context Protocol (MCP) server with your Microsoft Copilot Studio agent, or any other AI agent or assistant that supports the MCP standard. Claude Desktop isn't supported at this time.
+You can integrate the Dynamics 365 Sales Model Context Protocol (MCP) server with your Microsoft Copilot Studio agent, or any other AI agent or assistant such as GitHub Copilot that supports the MCP standard. Claude Desktop isn't supported at this time.
 
 ## Prerequisites
 
@@ -24,10 +24,9 @@ Make sure you meet the following prerequisites:
 
 - You have admin permissions in Dynamics 365 Sales.  
 
-- You have admin access to Copilot Studio. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).
+- You have admin permissions in Copilot Studio. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).
 - Allow access to Dataverse MCP Server from MCP clients. This is required only if you're planning to use an MCP client other than Copilot Studio. Learn more in [Configure the Dataverse MCP server for an environment](/power-apps/maker/data-platform/data-platform-mcp-disable).
-- If you've previously connected to the Dynamics 365 Sales MCP server, delete the connection as it's now deprecated and will be removed soon.
-- You have enough Copilot Studio credits to use the tools in the Sales MCP server. Learn more about consumption rates for each tool in [Copilot Credit consumption rates](connect-to-model-context-protocol-sales.md#copilot-credit-consumption-rates).
+- You have enough Copilot Studio credits to use the tools in the Sales MCP server. Learn more about consumption rates for each tool in [Copilot Credit consumption rates](model-context-protocol-sales-overview.md#copilot-credit-consumption-rates).
 
 ## Connect Sales MCP Server to Copilot Studio agent
 
@@ -48,7 +47,7 @@ To connect to the Sales MCP server in Microsoft Copilot Studio, follow the steps
     - For Dynamics 365 Sales, use the following URL and replace the environment ID.
       `https://agent365.svc.cloud.microsoft/mcp/environments/<EnvironmentID>/servers/msdyn_SalesMCPServer`
 
-   The following is a sample configuration:
+   The following snippet shows a sample configuration:
     
     ```json
     {
@@ -69,12 +68,16 @@ To connect to the Sales MCP server in Microsoft Copilot Studio, follow the steps
 1. Resolve syntax errors, if any, in the `mcp.json` file and save it.
    You should see the **Start** button enabled for each of the MCP servers you added in the configuration file.  
 1. Select **Start** on all the servers.
-1. Press Ctrl + Alt + I to open the GitHub Copilot chat pane and choose any agent (For example, Claude Sonnet 4).
+   :::image type="content" source="media/mcp-server-start.png" alt-text="Screenshot of the MCP server start button in Visual Studio Code":::
+1. Press Ctrl + Alt + I to open the GitHub Copilot chat pane and choose any agent (For example, GPT 5.5).
+1. Type a prompt to retrieve information from Dynamics 365 Sales. For example, you can type "List the leads that were updated since my last login". The agent uses the tools in the Sales MCP server to retrieve the information and display it in the chat pane. For a list of supported tools and their capabilities, refer to the following articles:
+   - [MCP tools for Sales Qualification Agent capabilities](sales-qualification-agent-tools.md)
+
+   - [MCP tools for Sales Opportunity Agent capabilities](sales-close-agent-research-tools.md)
+   - [MCP tools for Copilot in Dynamics 365 Sales](copilot-in-sales-tools.md)
 
 
 ## Related information
 
-- [MCP tools for Sales Qualification Agent capabilities](sales-qualification-agent-tools.md)
-- [MCP tools for Sales Opportunity Agent capabilities](sales-close-agent-research-tools.md)
-- [MCP tools for Copilot in Dynamics 365 Sales](copilot-in-sales-tools.md)
+- [Model Context Protocol (MCP) overview](model-context-protocol-sales-overview.md)
 - [Examples of using Sales MCP Server with AI agents and assistants](model-context-protocol-examples.md)
