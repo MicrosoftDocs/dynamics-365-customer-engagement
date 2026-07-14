@@ -36095,6 +36095,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/connect-to-model-context-protocol-sales.md",
+      "redirect_url": "/dynamics365/sales/connect-agents-to-model-context-protocol",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/sales/uninstall-sales-insights.md",
       "redirect_url": "/dynamics365/sales/install-overview",
       "redirect_document_id": false
@@ -36104,5 +36109,6 @@
       "redirect_url": "/dynamics365/sales/configure-recommended-actions",
       "redirect_document_id": false
     }
+
   ]
 }

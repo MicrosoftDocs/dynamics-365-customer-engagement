@@ -1,10 +1,10 @@
 ---
-title: "createSession method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the createSession API of app profile manager in Copilot Service workspace."
+title: createSession method (app profile manager) JavaScript API Reference 
+description: Learn about the createSession API of app profile manager in Copilot Service workspace.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 06/17/2025
+ms.date: 07/14/2026
 ms.topic: reference
 ---
 
@@ -39,8 +39,14 @@ The structure of the JSON `SessionInput` parameter is as follows:
          * will focus after session is created
          */
         isFocused?: boolean;
+        /**
+         * Indicates whether the session should be restored after creation.
+         * If set to true, the session is restored in the agent workspace. Else, the session is created without being restored.
+         */
+        shouldRestore?: boolean;
     }
 ```
+
 
 ## Return value
 

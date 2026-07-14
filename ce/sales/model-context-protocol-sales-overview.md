@@ -18,7 +18,7 @@ ai-usage: ai-assisted
 
 ## Overview
 
-Model Context Protocol (MCP) is a standard that enables AI agents and assistants to interact with various applications and services in a consistent manner. With the Dynamics 365 Sales MCP server, you can extend your AI applications with sales-specific tools to create custom experiences for your sellers. The server provides APIs that enable AI agents to retrieve sales data, generate insights, draft emails, and perform other sales-related tasks.
+Model Context Protocol (MCP) is a standard that enables AI agents and assistants to interact with various applications and services in a consistent manner. By using the Dynamics 365 Sales MCP server, you can extend your AI applications with sales-specific tools to create custom experiences for your sellers. The server provides APIs that enable AI agents to retrieve sales data, generate insights, draft emails, and perform other sales-related tasks. To connect to the Sales MCP server, see [Connect to Sales MCP Server](connect-agents-to-model-context-protocol.md).
 
 ## Tools available in the Sales MCP server
 

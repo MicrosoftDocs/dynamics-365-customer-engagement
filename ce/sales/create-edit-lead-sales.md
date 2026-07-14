@@ -36,21 +36,23 @@ Create leads in Dynamics 365 to track potential new customers. A lead can be an 
 1. Enter the information you have about the lead. Only the **Topic** and **Last name** are required. All other details are optional.
 
 1. Select **Qualify** in the process bar and select or [create an account and contact](accounts-contacts.md).
-
+   :::image type="content" source="media/create-lead.png" alt-text="Screenshot of the lead form with the Qualify step highlighted.":::
     - If you select an existing account, the **Company Name** is automatically populated in the lead form.
     - If you select an existing contact, the following fields are automatically populated in the lead form: **First Name**, **Last Name**, **Job Title**, **Business Phone**, **Mobile Phone**, and **Email**.
 
       > [!NOTE]
       > Auto-population happens only when creating a new lead and when the corresponding fields in the lead form are empty. If fields are already populated or data is manually entered, the auto-population doesn't override the existing values.
 
-    - If you create an account or a contact, Bing Maps can fill in the address details for you if your administrator has turned on address suggestions. Scroll down to the **Address** box and start typing the street address. Select an address from the list of suggestions provided by Bing Maps.
+    - If you create an account or a contact, Bing Maps can fill in the address details for you if your administrator has [turned on address suggestions](enable-address-suggestion.md). Scroll down to the **Address** box and start typing the street address. Select an address from the list of suggestions provided by Bing Maps.
     - On new (unsaved) lead records, you can select any values for **Existing Contact** and **Existing Account**. After you save the lead record, these fields are filtered to show only records that meet the duplicate detection rules to avoid duplicates.
 
 1. Select or enter the remaining details in the **Qualify** step.
+1. Save the changes to add notes and activities to the timeline.
 
 1. In the **Timeline** section, add any notes or [activities](manage-activities.md), like phone calls or tasks, that are related to the lead.
 
 1. To add a contact as a stakeholder, scroll down to the **Stakeholders** section and select **New Connection**. Search for and select a contact to connect and assign the Stakeholder role. Or, select **New Contact** to create a contact, connect it, and assign it the Stakeholder role.
+   :::image type="content" source="media/lead-stakeholders.png" alt-text="Screenshot of the Stakeholders section of the lead form.":::
 
     - A *stakeholder* is a key contact at the account who's involved in making purchase decisions. If you associated a contact in the **Qualify** step and selected **mark complete** to identify the contact as the account's decision maker, then that contact is automatically connected as a stakeholder and assigned the Stakeholder role.
     - By default, the contact you connect is assigned the Stakeholder role. To select a different role, select the space to the left of the contact in the list, select **Edit**, and assign the correct role.
