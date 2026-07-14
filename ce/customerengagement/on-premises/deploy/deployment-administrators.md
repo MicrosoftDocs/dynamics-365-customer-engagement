@@ -38,6 +38,10 @@ or
 
 contextUserId=XXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX has correct privileges but allowImpersonationOfOrganizationSystemUser == false
 
+or
+
+Microsoft.Crm.CrmException: Encountered non-terminal failures during DBUpdates. Failing actions are: msdynce_MarketingAnchor
+
 When an error like this occurs the administrative task doesn't complete successfully. This issue occurs because the user isn't a member of the PrivUserGroup security group. To resolve this issue, [Add the deployment administrator to the PrivUserGroup Active Directory security group](add-a-new-deployment-administrator.md#add-the-deployment-administrator-to-the-privusergroup-active-directory-security-group).
 
 ## See also  
