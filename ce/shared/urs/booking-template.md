@@ -1,9 +1,9 @@
 
-When a requirement is scheduled to a resource, the system creates a booking record. The schedule board displays bookings grouped by resources. The fields displayed in the schedule board booking are a *Booking Template*, which you can customize with fields from system entities.
+When a user schedules a requirement to a resource, the system creates a booking record. The schedule board displays these bookings grouped by resources. The schedule board booking fields are a *Booking Template*, which you can customize with fields from system entities.
 
 ## Edit work order booking template
 
-Each scheduling-enabled entity can have a different booking template. When a work order requirement is scheduled, the booking template shows the *Bookable Resource Booking* record's **Name** and **Duration** values.
+Each scheduling-enabled entity can have a different booking template. When a user schedules a work order requirement, the booking template shows the *Bookable Resource Booking* record's **Name** and **Duration** values.
 
 The default value is the following code snippet:
 
@@ -35,7 +35,7 @@ To edit the HTML that controls the booking template:
 >
 > To display a field from a linked entity, find the name of the N:1 relationship and add a period (.) followed by the field name of the target entity. For example, the work order relationship path is *msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder* and the primary incident type field is *msdyn_primaryincidenttype*. The field reference result is: `{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_primaryincidenttype}`. Add more relationship hops by connecting them with a period.
 >
-> Custom templates only apply to tooltips on the schedule board's hourly view and doesn't affect daily, weekly, or monthly views.
+> Custom templates only apply to tooltips on the schedule board's hourly view and don't affect daily, weekly, or monthly views.
 
 ## Custom booking template example
 
@@ -58,13 +58,13 @@ This example shows a custom booking template for the work order entity. The foll
 
 ## Advanced booking template styling using CSS
 
-You can add styles to the custom booking template with CSS. Go to **Resource Scheduling** and select the **Settings** area. Select **Administration > Scheduling Parameters** and set **Disable Sanitizing HTML Templates** to **Yes** to include CSS statements into the booking templates.
+You can add styles to the custom booking template by using CSS. Go to **Resource Scheduling** and select the **Settings** area. Select **Administration > Scheduling Parameters** and set **Disable Sanitizing HTML Templates** to **Yes** to include CSS statements in the booking templates.
 
-In this example, we extend the [custom booking template example](#custom-booking-template-example). Use CSS to add customer ratings and service icons based on conditional values in the account and work order records. A customization added a field *new_customerrating* on the *account* entity and propagates that field to the work order entity with an integer range from 1 to 10.
+In this example, extend the [custom booking template example](#custom-booking-template-example). Use CSS to add customer ratings and service icons based on conditional values in the account and work order records. A customization adds a field *new_customerrating* on the *account* entity and propagates that field to the work order entity with an integer range from 1 to 10.
 
-We want the booking template to visualize the customer rating with grey stars. To represent the actual customer rating, we also add five orange stars, but only show a percentage of these stars, corresponding to the 1-10 customer rating.
+You want the booking template to visualize the customer rating with gray stars. To represent the actual customer rating, you also add five orange stars, but only show a percentage of these stars, corresponding to the 1-10 customer rating.
 
-We also want our dispatcher to see whether a work order is a service call or another type of job. The custom field *new_isservicecall* on the *work order* entity, has two possible values: 0 or 1. Using the same approach as before, we first draw a gray wrench as background, then overlay an orange wrench and limit its size to 0% (new_isservicecall = 0) or 100% (new_isservicecall = 1).
+You also want your dispatcher to see whether a work order is a service call or another type of job. The custom field *new_isservicecall* on the *work order* entity, has two possible values: 0 or 1. By using the same approach as before, you first draw a gray wrench as background, then overlay an orange wrench and limit its size to 0% (new_isservicecall = 0) or 100% (new_isservicecall = 1).
 
 Add the following HTML and CSS text to the **Booking Template** field in **Schedule Board Tab Settings**.
 
