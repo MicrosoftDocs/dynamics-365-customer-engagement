@@ -26,7 +26,7 @@ When you create a booking alert, the system automatically creates one *Booking A
 
 ## View the booking alert
 
-When the due date is reached, the alert appears on the **Booking Alerts** side pane on the schedule board. Assignees can view or snooze the active alert. Assignees can set the snooze time and dismiss all alerts.
+When the due date arrives, the alert appears on the **Booking Alerts** side pane on the schedule board. Assignees can view or snooze the active alert. Assignees can set the snooze time and dismiss all alerts.
 
 :::image type="content" source="../../field-service/media/view-booking-alert.png" alt-text="Screenshot showing the Booking Alerts pane on the schedule board.":::
 

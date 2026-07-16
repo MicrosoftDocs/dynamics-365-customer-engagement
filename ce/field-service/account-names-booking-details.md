@@ -1,8 +1,8 @@
 ---
 title: Show account names on booking template
-description: Learn how to edit and customize the booking template on schedule board with account names in Dynamics 365 Field Service.
-ms.date: 07/02/2025
-ms.reviewer: v-smithwendy 
+description: Learn how to display account names on your booking template to streamline scheduling in Dynamics 365 Field Service. 
+ms.date: 07/13/2026
+ms.reviewer: v-wendysmith
 ms.topic: how-to
 ms.custom: bap-template
 author: mkelleher-msft
