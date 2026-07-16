@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 04/01/2026
+ms.date: 07/16/2026
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---
@@ -20,25 +20,25 @@ Organizations receive many types of incoming email, including support requests, 
 
 Email classification analyzes the content of incoming emails and assigns each message to a configured category. You can then use that category to determine how the email is handled—for example, whether a case is created, how the case is routed, or whether other automation applies.
 
-You configure email classification in the Customer Service admin center, under **Email settings**.
+Configure email classification in the Customer Service admin center, under **Email settings**.
 
 ## Prerequisites
 
 - [Pay-as-you-go billing](/copilot/microsoft-365/pay-as-you-go/overview) is enabled for your environment.
-- You have the **System administrator** or **CSR Manager** role.
+- You have the **System Administrator** or **CSR Manager** security role.
 
 ## How email classification works
 
 Configuring email classification involves four high-level tasks:
 
-1. Define email categories that represent the types of messages your organization receives.
-1. Specify which incoming emails are evaluated by setting scope conditions.
-1. Enable email classification so incoming emails are automatically analyzed and assigned a category.
-1. Use the assigned email category in downstream processes, such as routing rules or automatic case creation.
+- Define email categories that represent the types of messages your organization receives.
+- Specify which incoming emails are evaluated by setting scope conditions.
+- Enable email classification so incoming emails are automatically analyzed and assigned a category.
+- Use the assigned email category in downstream processes, such as routing rules or automatic case creation.
 
-### Define email categories
+### Define custom categories
 
-You define custom categories that represent how emails should be handled, such as Billing, Marketing, or Support.
+Define custom categories that represent how to handle emails, such as **Billing**, **Marketing**, or **Support**.
 
 Consider the following criteria when defining categories:
 
@@ -47,7 +47,6 @@ Consider the following criteria when defining categories:
 - Each category includes a name and description.
 
 ### Scope classified emails
-
 Because email classification uses AI resources, you can control which emails are evaluated by defining conditions.
 
 For example, you can choose to classify only:
@@ -61,27 +60,44 @@ You configure a single condition, which can contain multiple AND clauses.
 
 After you configure categories and conditions, you enable email classification. Incoming emails that meet the configured conditions are automatically analyzed and a category is assigned.
 
+## Add the email classification experience to the email form
+
+Add the email classification experience to the email form so that customer service representatives (service representatives) can view AI-generated email categories, change assigned categories, and provide feedback on categorizations.
+
+1. Open [Power Apps](https://make.powerapps.com/).
+1. Open the **Email** table, and then open the email form that you want to customize.
+1. In **Table columns**, locate **Email category (AI)** and drag the field onto the form where you want it to appear.
+1. Select the **Email category (AI)** field.
+1. Expand **Components**, and then select **+ Component**.
+1. Select **Get more components**.
+1. Search for **EmailClassificationControl**, and then select **Add**.
+1. Select the newly added **EmailClassificationControl** component.
+1. Select the clients where you want the component to appear:
+   - Web
+   - Mobile
+   - Tablet
+1. Select **Done**.
+1. Save and publish the form.
+1. Refresh the browser before testing the updated form.
+
 ## Use classification categories
 
 The category assigned to an email is stored as an attribute and can be used across Customer Service features.
 
-### Deflect nonsupport emails
+### Exclude emails from automatic case creation
 
-You can prevent certain categories of emails from creating cases. For example, you can exclude emails classified as Marketing from case creation to reduce unnecessary SLAs and manual processing.
+Prevent certain categories of emails from creating cases. For example, you can exclude emails classified as **Marketing** from case creation to reduce unnecessary SLAs and manual processing.
 
-### Route emails by intent
+### Route emails by category
 
-You can use email categories in routing rules to send emails to the right queues or customer service representatives (service representatives, representatives) based on what the email is about.
+Use email categories in routing rules to send emails to the right queues or service representatives based on what the email is about.
 
 ### Control downstream automation
 
 You can reference email categories in:
-
 - Routing rules
-- Automatic Record Creation (ARC) rules
+- Automatic record creation and update rules
 - Case creation logic
-
-This behavior lets you determine whether other automation or AI-based processing runs for specific email categories.
 
 ## Important considerations
 
