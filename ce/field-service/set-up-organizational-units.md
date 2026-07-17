@@ -1,6 +1,6 @@
 ---
 title: Set up organizational units
-description: Organizational units in Dynamics 365 Field Service group your business operations by department, region, or division. Learn how to create units and assign resources.
+description: Organizational units in Dynamics 365 Field Service group your business operations by department, region, or division. Learn how to create organizational units and assign resources.
 ms.date: 06/25/2026
 ms.topic: how-to
 author: ryanchen8
@@ -10,9 +10,9 @@ ms.reviewer: v-wesmith
 
 # Set up organizational units
 
-Organizational units represent logical groupings of your business operations, such as departments, regions, or business divisions.
+Organizational units are logical groupings of your business operations, such as departments, regions, or business divisions.
 
-Although territories are the primary geographic construct in Field Service, organizational units can provide another layer of segmentation, like business division (HVAC vs electrical), service line (install vs repair), or internal team structure.
+Although territories are the primary geographic structure in Field Service, organizational units provide an additional way to segment operations. For example, you can organize operations by business division (HVAC or electrical), service line (installation or repair), or internal team structure.
 
 ## Organizational units and territories
 
@@ -30,17 +30,17 @@ Although territories are the primary geographic construct in Field Service, orga
 
 1. Enter a name.
 
-1. (Optional) Select the **Scheduling** tab and enter an address. This field is required if you assign resources to the organizational unit.
+1. (Optional) Select the **Scheduling** tab. Enter an address. This field is required if you assign resources to the organizational unit.
 
 1. Select **Save & Close**.
 
 ## Assign resources to organizational units
 
-Bookable resources such as field technicians, equipment, or facilities typically belong to one primary organizational unit.
+Bookable resources such as field technicians, equipment, and facilities typically belong to one primary organizational unit.
   
 1. Open the **Resources** area. Under **Resource**, select **Resources**.
 
-1. Select the resource you want to assign to an organizational unit.
+1. Select the resource that you want to assign to an organizational unit.
   
 1. Select the **Scheduling** tab.
 
