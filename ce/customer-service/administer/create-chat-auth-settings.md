@@ -236,6 +236,9 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
 ## Create authentication settings for Apple Messages for Business
 
+> [!NOTE] 
+> Support for Apple Messages for Business channel is deprecated. Learn more in [Deprecations](/dynamics365/contact-center/implement/deprecations-contact-center).
+ 
 ### Prerequisites
 
 - Administrators who configure the authentication settings need more security permissions. Learn more in [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field).

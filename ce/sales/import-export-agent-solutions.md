@@ -1,7 +1,7 @@
 ---
 title: Import an agent into a target environment
 description: Learn how to export and import sales agent solutions across environments in Dynamics 365 Sales. 
-ms.date: 06/03/2026
+ms.date: 07/17/2026
 ms.update-cycle: 180-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
@@ -114,7 +114,7 @@ After you import the solution, the agent is imported in draft state. Open the ag
     1. Open the **Knowledge sources** settings page.  
     1. Verify that all configured knowledge sources are available. If any knowledge source is missing or not correctly configured, update it to ensure the agent has access to the necessary information.  
 
-1. **Activate the agent**. After updating the environment‑specific settings, save and start the agent.
+1. **Save and activate the agent**. After updating the environment‑specific settings, save and start the agent.
 
 #### For Data Enrichment Agent
 
@@ -138,7 +138,7 @@ After you import the solution, the agent is imported in draft state. Open the ag
     1. In the **Field scope** section, review the selected fields and update them if necessary to ensure the agent enriches the correct data in the target environment.  
     To learn more about field scope, see [Configure agent behavior](data-enrichment-agent-edit-settings.md#configure-agent-behavior).  
 
-1. **Activate the agent**. After updating the environment‑specific settings, save and start the agent.
+1. **Save and activate the agent**. After updating the environment‑specific settings, save and start the agent.
 
 #### For Recommended Actions Agent
 
@@ -152,7 +152,7 @@ After you import the solution, the agent is imported in draft state. Open the ag
     - If you have configured Sales Opportunity Agent or Data Enrichment Agent, no action is required. These agents are part of the solution and are imported together with the Recommended Actions Agent and automatically set up as sources.
     - If you use custom agents as sources for the Recommended Actions Agent, ensure that you also import and configure those custom agents in the target environment. The **msdyn_PushActionDataToRecommendedActionAgent** API sends actionable insights from custom agents to the Recommended Actions Agent. You must set up the custom agents correctly for their insights to appear in the recommended actions experience.  
 
-1. **Activate the agent**. After updating the environment‑specific settings, save and start the agent.
+1. **Save and activate the agent**. After updating the environment‑specific settings, save and start the agent.
 
 ## Related information
 
