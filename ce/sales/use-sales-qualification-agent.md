@@ -132,14 +132,17 @@ The following screenshot shows the **Suggested action** section of the **Lead re
 :::image type="content" source="media/lead-insights-page-suggested-action.png" alt-text="Screenshot of the Suggested action section of the Lead research page in research and engage mode.":::
 
 This section summarizes the lead's alignment with the hand over criteria and provides recommended actions. Select the call-to-action button to take action. The following actions are available:
-  
-**Research-only mode**: 
-    - **Draft email**: Displays the pre-generated outreach email that you can review and send to the lead.
-    - **Reassign**: Lets you reassign a disqualified lead to a seller if you think it is worth pursuing.
-**Research and engage mode**: 
-    - **Draft email**: Displays the email draft for following up with the lead. 
-    - **Qualify**: Lets you qualify the lead.
-    - **Reassign**: Lets you reassign a disqualified lead to a seller if you think it is worth pursuing.
+
+**Research-only mode**:  
+
+- **Draft email**: Displays the pre-generated outreach email that you can review and send to the lead.  
+- **Reassign**: Lets you reassign a disqualified lead to a seller if you think it's worth pursuing.
+ 
+**Research and engage mode**:  
+
+- **Draft email**: Displays the email draft for following up with the lead.  
+- **Qualify**: Lets you qualify the lead.  
+- **Reassign**: Lets you reassign a disqualified lead to a seller if you think it's worth pursuing.
 
 #### Key insights
 
