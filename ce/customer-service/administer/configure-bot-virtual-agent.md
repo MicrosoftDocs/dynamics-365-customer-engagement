@@ -19,12 +19,13 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
-Use agents to simulate human-like conversations for routine activities so that you can let your customer service representatives (service representative or representative) focus on high-value interactions. You can use Microsoft Copilot Studio to create agents that can interact with customers in Dynamics 365 Contact Center or Dynamics 365 Customer Service.
+Use agents to simulate human-like conversations for routine activities so that you can let your customer service representatives (service representative or representative) focus on high-value interactions. Use Microsoft Copilot Studio to create agents that can interact with customers in Dynamics 365 Contact Center or Dynamics 365 Customer Service. Build and govern these agents in Copilot Studio. Reuse them across channels and scenarios with consistent governance and security. This article focuses on integration steps.
 
 The following capabilities are available for the agent conversations:
 
 - Seamlessly integrate your agent with all channels without needing to add channel-specific code in the agent.
 - Use real-time voice agents. A real-time voice agent supports fully voice-driven and natural, context-carrying interactions. It also supports user interruptions (barge-in) and dynamic language switching in the same session when multilingual option is configured. Customers speak with the agent and receive spoken responses instantly. Learn more in [Real-time voice agents](/microsoft-copilot-studio/voice-realtime-voice-agents).
+- Real-time voice agents support ultra-low latency responses, interruption handling with context retention, automatic multilingual switching, and DTMF fallback. Full conversation context is preserved during human escalation, and proactive engagement is supported across voice and digital channels. Learn more in [Real-time voice agents](/microsoft-copilot-studio/voice-realtime-voice-agents).
 - Configure interactive voice response (IVR) capabilities for voice-enabled agents.
 - [!INCLUDE[cc-natural-language-model](../../includes/cc-natural-language-model.md)]  
 - Configure contextual transfers to service representatives.
@@ -41,6 +42,7 @@ You must have:
 
 - Specific licensing requirements apply to configure and use agents in Copilot Studio. Learn more in [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718).
 - Chat, digital messaging, or voice channel in Dynamics 365 Customer Service require specific licenses depending on your business requirements. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+- Consumption-based Copilot credits to pay for agent usage across voice and digital channels based on AI activity. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544) and [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718).
 - The CCI Admin security role to access the agent you create in Copilot Service admin center in Copilot Studio.
 - The Omnichannel administrator role. Learn more in [Manage user roles](/dynamics365/customer-service/implement/add-users-assign-roles).
 
