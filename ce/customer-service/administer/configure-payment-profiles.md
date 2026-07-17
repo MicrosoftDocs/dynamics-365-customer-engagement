@@ -8,6 +8,9 @@ ms.author: laalexan
 ms.reviewer: laalexan
 ---
 
+> [!NOTE] 
+> Support for Apple Messages for Business channel is deprecated. Learn more in [Deprecations](/dynamics365/contact-center/implement/deprecations-contact-center).
+
 # Configure payment profiles
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
