@@ -1,19 +1,19 @@
 ---
 title: Get started with the refreshed mobile experience
-description: Learn about the key features and limitations of the new user experience for the Dynamics 365 Field Service mobile app.
+description: Get started with the Dynamics 365 Field Service mobile app's refreshed experience. Discover agenda views, Copilot, and navigation features to help technicians work faster.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 11/28/2025
+ms.date: 07/17/2026
 ms.update-cycle: 180-days
 author: JonBaker007
 ms.author: jobaker
-ms.reviewer: puneetsingh
-ms.collection: bap-ai-copilot 
+ms.reviewer: v-wendysmith
+ms.collection: bap-ai-copilot
 ---
 
 # Get started with the refreshed mobile experience
 
-The new user experience in the Dynamics 365 Field Service mobile app helps service technicians swiftly access the information they need. It offers mobile-friendly navigation, gestures, and controls to help technicians save valuable time by quickly updating the status of a booking and getting driving directions to their work locations.
+The new user experience in the Dynamics 365 Field Service mobile app helps service technicians swiftly access the information they need. It offers mobile-friendly navigation, and controls to help technicians save valuable time by quickly updating the status of a booking and getting driving directions to their work locations.
 
 ## Agenda view for the new mobile user experience
 
@@ -48,7 +48,7 @@ To open the navigation menu, select **More** at the bottom of the screen.
 
 :::image type="content" source="../media/mobile-newux-navigation.png" alt-text="Renderings of two mobile devices showing the navigation menu in the Field Service mobile app.":::
 
-Views are optimized for the mobile app and provide frontline workers with the information they need to find the records they need. More information: [Understand model-driven app views](/power-apps/maker/model-driven-apps/create-edit-views)
+Views are optimized for the mobile app and provide frontline workers with the information they need to find the records they need. Learn more in [Understand model-driven app views](/power-apps/maker/model-driven-apps/create-edit-views).
 
 :::image type="content" source="../media/newux-view-portrait.png" alt-text="Screenshot of a mobile view in portrait.":::
 

@@ -121,9 +121,9 @@ items:
               href: enable-work-order-recap.md
             - name: Summarize work orders
               href: use-work-order-recap.md  
-        - name: Work order update
+        - name: Work order update (preview)
           href: work-order-update.md
-        - name: Create inspection templates
+        - name: Create inspection templates (preview)
           href: inspections-copilot.md
         - name: Use Microsoft 365 Copilot
           href: use-microsoft-365-copilot-model-driven-apps.md

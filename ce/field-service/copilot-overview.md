@@ -1,7 +1,7 @@
 ---
 title: Copilot features in Dynamics 365 Field Service
 description: Learn how Copilot in Field Service boosts productivity by generating work order summaries and creating inspection templates.
-ms.date: 12/05/2025
+ms.date: 07/16/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: puneetsingh
