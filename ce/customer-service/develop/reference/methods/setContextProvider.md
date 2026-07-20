@@ -41,11 +41,10 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
         // Set the custom context provider
         // Throws error if contextProvider is not a function
         Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
-                   //Here it is assumed that the corresponding work stream would have context variables with logical name of 'contextKey1', 'contextKey2', 'contextKey3'. If no context variable exists with a matching logical name, items are created assuming Type:string               
+                   //Here it is assumed that the corresponding work stream would have context variables with logical name of 'contextKey1', 'contextKey2'. If no context variable exists with a matching logical name, items are created assuming Type:string               
 	               return {
                              'contextKey1': {'value': 'contextValue1', 'isDisplayable': true},
-                             'contextKey2': {'value': 12.34, 'isDisplayable': false},
-                             'contextKey3': {'value': true}
+                             'contextKey2': {'value': 12, 'isDisplayable': false}
                    };
         });
 });
@@ -81,10 +80,9 @@ Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProv
                    {"msdyn_displaytitle":"Custom action performed", "msdyn_starttime":"yyyy-mm-ddThh:mm:ssZ","msdyn_type":192350003} \
                  ]'
              }, // Additional context can be added as shown below
-                //Here it is assumed that the corresponding work stream would have context variables with logical name of 'contextKey1', 'contextKey2', 'contextKey3'. If no context variable exists with a matching logical name, items are created assuming Type:string
+                //Here it is assumed that the corresponding work stream would have context variables with logical name of 'contextKey1', 'contextKey2'. If no context variable exists with a matching logical name, items are created assuming Type:string
                 'contextKey1': {'value': 'contextValue1', 'isDisplayable': true},
-                'contextKey2': {'value': 12.34, 'isDisplayable': false},
-                'contextKey3': {'value': true}
+                'contextKey2': {'value': 12, 'isDisplayable': false}
          };
     });
 });
