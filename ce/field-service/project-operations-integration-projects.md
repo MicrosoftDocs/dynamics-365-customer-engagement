@@ -2,7 +2,7 @@
 title: Projects, project contracts, and project tasks
 ms.reviewer: v-wendysmith
 description: Project management in Field Service helps frontline users create essential project structures to link to work orders.
-ms.date: 07/16/2026
+ms.date: 07/20/2026
 ms.topic: overview
 author: vhorvathms
 ms.author: vhorvath
@@ -26,7 +26,7 @@ Use Project Operations for project task management as it requires a Project Oper
 
 ## Project requirements
 
-To link a work order or agreement to a project, an eligible project must exist. Field Service forms enable you to create the minimal but required project structure. These requirements ensure financial consistency and allow Field Service transactions—such as material usage and labor services—to flow properly into Project Operations or Finance.
+To link a work order or agreement to a project, you need an eligible project. Field Service forms enable you to create the minimal but required project structure. These requirements ensure financial consistency and allow Field Service transactions - such as material usage and labor services - to flow properly into Project Operations or Finance.
 
 An eligible project must meet the following criteria:
 
@@ -34,7 +34,7 @@ An eligible project must meet the following criteria:
 - The project contract has a project-based contract line with a defined **Billing method** (time and materials or fixed price).
 - The work order billing account matches a customer defined on the associated project contract customer line.
 - All customers associated with the **Project Contract Line Customer** belong to the same legal entity.
-- The project contract line is configured to support the transaction types being recorded on the work order, including materials and/or labor time.
+- The project contract line is configured to support the transaction types you're recording on the work order, including materials and/or labor time.
 - The project's actual finish date is blank or set in the future.
 
 > [!NOTE]
@@ -42,7 +42,7 @@ An eligible project must meet the following criteria:
 
 ## Project contract lines
 
-Project contract lines define the commercial and billing structure for project work. Field Service work orders provide the execution context. You can [map specific tasks in a prject to a contract line](/dynamics365/project-operations/pro/sales/mapping-projects-tasks-contract-line-sales). You can also [manage multiple customers on a project contract line](/dynamics365/project-operations/pro/sales/manage-multiple-customers-contract-line-sales).
+Project contract lines define the commercial and billing structure for project work. Field Service work orders provide the execution context. You can [map specific tasks in a project to a contract line](/dynamics365/project-operations/pro/sales/mapping-projects-tasks-contract-line-sales). You can also [manage multiple customers on a project contract line](/dynamics365/project-operations/pro/sales/manage-multiple-customers-contract-line-sales).
 
 When a Field Service transaction flows to Project Operations, the system uses the project, project task, transaction class, and contract line setup to determine how to process the transaction.
 
