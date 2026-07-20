@@ -4,7 +4,7 @@ description: Learn how to set up and configure the AI-powered Data Enrichment fe
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 05/27/2026
+ms.date: 07/20/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -42,7 +42,10 @@ Ensure that you meet the following prerequisites:
 <a name="prerequisites-dataverse"></a>   
    - **Dataverse Search**: Data Enrichment uses Dataverse Search to find and enrich records in Dynamics 365 Sales. If you didn't set up Dataverse Search, select **Set up** to open the **Features** page in Power Platform admin center. Learn more about [configuring Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization). After setting up Dataverse Search, return to the agent configuration page and select **Refresh** to update the status of this prerequisite. 
  <a name="prerequisites-m365"></a> 
-   - **Microsoft 365 Services**: To allow the agent to read seller emails and fetch relevant data for enrichment, select **Mark as done** and then **Apply changes**. Sellers are prompted to provide consent the first time they access the **Opportunity** page. This method reads emails in place without storing them in CRM. The agent uses emails from Microsoft 365 to generate suggestions for opportunity records.
+   - **Microsoft 365 Services**: To allow the agent to read seller emails and Teams meeting data, and fetch relevant data for enrichment, select **Mark as done** and then **Apply changes**. Points to note:
+       - Teams meeting data includes meeting transcripts and AI summaries. 
+       - Sellers are prompted to provide consent the first time they access the **Opportunity** page. 
+       - The agent reads emails and meeting data in place without storing them in CRM.
    
      To configure and use Microsoft 365 Services, you need:
      - At least one of the following roles: Global administrator, Dynamics 365 administrator, or similar.
@@ -60,10 +63,10 @@ Ensure that you meet the following prerequisites:
     | Action | Enrich BANT-related fields in the opportunity record |
     | Schedule | Runs everyday |
     | Behavior | Suggests field updates based on email conversations (seller approval required) |
-    | Data sources | Outlook |
+    | Data sources | Outlook, Teams |
     
 1. Do *ONE* of the following:
-    - Review the recommended settings and select **Start agent** if the default settings work for your business needs. The agent doesn't analyze any opportunity records or emails until sellers [provide consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to read their emails. The consent is specific to each seller. 
+    - Review the recommended settings and select **Start agent** if the default settings work for your business needs. The agent doesn't analyze any opportunity records, emails, or meeting data until sellers [provide consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to read their emails and access their Teams meeting data. The consent is specific to each seller. 
     - Select **Edit in settings** to customize the configuration. The agent doesn't start until you finish configuring the settings. Learn more about configuring the settings in the [Configure AI-powered Data Enrichment settings](data-enrichment-agent-edit-settings.md) article.
 
 ## Grant permissions to sellers

@@ -33,6 +33,7 @@ When you change the parent of a product, inherited properties from the previous 
     
 2. To remove the parent from the record, just remove the parent record from the **Parent** field.
 
+<a name="reparenting-considerations"></a>
 **Things to consider when reparenting a record:**
 
 -	Products which are re-parented can't be reverted. When a product is reparented, the properties inherited from the previous parent are lost. Thus, you can't revert the properties of the reparented product to the last active version of the product. 

@@ -1,7 +1,7 @@
 ---
 title: Create or edit leads
 description: Learn how to create a lead in Dynamics 365 to track business prospects and add notes, activities, and related contacts.
-ms.date: 06/05/2026
+ms.date: 07/17/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

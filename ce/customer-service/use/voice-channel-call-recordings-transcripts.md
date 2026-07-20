@@ -1,7 +1,7 @@
 ---
 title: View conversation transcripts and call recordings
 description: Use this article to learn how to view conversation transcripts and call recordings.
-ms.date: 11/06/2025
+ms.date: 07/20/2026
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -27,10 +27,9 @@ When conversations end in your contact center, users can view the recordings and
 
 ## Prerequisites
 
-- Your administrator enabled call recordings and transcripts.
+- Your administrator enabled call recordings and transcripts. Learn more in [Configure call recording, transcription, and real-time translation](../administer/voice-channel-configure-transcripts.md).
 - Omnichannel agent or Omnichannel supervisor role.
 - To access recordings and transcripts, users with other roles need at least read-level access to the **Activity** table.
-- To view conversation summaries, users with other roles need at least read-level access to the **ConversationInsights** table. 
 - To view post-conversation survey data, the **Show Post Conversation Survey Results** check box must be selected in Copilot Service admin center in the **Conversation Form Settings** under Workspaces. Also, users need read-level access to the **Customer feedback survey** table; Omnichannel Administrator role has the access by default.
 
 ## View recordings and transcripts
@@ -45,9 +44,9 @@ The **Details** tab of the **Conversation - Conversation Form** displays the con
 
 :::image type="content" source="../media/voice-channel-recording.png" alt-text="Screenshot of call recording and transcript controls." lightbox="../media/voice-channel-recording.png":::
 
-### Recording playback
+### Call audio recording playback
 
-The information pertaining to recording playbook is available for the voice channel only.
+The audio recording playback controls are available for the voice channel only.
 
 - **Play**: Select the button to listen to the conversation audio.
 
@@ -84,7 +83,7 @@ If you open the conversation before the system processes the transcription, the 
 
 ### Call Metrics
 
-The call metrics are available for the voice channel only.
+The call metrics are available for voice channel only.
 
 - **Talking speed**: The rate of speed in which participants conversed during the call.
 

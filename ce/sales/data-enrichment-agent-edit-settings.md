@@ -4,7 +4,7 @@ description: Discover how to update agent settings, define access, and set enric
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 05/18/2026
+ms.date: 07/20/2026
 ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -50,7 +50,7 @@ In the **Agent behavior** section of the [Data Enrichment settings](#open-settin
 - **Field scope**: Select the fields that you don't want Data Enrichment to enrich. These could be fields that are critical to your business processes or those that you prefer to manage manually. Some fields are excluded from enrichment by default and cannot be modified. See [Fields excluded from enrichment](#fields-excluded-from-enrichment) for more details.  
 - **Field update behavior**: Turn on **Automatically update fields** to allow Data Enrichment to make changes without a manual review. By default, this option is off, meaning sellers need to review and apply suggestions manually.
 - **Enrichment frequency**: Indicates how often Data Enrichment applies updates automatically. The agent analyzes emails and generates suggestions every 4 hours. For manual updates, sellers can review suggestions as soon as they're generated. For automatic updates, changes are applied based on the enrichment frequency, which is set to **Daily** by default. This setting is informational and can't be changed.
-- **Data sources**: Shows the data sources that Data Enrichment will use to analyze and enrich opportunity records. It currently uses email interactions in your Microsoft 365 mailbox to gather context about opportunities and suggest updates. This field is informational and cannot be changed.
+- **Data sources**: Shows the data sources Data Enrichment uses to analyze records. It gathers context from Outlook interactions and Teams meetings. For Teams meetings, it uses AI-generated summaries (if you have a Microsoft 365 Copilot license) or meeting transcripts. This field is informational and can't be changed.
 
 ## Enable or disable connected skills
 
@@ -68,7 +68,7 @@ Select the toggle next to the skill name to enable or disable it based on your p
 
 After configuring the settings, select **Apply changes** and then **Start agent** to activate Data Enrichment with your specified configuration. You can stop the agent at any time by selecting **Stop agent** on the settings page. When the agent is stopped, it won't analyze records or generate suggestions.
 
-The agent doesn't analyze any opportunity records or emails until sellers [provide consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to read their emails. The consent is specific to each seller. 
+The agent doesn't analyze any opportunity records, emails, or meeting data until sellers [provide consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to read their emails and access their Teams meeting data. The consent is specific to each seller. 
 
 ## Fields excluded from enrichment
 
