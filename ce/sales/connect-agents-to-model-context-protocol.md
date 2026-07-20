@@ -1,7 +1,7 @@
 ---
 title: Connect AI agents and assistants to Dynamics 365 Sales MCP Server
 description: Learn how to connect your AI agents and assistants to the Dynamics 365 Sales MCP Server to enable them to perform actions and retrieve information from Dynamics 365 Sales.
-ms.date: 05/26/2026
+ms.date: 07/17/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
