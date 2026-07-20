@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management
-description: Learn how to configure the settings for knowledge management in Dynamics 365 Customer Service.
-ms.date: 01/29/2026
+description: Learn how to configure the settings for knowledge management in Dynamics 365 Customer Service or Dynamics 365 Contact Center.
+ms.date: 07/20/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -25,10 +25,7 @@ searchScope:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-
-## Introduction
-
-A comprehensive knowledge base is a key to increased customer satisfaction and improved productivity of users. Give users quick access to the knowledge base by setting up knowledge management in Dynamics 365 Customer Service.
+Knowledge management in Dynamics 365 Customer Service helps improve customer satisfaction and agent productivity by providing quick access to relevant knowledge articles. Configure knowledge management settings in the Copilot Service admin center to enable agents to search for articles, receive AI-powered suggestions, and share article links with customers.
 
 > [!IMPORTANT]
 > Usage of [!INCLUDE[pn_parature](../../includes/pn-parature.md)] knowledgebase as a knowledge management solution has been deprecated. Learn more in [Important changes coming](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
@@ -42,6 +39,17 @@ After knowledge management is set up, users are able to:
 - Use smart assist to receive AI suggestions on related knowledge articles and similar cases.
 
 - See the content of the knowledge base article inline, including images and videos.
+
+## Prerequisites
+
+- You have the **System Administrator** or **System Customizer** security role or equivalent permissions. You must also be the tenant administrator of Microsoft 365. Learn more in [Understand role types](/power-platform/admin/database-security).
+
+- Configure the required privileges for the `KnowledgeArticle` table based on each user's intended level of access. Configure specific access settings alongside the **Basic User** role to align access to the `KnowledgeArticle` table with organizational requirements.
+
+  For the `KnowledgeArticle` table, the Dataverse security boundary is the environment rather than individual users within the environment. If you need to restrict access to knowledge articles according to your organization's requirements, review the table privileges that you can grant through a security role in [Define the privileges and properties of a security role](/power-platform/admin/security-roles-privileges?branch=main#role-name-and-description-of-a-security-role).
+
+> [!NOTE]
+> We recommend that you avoid storing secrets, credentials, or regulated personal data in knowledge article content with draft or internal status.
 
 ## Setup overview
 
