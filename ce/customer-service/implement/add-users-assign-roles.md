@@ -3,7 +3,7 @@ title: Assign roles, enable users
 description: Perform the steps to assign roles to users and enable them in contact center.
 author: neeranelli
 ms.author: nenellim
-ms.date: 07/10/2026
+ms.date: 07/20/2026
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -155,11 +155,13 @@ The entities and their secret attributes are as follows. Learn more about the en
 
 ### Related information
 
-[Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  
-[Manage users in Dynamics 365 Contact Center](../administer/users-user-profiles.md)  
-[Role personas for unified routing](../administer/role-persona-mapping.md)  
-[Guide agents with scripts](../administer/agent-scripts.md)  
-[Automate tasks with macros](../administer/macros.md)  
+- [Manage users in Dynamics 365 Contact Center](../administer/users-user-profiles.md)  
+- [Configure screen and audio recording with desktop companion application](/dynamics365/contact-center/administer/configure-screen-recording)  
+- [View conversation transcripts and call recordings](../use/voice-channel-call-recordings-transcripts.md)  
+- [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  
+- [Role personas for unified routing](../administer/role-persona-mapping.md)  
+- [Guide agents with scripts](../administer/agent-scripts.md)  
+- [Automate tasks with macros](../administer/macros.md) 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
