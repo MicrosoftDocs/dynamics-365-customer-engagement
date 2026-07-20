@@ -80,3 +80,5 @@ Sales Qualification Agent is built with responsible AI principles in mind. The a
 ## Related information
 
 - [Sales Qualification Agent FAQ](sales-qualification-agent-faq.md)
+- [Responsible AI FAQ about the Sales Qualification Agent](faqs-sales-qualification-agent.md)
+- [AI Agent users](security-roles-for-sales.md#ai-agent-users)
