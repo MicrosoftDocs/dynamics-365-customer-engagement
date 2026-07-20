@@ -1,7 +1,7 @@
 ---
 title: FAQs about AI-powered Data Enrichment for opportunities
 description: Explore frequently asked questions about AI-powered Data Enrichment in Dynamics 365 Sales and how it transforms your CRM data into valuable insights.
-ms.date: 05/19/2026
+ms.date: 07/20/2026
 ms.update-cycle: 180-days
 ms.topic: faq
 ms.service: dynamics-365-sales
@@ -21,10 +21,11 @@ This article provides answers to frequently asked questions about the AI-powered
 
 ## What data does AI-powered Data Enrichment use?
 
-AI-powered Data Enrichment uses data from sources within your Dynamics 365 environment:
+AI-powered Data Enrichment uses data from the following sources:
 
 - **Dataverse data**: Information stored in your organization's Microsoft Dataverse environment, including configured CRM entities such as accounts, contacts, leads, and opportunities.
-- **Email data**: Customer emails stored Microsoft 365, which the feature analyzes to extract context and relevant information.
+- **Email data**: Customer emails stored in Microsoft 365, which the feature analyzes to extract context and relevant information.
+- **Teams meeting data**: Teams meeting transcripts and AI-generated meeting summaries stored in Microsoft 365. AI-generated summaries are used when the seller has access to Microsoft 365 Copilot; otherwise, meeting transcripts are used.
 
 AI-powered Data Enrichment only accesses fields and entities that have been approved by administrators through configuration settings. Data access is constrained by user roles and permissions configured in Dynamics 365. The feature does not have access to all data in your environment by default.
 
@@ -52,10 +53,23 @@ If you don't see suggestions, it could be due to several reasons:
 
 - **Configuration settings**: Your administrator might not have configured the feature. 
 - **User permissions**: It's possible that you are not a part of the group that has access to view suggestions. 
-- **Consent**: The opportunity owner might not have provided consent to analyze their emails.
-    - If you are the owner of the opportunity, ensure that you have [provided consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to analyze your emails. 
-    - If you're looking at an opportunity that you don't own, it's possible that the owner of that opportunity has not provided consent to analyze their emails or they don't have access to the Data Enrichment feature.
-- **Data availability**: There may not be sufficient data or relevant email interactions to generate suggestions for that opportunity.
+- **Consent**: The opportunity owner might not have provided consent to analyze their emails and Teams meeting data.
+    - If you're the owner of the opportunity, ensure that you [provide consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to analyze your emails and access your Teams meeting data. 
+    - If you're looking at an opportunity that you don't own, it's possible that the owner of that opportunity didn't provide consent to analyze their emails or meeting data, or they don't have access to the Data Enrichment feature.
+- **Data availability**: There might not be sufficient data or relevant email or Teams meeting interactions to generate suggestions for that opportunity.
+
+## Which Teams meetings does Data Enrichment analyze?
+
+Data Enrichment analyzes Teams meetings where the primary contact associated with the opportunity attended the meeting. The agent matches attendees by email address to contacts linked to the opportunity. Only meetings where the primary contact's email corresponds to a meeting attendee are mapped to the opportunity and analyzed.
+
+The type of meeting data used depends on the seller's license:
+
+- **With Microsoft 365 Copilot license**: The agent uses AI-generated meeting summaries.
+- **Without Microsoft 365 Copilot license**: The agent uses meeting transcripts.
+
+## Can all users see the calendar event citation in Data Enrichment suggestions?
+
+No. When a suggestion is generated from an actual Teams meeting, the Data Enrichment pane shows a citation that links to the calendar event. Only users who attended the meeting can see this citation. Users who weren't part of the meeting can't see or access the calendar event citation.
 
 ## Why did my data enrichment suggestions disappear?
 
