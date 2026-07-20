@@ -40,13 +40,13 @@ Both dashboards contain the following sections:
 
 A material usage log's *submission* creates the Project Approval record, and the Project Approval's *approval* generates the Actuals.
 
-If a work order product or service is missing information, the dashboard lists it only in the first section where an issue occurred. For example, if a work order product is missing a material usage log, that means it's also missing a project approval and actuals. The dashboard lists the product only in the **Material Usage Log Validation** section because that's when the issue first occurred.
+If a work order product or service is missing information, the dashboard lists it only in the first section where an issue occurred. For example, if a work order product is missing a material usage log, that condition means it's also missing a project approval and actuals. The dashboard lists the product only in the **Material Usage Log Validation** section because that's when the issue first occurred.
 
 In another example, if a work order service is missing a project approval, the dashboard lists the service only in the **Project Approval Validation** section. That condition means it has a material usage log, but is missing a project approval and actuals.
 
 ## Work order line revisions
 
-Work order line revisions provide a snapshot of a work order product or service at a specific point in time. They help ensure all changes to a work order product or service are captured and converted into the appropriate estimate lines or actuals in the order they are received.
+Work order line revisions provide a snapshot of a work order product or service at a specific point in time. They help ensure all changes to a work order product or service are captured and converted into the appropriate estimate lines or actuals in the order they're received.
 
 When you create or update a work order product or service and the change affects an estimate or actual, the system creates a revision line. Each revision line contains its type (estimate or actual) and a revision number.
 
