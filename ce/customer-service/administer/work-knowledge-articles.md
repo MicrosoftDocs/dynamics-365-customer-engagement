@@ -1,7 +1,7 @@
 ---
-title: Work with knowledge articles
-description: This topic provides information about working with the new native knowledge management capabilities in Dynamics 365 Customer Service.
-ms.date: 06/26/2026
+title: KnowledgeArticle table in Dynamics 365 Customer Service
+description: Knowledge management in Dynamics 365 Customer Service uses the KnowledgeArticle table. Discover how to create, version, translate, and publish articles programmatically.
+ms.date: 07/20/2026
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -17,26 +17,25 @@ searchScope:
   - Customer Engagement
 ---
 
-# Work with knowledge articles
+# Work with the KnowledgeArticle table
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-The new knowledge experience enables you to create rich knowledge articles along with versioning and translation support. The new knowledge experience uses the `KnowledgeArticle` entity to store and manage knowledge natively in Dynamics 365 Customer Service.  
-    
-> [!NOTE]
-> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. Learn more in [Deprecated knowledge entities](#deprecated-knowledge-entities).
-  
-<a name="Create"></a>   
+Use the `KnowledgeArticle` table to build knowledge management capabilities into your Dynamics 365 Customer Service solutions. This article describes how to create articles, manage versions and translations, publish content, and integrate knowledge articles with other customer service entities.
+
+## Prerequisites
+
+Make sure that you have the required [roles and privileges](set-up-knowledge-management-embedded-knowledge-search.md#prerequisites).
 
 ## Create a knowledge article  
 
-When you create a knowledge article record, Dynamics 365 Customer Service internally creates a root article for the record. The root article acts as a container for the primary knowledge article created by you along with all the article versions and translations that you might create in future. The following diagram depicts the entity model for the `KnowledgeArticle` entity.  
+When you create a knowledge article record, Dynamics 365 Customer Service internally creates a root article for the record. The root article acts as a container for the primary knowledge article you create along with all the article versions and translations that you might create in future. The following diagram depicts the table model for the `KnowledgeArticle` table.  
   
  ![KnowledgeArticle entity model.](../../customerengagement/on-premises/developer/media/crm-knowledgearticleentitymodel.png "KnowledgeArticle entity model")  
   
- When you create a knowledge article record, it is created in the `Draft` state. Using the new `KnowledgeArticle` entity, you can create an article by specifying its contents and formatting in HTML format. You can specify your own value for the `KnowledgeArticle`.`ArticlePublicNumber` attribute while creating a knowledge article record programmatically; otherwise, the value is automatically generated based on the format you specified in the Dynamics 365 Customer Service settings area in the web client. The `KnowledgeArticle`.`ArticlePublicNumber` attribute stores the ID exposed to customers, partners, and other external users to reference and look up knowledge articles, and remains the same across knowledge article versions and translations.  
+When you create a knowledge article record, you create it in the `Draft` state. By using the new `KnowledgeArticle` table, you can create an article by specifying its contents and formatting in HTML format. You can specify your own value for the `KnowledgeArticle`.`ArticlePublicNumber` attribute while creating a knowledge article record programmatically. Otherwise, the value is automatically generated based on the format you specified in the Dynamics 365 Customer Service settings area in the web client. The `KnowledgeArticle`.`ArticlePublicNumber` attribute stores the ID exposed to customers, partners, and other external users to reference and look up knowledge articles. It remains the same across knowledge article versions and translations.  
   
- The following sample code shows how you can create a knowledge article record.  
+The following sample code shows how you can create a knowledge article record.  
   
 ```csharp  
 KnowledgeArticle newKnowledgeArticle = new KnowledgeArticle  
@@ -52,13 +51,13 @@ Console.WriteLine("Created {0}", newKnowledgeArticle.Title);
 
 ## Create major and minor versions of a knowledge article  
 
-When you create a knowledge article record, the major version is automatically set to 1 and minor version to 0. Use the `CreateKnowledgeArticleVersion` message (<xref href="Microsoft.Dynamics.CRM.CreateKnowledgeArticleVersion?text=CreateKnowledgeArticleVersion Action" /> or <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleVersionRequest>) to create a major or minor version of a knowledge article. In the request message, set `IsMajor` to `true` to create a major version; set it to `false` to create a minor version. The new version record that is created uses the:  
+When you create a knowledge article record, the major version is automatically set to 1 and the minor version is set to 0. Use the `CreateKnowledgeArticleVersion` message (<xref href="Microsoft.Dynamics.CRM.CreateKnowledgeArticleVersion?text=CreateKnowledgeArticleVersion Action" /> or <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleVersionRequest>) to create a major or minor version of a knowledge article. In the request message, set `IsMajor` to `true` to create a major version, or set it to `false` to create a minor version. The new version record uses the following attributes:  
   
 - `KnowledgeArticle`.`RootArticleId` attribute to maintain the association with the root knowledge article record.  
   
 - `KnowledgeArticle`.`PreviousArticleContentId` attribute to point to the previous version of the record.  
   
-The following sample code shows how you can create a major version of a knowledge article record using <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleVersionRequest>.  
+The following sample code shows how to create a major version of a knowledge article record by using <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleVersionRequest>.  
   
 ```csharp  
 CreateKnowledgeArticleVersionRequest versionRequest = new CreateKnowledgeArticleVersionRequest  
@@ -73,15 +72,15 @@ CreateKnowledgeArticleVersionResponse versionResponse = (CreateKnowledgeArticleV
 
 ## Create a knowledge article translation  
 
-Use <xref href="Microsoft.Dynamics.CRM.CreateKnowledgeArticleTranslation?text=CreateKnowledgeArticleTranslation Action" /> (Web API) or <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleTranslationRequest> (organization service) to create a translation for a knowledge article record. You can translate your knowledge article in more than 150 languages, and information about these supported languages is available in the new `LanguageLocale` entity.
+Use <xref href="Microsoft.Dynamics.CRM.CreateKnowledgeArticleTranslation?text=CreateKnowledgeArticleTranslation Action" /> (Web API) or <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleTranslationRequest> (organization service) to create a translation for a knowledge article record. You can translate your knowledge article into more than 150 languages. Information about these supported languages is available in the new `LanguageLocale` table.
  
-More information: [LanguageLocale table](/power-apps/developer/data-platform/reference/entities/languagelocale).
+Learn more in [LanguageLocale table](/power-apps/developer/data-platform/reference/entities/languagelocale).
 
-Using <xref href="Microsoft.Dynamics.CRM.CreateKnowledgeArticleTranslation?text=CreateKnowledgeArticleTranslation Action" /> (Web API) or <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleTranslationRequest> (organization service) creates a new knowledge article record with the title, content, description and keywords copied from the source record to the new record, and the language of the new record set to the one you specified in the request. You also need to specify whether the new record will be a major or minor version. The new record uses the `KnowledgeArticle`.`ParentArticleContentId` attribute to maintain the association with the primary knowledge article record.  
+By using <xref href="Microsoft.Dynamics.CRM.CreateKnowledgeArticleTranslation?text=CreateKnowledgeArticleTranslation Action" /> (Web API) or <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleTranslationRequest> (organization service), you create a new knowledge article record with the title, content, description, and keywords copied from the source record to the new record. You set the language of the new record to the one you specify in the request. You also need to specify whether the new record is a major or minor version. The new record uses the `KnowledgeArticle`.`ParentArticleContentId` attribute to maintain the association with the primary knowledge article record.  
   
 After you execute this message and get a response, retrieve the knowledge article record from the response object, and then update the title, content, description, and keywords to add the translated content.  
   
-The following sample code shows how to create a knowledge article translation using <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleTranslationRequest>:  
+The following sample code shows how to create a knowledge article translation by using <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleTranslationRequest>:  
   
 ```csharp  
 CreateKnowledgeArticleTranslationRequest translationRequest = new CreateKnowledgeArticleTranslationRequest  
@@ -104,21 +103,21 @@ KnowledgeArticle respObject = (KnowledgeArticle)_serviceProxy.Retrieve(Knowledge
 ## Knowledge article lifecycle: Change the state of a knowledge article  
  During its lifecycle, a knowledge article can be in the following states:  
   
-- 0: Draft (after a knowledge article is created)  
+- 0: Draft (after you create a knowledge article)  
   
-- 1: Approved (after a knowledge article is approved)  
+- 1: Approved (after you approve a knowledge article)  
   
-- 2: Scheduled (after a knowledge article is scheduled to be published)  
+- 2: Scheduled (after you schedule a knowledge article to be published)  
   
-- 3: Published (after a knowledge article is published)  
+- 3: Published (after you publish a knowledge article)  
   
-- 4: Expired (after a knowledge article is expired as per the expiration date specified while publishing)  
+- 4: Expired (after a knowledge article expires as per the expiration date specified while publishing)  
   
-- 5: Archived (after a knowledge article is archived)  
+- 5: Archived (after you archive a knowledge article)  
   
-- 6: Discarded (after a knowledge article is discarded)  
+- 6: Discarded (after you discard a knowledge article)  
   
-To change the state of the article, use the `Update` message on the knowledge article record to update the `KnowledgeArticle.StateCode` attribute. For early bound types, use the `KnowledgeArticleState` enumeration to set the possible states. More information: [Perform specialized operations using Update](/powerapps/developer/data-platform/special-update-operation-behavior).  
+To change the state of the article, use the `Update` message on the knowledge article record to update the `KnowledgeArticle.StateCode` attribute. For early bound types, use the `KnowledgeArticleState` enumeration to set the possible states. Learn more in [Perform specialized operations using Update](/powerapps/developer/data-platform/special-update-operation-behavior).    
   
 The following sample code shows how to publish a knowledge article record.  
   
@@ -139,9 +138,12 @@ _serviceProxy.Execute(updateKnowledgeArticle);
   
 <a name="Associate"></a>   
 
+> [!NOTE]
+> `statecode` values such as Draft (0) indicate the article's lifecycle stage, and not confidentiality or visibility. Users with the appropriate Read and Write privileges can access draft articles.
+
 ## Associate a knowledge article record with a Dynamics 365 Customer Service entity instance  
 
-When you enable embedded knowledge search for an entity in Dynamics 365 Customer Service using the web client, a many-to-many relationship, `msdyn_`***<Entity_Name>***`_knowledgearticle`, is automatically created. You can use this relationship to programmatically associate or link a `KnowledgeArticle` instance with a Dynamics 365 Customer Service entity instance. When you associate a `KnowledgeArticle` instance with an entity instance, a record for the relationship is created in an intersect entity called `msdyn_`***<Entity_Name>***`_knowledgearticle`. For example, when you associate a `KnowledgeArticle` instance with an `Account` instance for the first time, an intersect entity called `msdyn_account_knowledgearticle` is created, and a record with the association mapping is created in this intersect entity. By default, the `Incident` (Case) entity is enabled for the embedded knowledge search, and when you link a `KnowledgeArticle` record to an `Incident` record, an association record is created in the `KnowledgeArticleIncident` intersect entity.  
+When you enable embedded knowledge search for a table in Dynamics 365 Customer Service by using the web client, the system automatically creates a many-to-many relationship named `msdyn_`***<Entity_Name>***`_knowledgearticle`. Use this relationship to programmatically associate or link a `KnowledgeArticle` instance with a Dynamics 365 Customer Service table instance. When you associate a `KnowledgeArticle` instance with a table instance, you create a record for the relationship in an intersect table called `msdyn_`***<Entity_Name>***`_knowledgearticle`. For example, when you associate a `KnowledgeArticle` instance with an `Account` instance for the first time, you create an intersect table called `msdyn_account_knowledgearticle`, and you create a record with the association mapping in this intersect table. By default, the `Incident` (Case) table is enabled for the embedded knowledge search. When you link a `KnowledgeArticle` record to an `Incident` record, you create an association record in the `KnowledgeArticleIncident` intersect table.  
   
  The following sample code demonstrates how to associate a `KnowledgeArticle` instance with an `Account` instance:  
   
@@ -166,41 +168,41 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
   
 <a name="IncrementViewCount"></a>   
 ## Increment knowledge article view count  
- Use the <xref:Microsoft.Crm.Sdk.Messages.IncrementKnowledgeArticleViewCountRequest> message to increment the view count of a knowledge article record for a given day in the `KnowledgeArticleViews` entity. If a record doesn't exist for a knowledge article for a specified day, it will create a record and then set the specified view count value in the `KnowledgeArticleViews`.`KnowledgeArticleView` attribute. If a record already exists for a knowledge article for the specified day, it will just increment the view count in the `KnowledgeArticleViews`.`KnowledgeArticleView` attribute of the existing record.  
+ Use the <xref:Microsoft.Crm.Sdk.Messages.IncrementKnowledgeArticleViewCountRequest> message to increment the view count of a knowledge article record for a given day in the `KnowledgeArticleViews` table. If a record doesn't exist for a knowledge article for a specified day, the operation creates a record and sets the specified view count value in the `KnowledgeArticleViews`.`KnowledgeArticleView` attribute. If a record already exists for a knowledge article for the specified day, the operation increments the view count in the `KnowledgeArticleViews`.`KnowledgeArticleView` attribute of the existing record.  
   
 <a name="Search"></a>   
 ## Search knowledge articles using full-text search  
- Knowledge articles in Dynamics 365 Customer Service, including their versions and translations, are full-text indexed and support SQL Server full-text search. Learn more about full-text search, in [SQL Server: Full-text Search](/sql/relational-databases/search/full-text-search).  
+  Knowledge articles in Dynamics 365 Customer Service, including their versions and translations, are full-text indexed and support SQL Server full-text search. Learn more about full-text search, in [SQL Server: Full-text Search](/sql/relational-databases/search/full-text-search).    
   
- Use the <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message to search knowledge article from your applications to find the information you are looking for. The <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message lets you use inflectional stem matching (allows for a different tense or inflection to be substituted for the search text) and specify query criteria (using FetchXML or QueryExpression to specify filtering, ordering, sorting, and paging) to find knowledge articles with specified text. You can also choose to remove multiple versions of the same articles in the search results and filter on the knowledge article state while searching for a text.  
+ Use the <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message to search knowledge articles from your applications to find the information you are looking for. The <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message lets you use inflectional stem matching (which allows for a different tense or inflection to be substituted for the search text) and specify query criteria (by using FetchXML or QueryExpression to specify filtering, ordering, sorting, and paging) to find knowledge articles with specified text. You can also choose to remove multiple versions of the same articles in the search results and filter on the knowledge article state while searching for a text.  
 
 ## Deprecated knowledge entities  
 
-The following legacy entities have been deprecated. More information: [Deprecated knowledge entities](../implement/deprecations-customer-service.md#deprecatedkmentities)
+The following legacy entities are deprecated. Learn more in [Deprecated knowledge entities](../implement/deprecations-customer-service.md#deprecatedkmentities).
 
 - [KbArticle](/power-apps/developer/data-platform/reference/entities/kbarticle) 
 - [KbArticleComment](/power-apps/developer/data-platform/reference/entities/kbarticlecomment) 
 - [KbArticleTemplate](/power-apps/developer/data-platform/reference/entities/kbarticletemplate)  
 
-Legacy knowledge entities are not accessible as of December 1, 2020. We strongly recommend that you move to the KnowledgeArticle entity.  Learn more in [Create and manage knowledge articles](../use/customer-service-hub-user-guide-knowledge-article.md).  
+As of December 1, 2020, you can't access legacy knowledge entities. Move to the KnowledgeArticle table. Learn more in [Create and manage knowledge articles](../use/customer-service-hub-user-guide-knowledge-article.md).    
 
-Use the following for help with migration:  
+For help with migration, use the following resources:  
 - Use SDK, WebAPI, or Microsoft Power Automate depending on your scenarios.  
 - Use the open source migration tool with [MIT license](https://github.com/microsoft/dynamics365-kbmigration/blob/master/LICENSE).  
 
 
 > [!IMPORTANT]
-> - The open source migration tool is not support by Microsoft and may need to be modified to suit your scenarios.  
+> - Microsoft doesn't support the open source migration tool. You might need to modify it to suit your scenarios.  
 > - Always run a test environment before using in production.  
-> - Check the license and readme before you use the tool.   
+> - Check the license and readme before you use the tool.
 
 ## Related information
 
 - [Knowledge Base Entities](../../customerengagement/on-premises/developer/knowledge-management-entities.md)
-- [KnowledgeArticle Entity](/power-apps/developer/data-platform/reference/entities/knowledgearticle)
-- [KnowledgeArticleViews Entity](/power-apps/developer/data-platform/reference/entities/knowledgearticleviews)
-- [KnowledgeBaseRecord Entity](/power-apps/developer/data-platform/reference/entities/knowledgebaserecord)
-- [LanguageLocale Entity](/power-apps/developer/data-platform/reference/entities/languagelocale)
+- [KnowledgeArticle table](/power-apps/developer/data-platform/reference/entities/knowledgearticle)
+- [KnowledgeArticleViews table](/power-apps/developer/data-platform/reference/entities/knowledgearticleviews)
+- [KnowledgeBaseRecord table](/power-apps/developer/data-platform/reference/entities/knowledgebaserecord)
+- [LanguageLocale table](/power-apps/developer/data-platform/reference/entities/languagelocale)
 - [Important changes coming in future releases of Microsoft Dynamics 365](/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)#bkmk_CrmKMEntities) 
 
 

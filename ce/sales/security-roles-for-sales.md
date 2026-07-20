@@ -1,7 +1,7 @@
 ---
 title: Predefined security roles for Sales
 description: Predefined security roles define permissions and access levels specific to different sales personas. Assign users to appropriate security roles to grant them adequate access to the system.
-ms.date: 05/29/2026
+ms.date: 07/20/2026
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -82,6 +82,18 @@ The following roles are examples of internal roles:
 - Sales system access extension
 - SalesInsights AutoCapture 
 - AISalesPerson
+
+## AI agent users
+
+AI agent users run agentic workflows autonomously. The system automatically creates these users regardless of whether you enable the AI agent feature. Deleting these users might break your deployment.
+
+The following table lists the AI agent users created by the Sales Qualification Agent:
+
+| **App User Name**         | **Application ID**                         | **Purpose**                                      |
+|--------------------------|---------------------------------------------|--------------------------------------------------|
+| D365 Sales LeadQual      | 92b4241e-147b-4311-a896-f251048e511d        | Used for lead readiness and qualification calculation |
+| D365 Sales AcctRsrch     | c98ef798-fc0f-4d75-bfb6-d92aa99cc6c5        | Used to run research                             |
+| D365 Sales OutrchAgt     | 256d32b4-47bf-4212-89f8-07fff7a210ba        | Used to prepare outreach functionality           |
 
 ## Assign security roles to users
 

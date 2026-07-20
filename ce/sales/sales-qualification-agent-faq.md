@@ -89,8 +89,11 @@ Viewing insights that have been generated doesn't consume capacity.
 The **Review email** option appears in the banner, and the **Draft email** option appears on the **Lead insights** page, only if the following conditions are met:
 
 - Your organization is using server-side synchronization. Ask your admin if you're not sure.
-- The lead's email address is available.  
+- The lead's email address is available.
 
+## Why do I see new user accounts in my environment?
+
+The system automatically creates new user accounts for the AI agent users required to run agentic workflows. These users are created regardless of whether you enable the AI agent feature or not. For more information, see [AI agent users](security-roles-for-sales.md#ai-agent-users).
 
 ## What does error in a supporting process mean?
 
