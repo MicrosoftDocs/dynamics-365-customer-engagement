@@ -1,7 +1,7 @@
 ---
 title: Link projects to work orders and agreements
 description: Learn how to link a project in Dynamics 365 Project Operations to a work order in Dynamics 365 Field Service.
-ms.date: 03/17/2026
+ms.date: 06/22/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -9,14 +9,16 @@ ms.author: vhorvath
 
 # Link projects to work orders and agreements 
 
-To ensure accurate financial tracking in Project Operations, link Field Service work orders to an eligible project. This link allows material usage, labor entries, and actual costs to flow into the correct project contract line and billing structure. You can link work orders manually or through agreements. Project linkage must occur before the **Work Order System Status** is *Posted*.
+To ensure accurate financial tracking in Project Operations, link Field Service work orders to an eligible project. This link sends material usage, labor entries, and actual costs to the correct project contract line and billing structure. You can link work orders manually or through agreements. You must link projects before the **Work Order System Status** is *Posted*.
 
 ## Prerequisites
 
-- [Project requirements](project-operations-integration-manage-projects.md#project-requirements) are met.
+- [Project requirements](project-operations-integration-projects.md#project-requirements) are met.
 - You have a [Field Service dispatcher or administrator role](security-permissions.md#field-service-security-roles).
 
 ## Directly link a project to a work order
+
+You can link a work order to a project.
 
 1. Open an existing work order or [create a work order](create-work-order.md) in Field Service.
 
@@ -42,7 +44,13 @@ Agreements generate recurring work orders. When you link an agreement to a proje
 
 ## Change or remove a project from a work order or agreement
 
-You can change or remove a project as long as the work order isn't posted. You might want to change or remove a project if you selected the wrong project.
+If the work order isn't posted and doesn't have a project task associated with it, you can:
+
+- Change the project on the work order.
+- Remove the project from the work order.
+- Select a project task if you are the user assigned to the task within the project plan.
+
+If a work order has a project and project task, the fields are locked to prevent unintended changes. This design helps maintain consistent financial tracking, task alignment, and execution history across Field Service and Project Operations. Project task management is handled within Project Operations.
 
 ### Change the project on a work order
 
