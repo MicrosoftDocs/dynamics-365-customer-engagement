@@ -2,7 +2,7 @@
 title: Manage projects in Field Service
 ms.reviewer: wesmith
 description: Learn how to manage projects in Dynamics 365 Field Service with the Dynamics 365 Project Operations integration.
-ms.date: 01/29/2026
+ms.date: 07/07/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -10,13 +10,7 @@ ms.author: vhorvath
 
 # Manage projects in Field Service
 
-Field Service provides minimal project-related forms that allow frontline and operational users to set up the basic project structure required for work orders to transact against a project. These lightweight capabilities aren't intended to replace full project planning or execution tools in Project Operations. Instead, they ensure that Field Service teams can continue their workflow without switching applications to create foundational project records.
-
-By using these forms, Field Service users can create the essential project artifacts, project contracts, contract lines, and projects that establish the financial framework needed for material usage, labor (services), and actuals to flow into Project Operations or Finance. When the required project structure exists, you can link work orders or agreements so that all operational activity routes to the correct financial records.
-
-Project management scheduling, task breakdown, or resource planning isn't required (or available) in Field Service. Use Project Operations to use those capabilities.
-
-This article provides the steps needed to create an eligible project in Field Service.
+This article provides the steps needed to create an eligible project in Field Service. For more information about projects and project contracts, see [Projects, project contracts, and project tasks](project-operations-integration-projects.md).
 
 ## Prerequisites
 
@@ -24,20 +18,9 @@ This article provides the steps needed to create an eligible project in Field Se
 - You have a [Field Service administrator role](security-permissions.md#field-service-security-roles).
 - You understand your organization’s [Project Operations deployment model](project-operations-integration-inventory.md#deployment-models-and-inventory-ownership).
 
-## Project requirements
-
-To link a work order or agreement to a project, an eligible project must exist. Field Service forms enable you to create the minimal but required project structure. These requirements ensure financial consistency and allow Field Service transactions—such as material usage and labor services—to flow properly into Project Operations or Finance.
-
-- A project contract where the order type is work-based.
-- A project-based contract line with a defined **Billing method** (time and materials or fixed price) and  **Includes materials** set to *Yes*.
-- A project associated with the contract and contract line.
-- The billing account and currency match those on the work order.
-- The contract line includes materials.
-- The actual finish date is blank or set in the future.
-
-To manage internal projects in Field Service, create a customer account and create a contract for that customer. Make sure the contract line is fixed price.
-
 ## Create a project
+
+When you create the project, project contract, and contract lines, ensure that the project meets the requirements for linking work orders or agreements. For more information, see [Project requirements](project-operations-integration-projects.md#project-requirements).
 
 1. In Field Service, select the **Projects** area.
 
@@ -50,6 +33,8 @@ To manage internal projects in Field Service, create a customer account and crea
 1. Select **Save & Close**.
 
 ## Create a project contract and contract lines
+
+When you create project contract lines, understand which [fields impact Field Service](project-operations-integration-projects.md#project-contract-line-fields-that-affect-field-service-transactions).
 
 1. In Field Service, select the **Sales** area.
 

@@ -1,7 +1,7 @@
 ---
 title: Set up Field Service integration with Project Operations
 description: Learn how to set up the integration between Field Service and Project Operations.
-ms.date: 02/18/2026
+ms.date: 06/23/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -12,6 +12,8 @@ ms.author: vhorvath
 Set up the integration between Field Service and Project Operations to connect service delivery with project management.
 
 To download and install the Dynamics 365 Field Service and Project Operations integration package, the installing user must have at least one Project Operations license. For additional licensing information, go to the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+
+The Field Service and Project Operations Integration package includes a flow that runs regularly under the user who installs the package. Review the [Types of Power Automate licenses](/power-platform/admin/power-automate-licensing/types) and confirm that the installing user and recurring flow usage are licensed appropriately for your environment. Learn more in [Power Automate licensing FAQ](/power-platform/admin/power-automate-licensing/faqs).
 
 ## Prerequisites
 
@@ -34,7 +36,7 @@ If you want to integrate with Dynamics 365 finance and operations, [enable the M
 
 ## Install the integration package
 
-Download and install the Field Service and Project Operations data package and then enable it.
+Download and install the Field Service and Project Operations data package, and then enable it.
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
@@ -57,7 +59,7 @@ Download and install the Field Service and Project Operations data package and t
 
 ## Set pricing and cost control
 
-Determine if your organization wants Field Service or Project Operations to define pricing and cost control. The default configuration is Field Service, which is automatically set and doesn't need to be changed.
+Decide if your organization wants Field Service or Project Operations to define pricing and cost control. The default configuration is Field Service, which is automatically set and doesn't need to be changed.
 
 - **Calculate Price in Field Service** = Yes (default) so that the price comes from the **Price List** associated with the work order products and services.
 
@@ -65,7 +67,7 @@ Determine if your organization wants Field Service or Project Operations to defi
 
 :::image type="content" source="media/project-operations-integration-price-settings.png" alt-text="Screenshot of Field Service Settings screen, Work Order, and Bookings tab.":::
 
-If you want Project Operations to define pricing and costing logic instead of Field Service, do the following:
+If you want Project Operations to define pricing and costing logic instead of Field Service, complete the following steps:
 
 1. In the Field Service Settings area, select the **Work Order / Booking** tab.
 
