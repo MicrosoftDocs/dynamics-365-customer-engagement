@@ -1,7 +1,7 @@
 ---
 title: Set up product families | MicrosoftDocs
 description: Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products
-ms.date: 08/20/2025
+ms.date: 07/20/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -64,6 +64,21 @@ With product families, you can:
 7. In the list of products, families, and bundles, open the family that you created.
 
 8. On the **Product Properties** tab, select the **Add New Property** button, and add the required properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](use-properties-describe-product.md)
+
+## Add products and bundles to a product family
+
+After creating a product family, add products and bundles to it. You can also create child product families under the parent family.
+
+1. Select the site map :::image type="icon" source="media/site-map-icon.png" border="false":::, and then select **App Settings**.
+
+1. Under **Product catalog**, select **Families and Products**.
+1. Select a product or bundle that you want to add to a product family.
+1. In the **Parent** field, select the product family that you want to add the product or bundle to.
+   If the product or bundle is already published, select **Revise** from the command bar and then select the product family.
+1. Publish the product or bundle by selecting **Publish** from the command bar.
+
+> [!NOTE]
+> If you run into problems while selecting a parent, review the parenting considerations in [Change or remove the parent of a product](change-product-parent.md#reparenting-considerations).
 
 ## Typical next steps
 
