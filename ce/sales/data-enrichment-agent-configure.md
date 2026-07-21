@@ -41,25 +41,26 @@ Ensure that you meet the following prerequisites:
 
 ## Verify prerequisites
 
-1. In the prerequisites dialog, configure the following prerequisites:
-   > [!NOTE]
-   > Sales Opportunity Agent and Data Enrichment use the same Microsoft 365 Services and Dataverse Search configuration. If you already [configured these prerequisites for Sales Opportunity Agent](configure-requirements-for-sales-close-agent-research.md), they're marked as done for Data Enrichment too. 
+In the prerequisites dialog, configure the following prerequisites:
+> [!NOTE]
+> Sales Opportunity Agent and Data Enrichment use the same Microsoft 365 Services and Dataverse Search configuration. If you already [configured these prerequisites for Sales Opportunity Agent](configure-requirements-for-sales-close-agent-research.md), they're marked as done for Data Enrichment too. 
+
 <a name="prerequisites-dataverse"></a>   
-   - **Dataverse Search**: Data Enrichment uses Dataverse Search to find and enrich records in Dynamics 365 Sales. If you didn't set up Dataverse Search, select **Set up** to open the **Features** page in Power Platform admin center. Learn more about [configuring Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization). After setting up Dataverse Search, return to the agent configuration page and select **Refresh** to update the status of this prerequisite. 
- <a name="prerequisites-m365"></a> 
-   - **Microsoft 365 Services**: To allow the agent to read seller emails and Teams meeting data, and fetch relevant data for enrichment, select **Mark as done** and then **Apply changes**. Points to note:
-       - Teams meeting data includes meeting transcripts and AI summaries. 
-       - Sellers are prompted to provide consent the first time they access the **Opportunity** page. 
-       - The agent reads emails and meeting data in place without storing them in CRM.
-   
-     To configure and use Microsoft 365 Services, you need:
-     - At least one of the following roles: Global administrator, Dynamics 365 administrator, or similar.
-     - At least one of the following licenses: Microsoft 365/Office 365, Power Automate Premium, or Dynamics 365 Sales Enterprise Edition.
- <a name="prerequisites-teams-meeting"></a> 
-   - **Microsoft Teams meetings**: To allow the agent to read Teams meeting data and fetch relevant data for enrichment, select **Connect**. Points to note:
-       - You must be a tenant administrator to connect Teams meetings. 
-       - Teams meeting data includes meeting transcripts, attendee list, and AI summaries. 
-       - The agent reads meeting data in place without storing them in CRM.
+- **Dataverse Search**: Data Enrichment uses Dataverse Search to find and enrich records in Dynamics 365 Sales. If you didn't set up Dataverse Search, select **Set up** to open the **Features** page in Power Platform admin center. Learn more about [configuring Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization). After setting up Dataverse Search, return to the agent configuration page and select **Refresh** to update the status of this prerequisite. 
+<a name="prerequisites-m365"></a> 
+- **Microsoft 365 Services**: To allow the agent to read seller emails and fetch relevant data for enrichment, select **Mark as done** and then **Apply changes**. Points to note:
+   - Teams meeting data includes meeting transcripts and AI summaries. 
+   - Sellers are prompted to provide consent the first time they access the **Opportunity** page. 
+   - The agent reads emails and meeting data in place without storing them in CRM.
+
+   To configure and use Microsoft 365 Services, you need:
+   - At least one of the following roles: Global administrator, Dynamics 365 administrator, or similar.
+   - At least one of the following licenses: Microsoft 365 or Office 365, Power Automate Premium, or Dynamics 365 Sales Enterprise Edition.
+<a name="prerequisites-teams-meeting"></a> 
+- **Microsoft Teams meetings**: To allow the agent to read Teams meeting data and fetch relevant data for enrichment, select **Connect**. Points to note:
+   - You must be a tenant administrator to connect Teams meetings. 
+   - Teams meeting data includes meeting transcripts, attendee list, and AI summaries. 
+   - The agent reads meeting data in place without storing them in CRM.
 
 ## Create the agent
 
