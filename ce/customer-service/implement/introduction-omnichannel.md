@@ -15,7 +15,7 @@ ms.custom: bap-template
 > - If you’d like to try Dynamics 365 Customer Service for free, you can sign up for a [30-day trial](https://dynamics.microsoft.com/customer-service/customer-service/free-trial/).
 > - Explore [Copilot](../use/use-copilot-features.md), a feature that significantly enhances agent productivity in Customer Service.
 
-Dynamics 365 Contact Center is a robust application that extends the power of Dynamics 365 Customer Service to enable organizations to instantly connect and engage with their customers via channels like Live Chat, voice, and SMS.
+Dynamics 365 Contact Center is a robust application that extends the power of Dynamics 365 Customer Service. It enables organizations to instantly connect and engage with their customers through channels like Live Chat, voice, and SMS. Dynamics 365 Contact Center supports real-time collaboration through in-session consults, so representatives can bring the right expertise into a conversation without handing off to the customer. This approach improves resolution speed and context continuity.
 
 Dynamics 365 Contact Center also provides a modern, customizable, high-productivity app that allows agents to engage with customers across different channels. The application offers contextual customer identification, real-time notification, integrated communication, and agent productivity tools like knowledge base integration, search, and case creation to ensure agents are effective.
 
@@ -46,11 +46,11 @@ SMS is an engagement channel that supports asynchronous mode of communication, a
 
 ### Voice
 
-With the voice channel, Dynamics 365 Contact Center provides agents with the ability to receive and make public switched telephone network (PSTN) calls through a native calling experience in Dynamics 365, with real-time AI-powered features such as live call transcription, sentiment analysis, and AI-based suggestions to boost agent productivity. Learn more in [Introduction to the voice channel](../administer/voice-channel.md).
+With the voice channel, Dynamics 365 Contact Center provides agents with the ability to receive and make public switched telephone network (PSTN) calls through a native calling experience in Dynamics 365. It includes real-time AI-powered features such as live call transcription, sentiment analysis, and AI-based suggestions to boost agent productivity. During an active voice call, representatives can start a consult with internal users, specialist queues, or external PSTN numbers, preserving conversation context and avoiding a full transfer. Learn more in [Introduction to the voice channel](../administer/voice-channel.md).
 
 ### Microsoft Teams
 
-Using Microsoft Teams as an engagement channel for support of internal functions&mdash;such as technical support, human resources, and finance&mdash;allows organizations to connect their employees with internal support personnel by using the Omnichannel Add-in for Dynamics 365 Customer Service. Learn more in [Configure Microsoft Teams](../administer/configure-microsoft-teams.md).
+By using Microsoft Teams as an engagement channel for support of internal functions&mdash;such as technical support, human resources, and finance&mdash;it allows organizations to connect their employees with internal support personnel. Representatives can consult with Microsoft Teams users directly from ongoing conversations for quick expert input. Filtered consult lists can restrict which queues and users are visible based on organizational roles and policies. Consults with specialist queues leverage skills- and availability-based routing, the same unified routing covered across other channels. Learn more in [Configure Microsoft Teams](../administer/configure-microsoft-teams.md).
 
 ### Social channels
 
