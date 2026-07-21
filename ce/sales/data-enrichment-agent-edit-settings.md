@@ -4,7 +4,7 @@ description: Discover how to update agent settings, define access, and set enric
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 07/20/2026
+ms.date: 07/21/2026
 ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -21,6 +21,13 @@ After you [create the AI-powered Data Enrichment agent](data-enrichment-agent-co
 1. From the Sales Hub app, navigate to **App Settings**.
 1. Under **General Settings**, select **Dynamics 365 AI Hub** and then select **Create and manage agents**.
 1. In the **AI Agents** page, select **Data Enrichment** with type **Conversation Enrichment**. 
+   The settings page opens, displaying the current configuration of the Data Enrichment agent.
+   :::image type="content" source="media/data-enrichment-prerequisites.png" alt-text="Screenshot of the Data Enrichment prerequisites page showing the status of required prerequisites.":::
+
+## Verify prerequisites
+
+1. In the **Prerequisites** section, ensure that all prerequisites are connected. If you see new prerequisites since your last configuration, connect them to ensure the agent functions correctly. For more information about the prerequisites, see [Set up and configure AI-powered Data Enrichment](data-enrichment-agent-configure.md#prerequisites).
+1. Select **Save** to save any updates to the prerequisites.
 
 ## Define the agent profile
 
@@ -66,7 +73,7 @@ Select the toggle next to the skill name to enable or disable it based on your p
 <a name="start-agent"></a>
 ## Start or stop the agent
 
-After configuring the settings, select **Apply changes** and then **Start agent** to activate Data Enrichment with your specified configuration. You can stop the agent at any time by selecting **Stop agent** on the settings page. When the agent is stopped, it won't analyze records or generate suggestions.
+After configuring the settings, select **Save** and then **Start agent** to activate Data Enrichment with your specified configuration. You can stop the agent at any time by selecting **Stop agent** on the settings page. When the agent is stopped, it doesn't analyze records or generate suggestions.
 
 The agent doesn't analyze any opportunity records, emails, or meeting data until sellers [provide consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to read their emails and access their Teams meeting data. The consent is specific to each seller. 
 
