@@ -15,13 +15,14 @@ ms.collection: bap-ai-copilot
 
 As an admin, you can configure AI-powered Data Enrichment to work on specific opportunity records and set preferences for how updates are applied.
 
-## Prerequisites
+## Before you begin
 
 Ensure that you meet the following prerequisites:
 
 - You marked the prerequisites common to all Sales agents as **Done**. For more information, see [Prerequisites for all Sales agents](prerequisites-for-all-agents.md).
 - You have the appropriate Dynamics 365 Sales license. Check out the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544) to know more about licensing requirements.
 - You have admin privileges in Dynamics 365 Sales.
+- You have the tenant administrator role in Microsoft 365 to connect Teams meetings.
 - If you have custom fields that you want the agent to enrich, ensure that these fields have a meaningful name and description to help the agent understand their purpose and provide accurate suggestions.
 
 <a name="set-up-data-enrichment"></a>
@@ -35,10 +36,14 @@ Ensure that you meet the following prerequisites:
 1. Select **Data Enrichment** from the list of available AI agents.
    A dialog opens with a quick tour of the Data Enrichment feature and the option to create the agent.
 1. Select **Next** to get a quick tour of the feature or select **Skip** to get started with the agent configuration.
+
 <a name="prerequisites"></a>
-1. In the **Set up required prerequisites** dialog, configure the following prerequisites:
+
+## Verify prerequisites
+
+1. In the prerequisites dialog, configure the following prerequisites:
    > [!NOTE]
-   > Sales Opportunity Agent and Data Enrichment use the same Microsoft 365 Services and Dataverse Search configuration. If you have already [configured these prerequisites for Sales Opportunity Agent](configure-requirements-for-sales-close-agent-research.md), they will be marked as done for Data Enrichment too. 
+   > Sales Opportunity Agent and Data Enrichment use the same Microsoft 365 Services and Dataverse Search configuration. If you already [configured these prerequisites for Sales Opportunity Agent](configure-requirements-for-sales-close-agent-research.md), they're marked as done for Data Enrichment too. 
 <a name="prerequisites-dataverse"></a>   
    - **Dataverse Search**: Data Enrichment uses Dataverse Search to find and enrich records in Dynamics 365 Sales. If you didn't set up Dataverse Search, select **Set up** to open the **Features** page in Power Platform admin center. Learn more about [configuring Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization). After setting up Dataverse Search, return to the agent configuration page and select **Refresh** to update the status of this prerequisite. 
  <a name="prerequisites-m365"></a> 
@@ -50,6 +55,13 @@ Ensure that you meet the following prerequisites:
      To configure and use Microsoft 365 Services, you need:
      - At least one of the following roles: Global administrator, Dynamics 365 administrator, or similar.
      - At least one of the following licenses: Microsoft 365/Office 365, Power Automate Premium, or Dynamics 365 Sales Enterprise Edition.
+ <a name="prerequisites-teams-meeting"></a> 
+   - **Microsoft Teams meetings**: To allow the agent to read Teams meeting data and fetch relevant data for enrichment, select **Connect**. Points to note:
+       - You must be a tenant administrator to connect Teams meetings. 
+       - Teams meeting data includes meeting transcripts, attendee list, and AI summaries. 
+       - The agent reads meeting data in place without storing them in CRM.
+
+## Create the agent
 
 1. Select **Create agent**.
    The Start your Data Enrichment with recommended defaults dialog opens with recommended default settings:    
@@ -92,4 +104,5 @@ When you have configured the Data Enrichment Agent in one environment, you can e
 
 ## Related information
 
-[Review and approve Data Enrichment suggestions](use-data-enrichment-agent.md)
+[Review and approve Data Enrichment suggestions](use-data-enrichment-agent.md)  
+[Edit AI-powered Data Enrichment settings](data-enrichment-agent-edit-settings.md)

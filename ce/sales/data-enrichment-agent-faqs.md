@@ -1,7 +1,7 @@
 ---
 title: FAQs about AI-powered Data Enrichment for opportunities
 description: Explore frequently asked questions about AI-powered Data Enrichment in Dynamics 365 Sales and how it transforms your CRM data into valuable insights.
-ms.date: 07/20/2026
+ms.date: 07/21/2026
 ms.update-cycle: 180-days
 ms.topic: faq
 ms.service: dynamics-365-sales
@@ -30,6 +30,10 @@ AI-powered Data Enrichment uses data from the following sources:
 AI-powered Data Enrichment only accesses fields and entities that have been approved by administrators through configuration settings. Data access is constrained by user roles and permissions configured in Dynamics 365. The feature does not have access to all data in your environment by default.
 
 The quality and completeness of enrichment suggestions depend directly on the quality, completeness, and currency of the source data available, including the comprehensiveness of conversation history.
+
+## What happens if I don't connect Microsoft Teams meetings?
+
+If you're configuring the agent after the 7.3 release, you must connect Microsoft Teams meetings to Data Enrichment. If you already configured the agent, you can continue using the feature without connecting Teams meetings. However, if you update the agent settings, you must connect Teams meetings to continue using the feature. Otherwise, the agent won't start. For more information about prerequisites, see [Set up and configure AI-powered Data Enrichment](data-enrichment-agent-configure.md#prerequisites).
 
 ## What data is sent outside the organization?
 
