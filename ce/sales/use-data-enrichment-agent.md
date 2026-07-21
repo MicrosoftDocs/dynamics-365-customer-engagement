@@ -48,6 +48,7 @@ For data enrichment suggestions to appear based on your emails, the following co
 
 For data enrichment suggestions to appear based on Teams meetings, the following conditions must be met:
 
+1. Your admin must [connect Microsoft Teams meetings to the Data Enrichment agent](data-enrichment-agent-configure.md#verify-prerequisites). If you don't see suggestions based on Teams meetings, check with your admin.
 1. The meeting must have a transcript or an AI-generated summary available. AI-generated meeting summaries are available only when the seller has an appropriate license to access Microsoft 365 Copilot. If the AI-generated summary isn't available, the agent uses the meeting transcript.
 1. The meeting must have at least one external attendee who is a contact associated with the opportunity (for example, as the primary contact, a stakeholder, or the primary contact of the parent account).
 1. Meeting insight generation runs as a background process, so enrichment suggestions from meetings might take some time to appear.
