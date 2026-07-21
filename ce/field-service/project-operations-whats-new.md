@@ -2,7 +2,7 @@
 title: What's new in the Field Service integration with Project Operations
 ms.reviewer: v-wendysmith
 description: Learn what's new in the Dynamics 365 Field Service and Dynamics 365 Project Operations integration.
-ms.date: 07/10/2026
+ms.date: 07/20/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -12,7 +12,7 @@ ms.author: vhorvath
 
 This article summarizes feature updates, bug fixes, and other improvements.
 
-## July 31, 2026
+## July 20, 2026
 
 The Dynamics 365 Field Service and Project Operations Integration package contains the following updates.
 
