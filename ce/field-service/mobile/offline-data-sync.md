@@ -1,7 +1,7 @@
 ---
 title: Configure offline data synchronization
 description: Learn how offline data is synchronized to the server in the Dynamics 365 Field Service mobile app.
-ms.date: 12/08/2025
+ms.date: 07/22/2026
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -115,6 +115,21 @@ The app resolves conflicts based on what the admin selects for the **Set conflic
 Administrators can view past sync errors by going to **Settings** > **Sync Errors**.
 
 [Learn more about working offline](/power-apps/mobile/work-offline-mode-classic).
+
+## Troubleshoot offline sync
+
+If offline sync doesn't finish, data is missing, or the app returns a sync error, start with the [**Device Status** page](/power-apps/mobile/offline-sync-icon#device-status-page) to see the last sync details and any error message. To force a manual sync, select the offline sync icon and then **Sync now**.
+
+The following articles cover the most common offline sync problems, their causes, and step-by-step resolutions:
+
+| Symptom | Where to look |
+|---|---|
+| Sync doesn't finish, or the booking screen or agenda is blank after sign-in | [Troubleshoot common issues in the Field Service mobile app](/troubleshoot/dynamics-365/field-service/mobile-app/mobile-app-common-issues) |
+| Sync fails with "The view has related entities that aren't available offline" | [Troubleshoot common issues in the Field Service mobile app](/troubleshoot/dynamics-365/field-service/mobile-app/mobile-app-common-issues) |
+| Records are missing or incorrect in offline mode | [Incorrect or missing data in offline mode](/troubleshoot/dynamics-365/field-service/mobile-app/incorrect-missing-data-offline-mode) |
+| A specific sync error message (download failures, table timeouts, ISV or plug-in errors) | [Troubleshoot offline sync errors in the Power Apps mobile app](/troubleshoot/power-platform/power-apps/mobile-apps/mobile-offline-troubleshooting) |
+
+Learn more about how to reduce timeouts and large syncs in [Best practices and limitations for the offline profile](best-practices-limitations-offline-profile.md).
 
 ## Analyze telemetry for offline synchronization
 
