@@ -1,9 +1,10 @@
 ---
-title: Build a service history for assets
+title: Build a service history for assets in Field Service
 description: Learn how to build a service history for customer assets from work orders and service agreements in Dynamics 365 Field Service.
-ms.date: 07/21/2025
+ms.date: 07/20/2026
 author: jshotts
 ms.author: jasonshotts
+ms.reviewer: v-wesmith
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -19,7 +20,9 @@ You can build a service history from work order incidents and service agreement 
 One way to build a service history is to associate the customer asset in [work order incidents](configure-incident-types.md). For example, if the primary incident type is an inspection of a specific asset, associate the asset with that incident type.
 
 1. Open a work order that's related to the customer asset.
+
 1. Select the incident type and the primary asset.
+
 1. Select **Save**.
 
     :::image type="content" source="media/customer-asset-primary-incident.svg" alt-text="Screenshot of a work order, with the Incident type and Primary asset fields highlighted.":::
@@ -36,6 +39,6 @@ You can note customer assets in [service agreement incidents](set-up-customer-ag
 
 :::image type="content" source="media/customer-asset-agreement-incident.svg" alt-text="Screenshot of an agreement booking incident, with the Incident Type and Customer Asset fields highlighted.":::
 
-In addition, you can add multiple incidents to a service agreement, just as you can add them to a work order. When work orders are generated, they include the agreement incidents together with their associated customer assets.
+In addition, you can add multiple incidents to a service agreement, just as you can add them to a work order. When you generate work orders, they include the agreement incidents together with their associated customer assets.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

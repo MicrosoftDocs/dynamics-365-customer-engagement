@@ -1,16 +1,19 @@
 ---
 title: Disable customer asset validation on work orders
-description: Learn how to allow customer assets on work orders that aren't related to the service account in Dynamics 365 Field Service.
-ms.date: 07/21/2025
+description: Disable customer asset validation in Dynamics 365 Field Service to include assets from other accounts on work orders.
+ms.date: 07/20/2026
 author: jshotts
 ms.author: jasonshotts
+ms.reviewer: v-wendysmith
 ms.topic: how-to
 ms.custom: bap-template
 ---
 
 # Disable customer asset validation on work orders
 
-Usually, work orders can include only [customer assets](assets.md) related to the service account. However, you can disable customer asset validation to let work orders include assets related to other accounts. For example, in a rent or lease scenario, a service provider might own an asset, but work orders refer to the customer who uses that asset.
+Usually, work orders can include only [customer assets](assets.md) related to the service account. However, you can disable customer asset validation so users can add assets from any account to a work order.
+
+This configuration is useful for scenarios where the asset owner and the service account are different. For example, in a rent or lease scenario, a service provider might own an asset, but work orders refer to the customer who uses that asset.
 
 1. In Dynamics 365 Field Service, select the **Settings** area.
 1. Under **General**, select **Field Service Settings**.
