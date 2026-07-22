@@ -1,20 +1,21 @@
 ---
 title: Set up frontline workers in your organization
-description: Learn how to set up frontline workers through the Dynamics 365 Field Service get started page.
+description: Set up frontline workers with a single form on the Field Service Get started page. Learn how to assign skills, territories, and security roles in minutes.
 ms.author: jacoh
+ms.reviewer: v-wesmith
 author: jasonccohen
-ms.date: 07/28/2025
+ms.date: 07/20/2026
 ms.topic: how-to
 ms.custom: bap-template
 ---
 
 # Set up frontline workers in your organization
 
-Frontline workers in Dynamics 365 Field Service are people in your organization who are primarily scheduled for onsite jobs and who use the Dynamics 365 Field Service mobile app for their work. Set up frontline workers to ensure they can immediately engage on work orders. Technically, frontline workers are a *bookable resource* record in Field Service.
+Set up frontline workers on the **Get started** page in Dynamics 365 Field Service. Frontline workers are people in your organization who are primarily scheduled for onsite jobs and who use the Dynamics 365 Field Service mobile app for their work.
+
+In one form, you can create users as bookable resources and assign skills, territories, time zones, security roles, field security profiles, and mobile offline profiles. You can also send newly created workers an email with a link to download the mobile app.
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=78a4ad09-8320-4895-a69f-100cbf46ac14]
-
-On the [**Get started** page](field-service-get-started.md), admins can use a single form to set up frontline workers in their organizations to quickly get up and running.
 
 > [!TIP]
 > If you have a trial version, set up your frontline workers and your other bookable resources using the steps in [Set up bookable resources](set-up-bookable-resources.md).
@@ -30,7 +31,7 @@ On the [**Get started** page](field-service-get-started.md), admins can use a si
 
 1. In the **Set up your users** section, select **Set Up**.
 
-1. In the **Quick Set Up: Frontline Workers** form fill in the following details:
+1. In the **Quick Set Up: Frontline Workers** form, enter the following details:
 
    - **Users**: Choose users to create as frontline workers. When you choose more than one user, they all get the same properties assigned as defined in the following sections.
    - **Characteristics**: Choose [skills and qualifications](set-up-characteristics.md) for your frontline workers.
@@ -50,11 +51,12 @@ Frontline workers are stored in the *bookable resource* table. You can view and 
 
 1. In Field Service, change to the **Resources** area and go to **Resource** > **Resources**.
 
-1. View or update the resource properties as needed. For more information, see [Set up bookable resources](set-up-bookable-resources.md).
+1. View or update the resource properties as needed. Learn more in [Set up bookable resources](set-up-bookable-resources.md).
 
 ## Next steps
 
-- [Create a work order](create-work-order.md)
+- [Get started with Field Service](field-service-get-started.md)
 - [Download the mobile app and get started](mobile/download-mobile-app.md)
+- [Create a work order](create-work-order.md)
 
 [!INCLUDE [footer-banner](../includes/footer-banner.md)]

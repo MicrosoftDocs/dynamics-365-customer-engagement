@@ -1,13 +1,14 @@
 ---
 title: Use 3D models with customer assets
-description: Learn how to use 3D models in Dynamics 365 Field Service.
-ms.date: 07/21/2025
+description: 3D models in Dynamics 365 Field Service provide visual guides to technicians. Learn how to upload, configure, and associate 3D models with customer assets.
+ms.date: 07/20/2026
 ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: JonBaker007
 ms.author: jobaker
+ms.reviewer: v-wendysmith
 ---
 
 # Use 3D models with customer assets

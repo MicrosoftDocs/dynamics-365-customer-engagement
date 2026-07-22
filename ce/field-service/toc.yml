@@ -131,7 +131,7 @@ items:
           href: supervise-agents-with-agent-feed.md
         - name: Use Copilot's form fill assistance 
           href: form-fill-assistance.md
-        - name: Find data with AI (preview)
+        - name: Find data with AI
           href: find-data-with-ai.md
         - name: Visualize data with Copilot (preview)
           href: visualize-data-in-copilot.md

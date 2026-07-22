@@ -1,16 +1,17 @@
 ---
-title: Create tax codes
-description: Learn how to set up tax codes in Dynamics 365 Field Service.
-ms.date: 07/28/2025
+title: Create tax codes in Field Service
+description: Create tax codes in Dynamics 365 Field Service to calculate tax on products, agreements, and services. Learn how to enable tax calculation and set up tax groups.
+ms.date: 07/20/2026
 ms.topic: how-to
 ms.author: jacoh
+ms.reviewer: v-wesmith
 author: jasonccohen
 ms.custom: bap-template
 ---
 
 # Create tax codes
 
-If your organization must calculate tax and want to use the Field Service tax logic, an administrator must enable tax calculations. Then, set up tax codes and specify how much tax to apply to your products, agreements, and services.
+If your organization needs to calculate tax and wants to use the Field Service tax logic, an administrator must enable tax calculations. Then, set up tax codes and specify how much tax to apply to your products, agreements, and services.
 
 Calculating tax is off by default in Field Service and the tax-related fields are hidden. For many field service organizations, tax calculation isn't an important factor for the following reasons:
 
@@ -19,13 +20,13 @@ Calculating tax is off by default in Field Service and the tax-related fields ar
 
 ## Enable tax calculation
 
-1. In Field Service, select the **Settings** area and then select **Field Service Settings**.
+1. In Field Service, select the **Settings** area, and then select **Field Service Settings**.
 
-1. Select the **Work Order / Booking** tab and set the **Calculate Tax** field to **Yes**.
+1. Select the **Work Order / Booking** tab, and set the **Calculate Tax** field to **Yes**.
 
 1. Select **Save & Close**.
 
-When calculating tax is enabled, the following tables and fields are shown, and the logic is enabled.
+When you enable tax calculation, the following tables and fields appear, and the logic is enabled.
 
 | Table | Affected fields |
 |---|---|
@@ -49,7 +50,7 @@ If an area has more than one type of tax (such as state tax and county tax), use
 
 1. In Field Service, select the **Settings** area.
 
-1. Under **General**, select **Tax Codes**, then choose **New**.
+1. Under **General**, select **Tax Codes**, and then choose **New**.
 
 1. If this tax code is part of a tax group, go to the [Set up a tax group](#set-up-a-tax-group) section. Otherwise, move on to the next step.
 

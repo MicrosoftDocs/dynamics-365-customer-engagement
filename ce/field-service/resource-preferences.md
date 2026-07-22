@@ -26,12 +26,18 @@ Add preferred resources to a requirement to apply restrictions on resource match
     - *Restricted*: The [schedule assistant](schedule-assistant.md) filters out any resources that are marked as restricted. The filter can be removed by using the filter pane.
     - *Must choose from*: The [schedule assistant](schedule-assistant.md) filters results so that they include only these resources. If none of the resources are available, the schedule assistant doesn't return any results. The filter can be removed by using the filter pane.
 
-1. To add another resource, select the dropdown arrow to the right of the **Save and Close** button, and then select **Save & Create New**.
+1. To add another resource, select **New Requirement Resource Preference**.
 
 1. Select **Save & Close**.
 
+## Review resource preferences when scheduling
+
+On the schedule board, select the requirement and **Find Availability**. The resource preferences appear based on the preference type you selected.
+
+:::image type="content" source="media/resource-preferences/resource-preferences.png" alt-text="Screenshot of schedule assistant showing resource preferences.":::
+
 ## Use preferred resources with Resource Scheduling Optimization
 
-If you want [Resource Scheduling Optimization](./rso-overview.md) to consider preferred resources, add the *Maximize Preferred Resources* objective to the optimization goal. Resource Scheduling Optimization then tries to match *Preferred* resources, it always selects *Must choose from* resources, and it never selects *Restricted* resources.
+To have [Resource Scheduling Optimization](./rso-overview.md) consider preferred resources, add the *Maximize Preferred Resources* objective to the optimization goal. Resource Scheduling Optimization then tries to match *Preferred* resources, it always selects *Must choose from* resources, and it never selects *Restricted* resources.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
