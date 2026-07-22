@@ -1,7 +1,7 @@
 ---
 title: Configure SMS provider to send and receive text messages
 description: This article explains how to set up the SMS service provider with phone numbers in Dynamics 365 Sales.
-ms.date: 11/15/2024
+ms.date: 02/27/2026
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -38,13 +38,13 @@ Currently, the following providers are supported:
     > [!NOTE]
     > You can purchase or reuse an existing SMS account to send text messages. **The integration works for all countries** in which a phone number can be purchased through Azure Communication Services, Infobip, LINK Mobility, Telesign, Twilio, or Vibes.
 
-2. [Set up the SMS provider in Dynamics 365 Sales](#set-up-the-sms-provider-in-dynamics-365-sales). 
+1. [Set up the SMS provider in Dynamics 365 Sales](#set-up-the-sms-provider-in-dynamics-365-sales). 
 
 ### Sign up for and configure Azure Communication Services subscription 
 
 Azure Communication Services (ACS) integration uses its API to send and receive text messages. You need to sign up for an Azure Communication Services account to enable the SMS integration. To create an Azure Communication Services account:dl
 
-1. Go to [Azure](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) and sign up for a "Pay as you go" account.
+1. Go to [Azure](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn) and sign up for a "Pay as you go" account.
 1. [Create a Communication Services resource](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp) and get a [toll-free number](/azure/communication-services/quickstarts/telephony/get-phone-number?tabs=windows&pivots=platform-azcli), a [short code](/azure/communication-services/quickstarts/sms/apply-for-short-code), or an [Alphanumeric Sender ID](/azure/communication-services/quickstarts/sms/enable-alphanumeric-sender-id).
 1. Go to your [Azure account homepage](https://ms.portal.azure.com/#home) and navigate to your resource through **Subscriptions** > **Resource groups** > **Resource name**.
 1. Go to **Keys** under **Settings** and note down the Primary and Secondary Connection String values. These values are required to create the integration between Dynamics 365 Sales and Azure Communication Services.

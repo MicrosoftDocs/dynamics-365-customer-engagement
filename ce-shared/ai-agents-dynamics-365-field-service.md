@@ -1,0 +1,3 @@
+| AI Agent | Description | Learn more |
+|-------|-------------|------------|
+| **Scheduling Operations Agent** | Enables dispatchers to efficiently optimize resource schedules - interactively through the schedule board or in asynchronous batches. Create custom optimization goals and weight objectives according to your organization's needs. This preview feature simplifies making changes for cancellations, delays, or availability updates, enhancing efficiency and reducing the need for manual rescheduling. | [Scheduling Operations Agent overview (preview)](/dynamics365/field-service/soa-overview) |

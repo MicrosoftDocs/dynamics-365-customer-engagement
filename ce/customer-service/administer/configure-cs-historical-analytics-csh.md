@@ -1,7 +1,7 @@
 ---
 title: Manage historical analytics reports in Customer Service
 description: Learn how to configure Customer Service historical analytics reports.
-ms.date: 09/12/2025
+ms.date: 01/23/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas

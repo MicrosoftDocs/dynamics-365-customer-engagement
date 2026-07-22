@@ -137,6 +137,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |6|**Handover Microagent**|
 |7|**DCA Outreach agent**|
 |8|**DCA Engage agent**|
+|9|**Email validation agent**|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 

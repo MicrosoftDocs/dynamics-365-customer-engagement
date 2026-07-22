@@ -4,7 +4,7 @@ description: Create multiple cases from an email sent to multiple mailboxes to i
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
 ms.date: 06/26/2025
 ms.custom:

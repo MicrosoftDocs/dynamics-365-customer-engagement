@@ -1,7 +1,7 @@
 ---
 title: Summarize work orders with Copilot in Field Service
 description: Generate a work order summary with Copilot in Dynamics 365 Field Service to quickly understand work order status and next steps.
-ms.date: 06/09/2025
+ms.date: 06/12/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jasonccohen
@@ -12,10 +12,12 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date: 10/30/2023
-ms.collection: bap-ai-copilot 
+ms.collection: bap-ai-copilot
 ---
 
 # Summarize work orders with Copilot
+
+<!--- Also update faqs-work-order-recap.md and responsible-ai-overview.md--->
 
 The work order summary with Copilot in Field Service helps you understand the state of a work order and get next steps. This AI-generated summary includes status, priority, and related activities, making it easier to manage work orders efficiently.
 
@@ -36,7 +38,7 @@ Watch this brief video to learn more about the new work order experience in Fiel
 ## Generate a summary in the web app
 
 > [!NOTE]
-> Admin must enable the work order summary feature in Field Service before you can use it. Learn more in [Enable work order summary with Copilot in Field Service](enable-work-order-recap.md).
+> An admin must enable the work order summary feature in Field Service before you can use it. Learn more in [Enable work order summary with Copilot in Field Service](enable-work-order-recap.md).
 
 Open a [work order form](work-order-experience.md) or a booking record.
 
@@ -46,9 +48,9 @@ Open a [work order form](work-order-experience.md) or a booking record.
 
 ## Send feedback
 
-Use the like/dislike buttons in the Copilot control to provide feedback and, optionally, more context about your preferences. Your feedback helps us understand if the summary is useful or not and why.
+Use the like and dislike buttons in the Copilot control to provide feedback and, optionally, more context about your preferences. Your feedback helps us understand if the summary is useful and why.
 
-## See also
+## Related information
 
 - [FAQ about work order summary with Copilot](faqs-work-order-recap.md)
 - [New work order experience](work-order-experience.md)

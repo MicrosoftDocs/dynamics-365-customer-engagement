@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
 description: Learn how to configure a Facebook channel and corresponding Facebook pages in Dynamics 365 Contact Center.
-ms.date: 03/03/2025
+ms.date: 06/05/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -15,7 +15,6 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-
 Many customers use social messaging channels like Facebook for their personal communication needs. Many also prefer using messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time. This ability contrasts with real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window closes.
 
 > [!NOTE]
@@ -25,33 +24,33 @@ Many customers use social messaging channels like Facebook for their personal co
 
 Make sure that the following prerequisites are met:
 
-- Create a Facebook page. More information: [Create and Manage a Page](https://www.facebook.com/help/135275340210354/?helpref=hc_fnav)
-- Enable Messenger. More information: [Messaging](https://www.facebook.com/help/994476827272050/?helpref=hc_fnav)
-- Create a Facebook application. More information: [App Development](https://developers.facebook.com/docs/apps/)
+- Create a Facebook page. Learn more in [Create and Manage a Page](https://www.facebook.com/help/135275340210354/?helpref=hc_fnav).
+- Enable Messenger. Learn more in [Messaging](https://www.facebook.com/help/994476827272050/?helpref=hc_fnav).
+- Create a Facebook application. Learn more in [App Development](https://developers.facebook.com/docs/apps/).
 - Sign in to the [developer site on Facebook](https://developers.facebook.com/) or create an account, and then complete the following steps:
    1. Select **My Apps**, and then select **Create app**.
    1. On the **What do you want your app to do?** page, select **Other**, and then select **Next**.
    1. On the **Select an app type** page, select **Business**, and then type your app's name and contact email address.
    1. On the **Add products to your app** page, select **Messenger**, and then select **Set up**.
    1. On the Messenger settings page, select **Add or remove Pages**, and then add the Facebook page you created. After you add the page, the Page ID and the option to generate a token appear.
-- If you're using a test environment, set up test accounts in Facebook so that customer service representatives (service representatives or representatives) can send and receive messages in contact center: Go to **App Roles** > **Roles** > **Testers (Add Testers)**.
+- If you're using a test environment, set up test accounts in Facebook. Then, customer service representatives (service representatives or representatives) can send and receive messages in the contact center: Go to **App Roles** > **Roles** > **Testers (Add Testers)**.
 - Values for application ID and application secret from the **App ID** and **App Secret** fields in the Facebook application > **Settings** > **Basic**.
 
 ## Roles and permissions
 
 The following Facebook roles and permissions are required for integrating your Facebook app with Dynamics 365 Contact Center.
 
-- Facebook users who don’t have a role in the Facebook app must have the `pages_messaging` permission to send messages to a Facebook page from contact center. The app owner must provide the `pages_messaging` permission for users to be able to send messages. More information: [pages_messaging](https://developers.facebook.com/docs/permissions/reference/pages_messaging/)
+- Facebook users who don’t have a role in the Facebook app must have the `pages_messaging` permission to send messages to a Facebook page from contact center. The app owner must provide the `pages_messaging` permission for users to be able to send messages. Learn more in [Permissions Reference for Meta Technologies APIs - pages_messaging](https://developers.facebook.com/docs/permissions#pages_messaging).
 
-- If the Facebook app that you’re using is in development mode, only those Facebook users who have roles within the app can send messages to the Facebook page. The messages can be received by or forwarded to Dynamics 365 Contact Center. More information: [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/)
+- If the Facebook app that you’re using is in development mode, only Facebook users who have roles within the app can send messages to the Facebook page. The Facebook app can receive messages from or forward messages to Dynamics 365 Contact Center. Learn more in [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/).
 
-- For Dynamics 365 Contact Center to be able to retrieve the customer’s username from Facebook, the customer must request for Business Asset User Profile Access in their Facebook app. More information: [Business Asset User Profile Access](https://developers.facebook.com/docs/features-reference/business-asset-user-profile-access)
-- 
+- For Dynamics 365 Contact Center to be able to retrieve the customer’s username from Facebook, the customer must request for Business Asset User Profile Access in their Facebook app. Learn more in [Business Asset User Profile Access](https://developers.facebook.com/docs/features-reference/business-asset-user-profile-access).
+ 
 ## Privacy notice
 
-If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Community Cloud region). Learn more in [Connect an AI agent to Facebook](/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
+By enabling this feature, you allow customer and organizational data to be exchanged with Facebook. This data might be stored and processed outside of your organization's compliance and geographic boundaries, including in Government Community Cloud environments. Learn more in [Compliance certifications for Customer Service](../implement/compliance-certifications.md) .
 
-Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with service representatives might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
+Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with service representatives might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users might be monitored, recorded, or stored.
 
 ## Configure a Facebook channel
 
@@ -63,33 +62,30 @@ To configure a Facebook channel, the following steps are required:
 
 ### Create the Facebook channel account
 
-1. In the site map of Copilot Service admin center, in **Customer support**, select **Channels**.
+1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**.
 1. In **Accounts**, for **Messaging accounts**, select **Manage**.
-
 1. On the **Accounts and channels** page, select **New account**.
-
 1. Enter the following details:
+   1. On the **Channel details** page, enter a name and select **Facebook** in **Channels**.
+   1. On the **Add account** page, in the **Application ID** and **Application secret** fields, enter the Facebook App ID and App secret.
 
-   1. On the **Channel details** page, enter a name and select Facebook in **Channels**.
+      To get these values, follow these steps:
 
-   1. On the **Add account** page, in the **Application ID** and **Application secret** fields, specify the Facebook App ID and App secret that you copied from the Facebook application.
+      1. Go to the Facebook for Developers site.
+      1. Select **My Apps**, and then select your app.
+      1. In the left navigation pane, select **Settings** > **Basic**.
+      1. Copy the values of **App ID** and **App secret**.
 
-   1. On **Add Facebook Pages to this account**, do the following steps:
-
-   1. Select **Add**, and in the **Add Facebook Page** pane, enter the following details:
-      - **Page name:** Name of the Facebook page.
-      - **Page ID:** ID of the Facebook page. To get the page ID, go to your Facebook page, select About, and copy the value in the Page ID field.
-      - **Page access token:** Specify the Page access token of the Facebook application. To get the page access token, go to your Facebook application and then go to **Messenger** > **Settings**. In the **Access Tokens** section, select the page, and copy the value in the **Page Access Token** field.
-      - On the **Callback information** page, the **Callback URL** and **Verify token** fields are populated automatically when you save the settings. Use the information to configure webhooks in the Facebook application. The values for the fields aren't generated if the Facebook page is reused across multiple instances of the channel.
+   1. On the **Add Facebook Pages to this account** page, select **Add**, and then in the **Add Facebook Page** pane, enter the following details:
+         - **Page name:** Name of the Facebook page.
+         - **Page ID:** ID of the Facebook page. To get this ID, go to your Facebook page, select **Account** or your profile photo in the upper-right corner, select **See all profiles**, and then select **See all pages** in the left navigation pane. Select **Transparency and privacy**, and then copy the value in the **Page ID** field.
+         - **Page access token:** Specify the page access token of the Facebook application. To get the page access token, go to your Facebook application, and then go to **Messenger** > **Settings**. In the **Access Tokens** section, select the page, and copy the value in the **Page Access Token** field.
+         - On the **Callback information** page, the **Callback URL** and **Verify token** fields are populated automatically when you save the settings. Use this information to configure webhooks in the Facebook application. These values aren't generated if the Facebook page is reused across multiple instances of the channel.
 
 1. Navigate back to the **Facebook Application Messenger settings** page, and then add the callback URL.
-
-1. Select **Add subscriptions for the page**, and then on the **Edit page subscriptions** page, select **messages**.
-
+1. Select **Add subscriptions for the page**, and then on the **Edit page subscriptions** page, select **Messages**.
 1. Save your changes.
-
-1. Open Copilot Service admin center, and then go to **Channels** > **Messaging Accounts** > **Your FB Account**.
-
+1. Open Copilot Service admin center, and then go to **Channels** > **Messaging accounts** > **Your Facebook account**.
 1. On the **Account settings** page, select the **Facebook Pages** tab, and then verify that the **Provisioning state** shows as **Running**.
 
 ### Create a Facebook workstream
@@ -103,7 +99,7 @@ To configure a Facebook channel, the following steps are required:
    1. On the **Language** page, select the language to use.
    
    1. On the **Behaviors** page, configure the following options:
-      - Custom automated messages
+      - [Custom automated messages](configure-automated-message.md)
       - [Post-conversation survey](configure-post-conversation-survey.md)
    1. On the **User features** page, configure the following options:
       - **File attachments:** When set to yes for both customer and representative, they can send and receive file attachments. Learn more in [Enable file attachments](enable-file-attachments.md). The availability and support of media is dependent on the Facebook application settings. Learn more in [Facebook updates](https://developers.facebook.com/docs/messenger-platform/europe-updates).
@@ -111,8 +107,8 @@ To configure a Facebook channel, the following steps are required:
 
       If you enable the Facebook human agent message tag during an active conversation between the representative and customer, the representative must close the conversation and reopen it to communicate with the latter customer 24 hours of inactivity. Representatives can start conversations with customers for up to seven days.
 
-      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. Learn more in [Facebook Developer Tools](https://developers.facebook.com/tools/).  
-   1. Review the **Summary** page, and select **Create**. The channel instance is configured.
+      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. Learn more in the [Meta Messenger Platform Send Messages Guide](https://developers.facebook.com/documentation/business-messaging/messenger-platform/send-messages).  
+   1. Review the **Summary** page, and then select **Create**. The channel instance is configured.
 
 1. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).
 
@@ -151,12 +147,12 @@ The customer can send attachments only if you enable them. When the option isn't
 
 ### Related information
 
-[Facebook channel setup FAQ](facebook-channel-setup-faq.md)<br>
-[Understand and create workstreams](create-workstreams.md)<br>  
-[Configure automated messages](configure-automated-message.md)<br> 
-[Configure a prechat survey](configure-pre-chat-survey.md)<br> 
-[Configure a post conversation survey](configure-post-conversation-survey.md)<br>
-[Delete a configured channel](delete-channel.md)<br>
-[Support for live chat and asynchronous channels](card-support-in-channels.md)
+[Facebook channel setup FAQ](facebook-channel-setup-faq.md)  
+[Understand and create workstreams](create-workstreams.md)   
+[Configure automated messages](configure-automated-message.md)  
+[Configure a prechat survey](configure-pre-chat-survey.md)  
+[Configure a post conversation survey](configure-post-conversation-survey.md)  
+[Delete a configured channel](delete-channel.md)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

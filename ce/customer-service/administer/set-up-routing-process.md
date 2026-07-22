@@ -1,7 +1,7 @@
 ---
 title: How to set up unified routing
 description: Learn about the high-level process for setting up unified routing in Customer Service.
-ms.date: 04/14/2025
+ms.date: 02/03/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,6 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-
 In this article, we'll take you through the high-level process of configuring unified routing in Customer Service.
 
 > [!NOTE]
@@ -24,10 +23,9 @@ In this article, we'll take you through the high-level process of configuring un
 
 The following prerequisites are applicable:
 
-- The latest release of Customer Service must be installed. More information: [What's new in Customer Service](/dynamics365-release-plan/2021wave1/service/dynamics365-customer-service/)
+- The latest release of Customer Service must be installed. More information: [What's new in Customer Service](/dynamics365/release-plans)
 - The System Administrator role to set up unified routing for records and work items.
 - To route records, you must enable the record for routing using the records channel configuration. More information: [Records routing](enable-entities-for-queues.md)
-
 
 ## Set up unified routing for records
 
@@ -61,21 +59,21 @@ The high-level process to set up unified routing for a channel is as follows.
 |![Step 4 for configuring routing rules.](../media/step-4.png "Step 4") |[Configure routing rules](configure-work-classification.md)| Configure routing rules for conversations|
 |![Step 5 for assignment rules.](../media/step-5.png "Step 5") |[Configure assignment rules](assignment-methods.md)|Configure assignment rules for routing conversations.|
 
-## Additional settings
+## Other settings
 
 Optionally, you can configure the following settings.
 
 | Task |Description|
 |-------|------------|
-|Configure and publish the skill model to use machine learning work classification. More information: [Set up intelligent skill finder model](set-up-isf-model.md#set-up-intelligent-skill-finder-model)|To route records and work items from channels|
-|Configure capacity profile to use capacity profile-based classification. More information: [Create and manage capacity profiles](capacity-profiles.md)|To route records and work items from channels|
+|Configure and publish the skill model to use machine learning work classification. Learn more in [Set up intelligent skill finder model](set-up-isf-model.md#set-up-intelligent-skill-finder-model).|To route records and work items from channels.|
+|Configure capacity profile to use capacity profile-based classification. Learn more in [Create and manage capacity profiles](capacity-profiles.md)|To route records and work items from channels.|
+|[Manage audit logs for unified routing configurations](enable-audit-tables.md#manage-audit-logs-for-unified-routing-configurations) | To enable or disable auditing on unified routing configurations.|
 
 ### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Set up unified routing for records](set-up-record-routing.md)  
 [Set up skill-based routing](overview-skill-work-distribution.md)  
-[Manage capacity profiles](capacity-profiles.md)  
+[Manage capacity profiles](capacity-profiles.md)   
 [Export and import configuration data for the record channel](migrate-record-routing-config-using-solutions.md)  
-[Export import data for the live chat channel](migrate-config-data-for-live-chat.md)  
 [FAQ on unified routing](unified-routing-faqs.md)  

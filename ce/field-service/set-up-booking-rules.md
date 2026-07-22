@@ -1,32 +1,33 @@
 ---
-title: Set up booking rules
-description: Learn how to set up booking rules in Dynamics 365 Field Service.
-ms.date: 06/18/2025
+title: Set up booking rules to show warning or errors when scheduling
+description: Set up booking rules in Dynamics 365 Field Service to display warnings or errors when users create or edit resource bookings. 
+ms.date: 07/13/2026
 ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan
+ms.reviewer: v-wesmith
 ---
 
 # Set up booking rules
 
-Booking rules in Field Service create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. For example, a booking rule could be created to warn a user when they attempt to book a work order to a resource on the schedule board that doesn't have the skills required for the job.  
+Booking rules in Field Service create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. For example, create a booking rule to warn a user when they attempt to book a work order to a resource on the schedule board that doesn't have the characteristics required for the job.  
 
-Booking rules are custom JavaScript methods that are executed before the Bookable Resource Booking record is created or edited. The JavaScript method can accept a parameter that contains information for the Bookable Resource Booking record being created and must return a JavaScript object with the required properties.
+Booking rules are custom JavaScript methods that execute before the *Bookable Resource Booking* record is created or edited. The JavaScript method can accept a parameter that contains information for the *Bookable Resource Booking* record being created and must return a JavaScript object with the required properties.
 
 Set up booking rules to validate a booking when it's created or modified.  
 
 > [!NOTE]
 >
-> - Booking rules are only available for the hourly view, and not daily, weekly, or monthly views of the schedule board and schedule assistant. They're available when a booking is created or updated on the bookable resource booking form.
-> - Booking rules aren't available on the bookable resource booking form, if it has business process flow enabled on the form.  
+> - Booking rules are only available for the hourly view, and not daily, weekly, or monthly views of the schedule board and schedule assistant. They're available when a booking is created or updated on the *Bookable Resource Booking* form.
+> - Booking rules aren't available on the *Bookable Resource Booking* form if it has a business process flow enabled on the form.  
 > - Booking rules aren't available on the reassign function on the schedule board.
 > - Each custom booking rule can return only one error or warning. To return multiple messages, set up individual booking rules for each validation.
 
 ## Create a solution
 
-Create a custom JavaScript web resource. We recommend that you create a solution in Microsoft Power Apps to add your custom JavaScript web resource or use an existing solution you use for customizations.
+Create a custom JavaScript web resource. Create a solution in Microsoft Power Apps to add your custom JavaScript web resource or use an existing solution you use for customizations.
 
-1. [Create a new solution](/power-apps/maker/data-platform/create-solution) for your booking rule JavaScript web resources. We recommend that your solution uses a unique publisher rather than the default publisher.
+1. [Create a new solution](/power-apps/maker/data-platform/create-solution) for your booking rule JavaScript web resources. Use a unique publisher rather than the default publisher.
 
 1. After creating the solution, [create a new web resource](/power-apps/maker/model-driven-apps/create-edit-web-resources#create-or-edit-a-web-resource-for-a-solution).
 
@@ -50,18 +51,18 @@ Create a custom JavaScript web resource. We recommend that you create a solution
    - The web resource that you recently created.
    - The method name you defined in your JavaScript.
 
-1. Select **Save & Close**. The booking rule is used by the hourly view of schedule board and schedule assistant or the entity form.
+1. Select **Save & Close**. The schedule board's hourly view, schedule assistant, and the entity form use the booking rule.
 
 > [!NOTE]
-> The booking rules are only supported on the hourly view of the schedule board and schedule assistant. The booking rules are also supported when the bookings are created or updated using the bookable resource booking form. Booking rules do **not** execute on delete of a booking record. Booking rules don't work on forms when using multi-edit. To stop the execution of the rule, deactivate the booking rule.
+> The schedule board's hourly view and schedule assistant are the only places that support booking rules. Booking rules also apply when users create or update bookings through the *Bookable Resource Booking* form. Booking rules don't execute on delete of a booking record. Booking rules don't work on forms when using multiedit. To stop the execution of the rule, deactivate the booking rule.
 
 ## Create a custom process action
 
-[Create a custom process action](/power-apps/maker/data-platform/create-actions) to perform the validation as part of a booking rule. In the JavaScript of your custom web resource, call the custom process action and evaluate the results from the action. Go to the [sample code](#sample-code) to see how to call a custom process action.
+To perform the validation as part of a booking rule, use [Create a custom process action](/power-apps/maker/data-platform/create-actions). In the JavaScript of your custom web resource, call the custom process action and evaluate the results from the action. To see how to call a custom process action, go to the [sample code](#sample-code).
 
-We recommend that you use the solution you've defined for your custom web resource to add your custom process action.
+Use the solution you defined for your custom web resource to add your custom process action.
 
-Use the following input and output parameters. You can add more input and output parameters as your scenario requires. You'll need to ensure the JavaScript that you define to call your custom process action is updated to support your other input and output parameters.
+Use the following input and output parameters. You can add more input and output parameters as your scenario requires. Ensure the JavaScript that you define to call your custom process action is updated to support your other input and output parameters.
 
 Input parameters:
 
@@ -74,21 +75,20 @@ Input parameters:
 - isCreate – Boolean
 - isUpdate – Boolean
 
-Output Parameters:
+Output parameters:
 
 - isError – Boolean
 - isWarning – Boolean
 - errorMessage – String
 - warningMessage - String
 
-The following screenshot shows an example custom process action.  This sample is checking if the *newBookableResource* matches the preferred resource on the work order, and if the *newScheduleStart* is inside of the **Time From Promised** and **Time To Promised**.  It's assumed the dates of the promised window are for a single date. Example: Time From Promised: 01/01/2016 8:00AM / Time To Promised: 01/01/2016 12:00PM.
+The following screenshot shows an example custom process action. This sample checks if the *newBookableResource* matches the preferred resource on the work order, and if the *newScheduleStart* is inside of the **Time From Promised** and **Time To Promised**. It's assumed the dates of the promised window are for a single date. Example: Time From Promised: 01/01/2026 8:00AM / Time To Promised: 01/01/2026 12:00PM.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a custom CRM action.](./media/scheduling-booking-rules-worflow.png)
+:::image type="content" source="./media/scheduling-booking-rules-worflow.png" alt-text="Screenshot of a custom CRM action.":::
 
 ## Sample code
 
-The JavaScript function you created can accept a single parameter, which is considered the booking context. The passed booking context parameter isn't a typical CRM context used in client-side scripting.
+The JavaScript function you create can accept a single parameter, which is the booking context. The booking context parameter isn't a typical CRM context used in client-side scripting.
 
 Booking context schema:
 ```
@@ -108,12 +108,12 @@ export type BookingRuleBookingRecord = {
 };
 ```
 
-The booking context parameter will have the following JavaScript definition. 
+The booking context parameter has the following JavaScript definition. 
 
 >[!NOTE]
-> It's *not* necessary to include this JavaScript code in the custom web resource for the booking rule.
+> You don't need to include this JavaScript code in the custom web resource for the booking rule.
 
-The possible values for *ResourceScheduleSource* are from the resource schedule source global option set. You can make use of this property to know if the booking rule is being triggered from the schedule board or scheduling assistant.
+The possible values for *ResourceScheduleSource* come from the resource schedule source global option set. Use this property to know if the booking rule is being triggered from the schedule board or scheduling assistant.
 
 ```
     var sbContext = {
@@ -138,7 +138,7 @@ The possible values for *ResourceScheduleSource* are from the resource schedule 
 Your validation method must return a JavaScript object with the following definition. 
 
 >[!Note]
-> It's *not* necessary to include this JavaScript code in the custom web resource for the booking rule.
+> You don't need to include this JavaScript code in the custom web resource for the booking rule.
 
 ```
     var ruleResult = {
@@ -148,7 +148,7 @@ Your validation method must return a JavaScript object with the following defini
 };
 ```
 
-Example JavaScript function definition. The following JavaScript code is the only JavaScript code you'll need to include in your custom web resource.
+Example JavaScript function definition. The following JavaScript code is the only JavaScript code you need to include in your custom web resource.
 
 ```
 
@@ -311,25 +311,25 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
 
 ```
 
-## Additional notes
+## Use business process flows and other custom scripts
 
-The bookable resource booking is enabled to use booking rules to create warnings or error messages that users see when creating or editing a resource booking record, based on custom conditions. The system uses [`preventDefault` in booking rules](/power-apps/developer/model-driven-apps/clientapi/reference/save-event-arguments/preventdefault). Therefore, business process flows and other custom scripts bond to the `onSave`event can't be used on the bookable resource booking entity with booking rules enabled.
+When you turn on bookable resource booking, use booking rules to create warnings or error messages that users see when they create or edit a resource booking record, based on custom conditions. The system uses [`preventDefault` in booking rules](/power-apps/developer/model-driven-apps/clientapi/reference/save-event-arguments/preventdefault). Therefore, you can't use business process flows and other custom scripts that bind to the `onSave` event on the *Bookable Resource Booking* entity when booking rules are enabled.
 
-However, the processing of booking rules can be disabled on the save of the Booking form by enabling the below setting, which would let the users use the business process flows. The client side APIs can be used to enable this setting at an environment level.
+However, you can disable the processing of booking rules on the save of the Booking form by enabling the following setting. This change lets users use the business process flows. Use the client APIs to enable this setting at an environment level.
 
-Read current value of the setting `msdyn_DisableProcessBookingRulesOnSaveBookingForm`.
+- Read current value of the setting `msdyn_DisableProcessBookingRulesOnSaveBookingForm`.
 
 ```
 Xrm.Utility.getGlobalContext().getCurrentAppSettings()["msdyn_DisableProcessBookingRulesOnSaveBookingForm"]
 ```
 
-Enable the setting `msdyn_DisableProcessBookingRulesOnSaveBookingForm`.
+- Enable the setting `msdyn_DisableProcessBookingRulesOnSaveBookingForm`.
 
 ```
 Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_DisableProcessBookingRulesOnSaveBookingForm",true,).then(() => {a = "success"}, (error) => {a = error})
 ```
 
-Disable the setting `**msdyn_DisableProcessBookingRulesOnSaveBookingForm**`.
+- Disable the setting `msdyn_DisableProcessBookingRulesOnSaveBookingForm`.
 
 ```
 Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_DisableProcessBookingRulesOnSaveBookingForm",false,).then(() => {a = "success"}, (error) => {a = error})

@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 03/07/2025
+ms.date: 04/30/2026
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -15,7 +15,7 @@ ms.custom:
 
 # Edit assignment rules
 
-To modify your process for automatically assigning leads, opportunities, or insights to sellers, you can update the conditions that you've defined in the rule.
+To modify your process for automatically assigning leads, opportunities, or insights to sellers, update the conditions you defined in the rule.
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 

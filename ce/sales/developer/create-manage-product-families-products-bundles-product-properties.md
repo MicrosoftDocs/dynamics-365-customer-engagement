@@ -1,7 +1,7 @@
 ---
-title: Create and manage product families, products, bundles, and product properties (Dynamics 365 Sales)
+title: Create and manage product families, products, bundles, and product properties
 description: Supports hierarchical organization of the product catalog through the creation and management products and bundles under a product family, defining related products, and adding properties (attributes) to the parent product family. 
-ms.date: 06/28/2024
+ms.date: 04/30/2026
 ms.topic: how-to
 applies_to: 
   - Dynamics 365 Sales
@@ -12,14 +12,15 @@ search.audienceType:
   - developer
 
 ---
+
 # Create and manage product families, products, bundles, and product properties
 
-Define your product catalog by organizing your products in a hierarchical structure by creating products and bundles under a product family, defining related products, and adding properties (attributes) to the parent product family so that all the child products and bundles under a product family automatically inherit the properties.  
+Define your product catalog by organizing your products in a hierarchical structure. Create products and bundles under a product family, define related products, and add properties (attributes) to the parent product family so that all the child products and bundles under a product family automatically inherit the properties.  
   
- By default, when you create a product family, product, or bundle record, they are in the **Draft** state. After you have created a product, defined related products, and configured attributes for the parent product family record, you must publish the product family, product, or bundle record for them to become available in the system to your sales agents for selling. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Publish a product family, product, or bundle](publish-revise-revert-retire-activate-products.md#Publish)  
+ By default, when you create a product family, product, or bundle record, they're in the **Draft** state. After you create a product, define related products, and configure attributes for the parent product family record, you must publish the product family, product, or bundle record for your sales agents to access them for selling. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Publish a product family, product, or bundle](publish-revise-revert-retire-activate-products.md#Publish)  
   
 > [!NOTE]
->  For products not associated with a product family, that is, products that don’t have a parent product family record assigned to them, you can create them directly in an **Active** state by setting the **Organization.CreateProductsWithoutParentInActiveState** column to `1` (true). By default, this column is set to `0` (false) for a fresh installation of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and to `1` (true) if you’re upgrading from a previous version of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to ensure compatibility for your applications working with the previous version of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] where the product records were created in an **Active** state.  
+>  For products not associated with a product family, that is, products that don't have a parent product family record assigned to them, you can create them directly in an **Active** state by setting the **Organization.CreateProductsWithoutParentInActiveState** column to `1` (true). By default, this column is set to `0` (false) for a fresh installation of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and to `1` (true) if you're upgrading from a previous version of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to ensure compatibility for your applications working with the previous version of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] where the product records were created in an **Active** state.  
 > 
 >  You can also use the **Sales** tab in the system settings area in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to specify whether products are created in an **Active** state. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage product catalog configuration](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8))  
   

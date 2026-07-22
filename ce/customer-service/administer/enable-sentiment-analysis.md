@@ -161,12 +161,10 @@ Vietnamese<br>
 </tbody>
 </table>
 
-> [!NOTE]
-> For languages supported in the product user interface (UI), see [Language availability](../implement/international-availability.md).
-
 ### Related information
 
-[Monitor, assign, and transfer conversations](../use/monitor-conversations.md)
+[Monitor, assign, and transfer conversations](../use/monitor-conversations.md)  
+[Language availability](/dynamics365/contact-center/implement/international-availability#language-availability)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

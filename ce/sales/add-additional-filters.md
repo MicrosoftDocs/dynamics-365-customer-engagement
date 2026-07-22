@@ -1,15 +1,16 @@
 ---
 title: Add additional filters to a forecast
 description: Add filters to refine the opportunities and hierarchies that participate in calculating the forecast values.
-ms.date: 03/07/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
-# Apply additional filters
 
-Add filters to refine the opportunities and hierarchies that participate in calculating the forecast values.
+# Add additional filters to a forecast
+
+Apply filters to your forecasts to focus on the right data and improve accuracy. For example, you can filter out opportunities from specific accounts or focus on a particular sales territory to get more targeted insights for your sales planning.
 
 ## Filter hierarchy records in the forecast
 
@@ -31,7 +32,7 @@ The following screenshot illustrates a sample forecast hierarchy:
      :::image type="content" source="media/hierarchy-filters.png" alt-text="Screenshot of the filter hierarchy page.":::
 
     > [!NOTE]
-    > If a parent record is filtered out of the hierarchy, the rollup value of the child records will show up under the parent record. However, the opportunities that were directly owned by the parent record won't be displayed in the forecast. Let's suppose that Dustin Ochs is a Sales Manager in Kenny's org who manages two sellers. Henry is in Europe, but manages sellers in APAC. When Kenny looks at the forecast for APAC, the opportunities of Dustin's reports roll up under Henry's name, but the forecast won't show the opportunities owned by Henry. 
+    > If a parent record is filtered out of the hierarchy, the rollup value of the child records will show up under the parent record. However, the opportunities that were directly owned by the parent record won't be displayed in the forecast. Let's suppose that Dustin Ochs is a Sales Manager in Kenny's org who manages two salespeople. Dustin is in Europe, but his salespeople are in APAC. When Kenny looks at the forecast for APAC, the opportunities of Dustin's reports roll up under Dustin's name, but the forecast won't show the opportunities owned by Dustin. 
 
 3. Select a value that is at the top of this forecast hierarchy in the **Top of Hierarchy** drop-down. 
     You'll see a preview of the hierarchy after applying the filter conditions.  

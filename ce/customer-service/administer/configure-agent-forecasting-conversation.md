@@ -1,7 +1,7 @@
 ---
 title: Configure service representative forecasting for conversations
 description: Learn how to configure customer service representative forecasting for conversations in Dynamics 365 Customer Service and Dynamics 365 Copilot Service workspace.
-ms.date: 06/30/2025
+ms.date: 05/28/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: lalexms
@@ -55,7 +55,7 @@ Supervisors can use the Agent forecasting for conversation report in the followi
 >
 > - Forecasts might misstate volume estimates for many reasons, including unanticipated trends or business developments.
 >
-> - The Agent forecasting for conversation report is currently available in certain geographical locations. Learn more in [Supported regions and languages for analytics and insights](cs-region-availability-service-limits.md#supported-regions-and-languages-for-analytics-and-insights).
+> - The Agent forecasting for conversation report is currently available in certain geographical locations. Learn more in [Supported regions and languages for analytics and insights](cs-region-availability-service-limits.md).
 
 ## How agent forecasting for conversation works
 

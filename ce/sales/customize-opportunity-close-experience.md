@@ -1,14 +1,12 @@
 ---
 title: Customize the Opportunity Close form
 description: Customize the opportunity close form so that sellers can capture details about why an opportunity was closed.
-ms.date: 01/31/2025
+ms.date: 06/05/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: lavanyakr
+ms.reviewer: ramakris
 ms.custom: bap-template
-content_well_notification:
-  - AI-contribution
 ai-usage: ai-assisted
 ---
 # Customize the Opportunity Close form 
@@ -27,7 +25,8 @@ Customize the opportunity close form so that sellers can capture details about t
 1. [Create a custom field in the Opportunity Close entity](#step-2-create-a-custom-field-in-the-opportunity-close-entity)
 1. [Add the field to the Opportunity Close form](#step-3-add-the-field-to-the-opportunity-close-form)
 1. [Pre-populate values in the Opportunity Close form from the corresponding opportunity](#step-4-pre-populate-values-in-the-opportunity-close-form-from-the-corresponding-opportunity)
-1. [Publish the customizations](#step-5-publish-the-customizations)
+1. [Customize Status Reason fields](#step-5-customize-status-reason-fields)
+1. [Publish the customizations](#step-6-publish-the-customizations)
 
 ### Step 1: Open the solution explorer page
 
@@ -84,7 +83,14 @@ If you want to pre-populate or synchronize values from other entities, use a plu
 1. Select **New** to create field mapping between the Opportunity and Opportunity Close fields.
 1. Save the changes.
 
-### Step 5: Publish the customizations
+### Step 5: Customize Status Reason fields
+
+The Opportunity entity has the following statuses, which aren't customizable: **Open**, **Won**, **Lost**. However, you can add multiple status reasons corresponding to the Won and Lost statuses. Consider the following points while customizing the status reason fields:
+
+- If you add custom values to a **Status Reason** field against a state (Won/Lost) in the Opportunity entity, you must add the same custom value to the special attribute **OpportunityStatusCode** on the Opportunity Close entity manually, and vice versa. This ensures the correct customized values with the right defaults appear preselected for each opportunity Win and Loss state.
+- There are two fields on the Opportunity Close entity with the display name **Status Reason** but with different schema names: `statuscode` and `opportunitystatuscode`. Custom status reasons should be added to the `opportunitystatuscode` attribute, not to the `statuscode` attribute.
+
+### Step 6: Publish the customizations
 
 After you're done with the customizations, select **Publish All Customizations** on the toolbar to make the changes available to users. Open your app and verify the changes.
 

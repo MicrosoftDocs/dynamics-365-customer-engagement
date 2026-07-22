@@ -1,7 +1,7 @@
 ---
 title: Developer tools for Customer Service
 description: Developer guide for Customer Service provides developers the information they need to get started with using the extensibility features.
-ms.date: 05/15/2025
+ms.date: 04/22/2026
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
@@ -96,8 +96,7 @@ Read how you can implement a connector to integrate custom messaging channels us
 
 ### Related information
 
-[Introduction to Omnichannel for Customer Service](../implement/introduction-omnichannel.md)<br />
-[Omnichannel for Customer Service for system customizers](../administer/omnichannel-customizer.md)<br />
+[Introduction to Omnichannel for Customer Service](../implement/introduction-omnichannel.md)  
 [Live chat SDK reference](omnichannel-reference.md)  
 
 

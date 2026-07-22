@@ -4,9 +4,9 @@ description: Learn how to view and interpret the Ongoing conversation report in 
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
-ms.date: 09/16/2025
+ms.date: 03/11/2026
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -19,19 +19,22 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The **Ongoing conversation** report shows ongoing conversations from the last 24 hours that are currently being handled by customer service representatives (service representatives or representatives) in your organization and that aren't yet closed. Learn how to [access the report](intro-realtime-analytics-dashboard.md#access-reports). The report displays those conversations that have the open, active, wrap-up, or waiting status. Learn more in [Understand conversation states](oc-conversation-state.md).
+The **Ongoing conversation** report shows ongoing conversations from the last 2 hours that are currently being handled by customer service representatives (service representatives or representatives) in your organization and that aren't yet closed. Learn how to [access the report](intro-realtime-analytics-dashboard.md#access-reports). The report displays those conversations that have the open, active, wrap-up, or waiting status. Learn more in [Understand conversation states](oc-conversation-state.md).
 
 This report provides a holistic view of the conversations in real time. It includes details about subject, status, active service representative details, queue, channel, wait time, handle time, and customer sentiment. Learn more in [Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
 
 > [!NOTE]
-> - Only digital messaging, chat, and voice channels are supported. Record routing isn't supported.
+> - Autorefresh isn’t available for the ongoing conversations Power BI page. You must refresh the page manually to see the latest conversations and then perform the corresponding actions.
+> - Digital messaging, chat, and voice channels only are supported.
 > - The reports are prefiltered based on the queues you're logged in to as a supervisor. So you see metrics and conversations relevant to the assigned queues only.
 
 [Learn more about the metrics that are shown on the Ongoing conversation report.](../develop/calculate-conversation-metrics.md#calculate-conversation-metrics)
 
 :::image type="content" source="../media/realtime_ongoing conversations.png" alt-text="The image shows real-time ongoing conversations report.":::
 
-You can perform different actions, such as assign or transfer a conversation, as described in the following sections.
+You can perform different actions, such as assign or transfer a conversation, as described in the following sections. 
+> [!NOTE]
+> Actions like assign, transfer, monitor, or force close conversations aren't supported in model-customized reports.
 
 ## Assign or transfer conversations
 
@@ -58,8 +61,6 @@ Refer to the following table to see when assign and transfer are enabled, depend
     :::image type="content" source="../media/realtime-agent-skill-prof.png" alt-text="Screenshot of assign conversation dialog, find an agent option":::
 
     If you select **Find a queue**, all other queues&mdash;except the one to which the conversation is currently assigned&mdash;are displayed.
-
-      :::image type="content" source="../media/realtime-agent-queue.png" alt-text="Screenshot of assing conversation dialog, find a queue option":::
 
 1. Select **Assign**.
 
@@ -99,39 +100,6 @@ Forcibly close a conversation by closing the work item. When you select **Force 
 1. Select a conversation and then select **Force Close**.
 
 The participants receive a notification that a supervisor ended their conversation.
-
-## Assign, transfer, monitor, or force close conversations in customized reports
-
-To perform the actions on your customized reports, complete these prerequisites:
-
-- Enable all of the customizations in [data model customization](../administer/model-customize-reports.md#customize-data-models-of-historical-and-real-time-analytics-reports), including step 4 [Step 4: Embed customized reports back to Dynamics 365](../administer/model-customize-reports.md#step-4-embed-customized-reports-back-to-dynamics-365).
-- Create reports using [the out-of-the-box data model in your custom reports](use-datamodel.md#use-the-out-of-the-box-data-model-in-your-custom-reports).
-- Make sure appropriate roles exist for viewing and embedding reports. Learn more in [Configure analytics and insights dashboards](../administer/configure-customer-service-analytics-insights-csh.md#configure-analytics-and-insights-dashboards).
-
-In Copilot Service workspace, go to **Customized reports** > **Ongoing conversations** report, and then select the conversation that needs to be updated.
- 
-When the **Agent Name** doesn't exist, the following options are enabled.
-  - **Assign**: Assign a representative by queue for the conversation.
-  - **Force close**: Force close the conversation if necessary.
-  :::image type="content" source="../media/actions-no-agent-name.png" alt-text="Screenshot shows the actions enabled when no agent name is assigned":::
-    
-When the **Agent Name** exists, the following options are enabled.
-  - **Transfer**: Transfer the conversation from one representative to another in the same queue.
-  - **Monitor**: To monitor the chat, open the conversation dialog.
-  - **Force close**: Force close the conversation if necessary.
-    :::image type="content" source="../media/actions-agent-name.png" alt-text="Screenshot that shows actions enabled when agent name is enabled.":::
-
-Refer to the following table to see actions that are enabled, depending on the various conversation states.
-
-|Type |Conversation state  |Assign  |Transfer  |Monitor| Force close
-|---------|---------|---------|---------|-----|----|
-|Record    |    Open     | Assign to queue        |   Not enabled      | Not enabled| Enabled|
-|Record   |  Open       | Assign to representative        |   Transfer to representative      | Not enabled|Enabled|
-|Record   |   Active      |      Assign to representative   |    Transfer to representative     |Not enabled | Enabled|
-|Record    | Wrap-up        | Not enabled        | Not enabled        |Enabled |Enabled |
-|Record| Waiting | Enabled | Enabled | Enabled| Enabled| 
-
-After you assign or transfer conversations, manually refresh the report to view the latest status.
 
 ### Related information
 

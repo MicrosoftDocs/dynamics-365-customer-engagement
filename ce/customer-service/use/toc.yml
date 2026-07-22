@@ -16,8 +16,6 @@
         href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
       - name: Unified routing and assignment
         items:
-          - name: View historical analytics reports
-            href: supervisor-historical-analytics.md
           - name: Access diagnostics for unified routing
             href: supervisor-access-diagnostics.md
           - name: Route records manually using unified routing
@@ -48,8 +46,6 @@
             href: view-social-profile.md
           - name: Convert a case to a knowledge article
             href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
-          - name: View AI-suggested similar cases and knowledge articles
-            href: csw-view-ai-suggested-cases-knowledge-articles.md
           - name: Manage cases using interactive dashboards
             href: customer-service-hub-user-guide-dashboard.md
       - name: Service-level agreements
@@ -76,6 +72,8 @@
             href: /power-apps/user/direct-email?context=/dynamics365/context/customer-service-context
           - name: Resolve an unresolved email recipient
             href: /power-apps/user/unresolved-email-recipient?context=/dynamics365/context/customer-service-context
+          - name: Use sensitivity labels in emails
+            href: use-sensitivity-labels.md          
           - name: Email templates
             items: 
             - name: Create an email template
@@ -118,7 +116,7 @@
           href: review-ka.md
         - name: Publish knowledge articles 
           href: publish-ka.md
-        - name: Create and manage article versions
+        - name: Manage knowledge article versions
           href: ka-versions.md
         - name: Translate knowledge articles 
           href: translate-ka.md
@@ -156,8 +154,6 @@
           href: use-teams-meetings.md
         - name: Collaborate with AI-suggested contacts in Microsoft Teams
           href: use-ai-suggested-contacts-teams.md
-        - name: Use auto-summarization for ongoing conversations
-          href: cs-ai-generated-summary.md
         - name: Use Join a Teams call to enhance customer conversations
           href: join-a-teams-call.md
         - name: Use customer support swarming to resolve issues
@@ -198,7 +194,7 @@
           href: voice-channel-call-recordings-transcripts.md
         - name: Monitor voice calls
           href: voice-channel-monitor-calls.md
-      - name: Autonomous service agents (preview)
+      - name: Autonomous service agents
         items:
         - name: Overview of autonomous service agents
           href: /dynamics365/contact-center/administer/autonomous-agents-overview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
@@ -222,10 +218,6 @@
             href: admin-km-agent-insights.md
       - name: Chat and Channels
         items:
-        - name: Dynamics 365 Contact Center for agents
-          href: omnichannel-customer-service-app-agent.md
-        - name: Sign into the agent app
-          href: oc-sign-in-omnichannel.md
         - name: Know the agent interface in Omnichannel for Customer Service
           href: oc-introduction-agent-interface.md
         - name: View agent dashboard and work items
@@ -294,6 +286,8 @@
         items: 
         - name: Productivity pane in Copilot Service workspace
           href: csw-productivity-pane.md
+        - name: Use timeout rules
+          href: use-timeout-rules.md
         - name: View smart assist suggestions for knowledge articles and similar cases
           href: oc-view-ai-suggested-cases-articles.md
         - name: View smart assist suggestions
@@ -306,10 +300,74 @@
           href: oc-agent-scripts.md
         - name: Rich messages in conversation control
           href: rich-messages-conversation-control.md
-      - name: Copilot in Customer Service 
+      - name: Workforce Management
+        items:
+        - name: Overview
+          href: workforce-management-overview.md
+        - name: Forecasting
+          items: 
+          - name: Create and manage forecast scenarios
+            href: /dynamics365/contact-center/use/workforce-management-forecast-scenarios?context=/dynamics365/context/customer-service-use-context
+          - name: Import historical data
+            href: /dynamics365/contact-center/use/workforce-management-import-historical-data?context=/dynamics365/context/customer-service-use-context
+          - name: Estimate AI agent credits from forecasts
+            href: /dynamics365/contact-center/use/workforce-management-credit-estimation?context=/dynamics365/context/customer-service-use-context
+        - name: Capacity planning
+          items:
+          - name: Create and manage capacity plans
+            href: /dynamics365/contact-center/use/workforce-management-capacity-planning?context=/dynamics365/context/customer-service-use-context
+        - name: Shift planning and scheduling
+          items:
+          - name: Create and manage shift plans
+            href: /dynamics365/contact-center/use/workforce-management-shift-plan?context=/dynamics365/context/customer-service-use-context
+          - name: Manage schedules
+            href: /dynamics365/contact-center/use/workforce-management-schedule-workforce?context=/dynamics365/context/customer-service-use-context
+          - name: Create and manage shift rotation policies
+            href: /dynamics365/contact-center/use/workforce-management-shift-rotation-policies?context=/dynamics365/context/customer-service-use-context
+          - name: Use auto schedule to schedule service representatives
+            href: /dynamics365/contact-center/use/workforce-management-use-auto-schedule?context=/dynamics365/context/customer-service-use-context
+          - name: Use shift bidding
+            href: /dynamics365/contact-center/use/workforce-management-representative-shift-bidding?context=/dynamics365/context/customer-service-use-context
+          - name: Use shift swapping
+            href: /dynamics365/contact-center/use/workforce-management-use-shift-swapping?context=/dynamics365/context/customer-service-use-context
+          - name: Use shift-based routing for work items
+            href: /administer/configure-routing-on-agent-calendar.md
+          - name: Use the schedule calendar
+            href: use-agent-calendar.md
+        - name: Time-off request management
+          items:
+          - name: Manage time-off requests
+            href: /dynamics365/contact-center/use/workforce-management-view-time-off-requests?context=/dynamics365/context/customer-service-use-context
+          - name: Create a time-off request
+            href: /dynamics365/contact-center/use/workforce-management-create-time-off-request?context=/dynamics365/context/customer-service-use-context
+        - name: Intraday management
+          items:
+          - name: Use the adherence tracker
+            href: /dynamics365/contact-center/use/workforce-management-adherence-tracker?context=/dynamics365/context/customer-service-use-context
+          - name: Use the adherence history report
+            href: /dynamics365/contact-center/use/workforce-management-use-adherence-history-report?context=/dynamics365/context/customer-service-use-context
+      - name: Quality management
+        items:
+          - name: Use evaluation criteria
+            href: /dynamics365/contact-center/use/evaluation-criteria?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Use evaluation plan
+            href: /dynamics365/contact-center/use/evaluation-plan?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Use on-demand evaluation
+            href: /dynamics365/contact-center/use/on-demand-evaluation?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Use evaluations
+            href: /dynamics365/contact-center/use/use-evaluations?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Use governance policies
+            href: use-governance-policies.md
+      - name: Copilot in Customer Service
         items: 
         - name: Copilot feature availability across applications
           href: /dynamics365/contact-center/use/copilot-feature-availability?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Use Customer Service skills in Copilot Cowork
+          href: use-copilot-cowork-service-skills.md
+        - name: Use Copilot hub (preview)
+          href: use-copilot-hub.md
+        - name: FAQ for Copilot hub (preview)
+          href: copilot-hub-faq.md
         - name: Use Copilot-generated case summaries
           href: copilot-use-summary.md
         - name: Use Copilot case summary in model-driven apps
@@ -323,11 +381,47 @@
         - name: Use Copilot filters
           href: use-copilot-filters.md
         - name: Use Copilot to generate knowledge drafts from cases
-          href: use-copilot-knowledge-from-cases.md  
+          href: use-copilot-knowledge-from-cases.md
         - name: Understand how Copilot supports different languages
           href: copilot-language-support.md
         - name: Chat with case data in Customer Service (preview)
           href: /dynamics365/contact-center/use/copilot-chat-customer-service-data?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Use Microsoft 365 Copilot
+          href: use-microsoft-365-copilot.md
+        - name: Monitor and supervise autonomous agents
+          href: supervise-agents-with-agent-feed.md
+        - name: Use form-fill assistance
+          href: form-fill-assistance.md
+        - name: Use natural language to find data with AI
+          href: find-data-with-ai.md
+        - name: Visualize data in a chart with Copilot
+          href: visualize-data-using-copilot.md
+        - name: View Copilot-generated row summaries
+          href: record-summaries.md
+        - name: Use timeline highlights with generative AI
+          href: use-timeline-highlights-with-generative-ai.md
+      - name: Service Agent
+        items:
+        - name: Overview of Service Agent
+          href: service-agent-overview.md
+        - name: Use Service Agent
+          href: use-service-agent.md
+        - name: Use starter prompts in Service Agent
+          href: use-service-agent-starter-prompts.md
+        - name: Use the prompt gallery in Service Agent
+          href: use-service-agent-prompt-gallery.md
+        - name: Reference records and context in Service Agent prompts
+          href: reference-records-service-agent.md
+        - name: Upload and analyze files with Service Agent
+          href: service-agent-upload-analyze-files.md
+        - name: Generate images, charts, and files with Service Agent
+          href: service-agent-generate-images-charts-files.md
+        - name: Use Service Agent with Outlook
+          href: use-service-agent-outlook.md
+        - name: Return to a previous Service Agent conversation
+          href: service-agent-return-conversation.md
+        - name: Frequently asked questions about Service Agent
+          href: service-agent-faq.md
       - name: Analytics dashboards and insights
         items:
         - name: Supervise AI agents (preview)
@@ -364,6 +458,10 @@
             href: rr-agent.md            
           - name: Backlog work items report
             href: rr-backlogitems.md
+          - name: Intent group report
+            href: record-routing-intent-group.md
+          - name: User group report
+            href: record-routing-user-group.md
         - name: Use Customer Service historical analytics dashboards
           items: 
           - name: Customer Service historical analytics dashboards
@@ -376,25 +474,25 @@
           items: 
           - name: Omnichannel for Customer Service dashboards
             href: omnichannel-analytics-insights.md
-          - name: Omnichannel Summary dashboard
+          - name: Summary dashboard
             href: omnichannel-summary-dashboard.md
-          - name: Omnichannel Conversation dashboard
+          - name: Conversation dashboard
             href: oc-conversation-dashboard.md
-          - name: Omnichannel Queue dashboard
+          - name: Queue dashboard
             href: oc-queue-dashboard.md
-          - name: Omnichannel Voice dashboard
+          - name: Voice dashboard
             href: voice-channel-reports-analytics.md   
-          - name: Omnichannel Agent dashboard
+          - name: Agent dashboard
             href: agent-dashboard.md
-          - name: Omnichannel Bot dashboard
+          - name: Bot dashboard
             href: oc-bot-dashboard.md  
-          - name: Omnichannel Voicemail dashboard
-            href: oc-voicemail-dashboard.md          
+          - name: Voicemail dashboard
+            href: oc-voicemail-dashboard.md
         - name: Use knowledge analytics
           href: knowledge-search-analytics-cs.md
         - name: Use Copilot analytics
           href: /dynamics365/customer-service/use/copilot-analytics-report?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-        - name: View agent insights dashboard (preview)
+        - name: View agent insights dashboard
           href: /dynamics365/contact-center/use/agent-insights?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Monitor conversations
           items: 
@@ -426,8 +524,12 @@
           items:
           - name: Forecast service representative, case, and conversation volumes
             href: use-volume-forecasting.md
-        - name: Customize visual display
-          href: customize-reports.md
+        - name: Manage report visuals
+          items:
+          - name: Customize visual display
+            href: customize-reports.md
+          - name: Export and import visual customizations
+            href: export-import-visual-customization.md
         - name: Customize the bot dashboard
           href: /dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml    
         - name: Customize data models
@@ -440,8 +542,6 @@
             href: oob-data-models.md
           - name: Data model mapping for real-time analytics reports
             href: datamapping-realtime.md
-          - name: Dataverse entities used in historical and real-time analytics
-            href: dataverse-entities.md
       - name: Service scheduling
         items: 
           - name: Core Service Scheduling
@@ -498,9 +598,11 @@
         href: ../implement/faq-responsible-ai-copilot.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
       - name: Responsible AI FAQs for NLUs in AI agents
         href: /dynamics365/contact-center/implement/natural-language-ai-faq?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-      - name: Constrained speech recognition
+      - name: Transparency note
         items:
-        - name: Transparency note
+        - name: Real-time voice agents
+          href: /dynamics365/contact-center/implement/transparency-note-real-time-voice-agents?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Constrained speech recognition
           href: /dynamics365/contact-center/implement/transparency-note?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
     - name: Resources
       items:
@@ -524,3 +626,5 @@
       href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml
     - name: Dynamics 365 Contact Center documentation
       href: /dynamics365/contact-center/
+    - name: Contribute to documentation
+      href: /dynamics365/get-started/contribute?context=/dynamics365/context/customer-service-use-context

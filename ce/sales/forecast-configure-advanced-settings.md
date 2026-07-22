@@ -1,16 +1,31 @@
 ---
 title: Configure advanced settings for a forecast
 description: Configure advanced settings for a forecast in Dynamics 365 Sales.
-ms.date: 02/25/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr 
+ai-usage: ai-assisted
 ---
 
 # Configure advanced settings for forecasts
 
-Use the **Advanced** step of the forecast configuration to customize the forecast. You can enable features, such as multi-currency selection and Kanban view. You can also override column headers and customize the underlying records grid by using javascript. 
+Use the **Advanced** step of the forecast configuration to customize the forecast. You can enable features, such as multi-currency selection and Kanban view. You can also override column headers and customize the underlying records grid by using JavaScript.
+
+> [!TIP]
+> **To access these settings:** Go to **Sales Hub > Change area > App Settings > Forecast configuration**, select your forecast, and open the **Advanced** step.
+
+**Not sure what to configure? Here's a quick guide:**
+
+| Your need | Setting to configure |
+|---|---|
+| Your sales teams work in multiple currencies | [Multi-currency selection](#turn-on-multi-currency-selection) |
+| Your hierarchy has many parent rows showing zero values | [Auto-hide parent row](#automatically-hide-parent-row) |
+| You want AI-powered prediction insights | [Enable prediction factors](#view-prediction-factors) |
+| You prefer a visual pipeline view over a table | [Set Kanban as default view](#set-kanban-as-the-default-view-for-underlying-records-preview) |
+| You need custom field behavior in the underlying records grid | [Customize underlying records grid](#customize-underlying-records-grid) (requires JavaScript development skills) |
+
 
 ## Automatically hide parent row
 
@@ -95,6 +110,9 @@ In the **Override column headers (Preview)** section, select the custom control 
 :::image type="content" source="media/fc-override-headers.png" alt-text="Screenshot of the **Override column headers** field in the **Advanced** step of forecast configuration.":::
 
 ## Customize underlying records grid
+
+> [!NOTE]
+> This section requires JavaScript development skills. If you need custom grid behavior, work with your development team or a Power Platform consultant. Learn more in [Customize the underlying records grid in forecasts](developer/reference/custom-actions/events-context.md).
 
 Add a JavaScript library to customize the underlying records grid in a forecast.
 

@@ -1,7 +1,7 @@
 ---
 title: Customize the underlying records grid in forecasts 
 description: Customize the underlying records grid in forecasts to make the entire grid or specific fields read-only, disable fields, and show error notifications.
-ms.date: 06/05/2023
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

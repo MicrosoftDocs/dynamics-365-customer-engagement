@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Search Path Node tag in Unified Service Desk
 The Search Path node describes the search path to identify the control in the Java accessibility tree. There are four search path elements that can be used to identify the desired UI control.  

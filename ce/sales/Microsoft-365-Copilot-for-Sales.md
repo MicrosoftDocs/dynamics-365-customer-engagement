@@ -1,7 +1,7 @@
 ---
-title: FAQ about chat with Sales data on Microsoft 365 Copilot (preview)
+title: Responsible AI FAQ about chat with Sales data on Microsoft 365 Copilot (preview)
 description: Discover how to use Microsoft 365 Copilot to chat with Sales data and ask questions in natural language.
-ms.date: 11/29/2024
+ms.date: 05/29/2026
 ms.update-cycle: 180-days
 ms.custom:
   - bap-template
@@ -16,7 +16,7 @@ search.app: salescopilot-docs
 ms.collection: bap-ai-copilot 
 ---
 
-# FAQ about chat with Sales data on Microsoft 365 Copilot (preview)
+# Responsible AI FAQ about chat with Sales data on Microsoft 365 Copilot (preview)
 
 > [!IMPORTANT]
 > Some or all of the functionality noted in this article is available as part of a preview release. The content and the functionality are subject to change.

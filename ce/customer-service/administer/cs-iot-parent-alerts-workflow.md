@@ -1,36 +1,46 @@
 ---
-title: "IoT - Parent IoT Alerts workflow | MicrosoftDocs"
-description: "Learn how to link potential redundant IoT alerts to an existing parent alert in Dynamics 365 Customer Service."
-ms.date: 03/15/2024
-ms.topic: conceptual
+title: IoT - Parent IoT Alerts workflow
+description: Learn how to link potential redundant IoT alerts to an existing parent alert in Customer Service to reduce duplicate processing.
+ms.date: 03/30/2026
+ms.topic: concept-article
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ---
 
-# The IoT - Parent IoT Alerts workflow
+# IoT – Parent IoT Alerts workflow
 
-The **IoT - Parent IoT Alerts** workflow links potential redundant alerts to an existing parent alert.  
+The **IoT – Parent IoT Alerts** workflow links potentially redundant IoT alerts to an existing parent alert.
+
+This workflow helps prevent duplicate processing, such as sending multiple reset commands or creating multiple repair orders for the same device issue. Unfiltered alerts can also negatively affect performance in Customer Service.
 
 > [!NOTE]
-> The Web API types and operations mentioned in this article/table are available in your environment and you can use the service document of your environment or Insomnia to explore these types and operations. More information: [Web API Service Documents](/power-apps/developer/data-platform/webapi/web-api-service-documents) and [Use Insomnia with Microsoft Dataverse Web API](/power-apps/developer/data-platform/webapi/insomnia).
-  
-Calls the `Microsoft.Dynamics.CRM.msdyn_ParentIoTAlerts` API and passes 60 for the `TimespanSeconds` parameter. The primary entity for this workflow is `msdyn_iotalert`. 
-  
- This workflow is an example that ships with the thermostat sample solution. It demonstrates how to handle duplicate/redundant alerts to [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)], which typically occurs when a device malfunctions. This approach is a recommended best practice because unfiltered alerts can result in duplicated remedial processing. For example, it could result in redundant reset commands sent or multiple repair orders generated. These alerts can also negatively affect the performance of your [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] instance. (The thermostat sample is coded to filter duplicate alerts to avoid passing them to [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)], which is also a recommended practice.)  
-  
- This workflow is enabled by default, but you can deactivate or edit it. For example, you can modify the time span.  
-  
-<a name="bkmk_Parameters"></a>   
+> The Web API types and operations referenced in this article are available in your environment.  
+> You can explore them using the service document or tools such as Insomnia.  
+>
+> Learn more:
+> - [Web API service documents](/power-apps/developer/data-platform/webapi/web-api-service-documents)
+> - [Use Insomnia with Microsoft Dataverse Web API](/power-apps/developer/data-platform/webapi/insomnia)
 
-## Parameters  
+## How the workflow works
 
-Data passes to the workflow using parameter(s).  
-  
-|Name|Type|Nullable|Unicode|Description|  
-|----------|----------|--------------|-------------|-----------------|  
-|TimespanSeconds|Edm.Int32|false||Determines the time window to consider when parenting (or suppressing) an alert, from 60 to 180 seconds.|
-| | | | | |
+The workflow calls the `Microsoft.Dynamics.CRM.msdyn_ParentIoTAlerts` action and passes a value of `60` for the `TimespanSeconds` parameter.  
 
+- **Primary entity:** `msdyn_iotalert`  
+- **Default behavior:** Enabled  
+
+The workflow is included with the thermostat sample solution and demonstrates a recommended approach for handling duplicate or redundant IoT alerts that can occur when a device malfunctions.
+
+By consolidating related alerts within a defined time window, the workflow ensures that only one parent alert is processed in Customer Service.
+
+You can deactivate or edit this workflow if needed. For example, you can adjust the time span used to evaluate duplicate alerts.
+
+## Parameters
+
+Data passes to the workflow using the following parameter.
+
+| Name             | Type       | Nullable | Description |
+|------------------|------------|----------|-------------|
+| TimespanSeconds  | Edm.Int32  | false    | Defines the time window, in seconds, used to group or suppress related IoT alerts. Valid values range from 60 to 180 seconds. |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

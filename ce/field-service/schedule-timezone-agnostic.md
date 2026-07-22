@@ -1,7 +1,7 @@
 ---
 title: Schedule resources across time zones
 description: Learn how to simplify scheduling resources across different time zones by normalizing working hours to Coordinated Universal Time (UTC).
-ms.date: 05/22/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan

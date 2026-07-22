@@ -1,7 +1,7 @@
 ---
 title: Advanced filters for the schedule assistant in Universal Resource Scheduling
 description: The schedule assistant provides a few advanced filters for granularity in scheduling.
-ms.date: 06/06/2024
+ms.date: 08/20/2025
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: article

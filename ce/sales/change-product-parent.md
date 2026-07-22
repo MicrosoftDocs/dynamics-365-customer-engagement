@@ -1,7 +1,7 @@
 ---
 title: "Change the parent of a product (reparenting) (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Create a product hierarchy by associating products and product families in a parent-child relationship in Dynamics 365 Sales."
-ms.date: 11/20/2024
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -33,6 +33,7 @@ When you change the parent of a product, inherited properties from the previous 
     
 2. To remove the parent from the record, just remove the parent record from the **Parent** field.
 
+<a name="reparenting-considerations"></a>
 **Things to consider when reparenting a record:**
 
 -	Products which are re-parented can't be reverted. When a product is reparented, the properties inherited from the previous parent are lost. Thus, you can't revert the properties of the reparented product to the last active version of the product. 

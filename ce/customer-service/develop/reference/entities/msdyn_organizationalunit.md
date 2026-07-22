@@ -62,10 +62,17 @@ The following table lists selected properties for the Organizational Unit (msdyn
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_Address1](#BKMK_msdyn_Address1)
+- [msdyn_Address2](#BKMK_msdyn_Address2)
+- [msdyn_Address3](#BKMK_msdyn_Address3)
+- [msdyn_City](#BKMK_msdyn_City)
+- [msdyn_Country](#BKMK_msdyn_Country)
 - [msdyn_Latitude](#BKMK_msdyn_Latitude)
 - [msdyn_Longitude](#BKMK_msdyn_Longitude)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_organizationalunitId](#BKMK_msdyn_organizationalunitId)
+- [msdyn_PostalCode](#BKMK_msdyn_PostalCode)
+- [msdyn_StateOrProvince](#BKMK_msdyn_StateOrProvince)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
@@ -85,6 +92,91 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_Address1"></a> msdyn_Address1
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Street 1**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_address1`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|250|
+
+### <a name="BKMK_msdyn_Address2"></a> msdyn_Address2
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Street 2**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_address2`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|250|
+
+### <a name="BKMK_msdyn_Address3"></a> msdyn_Address3
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Street 3**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_address3`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|250|
+
+### <a name="BKMK_msdyn_City"></a> msdyn_City
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**City**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_city`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|80|
+
+### <a name="BKMK_msdyn_Country"></a> msdyn_Country
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Country/Region**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_country`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|80|
 
 ### <a name="BKMK_msdyn_Latitude"></a> msdyn_Latitude
 
@@ -146,6 +238,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_organizationalunitid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_PostalCode"></a> msdyn_PostalCode
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Postal Code**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_postalcode`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|20|
+
+### <a name="BKMK_msdyn_StateOrProvince"></a> msdyn_StateOrProvince
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**State Or Province**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_stateorprovince`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|50|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

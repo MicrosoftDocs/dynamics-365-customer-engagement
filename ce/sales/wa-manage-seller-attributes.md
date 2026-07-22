@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 11/18/2024
+ms.date: 04/30/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -29,7 +29,7 @@ Define the attributes that you want your assignment rules to consider when they 
 
 ### Create an attribute
 
-You can set the value of an attribute either by getting it from Dynamics 365 or by entering it manually.
+Set the value of an attribute by getting it from Dynamics 365 or by entering it manually.
 
 1. Sign in to your Sales Hub app.  
 1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.  

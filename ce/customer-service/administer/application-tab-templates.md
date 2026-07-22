@@ -4,7 +4,7 @@ description: Learn how to create application tab templates in Customer Service. 
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 05/05/2025
+ms.date: 06/17/2026
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 An application tab template in Customer Service lets you specify the type of applications that can be opened when customer service representatives (service representatives or representatives) start a session in Copilot Service workspace.
 
-The vertical bar on the left panel shows the list of sessions. The panel always shows the **Home** session that you can't close or customize.
+The top panel shows the list of sessions. The panel always shows the **Home** session that you can't close or customize.
 
 In Copilot Service workspace, every session has at least one application tab, called the "Anchor tab", that you can't close or customize. When you start a session, the corresponding application page and any other additional pages open based on your configuration settings.
 
@@ -215,6 +215,6 @@ The following out-of-the-box application tab templates are available.
 [Get started with Copilot Service admin center](../implement/cs-admin-center.md)  
 [Manage session templates](session-templates.md)  
 [Manage notification templates](notification-templates.md)  
-[Associate templates with workstreams](associate-templates.md)  
+[Associate templates with workstreams](create-workstreams.md#associate-templates)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

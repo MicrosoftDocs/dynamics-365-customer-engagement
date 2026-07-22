@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Integrate Unified Service Desk with CTI systems using CTI adapters
 To integrate [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] with your [!INCLUDE[pn_computer_telephony_integration_cti](../includes/pn-computer-telephony-integration-cti.md)] system, use a [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] adapter. The [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)][!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] framework has components that you can use to build a [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] adapter. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [UII CTI Framework Components](../unified-service-desk/uii-computer-telephony-integration-cti-framework.md#Architecture).  

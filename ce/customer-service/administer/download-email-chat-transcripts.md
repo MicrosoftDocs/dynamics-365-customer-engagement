@@ -1,8 +1,8 @@
 ---
 title: Download and email chat transcripts
-description: This topic provides information on how to download or email chat transcripts in Dynamics 365 Customer Service.
+description: Learn how to download or email chat transcripts at any time during a chat session in Dynamics 365 Customer Service.
 ms.topic: how-to
-ms.date: 05/23/2025
+ms.date: 05/28/2026
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-Chat for Dynamics 365 Contact Center allows customers to download and email a copy of their chat transcripts. When your administrator enables download and email options, customers can download or request an email of their chat transcript at any time during a chat session. At the end of the conversation, customers can request a transcript. If the customer requests an email of the chat transcript, the email is sent at the end of the conversation.
+When your administrator enables download and email options, customers can download or request an email of their chat transcript at any time during a chat session. At the end of the conversation, customers can request a transcript. If the customer requests an email of the chat transcript, the email is sent at the end of the conversation.
 
 **Prerequisite**: Administrators should set up mailboxes before enabling this feature, and must select the **Allow other Dynamics 365 users to send email on your behalf** checkbox for it to work. Learn more in [Send email on behalf of another user](/power-platform/admin/send-email-on-behalf) and [Dynamics 365 Email tab options](/dynamics365/customerengagement/on-premises/basics/set-personal-options#email-tab-options).
 
@@ -20,7 +20,7 @@ Chat for Dynamics 365 Contact Center allows customers to download and email a co
 
 To configure options to download and email chat transcripts for both customers and customer service representatives:
 
-1. In Copilot Service admin center or Contact Center admin center, select the workstream of the chat widget in which you want to configure the settings.
+1. In Copilot Service admin center, select the workstream of the chat widget in which you want to configure the settings.
 
 2. Select **Edit** for the chat channel that you want to update, and then select the **User features** tab.
 

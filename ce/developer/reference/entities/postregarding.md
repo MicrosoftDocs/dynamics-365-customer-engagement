@@ -27,7 +27,7 @@ Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/dat
 
 |Property|Value|
 |---|---|
-|Targets|competitor, incident, lead, msdyn_salessuggestion, msdyn_swarm, opportunity|
+|Targets|competitor, incident, lead, msdyn_swarm, opportunity|
 
 
 ## Many-to-One relationships
@@ -37,7 +37,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [competitor_PostRegardings](#BKMK_competitor_PostRegardings)
 - [incident_PostRegardings](#BKMK_incident_PostRegardings)
 - [lead_PostRegardings](#BKMK_lead_PostRegardings)
-- [msdyn_salessuggestion_PostRegardings](#BKMK_msdyn_salessuggestion_PostRegardings)
 - [msdyn_swarm_PostRegardings](#BKMK_msdyn_swarm_PostRegardings)
 - [opportunity_PostRegardings](#BKMK_opportunity_PostRegardings)
 
@@ -77,19 +76,6 @@ One-To-Many Relationship: [lead lead_PostRegardings](lead.md#BKMK_lead_PostRegar
 |ReferencedAttribute|`leadid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_lead`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_salessuggestion_PostRegardings"></a> msdyn_salessuggestion_PostRegardings
-
-One-To-Many Relationship: [msdyn_salessuggestion msdyn_salessuggestion_PostRegardings](msdyn_salessuggestion.md#BKMK_msdyn_salessuggestion_PostRegardings)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msdyn_salessuggestion`|
-|ReferencedAttribute|`msdyn_salessuggestionid`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_salessuggestion`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

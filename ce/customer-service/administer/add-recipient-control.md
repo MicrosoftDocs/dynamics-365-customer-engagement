@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection:
-ms.date: 03/03/2025
+ms.date: 05/28/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -27,7 +27,7 @@ You can enable the recipient control for customer service representatives to dra
    - Set the **Static Value** for **Show Email address** to **True** to display the email address along with the name of the recipient.
    - Set the **Show out of office (preview)** to **True** to display the out-of-office status and the presence status of the recipient. 
      > [!NOTE]
-     > Presence is only displayed for system users with the **azureactivedirectoryobjectid** linked.
+     > Presence is displayed for system users only with the **azureactivedirectoryobjectid** linked.
 1. Save and publish the form.
 
     :::image type="content" source="../media/admin-recipient-handling-mini.png" alt-text="Screenshot of Powerapps configuration." lightbox="../media/admin-recipient-handling.png":::

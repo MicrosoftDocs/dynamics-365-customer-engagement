@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Automate hosted applications using HAT automation activities
 [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] (WF) allows you to implement business rules and procedures through a unique process of designing a workflow or automation model composed of multiple elements (called *activities*) that describe the business process. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Windows Workflow Foundation](https://msdn.microsoft.com/library/dd489441\(v=vs.100\).aspx)

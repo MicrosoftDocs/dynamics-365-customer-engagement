@@ -8,7 +8,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 

@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to 
-ms.date: 05/23/2024
+ms.date: 02/28/2026
 ms.custom: bap-template 
 ---
 
@@ -16,7 +16,7 @@ ms.custom: bap-template
 > [!NOTE]
 > Case is applicable to Customer Service only.
 
-The inbox gives you quick view of your assigned cases, conversations, and records. You can use it as your central place to locate, manage, and complete your day-to-day work. It can help you efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when you need more time to resolve cases and finish your conversations.
+The inbox gives you a quick view of your assigned cases, conversations, and records. You can use it as your central place to locate, manage, and complete your day-to-day work. It can help you efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when you need more time to resolve cases and finish your conversations.
 
 The view you see in your inbox depends on how your administrator configured it. More information: [Configure the inbox](../administer/configure-inbox.md).
 

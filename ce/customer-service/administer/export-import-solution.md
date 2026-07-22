@@ -1,7 +1,7 @@
 ---
 title: Enable calendar export and import with SLAs
 description: Enable the export or import of a calendar with its corresponding SLAs from the Copilot Service admin center or Customer Service Hub app.
-ms.date: 05/06/2025
+ms.date: 06/26/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas

@@ -690,6 +690,7 @@ One-To-Many Relationship: [systemuser user_msdyn_oclanguage](systemuser.md#BKMK_
 These relationships are one-to-many. Listed by **SchemaName**.
 
 - [msdyn_msdyn_oclanguage_msdyn_ocliveworkitem_customerlanguageid](#BKMK_msdyn_msdyn_oclanguage_msdyn_ocliveworkitem_customerlanguageid)
+- [msdyn_msdyn_oclanguage_msdyn_ocmessagemaskingrule_oclanguageid](#BKMK_msdyn_msdyn_oclanguage_msdyn_ocmessagemaskingrule_oclanguageid)
 - [msdyn_msdyn_oclanguage_msdyn_ocrecording_sourcelanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_ocrecording_sourcelanguage)
 - [msdyn_msdyn_oclanguage_msdyn_ocsystemmessage_defaultlanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_ocsystemmessage_defaultlanguage)
 - [msdyn_ocdispositioncode_languageid_msdyn_oclanguage](#BKMK_msdyn_ocdispositioncode_languageid_msdyn_oclanguage)
@@ -713,6 +714,18 @@ Many-To-One Relationship: [msdyn_ocliveworkitem msdyn_msdyn_oclanguage_msdyn_ocl
 |ReferencingAttribute|`msdyn_customerlanguageid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_oclanguage_msdyn_ocliveworkitem_customerlanguageid`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_oclanguage_msdyn_ocmessagemaskingrule_oclanguageid"></a> msdyn_msdyn_oclanguage_msdyn_ocmessagemaskingrule_oclanguageid
+
+Many-To-One Relationship: [msdyn_ocmessagemaskingrule msdyn_msdyn_oclanguage_msdyn_ocmessagemaskingrule_oclanguageid](msdyn_ocmessagemaskingrule.md#BKMK_msdyn_msdyn_oclanguage_msdyn_ocmessagemaskingrule_oclanguageid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocmessagemaskingrule`|
+|ReferencingAttribute|`msdyn_oclanguageid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_oclanguage_msdyn_ocmessagemaskingrule_oclanguageid`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_oclanguage_msdyn_ocrecording_sourcelanguage"></a> msdyn_msdyn_oclanguage_msdyn_ocrecording_sourcelanguage

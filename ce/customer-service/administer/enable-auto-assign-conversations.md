@@ -1,7 +1,7 @@
 ---
-title: Enable conversations to be assigned automatically
+title: Enable conversations to be assigned automatically in Dynamics 365 Contact Center
 description: Instructions for enabling autoassign of conversations.
-ms.date: 04/28/2025
+ms.date: 04/15/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -34,7 +34,6 @@ Perform the following steps:
 > [!NOTE]
 > - We recommend that you don't enable the auto-assign setting in consult notification templates.
 > - Auto-assign isn't supported in Omnichannel for Customer Service on Unified Service Desk.
-
 
 ## Enable voice calls and chats to be accepted automatically
 

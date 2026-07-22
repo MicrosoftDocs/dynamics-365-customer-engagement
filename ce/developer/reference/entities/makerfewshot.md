@@ -26,6 +26,19 @@ Messages represent operations that can be performed on the table. They may also 
 | `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 
 
+## Customized columns/attributes
+
+Microsoft Dynamics 365 modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
+
+### <a name="BKMK_SQLCorrectness"></a> SQLCorrectness
+
+Changes from [SQLCorrectness (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/makerfewshot#BKMK_SQLCorrectness)
+
+|Property|Value|
+|---|---|
+|RequiredLevel|None|
+|DefaultFormValue|-1|
+
 
 
 

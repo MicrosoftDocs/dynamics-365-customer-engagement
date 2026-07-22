@@ -1,7 +1,7 @@
 ---
 title: Facility scheduling examples in Dynamics 365 Field Service
 description: Learn about different scenarios on how facility scheduling is used.
-ms.date: 06/09/2025
+ms.date: 06/30/2026
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
@@ -9,37 +9,71 @@ ms.author: mkelleher
 
 # Facility scheduling examples
 
-When creating requirements in the following scenarios, consider the following information:
+Facility scheduling lets you book physical spaces—like repair bays, treatment rooms, or inspection lanes—and, when you need to, pair those spaces with the people who staff them. This article shows four common setups in order of complexity.
 
-- For requirements that aren't part of a requirement group, only facility or facility pool resources can return in the schedule assistant if **Work Location** is set to **Facility**.
-- A resource can't be related to two facilities (child or association) at the same time.
-- Manually scheduling a single requirement to a facility doesn't create records for all resources related to the facility.
+These examples assume you're familiar with the basics. If you're not, start with [Schedule a facility](facility-scheduling.md), which covers facility resources, the booking steps, and how to [pick the right facility setup](facility-scheduling.md#facility-variations). These examples build on a few core concepts. Learn more in:
 
-The following examples show how to schedule multiple spaces at a facility or reserve an appointment with a person at a facility.
+- [Work locations for scheduling requirements](scheduling-requirement-locations.md): what **Work Location = Facility** does.
+- [Add work hours](set-up-bookable-resources.md#add-work-hours): how **Capacity** lets one resource take concurrent bookings.
+- [Schedule resource pools](resource-pools.md): facility and people pools.
+- [Schedule multiple resources with requirement groups](multi-resource-scheduling-requirement-groups.md): requirement groups and **Part of Same**.
 
-- [Scenario 1: Schedule a facility with five generic spaces](#scenario-1-schedule-a-facility-with-five-generic-spaces)
-- [Scenario 2: Schedule a facility and a related resource](#scenario-2-schedule-a-facility-and-a-related-resource)
-- [Scenario 3: Schedule a facility with three specific spaces](#scenario-3-schedule-a-facility-with-three-specific-spaces)
-- [Scenario 4: Schedule a facility with two specific spaces and two related resources](#scenario-4-schedule-a-facility-with-two-specific-spaces-and-two-related-resources)
+## How resources relate to a facility
+
+These scenarios connect resources to a facility in two different ways. Knowing which one a scenario uses helps you follow the steps:
+
+- **Resource children** define what a pool *contains*—each bay is a child of its facility pool ("these spaces are part of this location").
+- **Bookable resource association** links two separate resources that *work together*—a mechanic associated to a facility ("this person works at this place").
+
+Scenario 3 uses children, Scenario 2 uses an association, and Scenario 4 uses both.
+
+## Before you begin
+
+Keep these rules in mind for every scenario:
+
+- For requirements that aren't part of a requirement group, the schedule assistant returns only facility or facility-pool resources when **Work Location** is set to **Facility**.
+- A resource can't be related to two facilities (as a child or an association) at the same time.
+- Manually scheduling a single requirement to a facility doesn't create bookings for the other resources related to that facility.
+
+## Compare the scenarios
+
+Use this table to find the scenario that matches your situation, and then follow its steps.
+
+| | Scenario 1 | Scenario 2 | Scenario 3 | Scenario 4 |
+|---|---|---|---|---|
+| **Spaces** | Generic (capacity) | Single facility | Specific (children) | Specific (children) |
+| **People** | — | One specific person | — | Pool of specialists |
+| **Uses a pool** | No | No | Yes (facilities) | Yes (facilities + people) |
+| **Uses association** | No | Yes | No | Yes |
+| **Requirement group** | No | Yes | Yes | Yes |
+| **Key setting** | Capacity = 5 | Part of Same = Resource Tree | Part of Same = Same Location | Part of Same = Resource Tree |
 
 ## Scenario 1: Schedule a facility with five generic spaces
 
+**Use this scenario when:** your spaces are interchangeable and you only need to limit how many bookings happen at once.
+
+**What you're building:** a single facility resource with a capacity of 5, so you can book it up to five times in the same time slot.
+
 An auto repair shop has five identical bays and schedulers don't need to book each bay specifically. They must, however, ensure that no more than five repairs are booked across all bays during any one time slot.
 
-1. [Create a facility resource](facility-scheduling.md#create-a-facility-resource). On the **Work Hours** tab, enable **Capacity** and set it to 5. For more information on capacity, go to [Add work hours](set-up-bookable-resources.md#add-work-hours).
+1. [Create a facility resource](facility-scheduling.md#step-1-create-a-facility-resource). On the **Work Hours** tab, enable **Capacity** and set it to 5. Learn more in [Add work hours](set-up-bookable-resources.md#add-work-hours).
 
-1. [Create a requirement for the facility](facility-scheduling.md#create-a-requirement-for-a-facility).
+1. [Create a requirement for the facility](facility-scheduling.md#step-2-create-a-requirement-for-a-facility) with **Work Location** set to **Facility**.
 
 1. Book the requirements at the facility. The facility resource shows as available and can be double-booked up to the capacity limit (in this case, five times).
 
 > [!Note]
-> Capacity scheduling isn't intended for booking the same requirement multiple times, but rather to book multiple requirements. Rebooking a previously booked requirement cancels the existing booking and create a new one.
+> Capacity scheduling isn't intended for booking the same requirement multiple times, but rather to book multiple requirements. Rebooking a previously booked requirement cancels the existing booking and creates a new one.
 
 ## Scenario 2: Schedule a facility and a related resource
 
+**Use this scenario when:** a booking needs both a space and one specific person who works there.
+
+**What you're building:** a facility resource and a person resource, linked by a bookable resource association, then booked together as a requirement group.
+
 An auto repair shop offers transmission repairs including luxury cars. They have a mechanic that specializes in luxury cars. Schedulers want to schedule the specialized mechanic at their facility. You can associate a resource (user, account, or contact) to a facility.
 
-1. [Create a facility resource](facility-scheduling.md#create-a-facility-resource) for the auto repair shop.
+1. [Create a facility resource](facility-scheduling.md#step-1-create-a-facility-resource) for the auto repair shop.
 
 1. Create a resource to represent the specialized mechanic.
 
@@ -54,7 +88,10 @@ An auto repair shop offers transmission repairs including luxury cars. They have
 
    :::image type="content" source="media/scheduling-facility-associate-resource.png" alt-text="Screenshot of the association between the mechanic resource and facility resource.":::
 
-1. [Create a requirement group](facility-scheduling.md#create-a-requirement-for-a-facility) with one requirement for the facility (auto repair shop) and another requirement for the mechanic resource.
+   > [!NOTE]
+   > You open the association from the facility, but the mechanic goes in the **Resource 1** field. Double-check this—it's easy to reverse.
+
+1. [Create a requirement group](facility-scheduling.md#step-2-create-a-requirement-for-a-facility) with one requirement for the facility (auto repair shop) and another requirement for the mechanic resource.
 
    - Set **Select** to **All** so that all requirements must be met.
    - Set **Part of Same** to **Resource Tree** so that resources from different locations aren't recommended for work at this facility. As an example, a mechanic associated with Facility B shouldn't be paired with Facility A.
@@ -66,13 +103,17 @@ An auto repair shop offers transmission repairs including luxury cars. They have
    :::image type="content" source="media/scheduling-facility-schedule-board-2-resources.png" alt-text="Screenshot of two bookings for each requirement in the requirement group, one for the facility and one for the mechanic resource.":::
 
 > [!NOTE]
-> Travel time and distance are calculated as the time and distance for the customer to travel to the facility. There's no travel calculation considered for the mechanic resource, as the assumption is that they are at the facility at the required time.
+> Travel time and distance are calculated as the time and distance for the customer to travel to the facility. There's no travel calculation considered for the mechanic resource, as the assumption is that they're at the facility at the required time.
 
 ## Scenario 3: Schedule a facility with three specific spaces
 
+**Use this scenario when:** you need to book particular individual spaces, not just any open space.
+
+**What you're building:** a facility pool for the shop, with each bay as a child facility resource, booked through a requirement group.
+
 An auto repair shop wants to schedule each individual bay at their facility. Create a pool of facilities to represent the auto repair shop and each individual bay.
 
-1. [Create a facility resource](facility-scheduling.md#create-a-facility-resource) for the auto repair shop where the **Resource Type = Pool** and **Pool Type = Facility**.
+1. [Create a facility resource](facility-scheduling.md#step-1-create-a-facility-resource) for the auto repair shop where the **Resource Type** is **Pool** and **Pool Type** is **Facility**.
 
 1. Create multiple facility resources to represent each bay.
 
@@ -86,7 +127,7 @@ An auto repair shop wants to schedule each individual bay at their facility. Cre
 
    :::image type="content" source="media/scheduling-facility-room-specific-children.png" alt-text="Screenshot of all bay resources related as children to the auto repair shop facility.":::
 
-1. [Create a requirement group](facility-scheduling.md#create-a-requirement-for-a-facility). In this example, we're looking for two specific bays within the same auto repair shop. Create two requirements in the group.
+1. [Create a requirement group](facility-scheduling.md#step-2-create-a-requirement-for-a-facility). In this example, you're looking for two specific bays within the same auto repair shop. Create two requirements in the group.
 
    - Set **Part of Same** to **Same Location** to ensure each bay is at the same physical address.
    - Set duration, characteristics, or other criteria.
@@ -102,9 +143,13 @@ An auto repair shop wants to schedule each individual bay at their facility. Cre
 
 ## Scenario 4: Schedule a facility with two specific spaces and two related resources
 
+**Use this scenario when:** you need specific spaces and a pool of qualified people, without assigning a named person up front.
+
+**What you're building:** a facility pool of bays and a pool of mechanics, linked by an association, booked together as a requirement group.
+
 An auto repair shop wants to schedule specific bays at their facility to a pool of specialized mechanics who work at the facility. Create a pool of facilities and a pool of mechanics.
 
-1. [Create a facility pool resource](facility-scheduling.md#create-a-facility-resource) for the auto repair shop where the **Resource Type = Pool** and **Pool Type = Facility**.
+1. [Create a facility pool resource](facility-scheduling.md#step-1-create-a-facility-resource) for the auto repair shop where the **Resource Type = Pool** and **Pool Type = Facility**.
 
 1. Create facility resources to represent each bay.
 
@@ -116,7 +161,7 @@ An auto repair shop wants to schedule specific bays at their facility to a pool 
    - Open the auto repair shop facility pool resource, and go to **Related > Resource Children**.
    - Add each bay resource as a child record to the parent facility pool.
 
-1. [Create a pool](resource-pools.md) of specialized mechanics. Using a pool allows schedulers to book appointments based on capacity without having to assign a specific mechanic at the time of scheduling.
+1. [Create a pool](resource-pools.md) of specialized mechanics. By using a pool, schedulers can book appointments based on capacity without having to assign a specific mechanic at the time of scheduling.
 
    - Set **Resource Type** to **Pool**.
    - Set **Pool Type** to **Contact**, **User**, or **Account**.
@@ -159,5 +204,14 @@ An auto repair shop wants to schedule specific bays at their facility to a pool 
    > [!NOTE]
    > Use fulfillment preferences to display schedule assistant results in neat hourly timeslots.
 
+## Troubleshooting
+
+If the schedule assistant returns no results:
+
+- Confirm **Work Location** is set to **Facility** on every requirement.
+- Confirm latitude and longitude are set and match across all requirements in a group.
+- Confirm each bay and person shares the same organizational unit as the facility.
+- For requirement groups, confirm **Part of Same** matches your intent (**Same Location** for one address, **Resource Tree** to keep resources tied to the same facility).
+- Confirm associated resources or pool children aren't already related to a different facility.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

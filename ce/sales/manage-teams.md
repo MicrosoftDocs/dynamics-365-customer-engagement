@@ -1,7 +1,7 @@
 ---
 title: "Create or manage teams in Dynamics 365 Sales | MicrosoftDocs"
 description: "Create a team with a group of users so they can share and collaborate on business records in Dynamics 365 Sales."
-ms.date: 01/28/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,11 +18,11 @@ A team is a group of users who share and collaborate on business records. A user
 
 Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:
 
-# [Sales Premium or Sales Enterprise](#tab/sales)
+# [Sales Hub app](#tab/sales)
 
 Follow the instructions in [Microsoft Dataverse teams management](/power-platform/admin/manage-teams) to create and manage teams.
 
-# [Sales Professional](#tab/salespro)
+# [Sales Professional app](#tab/salespro)
 
 **To create a team**:
 

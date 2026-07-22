@@ -70,11 +70,13 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_botid](#BKMK_msdyn_botid)
 - [msdyn_botsessionId](#BKMK_msdyn_botsessionId)
+- [msdyn_convtranscriptid](#BKMK_msdyn_convtranscriptid)
 - [msdyn_csatscore](#BKMK_msdyn_csatscore)
 - [msdyn_endedon](#BKMK_msdyn_endedon)
 - [msdyn_isengaged](#BKMK_msdyn_isengaged)
 - [msdyn_lastsessionoutcome](#BKMK_msdyn_lastsessionoutcome)
 - [msdyn_lastsessionoutcomereason](#BKMK_msdyn_lastsessionoutcomereason)
+- [msdyn_mcsbotsessionid](#BKMK_msdyn_mcsbotsessionid)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_outcome](#BKMK_msdyn_outcome)
 - [msdyn_outcomereason](#BKMK_msdyn_outcomereason)
@@ -129,6 +131,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_botsessionid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_convtranscriptid"></a> msdyn_convtranscriptid
+
+|Property|Value|
+|---|---|
+|Description|**Conversation Transcript Id**|
+|DisplayName|**Conversation Transcript Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_convtranscriptid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_csatscore"></a> msdyn_csatscore
 
@@ -227,6 +246,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |419580006|**Resolved**|
 |419580007|**Agent Transfer Configured By Author**|
 |419580008|**Agent Transfer From Question Max Attempts**|
+
+### <a name="BKMK_msdyn_mcsbotsessionid"></a> msdyn_mcsbotsessionid
+
+|Property|Value|
+|---|---|
+|Description|**MCS Bot Session Id**|
+|DisplayName|**MCS Bot Session Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_mcsbotsessionid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 

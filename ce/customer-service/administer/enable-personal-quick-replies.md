@@ -1,7 +1,7 @@
 ---
 title: Enable personal quick replies in Dynamics 365 Contact Center
 description: Learn how to enable personal quick replies in the representative experience for Dynamics 365 Contact Center.
-ms.date: 04/28/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

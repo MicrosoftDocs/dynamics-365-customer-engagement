@@ -1,7 +1,7 @@
 ---
 title: Sentiment monitoring
 description: Learn how supervisors can enable sentiment monitoring to understand customer sentiment across channels and improve customer service.
-ms.date: 09/30/2025
+ms.date: 07/20/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -18,7 +18,11 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 Sentiment analysis enables service representatives and supervisors to understand real-time and historical customer sentiment across channels to improve customer service. The application uses natural language processing (NLP) and machine learning (ML) algorithms to understand customer sentiments.
 
-Sentiment intensity indicators are displayed based on the previous six customer messages received in a conversation. Sentiment intensity is scored in one of seven gradients: three positive, three negative, and one neutral.
+For real-time conversational channels, such as chat and messaging, the application displays sentiment intensity indicators based on the previous six customer messages received in a conversation. The sentiment intensity is scored in one of seven gradients: three positive, three negative, and one neutral.
+
+> [!NOTE]
+> Email Sentiment uses a three-class scale (Positive, Neutral, Negative) and is evaluated per email message, not through the seven-gradient model. Learn more in [View email sentiment](/power-apps/user/view-compose-email#view-email-sentiment).
+> Case sentiment aggregates email sentiment signals from all emails associated with a case to provide an overall sentiment indicator for the case. This rollup gives supervisors and service representatives a quick view of how a customer feels across the entire case, rather than just in an individual message. Learn more in [Configure sentiment analysis for case](../administer/configure-case-sentiment-analysis.md)
 
 | Sentiment | Icon |
 |--------------------------|---------------------------------------------------|
@@ -38,7 +42,7 @@ Sentiment analysis supports multiple languages. The system uses Microsoft Azure 
 > - Unsupported languages don't receive a sentiment score.
 > - If profanity is detected in English, then the sentiment shows as Negative or Very negative.
 
-To learn more, see [Explore Text Translator API](/azure/cognitive-services/translator/translator-info-overview).
+Learn more in [Explore Text Translator API](/azure/cognitive-services/translator/translator-info-overview).
 
 ## Personas
 
@@ -48,7 +52,7 @@ The multi-language sentiment feature supports the following personas: administra
 
    - You can configure sentiment for English-only and non-English languages.
        > [!NOTE]
-       > Sentiment is enabled in by default.
+       > Sentiment analysis is enabled by default.
 
 - If you're a supervisor (team lead):
 
@@ -64,7 +68,7 @@ The multi-language sentiment feature supports the following personas: administra
 
 - If you're a service representative: 
 
-    - You want to know customer's sentiments in real time and see customer satisfaction levels instantly as you communicate with them.
+    - You want to know customer's sentiments in real time and monitor customer satisfaction levels instantly as you communicate with them.
 
     - You can be responsible for handling multiple customer engagements at any given time.
 
@@ -102,11 +106,10 @@ While a service representative is communicating with the customer, if the custom
 - Monitor button
 - Ignore button
 
-
     > [!div class=mx-imgBorder]
     > ![Sentiment notification.](../media/sentiment-notification.png "Sentiment notification")
 
-You can select the **Monitor** button to see the **Active Conversation** and the communication panel. If the service representative requires help, you can join the conversation.
+Select the **Monitor** button to access the **Active Conversation** and the communication panel. If the service representative needs help, you can join the conversation.
 
 For example:
 
@@ -118,7 +121,7 @@ Sentiment analysis relies on the initial customer messages in any conversation t
 
 Expect the following system behaviors:
 
-- If a customer's initial messages are detected as English, the system assumes that subsequent messages are in English as well. If your customer switches away from English after these initial messages, the system doesn't perform language redetection. In this situation, you most often see a neutral sentiment score throughout the rest of the non-English conversation.
+- If the system detects a customer's initial messages as English, it assumes that subsequent messages are in English as well. If your customer switches away from English after these initial messages, the system doesn't perform language redetection. In this situation, a neutral sentiment score most often displays throughout the rest of the non-English conversation.
 
 - If a customer's initial messages are detected as non-English, the system performs redetection and scoring for subsequent messages. If any following messages are detected as non-English, the subsequent messages are redetected and scored according to the detected language.
 
@@ -136,8 +139,9 @@ This feature is intended to help customer service managers or supervisors enhanc
 
 ### Related information
 
-[Enable sentiment analysis](../administer/enable-sentiment-analysis.md)<br>
-[Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)<br>
+[Enable sentiment analysis](../administer/enable-sentiment-analysis.md)  
+[Configure sentiment analysis for case](../administer/configure-case-sentiment-analysis.md)  
+[Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
 [Monitor conversations](monitor-conversations.md)
 
 

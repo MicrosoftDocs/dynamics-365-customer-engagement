@@ -14,7 +14,7 @@ To learn how to set up location auditing and sharing, go to [geofencing](../../f
 
 ## Ignore travel time
 
-Ignores the estimated travel time and only checks if a resource has enough time available in their schedule.
+Ignores the estimated travel time and only checks if a resource has enough time available in their schedule. The estimated travel time is still calculated and stored on the booking record when created, however it is ignored when determining if the resource is available.
 
 ## Ignore duration
 

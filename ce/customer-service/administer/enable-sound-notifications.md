@@ -1,7 +1,7 @@
 ---
 title: Enable sound notifications for conversations in Dynamics 365 Contact Center
 description: How to enable sound notifications for conversations in Dynamics 365 Contact Center.
-ms.date: 04/15/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

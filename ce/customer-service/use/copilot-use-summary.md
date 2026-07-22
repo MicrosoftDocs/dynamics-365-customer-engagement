@@ -6,15 +6,14 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 07/28/2025
+ms.date: 01/19/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template 
 ---
 
-# Use Copilot generated case summary
+# Use Copilot-generated case summaries
 
 [!INCLUDE[cc-feature-availability-cs-only](../../includes/cc-feature-availability-cs-only.md)]
-
 
 Copilot case summaries help you quickly understand the context of a case and resolve customer issues more efficiently. The case summary includes key information such as the case title, customer, subject, product, priority, case type, and description.
 
@@ -34,7 +33,6 @@ The case summary appears as a card on the case form. When you open a case, the c
 :::image type="content" source="../media/copilot-case-summary.png" alt-text="Screenshot of a paragraph Copilot case summary.":::
 
 ### [Structured format](#tab/summaryformat)
-
 
 
 :::image type="content" source="../media/case-summary-structured.png" alt-text="Screenshot of a paragraph Copilot case summary.":::

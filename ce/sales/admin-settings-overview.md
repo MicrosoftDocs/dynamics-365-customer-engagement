@@ -1,7 +1,7 @@
 ---
 title: Admin settings overview
 description: Admin settings provide an organized and unified experience for administrators to easily configure the Dynamics 365 Sales app from a single place.
-ms.date: 04/25/2025
+ms.date: 05/29/2026
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
@@ -14,9 +14,9 @@ Admin settings provide an organized and unified experience for administrators to
 
 ## Access admin settings
 
-Select the tab for the Dynamics 365 Sales license you have:
+Select a tab based on the sales app that you use:
 
-# [Sales Premium and Sales Enterprise](#tab/SE)
+# [Sales Hub app](#tab/SE)
 
 ## Sales app settings
 
@@ -47,17 +47,17 @@ To open the Sales Insights settings, select **Change area** :::image type="icon"
 
 [Learn how to install and administer Sales Insights features](intro-admin-guide-sales-insights.md).
 
-To set up and use the premium sales insights features, you must have a Dynamics 365 Sales Premium license. [Learn more about Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/).
+To set up and use the premium sales insights features, you must have a specific Dynamics 365 Sales license. [Learn more in the Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-# [Sales Professional](#tab/SP)
+# [Sales Professional app](#tab/SP)
 
-To manage the admin settings in Sales Professional, select **Sales Settings**.
+To manage the admin settings in the Sales Professional app, select **Sales Settings**.
 
 ### Get Started page
 
 The **Get Started** page makes it easy to set up what's most important. One selection configures Microsoft Exchange and SharePoint so that your users can start sending emails and sharing documents right away. You can also import data quickly, so that your users have everything they need in the app. And if you want to change or customize anything later, you can find the standard settings in the same place.
 
-:::image type="content" source="media/standard-settings-page.png" alt-text="Screenshot of the Get Started page in Dynamics 365 Sales Professional.":::
+:::image type="content" source="media/standard-settings-page.png" alt-text="Screenshot of the Get Started page in the Sales Professional app.":::
 
 [Learn how to use the site map to go to different areas of the app](user-guide-learn-basics.md).
 

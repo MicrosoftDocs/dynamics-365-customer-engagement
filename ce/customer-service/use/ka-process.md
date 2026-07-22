@@ -4,8 +4,8 @@ description: Learn the process for creating and using knowledge articles.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
-ms.date: 04/30/2025
+ms.topic: concept-article
+ms.date: 06/26/2026
 ms.custom: bap-template
 ---
 

@@ -1,23 +1,16 @@
 ---
-title: msdyn_ConnectSequence Action
-description: How to assigns a lead and opportunity entity record to a sequence.
-ms.date: 01/26/2025 
+title: msdyn_ConnectSequence action for Sequences
+description: Learn how to use the msdyn_ConnectSequence action to connect lead, opportunity, or account records to a sequence, review parameters, and send a request now.
+ms.date: 07/07/2026 
 ms.topic: reference
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ---
 
-# msdyn_ConnectSequence Action
+# msdyn_ConnectSequence action for Sequences
 
-This action is used to assign a lead and opportunity entity record to a sequence.
-
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../../../security-roles-for-sales.md)|
+Use the msdyn_ConnectSequence action to assign a lead, opportunity, or account record to a sequence quickly and consistently.
 
 ## Parameters
 

@@ -1,7 +1,7 @@
 ---
 title: Collaborate with AI-suggested contacts in Microsoft Teams
 description: Learn how to use the AI-suggested experts and collaborate with them through Microsoft Teams to resolve cases in Customer Service.
-ms.date: 04/29/2025
+ms.date: 05/27/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: neeranelli
@@ -71,6 +71,5 @@ If the Teams chat is created for an active case, the participants who receive th
 
 ### Related information
 
-[View AI-suggested cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)  
 [Overview of Copilot Service workspace](../implement/csw-overview.md)  
 [Use Microsoft Teams chat in Sales Hub](../../sales/teams-integration/using-teams-chat-in-dynamics.md)  

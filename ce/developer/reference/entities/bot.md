@@ -26,6 +26,18 @@ Messages represent operations that can be performed on the table. They may also 
 | `msdyn_UpdateSurveyBotTopics`<br />Event: True |**msdyn_UpdateSurveyBotTopics action** |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 
 
+## Customized columns/attributes
+
+Microsoft Dynamics 365 modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
+
+### <a name="BKMK_iconbase64"></a> iconbase64
+
+Changes from [iconbase64 (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/bot#BKMK_iconbase64)
+
+|Property|Value|
+|---|---|
+|MaxLength|136533|
+
 
 ## One-to-Many relationships
 

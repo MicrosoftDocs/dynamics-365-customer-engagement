@@ -16,22 +16,27 @@ author: DerekBraunMSFT
 # Connect Customer Engagement (on-premises) to Exchange Online
 
 > [!WARNING]
-> This configuration uses the Exchange Web Services (EWS) protocol to communicate with Exchange Online, which is going to be removed from Microsoft Exchange Online in October 2026. Learn more in [Deprecation of Exchange Web Services in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-ews-exchange-online).
+> This configuration uses the Exchange Web Services (EWS) protocol to communicate with Exchange Online, which is going to be removed from Microsoft Exchange Online in April 2027. Learn more in [Deprecation of Exchange Web Services in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-ews-exchange-online).
 >
-> Using this feature requires a manual connection process. Starting October 1st 2025, no new tenants will be connected to this feature.
+> Using this feature requires a manual connection process. Starting October 1st 2025, there will be no new updates, and no new tenants will be connected to this feature.
 >
 > This integration will be removed in the following months:
 >
-> - On-premises version 8x (currently deprecated): January 1st, 2026
-> - On-premises version 9x: October 1st, 2026
+> **Important dates**
 >
-> If you need server-side synchronization functionality, we recommend that you migrate to Dynamics 365 Online. Learn more in [Dynamics CRM (on-premises) to Dynamics 365 migration](/dynamics365/guidance/fasttrack/migration) and [Dynamics CRM (on-premises) to Dynamics 365 online migration process overview](/dynamics365/guidance/migrate/opol-crm-migration-high-level-overview).
+> - **May 25, 2026** — End of support for Dynamics CRM Customer Engagement v8.0 (on-premises) with Exchange Online.
+> - **October 1, 2026** — Recommended deadline to migrate to Dynamics 365 (online), or [Allow list tenant with EWS for support until April 1, 2027](https://techcommunity.microsoft.com/blog/exchange/exchange-online-ews-your-time-is-almost-up/4492361).
+> - **April 1, 2027** — End of support for Dynamics CRM Customer Engagement v9.0 (on-premises) with Exchange Online.
+>
+> If you need server-side synchronization functionality, we recommend that you migrate to Dynamics 365 (online). Learn more in [Dynamics CRM (on-premises) to Dynamics 365 migration](/dynamics365/guidance/fasttrack/migration) and [Dynamics CRM (on-premises) to Dynamics 365 online migration process overview](/dynamics365/guidance/migrate/opol-crm-migration-high-level-overview).
+>
+> Another alternative is to use supported on-premises versions of Exchange Server instead of Exchange Online. Learn more in [Connect Customer Engagement (on-premises) to Exchange Server (on-premises)](/dynamics365/customerengagement/on-premises/admin/connect-on-prem-exchange-server-on-prem).
 
-::: moniker range="op-9-1"
-[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
-::: moniker-end
+This article describes how to configure server-based authentication between Dynamics 365 Customer Engagement (on-premises) and Exchange Online. The diagram below illustrates the communication between Dynamics 365 Customer Engagement (on-premises), Azure Active Directory, and Exchange Online.
 
-This article describes how to configure server-based authentication between Dynamics 365 (on-premises) and Exchange Online. The diagram below illustrates the communication between Dynamics 365 (on-premises), Azure Active Directory, and Exchange Online.
+![Dynamics 365 (on-premises) and Exchange Online.](media/dynamics-365-onprem-exchange-online.png)
+
+This article describes how to configure server-based authentication between Dynamics 365 Customer Engagement (on-premises) and Exchange Online. The diagram below illustrates the communication between Dynamics 365 Customer Engagement (on-premises), Azure Active Directory, and Exchange Online.
 
 ![Dynamics 365 (on-premises) and Exchange Online.](media/dynamics-365-onprem-exchange-online.png)
 
@@ -48,21 +53,21 @@ This article describes how to configure server-based authentication between Dyna
     > [!IMPORTANT]
     > In this deployment, the Dynamics 365 administrator can approve mailboxes.
 
-- As part of configuring your Customer Engagement (on-premises) access to Exchange Online, you must ask your tenant's Exchange Online administrator to [engage with Exchange Support](/microsoft-365/admin/get-help-support?view=o365-worldwide&preserve-view=true) to turn on this access for your Exchange Online tenant ID.
+- As part of configuring your Dynamics 365 Customer Engagement (on-premises) access to Exchange Online, you must ask your tenant's Exchange Online administrator to [engage with Exchange Support](/microsoft-365/admin/get-help-support?view=o365-worldwide&preserve-view=true) to turn on this access for your Exchange Online tenant ID.
 
 ## Set up server-based authentication with Microsoft Dynamics 365 and Exchange Online
 
-Follow the steps in the order provided to set up Dynamics 365 (on-premises) with Exchange Online.
+Follow the steps in the order provided to set up Dynamics 365 Customer Engagement (on-premises) with Exchange Online.
 
 > [!IMPORTANT]
 > The steps described here must be completed in the order provided. If a task is not completed, such as a Windows PowerShell command that returns an error message, the issue must be resolved before you continue to the next command, task, or step.
 
 ### Verify prerequisites
 
-Before you configure Dynamics 365 (on-premises) and Exchange Online for server-based authentication, the following prerequisites must be met:
+Before you configure Dynamics 365 Customer Engagement (on-premises) and Exchange Online for server-based authentication, the following prerequisites must be met:
 
 - Microsoft Dynamics 365 Hybrid Connector. The Microsoft Dynamics 365 Hybrid Connector is a free connector that lets you use server-based authentication with Microsoft Dynamics 365 (on-premises) and Exchange Online. More information: [Microsoft Dynamics 365 Hybrid Connector](https://signup.microsoft.com/Signup?OfferId=2d11d538-945d-48c6-b609-a5ce54ce7b18&pc=76ac7a4d-8346-4419-959c-d3896e89b3c9)
-- An x509 digital certificate issued by a trusted certificate authority is used to authenticate between Dynamics 365 (on-premises) and Exchange Online. The certificate should have a [KeySpec value](/windows-server/identity/ad-fs/technical-reference/ad-fs-and-keyspec-property) of 1. If you're evaluating server-based authentication, you can use a self-signed certificate.
+- An x509 digital certificate issued by a trusted certificate authority is used to authenticate between Dynamics 365 Customer Engagement (on-premises) and Exchange Online. The certificate should have a [KeySpec value](/windows-server/identity/ad-fs/technical-reference/ad-fs-and-keyspec-property) of 1. If you're evaluating server-based authentication, you can use a self-signed certificate.
 - Verify that all servers that run the Asynchronous Processing Service have the certificate that is used for Server-to-Server authentication.
 - Verify that the account that runs the Asynchronous Processing Service has read access to private keys of the certificate. More information: [Grant the Asynchronous Processing Service service account read access to the certificate](#grant-the-asynchronous-processing-service-service-account-read-access-to-the-certificate)
 

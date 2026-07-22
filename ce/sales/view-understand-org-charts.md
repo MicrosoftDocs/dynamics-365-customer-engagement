@@ -5,26 +5,26 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 03/27/2025
+ms.date: 04/30/2026
 ms.custom: bap-template
 ---
 
 # View and understand the org charts
 
-The org chart is accessible from accounts and contacts. To view the org chart for an account or a contact, select **Open org chart** in the command bar. If an organizational chart exists for the selected record, it's displayed. If not, you can [create one](manage-org-charts.md#create-or-edit-an-org-chart).
+You can access the org chart from accounts and contacts. To view the org chart for an account or a contact, select **Open org chart** in the command bar. If an organizational chart exists for the selected record, it's displayed. If not, you can [create one](manage-org-charts.md#create-or-edit-an-org-chart).
 
 >[!NOTE]
 >
->- Org charts that were previously created using the legacy org chart feature are automatically upgraded to the new org chart format.
+>- Org charts that you previously created by using the legacy org chart feature are automatically upgraded to the new org chart format.
 >- Org charts are available only for accounts and contacts.
 
 The following image is an example of an org chart:
 
 :::image type="content" source="media/org-chart-example.svg" alt-text="Screenshot showing an example of an org chart for an account." lightbox="media/org-chart-example.svg":::
 
-You can do the following actions in the org chart for better accessibility and understanding:
+For better accessibility and understanding, you can perform the following actions in the org chart:
 
-- **Zoom in and out**: Adjust the view of the org chart by zooming in and out to display more or fewer levels of the organizational structure within the available screen space. You can also move the org chart around to focus on a specific area. Use the **Zoom in**, **Zoom out**, and **Reset zoom** options in the org chart to adjust the view. The current zoom selection will be remembered and applied the next time you open the org chart.
+- **Zoom in and out**: Adjust the view of the org chart by zooming in and out to display more or fewer levels of the organizational structure within the available screen space. You can also move the org chart around to focus on a specific area. Use the **Zoom in**, **Zoom out**, and **Reset zoom** options in the org chart to adjust the view. The current zoom selection is remembered and applied the next time you open the org chart.
 
 - **Highlight specific contact**: To highlight a contact card in the org chart, select a contact from the left contact pane. 
 
@@ -70,14 +70,14 @@ When a contact leaves the organization and updates their LinkedIn profile, the o
 
 1. On the **Verify Contact Details** pane, review the details and update the contact information as required.
 
-    - If the contact has moved to a new organization, update the account information in the **Update Company info in your contacts** section and select **Update Contact**.
+    - If the contact moved to a new organization, update the account information in the **Update Company info in your contacts** section and select **Update Contact**.
     - If the contact is still with the current organization, select **Ignore Update**.
 
-A red border around a contact card indicates the contact's organization has changed and needs your review.
+A red border around a contact card indicates the contact's organization changed and needs your review.
 
 ### Add notes
 
-Add notes to keep and share important information or tasks related to the contact. Notes are available in the **Contact Details** pane and on the contact's timeline.
+Add notes to keep and share important information or tasks related to the contact. You can access notes in the **Contact Details** pane and on the contact's timeline.
 
 1. In the **Seller notes** section, select **Create a note**.
 1. In the note editor, enter a title and the content of your note.

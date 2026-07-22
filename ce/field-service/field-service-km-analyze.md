@@ -4,7 +4,7 @@ description: Learn how to analyze knowledge article statistics in Dynamics 365 F
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
-ms.date: 11/07/2024
+ms.date: 12/23/2025
 ms.custom: bap-template
 ---
 
@@ -29,8 +29,8 @@ Tracking knowledge article analytics helps you assess the value your articles pr
      The **Rating** field calculates the average rating of the article based on the amount of feedback and number of ratings received.
 
     > [!NOTE]
-    > Rating and view count numbers are rollup fields that are not updated instantly.
+    > Rating and view count numbers are rollup fields that aren't updated instantly.
 
-1. If necessary, make updates to the knowledge article based on the feedback. [Use versioning](field-service-km-versions.md) or [update the published article](field-service-knowledge-management.md#update-a-published-knowledge-article).
+1. If necessary, make updates to the knowledge article based on the feedback. [Use versioning](field-service-km-versions.md) or [update the published article](field-service-km-versions.md#update-a-published-knowledge-article).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

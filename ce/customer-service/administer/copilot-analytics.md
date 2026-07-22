@@ -4,9 +4,9 @@ description: Learn how to enable Copilot analytics in the Copilot Service admin 
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
-ms.date: 05/06/2025
+ms.date: 06/26/2026
 ms.custom: bap-template
 ---
 

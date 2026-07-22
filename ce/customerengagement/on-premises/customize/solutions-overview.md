@@ -20,7 +20,7 @@ ms.author: "matp"
 # Overview of working with solutions 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Solutions overview](/powerapps/maker/common-data-service/solutions-overview)
  
-In Dynamics 365 Customer Engagement (on-premises), solutions are leveraged to transport apps and components from one organization to another or to apply a set of customizations to existing apps. A solution can contain one or more apps as well as other components such as site maps, entities, processes, web resources, option sets, and more. You can get solutions from [AppSource](https://appsource.microsoft.com/) or from an independent software vendor (ISV). A solution is a file that you can import in to an environment as an app or to apply a set of customizations to an existing app.  
+In Dynamics 365 Customer Engagement (on-premises), solutions are leveraged to transport apps and components from one organization to another or to apply a set of customizations to existing apps. A solution can contain one or more apps as well as other components such as site maps, entities, processes, web resources, option sets, and more. You can get solutions from [Marketplace](https://marketplace.microsoft.com/) or from an independent software vendor (ISV). A solution is a file that you can import in to an environment as an app or to apply a set of customizations to an existing app.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Whitepaper: Patterns and Principles for Solution Builders](https://go.microsoft.com/fwlink/p/?LinkID=533946)  
   

@@ -1,7 +1,7 @@
 ---
 title: View relationship analytics and KPIs
 description: Learn how to use relationship analytics in Dynamics 365 Sales to gauge the health of your customer relationships through KPIs such as frequency and recency of communications, response time, and so on.
-ms.date: 04/16/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

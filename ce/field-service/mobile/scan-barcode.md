@@ -1,7 +1,7 @@
 ---
 title: Configure barcode scanning
 description: Learn about barcode scanning and global search in the Dynamics 365 Field Service mobile app.
-ms.date: 10/06/2025
+ms.date: 02/12/2026
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -10,21 +10,21 @@ ms.author: jobaker
 
 # Configure barcode scanning
 
-Technicians can use the Dynamics 365 Field Service mobile app to scan a barcode.
+Technicians can use the Dynamics 365 Field Service mobile app to scan a barcode to search for records or simplify data entry. By default, Field Service searches activity, contact, user, customer asset, incident type, work order, and IoT alert/device records. To include more record types, [expand barcode search](#expand-barcode-search).
 
-Scanning a barcode simplifies data entry and lets technicians search the database for records that match the barcode.
-
-:::image type="content" source="../media/mobile-scan-barcode-new.png" alt-text="Four mobile devices in different stages of the barcode scan process.":::
+You can also configure a barcode field on a form for scanning.
 
 ## Add a barcode field to a form
 
-Make sure the form has a barcode field for barcode information. Customers often add the barcode field to the customer asset form. For more information about customizing your app, see [Model-driven app interface design overview](/power-apps/maker/model-driven-apps/app-interface-design-overview) and [Overview of the model-driven form designer](/power-apps/maker/model-driven-apps/form-designer-overview). For more information about customizing your app, go to [Model-driven app interface design overview](/power-apps/maker/model-driven-apps/app-interface-design-overview) and [Overview of the model-driven form designer](/power-apps/maker/model-driven-apps/form-designer-overview).
+Make sure the form has a barcode field for barcode information. For example, we'll add the **Asset Tag** field to the Asset form and make it a barcode field.
 
 1. Find the **Field Service Mobile** app module in your list of Dynamics 365 apps and select the ellipsis (&hellip;) > **Open in App Designer**.
 
+   :::image type="content" source="../media/app-mobile-open-in-designer.png" alt-text="Screenshot of the Apps screen with the Field Service Mobile highlighted.":::
+
 1. In the navigation, select the form for barcode scanning. In the list of available forms, select the form to change, and then select **Edit**.
 
-1. Add the table column for barcode scanning to the form.
+1. Add the table column for barcode scanning to the form. In this example, select **Asset Tag**.
 
 1. Select the new column and add the **BarcodeScannerControl** component in the **Properties** side pane. Enable **Show component on** for **Mobile** and **Tablet**.
 
@@ -35,11 +35,9 @@ Make sure the form has a barcode field for barcode information. Customers often 
 > [!NOTE]
 > Currently, the barcode scanner control doesn't support setting control-level error notifications. For more information, see [setNotification docs](/power-apps/developer/model-driven-apps/clientapi/reference/controls/setnotification).
 
-## Scan a barcode to populate the field value
+ Learn more about customizing your app in [Model-driven app interface design overview](/power-apps/maker/model-driven-apps/app-interface-design-overview) and [Overview of the model-driven form designer](/power-apps/maker/model-driven-apps/form-designer-overview). 
 
-In the mobile app, a barcode-enabled field has a barcode icon. Select the barcode icon to open the camera and scan a barcode or QR code. After a successful scan, the barcode value is added to the field. Save the form to write the scanned value to the database.
-
-## Enable search
+## Expand barcode search
 
 Field Service uses [Dataverse search](/power-apps/mobile/relevance-search-mobile) and includes a barcode scanner option within the search view. Dataverse search requires an active internet connection. If the device doesn't have connectivity, the search experience uses [categorized search](/power-apps/user/quick-find). If you configure the application to offline-first mode, add tables indexed for search to categorized search. In online-only mode, add them to the Dataverse search index.
 
@@ -47,9 +45,11 @@ By default, Dynamics 365 Field Service searches activity, contact, user, custome
 
 To enable a new barcode field for search in a table:
 
-1. If the desired table isn't enabled for search, [select the table for Dataverse search](/power-platform/admin/configure-relevance-search-organization#select-tables-for-dataverse-search) to enable the table for search.
-2. Add the barcode field to the [table's quick-find view](/power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table).
-3. **Save and publish** the changes.
+1. If the desired table isn't enabled for search, [select the table for Dataverse search](/power-platform/admin/configure-relevance-search-organization#select-tables-for-dataverse-searchs-global-search) to enable the table for search.
+
+1. Add the barcode field to the [table's quick-find view](/power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table-for-global-search).
+
+1. **Save and publish** the changes.
 
 > [!NOTE]
 >

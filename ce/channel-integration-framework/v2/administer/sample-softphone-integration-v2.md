@@ -21,7 +21,7 @@ ms.custom: bap-template
 - A valid Azure subscription is required to publish the sample app to Azure.
 
   > [!Note]
-  > If you don't have an Azure subscription, you can create a [free account](https://azure.microsoft.com/free/).
+  > If you don't have an Azure subscription, you can create a [free account](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 <a name="bkmk_PublishToAzure"></a>
 

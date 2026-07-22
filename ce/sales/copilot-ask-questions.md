@@ -1,7 +1,7 @@
 ---
 title: Ask Copilot about recent changes to your sales records
 description: Learn how to ask Copilot in Dynamics 365 Sales questions to know what's new with your leads, opportunities, accounts, and records assigned to you.
-ms.date: 05/16/2025
+ms.date: 01/16/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -53,7 +53,7 @@ Copilot can help you stay on top of your assignments by listing the accounts, le
 
 [Open Copilot](use-sales-copilot.md#open-copilot), select **View Prompts** above the Copilot chat box, select **Ask questions** > **What's newly assigned to me**, and press **Enter**.
 
-Copilot lists the records that meet the conditions. Hover over a record in the list and select **Summarize** to view the record summary.
+Copilot lists the records that meet the conditions. To view the record summary, hover over a record in the list and select **Summarize**.
 
 <a name="get-recent-changes"></a>
 
@@ -68,7 +68,7 @@ Copilot can help you catch up on any updates to your account, lead, or opportuni
     - When in grid view, Copilot lists the records for which you have read access. Hover over a record and select **Get updates**.
     
     > [!NOTE]
-    > The **What's changed for *record type*** prompt is displayed only if your administrator has [turned on auditing](enable-setup-copilot.md#turn-copilot-features-on-or-off-in-sales-hub) and [granted you access to the audit history](copilot-configure-summary-fields.md#grant-audit-access-to-your-sellers).
+    > The **What's changed for *record type*** prompt appears only if your administrator [turns on auditing](enable-setup-copilot.md#turn-copilot-features-on-or-off-in-sales-hub) and [grants you access to the audit history](copilot-configure-summary-fields.md#grant-audit-access-to-your-sellers).
 
 1. To get the list of changes to a specific account, lead, or opportunity, type **/** and then start typing the name of the account, lead, or opportunity.
 

@@ -525,6 +525,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_conversationcomment_createdonbehalfby](#BKMK_lk_msdyn_conversationcomment_createdonbehalfby)
 - [lk_msdyn_conversationcomment_modifiedby](#BKMK_lk_msdyn_conversationcomment_modifiedby)
 - [lk_msdyn_conversationcomment_modifiedonbehalfby](#BKMK_lk_msdyn_conversationcomment_modifiedonbehalfby)
+- [msdyn_msdyn_conversationcomment_Transcript_msdyn_transcr](#BKMK_msdyn_msdyn_conversationcomment_Transcript_msdyn_transcr)
 - [owner_msdyn_conversationcomment](#BKMK_owner_msdyn_conversationcomment)
 - [team_msdyn_conversationcomment](#BKMK_team_msdyn_conversationcomment)
 - [user_msdyn_conversationcomment](#BKMK_user_msdyn_conversationcomment)
@@ -593,6 +594,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_conversationcomment_modifiedonbeh
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_msdyn_conversationcomment_Transcript_msdyn_transcr"></a> msdyn_msdyn_conversationcomment_Transcript_msdyn_transcr
+
+One-To-Many Relationship: [msdyn_transcript msdyn_msdyn_conversationcomment_Transcript_msdyn_transcr](msdyn_transcript.md#BKMK_msdyn_msdyn_conversationcomment_Transcript_msdyn_transcr)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_transcript`|
+|ReferencedAttribute|`msdyn_transcriptid`|
+|ReferencingAttribute|`msdyn_transcript`|
+|ReferencingEntityNavigationPropertyName|`msdyn_transcript`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Cascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 
 ### <a name="BKMK_owner_msdyn_conversationcomment"></a> owner_msdyn_conversationcomment
 

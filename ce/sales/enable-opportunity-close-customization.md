@@ -1,36 +1,37 @@
 ---
-title: "Enable customization of Opportunity Close form | MicrosoftDocs"
+title: Enable customization of Opportunity Close form
 description: "Enable system customizers to customize the opportunity close experience so that sales reps can capture details about why an opportunity was closed."
-ms.date: 02/25/2025
+ms.date: 03/13/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
-# Enable customization of the Opportunity Close form 
+# Enable customization of Opportunity Close form
 
-Enable system customizers to customize the opportunity close experience so that sellers can capture details about why an opportunity was closed.
+When you close an opportunity, capturing the right information helps your sales team learn from wins and losses, improve forecasting accuracy, and identify process improvements. By customizing the Opportunity Close form, you can tailor the fields and questions to match your organization's specific needs.
+
+For example, you might want to add fields to capture competitive information, customer feedback, or internal notes about what factors influenced the decision. This valuable data becomes part of your opportunity records and helps inform future sales strategies.
 
 ## Enable customization
 
-To allow users in your organization to capture more relevant details about an opportunity closing, a system administrator can enable the customization of the Opportunity Close form.
+To allow users in your organization to capture these relevant details when closing opportunities, a system administrator can enable the customization of the Opportunity Close form.
 
 > [!NOTE]
 > The capability to customize the **Opportunity Close** form is supported only in the sales app built on Unified Interface.
 
 Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:
 
-# [Sales Premium and Sales Enterprise](#tab/SE)
+# [Sales Hub app](#tab/SE)
 
 If you have the Sales Hub app, follow the instructions in this tab. Otherwise, follow the instructions in the **Sales Professional** tab to configure the option in Power Platform.
 
 1. In lower-left corner of the screen, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
 
-1. In the site map, select **Overview**, and on the **Overview** page, select **Manage** for **Custom fields on closing form**.
-1. On the **Opportunity Closing** page, turn the **Custom fields on closing form** toggle to **Yes**.
+1. Under **General Settings**, select **Lead + Opportunity management** > **Opportunity management**, and then turn the **Custom fields on closing form** toggle to **Yes**.
 1. Select **Save**.
 
-# [Sales Professional](#tab/SP)
+# [Sales Professional app](#tab/SP)
 
 1.  In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar.](media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
 
@@ -38,9 +39,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
     > [!NOTE]
     > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
-1.  On the navigation bar, select **Settings**, and then select **Administration**.
-
-2.  Select **System Settings**.
+1.  On the navigation bar, go to **System** > **Administration** > **Synchronization**.
 
 3.  In the **System Settings** dialog box, on the **Sales** tab, set **Customize close opportunity form** to **Yes**.
 

@@ -1,7 +1,7 @@
 ---
 title: Understand the predictive lead scoring configuration page
 description: Learn about the various sections in the predictive lead scoring configuration page in Dynamics 365 Sales.
-ms.date: 12/06/2024
+ms.date: 11/10/2025
 ms.custom: 
 ms.topic: concept-article
 author: lavanyakr01

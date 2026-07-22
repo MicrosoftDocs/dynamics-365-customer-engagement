@@ -74,6 +74,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_enableagentendofcallsurvey](#BKMK_msdyn_enableagentendofcallsurvey)
 - [msdyn_enableagentendofcallsurveyduration](#BKMK_msdyn_enableagentendofcallsurveyduration)
 - [msdyn_enableautomaticremovalofonhold](#BKMK_msdyn_enableautomaticremovalofonhold)
+- [msdyn_enablebroadcastdtmf](#BKMK_msdyn_enablebroadcastdtmf)
 - [msdyn_enablecitrixintegration](#BKMK_msdyn_enablecitrixintegration)
 - [msdyn_enabledevicepreheat](#BKMK_msdyn_enabledevicepreheat)
 - [msdyn_enableshowpostcallsurveyresult](#BKMK_msdyn_enableshowpostcallsurveyresult)
@@ -209,6 +210,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Yes|
 |False Label|No|
 
+### <a name="BKMK_msdyn_enablebroadcastdtmf"></a> msdyn_enablebroadcastdtmf
+
+|Property|Value|
+|---|---|
+|Description|**Toggle to enable broadcast DTMF**|
+|DisplayName|**Enable broadcast DTMF**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enablebroadcastdtmf`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_msdyn_voicechannelorganizationsetting_msdyn_enablebroadcastdtmf`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_enablecitrixintegration"></a> msdyn_enablecitrixintegration
 
 |Property|Value|
@@ -237,7 +254,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_msdyn_voicechannelorganizationsetting_msdyn_enabledevicepreheat`|
-|DefaultValue|False|
+|DefaultValue|True|
 |True Label|Yes|
 |False Label|No|
 

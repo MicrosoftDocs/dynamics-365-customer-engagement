@@ -1,7 +1,7 @@
 ---
 title: Edit and retrain an opportunity scoring model
 description: Learn how to edit and retrain a predictive opportunity scoring model in Dynamics 365 Sales when its prediction accuracy doesn't meet your expectations. 
-ms.date: 11/05/2024
+ms.date: 05/29/2026
 ms.custom: 
 ms.topic: how-to
 author: lavanyakr01
@@ -28,7 +28,7 @@ When the prediction accuracy of a model doesn't meet your expectations, or a mod
     :::image type="content" source="media/si-admin-predictive-opportunity-scoring-edit-model-page.png" alt-text="Screenshot of the Edit model page.":::
     
     >[!NOTE]
-    >The scoring model don't support the following types of attributes:
+    >The scoring model doesn't support the following types of attributes:
     >- Attributes on custom entities
     >- Date and time related attributes
     >- System generated attributes (such as, opportunityscore, opportunitygrade, version number, entity image, exchange rate, and predictive score ID)

@@ -71,12 +71,16 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_AdditionalDetails](#BKMK_msdyn_AdditionalDetails)
 - [msdyn_AgentEndDate](#BKMK_msdyn_AgentEndDate)
 - [msdyn_AgentResponseJson](#BKMK_msdyn_AgentResponseJson)
+- [msdyn_CreateType](#BKMK_msdyn_CreateType)
 - [msdyn_ErrorDetails](#BKMK_msdyn_ErrorDetails)
 - [msdyn_EvaluationCriteria](#BKMK_msdyn_EvaluationCriteria)
 - [msdyn_EvaluationCriteriaParentVersion](#BKMK_msdyn_EvaluationCriteriaParentVersion)
 - [msdyn_EvaluationCriteriaVersion](#BKMK_msdyn_EvaluationCriteriaVersion)
+- [msdyn_EvaluationExtension](#BKMK_msdyn_EvaluationExtension)
+- [msdyn_EvaluationExtensionPId](#BKMK_msdyn_EvaluationExtensionPId)
 - [msdyn_EvaluationId](#BKMK_msdyn_EvaluationId)
 - [msdyn_EvaluationMethod](#BKMK_msdyn_EvaluationMethod)
+- [msdyn_EvaluationPlan](#BKMK_msdyn_EvaluationPlan)
 - [msdyn_EvaluatorCompletionDate](#BKMK_msdyn_EvaluatorCompletionDate)
 - [msdyn_EvaluatorDueDate](#BKMK_msdyn_EvaluatorDueDate)
 - [msdyn_Name](#BKMK_msdyn_Name)
@@ -88,6 +92,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_Relatedrecordtype](#BKMK_msdyn_Relatedrecordtype)
 - [msdyn_RequestedBy](#BKMK_msdyn_RequestedBy)
 - [msdyn_ResponseJson](#BKMK_msdyn_ResponseJson)
+- [msdyn_Schema](#BKMK_msdyn_Schema)
 - [msdyn_Score](#BKMK_msdyn_Score)
 - [msdyn_ScoreJson](#BKMK_msdyn_ScoreJson)
 - [msdyn_ScoringEnabledOnCreation](#BKMK_msdyn_ScoringEnabledOnCreation)
@@ -128,7 +133,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |FormatName|RichText|
 |ImeMode|Auto|
 |IsLocalizable|False|
-|MaxLength|2000|
+|MaxLength|1048575|
 
 ### <a name="BKMK_msdyn_AgentEndDate"></a> msdyn_AgentEndDate
 
@@ -163,6 +168,29 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|1048575|
+
+### <a name="BKMK_msdyn_CreateType"></a> msdyn_CreateType
+
+|Property|Value|
+|---|---|
+|Description|**The type of process used to create Evalaution.**|
+|DisplayName|**Create Type**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_createtype`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_evaluationcreatetype`|
+
+#### msdyn_CreateType Choices/Options
+
+|Value|Label|
+|---|---|
+|192350000|**OnDemand**|
+|192350001|**RealTime**|
+|192350002|**BulkEvaluation**|
+|192350003|**OnTrigger**|
 
 ### <a name="BKMK_msdyn_ErrorDetails"></a> msdyn_ErrorDetails
 
@@ -222,6 +250,36 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxValue|2147483647|
 |MinValue|-2147483648|
 
+### <a name="BKMK_msdyn_EvaluationExtension"></a> msdyn_EvaluationExtension
+
+|Property|Value|
+|---|---|
+|Description|**Reference to Evaluation Extension record**|
+|DisplayName|**Evaluation Extension**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_evaluationextension`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_evaluationextension|
+
+### <a name="BKMK_msdyn_EvaluationExtensionPId"></a> msdyn_EvaluationExtensionPId
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`msdyn_evaluationextensionpid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
 ### <a name="BKMK_msdyn_EvaluationId"></a> msdyn_EvaluationId
 
 |Property|Value|
@@ -256,6 +314,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |700610001|**AI agent**|
 |700610002|**Manual**|
 
+### <a name="BKMK_msdyn_EvaluationPlan"></a> msdyn_EvaluationPlan
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**EvaluationPlan**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_evaluationplan`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_evaluationplan|
+
 ### <a name="BKMK_msdyn_EvaluatorCompletionDate"></a> msdyn_EvaluatorCompletionDate
 
 |Property|Value|
@@ -278,7 +349,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**The due date set which the evaluator has until to complete the evaluation.**|
-|DisplayName|**Evaluator due date**|
+|DisplayName|**Evaluator expiration date**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_evaluatorduedate`|
@@ -330,6 +401,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |700610002|**Completed**|
 |700610003|**Error**|
 |700610004|**Not applicable**|
+|700610005|**Skipped**|
 
 ### <a name="BKMK_msdyn_RegardingObjectId"></a> msdyn_RegardingObjectId
 
@@ -431,6 +503,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|1048575|
+
+### <a name="BKMK_msdyn_Schema"></a> msdyn_Schema
+
+|Property|Value|
+|---|---|
+|Description|**Schema version to track which entity structure is used for evaluation data storage**|
+|DisplayName|**Schema**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_schema`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_Score"></a> msdyn_Score
 
@@ -801,6 +890,8 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_evaluation_modifiedby](#BKMK_lk_msdyn_evaluation_modifiedby)
 - [lk_msdyn_evaluation_modifiedonbehalfby](#BKMK_lk_msdyn_evaluation_modifiedonbehalfby)
 - [msdyn_evaluation_EvaluationCriteria_msdyn_evaluationcriteria](#BKMK_msdyn_evaluation_EvaluationCriteria_msdyn_evaluationcriteria)
+- [msdyn_evaluation_EvaluationExtension_msdyn_evaluationextension](#BKMK_msdyn_evaluation_EvaluationExtension_msdyn_evaluationextension)
+- [msdyn_evaluation_EvaluationPlan_msdyn_evaluationplan](#BKMK_msdyn_evaluation_EvaluationPlan_msdyn_evaluationplan)
 - [msdyn_evaluation_RequestedBy_systemuser](#BKMK_msdyn_evaluation_RequestedBy_systemuser)
 - [msdyn_evaluation_systemuser_msdyn_RegardingObjectOwner](#BKMK_msdyn_evaluation_systemuser_msdyn_RegardingObjectOwner)
 - [msdyn_evaluation_team_msdyn_RegardingObjectOwner](#BKMK_msdyn_evaluation_team_msdyn_RegardingObjectOwner)
@@ -885,6 +976,32 @@ One-To-Many Relationship: [msdyn_evaluationcriteria msdyn_evaluation_EvaluationC
 |ReferencedAttribute|`msdyn_evaluationcriteriaid`|
 |ReferencingAttribute|`msdyn_evaluationcriteria`|
 |ReferencingEntityNavigationPropertyName|`msdyn_EvaluationCriteria`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_evaluation_EvaluationExtension_msdyn_evaluationextension"></a> msdyn_evaluation_EvaluationExtension_msdyn_evaluationextension
+
+One-To-Many Relationship: [msdyn_evaluationextension msdyn_evaluation_EvaluationExtension_msdyn_evaluationextension](msdyn_evaluationextension.md#BKMK_msdyn_evaluation_EvaluationExtension_msdyn_evaluationextension)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_evaluationextension`|
+|ReferencedAttribute|`msdyn_evaluationextensionid`|
+|ReferencingAttribute|`msdyn_evaluationextension`|
+|ReferencingEntityNavigationPropertyName|`msdyn_EvaluationExtension`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_evaluation_EvaluationPlan_msdyn_evaluationplan"></a> msdyn_evaluation_EvaluationPlan_msdyn_evaluationplan
+
+One-To-Many Relationship: [msdyn_evaluationplan msdyn_evaluation_EvaluationPlan_msdyn_evaluationplan](msdyn_evaluationplan.md#BKMK_msdyn_evaluation_EvaluationPlan_msdyn_evaluationplan)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_evaluationplan`|
+|ReferencedAttribute|`msdyn_evaluationplanid`|
+|ReferencingAttribute|`msdyn_evaluationplan`|
+|ReferencingEntityNavigationPropertyName|`msdyn_EvaluationPlan`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

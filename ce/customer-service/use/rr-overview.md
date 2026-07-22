@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: overview
-ms.date: 10/06/2025
+ms.date: 12/17/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -61,12 +61,25 @@ For example, a case that gets created automatically creates a conversation in th
 
 - **Backlog work items**: This report lists case and record work item conversations that are modified, including work items created within the time range selected.
 
+- **Intent group**: This report shows contact center data organized by intent, intent groups, and line of business to help you effectively monitor and track work items by record type. 
+
+- **User group**: This report helps you filter data by user group to help you quickly spot trends, evaluate team performance, and accelerate case resolution.
+
 ## Filter information displayed on dashboard 
 
-Use the filters to drill down to KPIs across the dashboard. Adjust the filters based on the insights that you're looking for. The available filters include **Modified on**, **Agent**, **Agent status,** **Agent skill**, **Queue**, **Work item status,** **Work item skill**, and **Time zone**.
+Use the filters to drill down to KPIs across the dashboard. Adjust the filters based on the insights that you're looking for. The available filters include **Modified on**, **Agent**, **Agent status,** **Agent skill**, **Queue**, **Work item status,** **Work item skill**, and **Time zone**. 
+
+For example, the dropdown list for the **Time** filter includes the following options:
+
+- **2 hrs**: By default, shows all conversations from the last 2 hours. You can see conversations up to last 24 hours.
+- **Today**: Shows all conversations started or modified in the selected time zone.
 
 > [!NOTE]
 > The queues filter shows entity record type queues only.
+
+:::image type="content" source="../media/realtime-time-filter.png" alt-text="Screenshot of the Time filter on real-time analytics.":::
+
+Optionally, you can also add the **Business Unit** filter that provides a consistent way to focus on a single business unit or compare multiple units. The filter can be configured through data model customization or by adjusting the visual under data measure for the dimension **DimBusinessUnit**. The **Business Unit** filter doesn't grant additional access; it simply restricts data visibility based on existing roles and business unit hierarchy. If a user doesn't have security permissions to view a business unit's data, selecting that business unit won't display any information.
 
 ## Autorefresh 
 
@@ -78,8 +91,10 @@ Summary, queue, and agent reports are autorefreshed continuously to allow for re
 ## Related information
 
 [Manage real-time analytics for record routing](../administer/enable-record-routing.md#manage-real-time-analytics-for-record-routing)  
-[Summary report](rr-summary.md#view-and-understand-real-time-analytics-for-record-routing-in-the-summary-report)  
-[Queue report](rr-queue.md#view-and-understand-real-time-analytics-for-record-routing-in-the-queue-report)  
-[Agent report](rr-agent.md#view-and-understand-real-time-analytics-for-record-routing-in-the-agent-report)  
-[Backlog work items report](rr-backlogitems.md#view-and-understand-real-time-analytics-for-record-routing-in-the-backlog-work-items-report)  
-[Ongoing work items report](rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-record-routing-in-the-ongoing-work-items-report) 
+[Summary report](rr-summary.md)  
+[Queue report](rr-queue.md)  
+[Agent report](rr-agent.md)  
+[Backlog work items report](rr-backlogitems.md)  
+[Ongoing work items report](rr-ongoingworkitems.md)  
+[Intent group report (preview)](record-routing-intent-group.md#)  
+[User group report (preview)](record-routing-user-group.md)  

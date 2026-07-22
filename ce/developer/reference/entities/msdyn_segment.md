@@ -766,6 +766,8 @@ One-To-Many Relationship: [systemuser user_msdyn_segment](systemuser.md#BKMK_use
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_msdyn_segment_account](#BKMK_msdyn_msdyn_segment_account)
+- [msdyn_msdyn_segment_contact](#BKMK_msdyn_msdyn_segment_contact)
 - [msdyn_msdyn_segment_lead](#BKMK_msdyn_msdyn_segment_lead)
 - [msdyn_msdyn_segment_msdyn_assignmentrule_segment](#BKMK_msdyn_msdyn_segment_msdyn_assignmentrule_segment)
 - [msdyn_msdyn_segment_msdyn_salesroutingrun_previoussegmentid](#BKMK_msdyn_msdyn_segment_msdyn_salesroutingrun_previoussegmentid)
@@ -781,6 +783,30 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_segment_PrincipalObjectAttributeAccesses](#BKMK_msdyn_segment_PrincipalObjectAttributeAccesses)
 - [msdyn_segment_ProcessSession](#BKMK_msdyn_segment_ProcessSession)
 - [msdyn_segment_SyncErrors](#BKMK_msdyn_segment_SyncErrors)
+
+### <a name="BKMK_msdyn_msdyn_segment_account"></a> msdyn_msdyn_segment_account
+
+Many-To-One Relationship: [account msdyn_msdyn_segment_account](account.md#BKMK_msdyn_msdyn_segment_account)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`account`|
+|ReferencingAttribute|`msdyn_segmentid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_segment_account`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_segment_contact"></a> msdyn_msdyn_segment_contact
+
+Many-To-One Relationship: [contact msdyn_msdyn_segment_contact](contact.md#BKMK_msdyn_msdyn_segment_contact)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`contact`|
+|ReferencingAttribute|`msdyn_segmentid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_segment_contact`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_segment_lead"></a> msdyn_msdyn_segment_lead
 

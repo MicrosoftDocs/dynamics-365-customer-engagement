@@ -94,7 +94,7 @@ The most common attributes that distinguish resources are characteristics, terri
 
 Characteristics represent a resource's skills and certifications. For example, a specific skill like a CPR certification; more general, like accounting or web development experience; or as simple as security clearance for a specific building.
 
-A resource can have multiple characteristics. [Create the characteristic](set-up-characteristics.md), map it to a resource, and provide a rating level.
+A resource can have multiple characteristics. [Create the characteristic](set-up-characteristics.md), map it to a resource, and provide a proficiency model.
   
 1. Open a resource record and select **Related** > **Resource Characteristics**.  
   
@@ -102,7 +102,7 @@ A resource can have multiple characteristics. [Create the characteristic](set-up
   
 1. Select a **Characteristic** from the lookup.
 
-1. (Optional) Select a **Rating Value** for characteristic rating. Depending on the [rating model of the characteristic](set-up-characteristics.md#create-a-rating-model), it could be a 1-to-10 rating, or even represent the score on a certification exam.
+1. (Optional) Select a **Rating Value** for characteristic rating. Depending on the [proficiency model of the characteristic](set-up-characteristics.md#create-a-rating-model), it could be a 1-to-10 rating, or even represent the score on a certification exam.
 
 1. Select **Save and Close**.
 
@@ -149,6 +149,45 @@ To enable features like routing, travel estimations, or the map view of the sche
    :::image type="content" source="media/resource-contact-location-example.png" alt-text="Screenshot of geo coding a contact record.":::
 
 1. Confirm geocoding works. Open the **Schedule Board** and verify that the resource appears on the map. Select a resource to highlight their location on the map.
+
+## Manage resource availability and lifecycle
+
+Over time, resources leave the organization, change roles, or their contracts end. To prevent expired or inactive resources from appearing on the schedule board or being booked, use the following controls.
+
+### Remove a resource from the schedule board
+
+To stop a resource from showing on the schedule board without deactivating the record:
+
+1. Open the resource record and select the **Scheduling** tab.
+1. Set **Display On Schedule Board** to **No**.
+1. Set **Enable for Availability Search** to **No** to also exclude the resource from schedule assistant results.
+1. **Save** the record.
+
+The resource record remains active and retains its booking history, but dispatchers no longer see it when scheduling new work.
+
+### Deactivate a resource
+
+Deactivating a bookable resource record removes it from schedule board views and schedule assistant results entirely.
+
+1. Open the resource record.
+1. On the command bar, select **Deactivate**.
+1. Confirm the deactivation.
+
+> [!NOTE]
+> Deactivating a resource doesn't cancel existing bookings assigned to that resource. Review and reassign any upcoming bookings before you deactivate the resource to avoid unattended work orders.
+
+### Update work hours for temporary changes
+
+If a resource is temporarily unavailable (for example, during a leave of absence), update their work hours instead of deactivating the record:
+
+1. Open the resource record and select the **Work Hours** tab.
+1. Add a **Time Off** entry for the period the resource is unavailable.
+1. The schedule board grays out the resource's time slots and the schedule assistant excludes them during that period.
+
+For more information, see [Submit and approve time-off requests](submit-approve-time-off-requests.md).
+
+> [!TIP]
+> If expired resources still appear on your schedule board, check whether the board tab uses a custom resource view that includes inactive records. Update the view to filter on active resources only, or use [board tab settings](schedule-board-tab-settings.md) to apply a territory or resource filter.
 
 ## Related information
 

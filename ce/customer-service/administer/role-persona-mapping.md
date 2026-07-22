@@ -1,7 +1,7 @@
 ---
 title: Manage personas and custom security roles
 description: Get information about how custom security roles can be mapped to personas in Customer Service and Dynamics 365 Contact Center.
-ms.date: 04/15/2025
+ms.date: 05/08/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -67,7 +67,7 @@ The agent persona can manage the work items that're assigned to them through cus
 
 ## Create custom security roles
 
-Custom security roles can be created at an organizational or business unit level, and you can edit access level for records and tasks. The addition of custom security roles is optional. To ensure persona mapping works, perform the following steps:
+Create custom security roles at the organizational or business unit level. You can edit the access level for records and tasks. Make sure that you assign the prvAgent, prvSupervisor, or prvAdmin privilege to the custom security role as required. Custom security roles are optional. To ensure persona mapping works, complete the following steps:
 
 1. Identify the tasks that a user will perform.
 

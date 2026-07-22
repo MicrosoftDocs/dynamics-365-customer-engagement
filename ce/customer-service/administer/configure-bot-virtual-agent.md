@@ -1,7 +1,7 @@
 ---
-title: Integrate a Copilot agent
+title: Integrate a Copilot agent in Dynamics 365 Contact Center
 description: Use this article to get instructions on how to integrate a Copilot agent in your contact center.
-ms.date: 07/09/2025
+ms.date: 04/30/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: neeranelli
@@ -19,11 +19,13 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
-Use agents to simulate human-like conversations for routine activities so that you can let your customer service representatives (service representative or representative) focus on high-value interactions. You can use Microsoft Copilot Studio to create agents that can interact with customers in Dynamics 365 Contact Center or Dynamics 365 Customer Service.
+Use agents to simulate human-like conversations for routine activities so that you can let your customer service representatives (service representative or representative) focus on high-value interactions. Use Microsoft Copilot Studio to create agents that can interact with customers in Dynamics 365 Contact Center or Dynamics 365 Customer Service. Build and govern these agents in Copilot Studio. Reuse them across channels and scenarios with consistent governance and security. This article focuses on integration steps.
 
 The following capabilities are available for the agent conversations:
 
 - Seamlessly integrate your agent with all channels without needing to add channel-specific code in the agent.
+- Use real-time voice agents. A real-time voice agent supports fully voice-driven and natural, context-carrying interactions. It also supports user interruptions (barge-in) and dynamic language switching in the same session when multilingual option is configured. Customers speak with the agent and receive spoken responses instantly. Learn more in [Real-time voice agents](/microsoft-copilot-studio/voice-realtime-voice-agents).
+- Real-time voice agents support ultra-low latency responses, interruption handling with context retention, automatic multilingual switching, and DTMF fallback. Full conversation context is preserved during human escalation, and proactive engagement is supported across voice and digital channels. Learn more in [Real-time voice agents](/microsoft-copilot-studio/voice-realtime-voice-agents).
 - Configure interactive voice response (IVR) capabilities for voice-enabled agents.
 - [!INCLUDE[cc-natural-language-model](../../includes/cc-natural-language-model.md)]  
 - Configure contextual transfers to service representatives.
@@ -40,6 +42,7 @@ You must have:
 
 - Specific licensing requirements apply to configure and use agents in Copilot Studio. Learn more in [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718).
 - Chat, digital messaging, or voice channel in Dynamics 365 Customer Service require specific licenses depending on your business requirements. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+- Consumption-based Copilot credits to pay for agent usage across voice and digital channels based on AI activity. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544) and [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718).
 - The CCI Admin security role to access the agent you create in Copilot Service admin center in Copilot Studio.
 - The Omnichannel administrator role. Learn more in [Manage user roles](/dynamics365/customer-service/implement/add-users-assign-roles).
 
@@ -53,19 +56,23 @@ You can create Copilot agents in one of the following ways:
   - [Create a custom agent from a template](/microsoft-copilot-studio/template-fundamentals)
   - [Create voice-enabled agents from templates](/microsoft-copilot-studio/voice-build-from-template)
 
+Dynamics 365 Contact Center includes pre-built agents such as Customer Assist Agent, which handles high-volume voice and digital requests. Real-time voice agents in Copilot Studio are integrated with these pre-built agents. Learn more in [Overview of contact center agents](/dynamics365/contact-center/administer/overview-contact-center-agents).
+
 ## Connect your Copilot agent to omnichannel instance
 
 For the agent to be able to interact with customers in Dynamics 365 Contact Center or Customer Service, you must integrate the agent with your application. Follow the procedure in [Connect your Copilot agent to omnichannel](/microsoft-copilot-studio/configuration-hand-off-omnichannel) to connect your Copilot agent to the omnichannel instance.
 
 When your customers need to speak with a representative, your agent can seamlessly hand off the conversation. When your agent hands off a conversation, it can share the full history of the conversation, and all relevant variables. Make sure you have an escalation article configured in your agent to hand off the conversation to a representative. Learn more in [hand off to a live agent](/microsoft-copilot-studio/advanced-hand-off).
 
+ You can also use the representative availability APIs from your agent to retrieve customer service representative and queue availability information before escalating the conversation to a service representative. By determining availability before escalating, you improve the customer experience and reduce queue abandonment. Learn more in [Use representative availability APIs in a Copilot Studio agent](/dynamics365/contact-center/extend/use-representative-availability-api).
+
 ## Set up agent capabilities
 
 In Copilot Studio, you can add the following capabilities to your agent to finish your setup:
 
 - Add knowledge sources to your agent to help it answer customer questions. Learn more in [Add knowledge sources to your agent](/microsoft-copilot-studio/knowledge-copilot-studio).
-- Configure multilingual agents to support multiple languages. Learn more in [Configure multilingual agents](/microsoft-copilot-studio/multilingual).
--  IVR capabilities that are specific to voice-enabled agents such as dual-tone multi-frequency (DTMF) input, context variables, call transfer, and speech and DTMF customization. Learn more in [Configure Copilot Studio IVR agents](voice-channel-pva-bots.md).
+- Configure multilingual agents to support multiple languages. For real-time voice agents, multilingual configuration also lets the conversation switch languages mid-conversation. Learn more in [Configure multilingual agents](/microsoft-copilot-studio/multilingual) and [Real-time voice agents](/microsoft-copilot-studio/voice-realtime-voice-agents).
+- IVR capabilities that are specific to voice-enabled agents such as dual-tone multi-frequency (DTMF) input, context variables, call transfer, and speech and DTMF customization. Learn more in [Configure Copilot Studio IVR agents](voice-channel-pva-bots.md).
 - [Customize the look and feel of a copilot](/microsoft-copilot-studio/customize-default-canvas).
 
 ## Add an agent to a workstream
@@ -87,7 +94,7 @@ You can add an agent to the queue so that the agent can receive conversations fr
 
 ## Automatically close a conversation
 
-When an agent receives a conversation that isn't escalated to a service representative, the conversation closes if the customer abandons it. The conversation also closes automatically after 30 minutes of inactivity.
+When an agent receives a conversation that isn't escalated to a service representative, the system closes the conversation if the customer abandons it. The conversation also closes automatically after 30 minutes of inactivity.
 
 This conversation appears in the Omnichannel Agent dashboard with the status set to **Closed** and **Resolved/abandoned** state in the Copilot Studio dashboard. Learn more in [Session outcomes over time chart](/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart).
 
@@ -121,8 +128,8 @@ In the voice channel, the system doesn't listen for the **closeOmnichannelConver
 
 | Description     | Limitation     |
 |-----------------|----------------|
-| **Adaptive cards**</br>An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li> You can build an adaptive card by adding a skill through Copilot Studio. Learn more in [Use Microsoft Bot Framework Skills in Copilot Studio](/power-virtual-agents/advanced-use-skills) </li><li> Adaptive card styling isn't supported.</li><li> Adaptive cards won't appear in emailed transcripts. To help the reader understand the transcript, we recommend that you preface the adaptive card with a text message node (for example, "Please fill out this form").</li></ul> |
-| **Typing**</br>An agent receives a typing activity to indicate that the user is typing a response. An agent may send a typing activity to indicate to the user that it's working to fulfill a request or compile a response. | Typing indicators don't appear. |
+| **Adaptive cards**</br>An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li> You can build an adaptive card by adding a skill through Copilot Studio. Learn more in [Use Microsoft Bot Framework Skills in Copilot Studio](/power-virtual-agents/advanced-use-skills) </li><li> Adaptive card styling isn't supported.</li><li> Adaptive cards don't appear in emailed transcripts. To help the reader understand the transcript, we recommend that you preface the adaptive card with a text message node (for example, "Please fill out this form").</li></ul> |
+| **Typing**</br>An agent receives a typing activity to indicate that the user is typing a response. An agent might send a typing activity to indicate to the user that it's working to fulfill a request or compile a response. | Typing indicators don't appear. |
 | **Format bot messages**</br>You can set the optional `TextFormat` property to control how the text content of your message is rendered. | <ul><li> Copilot Studio doesn't support Markdown with images and text. </li><li>When Copilot Studio sends Markdown text, there's an extra space between lines. </li></ul>|
 
 ## Privacy notice

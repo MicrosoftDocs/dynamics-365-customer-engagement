@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management
-description: Learn how to configure the settings for knowledge management in Dynamics 365 Customer Service.
-ms.date: 04/22/2025
+description: Learn how to configure the settings for knowledge management in Dynamics 365 Customer Service or Dynamics 365 Contact Center.
+ms.date: 07/20/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -25,10 +25,7 @@ searchScope:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-
-## Introduction
-
-A comprehensive knowledge base is a key to increased customer satisfaction and improved productivity of users. Give users quick access to the knowledge base by setting up knowledge management in Dynamics 365 Customer Service.
+Knowledge management in Dynamics 365 Customer Service helps improve customer satisfaction and agent productivity by providing quick access to relevant knowledge articles. Configure knowledge management settings in the Copilot Service admin center to enable agents to search for articles, receive AI-powered suggestions, and share article links with customers.
 
 > [!IMPORTANT]
 > Usage of [!INCLUDE[pn_parature](../../includes/pn-parature.md)] knowledgebase as a knowledge management solution has been deprecated. Learn more in [Important changes coming](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
@@ -43,6 +40,17 @@ After knowledge management is set up, users are able to:
 
 - See the content of the knowledge base article inline, including images and videos.
 
+## Prerequisites
+
+- You have the **System Administrator** or **System Customizer** security role or equivalent permissions. You must also be the tenant administrator of Microsoft 365. Learn more in [Understand role types](/power-platform/admin/database-security).
+
+- Configure the required privileges for the `KnowledgeArticle` table based on each user's intended level of access. Configure specific access settings alongside the **Basic User** role to align access to the `KnowledgeArticle` table with organizational requirements.
+
+  For the `KnowledgeArticle` table, the Dataverse security boundary is the environment rather than individual users within the environment. If you need to restrict access to knowledge articles according to your organization's requirements, review the table privileges that you can grant through a security role in [Define the privileges and properties of a security role](/power-platform/admin/security-roles-privileges?branch=main#role-name-and-description-of-a-security-role).
+
+> [!NOTE]
+> We recommend that you avoid storing secrets, credentials, or regulated personal data in knowledge article content with draft or internal status.
+
 ## Setup overview
 
 You can set up knowledge management on the Copilot Service admin center, or manually for a model-driven app.
@@ -55,7 +63,6 @@ After you configure knowledge management on your app, you must also set up the v
 - [Configure knowledge base article URLs](#configure-knowledge-base-article-urls)
 - [Create and manage categories](create-manage-categories.md#create-and-manage-categories)
 - [Create templates for knowledge articles](../use/create-templates-knowledge-article.md#create-templates-for-knowledge-articles)
-- [Set up AI suggestions for article keywords and description](#set-up-ai-suggestions-for-article-keywords-and-description)
 - [Set up external search providers][Set up external search providers](set-up-search-providers.md#set-up-external-search-providers)
 
 ## Set up knowledge management
@@ -152,9 +159,9 @@ With the knowledge article attachments option, you can stop using notes attachme
 1. Set the **Sync attachments to portal** toggle to **Yes**.
 1. Select **Save**.
 
-## Set up AI suggestions for article keywords and description
+## Automatically generate article keywords and description
 
-You can enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in knowledge article entity. Learn more in [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description).
+[Fill forms using Copilot](/power-apps/user/form-filling-assistance) to automatically generate knowledge article keywords and description.
 
 ## Set up knowledge search logic
 

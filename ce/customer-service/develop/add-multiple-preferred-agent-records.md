@@ -4,9 +4,9 @@ description: Learn how to add multiple preferred agents to contact records in Cu
 author: neeranelli 
 ms.author: nenellim  
 ms.reviewer: nenellim
-ms.topic: how-to 
+ms.topic: reference 
 ms.collection: 
-ms.date: 01/28/2025
+ms.date: 03/18/2026
 ms.custom: bap-template 
 ---
 

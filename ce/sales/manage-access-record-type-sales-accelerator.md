@@ -1,7 +1,7 @@
 ---
 title: Manage access and record types for sales accelerator
 description: Manage security roles, sample data, and record types for the Dynamics 365 sales accelerator.
-ms.date: 08/06/2025
+ms.date: 12/08/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -17,7 +17,9 @@ Choose who can use the workspace and which record types should appear in the sal
 After the [first-run setup of the sales accelerator](enable-configure-sales-accelerator.md#first-run-setup), you can manage security roles, sample data, and record types.
 
 >[!NOTE]
->The record types (entities) that are organization-owned are not supported.
+>
+>- The record types (entities) that are organization-owned are not supported.
+>- When you update and publish configurations for an entity, the changes might take up to 12 hours to appear in the entity's workspace. To see the changes immediately, refresh the browser twice.
 
 1. Sign in to your sales app. In the lower-left corner of the page, go to **Change area** ![change area.](media/change-area-icon.png) > **Sales Insights settings**.
 

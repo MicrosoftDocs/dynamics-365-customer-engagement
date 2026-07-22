@@ -1,7 +1,7 @@
 ---
 title: Customize the schedule board with a custom resource attribute
 description: Learn how to customize the schedule board with a custom resource attribute in Dynamics 365 Field Service.
-ms.date: 06/26/2025
+ms.date: 06/22/2026
 ms.topic: how-to
 ms.custom: bap-template
 author: mkelleher-msft

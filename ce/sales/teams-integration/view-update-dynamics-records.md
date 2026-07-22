@@ -1,7 +1,7 @@
 ---
 title: View and update record details within Microsoft Teams
 description: Learn how to view and update record details within Microsoft Teams
-ms.date: 08/21/2024
+ms.date: 10/23/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -43,4 +43,4 @@ After you receive a card in a Teams chat, you can view its details and update th
 [Edit settings of the Dynamics 365 app](edit-d365-app.md)    
 [Share feedback](share-feedback-d365-app.md)    
 [Share Dynamics 365 records within Microsoft Teams conversations](share-dynamics-records-in-teams.md)   
-[Add chat messages to Dynamics 365 as notes or tasks](add-chat-d365.md)   
+

@@ -68,7 +68,9 @@ The following table lists selected properties for the Engage And Readiness Agent
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_agentrespondedquerycount](#BKMK_msdyn_agentrespondedquerycount)
 - [msdyn_bantdata](#BKMK_msdyn_bantdata)
+- [msdyn_customeraskedquerycount](#BKMK_msdyn_customeraskedquerycount)
 - [msdyn_engagereadinessagentresultId](#BKMK_msdyn_engagereadinessagentresultId)
 - [msdyn_executiondetails](#BKMK_msdyn_executiondetails)
 - [msdyn_followupdetails](#BKMK_msdyn_followupdetails)
@@ -81,6 +83,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_regardingidIdType](#BKMK_msdyn_regardingidIdType)
 - [msdyn_RunAfterDate](#BKMK_msdyn_RunAfterDate)
 - [msdyn_salesagentrun](#BKMK_msdyn_salesagentrun)
+- [msdyn_standardsinterviewed](#BKMK_msdyn_standardsinterviewed)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -103,6 +106,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxValue|2147483647|
 |MinValue|-2147483648|
 
+### <a name="BKMK_msdyn_agentrespondedquerycount"></a> msdyn_agentrespondedquerycount
+
+|Property|Value|
+|---|---|
+|Description|**Count of the queries responded by agent as part of engagement.**|
+|DisplayName|**Agent responded query count**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`msdyn_agentrespondedquerycount`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
 ### <a name="BKMK_msdyn_bantdata"></a> msdyn_bantdata
 
 |Property|Value|
@@ -119,6 +136,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|1000000000|
+
+### <a name="BKMK_msdyn_customeraskedquerycount"></a> msdyn_customeraskedquerycount
+
+|Property|Value|
+|---|---|
+|Description|**Count of the queries asked by customer as part of engagement.**|
+|DisplayName|**Customer asked query count**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`msdyn_customeraskedquerycount`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
 
 ### <a name="BKMK_msdyn_engagereadinessagentresultId"></a> msdyn_engagereadinessagentresultId
 
@@ -305,6 +336,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|msdyn_salesagentrun|
+
+### <a name="BKMK_msdyn_standardsinterviewed"></a> msdyn_standardsinterviewed
+
+|Property|Value|
+|---|---|
+|Description|**Json to hold standards interviewed by engage agent**|
+|DisplayName|**Standards interviewed by engage agent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_standardsinterviewed`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|TextArea|
+|FormatName|TextArea|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2000|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

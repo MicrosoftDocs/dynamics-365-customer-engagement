@@ -1,7 +1,7 @@
 ---
 title: Welcome to Dynamics 365 Sales
 description: Transform your sales organization with Dynamics 365 Sales to build strong relationships with customers, take actions based on insights, and close deals faster.
-ms.date: 08/13/2025
+ms.date: 06/22/2026
 ms.topic: overview
 author: udaykirang
 ms.author: udag
@@ -36,7 +36,7 @@ There's a Dynamics 365 Sales offering to fit every need of a business:
 
 - **Relationship sales**: Ideal for enterprises that need to connect sales records with LinkedIn to enhance business processes with data about people, organizations, and relationships. [Learn more about Microsoft Relationship Sales](#microsoft-relationship-sales).
 
-- **Microsoft 365 Copilot for Sales:** Ideal for enterprises that wants sellers to use Outlook and Microsoft Teams to automatically capture data, access, and register data into any customer relationship management (CRM) system, eliminating manual data entry. [Learn more about Copilot for Sales](#microsoft-365-copilot-for-sales). 
+- **Sales agent:** Ideal for enterprises that wants sellers to use Outlook and Microsoft Teams to automatically capture data, access, and register data into any customer relationship management (CRM) system, eliminating manual data entry. [Sales agent](#sales-agent). 
 
 ### Dynamics 365 Sales Premium
 
@@ -74,15 +74,13 @@ Here's a short video to help you understand how Dynamics 365 Sales Professional 
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=67fb63b7-d1f7-4e3c-9c3f-39e6ad7c0704]
 
-### Microsoft 365 Copilot for Sales
+### Sales agent
 
-Dynamics 365 Sales customers have limited capabilities included within the Sales Enterprise, Sales Premium, and Relationship Sales licenses. The standard functionality showcases capabilities such as email replies and conversation intelligence in Teams. With the purchase of Copilot for Sales customers can access the full functionality which includes the combined experience with Microsoft 365 Copilot. Microsoft Dynamics 365 Sales Premium users only need to purchase Microsoft 365 Copilot to activate Copilot for Sales. 
-
-For more information about the Copilot for Sales licensing options for Dynamics 365 Sales customers, see [this FAQ](/microsoft-sales-copilot/sales-copilot-faq#will-copilot-for-sales-be-included-in-dynamics-365-sales-subscriptions).
+Dynamics 365 Sales customers have limited capabilities included within the Sales Enterprise, Sales Premium, and Relationship Sales licenses. The standard functionality showcases capabilities such as email replies and conversation intelligence in Teams. With the purchase of Microsoft 365 Copilot, customers can access the full functionality of Sales agent. [Learn more about Sales agent](/microsoft-sales-copilot/introduction).
 
 ## Compare solutions
 
-To compare the capabilities available in each solution, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?linkid=866029).
+To compare the capabilities available in each solution, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 ## How Dynamics 365 helps transform your sales organization
 
@@ -99,10 +97,10 @@ Sales Qualification Agent autonomously researches leads using internal and exter
 
 ### Stay ahead of the deal with agent-powered insights
 
-The Opportunity Research Agent in Dynamics 365 Sales helps you close complex deals by spotting risks early, highlighting top opportunities, and bringing all key insights into one clear view&mdash;so you can focus and act with confidence. Depending on your role, you can use the agent as follows:  
+The Sales Opportunity Agent in Dynamics 365 Sales helps you close complex deals by spotting risks early, highlighting top opportunities, and bringing all key insights into one clear view&mdash;so you can focus and act with confidence. Depending on your role, you can use the agent as follows:  
 
-- Administrator: [Configure the Opportunity Research Agent](configure-opportunity-research-agent.md)  
-- Seller: [Work on opportunities handled by the Opportunity Research Agent](use-opportunity-research-agent.md)
+- Administrator: [Configure the Sales Opportunity Agent](configure-opportunity-research-agent.md)  
+- Seller: [Work on opportunities handled by the Sales Opportunity Agent](use-opportunity-research-agent.md)
 
 ### Meet buyers where they are
 
@@ -114,7 +112,7 @@ Engage and interact with your customers at the right time and place, using metho
 | Complete the next best activity | Help sellers focus by giving them clear and achievable sales activities, prioritized through artificial intelligence (AI) and predictive scoring. | Administrator: [Configure the sales accelerator](enable-configure-sales-accelerator.md)<br>Seller: [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md) |
 | Communicate with effective call techniques | Converse with empathy by employing AI-powered conversation intelligence to detect customer emotion, sentiment, and priorities. | Administrator: [First-run setup experience for conversation intelligence](fre-setup-sales-insight-app.md)<br>Seller: [View and understand call summary page](view-and-understand-call-summary.md) |
 | Connect across channels | Streamline selling with integrated multichannel communications such as, soft phone dialer, Microsoft Teams dialer, and email templates. | Administrator:<br> - [Integrate a sample softphone with Dynamics 365 Sales](sample-softphone-integration.md)<br>- [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)<br>- [Set up enhanced email](set-up-enhanced-email.md)<br>Seller:<br> - [Call a customer](connect-with-customers.md#call-a-customer)<br> - [Send email using the enhanced email experience](enhanced-email.md) |
-| Meet and collaborate virtually | Provide coordinated virtual engagement with an enterprise collaboration hub that brings together colleagues, customers, and contextual customer data. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)<br>Seller: [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration)|
+| Meet and collaborate virtually | Provide coordinated virtual engagement with an enterprise collaboration hub that brings together colleagues, customers, and contextual customer data. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)|
 | Gather and act on customer feedback | See the customer’s point of view and improve sales engagement by incorporating survey insights from Dynamics 365 Customer Voice—included with Dynamics 365 Sales. | [Dynamics 365 Customer Voice documentation](/dynamics365/customer-voice/help-hub) |
 
 ### Build relationships  
@@ -135,8 +133,8 @@ Collaborate with customers by getting visibility into the right data data and co
 
 | Capability | Description | Reference link |
 |------------|-------------|----------------|
-| Gain visibility into the right data | Access customer data and insights in Microsoft Teams to collaborate productively within the sales team. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)<br>Seller: [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration) |
-| Communicate in context | Use embedded Microsoft Teams chats in Dynamics 365 for real-time collaboration within the sales team. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)<br>Seller: [Enhanced Collaboration Experience with Microsoft Teams](/dynamics365/teams-integration/teams-collaboration-enhanced-experience) |
+| Gain visibility into the right data | Access customer data and insights in Microsoft Teams to collaborate productively within the sales team. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app) |
+| Communicate in context | Use embedded Microsoft Teams chats in Dynamics 365 for real-time collaboration within the sales team. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app) |
 
 ### Boost seller productivity
 

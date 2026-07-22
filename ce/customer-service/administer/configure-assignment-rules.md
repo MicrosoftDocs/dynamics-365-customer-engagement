@@ -1,7 +1,7 @@
 ---
 title: Configure assignment methods for queues
 description: Contains steps on how to configure the different assignment methods for queues in your contact center.
-ms.date: 07/10/2025
+ms.date: 10/16/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -22,7 +22,8 @@ In unified routing, the process of creating assignment rulesets involves the fol
 1. **Create selection criteria**: If you create more than one assignment ruleset, you need to define the rules for the selection criteria. The selection criteria determines the ruleset that should be run out of the many that exist. Learn more in [Configure selection criteria](#configure-selection-criteria).
 
 > [!NOTE]
-> While you can create custom assignment methods, we recommend that you use the out-of-the-box assignment methods or selection criteria that are robust and validated for most use cases.
+> - While you can create custom assignment methods, we recommend that you use the out-of-the-box assignment methods or selection criteria that are robust and validated for most use cases.
+> - We recommend that you don't use rollup or calculated fields in rule conditions because they aren't supported.
 
 ## Prerequisite
 

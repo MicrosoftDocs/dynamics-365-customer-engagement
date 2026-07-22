@@ -27,8 +27,6 @@ The sales accelerator is an engagement platform that helps a sales team understa
 > [!NOTE]
 > You can also set up the sales accelerator through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 sequence-connected records per month. To set up sales accelerator through quick setup, go to the **Sales settings** page under **App Settings**. More information: [Set up sales accelerator](digital-selling-sales-accelerator.md#set-up-sales-accelerator)
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2190823]
-
 ## Recommendations
 
 For the best experience of the sales accelerator, enable and configure [predictive lead scoring](configure-predictive-lead-scoring.md) and [predictive opportunity scoring](configure-predictive-opportunity-scoring.md) to display predictive scores for each record in the work list. Displaying the score helps your sellers to prioritize leads and opportunities based on how likely they're to be converted.
@@ -39,7 +37,7 @@ For the best experience of the sales accelerator, enable and configure [predicti
 Enable the sales accelerator by quickly providing access to security roles and selecting the record types to be shown in the work list.
 
 >[!NOTE]
->By default, sales accelerator is available in the Sales Hub app with limited functionalities. Your Sales teams can view the work list items created through timeline for contact, opportunity, lead, and account records. To experience the full capabilities of sales accelerator, purchase the Sales Premium license and configure the features such as sequences and segments.  
+>By default, sales accelerator is available in the Sales Hub app with limited functionalities. Your Sales teams can view the work list items created through timeline for contact, opportunity, lead, and account records. To experience the full capabilities of sales accelerator, upgrade your Dynamics 365 Sales license and configure the features such as sequences and segments. Learn more about [Dynamics 365 Sales licensing options](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
 1. Under **Sales accelerator**, select **Workspace**.  

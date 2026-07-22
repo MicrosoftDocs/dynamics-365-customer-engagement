@@ -1,7 +1,7 @@
 ---
 title: "Customize the Dynamics 365 Sales app"
 description: "Learn how to customize the Dynamics 365 Sales app."
-ms.date: 02/11/2025
+ms.date: 03/12/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,17 +18,17 @@ The Dynamics 365 Sales application is a modular app built to provide capabilitie
 
 Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:
 
-# [Sales Premium or Sales Enterprise](#tab/sales)
+# [Sales Hub app](#tab/sales)
 
 **To customize the app**:
 
-1. Select the app at the upper-right corner of the screen.
+1. Open the Sales Hub app, and then select the app name at the upper-left corner of the screen.
 
-2. Go to the **Sales Hub** tile, select **More Options** (...), and then select **Open in App Designer**.
+2. From the list of apps, go to the **Sales Hub** tile, select **More Options** (...), and then select **Open in App Designer**.
 
 3. Add or edit components to the app, as required. More information: [Add or edit app components](/powerapps/maker/model-driven-apps/add-edit-app-components)
 
-# [Sales Professional](#tab/salespro)
+# [Sales Professional app](#tab/salespro)
 
 > [!IMPORTANT]
 > This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.

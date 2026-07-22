@@ -1,11 +1,11 @@
----
+﻿---
 title: Get user details on Microsoft Teams from Azure agent
-description: Get user details on Microsoft Teams from Azure agent in Omnichannel for Customer Service.
-ms.date: 04/29/2025
+description: Get user details on Microsoft Teams from Azure agent in Dynamics 365 Contact Center.
+ms.date: 05/27/2026
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: conceptual
+ms.topic: concept-article
 ---
 
 # Get user details on Microsoft Teams from Azure agent
@@ -28,3 +28,4 @@ You understand that your data may be transmitted and shared with external system
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

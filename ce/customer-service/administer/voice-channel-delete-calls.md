@@ -4,7 +4,7 @@ description: Learn how to delete call recordings in the voice channel in Dynamic
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 01/28/2025
+ms.date: 02/19/2026
 ms.custom: bap-template
 ms.topic: how-to
 ---

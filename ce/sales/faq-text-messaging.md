@@ -16,7 +16,7 @@ ms.custom:
 
 # Text messaging FAQs
 
-This article answers frequently asked questions about text messaging in Dynamics 365 Sales and Sales premium.
+This article answers frequently asked questions about text messaging in Dynamics 365 Sales.
 
 ## Why can't I see the SMS feature in my sales app?​
 

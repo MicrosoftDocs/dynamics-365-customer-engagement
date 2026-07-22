@@ -4,9 +4,9 @@ description: Monitor and filter backlog work items with real-time analytics. Vie
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
-ms.date: 09/16/2025
+ms.date: 06/26/2026
 ms.custom: bap-template
 ---
 

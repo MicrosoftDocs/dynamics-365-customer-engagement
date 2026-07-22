@@ -1,58 +1,55 @@
 ---
-title: Set up and configure the Sales Qualification Agent (preview)
-description: Set up and configure the Sales Qualification Agent to automate research, engagement, and outreach in Dynamics 365 Sales with AI-powered assistance for effective sales processes.
-ms.date: 09/24/2025
+
+title: Set up and configure the Sales Qualification Agent
+description: Set up the Sales Qualification Agent in Dynamics 365 Sales to automate lead research, engagement, and outreach with AI-powered assistance. Learn how to configure it effectively.
+ms.date: 06/03/2026
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-description
-  - ai-seo-date:08/04/2025
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+ms.custom: bap-template
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
+
 ---
 
-# Set up and configure the Sales Qualification Agent (preview)
+# Set up and configure the Sales Qualification Agent
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+As an admin, you need to set up the Sales Qualification Agent before your sellers can use it for lead research, target customer profile assessment, and initial email outreach. This article discusses how to configure the details about your company and products you sell, your target customer profile, and other settings to help the agent align with your company's sales strategy and goals. 
 
-As an admin, you need to set up the Sales Qualification Agent before your sellers can use it for lead research, ideal customer profile (ICP) fit assessment, and initial email outreach. This article discusses how to configure the details about your company and products you sell, your ideal customer profile, and other settings to help the agent align with your company's sales strategy and goals.
+Here are the resources to help your functional and IT teams assess readiness for deploying the Sales Qualification Agent:
+
+- [Role-specific guidance](https://aka.ms/sqaguidance) for sales leadership, finance, and HR teams to understand the impact of the Sales Qualification Agent on their roles and responsibilities.
+- [Architecture and compliance safeguards](/dynamics365/guidance/reference-architectures/sales-qualification-agent) for your IT security and compliance teams to review the architecture, data flow, and security and compliance measures associated with the Sales Qualification Agent.
 
 Watch the video to get started with the agent setup:
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=5148e4b9-f0d1-43e9-93b5-484c8f446c3c]
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
 ## Prerequisites
 
 Ensure that the following prerequisites are met:  
 
-- Your tenant admin has granted the following consent:  
-    - Consent for data movement across regions and Bing search. Learn more in [Move data across regions for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot?tabs=new).  
-    - The agent needs Copilot Studio capacity to run. Ensure that you have enough capacity. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).  
+- You have set up the [common prerequisites applicable to all Sales agents](prerequisites-for-all-agents.md).
 - You have admin permissions in Dynamics 365 Sales.  
 - You have a Copilot Studio license. Learn more in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).  
 - You turned on the modern UI for the Sales Hub app. Learn more in [Enabling the modern look for my app and removing the toggle](/power-apps/user/modern-fluent-design#enabling-the-modern-look-for-my-app-and-removing-the-toggle).  
-- You turned on the AI prompts feature in Power Platform and Copilot Studio. Learn more in [Enable AI prompts in Power Platform and Copilot Studio](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio).  
-- You turned on the AI insight cards in Power Platform Admin Center. This feature is required for sellers to get notified about lead handovers and view insights on the lead record. Learn more about turning on this feature in [Manage feature settings](/power-platform/admin/settings-features).
 - You modified Data policies to allow the following connectors:
 
-    | Connector | Why is it required? |
-    |-----------|---------------------|
-    | Knowledge source with public websites and data | The agent needs it to access public data for enrichment. |
-    | Microsoft Copilot Studio | Copilot Studio is the core platform for building and deploying the agent. |
-    | Microsoft Dataverse | A data platform that securely stores data from various Microsoft products, allowing agents to access and utilize it. |
-    | Knowledge source with SharePoint or OneDrive | Required only if the agent is configured to use internal documents on SharePoint or OneDrive for enrichment. |
-    | Knowledge source with documents | Required only if the agent is configured to use internal documents for enrichment. |
-    | Direct Line channels in Copilot Studio | Required for the agent to connect to Microsoft Copilot Studio. |
+| Connector | Why is it required? |
+| --- | --- |
+| Knowledge source with public websites and data | The agent needs it to access public data for enrichment. |
+| Microsoft Copilot Studio | Copilot Studio is the core platform for building and deploying the agent. |
+| Microsoft Dataverse | A data platform that securely stores data from various Microsoft products, allowing agents to access and utilize it. |
+| Knowledge source with SharePoint or OneDrive | Required only if the agent is configured to use internal documents on SharePoint or OneDrive for enrichment. |
+| Knowledge source with documents | Required only if the agent is configured to use internal documents for enrichment. |
+| Direct Line channels in Copilot Studio | Required for the agent to connect to Microsoft Copilot Studio. |
 
-   Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tabs=new).  
+ Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss?tabs=new).  
+
 - You configured server-side synchronization by integrating Dynamics 365 with Exchange. Learn more in [Set up email by integrating with Exchange](configure-email.md). If server-side synchronization isn't set up, the agent doesn't generate outreach emails or engage with leads. 
 - You enabled in-app notifications to notify sellers and supervisors about lead handovers. Learn more in [Enable in-app notifications for your organization](/power-apps/developer/model-driven-apps/clientapi/send-in-app-notifications?tabs=clientapi#enable-the-in-app-notification-feature).  
 - (Optional but recommended) You turned on Copilot in Dynamics 365 Sales to allow your sellers to get a 360-degree view of the lead and their company. Learn more in [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md) and [Get information from Copilot](copilot-get-information.md).
@@ -64,38 +61,58 @@ Review the following considerations before you start deploying the autonomous Sa
 - Only one of the following modes can be deployed in an organization:  
     - **Research-only mode**: Analyzes assigned leads and drafts outreach email based on the insights and provides recommended actions.  
     - **Research and engage mode**: Analyzes and autonomously engages with the customer. Hands over the leads to sellers with detected purchase interest and customer profile fit based on configured handover criteria.  
-
 - You can **upgrade** from **Research-only** mode to the **Research and engage** mode later, but not the other way around.  
 - **Stopping the agent** will prevent new leads from being assigned/processed by the agent. Existing leads which are already in pipeline (orchestration), will continue until the lead is either handed over to a seller or added to the supervisor dashboard for next steps.  
 - You can’t **delete** an agent once configured. Contact Microsoft support to delete the agent from your organization.  
 
 <a name="grant-permissions"></a>
 
-## Grant permissions to custom security role
+## Grant permissions to sellers to work on leads handed over by agent
 
-If you're using custom security roles for your sales team instead of the out-of-the-box roles, you have two options. 
+If you're using out-of-the-box security roles such as Salesperson and Sales Manager, no additional permissions are required to work on leads handed over by the Sales Qualification Agent. However, if you're using custom security roles for your sales team, you can choose *ONE* of the following options:
 
+- Assign the out-of-the-box roles&mdash;Salesperson or Sales Manager&mdash;only to users who'll be working on leads handed over by the agent. This option is recommended if you want to allow only a subset of users to work on leads handed over by the agent.
 - Grant the necessary permissions, listed in the following table, to the custom role. This option is recommended if you want to allow all the users with the custom role to work on leads handed over by the agent.
 
-- Assign the out-of-the-box roles&mdash;Salesperson or Sales Manager&mdash;only to users who'll be working on leads handed over by the agent. This option is recommended if you want to allow only a subset of users to work on the agent-handed-over leads.
+> [!NOTE]
+> If your sales team plans to reassign the leads handed over by the agent to other users, ensure that those users also have the permissions listed in the following table. Otherwise, the user assignment will fail.
 
 **Permissions required for custom security roles:**
 
 | Entity name (Logical name) | Permissions |
-|----------------------------|-------------|
+| --- | --- |
 | Sales Copilot Email Insight (msdyn_salescopilotemailinsight)<br>Sales Copilot Insight (msdyn_salescopilotinsight)<br>Sales Copilot Insight Card State (msdyn_salescopilotinsightcardstate) | **User-level**: Read, Write, Create, Append, Append To, Assign |
 | Sales Agent Handover (msdyn_salesagenthandover) | **Global-level**: Read; **Basic-level**: Append, Append To, Assign, Write, Create, Delete, Share |
-| Email Activity (email) | **User-level**: Read, Create |
-| Lead (lead) | **User-level**: Append, Append To |
+| Email Activity (activitypointer) | **User-level**: Read, Create |
+| Lead (lead) | **User-level**: Read, Write, Append, Append To |
 | Notification (appnotification) | **Basic-level**: Read |
 | Synthesizer Output (msdyn_synthesizeroutput)<br>Summary Synthesizer Input (msdyn_summarysynthesizerinput)<br>Lead Agent Result (msdyn_leadagentresult)<br>Sales Agent Profile (msdyn_salesagentprofile)<br>Sales Agent Run (msdyn_salesagentrun)<br>Sales Agent Configuration v2 (msdyn_salesagentconfigurationv2) | **Global-level**: Read |
 | Engagement Readiness Agent Result (msdyn_engagereadinessagentresult) | **Basic-level**: Read, Write |
+| Account Research Result (msdyn_accountresearchresult)<br>Account Research Agent Trigger (msdyn_accountresearchagenttrigger)<br>Customization Agent Trigger (msdyn_customizationagenttrigger)<br>Custom OOB Research Result (msdyn_customoobresearchresult)<br>OOB Account Research Result (msdyn_oobaccountresearchresult)<br>Custom Account Insights Result (msdyn_customaccountinsightsresult) | **Global-level**: Read, Append, Append To, Assign, Write, Create, Delete |
+| Always Run SQA Segment (msdyn_alwaysrunsqasegment) | **Global-level**: Read |
+| Outreach Agent Result (msdyn_outreachagentresult)<br>Outreach Trigger Agent (msdyn_outreachtriggeragent) | **Global-level**: Read; **Basic-level**: Append, Append To, Assign, Write, Create, Delete |
+
+**Permissions required for assignment rule seller/team picker**
+
+Ensure that the following permissions are granted to the custom security role to allow users with that role to be selectable in the seller/team dropdown when [configuring assignment rules](configure-sqa-assignment-rules.md) for the Sales Qualification Agent: 
+
+- Lead: Write (User-level)
+- Lead: Append (User-level)
+- Sales Agent Handover: Read (Global-level)
+- Sales Agent Handover: Delete (User-level)
+- Sales Agent Handover: Share (User-level)
+- Engagement and Readiness Agent Result V2: Write (User-level)
+- SalesAgentProfile: Read (Global-level)
+- Sales agent run: Read (Global-level)
+- SalesAgentConfigurationv2: Read (Global-level)
 
 Learn more about granting permissions in [Define the privileges and properties of a security role](/power-platform/admin/security-roles-privileges?tabs=new#define-the-privileges-and-properties-of-a-security-role).
 
 The following image shows the permissions to access research insights as an example:
 
 :::image type="content" source="media/sqa-custom-role-permissions.png" alt-text="Screenshot of the permissions to grant to a custom security role for use with the Sales Qualification Agent in Dynamics 365 Sales.":::
+
+If you're using a custom app, add the Dynamics AI Hub sitemap entry to your custom app to allow users to create, manage, and monitor sales AI agents. Learn more in [Access Dynamics 365 AI Hub](dynamics-365-ai-hub.md)
 
 ## Set up Sales Qualification Agent
 
@@ -109,21 +126,29 @@ Let's look at the steps to set up and configure the agents.
 **Follow these steps**:
 
 1. [Open the Sales Qualification Agent settings page](open-sales-qualification-agent-settings.md).  
-1. Configure the following prerequisites before you set up the agent.  
+2. Depending on the mode you want to deploy, complete the following configuration steps to set up the agent user:
 
-    |&nbsp; | Research-only mode | Research and engage mode |
-    |-------|----------|--------|
-    | **Prerequisites** | [Create an app in Azure](configure-requirements-for-sqa-agent.md#create-application-in-azure)<br>[Create an app user in Dataverse and assign AISalesPerson role](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse-and-assign-aisalesperson-role)  | [Create an app in Azure](configure-requirements-for-sqa-agent.md#create-application-in-azure)<br>[Create an app user in Dataverse and assign AISalesPerson role](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse-and-assign-aisalesperson-role)<br>[Create a shared mailbox](configure-requirements-for-sqa-agent.md#create-a-shared-mailbox)<br>[Configure server-side synchronization](configure-requirements-for-sqa-agent.md#configuring-server-side-synchronization) |  
+ | Research-only mode | Research and engage mode |
+ |----------|--------|
+ | [Create an app in Azure](configure-requirements-for-sqa-agent.md#create-application-in-azure)<br>[Create an app user in Dataverse and assign AISalesPerson role](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse-and-assign-aisalesperson-role)  | [Create an app in Azure](configure-requirements-for-sqa-agent.md#create-application-in-azure)<br>[Create an app user in Dataverse and assign AISalesPerson role](configure-requirements-for-sqa-agent.md#create-an-app-user-in-dataverse-and-assign-aisalesperson-role)<br>[Create a shared mailbox](configure-requirements-for-sqa-agent.md#create-a-shared-mailbox)<br>[Configure server-side synchronization](configure-requirements-for-sqa-agent.md#configuring-server-side-synchronization) |  
 
-1. [Configure general information](sales-qualification-agent-general-settings.md) for agent such as profile, company info, and products.  
-1. [Configure selection criteria](sales-qualification-agent-selection-criteria.md) for the agent process the leads.  
-1. [Configure email instructions and address validation](sales-qualification-agent-email-instruction-validation.md) for the agent.
-1. [Configure handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) for the agent to identify leads that are a good fit for further engagement.  
-1. [Configure assignment rules](configure-sqa-assignment-rules.md) for the agent to assign processed leads to the appropriate sellers.  
-1. [Configure knowledge sources](configure-sqa-knowledge-source.md) for company and competitor insights, outreach, and follow-up emails.
-1. (**Research and engage mode**) [Run simulation to review the agent's outreach emails](run-simulation-sqa-outreach-email.md) are customized and relevant to the leads.  
-1. After you are satisfied with the configuration, [start the agent](start-sales-qualification-agent.md).
-1. (Optional) [Test the Sales Qualification Agent](test-sales-qualification-agent-research-engage.md).
+3. [Configure general information](sales-qualification-agent-general-settings.md) for agent such as profile, company info, and products.  
+4. [Configure selection criteria](sales-qualification-agent-selection-criteria.md) for the agent process the leads.  
+5. [Configure email instructions, define custom outreach scenario, and specify custom email field](sales-qualification-agent-email-instruction-validation.md) for the agent.
+6. [Configure handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) for the agent to identify leads that are a good fit for further engagement.  
+7. [Configure assignment rules](configure-sqa-assignment-rules.md) for the agent to assign processed leads to the appropriate sellers.  
+8. [Configure knowledge sources](configure-sqa-knowledge-source.md) for company and competitor insights, outreach, and follow-up emails.
+9. (**Research and engage mode**) [Run simulation to review the agent's outreach emails](run-simulation-sqa-outreach-email.md) are customized and relevant to the leads.  
+10. After you are satisfied with the configuration, [start the agent](start-sales-qualification-agent.md).
+11. (Optional) [Test the Sales Qualification Agent](test-sales-qualification-agent-research-engage.md).
+
+## Migrate agents across environments
+
+When you have configured the Sales Qualification Agent in one environment, you can export the agent as a solution and import it into another environment. This is especially useful when you have set up the agent in a sandbox or test environment and want to deploy it in production after testing and validation. Learn more in [Import an agent into a target environment](import-export-agent-solutions.md).
+
+## Manage views in custom model-driven apps
+
+If your sellers use a custom model-driven app instead of the Sales Hub, you need to ensure that the required Sales Qualification Agent views are added to the custom app for sellers to see AI-generated insights and use agent capabilities. Learn more in [Use Sales Qualification Agent in custom model-driven apps](sqa-custom-model-driven-app.md).
 
 ## Related information
 

@@ -1,9 +1,9 @@
 ---
-title: Download the mobile app
-description: Learn where to download the Dynamics 365 Field Service mobile app and get started with field service operations on the go.
+title: Download and install the Dynamics 365 Field Service mobile app
+description: Learn how to download and install the Dynamics 365 Field Service mobile app on iOS, Android, and Windows. Learn system requirements and get started with mobile field service operations.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 09/22/2025
+ms.date: 06/16/2026
 author: JonBaker007
 ms.author: jobaker
 ms.custom:
@@ -13,23 +13,23 @@ ms.custom:
   - bap-template
 ---
 
-# Download the mobile app
+# Download and install the Field Service mobile app
 
-The Dynamics 365 Field Service mobile app works on iOS, Android, and Windows devices. It gives technicians the tools they need to serve customers onsite.
-
-Sample screens show both the classic user experience ("Unified Interface UX") and the new mobile app user experience in separate tabs.
+Download and install the Dynamics 365 Field Service mobile app for iOS, Android, and Windows devices. It gives technicians the tools they need to serve customers onsite.
 
 ## Prerequisites
 
 A system administrator has [set up the mobile app](set-up-field-service-mobile.md), user profiles, and security roles.
 
-## Download the app
+## Download the mobile app
 
-Go to the app store on your iOS, Android, or Windows device, and search for **Dynamics 365 Field Service**.
+Select your device type to download the app directly:
 
-- Android app: [Dynamics 365 Field Service on Google Play](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmphone.fieldServices)
-- iOS app: [Dynamics 365 Field Service in the Apple App Store](https://apps.apple.com/us/app/field-service-dynamics-365/id1485579247)
-- Windows app: [Dynamics 365 Field Service in the Microsoft Store](https://apps.microsoft.com/detail/9PMX4FNSSF5P)
+| Device | Download Link |
+| --- | --- |
+| **Android** | [Download from Google Play](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmphone.fieldServices) |
+| **iOS** | [Download from Apple App Store](https://apps.apple.com/us/app/field-service-dynamics-365/id1485579247) |
+| **Windows** | [Download from Microsoft Store](https://apps.microsoft.com/detail/9PMX4FNSSF5P) |
 
 System requirements for the Field Service mobile app are the same as for the Power Apps mobile app. Learn more in [Supported platforms for running apps using the Power Apps mobile app](/power-apps/limits-and-config#supported-platforms-for-running-apps-using-the-power-apps-mobile-app).
 
@@ -37,7 +37,7 @@ System requirements for the Field Service mobile app are the same as for the Pow
 
 For the best experience, use modern devices with high [CPU Benchmark scores on Geekbench](https://browser.geekbench.com/v5/cpu/singlecore).
 
-The required storage size depends on the [mobile offline profile](work-offline.md). It shows how much data your organization needs to download when there's no internet access.
+> **Storage requirements vary** based on your [mobile offline profile](work-offline.md). This profile determines how much data your organization downloads for offline access.
 
 ### iOS
 

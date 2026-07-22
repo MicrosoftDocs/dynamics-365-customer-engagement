@@ -1,7 +1,7 @@
 ---
 title: Overview of user management
 description: This article provides information on how to manage different user types in Dynamics 365 Customer Service or Dynamics 365 Contact Center apps.
-ms.date: 04/24/2025
+ms.date: 05/08/2026
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -14,9 +14,11 @@ To use Copilot Service workspace, each member of your organization needs a user 
 
 Use the Microsoft 365 admin center to create user accounts. The user account registers the user with Microsoft Online Services environment. Apart from registration with the online service, you must assign a license to the user account for the user to have access to the service.
 
-When you assign a user the global administrator or the service administrator role in the Microsoft Online Services environment, it automatically assigns the user the System Administrator security role.
+When you assign the global administrator or the service administrator role to a user in the Microsoft Online Services environment, it automatically assigns the System Administrator security role.
 
-See [Assign a security role to a user](/power-platform/admin/assign-security-roles) to assign security roles for users.
+Learn about assigning security roles for users in [Assign a security role to a user](/power-platform/admin/assign-security-roles).
+
+You can also manage access for your users through Microsoft Entra security groups. Learn more in [Manage users through Entra security groups](add-users-assign-roles.md#manage-users-through-microsoft-entra-security-groups).
 
 ## Next steps
 

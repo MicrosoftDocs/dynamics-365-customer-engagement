@@ -1,7 +1,7 @@
 ---
 title: Migrate service-level agreements in Dynamics 365 Customer Service
 description: Migrate SLAs from the web client to Unified Interface for enhanced compliance, flexibility, and support for custom time calculations.
-ms.date: 05/09/2025
+ms.date: 06/26/2026
 ms.topic: upgrade-and-migration-article
 author: Soumyasd27
 ms.author: sdas

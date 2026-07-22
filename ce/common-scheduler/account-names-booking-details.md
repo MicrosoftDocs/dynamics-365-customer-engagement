@@ -1,12 +1,12 @@
 ---
 title: Show account names on booking details in Universal Resource Scheduling
-description: Learn how to edit and customize the booking details on schedule board with account names.
-ms.date: 06/25/2025
-ms.reviewer: v-smithwendy 
+description: Learn how to display account names on your booking template to streamline scheduling in Universal Resource Scheduling.
+ms.date: 07/13/2026
 ms.subservice: common-scheduler
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
+ms.reviewer: v-wendysmith
 ---
 
 # Show account names on booking details in Universal Resource Scheduling

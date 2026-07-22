@@ -1,7 +1,7 @@
 ---
 title: Digital selling FAQs
 description: Get answers to frequently asked questions about digital selling.
-ms.date: 06/05/2025
+ms.date: 07/07/2026
 ms.topic: faq
 author: udaykirang
 ms.author: udag
@@ -20,10 +20,10 @@ This article answers frequently asked questions about digital selling in Dynamic
 
 ## What's the capacity limit on using digital selling capabilities?
 
-When you set up Sales Premium features using your Dynamics 365 Sales Enterprise license, the features are available with the following capacity limits:
+When you set up Sales Premium features by using your Dynamics 365 Sales Enterprise license, you get the following capacity limits:
 
-- Access to the workspace and up to 1,500 records connected to any defined sequence per environment per month. Manual activities not connected to a sequence will also be displayed without a capacity limit.
-- Predictive scoring for 1,500 lead or opportunity records scored per environment, per month.
+- You can access the workspace and up to 1,500 records connected to any defined sequence per environment each month. You can also see manual activities that aren't connected to a sequence without any capacity limit.
+- You can score 1,500 lead or opportunity records per environment each month for predictive scoring.
 
 ## How can I get the full capacity of digital selling capabilities?
 

@@ -1,7 +1,7 @@
 ---
 title: Enable generation of quote and invoice documents
 description: Help your sales team to generate quotes and invoices with consistent format and branding by using templates.
-ms.date: 01/23/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,9 +18,9 @@ Help your sales team to automatically generate quotes and invoice documents with
 ## Enable automatic document generation
 
 > [!NOTE]
-> Automatic document generation is only supported in Sales Professional.
+> Automatic document generation is only supported in the Sales Professional app.
 
-1.  In the Sales Professional site map, select **Sales Settings**.
+1.  In the Sales Professional app site map, select **Sales Settings**.
 
 3.  Under **Advanced Settings**, select **Quote Settings**.
 

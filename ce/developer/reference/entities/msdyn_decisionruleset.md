@@ -964,6 +964,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_decisionruleset_ProcessSession](#BKMK_msdyn_decisionruleset_ProcessSession)
 - [msdyn_decisionruleset_queue_msdyn_inqueueoverflowrulesetid](#BKMK_msdyn_decisionruleset_queue_msdyn_inqueueoverflowrulesetid)
 - [msdyn_decisionruleset_SyncErrors](#BKMK_msdyn_decisionruleset_SyncErrors)
+- [msdyn_globalrulesetconfiguration_msdyn_decisionrulesetid_msdyn_decisionruleset](#BKMK_msdyn_globalrulesetconfiguration_msdyn_decisionrulesetid_msdyn_decisionruleset)
 - [msdyn_msdyn_decisionruleset_msdyn_masterentityroutingconfiguration_rulesetid](#BKMK_msdyn_msdyn_decisionruleset_msdyn_masterentityroutingconfiguration_rulesetid)
 - [msdyn_msdyn_decisionruleset_msdyn_swarmtemplate_skillattachmentrulesetid](#BKMK_msdyn_msdyn_decisionruleset_msdyn_swarmtemplate_skillattachmentrulesetid)
 - [msdyn_msdyn_decisionruleset_msdyn_unifiedroutingdiagnostic_decisionrulesetid](#BKMK_msdyn_msdyn_decisionruleset_msdyn_unifiedroutingdiagnostic_decisionrulesetid)
@@ -1102,6 +1103,18 @@ Many-To-One Relationship: [syncerror msdyn_decisionruleset_SyncErrors](syncerror
 |ReferencedEntityNavigationPropertyName|`msdyn_decisionruleset_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_globalrulesetconfiguration_msdyn_decisionrulesetid_msdyn_decisionruleset"></a> msdyn_globalrulesetconfiguration_msdyn_decisionrulesetid_msdyn_decisionruleset
+
+Many-To-One Relationship: [msdyn_globalrulesetconfiguration msdyn_globalrulesetconfiguration_msdyn_decisionrulesetid_msdyn_decisionruleset](msdyn_globalrulesetconfiguration.md#BKMK_msdyn_globalrulesetconfiguration_msdyn_decisionrulesetid_msdyn_decisionruleset)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_globalrulesetconfiguration`|
+|ReferencingAttribute|`msdyn_decisionrulesetid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_globalrulesetconfiguration_msdyn_decisionrulesetid_msdyn_decisionruleset`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_decisionruleset_msdyn_masterentityroutingconfiguration_rulesetid"></a> msdyn_msdyn_decisionruleset_msdyn_masterentityroutingconfiguration_rulesetid
 

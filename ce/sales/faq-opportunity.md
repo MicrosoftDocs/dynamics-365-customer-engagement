@@ -16,7 +16,7 @@ ms.custom:
 
 # Opportunity management FAQs
 
-This article answers frequently asked questions about Opportunity management in Dynamics 365 Sales, Sales premium, and Sales professional.
+This article answers frequently asked questions about Opportunity management in Dynamics 365 Sales.
 
 ## Where is the deal manager workspace?
 

@@ -1,7 +1,7 @@
 ---
 title: Predefined security roles for Sales
 description: Predefined security roles define permissions and access levels specific to different sales personas. Assign users to appropriate security roles to grant them adequate access to the system.
-ms.date: 01/29/2025
+ms.date: 07/20/2026
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -31,10 +31,10 @@ The predefined security roles are divided into the following categories:
 
 The following table lists the roles that you should assign to administrators and customizers in your organization.
 
-| **Security roles** | **Who needs it?** | **Applies to** | **Access includes but not limited to** |
-| --- | --- | --- | --- |
-| System Administrator | Users who have full permission to install, configure, upgrade, customize, or administer the environment, including creating, modifying, and assigning security roles. Can view all data in the environment. |  Sales Premium, Sales Enterprise, and Sales Professional | Install, configure, customize, manage permissions, and access all the features in the application. |
-| System Customizer | Users who have full permission to customize the environment. Users with this role have organization-level access to custom entities and user-level access to system entities. | Sales Premium, Sales Enterprise, and Sales Professional | Create, read, write, delete, and customizations across all features in the application. |
+| **Security roles** | **Who needs it?** | **Access includes but not limited to** |
+| --- | --- | --- |
+| System Administrator | Users who have full permission to install, configure, upgrade, customize, or administer the environment, including creating, modifying, and assigning security roles. Can view all data in the environment. | Install, configure, customize, manage permissions, and access all the features in the application. |
+| System Customizer | Users who have full permission to customize the environment. Users with this role have organization-level access to custom entities and user-level access to system entities. | Create, read, write, delete, and customizations across all features in the application. |
 
 ## Primary sales roles
 
@@ -81,6 +81,19 @@ The following roles are examples of internal roles:
 - Sales system access
 - Sales system access extension
 - SalesInsights AutoCapture 
+- AISalesPerson
+
+## AI agent users
+
+AI agent users run agentic workflows autonomously. The system automatically creates these users regardless of whether you enable the AI agent feature. Deleting these users might break your deployment.
+
+The following table lists the AI agent users created by the Sales Qualification Agent:
+
+| **App User Name**         | **Application ID**                         | **Purpose**                                      |
+|--------------------------|---------------------------------------------|--------------------------------------------------|
+| D365 Sales LeadQual      | 92b4241e-147b-4311-a896-f251048e511d        | Used for lead readiness and qualification calculation |
+| D365 Sales AcctRsrch     | c98ef798-fc0f-4d75-bfb6-d92aa99cc6c5        | Used to run research                             |
+| D365 Sales OutrchAgt     | 256d32b4-47bf-4212-89f8-07fff7a210ba        | Used to prepare outreach functionality           |
 
 ## Assign security roles to users
 
@@ -89,8 +102,8 @@ Associate one or more security roles to a user depending on their roles and resp
 Follow these steps:
 
 1. In the sales app, go to **Settings** > **Advanced Settings**.
-1. Go to **System** > **Security**.
-1. Select **Users**, and then select the user account.
+1. Go to **System** > **Security (Preview)**.
+1. Select **Users**, and then select a user account.
 1. On the command bar, select **Manage security roles**, and choose the roles that you want to assign to the user.
 1. Select **Save**.
 1. Notify the user and ask them to verify that they have the permissions they need.

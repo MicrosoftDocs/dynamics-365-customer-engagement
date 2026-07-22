@@ -1,7 +1,7 @@
 ---
 title: Migrate to Copilot Service workspace
 description: Learn how to migrate from Dynamics 365 Unified Service Desk to Copilot Service workspace.
-ms.date: 04/30/2025
+ms.date: 05/28/2026
 ms.topic: upgrade-and-migration-article
 author: gandhamm
 ms.author: mgandham

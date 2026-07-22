@@ -1,7 +1,7 @@
----
+﻿---
 title: Set up intelligent skill finder model in unified routing
 description: Use the information to set up intelligent skill finder model for unified routing in Customer Service.
-ms.date: 05/23/2025
+ms.date: 05/27/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -133,3 +133,4 @@ Perform the following steps to upload the data for training your model:
 [Set up skill-based routing in unified routing](set-up-skill-based-routing.md) 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]  
+

@@ -39,7 +39,7 @@ Solutions introduce factors to take into consideration during your planning. The
   
  [Solution entities](solution-entities.md)  
   
- [Publish your app on AppSource](publish-app-appsource.md)
+ [Publish your app on Marketplace](publish-app-appsource.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

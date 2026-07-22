@@ -10,7 +10,7 @@ search.audienceType:
 
 # External CRM (msdyn_externalcrm) table/entity reference (Microsoft Dynamics 365)
 
-External CRM - Copilot for Sales
+External CRM - M365 Copilot Sales
 
 ## Messages
 

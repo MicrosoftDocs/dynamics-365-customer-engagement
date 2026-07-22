@@ -1,7 +1,7 @@
 ---
 title: Understand the sales pipeline chart and its phases
 description: Understand how sales reps or managers use the Sales Pipeline chart to visualize revenue for an opportunity.
-ms.date: 03/27/2025
+ms.date: 05/29/2026
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr

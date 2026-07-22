@@ -4,8 +4,8 @@ description: As supervisors, use the Ongoing Conversations Dashboard to view inf
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
-ms.date: 05/02/2025
+ms.topic: concept-article
+ms.date: 06/26/2026
 ms.custom: bap-template
 ms.collection: 
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad

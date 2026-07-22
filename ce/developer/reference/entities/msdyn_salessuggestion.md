@@ -1014,9 +1014,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_salessuggestion_msfp_surveyinvites](#BKMK_msdyn_salessuggestion_msfp_surveyinvites)
 - [msdyn_salessuggestion_msfp_surveyresponses](#BKMK_msdyn_salessuggestion_msfp_surveyresponses)
 - [msdyn_salessuggestion_PhoneCalls](#BKMK_msdyn_salessuggestion_PhoneCalls)
-- [msdyn_salessuggestion_PostFollows](#BKMK_msdyn_salessuggestion_PostFollows)
-- [msdyn_salessuggestion_PostRegardings](#BKMK_msdyn_salessuggestion_PostRegardings)
-- [msdyn_salessuggestion_Posts](#BKMK_msdyn_salessuggestion_Posts)
 - [msdyn_salessuggestion_PrincipalObjectAttributeAccesses](#BKMK_msdyn_salessuggestion_PrincipalObjectAttributeAccesses)
 - [msdyn_salessuggestion_ProcessSession](#BKMK_msdyn_salessuggestion_ProcessSession)
 - [msdyn_salessuggestion_RecurringAppointmentMasters](#BKMK_msdyn_salessuggestion_RecurringAppointmentMasters)
@@ -1324,42 +1321,6 @@ Many-To-One Relationship: [phonecall msdyn_salessuggestion_PhoneCalls](phonecall
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_salessuggestion_PhoneCalls`|
 |IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_msdyn_salessuggestion_PostFollows"></a> msdyn_salessuggestion_PostFollows
-
-Many-To-One Relationship: [postfollow msdyn_salessuggestion_PostFollows](postfollow.md#BKMK_msdyn_salessuggestion_PostFollows)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`postfollow`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_salessuggestion_PostFollows`|
-|IsCustomizable|`False`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_msdyn_salessuggestion_PostRegardings"></a> msdyn_salessuggestion_PostRegardings
-
-Many-To-One Relationship: [postregarding msdyn_salessuggestion_PostRegardings](postregarding.md#BKMK_msdyn_salessuggestion_PostRegardings)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`postregarding`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_salessuggestion_PostRegardings`|
-|IsCustomizable|`False`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_msdyn_salessuggestion_Posts"></a> msdyn_salessuggestion_Posts
-
-Many-To-One Relationship: [post msdyn_salessuggestion_Posts](post.md#BKMK_msdyn_salessuggestion_Posts)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`post`|
-|ReferencingAttribute|`regardingobjectid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_salessuggestion_Posts`|
-|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_salessuggestion_PrincipalObjectAttributeAccesses"></a> msdyn_salessuggestion_PrincipalObjectAttributeAccesses

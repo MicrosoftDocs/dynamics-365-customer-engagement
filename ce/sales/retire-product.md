@@ -1,7 +1,7 @@
 ---
 title: "Retire products (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Retire a product in Dynamics 365 Sales so that it is no longer available to your sales agents for selling."
-ms.date: 11/19/2024
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -14,7 +14,7 @@ ms.custom:
 If your organization doesn't sell a product, bundle, or family anymore, retire it so that the product record is no longer available to your sales agents. 
 
 > [!NOTE]
-> Product families are only supported for Sales Enterprise and Sales Premium. 
+> Product families are only available in the Sales Hub app. 
 
 ## Retire a product
 

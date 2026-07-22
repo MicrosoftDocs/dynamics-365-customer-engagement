@@ -1,7 +1,7 @@
 ---
 title: Configure payment profiles
-description: Learn how to configure payment profiles in Dynamics 365 Contact Center.
-ms.date: 05/20/2025
+description: Learn how to configure payment profiles for Apple Messages for Business in Dynamics 365 Customer Service.
+ms.date: 05/28/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -14,10 +14,12 @@ ms.reviewer: laalexan
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-
 You can create payment profiles to enable conversational commerce for supported channels. Once configured, your customer service representatives can help customers complete secure transactions without having to leave the messaging experience.
 
-After you create a payment profile record, you must add it to a channel instance within a workstream's channel setup to make it work. Conversational commerce is supported for Apple Messages for Business.
+After you create a payment profile record, you must add it to a channel instance within a workstream's channel setup. Conversational commerce is supported for Apple Messages for Business.
+
+> [!NOTE] 
+> Support for Apple Messages for Business channel is deprecated. Learn more in [Deprecations](/dynamics365/contact-center/implement/deprecations-contact-center).
 
 ## Create an Apple Messages for Business payment profile for Apple Pay
 

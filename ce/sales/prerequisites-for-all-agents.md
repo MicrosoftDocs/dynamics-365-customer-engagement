@@ -1,0 +1,50 @@
+---
+title: Prerequisites applicable to all Sales agents
+description: Learn how to set up prerequisites for using Sales agents in Dynamics 365 Sales.
+ms.date: 03/09/2026
+ms.update-cycle: 180-days
+ms.topic: how-to
+ms.service: dynamics-365-sales
+ms.custom: bap-template
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
+search.app: salescopilot-docs
+ms.collection: bap-ai-copilot
+ai-usage: ai-assisted
+---
+
+# Prerequisites applicable to all Sales agents
+
+To set up and use the built-in sales agents such as the Sales Qualification Agent and Sales Close Agent, make sure you meet certain common prerequisites. This is a one-time setup. The **Create** option on the **AI agents** page is disabled until all the common prerequisites are marked as **Done**. 
+
+Agent-specific prerequisites are covered in their respective agent setup articles.
+
+## Verify prerequisites
+
+1. Ensure that you have the [Power Platform administrator role](/power-platform/admin/use-service-admin-role-manage-tenant).
+
+1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
+
+1. Go to **General Settings** > **Dynamics 365 AI hub**.  
+   If you have trouble finding or accessing the AI hub, it might be due to permission restrictions. Learn more in [Access Dynamics 365 AI Hub](dynamics-365-ai-hub.md). 
+
+1. Under **Agent manager**, select **Create and manage agents** .
+   The **Prerequisites** page opens, displaying the list of prerequisites required to create and use AI agents in Dynamics 365 Sales. This page appears only when you create an agent for the first time.
+
+1. Select the relevant action for each prerequisite to mark it as **Done**. If the prerequisites are already marked as **Done**, no further steps are required. The prerequisites are:
+   - **Microsoft Copilot Studio capacity**: Select **Set up** to open the Power Platform admin center and set up capacity. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
+
+   - **Move data across regions**: Select **Accept terms** to open the Power Platform admin center and allow data movement under **Generative AI features** > **Move data across regions**. Learn more about data residency and movement in [Regions where data is processed for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#regions-where-data-is-processed-for-copilots-and-generative-ai-features).  
+   - **AI prompts**: Select **Set up** to open the Power Platform admin center and [turn on AI prompts](/ai-builder/administer#enable-or-disable-ai-prompts-in-power-platform-and-copilot-studio). This setting allows the agent to use custom or predefined prompts.
+1. Select **Refresh** to update the status of the prerequisites. Ensure that all prerequisites are marked as **Done**.
+1. Turn on the following AI capabilities in Power Platform admin center:
+   - [AI insight cards](/power-platform/admin/settings-features). This setting notifies sellers about the insights on the opportunity record. Learn more about turning on this feature in [Manage feature settings](/power-platform/admin/settings-features).
+   - [AI Agents](/power-platform/admin/copilot/copilot-hub#turn-on-ai-capabilities-in-dynamics-365-sales). This setting enables the configuration and use of AI agents in Dynamics 365 Sales.
+1. Select **Create** to start creating your agent.
+
+## Related information
+
+- [Set up and configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
+- [Set up and configure the Sales Close Agent (preview)](configure-sales-close-agent.md)
+- [Configure the Sales Opportunity Agent (preview)](configure-opportunity-research-agent.md)

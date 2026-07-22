@@ -27,7 +27,7 @@ Changes from [ObjectId (Microsoft Dataverse)](/power-apps/developer/data-platfor
 
 |Property|Value|
 |---|---|
-|Targets|msdyn_actual, msdyn_amsbuild, msdyn_amsmodel, msdyn_amsprofile, msdyn_amsprofilesettings, msdyn_amstag, msdyn_azurenotificationhub, msdyn_bookableresourceassociation, msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingchange, msdyn_bookingrule, msdyn_bookingsetupmetadata, msdyn_businessclosure, msdyn_channel, msdyn_channelinstancesecret, msdyn_chatansweroption, msdyn_chatquestionnaireresponse, msdyn_chatquestionnaireresponseitem, msdyn_chatwidgetlanguage, msdyn_clientextension, msdyn_configuration, msdyn_customengagementctx, msdyn_facebookengagementctx, msdyn_lineengagementctx, msdyn_livechatconfig, msdyn_livechatengagementctx, msdyn_livechatwidgetlocation, msdyn_localizedsurveyquestion, msdyn_ocapplebusinessaccount, msdyn_ocapplemessagesforbusinessengagementctx, msdyn_ocapplepay, msdyn_occarrier, msdyn_occommunicationprovidersetting, msdyn_occommunicationprovidersettingentry, msdyn_occustommessagingchannel, msdyn_ocexternalsecuritysetting, msdyn_ocfbapplication, msdyn_ocfbpage, msdyn_ocgatekeeperengagementctx, msdyn_ocgooglebusinessmessagesagentaccount, msdyn_ocgooglebusinessmessagesengagementctx, msdyn_ocgooglebusinessmessagespartneraccount, msdyn_oclinechannelconfig, msdyn_ocoutboundconfiguration, msdyn_ocoutboundmessage, msdyn_ocphonecallengagementctx, msdyn_ocphonemusic, msdyn_ocphonenumber, msdyn_ocsmschannelsetting, msdyn_ocsmssettingsecret, msdyn_octeamschannelconfig, msdyn_octwitterapplication, msdyn_octwitterhandle, msdyn_octwitterhandleprovisioningstatus, msdyn_octwitterhandlesecret, msdyn_ocvoice, msdyn_ocvoicechannellanguagesetting, msdyn_ocvoicechannelsetting, msdyn_ocvoicemail, msdyn_ocwechatchannelconfig, msdyn_ocwhatsappchannelaccount, msdyn_ocwhatsappchannelnumber, msdyn_organizationalunit, msdyn_priority, msdyn_proactive_eng_config_characteristic, msdyn_proactive_engagement_config, msdyn_proactive_engagement_config_attribute, msdyn_proactive_engagement_config_status, msdyn_questionsequence, msdyn_requirementchange, msdyn_requirementcharacteristic, msdyn_requirementdependency, msdyn_requirementgroup, msdyn_requirementorganizationunit, msdyn_requirementrelationship, msdyn_requirementresourcecategory, msdyn_requirementresourcepreference, msdyn_requirementstatus, msdyn_resourcerequirement, msdyn_resourcerequirementdetail, msdyn_resourceterritory, msdyn_scenario, msdyn_scheduleboardsetting, msdyn_schedulingfeatureflag, msdyn_schedulingparameter, msdyn_schedulingscope, msdyn_smsengagementctx, msdyn_smsnumber, msdyn_surveyquestion, msdyn_systemuserschedulersetting, msdyn_teamschannelengagementctx, msdyn_teamsengagementctx, msdyn_timegroup, msdyn_timegroupdetail, msdyn_transactionorigin, msdyn_twitterengagementctx, msdyn_voicechannelorganizationsetting, msdyn_webengagementruleset, msdyn_webengagementrulesetconfig, msdyn_webengagementrulesetrevision, msdyn_webengagementsitearea, msdyn_wechatengagementctx, msdyn_whatsappengagementctx, msdyn_workhourtemplate, msdyn_workstreamhmmigrationstatus|
+|Targets|msdyn_actual, msdyn_amsbuild, msdyn_amsmodel, msdyn_amsprofile, msdyn_amsprofilesettings, msdyn_amstag, msdyn_azurenotificationhub, msdyn_bookableresourceassociation, msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingchange, msdyn_bookingrule, msdyn_bookingsetupmetadata, msdyn_businessclosure, msdyn_channel, msdyn_channelinstancesecret, msdyn_chatansweroption, msdyn_chatquestionnaireresponse, msdyn_chatquestionnaireresponseitem, msdyn_chatwidgetlanguage, msdyn_clientextension, msdyn_configuration, msdyn_customengagementctx, msdyn_facebookengagementctx, msdyn_lineengagementctx, msdyn_livechatconfig, msdyn_livechatengagementctx, msdyn_livechatwidgetlocation, msdyn_localizedsurveyquestion, msdyn_ocapplebusinessaccount, msdyn_ocapplemessagesforbusinessengagementctx, msdyn_ocapplepay, msdyn_occarrier, msdyn_occommunicationprovidersetting, msdyn_occommunicationprovidersettingentry, msdyn_occustommessagingchannel, msdyn_occustomneuralvoice, msdyn_ocexternalsecuritysetting, msdyn_ocfbapplication, msdyn_ocfbpage, msdyn_ocgatekeeperengagementctx, msdyn_ocgooglebusinessmessagesagentaccount, msdyn_ocgooglebusinessmessagesengagementctx, msdyn_ocgooglebusinessmessagespartneraccount, msdyn_oclinechannelconfig, msdyn_ocoutboundconfiguration, msdyn_ocoutboundmessage, msdyn_ocphonecallengagementctx, msdyn_ocphonemusic, msdyn_ocphonenumber, msdyn_ocsmschannelsetting, msdyn_ocsmssettingsecret, msdyn_octeamschannelconfig, msdyn_octwitterapplication, msdyn_octwitterhandle, msdyn_octwitterhandleprovisioningstatus, msdyn_octwitterhandlesecret, msdyn_ocvoice, msdyn_ocvoicechannellanguagesetting, msdyn_ocvoicechannelsetting, msdyn_ocvoicemail, msdyn_ocwechatchannelconfig, msdyn_ocwhatsappchannelaccount, msdyn_ocwhatsappchannelnumber, msdyn_organizationalunit, msdyn_priority, msdyn_proactive_delivery_batch, msdyn_proactive_eng_config_characteristic, msdyn_proactive_engagement_config, msdyn_proactive_engagement_config_attribute, msdyn_proactive_engagement_config_status, msdyn_proactive_engagement_message_template, msdyn_proactive_engagement_planner_config, msdyn_questionsequence, msdyn_requirementchange, msdyn_requirementcharacteristic, msdyn_requirementdependency, msdyn_requirementgroup, msdyn_requirementorganizationunit, msdyn_requirementrelationship, msdyn_requirementresourcecategory, msdyn_requirementresourcepreference, msdyn_requirementstatus, msdyn_resourcerequirement, msdyn_resourcerequirementdetail, msdyn_resourceterritory, msdyn_scenario, msdyn_scheduleboardsetting, msdyn_schedulingfeatureflag, msdyn_schedulingparameter, msdyn_schedulingscope, msdyn_smsengagementctx, msdyn_smsnumber, msdyn_surveyquestion, msdyn_systemuserschedulersetting, msdyn_teamschannelengagementctx, msdyn_teamsengagementctx, msdyn_timegroup, msdyn_timegroupdetail, msdyn_transactionorigin, msdyn_twitterengagementctx, msdyn_voicechannelorganizationsetting, msdyn_webengagementruleset, msdyn_webengagementrulesetconfig, msdyn_webengagementrulesetrevision, msdyn_webengagementsitearea, msdyn_wechatengagementctx, msdyn_whatsappengagementctx, msdyn_workhourtemplate, msdyn_workstreamhmmigrationstatus|
 
 
 ## Many-to-One relationships
@@ -70,6 +70,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_occommunicationprovidersetting_PrincipalObjectAttributeAccesses](#BKMK_msdyn_occommunicationprovidersetting_PrincipalObjectAttributeAccesses)
 - [msdyn_occommunicationprovidersettingentry_PrincipalObjectAttributeAccesses](#BKMK_msdyn_occommunicationprovidersettingentry_PrincipalObjectAttributeAccesses)
 - [msdyn_occustommessagingchannel_PrincipalObjectAttributeAccesses](#BKMK_msdyn_occustommessagingchannel_PrincipalObjectAttributeAccesses)
+- [msdyn_occustomneuralvoice_PrincipalObjectAttributeAccesses](#BKMK_msdyn_occustomneuralvoice_PrincipalObjectAttributeAccesses)
 - [msdyn_ocexternalsecuritysetting_PrincipalObjectAttributeAccesses](#BKMK_msdyn_ocexternalsecuritysetting_PrincipalObjectAttributeAccesses)
 - [msdyn_ocfbapplication_PrincipalObjectAttributeAccesses](#BKMK_msdyn_ocfbapplication_PrincipalObjectAttributeAccesses)
 - [msdyn_ocfbpage_PrincipalObjectAttributeAccesses](#BKMK_msdyn_ocfbpage_PrincipalObjectAttributeAccesses)
@@ -99,10 +100,13 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_ocwhatsappchannelnumber_PrincipalObjectAttributeAccesses](#BKMK_msdyn_ocwhatsappchannelnumber_PrincipalObjectAttributeAccesses)
 - [msdyn_organizationalunit_PrincipalObjectAttributeAccesses](#BKMK_msdyn_organizationalunit_PrincipalObjectAttributeAccesses)
 - [msdyn_priority_PrincipalObjectAttributeAccesses](#BKMK_msdyn_priority_PrincipalObjectAttributeAccesses)
+- [msdyn_proactive_delivery_batch_PrincipalObjectAttributeAccesses](#BKMK_msdyn_proactive_delivery_batch_PrincipalObjectAttributeAccesses)
 - [msdyn_proactive_eng_config_characteristic_PrincipalObjectAttributeAccesses](#BKMK_msdyn_proactive_eng_config_characteristic_PrincipalObjectAttributeAccesses)
 - [msdyn_proactive_engagement_config_attribute_PrincipalObjectAttributeAccesses](#BKMK_msdyn_proactive_engagement_config_attribute_PrincipalObjectAttributeAccesses)
 - [msdyn_proactive_engagement_config_PrincipalObjectAttributeAccesses](#BKMK_msdyn_proactive_engagement_config_PrincipalObjectAttributeAccesses)
 - [msdyn_proactive_engagement_config_status_PrincipalObjectAttributeAccesses](#BKMK_msdyn_proactive_engagement_config_status_PrincipalObjectAttributeAccesses)
+- [msdyn_proactive_engagement_message_template_PrincipalObjectAttributeAccesses](#BKMK_msdyn_proactive_engagement_message_template_PrincipalObjectAttributeAccesses)
+- [msdyn_proactive_engagement_planner_config_PrincipalObjectAttributeAccesses](#BKMK_msdyn_proactive_engagement_planner_config_PrincipalObjectAttributeAccesses)
 - [msdyn_questionsequence_PrincipalObjectAttributeAccesses](#BKMK_msdyn_questionsequence_PrincipalObjectAttributeAccesses)
 - [msdyn_requirementchange_PrincipalObjectAttributeAccesses](#BKMK_msdyn_requirementchange_PrincipalObjectAttributeAccesses)
 - [msdyn_requirementcharacteristic_PrincipalObjectAttributeAccesses](#BKMK_msdyn_requirementcharacteristic_PrincipalObjectAttributeAccesses)
@@ -607,6 +611,19 @@ One-To-Many Relationship: [msdyn_occustommessagingchannel msdyn_occustommessagin
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_occustomneuralvoice_PrincipalObjectAttributeAccesses"></a> msdyn_occustomneuralvoice_PrincipalObjectAttributeAccesses
+
+One-To-Many Relationship: [msdyn_occustomneuralvoice msdyn_occustomneuralvoice_PrincipalObjectAttributeAccesses](msdyn_occustomneuralvoice.md#BKMK_msdyn_occustomneuralvoice_PrincipalObjectAttributeAccesses)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_occustomneuralvoice`|
+|ReferencedAttribute|`msdyn_occustomneuralvoiceid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_occustomneuralvoice`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_ocexternalsecuritysetting_PrincipalObjectAttributeAccesses"></a> msdyn_ocexternalsecuritysetting_PrincipalObjectAttributeAccesses
 
 One-To-Many Relationship: [msdyn_ocexternalsecuritysetting msdyn_ocexternalsecuritysetting_PrincipalObjectAttributeAccesses](msdyn_ocexternalsecuritysetting.md#BKMK_msdyn_ocexternalsecuritysetting_PrincipalObjectAttributeAccesses)
@@ -984,6 +1001,19 @@ One-To-Many Relationship: [msdyn_priority msdyn_priority_PrincipalObjectAttribut
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_proactive_delivery_batch_PrincipalObjectAttributeAccesses"></a> msdyn_proactive_delivery_batch_PrincipalObjectAttributeAccesses
+
+One-To-Many Relationship: [msdyn_proactive_delivery_batch msdyn_proactive_delivery_batch_PrincipalObjectAttributeAccesses](msdyn_proactive_delivery_batch.md#BKMK_msdyn_proactive_delivery_batch_PrincipalObjectAttributeAccesses)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_delivery_batch`|
+|ReferencedAttribute|`msdyn_proactive_delivery_batchid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_proactive_delivery_batch`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_proactive_eng_config_characteristic_PrincipalObjectAttributeAccesses"></a> msdyn_proactive_eng_config_characteristic_PrincipalObjectAttributeAccesses
 
 One-To-Many Relationship: [msdyn_proactive_eng_config_characteristic msdyn_proactive_eng_config_characteristic_PrincipalObjectAttributeAccesses](msdyn_proactive_eng_config_characteristic.md#BKMK_msdyn_proactive_eng_config_characteristic_PrincipalObjectAttributeAccesses)
@@ -1033,6 +1063,32 @@ One-To-Many Relationship: [msdyn_proactive_engagement_config_status msdyn_proact
 |ReferencedAttribute|`msdyn_proactive_engagement_config_statusid`|
 |ReferencingAttribute|`objectid`|
 |ReferencingEntityNavigationPropertyName|`objectid_msdyn_proactive_engagement_config_status`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_engagement_message_template_PrincipalObjectAttributeAccesses"></a> msdyn_proactive_engagement_message_template_PrincipalObjectAttributeAccesses
+
+One-To-Many Relationship: [msdyn_proactive_engagement_message_template msdyn_proactive_engagement_message_template_PrincipalObjectAttributeAccesses](msdyn_proactive_engagement_message_template.md#BKMK_msdyn_proactive_engagement_message_template_PrincipalObjectAttributeAccesses)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_message_template`|
+|ReferencedAttribute|`msdyn_proactive_engagement_message_templateid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_proactive_engagement_message_template`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_engagement_planner_config_PrincipalObjectAttributeAccesses"></a> msdyn_proactive_engagement_planner_config_PrincipalObjectAttributeAccesses
+
+One-To-Many Relationship: [msdyn_proactive_engagement_planner_config msdyn_proactive_engagement_planner_config_PrincipalObjectAttributeAccesses](msdyn_proactive_engagement_planner_config.md#BKMK_msdyn_proactive_engagement_planner_config_PrincipalObjectAttributeAccesses)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_planner_config`|
+|ReferencedAttribute|`msdyn_proactive_engagement_planner_configid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_proactive_engagement_planner_config`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
-ms.date: 04/29/2025
+ms.date: 05/08/2026
 ms.custom: bap-template
 ---
 
@@ -19,7 +19,6 @@ As administrators, you can use the integrated health checker to identify any err
 ## Prerequisites
 
 You must have the System Administrator role.
-
 
 ## Run a check
 
@@ -54,14 +53,8 @@ Some of the rules used in the health check and their descriptions are as follows
 | Warning | Unsupported automatic record creation rules in use: Automatic record creation rules defined in the web client aren't supported. Use the migration tool to update the rules in the Unified Interface experience, and activate the new rule version. | Link to migration tool for automatic record creation. |
 | Warning | Unsupported service level agreement rules in use: Service level agreement rules defined in the web client aren't supported. Use the migration tool to update the rules in the Unified Interface experience, and delete the old rule version. | Link to the migration tool for service level agreements. |
 
-### Known issues
-
-[Contact Center health checker doesn’t appear in the admin center](https://go.microsoft.com/fwlink/p/?linkid=2165393)
-
 ### Related information
 
 [Create queues in unified routing](queues-omnichannel.md)  
 [Create records automatically](automatically-create-update-records.md)  
 [Use Copilot Service admin center](../implement/cs-admin-center.md)  
-
-

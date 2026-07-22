@@ -1,7 +1,7 @@
 ---
 title: Update apps and solutions
 description: Learn how to upgrade Dynamics 365 Field Service, mobile apps, and related solutions.
-ms.date: 08/01/2025
+ms.date: 04/29/2026
 ms.topic: how-to
 ms.custom: bap-template
 author: jshotts
@@ -25,7 +25,37 @@ Multiple updates are released throughout the year.
 
 ## Early Access update
 
-Dynamics 365 releases major updates two months before the general rollout in an Early Access flight to evaluate upcoming changes. [Learn more about how to opt-in and update your org to Early Access](/power-platform/admin/opt-in-early-access-updates).
+The Early Access concept is deprecated and is replaced by the monthly release channel. [Learn more about how to get early access updates by using the monthly release channel](/power-platform/admin/opt-in-early-access-updates).
+
+## Choose your update path
+
+Field Service updates roll out through release channels. Understanding your options helps you plan for changes in your production environment.
+
+| Release channel | Feature delivery | Best for |
+|---|---|---|
+| Monthly channel | New features every month | Dev/test environments, organizations wanting the latest capabilities |
+| Semi-annual channel | New features at general availability in April and October | Production environments preferring stability |
+
+Learn more at [Changing the release channel](/power-apps/maker/model-driven-apps/channel-change#changing-the-environment-channel).
+
+### Configure the release channel
+
+1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+1. Select **Environments** > select your environment > **Settings**.
+1. Select **Product** > **Behavior**.
+1. Set the **Release channel** option to **Monthly channel** or **Semi-annual channel**.
+1. Select **Save**. Changes are applied immediately.
+
+You can switch between channels at any time. The change controls feature visibility, not the underlying platform version.
+
+### Recommendations for production environments
+
+- Use the **Monthly channel** in dev/test environments to preview features before they reach production.
+- Keep the **Semi-annual channel** for production environments if your organization prefers fewer, predictable changes.
+- **Test in a sandbox first**: Create a copy of your production environment on the Monthly channel to validate customizations and workflows against upcoming features.
+- You can't permanently skip platform deployments. Microsoft deploys updates every week to all environments regardless of your channel setting. The release channel controls feature visibility only.
+
+Learn more at [Release channels for your model-driven app](/power-apps/maker/model-driven-apps/channel-overview).
 
 ## Dynamics 365 Field Service
 
@@ -57,23 +87,35 @@ We recommend that you turn on automatic app updates on your mobile device. If yo
 
 Occasionally, Universal Resource Scheduling releases include updates to the Universal FetchXML (UFX) queries. UFX queries control how the system fetches resources and requirements.
 
-It's possible to customize UFX queries. If a UFX query is customized, updates import the latest version, but they *don't apply it automatically*. Add your customizations to the new UFX query and apply them manually in the [schedule board settings](schedule-board-tab-settings.md). Consider using GitHub for version control to understand the differences between the old XML file with your custom queries and the updated XML file.
+You can customize UFX queries. If you customize a UFX query, updates import the latest version, but they *don't apply it automatically*. Add your customizations to the new UFX query and apply them manually in the [schedule board settings](schedule-board-tab-settings.md). To understand the differences between the old XML file with your custom queries and the updated XML file, consider using GitHub for version control.
 
 ## Resource Scheduling Optimization add-in
 
-The [Resource Scheduling Optimization add-in](rso-overview.md) lets you automate scheduling of work orders, resources, and bookings. Updates release throughout the year, and an administrator applies them.
+The [Resource Scheduling Optimization add-in](rso-overview.md) automates scheduling of work orders, resources, and bookings. An administrator applies updates throughout the year.
 
-You can check for available updates in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). Go to **Resources** > **Dynamics 365 apps**, select **Resource Scheduling Optimization**, and select **Manage**.
-
-In the **RSO Deployment** dialog box, select **Upgrade to new version**.
-
-Learn more in [Manage the Resource Scheduling Optimization instance](rso-deployment.md#manage-the-resource-scheduling-optimization-instance).
+Learn more in [Deploy the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service](rso-deployment.md).
 
 ## Update model-driven apps
 
-To get the latest updates to controls and other frontend items, you can set the release channel for your environment or app. Microsoft regularly provides new and updated features for model-driven apps. The release channel defines how quickly updates in Power Apps roll out in your organization.
+To get the latest updates to controls and other frontend items, set the release channel for your environment or app. Microsoft regularly provides new and updated features for model-driven apps. The release channel defines how quickly updates in Power Apps roll out in your organization.
 
 Learn more in [Release channels for your model-driven app](/power-apps/maker/model-driven-apps/channel-overview).
+
+## Update best practices
+
+When upgrading Field Service to a newer version, follow these best practices to minimize risk and downtime:
+
+- **Test in a staging environment first**: Create a copy of your production environment and apply the upgrade there first. Verify that the schedule board, work orders, and custom workflows function correctly before upgrading production.
+
+- **Run a solution health check**: Use the [Power Platform admin center solution health checker](/power-platform/admin/view-service-health) to identify any issues that might block or complicate the upgrade.
+
+- **Schedule during off-peak hours**: Users might experience temporary disruptions during the upgrade. For example, the schedule board might become unresponsive. Plan upgrades during maintenance windows and notify affected users in advance.
+
+- **Monitor post-upgrade**: After the upgrade completes, verify:
+  - The schedule board loads and responds to actions.
+  - Work orders can be created and updated.
+  - Custom plugins and workflows execute without errors.
+  - The Field Service Mobile app connects successfully.
 
 ## Next steps
 

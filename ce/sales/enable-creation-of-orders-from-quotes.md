@@ -1,7 +1,7 @@
 ---
 title: Enable creation of orders from quotes
 description: Quickly create orders from quotes in Dynamics 365 Sales so the relevant data is populated from the quote.
-ms.date: 01/23/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -24,7 +24,7 @@ Quotes have important data about the customers and the products they're interest
 
 2. In the Sales Professional app site map, select **Sales Settings**.
     > [!NOTE]
-    > This feature is not supported for Sales Enterprise and Sales Premium licenses and hence it's not available in the Sales Hub app.
+    > This feature is only available in the Sales Professional app.
 
 3.  Under **Advanced Settings**, select **Quote Settings**.
 

@@ -1,7 +1,7 @@
 ---
 title: Integrate your own custom channel using Direct Line
 description: This article provides information on how you can integrate custom messaging channels using Direct Line API 3.0.
-ms.date: 06/27/2025
+ms.date: 06/17/2026
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham

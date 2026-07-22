@@ -1,7 +1,7 @@
 ---
 title: Manage your accounts and contacts
 description: Learn how to create and use accounts and contacts in Dynamics 365 Sales to store information about companies and people you work with.
-ms.date: 02/26/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -41,8 +41,6 @@ In Dynamics 365 Sales, you use [accounts](#work-with-accounts) to store informat
 1. Select **Save & Close**.
 
 ### Fill in the address from suggestions
-
-**(Applicable for Sales Enterprise and Sales Premium only)**
 
 If your administrator has [turned on address suggestions](enable-address-suggestion.md), Bing Maps can fill in the account's address details so that you don't have to. Address suggestion works with contacts, accounts, and leads.
 

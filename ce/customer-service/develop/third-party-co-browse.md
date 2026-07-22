@@ -1,7 +1,7 @@
 ---
 title: Enable third-party cobrowse and screen sharing
-description: Learn how to enable third-party cobrowse and screen sharing escalation channels in Omnichannel for Customer Service.
-ms.date: 02/29/2024
+description: Learn how to enable non-Microsoft cobrowse and screen sharing escalation channels in Dynamics 365 Contact Center.
+ms.date: 04/15/2026
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -12,7 +12,7 @@ ms.reviewer: mgandham
 
 Cobrowse and screen sharing are escalation channels in the Chat channel of Microsoft Dynamics 365. A cobrowse or screen sharing escalation channel allows your organization’s agents to start a cobrowse or screen sharing session with customers. With cobrowse, agents can see and interact with a customer’s web browser. With screen sharing, agents can see and interact with the customer’s current screen. Customers get an extra option to connect to an agent who can efficiently troubleshoot issues in real time.
 
-Cobrowse and screen sharing can be enabled in the chat channel by integrating with third-party solutions. Extensibility is provided to enable any providers to onboard their cobrowse and screen sharing solution to Omnichannel for Customer Service.
+Cobrowse and screen sharing can be enabled in the chat channel by integrating with third-party solutions. Extensibility is provided to enable any providers to onboard their cobrowse and screen sharing solution to Dynamics 365 Contact Center.
 
 > [!NOTE]
 > Third-party co-browse and screen sharing features are not available in Unified Service Desk.
@@ -24,12 +24,12 @@ Cobrowse and screen sharing can be enabled in the chat channel by integrating wi
 
 ## Third-party cobrowse and screen sharing extensibility framework<a name="third-party-cobrowse"> </a>
 
-To enable third-party cobrowse and screen sharing, the Omnichannel for Customer Service application provides an extensibility system to support this feature. In this system, a few entities are available in the Omnichannel for Customer Service solution that the screen share providers can use. The following graph explains the basic entity relationships that support the third-party cobrowse and screen sharing feature.
+To enable third-party cobrowse and screen sharing, the Dynamics 365 Contact Center application provides an extensibility system to support this feature. In this system, a few entities are available in the Dynamics 365 Contact Center solution that the screen share providers can use. The following graph explains the basic entity relationships that support the third-party cobrowse and screen sharing feature.
 
 > [!div class="mx-imgBorder"]
 > ![Entity relationships for co-browse feature.](../media/co-browse-entity-relationship.PNG "Entity relationships for co-browse feature")
 
-Not all the fields need to be filled in for third-party cobrowse and screen share providers. For version 1.0, independent software vendors are supported to bring their cobrowse and screen sharing feature into Omnichannel for Customer Service by enabling a button in the agent’s chat widget.  When a user selects this button, it opens an app tab within Omnichannel for Customer Service with the independent software vendor's application website. To enable this button, ISVs need to bring the required data with their cobrowse and screen sharing solutions.
+Not all the fields need to be filled in for third-party cobrowse and screen share providers. For version 1.0, independent software vendors are supported to bring their cobrowse and screen sharing feature into Dynamics 365 Contact Center by enabling a button in the agent’s chat widget.  When a user selects this button, it opens an app tab within Dynamics 365 Contact Center with the independent software vendor's application website. To enable this button, ISVs need to bring the required data with their cobrowse and screen sharing solutions.
 
 The following section lists the required entity data needed to support this feature. 
 
@@ -78,7 +78,7 @@ The following section lists the required entity data needed to support this feat
 
  **Fields classification and usage**
  
- The Escalation Channel Mode attribute tells what this button can do. For example, cobrowse, audio, video. When users select a certain Escalation Channel Mode for a conversation action—for example, “cobrowse”—Omnichannel for Customer Service handles this cobrowse event and trigger a list of internal events like "create new session for secondary channel," "send system messages," and "update presence," which should be implemented in the Omnichannel for Customer Service code base.   
+ The Escalation Channel Mode attribute tells what this button can do. For example, cobrowse, audio, video. When users select a certain Escalation Channel Mode for a conversation action—for example, “cobrowse”— Dynamics 365 Contact Center handles this cobrowse event and trigger a list of internal events like "create new session for secondary channel," "send system messages," and "update presence," which should be implemented in the Dynamics 365 Contact Center code base.   
 
 One provider can bring several channel capabilities, but for one Conversation Action and one Provider, the capability should be unique. This is handled by using the Channel Capability entity, as shown in the following schema.
 
@@ -106,7 +106,7 @@ For third-party cobrowse, independent software vendors need to input the convers
 
 ## App Tab Template for third-party co-browse and screen sharing<a name="app-tab-template"> </a> 
 
-We encourage our integrated third-party cobrowse providers to make their cobrowse and screen sharing applications inside of an Omnichannel for Customer Service tab. When the agent selects the **Co-browse** button in the chat widget, it opens this tab. Inside of this tab, the agent can start and end the cobrowse sessions and share the session invitations with customers. You can include the data in this form inside of your solution. Follow these steps to create the App Tab Template:
+We encourage our integrated third-party cobrowse providers to make their cobrowse and screen sharing applications inside of a Copilot Service workspace tab. When the representative selects the **Co-browse** button in the chat widget, it opens this tab. Inside this tab, the representative can start and end the cobrowse sessions and share the session invitations with customers. You can include the data in this form inside of your solution. Follow these steps to create the app tab template:
 
 1. Perform the steps in [Manage application tab templates](../administer/application-tab-templates.md#manage-application-tab-templates) to create a web resource.
    
@@ -229,9 +229,9 @@ To deprovision the third-party cobrowse and screen sharing solution for our cust
 
 ## Publishing strategy
 
-The following are links for publishing the application to AppSource:
+The following are links for publishing the application to Microsoft Marketplace:
 
-[AppSource onboarding](https://appsource.microsoft.com)
+[Marketplace onboarding](https://marketplace.microsoft.com)
 
 [Onboarding guide](/azure/marketplace/cloud-partner-portal/business-applications-isv-program) 
 
@@ -248,7 +248,7 @@ The following are links for publishing the application to AppSource:
  
 ## Third-party providers responsibility and data disclaimer 
 
-Make sure to publish the privacy policy link to AppSource for security and privacy protection of the personal information that would be processed, and provide a compliant approach to data protection. 
+Make sure to publish the privacy policy link to Marketplace for security and privacy protection of the personal information that would be processed, and provide a compliant approach to data protection. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: This article provides an overview of the analytics data model in Dy
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
 ms.date: 07/30/2025
 ms.custom: bap-template

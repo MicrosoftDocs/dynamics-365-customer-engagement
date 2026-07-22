@@ -77,6 +77,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_azurenotificationhubid](#BKMK_msdyn_azurenotificationhubid)
 - [msdyn_botmcssurveyurl](#BKMK_msdyn_botmcssurveyurl)
 - [msdyn_callingoptions](#BKMK_msdyn_callingoptions)
+- [msdyn_chathistorymonthlimit](#BKMK_msdyn_chathistorymonthlimit)
 - [msdyn_cobrowseprovider](#BKMK_msdyn_cobrowseprovider)
 - [msdyn_conversationmode](#BKMK_msdyn_conversationmode)
 - [msdyn_customanonymoustokenexpirationtime](#BKMK_msdyn_customanonymoustokenexpirationtime)
@@ -88,6 +89,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_enablecobrowse](#BKMK_msdyn_enablecobrowse)
 - [msdyn_Enablefileattachmentsforagents](#BKMK_msdyn_Enablefileattachmentsforagents)
 - [msdyn_Enablefileattachmentsforcustomers](#BKMK_msdyn_Enablefileattachmentsforcustomers)
+- [msdyn_enablepersistentchatpreviousconversations](#BKMK_msdyn_enablepersistentchatpreviousconversations)
+- [msdyn_enablerealtimelanguagetranslation](#BKMK_msdyn_enablerealtimelanguagetranslation)
 - [msdyn_enablescreensharing](#BKMK_msdyn_enablescreensharing)
 - [msdyn_genericagentdisplayname](#BKMK_msdyn_genericagentdisplayname)
 - [msdyn_infolabel](#BKMK_msdyn_infolabel)
@@ -95,6 +98,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_livechatconfigId](#BKMK_msdyn_livechatconfigId)
 - [msdyn_liveworkstreamid](#BKMK_msdyn_liveworkstreamid)
 - [msdyn_Mailbox](#BKMK_msdyn_Mailbox)
+- [msdyn_mcssurveytimeoutsec](#BKMK_msdyn_mcssurveytimeoutsec)
 - [msdyn_mcssurveyurl](#BKMK_msdyn_mcssurveyurl)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_oc_geolocationprovider](#BKMK_msdyn_oc_geolocationprovider)
@@ -322,6 +326,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350001|**Video and voice calling**|
 |192350002|**Voice only**|
 
+### <a name="BKMK_msdyn_chathistorymonthlimit"></a> msdyn_chathistorymonthlimit
+
+|Property|Value|
+|---|---|
+|Description|**Limit the persistent chat history to a specific number of months.**|
+|DisplayName|**Persistent Chat History Month Limit**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`msdyn_chathistorymonthlimit`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|12|
+|MinValue|0|
+
 ### <a name="BKMK_msdyn_cobrowseprovider"></a> msdyn_cobrowseprovider
 
 |Property|Value|
@@ -504,6 +522,38 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Yes|
 |False Label|No|
 
+### <a name="BKMK_msdyn_enablepersistentchatpreviousconversations"></a> msdyn_enablepersistentchatpreviousconversations
+
+|Property|Value|
+|---|---|
+|Description|**This will enable persistent history for previous conversations.**|
+|DisplayName|**Turn on persistent history for previous conversations**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enablepersistentchatpreviousconversations`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_ocflipswitch`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_enablerealtimelanguagetranslation"></a> msdyn_enablerealtimelanguagetranslation
+
+|Property|Value|
+|---|---|
+|Description|**Enable Real Time Language Translation**|
+|DisplayName|**msdyn\_enablerealtimelanguagetranslation**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enablerealtimelanguagetranslation`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_livechatconfig_msdyn_enablerealtimelanguagetranslation`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_enablescreensharing"></a> msdyn_enablescreensharing
 
 |Property|Value|
@@ -616,6 +666,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_mcssurveytimeoutsec"></a> msdyn_mcssurveytimeoutsec
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**MCS Survey Timeout**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`msdyn_mcssurveytimeoutsec`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|3600|
+|MinValue|0|
 
 ### <a name="BKMK_msdyn_mcssurveyurl"></a> msdyn_mcssurveyurl
 

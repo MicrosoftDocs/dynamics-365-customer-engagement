@@ -1,7 +1,7 @@
 ---
-title: FAQ about natural language chat in Copilot 
+title: Responsible AI FAQ about natural language chat in Copilot 
 description: Get answers to frequently asked questions about the natural language chat capability in Copilot in Dynamics 365 Sales.
-ms.date: 09/12/2025
+ms.date: 01/29/2026
 ms.update-cycle: 180-days
 ms.custom:
  - responsible-ai-faqs
@@ -14,16 +14,16 @@ search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: lavanyakr01
+ms.reviewer: lavanyakr
 ---
 
-# FAQ about natural language chat in Copilot in Dynamics 365 Sales
+# Responsible AI FAQ about natural language chat in Copilot in Dynamics 365 Sales
 
 These frequently asked questions (FAQ) are intended to help you understand the impact of AI on the natural language chat feature in Copilot in Dynamics 365 Sales.
 
 ## What is natural language chat in Copilot?
 
-The ability for users to ask questions in natural language to get accurate data from their Dynamics 365 Sales records. They can ask questions in the Copilot side pane or Copilot page (immersive view). Copilot in Dynamics 365 Sales then displays data based on the tables and records that they have access to Dataverse.
+The ability for users to ask questions in natural language to get accurate data from their Dynamics 365 Sales records. They can ask questions in the Copilot side pane. Copilot in Dynamics 365 Sales then displays data based on the tables and records that they have access to Dataverse.
 
 ## Data type supported
 

@@ -1,10 +1,10 @@
 ---
 title: Manage overflow of work items in queues
-description: Learn how to set up overflow conditions and actions for your voice, chat, and messaging channels when there are more items in the queue than your team can handle.
+description: Learn how to set up overflow conditions and actions for your voice, chat, and messaging channels when there are more items in the queue than your team can handle in Customer Service or Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 06/03/2025
+ms.date: 06/30/2026
 ms.topic: how-to
 ms.custom:
  - bap-template
@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-When a new work item arrives, unified routing in Dynamics 365 Customer Service directs it to the representative who's best suited to work on it. But what happens if all the service representatives who could work on it are already at maximum capacity? And how do you handle work items that arrive when your call center is closed? Overflow handling in Customer Service helps you manage both surge conditions and after-hours calls.
+When a new work item arrives, unified routing directs it to the representative who is best suited to work on it. But what happens if all the service representatives who could work on it are already at maximum capacity? And how do you handle work items that arrive when your call center is closed? Overflow handling in Customer Service helps you manage both surge conditions and after-hours calls.
 
 A queue's overflow handling options can trigger actions either before or after a work item is queued.
 
@@ -35,9 +35,9 @@ If you don't set up overflow handling, then by default, the work item is added t
 
 ## Prerequisites
 
-- [Unified routing is configured](./set-up-routing-process.md) and [you've set up queues and added representatives](./queues-omnichannel.md) to them.
+- [Unified routing is configured](./set-up-routing-process.md) and [you set up queues and added representatives](./queues-omnichannel.md) to them.
 - If you plan to transfer calls to an external number, external phone numbers with outbound calling are available.
-- If you plan to trigger overflow handling before work items are queued, you've [configured route-to-queue rules](./configure-route-to-queue-rules.md) in the workstream.
+- If you plan to trigger overflow handling before work items are queued, you [configured route-to-queue rules](./configure-route-to-queue-rules.md) in the workstream.
 
 ## Handle overflow before a work item is queued
 
@@ -46,7 +46,7 @@ Unified routing checks for overflow conditions after evaluating the route-to-que
 > [!NOTE]
 > The system does the check once only for each work item before it enters a queue.
 
-If an overflow action transfers the work item to another queue, or a supervisor assigns the work item to a service representative or transfers it to another representative, the system assigns the work item to the representative or queue without any further pre-queue overflow checks.
+If an overflow action transfers the work item to another queue, or a supervisor assigns the work item to a service representative or transfers it to another representative, the system assigns the work item to the representative or queue without any further prequeue overflow checks.
 
 The system considers the following factors when it checks for overflow conditions before queueing up a work item:
 
@@ -115,7 +115,7 @@ If a work item is routed to a fallback queue because of errors or route-to-queue
   
 - For the messaging and voice queues, you can also select the following conditions and actions:
 
-  - **Work item limit exceeds**: Enter a number between 1 and 100 to indicate how many open work items can be in the queue before it overflows. For example, if you enter *2*, then if the queue contains two open work items, the arrival of a third item triggers one of the following actions:
+  - **Work item limit exceeds**: Enter a number between 1 and 100 to indicate how many open work items can be in the queue before it overflows. Queue position is updated every 10 seconds only. Any incoming conversation that's evaluated for prequeue overflow in the 10-seconds interval uses the older cached value for items in the queue. For example, if you set *2* as the limit, then if the queue contains two open work items, the arrival of a third item triggers one of the following actions:
   
     - **Direct callback**: For voice queues only. The customer can choose to have the representative call them back. The work item stays open and is routed to the next available representative for callback.
     - **End call**
@@ -124,7 +124,7 @@ If a work item is routed to a fallback queue because of errors or route-to-queue
     - **Transfer to an external number**
     - **Voicemail**
 
-  - **Average wait time**: For voice queues only. Enter a number and select a unit of time between 30 seconds and 60 minutes to indicate how long the predicted wait time can be before the queue overflows. For example, if you enter *10 Minutes*, then if a customer calls and the predicted wait time is 15 minutes, the system triggers one of the following actions:
+  - **Average wait time**: For voice queues only. Enter a number and select a unit of time between 30 seconds and 60 minutes to indicate how long the predicted wait time can be before the queue overflows. For example, if you enter *10 Minutes*, then if a customer calls, and the predicted wait time is 15 minutes, the system triggers one of the following actions:
   
     - **Direct callback**
     - **End call**
@@ -147,12 +147,6 @@ Sometimes you might not want an overflow action to run for specific types of wor
     :::image type="content" source="../media/queue-overflow-override.png" alt-text="Screenshot of the Edit route to queue rule page showing where to find the Handle rule-specific overflow option.":::
 
 1. [Select overflow condition-action pairs](#configure-overflow-conditions-for-before-a-work-item-is-queued).
-
-### View diagnostics for overflow handling
-
-When a work item is handled by an overflow action instead of being assigned to a representative, you can view its status in **Routing diagnostics** > **Route to queue**.
-
-:::image type="content" source="../media/overflow-diagnostics.png" alt-text="Screenshot of routing diagnostics for a work item that triggered an overflow action.":::
 
 ## Handle overflow when a work item is queued
 
@@ -197,9 +191,12 @@ You can configure the following wait time for the channels:
 - **Records**: 3 minutes to 2 days
 
 The "wait time in queue" condition is evaluated in any of the following scenarios:
+
 - Work item is routed to a queue via the route-to-queue rules.
 - Work item is transferred by a representative or supervisor to the queue.
 - Work item overflows from another queue.
+
+For voice work items, if a representative or supervisor transfers the work item to the queue or it overflows from another queue, transfer to an external number or transfer to a different queue actions only are available.
 
 If a queued work item is moved to another queue because of long wait times, and the new queue also has overflow handling, the system checks for overflow conditions again. If the wait time is too high in the new queue as well, it triggers the overflow action.
 
@@ -219,14 +216,125 @@ If you set **End call** or **End conversation** as an overflow action, you can e
 
 [Learn more about customizing automated messages](configure-automated-message.md#customize-automated-messages-at-the-channel-level).
 
+## Use natural language playbooks to configure overflow actions for work items in queue (preview)
+
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+Configure overflow handling to trigger immediately when eligible service representatives aren't available for a work item or queues are out of operating hours, instead of waiting for time or volume-based conditions.
+
+This capability is useful for scenarios where you want to avoid any wait time in the queue. For example, offering options such as callback or voicemail as soon as it’s determined that no representative can take the conversation.
+
+### How it works
+
+When a work item is added to a queue, the system evaluates whether any eligible service representatives are available using the same assignment criteria that are used for routing work items. This check happens before the work item is offered to a service representative.
+
+Configure immediate overflow by using a playbook in [conversation orchestration](/dynamics365/contact-center/administer/configure-conversation-orchestration).
+
+You can apply the playbook to:
+
+- All queues
+- Selected queues
+- All queues except specific queues
+
+You can configure the following actions.
+
+| Action | Description |
+|--------|-------------|
+| **Transfer to another queue** | Route the conversation to a different queue |
+| **End the conversation** | End the conversation with a message |
+| **Offer direct callback** | Offer the customer a callback option (Voice channel only) |
+| **Send to voicemail** | Route to voicemail for later follow-up (Voice channel only) |
+| **Transfer to external number** |Transfer the call to an external contact(Voice channel only)|
+
+**Use with other overflow conditions**: Immediate overflow based on service representatives availability can be used together with other overflow conditions defined on the queue, such as follows:
+
+- Combine with wait-time conditions to handle cases where representatives are available but don’t accept the work item.
+- Provide fallback actions after a specified wait duration.
+
+Configure overflow behavior based on a combination of the following conditions:
+
+**Queue state conditions**
+
+- Queue goes out of operating hours while conversations are waiting.
+- Queue is out of operating hours when conversations enter the queue.
+
+> [!NOTE]
+> You can use the "queue is out of operating hours" condition in the existing overflow rules on the **Queue** page and playbooks. The key difference is that the system evaluates the queue overflow rules once only before the system adds the work item to the queue, whereas the playbook condition is evaluated continuously, including after transfers.
+
+**Agent availability conditions**
+
+- **No representatives are available immediately**: Evaluates representative availability based on skills, capacity, and assignment rules.
+- **All representatives are signed out**: Evaluates for incoming conversations and triggers when representatives sign out, close their browser session, or there's a network outage.
+- **All representatives sign out while conversations are waiting**: Evaluates waiting conversations and is triggered when representatives sign out, close their browser session, or there's a network outage.
+
+## Use natural language playbooks to configure overflow actions for direct inward dialed calls (preview)
+
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+Direct inward dialed calls are phone calls from a customer that go to a specific service representative’s direct phone line via a personal number assigned to them instead of through a main support line or queue. This call type is different from a typical inbound call that comes in through a main support number and is routed by queues or an IVR system.
+By default, if a representative doesn't answer these calls because they're busy or away, the call usually goes to voicemail. By using conversation orchestration playbooks, you can extend the default behavior beyond voicemail and set up custom overflow actions that run when a direct call can't reach the intended representative. The customer experience is seamless when you route the call appropriately if the representative is unavailable, so that callers aren't abandoned.
+
+### Prerequisites for direct inward dialed calls
+
+- Voice channel is configured.
+- Direct inward dial is set up using [inbound profiles](/dynamics365/customer-service/administer/configure-outbound-inbound-profiles#create-inbound-profiles) for service representatives. 
+- Conversation orchestration is available.
+- At least one queue is set up to handle transfer scenarios.
+- External phone numbers are set up if you want to transfer calls externally.
+
+### Configure overflow actions for direct inward dialed calls
+
+Choose the action that best fits each scenario. You can mix and match actions. For example, if a representative is busy, transfer the call to a backup queue. If they actively reject the call, send it to voicemail immediately. If the call times out, you can send it to voicemail or route it to elsewhere.
+
+1. In the site map of Copilot Service admin center, in **Customer support**, select **Conversation Orchestration**.
+
+1. Select **Prompt gallery**, and select **Overflow handling** > **Handle overflow for direct inbound call**.
+1. Choose one of the scopes for the playbook:
+   - All inbound profiles
+   - List of inbound profiles
+   - All inbound profiles except
+1. Save your selection.
+1. In **Build playbook**, select the overflow action for each of the following conditions:
+   - User rejects notification
+   - User isn't available
+   - User notification times out  
+
+   The available actions are:
+   - Transfer to another queue
+   - End the conversation
+   - Send to voicemail
+   - Transfer to external number
+
+    :::image type="content" source="../media/screenshot-direct-inward-dial-playbook.png" alt-text="Screenshot of playbook configuration to handle overflow of direct inward dial call." lightbox="../media/screenshot-direct-inward-dial-playbook.png":::
+
+1. Save and publish the playbook.
+
+### How it works
+
+When a direct inward dialed call comes in, the system checks if the intended representative is available. If they're not, the system evaluates the conditions you set in the playbook and triggers the corresponding overflow action. This process ensures that the customer is routed appropriately without unnecessary delays or frustration.
+
+**Example scenario**:
+
+Suppose you configure a playbook as follows:
+
+- If a representative isn't available, transfer to a general support queue.
+- If the representative rejects the call, send it to voicemail.
+- If the call times out, forward it to an external after-hours number.
+
+A customer calls Alicia's direct line. If Alicia is on another call, the playbook triggers and sends the call to the support queue, where another representative can help the customer. If Alicia rejects the notification, the caller is requested to leave a voicemail message for Alicia. If Alicia doesn't answer, the system forwards the call to the external number.
+
+### View diagnostics for overflow handling
+
+You can view the diagnostics information by using a custom query. Learn more in [Sample queries and dashboards](/dynamics365/guidance/resources/conversation-diagnostics-sample-queries#conversation-orchestration).
+
 ### Related information
 
-- [Configure voicemail](voice-channel-voicemail.md)
-- [Configure direct callback](voice-channel-direct-callback.md)
-- [Create and manage queues](queues-omnichannel.md)
-- [Configure percentage-based routing](configure-route-to-queue-rules.md#percentage-based-allocation-of-work-to-queues)
-- [Overview of voice channel](voice-channel.md)
-- [Overview of unified routing](overview-unified-routing.md)
-- [Configure routing for the voice channel](voice-channel-inbound-calling.md)
+[Configure voicemail](voice-channel-voicemail.md)  
+[Configure direct callback](voice-channel-direct-callback.md)  
+[Create and manage queues](queues-omnichannel.md)  
+[Configure percentage-based routing](configure-route-to-queue-rules.md#percentage-based-allocation-of-work-to-queues)  
+[Overview of voice channel](voice-channel.md)  
+[Overview of unified routing](overview-unified-routing.md)  
+[Configure routing for the voice channel](voice-channel-inbound-calling.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Create or edit a hosted control
 You create or edit an existing hosted control using the Unified Service Desk Administrator app. The controls in the new hosted control page differ based on the type of hosted control you create.  

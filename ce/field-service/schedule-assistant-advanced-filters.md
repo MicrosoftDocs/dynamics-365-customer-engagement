@@ -1,7 +1,7 @@
 ---
 title: Advanced filters for the schedule assistant
 description: Learn how to use advanced filters for the schedule assistant in Dynamics 365 Field Service.
-ms.date: 11/26/2024
+ms.date: 08/20/2025
 ms.topic: article
 author: mkelleher-msft
 ms.author: mkelleher

@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
-ms.date: 09/19/2025
+ms.date: 05/11/2026
 ms.custom: bap-template
 ---
 
@@ -26,7 +26,7 @@ You can then use the conversation lifecycle events data in Application Insights 
 - The user must have access level Contributor or a higher-level permission on Azure Services to set up.
 
 - At least "Read" access to query data in Application Insights.
-- The user must be a Power Platform administrator or System Administrator.
+- The user must be a Power Platform administrator or System Administrator to do tasks like export data.
 - Your environment must be a Managed environment.
 
 ## Pricing
@@ -77,13 +77,11 @@ Do the following steps to view the conversation logs:
 
   The **Results** tab displays the query results.
 
-## View conversation diagnostics dashboard
-
-Do the steps in [Conversation diagnostics dashboard](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/ComponentLibrary/AppInsights-Telemetry/ConversationDiagnostics) to view the dashboard.
-
 ### Related information
 
 [Subscenarios in conversation diagnostics](conversation-diagnostics-subscenarios.md)  
 [Sample queries and dashboard](/dynamics365/guidance/resources/conversation-diagnostics-sample-queries)  
+[Enable Diagnose dashboard](/dynamics365/contact-center/administer/enable-diagnose-dashboard)  
+[Diagnose contact center health using Application Insights dashboard](/dynamics365/contact-center/use/diagnose-dashboard)  
 
 

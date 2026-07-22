@@ -1,7 +1,7 @@
----
+﻿---
 title: Personalize sound notifications in Dynamics 365 Contact Center.
 description: Learn how representatives can personalize sound notification settings in their representative app.
-ms.date: 05/16/2025
+ms.date: 05/27/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -26,11 +26,11 @@ The personalized settings have precedence over the administrator settings. You c
 
 1. In the site map of Copilot Service workspace, select **Personalization** in **Service**.
 
-2. On the **Personalization** tab, select **Sound Settings**.
+1. On the **Personalization** tab, select **Sound Settings**.
 
-3. Set the toggle to **Yes** for **Turn on sound notifications**. The **Personalization User settings** area is displayed.
+1. Set the toggle to **Yes** for **Turn on sound notifications**. The **Personalization User settings** area is displayed.
 
-4. Personalize the following settings for the channels:
+1. Personalize the following settings for the channels:
    - **Play Sound:** Set the toggle to **Yes**.
    - **Sound:** Accept the default setting or search and select a different audio file. You can use the **New Audio File** option to upload and use an audio file of your choice. You also have the option to preview the audio.
    - **Repeat until answered:** Set the toggle to **Yes** if you want the sound to be played until you respond.
@@ -40,9 +40,9 @@ The personalized settings have precedence over the administrator settings. You c
    
    - **Reset to default settings:** When you customize any setting, the button is enabled for you to reset to the out-of-the-box settings.
 
-4. In the **Incoming messages for open sessions** section, customize the options for sound notifications for messages in open sessions, such as live chat or a social channel.
+1. In the **Incoming messages for open sessions** section, customize the options for sound notifications for messages in open sessions, such as live chat or a social channel.
    
-5. Select **Save**.
+1. Select **Save**.
 
 ### Related information
 
@@ -51,3 +51,4 @@ The personalized settings have precedence over the administrator settings. You c
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

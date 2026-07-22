@@ -6,7 +6,8 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 08/08/2025
+ms.date: 01/19/2026
+ms.update-cycle: 180-days
 ms.custom: bap-template
 
 ---
@@ -57,7 +58,9 @@ The email drafted by the AI agent is based on the configuration you set in **Glo
 
 - [Use Copilot recommended email templates](/dynamics365/contact-center/use/use-copilot-email#use-copilot-recommended-email-templates)
 - [Use line-of-business tagged email templates](/dynamics365/contact-center/use/use-copilot-email#use-email-templates-tagged-with-line-of-business)
- 
+
+
+[!INCLUDE[review-agent-activity](../../includes/review-agent-activity.md)]
 
 ## Related information
 

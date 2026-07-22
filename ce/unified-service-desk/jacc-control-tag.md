@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # JAccControl tag in Unified Service Desk
 `<JAccControl>` associates a named control to the Java accessibility element that is specified in the search path. This topic describes the elements of `<AccControl>` tag.  

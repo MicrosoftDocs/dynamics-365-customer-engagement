@@ -1,7 +1,7 @@
 ---
 title: Productivity pane
 description: Use the productivity pane settings to display scripts and smart-assist cards for your representatives.
-ms.date: 04/30/2025
+ms.date: 05/08/2026
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim

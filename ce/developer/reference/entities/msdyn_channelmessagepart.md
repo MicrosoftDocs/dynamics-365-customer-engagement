@@ -76,7 +76,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_EntityViewId](#BKMK_msdyn_EntityViewId)
 - [msdyn_IsRequired](#BKMK_msdyn_IsRequired)
 - [msdyn_MaxLength](#BKMK_msdyn_MaxLength)
+- [msdyn_MaxValue](#BKMK_msdyn_MaxValue)
+- [msdyn_MinValue](#BKMK_msdyn_MinValue)
 - [msdyn_Name](#BKMK_msdyn_Name)
+- [msdyn_Options](#BKMK_msdyn_Options)
 - [msdyn_Order](#BKMK_msdyn_Order)
 - [msdyn_Type](#BKMK_msdyn_Type)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -236,6 +239,34 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxValue|2147483647|
 |MinValue|-2147483648|
 
+### <a name="BKMK_msdyn_MaxValue"></a> msdyn_MaxValue
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Maximum Value**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_maxvalue`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_MinValue"></a> msdyn_MinValue
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Minimum Value**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_minvalue`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 
 |Property|Value|
@@ -252,6 +283,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_Options"></a> msdyn_Options
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Options**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_options`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|8000|
 
 ### <a name="BKMK_msdyn_Order"></a> msdyn_Order
 
@@ -291,6 +339,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350003|**binary**|
 |192350004|**image**|
 |192350005|**record**|
+|192350006|**number**|
+|192350007|**boolean**|
+|192350008|**optionlist**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

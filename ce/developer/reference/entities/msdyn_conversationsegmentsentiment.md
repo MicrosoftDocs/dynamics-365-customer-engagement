@@ -575,6 +575,8 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_conversationsegmentsentiment_createdonbehalfby](#BKMK_lk_msdyn_conversationsegmentsentiment_createdonbehalfby)
 - [lk_msdyn_conversationsegmentsentiment_modifiedby](#BKMK_lk_msdyn_conversationsegmentsentiment_modifiedby)
 - [lk_msdyn_conversationsegmentsentiment_modifiedonbehalfby](#BKMK_lk_msdyn_conversationsegmentsentiment_modifiedonbehalfby)
+- [msdyn_msdyn_conversationsegmentsentiment_Conver](#BKMK_msdyn_msdyn_conversationsegmentsentiment_Conver)
+- [msdyn_msdyn_conversationsegmentsentiment_msdyn_conversationsignal_msdyn_SentimentTarget](#BKMK_msdyn_msdyn_conversationsegmentsentiment_msdyn_conversationsignal_msdyn_SentimentTarget)
 - [owner_msdyn_conversationsegmentsentiment](#BKMK_owner_msdyn_conversationsegmentsentiment)
 - [team_msdyn_conversationsegmentsentiment](#BKMK_team_msdyn_conversationsegmentsentiment)
 - [user_msdyn_conversationsegmentsentiment](#BKMK_user_msdyn_conversationsegmentsentiment)
@@ -643,6 +645,32 @@ One-To-Many Relationship: [systemuser lk_msdyn_conversationsegmentsentiment_modi
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_msdyn_conversationsegmentsentiment_Conver"></a> msdyn_msdyn_conversationsegmentsentiment_Conver
+
+One-To-Many Relationship: [msdyn_conversationparticipantinsights msdyn_msdyn_conversationsegmentsentiment_Conver](msdyn_conversationparticipantinsights.md#BKMK_msdyn_msdyn_conversationsegmentsentiment_Conver)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_conversationparticipantinsights`|
+|ReferencedAttribute|`msdyn_conversationparticipantinsightsid`|
+|ReferencingAttribute|`msdyn_conversationparticipantinsights`|
+|ReferencingEntityNavigationPropertyName|`msdyn_conversationparticipantinsights`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Cascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_msdyn_conversationsegmentsentiment_msdyn_conversationsignal_msdyn_SentimentTarget"></a> msdyn_msdyn_conversationsegmentsentiment_msdyn_conversationsignal_msdyn_SentimentTarget
+
+One-To-Many Relationship: [msdyn_conversationsignal msdyn_msdyn_conversationsegmentsentiment_msdyn_conversationsignal_msdyn_SentimentTarget](msdyn_conversationsignal.md#BKMK_msdyn_msdyn_conversationsegmentsentiment_msdyn_conversationsignal_msdyn_SentimentTarget)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_conversationsignal`|
+|ReferencedAttribute|`msdyn_conversationsignalid`|
+|ReferencingAttribute|`msdyn_sentimenttarget`|
+|ReferencingEntityNavigationPropertyName|`msdyn_sentimenttarget_msdyn_conversationsignal`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Cascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 
 ### <a name="BKMK_owner_msdyn_conversationsegmentsentiment"></a> owner_msdyn_conversationsegmentsentiment
 

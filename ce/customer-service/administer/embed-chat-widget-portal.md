@@ -1,7 +1,7 @@
 ---
 title: Embed chat widget in your website or portal
 description: Embed a chat widget in your website, portal, or mobile experience to provide customers with a personalized experience.
-ms.date: 04/15/2025
+ms.date: 05/08/2026
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

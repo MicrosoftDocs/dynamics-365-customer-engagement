@@ -4,8 +4,8 @@ description: Overview of the security roles for experience profiles.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 04/21/2025
-ms.topic: conceptual
+ms.date: 05/08/2026
+ms.topic: concept-article
 ms.collection:
 ms.custom: bap-template
 ---

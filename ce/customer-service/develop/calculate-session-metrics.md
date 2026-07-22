@@ -4,9 +4,9 @@ description: Learn to calculate and interpret session metrics to drive strategic
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
-ms.date: 07/08/2025
+ms.date: 03/05/2026
 ms.custom: bap-template 
 ---
 
@@ -18,9 +18,9 @@ ms.custom: bap-template
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-This article explains how to use session metrics to track agent performance, monitor key performance indicators (KPIs), and improve customer satisfaction in Dynamics 365 Customer Service.
+This article explains how to use session metrics in Dynamics 365 Customer Service. You can use session metrics to track agent performance, monitor key performance indicators (KPIs), and improve customer satisfaction.
 
-An omnichannel session (msdyn_ocsession) represents a customer interaction and captures events such as assigning, associating, creating, and updating records. A single conversation might include multiple sessions, starting with the initial interaction, typically handled by an agent, and followed by more sessions if the conversation is escalated to another customer service representative (service representative or representative).
+An omnichannel session (msdyn_ocsession) represents a customer interaction and captures events such as assigning, associating, creating, and updating records. A single conversation might include multiple sessions, starting with the initial interaction handled by an agent. If the conversation escalates to another customer service representative (service representative, representative), more sessions are added.
 
 The following sections describe session metrics calculations using Power BI reports and Dataverse calculations, helping you gain actionable insights and optimize service operations.
 
@@ -76,7 +76,7 @@ IF (FactSessionParticipant[LeftOnReason] ==
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Session rejection rate is the rate at which service representatives reject work that's assigned to them. 
+Session rejection rate is the rate at which service representatives reject assigned work. 
 Session Rejection Rate =​ Number of sessions rejected by agents / Total number of sessions assigned to agents. A session is considered rejected when a representative selects **Reject** on the incoming work item notification, rather than letting it time out.
 
 ### DAX query and Dataverse reference
@@ -257,7 +257,7 @@ Transferred sessions are customer interactions—such as chats, voice calls, or 
 
 - **Representative-to-representative**: A representative manually transfers a session to another representative, often due to skill mismatch or workload balancing.
 - **Representative-to-queue**: The session is routed to a different queue for reassignment, typically for escalation or specialized support.
-- **Agent-to-representative**: The AI agent escalates the session to a representative, either at the customer’s request or due to business rules such as maximum retries or unsupported intent.
+- **Agent-to-representative**: The AI agent escalates the session to a representative. This behavior happens either at the customer’s request or when business rules apply, such as reaching the maximum number of retries or encountering an unsupported intent.
 - **External transfers**:  Sessions transferred to external phone numbers or contact centers. For example, through Session Initiation Protocol (SIP) routing.
 
 ​
@@ -306,7 +306,7 @@ Transferred sessions = ​SUMX ( FactSession, IF ( FactSession[IsTransferredOut]
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-Session transfer rate is the percentage of customer sessions that are [transferred](#transferred-sessions). Session transfer rate = Number of transferred sessions / Total number of incoming sessions × 100. A session transfer can occur in the following scenarios:
+Session transfer rate is the percentage of customer sessions that are [transferred](#transferred-sessions). Session transfer rate = Number of transferred sessions / Total number of incoming sessions × 100.
 
 ### DAX query and Dataverse reference
 
@@ -351,9 +351,11 @@ DIVIDE (SUMX ( FactSession, IF ( FactSession[IsTransferredOut], 1, 0 ) ),​ SUM
 
 *Applies to Omnichannel historical dashboards.*
 
-An incoming session is a new customer chat, voice call, or SMS interaction that is handles by an AI agent or routed to an available representative.
+An incoming session is a conversation that is escalated by a chat or voice-enabled agent created in Microsoft Copilot Studio, or routed directly to an available representative.
 
 It represents a work item created when a customer initiates contact through any supported channel (for example, live chat or voice). The session is then queued for assignment based on routing rules, agent availability, and skill matching.
+
+The total doesn’t directly correspond to the sum of engaged, rejected, and timed‑out sessions, as sessions might end for various reasons. Learn more in [Session closure reasons](/dynamics365/contact-center/extend/closure-reasons-descriptions).
 
 
 ### DAX query and Dataverse reference
@@ -544,7 +546,7 @@ Consult requests rejected = SUMX (​FactSessionParticipant, IF (FactSessionPart
 
 ### Related metrics
 
-- **Session participant**: The list of participants within a single session. Each session includes at least one participant, who can be a service representative, AI agent, or IVR agent. More participants may be added in **Monitor** or **Consult** scenarios.
+- **Session participant**: The list of participants within a single session. Each session includes at least one participant, who can be a service representative, AI agent, or IVR agent. More participants might be added in **Monitor** or **Consult** scenarios.
 - **Session participant count**: The total number of service representatives involved in assisting a customer, and includes the primary representative assigned to the session and any subject matter experts who were consulted. Use the SessionParticipationType dimension to analyze this metric and obtain more statistics.
 
 ## Related information

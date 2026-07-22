@@ -1,8 +1,8 @@
 ---
 title: Learn the basics of the Customer Service Hub app
 description: Learn how to use the features of the Customer Service Hub for Dynamics 365 Customer Service.
-ms.date: 06/19/2025
-ms.topic: conceptual
+ms.date: 05/28/2026
+ms.topic: concept-article
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

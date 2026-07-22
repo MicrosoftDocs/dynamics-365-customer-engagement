@@ -3,7 +3,7 @@ title: Enable formatted messages
 description: Use this topic to understand how to enable your representatives to send and receive formatted messages in Dynamics 365 Contact Center.
 author: gandhamm
 ms.author: mgandham
-ms.date: 06/26/2025
+ms.date: 04/28/2026
 ms.topic: how-to
 ms.custom: bap-template
 ms.reviewer: mgandham

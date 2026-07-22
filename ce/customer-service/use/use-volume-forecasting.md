@@ -1,7 +1,7 @@
 ---
 title: Forecast case and conversation volumes, and service representatives for conversations
 description: Learn how to use forecast reports to predict service representative, case, and conversation volumes in Dynamics 365 Customer Service.
-ms.date: 06/30/2025
+ms.date: 06/30/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: lalexms
@@ -58,7 +58,7 @@ Learn more about how the forecast models work for this feature in [How agent for
 >
 > - Forecasts might misstate volume estimates for many reasons, including unanticipated trends or business developments.
 >
-> - The Forecast report is currently available in certain geographical locations. Learn more in [Supported regions and languages for analytics and insights](../administer/cs-region-availability-service-limits.md#supported-regions-and-languages-for-analytics-and-insights).
+> - The Forecast report is currently available in certain geographical locations. Learn more in [Supported regions and languages for analytics and insights](../administer/cs-region-availability-service-limits.md).
 
 ## Prerequisites
 

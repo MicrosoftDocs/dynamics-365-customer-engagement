@@ -31,6 +31,8 @@ These messages are currently supported in several key channels, each with varyin
 - Suggested replies
 
 **Apple Messages for Business**:
+> [!NOTE] 
+> Support for Apple Messages for Business channel is deprecated. Learn more in [Deprecations](/dynamics365/contact-center/implement/deprecations-contact-center).
 - Apple Pay
 - Authentication
 - Custom JSON

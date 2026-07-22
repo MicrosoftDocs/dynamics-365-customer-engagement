@@ -1,7 +1,7 @@
 ---
 title: What are preview features
 description: Learn what preview features are and how to identify them in your Dynamics 365 Sales trial.
-ms.date: 02/27/2025
+ms.date: 05/29/2026
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -25,7 +25,7 @@ Preview features come with some disclaimers. Preview features:
 
 ## How to identify a preview feature
 
-You get access to some preview features as part of your Dynamics 365 Sales trial. These features have a **Preview** label in the app and in the documentation. For example, refer to the [Integrate third-party dialers with Dynamics 365 conversation intelligence (preview)](ci-third-party-sp-integration.md) article.
+You get access to some preview features as part of your Dynamics 365 Sales trial. These features have a **Preview** label in the app and in the documentation. 
 
 ## Related information
 

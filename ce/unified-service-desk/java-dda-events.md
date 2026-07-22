@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # JavaDDA Events in Unified Service Desk
 [!INCLUDE[pn_Java](../includes/pn-java.md)] data-driven adapter (JavaDDA) provides a set of events to trigger automation executions in the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)]. The events correspond to the events in the [!INCLUDE[pn_Java](../includes/pn-java.md)] runtime. All events are bound to the controls on the user interface (UI). To register for the event, the control must be present in the UI. Use the `FindControl` activity to see if the control exists. This topic describes the [!INCLUDE[pn_Java](../includes/pn-java.md)]DDA events.  

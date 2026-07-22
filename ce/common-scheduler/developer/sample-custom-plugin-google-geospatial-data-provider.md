@@ -1,6 +1,6 @@
 ---
 title: Create plug-in to use geospatial data from Google Maps in Universal Resource Scheduling
-description: Reference this sample to create a custom plug-in for Universal Resource Scheduling actions to use geospatial data from Google Maps instead of Bing.
+description: Reference this sample to create a custom plug-in for Universal Resource Scheduling actions to use geospatial data from Google Maps.
 ms.date: 07/28/2025
 searchScope: 
   - Field Service
@@ -14,9 +14,9 @@ ms.author: mkelleher
 
 # Sample: Create custom plug-in to use Google Maps API as your geospatial data provider
 
-You can use a custom plug-in to get geospatial data from your preferred data provider instead of using the default Bing Maps API in Field Service and Project Service.
+You can use a custom plug-in to get geospatial data from your preferred data provider instead of using the default API in Field Service and Project Service.
 
-A sample is available at: [Custom plug-in to use Google Maps API as geospatial data provider (Dynamics 365)](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/field-service/CustomPlugin-FS-Geospatial). This sample shows how to create a custom plug-in for the **msdyn_GeocodeAddress** and **msdyn_RetrieveDistanceMatrix** actions in Universal Resource Scheduling to use Google Maps API for geospatial data instead of using the default Bing Maps API.
+A sample is available at: [Custom plug-in to use Google Maps API as geospatial data provider (Dynamics 365)](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/field-service/CustomPlugin-FS-Geospatial). This sample shows how to create a custom plug-in for the **msdyn_GeocodeAddress** and **msdyn_RetrieveDistanceMatrix** actions in Universal Resource Scheduling to use Google Maps API for geospatial data instead of using the default API.
 
 ## Prerequisites
 
@@ -36,7 +36,7 @@ The sample generates a plug-in assembly file: **CustomPlugin-FS-Geospatial.dll**
 
 1. In Visual Studio, select **Build** > **Build Solution**. NuGet packages in the solution download automatically if you enable the option to restore NuGet packages when you build a project in Visual Studio. Learn more in [Enabling and disabling package restore](/nuget/consume-packages/package-restore#enabling-and-disabling-package-restore).
 
-After you have successfully run (build) the sample, a custom plug-in assembly file, **CustomPlugin-FS-Geospatial.dll**, will become available in the `<Project>\bin\debug` folder. Register the sample custom plug-in assembly on your Dynamics 365 (online) instance to be able to use the plug-in to use the Google Maps API instead of the default Bing Maps API. Learn more in [Register and deploy your custom plug-in](register-deploy-custom-plugin-preferred-geospatial-data-provider.md#register-and-deploy-your-custom-plug-in).
+After you have successfully run (build) the sample, a custom plug-in assembly file, **CustomPlugin-FS-Geospatial.dll**, will become available in the `<Project>\bin\debug` folder. Register the sample custom plug-in assembly on your Dynamics 365 (online) instance to be able to use the plug-in to use the Google Maps API instead of the default API. Learn more in [Register and deploy your custom plug-in](register-deploy-custom-plugin-preferred-geospatial-data-provider.md#register-and-deploy-your-custom-plug-in).
 
 ## Plug-in sample code for msdyn_GeocodeAddress action
 

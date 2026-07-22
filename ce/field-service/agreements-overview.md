@@ -64,8 +64,19 @@ Agreements work seamlessly with the Dynamics 365 Sales Lead > Opportunity > Quot
 2. Add opportunity lines with service-based lines.
 3. Create quote lines as service-based lines, and add a quote booking setup.
 
+## Generate work orders or invoices
+
+Not sure which scenario applies to you? Use the following guide to jump directly to what you need:
+
+- Only need recurring work orders (for example, scheduled maintenance)? Go to [Automatically generate work orders for asset maintenance](set-up-agreements-work-orders.md).
+- Only need recurring billing (for example, a flat-rate service plan)? Go to [Automatically generate invoices](set-up-agreements-invoices.md).
+- Need both work orders and invoices for the same agreement? Complete [Automatically generate work orders for asset maintenance](set-up-agreements-work-orders.md) first, then add an invoice setup in [Automatically generate invoices](set-up-agreements-invoices.md).
+
 ## Next steps
 
-[Set up agreements to automatically generate work orders and invoices](set-up-customer-agreements.md)
+- [Set up agreements to automatically generate work orders](set-up-agreements-work-orders.md)
+- [Set up agreements to automatically generate invoices](set-up-agreements-invoices.md)
+- [Manage customer agreements](manage-agreements.md)
+- [Set up agreements sub-statuses](set-up-agreement-sub-statuses.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

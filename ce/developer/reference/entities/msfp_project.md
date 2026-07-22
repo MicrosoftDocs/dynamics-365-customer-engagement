@@ -73,6 +73,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msfp_description](#BKMK_msfp_description)
 - [msfp_environmentid](#BKMK_msfp_environmentid)
 - [msfp_environmentregion](#BKMK_msfp_environmentregion)
+- [msfp_isgroupdeleted](#BKMK_msfp_isgroupdeleted)
+- [msfp_isgroupproject](#BKMK_msfp_isgroupproject)
+- [msfp_issharedproject](#BKMK_msfp_issharedproject)
 - [msfp_name](#BKMK_msfp_name)
 - [msfp_permanentID](#BKMK_msfp_permanentID)
 - [msfp_projectId](#BKMK_msfp_projectId)
@@ -106,7 +109,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Stores Customer Insights configuration in JSON format.**|
-|DisplayName|**Customer Insights configuration**|
+|DisplayName|**\[DEPRECATED\] Customer Insights configuration**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msfp_customerinsightsconfiguration`|
@@ -157,7 +160,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Environment ID where project is stored.**|
-|DisplayName|**Environment ID**|
+|DisplayName|**\[DEPRECATED\] Environment ID**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msfp_environmentid`|
@@ -174,7 +177,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Environment region where project is stored.**|
-|DisplayName|**Environment region**|
+|DisplayName|**\[DEPRECATED\] Environment region**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msfp_environmentregion`|
@@ -185,6 +188,54 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msfp_isgroupdeleted"></a> msfp_isgroupdeleted
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Is Group Deleted**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msfp_isgroupdeleted`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msfp_project_msfp_isgroupdeleted`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msfp_isgroupproject"></a> msfp_isgroupproject
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Is Group Project**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msfp_isgroupproject`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msfp_project_msfp_isgroupproject`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msfp_issharedproject"></a> msfp_issharedproject
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Is Shared Project**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msfp_issharedproject`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msfp_project_msfp_issharedproject`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msfp_name"></a> msfp_name
 
@@ -275,7 +326,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Version number of the project template.**|
-|DisplayName|**Template version**|
+|DisplayName|**\[DEPRECATED\] Template version**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msfp_templateversion`|
@@ -714,6 +765,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 
 - [msfp_msfp_project_msfp_alert_project](#BKMK_msfp_msfp_project_msfp_alert_project)
 - [msfp_msfp_project_msfp_alertrule_project](#BKMK_msfp_msfp_project_msfp_alertrule_project)
+- [msfp_msfp_project_msfp_customervoiceuseractivity_project](#BKMK_msfp_msfp_project_msfp_customervoiceuseractivity_project)
 - [msfp_msfp_project_msfp_satisfactionmetric_project](#BKMK_msfp_msfp_project_msfp_satisfactionmetric_project)
 - [msfp_msfp_project_msfp_survey_project](#BKMK_msfp_msfp_project_msfp_survey_project)
 - [msfp_project_AsyncOperations](#BKMK_msfp_project_AsyncOperations)
@@ -722,6 +774,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msfp_project_PrincipalObjectAttributeAccesses](#BKMK_msfp_project_PrincipalObjectAttributeAccesses)
 - [msfp_project_ProcessSession](#BKMK_msfp_project_ProcessSession)
 - [msfp_project_SyncErrors](#BKMK_msfp_project_SyncErrors)
+- [msfp_satisfactionmetricsurveymapping_projectid_msfp_project](#BKMK_msfp_satisfactionmetricsurveymapping_projectid_msfp_project)
 
 ### <a name="BKMK_msfp_msfp_project_msfp_alert_project"></a> msfp_msfp_project_msfp_alert_project
 
@@ -746,6 +799,18 @@ Many-To-One Relationship: [msfp_alertrule msfp_msfp_project_msfp_alertrule_proje
 |ReferencedEntityNavigationPropertyName|`msfp_msfp_project_msfp_alertrule_project`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msfp_msfp_project_msfp_customervoiceuseractivity_project"></a> msfp_msfp_project_msfp_customervoiceuseractivity_project
+
+Many-To-One Relationship: [msfp_customervoiceuseractivity msfp_msfp_project_msfp_customervoiceuseractivity_project](msfp_customervoiceuseractivity.md#BKMK_msfp_msfp_project_msfp_customervoiceuseractivity_project)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_customervoiceuseractivity`|
+|ReferencingAttribute|`msfp_project`|
+|ReferencedEntityNavigationPropertyName|`msfp_msfp_project_msfp_customervoiceuseractivity_project`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msfp_msfp_project_msfp_satisfactionmetric_project"></a> msfp_msfp_project_msfp_satisfactionmetric_project
 
@@ -842,6 +907,18 @@ Many-To-One Relationship: [syncerror msfp_project_SyncErrors](syncerror.md#BKMK_
 |ReferencedEntityNavigationPropertyName|`msfp_project_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msfp_satisfactionmetricsurveymapping_projectid_msfp_project"></a> msfp_satisfactionmetricsurveymapping_projectid_msfp_project
+
+Many-To-One Relationship: [msfp_satisfactionmetricsurveymapping msfp_satisfactionmetricsurveymapping_projectid_msfp_project](msfp_satisfactionmetricsurveymapping.md#BKMK_msfp_satisfactionmetricsurveymapping_projectid_msfp_project)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_satisfactionmetricsurveymapping`|
+|ReferencingAttribute|`msfp_projectid`|
+|ReferencedEntityNavigationPropertyName|`msfp_satisfactionmetricsurveymapping_projectid_msfp_project`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

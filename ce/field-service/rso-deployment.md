@@ -1,7 +1,7 @@
 ---
 title: Deploy the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service
-description: Learn how to deploy and manage the deployment for  the Resource Scheduling Optimization add-in for Dynamics 365 Field Service.
-ms.date: 09/09/2025
+description: Learn how to deploy and manage the deployment for the Resource Scheduling Optimization add-in for Dynamics 365 Field Service.
+ms.date: 06/24/2026
 ms.topic: how-to
 ms.custom: bap-template
 ms.subservice: resource-scheduling-optimization
@@ -13,36 +13,18 @@ ms.author: anclear
 
 After [getting access to Resource Scheduling Optimization](rso-get-install.md) either by purchasing a license or through your Microsoft representative, deploy it to your Dynamics 365 Field Service environment.
 
-You can deploy multiple instances of the Resource Scheduling Optimization add-in on the same Microsoft 365 tenant, however, a Resource Scheduling Optimization instance can connect to one Dynamics 365 organization only. If you need to have concurrent instances, for example in production and development organizations, see [Get licenses for multiple instances](rso-get-install.md#get-licenses-for-multiple-instances).
-
 ## Deployment steps
 
 1. Verify Field Service is installed in your environment. The Field Service app appears in the Dynamics 365 apps menu when logged in as a system administrator.
 
 1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). In the left pane, select **Manage** > **Products - Dynamics 365 apps**.
 
-1. Scroll through the list of apps or use the search field in the Power Platform admin center to find **Resource Scheduling Optimization** and select **Manage**.
+1. Scroll through the list of apps or use the search field in the Power Platform admin center to find **Resource Scheduling Optimization** and select **Install**.
 
-1. Select the organization where you want to install the Resource Scheduling Optimization solution, review the Terms of Service, select the agreement box, and then select **Deploy** to start the Resource Scheduling Optimization deployment.
+1. Select the organization where you want to install the Resource Scheduling Optimization solution, review the Terms of Service, select the agreement box, and then select **Install** to start the Resource Scheduling Optimization deployment. The install operation might take up to an hour to complete.
 
    > [!NOTE]
-   > It may take several hours between the time the subscription appears in Microsoft 365 Admin Center and Power Platform Admin Center.
-
-## Manage the Resource Scheduling Optimization instance
-
-After the initial deployment, you can manage the deployed instance.
-
-1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). In the left pane, select **Resources** > **Dynamics 365 apps**.
-
-1. Find Resource Scheduling Optimization and select **Manage**.
-
-1. Choose one of the following options:
-
-   - Select **Upgrade to new version** to get the latest version. This option only shows if a newer version is available.
-
-   - Select **Change Organization** to switch the Resource Scheduling Optimization deployment from one Dynamics 365 organization to another. This action doesn't delete data in the original Dynamics 365 organization, and you can always switch back.
-
-   - Select **Delete current deployment** to delete Resource Scheduling Optimization Azure resources. The Resource Scheduling Optimization solution remains, so nothing inside the Dynamics 365 organization is affected.
+   > It might take several hours between the time the subscription appears in the Microsoft 365 Admin Center and the Power Platform Admin Center.
 
 ### Bulk deletion jobs
 
@@ -67,5 +49,14 @@ Learn how to [configure Resource Scheduling Optimization in your environment](./
 
 - [Quickstart for Resource Scheduling Optimization](rso-quickstart.md)
 - [Resource Scheduling Optimization configuration](rso-configuration.md)
+
+## Related information
+
+If you run into issues with Resource Scheduling Optimization, see the following troubleshooting articles:
+
+- [Troubleshoot RSO deployment](/troubleshoot/dynamics-365/field-service/rso/troubleshoot-rso-deployment)
+- [A requirement isn't scheduled in RSO](/troubleshoot/dynamics-365/field-service/rso/requirement-not-scheduled-in-rso)
+- [User lacks privileges error](/troubleshoot/dynamics-365/field-service/rso/user-lacks-privileges-error)
+- [SAS key isn't configured error](/troubleshoot/dynamics-365/field-service/rso/sas-key-not-configured-error)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

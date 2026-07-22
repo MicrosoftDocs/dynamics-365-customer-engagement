@@ -1,7 +1,7 @@
 ---
 title: Customer support swarming for representatives
 description: Learn how to use customer support swarming to help resolve case issues more quickly in Dynamics 365 Customer Service.
-ms.date: 01/22/2025
+ms.date: 02/28/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -59,7 +59,7 @@ To be able to create a swarm when working on a customer issue, you must have the
     - **Steps already tried** (optional, 2,000-character limit): Type the details about steps you took to try to resolve the issue, and any results. These details help confirm that any required processes were followed. They also provide immediate context for other swarm participants invited to collaborate on the issue.
     - **What skills do you need?** (optional): As part of the swarm request, the system takes the following actions: 
        - Attempts to match skills based on your swarm question
-       - Suggests skills based on rules your administrator defined. These rules find the key words that are present in the swarm request and/or steps taken, and then populates the matched skills based on the configured rules.
+       - Suggests skills based on rules your administrator defined. These rules find the keywords that are present in the swarm request and/or steps taken, and then populates the matched skills based on the configured rules.
      
      Suggested skills have the light bulb icon. You can also select up to 10 skills (both system-suggested and manually selected) that you think are relevant to the case. (Manually selected skills don't have the light bulb icon next to them.)
     
@@ -69,7 +69,7 @@ To be able to create a swarm when working on a customer issue, you must have the
 1. Select **Save and send invitation**. A linked swarm chat is created, and the contacts configured by your administrator are automatically added to the chat. When the swarm invitation sends, you can still go back and edit the swarm details if needed.
 
    > [!Note]
-   > By default, your supervisor is automatically added to create the swarm. If you don't have a supervisor, your administrator who configured the swarm is automatically added.
+   > By default, your supervisor is automatically added to the swarm when you create it. If you don't have a supervisor, your administrator who configured the swarm is automatically added.
 
   > [!div class="mx-imgBorder"] 
   > ![View of the linked swarm chat page.](../media/teams-swarm-request.png "Linked swarm chat page")
@@ -83,16 +83,16 @@ To be able to create a swarm when working on a customer issue, you must have the
    - If you select **Edit** on the command bar, existing saved skills remain. If you edit the swarm request, then the following actions occur:
      - The system searches for skills to account for the newest information, and appends skills found to the existing ones.
      - Invited experts and experts who are already in the swarm remain.
-     - A group chat is created, where you can chat with people who are experts on the issue. You might be the only one who is in the chat at first but you can message others to ask them to join if needed.
+     - A group chat is created, where you can chat with people who are experts on the issue. You might be the only one who is in the chat at first, but you can message others to ask them to join if needed.
 
 ### How the invitation to experts works
 
-When you select an expert for your swarm, they're sent an automated invitation in Teams via an adaptive card. When they accept your invitation, they're attached to the swarm, and their skills are indicated. If the expert declines the invitation, the system then looks for the next expert or experts who have one or more of the needed skills.
+When an expert is selected for your swarm, they're sent an automated invitation in Teams via an adaptive card. When they accept your invitation, they're attached to the swarm, and their skills are indicated. If the expert declines the invitation, the system then looks for the next expert or experts who have one or more of the needed skills.
 
 For the invited expert, the swarm invitation shows the following information:
-   - Inviting agent: The representative who initiated the swarm and invited the expert.
+   - Inviting representative: The representative who initiated the swarm and invited the expert.
    - Swarm request: The question the representative needs help with.
-   - Steps the agent already tried: A brief description of what the representative tried before creating the swarm.
+   - Steps the representative already tried: A brief description of what the representative tried before creating the swarm.
    - Expert skills: The required skills the expert has for the swarm.
    - Accept and reject: Options for the expert to either join or decline the swarm. If an expert declines an invitation and then later decides they want to join, they can participate by asking you to add them manually. They aren't able to view the swarm form from the group chat.
 

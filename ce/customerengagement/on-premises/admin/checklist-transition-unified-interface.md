@@ -53,9 +53,9 @@ For more information about Power Apps Checker, go to [Power Apps solution checke
 
 Prior to transitioning to Unified Interface, it’s important that you make sure that any third-party solution that you use in your application works in Unified Interface.
 
--   If you have installed ISV (Independent Software Vendor) add-ins through [AppSource](https://appsource.microsoft.com), check if upgrades are available. <!-- in the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) by selecting **Environments** > [environment_name] > **Manage Solutions**. -->
+-   If you have installed ISV (Independent Software Vendor) add-ins through [Marketplace](https://marketplace.microsoft.com), check if upgrades are available. <!-- in the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) by selecting **Environments** > [environment_name] > **Manage Solutions**. -->
 
--   If you are using third-party solutions that were provided outside of AppSource, contact the provider (Partner or ISV) to get a new version that updates the apps to Unified Interface.
+-   If you are using third-party solutions that were provided outside of Marketplace, contact the provider (Partner or ISV) to get a new version that updates the apps to Unified Interface.
 
 > [!NOTE]
 > If there are no plans for your third-party solutions to be updated to a version compatible with Unified Interface, it is important to identify a path to replace these features with either native platform capabilities or alternative solutions that are compatible.

@@ -1,7 +1,7 @@
 ---
 title: Removed or deprecated features in Dynamics 365 Sales
 description: Visit this page to see the deprecating features in Dynamics 365 Sales.
-ms.date: 10/09/2025
+ms.date: 06/25/2026
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -19,6 +19,20 @@ The features that have been removed or deprecated in  Dynamics 365 Sales are lis
 
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.  
+
+## Chat-based AI setup assistant for Sales Close Agent
+
+The setup assistant, an AI-assisted chat-based setup feature available in preview for Sales Close Agent, will not be available after June 2026. After which, the feature will be removed from all environments and no longer appears in the product. Organizations that used or evaluated this preview will no longer see the AI-assisted setup option. However, core Sales Close Agent functionality isn't affected, and the [standard manual setup process](configure-sales-close-agent.md) remains fully supported.  
+No action is required, but admins who used the preview should transition to the manual setup process and infosrm any users testing the feature.
+
+<a name="link-dynamics-365-records-to-microsoft-teams-channels"></a>
+## Link Dynamics 365 records to Microsoft Teams channels
+
+Effective May 2026, the ability to link Dynamics 365 records to Microsoft Teams channels is deprecated. After the deprecation, it is recommended to use Dynamics 365 directly in the browser.
+
+## Add chat message to Dynamics 365 record in Microsoft Teams
+
+Effective January 2026, the ability to add chat messages from Microsoft Teams to Dynamics 365 records is deprecated. After the deprecation, you can no longer use the **Add to Dynamics 365** option in Microsoft Teams chat messages to save them to Dynamics 365 records.
 
 <a name="sales-usage-reports"></a>
 ## Sales usage reports
@@ -92,5 +106,10 @@ You can create your own cards using Power Automate. [Learn more](create-insight-
 ## Rank optimization of insight cards
 
 Effective October 1, 2023, the rank optimization feature of insights cards is deprecated. Any ranking rules that you might have set up are no longer available and won't apply to insight cards. To optimize and prioritize the cards, turn off those cards that aren't in use.
+
+## Sales Insights Add-on
+
+The standalone Sales Insights Add-on package was deprecated in 2023 and is no longer supported. You can access Sales Insights capabilities through the primary Sales Insights solution in Dynamics 365 Sales instead of separate Sales Insights Anchor and Sales Insights Add-on packages that customers install on demand. This consolidation simplifies deployment and improves installation. 
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

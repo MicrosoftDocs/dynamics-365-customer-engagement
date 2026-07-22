@@ -16,6 +16,17 @@ Generic activity representing work needed to be done.
 > The Microsoft Dynamics 365 Task table extends the [Microsoft Dataverse Task table](/power-apps/developer/data-platform/reference/entities/task).
 
 
+## Messages
+
+The following table lists the messages for the Task table.
+Messages represent operations that can be performed on the table. They may also be events.
+
+| Name <br />Is Event? |Web API Operation |SDK for .NET |
+| ---- | ----- |----- |
+| `CreateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+| `UpdateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
+| `UpsertMultiple`<br />Event: False |<xref:Microsoft.Dynamics.CRM.UpsertMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.UpsertMultipleRequest>|
+
 
 ## Writable columns/attributes
 
@@ -338,10 +349,23 @@ One-To-Many Relationship: [site site_Tasks](site.md#BKMK_site_Tasks)
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_msdyn_conversationactionitem_task_msdyn_CreatedActivity](#BKMK_msdyn_msdyn_conversationactionitem_task_msdyn_CreatedActivity)
 - [msdyn_msdyn_ocliveworkitem_task_msdyn_routableobjectid](#BKMK_msdyn_msdyn_ocliveworkitem_task_msdyn_routableobjectid)
 - [msdyn_msdyn_salescopilotinsight_task_msdyn_activityid](#BKMK_msdyn_msdyn_salescopilotinsight_task_msdyn_activityid)
 - [msdyn_readtracker_poly_task](#BKMK_msdyn_readtracker_poly_task)
 - [task_activitymonitor](#BKMK_task_activitymonitor)
+
+### <a name="BKMK_msdyn_msdyn_conversationactionitem_task_msdyn_CreatedActivity"></a> msdyn_msdyn_conversationactionitem_task_msdyn_CreatedActivity
+
+Many-To-One Relationship: [msdyn_conversationactionitem msdyn_msdyn_conversationactionitem_task_msdyn_CreatedActivity](msdyn_conversationactionitem.md#BKMK_msdyn_msdyn_conversationactionitem_task_msdyn_CreatedActivity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationactionitem`|
+|ReferencingAttribute|`msdyn_createdactivity`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_conversationactionitem_task_msdyn_createdactivity`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_ocliveworkitem_task_msdyn_routableobjectid"></a> msdyn_msdyn_ocliveworkitem_task_msdyn_routableobjectid
 

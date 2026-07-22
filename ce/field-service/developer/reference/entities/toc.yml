@@ -91,9 +91,6 @@ items:
 - name: "Contact"
   displayName: "Contact entity"
   href: contact.md
-- name: "Copilot Event"
-  displayName: "msdyn_copilotevent entity"
-  href: msdyn_copilotevent.md
 - name: "Customer Asset"
   displayName: "msdyn_customerasset entity"
   href: msdyn_customerasset.md

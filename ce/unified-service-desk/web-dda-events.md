@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # WebDDA Events
 The Web data-driven adapter (WebDDA) provides a set of events that can be used in automations. The events can be divided in page events and control events. They map to the same event names used in the DOM. For more information about the events see [Events](https://msdn.microsoft.com/library/aa768400.aspx)  

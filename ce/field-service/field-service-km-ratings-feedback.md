@@ -4,13 +4,13 @@ description: Learn how to submit feedback on knowledge articles in Dynamics 365 
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
-ms.date: 11/07/2024
+ms.date: 12/23/2025
 ms.custom: bap-template
 ---
 
 # Submit feedback on knowledge articles
 
-You can easily provide feedback on knowledge articles with the help of knowledge article rating. Knowledge managers can capture and review the feedback on the articles to improve and maintain a relevant knowledge base.
+You can easily provide feedback on knowledge articles by using the knowledge article rating. Knowledge managers can capture and review the feedback on the articles to improve and maintain a relevant knowledge base.
 
 Knowledge articles can be linked to incident types, assets, or products. They appear in the **Linked Articles** section. Knowledge articles linked to work orders appear on the **Reference** tab.
 

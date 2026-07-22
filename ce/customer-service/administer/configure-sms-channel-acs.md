@@ -1,7 +1,7 @@
 ---
 title: Configure an SMS channel using Azure Communication Services
 description: Learn how to configure an SMS channel in Dynamics 365 Contact Center using Azure Communication Services.
-ms.date: 08/01/2025
+ms.date: 06/17/2026
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham

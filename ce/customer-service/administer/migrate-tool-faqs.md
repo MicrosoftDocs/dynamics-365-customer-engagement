@@ -1,11 +1,11 @@
 ---
 title: Migration tool FAQ
 description: Migration tool FAQ for automatic record creation rules and service-level agreement items.
-ms.date: 01/31/2025
+ms.date: 03/18/2026
 ms.topic: faq
-author: neeranelli
-ms.author: nenellim
-ms.reviewer: nenellim
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 ---
 
 # Migration tool FAQ
@@ -171,7 +171,7 @@ Legend:
 **b.** Blank operator field.
 
 > [!NOTE]
-> The following limitations are applicable when a condition is defined in Customer Service Hub:
+> The following limitations are applicable when a condition is defined:
 >
 > - The Date & Time picker control is no longer available in the conditions. However, you can still edit the date and time in the text field.
 > - Only one level of the related entity hierarchy is supported. However, you can select nested, related entities in the application.

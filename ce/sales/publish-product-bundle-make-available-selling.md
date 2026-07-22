@@ -1,7 +1,7 @@
 ---
 title: "Publish a product or bundle to make it available for selling (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Publish a product or bundle in Dynamics 365 Sales to make it available to the sales agents so they can build orders or create opportunities for customers."
-ms.date: 11/20/2024
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -19,7 +19,7 @@ By default, product records are created in a draft state, and are available to y
 
 > [!NOTE]
 > - You can only publish a product or bundle with a parent family if the parent product family is active.
-> - Product families are only supported for Sales Enterprise and Sales Premium.  
+> - Product families are only supported in the Sales Hub app.
 
 1. Depending on the sales app that you're using, do one of the following:
  

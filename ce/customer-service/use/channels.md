@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: overview
 ms.collection:
-ms.date: 04/16/2025
+ms.date: 05/08/2026
 ms.custom: bap-template
 ---
 
@@ -51,6 +51,9 @@ If you want to help your customers using SMS, you can use the following SMS chan
 - [SMS through Twilio](../administer/Configure-sms-channel-twilio.md)
 
 ## Social channels
+
+> [!NOTE] 
+> Support for Apple Messages for Business channel is deprecated. Learn more in [Deprecations](/dynamics365/contact-center/implement/deprecations-contact-center).
 
 If you want to help your customers using social media, you can use the following social channels:
 

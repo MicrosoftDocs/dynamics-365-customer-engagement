@@ -1,10 +1,12 @@
 ---
 title: Set up the Scheduling Operations Agent (preview)
 description: Learn how to set up the Scheduling Operations Agent in Dynamics 365 Field Service for your dispatchers.
-ms.date: 03/26/2025
+ms.date: 06/30/2026
 ms.topic: how-to
-ms.author: anilmur
-author: anilmur
+ms.collection: bap-ai-copilot
+ms.author: anclear
+author: andrewclear-ms
+ai-usage: ai-assisted
 ---
 
 # Set up the Scheduling Operations Agent (preview)
@@ -23,7 +25,7 @@ The Scheduling Operations Agent is an autonomous agent for Dynamics 365 Field Se
 
 ## Set up the billing model
 
-Scheduling Operations Agent and other Copilot and agent capabilities in Dynamics 365 use Microsoft Copilot Studio messages for AI interactions and tasks like retrieving information and responding to prompts. The number of messages per event depends on the event's complexity. Learn more in [Message scenarios](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).  
+Scheduling Operations Agent and other Copilot and agent capabilities in Dynamics 365 use Microsoft Copilot Studio messages for AI interactions and tasks like retrieving information and responding to prompts. The number of messages per event depends on the event's complexity. Learn more in [Message scenarios](/microsoft-copilot-studio/requirements-messages-management#message-scenarios). For the Scheduling Operations Agent, a single optimization request consumes messages based on the number of resources it includes, so optimizing more resources at once uses more capacity.  
 
 These capabilities use consumption-based billing, charging per use, and messages are the billing units that measure usage. Learn more about billing and rates in [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130).
 
@@ -39,7 +41,7 @@ You can use both billing models in the same environment. Prepaid capacity is con
 
 ### Set up pay-as-you-go billing
 
-To set up pay-as-you-go billing, you first need an active Azure subscription. Then you link the subscription to your Power Platform environment using the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) or in [Power Apps](https://make.powerapps.com/). Learn more in [Set up pay-as-you-go](/power-platform/admin/pay-as-you-go-set-up).
+To set up pay-as-you-go billing, you first need an active Azure subscription. Link the subscription to your Power Platform environment by using the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) or [Power Apps](https://make.powerapps.com/). Learn more in [Set up pay-as-you-go](/power-platform/admin/pay-as-you-go-set-up).
 
 ### Manage capacity and usage
 
@@ -57,23 +59,62 @@ Dynamics 365 regularly checks the available capacity, or quota, of Copilot Studi
 ## Turn on the Scheduling Operations Agent
 
 1. Open the Field Service app.
+
 1. Change to the **Resources** area and go to **Scheduling Parameters** > **Resource Scheduling**.
+
 1. Go to the **Agents** tab and turn on **Scheduling Operations Agent (Preview)**.
 
 :::image type="content" source="media/soa-enable-agent.png" alt-text="Screenshot of the Scheduling Operations Agent toggle in Dynamics 365 Field Service Resource Scheduling settings.":::
 
+Turning on the agent enables both interactive and batch optimizations. The rest of this article—bookable resource properties, booking status optimization methods, and priority values—applies to both.
+
+## Assign permissions and roles
+
+The Scheduling Operations Agent uses two security roles for the people who use it, plus a team that gives the agent itself access to your data.
+
+### Assign roles to users
+
+The agent includes two security roles. They're additive, so assign them alongside a user's existing roles rather than replacing them. Each user also needs a role that grants access to the underlying scheduling tables, such as bookable resources, bookings, and resource requirements - for example, a dispatcher role like **Field Service - Dispatcher**.
+
+| Role | Assign to | Grants |
+| --- | --- | --- |
+| **Scheduling Operations Agent Administrator** | Administrators who create scopes, goals, and plans | Create, edit, and delete scopes, goals, and plans, and view optimization results. |
+| **Scheduling Operations Agent User** | Dispatchers who run optimizations | View scopes, goals, and plans; run interactive optimizations from the schedule board and batch optimizations from a plan; and view optimization results. |
+
+To assign a role to a user:
+
+1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+
+1. Select your environment, and then go to **Settings** > **Users + permissions** > **Users**.
+
+1. Select a user, and then select **Manage security roles**.
+
+1. Select **Scheduling Operations Agent Administrator** or **Scheduling Operations Agent User**, along with a dispatcher role such as **Field Service - Dispatcher**, and then select **Save**.
+
+### Give the agent access to your data
+
+The agent runs as an application user that belongs to the **Scheduling Operations Agent Team**. Each change the agent makes uses the combined permissions of the user who runs the optimization and the agent's application user, so both must have access to the affected records. By default, the agent's application user can read and write the standard scheduling tables.
+
+If your optimizations use custom tables, Field Service or Project Operations tables, or queries that reference other tables, assign the matching security roles to the **Scheduling Operations Agent Team** so that the agent can read and update those tables. A good starting point is to assign the same roles that you assign to your dispatchers.
+
+1. In the Power Platform admin center, select your environment, and then go to **Settings** > **Teams**.
+
+1. Select the **Scheduling Operations Agent Team**.
+
+1. Assign the security roles that grant access to the tables your optimizations use, and then save.
+
+> [!NOTE]
+> If you use column-level security (field security profiles) on any columns that your scopes or queries reference, also add the **Scheduling Operations Agent Team** to the matching field security profile. Otherwise, the agent might ignore filter conditions on those columns and return incorrect results.
+
 ## Set properties for bookable resources
 
-Bookable resources that the agent supports must be of type *User*, *Contact*, or *Crew*. Set the following properties for each bookable resource that you want the agent to consider:
+In the **Resources** area, set the following properties for each bookable resource that you want the agent to consider:
 
-- **Start Location** and **End Location** must be a value other than **Location Agnostic**.
 - **Display on schedule board** must be **Yes**.
-
-:::image type="content" source="media/soa-resource-configuration.png" alt-text="Screenshot of a configured bookable resource record in Dynamics 365 Field Service.":::
 
 ## Select an optimization method for booking statuses
 
-**Optimization Method** is a new property of booking statuses that tells the agent whether it can move or delete scheduled or committed bookings in favor of unfulfilled requirements that better match the optimization goals.
+**Optimization Method** is a new property of booking statuses that tells the agent whether it can move or delete scheduled or committed bookings in favor of unfulfilled requirements that better match the optimization goals. If you don't set this field, the agent treats all bookings in that status as **Do Not Move**.
 
 1. Open the Field Service app and go to the **Resources** area.
 
@@ -81,34 +122,38 @@ Bookable resources that the agent supports must be of type *User*, *Contact*, or
 
 1. For each booking status, set the **Optimization Method** property to one of the following values:
 
-    - **Optimize**: The agent may move or delete bookings with this status to generate an optimal schedule. This method is typically used for bookings that aren't in progress yet; for example, statuses of *Scheduled* or *Committed*.
+    - **Optimize**: The agent can move or delete bookings with this status to generate an optimal schedule. Use this method for bookings that aren't in progress yet, such as **Scheduled** or **Committed** statuses.
 
-    - **Do Not Move**: The agent must preserve the estimated arrival time of bookings with this status. It only updates the travel time if a previous booking is moved or changed. That's typically the case when a technician is already traveling to a booking or has started or completed the work. You can also use this optimization method in situations where a specific arrival time was committed to a customer. *Do Not Move* is the default behavior if **Optimization Method** isn't set.
+    - **Do Not Move**: The agent must preserve the estimated arrival time of bookings with this status. It only updates the travel time if a previous booking is moved or changed. This method typically applies when a technician is already traveling to a booking or has started or completed the work. You can also use this optimization method in situations where a specific arrival time was committed to a customer. **Do Not Move** is the default behavior if **Optimization Method** isn't set.
 
-    - **Ignore**: The agent may override bookings with this status and move or create new bookings on top of them. This method is typically used for bookings with a status of *Canceled*.
+    - **Ignore**: The agent can override bookings with this status and move or create new bookings on top of them. Use this method for bookings with a status of **Canceled**.
 
     :::image type="content" source="media/soa-booking-status.png" alt-text="Screenshot of a booking status record with a configured optimization method in Dynamics 365 Field Service booking statuses settings.":::
 
 > [!TIP]
-> In addition to using the default booking statuses, we recommend that you create a booking status such as *Locked* with **Optimization Method** set to *Do Not Move*. Dispatchers can use that booking status to selectively indicate which bookings to preserve when the agent runs.
+> In addition to using the default booking statuses, create a booking status such as **Locked** with **Optimization Method** set to **Do Not Move**. Dispatchers can use that booking status to selectively indicate which bookings to preserve when the agent runs.
 >
-> If you don't set the **Optimization Method** for *Committed* or *Scheduled* statuses, then the agent has little flexibility in making changes to a schedule.
+> If you don't set the **Optimization Method** for **Committed** or **Scheduled** statuses, the agent has little flexibility in making changes to a schedule.
 
 ## Set priority values
 
-**Priority Value** is a new property of priorities that helps the agent decide which bookings or resource requirements are more important than others. It accepts numbers between 1 and 100. The higher the number, the higher the priority. For example, a high-priority booking with a **Priority Value** of 75 takes precedence over a high-priority booking with a **Priority Value** of 50. The agent ignores the **Level of Importance** field.
+The **Priority Value** property helps the agent decide which bookings or resource requirements are more important. It accepts numbers between 1 and 100. The higher the number, the higher the priority. For example, a high-priority booking with a **Priority Value** of 75 takes precedence over a high-priority booking with a **Priority Value** of 50. The agent ignores the **Level of Importance** field.
 
 1. Open the Field Service app and go to the **Settings** area.
-2. Select **Priorities**.
-3. For each priority that you want the agent to consider, set a **Priority Value**.  
+
+1. Select **Priorities**.
+
+1. For each priority that you want the agent to consider, set a **Priority Value**.  
 
     :::image type="content" source="media/soa-priority-value.png" alt-text="Screenshot of a priority record with a configured priority value in Dynamics 365 Field Service priorities settings.":::
 
 > [!TIP]
-> We recommend setting priority values that are clearly distinguishable, such as 100 for the highest-priority emergency work, 75 for high-priority work, 50 for moderate-priority work, and so on. The agent might not effectively distinguish values that are too close to each other.
+> Set priority values that are clearly distinguishable, but within a relatively narrow range. For example, if your values are Low - 1, Medium - 10, and Emergency - 100, the Emergency bookings are 10 times more important than Medium. This results in Emergency bookings *nearly always* being included in the result, regardless of how inefficient the placement is.
 
-## Next step
+## Next steps
 
-[Run the Scheduling Operations Agent (preview)](soa-run.md)
+- [Run interactive optimizations (preview)](soa-interactive-optimizations.md)
+- [Run batch optimizations (preview)](soa-batch-optimizations.md)
+- [Goals and objectives (preview)](soa-goals.md)
 
 [!INCLUDE [footer-banner](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: "Sample: Rollup goal data for a fiscal period against the stretch target count (Dynamics 365 Sales)"
-description: This sample shows how to roll up goal data for a fiscal period against stretch target count representing a number of completed telephone calls.
+description: Learn how to roll up goal data for a fiscal period against stretch target count for completed phone calls, and run this sample to validate results.
 ms.custom: 
 ms.date: 03/01/2023 
 ms.topic: sample
@@ -12,11 +12,12 @@ ms.reviewer: udag
 search.audienceType: 
   - developer
 ---
-# Sample: Rollup goal data for a fiscal period against the stretch target count
 
-This sample shows how to roll up goal data for a fiscal period against stretch target count, representing a number of completed phone calls. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/GoalDataForFiscalYear).
+# Sample: rollup goal data for a fiscal period against the stretch target count
 
-This sample requires additional users that are not in your system. Create the three required users **as is** shown below manually in **Office 365**. Replace `yourorg` with the organization name.
+This sample shows how to roll up goal data for a fiscal period against the stretch target count, representing a number of completed phone calls. You can download the sample from [GoalDataForFiscalYear](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/GoalDataForFiscalYear).
+
+This sample requires additional users that aren't in your system. Create the three required users **as is** shown in the following table manually in **Office 365**. Replace `yourorg` with the organization name.
 
 **First Name**: Nancy<br/>
 **Last Name**: Anderson<br/>
@@ -39,33 +40,33 @@ This sample requires additional users that are not in your system. Create the th
 
 ## What this sample does
 
-This sample shows how to roll up goal data for a fiscal period against stretch target count representing a number of completed telephone calls.
+This sample shows how to roll up goal data for a fiscal period against the stretch target count representing a number of completed telephone calls.
 
 ## How this sample works
 
-In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+To simulate the scenario described in [What this sample does](#what-this-sample-does), the sample app performs the following steps:
 
 ### Setup
 
-1. Checks for the version of the org.
-2. Retrieves the sales manager and 2 sales representatives, created manually in **Office 365**.
-3. Creates a `PhoneCall` row and supporting account row for the sample.
-4. Creates ActivityPartys for the phone calls **From** field.
-5. Creates an open phone call.
-6. Closes the first phone call and creates a second one.
-7. Closes the second phone call.
+1. Checks the version of the org.
+1. Retrieves the sales manager and two sales representatives, created manually in **Office 365**.
+1. Creates a `PhoneCall` row and supporting account row for the sample.
+1. Creates ActivityPartys for the phone calls **From** field.
+1. Creates an open phone call.
+1. Closes the first phone call and creates a second one.
+1. Closes the second phone call.
 
 ### Demonstrate
 
-1. Creates Metric, and setting the Metric type to **count** and enabling stretch tracking.
-2. Creates a rollup field which targets completed (received) phone calls.
-3. The `GoalRollupQuery` creates the goal rollup queries, locating the incoming and outgoing closed phone calls. 
-4. Creates three goals, one parent goal and two child goals.
-5. The `RecalculateRequest` calculates the rollup for goals. 
+1. Creates Metric, sets the Metric type to **count**, and enables stretch tracking.
+1. Creates a rollup field that targets completed (received) phone calls.
+1. The `GoalRollupQuery` creates the goal rollup queries, locating the incoming and outgoing closed phone calls. 
+1. Creates three goals: one parent goal and two child goals.
+1. The `RecalculateRequest` calculates the rollup for goals. 
 
 ### Clean up
 
-Display an option to delete the sample data created in [Setup](#setup). The deletion is optional in case you want to examine the tables and data created by the sample. You can manually delete the records to achieve the same result.
+The sample displays an option to delete the sample data created in [Setup](#setup). The deletion is optional in case you want to examine the tables and data created by the sample. You can manually delete the records to achieve the same result.
 
 
 

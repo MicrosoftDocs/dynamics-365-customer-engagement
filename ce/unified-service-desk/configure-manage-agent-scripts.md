@@ -9,7 +9,6 @@ ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: evergreen
 ---
 # Configure and manage agent scripts
 Each step in an agent script is represented as an agent script task. An agent script task can have one or more answers (choices) for the next steps; the answers are represented as a stack of buttons in the agent script area in your application. An action can be performed on selecting one of the answers or when you go to the next task. This article provides information on how you can create an agent script task, and then configure it by adding answers, actions, and triggers.  

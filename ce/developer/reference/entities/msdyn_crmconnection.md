@@ -290,8 +290,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |---|---|
-|10000|**Copilot for Sales**|
-|10001|**Copilot for Service**|
+|10000|**M365 Copilot Sales**|
+|10001|**M365 Copilot Service**|
 |11000|**Shared**|
 
 ### <a name="BKMK_msdyn_sfenvironmenttype"></a> msdyn_sfenvironmenttype

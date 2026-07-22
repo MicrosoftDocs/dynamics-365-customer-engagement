@@ -1,7 +1,7 @@
 ---
 title: Manage phone numbers
 description: Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Dynamics 365 Contact Center.
-ms.date: 05/05/2025
+ms.date: 06/17/2026
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
@@ -33,6 +33,7 @@ As an administrator, you can purchase phone numbers and calling plans, decide wh
 ## View phone numbers
 
 1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. Select **Manage** for **Phone numbers**. The **Phone numbers** page appears.
 
    You see a list of all available phone numbers together with their carrier name, calling plan details, associated workstream, connection status, and other details.
 

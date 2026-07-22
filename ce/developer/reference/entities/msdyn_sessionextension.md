@@ -62,15 +62,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_AdditionalMetadata](#BKMK_msdyn_AdditionalMetadata)
 - [msdyn_CallbackAcceptedTime](#BKMK_msdyn_CallbackAcceptedTime)
 - [msdyn_CallbackCustomerAddedTime](#BKMK_msdyn_CallbackCustomerAddedTime)
 - [msdyn_IntentFamilyID](#BKMK_msdyn_IntentFamilyID)
 - [msdyn_IntentGroupID](#BKMK_msdyn_IntentGroupID)
 - [msdyn_IntentID](#BKMK_msdyn_IntentID)
 - [msdyn_IntentString](#BKMK_msdyn_IntentString)
+- [msdyn_IsEngaged](#BKMK_msdyn_IsEngaged)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_ocliveworkitemid](#BKMK_msdyn_ocliveworkitemid)
 - [msdyn_ocsessionid](#BKMK_msdyn_ocsessionid)
+- [msdyn_Outcome](#BKMK_msdyn_Outcome)
+- [msdyn_OutcomeReason](#BKMK_msdyn_OutcomeReason)
 - [msdyn_OverflowAction](#BKMK_msdyn_OverflowAction)
 - [msdyn_OverflowCondition](#BKMK_msdyn_OverflowCondition)
 - [msdyn_OverflowTriggerTimestamp](#BKMK_msdyn_OverflowTriggerTimestamp)
@@ -78,6 +82,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_sessionextensionId](#BKMK_msdyn_sessionextensionId)
 - [msdyn_sessionid](#BKMK_msdyn_sessionid)
 - [msdyn_SourceIntentCalculation](#BKMK_msdyn_SourceIntentCalculation)
+- [msdyn_UserType](#BKMK_msdyn_UserType)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
@@ -109,6 +114,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`iscustomizable`|
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
+
+### <a name="BKMK_msdyn_AdditionalMetadata"></a> msdyn_AdditionalMetadata
+
+|Property|Value|
+|---|---|
+|Description|**Additional Metadata**|
+|DisplayName|**AdditionalMetadata**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_additionalmetadata`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|4000|
 
 ### <a name="BKMK_msdyn_CallbackAcceptedTime"></a> msdyn_CallbackAcceptedTime
 
@@ -212,6 +234,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|2000|
 
+### <a name="BKMK_msdyn_IsEngaged"></a> msdyn_IsEngaged
+
+|Property|Value|
+|---|---|
+|Description|**Is Engaged**|
+|DisplayName|**IsEngaged**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isengaged`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 
 |Property|Value|
@@ -251,6 +287,37 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_ocsessionid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|36|
+
+### <a name="BKMK_msdyn_Outcome"></a> msdyn_Outcome
+
+|Property|Value|
+|---|---|
+|Description|**Numeric value for Outcome**|
+|DisplayName|**Outcome**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_outcome`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_OutcomeReason"></a> msdyn_OutcomeReason
+
+|Property|Value|
+|---|---|
+|Description|**Outcome Reason**|
+|DisplayName|**OutcomeReason**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_outcomereason`|
 |RequiredLevel|None|
 |Type|String|
 |Format|Text|
@@ -392,6 +459,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350001|**Routing**|
 |192350002|**Manually Edited**|
 |192350003|**Not Applicable**|
+
+### <a name="BKMK_msdyn_UserType"></a> msdyn_UserType
+
+|Property|Value|
+|---|---|
+|Description|**This type corresponds to User**|
+|DisplayName|**UserType**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_usertype`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|36|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

@@ -1,7 +1,7 @@
 ---
 title: Use Teams chat 
 description: Learn how to use the Teams chat functionality. 
-ms.date: 09/30/2025
+ms.date: 06/09/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -25,6 +25,7 @@ As a customer service representative (service representative or representative),
 
 > [!NOTE]
 > Your administrator needs to enable this feature before you can use it, and you must have certain permissions to access Teams data. Learn more in [Configure Teams chat](../administer/configure-teams-chat.md)
+> Some Microsoft Teams integration capabilities in Dynamics 365 don't support guest user accounts. If you're signed in to Teams as a guest user or using cross-tenant access, Teams chat integration features might be unavailable or not work as expected.
 
 ## Representative overview of key features for Teams chat
 

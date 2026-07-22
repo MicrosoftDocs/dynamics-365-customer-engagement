@@ -1,16 +1,15 @@
 ---
 title: Migrate configurations for record routing using solutions
 description: Learn how to migrate configuration data for routing, capacity profiles, queues, intake rules, and workstreams in Customer Service using solutions.
-author: mjfjesus
-ms.author: marcoje
+author: neeranelli
+ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 09/26/2025
+ms.date: 06/16/2026
 ms.custom: bap-template
 ---
 
 # Migrate configurations for record routing using solutions
-
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 

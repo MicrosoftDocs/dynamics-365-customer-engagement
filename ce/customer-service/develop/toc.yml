@@ -30,7 +30,7 @@
         - name: Transform, map external source data to knowledge fields
           href: int-search-metadata-schema.md#transform-map-external-source-data-to-knowledge-fields
         - name: Configure the faceted search results web template from your portal
-          href: configure-faceted-search-results.md          
+          href: configure-faceted-search-results.md        
       - name: Chat
         items:  
         - name: Develop a custom live chat widget
@@ -100,8 +100,14 @@
       - name: Copilot in Customer Service
         items:  
         - name: Download Copilot transcripts and interaction data
-          href: download-copilot-transcript-data.md           
-      - name: Autonomous service agents (preview)
+          href: download-copilot-transcript-data.md       
+      - name: Service Agent
+        items: 
+        - name: Overview of Dynamics 365 Customer Service MCP tools
+          href: mcp-tools-overview.md
+        - name: Service Agent tools
+          href: ../../developer/reference/mcp-tools/toc.yml
+      - name: Autonomous service agents
         items: 
         - name: Integrate Case Management Agent with custom Copilot Studio agents 
           href: case-management-agent-integration.md    
@@ -109,9 +115,9 @@
           href: use-case-field-prediction-api.md      
         - name: Use msdyn_invokeCaseProcessingAgent to invoke Case Management Agent
           href: use-case-processing-agent.md           
-      - name: Agent productivity tools
+      - name: Representative productivity tools
         items: 
-        - name: Build a smart assist bot
+        - name: Build a smart assist agent
           href: smart-assist-bot.md
         - name: Implement custom scenario
           href: smart-assist-scenario.md
@@ -153,6 +159,8 @@
           href: calculate-session-metrics.md
         - name: Calculate representative metrics
           href: calculate-representative-metrics.md
+      - name: Dataverse tables used in historical and real-time analytics
+        href: dataverse-entities.md
       - name: Extend Customer Service
         items: 
         - name: Extend Omnichannel for Customer Service
@@ -363,3 +371,5 @@
       href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml
     - name: Dynamics 365 Contact Center documentation
       href: /dynamics365/contact-center/
+    - name: Contribute to documentation
+      href: /dynamics365/get-started/contribute?context=/dynamics365/context/customer-service-develop-context

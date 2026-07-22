@@ -1,13 +1,30 @@
-Requirements can be scheduled across multiple days and weeks. Dispatchers can schedule multi-day work in between existing bookings, by double-booking existing schedules, or as a continuous block of time.
+Some jobs take longer than a single work day. Use multi-day scheduling to spread a requirement across multiple days or weeks — for example, when a job takes 20 hours but a technician works 8-hour days, a project spans a week with work happening on specific days, or an installation requires multiple visits distributed over time.
 
 > [!TIP]
-> If the work you wish to schedule spans multiple weeks or has dependencies on previous steps and milestones, consider using [Dynamics 365 Project Service with Gantt chart functionality](/dynamics365/project-operations/psa/schedule-project-work-breakdown-structure).
+> If the work you want to schedule spans multiple weeks or has dependencies on previous steps and milestones, consider using [Dynamics 365 Project Service with Gantt chart functionality](/dynamics365/project-operations/psa/schedule-project-work-breakdown-structure).
 
-## Schedule a multi-day requirement manually on the schedule board
+## Multi-day scheduling at a glance
 
-Manually scheduling a multi-day requirement on the schedule board allows you to choose the allocation method to determine the breakdown of the bookings created when scheduling.
+| Approach | Best for | Key detail |
+|---|---|---|
+| **Schedule board (manual)** | Quick drag-and-drop assignment across days | Use daily, weekly, or monthly view. Don't use hourly view. |
+| **Schedule assistant** | Automated allocation based on a method | Set an allocation method on the requirement first. |
+| **Specify pattern** | Custom schedule with specific days and time windows | Define exact duration windows and time ranges. |
 
-If you're using requirement details to define the allocation method, manually scheduling the requirement on the schedule board ignores them. Use the [schedule assistant](#schedule-a-multi-day-requirement-with-the-schedule-assistant) instead.
+## Prerequisites
+
+- A [bookable resource](../../field-service/set-up-bookable-resources.md) with [work hours](../../field-service/calendar-resource.md) configured.
+- A requirement with a **duration** longer than a single work day.
+- An **allocation method** set on the requirement (not "None") if using the schedule assistant.
+
+> [!IMPORTANT]
+> Multi-day scheduling works with single requirements only. [Requirement groups](../../field-service/multi-resource-scheduling-requirement-groups.md) can't be scheduled for multiple days.
+
+## Option 1: Schedule manually on the schedule board
+
+When you manually schedule a multi-day requirement on the schedule board, you can choose the allocation method to determine the breakdown of the bookings created when scheduling.
+
+If you use requirement details to define the allocation method, manually scheduling the requirement on the schedule board ignores them. Use the [schedule assistant](#option-2-use-the-schedule-assistant) instead.
 
 1. Create a multi-day requirement record. Provide details such as skills, roles, resource preferences, and service territory to define the eligible resources, if applicable.
 
@@ -16,37 +33,42 @@ If you're using requirement details to define the allocation method, manually sc
 1. Change the view to daily, weekly, or monthly.
 
    > [!CAUTION]
-   > Don't drag and drop multi-day requirement to a resource on the hourly board view. It creates a long continuous booking through nonworking hours.
+   > Don't drag and drop a multi-day requirement to a resource on the hourly board view. It creates a long continuous booking through nonworking hours.
 
 1. Select the multi-day requirement in the requirements pane.
 
-1. Select a resource on the board for which you would like to schedule the multi-day work order requirement and select **Book**.
+1. Select a resource on the board for which you want to schedule the multi-day work order requirement and select **Book**.
 
     :::image type="content" source="../../field-service/media/scheduling-board-multi-day-booking.png" alt-text="Screenshot of the scheduling board with a multi-day requirement.":::
 
 1. In the **Create Booking** pane, review and update the values as needed. Choose the **Booking Method** to define how to spread the requirement over multiple days. For more information, go to [booking allocation method](/dynamics365/project-operations/psa/FAQ-allocation-methods).
 
-    - Full capacity: Books the resource’s full capacity for the specified from and to dates without regard to the resource's remaining capacity or the duration of the requirement.
-    - Remaining capacity: Books the resource's remaining capacity for the specified from and to dates.
-    - Percentage capacity: Books the resource for a percentage of capacity for the specified from and to dates.
-    - Evenly Distribute Hours: Books the resource for a specified number of hours, distributing the time evenly per day over the specified from and to dates.
-    - Front Load Hours: Books the resource for a specified number of hours, front-loading the per-day hours over the specified from and to dates. The front load method considers existing bookings and available capacity.
+   | Allocation method | How hours are distributed |
+   |---|---|
+   | **Full Capacity** | Books the resource's full capacity for the specified from and to dates without regard to remaining capacity or requirement duration. |
+   | **Remaining Capacity** | Books the resource's remaining available capacity for the specified dates. |
+   | **Percentage Capacity** | Books the resource for a percentage of capacity for the specified dates. |
+   | **Evenly Distribute Hours** | Splits hours equally across days over the specified date range. |
+   | **Front Load Hours** | Loads more hours into earlier days, considering existing bookings and available capacity. |
 
     > [!NOTE]
     > Full Capacity, Percentage Capacity, and Evenly Distribute Hours can lead to overbooking.
 
 1. Select **Book** and the system creates multiple bookings across multiple days.
 
-## Schedule a multi-day requirement with the schedule assistant
+## Option 2: Use the schedule assistant
 
-This scenario schedules a requirement *without* a related work order. The requirement needs an allocation method set before saving and the requirements that are automatically created by schedulable entities such as work orders have an allocation method of **None** by default.
+This scenario schedules a requirement *without* a related work order. You need to set an allocation method for the requirement before saving it. The requirements that schedulable entities such as work orders automatically create have an allocation method of **None** by default.
 
 > [!NOTE]
-> To schedule a multi-day work order with the schedule assistant, manually add a related requirement with an allocation method and delete or disregard the automatically created ones. Alternatively, you can manually [create requirement detail records with **Specify Pattern**](#specify-patterns-for-requirements).
+> To schedule a multi-day work order with the schedule assistant, manually add a related requirement with an allocation method and delete or disregard the automatically created ones. Alternatively, you can manually [create requirement detail records with **Specify Pattern**](#option-3-define-a-pattern).
 
-1. Create a multi-day requirement record with an allocation method set. Provide details such as skills, roles, resource preferences, and service territory to define the eligible resources.
+1. Create a multi-day requirement record and set the allocation method. Provide details such as skills, roles, resource preferences, and service territory to define the eligible resources.
 
-1. On the requirement record, select **Related** > **Requirement Details**.
+    > [!NOTE]
+    > The Resource Requirement fields, such as **From Date**, **To Date**, and **Duration**, are editable only when the **Allocation Method** is set to **None**.
+
+1. Select **Related** > **Requirement Details** on the requirement record.
 
    The system automatically creates requirement details and splits them into segments based on the duration and the allocation method. The requirement details are based on the requirement's calendar. Edit them by selecting **Modify Calendar** on the resource requirement record.
 
@@ -54,23 +76,23 @@ This scenario schedules a requirement *without* a related work order. The requir
 
 1. Select **Book** to launch the schedule assistant for the multi-day requirement.
 
-1. Resources with availability that also meet the other attributes show as results. Choose a resource, the dates, and select **Book** to create multiple bookings according to the pattern of the allocation method.
+1. The results show resources with availability that also meet the other attributes. Choose a resource, the dates, and select **Book** to create multiple bookings according to the pattern of the allocation method.
 
 Alternatively, you can set up a work hours template, which you can assign to a resource requirement. The system generates resource requirements details based on the work hours template.
 
-## Specify patterns for requirements
+## Option 3: Define a pattern
 
-You can define how to split a long-running requirement into individual bookings. With patterns, you can customize the requirement details beyond the default allocation methods.
+You can define how to split a long-running requirement into individual bookings. By using patterns, you can customize the requirement details beyond the default allocation methods.
 
 ### Create patterns for requirements
 
-1. Create a multi-day requirement record. Provide details such as skills, roles, resource preferences, and service territory to define the eligible resources. Select **Save**.
+1. Create a multi-day requirement record. Enter details such as skills, roles, resource preferences, and service territory to define the eligible resources. Select **Save**.
 
 1. Select **Specify Pattern**. Then, select **Add detail**.
 
 1. Choose the requirement and set the duration, start time, and end times for the time window. Then select **Apply**.
 
-   For example, the time window is from 9 AM to 5 PM with a three hour duration. When you schedule that requirement detail, the system books a resource for three hours between 9 AM and 5 PM. The duration must be shorter than the time window.
+   For example, the time window is from 9 AM to 5 PM with a three-hour duration. When you schedule that requirement detail, the system books a resource for three hours between 9 AM and 5 PM. The duration must be shorter than the time window.
 
 1. Add as many detail records as needed. Then select **Save**.
 
@@ -78,7 +100,7 @@ You can define how to split a long-running requirement into individual bookings.
 
 ### Edit patterns for requirements
 
-To edit existing requirement details made with patterns, select the requirement and then **Specify Pattern**.
+To edit existing requirement details that you created by using patterns, select the requirement and then select **Specify Pattern**.
 
 1. To edit one requirement detail, select it. The **Edit detail** pane appears. Change the duration or time window and save the changes.
 
@@ -90,21 +112,35 @@ To edit existing requirement details made with patterns, select the requirement 
 
 1. Use the settings under **Duration allocation** to control how to distribute the changed durations across multiple details.
 
-   When decreasing duration, there are two options:
+   When you decrease duration, you have two options:
 
    - **Proportionally distributed**: The decrease in duration is split among all contained details in proportion to their respective durations, so that all decrease by the same percentage.
    - **Subtracted from total**: The decrease is subtracted from the total length of all contained details. This new total is then evenly distributed among contained details.
 
-   When increasing duration, there are four options:
+   When you increase duration, you have four options:
 
    - **Proportionally distributed**: The increase in duration is split among all contained details in proportion to their respective durations, so that all increase by the same percentage.
    - **Front loaded**: The increase in duration is added to the first contained detail until it hits capacity. Then it's added to the next detail and so on.
-   - **Distributed evenly**: The increase is split evenly among all contained details.
    - **Added to total**: The increase is added to the total length of all contained details. This new total is then evenly distributed among all contained details.
+   - **Distributed evenly**: The increase is split evenly among all contained details. The Evenly Distribute Hours method books a resource for a specified number of hours, distributing the time evenly across the selected date range.
+   The distribution follows these rules:
+
+       - Working vs. Nonworking days:
+           - If the date range includes both working and nonworking days and there is sufficient resource work hour capacity on working days, bookings are placed only on working days.
+           - If the date range consists exclusively of nonworking days, bookings are placed on those nonworking days.
+           - If the date range includes both working and nonworking days but there is insufficient resource work hour capacity on working days, overbookings might spillover to nonworking days as well.
+
+       - Placement of hours:
+           - On working days, bookings start at the beginning of standard working hours.
+           - On nonworking days, bookings are centered around noon (for example, a five hour booking runs 2.5 hours before noon and 2.5 hours after noon).
+
+       > [!NOTE]
+       > The method doesn't consider the resource's remaining capacity. If the resource is already booked during the selected period, the hours are added on top of existing bookings, which might lead to overbooking.
+
 
 1. Use the schedule assistant to book the requirement.
 
-## Schedule a multi-day requirement to multiple resources
+## Schedule a multi-day requirement for multiple resources
 
 1. From a multi-day resource requirement, go to **Related** > **Requirement Details** and select **Specify Pattern**. Edit and override the requirement details pattern created by the allocation method.
 
@@ -112,9 +148,9 @@ To edit existing requirement details made with patterns, select the requirement 
 
 1. Choose a resource and specific days for just that resource, then select **Book** (*not* **Book & Exit**).
 
-1. Then, choose another resource and specific days for only that resource and select **Book** again.
+1. Choose another resource and specific days for only that resource, then select **Book** again.
 
-1. The system creates bookings for each resource on the days selected.
+1. The system creates bookings for each resource on the days you selected.
 
 > [!NOTE]
 >

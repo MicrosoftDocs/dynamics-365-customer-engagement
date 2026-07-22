@@ -1,7 +1,7 @@
 ---
-title: Roll up goal totals (Dynamics 365 Sales)
+title: Roll up goal totals
 description: RecalculateRequest message can be used to roll up data in a goal hierarchy. It recalculates the goal rollup field values, such as Goal.ActualMoney or Goal.ActualInteger, for all goals in the hierarchy.
-ms.date: 01/30/2025
+ms.date: 04/30/2026
 ms.topic: how-to
 applies_to: 
   - Dynamics 365 Sales
@@ -12,11 +12,12 @@ search.audienceType:
   - developer
 
 ---
+
 # Roll up goal totals
 
-To roll up data in the goal hierarchy, use the SDK [RecalculateRequest class](xref:Microsoft.Crm.Sdk.Messages.RecalculateRequest) or Web API  `Recalculate` action. It recalculates the goal rollup field values, such as `Goal.ActualMoney` or `Goal.ActualInteger`, for all goals in the hierarchy. A rollup for each goal is performed in the context of the goal manager. This means that only the records that a manager of a goal has Read access to participate in the rollup. The system automatically switches the manager's context for each goal during rollup, as every goal may have a different goal manager.  
+To roll up data in the goal hierarchy, use the SDK [RecalculateRequest class](xref:Microsoft.Crm.Sdk.Messages.RecalculateRequest) or Web API `Recalculate` action. These options recalculate the goal rollup field values, such as `Goal.ActualMoney` or `Goal.ActualInteger`, for all goals in the hierarchy. The system performs a rollup for each goal in the context of the goal manager. This context means that only the records that a manager of a goal has Read access to participate in the rollup. The system automatically switches the manager's context for each goal during rollup, as every goal might have a different goal manager.  
   
-The totals are rolled up from the child goals to the parent goals, from the bottom of the hierarchy to the top. The ending total for the root goal at the top of the hierarchy is an aggregate sum of all totals in the hierarchy. For example, if revenue metric is used, the total is an aggregate sum of the money amounts. If a count metric is used, the total is an aggregate count of the actual records in the system, such as telephone calls. Regardless of which particular goal is a target of the recalculate operation, all totals in a given hierarchy are updated.  
+The totals roll up from the child goals to the parent goals, from the bottom of the hierarchy to the top. The ending total for the root goal at the top of the hierarchy is an aggregate sum of all totals in the hierarchy. For example, if the revenue metric is used, the total is an aggregate sum of the money amounts. If a count metric is used, the total is an aggregate count of the actual records in the system, such as telephone calls. Regardless of which particular goal is a target of the recalculate operation, all totals in a given hierarchy are updated.  
   
 If you set `Goal.RollupOnlyFromChildGoals` to `true`, only child goal records are used in the rollup. If you set it to `false`, the rollup includes the child records and other goal's participating records. A participating record must satisfy the following conditions:  
   
@@ -29,13 +30,13 @@ If you set `Goal.RollupOnlyFromChildGoals` to `true`, only child goal records ar
 -   The goal manager must have Read access to the record.  
   
 > [!NOTE]
->  The goal rollup fields that do not participate in the rollup are not updated, their values are **null**.  
+>  The goal rollup fields that don't participate in the rollup aren't updated, and their values are **null**.  
   
- To specify the rollup expiration time, use the `Organization.GoalRollupExpiryTime` column. For example, if the rollup expiration time is set to six months, the goals older than six months will not be rolled up automatically. To specify the frequency of goal rollup, use the `Organization.GoalRollupFrequency` column. The frequency can be set on an hourly basis. By default, the goal actual values are recalculated every 24 hours.  
+ To specify the rollup expiration time, use the `Organization.GoalRollupExpiryTime` column. For example, if you set the rollup expiration time to six months, the system doesn't automatically roll up goals older than six months. To specify the frequency of goal rollup, use the `Organization.GoalRollupFrequency` column. Set the frequency on an hourly basis. By default, the goal actual values are recalculated every 24 hours.  
   
- **Override Calculated Values**  
+## Override calculated values
   
- To override the system calculated actual, in-progress, or custom goal rollup field values, update the goal record. You must set the `Goal.IsOverride` column to `true` to notify the system that the rollup field values can be updated. To signal the system that the goal's rollup field values were overridden and must not be updated during next recalculate operation, set the `Goal.IsOverridden` column to `true`. If `Goal.IsOverride` is `false`, an exception is thrown during the update operation. If `Goal.IsOverridden` is `false`, the goal rollup field values will be overwritten during next recalculate operation with system calculated values.  
+ To override the system calculated actual, in-progress, or custom goal rollup field values, update the goal record. Set the `Goal.IsOverride` column to `true` to notify the system that it can update the rollup field values. To signal the system that the goal's rollup field values were overridden and must not be updated during next recalculate operation, set the `Goal.IsOverridden` column to `true`. If `Goal.IsOverride` is `false`, an exception is thrown during the update operation. If `Goal.IsOverridden` is `false`, the goal rollup field values are overwritten during next recalculate operation with system calculated values.  
   
 ## Related information
 

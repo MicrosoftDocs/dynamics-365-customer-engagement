@@ -1,7 +1,7 @@
 ---
 title: Sales accelerator FAQs
 description: Get answers to frequently asked questions about sales accelerator.
-ms.date: 06/09/2025
+ms.date: 07/07/2026
 ms.topic: faq
 author: udaykirang
 ms.author: udag
@@ -16,22 +16,22 @@ ms.custom:
 
 # Sales accelerator FAQs
 
-This article answers frequently asked questions about sales accelerator in Dynamics 365 Sales and Sales premium.
+This article answers frequently asked questions about sales accelerator in Dynamics 365 Sales.
 
 ## How do I add the Up next widget to an entity form?
 
 You can add the **Up next** widget only to managed entity forms. To add the **Up next** widget to a managed entity form, create a solution, modify the XML files, and then import the solution.
 
-#### Create a solution
+### Create a solution
 
-1. Go to **Settings** > **Solutions**, and then create an empty solution; for example, **AddWidget**.  
+1. Go to **Settings** > **Solutions**, and then create an empty solution, such as **AddWidget**.  
 1. Add a **Form** to the solution.  
 1. Save the changes and publish the customizations.
 1. Export the created **AddWidget** solution as **UnManaged**.
 1. Delete the solution **AddWidget** from the organization.
 1. Extract the zip file of the downloaded solution.
 
-#### Modify the XML files
+### Modify the XML files
 
 1. In the file `solution.xml`, change the `<Managed>` value to **1**.
 1. In the `customizations.xml` file, delete the parameter `<systemform unmodified="1">`.
@@ -80,12 +80,12 @@ You can add the **Up next** widget only to managed entity forms. To add the **Up
 1. Replace the `<GUID_G5>` in `customizations.xml` with the **GUID_G5** generated from **step 11**.  
 1. Save the changes and zip the folder.  
 
-#### Import the solution
+### Import the solution
 
 1. Open Dynamics 365 and go to **Settings** > **Solutions**.  
 1. Import the zipped solution.  
 1. Publish all customizations.  
-1. Verify that the **Up next** widget successfully shows up on the form.
+1. Verify that the **Up next** widget appears on the form.
 
 ## How do I add the sales accelerator site map to my custom app?
 

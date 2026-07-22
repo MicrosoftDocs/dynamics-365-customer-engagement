@@ -900,6 +900,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msfp_question_PrincipalObjectAttributeAccesses](#BKMK_msfp_question_PrincipalObjectAttributeAccesses)
 - [msfp_question_ProcessSession](#BKMK_msfp_question_ProcessSession)
 - [msfp_question_SyncErrors](#BKMK_msfp_question_SyncErrors)
+- [msfp_satisfactionmetricsurveymapping_surveyquestionid_msfp_question](#BKMK_msfp_satisfactionmetricsurveymapping_surveyquestionid_msfp_question)
 
 ### <a name="BKMK_msfp_msfp_question_msfp_fileresponse_question"></a> msfp_msfp_question_msfp_fileresponse_question
 
@@ -1008,6 +1009,18 @@ Many-To-One Relationship: [syncerror msfp_question_SyncErrors](syncerror.md#BKMK
 |ReferencedEntityNavigationPropertyName|`msfp_question_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msfp_satisfactionmetricsurveymapping_surveyquestionid_msfp_question"></a> msfp_satisfactionmetricsurveymapping_surveyquestionid_msfp_question
+
+Many-To-One Relationship: [msfp_satisfactionmetricsurveymapping msfp_satisfactionmetricsurveymapping_surveyquestionid_msfp_question](msfp_satisfactionmetricsurveymapping.md#BKMK_msfp_satisfactionmetricsurveymapping_surveyquestionid_msfp_question)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msfp_satisfactionmetricsurveymapping`|
+|ReferencingAttribute|`msfp_surveyquestionid`|
+|ReferencedEntityNavigationPropertyName|`msfp_satisfactionmetricsurveymapping_surveyquestionid_msfp_question`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

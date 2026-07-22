@@ -1,7 +1,7 @@
 ---
 title: "Delete a family, product, or bundle | MicrosoftDocs"
 description: "To stop selling a product, delete it. If you delete a parent family, its child products, families, and bundles are also deleted."
-ms.date: 11/19/2024
+ms.date: 05/29/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

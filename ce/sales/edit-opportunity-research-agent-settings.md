@@ -1,11 +1,10 @@
 ---
-title: Edit the Opportunity Research Agent settings
-description: 
-ms.date: 07/09/2025
+title: Edit settings of Sales Opportunity Agent
+ms.date: 05/29/2026
+ms.update-cycle: 180-days
+description: Learn how to edit the settings of Sales Opportunity Agentto customize knowledge sources, update frequency, and opportunity segments for your business needs.
 ms.topic: overview
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom: bap-template
 author: lavanyakr01
 ms.author: lavanyakr
@@ -15,15 +14,11 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Edit the Opportunity Research Agent settings
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Edit settings of Sales Opportunity Agent
 
 After starting the agent, you can edit its settings to suit your business needs. You can change the knowledge sources that the agent uses to generate insights, the frequency of research updates, and the segment of opportunities that the agent works on. 
 
-This article describes the impact of the edits to the Opportunity Research Agent settings.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+This article describes the impact of the edits to the Sales Close Agent settings.
 
 ## What happens when you edit the agent settings?
 
@@ -36,3 +31,7 @@ This article describes the impact of the edits to the Opportunity Research Agent
 | Opportunity assessment fields | Changes applied during the next refresh. | Continue with previous fields until next refresh. |
 | Value proposition      | Changes applied during the next refresh. | Continue with previous value proposition until next refresh. |
 
+## Related information
+
+- [Set up and configure Sales Opportunity Agent](configure-opportunity-research-agent.md)  
+- [Start the Sales Opportunity Agent](start-sales-close-agent-research.md)

@@ -1,7 +1,7 @@
 ---
 title: View conversation and session forms, and activity types
-description: Learn to view conversation and session forms in Omnichannel for Customer Service. Also learn about conversation and session activity types.
-ms.date: 12/13/2024
+description: Learn to view conversation and session forms. Also learn about conversation and session activity types.
+ms.date: 01/30/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

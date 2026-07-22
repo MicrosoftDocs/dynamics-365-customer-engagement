@@ -1,7 +1,7 @@
 ---
 title: Use suggested contacts in Teams chats 
 description: Learn how to use suggested contacts with Teams chat functionality.
-ms.date: 07/31/2025
+ms.date: 06/30/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: lalexms
