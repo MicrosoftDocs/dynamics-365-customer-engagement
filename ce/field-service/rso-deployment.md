@@ -7,6 +7,7 @@ ms.custom: bap-template
 ms.subservice: resource-scheduling-optimization
 author: andrewclear-ms
 ms.author: anclear
+ai-usage: ai-assisted
 ---
 
 # Deploy the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service

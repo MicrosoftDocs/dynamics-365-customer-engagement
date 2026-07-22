@@ -6,6 +6,7 @@ ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
 ms.author: jobaker
+ai-usage: ai-assisted
 ---
 
 # Set up the mobile offline profile

@@ -5,6 +5,7 @@ ms.date: 04/30/2026
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
+ai-usage: ai-assisted
 ---
 # Create and manage postal codes
 

@@ -5,6 +5,7 @@ ms.date: 04/30/2026
 ms.topic: integration
 ms.author: jacoh
 author: jasonccohen
+ai-usage: ai-assisted
 ---
 
 # Integrate Dynamics 365 Field Service and Supply Chain Management

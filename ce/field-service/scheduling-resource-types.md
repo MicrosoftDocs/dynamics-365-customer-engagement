@@ -6,6 +6,7 @@ ms.custom: bap-template
 ms.topic: concept-article
 author: mkelleher-msft
 ms.author: mkelleher
+ai-usage: ai-assisted
 ---
 
 # Resource types for scheduling

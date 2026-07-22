@@ -7,6 +7,7 @@ ms.subservice: common-scheduler
 ms.topic: overview
 author: mkelleher-msft
 ms.author: mkelleher
+ai-usage: ai-assisted
 ---
 
 # Universal Resource Scheduling version history

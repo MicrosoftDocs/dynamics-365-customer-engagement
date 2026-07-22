@@ -6,6 +6,7 @@ ms.topic: how-to
 ms.custom: bap-template
 author: jshotts
 ms.author: jasonshotts
+ai-usage: ai-assisted
 ---
 
 # Update apps and solutions

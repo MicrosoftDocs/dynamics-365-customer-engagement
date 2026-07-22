@@ -5,6 +5,7 @@ ms.date: 07/13/2026
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
+ai-usage: ai-assisted
 ---
 
 # Dynamics 365 Field Service version history

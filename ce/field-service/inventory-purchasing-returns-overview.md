@@ -9,6 +9,7 @@ applies_to:
 ms.author: jacoh
 author: jasonccohen
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Overview of inventory, purchasing, and returns

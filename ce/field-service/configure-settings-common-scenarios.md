@@ -6,6 +6,7 @@ ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Configure Field Service settings for common scenarios
