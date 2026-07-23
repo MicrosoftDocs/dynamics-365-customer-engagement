@@ -1,7 +1,7 @@
 ---
 title: AI agents in Dynamics 365 Sales
 description: Learn about the out-of-the-box AI agents in Dynamics 365 Sales that help sales teams qualify leads and close deals faster.
-ms.date: 06/03/2026
+ms.date: 07/18/2026
 ms.update-cycle: 90-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
@@ -20,9 +20,13 @@ ai-usage: ai-assisted
 
 # AI agents in Dynamics 365 Sales
 
-Dynamics 365 Sales includes out-of-the-box AI agents that autonomously research leads and opportunities. These agents help sales professionals qualify leads and close deals faster by providing insights and engaging with customers.
+Dynamics 365 Sales includes out-of-the-box AI agents that autonomously research and engage with leads and opportunities. These agents help sales professionals qualify leads and close deals faster by providing insights and engaging with customers.
 
 [!INCLUDE[ai-agents-dynamics-365-sales](../../ce-shared/ai-agents-dynamics-365-sales.md)]
+
+## MCP and skills support
+
+Dynamics 365 Sales also provides supported Model Context Protocol (MCP) capabilities so sales tools and actions can surface through other agents and apps, not only through the Dynamics 365 Sales UI. Learn more in [Dynamics 365 Sales Model Context Protocol overview](model-context-protocol-sales-overview.md) and [Connect AI agents and assistants to Dynamics 365 Sales MCP Server](connect-agents-to-model-context-protocol.md). For supported skills experiences in Microsoft 365 Copilot, see [Use Dynamics 365 Sales skills in Copilot Cowork](use-copilot-cowork-sales-skills.md).
 
 ## Data movement and residency for AI agents
 
