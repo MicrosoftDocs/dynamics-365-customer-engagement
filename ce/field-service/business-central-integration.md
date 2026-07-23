@@ -5,6 +5,7 @@ ms.date: 04/30/2026
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
+ai-usage: ai-assisted
 ---
 
 # Integrate with Dynamics 365 Business Central

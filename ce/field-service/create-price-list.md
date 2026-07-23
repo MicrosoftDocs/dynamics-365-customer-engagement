@@ -6,6 +6,7 @@ ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 # Use price lists
 

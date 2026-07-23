@@ -7,6 +7,7 @@ author: vhorvathms
 ms.author: vhorvath
 ms.reviewer: puneetsingh
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Create a work order

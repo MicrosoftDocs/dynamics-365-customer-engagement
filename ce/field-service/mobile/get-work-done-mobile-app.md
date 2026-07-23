@@ -12,6 +12,7 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:10/26/2023
   - bap-template
+ai-usage: ai-assisted
 ---
 
 # Work with the mobile app (Unified Interface)
