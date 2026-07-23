@@ -407,34 +407,6 @@ items:
             items:
               - name: Configure Microsoft Teams dialer
                 href: configure-microsoft-teams-dialer.md
-          - name: Sales Hub Dialer (preview)
-            items:
-              - name: Overview
-                href: sales-hub-dialer-overview.md
-              - name: Enable and configure Sales Hub Dialer
-                href: configure-sales-hub-dialer.md
-              - name: Prerequisites
-                href: sales-hub-dialer-prerequisites.md
-              - name: Sync Teams phone numbers to Dynamics 365
-                href: sales-hub-dialer-sync-numbers.md
-              - name: Configure Omnichannel dialer
-                href: sales-hub-dialer-configure-cif.md
-              - name: Set up capacity profiles
-                href: sales-hub-dialer-capacity-profiles.md
-              - name: Configure inbound and outbound profiles
-                href: sales-hub-dialer-call-profiles.md
-              - name: Assign phone numbers to sellers
-                href: sales-hub-dialer-assign-numbers.md
-              - name: Create a bookable resource
-                href: sales-hub-dialer-bookable-resource.md
-              - name: Enable Dataverse search for dialer
-                href: sales-hub-dialer-dataverse-search.md
-              - name: Understand how call routing works
-                href: sales-hub-dialer-call-routing.md
-              - name: Configure voicemail
-                href: sales-hub-dialer-voicemail.md
-              - name: FAQs about Sales Hub Dialer
-                href: faq-sales-hub-dialer.md
       - name: Productivity and document management
         items:
           - name: Activity management
@@ -1109,14 +1081,6 @@ items:
             items:
               - name: Make and receive Teams calls in Dynamics 365
                 href: call-using-microsoft-teams.md
-          - name: Sales Hub Dialer (preview)
-            items:
-              - name: Overview
-                href: sales-hub-dialer-overview.md
-              - name: Make and receive calls in Sales Hub Dialer
-                href: make-receive-calls-sales-hub-dialer.md
-              - name: FAQs about Sales Hub Dialer
-                href: faq-sales-hub-dialer.md
       - name: Productivity and document management
         items:
           - name: Activity management

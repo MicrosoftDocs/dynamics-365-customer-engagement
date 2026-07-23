@@ -1,7 +1,7 @@
 ---
 title: Use the Sales agent in Microsoft 365 Copilot from Dynamics 365 Sales
 description: Learn how to use the Sales agent in Microsoft 365 Copilot from within the Sales Hub app for a seamless experience.
-ms.date: 06/30/2026
+ms.date: 07/14/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -18,6 +18,10 @@ ai-usage: ai-assisted
 # Use the Sales agent in Microsoft 365 Copilot from Dynamics 365 Sales
 
 Get quick answers and actionable insights from your sales data by simply asking questions in natural language. Access the Sales agent in Microsoft 365 Copilot from within the Sales Hub app to find information faster, understand customer context, and make informed decisions - without leaving the Sales Hub app. Learn more about the scenarios supported, prompts you can use, and best practices in the [Sales agent in Microsoft 365 Copilot documentation](/microsoft-sales-copilot/sales-chat-overview).
+
+Watch the following video to learn how you can use the Sales agent in Microsoft 365 Copilot to get quick answers and actionable insights from your CRM data:
+
+:::image type="content" source="media/agentic-platform-mechanics-video.png" alt-text="Thumbnail of the Agentic Platform Mechanics video" link="https://www.youtube.com/watch?v=wGBHAclqhG8&t=145s"::: 
 
 ## Access the agent from the Sales Hub app
 

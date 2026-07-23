@@ -36108,6 +36108,76 @@
       "source_path": "ce/sales/developer/recommended-actions-api.md",
       "redirect_url": "/dynamics365/sales/configure-recommended-actions",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/sales-hub-dialer-overview.md",
+      "redirect_url": "/dynamics365/sales/configure-microsoft-teams-dialer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/configure-sales-hub-dialer.md",
+      "redirect_url": "/dynamics365/sales/configure-microsoft-teams-dialer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/sales-hub-dialer-prerequisites.md",
+      "redirect_url": "/dynamics365/sales/configure-microsoft-teams-dialer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/sales-hub-dialer-sync-numbers.md",
+      "redirect_url": "/dynamics365/sales/configure-microsoft-teams-dialer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/sales-hub-dialer-configure-cif.md",
+      "redirect_url": "/dynamics365/sales/configure-microsoft-teams-dialer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/sales-hub-dialer-capacity-profiles.md",
+      "redirect_url": "/dynamics365/sales/configure-microsoft-teams-dialer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/sales-hub-dialer-call-profiles.md",
+      "redirect_url": "/dynamics365/sales/configure-microsoft-teams-dialer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/sales-hub-dialer-assign-numbers.md",
+      "redirect_url": "/dynamics365/sales/configure-microsoft-teams-dialer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/sales-hub-dialer-bookable-resource.md",
+      "redirect_url": "/dynamics365/sales/configure-microsoft-teams-dialer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/sales-hub-dialer-dataverse-search.md",
+      "redirect_url": "/dynamics365/sales/configure-microsoft-teams-dialer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/sales-hub-dialer-call-routing.md",
+      "redirect_url": "/dynamics365/sales/configure-microsoft-teams-dialer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/sales-hub-dialer-voicemail.md",
+      "redirect_url": "/dynamics365/sales/configure-microsoft-teams-dialer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/faq-sales-hub-dialer.md",
+      "redirect_url": "/dynamics365/sales/configure-microsoft-teams-dialer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/make-receive-calls-sales-hub-dialer.md",
+      "redirect_url": "/dynamics365/sales/call-using-microsoft-teams",
+      "redirect_document_id": false
     }
 
   ]

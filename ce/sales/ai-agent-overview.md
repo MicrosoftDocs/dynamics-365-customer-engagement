@@ -22,6 +22,13 @@ ai-usage: ai-assisted
 
 Dynamics 365 Sales includes out-of-the-box AI agents that autonomously research and engage with leads and opportunities. These agents help sales professionals qualify leads and close deals faster by providing insights and engaging with customers.
 
+The following video demonstrates how AI agents in Dynamics 365 can help your sales and service teams be more productive and efficient by automating research, providing insights, and engaging with customers:
+
+:::image type="content" source="media/agentic-platform-mechanics-video.png" alt-text="Thumbnail of the Agentic Platform Mechanics video" link="https://www.youtube.com/watch?v=wGBHAclqhG8"::: 
+
+
+The following AI agents are available in Dynamics 365 Sales:
+
 [!INCLUDE[ai-agents-dynamics-365-sales](../../ce-shared/ai-agents-dynamics-365-sales.md)]
 
 ## MCP and skills support
