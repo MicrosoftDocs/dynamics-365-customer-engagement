@@ -1,7 +1,7 @@
 ---
 title: Import an agent into a target environment
 description: Learn how to export and import sales agent solutions across environments in Dynamics 365 Sales. 
-ms.date: 07/17/2026
+ms.date: 07/23/2026
 ms.update-cycle: 180-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
@@ -70,14 +70,13 @@ Import the exported solution file into the target environment. During the import
 
 >[!NOTE]
 >- The agent is always imported in draft state.  
->- When you open the imported agent, select **Apply changes** to ensure that all the components of the agent are correctly applied in the target environment.  
+>- When you open the imported agent, select **Apply changes** to ensure that all the components of the agent are correctly applied in the target environment. If the **Apply changes** button is disabled, make a minor change to the agent description to enable it.
 
 ### Import the solution
 
 1. Go to the [Power Apps maker portal](https://make.powerapps.com/) in the target environment.
 1. Select the target environment where you want to import the agent solution.
 1. In the left navigation pane, select **Solutions**.
-1. Select **Import solution** and upload the solution file you exported from the source environment.  
     For more information, see [Import solutions](/power-apps/maker/data-platform/import-update-export-solutions).
 1. Follow the prompts to complete the import process. During the import, choose to overwrite any existing components in the target environment that have the same name as those in the solution. This option ensures that the agent components are updated with the ones from the source environment.
     The solution is imported to the target environment and is listed in the **AI agents** page in your environment.  
@@ -85,6 +84,7 @@ Import the exported solution file into the target environment. During the import
 ### Configure and start the agent
 
 After you import the solution, the agent is imported in draft state. Open the agent and configure environment‑specific settings before starting the agent. Configuring and starting the agent is different for [Sales Qualification Agent, Sales Opportunity Agent, Sales Close Agent](#for-sales-qualification-agent-sales-opportunity-agent-and-sales-close-agent), [Data Enrichment Agent](#for-data-enrichment-agent), and [Recommended Actions Agent](#for-recommended-actions-agent). Follow the corresponding steps based on the type of agent you imported.
+
 
 #### For Sales Qualification Agent, Sales Opportunity Agent, and Sales Close Agent
 
