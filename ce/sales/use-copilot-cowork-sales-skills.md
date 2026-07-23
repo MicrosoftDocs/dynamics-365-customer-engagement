@@ -4,7 +4,7 @@ description: Dynamics 365 Sales Skills in Copilot Cowork help teams prep for mee
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 06/17/2026
+ms.date: 07/14/2026
 ms.topic: how-to
 ms.update-cycle: 180-days
 ai.collection: bap-ai-copilot
@@ -16,6 +16,10 @@ ai-usage: ai-assisted
 Dynamics 365 Sales skills in Microsoft 365 Copilot Cowork deliver insights and recommendations based on your sales data and Microsoft 365 context such as emails, meetings, and collaboration activity. Use Cowork to handle complex tasks that pull data from multiple sources—Dynamics 365 records, knowledge bases, email, and meetings. Cowork works within Microsoft 365, analyzes your Dynamics 365 data, and keeps you in control throughout the process. All insights are based on your data and the permissions you have in Dynamics 365 Sales, ensuring that you only see information you're authorized to access.
 
 For example, you can ask "*Prepare me for the Contoso Inc's Renewal. Surface deal risks, competitive signals, and missing stakeholders. Build a PowerPoint based on the insights.*" Cowork gets the context from Dynamics 365 Sales and Microsoft 365, draws insights based on the data, and generates a PowerPoint deck with the insights and recommendations.  
+
+To learn how you can use Copilot Cowork to do multistep tasks that pull data from multiple sources, including Dynamics 365 Sales and Customer Service, watch the following video:  
+
+:::image type="content" source="media/agentic-platform-mechanics-video.png" alt-text="Thumbnail of the Agentic Platform Mechanics video" link="https://youtu.be/wGBHAclqhG8?t=272"::: 
 
 ## Key capabilities 
 
