@@ -5,6 +5,7 @@ ms.date: 04/29/2026
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
+ai-usage: ai-assisted
 ---
 
 # Schedule board tab settings

@@ -6,6 +6,7 @@ ms.subservice: field-service-mobile
 ms.date: 04/29/2026
 author: JonBaker007
 ms.author: jobaker
+ai-usage: ai-assisted
 ---
 
 # Best practices and limitations for the offline profile

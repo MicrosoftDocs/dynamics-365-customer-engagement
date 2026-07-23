@@ -6,6 +6,7 @@ ms.topic: concept-article
 author: vhorvathms
 ms.author: vhorvath
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Work order lifecycle and system statuses

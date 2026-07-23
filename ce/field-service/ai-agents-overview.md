@@ -10,6 +10,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-description
   - ai-seo-date:11/22/2024
+ai-usage: ai-assisted
 ---
 
 # AI agents in Dynamics 365 Field Service

@@ -5,6 +5,7 @@ ms.date: 04/29/2026
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
+ai-usage: ai-assisted
 ---
 
 # Set up agreements to automatically generate invoices

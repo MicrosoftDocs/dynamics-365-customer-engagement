@@ -9,6 +9,7 @@ ms.author: jobaker
 ms.reviewer: v-wendysmith
 ms.collection: bap-ai-copilot
 ms.custom: ignite-2024
+ai-usage: ai-assisted
 ---
 
 # Use Copilot in the Dynamics 365 Field Service web application

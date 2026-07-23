@@ -6,6 +6,7 @@ ms.custom: bap-template
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
+ai-usage: ai-assisted
 ---
 
 # Schedule a standard work order
