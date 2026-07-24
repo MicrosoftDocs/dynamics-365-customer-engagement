@@ -1,7 +1,7 @@
 ---
 title: "Send rich messages"
 description: "Learn how to send interactive templates to customers to easily collect and share information."
-ms.date: 10/13/2025
+ms.date: 07/24/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -17,7 +17,7 @@ After your administrator creates rich message templates, you, as a customer serv
    > [!div class=mx-imgBorder]
    > ![Select rich messages.](../media/select-rich-messages.png "Select rich messages")
   
-- Use the **/rm** keyboard command to see the list of rich messages.
+- Use the **/rm** keyboard command to review the list of rich messages.
    
 ## Search for rich messages and tags
 
@@ -40,7 +40,7 @@ When you find the rich message you want to send, you can select it to open it in
    > [!div class=mx-imgBorder]
    > ![Preview rich message.](../media/preview-rich-message.png "Preview rich message")   
 
-Within the preview tab, you can see the contents of the rich message that you selected. When you’re ready to send the rich message, select **Send to customer**.
+Within the preview tab, review the contents of the rich message that you selected. To send the rich message, select **Send to customer**.
 
 If your administrator enabled the customer service representative configuration, you can customize some types of rich messages before you send them. These customizations are single-use and aren’t saved for the next time you send the same rich message. 
 
@@ -50,10 +50,8 @@ The following rich messages support admin-enabled customization:
 |---------|---------------|
 | Live chat (preview) | Suggested replies<br> Cards/carousels<br> Forms<br> Suggested replies|
 | WhatsApp (preview) | Suggested replies |
-| Apple Messages for Business | [List picker](../administer/create-rich-messages.md#list-picker)<br> [Suggested reply](../administer/create-rich-messages.md#suggested-reply)<br> [Time picker](../administer/create-rich-messages.md#time-picker)<br> [Video rich link](../administer/create-rich-messages.md#video-rich-link)<br> [Website rich link](../administer/create-rich-messages.md#website-rich-link)  |
 
-
-### Related information
+## Related information
 
 [Retrieve and format rich messages](../develop/reference/methods/message-object.md)  
 [Manage rich messages](../administer/create-rich-messages.md)  

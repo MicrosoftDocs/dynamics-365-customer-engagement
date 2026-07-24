@@ -1,11 +1,12 @@
 ---
 title: Create rich messages
 description: Learn how to create, publish, and update rich messages in Omnichannel for Customer Service.
-ms.date: 10/13/2025
+ms.date: 07/24/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
+ms.custom: bap=template
 ---
 
 # Create rich messages
@@ -31,8 +32,10 @@ These messages are currently supported in several key channels, each with varyin
 - Suggested replies
 
 **Apple Messages for Business**:
-> [!NOTE] 
-> Support for Apple Messages for Business channel is deprecated. Learn more in [Deprecations](/dynamics365/contact-center/implement/deprecations-contact-center).
+
+> [!IMPORTANT] 
+> As of July 17, 2026, the Apple Messages for Business channel is deprecated. Learn more in [Deprecations in Dynamics 365 Customer Service](../implement/deprecations-customer-service.md#apple-messages-for-business-channel-is-deprecated).
+
 - Apple Pay
 - Authentication
 - Custom JSON
