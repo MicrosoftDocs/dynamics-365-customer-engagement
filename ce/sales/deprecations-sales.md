@@ -1,7 +1,7 @@
 ---
 title: Removed or deprecated features in Dynamics 365 Sales
 description: Visit this page to see the deprecating features in Dynamics 365 Sales.
-ms.date: 06/25/2026
+ms.date: 07/24/2026
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -19,6 +19,13 @@ The features that have been removed or deprecated in  Dynamics 365 Sales are lis
 
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.  
+
+## Sales Hub Dialer
+ 
+Effective July 2026, the Sales Hub Dialer (preview) is deprecated and removed from all environments. The Sales Hub Dialer was an embedded softphone available in preview that allowed sellers to make and receive calls directly within the Sales Hub app by using dedicated phone numbers. After removal, sellers can no longer use this feature to make or receive calls.
+ 
+As an alternative, use the [Microsoft Teams dialer](configure-microsoft-teams-dialer.md), which allows sellers to make and receive calls directly from within Dynamics 365 Sales by using Microsoft Teams. For seller instructions on making and receiving calls, see [Make and receive Teams calls in Dynamics 365](call-using-microsoft-teams.md).
+ 
 
 ## Chat-based AI setup assistant for Sales Close Agent
 
