@@ -65,9 +65,9 @@ Relate other bookable resources to the crew as crew members. If not done already
 
 1. Enter a name, the **Child Resource**, and the date range when the resource is part of the crew.
 
-1. Choose the **Crew Member Type** and specify if the resource is a member of the crew or its leader.
+1. If applicable, choose the **Crew Member Type** and specify if the resource is a member of the crew or its leader.
 
-1. Select **Save & Close**.
+1. Select **Save & Close**. Add other crew members as needed.
 
 :::image type="content" source="../../field-service/media/scheduling-crew-resource-children.png" alt-text="Screenshot of child resources of a resource crew.":::
 
