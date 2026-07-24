@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 05/04/2026
+ms.date: 07/22/2026
 ms.custom: bap-template
 ms.collection:
 searchScope:
@@ -118,7 +118,37 @@ Default queues are a finite set of system-defined queues that help you manage wo
 
 For a workstream, you can set any queue as a fallback queue, including a default queue but vice versa isn't possible. You can update the assignment method only for the default queues. However, we recommend that you always create advanced queues and define the assignment strategy instead of using the default queues. No other settings are available to edit.
 
-### Related information
+## Assign conversation owner and business unit from a queue
+
+ When a conversation is routed to a queue, the conversation owner is set to the root business unit owner by default, and the conversation remains associated with the root business unit until it's assigned to a customer service representative.
+You can enable an organization-level setting to assign ownership from the target queue during routing. When enabled, the conversation is associated with the queue owner's business unit while it waits in the queue.
+
+### Enable the setting
+
+Set the `msdyn_issetowneridfromqueueoninitenabled` field on the `msdyn_omnichannelconfiguration` record to `true`.
+
+```javascript
+await Xrm.WebApi.updateRecord(
+  "msdyn_omnichannelconfiguration",
+  "<configuration-record-id>",
+  {
+    msdyn_issetowneridfromqueueoninitenabled: true
+  }
+);
+```
+---
+
+### Runtime experience
+
+When you enable this setting, supervisors and administrators can view queued conversations under the queue's business unit in business unit-scoped dashboards and views as soon as the conversations enter the queue, instead of waiting until they're assigned to a customer service representative.
+
+Key considerations are as follows:
+
+- If a conversation already has an owner, the existing owner isn't overwritten.
+- If a queue doesn't have an owner configured, or an unexpected error occurs, routing continues by using the default behavior. 
+- This feature applies to user-owned and team-owned queues.
+
+## Related information
 
 [Create and manage workstreams](create-workstreams.md)  
 [Create and manage assignment methods](configure-assignment-rules.md#create-an-assignment-method-and-configure-rules)  
