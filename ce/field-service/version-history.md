@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 07/13/2026
+ms.date: 07/24/2026
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
@@ -19,18 +19,35 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.147.60](/dynamics365/field-service/version-history#8814760) | TBD | 07/24 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.147.60](/dynamics365/field-service/version-history#8814760) | TBD | 07/31 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom* | [8.8.147.60](/dynamics365/field-service/version-history#8814760) | TBD | 08/07 |
-| | *USG* | [8.8.147.60](/dynamics365/field-service/version-history#8814760) | TBD | 07/29 |
-|**Station 4** |*Europe* | [8.8.147.58](/dynamics365/field-service/version-history#8814758) | [8.8.147.60](/dynamics365/field-service/version-history#8814760) |  07/17 |
-|**Station 5** | *North America, Oceania*| [8.8.146.48](/dynamics365/field-service/version-history#8814648) | [8.8.147.60](/dynamics365/field-service/version-history#8814760) |  07/24 |
-|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.146.48](/dynamics365/field-service/version-history#8814648) | [8.8.147.60](/dynamics365/field-service/version-history#8814760) | 07/15 |
-| | *Dedicated Scale Groups* | [8.8.146.48](/dynamics365/field-service/version-history#8814648) | [8.8.147.60](/dynamics365/field-service/version-history#8814760) | 07/24 |
+|**Station 1** |  *First Release*| [8.8.148.41](/dynamics365/field-service/version-history#8814841) | TBD | 08/28 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.147.60](/dynamics365/field-service/version-history#8814760) | [8.8.148.41](/dynamics365/field-service/version-history#8814841) | 07/31 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom* | [8.8.147.60](/dynamics365/field-service/version-history#8814760) | [8.8.148.41](/dynamics365/field-service/version-history#8814841) | 08/07 |
+| | *USG* | [8.8.147.60](/dynamics365/field-service/version-history#8814760) | [8.8.148.41](/dynamics365/field-service/version-history#8814841) | 07/29 |
+|**Station 4** |*Europe* | [8.8.147.60](/dynamics365/field-service/version-history#8814760) | [8.8.148.41](/dynamics365/field-service/version-history#8814841) |  08/14 |
+|**Station 5** | *North America, Oceania*| [8.8.147.60](/dynamics365/field-service/version-history#8814760) | [8.8.148.41](/dynamics365/field-service/version-history#8814841) |  08/21 |
+|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.147.60](/dynamics365/field-service/version-history#8814760) | [8.8.148.41](/dynamics365/field-service/version-history#8814841) | 08/19 |
+| | *Dedicated Scale Groups* | [8.8.147.60](/dynamics365/field-service/version-history#8814760) | [8.8.148.41](/dynamics365/field-service/version-history#8814841) | 08/28 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.148.41
+(Includes Universal Resource Scheduling version [3.12.4001.4](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240014) and Resource Scheduling controls version 1.2.103.262021)
+
+- **Fixes and improvements**
+    - Work orders from multiple incidents: Fixed an issue where a work order with multiple incidents failed with an "only one primary resource requirement" error.
+    - Requirement groups and permissions: Fixed an issue where creating a work order incident with a requirement group could conflict with an existing resource requirement based on user permissions.
+    - Agreement-generated work orders: Fixed a primary resource requirement error when an agreement generated a work order combining a functional location with latitude/longitude and an incident type with a requirement group.
+    - Agreement booking dates: Fixed a regression that prevented work orders from being generated from agreement booking dates during bulk create and update operations.
+    - Crew bookings: Fixed an issue where creating a crew booking generated an incorrect number of booking change records.
+    - Purchase order receipts: Fixed a blocking "has no value" error when updating a Purchase Order Receipt Product.
+    - Inspection PDF export: Fixed a crash when exporting inspection responses to PDF and removed the developer-license watermark from exported PDFs.
+    - Inspection builder accessibility: Added an accessible label for the image "Select page" control in the inspection template builder.
+    - Field Service Mobile offline icon: Fixed a freeze on Android and iOS after selecting the Offline (globe) icon.
+    - Field Service Mobile booking status card: Added swipe-to-close support and adjusted header spacing for the booking status card.
+    - Field Service Mobile notes accessibility: On Android, focus now returns to the Notes section after deleting a note, and an error is announced when the video recording limit is exceeded.
+    - Field Service Mobile service task accessibility: Ensured input fields have accessible names, including the "See all" control in service tasks.
 
 ## 8.8.147.60
 This release is a hotfix on Field Service version [8.8.147.58](/dynamics365/field-service/version-history#8814758)
