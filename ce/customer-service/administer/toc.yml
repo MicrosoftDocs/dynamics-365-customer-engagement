@@ -412,8 +412,6 @@
         href: configure-rules-based-suggested-contacts.md
       - name: Set up Join a Teams call for agents
         href: set-up-join-a-teams-call.md
-      - name: Configure customer support swarming
-        href: configure-customer-support-swarming.md
       - name: FAQ about setting up Teams chat
         href: faq-teams-chat.md
     - name: Voice
