@@ -46,27 +46,27 @@ If your resources need to work together as a team, use [crews](../../field-servi
 
 ### Add pool members
 
-Add members to a pool. The location of the pool member is taken from the pool.
+Add members to a pool. The location of the pool member comes from the pool.
 
 1. On a resource pool record, go to **Related** > **Resource's Children**.
 
 1. Select **New Bookable Resource Group** and enter a **Name** for the resource. This related entity is called [BookableResourceGroup](../../field-service/developer/reference/entities/bookableresourcegroup.md).
 
-1. Choose a **Child Resource** and set a date range for the pool membership. Crews and other pools can't be made a child of a pool.
+1. Choose a **Child Resource** and set a date range for the pool membership. You can't make crews and other pools a child of a pool.
 
-1. Select **Save**. Add other pool members as needed.
+1. Select **Save & Close**. Add other pool members as needed.
 
    :::image type="content" source="../../field-service/media/scheduling-resource-pool-children.png" alt-text="Screenshot of pool children view.":::
 
 ## Step 2: Book to the pool
 
-Use the schedule assistant to book requirements to the pool. Pool resources show as available if the system can distribute the planned work duration across multiple child resources. For example, if you want to schedule a one-hour task and no single resource is available for the full hour, the system suggests two resources available for 30 minutes each.
+Use the schedule assistant to book requirements to the pool. The system shows pool resources as available if it can distribute the planned work duration across multiple child resources. For example, if you want to schedule a one-hour task and no single resource is available for the full hour, the system suggests two resources available for 30 minutes each.
 
-Pool resources don't show as available if the pool is fully booked for the time period, even if individual members aren't booked.
+The system doesn't show pool resources as available if the pool is fully booked for the time period, even if individual members aren't booked.
 
 1. Select **Book** on a requirement form to open the schedule assistant. The schedule assistant shows the pool and individual pool members based on the configuration of the requirement.
 
-1. Select the pool resource and a time slot and select **Book & Exit**.
+1. Select the pool resource and a time slot, and select **Book & Exit**.
 
 > [!NOTE]
 > The schedule assistant doesn't return resource pools for onsite work requirements.
@@ -74,8 +74,6 @@ Pool resources don't show as available if the pool is fully booked for the time 
 ## Step 3: Assign pool bookings
 
 Before the actual work begins, assign pool bookings to specific members on the schedule board. Bookings assigned to pool member resources during nonworking hours count against the capacity of the pool resource twice.
-
-### Manage a pool on the schedule board
 
 1. On the **Schedule Board**, open the **Filters** pane. Set the **Resource Types** filter to *Pool* and select **Apply**.
 
@@ -85,16 +83,10 @@ Before the actual work begins, assign pool bookings to specific members on the s
 
    :::image type="content" source="../../field-service/media/scheduling-resource-pool-view-members.png" alt-text="Screenshot showing the result of a right-click on a pool resource to view pool members.":::
 
-### Reassign a pool booking
-
-1. To change a booking assignment, choose one of the following options:
+1. To assign a pool booking to a pool member, choose one of the following options:
 
     - **Drag and drop**: Select and drag a booking from the resource pool to one of the pool members.
 
     - **Substitution**: Right-click a booking in the resource pool, select **Book Substitute**, and choose a pool member.
 
-    - **Rebook**: Right-click a pool booking and select **Rebook**. Edit the filter criteria to no longer search for pools, but to search for Contact, User, and Account type resources.
-
-    The duration resets to the default booking duration.
-
-1. Edit the end time to match the original duration. Then, cancel the original pool booking.
+    - **Rebook**: Right-click a pool booking and select **Rebook**. Edit the filter criteria to search for Contact, User, and Account type resources instead of pools. The new booking uses the default booking duration, so adjust its end time if necessary. Then cancel the original pool booking.

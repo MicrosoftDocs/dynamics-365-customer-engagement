@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 01/30/2026
+  ms.date: 07/24/2026
   ms.custom: bap-template
   hide_bc: true
 
@@ -180,9 +180,7 @@ additionalContent:
       - url: use/use-teams-chat.md
         text: Collaborate without switching context
       - url: use/use-teams-meetings.md
-        text: Use Teams meetings 
-      - url: use/use-customer-support-swarming.md
-        text: Use customer support swarming to resolve issues 
+        text: Use Teams meetings
     - title: Explore your apps
       links:
       - url: implement/cs-admin-center.md

@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: concept-article
-ms.date: 12/17/2025
+ms.date: 07/24/2026
 ms.custom: bap-template
 ms.collection:
 ---
@@ -18,6 +18,14 @@ Administrators and IT professionals can use this information to prepare for futu
 
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## Apple Messages for Business channel is deprecated
+
+Effective July 17, 2026, the Apple Messages for Business channel is deprecated. It will be removed from Copilot Service admin center on September 30, 2026. Alternative channel integration options are available. Contact Microsoft Support if you need help.
+
+## Customer support swarming is deprecated
+
+Effective February 8, 2026, customer support swarming (preview) in Dynamics 365 Customer Service is deprecated and is no longer supported. We recommend that you use the embedded Microsoft Teams chat feature to collaborate with experts and resolve cases directly from a record. Learn more in [Use Teams chat](../use/use-teams-chat.md).
 
 ## AI-suggested article keywords and descriptions is deprecated
 
