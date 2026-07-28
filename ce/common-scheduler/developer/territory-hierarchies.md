@@ -1,7 +1,7 @@
 ---
 title: Filter bookable resources by territory hierarchy
-description: Update queries in the schedule board and schedule assistant configuration to use territory hierarchies.
-ms.date: 07/28/2025
+description: Territory hierarchy filtering helps schedulers find resources across parent and child territories. Follow these steps to extend the schedule board and schedule assistant queries.
+ms.date: 07/27/2026
 searchScope: 
   - Field Service
   - Project Service
@@ -14,7 +14,16 @@ ms.author: chenryan
 
 # Filter bookable resources by territory hierarchy
 
-The article discusses how to extend Universal Resource Scheduling to filter bookable resources and consider the territory hierarchical relationship. As a result when searching with a territory constraint, the system finds bookable resources matching child service territories that relate to the constraint.
+Extend Universal Resource Scheduling to use territory hierarchy so schedulers can find bookable resources in parent or child territories instead of only the exact territory on the requirement. This approach improves resource coverage while keeping territory-based scheduling logic consistent.
+
+For example:
+
+Texas (parent territory)
+- Dallas (child)
+- Austin (child)
+- Houston (child)
+
+If you assign a work order to Texas, you can configure the scheduling system to also consider resources in Dallas, Austin, and Houston. You can also configure it to search up the hierarchy.
 
 ## Prerequisites
 
@@ -22,11 +31,11 @@ The article discusses how to extend Universal Resource Scheduling to filter book
 
 ## Extend the schedule board to filter by territory hierarchy
 
-To filter resources on the schedule board and consider territory hierarchy, you need to update the **Filter layout** and the **Retrieve resources query**.
+To filter resources on the schedule board and consider territory hierarchy, update the **Filter layout** and the **Retrieve resources query**.
 
 ### Update filter layout
 
-By default, the territory field lets you choose multiple territory values. To consider a hierarchy, the field must accept only one territory.
+By default, the territory field accepts multiple territory values. To consider a hierarchy, the field must accept only one territory.
 
 1. [Open the schedule board settings](../schedule-board-tab-settings.md#board-settings) and go to the **Other** section.
 
@@ -91,9 +100,9 @@ To get the territory hierarchy and to consider resources from parent or child te
 
 ## Extend the schedule assistant to filter by territory considering hierarchy
 
-The schedule assistant retrieves the service territory from the requirement. The configuration for the schedule assistant doesn't work on custom tabs or views. 
+The schedule assistant retrieves the service territory from the requirement. The configuration for the schedule assistant doesn't work on custom tabs or views.
 
-1. [Open the schedule board settings](../schedule-board-tab-settings.md#board-settings) and go to **Schedule types** > **Work orders**.
+1. [Open the schedule board settings](../schedule-board-tab-settings.md#board-settings) and go to **Schedule types** > **Work Order**.
 
 1. Select **Edit defaults** to update the schedule assistant configuration. You can reuse the previously created configuration or create new ones in the **Schedule assistant filter layout** and **Schedule assistant retrieve resources query**.  
 

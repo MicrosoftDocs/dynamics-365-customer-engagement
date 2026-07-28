@@ -1,7 +1,7 @@
 ---
 title: Include Outlook free/busy schedules in search resource availability API
-description: Learn how to include Outlook free/busy schedules when calling Universal Resource Scheduling's search resource availability API.
-ms.date: 07/28/2025
+description: Include Outlook free/busy schedules in the search resource availability API to combine Exchange and Dynamics 365 availability.
+ms.date: 07/27/2026
 ms.reviewer: puneet-singh1
 ms.subservice: common-scheduler
 ms.topic: how-to
@@ -19,7 +19,7 @@ Universal Resource Scheduling's search resource availability API considers Outlo
 Some key points:
 
 - This feature only works when directly calling the search resource availability API with **ConsiderOutlookSchedules** as _true_. It doesn't apply to availability searches from the Schedule Board or the **Book** button on any schedulable entity.
-- Reading schedules from Exchange increases the time the search resource availability API takes to retrieve results, depending on the number of resources and period of time period considered. We recommend this functionality be used judiciously from custom interfaces designed to work around the retrieval time.
+- Reading schedules from Exchange increases the time the search resource availability API takes to retrieve results, depending on the number of resources and period of time period considered. Use this functionality judiciously from custom interfaces designed to work around the retrieval time.
 - The feature is available for search resource availability APIs for both requirements ([msdyn_SearchResourceAvailability](/dynamics365/field-service/search-resource-availability-api)) and requirement groups ([msdyn_SearchResourceAvailabilityForRequirementGroup](/dynamics365/field-service/search-resource-availability-api)).
 - To protect privacy, the API reads only the start and end times of resources' schedule items and their free/busy status.
 - The Outlook "Busy" status is treated as unavailable for scheduling.
@@ -37,7 +37,7 @@ You can enable the setting across the organization or by individual resource.
 
 1. Go to **Resource Scheduling** and select the **Settings** area.
 
-1. Select **Administration** > **Scheduling Parameters** and open **Resource Scheduing**
+1. Select **Administration** > **Scheduling Parameters** and open **Resource Scheduling**.
 
 1. Set **Include Outlook Free/Busy in Search Resource Availability API** to *Yes*.
 
@@ -45,7 +45,7 @@ You can enable the setting across the organization or by individual resource.
 
 1. In the information dialog box, select **Got it. Let’s enable.** Then **Save and close**.
 
-All resources are automatically opted-in the first time you enable the feature. You can opt out resources using the resource level setting, which is visible only if the organization level setting is set to *Yes*.
+All resources are automatically opted in the first time you enable the feature. You can opt out resources by using the resource level setting, which is visible only if the organization level setting is set to *Yes*.
 
 Resources automatically receive an email notification each time they're opted in by the user opting them in, if that user has a mailbox with server-side synchronization.
 
@@ -61,6 +61,6 @@ The resource level setting is only available if the [organization level setting 
 
 ## Call the search resource availability API
 
-Call the search resource availability API with **ConsiderOutlookSchedules** as *true*. The feature is available for search resource availability APIs for both requirements ([msdyn_SearchResourceAvailability](/dynamics365/field-service/search-resource-availability-api)) and requirement groups ([msdyn_SearchResourceAvailabilityForRequirementGroup](/dynamics365/field-service/search-resource-availability-api)).
+Call the search resource availability API with **ConsiderOutlookSchedules** set to *true*. This feature is available for search resource availability APIs for both requirements ([msdyn_SearchResourceAvailability](/dynamics365/field-service/search-resource-availability-api)) and requirement groups ([msdyn_SearchResourceAvailabilityForRequirementGroup](/dynamics365/field-service/search-resource-availability-api)).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

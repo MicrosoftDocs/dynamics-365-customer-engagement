@@ -1,10 +1,7 @@
 ---
-title: Create plug-in to use geospatial data from Google Maps in Universal Resource Scheduling
+title: Google Maps geospatial plug-in sample for scheduling
 description: Reference this sample to create a custom plug-in for Universal Resource Scheduling actions to use geospatial data from Google Maps.
-ms.date: 07/28/2025
-searchScope: 
-  - Field Service
-  - Project Service
+ms.date: 07/27/2026
 ms.reviewer: puneet-singh1
 ms.subservice: common-scheduler
 ms.topic: how-to
@@ -14,9 +11,9 @@ ms.author: mkelleher
 
 # Sample: Create custom plug-in to use Google Maps API as your geospatial data provider
 
-You can use a custom plug-in to get geospatial data from your preferred data provider instead of using the default API in Field Service and Project Service.
+You can use a custom plug-in to get geospatial data from your preferred data provider instead of using the default API in Dynamics 365 Field Service and Project Operations.
 
-A sample is available at: [Custom plug-in to use Google Maps API as geospatial data provider (Dynamics 365)](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/field-service/CustomPlugin-FS-Geospatial). This sample shows how to create a custom plug-in for the **msdyn_GeocodeAddress** and **msdyn_RetrieveDistanceMatrix** actions in Universal Resource Scheduling to use Google Maps API for geospatial data instead of using the default API.
+A sample is available at: [Custom plug-in to use Google Maps API as geospatial data provider (Dynamics 365)](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/field-service/CustomPlugin-FS-Geospatial). This sample shows how to create a custom plug-in for the **msdyn_GeocodeAddress** and **msdyn_RetrieveDistanceMatrix** actions in Universal Resource Scheduling to use Google Maps API for geospatial data instead of using the default API. The sample uses Google Maps API to illustrate the approach, but the same pattern applies to other providers.
 
 ## Prerequisites
 
