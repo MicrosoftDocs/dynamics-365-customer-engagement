@@ -1,11 +1,12 @@
 ---
 title: Schedule resource pools
 description: Learn how to use resource pools for deferred assignment and capacity management in Dynamics 365 Field Service.
-ms.date: 04/14/2026
+ms.date: 07/24/2026
 ms.custom: bap-template
 ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan
+ms.reviewer: v-wendysmith
 ---
 
 # Schedule resource pools

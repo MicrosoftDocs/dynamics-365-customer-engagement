@@ -1,7 +1,7 @@
 ---
 title: Configure an Apple Messages for Business channel
 description: This article provides steps to configure an Apple Messages for Business channel and Apple pages in the admin center.
-ms.date: 05/28/2026
+ms.date: 07/24/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -13,6 +13,9 @@ ms.reviewer: laalexan
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+> [!IMPORTANT]
+> As of July 17, 2026, the Apple Messages for Business channel is deprecated. This article will be removed after September 30, 2026. For more information, see [Deprecations in Dynamics 365 Customer Service](../implement/deprecations-customer-service.md#apple-messages-for-business-channel-is-deprecated).
 
 Many customers use the Apple Messages app for everyday communication. Dynamics 365 Customer Service supports integration with Apple Messages for Business, allowing organizations to engage with customers through an asynchronous messaging channel. This channel gives customers the flexibility to respond at their convenience, unlike real-time channels such as Chat for Dynamics 365, where sessions ends when the chat window closes.
 

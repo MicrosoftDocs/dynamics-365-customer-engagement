@@ -2,7 +2,7 @@
 title: Review resource utilization on the schedule board in Universal Resource Scheduling
 description: Learn how to review utilization on the schedule board to see the amount of time a resource is scheduled to work.
 ms.subservice: common-scheduler
-ms.date: 07/07/2025
+ms.date: 07/14/2026
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher

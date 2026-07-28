@@ -1,11 +1,12 @@
 ---
-title: Schedule crews
-description: Learn how to group resources into crews and schedule them together in Dynamics 365 Field Service.
-ms.date: 04/14/2026
+title: Schedule crews in Field Service
+description: Schedule crews to dispatch teams as a single unit. Learn how to group resources and assign crews in Dynamics 365 Field Service.
+ms.date: 07/14/2026
 ms.custom: bap-template
 ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan
+ms.reviewer: v-wesmith
 ---
 
 # Schedule crews

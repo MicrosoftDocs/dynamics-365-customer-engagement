@@ -1,4 +1,4 @@
-Fulfillment preferences customize how the schedule assistant displays results for single-day requirements. By default, the schedule assistant shows results based on resource schedules and the earliest available time. Fulfillment preferences include intervals and time groups, or a combination of them.
+Use fulfillment preferences to control how schedule assistant shows booking options for single-day requirements. By default, the schedule assistant shows results based on resource schedules and the earliest available time. Fulfillment preferences include intervals and time groups, or a combination of them.
 
 ## Intervals
 
@@ -24,7 +24,7 @@ For example, a heating and cooling company wants to group air-conditioning insta
 
    - **Results per Interval**: The number of results to limit how many options the system presents for a time slot.
 
-     :::image type="content" source="../../field-service/media/fulfillment-preferences-interval.png" alt-text="Screenshot fo a fulfillment preferences record on the Intervals tab.":::
+     :::image type="content" source="../../field-service/media/fulfillment-preferences-interval.png" alt-text="Screenshot of a fulfillment preferences record on the Intervals tab.":::
 
 1. To add a time group, go to the **Details** tab and select **New Time Group Detail**.
 
@@ -34,25 +34,25 @@ For example, a heating and cooling company wants to group air-conditioning insta
 
 ### Use intervals and time groups together
 
-To add both an interval and a time group to the same fulfillment preference, keep these important considerations in mind.
+To add both an interval and a time group to the same fulfillment preference, keep these important considerations in mind:
 
 - Don't add a value for **Interval Begins**. The interval begins at the time of the earliest time group.
 
-- If the **Reset Interval per Time Group Detail** option is set to **Yes**, the intervals reset once a new time group detail overlaps with an interval.
+- If you set the **Reset Interval per Time Group Detail** option to **Yes**, the intervals reset once a new time group detail overlaps with an interval.
 
-  For example, a business offers appointments every 90 minutes, so intervals are set to 90 minutes. Additionally, they separate into morning and afternoon time groups of 8:00 AM to 12:00 PM and 1:00PM to 5:00 PM, with a one-hour lunch in between.
+  For example, a business offers appointments every 90 minutes, so intervals are set to 90 minutes. Additionally, they separate into morning and afternoon time groups of 8:00 AM to 12:00 PM and 1:00 PM to 5:00 PM, with a one-hour lunch in between.
 
-  - If the **Reset Interval per Time Group Detail** is set to **No**, the appointments would be:
+  - If you set the **Reset Interval per Time Group Detail** option to **No**, the appointments are:
 
     8:00 AM, 9:30 AM, 11:00 AM (not 12:30 PM because it's blocked for lunch), 2:00 PM, and 3:30 PM.
 
-  - If the **Reset Interval per Time Group Detail** is set to **Yes**, the appointments would be:
+  - If you set the **Reset Interval per Time Group Detail** option to **Yes**, the appointments are:
 
     8:00 AM, 9:30 AM, 11:00 AM (not 12:30 PM because it's blocked for lunch), **1:00 PM** (resetting for the next time group detail), 2:30 PM, and 4:00 PM.
 
 ## Associate fulfillment preference to a requirement or requirement group
 
-Open a requirement and go to the **Scheduling** tab to choose the **Fulfillment Preference**. For a requirement group, you can choose it in the **Fulfillment Preference** column. However, requirement groups only support intervals. Time groups aren't supported for requirement groups.
+Open a requirement and go to the **Scheduling** tab to choose the **Fulfillment Preference**. For a requirement group, choose it in the **Fulfillment Preference** column. However, requirement groups only support intervals. Time groups aren't supported for requirement groups.
 
 ### Book a requirement
 

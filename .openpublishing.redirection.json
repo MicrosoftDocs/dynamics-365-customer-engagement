@@ -36178,6 +36178,21 @@
       "source_path": "ce/sales/make-receive-calls-sales-hub-dialer.md",
       "redirect_url": "/dynamics365/sales/call-using-microsoft-teams",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/configure-customer-support-swarming.md",
+      "redirect_url": "/dynamics365/customer-service/implement/deprecations-customer-service#customer-support-swarming-is-deprecateed",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/use/use-customer-support-swarming.md",
+      "redirect_url": "/dynamics365/customer-service/implement/deprecations-customer-service#customer-support-swarming-is-deprecateed",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/administer/customer-support-swarming-configuration-faq.md",
+      "redirect_url": "/dynamics365/customer-service/implement/deprecations-customer-service#customer-support-swarming-is-deprecateed",
+      "redirect_document_id": "false"
     }
 
   ]

@@ -697,6 +697,15 @@ items:
   - name: New Field Service mobile experience troubleshooting
     href: /troubleshoot/dynamics-365/field-service/welcome-field-service
 
+- name: Security, privacy, and accessibility
+  items:
+    - name: Privacy and personal data
+      href: /dynamics365/get-started/privacy/
+    - name: Data residency
+      href: /dynamics365/get-started/availability/
+    - name: Accessibility
+      href: /dynamics365/get-started/accessibility/
+
 - name: Responsible AI
   items:
     - name: Overview
