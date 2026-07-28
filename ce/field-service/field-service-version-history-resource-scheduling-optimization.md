@@ -1,7 +1,7 @@
 ---
 title: Resource Scheduling Optimization version history
 description: Version updates and updated features in the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
-ms.date: 01/28/2026
+ms.date: 07/28/2026
 ms.update-cycle: 1095-days
 ms.subservice: resource-scheduling-optimization
 ms.topic: overview
@@ -18,36 +18,44 @@ When a new version of the Resource Scheduling Optimization Add-in for Dynamics 3
 For information about other updates to Field Service, visit the [Dynamics 365 release plans](/dynamics365/release-plans/).
 For information about older versions, see [Version history archive](version-history-archive.md#resource-scheduling-optimization-add-in).
 
-|Station | Region | Current version | Next version |  Scheduled date
+|Station | Region | Current version | Next version |  Scheduled date |
 |------| -------|-------|-----|------|
 |**Station 1** | | |  | |
-| | *First Release* | [3.5.0.42](#35042) | [3.5.0.135](#350135) | 01/28/2026
+| | *First Release* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/03/2026
 |**Station 2** | | |  | |
-| | *South America* | [3.5.0.42](#35042) | [3.5.0.135](#350135) | 02/05/2026
-| | *Canada* | [3.5.0.42](#35042)  | [3.5.0.135](#350135) | 02/05/2026
-| | *India* | [3.5.0.42](#35042) | [3.5.0.135](#350135) | 02/05/2026
-| | *France* | [3.5.0.42](#35042) | [3.5.0.135](#350135) | 02/05/2026
-| | *South Africa* | [3.5.0.42](#35042) | [3.5.0.135](#350135) | 02/05/2026
-| | *Germany* | [3.5.0.42](#35042) | [3.5.0.135](#350135) | 02/05/2026
-| | *Switzerland* | [3.5.0.42](#35042) | [3.5.0.135](#350135) | 02/05/2026
-| | *Norway* | [3.5.0.42](#35042) | [3.5.0.135](#350135) | 02/05/2026
-| | *Korea* | [3.5.0.42](#35042) | [3.5.0.135](#350135) | 02/05/2026
+| | *South America* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/10/2026
+| | *Canada* | [3.5.0.135](#350135)  | [3.5.3483.1](#3534831) | 08/10/2026
+| | *India* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/10/2026
+| | *France* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/10/2026
+| | *South Africa* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/10/2026
+| | *Germany* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/10/2026
+| | *Switzerland* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/10/2026
+| | *Norway* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/10/2026
+| | *Korea* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/10/2026
 |**Station 3** | |  |  | |
-| | *United Arab Emirates* | [3.5.0.42](#35042) | [3.5.0.135](#350135) | 02/12/2026
-| | *Japan* | [3.5.0.42](#35042) | [3.5.0.135](#350135) | 02/12/2026
-| | *Asia Pacific* | [3.5.0.42](#35042) | [3.5.0.135](#350135) | 02/12/2026
-| | *United Kingdom* | [3.5.0.42](#35042) | [3.5.0.135](#350135) | 02/12/2026
-| | *Oceania* | [35.0.42](#35042) | [3.5.0.135](#350135) | 02/12/2026
+| | *United Arab Emirates* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/17/2026
+| | *Japan* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/17/2026
+| | *Asia Pacific* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/17/2026
+| | *United Kingdom* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/17/2026
+| | *Oceania* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/17/2026
 |**Station 4** | |  |  | |
-| | *Europe* | [3.5.0.42](#35042) | [3.5.0.135](#350135) | 02/19/2026
+| | *Europe* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/24/2026
 |**Station 5** | |  |  | |
-| | *North America* | [3.5.0.42](#35042) | [3.5.0.135](#350135) | 02/26/2026
+| | *North America* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/31/2026
 |**Station 6** | |  |  | |
-| | *Dedicated Scale Groups* | [3.5.0.42](#35042) | [3.5.0.135](#350135) | 03/05/2025
+| | *Dedicated Scale Groups* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 09/08/2026
 
 >[!NOTE]
 >
 > - Dates in all regions indicate the timing of the next automatic update. While most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.5.3483.1
+
+This release contains the following improvements:
+
+- User interface improvements for optimization request settings.
+- Accessibility improvements.
+- Security and authentication enhancements.
 
 ## 3.5.0.135
 
