@@ -1,7 +1,7 @@
 ---
 title: Overview of Dynamics 365 Customer Service MCP tools
 description: Learn what MCP tools are available in Dynamics 365 Customer Service, what they do, and which personas use them.
-ms.date: 06/30/2026
+ms.date: 07/28/2026
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -103,7 +103,7 @@ Common tasks include:
 
 Access to Dynamics 365 Customer Service MCP tools is governed by Dataverse security privileges. A user must hold all of the privileges that a tool requires before that tool becomes discoverable to the AI-powered experience. Tools that aren't mapped to specific privileges are discoverable by default. Privileges are also enforced when a tool runs, so a tool can be discoverable yet still be denied at execution time if the underlying record or action isn't permitted.
 
-Because each tool maps to one or more privileges, administrators can use security roles to control which capabilities are available to service representatives, supervisors, administrators, and developers.
+Because each tool maps to one or more privileges, administrators can use security roles to control which capabilities are available to service representatives, supervisors, administrators, and developers. Learn more in [Privilege reference for Customer Service Copilot tools](customer-service-tool-privilege-reference.md)
 
 Dynamics Customer Service MCP server is extensible by design.
 
