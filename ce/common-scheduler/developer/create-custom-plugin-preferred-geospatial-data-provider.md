@@ -1,7 +1,7 @@
 ---
-title: "Create plug-in to use preferred geospatial data provider in Universal Resource Scheduling"
-description: "Learn how to create a custom plug-in for Universal Resource Scheduling in order to use the geospatial data provider of your choice."
-ms.date: 07/28/2025
+title: Create a plug-in to use your preferred geospatial data provider
+description: Learn how to create a custom plug-in for Universal Resource Scheduling to use the geospatial data provider of your choice.
+ms.date: 07/27/2026
 searchScope: 
   - Field Service
   - Project Service
@@ -14,7 +14,7 @@ ms.author: mkelleher
 
 # Create custom plug-in to use your preferred geospatial data provider
 
-This article explains the two geospatial actions in Universal Resource Scheduling, shows you how to create a custom plug-in for these actions, and gives examples from a sample custom plug-in that uses Google Maps API for geospatial data.
+You can use a custom plug-in to get geospatial data from your preferred data provider instead of using the default API in Dynamics 365 Field Service and Project Operations. This article covers the URS geospatial actions, required input and output parameters, and implementation patterns for geocoding and distance matrix requests. The examples use Google Maps API to illustrate the approach, but the same pattern applies to other providers.
 
 ## Input and output parameters for geospatial actions
 
@@ -31,13 +31,15 @@ You can view the input and output parameters for the two geospatial actions in t
 
 ### View an action definition
 
-1. Go to [Power Apps](https://make.powerapps.com/) and select your solution.
+1. Sign in to [Power Apps](https://make.powerapps.com/) and select your environment.
+
+1. Open your solution and select **Objects**.
 
 1. Open **Processes** and search for the action name, such as **Resource Scheduling - Geocode Address** or **Resource Scheduling - Retrieve Distance Matrix**.
 
 1. Open the action name. For example, the screenshot shows the definition of the **Resource Scheduling - Geocode Address** (**msdyn_GeocodeAddress**) action where the highlighted area provides information about the input and output parameters:
 
-   :::image type="content" source="../media/FS-ActionDefinition.png" alt-text="Power Apps screenshot showing the Resource Scheduling - Geocode Address process.":::
+   :::image type="content" source="../media/FS-ActionDefinition.png" alt-text="Screenshot of the Resource Scheduling - Geocode Address process definition in Power Apps.":::
 
 ## Write your custom plug-in
 
