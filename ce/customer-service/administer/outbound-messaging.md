@@ -1,7 +1,7 @@
 ---
 title: Configure outbound messaging in Dynamics 365 Contact Center
 description: Learn about how to configure outbound messaging in Dynamics 365 Contact Center.
-ms.date: 06/27/2025
+ms.date: 07/28/2026
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
