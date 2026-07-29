@@ -221,6 +221,8 @@ items:
                 href: edit-opportunity-research-agent-settings.md
               - name: View agent insights and metrics
                 href: view-sales-close-agent-research-insights-metrics.md
+              - name: Sales Opportunity Agent FAQs
+                href: faq-sales-opportunity-agent.md
           - name: Sales Close Agent (preview)
             items:
               - name: Overview

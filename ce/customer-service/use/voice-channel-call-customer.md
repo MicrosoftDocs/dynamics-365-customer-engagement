@@ -1,7 +1,7 @@
 ---
 title: Call a customer in the voice channel
 description: Use this article to understand how you can make customer calls.
-ms.date: 10/31/2025
+ms.date: 07/28/2026
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm

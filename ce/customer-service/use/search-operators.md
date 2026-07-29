@@ -1,7 +1,7 @@
 ---
 title: Learn how search works for knowledge management
 description: Use knowledge article search mechanisms.
-ms.date: 06/26/2025
+ms.date: 07/29/2026
 ms.topic: concept-article
 author: Soumyasd27
 ms.author: sdas

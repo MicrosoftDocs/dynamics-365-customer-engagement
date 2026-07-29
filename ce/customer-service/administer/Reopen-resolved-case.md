@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to 
 ms.collection: 
-ms.date: 06/17/2025
+ms.date: 07/29/2026
 ms.custom: bap-template 
 ---
 
@@ -14,7 +14,6 @@ ms.custom: bap-template
 # Reopen a resolved case
 
 By default, Dynamics 365 Customer Service supports creating records from an incoming email. Learn more about creating and configuring records in [Automatically create or update records](automatically-create-update-records.md).
-
 
 This article explains how you can customize the Power Automate flow to monitor incoming emails for a resolved case and then reopen a resolved case. You can do this by adding a conditional rule item to an existing automatic record creation rule.
 

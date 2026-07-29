@@ -4,7 +4,7 @@ description: Learn how to configure case sentiment analysis in Dynamics 365 Cust
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 03/26/2026
+ms.date: 07/28/2026
 ms.topic: concept-article
 ---
 

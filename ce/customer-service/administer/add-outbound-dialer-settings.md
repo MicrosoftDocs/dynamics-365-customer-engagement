@@ -1,12 +1,12 @@
 ---
 title: Configure outbound dialer settings
-description: Enable administrators to configure outbound dialer settings.
+description: Enable administrators to configure outbound dialer settings in Dynamics 365 Contact Center.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
 ms.collection: 
-ms.date: 10/31/2025
+ms.date: 07/28/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap

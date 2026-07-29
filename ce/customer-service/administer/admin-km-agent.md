@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 04/23/2026
+ms.date: 07/29/2026
 ms.custom: bap-template
 ---
 
@@ -59,14 +59,23 @@ Create multiple rules to specify the conditions that Customer Knowledge Manageme
 
 ### Manage case attributes used to create knowledge articles
 
-Customer Knowledge Management Agent uses **Case Title**, **Case Description**, **Product**, **Subject**, **Email Content**, **Conversation Summary**, and **Case Notes** to create an article. You can modify all the fields except **Email Content** and **Conversation Summary**. You can't change the attributes used for conversations.
- 
-1. In the **Case** section, select **Manage attributes**. The **Manage data** page appears. 
-You can map which record types and data fields are used for each element. You can choose to include and exclude data.
-1. Select **Save and Close**.
-1. Select **Save** on the **Customer Knowledge Management Agent** settings page.
+The system uses the attributes you select to generate knowledge articles. This configuration applies to bulk and real-time harvesting modes. It supports both:
 
-Case attribute selections are applicable to both historical and real-time creation from cases. 
+- 1-to-1 attributes: Map a single related record to the generated article. Supports up to 10 attributes.
+- 1-to-many attributes: Map multiple related records to the generated article. Supports up to 6 attributes.
+
+The following attributes are configured by default. You can remap, disable, or delete the attributes, except for the **Title** and **Description** attributes.
+
+| Data type | Record type | Field | Description |
+| --- | --- | --- | --- |
+| 1-to-1 | Case | Title | Title text |
+| 1-to-1 | Case | Description | Description text |
+| 1-to-1 | Product | Name | Product |
+| 1-to-1 | Subject | Title | Subject |
+| 1-to-many | Incident Resolution | Description | Incident Resolution |
+| 1-to-many | Email Content | Description | Email Content |
+| 1-to-many | Conversation Summary | Description | Conversation Summary |
+| 1-to-many | Note (Regarding) | Description | Case Notes |
 
 ### Enable track changes and add mapped entities to the Entity Analytics Config table
 
