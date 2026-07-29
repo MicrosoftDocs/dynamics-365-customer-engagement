@@ -4,7 +4,7 @@ description: Learn how to review and approve suggestions made by the Data Enrich
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 07/20/2026
+ms.date: 07/28/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -16,7 +16,7 @@ ms.collection: bap-ai-copilot
 As a seller, you can review the suggestions made by Data Enrichment for opportunity records that you own and choose to accept or reject them. If your admin has configured Data Enrichment to automatically update fields, you can still review the changes and revert them if necessary.
 
 > [!NOTE]
->- Data Enrichment suggestions are available only for opportunity records that individual users own. Team-owned opportunity records aren't supported.
+>- Data Enrichment suggestions are available for both individual-owned and team-owned opportunity records.
 >- Suggestions and logs are retained for 180 days. After 180 days, suggestions are automatically deleted and are no longer visible in the Data Enrichment pane. 
 
 ## Prerequisites
