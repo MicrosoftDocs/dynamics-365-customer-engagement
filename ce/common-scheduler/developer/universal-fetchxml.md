@@ -1,9 +1,9 @@
 ---
-title: Universal FetchXML to extend Universal Resource Scheduling
+title: Universal FetchXML references for Universal Resource Scheduling
 description: Use Universal FetchXML to create custom queries in order to extend the schedule board and schedule assistant filters in Universal Resource Scheduling.
 author: mkelleher-msft
 ms.author: mkelleher
-ms.date: 07/28/2025
+ms.date: 07/27/2026
 ms.reviewer: puneet-singh1
 ms.subservice: common-scheduler
 ms.topic: reference
@@ -11,15 +11,15 @@ ms.topic: reference
 
 # Universal FetchXML to extend Universal Resource Scheduling
 
-Universal FetchXML (UFX) is an advanced query language that allows you to query data using dynamic FetchXML, shape, and prepare the resulting data for consumption by the **Universal Resource Scheduling (URS)** solution. This query language enables you to create custom queries to customize and extend the schedule board and schedule assistant filters to meet the unique business needs of the organization.
+Universal FetchXML (UFX) is an advanced query language that you can use to query data by using dynamic FetchXML. It shapes and prepares the resulting data for consumption by the **Universal Resource Scheduling (URS)** solution. This query language enables you to create custom queries to customize and extend the schedule board and schedule assistant filters to meet the unique business needs of the organization.
 
-UFX consists of two components UFX bag and UFX query.
+UFX consists of two components: UFX bag and UFX query.
 
 ## Simple UFX bag
 
-A UFX bag contains static-typed data. In memory, it models a dictionary with keys and values. It can be serialized to JSON and XML. Having the data typed allows a **UFX Query** to query data from it, and client UI to bind to it.
+A UFX bag contains statically typed data. In memory, it models a dictionary with keys and values. You can serialize it to JSON and XML. When the data is typed, a **UFX Query** can query data from it, and client UI can bind to it.
 
-For practical and performance reasons the in-memory bag is implemented on top of the Dynamics 365 apps SDK `Entity` object.
+For practical and performance reasons, the in-memory bag is implemented on top of the Dynamics 365 apps SDK `Entity` object.
 
 Sample bag containing two values.
 
@@ -49,7 +49,7 @@ In XML:
 
 ## UFX supported types
 
-A UFX bag can contain values of many types. They're categorized in three type classes:
+A UFX bag can contain values of many types. They're categorized into three type classes:
 
 |Category | Value|
 |---  | ---|
@@ -105,7 +105,7 @@ The same bag in XML:
 
 ## UFX queries
 
-UFX queries are written as XML-based **UFX Bags**. Properties in the bag can contain **UFX directives** to query data dynamically. A UFX query executes on in-memory objects, not XML. Only the directives are written in XML. Its output can be serialized to JSON or XML.
+Write UFX queries as XML-based **UFX Bags**. Properties in the bag can contain **UFX directives** to query data dynamically. A UFX query executes on in-memory objects, not XML. Only the directives are written in XML. You can serialize its output to JSON or XML.
 
 The following UFX query defines the `accounts` property in the bag with the `source` UFX directive. As a result, Dynamics 365 executes the inline FetchXML, populating the `accounts` property with a list of bags. An `EntityCollection` where each bag represents an individual account record from Dynamics 365.
 
@@ -121,7 +121,7 @@ The following UFX query defines the `accounts` property in the bag with the `sou
 
 A UFX Query is processed sequentially and can contain many FetchXML queries.
 
-Here's a snippet of the result of the previous UFX Query serialized to XML. Observe some values have metadata further describing them.
+Here's a snippet of the result of the previous UFX Query serialized to XML. Some values have metadata that further describes them.
 
 ```xml
 <bag>
@@ -176,7 +176,7 @@ The resulting bag in XML:
 
 Certainly the most powerful aspect of a UFX Query is its ability to dynamically generate FetchXML based on input data.
 
-In the following sample, we search for accounts by a value supplied by the user and available as a UFX bag through the XPath `$input` variable. Notice the UFX **if** and **value** directives on the `condition` element.
+In the following sample, search for accounts by a value supplied by the user and available as a UFX bag through the XPath `$input` variable. Notice the UFX **if** and **value** directives on the `condition` element.
 
 ```xml
 <bag xmlns:ufx="https://schemas.microsoft.com/dynamics/2017/universalfetchxml">
@@ -194,7 +194,7 @@ In the following sample, we search for accounts by a value supplied by the user 
 </bag>
 ```
 
-If the `NameFilter` property in the input bag contained `%city%` the produced FetchXML condition executed by Dynamics 365 would look like this.
+If the `NameFilter` property in the input bag contained `%city%`, the produced FetchXML condition executed by Dynamics 365 would look like this.
 
 ```xml
 <condition attribute="name" operator="like" value="%city%" />
@@ -204,7 +204,7 @@ If the `NameFilter` property in the input bag contained `%city%` the produced Fe
 
 A UFX bag contains keys and values, where some values have more metadata to describe them.
 
-An example might be a value of type `lookup (EntityReference)`. When queried from Dynamics 365 through FetchXML, it returns the logical name of the entity and the formatted display name of the record. The UFX bag preserves these additional information as metadata attached to the primary value.
+An example might be a value of type `lookup (EntityReference)`. When queried from Dynamics 365 through FetchXML, it returns the logical name of the entity and the formatted display name of the record. The UFX bag preserves this extra information as metadata attached to the primary value.
 
 Serialized to JSON, a `lookup` with metadata looks like this:
 
@@ -225,13 +225,13 @@ In XML:
 
 ## XPath over Dynamics 365 data
 
-Having the data in a UFX Bag typed, allows a UFX Query to see it in a structured format and use XPath to traverse over the data and select values from it.
+When you type data in a UFX bag, a UFX query can see it in a structured format and use XPath to traverse the data and select values.
 
 An XPath expression specified in a UFX directive sees the data in the bag similar to the structure of the bag in XML-serialized form. However, the data is stored in in-memory .NET objects (in instances of `Entity` and `EntityCollection` types) and not in XML documents.
 
 ## UFX type reference
 
-All UFX Types support the `ufx-type` and `ufx-formatvalue` metadata. Additional metadata is described next to each type.
+All UFX types support the `ufx-type` and `ufx-formatvalue` metadata. The following table describes additional metadata for each type.
 
 |UFX Name | Attribute Type Code | .NET Name | UFX Metadata|
 |--- | --- | --- | ---|
@@ -252,21 +252,21 @@ All UFX Types support the `ufx-type` and `ufx-formatvalue` metadata. Additional 
 
 ## UFX query directives
 
-UFX directives can be used on bag properties and on XML elements of a FetchXML query.
+Use UFX directives on bag properties and on XML elements of a FetchXML query.
 
 ### UFX bag directives
 
-|Attribute | Value | Description|
+| Attribute | Value | Description |
 |--- | --- | ---|
 |`ufx:if` | XPath | Tests the XPath expression and only processes the property if the test returns true|
 |`ufx:source` | `fetch` | Executes the inline `<fetch>` XML element and assigns the result to the property|
-|`ufx:select` | XPath | Executes the XPath expression and assigns the result to the property<br />When querying for a `bag` or `list` an optional child `bag` in XML form can be specified to transform the result of the XPath expression|
+|`ufx:select` | XPath | Executes the XPath expression and assigns the result to the property<br />When querying for a `bag` or `list`, you can specify an optional child `bag` in XML form to transform the result of the XPath expression|
 
 ### UFX FetchXML directives
 
-|Element | Attribute | Value | Description|
+| Element | Attribute | Value | Description |
 |--- | --- | --- | ---|
-|All elements | `ufx:if` | XPath | Tests the XPath expression and only emits the XML element if the tests succeed|
+|All elements | `ufx:if` | XPath | Tests the XPath expression and only emits the XML element if the test succeeds|
 |`ufx:apply` | `select` | XPath | Loops over the nodeset returned by the XPath expression and outputs the child XML elements once for each node|
 |`ufx:value` | `select` | XPath | Executes the XPath expression and outputs the result in the current XML element|
 |`ufx:value` | `attribute` | attribute name | Assigns the XPath expression result to the specified attribute name on the current XML element|
@@ -277,36 +277,36 @@ UFX adds many new functions in addition to the ones available natively in XPath.
 
 ### datetime()
 
-- datetime(): Returns the current time in UTC
+- `datetime()`: Returns the current time in UTC.
 
 ### list()
 
-- list(bag | list, ...[bag | list]): Takes a number of `bag` or `list` values as input and flattens them into a single `list`
+- `list(bag | list, ...[bag | list])`: Takes a number of `bag` or `list` values as input and flattens them into a single `list`.
 
 ### lookup-to-list()
 
-- lookup-to-list(lookup, ...[lookup]): Takes a number of `lookup` values, converts each of them to a `bag` with the `ufx-id` and `ufx-logicalname` metadata set, and flattens them into a single `list`
+- `lookup-to-list(lookup, ...[lookup])`: Takes several `lookup` values, converts each value to a `bag` with the `ufx-id` and `ufx-logicalname` metadata set, and flattens them into a single `list`.
 
 ### option-to-list()
 
-- option-to-list(option, ...[option]): Takes a number of `option` values, converts each of them to a `bag` with a single `option` property, and flattens them into a single `list`
+- `option-to-list(option, ...[option])`: Takes several `option` values, converts each value to a `bag` with a single `option` property, and flattens them into a single `list`.
 
 ### order()
 
-- order(list, string, bool): Orders a list by a property in each bag. The property is specified in argument 2, descending is specified in argument 3.
-- order(list, list): Order a list by multiple sort orders specified as a list in argument 2. Each `bag` in the second list can have a `name` and `descending` property
+- `order(list, string, bool)`: Orders a list by a property in each `bag`. Specify the property in the second argument, and specify descending order in the third argument.
+- `order(list, list)`: Orders a list by multiple sort orders specified as a list in the second argument. Each `bag` in the second list can have a `name` and `descending` property.
 
 ### iif()
 
-- iif(any, any, any): If argument 1 is true, returns argument 2, otherwise returns argument 3
+- `iif(any, any, any)`: If the first argument is true, returns the second argument. Otherwise, returns the third argument.
 
 ## UFX XPath variables
 
 | Name | Description |
 | --- | --- |
 |$input | A `bag` available to the UFX query with input values|
-|$null | A null constant. Selecting `$null` on a property removes the property from the bag|
-|$current | Reference to the current bag the UFX query is processing |
+|$null | A null constant. Selecting `$null` on a property removes the property from the `bag`|
+|$current | Reference to the current `bag` the UFX query is processing |
 
 ## Additional resources
 
