@@ -1,7 +1,7 @@
 ---
 title: Filter knowledge articles
 description: Learn how you can filter knowledge articles.
-ms.date: 07/30/2025
+ms.date: 07/30/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
