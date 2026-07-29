@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting and FAQs
 description: This article provides links to troubleshooting resources and frequently asked question articles for Dynamics 365 Sales.
-ms.date: 06/06/2025
+ms.date: 07/29/2026
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -27,6 +27,7 @@ These articles explain how to determine, diagnose, and fix problems that you mig
 The Sales documentation integrates collections of frequently asked questions (FAQs) about Copilot and AI Agents. Each of these articles includes multiple FAQs related to a specific Copilot or AI Agent feature topic:
 
 - [Sales Qualification Agent FAQs](sales-qualification-agent-faq.md)
+- [Sales Opportunity Agent FAQs](faq-sales-opportunity-agent.md)
 - [Data Enrichment Agent FAQs](data-enrichment-agent-faqs.md)
 - [Sales agent in Microsoft 365 Copilot FAQs](faqs-sales-agent.md)
 - [Copilot in Dynamics 365 Sales FAQ](sales-copilot-faq.md)

@@ -1,12 +1,12 @@
 ---
 title: Download Copilot transcripts and interaction data
-description: Download Copilot transcripts to review customer service representative interactions and responses. 
+description: Download Copilot transcripts to review customer service representative interactions and responses in Dynamics 365 Customer Service and Dynamics 365 Contact Center. 
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 01/30/2026
+ms.date: 07/28/2026
 ms.update-cycle: 180-days
 ms.custom:
   - bap-template

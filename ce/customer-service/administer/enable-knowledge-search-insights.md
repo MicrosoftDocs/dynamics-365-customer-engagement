@@ -2,7 +2,7 @@
 title: Manage knowledge analytics
 description: Learn how to configure Knowledge analytics dashboards.
 ms.topic: how-to
-ms.date: 06/20/2025
+ms.date: 07/29/2026
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
