@@ -656,6 +656,8 @@ items:
               href: project-operations-integration-work-order.md
             - name: Schedule work orders
               href: project-operations-integration-work-order-schedule.md
+            - name: View scheduling warnings in the mobile app
+              href: project-operations-integration-view-warnings.md
             - name: Scan a serial or batch number in the mobile app
               href: project-operations-integration-scan-mobile.md
       - name: Known issues and limitations
