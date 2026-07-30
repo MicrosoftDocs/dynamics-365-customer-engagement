@@ -1,12 +1,12 @@
 ---
 title: Best practices for setting up the voice channel
-description: Learn about the best practices for setting up the voice channel.
+description: Explore voice channel setup best practices for hardware, networks, headsets, firewalls, and telemetry to improve contact center call reliability.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: best-practice
 ms.collection:
-ms.date: 06/30/2025
+ms.date: 07/30/2026
 ms.custom: bap-template
 ---
 

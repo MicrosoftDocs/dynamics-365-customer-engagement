@@ -4,7 +4,7 @@ description: Learn how to search, link, and unlink records. Also, learn how to l
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 06/11/2025
+ms.date: 07/30/2026
 ms.topic: how-to
 ms.custom: bap-template
 
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-This article explains how to search for records, link a record to a conversation, and unlink the record from the conversation.
+Learn how to search, link, and unlink records in Dynamics 365 Contact Center so that you can connect the correct customer and case details to a conversation.
 
 You can search for records in two ways:
 
@@ -42,12 +42,11 @@ Active views only are displayed for the search results. You can customize the Qu
 
 ## Link a record to the conversation when doing an inline search
 
-> [!div class=mx-imgBorder]
-> ![Customer and Case sections are blank when there are no records.](../media/customer-summary-create-record.PNG "Customer and Case sections are blank when there are no records")
+:::image type="content" source="../media/customer-summary-create-record.PNG" alt-text="Screenshot of blank customer and Case sections when no records are linked to the conversation.":::
 
 During an inline search, the search results are displayed and you can select a record to link the conversation to the selected record. After you link the record, the **Active Conversation** page is updated with the details.
 
-   :::image type="content" source="../media/agent-inline-search-link.png" alt-text="The active conversation page is updated with details from the linked record" :::
+   :::image type="content" source="../media/agent-inline-search-link.png" alt-text="Screenshot of the Active Conversation page updated with details from the linked record.":::
 
 You can link one contact or account only in the customer (**Contact** or **Account**) section and one case in the **Case** section.
 
@@ -78,8 +77,7 @@ You can link one record only to a conversation.
 
 2. Select **More options** in the communication panel, and then select **Link to conversation**.
 
-> [!div class=mx-imgBorder]
-> ![Select a record to link.](../media/oceh-oc-select-record-link.png "Select a record to link")
+:::image type="content" source="../media/oceh-oc-select-record-link.png" alt-text="Screenshot of a search result selected to link the record to the conversation.":::
 
 Now, the **Active Conversation** page is refreshed and updated with details from the record. Similarly, you can link other record types.
 
@@ -89,13 +87,12 @@ You can link and unlink one contact or account only in the customer (**Contact**
 
 You can unlink a record only when you're interacting with a customer by using the communication panel. That is, after you accept an incoming conversation request and view the **Active Conversation** page, you can unlink the record from the conversation.
 
- :::image type="content" source="../media/oceh-oc-unlink-customer.png" alt-text="default Case details section of the active conversation page"::: 
+ :::image type="content" source="../media/oceh-oc-unlink-customer.png" alt-text="Screenshot of the default Case details section on the Active Conversation page."::: 
 
 
 To unlink a record, select **Close** next to the customer name in the customer (**Contact** or **Account**) section. After the record is removed, the customer (**Contact** or **Account**) section is blank.
 
-> [!div class=mx-imgBorder]
-> ![Blank customer section after unlinking the record.](../media/oceh-oc-unlinked-form.PNG "Blank customer section after unlinking the record")
+:::image type="content" source="../media/oceh-oc-unlinked-form.PNG" alt-text="Screenshot of the blank customer section after the record is unlinked from the conversation.":::
 
 ### Related information
 

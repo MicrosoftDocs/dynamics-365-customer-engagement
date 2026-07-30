@@ -1,7 +1,7 @@
 ---
 title: Best practices for configuring AI agents
-description: This article lists the best practices that you can follow when you configure Azure and Copilot agents in your contact center.
-ms.date: 06/30/2025
+description: Explore best practices for configuring AI agents in Dynamics 365 Contact Center.
+ms.date: 07/30/2026
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -16,7 +16,7 @@ ms.collection:
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-## Best practices
+## Best practices for AI agent configuration
 
 When you configure Azure and Copilot agents in Dynamics 365 Contact Center, use the following best practices:
 

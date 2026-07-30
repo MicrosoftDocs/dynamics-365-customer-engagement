@@ -4,7 +4,7 @@ description: Overview of the experience profiles in Dynamics 365 Contact Center 
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 07/30/2025
+ms.date: 07/30/2026
 ms.topic: overview
 ms.custom: bap-template
 ---
@@ -23,7 +23,7 @@ The profiles are available for service representatives and supervisors who use t
 
 The system requirements for experience profiles and Copilot Service workspace are the same. More information: [System requirements for Copilot Service workspace](../implement/customer-service-workspace-system-requirements.md)
 
-## How experience profile works
+## How experience profiles work
 
 You can manage the experience profiles as follows. The tasks in every step are done by administrators who have different roles. It could be one administrator or a set of administrators.
 
@@ -40,6 +40,7 @@ Thereafter, users with the required service representative or supervisor role ca
 You can create and manage experience profiles in the [Copilot Service admin center app](create-agent-experience-profile.md).
 
 ### Related information
+
 [Create and use experience profiles](create-agent-experience-profile.md)    
 [System requirements](../implement/customer-service-workspace-system-requirements.md)  
 

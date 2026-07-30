@@ -1,7 +1,7 @@
 ---
-title: Configure custom presence
-description: Learn to configure custom presence in Dynamics 365 Contact Center.
-ms.date: 06/11/2025
+title: Configure custom presence for representatives
+description: Learn how to configure custom presence in Dynamics 365 Contact Center, map custom statuses to base statuses, and manage representative availability.
+ms.date: 07/30/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-The presence status indicates a customer service representative's (service representative or representative) availability to take up work items. A presence status consists of two elements:
+Presence in Dynamics 365 Contact Center helps administrators define representative availability for work distribution. Learn how to configure custom presence, understand status elements and built-in statuses, and map each custom status to a base presence.
 
 - **Base status**: The base presence status that indicates a service representative's status. The work distribution system distributes work items to representatives according to the base statuses that you select as allowed presences at the time of creating a workstream. The base statuses are as follows:
   - Available
@@ -41,8 +41,7 @@ Dynamics 365 Contact Center provides the following presence statuses out of the 
 
 The inactive presence isn't available for manual selection by the representatives. If the missed notifications feature is enabled, the representatives' status is changed to inactive when they don't respond to the incoming conversation request notification.
 
-> [!div class=mx-imgBorder]
-> ![Presence view.](../media/oc-presence-view.png)
+:::image type="content" source="../media/oc-presence-view.png" alt-text="Screenshot of the presence view showing available presence status records.":::
 
 > [!NOTE]
 > You can't edit or delete these out-of-the-box base presence statuses.
@@ -52,7 +51,7 @@ The inactive presence isn't available for manual selection by the representative
 In addition to the out-of-box presence statuses, admins can configure custom presence statuses for representatives that must be mapped to a base presence. For example, if the representatives on your team want to attend a training, you can create a custom **Away – In Training** presence status. When you map a custom presence to a base presence, make sure that the configurations are logically viable. For example, if you map an available custom presence to offline base status, the application treats it as offline while the visual effect would be available.
 
 1. In the site map of Copilot Service admin center, in **Agent experience**, select **Productivity**.
-   
+
 1. Select **Manage** for **Custom Presence**.
 
 1. On the command bar, select **New** to create a presence record.
@@ -66,8 +65,7 @@ In addition to the out-of-box presence statuses, admins can configure custom pre
 
 1. Select **Save**.
 
-> [!div class=mx-imgBorder]
-> ![custom presence.](../media/oc-custom-presence-example.png)
+:::image type="content" source="../media/oc-custom-presence-example.png" alt-text="Screenshot of an example custom presence status record.":::
 
 ### Related information
 
