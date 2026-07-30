@@ -3,7 +3,7 @@ title: Best practices and limitations for the offline profile
 description: Learn how to use the mobile offline profile to make the best use of the Field Service mobile app when your field technicians don't have Internet access.
 ms.topic: overview
 ms.subservice: field-service-mobile
-ms.date: 04/29/2026
+ms.date: 07/30/2026
 author: JonBaker007
 ms.author: jobaker
 ai-usage: ai-assisted
@@ -36,6 +36,9 @@ Before you set up the offline profile, consider these important guidelines:
 - **Use offline JavaScript**. Organizations often need to run workflows on mobile devices to execute business processes. However, Power Automate flows only run when the device has a network connection or on the next sync. If you need to run workflows on the device on-demand and without Internet access, use offline JavaScript instead. [Learn more about workflows and scripts for the Field Service mobile app](/dynamics365/guidance/resources/fs-mobile-automate-business-processes).
 
 - **Limit concurrent offline data calls**. Keep custom calls to the offline database to 2–4 concurrent requests. The app already makes many offline calls on its own, and adding more degrades performance. 
+
+> [!IMPORTANT]
+> Tables that use the **Related rows only** filter inherit the parent table's filter. For example, if a work order filter restricts to *Scheduled* status, related tables (accounts, contacts) are limited to records linked to those scheduled work orders. This cascading behavior can unintentionally restrict data visible to technicians. Review your related rows filters carefully to make sure field workers have access to all the data they need.
 
 [Learn more best practices for using mobile apps offline](/power-apps/mobile/mobile-offline-guidelines).
 
