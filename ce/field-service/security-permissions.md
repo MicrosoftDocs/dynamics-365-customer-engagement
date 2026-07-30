@@ -1,7 +1,7 @@
 ---
 title: Security roles and column-level security profiles
 description: Learn how security roles and column-level security profiles affect users in Dynamics 365 Field Service.
-ms.date: 01/28/2026
+ms.date: 06/26/2026
 ms.topic: article
 ms.author: jacoh
 author: jasonccohen
@@ -32,6 +32,19 @@ The Field Service application introduces several user roles:
 - **IoT - Endpoint User**: Used by Microsoft to connect Dynamics 365 to IoT systems. For more information, go to [setting up security roles for Connected Field Service](cfs-security-roles.md).
 
 Most organizations have several resources, some dispatchers, and few administrators. For example, a plumbing company has 20 plumbers with vehicles and equipment. There are three dispatchers who assign work to the plumbers, and one administrator who maintains the system so everyone is productive.
+
+## Minimum privileges for schedule board access
+
+To view or interact with the schedule board, users need at least the following privileges on these tables:
+
+| Table | Minimum privilege |
+|---|---|
+| BookableResource | Read |
+| BookableResourceBooking | Read, Create, Write |
+| ResourceRequirement | Read |
+| ScheduleBoardSetting | Read |
+
+If users don't have these privileges, they might see errors or a blank schedule board. To grant access, add these privileges to a custom security role or assign one of the built-in Field Service security roles. Learn more in [Set up users, licenses, and security roles](users-licenses-permissions.md).
 
 ## Next steps
 
