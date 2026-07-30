@@ -1,7 +1,7 @@
 ---
 title: Create a work order
 description: Learn the different ways to create a work order in Dynamics 365 Field Service, including manually, from a case, agreement, opportunity, Power Automate, or API.
-ms.date: 06/24/2026
+ms.date: 06/26/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath

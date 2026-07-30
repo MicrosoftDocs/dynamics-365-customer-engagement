@@ -187,7 +187,9 @@ items:
     - name: Create work orders with Power Automate
       href: create-work-order-flow.md  
     - name: Create work orders using Dataverse APIs
-      href: create-work-order-api-example.md  
+      href: create-work-order-api-example.md
+    - name: Post a work order and generate an invoice
+      href: post-work-order-invoice.md  
 
 - name: Inspections
   items:
