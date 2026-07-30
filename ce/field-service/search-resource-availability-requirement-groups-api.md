@@ -1,7 +1,7 @@
 ---
 title: Search for resource availability and create bookings for requirement groups
 description: Learn how to use an API to find available resources and create bookings for requirement groups. 
-ms.date: 09/19/2024
+ms.date: 07/30/2026
 ms.topic: reference
 author: mkelleher
 ms.author: mkelleher
@@ -26,7 +26,7 @@ Use the following input and output parameters for the Search Resource Availabili
 
 | Name  | Type | Required  | Description  |
 |-----------------|---|---|---|
-|Version | String | Yes |The version number of the API. The version number identifies the version of the API that should be invoked. The version number is a semantic version number of the format major.minor.patch. The request doesn't have to contain the complete version number.|
+| Version | String | No | The version number of the API identifies the version of the API that should be invoked. It follows the format of major.minor.patch. <p> <li> If no version is supplied, the most recent will be used (recommended) <li> If only a major version is specified, it invokes the highest minor and patch version available for that major version. <li> If both major and minor versions are specified, it invokes the highest patch version available. <li> If all three parts of the version are mentioned, it invokes the exact version of the API specified.</ul>|
 |RequirementGroup | | Yes | An entity reference to the requirement group entity.|
 |RequirementSpecification |Integer| No | If left null, respects the targeting requirement group duration by default.|
 |Settings |`Entity<InputSettings>` |No | Sets the settings for the request.|
