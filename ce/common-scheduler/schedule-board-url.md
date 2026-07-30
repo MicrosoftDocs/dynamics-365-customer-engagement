@@ -1,14 +1,15 @@
 ---
-title: Open the schedule board from a URL
-description: Access the schedule board from a constructed URL with custom parameters.
-ms.date: 08/20/2025
+title: Configure the schedule board to open from a URL in Universal Resource Scheduling
+description: Configure the schedule board to open from a URL and jump straight to a specific tab, date, or view. Learn how to build direct links with URL parameters in Dynamics 365.
+ms.date: 07/28/2026
 ms.subservice: common-scheduler
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
+ms.reviewer: v-wendysmith
 ---
 
-# Open the schedule board from a URL
+# Configure the schedule board to open from a URL in Universal Resource Scheduling
 
 [!INCLUDE[topic-schedule-board-URL-parameters.md](../shared/urs/schedule-board-URL-parameters.md)]
 

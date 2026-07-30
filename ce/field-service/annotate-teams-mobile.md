@@ -1,7 +1,7 @@
 ---
 title: Use spatial annotations in Teams
-description: Use Microsoft Teams to annotate in a Dynamics 365 Field Service environment.
-ms.date: 08/22/2025
+description: Use spatial annotations in Microsoft Teams to guide technicians in real time with 3D arrows and drawings. Discover setup steps, prerequisites, and best practices.
+ms.date: 07/28/2026
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -20,7 +20,7 @@ Spatial annotations can greatly enhance your communication and collaboration, es
 - **Solve problems in real time**: Technicians can share their real-time view with experts in remote locations to get the help they need, reducing travel time and cost.
 - **Knowledge sharing and training**: Use spatial annotations, photos, and videos to capture and share with the rest of your organization.
 
-  :::image type="content" source="../field-service/media/teams-mobile-annotation-example.png" alt-text="Screenshot of a mobile phone showing an example of spatial annotations":::
+  :::image type="content" source="../field-service/media/teams-mobile-annotation-example.png" alt-text="Screenshot of a mobile phone showing an example of spatial annotations.":::
 
 ## Prerequisites
 
@@ -39,7 +39,7 @@ Use the **Spatial Annotations** toolbar in Teams. For others to view the toolbar
 
 1. While in a mobile call, select **Spatial Annotations**.
 
-   :::image type="content" source="../field-service/media/spatial-annotations-menu.jpg" alt-text="Screenshot of Teams on a mobile phone showing the Spatial Annotations selection":::
+   :::image type="content" source="../field-service/media/spatial-annotations-menu.jpg" alt-text="Screenshot of Teams on a mobile phone showing the Spatial Annotations selection.":::
 
 1. Start presenting. The **Spatial Annotations** toolbar displays for all users on the call.
 
@@ -49,11 +49,11 @@ Use the **Spatial Annotations** toolbar in Teams. For others to view the toolbar
 
    |Button|Description|
    |---------|----------------------------------------------------|
-   |:::image type="icon" source="../field-service/media/calling-annotations-teams-arrow-button.png":::| Add an arrow. To add an arrow, tap where you want to place the arrow. To control the direction of the arrow, tap, hold, and rotate the arrow until it's facing the desired direction. To change the size of the arrow, tap, hold, and drag to the size you want. Release to lock the arrow in place.|
-   |:::image type="icon" source="../field-service/media/calling-annotations-teams-ink-button.png":::|Add ink (draw).|
-   |:::image type="icon" source="../field-service/media/calling-annotations-teams-color-button.png":::|Change the arrow or ink color.|
-   |:::image type="icon" source="../field-service/media/calling-annotations-teams-undo-button.png":::|Undo the most recent annotation you added.|
-   |:::image type="icon" source="../field-service/media/calling-annotations-teams-erase-all-button.png":::|To delete all annotations that you added, select this button, and then select **Delete Annotations**. This action doesn't clear annotations made by other users.|
+   |:::image type="icon" source="../field-service/media/calling-annotations-teams-arrow-button.png" border="false":::| Add an arrow. To add an arrow, tap where you want to place the arrow. To control the direction of the arrow, tap, hold, and rotate the arrow until it's facing the desired direction. To change the size of the arrow, tap, hold, and drag to the size you want. Release to lock the arrow in place.|
+   |:::image type="icon" source="../field-service/media/calling-annotations-teams-ink-button.png" border="false":::|Add ink (draw).|
+   |:::image type="icon" source="../field-service/media/calling-annotations-teams-color-button.png" border="false":::|Change the arrow or ink color.|
+   |:::image type="icon" source="../field-service/media/calling-annotations-teams-undo-button.png" border="false":::|Undo the most recent annotation you added.|
+   |:::image type="icon" source="../field-service/media/calling-annotations-teams-erase-all-button.png" border="false":::|To delete all annotations that you added, select this button, and then select **Delete Annotations**. This action doesn't clear annotations made by other users.|
 
    > [!NOTE]
    > If a participant joins a group call or meeting after spatial annotations have begun and can't annotate on the presenter's 3D space, the presenter can minimize and maximize their Teams mobile app to restore the edit annotation functionality.
@@ -64,9 +64,9 @@ Use the **Spatial Annotations** toolbar in Teams. For others to view the toolbar
 
 ## Enable a one-time call to use spatial annotations
 
-You can collaborate using spatial annotations with an external user who isn't a part of your organization. For example, having a call with a vendor or a contractor to solve a problem or discuss a process using augmented reality. If your collaborators don't have a Dynamics 365 Field Service, Guides, or Remote Assist license, they can still use spatial annotations when they join a call or meeting on a one-time basis. The system only requires one licensed user to unlock spatial annotation capabilities to all other mobile and desktop users.
+You can collaborate using spatial annotations with an external user who isn't a part of your organization. For example, you can have a call with a vendor or a contractor to solve a problem or discuss a process using augmented reality. If your collaborators don't have a Dynamics 365 Field Service, Guides, or Remote Assist license, they can still use spatial annotations when they join a call or meeting on a one-time basis. The system only requires one licensed user to unlock spatial annotation capabilities to all other mobile and desktop users.
 
-Make sure your Teams admin has [enabled meetings for external users](/microsoftteams/plan-meetings#meeting-options-for-guests-and-external-participants).
+Make sure your Teams admin [enabled meetings for external users](/microsoftteams/plan-meetings#meeting-options-for-guests-and-external-participants).
 
 1. Create a Teams meeting or start a call with one participant having a Dynamics 365 Field Service, Guides, or Remote Assist license and invite your other participants.
 
@@ -85,3 +85,5 @@ For best results, the person should do a quick scan of the area they want to ann
 - Use textured surfaces to provide more visual feature points to track, rather than uniform, shiny, or translucent surfaces.
 
 If something interrupts the camera, tracking might temporarily be lost and annotations are unavailable. The system can recover when the camera detects familiar feature points again. The message "Please wait while Mixed Reality user re-establishes tracking" appears. Wait a moment for the camera to re-establish tracking so annotations are available.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
