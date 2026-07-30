@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams channel
-description: Learn about the Microsoft Teams channel and how to configure it as an engagement channel.
-ms.date: 06/20/2025
+description: Learn about the Microsoft Teams channel and how to configure it as an engagement channel in Dynamics 365 Contact Center.
+ms.date: 07/30/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -27,11 +27,11 @@ Make sure that the following prerequisites are met:
 
    1. In **Teams**, open the **Developer Portal** app.
 
-      :::image type="content" source="../media/configure-teams-developer-portal.png" alt-text="Developer Portal app in Teams.":::
+      :::image type="content" source="../media/configure-teams-developer-portal.png" alt-text="Screenshot of the Developer Portal app in Microsoft Teams.":::
    
    1. In **Developer Portal**, create a new app or import an existing one.
 
-       :::image type="content" source="../media/configure-teams-developer-portal-apps.png" alt-text="Create a new app or import one in Developer Portal.":::
+       :::image type="content" source="../media/configure-teams-developer-portal-apps.png" alt-text="Screenshot of options to create or import an app in Developer Portal.":::
 
    1. If you chose to create a new app in step 2, give it a **Name**, and then select **Add**.
 
@@ -39,19 +39,19 @@ Make sure that the following prerequisites are met:
       > [!NOTE]
       > You can also create a new App Registration in Azure portal, and then use the app ID for this field.
 
-   1. Select **App features** under **Configure** section, and then select **bot**.
+   1. Select **App features** under the **Configure** section, and then select **bot**.
 
    1. Enter the bot ID from the omnichannel application, and then select **Save**.
 
    1. Select **Publish**.
 
-   1. On the **Publish your app** page, select **Download the app package**
+   1. On the **Publish your app** page, select **Download the app package**.
 
    1. In the site map, select **Apps**, and then select **Manage your apps**.
 
    1. Select **Upload your app**, and then browse to the app you downloaded in step 7 and select it.
 
-      The Teams app is installed on your Teams desktop client, which allows you to send and receive messages in the Teams app.  
+      The Teams app is installed on your Teams desktop client, which you can use to send and receive messages in the Teams app.  
 
 ## Configure a Microsoft Teams channel<a name="configureinoac"></a>
 
@@ -59,30 +59,30 @@ Make sure that the following prerequisites are met:
 
 1. In **Accounts**, for **Messaging accounts**, select **Manage**.
 
-1. On the **Accounts and channels** page, select **New account**.
+1. On **Accounts and channels**, select **New account**.
 
 1. Enter the following details:
-   1. On the **Channel details** page, enter a name and select **Microsoft Teams** in **Channels**.
-   1. On the **Account details** page, in **Account name**, enter the Microsoft Teams name that you use.
-   1. On the **Callback information** page, copy the value in the **Bot ID** box. The Teams app uses it to update the value for the bot ID.
+   1. On **Channel details**, enter a name and select **Microsoft Teams** in **Channels**.
+   1. On **Account details**, in **Account name**, enter the Microsoft Teams name that you use.
+   1. On **Callback information**, copy the value in the **Bot ID** box. The Teams app uses it to update the value for the bot ID.
    1. Select **Done**. The account is added to the list.
 
 1. To configure routing and work distribution, go to the **Workstreams** page and create a [workstream](create-workstreams.md).
 
 1. Select the workstream that you created for the Microsoft Teams channel, and then on the workstream page, select **Set up Microsoft Teams** to configure the following options:
-    1. On the **Microsoft Teams setup** page, in the **Available Microsoft Teams accounts** list, select the number that you created.
+    1. On **Microsoft Teams setup**, in the **Available Microsoft Teams accounts** list, select the number that you created.
 
-    1. On the **Language** page, select the language.
+    1. On **Language**, select the language.
 
-    1. On the **Behaviors** page, configure the following options:
+    1. On **Behaviors**, configure the following options:
        - [Custom automated messages](configure-automated-message.md)
        - [Post-conversation survey](configure-post-conversation-survey.md)
 
-    1. On the **User features** page, turn on the **File attachments** toggle, and then select the following checkboxes if you want to allow customer service representatives (service representatives or representatives) and customers to send and receive file attachments. Learn more in [Enable file attachments](enable-file-attachments.md).
+    1. On **User features**, turn on the **File attachments** toggle, and then select the following checkboxes if you want to allow customer service representatives (service representatives or representatives) and customers to send and receive file attachments. Learn more in [Enable file attachments](enable-file-attachments.md).
        - Customers can send file attachments
        - Service representatives can send file attachments
 
-    1. Verify the settings on the **Summary** page, and then select **Finish**. The Teams channel instance is configured.
+    1. Verify the settings on **Summary**, and then select **Finish**. The Teams channel instance is configured.
 
 1. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).
 
@@ -105,12 +105,12 @@ Make sure that the following prerequisites are met:
 
 1. Select **App features** under **Configure**.
 
-1. On the **App features** page, select **Bot**, then select **Enter a bot ID**, and paste the bot ID value.
+1. On the **App features** page, select **Bot**, select **Enter a bot ID**, and paste the bot ID value.
 
 1. Select the required options, save, preview, and publish.
 
   > [!NOTE]
-  > If you receive an error when trying to add an agent to the team, refer to [Prepare your Microsoft 365 tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
+  > If you receive an error when trying to add an agent to the team, see [Prepare your Microsoft 365 tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
 
 ## Configure authentication
 

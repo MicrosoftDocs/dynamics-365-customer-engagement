@@ -1,7 +1,7 @@
 ---
-title: Resolve, cancel, and reassign a case in Customer Service Hub 
-description: Understand Cases in Customer Service Hub for Dynamics 365 Customer Service.
-ms.date: 06/26/2025
+title: Resolve, Cancel, and Reassign Cases in Customer Service Hub
+description: Learn how to resolve, cancel, and reassign cases, manage parent and child cases, and review case resolution history.
+ms.date: 07/30/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -23,27 +23,28 @@ searchScope:
 
 # Resolve, cancel, and reassign cases
 
-Customer Service provides you with the ability to resolve, cancel, and reassign cases. 
+Learn how to resolve, cancel, and reassign cases so that you can keep case ownership, status, and resolution records up to date.
 
 ## Resolve a case  
 
 1. In the list of active cases, open the one you want to resolve.  
 
-2. On the command bar, select **Resolve case**. The status of the case is set to **Resolved** only when you select **Resolve Case** and the case gets resolved. You can't set the value of the **Case Status** field to **Resolved**
+1. On the command bar, select **Resolve case**. The status of the case is set to **Resolved** only when you select **Resolve Case** and the case gets resolved. You can't set the value of the **Case Status** field to **Resolved**
 
   If you have open activities linked to the case, you see a message with the following actions:
+
   - A link with the number of open activities. You can select the link to view the open activities associated with the case on a tab your administrator has configured. More information: [Enable the redirection link for Customer Service apps](../administer/add-enhanced-case-management.md#redirect-users-to-a-specific-tab-to-close-the-open-activities-for-a-case)
   - **Confirm**: If you select **Confirm** on the warning, the system automatically cancels the open activities when the case is resolved.
   
-      :::image type="content" source="../media/resolve-case-after.png" alt-text="Open activity warning" lightbox="../media/resolve-case.png":::
+      :::image type="content" source="../media/resolve-case-after.png" alt-text="Screenshot of the open activities warning shown when you resolve a case." lightbox="../media/resolve-case.png":::
   
-3. Depending on the settings enabled for you, you see the minimal case resolution dialog or legacy case resolution dialog that are explained as follows:
+1. Depending on the settings enabled for you, you see the minimal case resolution dialog or legacy case resolution dialog that are explained as follows:
 
  ### [Default case resolution dialog](#tab/defaultcaseresolutionform)
 
  By default, you'll see the **Resolution Type** and **Resolution** fields only on the **Resolve Case** dialog.
 
-  :::image type="content" source="../media/minimal-resolve-case-after.png" alt-text="Default minimal resolve case" lightbox="../media/minimal-resolve-case.png"::: 
+  :::image type="content" source="../media/minimal-resolve-case-after.png" alt-text="Screenshot of the default Resolve Case dialog with the Resolution Type and Resolution fields.":::
 
  ### [Legacy case resolution dialog](#tab/lagacycaseresolutiondialog)
     
@@ -54,17 +55,17 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
    - If your administrator enables case handling time, the **Total Time** fields display the time calculated by the time tracker and not the time coming from the incident resolution table.
    - If this case is linked to an entitlement, the billable time is subtracted from the allotted minutes for that entitlement.
          
-   :::image type="content" source="../media/resolve-case-legacy.png" alt-text="Legacy resolve case" :::
+   :::image type="content" source="../media/resolve-case-legacy.png" alt-text="Screenshot of the legacy Resolve Case dialog with resolution and time fields.":::
 
    ---
-4.  Select **Resolve**.
+1.  Select **Resolve**.
 
 > [!NOTE]
-> - We recommend that you resolve or close a case before deleting it. 
+> - We recommend that you resolve or close a case before deleting it.
 > - While you can't edit or update any attribute of the case after it is resolved, through the UI, you can configure an API or a Power Automate flow to be run if the setting in service configuration is enabled. Learn more in [Allow updates for resolved and canceled cases](../administer/update-resolved-canceled-cases.md)
 > - The "resolve cases" action isn't available in the business process flow in Customer Service Hub. As a workaround, you can customize the business process flow to add the action. Learn more in [Add an action to a business process flow](/power-automate/create-business-process-flow#add-an-on-demand-action-to-a-business-process-flow).
 
-## Resolve a case with a parent and child relationship  
+## Resolve a case with a parent and child relationship
 
 > [!IMPORTANT]
 >
@@ -109,21 +110,18 @@ If you don’t have enough information to resolve a case, or if you think anothe
 
 2. In the **Assign to Team or User** dialog box, in the **Assign To** field, select **User or Team**, and then in the **User or team** field, select who you want to assign the case to.  
 
-3. Select **Assign**. 
+3. Select **Assign**.
 
 ## Case resolution history
 
 Displays the case resolution history. If a case must be reopened, customer service representatives have the ability to view case history here.
 
-  > [!div class=mx-imgBorder]
-  > ![status bar.](../media/case_resolution_16.png "status bar")
+:::image type="content" source="../media/case_resolution_16.png" alt-text="Screenshot of the status bar in the case resolution history.":::
 
 ### Related information
 
-[Learn the basics of the Customer Service Hub](../implement/customer-service-hub-user-guide-basics.md)
+[Learn the basics](../implement/customer-service-hub-user-guide-basics.md)
 
 [Use the Main form and its components](../../customerengagement/on-premises/customize/use-main-form-and-components.md)
   
-
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

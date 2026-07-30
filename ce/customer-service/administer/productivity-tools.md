@@ -1,15 +1,15 @@
 ---
-title: Overview of Dynamics 365 Productivity Tools
-description: Learn about Dynamics 365 Productivity Tools in the Dynamics 365 Contact Center.
+title: Improve service with Dynamics 365 Productivity Tools
+description: Explore Dynamics 365 Productivity Tools to automate repetitive tasks, guide representatives, collaborate in Teams, and improve customer service efficiency.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 08/21/2025
+ms.date: 07/30/2026
 ms.topic: overview
 ms.custom: bap-template
 ---
 
-# Overview of productivity tools
+# Dynamics 365 Productivity Tools for Customer Service
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 

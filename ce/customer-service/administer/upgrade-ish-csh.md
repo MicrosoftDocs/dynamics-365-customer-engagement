@@ -1,7 +1,7 @@
 ---
 title: Upgrade from Interactive Service Hub to the Customer Service Hub app | Microsoft Docs
 description: Understand the upgrade path from Interactive Service Hub to the Customer Service Hub application
-ms.date: 09/12/2025
+ms.date: 07/30/2026
 ms.topic: upgrade-and-migration-article
 author: neeranelli
 ms.author: nenellim

@@ -1,7 +1,7 @@
 ---
 title: Create a case in Customer Service
 description: Understand how you can quickly create cases in Customer Service.
-ms.date: 09/12/2025
+ms.date: 07/30/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

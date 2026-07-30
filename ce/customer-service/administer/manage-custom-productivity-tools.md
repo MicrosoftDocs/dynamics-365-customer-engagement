@@ -1,15 +1,15 @@
 ---
-title: Manage custom productivity tools
+title: Manage custom productivity tools for service representatives
 description: Learn how to manage the custom productivity tools to improve representative productivity in Dynamics 365 Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
-ms.date: 08/21/2025
+ms.date: 07/30/2026
 ms.custom: bap-template
 ---
 
-# Manage custom productivity tools
+# Manage custom productivity tools for service representatives
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 

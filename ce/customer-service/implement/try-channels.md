@@ -1,7 +1,7 @@
 ---
 title: Try channels
-description: Learn how you can try channels in Customer Service to connect and engage with your customers in real time.
-ms.date: 07/25/2025
+description: Learn how to try channels in Customer Service for real-time chat, SMS, social, and voice support. Start a free trial and connect with customers.
+ms.date: 07/30/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Try channels 
 
-Channels, like Live Chat, voice, and SMS, are engagement channels that let your customer service representatives connect with customers in real time and provide quick personalized help.
+Learn how to try channels in Customer Service by starting a free 30-day trial and provisioning Live Chat, voice, SMS, and social channels. These channels help customer service representatives connect with customers in real time and provide quick, personalized support.
 
 You can perform the following steps to try channels in Customer Service:
 
@@ -52,7 +52,7 @@ Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?
 5. After signing up for a trial, you must assign licenses of Digital Messaging to the users who need to engage with customers and provide support via Omnichannel for Customer Service. Select one or more active users and edit their product licenses. After you're done, select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Digital Messaging product licenses dialog box.](../media/digital-trial-assign-users.png "Digital Messaging product licenses dialog box")
+    > :::image type="content" source="../media/digital-trial-assign-users.png" alt-text="Screenshot of the Digital Messaging product licenses dialog box for assigning trial licenses.":::
 
 ### Get a trial subscription of voice channel
 
@@ -93,7 +93,7 @@ If you already have a subscription of Dynamics 365 Customer Service Enterprise o
 3. Search for Power BI (free) and complete the purchase of Power BI (free) subscription.
 
     > [!div class=mx-imgBorder]
-    > ![Power BI (free) subscription.](../media/powerbi-free.png "Power BI (free) subscription")
+    > :::image type="content" source="../media/powerbi-free.png" alt-text="Screenshot of the Power BI free subscription purchase option.":::
 
 ### Videos
 

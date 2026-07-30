@@ -1,7 +1,7 @@
 ---
-title: Enable self-service settings
+title: Enable self-service settings for customer actions
 description: Enable self-service settings for customer actions in conversations to help representatives understand customer issues and provide personalized service.
-ms.date: 07/17/2025
+ms.date: 07/30/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -18,7 +18,7 @@ ms.custom:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
 
-The self-service feature displays information about the recent actions that a customer performs before starting a conversation with a customer service representative (service representative or representative). This information helps service representatives understand customer issues and provide a personalized service for enhanced customer satisfaction.
+Enable self-service settings to display recent customer actions before a conversation with a customer service representative (service representative or representative). This context helps representatives understand customer issues and provide personalized service.
 
 The data about the recent actions is stored in an entity for the conversation that has been closed. A record is created for each self-service action and [action type](../use/oc-customer-summary.md#view-self-service). Learn more in [Self service (msdyn_visitorjourney) table](../../developer/reference/entities/msdyn_visitorjourney.md).
 
@@ -26,7 +26,7 @@ The data about the recent actions is stored in an entity for the conversation th
 
 Make sure that a developer has added a code snippet to retrieve the steps customers have done and [pass history as context](../develop/reference/methods/setContextProvider.md) in the self-service portal that is configured for your organization.
 
-## Enable self service
+## Enable self-service settings
 
 You can enable the self service feature in the Copilot Service admin center app.
 

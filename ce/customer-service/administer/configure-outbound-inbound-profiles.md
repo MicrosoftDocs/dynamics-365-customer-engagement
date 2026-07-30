@@ -1,7 +1,7 @@
 ---
 title: Configure outbound and inbound profiles
 description: Configure outbound and inbound profiles with various settings, such as caller ID, language, and wait music for the voice channel in Dynamics 365 Contact Center.
-ms.date: 08/14/2025
+ms.date: 07/30/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -16,8 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-
-Use the information in this article to create profiles that are used for direct inward dialing to specific customer service representatives (service representatives or representatives) and outbound calling. These profiles help you configure settings, such as language, wait music, and transcription settings for these calls. The profiles that you create are listed on the **Outbound and inbound profiles** page. The **Profile type** column helps distinguish the profiles.
+Learn how to create outbound and inbound profiles for direct inward dialing and outbound calling. Configure language, wait music, caller ID, transcription, and recording settings for voice calls. The profiles appear on the **Outbound and inbound profiles** page and are identified by the **Profile type** column.
 
 Inbound profiles enable direct inward dialing to individual service representatives, and they differ from workstreams that are used to define how inbound calls are routed and assigned to representatives via queues. Direct inward dialing doesn't use unified routing and therefore the direct calls to representatives aren't tracked in unified routing historical analytics.
 
@@ -95,7 +94,7 @@ You can define how representatives use the outbound calls and which representati
 
 1. Select **Save and close**.
 
-   :::image type="content" source="../media/outbound-inbound-voice-call-profiles.png" alt-text="Outbound and inbound profiles for voice calls.":::
+   :::image type="content" source="../media/outbound-inbound-voice-call-profiles.png" alt-text="Screenshot of the outbound and inbound profiles page for voice calls.":::
 
 ### Default profiles
 
