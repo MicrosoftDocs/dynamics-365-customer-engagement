@@ -1,33 +1,43 @@
-The schedule board is accessible through a URL that loads the web resource. The simplest way to access this URL is to configure the schedule board as you prefer, select **More options (&hellip;)**, and choose **Copy link**. The generated link includes the parameters currently configured on your board.
+Use URL parameters to control how the Dynamics 365 schedule board opens for users. You can copy a preconfigured board link, build and encode parameters manually, and add the URL to app navigation. Use the parameter reference to set options such as tab, map visibility, view type, view mode, start date, and column width.
 
-:::image type="content" source="../../field-service/media/schedule-board-copy-link.png" alt-text="Screenshot of the Copy link option on the schedule board.":::
-
-You can also construct the URL manually and extend that URL with parameters to refine the experience.
+Use the parameter reference to set options such as tab, map visibility, view type, view mode, start date, and column width.
 
 ## Understand the URL structure
 
 The base URL is `https://<domain>/main.aspx?pagetype=webresource&webresourceName=msdyn_/ScheduleBoard/index.html?data=<parameters>`
 
-- `<domain>` is the domain of your organization. For example, `contoso.onmicrosoft.com`
+- `<domain>` is the domain of your organization. For example, `contoso.onmicrosoft.com`.
 - `<parameters>` are URI-encoded and stringified JSON objects that include key-value pairs that define the focus of the schedule board.
+
+## Access the URL
+
+1. Configure the schedule board as you prefer.
+
+1. From the schedule board, select **More options (&hellip;)**, and choose **Copy link**.
+
+   :::image type="content" source="../../field-service/media/schedule-board-copy-link.png" alt-text="Screenshot of the Copy link option on the schedule board.":::
+
+   The generated link includes the parameters currently configured on your board.
+
+You can also construct the URL manually and extend that URL with parameters to refine the experience.
 
 ## Create parameters
 
-Use the browser console to create the parameters. Learn more at: [Console and DevTools in Microsoft Edge](/microsoft-edge/devtools-guide-chromium/console/).
+Use the browser console to create the parameters. Learn more in [Console and DevTools in Microsoft Edge](/microsoft-edge/devtools-guide-chromium/console/).
 
 1. Open the console in the browser.
 
 1. Construct the command like `encodeURIComponent(JSON.stringify({parameter1: "value", parameter2: "value", ...}))` and enter it in the console. For example, to show the map and set the view mode to daily, the command is: `encodeURIComponent(JSON.stringify({map: "true", viewmode: "daily"}))`, which results in `%7B%22map%22%3A%22true%22%2C%22viewmode%22%3A%22daily%22%7D`.
 
-   [More parameters and values are listed in the following section](#parameter-reference).
+   [More parameters and values are listed in Parameter reference](#parameter-reference).
 
 1. Append the resulting stringified object to the base URL to create a functional URL that launches the schedule board with the parameters set accordingly. For example: `https://contoso.onmicrosoft.com/main.aspx?pagetype=webresource&webresourceName=msdyn_/ScheduleBoard/index.html?data=%7B%22map%22%3A%22true%22%2C%22viewmode%22%3A%22daily%22%7D`.
 
 ## Append parameters based on Unified Interface
 
-Optionally, *following* the schedule board URL parameters, you can add non-encoded parameters for the Unified Interface of Dynamics 365.
+Optionally, *following* the schedule board URL parameters, add non-encoded parameters for the Unified Interface of Dynamics 365.
 
-The following parameters open the schedule board in a separate browser window without navigation elements: `&cmdbar=false&navbar=off&newWindow=true`. Opening the schedule board with such parameters may get some system parameters such as `forceUCI=1` and `appid=<ID>` added automatically.
+The following parameters open the schedule board in a separate browser window without navigation elements: `&cmdbar=false&navbar=off&newWindow=true`. When you open the schedule board by using these parameters, the system automatically adds some parameters, such as `forceUCI=1` and `appid=<ID>`.
 
 ## Add parameters to a sitemap
 
@@ -37,13 +47,13 @@ Use the constructed URL to add a new navigation point or override the schedule b
 
 ## Parameter reference
 
-The following parameters can get passed to the schedule board.
+Pass the following parameters to the schedule board.
 
 - **Schedule board tab**
 
   `tab : "<tab ID>"`
 
-  Get the tab IDs using this browser query: `https://<domain>/api/data/v9.1/msdyn_scheduleboardsettinges?$select=msdyn_tabname,msdyn_scheduleboardsettingid`
+  Get the tab IDs by using this browser query: `https://<domain>/api/data/v9.1/msdyn_scheduleboardsettinges?$select=msdyn_tabname,msdyn_scheduleboardsettingid`
 
 - **Map section visible**
 
@@ -61,7 +71,7 @@ The following parameters can get passed to the schedule board.
 
   `startdate : "YYYY-MM-DD"`
 
-  The date takes the time zone configured for the schedule board. You can only define the start date in ISO format and the system sets the date to the start of the week or month that the given date is in.
+  The date takes the time zone configured for the schedule board. You can only define the start date in ISO format. The system sets the date to the start of the week or month that the given date is in.
 
 - **Column width**
 
