@@ -1,7 +1,7 @@
 ---
-title: Manage presence
-description: Learn how to view and update your presence status in Dynamics 365 Contact Center and Customer Service.
-ms.date: 07/16/2025
+title: Manage representative presence status and availability
+description: Learn how to manage presence status in Dynamics 365 Contact Center, including defaults, capacity updates, and routing behavior.
+ms.date: 07/30/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-Presence is an indication of your customer service representatives' (service representatives or representatives) availability or status to take up work in Dynamics 365 Customer Service.
+Presence status indicates whether customer service representatives (service representatives or representatives) are available to take work. This article explains how to view and update presence status and understand capacity-based changes so work can be routed to available representatives.
 
 :::image type="content" source="../media/presence-icon.png" alt-text="Screenshot of representative presence status.":::
 
@@ -46,7 +46,7 @@ You can view your presence status on the navigation bar. You can select the pres
 > - Inactive is a special status that isn’t available for the representative to select; it’s set by the system automatically when representatives miss notifications.
 > - You can’t modify or delete the out-of-the-box presence statuses.
 
-## What are presence elements
+## Understand presence status elements
 
 A presence status consists of two elements:
 
@@ -68,7 +68,6 @@ Learn more in [Configure custom presence status](../administer/presence-custom-p
 You can specify a default presence for representatives when they sign in to Copilot Service workspace. Depending on the admin configuration, default presence allows the representatives to immediately start the work or have some time before they start work. If you don’t configure any default presence, the application sets **Available** as the default.
 
 Learn more in [Configure default presence for representatives](../administer/users-user-profiles.md#manage-users-using-the-classic-experience).
-
 
 ## How presence is calculated when representatives sign in
 
@@ -165,6 +164,5 @@ See the drill-down views in [Agent dashboard](agent-dashboard.md) in Omnichannel
 [Manage applications](oc-manage-applications.md)  
 [View the communication panel for conversations](oc-conversation-control.md)  
 [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

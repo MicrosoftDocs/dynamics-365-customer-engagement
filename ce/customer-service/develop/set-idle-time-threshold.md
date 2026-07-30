@@ -1,7 +1,7 @@
 ---
 title: Set idle time threshold
 description: Learn how to set the idle time threshold for your service representative in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 06/11/2025
+ms.date: 07/30/2026
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim

@@ -1,7 +1,7 @@
 ---
 title: Configure context variables for agents
 description: Learn how you can add context variables and then configure them for Copilot Studio or Azure agents in Dynamics 365 Contact Center.
-ms.date: 07/17/2025
+ms.date: 07/30/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -10,7 +10,7 @@ ms.collection:
 ms.custom: bap-template
 ---
 
-# Configure context variables for AI Agents
+# Configure context variables for AI agents
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 

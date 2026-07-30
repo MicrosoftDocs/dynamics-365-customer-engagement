@@ -346,6 +346,10 @@
             href: /dynamics365/contact-center/use/workforce-management-use-adherence-history-report?context=/dynamics365/context/customer-service-use-context
       - name: Quality management
         items:
+        - name: Overview of Quality Management Agent
+          href: /dynamics365/contact-center/use/overview-quality-management?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Quality evaluation
+          items:
           - name: Use evaluation criteria
             href: /dynamics365/contact-center/use/evaluation-criteria?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
           - name: Use evaluation plan
@@ -354,8 +358,8 @@
             href: /dynamics365/contact-center/use/on-demand-evaluation?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
           - name: Use evaluations
             href: /dynamics365/contact-center/use/use-evaluations?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-          - name: Use governance policies
-            href: use-governance-policies.md
+        - name: Use governance policies
+          href: use-governance-policies.md
       - name: Copilot in Customer Service
         items: 
         - name: Copilot feature availability across applications

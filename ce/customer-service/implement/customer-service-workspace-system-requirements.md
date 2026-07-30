@@ -1,7 +1,7 @@
 ---
 title: Copilot Service workspace system requirements
-description: Learn about the system requirements and prerequisites to use Copilot Service workspace in Dynamics 365 Contact Center and Customer Service.
-ms.date: 06/26/2025
+description: Learn about the system requirements and prerequisites to use Copilot Service workspace in Dynamics 365 Contact Center and Customer Service, and get started quickly.
+ms.date: 07/30/2026
 ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim

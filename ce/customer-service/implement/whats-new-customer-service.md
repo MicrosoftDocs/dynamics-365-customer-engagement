@@ -1,7 +1,7 @@
 ---
 title: What's new in Dynamics 365 Customer Service
 description: Learn about the recently added or updated features in Dynamics 365 Customer Service.
-ms.date: 06/11/2025
+ms.date: 07/30/2026
 ms.topic: whats-new
 author: neeranelli
 ms.author: nenellim
@@ -16,24 +16,16 @@ ms.custom:
 
 # What's new in Dynamics 365 Customer Service
 
-Welcome to Dynamics 365 Customer Service. Visit this page to learn about new or updated features for Customer Service.
+Welcome to Dynamics 365 Customer Service.
 
-## What's new in April 2025 update
+Explore new and upcoming features in Dynamics 365 Customer Service. Learn about feature details, release timelines, and availability in [Release plans for Dynamics 365](/dynamics365/release-plans/).
 
-For information about the features that are releasing in April 2025, see:
+## Next steps
 
-[2025 release wave 1 overview - Customer Service](/dynamics365/release-plan/2025wave1/service/dynamics365-customer-service/)
-
-## What's new in October 2024 update
-
-For information about the features that released in October 2024, see:
-
-[2024 release wave 2 plan - Customer Service](/dynamics365/release-plan/2024wave2/service/dynamics365-customer-service/)
+[System requirements for Copilot Service workspace](customer-service-workspace-system-requirements.md)
 
 ### Related information
 
 [Get started with Copilot Service workspace](csw-overview.md)  
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

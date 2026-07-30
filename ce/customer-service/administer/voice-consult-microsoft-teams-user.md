@@ -1,10 +1,10 @@
 ---
 title: Enable voice consult with Microsoft Teams user in the voice channel
-description: Learn how to enable the consult experience between a customer service representative and Microsoft Teams user in the voice channel in Dynamics 365 Contact Center and Customer Service.
+description: Learn how to enable voice consult with Microsoft Teams users in Dynamics 365 Contact Center so representatives can consult with or transfer calls via VoIP.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 07/28/2025
+ms.date: 07/30/2026
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-Customer service isn't always limited to contact centers. Employees within the enterprise are often required to assist service representatives in customer service scenarios and talk to customers directly for highly technical or VIP engagements. You can enable your representative to consult with or transfer voice calls in Dynamics 365 Contact Center to subject matter experts (SMEs) in Microsoft Teams using Voice Over Internet Protocol (VOIP). This feature is available through Azure Communication Services Call Automation.
+Enable voice consult with Microsoft Teams users so customer service representatives can consult subject matter experts (SMEs) or transfer voice calls from Dynamics 365 Contact Center. The feature uses Voice Over Internet Protocol (VOIP) through Azure Communication Services Call Automation, allowing SMEs to join customer conversations directly in Teams without a phone number.
 
 With this feature, SMEs can participate in customer service conversations from Microsoft Teams directly without having to configure a phone number. Any Teams users in your tenant who is displayed in the Teams search box can receive calls from your representatives.
 

@@ -1,7 +1,7 @@
 ---
 title: Manage unified routing in Customer Service
 description: Learn how to enable unified routing in Customer Service.
-ms.date: 09/05/2025
+ms.date: 07/30/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

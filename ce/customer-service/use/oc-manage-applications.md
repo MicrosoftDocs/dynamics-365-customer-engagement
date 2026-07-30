@@ -1,7 +1,7 @@
 ---
 title: Manage applications in your contact center
 description: Learn how to manage applications using the application tab panel in Omnichannel for Customer Service app.
-ms.date: 07/30/2025
+ms.date: 07/30/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

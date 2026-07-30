@@ -1,7 +1,7 @@
 ---
 title: Use Customer Service Hub on mobile devices
 description: Learn how to use the features of the Customer Service Hub app on mobile devices such as phones and tablets.
-ms.date: 09/12/2025
+ms.date: 07/30/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
