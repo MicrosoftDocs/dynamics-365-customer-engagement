@@ -35982,7 +35982,11 @@
       "redirect_document_id": false
     },
     {"source_path": "ce/customer-service/administer/configure-ai-agent-to-use-mcp-server.md",
-      "redirect_url": "/dynamics365/customer-service/configure-customer-service-mcp-server",
+      "redirect_url": "/dynamics365/customer-service/develop/connect-agent-model-context-protocol",
+      "redirect_document_id": false
+    },
+    {"source_path": "ce/customer-service/administer/configure-customer-service-mcp-server.md",
+      "redirect_url": "/dynamics365/customer-service/develop/connect-agent-model-context-protocol",
       "redirect_document_id": false
     },
     {"source_path": "ce/customer-service/use/case-topics-dashboard-cs.md",

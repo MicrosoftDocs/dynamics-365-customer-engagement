@@ -107,8 +107,12 @@
           href: mcp-tools-overview.md
         - name: Privilege reference for Customer Service Copilot tools
           href: customer-service-tool-privilege-reference.md
-        - name: Service Agent tools
+      - name: Dynamics 365 CX MCP Server - Service
+        items:    
+        - name: Tools
           href: ../../developer/reference/mcp-tools/toc.yml
+        - name: Connect Dynamics 365 CX MCP Server - Service through Agent 365 Tooling Gateway  
+          href: connect-agent-model-context-protocol.md
       - name: Autonomous service agents
         items: 
         - name: Integrate Case Management Agent with custom Copilot Studio agents 
