@@ -1,7 +1,7 @@
 ---
 title: Create and manage data masking rules
 description: Learn how to create and manage data masking rules to block sensitive data in Dynamics 365 Contact Center.
-ms.date: 09/30/2025
+ms.date: 07/31/2026
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -13,12 +13,12 @@ ms.topic: how-to
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Use data masking to block sensitive data such as credit card information, social security numbers (SSN), and profanity in conversation messages. You can create a masking rule and define a [regular expression](/dotnet/standard/base-types/regular-expression-language-quick-reference) to identify the sensitive information and replace it with the masked characters. Any masked text in a conversation message is also masked in the conversation transcript. Data masking works for chat and asynchronous channels.
+Use data masking to block sensitive data such as credit card information, social security numbers (SSN), and profanity in conversation messages. Create a masking rule and define a [regular expression](/dotnet/standard/base-types/regular-expression-language-quick-reference) to identify the sensitive information and replace it with the masked characters. Any text masked in a conversation message is also masked in the conversation transcript. Data masking works for chat and asynchronous channels.
 
-Masking rules can be configured to apply to messages sent by a customer, a customer service representative (service representative or representative), or both. You must make sure that the masking rules you want applied are set to **Active**. If not, then they aren't applied to the selections you make.
+You can configure masking rules to apply to messages sent by a customer, a customer service representative (service representative or representative), or both. Make sure that the masking rules you want applied are set to **Active**. If not, the rules aren't applied to the selections you make.
 
-   > [!div class=mx-imgBorder]
-   > ![Data masking rules.](../media/general-masking-rules.png "Data masking rules")
+> [!div class=mx-imgBorder]
+> ![Data masking rules.](../media/general-masking-rules.png "Data masking rules")
 
 You can choose to:
 
@@ -33,29 +33,26 @@ The following masking rules are provided out of the box:
 As an administrator, you can delete or modify the out-of-the-box masking rules and create new masking rules.
 
 > [!NOTE]
-> - Only an administrator can access and edit data masking rules.
-> - Only 10 data masking rules, including the rules provided out of the box, can exist in Dynamics 365 Contact Center.
+> - Only administrators can access and edit data masking rules.
+> - You can have a maximum of 10 data masking rules, including the out-of-the-box rules, in Dynamics 365 Contact Center.
 
 ## Create a data masking rule
 
-   > [!div class=mx-imgBorder]
-   > ![Create a masking rule.](../media/new-masking-rule.png "Create a masking rule")
+> [!div class=mx-imgBorder]
+> ![Create a masking rule.](../media/new-masking-rule.png "Create a masking rule")
 
 1. In the site map of Copilot Service admin center, select **Productivity** in **Support experience**.
-
 1.	Select **Manage** for **Data masking**.
-
 1.	In **Masking rules**, select **New Masking Rule**.
-
-1.	On the **New Masking Rule** page, provide the following information:
+1.	On **New Masking Rule**, enter the following information:
 
     - **Name**: The name of the masking rule.
 
     - **Description**: An optional description of the masking rule.
 
-    - **Regular expression**: A regular expression to identify the data to be masked.
+    - **Regular expression**: A regular expression to identify the data to mask.
         
-1. To test the data masking as defined by the specified regular expression, enter a value in the **Enter test data** field. The masked value is displayed in the **Masked test data** field. By default, the number sign (#) is used to mask sensitive data.
+1. To test the data masking as defined by the specified regular expression, enter a value in the **Enter test data** field. The masked value appears in the **Masked test data** field. By default, the number sign (#) masks sensitive data.
 
    > [!div class=mx-imgBorder]
    > ![Email masking rules.](../media/email-masking-rule.png "Email masking rules")
@@ -64,14 +61,12 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
 
 ## Manage data masking rules
 
-After a masking rule is created, you can edit, activate, deactivate, or permanently delete it.
+After you create a masking rule, you can edit, activate, deactivate, or permanently delete it.
 
    > [!div class=mx-imgBorder]
    > ![Manage masking rules.](../media/masking-rule-card.png "Manage masking rules")
 
 1.	Under **Masking rules**, select the ellipsis to see the options for managing an existing masking rule.
-
-2. To activate, deactivate, or delete a masking rule, select the rule, and then select the desired action from the list.
-
+1. To activate, deactivate, or delete a masking rule, select the rule, and then select the desired action from the list.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
