@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ about the Research and engage mode of Sales Qualification Agent
 description: Get answers to frequently asked questions about the use of AI in the Research and engage mode (part of Sales Qualification Agent) in Dynamics 365 Sales.
-ms.date: 01/16/2026
+ms.date: 07/30/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.topic: faq
@@ -42,15 +42,19 @@ The agent was evaluated for each use case using curated datasets and quality met
 
 ## What are the limitations of the Research and engage mode? How can users minimize the impact of these limitations?
 
-- Only one mode of the agent (either research-only or research and engage) can be created per organization.
+- You can create only one mode of the agent (either research-only or research and engage) per organization. You can upgrade from the Research-only mode to the Research and engage mode, but not the other way around.
 
 - The agent only works on the out-of-box lead entity.
 
+- You can't delete an agent once configured. Contact Microsoft support to delete the agent from your organization.
+
 ## What operational factors and settings allow for effective and responsible use of the Research and engage mode?
 
-The Research-only mode has a configuration experience that allows admins to personalize the agent to work for their specific sales team:
+The Research and engage mode has a configuration experience that admins can use to personalize the agent for their specific sales team:
 
 - Select which leads should be processed by the agent by defining the selection criteria. 
+- Select security roles in the agent settings to determine which sellers have access to the agent. The agent processes only the leads that sellers in the selected security roles own.
+- Configure the email signature and AI disclaimer to include in emails the agent sends.
 - Clearly define products and value propositions to help the agent determine target customer profile suitability and personalize outreach.
 - Define target customer profile attributes based on target customers and available data in Dataverse.
 - Define budget, authority, need, and timeline (BANT) criteria to determine the lead's fit to qualify.
