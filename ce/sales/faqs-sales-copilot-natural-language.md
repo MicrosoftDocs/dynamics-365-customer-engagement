@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ about natural language chat in Copilot 
 description: Get answers to frequently asked questions about the natural language chat capability in Copilot in Dynamics 365 Sales.
-ms.date: 01/29/2026
+ms.date: 07/30/2026
 ms.update-cycle: 180-days
 ms.custom:
  - responsible-ai-faqs
@@ -86,18 +86,21 @@ The ability was tested on a set of question-and-answer datasets that were carefu
 
 ## What are the limitations of natural language chat? How can users minimize the impact of these limitations?
 
-The chat feature only works in English, which will affect customers who use localized content.
+- Questions based on sales-specific terminology work best in English. Support for other languages might vary. For the list of supported languages, view the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
+- The chat feature supports only structured data available in Dataverse tables. For answers from unstructured content such as SharePoint documents, use the [SharePoint search capability](copilot-get-doc-suggestions.md#get-answers-from-sharepoint-documents).
 
 ## What operational factors and settings allow for effective and responsible use of the natural language feature?
 
-The system doesn’t provide any setting or customization to the end user to tweak the system behavior. The feature would be enabled once copilot is enabled. Follow these procedures to make the most of this feature:
+The feature is enabled when you turn on Copilot. Administrators can also extend Copilot’s natural language capabilities by adding glossary terms. Follow these procedures to make the most of this feature:
 
 - Make sure the data in Dynamics 365 is consistent and is of high quality.
 - Be clear and precise with your question to avoid ambiguity.
 - If the question is about a sales record, then provide the relevant context. For example, show me the owner of the Opportunity “abc”.
 - Use the record picker “/” to select the exact record.
 - Avoid asking for personal information and information for which you don’t have access to, based on your company permission settings. We honor the data permission setting of your company.
-- Have realistic expectations - While copilot can generate impressive responses, it's important to remember that it's not human. It may not always understand context perfectly or provide entirely accurate information.
+- Have realistic expectations - While Copilot can generate impressive responses, remember that it's not human. It might not always understand context perfectly or provide entirely accurate information.
+- If your organization uses different sales terminology or custom fields, ask your Dynamics 365 Sales administrator to [add those terms to the glossary](extend-copilot-chat.md#add-glossary) to help Copilot better understand the context of your questions.
+- If Copilot can't find an answer in Dynamics 365 data, select the follow-up prompt to [search for the answer in SharePoint](copilot-get-doc-suggestions.md#get-answers-from-sharepoint-documents).
 
 ### Which languages are supported for natural language chat?  
 

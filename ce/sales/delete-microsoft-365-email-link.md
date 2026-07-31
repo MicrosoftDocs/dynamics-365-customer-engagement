@@ -4,8 +4,8 @@ description: Delete Microsoft 365 emails linked by Data Enrichment in Dynamics 3
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 04/22/2026
-ms.update-cycle: 90-days
+ms.date: 07/24/2026
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.collection: bap-ai-copilot

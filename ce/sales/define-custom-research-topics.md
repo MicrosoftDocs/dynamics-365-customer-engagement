@@ -2,7 +2,7 @@
 title: Define custom research insights
 description: Learn how to define custom research insights that you want your agents to generate and add preferred knowledge sources to provide tailored insights to your sellers.
 ms.topic: how-to 
-ms.date: 01/09/2026
+ms.date: 07/30/2026
 ms.service: dynamics-365-sales
 ms.custom: bap-template
 author: lavanyakr01
