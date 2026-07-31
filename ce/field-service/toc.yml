@@ -187,7 +187,9 @@ items:
     - name: Create work orders with Power Automate
       href: create-work-order-flow.md  
     - name: Create work orders using Dataverse APIs
-      href: create-work-order-api-example.md  
+      href: create-work-order-api-example.md
+    - name: Post a work order and generate an invoice
+      href: post-work-order-invoice.md  
 
 - name: Inspections
   items:
@@ -656,6 +658,8 @@ items:
               href: project-operations-integration-work-order.md
             - name: Schedule work orders
               href: project-operations-integration-work-order-schedule.md
+            - name: View scheduling warnings in the mobile app
+              href: project-operations-integration-view-warnings.md
             - name: Scan a serial or batch number in the mobile app
               href: project-operations-integration-scan-mobile.md
       - name: Known issues and limitations

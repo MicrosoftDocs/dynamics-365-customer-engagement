@@ -52,9 +52,4 @@ To schedule the work order, follow these steps:
 
 1. Use the [schedule board](work-with-schedule-board.md) or [schedule assistant](schedule-assistant.md).
 
-To see how scheduling warnings and predecessor tasks are viewed in the Field Service mobile app, watch the following video.
-
-:::image type="content" source="media/project-operations-integration-mobile-schedule.gif" alt-text="Gif of scheduling warnings and predecessor tasks in the mobile app.":::
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

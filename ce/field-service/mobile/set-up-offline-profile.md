@@ -1,7 +1,7 @@
 ---
 title: Set up the mobile offline profile
 description: Learn how to configure the mobile offline profile to work with the Dynamics 365 Field Service mobile app when no network is available.
-ms.date: 05/04/2026
+ms.date: 07/30/2026
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -83,6 +83,9 @@ You can optimize the mobile offline profile by selectively enabling columns to i
 
 <!--- Move a mobile offline profile between environments removed because it was incorrect per Jon Baker 01/30/2026. Power Apps is supposed to be coming up with a new way to do this.
 --->
+
+> [!CAUTION]
+> If an offline profile filter references a lookup table that isn't included in the offline profile, related data won't be available offline. This might result in errors or blank screens for technicians. Always ensure that all tables referenced by lookup filters are included in the offline profile.
 
 ## Verify and manage profile assignments
 
