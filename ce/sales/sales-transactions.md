@@ -1,7 +1,7 @@
 ---
 title: Manage quote, order, and invoice
 description: Understand how and when the sales transactions move to quote, order, and invoice. Learn about different quote stages and pricing behavior on orders and invoices.
-ms.date: 07/15/2025
+ms.date: 07/31/2026
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -37,7 +37,7 @@ You can start a sales transaction, such as a quote or invoice, from within the o
 
 When you create a new quote, it is automatically set to Draft, and the revision ID is set to 0.
 
-Before a quote is sent to a customer, it must be set to Active. Activating a quote makes it read-only so your versions matches the customer's version. If you revise it, the revision ID will increase by one.
+Before you send a quote to a customer, set it to Active. Activating a quote makes it read-only so your version matches the customer's version. If you revise it, the revision ID increases by one.
 
 When you close a quote, you have three choices: Lost, Canceled, or Revised. If you revise it, a new quote is created, set to Draft status, and you can start over. If you do not revise it, the quote is closed.
 

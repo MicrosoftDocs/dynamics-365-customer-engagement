@@ -1,7 +1,7 @@
 ---
 title: Enable or disable PDF generation from records
 description: Enable your users to create and share professional-looking PDF files for entity records with customers.
-ms.date: 05/29/2026
+ms.date: 07/31/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -14,9 +14,6 @@ Enable your users to create and share professional-looking PDF files of the sale
 ## Enable or disable PDF generation
 
 The PDF generation capability allows users to generate PDF files directly from Dynamics 365 records. The capability to create PDF files is supported for the following entities: Accounts, Contacts, Leads, Opportunities, Quotes, Orders, and Invoices, on both web and mobile apps. You can select the entities on which you want to enable PDF generation. 
-
-> [!IMPORTANT]
-> With the 2020 release wave 2, the PDF generation capability is enhanced to support all custom entities. The PDF enhancements are limited to the web experience and aren't available in the mobile app. If you haven't opted in, or you're using Sales Hub on the mobile app, you'll see the old experience.
 
 Select a tab based on the sales app that you use:
 
@@ -44,10 +41,6 @@ Select a tab based on the sales app that you use:
 
 After you enable PDF generation, sellers will be able to generate a PDF, download it to their local computer, save it to Dynamics 365 as Notes or save it to SharePoint. 
 
-> [!IMPORTANT]
-> - The **Save to SharePoint** button is available to users when SharePoint integration is enabled for your organization and the **Document management** check box is selected on the entity page. If they don't see the button, make sure that SharePoint integration and document management are enabled. For more information about the **Document Management** check box, see [Enable or disable entity options](/powerapps/maker/common-data-service/edit-entities#enable-or-disable-entity-options).
-> - The **Save to Dynamics** button is available to users when **Notes** is enabled for the primary entity. If they don't see the button, make sure the **Notes (includes Attachment)** check box is selected on the entity page in the **Customization** area. By default, notes are enabled on all out-of-the-box entities. For more information about the **Notes** check box, see [Entity options that can only be enabled](/powerapps/maker/common-data-service/edit-entities#entity-options-that-can-only-be-enabled). 
-
 # [Sales Professional app](#tab/salespro)
 
 **To enable or disable PDF generation**:
@@ -71,6 +64,7 @@ After you enable PDF generation, sellers will be able to generate a PDF, downloa
 
 
 After you enable PDF generation, sellers will be able to generate a PDF, download it to their local computer, save it to Dynamics 365 as Notes or save it to SharePoint. 
+---
 
 > [!IMPORTANT]
 > - The **Save to SharePoint** button is available to users when SharePoint integration is enabled for your organization and the **Document management** check box is selected on the entity page. If they don't see the button, make sure that SharePoint integration and document management are enabled. For more information about the **Document Management** check box, see [Enable or disable entity options](/powerapps/maker/common-data-service/edit-entities#enable-or-disable-entity-options).
@@ -90,7 +84,6 @@ If you're using the **Dynamics 365 for phones** mobile app, you can enable the c
 
 4. Select **Save**. 
 
----
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
