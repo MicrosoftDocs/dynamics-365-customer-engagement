@@ -1,7 +1,7 @@
 ---
 title: Copilot Studio agents and app registrations for sales agents
 description: Learn about Copilot Studio agents and Microsoft Entra app registrations used by various Dynamics 365 Sales agents.
-ms.date: 01/16/2026
+ms.date: 07/30/2026
 ms.update-cycle: 180-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
@@ -20,41 +20,72 @@ ai-usage: ai-assisted
 
 # Copilot Studio agents and Entra app registrations for sales agents
 
-Each agent in Dynamics 365 Sales can use multiple Microsoft Copilot Studio (MCS) agents, which are designed to handle specific tasks or capabilities. For example, a Sales Qualification Agent (SQA) can have MCS agents for outreach, readiness, and research.
+Each agent in Dynamics 365 Sales can use multiple skill-based agents in Microsoft Copilot Studio, which are designed to handle specific tasks or skills. For example, a Sales Qualification Agent can have skill-based agents for outreach, readiness, and research.
 
-When an MCS agent is created, Copilot Studio automatically generates an app registration in Microsoft Entra. These app registrations are managed at the tenant level. Learn more about app registrations at [App registration, certificates, and configuration values for Copilot Studio](/microsoft-copilot-studio/requirements-certificates-configuration-values).
+When you provision a skill-based agent, Copilot Studio automatically generates an app registration in Microsoft Entra. You manage these app registrations at the tenant level. To learn more about app registrations, see [App registration, certificates, and configuration values for Copilot Studio](/microsoft-copilot-studio/requirements-certificates-configuration-values).
 
-The total number of app registrations depends on the number of organizations (orgs) in the tenant and the number of agents each org uses. For example, if a tenant has 30 Dynamics 365 Sales orgs and each org uses 5 agents, Copilot Studio will create 150 app registrations (30 orgs × 5 agents each = 150 registrations) in Microsoft Entra.
+The total number of app registrations depends on the number of organizations (orgs) in the tenant and the number of agents each org uses. For example:
 
-This article lists the Copilot Studio agents and the corresponding app registrations for all Dynamics 365 Sales agents.
- 
+1. **Number of Dynamics 365 Sales orgs in the tenant**: 30 
+1. **Number of agents per org**: 5 
+1. **Total app registrations**: 30 orgs × 5 agents = **150 app registrations** in Microsoft Entra
+
+This article lists the skill-based agents in Copilot Studio for each Dynamics 365 Sales agent.
+
+
 ## Sales Qualification Agent
 
-The Sales Qualification Agent helps sales teams qualify leads effortlessly by autonomously researching leads, determining if they're a good fit for further engagement, and drafting an outreach email to the lead. Learn more about SQA in [Sales Qualification Agent overview](sales-qualification-agent.md).
+The Sales Qualification Agent helps sales teams qualify leads effortlessly by autonomously researching leads, determining if they're a good fit for further engagement, and drafting an outreach email to the lead. Learn more in [Sales Qualification Agent overview](sales-qualification-agent.md).
 
-The Sales Qualification Agent uses the following Copilot Studio agents:
+The Sales Qualification Agent provisions the following skill-based agents in Copilot Studio for both research-only and research and engage modes:
 
-- **D365 Sales Agent - Research**: This agent conducts research to gather insights and data that can help in understanding leads and tailoring the sales approach. This agent is shared across Sales Qualification Agent and Sales Close Agent.
-- **D365 Sales Agent - Competitor**: This agent analyzes competitors related to the lead, providing valuable information that can be used to position offerings effectively. This agent is shared across Sales Qualification Agent and Sales Close Agent.
-- **D365 Sales Agent - Custom Research**: This agent performs researches on custom topics as specified by the sales team to gather specific insights relevant to their sales strategy.
-- **D365 Sales Agent - Readiness**: This agent determines if the lead is a good fit for further engagement by analyzing the lead's profile against the target customer profile.
-- **D365 Sales Agent - Email Validation**: This agent verifies the validity of a lead's email ID and categorizes it as personal or work.
-- **D365 Sales Agent - Outreach**: This agent drafts an outreach email to the lead, making it easier for sales professionals to initiate contact.
-- **D365 Sales Agent - Engage Autonomous**: This agent autonomously engages with leads and answers their questions using knowledge sources configured by the administrator.
-- **D365 Sales Agent - TCP Prefill Agent**: This agent auto-generates the Target Customer Profile (TCP) based on the company description and value proposition.
-- **D365 Sales Agent - Stakeholder Research**: This agent identifies and researches key stakeholders within the lead's organization to provide insights that can help in building relationships.
-- **D365 Sales Agent - Engage Autonomous**: This agent autonomously engages with leads and answers their questions using knowledge sources configured by the administrator.
-- **D365 Sales Agent - Summary Synthesizer**: This agent synthesizes summaries of research findings and insights to provide a concise overview for sales professionals.
+| Agent | Description |
+|-------|-------------|
+| **D365 Sales Agent - Research** (`msdyn_SalesResearch`) | Conducts research to gather insights and data that can help in understanding leads and tailoring the sales approach. |
+| **D365 Sales Agent - Competitor** (`msdyn_SalesCompeteResearch`) | Analyzes competitors related to the lead, providing valuable information that can be used to position offerings effectively. |
+| **D365 Sales Agent - Custom Research** (`msdyn_SalesCustomization`) | Performs research on custom topics as specified by the sales team to gather specific insights relevant to their sales strategy. |
+| **D365 Sales Agent - Readiness** (`msdyn_SalesReadiness`) | Determines if the lead is a good fit for further engagement by analyzing the lead's profile against the target customer profile. Shared across Sales Qualification Agent and Sales Close Agent. |
+| **D365 Sales Agent - Email Validation** (`msdyn_SalesEmailValidation`) | Verifies the validity of a lead's email ID and categorizes it as personal or work. Shared across Sales Qualification Agent, Sales Close Agent, and Sales Opportunity Agent. |
+| **D365 Sales Agent - Outreach** (`msdyn_SalesOutreach`) | Drafts an outreach email to the lead, making it easier for sales professionals to initiate contact. Shared across Sales Qualification Agent and Sales Close Agent. |
+| **D365 Sales Agent - Engage Autonomous** (`msdyn_SalesEngage`) | Autonomously engages with leads and answers their questions using knowledge sources configured by the administrator. Shared across Sales Qualification Agent and Sales Close Agent. |
+| **D365 Sales Agent - TCP Prefill Agent** (`msdyn_SalesTCPPrefillAgent`) | Auto-generates the Target Customer Profile (TCP) based on the company description and value proposition. |
+| **D365 Sales Agent - Stakeholder Research** (`msdyn_StakeholderResearch`) | Identifies and researches key stakeholders within the lead's organization to provide insights that can help in building relationships. Shared across Sales Qualification Agent and Sales Opportunity Agent. |
+| **D365 Sales Agent - Summary Synthesizer** (`msdyn_SalesAgentSummarySynthesizer`) | Synthesizes summaries of research findings and insights to provide a concise overview for sales professionals. Shared across Sales Qualification Agent, Sales Close Agent, and Sales Opportunity Agent. |
+| **D365 Sales Agent - Company Resolver** (`msdyn_SalesCompanyResolver`) | Resolves and enriches company data for leads by looking up company information such as industry, size, and location to support qualification research. |
+| **Sales Qualification Agent Config Assistant** (`msdyn_SQASetupAgent`) | Guides administrators through the configuration and setup of the Sales Qualification Agent, helping to define target customer profiles and configure agent settings. |
 
 ## Sales Close Agent
 
 The Sales Close Agent helps sales teams close deals faster by autonomously researching opportunities, provides visibility into emerging risks, and engages with customers for outreach and follow-up. Learn more in [Sales Close Agent overview](sales-close-agent.md).
 
-The Sales Close Agent uses the following Copilot Studio agents:
+The Sales Close Agent provisions the following skill-based agents in Copilot Studio:
 
-- **D365 Sales Agent - Research**: This agent conducts research to gather insights and data that can help in understanding opportunities and tailoring the sales approach. This agent is shared across Sales Qualification Agent and Sales Close Agent.
-- **D365 Sales Agent - Competitor**: This agent analyzes competitors related to the opportunity, providing valuable information that can be used to position offerings effectively. This agent is shared across Sales Qualification Agent and Sales Close Agent.
-- **D365 Sales Agent - Custom Research**: This agent performs researches on custom topics as specified by the sales team to gather specific insights relevant to their sales strategy.
+| Agent | Description |
+|-------|-------------|
+| **Sales Close Agent** (`msdyn_SalesIntentEngage`) | Orchestrates the deal-closing process by understanding and routing user intents, coordinating with other agents to deliver insights and facilitate sales activities. |
+| **Email draft generation** (`msdyn_salesEmailGenerator`) | Generates professional email drafts for customer follow-up and outreach, supporting sales professionals in maintaining communication throughout the deal cycle. |
+| **D365 Sales Agent - Email Validation** (`msdyn_SalesEmailValidation`) | Verifies the validity of a customer's email ID and categorizes it as personal or work. Shared across Sales Qualification Agent, Sales Close Agent, and Sales Opportunity Agent. |
+| **D365 Sales Agent - Engage Autonomous** (`msdyn_SalesEngage`) | Autonomously engages with customers and answers their questions using knowledge sources configured by the administrator. Shared across Sales Qualification Agent and Sales Close Agent. |
+| **D365 Sales Agent - Outreach** (`msdyn_SalesOutreach`) | Drafts outreach emails to customers, making it easier for sales professionals to follow up on opportunities. Shared across Sales Qualification Agent and Sales Close Agent. |
+| **D365 Sales Agent - Readiness** (`msdyn_SalesReadiness`) | Assesses deal readiness by analyzing the opportunity against key criteria to help determine the likelihood of closing. Shared across Sales Qualification Agent and Sales Close Agent. |
+| **D365 Sales Agent - Summary Synthesizer** (`msdyn_SalesAgentSummarySynthesizer`) | Synthesizes summaries of research findings and insights to provide a concise overview for sales professionals. Shared across Sales Qualification Agent, Sales Close Agent, and Sales Opportunity Agent. |
+
+## Sales Opportunity Agent
+
+The Sales Opportunity Agent helps sales teams manage and advance open opportunities by autonomously researching accounts, competitors, and stakeholders, and by providing actionable insights throughout the sales cycle. Learn more in [Sales Opportunity Agent overview](sales-opportunity-agent.md).
+
+The Sales Opportunity Agent provisions the following skill-based agents in Copilot Studio:
+
+| Agent | Description |
+|-------|-------------|
+| **Sales Opportunity Agent** (`msdyn_SalesOpportunityResearchAgent`) | Conducts research on opportunities by analyzing account data, competitive landscape, and stakeholder information to provide comprehensive insights for sales professionals. |
+| **Sales Opportunity Agent - Account Research** (`msdyn_OpportunityAccountResearch`) | Researches the accounts associated with an opportunity, providing insights on company background, recent news, and strategic information to support deal progression. |
+| **Sales Opportunity Agent - Custom Research** (`msdyn_SalesOpportunityResearchCustomizationAgent`) | Performs research on custom topics as specified by the sales team to gather specific insights relevant to the opportunity. |
+| **Sales Opportunity Agent - Compete Research** (`msdyn_SalesCloseCompeteResearchAgent`) | Analyzes competitors related to the opportunity, providing competitive intelligence to help position offerings effectively. |
+| **Sales Opportunity Agent - Stakeholder** (`msdyn_SalesStakeholderAgent`) | Maps and profiles key stakeholders involved in the opportunity to help sales professionals navigate the decision-making process and build strategic relationships. |
+| **D365 Sales Agent - Stakeholder Research** (`msdyn_StakeholderResearch`) | Identifies and researches key stakeholders within the opportunity's organization to provide insights that can help in building relationships. Shared across Sales Qualification Agent and Sales Opportunity Agent. |
+| **D365 Sales Agent - Email Validation** (`msdyn_SalesEmailValidation`) | Verifies the validity of a contact's email ID and categorizes it as personal or work. Shared across Sales Qualification Agent, Sales Close Agent, and Sales Opportunity Agent. |
+| **D365 Sales Agent - Summary Synthesizer** (`msdyn_SalesAgentSummarySynthesizer`) | Synthesizes summaries of research findings and insights to provide a concise overview of the opportunity for sales professionals. Shared across Sales Qualification Agent, Sales Close Agent, and Sales Opportunity Agent. |
 
 ## Copilot in Dynamics 365 Sales
 
