@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 06/26/2026
+ms.date: 07/31/2026
 ms.custom:
   - dyn365-customerservice
   - bap-template
@@ -246,6 +246,9 @@ You can perform the following actions on knowledge articles you view inline:
 The copy and email options are available only if the knowledge article is [published on an external portal](../administer/set-up-knowledge-management-embedded-knowledge-search.md).
 
 ### View the knowledge article on a new window
+
+> [!NOTE]
+> The standalone knowledge article page is optimized for readability and uses a fixed maximum width of 768 px. As a result, content might appear narrower when you open the article in a separate window.
 
 In Customer Service Hub, in the **Knowledge Search** reference pane, select the pop-out option to view the article on a new window.
 
