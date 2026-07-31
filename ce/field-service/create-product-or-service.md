@@ -1,7 +1,7 @@
 ---
 title: Create products or services for work orders
 description: Learn how to create products or services for work orders in Dynamics 365 Field Service.
-ms.date: 11/12/2025
+ms.date: 06/26/2026
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -19,6 +19,15 @@ If a field technician uses a product or performs a service while on the job, the
 
 > [!NOTE]
 > Field Service doesn't support product bundles.
+
+The following table summarizes the key differences between work order products and work order services.
+
+| Attribute | Work order products | Work order services |
+|---|---|---|
+| What they represent | Physical parts and materials | Labor and work performed |
+| Tracked by | Quantity &times; unit price | Duration (hours/minutes) |
+| Inventory impact | Reduces warehouse or truck stock for inventory-type products | No inventory impact |
+| Billing | Per unit at the price list rate | Per hour at the price list rate |
 
 In this article, learn how to create products and services, add them to work orders, and review inventory settings.
 
