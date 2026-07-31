@@ -1,7 +1,7 @@
 ---
 title: Move the opportunity through different stages
 description: Learn about the different stages of an opportunity and how to move the opportunity through the stages.
-ms.date: 07/11/2025
+ms.date: 07/31/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -44,6 +44,8 @@ After you gather the basic details about the customer, move the opportunity to t
     |**Estimated Budget**     |Enter the estimated budget of the customer. This amount is different from the estimated revenue. Depending on the budget the customer has, you can decide the products that best fit the budget.         |
     |**Purchase Process**     | Select whether the purchase decision is made by an individual or committee.        |
     |**Identify Decision Maker**     |Mark as complete after you identify the decision maker. More information: [Add stakeholders and decision makers for the opportunity](add-stakeholder.md#add-stakeholders-and-decision-makers-for-the-opportunity)         |
+    |**Capture summary**     |(Optional) Enter a summary of the opportunity.          |
+
 1. Select **Next Stage**.  
     The opportunity moves to the **Develop** stage of the process.
 
