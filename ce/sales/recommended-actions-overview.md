@@ -55,6 +55,5 @@ Your role in the sales process determines how you use recommended actions.
 
 | User role | Reference |
 |-----------|-----------|
-| Administrator | [Configure recommended actions](configure-recommended-actions.md) |
+| Administrator | [Configure recommended actions](configure-recommended-actions.md)<br>[Integrate custom agents with Recommended Actions Agent](developer/recommended-actions-api.md) |
 | Seller | [View and act on recommended actions](next-best-actions-to-manage-opportunities.md) |
-

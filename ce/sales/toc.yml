@@ -1392,6 +1392,10 @@ items:
         href: developer/developer-guide.md
       - name: Understand terminology
         href: /power-apps/developer/data-platform/understand-terminology?context=/dynamics365/context/sales-context
+      - name: AI agents
+        items:
+          - name: Integrate custom agents with Recommended Actions Agent
+            href: developer/recommended-actions-api.md
       - name: Sales tables
         items:
           - name: Sales tables (lead, opportunity, competitor, quote, order, invoice)
