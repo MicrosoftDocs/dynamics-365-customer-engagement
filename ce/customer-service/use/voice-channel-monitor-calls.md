@@ -4,20 +4,20 @@ description: Learn how to monitor calls in the voice channel for Omnichannel for
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
-ms.date: 09/30/2025
+ms.date: 07/31/2026
 ms.topic: how-to
+ms.custom: bap-template
 ---
 
-# Monitor calls
+# Monitor calls in the voice channel
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-As a supervisor, it's useful to be able to monitor the calls between your customer service representatives (service representatives or representatives) and their customers without interrupting them to help identify which calls need attention. You can monitor the conversations without being seen as a participant by the service representative or customer, and then step into conversations when more support is needed.
+As a supervisor, you can monitor the calls between your customer service representatives (service representatives) and their customers without interrupting them. This monitoring helps you identify which calls need attention. You can monitor the conversations without being seen as a participant by the service representative or customer, and then step into conversations when more support is needed.
 
 ## Prerequisites
 
-To monitor calls in the voice channel, you must have the **Omnichannel Supervisor** role. This role allows you to join and consult in ongoing conversations.
-
+To monitor calls in the voice channel, you must have the **Omnichannel Supervisor** role. This role grants you the ability to join and consult in ongoing conversations.
 
 ## Monitor ongoing conversations
 
@@ -30,21 +30,21 @@ To find out details about an individual conversation:
 
 - On the **Omnichannel Ongoing Conversations dashboard**, select the conversation in the list of active conversations, and then select **Monitor**.
 
-## Consult with an agent during a conversation
+## Consult with a representative during a conversation
 
 As a supervisor, you can privately consult with a representative by sending them messages that are hidden from the customer. Consulting on a call doesn't affect your capacity.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of monitoring a conversation.](../media/voice-channel-monitor-barge.png)
+> 
+## Join conversation (barge)
 
-## Join a conversation (also known as barge)
-
-If needed, you can select **Join call** to enter the conversation and speak with the service representative, customer, or chat with the service representative privately. When you join a conversation, the service representative is notified that you joined.
+If needed, select **Join call** to enter the conversation and speak with the service representative, customer, or chat with the service representative privately. When you join a conversation, the service representative receives a notification that you joined.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of conversation barge.](../media/voice-channel-join-call.png)
 
-By joining a conversation, you have access to call controls that allow you to capture details about the conversation, pause the conversation if needed, and engage with the representative and customer as needed.
+When you join a conversation, you get access to call controls that you can use to capture details about the conversation, pause the conversation if needed, and engage with the representative and customer as needed.
 
 ### Related information
 
