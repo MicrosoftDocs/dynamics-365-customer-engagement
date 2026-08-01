@@ -1,11 +1,12 @@
 ---
 title: Monitor real-time customer sentiment 
-description: This article provides information about how to monitor real-time customer sentiment and analyze customer satisfaction levels.
-ms.date: 09/30/2025
+description: Learn how to monitor real-time customer sentiment and analyze customer satisfaction levels in Dynamics 365 Customer Service.
+ms.date: 07/31/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
+ms.custom: bap-template
 ---
 
 # Monitor real-time customer sentiment
@@ -14,7 +15,7 @@ ms.reviewer: laalexan
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-As a customer service representative, when you interact with your customers, it's helpful to be able to check the sentiments they're experiencing in real time. Analysis of the customer's satisfaction level helps you understand how serious the problem is and develop a course of action to solve it. In the application, you can see the customer's satisfaction levels instantly while you communicate with the customer.
+As a customer service representative, you can monitor customer sentiment in real time during conversations. Real-time sentiment analysis helps you assess customer satisfaction, understand the urgency of an issue, and determine an appropriate response. In the application, you can see the customer's satisfaction levels instantly while you communicate with the customer.
 
 ## View real-time customer sentiment
 
@@ -24,12 +25,11 @@ When you get an incoming conversation request, you accept the request and commun
 
 When a conversation is escalated from an AI agent, the sentiment icon you see is based on the previous messages exchanged between the customer and the agent.
 
-> [!div class=mx-imgBorder]
-> ![Very positive sentiment.](../media/sentiment-very-positive-cc.png "Very positive sentiment")
+:::image type="content" source="../media/sentiment-very-positive-cc.png" alt-text="Conversation panel showing a very positive customer sentiment indicator.":::
 
 ## Understand real-time customer sentiment
 
-The sentiment analysis is an automatic and unbiased measurement of customer satisfaction levels in real time.
+Sentiment analysis automatically measures customer satisfaction levels in real time.
 
 The following sentiment icons are displayed on the communication panel.
 
@@ -40,10 +40,10 @@ The following sentiment icons are displayed on the communication panel.
 | Slightly positive | ![Slightly positive sentiment.](../media/sentiment-slightly-positive.png "Slightly positive sentiment") |
 | Neutral | ![Neutral sentiment.](../media/sentiment-neutral.png "Neutral sentiment") |
 | Slightly negative | ![Slightly negative sentiment.](../media/sentiment-slightly-negative.png "Slightly negative sentiment") |
-| Negative | ![Negative sentiment.](../media/sentiment-negative.png " Negative sentiment") |
+| Negative | ![Negative sentiment.](../media/sentiment-negative.png "Negative sentiment") |
 | Very negative | ![Very negative sentiment.](../media/sentiment-very-negative.png "Very negative sentiment") |
 
-> [!Note]
+> [!NOTE]
 > The real-time sentiment is shown to you only if the supervisor or administrator has enabled sentiment analysis for a queue where you've been added as a member.
 
 If profanity is detected in English, the sentiment is displayed as **Negative** or **Very negative**.
@@ -51,11 +51,11 @@ If profanity is detected in English, the sentiment is displayed as **Negative** 
 > [!div class="nextstepaction"]
 > [Next topic: Manage presence status](oc-manage-presence-status.md)
 
-## Multi-language sentiment
+## Monitor sentiment in multiple languages
 
 Multi-language sentiment displays sentiment scores on some non-English conversations.
 
-> [!Note]
+> [!NOTE]
 >
 > Multi-language sentiment is available only if the administrator enables it for you.
 

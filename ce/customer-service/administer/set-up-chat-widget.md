@@ -1,17 +1,13 @@
 ---
 title: Introduction to the chat channel
-description: Learn about the chat channel to quickly resolve customer queries with features like quick replies, whisper, barge, consult, and transfer.
-ms.date: 02/05/2025
-ms.topic: reference
+description: Learn how to use the chat channel in Dynamics 365 Customer Service and Dynamics 365 Contact Center to help customers with chat features such as quick replies, consult, transfer, whisper, and barge.
+ms.date: 07/31/2026
+ms.topic: overview
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.collection:
-ms.custom:
-  - bap-template
-  - ai-gen-docs-bap
-  - ai-gen-desc
-  - ai-seo-date:09/28/2023
+ms.custom: bap-template
 ---
 
 # Introduction to the chat channel
@@ -20,9 +16,9 @@ ms.custom:
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-Chat is a widely desired channel through which customers prefer to reach customer support. Customers appreciate being able to chat with customer service representatives (service representatives or representatives) when self-service options don’t allow them to solve their own issues.
+Chat is a popular channel that customers use to contact customer support. Customers can chat with customer service representatives (service representatives) when self-service options don't resolve their issues.
 
-Dynamics 365 Customer Service offers full featured, first-party chat capabilities for service representatives to support customers. Chat transcripts from Copilot Studio or their peers and pre-conversation survey data transfers to live representatives to maintain full context of the customer issue as it moves between channels and people. They can help customers in the language of their choice with real-time translation, and escalate to voice and video if a visual demonstration and audio are needed to help customers. Features like quick replies, whisper, barge, consult, and transfer to other agents ensure that representatives can handle any workflow while chatting with customers.
+Dynamics 365 Customer Service provides first-party chat capabilities that help customer service representatives support customers. Chat transcripts from Copilot Studio or their peers and pre-conversation survey data transfer to live representatives to maintain full context of the customer issue as it moves between channels and people. They can help customers in the language of their choice with real-time translation, and escalate to voice and video if a visual demonstration and audio are needed to help customers. Features such as quick replies, whisper, barge, consult, and transfer help representatives collaborate with other customer service representatives and manage customer conversations efficiently.
 
 A chat widget lets your customers connect with your customer service representatives and resolve their queries quickly.
 
@@ -37,7 +33,7 @@ You'll learn how to:
 > [!NOTE]
 > The chat widget requires session storage and local storage to be functional in your customers’ browsers. Make sure to notify your customers to enable cookies in their browsers so these services can work properly.
 
-## Disclaimer
+## Telemetry and data collection
 
 Microsoft automatically collects data to improve the reliability and performance of our products and to understand how the products are being used. This information is used to make improvements to the product capabilities over time. The live chat widget in Chat for Dynamics 365 collects telemetry automatically from end users to serve the same purposes. 
 
@@ -49,14 +45,15 @@ A few examples of data collected by the live chat widget are as follows.
 | Chat Widget Version | prod |
 | BrowserName | Edge |
 | OSName | Windows |
-| Scrubbed IP Address (last octet redacted) | 19.207.000.000 | 
+| Scrubbed IP address (last octet redacted) | 19.207.000.000 | 
     
 No personally identifiable information (PII) is collected.  
 
 If your organization is concerned about the data collected by this service, you have the option to turn off automatic data collection by adding an html attribute to the chat widget script. 
 
-`"data-enable-telemetry" = "false"`
-
+```html
+data-enable-telemetry="false"
+```
 ### Videos
 
 Learn more about Omnichannel for Customer Service in [Videos](../use/videos.md).

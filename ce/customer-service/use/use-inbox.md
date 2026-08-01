@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to 
-ms.date: 02/28/2026
+ms.date: 07/31/2026
 ms.custom: bap-template 
 ---
 
@@ -16,11 +16,11 @@ ms.custom: bap-template
 > [!NOTE]
 > Case is applicable to Customer Service only.
 
-The inbox gives you a quick view of your assigned cases, conversations, and records. You can use it as your central place to locate, manage, and complete your day-to-day work. It can help you efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when you need more time to resolve cases and finish your conversations.
+The inbox gives you a quick view of your assigned cases, conversations, and records. Use it as a central place to locate, manage, and complete your daily work. You can also promote inbox sessions to regular sessions when you need more time to resolve cases or complete conversations.
 
-The view you see in your inbox depends on how your administrator configured it. More information: [Configure the inbox](../administer/configure-inbox.md).
+The view in your inbox depends on how your administrator configured it. Learn more in [Configure the inbox](../administer/configure-inbox.md).
 
-Depending on how your inbox is configured, you might see any of the following channels:
+Depending on how your inbox is configured, it might display any of the following channels:
 
 - Live chat
 - Asynchronous chat
@@ -45,13 +45,13 @@ To filter your inbox view:
 
 1. In the inbox, select the **Filter** icon.
 
-   :::image type="content" source="../media/inbox-agent-filter-view.png" alt-text="View of the filter icon in inbox.":::
+   :::image type="content" source="../media/inbox-agent-filter-view.png" alt-text="Filter options for the inbox.":::
 
 1. Select the required filter views. The following options are available:
 
    - **Filter**
        - **All** - Displays both read and unread items.
-       - **Unread** - Displays only unopened items.
+       - **Unread** - Shows only unread items.
        - **Read** - Displays only opened items.
          
    - **Sort by**
@@ -62,7 +62,7 @@ To filter your inbox view:
        - **Oldest on top** - Displays oldest items first in the inbox.
        - **Latest on top** - Displays most recent items first in the inbox.
 
-### Related information
+## Related information
 
 [Configure the inbox](../administer/configure-inbox.md)  
 

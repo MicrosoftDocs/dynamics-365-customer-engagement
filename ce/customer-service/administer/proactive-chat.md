@@ -1,20 +1,21 @@
 ---
 title: Configure proactive chat
 description: Learn how to enable and configure proactive chat in Dynamics 365 Contact Center and how it works at runtime.
-ms.date: 02/05/2025
+ms.date: 07/31/2026
 ms.topic: reference
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
+ms.custom: bap-template
 ---
 
 # Configure proactive chat
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-A chat channel allows your customers to engage with customer service representatives (service representatives or representatives) using the chat widget on a website. Proactive chat allows service representatives to engage with customers by automatically inviting them to a chat conversation based on the configured rules. Proactively engaging with a customer at the time when they need help improves customer experience and satisfaction.
+A chat channel allows your customers to engage with customer service representatives (service representatives or representatives) by using the chat widget on a website. Proactive chat allows service representatives to engage with customers by automatically inviting them to a chat conversation based on the configured rules. Proactively engaging with a customer when they need can improve customer experience and satisfaction.
 
-Information about the user journey, time spent on a web page, and more can be used to decide when to engage with a customer. You can control the proactive chat experience by using personalized trigger messages and configurable rules to define the target audience, time frame, and target location.
+Information such as a customer's journey through a website and time spent on a page can be used to determine when to initiate proactive chat. You can control the proactive chat experience by using personalized trigger messages and configurable rules to define the target audience, time frame, and target location.
 
 > [!NOTE]
 > Proactive chat can be triggered only on pages where the chat widget is embedded.
@@ -40,7 +41,7 @@ When a customer accepts the proactive chat invitation, a service representative 
 > [!div class=mx-imgBorder]
 > ![Agent experience of proactive chat agent notification.](../media/proactive-chat-agent.png "Agent experience of proactive chat agent notification")
 
-The representative then accepts the chat request and starts conversing with the customer to provide the required help. The [**Active Conversation**](../use/oc-customer-summary.md) is loaded and displayed if the customer’s details match the stored data. 
+The representative then accepts the chat request and starts conversing with the customer to provide the required help. The [**Active Conversation**](../use/oc-customer-summary.md) is loaded and displayed if the customer's details match the stored data. 
 
 If your administrator or developer configures the **Additional details** tab and if there are additional context variables, such as time spent on a page and the page URL from where the chat is initiated, they are displayed on the **Additional details** tab. 
 

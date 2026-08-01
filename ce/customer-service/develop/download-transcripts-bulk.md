@@ -1,17 +1,18 @@
 ---
-title: "Download Dynamics 365 Contact Center transcripts in bulk | MicrosoftDocs"
-description: "Learn about transcripts in Dynamics 365 Contact Center and how to download them in bulk using Web API requests."
-ms.date: 09/18/2024
+title: Download Dynamics 365 Contact Center transcripts in bulk
+description: "Learn how to download transcripts and attachments in bulk from Dynamics 365 Contact Center by using Dataverse Web API requests."
+ms.date: 07/31/2026
 ms.topic: reference
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
+ms.custom: bap-template
 ---
 # Download Dynamics 365 Contact Center transcripts in bulk
 
-Dynamics 365 Contact Center transcripts are stored in base64 encoded format in the annotations table in Microsoft Dataverse. Attachments are stored as separate records in the annotations table. If a conversation has two files exchanged between the agent and the customer, a total of three records are created related to this conversation. Any conversation always has n+1 records stored for it in the annotations table, where n is the number of attachments in the conversation. Attachments are also base64 encoded before being saved.
+Dynamics 365 Contact Center transcripts are stored in base64 encoded format in the annotations table in Microsoft Dataverse. Attachments are stored as separate records in the annotations table. If a conversation has two files exchanged between the customer service representative (service representative) and the customer, three records are created related to that conversation. For each conversation, Dataverse stores one transcript record plus one record for each attachment exchanged during the conversation. Attachments are also base64 encoded before being saved.
 
-The option to download transcripts in bulk isn't available out of the box. You can use the following Web API requests to retrieve all the transcripts and attachments exchanged in the past one month.
+The option to download transcripts in bulk isn't available out of the box. You can use the following Web API requests to retrieve transcript and attachment records. Add additional filters to limit results to a specific date range.
 
 The following Web API request retrieves all the textual transcripts:
 
@@ -32,7 +33,7 @@ OData-Version: 4.0
 
 The `documentBody` attribute in the response obtained from each of the web API requests contains the base64 encoded transcript or attachment.
 
-You can call the APIs using C# code and then iterate over each of the returned records, access the `documentBody` attribute, and process it to get the whole transcripts.
+You can call the APIs using C# code and then iterate over each of the returned records, access the `documentBody` attribute, and process it to get the complete transcripts.
 
 At least one message sent by a customer is required to generate a transcript.
 
@@ -46,7 +47,7 @@ The transcripts you see in the link can contain different types of messages:
 
 On each of these types of messages, you can see a `createdDateTime` field that denotes the exact time at which this message was posted or created.
 
-A control message is of no visual value and indicates an event like agent joined or left the conversation. It usually has a flag called `isControlMessage` set to `true`.
+A control message is of no visual value and indicates an event like service representative joined or left the conversation. It usually has a flag called `isControlMessage` set to `true`.
 
 ```http
 {
@@ -66,7 +67,7 @@ A control message is of no visual value and indicates an event like agent joined
     "from": null
 },
 ```
-A system message is a special type of message displayed to the customer regarding events during the conversations. For example, when an agent joins, when an agent disconnects, and when a new agent joins.
+A system message is a special type of message displayed to the customer regarding events during the conversations. For example, when an service representative joins, when an service representative disconnects, and when a new service representative joins.
 
 ```http
 {
@@ -137,7 +138,7 @@ Text messages exchanged during the chat between agent and customer appear as fol
 
 As seen in the preceding code, messages sent by the customer have a display name of "Customer" if they're an unidentified customer, or their actual name if they're known to Dynamics 365 Contact Center.
 
-For messages the agent send to a customer, there are tags that denote that it's a "public" message. Messages marked with "private" in the tags are messages exchanged between two agents and aren't visible to the customer.
+For messages the service representative sends to a customer, there are tags that denote that it's a "public" message. Messages marked with "private" in the tags are messages exchanged between two service representatives and aren't visible to the customer.
 
 ```http
 {
