@@ -610,7 +610,8 @@ For sample schema to get all the required records, go to [Sample schema for over
 						</filter>
 					</link-entity>
 				</link-entity>
-			</entity> 
+			</entity>
+		</fetch>
 ```
 
 
