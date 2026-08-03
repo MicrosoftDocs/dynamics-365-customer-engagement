@@ -2,7 +2,7 @@
 title: Configure requirements for Sales Qualification Agent
 description: Learn how to configure the requirements for the Research-only and Research and engage modes of the Sales Qualification Agent in Dynamics 365 Sales.
 ms.topic: how-to
-ms.date: 07/31/2025
+ms.date: 08/03/2026
 ms.update-cycle: 180-days
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -16,13 +16,13 @@ ai-usage: ai-assisted
 
 # Configure requirements for Sales Qualification Agent
 
-Before you configure the agents, ensure that prerequisites are configured in your Dynamics 365 Sales environment. Depending on the type of automation, you must configure the requirements as follows:
+Before you configure the agents, make sure your Dynamics 365 Sales environment meets the prerequisites. Depending on the type of automation, configure the requirements as follows:
 
 | Prerequisite | Applicable for | Description |
 |--------------|------------|-------------|
-| Create application in Azure | Research-only and Research and engage | An Azure AD application is required to securely authenticate the agent’s Dataverse Application User, enabling it to act independently via app-based access.<br>More information: [Create application in Azure](#create-application-in-azure) |
+| Create application in Azure | Research-only and Research and engage | You need an Azure AD application to securely authenticate the agent’s Dataverse Application User, so it can act independently through app-based access.<br>More information: [Create application in Azure](#create-application-in-azure) |
 | Create an app user in Dataverse | Research-only and Research and engage | Create a Dataverse app user so the agent can act independently, like send emails, own records, and more.<br>More information: [Create an app user in Dataverse and assign AISalesPerson role](#create-an-app-user-in-dataverse-and-assign-aisalesperson-role) |
-| Create a shared mailbox | Research and engage | The agent mailbox that will be used to send emails and follow-ups in compliance with your org’s policies.<br>More information: [Create a shared mailbox](#create-a-shared-mailbox) |
+| Create a shared mailbox | Research and engage | The agent mailbox that you use to send emails and follow-ups in compliance with your org’s policies.<br>More information: [Create a shared mailbox](#create-a-shared-mailbox) |
 | Configuring server-side synchronization | Research and engage | Connect Dynamics 365 Sales and Exchange to sync emails, contacts, tasks, and calendar.<br>More information: [Configuring server-side synchronization](#configuring-server-side-synchronization) |
 
 ## Create application in Azure
@@ -41,7 +41,7 @@ Before you configure the agents, ensure that prerequisites are configured in you
     > You can also create the application in the Azure portal by going to **Microsoft Entra ID** > **App registrations** and then selecting **New registration**.
 
 1. Select **Register**.  
-    Your app is created, and details are displayed. Copy the created Application (client) ID to be used while creating app user in your Dynamics 365 organization.  
+    Your app is created, and details are displayed. Copy the created Application (client) ID to use when creating the app user in your Dynamics 365 organization.  
 
 1. Go back to the agent settings page and select the **Mark as done** checkbox in the **Create app in Azure** section. You must select this checkbox to proceed with the agent configuration.  
 
@@ -49,7 +49,7 @@ To learn more about app creation, see [Quickstart: Register an app in Microsoft 
 
 ## Create a shared mailbox
 
-1. Ensure that you have one of the following roles in Microsoft Office 365 admin portal&madsh; **Office 365 Global Administrator**, **Exchange Administrator**, or **Exchange Recipient Administrator**.
+1. Ensure that you have one of the following roles in Microsoft 365 admin portal&madsh; **Global Administrator**, **Exchange Administrator**, or **Exchange Recipient Administrator**.
 1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
 1. In the agent settings page, go to the **Prerequisites** section, and in the **Create shared mailbox** section, select **Set up**.
 
@@ -63,7 +63,7 @@ To learn more about app creation, see [Quickstart: Register an app in Microsoft 
     :::image type="content" source="media/sqa-settings-add-shared-mailbox.png" alt-text="Screenshot of adding a shared mailbox in the Exchange admin center.":::
 
 1. Select **Create**.  
-    A shared mailbox is created. Now, you can create and add app users to this mailbox as described in the following section.  
+    The shared mailbox is created. Now, you can create and add app users to this mailbox as described in the following section.  
 1. Go back to the agent settings page and select the **Mark as done** checkbox in the **Create shared mailbox** section. You must select this checkbox to proceed with the agent configuration.  
 
 To learn more about shared mailboxes, see [Shared mailboxes in Exchange Online](/exchange/collaboration-exo/shared-mailboxes).
@@ -89,7 +89,7 @@ To learn more about app users, see [Manage application users in the Power Platfo
 
 1. Ensure that you have the following roles:  
     - **System Administrator** for your Dynamics 365 organization.  
-    - **Office 365 Global Administrator** or **Exchange Administrator** in Microsoft Office 365 admin portal.  
+    - **Global Administrator** or **Exchange Administrator** in Microsoft 365 admin portal.  
 1. In the agent settings page, go to the **Prerequisites** section, and in the **Configure server side sync** section, select **Set up**.  
 
     :::image type="content" source="media/sqa-settings-configure-server-side-sync.png" alt-text="Screenshot of selecting set up in the configure server side sync section.":::
@@ -98,6 +98,10 @@ To learn more about app users, see [Manage application users in the Power Platfo
     > You can also configure server-side synchronization in your Dynamics 365 organization by going to **Advanced Settings** > **System** > **Email Configuration** > **Mailboxes**.
 1. Change the view to **All Mailboxes** and select the mailbox associated with the created application user.  
 1. Replace the email address with that of the shared mailbox and then select **Approve Email**.  
+
+    > [!NOTE]
+    > In the **Synchronization Method** section, ensure that the **Appointment, Contacts and Tasks** option is set to **None**. This setting isn't required for the agent user, as the agent only needs mailbox synchronization.
+
 1. Select **Test & Enable Mailbox** to verify that the server-side sync is established successfully for the email. When successful, the incoming and outgoing email status display Success under the Configuration Status section.  
 1. Go back to the agent settings page and select the **Mark as done** checkbox in the **Configure server side sync** section. You must select this checkbox to proceed with the agent configuration.  
 
