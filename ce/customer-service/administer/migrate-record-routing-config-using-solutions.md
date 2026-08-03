@@ -752,7 +752,6 @@ For sample schema to get all the required records, go to [Sample schema for over
 **Sample 1: Operating hours for all queues**<a name="BKMK1-oh"></a>
 
 ```xml
-XMLCopy
         <fetch>
             <entity name="msdyn_operatinghour">
                 <link-entity name="queue" from="msdyn_operatinghourid" to="msdyn_operatinghourid" link-type="inner" alias="aa">
@@ -769,7 +768,6 @@ XMLCopy
 **Sample 2: Operating hours for a single queue**<a name="BKMK2-oh"></a>
 
 ```xml
-XMLCopy
         <fetch>
             <entity name="msdyn_operatinghour">
                 <link-entity name="queue" from="msdyn_operatinghourid" to="msdyn_operatinghourid" link-type="inner" alias="ab">
@@ -786,7 +784,6 @@ XMLCopy
 **Sample 3: Operating hours for multiple queues**<a name="BKMK3-oh"></a>
 
 ```xml
-XMLCopy
         <fetch>
             <entity name="msdyn_operatinghour">
                 <link-entity name="queue" from="msdyn_operatinghourid" to="msdyn_operatinghourid" link-type="inner" alias="ab">
@@ -804,7 +801,6 @@ XMLCopy
 ### FetchXML for overflow action configurations<a name="BKMK1-ov"></a>
 
 ```xml
-XMLCopy
 <fetch>
   <entity name="msdyn_overflowactionconfig">
     <filter type="and">
@@ -819,7 +815,6 @@ XMLCopy
 **Sample 1: Decision contracts for all record queues with prequeue overflow defined**<a name="BKMK1-po-contract"></a>
 
 ```xml
-XMLCopy
 <fetch distinct="true">
    <entity name="msdyn_decisioncontract">
        <filter type="or">
@@ -847,7 +842,6 @@ XMLCopy
 **Sample 2: Decision contracts for a single record queue with prequeue overflow defined**<a name="BKMK2-po-contract"></a>
 
 ```xml
-XMLCopy
 <fetch distinct="true">
   <entity name="msdyn_decisioncontract">
     <filter type="or">
@@ -871,7 +865,6 @@ XMLCopy
 **Sample 3: Decision contracts for multiple record queues with prequeue overflow defined**<a name="BKMK3-po-contract"></a>
 
 ```XML
-XMLCopy
 <fetch distinct="true">
   <entity name="msdyn_decisioncontract">
     <filter type="or">
@@ -903,7 +896,6 @@ XMLCopy
 **Sample 1: Decision ruleset for all record queues with prequeue overflow defined**<a name="BKMK1-po-ruleset"></a>
 
 ```XML
-XMLCopy
 <fetch distinct="true">
   <entity name="msdyn_decisionruleset">
     <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
@@ -920,7 +912,6 @@ XMLCopy
 **Sample 2: Decision ruleset for a single record queue with prequeue overflow defined**<a name="BKMK2-po-ruleset"></a>
 
 ```XML
-XMLCopy
 <fetch distinct="true">
   <entity name="msdyn_decisionruleset">
     <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
@@ -935,7 +926,6 @@ XMLCopy
 **Sample 3: Decision ruleset for multiple record queues with prequeue overflow defined**<a name="BKMK3-po-ruleset"></a>
 
 ```XML
-XMLCopy
 <fetch distinct="true">
   <entity name="msdyn_decisionruleset">
     <link-entity name="queue" from="msdyn_prequeueoverflowrulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
