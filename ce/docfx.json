@@ -156,9 +156,9 @@
         ]
       },
       "ms.service": {
-        "mobile-app/**.*": "d365ce-op",
+        "mobile-app/**.*": "dynamics-365-ce-op",
         "legal/**.*": "dynamics-365",
-        "outlook-addin/**.*": "d365ce-op",
+        "outlook-addin/**.*": "dynamics-365-ce-op",
         "outlook-app/**.*": "dynamics-365-outlook-app",
         "app-profile-manager/**.*": "dynamics-365-customer-service",
         "channel-integration-framework/**.*": "dynamics-365-customer-service",
@@ -172,8 +172,8 @@
         "sales/**.*": "dynamics-365-sales",
         "versium-predict/**.*": "dynamics-365-sales",
         "teams-integration/**.*": "dynamics-365",
-        "admin/**.*": "d365ce-op",
-        "customerengagement/**.*": "d365ce-op",
+        "admin/**.*": "dynamics-365-ce-op",
+        "customerengagement/**.*": "dynamics-365-ce-op",
         "developer/**.*": "dynamics-365"
       },
       "ms.prod": {
