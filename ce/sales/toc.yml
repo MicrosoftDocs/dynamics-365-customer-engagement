@@ -174,7 +174,7 @@ items:
               - name: Configure requirements for Sales Qualification Agent
                 href: configure-requirements-for-sqa-agent.md
               - name: Use Sales Qualification Agent in custom apps
-                href: sqa-custom-model-driven-app.md  
+                href: sqa-custom-model-driven-app.md
               - name: Understand Sales Qualification Agent concepts
                 href: sales-qualification-agent-concepts.md
               - name: Sales Qualification Agent FAQ
@@ -202,8 +202,8 @@ items:
                   - name: Configure company information
                     href: configure-sales-close-agent-research-company-info.md
                   - name: Set selection criteria for opportunities
-                    href: configure-sales-close-agent-research-selection-criteria.md  
-                  - name: Configure recommended actions for Sales Opportunity Agent  
+                    href: configure-sales-close-agent-research-selection-criteria.md
+                  - name: Configure recommended actions for Sales Opportunity Agent
                     href: configure-sales-opportunity-agent-connected-skills.md
                   - name: Configure refresh frequency
                     href: configure-sales-close-agent-research-refresh-frequency.md
@@ -935,18 +935,28 @@ items:
                 href: use-data-enrichment-agent.md
           - name: Sales Research Agent
             items:
-            - name: Overview
-              href: sales-research-agent.md
-            - name: Provide context to the agent
-              href: sales-research-agent-provide-context.md
-            - name: Connect the agent to different data sources
-              href: sales-research-agent-connect-data.md
-            - name: Connect the agent to Microsoft Fabric Lakehouse (preview)
-              href: sales-research-agent-lakehouse-integration.md
-            - name: Analyze your sales performance using the agent
-              href: use-sales-research-agent.md
-            - name: FAQs about Sales Research Agent
-              href: faqs-sales-research-agent.md
+              - name: Overview
+                href: sales-research-agent.md
+              - name: Provide context to the agent
+                href: sales-research-agent-provide-context.md
+              - name: Define business functions
+                items:
+                  - name: Business functions overview
+                    href: sales-research-agent-business-function-builder.md
+                  - name: Create business functions with Business Function Builder (preview)
+                    href: sales-research-agent-business-function-builder-create.md
+                  - name: Share business functions (preview)
+                    href: sales-research-agent-business-function-builder-share.md
+                  - name: Troubleshoot business functions
+                    href: sales-research-agent-business-function-builder-troubleshoot.md
+              - name: Connect the agent to different data sources
+                href: sales-research-agent-connect-data.md
+              - name: Connect the agent to Microsoft Fabric Lakehouse (preview)
+                href: sales-research-agent-lakehouse-integration.md
+              - name: Analyze your sales performance using the agent
+                href: use-sales-research-agent.md
+              - name: FAQs about Sales Research Agent
+                href: faqs-sales-research-agent.md
           - name: Recommended Actions Agent
             items:
               - name: Overview
