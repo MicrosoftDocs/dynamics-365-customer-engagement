@@ -1,7 +1,7 @@
 ---
 title: Copilot Studio agents and app registrations for sales agents
 description: Learn about Copilot Studio agents and Microsoft Entra app registrations used by various Dynamics 365 Sales agents.
-ms.date: 07/30/2026
+ms.date: 08/04/2026
 ms.update-cycle: 180-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
@@ -24,14 +24,17 @@ Each agent in Dynamics 365 Sales can use multiple skill-based agents in Microsof
 
 When you provision a skill-based agent, Copilot Studio automatically generates an app registration in Microsoft Entra. You manage these app registrations at the tenant level. To learn more about app registrations, see [App registration, certificates, and configuration values for Copilot Studio](/microsoft-copilot-studio/requirements-certificates-configuration-values).
 
-The total number of app registrations depends on the number of organizations (orgs) in the tenant and the number of agents each org uses. For example:
+The total number of app registrations depends on the number of organizations (orgs) in the tenant and the number of skill-based agents each org uses. For example, if a tenant enabled the Sales Qualification Agent in 5 Dynamics 365 Sales orgs, the total number of app registrations in Microsoft Entra would be calculated as follows:
 
-1. **Number of Dynamics 365 Sales orgs in the tenant**: 30 
-1. **Number of agents per org**: 5 
-1. **Total app registrations**: 30 orgs × 5 agents = **150 app registrations** in Microsoft Entra
+1. **Number of Dynamics 365 Sales orgs in the tenant**: 5 
+1. **Number of skill-based agents per org**: 12 
+1. **Total app registrations**: 5 orgs × 12 agents = **60 app registrations** in Microsoft Entra
 
 This article lists the skill-based agents in Copilot Studio for each Dynamics 365 Sales agent.
 
+## When the Copilot Studio agents are provisioned
+
+When the admin selects the option to create a Dynamics 365 Sales agent, the skill-based agents are automatically provisioned in Copilot Studio. Some skill-based agents are shared across multiple Dynamics 365 Sales agents. For example, the **D365 Sales Agent - Email Validation** agent is shared across the Sales Qualification Agent, Sales Close Agent, and Sales Opportunity Agent. Such agents are provisioned only once in Copilot Studio.
 
 ## Sales Qualification Agent
 
