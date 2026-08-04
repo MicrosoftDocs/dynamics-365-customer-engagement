@@ -1,11 +1,12 @@
 ---
 title: Overview of Universal Resource Scheduling in Dynamics 365
-description: Schedule any entity using Universal Resource Scheduling in Dynamics 365.
-ms.date: 07/25/2025
+description: Universal Resource Scheduling in Dynamics 365 assigns the best resources to jobs based on availability, skills, and location. Learn how to schedule any entity.
+ms.date: 07/23/2026
 ms.subservice: common-scheduler
 ms.topic: overview
 author: mkelleher-msft
 ms.author: mkelleher
+ms.reviewer: v-wendysmith
 ---
 # Overview of Universal Resource Scheduling in Dynamics 365
 

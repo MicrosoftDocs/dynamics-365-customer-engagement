@@ -1,16 +1,17 @@
 ---
-title: Set up resource pay types
-description: Learn how to set up resource pay types to track costs associated with resource bookings in Dynamics 365 Field Service.
-ms.date: 07/24/2025
+title: Set up resource pay types in Field Service
+description: Set up resource pay types in Dynamics 365 Field Service to track labor costs for bookings. Learn to configure work, overtime, travel, and break pay types.
+ms.date: 07/21/2026
 ms.topic: how-to
 ms.author: jacoh
+ms.reviewer: v-wendysmith
 author: jasonccohen
 ms.custom: bap-template
 ---
 
 # Set up resource pay types
 
-You can use resource pay types to track your company's costs that are associated with a resource booking. When the status of a resource booking record is set to *Completed*, the system generates booking journal records based on the time that a field agent spent performing the work.
+Resource pay types define how labor costs are calculated for resource bookings. When a user marks a booking as completed, Field Service creates booking journal records based on the resource's time and booking statuses, such as work, overtime, travel, and break time.
 
 Based on the resource booking statuses applied during the work, the system can create one booking journal record for each of the following journal types. Each journal type helps calculate the cost of a resource booking using the following logic:
 
@@ -25,7 +26,9 @@ Based on the resource booking statuses applied during the work, the system can c
 Create one resource pay type for each journal type.
 
 1. In Dynamics 365 Field Service, select the **Resources** area.
+
 1. Under **Resource**, select **Pay Types**, and then **New**.
+
 1. For each journal type, create a pay type with the following information:
 
     - **Name**: Enter a name for the pay type.
@@ -41,6 +44,6 @@ Create one resource pay type for each journal type.
 
 1. In the **Resource Pay Type** section, assign the resource pay types that you created to the different journal types.
 
-1. Select **Save**.
+1. Select **Save & Close**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
