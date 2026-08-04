@@ -26,7 +26,7 @@ Use the following input and output parameters for the Search Resource Availabili
 
 | Name  | Type | Required  | Description  |
 |-----------------|---|---|---|
-| Version | String | No | The version number of the API identifies the version of the API that should be invoked. It follows the format of major.minor.patch. <p> <li> If no version is supplied, the most recent will be used (recommended) <li> If only a major version is specified, it invokes the highest minor and patch version available for that major version. <li> If both major and minor versions are specified, it invokes the highest patch version available. <li> If all three parts of the version are mentioned, it invokes the exact version of the API specified.</ul>|
+| Version | String | No | The version number of the API identifies the version of the API that should be invoked. It follows the format of major.minor.patch. <p> <li> If no version is supplied, the most recent is used (recommended) <li> If only a major version is specified, it invokes the highest minor and patch version available for that major version. <li> If both major and minor versions are specified, it invokes the highest patch version available. <li> If all three parts of the version are mentioned, it invokes the exact version of the API specified.</ul>|
 |RequirementGroup | | Yes | An entity reference to the requirement group entity.|
 |RequirementSpecification |Integer| No | If left null, respects the targeting requirement group duration by default.|
 |Settings |`Entity<InputSettings>` |No | Sets the settings for the request.|
