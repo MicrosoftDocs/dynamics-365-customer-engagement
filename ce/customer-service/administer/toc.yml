@@ -185,7 +185,7 @@
     - name: Quality management
       items:
         - name: Overview of Quality Management Agent
-          href: /dynamics365/contact-center/administer/overview-quality-management?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml 
+          href: /dynamics365/contact-center/use/overview-quality-management?context=/dynamics365/context/customer-service-administer-context
         - name: Quality evaluation
           items: 
           - name: Manage quality evaluation

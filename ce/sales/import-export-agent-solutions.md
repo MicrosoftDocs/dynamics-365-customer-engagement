@@ -1,7 +1,7 @@
 ---
 title: Import an agent into a target environment
 description: Learn how to export and import sales agent solutions across environments in Dynamics 365 Sales. 
-ms.date: 07/23/2026
+ms.date: 08/04/2026
 ms.update-cycle: 180-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
@@ -48,14 +48,8 @@ Export the agent from the source environment as a solution. During the export pr
     > [!NOTE]
     > This step isn't applicable for **Data Enrichment Agent**.
 
-    Select **Add existing** > **Agent** > **Agent** and then add agents that contain knowledge sources relevant to the agent you want to export. For example, if you're exporting the **Sales Opportunity Agent - Account Research**, knowledge sources related to account research are automatically added as part of the agent component. Each agent type requires a specific set of agents in the solution. The following table shows the agents you need to add for each agent solution.  
+    Select **Add existing** > **Agent** > **Agent** and then add agents that contain knowledge sources relevant to the agent you want to export. For example, if you're exporting the **Sales Opportunity Agent - Account Research**, knowledge sources related to account research are automatically added as part of the agent component. Each agent type requires a specific set of agents in the solution. For a list of agents to add for each agent type, refer to [Copilot Studio agents and Entra app registrations for sales agents](ai-agents-apps.md).
 
-    | Sales agent solution type | Agents to add |
-    | ------------------------- |------------- |
-    | Sales Qualification Agent | D365 Sales Agent - Research<br> D365 Sales Agent - Competitor<br> D365 Sales Agent - Custom Research<br> D365 Sales Agent - Readiness<br> D365 Sales Agent - Email Validation<br> D365 Sales Agent - Outreach<br> D365 Sales Agent - Engage Autonomous<br> D365 Sales Agent - TCP Prefill Agent<br> D365 Sales Agent - Stakeholder Research<br> D365 Sales Agent - Engage Autonomous<br> D365 Sales Agent - Summary Synthesizer |
-    | Sales Opportunity Agent | Sales Opportunity Agent<br> Sales Opportunity Agent - Account Research<br>Sales Opportunity Agent - Compete Research<br>Sales Opportunity Agent - Custom Research<br>Sales Opportunity Agent - Stakeholder |
-    | Sales Close Agent | Sales Close Agent |
- 
     The following image shows an example of the added components for Sales Qualification Agent.  
     :::image type="content" source="media/import-export-agent-solutions-add-tables.png" alt-text="Screenshot of the added tables in the solution.":::
 
