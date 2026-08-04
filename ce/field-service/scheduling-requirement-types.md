@@ -1,7 +1,7 @@
 ---
 title: Requirement types for scheduling
 description: Learn about the different types of resource requirements in Dynamics 365 Field Service and how they drive scheduling.
-ms.date: 05/26/2026
+ms.date: 08/04/2026
 ms.custom: bap-template
 ms.topic: concept-article
 author: mkelleher-msft
@@ -57,6 +57,9 @@ These fields on the resource requirement record determine how the scheduling eng
 When you update a work order, the system automatically updates the related requirement's attributes including name, location, duration, and more. This synchronization ensures the requirement always reflects the latest work order details.
 
 However, if you manually edit a requirement field, that field stops syncing from the work order. Manual edits take precedence.
+
+> [!NOTE]
+> If a work order has no service task or incident type, the work order uses the default booking duration. The related requirement doesn't inherit this default-derived value in its **Duration** field. When the requirement is booked, the system updates only its **Fulfilled Duration** field.
 
 ## Next steps
 
