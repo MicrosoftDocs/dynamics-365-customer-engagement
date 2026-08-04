@@ -4,7 +4,7 @@ ms.custom:
 description: How to opt out of data collection on Dynamics 365 mobile app
 ms.date: 12/13/2024
 ms.reviewer: smurkute 
-ms.service: d365ce-op
+ms.service: dynamics-365-ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: how-to
