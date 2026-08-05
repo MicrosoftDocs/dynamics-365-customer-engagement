@@ -1,7 +1,7 @@
 ---
 title: Configure requirements for Sales Close Agent
 description: Configure the prerequisites for the Sales Close Agent in Dynamics 365 Sales.
-ms.date: 06/29/2026
+ms.date: 08/05/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -99,7 +99,11 @@ To learn more about app users, see [Manage application users in the Power Platfo
     > [!NOTE]
     > You can also configure server-side synchronization in your Dynamics 365 organization by going to **Advanced Settings** > **System** > **Email Configuration** > **Mailboxes**.
 1. Change the view to **All Mailboxes** and select the mailbox associated with the created application user.  
-1. Replace the email address with that of the shared mailbox and then select **Approve Email**.  
+1. Replace the email address with that of the shared mailbox and then select **Approve Email**.
+
+    > [!NOTE]
+    > In the **Synchronization Method** section, ensure that the **Appointment, Contacts and Tasks** option is set to **None**. This setting isn't required for the agent user, as the agent only needs mailbox synchronization.
+ 
 1. Select **Test & Enable Mailbox** to verify that the server-side sync is established successfully for the email. When successful, the incoming and outgoing email status display Success under the Configuration Status section.  
 1. Go back to the agent settings page and select the **Mark as done** checkbox in the **Configure server side sync** section. You must select this checkbox to proceed with the agent configuration.  
 
