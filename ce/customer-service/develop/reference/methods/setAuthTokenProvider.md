@@ -46,12 +46,12 @@ None
 
 ```json
 {
-    "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e",
-    "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\"}",
-    "iat" : 1542622071,
-    "iss" : "contosohelp.com",
-    "exp" : 1542625672,
-    "nbf" : 1542622072
+    "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e",
+    "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\"}",
+    "iat" : 1542622071,
+    "iss" : "contosohelp.com",
+    "exp" : 1542625672,
+    "nbf" : 1542622072
 }
 ```
 > [!NOTE]
@@ -60,27 +60,27 @@ None
 
 ```JavaScript
 let payloadToEncrypt = {
-    "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e",
-    "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\"}",
-    "iat" : 1542622071,
-    "iss" : "contosohelp.com",
-    "exp" : 1542625672,
-    "nbf" : 1542622072
+    "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e",
+    "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\"}",
+    "iat" : 1542622071,
+    "iss" : "contosohelp.com",
+    "exp" : 1542625672,
+    "nbf" : 1542622072
 };
 
 function convertToJwtToken(payloadToEncrypt){
-    // Ideally, you call your service to convert the payload to a valid JWT token
-    return Promise.resolve("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4N2I0ZDA2Yy1hYmMyLWU4MTEtYTliMC0wMDBkM2ExMGUwOWUiLCJsd2ljb250ZXh0cyI6IntcIm1zZHluX2NhcnR2YWx1ZVwiOlwiMTAwMDBcIiwgXCJtc2R5bl9pc3ZpcFwiOlwiZmFsc2VcIn0iLCJpYXQiOjE1NDI2MjIwNzEsImlzcyI6ImNvbnRvc29oZWxwLmNvbSIsImV4cCI6MTU0MjYyNTY3MiwibmJmIjoxNTQyNjIyMDcyfQ.r37z1M5rMyRYMOJ-rhyTRYFOgvl9N7KvTMueSFPkiuM");
+    // Ideally, you call your service to convert the payload to a valid JWT token
+    return Promise.resolve("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4N2I0ZDA2Yy1hYmMyLWU4MTEtYTliMC0wMDBkM2ExMGUwOWUiLCJsd2ljb250ZXh0cyI6IntcIm1zZHluX2NhcnR2YWx1ZVwiOlwiMTAwMDBcIiwgXCJtc2R5bl9pc3ZpcFwiOlwiZmFsc2VcIn0iLCJpYXQiOjE1NDI2MjIwNzEsImlzcyI6ImNvbnRvc29oZWxwLmNvbSIsImV4cCI6MTU0MjYyNTY3MiwibmJmIjoxNTQyNjIyMDcyfQ.r37z1M5rMyRYMOJ-rhyTRYFOgvl9N7KvTMueSFPkiuM");
 }
 
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 // Sets the auth-token provider
 // Throws error if authTokenProvider is not a function
-    convertToJwtToken(payloadToEncrypt).then(function (jwtToken){
-        Microsoft.Omnichannel.LiveChatWidget.SDK.setAuthTokenProvider(function authTokenProvider(callback){
-            callback(jwtToken);
-        });
-    });
+    convertToJwtToken(payloadToEncrypt).then(function (jwtToken){
+        Microsoft.Omnichannel.LiveChatWidget.SDK.setAuthTokenProvider(function authTokenProvider(callback){
+            callback(jwtToken);
+        });
+    });
 });
 ```
 
