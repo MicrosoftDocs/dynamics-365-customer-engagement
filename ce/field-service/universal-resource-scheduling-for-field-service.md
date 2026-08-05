@@ -1,7 +1,7 @@
 ---
 title: Universal Resource Scheduling for Dynamics 365 Field Service overview
 description: Learn all about Universal Resource Scheduling for Dynamics 365 Field Service
-ms.date: 02/19/2026
+ms.date: 08/05/2026
 ms.custom: bap-template
 ms.topic: overview
 author: mkelleher-msft
@@ -43,6 +43,9 @@ For every work order, the system creates a related requirement. It outlines the 
 By default, the system creates one requirement for each work order. However, a work order can have multiple requirements or a requirement group with multiple requirements. [Create incident types to configure templates for work order](configure-incident-types.md).
 
 Requirements inherit attributes from the work order, such as name, location, duration, and more. Updating work order attributes updates requirement attributes. Manual edits to requirements can be made before scheduling, too.
+
+> [!NOTE]
+> If you don't add a service task or incident type to a work order, the system sets the work order's estimated duration to the default booking duration. The related requirement doesn't inherit this value into its **Duration** field. When you book the requirement, the system updates only its **Fulfilled Duration** field.
 
 > [!CAUTION]
 > Manually created requirements for work order don't synchronize automatically.

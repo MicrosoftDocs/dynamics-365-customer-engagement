@@ -1,7 +1,7 @@
 ---
 title: Get started
 description: Learn how to get started with Dynamics 365 Field Service.
-ms.date: 07/30/2025
+ms.date: 07/21/2026
 author: jshotts
 ms.author: jasonshotts
 ms.topic: overview
@@ -12,12 +12,14 @@ ms.custom: bap-template
 
 This article guides you through the first steps with the application and the scenario of creating and scheduling a work order to resolve a customer's service request.
 
+In this guide, an administrator installs and configures Field Service, a dispatcher schedules the work, and a technician completes it. You step through each role to experience the end-to-end service process.
+
 :::image type="content" source="media/get-started-page.png" alt-text="Screenshot of the Get Started page in Dynamics 365 Field Service with a highlight on the navigation item.":::
+
+## Install Dynamics 365 Field Service
 
 > [!TIP]
 > You can add users and create the following records quickly from the **Get started** page in the **Service** area of Field Service.
-
-## Install Dynamics 365 Field Service
 
 A system administrator needs to install the Field Service application for your organization. For more information, see [How to install Dynamics 365 Field Service](install-field-service.md).
 
@@ -85,4 +87,9 @@ Frontline workers use the mobile experience on their phone or tablet.
 [Download and install the mobile app](mobile/set-up-field-service-mobile.md) and sign in as the technician to whom the work order is assigned.
 
 The **Booking** tab shows the work order you scheduled to the frontline worker. Update the status of the booking and related details to indicate completion of the work order.
+
+## Next steps
+
+- [Work order lifecycle and system statuses](work-order-status-booking-status.md)
+- [Post a work order and generate an invoice](post-work-order-invoice.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Overview of Dynamics 365 Field Service
 description: Learn about Dynamics 365 Field Service and its features.
-ms.date: 12/15/2025
+ms.date: 07/21/2026
 ms.topic: overview
 ms.custom: bap-template
 author: jshotts
@@ -35,6 +35,17 @@ Examples of organizations that use the application to manage their field service
 - **Health care**  - An  in-home health care service provider uses the application to schedule and dispatch healthcare workers to administer medicine and other care to multiple patients.
 - **Equipment maintenance** -  A facilities manager uses the application to deliver maintenance and repair services for heating and cooling equipment.
 
+## Service delivery models
+
+Organizations use Field Service to support different service delivery models based on how they initiate, plan, and deliver work:
+
+- **Reactive (break-fix)**: A customer reports an issue, a customer service agent creates a work order, and a dispatcher schedules a technician to resolve the problem. This model handles unplanned repairs and on-demand service requests.
+- **Preventive (agreement-based)**: Scheduled maintenance happens on a recurring basis through [agreements](set-up-agreements-work-orders.md). The system automatically generates work orders based on predefined intervals, which reduces equipment downtime and avoids costly emergency repairs.
+- **Predictive (IoT-driven)**: Connected devices detect anomalies and automatically create alerts or work orders through [Connected Field Service](connected-field-service.md). Technicians address potential failures before they cause downtime, which shifts service from scheduled maintenance to condition-based maintenance.
+- **Project-based (multistage)**: Complex projects can span multiple days and require different specialists to complete work in sequence. For example, building a house might require framing, plumbing, electrical work, and drywall installation. With the [Field Service integration with Project Operations](project-operations-integration.md), project managers plan and track project tasks, while dispatchers schedule and manage the related onsite work orders.
+
+Many organizations use a combination of these models. For example, a facilities company might handle break-fix requests reactively, maintain HVAC systems on a preventive schedule through agreements, and monitor elevators with IoT sensors for predictive maintenance.
+
 ## Key capabilities
 
 Field service capabilities include:
@@ -62,6 +73,8 @@ The Field Service application provides tools for these key roles on your service
 - **Inventory managers** ensure field technicians have what they need to complete their service calls. Inventory managers also handle product returns and purchase new inventory. Inventory managers primarily use the application through a web browser.
 
 ## Using the Field Service application
+
+Field Service follows a service-to-cash flow from the initial request through final billing. For the full sequence of stages, who performs each one, and how it maps to work order statuses, see [Work order lifecycle and system statuses](work-order-status-booking-status.md).
 
 Work orders describe the work that a technician needs to perform at a customer location. In the Field Service application, a typical work order lifecycle looks like this:
 
