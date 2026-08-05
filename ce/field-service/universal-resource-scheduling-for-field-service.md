@@ -45,7 +45,7 @@ By default, the system creates one requirement for each work order. However, a w
 Requirements inherit attributes from the work order, such as name, location, duration, and more. Updating work order attributes updates requirement attributes. Manual edits to requirements can be made before scheduling, too.
 
 > [!NOTE]
-> If a work order has no service task or incident type, the work order uses the default booking duration. The related requirement doesn't inherit this default-derived value in its **Duration** field. When the requirement is booked, the system updates only its **Fulfilled Duration** field.
+> If you don't add a service task or incident type to a work order, the system sets the work order's estimated duration to the default booking duration. The related requirement doesn't inherit this value into its **Duration** field. When the requirement is booked, the system updates only its **Fulfilled Duration** field.
 
 > [!CAUTION]
 > Manually created requirements for work order don't synchronize automatically.
