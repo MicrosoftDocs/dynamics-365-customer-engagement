@@ -1,4 +1,4 @@
-Quick scheduling (sometimes referred to as 'quick book') simplifies the schedule assistant experience.
+Quick scheduling (sometimes referred to as *quick book*) simplifies the schedule assistant experience.
 
 Without leaving a record, use a scheduling pane to see available booking time slots.
 
@@ -6,10 +6,10 @@ Without leaving a record, use a scheduling pane to see available booking time sl
 
 - An admin [enabled the quick book setting in the booking setup metadata](../../field-service/schedule-new-entity.md). If the setting is disabled, booking controls [launch the schedule assistant](../../field-service/schedule-assistant.md) instead.
 
-- Quick scheduling is enabled or disabled for each entity that is enabled for scheduling. For example, you can enable quick scheduling for work orders, while still using the full schedule assistant for projects. For requirements with no parent entity, use the **Default Metadata Settings (none)* option.
+- Quick scheduling is enabled or disabled for each entity that is enabled for scheduling. For example, you can enable quick scheduling for work orders, while still using the full schedule assistant for projects. For requirements with no parent entity, use the **Default Metadata Settings (none)** option.
 
 >[!CAUTION]
-> Quick Scheduling doesn't support fulfillment preferences with time groups.
+> Quick scheduling doesn't support fulfillment preferences with time groups.
 
 ## Quickly book a job
 
@@ -17,7 +17,7 @@ Without leaving a record, use a scheduling pane to see available booking time sl
 
 1. In the **Book Resources** pane, choose the suggested time slot and select **Book** to confirm.
 
-   :::image type="content" source="../../field-service/media/scheduling-quick-book.png" alt-text="Screenshot of the quick book pane triggered from a work order.":::
+   :::image type="content" source="../../field-service/media/scheduling-quick-book-new.png" alt-text="Screenshot of the quick book pane triggered from a work order." lightbox="../../field-service/media/scheduling-quick-book-new.png":::
 
 The system chooses an available resource that also meets other requirement criteria like skills and organizational unit. If the requirement is location-based, the system chooses the closest resource. For location-agnostic requirements, the system chooses the first available resource based on alphabetical order of the resource's first name.
 
@@ -29,6 +29,8 @@ To use your preferred time slots, [define intervals with fulfillment preferences
 ## Filter options for quick book
 
 There are a few basic filters for the quick book pane.
+
+- Select all resources or a specific resource from the **Filters** dropdown.  
 
 - You can change the date range, which the system derives from the requirement. If there's no start or end date on the requirement, the search window defaults to 60 days from today.
 
