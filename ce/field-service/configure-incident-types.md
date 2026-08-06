@@ -1,7 +1,7 @@
 ---
 title: Create work order templates with incident types
 description: Learn how to configure incident types in Dynamics 365 Field Service.
-ms.date: 08/20/2025
+ms.date: 07/21/2026
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -9,7 +9,7 @@ ms.author: jasonshotts
 
 # Create work order templates with incident types
 
-Create incident types to use as templates for common work orders. Learn more in [Work order incident type overview](incident-type-overview.md).
+Create incident types to use as templates for common work orders. The more detail you define on an incident type—such as products, services, service tasks, and characteristics—the more of the work order is filled in automatically when you apply the incident type. Learn more in [Work order incident type overview](incident-type-overview.md).
 
 ## Prerequisites
 
@@ -184,6 +184,38 @@ Resolutions let technicians document whether the incident was completed.
 1. Choose a **Resolution** or create a new one.
 
 1. Select **Save and Close**.
+
+## Example: Incident type auto-population
+
+The following example shows how an incident type called "HVAC Annual Inspection" auto-populates a work order with related records.
+
+When you add this incident type to a work order, the system automatically creates:
+
+**Products (2):**
+
+| Product | Quantity | Type |
+|---|---|---|
+| Air Filter | 1 | Inventory |
+| Coolant Fluid | 2 liters | Inventory |
+
+**Services (1):**
+
+| Service | Duration |
+|---|---|
+| HVAC Inspection Service | 2 hours |
+
+**Service tasks (3):**
+
+| Task | Estimated duration |
+|---|---|
+| Check airflow | 20 minutes |
+| Test thermostat calibration | 30 minutes |
+| Inspect ductwork | 30 minutes |
+
+The work order's estimated duration updates to reflect the sum of service task durations (1 hour 20 minutes), plus the service duration (2 hours).
+
+> [!TIP]
+> For incident type auto-population to work correctly, make sure that all products have a status of *Active*, the work order's price list includes the products and services, and users have Create privileges on work order product, work order service, and work order service task tables.
 
 ## Add an incident type to a work order
 

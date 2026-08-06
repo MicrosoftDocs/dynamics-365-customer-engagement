@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
 description: Learn how to configure a Facebook channel and corresponding Facebook pages in Dynamics 365 Contact Center.
-ms.date: 06/05/2026
+ms.date: 08/06/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -27,6 +27,8 @@ Make sure that the following prerequisites are met:
 - Create a Facebook page. Learn more in [Create and Manage a Page](https://www.facebook.com/help/135275340210354/?helpref=hc_fnav).
 - Enable Messenger. Learn more in [Messaging](https://www.facebook.com/help/994476827272050/?helpref=hc_fnav).
 - Create a Facebook application. Learn more in [App Development](https://developers.facebook.com/docs/apps/).
+- Plan for Facebook App Review. Meta must approve the `pages_messaging` permission for your app before customers who don't have a role in your app can send messages to your page. Review times vary, so start this process early. Learn more in [App Review](https://developers.facebook.com/docs/app-review).
+
 - Sign in to the [developer site on Facebook](https://developers.facebook.com/) or create an account, and then complete the following steps:
    1. Select **My Apps**, and then select **Create app**.
    1. On the **What do you want your app to do?** page, select **Other**, and then select **Next**.
@@ -41,9 +43,8 @@ Make sure that the following prerequisites are met:
 The following Facebook roles and permissions are required for integrating your Facebook app with Dynamics 365 Contact Center.
 
 - Facebook users who don’t have a role in the Facebook app must have the `pages_messaging` permission to send messages to a Facebook page from contact center. The app owner must provide the `pages_messaging` permission for users to be able to send messages. Learn more in [Permissions Reference for Meta Technologies APIs - pages_messaging](https://developers.facebook.com/docs/permissions#pages_messaging).
-
+- To use the `pages_messaging` permission in a live app, submit your Facebook app for App Review and get approved by Meta. Until the permission is approved, only Facebook users with a role in the app - such as administrators, developers, or testers - can message the page. Business verification of your organization might also be required as part of the review. Learn more in [App Review](https://developers.facebook.com/docs/app-review) and [Permissions reference for Meta technologies APIs](https://developers.facebook.com/docs/permissions).
 - If the Facebook app that you’re using is in development mode, only Facebook users who have roles within the app can send messages to the Facebook page. The Facebook app can receive messages from or forward messages to Dynamics 365 Contact Center. Learn more in [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/).
-
 - For Dynamics 365 Contact Center to be able to retrieve the customer’s username from Facebook, the customer must request for Business Asset User Profile Access in their Facebook app. Learn more in [Business Asset User Profile Access](https://developers.facebook.com/docs/features-reference/business-asset-user-profile-access).
  
 ## Privacy notice
@@ -102,7 +103,7 @@ To configure a Facebook channel, the following steps are required:
       - [Custom automated messages](configure-automated-message.md)
       - [Post-conversation survey](configure-post-conversation-survey.md)
    1. On the **User features** page, configure the following options:
-      - **File attachments:** When set to yes for both customer and representative, they can send and receive file attachments. Learn more in [Enable file attachments](enable-file-attachments.md). The availability and support of media is dependent on the Facebook application settings. Learn more in [Facebook updates](https://developers.facebook.com/docs/messenger-platform/europe-updates).
+      - **File attachments:** When set to yes for both customer and representative, they can send and receive file attachments. Learn more in [Enable file attachments](enable-file-attachments.md). The availability and support of media depends on the Facebook application settings. Learn more in the [Meta Messenger Platform Send Messages Guide](https://developers.facebook.com/documentation/business-messaging/messenger-platform/send-messages).
       - **Facebook message tag:** Set to **Yes** to enable your representatives to message customers after 24 hours pass. When set to **No**, representatives are unable to respond to customers after 24 hours unless the customer sends another message.
 
       If you enable the Facebook human agent message tag during an active conversation between the representative and customer, the representative must close the conversation and reopen it to communicate with the latter customer 24 hours of inactivity. Representatives can start conversations with customers for up to seven days.

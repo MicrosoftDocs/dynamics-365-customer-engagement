@@ -24,6 +24,8 @@ When a project manager opens a work order from a project task in Project Operati
 
 To see how scheduling warnings and predecessor tasks are viewed in the Field Service mobile app, watch the following video.
 
-:::image type="content" source="media/project-operations-integration-mobile-schedule.gif" alt-text="Video of scheduling warnings and predecessor tasks in the mobile app.":::
+> [!VIDEO 16ac6306-80ac-42e7-9806-6eacf92dba74]
+
+<!--- https://learn-video.azurefd.net/vod/player?id=16ac6306-80ac-42e7-9806-6eacf92dba74 --->
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

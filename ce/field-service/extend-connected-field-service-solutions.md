@@ -1,7 +1,7 @@
 ---
 title: Extend Connected Field Service solutions
 description: Connected Field Service supports the customization of each standard component or service and the easy addition of custom Azure-based components and services.
-ms.date: 06/24/2025
+ms.date: 07/31/2026
 ms.topic: how-to
 ms.author: vhorvath
 author: vhorvathms
@@ -16,11 +16,11 @@ ms.custom:
 
 Connected Field Service for Dynamics 365 supports the customization of each standard component or service and the easy addition of custom Azure-based components and services. This flexible architecture is required to support the wide range of current and future IoT devices and the envisioned supporting services for these devices.  
   
-## Extend Azure Services
+## Extend Azure services
 
 Azure services and components, including the ones detailed in [Connected Field Service architecture](connected-field-service-architecture.md), are designed for reliability, scalability, and extensibility. They support management and customization through UI-based and PowerShell administration, JSON-based template-driven deployment and initialization, and REST-based programming interfaces (often including client libraries for specific languages, such as C#/.NET, Python, Java, and Node.js).  
   
- After the standard installation, Connected Field Services will configure your resource group with a set of Azure services similar to the following screenshot.  
+ After the standard installation, Connected Field Service configures your resource group with a set of Azure services similar to the following screenshot.  
   
  ![Connected Field Service Standard Azure Services.](media/iot-standard-azure-service.jpg "Connected Field Service Standard Azure Services")  
   
@@ -58,7 +58,7 @@ The following table lists the custom entities and processes that Connected Field
 
 Dynamics 365 entities can be associated to IoT entities listed in the previous section so that within Dynamics 365 they can participate in IoT-related business processes and analyses. There are two methods of "IoT enabling" a Dynamics 365 entity; you can:  
   
-- Programmatically form an association through the standard Dynamics 365 [Connection entities](../developer/connection-entities.md) capability. You can alternatively accomplish this same association through the administration UI. Learn more in [Create connections to view relationships between records](/dynamics365/customerengagement/on-premises/basics/create-connections-view-relationships-between-records).  
+- Programmatically form an association through the standard Dynamics 365 [Connection entities](../customerengagement/on-premises/developer/connection-entities.md) capability. You can alternatively accomplish this same association through the administration UI. Learn more in [Create connections to view relationships between records](/dynamics365/customerengagement/on-premises/basics/create-connections-view-relationships-between-records).  
   
 - Call the `IoT – Register Custom Entity` action to associate an entity with an existing or new `IoT Device`.  
 

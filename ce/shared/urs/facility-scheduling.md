@@ -57,7 +57,7 @@ Facility scheduling is for work that happens at your location — the customer t
 
 When you book a requirement group for a facility, the schedule assistant automatically sets the **Work Location** filter to *Facility*. It considers availability of resources and other set requirement constraints, such as characteristics, organizational units, and categories.
 
-Requirements that are part of a requirement group are scheduled via the **Book** button to trigger the schedule assistant. They aren't available to drag and drop on the schedule board. If your facility has single requirements, you can create the requirements through **Resource Requirements** and use the schedule board.
+Requirements that are part of a requirement group are scheduled by selecting **Book** to trigger the schedule assistant. You can't drag and drop these requirements on the schedule board. If your facility has single requirements, you can create the requirements through **Resource Requirements** and use the schedule board.
 
 1. On the requirement group, select **Book** in the command bar.
 

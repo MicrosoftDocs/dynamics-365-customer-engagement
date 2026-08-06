@@ -1,7 +1,7 @@
 ---
 title: Monitor work order financial processing
 description: Learn how to monitor the financial processing of work order products and services in Dynamics 365 Field Service with the Dynamics 365 Project Operations integration.
-ms.date: 01/29/2026
+ms.date: 08/05/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -26,7 +26,7 @@ The Project Operations integration provides two dashboards that help you monitor
 
    - **Work Order Services – Monitoring Dashboard**: shows work order services with issues.
 
-     :::image type="content" source="media/project-operations-integration-dashboard.png" alt-text="Example of the Work Order Products - Monitoring Dashboard in the Project Operations integration.":::
+     :::image type="content" source="media/project-operations-integration-dashboard.png" alt-text="Screenshot of the Work Order Products - Monitoring Dashboard in the Project Operations integration." lightbox="media/project-operations-integration-dashboard.png":::
 
 Both dashboards contain the following sections:
 
@@ -51,5 +51,15 @@ Work order line revisions provide a snapshot of a work order product or service 
 When you create or update a work order product or service and the change affects an estimate or actual, the system creates a revision line. Each revision line contains its type (estimate or actual) and a revision number.
 
 A recurring cloud flow runs every minute to process all active revision lines. If multiple revision lines exist for the same work order product or work order service, the system uses the revision line with the highest revision number to generate the correct estimate lines, actuals, or both. If an error occurs, the system records the error details in the revision line, and displays that revision line on the dashboard for resolution. The revision lines with issues remain inactive until you address the issue. Once the estimate lines or actuals are successfully generated, the system deletes the revision lines.
+
+If you notice that changes to work order products don't produce estimates or actuals, make sure the cloud flow is on.
+
+1. Sign in to [Power Apps](https://make.powerapps.com/), select your environment, and then select **Solutions**.
+
+1. Open the **Default Solution** and select **Objects**.
+
+1. Select **Cloud flows** and then search for **Flow - Recurrence - Process Work Order Line Revisions**.
+
+1. Make sure the flow is turned on.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
