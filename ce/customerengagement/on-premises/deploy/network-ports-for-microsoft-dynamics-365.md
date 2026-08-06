@@ -73,7 +73,15 @@ This section describes the ports that are used for [!INCLUDE[pn_microsoftcrm](..
 |[!INCLUDE[pn_UDP](../includes/pn-udp.md)]|1025|Blackjack|DCOM, used as an RPC listener.|  
   
 > [!IMPORTANT]
->  In addition to the ports listed previously, [!INCLUDE[pn_UDP](../includes/pn-udp.md)] port 1434 ([!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] Browser Service) on the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] is required by [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] to return a list of the computers that are running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] during the installation of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]. To work around this, specify the *SQLServer\InstanceName* during Setup.  
+>  In addition to the ports listed previously, [!INCLUDE[pn_UDP](../includes/pn-udp.md)] port 1434 ([!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] Browser Service) on the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] is required by [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] to return a list of the computers that are running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] during the installation of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]. To work around this, specify the *SQLServer\InstanceName* during Setup.
+>
+> If the SQL Server is configured with a custom port, for example 1455. The connection string required with custom port would be:
+sqlservername\MSSQLSERVER,1455
+When a custom port is configured we must provide the default instance name of the SQL Server which is MSSQLSERVER. 
+If a custom instance name is being used this must be provided. As example:
+SQLSERVERNAME\CUSTOMINSTANCE,CUSTOMPORTNUMBER
+
+
   
 ## See Also  
 [Security considerations for Microsoft Dynamics 365](security-considerations-for-microsoft-dynamics-365.md) 
