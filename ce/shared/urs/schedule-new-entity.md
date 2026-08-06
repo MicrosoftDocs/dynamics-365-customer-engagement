@@ -47,13 +47,13 @@ Edit booking settings for entities you enabled for scheduling.
     | Default booking committed status | Sets the default value to use when a booking moves into *Committed* state. | Available [booking statuses](../../field-service/set-up-booking-statuses.md). |
     | Default requirement active status | Sets the default value to use when a requirement moves into *Active* state. | Available requirement statuses. |
     | Default requirement canceled status | Sets the default value to use when a requirement moves into *Canceled* state. | Available requirement statuses. |
-    | Resource availability retrieval limit | Defines the maximum number of resources returned as a result in the   scheduling assistant. | Number. |
+    | Resource availability retrieval limit | Defines the maximum number of resources returned as a result in the schedule assistant. | Number. |
     | Enable quick book | Use the [quick book experience](../../field-service/quick-scheduling.md) on an entity record. | Yes: Use quick book experience.<br>     No: Use schedule assistant experience. |
     | Cancel bookings when moving | Cancel bookings when moving the booking to a different time slot by using the *Move bookings* feature on the schedule board. | Yes: Cancel booking and create a new one in the updated time slot.<br>     No: Keep booking and update start and end time. |
     | Default booking canceled status | Sets the default value to use when a booking moves into *Canceled* state. | Available [booking statuses](../../field-service/set-up-booking-statuses.md). |
-    | Disable requirement auto creation for   bookings | Defines if the system creates a requirement for a booking. | Yes: Disable automated requirement creation.<br>     No: Enable automated booking creation. |
+    | Disable requirement auto creation for bookings | Defines if the system creates a requirement for a booking. | Yes: Disable automated requirement creation.<br>No: Enable automated booking creation. |
     | Default requirement completed status | Sets the default value to use when a requirement moves into *Completed* state. | Available requirement statuses. |
-    | Available duration minimum (%) | Defines the availability of a resource in relation to the booking duration. For example, if the value is 50 and the booking takes four hours. The system only considers resources for the job that have at least two hours available. | 0 to 100. |
+    | Available duration minimum (%) | Defines the availability of a resource in relation to the booking duration. For example, if the value is 50 and the booking takes four hours, the system only considers resources for the job that have at least two hours available. | 0 to 100. |
     | Ignore time zone in Schedule Assistant| Defines if the system uses Coordinated Universal Time (UTC) or the resource's local time zone. | Yes: Use time zone agnostic scheduling.<br>     No: Use standard scheduling. |
 
 1. In the **Attribute Mapping** section, choose values on the target entity that match with the requirement fields.

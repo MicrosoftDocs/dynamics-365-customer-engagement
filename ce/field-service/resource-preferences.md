@@ -1,7 +1,7 @@
 ---
 title: Add preferred resources for a requirement
 description: Learn how you can restrict the resources that are matched to a requirement in Dynamics 365 Field Service.
-ms.date: 07/18/2025
+ms.date: 07/31/2026
 ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan
@@ -23,8 +23,8 @@ Add preferred resources to a requirement to apply restrictions on resource match
 1. Select a resource and define a preference type:
 
     - *Preferred*: The [schedule assistant](schedule-assistant.md) shows preferred resources first in the Gantt view if they match all other requirements and filters. It also shows a heart icon next to the name of each preferred resource.
-    - *Restricted*: The [schedule assistant](schedule-assistant.md) filters out any resources that are marked as restricted. The filter can be removed by using the filter pane.
-    - *Must choose from*: The [schedule assistant](schedule-assistant.md) filters results so that they include only these resources. If none of the resources are available, the schedule assistant doesn't return any results. The filter can be removed by using the filter pane.
+    - *Restricted*: The [schedule assistant](schedule-assistant.md) filters out any resources that are marked as restricted. You can remove the filter by using the filter pane.
+    - *Must choose from*: The [schedule assistant](schedule-assistant.md) filters results so that they include only these resources. If none of the resources are available, the schedule assistant doesn't return any results. You can remove the filter by using the filter pane.
 
 1. To add another resource, select **New Requirement Resource Preference**.
 
@@ -38,6 +38,6 @@ On the schedule board, select the requirement and **Find Availability**. The res
 
 ## Use preferred resources with Resource Scheduling Optimization
 
-To have [Resource Scheduling Optimization](./rso-overview.md) consider preferred resources, add the *Maximize Preferred Resources* objective to the optimization goal. Resource Scheduling Optimization then tries to match *Preferred* resources, it always selects *Must choose from* resources, and it never selects *Restricted* resources.
+To have [Resource Scheduling Optimization](./rso-overview.md) consider preferred resources, add the *Maximize Preferred Resources* objective to the optimization goal. Resource Scheduling Optimization then tries to match *Preferred* resources, always selects *Must choose from* resources, and never selects *Restricted* resources.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

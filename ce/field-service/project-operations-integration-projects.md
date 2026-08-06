@@ -2,7 +2,7 @@
 title: Projects, project contracts, and project tasks
 ms.reviewer: v-wendysmith
 description: Project management in Field Service helps frontline users create essential project structures to link to work orders.
-ms.date: 07/20/2026
+ms.date: 08/04/2026
 ms.topic: overview
 author: vhorvathms
 ms.author: vhorvath
@@ -60,6 +60,10 @@ The following fields appear on the project contract line form.
 |**Include Expense** | Determines whether expenses can resolve to the contract line, if expenses are enabled. |
 |**Contract Line Customer**| Supports billing to the appropriate customer or biller, where applicable. |
 |**Not-to-exceed Limit** | Applies a contractual cap for Time and Material contract lines. |
+
+## Project Operations and finance and operations
+
+In the [**Integrated Project Operations with Finance** deployment model](project-operations-integration-inventory.md), Project Operations uses dual-write integration to synchronize setup and configuration data between Microsoft Dataverse and Dynamics 365 finance and operations. Learn more in [Project Operations setup and configuration data integration](/dynamics365/project-operations/environment/resource-dual-write-setup-integration).
 
 ## Next steps
 
