@@ -1,17 +1,20 @@
 ---
 title: Set up bookable resources
-description: Learn how to create a bookable resource and add details to distinguish it from other resources.
-ms.date: 08/20/2025
+description: Bookable resources in Dynamics 365 Field Service define who and what you can schedule. Learn how to create resources, set work hours, and add characteristics.
+ms.date: 07/31/2026
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
+ms.reviewer: v-wendysmith
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 08/07/2026
+ai-usage: ai-assisted
 ---
 
 # Set up bookable resources
 
-A bookable resource in Dynamics 365 Field Service is anything that needs to be scheduled. Most often, that's people, equipment, and facilities.
-
-Each resource can have properties that distinguish it from others. For example characteristics (skills or certifications), categories, or locations.
+Bookable resources represent the people, equipment, facilities, and other assets that your organization schedules in Dynamics 365 Field Service. Configure each resource’s work hours, location, skills, territories, and availability so dispatchers can assign the appropriate resource to each job.
 
 ## Prerequisites
 
@@ -22,7 +25,7 @@ Each resource can have properties that distinguish it from others. For example c
 Frontline workers are people in your organization who are primarily scheduled for onsite jobs. They use the Dynamics 365 Field Service mobile app to view and update the details of their work orders. Frontline workers are bookable resources. You can quickly [create frontline workers from the **Get started** page](frontline-worker-set-up.md).
 
 > [!TIP]
-> If you have a trial version, set up your frontline workers and your other bookable resources using the [Create other bookable resources](#create-other-bookable-resources) steps.
+> If you have a trial version, set up your frontline workers and your other bookable resources by using the [Create other bookable resources](#create-other-bookable-resources) steps.
 
 ## Create other bookable resources
   
@@ -32,25 +35,25 @@ Frontline workers are people in your organization who are primarily scheduled fo
 
    - Choose a **Resource Type**. A classification that describes who or what the resource is and how the resource relates to your organization. Depending on the value you choose, there are other related details to define.
 
-       - **User**: A person  in your organization who needs access to the system. For more information, see [Set up frontline workers](frontline-worker-set-up.md).
+       - **User**: A person in your organization who needs access to the system. Learn more in [Set up frontline workers](frontline-worker-set-up.md).
        - **Account** or **Contact**: The resource isn't directly a part of your organization but you want to schedule it. For example, a vendor company that doesn't have access to your system but provides services on your behalf.
        - **Equipment**: A piece of equipment that you want to schedule. For example, a truck or a machine.
-       - **Crew**: A group of resources that gets scheduled together. For example, two or more people or a person and a vehicle. For more information, see [Group resources in crews](resource-crews.md).
-       - **Facility**: A physical space that needs to be scheduled, such as a building or room. For more information, see [Schedule a facility and associated resources](facility-scheduling.md).
-       - **Pool**: A group of similar resources. Pools are scheduled when you want to pick the actual resource at a later stage. For example, a group of cars. For more information, see [Schedule resource pools](resource-pools.md).
+       - **Crew**: A group of resources that gets scheduled together. For example, two or more people or a person and a vehicle. Learn more in [Group resources in crews](resource-crews.md).
+       - **Facility**: A physical space that needs to be scheduled, such as a building or room. Learn more in [Schedule a facility and associated resources](facility-scheduling.md).
+       - **Pool**: A group of similar resources. Pools are scheduled when you want to pick the actual resource at a later stage. For example, a group of cars. Learn more in [Schedule resource pools](resource-pools.md).
 
    - Enter the **Name** of the resource how it appears on the schedule board and set the **Time Zone**.  
 
 1. On the **Scheduling** tab:
 
    - Set the **Start Location** and **End Location** to define where the resource starts and ends their working day. The system uses these values for scheduling and routing.
-       - **Location agnostic**: The home location of this resource isn't relevant for the business scenario. Travel time isn't calculated or taken in to account to get to their first booking or from their last booking.
+       - **Location agnostic**: The home location of this resource isn't relevant for the business scenario. Travel time isn't calculated or taken into account to get to their first booking or from their last booking.
        - **Resource Address**: The resource starts and/or ends their day at a unique location. The system derives the exact location from the [latitude and longitude values on the related user, account, or contact record](turn-on-auto-geocoding.md).
        - **Organizational Unit**: The resource starts and/or ends the day at an organizational unit. Typically, that's a company location like a branch office or an assembly point. The exact location is derived from the [latitude and longitude values on the selected organizational unit](turn-on-auto-geocoding.md). If the resource type is *facility*, the organizational unit acts as the location of the facility.
 
    - Choose which **Organizational Unit** the resource belongs to.
 
-   - Choose if the resource can **Display On Schedule Board**. For more information about showing resources on the schedule board, see [Experience the schedule board in Universal Resource Scheduling](../common-scheduler/use-schedule-board.md).
+   - Choose if the resource can **Display On Schedule Board**. Learn more in [Experience the schedule board in Universal Resource Scheduling](../common-scheduler/use-schedule-board.md).
 
    - Set **Enable for Availability Search** to define if the [schedule assistant can return the resource](../common-scheduler/schedule-assistant.md) if it matches the criteria.
 
@@ -66,7 +69,7 @@ Frontline workers are people in your organization who are primarily scheduled fo
   
 ## Add work hours  
 
-You can define work hours for each resource. If you don't change them, it uses the default work hours. The schedule board differentiates work hours and nonwork hours with colors. The schedule assistant returns only resources that have capacity in their designated work hours.
+You can define work hours for each resource. If you don't change them, the system uses the default work hours. The schedule board differentiates work hours and nonwork hours with colors. The schedule assistant returns only resources that have capacity in their designated work hours.
 
 1. Open a resource record and select the **Work Hours** tab. Select **New** > **Working hours**.
 
@@ -83,6 +86,8 @@ You can define work hours for each resource. If you don't change them, it uses t
 1. Set the time zone for the resource work hours.
 
 1. **Save** the work hours to update the work hours calendar.
+
+1. **Save** the record.
 
 To edit work hour calendars with code, go to [Edit work hour calendars by using APIs](field-service-work-hours-calendar-api.md).
 
@@ -106,6 +111,8 @@ A resource can have multiple characteristics. [Create the characteristic](set-up
 
 1. Select **Save and Close**.
 
+1. **Save** the record.
+
 ### Add categories
 
 Resource categories are groups of resources that help distinguish them. For example, a resource's role or job title.
@@ -119,6 +126,8 @@ A resource can have multiple categories. [Create a resource category](set-up-boo
 1. Select a **Resource Category** from the lookup.
 
 1. Select **Save and Close**.
+
+1. **Save** the record.
 
 ### Add territories
 
@@ -134,13 +143,15 @@ A resource can be part of multiple territories, but requirements map to a single
 
 1. Select **Save and Close**.
 
+1. **Save** the record.
+
 ## Define resource location
 
 To enable features like routing, travel estimations, or the map view of the schedule board, the system needs to know the location of a resource. The location of a resource is their work location or the location of the mobile device. If no other value is available, the system uses the start and end location defined on the resource record.
 
-1. Open a resource record and select **Scheduling**.
+1. Open a resource record and select the **Scheduling** tab.
 
-1. Set the **Start Location** and **End Location** for the resource. Choose **Resource Address** or **Organizational Unit Address**, depending where they start or end their work day.
+1. Set the **Start Location** and **End Location** for the resource if not already set. Choose **Resource Address** or **Organizational Unit Address**, depending on where they start or end their work day.
 
 1. Open the related resource record (user, account, contact) and select **Geo Code** to ensure it has [a geocoded address and valid latitude/longitude values](turn-on-auto-geocoding.md). The system uses the start and end location of a resource as the resource's location during break hours if a break is configured in their work hours.
 
@@ -184,7 +195,7 @@ If a resource is temporarily unavailable (for example, during a leave of absence
 1. Add a **Time Off** entry for the period the resource is unavailable.
 1. The schedule board grays out the resource's time slots and the schedule assistant excludes them during that period.
 
-For more information, see [Submit and approve time-off requests](submit-approve-time-off-requests.md).
+Learn more in [Submit and approve time-off requests](submit-approve-time-off-requests.md).
 
 > [!TIP]
 > If expired resources still appear on your schedule board, check whether the board tab uses a custom resource view that includes inactive records. Update the view to filter on active resources only, or use [board tab settings](schedule-board-tab-settings.md) to apply a territory or resource filter.

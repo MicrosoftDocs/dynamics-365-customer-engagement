@@ -1,16 +1,20 @@
 ---
 title: Set up agreement substatuses
-description: Learn how to set up agreement substatuses in Dynamics 365 Field Service.
-ms.date: 08/21/2025
+description: Agreement substatuses let you match agreement tracking to your business processes. Learn where to find the settings and how to add a new substatus.
+ms.date: 08/03/2026
 ms.topic: how-to
 ms.author: jacoh
+ms.reviewer: v-wendysmith
 author: jasonccohen
-ms.custom: bap-template
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 08/07/2026
+ai-usage: ai-assisted
 ---
 
 # Set up agreement substatuses
 
-Set up agreement substatuses to specify the current agreement status more precisely, according to your company's business processes.
+Agreement substatuses let you track an agreement’s current state in more detail and align status tracking with your organization’s business processes.
 
 1. In Dynamics 365 Field Service, select the **Settings** area.
 
