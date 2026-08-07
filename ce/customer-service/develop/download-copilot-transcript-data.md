@@ -121,6 +121,7 @@ The following response indicates a scenario where a representative asks the Copi
 
   ```json
   
+[
 {
             "@odata.etag": "W/\"17413914\"",
             "msdyn_interactiontype": 100230305,
@@ -174,7 +175,8 @@ The following response indicates a scenario where a representative asks the Copi
             "msdyn_copilotinteractionid": "cb9dc43b-9804-f011-bae2-6045bd014292",
             "_createdby_value": "864a96d6-6bb0-ef11-a730-000d3a59065a",
             "timezoneruleversionnumber": 0
-        },
+        }
+]
 
   ```
 ## Download chat transcripts
