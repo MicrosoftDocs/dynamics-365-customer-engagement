@@ -1,11 +1,16 @@
----  
+---
 title: Dynamics 365 Field Service trial FAQ
-description: Solutions to common questions related to Dynamics 365 Field Service trial setup and management. Learn how to resolve platform and app-specific issues.
+description: Dynamics 365 Field Service trial FAQ covers setup, trial limits, sample data, and license conversion. Find answers and start exploring your trial.
 author: jshotts
 ms.author: jasonshotts
-ms.date: 08/05/2025
+ms.reviewer: v-wesmith
+ms.date: 07/30/2026
 ms.topic: get-started
-ms.custom: template-trial-faq
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 08/07/2026
+ - template-trial-faq
+ai-usage: ai-assisted
 ---
 
 # Dynamics 365 Field Service trial FAQ
@@ -24,8 +29,8 @@ When you have the license to your tenant, you can publish your environment to pr
 
 The following limitations apply for the trial:
 
-- The trial is available to you for 30 days. After that, you can request for an extension for another 30 days, buy a paid license, or sign up for a new trial.
-- The trial expires if there’s no activity on the app for 14 consecutive days. Expired trials can't be reactivated. However, you can start a new trial.
+- The trial is available to you for 30 days. After that, you can request an extension for another 30 days, buy a paid license, or sign up for a new trial.
+- The trial expires if there's no activity on the app for 14 consecutive days. You can't reactivate expired trials. However, you can start a new trial.
 - You can have only one active trial per app at a time. You can sign up again after your current trial for the app ends.
 
 ## Field Service-specific questions
@@ -36,9 +41,9 @@ After you sign up for the trial, you arrive on the app's main screen. The main s
 
 ### What features are available in the trial?
 
-The trial includes guided tours and videos that highlight key product features you can to try.
+The trial includes guided tours and videos that highlight key product features you can try.
 
-- Follow the guided tours on the Get started page to learn how Field Service helps your business schedule work intelligently and deliver proactive service using smart device alerts.
+- Follow the guided tours on the **Get started** page to learn how Field Service helps your business schedule work intelligently and deliver proactive service using smart device alerts.
 
 - Download the mobile app and follow the guided tour to learn how your frontline workers use the app to manage their day and increase their first-time fix rate.  
 
@@ -58,4 +63,6 @@ For the list of geographical regions supported in Field Service, see [Datacenter
 
 ### Which languages are supported in the trial version of Field Service?
 
-For the list of languages supported in Field Service, see [Language availability](https://dynamics.microsoft.com/availability-reports/languagereport/).
+For the list of languages supported in Field Service, see [Language availability](https://www.microsoft.com/en-us/dynamics-365/availability-reports).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
