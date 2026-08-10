@@ -4,7 +4,7 @@ description: Discover how to update agent settings, define access, and set enric
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 07/21/2026
+ms.date: 08/07/2026
 ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -75,7 +75,7 @@ Select the toggle next to the skill name to enable or disable it based on your p
 
 After configuring the settings, select **Save** and then **Start agent** to activate Data Enrichment with your specified configuration. You can stop the agent at any time by selecting **Stop agent** on the settings page. When the agent is stopped, it doesn't analyze records or generate suggestions.
 
-The agent doesn't analyze any opportunity records, emails, or meeting data until sellers [provide consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to read their emails and access their Teams meeting data. The consent is specific to each seller. 
+The agent doesn't analyze any opportunity records, emails, or meeting data until sellers are enrolled. By default, sellers are automatically enrolled when they first open an opportunity record. Enrollment is specific to each seller. For more information, see [Consent for Data Enrichment to read your emails and Teams meetings data](use-data-enrichment-agent.md#consent-for-data-enrichment-to-read-your-emails).
 
 ## Fields excluded from enrichment
 

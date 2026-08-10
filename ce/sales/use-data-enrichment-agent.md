@@ -4,7 +4,7 @@ description: Learn how to review and approve suggestions made by the Data Enrich
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 07/28/2026
+ms.date: 08/07/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -21,19 +21,34 @@ As a seller, you can review the suggestions made by Data Enrichment for opportun
 
 ## Prerequisites
 
-Ensure that your admin has set up and configured the AI-powered Data Enrichment feature. Learn more in [Set up and configure AI-powered Data Enrichment](data-enrichment-agent-configure.md).
+- Your admin must [set up and configure the AI-powered Data Enrichment](data-enrichment-agent-configure.md) feature.
+- You must be eligible for Data Enrichment based on the [user access](data-enrichment-agent-edit-settings.md#configure-user-access) defined by your admin. 
+- Your opportunity records must meet the [record selection criteria](data-enrichment-agent-edit-settings.md#select-records-for-enrichment) defined by your admin.
 
+<a name="consent-for-data-enrichment-to-read-your-emails"></a>
+## Consent for Data Enrichment to read your emails and Teams meetings data
 
-## Provide consent for Data Enrichment to read your emails
+When you open an eligible opportunity record for the first time after Data Enrichment is enabled, the agent automatically enrolls you and starts reading your emails and meeting data to generate suggestions. You don't need to provide explicit consent. 
 
-When you open an opportunity record for the first time after Data Enrichment is enabled, you see a prompt asking for your consent to allow the agent to read your emails and access your Teams meeting data in Microsoft 365. Select **Allow** to provide consent. 
+After the enrollment completes, you see the following notification banner in the opportunity record:
 
-:::image type="content" source="media/seller-consent-data-enrichment.png" alt-text="Screenshot of the consent banner that sellers see when they open an opportunity record after Data Enrichment is enabled" lightbox="media/seller-consent-data-enrichment.png" border="false":::
+:::image type="content" source="media/dea-enrollment-banner.png" alt-text="Screenshot of the notification banner in the opportunity record that informs the user that Data Enrichment is reading their emails and meeting data to generate suggestions" border="false"::: 
 
-After you provide consent, the agent takes about four hours to analyze your emails and meeting data and generate suggestions, provided the [requirements for generating suggestions](#requirements-for-generating-suggestions-based-on-your-emails) are met. You must provide consent for both automatic updates and manual updates.
+If the enrollment fails due to missing permissions, you see a notification banner that informs you of the same.
+
+The agent takes about four hours to analyze your emails and Teams meetings data and generate suggestions, provided the [requirements for generating suggestions](#requirements-for-generating-suggestions-based-on-your-emails) are met.
 
 > [!NOTE]
-> The agent only reads emails that are relevant to opportunities that you own.
+>- The agent only reads emails and meetings data that are relevant to opportunities that you own.
+
+<a name="disable-data-enrichment-suggestions"></a>
+## Enable or disable Data Enrichment suggestions
+
+By default, data enrichment suggestions are enabled for all eligible sellers. If you don't want the agent to read your emails and Teams meetings data or generate suggestions, you can disable the agent for your account.
+
+1. From the lower-left corner of the Sales Hub app, select **Change area** > **Personal Settings**.
+1. Select **Sales agents** from the left navigation pane.
+1. Turn off the **Data Enrichment agent** option to disable it. You can turn it back on at any time to re-enable the agent for your account.
 
 ## Requirements for generating suggestions based on your emails
 
