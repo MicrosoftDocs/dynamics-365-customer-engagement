@@ -1,7 +1,7 @@
 ---
 title: FAQs about AI-powered Data Enrichment for opportunities
 description: Explore frequently asked questions about AI-powered Data Enrichment in Dynamics 365 Sales and how it transforms your CRM data into valuable insights.
-ms.date: 07/21/2026
+ms.date: 08/07/2026
 ms.update-cycle: 180-days
 ms.topic: faq
 ms.service: dynamics-365-sales
@@ -53,9 +53,9 @@ If you don't see suggestions, it could be due to several reasons:
 
 - **Configuration settings**: Your administrator might not have configured the feature. 
 - **User permissions**: It's possible that you are not a part of the group that has access to view suggestions. 
-- **Consent**: The opportunity owner might not have provided consent to analyze their emails and Teams meeting data.
-    - If you're the owner of the opportunity, ensure that you [provide consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to analyze your emails and access your Teams meeting data. 
-    - If you're looking at an opportunity that you don't own, it's possible that the owner of that opportunity didn't provide consent to analyze their emails or meeting data, or they don't have access to the Data Enrichment feature.
+- **Data Enrichment disabled**: The opportunity owner might have disabled Data Enrichment for their account.
+    - If you're the owner of the opportunity, ensure that you [enable Data Enrichment suggestions](use-data-enrichment-agent.md#disable-data-enrichment-suggestions) to allow the agent to analyze your emails and access your Teams meeting data.
+    - If you're looking at an opportunity that you don't own, it's possible that the owner of that opportunity disabled the Data Enrichment agent or doesn't have access to the Data Enrichment feature.
 - **Data availability**: There might not be sufficient data or relevant email or Teams meeting interactions to generate suggestions for that opportunity.
 
 ## Which Teams meetings does Data Enrichment analyze?
@@ -70,6 +70,10 @@ The type of meeting data used depends on the seller's license:
 ## Can all users see the calendar event citation in Data Enrichment suggestions?
 
 No. When a suggestion is generated from an actual Teams meeting, the Data Enrichment pane shows a citation that links to the calendar event. Only users who attended the meeting can see this citation. Users who weren't part of the meeting can't see or access the calendar event citation.
+
+## How do I disable Data Enrichment suggestions for my account?
+
+You can [disable Data Enrichment](use-data-enrichment-agent.md#disable-data-enrichment-suggestions) at any time. After disabling it, the agent stops reading your emails and meeting data, and it doesn't generate new suggestions for your opportunities.
 
 ## Why did my data enrichment suggestions disappear?
 

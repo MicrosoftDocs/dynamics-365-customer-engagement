@@ -4,7 +4,7 @@ description: Learn how to set up and configure the AI-powered Data Enrichment fe
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 07/20/2026
+ms.date: 08/07/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -41,26 +41,39 @@ Ensure that you meet the following prerequisites:
 
 ## Verify prerequisites
 
-In the prerequisites dialog, configure the following prerequisites:
+In the prerequisites dialog, configure the prerequisites described in this section.
 > [!NOTE]
 > Sales Opportunity Agent and Data Enrichment use the same Microsoft 365 Services and Dataverse Search configuration. If you already [configured these prerequisites for Sales Opportunity Agent](configure-requirements-for-sales-close-agent-research.md), they're marked as done for Data Enrichment too. 
 
 <a name="prerequisites-dataverse"></a>   
-- **Dataverse Search**: Data Enrichment uses Dataverse Search to find and enrich records in Dynamics 365 Sales. If you didn't set up Dataverse Search, select **Set up** to open the **Features** page in Power Platform admin center. Learn more about [configuring Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization). After setting up Dataverse Search, return to the agent configuration page and select **Refresh** to update the status of this prerequisite. 
-<a name="prerequisites-m365"></a> 
-- **Microsoft 365 Services**: To allow the agent to read seller emails and fetch relevant data for enrichment, select **Mark as done** and then **Apply changes**. Points to note:
-   - Teams meeting data includes meeting transcripts and AI summaries. 
-   - Sellers are prompted to provide consent the first time they access the **Opportunity** page. 
-   - The agent reads emails and meeting data in place without storing them in CRM.
 
-   To configure and use Microsoft 365 Services, you need:
-   - At least one of the following roles: Global administrator, Dynamics 365 administrator, or similar.
-   - At least one of the following licenses: Microsoft 365 or Office 365, Power Automate Premium, or Dynamics 365 Sales Enterprise Edition.
+### Dataverse Search
+
+Data Enrichment uses Dataverse Search to find and enrich records in Dynamics 365 Sales. If you didn't set up Dataverse Search, select **Set up** to open the **Features** page in Power Platform admin center. Learn more about [configuring Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization). After setting up Dataverse Search, return to the agent configuration page and select **Refresh** to update the status of this prerequisite. 
+
+<a name="prerequisites-m365"></a> 
+### Microsoft 365 Services
+
+To allow the agent to read seller emails and fetch relevant data for enrichment, select **Mark as done** and then **Apply changes**. 
+
+Points to note:
+- The agent reads emails from Exchange without storing them in Dynamics 365.
+- Sellers can disable the agent if they don't want the agent to read their emails. Learn more in [Enable or disable Data Enrichment suggestions](use-data-enrichment-agent.md#disable-data-enrichment-suggestions).
+
+To configure and use Microsoft 365 Services, you need:
+- At least one of the following roles: Global administrator, Dynamics 365 administrator, or similar.
+- At least one of the following licenses: Microsoft 365 or Office 365, Power Automate Premium, or Dynamics 365 Sales Enterprise Edition.
+
 <a name="prerequisites-teams-meeting"></a> 
-- **Microsoft Teams meetings**: To allow the agent to read Teams meeting data and fetch relevant data for enrichment, select **Connect**. Points to note:
-   - You must be a tenant administrator to connect Teams meetings. 
-   - Teams meeting data includes meeting transcripts, attendee list, and AI summaries. 
-   - The agent reads meeting data in place without storing them in CRM.
+
+### Microsoft Teams meetings
+
+To allow the agent to read Teams meeting data of your sellers and fetch relevant data for enrichment, select **Connect**. 
+
+Points to note:
+- You must be a tenant administrator. 
+- The agent reads meeting data such as meeting transcripts, attendee list, and AI summaries without storing them in  Dynamics 365.
+- Sellers can disable the agent if they don't want the agent to read their Teams meeting data. Learn more in [Enable or disable Data Enrichment suggestions](use-data-enrichment-agent.md#disable-data-enrichment-suggestions).
 
 ## Create the agent
 
@@ -79,7 +92,7 @@ In the prerequisites dialog, configure the following prerequisites:
     | Data sources | Outlook, Teams |
     
 1. Do *ONE* of the following:
-    - Review the recommended settings and select **Start agent** if the default settings work for your business needs. The agent doesn't analyze any opportunity records, emails, or meeting data until sellers [provide consent](use-data-enrichment-agent.md#provide-consent-for-data-enrichment-to-read-your-emails) to read their emails and access their Teams meeting data. The consent is specific to each seller. 
+    - Review the recommended settings and select **Start agent** if the default settings work for your business needs. The agent doesn't analyze any opportunity records, emails, or meeting data until sellers are enrolled. By default, sellers are automatically enrolled when they first open an opportunity record. Enrollment is specific to each seller.
     - Select **Edit in settings** to customize the configuration. The agent doesn't start until you finish configuring the settings. Learn more about configuring the settings in the [Configure AI-powered Data Enrichment settings](data-enrichment-agent-edit-settings.md) article.
 
 ## Grant permissions to sellers
