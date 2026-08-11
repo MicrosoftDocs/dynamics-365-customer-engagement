@@ -16,7 +16,7 @@ Field Service technicians often work in areas with no internet connection, like 
 - Consistent performance. Technicians interact with the app in the same way regardless of their device connectivity.
 - Seamless and uninterrupted experience. Data synchronization occurs in the background without disrupting the technician's workflow.
 
-The default offline profile, Field Service Mobile - Offline Profile, has common Field Service tables preconfigured for offline use and recommended filters to limit the data that gets downloaded. It has predetermined sync intervals for each table, based on typical usage patterns. We recommend you use the default offline profile, or copy it and build on the copied profile.
+The default offline profile, Field Service Mobile - Offline Profile, has common Field Service tables preconfigured for offline use and recommended filters to limit the data that gets downloaded. It has predetermined sync intervals for each table, based on typical usage patterns. Use the default offline profile, or copy it and build on the copied profile.
 
 For a guided walkthrough, check out the following video.
 >
@@ -81,11 +81,40 @@ If you have user roles that need different sync settings or tables available off
 
 You can optimize the mobile offline profile by selectively enabling columns to include with a sync. For guidance and best practices, see [Optimize data downloaded to improve sync time and usage](/power-apps/mobile/mobile-offline-guidelines#optimize-data-downloaded-to-improve-sync-time-and-usage).
 
-<!--- Move a mobile offline profile between environments removed because it was incorrect per Jon Baker 01/30/2026. Power Apps is supposed to be coming up with a new way to do this.
---->
-
 > [!CAUTION]
-> If an offline profile filter references a lookup table that isn't included in the offline profile, related data won't be available offline. This might result in errors or blank screens for technicians. Always ensure that all tables referenced by lookup filters are included in the offline profile.
+> If an offline profile filter references a lookup table that you don't include in the offline profile, related data isn't available offline. The result might be errors or blank screens for technicians. Always ensure that you include all tables referenced by lookup filters in the offline profile.
+
+## Move a mobile offline profile between environments
+
+To control changes and keep your offline profiles in sync, your organization might require that you make changes to the profiles in one environment and then move them into other environments. Be aware that publishing changes to an offline profile creates an active solution layer. Review your solution management and layering strategy when updating profiles across environments.
+
+### Add an offline profile to a solution
+
+1. Sign in to [Power Apps](https://make.powerapps.com/), and select your environment.
+
+1. [Create a new solution](/power-apps/maker/data-platform/create-solution) or open an existing solution.
+
+1. In the solution, select **Objects** from the left navigation pane.
+
+1. On the command bar, select **Add existing** > **More** > **Offline profile**.
+
+1. In the dialog box, select one or more offline profiles, and then select **Add**.
+
+### Export the solution
+
+1. Go to the solution's **Overview** page, or go to the list of solutions.
+
+1. Select **Export** on the command bar.
+
+1. Follow the prompts to complete the solution export.
+
+### Import into the target environment
+
+1. In the target environment, import the exported solution.
+
+1. Complete the import process and publish customizations if prompted.
+
+1. Confirm that the mobile offline profile is available and functioning as expected in the target environment.
 
 ## Verify and manage profile assignments
 
