@@ -3,7 +3,7 @@ title: "Choose your development style for Dynamics 365 Customer Engagement (Deve
 description: "Learn about the various options available to developers to make use of Dynamics 365 Customer Engagement web services (SDK) or to extend the application."
 ms.custom: 
 ms.reviewer: pehecke
-
+ms.date: 08/10/2026
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -46,7 +46,7 @@ The SDK offers a variety of methods and technologies to use when you write code 
 The SDK assemblies provides you with classes that you can use to connect to Dynamics 365 Customer Engagement (on-premises) web services to identify your organization and perform common business  operations like create, retrieve. update and delete data in Dynamics 365 Customer Engagement (on-premises). The SDK assemblies are available as NuGet packages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Subscribe to SDK assembly updates using NuGet](/powerapps/developer/common-data-service/org-service/subscribe-sdk-assembly-updates-using-nuget).  
 
 > [!IMPORTANT]
->  You should use the latest version of the SDK assemblies to create your plug-ins, custom workflow activities, or XAML workflows. Starting with version 9.x, you should use .NET Framework version 4.6.2.
+>  Use the latest supported version of the SDK assemblies to create your plug-ins, custom workflow activities, or XAML workflows. For more information, see [Support for the .NET platform](supported-extensions.md#support-for-the-net-platform).
 > 
 >  However, if you are using .NET Framework 4 and using the  [CrmConnection](https://msdn.microsoft.com/library/microsoft.xrm.client.crmconnection\(v=crm.6\).aspx) class of SDK extensions ([deprecated](/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)#SDKExtensions)) to connect to [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)] (on-premises) and [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (version 8.1.0) or later, you will need to use version 6.1.2 of the assemblies. Otherwise, you won't be able to connect. For more information about backward compatibility, see [Blog: Dynamics 365 Customer Engagement (on-premises) SDK Backwards Compatibility](https://go.microsoft.com/fwlink/?linkid=842744)  
 
