@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues and how you can use them in unified routing in Dynamics 365 Contact Center and Customer Service.
-ms.date: 04/27/2026
+ms.date: 08/12/2026
 ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
@@ -134,6 +134,15 @@ You can also build a [custom report](model-customize-reports.md) to track a repr
 > The least-active assignment method is available for the voice and messaging channels only and is the default selection when you create a voice or messaging queue.
 >
 > This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making—and should not be used to make—decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
+
+### Use pick-based assignment method
+
+Set up the **No auto assignment** method to keep the routed conversations in the queue until a service representative manually picks them up. This method is useful when you want the representatives to pick the work items or supervisor manually assign them based on their availability and skills.
+
+The system routes the conversations to the queue but doesn't assign them to any representative. Representatives can pick up these work items from their Inbox. Supervisors can assign the work items manually from the ongoing conversation dashboard in Copilot Service workspace.
+
+> [!NOTE]
+> Because work items aren't automatically assigned to representatives, monitor the queue regularly to ensure no items remain unattended.
 
 ### Create new
 
