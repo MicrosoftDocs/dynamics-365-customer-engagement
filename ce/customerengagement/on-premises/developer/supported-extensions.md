@@ -3,7 +3,7 @@ title: "Supported extensions (Developer Guide for Dynamics 365 Customer Engageme
 description: "You can customize  Dynamics 365 Customer Engagement (on-premises) by using tools that are available in the Customer Engagement web application or that are described in the Dynamics 365 Customer Engagement (on-premises) SDK. These customizations are supported and can be upgraded. Customizations made using methods other than the ones described here are unsupported and could cause problems during updates and upgrades to Dynamics 365 Customer Engagement."
 ms.custom: 
 ms.reviewer: pehecke
-ms.date: 09/05/2025
+ms.date: 08/10/2026
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
@@ -53,7 +53,7 @@ You can customize Dynamics 365 Customer Engagement (on-premises) by using tools 
   
 ### Dynamics 365 Customer Engagement (on-premises) web services
 
- Use of the web services is fully supported. The list of web services includes: Discovery Service, Organization Service (SDK),  Organization Data Service, the Web API, and the Deployment Service. We strive to keep the APIs backward compatible but reserve the right to change APIs for more features. Entity attributes may also change in future versions. For more information, see [Write Code for Dynamics 365 Customer Engagement (on-premises)(Web Services)](extend-dynamics-365-server.md).  
+Microsoft fully supports the use of the web services. The list of web services includes: Discovery Service, Organization Service (SDK), Organization Data Service, the Web API, and the Deployment Service. Microsoft strives to keep the APIs backward compatible but reserves the right to change APIs for more features. Entity attributes might also change in future versions. For more information, see [Write Code for Dynamics 365 Customer Engagement (on-premises)(Web Services)](extend-dynamics-365-server.md).
   
 ### Client-side JavaScript
 
@@ -107,21 +107,18 @@ The following supported tasks require this procedure:
   
 <a name="SupportNET"></a>
 
-## Support for .NET Framework Versions  
+## Support for the .NET platform 
 
- The support considerations for custom code written the Microsoft .NET Framework 4.6.2 is described here.
+ This section describes supported development scenarios for custom code that targets a Microsoft .NET platform. These scenarios assume use of the SDK for .NET to interact with the web services.
   
-- Any web service client created by using the Microsoft .NET Framework 4.6.2 (or newer versions) that calls the Dynamics 365 Customer Engagement (on-premises) web services is fully supported in Dynamics 365 Customer Engagement (on-premises).  
+- You can build any custom client application or service that targets a supported .NET platform and calls the Dynamics 365 Customer Engagement (on-premises) web services.
+  
+- You can build any assembly that contains one or more plug-ins or custom workflow activities for use in Dynamics 365 Customer Engagement (on-premises) and targets Microsoft .NET Framework 4.6.2 through 4.8.
+ 
+- Dynamics 365 Customer Engagement (on-premises) supports any visualization (chart) that you create with .NET Framework 4.6.2 or newer version.
 
-  > [!IMPORTANT]
-  > You should build any custom client applications using [!INCLUDE [pn-net-framework-462-long](../includes/pn-net-framework-462-long.md)] or newer.
-  > Beginning with the Dynamics 365 Customer Engagement (on-premises) version 9, only applications using Transport Level Security (TLS) 1.2 or better security is allowed to connect. TLS 1.2 isn't the default protocol used by [!INCLUDE [pn-net-framework-452-short](../includes/pn-net-framework-452-short.md)], but it is in  [!INCLUDE [pn-net-framework-462-short](../includes/pn-net-framework-462-short.md)].
-  >
-  > Enforcement of this higher standard for security is only applied to Dynamics 365 Customer Engagement (on-premises) version 9 at this time. If your clients are designed to connect to any version or deployment type, you can prepare by recompling the application to use [!INCLUDE [pn-net-framework-462-short](../includes/pn-net-framework-462-short.md)].
-  > More information: [Blog Post: Updates coming to Dynamics 365 Customer Engagement (on-premises) connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)
-  
-- Any .NET assembly that is created with the Microsoft .NET Framework 4.6.2 for use in Dynamics 365 Customer Engagement (on-premises) as a Dynamics 365 Customer Engagement (on-premises) plug-in assembly or as a Dynamics 365 Customer Engagement (on-premises) custom workflow activity is supported.  
-- Any visualization (chart) that is created with [!INCLUDE[pn_NET_Framework_452_short](../includes/pn-net-framework-452-short.md)].
+> [!IMPORTANT]
+> Sandbox support for plug-ins and custom workflow activities that target .NET Framework 4.8 has been added. Existing projects that target .NET Framework 4.6.2 continue to be supported. However, update your existing code to target 4.8 for improved security and other new features.
 
 More information: [Visual Studio and the .NET Framework](visual-studio-dot-net-framework.md)  
   
@@ -181,7 +178,9 @@ More information: [Visual Studio and the .NET Framework](visual-studio-dot-net-f
   
 - Displaying an entity form within an IFrame embedded in another entity form isn't supported.
 
-- Plugin and Workflow Assemblies must contain all the necessary logic within the respective dll. Plugins may reference some core .NET assemblies. However, we don't support dependencies on .NET assemblies that interact with low-level Windows APIs, such as the graphics design interface. Previously, Dynamics 365 Customer Engagement allowed for assemblies to refer to these interfaces, but to adhere to our security standards, changes to this behavior are required.
+- Plug-in and custom workflow assemblies must contain all the necessary logic within the respective DLL. Plugins can reference some core .NET assemblies. However, Dynamics 365 Customer Engagement doesn't support dependencies on .NET assemblies that interact with low-level Windows APIs, such as the graphics design interface. Previously, Dynamics 365 Customer Engagement allowed for assemblies to refer to these interfaces, but to adhere to security standards, changes to this behavior are required.
+
+- Registering a plug-in or custom workflow assembly with a build target of .NET Core.
   
 ### See also  
  [Choose your development style for managed code](choose-development-style.md)<br/>
