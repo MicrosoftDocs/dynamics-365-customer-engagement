@@ -1,7 +1,7 @@
 ---
 title: Configure assignment methods for queues
 description: Contains steps on how to configure the different assignment methods for queues in your contact center.
-ms.date: 10/16/2025
+ms.date: 08/12/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -29,13 +29,24 @@ In unified routing, the process of creating assignment rulesets involves the fol
 
 [Template rulesets](manage-routing-rules-templates.md) are available if you want to create assignment rulesets based on templates.
 
-## Create an assignment method and configure rules
+## Select an assignment method
 
 1. In the site map of Copilot Service admin center, select **Queues** in **Customer support**.
 
 1. On the **Queues** page, select **Manage** for **Advanced queues**.
+1. Select a queue to edit.
+1. In **Assignment method**, select one of the following methods:
 
-1. Select a queue, and on the **Assignment method** page, select **Create New**.
+   - **Highest capacity**
+   - **Advanced round robin**
+   - **Least active**
+   - **No auto assignment**
+
+1. Save the changes and close.
+
+## Create an assignment method and configure rules
+
+On the **Assignment method** page, if you select **Create New**, complete the following steps:
 
 1. In the **Create work assignment** dialog, enter a name and description for the ruleset, and select **Create**.
 
@@ -65,13 +76,13 @@ In unified routing, the process of creating assignment rulesets involves the fol
 
 1. In the **Create assignment rule** dialog, do the following to add conditions and order by attributes:
 
-   a. **Rule Name**: Enter a rule name.
+   1. **Rule Name**: Enter a rule name.
 
       By default, the root record is selected and displayed at the top of the condition builder.
 
-   b. **Conditions**: Select **Add** to select an attribute or related entity and define condition. You can define conditions for up to two levels of the related records and attributes.
+   1. **Conditions**: Select **Add** to select an attribute or related entity and define condition. You can define conditions for up to two levels of the related records and attributes.
 
-   c. **Order by**: Select an attribute to define the order of work assignment if multiple service representatives match the condition.
+   1. **Order by**: Select an attribute to define the order of work assignment if multiple service representatives match the condition.
 
       - **Ordering Attributes**:
          - **Least active**: Is available for voice and messaging channel queues only. Work item is routed to the representative who is the least active among all who match the skills, presence, and capacity. Learn more in [Types of assignment methods](assignment-methods.md#types-of-assignment-methods).
@@ -82,9 +93,8 @@ In unified routing, the process of creating assignment rulesets involves the fol
          - Skill count
       - **User Attributes**: These attributes are defined on the system user entity.
 
-   d. Select **Create**.
-
-   e. Repeat the steps a through d to configure multiple rules.
+    1. Select **Create**.
+    1. Repeat steps a through d to configure multiple rules.
 
    > [!NOTE]
    > We recommend that you reduce the granularity of the conditions for the assignment rules in a descending order.
