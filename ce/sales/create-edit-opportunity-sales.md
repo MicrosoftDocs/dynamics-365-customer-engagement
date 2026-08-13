@@ -1,7 +1,7 @@
 ---
 title: Create or edit opportunities
 description: An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy.
-ms.date: 07/07/2026
+ms.date: 08/13/2026
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -56,13 +56,9 @@ Create an opportunity with the details you have. You can update the opportunity 
 
 5. Select **Save**.
 
-## Copy an opportunity (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+## Copy an opportunity
 
 You can copy an opportunity to quickly create repeat deals by duplicating existing opportunities. This method saves time on data entry, ensures consistency across related deals, and lets you review and modify key details before saving. For example, if you close a deal with a customer and want to create a follow-up opportunity with similar terms, you can copy the original opportunity, update the relevant fields (like dates and amounts), and create a new deal in seconds instead of manually re-entering all the information.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 1. Open an existing opportunity, or go to the opportunity grid view and select a single opportunity.
 

@@ -1,21 +1,17 @@
 ---
-title: Disable copy opportunity feature (preview)
+title: Disable copy opportunity feature
 description: Disable the copy opportunity feature in Dynamics 365 Sales to prevent users from creating repeat deals by copying existing opportunities.
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 08/07/2026
+ms.date: 08/13/2026
 ms.topic: how-to
 ai-usage: ai-assisted
 ---
 
-# Disable copy opportunity feature (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+# Disable copy opportunity feature
 
 The copy opportunity feature in Dynamics 365 Sales helps users quickly create repeat deals by duplicating existing opportunities. This feature is enabled by default. If you don't want users to create opportunities by duplicating existing ones, you can disable this feature.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Disable the feature
 
@@ -26,7 +22,7 @@ The copy opportunity feature in Dynamics 365 Sales helps users quickly create re
 
 After you turn off the feature, users no longer see the **Copy opportunity** button on the command bar when they open an existing opportunity or select a single opportunity from the grid view. 
 
-For more information about using the feature, see [Copy an opportunity (preview)](create-edit-opportunity-sales.md#copy-an-opportunity-preview).
+For more information about using the feature, see [Copy an opportunity](create-edit-opportunity-sales.md#copy-an-opportunity).
 
 ## Related information
 
