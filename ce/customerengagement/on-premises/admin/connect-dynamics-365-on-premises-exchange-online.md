@@ -101,11 +101,10 @@ Before you configure Dynamics 365 Customer Engagement (on-premises) and Exchange
 
     [Download](https://github.com/microsoft/PowerApps-Samples/blob/master/powershell/ServerSideSync/ConfigureCrmServerSideSync.ps1) the script and replace the existing script if the ConfigureCrmServerSideSync.ps1 script present in the current powershell session directory, from above, is different than the script in the download link:
 
-     $ConfigureCrmServerSideSyncWithCommand = ".\ConfigureCrmServerSideSync.ps1 -privateKeyPassword (ConvertTo- 
-     SecureString 'personal_certfile_password' -AsPlainText -Force) -pfxFilePath c:\Personalcertfile.pfx -organizationName 
-     organization_name -microsoftEntraIdTenantIdOrDomainName microsoft_entraid_tenantid_or_domain_name -ClientID 
-     app_id_from_step3 -ClientSecret -client_secret" 
-     Invoke-Expression -command $ConfigureCrmServerSideSyncWithCommand 
+    ```powershell
+    $ConfigureCrmServerSideSyncWithCommand = ".\ConfigureCrmServerSideSync.ps1 -privateKeyPassword (ConvertTo-SecureString 'personal_certfile_password' -AsPlainText -Force) -pfxFilePath c:\Personalcertfile.pfx -organizationName organization_name -microsoftEntraIdTenantIdOrDomainName microsoft_entraid_tenantid_or_domain_name -ClientID app_id_from_step2 -ClientSecret client_secret"
+    Invoke-Expression -Command $ConfigureCrmServerSideSyncWithCommand 
+    ```
 
 > [!IMPORTANT]
 > For customers using Exchange Online with Government Community Cloud (GCC) High for US government environments, the **S2SDefaultAuthorizationServerMetadataUrl** in the PowerShell script must be changed to *https://login.microsoftonline.us/metadata/json/1*.
