@@ -1,11 +1,15 @@
 ---
 title: Work order lifecycle and system statuses
 description: Track the status of a work order in its lifecycle with system statuses, substatuses, and booking statuses.
-ms.date: 06/26/2026
+ms.date: 08/10/2026
 ms.topic: concept-article
 author: vhorvathms
 ms.author: vhorvath
-ms.custom: bap-template
+ms.reviewer: puneet-singh1
+ms.custom: 
+    - bap-template
+    - ai-gen-docs-bap
+    - ai-seo-date: 08/10/2026
 ai-usage: ai-assisted
 ---
 
@@ -91,16 +95,15 @@ Beyond work order system statuses updating booking statuses and vice versa, stat
 #### Completed (work order)
 
 - Converts [work order products](create-product-or-service.md) to new customer assets if **Convert to Customer Asset** is *Yes* in the product record.
-- Adds [travel charge item](travel-charges.md) as work order product.
 
 #### Posted
 
 - Generates *Invoices* for used work order products and services for the billing account of the work order.
 - Creates *Actuals* records for time and costs related to work orders and bookings. Creates sales actuals for billed products and services after confirming the generated invoice.
-- Updates **Closed By**  and **Closed On** fields.
+- Updates **Closed By** and **Closed On** fields. The system also sets these fields when a work order is canceled.
 
   > [!NOTE]
-    > System configurations set in the [Field Service Settings](configure-default-settings.md) impact both **Invoice** and **Actual** creation.
+  > System configurations set in the [Field Service Settings](configure-default-settings.md) impact both **Invoice** and **Actual** creation.
 
 ### Booking status processes
 
@@ -116,7 +119,7 @@ Every booking status change creates a booking timestamp to keep track of the upd
 
 #### In Progress
 
-- Updates **Actual Arrival Time** with the date and time when a technician changes booking status to *In Progess* on the mobile app. When updated from web, the arrival time isn't automatically updated.
+- Updates **Actual Arrival Time** with the date and time when a technician changes booking status to *In Progress* on the mobile app. When updated from web, the arrival time isn't automatically updated.
 - Updates **First Arrived On (Work Order)** field on the related work order with the **Actual Arrival Time** of the booking. Editing **Actual Arrival Time** also updates the **First Arrived On** value.
   - If there was more than one booking, the booking with the earliest *Actual Arrival Time* drives the *First Arrived On* value on the **Work Order**.
 - Updates **Actual Travel Duration**, calculated as the total time during which the booking status is **Traveling**.
@@ -129,8 +132,9 @@ Every booking status change creates a booking timestamp to keep track of the upd
 - Calculates **Total Duration in Progress** based on time the booking status is *In progress*.
 - Calculates **Total Break Duration** based on time the booking status is *On Break*.
 - Updates **Total Cost**, calculated as the sum total of actual travel duration, total duration in progress, and the total break duration, multiplied by the resource's hourly rate.
-- Updates **Total Billable Duration**, calculated as the sum total of total duration in progress and total break duration.
+- Updates **Total Billable Duration**, calculated as the total duration of the booking journals marked as billable. By default, the system marks working hours as billable. It marks break time as billable only when the booking's price list specifies that breaks are billable.
 - Updates **Completed On (Work Order)** field on the related work order with the end time of the booking. Editing the booking end time updates the **Completed On** value.
+- Adds the [travel charge item](travel-charges.md) as a work order product when the service account has a travel charge type set and the booking has a nonzero **Actual Travel Duration**.
 
 ### Complete your booking without completing your work order for follow-up activity
 
