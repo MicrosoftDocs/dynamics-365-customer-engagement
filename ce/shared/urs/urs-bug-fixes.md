@@ -7,18 +7,35 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.4001.4](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240014) | TBD | 08/28 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.4000.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400030-hotfix2) | [3.12.4001.4](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240014) | 07/31 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.4000.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400030-hotfix2) | [3.12.4001.4](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240014) | 08/07 |
-| | *USG* | [3.12.4000.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400030-hotfix2) | [3.12.4001.4](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240014) | 07/29 |
-|**Station 4** |*Europe* | [3.12.4000.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400030-hotfix2) | [3.12.4001.4](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240014) | 08/14 |
-|**Station 5** |  *North America, Oceania*| [3.12.4000.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400030-hotfix2) | [3.12.4001.4](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240014) | 08/21 |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.4000.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400030-hotfix2) | [3.12.4001.4](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240014) | 08/19 |
-|**Station 6** | *Dedicated Scale Groups* | [3.12.4000.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400030-hotfix2) | [3.12.4001.4](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240014) | 08/28 |
+|**Station 1** |  *First Release*| [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | TBD | 08/28 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.4001.4](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240014-hotfix1) | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | 08/21 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.4001.4](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240014-hotfix1) | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | 08/21 |
+| | *USG* | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | TBD | 09/02 |
+|**Station 4** |*Europe* | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | TBD | 09/18 |
+|**Station 5** |  *North America, Oceania*| [3.12.4000.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400031-hotfix3) | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | 08/21 |
+|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.4000.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400031-hotfix3) | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | 08/19 |
+|**Station 6** | *Dedicated Scale Groups* | [3.12.4000.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400031-hotfix3) | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | 08/28 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.4001.5 (hotfix2)
+
+**Resource Scheduling Controls:** 1.2.103.262021
+
+**Dataverse:** 4.0.4001.5
+
+- Solution update reliability: Fixed an issue that could cause fresh installations or updates of Universal Resource Scheduling cumulative patches to fail.
+- This release contains additional security improvements.
+
+## 3.12.4001.4 (hotfix1)
+
+**Resource Scheduling Controls:** 1.2.103.262021
+
+**Dataverse:** 4.0.4001.4
+
+- No updates were made to Universal Resource Scheduling in this release.
 
 ## 3.12.4001.4
 
@@ -45,6 +62,14 @@ For information about older versions, see [Version history archive](../../field-
 - Requirement Date Validation: Added consistent date validation across resource requirement and requirement detail records.
 - Schedule Board Setup Recovery: Fixed an issue where a Field Service update could fail with a **Slot metadata collection doesn't exist** error. The default Schedule Board setting is now restored automatically.
 - Localization: Localized the **Showing first 100 results. Type to refine your search.** text in the filter panel.
+
+## 3.12.4000.31 (hotfix3)
+
+**Resource Scheduling Controls:** 1.2.102.261901
+
+**Dataverse:** 4.0.4000.31
+
+- This release contains security improvements.
 
 ## 3.12.4000.30 (hotfix2)
 
@@ -955,4 +980,3 @@ For information about older versions, see [Version history archive](../../field-
 **Dataverse:** 4.0.101.1
 
 **Work hours calendar supports multiple recurrences**: Previously, you could only have one work hour recurrence per resource. With the added capability of multiple recurrences, you can now unlock greater flexibility in your resource scheduling to meet business demands further while adjusting to the needs of your workforce for employee retention and job satisfaction.
-
