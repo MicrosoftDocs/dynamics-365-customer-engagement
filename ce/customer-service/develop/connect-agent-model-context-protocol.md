@@ -30,7 +30,7 @@ This article explains how to:
 Agent 365 Tooling Gateway is an OAuth 2.0-protected resource. Each MCP server URL that the gateway fronts exposes OAuth discovery metadata through an anonymous discovery endpoint.
 
 ```http
-GET https://<ring-host>/.well-known/oauth-protected-resource/mcp/environments/<environment-id>/servers/mcp_D365CX_Service
+GET https://agent365.svc.cloud.microsoft/.well-known/oauth-protected-resource/mcp/environments/<environment-id>/servers/mcp_D365CX_Service
 ```
 
 The discovery response tells the MCP client which authorization server, resource audience, and scopes to use.
@@ -38,12 +38,12 @@ The discovery response tells the MCP client which authorization server, resource
 ```json
 {
   "resource_name": "mcp_D365CX_Service",
-  "resource": "https://<ring-host>/mcp/environments/<environment-id>/servers/mcp_D365CX_Service",
+  "resource": "https://agent365.svc.cloud.microsoft/mcp/environments/<environment-id>/servers/mcp_D365CX_Service",
   "authorization_servers": [
     "https://login.microsoftonline.com/organizations/v2.0"
   ],
   "scopes_supported": [
-    "https://<ring-host>/mcp/environments/<environment-id>/servers/mcp_D365CX_Service/.default",
+    "https://agent365.svc.cloud.microsoft/mcp/environments/<environment-id>/servers/mcp_D365CX_Service/.default",
     "openid",
     "profile",
     "offline_access"
@@ -61,7 +61,7 @@ The MCP client requests a token for the Agent 365 Tooling Gateway resource. Agen
 - The token audience is tooling gateway, not the Dynamics 365 CX MCP Server - Service directly.
 - The OAuth scope uses the Agent 365 Tooling Gateway resource URL and ends with `/.default`.
 - The `/.default` scope doesn't support incremental or dynamic user consent. Admin consent must be granted in advance in the customer tenant.
-- The scope is specific to the ring, environment, and server. Each ring and environment requires its own connector configuration.
+- The scope is specific to the environment, and server. Each environment requires its own connector configuration.
 - Discovery-capable clients can read the OAuth metadata automatically. Copilot Studio custom connector setup might require you to enter OAuth values manually.
 
 ## Prerequisites
@@ -69,34 +69,28 @@ The MCP client requests a token for the Agent 365 Tooling Gateway resource. Agen
 - Use the System Administrator or Omnichannel Administrator role to configure the MCP server. 
 - Use the Customer Service Representative or CSR Manager role to use the MCP server and its tools. 
 - The Dynamics 365 CX MCP Server - Service must be configured and available in the Copilot Studio tools list. 
-- Dataverse environment ID. This is required in the Agent 365 Tooling Gateway  server URL. The environment ID must belong to the same ring as the Agent 365 Tooling Gateway  host.
-- Correct Agent 365 Tooling Gateway ring host and app ID.
+- Dataverse environment ID. This ID is required in the Agent 365 Tooling Gateway server URL.
+- Correct Agent 365 Tooling Gateway app ID.
 - Tenant admin or delegated admin-consent permissions.
--  Non-production tenant account for Test or PreProd, when you connect to non-production Agent 365 Tooling Gateway  rings. 
-
-> [!NOTE]
-> The environment ID in the URL must belong to the same ring as the Agent 365 Tooling Gateway  host. For example, a Test-ring environment ID doesn't resolve on the PreProd or Prod host.
 
 > [!IMPORTANT]
 > Enabling connections between Dynamics 365 and non-Dynamics 365 services, including Microsoft or external services, will allow data to egress outside of the Dynamics 365 FedRAMP High boundary. Data flowing from Dynamics 365 to other services will be processed and stored according to the terms, compliance commitments, and data residency and handling requirements of the destination service.
 > 
 > This data might include queries and other data submitted to agents by users in your organization. Before enabling MCP server connections for your organization, your Tenant Administrator should confirm that these connections meet their data security, compliance, residency, and governance requirements.
 
-## Agent 365 Tooling Gateway ring hosts and app IDs
+## Agent 365 Tooling Gateway app ID
 
-Agent 365 Tooling Gateway uses separate hosts and Microsoft Entra app IDs for each ring. Use the host and app ID that match the target environment.
+Agent 365 Tooling Gateway uses a Microsoft Entra app ID. Use the following app ID.
 
-| Ring | Gateway host | Microsoft Entra app ID |
-|---|---|---|
-| Test | `https://test.agent365.svc.cloud.dev.microsoft` | `05879165-0320-489e-b644-f72b33f3edf0` |
-| PreProd | `https://preprod.agent365.svc.cloud.dev.microsoft` | `4585d2c8-61e2-4f6a-a2a5-707519abf91c` |
-| Prod | `https://agent365.svc.cloud.microsoft` | `ea9ffc3e-8a23-4a7d-836d-234d7c7565c1` |
+| Microsoft Entra app ID |
+|---|
+| `ea9ffc3e-8a23-4a7d-836d-234d7c7565c1` |
 
 
-Use this server URL format for all rings:
+Use this server URL format:
 
 ```http
-https://<ring-host>/mcp/environments/<environment-id>/servers/mcp_D365CX_Service
+https://agent365.svc.cloud.microsoft/mcp/environments/<environment-id>/servers/mcp_D365CX_Service
 ```
 
 The `/mcp/environments/` path segment is required. If you omit it, the request returns `404 RouteNotFound`.
@@ -105,10 +99,10 @@ The `/mcp/environments/` path segment is required. If you omit it, the request r
 
 The Agent 365 Tooling Gateway app is a Microsoft first-party app registration. Before a client app can request a token for it, the tooling gateway service principal must exist in the customer tenant and the delegated permission must be admin-consented.
 
-As a tenant admin, open the following admin-consent URL. Replace `<customer-tenant-id>` with the customer tenant ID and `<ATG-ring-app-id>` with the app ID for the target ring.
+As a tenant admin, open the following admin-consent URL. Replace `<customer-tenant-id>` with the customer tenant ID and `<ATG-app-id>` with the app ID.
 
 ```http
-https://login.microsoftonline.com/<customer-tenant-id>/adminconsent?client_id=<ATG-ring-app-id>
+https://login.microsoftonline.com/<customer-tenant-id>/adminconsent?client_id=<ATG-app-id>
 ```
 
 Sign in as a tenant admin and approve the request. Microsoft Entra creates the Agent 365 Tooling Gateway resource service principal under **Enterprise applications** in the customer tenant.
@@ -116,11 +110,11 @@ Sign in as a tenant admin and approve the request. Microsoft Entra creates the A
 You can also provision the service principal manually and grant admin consent as follows:
 
 ```azurecli
-az ad sp create --id <ATG-ring-app-id>
+az ad sp create --id <ATG-app-id>
 ```
 
 ```powershell
-New-MgServicePrincipal -AppId "<ATG-ring-app-id>"
+New-MgServicePrincipal -AppId "<ATG-app-id>"
 ```
 
 ## Create a client Microsoft Entra app for Copilot Studio
@@ -132,7 +126,7 @@ In the [Microsoft Entra admin center](https://entra.microsoft.com), complete the
 1. Create a client secret for the app registration. Learn more in [Add a client secret](/entra/identity-platform/how-to-add-credentials?tabs=client-secret). Copy the secret value. You use this value when you configure OAuth in Copilot Studio.
 1. Go to **API permissions**, and then select **Add a permission**.
 1. Select **APIs my organization uses**.
-1. Search for the Agent 365 Tooling Gateway app by using the app ID for the target ring.
+1. Search for the Agent 365 Tooling Gateway app by using the app ID.
 1. Add the delegated permission that the Agent 365 Tooling Gateway app exposes for `McpServers.D365Service.All`.
 1. Select **Grant admin consent**.
 
@@ -147,7 +141,7 @@ Leave the web redirect URI empty until Copilot Studio generates the callback URL
    |---|---|
    | Server name | Enter a clear name, such as `Dynamics 365 CX MCP Server through ATG`. |
    | Server description | Describe the available capabilities so the orchestrator can route requests to this server. For example, `Use Dynamics 365 Customer Experience tools to list, read, and update cases; search knowledge; view activity timelines; and draft emails.` |
-   | Server URL | `https://<ring-host>/mcp/environments/<environment-id>/servers/mcp_D365CX_Service` |
+   | Server URL | `https://agent365.svc.cloud.microsoft/mcp/environments/<environment-id>/servers/mcp_D365CX_Service` |
    | Authentication | Select **OAuth 2.0**. |  
 
 1. Enter the OAuth values that Agent 365 Tooling Gateway discovery metadata provides. Use manual configuration unless your Copilot Studio environment supports dynamic OAuth discovery for MCP servers.
@@ -159,7 +153,7 @@ Leave the web redirect URI empty until Copilot Studio generates the callback URL
    | Authorization URL | `https://login.microsoftonline.com/<customer-tenant-id>/oauth2/v2.0/authorize` |
    | Token URL | `https://login.microsoftonline.com/<customer-tenant-id>/oauth2/v2.0/token` |
    | Refresh URL | Same as the token URL. |
-   | Scope | `<ATG ring App ID>/.default` For example: Prod `ea9ffc3e-8a23-4a7d-836d-234d7c7565c1/.default`, Test `05879165-0320-489e-b644-f72b33f3edf0/.default` |
+   | Scope | `<ATG App ID>/.default` For example: `ea9ffc3e-8a23-4a7d-836d-234d7c7565c1/.default` |
 
 After you create the OAuth configuration, Copilot Studio displays a callback URL. Copy the callback URL and add it as a **Web** redirect URI on the Microsoft Entra app that you created for Copilot Studio.
 
@@ -169,7 +163,6 @@ In your Copilot Studio agent, complete the following steps:
 
 1. In the **Add tool** dialog, select **Create a new connection**.
 1. Sign in with an account that has access to the target Customer Service environment.
-1. For Test or PreProd, use a non-production tenant account. A production or corporate tenant account on a non-production ring can trigger the `TenantBlocked` error.
 1. Add the tool to the agent.
 1. Publish the agent.
 
@@ -194,7 +187,7 @@ Discovery-capable MCP clients, such as Visual Studio Code, GitHub Copilot CLI, C
   "servers": {
     "d365-customer-service": {
       "type": "http",
-      "url": "https://<ring-host>/mcp/environments/<environment-id>/servers/mcp_D365CX_Service"
+      "url": "https://agent365.svc.cloud.microsoft/mcp/environments/<environment-id>/servers/mcp_D365CX_Service"
     }
   },
   "inputs": []
@@ -210,7 +203,7 @@ Add the server to `.mcp.json`.
   "mcpServers": {
     "d365-customer-service": {
       "type": "http",
-      "url": "https://<ring-host>/mcp/environments/<environment-id>/servers/mcp_D365CX_Service"
+      "url": "https://agent365.svc.cloud.microsoft/mcp/environments/<environment-id>/servers/mcp_D365CX_Service"
     }
   }
 }
@@ -228,7 +221,7 @@ Add the server to `.mcp.json`.
 {
   "mcpServers": {
     "d365-customer-service": {
-      "url": "https://<ring-host>/mcp/environments/<environment-id>/servers/mcp_D365CX_Service"
+      "url": "https://agent365.svc.cloud.microsoft/mcp/environments/<environment-id>/servers/mcp_D365CX_Service"
     }
   }
 }
@@ -242,7 +235,7 @@ Replace `<environment-id>` with the Dataverse environment ID for the target envi
 1. Add the Customer Service MCP server URL.
 
 ```http
-https://<ring-host>/mcp/environments/<environment-id>/servers/mcp_D365CX_Service
+https://agent365.svc.cloud.microsoft/mcp/environments/<environment-id>/servers/mcp_D365CX_Service
 ```
 
 1. Select **Connect**.
@@ -261,7 +254,7 @@ Configure the MCP server in Claude Code.
     "d365-customer-service": {
       "transport": {
         "type": "http",
-        "url": "https://<ring-host>/mcp/environments/<environment-id>/servers/mcp_D365CX_Service"
+        "url": "https://agent365.svc.cloud.microsoft/mcp/environments/<environment-id>/servers/mcp_D365CX_Service"
       }
     }
   }
