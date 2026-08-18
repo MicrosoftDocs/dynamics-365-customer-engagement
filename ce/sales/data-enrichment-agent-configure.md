@@ -4,7 +4,7 @@ description: Learn how to set up and configure the AI-powered Data Enrichment fe
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 08/07/2026
+ms.date: 08/18/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -99,17 +99,22 @@ Points to note:
 
 For **Salesperson** security role, grant the following permission: 
 
-| Entity | Access level - Permissions | Purpose |
-|---------|----------------------------|----------|
-| Connection | Business unit-level - Delete | Required to allow the agent to create and delete connections to Microsoft 365 on behalf of the seller |
+| Entity | Access level - Permissions |
+|---------|----------------------------|
+| Connection | Business unit-level - Delete |
 
 For a custom security role, grant the following permissions:
 
-| Entities | Access level - Permissions | Purpose |
-|---------|----------------------------|----------|
-| Connector | User-level - Read | Required to provide consent to use Microsoft 365 emails for opportunity enrichment |
-| Process (Workflow) | User-level - Read, Write, and Create | Required to create the necessary flow and Dataverse connection on the seller's behalf |
-| Connection | Business unit-level - Delete | Required to allow the agent to create and delete connections to Microsoft 365 on behalf of the seller |
+| Table/record | Access level and permissions |
+|---------|----------------------------|
+| Connector | User-level - Read |
+| Process (Workflow) | User-level - Read, Write, and Create |
+| Connection | Business unit-level - Delete |
+| Sales Agent Configuration V2 (`msdyn_salesagentconfigurationv2`), Sales agent profile (`msdyn_salesagentprofile`) | Organization-level - Read |
+| Data Quality Suggestion (`msdyn_dataqualitysuggestion`) | Organization-level - Read; User-level - Write |
+| Data Quality Source (`msdyn_dataqualitysource`) | Organization-level - Read |
+| Target record, currently Opportunity | Read and write at a scope that covers the records the seller uses |
+| Enriched opportunity fields | Read and Update field-level permissions |
 
 ## Migrate agents across environments
 
