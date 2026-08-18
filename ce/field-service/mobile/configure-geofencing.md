@@ -1,11 +1,16 @@
 ---
-title:  Create geofences around locations
-description: Learn how to create and use geofences for the Dynamics 365 Field Service mobile app.
+title: Create geofences around locations
+description: Geofences in Dynamics 365 Field Service create virtual perimeters around customer sites. Learn how to configure settings to track technician arrivals.
 ms.subservice: field-service-mobile
-ms.date: 09/22/2025
+ms.date: 08/17/2026
 author: JonBaker007
 ms.author: jobaker
+ms.reviewer: v-wesmith
 ms.topic: how-to
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 08/17/2026
+ai-usage: ai-assisted
 ---
 
 # Create geofences around locations
@@ -39,7 +44,9 @@ Geofence processes or flows can be active. If **Use Enhanced Background Processi
 ### Enable geofence flows
 
 1. Sign in to Power Apps at [https://make.powerapps.com/](https://make.powerapps.com/).
+
 1. Select **Solutions** > **Geofencing for Field Service**.
+
 1. Enable the following flows:
    - **Flow – DeleteGeofenceWhenBookingIsCompletedOrClosed**
    - **Flow – GenerateGeofenceWhenBookingIsCreated**
@@ -48,45 +55,52 @@ Geofence processes or flows can be active. If **Use Enhanced Background Processi
 ## Configure geofencing settings
 
 1. In the Field Service web app, go to the **Settings** area.
+
 1. Go to **Geofencing** > **Geofencing Settings**.
+
 1. Enter a **Unit of Measure** and **Minimum Radius**. The smallest geofence that the system supports has a radius of 25.59 feet.
 
 ## Configure geofence entities
 
-Configure the settings for the entities that use geofences. Custom geofences using entities other than accounts and bookable resources are supported.
+Configure the settings for the entities that use geofences. You can create custom geofences with entities other than accounts and bookable resources.
 
 1. In the Field Service web app, go to the **Settings** area.
+
 1. Go to **Geofencing** > **Entity Configurations**.
+
 1. Select **Account entity configured for geofencing**.
+
 1. Enter the following information:
 
-   - **Entity:** Select **Account** because work order locations are inherited from the related service account.
+   - **Entity:** Select **Account** because work order locations inherit from the related service account.
    - **Latitude / Longitude:** Select the latitude and longitude fields on the account entity that holds the geocoded location. This setting sets the center of the geofence.
    - **Enabled As:** Select **Geofence** because the account is a static location that a geofence surrounds.
    - **Default Radius:** Enter a number for the radius of the geofence around the latitude and longitude of the account location. The unit of measure is the unit you chose in the geofence settings in the previous step.
 
 1. Save your changes.
+
 1. Select the **Bookable Resource entity configured for tracking**.
+
 1. Enter the following information:
 
    - **Entity:** Select **Bookable Resource** to compare the location of field technicians relative to the service account of the work order.
    - **Latitude / Longitude:** Select the latitude and longitude fields on the bookable resource entity that hold the most recent coordinates of the location.
-   - **Timestamp Field Name:** Select the location timestamp. This time stamp is the date and time when the geofence location was updated. The system updates geofence status only if the status is different from the current status and the timestamp is more recent than the timestamp for the current geofence status.
+   - **Timestamp Field Name:** Select the location timestamp. This timestamp is the date and time when the geofence location was updated. The system updates geofence status only if the status is different from the current status and the timestamp is more recent than the timestamp for the current geofence status.
    - **Enabled As:** Select **Geo tracked** because the bookable resource has a variable location that the system compares against defined geofences.
 
 1. Save and close.
 
-## Understand what happens when booking a work order
+## Understand what happens when you book a work order
 
-Booking a work order triggers an asynchronous workflow that creates a geofence. To view the geofences that the system creates, go to **Field Service** > **Settings** > **Geofences**.
+When you book a work order, you trigger an asynchronous workflow that creates a geofence. To view the geofences that the system creates, go to **Field Service** > **Settings** > **Geofences**.
 
 :::image type="content" source="../media/geofence-created.png" alt-text="Screenshot of Field Service showing a list of active geofences.":::
 
-Before traveling to the work order location, the technician is outside the geofence, and the system creates an *exit geofence* event. When the technician arrives at the location and opens the Field Service mobile app, the system creates an *enter geofence* event.
+Before traveling to the work order location, you're outside the geofence, and the system creates an *exit geofence* event. When you arrive at the location and open the Field Service mobile app, the system creates an *enter geofence* event.
 
 Entering a geofence also changes the related geofence **Geo tracked record status** from **Outside** to **Inside**.
 
-When the technician leaves the geofence, the system creates another "exit" event.
+When you leave the geofence, the system creates another *exit* event.
 
 > [!TIP]
 > For testing, if you can't physically travel to a location, expand the geofence radius to include your current location.

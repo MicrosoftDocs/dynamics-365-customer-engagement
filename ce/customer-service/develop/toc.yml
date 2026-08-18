@@ -113,6 +113,88 @@
           href: ../../developer/reference/mcp-tools/toc.yml
         - name: Connect Dynamics 365 CX MCP Server - Service through Agent 365 Tooling Gateway  
           href: connect-agent-model-context-protocol.md
+      - name: Dynamics 365 CX MCP Server - Workforce Engagement Management
+        items:    
+        - name: Introduction
+          href: workforce-mcp-tools-overview-service-agent.md
+        - name: Tools
+          items:
+          - name: "Agent configuration capabilities"
+            href: ../../developer/reference/mcp-tools/get_agent_config_capabilities.md
+          - name: "Approve or reject time-off requests"
+            href: ../../developer/reference/mcp-tools/decide_wem_time_off_request.md
+          - name: "Configure agent layout"
+            href: ../../developer/reference/mcp-tools/save_agent_config.md
+          - name: "Configure profile layout"
+            href: ../../developer/reference/mcp-tools/save_profile_config.md
+          - name: "Delete external MCP registration"
+            href: ../../developer/reference/mcp-tools/delete_mcp_registration.md
+          - name: "Delete MCS agent registration"
+            href: ../../developer/reference/mcp-tools/delete_copilot_studio_registration.md
+          - name: "Delete my preference"
+            href: ../../developer/reference/mcp-tools/delete_user_prefs.md
+          - name: "Delete tool description overrides"
+            href: ../../developer/reference/mcp-tools/delete_tool_description.md
+          - name: "Disconnect environment"
+            href: ../../developer/reference/mcp-tools/disconnect_environment.md
+          - name: "Exit configuration mode"
+            href: ../../developer/reference/mcp-tools/maker_exit.md
+          - name: "Get active environment"
+            href: ../../developer/reference/mcp-tools/get_environment.md
+          - name: "Getting started with agent configuration"
+            href: ../../developer/reference/mcp-tools/browse_agent_config_options.md
+          - name: "Grant foreign namespace"
+            href: ../../developer/reference/mcp-tools/save_cross_namespace_grant.md
+          - name: "Grant foreign tools"
+            href: ../../developer/reference/mcp-tools/save_cross_namespace_tools.md
+          - name: "List agent configurations"
+            href: ../../developer/reference/mcp-tools/list_agent_configs.md
+          - name: "List available MCS bots"
+            href: ../../developer/reference/mcp-tools/list_copilot_studio_registration_bots.md
+          - name: "List cross-namespace grants"
+            href: ../../developer/reference/mcp-tools/list_cross_namespace_grants.md
+          - name: "List environments"
+            href: ../../developer/reference/mcp-tools/list_environments.md
+          - name: "List my preferences"
+            href: ../../developer/reference/mcp-tools/list_user_prefs.md
+          - name: "List profile configurations"
+            href: ../../developer/reference/mcp-tools/list_profile_configs.md
+          - name: "List tool description overrides"
+            href: ../../developer/reference/mcp-tools/list_tool_description.md
+          - name: "List tool visibility"
+            href: ../../developer/reference/mcp-tools/list_tool_selection.md
+          - name: "Manage Copilot Studio agents"
+            href: ../../developer/reference/mcp-tools/manage_copilot_studio_registration.md
+          - name: "Manage external MCP tool servers"
+            href: ../../developer/reference/mcp-tools/manage_mcp_registration.md
+          - name: "Remove agent configuration"
+            href: ../../developer/reference/mcp-tools/delete_agent_config.md
+          - name: "Remove profile configuration"
+            href: ../../developer/reference/mcp-tools/delete_profile_config.md
+          - name: "Reset cross-namespace grants"
+            href: ../../developer/reference/mcp-tools/delete_cross_namespace_grants.md
+          - name: "Reset tool visibility"
+            href: ../../developer/reference/mcp-tools/delete_tool_selection.md
+          - name: "Save external MCP registration"
+            href: ../../developer/reference/mcp-tools/save_mcp_registration.md
+          - name: "Save MCS agent registration"
+            href: ../../developer/reference/mcp-tools/save_copilot_studio_registration.md
+          - name: "Save my preference"
+            href: ../../developer/reference/mcp-tools/save_user_prefs.md
+          - name: "Save tool description override"
+            href: ../../developer/reference/mcp-tools/save_tool_description.md
+          - name: "Select environment"
+            href: ../../developer/reference/mcp-tools/select_environment.md
+          - name: "Set tool visibility"
+            href: ../../developer/reference/mcp-tools/save_tool_selection.md
+          - name: "Test external MCP connection"
+            href: ../../developer/reference/mcp-tools/test_mcp_registration_connection.md
+          - name: "Test MCS agent connection"
+            href: ../../developer/reference/mcp-tools/test_copilot_studio_registration_connection.md
+          - name: "Review a Workforce Engagement Management request"
+            href: ../../developer/reference/mcp-tools/get_wem_request_details.md
+          - name: "View Workforce Engagement Management requests"
+            href: ../../developer/reference/mcp-tools/list_wem_requests.md
       - name: Autonomous service agents
         items: 
         - name: Integrate Case Management Agent with custom Copilot Studio agents 
