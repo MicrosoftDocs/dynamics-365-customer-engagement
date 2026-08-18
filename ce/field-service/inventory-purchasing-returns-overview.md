@@ -8,6 +8,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: jacoh
 author: jasonccohen
+ms.reviewer: puneet-singh1
 ms.custom: bap-template
 ai-usage: ai-assisted
 ---
@@ -40,7 +41,7 @@ Follow these steps to start tracking inventory in Field Service:
 
 1. [Create a warehouse](create-warehouse.md) to represent each physical location where you store products, including technician trucks.
 1. [Create products](create-product-or-service.md) and set the **Field Service Product Type** to *Inventory* for any product you want to track.
-1. Add initial inventory by [creating an inventory adjustment](#inventory-adjustments-and-transfers) to record the starting quantities at each warehouse. Adding a product to a warehouse record alone doesn't set quantities; use an inventory adjustment or [manual inventory journals](manual-inventory-journals.md) to record starting amounts or make bulk updates.
+1. Add initial inventory by [creating an inventory adjustment](adjust-inventory.md) to record the starting quantities at each warehouse. Adding a product to a warehouse record alone doesn't set quantities; use an inventory adjustment or [manual inventory journals](manual-inventory-journals.md) to record starting amounts or make bulk updates.
 1. [Associate a warehouse with each bookable resource](set-up-bookable-resources.md) so that work order product usage automatically deducts from the correct location.
 
 ## Choose an inventory approach
@@ -85,13 +86,9 @@ For each product in the warehouse, the system tracks the following information:
 
 ## Inventory adjustments and transfers
 
-Use inventory adjustments to manually add inventory to warehouses or subtract inventory from warehouses. For example, use them during routine checkups to reflect shrinkage and defects, and to compare expected inventory to actual inventory. You can then adjust for the difference.
+Use inventory adjustments to manually add inventory to warehouses or subtract inventory from warehouses. For example, use them during routine checkups to reflect shrinkage and defects, and to compare expected inventory to actual inventory. You can then adjust for the difference. Learn more in [Adjust inventory levels](adjust-inventory.md).
 
-:::image type="content" source="media/inventory-adjustment.png" alt-text="Screenshot of an inventory adjustment.":::
-
-Use inventory transfers to transfer inventory from a source warehouse to a destination warehouse. For example, you can transfer inventory from a warehouse to a technician's truck.
-
-:::image type="content" source="media/inventory-transfer.svg" alt-text="Screenshot of an inventory transfer.":::
+Use inventory transfers to transfer inventory from a source warehouse to a destination warehouse. For example, you can transfer inventory from a warehouse to a technician's truck. Learn more in [Transfer inventory between warehouses](transfer-inventory.md).
 
 You can also enable adjustments and transfers on the Field Service mobile app. For example, you can create an inventory transfer if technicians meet in the field and transfer inventory from one truck to another.
 

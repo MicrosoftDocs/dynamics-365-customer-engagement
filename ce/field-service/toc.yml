@@ -471,6 +471,10 @@ items:
       href: inventory-purchasing-returns-overview.md
     - name: Warehouses
       href: create-warehouse.md
+    - name: Adjust inventory levels
+      href: adjust-inventory.md
+    - name: Transfer inventory
+      href: transfer-inventory.md
     - name: Create a purchase order
       href: create-purchase-order.md
     - name: Process a return

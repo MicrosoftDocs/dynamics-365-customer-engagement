@@ -1,54 +1,63 @@
 ---
-title: Update Case
-description: Learn how to use the Update Case capability in Dynamics 365 Customer Service.
-ms.date: 06/30/2026
+title: Update case
+description: Learn how to use the Update case capability in Dynamics 365 Customer Service.
+ms.date: 08/11/2026
 ms.topic: reference
+ms.custom: mcp-enabled-namespaces=service
 ms.service: dynamics-365-customer-service
 author: dleblond
 ms.author: dleblond
 ms.reviewer: laalexan
 ---
 
-# Update Case
+# Update case
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
 
 Use this capability when you want to change a field on a support case, such as its priority, title, description, or other details.
 
 ## What it does
-The assistant updates one or more fields on a case record. You can change the priority level using plain language, or update any other case field by specifying what you want to change. The assistant confirms which fields were updated after the change is applied.
+
+The assistant updates one or more fields on a case record. You can change the priority level using plain language, change the customer or another related record by name, or update any other case field by specifying what you want to change. The assistant confirms which fields were updated after the change is applied.
 
 ## Try prompts like
-- "Set the priority of CAS-01010-A0A0A0 to high"
-- "Change the title of this case to Login issue"
-- "Update the description on this case"
-- "Set priority to low"
-- "Mark this case as waiting for details"
-- "Change the customer on case CAS-01010-A0A0A0"
 
-## What you see in chat
+- Set the priority of CAS-01010-A0A0A0 to high.
+- Change the title of this case to Login issue.
+- Update the description on this case.
+- Set priority to low.
+- Mark this case as waiting for details.
+- Change the customer on case CAS-01010-A0A0A0 to Contoso Ltd.
+
+## What you'll see in chat
+
 The assistant confirms the update with a text response listing the fields that were changed. No interactive component is displayed for this action.
 
+If you name a customer or other related record and more than one record matches, the assistant lists the matches and asks which one you mean. If nothing matches, it tells you rather than reporting a change that didn't happen.
+
 ## Helpful tips
+
 - You can refer to the case by its case number (for example, CAS-01010-A0A0A0) or let the assistant use the case you're already working with.
 - For priority changes, use "high", "normal", or "low".
 - You can update multiple fields in a single request.
-- If you want to close a case, use "close this case" instead - that's a separate action with a resolution record.
+- When changing the customer, give the account or contact name (for example, "Contoso Ltd"). If the name is ambiguous, the assistant asks you to pick.
+- If you want to close a case, use "close this case" instead—that's a separate action with a resolution record.
 
 > [!TIP]
 > Open the case first with "show me case CAS-01010-A0A0A0" to review the current fields before updating.
 
 ## What happens next
+
 After updating, you can continue with prompts like:
 
-- "Show me this case"
-- "Summarize this case"
-- "What's the SLA status on this case?"
-- "Reassign this case to Alex"
+- Show me this case.
+- Summarize this case.
+- What's the SLA status on this case?
+- Reassign this case to Alex.
 
 ## Does this change data?
 
-Yes. This changes data.
+**Yes, this changes data.**
 
 The case record is updated in Dynamics 365. The change takes effect immediately.
 
@@ -56,19 +65,22 @@ The case record is updated in Dynamics 365. The change takes effect immediately.
 
 This tool requires the following:
 
-- Customer service representative role
+- Customer service representative role.
 
 ## Tool summary
+
 | Property | Value |
 |---|---|
-| User-facing name | Update Case |
+| User-facing name | Update case |
 | Internal tool name | `update_case` |
 | Purpose | Updates one or more fields on a support case |
 
 ## Tool behavior
-Updates one or more fields on a support case. Supports typed shortcuts for common fields like priority, and a generic `fields` map for arbitrary Dataverse logical-name to value updates including title, description, customer, and status reason.
+
+Updates one or more fields on a support case. Supports typed shortcuts for common fields like priority, a `fields` map for scalar Dataverse columns such as title, description, and status reason, and a `lookups` map for relationship fields such as customer, owner, contact, and subject. Names given for relationship fields are resolved to a record before the update is applied, so a name that matches nothing—or matches several records—is reported back instead of being written.
 
 ## Annotations
+
 | Annotation | Value | Meaning |
 |------------|-------|---------|
 | `readOnlyHint` | `false` | This tool modifies data. |
@@ -77,11 +89,12 @@ Updates one or more fields on a support case. Supports typed shortcuts for commo
 | `openWorldHint` | Not set | Uses default (queries Dataverse). |
 
 ## Input concepts
+
 ### Case identifier
 
 | Input | Description | Required |
 |---|---|---|
-| `incidentId`, `caseNumber` | `incidentId` (GUID) or `caseNumber` (e.g. CAS-01010-A0A0A0). At least one is required. When `caseNumber` is provided, the server resolves it to a GUID. | Yes |
+| `incidentId`, `caseNumber` | `incidentId` (GUID) or `caseNumber` (for example, CAS-01010-A0A0A0). At least one is required. When `caseNumber` is provided, the server resolves it to a GUID. | Yes |
 
 ### Priority shortcut
 
@@ -93,9 +106,16 @@ Updates one or more fields on a support case. Supports typed shortcuts for commo
 
 | Input | Description | Required |
 |---|---|---|
-| `fields` | `fields` (record of Dataverse logical-name to value pairs). Used by the form widget for inline editing of individual fields, or for any field not covered by the typed shortcuts. | No |
+| `fields` | `fields` (record of Dataverse logical-name to value pairs). Scalar columns only—title, description, status reason, case type, and custom columns. Used by the form widget for inline editing, or for any scalar field not covered by the typed shortcuts. A lookup sent here is rerouted to the relationship path automatically. | No |
+
+### Relationship fields
+
+| Input | Description | Required |
+|---|---|---|
+| `lookups` | `lookups` (record of lookup logical-name to record name or GUID). Used for relationship fields such as `customerid`, `primarycontactid`, and `subjectid`—for example `{"customerid": "Contoso Ltd"}`. The server resolves the name to a record and links it. This is the supported way to change a lookup. | No |
 
 ## Response and UI behavior
+
 This MCP tool is supported by an MCP app.
 
 ### Response type
@@ -105,18 +125,20 @@ Text confirmation
 The tool returns a text confirmation of the updated fields. No interactive component is rendered.
 
 ## Routing notes
+
 Use `update_case` for:
 
-- Any field change on a case record (priority, title, description, status reason, custom fields)
-- Inline edits from the case form widget
+- Any field change on a case record (priority, title, description, status reason, custom fields).
+- Inline edits from the case form widget.
 
 Don't use `update_case` when:
 
-- **Closing/resolving a case** - route to `close_case` (uses the Dataverse CloseIncident action)
-- **Reassigning a case** - route to `reassign_case` (handles ownership transfer and handover notes)
-- **Updating a non-case entity** - route to `update_entity_record`
+- **Closing/resolving a case**—route to `close_case` (uses the Dataverse CloseIncident action).
+- **Reassigning a case**—route to `reassign_case` (handles ownership transfer and handover notes).
+- **Updating a non-case entity**—route to `update_entity_record`.
 
 ## Related tools
+
 | Tool | Relationship |
 |---|---|
 | [`get_case`](get_case.md) | Opens the case form for inspection before editing |
@@ -126,6 +148,7 @@ Don't use `update_case` when:
 | [`summarize_case`](summarize_case.md) | Opens the case with an AI summary for triage before editing |
 
 ## Data mutation classification
+
 Write / mutation.
 
-Updates one or more fields on the case record in Dataverse. The operation is idempotent - calling with the same inputs produces the same result.
+Updates one or more fields on the case record in Dataverse. The operation is idempotent—calling with the same inputs produces the same result.

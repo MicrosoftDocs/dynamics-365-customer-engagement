@@ -1,8 +1,9 @@
 ---
 title: Find and manage cases
 description: Use the Service Agent to find, filter, and manage support cases directly in chat with an interactive case list.
-ms.date: 06/30/2026
+ms.date: 08/11/2026
 ms.topic: reference
+ms.custom: mcp-enabled-namespaces=service
 ms.service: dynamics-365-customer-service
 author: dleblond
 ms.author: dleblond
@@ -16,31 +17,34 @@ ms.reviewer: laalexan
 Use this capability when you want to find support cases, review them in chat, and take action without leaving the conversation.
 
 ## What it does
-The assistant shows a list of cases that match your filters. You can filter by the following methods:
 
-- Whether the case is assigned to you
-- Case status (active, resolved, cancelled, in progress, on hold, waiting, researching)
-- Priority (high, normal, low)
-- Case number
-- Keywords in the case title
+The assistant shows a list of cases that match your filters. You can filter by:
+
+- Whether the case is assigned to you.
+- Case status (active, resolved, cancelled, in progress, on hold, waiting, researching).
+- Priority (high, normal, low).
+- Case number.
+- Keywords in the case title.
 
 Results appear in an interactive case list inside chat.
 
 ## Try prompts like
-- "Show my active cases"
-- "List my high-priority cases"
-- "Find case CAS-01010-A0A0A0"
-- "Show resolved cases"
-- "List cases assigned to me"
-- "Show waiting cases"
-- "Find cases about billing"
-- "What cases do I need to work on?"
 
-## What you see in chat
+- Show my active cases.
+- List my high-priority cases.
+- Find case CAS-01010-A0A0A0.
+- Show resolved cases.
+- List cases assigned to me.
+- Show waiting cases.
+- Find cases about billing.
+- What cases do I need to work on?
+
+## What you'll see in chat
 
 The assistant displays an interactive case list as an app-in-chat component. The list shows matching cases with key details such as case number, title, status, and priority.
 
 ## Helpful tips
+
 - Say "my cases" or "assigned to me" to see only cases you own.
 - Use the exact case number (for example, CAS-01010-A0A0A0) for the most precise result.
 - Combine filters by saying something like "show my high-priority active cases."
@@ -51,35 +55,38 @@ The assistant displays an interactive case list as an app-in-chat component. The
 > After the case list appears, you can ask follow-up questions about any case shown. For example, "summarize the first case" or "reassign case CAS-01010-A0A0A0."
 
 ## What happens next
+
 After the list appears, you can continue with prompts like:
 
-- "Open the first case"
-- "Summarize this case"
-- "What changed on this case since yesterday?"
-- "Reassign this case to Alex"
-- "Close this case"
-- "Draft a customer reply for this case"
+- Open the first case.
+- Summarize this case.
+- What changed on this case since yesterday?
+- Reassign this case to Alex.
+- Close this case.
+- Draft a customer reply for this case.
 
 ## Does this change data?
 
-No. Listing cases doesn't change data.
+**No, listing cases doesn't change data.**
 
 The case list is read-only. Follow-up actions from the list, such as updating a field or reassigning a case, can change data. The assistant asks for confirmation before making changes.
 
 ## What you can do from the app-in-chat component
+
 From the case list in chat, you can:
 
-- Scan and review matching cases in a sortable grid
-- Select a case to see more details
-- Open the full case form in Dynamics 365
-- Update supported fields inline when available
-- Continue working with the case in chat using follow-up prompts
+- Scan and review matching cases in a sortable grid.
+- Select a case to see more details.
+- Open the full case form in Dynamics 365.
+- Update supported fields inline when available.
+- Continue working with the case in chat using follow-up prompts.
 
 ## Prerequisites
 
 This tool is available on the Dynamics 365 Customer Service MCP server. See the availability note at the top of this page for details. No additional configuration is required.
 
 ## Tool summary
+
 | Property | Value |
 |---|---|
 | User-facing name | Find and manage cases |
@@ -87,17 +94,20 @@ This tool is available on the Dynamics 365 Customer Service MCP server. See the 
 | Purpose | Lists support cases filtered by status, priority, owner, or structured criteria and renders them in an interactive grid-style app-in-chat experience |
 
 ## Tool behavior
-Lists support cases filtered by status, priority, owner, or structured criteria and renders them in an interactive grid-style app-in-chat experience. The `search` parameter supports exact case-number lookup (CAS-XXXXX-XXXXX) or title contains-match.
+
+Lists support cases filtered by status, priority, owner, or structured criteria and renders them in an interactive grid-style app-in-chat experience. The `search` parameter supports exact case-number lookup (CAS-01010-A0A0A0) or title contains-match.
 
 ## Annotations
+
 | Annotation | Value | Meaning |
 |------------|-------|---------|
-| `readOnlyHint` | Not set | Read-only in practice; this tool does not modify data. |
+| `readOnlyHint` | Not set | Read-only in practice; this tool doesn't modify data. |
 | `destructiveHint` | Not set | Not applicable (read-only tool). |
 | `idempotentHint` | Not set | Not applicable (read-only tool). |
 | `openWorldHint` | Not set | Uses default (queries Dataverse). |
 
 ## Input concepts
+
 ### Status
 
 | Input | Description | Required |
@@ -114,7 +124,7 @@ Lists support cases filtered by status, priority, owner, or structured criteria 
 
 | Input | Description | Required |
 |---|---|---|
-| — | free-text string. Performs exact case-number lookup (CAS-XXXXX-XXXXX) or title contains-match. | No |
+|—| free-text string. Performs exact case-number lookup (CAS-01010-A0A0A0) or title contains-match. | No |
 
 ### Ownership scope
 
@@ -135,6 +145,7 @@ Lists support cases filtered by status, priority, owner, or structured criteria 
 | `additionalFilter` | `additionalFilter` (key-value map). Arbitrary OData filter conditions merged with AND. | No |
 
 ## Response and UI behavior
+
 This tool renders an interactive app-in-chat case grid.
 
 This MCP tool is supported by an MCP app.
@@ -143,23 +154,25 @@ This MCP tool is supported by an MCP app.
 
 Interactive grid (list view)
 
-The grid displays case number, title, status, priority, and owner. Users can select a row to drill into case detail or take follow-up actions via chat.
+The grid displays case number, title, status, priority, and owner. Users can select a row to drill into case detail or take follow-up actions through chat.
 
 ## Routing notes
+
 Use `list_cases` for:
 
-- "my cases", "cases assigned to me", "my active cases"
-- "what cases do I need to work on"
-- Category, status, or priority-based filtering
-- Exact case number lookup
-- Title-based keyword search
+- my cases, cases assigned to me, my active cases.
+- what cases do I need to work on.
+- Category, status, or priority-based filtering.
+- Exact case number lookup.
+- Keyword / topic lookup by case title ("cases about X", "cases mentioning X", "find the X case").
 
 Don't use `list_cases` when the prompt explicitly says:
 
-- **"inbox"** or **"work items"** - route to `list_case_inbox_workitems`
-- **Free-text search across title AND description** - route to `search_cases`
+- **"inbox"** or **"work items"**—route to `list_case_inbox_workitems`.
+- **Customer-name filtering** (account/contact), or a keyword that may be in the case **description body** (search_cases uses relevance search where enabled)—route to `search_cases`.
 
 ## Related tools
+
 | Tool | Relationship |
 |---|---|
 | [`get_case`](get_case.md) | Opens the full case form for a selected case |
@@ -168,11 +181,12 @@ Don't use `list_cases` when the prompt explicitly says:
 | [`get_case_highlights`](get_case_highlights.md) | Returns activity digest and triage signals |
 | [`reassign_case`](reassign_case.md) | Reassigns a case to another user, team, or queue |
 | [`close_case`](close_case.md) | Resolves and closes a case |
-| [`search_cases`](search_cases.md) | Free-text search across case title and description |
+| [`search_cases`](search_cases.md) | Finds cases by customer name (account/contact), or by keyword—relevance search across title + description when enabled, else a title-only match |
 | [`list_case_inbox_workitems`](list_case_inbox_workitems.md) | Returns the agent's personal inbox of active cases |
 | [`summarize_case_actions`](summarize_case_actions.md) | Lists resolution steps taken on a case |
 
 ## Data mutation classification
+
 Read-only entry point with downstream mutation potential.
 
-The listing itself doesn't change data. Follow-up actions from the grid, such as update, reassign, and close, can trigger write operations by using separate tools.
+The listing itself doesn't change data. Follow-up actions from the grid (update, reassign, close) can trigger write operations through separate tools.

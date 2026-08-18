@@ -2,7 +2,7 @@
 title: Start the Sales Qualification Agent
 description: Learn how to start the sales qualification settings in Dynamics 365 Sales.
 ms.topic: how-to 
-ms.date: 02/04/2026
+ms.date: 08/18/2026
 ms.update-cycle: 180-days
 ms.service: dynamics-365-sales
 ms.custom: bap-template
@@ -38,7 +38,7 @@ After you start the agent, sellers can view the list of leads being processed by
 
 The Sales Hub app includes the following agent-specific views by default:
 
-- [Leads from AI Agent](use-sales-qualification-agent.md#view-leads-handed-over-by-the-agent)
+- [My leads from AI Agent](use-sales-qualification-agent.md#view-leads-handed-over-by-the-agent)
 - [Leads disqualified by AI Agent](use-sales-qualification-agent.md#view-leads-disqualified-by-the-agent)
 - [Leads handed over by AI Agent](monitor-leads-by-sales-qualification-agent.md)
 - [Leads being processed by AI Agent](monitor-leads-by-sales-qualification-agent.md)
@@ -48,7 +48,7 @@ If you don't see these views in your app, it could be because:
 - Your organization uses a custom app for sales.
 - You turned off **Include all views in the app** option for the **Lead** entity in Power Apps.
 
-To add the agent-specific views to your app, follow the steps in [Manage views and charts](/power-apps/maker/model-driven-apps/create-add-remove-forms-views-dashboards#manage-views-and-charts).
+To add the agent-specific views to your app, follow the steps in [Use Sales Qualification Agent in custom model-driven apps](sqa-custom-model-driven-app.md).
 
 ## Related information
 
