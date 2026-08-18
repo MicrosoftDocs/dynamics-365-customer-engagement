@@ -1,7 +1,7 @@
 ---
 title: Introduction to Dynamics 365 Contact Center
 description: Learn about Dynamics 365 Contact Center, its features, and how they can be configured in your organization.
-ms.date: 04/15/2026
+ms.date: 08/18/2026
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -50,7 +50,7 @@ With the voice channel, Dynamics 365 Contact Center provides agents with the abi
 
 ### Microsoft Teams
 
-By using Microsoft Teams as an engagement channel for support of internal functions&mdash;such as technical support, human resources, and finance&mdash;it allows organizations to connect their employees with internal support personnel. Representatives can consult with Microsoft Teams users directly from ongoing conversations for quick expert input. Filtered consult lists can restrict which queues and users are visible based on organizational roles and policies. Consults with specialist queues leverage skills- and availability-based routing, the same unified routing covered across other channels. Learn more in [Configure Microsoft Teams](../administer/configure-microsoft-teams.md).
+By using Microsoft Teams as an engagement channel to support internal functions&mdash;such as technical support, human resources, and finance&mdash;your organization can connect employees with internal support personnel. Representatives can consult with Microsoft Teams users directly from ongoing conversations for quick expert input. Learn more in [Configure Microsoft Teams](../administer/configure-microsoft-teams.md).
 
 ### Social channels
 

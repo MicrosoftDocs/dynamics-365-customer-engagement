@@ -1,7 +1,7 @@
 ---
 title: Transfer calls and consult with users
 description: Use this article to understand how customer service representatives can use transfer and consult options to make and receive customer calls in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 05/11/2026
+ms.date: 08/18/2026
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -26,7 +26,7 @@ Your administrator enabled the following settings;
 - To transfer the calls to another service representative, [direct transfer of conversations](../administer/enable-transfer-consult.md#enable-direct-transfer-of-conversations) setting.
 - To automatically select a representative to consult with, [consult to queue](../administer/enable-transfer-consult.md#enable-consult-to-queue) setting,
 - To transfer calls to an external PSTN number or a Teams user, the transfer settings must be enabled in the [voice channel instance](../administer/voice-channel-inbound-calling.md#configure-a-voice-channel) settings.
-- To use filtered consults, your administrator must configure role- and rule-based visibility in [Enable consult and transfer](../administer/enable-transfer-consult.md). Filtered consults limit which queues and users are displayed to representatives during consult and transfer flows, ensuring that only appropriate experts are surfaced based on organizational rules and security roles.
+- To use filtered consults, your administrator must configure filters in [Enable consult and transfer](../administer/enable-transfer-consult.md#configure-filters-to-display-representatives-selectively-in-consult-and-transfer-scenarios). Filtered consults limit the queues and users to display to representatives during consult and transfer flows, ensuring that appropriate experts only are surfaced based on organizational rules and security roles.
 
 ## Transfer calls
 
@@ -137,7 +137,7 @@ When your administrator configures filtered consults, the search results and que
 
 ### Consult to queue
 
-If your administrator enabled [consult to queue](../administer/enable-transfer-consult.md#enable-consult-to-queue), the option to consult with a queue appears on the chat window when you select the consult option. Consult-to-queue uses skills- and availability-based routing as configured in the workstream and queue, so the system automatically routes the consult request to the most suitable available representative. The primary representative remains the single point of contact for the customer, who stays on hold during the consult. Unless the primary representative chooses to transfer the call, ownership of the conversation is not transferred. Learn more in [Consult to queue](oc-conversation-control.md#consult-queue).
+If your administrator enabled [consult to queue](../administer/enable-transfer-consult.md#enable-consult-to-queue), the option to consult with a queue appears on the chat window when you select the consult option. Consult-to-queue follows the same routing strategy as defined in the queue for finding a representative for consult in that queue, so the system automatically routes the consult request to the most suitable available representative. The primary representative remains the single point of contact for the customer, who stays on hold during the consult. Unless the primary representative chooses to transfer the call, ownership of the conversation is not transferred. Learn more in [Consult to queue](oc-conversation-control.md#consult-queue).
 
 ## Consult with external contacts and transfer a call securely (preview)
 
