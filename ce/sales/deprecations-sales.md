@@ -1,7 +1,7 @@
 ---
 title: Removed or deprecated features in Dynamics 365 Sales
 description: Visit this page to see the deprecating features in Dynamics 365 Sales.
-ms.date: 07/24/2026
+ms.date: 08/18/2026
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -19,6 +19,12 @@ The features that have been removed or deprecated in  Dynamics 365 Sales are lis
 
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.  
+
+## Sales Close Agent
+
+Effective September 30, 2026, you can't create new instances of Sales Close Agent. To continue using agent capabilities, create an instance of [Sales Development agent](/microsoft-agent-365/use) instead.
+
+Existing instances of Sales Close Agent will be removed on October 30, 2026. To continue using agent capabilities after this date, create an instance of [Sales Development agent](/microsoft-agent-365/use).
 
 ## Sales Hub Dialer
  
