@@ -1,0 +1,11 @@
+- ChannelMessage.Read.All: Read all channel messages.
+- Chat.Read: Read user chat messages.
+- ChatMessage.Send: Send user chat messages.
+- Files.ReadWrite.All: Have full access to all files user can access.
+- Mail.ReadWrite.Shared: Read and write mail in shared folders.
+- Mail.Send: Send mail.
+- Sites.ReadWrite.All: Have full control of all site collections.
+- User.Read.All: Read all users' full profiles.
+- Chat.Create: Create chats.
+- Presence.ReadWrite: Read and write your presence information.
+

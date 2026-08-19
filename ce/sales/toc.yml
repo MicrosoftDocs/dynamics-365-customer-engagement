@@ -292,6 +292,16 @@ items:
                 href: /microsoft-sales-copilot/set-up-record-creation-dynamics-365?context=/dynamics365/context/sales-context
               - name: FAQs about Sales agent in Microsoft 365 Copilot
                 href: faqs-sales-agent.md
+          - name: Sales Development agent (preview)
+            items:
+              - name: Overview
+                href: sales-dev-agent/sales-development-agent-overview.md
+              - name: Activate Sales Development agent
+                href: sales-dev-agent/activate-agent.md
+              - name: Agent architecture
+                href: sales-dev-agent/architecture.md
+              - name: Email outreach architecture
+                href: sales-dev-agent/architecture-outreach-email.md
           - name: Import an agent into a target environment
             href: import-export-agent-solutions.md
           - name: Manage consumption-based billing
@@ -963,6 +973,32 @@ items:
                 href: recommended-actions-overview.md
               - name: Manage opportunity risks and data enrichment
                 href: next-best-actions-to-manage-opportunities.md
+          - name: Sales Development agent (preview)
+            items:
+              - name: Overview
+                href: sales-dev-agent/sales-development-agent-overview.md
+              - name: Create a Sales Development agent instance
+                href: sales-dev-agent/create-instance.md
+              - name: Onboard the Sales Development agent
+                href: sales-dev-agent/onboard-agent.md
+              - name: Test the Sales Development agent in chat
+                href: sales-dev-agent/test-agent.md
+              - name: Multilingual capabilities
+                href: sales-dev-agent/multilingual.md
+              - name: Integrate with Dynamics 365 Sales
+                href: sales-dev-agent/integrate-with-dynamics.md
+              - name: Launch live outreach with the agent
+                href: sales-dev-agent/launch-live.md
+              - name: Configure send time
+                href: sales-dev-agent/configure-send-time.md
+              - name: Scale the agent across teams
+                href: sales-dev-agent/scale-agent.md
+              - name: Email conversation patterns
+                href: sales-dev-agent/email-conversation-patterns.md
+              - name: Get reports from the agent
+                href: sales-dev-agent/get-reports.md
+              - name: Copy configuration from one agent to another
+                href: sales-dev-agent/copy-configuration.md
       - name: Use Microsoft 365 Copilot in Dynamics 365 Sales
         items:
           - name: Use the Sales agent in Microsoft 365 Copilot from Dynamics 365 Sales
