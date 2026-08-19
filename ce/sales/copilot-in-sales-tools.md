@@ -1,7 +1,7 @@
 ---
 title: MCP tools for Copilot in Dynamics 365 Sales
 description: Learn about the tools available in the Sales MCP server that support the Copilot capabilities in Dynamics 365 Sales.
-ms.date: 02/27/2026
+ms.date: 08/12/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -27,8 +27,6 @@ Learn more about the summaries and insights returned by the following tools in [
 | Sales lead catchup tool                | `msdyn_SalesLeadCatchup`                 | Retrieve recent lead updates                                 | `LeadId` (string)           | Recent changes to the given lead record for fields [configured by the admin](copilot-configure-summary-fields.md)                                                            |
 | Sales account catchup tool             | `msdyn_SalesAccountCatchup`              | Retrieve recent account updates                              | `AccountId` (string)        | Recent changes to the given account record for fields [configured by the admin](copilot-configure-summary-fields.md)                                                           |
 | Sales opportunity catchup tool         | `msdyn_SalesOpportunityCatchup`          | Retrieve recent opportunity updates                          | `OpportunityId` (string)    | Recent changes to the given opportunity record for fields [configured by the admin](copilot-configure-summary-fields.md)                                                       |
-| SharePoint search results tool         | `msdyn_GetDocumentSearchResults`         | Search SharePoint documents for the given query             | `Query` (string)            | List of documents that contain the given query terms from the [configured SharePoint sites](copilot-sharepoint-config.md).                                                 |
-| SharePoint Q&A tool                    | `msdyn_SalesAnswerFromDocuments`         | Get answers from SharePoint documents for the given query           | `Query` (string)            | Answers from SharePoint documents for the given query from the [configured SharePoint sites](copilot-sharepoint-config.md).                                                        |
 
 
 ## Related information
