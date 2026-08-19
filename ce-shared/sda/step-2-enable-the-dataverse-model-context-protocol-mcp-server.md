@@ -1,0 +1,2 @@
+The Sales Development agent uses the Dataverse Model Context Protocol (MCP) server to connect with Dynamics 365. You only need to enable the Dataverse MCP server in your environment once. The Sales Development agent doesn't need to be designated as an explicit MCP Client to function. [Learn how to enable the Dataverse MCP server in the Power Platform admin center](/power-apps/maker/data-platform/data-platform-mcp-disable#configure-and-manage-the-dataverse-mcp-server).
+

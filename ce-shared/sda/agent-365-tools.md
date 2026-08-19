@@ -1,0 +1,13 @@
+- McpServers.Mail.All: Allows the application to access the Mail MCP server.
+- McpServers.OneDriveSharepoint.All: Allows the application to access the OneDrive and SharePoint MCP server.
+- McpServers.Word.All: Allows the application to access the Word MCP server.
+- McpServers.Excel.All: Allows the application to access the Excel MCP server.
+- McpServers.Knowledge.All: Allows the application to access the Knowledge MCP server.
+- McpServers.Teams.All: Allows the application to access the Teams MCP server.
+- McpServers.Dataverse.All: Allows the application to access the Dataverse MCP server.
+- McpServers.Sales.All: Allows the application to access the Sales MCP server.
+- McpServersMetadata.Read.All: Allows the application to read metadata of all MCP servers.
+- McpServers.SharepointLists.All: Allows the application to access the SharePoint Lists MCP server.
+- McpServers.Me.All: Allows the application to access the Me MCP server.
+- McpServers.CopilotMCP.All: Allows the application to access the Copilot MCP server.
+
