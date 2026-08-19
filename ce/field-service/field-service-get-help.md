@@ -1,10 +1,14 @@
 ---
 title: Get help with Field Service
 description: Find solutions to common issues, troubleshoot errors, and learn how to contact support for Dynamics 365 Field Service.
-ms.date: 04/08/2026
+ms.date: 08/18/2026
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
+ms.reviewer: puneetsingh
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 04/08/2026
 ai-usage: ai-assisted
 ---
 
@@ -74,11 +78,16 @@ If you see a specific error message, find it in this list for quick guidance.
 
 | Error message | Likely cause | Next step |
 |---|---|---|
-| "Field Service is currently not available in your account" | The user doesn't have a Field Service license assigned, or the app isn't installed in the environment. | Verify [license assignment and app installation](install-field-service.md). |
-| "Web resource method does not exist: FS.Contact.Library.Load" | A solution update caused a version mismatch in web resources. | [Run Solution Health Hub](troubleshoot-field-service-solution-health.md) and check for solution version conflicts. |
-| "Combined execution time of incoming requests exceeded limit of 1,200,000 milliseconds" | The environment is experiencing high load or has long-running custom plugins. | Reduce concurrent requests and review [custom plugin performance](/power-apps/developer/data-platform/best-practices/business-logic/optimize-assembly-development). |
-| "The plug-in execution failed because no Sandbox Hosts are currently available" | The Dataverse sandbox service is temporarily unavailable. | Wait and retry. If persistent, check environment health in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). |
-| "Installing Field Service on a CDS instance isn't supported" | Attempting to install Field Service on an unsupported environment type. | Ensure the environment has a Dataverse database. See [installation prerequisites](install-field-service.md). |
+| "Field Service is currently not available in your account" | You don't have a Field Service license assigned, or the app isn't installed in the environment. | In the Microsoft 365 admin center, verify the license assignment. In the Power Platform admin center, confirm that the app is installed. Learn more in [Set up users, licenses, and security roles](users-licenses-permissions.md) and [Install Field Service](install-field-service.md). |
+| "Web resource method does not exist: FS.Contact.Library.Load" | The model-driven app form runtime can't resolve a registered event handler, typically after a solution update. This error isn't raised by Field Service server code. | In the Solution Health Hub app, [run the Field Service solution health rules](troubleshoot-field-service-solution-health.md) and check for solution version conflicts. |
+| "Combined execution time of incoming requests exceeded limit of 1,200,000 milliseconds" | [Dataverse service protection limits](/power-apps/developer/data-platform/api-limits) restrict the combined execution time and concurrency of incoming requests. This platform error isn't specific to Field Service. | In the affected app or integration, reduce concurrent Dataverse requests. |
+| "The plug-in execution failed because no Sandbox Hosts are currently available" | The Dataverse sandbox platform is temporarily unavailable. This platform error isn't specific to Field Service. | In the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), check the environment health. Wait and retry the operation. |
+| "Installing Field Service on a CDS instance isn't supported" | The environment doesn't include the Dynamics 365 Customer Engagement applications required by Field Service. | Install Field Service into a [supported Dynamics 365 Customer Engagement environment](install-field-service.md#requirements). Field Service can't be installed on a Dataverse-only environment (an environment without the Dynamics 365 Customer Engagement applications). |
+| "A service account is required." | The work order type requires a service account. | In the Dynamics 365 Field Service app, set [**Service Account**](accounts.md#create-a-service-account) on the work order. |
+| "A price list is required." | Price calculation is enabled and no price list is set. | In the Dynamics 365 Field Service app, set a [**Price List**](create-price-list.md#add-a-price-list-to-work-orders) on the work order. |
+| "The currency of the price list must match the currency set on the work order." | The price list currency differs from the work order currency. | In the Dynamics 365 Field Service app, select a [price list](create-price-list.md#add-a-price-list-to-work-orders) whose currency matches the work order. |
+| "The work order status can't be modified in its current state." | The work order is in a state that blocks the status change, such as closed or posted. | In the Dynamics 365 Field Service app, review the [work order lifecycle](work-order-status-booking-status.md) before changing the status. |
+| "A booking can't be created for a canceled work order." | The related work order is canceled. | In the Dynamics 365 Field Service app, review the [work order lifecycle](work-order-status-booking-status.md) and use an active work order to create the booking. |
 
 ## Before you contact support
 

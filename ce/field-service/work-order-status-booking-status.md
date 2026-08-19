@@ -119,7 +119,7 @@ Every booking status change creates a booking timestamp to keep track of the upd
 
 #### In Progress
 
-- Updates **Actual Arrival Time** with the date and time when a technician changes booking status to *In Progress* on the mobile app. When updated from web, the arrival time isn't automatically updated.
+- Updates **Actual Arrival Time** with the date and time when a technician changes the booking status to *In Progress*.
 - Updates **First Arrived On (Work Order)** field on the related work order with the **Actual Arrival Time** of the booking. Editing **Actual Arrival Time** also updates the **First Arrived On** value.
   - If there was more than one booking, the booking with the earliest *Actual Arrival Time* drives the *First Arrived On* value on the **Work Order**.
 - Updates **Actual Travel Duration**, calculated as the total time during which the booking status is **Traveling**.
@@ -131,7 +131,7 @@ Every booking status change creates a booking timestamp to keep track of the upd
 - Creates **Time Entries** depending on your system's configuration as defined in your **Field Service Settings**.
 - Calculates **Total Duration in Progress** based on time the booking status is *In progress*.
 - Calculates **Total Break Duration** based on time the booking status is *On Break*.
-- Updates **Total Cost**, calculated as the sum total of actual travel duration, total duration in progress, and the total break duration, multiplied by the resource's hourly rate.
+- Updates **Total Cost** by calculating the cost of each booking journal based on its duration and applicable pay type, including any pay type markup, and then adding the additional cost amount.
 - Updates **Total Billable Duration**, calculated as the total duration of the booking journals marked as billable. By default, the system marks working hours as billable. It marks break time as billable only when the booking's price list specifies that breaks are billable.
 - Updates **Completed On (Work Order)** field on the related work order with the end time of the booking. Editing the booking end time updates the **Completed On** value.
 - Adds the [travel charge item](travel-charges.md) as a work order product when the service account has a travel charge type set and the booking has a nonzero **Actual Travel Duration**.
