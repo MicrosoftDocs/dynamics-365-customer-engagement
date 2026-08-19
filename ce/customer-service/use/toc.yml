@@ -348,6 +348,8 @@
             href: /dynamics365/contact-center/use/workforce-management-adherence-tracker?context=/dynamics365/context/customer-service-use-context
           - name: Use the adherence history report
             href: /dynamics365/contact-center/use/workforce-management-use-adherence-history-report?context=/dynamics365/context/customer-service-use-context
+          - name: Use workforce alerts for volume spikes (preview)
+            href: /dynamics365/contact-center/use/workforce-management-use-volume-spike-alerts?context=/dynamics365/context/customer-service-use-context
       - name: Quality management
         items:
         - name: Overview of Quality Management Agent
