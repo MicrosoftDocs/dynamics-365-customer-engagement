@@ -308,6 +308,8 @@
             href: /dynamics365/contact-center/use/workforce-management-forecast-overview?context=/dynamics365/context/customer-service-use-context
           - name: Create and manage forecast scenarios
             href: /dynamics365/contact-center/use/workforce-management-forecast-scenarios?context=/dynamics365/context/customer-service-use-context
+          - name: View and analyze forecast results
+            href: /dynamics365/contact-center/use/workforce-management-view-analyze-forecasts?context=/dynamics365/context/customer-service-use-context
           - name: Estimate AI agent credits from forecasts
             href: /dynamics365/contact-center/use/workforce-management-credit-estimation?context=/dynamics365/context/customer-service-use-context
           - name: Forecast with weighted average (preview)
