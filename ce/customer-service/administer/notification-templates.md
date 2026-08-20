@@ -88,7 +88,7 @@ The application supports the following slugs.
 
 | Slug | Description |
 |------------|-----------------------------------|
-| `{customerName}` | Name of the customer who initiates the conversation. |
+| `{customerName}` | Name of the customer linked to the conversation. |
 | `{caseId}` | GUID of a case. The case ID is displayed only if a case is linked to the conversation. |
 | `{caseTitle}` | Title of the case. The title of the case is displayed only if a case linked to the conversation. |
 | `{queueId}` | GUID of a queue. |
@@ -99,6 +99,10 @@ The application supports the following slugs.
 | `{customerEntityName}` | Name of the entity (contact or account entity) if the customer is authenticated. |
 | `{customerRecordId}` | GUID of the entity (contact or account entity) if the customer is authenticated. |
 |`{<name of the pre-chat survey question>}` | All the prechat survey questions that are configured for a work stream can be used as the slug. The format is same as the question. |
+|`{<name of a custom context variable>}` | All context variables that you configure for a workstream can be used as a slug. Pre-conversation surveys, AI agents, or custom code and integrations with channels can set these variables. |
+> [!NOTE]
+  >
+  > `customerName`, `caseId`, `caseTitle`, `queueId`, `visitorLanguage`, `visitorDevice`, `entityRoutingLogicalName`, `customerEntityName`, and `customerRecordId` are reserved slug names. Avoid using these names for custom context variables in notification templates.
 
 ## Manage templates
 

@@ -1,11 +1,15 @@
 ---
 title: Booking timestamps and booking journals
 description: Learn about booking timestamps in Dynamics 365 Field Service.
-ms.date: 11/27/2025
+ms.date: 08/18/2026
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
 ms.reviewer: puneetsingh
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 08/18/2026
+ai-usage: ai-assisted
 ---
 
 # Booking timestamps and booking journals
@@ -32,7 +36,10 @@ Think of a default work order process.
 1. When the work starts, they update it to *In Progress*.
 1. After the technician completes the work, they set the booking status to *Completed*.
 
-The system saves every change of the booking status to keep a track record.
+The system saves booking status changes to track updates.
+
+> [!NOTE]
+> By default, Field Service ignores a duplicate booking timestamp for an update made in mobile offline mode when an existing timestamp matches the booking, exact update time, and Field Service system status. In this case, the update doesn't create another booking timestamp.
 
 > [!TIP]
 > Bookings have a duration of at least one minute.
