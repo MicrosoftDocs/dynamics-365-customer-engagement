@@ -27625,6 +27625,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/sales-dev-agent/multilingual.md",
+      "redirect_url": "/dynamics365/sales/sales-dev-agent/sales-development-agent-overview#multilingual-capabilities",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/teams-integration/link-d365-records.md",
       "redirect_url": "/dynamics365/sales/deprecations-sales#link-dynamics-365-records-to-microsoft-teams-channels",
       "redirect_document_id": "false"

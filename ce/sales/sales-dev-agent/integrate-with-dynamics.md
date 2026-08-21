@@ -1,16 +1,20 @@
 ---
-title: Integrate the Sales Development agent with Dynamics 365
+title: Integrate the Sales Development agent with Dynamics 365 (preview)
 description: Learn how to integrate the Sales Development agent with Dynamics 365 Sales to enhance your sales processes and improve customer engagement.
-ms.date: 08/19/2026
+ms.date: 08/21/2026
 ms.topic: overview
 author: sbmjais
 ms.author: shjais
 ai-usage: ai-assisted
 ---
 
-# Integrate the Sales Development agent with Dynamics 365
+# Integrate the Sales Development agent with Dynamics 365 (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 [!INCLUDE[integrate-the-sales-development-agent-with-dynamics-365](../../../ce-shared/sda/integrate-the-sales-development-agent-with-dynamics-365.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Step 1: Give the agent user access to Dynamics 365 Sales  
 

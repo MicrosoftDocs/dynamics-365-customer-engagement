@@ -1,5 +1,5 @@
 ---
-title: Copy configuration from one Sales Development agent to another
+title: Copy configuration from one Sales Development agent to another (preview)
 description: Learn how to copy configuration from one Sales Development agent to another in Microsoft Teams.
 ms.date: 08/19/2026
 ms.topic: overview
@@ -8,9 +8,13 @@ ms.author: shjais
 ai-usage: ai-assisted
 ---
 
-# Copy configuration from one Sales Development agent to another
+# Copy configuration from one Sales Development agent to another (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 [!INCLUDE[copy-config-overview](../../../ce-shared/sda/copy-config-overview.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Before you start
 

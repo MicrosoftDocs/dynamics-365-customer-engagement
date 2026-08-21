@@ -1,16 +1,20 @@
 ---
-title: Get reports from the Sales Development agent
+title: Get reports from the Sales Development agent (preview)
 description: Learn how to get reports from the Sales Development agent in Microsoft Teams.
-ms.date: 08/19/2026
+ms.date: 08/21/2026
 ms.topic: overview
 author: sbmjais
 ms.author: shjais
 ai-usage: ai-assisted
 ---
 
-# Get reports from the Sales Development agent
+# Get reports from the Sales Development agent (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 [!INCLUDE[get-reports-from-the-sales-development-agent](../../../ce-shared/sda/get-reports-from-the-sales-development-agent.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## When to use which report
 

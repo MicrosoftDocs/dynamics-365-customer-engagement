@@ -1,19 +1,23 @@
 ---
-title: Create a Sales Development agent instance
+title: Create a Sales Development agent instance (preview)
 description: Learn how to create an instance of the Sales Development agent in Microsoft Teams or Microsoft 365 Copilot.
-ms.date: 08/19/2026
+ms.date: 08/21/2026
 ms.topic: overview
 author: sbmjais
 ms.author: shjais
 ai-usage: ai-assisted
 ---
 
-# Create a Sales Development agent instance
+# Create a Sales Development agent instance (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 You can create an instance of the Sales Development agent from either the Microsoft Teams Store or the Microsoft 365 Copilot Agent Store.
 
 > [!NOTE]
 > An administrator must [activate the Sales Development agent](activate-agent.md) in the Microsoft 365 admin center before you can create an instance.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 1. Based on your preference, go to either Microsoft Teams or Microsoft 365 Copilot.
     - In Microsoft Teams, go to **Store**, go to the **Agents for your team** category, or search for **Sales Development (Frontier)**.
