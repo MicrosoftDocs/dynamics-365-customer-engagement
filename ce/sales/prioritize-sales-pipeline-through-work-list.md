@@ -1,7 +1,7 @@
 ---
 title: Prioritize sales pipeline with work lists
 description: Use work lists in the sales accelerator to prioritize your sales pipeline and ensure important records aren't left behind.
-ms.date: 04/30/2026
+ms.date: 08/21/2026
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -132,7 +132,7 @@ The bulk email feature helps you optimize your work by sending the same email to
 For example, let's say 10 leads have a sequence step to send an introduction email, and this step is pending for today. By using the bulk email feature, you can select all or some of the 10 leads and send them the introduction email all at once.
 
 > [!NOTE]
-> You must have the `delete` permission for the `email` entity to use the bulk email feature. 
+> You must have the `delete` permission for the `activity` entity to use the bulk email feature. 
 
 **To send bulk email**
 
