@@ -28,6 +28,18 @@ ai-usage: ai-assisted
 
 [!INCLUDE[supported-and-unsupported-content-types](../../../ce-shared/sda/supported-and-unsupported-content-types.md)]
 
+## Multilingual capabilities
+
+[!INCLUDE[multilingual-capabilities](../../../ce-shared/sda/multilingual-capabilities.md)]
+
+### Configure language targeting in prospect data
+
+[!INCLUDE[configure-language-targeting-in-prospect-data](../../../ce-shared/sda/configure-language-targeting-in-prospect-data.md)]
+
+### Search and testing behavior
+
+[!INCLUDE[search-and-testing-behavior](../../../ce-shared/sda/search-and-testing-behavior.md)]
+
 ## Sales Development agent permissions
 
 [!INCLUDE[sales-development-agent-permissions](../../../ce-shared/sda/sales-development-agent-permissions.md)]

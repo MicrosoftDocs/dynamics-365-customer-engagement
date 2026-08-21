@@ -983,8 +983,6 @@ items:
                 href: sales-dev-agent/onboard-agent.md
               - name: Test the Sales Development agent in chat
                 href: sales-dev-agent/test-agent.md
-              - name: Multilingual capabilities
-                href: sales-dev-agent/multilingual.md
               - name: Integrate with Dynamics 365 Sales
                 href: sales-dev-agent/integrate-with-dynamics.md
               - name: Launch live outreach with the agent
