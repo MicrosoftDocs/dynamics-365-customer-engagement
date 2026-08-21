@@ -1,16 +1,20 @@
 ---
-title: Activate Sales Development agent
+title: Activate Sales Development agent (preview)
 description: Learn how to activate the Sales Development agent in Microsoft 365, which automates outreach and prospect management in Microsoft Teams.
-ms.date: 08/19/2026
+ms.date: 08/21/2026
 ms.topic: overview
 author: sbmjais
 ms.author: shjais
 ai-usage: ai-assisted
 ---
 
-# Activate Sales Development agent
+# Activate Sales Development agent (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 The Sales Development agent automates outreach and prospect management in Microsoft Teams. It uses AI to help sales teams scale prospecting while still delivering personalized communication.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Licensing and Frontier prerequisites
 

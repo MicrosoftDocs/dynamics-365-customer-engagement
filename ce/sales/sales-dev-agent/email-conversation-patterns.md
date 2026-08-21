@@ -1,16 +1,20 @@
 ---
-title: Sales Development agent email conversation patterns
+title: Sales Development agent email conversation patterns (preview)
 description: Learn about the email conversation patterns of the Sales Development agent.
-ms.date: 08/19/2026
+ms.date: 08/21/2026
 ms.topic: overview
 author: sbmjais
 ms.author: shjais
 ai-usage: ai-assisted
 ---
 
-# Sales Development agent email conversation patterns
+# Sales Development agent email conversation patterns (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 [!INCLUDE[sales-development-agent-email-conversation-patterns](../../../ce-shared/sda/sales-development-agent-email-conversation-patterns.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Conversation continuity model
 
