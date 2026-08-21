@@ -198,9 +198,11 @@
       - name: Autonomous service agents
         items: 
         - name: Integrate Case Management Agent with custom Copilot Studio agents 
-          href: case-management-agent-integration.md    
+          href: case-management-agent-integration.md
+        - name: Use the email classification custom action
+          href: use-email-classification-custom-action.md
         - name: Use case field prediction API 
-          href: use-case-field-prediction-api.md      
+          href: use-case-field-prediction-api.md
         - name: Use msdyn_invokeCaseProcessingAgent to invoke Case Management Agent
           href: use-case-processing-agent.md           
       - name: Representative productivity tools

@@ -1,16 +1,20 @@
 ---
-title: Configure send time for the Sales Development agent
+title: Configure send time for the Sales Development agent (preview)
 description: Learn how to configure the send time for the Sales Development agent in Microsoft Teams to optimize sales outreach.
-ms.date: 08/19/2026
+ms.date: 08/21/2026
 ms.topic: overview
 author: sbmjais
 ms.author: shjais
 ai-usage: ai-assisted
 ---
 
-# Configure send time
+# Configure send time (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 [!INCLUDE[configure-send-time](../../../ce-shared/sda/configure-send-time.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## How it works
 

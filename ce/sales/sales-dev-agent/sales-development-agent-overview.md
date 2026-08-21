@@ -1,7 +1,7 @@
 ---
 title: Sales Development agent overview (preview)
 description: Learn how to deploy, onboard, and use the Sales Development agent in Microsoft Teams to automate sales outreach and prospect management.
-ms.date: 08/19/2026
+ms.date: 08/21/2026
 ms.topic: overview
 author: sbmjais
 ms.author: shjais
@@ -10,7 +10,11 @@ ai-usage: ai-assisted
 
 # Sales Development agent overview (preview)
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 [!INCLUDE[use-the-sales-development-agent](../../../ce-shared/sda/use-the-sales-development-agent.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## AI processing, cross-geo data flows, and EU compliance
 
@@ -23,6 +27,18 @@ ai-usage: ai-assisted
 ## Supported and unsupported content types
 
 [!INCLUDE[supported-and-unsupported-content-types](../../../ce-shared/sda/supported-and-unsupported-content-types.md)]
+
+## Multilingual capabilities
+
+[!INCLUDE[multilingual-capabilities](../../../ce-shared/sda/multilingual-capabilities.md)]
+
+### Configure language targeting in prospect data
+
+[!INCLUDE[configure-language-targeting-in-prospect-data](../../../ce-shared/sda/configure-language-targeting-in-prospect-data.md)]
+
+### Search and testing behavior
+
+[!INCLUDE[search-and-testing-behavior](../../../ce-shared/sda/search-and-testing-behavior.md)]
 
 ## Sales Development agent permissions
 
