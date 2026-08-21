@@ -302,6 +302,10 @@
         items:
         - name: Overview
           href: workforce-management-overview.md
+        - name: Workforce setup
+          items:
+          - name: Set up and manage planning groups
+            href: /dynamics365/contact-center/use/workforce-management-use-planning-groups?context=/dynamics365/context/customer-service-use-context
         - name: Forecasting
           items: 
           - name: Overview of forecasting
