@@ -216,9 +216,7 @@ If you set **End call** or **End conversation** as an overflow action, you can e
 
 [Learn more about customizing automated messages](configure-automated-message.md#customize-automated-messages-at-the-channel-level).
 
-## Use natural language playbooks to configure overflow actions for work items in queue (preview)
-
-[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+## Use natural language playbooks to configure overflow actions for work items in queue
 
 Configure overflow handling to trigger immediately when eligible service representatives aren't available for a work item or queues are out of operating hours, instead of waiting for time or volume-based conditions.
 
@@ -277,7 +275,7 @@ By default, if a representative doesn't answer these calls because they're busy 
 ### Prerequisites for direct inward dialed calls
 
 - Voice channel is configured.
-- Direct inward dial is set up using [inbound profiles](/dynamics365/customer-service/administer/configure-outbound-inbound-profiles#create-inbound-profiles) for service representatives. 
+- Direct inward dial is set up using [inbound profiles](/dynamics365/customer-service/administer/configure-outbound-inbound-profiles#create-inbound-profiles) for service representatives.
 - Conversation orchestration is available.
 - At least one queue is set up to handle transfer scenarios.
 - External phone numbers are set up if you want to transfer calls externally.

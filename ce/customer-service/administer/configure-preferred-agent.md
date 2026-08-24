@@ -1,7 +1,7 @@
 ---
 title: Configure routing to preferred or previously engaged representatives in Dynamics 365 Contact Center
 description: Learn how to configure settings to route work items to preferred or previously engaged representatives in Dynamics 365 Contact Center and Customer Service.
-ms.date: 06/25/2026
+ms.date: 08/24/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -198,10 +198,52 @@ The system runs as follows:
 
 **Key outcomes**:
 
--	**Context continuity**: Customers reconnect with familiar experts without repeating their issues.
--	**VIP treatment**: High-value customers consistently reach their designated relationship managers.
--	**Operational efficiency**: Reduced handling time due to preserved context.
--	**Fair fallback**: When contextual experts are unavailable, standard routing ensures timely service.
+- **Context continuity**: Customers reconnect with familiar experts without repeating their issues.
+- **VIP treatment**: High-value customers consistently reach their designated relationship managers.
+- **Operational efficiency**: Reduced handling time due to preserved context.
+- **Fair fallback**: When contextual experts are unavailable, standard routing ensures timely service.
+
+## Keep the same expert for returning asynchronous chats with active conversation limit and presence status checks
+
+[Representative affinity](create-workstreams.md#representative-affinity) reconnects a returning customer with the representative who previously handled their conversation, so the customer keeps the same expert across visits and doesn't have to repeat context. For asynchronous messaging channels, a returning customer can come back after the original conversation moves to a waiting state. The active conversation limit and presence status checks work together so that returning asynchronous chats reconnect to the previous representative reliably. Configure this behavior for queues where representative affinity is enabled by using conversation orchestration playbooks.
+
+### How active conversation limit works
+
+The [active conversation limit](users-user-profiles.md) is a configurable attribute defined at the representative level. It acts as a safeguard against overload by limiting the number of returning asynchronous messaging conversations that can be assigned to a representative only when representative affinity is enabled.
+
+**How the check works**: When a customer reinitiates a waiting asynchronous conversation, the system compares the representative's total capacity-occupying conversations across all channels against their active conversation limit. If the total is below the limit, the system reassigns the conversation to the same representative. Otherwise, the system releases the conversation to the queue for reassignment.
+
+- **Capacity profiles**: New conversations are governed by capacity profiles, not the active conversation limit. Use capacity profiles for overall capacity management.
+- **Waiting consumes no capacity**: Waiting asynchronous conversations consume no capacity while unassigned and count toward the limit only when a customer reinitiates them. Representative-initiated conversations aren't affected.
+- **No other representative available**: If no other suitable representative is available, the conversation might still return to the original representative.
+
+### How active conversation limits are applicable to returning asynchronous chats
+
+When a customer reinitiates an asynchronous chat on a queue with representative affinity enabled, the system evaluates the previously engaged representative before reconnecting the conversation:
+
+- **Identify the representative**: Identify the previously engaged representative for the returning chat.
+- **Check presence**: If allowed presences are configured in the **Keep the same expert for async chats** conversation orchestration playbook, the representative must be in one of the configured presence states.
+- **Check active conversation limit**: Compare the representative's total active conversations against their limit. If the total is below the limit, the system reconnects the conversation to the same representative, even when the limit exceeds the configured capacity profile.
+- **Fallback to the queue**: If the representative doesn't meet the presence requirements or reaches the active conversation limit, the system either keeps the conversation unassigned in the queue or assigns it to the next best representative, depending on administrator configuration.
+
+### Prerequisites for representative affinity with active conversation limit
+
+At least one queue and workstream are configured for the messaging channel, and representative affinity is enabled for the workstream.
+
+### Configure representative affinity with active conversation limit and presence checks through orchestration playbooks
+
+Create the **Keep the same expert for async chats** playbook.
+
+1. In Copilot Service admin center, go to **Customer support** > **Conversation orchestration**.
+1. Select **Prompt gallery**. In the category dropdown, select **Assign to a previous or preferred expert scenario**, and then choose the **Keep the same expert for async chats** template.
+1. Accept the default playbook name or enter your own.
+1. Select **Queues** > **Edit**. Set **Channel** to **Messaging**, and in **Apply to** choose **All queues**, **List of specific queues**, or **All queues except** (select the queues). Select **Save**.
+1. Select the allowed presence statuses in the **presence** list.
+1. Select **active conversation limit**.
+1. Select one of the following **fallback** options if the previous expert isn't available:
+   - **assign to next best expert in queue**
+   - **keep the chat unassigned in the queue**
+1. Select **Save** to keep the playbook as a draft. Review any validation warnings, and then select **Publish** to activate it.
 
 ### View diagnostics for preferred and previous expert assignment
 
