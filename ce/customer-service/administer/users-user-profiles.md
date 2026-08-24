@@ -1,7 +1,7 @@
 ---
 title: Create and manage users and user profiles
-description: This article provides steps that you can perform to manage users in Dynamics 365 Contact Center.
-ms.date: 04/15/2026
+description: This article provides steps that you can perform to manage users in Dynamics 365 Contact Center and Customer Service.
+ms.date: 08/07/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -15,7 +15,6 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-
 Use the information in this article to manage your service representatives in Customer Service. The enhanced user management experience is a simplified UI that eases the complexity of configuring the various settings required for your representatives to provide customer service optimally.
 
 You can manage the following settings for the users in bulk:
@@ -23,14 +22,11 @@ You can manage the following settings for the users in bulk:
 - Skills
 - Queues
 - Capacity profiles
-- Swarming
 
-On the user management page, the following three views are available:
+On the **User management** page, the following views are available:
 
 - **Contact center users**: Lists users who are assigned the representative, supervisor, or admin persona.
 - **All users**: Lists all the Customer Service users.
-- **Swarm experts**: Lists users who are assigned to be swarm experts.
-
 
 ## Manage contact center users
 
@@ -53,11 +49,10 @@ The attributes that you want to add must be configured in the system. You can up
 
    - **Update queues**: On the dialog box that appears, in the **Queues** box, select the queues to add or remove, and then select **Add to all** or **Remove from all**. Save your changes.
 
-   - **Update capacity**: On the dialog box that appears, in the **Capacity profiles** box, select the profiles that you want to add or remove, and then select **Add to all** or **Remove from all**. Save your changes.
-
-1. To add users as swarm experts, select **Swarming** and then select **Add as swarm expert**.
-
-1. If you want to see the list of swarm experts, select the **Swarm experts** view. More information: [Configure customer support swarming](configure-customer-support-swarming.md)
+   - **Update capacity profiles**: On the dialog box that appears, in the **Capacity profiles** box, select the profiles that you want to add or remove, and then select **Add to all** or **Remove from all**. Save your changes.
+   - **Update conversation limit**: Enter a value between 1 and 100, select **Update to all**. The new value is applied to the selected representative. You can update the limit in bulk by selecting multiple representatives. Save your changes.
+      > [!TIP]
+      > Start by setting the active conversation limit equal to the capacity value. For example, capacity 4 and limit 4. This setting introduces no operational risk because it mirrors current behavior. When ready to strengthen affinity, raise the active conversation limit above capacity for a selected number of representatives and monitor the impact before scaling.
 
 The users and their updated attributes will be displayed in the **Contact center users** view.
 

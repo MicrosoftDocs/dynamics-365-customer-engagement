@@ -49,7 +49,7 @@ You can create workstreams for unified routing in the Copilot Service admin cent
          - **Record**
          - **Voice**
     - **Channel**: This box appears if you selected the type as **Messaging**. Select a channel from the list.
-         If you select **Chat**, the **Make chats persistent** checkbox appears. Select the checkbox if you want to configure persistent chat. Also make sure that you select **Keep same agent for entire conversation** in the **Work distribution** settings of the workstream. More information: [Configure persistent chat](persistent-chat.md)
+         If you select **Chat**, the **Make chats persistent** checkbox appears. Select the checkbox if you want to configure persistent chat. Also make sure that you select **Keep same representative for entire conversation** in the **Work distribution** settings of the workstream. More information: [Configure persistent chat](persistent-chat.md)
     - **Record**: This box appears if you selected the type as **Record**. Select the record from the list. More information: [Set up record routing](set-up-record-routing.md)
     - **Work distribution mode**: Select **Push** or **Pick**. You can't edit this setting later.
          - In **Push** mode, the system routes the work item to representatives automatically using a message alert. You can configure the push work item to be explicitly picked up. For voice, push mode only is available.
@@ -113,7 +113,7 @@ In the **Work distribution** area of a workstream, you can either accept the def
 For a selected workstream, expand **Advanced settings** to configure the following options:
 
 - [Sessions](session-templates.md)
-- [Agent notifications](notification-templates.md#out-of-the-box-notification-templates)
+- [Representative notifications](notification-templates.md#out-of-the-box-notification-templates)
 - [Context variables](manage-context-variables.md)
 - [Smart assist agents](../develop/smart-assist-bot.md)
 - [Quick replies](create-quick-replies.md)
@@ -153,14 +153,14 @@ Select a workstream to perform any of the following actions:
 
 ## Representative affinity
 
-The representative affinity feature makes sure that work items are assigned to the service representatives based on their work history. When a waiting conversation becomes active, it's automatically reassigned to the same representative who handled the conversation previously, irrespective of the representative's capacity and presence. However, the agent affinity setting must align with the settings of the notification template that's associated with the workstream. If auto assign work items is set to no in the notification template, the system overrides the agent affinity setting.
+The representative affinity feature ensures that work items are assigned to the service representatives based on their work history. When a waiting conversation becomes active, it's automatically reassigned to the same representative who handled the conversation previously, regardless of the representative's capacity and presence. However, the representative affinity setting must align with the settings of the notification template that's associated with the workstream. If auto assign work items is set to no in the notification template, the system overrides the representative affinity setting.
 
-Agent affinity is enabled by default for persistent chat, SMS, social channels, and Microsoft Teams. In these channels, when a conversation moves from the waiting to active state, it might not get assigned to the same representative who previously handled it. You can set the **Keep same agent for entire conversation** toggle to **Yes** when you configure the work distribution for the workstream to reassign the conversation to the representative. This setting helps save the effort to reorient the representative or set the context about the customer issue again. 
+Representative affinity is enabled by default for persistent chat, SMS, social channels, and Microsoft Teams. In these channels, when a conversation moves from the waiting to active state, it might not get assigned to the same representative who previously handled it. You can set the **Keep same representative for entire conversation** toggle to **Yes** when you configure the work distribution for the workstream to reassign the conversation to the representative. This setting helps save the effort to reorient the representative or set the context about the customer issue again.
 
 However, for live chat, there's no waiting state. So, when the state of the conversation changes from active to open state, the system reassigns it to the same representative. The representative can choose to reject the assigned conversation in the notification pane.
 
 > [!NOTE]
-> Agent affinity is applicable for push type of work distribution only.
+> Representative affinity is applicable for push type of work distribution only.
 
 ## Associate templates
 
