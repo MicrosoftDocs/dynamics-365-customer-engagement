@@ -1,7 +1,7 @@
 ---
 title: Overview of service-level agreements
 description: Configure and manage service-level agreements (SLAs) to track support policies and provide customers with measured and predictable service.
-ms.date: 06/26/2026
+ms.date: 08/25/2026
 ms.topic: overview
 author: Soumyasd27
 ms.author: sdas
@@ -32,7 +32,8 @@ Alternatively, you can set up a default SLA for the organization. More informati
 
 ### Tracking
 
-- After you configure the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to customer service representatives (service representatives). For more information, go to: [Add a timer control for SLA-enabled entities](../administer/add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities). This functionality helps service representatives monitor their service-level performance and meet their service-level goals.
+- After you configure the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to customer service representatives (service representatives). Learn more in [Add a timer control for SLA-enabled tables](../administer/add-timer-control-case-form-track-time-against-sla.md).
+This functionality helps service representatives monitor their service-level performance and meet their service-level goals.
 - You can create SLA KPIs with target times by setting up customer holiday schedules or customer service schedules to calculate business hours to be considered during time calculation. 
 - You can also enable recalculation of SLAs, providing service representatives with sufficient time to work on their services. More information: [Enable recalculation of SLAs that reach terminal status](../administer/enable-sla-recalculation.md#enable-recalculation-of-slas-that-reach-terminal-status)
 
@@ -84,8 +85,7 @@ After you configure and apply your SLAs, you can manage the various aspects of y
 
 #### Add a timer control to an SLA-enabled entity form and customize the SLA timer control display label
 
-- To help your service organization manage the current status and the time remaining for the configured SLA KPIs, you can add a timer control to an SLA-enabled entity form. More information: [Add a timer control for SLA-enabled entities](../administer/add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities). 
-- Additionally, you can customize the SLA timer control display label according to the needs of your organization. More information: [Customize the SLA timer control display label](../administer/add-timer-control-case-form-track-time-against-sla.md#customize-the-sla-timer-control-display-label)
+- To help your service organization manage the current status and the time remaining for the configured SLA KPIs, you can add a timer control to an SLA-enabled entity form. Learn more in [Add a timer control for SLA-enabled tables](../administer/add-timer-control-case-form-track-time-against-sla.md).
 
 
 ### Related information

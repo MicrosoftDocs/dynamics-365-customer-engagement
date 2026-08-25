@@ -1,7 +1,7 @@
 ---
 title: Add timer in forms to track time against enhanced SLAs
 description: Learn the procedure to add a timer in forms to track time against enhanced SLAs in Dynamics 365 Customer Service.
-ms.date: 06/26/2026
+ms.date: 08/25/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -18,7 +18,7 @@ ms.custom:
 
 > [!NOTE]
 > - Enhanced SLAs in the web client are deprecated and replaced with Unified Interface SLAs. Learn more in [SLAs in web client are deprecated](../implement/deprecations-customer-service.md#slas-in-web-client-are-deprecated).
-> - Learn more about adding a timer control to Unified Interface SLA-enabled entities in [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities).
+> - Learn more about adding a timer control in [Add a timer control for SLA-enabled tables](add-timer-control-case-form-track-time-against-sla.md).
 
 A timer helps users gauge the amount of time they have to complete a key performance indicator (KPI) that is typically associated with a service level agreement (SLA). If your organization uses enhanced SLAs, you must use quick view forms to add a timer to track time against such SLAs.  
   
@@ -94,7 +94,7 @@ To add a timer for an enhanced SLA to an entity form, that entity must be enable
   
 ## Create quick view forms for the SLA KPI Instance entity
 
- Quick view forms help you show data of a related entity in the primary entity form. For enhanced SLAs, all the SLA-related states and times are stored in the SLA KPI instance entity. To show this data in the primary entity like a lead or an opportunity form, you must create a quick view form for each SLA KPI field that you created for the primary entity. Add a timer to the quick view form so it shows the count down for the SLA. Learn more in [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities).
+ Quick view forms help you show data of a related entity in the primary entity form. For enhanced SLAs, the SLA KPI instance entity stores all the SLA-related states and times. To show this data in the primary entity like a lead or an opportunity form, create a quick view form for each SLA KPI field that you created for the primary entity. Add a timer to the quick view form so it shows the countdown for the SLA. Learn more in [Add a timer control for SLA-enabled tables](add-timer-control-case-form-track-time-against-sla.md).
   
 #### Create a quick view form  
   

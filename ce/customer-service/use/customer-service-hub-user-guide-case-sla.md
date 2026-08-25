@@ -48,7 +48,7 @@ A sample runtime view of the SLA Timer is as follows. The SLA KPIs displayed are
 
 ![Runtime view of SLA Timers.](../media/sla-timer-runtime.png "Runtime view of SLA Timers")
 
-For SLAs that are in the expired status, your administrator can configure the SLA Timer to display the elapsed time. The timer displays the countdown using a negative value in the red color. Only SLA Timers that are configured to show the negative time display the negative countdown time. Learn more in [Enable elapsed time for SLA Timers in expired status](../administer/add-timer-control-case-form-track-time-against-sla.md#enable-elapsed-time-for-sla-timers-in-expired-status).
+For SLAs that are in the expired status, your administrator can configure the SLA Timer to display the elapsed time. The timer displays the countdown using a negative value in the red color. Only SLA Timers that are configured to show the negative time display the negative countdown time. Learn more in [Add a timer control for SLA-enabled entities](../administer/add-timer-control-case-form-track-time-against-sla.md).
 
 :::image type="content" source="../media/sla-negative-countdown-timer.png" alt-text="Display negative countdown for SLAs in expired or terminal status.":::
 

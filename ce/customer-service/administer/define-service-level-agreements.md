@@ -1,7 +1,7 @@
 ---
 title: Configure service-level agreements in Dynamics 365 Customer Service
 description: Learn how to configure service-level agreements in Dynamics 365 Customer Service.
-ms.date: 07/29/2026
+ms.date: 08/25/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -269,6 +269,6 @@ Learn how you can apply SLAs in [Apply service-level agreements](apply-slas.md#a
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](../troubleshoot-sla-issues.md)  
-[Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities)
+[Add a timer control for SLA-enabled tables](add-timer-control-case-form-track-time-against-sla.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
