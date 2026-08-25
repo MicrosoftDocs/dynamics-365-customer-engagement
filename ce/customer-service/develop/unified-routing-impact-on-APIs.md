@@ -1,7 +1,7 @@
 ---
 title: Understand how unified routing affects queue items and live work items for routed records
 description: Learn how unified routing affects queue items, live work items, and the corresponding APIs in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 02/03/2026
+ms.date: 08/25/2026
 ms.topic: get-started
 author: gandhamm
 ms.author: mgandham
@@ -41,8 +41,12 @@ This section describes how queue items and live work items are updated when you 
 
 You can change the **Queue** field by selecting [**Add to Queue**](/power-apps/developer/data-platform/webapi/reference/addtoqueue) on the record or [**Route To**](/power-apps/developer/data-platform/webapi/reference/routeto) on the queue item.
 
-- When you change the **Queue** field from an advanced queue to another advanced queue, then the queue for the associated live work item ([msdyn_ocliveworkitem](reference/entities/msdyn_ocliveworkitem.md)) is changed to the same queue, and the unified routing services that maintain representative presence and capacity are updated with the corresponding changes.
-
+You can change the queue by selecting [**Add to Queue**](/power-apps/developer/data-platform/webapi/reference/addtoqueue) on the record or [**Route To**](/power-apps/developer/data-platform/webapi/reference/routeto) for the queue item. When you change the queue from one advanced queue to another, unified routing makes the following updates:
+  - Changes the queue for the associated live work item ([`msdyn_ocliveworkitem`](reference/entities/msdyn_ocliveworkitem.md)) to the target queue.
+  - Unassigns the representative from the live work item.
+  - Releases the capacity allocated to the representative for the work item.
+  - Returns the work item to the routing process as unassigned.
+  - Processes the work item based on the workstream type. Learn more in [Create a workstream](../administer/create-workstreams.md#create-a-workstream).
 - When you change the **Queue** field from an advanced queue to a basic queue, then the associated live work item ([msdyn_ocliveworkitem](reference/entities/msdyn_ocliveworkitem.md)) and table record are closed, the queue item is no longer considered for routing by the unified routing engine, and the unified routing services that maintain representative presence and capacity are updated with the corresponding changes.
 
 - When you change the **Queue** field from a basic queue to an advanced queue, then the queue item is no longer considered for routing by the unified routing engine. You must reroute the queue item using **Save & Route** so that the corresponding live work item can be picked up by the unified routing services. 
