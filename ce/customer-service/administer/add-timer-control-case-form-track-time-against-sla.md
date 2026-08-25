@@ -44,10 +44,10 @@ To add the SLA timer control for the Case table, follow these steps:
 
 1. In your Power Apps environment, add a **SLA Timer** subgrid for the **Case** table, on the **Case for interactive experience** form. Learn how to [add and configure a subgrid component on a form](/power-apps/maker/model-driven-apps/form-designer-add-configure-subgrid).
 1. On the subgrid **Properties**, do the following:
-   1. For **Table**, select **SLA KPI Instances (Regarding)**.
-   1. For **Default view**, select **All SLA KPI Instances**.
-   1. For **Components**, select add and on the **Add component** dialog, select **SLA Timer**.
-   1. On the **Add SLA Timer** dialog, **Update frequency** section, do the following:
+   - For **Table**, select **SLA KPI Instances (Regarding)**.
+   - For **Default view**, select **All SLA KPI Instances**.
+   - For **Components**, select add and on the **Add component** dialog, select **SLA Timer**.
+   - On the **Add SLA Timer** dialog, **Update frequency** section, do the following:
       - **Value**: Enter a value for the timer refresh interval. For optimal performance, choose an interval that isn't too short. The default interval is 30 minutes.
       - Set the **Turn on negative countdown** value to **Yes**.
       - For **Customized Labels**, select the **Bind to table column** checkbox.
