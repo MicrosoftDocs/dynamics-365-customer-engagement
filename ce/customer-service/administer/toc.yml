@@ -151,7 +151,7 @@
     - name: Workforce Management
       items:
       - name: Install the package
-        href: /dynamics365/contact-center/administer/workforce-management-user-management?context=/dynamics365/context/customer-service-administer-context
+        href: /dynamics365/contact-center/administer/workforce-management-package-installation?context=/dynamics365/context/customer-service-administer-context
       - name: User management
         href: /dynamics365/contact-center/administer/workforce-management-user-management?context=/dynamics365/context/customer-service-administer-context
       - name: Forecasting
