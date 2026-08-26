@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Dynamics 365 Customer Service
 description: Learn how to set up rules in Dynamics 365 Customer Service to automatically create or update records from emails and activities, improving efficiency and data quality.
-ms.date: 06/26/2026
+ms.date: 08/26/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -39,7 +39,7 @@ A record creation and update rule has rule items. Rule items define the conditio
 
 When a case record is created through an automatic record creation rule, and the rule owner is a team, the owner of the case record is the team's administrator user.
 
-## Activities and entities supported by rules for creating or updating records automatically
+## Activities and tables supported by rules for creating or updating records automatically
 
  By default, Dynamics 365 Customer Service supports creating records from the following activities:  
 
@@ -51,7 +51,7 @@ When a case record is created through an automatic record creation rule, and the
 - Service activity
 - Custom activity
 
-You can convert these activities to any default (system) entity records or custom entity records. For example, you could create a lead, opportunity (system record), or incident (custom record) from an incoming email.
+You can convert these activities into records in standard Dataverse tables or custom tables. For example, you can create a lead, opportunity, or case from an incoming email.
 
 ## Prerequisites
 
@@ -111,20 +111,37 @@ Set up rules in the Copilot Service admin center app.
 
 1. If you select **Yes**, select an email template in the **Select email template** list box.
 
-   > [!div class=mx-imgBorder]
-   > ![Automatically create record rule configured.](../media/arc-csh-rule-all-steps-configured.png " Automatically create record rule configured")
+   :::image type="content" source="../media/arc-csh-rule-all-steps-configured.png" alt-text="Completed automatic record creation rule with an email condition, case creation action, and automatic reply settings.":::
 
   > [!NOTE]
   > The rule remains in the draft status until you activate it.
 
 ## How do record creation and update rules work with queues
 
- In a record creation and update rule, when you specify a queue for a source type, any incoming activity from that source is added as a queue item for that specified queue. That is, if a rule for a particular source activity and queue combination is active, the rule processes the incoming activity on that queue to create or update records. When an automatic record creation rule processes an email, a queue item is created. If the email has the queue's email in the blind carbon copy (Bcc) or carbon copy (Cc), a queue item is created from server-side sync. By default, two queue items are created if the email has the queue's email in both the "To" and "Bcc" or "Cc" fields. To control the creation of the queue items, you can set the **CreateQueueItemForSynchronizingMailbox** toggle in your organization's configuration settings. Learn more in [Create queue items from synchronized email messages](/power-platform/admin/create-queue-items-from-synchronized-email-messages).
+In a record creation and update rule, when you specify a queue for a source type, any incoming activity from that source is added as a queue item for that specified queue. If a rule for a particular source activity and queue combination is active, the rule processes the incoming activity on that queue to create or update records. 
 
- For an email source type, you must specify a queue. For all other source types including custom activities, it's optional.  
+When an automatic record creation rule processes an email, it creates a queue item. If that email contains the queue's email address in the Cc or Bcc field, server-side synchronization also creates a queue item. By default, two queue items are created if the email includes the queue's email in both the "To" and "Bcc" or "Cc" fields. To control the creation of the queue items, set the **CreateQueueItemForSynchronizingMailbox** toggle in your organization's configuration settings. Learn more in [Create queue items from synchronized email messages](/power-platform/admin/create-queue-items-from-synchronized-email-messages).
+
+For an email source type, you must specify a queue. For all other source types, including custom activities, it's optional.  
 
 > [!NOTE]
 > When an automatic record creation rule is applied to an Email queue item, it gets deactivated.
+
+### Use a single rule when monitoring multiple queues
+
+To help prevent duplicate case creation when processing emails from multiple queues, use a single automatic record creation and update rule configured with one queue. For example, an organization might have separate queues for Sales, Support, and Billing, but want an incoming customer email to result in only one case, regardless of which queue receives the email. In this scenario, route the relevant emails from the multiple queues to a dedicated queue that a single automatic record creation and update rule monitors.
+
+You can implement this pattern by using one of the following approaches:
+
+- **Exchange transport rules:** Configure mail-flow rules to route or copy relevant emails from multiple mailboxes to a dedicated mailbox associated with the automatic record creation and update rule queue.
+
+- **Dynamics 365 processing:** Use Power Automate or a plug-in to route relevant emails to a dedicated automatic record creation and update rule queue when the email is created.
+
+For example:
+
+:::image type="content" source="../media/multiple-mailboxes-single-arc-rule-case-diagram.png" alt-text="Sales, Support, and Billing mailboxes route email to one queue, where a single automatic record creation rule creates a case.":::
+
+This approach provides a single processing point for the automatic record creation and update rule and can help avoid scenarios where the same email is processed by multiple rules and results in duplicate cases.
 
 ## Configure advanced settings for rules
 
@@ -147,7 +164,7 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
 
         If the sender of the email is a contact with a parent account, a record is created if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).
 
-   - **Wait for a specific amount of time after the connected case has been resolved**: Select **Yes**, and then select a time value in the **Select the amount of time** box that appears. No new case is created until the specified period of time lapses, after a related case is resolved.
+   - **Wait for a specific amount of time after the connected case is resolved**: Select **Yes**, and then select a time value in the **Select the amount of time** box that appears. The system doesn't create a new case until the specified time elapses after the related case is resolved.
 
       - If you set the value to **Yes** and specify one hour, and a case exists for a printer issue, when an email comes for the same printer issue, another case won't be created until one hour lapses after the existing printer issue case is resolved.
     
@@ -172,9 +189,9 @@ Perform the following steps to manually map a contact in Power Automate:
 
 1. In the app in Customer Service, go to the automatic record creation and update rule feature, and then select the rule that you want to edit.
 2. In the **Step two: conditions to evaluate and actions to take** area, select the rule item for which you want to manually map the contact in Power Automate.
-3. On the page that appears, on the **Condition builder** tab, select **Save and open Power Automate**. The Power Automate workflow opens on a new tab.
+3. On the page that appears, on the **Condition builder** tab, select **Save and open Power Automate**. The Power Automate workflow opens in a new tab.
    1. Accept the default connection settings, and select **Continue**.
-   2. On the page that displays, in the **Is this email sender a contact or an account** step, for the **If no** option, select the ellipses for **Terminate when no valid customer found**, and select **Delete**.
+   2. On the page that displays, in the **Is this email sender a contact or an account** step, for the **If no** option, select the ellipsis for **Terminate when no valid customer found**, and select **Delete**.
    3. Select **OK** on the confirmation dialog.
    4. In the **Create a record (don't rename this step)** step of the workflow, specify the required value in the **Customer (Contacts)** box.
    5. Make sure that you remove the default mappings from **Contact (Contacts)** and **Customer (Accounts)**.
@@ -222,7 +239,7 @@ To create a contact for unknown senders of email, configure the following option
 
 1. In the **Create a record (don't rename this step)** option, search for **Contact (Contacts)**, and use the following expression:
 
-   if(equals(triggerOutputs()?['body/_emailsender_type'], 'contacts'), if(contains(variables('Customer from email sender'), triggerOutputs()?['body/_emailsender_value']) , string(''), concat('contacts(',triggerOutputs()?['body/_emailsender_value'], ')')), string(''))
+   ``` if(equals(triggerOutputs()?['body/_emailsender_type'], 'contacts'), if(contains(variables('Customer from email sender'), triggerOutputs()?['body/_emailsender_value']) , string(''), concat('contacts(',triggerOutputs()?['body/_emailsender_value'], ')')), string(''))```
 
 1. Save the changes.
 
@@ -245,7 +262,7 @@ By default, the system creates a contact for unknown email sender with the email
 
 ## Activate a rule for creating or updating records automatically
 
- For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.
+ To apply a record creation and update rule to a matching incoming activity, activate the rule after you add the rule items. Learn more in [Activate a record creation and update rule](set-up-rules-to-automatically-create-or-update-records.md#activate-a-record-creation-and-update-rule).
 
 ## Manage automatic record creation and update rule from a queue form
 
@@ -255,14 +272,11 @@ By default, the system creates a contact for unknown email sender with the email
 
 You can review and track the health of the automatic record creation rules and resolve issues around them. Learn more in [Manage activity monitor to review and track rules](manage-activity-arc.md).
 
-### Troubleshoot cases
-
-[Issue converting an email to a case](../troubleshoot-case-email-issue.md)
-
 ### Related information
 
 [Create and manage queues](set-up-queues-manage-activities-cases.md)  
 [Create rules to automatically route cases](create-rules-automatically-route-cases.md)  
-[FAQ on activity monitor](arc-faqs.md)
+[FAQ on activity monitor](arc-faqs.md)  
+[Issue converting an email to a case](../troubleshoot-case-email-issue.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
