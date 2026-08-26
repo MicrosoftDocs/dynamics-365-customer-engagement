@@ -42,7 +42,7 @@ The following table describes the server details.
 | API scope | The authentication scope. |
 | Tool prefix | The tool namespace prefix. |
 
-For more about maker mode scopes, reviewing current configurations, and exiting maker mode, see [Configure Service Agent experiences](configure-service-agent-experiences.md#enter-maker-mode).
+For more information about maker mode scopes, reviewing current configurations, and exiting maker mode, see [Configure Service Agent experiences](configure-service-agent-experiences.md#enter-maker-mode-in-service-agent).
 
 ## Modify an MCP server
 

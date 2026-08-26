@@ -1,11 +1,11 @@
 ---
-title: Configure Service Agent experiences
-description: Learn how administrators can customize the Service Agent experience in Dynamics 365 Customer Service to match their support processes, representative roles, and business requirements.
+title: "Configure Service Agent Experiences"
+description: "Customize Service Agent experiences in Dynamics 365 Customer Service to match your support processes and business requirements. Learn how to configure layouts, forms, and tools for different teams."
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to
-ms.date: 06/26/2026
+ms.date: 08/25/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -21,27 +21,18 @@ You configure these experiences in maker mode, where you can tailor layouts, for
 - You have a security role that allows Service Agent administration, such as System Administrator or System Customizer.
 - Your role includes the `prvmsdyn_ServiceAgentMakerCustomize` Dataverse privilege for the `msdyn_agentmetadataoverride` elastic table. 
 
-## Access Service Agent
+## Enter maker mode in Service Agent
 
-Service Agent is available wherever Microsoft 365 Copilot is available, including the Copilot Service workspace app, where it appears in the side pane.
-
-You can configure Service Agent in two places, and your changes apply to the same agent:
-
-- Directly in the Service Agent pane.
-- In the Copilot Service admin center app.
-
-## Enter maker mode
-
-Maker mode is the entry point for all configuration tasks. While you're in maker mode, regular requests, such as listing cases, are paused until you exit.
+Use maker mode to configure Service Agent. While maker mode is active, standard requests are paused.
 
 1. Open Service Agent.
-1. Ask to **enter maker mode**.
-1. Select the scope that you want to configure:
-   - **Organization**: Applies the changes across the organization.
-   - **Application profile**: Applies the changes to a specific application profile.
-   - **User**: Applies the changes for an individual user.
-
-To review or undo your changes, ask Service Agent to **show all current configurations** or to **reset the configuration to default**. When you finish, ask to **exit maker mode** to resume normal requests.
+1. Ask Service Agent to enter maker mode.
+1. Select the configuration scope:
+   - **Organization**: Apply changes across the organization.
+   - **Application profile**: Apply changes to a specific application profile.
+   - **User**: Apply changes to an individual user.
+1. Make the required configuration changes. To review or undo your changes, ask Service Agent to show the current configurations or reset the configuration to its default settings.
+1. When you finish configuring Service Agent, ask Service Agent to exit maker mode. You can then resume standard requests.
 
 ## Configure layouts and the user interface
 
@@ -69,7 +60,7 @@ For example, you can make **Priority** required, hide internal escalation fields
 
 ### Configure timelines
 
-You can define which activities appear in the timeline experience. You can:
+Define which activities appear in the timeline experience. You can:
 
 - Show or hide activity types.
 - Control the order of activities.
@@ -85,15 +76,15 @@ Control which form opens by default for a record type, such as a case resolution
 
 ### Picklists
 
-Limit which option values representatives can choose. For example, you can hide deprecated categories, restrict **Case Type** selections, and limit resolution codes.
+Limit which option values representatives can choose. For example, hide deprecated categories, restrict **Case Type** selections, and limit resolution codes.
 
 ### Lookups
 
-Control which records users can search for or select. For example, you can restrict account and product lookups, and limit entitlement selections.
+Control which records users can search for or select. For example, restrict account and product lookups, and limit entitlement selections.
 
 ## Configure tool visibility
 
-Service Agent includes built-in tools and customer defined tools (ie: 3P MCP Tools ). You can:
+Service Agent includes built-in tools and customer-defined tools, such as non-Microsoft MCP tools. You can:
 
 - Show tools.
 - Hide tools.
@@ -102,12 +93,12 @@ Service Agent includes built-in tools and customer defined tools (ie: 3P MCP Too
 
 For example, you can hide advanced tools from frontline representatives, enable email drafting only for supervisors, and disable specific MCP tools.
 
-## Configure tool by namespace
+## Configure tools by namespace
 
 ### What is a namespace
 A namespace in MCP is a logical grouping that filters the tools visible to a user. For example, a namespace such as "service" can expose only service-related tools, and hide sales or field-service tools. In MCP-based systems, the namespace acts as the user’s starting tool set, helping keep users focused on their domain while still allowing administrators to selectively add tools from other namespaces when needed.
 
-### How to modify the tools available in a namespace
+### Modify the tools available in a namespace
 By default, each namespace exposes a predefined set of tools. When an administrator enters Maker mode, they can view all available tools, including tools that aren't part of the current namespace, and configure namespace-specific overrides.
 
 To make a tool available in a different namespace:
