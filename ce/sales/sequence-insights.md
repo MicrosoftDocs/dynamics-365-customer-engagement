@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
 ms.collection: get-started
-ms.date: 09/16/2025
+ms.date: 08/26/2026
 ms.custom: bap-template
 ---
 
@@ -23,6 +23,9 @@ Sequences are configured and implemented in your organization. [Learn more about
 ## View and understand sequence insights
 
 To view sequence insights, open an active sequence. The sequence is shown as a Sankey diagram that illustrates the number of records that passed through each step in the sequence. The diagram offers an easy way to view the sequence's overall performance. It can also help you identify steps where more records are getting stuck or leaving the sequence.
+
+> [!NOTE]
+> The numbers in the sequence insights Sankey diagram might omit some records due to data processing delays or other factors and might not match the actual numbers. However, the insights data is still useful for identifying trends and patterns in your sequence performance. 
 
 By default, the data covers the entire time the sequence has been active. You can filter it to show a specific duration; for example, the last seven days. Select **All data** in the upper-right corner of the page, and then select a duration.
 
