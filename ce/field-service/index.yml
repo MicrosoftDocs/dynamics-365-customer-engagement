@@ -141,6 +141,8 @@ additionalContent:
       links:
       - url: create-work-order.md
         text: Create a work order
+      - url: configure-service-account-requirements-work-orders.md
+        text: Configure service account requirements
       - url: work-order-status-booking-status.md
         text: Work order life cycle and statuses
       - url: field-service-architecture.md
