@@ -37,7 +37,7 @@ Administrators can extend Service Agent by connecting published Microsoft Copilo
 1. Before you save, test the connection to validate connectivity, confirm the agent metadata, and verify authentication.
 1. Add an agent description. The orchestrator uses this description to determine when to call the agent.
 
-Learn more about maker mode scopes, reviewing current configurations, and exiting maker mode in [Configure Service Agent experiences](configure-service-agent-experiences.md#enter-maker-mode).
+Learn more about maker mode scopes, reviewing current configurations, and exiting maker mode in [Configure Service Agent experiences](configure-service-agent-experiences.md#enter-maker-mode-in-service-agent).
 
 ## Modify an agent
 
