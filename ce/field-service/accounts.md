@@ -1,7 +1,7 @@
 ---
 title: Create and manage customer accounts in Field Service
 description: Learn how to create and manage service accounts and billing accounts in Dynamics 365 Field Service. Set up accounts before creating work orders.
-ms.date: 05/07/2026
+ms.date: 06/24/2026
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -10,7 +10,7 @@ ms.custom: bap-template
 
 # Create and manage customer accounts
 
-Accounts represent the customers your field service organization works with. Before you create work orders or schedule resources, set up accounts to track where service is delivered and who receives invoices.
+Accounts represent the customers your field service organization works with. For account-based service processes, set up accounts to track where service is delivered and who receives invoices before you create work orders or schedule resources. Some work order types allow you to create work orders without a service account for scenarios such as business-to-consumer (B2C) service, internal maintenance, project-centered work, or integrations that provide service context from another source.
 
 Two main types of accounts exist:
 
@@ -19,6 +19,8 @@ Two main types of accounts exist:
 - **Billing account** represents the account that receives invoices for the work provided. Usually, it's a shared account for multiple service accounts that belong to a central organization.
 
 For example, a wine producer corporation owns several vineyards. Each vineyard is a service account. The corporation is the billing account.
+
+Service accounts remain important when work orders use account-specific defaults such as service location, billing account, price list, tax settings, service territory, travel charges, work hour template, or work order instructions. If your organization creates work orders without a service account, make sure the relevant **Work Order Type** and business process define how those details are captured. For more information, go to [Configure service account requirements for work orders](configure-service-account-requirements-work-orders.md).
 
 ## Create a service account
 
