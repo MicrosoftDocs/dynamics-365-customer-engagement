@@ -10,7 +10,7 @@
     ```a365 develop-mcp list-servers```
 1. Publish the Dataverse MCP server to your target environment by running the following command: 
 
-    ```a365 develop-mcp publish --server-name msdyn_DataverseMCPServer --environment-id <environment-id> --alias new_<uniquealias> --display-name <unique display name>```
+    ```a365 develop-mcp publish --server-name msdyn_DataverseMCPServer --environment-id <environment ID> --alias new_<uniquealias> --display-name <unique display name>```
     
     > [!NOTE]
     > The alias and display name must be unique. If either value is already used, pick a different `new_<uniquealias>` or `display name` value and rerun the publish command.
@@ -19,5 +19,9 @@
 
     ```a365 develop list-available```
 
-If you want to unpublish the MCP server and try again, run the command `a365 develop-mcp unpublish --server-name msdyn_DataverseMCPServer --environment-id <environment ID>`.
+If you want to unpublish the MCP server and try again, run the following command:
+
+```a365 develop-mcp unpublish --server-name new_<uniquealias> --environment-id <environment ID>```
+
+For more information about the `develop-mcp` command reference, see [Agent 365 CLI develop-mcp command reference](/microsoft-agent-365/developer/reference/cli/develop-mcp).
 
