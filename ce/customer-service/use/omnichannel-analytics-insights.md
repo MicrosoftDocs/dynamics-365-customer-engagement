@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service dashboards
-description: Learn about the various dashboards and reports for historical operational metrics and KPIs in Omnichannel for Customer Service to manage contact centers.
-ms.date: 12/16/2025
+description: Learn about dashboards that provide historical metrics and KPIs for managing contact center operations in Dynamics 365 Customer Service.
+ms.date: 08/25/2026
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -13,7 +13,7 @@ search.audienceType:
 ms.custom: 
   - dyn365-customerservice
  
-feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
+feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Omnichannel for Customer Service dashboards
@@ -23,33 +23,35 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-The insights dashboards in Omnichannel for Customer Service contain various charts and metrics to help you understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases and customer service representatives (service representatives or representatives) that contribute to overall trends. The dashboards provide a view into the support operation across the various channels.
+The insights dashboards in Omnichannel for Customer Service provide charts and metrics that help you analyze customer service performance. Key performance indicators and visual breakdowns of conversations, queues, and customer service representative activity help you identify trends and opportunities for improvement. The dashboards provide visibility into support operations across multiple engagement channels.
 
-You can [customize the visual display](customize-reports.md#customize-visual-display) of the dashboards and also save your personalized views as [bookmarks](manage-bookmarks.md).
+You can [customize the visual display](customize-reports.md#customize-visual-display) of the dashboards and save personalized views as [bookmarks](manage-bookmarks.md).
 
-Learn more about managing the dashboards in [Manage historical analytics reports in Omnichannel for Customer Service](../administer/oc-historical-analytics-reports.md).
+Learn more about [managing historical analytics reports in Omnichannel for Customer Service](../administer/oc-historical-analytics-reports.md).
 
 ## Omnichannel historical analytics reports
 
 The following reports are available for Omnichannel historical analytics.
 
-- [Summary dashboard](omnichannel-summary-dashboard.md): The Summary dashboard gives you an integrated view of the Copilot agent and Omnichannel metrics.
+- [Summary dashboard](omnichannel-summary-dashboard.md): The Summary dashboard gives you an integrated view of Copilot agent and omnichannel metrics.
 
-- [Conversation dashboard](oc-conversation-dashboard.md): The Conversation dashboard gives you a broad overview of the assisted support customer service experience in your organization.
+- [Conversation dashboard](oc-conversation-dashboard.md): The Conversation dashboard provides an overview of customer conversations handled by service representatives.
 
 - [Queue dashboard](oc-queue-dashboard.md): The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating.
 
 - [Voice dashboard](voice-channel-reports-analytics.md): The Voice dashboard provides comprehensive information on the overall performance of customer support across the voice channel.
 
-- [Agent dashboard](agent-dashboard.md#agent-dashboard): The Agent dashboard shows charts and KPIs that you can use to guide service representatives and understand overall  representative performance.
+- [Agent dashboard](agent-dashboard.md#agent-dashboard): The Agent dashboard contains service representative performance metrics that you can use to guide service representatives and understand overall representative performance.
 
-- [Bot dashboard](oc-bot-dashboard.md): The Bot dashboard shows charts and KPIs that you can use to understand how AI agents are playing a role in a support organization.
+- [Bot dashboard](oc-bot-dashboard.md): The Bot dashboard provides charts and KPIs for evaluating AI agent performance and its effect on customer conversations.
 
-- [Voicemail dashboard](oc-voicemail-dashboard.md): The Voicemail dashboard provides a view of the voicemails with details, such as the voicemail status and the number of voicemails per queue and representative.
+- [Voicemail dashboard](oc-voicemail-dashboard.md): The Voicemail dashboard shows voicemail status and voicemail volume by queue and representative.
 
-- [Proactive Outbound dashboard](/dynamics365/contact-center/use/proactive-outbound-dashboard): The Proactive Outbound dashboard provides organizations with detailed insights into proactive outbound customer engagements initiated through proactive outreach. This dashboard is available in Dynamics 365 Contact Center only. Learn how to enable it in [Omnichannel historical analytics for proactive outbound engagements](../administer/oc-historical-analytics-reports.md#enable-omnichannel-historical-analytics-for-proactive-outbound-engagements).
+- [Proactive Outbound dashboard](/dynamics365/contact-center/use/proactive-outbound-dashboard): The Proactive Outbound dashboard provides organizations with detailed insights into proactive outbound customer engagements initiated through proactive outreach. This dashboard is available in Dynamics 365 Contact Center only. Learn how to enable it in [historical analytics for proactive outbound engagements](../administer/oc-historical-analytics-reports.md#enable-historical-analytics-for-proactive-outbound-engagements).
 
 - [Bot-Intent dashboard](/dynamics365/contact-center/use/bot-intent-historical): The Bot-Intent dashboard provides detailed insights about bot performance and customer engagement, supporting targeted analytics for continuous improvement. This dashboard is available in Dynamics 365 Contact Center only. Learn how to enable it in [historical analytics for intent](../administer/oc-historical-analytics-reports.md#enable-historical-analytics-for-intent).
+
+- [Quality Assurance Agent dashboard](/dynamics365/contact-center/use/quality-assurance-agent-dashboard): The Quality Assurance Agent dashboard helps you get insights about the Quality Assurance Agent's quality and coaching skills. This dashboard is available in Dynamics 365 Contact Center only. Learn how to enable it in [historical analytics for Quality Assurance Agent](../administer/oc-historical-analytics-reports.md#enable-historical-analytics-for-quality-assurance-agent).
 
 > [!NOTE]
 > The reports don't include work items of the Entity Record channel.
@@ -58,7 +60,7 @@ The following reports are available for Omnichannel historical analytics.
 
 - Learn more about [Data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
 
-- Learn more about [Dataverse entities used in historical and real-time analytics](dataverse-entities.md#dataverse-entities-used-in-historical-and-real-time-analytics).
+- Learn more about [Dataverse tables used in historical and real-time analytics](dataverse-entities.md#dataverse-entities-used-in-historical-and-real-time-analytics).
 
 ## Metrics
 
@@ -70,17 +72,17 @@ The following reports are available for Omnichannel historical analytics.
 
 [!INCLUDE[cc-navigation](../../includes/cc-navigation.md)]
 
-## Filter information displayed on dashboard 
+## Filter information displayed on dashboard
 
-Use the filters to drill down to KPIs across the dashboard. Adjust the filters based on the insights that you're looking for. The available filters include **Duration**, **Channels**, **Queue**, **Agent**, **Conversation Status**, and **Time zone**. 
+Use filters to refine the KPIs and charts displayed on the dashboard. Adjust the filters based on the insights that you're looking for. The available filters include **Duration**, **Channels**, **Queue**, **Agent**, **Conversation Status**, and **Time zone**. 
 
 Optionally, you can also add the **Business Unit** filter that provides a consistent way to focus on a single business unit or compare multiple units. The filter can be configured through data model customization or by adjusting the visual under data measure for the dimension **DimBusinessUnit**. The **Business Unit** filter doesn't grant additional access; it simply restricts data visibility based on existing roles and business unit hierarchy. If a user doesn't have security permissions to view a business unit's data, selecting that business unit won't display any information.
 
 ## Reports refresh and data retention
 
-See [Reports refresh and data retention](customer-service-analytics-insights-csh.md#reports-refresh-and-data-retention).
+For refresh schedules and retention periods, review [Reports refresh and data retention](customer-service-analytics-insights-csh.md#reports-refresh-and-data-retention).
 
-## View historical analytics reports in customized representative apps
+## View historical analytics reports in a customized Copilot Service workspace app
 
 If you customized the Copilot Service workspace app, you must complete the following steps to be able to view the reports.
 
@@ -101,7 +103,7 @@ If you customized the Copilot Service workspace app, you must complete the follo
     - **Outlook shortcut**: **Offline availability**.
 1. Select **Save**, and then select **Publish**.
 
-### Related information
+## Related information
 
 [Introduction to Customer Service insights](../implement/introduction-customer-service-analytics.md)  
 [Manage bookmarks](manage-bookmarks.md)  
