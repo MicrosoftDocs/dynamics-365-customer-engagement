@@ -53,9 +53,11 @@ items:
     - name: Administration overview
       href: admin-guide.yml
     - name: Field Service settings
-      href: configure-default-settings.md
-    - name: Settings for common scenarios
-      href: configure-settings-common-scenarios.md
+      items:
+        - name: Define default settings
+          href: configure-default-settings.md
+        - name: Settings for common scenarios
+          href: configure-settings-common-scenarios.md
     - name: Users and security roles
       items:
         - name: Set up users and security roles
@@ -72,18 +74,24 @@ items:
       href: create-price-list.md
     - name: Products and services
       href: create-product-or-service.md
-    - name: Priorities
-      href: set-priorities.md
-    - name: Work order types
-      href: create-work-order-types.md
-    - name: Work order templates (incident types)
+    - name: Not-to-exceed
+      href: work-order-not-to-exceed.md
+    - name: Work orders
       items:
-        - name: Incident type overview
-          href: incident-type-overview.md
-        - name: Create incident types
-          href: configure-incident-types.md
-    - name: Work order customization considerations
-      href: work-order-customization.md
+        - name: Work order types
+          href: create-work-order-types.md
+        - name: Work order templates (incident types)
+          items:
+            - name: Incident type overview
+              href: incident-type-overview.md
+            - name: Create incident types
+              href: configure-incident-types.md
+        - name: Work order priorities
+          href: set-priorities.md
+        - name: Work order resolutions
+          href: work-order-resolutions.md
+        - name: Work order customization considerations
+          href: work-order-customization.md
     - name: Organizational units
       href: set-up-organizational-units.md
     - name: Service task types
@@ -96,16 +104,14 @@ items:
       href: asset-validation.md
     - name: Trades
       href: trades.md
-    - name: Not-to-exceed
-      href: work-order-not-to-exceed.md
-    - name: Create work order resolutions
-      href: work-order-resolutions.md
     - name: License compliance
       items:
         - name: License compliance overview
           href: license-compliance-overview.md
         - name: License compliance for Field Service
           href: license-compliance-field-service.md
+    - name: US Government Clouds
+      href: field-service-government.md
 
 - name: Copilot and AI agents in Field Service
   items:
