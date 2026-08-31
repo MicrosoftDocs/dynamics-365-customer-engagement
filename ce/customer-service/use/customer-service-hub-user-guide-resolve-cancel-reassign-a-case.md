@@ -1,7 +1,7 @@
 ---
 title: Resolve, Cancel, and Reassign Cases in Customer Service Hub
 description: Learn how to resolve, cancel, and reassign cases, manage parent and child cases, and review case resolution history.
-ms.date: 07/30/2026
+ms.date: 08/31/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -102,7 +102,7 @@ Learn how to resolve, cancel, and reassign cases so that you can keep case owner
 ## Reassign a case
 
 > [!IMPORTANT]
-> When [unified routing](../administer/overview-unified-routing.md) is enabled, use the save and route option to reassign a case or work item.
+> When [unified routing](../administer/overview-unified-routing.md) is enabled, use **Save & Route** to reassign a case or work item. **Assign** doesn't trigger the automatic assignment process.
 
 If you don’t have enough information to resolve a case, or if you think another member in your team has expertise on the subject, you can assign the case to another user or team.  
 
