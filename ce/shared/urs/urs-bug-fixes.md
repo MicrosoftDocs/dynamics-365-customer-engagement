@@ -7,18 +7,57 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | TBD | 08/28 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.4001.4](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240014-hotfix1) | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | 08/21 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.4001.4](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240014-hotfix1) | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | 08/21 |
-| | *USG* | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | TBD | 09/02 |
-|**Station 4** |*Europe* | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | TBD | 09/18 |
-|**Station 5** |  *North America, Oceania*| [3.12.4000.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400031-hotfix3) | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | 08/21 |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.4000.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400031-hotfix3) | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | 08/19 |
-|**Station 6** | *Dedicated Scale Groups* | [3.12.4000.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400031-hotfix3) | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | 08/28 |
+|**Station 1** |  *First Release*| [3.12.4002.76](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400276) | TBD | 10/02 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | [3.12.4002.76](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400276) | 09/04 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | [3.12.4002.76](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400276)| 09/11 |
+| | *USG* | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | [3.12.4002.76](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400276)| 09/02 |
+|**Station 4** |*Europe* | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | [3.12.4002.76](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400276)| 09/18 |
+|**Station 5** |  *North America, Oceania*| [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | [3.12.4002.76](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400276)| 09/25 |
+|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | [3.12.4002.76](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400276) | 09/23 |
+|**Station 6** | *Dedicated Scale Groups* | [3.12.4001.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#31240015-hotfix2) | [3.12.4002.76](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400276) | 10/02 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.4002.76
+
+**Resource Scheduling Controls:** 1.2.105.262382
+
+**Dataverse:** 3.12.4002.76
+
+- Wildcard search in the requirement panel: You can now use the wildcard character (*) when searching the schedule board requirement panel, making it easier to match partial text.
+- Balance work across resources: A new scheduling objective is available to spread work more evenly across resources.
+- Multiple optimization warnings: The schedule board now shows multiple optimization warnings at once and supports additional warning codes.
+- Excluded resources in optimization: The optimization dialog now lists resources from the input schedule, including invalid resources with a warning, so you can see why a resource was excluded.
+- Resource error guidance: The resource error dialog in optimization now includes a **Learn more** link for inadmissibility errors.
+- Clearer unschedulable-item message: The schedule board now shows a clear message when optimization finds no schedulable items in the selected date range.
+- Enable Outlook Schedules customization: The **Enable Outlook Schedules** field on the bookable resource can now be customized in managed installations.
+- Schedule board resource health check: The Universal Resource Scheduling health check now validates customized schedule board web resources to help identify configuration issues earlier.
+- Custom Bing Maps key access: Schedule board callers must have read access to the Scheduling Parameter record to use its custom Bing Maps API key. Callers without access use Azure Maps instead.
+- Booking window: Fixed an issue where selecting a booking multiple times on the schedule board could open the booking window more than once.
+- Committed time in non-UTC time zones: Fixed incorrect committed-time totals so the schedule board shows accurate remaining availability.
+- Bulk Move: Fixed an issue where **Bulk Move** moved only one selected booking when a booking rule was active.
+- Objective toggle in right-to-left languages: Fixed the display of the objective toggle in the scheduling goal form for languages such as Arabic.
+- Reset board settings: Fixed **Reset to default** so it also resets the default booking method values on the **Other** tab.
+- Suggested schedule list view: Fixed an issue where the list included bookings from before the current timeline.
+- Optimization retry settings: Fixed an issue where retry didn't preserve the previously used scheduling settings.
+- Overlapping suggested bookings: Fixed an issue where bookings with a small overlap for the same resource appeared on separate rows.
+- Interday cell selection: Fixed an issue where selecting a cell chose the previous day, week, or year when the user's time zone differed from the board's.
+- Booking name validation: Fixed an issue where a cached booking name length applied an incorrect limit across organizations.
+- Suggest Schedule results: Fixed an issue where the flow returned empty results instead of input schedules.
+- Optimization drift detection: Reduced false drift detection caused by fulfilled-duration noise.
+- Drift dialog: Fixed the **Cancel** button so it closes the dialog.
+- Optimization plan localization: Fixed missing localized strings on the **Recurrence** tab.
+- Optimization review: Fixed the experience so it stays on the review dialog after you select **Apply**.
+- Calendar week rules: Schedule board date pickers and weekly timelines now honor the configured calendar week rule, including ISO 8601 week numbering.
+- Scheduling conflict detection: Fixed false conflicts caused by reduced coordinate precision in optimization input schedules.
+- Book Substitute icon: Fixed the context menu icon color so it matches other schedule board menu icons across themes.
+- Booking template resource: Fixed an issue where the booking template showed the first resource in the optimization scope instead of the assigned resource.
+- Travel time calculations: Fixed calculations for certain origin and destination matrix shapes returned by the maps service.
+- Solution updates: Fixed an issue that could cause a Universal Resource Scheduling solution update to fail.
+- Recurrence confirmation localization: Fixed missing localization for the confirmation prompt shown when enabling recurrence in a scheduling plan.
+- This release contains additional security improvements.
 
 ## 3.12.4001.5 (hotfix2)
 
