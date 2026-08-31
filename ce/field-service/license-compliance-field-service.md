@@ -6,7 +6,7 @@ ms.author: vhorvath
 ms.reviewer: puneet-singh1
 ms.topic: article
 ms.collection: get-started
-ms.date: 08/27/2025
+ms.date: 08/27/2026
 ---
 
 # Objects validated by the solution checker

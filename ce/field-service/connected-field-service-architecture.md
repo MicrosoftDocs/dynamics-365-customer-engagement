@@ -1,7 +1,7 @@
 ---
 title: How Connected Field Service with IoT Hub works
 description: Learn about the architecture and data flow of Connected Field Service with IoT Hub, a solution that combines Azure IoT and Dynamics 365 Field Service.
-ms.date: 09/02/2025
+ms.date: 08/28/2026
 ms.subservice: connected-field-service
 ms.author: vhorvath
 author: vhorvathms
@@ -25,13 +25,13 @@ In this article, *data* refers to information that an IoT device sends to the cl
 
 The following diagram shows the main components of Connected Field Service with IoT Hub and how they connect with each other.
 
-:::image type="content" source="media/cfs-iothub-architecture.png" alt-text="Diagram illustrating the components of Connected Field Service with IoT Hub and the connections between them.":::
+:::image type="content" source="media/cfs-iothub-architecture.png" alt-text="Screenshot of a diagram illustrating the components of Connected Field Service with IoT Hub and the connections between them.":::
 
 The main components include:
 
-- **IoT Devices & Edge**: Internet-connected sensors on equipment send data to IoT Hub over a network. A single asset can have multiple sensors for different measurements. An *Edge device* can be used to organize and broker data from multiple sensors and assets. However, telemetry data on IoT Edge modules can't be split.
+- **IoT Devices & Edge**: Internet-connected sensors on equipment send data to IoT Hub over a network. A single asset can have multiple sensors for different measurements. Use an *Edge device* to organize and broker data from multiple sensors and assets. However, telemetry data on IoT Edge modules can't be split.
 
-- **Device Simulator**: A tool that lets you simulate devices and alerts in the cloud before installing the hardware.
+- **Device Simulator**: A tool that you use to simulate devices and alerts in the cloud before installing the hardware.
 
 - **IoT Hub**: The gateway to the cloud that receives and sends data from and to the devices. It also provides device management and security features.
 
@@ -41,7 +41,7 @@ The main components include:
 
 - **Service Bus**: A service that queues faults and transfers them to Dynamics 365. It also handles retries if the transfer fails.
 
-- **Stream Analytics & Azure SQL**: A service and a database that store device data for analysis and reporting. For example, you can use them to predict device failures based on historical data.
+- **Stream Analytics & Azure SQL**: A service and a database that store device data for analysis and reporting. For example, use them to predict device failures based on historical data.
 
 - **Logic App Azure to Dynamics**: A service that connects Azure with Dynamics 365 and other applications. It also applies logic, maps entities, and triggers actions in Dynamics 365, such as creating an IoT alert record.
 
