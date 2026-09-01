@@ -1,7 +1,7 @@
 ---
 title: Retrieve and format rich messages
 description: Learn about the MessageObject type used in the sendMessageToConversation method in Omnichannel JavaScript API.
-ms.date: 10/13/2025
+ms.date: 8/31/2026
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -10,7 +10,7 @@ ms.reviewer: mgandham
 
 # Retrieve and format rich messages
 
-The Copilot Studio and Dynamics 365 for Customer Service platforms differ slightly in how they support rich media messages based on channel and rich media message type. This article describes how you can support rich media messages in Copilot Studio.
+The Copilot Studio and Dynamics 365 Customer Service platforms differ slightly in how they support rich media messages based on channel and rich media message type. This article describes how you can support rich media messages in Copilot Studio.
 
 ## Retrieve agent JSON for Apple Messages for Business
 
@@ -32,7 +32,7 @@ The Copilot Studio and Dynamics 365 for Customer Service platforms differ slight
    
 ## JSON samples for rich messages for Apple Messages for Business
 
-This section includes JSON samples for the rich message types available in the Apple Messages for Business channel in Omnichannel for Customer Service. More information: [Manage rich messages](../../../administer/create-rich-messages.md)
+This section includes JSON samples for the rich message types available in the Apple Messages for Business channel in Dynamics 365 Customer Service. More information: [Manage rich messages](../../../administer/create-rich-messages.md)
 
 > [!Note]
 > You can't send Forms type rich messages to conversations.
