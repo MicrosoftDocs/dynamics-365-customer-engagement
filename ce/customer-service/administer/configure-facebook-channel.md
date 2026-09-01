@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
 description: Learn how to configure a Facebook channel and corresponding Facebook pages in Dynamics 365 Contact Center.
-ms.date: 08/06/2026
+ms.date: 09/01/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -28,7 +28,6 @@ Make sure that the following prerequisites are met:
 - Enable Messenger. Learn more in [Messaging](https://www.facebook.com/help/994476827272050/?helpref=hc_fnav).
 - Create a Facebook application. Learn more in [App Development](https://developers.facebook.com/docs/apps/).
 - Plan for Facebook App Review. Meta must approve the `pages_messaging` permission for your app before customers who don't have a role in your app can send messages to your page. Review times vary, so start this process early. Learn more in [App Review](https://developers.facebook.com/docs/app-review).
-
 - Sign in to the [developer site on Facebook](https://developers.facebook.com/) or create an account, and then complete the following steps:
    1. Select **My Apps**, and then select **Create app**.
    1. On the **What do you want your app to do?** page, select **Other**, and then select **Next**.
@@ -36,20 +35,20 @@ Make sure that the following prerequisites are met:
    1. On the **Add products to your app** page, select **Messenger**, and then select **Set up**.
    1. On the Messenger settings page, select **Add or remove Pages**, and then add the Facebook page you created. After you add the page, the Page ID and the option to generate a token appear.
 - If you're using a test environment, set up test accounts in Facebook. Then, customer service representatives (service representatives or representatives) can send and receive messages in the contact center: Go to **App Roles** > **Roles** > **Testers (Add Testers)**.
-- Values for application ID and application secret from the **App ID** and **App Secret** fields in the Facebook application > **Settings** > **Basic**.
+- Get the application ID and application secret from the **App ID** and **App Secret** fields in the Facebook application under **Settings** > **Basic**.
 
 ## Roles and permissions
 
 The following Facebook roles and permissions are required for integrating your Facebook app with Dynamics 365 Contact Center.
 
-- Facebook users who don’t have a role in the Facebook app must have the `pages_messaging` permission to send messages to a Facebook page from contact center. The app owner must provide the `pages_messaging` permission for users to be able to send messages. Learn more in [Permissions Reference for Meta Technologies APIs - pages_messaging](https://developers.facebook.com/docs/permissions#pages_messaging).
-- To use the `pages_messaging` permission in a live app, submit your Facebook app for App Review and get approved by Meta. Until the permission is approved, only Facebook users with a role in the app - such as administrators, developers, or testers - can message the page. Business verification of your organization might also be required as part of the review. Learn more in [App Review](https://developers.facebook.com/docs/app-review) and [Permissions reference for Meta technologies APIs](https://developers.facebook.com/docs/permissions).
-- If the Facebook app that you’re using is in development mode, only Facebook users who have roles within the app can send messages to the Facebook page. The Facebook app can receive messages from or forward messages to Dynamics 365 Contact Center. Learn more in [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/).
-- For Dynamics 365 Contact Center to be able to retrieve the customer’s username from Facebook, the customer must request for Business Asset User Profile Access in their Facebook app. Learn more in [Business Asset User Profile Access](https://developers.facebook.com/docs/features-reference/business-asset-user-profile-access).
- 
+- Facebook users who don't have a role in the Facebook app must have the `pages_messaging` permission to send messages to a Facebook page from Dynamics 365 Contact Center. The app owner must provide the `pages_messaging` permission for users to be able to send messages. Learn more in [Permissions Reference for Meta Technologies APIs - pages_messaging](https://developers.facebook.com/docs/permissions#pages_messaging).
+- To use the `pages_messaging` permission in a live app, submit your Facebook app for App Review and get approved by Meta. Until the permission is approved, only Facebook users with a role in the app, such as administrators, developers, or testers, can message the page. Business verification of your organization might also be required as part of the review. Learn more in [App Review](https://developers.facebook.com/docs/app-review) and [Permissions reference for Meta technologies APIs](https://developers.facebook.com/docs/permissions).
+- If the Facebook app that you're using is in development mode, only Facebook users who have roles within the app can send messages to the Facebook page. The Facebook app can receive messages from or forward messages to Dynamics 365 Contact Center. Learn more in [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/).
+- For Dynamics 365 Contact Center to retrieve the customer's username from Facebook, the customer must request Business Asset User Profile Access in their Facebook app. Learn more in [Business Asset User Profile Access](https://developers.facebook.com/docs/features-reference/business-asset-user-profile-access).
+
 ## Privacy notice
 
-By enabling this feature, you allow customer and organizational data to be exchanged with Facebook. This data might be stored and processed outside of your organization's compliance and geographic boundaries, including in Government Community Cloud environments. Learn more in [Compliance certifications for Customer Service](../implement/compliance-certifications.md) .
+By enabling this feature, you allow customer and organizational data to be exchanged with Facebook. This data might be stored and processed outside of your organization's compliance and geographic boundaries, including in Government Community Cloud environments. Learn more in [Compliance certifications for Customer Service](../implement/compliance-certifications.md).
 
 Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with service representatives might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users might be monitored, recorded, or stored.
 
@@ -58,7 +57,6 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 To configure a Facebook channel, the following steps are required:
 
 1. Create a Facebook channel account.
-
 1. Configure a Facebook workstream and work distribution settings.
 
 ### Create the Facebook channel account
@@ -92,13 +90,9 @@ To configure a Facebook channel, the following steps are required:
 ### Create a Facebook workstream
 
 1. To configure routing and work distribution, perform the steps outlined in [create a workstream](create-workstreams.md).
-
 1. Select the workstream you created for the Facebook channel and on the workstream page, select **Set up Facebook**, and do the following steps:
-   
    1. In the **Facebook Page** area, select a page from the list.
-   
    1. On the **Language** page, select the language to use.
-   
    1. On the **Behaviors** page, configure the following options:
       - [Custom automated messages](configure-automated-message.md)
       - [Post-conversation survey](configure-post-conversation-survey.md)
@@ -106,17 +100,14 @@ To configure a Facebook channel, the following steps are required:
       - **File attachments:** When set to yes for both customer and representative, they can send and receive file attachments. Learn more in [Enable file attachments](enable-file-attachments.md). The availability and support of media depends on the Facebook application settings. Learn more in the [Meta Messenger Platform Send Messages Guide](https://developers.facebook.com/documentation/business-messaging/messenger-platform/send-messages).
       - **Facebook message tag:** Set to **Yes** to enable your representatives to message customers after 24 hours pass. When set to **No**, representatives are unable to respond to customers after 24 hours unless the customer sends another message.
 
-      If you enable the Facebook human agent message tag during an active conversation between the representative and customer, the representative must close the conversation and reopen it to communicate with the latter customer 24 hours of inactivity. Representatives can start conversations with customers for up to seven days.
+      If you enable the Facebook human agent message tag during an active conversation between the representative and customer, the representative must close the conversation and reopen it to communicate with the customer after 24 hours of inactivity. Representatives can start conversations with customers for up to seven days.
 
       To use the Facebook human agent message tag, you must also turn it on in the Facebook app. Learn more in the [Meta Messenger Platform Send Messages Guide](https://developers.facebook.com/documentation/business-messaging/messenger-platform/send-messages).  
    1. Review the **Summary** page, and then select **Create**. The channel instance is configured.
 
 1. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).
-
 1. Configure work distribution. Learn more in [Work distribution settings](create-workstreams.md#configure-work-distribution).
-
 1. Optionally, you can add an AI agent. Skip this step if only human agents handle your conversations. Learn more in [Configure an agent](create-workstreams.md#add-an-agent-to-a-workstream).
-
 1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](session-templates.md)
    - [Agent notifications](notification-templates.md#out-of-the-box-notification-templates)
@@ -141,7 +132,7 @@ After the Facebook social profile is linked to a customer or contact record by t
 
 If the customer isn't identified based on name, a new contact record can be created.
 
-The customer can send attachments only if you enable them. When the option isn't enabled for the customers, they can still attempt to send the file. However, representatives don't receive the file and an error displays.
+The customer can send attachments only if you enable them. When the option isn't enabled for the customers, they can still attempt to send the file. However, an error displays and representatives don't receive the file.
 
 > [!div class=mx-imgBorder]
 > ![Customer sending file.](../media/fb-customer1.png "Customer sending file")
@@ -149,7 +140,7 @@ The customer can send attachments only if you enable them. When the option isn't
 ### Related information
 
 [Facebook channel setup FAQ](facebook-channel-setup-faq.md)  
-[Understand and create workstreams](create-workstreams.md)   
+[Understand and create workstreams](create-workstreams.md)  
 [Configure automated messages](configure-automated-message.md)  
 [Configure a prechat survey](configure-pre-chat-survey.md)  
 [Configure a post conversation survey](configure-post-conversation-survey.md)  
