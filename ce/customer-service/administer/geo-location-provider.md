@@ -1,7 +1,7 @@
 ---
-title: Set up visitor location detection 
-description: Perform the steps to set up detection of visitor location and create a geo location provider record in Dynamics 365 Contact Center.
-ms.date: 01/06/2026
+title: Set up visitor location detection
+description: Set up visitor location detection and create a geo location provider record in Dynamics 365 Contact Center.
+ms.date: 08/31/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -12,17 +12,17 @@ ms.reviewer: laalexan
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-You can configure your chat widget to detect a visitor's location based on their latitude and longitude. With location detection enabled, visitors receive a prompt in their web browser when they start to chat. If the visitor allows their location to be shared, it passes through to the customer service representative (service representative or representative). Service representatives can then use this information to provide a personalized support experience.
+You can configure your chat widget to detect a visitor's location based on their latitude and longitude. When you enable location detection, visitors receive a prompt in their web browser when they start a chat. If a visitor approves the request, their browser sends the location to the customer service representative (service representative or representative). Service representatives can use this information to provide a personalized support experience.
 
 > [!NOTE]
-> - [Bing Maps for Enterprise](/bingmaps/coverage/) is deprecated. This feature is available to existing Bing Maps for Enterprise customers until 30 June, 2028, but isn't available for new customers or customers using Azure Maps.
+> - [Bing Maps for Enterprise](/bingmaps/coverage/) is deprecated. This feature is available to existing Bing Maps for Enterprise customers until June 30, 2028, but isn't available for new customers or customers using Azure Maps.
 > - If a customer turns off location sharing from their web browser, the location can't be detected even if you enable location detection.
 
 To enable location detection, you must first get your Bing Maps API key and create a geo location provider record. After you create a geo location provider record, you must add it in the **Location** tab of the appropriate chat widgets to enable location detection. Learn how to get the Bing Maps API key in [Getting a Bing Maps Key](/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key).
 
 ## Prerequisite
 
-Make sure you have permissions on the secure columns. Learn more in [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns).
+Verify that you have permissions on the secure columns. Learn more in [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns).
 
 ## Create a geo location provider record
 
