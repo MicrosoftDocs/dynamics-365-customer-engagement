@@ -1,12 +1,16 @@
 ---
 title: Troubleshoot issues with Solution Health Hub
 description: Learn how to troubleshoot Dynamics 365 Field Service issues with the Solution Health Hub.
-ms.date: 09/29/2025
+ms.date: 08/21/2026
 ms.topic: how-to
-ms.reviewer: mhart
+ms.reviewer: puneetsingh
 author: jshotts
 ms.author: jasonshotts
-ms.custom: bap-template
+ms.custom: 
+    - bap-template
+    - ai-gen-docs-bap
+    - ai-seo-date: 08/21/2026
+ai-usage: ai-assisted
 ---
 
 # Troubleshoot issues with Solution Health Hub
@@ -155,6 +159,25 @@ This rule fails if the default tab (the first tab) of any work order form has mo
 Reduce the number of lookup fields and subgrid controls on the default tab. Either move them to other tabs on the form or hide them from the form if not needed.
 
 Check out more ways to [Improve form load time](/dynamics365/customerengagement/on-premises/customize/optimize-form-performance?view=op-9-1&preserve-view=true).
+
+## Booking custom control usage
+
+Severity: High
+
+### What it checks
+
+This rule checks whether the Bookable Resource Booking table's forms and views use custom controls that aren't supported, such as a read-only grid control configured for a phone or tablet form factor. Unsupported controls can cause issues in the schedule board and booking experiences.
+
+### Why it fails
+
+This rule fails if the Bookable Resource Booking table uses an unsupported custom control, or if a read-only grid control is configured on a non-web form factor.
+
+### How to fix
+
+1. In [Power Apps](https://make.powerapps.com), sign in and select your environment.
+1. Select **Tables** > **All** and search for Bookable Resource Booking.
+1. Review the forms and views for the table, and remove or replace the unsupported custom controls identified in the analysis result.
+1. Save and publish your changes.
 
 ## Check if the required level of fields is modified
 
@@ -362,22 +385,6 @@ This rule fails if the Field Service booking setup metadata record doesn't exist
 
 Contact support.
 
-## Field Service Settings
-
-Severity: High
-
-### What it checks
-
-This rule validates that the Field Service settings record exists correctly in the system.
-
-### Why it fails
-
-This rule fails if the Field Service settings record doesn't exist or isn't configured properly.
-
-### How to fix
-
-The system recreates this record if it doesn't exist during normal usage of Field Service. If the record isn't automatically regenerated, contact support.
-
 ## Forms missing execution context
 
 Severity: High
@@ -404,7 +411,7 @@ This rule fails because Field Service code expects the execution context paramet
 
 ## Incomplete Field Service upgrade
 
-Severity: Low
+Severity: Critical
 
 ### What it checks
 
@@ -418,22 +425,6 @@ This rule fails if a Field Service upgrade was started but not successfully comp
 
 Restart the Field Service upgrade. Once the upgrade succeeds, this rule repeats a pass. If the upgrade fails again, contact support.
 
-## Latitude and Longitude values on account record
-
-Severity: Low
-
-### What it checks
-
-This rule checks if any latitude or longitude values are on an account record.
-
-### Why it fails
-
-This rule fails if latitude, longitude, or both aren't present on an account record.  
-
-### How to fix
-
-Check if the address on the account form is provided. If so, then geocode the account by selecting the geocode button on the command bar of the account form.
-
 ## Privilege check for Agreement Booking Setup owners
 
 Severity: High
@@ -446,7 +437,7 @@ This rule checks if agreement booking setup record owners have the required priv
 
 This rule fails if agreement booking setup owners don’t have the following privilege:
 
-`1.prvCreatemsdyn_workorder`
+`prvCreatemsdyn_workorder`
 
 ### How to fix
 
@@ -464,7 +455,7 @@ This rule checks if agreement invoice setup record owners have the required priv
 
 This rule fails if agreement invoice setup owners don’t have the following privilege:
 
-`1.prvCreateInvoice`
+`prvCreateInvoice`
 
 ### How to fix
 
@@ -582,6 +573,25 @@ This rule fails if a frontline worker has access to the Field Service mobile app
 
 Add the **Field Service-Resource** security role and the **Field Service-Resource** field security profile to the user. Learn more: [Set up frontline workers](/dynamics365/field-service/frontline-worker-set-up).
 
+## Work order product line status default value
+
+Severity: Medium
+
+### What it checks
+
+This rule checks whether the default value of the **Line Status** field on the Work Order Product form is configured correctly while active work order products exist in the system. An incorrect default can cause new work order products to be created with the wrong line status.
+
+### Why it fails
+
+This rule fails if the default value of the Work Order Product **Line Status** field is set to a value other than the expected default while active work order products exist.
+
+### How to fix
+
+1. In [Power Apps](https://make.powerapps.com), sign in and select your environment.
+1. Select **Tables** > **All** and search for Work Order Product.
+1. Under **Data experiences**, select **Forms**, and open the main form.
+1. Select the **Line Status** field and set its default value back to the expected value, then save and publish.
+
 ## Waiting workflow instances owned by disabled users
 
 Severity: High
@@ -593,6 +603,9 @@ This rule checks if any waiting workflow instances are assigned to users that ar
 ### Why it fails
 
 This rule fails if a suspended workflow is assigned to a disabled user account in the suspended state with the reason 'Waiting'.
+
+> [!NOTE]
+> This rule evaluates waiting workflow instances from the last year.
 
 ### How to fix
 
