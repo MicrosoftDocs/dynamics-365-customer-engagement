@@ -1,7 +1,7 @@
 ---
 title: Configure payment profiles
 description: Learn how to configure payment profiles for Apple Messages for Business in Dynamics 365 Customer Service.
-ms.date: 05/28/2026
+ms.date: 08/31/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -14,12 +14,12 @@ ms.reviewer: laalexan
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-You can create payment profiles to enable conversational commerce for supported channels. Once configured, your customer service representatives can help customers complete secure transactions without having to leave the messaging experience.
+Create payment profiles to enable conversational commerce for supported channels. After you configure a payment profile, your customer service representatives can help customers complete secure transactions without leaving the messaging experience.
 
-After you create a payment profile record, you must add it to a channel instance within a workstream's channel setup. Conversational commerce is supported for Apple Messages for Business.
+After you create a payment profile, add it to a channel instance in the workstream's channel setup. Apple Messages for Business supports conversational commerce.
 
-> [!NOTE] 
-> Support for Apple Messages for Business channel is deprecated. Learn more in [Deprecations](/dynamics365/contact-center/implement/deprecations-contact-center).
+> [!NOTE]
+> The Apple Messages for Business channel is deprecated and will be removed from Copilot Service admin center on September 30, 2026. Review [Deprecations in Dynamics 365 Customer Service](../implement/deprecations-customer-service.md#apple-messages-for-business-channel-is-deprecated).
 
 ## Create an Apple Messages for Business payment profile for Apple Pay
 
@@ -27,63 +27,63 @@ After you create a payment profile record, you must add it to a channel instance
 
 Verify that you have permissions on the secure columns. Learn more in [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns).
 
-Before adding an Apple Pay payment profile, make sure to complete the Apple Pay integration steps documented by Apple. Learn more in [Apple Pay - Apple Messages for Business](https://register.apple.com/resources/messages/msp-api-tutorial/applepay#integrating-apple-pay).
+Before you add an Apple Pay payment profile, complete the Apple Pay integration requirements in [Apple Business Register](https://register.apple.com/).
 
 ### Create an Apple Pay payment profile
 
-1. In the site map of Copilot Service admin center app, select **Customer settings**, and then select **Manage for Payment profiles**. A list of existing records is shown.
+1. In the site map of the Copilot Service admin center app, select **Customer settings**, and then select **Manage** for **Payment profiles**. A list of existing records appears.
 
-1. Select **Add** at the top of the page to create a new record.	
+1. Select **Add** at the top of the page.
 
-1. In the **Create new Payment profile** page, provide the following details:<br>
+1. On the **Create new Payment profile** page, provide the following information:<br>
 
-     - On the **Channel type** page, enter a name and select Apple Messages for Business as the channel type. By default, the only channel type currently supported is Apple Messages for Business.<br>
+   - On the **Channel type** page, enter a name and select Apple Messages for Business as the channel type. Apple Messages for Business is the only supported channel type.<br>
 
 1. On the **Details** page, provide the following information:<br>
 
-     - **Merchant friendly name**: The customer-facing name of your business. This name is what your customer sees within the Apple Pay request. This name shouldn't be localized.<br>
-     
-     - **Merchant ID**: Your unique identifier assigned to your business when registering as a merchant for Apple Pay.<br>
-     
-     - **Merchant certificate**: A certificate associated with your merchant ID, used to secure transaction data. Apple Pay servers use the certificate’s public key to encrypt payment data.<br>
-     
-     - **Certificate password**: The private key used to generate secure Apple Pay sessions. <br>
-     
-     - **Payment gateway URL**: The endpoint where payment information and requested contact information and sent to be processed.<br>
-     
-     - **Merchant domain URL**: The website domain associated with your Apple Pay Merchant Account. <br>
-     
-     - **Merchant two-letter country code**: Country codes are formatted by their ISO 3166-1 alpha-2 code. Use the country code for where payments are processed. <br>
-     
+   - **Merchant friendly name**: The customer-facing name of your business. This name appears in the Apple Pay request and shouldn't be localized.<br>
+
+   - **Merchant ID**: The unique identifier assigned to your business when you register as an Apple Pay merchant.<br>
+
+   - **Merchant certificate**: The certificate associated with your merchant ID. Apple Pay servers use the certificate's public key to encrypt payment data.<br>
+
+   - **Certificate password**: The private key used to generate secure Apple Pay sessions.<br>
+
+   - **Payment gateway URL**: The endpoint where payment and requested contact information are sent for processing.<br>
+
+   - **Merchant domain URL**: The website domain associated with your Apple Pay merchant account.<br>
+
+   - **Merchant two-letter country code**: The ISO 3166-1 alpha-2 code for the country or region where payments are processed.<br>
+
 1. On the **Payment options** page, provide the following information:<br>
-    
-     - **Merchant capabilities**: The payment types you can accept. 3D Secure is required for channel support.<br>
-     
-     - **Supported Networks**: The networks that support transactions between your Apple Pay merchant account and card issuers.<br>
 
-1. On the **Rich message** page, select **Add**, and then select one or more Apple Pay rich messages to associate with this authentication setting. <br>
-An Apple Pay-type rich message may be associated to more than one payment profile. This association is because each channel instance may only support one payment profile. <br>
+   - **Merchant capabilities**: The payment types you can accept. 3D Secure is required for channel support.<br>
 
-1. Review the **Summary** page, and then select **Finish**. The authentication setting is configured. 
+   - **Supported Networks**: The networks that support transactions between your Apple Pay merchant account and card issuers.<br>
+
+1. On the **Rich message** page, select **Add**, and then select one or more Apple Pay rich messages to associate with the payment profile.<br>
+
+   An Apple Pay rich message can be associated with more than one payment profile. However, each channel instance can use only one payment profile.<br>
+
+1. Review the **Summary** page, and then select **Finish**. The payment profile is configured.
 
 ### Add a payment profile to an Apple Messages for Business channel
 
-1. Open the workstream containing the channel instance for which you want to enable Apple Pay.
+1. Open the workstream that contains the channel instance where you want to enable Apple Pay.
 
-1. On the **User features** page of the channel settings, navigate to **Apple Pay**, enable the capability, and select the correct setting from the dropdown. Learn more in [Configure an Apple Messages for Business channel instance](configure-apple-messages-for-business-channel.md).
+1. On **User features**, go to **Apple Pay**, turn on the capability, and select the payment profile. Learn more in [Configure an Apple Messages for Business channel instance](configure-apple-messages-for-business-channel.md).
 
 1. Save your changes.
 
-1. Review or update the Apple Pay settings for any channel instance by selecting **Edit**.
+1. To review or update the Apple Pay settings for a channel instance, select **Edit**.
 
 ### Limitations
 
-|Description | Limitation |
-|-----------|---------------|
-| **Country code**: The two-letter ISO 3166-1 alpha-2 code that denotes which country payments are processed in. | China isn't currently a supported country, as payments must go through a separate payment endpoint. |
-| **Merchant capabilities**: Capabilities for processing payments | - It isn't currently possible to enable support for China UnionPay. <br><br> - You can build an adaptive card by adding a skill through Copilot Studio. Learn more in [Use Microsoft Bot Framework Skills in Copilot Studio](/microsoft-copilot-studio/advanced-use-skills). <br><br> - Adaptive card styling isn't supported. |
-| **Supported networks**: This property constrains the payment methods that the user can select to fund the payment. | - Supported networks are currently limited to American Express, Visa, Discover, and Mastercard. <br> <br> - Some locally issued cards may not work even when the **Merchant two-letter country code** is correct. The following countries/regions may be impacted: Saudi Arabia and China. | 
-
+| Description | Limitation |
+|---|---|
+| **Country code**: The two-letter ISO 3166-1 alpha-2 code that identifies where payments are processed. | China isn't currently supported because payments must use a separate payment endpoint. |
+| **Merchant capabilities**: Capabilities for processing payments. | - China UnionPay isn't supported.<br><br>- You can build an adaptive card by adding a skill through Copilot Studio. Learn more in [Use Microsoft Bot Framework Skills in Copilot Studio](/microsoft-copilot-studio/advanced-use-skills).<br><br>- Adaptive card styling isn't supported. |
+| **Supported networks**: The payment methods that customers can use to fund the payment. | - Supported networks are limited to American Express, Visa, Discover, and Mastercard.<br><br>- Some locally issued cards might not work even when the **Merchant two-letter country code** is correct. This limitation might affect Saudi Arabia and China. |
 
 ### Related information
 
