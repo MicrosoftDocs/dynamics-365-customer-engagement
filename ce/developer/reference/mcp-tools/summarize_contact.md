@@ -1,5 +1,5 @@
 ---
-title: Contact summary
+title: Use contact summary
 description: Learn how to use the Contact summary capability in Dynamics 365 Customer Service.
 ms.date: 08/11/2026
 ms.topic: reference

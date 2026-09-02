@@ -1,7 +1,7 @@
 ---
 title: View account
 description: Learn how to use the View account capability in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+ms.date: 09/02/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=service,sales
 ms.service: dynamics-365-customer-service
@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # View account
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to see the full details of a specific customer account directly in chat.
 
