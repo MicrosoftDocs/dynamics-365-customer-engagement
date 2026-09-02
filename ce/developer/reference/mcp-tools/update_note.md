@@ -1,9 +1,9 @@
 ---
 title: Update note
 description: Learn how to use the Update note capability in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+ms.date: 09/02/2026
 ms.topic: reference
-ms.custom: mcp-enabled-namespaces=service
+ms.custom: mcp-enabled-namespaces=service,sales,field-service
 ms.service: dynamics-365-customer-service
 author: dleblond
 ms.author: dleblond
@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Update note
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to fix a typo, add information, or revise an existing note on a case or other record.
 

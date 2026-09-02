@@ -1,9 +1,9 @@
 ---
 title: View entity record
 description: Learn how to use the View entity record capability in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+ms.date: 09/02/2026
 ms.topic: reference
-ms.custom: mcp-enabled-namespaces=service,sales
+ms.custom: mcp-enabled-namespaces=service,sales,field-service
 ms.service: dynamics-365-customer-service
 author: dleblond
 ms.author: dleblond
@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # View entity record
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to see the full details of a specific record for any Dataverse entity type that doesn't have its own dedicated view command.
 
@@ -39,6 +41,7 @@ The assistant displays an interactive record form as an app-in-chat component. T
 
 - You can use a record name or GUID to open a specific record.
 - You need to specify the entity type, for example "open opportunity for Project Alpha."
+- Pass `columns` to include fields that aren't on the record's form (up to 50). Off-form fields you request are shown in the record's details.
 - For accounts, say "open account Contoso" instead. For contacts, say "open contact Jordan." For cases, say "open case CAS-01010-A0A0A0."
 
 > [!TIP]
@@ -112,6 +115,12 @@ Retrieves a single record for any Dataverse entity in a form-driven detail view 
 | Input | Description | Required |
 |---|---|---|
 | `formId` | `formId` (string, optional). A system form GUID to use for rendering. | No |
+
+### Additional fields
+
+| Input | Description | Required |
+|---|---|---|
+| `columns` | `columns` (string array, optional, max 50). Additional field logical names to include beyond the form's fields (for example `["createdon", "industrycode"]`). Requested fields that aren't on the form are projected into the returned form so their values appear in the response. Unknown or unreadable names are ignored. Request lookup, Owner, and Customer fields by their base logical name (for example `customerid`, not `_customerid_value`); their value is returned as the lookup's display name. | No |
 
 ## Response and UI behavior
 
