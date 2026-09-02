@@ -1,9 +1,9 @@
 ---
 title: Delete entity record
 description: Learn how to use the Delete entity record capability in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+ms.date: 09/02/2026
 ms.topic: reference
-ms.custom: mcp-enabled-namespaces=service
+ms.custom: mcp-enabled-namespaces=service,sales,field-service
 ms.service: dynamics-365-customer-service
 author: dleblond
 ms.author: dleblond
@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Delete entity record
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you need to permanently remove a record from Dynamics 365, such as a note, email, task, or other entity.
 
@@ -78,7 +80,7 @@ This tool is available on the Dynamics 365 Customer Service MCP server. See the 
 
 ## Tool behavior
 
-Deletes a Dataverse record by entity logical name and record ID. Works for notes, emails, phone calls, tasks, appointments, and any other entity type. This is a hard delete with no undo. The user must have delete privileges on the record's owning entity.
+Deletes a Dataverse record by entity logical name and record ID. Works for notes (annotation) and activities (email, phone call, task, appointment, letter, fax, social activity) only - the handler rejects every other entity type, including custom entities, with an explicit allowlist error. This is a hard delete with no undo. The user must have delete privileges on the record's owning entity.
 
 ## Annotations
 

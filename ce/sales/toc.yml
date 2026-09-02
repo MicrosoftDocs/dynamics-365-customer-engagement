@@ -1440,6 +1440,120 @@ items:
         items:
           - name: Integrate custom agents with Recommended Actions Agent
             href: developer/recommended-actions-api.md
+      - name: Dynamics 365 Sales MCP Server
+        items:
+          - name: Connect Dynamics 365 CX MCP Server - Sales through Agent 365 Tooling Gateway
+            href: developer/connect-sales-mcp-server-agent365-tooling-gateway.md
+          - name: MCP tools
+            items:
+              - name: Account catch-up
+                href: ../developer/reference/mcp-tools/get_account_catchup.md
+              - name: Account hierarchy
+                href: ../developer/reference/mcp-tools/get_account_hierarchy.md
+              - name: Account organization chart
+                href: ../developer/reference/mcp-tools/map_account_org_chart.md
+              - name: Account summary
+                href: ../developer/reference/mcp-tools/get_account_summary.md
+              - name: Activity timeline
+                href: ../developer/reference/mcp-tools/get_activity_timeline.md
+              - name: Add opportunity product
+                href: ../developer/reference/mcp-tools/add_opportunity_product.md
+              - name: Assign entity
+                href: ../developer/reference/mcp-tools/assign_entity.md
+              - name: Clone opportunity
+                href: ../developer/reference/mcp-tools/clone_opportunity.md
+              - name: Close opportunity
+                href: ../developer/reference/mcp-tools/close_opportunity.md
+              - name: Close quote
+                href: ../developer/reference/mcp-tools/close_quote.md
+              - name: Contact summary
+                href: ../developer/reference/mcp-tools/get_contact_summary.md
+              - name: Convert quote to order
+                href: ../developer/reference/mcp-tools/convert_quote_to_order.md
+              - name: Create activity
+                href: ../developer/reference/mcp-tools/create_activity.md
+              - name: Create competitor
+                href: ../developer/reference/mcp-tools/create_competitor.md
+              - name: Create entity record
+                href: ../developer/reference/mcp-tools/create_entity_record.md
+              - name: Create note
+                href: ../developer/reference/mcp-tools/create_note.md
+              - name: Create quote from opportunity
+                href: ../developer/reference/mcp-tools/create_quote_from_opportunity.md
+              - name: Delete entity record
+                href: ../developer/reference/mcp-tools/delete_entity_record.md
+              - name: Delete opportunity product
+                href: ../developer/reference/mcp-tools/delete_opportunity_product.md
+              - name: Draft email
+                href: ../developer/reference/mcp-tools/draft_email.md
+              - name: Generate email content
+                href: ../developer/reference/mcp-tools/generate_email_content.md
+              - name: Lead business process flow
+                href: ../developer/reference/mcp-tools/get_lead_bpf.md
+              - name: Lead summary
+                href: ../developer/reference/mcp-tools/get_lead_summary.md
+              - name: Link competitor to opportunity
+                href: ../developer/reference/mcp-tools/link_competitor_to_opportunity.md
+              - name: Link opportunity
+                href: ../developer/reference/mcp-tools/link_opportunity.md
+              - name: List emails
+                href: ../developer/reference/mcp-tools/list_emails.md
+              - name: List entity records
+                href: ../developer/reference/mcp-tools/list_entity_records.md
+              - name: Opportunity business process flow
+                href: ../developer/reference/mcp-tools/get_opportunity_bpf.md
+              - name: Opportunity catch-up
+                href: ../developer/reference/mcp-tools/get_opportunity_catchup.md
+              - name: Opportunity competitors
+                href: ../developer/reference/mcp-tools/list_opportunity_competitors.md
+              - name: Opportunity products
+                href: ../developer/reference/mcp-tools/list_opportunity_products.md
+              - name: Opportunity summary
+                href: ../developer/reference/mcp-tools/get_opportunity_summary.md
+              - name: Price list
+                href: ../developer/reference/mcp-tools/get_price_list.md
+              - name: Product
+                href: ../developer/reference/mcp-tools/get_product.md
+              - name: Product pricing
+                href: ../developer/reference/mcp-tools/get_product_pricing.md
+              - name: Qualify lead
+                href: ../developer/reference/mcp-tools/qualify_lead.md
+              - name: Recalculate opportunity price
+                href: ../developer/reference/mcp-tools/recalculate_opportunity_price.md
+              - name: Reopen opportunity
+                href: ../developer/reference/mcp-tools/reopen_opportunity.md
+              - name: Revise quote
+                href: ../developer/reference/mcp-tools/revise_quote.md
+              - name: Schedule meeting
+                href: ../developer/reference/mcp-tools/schedule_meeting.md
+              - name: Search entity records
+                href: ../developer/reference/mcp-tools/search_entities.md
+              - name: Send email
+                href: ../developer/reference/mcp-tools/send_email.md
+              - name: Set quote active
+                href: ../developer/reference/mcp-tools/set_quote_active.md
+              - name: Stakeholders
+                href: ../developer/reference/mcp-tools/get_stakeholder.md
+              - name: Update business process flow stage
+                href: ../developer/reference/mcp-tools/update_bpf_stage.md
+              - name: Update entity record
+                href: ../developer/reference/mcp-tools/update_entity_record.md
+              - name: Update note
+                href: ../developer/reference/mcp-tools/update_note.md
+              - name: Update opportunity products
+                href: ../developer/reference/mcp-tools/update_opportunity_products.md
+              - name: Update stakeholder
+                href: ../developer/reference/mcp-tools/update_stakeholder.md
+              - name: Validate contact
+                href: ../developer/reference/mcp-tools/validate_contact.md
+              - name: View account
+                href: ../developer/reference/mcp-tools/get_account.md
+              - name: View contact
+                href: ../developer/reference/mcp-tools/get_contact.md
+              - name: View email
+                href: ../developer/reference/mcp-tools/view_email.md
+              - name: View entity record
+                href: ../developer/reference/mcp-tools/get_entity_record.md
       - name: Sales tables
         items:
           - name: Sales tables (lead, opportunity, competitor, quote, order, invoice)

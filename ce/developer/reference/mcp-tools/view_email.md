@@ -1,9 +1,9 @@
 ---
 title: View email
 description: Learn how to use the View email capability in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+ms.date: 09/02/2026
 ms.topic: reference
-ms.custom: mcp-enabled-namespaces=service
+ms.custom: mcp-enabled-namespaces=service,sales,field-service
 ms.service: dynamics-365-customer-service
 author: dleblond
 ms.author: dleblond
@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # View email
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to read the full content of an email—its subject, body, sender, and recipients—directly in chat.
 
@@ -40,7 +42,7 @@ The assistant displays the email as an app-in-chat component showing the full em
 - If the email body appears empty, it means the original email was sent without body content.
 
 > [!TIP]
-> After viewing an email, you can take action on it. Say "reply to this email", "link this to the case", or "create a case from this email."
+> After viewing an email, you can take action on it. Say "reply to this email" or "forward this to my manager." Customer Service users can also say "link this to the case" or "create a case from this email."
 
 ## What happens next
 
@@ -48,9 +50,8 @@ After the email appears, you can continue with prompts like:
 
 - Reply to this email.
 - Forward this to my manager.
-- Link this email to the case.
-- Create a case from this email.
 - Summarize this email.
+- Link this email to the case or create a case from it (Customer Service only).
 
 ## Does this change data?
 
@@ -66,7 +67,7 @@ From the email view in chat, you can:
 - See sender and recipient details.
 - Open the email in Dynamics 365.
 - Reply, reply all, or forward the email.
-- Link the email to a case or create a case from it.
+- Link the email to a case or create a case from it (Customer Service only).
 
 ## Prerequisites
 
@@ -139,9 +140,9 @@ Don't use `view_email` when:
 | [`draft_email`](draft_email.md) | Opens compose form for a new email |
 | [`edit_email_draft`](edit_email_draft.md) | Opens an existing draft for editing |
 | [`send_email`](send_email.md) | Sends an email immediately |
-| [`link_email_to_case`](link_email_to_case.md) | Links the viewed email to an existing case |
-| [`create_case_from_email`](create_case_from_email.md) | Creates a new case from the viewed email |
-| [`match_cases`](match_cases.md) | Finds existing cases that may match the email |
+| [`link_email_to_case`](link_email_to_case.md) | Links the viewed email to an existing case (Customer Service only) |
+| [`create_case_from_email`](create_case_from_email.md) | Creates a new case from the viewed email (Customer Service only) |
+| [`match_cases`](match_cases.md) | Finds existing cases that may match the email (Customer Service only) |
 
 ## Data mutation classification
 

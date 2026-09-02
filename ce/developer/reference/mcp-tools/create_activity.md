@@ -1,9 +1,9 @@
 ---
 title: Create activity
 description: Learn how to use the Create activity capability in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+ms.date: 09/02/2026
 ms.topic: reference
-ms.custom: mcp-enabled-namespaces=service
+ms.custom: mcp-enabled-namespaces=service,sales,field-service
 ms.service: dynamics-365-customer-service
 author: dleblond
 ms.author: dleblond
@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Create activity
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to log a phone call, create a task, or schedule an appointment on a case or other record.
 
@@ -48,7 +50,7 @@ The assistant displays the activity timeline as an app-in-chat component, refres
 - For phone calls, specify the direction (incoming or outgoing). The assistant asks for the call duration if you don't mention it.
 - For appointments, include the date and time. You can also add a location.
 - If you want to add a plain text note (not an activity), say "add a note" instead.
-- Activities are always linked to the current record. The assistant uses the active case context.
+- Activities are always linked to the current record. The assistant uses the active case, work order, or booking context.
 
 > [!TIP]
 > You can create multiple activities in sequence. After creating a task, say "also log a phone call" to add another activity.

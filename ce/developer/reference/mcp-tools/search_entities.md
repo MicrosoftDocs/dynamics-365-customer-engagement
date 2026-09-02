@@ -1,9 +1,9 @@
 ---
 title: Search entity records
 description: Learn how to use the Search entity records capability in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+ms.date: 09/02/2026
 ms.topic: reference
-ms.custom: mcp-enabled-namespaces=service,sales
+ms.custom: mcp-enabled-namespaces=service,sales,field-service
 ms.service: dynamics-365-customer-service
 author: dleblond
 ms.author: dleblond
@@ -12,24 +12,28 @@ ms.reviewer: laalexan
 
 # Search entity records
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales
 
-Use this capability when you want to search for records across one or more entity types using keywords or natural language.
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
+
+Use this capability when you want to find records across one or more entity types by keyword, phone number, or email address — especially when you know an identifier but not which record it belongs to.
 
 ## What it does
 
-The assistant searches Dynamics 365 records using the best available search method. If relevance search is enabled in your environment, results are ranked by relevance. Otherwise, the assistant falls back to a substring-match search.
+The assistant searches Dynamics 365 records using the best available search method. If relevance search is enabled in your environment, it is used; otherwise the assistant falls back to a substring-match search. Results are returned in the order Dynamics 365 supplies them — the first result is not necessarily the closest match.
 
-You can search across all entity types at once, or narrow the search to specific entity types like accounts, contacts, or opportunities.
+You can search several entity types at once — for example contacts and accounts together — which is useful when a phone number or email address might belong to either. Contact and account results usually include key detail fields such as job title, city, and status, so you often don't need to open the record to answer a follow-up question. Those extra fields come from a second lookup, so if it doesn't succeed you still get the matching records, just without them.
+
+Phone numbers and email addresses can be searched on, but the recognised phone and email fields aren't returned in the results for any entity type — the answer to "who owns this number" is the record, not the number you already had. Open the record to see its stored contact details. Two narrow exceptions: a custom column your organisation named without a recognisable phone or email root may still be returned, and a few custom tables use an address or number as the record's *name*, which where available is reported as the name.
 
 ## Try prompts like
 
-- Search for Contoso across all entities.
+- Search our CRM records for the phone number 555-0134.
+- Find the contact record with the email address jordan@contoso.com.
+- Search for Contoso across contacts and accounts.
+- Which customer has the email address billing@fabrikam.com?
 - Find records matching printer issue.
-- Search accounts for Fabrikam.
 - Look up records about network outage.
-- Search opportunities for Project Alpha.
-- Find all records mentioning billing.
 
 ## What you'll see in chat
 
@@ -37,8 +41,10 @@ The assistant displays a text list of matching records directly in the chat conv
 
 ## Helpful tips
 
-- You can search across multiple entity types at once, for example "search accounts and contacts for Contoso."
-- For listing accounts by status or owner, use "list accounts" instead. Search is better for keyword-based lookups.
+- You can search several entity types at once, for example "search contacts and accounts for Contoso." This is the best choice when a phone number or email address could belong to either.
+- Phone numbers are matched flexibly when relevance search is enabled in your environment — you can type `5550134` even if the record stores `(555)-0134`. Without relevance search, type the number as it's stored.
+- For listing accounts by status or owner, use "list accounts" instead. Search is better when you don't already know which record you want.
+- To open a record you can already name, say "open the Contoso account" instead.
 - For case-specific searches, say "search cases" for a more targeted experience.
 - Search text is limited to 500 characters.
 - The assistant tells you whether it used relevance search or substring matching.
@@ -71,11 +77,11 @@ This tool is available on the Dynamics 365 Customer Service MCP server. See the 
 |---|---|
 | User-facing name | Search entity records |
 | Internal tool name | `search_entities` |
-| Purpose | Searches Dataverse records using the best available search method (relevance search when enabled, or OData substring-match fallback) |
+| Purpose | Searches Dataverse records by keyword, phone number, or email address using the best available search method (relevance search when enabled, or OData substring-match fallback) |
 
 ## Tool behavior
 
-Searches Dataverse records using the best available search method (relevance search when enabled, or OData substring-match fallback). Supports any entity type and returns relevance-ranked results when available. This is a text-only tool with no app-in-chat widget.
+Searches Dataverse records by keyword, phone number, or email address using the best available search method (relevance search when enabled, or OData substring-match fallback). Supports any entity type and several types in one call. Phone and email columns are withheld from results for every entity type; where a record's primary name is itself such a value, that name may still be reported as the record's name. Contact and account results are enriched with a curated detail set through a second, best-effort lookup — when that lookup fails the search result is returned un-enriched rather than failed. Other entity types receive no curated set and may carry whatever remaining fields the selected backend supplied. This is a text-only tool with no app-in-chat widget.
 
 ## Annotations
 
@@ -128,15 +134,15 @@ The response includes matched records with their primary name, entity type, and 
 
 Use `search_entities` for:
 
-- Free-text or keyword search across any entity type.
-- Generic search fallback when no dedicated tool exists.
-- Cross-entity search when the entity type is unspecified.
+- Finding a record from an identifier you hold — a phone number, an email address, or a keyword — when you don't know which record or entity type owns it.
+- Searching several entity types at once, such as contacts and accounts together.
+- Generic search fallback when no dedicated tool exists for the entity.
 
 Don't use `search_entities` when the prompt explicitly says:
 
+- **Open or edit a record you can already name**—route to `get_contact` or `get_account`.
+- **List records by criteria** such as status or owner—route to `list_accounts` or `list_contacts`.
 - **Search cases**—route to `search_cases` (same engine, scoped to incident).
-- **List accounts**—route to `list_accounts`.
-- **List contacts**—route to `list_contacts`.
 - **Lookup field association**—route to `search_lookup_records`.
 - **AI-generated timeline narrative**—route to `summarize_entity_timeline` or `get_case_highlights`.
 

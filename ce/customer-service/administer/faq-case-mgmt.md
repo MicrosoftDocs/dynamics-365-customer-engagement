@@ -35,6 +35,70 @@ To resolve the error, ensure that role assigned to the representative has read a
 
 If you see a warning once you select the case attributes that a child case must inherit from the parent case, it means that you didn't select any of the mandatory attributes. You must select all of the mandatory fields whose values the child case will inherit. Select the mandatory case attributes whose values the child case inherits. **Case Title** and **Customer** are mandatory attributes. More information: [Define settings for parent and child cases](define-settings-parent-child-cases.md).
 
+### Why do I receive an "Expected non-empty Guid" error when I create a case?
+
+This error occurs when case creation includes a required lookup column that contains an empty or invalid GUID. The issue can occur when a customer, contact, or entitlement lookup populated by a Power Automate flow, workflow, or plug-in resolves to a blank value, when a custom script or integration passes a malformed GUID, or when a quick-create form or field mapping transfers an empty GUID from a related record during case creation.
+
+To identify and resolve the issue, follow these steps:
+
+1. Reproduce the issue by using [Live monitor](/power-apps/maker/model-driven-apps/monitor-form-checker) or review the plug-in trace log.
+1. Identify the lookup column that contains the invalid GUID.
+1. Correct the automation, script, integration, or field mapping that populates the column.
+1. If you create cases by using the Web API or SDK, verify that every `@odata.bind` reference points to an existing record.
+
+### Why is case creation through the Web API slow or intermittently delayed?
+
+Slow case creation or intermittent delays might be due to any of the following reasons:
+- Processing delays because of service protection limits that restrict high volumes of requests.
+- Synchronous plug-ins or real-time workflows that run when a case is created, cascading operations that update or evaluate large numbers of related records.
+-  Service protection API limits that throttle requests when transaction volume exceeds allowed thresholds.
+
+To identify the source of the latency, correlate slow requests with plug-in trace logs and determine whether the delays occur during periods of high activity or when specific synchronous processes run. Consider moving nonessential synchronous processing to asynchronous operations to reduce the impact on case creation performance. If requests are being throttled, implement retry logic that respects the Retry-After response header. Learn more in [Service protection API limits](/power-apps/developer/data-platform/api-limits).
+
+## FAQ on case forms
+
+### Why is a field, such as Description, missing from the case form for some users?
+
+A field might not appear because of form, security, or customization settings. Check the following configurations.
+
+- Ensure that affected users are opening the correct form. A higher order form might open. Learn more in [Set form order](/power-apps/maker/model-driven-apps/control-access-forms#set-the-form-order).
+- Verify that the users are assigned the appropriate field-level security profiles.
+- Verify that the users have read access to the table that contains the field.
+- Review active [solution layers](/power-apps/maker/data-platform/solution-layers) to determine whether another customization is overriding the field configuration.
+- Publish all customizations after importing a solution.
+
+### Why are the Save and Save & Close buttons hidden?
+
+Custom command rules or solution customizations can hide the **Save** and **Save & Close** buttons. Use Command checker to identify the rule that's affecting the command.
+
+1. Follow the guidance in [Troubleshoot ribbon issues in Power Apps](/troubleshoot/power-platform/power-apps/create-and-use-apps/ribbon-issues) to enable Command checker.
+1. Open Command Checker and search for the **Save** or **Save & Close** command and do the steps in [Inspect a command](/troubleshoot/power-platform/power-apps/create-and-use-apps/ribbon-issues#inspect-a-command)
+
+### Why do I receive an HTTP 500 error when I save a case?
+
+This error can occur when an `OnSave` script, synchronous plug-in, or other customization fails during the save operation. To identify the source of the error, perform the following steps:
+
+1. Reproduce the error by using [Live monitor](/power-apps/maker/model-driven-apps/monitor-form-checker).
+1. Review the browser network trace and plug-in trace log.
+1. Identify the failing `OnSave` script or synchronous plug-in.
+1. Disable `OnSave` handlers one at a time to isolate the issue.
+1. Correct the failing script or plug-in.
+
+
+### Why do I receive an error indicating that a component referenced by the form can't be found?
+
+This error can occur when the form references a component that's unavailable in the environment, such as a web resource, view, subgrid, or related form. To identify and resolve the issue, perform the following steps:
+
+1. Verify that the missing component is included in the deployed solution.
+1. Compare solution versions across environments to identify missing or outdated components.
+1. Import the complete solution if any required components are missing.
+1. Publish all customizations to ensure the latest changes are applied.
+1. Clear the client cache.
+
+### Why does the case form take a long time to load?
+
+The form can load slowly if it contains many controls on the default tab, uses synchronous `OnLoad` scripts, or includes a resource-intensive timeline. To identify the source of the delay, use [Live monitor](/power-apps/maker/model-driven-apps/monitor-form-checker). After you identify the cause, optimize the affected components by following the guidance in [Design forms for performance in model-driven apps](/power-apps/maker/model-driven-apps/design-performant-forms).
+
 ## FAQ on resolving cases
 
 ### Why can't I see Billable time, Remarks, or Total time fields on the case resolution dialog box?
