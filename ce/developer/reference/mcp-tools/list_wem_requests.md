@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # View Workforce Engagement Management requests
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-wem.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to review Workforce Engagement Management (WEM) requests—time-off, shift-swap, and shift-bid—in chat without leaving the conversation.
 

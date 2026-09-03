@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Manage external MCP tool servers
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to register, edit, or remove third-party MCP tool server endpoints that the Service Agent can invoke on your behalf.
 
@@ -141,7 +141,7 @@ Don't use `manage_mcp_registration` when:
 | Tool | Relationship |
 |---|---|
 | [`save_mcp_registration`](save_mcp_registration.md) | Widget-invoked tool that persists a new or updated registration |
-| [`delete_mcp_registration`](delete_mcp_registration.md) | Widget-invoked tool that removes a registration by ID |
+| [`delete_registration`](delete_registration.md) | Widget-invoked tool that removes a registration with `type: "mcp"` |
 | [`test_mcp_registration_connection`](test_mcp_registration_connection.md) | Widget-invoked tool that tests connectivity to an endpoint |
 | [`manage_copilot_studio_registration`](manage_copilot_studio_registration.md) | Equivalent admin UI for Copilot Studio agent registrations |
 
@@ -149,4 +149,4 @@ Don't use `manage_mcp_registration` when:
 
 Read-only entry point with downstream mutation potential.
 
-The tool itself doesn't change data. The widget it renders invokes `save_mcp_registration`, `delete_mcp_registration`, and `test_mcp_registration_connection` to perform write operations.
+The tool itself does not change data. The widget it renders invokes `save_mcp_registration`, `delete_registration` with `type: "mcp"`, and `test_mcp_registration_connection` to perform write operations.

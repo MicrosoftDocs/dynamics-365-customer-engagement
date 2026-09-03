@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Create case from email
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you receive an email that needs a new support case. The assistant creates the case, links the email to it, and sets up the customer contact automatically.
 

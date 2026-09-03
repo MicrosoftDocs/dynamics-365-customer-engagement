@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Approve or reject time-off requests
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-wem.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you're a supervisor deciding a pending Workforce Engagement Management (WEM) time-off request and want to approve or reject it directly in chat.
 

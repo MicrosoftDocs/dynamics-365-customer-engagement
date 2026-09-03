@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Timeline highlights (AI narrative)
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability to get an AI-generated narrative summary of recent activity on any record in Dynamics 365, including cases, accounts, contacts, opportunities, and leads.
 

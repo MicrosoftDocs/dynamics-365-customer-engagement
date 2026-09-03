@@ -3,7 +3,7 @@ title: Translate email
 description: Learn how to use the Translate email capability in Dynamics 365 Customer Service.
 ms.date: 08/11/2026
 ms.topic: reference
-ms.custom: mcp-enabled-namespaces=service
+ms.custom: mcp-enabled-namespaces=service,field-service
 ms.service: dynamics-365-customer-service
 author: aditibaghel
 ms.author: aditibaghel
@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Translate email
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to translate the body of an email into a different language—for example, when the customer writes in French and you want to read it in English, or when you want to send your reply in the customer's language.
 

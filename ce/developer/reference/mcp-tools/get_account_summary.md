@@ -1,6 +1,6 @@
 ---
 title: Get an account summary
-description: Learn how to use the Account summary capability in Dynamics 365 Sales.
+description: Learn how to get an account summary in Dynamics 365 Sales.
 ms.date: 09/02/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=sales

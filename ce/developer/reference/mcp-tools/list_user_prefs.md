@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # List my preferences
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability to view your personal layout preferences for the Service Agent.
 
@@ -100,8 +100,8 @@ Use `list_user_prefs` when:
 
 Don't use `list_user_prefs` when:
 
-- The user asks about organization-level configurations. Use `list_agent_configs` instead.
-- The user asks about profile-level configurations. Use `list_profile_configs` instead.
+- The user asks about org-level configurations. Use `list_agent_configs` instead.
+- The user asks about profile-level configurations. Use `list_agent_configs` with `scope: "profile"` instead.
 - The user is an admin asking about all users' preferences (not supported; each user sees only their own).
 
 ## Related tools

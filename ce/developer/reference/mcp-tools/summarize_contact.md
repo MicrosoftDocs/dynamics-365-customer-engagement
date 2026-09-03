@@ -1,7 +1,7 @@
 ---
-title: Use contact summary
-description: Learn how to use the Contact summary capability in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+title: Summarize a contact
+description: Learn how to summarize a contact in Dynamics 365 Customer Service.
+ms.date: 09/02/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=service
 ms.service: dynamics-365-customer-service
@@ -10,9 +10,11 @@ ms.author: dleblond
 ms.reviewer: laalexan
 ---
 
-# Use contact summary 
+# Summarize a contact
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want a quick overview of a contact without opening the full contact form.
 

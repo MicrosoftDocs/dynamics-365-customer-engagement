@@ -1,5 +1,5 @@
 ---
-title: Get Lead Business Process Flow
+title: Get lead business process flow
 description: Learn how to read the business process flow stages on a Dynamics 365 Sales lead.
 ms.date: 09/02/2026
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.author: ridarbar
 ms.reviewer: tmanchanda
 ---
 
-# Get Lead Business Process Flow
+# Get lead business process flow
 
 **Applies to:** Dynamics 365 Sales
 

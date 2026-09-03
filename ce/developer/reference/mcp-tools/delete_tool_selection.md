@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Reset tool visibility
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to remove all tool visibility overrides for the organization or for a specific profile.
 

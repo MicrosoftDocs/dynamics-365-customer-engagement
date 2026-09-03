@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Query Dataverse data
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability to ask ad-hoc questions about your Dynamics 365 data when no other specific capability covers your question.
 

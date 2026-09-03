@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Add DV QnA table
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability to add a Dataverse table to Customer Service DV QnA so the skill can answer questions from it.
 

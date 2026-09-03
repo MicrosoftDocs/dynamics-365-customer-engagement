@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Search cases
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability to find cases for a specific customer (account or contact), or when a keyword is likely in the case description body rather than just the title. For plain "cases about X" keyword or title lookups, status or priority filtering, or case-number lookup, use list_cases instead.
 

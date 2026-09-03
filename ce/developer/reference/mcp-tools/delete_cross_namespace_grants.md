@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Reset cross-namespace grants
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to undo all cross-namespace grants and return an agent to its own product tools only.
 

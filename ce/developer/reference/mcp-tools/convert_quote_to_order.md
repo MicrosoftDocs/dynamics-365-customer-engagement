@@ -1,6 +1,6 @@
 ---
-title: Convert Quote To Order
-description: Learn how to use the Convert Quote To Order capability in Dynamics 365 Sales.
+title: Convert quote to order
+description: Learn how to use the Convert quote to order capability in Dynamics 365 Sales.
 ms.date: 09/02/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=sales
@@ -10,7 +10,7 @@ ms.author: ridarbar
 ms.reviewer: tmanchanda
 ---
 
-# Convert Quote To Order
+# Convert quote to order
 
 **Applies to:** Dynamics 365 Sales
 

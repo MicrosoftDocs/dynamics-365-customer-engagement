@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Save my preference
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability to save a personal layout preference that customizes how the Service Agent displays information for you.
 
@@ -129,8 +129,8 @@ Use `save_user_prefs` when:
 
 Don't use `save_user_prefs` when:
 
-- The user is an admin saving organization-wide configurations. Use `save_agent_config` instead.
-- The user specifies a profile. Use `save_profile_config` instead.
+- The user is an admin saving org-wide configurations. Use `save_agent_config` instead.
+- The user specifies a profile. Use `save_agent_config` with `scope: "profile"` instead.
 - The user is exploring options. Use `browse_agent_config_options` first.
 
 ## Related tools

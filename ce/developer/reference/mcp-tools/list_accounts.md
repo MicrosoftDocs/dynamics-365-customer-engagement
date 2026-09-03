@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # List accounts
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to find customer accounts, review them in chat, and take action without leaving the conversation.
 
@@ -24,6 +26,7 @@ The assistant shows a list of accounts that match your filters. You can filter b
 - Account status (active or inactive).
 - City.
 - Account name.
+- Phone number across primary or exhaustive phone-field coverage.
 
 Results appear in an interactive account list inside chat.
 
@@ -35,6 +38,7 @@ Results appear in an interactive account list inside chat.
 - List inactive accounts.
 - Show accounts assigned to me.
 - Find Contoso account.
+- Find the account with phone number +1-555-0100.
 - List all accounts.
 - Show technology industry accounts.
 
@@ -47,7 +51,10 @@ The assistant displays an interactive account list as an app-in-chat component. 
 - Say "my accounts" or "assigned to me" to see only accounts you own.
 - Use status words like active or inactive to filter results.
 - Combine filters by saying something like "show my active accounts in Seattle."
-- Use a company name to search for a specific account.
+- Use a company name or phone number to search for a specific account.
+- Phone lookup uses the three common account phone fields by default. Ask for
+  exhaustive coverage to include readable custom and additional Phone-formatted
+  fields.
 - If you want a full summary of a company, say "brief me about Contoso" instead. That uses a different tool.
 
 > [!TIP]
@@ -88,11 +95,11 @@ This tool is available on the Dynamics 365 Customer Service MCP server. See the 
 |---|---|
 | User-facing name | List accounts |
 | Internal tool name | `list_accounts` |
-| Purpose | Lists customer accounts filtered by status, city, owner, or name search and renders them in an interactive grid-style app-in-chat experience |
+| Purpose | Lists customer accounts filtered by status, city, owner, name, or phone and renders them in an interactive grid-style app-in-chat experience |
 
 ## Tool behavior
 
-Lists customer accounts filtered by status, city, owner, or name search and renders them in an interactive grid-style app-in-chat experience. The `search` parameter performs a contains-match against the account name.
+Lists customer accounts filtered by status, city, owner, name, or phone and renders them in an interactive grid-style app-in-chat experience. The `search` parameter performs a contains-match against the account name. The `phone` parameter checks `telephone1`, `telephone2`, and `telephone3` with primary coverage. Exhaustive coverage prioritizes those common fields and searches up to 48 readable Dataverse Phone-formatted fields, including custom fields. Phone matching first checks the stored value exactly, then uses formatting-insensitive comparison for eligible 7-15 digit values. When metadata or field limits, candidate retrieval, or the requested result limit omits matches, the response includes `phoneLookupTruncated: true` and the narration warns that additional matches may exist. The retired `additionalFilter` input is rejected; use the documented first-class filters.
 
 ## Annotations
 
@@ -117,6 +124,18 @@ Lists customer accounts filtered by status, city, owner, or name search and rend
 |---|---|---|
 | `address1_city` | filter by `address1_city` (contains match). Use when the user specifies a geographic location. | No |
 
+### Phone
+
+| Input | Description | Required |
+|---|---|---|
+| `phone` | Phone number to match against `telephone1`, `telephone2`, and `telephone3`. Duplicate matches are returned for disambiguation. | No |
+
+### Search coverage
+
+| Input | Description | Required |
+|---|---|---|
+| `searchCoverage` | `primary` (default) searches the three common account phone fields. `exhaustive` searches up to 48 readable Dataverse Phone-formatted fields and reports truncation when more exist. | No |
+
 ### Status
 
 | Input | Description | Required |
@@ -134,12 +153,6 @@ Lists customer accounts filtered by status, city, owner, or name search and rend
 | Input | Description | Required |
 |---|---|---|
 | `top` | `top` (integer). Maximum number of accounts to return. Defaults to 10, max 200. | No |
-
-### Additional filters
-
-| Input | Description | Required |
-|---|---|---|
-| `additionalFilter` | `additionalFilter` (key-value map). Arbitrary OData filter conditions merged with AND, using odata-query `Filter<T>` object syntax. | No |
 
 ## Response and UI behavior
 
@@ -161,6 +174,7 @@ Use `list_accounts` for:
 - Status-based filtering (active, inactive).
 - City-based filtering.
 - Account name search.
+- Phone-number lookup.
 
 Don't use `list_accounts` when the prompt explicitly says:
 

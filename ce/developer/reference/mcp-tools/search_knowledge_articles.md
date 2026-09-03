@@ -3,7 +3,7 @@ title: Search knowledge articles in chat
 description: Learn how to use the Search knowledge articles in chat capability in Dynamics 365 Customer Service.
 ms.date: 08/11/2026
 ms.topic: reference
-ms.custom: mcp-enabled-namespaces=service
+ms.custom: mcp-enabled-namespaces=service,field-service
 ms.service: dynamics-365-customer-service
 author: dleblond
 ms.author: dleblond
@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Search knowledge articles in chat
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability to find relevant knowledge articles from your organization's knowledge base directly in chat.
 

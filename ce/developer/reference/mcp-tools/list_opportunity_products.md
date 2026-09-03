@@ -1,5 +1,5 @@
 ---
-title: List Opportunity Products
+title: List opportunity products
 description: Learn how to list the product lines on a Dynamics 365 Sales opportunity.
 ms.date: 09/02/2026
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.author: ridarbar
 ms.reviewer: tmanchanda
 ---
 
-# List Opportunity Products
+# List opportunity products
 
 **Applies to:** Dynamics 365 Sales
 

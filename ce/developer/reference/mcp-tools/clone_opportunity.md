@@ -1,6 +1,6 @@
 ---
-title: Clone Opportunity
-description: Learn how to use the Clone Opportunity capability in Dynamics 365 Sales.
+title: Clone opportunity
+description: Learn how to use the Clone opportunity capability in Dynamics 365 Sales.
 ms.date: 09/02/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=sales
@@ -10,7 +10,7 @@ ms.author: ladirohit
 ms.reviewer: tmanchanda
 ---
 
-# Clone Opportunity
+# Clone opportunity
 
 **Applies to:** Dynamics 365 Sales
 

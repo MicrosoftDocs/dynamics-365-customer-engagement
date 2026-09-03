@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Manage Copilot Studio agents
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to register, edit, or remove Copilot Studio agents that the Service Agent can delegate questions to during a conversation.
 
@@ -141,13 +141,11 @@ Don't use this tool when:
 | Tool | Relationship |
 |---|---|
 | [`save_copilot_studio_registration`](save_copilot_studio_registration.md) | Widget-invoked tool that persists a new or updated agent registration |
-| [`delete_copilot_studio_registration`](delete_copilot_studio_registration.md) | Widget-invoked tool that removes an agent registration |
+| [`delete_registration`](delete_registration.md) | Widget-invoked tool that removes an agent registration with `type: "mcs"` |
 | [`test_copilot_studio_registration_connection`](test_copilot_studio_registration_connection.md) | Widget-invoked tool that tests agent reachability |
 | [`list_copilot_studio_registration_bots`](list_copilot_studio_registration_bots.md) | Widget-invoked tool that lists available bots for the bot picker |
 | [`manage_mcp_registration`](manage_mcp_registration.md) | Manages HTTPS MCP tool server registrations (separate scope) |
 
 ## Data mutation classification
 
-Read-only launcher with downstream mutation through widget.
-
-The launcher itself doesn't change data. The widget invokes `save_copilot_studio_registration` and `delete_copilot_studio_registration` for write operations.
+The launcher itself does not change data. The widget invokes `save_copilot_studio_registration` and `delete_registration` with `type: "mcs"` for write operations.

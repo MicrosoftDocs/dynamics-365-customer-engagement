@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Manage Customer Service vocabulary
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you administer how the assistant interprets your organization's wording—the glossary terms and column synonyms behind the Customer Service question-answering skill.
 

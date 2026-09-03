@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Link email to case
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you have an email that should be associated with an existing case. Linking connects the email to the case so it appears on the case's timeline.
 

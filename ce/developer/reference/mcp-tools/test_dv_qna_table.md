@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Test DV QnA table
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability to validate that a Dataverse table exists, is accessible, and is enabled for the Dataverse search index before you add it to Customer Service DV QnA.
 

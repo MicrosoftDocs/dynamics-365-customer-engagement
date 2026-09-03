@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # SLA triage—query cases by SLA status
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to see which of your cases are at risk of breaching or have already breached their SLA commitments.
 

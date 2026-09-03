@@ -47,8 +47,6 @@ items:
   href: close_case.md
 - name: "Configure agent layout"
   href: save_agent_config.md
-- name: "Configure profile layout"
-  href: save_profile_config.md
 - name: "Contact summary"
   href: summarize_contact.md
 - name: "Copy reply"
@@ -65,10 +63,6 @@ items:
   href: create_note.md
 - name: "Delete entity record"
   href: delete_entity_record.md
-- name: "Delete external MCP registration"
-  href: delete_mcp_registration.md
-- name: "Delete MCS agent registration"
-  href: delete_copilot_studio_registration.md
 - name: "Delete my preference"
   href: delete_user_prefs.md
 - name: "Delete tool description overrides"
@@ -131,8 +125,6 @@ items:
   href: list_evaluations.md
 - name: "List my preferences"
   href: list_user_prefs.md
-- name: "List profile configurations"
-  href: list_profile_configs.md
 - name: "List tool description overrides"
   href: list_tool_description.md
 - name: "List tool visibility"
@@ -169,8 +161,6 @@ items:
   href: remove_dv_qna_table.md
 - name: "Remove glossary terms"
   href: remove_glossary_terms.md
-- name: "Remove profile configuration"
-  href: delete_profile_config.md
 - name: "Remove synonyms"
   href: remove_synonyms.md
 - name: "Reset cross-namespace grants"

@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Merge duplicate cases
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when a customer's issue is tracked across two or more duplicate cases and you want to combine them into one case.
 

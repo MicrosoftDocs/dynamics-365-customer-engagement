@@ -1,5 +1,5 @@
 ---
-title: Get Opportunity Business Process Flow
+title: Get opportunity business process flow
 description: Learn how to read the business process flow stages on a Dynamics 365 Sales opportunity.
 ms.date: 09/02/2026
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.author: ridarbar
 ms.reviewer: tmanchanda
 ---
 
-# Get Opportunity Business Process Flow
+# Get opportunity business process flow
 
 **Applies to:** Dynamics 365 Sales
 

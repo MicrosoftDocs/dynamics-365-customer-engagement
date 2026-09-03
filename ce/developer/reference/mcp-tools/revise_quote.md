@@ -1,5 +1,5 @@
 ---
-title: Revise Quote
+title: Revise quote
 description: Learn how to revise a Dynamics 365 Sales quote into a new draft revision.
 ms.date: 09/02/2026
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.author: ridarbar
 ms.reviewer: tmanchanda
 ---
 
-# Revise Quote
+# Revise quote
 
 **Applies to:** Dynamics 365 Sales
 
