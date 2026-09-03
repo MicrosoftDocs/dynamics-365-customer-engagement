@@ -1,16 +1,17 @@
 ---
 title: Schedule in sequence with requirement dependencies
 description: Learn how to schedule in sequence by using requirement dependencies in the Resource Scheduling Optimization add-in for Dynamics 365 Field Service.
-ms.date: 08/05/2025
+ms.date: 09/01/2026
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
 author: andrewclear-ms
 ms.author: anclear
+ms.reviewer: v-wesmith
 ---
 
 # Schedule in sequence with requirement dependencies
 
-Sometimes, requirements must be scheduled in a specific sequence. For example, a technician must stop by a warehouse to pick up a unique part before they go to a customer's site to install it.
+Sometimes, you need to schedule requirements in a specific sequence. For example, a technician must stop by a warehouse to pick up a unique part before they go to a customer's site to install it.
 
 If you want Resource Scheduling Optimization to schedule requirements in a specific sequence, add requirement dependencies. Then, when Resource Scheduling Optimization runs, it schedules the requirements in the correct order and ensures that the start time of each successive requirement is after the end time of its predecessor.
 

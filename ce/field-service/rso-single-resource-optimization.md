@@ -1,23 +1,24 @@
 ---
 title: Single resource optimization for Resource Scheduling Optimization
-description: Learn about single resource optimization for Resource Scheduling Optimization in Dynamics 365 Field Service
-ms.date: 08/25/2025
+description: Single resource optimization lets dispatchers quickly rebuild one field technician's schedule and travel route in Dynamics 365 Field Service.
+ms.date: 09/03/2026
 ms.topic: how-to
 author: andrewclear-ms
 ms.author: anclear
+ms.reviewer: v-wendysmith
 ms.custom: bap-template
 ms.subservice: resource-scheduling-optimization
 --- 
 
 # Single resource optimization for Resource Scheduling Optimization
 
-You can configure the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service to [run optimizations based on your entire organization's scheduling needs](rso-overview.md). Sometimes you might need to optimize only a single resource's schedule, rather than for a set of available resources. Single resource optimization provides a quick way to optimize a resource's schedule and travel route. It considers the existing bookings on the resource's schedule and more requirements.
+You can configure the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service to [run optimizations based on your entire organization's scheduling needs](rso-overview.md). Sometimes you might need to optimize only a single resource's schedule, rather than optimize for a set of available resources. Single resource optimization provides a quick way to optimize a resource's schedule and travel route. It considers the existing bookings on the resource's schedule and other requirements.
 
-It helps accommodate schedule changes that occurred during the day, when a resource:
+It helps accommodate schedule changes that occur during the day, when a resource:
 
 - Has a gap in the schedule due to a cancellation.
-- Is double-booked because emergency work order was assigned.
-- Has a schedule that was put together manually and needs a route with minimal travel.
+- Is double-booked because an emergency work order was assigned.
+- Has a schedule that you put together manually and needs a route with minimal travel.
 
 To optimize an individual resource's schedule, a dispatcher can manually run single resource optimization. Workflows can also trigger single resource optimization. Unlike other Resource Scheduling Optimization scenarios, you can't schedule single resource optimization runs.
 
@@ -28,7 +29,7 @@ To optimize an individual resource's schedule, a dispatcher can manually run sin
 
 - Dynamics 365 Field Service version 8.8.99.10 or newer.
 - Resource scheduling optimization version 3.4.0.623 or newer.
-- **Optimize Schedules** is set to **Yes** for the bookable resource you want to run single resource optimization for.
+- **Optimize Schedules** set to **Yes** for the bookable resource you want to run single resource optimization for.
 
 ## Step 1: Set up a goal
 
@@ -55,7 +56,7 @@ Next, [add your single resource optimization goal as the default goal](rso-optim
 
 ## Step 2: Run and view results
 
-There are three ways to run single resource optimization:
+You can run single resource optimization in three ways:
 
 - [Run with defaults](#run-with-defaults)
 - [Run after making changes to defaults](#run-after-making-changes-to-defaults)
@@ -63,14 +64,14 @@ There are three ways to run single resource optimization:
 
 ### Run with defaults
 
-On the schedule board, right-click a resource (except a [crew](./resource-crews.md), [pools](./resource-pools.md) or [facilities](./facility-scheduling.md)) and select **Optimize Schedule** to optimize with:
+On the schedule board, right-click a resource (except a [crew](./resource-crews.md), [pools](./resource-pools.md), or [facilities](./facility-scheduling.md)) and select **Optimize Schedule** to optimize with:
 
 - The default optimization goal
 - The default optimization range, which is from now to the end of today (12:00 AM)
 - The existing bookings on the resource's schedule in that optimization range
-- Requirements from the active view of requirements at the bottom of the schedule board are ordered based on the applied sorting or filtering in that view  
+- Requirements from the active view of requirements at the bottom of the schedule board, ordered based on the applied sorting or filtering in that view  
 
-When the optimization completes, you see the new set of bookings on the schedule board. In the right pane, you find details about bookings that were updated, deleted, or created.
+When the optimization finishes, you see the new set of bookings on the schedule board. In the right pane, you find details about bookings that were updated, deleted, or created.
 
 ### Run after making changes to defaults
 

@@ -1,12 +1,12 @@
 ---
 title: Run an optimization ad hoc
-description: Learn how run a schedule optimization on demand with the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
+description: Schedule optimization on demand helps dispatchers react to urgent work. See how to run an optimization ad hoc and check the results on the schedule board.
 author: andrewclear-ms
 ms.author: anclear
-ms.date: 07/22/2026
+ms.reviewer: v-wendysmith
+ms.date: 09/03/2026
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
-ai-usage: ai-assisted
 ---
 
 # Run an optimization ad hoc
@@ -21,7 +21,7 @@ Typically, Resource Scheduling Optimization runs automatically through [optimiza
 
 ## Use the schedule board to review optimization results
 
-To view the outcome of an optimization run in a more visual way, you can show the results on a schedule board.
+To view the outcome of an optimization run in a more visual way, show the results on a schedule board.
 
 1. In Resource Scheduling Optimization, go to **Tools** > **Optimization Schedules**.
 1. Open a published schedule.
@@ -39,7 +39,7 @@ On the schedule board:
 - An icon on a resource indicates that the resource isn't part of the optimization scope.
 - An icon on the booking indicates that the [booking is locked](booking-lock-options.md).
 - Yellow lines indicate the start and end times of the optimization range.
-- The **From** and **To** dates and times match the time range that is defined in the optimization scope.
+- The **From** and **To** dates and times match the time range that you define in the optimization scope.
 
 You can change the values and save the changes to the optimization scope. If the same scope is used for multiple optimization schedules, your changes apply to all of them.
 
