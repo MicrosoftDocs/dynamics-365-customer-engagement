@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Save tool description override
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to append a routing cue to a first-party tool's description so that a customer's equivalent third-party (third-party) tool becomes the primary orchestrator choice, with the first-party tool acting as a fallback.
 

@@ -1,7 +1,7 @@
 ---
 title: List cross-namespace grants
 description: Learn how to review which foreign product tools are granted to an agent in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+ms.date: 09/02/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=global
 ms.service: dynamics-365-customer-service
@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # List cross-namespace grants
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to review which foreign product namespaces and tools are currently granted to an agent.
 
@@ -95,7 +95,7 @@ Lists the foreign namespaces and tools currently granted at organization or prof
 
 | Input | Description | Required |
 |---|---|---|
-| `namespace` | `namespace` (`service`, `sales`, `field-service`, `wem`, or `customer-insights`, optional). When set, the response also lists that foreign namespace's individual tools (name, title, description) so you can preview them before granting. | No |
+| `namespace` | `namespace` (`service`, `sales`, `wem`, `customer-insights`, or `business-research-agent`, optional). When set, the response also lists that foreign namespace's individual tools (name, title, description) so you can preview them before granting. | No |
 
 ## Response and UI behavior
 

@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Manage Customer Service DV QnA tables
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to see, add, or remove the Dataverse tables that Customer Service DV QnA can answer questions from.
 

@@ -3,7 +3,7 @@ title: Activity quick-create form
 description: Learn how to use the Activity quick-create form capability in Dynamics 365 Customer Service.
 ms.date: 08/11/2026
 ms.topic: reference
-ms.custom: mcp-enabled-namespaces=service
+ms.custom: mcp-enabled-namespaces=service,field-service
 ms.service: dynamics-365-customer-service
 author: dleblond
 ms.author: dleblond
@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Activity quick-create form
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to see what fields are available on an activity form before creating an activity. This is helpful when you want to know what information you can include on a task, phone call, or appointment.
 

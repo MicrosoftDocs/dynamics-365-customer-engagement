@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Case detail
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to view the full case form with all its fields, sections, and timeline directly in chat—especially when you're about to edit case details.
 
@@ -83,9 +85,7 @@ This tool is available on the Dynamics 365 Customer Service MCP server. See the 
 | Purpose | Opens the case form widget showing the Dataverse layout with sections, fields, timeline, and SLA KPIs |
 
 ## Tool behavior
-
-Opens the case form widget showing the Dataverse layout with sections, fields, timeline, and SLA KPIs. When `includeSummary: true`, also renders an AI Summary card alongside the form. Use for "show case CAS-X", "open/view case CAS-X", "get/show case details of CAS-X", "tell me about CAS-X", or any general triage or edit-prelude intent. Pass `includeSummary: true` when case summary is enabled per `check_summary_enabled`. For dedicated AI-summary intent ("summarize CAS-X", "recap CAS-X"), use `summarize_case` instead. For chronological activity feed only, use `get_activity_timeline`.
-
+Opens the case form widget showing the Dataverse layout with sections, fields, timeline, and SLA KPIs. Two summary modes: `deferSummary: true` offers a Summary tab whose AI summary loads only when you open that tab, so the form is not delayed by a summary you may never read; `includeSummary: true` generates the summary up front and returns it in the response, which is what a caller that renders no widget needs. Use for "show case CAS-X", "open/view case CAS-X", "get/show case details of CAS-X", "tell me about CAS-X", or any general triage or edit-prelude intent. Pass a summary flag only when case summary is enabled per `check_summary_enabled`. For dedicated AI-summary intent ("summarize CAS-X", "recap CAS-X"), use `summarize_case` instead — that tool generates the summary up front and lands on it. For chronological activity feed only, use `get_activity_timeline`.
 ## Annotations
 
 | Annotation | Value | Meaning |
@@ -125,7 +125,8 @@ Opens the case form widget showing the Dataverse layout with sections, fields, t
 
 | Input | Description | Required |
 |---|---|---|
-| `includeSummary` | `includeSummary` (boolean). When `true`, fans out to `summarize_case` in parallel and renders the Summary tab alongside the form. Costs an LLM call. | No |
+| `includeSummary` | `includeSummary` (boolean). When `true`, the AI summary is generated and returned in the response. Always costs an LLM call. Use when you need the summary text itself. | No |
+| `deferSummary` | `deferSummary` (boolean). When `true`, the Summary tab is offered and its AI summary is fetched when you open that tab — not while the form is loading. Costs an LLM call only if the tab is opened. Takes precedence if both flags are passed. | No |
 
 ## Response and UI behavior
 
@@ -142,7 +143,7 @@ Use `get_case` when:
 - The user says "show case", "open case", "view case", "get case details", "tell me about CAS-X" (general triage or view intents).
 - The user is about to edit the case (prelude to `update_case`).
 - The user explicitly asks for form-only access: "just show the form", "case fields only".
-- Pass `includeSummary: true` when `check_summary_enabled` returned `caseSummaryEnabled: true`.
+- Pass `deferSummary: true` (or `includeSummary: true` when you need the summary in the response) once `check_summary_enabled` returned `caseSummaryEnabled: true`.
 
 Don't use `get_case` when:
 

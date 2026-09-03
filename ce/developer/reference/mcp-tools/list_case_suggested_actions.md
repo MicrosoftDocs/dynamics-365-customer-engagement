@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Cases with suggested actions
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to see all cases where the AI has identified a recommended next action for you, such as replying to a customer or resolving the case.
 

@@ -12,13 +12,12 @@ ms.reviewer: laalexan
 
 # Remove agent configuration
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
-Use this capability to remove an organization-level layout configuration and revert to the default display.
+Use this capability to remove an org-level or Application Profile layout configuration and revert to the default display.
 
 ## What it does
-
-The assistant removes an organization-wide layout configuration by its scope key. After removal, the affected grid, form, or timeline reverts to the system default for all users in the organization. This action requires explicit confirmation before proceeding.
+The assistant removes a layout configuration by its scope key. The optional `scope` selects the org (default) or profile tier; profile deletion also requires `profileId`. After removal, the affected grid, form, or timeline reverts to the applicable default. This action requires explicit confirmation before proceeding.
 
 ## Try prompts like
 
@@ -29,8 +28,7 @@ The assistant removes an organization-wide layout configuration by its scope key
 - Remove all organization customizations for accounts.
 
 ## What you'll see in chat
-
-The assistant asks for confirmation before removing the configuration. After you confirm, it reports which configuration was removed and that the layout has reverted to the system default.
+The assistant asks for confirmation before removing the configuration. After you confirm, it reports which configuration was removed. The layout then uses the next applicable tier, such as an org configuration after a profile configuration is removed, or the system default.
 
 ## Helpful tips
 
@@ -48,8 +46,7 @@ After removing a configuration, you can:
 - What can I configure? to explore available options.
 
 ## Does this change data?
-
-**Yes, this removes configuration data.** The organization-wide layout configuration is permanently deleted. Case, account, and contact records are not affected.
+**Yes, this removes configuration data.** The selected org-level or profile-level layout configuration is permanently deleted. Case, account, and contact records are not affected.
 
 ## Prerequisites
 
@@ -63,11 +60,10 @@ This tool requires the following:
 |---|---|
 | User-facing name | Remove agent configuration |
 | Internal tool name | `delete_agent_config` |
-| Purpose | Removes an organization-level agent configuration by scope key |
+| Purpose | Removes an org-level or profile-level agent configuration by scope key |
 
 ## Tool behavior
-
-Removes an organization-level agent configuration by scope key. Use when an organization admin asks to remove or reset a previously applied organization-wide customization. Requires explicit confirmation to prevent accidental deletions.
+Removes an org-level or profile-level agent configuration by scope key. Use `scope: "org"` (the default) for org-wide customizations or `scope: "profile"` with `profileId` for Application Profile customizations. Requires explicit confirmation to prevent accidental deletions.
 
 ## Annotations
 
@@ -79,12 +75,13 @@ Removes an organization-level agent configuration by scope key. Use when an orga
 | `openWorldHint` | Not set | Uses default. |
 
 ## Input concepts
-
-### Scope key
+### Configuration scope
 
 | Input | Description | Required |
 |---|---|---|
-| `scope` | `scope` (string, required). The scope key to remove (for example, `grid:incident:*`, `form:account:*`, `timeline:incident:*`). Use `list_agent_configs` to discover existing scope keys. | Yes |
+| `scope` | Configuration tier: `org` (default) or `profile`. | No |
+| `profileId` | Application Profile UUID. Required when `scope` is `profile`. | For profile scope |
+| `scopeKey` | The configuration key to remove (e.g., `grid:incident:*`, `form:account:*`, `timeline:incident:*`). Use `list_agent_configs` to discover existing keys. | Yes |
 
 ### Confirmation
 
@@ -98,19 +95,19 @@ Removes an organization-level agent configuration by scope key. Use when an orga
 
 Text-only
 
-No interactive component is rendered. Returns confirmation that the configuration was removed, or an error if the scope key was not found.
+No interactive component is rendered. Returns confirmation after the idempotent delete. If the scope key is already absent, the operation still succeeds and makes no additional change.
 
 ## Routing notes
 
 Use `delete_agent_config` when:
 
-- The user explicitly asks to remove or reset an organization-level configuration.
-- The user provides a scope key or describes a configuration to remove.
-- Always call `list_agent_configs` first to show available scope keys if the user hasn't specified one.
+- The user explicitly asks to remove or reset an org-level configuration
+- The user asks to remove a profile-level configuration and supplies the target `profileId`
+- The user provides a scope key or describes a configuration to remove
+- Always call `list_agent_configs` first to show available scope keys if the user hasn't specified one
 
 Don't use `delete_agent_config` when:
 
-- The user wants to remove a profile-level configuration. Use `delete_profile_config` instead.
 - The user wants to remove a personal preference. Use `delete_user_prefs` instead.
 - The user wants to modify (not remove) an existing configuration. Use `save_agent_config` instead.
 
@@ -119,12 +116,11 @@ Don't use `delete_agent_config` when:
 | Tool | Relationship |
 |---|---|
 | [`list_agent_configs`](list_agent_configs.md) | Lists existing configurations to identify scope keys for deletion |
-| [`save_agent_config`](save_agent_config.md) | Creates or updates organization-level configurations |
-| [`delete_profile_config`](delete_profile_config.md) | Removes profile-level configurations |
+| [`save_agent_config`](save_agent_config.md) | Creates or updates org-level or profile-level configurations |
 | [`delete_user_prefs`](delete_user_prefs.md) | Removes personal layout preferences |
 
 ## Data mutation classification
 
 Write (destructive).
 
-Permanently removes an organization-level agent configuration. This affects all users in the organization. The assistant asks for confirmation before executing.
+Permanently removes an org-level or profile-level agent configuration, according to `scope`. The assistant asks for confirmation before executing.

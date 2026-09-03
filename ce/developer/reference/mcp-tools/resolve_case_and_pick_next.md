@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Case—resolve and pick next
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you've finished working on a case and want to close it and immediately start on the next one from the queue, all in one step.
 

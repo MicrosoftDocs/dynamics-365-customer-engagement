@@ -1,7 +1,7 @@
 ---
 title: Summarize an account
-description: Learn how to use the Account summary capability in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+description: Learn how to summarize an account in Dynamics 365 Customer Service.
+ms.date: 09/02/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=service
 ms.service: dynamics-365-customer-service
@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Summarize an account
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want a quick overview of a customer account without opening the full account form.
 

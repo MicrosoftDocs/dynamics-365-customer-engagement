@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # List environments
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability to see all the Dynamics 365 environments you have access to and switch between them.
 

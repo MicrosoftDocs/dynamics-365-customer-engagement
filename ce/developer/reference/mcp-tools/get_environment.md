@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Get active environment
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability to check which Dynamics 365 environment you are currently connected to before working with cases, accounts, or other data.
 

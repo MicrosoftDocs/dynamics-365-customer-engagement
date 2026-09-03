@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Exit configuration mode
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 This capability exits maker/admin configuration mode and returns the agent to its default tool set for service representatives.
 
@@ -107,8 +107,7 @@ Don't use `maker_exit` when:
 | Tool | Relationship |
 |---|---|
 | [`browse_agent_config_options`](browse_agent_config_options.md) | Entry point for configuration discovery. Use before exiting |
-| [`save_agent_config`](save_agent_config.md) | Saves organization-level configuration. Can be used before exiting |
-| [`save_profile_config`](save_profile_config.md) | Saves profile-scoped configuration. Can be used before exiting |
+| [`save_agent_config`](save_agent_config.md) | Saves org-scoped or profile-scoped configuration. Can be used before exiting |
 
 ## Data mutation classification
 

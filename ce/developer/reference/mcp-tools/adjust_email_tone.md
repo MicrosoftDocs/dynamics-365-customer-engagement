@@ -3,7 +3,7 @@ title: Adjust email tone
 description: Learn how to use the Adjust email tone capability in Dynamics 365 Customer Service.
 ms.date: 08/11/2026
 ms.topic: reference
-ms.custom: mcp-enabled-namespaces=service
+ms.custom: mcp-enabled-namespaces=service,field-service
 ms.service: dynamics-365-customer-service
 author: aditibaghel
 ms.author: aditibaghel
@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Adjust email tone
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to rewrite an email so it sounds more formal, friendlier, or so it reads shorter or longer—without re-typing it yourself.
 

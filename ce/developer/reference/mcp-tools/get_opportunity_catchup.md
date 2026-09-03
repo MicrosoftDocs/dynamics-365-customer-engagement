@@ -16,7 +16,7 @@ ms.reviewer: tmanchanda
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
-Use this capability when a seller needs to catches the seller up on recent opportunity context before action.
+Use this capability when a seller needs to catch up on recent opportunity context before action.
 
 ## What it does
 

@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # List available MCS bots
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 This capability works behind the scenes when you browse available Copilot Studio bots from the registration management widget.
 

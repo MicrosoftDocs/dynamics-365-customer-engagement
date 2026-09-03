@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Agent configuration capabilities
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability to find out what configuration options are available to you and whether you have permission to customize agent layouts.
 

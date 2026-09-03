@@ -1,6 +1,6 @@
 ---
-title: Link Opportunity
-description: Learn how to use the Link Opportunity capability in Dynamics 365 Sales.
+title: Link opportunity
+description: Learn how to use the Link opportunity capability in Dynamics 365 Sales.
 ms.date: 09/02/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=sales
@@ -10,7 +10,7 @@ ms.author: ridarbar
 ms.reviewer: tmanchanda
 ---
 
-# Link Opportunity
+# Link opportunity
 
 **Applies to:** Dynamics 365 Sales
 

@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # List tool description overrides
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to see the currently configured tool description overrides for the organization, or to discover which first-party tools can be shaped.
 

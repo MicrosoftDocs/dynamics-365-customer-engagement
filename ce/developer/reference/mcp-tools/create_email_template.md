@@ -3,7 +3,7 @@ title: Create email template
 description: Learn how to use the Create email template capability in Dynamics 365 Customer Service.
 ms.date: 08/11/2026
 ms.topic: reference
-ms.custom: mcp-enabled-namespaces=service
+ms.custom: mcp-enabled-namespaces=service,field-service
 ms.service: dynamics-365-customer-service
 author: dleblond
 ms.author: dleblond
@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Create email template
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to create a new email template that you or your team can reuse for common customer communications.
 
