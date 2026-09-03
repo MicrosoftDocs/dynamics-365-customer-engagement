@@ -65,6 +65,8 @@ items:
   href: delete_entity_record.md
 - name: "Delete my preference"
   href: delete_user_prefs.md
+- name: "Delete registration"
+  href: delete_registration.md
 - name: "Delete tool description overrides"
   href: delete_tool_description.md
 - name: "Discard a knowledge article draft"
