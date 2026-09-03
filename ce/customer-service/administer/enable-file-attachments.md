@@ -55,6 +55,9 @@ To configure the file size limit and file extensions, complete the following ste
     > [!div class=mx-imgBorder]
     > ![Specify unsupported file types.](../media/unsupported-file-types.png "Specify unsupported file types")
 
+> [!NOTE]
+> Don't block the .txt extension. Transcripts aren't available for closed conversations when the .txt extension is blocked.
+
 1. Select **OK**.
 
 Now, representatives and customers can share file attachments during their conversation.
