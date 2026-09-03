@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Ask Fabric data agent
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want analysis, trends, or a report over your own business records or quality-evaluation results. The assistant forwards your question to your organization's Microsoft Fabric data agent and returns its answer.
 

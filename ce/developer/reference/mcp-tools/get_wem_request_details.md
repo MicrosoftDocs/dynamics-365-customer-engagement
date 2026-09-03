@@ -1,7 +1,7 @@
 ---
 title: View a Workforce Engagement Management request
 description: Use the WEM agent to open the full form view of a single Workforce Engagement Management request in chat.
-ms.date: 08/11/2026
+ms.date: 08/27/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=wem
 ms.service: dynamics-365-customer-service
@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # View a Workforce Engagement Management request
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-wem.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to see the full details of a specific Workforce Engagement Management (WEM) request directly in chat.
 

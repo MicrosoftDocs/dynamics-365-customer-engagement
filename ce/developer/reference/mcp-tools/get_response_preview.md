@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Copy reply
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability to preview and copy a non-email reply (such as a chat message, phone-call talking points, or internal note) that the assistant has drafted for your case.
 

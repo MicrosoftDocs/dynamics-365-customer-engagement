@@ -1,6 +1,6 @@
 ---
-title: Contact summary
-description: Learn how to use the Contact summary capability in Dynamics 365 Sales.
+title: Get a contact summary
+description: Learn how to get a contact summary in Dynamics 365 Sales.
 ms.date: 09/02/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=sales
@@ -10,7 +10,7 @@ ms.author: rajsp
 ms.reviewer: tmanchanda
 ---
 
-# Contact summary
+# Get a contact summary
 
 **Applies to:** Dynamics 365 Sales
 

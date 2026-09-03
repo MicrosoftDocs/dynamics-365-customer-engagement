@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Case SLA status
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to check the SLA status on a specific case, including how much time remains before breach.
 

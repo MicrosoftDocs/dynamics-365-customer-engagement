@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Save a synonym
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability to add a new column synonym or update an existing one for the Customer Service question-answering skill.
 

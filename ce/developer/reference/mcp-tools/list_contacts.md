@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # List contacts
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to find contacts, review them in chat, and take action without leaving the conversation.
 
@@ -24,6 +26,7 @@ The assistant shows a list of contacts that match your filters. You can filter b
 - Contact status (active or inactive).
 - Parent company.
 - Contact name.
+- Phone number across primary or exhaustive phone-field coverage.
 
 Results appear in an interactive contact list inside chat.
 
@@ -35,6 +38,7 @@ Results appear in an interactive contact list inside chat.
 - List inactive contacts.
 - Show contacts assigned to me.
 - Find Jordan Reyes.
+- Find the contact with phone number +1-555-0142.
 - List all contacts.
 - Show contacts at Fabrikam.
 
@@ -47,6 +51,9 @@ The assistant displays an interactive contact list as an app-in-chat component. 
 - Say "my contacts" or "assigned to me" to see only contacts you own.
 - Use status words like active or inactive to filter results.
 - Use a company name to find contacts at a specific organization, for example "show contacts at Contoso."
+- Use a phone number to match either the business phone or mobile phone field.
+- Ask for exhaustive phone coverage to include readable custom and additional
+  Phone-formatted fields.
 - Combine filters by saying something like "show my active contacts at Fabrikam."
 - If you want a text summary of a contact, say "summarize contact Jordan Reyes" instead.
 
@@ -88,11 +95,11 @@ This tool is available on the Dynamics 365 Customer Service MCP server. See the 
 |---|---|
 | User-facing name | List contacts |
 | Internal tool name | `list_contacts` |
-| Purpose | Lists customer contacts filtered by status, parent company, owner, or name search and renders them in an interactive grid-style app-in-chat experience |
+| Purpose | Lists customer contacts filtered by status, parent company, owner, name, or phone and renders them in an interactive grid-style app-in-chat experience |
 
 ## Tool behavior
 
-Lists customer contacts filtered by status, parent company, owner, or name search and renders them in an interactive grid-style app-in-chat experience. The `search` parameter performs a contains-match against the contact name.
+Lists customer contacts filtered by status, parent company, owner, name, or phone and renders them in an interactive grid-style app-in-chat experience. The `search` parameter performs a contains-match against the contact name. The `phone` parameter checks business phone (`telephone1`) and mobile phone (`mobilephone`) with primary coverage. Exhaustive coverage prioritizes those common fields and searches up to 48 readable Dataverse Phone-formatted fields, including custom fields. Phone matching first checks the stored value exactly, then uses formatting-insensitive comparison for eligible 7-15 digit values. When metadata or field limits, candidate retrieval, or the requested result limit omits matches, the response includes `phoneLookupTruncated: true` and the narration warns that additional matches may exist. The retired `additionalFilter` input is rejected; use the documented first-class filters.
 
 ## Annotations
 
@@ -117,6 +124,18 @@ Lists customer contacts filtered by status, parent company, owner, or name searc
 |---|---|---|
 |—| filter by parent company name (contains match). Use when the user specifies a company or organization. | No |
 
+### Phone
+
+| Input | Description | Required |
+|---|---|---|
+| `phone` | Phone number to match against `telephone1` and `mobilephone`. Duplicate matches are returned for disambiguation. | No |
+
+### Search coverage
+
+| Input | Description | Required |
+|---|---|---|
+| `searchCoverage` | `primary` (default) searches business phone and mobile phone. `exhaustive` searches up to 48 readable Dataverse Phone-formatted fields and reports truncation when more exist. | No |
+
 ### Status
 
 | Input | Description | Required |
@@ -134,12 +153,6 @@ Lists customer contacts filtered by status, parent company, owner, or name searc
 | Input | Description | Required |
 |---|---|---|
 | `top` | `top` (integer). Maximum number of contacts to return. Defaults to 10, max 200. | No |
-
-### Additional filters
-
-| Input | Description | Required |
-|---|---|---|
-| `additionalFilter` | `additionalFilter` (key-value map). Arbitrary OData filter conditions merged with AND. | No |
 
 ## Response and UI behavior
 
@@ -161,6 +174,7 @@ Use `list_contacts` for:
 - Status-based filtering (active, inactive).
 - Company-based filtering.
 - Contact name search.
+- Phone-number lookup.
 
 Don't use `list_contacts` when the prompt explicitly says:
 

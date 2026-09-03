@@ -1,7 +1,7 @@
 ---
 title: Grant foreign namespace
 description: Learn how to add another product's whole toolset to an agent in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+ms.date: 09/02/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=global
 ms.service: dynamics-365-customer-service
@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Grant foreign namespace
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to add another product's entire toolset to an agent, such as adding all Sales tools to a Service agent.
 
@@ -23,7 +23,7 @@ This tool grants or revokes an entire foreign product namespace at the organizat
 ## Try prompts like
 
 - Add all the sales tools to my service agents.
-- Give my service agents the field-service toolset.
+- Give my service agents the customer-insights toolset.
 - Grant the WEM tools at the organization level.
 - Remove the sales tools.
 - Add the whole sales namespace for this profile.
@@ -100,7 +100,7 @@ Grants or revokes an entire foreign product namespace (for example, adding the w
 
 | Input | Description | Required |
 |---|---|---|
-| `namespace` | `namespace` (`service`, `sales`, `field-service`, `wem`, or `customer-insights`, required in each patch). The foreign product namespace to grant or revoke. | Yes |
+| `namespace` | `namespace` (`service`, `sales`, `wem`, `customer-insights`, or `business-research-agent`, required in each patch). The foreign product namespace to grant or revoke. | Yes |
 
 ### Action
 

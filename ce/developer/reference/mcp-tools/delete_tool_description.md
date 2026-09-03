@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Delete tool description overrides
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to remove all configured tool description overrides for the organization. Once deleted, all first-party tools revert to their original descriptions automatically.
 

@@ -1,7 +1,7 @@
 ---
 title: Grant foreign tools
 description: Learn how to add or exclude individual tools from another product in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+ms.date: 09/02/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=global
 ms.service: dynamics-365-customer-service
@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Grant foreign tools
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to add just one or two tools from another product, or exclude specific tools from a namespace you already granted.
 
@@ -22,11 +22,11 @@ This tool grants or revokes individual foreign tools one at a time. You can add 
 
 ## Try prompts like
 
-- Add just the score lead tool from field service.
-- Grant the lead scoring tool only.
-- But don't let them delete sales records.
-- Exclude delete sales record from the granted sales tools.
-- Remove the one field-service tool I added.
+- Add just the qualify lead tool from sales.
+- Grant the lead summary tool only.
+- But don't let them delete entity records.
+- Exclude delete entity record from the granted sales tools.
+- Remove the one sales tool I added.
 
 ## What you'll see in chat
 
@@ -65,7 +65,7 @@ This tool is available on the Dynamics 365 Customer Service MCP server. See the 
 
 ## Tool behavior
 
-Grants or revokes individual foreign tools one by one (for example, adding just the lead-scoring tool from Field Service, or excluding a delete tool from a granted Sales namespace) at organization or profile level. The change is visibility scoping only—RBAC still applies. Profile level requires the service app.
+Grants or revokes individual foreign tools one by one (for example, adding just `qualify_lead` from Sales, or excluding `delete_entity_record` from a granted Sales namespace) at organization or profile level. The change is visibility scoping only—RBAC still applies. Profile level requires the service app.
 
 ## Annotations
 
@@ -100,7 +100,7 @@ Grants or revokes individual foreign tools one by one (for example, adding just 
 
 | Input | Description | Required |
 |---|---|---|
-| `namespace` | `namespace` (`service`, `sales`, `field-service`, `wem`, or `customer-insights`, required in each patch). The foreign tool's product namespace. | Yes |
+| `namespace` | `namespace` (`service`, `sales`, `wem`, `customer-insights`, or `business-research-agent`, required in each patch). The foreign tool's product namespace. | Yes |
 
 ### Tool name
 

@@ -12,15 +12,15 @@ ms.reviewer: laalexan
 
 # Configure agent layout
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
-Use this capability to customize how the Service Agent displays information for all users in your organization.
+Use this capability to customize how the Service Agent displays information for an organization or Application Profile.
 
 ## What it does
 
-The assistant saves a layout configuration that changes how grids, forms, timelines, or picklists appear for everyone in the organization. For example, you can add columns to the case list, rearrange form sections, or configure which activity types appear on the timeline.
+The assistant saves a layout configuration that changes how grids, forms, timelines, or picklists appear. `scope` defaults to `org`; use `scope: "profile"` with `profileId` to target a specific Application Profile. For example, you can add columns to the case list, rearrange form sections, or configure which activity types appear on the timeline.
 
-These configurations apply organization-wide. All agents in your organization see the updated layout.
+Organization configurations apply organization-wide. Profile configurations apply to agents using the selected Application Profile.
 
 ## Try prompts like
 
@@ -38,8 +38,8 @@ The assistant confirms which layout configuration was saved, including the entit
 ## Helpful tips
 
 - Use `browse_agent_config_options` first to discover what configuration options are available.
-- organization-level configurations apply to all users unless overridden by a profile-level or personal preference.
-- You need the Service Agent Maker Customize privilege to save organization-level configurations.
+- Organization-level configurations apply to all users unless overridden by a profile-level or personal preference.
+- You need the Service Agent Maker Customize privilege to save configurations.
 - Use `list_agent_configs` to review what configurations are currently active before making changes.
 
 ## What happens next
@@ -51,8 +51,7 @@ After saving a configuration, you can:
 - Set up a different layout for L1 agents to create profile-specific configurations.
 
 ## Does this change data?
-
-**Yes, this changes configuration data.** The assistant saves a layout configuration that affects how information is displayed for all users in the organization. It doesn't modify case, account, or contact records.
+**Yes, this changes configuration data.** An organization-level configuration affects all users in the organization; a profile-level configuration affects agents using the selected Application Profile. It does not modify case, account, or contact records.
 
 ## Prerequisites
 
@@ -66,11 +65,10 @@ This tool requires the following:
 |---|---|
 | User-facing name | Configure agent layout |
 | Internal tool name | `save_agent_config` |
-| Purpose | Creates or updates an organization-level agent configuration |
+| Purpose | Creates or updates an organization-level or profile-level agent configuration |
 
 ## Tool behavior
-
-Creates or updates an organization-level agent configuration. Translates natural-language layout requests into structured patches applied to grids, forms, timelines, picklists, or lookups for all users in the organization. Use when an organization admin asks to customize layouts at the organization tier.
+Creates or updates an organization-level configuration by default, or a profile-level configuration when `scope: "profile"` and `profileId` are supplied. Translates natural-language layout requests into structured patches applied to grids, forms, timelines, picklists, or lookups.
 
 ## Annotations
 
@@ -82,6 +80,11 @@ Creates or updates an organization-level agent configuration. Translates natural
 | `openWorldHint` | Not set | Uses default. |
 
 ## Input concepts
+### Configuration scope
+| Input | Description | Required |
+|---|---|---|
+| `scope` | Configuration tier: `org` (default) or `profile`. | No |
+| `profileId` | Application Profile UUID. Required when `scope` is `profile`. | For profile scope |
 
 ### Target entity
 
@@ -119,19 +122,19 @@ Creates or updates an organization-level agent configuration. Translates natural
 
 Text-only
 
-No interactive component is rendered. Returns confirmation with the scope key, patch count, and effective configuration summary. The response also includes `propagationDelayMinutes`—the estimated time for the changes to take effect for all users in the organization.
+No interactive component is rendered. Returns confirmation with the scope key, patch count, and effective configuration summary. The response also includes `propagationDelayMinutes` — the estimated time for the changes to take effect for users in the selected tier.
 
 ## Routing notes
 
 Use `save_agent_config` when:
 
-- An organization admin explicitly asks to customize layouts for all users.
-- The request is about organization-wide grid columns, form fields, timeline settings, or picklist visibility.
-- The user has already explored options through `browse_agent_config_options` and is ready to save.
+- An organization admin explicitly asks to customize layouts for all users
+- A maker customizes a specific Application Profile by passing `scope: "profile"` and `profileId`
+- The request is about organization-wide grid columns, form fields, timeline settings, or picklist visibility
+- The user has already explored options via `browse_agent_config_options` and is ready to save
 
 Don't use `save_agent_config` when:
 
-- The user wants to customize for a specific Application Profile. Use `save_profile_config` instead.
 - The user wants to save a personal preference. Use `save_user_prefs` instead.
 - The user is still exploring options. Use `browse_agent_config_options` first.
 
@@ -139,10 +142,9 @@ Don't use `save_agent_config` when:
 
 | Tool | Relationship |
 |---|---|
-| [`list_agent_configs`](list_agent_configs.md) | Lists existing organization-level configurations |
-| [`delete_agent_config`](delete_agent_config.md) | Removes an organization-level configuration |
+| [`list_agent_configs`](list_agent_configs.md) | Lists existing organization-level or profile-level configurations |
+| [`delete_agent_config`](delete_agent_config.md) | Removes an organization-level or profile-level configuration |
 | [`browse_agent_config_options`](browse_agent_config_options.md) | Interactive guide to discover configuration options before saving |
-| [`save_profile_config`](save_profile_config.md) | Saves configurations scoped to an Application Profile |
 | [`save_user_prefs`](save_user_prefs.md) | Saves personal layout preferences |
 | [`get_agent_config_capabilities`](get_agent_config_capabilities.md) | Checks which configuration types are available |
 
@@ -150,4 +152,4 @@ Don't use `save_agent_config` when:
 
 Write.
 
-Creates or updates an organization-level agent configuration record. Affects all users in the organization.
+Creates or updates an organization-level or profile-level agent configuration record, according to `scope`.

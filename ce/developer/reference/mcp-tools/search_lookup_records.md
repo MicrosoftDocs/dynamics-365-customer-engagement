@@ -3,7 +3,7 @@ title: Search lookup records
 description: Learn how to use the Search lookup records capability in Dynamics 365 Customer Service.
 ms.date: 08/11/2026
 ms.topic: reference
-ms.custom: mcp-enabled-namespaces=service
+ms.custom: mcp-enabled-namespaces=service,field-service
 ms.service: dynamics-365-customer-service
 author: dleblond
 ms.author: dleblond
@@ -12,13 +12,15 @@ ms.reviewer: laalexan
 
 # Search lookup records
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you need to find a record to associate with another record, such as setting a customer on a case or assigning an account to an opportunity.
 
 ## What it does
 
-The assistant searches Dynamics 365 records by name so you can pick one to link to another record. This is typically used when you want to:
+The assistant searches Dynamics 365 records by name, or accounts and contacts by phone number, so you can pick one to link to another record. This is typically used when you want to:
 
 - Set or change the customer on a case.
 - Assign an account or contact to a lookup field.
@@ -34,6 +36,7 @@ After the search results appear, the assistant asks you which record to select, 
 - Assign this case to a user named Alex.
 - Set the customer on this case to Jordan Reyes.
 - Find an account named Contoso for this lookup.
+- Find the contact with phone number +1-555-0142 for this lookup.
 - Change the customer to Fabrikam.
 
 ## What you'll see in chat
@@ -43,6 +46,10 @@ The assistant displays a text list of matching records directly in the chat conv
 ## Helpful tips
 
 - You can search across multiple entity types at once, for example both accounts and contacts for a Customer lookup.
+- Phone lookup supports account and contact targets and checks their standard phone fields.
+- Phone lookup uses primary common fields by default. Exhaustive coverage
+  prioritizes those fields and searches up to 48 readable Dataverse
+  Phone-formatted fields, including custom fields.
 - After you pick a record, the assistant uses a separate step to apply the association.
 - For general searching or browsing, say "search for" or "list" instead. This tool is specifically for finding records to link.
 - The assistant asks for confirmation before applying the association.
@@ -75,11 +82,11 @@ This tool is available on the Dynamics 365 Customer Service MCP server. See the 
 |---|---|
 | User-facing name | Search lookup records |
 | Internal tool name | `search_lookup_records` |
-| Purpose | Searches Dataverse records by name to find a specific record for association with another record through a lookup field |
+| Purpose | Searches Dataverse records by name or phone to find a specific record for association with another record through a lookup field |
 
 ## Tool behavior
 
-Searches Dataverse records by name to find a specific record for association with another record through a lookup field. Supports searching across one or many entity types in a single call. Use when the user wants to set, assign, change, or link a lookup field on a record.
+Searches Dataverse records by name, or account and contact records by phone, to find a specific record for association with another record through a lookup field. Supports searching across one or many entity types in a single call. A phone-only request with no entity scope searches both accounts and contacts. Primary phone coverage uses product-curated common fields. Exhaustive coverage prioritizes those fields and searches up to 48 readable Dataverse Phone-formatted fields. When both `search` and `phone` are provided, both predicates must match. When metadata or field limits, candidate retrieval, or the requested result limit omits matches, the response includes `phoneLookupTruncated: true` and the narration warns that additional matches may exist.
 
 ## Annotations
 
@@ -102,13 +109,25 @@ Searches Dataverse records by name to find a specific record for association wit
 
 | Input | Description | Required |
 |---|---|---|
-| `entityLogicalNames` | `entityLogicalNames` (string array, optional). Multiple entity types to search simultaneously (for example, `['account', 'contact']` for Customer lookup fields). Maximum 5 entity types. | No |
+| `entityLogicalNames` | `entityLogicalNames` (string array, optional). Multiple entity types to search simultaneously (for example, `['account', 'contact']` for Customer lookup fields). Maximum 10 entity types. | No |
 
 ### Search term
 
 | Input | Description | Required |
 |---|---|---|
-| `search` | `search` (string, required). Search term to match against the entity primary name. | Yes |
+| `search` | `search` (string). Search term to match against the entity primary name. At least one of `search` or `phone` is required. | Conditional |
+
+### Phone
+
+| Input | Description | Required |
+|---|---|---|
+| `phone` | Phone number for account or contact lookup. When entity scope is omitted, the tool searches both entity types. Accounts check `telephone1`, `telephone2`, and `telephone3`; contacts check `telephone1` and `mobilephone`. At least one of `search` or `phone` is required. | Conditional |
+
+### Search coverage
+
+| Input | Description | Required |
+|---|---|---|
+| `searchCoverage` | `primary` (default) searches curated common phone fields. `exhaustive` searches up to 48 readable Dataverse Phone-formatted fields and reports truncation when more exist. Applies when `phone` is supplied. | No |
 
 ### Result limit
 
@@ -126,7 +145,7 @@ This MCP tool is supported by an MCP app.
 
 Text list of matching records
 
-The response includes matched records with their ID, entity type, display name, and optional secondary text. The assistant presents results and asks the user which record to select.
+The response includes matched records with their ID, entity type, display name, and optional secondary text. Phone results include the matched stored phone value, field, and match type. `phoneLookupTruncated: true` means metadata or field limits, candidate retrieval, or the requested result limit may have omitted additional matches. The assistant presents results and asks the user which record to select.
 
 ## Routing notes
 
@@ -134,6 +153,7 @@ Use `search_lookup_records` for:
 
 - set as, assign as, change to, associate with, link to, set the customer, pick a contact for, find a record to attach.
 - Any prompt where the goal is to find a record for lookup field association.
+- Account or contact lookup association by phone number.
 
 Don't use `search_lookup_records` when the prompt explicitly says:
 

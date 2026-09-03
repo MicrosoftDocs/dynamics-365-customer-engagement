@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Select environment
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 This capability connects your session to a specific Dynamics 365 environment so all your subsequent actions use that organization's data.
 

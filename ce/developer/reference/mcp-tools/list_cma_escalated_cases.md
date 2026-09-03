@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # List AI-escalated cases
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to see cases where the AI agent (Case Management Agent) has gotten stuck and needs your help.
 

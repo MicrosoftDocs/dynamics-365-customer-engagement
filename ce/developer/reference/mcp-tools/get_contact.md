@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # View contact
 
-**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales
+**Applies to:** Dynamics 365 Customer Service and Dynamics 365 Sales
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 

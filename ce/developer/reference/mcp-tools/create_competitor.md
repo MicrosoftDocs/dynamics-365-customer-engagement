@@ -1,5 +1,5 @@
 ---
-title: Create Competitor
+title: Create competitor
 description: Learn how to create a Dynamics 365 Sales competitor record.
 ms.date: 09/02/2026
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.author: ridarbar
 ms.reviewer: tmanchanda
 ---
 
-# Create Competitor
+# Create competitor
 
 **Applies to:** Dynamics 365 Sales
 

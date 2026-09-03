@@ -1,6 +1,6 @@
 ---
-title: Close Quote
-description: Learn how to use the Close Quote capability in Dynamics 365 Sales.
+title: Close quote
+description: Learn how to use the Close quote capability in Dynamics 365 Sales.
 ms.date: 09/02/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=sales
@@ -10,7 +10,7 @@ ms.author: ridarbar
 ms.reviewer: tmanchanda
 ---
 
-# Close Quote
+# Close quote
 
 **Applies to:** Dynamics 365 Sales
 

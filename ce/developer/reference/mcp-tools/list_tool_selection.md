@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # List tool visibility
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to review which tools are visible, hidden, or restored at the organization or profile level.
 

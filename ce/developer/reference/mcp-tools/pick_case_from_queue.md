@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Case—pick from queue
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you're ready to start working on a new case and want the assistant to grab the next one from the queue for you.
 

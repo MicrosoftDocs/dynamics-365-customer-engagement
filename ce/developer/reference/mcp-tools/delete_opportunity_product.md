@@ -1,5 +1,5 @@
 ---
-title: Delete Opportunity Product
+title: Delete opportunity product
 description: Learn how to remove a product line from a Dynamics 365 Sales opportunity.
 ms.date: 09/02/2026
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.author: ridarbar
 ms.reviewer: tmanchanda
 ---
 
-# Delete Opportunity Product
+# Delete opportunity product
 
 **Applies to:** Dynamics 365 Sales
 

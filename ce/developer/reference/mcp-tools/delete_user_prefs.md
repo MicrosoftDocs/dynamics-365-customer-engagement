@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Delete my preference
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability to remove a personal layout preference and revert to the organization or profile default.
 
@@ -104,8 +104,8 @@ Use `delete_user_prefs` when:
 
 Don't use `delete_user_prefs` when:
 
-- The user wants to remove an organization-level configuration. Use `delete_agent_config` instead.
-- The user wants to remove a profile-level configuration. Use `delete_profile_config` instead.
+- The user wants to remove an org-level configuration. Use `delete_agent_config` instead.
+- The user wants to remove a profile-level configuration. Use `delete_agent_config` with `scope: "profile"` instead.
 - The user wants to modify (not remove) a preference. Use `save_user_prefs` instead.
 
 ## Related tools
@@ -114,8 +114,7 @@ Don't use `delete_user_prefs` when:
 |---|---|
 | [`list_user_prefs`](list_user_prefs.md) | Lists existing preferences to identify scope keys |
 | [`save_user_prefs`](save_user_prefs.md) | Creates or updates personal preferences |
-| [`delete_agent_config`](delete_agent_config.md) | Removes organization-level configurations |
-| [`delete_profile_config`](delete_profile_config.md) | Removes profile-level configurations |
+| [`delete_agent_config`](delete_agent_config.md) | Removes org-level or profile-level configurations |
 
 ## Data mutation classification
 

@@ -1,5 +1,5 @@
 ---
-title: Get Product Pricing
+title: Get product pricing
 description: Learn how to read Dynamics 365 Sales product price-list rows.
 ms.date: 09/02/2026
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.author: ridarbar
 ms.reviewer: tmanchanda
 ---
 
-# Get Product Pricing
+# Get product pricing
 
 **Applies to:** Dynamics 365 Sales
 

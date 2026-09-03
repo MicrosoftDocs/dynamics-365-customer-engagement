@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Next best action for case
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you need help deciding what to do next on an open case. The assistant analyzes the case context and suggests the best next steps.
 

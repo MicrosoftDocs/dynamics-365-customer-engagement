@@ -1,6 +1,6 @@
 ---
 title: List agent configurations
-description: Learn how to view organization-level agent configurations in Dynamics 365 Customer Service.
+description: Learn how to view org-level or profile-level agent configurations in Dynamics 365 Customer Service.
 ms.date: 08/11/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=global
@@ -12,13 +12,12 @@ ms.reviewer: laalexan
 
 # List agent configurations
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
-Use this capability to see what organization-level layout customizations are currently active for all agents in your organization.
+Use this capability to see the layout customizations active at the organization or Application Profile level.
 
 ## What it does
-
-The assistant lists all organization-level agent configurations that have been set up by an admin. These configurations affect every user in the organization and include customizations to grids, forms, timelines, and other layout elements. Each configuration shows its scope (what entity and type it applies to), its name, how many changes it includes, and when it was last modified.
+The assistant lists agent configurations at the requested tier. `scope` defaults to `org`; use `scope: "profile"` with `profileId` for a specific Application Profile. Each configuration shows its scope key, name, patch count, and last-modified time.
 
 ## Try prompts like
 
@@ -30,15 +29,13 @@ The assistant lists all organization-level agent configurations that have been s
 - Show agent configs.
 
 ## What you'll see in chat
-
-The assistant responds with a text list of all active organization-level configurations. Each entry shows the scope key (for example, `grid:incident:*`), a human-readable name, the number of patches applied, and the last-modified date.
+The assistant responds with a text list of active configurations at the requested tier. Each entry shows the scope key (for example, `grid:incident:*`), a human-readable name, the number of patches applied, and the last-modified date.
 
 ## Helpful tips
-
-- This shows organization-wide configurations only. For profile-specific or personal preferences, ask separately.
+- Org-wide configurations are listed by default. Specify an Application Profile to list its configurations.
 - Scope keys follow the pattern `type:entity:target` (for example, `grid:incident:*` means "grid configuration for cases, all views").
 - If you want to filter by entity, specify it in your prompt: "list configs for cases" or "show account configurations."
-- Admin permissions are required to modify these configurations, but anyone can view them.
+- The Service Agent Maker Customize privilege is required to view or modify these configurations.
 
 ## What happens next
 
@@ -55,7 +52,7 @@ After seeing the list:
 
 ## Prerequisites
 
-This tool is available on the Dynamics 365 Customer Service MCP server. See the availability note at the top of this page for details. No additional configuration is required.
+This tool is available on the Dynamics 365 Customer Service MCP server. The signed-in user must have the Service Agent Maker Customize privilege.
 
 ## Tool summary
 
@@ -63,11 +60,10 @@ This tool is available on the Dynamics 365 Customer Service MCP server. See the 
 |---|---|
 | User-facing name | List agent configurations |
 | Internal tool name | `list_agent_configs` |
-| Purpose | Lists all organization-level agent configurations |
+| Purpose | Lists org-level or profile-level agent configurations |
 
 ## Tool behavior
-
-Lists all organization-level agent configurations. Shows scope, name, patch count, and last modified date for each customization applied to grids, forms, and timelines. Use when an organization admin asks to review what organization-level customizations are currently active.
+Lists org-level configurations by default, or profile-level configurations when `scope: "profile"` and `profileId` are supplied. Shows scope key, name, patch count, and last-modified date.
 
 ## Annotations
 
@@ -79,6 +75,11 @@ Lists all organization-level agent configurations. Shows scope, name, patch coun
 | `openWorldHint` | Not set | Uses default. |
 
 ## Input concepts
+### Configuration scope
+| Input | Description | Required |
+|---|---|---|
+| `scope` | Configuration tier: `org` (default) or `profile`. | No |
+| `profileId` | Application Profile UUID. Required when `scope` is `profile`. | For profile scope |
 
 ### Entity filter
 
@@ -102,9 +103,10 @@ Use `list_agent_configs` when:
 - You need to show scope keys before a delete operation.
 - The user wants to audit existing organization-level layouts.
 
+For profile-level configurations, call `list_agent_configs` with `scope: "profile"` and the target `profileId`.
+
 Don't use `list_agent_configs` when:
 
-- The user asks about profile-level configurations. Use `list_profile_configs` instead.
 - The user asks about their personal preferences. Use `list_user_prefs` instead.
 - The user wants to explore what's possible. Use `browse_agent_config_options` instead.
 
@@ -112,9 +114,8 @@ Don't use `list_agent_configs` when:
 
 | Tool | Relationship |
 |---|---|
-| [`save_agent_config`](save_agent_config.md) | Creates or updates an organization-level configuration |
-| [`delete_agent_config`](delete_agent_config.md) | Removes an organization-level configuration by scope key |
-| [`list_profile_configs`](list_profile_configs.md) | Lists configurations scoped to an Application Profile |
+| [`save_agent_config`](save_agent_config.md) | Creates or updates an org-level or profile-level configuration |
+| [`delete_agent_config`](delete_agent_config.md) | Removes an org-level or profile-level configuration by scope key |
 | [`list_user_prefs`](list_user_prefs.md) | Lists the current user's personal preferences |
 | [`browse_agent_config_options`](browse_agent_config_options.md) | Interactive guide to available configuration options |
 

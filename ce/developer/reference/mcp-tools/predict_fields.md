@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Predict case fields
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want the AI to suggest values for case fields, such as priority, case type, or subject, based on what the case is about.
 

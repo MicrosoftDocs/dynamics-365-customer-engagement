@@ -36202,7 +36202,31 @@
       "source_path": "ce/developer/reference/mcp-tools/get_case_next_suggestion.md",
       "redirect_url": "/dynamics365/developer/reference/mcp-tools/suggest_next_action_for_case",
       "redirect_document_id": "false"
-    }
-
+    },
+    {
+      "source_path": "ce/developer/reference/mcp-tools/delete_copilot_studio_registration.md",
+      "redirect_url": "/dynamics365/developer/reference/mcp-tools/delete_registration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/reference/mcp-tools/delete_mcp_registration.md",
+      "redirect_url": "/dynamics365/developer/reference/mcp-tools/delete_registration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/reference/mcp-tools/delete_profile_config.md",
+      "redirect_url": "/dynamics365/developer/reference/mcp-tools/delete_agent_config",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/reference/mcp-tools/list_profile_configs.md",
+      "redirect_url": "/dynamics365/developer/reference/mcp-tools/list_agent_configs",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/reference/mcp-tools/save_profile_config.md",
+      "redirect_url": "/dynamics365/developer/reference/mcp-tools/save_agent_config",
+      "redirect_document_id": "false"
+    }   
   ]
 }

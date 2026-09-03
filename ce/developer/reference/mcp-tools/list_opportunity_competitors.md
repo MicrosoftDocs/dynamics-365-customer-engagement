@@ -1,5 +1,5 @@
 ---
-title: List Opportunity Competitors
+title: List opportunity competitors
 description: Learn how to list the competitors linked to a Dynamics 365 Sales opportunity.
 ms.date: 09/02/2026
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.author: ridarbar
 ms.reviewer: tmanchanda
 ---
 
-# List Opportunity Competitors
+# List opportunity competitors
 
 **Applies to:** Dynamics 365 Sales
 

@@ -12,13 +12,15 @@ ms.reviewer: laalexan
 
 # Structure text for case note
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
 
-Use this capability to organize raw notes, investigation logs, or findings into a clean, structured case note before saving it to the case timeline.
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
+
+Use this capability to turn raw notes, investigation logs, or findings into a case note for review before saving it to the case timeline.
 
 ## What it does
 
-The assistant takes your raw text—such as investigation notes, findings, or resolution steps—and returns it for the model to structure into organized sections like Problem, Investigation, Resolution, and Next Steps. The formatted note is shown for your review before saving.
+The assistant takes your raw text—such as investigation notes, findings, or resolution steps—and returns it as a case note for your review and editing before saving. You review the wording and can adjust it, then save it to the case timeline.
 
 This is useful when you have quick notes jotted down during troubleshooting and want to create an organized record before closing a case or adding notes to the timeline.
 
@@ -33,21 +35,21 @@ This is useful when you have quick notes jotted down during troubleshooting and 
 
 ## What you'll see in chat
 
-The assistant returns the formatted note as text in the chat. You can review the structured output and approve it before saving. The assistant also asks which case to save it to if a case reference wasn't provided.
+The assistant returns the note as text in the chat. You can review and edit it before saving. The assistant also asks which case to save it to if a case reference wasn't provided.
 
 ## Helpful tips
 
-- Include as much detail as possible in your raw notes—the more context, the better the structured output.
-- You can ask the assistant to save the formatted note to a case by saying "save this to case CAS-01010-A0A0A0" after reviewing.
-- This is a great step to run before closing a case—use the formatted output as your resolution note.
+- Include as much detail as possible in your raw notes—the more context, the better the note.
+- You can ask the assistant to save the note to a case by saying "save this to case CAS-01010-A0A0A0" after reviewing.
+- This is a great step to run before closing a case—use the reviewed note as your resolution note.
 - If you want to use an organization-defined template instead, ask to "rewrite with a template" for a more formal structured note.
 
 > [!TIP]
-> Combine this with case close: format your notes first, review them, then say "close this case with that note."
+> Combine this with case close: prepare your notes first, review them, then say "close this case with that note."
 
 ## What happens next
 
-After the formatted note appears, you can continue with prompts like:
+After the note appears, you can continue with prompts like:
 
 - Save this note to the case.
 - Close this case with that resolution note.
@@ -109,7 +111,7 @@ Accepts raw agent notes, investigation logs, or findings and returns them as str
 
 Text-only
 
-No interactive component is rendered. The formatted note is returned as text in the chat for the agent to review and approve before saving.
+No interactive component is rendered. The note is returned as text in the chat for the agent to review and edit before saving.
 
 ## Routing notes
 

@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Test MCS agent connection
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 This capability works behind the scenes when you test connectivity to a Copilot Studio agent from the registration management widget.
 
@@ -122,7 +122,7 @@ This tool is exclusively called by the `manage_copilot_studio_registration` widg
 | [`manage_copilot_studio_registration`](manage_copilot_studio_registration.md) | The launcher tool that opens the registration widget |
 | [`save_copilot_studio_registration`](save_copilot_studio_registration.md) | Saves the registration with the tested metadata |
 | [`list_copilot_studio_registration_bots`](list_copilot_studio_registration_bots.md) | Lists available bots for the bot picker |
-| [`delete_copilot_studio_registration`](delete_copilot_studio_registration.md) | Removes an agent registration |
+| [`delete_registration`](delete_registration.md) | Removes an agent registration when `type` is `"mcs"` |
 
 ## Data mutation classification
 

@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Getting started with agent configuration
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you want to explore what you can configure in the agent and understand the available customization options for grids, forms, timelines, picklists, resolution strategies, tool visibility, external MCP tool servers, Copilot Studio agents, and cross-namespace tool grants.
 
@@ -156,22 +156,20 @@ Use `browse_agent_config_options` when:
 
 Don't use `browse_agent_config_options` when:
 
-- The user already knows what they want to save and provides specific details. Route directly to `save_agent_config` or `save_profile_config`.
-- The user asks to list existing configurations. Use `list_agent_configs` or `list_profile_configs`.
+- The user already knows what they want to save and provides specific details. Route directly to `save_agent_config` with the appropriate scope.
+- The user asks to list existing configurations. Use `list_agent_configs` with the appropriate scope.
 - The user asks about their personal preferences. Use `list_user_prefs`.
 
 ## Related tools
 
 | Tool | Relationship |
 |---|---|
-| [`save_agent_config`](save_agent_config.md) | Saves organization-level configurations after discovery |
-| [`save_profile_config`](save_profile_config.md) | Saves profile-level configurations after discovery |
+| [`save_agent_config`](save_agent_config.md) | Saves org-level or profile-level configurations after discovery |
 | [`get_agent_config_capabilities`](get_agent_config_capabilities.md) | Quick permissions check before configuration |
-| [`list_agent_configs`](list_agent_configs.md) | Lists what's already configured at organization level |
-| [`list_profile_configs`](list_profile_configs.md) | Lists what's already configured at profile level |
+| [`list_agent_configs`](list_agent_configs.md) | Lists what's already configured at org or profile level |
 
 ## Data mutation classification
 
 Read-only entry point with downstream mutation potential.
 
-The browsing itself doesn't change data. Follow-up actions (save_agent_config, save_profile_config) triggered from the guided workflow can create or update configurations.
+The browsing itself does not change data. Follow-up `save_agent_config` actions triggered from the guided workflow can create or update configurations.

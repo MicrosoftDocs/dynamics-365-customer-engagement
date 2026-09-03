@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Remove DV QnA tables
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability to remove one or more customer-added Dataverse tables from Customer Service DV QnA.
 

@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Save external MCP registration
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 This capability works behind the scenes when you add or edit an external MCP tool server registration from the registration management widget.
 
@@ -117,7 +117,7 @@ This tool is exclusively called by the `manage_mcp_registration` widget. Don't i
 | Tool | Relationship |
 |---|---|
 | [`manage_mcp_registration`](manage_mcp_registration.md) | The launcher tool that opens the registration widget |
-| [`delete_mcp_registration`](delete_mcp_registration.md) | Removes a registration |
+| [`delete_registration`](delete_registration.md) | Removes an MCP registration when `type` is `"mcp"` |
 | [`test_mcp_registration_connection`](test_mcp_registration_connection.md) | Tests connectivity before saving |
 
 ## Data mutation classification

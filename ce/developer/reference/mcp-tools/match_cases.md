@@ -12,7 +12,9 @@ ms.reviewer: laalexan
 
 # Match cases to email
 
-[!INCLUDE [cc-mcp-tools-compatibility-versioning](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning.md)]
+**Applies to:** Dynamics 365 Customer Service
+
+[!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
 Use this capability when you have an incoming email and want to check if it matches an existing case before deciding whether to link it or create a new one.
 
