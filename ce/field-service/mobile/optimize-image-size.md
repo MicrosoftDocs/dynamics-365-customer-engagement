@@ -1,25 +1,30 @@
 ---
 title: Optimize images for upload
-description: Turn on a user setting to optimize file sizes of images before uploading it to Dataverse.
+description: Optimize image uploads in Field Service mobile on iOS and Android. Enable the setting to compress high-resolution photos during upload to cut bandwidth costs.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 09/23/2025
+ms.date: 08/31/2026
 author: JonBaker007
 ms.author: jobaker
+ms.reviewer: v-wendysmith
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 08/31/2026
+ai-usage: ai-assisted
 ---
 
 # Optimize images for upload
 
-Frontline workers often use high-quality cameras on their mobile devices to take photos of assets and customer locations. The resulting images are often large files with a high resolution and uploading them consumes a lot of network bandwidth and storage. Often, high-resolution images aren't necessary and a compressed version does the job.  
+Frontline workers often use high-quality cameras on their mobile devices to take photos of assets and customer locations. The resulting images are often large files with a high resolution. Uploading these images consumes a lot of network bandwidth and storage. Often, you don't need high-resolution images and a compressed version works well.  
 
-The Dynamics 365 Field Service mobile app on iOS and Android lets technicians turn on image upload optimization to decrease network usage and save on Dataverse storage space. When this option is turned on, the application compresses the image during upload and stores smaller files in Dataverse.
+The Dynamics 365 Field Service mobile app on iOS and Android lets technicians turn on image upload optimization to decrease network usage and save on Dataverse storage space. When you turn on this option, the application compresses the image during upload and stores smaller files in Dataverse.
 
 > [!NOTE]
-> This feature is not supported on the Field Service app for Windows.
+> This feature isn't supported on the Field Service app for Windows.
 
 ## Turn on optimized image upload
 
-1. Open the Field Service mobile app on your mobile app.
+1. Open the Field Service mobile app on your mobile device.
 1. Go to the environment selection menu:
 
    - In the Unified Interface app, open the navigation, select your profile image, and then select **Reconfigure**.
@@ -31,12 +36,12 @@ The Dynamics 365 Field Service mobile app on iOS and Android lets technicians tu
 
 :::image type="content" source="../media/optimize-images-upload.png" alt-text="Screenshot of the Field Service mobile app showing the environment settings options.":::
 
-If enabled, image optimization is applied when uploading images using:
+When enabled, the app optimizes images during upload when you use:
 
 - Timeline
 - Quick notes
 - Inspection
 
-For custom controls in model-driven apps that deal with images, see [Xrm.Device (Client API reference)](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-device).
+For custom controls in model-driven apps that handle images, see [Xrm.Device (Client API reference)](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-device).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
