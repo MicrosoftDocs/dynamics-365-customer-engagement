@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service and SAP integration
 description: Learn how to set up an integration between Dynamics 365 Field Service and SAP applications.
-ms.date: 09/18/2025
+ms.date: 08/31/2026
 ms.topic: integration
 ms.author: jacoh
 author: jasonccohen
