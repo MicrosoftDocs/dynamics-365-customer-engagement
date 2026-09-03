@@ -1,9 +1,10 @@
 ---
 title: Optimization goals in Resource Scheduling Optimization
-description: Learn about how goals are used in Resource Scheduling Optimization.
+description: Optimization goals in Resource Scheduling Optimization define the constraints and objectives that shape every booking. Learn how to create and rank them.
 author: andrewclear-ms
 ms.author: anclear
-ms.date: 08/20/2025
+ms.reviewer: v-wendysmith
+ms.date: 09/03/2026
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
@@ -12,7 +13,7 @@ ms.subservice: resource-scheduling-optimization
 
 An optimization goal defines conditions and expectations that Resource Scheduling Optimization should consider when performing an optimization.
 
-The Resource Scheduling Optimization engine processes a list of resources and a list of resource requirements and existing bookings. It creates the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they meet all constraints respect the importance of the listed objectives in the defined order.
+The Resource Scheduling Optimization engine processes a list of resources and a list of resource requirements and existing bookings. It creates the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they meet all constraints and respect the importance of the listed objectives in the defined order.
 
 ## Create a scheduling optimization goal
 
@@ -30,9 +31,9 @@ Using the elements of a goal, you define how bookings should be optimized.
 
    - **Travel Time Calculation**: The method of calculating travel distance between resources and requirements.
 
-      When using maps, you can include historical traffic information to get more accurate travel time estimates based on past traffic patterns. This option doesn't account for real-time disruptions like road maintenance or accidents. It results in longer processing times and supports up to 500 requirements in the optimization scope. If you have more requirements, split them into smaller chunks and create separate optimization goals with historical traffic for each scope. Due to the longer processing time, it's best to use this option for schedules that run automated off business hours.
+      When you use maps, you can include historical traffic information to get more accurate travel time estimates based on past traffic patterns. This option doesn't account for real-time disruptions like road maintenance or accidents. It results in longer processing times and supports up to 500 requirements in the optimization scope. If you have more requirements, split them into smaller chunks and create separate optimization goals with historical traffic for each scope. Due to the longer processing time, it's best to use this option for schedules that run automated off business hours.
 
-   - [**Constraints**](#understand-constraints): Restrictions that are imposed on the bookings that the system creates.
+   - [**Constraints**](#understand-constraints): Restrictions that the system imposes on the bookings it creates.
 
 1. Select **Save** to create the record.
 
@@ -42,9 +43,9 @@ Using the elements of a goal, you define how bookings should be optimized.
 
 ### Default optimization goal
 
-When Resource Scheduling Optimization is deployed, the system automatically creates a default goal with some constraints and objectives. You can modify it as needed or create a new optimization goal and set it as default.
+When you deploy Resource Scheduling Optimization, the system automatically creates a default goal with constraints and objectives. You can modify this goal or create a new one and set it as the default.  
 
-The default goal is used when single resource optimization is selected from the schedule board.
+Use the default goal when you select single resource optimization from the schedule board.  
 
 Go to **Resource Scheduling Optimization** > **Administration** > **Scheduling Parameter**. Select the **Resource Scheduling Optimization** tab to set the default goal.
 
@@ -52,32 +53,32 @@ Go to **Resource Scheduling Optimization** > **Administration** > **Scheduling P
 
 Resource Scheduling Optimization works with a set of constraints that you can use to define an optimization goal.
 
-### Schedule Within Working Hours
+### Schedule within working hours
 
-Creates the booking if the travel time to the work location and the work itself fit in a resource's working hours. It also includes travel time from the last booking to the resource's end location. However, the travel time at the end of the day isn't represented on the schedule board.
+Creates the booking if the travel time to the work location and the work itself fit in a resource's working hours. This constraint also includes travel time from the last booking to the resource's end location. However, the schedule board doesn't show the travel time at the end of the day.  
 
-If the constraint is removed from the goal, work is still scheduled within working hours, but travel to and from bookings *can* happen outside of the resource's working hours. It might not leave time at the end of the day to travel to the resource's end location. All bookings end within a resource's working hours. For more information, go to [Allow travel time outside of working hours](rso-travel-outside-working-hours.md).
+If you remove this constraint from the goal, the system still schedules work within working hours, but travel to and from bookings can happen outside of the resource's working hours. The schedule might not leave time at the end of the day to travel to the resource's end location. All bookings end within a resource's working hours. For more information, see [Allow travel time outside of working hours](rso-travel-outside-working-hours.md).
 
-### Meets Required Characteristics
+### Meets required characteristics
 
 Ensures that a resource has all the required [characteristics and proficiencies](set-up-characteristics.md) to complete a resource requirement.
 
-### Meets Required Roles
+### Meets required roles
 
 Ensures that a bookable resource has the required roles to complete a resource requirement. If the resource requirement lists more than one role, the system ensures one of the roles matches.
 
-### Scheduling Lock Options (deprecated)
+### Scheduling lock options (deprecated)
 
-The Scheduling Lock constraint is deprecated and will be removed as a constraint option. Selecting this option doesn't have any effect on subsequent Resource Scheduling Optimization runs. For more information on using and troubleshooting the updated booking lock options, go to [Understand the booking lock option in Resource Scheduling Optimization](booking-lock-options.md).
+Deprecated and will be removed as a constraint option. Selecting this option doesn't affect subsequent Resource Scheduling Optimization runs. For more information about using and troubleshooting the updated booking lock options, see [Understand the booking lock option in Resource Scheduling Optimization](booking-lock-options.md).
 
-### Scheduling Windows
+### Scheduling windows
 
-This constraint ensures that Resource Scheduling Optimization creates a booking within the time window of the resource requirement or booking record.
+Ensures that Resource Scheduling Optimization creates a booking within the time window of the resource requirement or booking record.
 
-- **From/To Date** or **Date Window Start/End** set to the same date: Resource Scheduling Optimization schedules the booking on that day but the time of day doesn't matter.
-- **Time Window Start** and **Time Window End** define a time frame: Resource Scheduling Optimization schedules the booking in that time frame but the date doesn't matter.
-- **Time From Promised** and **Time To Promised** are set to a date and a time frame: Resource Scheduling Optimization schedules a booking on the selected date in the selected time range.
-- **Date Window Start/End** and **Time Window Start/End** are set to a time frame on the same day: Resource Scheduling Optimization schedules a booking on the selected date in the selected time range.
+- Set **From/To Date** or **Date Window Start/End** to the same date: Resource Scheduling Optimization schedules the booking on that day but the time of day doesn't matter.
+- Define a time frame with **Time Window Start** and **Time Window End**: Resource Scheduling Optimization schedules the booking in that time frame but the date doesn't matter.
+- Set **Time From Promised** and **Time To Promised** to a date and a time frame: Resource Scheduling Optimization schedules a booking on the selected date in the selected time range.
+- Set **Date Window Start/End** and **Time Window Start/End** to a time frame on the same day: Resource Scheduling Optimization schedules a booking on the selected date in the selected time range.
 - **Empty time values (v3.0+)**: Resource Scheduling Optimization respects scenarios where either the start or end time isn't defined.
 
   For example, if a requirement has only a time window start value, the system schedules the requirement after that time, regardless of date.
@@ -91,24 +92,24 @@ This constraint ensures that Resource Scheduling Optimization creates a booking 
 > [!NOTE]
 > If time and date fields contain conflicting information, Resource Scheduling Optimization uses **Time From/To Promised** first.
 
-### Meets Resource Preferences
+### Meets resource preferences
 
-You can add preferred resources to the requirement entity. For more information, go to [Resource preferences](resource-preferences.md).
+Adds preferred resources to the requirement entity. For more information, see [Resource preferences](resource-preferences.md).
 Resource Scheduling Optimization respects three different types of resource preferences:
 
 - **Preferred**: Scheduling preference for the defined resource, if available, but not guaranteed if a different resource better fits the optimal schedule.
 - **Restricted**: The system doesn't schedule to the resources added to requirements with this resource preference.
 - **Must choose from**: The defined resource gets scheduled if available during the time range. For multiple resources, the system schedules the first that is available. If none of them are available, the requirement doesn't get scheduled.
 
-### Matches Territories
+### Matches territories
 
-Respect the [Territory field](set-up-territories.md) values on the requirement and resource records, and schedule bookings only when the territory values on both records match. A requirement can only belong to one territory, but resources can belong to multiple territories.
+Respects the values in the [Territory field](set-up-territories.md) on the requirement and resource records, and schedules bookings only when the territory values on both records match. A requirement can belong to only one territory, but resources can belong to multiple territories.
 
-### Matches Resource Type
+### Matches resource type
 
-Resource types define how the resource relates to the organization. The system considers the [Resource Type field](set-up-bookable-resources.md) values on the requirement and resource records. It schedules bookings only when the resource type values on both records match.
+Defines how the resource relates to the organization. The system considers the values in the [Resource Type field](set-up-bookable-resources.md) on the requirement and resource records. It schedules bookings only when the resource type values on both records match.
 
-The following resource types are considered for optimization:
+The system considers the following resource types for optimization:
 
 - Users
 - Contacts
@@ -118,35 +119,35 @@ The following resource types are considered for optimization:
 
 ## Understand objectives
 
-Add and rank the objectives of the Resource Scheduling Optimization goal. You can select multiple objectives, but the order matters. The higher it is on the list, the more preference the system gives to the objective.
+Add and rank the objectives of the Resource Scheduling Optimization goal. You can select multiple objectives, but the order matters. The system gives more preference to the objective when it's higher on the list.
 
-### Maximize Total Working Hours
+### Maximize total working hours
 
-The most aggregate work time best meets this objective. Aggregate work is calculated by taking all bookings that were created or updated during the optimization process.
+The aggregate work time best meets this objective. Aggregate work is calculated by taking all bookings that were created or updated during the optimization process.
 
-### Minimize Total Travel Time
+### Minimize total travel time
 
-Iteration with the total lowest aggregate travel time best meets this objective. It considers the travel time for the resource to get back to their end location after their last booking, although this travel time isn't shown on the schedule board.
+Choose the iteration with the lowest total travel time. This iteration considers the travel time for the resource to return to their end location after their last booking, although this travel time doesn't appear on the schedule board.
 
 > [!NOTE]
-> This can't be the first objective in the list because to truly minimize travel time, Resource Scheduling Optimization might not schedule any requirement that requires travel time to meet the first objective.
+> This objective can't be the first objective in the list. To truly minimize travel time, Resource Scheduling Optimization might not schedule any requirement that requires travel time to meet the first objective.
 
-### Locked Bookings (deprecated)
+### Locked bookings (deprecated)
 
-The Locked bookings objective is deprecated and will be removed as a goal option. Selecting this option doesn't have any effect on subsequent Resource Scheduling Optimization runs. For more information on using and troubleshooting the updated booking lock options, go to [Understand the booking lock option in Resource Scheduling Optimization](booking-lock-options.md).
+The Locked bookings objective is deprecated and will be removed as a goal option. Selecting this option doesn't have any effect on subsequent Resource Scheduling Optimization runs. For more information about using and troubleshooting the updated booking lock options, see [Understand the booking lock option in Resource Scheduling Optimization](booking-lock-options.md).
 
-### High Priority Requirements
+### High priority requirements
 
-Prioritize bookings for requirements with the highest score for priority. The priority is set on the *Resource Requirement* record and is an option set with weighted values. Resource Scheduling Optimization checks **Level of Importance** on priority to determine how important that priority is. Example: The Level of Importance is 10 for urgent priority and 1 for low priority. Mathematically speaking, Resource Scheduling Optimization looks at the importance of one urgent requirement (Level of Importance: 10 x Number of requirements: 1) same as that of 10 low-priority requirements (Level of Importance: 1 x Number of requirements: 10).
+Prioritize bookings for requirements with the highest score for priority. Set the priority on the *Resource Requirement* record as an option set with weighted values. Resource Scheduling Optimization checks **Level of Importance** on priority to determine how important that priority is. For example, the Level of Importance is 10 for urgent priority and 1 for low priority. Mathematically speaking, Resource Scheduling Optimization looks at the importance of one urgent requirement (Level of Importance: 10 x Number of requirements: 1) as the same as that of 10 low-priority requirements (Level of Importance: 1 x Number of requirements: 10).
 
 > [!NOTE]
 > This objective doesn't optimize to book all high priority requirements ahead of the others within the day. It only optimizes to ensure that the high priority requirements are booked to the earliest possible day, not the earliest possible time slot within the day.
 
-### Maximize Preferred Resources
+### Maximize preferred resources
 
 Consider the list of [preferred resources](resource-preferences.md) noted on related requirements. The system tries to assign bookings to preferred resources first while meeting other constraints and objectives.
 
-### Best Matching Characteristic Level
+### Best matching characteristic level
 
 Resource Scheduling Optimization considers the proficiency rating level when matching [characteristics](set-up-characteristics.md) required by requirements and the resources who possess those characteristics. If all required characteristics match, the system prioritizes resources with fewer characteristics first to keep resources available with more or unique characteristics for emergency work.
 
@@ -168,7 +169,7 @@ Meets Required Characteristics constraint **not selected**:
 
 The following graphic shows the score distribution, depending on the skill level for a characteristic proficiency model that ranges from 1 to 10. The desired characteristic level is 4, which gets the highest score.
 
-:::image type="content" source="media/scheduling-rso-3-0-characteristic-proficiency-chart.png" alt-text="Graphic with characteristic and score distribution.":::
+:::image type="content" source="media/scheduling-rso-3-0-characteristic-proficiency-chart.png" alt-text="Screenshot of a graphic with characteristic and score distribution.":::
 
 ### Schedule as soon as possible
 

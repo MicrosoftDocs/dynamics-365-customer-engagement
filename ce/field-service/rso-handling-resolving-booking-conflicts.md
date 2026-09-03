@@ -1,11 +1,12 @@
 ---
 title: Resolve booking conflicts in Resource Scheduling Optimization
-description: Learn how to resolve booking conflicts in the Resource Scheduling Optimization add-in for Dynamics 365 Field Service.
-ms.date: 08/05/2025
+description: Booking conflicts in Resource Scheduling Optimization happen when data changes mid-run. Learn how to identify simulation bookings and resolve conflicts fast.
+ms.date: 09/01/2026
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
 author: andrewclear-ms
 ms.author: anclear
+ms.reviewer: v-wendysmith
 ---
 
 # Resolve booking conflicts in Resource Scheduling Optimization

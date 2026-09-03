@@ -1,7 +1,7 @@
 ---
 title: Customer agreements overview
 description: Learn about customer agreements in Dynamics 365 Field Service.
-ms.date: 09/18/2025
+ms.date: 08/28/2026
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -13,22 +13,22 @@ Field Service agreements let organizations automatically generate work orders an
 
 Here are a few different ways agreements can be configured and used. The agreement generates:
 
-- Daily inspection work orders that dispatchers schedule using the schedule board or schedule assistant.
+- Daily inspection work orders that dispatchers schedule by using the schedule board or schedule assistant.
 - Monthly maintenance work orders that Resource Scheduling Optimization automatically schedules.
 - Weekly work orders where the agreement assigns the same resource each time at a defined start time.
 - A single work order each month to inspect multiple customer assets at a customer location.
 - Multiple work orders each year to inspect multiple assets at a customer location.
 - Quarterly invoices to bill customers for predefined products and services.
 
-An agreement is intended to be executed at a single location represented by the service account. Work at different locations should be configured with multiple agreements.
+An agreement is intended to be executed at a single location represented by the service account. Configure work at different locations with multiple agreements.
 
-## Multiple incidents vs multiple recurrences
+## Multiple incidents vs. multiple recurrences
 
 Multiple incidents refer to multiple agreement booking incidents within a single agreement booking setup. Multiple recurrences refer to multiple agreement booking setups with different recurrences, each with one agreement booking incident.
 
 To decide whether to add multiple incidents or multiple recurrences, ask these questions:
 
-- Who performs the work? A single recurrence creates a single work order, whereas multiple recurrences create multiple work orders. If you envision a single person completing the agreement work, then using a single recurrence might be better. You can use incident types with [requirement group templates](/dynamics365/field-service/multi-resource-scheduling-requirement-groups) to help schedule single work orders to multiple resources.
+- Who performs the work? A single recurrence creates a single work order, whereas multiple recurrences create multiple work orders. If you envision a single person completing the agreement work, then using a single recurrence might be better. Use incident types with [requirement group templates](/dynamics365/field-service/multi-resource-scheduling-requirement-groups) to help schedule single work orders to multiple resources.
 
 - How much travel is involved? Multiple recurrences create several work orders, which might lead to more trips and travel than desired.
 
@@ -61,8 +61,10 @@ If you want to use agreements only for invoice generation and not for work order
 Agreements work seamlessly with the Dynamics 365 Sales Lead > Opportunity > Quote > Order process. To set up:
   
 1. Categorize the lead as a service-maintenance lead.
-2. Add opportunity lines with service-based lines.
-3. Create quote lines as service-based lines, and add a quote booking setup.
+1. Add opportunity lines with service-based lines.
+1. Create quote lines as service-based lines, and add a quote booking setup.
+
+Learn more in [Understand the sales process](/dynamics365/sales/nurture-sales-from-lead-order-sales).
 
 ## Generate work orders or invoices
 
