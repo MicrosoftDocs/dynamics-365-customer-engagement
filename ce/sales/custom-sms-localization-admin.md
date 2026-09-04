@@ -46,6 +46,7 @@ Example of **customizations.xml** including channel definition locales:
             "ChannelMessagePart.Text.Description":  "Text part of SMS"}
     </msdyn_localecontent>
   </msdyn_channeldefinitionlocale>
+ </msdyn_channeldefinitionlocales>
 </ImportExportXml>
 ```
 
