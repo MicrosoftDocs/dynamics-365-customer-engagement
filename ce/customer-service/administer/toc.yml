@@ -646,6 +646,8 @@
         href: presence-custom-presence.md
       - name: Enable transfer of conversations
         href: enable-transfer-consult.md
+      - name: Set up consult with AI agents during voice conversations (preview)
+        href: /dynamics365/contact-center/administer/set-up-consult-ai-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Manage pins for queues, external contacts
         href: enable-transfer-consult.md#manage-pins
       - name: Configure file attachments
