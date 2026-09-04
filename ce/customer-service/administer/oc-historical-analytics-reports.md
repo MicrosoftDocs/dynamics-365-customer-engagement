@@ -1,7 +1,7 @@
 ---
 title: Manage omnichannel historical analytics reports in Customer Service
 description: Configure omnichannel historical analytics to analyze service performance, track KPIs, and gain AI insights into customer interactions in Dynamics 365 Customer Service and Contact Center.
-ms.date: 08/25/2026
+ms.date: 09/03/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -93,7 +93,7 @@ On the **Omnichannel historical analytics** page, select **Add historical analyt
 
 ### Enable historical analytics for Quality Assurance Agent
 
-The Quality Assurance Agent dashboard is available in Dynamics 365 Contact Center only.
+The [Quality Assurance Agent dashboard](/dynamics365/contact-center/use/quality-assurance-agent-dashboard) is available in Dynamics 365 Contact Center only.
 
 On the **Omnichannel historical analytics** page, select **Add historical analytics for quality assurance agent**, and save the changes.
 
