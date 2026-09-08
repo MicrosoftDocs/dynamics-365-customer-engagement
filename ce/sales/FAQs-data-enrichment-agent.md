@@ -1,7 +1,7 @@
 ---
-title: Responsible AI FAQ about AI-powered Data Enrichment for opportunities
+title: Responsible AI FAQ about AI-powered Data Enrichment 
 description: Learn about responsible AI considerations for the AI-powered Data Enrichment feature in Dynamics 365 Sales.
-ms.date: 07/20/2026
+ms.date: 09/08/2026
 ms.update-cycle: 180-days
 ms.topic: faq
 ms.service: dynamics-365-sales
@@ -18,22 +18,22 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Responsible AI FAQ about AI-powered Data Enrichment for opportunities
+# Responsible AI FAQ about AI-powered Data Enrichment 
 
 These frequently asked questions help you understand the effect of AI on the AI-powered Data Enrichment feature in Dynamics 365 Sales.
 
 ## What is AI-powered Data Enrichment?
 
-AI-powered Data Enrichment is an AI-driven capability in Dynamics 365 Sales that helps enrich opportunity records with additional business context. It analyzes existing record information, customer emails, and Teams meeting transcripts or AI-generated meeting summaries to suggest or automatically update fields with relevant data that might be missing or incomplete. This feature supports users in maintaining more complete, consistent, and current CRM data.
+AI-powered Data Enrichment is an AI-driven capability in Dynamics 365 Sales that helps enrich Contact, Opportunity, Lead, and Account records with additional business context. It analyzes existing record information, customer emails, and Teams meeting transcripts or AI-generated meeting summaries to suggest or automatically update fields with relevant data that might be missing or incomplete. This feature supports users in maintaining more complete, consistent, and current CRM data.
 
-AI-powered Data Enrichment can map customer conversations and meeting discussions to the correct opportunities, capture deal-related information such as budget, authority, need, and timeline, and add them directly to opportunity records. When configured for automatic updates, users can review and revert changes as needed. The feature doesn't make business decisions on its own, and it logs all enrichment actions for auditing.
+AI-powered Data Enrichment can map customer conversations and meeting discussions to the correct supported records, capture deal-related information such as budget, authority, need, and timeline, and add them directly to records. When configured for automatic updates, users can review and revert changes as needed. The feature doesn't make business decisions on its own, and it logs all enrichment actions for auditing.
 
 ## How is the AI-powered Data Enrichment intended to be used?
 
 AI-powered Data Enrichment is designed to support the following use cases:
 
 - Improving the completeness of CRM records by identifying and suggesting or automatically updating missing or outdated information.
-- Mapping customer emails and Teams meeting discussions to the correct opportunities to reduce missed or delayed CRM updates.
+- Mapping customer emails and Teams meeting discussions to the correct supported records to reduce missed or delayed CRM updates.
 - Supporting data quality initiatives by suggesting or filling gaps in record information.
 - Preserving deal context for future sellers and managers by maintaining up-to-date records.
 
@@ -64,7 +64,7 @@ Specific benchmarks are not provided, as performance depends significantly on th
 AI-powered Data Enrichment has several known limitations:
 
 - **Data quality dependence**: The accuracy and relevance of suggestions depend on the quality, completeness, and currency of source data in Dataverse and connected Microsoft systems.
-- **Conversation data limitations**: For Teams meetings, enrichment is limited to meetings where the primary contact associated with the opportunity was an attendee.
+- **Conversation data limitations**: For Teams meetings, enrichment is limited to meetings where the primary contact associated with the supported record was an attendee.
 - **Scope constraints**: The feature operates only on entities, fields, and languages configured by administrators, which may not cover all business needs.
 - **Potential errors**: Enrichment suggestions may be incorrect, conflicting, or based on probabilistic inference rather than verified facts.
 - **Coverage gaps**: Not all records or fields may receive enrichment suggestions, depending on available data and the content of customer conversations.
