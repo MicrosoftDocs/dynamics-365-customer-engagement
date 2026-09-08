@@ -1,10 +1,10 @@
 ---
 title: Set up and configure AI-powered Data Enrichment
-description: Learn how to set up and configure the AI-powered Data Enrichment feature for opportunity records in Dynamics 365 Sales.
+description: Learn how to set up and configure the AI-powered Data Enrichment feature for Contact, Opportunity, Lead, and Account records in Dynamics 365 Sales.
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 08/18/2026
+ms.date: 09/08/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -13,7 +13,7 @@ ms.collection: bap-ai-copilot
 
 # Set up and configure AI-powered Data Enrichment
 
-As an admin, you can configure AI-powered Data Enrichment to work on specific opportunity records and set preferences for how updates are applied.
+As an admin, you can configure AI-powered Data Enrichment to work on specific Contact, Opportunity, Lead, and Account records and set preferences for how updates are applied.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ Ensure that you meet the following prerequisites:
 <a name="set-up-data-enrichment"></a>
 ## Set up and configure AI-powered Data Enrichment
 
-1. From the Sales Hub app, navigate to **App Settings**.
+1. From the lower-left corner of the Sales Hub app, select **Change Area** > **App Settings**.
 
 1. Under **General Settings**, select **Dynamics 365 AI Hub** and then select **Create and manage agents**.
 1. In the **AI Agents** page, select **Create**.  
@@ -77,23 +77,26 @@ Points to note:
 
 ## Create the agent
 
-1. Select **Create agent**.
-   The Start your Data Enrichment with recommended defaults dialog opens with recommended default settings:    
+1. Select **Create agent**.  
+   A dialog opens with recommended default settings:    
     :::image type="content" source="media/data-enrichment-quick-setup.png" alt-text="Screenshot of the Data Enrichment quick setup dialog box with recommended default settings.":::
     The default settings include:
 
     | Setting | Value |
     |---------|-------|
     | User access | All premium users in your organization |
-    | Target records | Active Opportunities created in the last 30 days |
-    | Action | Enrich BANT-related fields in the opportunity record |
+    | Target records | Active records created in the last 30 days |
+    | Action | Enrich BANT-related fields in the record |
     | Schedule | Runs everyday |
-    | Behavior | Suggests field updates based on email conversations (seller approval required) |
+    | Behavior | Suggests field updates based on email conversations and Teams meetings|
     | Data sources | Outlook, Teams |
+    | Connected skills | Suggested actions, Outlook, Teams |
     
 1. Do *ONE* of the following:
-    - Review the recommended settings and select **Start agent** if the default settings work for your business needs. The agent doesn't analyze any opportunity records, emails, or meeting data until sellers are enrolled. By default, sellers are automatically enrolled when they first open an opportunity record. Enrollment is specific to each seller.
-    - Select **Edit in settings** to customize the configuration. The agent doesn't start until you finish configuring the settings. Learn more about configuring the settings in the [Configure AI-powered Data Enrichment settings](data-enrichment-agent-edit-settings.md) article.
+    - Review the recommended settings and select **Start agent** if the default settings work for your business needs.  
+      The agent doesn't analyze any supported records, emails, or meeting data until sellers are enrolled. By default, sellers are automatically enrolled when they first open a supported record. Enrollment is specific to each seller.
+    - Select **Edit in settings** to customize the configuration.  
+      The agent doesn't start until you finish configuring the settings. To learn more about configuring the settings, see [Configure AI-powered Data Enrichment settings](data-enrichment-agent-edit-settings.md).
 
 ## Grant permissions to sellers
 
@@ -113,8 +116,8 @@ For a custom security role, grant the following permissions:
 | Sales Agent Configuration V2 (`msdyn_salesagentconfigurationv2`), Sales agent profile (`msdyn_salesagentprofile`) | Organization-level - Read |
 | Data Quality Suggestion (`msdyn_dataqualitysuggestion`) | Organization-level - Read; User-level - Write |
 | Data Quality Source (`msdyn_dataqualitysource`) | Organization-level - Read |
-| Target record, currently Opportunity | Read and write at a scope that covers the records the seller uses |
-| Enriched opportunity fields | Read and Update field-level permissions |
+| Target record | Read and write at a scope that covers the records the seller uses |
+| Enriched fields | Read and Update field-level permissions if there are any field-level security restrictions applied to the fields that the agent enriches. |
 
 ## Migrate agents across environments
 
