@@ -9,7 +9,7 @@ ms.custom:
   - bap-template
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: zbanyai
+ms.reviewer: zobanyai
 ms.collection: bap-ai-copilot
 ---
 
