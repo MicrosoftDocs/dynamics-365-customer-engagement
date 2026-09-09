@@ -10,6 +10,8 @@ ai-usage: ai-assisted
 
 # Schedule board tab settings
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[topic-fs-schedule-board-tab-settings.md](../shared/urs/schedule-board-tab-settings.md)]
 
 

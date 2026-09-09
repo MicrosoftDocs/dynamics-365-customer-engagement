@@ -11,6 +11,8 @@ ms.reviewer: v-wendysmith
 
 # Schedule assistant overview
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[schedule-assistant](../shared/urs/schedule-assistant.md)]
 
 ## When to use the schedule assistant

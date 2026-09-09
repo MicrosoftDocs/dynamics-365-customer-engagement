@@ -10,7 +10,7 @@ ms.custom:
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: zobanyai
-ms.collection: bap-ai-copilot
+ai-usage: ai-assisted
 ---
 
 # Access and set up Dynamics 365 Activate (preview)

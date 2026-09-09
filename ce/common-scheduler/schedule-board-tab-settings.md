@@ -10,6 +10,8 @@ ms.date: 11/24/2025
 
 # Configure the schedule board tab settings in Universal Resource Scheduling
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[topic-urs-schedule-board-tab-settings.md](../shared/urs/schedule-board-tab-settings.md)]
 
 

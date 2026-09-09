@@ -10,7 +10,7 @@ ms.custom:
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: zobanyai
-ms.collection: bap-ai-copilot
+ai-usage: ai-assisted
 ---
 
 # Step 6: Deploy the Dynamics 365 schema for migration (preview)

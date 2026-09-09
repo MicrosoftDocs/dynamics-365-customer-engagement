@@ -10,6 +10,8 @@ ms.author: mkelleher
 
 # Enable an entity for scheduling in Universal Resource Scheduling
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[topic-urs-schedule-new-entity.md](../shared/urs/schedule-new-entity.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -10,6 +10,8 @@ ms.author: mkelleher
 
 # Schedule work with multiple resources using requirement groups in Universal Resource Scheduling
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[multi-resource](../shared/urs/multi-resource-scheduling.md)]
 
 

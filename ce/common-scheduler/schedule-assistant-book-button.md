@@ -10,6 +10,8 @@ ms.author: mkelleher
 
 # Launch the schedule assistant in Universal Resource Scheduling
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[schedule-assistant-book-button](../shared/urs/schedule-assistant-book-button.md)]
 
 ## Next steps

@@ -11,6 +11,8 @@ ms.reviewer: v-wendysmith
 
 # Show account names on booking details in Universal Resource Scheduling
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[interday booking details](../shared/urs/interday-booking-details.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

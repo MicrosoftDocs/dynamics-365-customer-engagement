@@ -10,6 +10,8 @@ ms.reviewer: v-wendysmith
 
 # Review resource utilization metrics on the schedule board
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[topic-urs-schedule-board-utilization.md](../shared/urs/schedule-board-utilization.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

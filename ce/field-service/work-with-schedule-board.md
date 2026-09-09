@@ -11,6 +11,8 @@ ai-usage: ai-assisted
 
 # Use the schedule board in Field Service
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[use-schedule-board](../shared/urs/use-schedule-board.md)]
 
 ## View appointments on the schedule board

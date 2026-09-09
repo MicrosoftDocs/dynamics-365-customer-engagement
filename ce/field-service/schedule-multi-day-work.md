@@ -10,6 +10,8 @@ ms.author: mkelleher
 
 # Schedule work over multiple days
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[schedule-multi-day-work](../shared/urs/schedule-multi-day-work.md)]
 
 ## Related scenarios

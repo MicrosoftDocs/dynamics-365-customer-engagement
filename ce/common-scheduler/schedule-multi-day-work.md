@@ -14,6 +14,8 @@ ms.author: mkelleher
 
 # Schedule multi-day work or requirements in Universal Resource Scheduling
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[schedule-multi-day-work.md](../shared/urs/schedule-multi-day-work.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

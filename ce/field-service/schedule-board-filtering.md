@@ -10,6 +10,8 @@ ms.author: mkelleher
 
 # Filter resources and requirements on the schedule board
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[schedule-board-filtering](../shared/urs/schedule-board-filtering.md)]
 
 ## Next steps

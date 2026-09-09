@@ -11,6 +11,8 @@ ms.reviewer: v-wendysmith
 
 # Schedule resource pools
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[resource-pools](../shared/urs/resource-pools.md)]
 
 ## Related scenarios

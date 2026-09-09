@@ -10,6 +10,7 @@ ms.author: mkelleher
 
 # Review resource utilization on the schedule board in Universal Resource Scheduling
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
 [!INCLUDE[topic-urs-schedule-board-utilization.md](../shared/urs/schedule-board-utilization.md)]
 
 
