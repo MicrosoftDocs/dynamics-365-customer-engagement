@@ -10,6 +10,8 @@ ms.author: mkelleher
 
 # Drag and drop scheduling on the schedule board in Universal Resource Scheduling
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[schedule-board-drag-drop](../shared/urs/schedule-board-drag-drop.md)]
 
 ## Next steps

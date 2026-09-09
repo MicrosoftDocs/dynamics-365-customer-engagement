@@ -11,6 +11,8 @@ ms.author: mkelleher
 
 # Advanced filters for the schedule assistant in Universal Resource Scheduling
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[schedule-assistant-advanced-filters.md](../shared/urs/schedule-assistant-advanced-filters.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

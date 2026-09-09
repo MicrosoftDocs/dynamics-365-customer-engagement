@@ -5,7 +5,7 @@ ms.date: 06/17/2026
 ms.topic: overview
 author: vhorvathms
 ms.author: vhorvath
-ms.reviewer: mhart
+ms.reviewer: v-wendysmith
 ---
 
 # License compliance overview

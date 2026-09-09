@@ -1,10 +1,11 @@
 ---
 title: Submit and approve time-off requests
-description: Discover how to submit and approve time-off requests in Dynamics 365 Field Service
-ms.date: 09/29/2025
+description: Time-off requests in Dynamics 365 Field Service keep your schedule board accurate. Learn how to submit, approve, edit, and view time off for resources.
+ms.date: 09/04/2026
 ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan
+ms.reviewer: v-wesmith
 ---
 # Submit and approve time-off requests
 
@@ -28,7 +29,7 @@ If a resource must have their time-off requests approved before their time shows
    - **Yes**: Indicates the time-off must be approved first.
    - **No**: Indicates the time-off takes effect immediately. No is the default value.
 
-   :::image type="content" source="media/time-off-resource.svg" alt-text="Screenshot of a bookable resource with the Time Off Approval Required field set to yes.":::
+   :::image type="content" source="media/time-off-resource.png" alt-text="Screenshot of a bookable resource with the Time Off Approval Required field set to yes.":::
 
 1. Select **Save & Close**.
 
@@ -46,7 +47,7 @@ If the related resource requires approval, a **Field Service Administrator** or 
 
 1. In the **Active Time Off Requests** view, select a request.
 
-   :::image type="content" source="media/time-off-approve.svg" alt-text="Screenshot of active time-off requests highlighting the Approve option.":::
+   :::image type="content" source="media/time-off-approve.png" alt-text="Screenshot of active time-off requests highlighting the Approve option.":::
 
 1. Select **Approve**. When the approval is completed, select **OK**.
 
@@ -56,13 +57,13 @@ Approved time-off requests change to *Inactive* status. You can find inactive re
 
 Once the time-off request is created or approved, depending on whether the resource requires approval or not, the resource's time-off time range shows as unavailable on the schedule board.
 
-:::image type="content" source="media/time-off-schedule-board.svg" alt-text="Screenshot of the schedule board showing time-off greyed out.":::
+:::image type="content" source="media/time-off-schedule-board.png" alt-text="Screenshot of the schedule board showing time-off greyed out.":::
 
 These time-off hours are displayed and treated the same as nonworking hours.
 
 ## Edit or delete a time-off request
 
-Time-off requests can only be edited or deleted from the resource's calendar. Once submitted, you can't edit a time-off from the Field Service mobile app while it's running in offline mode. Deleting a time-off request record doesn't delete the time-off from the schedule board or resource's calendar.
+You can only edit or delete time-off requests from the resource's calendar. After you submit a time-off request, you can't edit it from the Field Service mobile app while it's running in offline mode. Deleting a time-off request record doesn't delete the time-off from the schedule board or resource's calendar.
 
 1. In the **Resources** area of the Field Service app, select **Resource** > **Resources**.
 
@@ -70,7 +71,7 @@ Time-off requests can only be edited or deleted from the resource's calendar. On
 
 1. Select the time-off.
 
-   :::image type="content" source="media/time-off-edit-delete.svg" alt-text="Screenshot of the monthly view of a resource's work hours, showing the edit and delete option.":::
+   :::image type="content" source="media/time-off-edit-delete.png" alt-text="Screenshot of the monthly view of a resource's work hours, showing the edit and delete option.":::
 
 1. Select **Edit** or **Delete** to edit the time-off or delete it. Then select **Save & Close**.
 

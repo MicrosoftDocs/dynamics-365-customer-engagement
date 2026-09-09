@@ -10,6 +10,8 @@ ms.author: mkelleher
 
 # Manually schedule from the schedule board
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[schedule-board-manual-scheduling](../shared/urs/schedule-board-manual-scheduling.md)]
 
 ## Rebook a scheduled requirement

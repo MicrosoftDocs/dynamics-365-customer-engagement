@@ -10,6 +10,8 @@ ms.author: mkelleher
 
 # Manual scheduling on the schedule board in Universal Resource Scheduling
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[schedule-board-manual-scheduling](../shared/urs/schedule-board-manual-scheduling.md)]
 
 ## Next steps

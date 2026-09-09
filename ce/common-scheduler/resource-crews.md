@@ -11,6 +11,8 @@ ms.reviewer: puneet-singh1
 
 # Schedule work with resource crews in Universal Resource Scheduling
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[topic-urs-resource-crews.md](../shared/urs/resource-crews.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

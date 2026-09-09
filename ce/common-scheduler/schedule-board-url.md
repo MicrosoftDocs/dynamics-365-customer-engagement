@@ -11,6 +11,8 @@ ms.reviewer: v-wendysmith
 
 # Configure the schedule board to open from a URL in Universal Resource Scheduling
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[topic-schedule-board-URL-parameters.md](../shared/urs/schedule-board-URL-parameters.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

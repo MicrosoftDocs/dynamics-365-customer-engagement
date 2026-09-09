@@ -10,6 +10,8 @@ ms.author: mkelleher
 
 # Schedule a facility
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[facility-scheduling](../shared/urs/facility-scheduling.md)]
 
 For detailed setup examples, see [Facility scheduling examples](facility-scheduling-examples.md).

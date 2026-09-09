@@ -10,6 +10,8 @@ ms.author: mkelleher
 
 # Customize the schedule board with a custom resource attribute
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[topic-urs-extend-schedule-board-custom-resource-attribute.md](../shared/urs/extend-schedule-board-custom-resource-attribute.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

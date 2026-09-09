@@ -11,6 +11,8 @@ ms.author: mkelleher
 
 # Schedule a facility in Universal Resource Scheduling
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[topic-urs-facility-scheduling.md](../shared/urs/facility-scheduling.md)]
 
 

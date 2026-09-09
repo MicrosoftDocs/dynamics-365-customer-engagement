@@ -10,6 +10,8 @@ ms.author: mkelleher
 
 # Schedule bookings within time constraints
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[schedule-time-constraints](../shared/urs/schedule-time-constraints.md)]
 
 ## Next steps
