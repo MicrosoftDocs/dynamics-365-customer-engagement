@@ -1,90 +1,92 @@
 ---
-title: Copy an environment that includes omnichannel environment
+title: Copy an environment with omnichannel capabilities
 description: Follow these steps to create a copy of a Dynamics 365 environment that includes omnichannel capabilities.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: 
-ms.date: 05/08/2026
+ms.date: 09/09/2026
 ms.custom: bap-template
 ai.usage: ai-assisted
 ---
 
-# Copy an environment that includes omnichannel environment
+# Copy an environment with omnichannel capabilities
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-Omnichannel capabilities in Dynamics 365 Contact Center and Dynamics 365 Customer Service let you integrate external services and channels such as WhatsApp, Twilio, and Azure Communication Services. The integration parameters are stored in Dataverse tables. To create a copy of an environment that contains omnichannel capabilities, you can use the standard copy feature of model-driven apps. The integration parameters are copied to the new environment. However, you need to perform some additional steps to make sure that the copied environment works correctly. For example, if you have digital messaging channels, you need to delete and configure them again.
-
-## Prerequisites
-
-- [Omnichannel for Customer Service is configured in both the source and the target environment](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
-- Both the source and the target environment have the same set of channels enabled.
-- [If you use unified routing, it's turned on in both the source and the target environment](../administer/provision-unified-routing.md).
+Omnichannel capabilities in Dynamics 365 Contact Center and Dynamics 365 Customer Service let you integrate external services and channels such as WhatsApp, Twilio, and Azure Communication Services. The integration parameters are stored in Dataverse tables. To create a copy of an environment that contains omnichannel capabilities, use the standard copy feature of model-driven apps. The integration parameters are copied to the new environment. However, you need to perform some extra steps to ensure that the copied environment works correctly.
 
 ## Copy the environment from the source
 
 [Copy an environment](/power-platform/admin/copy-environment) and choose one of the following copy options:
 
 - **Minimal copy**. Schemas and customizations only are copied. The source data isn't copied. [Turn off the channels](/dynamics365/contact-center/implement/provision-channels#turn-off-channels) and turn them back on. You can then create the channels and workstreams in the target environment, and no corrections are needed.
-- **Full copy**. Everything in the source is copied. You need to [make a few corrections in the target environment](#configure-the-target-environment-after-copying-from-the-source) before you can start using it.
+- **Full copy**. Everything in the source is copied. Review and update the target environment before you start using it.
 
-## Configure the target environment after copying from the source
+## Configure the target environment after the copy
 
-If you chose the full copy option, it can take up to an hour for the data to appear in the target environment.
+When the copy is complete, channels enabled in the source environment are provisioned in the target environment. Configuration such as workstreams, queues, security roles, queue memberships, and capacity-related settings are copied with the environment. Review this configuration before you enable the target environment for production use.
 
-1. [Review and update the users, role mappings, and capacity profiles](../administer/users-user-profiles.md) in the target environment.
+- Review users, security role assignments, queue memberships, and capacity profiles in the target environment.
+- Confirm that copied workstreams and queues contain the correct target-environment configuration.
+- Update each channel that uses an environment-specific resource, account, phone number, agent, or website integration.
+- Test routing and conversation handling in the target environment before you make it available to users.
 
-1. Review the queues and update the customer service representative memberships for representative assignments. Learn more in the following articles:
+> [!NOTE]
+> Copy operation of record-routing configuration isn't currently supported. Configure and validate record routing or unified routing separately in the target environment.
 
-    - [Create and manage queues for cases](../administer/set-up-queues-manage-activities-cases.md)
-    - [Create and manage queues for unified routing](../administer/queues-omnichannel.md)
+### Voice channel with Azure Communication Services
 
-1. If you have live chat configured in your source environment, update the live chat widget snippets in your website or portal to point to the target environment.
+If the source environment has a voice channel, the target environment is provisioned for voice. However, Azure Communication Services resources and phone numbers are specific to an environment. Connect the target environment to its own Azure Communication Services resource, assign a phone number, and associate the number with the appropriate workstream.
 
-    The live chat widget snippets in the source are regenerated in the target environment. Make sure that you copy the new scripts from the target environment and update your website code to use them.
+> [!IMPORTANT]
+> When you copy an environment with a configured voice channel, the Azure Communication Services resource is also copied. You can use one resource in one environment only. Therefore, disconnect the Azure Communication Services resource in the target environment. Otherwise, it can cause issues with the voice channel setup in both the source and target environments.
 
-1. Make sure that the user features and chat settings are updated for the chat channel configuration in the target environment.
+### Voice channel with Teams Phone
 
-1. Recreate the channel configurations for each channel in the target environment. [Delete the existing channel or page](../administer/delete-channel.md) and dissociate the channel from the corresponding channel-specific workstream. Configure the channel again, and then update the channel-specific workstream with the newly configured channel.
+For a voice channel that uses Teams Phone, configure a target-specific Teams phone number and the required integration identifiers. Then associate the newly configured number with the copied workstream and test inbound calling.
 
-   > [!IMPORTANT]
-   > When you copy an environment with a configured voice channel, the Azure Communication Services resource is also copied. You can use one resource in one environment only. Therefore, disconnect the Azure Communication Services resource in the target environment. Otherwise, it can cause issues with the voice channel setup in both the source and target environments.
+### Chat channel
 
+A new chat widget configuration is generated for the target environment. Replace the source-environment widget snippet on your website or portal with the snippet generated in the target environment. Review the chat settings and test the widget before you use it.
 
-    - Voice:
-      - [Configure a new voice channel](../administer/voice-channel-inbound-calling.md)
-      - [Disconnect from Azure Communication Services resources](../administer/voice-channel-disconnect-from-acs.md)
-      - [Connect to a different Azure Communication Services resource](../administer/voice-channel-acs-resource.md)
-    - [Configure a new WhatsApp channel](../administer/configure-whatsapp-channel.md)
-    - [Configure a new Facebook channel](../administer/configure-facebook-channel.md)
-    - [Configure a LINE channel](../administer/configure-line-channel.md)
-    - [Configure an Apple Messages for Business channel](../administer/configure-apple-messages-for-business-channel.md)
-    - [Configure a Microsoft Teams channel](../administer/configure-microsoft-teams.md)
-    - [Configure a custom channel](../develop/bring-your-own-channel.md)
-    - [Configure an SMS channel using Azure Communication Services](../administer/configure-sms-channel-acs.md)
-    - [Configure an SMS channel for Twilio](../administer/configure-sms-channel-twilio.md)
+### Microsoft Teams channel
+
+The copied messaging account can continue to reference the agent or application from the source environment. To prevent cross-environment dependencies, recreate the Microsoft Teams channel configuration in the target environment.
+
+1. Delete or disconnect the copied messaging account in the target environment.
+1. Create a messaging account and channel configuration for the target environment.
+1. Associate the new channel configuration with the copied workstream.
+1. Configure the target-environment agent for the Microsoft Teams channel, including the required app features, scopes, and authentication settings.
+1. Add the agent to Microsoft Teams and verify that conversations are routed correctly.
+
+For configuration instructions, see [Configure a Microsoft Teams channel](../administer/configure-microsoft-teams.md).
+
+### Channel resources
+
+- [Configure a new voice channel](../administer/voice-channel-inbound-calling.md)
+- [Disconnect from Azure Communication Services resources](../administer/voice-channel-disconnect-from-acs.md)
+- [Connect to a different Azure Communication Services resource](../administer/voice-channel-acs-resource.md)
+- [Configure a new WhatsApp channel](../administer/configure-whatsapp-channel.md)
+- [Configure a new Facebook channel](../administer/configure-facebook-channel.md)
+- [Configure a LINE channel](../administer/configure-line-channel.md)
+- [Configure an Apple Messages for Business channel](../administer/configure-apple-messages-for-business-channel.md)
+- [Configure a Microsoft Teams channel](../administer/configure-microsoft-teams.md)
+- [Configure a custom channel](../develop/bring-your-own-channel.md)
+- [Configure an SMS channel using Azure Communication Services](../administer/configure-sms-channel-acs.md)
+- [Configure an SMS channel for Twilio](../administer/configure-sms-channel-twilio.md)
 
 ## Configure Copilot agents in the target environment
 
-1. Delete any AI agents (agents) in Copilot Studio in all workstreams and the environment.
+Agent configuration is copied to the target environment, and a target-environment agent can be provisioned with the copied capabilities. Review the agent, connections, authentication, and workstream associations in the target environment before you use it.
 
-1. [Create an AI agent](../administer/manage-your-bots.md#add-an-agent) or connect a previously configured agent that's specific to the target environment and configure with channel workstreams.
+1. Open the copied agent in the target environment and confirm that its capabilities and connections are valid.
+1. Update any connection, authentication, or environment-specific setting that still references the source environment.
+1. Confirm that each workstream is associated with the intended target-environment agent.
+1. Publish the agent and test escalation and routing scenarios.
 
-1. Update the workstreams to use the new agent.
-
-> [!NOTE]
-> To use the same agent in Copilot Studio in the target environment, reconnect it to the new environment, and then follow [the configuration steps](/microsoft-copilot-studio/configuration-hand-off-omnichannel?tabs=webApp#manage-your-copilots-omnichannel-capabilities) to disconnect and reconnect the application. If you reconnect the agent to another environment, it will break the source environment.
-
-> [!NOTE]
-> When you copy an organization, the survey agents from the source environment won't be functional in the target environment. For survey agents to work as expected, create new survey agents in the target environment. Learn more in [Configure feedback surveys using Copilot Studio](/dynamics365/contact-center/administer/configure-surveys).
-
-## Configure AI agents in Azure in the target environment
-
-1. Delete any agents in Azure in all workstreams and the environment.
-
-1. Reconnect the agent following the steps in [Configure the agent user](../administer/configure-bot-azure.md#integrate-azure-agents-with-contact-center).
+To create or add a different agent, see [Add an agent](../administer/manage-your-bots.md#add-an-agent), and then update the relevant workstreams.
 
 ## Configure real-time and historical analytics
 
@@ -92,6 +94,6 @@ If you chose the full copy option, it can take up to an hour for the data to app
 
 1. To make sure that [historical analytics reports](../administer/oc-historical-analytics-reports.md) reflect information in the target environment, on the historical analytics page in the Copilot Service admin center, turn off **Enable Omnichannel historical analytics report**, and then turn it back on.
 
-### Related information
+## Related information
 
-- [Export and import app configuration data](export-import-omnichannel-data.md)
+[Export and import app configuration data](export-import-omnichannel-data.md)  
