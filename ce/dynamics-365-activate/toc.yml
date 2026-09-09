@@ -1,0 +1,35 @@
+items:
+  - name: Dynamics 365 Activate (preview)
+    items:
+      - name: Dynamics 365 Activate overview (preview) 
+        href: dynamics-365-activate-overview.md
+      - name: Salesforce to Dynamics 365 migration (preview)
+        items:
+          - name: Overview
+            href: migrate-salesforce-to-dynamics-365-overview.md
+          - name: Access and set up the application
+            href: migrate-salesforce-to-dynamics-365-access-setup.md
+          - name: Manage workspaces
+            href: manage-workspaces.md
+          - name: Migrating from Salesforce to Dynamics 365
+            items:
+              - name: How to migrate from Salesforce to Dynamics 365
+                href: migrate-salesforce-to-dynamics-365-quick-start.md
+              - name: Step 1 - Set up Bring Your Own Storage (Optional)
+                href: migrate-salesforce-to-dynamics-365-byos.md
+              - name: Step 2 - Connect to Salesforce and run discovery
+                href: migrate-salesforce-to-dynamics-365-connect-salesforce.md
+              - name: Step 3 - Connect to Dynamics 365 and run discovery
+                href: migrate-salesforce-to-dynamics-365-connect-dynamics.md
+              - name: Step 4 - Map objects and fields
+                href: migrate-salesforce-to-dynamics-365-object-mapping.md
+              - name: Step 5 - Map Salesforce users to Dynamics 365 users
+                href: migrate-salesforce-to-dynamics-365-user-mapping.md
+              - name: Step 6 - Deploy the schema solution
+                href: migrate-salesforce-to-dynamics-365-solution-deployment.md
+              - name: Step 7 - Migrate data and verify results
+                href: migrate-salesforce-to-dynamics-365-migration-verification.md
+              - name: Step 8 - Clean up after migration
+                href: migrate-salesforce-to-dynamics-365-cleanup.md
+              - name: Security and data handling
+                href: migrate-salesforce-to-dynamics-365-security.md
