@@ -70,7 +70,7 @@
           href: /dynamics365/contact-center/implement/provision-channels?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml   
         - name: Export and import app configuration data
           href: export-import-omnichannel-data.md
-        - name: Copy an environment with Omnichannel for Customer Service
+        - name: Copy an environment with omnichannel capabilities
           href: copy-environment-with-omnichannel.md
         - name: Reset, restore, recover omnichannel environments
           href: /dynamics365/contact-center/implement/restore-environment?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml   
