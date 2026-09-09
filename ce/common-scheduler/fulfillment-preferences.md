@@ -10,6 +10,8 @@ ms.author: chenryan
 
 # Set fulfillment preferences to determine how results are displayed in Universal Resource Scheduling
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[topic-urs-fulfillment-pref.md](../shared/urs/fulfillment-pref.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

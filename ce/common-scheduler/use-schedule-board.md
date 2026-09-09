@@ -10,6 +10,8 @@ ms.author: mkelleher
 
 # Experience the schedule board in Universal Resource Scheduling
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[use-schedule-board](../shared/urs/use-schedule-board.md)]
 
 ## Next steps

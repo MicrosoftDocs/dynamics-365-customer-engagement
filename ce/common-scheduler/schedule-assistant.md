@@ -10,6 +10,8 @@ ms.author: mkelleher
 
 # Overview of the schedule assistant in Universal Resource Scheduling
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[schedule-assistant](../shared/urs/schedule-assistant.md)]
 
 ## Next steps

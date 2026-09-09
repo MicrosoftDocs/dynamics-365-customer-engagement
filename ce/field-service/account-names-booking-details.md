@@ -11,6 +11,8 @@ ms.author: mkelleher
 
 # Show account names on booking template
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[interday booking details](../shared/urs/interday-booking-details.md)]
 
 ## Next steps

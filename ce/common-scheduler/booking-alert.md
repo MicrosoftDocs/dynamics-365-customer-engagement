@@ -10,6 +10,8 @@ ms.author: mkelleher
 
 # Create and view booking alerts in Universal Resource Scheduling
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[topic-urs-booking-alert.md](../shared/urs/booking-alert.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

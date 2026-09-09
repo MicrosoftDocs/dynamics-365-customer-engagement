@@ -11,6 +11,8 @@ ms.author: mkelleher
 
 # Edit schedule board booking templates
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[topic-urs-booking-template.md](../shared/urs/booking-template.md)]
 
 ## Next steps

@@ -9,6 +9,8 @@ ms.author: mkelleher
 
 # Quickly schedule work orders and requirements
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[topic-urs-quick-scheduling.md](../shared/urs/quick-scheduling.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

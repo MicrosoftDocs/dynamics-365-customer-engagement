@@ -11,6 +11,8 @@ ms.reviewer: v-wesmith
 
 # Schedule crews
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[resource-crews](../shared/urs/resource-crews.md)]
 
 ## Related scenarios

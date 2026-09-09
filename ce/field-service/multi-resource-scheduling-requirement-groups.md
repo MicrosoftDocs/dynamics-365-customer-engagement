@@ -10,6 +10,8 @@ ms.author: mkelleher
 
 # Schedule multiple resources with requirement groups
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
 [!INCLUDE[multi-resource](../shared/urs/multi-resource-scheduling.md)]
 
 ## Requirement groups for Field Service scenarios

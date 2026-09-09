@@ -1,7 +1,7 @@
 ---
 title: Feature deprecations
 description: Learn about features that are being deprecated for Dynamics 365 Field Service.
-ms.date: 12/19/2025
+ms.date: 09/01/2026
 ms.update-cycle: 1095-days
 ms.topic: article
 ms.custom: bap-template
@@ -11,20 +11,20 @@ author: vhorvathms
 
 # Feature deprecations
 
-Features that have been deprecated in Dynamics 365 Field Service are listed in this article.
+This article lists features that are deprecated in Dynamics 365 Field Service.
 
 > [!IMPORTANT]
-> "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it's officially removed. This deprecation notification spans at least six months. After removal, the feature or capability will no longer work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+> "Deprecated" means Microsoft plans to remove the feature or capability in a major future release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification spans at least six months. After removal, the feature or capability no longer works. Microsoft is notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
 ## Dynamics 365 Guides and Remote Assist applications - December 19, 2025
 
-Dynamics 365 Guides and Remote Assist will no longer be available after December 31, 2026. Learn more at [Dynamics 365 Guides and Remote Assist reaching end of support](/lifecycle/announcements/dynamics-365-guides-remote-assist-end-of-support).
+Dynamics 365 Guides and Remote Assist won't be available after December 31, 2026. Learn more at [Dynamics 365 Guides and Remote Assist reaching end of support](/lifecycle/announcements/dynamics-365-guides-remote-assist-end-of-support).
 
 ## Dynamics 365 Field Service integration with finance and operations applications -  December 1, 2025
 
-The Dynamics 365 Field Service integration with finance and operations applications will no longer be available after February 28, 2027. Instead, look to a simpler, more integrated Field Service experience. Learn more in [Connect Field Service to finance and operations](/dynamics365/release-plan/2025wave2/service/dynamics365-field-service/connect-field-service-finance-operations) and [Link work orders to projects for unified financials](/dynamics365/release-plan/2025wave2/service/dynamics365-field-service/link-work-orders-projects-unified-financials).
+The Field Service integration with finance and operations applications won't be available after February 28, 2027. This capability is transitioning to the [Field Service and Project Operations integration](../field-service/project-operations-integration.md).
 
-Beginning with the Field Service 8.8.139.398 release, the **Install Finance and Operations** toggle will no longer be available in environments where the finance and operations integration isn't already installed or configured. Environments that already have the integration enabled will retain access and can continue until the feature deprecation.
+Starting with the Field Service 8.8.139.398 release, the **Install Finance and Operations** toggle isn't available in environments where the finance and operations integration isn't already installed or configured. Environments that already have the integration enabled retain access and can continue until February 28, 2027.
 
 ## Dynamics 365 Field Service integrations with Microsoft Outlook, Teams, Viva Connections, and Planner - September 1, 2025
 
@@ -39,7 +39,7 @@ These integrations aren't supported after October 30, 2025. Instead, look to a s
 
 ## Dynamics 365 Field Service reports - May 25, 2025
 
-The following Dynamics 365 Field Service reports are deprecated after May 25, 2025 and aren't supported after August  2025.
+The following Dynamics 365 Field Service reports are deprecated after May 25, 2025, and aren't supported after August  2025.
 
  - Resource and Utilization in Field Service
  - Work order summary in Field Service
@@ -73,9 +73,9 @@ Solution components related to the Field Service Mobile (Xamarin) application ar
 - msdyn_FSMNotifications
 - Woodford | Resco MobileCRM Woodford
 
-These solutions can be removed from an organization that is no longer using the Field Service Mobile - Xamarin application. While removing solutions, you might encounter dependencies. The system informs you of these dependencies. Either delete the component or modify it to remove references to the solution you're trying to remove. For more information, see [Removing dependencies](/power-platform/alm/removing-dependencies).
+You can remove these solutions from an organization that no longer uses the Field Service Mobile - Xamarin application. While removing solutions, you might encounter dependencies. The system informs you of these dependencies. Either delete the component or modify it to remove references to the solution you're trying to remove. For more information, see [Removing dependencies](/power-platform/alm/removing-dependencies).
 
-With the deprecation of the Field Service Mobile (Xamarin), drip scheduling is currently not available in the Field Service mobile app. Drip scheduling controlled how many bookings appear on the Field Service mobile app at one time.
+When the Field Service Mobile (Xamarin) application is deprecated, drip scheduling isn't available in the Field Service mobile app. Drip scheduling controlled how many bookings appear on the Field Service mobile app at one time.
 
 ## Deprecations in the scheduling solution
 

@@ -1,7 +1,7 @@
 ---
 title: Share a schedule board tab in Universal Resource Scheduling
 description: Beyond using the default public schedule board tab, you can follow these steps to share a schedule board tab.
-ms.date: 09/30/2025
+ms.date: 09/03/2026
 ms.reviewer: v-wendysmith
 ms.subservice: common-scheduler
 ms.topic: how-to
@@ -9,8 +9,9 @@ author: mkelleher-msft
 ms.author: mkelleher
 ---
 
-
 # Share a schedule board tab in Universal Resource Scheduling
+
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
 
 [!INCLUDE[topic-urs-share-schedule-board-tab.md](../shared/urs/share-schedule-board-tab.md)]
 
