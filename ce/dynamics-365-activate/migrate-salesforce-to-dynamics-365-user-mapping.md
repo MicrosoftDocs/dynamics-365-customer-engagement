@@ -9,7 +9,8 @@ ms.custom:
   - bap-template
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: lavanyakr
+ms.reviewer: zbanyai
+ms.collection: bap-ai-copilot
 ---
 
 # Step 5: Map Salesforce users to Dynamics 365 users (preview)

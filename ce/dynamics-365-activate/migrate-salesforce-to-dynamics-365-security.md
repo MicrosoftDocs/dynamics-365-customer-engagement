@@ -9,7 +9,8 @@ ms.custom:
   - bap-template
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: lavanyakr
+ms.reviewer: zbanyai
+ms.collection: bap-ai-copilot
 ---
 
 # Security and data handling for Dynamics 365 Activate (preview)
