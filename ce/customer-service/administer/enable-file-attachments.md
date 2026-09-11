@@ -1,20 +1,20 @@
 ---
 title: Enable file attachments
-description: Learn how to enable file attachments in messaging channels so that customer service representatives and customers can share files during conversations in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 03/30/2026
+description: Learn how to enable file attachments and extensions in messaging channels so that customer service representatives and customers can share files during conversations in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
+ms.date: 09/10/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.service: dynamics-365-customer-service
+ms.custom: bap-template
 ---
 
 # Enable file attachments
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-
-You can Enable file attachments to allow customer service representatives (service representatives, representatives) and customers to share files during messaging conversations.
+You can enable file attachments in your messaging channel so that customer service representatives (representatives) and customers can share files during messaging conversations.
 
 When you enable the option for customers in the **General settings** configuration of your channel, customers can include attachments with their messages. Similarly, when you enable the option for service representatives, they can send attachments from the communication panel to the customers. Representatives can upload files by dragging and dropping the file from the file explorer into the conversation canvas. Customers must use the **Attach** icon to upload files.
 
@@ -33,32 +33,23 @@ By default, the application has a file size limit of 5 megabytes (MB) (5,120 kil
 
 You can set the file extension types that customers and representatives can share.
 
-## Configure file size limit and file extensions
+## Configure file size limit
 
 To configure the file size limit and file extensions, complete the following steps:
 
-1. In the Customer Service or Contact Center app, select the **Settings** icon in the navigation bar, and then select **Advanced Settings**.
+1. In the Copilot Service workspace or Contact Center app, select the **Settings** icon in the navigation bar, and then select **Advanced Settings**.
+1. In the sitemap, go to **System** > **Email Configuration** > **Email Settings**.
+1. In **Attachments**, enter the new value for **Maximum file size for attachments** in kilobytes.
+1. Select **Save**.
 
-1. Go to **Settings** > **Administration** > **System Settings**.
+## Configure file extensions
 
-1. In the **System Settings** window, go to the **Email** tab.
-
-1. Go to the **Set file size limit for attachments** section, and in the **Maximum file size (in kilobytes)** field, enter the value in kilobytes.
-
-    > [!div class=mx-imgBorder]
-    > ![Set file size limit for attachment.](../media/file-size-limit.png "Set file size limit for attachment")
-
-1. To specify unsupported file types, go to the **General** tab.
-
-1. In the **Set blocked file extensions for attachments** field, add or edit the file types.
-
-    > [!div class=mx-imgBorder]
-    > ![Specify unsupported file types.](../media/unsupported-file-types.png "Specify unsupported file types")
-
-> [!NOTE]
-> Don't block the .txt extension. Transcripts aren't available for closed conversations when the .txt extension is blocked.
-
-1. Select **OK**.
+1. In the Copilot Service workspace or Contact Center app, select the **Settings** icon in the navigation bar, and then select **Advanced Settings**.
+1. In the sitemap, go to **System** > **Administration** > **General**.
+1. In the **Set blocked file extensions for attachments** field, add or edit the file types you want blocked.
+   > [!NOTE]
+   > Don't block the .txt extension. Transcripts aren't available for closed conversations when the .txt extension is blocked.
+1. Select **Save**.
 
 Now, representatives and customers can share file attachments during their conversation.
 
