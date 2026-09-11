@@ -28,7 +28,7 @@ The actions area at the top of the schedule board provides tools for scheduling 
   > Custom booking tooltip views apply to the hourly view only. In daily, weekly, and monthly views, the schedule board displays a simplified tooltip that doesn't reflect custom view columns.
 - **Booking alerts** - Select the bell icon to see active alerts or create new ones. Learn more in [Manage booking alerts](../../field-service/booking-alert.md).
 - **Map view** - Select the **Map view** icon to see resources and requirements on a map. Learn more in [Filter resources and requirements](../../field-service/schedule-board-filtering.md#use-the-map-view-to-find-nearby-resources).
-- **Refresh** - Manually refresh the board. The board also refreshes automatically for changes to start date, end date, resource assignment, or status of a booking in the current week.
+- **Refresh** - Manually refresh the board. If automatic refresh is enabled, the board also refreshes on a set interval when a booking changes within the date range shown on the board, for a resource shown on the board or an unassigned booking.
 
   > [!TIP]
   > Availabilities in the schedule assistant don't refresh when the schedule board gets refreshed. Search for availabilities again or refresh the browser to have the latest updates reflected in the schedule assistant.
@@ -74,6 +74,6 @@ To facilitate workflows, the system caches some parameters so you can quickly co
 - Map panel: Open or closed
 - View type: Gantt or list view
 - View mode: Hourly, daily, or weekly
-- Board start date: Cached for 15 minutes
+- Board start date: Cached per tab for 15 minutes
 - Column width: Zoom level
 - Requirement panel filters

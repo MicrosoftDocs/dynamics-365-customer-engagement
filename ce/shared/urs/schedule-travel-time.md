@@ -30,7 +30,7 @@ While technicians drive to the customer location, the system updates the booking
 
 By default, manually scheduling a requirement by dragging and dropping on the schedule board doesn't calculate travel time and distance.
 
-To enable the travel time calculation for manually scheduled requirements, go to **Resource Scheduling > Settings > Administration > Scheduling Parameters** and set **Auto Update Booking Travel** to **Enabled**. The system adds auto-updated travel time before the actual booking start time if it knows a start and end location.
+To enable the travel time calculation for manually scheduled requirements, make sure [location and map settings](../../field-service/field-service-maps-address-locations.md) are enabled, then go to **Resource Scheduling > Settings > Administration > Scheduling Parameters** and set **Auto Update Booking Travel** to **Enabled**. The system adds auto-updated travel time before the actual booking start time if it knows a start and end location. If **Auto Update Booking Travel** is enabled but maps aren't connected, travel time isn't added.
 
 > [!TIP]
 > In some scenarios, technicians create bookings on the mobile app. To autocalculate the travel time and distance, set the *msdyn_ursinternalflags* field on the booking form to `{"AutoUpdateBookingTravel":true}`.
