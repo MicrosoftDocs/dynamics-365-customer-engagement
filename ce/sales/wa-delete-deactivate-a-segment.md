@@ -2,9 +2,9 @@
 title: Delete or deactivate segments
 description: Learn how to remove segments that you don't need anymore in Dynamics 365 Sales. You can either deactivate them to keep them in the app or delete them completely.
 ms.date: 04/30/2026
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.custom:
   - bap-template

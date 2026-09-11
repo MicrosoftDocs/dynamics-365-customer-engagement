@@ -3,9 +3,9 @@ title: Table reference for Sales Insights
 description: Understand the operations you can perform for specific entities in predictive scoring in Microsoft Dynamics 365 Sales.
 ms.date: 07/07/2026
 ms.topic: reference
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Sales insights table reference 
 

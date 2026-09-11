@@ -3,9 +3,9 @@ title: Enable sales usage reports for sales managers
 description: Explore sales usage reports for historical insights into operational metrics and key performance indicators in Sales.
 ms.date: 09/30/2025
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc

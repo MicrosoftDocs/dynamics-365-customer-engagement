@@ -3,9 +3,9 @@ title: Understand the sequence stats page
 description: View and understand the sequence's success rate and the state of records that are connected.
 ms.date: 04/30/2026
 ms.topic: concept-article
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Understand the sequence stats page

@@ -1,9 +1,9 @@
 ---
 title: Prioritize assignment rules
 description: Learn how to set the priority of your assignment rules to control which one applies if a record matches more than one.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.collection:
 ms.date: 04/30/2026

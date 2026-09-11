@@ -3,9 +3,9 @@ title: Add steps to define activities for sequences
 description: Explore steps to define activities for sequences in sales accelerator, including A/B test, email activity, text message activity and more.
 ms.date: 07/07/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc

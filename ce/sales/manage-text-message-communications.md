@@ -3,9 +3,9 @@ title: Manage text message conversations
 description: Manage text message conversations for sales outreach, including incoming replies and outbound texts. Learn how to open, route, and move them.
 ms.date: 07/07/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.owner: shujoshi
 ms.custom: bap-template
 ---

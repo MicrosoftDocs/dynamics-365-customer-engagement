@@ -3,9 +3,9 @@ title: Welcome to Dynamics 365 Sales
 description: Transform your sales organization with Dynamics 365 Sales to build strong relationships with customers, take actions based on insights, and close deals faster.
 ms.date: 06/22/2026
 ms.topic: overview
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - ai-gen-docs-bap
   - ai-gen-desc

@@ -1,9 +1,9 @@
 ---
 title: Set seller attributes and capacity
 description: Learn  how to configure seller attributes and capacity in Dynamics 365 Sales to assign records automatically based on your sellers' language, location, skills, and workload.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.date: 04/30/2026
 ms.custom:

@@ -3,9 +3,9 @@ title: Explore the sales accelerator with sample data
 description: Sample data helps you visualize a product and its features. Learn how to add or remove sample data to explore sales accelerator.
 ms.date: 09/12/2025
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Explore the sales accelerator with sample data 
 

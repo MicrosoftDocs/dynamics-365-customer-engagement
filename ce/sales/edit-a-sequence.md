@@ -3,9 +3,9 @@ title: Clone and edit a sequence in sales accelerator
 description: You can clone and edit a sequence when there's a change in the process of selling in your organization.
 ms.date: 04/30/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Clone and edit a sequence 

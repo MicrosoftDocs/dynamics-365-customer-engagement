@@ -3,9 +3,9 @@ title: Sales literature entities
 description: Create and manage sales literature items to associate attachments and articles to enrich an organization's sales information.
 ms.date: 04/30/2026
 ms.topic: concept-article
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 

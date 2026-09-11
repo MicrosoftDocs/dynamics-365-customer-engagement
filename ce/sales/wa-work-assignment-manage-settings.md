@@ -1,9 +1,9 @@
 ---
 title: Configure work assignment
 description: Learn how to configure Dynamics 365 Sales to automatically assign work to your sales teams.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.collection:
 ms.date: 06/06/2026

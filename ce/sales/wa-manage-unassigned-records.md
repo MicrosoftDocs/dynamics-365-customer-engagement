@@ -3,9 +3,9 @@ title: View assigned records and details
 description: Learn how to view assigned records in Dynamics 365 Sales so that you can assign them to sellers manually or run assignment rules again.
 ms.date: 04/30/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc

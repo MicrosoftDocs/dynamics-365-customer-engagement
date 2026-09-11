@@ -3,9 +3,9 @@ title: Create a query to view a sequence in an entity record grid
 description: Create a saved query to show an in-progress sequence in an entity record grid
 ms.date: 04/30/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # View a sequence in a grid

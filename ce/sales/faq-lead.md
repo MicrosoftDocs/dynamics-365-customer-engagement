@@ -3,9 +3,9 @@ title: Lead management FAQs
 description: Get answers to frequently asked questions about various aspects of Lead management such as lead qualification, duplicate detection, and scoring. 
 ms.date: 12/23/2025
 ms.topic: faq
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.owner: shujoshi
 ms.custom:
   - bap-template

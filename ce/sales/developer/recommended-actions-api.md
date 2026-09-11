@@ -1,9 +1,9 @@
 ---
 title: Integrate custom agents with Recommended Actions Agent
 description: Recommended Actions Agent integration for Dynamics 365 Sales lets custom agents push scored insights to the seller carousel. Learn the architecture and contracts.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.date: 07/31/2026
 ms.service: dynamics-365-sales
 ms.custom: bap-template

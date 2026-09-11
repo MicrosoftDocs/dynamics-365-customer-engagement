@@ -3,8 +3,8 @@ title: Show LinkedIn profile pictures for matched leads and contacts
 description: For leads and contacts that are matched to a LinkedIn member profile, you can follow these steps to enable the system to display profile photos.
 ms.date: 04/30/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 ms.custom: 
   - dyn365-sales
 ---

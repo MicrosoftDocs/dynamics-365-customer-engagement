@@ -2,9 +2,9 @@
 title: Overview of visual hierarchies
 description: Learn about the visual hierarchy feature and its benefits.
 ms.topic: overview
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.collection: get-started
 ms.date: 02/03/2026
 ms.custom: bap-template 

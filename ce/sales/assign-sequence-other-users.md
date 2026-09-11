@@ -3,9 +3,9 @@ title: Assign a sequence to a user or a team
 description: Learn how to assign your sequences to a user or a team to use them in Dynamics 365 sales accelerator.
 ms.date: 04/30/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Assign a sequence to a user or a team

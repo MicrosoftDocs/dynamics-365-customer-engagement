@@ -4,9 +4,9 @@ description: Learn how to enable and configure Sales Insights capabilities in yo
 ms.date: 02/27/2026
 ms.collection: get-started
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Enable and configure Sales Insights features 
 

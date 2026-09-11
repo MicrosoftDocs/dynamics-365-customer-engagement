@@ -3,9 +3,9 @@ title: Use email engagement to view message interactions
 description: Learn how to use email engagement in Dynamics 365 Sales to track customer interactions with your messages, and to get alerts to help you remember to follow up.
 ms.date: 11/10/2025
 ms.topic: concept-article
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Use email engagement to view message interactions

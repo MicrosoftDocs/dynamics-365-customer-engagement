@@ -1,9 +1,9 @@
 ---
 title: Improve sequence efficiency with insights
 description: Learn how sequence insights in Microsoft Dynamics 365 Sales provide valuable data on the performance of sequences and steps.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.collection: get-started
 ms.date: 08/26/2026

@@ -1,9 +1,9 @@
 ---
 title: Get intelligent insights to improve sales
 description: Seller insights provide sellers with valuable insights and workflows for customer engagement.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: overview 
 ms.collection: get-started 
 ms.date: 09/12/2025

@@ -3,9 +3,9 @@ title: Manage conditional workflows with sequences
 description: Manage conditional workflows with sequences. Help sales managers enforce best practices and prioritize activities for sellers.
 ms.date: 04/30/2026
 ms.topic: overview
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom:
   - bap-template
   - ai-gen-docs-bap

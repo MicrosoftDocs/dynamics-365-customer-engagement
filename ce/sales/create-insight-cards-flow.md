@@ -4,9 +4,9 @@ description: Create your own suggested actions through custom insight cards usin
 ms.date: 09/05/2025
 ms.custom: bap-template
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Create custom insight cards 

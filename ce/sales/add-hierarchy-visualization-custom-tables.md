@@ -2,9 +2,9 @@
 title: Add a view hierarchy button
 description: Learn how to enable hierarchy visualization for custom and other tables in your organization.
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.collection: 
 ms.date: 10/31/2025
 ms.custom: bap-template 

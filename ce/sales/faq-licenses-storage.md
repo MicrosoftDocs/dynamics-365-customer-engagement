@@ -3,9 +3,9 @@ title: Licenses and storage FAQs
 description: Discover answers to common questions about licenses and storage.
 ms.date: 01/27/2026
 ms.topic: troubleshooting
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.owner: shujoshi
 ms.custom:
   - bap-template

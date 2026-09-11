@@ -1,9 +1,9 @@
 ---
 title: Manage access to view insights
 description: Learn how to restrict the access to seller insights to a specific security group in your organization.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to 
 ms.collection: 
 ms.date: 04/30/2026

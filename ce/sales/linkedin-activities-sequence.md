@@ -3,9 +3,9 @@ title: Add LinkedIn activities to a sequence
 description: Use LinkedIn features to define activities for sequences in the sales accelerator to display steps in the work list and Up next widget.
 ms.date: 04/30/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Add LinkedIn activities to a sequence 

@@ -4,9 +4,9 @@ description: Privacy notices for Sales Insights capabilities such as, standard f
 keywords: "privacy notice, privacy statement addition"
 ms.date: 04/30/2026
 ms.topic: legal
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 
