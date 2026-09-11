@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues and how you can use them in unified routing in Dynamics 365 Contact Center and Customer Service.
-ms.date: 08/12/2026
+ms.date: 09/11/2026
 ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
@@ -48,7 +48,7 @@ If you want to prioritize assignment based on conversation creation time, you ca
 
 When service representatives are subscribed to multiple queues, you can use the [Queue priority](queues-omnichannel.md#configure-queue-prioritization) field of the queue to prioritize work across queues. Work from the higher priority queues is assigned first over lower priority queues. Queues can also be given the same priority. In such a case:
 - If they have the default first-in-first-out ordering, the oldest item across all these queues is assigned first.
-- If they have custom prioritization rules, then the queues are ordered alphabetically based on the queue names to determine the highest priority work. 
+- If they have custom prioritization rules, order the queues alphabetically based on the queue names to determine the highest priority work.
 
 If you configured queues based on both out-of-the-box assignment methods and custom prioritization rules, the queues with out-of-the-box assignment methods are prioritized first followed by the queues based on custom prioritization rules.
 
@@ -59,12 +59,13 @@ For example, lets look at a setup with the following four queues, all with prior
 
 For a representative who is subscribed to all the four queues, they receive the oldest item from the VIP Support and Premium support queues. If these two queues don't have eligible items for the representative, work from the Invoice Inquiries queue is assigned next followed by the work from the Order Support queue. 
 
-> [!NOTE]
-> We recommend that you assign distinct queue priorities to queues with custom prioritization rules. Even if the queues have the same prioritization ruleset, they're considered to be distinct.
+Assign distinct queue priorities to queues with custom prioritization rules. Even if the queues have the same prioritization ruleset, they're considered to be distinct.
 
 ## Types of assignment methods
 
-The assignment methods available out of the box are explained in the sections that follow.
+The following sections explain the assignment methods available out of the box.
+
+Learn the supported backlog, incoming conversation rate, queue, and user limits for each assignment method in [Assignment scale limits](../implement/service-quotas.md#assignment-scale-limits).
 
 ### Highest capacity
 
@@ -153,9 +154,9 @@ You can also create a custom assignment method to suit your business needs. The 
   
 > [!IMPORTANT]
 >
-> - While you can create custom assignment methods, we recommend that you use the out-of-the-box assignment methods or selection criteria that are robust and validated for most use cases.
+> - While you can create custom assignment methods, use the default assignment methods or selection criteria that are robust and validated for most use cases.
 > - You must configure presence, capacity, and skill-matching rules in the custom assignment method because the default settings defined for the workstream aren't used in custom assignment method.
-> - The out-of-the-box assignment strategies don't consider the representative operating hours. You must write a custom assignment method by using the "is_working" operator in the rule definition.
+> - The default assignment strategies don't consider the representative operating hours. You must write a custom assignment method by using the "is_working" operator in the rule definition.
 
 ### Assignment cycle
 
@@ -401,7 +402,7 @@ You can update the OData call as follows to modify the limit.
 
 `var data = { "msdyn_number_of_declines_allowed": 3 } // update the record Xrm.WebApi.updateRecord("msdyn_omnichannelconfiguration", "d4d91600-6f21-467b-81fe-6757a2791fa1", data).then( function success(result) { console.log("Omnichannel Configuration updated"); // perform operations on record update }, function (error) { console.log(error.message); // handle error conditions } );`
 
-### Related information
+## Related information
 
 [Configure assignment methods and rules](configure-assignment-rules.md)  
 [FAQ about unified routing](unified-routing-faqs.md)  
