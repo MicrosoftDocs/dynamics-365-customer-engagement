@@ -3,9 +3,9 @@ title: Manage phone numbers for SMS
 description: Edit phone numbers by assigning or removing users who are no longer working in your organization or moved to a different team.
 ms.date: 09/11/2025
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: bap-template
 ---
 

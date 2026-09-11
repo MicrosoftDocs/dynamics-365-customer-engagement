@@ -1,9 +1,9 @@
 ---
 title: Copy and edit segments
 description: Learn how to change the conditions that determine which records to include in a segment, its assignment rules, the sequences that are connected to it, and its priority and other properties in Dynamics 365 Sales.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.date: 04/30/2026
 ms.custom:

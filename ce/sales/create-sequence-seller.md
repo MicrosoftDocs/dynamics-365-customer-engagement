@@ -3,9 +3,9 @@ title: Create and connect sequences for yourself
 description: Create and connect sequences to automate outreach, personalize communication, and prioritize sales tasks. Learn how to get started now.
 ms.date: 07/07/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc

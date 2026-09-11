@@ -2,9 +2,9 @@
 title: Design and publish hierarchies
 description: Learn how to design and publish hierarchies to better understand your data.
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.collection: 
 ms.date: 02/03/2026
 ms.custom: bap-template 

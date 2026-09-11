@@ -3,9 +3,9 @@ title: Create custom cards in Assistant
 description: Use the assistant to create custom cards that help in displaying insight cards that are specific to your organization.
 ms.date: 09/17/2025
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Create custom cards in Assistant  

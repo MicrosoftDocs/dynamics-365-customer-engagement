@@ -4,9 +4,9 @@ description: Configure email engagement to show alerts and reminders for sellers
 ms.date: 02/18/2026
 ms.topic: how-to
 ms.assetid: 04db6801-020a-4a99-9ad3-907422524b6f
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: bap-template
 
 ---

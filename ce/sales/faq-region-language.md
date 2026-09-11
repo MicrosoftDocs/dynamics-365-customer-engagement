@@ -3,9 +3,9 @@ title: Region and language FAQs
 description: Find answers to frequently asked questions about regions and languages.
 ms.date: 06/16/2026
 ms.topic: faq
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.owner: shujoshi
 ms.custom:
   - ai-gen-docs-bap

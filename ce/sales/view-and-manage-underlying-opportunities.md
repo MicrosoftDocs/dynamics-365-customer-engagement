@@ -3,9 +3,9 @@ title: View and manage underlying opportunities
 description: View and manage the opportunities pipeline through sales forecasting in Dynamics 365 Sales.
 ms.date: 10/09/2025
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
   - references_regions 

@@ -2,9 +2,9 @@
 title: Customize the appearance of work items in sales accelerator
 description: Customize the appearance of work items to show more relevant information in the work list in sales accelerator.
 ms.date: 02/27/2026
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to 
 ms.collection: 
 ms.custom: bap-template 

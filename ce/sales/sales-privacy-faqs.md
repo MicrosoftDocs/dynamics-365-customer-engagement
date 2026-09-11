@@ -3,9 +3,9 @@ title: Privacy and security FAQs
 description: Find a list of frequently asked questions that are related to privacy and security in Dynamics 365 Sales.
 ms.date: 11/12/2025
 ms.topic: faq
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Privacy and security FAQs

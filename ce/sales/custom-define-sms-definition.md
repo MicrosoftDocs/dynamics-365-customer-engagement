@@ -1,9 +1,9 @@
 ---
 title: Define the custom SMS channel
 description: Learn how to define the custom SMS channel in Dynamics 365 Sales.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.date: 04/30/2026
 ms.custom: bap-template 

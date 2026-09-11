@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 05/21/2026
+ms.date: 09/11/2026
 ms.custom: bap-template
 ---
 
@@ -26,6 +26,17 @@ Service quotas are the limits on resources, configurations, and items provided a
 | Intake rules  | Maximum number of intake rules | 100 for records | No |
 | Route-to-queue rules | Maximum number of route-to-queue rulesets and rules per workstream   | 200 for rules |  No  |  
 | Classification rules  |  Maximum number of classification rulesets and rules per workstream |  10 rulesets  <br><br> 100 rules per ruleset  |  No <br><br> No |
+
+### Assignment scale limits
+
+The following limits apply to default and custom assignment methods.
+
+| Assignment method | Max conversations waiting for assignment across queues | Incoming conversation rate | Max number of queues | Max users per queue | Users across queues |
+|-------------------|----------------------------------------------------------|----------------------------|----------------------|---------------------|---------------------|
+| Default - Without cross-queue prioritization | Up to 50,000 work items across queues | Up to 5,000 conversations per minute | Not applicable | Up to 5,000 users | Up to 10,000 users |
+| Default - With cross-queue prioritization | Up to 50,000 work items across queues | Up to 5,000 conversations per minute | Up to 100 queues | Up to 5,000 users | Up to 10,000 users |
+| Custom assignment - Without cross-queue prioritization | Up to 10,000 work items across queues | Up to 500 conversations per minute | Not applicable | Up to 2,000 users | Up to 10,000 users |
+| Custom assignment - With cross-queue prioritization | Up to 10,000 work items across queues | Up to 500 conversations per minute | Up to 20 queues | Up to 2,000 users | Up to 10,000 users |
 
 ## Conversation limits
 

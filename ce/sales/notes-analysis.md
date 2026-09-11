@@ -3,9 +3,9 @@ title: How notes analysis assists you with suggestion
 description: Discover how notes analysis provides intelligent suggestions for customer-related actions, aiding sales roles in timely decision-making.
 ms.date: 07/30/2025
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc

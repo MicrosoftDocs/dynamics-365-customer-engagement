@@ -3,9 +3,9 @@ title: Lead table
 description: Learn about lead table that represents an individual who is interested in receiving specific information about products or services offered by the company.
 ms.date: 04/30/2026
 ms.topic: concept-article
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 

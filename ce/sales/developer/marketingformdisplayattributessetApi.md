@@ -3,9 +3,9 @@ title: Customize quick campaign form using marketingformdisplayattributesset Web
 description: Learn how to customize quick campaign and campaign activity distribution forms with the marketingformdisplayattributesset Web API. Configure your form today.
 ms.date: 07/07/2026
 ms.topic: reference
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Customize quick campaign and campaign activity distribution forms 

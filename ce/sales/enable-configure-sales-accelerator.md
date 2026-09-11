@@ -3,9 +3,9 @@ title: Configure the sales accelerator
 description: Configure the sales accelerator to create sequences and connect records, and view daily work list items.
 ms.date: 07/11/2025
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.owner: shujoshi
 ms.custom: bap-template
 ---

@@ -1,9 +1,9 @@
 ---
 title: Edit assignment rules
 description: Learn how to edit an assignment rule in Dynamics 365 Sales to change the conditions that automatically assign leads, opportunities, and insights to sellers.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.date: 04/30/2026
 ms.custom:

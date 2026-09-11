@@ -1,9 +1,9 @@
 ---
 title: Example for assignment rules and segments
 description: Learn how to create assignment rules and segments for different scenarios through examples.  
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.date: 09/05/2025
 ---

@@ -3,9 +3,9 @@ title: Delete a sequence
 description: Permanently delete a sequence that is no longer required in your organization and disconnect records from it.
 ms.date: 04/30/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Delete a sequence 

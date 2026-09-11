@@ -1,10 +1,10 @@
 ---
 title: Integrate custom agents with Recommended Actions Agent
 description: Recommended Actions Agent integration for Dynamics 365 Sales lets custom agents push scored insights to the seller carousel. Learn the architecture and contracts.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
-ms.date: 07/31/2026
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
+ms.date: 09/11/2026
 ms.service: dynamics-365-sales
 ms.custom: bap-template
 ms.topic: install-set-up-deploy
@@ -15,7 +15,7 @@ ai-usage: ai-assisted
 
 # Integrate custom agents with Recommended Actions Agent
 
-The Recommended Actions Agent in Dynamics 365 Sales surfaces prioritized recommendations for opportunities. It provides a shared scoring pipeline, data contracts, and bidirectional state synchronization so that any custom agent can surface recommendations alongside first-party agents.
+The Recommended Actions Agent in Dynamics 365 Sales surfaces prioritized recommendations for opportunities, leads, accounts, and contacts. It provides a shared scoring pipeline, data contracts, and bidirectional state synchronization so that any custom agent can surface recommendations alongside first-party agents.
 
 This article describes the architecture, key components, data contracts, and integration flow used when a custom agent integrates with the Recommended Actions Agent. It provides the foundational knowledge required for implementing an integration.
 
@@ -49,7 +49,7 @@ The processing pipeline works as follows:
    - Applies floor and ceiling rules.
    - Computes the final priority score by using `GetRecommendedActionAgentResponse`.
 1. The scored action is inserted into `msdyn_prioritizedactioncatalogue` (output table).
-1. The **Recommended Actions Agent Carousel** fetches scored actions and renders cards.
+1. The Recommended Actions carousel fetches scored actions and renders cards in the entity's list view provided that the carousel is activated for that entity.
 
 ## Key components
 
@@ -94,7 +94,7 @@ The following example shows the available configuration fields in the schema.
 | JSON Field | Type | Description |
 |---|---|---|
 | agentName | string | Maps to msdyn_agentname (max 850 chars). Required for new records. |
-| agentType | string | Agent category. Use "CustomAgent" for non-Sales Opportunity Agent agents to auto-create a profile. |
+| agentType | string | Agent category. Use "CustomAgent" to auto-create a profile. |
 | isRecommendedActionAgentEnabled | boolean | Maps to msdyn_isrecommendedactionagentenabled. Null = leave unchanged. |
 | salesAgentProfileId | guid? | Links to msdyn_salesagentprofile. Used for record lookup on upsert. |
 | agentImpactMapping | string | Flat JSON array of principle names. Maps to msdyn_agentimpactmapping. |
@@ -177,6 +177,8 @@ Custom agents push actions by using the `msdyn_PushActionDataToRecommendedAction
 
 ### Example: C# plugin call
 
+The following example creates and executes a request to push a deal-risk action to the Recommended Actions Agent. The request identifies the source agent and target opportunity, provides the reason and card UI payload, includes risk signals for prioritization, and checks whether the operation succeeded.
+
 ```csharp
 var request = new OrganizationRequest("msdyn_PushActionDataToRecommendedActionAgent")
 {
@@ -239,6 +241,17 @@ The `msdyn_prioritizationdata` field lets an agent pass agent-specific signals t
 ```
 
 The scoring engine reads these signals alongside entity-level signals (deal value, stage, competitors, and so on). The `msdyn_internalprioritizationinstruction` in the agent config tells the LLM how to interpret each signal, and the scoring engine combines all signals into the UICE scoring prompt.
+
+## Activate Recommended Actions carousel
+
+Activate the Recommended Actions carousel for it to appear in an entity's list view. The `aiinsightcard` entity controls the activation state of the carousel for each entity. Ensure that the corresponding `aiinsightcard` record for the entity is set to active. 
+
+The following table shows the values to set for activating or deactivating the carousel for an entity:
+
+| Card state | `statecode` | `statuscode` |
+|---|---:|---:|
+| Active | `0` | `1` |
+| Inactive | `1` | `2` |
 
 ## Action versioning and invalidation
 

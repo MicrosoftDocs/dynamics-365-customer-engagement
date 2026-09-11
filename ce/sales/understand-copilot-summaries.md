@@ -1,9 +1,9 @@
 ---
 title: Default attributes used in Copilot summaries
 description: Learn which default attributes Copilot uses for Dynamics 365 Sales opportunity and account summaries, and use them to validate summary output. Start now.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: concept-article
 ms.collection: bap-ai-copilot
 ms.date: 07/07/2026

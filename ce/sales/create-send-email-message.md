@@ -1,9 +1,9 @@
 ---
 title: Create and send an email message
 description: Learn how to create and send email messages to your customers using email engagement features in Dynamics 365 Sales.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.date: 12/18/2025
 ms.custom: bap-template

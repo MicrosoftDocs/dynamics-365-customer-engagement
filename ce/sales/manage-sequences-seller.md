@@ -3,9 +3,9 @@ title: Manage your sequences in the sales accelerator
 description: Manage your sequences by viewing, cloning, editing, deleting, and applying tags in the sales accelerator.
 ms.date: 04/30/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Manage sequences 

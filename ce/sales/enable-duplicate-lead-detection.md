@@ -1,9 +1,9 @@
 ---
 title: Enable the detection of duplicate leads
 description: Discover how to enable duplicate lead detection in sales, helping sellers identify and address potential duplicates for improved efficiency.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.date: 04/30/2026
 ms.custom:

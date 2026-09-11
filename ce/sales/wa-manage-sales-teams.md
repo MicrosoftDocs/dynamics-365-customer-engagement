@@ -1,9 +1,9 @@
 ---
 title: Select security roles to assign records to
 description: Learn how to select the security roles that determine whether assignment rules can automatically assign your sales team to leads, opportunities, and insights in Dynamics 365 Sales.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.date: 08/05/2025
 ms.custom:

@@ -4,9 +4,9 @@ description: Define how often the Sales Opportunity Agent refreshes its research
 ms.date: 03/30/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.service: dynamics-365-sales
 ms.custom: bap-template
 ms.collection: bap-ai-copilot

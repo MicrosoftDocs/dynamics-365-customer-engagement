@@ -1,9 +1,9 @@
 ---
 title: Add custom SMS channel 
 description: Learn how to add a custom SMS channel to Dynamics 365 Sales.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.collection: get-started 
 ms.date: 09/09/2025

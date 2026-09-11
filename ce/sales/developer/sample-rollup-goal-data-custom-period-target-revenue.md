@@ -5,7 +5,7 @@ ms.date: 03/01/2023
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
-author: udaykirang
+author: lavanyakr01
 ms.author: nabuthuk
 search.audienceType: 
   - developer

@@ -3,9 +3,9 @@ title: msdyn_ConnectSequence action for Sequences
 description: Learn how to use the msdyn_ConnectSequence action to connect lead, opportunity, or account records to a sequence, review parameters, and send a request now.
 ms.date: 07/07/2026 
 ms.topic: reference
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # msdyn_ConnectSequence action for Sequences

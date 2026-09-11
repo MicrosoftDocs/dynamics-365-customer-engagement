@@ -3,9 +3,9 @@ title: Install ZoomInfo app
 description: The ZoomInfo app for Dynamics 365 helps the sales teams to accelerate business growth with accurate information on contact, account, or leads.
 ms.date: 07/07/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
   
 # Install ZoomInfo app  
