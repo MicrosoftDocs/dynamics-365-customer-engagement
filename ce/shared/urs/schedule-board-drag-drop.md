@@ -6,13 +6,13 @@ The schedule board offers two ways to change a booking's resource or time. They 
 
 | | Drag-and-drop | Move To (right-click) |
 |---|---|---|
-| **End date** | Set based on the requirement's **duration**, not its end date | You specify the end date and time explicitly |
+| **End date** | Set from the requirement's **remaining duration**, not its end date | You specify the end date and time explicitly |
 | **Travel time** | Start time represents the estimated arrival time, with travel time included | Recalculates travel time from the new start point, which shifts the booking slot forward |
 | **Resource scope** | Only resources visible on the current board tab | Can search all resources, including those not on the current tab |
 | **Best for** | Quick scheduling when you can see the target resource and time slot | Reassigning to a different resource not on the board, or when you need precise control over start and end times |
 
 > [!NOTE]
-> When you drag a requirement onto the schedule board, the system sets the booking end date based on the requirement's duration, not its end date. To preserve a specific end date, use the **Book** action or the schedule assistant instead.
+> When you drag a requirement onto the schedule board, the system sizes the booking from the requirement's remaining duration, not its end date. If the requirement has no remaining duration, the booking uses the default booking duration. To preserve a specific end date, use the **Book** action or the schedule assistant instead.
 
 ## Drag and drop a booking
 
