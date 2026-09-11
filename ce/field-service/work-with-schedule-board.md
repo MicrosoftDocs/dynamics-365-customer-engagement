@@ -1,12 +1,16 @@
 ---
 title: Use the schedule board in Field Service
 description: Learn about the schedule board experience in Dynamics 365 Field Service.
-ms.date: 06/24/2026
-ms.custom: bap-template
+ms.date: 09/10/2026
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
 ai-usage: ai-assisted
+ms.reviewer: puneetsingh
+ms.custom:
+ - bap-template
+ - ai-gen-docs-bap
+ - ai-seo-date: 06/24/2026
 ---
 
 # Use the schedule board in Field Service
@@ -14,6 +18,9 @@ ai-usage: ai-assisted
 <!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
 
 [!INCLUDE[use-schedule-board](../shared/urs/use-schedule-board.md)]
+
+> [!NOTE]
+> The schedule board runs as part of a model-driven app, so it requires a [supported and up-to-date web browser](/power-apps/limits-and-config#supported-browsers-for-running-power-apps). An unsupported or outdated browser is a common cause of the board not loading. If the board doesn't load, see [Schedule board isn't loading](/troubleshoot/dynamics-365/field-service/scheduling/schedule-board-not-loading).
 
 ## View appointments on the schedule board
 
@@ -78,6 +85,7 @@ Learn more about setting up work hours in [Set up bookable resources](set-up-boo
 If you run into issues with the schedule board, see the following troubleshooting articles:
 
 - [Schedule board isn't loading](/troubleshoot/dynamics-365/field-service/scheduling/schedule-board-not-loading)
+- [Fix schedule board version mismatch errors](/troubleshoot/dynamics-365/field-service/scheduling/schedule-board-version-mismatch)
 - [Schedule board performance issues](/troubleshoot/dynamics-365/field-service/scheduling/schedule-board-performance)
 - [Schedule board is missing resources](/troubleshoot/dynamics-365/field-service/scheduling/schedule-board-missing-resources)
 - [Schedule board shows NaN or datetime errors](/troubleshoot/dynamics-365/field-service/scheduling/schedule-board-nan-datetime)
