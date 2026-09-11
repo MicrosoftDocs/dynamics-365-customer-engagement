@@ -2,9 +2,9 @@
 title: View and use a visual hierarchy
 description: Learn how to view and use visual hierarchies in Dynamics 365 Sales.
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.collection:
 ms.date: 04/03/2026
 ms.custom: bap-template 

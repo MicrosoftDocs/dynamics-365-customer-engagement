@@ -3,9 +3,9 @@ title: Exit a sequence during the flow
 description: Exit a sequence during the flow when the defined criteria is met.
 ms.date: 04/30/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Exit a sequence during the flow

@@ -3,9 +3,9 @@ title: Match Dynamics 365 fields with ZoomInfo fields
 description: Learn how to map the fields between Dynamics 365 and ZoomInfo to avoid mismatches when exporting data from the app to your organization.
 ms.date: 07/07/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Match fields between Dynamics 365 and ZoomInfo 

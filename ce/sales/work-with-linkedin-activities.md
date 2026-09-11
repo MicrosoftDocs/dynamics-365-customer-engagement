@@ -3,9 +3,9 @@ title: Work with LinkedIn Activities in Sequences
 description: Learn how LinkedIn activities in sequences appear in the work list and Up next widget so sellers can take the next best action. Get started.
 ms.date: 07/07/2026
 ms.topic: concept-article
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Work with LinkedIn activities in sequences

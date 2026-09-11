@@ -3,9 +3,9 @@ title: Installation FAQs
 description: Get answers to frequently asked questions about installation.
 ms.date: 07/07/2026
 ms.topic: faq
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.owner: shujoshi
 ms.custom:
   - ai-gen-docs-bap

@@ -3,9 +3,9 @@ title: Quote, order, and invoice tables
 description: Learn about quote, sales order (order), and invoice building.
 ms.date: 04/30/2026
 ms.topic: concept-article
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 

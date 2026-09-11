@@ -1,9 +1,9 @@
 ---
 title: Define an extended configuration entity for the SMS instance
 description: Learn how to define an extended configuration entity for the SMS instance in Dynamics 365 Sales. 
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.date: 04/30/2026
 ms.custom: bap-template 

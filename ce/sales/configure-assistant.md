@@ -3,9 +3,9 @@ title: Configure the assistant
 description: Configure the assistant to help sellers track their daily actions and communications through actionable insight cards.
 ms.date: 07/07/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom:
   - bap-template
   - ai-gen-docs-bap

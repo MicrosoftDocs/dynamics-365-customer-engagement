@@ -3,9 +3,9 @@ title: Disable LinkedIn Sales Navigator in Dynamics 365
 description: To disable LinkedIn Sales Navigator in Dynamics 365, go to Advanced Setting, select LinkedIn Sales Navigator, and turn off the integration.
 ms.date: 04/30/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Disable LinkedIn Sales Navigator

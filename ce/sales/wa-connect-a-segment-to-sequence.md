@@ -1,9 +1,9 @@
 ---
 title: Connect segments to sequences
 description: Learn how to connect a segment to a sequence in Dynamics 365 Sales to automate your sales workflows.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to 
 ms.date: 04/30/2026
 ms.custom:

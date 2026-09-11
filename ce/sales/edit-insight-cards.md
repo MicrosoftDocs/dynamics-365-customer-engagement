@@ -3,9 +3,9 @@ title: Edit insight cards
 description: Manage insight cards by turning them on/off, assigning/removing roles, setting priority, and editing flow. View card usage metrics for optimization.
 ms.date: 08/06/2025
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 applies_to:
   - Dynamics 365 (online)
 ms.custom:

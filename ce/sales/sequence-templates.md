@@ -3,9 +3,9 @@ title: Sequence templates
 description: Sequence templates provide a set of activities to guide sellers with the next best action to take in a specific scenario.
 ms.date: 09/10/2025
 ms.topic: concept-article
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Sequence templates

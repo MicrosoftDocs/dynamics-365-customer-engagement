@@ -3,9 +3,9 @@ title: Understand what is sales accelerator
 description: Accelerate your sales process with the Sales accelerator in Dynamics 365. It provides a tailored experience for sellers, helping them prioritize customers and streamline their approach.
 ms.date: 04/30/2026
 ms.topic: overview
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc

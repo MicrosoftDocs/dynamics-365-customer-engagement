@@ -5,9 +5,9 @@ ms.date: 04/30/2026
 ms.custom: 
 ms.topic: sample
 ms.assetid: 1b7a3dda-59c9-4b5d-b4b2-7fbc039a3f22
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.suite: 
 ms.tgt_pltfrm: 
 ---

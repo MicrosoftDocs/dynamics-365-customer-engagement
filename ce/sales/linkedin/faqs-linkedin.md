@@ -3,8 +3,8 @@ title: LinkedIn Sales Navigator FAQs for Dynamics 365 Sales
 description: Find answers to some of the most frequently asked questions related to LinkedIn Sales Navigator integration with Dynamics 365 Sales.
 ms.date: 04/30/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 ---
 
 # LinkedIn Sales Navigator FAQs for Dynamics 365 Sales

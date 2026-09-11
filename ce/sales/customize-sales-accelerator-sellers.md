@@ -1,9 +1,9 @@
 ---
 title: Configure sales accelerator settings for sellers to personalize
 description: Use personal settings to determine what happens when an activity is complete.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.date: 07/09/2025
 ---

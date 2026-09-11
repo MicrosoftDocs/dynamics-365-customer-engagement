@@ -1,9 +1,9 @@
 ---
 title: Enable seller insights
 description: Learn how to enable the seller insights feature. This feature provides intelligent insights about customers, so that sellers can focus on tasks that matter, close deals, and enhance their productivity.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.collection: 
 ms.date: 04/30/2026

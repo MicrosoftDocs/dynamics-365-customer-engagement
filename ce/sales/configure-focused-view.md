@@ -1,9 +1,9 @@
 ---
 title: Overview of focused view
 description: Save time and improve task organization by enabling and configuring focused view, allowing sellers to easily manage CRM records and associated activities on one page.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: overview
 ms.collection:
 ms.date: 07/07/2026

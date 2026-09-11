@@ -3,9 +3,9 @@ title: Sales Opportunity Agent FAQs
 description: Find answers to common questions about Sales Opportunity Agent data storage, deletion, and privacy compliance in Dynamics 365 Sales.
 ms.date: 07/29/2026
 ms.topic: faq
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.owner: shujoshi
 ms.custom:
   - bap-template

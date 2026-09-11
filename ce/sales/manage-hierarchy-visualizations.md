@@ -2,9 +2,9 @@
 title: Manage hierarchies
 description: Learn how to manage hierarchies to keep them relevant and useful for users.
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.collection: 
 ms.date: 12/05/2025
 ms.custom: bap-template 

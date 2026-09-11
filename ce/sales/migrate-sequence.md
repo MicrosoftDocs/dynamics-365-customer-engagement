@@ -3,9 +3,9 @@ title: Migrate sequences from one environment to another
 description: Use the solution export and import functionality to migrate sequences from one environment to another in Dynamics 365 Sales.
 ms.date: 04/30/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Migrate sequences from one environment to another

@@ -1,7 +1,7 @@
 ---
 title: Configure assignment methods for queues
 description: Contains steps on how to configure the different assignment methods for queues in your contact center.
-ms.date: 08/12/2026
+ms.date: 09/11/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -23,7 +23,8 @@ In unified routing, the process of creating assignment rulesets involves the fol
 
 > [!NOTE]
 > - While you can create custom assignment methods, we recommend that you use the out-of-the-box assignment methods or selection criteria that are robust and validated for most use cases.
-> - We recommend that you don't use rollup or calculated fields in rule conditions because they aren't supported.
+> - Don't use rollup or calculated fields in rule conditions because they're not supported.
+> - Learn the supported backlog, incoming conversation rate, queue, and user limits for each assignment method in [Assignment scale limits](../implement/service-quotas.md#assignment-scale-limits).
 
 ## Prerequisite
 
@@ -93,8 +94,8 @@ On the **Assignment method** page, if you select **Create New**, complete the fo
          - Skill count
       - **User Attributes**: These attributes are defined on the system user entity.
 
-    1. Select **Create**.
-    1. Repeat steps a through d to configure multiple rules.
+   1. Select **Create**.
+   1. Repeat steps a through d to configure multiple rules.
 
    > [!NOTE]
    > We recommend that you reduce the granularity of the conditions for the assignment rules in a descending order.
@@ -144,7 +145,7 @@ Configure the selection criteria for the assignment rulesets as follows:
 
 4. Define as many rules as the number of assignment rulesets.
 
-### Related information
+## Related information
 
 [Create workstreams](create-workstreams.md)  
 [Manage routing rules templates](manage-routing-rules-templates.md)  

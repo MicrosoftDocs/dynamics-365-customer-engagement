@@ -1,9 +1,9 @@
 ---
 title: Work assignment overview
 description: Learn how work assignment in Dynamics 365 Sales helps prioritize records and assign them to sellers automatically with assignment rules and segments.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: overview
 ms.collection: get-started
 ms.date: 08/18/2025

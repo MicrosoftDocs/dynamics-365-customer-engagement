@@ -1,9 +1,9 @@
 ---
 title: Configure focused view
 description: Configure focused view manually for entities other than contact, account, lead, and opportunity and set it as the default view for any entity and allow a record automatically refresh when updated.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to 
 ms.date: 02/27/2026
 ms.custom: bap-template 

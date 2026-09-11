@@ -4,9 +4,9 @@ description: Use the auto capture to capture activities related to your emails a
 ms.date: 01/20/2026
 ms.custom: bap-template
 ms.topic: overview
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 caps.latest.revision: 1
 searchScope: 
   - D365-App-msdynce_saleshub

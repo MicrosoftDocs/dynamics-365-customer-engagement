@@ -1,9 +1,9 @@
 ---
 title: Define localization for the admin interface
 description: Learn how to define the localization for the admin interface.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.date: 04/30/2026
 ms.custom: bap-template 

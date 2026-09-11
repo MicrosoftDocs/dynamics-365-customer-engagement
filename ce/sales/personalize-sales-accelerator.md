@@ -1,9 +1,9 @@
 ---
 title: Personalize sales accelerator settings
 description: Personalize your sales accelerator by scheduling activities based on work availability and deciding what happens upon activity completion.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.date: 07/18/2025
 ms.custom:
