@@ -20,6 +20,9 @@ ms.custom:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
+> [!IMPORTANT]
+> Effective October 30, 2026, forecasting for customer service representatives for conversations is deprecated in Dynamics 365 Customer Service and Dynamics 365 Contact Center. Support ends on October 30, 2026, after which the feature will be removed. We recommend that you use [forecast scenarios in workforce engagement management](/dynamics365/contact-center/use/workforce-management-forecast-scenarios), which provides more advanced forecasting along with capacity planning, scheduling, and intraday management.
+
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
