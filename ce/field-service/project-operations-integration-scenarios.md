@@ -1,44 +1,44 @@
 ---
 title: Set up projects with work orders in the Field Service and Project Operations integration
 ms.reviewer: v-wendysmith
-description: Learn common scenarios for using the integration between Dynamics 365 Field Service and Project Operations. Understand key concepts, setup guidance, and recommended patterns for work orders, projects, and project contract lines.
+description: Learn about common integration scenarios for Dynamics 365 Field Service and Project Operations including recommended setup patterns for work orders, projects, and project tasks, and project contract lines.
 ms.date: 07/06/2026
 ms.topic: overview
 author: vhorvathms
 ms.author: vhorvath
 ---
 
-# Project setup with work orders
+# Set up projects with work orders
 
-Field Service and Project Operations work together to connect project planning, field execution, and project financials. In this integration, projects provide the financial and delivery structure, while work orders represent the field work performed by technicians.
+Field Service and Project Operations integrate project planning, field execution, and project financial management. Projects provide the financial and delivery structure. Work orders represent the field work that technicians perform.
 
-A single project can have many related work orders. You can create work orders manually, generate them from project tasks, or generate them from an agreement. When technicians capture time, materials, or other supported transactions on those work orders, the transactions can flow to Project Operations and resolve to the correct project, project task, and contract line.
+A project can have multiple related work orders. You can create work orders manually, create them from project tasks, or generate them from an agreement. When technicians record time, materials, or other supported transactions on those work orders, the transactions flow to Project Operations and resolve to the correct project, project task, and contract line.
 
 The project contract and contract line setup determines how those transactions are processed financially.
 
 ## Before you start
 
-Before creating work orders for a project or project task, consider the following questions:
+Before you create work orders, consider the following questions:
 
-- Should work orders link to the overall project or to specific project tasks?
+- Should work orders link to the project or to specific project tasks?
 
 - Does all field work follow the same billing structure?
 
-- Do different tasks, phases, customers, billers, or funding sources require separate contract lines?
+- Do different tasks, phases, customers, billers, or funding sources require separate project contract lines?
 
-- Should you include labor, materials, expenses, or fees?
+- Does the project include labor, materials, expenses, or fees?
 
-- Should transactions create cost only or both cost and unbilled sales actuals?
+- Should transactions create cost actuals only or both cost and unbilled sales actuals?
 
-## Scenario 1: One project with many work orders
+## Scenario 1: One project with multiple work orders
 
-This scenario is for customers with one project but multiple field execution activities, and all work follows the same billing structure.
+Use this scenario when a project requires multiple field execution activities, and all the work follows the same billing structure.
 
 ### Customer situation
 
-A customer has a project that requires multiple field visits. Each visit is a Field Service work order, but all work belongs to the same project. All work follows the same billing structure.
+A customer project requires multiple field visits. Each visit uses a separate Field Service work order, but all the work belongs to the same project. All work follows the same billing structure.
 
-For example, a customer has an equipment installation project. The project includes site preparation, installation, inspection, and closeout work. Each visit is a separate work order, but all work rolls up to the same project.
+For example, an equipment installation project includes site preparation, installation, inspection, and closeout work. Each activity uses a separate work order, but all work rolls up to the same project.
 
 ### Recommended setup
 
@@ -46,28 +46,26 @@ Create one project contract and one project contract line for the project.
 
 Set up the contract line with:
 
-- **Project**: Selected project
-- **Included Tasks**: *All Project Tasks* or blank
-- **Include Time**: Yes
-- **Include Materials**: Yes
-- **Include Expense**: Optional, if expenses are enabled
-- **Billing Method**: *Time and Material* or *Fixed Price*, based on the commercial model
+- **Project**: Select the project.
+- **Included Tasks**: Select **All Project Tasks** or leave the field blank.
+- **Include Time**: Select **Yes**.
+- **Include Materials**: Select **Yes**.
+- **Include Expense**: Select **Yes** if expenses are enabled.
+- **Billing Method**: Select **Time and Material** or **Fixed Price**, based on the commercial model.
 
 ### Field Service execution pattern
 
-Create multiple work orders and link each work order to the same project.
-
-If you need task-level visibility, link each work order to the relevant project task.
+Create multiple work orders and link each work order to the same project. If you need task-level visibility, link each work order to the relevant project task.
 
 ### Result
 
-Each work order can produce Field Service transactions, such as technician time and material usage. Those transactions flow to Project Operations and resolve to the project contract line.
+A work order can generate Field Service transactions for technician time and materials used. Project Operations receives these transactions and associates them with the project contract line.
 
 This process helps you manage many field visits while maintaining one project financial structure.
 
 ## Scenario 2: Agreement-generated work orders linked to a project
 
-This scenario is for customers that have recurring field work, scheduled service, maintenance programs, or long-running service delivery that should roll into a project.
+This scenario is for customers that have recurring field work, scheduled service, maintenance programs, or long-running service delivery engagements that roll up to a project.
 
 ### Customer situation 
 
@@ -81,30 +79,30 @@ Create a project and project contract line that represents the recurring field s
 
 Set up the contract line with:
 
-- **Project**: Selected project
-- **Included Tasks**: *All Project Tasks* or blank, if all agreement work uses the same billing setup 
-- **Include Time**: Yes
-- **Include Materials**: Yes
-- **Include Expense**: Optional, if expenses are enabled
-- **Billing Method**: *Time and Material* or *Fixed Price*
+- **Project**: Select the project
+- **Included Tasks**: Select **All Project Tasks** or leave the field blank if all agreement work uses the same billing structure 
+- **Include Time**: Select **Yes**
+- **Include Materials**:Select **Yes**
+- **Include Expense**: Select **Yes** if expenses are enabled.
+- **Billing Method**: Select **Time and Material** or **Fixed Price**, based on the commercial agreement
 
 ### Field Service execution pattern 
 
 Link the agreement to the project.
 
-When the agreement generates work orders, the generated work orders carry the project context.
+Work orders that automatically generate from the agreement inherit the project context.
 
-If the agreement work needs to be separated by phase, asset, location, task, biller, or billing rule, use project tasks and task-based contract line setup.
+If agreement work is separated by phase, asset, location, project task, biller, or billing rule, use project tasks and task-based project contract lines.
 
 ### Result 
 
-Agreement-generated work orders send transactions to Project Operations without each work order needing to define the commercial structure independently.
+Agreement-generated work orders send transactions to Project Operations without requiring each work order to define its own commercial structure.
 
-The project and contract line provide the financial structure. The agreement provides the recurring Field Service execution pattern.
+The project and project contract line provide the financial structure. The agreement provides the recurring Field Service execution pattern.
 
 ## Scenario 3: Project tasks drive Field Service execution
 
-This scenario is for the customer who wants project task planning, scheduling, and progress tracking connected to Field Service execution, but doesn't need separate billing treatment by task.
+This scenario is for the customer who wants project task planning, scheduling, and progress tracking to connect to Field Service execution, but the project tasks don't require different billing treatment.
 
 ### Customer situation 
 
