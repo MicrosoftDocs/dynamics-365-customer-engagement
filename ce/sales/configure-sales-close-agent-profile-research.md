@@ -21,7 +21,7 @@ Define the agent information such as the name and the language to set the contex
 **Follow these steps**:
 
 1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
-1. Under the **General** settings section, select **Agent profile**.  
+1. Under **General**, select **Agent profile**.  
     :::image type="content" source="media/sca-research-agent-profile-settings.png" alt-text="Screenshot of the Sales Opportunity Agent agent profile settings page.":::  
 1. In the **Agent profile** page, enter the following information:  
 

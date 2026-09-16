@@ -20,14 +20,18 @@ Define how often the Sales Opportunity Agent refreshes its research data to prov
 **Follow these steps**:
 
 1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
-1. Under the **Guidance** settings section, select **Refresh frequency**.  
+1. Under **Advanced**, select **Refresh frequency**.  
     :::image type="content" source="media/sca-research-refresh-frequency.png" alt-text="Screenshot of the Sales Opportunity Agent refresh frequency settings page.":::  
 1. In the **Refresh frequency** page, specify how often the agent should refresh its research data.
 
-    - **Initial research only (recommended)**: The agent refreshes data only when it's first assigned to an opportunity. Choose this option if your business operates in a stable market with minimal changes in competitive information. It consumes the least capacity since the agent conducts research only once per opportunity. Sellers can request additional research on demand if needed. 
-    - **High**: The agent refreshes data every three days. Choose this option if your business always needs the latest information, but it consumes more capacity.
-    - **Medium**: The agent refreshes data once in a week. Choose this option if your business needs regular updates but doesn't require daily insights. It balances performance and data accuracy.
-    - **Low**: The agent refreshes data every 14 days. This option consumes the least capacity and is suitable for businesses that don't need frequent updates and want to save capacity.
+    | Refresh frequency | Schedule | When to use |
+    | --- | --- | --- |
+    | **Low (recommended)** | Every 14 days | When your business doesn't need frequent updates and wants to save capacity. This option consumes the least capacity. |
+    | **High** | Every three days | When your business always needs the latest information. This option consumes more capacity. |
+    | **Medium** | Once a week | When your business needs regular updates but doesn't require daily insights. This option balances performance and data accuracy. |
+    | **Very low** | Every 30 days | When your business rarely needs updates and wants to minimize capacity usage. This option consumes very little capacity. |
+    | **Initial research only** | When the agent is first assigned to an opportunity. Sellers can request additional research on demand. | For stable markets with minimal changes in competitive information. This option consumes the least capacity because the agent conducts research only once per opportunity. |
+
 1. To limit the capacity the agent can use, in the **Manage consumption limit** section, select **Manage limits**.
     The **Copilot Studio** page opens in a new tab. 
     Open the **Sales Opportunity Agent** for the environment to set up a usage limit.

@@ -4,7 +4,7 @@ description: Learn how to configure and use direct callback in the voice channel
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 02/20/2026
+ms.date: 09/16/2026
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -15,10 +15,12 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-
 Direct callback enables customers to request a callback as soon as a customer service representative (service representative or representative) is available instead of waiting on the call. You can configure the direct callback option at the queue level by using the overflow action "direct callback" for a specific queue condition. After the call reaches the number one position in the queue, the direct callback work item is assigned to the next available representative through a notification just like any regular work item that's waiting in queue. Except that the notification identifies the work item as a callback versus a regular inbound call. After the representative accepts the work item, a callback to the customer who requested a direct callback is automatically initiated and connected to the representative. In summary, direct callback helps provide better customer experiences by avoiding waiting in queue and helps administrators staff queues more efficiently to handle peak volume periods.
 
-You can also use the `CCaaS_CreateProactiveVoiceDelivery ` API in the Proactive Engagement solution to schedule callbacks from various platforms including web, mobile applications, voice and chat agents. Learn more in [schedule callbacks from any platform](/dynamics365/contact-center/extend/api/ccaas_createproactivevoicedelivery#schedule-callbacks-from-any-platform)
+Use the `CCaaS_CreateProactiveVoiceDelivery` API in the Proactive Engagement solution to schedule callbacks from various platforms including web, mobile applications, voice and chat agents. Learn more in [schedule callbacks from any platform](/dynamics365/contact-center/extend/api/ccaas_createproactivevoicedelivery#schedule-callbacks-from-any-platform).
+
+> [!IMPORTANT]
+> Use [customer-first direct callback](/dynamics365/contact-center/administer/configure-customer-first-callback) to reduce representative idle-time during callback processing. If you enable customer-first direct callback, it becomes the default callback experience and you can't revert to direct callback.
 
 ## Prerequisites for direct callback
 
@@ -41,7 +43,7 @@ Direct callback uses two automated messages that are available by default and ca
 - The second message confirms the callback selection when the customer presses 1 and notifies the customer that the call will end. The message played to the customer is as follows: "You have requested a callback. We'll call you back as soon as a representative is available. Goodbye!"
 
 > [!NOTE]
-> The callback option isn't customizable. 
+> The callback option isn't customizable.
 
 For more information, go to [Configure automated messages](configure-automated-message.md). For information on how to configure the conditions and actions, go to [Manage overflow of work items in queues](manage-overflow.md).
 
@@ -63,11 +65,13 @@ The direct callback is triggered by the queue overflow conditions where the corr
 1. The callback is of the type preview dialing, in which the representative has to accept the callback using a callback-specific notification before the call is dialed.
 1. In a callback with post-call survey, before the survey agent is engaged, the system plays a message that the representative is disconnected.
 
+The system automatically closes direct callback requests after seven days.
+
 ## Next steps
 
 [Manage overflow of work items in queues](manage-overflow.md)  
 
-### Related information
+## Related information
 
 [Overview of voice channel](voice-channel.md)  
 [Overview of unified routing](overview-unified-routing.md)  

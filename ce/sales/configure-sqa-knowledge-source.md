@@ -2,7 +2,7 @@
 title: Configure knowledge sources for agents
 description: Learn how to configure knowledge sources for agents in Dynamics 365 Sales.
 ms.topic: how-to 
-ms.date: 04/17/2026
+ms.date: 09/07/2026
 ms.service: dynamics-365-sales
 ms.custom: bap-template
 author: lavanyakr01
@@ -40,7 +40,7 @@ By default, the agent uses public web data sources to research records and their
 
 1. Depending on the agent you're configuring, go to the [Sales Qualification Agent settings page](open-sales-qualification-agent-settings.md) or the [Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
 
-1. In the **Knowledge** section, select **Research**.
+1. Select **Research**.
 1. Under **Enrich research with knowledge sources**, select **Company research**. Company insights include industry type, company size, financials, priorities, and news. The following examples are the best sources to add as knowledge sources for company research:
 
     | Insight | Typical questions answered | Examples of out-of-box data sources |
@@ -206,7 +206,7 @@ By using curated knowledge sources, the agent becomes a top researcher that unde
     - [Start the Sales Qualification Agent.](start-sales-qualification-agent.md)
 
 - For **Sales Opportunity Agent**:
-    - [Configure advanced settings (optional).](opportunity-research-agent-advanced-settings.md)
+    - [Configure risk criteria](configure-sales-opportunity-agent-risk-criteria.md).
     - [Start the Sales Opportunity Agent.](start-sales-close-agent-research.md)
 
 ## Related information

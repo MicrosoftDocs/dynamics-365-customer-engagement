@@ -325,7 +325,7 @@ A customer calls Alicia's direct line. If Alicia is on another call, the playboo
 
 You can view the diagnostics information by using a custom query. Learn more in [Sample queries and dashboards](/dynamics365/guidance/resources/conversation-diagnostics-sample-queries#conversation-orchestration).
 
-### Related information
+## Related information
 
 [Configure voicemail](voice-channel-voicemail.md)  
 [Configure direct callback](voice-channel-direct-callback.md)  

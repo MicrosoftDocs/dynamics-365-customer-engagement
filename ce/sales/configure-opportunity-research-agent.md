@@ -1,7 +1,7 @@
 ---
 title: Set up and configure the Sales Opportunity Agent
 description: Configure the Sales Opportunity Agent in Dynamics 365 Sales to automate opportunity research, get stakeholder and competitor intelligence, and enable risk assessment for your sales team.
-ms.date: 04/27/2026
+ms.date: 09/15/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -46,6 +46,10 @@ Before you set up the agent, consider the following points:
 
 - **Pick a product line.** The agent can be configured to handle opportunities for a specific product line. Choose a product line that has a good amount of opportunities and is important for your business.
 - **Define an opportunity segment.** Determine the segment of opportunities for the agent to handle. For example, only opportunities that are **Hot** with an estimated revenue of $100,000 or more.
+    - Select a small segment for the pilot.
+    - Fine-tune the agent during the pilot to limit credit consumption before you turn it on at scale.
+    - Review all configurations and tailor them to your business. Pay particular attention to the risk configurations because they're critical to generating responses specific to your organization.
+    - After the pilot and configuration review, turn the agent on for a larger opportunity segment.
 - **Predictive scoring dependency.** The agent uses the machine learning model in predictive opportunity scoring for risk assessment. If you didn't configure scoring in your environment, it's configured automatically when you start the agent.
 
 ## Grant permissions to sellers <a name="grant-permissions"></a>
@@ -63,12 +67,14 @@ Before setting up the agent, make sure you [plan your implementation](#plan-your
 1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
 1. [Configure requirements for the agent](configure-requirements-for-sales-close-agent-research.md) to verify your environment meets technical requirements.
 1. [Configure the agent profile](configure-sales-close-agent-profile-research.md) to set the agent's name and language.
-1. [Configure company info](configure-sales-close-agent-research-company-info.md) so the agent understands your value proposition and can curate relevant research insights.
-1. [Configure refresh frequency](configure-sales-close-agent-research-refresh-frequency.md) to control how often the agent updates research data.
+1. [Configure company info](configure-sales-close-agent-research-company-info.md) so the agent understands your value proposition and can curate relevant research insights.  
 1. [Set selection criteria for opportunities](configure-sales-close-agent-research-selection-criteria.md) to define which opportunities the agent should research.
-1. [Configure importance and risk assessment](configure-sales-close-agent-research-opportunity-assessment.md) to choose the fields the agent uses to evaluate opportunity importance and risk.
-1. [Configure knowledge sources](configure-sqa-knowledge-source.md) to add public and internal sources the agent uses to generate insights.
-1. [Configure advanced settings (optional)](opportunity-research-agent-advanced-settings.md) to fine-tune risk and importance thresholds.
+1. [Configure refresh frequency](configure-sales-close-agent-research-refresh-frequency.md) to control how often the agent updates research data.  
+1. [Configure opportunity assessment](configure-sales-close-agent-research-opportunity-assessment.md) to choose the fields the agent uses to evaluate opportunity importance and risk.
+1. [Configure agent research](configure-sqa-knowledge-source.md) to add public and internal sources the agent uses to generate insights.
+1. [Configure risk criteria](configure-sales-opportunity-agent-risk-criteria.md) to define the conditions under which an opportunity is considered high risk.
+1. [Configure importance criteria](opportunity-research-agent-advanced-settings.md) to define the conditions under which an opportunity is considered important.  
+1. [Configure connected skills](configure-sales-opportunity-agent-connected-skills.md) to define the skills the agent should leverage when researching opportunities.
 1. [Start the agent](start-sales-close-agent-research.md) to begin researching opportunities and generating insights.
 
 ## After setup
