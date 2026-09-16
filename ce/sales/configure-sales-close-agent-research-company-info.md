@@ -21,7 +21,7 @@ Define the company information such as name, website URL, and value propositions
 **Follow these steps**:
 
 1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
-1. Under the **General** settings section, select **Company info**.  
+1. Under **General**, select **Company info**.  
     :::image type="content" source="media/sca-research-company-info.png" alt-text="Screenshot of the Sales Opportunity Agent company info settings page.":::  
 1. In the **Company info** page, enter the following information:  
 

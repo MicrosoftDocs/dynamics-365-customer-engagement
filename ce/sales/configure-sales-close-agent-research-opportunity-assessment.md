@@ -1,7 +1,7 @@
 ---
 title: Configure opportunity assessment for Sales Opportunity Agent
 description: Learn how to configure the opportunity assessment settings for the Sales Opportunity Agent in Dynamics 365 Sales.
-ms.date: 03/30/2026
+ms.date: 09/07/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -21,7 +21,7 @@ Configure the fields that the agent uses to assess the importance and risk of th
 **Follow these steps**:
 
 1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
-1. In the **Guidance** section, select **Opportunity assessment**.  
+1. Under **Advanced**, select **Opportunity assessment**.  
     :::image type="content" source="media/sca-opportunity-assessment-settings-page.png" alt-text="Screenshot of the Sales Opportunity Agent opportunity assessment settings page.":::
 1. In the **Opportunity assessment** settings, select the fields that the agent should use for assessing the importance and risk of opportunities.
     - **Monetary value:** Select the field that represents the monetary value, such as **Est. revenue**.

@@ -1,7 +1,7 @@
 ---
-title: Configure risk and importance criteria for Sales Opportunity Agent
-description: Learn how to configure the risk and importance criteria specific to your organization so that the Sales Opportunity Agent can provide more accurate assessments of opportunities.
-ms.date: 03/30/2026
+title: Configure importance criteria for Sales Opportunity Agent
+description: Configure importance criteria for Sales Opportunity Agent to align opportunity assessments with your business priorities. Learn how to customize criteria.
+ms.date: 09/07/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -14,77 +14,80 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure risk and importance criteria for Sales Opportunity Agent
+# Configure importance criteria for Sales Opportunity Agent
 
-By default, the Sales Opportunity Agent determines the risk and importance of an opportunity based on company research and predefined criteria. However, you can customize these criteria to better align with your organization's specific needs. For example, Contoso Inc has a typical sales cycle that lasts 15 days, and the company wants to flag opportunities that are in the same stage for more than 10 days as risky. They can modify the "Stalled in stage" criterion to reflect this requirement.
+Importance criteria help the agent determine which opportunities deserve the most attention from sellers and sales managers. While risk criteria identify deals that might be in trouble, importance criteria identify deals that have the greatest business value or strategic significance.  
+The agent evaluates multiple importance signals and calculates an overall importance indicator for each opportunity.
 
-The agent evaluates multiple risk and importance criteria to generate overall indicators for each opportunity:
+As an administrator, you can:  
 
-- **Risk indicator**: The agent assesses the severity of each individual risk criterion that you configure and calculates an average rating. For example, if you set the **No recent engagement** threshold to 14 days and an opportunity has no engagement for 15 days, it receives a low-risk rating. If the same opportunity has no engagement for 30 days, it receives a high-risk rating. After evaluating all applicable risk criteria, the agent computes an overall risk score for the opportunity.
+- Review the default importance criteria used by the agent.
+- Modify the values and thresholds that determine the significance of an opportunity.
+- Align importance criteria with your organization's sales methodology, business processes, and strategic priorities.
+- Fine-tune importance evaluation so the opportunities surfaced by the agent reflect what matters most to the business.
+- Create custom importance criteria that reflect your organization's unique business priorities. For more information, see [Create custom importance criteria](#create-custom-importance-criteria).
+ 
+The agent evaluates each configured importance criterion, assigns a significance rating, and calculates an overall importance score for the opportunity. This score helps prioritize opportunities that deserve the most attention from sellers.
 
-- **Importance indicator**: The agent evaluates the significance of each individual importance criterion that you configure and calculates an average rating to determine the overall importance of an opportunity.
+For example:
 
-Use the overall risk and importance scores to prioritize which opportunities need immediate attention.
+An organization might consider opportunities important when they:
 
-## Configure the risk criteria
+- Belong to strategic customer accounts.
+- Have high revenue potential.
+- Support a key product line.
+- Align with current business objectives.
 
-1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).
-1. Under the **Advanced** settings section, select **Risk criteria**.
-
-1. Open the list of available criteria and review the existing risk criteria.  
-
-   :::image type="content" source="media/sales-close-agent-risk-criteria.png" alt-text="Screenshot showing the risk criteria section in the Sales Opportunity Agent configuration page.":::
-1. Modify the criteria as needed. The following table lists the available risk criteria for the **Sales Opportunity Agent**:
-
-    | Risk criteria | Description |
-    |---------------|-------------|
-    | No recent engagement | Flags opportunities with no activity (email, reply, or meeting) within the configured time window. |
-    | Unresponsive champion | Flags opportunities where the champion doesn't respond after the configured number of touchpoints. |
-    | Not multithreaded | Flags opportunities with limited stakeholder engagement. Multithreading means connecting with multiple contacts; this risk appears when contact coverage is below the configured threshold. |
-    | Missing stakeholder roles | Flags opportunities missing one or more required stakeholder roles in connections or email conversations once the opportunity reaches the configured stage. |
-    | Close date deviation | Flags opportunities where the estimated close date is near or past before reaching the configured stage. |
-    | Stalled in stage | Flags opportunities that remain in the configured stage longer than the allowed number of days. |
-    | Objections raised | Flags opportunities where email conversations or notes include configured objection keywords or phrases. |
-    | Missing BANT info | Flags opportunities missing one or more BANT fields (Budget, Authority, Need, Timeline) by the configured stage. |
-    | Aging opportunity | Flags opportunities that are open longer than the average age of previously won deals, indicating they might need extra attention. |
-    | Competitor mention | Flags opportunities where competitor names or mentions appear in email conversations, signaling competitive positioning might be needed. |
-    | Negative news | Flags opportunities where external events such as layoffs, budget cuts, or mergers and acquisitions detected through company insights could impact deal success. |
-
-1. If you don't want to use a criterion in risk assessment, turn off the toggle next to it under **Use in assessment**.
+You can configure the importance criteria to reflect these priorities, ensuring that the most valuable opportunities are surfaced and prioritized by the agent.
 
 ## Configure the importance criteria
 
 1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).
-1. Under the **Advanced** settings section, select **Risk criteria**.
+1. Under the **Advanced** settings section, select **Importance criteria**.  
 
-1. Open the list of available criteria and review the existing importance criteria.
- 
-   :::image type="content" source="media/sales-close-agent-importance-criteria.png" alt-text="Screenshot showing the importance criteria section in the Sales Opportunity Agent configuration page.":::
-1. Modify the criteria as needed. The following table lists the available importance criteria for the Sales Opportunity Agent:
+   :::image type="content" source="media/sales-opportunity-agent-importance-criteria.png" alt-text="Screenshot of the importance criteria section on the Sales Opportunity Agent configuration page.":::
+
+1. The default importance criteria are preconfigured to help you quickly assess the significance of opportunities. Review and adjust these criteria based on your organization's priorities.
 
     | Importance criteria | Description |
-    |---------------------|-------------|
-    | Existing customer | Indicates that opportunities linked to existing accounts based on the configured account-age threshold must be considered important. |
-    | Account win history | Indicates that opportunities linked to accounts with a historical win rate above the configured threshold must be considered important. |
-    | Deal size | Indicates that opportunities with unusually large estimated revenue compared to past wins for the same account must be considered important. |
-    | Account fortune 500 | Indicates that opportunities linked to Fortune 500 accounts must be considered important. |
-    | Executive visibility | Indicates that opportunities involving executive-level stakeholders, signaling C-suite visibility or sponsorship, must be considered important. |
-    | Strategic references | Indicates that opportunities referenced as strategic in email conversations or CRM notes must be considered important. |
+    |---------------|-------------|
+    | Existing customer | Indicates that opportunities linked to existing accounts based on the configured account-age threshold are important. |
+    | High account win history | Indicates that opportunities linked to accounts with a historical win rate above the configured threshold are important. |
+    | Top 500 Account | Indicates that opportunities linked to Fortune 500 accounts are important. |
+    | Strategic references | Indicates that opportunities referenced as strategic in email conversations or CRM notes are important. |
+    | Large deal size | Indicates that opportunities with unusually large estimated revenue compared to past wins for the same account are important. |
+    | Executive visibility | Indicates that opportunities involving executive-level stakeholders, signaling C-suite visibility or sponsorship, are important. |
 
 1. If you don't want to use a criterion in importance assessment, turn off the toggle next to it under **Use in assessment**.
-1. (Optional) Select **Advanced settings** to add custom criteria for importance assessment. A custom criterion is useful when you want to evaluate importance based on organization-specific factors not covered by the default criteria. For example, you might want to add a custom criterion that flags opportunities linked to accounts in a specific industry vertical as important.
-    1. Under **Advanced settings**, select **New custom criterion**.
-    1. In the **New custom criterion** dialog box, provide the following details:
-        - **Display name**: Enter a name for the custom criterion.
-        - **Describe the criterion that determines an opportunity's importance**: Provide a brief description of what the criterion evaluates and how it determines importance. 
-        - **Where should the agent look for this data?**: Select the data source where the agent should look for information related to this criterion. This selection could be fields on the opportunity table or related tables.
-    1. Select **Add** to add the custom criterion to the importance assessment.
-       The **Use in assessment** toggle turns on automatically.
+
+## Create custom importance criteria
+
+1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).
+1. Under **Advanced**, select **Importance criteria**.  
+1. In the **Advanced settings** section, open the **Custom importance criteria (Optional)** section.  
+ 
+   :::image type="content" source="media/sales-opportunity-agent-custom-important-criteria.png" alt-text="Screenshot of the custom importance criteria section on the Sales Opportunity Agent configuration page.":::  
+
+1. Enter the name and description for the new importance criterion.
+1. Add fields to map to the new custom importance criterion.
+    1. Select **Add**.
+    1. In the **Select field to map** pane, select the field that you want to map to the new custom importance criterion. Choose opportunity-related fields or fields from related entities.  
+1. Repeat Step 5 for each additional field you want to map to the new custom importance criterion.  
+
+    :::image type="content" source="media/sales-opportunity-agent-add-custom-important-criteria.png" alt-text="Screenshot of the process for adding a custom importance criterion on the Sales Opportunity Agent configuration page."::: 
+
+1. After adding the necessary fields to the new custom importance criterion, from the top-right corner of the section, select **Add**.  
+    The custom importance criterion is now added and available for use in importance assessments.  
+
+    :::image type="content" source="media/sales-opportunity-agent-custom-important-criteria-added.png" alt-text="Screenshot of the custom importance criterion after it is added on the Sales Opportunity Agent configuration page.":::
+
+1. To edit or delete the existing custom importance criterion, select the **More options** (ellipsis) icon next to it.  
+1. To disable a criterion from importance assessment, turn off the toggle next to it under the **Use in assessment** column. 
 
 ## Next step
 
-[Start the Sales Opportunity Agent.](start-sales-close-agent-research.md)
+[Configure connected skills.](configure-sales-opportunity-agent-connected-skills.md)
 
 ## Related information
 
-[Set up and configure Sales Opportunity Agent.](configure-opportunity-research-agent.md)
+[Set up and configure Sales Opportunity Agent](configure-opportunity-research-agent.md)
