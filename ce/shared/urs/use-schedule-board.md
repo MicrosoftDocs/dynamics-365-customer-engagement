@@ -18,7 +18,7 @@ The actions area at the top of the schedule board provides tools for scheduling 
 
   > [!NOTE]
   > In Gantt view, when you reschedule a task, the board may scroll to the first resource in the list instead of keeping the selected resource centered. Use the resource search or filter to navigate back.
-- **Date range** - Set the time frame that shows on the board. Use the arrows to move between time frames.
+- **Date range** - Set the time frame that shows on the board. Use the arrows to move between time frames. When enabled in your Dynamics 365 personalization settings, week numbers appear in the schedule board's date pickers and weekly view. Your regional calendar settings determine how weeks are numbered.
 - **Book** - Manually create a booking. Learn more in [Manual scheduling](../../field-service/schedule-board-manual-scheduling.md).
 - **Move bookings** - Select **&hellip;** > **Move bookings** to move bookings to a different day. Learn more in [Drag and drop scheduling](../../field-service/schedule-board-drag-drop.md).
 - **Print** - Select **&hellip;** > **Print schedule board** to configure and print the schedule.
@@ -71,8 +71,8 @@ For more information about how to construct the URL, go to [Open the schedule bo
 To facilitate workflows, the system caches some parameters so you can quickly continue where you left off:
 
 - Last accessed tab
-- Map panel: Open or closed
-- View type: Gantt or list view
+- View type: Gantt, list, or map view (cached per tab)
+- Map panel: Open or closed (cached separately from the view type)
 - View mode: Hourly, daily, or weekly
 - Board start date: Cached per tab for 15 minutes
 - Column width: Zoom level
