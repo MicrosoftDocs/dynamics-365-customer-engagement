@@ -21,7 +21,7 @@ Add conditions to filter opportunities for the Sales Opportunity Agent to focus 
 **Follow these steps**:
 
 1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
-1. In the **Guidance** section, select **Selection criteria**.  
+1. Under **General**, select **Selection criteria**.  
     :::image type="content" source="media/sca-selection-criteria-settings-page.png" alt-text="Screenshot of the Sales Opportunity Agent selection criteria settings page.":::
 1. In the **Selection criteria** tab, specify the following information:
    - **Segment name:** Enter a name for the segment, such as *Microsoft 365 Opportunities*. Use the segment name to identify the opportunities the agent handles (it doesn't use the segmentation feature in Dynamics 365 Sales).

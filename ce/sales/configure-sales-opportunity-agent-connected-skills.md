@@ -1,7 +1,7 @@
 ---
 title: Configure recommended actions for Sales Opportunity Agent
 description: Learn how to enable recommended actions for the Sales Opportunity Agent in Dynamics 365 Sales to provide sellers with prioritized action recommendations based on detected risks in their opportunities.
-ms.date: 05/19/2026
+ms.date: 09/07/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -25,7 +25,7 @@ The Sales Opportunity Agent can integrate with the [Recommended Actions Agent](r
 Follow these steps to enable recommended actions for the Sales Opportunity Agent:
 
 1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
-1. Under the **Guidance** settings section, select **Connected skills**.
+1. Under **Advanced**, select **Connected skills**.
 1. In the **Recommended action** section, turn on the toggle.  
 
     :::image type="content" source="media/soa-recommended-actions-toggle.png" alt-text="Recommended actions toggle in Sales Opportunity Agent configuration page":::  
@@ -38,7 +38,7 @@ The Sales Opportunity Agent appears in the AI agents list on the recommended act
 
 ## Next step
 
-[Configure knowledge sources.](configure-sqa-knowledge-source.md)
+[Start the Sales Opportunity Agent.](start-sales-close-agent-research.md)
 
 ## Related information
 

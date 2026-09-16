@@ -203,18 +203,18 @@ items:
                     href: configure-sales-close-agent-research-company-info.md
                   - name: Set selection criteria for opportunities
                     href: configure-sales-close-agent-research-selection-criteria.md
-                  - name: Configure recommended actions for Sales Opportunity Agent
-                    href: configure-sales-opportunity-agent-connected-skills.md
                   - name: Configure refresh frequency
                     href: configure-sales-close-agent-research-refresh-frequency.md
-                  - name: Configure importance and risk assessment
+                  - name: Configure opportunity assessment
                     href: configure-sales-close-agent-research-opportunity-assessment.md
-                  - name: Configure knowledge sources
+                  - name: Configure research
                     href: configure-sqa-knowledge-source.md
-                  - name: Define custom research insights
-                    href: define-custom-research-topics.md
-                  - name: Configure advanced settings
+                  - name: Configure risk criteria
+                    href: configure-sales-opportunity-agent-risk-criteria.md
+                  - name: Configure importance criteria
                     href: opportunity-research-agent-advanced-settings.md
+                  - name: Configure connected skills
+                    href: configure-sales-opportunity-agent-connected-skills.md
               - name: Start the agent
                 href: start-sales-close-agent-research.md
               - name: Edit settings of Sales Opportunity Agent
