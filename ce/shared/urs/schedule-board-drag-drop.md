@@ -2,14 +2,13 @@ The [schedule board](../../field-service/work-with-schedule-board.md) supports d
 
 ## Drag-and-drop versus Move To
 
-The schedule board offers two ways to change a booking's resource or time. They handle end dates and travel time differently.
+The schedule board offers two ways to change a booking's resource or time. They differ in how they handle travel time and which resources are available.
 
 | | Drag-and-drop | Move To (right-click) |
 |---|---|---|
-| **End date** | Set from the requirement's **remaining duration**, not its end date | You specify the end date and time explicitly |
 | **Travel time** | Start time represents the estimated arrival time, with travel time included | Recalculates travel time from the new start point, which shifts the booking slot forward |
 | **Resource scope** | Only resources visible on the current board tab | Can search all resources, including those not on the current tab |
-| **Best for** | Quick scheduling when you can see the target resource and time slot | Reassigning to a different resource not on the board, or when you need precise control over start and end times |
+| **Best for** | Quick scheduling when you can see the target resource and time slot | Reassigning to a resource that isn't on the board, or when you need precise control over the start time |
 
 > [!NOTE]
 > When you drag a requirement onto the schedule board, the system sizes the booking from the requirement's remaining duration, not its end date. If the requirement has no remaining duration, the booking uses the default booking duration. To preserve a specific end date, use the **Book** action or the schedule assistant instead.
@@ -18,11 +17,11 @@ The schedule board offers two ways to change a booking's resource or time. They 
 
 Drag a booking on the timeline to move it to a different time slot or a different resource row on the current board tab. The booking's duration stays the same.
 
-## Move or reassign one or more bookings with Move to, Move by, or Reassign to
+## Move or reassign bookings with Move to, Move by, or Reassign to
 
 For more control, right-click a single booking on the schedule board and select **Move to**. Reassign the booking to any resource on the current schedule board tab, or change the start date and the start time of the booking. To assign the booking to a resource that doesn't show on this schedule board, select the filter icon in the resource field and change the filter from **Resources on this tab** to **All resources**. Select **Update** to apply the changes.
 
-If you select multiple bookings, different rescheduling options appear in the right-click menu. Use **Move by** to move selected bookings forward or backward by a set offset (for example, move three selected bookings back by two days). Use **Reassign to** to move selected bookings to a new resource while maintaining their current timings.
+To act on multiple bookings, select the bookings with Ctrl-click (Windows) or Command-click (macOS), then right-click one of the selected bookings. Different rescheduling options appear in the right-click menu. Use **Move by** to move selected bookings forward or backward by a set offset (for example, move three selected bookings back by two days). Use **Reassign to** to move selected bookings to a new resource while preserving their existing times.
 
 > [!IMPORTANT]
 > When you use **Move To** or **Reassign to** to reassign a booking, the system recalculates travel time from the new start point. This shifts the booking slot forward compared to the original booking. This is expected behavior and differs from the initial drag-and-drop booking, where the start time represents the estimated arrival.
