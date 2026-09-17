@@ -1,7 +1,7 @@
 ---
 title: Set up the mobile offline profile
 description: Learn how to configure the mobile offline profile to work with the Dynamics 365 Field Service mobile app when no network is available.
-ms.date: 07/30/2026
+ms.date: 09/14/2026
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -27,6 +27,23 @@ Administrators control what data the Field Service mobile app downloads by using
 - Define tables that are available offline and how often they sync.
 - Define filters for each table. For example, by default the offline profile downloads bookings that start within the next seven days.
 - Set up item association by creating relationships between tables. Item association saves time because not every table needs a filter. Associated tables follow the filters that are set on the related table.
+
+## Data in the default offline profile
+
+The default **Field Service Mobile - Offline Profile** includes the following core transaction tables:
+
+- Bookable Resource Booking
+- Work Order
+- Work Order Incident
+- Work Order Product
+- Work Order Service
+- Work Order Service Task
+- Work Order Not-To-Exceed
+- Work Order Resolution
+
+The booking filter downloads active bookings assigned to the current user when the booking starts or ends today or within the next seven days. The default profile relates bookings to work orders and work orders to their incidents, products, services, service tasks, not-to-exceed records, and resolutions.
+
+The default solution sets a five-minute sync interval for bookings, work orders, incidents, products, services, service tasks, and not-to-exceed records. Administrators can change these intervals. Field Service updates can also change the default profile, so review the profile in your environment for the current tables, filters, relationships, and intervals.
 
 ## Prerequisites
 
