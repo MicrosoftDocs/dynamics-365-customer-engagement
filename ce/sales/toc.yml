@@ -997,6 +997,8 @@ items:
                 href: sales-dev-agent/get-reports.md
               - name: Copy configuration from one agent to another
                 href: sales-dev-agent/copy-configuration.md
+              - name: Use the Sales Development agent with multiple users
+                href: sales-dev-agent/multi-users.md
       - name: Use Microsoft 365 Copilot in Dynamics 365 Sales
         items:
           - name: Use the Sales agent in Microsoft 365 Copilot from Dynamics 365 Sales
