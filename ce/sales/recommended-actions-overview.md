@@ -1,7 +1,7 @@
 ---
 title: Recommended actions overview
-description: Recommended actions is an intelligent capability that shows prioritized actions so sellers focus on the most effective tasks for their opportunities. 
-ms.date: 06/03/2026
+description: Recommended actions is an intelligent capability that shows prioritized actions so sellers focus on the most effective tasks for their records, such as leads and opportunities. 
+ms.date: 09/18/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -14,19 +14,15 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Recommended actions overview (preview)
+# Recommended actions overview
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-Recommended actions is an intelligent capability that shows prioritized actions so sellers focus on the most effective tasks for their opportunities. This agent evaluates actions from multiple agents and presents them in a single, prioritized experience.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+Recommended actions is an intelligent capability that shows prioritized actions so sellers focus on the most effective tasks for their records, such as leads and opportunities. This agent evaluates actions from multiple agents and presents them in a single, prioritized experience.
 
 ## Key capabilities
 
-- **Intelligent prioritization**: Uses AI and LLM processing to evaluate and prioritize actions. It moves beyond deterministic recommendations and provides contextual insights. This capability helps sellers act on high impact opportunities and risks faster.
+- **Intelligent prioritization**: Uses AI and LLM processing to evaluate and prioritize actions. It moves beyond deterministic recommendations and provides contextual insights. This capability helps sellers act on high impact actions and risks faster.
 
-- **Multi-agent support**: Aggregates actions from other agents in your organization, like Sales Opportunity Agent, Data Enrichment Agent, and custom agents you create. This capability enables a unified action surface regardless of where the insight originates.  
+- **Multi-agent support**: Aggregates actions from other agents in your organization, like Sales Opportunity Agent, Sales Qualification Agent, Data Enrichment Agent, and custom agents you create. This capability enables a unified action surface regardless of where the insight originates.  
 
 - **Extensible architecture**: Supports onboarding of custom workflows and third party or customer built agents. The architecture scales as new agents enter the ecosystem.  
 
@@ -39,6 +35,7 @@ Recommended actions is an intelligent capability that shows prioritized actions 
 | Agent type | Behavior | Charging model |
 |------------|----------|----------------|
 | Sales Opportunity Agent | Provides prioritized actions | Charged |
+| Sales Qualification Agent | Provides prioritized actions | Charged |
 | Data Enrichment Agent | Displayed in carousel, not prioritized | Not charged.<br>Data Enrichment agent actions are shown but not processed through the prioritization engine, which is why they're not billed. |
 | Custom agents | Can be onboarded and prioritized | Charged |
 

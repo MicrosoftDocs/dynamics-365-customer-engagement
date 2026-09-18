@@ -1,7 +1,7 @@
 ---
 title: Configure general settings for the Sales Qualification Agent
 description: Configure the Sales Qualification Agent's general settings, including agent profile, company details, and product information, to set the context for the agent.
-ms.date: 05/29/2026
+ms.date: 09/18/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -49,6 +49,18 @@ The agent uses company information to generate personalized outreach emails and 
 The agent uses product information to generate suggestions during hand over and to provide relevant product details in outreach emails. 
 
 1. Under **General Settings** > **Products**, enter the value proposition of your products or services, highlighting their key benefits and features. This information helps the agent tailor its research and generate relevant outreach emails and follow-up email. It's also used to auto-generate [handoff criteria](configure-sales-qualification-agent-handoff-criteria.md) later in the setup.
+
+## Enable or disable recommended actions for the Sales Qualification Agent
+
+The Sales Qualification Agent can integrate with the [Recommended Actions Agent](recommended-actions-overview.md) to surface action recommendations for your leads directly in the **Suggested actions** carousel on the **Leads** list page. By default, this integration is enabled.
+
+Follow these steps to disable or enable recommended actions for the Sales Qualification Agent:
+
+1. [Open the Sales Qualification Agent settings page](open-sales-qualification-agent-settings.md).
+1. Under **General** settings, select **Connected skills**.
+1. Turn on or off the toggle for **Recommended Actions** to enable or disable the integration.
+
+For more information about how the agent prioritizes and recommends actions, see [Manage risks and prioritize actions based on AI recommendations (preview)](next-best-actions-to-manage-opportunities.md).
 
 ## Next step
 

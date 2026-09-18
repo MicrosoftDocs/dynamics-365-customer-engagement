@@ -1,7 +1,7 @@
 ---
 title: Configure Recommended Actions agent
 description: Learn how to configure recommended actions in Dynamics 365 Sales to help sellers focus on the most effective tasks for their opportunities.
-ms.date: 06/03/2026
+ms.date: 09/18/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -14,35 +14,26 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Configure Recommended Actions agent (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Configure Recommended Actions agent
 
 As an admin, you can configure which agents can use the Recommended Actions agent, how actions are prioritized, and whether the feature is enabled.
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Enable recommended actions for agents
 
 When you turn on the recommended actions toggle for an agent, that agent's action insights are integrated into the recommended actions interface. Instead of appearing only in the agent's own interface, the agent's action insights now appear as action cards in the recommended actions experience, giving sellers a unified view of prioritized, actionable recommendations. For example, when this feature is enabled, the Data Enrichment Agent displays action insights related to data quality improvements in the recommended actions interface.  
-  
-### Sales Opportunity Agent
 
-1. In the agent configuration page, go to **Guidance** > **Connected skills**.
-1. In the **Recommended action** section, turn on the toggle.  
+> [!NOTE]
+> Recommended actions are currently available for the Sales Opportunity Agent, Sales Qualification Agent, and Data Enrichment Agent.
 
-    :::image type="content" source="media/soa-recommended-actions-toggle.png" alt-text="Recommended actions toggle in Sales Opportunity Agent configuration page":::
+1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.  
+1. Go to **General settings** > **Dynamics 365 AI hub** > **Create and manage agents**.
+1. Select the agent for which you want to configure recommended actions.
+1. From the agent configuration page, select **Connected skills** from the left pane.
+1. Turn on the toggle for **Recommended Actions**. The following screenshot shows the toggle in the Sales Opportunity Agent configuration page as an example:
 
-The recommended actions feature is enabled and action insight cards start appearing on opportunities that meet the criteria for the Sales Opportunity Agent.  
+    :::image type="content" source="media/soa-recommended-actions-toggle.png" alt-text="Recommended actions toggle in an agent configuration page":::
 
-### Data Enrichment Agent
-
-1. In the Data Enrichment Agent configuration page, go to **General** > **Connected skills**.  
-1. In the **Recommended action** section, turn on the toggle.  
-
-    :::image type="content" source="media/dea-recommended-actions-toggle.png" alt-text="Recommended actions toggle in Data Enrichment Agent configuration page":::  
-
-The recommended actions feature is enabled and action insight cards from the Data Enrichment Agent start appearing on opportunities that meet the criteria for the agent.  
+The recommended actions feature is enabled, and the agent's action insight cards start appearing in the recommended actions experience for records that meet the agent's criteria.
 
 ## Add custom agents for recommended actions
 
@@ -81,7 +72,7 @@ Add custom agents to show actions in the recommended actions experience by addin
 
 ## Disable recommended actions
 
-To disable recommended actions for an agent, turn off the recommended actions toggle in the agent's configuration page.  
+To disable recommended actions for an agent, turn off the recommended actions toggle in the **Connected skills** section of the corresponding agent's configuration page.
 When disabled, the agent continues to run and generate insights in its own interface but the insights don't appear in the recommended actions interface. You can re-enable the source at any time to get the insights back in the recommended actions interface.  
 
 ## Permissions required for custom security roles

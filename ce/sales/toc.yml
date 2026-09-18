@@ -925,7 +925,7 @@ items:
                 href: sales-opportunity-agent.md
               - name: Work on opportunities researched by agent
                 href: use-opportunity-research-agent.md
-              - name: Manage opportunity risks using AI-recommended actions
+              - name: Manage risks and prioritize actions using AI-recommended actions
                 href: next-best-actions-to-manage-opportunities.md
               - name: FAQs about Sales Opportunity Agent
                 href: opportunity-research-agent-faqs.md
@@ -1454,12 +1454,14 @@ items:
                 href: ../developer/reference/mcp-tools/get_account_hierarchy.md
               - name: Account organization chart
                 href: ../developer/reference/mcp-tools/map_account_org_chart.md
-              - name: Account summary
-                href: ../developer/reference/mcp-tools/get_account_summary.md
+              - name: Account research
+                href: ../developer/reference/mcp-tools/get_account_research.md
               - name: Activity timeline
                 href: ../developer/reference/mcp-tools/get_activity_timeline.md
               - name: Add opportunity product
                 href: ../developer/reference/mcp-tools/add_opportunity_product.md
+              - name: Agent configuration capabilities
+                href: ../developer/reference/mcp-tools/get_agent_config_capabilities.md
               - name: Assign entity
                 href: ../developer/reference/mcp-tools/assign_entity.md
               - name: Clone opportunity
@@ -1468,8 +1470,10 @@ items:
                 href: ../developer/reference/mcp-tools/close_opportunity.md
               - name: Close quote
                 href: ../developer/reference/mcp-tools/close_quote.md
-              - name: Contact summary
-                href: ../developer/reference/mcp-tools/get_contact_summary.md
+              - name: Competitor research
+                href: ../developer/reference/mcp-tools/get_competitor_research.md
+              - name: Configure agent layout
+                href: ../developer/reference/mcp-tools/save_agent_config.md
               - name: Convert quote to order
                 href: ../developer/reference/mcp-tools/convert_quote_to_order.md
               - name: Create activity
@@ -1484,58 +1488,122 @@ items:
                 href: ../developer/reference/mcp-tools/create_quote_from_opportunity.md
               - name: Delete entity record
                 href: ../developer/reference/mcp-tools/delete_entity_record.md
+              - name: Delete my preference
+                href: ../developer/reference/mcp-tools/delete_user_prefs.md
               - name: Delete opportunity product
                 href: ../developer/reference/mcp-tools/delete_opportunity_product.md
+              - name: Delete registration
+                href: ../developer/reference/mcp-tools/delete_registration.md
+              - name: Delete tool description overrides
+                href: ../developer/reference/mcp-tools/delete_tool_description.md
+              - name: Disconnect environment
+                href: ../developer/reference/mcp-tools/disconnect_environment.md
               - name: Draft email
                 href: ../developer/reference/mcp-tools/draft_email.md
-              - name: Generate email content
+              - name: Exit configuration mode
+                href: ../developer/reference/mcp-tools/maker_exit.md
+              - name: Generate email content (Microsoft 365 Copilot)
                 href: ../developer/reference/mcp-tools/generate_email_content.md
-              - name: Lead business process flow
+              - name: Get a contact summary
+                href: ../developer/reference/mcp-tools/get_contact_summary.md
+              - name: Get active environment
+                href: ../developer/reference/mcp-tools/get_environment.md
+              - name: Get an account summary
+                href: ../developer/reference/mcp-tools/get_account_summary.md
+              - name: Get lead business process flow
                 href: ../developer/reference/mcp-tools/get_lead_bpf.md
+              - name: Get opportunity business process flow
+                href: ../developer/reference/mcp-tools/get_opportunity_bpf.md
+              - name: Get price list
+                href: ../developer/reference/mcp-tools/get_price_list.md
+              - name: Get product
+                href: ../developer/reference/mcp-tools/get_product.md
+              - name: Get product pricing
+                href: ../developer/reference/mcp-tools/get_product_pricing.md
+              - name: Get stakeholders
+                href: ../developer/reference/mcp-tools/get_stakeholder.md
+              - name: Getting started with agent configuration
+                href: ../developer/reference/mcp-tools/browse_agent_config_options.md
+              - name: Grant foreign namespace
+                href: ../developer/reference/mcp-tools/save_cross_namespace_grant.md
+              - name: Grant foreign tools
+                href: ../developer/reference/mcp-tools/save_cross_namespace_tools.md
               - name: Lead summary
                 href: ../developer/reference/mcp-tools/get_lead_summary.md
               - name: Link competitor to opportunity
                 href: ../developer/reference/mcp-tools/link_competitor_to_opportunity.md
               - name: Link opportunity
                 href: ../developer/reference/mcp-tools/link_opportunity.md
-              - name: List emails
+              - name: List / search emails
                 href: ../developer/reference/mcp-tools/list_emails.md
+              - name: List agent configurations
+                href: ../developer/reference/mcp-tools/list_agent_configs.md
+              - name: List available MCS bots
+                href: ../developer/reference/mcp-tools/list_copilot_studio_registration_bots.md
+              - name: List cross-namespace grants
+                href: ../developer/reference/mcp-tools/list_cross_namespace_grants.md
               - name: List entity records
                 href: ../developer/reference/mcp-tools/list_entity_records.md
-              - name: Opportunity business process flow
-                href: ../developer/reference/mcp-tools/get_opportunity_bpf.md
+              - name: List environments
+                href: ../developer/reference/mcp-tools/list_environments.md
+              - name: List my preferences
+                href: ../developer/reference/mcp-tools/list_user_prefs.md
+              - name: List opportunity competitors
+                href: ../developer/reference/mcp-tools/list_opportunity_competitors.md
+              - name: List opportunity products
+                href: ../developer/reference/mcp-tools/list_opportunity_products.md
+              - name: List tool description overrides
+                href: ../developer/reference/mcp-tools/list_tool_description.md
+              - name: List tool visibility
+                href: ../developer/reference/mcp-tools/list_tool_selection.md
+              - name: Manage Copilot Studio agents
+                href: ../developer/reference/mcp-tools/manage_copilot_studio_registration.md
+              - name: Manage external MCP tool servers
+                href: ../developer/reference/mcp-tools/manage_mcp_registration.md
               - name: Opportunity catch-up
                 href: ../developer/reference/mcp-tools/get_opportunity_catchup.md
-              - name: Opportunity competitors
-                href: ../developer/reference/mcp-tools/list_opportunity_competitors.md
-              - name: Opportunity products
-                href: ../developer/reference/mcp-tools/list_opportunity_products.md
+              - name: Opportunity research
+                href: ../developer/reference/mcp-tools/get_opportunity_research.md
               - name: Opportunity summary
                 href: ../developer/reference/mcp-tools/get_opportunity_summary.md
-              - name: Price list
-                href: ../developer/reference/mcp-tools/get_price_list.md
-              - name: Product
-                href: ../developer/reference/mcp-tools/get_product.md
-              - name: Product pricing
-                href: ../developer/reference/mcp-tools/get_product_pricing.md
               - name: Qualify lead
                 href: ../developer/reference/mcp-tools/qualify_lead.md
               - name: Recalculate opportunity price
                 href: ../developer/reference/mcp-tools/recalculate_opportunity_price.md
+              - name: Remove agent configuration
+                href: ../developer/reference/mcp-tools/delete_agent_config.md
               - name: Reopen opportunity
                 href: ../developer/reference/mcp-tools/reopen_opportunity.md
+              - name: Reset cross-namespace grants
+                href: ../developer/reference/mcp-tools/delete_cross_namespace_grants.md
+              - name: Reset tool visibility
+                href: ../developer/reference/mcp-tools/delete_tool_selection.md
               - name: Revise quote
                 href: ../developer/reference/mcp-tools/revise_quote.md
+              - name: Save MCS agent registration
+                href: ../developer/reference/mcp-tools/save_copilot_studio_registration.md
+              - name: Save external MCP registration
+                href: ../developer/reference/mcp-tools/save_mcp_registration.md
+              - name: Save my preference
+                href: ../developer/reference/mcp-tools/save_user_prefs.md
+              - name: Save tool description override
+                href: ../developer/reference/mcp-tools/save_tool_description.md
               - name: Schedule meeting
                 href: ../developer/reference/mcp-tools/schedule_meeting.md
               - name: Search entity records
                 href: ../developer/reference/mcp-tools/search_entities.md
+              - name: Select environment
+                href: ../developer/reference/mcp-tools/select_environment.md
               - name: Send email
                 href: ../developer/reference/mcp-tools/send_email.md
               - name: Set quote active
                 href: ../developer/reference/mcp-tools/set_quote_active.md
-              - name: Stakeholders
-                href: ../developer/reference/mcp-tools/get_stakeholder.md
+              - name: Set tool visibility
+                href: ../developer/reference/mcp-tools/save_tool_selection.md
+              - name: Test MCS agent connection
+                href: ../developer/reference/mcp-tools/test_copilot_studio_registration_connection.md
+              - name: Test external MCP connection
+                href: ../developer/reference/mcp-tools/test_mcp_registration_connection.md
               - name: Update business process flow stage
                 href: ../developer/reference/mcp-tools/update_bpf_stage.md
               - name: Update entity record
