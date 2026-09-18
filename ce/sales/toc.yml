@@ -925,7 +925,7 @@ items:
                 href: sales-opportunity-agent.md
               - name: Work on opportunities researched by agent
                 href: use-opportunity-research-agent.md
-              - name: Manage opportunity risks using AI-recommended actions
+              - name: Manage risks and prioritize actions using AI-recommended actions
                 href: next-best-actions-to-manage-opportunities.md
               - name: FAQs about Sales Opportunity Agent
                 href: opportunity-research-agent-faqs.md

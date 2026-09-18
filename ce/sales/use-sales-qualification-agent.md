@@ -1,7 +1,7 @@
 ---
 title: Work on leads handed over by the Sales Qualification Agent
 description: Learn how to work with leads handed over by the Sales Qualification Agent in Dynamics 365 Sales. Discover research insights, handover summaries, and recommended actions for effective lead management.
-ms.date: 08/18/2026
+ms.date: 09/18/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -62,6 +62,16 @@ The lead handover process goes through the following stages:
     >- If the agent fails to process the lead due to invalid or missing email, it hands over the lead to the original seller to update the email ID.
     
 1. If the lead doesn't meet the hand over criteria, the agent disqualifies the lead and notifies the supervisor. The lead continues to be assigned to the agent in this case.
+
+## View recommended actions for your leads
+
+The Sales Qualification Agent recommends actions for your leads based on their alignment with the hand over criteria.
+
+To view suggested actions for an individual lead, open the lead and select **See full research** on the **Summary** banner. Learn more in [Suggested action](#suggested-action).
+
+To view a prioritized list of recommendations for leads that you and your team own, open the **Leads** page, select **Read Only Grid** from the top of the list, and wait for the **Suggested actions** carousel to load.
+
+For more information about how the agent prioritizes actions in the carousel and how to interact with them, see [Manage risks and prioritize actions based on AI recommendations](next-best-actions-to-manage-opportunities.md).
 
 ## View leads handed over by the agent
 
