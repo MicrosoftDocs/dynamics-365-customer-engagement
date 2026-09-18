@@ -1,11 +1,14 @@
 ---
 title: Plans in the Scheduling Operations Agent (preview)
 description: Learn how plans combine a scope, a goal, and a time range to run and review batch optimizations in Dynamics 365 Field Service.
-ms.date: 06/30/2026
+ms.date: 09/03/2026
 ms.topic: concept-article
 ms.collection: bap-ai-copilot
 ms.author: anclear
 author: andrewclear-ms
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 06/30/2026
 ai-usage: ai-assisted
 ---
 
@@ -34,6 +37,7 @@ The following table describes each setting in a plan.
 | Time range reference | The point that the optimization range starts from. See [Time range](#time-range). |
 | Time range offset | How far from the time range reference the range begins. |
 | Duration | How long the optimization range lasts. |
+| Recurrence | Run the plan automatically on a schedule. |
 
 ## Time range
 
@@ -72,6 +76,23 @@ An optimization request moves through these statuses:
 The plan's **Optimization Requests** grid lists its requests, including each request's status, start time, end time, and expiration. Open a request to review it, and resolve any errors or conflicts.
 
 A result expires so that an old suggestion can't be applied after the schedule changes too much. The **Expires on** value is 72 hours after the request runs, or the start of its time range, whichever is sooner.
+
+## Recurrence
+
+A recurrence runs a plan automatically on an hourly, daily, weekly, or monthly schedule. The minimum interval is 30 minutes.
+
+| Field | Description |
+| --- | --- |
+| Valid From | The date when the recurrence becomes active. |
+| Valid To | The date when the recurrence becomes inactive. |
+| Interval | The number of frequency units between runs. For example, a frequency of **Daily** with an interval of **2** runs every two days. |
+| Frequency | The unit of time between runs: hourly, daily, weekly, or monthly. |
+| Time Zone | The time zone offset to apply to all date and time fields in the recurrence definition. |
+| On these days | When you select a weekly frequency, the days of the week the plan runs on. |
+| At these hours | The hour of the day the plan runs on. |
+| At these minutes | The minutes of each hour the plan runs on. |
+
+The **Recurrence Preview** provides a natural-language description of when the recurrence runs. When the frequency is **Monthly**, the recurrence runs on the **Valid From** date and time.
 
 ## Next steps
 

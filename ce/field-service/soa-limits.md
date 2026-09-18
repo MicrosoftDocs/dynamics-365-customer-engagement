@@ -1,11 +1,14 @@
 ---
 title: Scheduling Operations Agent limits and troubleshooting (preview)
 description: Review the optimization limits, errors, and known issues for the Scheduling Operations Agent in Dynamics 365 Field Service, and learn how to resolve them.
-ms.date: 06/30/2026
+ms.date: 09/03/2026
 ms.topic: troubleshooting-general
 ms.collection: bap-ai-copilot
 ms.author: anclear
 author: andrewclear-ms
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 06/30/2026
 ai-usage: ai-assisted
 ---
 
@@ -58,7 +61,7 @@ The following table lists the errors and warnings that you might encounter when 
 
 The Scheduling Operations Agent has the following limitations:
 
-- It doesn't support resources of type **Crew**, **Equipment**, **Pool**, and **Facility**.
+- It doesn't support resources of type **Equipment**, **Pool**, and **Facility**.
 
 - It doesn't support requirement groups or multiday requirements (requirements that are related to requirement detail records).
 

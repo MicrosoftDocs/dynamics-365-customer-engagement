@@ -1,11 +1,14 @@
 ---
 title: Run batch optimizations (preview)
 description: Configure and run batch optimizations across resources, requirements, and bookings with the Scheduling Operations Agent in Dynamics 365 Field Service.
-ms.date: 06/25/2026
+ms.date: 09/03/2026
 ms.topic: how-to
 ms.collection: bap-ai-copilot
 ms.author: anclear
 author: andrewclear-ms
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 06/25/2026
 ai-usage: ai-assisted
 ---
 
@@ -54,7 +57,11 @@ A [plan](soa-plans.md) combines the scope and goal with a time range.
 
 ## Step 4: Run the plan
 
-Open the plan and select **Run optimization plan**. The run starts immediately, and the new request appears in the plan's **Optimization Requests** grid. Whether the results are applied automatically or held for you to review depends on the plan's **Apply method**, which you set in [Step 3](#step-3-create-a-plan).
+Run a plan on demand or on a recurring schedule.
+
+To run the plan on demand, open it and select **Run optimization plan**. The run starts immediately, and the new request appears in the plan's **Optimization Requests** grid. Whether the results are applied automatically or held for you to review depends on the plan's **Apply method**, which you set in [Step 3](#step-3-create-a-plan).
+
+To run the plan automatically, configure an hourly, daily, weekly, or monthly recurrence with a minimum interval of 30 minutes. Learn more about configuring a recurring schedule in [Recurrence](soa-plans.md#recurrence).
 
 The optimization runs asynchronously, so you can continue working while the agent processes the request. A plan runs only one optimization request at a time.
 

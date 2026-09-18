@@ -1,10 +1,11 @@
 ---
-title: Create work order resolutions
-description: Learn about how to capture work order resolution details in Dynamics 365 Field Service.
-ms.date: 09/22/2025
+title: Create work order resolutions in Dynamics 365 Field Service
+description: Create work order resolutions to standardize repair outcomes, connect fixes to incident types, and improve service insights.
+ms.date: 09/16/2026
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
+ms.reviewer: v-wesmith
 ms.custom: bap-template
 ---
 
@@ -20,15 +21,17 @@ In Field Service, go to the **Settings** area, then **Work Order** > **Resolutio
 
 Create resolution records based on your business needs. For example, if "Reset Device Control Unit" is a common way to resolve a work order issue, name the resolution accordingly. The description can contain additional information on why or how to reinstall firmware.
 
-:::image type="content" source="media/resolutions-list-settings.svg" alt-text="Screenshot of Field Service showing a list of active resolutions.":::
+:::image type="content" source="media/resolutions-list-settings.png" alt-text="Screenshot of Field Service showing a list of active resolutions.":::
 
 ## Associate resolutions to incident types
 
-Organizations using incident types to organize and track common work order issues can map resolutions to incident types. By default, the primary resolution maps to the primary work order incident type.
+Organizations that use incident types to organize and track common work order issues can map resolutions to incident types. You can add as many resolutions as needed to cover different ways an issue might be resolved. By default, the primary resolution maps to the primary work order incident type.
 
-When administrators [configure incident types](configure-incident-types.md), they can [associate multiple resolutions to an incident type](configure-incident-types.md#add-incident-type-resolutions). When these incident types are added to work orders, the system creates work order incident types that suggest the associated resolutions.
+As an administrator, you can [associate multiple resolutions to an incident type](configure-incident-types.md#add-incident-type-resolutions) when you configure incident types. Or, from the resolution, select the **Incident Type Resolutions** tab and add the new incident types.
 
-:::image type="content" source="media/wo-resolution-form.svg" alt-text="Screenshot of a work order resolution in Field Service.":::
+When frontline workers add incident types to work orders, the system creates work order incident types that suggest the associated resolutions.
+
+:::image type="content" source="media/resolution-form.png" alt-text="Screenshot of a work order resolution in Field Service.":::
 
 ## Next steps
 
