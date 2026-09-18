@@ -20,7 +20,10 @@ This capability works behind the scenes when you test connectivity to an externa
 
 When you select **Test Connection** in the MCP server registration form, this tool verifies that the Service Agent can reach the external server endpoint. It performs a security check on the URL, obtains an authentication token using the configured scope, and sends a tools/list request to the server.
 
-If the connection succeeds, the tool returns the list of tools the server exposes. This tool snapshot is what gets saved with the registration. If the connection fails, the tool returns a detailed error indicating what went wrong (for example, an unreachable endpoint, authentication failure, or invalid response).
+If the connection succeeds, the tool returns the list of tools the server exposes. This
+tool snapshot can be selected and saved with the registration. If the connection fails,
+the tool returns a stable validation or connection code that the widget maps to localized
+copy; it doesn't echo the submitted endpoint or dependency response text.
 
 ## Try prompts like
 
@@ -28,7 +31,9 @@ Not applicable. This tool is called automatically when you test a connection fro
 
 ## What you'll see in chat
 
-The registration widget shows the test result inline. On success, you see a list of available tools from the server with their names and descriptions. On failure, you see an error message describing the connectivity issue.
+The registration widget shows the test result inline. On success, you see a list of
+available tools from the server with their names and descriptions. On failure, you see
+a localized validation or connection error.
 
 ## Helpful tips
 
@@ -72,7 +77,7 @@ Tests connectivity to an external MCP server endpoint before saving a registrati
 |------------|-------|---------|
 | `readOnlyHint` | `false` | May stamp `lastTestedAt` on the registration when `registrationId` is provided. |
 | `destructiveHint` | `false` | Testing doesn't remove or corrupt data. |
-| `idempotentHint` | `true` | Repeated tests produce the same result for a given endpoint state. |
+| `idempotentHint` | `false` | A successful test can write a fresh `lastTestedAt` timestamp. |
 | `openWorldHint` | Not set | Uses default. |
 
 ## Input concepts
@@ -87,7 +92,7 @@ Tests connectivity to an external MCP server endpoint before saving a registrati
 
 | Input | Description | Required |
 |---|---|---|
-| `authScope` | `authScope` (string, required). The Entra OBO target scope for token acquisition (for example, `api://contoso-app/.default`). | Varies |
+| `authScope` | `authScope` (string, required). The Entra OBO target scope for token acquisition (for example, `api://contoso-app/.default`). | Yes |
 
 ### Registration ID
 
@@ -109,7 +114,9 @@ This MCP tool is supported by an MCP app.
 
 Widget update with test results
 
-Returns the discovered tool count and connection status. The widget displays success or a classified error (SSRF blocked, auth failure, timeout, server error).
+Returns the discovered tool count and tool snapshot on success. Validation failures return
+`RegistrationValidationFailed`; post-validation failures return `ConnectionTestFailed`.
+The widget maps those stable codes to localized error copy.
 
 ## Routing notes
 

@@ -1,7 +1,7 @@
 ---
 title: Activity timeline
 description: Learn how to use the Activity timeline capability in Dynamics 365 Customer Service.
-ms.date: 09/02/2026
+ms.date: 09/10/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=service,sales,field-service
 ms.service: dynamics-365-customer-service
@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Activity timeline
 
-**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales
+**Applies to:** Dynamics 365 Customer Service and Dynamics 365 Sales
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
@@ -76,7 +76,7 @@ From the timeline in chat, you can:
 
 ## Prerequisites
 
-This tool is available on the Dynamics 365 Customer Service MCP server. See the availability note at the top of this page for details. No additional configuration is required.
+This tool is available for the products listed in the Applies to line at the top of this page. No additional configuration is required.
 
 ## Tool summary
 
@@ -141,7 +141,7 @@ Returns the raw chronological feed of emails, tasks, notes, phone calls, and app
 
 | Input | Description | Required |
 |---|---|---|
-| `dateFrom`, `dateTo` | `dateFrom` and `dateTo` (ISO 8601 dates). | No |
+| `dateFrom`, `dateTo` | Inclusive lower and upper bounds as an ISO 8601 date (`2026-09-10`) or date-time with an explicit time zone (`2026-09-10T14:30:00Z` or `2026-09-10T14:30:00-07:00`). The assistant resolves phrases such as "last week" to one of these forms before calling the tool. | No |
 
 ### Advanced
 

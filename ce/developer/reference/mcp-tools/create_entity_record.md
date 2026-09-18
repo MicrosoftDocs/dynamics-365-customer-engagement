@@ -63,7 +63,7 @@ The assistant creates the record as soon as it has the required details—there'
 
 ## Prerequisites
 
-This tool is available on the Dynamics 365 Customer Service MCP server. See the availability note at the top of this page for details. No additional configuration is required. You need the Dataverse create privilege on the entity you're creating.
+This tool is available for the products listed in the Applies to line at the top of this page. No additional configuration is required. You need the Dataverse create privilege on the entity you're creating.
 
 ## Tool summary
 

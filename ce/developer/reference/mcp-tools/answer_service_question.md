@@ -43,7 +43,7 @@ The assistant returns the answer as text in the chat based on the query results.
 
 - Be specific in your question. Include entity names and relationship details when relevant (for example, "contacts on account Contoso" rather than just "contacts").
 - For case lookups, priority values are `High`, `Normal`, or `Low`. If you say "critical," the assistant interprets that as severity, not priority.
-- If you get unexpected results, try rephrasing your question with more context.
+- If a question contains an organization-specific term or identifier, keep that term unchanged when adding context. After an empty or unexpected result, the assistant can load the Customer Service vocabulary to map an unfamiliar term before selecting a dedicated tool or retrying this capability.
 - For common queries (listing cases, searching emails, finding knowledge articles), use the dedicated capabilities instead—they return richer results with interactive components.
 
 > [!TIP]

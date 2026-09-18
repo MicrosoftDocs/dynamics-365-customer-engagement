@@ -1,7 +1,7 @@
 ---
 title: Case detail
 description: Learn how to use the Case detail capability in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+ms.date: 09/10/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=service
 ms.service: dynamics-365-customer-service
@@ -119,7 +119,7 @@ Opens the case form widget showing the Dataverse layout with sections, fields, t
 
 | Input | Description | Required |
 |---|---|---|
-| `typeFilter`, `stateFilter`, `searchText`, `dateFrom`, `dateTo` | `typeFilter` (string array), `stateFilter` (string array), `searchText`, `dateFrom`, `dateTo`. Optional. Pre-filters the embedded timeline tab. | No |
+| `typeFilter`, `stateFilter`, `searchText`, `dateFrom`, `dateTo` | `typeFilter` (string array), `stateFilter` (string array), `searchText`, `dateFrom`, `dateTo`. Optional. Pre-filters the embedded timeline tab. Date bounds accept an ISO 8601 date (`2026-09-10`) or date-time with an explicit timezone (`2026-09-10T14:30:00Z`, `2026-09-10T14:30:00+05:30`). Resolve relative phrases such as “yesterday” or “last week” to one of these forms before calling. | No |
 
 ### AI summary
 

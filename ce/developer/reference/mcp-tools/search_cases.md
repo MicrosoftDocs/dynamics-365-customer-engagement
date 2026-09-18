@@ -90,13 +90,13 @@ Finds cases by customer name (account or contact), or by a keyword—best when t
 
 | Input | Description | Required |
 |---|---|---|
-| `searchText` | `searchText` (string, max 500 chars). Keyword to match; uses relevance search across title and description when enabled, else a title-only substring fallback. Use when the term may be in the description body, not just the title; for plain title or topic keyword lookups use `list_cases`. Ignored when `customerName` is also provided. | No |
+| `searchText` | `searchText` (string, max 500 chars). Keyword to match; uses relevance search across title and description when enabled, else a title-only substring fallback. Use when the term may be in the description body, not just the title; for plain title or topic keyword lookups use `list_cases`. Ignored when `customerName` is also provided. Required unless `customerName` is provided. | Unless `customerName` is provided |
 
 ### Customer filter
 
 | Input | Description | Required |
 |---|---|---|
-| `customerName` | `customerName` (string, max 200 chars). Customer name (account or contact) to filter cases by. Takes precedence over `searchText` when both are provided. | No |
+| `customerName` | `customerName` (string, max 200 chars). Customer name (account or contact) to filter cases by. Takes precedence over `searchText` when both are provided. Required unless `searchText` is provided. | Unless `searchText` is provided |
 
 ### Result limit
 
@@ -126,6 +126,7 @@ Don't use `search_cases` when:
 - **Filtering by status, priority, or owner with a grid widget**—route to `list_cases`.
 - **Exact case-number lookup**—route to `list_cases` (the `search` parameter handles exact case number matching).
 - **Non-case entity search**—route to `search_entities`.
+- **No search criterion at all** (browsing cases by status, priority, owner, or case number)—route to `list_cases`; a `search_cases` call with neither `searchText` nor `customerName` is rejected.
 
 ## Related tools
 

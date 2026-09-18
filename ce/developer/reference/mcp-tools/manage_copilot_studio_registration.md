@@ -67,7 +67,8 @@ From the registration widget in chat, you can:
 
 - View all registered Copilot Studio agents for your environment.
 - Add a new agent registration by selecting a published bot from your environment.
-- Edit an existing registration's display name or description.
+- Edit an existing registration's maker-authored tool description. To change the selected
+  bot or its display identity, remove the registration and add it again.
 - Test connectivity to a registered agent to verify it is reachable.
 - Remove a registration you no longer need.
 
@@ -106,7 +107,7 @@ Opens the admin UI for managing Copilot Studio agent registrations. Administrato
 
 | Input | Description | Required |
 |---|---|---|
-| `open`, `list` | `open` (default) or `list`. `open` renders the interactive registration management widget. `list` returns a text summary of currently registered Copilot Studio agents. | No |
+| `open`, `list` | `open` (default) or `list`. Both return the registration management widget; the value records the requested interaction intent. | No |
 
 ### Organization URL
 
@@ -120,9 +121,11 @@ This MCP tool is supported by an MCP app.
 
 ### Response type
 
-Interactive widget (action `open`) or text summary (action `list`)
+Interactive registration management widget
 
-When action is `open`, the widget displays the registration management interface where administrators can browse, add, test, and remove Copilot Studio agent registrations. When action is `list`, the tool returns a text-only summary.
+For both actions, the widget displays the registration management interface where
+administrators can browse, add, test, and remove Copilot Studio agent registrations.
+The `action` value remains an intent hint in the response.
 
 ## Routing notes
 

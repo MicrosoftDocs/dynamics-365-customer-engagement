@@ -1,5 +1,5 @@
 ---
-title: Summarize an account
+title: Account summary
 description: Learn how to summarize an account in Dynamics 365 Customer Service.
 ms.date: 09/02/2026
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.author: dleblond
 ms.reviewer: laalexan
 ---
 
-# Summarize an account
+# Account summary
 
 **Applies to:** Dynamics 365 Customer Service
 

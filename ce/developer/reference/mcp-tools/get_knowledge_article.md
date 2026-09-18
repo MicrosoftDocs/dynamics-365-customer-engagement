@@ -64,12 +64,11 @@ Viewing a knowledge article is read-only. No records are modified.
 
 ## What you can do from the app-in-chat component
 
-From the knowledge article viewer in chat, you can:
+From the knowledge article card in chat, you can:
 
-- Read the full article body including all sections and formatted content.
-- See article metadata (article number, status, publication date).
-- Open the article in Dynamics 365 for editing or sharing.
-- Use follow-up prompts to ask questions about the article content.
+- See the article's title, category, view count, and rating.
+- Read the article summary and browse its keywords.
+- Open the article in Dynamics 365 to read the full body, or ask a follow-up question — when available, the article body (or its summary, if no body is available) is also included in the chat response text, so you can often read the content directly in chat without opening Dynamics 365.
 
 ## Prerequisites
 
@@ -114,9 +113,9 @@ This MCP tool is supported by an MCP app.
 
 ### Response type
 
-Text-only response in chat
+Interactive form (detail view)
 
-The response returns the full article with body content, author, ratings, keywords, metadata, and a Dynamics 365 link when one is available.
+The card displays the article's title, category, view count, rating, summary, and keywords, with a link to open the full article in Dynamics 365. When available, the article body (or its summary, if the body is empty) is also included in the chat response text.
 
 ## Routing notes
 
