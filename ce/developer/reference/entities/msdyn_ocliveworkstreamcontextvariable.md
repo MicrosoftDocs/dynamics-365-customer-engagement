@@ -133,6 +133,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |192350000|**Text**|
 |192350001|**Number**|
+|192350002|**Boolean**|
 |192350100|**Entity Reference**|
 
 ### <a name="BKMK_msdyn_displayname"></a> msdyn_displayname

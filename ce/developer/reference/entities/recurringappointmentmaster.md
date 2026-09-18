@@ -41,6 +41,7 @@ Microsoft Dynamics 365 modifies the definition of columns/attributes defined in 
 
 - [OptionalAttendees](#BKMK_OptionalAttendees)
 - [RegardingObjectId](#BKMK_RegardingObjectId)
+- [related](#BKMK_related)
 - [RequiredAttendees](#BKMK_RequiredAttendees)
 
 ### <a name="BKMK_OptionalAttendees"></a> OptionalAttendees
@@ -58,7 +59,16 @@ Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/dat
 
 |Property|Value|
 |---|---|
-|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, site|
+|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_emailthread, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, site|
+
+
+### <a name="BKMK_related"></a> related
+
+Changes from [related (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/recurringappointmentmaster#BKMK_related)
+
+|Property|Value|
+|---|---|
+|Targets|campaign, campaignactivity, contract, entitlement, incident, invoice, opportunity, quote, salesorder|
 
 
 ### <a name="BKMK_RequiredAttendees"></a> RequiredAttendees
@@ -86,6 +96,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [Invoice_RecurringAppointmentMasters](#BKMK_Invoice_RecurringAppointmentMasters)
 - [Lead_RecurringAppointmentMasters](#BKMK_Lead_RecurringAppointmentMasters)
 - [msdyn_customerasset_RecurringAppointmentMasters](#BKMK_msdyn_customerasset_RecurringAppointmentMasters)
+- [msdyn_emailthread_RecurringAppointmentMasters](#BKMK_msdyn_emailthread_RecurringAppointmentMasters)
 - [msdyn_postalbum_RecurringAppointmentMasters](#BKMK_msdyn_postalbum_RecurringAppointmentMasters)
 - [msdyn_salessuggestion_RecurringAppointmentMasters](#BKMK_msdyn_salessuggestion_RecurringAppointmentMasters)
 - [msdyn_swarm_RecurringAppointmentMasters](#BKMK_msdyn_swarm_RecurringAppointmentMasters)
@@ -248,6 +259,19 @@ One-To-Many Relationship: [msdyn_customerasset msdyn_customerasset_RecurringAppo
 |ReferencedAttribute|`msdyn_customerassetid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_customerasset_recurringappointmentmaster`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_emailthread_RecurringAppointmentMasters"></a> msdyn_emailthread_RecurringAppointmentMasters
+
+One-To-Many Relationship: [msdyn_emailthread msdyn_emailthread_RecurringAppointmentMasters](msdyn_emailthread.md#BKMK_msdyn_emailthread_RecurringAppointmentMasters)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_emailthread`|
+|ReferencedAttribute|`msdyn_emailthreadid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_emailthread_recurringappointmentmaster`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

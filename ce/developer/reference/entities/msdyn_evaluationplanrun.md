@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_evaluationplanruns(*msdyn_evaluationplanrunid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_evaluationplanruns<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -70,18 +69,24 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_AssignedTo](#BKMK_msdyn_AssignedTo)
 - [msdyn_DueDate](#BKMK_msdyn_DueDate)
+- [msdyn_ErrorDetails](#BKMK_msdyn_ErrorDetails)
 - [msdyn_EvaluationCriteria](#BKMK_msdyn_EvaluationCriteria)
 - [msdyn_Evaluationmethod](#BKMK_msdyn_Evaluationmethod)
 - [msdyn_EvaluationPlan](#BKMK_msdyn_EvaluationPlan)
 - [msdyn_EvaluationPlanEndDate](#BKMK_msdyn_EvaluationPlanEndDate)
 - [msdyn_EvaluationPlanRunId](#BKMK_msdyn_EvaluationPlanRunId)
 - [msdyn_EvaluationPlanStartDate](#BKMK_msdyn_EvaluationPlanStartDate)
+- [msdyn_EvaluationsCreated](#BKMK_msdyn_EvaluationsCreated)
+- [msdyn_EvaluationsFailed](#BKMK_msdyn_EvaluationsFailed)
 - [msdyn_FilterRulesXML](#BKMK_msdyn_FilterRulesXML)
 - [msdyn_PageIndex](#BKMK_msdyn_PageIndex)
 - [msdyn_PaginationMarker](#BKMK_msdyn_PaginationMarker)
 - [msdyn_PlanName](#BKMK_msdyn_PlanName)
+- [msdyn_RecordsCountIdentifiedByCondition](#BKMK_msdyn_RecordsCountIdentifiedByCondition)
+- [msdyn_RecordsCountIdentifiedBySampling](#BKMK_msdyn_RecordsCountIdentifiedBySampling)
 - [msdyn_RecordsIdentificationCompletedOn](#BKMK_msdyn_RecordsIdentificationCompletedOn)
 - [msdyn_RecordType](#BKMK_msdyn_RecordType)
+- [msdyn_SamplingConfiguration](#BKMK_msdyn_SamplingConfiguration)
 - [msdyn_TotalRecordsDiscovered](#BKMK_msdyn_TotalRecordsDiscovered)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -127,13 +132,30 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_duedate`|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|DateTime|
 |CanChangeDateTimeBehavior|True|
 |DateTimeBehavior|UserLocal|
 |Format|DateAndTime|
 |ImeMode|Auto|
 |SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_ErrorDetails"></a> msdyn_ErrorDetails
+
+|Property|Value|
+|---|---|
+|Description|**Details of any errors that occurred during evaluation plan run**|
+|DisplayName|**Error Details**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_errordetails`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
 
 ### <a name="BKMK_msdyn_EvaluationCriteria"></a> msdyn_EvaluationCriteria
 
@@ -229,6 +251,34 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |SourceTypeMask|0|
 
+### <a name="BKMK_msdyn_EvaluationsCreated"></a> msdyn_EvaluationsCreated
+
+|Property|Value|
+|---|---|
+|Description|**Count of evaluations created**|
+|DisplayName|**Evaluations Created**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_evaluationscreated`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_EvaluationsFailed"></a> msdyn_EvaluationsFailed
+
+|Property|Value|
+|---|---|
+|Description|**Count of failed evaluations**|
+|DisplayName|**Evaluations Failed**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_evaluationsfailed`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
 ### <a name="BKMK_msdyn_FilterRulesXML"></a> msdyn_FilterRulesXML
 
 |Property|Value|
@@ -294,6 +344,34 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|200|
 
+### <a name="BKMK_msdyn_RecordsCountIdentifiedByCondition"></a> msdyn_RecordsCountIdentifiedByCondition
+
+|Property|Value|
+|---|---|
+|Description|**Count of records discovered before sampling satisfying the configured condition in the Evaluation Plan record.**|
+|DisplayName|**Records identified by condition**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_recordscountidentifiedbycondition`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_RecordsCountIdentifiedBySampling"></a> msdyn_RecordsCountIdentifiedBySampling
+
+|Property|Value|
+|---|---|
+|Description|**Count of records discovered for sampling satisfying the configured condition and sampling in the Evaluation Plan record.**|
+|DisplayName|**Records identified by sampling**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_recordscountidentifiedbysampling`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
 ### <a name="BKMK_msdyn_RecordsIdentificationCompletedOn"></a> msdyn_RecordsIdentificationCompletedOn
 
 |Property|Value|
@@ -331,13 +409,32 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |0|**Case**|
 |1|**Conversation**|
+|2|**Email**|
+|3|**User**|
+
+### <a name="BKMK_msdyn_SamplingConfiguration"></a> msdyn_SamplingConfiguration
+
+|Property|Value|
+|---|---|
+|Description|**The JSON for the configuration done for sampling in the Evaluation Plan record.**|
+|DisplayName|**Sampling configuration**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_samplingconfiguration`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048575|
 
 ### <a name="BKMK_msdyn_TotalRecordsDiscovered"></a> msdyn_TotalRecordsDiscovered
 
 |Property|Value|
 |---|---|
-|Description|**Total count of number of records discovered**|
-|DisplayName|**Total Records**|
+|Description|**Total count of number of records discovered for evaluation**|
+|DisplayName|**Records eligible for evaluation**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_totalrecordsdiscovered`|
@@ -409,6 +506,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |0|Label: **InProgress**<br />DefaultStatus: 1<br />InvariantName: `InProgress`|
 |1|Label: **Completed**<br />DefaultStatus: 4<br />InvariantName: `Completed`|
 |2|Label: **Failed**<br />DefaultStatus: 5<br />InvariantName: `Failed`|
+|3|Label: **Rejected**<br />DefaultStatus: 17<br />InvariantName: `Rejected`|
 
 ### <a name="BKMK_statuscode"></a> statuscode
 
@@ -429,10 +527,24 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Value|Details|
 |---|---|
 |1|Label: **Ready**<br />State:0<br />TransitionData: None|
-|2|Label: **RecordIdentificationInProgress**<br />State:0<br />TransitionData: None|
-|3|Label: **RecordIdentificationCompleted**<br />State:0<br />TransitionData: None|
+|2|Label: **Record identification in progress**<br />State:0<br />TransitionData: None|
+|3|Label: **Record identification completed**<br />State:0<br />TransitionData: None|
 |4|Label: **Completed**<br />State:1<br />TransitionData: None|
-|5|Label: **RecordIdentificationFailed**<br />State:2<br />TransitionData: None|
+|5|Label: **Record identification failed**<br />State:2<br />TransitionData: None|
+|6|Label: **AI agents disabled**<br />State:2<br />TransitionData: None|
+|7|Label: **Cross geo data movement is disabled**<br />State:2<br />TransitionData: None|
+|8|Label: **Paygo entitlement is disabled**<br />State:2<br />TransitionData: None|
+|9|Label: **Bulk evaluation is disabled**<br />State:2<br />TransitionData: None|
+|10|Label: **No AI enabled questions**<br />State:2<br />TransitionData: None|
+|11|Label: **Configuration error**<br />State:2<br />TransitionData: None|
+|12|Label: **Fetch XML Failed**<br />State:2<br />TransitionData: None|
+|13|Label: **Zero records found**<br />State:1<br />TransitionData: None|
+|14|Label: **Partially completed**<br />State:1<br />TransitionData: None|
+|15|Label: **Run In Progress**<br />State:0<br />TransitionData: None|
+|16|Label: **Pipeline failed**<br />State:2<br />TransitionData: None|
+|17|Label: **No matching records identified**<br />State:3<br />TransitionData: None|
+|18|Label: **Record identification limit exceeded**<br />State:3<br />TransitionData: None|
+|19|Label: **Sample value below representative count**<br />State:3<br />TransitionData: None|
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
@@ -817,6 +929,7 @@ One-To-Many Relationship: [systemuser user_msdyn_evaluationplanrun](systemuser.m
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_evaluation_EvaluationPlanRun_msdyn_evaluationplanrun](#BKMK_msdyn_evaluation_EvaluationPlanRun_msdyn_evaluationplanrun)
 - [msdyn_evaluationplanbatch_EvaluationPlanRun_msdyn_evaluationplanrun](#BKMK_msdyn_evaluationplanbatch_EvaluationPlanRun_msdyn_evaluationplanrun)
 - [msdyn_evaluationplanrun_AsyncOperations](#BKMK_msdyn_evaluationplanrun_AsyncOperations)
 - [msdyn_evaluationplanrun_BulkDeleteFailures](#BKMK_msdyn_evaluationplanrun_BulkDeleteFailures)
@@ -826,6 +939,18 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_evaluationplanrun_PrincipalObjectAttributeAccesses](#BKMK_msdyn_evaluationplanrun_PrincipalObjectAttributeAccesses)
 - [msdyn_evaluationplanrun_ProcessSession](#BKMK_msdyn_evaluationplanrun_ProcessSession)
 - [msdyn_evaluationplanrun_SyncErrors](#BKMK_msdyn_evaluationplanrun_SyncErrors)
+
+### <a name="BKMK_msdyn_evaluation_EvaluationPlanRun_msdyn_evaluationplanrun"></a> msdyn_evaluation_EvaluationPlanRun_msdyn_evaluationplanrun
+
+Many-To-One Relationship: [msdyn_evaluation msdyn_evaluation_EvaluationPlanRun_msdyn_evaluationplanrun](msdyn_evaluation.md#BKMK_msdyn_evaluation_EvaluationPlanRun_msdyn_evaluationplanrun)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_evaluation`|
+|ReferencingAttribute|`msdyn_evaluationplanrun`|
+|ReferencedEntityNavigationPropertyName|`msdyn_evaluation_EvaluationPlanRun_msdyn_evaluationplanrun`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_evaluationplanbatch_EvaluationPlanRun_msdyn_evaluationplanrun"></a> msdyn_evaluationplanbatch_EvaluationPlanRun_msdyn_evaluationplanrun
 
@@ -837,7 +962,7 @@ Many-To-One Relationship: [msdyn_evaluationplanbatch msdyn_evaluationplanbatch_E
 |ReferencingAttribute|`msdyn_evaluationplanrun`|
 |ReferencedEntityNavigationPropertyName|`msdyn_evaluationplanbatch_EvaluationPlanRun_msdyn_evaluationplanrun`|
 |IsCustomizable|`False`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_evaluationplanrun_AsyncOperations"></a> msdyn_evaluationplanrun_AsyncOperations
 

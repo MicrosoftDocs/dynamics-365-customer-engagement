@@ -719,6 +719,7 @@ One-To-Many Relationship: [systemuser user_msdyn_routingconfiguration](systemuse
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_conversationprofile_msdyn_routingconfigurationid_msdyn_routingconfiguration](#BKMK_msdyn_conversationprofile_msdyn_routingconfigurationid_msdyn_routingconfiguration)
 - [msdyn_routingconfiguration_AsyncOperations](#BKMK_msdyn_routingconfiguration_AsyncOperations)
 - [msdyn_routingconfiguration_BulkDeleteFailures](#BKMK_msdyn_routingconfiguration_BulkDeleteFailures)
 - [msdyn_routingconfiguration_DuplicateBaseRecord](#BKMK_msdyn_routingconfiguration_DuplicateBaseRecord)
@@ -728,6 +729,18 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_routingconfiguration_PrincipalObjectAttributeAccesses](#BKMK_msdyn_routingconfiguration_PrincipalObjectAttributeAccesses)
 - [msdyn_routingconfiguration_ProcessSession](#BKMK_msdyn_routingconfiguration_ProcessSession)
 - [msdyn_routingconfiguration_SyncErrors](#BKMK_msdyn_routingconfiguration_SyncErrors)
+
+### <a name="BKMK_msdyn_conversationprofile_msdyn_routingconfigurationid_msdyn_routingconfiguration"></a> msdyn_conversationprofile_msdyn_routingconfigurationid_msdyn_routingconfiguration
+
+Many-To-One Relationship: [msdyn_conversationprofile msdyn_conversationprofile_msdyn_routingconfigurationid_msdyn_routingconfiguration](msdyn_conversationprofile.md#BKMK_msdyn_conversationprofile_msdyn_routingconfigurationid_msdyn_routingconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationprofile`|
+|ReferencingAttribute|`msdyn_routingconfigurationid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_conversationprofile_msdyn_routingconfigurationid_msdyn_routingconfiguration`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_routingconfiguration_AsyncOperations"></a> msdyn_routingconfiguration_AsyncOperations
 

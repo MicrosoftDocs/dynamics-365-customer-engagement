@@ -181,7 +181,7 @@
       "ms.date": {
         "unified-service-desk/**.*": "06/27/2024",
         "customerengagement/**.*": "12/13/2024",
-        "developer/reference/entities/*.md" : "08/29/2025",
+        "developer/reference/entities/*.md" : "09/18/2026",
         "field-service/developer/reference/entities/*.md" : "08/29/2025",
         "sales/developer/entities/*.md" : "02/23/2026",
         "customer-service/develop/reference/entities/*.md" : "08/29/2025"
@@ -344,7 +344,11 @@
         ]
       },
       "ms.reviewer": {
-        "field-service/**.*": "puneet-singh1"
+        "field-service/**.*": "puneet-singh1",
+        "field-service/developer/reference/entities/*.md" : "puneetsingh",
+        "developer/reference/entities/*.md" : "jdaly",
+        "sales/developer/entities/*.md" : "lavanyakr",
+        "customer-service/develop/reference/entities/*.md" : "mgandham"
       },
       "titleSuffix": {
         "field-service/*.md": "Dynamics 365 Field Service",

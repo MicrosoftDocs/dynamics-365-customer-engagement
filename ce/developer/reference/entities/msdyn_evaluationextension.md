@@ -65,6 +65,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_AgentResponseJson](#BKMK_msdyn_AgentResponseJson)
 - [msdyn_EvaluationExtensionId](#BKMK_msdyn_EvaluationExtensionId)
+- [msdyn_KnowledgeArticleJson](#BKMK_msdyn_KnowledgeArticleJson)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_Responsejson](#BKMK_msdyn_Responsejson)
 - [msdyn_Score](#BKMK_msdyn_Score)
@@ -117,6 +118,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_evaluationextensionid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_KnowledgeArticleJson"></a> msdyn_KnowledgeArticleJson
+
+|Property|Value|
+|---|---|
+|Description|**JSON blob of the knowledge article metadata.**|
+|DisplayName|**Knowledge Article Json**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_knowledgearticlejson`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048575|
 
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 

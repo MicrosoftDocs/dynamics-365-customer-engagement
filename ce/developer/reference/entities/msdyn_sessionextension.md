@@ -350,6 +350,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |419550003|**Voicemail**|
 |419550004|**TransferToQueue**|
 |419550005|**RemainInQueue**|
+|419550006|**ScheduledCallback**|
 
 ### <a name="BKMK_msdyn_OverflowCondition"></a> msdyn_OverflowCondition
 

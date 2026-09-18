@@ -27,26 +27,85 @@ Changes from [ObjectId (Microsoft Dataverse)](/power-apps/developer/data-platfor
 
 |Property|Value|
 |---|---|
-|Targets|msdyn_channelmessageattachment, msdyn_conversationinsight, msdyn_copilotinteractiondata, msdyn_copilottranscriptdata, msdyn_customerassetattachment, msdyn_entityattachment, msdyn_ocexternalcontext, msdyn_ocrecording, msdyn_ocrichobject, msdyn_soundfile, msdyn_transcript, msdyncrm_file, msfp_fileresponse|
+|Targets|msdyn_aisimulationrun, msdyn_ccrtapreference, msdyn_ccrtareportpage, msdyn_ccuserprompt, msdyn_channelmessageattachment, msdyn_conversationinsight, msdyn_copilotinteractiondata, msdyn_copilottranscriptdata, msdyn_customerassetattachment, msdyn_entityattachment, msdyn_intentcoreevaluationjob, msdyn_ocexternalcontext, msdyn_ocrecording, msdyn_ocrichobject, msdyn_screenrecording, msdyn_soundfile, msdyn_transcript, msdyn_transformationtranscript, msdyncrm_file, msfp_fileresponse|
 
 
 ## Many-to-One relationships
 
 These relationships are many-to-one. Listed by **SchemaName**.
 
+- [msdyn_aisimulationrun_FileAttachments](#BKMK_msdyn_aisimulationrun_FileAttachments)
+- [msdyn_ccrtapreference_FileAttachments](#BKMK_msdyn_ccrtapreference_FileAttachments)
+- [msdyn_ccrtareportpage_FileAttachments](#BKMK_msdyn_ccrtareportpage_FileAttachments)
+- [msdyn_ccuserprompt_FileAttachments](#BKMK_msdyn_ccuserprompt_FileAttachments)
 - [msdyn_channelmessageattachment_FileAttachments](#BKMK_msdyn_channelmessageattachment_FileAttachments)
 - [msdyn_conversationinsight_FileAttachments](#BKMK_msdyn_conversationinsight_FileAttachments)
 - [msdyn_copilotinteractiondata_FileAttachments](#BKMK_msdyn_copilotinteractiondata_FileAttachments)
 - [msdyn_copilottranscriptdata_FileAttachments](#BKMK_msdyn_copilottranscriptdata_FileAttachments)
 - [msdyn_customerassetattachment_FileAttachments](#BKMK_msdyn_customerassetattachment_FileAttachments)
 - [msdyn_entityattachment_FileAttachments](#BKMK_msdyn_entityattachment_FileAttachments)
+- [msdyn_intentcoreevaluationjob_FileAttachments](#BKMK_msdyn_intentcoreevaluationjob_FileAttachments)
 - [msdyn_ocexternalcontext_FileAttachments](#BKMK_msdyn_ocexternalcontext_FileAttachments)
 - [msdyn_ocrecording_FileAttachments](#BKMK_msdyn_ocrecording_FileAttachments)
 - [msdyn_ocrichobject_FileAttachments](#BKMK_msdyn_ocrichobject_FileAttachments)
+- [msdyn_screenrecording_FileAttachments](#BKMK_msdyn_screenrecording_FileAttachments)
 - [msdyn_soundfile_FileAttachments](#BKMK_msdyn_soundfile_FileAttachments)
 - [msdyn_transcript_FileAttachments](#BKMK_msdyn_transcript_FileAttachments)
+- [msdyn_transformationtranscript_FileAttachments](#BKMK_msdyn_transformationtranscript_FileAttachments)
 - [msdyncrm_file_FileAttachments](#BKMK_msdyncrm_file_FileAttachments)
 - [msfp_fileresponse_FileAttachments](#BKMK_msfp_fileresponse_FileAttachments)
+
+### <a name="BKMK_msdyn_aisimulationrun_FileAttachments"></a> msdyn_aisimulationrun_FileAttachments
+
+One-To-Many Relationship: [msdyn_aisimulationrun msdyn_aisimulationrun_FileAttachments](msdyn_aisimulationrun.md#BKMK_msdyn_aisimulationrun_FileAttachments)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_aisimulationrun`|
+|ReferencedAttribute|`msdyn_aisimulationrunid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_aisimulationrun`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ccrtapreference_FileAttachments"></a> msdyn_ccrtapreference_FileAttachments
+
+One-To-Many Relationship: [msdyn_ccrtapreference msdyn_ccrtapreference_FileAttachments](msdyn_ccrtapreference.md#BKMK_msdyn_ccrtapreference_FileAttachments)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ccrtapreference`|
+|ReferencedAttribute|`msdyn_ccrtapreferenceid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_ccrtapreference`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ccrtareportpage_FileAttachments"></a> msdyn_ccrtareportpage_FileAttachments
+
+One-To-Many Relationship: [msdyn_ccrtareportpage msdyn_ccrtareportpage_FileAttachments](msdyn_ccrtareportpage.md#BKMK_msdyn_ccrtareportpage_FileAttachments)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ccrtareportpage`|
+|ReferencedAttribute|`msdyn_ccrtareportpageid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_ccrtareportpage`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ccuserprompt_FileAttachments"></a> msdyn_ccuserprompt_FileAttachments
+
+One-To-Many Relationship: [msdyn_ccuserprompt msdyn_ccuserprompt_FileAttachments](msdyn_ccuserprompt.md#BKMK_msdyn_ccuserprompt_FileAttachments)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ccuserprompt`|
+|ReferencedAttribute|`msdyn_ccuserpromptid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_ccuserprompt`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_channelmessageattachment_FileAttachments"></a> msdyn_channelmessageattachment_FileAttachments
 
@@ -126,6 +185,19 @@ One-To-Many Relationship: [msdyn_entityattachment msdyn_entityattachment_FileAtt
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_intentcoreevaluationjob_FileAttachments"></a> msdyn_intentcoreevaluationjob_FileAttachments
+
+One-To-Many Relationship: [msdyn_intentcoreevaluationjob msdyn_intentcoreevaluationjob_FileAttachments](msdyn_intentcoreevaluationjob.md#BKMK_msdyn_intentcoreevaluationjob_FileAttachments)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_intentcoreevaluationjob`|
+|ReferencedAttribute|`msdyn_intentcoreevaluationjobid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_intentcoreevaluationjob`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_ocexternalcontext_FileAttachments"></a> msdyn_ocexternalcontext_FileAttachments
 
 One-To-Many Relationship: [msdyn_ocexternalcontext msdyn_ocexternalcontext_FileAttachments](msdyn_ocexternalcontext.md#BKMK_msdyn_ocexternalcontext_FileAttachments)
@@ -165,6 +237,19 @@ One-To-Many Relationship: [msdyn_ocrichobject msdyn_ocrichobject_FileAttachments
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_screenrecording_FileAttachments"></a> msdyn_screenrecording_FileAttachments
+
+One-To-Many Relationship: [msdyn_screenrecording msdyn_screenrecording_FileAttachments](msdyn_screenrecording.md#BKMK_msdyn_screenrecording_FileAttachments)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_screenrecording`|
+|ReferencedAttribute|`msdyn_screenrecordingid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_screenrecording`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_soundfile_FileAttachments"></a> msdyn_soundfile_FileAttachments
 
 One-To-Many Relationship: [msdyn_soundfile msdyn_soundfile_FileAttachments](msdyn_soundfile.md#BKMK_msdyn_soundfile_FileAttachments)
@@ -188,6 +273,19 @@ One-To-Many Relationship: [msdyn_transcript msdyn_transcript_FileAttachments](ms
 |ReferencedAttribute|`msdyn_transcriptid`|
 |ReferencingAttribute|`objectid`|
 |ReferencingEntityNavigationPropertyName|`objectid_msdyn_transcript`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_transformationtranscript_FileAttachments"></a> msdyn_transformationtranscript_FileAttachments
+
+One-To-Many Relationship: [msdyn_transformationtranscript msdyn_transformationtranscript_FileAttachments](msdyn_transformationtranscript.md#BKMK_msdyn_transformationtranscript_FileAttachments)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_transformationtranscript`|
+|ReferencedAttribute|`msdyn_transformationtranscriptid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_transformationtranscript`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -222,6 +320,10 @@ One-To-Many Relationship: [msfp_fileresponse msfp_fileresponse_FileAttachments](
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [FileAttachment_msdyn_aisimulationrun_msdyn_simulationinputfile](#BKMK_FileAttachment_msdyn_aisimulationrun_msdyn_simulationinputfile)
+- [FileAttachment_msdyn_ccrtapreference_msdyn_metadatafile](#BKMK_FileAttachment_msdyn_ccrtapreference_msdyn_metadatafile)
+- [FileAttachment_msdyn_ccrtareportpage_msdyn_metadatafile](#BKMK_FileAttachment_msdyn_ccrtareportpage_msdyn_metadatafile)
+- [FileAttachment_msdyn_ccuserprompt_msdyn_workflowrule](#BKMK_FileAttachment_msdyn_ccuserprompt_msdyn_workflowrule)
 - [FileAttachment_msdyn_ChannelMessageAttachment_msdyn_FileAttachment](#BKMK_FileAttachment_msdyn_ChannelMessageAttachment_msdyn_FileAttachment)
 - [FileAttachment_msdyn_conversationinsight_msdyn_insights](#BKMK_FileAttachment_msdyn_conversationinsight_msdyn_insights)
 - [FileAttachment_msdyn_conversationinsight_msdyn_TranscriptWithInsights](#BKMK_FileAttachment_msdyn_conversationinsight_msdyn_TranscriptWithInsights)
@@ -229,15 +331,19 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [FileAttachment_msdyn_copilottranscriptdata_msdyn_transcriptdata](#BKMK_FileAttachment_msdyn_copilottranscriptdata_msdyn_transcriptdata)
 - [FileAttachment_msdyn_customerassetattachment_msdyn_File](#BKMK_FileAttachment_msdyn_customerassetattachment_msdyn_File)
 - [FileAttachment_msdyn_entityattachment_msdyn_FileBlob](#BKMK_FileAttachment_msdyn_entityattachment_msdyn_FileBlob)
+- [FileAttachment_msdyn_intentcoreevaluationjob_msdyn_filecontent](#BKMK_FileAttachment_msdyn_intentcoreevaluationjob_msdyn_filecontent)
+- [FileAttachment_msdyn_intentcoreevaluationjob_msdyn_jobresultfile](#BKMK_FileAttachment_msdyn_intentcoreevaluationjob_msdyn_jobresultfile)
 - [FileAttachment_msdyn_ocexternalcontext_msdyn_transcript](#BKMK_FileAttachment_msdyn_ocexternalcontext_msdyn_transcript)
 - [FileAttachment_msdyn_ocrecording_msdyn_recording](#BKMK_FileAttachment_msdyn_ocrecording_msdyn_recording)
 - [FileAttachment_msdyn_ocrecording_msdyn_recordingmetadata](#BKMK_FileAttachment_msdyn_ocrecording_msdyn_recordingmetadata)
 - [FileAttachment_msdyn_ocrichobject_msdyn_objectjsonfile](#BKMK_FileAttachment_msdyn_ocrichobject_msdyn_objectjsonfile)
+- [FileAttachment_msdyn_ScreenRecording_msdyn_ScreenRecordingFile](#BKMK_FileAttachment_msdyn_ScreenRecording_msdyn_ScreenRecordingFile)
 - [FileAttachment_msdyn_soundfile_msdyn_Uploadsoundfile](#BKMK_FileAttachment_msdyn_soundfile_msdyn_Uploadsoundfile)
 - [FileAttachment_msdyn_transcript_msdyn_englishtranslatedtranscriptformatted](#BKMK_FileAttachment_msdyn_transcript_msdyn_englishtranslatedtranscriptformatted)
 - [FileAttachment_msdyn_transcript_msdyn_rawvoicetranscript](#BKMK_FileAttachment_msdyn_transcript_msdyn_rawvoicetranscript)
 - [FileAttachment_msdyn_transcript_msdyn_voicetranscript](#BKMK_FileAttachment_msdyn_transcript_msdyn_voicetranscript)
 - [FileAttachment_msdyn_transcript_msdyn_voicetranscript_formatted](#BKMK_FileAttachment_msdyn_transcript_msdyn_voicetranscript_formatted)
+- [FileAttachment_msdyn_transformationtranscript_msdyn_transcriptfile](#BKMK_FileAttachment_msdyn_transformationtranscript_msdyn_transcriptfile)
 - [FileAttachment_msdyncrm_file_msdyncrm_filecontent](#BKMK_FileAttachment_msdyncrm_file_msdyncrm_filecontent)
 - [FileAttachment_msfp_fileresponse_msfp_file1](#BKMK_FileAttachment_msfp_fileresponse_msfp_file1)
 - [FileAttachment_msfp_fileresponse_msfp_file10](#BKMK_FileAttachment_msfp_fileresponse_msfp_file10)
@@ -249,6 +355,54 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [FileAttachment_msfp_fileresponse_msfp_file7](#BKMK_FileAttachment_msfp_fileresponse_msfp_file7)
 - [FileAttachment_msfp_fileresponse_msfp_file8](#BKMK_FileAttachment_msfp_fileresponse_msfp_file8)
 - [FileAttachment_msfp_fileresponse_msfp_file9](#BKMK_FileAttachment_msfp_fileresponse_msfp_file9)
+
+### <a name="BKMK_FileAttachment_msdyn_aisimulationrun_msdyn_simulationinputfile"></a> FileAttachment_msdyn_aisimulationrun_msdyn_simulationinputfile
+
+Many-To-One Relationship: [msdyn_aisimulationrun FileAttachment_msdyn_aisimulationrun_msdyn_simulationinputfile](msdyn_aisimulationrun.md#BKMK_FileAttachment_msdyn_aisimulationrun_msdyn_simulationinputfile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_aisimulationrun`|
+|ReferencingAttribute|`msdyn_simulationinputfile`|
+|ReferencedEntityNavigationPropertyName|`FileAttachment_msdyn_aisimulationrun_msdyn_simulationinputfile`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_FileAttachment_msdyn_ccrtapreference_msdyn_metadatafile"></a> FileAttachment_msdyn_ccrtapreference_msdyn_metadatafile
+
+Many-To-One Relationship: [msdyn_ccrtapreference FileAttachment_msdyn_ccrtapreference_msdyn_metadatafile](msdyn_ccrtapreference.md#BKMK_FileAttachment_msdyn_ccrtapreference_msdyn_metadatafile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ccrtapreference`|
+|ReferencingAttribute|`msdyn_metadatafile`|
+|ReferencedEntityNavigationPropertyName|`FileAttachment_msdyn_ccrtapreference_msdyn_metadatafile`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_FileAttachment_msdyn_ccrtareportpage_msdyn_metadatafile"></a> FileAttachment_msdyn_ccrtareportpage_msdyn_metadatafile
+
+Many-To-One Relationship: [msdyn_ccrtareportpage FileAttachment_msdyn_ccrtareportpage_msdyn_metadatafile](msdyn_ccrtareportpage.md#BKMK_FileAttachment_msdyn_ccrtareportpage_msdyn_metadatafile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ccrtareportpage`|
+|ReferencingAttribute|`msdyn_metadatafile`|
+|ReferencedEntityNavigationPropertyName|`FileAttachment_msdyn_ccrtareportpage_msdyn_metadatafile`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_FileAttachment_msdyn_ccuserprompt_msdyn_workflowrule"></a> FileAttachment_msdyn_ccuserprompt_msdyn_workflowrule
+
+Many-To-One Relationship: [msdyn_ccuserprompt FileAttachment_msdyn_ccuserprompt_msdyn_workflowrule](msdyn_ccuserprompt.md#BKMK_FileAttachment_msdyn_ccuserprompt_msdyn_workflowrule)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ccuserprompt`|
+|ReferencingAttribute|`msdyn_workflowrule`|
+|ReferencedEntityNavigationPropertyName|`FileAttachment_msdyn_ccuserprompt_msdyn_workflowrule`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_FileAttachment_msdyn_ChannelMessageAttachment_msdyn_FileAttachment"></a> FileAttachment_msdyn_ChannelMessageAttachment_msdyn_FileAttachment
 
@@ -334,6 +488,30 @@ Many-To-One Relationship: [msdyn_entityattachment FileAttachment_msdyn_entityatt
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_FileAttachment_msdyn_intentcoreevaluationjob_msdyn_filecontent"></a> FileAttachment_msdyn_intentcoreevaluationjob_msdyn_filecontent
+
+Many-To-One Relationship: [msdyn_intentcoreevaluationjob FileAttachment_msdyn_intentcoreevaluationjob_msdyn_filecontent](msdyn_intentcoreevaluationjob.md#BKMK_FileAttachment_msdyn_intentcoreevaluationjob_msdyn_filecontent)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_intentcoreevaluationjob`|
+|ReferencingAttribute|`msdyn_filecontent`|
+|ReferencedEntityNavigationPropertyName|`FileAttachment_msdyn_intentcoreevaluationjob_msdyn_filecontent`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_FileAttachment_msdyn_intentcoreevaluationjob_msdyn_jobresultfile"></a> FileAttachment_msdyn_intentcoreevaluationjob_msdyn_jobresultfile
+
+Many-To-One Relationship: [msdyn_intentcoreevaluationjob FileAttachment_msdyn_intentcoreevaluationjob_msdyn_jobresultfile](msdyn_intentcoreevaluationjob.md#BKMK_FileAttachment_msdyn_intentcoreevaluationjob_msdyn_jobresultfile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_intentcoreevaluationjob`|
+|ReferencingAttribute|`msdyn_jobresultfile`|
+|ReferencedEntityNavigationPropertyName|`FileAttachment_msdyn_intentcoreevaluationjob_msdyn_jobresultfile`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_FileAttachment_msdyn_ocexternalcontext_msdyn_transcript"></a> FileAttachment_msdyn_ocexternalcontext_msdyn_transcript
 
 Many-To-One Relationship: [msdyn_ocexternalcontext FileAttachment_msdyn_ocexternalcontext_msdyn_transcript](msdyn_ocexternalcontext.md#BKMK_FileAttachment_msdyn_ocexternalcontext_msdyn_transcript)
@@ -379,6 +557,18 @@ Many-To-One Relationship: [msdyn_ocrichobject FileAttachment_msdyn_ocrichobject_
 |ReferencingEntity|`msdyn_ocrichobject`|
 |ReferencingAttribute|`msdyn_objectjsonfile`|
 |ReferencedEntityNavigationPropertyName|`FileAttachment_msdyn_ocrichobject_msdyn_objectjsonfile`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_FileAttachment_msdyn_ScreenRecording_msdyn_ScreenRecordingFile"></a> FileAttachment_msdyn_ScreenRecording_msdyn_ScreenRecordingFile
+
+Many-To-One Relationship: [msdyn_screenrecording FileAttachment_msdyn_ScreenRecording_msdyn_ScreenRecordingFile](msdyn_screenrecording.md#BKMK_FileAttachment_msdyn_ScreenRecording_msdyn_ScreenRecordingFile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_screenrecording`|
+|ReferencingAttribute|`msdyn_screenrecordingfile`|
+|ReferencedEntityNavigationPropertyName|`FileAttachment_msdyn_ScreenRecording_msdyn_ScreenRecordingFile`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
@@ -439,6 +629,18 @@ Many-To-One Relationship: [msdyn_transcript FileAttachment_msdyn_transcript_msdy
 |ReferencingEntity|`msdyn_transcript`|
 |ReferencingAttribute|`msdyn_voicetranscript_formatted`|
 |ReferencedEntityNavigationPropertyName|`FileAttachment_msdyn_transcript_msdyn_voicetranscript_formatted`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_FileAttachment_msdyn_transformationtranscript_msdyn_transcriptfile"></a> FileAttachment_msdyn_transformationtranscript_msdyn_transcriptfile
+
+Many-To-One Relationship: [msdyn_transformationtranscript FileAttachment_msdyn_transformationtranscript_msdyn_transcriptfile](msdyn_transformationtranscript.md#BKMK_FileAttachment_msdyn_transformationtranscript_msdyn_transcriptfile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_transformationtranscript`|
+|ReferencingAttribute|`msdyn_transcriptfile`|
+|ReferencedEntityNavigationPropertyName|`FileAttachment_msdyn_transformationtranscript_msdyn_transcriptfile`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

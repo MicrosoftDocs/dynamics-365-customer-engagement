@@ -62,8 +62,11 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_accessenabledforallroles](#BKMK_msdyn_accessenabledforallroles)
 - [msdyn_copilotskillId](#BKMK_msdyn_copilotskillId)
+- [msdyn_description](#BKMK_msdyn_description)
 - [msdyn_featureconfiguration](#BKMK_msdyn_featureconfiguration)
+- [msdyn_isinternal](#BKMK_msdyn_isinternal)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_uniquename](#BKMK_msdyn_uniquename)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -98,6 +101,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
 
+### <a name="BKMK_msdyn_accessenabledforallroles"></a> msdyn_accessenabledforallroles
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether access is enabled for all roles**|
+|DisplayName|**Access Enabled For All Roles**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_accessenabledforallroles`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_copilotskill_msdyn_accessenabledforallroles`|
+|DefaultValue|False|
+|True Label|True|
+|False Label|False|
+
 ### <a name="BKMK_msdyn_copilotskillId"></a> msdyn_copilotskillId
 
 |Property|Value|
@@ -109,6 +128,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_copilotskillid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_description"></a> msdyn_description
+
+|Property|Value|
+|---|---|
+|Description|**Description of the Copilot skill**|
+|DisplayName|**Description**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_description`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|True|
+|MaxLength|2000|
 
 ### <a name="BKMK_msdyn_featureconfiguration"></a> msdyn_featureconfiguration
 
@@ -126,6 +162,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|1048576|
+
+### <a name="BKMK_msdyn_isinternal"></a> msdyn_isinternal
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether this skill is an internal skill**|
+|DisplayName|**Is Internal**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isinternal`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_copilotskill_msdyn_isinternal`|
+|DefaultValue|False|
+|True Label|True|
+|False Label|False|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
@@ -561,8 +613,11 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_copilotskill_PrincipalObjectAttributeAccesses](#BKMK_msdyn_copilotskill_PrincipalObjectAttributeAccesses)
 - [msdyn_copilotskill_ProcessSession](#BKMK_msdyn_copilotskill_ProcessSession)
 - [msdyn_copilotskill_SyncErrors](#BKMK_msdyn_copilotskill_SyncErrors)
+- [msdyn_msdyn_copilotskill_msdyn_copilotskillmapping_childskillid](#BKMK_msdyn_msdyn_copilotskill_msdyn_copilotskillmapping_childskillid)
+- [msdyn_msdyn_copilotskill_msdyn_copilotskillmapping_parentskillid](#BKMK_msdyn_msdyn_copilotskill_msdyn_copilotskillmapping_parentskillid)
 - [msdyn_msdyn_copilotskill_msdyn_copilotskillrole_copilotskillid](#BKMK_msdyn_msdyn_copilotskill_msdyn_copilotskillrole_copilotskillid)
 - [msdyn_msdyn_copilotskill_msdyn_copilotstarterprompt_copilotskill](#BKMK_msdyn_msdyn_copilotskill_msdyn_copilotstarterprompt_copilotskill)
+- [msdyn_msdyn_copilotskill_msdyn_copilottool_parentskillid](#BKMK_msdyn_msdyn_copilotskill_msdyn_copilottool_parentskillid)
 - [msdyn_organizationprompt_msdyn_skill_msdyn_copilotskill](#BKMK_msdyn_organizationprompt_msdyn_skill_msdyn_copilotskill)
 
 ### <a name="BKMK_msdyn_copilotskill_AsyncOperations"></a> msdyn_copilotskill_AsyncOperations
@@ -661,6 +716,30 @@ Many-To-One Relationship: [syncerror msdyn_copilotskill_SyncErrors](syncerror.md
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_msdyn_copilotskill_msdyn_copilotskillmapping_childskillid"></a> msdyn_msdyn_copilotskill_msdyn_copilotskillmapping_childskillid
+
+Many-To-One Relationship: [msdyn_copilotskillmapping msdyn_msdyn_copilotskill_msdyn_copilotskillmapping_childskillid](msdyn_copilotskillmapping.md#BKMK_msdyn_msdyn_copilotskill_msdyn_copilotskillmapping_childskillid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_copilotskillmapping`|
+|ReferencingAttribute|`msdyn_childskillid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_copilotskill_msdyn_copilotskillmapping_childskillid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_copilotskill_msdyn_copilotskillmapping_parentskillid"></a> msdyn_msdyn_copilotskill_msdyn_copilotskillmapping_parentskillid
+
+Many-To-One Relationship: [msdyn_copilotskillmapping msdyn_msdyn_copilotskill_msdyn_copilotskillmapping_parentskillid](msdyn_copilotskillmapping.md#BKMK_msdyn_msdyn_copilotskill_msdyn_copilotskillmapping_parentskillid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_copilotskillmapping`|
+|ReferencingAttribute|`msdyn_parentskillid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_copilotskill_msdyn_copilotskillmapping_parentskillid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_msdyn_copilotskill_msdyn_copilotskillrole_copilotskillid"></a> msdyn_msdyn_copilotskill_msdyn_copilotskillrole_copilotskillid
 
 Many-To-One Relationship: [msdyn_copilotskillrole msdyn_msdyn_copilotskill_msdyn_copilotskillrole_copilotskillid](msdyn_copilotskillrole.md#BKMK_msdyn_msdyn_copilotskill_msdyn_copilotskillrole_copilotskillid)
@@ -683,6 +762,18 @@ Many-To-One Relationship: [msdyn_copilotstarterprompt msdyn_msdyn_copilotskill_m
 |ReferencingAttribute|`msdyn_copilotskill`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_copilotskill_msdyn_copilotstarterprompt_copilotskill`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_copilotskill_msdyn_copilottool_parentskillid"></a> msdyn_msdyn_copilotskill_msdyn_copilottool_parentskillid
+
+Many-To-One Relationship: [msdyn_copilottool msdyn_msdyn_copilotskill_msdyn_copilottool_parentskillid](msdyn_copilottool.md#BKMK_msdyn_msdyn_copilotskill_msdyn_copilottool_parentskillid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_copilottool`|
+|ReferencingAttribute|`msdyn_parentskillid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_copilotskill_msdyn_copilottool_parentskillid`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_organizationprompt_msdyn_skill_msdyn_copilotskill"></a> msdyn_organizationprompt_msdyn_skill_msdyn_copilotskill

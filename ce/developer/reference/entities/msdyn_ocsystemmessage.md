@@ -27,7 +27,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `Disassociate`<br />Event: True |[Disassociate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Disassociate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-disassociate-method-or-disassociaterequest)|
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_ocsystemmessages(*msdyn_ocsystemmessageid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_ocsystemmessages<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -65,6 +64,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_defaultlanguage](#BKMK_msdyn_defaultlanguage)
 - [msdyn_instanceid](#BKMK_msdyn_instanceid)
 - [msdyn_isrecurring](#BKMK_msdyn_isrecurring)
+- [msdyn_isrepeatlimited](#BKMK_msdyn_isrepeatlimited)
 - [msdyn_messagedescription](#BKMK_msdyn_messagedescription)
 - [msdyn_messageinterval](#BKMK_msdyn_messageinterval)
 - [msdyn_messagereceiver](#BKMK_msdyn_messagereceiver)
@@ -74,6 +74,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_ocsystemmessageId](#BKMK_msdyn_ocsystemmessageId)
 - [msdyn_repeatcount](#BKMK_msdyn_repeatcount)
+- [msdyn_startdelay](#BKMK_msdyn_startdelay)
 - [msdyn_streamsource](#BKMK_msdyn_streamsource)
 - [msdyn_systemmessageeventtype](#BKMK_msdyn_systemmessageeventtype)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -142,6 +143,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Yes|
 |False Label|No|
 
+### <a name="BKMK_msdyn_isrepeatlimited"></a> msdyn_isrepeatlimited
+
+|Property|Value|
+|---|---|
+|Description|**Indicates if the repeat count is limited.**|
+|DisplayName|**Is Recurring**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isrepeatlimited`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_ocsystemmessage_msdyn_isrepeatlimited`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_messagedescription"></a> msdyn_messagedescription
 
 |Property|Value|
@@ -168,7 +185,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_messageinterval`|
-|RequiredLevel|None|
+|RequiredLevel|ApplicationRequired|
 |Type|Integer|
 |MaxValue|900|
 |MinValue|1|
@@ -290,10 +307,24 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_repeatcount`|
-|RequiredLevel|None|
+|RequiredLevel|ApplicationRequired|
 |Type|Integer|
 |MaxValue|900|
 |MinValue|1|
+
+### <a name="BKMK_msdyn_startdelay"></a> msdyn_startdelay
+
+|Property|Value|
+|---|---|
+|Description|**Delay before the first message is sent in seconds.**|
+|DisplayName|**Start delay in seconds**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_startdelay`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|54000|
+|MinValue|30|
 
 ### <a name="BKMK_msdyn_streamsource"></a> msdyn_streamsource
 
@@ -411,7 +442,14 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192370001|**Customer's message couldn't be sent: Service is down.**|
 |192370002|**Please wait a moment to give us feedback about your experience..**|
 |192370003|**This survey has timed out. To start a new conversation, reopen this chat window.**|
-|192370004|**Estimated wait time notification.**|
+|192370006|**Conversation closed due to new notification request.**|
+|192370007|**Estimated wait time notification.**|
+|192370009|**Customer authenticated during active conversation**|
+|192370010|**Call Recording Notice**|
+|192370011|**Customer ended the conversation due to SMS opt-out.**|
+|192370012|**Conversation rerouted**|
+|192370013|**Conversation reroute succeeded**|
+|192370014|**Conversation reroute failed**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

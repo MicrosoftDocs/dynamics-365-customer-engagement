@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_sessionparticipants(*msdyn_sessionparticipantid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_sessionparticipants<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -1124,6 +1123,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_sessionparticipant_PrincipalObjectAttributeAccesses](#BKMK_msdyn_sessionparticipant_PrincipalObjectAttributeAccesses)
 - [msdyn_sessionparticipant_ProcessSession](#BKMK_msdyn_sessionparticipant_ProcessSession)
 - [msdyn_sessionparticipant_SyncErrors](#BKMK_msdyn_sessionparticipant_SyncErrors)
+- [msdyn_sessionparticipantextension_sessionparticipantid_msdyn_sessionparticipant](#BKMK_msdyn_sessionparticipantextension_sessionparticipantid_msdyn_sessionparticipant)
 
 ### <a name="BKMK_msdyn_msdyn_sessionparticipant_msdyn_ocliveworkitem_activesessionparticipantid"></a> msdyn_msdyn_sessionparticipant_msdyn_ocliveworkitem_activesessionparticipantid
 
@@ -1244,6 +1244,18 @@ Many-To-One Relationship: [syncerror msdyn_sessionparticipant_SyncErrors](syncer
 |ReferencedEntityNavigationPropertyName|`msdyn_sessionparticipant_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_sessionparticipantextension_sessionparticipantid_msdyn_sessionparticipant"></a> msdyn_sessionparticipantextension_sessionparticipantid_msdyn_sessionparticipant
+
+Many-To-One Relationship: [msdyn_sessionparticipantextension msdyn_sessionparticipantextension_sessionparticipantid_msdyn_sessionparticipant](msdyn_sessionparticipantextension.md#BKMK_msdyn_sessionparticipantextension_sessionparticipantid_msdyn_sessionparticipant)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_sessionparticipantextension`|
+|ReferencingAttribute|`msdyn_sessionparticipantid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_sessionparticipantextension_sessionparticipantid_msdyn_sessionparticipant`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

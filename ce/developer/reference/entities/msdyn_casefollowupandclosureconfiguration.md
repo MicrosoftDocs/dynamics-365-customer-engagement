@@ -65,6 +65,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_activationmode](#BKMK_msdyn_activationmode)
 - [msdyn_casefollowupandclosureconfigurationId](#BKMK_msdyn_casefollowupandclosureconfigurationId)
 - [msdyn_caseresolutionattributes](#BKMK_msdyn_caseresolutionattributes)
+- [msdyn_closureemailtemplate_closed](#BKMK_msdyn_closureemailtemplate_closed)
+- [msdyn_closureemailtemplate_resolved](#BKMK_msdyn_closureemailtemplate_resolved)
+- [msdyn_closurestatusreason](#BKMK_msdyn_closurestatusreason)
 - [msdyn_conditionname](#BKMK_msdyn_conditionname)
 - [msdyn_conditionXml](#BKMK_msdyn_conditionXml)
 - [msdyn_followupemailattributes](#BKMK_msdyn_followupemailattributes)
@@ -75,6 +78,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_isdirectinvocationenabled](#BKMK_msdyn_isdirectinvocationenabled)
 - [msdyn_isfullautonomous](#BKMK_msdyn_isfullautonomous)
 - [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_negativeresponsetargetstatus](#BKMK_msdyn_negativeresponsetargetstatus)
 - [msdyn_numoffollowups](#BKMK_msdyn_numoffollowups)
 - [msdyn_preresolutionperiod](#BKMK_msdyn_preresolutionperiod)
 - [msdyn_ruleorder](#BKMK_msdyn_ruleorder)
@@ -130,6 +134,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |419550000|**Inactive**|
 |419550001|**Active**|
+|419550002|**Shadow**|
 
 ### <a name="BKMK_msdyn_casefollowupandclosureconfigurationId"></a> msdyn_casefollowupandclosureconfigurationId
 
@@ -159,6 +164,54 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|1048576|
+
+### <a name="BKMK_msdyn_closureemailtemplate_closed"></a> msdyn_closureemailtemplate_closed
+
+|Property|Value|
+|---|---|
+|Description|**GUID of email template for closed cases (customer did not respond).**|
+|DisplayName|**Case Closed Template**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_closureemailtemplate_closed`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_closureemailtemplate_resolved"></a> msdyn_closureemailtemplate_resolved
+
+|Property|Value|
+|---|---|
+|Description|**GUID of email template for resolved cases (customer confirmed resolution).**|
+|DisplayName|**Case Resolved Template**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_closureemailtemplate_resolved`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_closurestatusreason"></a> msdyn_closurestatusreason
+
+|Property|Value|
+|---|---|
+|Description|**Status reason value used when the agent auto-resolves the case in full automation. Null falls back to legacy default (5).**|
+|DisplayName|**Closure Status Reason**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_closurestatusreason`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
 
 ### <a name="BKMK_msdyn_conditionname"></a> msdyn_conditionname
 
@@ -327,6 +380,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_negativeresponsetargetstatus"></a> msdyn_negativeresponsetargetstatus
+
+|Property|Value|
+|---|---|
+|Description|**Target status when customer replies without confirming resolution**|
+|DisplayName|**Negative Response Target Status**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_negativeresponsetargetstatus`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
 
 ### <a name="BKMK_msdyn_numoffollowups"></a> msdyn_numoffollowups
 

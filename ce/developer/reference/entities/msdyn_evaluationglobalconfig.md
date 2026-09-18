@@ -68,11 +68,15 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_dvcopilotprovisioningstatus](#BKMK_msdyn_dvcopilotprovisioningstatus)
+- [msdyn_dvcopilotprovisioningstatusjson](#BKMK_msdyn_dvcopilotprovisioningstatusjson)
 - [msdyn_enablecase](#BKMK_msdyn_enablecase)
 - [msdyn_enableconversation](#BKMK_msdyn_enableconversation)
 - [msdyn_enableevalscoring](#BKMK_msdyn_enableevalscoring)
+- [msdyn_enablesummaryregeneration](#BKMK_msdyn_enablesummaryregeneration)
 - [msdyn_EvaluationGlobalConfigId](#BKMK_msdyn_EvaluationGlobalConfigId)
 - [msdyn_id](#BKMK_msdyn_id)
+- [msdyn_isdvcopilotenabled](#BKMK_msdyn_isdvcopilotenabled)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_thresholdvalue](#BKMK_msdyn_thresholdvalue)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -108,6 +112,46 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`iscustomizable`|
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
+
+### <a name="BKMK_msdyn_dvcopilotprovisioningstatus"></a> msdyn_dvcopilotprovisioningstatus
+
+|Property|Value|
+|---|---|
+|Description|**Shows current DVCopilot provisioning state**|
+|DisplayName|**DV Copilot Provisioning Status**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_dvcopilotprovisioningstatus`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_evaluationglobalconfig_msdyn_dvcopilotprovisioningstatus`|
+
+#### msdyn_dvcopilotprovisioningstatus Choices/Options
+
+|Value|Label|
+|---|---|
+|192350000|**Not Configured**|
+|192350001|**Configuring**|
+|192350002|**Ready**|
+|192350003|**Failed**|
+
+### <a name="BKMK_msdyn_dvcopilotprovisioningstatusjson"></a> msdyn_dvcopilotprovisioningstatusjson
+
+|Property|Value|
+|---|---|
+|Description|**JSON status object for DVCopilot provisioning tracking**|
+|DisplayName|**DV Copilot Provisioning Status JSON**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_dvcopilotprovisioningstatusjson`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100000|
 
 ### <a name="BKMK_msdyn_enablecase"></a> msdyn_enablecase
 
@@ -157,6 +201,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Yes|
 |False Label|No|
 
+### <a name="BKMK_msdyn_enablesummaryregeneration"></a> msdyn_enablesummaryregeneration
+
+|Property|Value|
+|---|---|
+|Description|**Global flag to enable or disable the summary regeneration feature**|
+|DisplayName|**Enable Summary Regeneration**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enablesummaryregeneration`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_evaluationglobalconfig_msdyn_enablesummaryregeneration`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_EvaluationGlobalConfigId"></a> msdyn_EvaluationGlobalConfigId
 
 |Property|Value|
@@ -185,6 +245,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|850|
+
+### <a name="BKMK_msdyn_isdvcopilotenabled"></a> msdyn_isdvcopilotenabled
+
+|Property|Value|
+|---|---|
+|Description|**Controls whether Dataverse Copilot is enabled for QMS Knowledge Articles**|
+|DisplayName|**Is DV Copilot Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isdvcopilotenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_evaluationglobalconfig_msdyn_isdvcopilotenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 

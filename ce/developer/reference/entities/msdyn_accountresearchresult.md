@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_accountresearchresults(*msdyn_accountresearchresultid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_accountresearchresults<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -77,6 +76,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_accountresearchresultId](#BKMK_msdyn_accountresearchresultId)
 - [msdyn_CustomResearchConfigId](#BKMK_msdyn_CustomResearchConfigId)
 - [msdyn_CustomResearchResults](#BKMK_msdyn_CustomResearchResults)
+- [msdyn_salesagentprofileid](#BKMK_msdyn_salesagentprofileid)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -241,6 +241,18 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|1000000|
+
+### <a name="BKMK_msdyn_salesagentprofileid"></a> msdyn_salesagentprofileid
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**SalesAgentProfile**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_salesagentprofileid`|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_salesagentprofiles(*msdyn_salesagentprofileid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_salesagentprofiles<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -68,6 +67,7 @@ The following table lists selected properties for the SalesAgentProfile (msdyn_s
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [IsCustomizable](#BKMK_IsCustomizable)
 - [msdyn_ActivatedBy](#BKMK_msdyn_ActivatedBy)
 - [msdyn_ActivatedOn](#BKMK_msdyn_ActivatedOn)
 - [msdyn_AgentLocaleCode](#BKMK_msdyn_AgentLocaleCode)
@@ -111,6 +111,18 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_IsCustomizable"></a> IsCustomizable
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Is Customizable**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`iscustomizable`|
+|RequiredLevel|SystemRequired|
+|Type|ManagedProperty|
 
 ### <a name="BKMK_msdyn_ActivatedBy"></a> msdyn_ActivatedBy
 
@@ -412,8 +424,11 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |1|**SQA Research**|
 |2|**SQA Autonomous**|
-|3|**SCA Research**|
-|4|**SCA Engage**|
+|3|**Sales Opportunity**|
+|4|**Sales Close**|
+|5|**Conversation Enrichment**|
+|6|**Recommended Actions**|
+|99|**customAgentForRAA**|
 
 ### <a name="BKMK_msdyn_SegmentInfo"></a> msdyn_SegmentInfo
 
@@ -554,6 +569,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |6|Label: **Starting agent**<br />State:0<br />TransitionData: None|
 |7|Label: **Starting test**<br />State:0<br />TransitionData: None|
 |8|Label: **Applying changes**<br />State:1<br />TransitionData: None|
+|9|Label: **Activation in Progress**<br />State:0<br />TransitionData: None|
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
@@ -588,18 +604,59 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 These columns/attributes return false for both **IsValidForCreate** and **IsValidForUpdate**. Listed by **SchemaName**.
 
+- [ComponentIdUnique](#BKMK_ComponentIdUnique)
+- [ComponentState](#BKMK_ComponentState)
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedOn](#BKMK_CreatedOn)
 - [CreatedOnBehalfBy](#BKMK_CreatedOnBehalfBy)
+- [IsManaged](#BKMK_IsManaged)
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedOn](#BKMK_ModifiedOn)
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
+- [OverwriteTime](#BKMK_OverwriteTime)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
 - [OwningTeam](#BKMK_OwningTeam)
 - [OwningUser](#BKMK_OwningUser)
+- [SolutionId](#BKMK_SolutionId)
+- [SupportingSolutionId](#BKMK_SupportingSolutionId)
 - [VersionNumber](#BKMK_VersionNumber)
+
+### <a name="BKMK_ComponentIdUnique"></a> ComponentIdUnique
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Row id unique**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`componentidunique`|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+### <a name="BKMK_ComponentState"></a> ComponentState
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Component State**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`componentstate`|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`componentstate`|
+
+#### ComponentState Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Published**|
+|1|**Unpublished**|
+|2|**Deleted**|
+|3|**Deleted Unpublished**|
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
@@ -644,6 +701,22 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |Type|Lookup|
 |Targets|systemuser|
 
+### <a name="BKMK_IsManaged"></a> IsManaged
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether the solution component is part of a managed solution.**|
+|DisplayName|**Is Managed**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`ismanaged`|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+|GlobalChoiceName|`ismanaged`|
+|DefaultValue|False|
+|True Label|Managed|
+|False Label|Unmanaged|
+
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
 |Property|Value|
@@ -686,6 +759,23 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|systemuser|
+
+### <a name="BKMK_OverwriteTime"></a> OverwriteTime
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Record Overwrite Time**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`overwritetime`|
+|RequiredLevel|SystemRequired|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
@@ -759,6 +849,30 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|systemuser|
+
+### <a name="BKMK_SolutionId"></a> SolutionId
+
+|Property|Value|
+|---|---|
+|Description|**Unique identifier of the associated solution.**|
+|DisplayName|**Solution**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`solutionid`|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+### <a name="BKMK_SupportingSolutionId"></a> SupportingSolutionId
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Solution**|
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|`supportingsolutionid`|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
@@ -924,6 +1038,13 @@ One-To-Many Relationship: [systemuser user_msdyn_salesagentprofile](systemuser.m
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_OpportunityAccountResearchResult_SalesAgentProfile_msdyn_salesagentprofile](#BKMK_msdyn_OpportunityAccountResearchResult_SalesAgentProfile_msdyn_salesagentprofile)
+- [msdyn_OpportunityResearchAgentTrigger_SalesAgentProfile_msdyn_salesagentprofile](#BKMK_msdyn_OpportunityResearchAgentTrigger_SalesAgentProfile_msdyn_salesagentprofile)
+- [msdyn_OpportunityResearchIndicator_SalesAgentProfile_msdyn_salesagentprofile](#BKMK_msdyn_OpportunityResearchIndicator_SalesAgentProfile_msdyn_salesagentprofile)
+- [msdyn_OpportunityResearchResult_SalesAgentProfile_msdyn_salesagentprofile](#BKMK_msdyn_OpportunityResearchResult_SalesAgentProfile_msdyn_salesagentprofile)
+- [msdyn_OpportunityResearchUserInteractions_SalesAgentProfile_msdyn_salesagentprofile](#BKMK_msdyn_OpportunityResearchUserInteractions_SalesAgentProfile_msdyn_salesagentprofile)
+- [msdyn_recommendedactionsourceagentconfig_msdyn_salesagentprofileid_msdyn_salesagentprofile](#BKMK_msdyn_recommendedactionsourceagentconfig_msdyn_salesagentprofileid_msdyn_salesagentprofile)
+- [msdyn_RelatedConversationTriggerTable_SalesAgentProfile_msdyn_salesagentprofile](#BKMK_msdyn_RelatedConversationTriggerTable_SalesAgentProfile_msdyn_salesagentprofile)
 - [msdyn_salesagentexecutionconfig_msdyn_salesagentprofileid_msdyn_salesagentprofile](#BKMK_msdyn_salesagentexecutionconfig_msdyn_salesagentprofileid_msdyn_salesagentprofile)
 - [msdyn_salesagentprocessingstate_salesagentprofile_msdyn_salesagentprofile](#BKMK_msdyn_salesagentprocessingstate_salesagentprofile_msdyn_salesagentprofile)
 - [msdyn_salesagentprofile_AsyncOperations](#BKMK_msdyn_salesagentprofile_AsyncOperations)
@@ -936,6 +1057,90 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_salesagentprofile_ProcessSession](#BKMK_msdyn_salesagentprofile_ProcessSession)
 - [msdyn_salesagentprofile_SyncErrors](#BKMK_msdyn_salesagentprofile_SyncErrors)
 - [msdyn_triggersalesagent_salesagentprofile_msdyn_salesagentprofile](#BKMK_msdyn_triggersalesagent_salesagentprofile_msdyn_salesagentprofile)
+
+### <a name="BKMK_msdyn_OpportunityAccountResearchResult_SalesAgentProfile_msdyn_salesagentprofile"></a> msdyn_OpportunityAccountResearchResult_SalesAgentProfile_msdyn_salesagentprofile
+
+Many-To-One Relationship: [msdyn_opportunityaccountresearchresult msdyn_OpportunityAccountResearchResult_SalesAgentProfile_msdyn_salesagentprofile](msdyn_opportunityaccountresearchresult.md#BKMK_msdyn_OpportunityAccountResearchResult_SalesAgentProfile_msdyn_salesagentprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_opportunityaccountresearchresult`|
+|ReferencingAttribute|`msdyn_salesagentprofile`|
+|ReferencedEntityNavigationPropertyName|`msdyn_OpportunityAccountResearchResult_SalesAgentProfile_msdyn_salesagentprofile`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_OpportunityResearchAgentTrigger_SalesAgentProfile_msdyn_salesagentprofile"></a> msdyn_OpportunityResearchAgentTrigger_SalesAgentProfile_msdyn_salesagentprofile
+
+Many-To-One Relationship: [msdyn_opportunityresearchagenttrigger msdyn_OpportunityResearchAgentTrigger_SalesAgentProfile_msdyn_salesagentprofile](msdyn_opportunityresearchagenttrigger.md#BKMK_msdyn_OpportunityResearchAgentTrigger_SalesAgentProfile_msdyn_salesagentprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_opportunityresearchagenttrigger`|
+|ReferencingAttribute|`msdyn_salesagentprofile`|
+|ReferencedEntityNavigationPropertyName|`msdyn_OpportunityResearchAgentTrigger_SalesAgentProfile_msdyn_salesagentprofile`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_OpportunityResearchIndicator_SalesAgentProfile_msdyn_salesagentprofile"></a> msdyn_OpportunityResearchIndicator_SalesAgentProfile_msdyn_salesagentprofile
+
+Many-To-One Relationship: [msdyn_opportunityresearchindicator msdyn_OpportunityResearchIndicator_SalesAgentProfile_msdyn_salesagentprofile](msdyn_opportunityresearchindicator.md#BKMK_msdyn_OpportunityResearchIndicator_SalesAgentProfile_msdyn_salesagentprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_opportunityresearchindicator`|
+|ReferencingAttribute|`msdyn_salesagentprofile`|
+|ReferencedEntityNavigationPropertyName|`msdyn_OpportunityResearchIndicator_SalesAgentProfile_msdyn_salesagentprofile`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_OpportunityResearchResult_SalesAgentProfile_msdyn_salesagentprofile"></a> msdyn_OpportunityResearchResult_SalesAgentProfile_msdyn_salesagentprofile
+
+Many-To-One Relationship: [msdyn_opportunityresearchresult msdyn_OpportunityResearchResult_SalesAgentProfile_msdyn_salesagentprofile](msdyn_opportunityresearchresult.md#BKMK_msdyn_OpportunityResearchResult_SalesAgentProfile_msdyn_salesagentprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_opportunityresearchresult`|
+|ReferencingAttribute|`msdyn_salesagentprofile`|
+|ReferencedEntityNavigationPropertyName|`msdyn_OpportunityResearchResult_SalesAgentProfile_msdyn_salesagentprofile`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_OpportunityResearchUserInteractions_SalesAgentProfile_msdyn_salesagentprofile"></a> msdyn_OpportunityResearchUserInteractions_SalesAgentProfile_msdyn_salesagentprofile
+
+Many-To-One Relationship: [msdyn_opportunityresearchuserinteractions msdyn_OpportunityResearchUserInteractions_SalesAgentProfile_msdyn_salesagentprofile](msdyn_opportunityresearchuserinteractions.md#BKMK_msdyn_OpportunityResearchUserInteractions_SalesAgentProfile_msdyn_salesagentprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_opportunityresearchuserinteractions`|
+|ReferencingAttribute|`msdyn_salesagentprofile`|
+|ReferencedEntityNavigationPropertyName|`msdyn_OpportunityResearchUserInteractions_SalesAgentProfile_msdyn_salesagentprofile`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_recommendedactionsourceagentconfig_msdyn_salesagentprofileid_msdyn_salesagentprofile"></a> msdyn_recommendedactionsourceagentconfig_msdyn_salesagentprofileid_msdyn_salesagentprofile
+
+Many-To-One Relationship: [msdyn_recommendedactionsourceagentconfig msdyn_recommendedactionsourceagentconfig_msdyn_salesagentprofileid_msdyn_salesagentprofile](msdyn_recommendedactionsourceagentconfig.md#BKMK_msdyn_recommendedactionsourceagentconfig_msdyn_salesagentprofileid_msdyn_salesagentprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_recommendedactionsourceagentconfig`|
+|ReferencingAttribute|`msdyn_salesagentprofileid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_recommendedactionsourceagentconfig_msdyn_salesagentprofileid_msdyn_salesagentprofile`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_RelatedConversationTriggerTable_SalesAgentProfile_msdyn_salesagentprofile"></a> msdyn_RelatedConversationTriggerTable_SalesAgentProfile_msdyn_salesagentprofile
+
+Many-To-One Relationship: [msdyn_relatedconversationtriggertable msdyn_RelatedConversationTriggerTable_SalesAgentProfile_msdyn_salesagentprofile](msdyn_relatedconversationtriggertable.md#BKMK_msdyn_RelatedConversationTriggerTable_SalesAgentProfile_msdyn_salesagentprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_relatedconversationtriggertable`|
+|ReferencingAttribute|`msdyn_salesagentprofile`|
+|ReferencedEntityNavigationPropertyName|`msdyn_RelatedConversationTriggerTable_SalesAgentProfile_msdyn_salesagentprofile`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_salesagentexecutionconfig_msdyn_salesagentprofileid_msdyn_salesagentprofile"></a> msdyn_salesagentexecutionconfig_msdyn_salesagentprofileid_msdyn_salesagentprofile
 

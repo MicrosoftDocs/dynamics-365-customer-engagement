@@ -152,8 +152,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Prioritization Columns**|
-|DisplayName|**Prioritization Columns**|
+|Description|**Prioritization Columns (Deprecated)**|
+|DisplayName|**Prioritization Columns (Deprecated)**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_prioritizationcolumns`|
@@ -169,8 +169,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Prioritization FetchXml**|
-|DisplayName|**Prioritization FetchXml**|
+|Description|**Prioritization FetchXml (Deprecated)**|
+|DisplayName|**Prioritization FetchXml (Deprecated)**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_prioritizationfetchxml`|
@@ -186,8 +186,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Prioritization Prompt**|
-|DisplayName|**Prioritization Prompt**|
+|Description|**Prioritization Prompt (Deprecated)**|
+|DisplayName|**Prioritization Prompt (Deprecated)**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_prioritizationprompt`|

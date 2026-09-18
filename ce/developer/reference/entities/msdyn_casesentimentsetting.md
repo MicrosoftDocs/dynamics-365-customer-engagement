@@ -74,6 +74,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [enablevoice](#BKMK_enablevoice)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_casesentimentmode](#BKMK_msdyn_casesentimentmode)
 - [msdyn_casesentimentsettingId](#BKMK_msdyn_casesentimentsettingId)
 - [msdyn_name](#BKMK_msdyn_name)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -211,6 +212,27 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`iscustomizable`|
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
+
+### <a name="BKMK_msdyn_casesentimentmode"></a> msdyn_casesentimentmode
+
+|Property|Value|
+|---|---|
+|Description|**Case Sentiment Mode**|
+|DisplayName|**Case Sentiment Mode**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_casesentimentmode`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|0|
+|GlobalChoiceName|`msdyn_casesentimentsetting_msdyn_casesentimentmode`|
+
+#### msdyn_casesentimentmode Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Automatic**|
+|1|**Manual**|
 
 ### <a name="BKMK_msdyn_casesentimentsettingId"></a> msdyn_casesentimentsettingId
 

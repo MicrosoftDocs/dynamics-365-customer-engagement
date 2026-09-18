@@ -27,7 +27,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `Disassociate`<br />Event: True |[Disassociate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Disassociate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-disassociate-method-or-disassociaterequest)|
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_customerfeedbacksurveyresponses(*msdyn_customerfeedbacksurveyresponseid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_customerfeedbacksurveyresponses<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -71,6 +70,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_response](#BKMK_msdyn_response)
 - [msdyn_response_raw](#BKMK_msdyn_response_raw)
 - [msdyn_satisfactionmetricvalue](#BKMK_msdyn_satisfactionmetricvalue)
+- [msdyn_surveyresponsestatus](#BKMK_msdyn_surveyresponsestatus)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
@@ -230,6 +230,27 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|2000|
+
+### <a name="BKMK_msdyn_surveyresponsestatus"></a> msdyn_surveyresponsestatus
+
+|Property|Value|
+|---|---|
+|Description|**Status of the survey response.**|
+|DisplayName|**Survey Response Status**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_surveyresponsestatus`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_surveyresponsestatus`|
+
+#### msdyn_surveyresponsestatus Choices/Options
+
+|Value|Label|
+|---|---|
+|357892000|**Partial**|
+|357892001|**Complete**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

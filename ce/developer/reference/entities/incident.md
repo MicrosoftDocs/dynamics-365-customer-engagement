@@ -34,7 +34,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `Merge`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Merge?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.MergeRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `msdyn_StartCaseFollowupMonitoring`<br />Event: True |**msdyn_StartCaseFollowupMonitoring action** |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /incidents(*incidentid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /incidents<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
 | `RetrievePrincipalAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
@@ -110,6 +109,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_CaseSurveyInviteUrl](#BKMK_msdyn_CaseSurveyInviteUrl)
 - [msdyn_copilotengaged](#BKMK_msdyn_copilotengaged)
 - [msdyn_iotalert](#BKMK_msdyn_iotalert)
+- [msdyn_LatestNextAction](#BKMK_msdyn_LatestNextAction)
 - [msdyn_precreateattachmentsid](#BKMK_msdyn_precreateattachmentsid)
 - [msdyn_precreatenotesid](#BKMK_msdyn_precreatenotesid)
 - [nextsla](#BKMK_nextsla)
@@ -818,6 +818,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|msdyn_iotalert|
+
+### <a name="BKMK_msdyn_LatestNextAction"></a> msdyn_LatestNextAction
+
+|Property|Value|
+|---|---|
+|Description|**Suggested next action for the given record.**|
+|DisplayName|**Next Action**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_latestnextaction`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_nextaction|
 
 ### <a name="BKMK_msdyn_precreateattachmentsid"></a> msdyn_precreateattachmentsid
 
@@ -1835,6 +1848,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_incidentbase_modifiedonbehalfby](#BKMK_lk_incidentbase_modifiedonbehalfby)
 - [manualsla_cases](#BKMK_manualsla_cases)
 - [msdyn_incident_msdyn_aiagentstatus](#BKMK_msdyn_incident_msdyn_aiagentstatus)
+- [msdyn_incident_msdyn_latestnextaction](#BKMK_msdyn_incident_msdyn_latestnextaction)
 - [msdyn_msdyn_iotalert_incident_IoTAlert](#BKMK_msdyn_msdyn_iotalert_incident_IoTAlert)
 - [owner_incidents](#BKMK_owner_incidents)
 - [processstage_incident](#BKMK_processstage_incident)
@@ -2082,6 +2096,19 @@ One-To-Many Relationship: [msdyn_aiagentstatus msdyn_incident_msdyn_aiagentstatu
 |IsHierarchical||
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_incident_msdyn_latestnextaction"></a> msdyn_incident_msdyn_latestnextaction
+
+One-To-Many Relationship: [msdyn_nextaction msdyn_incident_msdyn_latestnextaction](msdyn_nextaction.md#BKMK_msdyn_incident_msdyn_latestnextaction)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_nextaction`|
+|ReferencedAttribute|`msdyn_nextactionid`|
+|ReferencingAttribute|`msdyn_latestnextaction`|
+|ReferencingEntityNavigationPropertyName|`msdyn_latestnextaction`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_msdyn_iotalert_incident_IoTAlert"></a> msdyn_msdyn_iotalert_incident_IoTAlert
 
 One-To-Many Relationship: [msdyn_iotalert msdyn_msdyn_iotalert_incident_IoTAlert](msdyn_iotalert.md#BKMK_msdyn_msdyn_iotalert_incident_IoTAlert)
@@ -2291,6 +2318,8 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [lk_phonetocaseprocess_incidentid](#BKMK_lk_phonetocaseprocess_incidentid)
 - [msdyn_autocaseclosureagentactivity_regarding_incident](#BKMK_msdyn_autocaseclosureagentactivity_regarding_incident)
 - [msdyn_autocaseclosureagentmonitoring_regarding_incident](#BKMK_msdyn_autocaseclosureagentmonitoring_regarding_incident)
+- [msdyn_CaseCoachingResult_CaseId_Incident](#BKMK_msdyn_CaseCoachingResult_CaseId_Incident)
+- [msdyn_EmailCoachingResult_CaseId_Incident](#BKMK_msdyn_EmailCoachingResult_CaseId_Incident)
 - [msdyn_incident_feedback_context](#BKMK_msdyn_incident_feedback_context)
 - [msdyn_incident_msdyn_aicontactsuggestion_sourcerecord](#BKMK_msdyn_incident_msdyn_aicontactsuggestion_sourcerecord)
 - [msdyn_incident_msdyn_autocaseclosureagentactivity_incidentid](#BKMK_msdyn_incident_msdyn_autocaseclosureagentactivity_incidentid)
@@ -2309,6 +2338,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_incident_msdyn_suggestioninteraction_msdyn_suggestionfor](#BKMK_msdyn_incident_msdyn_suggestioninteraction_msdyn_suggestionfor)
 - [msdyn_incident_msdyn_suggestionrequestpayload](#BKMK_msdyn_incident_msdyn_suggestionrequestpayload)
 - [msdyn_intentcontexthistory_poly_incident](#BKMK_msdyn_intentcontexthistory_poly_incident)
+- [msdyn_msdyn_aiagentstatus_incident_msdyn_targetentity](#BKMK_msdyn_msdyn_aiagentstatus_incident_msdyn_targetentity)
 - [msdyn_msdyn_evaluation_incident_msdyn_RegardingObjectId](#BKMK_msdyn_msdyn_evaluation_incident_msdyn_RegardingObjectId)
 - [msdyn_nextaction_regarding_incident](#BKMK_msdyn_nextaction_regarding_incident)
 - [msdyn_readtracker_poly_incident](#BKMK_msdyn_readtracker_poly_incident)
@@ -2894,6 +2924,30 @@ Many-To-One Relationship: [msdyn_autocaseclosureagentmonitoring msdyn_autocasecl
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_CaseCoachingResult_CaseId_Incident"></a> msdyn_CaseCoachingResult_CaseId_Incident
+
+Many-To-One Relationship: [msdyn_casecoachingresult msdyn_CaseCoachingResult_CaseId_Incident](msdyn_casecoachingresult.md#BKMK_msdyn_CaseCoachingResult_CaseId_Incident)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_casecoachingresult`|
+|ReferencingAttribute|`msdyn_caseid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_CaseCoachingResult_CaseId_Incident`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_EmailCoachingResult_CaseId_Incident"></a> msdyn_EmailCoachingResult_CaseId_Incident
+
+Many-To-One Relationship: [msdyn_emailcoachingresult msdyn_EmailCoachingResult_CaseId_Incident](msdyn_emailcoachingresult.md#BKMK_msdyn_EmailCoachingResult_CaseId_Incident)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_emailcoachingresult`|
+|ReferencingAttribute|`msdyn_caseid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_EmailCoachingResult_CaseId_Incident`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_incident_feedback_context"></a> msdyn_incident_feedback_context
 
 Many-To-One Relationship: [feedback msdyn_incident_feedback_context](feedback.md#BKMK_msdyn_incident_feedback_context)
@@ -3108,6 +3162,18 @@ Many-To-One Relationship: [msdyn_intentcontexthistory msdyn_intentcontexthistory
 |ReferencingAttribute|`msdyn_relatedrecordid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_intentcontexthistory_poly_incident`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_aiagentstatus_incident_msdyn_targetentity"></a> msdyn_msdyn_aiagentstatus_incident_msdyn_targetentity
+
+Many-To-One Relationship: [msdyn_aiagentstatus msdyn_msdyn_aiagentstatus_incident_msdyn_targetentity](msdyn_aiagentstatus.md#BKMK_msdyn_msdyn_aiagentstatus_incident_msdyn_targetentity)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_aiagentstatus`|
+|ReferencingAttribute|`msdyn_targetentity`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_aiagentstatus_incident_msdyn_targetentity`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_evaluation_incident_msdyn_RegardingObjectId"></a> msdyn_msdyn_evaluation_incident_msdyn_RegardingObjectId

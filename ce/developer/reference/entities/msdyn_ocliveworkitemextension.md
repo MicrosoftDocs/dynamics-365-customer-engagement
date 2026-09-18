@@ -27,7 +27,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `Disassociate`<br />Event: True |[Disassociate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Disassociate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-disassociate-method-or-disassociaterequest)|
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_ocliveworkitemextensions(*msdyn_ocliveworkitemextensionid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_ocliveworkitemextensions<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -63,9 +62,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_EvaluationId](#BKMK_msdyn_EvaluationId)
+- [msdyn_IsCriticalQualityDipFired](#BKMK_msdyn_IsCriticalQualityDipFired)
+- [msdyn_IsCriticalSupervisorAlertFired](#BKMK_msdyn_IsCriticalSupervisorAlertFired)
+- [msdyn_lastreroute](#BKMK_msdyn_lastreroute)
+- [msdyn_LobbyEndTime](#BKMK_msdyn_LobbyEndTime)
+- [msdyn_LobbyStartTime](#BKMK_msdyn_LobbyStartTime)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_ocliveworkitemextensionId](#BKMK_msdyn_ocliveworkitemextensionId)
+- [msdyn_originalqueue](#BKMK_msdyn_originalqueue)
+- [msdyn_PredictedCSATScore](#BKMK_msdyn_PredictedCSATScore)
+- [msdyn_QualityDips](#BKMK_msdyn_QualityDips)
+- [msdyn_reroutecount](#BKMK_msdyn_reroutecount)
+- [msdyn_ReviewedCSATScore](#BKMK_msdyn_ReviewedCSATScore)
 - [msdyn_Score](#BKMK_msdyn_Score)
+- [msdyn_SupervisorQualityAlerts](#BKMK_msdyn_SupervisorQualityAlerts)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
@@ -103,6 +113,89 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|100|
 
+### <a name="BKMK_msdyn_IsCriticalQualityDipFired"></a> msdyn_IsCriticalQualityDipFired
+
+|Property|Value|
+|---|---|
+|Description|**True if at least one critical quality dip occurred in this conversation. Sticky once set. Used to highlight the quality dip alerts column in red.**|
+|DisplayName|**Is critical quality dip fired**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_iscriticalqualitydipfired`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_ocliveworkitemextension_msdyn_iscriticalqualitydipfired`|
+|DefaultValue|False|
+|True Label||
+|False Label||
+
+### <a name="BKMK_msdyn_IsCriticalSupervisorAlertFired"></a> msdyn_IsCriticalSupervisorAlertFired
+
+|Property|Value|
+|---|---|
+|Description|**True if at least one critical supervisor quality alert was fired in this conversation. Sticky once set. Used to highlight the supervisor quality alerts column in red.**|
+|DisplayName|**Is critical supervisor alert fired**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_iscriticalsupervisoralertfired`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_ocliveworkitemextension_msdyn_iscriticalsupervisoralertfired`|
+|DefaultValue|False|
+|True Label||
+|False Label||
+
+### <a name="BKMK_msdyn_lastreroute"></a> msdyn_lastreroute
+
+|Property|Value|
+|---|---|
+|Description|**Timestamp of the most recent reroute.**|
+|DisplayName|**Last Reroute**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_lastreroute`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_LobbyEndTime"></a> msdyn_LobbyEndTime
+
+|Property|Value|
+|---|---|
+|Description|**Date and time when the customer exited the lobby.**|
+|DisplayName|**Lobby End Time**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_lobbyendtime`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_LobbyStartTime"></a> msdyn_LobbyStartTime
+
+|Property|Value|
+|---|---|
+|Description|**Date and time when the customer entered the lobby.**|
+|DisplayName|**Lobby Start Time**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_lobbystarttime`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
+
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 
 |Property|Value|
@@ -132,6 +225,75 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
+### <a name="BKMK_msdyn_originalqueue"></a> msdyn_originalqueue
+
+|Property|Value|
+|---|---|
+|Description|**Initial queue assigned to the conversation.**|
+|DisplayName|**Original Queue**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_originalqueue`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|queue|
+
+### <a name="BKMK_msdyn_PredictedCSATScore"></a> msdyn_PredictedCSATScore
+
+|Property|Value|
+|---|---|
+|Description|**Predicted Customer Satisfaction Score for the associated interaction or experience**|
+|DisplayName|**Predicted Customer Satisfaction Score**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_predictedcsatscore`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|100|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_QualityDips"></a> msdyn_QualityDips
+
+|Property|Value|
+|---|---|
+|Description|**Total number of quality score dips (critical \+ warning) that occurred during a conversation.**|
+|DisplayName|**Quality dip alerts**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_qualitydips`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|1000000000|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_reroutecount"></a> msdyn_reroutecount
+
+|Property|Value|
+|---|---|
+|Description|**Number of reroutes for the conversation.**|
+|DisplayName|**Reroute Count**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_reroutecount`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_ReviewedCSATScore"></a> msdyn_ReviewedCSATScore
+
+|Property|Value|
+|---|---|
+|Description|**Reviewed Customer Satisfaction Score for the associated interaction or experience**|
+|DisplayName|**Reviewed Customer Satisfaction Score**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_reviewedcsatscore`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|100|
+|MinValue|0|
+
 ### <a name="BKMK_msdyn_Score"></a> msdyn_Score
 
 |Property|Value|
@@ -144,6 +306,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Integer|
 |MaxValue|100|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_SupervisorQualityAlerts"></a> msdyn_SupervisorQualityAlerts
+
+|Property|Value|
+|---|---|
+|Description|**Total number of supervisor quality alerts (critical \+ warning) fired for a conversation.**|
+|DisplayName|**Supervisor quality alerts**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_supervisorqualityalerts`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|1000000000|
 |MinValue|0|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -368,6 +544,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_ocliveworkitemextension_createdonbehalfby](#BKMK_lk_msdyn_ocliveworkitemextension_createdonbehalfby)
 - [lk_msdyn_ocliveworkitemextension_modifiedby](#BKMK_lk_msdyn_ocliveworkitemextension_modifiedby)
 - [lk_msdyn_ocliveworkitemextension_modifiedonbehalfby](#BKMK_lk_msdyn_ocliveworkitemextension_modifiedonbehalfby)
+- [msdyn_queue_originalqueue_msdyn_ocliveworkitemextension](#BKMK_msdyn_queue_originalqueue_msdyn_ocliveworkitemextension)
 - [organization_msdyn_ocliveworkitemextension](#BKMK_organization_msdyn_ocliveworkitemextension)
 
 ### <a name="BKMK_lk_msdyn_ocliveworkitemextension_createdby"></a> lk_msdyn_ocliveworkitemextension_createdby
@@ -421,6 +598,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_ocliveworkitemextension_modifiedo
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_queue_originalqueue_msdyn_ocliveworkitemextension"></a> msdyn_queue_originalqueue_msdyn_ocliveworkitemextension
+
+One-To-Many Relationship: [queue msdyn_queue_originalqueue_msdyn_ocliveworkitemextension](queue.md#BKMK_msdyn_queue_originalqueue_msdyn_ocliveworkitemextension)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`queue`|
+|ReferencedAttribute|`queueid`|
+|ReferencingAttribute|`msdyn_originalqueue`|
+|ReferencingEntityNavigationPropertyName|`msdyn_originalqueue_queue`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_organization_msdyn_ocliveworkitemextension"></a> organization_msdyn_ocliveworkitemextension
 

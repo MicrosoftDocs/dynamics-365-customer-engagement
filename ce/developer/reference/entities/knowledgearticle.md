@@ -58,6 +58,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [knowledgearticle_QuoteCloses](#BKMK_knowledgearticle_QuoteCloses)
 - [KnowledgeArticle_ServiceAppointments](#BKMK_KnowledgeArticle_ServiceAppointments)
 - [msdyn_copilotknowledgeinteraction_knowledgearticleid_knowledgearticle](#BKMK_msdyn_copilotknowledgeinteraction_knowledgearticleid_knowledgearticle)
+- [msdyn_intentfamilysolutionmap_knowledgearticleid_knowledgearticle](#BKMK_msdyn_intentfamilysolutionmap_knowledgearticleid_knowledgearticle)
 - [msdyn_intentsolutionmap_knowledgearticleid_knowledgearticle](#BKMK_msdyn_intentsolutionmap_knowledgearticleid_knowledgearticle)
 - [msdyn_knowledgearticle_msdyn_kbenrichment_kbid](#BKMK_msdyn_knowledgearticle_msdyn_kbenrichment_kbid)
 - [msdyn_knowledgearticle_msdyn_knowledgearticlesuggestion_suggestedentity](#BKMK_msdyn_knowledgearticle_msdyn_knowledgearticlesuggestion_suggestedentity)
@@ -252,6 +253,18 @@ Many-To-One Relationship: [msdyn_copilotknowledgeinteraction msdyn_copilotknowle
 |ReferencingEntity|`msdyn_copilotknowledgeinteraction`|
 |ReferencingAttribute|`msdyn_knowledgearticleid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_copilotknowledgeinteraction_knowledgearticleid_knowledgearticle`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_intentfamilysolutionmap_knowledgearticleid_knowledgearticle"></a> msdyn_intentfamilysolutionmap_knowledgearticleid_knowledgearticle
+
+Many-To-One Relationship: [msdyn_intentfamilysolutionmap msdyn_intentfamilysolutionmap_knowledgearticleid_knowledgearticle](msdyn_intentfamilysolutionmap.md#BKMK_msdyn_intentfamilysolutionmap_knowledgearticleid_knowledgearticle)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_intentfamilysolutionmap`|
+|ReferencingAttribute|`msdyn_rootknowledgearticleid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_intentfamilysolutionmap_knowledgearticleid_knowledgearticle`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

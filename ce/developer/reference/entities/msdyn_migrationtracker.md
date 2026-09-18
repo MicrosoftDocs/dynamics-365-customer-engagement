@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_migrationtrackers(*msdyn_migrationtrackerid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_migrationtrackers<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -157,7 +156,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_IsMigrationComplete`|
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
-|GlobalChoiceName|`msdyn_migrationtracker_IsMigrationComplete`|
+|GlobalChoiceName|`msdyn_migrationtracker_ismigrationcomplete`|
 |DefaultValue|False|
 |True Label|Success|
 |False Label|Failure|
@@ -486,7 +485,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|State|
 |DefaultFormValue||
-|GlobalChoiceName|`migrationtracker_statecode`|
+|GlobalChoiceName|`msdyn_migrationtracker_statecode`|
 
 #### statecode Choices/Options
 

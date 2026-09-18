@@ -24,6 +24,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [EmailSignature](#BKMK_EmailSignature)
 - [msdyn_assignmentinputcontractid](#BKMK_msdyn_assignmentinputcontractid)
 - [msdyn_assignmentstrategy](#BKMK_msdyn_assignmentstrategy)
+- [msdyn_channelprofileid](#BKMK_msdyn_channelprofileid)
 - [msdyn_inqueueoverflowrulesetid](#BKMK_msdyn_inqueueoverflowrulesetid)
 - [msdyn_intentfamilyid](#BKMK_msdyn_intentfamilyid)
 - [msdyn_isdefaultqueue](#BKMK_msdyn_isdefaultqueue)
@@ -87,6 +88,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350001|**Round Robin**|
 |192350002|**Custom Assignment Configuration**|
 |192350003|**Longest Idle**|
+|192350005|**No Assignment**|
+
+### <a name="BKMK_msdyn_channelprofileid"></a> msdyn_channelprofileid
+
+|Property|Value|
+|---|---|
+|Description|**Channel Profile Associated with the Queue**|
+|DisplayName|**Channel Profile Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_channelprofileid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_channelprofile|
 
 ### <a name="BKMK_msdyn_inqueueoverflowrulesetid"></a> msdyn_inqueueoverflowrulesetid
 
@@ -308,6 +323,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_queue_decisioncontractid](#BKMK_msdyn_queue_decisioncontractid)
 - [msdyn_queue_decisionrulesetId](#BKMK_msdyn_queue_decisionrulesetId)
 - [Queue_intentfamilyid_msdyn_intentfamily](#BKMK_Queue_intentfamilyid_msdyn_intentfamily)
+- [Queue_msdyn_channelprofileid_msdyn_channelprofile](#BKMK_Queue_msdyn_channelprofileid_msdyn_channelprofile)
 
 ### <a name="BKMK_msdyn_decisionruleset_queue_msdyn_inqueueoverflowrulesetid"></a> msdyn_decisionruleset_queue_msdyn_inqueueoverflowrulesetid
 
@@ -374,13 +390,30 @@ One-To-Many Relationship: [msdyn_intentfamily Queue_intentfamilyid_msdyn_intentf
 |IsHierarchical||
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_Queue_msdyn_channelprofileid_msdyn_channelprofile"></a> Queue_msdyn_channelprofileid_msdyn_channelprofile
+
+One-To-Many Relationship: [msdyn_channelprofile Queue_msdyn_channelprofileid_msdyn_channelprofile](msdyn_channelprofile.md#BKMK_Queue_msdyn_channelprofileid_msdyn_channelprofile)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_channelprofile`|
+|ReferencedAttribute|`msdyn_channelprofileid`|
+|ReferencingAttribute|`msdyn_channelprofileid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_channelprofileid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 
 ## One-to-Many relationships
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_admin_pin_msdyn_queueid_Queue](#BKMK_msdyn_admin_pin_msdyn_queueid_Queue)
+- [msdyn_conversationprofile_msdyn_defaultqueue_Queue](#BKMK_msdyn_conversationprofile_msdyn_defaultqueue_Queue)
+- [msdyn_intentfamilysolutionmap_queueid_queue](#BKMK_msdyn_intentfamilysolutionmap_queueid_queue)
 - [msdyn_intentsolutionmap_queueid_queue](#BKMK_msdyn_intentsolutionmap_queueid_queue)
 - [msdyn_liveworkstream_defaultqueue_Queue](#BKMK_msdyn_liveworkstream_defaultqueue_Queue)
+- [msdyn_personal_pin_queueid_Queue](#BKMK_msdyn_personal_pin_queueid_Queue)
 - [msdyn_queue_msdyn_assignmentconfiguration_queueid](#BKMK_msdyn_queue_msdyn_assignmentconfiguration_queueid)
 - [msdyn_queue_msdyn_liveworkstream_msdyn_bot_queue](#BKMK_msdyn_queue_msdyn_liveworkstream_msdyn_bot_queue)
 - [msdyn_queue_msdyn_liveworkstream_queueid](#BKMK_msdyn_queue_msdyn_liveworkstream_queueid)
@@ -392,10 +425,51 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_queue_msdyn_sessionparticipant_msdyn_cdsqueueid](#BKMK_msdyn_queue_msdyn_sessionparticipant_msdyn_cdsqueueid)
 - [msdyn_queue_msdyn_unifiedroutingrun_queue](#BKMK_msdyn_queue_msdyn_unifiedroutingrun_queue)
 - [msdyn_queue_ocruleitem](#BKMK_msdyn_queue_ocruleitem)
+- [msdyn_queue_originalqueue_msdyn_ocliveworkitemextension](#BKMK_msdyn_queue_originalqueue_msdyn_ocliveworkitemextension)
+- [msdyn_queueusergroupmembership_queueid_queue](#BKMK_msdyn_queueusergroupmembership_queueid_queue)
 - [queue_activitymonitor_queueid](#BKMK_queue_activitymonitor_queueid)
 - [queue_msdyn_entityId_msdyn_activeicdextension](#BKMK_queue_msdyn_entityId_msdyn_activeicdextension)
 - [queue_msdyn_entityId_msdyn_entityWorkstreamMap](#BKMK_queue_msdyn_entityId_msdyn_entityWorkstreamMap)
 - [queue_msdyn_entityId_msdyn_icdextension](#BKMK_queue_msdyn_entityId_msdyn_icdextension)
+- [queue_msdyn_queueextension_msdyn_queueid](#BKMK_queue_msdyn_queueextension_msdyn_queueid)
+- [queue_msdyn_queueextension_msdyn_sourcequeue](#BKMK_queue_msdyn_queueextension_msdyn_sourcequeue)
+- [queue_msdyn_queueextension_msdyn_targetqueue](#BKMK_queue_msdyn_queueextension_msdyn_targetqueue)
+
+### <a name="BKMK_msdyn_admin_pin_msdyn_queueid_Queue"></a> msdyn_admin_pin_msdyn_queueid_Queue
+
+Many-To-One Relationship: [msdyn_admin_pin msdyn_admin_pin_msdyn_queueid_Queue](msdyn_admin_pin.md#BKMK_msdyn_admin_pin_msdyn_queueid_Queue)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_admin_pin`|
+|ReferencingAttribute|`msdyn_queueid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_admin_pin_msdyn_queueid_Queue`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_conversationprofile_msdyn_defaultqueue_Queue"></a> msdyn_conversationprofile_msdyn_defaultqueue_Queue
+
+Many-To-One Relationship: [msdyn_conversationprofile msdyn_conversationprofile_msdyn_defaultqueue_Queue](msdyn_conversationprofile.md#BKMK_msdyn_conversationprofile_msdyn_defaultqueue_Queue)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationprofile`|
+|ReferencingAttribute|`msdyn_defaultqueue`|
+|ReferencedEntityNavigationPropertyName|`msdyn_conversationprofile_msdyn_defaultqueue_Queue`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_intentfamilysolutionmap_queueid_queue"></a> msdyn_intentfamilysolutionmap_queueid_queue
+
+Many-To-One Relationship: [msdyn_intentfamilysolutionmap msdyn_intentfamilysolutionmap_queueid_queue](msdyn_intentfamilysolutionmap.md#BKMK_msdyn_intentfamilysolutionmap_queueid_queue)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_intentfamilysolutionmap`|
+|ReferencingAttribute|`msdyn_queueid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_intentfamilysolutionmap_queueid_queue`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_intentsolutionmap_queueid_queue"></a> msdyn_intentsolutionmap_queueid_queue
 
@@ -419,6 +493,18 @@ Many-To-One Relationship: [msdyn_liveworkstream msdyn_liveworkstream_defaultqueu
 |ReferencingAttribute|`msdyn_defaultqueue`|
 |ReferencedEntityNavigationPropertyName|`msdyn_liveworkstream_defaultqueue_Queue`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_personal_pin_queueid_Queue"></a> msdyn_personal_pin_queueid_Queue
+
+Many-To-One Relationship: [msdyn_personal_pin msdyn_personal_pin_queueid_Queue](msdyn_personal_pin.md#BKMK_msdyn_personal_pin_queueid_Queue)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_personal_pin`|
+|ReferencingAttribute|`msdyn_queueid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_personal_pin_queueid_Queue`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_queue_msdyn_assignmentconfiguration_queueid"></a> msdyn_queue_msdyn_assignmentconfiguration_queueid
@@ -553,6 +639,30 @@ Many-To-One Relationship: [msdyn_ocruleitem msdyn_queue_ocruleitem](msdyn_ocrule
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_queue_originalqueue_msdyn_ocliveworkitemextension"></a> msdyn_queue_originalqueue_msdyn_ocliveworkitemextension
+
+Many-To-One Relationship: [msdyn_ocliveworkitemextension msdyn_queue_originalqueue_msdyn_ocliveworkitemextension](msdyn_ocliveworkitemextension.md#BKMK_msdyn_queue_originalqueue_msdyn_ocliveworkitemextension)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocliveworkitemextension`|
+|ReferencingAttribute|`msdyn_originalqueue`|
+|ReferencedEntityNavigationPropertyName|`msdyn_queue_originalqueue_msdyn_ocliveworkitemextension`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_queueusergroupmembership_queueid_queue"></a> msdyn_queueusergroupmembership_queueid_queue
+
+Many-To-One Relationship: [msdyn_queueusergroupmembership msdyn_queueusergroupmembership_queueid_queue](msdyn_queueusergroupmembership.md#BKMK_msdyn_queueusergroupmembership_queueid_queue)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_queueusergroupmembership`|
+|ReferencingAttribute|`msdyn_queueid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_queueusergroupmembership_queueid_queue`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_queue_activitymonitor_queueid"></a> queue_activitymonitor_queueid
 
 Many-To-One Relationship: [activitymonitor queue_activitymonitor_queueid](activitymonitor.md#BKMK_queue_activitymonitor_queueid)
@@ -599,6 +709,42 @@ Many-To-One Relationship: [msdyn_icdextension queue_msdyn_entityId_msdyn_icdexte
 |ReferencingAttribute|`msdyn_entityid`|
 |ReferencedEntityNavigationPropertyName|`queue_msdyn_entityId_msdyn_icdextension`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_queue_msdyn_queueextension_msdyn_queueid"></a> queue_msdyn_queueextension_msdyn_queueid
+
+Many-To-One Relationship: [msdyn_queueextension queue_msdyn_queueextension_msdyn_queueid](msdyn_queueextension.md#BKMK_queue_msdyn_queueextension_msdyn_queueid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_queueextension`|
+|ReferencingAttribute|`msdyn_queueid`|
+|ReferencedEntityNavigationPropertyName|`queue_msdyn_queueextension_msdyn_queueid`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_queue_msdyn_queueextension_msdyn_sourcequeue"></a> queue_msdyn_queueextension_msdyn_sourcequeue
+
+Many-To-One Relationship: [msdyn_queueextension queue_msdyn_queueextension_msdyn_sourcequeue](msdyn_queueextension.md#BKMK_queue_msdyn_queueextension_msdyn_sourcequeue)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_queueextension`|
+|ReferencingAttribute|`msdyn_sourcequeue`|
+|ReferencedEntityNavigationPropertyName|`queue_msdyn_queueextension_msdyn_sourcequeue`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_queue_msdyn_queueextension_msdyn_targetqueue"></a> queue_msdyn_queueextension_msdyn_targetqueue
+
+Many-To-One Relationship: [msdyn_queueextension queue_msdyn_queueextension_msdyn_targetqueue](msdyn_queueextension.md#BKMK_queue_msdyn_queueextension_msdyn_targetqueue)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_queueextension`|
+|ReferencingAttribute|`msdyn_targetqueue`|
+|ReferencedEntityNavigationPropertyName|`queue_msdyn_queueextension_msdyn_targetqueue`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 

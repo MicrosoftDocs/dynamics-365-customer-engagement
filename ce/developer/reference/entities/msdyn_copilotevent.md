@@ -116,6 +116,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350002|**Quality Evaluation Agent**|
 |192350003|**Case Processing Agent**|
 |192350004|**Customer Engagement Agent**|
+|192350005|**Case Enrichment Onboarding Agent**|
 
 ### <a name="BKMK_msdyn_clienttimestamp"></a> msdyn_clienttimestamp
 
@@ -243,6 +244,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100230326|**CheckSources**|
 |100230327|**TemplateInstantiation**|
 |100230328|**AboutThisSuggestion**|
+|100230329|**Custom**|
+|100230330|**SuggestionShown**|
+|100230331|**Translate**|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
@@ -321,6 +325,14 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100230323|**Case Follow Up**|
 |100230324|**Case Closure**|
 |100230325|**Workload**|
+|100230326|**Custom**|
+|100230327|**Governance agent guardrail execution**|
+|100230328|**Case Enrichment Onboarding**|
+|100230329|**Email Classification**|
+|100230330|**Email Assist Plugin Invocation**|
+|100230331|**Email Coaching**|
+|100230332|**Case Coaching**|
+|100230333|**Email Sentiment**|
 
 ### <a name="BKMK_msdyn_verbatim"></a> msdyn_verbatim
 

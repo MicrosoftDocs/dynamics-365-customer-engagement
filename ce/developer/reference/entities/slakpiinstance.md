@@ -34,6 +34,7 @@ Changes from [Regarding (Microsoft Dataverse)](/power-apps/developer/data-platfo
 
 These relationships are many-to-one. Listed by **SchemaName**.
 
+- [msdyn_aiagentstatus_SLAKPIInstances](#BKMK_msdyn_aiagentstatus_SLAKPIInstances)
 - [slakpiinstance_incident](#BKMK_slakpiinstance_incident)
 - [slakpiinstance_invoice](#BKMK_slakpiinstance_invoice)
 - [slakpiinstance_lead](#BKMK_slakpiinstance_lead)
@@ -41,6 +42,19 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [slakpiinstance_quote](#BKMK_slakpiinstance_quote)
 - [slakpiinstance_salesorder](#BKMK_slakpiinstance_salesorder)
 - [slakpiinstance_serviceappointment](#BKMK_slakpiinstance_serviceappointment)
+
+### <a name="BKMK_msdyn_aiagentstatus_SLAKPIInstances"></a> msdyn_aiagentstatus_SLAKPIInstances
+
+One-To-Many Relationship: [msdyn_aiagentstatus msdyn_aiagentstatus_SLAKPIInstances](msdyn_aiagentstatus.md#BKMK_msdyn_aiagentstatus_SLAKPIInstances)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_aiagentstatus`|
+|ReferencedAttribute|`msdyn_aiagentstatusid`|
+|ReferencingAttribute|`regarding`|
+|ReferencingEntityNavigationPropertyName|`regarding_msdyn_aiagentstatus`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_slakpiinstance_incident"></a> slakpiinstance_incident
 
@@ -138,8 +152,21 @@ One-To-Many Relationship: [serviceappointment slakpiinstance_serviceappointment]
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_slakpiinstance_msdyn_aiagentstatus_agentresolutiontimekpi](#BKMK_msdyn_slakpiinstance_msdyn_aiagentstatus_agentresolutiontimekpi)
 - [slakpiinstance_incident_firstresponsebykpi](#BKMK_slakpiinstance_incident_firstresponsebykpi)
 - [slakpiinstance_incident_resolvebykpi](#BKMK_slakpiinstance_incident_resolvebykpi)
+
+### <a name="BKMK_msdyn_slakpiinstance_msdyn_aiagentstatus_agentresolutiontimekpi"></a> msdyn_slakpiinstance_msdyn_aiagentstatus_agentresolutiontimekpi
+
+Many-To-One Relationship: [msdyn_aiagentstatus msdyn_slakpiinstance_msdyn_aiagentstatus_agentresolutiontimekpi](msdyn_aiagentstatus.md#BKMK_msdyn_slakpiinstance_msdyn_aiagentstatus_agentresolutiontimekpi)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_aiagentstatus`|
+|ReferencingAttribute|`msdyn_agentresolutiontimekpi`|
+|ReferencedEntityNavigationPropertyName|`msdyn_slakpiinstance_msdyn_aiagentstatus_agentresolutiontimekpi`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_slakpiinstance_incident_firstresponsebykpi"></a> slakpiinstance_incident_firstresponsebykpi
 

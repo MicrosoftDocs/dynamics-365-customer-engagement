@@ -16,15 +16,6 @@ Holds information about the redemption of an invite.
 > The Microsoft Dynamics 365 Invite Redemption (adx_inviteredemption) table extends the [Microsoft Dataverse Invite Redemption (adx_inviteredemption) table](/power-apps/developer/data-platform/reference/entities/adx_inviteredemption).
 
 
-## Messages
-
-The following table lists the messages for the Invite Redemption (adx_inviteredemption) table.
-Messages represent operations that can be performed on the table. They may also be events.
-
-| Name <br />Is Event? |Web API Operation |SDK for .NET |
-| ---- | ----- |----- |
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-
 
 ## Writable columns/attributes
 
@@ -92,7 +83,7 @@ Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/dat
 
 |Property|Value|
 |---|---|
-|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, service, site|
+|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_emailthread, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, service, site|
 
 
 ### <a name="BKMK_RequiredAttendees"></a> RequiredAttendees
@@ -121,6 +112,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [invoice_adx_inviteredemptions](#BKMK_invoice_adx_inviteredemptions)
 - [lead_adx_inviteredemptions](#BKMK_lead_adx_inviteredemptions)
 - [msdyn_customerasset_adx_inviteredemptions](#BKMK_msdyn_customerasset_adx_inviteredemptions)
+- [msdyn_emailthread_adx_inviteredemptions](#BKMK_msdyn_emailthread_adx_inviteredemptions)
 - [msdyn_postalbum_adx_inviteredemptions](#BKMK_msdyn_postalbum_adx_inviteredemptions)
 - [msdyn_salessuggestion_adx_inviteredemptions](#BKMK_msdyn_salessuggestion_adx_inviteredemptions)
 - [msdyn_swarm_adx_inviteredemptions](#BKMK_msdyn_swarm_adx_inviteredemptions)
@@ -296,6 +288,19 @@ One-To-Many Relationship: [msdyn_customerasset msdyn_customerasset_adx_invitered
 |ReferencedAttribute|`msdyn_customerassetid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_customerasset_adx_inviteredemption`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_emailthread_adx_inviteredemptions"></a> msdyn_emailthread_adx_inviteredemptions
+
+One-To-Many Relationship: [msdyn_emailthread msdyn_emailthread_adx_inviteredemptions](msdyn_emailthread.md#BKMK_msdyn_emailthread_adx_inviteredemptions)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_emailthread`|
+|ReferencedAttribute|`msdyn_emailthreadid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_emailthread_adx_inviteredemption`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

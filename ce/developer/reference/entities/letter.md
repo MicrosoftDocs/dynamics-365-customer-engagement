@@ -43,6 +43,7 @@ Microsoft Dynamics 365 modifies the definition of columns/attributes defined in 
 - [cc](#BKMK_cc)
 - [from](#BKMK_from)
 - [RegardingObjectId](#BKMK_RegardingObjectId)
+- [related](#BKMK_related)
 - [to](#BKMK_to)
 
 ### <a name="BKMK_bcc"></a> bcc
@@ -78,7 +79,16 @@ Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/dat
 
 |Property|Value|
 |---|---|
-|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, site|
+|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_emailthread, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, site|
+
+
+### <a name="BKMK_related"></a> related
+
+Changes from [related (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/letter#BKMK_related)
+
+|Property|Value|
+|---|---|
+|Targets|campaign, campaignactivity, contract, entitlement, incident, invoice, opportunity, quote, salesorder|
 
 
 ### <a name="BKMK_to"></a> to
@@ -106,6 +116,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [Invoice_Letters](#BKMK_Invoice_Letters)
 - [Lead_Letters](#BKMK_Lead_Letters)
 - [msdyn_customerasset_Letters](#BKMK_msdyn_customerasset_Letters)
+- [msdyn_emailthread_Letters](#BKMK_msdyn_emailthread_Letters)
 - [msdyn_postalbum_Letters](#BKMK_msdyn_postalbum_Letters)
 - [msdyn_salessuggestion_Letters](#BKMK_msdyn_salessuggestion_Letters)
 - [msdyn_swarm_Letters](#BKMK_msdyn_swarm_Letters)
@@ -268,6 +279,19 @@ One-To-Many Relationship: [msdyn_customerasset msdyn_customerasset_Letters](msdy
 |ReferencedAttribute|`msdyn_customerassetid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_customerasset_letter`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_emailthread_Letters"></a> msdyn_emailthread_Letters
+
+One-To-Many Relationship: [msdyn_emailthread msdyn_emailthread_Letters](msdyn_emailthread.md#BKMK_msdyn_emailthread_Letters)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_emailthread`|
+|ReferencedAttribute|`msdyn_emailthreadid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_emailthread_letter`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

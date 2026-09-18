@@ -62,6 +62,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_consultagentfilterconfig](#BKMK_msdyn_consultagentfilterconfig)
+- [msdyn_consultqueuefilterconfig](#BKMK_msdyn_consultqueuefilterconfig)
 - [msdyn_consulttoqueuemessagingtimeoutvalue](#BKMK_msdyn_consulttoqueuemessagingtimeoutvalue)
 - [msdyn_consulttoqueuevoicetimeoutvalue](#BKMK_msdyn_consulttoqueuevoicetimeoutvalue)
 - [msdyn_defaultAgentInputLanguage](#BKMK_msdyn_defaultAgentInputLanguage)
@@ -69,6 +71,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_dnd_presence_lookup](#BKMK_msdyn_dnd_presence_lookup)
 - [msdyn_enable_advance_entity_routing](#BKMK_msdyn_enable_advance_entity_routing)
 - [msdyn_enable_agent_reject_notifications](#BKMK_msdyn_enable_agent_reject_notifications)
+- [msdyn_enable_conversation_orchestration](#BKMK_msdyn_enable_conversation_orchestration)
 - [msdyn_enable_missed_notifications](#BKMK_msdyn_enable_missed_notifications)
 - [msdyn_enable_new_consult_exp](#BKMK_msdyn_enable_new_consult_exp)
 - [msdyn_enable_preferred_agent_routing](#BKMK_msdyn_enable_preferred_agent_routing)
@@ -84,21 +87,31 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_enablesoundnotifications](#BKMK_msdyn_enablesoundnotifications)
 - [msdyn_encryptmaskedmessages](#BKMK_msdyn_encryptmaskedmessages)
 - [msdyn_inactive_presence_lookup](#BKMK_msdyn_inactive_presence_lookup)
+- [msdyn_isconsultagentfilterenabled](#BKMK_msdyn_isconsultagentfilterenabled)
 - [msdyn_isconsultcapacityblocking](#BKMK_msdyn_isconsultcapacityblocking)
+- [msdyn_isconsultqueuefilterenabled](#BKMK_msdyn_isconsultqueuefilterenabled)
 - [msdyn_isconsulttoagentenabled](#BKMK_msdyn_isconsulttoagentenabled)
 - [msdyn_isconsulttoagentenabledformessaging](#BKMK_msdyn_isconsulttoagentenabledformessaging)
 - [msdyn_isconsulttoagentenabledforvoice](#BKMK_msdyn_isconsulttoagentenabledforvoice)
 - [msdyn_isconsulttoqueueenabled](#BKMK_msdyn_isconsulttoqueueenabled)
 - [msdyn_isconsulttoqueueenabledformessaging](#BKMK_msdyn_isconsulttoqueueenabledformessaging)
 - [msdyn_isconsulttoqueueenabledforvoice](#BKMK_msdyn_isconsulttoqueueenabledforvoice)
+- [msdyn_isconsultwithaiagentenabled](#BKMK_msdyn_isconsultwithaiagentenabled)
 - [msdyn_isdefaultpersonamapped](#BKMK_msdyn_isdefaultpersonamapped)
+- [msdyn_isnextpresenceenabled](#BKMK_msdyn_isnextpresenceenabled)
 - [msdyn_ispersonalizationofsoundenabled](#BKMK_msdyn_ispersonalizationofsoundenabled)
 - [msdyn_isPersonalMessagesEnabled](#BKMK_msdyn_isPersonalMessagesEnabled)
 - [msdyn_ispersonasecurityrolemappingenabled](#BKMK_msdyn_ispersonasecurityrolemappingenabled)
+- [msdyn_isrerouteenabled](#BKMK_msdyn_isrerouteenabled)
+- [msdyn_issetowneridfromqueueoninitenabled](#BKMK_msdyn_issetowneridfromqueueoninitenabled)
 - [msdyn_IsSkillBasedRoutingEnabled](#BKMK_msdyn_IsSkillBasedRoutingEnabled)
+- [msdyn_isteampresencesyncenabled](#BKMK_msdyn_isteampresencesyncenabled)
+- [msdyn_istransferagentfilterenabled](#BKMK_msdyn_istransferagentfilterenabled)
+- [msdyn_istransferqueuefilterenabled](#BKMK_msdyn_istransferqueuefilterenabled)
 - [msdyn_istransfertoagentenabled](#BKMK_msdyn_istransfertoagentenabled)
 - [msdyn_istransfertoagentenabledformessaging](#BKMK_msdyn_istransfertoagentenabledformessaging)
 - [msdyn_istransfertoagentenabledforvoice](#BKMK_msdyn_istransfertoagentenabledforvoice)
+- [msdyn_istransfertoqueueawtdisplayenabled](#BKMK_msdyn_istransfertoqueueawtdisplayenabled)
 - [msdyn_istransfertoqueueenabled](#BKMK_msdyn_istransfertoqueueenabled)
 - [msdyn_istransfertoqueueenabledformessaging](#BKMK_msdyn_istransfertoqueueenabledformessaging)
 - [msdyn_istransfertoqueueenabledforvoice](#BKMK_msdyn_istransfertoqueueenabledforvoice)
@@ -113,8 +126,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_omnichannelconfigurationId](#BKMK_msdyn_omnichannelconfigurationId)
 - [msdyn_preferredagentbackupmode](#BKMK_msdyn_preferredagentbackupmode)
 - [msdyn_publickeyurl](#BKMK_msdyn_publickeyurl)
+- [msdyn_removeskillsonreroute](#BKMK_msdyn_removeskillsonreroute)
+- [msdyn_shouldhonourwrapupduringtransfer](#BKMK_msdyn_shouldhonourwrapupduringtransfer)
 - [msdyn_SoundFormControl](#BKMK_msdyn_SoundFormControl)
 - [msdyn_timeoutrulecsroverride](#BKMK_msdyn_timeoutrulecsroverride)
+- [msdyn_transferagentfilterconfig](#BKMK_msdyn_transferagentfilterconfig)
+- [msdyn_transferqueuefilterconfig](#BKMK_msdyn_transferqueuefilterconfig)
 - [msdyn_translationwebresourceurl](#BKMK_msdyn_translationwebresourceurl)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
@@ -148,6 +165,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
 
+### <a name="BKMK_msdyn_consultagentfilterconfig"></a> msdyn_consultagentfilterconfig
+
+|Property|Value|
+|---|---|
+|Description|**consult agent filter config**|
+|DisplayName|**consult agent filter config**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_consultagentfilterconfig`|
+|RequiredLevel|None|
+|Type|String|
+|Format|TextArea|
+|FormatName|TextArea|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|4000|
+
+### <a name="BKMK_msdyn_consultqueuefilterconfig"></a> msdyn_consultqueuefilterconfig
+
+|Property|Value|
+|---|---|
+|Description|**consult queue filter config**|
+|DisplayName|**consult queue filter config**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_consultqueuefilterconfig`|
+|RequiredLevel|None|
+|Type|String|
+|Format|TextArea|
+|FormatName|TextArea|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|4000|
+
 ### <a name="BKMK_msdyn_consulttoqueuemessagingtimeoutvalue"></a> msdyn_consulttoqueuemessagingtimeoutvalue
 
 |Property|Value|
@@ -157,10 +208,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_consulttoqueuemessagingtimeoutvalue`|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 |Type|Integer|
 |MaxValue|86400|
-|MinValue|30|
+|MinValue|0|
 
 ### <a name="BKMK_msdyn_consulttoqueuevoicetimeoutvalue"></a> msdyn_consulttoqueuevoicetimeoutvalue
 
@@ -171,10 +222,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_consulttoqueuevoicetimeoutvalue`|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 |Type|Integer|
 |MaxValue|86400|
-|MinValue|30|
+|MinValue|0|
 
 ### <a name="BKMK_msdyn_defaultAgentInputLanguage"></a> msdyn_defaultAgentInputLanguage
 
@@ -296,6 +347,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_omnichannelconfiguration_msdyn_enable_agent_reject_notifications`|
+|DefaultValue|True|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_enable_conversation_orchestration"></a> msdyn_enable_conversation_orchestration
+
+|Property|Value|
+|---|---|
+|Description|**Setting to enable/disable conversation orchestration for an organization.**|
+|DisplayName|**Enable Conversation Orchestration**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enable_conversation_orchestration`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_omnichannelconfiguration_msdyn_enable_conversation_orchestration`|
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
@@ -312,7 +379,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_omnichannelconfiguration_msdyn_enable_missed_notifications`|
-|DefaultValue|False|
+|DefaultValue|True|
 |True Label|Yes|
 |False Label|No|
 
@@ -537,6 +604,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Lookup|
 |Targets|msdyn_presence|
 
+### <a name="BKMK_msdyn_isconsultagentfilterenabled"></a> msdyn_isconsultagentfilterenabled
+
+|Property|Value|
+|---|---|
+|Description|**consult agent filter**|
+|DisplayName|**consult agent filter**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isconsultagentfilterenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_msdyn_omnichannelconfiguration_msdyn_isconsultagentfilterenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_isconsultcapacityblocking"></a> msdyn_isconsultcapacityblocking
 
 |Property|Value|
@@ -549,6 +632,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_omnichannelconfiguration_msdyn_isconsultcapacityblocking`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_isconsultqueuefilterenabled"></a> msdyn_isconsultqueuefilterenabled
+
+|Property|Value|
+|---|---|
+|Description|**consult queue filter**|
+|DisplayName|**consult queue filter**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isconsultqueuefilterenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_msdyn_omnichannelconfiguration_msdyn_isconsultqueuefilterenabled`|
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
@@ -637,6 +736,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxValue|1|
 |MinValue|0|
 
+### <a name="BKMK_msdyn_isconsultwithaiagentenabled"></a> msdyn_isconsultwithaiagentenabled
+
+|Property|Value|
+|---|---|
+|Description|**Setting to enable/disable consult with AI agent**|
+|DisplayName|**Is consult with AI agent enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isconsultwithaiagentenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_omnichannelconfiguration_msdyn_isconsultwithaiagentenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_isdefaultpersonamapped"></a> msdyn_isdefaultpersonamapped
 
 |Property|Value|
@@ -652,6 +767,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_isnextpresenceenabled"></a> msdyn_isnextpresenceenabled
+
+|Property|Value|
+|---|---|
+|Description|**Enable or disable next presence feature for the organization**|
+|DisplayName|**Is Next Presence Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isnextpresenceenabled`|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
+|MaxValue|1|
+|MinValue|0|
 
 ### <a name="BKMK_msdyn_ispersonalizationofsoundenabled"></a> msdyn_ispersonalizationofsoundenabled
 
@@ -701,6 +830,38 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Yes|
 |False Label|No|
 
+### <a name="BKMK_msdyn_isrerouteenabled"></a> msdyn_isrerouteenabled
+
+|Property|Value|
+|---|---|
+|Description|**Allow agents to reroute conversations to another queue.**|
+|DisplayName|**Enable Reroute**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isrerouteenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_omnichannelconfiguration_msdyn_isrerouteenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_issetowneridfromqueueoninitenabled"></a> msdyn_issetowneridfromqueueoninitenabled
+
+|Property|Value|
+|---|---|
+|Description|**Setting to enable/disable setting owner ID from queue on init**|
+|DisplayName|**Is set owner ID from queue on init enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_issetowneridfromqueueoninitenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_omnichannelconfiguration_msdyn_issetowneridfromqueueoninitenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_IsSkillBasedRoutingEnabled"></a> msdyn_IsSkillBasedRoutingEnabled
 
 |Property|Value|
@@ -713,6 +874,52 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_omnichannelconfiguration_msdyn_isskillbasedroutingenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_isteampresencesyncenabled"></a> msdyn_isteampresencesyncenabled
+
+|Property|Value|
+|---|---|
+|Description|**Enable or disable team presence sync feature for the organization**|
+|DisplayName|**Is Team Presence Sync Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isteampresencesyncenabled`|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
+|MaxValue|1|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_istransferagentfilterenabled"></a> msdyn_istransferagentfilterenabled
+
+|Property|Value|
+|---|---|
+|Description|**transfer agent filter**|
+|DisplayName|**transfer agent filter**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_istransferagentfilterenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_msdyn_omnichannelconfiguration_msdyn_istransferagentfilterenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_istransferqueuefilterenabled"></a> msdyn_istransferqueuefilterenabled
+
+|Property|Value|
+|---|---|
+|Description|**transfer queue filter**|
+|DisplayName|**transfer queue filter**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_istransferqueuefilterenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_msdyn_omnichannelconfiguration_msdyn_istransferqueuefilterenabled`|
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
@@ -758,6 +965,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|1|
 |MinValue|0|
+
+### <a name="BKMK_msdyn_istransfertoqueueawtdisplayenabled"></a> msdyn_istransfertoqueueawtdisplayenabled
+
+|Property|Value|
+|---|---|
+|Description|**Setting to enable/disable AWT display for transfer to queue**|
+|DisplayName|**Is transfer to queue AWT display enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_istransfertoqueueawtdisplayenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_omnichannelconfiguration_msdyn_istransfertoqueueawtdisplayenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_istransfertoqueueenabled"></a> msdyn_istransfertoqueueenabled
 
@@ -976,6 +1199,38 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|100|
 
+### <a name="BKMK_msdyn_removeskillsonreroute"></a> msdyn_removeskillsonreroute
+
+|Property|Value|
+|---|---|
+|Description|**Remove the agent skills that no longer apply when a conversation is rerouted.**|
+|DisplayName|**Remove skills on reroute**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_removeskillsonreroute`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_omnichannelconfiguration_msdyn_removeskillsonreroute`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_shouldhonourwrapupduringtransfer"></a> msdyn_shouldhonourwrapupduringtransfer
+
+|Property|Value|
+|---|---|
+|Description|**Setting to indicate if WrapUp should be honoured during transfer**|
+|DisplayName|**Should honour wrapup during transfer**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_shouldhonourwrapupduringtransfer`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_omnichannelconfiguration_msdyn_shouldhonourwrapupduringtransfer`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_SoundFormControl"></a> msdyn_SoundFormControl
 
 |Property|Value|
@@ -1008,6 +1263,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|True|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_transferagentfilterconfig"></a> msdyn_transferagentfilterconfig
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**transfer agent filter config**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_transferagentfilterconfig`|
+|RequiredLevel|None|
+|Type|String|
+|Format|TextArea|
+|FormatName|TextArea|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|4000|
+
+### <a name="BKMK_msdyn_transferqueuefilterconfig"></a> msdyn_transferqueuefilterconfig
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**transfer queue filter config**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_transferqueuefilterconfig`|
+|RequiredLevel|None|
+|Type|String|
+|Format|TextArea|
+|FormatName|TextArea|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|4000|
 
 ### <a name="BKMK_msdyn_translationwebresourceurl"></a> msdyn_translationwebresourceurl
 

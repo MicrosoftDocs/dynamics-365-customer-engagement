@@ -65,7 +65,7 @@ Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/dat
 
 |Property|Value|
 |---|---|
-|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, service, site|
+|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_emailthread, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, service, site|
 
 
 ### <a name="BKMK_RequiredAttendees"></a> RequiredAttendees
@@ -93,6 +93,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [invoice_chats](#BKMK_invoice_chats)
 - [lead_chats](#BKMK_lead_chats)
 - [msdyn_customerasset_chats](#BKMK_msdyn_customerasset_chats)
+- [msdyn_emailthread_chats](#BKMK_msdyn_emailthread_chats)
 - [msdyn_postalbum_chats](#BKMK_msdyn_postalbum_chats)
 - [msdyn_salessuggestion_chats](#BKMK_msdyn_salessuggestion_chats)
 - [msdyn_swarm_chats](#BKMK_msdyn_swarm_chats)
@@ -255,6 +256,19 @@ One-To-Many Relationship: [msdyn_customerasset msdyn_customerasset_chats](msdyn_
 |ReferencedAttribute|`msdyn_customerassetid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_customerasset_chat`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_emailthread_chats"></a> msdyn_emailthread_chats
+
+One-To-Many Relationship: [msdyn_emailthread msdyn_emailthread_chats](msdyn_emailthread.md#BKMK_msdyn_emailthread_chats)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_emailthread`|
+|ReferencedAttribute|`msdyn_emailthreadid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_emailthread_chat`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

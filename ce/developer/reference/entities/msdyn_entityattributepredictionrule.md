@@ -276,6 +276,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |0|Label: **Active**<br />DefaultStatus: 1<br />InvariantName: `Active`|
 |1|Label: **Inactive**<br />DefaultStatus: 2<br />InvariantName: `Inactive`|
+|2|Label: **Shadow**<br />DefaultStatus: 3<br />InvariantName: `Shadow`|
 
 ### <a name="BKMK_statuscode"></a> statuscode
 
@@ -297,6 +298,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |1|Label: **Active**<br />State:0<br />TransitionData: None|
 |2|Label: **Inactive**<br />State:1<br />TransitionData: None|
+|3|Label: **Shadow**<br />State:2<br />TransitionData: None|
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 

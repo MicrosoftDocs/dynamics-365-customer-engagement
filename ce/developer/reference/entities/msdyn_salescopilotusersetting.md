@@ -25,7 +25,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `Delete`<br />Event: True |`DELETE` /msdyn_salescopilotusersettings(*msdyn_salescopilotusersettingid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete) |[Delete records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-delete)|
 | `Disassociate`<br />Event: True |[Disassociate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Disassociate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-disassociate-method-or-disassociaterequest)|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_salescopilotusersettings(*msdyn_salescopilotusersettingid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_salescopilotusersettings<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -58,7 +57,11 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_connectionname](#BKMK_msdyn_connectionname)
+- [msdyn_dataenrichmentautorunstatus](#BKMK_msdyn_dataenrichmentautorunstatus)
+- [msdyn_enrichmentskillconfig](#BKMK_msdyn_enrichmentskillconfig)
+- [msdyn_enrichmentskillconsentgiven](#BKMK_msdyn_enrichmentskillconsentgiven)
 - [msdyn_exchangeconsentgiven](#BKMK_msdyn_exchangeconsentgiven)
+- [msdyn_graphdataconsentgiven](#BKMK_msdyn_graphdataconsentgiven)
 - [msdyn_m365infradetails](#BKMK_msdyn_m365infradetails)
 - [msdyn_m365skillconsentgiven](#BKMK_msdyn_m365skillconsentgiven)
 - [msdyn_m365skillinfrastatus](#BKMK_msdyn_m365skillinfrastatus)
@@ -69,6 +72,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_nbaskillinfrastatuslastverifiedon](#BKMK_msdyn_nbaskillinfrastatuslastverifiedon)
 - [msdyn_salescopilotusersettingId](#BKMK_msdyn_salescopilotusersettingId)
 - [msdyn_userid](#BKMK_msdyn_userid)
+- [msdyn_userPreferences](#BKMK_msdyn_userPreferences)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
@@ -106,6 +110,68 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|10000|
 
+### <a name="BKMK_msdyn_dataenrichmentautorunstatus"></a> msdyn_dataenrichmentautorunstatus
+
+|Property|Value|
+|---|---|
+|Description|**Data Enrichment Agent seller enrollment lifecycle and opt-out authority.**|
+|DisplayName|**Data Enrichment Agent Auto Run Status**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_dataenrichmentautorunstatus`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|0|
+|GlobalChoiceName|`msdyn_salescopilotusersetting_msdyn_dataenrichmentautorunstatus`|
+
+#### msdyn_dataenrichmentautorunstatus Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**None**|
+|1|**Auto Enrolled**|
+|2|**Manually Enrolled**|
+|3|**Opted Out By Seller**|
+
+### <a name="BKMK_msdyn_enrichmentskillconfig"></a> msdyn_enrichmentskillconfig
+
+|Property|Value|
+|---|---|
+|Description|**JSON configuration for Enrichment Skill including Power Automate connection name and flow ID**|
+|DisplayName|**Enrichment Skill Configuration**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enrichmentskillconfig`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|10000|
+
+### <a name="BKMK_msdyn_enrichmentskillconsentgiven"></a> msdyn_enrichmentskillconsentgiven
+
+|Property|Value|
+|---|---|
+|Description|**Graph Data Consent Given For Data Quality Agent**|
+|DisplayName|**Enrichment Skill Consent Given**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enrichmentskillconsentgiven`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|0|
+|GlobalChoiceName|`msdyn_salescopilotusersetting_msdyn_enrichmentskillconsentgiven`|
+
+#### msdyn_enrichmentskillconsentgiven Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**None**|
+|1|**Yes**|
+|2|**No**|
+
 ### <a name="BKMK_msdyn_exchangeconsentgiven"></a> msdyn_exchangeconsentgiven
 
 |Property|Value|
@@ -127,6 +193,29 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |0|**None**|
 |1|**Yes**|
 |2|**No**|
+
+### <a name="BKMK_msdyn_graphdataconsentgiven"></a> msdyn_graphdataconsentgiven
+
+|Property|Value|
+|---|---|
+|Description|**Graph Data Consent Given For Data Quality Agent**|
+|DisplayName|**Graph Data Consent Given**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_graphdataconsentgiven`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|0|
+|GlobalChoiceName|`msdyn_salescopilotusersetting_msdyn_graphdataconsentgiven`|
+
+#### msdyn_graphdataconsentgiven Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**None**|
+|1|**Email Enabled**|
+|2|**Consent Revoked**|
+|3|**Email and Meetings Enabled**|
 
 ### <a name="BKMK_msdyn_m365infradetails"></a> msdyn_m365infradetails
 
@@ -312,6 +401,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|200|
+
+### <a name="BKMK_msdyn_userPreferences"></a> msdyn_userPreferences
+
+|Property|Value|
+|---|---|
+|Description|**Stores user preferences**|
+|DisplayName|**User Preferences**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_userpreferences`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|10000|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
