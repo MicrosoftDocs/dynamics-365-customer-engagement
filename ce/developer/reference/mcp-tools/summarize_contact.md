@@ -1,5 +1,5 @@
 ---
-title: Summarize a contact
+title: Contact summary
 description: Learn how to summarize a contact in Dynamics 365 Customer Service.
 ms.date: 09/02/2026
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.author: dleblond
 ms.reviewer: laalexan
 ---
 
-# Summarize a contact
+# Contact summary
 
 **Applies to:** Dynamics 365 Customer Service
 

@@ -103,7 +103,7 @@ Opens the admin UI for managing third-party MCP tool server registrations. Admin
 
 | Input | Description | Required |
 |---|---|---|
-| `open`, `list` | `open` (default) or `list`. `open` renders the interactive registration management widget. `list` returns a text summary of currently registered MCP servers. | No |
+| `open`, `list` | `open` (default) or `list`. Both return the registration management widget; the value records the requested interaction intent. | No |
 
 ### Organization URL
 
@@ -119,9 +119,11 @@ This MCP tool is supported by an MCP app.
 
 ### Response type
 
-Interactive widget (action `open`) or text summary (action `list`)
+Interactive registration management widget
 
-When action is `open`, the widget displays the full registration management interface where administrators can browse, add, edit, test, and delete MCP server registrations. When action is `list`, the tool returns a text-only summary of registered servers.
+For both actions, the widget displays the registration management interface where
+administrators can browse, add, edit, test, and delete MCP server registrations.
+The `action` value remains an intent hint in the response.
 
 ## Routing notes
 

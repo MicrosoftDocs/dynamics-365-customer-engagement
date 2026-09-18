@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # List entity records
 
-**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales
+**Applies to:** Dynamics 365 Customer Service and Dynamics 365 Sales
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
@@ -74,7 +74,7 @@ From the record list in chat, you can:
 
 ## Prerequisites
 
-This tool is available on the Dynamics 365 Customer Service MCP server. See the availability note at the top of this page for details. No additional configuration is required.
+This tool is available for the products listed in the Applies to line at the top of this page. No additional configuration is required.
 
 ## Tool summary
 
