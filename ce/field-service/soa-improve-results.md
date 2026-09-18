@@ -1,11 +1,14 @@
 ---
 title: Improve Scheduling Operations Agent results (preview)
 description: Learn how to troubleshoot and improve the optimization results of the Scheduling Operations Agent for Dynamics 365 Field Service.
-ms.date: 06/30/2026
+ms.date: 09/03/2026
 ms.topic: best-practice
 ms.collection: bap-ai-copilot
 ms.author: anclear
 author: andrewclear-ms
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 06/30/2026
 ai-usage: ai-assisted
 ---
 
@@ -74,26 +77,27 @@ Large or mixed optimizations are slower, harder to interpret, and more likely to
 The agent treats existing bookings the same as unfulfilled requirements, which might lead to unexpected results. For example, if a dispatcher asks the agent for a suggested schedule at 10:00 AM, the agent might suggest replacing the 10:20 AM booking with higher-priority work. The following suggestions can help you avoid these issues:
 
 - Use a custom time range and set it to start an hour or two from the current time.
-
+- Use the [Prefer Existing Bookings objective](soa-goals.md#objectives) in a custom goal to give higher weight to existing bookings.
 - For bookings that you want to persist, apply a booking status that has an optimization method of **Do Not Move**. Learn more in [Select an optimization method for booking statuses](soa-setup.md#select-an-optimization-method-for-booking-statuses).
-
-- Create a requirement view that contains no requirements and choose that view in the agent settings. The agent suggests a schedule that only optimizes the order of existing bookings. This approach is especially helpful if you want to optimize only the travel route for the day. However, keep in mind that the agent can still remove bookings that don't match other settings or for which the promised time window is expired.
+- Use [Booking-level restrictions](soa-booking-level-restrictions.md) to set specific rules on an existing booking.
 
 ## Eligible bookings
 
 The agent needs eligible bookable resource bookings and unfulfilled resource requirements to suggest a schedule. It also needs requirements with locations that aren't too far apart. For example, it doesn't return results if the resource is based in New York but bookings and requirements are in Miami.
 
-Bookings that have an optimization method of **Do Not Move** and occur outside of working hours or require travel outside of working hours are ineligible to be included in a suggested schedule.
+### Bookings the agent can't move
 
-### Bookings with optimization method set to Do Not Move
+Some bookings are effectively fixed in place, so the agent can't reschedule them. A booking can be fixed for either of the following reasons:
 
-Bookings that have an optimization method of **Do Not Move**, or that don't have an optimization method set can present a challenge for the agent. If an optimization method isn't set for booking statuses, the agent treats the bookings as **Do Not Move** by default. In either case, the agent can't move these bookings, which can lead to the following issues:
+- The optimization method on the booking's status is **Do Not Move**, or no optimization method is set. If an optimization method isn't set for a booking status, the agent treats those bookings as **Do Not Move** by default.
 
-- If the schedule includes overlapping bookings, the agent can't suggest a better schedule.
+- The booking's **Optimization behavior** field is set to **Do not move**. This booking-level setting overrides the behavior implied by the booking's status. When **Optimization behavior** is **Do not move**, the restriction is effectively **Resource + Arrival time**, so the agent doesn't change the assigned resource or the arrival time.
 
-- If one or more bookings overlap the resource's breaks or off-work periods, the agent can't suggest a better schedule. It always tries to accommodate all travel and booking-related work within the resource's working hours. It also tries to allow time for the resource to drive from the location of the last booking of the day back to the resource's [end location](set-up-bookable-resources.md#create-other-bookable-resources).
+A booking's **Restrict to** setting, such as **Resource** or **Arrival time**, can also limit how the agent moves a specific booking, even when the booking is otherwise optimizable.
 
-To avoid these issues, select an optimization method for all booking statuses. Learn more in [Select an optimization method for booking statuses](soa-setup.md#select-an-optimization-method-for-booking-statuses) and [Time range](soa-interactive-optimizations.md#time-range).
+The agent always enforces **Do not move** restrictions. If there are too many constraints, the agent might not find a feasible schedule, which can result in overlapping bookings or other constraint violations.
+
+To avoid these issues, select an optimization method for all booking statuses. Then check individual bookings for a booking-level **Optimization behavior** of **Do not move** or a **Restrict to** value that prevents the move. Learn more in [Select an optimization method for booking statuses](soa-setup.md#select-an-optimization-method-for-booking-statuses),  [Booking-level restrictions](soa-booking-level-restrictions.md), and [Time range](soa-interactive-optimizations.md#time-range).
 
 ### Set priority values and optimization method
 
@@ -103,3 +107,5 @@ If the agent doesn't pick up requirements or bookings at all, make sure that pri
 
 - [Scheduling Operations Agent limits and troubleshooting (preview)](soa-limits.md)
 - [Scheduling Operations Agent FAQ (preview)](faqs-soa.md)
+
+[!INCLUDE [footer-banner](../includes/footer-banner.md)]

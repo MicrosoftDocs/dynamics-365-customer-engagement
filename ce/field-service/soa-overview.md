@@ -1,11 +1,14 @@
 ---
 title: Scheduling Operations Agent overview (preview)
 description: Discover how the Scheduling Operations Agent optimizes one or more technicians' schedules with interactive or batch runs in Dynamics 365 Field Service.
-ms.date: 06/25/2026
+ms.date: 09/03/2026
 ms.topic: overview
 ms.collection: bap-ai-copilot
 ms.author: anclear
 author: andrewclear-ms
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 06/25/2026
 ai-usage: ai-assisted
 ---
 
@@ -13,7 +16,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-The Scheduling Operations Agent in Dynamics 365 Field Service optimizes the schedules of one or more technicians at the same time. Dispatchers spend much of their day on the schedule board adjusting technician schedules manually, and these adjustments get harder to make as the number of technicians grows. Dispatchers often face the following challenges:
+The Scheduling Operations Agent in Dynamics 365 Field Service optimizes the schedules of one or more technicians at the same time. Dispatchers spend much of their day adjusting technician schedules manually, both to react to changes during the day and to plan work across a growing team. These adjustments get harder to make as the number of technicians grows. The agent helps in situations like the following:
 
 - A technician has one or more same-day cancellations. The dispatcher needs to choose work to fill the open slots - ideally, according to the promised time, the priority, and with optimized travel time for the technician, meaning the work is near other bookings.
 
@@ -21,9 +24,11 @@ The Scheduling Operations Agent in Dynamics 365 Field Service optimizes the sche
 
 - The work that's assigned is out of date and has bookings that are low in priority. The dispatcher needs to update the technician's schedule to front-load higher-priority work that emerged recently.
 
-- A technician recovered from illness sooner than expected and is available again. The dispatcher wants to quickly fill the technician's schedule with work orders.
+- A backlog of unscheduled work orders needs to be assigned across a team. The dispatcher wants the agent to schedule the open requirements to eligible technicians in a single run.
 
-- A team of technicians has an uneven workload. The dispatcher needs to balance the bookings across several technicians at once while minimizing travel time.
+- A technician's bookings for the day are set, but the driving route between them isn't efficient. The dispatcher wants to reorder the existing bookings to reduce travel time.
+
+- Schedules across a region drift out of date as new work arrives and conditions change. The dispatcher wants the agent to rebalance the next several days automatically on a recurring schedule, rather than reoptimizing by hand each day.
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
@@ -31,19 +36,19 @@ The Scheduling Operations Agent in Dynamics 365 Field Service optimizes the sche
 
 The Scheduling Operations Agent supports two ways to optimize schedules:
 
-- **Interactive optimizations** let a dispatcher select one or more resources from the schedule board, a resource list, or Copilot, and then review a suggested schedule before applying it. Use interactive optimizations for in-the-moment adjustments to one or more technicians' schedules. Learn more in [Run interactive optimizations (preview)](soa-interactive-optimizations.md).
+- **Interactive optimizations** let a dispatcher select up to five resources from the schedule board, a resource list, or Copilot, and then review a suggested schedule before applying it. Use interactive optimizations for in-the-moment adjustments during the day. Learn more in [Run interactive optimizations (preview)](soa-interactive-optimizations.md).
 
-- **Batch optimizations** run larger, asynchronous optimizations across a defined set of resources, requirements, and bookings. You configure the work to optimize by using a [scope](soa-scopes.md), a [goal](soa-goals.md), and a [plan](soa-plans.md). You can review results before you apply them or apply them automatically. Learn more in [Run batch optimizations (preview)](soa-batch-optimizations.md).
+- **Batch optimizations** run larger, asynchronous optimizations across a defined set of resources, requirements, and bookings. You configure the work to optimize by using a [scope](soa-scopes.md), a [goal](soa-goals.md), and a [plan](soa-plans.md). You can run a plan on demand or on a recurring schedule. Review the results before applying them, or configure the plan to apply them automatically. Learn more in [Run batch optimizations (preview)](soa-batch-optimizations.md).
 
 ## How the agent works
 
 Whichever way you run an optimization, the agent works from the same building blocks:
 
-- A [goal](soa-goals.md) tells the agent what to optimize for. It combines *objectives*, which describe the trade-offs the agent makes, such as completing more high-priority work or reducing travel time, with *constraints*, which determine whether a resource is eligible for a requirement, such as required characteristics or territories.
+- A [goal](soa-goals.md) tells the agent what to optimize for. It combines *objectives*, which describe the trade-offs the agent makes, such as completing more high-priority work or reducing travel time, with *constraints*, which determine whether a resource is eligible for a requirement, such as required characteristics or territories. Use a built-in goal or create a custom goal.
 
-- The agent evaluates the resources you choose, the unfulfilled requirements that match your criteria, and the existing bookings that it's allowed to change.
+- The agent evaluates the resources you choose, the unfulfilled requirements that match your criteria, and the existing bookings that it's allowed to change. Each booking status has an optimization method that controls whether the agent can move, ignore, or preserve a booking.
 
-- The agent generates a suggested schedule that you review and apply, so a person is always in control of the changes. The agent never moves bookings that are marked **Do Not Move**, and it respects each technician's working hours and breaks.
+- The agent generates a suggested schedule. You can review the suggestion before you apply it or, for a batch optimization, have the agent apply it automatically. The agent never moves bookings that are marked **Do Not Move**, and it respects each technician's working hours and breaks.
 
 ## Regional availability and rollout
 

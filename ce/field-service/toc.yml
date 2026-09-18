@@ -167,6 +167,8 @@ items:
               href: soa-interactive-optimizations.md
             - name: Batch optimizations
               href: soa-batch-optimizations.md
+            - name: Booking-level restrictions
+              href: soa-booking-level-restrictions.md
             - name: Improve optimization results
               href: soa-improve-results.md
             - name: Limits and troubleshooting
