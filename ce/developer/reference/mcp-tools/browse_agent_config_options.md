@@ -14,13 +14,13 @@ ms.reviewer: laalexan
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
-Use this capability when you want to explore what you can configure in the agent and understand the available customization options for grids, forms, timelines, picklists, resolution strategies, tool visibility, external MCP tool servers, Copilot Studio agents, and cross-namespace tool grants.
+Use this capability when you want to explore what you can configure in the agent and understand the available customization options for grids, forms, timelines, picklists, resolution strategies, tool visibility, external MCP tool servers, Copilot Studio agents, cross-namespace tool grants, and—when service vocabulary administration is enabled and the vocabulary tool is available to the agent—the service vocabulary (glossary terms and synonyms).
 
 ## What it does
 
 The assistant provides an interactive, text-based guide to agent configuration. It presents a navigable tree of configuration categories—you can browse top-level categories, drill into specific areas (such as case grid layout or timeline settings), and search for specific options by keyword.
 
-The guide covers both organization-wide settings (applied to all users) and Application Profile-scoped settings (applied to specific user groups). Alongside the layout categories, it also surfaces the agent's extensibility and tooling options—tool visibility, external (third-party) MCP tool server registration, Copilot Studio agent registration, and cross-namespace tool grants—so every maker-configurable area is discoverable from one place. At any level, you can ask for before-and-after examples to see what a configuration change looks like in practice.
+The guide covers both organization-wide settings (applied to all users) and Application Profile-scoped settings (applied to specific user groups). Alongside the layout categories, it also surfaces the agent's extensibility and tooling options—tool visibility, external (third-party) MCP tool server registration, Copilot Studio agent registration, and cross-namespace tool grants—so every maker-configurable area available to your agent is discoverable from one place. When service vocabulary administration is enabled and the vocabulary tool is part of the agent's toolset—typically Customer Service agents, or any agent granted the Service toolset through a cross-namespace grant—the service vocabulary (glossary terms and synonyms) also appears; it is omitted when that tool isn't available to the agent or the capability is turned off, so the guide only lists what the current agent can actually configure. At any level, you can ask for before-and-after examples to see what a configuration change looks like in practice.
 
 ## Try prompts like
 
@@ -36,6 +36,7 @@ The guide covers both organization-wide settings (applied to all users) and Appl
 - Manage external MCP registrations.
 - Manage Copilot Studio agent registrations.
 - What other agent toolsets can I add.
+- Manage the service vocabulary. *(Available when the service vocabulary tool is part of the agent's toolset.)*
 
 ## What you'll see in chat
 
@@ -82,7 +83,7 @@ This tool is available on the Dynamics 365 Customer Service MCP server. See the 
 
 ## Tool behavior
 
-Guides a maker through agent configuration options through an interactive, multi-turn navigable tree. Covers grids, forms, timelines, picklists, lookups, and resolution strategies, plus the agent's extensibility surfaces—tool visibility, external MCP tool servers, Copilot Studio agents, and cross-namespace tool grants. Returns hierarchical menus that the user can drill into, with before/after examples at each level. The primary entry point for configuration discovery.
+Guides a maker through agent configuration options through an interactive, multi-turn navigable tree. Covers grids, forms, timelines, picklists, lookups, and resolution strategies, plus the agent's extensibility surfaces—tool visibility, external MCP tool servers, Copilot Studio agents, and cross-namespace tool grants. When service vocabulary administration is enabled and the vocabulary tool is available to the agent—typically Customer Service agents, or any agent granted the Service toolset through a cross-namespace grant—it also covers the service vocabulary (glossary terms and synonyms); that entry is omitted when that tool isn't available to the agent or the capability is turned off. Returns hierarchical menus that the user can drill into, with before/after examples at each level. The primary entry point for configuration discovery.
 
 ## Annotations
 
@@ -99,7 +100,7 @@ Guides a maker through agent configuration options through an interactive, multi
 
 | Input | Description | Required |
 |---|---|---|
-| `path` | `path` (string, optional). Dot-delimited path to jump to any level of the configuration tree (for example, `grid.incident`, `form`, `timeline.incident`, `tool-selection`, `mcp-registration`, `copilot-studio`, `cross-namespace-grant`). Omit or pass empty for the root menu. | No |
+| `path` | `path` (string, optional). Dot-delimited path to jump to any level of the configuration tree (for example, `grid.incident`, `form`, `timeline.incident`, `tool-selection`, `mcp-registration`, `copilot-studio`, `cross-namespace-grant`, and—when the service vocabulary tool is available to the agent—`service-vocabulary`). The `service-vocabulary` path resolves only when that capability is available for the current agent; otherwise it returns an "Unknown category" result. Omit or pass empty for the root menu. | No |
 
 ### Examples toggle
 

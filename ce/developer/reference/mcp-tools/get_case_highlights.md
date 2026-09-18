@@ -1,7 +1,7 @@
 ---
 title: Case highlights
 description: Learn how to review recent case highlights, activity counts, and triage signals in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+ms.date: 09/10/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=service
 ms.service: dynamics-365-customer-service
@@ -102,7 +102,7 @@ Returns a comprehensive activity digest and triage signals for a case over a con
 
 | Input | Description | Required |
 |---|---|---|
-| `since` | `since` (ISO 8601 timestamp). Marks the lower bound of the activity window. Defaults to 7 days ago if omitted. Use for "since yesterday", "since last week", "since my last visit" questions. | No |
+| `since` | Lower bound as an ISO 8601 date (`2026-09-10`), a date-time with an explicit time zone (`2026-09-10T14:30:00Z` or `2026-09-10T14:30:00-07:00`), or a relative number of days from 1 to 4 digits (`7d`). Defaults to `7d` if omitted. The assistant resolves phrases such as "yesterday", "last week", and "since my last visit" to one of these forms before calling the tool. | No |
 
 ### Activity type filter
 

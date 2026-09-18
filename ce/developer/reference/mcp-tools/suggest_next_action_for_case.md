@@ -70,16 +70,16 @@ Viewing the suggestions doesn't change any records. If you select an action (lik
 From the next-best-action panel, you can:
 
 - Review the AI-suggested action steps.
-- Select an action to execute (reply to customer, resolve case, escalate).
+- Select an eligible action, such as replying, updating, closing, reassigning, adding a note, or creating an activity.
 - Preview a draft reply before sending.
-- Provide feedback on suggestions using thumbs-up or thumbs-down.
+- Provide feedback on suggestions using thumbs-down.
 - Hand off to an email draft or case close workflow.
 
 ## Prerequisites
 
 This tool requires the following:
 
-- Customer Intent Agent to be enabled. Without Customer Intent Agent, the msdyn_GetIntentNextAction API returns no suggestions. A pay-as-you-go plan is also required.
+- Customer Intent Agent must be enabled, and a pay-as-you-go plan is required.
 
 Learn more in [Manage Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent).
 
@@ -93,7 +93,7 @@ Learn more in [Manage Customer Intent Agent](/dynamics365/contact-center/adminis
 
 ## Tool behavior
 
-Identifies customer intent and returns AI-suggested next-best-action steps for an open case. Uses full case context including case fields and activity history to generate actionable recommendations through the `msdyn_GetIntentNextAction` API. Returned actions can include replying to the customer, resolving the case, escalating, or other context-specific steps.
+Identifies customer intent and returns AI-suggested next-best-action steps for an open case. It sends case fields, activity history, and the eligible registered action catalog to the direct `GetEntityActionPlanV2` service. Returned actions are validated against that request-scoped catalog before the app displays an executable control.
 
 ## Annotations
 
@@ -110,13 +110,7 @@ Identifies customer intent and returns AI-suggested next-best-action steps for a
 
 | Input | Description | Required |
 |---|---|---|
-| `caseId` | `caseId` (required). The Dataverse incidentid (GUID) of the open case. The case must be open for meaningful suggestions. | Yes |
-
-### Conversation context
-
-| Input | Description | Required |
-|---|---|---|
-| `conversationId` | `conversationId` (optional). Active conversation ID used for linking the suggestion to an ongoing session. | No |
+| `caseId` | `caseId` (required). The Dataverse incident ID (GUID) or case number (for example, `CAS-01193-X1G0G5`) of the open case. The case must be open for meaningful suggestions. | Yes |
 
 ### Language
 

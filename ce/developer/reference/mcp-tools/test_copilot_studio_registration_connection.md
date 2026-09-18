@@ -20,7 +20,11 @@ This capability works behind the scenes when you test connectivity to a Copilot 
 
 When you select **Test Connection** in the Copilot Studio agent registration form, this tool verifies that the Service Agent can reach the selected bot. It performs a three-stage check: fetching the bot's identity and metadata from Dataverse, resolving the Power Platform environment, and verifying reachability through the Agents SDK.
 
-If the connection succeeds, the tool returns the bot's metadata snapshot including its display name, description, instructions, schema name, and environment ID. This metadata is used to populate the registration form. If the connection fails, the tool returns a staged error indicating exactly which step failed (for example, bot not found, bot inactive, environment not resolved, or SDK unreachable).
+If the connection succeeds, the tool returns the bot identity, schema name, resolved
+environment ID, a read-only description preview, fetch timestamp, and reachability result.
+This data populates the registration form. If the connection fails, the tool returns a
+staged error indicating which step failed (for example, bot not found, bot inactive,
+environment not resolved, or SDK unreachable).
 
 ## Try prompts like
 
@@ -28,7 +32,10 @@ Not applicable. This tool is called automatically when you test a connection fro
 
 ## What you'll see in chat
 
-The registration widget shows the test result inline. On success, you see the bot's metadata pre-filled in the registration form, including its display name, schema name, and a read-only view of the bot's description and instructions. On failure, you see a specific error message describing which stage of the connection test failed.
+The registration widget shows the test result inline. On success, you see the bot identity
+pre-filled and a read-only preview of the Dataverse description. The registration
+description remains a separate maker-authored field. On failure, you see a specific error
+message describing which stage of the connection test failed.
 
 ## Helpful tips
 
@@ -66,11 +73,15 @@ Learn more in [Extend Copilot with Copilot Studio](/dynamics365/customer-service
 |---|---|
 | User-facing name | Test MCS agent connection |
 | Internal tool name | `test_copilot_studio_registration_connection` |
-| Purpose | Fetches a Copilot Studio bot's identity, description, and instructions from Dataverse and verifies reachability through the Agents SDK |
+| Purpose | Fetches a Copilot Studio bot's identity and read-only description preview, resolves its environment, and verifies reachability through the Agents SDK |
 
 ## Tool behavior
 
-Fetches a Copilot Studio bot's identity, description, and instructions from Dataverse and verifies reachability through the Agents SDK. Returns the metadata snapshot that `save_copilot_studio_registration` persists. This is a widget support tool invoked automatically from the registration management widget.
+Fetches a Copilot Studio bot's identity and a read-only description preview from Dataverse,
+resolves the Power Platform environment, and verifies reachability through the Agents SDK.
+The preview isn't persisted as the registration description; the maker authors that field
+separately. This is a widget support tool invoked automatically from the registration
+management widget.
 
 ## Annotations
 
@@ -109,7 +120,8 @@ This MCP tool is supported by an MCP app.
 
 Widget update with connection test results
 
-Returns the bot's metadata snapshot (name, description, instructions, schema name) and connection status. The widget displays success or a classified error.
+Returns bot identity, schema name, environment ID, a read-only description preview,
+`fetchedAt`, and reachability status. The widget displays success or a classified error.
 
 ## Routing notes
 
@@ -120,7 +132,7 @@ This tool is exclusively called by the `manage_copilot_studio_registration` widg
 | Tool | Relationship |
 |---|---|
 | [`manage_copilot_studio_registration`](manage_copilot_studio_registration.md) | The launcher tool that opens the registration widget |
-| [`save_copilot_studio_registration`](save_copilot_studio_registration.md) | Saves the registration with the tested metadata |
+| [`save_copilot_studio_registration`](save_copilot_studio_registration.md) | Saves the registration with maker-authored description and input configuration |
 | [`list_copilot_studio_registration_bots`](list_copilot_studio_registration_bots.md) | Lists available bots for the bot picker |
 | [`delete_registration`](delete_registration.md) | Removes an agent registration when `type` is `"mcs"` |
 
