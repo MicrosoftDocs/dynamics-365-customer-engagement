@@ -1,11 +1,14 @@
 ---
 title: Goals and objectives in the Scheduling Operations Agent (preview)
 description: Learn how goals, objectives, and constraints shape the schedules that the Scheduling Operations Agent suggests in Dynamics 365 Field Service.
-ms.date: 06/30/2026
+ms.date: 09/03/2026
 ms.topic: concept-article
 ms.collection: bap-ai-copilot
 ms.author: anclear
 author: andrewclear-ms
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 06/30/2026
 ai-usage: ai-assisted
 ---
 
@@ -73,6 +76,7 @@ These constraints are always enforced and can't be turned off:
 | Restricted resources | Resources that are marked as restricted for a requirement are never matched to it. A restriction takes precedence over a preference for the same resource, and it can have an expiration date. |
 | Must choose from | When a requirement specifies resources to choose from, only those resources are eligible, and they must still meet all other constraints. If none of them can be matched, the requirement isn't scheduled. |
 | Resource types | The resource must be one of the resource types that the requirement specifies. When the requirement doesn't specify a type, any resource type is eligible. |
+| Requirement dependencies | The agent always enforces the order of two requirements that have a defined dependency. |
 
 ## Create a goal
 
