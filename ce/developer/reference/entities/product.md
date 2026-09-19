@@ -393,8 +393,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Contains the id of the process associated with the entity.**|
-|DisplayName|**Process Id**|
+|Description|**Shows the ID of the process.**|
+|DisplayName|**Process**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`processid`|
@@ -877,7 +877,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Date and time when the record was created.**|
+|Description|**Date and time when the product was created.**|
 |DisplayName|**Created On**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -1028,7 +1028,7 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Date and time when the record was modified.**|
+|Description|**Date and time when the product was last modified.**|
 |DisplayName|**Modified On**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -1058,8 +1058,8 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Unique identifier for the organization**|
-|DisplayName|**Organization Id**|
+|Description|**Unique identifier of the organization associated with the product.**|
+|DisplayName|**Organization**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`organizationid`|

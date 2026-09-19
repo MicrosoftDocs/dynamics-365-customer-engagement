@@ -29,8 +29,8 @@ Messages represent operations that can be performed on the table. They may also 
 | `GrantAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+| `msdyn_retryevaluation`<br />Event: False |**msdyn_retryevaluation action** |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_evaluations(*msdyn_evaluationid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_evaluations<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -72,6 +72,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_AgentEndDate](#BKMK_msdyn_AgentEndDate)
 - [msdyn_AgentResponseJson](#BKMK_msdyn_AgentResponseJson)
 - [msdyn_CreateType](#BKMK_msdyn_CreateType)
+- [msdyn_CriticalQuestionStatus](#BKMK_msdyn_CriticalQuestionStatus)
+- [msdyn_ErrorCode](#BKMK_msdyn_ErrorCode)
 - [msdyn_ErrorDetails](#BKMK_msdyn_ErrorDetails)
 - [msdyn_EvaluationCriteria](#BKMK_msdyn_EvaluationCriteria)
 - [msdyn_EvaluationCriteriaParentVersion](#BKMK_msdyn_EvaluationCriteriaParentVersion)
@@ -81,8 +83,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_EvaluationId](#BKMK_msdyn_EvaluationId)
 - [msdyn_EvaluationMethod](#BKMK_msdyn_EvaluationMethod)
 - [msdyn_EvaluationPlan](#BKMK_msdyn_EvaluationPlan)
+- [msdyn_EvaluationPlanRun](#BKMK_msdyn_EvaluationPlanRun)
 - [msdyn_EvaluatorCompletionDate](#BKMK_msdyn_EvaluatorCompletionDate)
 - [msdyn_EvaluatorDueDate](#BKMK_msdyn_EvaluatorDueDate)
+- [msdyn_IsEvaluationEdited](#BKMK_msdyn_IsEvaluationEdited)
+- [msdyn_KnowledgeArticleJson](#BKMK_msdyn_KnowledgeArticleJson)
+- [msdyn_LastSummaryGeneratedOn](#BKMK_msdyn_LastSummaryGeneratedOn)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_QualityAgentStatus](#BKMK_msdyn_QualityAgentStatus)
 - [msdyn_RegardingObjectId](#BKMK_msdyn_RegardingObjectId)
@@ -92,10 +98,11 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_Relatedrecordtype](#BKMK_msdyn_Relatedrecordtype)
 - [msdyn_RequestedBy](#BKMK_msdyn_RequestedBy)
 - [msdyn_ResponseJson](#BKMK_msdyn_ResponseJson)
-- [msdyn_Schema](#BKMK_msdyn_Schema)
+- [msdyn_RetryCount](#BKMK_msdyn_RetryCount)
 - [msdyn_Score](#BKMK_msdyn_Score)
 - [msdyn_ScoreJson](#BKMK_msdyn_ScoreJson)
 - [msdyn_ScoringEnabledOnCreation](#BKMK_msdyn_ScoringEnabledOnCreation)
+- [msdyn_SummaryGenerationStatus](#BKMK_msdyn_SummaryGenerationStatus)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -191,6 +198,63 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350001|**RealTime**|
 |192350002|**BulkEvaluation**|
 |192350003|**OnTrigger**|
+
+### <a name="BKMK_msdyn_CriticalQuestionStatus"></a> msdyn_CriticalQuestionStatus
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether critical questions passed, failed, or are not applicable**|
+|DisplayName|**Critical Question Status**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_criticalquestionstatus`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_evaluation_msdyn_criticalquestionstatus`|
+
+#### msdyn_CriticalQuestionStatus Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Fail**|
+|1|**Pass**|
+
+### <a name="BKMK_msdyn_ErrorCode"></a> msdyn_ErrorCode
+
+|Property|Value|
+|---|---|
+|Description|**HTTP-status x counter encoded error code captured on evaluation failure**|
+|DisplayName|**Error Code**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_errorcode`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_evaluation_msdyn_errorcode`|
+
+#### msdyn_ErrorCode Choices/Options
+
+|Value|Label|
+|---|---|
+|400031|**Input configuration incorrect.**|
+|403000|**Authentication issue, missing privileges.**|
+|404013|**No transcript record found.**|
+|404014|**Transcript not found.**|
+|404015|**Transcript content is empty.**|
+|404016|**No usable transcript messages.**|
+|410000|**Evaluation expired, please ensure the expiration date is valid.**|
+|424000|**Agent not published, please contact your system administrator.**|
+|429000|**Too many requests, please try again later.**|
+|500000|**Unknown Error**|
+|500001|**AI response could not be processed.**|
+|500012|**Invoking evaluation failed.**|
+|500024|**Score parsing failed.**|
+|500030|**Failed to fetch source record.**|
+|500031|**Failed to fetch evaluation criteria.**|
+|500032|**Failed to save evaluation result.**|
+|503000|**Flow disabled / suspended, please contact your system admin.**|
 
 ### <a name="BKMK_msdyn_ErrorDetails"></a> msdyn_ErrorDetails
 
@@ -319,13 +383,26 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**EvaluationPlan**|
+|DisplayName|**Evaluation plan**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_evaluationplan`|
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|msdyn_evaluationplan|
+
+### <a name="BKMK_msdyn_EvaluationPlanRun"></a> msdyn_EvaluationPlanRun
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Evaluation plan run**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_evaluationplanrun`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_evaluationplanrun|
 
 ### <a name="BKMK_msdyn_EvaluatorCompletionDate"></a> msdyn_EvaluatorCompletionDate
 
@@ -358,6 +435,56 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |CanChangeDateTimeBehavior|True|
 |DateTimeBehavior|UserLocal|
 |Format|DateOnly|
+|ImeMode|Auto|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_IsEvaluationEdited"></a> msdyn_IsEvaluationEdited
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether the evaluation submission has been overridden.**|
+|DisplayName|**Submission Overridden**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isevaluationedited`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_evaluation_msdyn_isevaluationedited`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_KnowledgeArticleJson"></a> msdyn_KnowledgeArticleJson
+
+|Property|Value|
+|---|---|
+|Description|**JSON blob of the knowledge article metadata.**|
+|DisplayName|**Knowledge Article Json**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_knowledgearticlejson`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048575|
+
+### <a name="BKMK_msdyn_LastSummaryGeneratedOn"></a> msdyn_LastSummaryGeneratedOn
+
+|Property|Value|
+|---|---|
+|Description|**Timestamp when the evaluation summary was last generated or updated. Null for older evaluations or before the first summary is created.**|
+|DisplayName|**Last Summary Generated On**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_lastsummarygeneratedon`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|True|
+|DateTimeBehavior||
+|Format|DateAndTime|
 |ImeMode|Auto|
 |SourceTypeMask|0|
 
@@ -414,7 +541,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_regardingobjectid`|
 |RequiredLevel|None|
 |Type|Lookup|
-|Targets|incident, msdyn_ocliveworkitem|
+|Targets|email, incident, msdyn_ocliveworkitem, systemuser|
 
 ### <a name="BKMK_msdyn_RegardingObjectIdType"></a> msdyn_RegardingObjectIdType
 
@@ -473,6 +600,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |0|**Case**|
 |1|**Conversation**|
+|2|**Email**|
+|3|**User**|
 
 ### <a name="BKMK_msdyn_RequestedBy"></a> msdyn_RequestedBy
 
@@ -504,22 +633,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|1048575|
 
-### <a name="BKMK_msdyn_Schema"></a> msdyn_Schema
+### <a name="BKMK_msdyn_RetryCount"></a> msdyn_RetryCount
 
 |Property|Value|
 |---|---|
-|Description|**Schema version to track which entity structure is used for evaluation data storage**|
-|DisplayName|**Schema**|
+|Description|**Number of times this evaluation has been retried via the UI.**|
+|DisplayName|**Retry count**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|`msdyn_schema`|
+|LogicalName|`msdyn_retrycount`|
 |RequiredLevel|None|
-|Type|String|
-|Format|Text|
-|FormatName|Text|
-|ImeMode|Auto|
-|IsLocalizable|False|
-|MaxLength|100|
+|Type|Integer|
+|MaxValue|100|
+|MinValue|0|
 
 ### <a name="BKMK_msdyn_Score"></a> msdyn_Score
 
@@ -572,6 +698,28 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |0|**No**|
 |1|**Yes**|
+
+### <a name="BKMK_msdyn_SummaryGenerationStatus"></a> msdyn_SummaryGenerationStatus
+
+|Property|Value|
+|---|---|
+|Description|**Tracks lifecycle of summary regeneration. Values: NULL(default), Completed, Error, Inprogress. Set by plugin and used for side-panel status.**|
+|DisplayName|**Summary Generation Status**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_summarygenerationstatus`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_evaluation_msdyn_summarygenerationstatus`|
+
+#### msdyn_SummaryGenerationStatus Choices/Options
+
+|Value|Label|
+|---|---|
+|700610000|**Completed**|
+|700610001|**Error**|
+|700610002|**In progress**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
@@ -892,11 +1040,14 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_evaluation_EvaluationCriteria_msdyn_evaluationcriteria](#BKMK_msdyn_evaluation_EvaluationCriteria_msdyn_evaluationcriteria)
 - [msdyn_evaluation_EvaluationExtension_msdyn_evaluationextension](#BKMK_msdyn_evaluation_EvaluationExtension_msdyn_evaluationextension)
 - [msdyn_evaluation_EvaluationPlan_msdyn_evaluationplan](#BKMK_msdyn_evaluation_EvaluationPlan_msdyn_evaluationplan)
+- [msdyn_evaluation_EvaluationPlanRun_msdyn_evaluationplanrun](#BKMK_msdyn_evaluation_EvaluationPlanRun_msdyn_evaluationplanrun)
 - [msdyn_evaluation_RequestedBy_systemuser](#BKMK_msdyn_evaluation_RequestedBy_systemuser)
 - [msdyn_evaluation_systemuser_msdyn_RegardingObjectOwner](#BKMK_msdyn_evaluation_systemuser_msdyn_RegardingObjectOwner)
 - [msdyn_evaluation_team_msdyn_RegardingObjectOwner](#BKMK_msdyn_evaluation_team_msdyn_RegardingObjectOwner)
+- [msdyn_msdyn_evaluation_email_msdyn_RegardingObjectId](#BKMK_msdyn_msdyn_evaluation_email_msdyn_RegardingObjectId)
 - [msdyn_msdyn_evaluation_incident_msdyn_RegardingObjectId](#BKMK_msdyn_msdyn_evaluation_incident_msdyn_RegardingObjectId)
 - [msdyn_msdyn_evaluation_msdyn_ocliveworkitem_msdyn_RegardingObjectId](#BKMK_msdyn_msdyn_evaluation_msdyn_ocliveworkitem_msdyn_RegardingObjectId)
+- [msdyn_msdyn_evaluation_systemuser_msdyn_RegardingObjectId](#BKMK_msdyn_msdyn_evaluation_systemuser_msdyn_RegardingObjectId)
 - [owner_msdyn_evaluation](#BKMK_owner_msdyn_evaluation)
 - [team_msdyn_evaluation](#BKMK_team_msdyn_evaluation)
 - [user_msdyn_evaluation](#BKMK_user_msdyn_evaluation)
@@ -1005,6 +1156,19 @@ One-To-Many Relationship: [msdyn_evaluationplan msdyn_evaluation_EvaluationPlan_
 |IsHierarchical||
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_evaluation_EvaluationPlanRun_msdyn_evaluationplanrun"></a> msdyn_evaluation_EvaluationPlanRun_msdyn_evaluationplanrun
+
+One-To-Many Relationship: [msdyn_evaluationplanrun msdyn_evaluation_EvaluationPlanRun_msdyn_evaluationplanrun](msdyn_evaluationplanrun.md#BKMK_msdyn_evaluation_EvaluationPlanRun_msdyn_evaluationplanrun)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_evaluationplanrun`|
+|ReferencedAttribute|`msdyn_evaluationplanrunid`|
+|ReferencingAttribute|`msdyn_evaluationplanrun`|
+|ReferencingEntityNavigationPropertyName|`msdyn_EvaluationPlanRun`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_evaluation_RequestedBy_systemuser"></a> msdyn_evaluation_RequestedBy_systemuser
 
 One-To-Many Relationship: [systemuser msdyn_evaluation_RequestedBy_systemuser](systemuser.md#BKMK_msdyn_evaluation_RequestedBy_systemuser)
@@ -1044,6 +1208,19 @@ One-To-Many Relationship: [team msdyn_evaluation_team_msdyn_RegardingObjectOwner
 |IsHierarchical||
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_msdyn_evaluation_email_msdyn_RegardingObjectId"></a> msdyn_msdyn_evaluation_email_msdyn_RegardingObjectId
+
+One-To-Many Relationship: [email msdyn_msdyn_evaluation_email_msdyn_RegardingObjectId](email.md#BKMK_msdyn_msdyn_evaluation_email_msdyn_RegardingObjectId)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`email`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`msdyn_regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_RegardingObjectId_email`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Cascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
 ### <a name="BKMK_msdyn_msdyn_evaluation_incident_msdyn_RegardingObjectId"></a> msdyn_msdyn_evaluation_incident_msdyn_RegardingObjectId
 
 One-To-Many Relationship: [incident msdyn_msdyn_evaluation_incident_msdyn_RegardingObjectId](incident.md#BKMK_msdyn_msdyn_evaluation_incident_msdyn_RegardingObjectId)
@@ -1067,6 +1244,19 @@ One-To-Many Relationship: [msdyn_ocliveworkitem msdyn_msdyn_evaluation_msdyn_ocl
 |ReferencedAttribute|`activityid`|
 |ReferencingAttribute|`msdyn_regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`msdyn_RegardingObjectId_msdyn_ocliveworkitem`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Cascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_msdyn_evaluation_systemuser_msdyn_RegardingObjectId"></a> msdyn_msdyn_evaluation_systemuser_msdyn_RegardingObjectId
+
+One-To-Many Relationship: [systemuser msdyn_msdyn_evaluation_systemuser_msdyn_RegardingObjectId](systemuser.md#BKMK_msdyn_msdyn_evaluation_systemuser_msdyn_RegardingObjectId)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`systemuser`|
+|ReferencedAttribute|`systemuserid`|
+|ReferencingAttribute|`msdyn_regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_RegardingObjectId_systemuser`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `Cascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

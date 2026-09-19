@@ -81,6 +81,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
 - [Parameters](#BKMK_Parameters)
+- [ParametersV2](#BKMK_ParametersV2)
 - [Partners](#BKMK_Partners)
 - [PriorityCode](#BKMK_PriorityCode)
 - [ProcessId](#BKMK_ProcessId)
@@ -520,6 +521,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100000|
+
+### <a name="BKMK_ParametersV2"></a> ParametersV2
+
+|Property|Value|
+|---|---|
+|Description|**XML string field that contains the parameters to the bulk operation.**|
+|DisplayName|**ParametersV2**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`parametersv2`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|TextArea|
+|FormatName|TextArea|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1073741823|
 
 ### <a name="BKMK_Partners"></a> Partners
 

@@ -70,6 +70,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsCustomizable](#BKMK_IsCustomizable)
 - [msdyn_description](#BKMK_msdyn_description)
 - [msdyn_harvestingsource](#BKMK_msdyn_harvestingsource)
+- [msdyn_intent_agent_settings](#BKMK_msdyn_intent_agent_settings)
+- [msdyn_intent_description](#BKMK_msdyn_intent_description)
 - [msdyn_intentfamilyid](#BKMK_msdyn_intentfamilyid)
 - [msdyn_intentharvesting_batchjobstatusid](#BKMK_msdyn_intentharvesting_batchjobstatusid)
 - [msdyn_intentId](#BKMK_msdyn_intentId)
@@ -78,6 +80,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_intentvolume](#BKMK_msdyn_intentvolume)
 - [msdyn_is_selfserve_enabled](#BKMK_msdyn_is_selfserve_enabled)
 - [msdyn_isgroup](#BKMK_msdyn_isgroup)
+- [msdyn_locale_code](#BKMK_msdyn_locale_code)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_occurrencecount](#BKMK_msdyn_occurrencecount)
 - [msdyn_occurrencecount_last12months](#BKMK_msdyn_occurrencecount_last12months)
@@ -157,6 +160,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350000|**Data Execution Run**|
 |192350001|**Simulation**|
 |192350002|**Manually Edited**|
+
+### <a name="BKMK_msdyn_intent_agent_settings"></a> msdyn_intent_agent_settings
+
+|Property|Value|
+|---|---|
+|Description|**JSON string representing the agent settings. Each key-value pair corresponds to a specific setting for the product.**|
+|DisplayName|**msdyn\_intent\_agent\_settings**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_intent_agent_settings`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|4000|
+
+### <a name="BKMK_msdyn_intent_description"></a> msdyn_intent_description
+
+|Property|Value|
+|---|---|
+|Description|**Text describing the intent**|
+|DisplayName|**msdyn\_intent\_description**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_intent_description`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|4000|
 
 ### <a name="BKMK_msdyn_intentfamilyid"></a> msdyn_intentfamilyid
 
@@ -275,6 +312,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|True|
 |False Label|False|
+
+### <a name="BKMK_msdyn_locale_code"></a> msdyn_locale_code
+
+|Property|Value|
+|---|---|
+|Description|**Locale code of the intent**|
+|DisplayName|**msdyn\_locale\_code**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_locale_code`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|50|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
@@ -954,9 +1008,11 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_intententity_intentgroupid_msdyn_intent](#BKMK_msdyn_intententity_intentgroupid_msdyn_intent)
 - [msdyn_intentplaybookmap_msdyn_intentid_msdyn_intent](#BKMK_msdyn_intentplaybookmap_msdyn_intentid_msdyn_intent)
 - [msdyn_intentsolutionmap_intentid_msdyn_intent](#BKMK_msdyn_intentsolutionmap_intentid_msdyn_intent)
+- [msdyn_msdyn_intent_msdyn_aiagentstatus](#BKMK_msdyn_msdyn_intent_msdyn_aiagentstatus)
 - [msdyn_msdyn_intent_msdyn_intent_parentgroupid](#BKMK_msdyn_msdyn_intent_msdyn_intent_parentgroupid-one-to-many)
 - [msdyn_msdyn_intent_msdyn_intentattributeset_intentid](#BKMK_msdyn_msdyn_intent_msdyn_intentattributeset_intentid)
 - [msdyn_msdyn_intent_msdyn_intententity_intentid](#BKMK_msdyn_msdyn_intent_msdyn_intententity_intentid)
+- [msdyn_msdyn_intentgroup_msdyn_aiagentstatus](#BKMK_msdyn_msdyn_intentgroup_msdyn_aiagentstatus)
 - [msdyn_msdyn_ocliveworkitem_msdyn_intent_activeintentgroupid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_intent_activeintentgroupid)
 - [msdyn_msdyn_ocliveworkitem_msdyn_intent_activeintentid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_intent_activeintentid)
 
@@ -1104,6 +1160,18 @@ Many-To-One Relationship: [msdyn_intentsolutionmap msdyn_intentsolutionmap_inten
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_msdyn_intent_msdyn_aiagentstatus"></a> msdyn_msdyn_intent_msdyn_aiagentstatus
+
+Many-To-One Relationship: [msdyn_aiagentstatus msdyn_msdyn_intent_msdyn_aiagentstatus](msdyn_aiagentstatus.md#BKMK_msdyn_msdyn_intent_msdyn_aiagentstatus)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_aiagentstatus`|
+|ReferencingAttribute|`msdyn_lastintent`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_intent_msdyn_aiagentstatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_msdyn_intent_msdyn_intent_parentgroupid-one-to-many"></a> msdyn_msdyn_intent_msdyn_intent_parentgroupid
 
 Many-To-One Relationship: [msdyn_intent msdyn_msdyn_intent_msdyn_intent_parentgroupid](#BKMK_msdyn_msdyn_intent_msdyn_intent_parentgroupid-many-to-one)
@@ -1138,6 +1206,18 @@ Many-To-One Relationship: [msdyn_intententity msdyn_msdyn_intent_msdyn_intentent
 |ReferencingAttribute|`msdyn_intentid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_intent_msdyn_intententity_intentid`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_intentgroup_msdyn_aiagentstatus"></a> msdyn_msdyn_intentgroup_msdyn_aiagentstatus
+
+Many-To-One Relationship: [msdyn_aiagentstatus msdyn_msdyn_intentgroup_msdyn_aiagentstatus](msdyn_aiagentstatus.md#BKMK_msdyn_msdyn_intentgroup_msdyn_aiagentstatus)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_aiagentstatus`|
+|ReferencingAttribute|`msdyn_lastintentgroup`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_intentgroup_msdyn_aiagentstatus`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_intent_activeintentgroupid"></a> msdyn_msdyn_ocliveworkitem_msdyn_intent_activeintentgroupid

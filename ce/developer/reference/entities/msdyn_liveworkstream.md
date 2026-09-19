@@ -88,6 +88,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_enableagentaffinity](#BKMK_msdyn_enableagentaffinity)
 - [msdyn_enableautomatedmessages](#BKMK_msdyn_enableautomatedmessages)
 - [msdyn_enableselectingfrompushbasedworkstreams](#BKMK_msdyn_enableselectingfrompushbasedworkstreams)
+- [msdyn_enabletotalconversationlimit](#BKMK_msdyn_enabletotalconversationlimit)
 - [msdyn_EntityRoutingConfigurationId](#BKMK_msdyn_EntityRoutingConfigurationId)
 - [msdyn_FallBackLanguage](#BKMK_msdyn_FallBackLanguage)
 - [msdyn_FollowUpAfterWaiting](#BKMK_msdyn_FollowUpAfterWaiting)
@@ -105,8 +106,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_Notification](#BKMK_msdyn_Notification)
 - [msdyn_notificationtemplate_agent_dial](#BKMK_msdyn_notificationtemplate_agent_dial)
+- [msdyn_notificationtemplate_agent_reservation](#BKMK_msdyn_notificationtemplate_agent_reservation)
 - [msdyn_notificationtemplate_incoming_auth](#BKMK_msdyn_notificationtemplate_incoming_auth)
 - [msdyn_notificationtemplate_pre_dial](#BKMK_msdyn_notificationtemplate_pre_dial)
+- [msdyn_ocmldatamaskingruleid](#BKMK_msdyn_ocmldatamaskingruleid)
 - [msdyn_outboundqueueid](#BKMK_msdyn_outboundqueueid)
 - [msdyn_recordidentificationrule](#BKMK_msdyn_recordidentificationrule)
 - [msdyn_RecordIdentificationValidationRule](#BKMK_msdyn_RecordIdentificationValidationRule)
@@ -476,6 +479,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Yes|
 |False Label|No|
 
+### <a name="BKMK_msdyn_enabletotalconversationlimit"></a> msdyn_enabletotalconversationlimit
+
+|Property|Value|
+|---|---|
+|Description|**When enabled along with Agent Affinity, the agent's capacity is held while async or persistent-chat conversations are in waiting state, ensuring the same agent serves the customer on rejoin.**|
+|DisplayName|**Hold capacity for waiting conversations**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enabletotalconversationlimit`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_liveworkstream_msdyn_enabletotalconversationlimit`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_EntityRoutingConfigurationId"></a> msdyn_EntityRoutingConfigurationId
 
 |Property|Value|
@@ -748,6 +767,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|200|
 
+### <a name="BKMK_msdyn_notificationtemplate_agent_reservation"></a> msdyn_notificationtemplate_agent_reservation
+
+|Property|Value|
+|---|---|
+|Description|**Agent reservation notification template scenario**|
+|DisplayName|**Agent Reservation**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_notificationtemplate_agent_reservation`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|200|
+
 ### <a name="BKMK_msdyn_notificationtemplate_incoming_auth"></a> msdyn_notificationtemplate_incoming_auth
 
 |Property|Value|
@@ -781,6 +817,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|200|
+
+### <a name="BKMK_msdyn_ocmldatamaskingruleid"></a> msdyn_ocmldatamaskingruleid
+
+|Property|Value|
+|---|---|
+|Description|**ML data masking rule applied to this workstream.**|
+|DisplayName|**ML Data Masking Rule**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_ocmldatamaskingruleid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_ocmldatamaskingrule|
 
 ### <a name="BKMK_msdyn_outboundqueueid"></a> msdyn_outboundqueueid
 
@@ -1485,6 +1534,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_liveworkstream_intentfamilyid_msdyn_intentfamily](#BKMK_msdyn_liveworkstream_intentfamilyid_msdyn_intentfamily)
 - [msdyn_masterentityroutingconfiguration_msdyn_liveworkstream](#BKMK_msdyn_masterentityroutingconfiguration_msdyn_liveworkstream)
 - [msdyn_msdyn_liveworkstream_BotFailureActionConfig_msdyn_overflowactionconfig](#BKMK_msdyn_msdyn_liveworkstream_BotFailureActionConfig_msdyn_overflowactionconfig)
+- [msdyn_ocmldatamaskingrule_msdyn_liveworkstream_ocmldatamaskingruleid](#BKMK_msdyn_ocmldatamaskingrule_msdyn_liveworkstream_ocmldatamaskingruleid)
 - [msdyn_queue_msdyn_liveworkstream_msdyn_bot_queue](#BKMK_msdyn_queue_msdyn_liveworkstream_msdyn_bot_queue)
 - [msdyn_queue_msdyn_liveworkstream_queueid](#BKMK_msdyn_queue_msdyn_liveworkstream_queueid)
 - [msdyn_systemuser_msdyn_liveworkstream_msdyn_bot_user](#BKMK_msdyn_systemuser_msdyn_liveworkstream_msdyn_bot_user)
@@ -1635,6 +1685,19 @@ One-To-Many Relationship: [msdyn_overflowactionconfig msdyn_msdyn_liveworkstream
 |IsHierarchical||
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_ocmldatamaskingrule_msdyn_liveworkstream_ocmldatamaskingruleid"></a> msdyn_ocmldatamaskingrule_msdyn_liveworkstream_ocmldatamaskingruleid
+
+One-To-Many Relationship: [msdyn_ocmldatamaskingrule msdyn_ocmldatamaskingrule_msdyn_liveworkstream_ocmldatamaskingruleid](msdyn_ocmldatamaskingrule.md#BKMK_msdyn_ocmldatamaskingrule_msdyn_liveworkstream_ocmldatamaskingruleid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocmldatamaskingrule`|
+|ReferencedAttribute|`msdyn_ocmldatamaskingruleid`|
+|ReferencingAttribute|`msdyn_ocmldatamaskingruleid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_ocmldatamaskingruleid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_queue_msdyn_liveworkstream_msdyn_bot_queue"></a> msdyn_queue_msdyn_liveworkstream_msdyn_bot_queue
 
 One-To-Many Relationship: [queue msdyn_queue_msdyn_liveworkstream_msdyn_bot_queue](queue.md#BKMK_msdyn_queue_msdyn_liveworkstream_msdyn_bot_queue)
@@ -1718,6 +1781,7 @@ One-To-Many Relationship: [systemuser user_msdyn_liveworkstream](systemuser.md#B
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_contactcenterworkstreamskill_workstreamid_msdyn_liveworkstream](#BKMK_msdyn_contactcenterworkstreamskill_workstreamid_msdyn_liveworkstream)
 - [msdyn_liveworkstream_AsyncOperations](#BKMK_msdyn_liveworkstream_AsyncOperations)
 - [msdyn_liveworkstream_BulkDeleteFailures](#BKMK_msdyn_liveworkstream_BulkDeleteFailures)
 - [msdyn_liveworkstream_MailboxTrackingFolders](#BKMK_msdyn_liveworkstream_MailboxTrackingFolders)
@@ -1738,6 +1802,18 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_msdyn_liveworkstream_msdyn_urnotificationtemplatemapping_workstream](#BKMK_msdyn_msdyn_liveworkstream_msdyn_urnotificationtemplatemapping_workstream)
 - [msdyn_msdyn_liveworkstream_msdyn_workstream_bot](#BKMK_msdyn_msdyn_liveworkstream_msdyn_workstream_bot)
 - [msdyn_workstream_liveconversationcountercond](#BKMK_msdyn_workstream_liveconversationcountercond)
+
+### <a name="BKMK_msdyn_contactcenterworkstreamskill_workstreamid_msdyn_liveworkstream"></a> msdyn_contactcenterworkstreamskill_workstreamid_msdyn_liveworkstream
+
+Many-To-One Relationship: [msdyn_contactcenterworkstreamskill msdyn_contactcenterworkstreamskill_workstreamid_msdyn_liveworkstream](msdyn_contactcenterworkstreamskill.md#BKMK_msdyn_contactcenterworkstreamskill_workstreamid_msdyn_liveworkstream)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_contactcenterworkstreamskill`|
+|ReferencingAttribute|`msdyn_workstreamid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_contactcenterworkstreamskill_workstreamid_msdyn_liveworkstream`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_liveworkstream_AsyncOperations"></a> msdyn_liveworkstream_AsyncOperations
 

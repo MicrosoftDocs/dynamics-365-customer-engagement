@@ -71,8 +71,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_currentprocessingstate](#BKMK_msdyn_currentprocessingstate)
 - [msdyn_lastresearchendtime](#BKMK_msdyn_lastresearchendtime)
 - [msdyn_lastresearchstarttime](#BKMK_msdyn_lastresearchstarttime)
+- [msdyn_manualrefreshes](#BKMK_msdyn_manualrefreshes)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_nextrefreshtime](#BKMK_msdyn_nextrefreshtime)
+- [msdyn_priority](#BKMK_msdyn_priority)
 - [msdyn_regardingentity](#BKMK_msdyn_regardingentity)
 - [msdyn_salesagentprocessingstateId](#BKMK_msdyn_salesagentprocessingstateId)
 - [msdyn_salesagentprofile](#BKMK_msdyn_salesagentprofile)
@@ -133,6 +135,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |2|**InProgress**|
 |3|**Completed**|
 |4|**Failed**|
+|5|**Waiting**|
 
 ### <a name="BKMK_msdyn_lastresearchendtime"></a> msdyn_lastresearchendtime
 
@@ -168,6 +171,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |SourceTypeMask|0|
 
+### <a name="BKMK_msdyn_manualrefreshes"></a> msdyn_manualrefreshes
+
+|Property|Value|
+|---|---|
+|Description|**JSON array of timestamps tracking manual refresh occurrences.**|
+|DisplayName|**Manual Refreshes**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_manualrefreshes`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|6000|
+
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
@@ -201,6 +221,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Format|DateAndTime|
 |ImeMode|Auto|
 |SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_priority"></a> msdyn_priority
+
+|Property|Value|
+|---|---|
+|Description|**The priority used to determine the execution order of the next research computation.**|
+|DisplayName|**Priority score**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_priority`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
 
 ### <a name="BKMK_msdyn_regardingentity"></a> msdyn_regardingentity
 

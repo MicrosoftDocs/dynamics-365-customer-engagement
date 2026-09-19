@@ -1,6 +1,6 @@
 ---
-title: "Copilot component (botcomponent) table/entity reference (Microsoft Dynamics 365)"
-description: "Includes schema information and supported messages for the Copilot component (botcomponent) table/entity with Microsoft Dynamics 365."
+title: "Agent component (botcomponent) table/entity reference (Microsoft Dynamics 365)"
+description: "Includes schema information and supported messages for the Agent component (botcomponent) table/entity with Microsoft Dynamics 365."
 ms.topic: generated-reference
 author: JimDaly
 ms.author: jdaly
@@ -8,12 +8,12 @@ search.audienceType:
   - developer
 ---
 
-# Copilot component (botcomponent) table/entity reference (Microsoft Dynamics 365)
+# Agent component (botcomponent) table/entity reference (Microsoft Dynamics 365)
 
-Holds key authoring components of a Copilot such a topics, entities, variables, etc.
+Holds key authoring components of an agent such a topics, entities, variables, etc.
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Copilot component (botcomponent) table extends the [Microsoft Dataverse Copilot component (botcomponent) table](/power-apps/developer/data-platform/reference/entities/botcomponent).
+> The Microsoft Dynamics 365 Agent component (botcomponent) table extends the [Microsoft Dataverse Agent component (botcomponent) table](/power-apps/developer/data-platform/reference/entities/botcomponent).
 
 
 

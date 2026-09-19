@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_intententities(*msdyn_intententityid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_intententities<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -267,7 +266,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_objectid`|
 |RequiredLevel|ApplicationRequired|
 |Type|Lookup|
-|Targets|incident, msdyn_ocliveworkitem|
+|Targets|email, incident, msdyn_emailthread, msdyn_ocliveworkitem|
 
 ### <a name="BKMK_msdyn_objectidIdType"></a> msdyn_objectidIdType
 
@@ -663,9 +662,11 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_intententity_createdonbehalfby](#BKMK_lk_msdyn_intententity_createdonbehalfby)
 - [lk_msdyn_intententity_modifiedby](#BKMK_lk_msdyn_intententity_modifiedby)
 - [lk_msdyn_intententity_modifiedonbehalfby](#BKMK_lk_msdyn_intententity_modifiedonbehalfby)
+- [msdyn_email_msdyn_intententity_objectid](#BKMK_msdyn_email_msdyn_intententity_objectid)
 - [msdyn_incident_msdyn_intententity_objectid](#BKMK_msdyn_incident_msdyn_intententity_objectid)
 - [msdyn_intententity_intentfamilyid_msdyn_intentfamily](#BKMK_msdyn_intententity_intentfamilyid_msdyn_intentfamily)
 - [msdyn_intententity_intentgroupid_msdyn_intent](#BKMK_msdyn_intententity_intentgroupid_msdyn_intent)
+- [msdyn_msdyn_emailthread_msdyn_intententity_objectid](#BKMK_msdyn_msdyn_emailthread_msdyn_intententity_objectid)
 - [msdyn_msdyn_intent_msdyn_intententity_intentid](#BKMK_msdyn_msdyn_intent_msdyn_intententity_intentid)
 - [msdyn_msdyn_ocliveworkitem_msdyn_intententity_objectid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_intententity_objectid)
 - [owner_msdyn_intententity](#BKMK_owner_msdyn_intententity)
@@ -737,6 +738,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_intententity_modifiedonbehalfby](
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_email_msdyn_intententity_objectid"></a> msdyn_email_msdyn_intententity_objectid
+
+One-To-Many Relationship: [email msdyn_email_msdyn_intententity_objectid](email.md#BKMK_msdyn_email_msdyn_intententity_objectid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`email`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`msdyn_objectid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_objectid_email`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_incident_msdyn_intententity_objectid"></a> msdyn_incident_msdyn_intententity_objectid
 
 One-To-Many Relationship: [incident msdyn_incident_msdyn_intententity_objectid](incident.md#BKMK_msdyn_incident_msdyn_intententity_objectid)
@@ -773,6 +787,19 @@ One-To-Many Relationship: [msdyn_intent msdyn_intententity_intentgroupid_msdyn_i
 |ReferencedAttribute|`msdyn_intentid`|
 |ReferencingAttribute|`msdyn_intentgroupid`|
 |ReferencingEntityNavigationPropertyName|`msdyn_intentgroupid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_msdyn_emailthread_msdyn_intententity_objectid"></a> msdyn_msdyn_emailthread_msdyn_intententity_objectid
+
+One-To-Many Relationship: [msdyn_emailthread msdyn_msdyn_emailthread_msdyn_intententity_objectid](msdyn_emailthread.md#BKMK_msdyn_msdyn_emailthread_msdyn_intententity_objectid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_emailthread`|
+|ReferencedAttribute|`msdyn_emailthreadid`|
+|ReferencingAttribute|`msdyn_objectid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_objectid_msdyn_emailthread`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

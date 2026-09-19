@@ -17,6 +17,46 @@ Data equivalent to files used in Web development. Web resources provide client-s
 
 
 
+## Read-only columns/attributes
+
+These columns/attributes return false for both **IsValidForCreate** and **IsValidForUpdate**. Listed by **SchemaName**.
+
+- [ContentHash](#BKMK_ContentHash)
+- [ContentJsonHash](#BKMK_ContentJsonHash)
+
+### <a name="BKMK_ContentHash"></a> ContentHash
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Content Hash**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`contenthash`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|128|
+
+### <a name="BKMK_ContentJsonHash"></a> ContentJsonHash
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Content JSON Hash**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`contentjsonhash`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|128|
 
 ## One-to-Many relationships
 

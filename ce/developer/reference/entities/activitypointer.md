@@ -82,7 +82,7 @@ Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/dat
 
 |Property|Value|
 |---|---|
-|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, site|
+|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_emailthread, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, site|
 
 
 ## Many-to-One relationships
@@ -101,6 +101,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [Invoice_ActivityPointers](#BKMK_Invoice_ActivityPointers)
 - [Lead_ActivityPointers](#BKMK_Lead_ActivityPointers)
 - [msdyn_customerasset_ActivityPointers](#BKMK_msdyn_customerasset_ActivityPointers)
+- [msdyn_emailthread_ActivityPointers](#BKMK_msdyn_emailthread_ActivityPointers)
 - [msdyn_postalbum_ActivityPointers](#BKMK_msdyn_postalbum_ActivityPointers)
 - [msdyn_salessuggestion_ActivityPointers](#BKMK_msdyn_salessuggestion_ActivityPointers)
 - [msdyn_swarm_ActivityPointers](#BKMK_msdyn_swarm_ActivityPointers)
@@ -263,6 +264,19 @@ One-To-Many Relationship: [msdyn_customerasset msdyn_customerasset_ActivityPoint
 |ReferencedAttribute|`msdyn_customerassetid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_customerasset`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_emailthread_ActivityPointers"></a> msdyn_emailthread_ActivityPointers
+
+One-To-Many Relationship: [msdyn_emailthread msdyn_emailthread_ActivityPointers](msdyn_emailthread.md#BKMK_msdyn_emailthread_ActivityPointers)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_emailthread`|
+|ReferencedAttribute|`msdyn_emailthreadid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_emailthread`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

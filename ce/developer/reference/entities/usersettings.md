@@ -17,18 +17,34 @@ User's preferred settings.
 
 
 
+## Writable columns/attributes
 
-## Customized relationships
+These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
-### Customized Many-to-One relationships
-
-#### <a name="BKMK_user_settings_preferred_solution"></a> user_settings_preferred_solution
-
-Changes from [user_settings_preferred_solution (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/usersettings#BKMK_user_settings_preferred_solution)
+### <a name="BKMK_DisplayDensity"></a> DisplayDensity
 
 |Property|Value|
 |---|---|
-|CascadeConfiguration|Archive: `RemoveLink`|
+|Description|**Control how compact or spacious the interface feels. This affects spacing, padding, and font sizes across the application.**|
+|DisplayName|**Display Density**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`displaydensity`|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
+|DefaultFormValue|0|
+|GlobalChoiceName|`usersettings_displaydensity`|
+
+#### DisplayDensity Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Default**|
+|1|**Comfortable**|
+|2|**Cozy**|
+|3|**Compact**|
+
+
 
 
 ### See also

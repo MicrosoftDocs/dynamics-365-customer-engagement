@@ -69,6 +69,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_customerfeedbacksurveyprovider](#BKMK_msdyn_customerfeedbacksurveyprovider)
 - [msdyn_customerfeedbacksurveyurl](#BKMK_msdyn_customerfeedbacksurveyurl)
 - [msdyn_customhosturl](#BKMK_msdyn_customhosturl)
+- [msdyn_directsave](#BKMK_msdyn_directsave)
 - [msdyn_microsoftcopilotstudiobot](#BKMK_msdyn_microsoftcopilotstudiobot)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
@@ -224,6 +225,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|500|
+
+### <a name="BKMK_msdyn_directsave"></a> msdyn_directsave
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether the survey response should be saved directly without queuing.**|
+|DisplayName|**Direct Save**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_directsave`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_customerfeedbacksurvey_msdyn_directsave`|
+|DefaultValue|False|
+|True Label||
+|False Label||
 
 ### <a name="BKMK_msdyn_microsoftcopilotstudiobot"></a> msdyn_microsoftcopilotstudiobot
 
@@ -644,6 +661,7 @@ One-To-Many Relationship: [organization organization_msdyn_customerfeedbacksurve
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_channelprofilesurveyconfig_msdyn_botsurveyid_msdyn_customerfeedbacksurvey](#BKMK_msdyn_channelprofilesurveyconfig_msdyn_botsurveyid_msdyn_customerfeedbacksurvey)
 - [msdyn_customerfeedbacksurvey_AsyncOperations](#BKMK_msdyn_customerfeedbacksurvey_AsyncOperations)
 - [msdyn_customerfeedbacksurvey_BulkDeleteFailures](#BKMK_msdyn_customerfeedbacksurvey_BulkDeleteFailures)
 - [msdyn_customerfeedbacksurvey_DuplicateBaseRecord](#BKMK_msdyn_customerfeedbacksurvey_DuplicateBaseRecord)
@@ -655,6 +673,18 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_customerfeedbacksurvey_PrincipalObjectAttributeAccesses](#BKMK_msdyn_customerfeedbacksurvey_PrincipalObjectAttributeAccesses)
 - [msdyn_customerfeedbacksurvey_ProcessSession](#BKMK_msdyn_customerfeedbacksurvey_ProcessSession)
 - [msdyn_customerfeedbacksurvey_SyncErrors](#BKMK_msdyn_customerfeedbacksurvey_SyncErrors)
+
+### <a name="BKMK_msdyn_channelprofilesurveyconfig_msdyn_botsurveyid_msdyn_customerfeedbacksurvey"></a> msdyn_channelprofilesurveyconfig_msdyn_botsurveyid_msdyn_customerfeedbacksurvey
+
+Many-To-One Relationship: [msdyn_channelprofilesurveyconfig msdyn_channelprofilesurveyconfig_msdyn_botsurveyid_msdyn_customerfeedbacksurvey](msdyn_channelprofilesurveyconfig.md#BKMK_msdyn_channelprofilesurveyconfig_msdyn_botsurveyid_msdyn_customerfeedbacksurvey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_channelprofilesurveyconfig`|
+|ReferencingAttribute|`msdyn_botsurveyid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_channelprofilesurveyconfig_msdyn_botsurveyid_msdyn_customerfeedbacksurvey`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_customerfeedbacksurvey_AsyncOperations"></a> msdyn_customerfeedbacksurvey_AsyncOperations
 

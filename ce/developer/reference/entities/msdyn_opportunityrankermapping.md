@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_opportunityrankermappings(*msdyn_opportunityrankermappingid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_opportunityrankermappings<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -68,18 +67,23 @@ The following table lists selected properties for the Opportunity Ranker Mapping
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_bantdata](#BKMK_msdyn_bantdata)
 - [msdyn_conversationid](#BKMK_msdyn_conversationid)
 - [msdyn_detectedcompetitors](#BKMK_msdyn_detectedcompetitors)
-- [msdyn_emailcontent](#BKMK_msdyn_emailcontent)
-- [msdyn_emailinsight](#BKMK_msdyn_emailinsight)
+- [msdyn_emailinsightshistory](#BKMK_msdyn_emailinsightshistory)
 - [msdyn_emailparticipants](#BKMK_msdyn_emailparticipants)
 - [msdyn_generatedemailinsights](#BKMK_msdyn_generatedemailinsights)
+- [msdyn_internetmessageid](#BKMK_msdyn_internetmessageid)
 - [msdyn_mappedopportunityid](#BKMK_msdyn_mappedopportunityid)
 - [msdyn_mappedresponse](#BKMK_msdyn_mappedresponse)
+- [msdyn_meetingmetadata](#BKMK_msdyn_meetingmetadata)
+- [msdyn_meetingoriginalsourceid](#BKMK_msdyn_meetingoriginalsourceid)
 - [msdyn_messageid](#BKMK_msdyn_messageid)
 - [msdyn_OpportunityMappingType](#BKMK_msdyn_OpportunityMappingType)
 - [msdyn_OpportunityRankerMappingId](#BKMK_msdyn_OpportunityRankerMappingId)
+- [msdyn_payload](#BKMK_msdyn_payload)
 - [msdyn_recordid](#BKMK_msdyn_recordid)
+- [msdyn_recordownerid](#BKMK_msdyn_recordownerid)
 - [msdyn_relevancescore](#BKMK_msdyn_relevancescore)
 - [msdyn_SourceType](#BKMK_msdyn_SourceType)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -104,6 +108,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxValue|2147483647|
 |MinValue|-2147483648|
 
+### <a name="BKMK_msdyn_bantdata"></a> msdyn_bantdata
+
+|Property|Value|
+|---|---|
+|Description|**BANT (Budget, Authority, Need, Timeline) signals extracted from email conversations**|
+|DisplayName|**BANT Data**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`msdyn_bantdata`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
 ### <a name="BKMK_msdyn_conversationid"></a> msdyn_conversationid
 
 |Property|Value|
@@ -119,7 +140,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |FormatName|Text|
 |ImeMode|Auto|
 |IsLocalizable|False|
-|MaxLength|100|
+|MaxLength|400|
 
 ### <a name="BKMK_msdyn_detectedcompetitors"></a> msdyn_detectedcompetitors
 
@@ -138,32 +159,15 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|1048576|
 
-### <a name="BKMK_msdyn_emailcontent"></a> msdyn_emailcontent
+### <a name="BKMK_msdyn_emailinsightshistory"></a> msdyn_emailinsightshistory
 
 |Property|Value|
 |---|---|
-|Description||
-|DisplayName|**EmailContent**|
+|Description|**Structured signal insights (objections, hesitation, competitor mentions) extracted by the HardInsights agent from email or meeting sources, accumulated across RCSV pipeline runs**|
+|DisplayName|**Signal Insights History**|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|`msdyn_emailcontent`|
-|RequiredLevel|None|
-|Type|Memo|
-|Format|Text|
-|FormatName|Text|
-|ImeMode|Auto|
-|IsLocalizable|False|
-|MaxLength|1048576|
-
-### <a name="BKMK_msdyn_emailinsight"></a> msdyn_emailinsight
-
-|Property|Value|
-|---|---|
-|Description||
-|DisplayName|**EmailInsight**|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|`msdyn_emailinsight`|
+|LogicalName|`msdyn_emailinsightshistory`|
 |RequiredLevel|None|
 |Type|Memo|
 |Format|Text|
@@ -194,7 +198,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**Generated Email Insights**|
+|DisplayName|**Generated Signal Insights**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_generatedemailinsights`|
@@ -205,6 +209,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|1048576|
+
+### <a name="BKMK_msdyn_internetmessageid"></a> msdyn_internetmessageid
+
+|Property|Value|
+|---|---|
+|Description|**RFC 822 Internet Message ID of the ranked email; the cross-system stable dedup key for emails (mirrors the email signal SourceItemId). Null for meeting rows.**|
+|DisplayName|**Internet Message Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_internetmessageid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|500|
 
 ### <a name="BKMK_msdyn_mappedopportunityid"></a> msdyn_mappedopportunityid
 
@@ -240,6 +261,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|1048576|
 
+### <a name="BKMK_msdyn_meetingmetadata"></a> msdyn_meetingmetadata
+
+|Property|Value|
+|---|---|
+|Description|**JSON metadata for meeting-source ranker mapping rows (e.g. calendarEventId for the Outlook citation deep link). Shape is \{ key: value \} so additional per-row meeting attributes can be added without a schema change. Empty on email rows.**|
+|DisplayName|**Meeting Metadata**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`msdyn_meetingmetadata`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
+### <a name="BKMK_msdyn_meetingoriginalsourceid"></a> msdyn_meetingoriginalsourceid
+
+|Property|Value|
+|---|---|
+|Description|**Cross-attendee dedup key for meeting ranker mappings: MD5(iCalUId \+ '\_' \+ startDateTime) — stored as the Guid string representation. Globally identical across all attendees and content tiers. Used by ranker stickiness to skip re-ranking when a mapping already exists for this occurrence.**|
+|DisplayName|**Meeting Original Source Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_meetingoriginalsourceid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
 ### <a name="BKMK_msdyn_messageid"></a> msdyn_messageid
 
 |Property|Value|
@@ -255,7 +310,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |FormatName|Text|
 |ImeMode|Auto|
 |IsLocalizable|False|
-|MaxLength|100|
+|MaxLength|400|
 
 ### <a name="BKMK_msdyn_OpportunityMappingType"></a> msdyn_OpportunityMappingType
 
@@ -291,6 +346,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
+### <a name="BKMK_msdyn_payload"></a> msdyn_payload
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Payload**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`msdyn_payload`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
 ### <a name="BKMK_msdyn_recordid"></a> msdyn_recordid
 
 |Property|Value|
@@ -307,6 +379,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|850|
+
+### <a name="BKMK_msdyn_recordownerid"></a> msdyn_recordownerid
+
+|Property|Value|
+|---|---|
+|Description|**User identifier used by the citation layer to filter ranker mapping rows for the salesperson who initiated the run. Stored as a string so the row's Dataverse ownerid can remain the S2S app identity for security/privilege purposes. Citation reads should prefer this attribute and fall back to owninguser when this is empty.**|
+|DisplayName|**Record Owner Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_recordownerid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_relevancescore"></a> msdyn_relevancescore
 
@@ -344,7 +433,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Value|Label|
 |---|---|
 |733400000|**SSS**|
-|733400001|**M365**|
+|733400001|**M365Email**|
+|733400004|**M365Meeting**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

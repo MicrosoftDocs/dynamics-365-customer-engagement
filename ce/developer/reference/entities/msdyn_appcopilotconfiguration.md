@@ -152,9 +152,15 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |829050007|**Conversation to case manual creation**|
 |829050008|**Case to case resolution manaual creation**|
 |829050009|**Knowledge harvesting from case**|
-|829050010|**Intent-based suggestions (preview)**|
+|829050010|**Intent-based suggestions**|
 |829050011|**Inbox - Suggested Next Actions View**|
 |829050012|**Email to case manual creation**|
+|829050013|**Copilot immersive**|
+|829050014|**Agent coach case**|
+|829050015|**Agent coach email**|
+|829050016|**Draft with Copilot**|
+|829050017|**M365 Copilot Immersive View (Full-page)**|
+|829050018|**M365 Copilot Sidepane**|
 
 ### <a name="BKMK_msdyn_enabled"></a> msdyn_enabled
 

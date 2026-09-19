@@ -16,15 +16,6 @@ An activity which is used to share information between the user and the customer
 > The Microsoft Dynamics 365 Portal Comment (adx_portalcomment) table extends the [Microsoft Dataverse Portal Comment (adx_portalcomment) table](/power-apps/developer/data-platform/reference/entities/adx_portalcomment).
 
 
-## Messages
-
-The following table lists the messages for the Portal Comment (adx_portalcomment) table.
-Messages represent operations that can be performed on the table. They may also be events.
-
-| Name <br />Is Event? |Web API Operation |SDK for .NET |
-| ---- | ----- |----- |
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-
 
 ## Writable columns/attributes
 
@@ -92,7 +83,7 @@ Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/dat
 
 |Property|Value|
 |---|---|
-|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, service, site|
+|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_emailthread, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, service, site|
 
 
 ### <a name="BKMK_RequiredAttendees"></a> RequiredAttendees
@@ -121,6 +112,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [invoice_adx_portalcomments](#BKMK_invoice_adx_portalcomments)
 - [lead_adx_portalcomments](#BKMK_lead_adx_portalcomments)
 - [msdyn_customerasset_adx_portalcomments](#BKMK_msdyn_customerasset_adx_portalcomments)
+- [msdyn_emailthread_adx_portalcomments](#BKMK_msdyn_emailthread_adx_portalcomments)
 - [msdyn_postalbum_adx_portalcomments](#BKMK_msdyn_postalbum_adx_portalcomments)
 - [msdyn_salessuggestion_adx_portalcomments](#BKMK_msdyn_salessuggestion_adx_portalcomments)
 - [msdyn_swarm_adx_portalcomments](#BKMK_msdyn_swarm_adx_portalcomments)
@@ -296,6 +288,19 @@ One-To-Many Relationship: [msdyn_customerasset msdyn_customerasset_adx_portalcom
 |ReferencedAttribute|`msdyn_customerassetid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_customerasset_adx_portalcomment`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_emailthread_adx_portalcomments"></a> msdyn_emailthread_adx_portalcomments
+
+One-To-Many Relationship: [msdyn_emailthread msdyn_emailthread_adx_portalcomments](msdyn_emailthread.md#BKMK_msdyn_emailthread_adx_portalcomments)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_emailthread`|
+|ReferencedAttribute|`msdyn_emailthreadid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_emailthread_adx_portalcomment`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

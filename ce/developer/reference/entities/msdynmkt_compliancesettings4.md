@@ -169,7 +169,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |FormatName|Url|
 |ImeMode|Auto|
 |IsLocalizable|False|
-|MaxLength|200|
+|MaxLength|500|
 
 ### <a name="BKMK_msdynmkt_consentlink_customerprofile"></a> msdynmkt_consentlink_customerprofile
 
@@ -186,7 +186,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |FormatName|Url|
 |ImeMode|Auto|
 |IsLocalizable|False|
-|MaxLength|200|
+|MaxLength|500|
 
 ### <a name="BKMK_msdynmkt_consentlink_leads"></a> msdynmkt_consentlink_leads
 
@@ -203,7 +203,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |FormatName|Url|
 |ImeMode|Auto|
 |IsLocalizable|False|
-|MaxLength|200|
+|MaxLength|500|
 
 ### <a name="BKMK_msdynmkt_consentlinktype"></a> msdynmkt_consentlinktype
 

@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_botsessions(*msdyn_botsessionid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_botsessions<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -246,6 +245,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |419580006|**Resolved**|
 |419580007|**Agent Transfer Configured By Author**|
 |419580008|**Agent Transfer From Question Max Attempts**|
+|419580009|**Agent Transfer Max Silence Detected**|
 
 ### <a name="BKMK_msdyn_mcsbotsessionid"></a> msdyn_mcsbotsessionid
 
@@ -262,7 +262,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |FormatName|Text|
 |ImeMode|Auto|
 |IsLocalizable|False|
-|MaxLength|100|
+|MaxLength|501|
 
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 
@@ -308,7 +308,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Bot Session Outcome Reason:  NoError, UserError, SystemError, UserExit, AgentTransferWithoutError, AgentTransferRequestedByUser, Resolved, AgentTransferConfiguredByAuthor, or AgentTransferFromQuestionMaxAttempts from option, sessionoutcomereason**|
+|Description|**Bot Session Outcome Reason:  NoError, UserError, SystemError, UserExit, AgentTransferWithoutError, AgentTransferRequestedByUser, Resolved, AgentTransferConfiguredByAuthor, AgentTransferFromQuestionMaxAttempts, or AgentTransferMaxSilenceDetected from option, sessionoutcomereason**|
 |DisplayName|**Bot Session Outcome Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -331,6 +331,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |419560006|**resolved**|
 |419560007|**agentTransferConfiguredByAuthor**|
 |419560008|**agentTransferFromQuestionMaxAttempts**|
+|419560009|**agentTransferMaxSilenceDetected**|
 
 ### <a name="BKMK_msdyn_sessionid"></a> msdyn_sessionid
 

@@ -66,7 +66,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_customerfeedbacksurvey](#BKMK_msdyn_customerfeedbacksurvey)
 - [msdyn_emailtemplate](#BKMK_msdyn_emailtemplate)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_survey](#BKMK_msdyn_survey)
 - [msdyn_surveysettingId](#BKMK_msdyn_surveysettingId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
@@ -163,19 +162,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
-
-### <a name="BKMK_msdyn_survey"></a> msdyn_survey
-
-|Property|Value|
-|---|---|
-|Description||
-|DisplayName|**Survey**|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|`msdyn_survey`|
-|RequiredLevel|Recommended|
-|Type|Lookup|
-|Targets|msfp_survey|
 
 ### <a name="BKMK_msdyn_surveysettingId"></a> msdyn_surveysettingId
 
@@ -510,7 +496,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_surveysetting_modifiedby](#BKMK_lk_msdyn_surveysetting_modifiedby)
 - [lk_msdyn_surveysetting_modifiedonbehalfby](#BKMK_lk_msdyn_surveysetting_modifiedonbehalfby)
 - [msdyn_customerfeedbacksurvey_msdyn_surveysetting](#BKMK_msdyn_customerfeedbacksurvey_msdyn_surveysetting)
-- [msdyn_msfp_survey_msdyn_surveysetting_survey](#BKMK_msdyn_msfp_survey_msdyn_surveysetting_survey)
 - [organization_msdyn_surveysetting](#BKMK_organization_msdyn_surveysetting)
 
 ### <a name="BKMK_lk_msdyn_surveysetting_createdby"></a> lk_msdyn_surveysetting_createdby
@@ -575,19 +560,6 @@ One-To-Many Relationship: [msdyn_customerfeedbacksurvey msdyn_customerfeedbacksu
 |ReferencedAttribute|`msdyn_customerfeedbacksurveyid`|
 |ReferencingAttribute|`msdyn_customerfeedbacksurvey`|
 |ReferencingEntityNavigationPropertyName|`msdyn_customerfeedbacksurvey`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
-### <a name="BKMK_msdyn_msfp_survey_msdyn_surveysetting_survey"></a> msdyn_msfp_survey_msdyn_surveysetting_survey
-
-One-To-Many Relationship: [msfp_survey msdyn_msfp_survey_msdyn_surveysetting_survey](msfp_survey.md#BKMK_msdyn_msfp_survey_msdyn_surveysetting_survey)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`msfp_survey`|
-|ReferencedAttribute|`msfp_surveyid`|
-|ReferencingAttribute|`msdyn_survey`|
-|ReferencingEntityNavigationPropertyName|`msdyn_survey`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

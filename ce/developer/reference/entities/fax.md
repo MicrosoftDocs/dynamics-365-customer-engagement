@@ -41,6 +41,7 @@ Microsoft Dynamics 365 modifies the definition of columns/attributes defined in 
 
 - [from](#BKMK_from)
 - [RegardingObjectId](#BKMK_RegardingObjectId)
+- [related](#BKMK_related)
 - [to](#BKMK_to)
 
 ### <a name="BKMK_from"></a> from
@@ -58,7 +59,16 @@ Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/dat
 
 |Property|Value|
 |---|---|
-|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, site|
+|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_emailthread, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, site|
+
+
+### <a name="BKMK_related"></a> related
+
+Changes from [related (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/fax#BKMK_related)
+
+|Property|Value|
+|---|---|
+|Targets|campaign, campaignactivity, contract, entitlement, incident, invoice, opportunity, quote, salesorder|
 
 
 ### <a name="BKMK_to"></a> to
@@ -86,6 +96,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [Invoice_Faxes](#BKMK_Invoice_Faxes)
 - [Lead_Faxes](#BKMK_Lead_Faxes)
 - [msdyn_customerasset_Faxes](#BKMK_msdyn_customerasset_Faxes)
+- [msdyn_emailthread_Faxes](#BKMK_msdyn_emailthread_Faxes)
 - [msdyn_postalbum_Faxes](#BKMK_msdyn_postalbum_Faxes)
 - [msdyn_salessuggestion_Faxes](#BKMK_msdyn_salessuggestion_Faxes)
 - [msdyn_swarm_Faxes](#BKMK_msdyn_swarm_Faxes)
@@ -248,6 +259,19 @@ One-To-Many Relationship: [msdyn_customerasset msdyn_customerasset_Faxes](msdyn_
 |ReferencedAttribute|`msdyn_customerassetid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_customerasset_fax`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_emailthread_Faxes"></a> msdyn_emailthread_Faxes
+
+One-To-Many Relationship: [msdyn_emailthread msdyn_emailthread_Faxes](msdyn_emailthread.md#BKMK_msdyn_emailthread_Faxes)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_emailthread`|
+|ReferencedAttribute|`msdyn_emailthreadid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_emailthread_fax`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

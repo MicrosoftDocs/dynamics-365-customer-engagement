@@ -342,6 +342,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350006|**number**|
 |192350007|**boolean**|
 |192350008|**optionlist**|
+|192350009|**date**|
+|192350010|**datetime**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

@@ -42,6 +42,7 @@ Microsoft Dynamics 365 modifies the definition of columns/attributes defined in 
 - [Community](#BKMK_Community)
 - [From](#BKMK_From)
 - [RegardingObjectId](#BKMK_RegardingObjectId)
+- [related](#BKMK_related)
 - [Resources](#BKMK_Resources)
 - [To](#BKMK_To)
 
@@ -84,7 +85,16 @@ Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/dat
 
 |Property|Value|
 |---|---|
-|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, site|
+|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_emailthread, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, site|
+
+
+### <a name="BKMK_related"></a> related
+
+Changes from [related (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/socialactivity#BKMK_related)
+
+|Property|Value|
+|---|---|
+|Targets|campaign, campaignactivity, contract, entitlement, incident, invoice, opportunity, quote, salesorder|
 
 
 ### <a name="BKMK_Resources"></a> Resources
@@ -121,6 +131,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [Invoice_SocialActivities](#BKMK_Invoice_SocialActivities)
 - [Lead_SocialActivities](#BKMK_Lead_SocialActivities)
 - [msdyn_customerasset_SocialActivities](#BKMK_msdyn_customerasset_SocialActivities)
+- [msdyn_emailthread_SocialActivities](#BKMK_msdyn_emailthread_SocialActivities)
 - [msdyn_postalbum_SocialActivities](#BKMK_msdyn_postalbum_SocialActivities)
 - [msdyn_salessuggestion_SocialActivities](#BKMK_msdyn_salessuggestion_SocialActivities)
 - [msdyn_swarm_SocialActivities](#BKMK_msdyn_swarm_SocialActivities)
@@ -283,6 +294,19 @@ One-To-Many Relationship: [msdyn_customerasset msdyn_customerasset_SocialActivit
 |ReferencedAttribute|`msdyn_customerassetid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_customerasset_socialactivity`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_emailthread_SocialActivities"></a> msdyn_emailthread_SocialActivities
+
+One-To-Many Relationship: [msdyn_emailthread msdyn_emailthread_SocialActivities](msdyn_emailthread.md#BKMK_msdyn_emailthread_SocialActivities)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_emailthread`|
+|ReferencedAttribute|`msdyn_emailthreadid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_emailthread_socialactivity`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

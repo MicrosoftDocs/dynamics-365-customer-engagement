@@ -80,6 +80,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_answerassisturl](#BKMK_msdyn_answerassisturl)
 - [msdyn_autocaseclosureenabled](#BKMK_msdyn_autocaseclosureenabled)
 - [msdyn_autocaseclosuresettings](#BKMK_msdyn_autocaseclosuresettings)
+- [msdyn_avoidknowledgesourceforemailassist](#BKMK_msdyn_avoidknowledgesourceforemailassist)
 - [msdyn_casetocaseresolutionmanualflowenabled](#BKMK_msdyn_casetocaseresolutionmanualflowenabled)
 - [msdyn_companyscopeurls](#BKMK_msdyn_companyscopeurls)
 - [msdyn_consentacceptanceby](#BKMK_msdyn_consentacceptanceby)
@@ -91,12 +92,14 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_copilotembedsettings](#BKMK_msdyn_copilotembedsettings)
 - [msdyn_copilotenabled](#BKMK_msdyn_copilotenabled)
 - [msdyn_copilotrecommendedemailtemplatesenabled](#BKMK_msdyn_copilotrecommendedemailtemplatesenabled)
+- [msdyn_copilottoolfilterforpersonalization](#BKMK_msdyn_copilottoolfilterforpersonalization)
 - [msdyn_csplugindefaultonstatus](#BKMK_msdyn_csplugindefaultonstatus)
 - [msdyn_customactionwebresources](#BKMK_msdyn_customactionwebresources)
 - [msdyn_custominstruction](#BKMK_msdyn_custominstruction)
 - [msdyn_defaultonoptout](#BKMK_msdyn_defaultonoptout)
 - [msdyn_disablecopilotengagedanalytics](#BKMK_msdyn_disablecopilotengagedanalytics)
 - [msdyn_displayname](#BKMK_msdyn_displayname)
+- [msdyn_draftwithcopilotappprofileenabled](#BKMK_msdyn_draftwithcopilotappprofileenabled)
 - [msdyn_dvcopilotstatus](#BKMK_msdyn_dvcopilotstatus)
 - [msdyn_dynamicfilterconfig](#BKMK_msdyn_dynamicfilterconfig)
 - [msdyn_dynamicfilterconfiglive](#BKMK_msdyn_dynamicfilterconfiglive)
@@ -105,14 +108,21 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_emailassistkbfilter](#BKMK_msdyn_emailassistkbfilter)
 - [msdyn_emailassistkbfilterlive](#BKMK_msdyn_emailassistkbfilterlive)
 - [msdyn_emailassisturl](#BKMK_msdyn_emailassisturl)
+- [msdyn_emailClassificationCategoryRule](#BKMK_msdyn_emailClassificationCategoryRule)
+- [msdyn_emailresolutionagentenabled](#BKMK_msdyn_emailresolutionagentenabled)
 - [msdyn_emailsentimentenabled](#BKMK_msdyn_emailsentimentenabled)
+- [msdyn_emailsentimentfilterfetchxml](#BKMK_msdyn_emailsentimentfilterfetchxml)
 - [msdyn_emailtocasemanualflowenabled](#BKMK_msdyn_emailtocasemanualflowenabled)
 - [msdyn_embeddablecopilotwidgetconfiguration](#BKMK_msdyn_embeddablecopilotwidgetconfiguration)
+- [msdyn_extendcopilotstudioagentenabled](#BKMK_msdyn_extendcopilotstudioagentenabled)
 - [msdyn_followuppromptsenabled](#BKMK_msdyn_followuppromptsenabled)
+- [msdyn_fullpagecopilotenabled](#BKMK_msdyn_fullpagecopilotenabled)
 - [msdyn_includespecifictemplatesforcopilotrecommendationenabled](#BKMK_msdyn_includespecifictemplatesforcopilotrecommendationenabled)
 - [msdyn_interactionsenabled](#BKMK_msdyn_interactionsenabled)
+- [msdyn_InvokeOnEmailPostCreateEnabled](#BKMK_msdyn_InvokeOnEmailPostCreateEnabled)
 - [msdyn_isdeterministicknowledgeenabled](#BKMK_msdyn_isdeterministicknowledgeenabled)
 - [msdyn_isdvcopilotenabled](#BKMK_msdyn_isdvcopilotenabled)
+- [msdyn_isEmailClassificationEnabled](#BKMK_msdyn_isEmailClassificationEnabled)
 - [msdyn_isemaildefaultonenabledone](#BKMK_msdyn_isemaildefaultonenabledone)
 - [msdyn_isknowledgehubconnectorsourceenabled](#BKMK_msdyn_isknowledgehubconnectorsourceenabled)
 - [msdyn_kbenabled](#BKMK_msdyn_kbenabled)
@@ -125,12 +135,16 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_lasttrainingstatus](#BKMK_msdyn_lasttrainingstatus)
 - [msdyn_lasttrainingtime](#BKMK_msdyn_lasttrainingtime)
 - [msdyn_logknowledgesnippet](#BKMK_msdyn_logknowledgesnippet)
+- [msdyn_mcscontextconfiguration](#BKMK_msdyn_mcscontextconfiguration)
 - [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_organizationpromptentitydynamicfilters](#BKMK_msdyn_organizationpromptentitydynamicfilters)
 - [msdyn_orgpromptfilterattribute](#BKMK_msdyn_orgpromptfilterattribute)
 - [msdyn_pluginconfiguration](#BKMK_msdyn_pluginconfiguration)
 - [msdyn_proactivepromptsenabled](#BKMK_msdyn_proactivepromptsenabled)
 - [msdyn_searchconfiguration](#BKMK_msdyn_searchconfiguration)
+- [msdyn_setexportable](#BKMK_msdyn_setexportable)
 - [msdyn_sharepointsourceenabled](#BKMK_msdyn_sharepointsourceenabled)
+- [msdyn_sidecarimmersiveenabled](#BKMK_msdyn_sidecarimmersiveenabled)
 - [msdyn_suggestedpromptsenabled](#BKMK_msdyn_suggestedpromptsenabled)
 - [msdyn_systemstatus](#BKMK_msdyn_systemstatus)
 - [msdyn_transcriptenabled](#BKMK_msdyn_transcriptenabled)
@@ -463,6 +477,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|100000|
 
+### <a name="BKMK_msdyn_avoidknowledgesourceforemailassist"></a> msdyn_avoidknowledgesourceforemailassist
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Avoid Knowledge Source For Email Assist**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_avoidknowledgesourceforemailassist`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_avoidknowledgesourceforemailassist`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_casetocaseresolutionmanualflowenabled"></a> msdyn_casetocaseresolutionmanualflowenabled
 
 |Property|Value|
@@ -649,6 +679,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Yes|
 |False Label|No|
 
+### <a name="BKMK_msdyn_copilottoolfilterforpersonalization"></a> msdyn_copilottoolfilterforpersonalization
+
+|Property|Value|
+|---|---|
+|Description|**Bot filter configuration for copilot tool personalization**|
+|DisplayName|**Bot Filter Configuration**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_copilottoolfilterforpersonalization`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
 ### <a name="BKMK_msdyn_csplugindefaultonstatus"></a> msdyn_csplugindefaultonstatus
 
 |Property|Value|
@@ -753,6 +800,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_draftwithcopilotappprofileenabled"></a> msdyn_draftwithcopilotappprofileenabled
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Draft With Copilot App Profile Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_draftwithcopilotappprofileenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_draftwithcopilotappprofileenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_dvcopilotstatus"></a> msdyn_dvcopilotstatus
 
@@ -889,6 +952,39 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|2000|
 
+### <a name="BKMK_msdyn_emailClassificationCategoryRule"></a> msdyn_emailClassificationCategoryRule
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Email Classification category rule value**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_emailClassificationCategoryRule`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|110000|
+
+### <a name="BKMK_msdyn_emailresolutionagentenabled"></a> msdyn_emailresolutionagentenabled
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Is Email Management Agent Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_emailresolutionagentenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_emailresolutionagentenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_emailsentimentenabled"></a> msdyn_emailsentimentenabled
 
 |Property|Value|
@@ -904,6 +1000,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_emailsentimentfilterfetchxml"></a> msdyn_emailsentimentfilterfetchxml
+
+|Property|Value|
+|---|---|
+|Description|**Stores the FetchXml query used to filter emails based on sentiment criteria**|
+|DisplayName|**Email Sentiment Filter FetchXml**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_emailsentimentfilterfetchxml`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
 
 ### <a name="BKMK_msdyn_emailtocasemanualflowenabled"></a> msdyn_emailtocasemanualflowenabled
 
@@ -938,6 +1051,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|1048576|
 
+### <a name="BKMK_msdyn_extendcopilotstudioagentenabled"></a> msdyn_extendcopilotstudioagentenabled
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Extend Copilot Studio Agent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_extendcopilotstudioagentenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_extendcopilotstudioagentenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_followuppromptsenabled"></a> msdyn_followuppromptsenabled
 
 |Property|Value|
@@ -951,6 +1080,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_followuppromptsenabled`|
 |DefaultValue|True|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_fullpagecopilotenabled"></a> msdyn_fullpagecopilotenabled
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Full Page Copilot Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_fullpagecopilotenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_fullpagecopilotenabled`|
+|DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
 
@@ -986,6 +1131,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Yes|
 |False Label|No|
 
+### <a name="BKMK_msdyn_InvokeOnEmailPostCreateEnabled"></a> msdyn_InvokeOnEmailPostCreateEnabled
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Invoke On Email Post Create Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_InvokeOnEmailPostCreateEnabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_invokeonemailpostcreateenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_isdeterministicknowledgeenabled"></a> msdyn_isdeterministicknowledgeenabled
 
 |Property|Value|
@@ -1014,6 +1175,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_isdvcopilotenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_isEmailClassificationEnabled"></a> msdyn_isEmailClassificationEnabled
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Is Email Classification Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isEmailClassificationEnabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_isemailclassificationenabled`|
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
@@ -1220,6 +1397,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Yes|
 |False Label|No|
 
+### <a name="BKMK_msdyn_mcscontextconfiguration"></a> msdyn_mcscontextconfiguration
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**MCS Context Configuration**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_mcscontextconfiguration`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
@@ -1236,6 +1430,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_organizationpromptentitydynamicfilters"></a> msdyn_organizationpromptentitydynamicfilters
+
+|Property|Value|
+|---|---|
+|Description|**JSON array of per-entity dynamic-filter attribute mappings for organization prompts, e.g. \[\{"entityname":"msdyn\_ocliveworkitem","attribute":"msdyn\_cdsqueueid"\}\].**|
+|DisplayName|**Organization Prompt Entity Dynamic Filters**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_organizationpromptentitydynamicfilters`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|10000|
 
 ### <a name="BKMK_msdyn_orgpromptfilterattribute"></a> msdyn_orgpromptfilterattribute
 
@@ -1304,6 +1515,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|1048576|
 
+### <a name="BKMK_msdyn_setexportable"></a> msdyn_setexportable
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether the setting row should be marked as exportable for downstream solutions.**|
+|DisplayName|**Set Exportable**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_setexportable`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_setexportable`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_sharepointsourceenabled"></a> msdyn_sharepointsourceenabled
 
 |Property|Value|
@@ -1316,6 +1543,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_sharepointsourceenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_sidecarimmersiveenabled"></a> msdyn_sidecarimmersiveenabled
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Sidecar Immersive Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_sidecarimmersiveenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_agentcopilotsetting_msdyn_sidecarimmersiveenabled`|
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|

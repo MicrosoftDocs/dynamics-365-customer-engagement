@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_leadagentresults(*msdyn_leadagentresultid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_leadagentresults<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -68,6 +67,7 @@ The following table lists selected properties for the Lead Agent Result (msdyn_l
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_assistleadpriority](#BKMK_msdyn_assistleadpriority)
 - [msdyn_bantscore](#BKMK_msdyn_bantscore)
 - [msdyn_cioengagementsummary](#BKMK_msdyn_cioengagementsummary)
 - [msdyn_cioengagementsummarylastrun](#BKMK_msdyn_cioengagementsummarylastrun)
@@ -112,6 +112,28 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_assistleadpriority"></a> msdyn_assistleadpriority
+
+|Property|Value|
+|---|---|
+|Description|**Determines the priority of the lead**|
+|DisplayName|**Assist lead priority**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_assistleadpriority`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_leadagentresult_msdyn_assistleadpriority`|
+
+#### msdyn_assistleadpriority Choices/Options
+
+|Value|Label|
+|---|---|
+|733490000|**High**|
+|733490001|**Medium**|
+|733490002|**Low**|
 
 ### <a name="BKMK_msdyn_bantscore"></a> msdyn_bantscore
 

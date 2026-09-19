@@ -68,6 +68,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_enableintent](#BKMK_msdyn_enableintent)
 - [msdyn_entitycopilotconfigurationId](#BKMK_msdyn_entitycopilotconfigurationId)
 - [msdyn_entityname](#BKMK_msdyn_entityname)
+- [msdyn_fullaccesscheckcustomaction](#BKMK_msdyn_fullaccesscheckcustomaction)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_showsentimentenabled](#BKMK_msdyn_showsentimentenabled)
 - [msdyn_showslatimercontrolenabled](#BKMK_msdyn_showslatimercontrolenabled)
@@ -198,6 +199,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_fullaccesscheckcustomaction"></a> msdyn_fullaccesscheckcustomaction
+
+|Property|Value|
+|---|---|
+|Description|**Logical name of the custom action to call for JIT access verification before granting full access to a record.**|
+|DisplayName|**Full Access Check Custom Action**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_fullaccesscheckcustomaction`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|250|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 

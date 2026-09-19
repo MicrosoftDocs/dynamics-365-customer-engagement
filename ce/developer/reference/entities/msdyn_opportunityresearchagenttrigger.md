@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_opportunityresearchagenttriggers(*msdyn_opportunityresearchagenttriggerid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_opportunityresearchagenttriggers<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -75,6 +74,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_OpportunityResearchAgentTriggerId](#BKMK_msdyn_OpportunityResearchAgentTriggerId)
 - [msdyn_OpportunityResearchTopic](#BKMK_msdyn_OpportunityResearchTopic)
 - [msdyn_RetryCount](#BKMK_msdyn_RetryCount)
+- [msdyn_SalesAgentProfile](#BKMK_msdyn_SalesAgentProfile)
 - [msdyn_SalesAgentRunId](#BKMK_msdyn_SalesAgentRunId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -199,9 +199,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100000010|**Related Conversation Mapping**|
 |100000011|**Deal Summary**|
 |100000012|**Chain Of Thoughts**|
-|100000013|**Custom OOB Account Research**|
 |100000014|**Custom Research Insight**|
-|100000015|**Summerized Account Research**|
+|100000015|**Historical Patterns**|
+|100001000|**Research Updates**|
 
 ### <a name="BKMK_msdyn_RetryCount"></a> msdyn_RetryCount
 
@@ -216,6 +216,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_SalesAgentProfile"></a> msdyn_SalesAgentProfile
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Sales Agent Profile**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_salesagentprofile`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_salesagentprofile|
 
 ### <a name="BKMK_msdyn_SalesAgentRunId"></a> msdyn_SalesAgentRunId
 
@@ -541,6 +554,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_opportunityresearchagenttrigger_createdonbehalfby](#BKMK_lk_msdyn_opportunityresearchagenttrigger_createdonbehalfby)
 - [lk_msdyn_opportunityresearchagenttrigger_modifiedby](#BKMK_lk_msdyn_opportunityresearchagenttrigger_modifiedby)
 - [lk_msdyn_opportunityresearchagenttrigger_modifiedonbehalfby](#BKMK_lk_msdyn_opportunityresearchagenttrigger_modifiedonbehalfby)
+- [msdyn_OpportunityResearchAgentTrigger_SalesAgentProfile_msdyn_salesagentprofile](#BKMK_msdyn_OpportunityResearchAgentTrigger_SalesAgentProfile_msdyn_salesagentprofile)
 - [owner_msdyn_opportunityresearchagenttrigger](#BKMK_owner_msdyn_opportunityresearchagenttrigger)
 - [team_msdyn_opportunityresearchagenttrigger](#BKMK_team_msdyn_opportunityresearchagenttrigger)
 - [user_msdyn_opportunityresearchagenttrigger](#BKMK_user_msdyn_opportunityresearchagenttrigger)
@@ -609,6 +623,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_opportunityresearchagenttrigger_m
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_OpportunityResearchAgentTrigger_SalesAgentProfile_msdyn_salesagentprofile"></a> msdyn_OpportunityResearchAgentTrigger_SalesAgentProfile_msdyn_salesagentprofile
+
+One-To-Many Relationship: [msdyn_salesagentprofile msdyn_OpportunityResearchAgentTrigger_SalesAgentProfile_msdyn_salesagentprofile](msdyn_salesagentprofile.md#BKMK_msdyn_OpportunityResearchAgentTrigger_SalesAgentProfile_msdyn_salesagentprofile)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_salesagentprofile`|
+|ReferencedAttribute|`msdyn_salesagentprofileid`|
+|ReferencingAttribute|`msdyn_salesagentprofile`|
+|ReferencingEntityNavigationPropertyName|`msdyn_SalesAgentProfile`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_owner_msdyn_opportunityresearchagenttrigger"></a> owner_msdyn_opportunityresearchagenttrigger
 

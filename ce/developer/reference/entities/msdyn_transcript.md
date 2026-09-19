@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_transcripts(*msdyn_transcriptid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_transcripts<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -70,8 +69,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_applicationid](#BKMK_msdyn_applicationid)
 - [msdyn_channelinstanceid](#BKMK_msdyn_channelinstanceid)
+- [msdyn_linkedcsrassisttranscriptids](#BKMK_msdyn_linkedcsrassisttranscriptids)
 - [msdyn_LiveWorkItemIdId](#BKMK_msdyn_LiveWorkItemIdId)
 - [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_originalstored](#BKMK_msdyn_originalstored)
+- [msdyn_redactionapplied](#BKMK_msdyn_redactionapplied)
+- [msdyn_redactionenabled](#BKMK_msdyn_redactionenabled)
 - [msdyn_transcriptId](#BKMK_msdyn_transcriptId)
 - [msdyn_transcripttarget](#BKMK_msdyn_transcripttarget)
 - [msdyn_transcripttargetIdType](#BKMK_msdyn_transcripttargetIdType)
@@ -128,6 +131,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Lookup|
 |Targets|msdyn_channelinstance|
 
+### <a name="BKMK_msdyn_linkedcsrassisttranscriptids"></a> msdyn_linkedcsrassisttranscriptids
+
+|Property|Value|
+|---|---|
+|Description|**Semicolon-separated list of linked CSR Assist transcript identifiers (GUIDs).**|
+|DisplayName|**Linked CSR Assist Transcript Ids**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_linkedcsrassisttranscriptids`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|4000|
+
 ### <a name="BKMK_msdyn_LiveWorkItemIdId"></a> msdyn_LiveWorkItemIdId
 
 |Property|Value|
@@ -157,6 +177,54 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_originalstored"></a> msdyn_originalstored
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether the original unredacted copy was stored.**|
+|DisplayName|**Original Stored**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_originalstored`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_transcript_msdyn_originalstored`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_redactionapplied"></a> msdyn_redactionapplied
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether redaction was successfully applied to the transcript.**|
+|DisplayName|**Redaction Applied**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_redactionapplied`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_transcript_msdyn_redactionapplied`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_redactionenabled"></a> msdyn_redactionenabled
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether redaction was enabled for this transcript.**|
+|DisplayName|**Redaction Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_redactionenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_transcript_msdyn_redactionenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_transcriptId"></a> msdyn_transcriptId
 
@@ -879,6 +947,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 
 - [msdyn_msdyn_conversationcomment_Transcript_msdyn_transcr](#BKMK_msdyn_msdyn_conversationcomment_Transcript_msdyn_transcr)
 - [msdyn_msdyn_sciconversation_Transcript_msdyn_tr](#BKMK_msdyn_msdyn_sciconversation_Transcript_msdyn_tr)
+- [msdyn_msdyn_transcript_msdyn_ocunredactedannotation_transcriptid](#BKMK_msdyn_msdyn_transcript_msdyn_ocunredactedannotation_transcriptid)
 - [msdyn_transcript_Annotations](#BKMK_msdyn_transcript_Annotations)
 - [msdyn_transcript_AsyncOperations](#BKMK_msdyn_transcript_AsyncOperations)
 - [msdyn_transcript_BulkDeleteFailures](#BKMK_msdyn_transcript_BulkDeleteFailures)
@@ -910,6 +979,18 @@ Many-To-One Relationship: [msdyn_sciconversation msdyn_msdyn_sciconversation_Tra
 |ReferencingAttribute|`msdyn_transcript`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_sciconversation_transcript_msdyn_tr`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_transcript_msdyn_ocunredactedannotation_transcriptid"></a> msdyn_msdyn_transcript_msdyn_ocunredactedannotation_transcriptid
+
+Many-To-One Relationship: [msdyn_ocunredactedannotation msdyn_msdyn_transcript_msdyn_ocunredactedannotation_transcriptid](msdyn_ocunredactedannotation.md#BKMK_msdyn_msdyn_transcript_msdyn_ocunredactedannotation_transcriptid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocunredactedannotation`|
+|ReferencingAttribute|`msdyn_transcriptid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_transcript_msdyn_ocunredactedannotation_transcriptid`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_transcript_Annotations"></a> msdyn_transcript_Annotations

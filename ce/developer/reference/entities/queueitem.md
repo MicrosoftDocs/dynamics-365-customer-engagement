@@ -63,6 +63,24 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |False Label|No|
 
 
+## Read-only columns/attributes
+
+These columns/attributes return false for both **IsValidForCreate** and **IsValidForUpdate**. Listed by **SchemaName**.
+
+### <a name="BKMK_InheritedParentClusterMode"></a> InheritedParentClusterMode
+
+|Property|Value|
+|---|---|
+|Description|**Cluster Mode of the parent entity record.**|
+|DisplayName|**Inherited parent Cluster Mode**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`inheritedparentclustermode`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
 ## Customized columns/attributes
 
 Microsoft Dynamics 365 modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
@@ -92,19 +110,19 @@ Changes from [ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer/data-p
 |4401|**Campaign Response**|
 |4402|**Campaign Activity**|
 |4406|**Quick Campaign**|
-|10250|**Teams chat**|
-|10266|**Knowledge Article Template**|
-|10405|**Invite Redemption**|
-|10406|**Portal Comment**|
-|10505|**IoT Alert**|
-|10717|**Customer Voice alert**|
-|10732|**Customer Voice survey invite**|
-|10735|**Customer Voice survey response**|
-|10797|**Overflow Action Config**|
-|10821|**Ongoing conversation (Deprecated)**|
-|10833|**Conversation**|
-|10850|**Session**|
-|11083|**Copilot Transcript**|
+|10270|**Teams chat**|
+|10286|**Knowledge Article Template**|
+|10442|**Invite Redemption**|
+|10443|**Portal Comment**|
+|10544|**IoT Alert**|
+|10758|**Customer Voice alert**|
+|10773|**Customer Voice survey invite**|
+|10776|**Customer Voice survey response**|
+|10847|**Overflow Action Config**|
+|10871|**Ongoing conversation (Deprecated)**|
+|10883|**Conversation**|
+|10900|**Session**|
+|11252|**Copilot Transcript**|
 
 ## Many-to-One relationships
 

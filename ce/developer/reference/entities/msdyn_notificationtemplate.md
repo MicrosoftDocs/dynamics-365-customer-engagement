@@ -83,6 +83,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_timeout](#BKMK_msdyn_timeout)
 - [msdyn_title](#BKMK_msdyn_title)
 - [msdyn_UniqueName](#BKMK_msdyn_UniqueName)
+- [msdyn_usemultilineandmultifield](#BKMK_msdyn_usemultilineandmultifield)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -368,6 +369,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|128|
+
+### <a name="BKMK_msdyn_usemultilineandmultifield"></a> msdyn_usemultilineandmultifield
+
+|Property|Value|
+|---|---|
+|Description|**Toggle this to enable or disable the new multiline and multifield notification template.**|
+|DisplayName|**Use multiline and multifield notification template**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_useMultiLineandMultiField`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_notificationtemplate_msdyn_usemultilineandmultifield`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

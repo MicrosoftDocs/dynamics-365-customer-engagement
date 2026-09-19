@@ -703,6 +703,8 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_oclanguage_PrincipalObjectAttributeAccesses](#BKMK_msdyn_oclanguage_PrincipalObjectAttributeAccesses)
 - [msdyn_oclanguage_ProcessSession](#BKMK_msdyn_oclanguage_ProcessSession)
 - [msdyn_oclanguage_SyncErrors](#BKMK_msdyn_oclanguage_SyncErrors)
+- [msdyn_promptmessagelocale_languageid_msdyn_oclanguage](#BKMK_msdyn_promptmessagelocale_languageid_msdyn_oclanguage)
+- [msdyn_promptmessagetemplate_defaultlanguageid_msdyn_oclanguage](#BKMK_msdyn_promptmessagetemplate_defaultlanguageid_msdyn_oclanguage)
 
 ### <a name="BKMK_msdyn_msdyn_oclanguage_msdyn_ocliveworkitem_customerlanguageid"></a> msdyn_msdyn_oclanguage_msdyn_ocliveworkitem_customerlanguageid
 
@@ -871,6 +873,30 @@ Many-To-One Relationship: [syncerror msdyn_oclanguage_SyncErrors](syncerror.md#B
 |ReferencedEntityNavigationPropertyName|`msdyn_oclanguage_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_promptmessagelocale_languageid_msdyn_oclanguage"></a> msdyn_promptmessagelocale_languageid_msdyn_oclanguage
+
+Many-To-One Relationship: [msdyn_promptmessagelocale msdyn_promptmessagelocale_languageid_msdyn_oclanguage](msdyn_promptmessagelocale.md#BKMK_msdyn_promptmessagelocale_languageid_msdyn_oclanguage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_promptmessagelocale`|
+|ReferencingAttribute|`msdyn_languageid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_promptmessagelocale_languageid_msdyn_oclanguage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_promptmessagetemplate_defaultlanguageid_msdyn_oclanguage"></a> msdyn_promptmessagetemplate_defaultlanguageid_msdyn_oclanguage
+
+Many-To-One Relationship: [msdyn_promptmessagetemplate msdyn_promptmessagetemplate_defaultlanguageid_msdyn_oclanguage](msdyn_promptmessagetemplate.md#BKMK_msdyn_promptmessagetemplate_defaultlanguageid_msdyn_oclanguage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_promptmessagetemplate`|
+|ReferencingAttribute|`msdyn_defaultlanguageid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_promptmessagetemplate_defaultlanguageid_msdyn_oclanguage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

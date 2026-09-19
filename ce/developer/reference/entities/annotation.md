@@ -48,7 +48,7 @@ Changes from [ObjectId (Microsoft Dataverse)](/power-apps/developer/data-platfor
 
 |Property|Value|
 |---|---|
-|Targets|bookableresource, bookableresourcebooking, bookableresourcebookingheader, bookableresourcecategoryassn, bookableresourcecharacteristic, bookableresourcegroup, bulkoperation, campaign, campaignactivity, campaignresponse, commitment, competitor, contract, contractdetail, entitlement, entitlementchannel, entitlementtemplate, equipment, incident, incidentresolution, invoice, lead, list, msdyn_agentcopilotterm, msdyn_copilottranscript, msdyn_customerasset, msdyn_forecastconfiguration, msdyn_forecastpredictionstatus, msdyn_functionallocation, msdyn_iotalert, msdyn_iotdevice, msdyn_iotdevicecategory, msdyn_iotdevicecommand, msdyn_iotdeviceregistrationhistory, msdyn_liveconversation, msdyn_ocflaggedspam, msdyn_ocliveworkitem, msdyn_ocsession, msdyn_overflowactionconfig, msdyn_personalsoundsetting, msdyn_playbookinstance, msdyn_playbooktemplate, msdyn_postalbum, msdyn_salessuggestion, msdyn_soundfile, msdyn_soundnotificationsetting, msdyn_summarysynthesizerinput, msdyn_summarysynthesizeroutput, msdyn_swarm, msdyn_synthesizeroutput, msdyn_taggedrecord, msdyn_transcript, msfp_alert, msfp_question, msfp_surveyinvite, msfp_surveyresponse, opportunity, opportunityclose, orderclose, product, quote, quoteclose, resourcespec, salesorder, service, serviceappointment|
+|Targets|bookableresource, bookableresourcebooking, bookableresourcebookingheader, bookableresourcecategoryassn, bookableresourcecharacteristic, bookableresourcegroup, bulkoperation, campaign, campaignactivity, campaignresponse, commitment, competitor, contract, contractdetail, entitlement, entitlementchannel, entitlementtemplate, equipment, incident, incidentresolution, invoice, lead, list, msdyn_agentcopilotterm, msdyn_copilottranscript, msdyn_customerasset, msdyn_forecastconfiguration, msdyn_forecastpredictionstatus, msdyn_functionallocation, msdyn_iotalert, msdyn_iotdevice, msdyn_iotdevicecategory, msdyn_iotdevicecommand, msdyn_iotdeviceregistrationhistory, msdyn_liveconversation, msdyn_ocflaggedspam, msdyn_ocliveworkitem, msdyn_ocsession, msdyn_overflowactionconfig, msdyn_personalsoundsetting, msdyn_playbookinstance, msdyn_playbooktemplate, msdyn_postalbum, msdyn_salessuggestion, msdyn_soundfile, msdyn_soundnotificationsetting, msdyn_summarysynthesizerinput, msdyn_summarysynthesizeroutput, msdyn_swarm, msdyn_synthesizeroutput, msdyn_taggedrecord, msdyn_transcript, msdyn_transformationtranscript, msfp_alert, msfp_question, msfp_surveyinvite, msfp_surveyresponse, opportunity, opportunityclose, orderclose, product, quote, quoteclose, resourcespec, salesorder, service, serviceappointment|
 
 
 ## Many-to-One relationships
@@ -103,6 +103,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_synthesizeroutput_Annotations](#BKMK_msdyn_synthesizeroutput_Annotations)
 - [msdyn_taggedrecord_Annotations](#BKMK_msdyn_taggedrecord_Annotations)
 - [msdyn_transcript_Annotations](#BKMK_msdyn_transcript_Annotations)
+- [msdyn_transformationtranscript_Annotations](#BKMK_msdyn_transformationtranscript_Annotations)
 - [msfp_alert_Annotations](#BKMK_msfp_alert_Annotations)
 - [msfp_question_Annotations](#BKMK_msfp_question_Annotations)
 - [msfp_surveyinvite_Annotations](#BKMK_msfp_surveyinvite_Annotations)
@@ -739,6 +740,19 @@ One-To-Many Relationship: [msdyn_transcript msdyn_transcript_Annotations](msdyn_
 |ReferencedAttribute|`msdyn_transcriptid`|
 |ReferencingAttribute|`objectid`|
 |ReferencingEntityNavigationPropertyName|`objectid_msdyn_transcript`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_transformationtranscript_Annotations"></a> msdyn_transformationtranscript_Annotations
+
+One-To-Many Relationship: [msdyn_transformationtranscript msdyn_transformationtranscript_Annotations](msdyn_transformationtranscript.md#BKMK_msdyn_transformationtranscript_Annotations)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_transformationtranscript`|
+|ReferencedAttribute|`msdyn_transformationtranscriptid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_transformationtranscript`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

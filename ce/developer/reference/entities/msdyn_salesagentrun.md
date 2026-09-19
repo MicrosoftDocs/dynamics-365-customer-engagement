@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_salesagentruns(*msdyn_salesagentrunid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_salesagentruns<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -77,6 +76,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_previoussalesagentrunid](#BKMK_msdyn_previoussalesagentrunid)
 - [msdyn_regardingid](#BKMK_msdyn_regardingid)
 - [msdyn_regardingidIdType](#BKMK_msdyn_regardingidIdType)
+- [msdyn_runafterdate](#BKMK_msdyn_runafterdate)
 - [msdyn_salesagentprofileid](#BKMK_msdyn_salesagentprofileid)
 - [msdyn_salesagentrunId](#BKMK_msdyn_salesagentrunId)
 - [msdyn_starttime](#BKMK_msdyn_starttime)
@@ -168,6 +168,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |14|**DCAEngageAgent**|
 |15|**ChainOfThoughtAgent**|
 |16|**DCAEngageAgentSimulation**|
+|17|**SalesProfilerAgent**|
+|18|**CustomInsightsAgent**|
+|19|**OpportunityResearchDeltaAgent**|
+|20|**HistoricalPatternsAgent**|
 
 ### <a name="BKMK_msdyn_endtime"></a> msdyn_endtime
 
@@ -252,6 +256,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_regardingididtype`|
 |RequiredLevel|None|
 |Type|EntityName|
+
+### <a name="BKMK_msdyn_runafterdate"></a> msdyn_runafterdate
+
+|Property|Value|
+|---|---|
+|Description|**DateTime after which the record can be processed again.**|
+|DisplayName|**Run after date**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_runafterdate`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
 
 ### <a name="BKMK_msdyn_salesagentprofileid"></a> msdyn_salesagentprofileid
 

@@ -72,6 +72,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_CriteriaJson](#BKMK_msdyn_CriteriaJson)
 - [msdyn_Description](#BKMK_msdyn_Description)
 - [msdyn_EvaluationCriteriaId](#BKMK_msdyn_EvaluationCriteriaId)
+- [msdyn_LanguageCode](#BKMK_msdyn_LanguageCode)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_Numberofassociatedplans](#BKMK_msdyn_Numberofassociatedplans)
 - [msdyn_NumberofQuestions](#BKMK_msdyn_NumberofQuestions)
@@ -168,6 +169,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_evaluationcriteriaid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_LanguageCode"></a> msdyn_LanguageCode
+
+|Property|Value|
+|---|---|
+|Description|**Language code**|
+|DisplayName|**Language code**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_languagecode`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 
@@ -794,6 +812,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_evaluationplan_EvaluationCriteria_msdyn_evaluationcriteria](#BKMK_msdyn_evaluationplan_EvaluationCriteria_msdyn_evaluationcriteria)
 - [msdyn_evaluationplanrun_EvaluationCriteria_msdyn_evaluationcriteria](#BKMK_msdyn_evaluationplanrun_EvaluationCriteria_msdyn_evaluationcriteria)
 - [msdyn_evaluationquestion_EvaluationCriteria_msdyn_evaluationcriteria](#BKMK_msdyn_evaluationquestion_EvaluationCriteria_msdyn_evaluationcriteria)
+- [msdyn_evaluationsimulationrun_msdyn_evaluationcriteria_msdyn_regardingobjectId](#BKMK_msdyn_evaluationsimulationrun_msdyn_evaluationcriteria_msdyn_regardingobjectId)
 
 ### <a name="BKMK_msdyn_evaluation_EvaluationCriteria_msdyn_evaluationcriteria"></a> msdyn_evaluation_EvaluationCriteria_msdyn_evaluationcriteria
 
@@ -948,6 +967,18 @@ Many-To-One Relationship: [msdyn_evaluationquestion msdyn_evaluationquestion_Eva
 |ReferencingEntity|`msdyn_evaluationquestion`|
 |ReferencingAttribute|`msdyn_evaluationcriteria`|
 |ReferencedEntityNavigationPropertyName|`msdyn_evaluationquestion_EvaluationCriteria_msdyn_evaluationcriteria`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_evaluationsimulationrun_msdyn_evaluationcriteria_msdyn_regardingobjectId"></a> msdyn_evaluationsimulationrun_msdyn_evaluationcriteria_msdyn_regardingobjectId
+
+Many-To-One Relationship: [msdyn_evaluationsimulationrun msdyn_evaluationsimulationrun_msdyn_evaluationcriteria_msdyn_regardingobjectId](msdyn_evaluationsimulationrun.md#BKMK_msdyn_evaluationsimulationrun_msdyn_evaluationcriteria_msdyn_regardingobjectId)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_evaluationsimulationrun`|
+|ReferencingAttribute|`msdyn_regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_evaluationsimulationrun_msdyn_evaluationcriteria_msdyn_regardingobjectid`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

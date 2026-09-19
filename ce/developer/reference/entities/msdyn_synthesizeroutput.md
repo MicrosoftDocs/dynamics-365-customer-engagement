@@ -68,6 +68,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_referenceobjectId](#BKMK_msdyn_referenceobjectId)
 - [msdyn_referenceobjectidIdType](#BKMK_msdyn_referenceobjectidIdType)
+- [msdyn_salesagentprofileid](#BKMK_msdyn_salesagentprofileid)
 - [msdyn_synthesizeroutputId](#BKMK_msdyn_synthesizeroutputId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -163,6 +164,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_referenceobjectididtype`|
 |RequiredLevel|None|
 |Type|EntityName|
+
+### <a name="BKMK_msdyn_salesagentprofileid"></a> msdyn_salesagentprofileid
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**SalesAgentProfileId**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_salesagentprofileid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_synthesizeroutputId"></a> msdyn_synthesizeroutputId
 

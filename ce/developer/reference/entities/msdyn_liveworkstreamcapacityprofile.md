@@ -69,6 +69,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
 - [msdyn_capacityProfile_id](#BKMK_msdyn_capacityProfile_id)
+- [msdyn_engagementprofileid](#BKMK_msdyn_engagementprofileid)
 - [msdyn_liveworkstreamcapacityprofileId](#BKMK_msdyn_liveworkstreamcapacityprofileId)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_workstream_id](#BKMK_msdyn_workstream_id)
@@ -118,6 +119,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|ApplicationRequired|
 |Type|Lookup|
 |Targets|msdyn_capacityprofile|
+
+### <a name="BKMK_msdyn_engagementprofileid"></a> msdyn_engagementprofileid
+
+|Property|Value|
+|---|---|
+|Description|**Engagement Profile (Channel Profile) associated with the Work Stream Capacity Profile**|
+|DisplayName|**Engagement Profile**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_engagementprofileid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_channelprofile|
 
 ### <a name="BKMK_msdyn_liveworkstreamcapacityprofileId"></a> msdyn_liveworkstreamcapacityprofileId
 
@@ -573,6 +587,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_liveworkstreamcapacityprofile_modifiedonbehalfby](#BKMK_lk_msdyn_liveworkstreamcapacityprofile_modifiedonbehalfby)
 - [msdyn_capacityprofile_msdyn_liveworkstreamcapacityprofileid](#BKMK_msdyn_capacityprofile_msdyn_liveworkstreamcapacityprofileid)
 - [msdyn_liveworkstream_msdyn_liveworkstreamcapacityprofile](#BKMK_msdyn_liveworkstream_msdyn_liveworkstreamcapacityprofile)
+- [msdyn_liveworkstreamcapacityprofile_msdyn_engagementprofileid_msdyn_channelprofile](#BKMK_msdyn_liveworkstreamcapacityprofile_msdyn_engagementprofileid_msdyn_channelprofile)
 - [owner_msdyn_liveworkstreamcapacityprofile](#BKMK_owner_msdyn_liveworkstreamcapacityprofile)
 - [team_msdyn_liveworkstreamcapacityprofile](#BKMK_team_msdyn_liveworkstreamcapacityprofile)
 - [user_msdyn_liveworkstreamcapacityprofile](#BKMK_user_msdyn_liveworkstreamcapacityprofile)
@@ -667,6 +682,19 @@ One-To-Many Relationship: [msdyn_liveworkstream msdyn_liveworkstream_msdyn_livew
 |ReferencingEntityNavigationPropertyName|`msdyn_workstream_id`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_liveworkstreamcapacityprofile_msdyn_engagementprofileid_msdyn_channelprofile"></a> msdyn_liveworkstreamcapacityprofile_msdyn_engagementprofileid_msdyn_channelprofile
+
+One-To-Many Relationship: [msdyn_channelprofile msdyn_liveworkstreamcapacityprofile_msdyn_engagementprofileid_msdyn_channelprofile](msdyn_channelprofile.md#BKMK_msdyn_liveworkstreamcapacityprofile_msdyn_engagementprofileid_msdyn_channelprofile)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_channelprofile`|
+|ReferencedAttribute|`msdyn_channelprofileid`|
+|ReferencingAttribute|`msdyn_engagementprofileid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_engagementprofileid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_owner_msdyn_liveworkstreamcapacityprofile"></a> owner_msdyn_liveworkstreamcapacityprofile
 

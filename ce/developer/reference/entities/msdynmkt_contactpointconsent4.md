@@ -708,7 +708,7 @@ One-To-Many Relationship: [businessunit business_unit_msdynmkt_contactpointconse
 |ReferencingAttribute|`owningbusinessunit`|
 |ReferencingEntityNavigationPropertyName|`owningbusinessunit`|
 |IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_email_msdynmkt_contactpointconsent4_messageid"></a> email_msdynmkt_contactpointconsent4_messageid
 

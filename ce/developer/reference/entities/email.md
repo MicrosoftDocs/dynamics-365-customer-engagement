@@ -32,7 +32,9 @@ Messages represent operations that can be performed on the table. They may also 
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [msdyn_autofill_type](#BKMK_msdyn_autofill_type)
+- [msdyn_classificationStatus](#BKMK_msdyn_classificationStatus)
 - [msdyn_copilotengaged](#BKMK_msdyn_copilotengaged)
+- [msdyn_emailclassificationcategory](#BKMK_msdyn_emailclassificationcategory)
 - [msdyn_emailengagementinteractions](#BKMK_msdyn_emailengagementinteractions)
 - [msdyn_RecipientList](#BKMK_msdyn_RecipientList)
 - [msdyn_sentiment](#BKMK_msdyn_sentiment)
@@ -61,6 +63,29 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |1|**Semi Autonomous**|
 |2|**Fully Autonomous**|
 
+### <a name="BKMK_msdyn_classificationStatus"></a> msdyn_classificationStatus
+
+|Property|Value|
+|---|---|
+|Description|**Classification Status**|
+|DisplayName|**Classification Status**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_classificationStatus`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|0|
+|GlobalChoiceName|`msdyn_email_msdyn_classificationstatus`|
+
+#### msdyn_classificationStatus Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Default**|
+|1|**Skipped**|
+|2|**Success**|
+|3|**Failed**|
+
 ### <a name="BKMK_msdyn_copilotengaged"></a> msdyn_copilotengaged
 
 |Property|Value|
@@ -76,6 +101,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_emailclassificationcategory"></a> msdyn_emailclassificationcategory
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Email category (AI)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_emailclassificationcategory`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_emailclassificationcategory|
 
 ### <a name="BKMK_msdyn_emailengagementinteractions"></a> msdyn_emailengagementinteractions
 
@@ -218,7 +256,7 @@ Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/dat
 
 |Property|Value|
 |---|---|
-|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, site|
+|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_emailthread, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, site|
 
 
 ### <a name="BKMK_related"></a> related
@@ -257,6 +295,8 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [Lead_Email_EmailSender](#BKMK_Lead_Email_EmailSender)
 - [Lead_Emails](#BKMK_Lead_Emails)
 - [msdyn_customerasset_Emails](#BKMK_msdyn_customerasset_Emails)
+- [msdyn_Email_msdyn_emailclassificationcategory_msdyn_emailclassificationcategory](#BKMK_msdyn_Email_msdyn_emailclassificationcategory_msdyn_emailclassificationcategory)
+- [msdyn_emailthread_Emails](#BKMK_msdyn_emailthread_Emails)
 - [msdyn_postalbum_Emails](#BKMK_msdyn_postalbum_Emails)
 - [msdyn_salessuggestion_Emails](#BKMK_msdyn_salessuggestion_Emails)
 - [msdyn_swarm_Emails](#BKMK_msdyn_swarm_Emails)
@@ -448,6 +488,32 @@ One-To-Many Relationship: [msdyn_customerasset msdyn_customerasset_Emails](msdyn
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 
+### <a name="BKMK_msdyn_Email_msdyn_emailclassificationcategory_msdyn_emailclassificationcategory"></a> msdyn_Email_msdyn_emailclassificationcategory_msdyn_emailclassificationcategory
+
+One-To-Many Relationship: [msdyn_emailclassificationcategory msdyn_Email_msdyn_emailclassificationcategory_msdyn_emailclassificationcategory](msdyn_emailclassificationcategory.md#BKMK_msdyn_Email_msdyn_emailclassificationcategory_msdyn_emailclassificationcategory)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_emailclassificationcategory`|
+|ReferencedAttribute|`msdyn_emailclassificationcategoryid`|
+|ReferencingAttribute|`msdyn_emailclassificationcategory`|
+|ReferencingEntityNavigationPropertyName|`msdyn_emailclassificationcategory_Email`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_emailthread_Emails"></a> msdyn_emailthread_Emails
+
+One-To-Many Relationship: [msdyn_emailthread msdyn_emailthread_Emails](msdyn_emailthread.md#BKMK_msdyn_emailthread_Emails)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_emailthread`|
+|ReferencedAttribute|`msdyn_emailthreadid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_emailthread_email`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
 ### <a name="BKMK_msdyn_postalbum_Emails"></a> msdyn_postalbum_Emails
 
 One-To-Many Relationship: [msdyn_postalbum msdyn_postalbum_Emails](msdyn_postalbum.md#BKMK_msdyn_postalbum_Emails)
@@ -560,11 +626,17 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [email_activitymonitor](#BKMK_email_activitymonitor)
 - [email_campaignresponse](#BKMK_email_campaignresponse)
 - [email_msdynmkt_contactpointconsent4_messageid](#BKMK_email_msdynmkt_contactpointconsent4_messageid)
+- [msdyn_agentsourceinfo_email](#BKMK_msdyn_agentsourceinfo_email)
 - [msdyn_email_email_msdyn_emailsentiment](#BKMK_msdyn_email_email_msdyn_emailsentiment)
+- [msdyn_email_msdyn_aiagentstatus](#BKMK_msdyn_email_msdyn_aiagentstatus)
 - [msdyn_email_msdyn_autocaseclosureagentactivity_activityid](#BKMK_msdyn_email_msdyn_autocaseclosureagentactivity_activityid)
 - [msdyn_email_msdyn_autocaseclosureagentactivity_autocaseclosureagentgeneratedemailid](#BKMK_msdyn_email_msdyn_autocaseclosureagentactivity_autocaseclosureagentgeneratedemailid)
+- [msdyn_email_msdyn_intententity_objectid](#BKMK_msdyn_email_msdyn_intententity_objectid)
 - [msdyn_email_msdyn_originatingqueue_email](#BKMK_msdyn_email_msdyn_originatingqueue_email)
+- [msdyn_EmailCoachingResult_EmailId_Email](#BKMK_msdyn_EmailCoachingResult_EmailId_Email)
+- [msdyn_intentcontexthistory_poly_email](#BKMK_msdyn_intentcontexthistory_poly_email)
 - [msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity](#BKMK_msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity)
+- [msdyn_msdyn_evaluation_email_msdyn_RegardingObjectId](#BKMK_msdyn_msdyn_evaluation_email_msdyn_RegardingObjectId)
 - [msdyn_msdyn_salescopilotinsight_email_msdyn_activityid](#BKMK_msdyn_msdyn_salescopilotinsight_email_msdyn_activityid)
 - [msdyn_readtracker_poly_email](#BKMK_msdyn_readtracker_poly_email)
 
@@ -604,6 +676,18 @@ Many-To-One Relationship: [msdynmkt_contactpointconsent4 email_msdynmkt_contactp
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_agentsourceinfo_email"></a> msdyn_agentsourceinfo_email
+
+Many-To-One Relationship: [msdyn_agentsourceinfo msdyn_agentsourceinfo_email](msdyn_agentsourceinfo.md#BKMK_msdyn_agentsourceinfo_email)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agentsourceinfo`|
+|ReferencingAttribute|`msdyn_regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_agentsourceinfo_email`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_email_email_msdyn_emailsentiment"></a> msdyn_email_email_msdyn_emailsentiment
 
 Many-To-One Relationship: [msdyn_emailsentiment msdyn_email_email_msdyn_emailsentiment](msdyn_emailsentiment.md#BKMK_msdyn_email_email_msdyn_emailsentiment)
@@ -613,6 +697,18 @@ Many-To-One Relationship: [msdyn_emailsentiment msdyn_email_email_msdyn_emailsen
 |ReferencingEntity|`msdyn_emailsentiment`|
 |ReferencingAttribute|`msdyn_email`|
 |ReferencedEntityNavigationPropertyName|`msdyn_email_email_msdyn_emailsentiment`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_email_msdyn_aiagentstatus"></a> msdyn_email_msdyn_aiagentstatus
+
+Many-To-One Relationship: [msdyn_aiagentstatus msdyn_email_msdyn_aiagentstatus](msdyn_aiagentstatus.md#BKMK_msdyn_email_msdyn_aiagentstatus)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_aiagentstatus`|
+|ReferencingAttribute|`msdyn_lastemailactivity`|
+|ReferencedEntityNavigationPropertyName|`msdyn_email_msdyn_aiagentstatus`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
@@ -640,6 +736,18 @@ Many-To-One Relationship: [msdyn_autocaseclosureagentactivity msdyn_email_msdyn_
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_email_msdyn_intententity_objectid"></a> msdyn_email_msdyn_intententity_objectid
+
+Many-To-One Relationship: [msdyn_intententity msdyn_email_msdyn_intententity_objectid](msdyn_intententity.md#BKMK_msdyn_email_msdyn_intententity_objectid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_intententity`|
+|ReferencingAttribute|`msdyn_objectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_email_msdyn_intententity_objectid`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_email_msdyn_originatingqueue_email"></a> msdyn_email_msdyn_originatingqueue_email
 
 Many-To-One Relationship: [msdyn_originatingqueue msdyn_email_msdyn_originatingqueue_email](msdyn_originatingqueue.md#BKMK_msdyn_email_msdyn_originatingqueue_email)
@@ -652,6 +760,30 @@ Many-To-One Relationship: [msdyn_originatingqueue msdyn_email_msdyn_originatingq
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_EmailCoachingResult_EmailId_Email"></a> msdyn_EmailCoachingResult_EmailId_Email
+
+Many-To-One Relationship: [msdyn_emailcoachingresult msdyn_EmailCoachingResult_EmailId_Email](msdyn_emailcoachingresult.md#BKMK_msdyn_EmailCoachingResult_EmailId_Email)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_emailcoachingresult`|
+|ReferencingAttribute|`msdyn_emailid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_EmailCoachingResult_EmailId_Email`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_intentcontexthistory_poly_email"></a> msdyn_intentcontexthistory_poly_email
+
+Many-To-One Relationship: [msdyn_intentcontexthistory msdyn_intentcontexthistory_poly_email](msdyn_intentcontexthistory.md#BKMK_msdyn_intentcontexthistory_poly_email)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_intentcontexthistory`|
+|ReferencingAttribute|`msdyn_relatedrecordid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_intentcontexthistory_poly_email`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity"></a> msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity
 
 Many-To-One Relationship: [msdyn_conversationactionitem msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity](msdyn_conversationactionitem.md#BKMK_msdyn_msdyn_conversationactionitem_email_msdyn_CreatedActivity)
@@ -662,6 +794,18 @@ Many-To-One Relationship: [msdyn_conversationactionitem msdyn_msdyn_conversation
 |ReferencingAttribute|`msdyn_createdactivity`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_conversationactionitem_email_msdyn_createdactivity`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_evaluation_email_msdyn_RegardingObjectId"></a> msdyn_msdyn_evaluation_email_msdyn_RegardingObjectId
+
+Many-To-One Relationship: [msdyn_evaluation msdyn_msdyn_evaluation_email_msdyn_RegardingObjectId](msdyn_evaluation.md#BKMK_msdyn_msdyn_evaluation_email_msdyn_RegardingObjectId)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_evaluation`|
+|ReferencingAttribute|`msdyn_regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_evaluation_email_msdyn_RegardingObjectId`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_salescopilotinsight_email_msdyn_activityid"></a> msdyn_msdyn_salescopilotinsight_email_msdyn_activityid

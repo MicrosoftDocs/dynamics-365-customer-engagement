@@ -692,6 +692,7 @@ One-To-Many Relationship: [systemuser user_msdyn_decisioncontract](systemuser.md
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_conversationprofile_msdyn_routingcontractid_msdyn_decisioncontract](#BKMK_msdyn_conversationprofile_msdyn_routingcontractid_msdyn_decisioncontract)
 - [msdyn_decisioncontract_AsyncOperations](#BKMK_msdyn_decisioncontract_AsyncOperations)
 - [msdyn_decisioncontract_BulkDeleteFailures](#BKMK_msdyn_decisioncontract_BulkDeleteFailures)
 - [msdyn_decisioncontract_DuplicateBaseRecord](#BKMK_msdyn_decisioncontract_DuplicateBaseRecord)
@@ -704,6 +705,18 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_decisioncontract_SyncErrors](#BKMK_msdyn_decisioncontract_SyncErrors)
 - [msdyn_liveworkstream_decisioncontractid](#BKMK_msdyn_liveworkstream_decisioncontractid)
 - [msdyn_queue_decisioncontractid](#BKMK_msdyn_queue_decisioncontractid)
+
+### <a name="BKMK_msdyn_conversationprofile_msdyn_routingcontractid_msdyn_decisioncontract"></a> msdyn_conversationprofile_msdyn_routingcontractid_msdyn_decisioncontract
+
+Many-To-One Relationship: [msdyn_conversationprofile msdyn_conversationprofile_msdyn_routingcontractid_msdyn_decisioncontract](msdyn_conversationprofile.md#BKMK_msdyn_conversationprofile_msdyn_routingcontractid_msdyn_decisioncontract)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_conversationprofile`|
+|ReferencingAttribute|`msdyn_routingcontractid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_conversationprofile_msdyn_routingcontractid_msdyn_decisioncontract`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_decisioncontract_AsyncOperations"></a> msdyn_decisioncontract_AsyncOperations
 

@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_evaluationplanbatchs(*msdyn_evaluationplanbatchid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_evaluationplanbatchs<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -73,11 +72,13 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_BatchProcessingStartedOn](#BKMK_msdyn_BatchProcessingStartedOn)
 - [msdyn_BatchSize](#BKMK_msdyn_BatchSize)
 - [msdyn_CriteriaJson](#BKMK_msdyn_CriteriaJson)
+- [msdyn_ErrorDetails](#BKMK_msdyn_ErrorDetails)
 - [msdyn_Evaluationmethod](#BKMK_msdyn_Evaluationmethod)
 - [msdyn_EvaluationPlanBatchId](#BKMK_msdyn_EvaluationPlanBatchId)
 - [msdyn_evaluationplanbatchids](#BKMK_msdyn_evaluationplanbatchids)
 - [msdyn_EvaluationPlanRun](#BKMK_msdyn_EvaluationPlanRun)
 - [msdyn_EvaluationsCreated](#BKMK_msdyn_EvaluationsCreated)
+- [msdyn_EvaluationsFailed](#BKMK_msdyn_EvaluationsFailed)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -179,6 +180,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|1048576|
 
+### <a name="BKMK_msdyn_ErrorDetails"></a> msdyn_ErrorDetails
+
+|Property|Value|
+|---|---|
+|Description|**Details of any errors that occurred during evaluation plan batch processing**|
+|DisplayName|**Error Details**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_errordetails`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
 ### <a name="BKMK_msdyn_Evaluationmethod"></a> msdyn_Evaluationmethod
 
 |Property|Value|
@@ -252,6 +270,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_evaluationscreated`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_EvaluationsFailed"></a> msdyn_EvaluationsFailed
+
+|Property|Value|
+|---|---|
+|Description|**Count of failed evaluation records**|
+|DisplayName|**Evaluations failed**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_evaluationsfailed`|
 |RequiredLevel|None|
 |Type|Integer|
 |MaxValue|2147483647|
@@ -358,6 +390,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |1|Label: **Active**<br />State:0<br />TransitionData: None|
 |2|Label: **Success**<br />State:1<br />TransitionData: None|
 |3|Label: **Failed**<br />State:1<br />TransitionData: None|
+|4|Label: **Partially completed**<br />State:1<br />TransitionData: None|
+|5|Label: **Configuration error**<br />State:1<br />TransitionData: None|
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
