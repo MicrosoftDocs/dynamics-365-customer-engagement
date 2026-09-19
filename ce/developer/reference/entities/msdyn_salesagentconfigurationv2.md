@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_salesagentconfigurationsv2(*msdyn_salesagentconfigurationv2id*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_salesagentconfigurationsv2<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -68,6 +67,7 @@ The following table lists selected properties for the SalesAgentConfigurationV2 
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [IsCustomizable](#BKMK_IsCustomizable)
 - [msdyn_MicroAgentConfiguration](#BKMK_msdyn_MicroAgentConfiguration)
 - [msdyn_MicroAgentType](#BKMK_msdyn_MicroAgentType)
 - [msdyn_name](#BKMK_msdyn_name)
@@ -93,6 +93,18 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_IsCustomizable"></a> IsCustomizable
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Is Customizable**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`iscustomizable`|
+|RequiredLevel|SystemRequired|
+|Type|ManagedProperty|
 
 ### <a name="BKMK_msdyn_MicroAgentConfiguration"></a> msdyn_MicroAgentConfiguration
 
@@ -138,6 +150,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |7|**DCA Outreach agent**|
 |8|**DCA Engage agent**|
 |9|**Email validation agent**|
+|10|**Sales Interaction Enrichment**|
+|11|**Recommended actions scoring agent**|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
@@ -285,18 +299,59 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 These columns/attributes return false for both **IsValidForCreate** and **IsValidForUpdate**. Listed by **SchemaName**.
 
+- [ComponentIdUnique](#BKMK_ComponentIdUnique)
+- [ComponentState](#BKMK_ComponentState)
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedOn](#BKMK_CreatedOn)
 - [CreatedOnBehalfBy](#BKMK_CreatedOnBehalfBy)
+- [IsManaged](#BKMK_IsManaged)
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedOn](#BKMK_ModifiedOn)
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
+- [OverwriteTime](#BKMK_OverwriteTime)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
 - [OwningTeam](#BKMK_OwningTeam)
 - [OwningUser](#BKMK_OwningUser)
+- [SolutionId](#BKMK_SolutionId)
+- [SupportingSolutionId](#BKMK_SupportingSolutionId)
 - [VersionNumber](#BKMK_VersionNumber)
+
+### <a name="BKMK_ComponentIdUnique"></a> ComponentIdUnique
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Row id unique**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`componentidunique`|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+### <a name="BKMK_ComponentState"></a> ComponentState
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Component State**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`componentstate`|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`componentstate`|
+
+#### ComponentState Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Published**|
+|1|**Unpublished**|
+|2|**Deleted**|
+|3|**Deleted Unpublished**|
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
@@ -341,6 +396,22 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |Type|Lookup|
 |Targets|systemuser|
 
+### <a name="BKMK_IsManaged"></a> IsManaged
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether the solution component is part of a managed solution.**|
+|DisplayName|**Is Managed**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`ismanaged`|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+|GlobalChoiceName|`ismanaged`|
+|DefaultValue|False|
+|True Label|Managed|
+|False Label|Unmanaged|
+
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
 |Property|Value|
@@ -383,6 +454,23 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|systemuser|
+
+### <a name="BKMK_OverwriteTime"></a> OverwriteTime
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Record Overwrite Time**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`overwritetime`|
+|RequiredLevel|SystemRequired|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
@@ -456,6 +544,30 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|systemuser|
+
+### <a name="BKMK_SolutionId"></a> SolutionId
+
+|Property|Value|
+|---|---|
+|Description|**Unique identifier of the associated solution.**|
+|DisplayName|**Solution**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`solutionid`|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+### <a name="BKMK_SupportingSolutionId"></a> SupportingSolutionId
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Solution**|
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|`supportingsolutionid`|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 

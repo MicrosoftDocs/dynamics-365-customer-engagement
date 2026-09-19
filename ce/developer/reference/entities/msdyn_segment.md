@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_segments(*msdyn_segmentid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_segments<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -766,8 +765,6 @@ One-To-Many Relationship: [systemuser user_msdyn_segment](systemuser.md#BKMK_use
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
-- [msdyn_msdyn_segment_account](#BKMK_msdyn_msdyn_segment_account)
-- [msdyn_msdyn_segment_contact](#BKMK_msdyn_msdyn_segment_contact)
 - [msdyn_msdyn_segment_lead](#BKMK_msdyn_msdyn_segment_lead)
 - [msdyn_msdyn_segment_msdyn_assignmentrule_segment](#BKMK_msdyn_msdyn_segment_msdyn_assignmentrule_segment)
 - [msdyn_msdyn_segment_msdyn_salesroutingrun_previoussegmentid](#BKMK_msdyn_msdyn_segment_msdyn_salesroutingrun_previoussegmentid)
@@ -783,30 +780,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_segment_PrincipalObjectAttributeAccesses](#BKMK_msdyn_segment_PrincipalObjectAttributeAccesses)
 - [msdyn_segment_ProcessSession](#BKMK_msdyn_segment_ProcessSession)
 - [msdyn_segment_SyncErrors](#BKMK_msdyn_segment_SyncErrors)
-
-### <a name="BKMK_msdyn_msdyn_segment_account"></a> msdyn_msdyn_segment_account
-
-Many-To-One Relationship: [account msdyn_msdyn_segment_account](account.md#BKMK_msdyn_msdyn_segment_account)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`account`|
-|ReferencingAttribute|`msdyn_segmentid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_segment_account`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
-
-### <a name="BKMK_msdyn_msdyn_segment_contact"></a> msdyn_msdyn_segment_contact
-
-Many-To-One Relationship: [contact msdyn_msdyn_segment_contact](contact.md#BKMK_msdyn_msdyn_segment_contact)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`contact`|
-|ReferencingAttribute|`msdyn_segmentid`|
-|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_segment_contact`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_segment_lead"></a> msdyn_msdyn_segment_lead
 

@@ -63,6 +63,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
 - [msdyn_basepresencestatus](#BKMK_msdyn_basepresencestatus)
+- [msdyn_canservicerepresentativeset](#BKMK_msdyn_canservicerepresentativeset)
+- [msdyn_cansupervisorset](#BKMK_msdyn_cansupervisorset)
 - [msdyn_canuserset](#BKMK_msdyn_canuserset)
 - [msdyn_description](#BKMK_msdyn_description)
 - [msdyn_name](#BKMK_msdyn_name)
@@ -123,6 +125,38 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192360002|**Busy - DND**|
 |192360003|**Away**|
 |192360004|**Offline**|
+
+### <a name="BKMK_msdyn_canservicerepresentativeset"></a> msdyn_canservicerepresentativeset
+
+|Property|Value|
+|---|---|
+|Description|**Indicates if this presence can be selected by a service representative (agent).**|
+|DisplayName|**Can be set by service representative**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_canservicerepresentativeset`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_presence_msdyn_canservicerepresentativeset`|
+|DefaultValue|True|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_cansupervisorset"></a> msdyn_cansupervisorset
+
+|Property|Value|
+|---|---|
+|Description|**Indicates if this presence can be set for an agent by a supervisor.**|
+|DisplayName|**Can be set by supervisor**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_cansupervisorset`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_presence_msdyn_cansupervisorset`|
+|DefaultValue|True|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_canuserset"></a> msdyn_canuserset
 
@@ -597,6 +631,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 
 - [msdyn_msdyn_presence_msdyn_agentcapacityupdatehistory_presenceid](#BKMK_msdyn_msdyn_presence_msdyn_agentcapacityupdatehistory_presenceid)
 - [msdyn_msdyn_presence_msdyn_agentstatushistory_presenceid](#BKMK_msdyn_msdyn_presence_msdyn_agentstatushistory_presenceid)
+- [msdyn_msdyn_presence_msdyn_oclocalizationdata_presenceid](#BKMK_msdyn_msdyn_presence_msdyn_oclocalizationdata_presenceid)
 - [msdyn_msdyn_presence_systemuser](#BKMK_msdyn_msdyn_presence_systemuser)
 - [msdyn_presence_AsyncOperations](#BKMK_msdyn_presence_AsyncOperations)
 - [msdyn_presence_BulkDeleteFailures](#BKMK_msdyn_presence_BulkDeleteFailures)
@@ -604,6 +639,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_presence_DuplicateMatchingRecord](#BKMK_msdyn_presence_DuplicateMatchingRecord)
 - [msdyn_presence_MailboxTrackingFolders](#BKMK_msdyn_presence_MailboxTrackingFolders)
 - [msdyn_presence_msdyn_agentstatus_currentpresenceid](#BKMK_msdyn_presence_msdyn_agentstatus_currentpresenceid)
+- [msdyn_presence_msdyn_agentstatus_nextpresenceid](#BKMK_msdyn_presence_msdyn_agentstatus_nextpresenceid)
 - [msdyn_presence_msdyn_omnichannelconfiguration_msdyn_dnd_presence_lookup](#BKMK_msdyn_presence_msdyn_omnichannelconfiguration_msdyn_dnd_presence_lookup)
 - [msdyn_presence_msdyn_omnichannelconfiguration_msdyn_inactive_presence_lookup](#BKMK_msdyn_presence_msdyn_omnichannelconfiguration_msdyn_inactive_presence_lookup)
 - [msdyn_presence_PrincipalObjectAttributeAccesses](#BKMK_msdyn_presence_PrincipalObjectAttributeAccesses)
@@ -632,6 +668,18 @@ Many-To-One Relationship: [msdyn_agentstatushistory msdyn_msdyn_presence_msdyn_a
 |ReferencingAttribute|`msdyn_presenceid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_presence_msdyn_agentstatushistory_presenceid`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_presence_msdyn_oclocalizationdata_presenceid"></a> msdyn_msdyn_presence_msdyn_oclocalizationdata_presenceid
+
+Many-To-One Relationship: [msdyn_oclocalizationdata msdyn_msdyn_presence_msdyn_oclocalizationdata_presenceid](msdyn_oclocalizationdata.md#BKMK_msdyn_msdyn_presence_msdyn_oclocalizationdata_presenceid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_oclocalizationdata`|
+|ReferencingAttribute|`msdyn_presenceid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_presence_msdyn_oclocalizationdata_presenceid`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_presence_systemuser"></a> msdyn_msdyn_presence_systemuser
@@ -715,6 +763,18 @@ Many-To-One Relationship: [msdyn_agentstatus msdyn_presence_msdyn_agentstatus_cu
 |ReferencingEntity|`msdyn_agentstatus`|
 |ReferencingAttribute|`msdyn_currentpresenceid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_presence_msdyn_agentstatus_currentpresenceid`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_presence_msdyn_agentstatus_nextpresenceid"></a> msdyn_presence_msdyn_agentstatus_nextpresenceid
+
+Many-To-One Relationship: [msdyn_agentstatus msdyn_presence_msdyn_agentstatus_nextpresenceid](msdyn_agentstatus.md#BKMK_msdyn_presence_msdyn_agentstatus_nextpresenceid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agentstatus`|
+|ReferencingAttribute|`msdyn_nextpresenceid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_presence_msdyn_agentstatus_nextpresenceid`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

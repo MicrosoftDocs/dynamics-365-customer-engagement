@@ -68,10 +68,35 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_agentexternalparticipantcontrolenabled](#BKMK_msdyn_agentexternalparticipantcontrolenabled)
+- [msdyn_agentexternalparticipanttransfercontrolenabled](#BKMK_msdyn_agentexternalparticipanttransfercontrolenabled)
+- [msdyn_agentexternalteamsparticipantcontrolenabled](#BKMK_msdyn_agentexternalteamsparticipantcontrolenabled)
+- [msdyn_agentexternalteamsparticipanttransfercontrolenabled](#BKMK_msdyn_agentexternalteamsparticipanttransfercontrolenabled)
+- [msdyn_allowedpresences](#BKMK_msdyn_allowedpresences)
+- [msdyn_announceaveragewaittime](#BKMK_msdyn_announceaveragewaittime)
+- [msdyn_announcepositioninqueue](#BKMK_msdyn_announcepositioninqueue)
+- [msdyn_autocloseafterinactivity](#BKMK_msdyn_autocloseafterinactivity)
+- [msdyn_averagewaittime_enabled](#BKMK_msdyn_averagewaittime_enabled)
+- [msdyn_capacityformat](#BKMK_msdyn_capacityformat)
+- [msdyn_capacityrequired](#BKMK_msdyn_capacityrequired)
+- [msdyn_capacitywrapuptimeid](#BKMK_msdyn_capacitywrapuptimeid)
 - [msdyn_channelprofileId](#BKMK_msdyn_channelprofileId)
 - [msdyn_conversationmode](#BKMK_msdyn_conversationmode)
+- [msdyn_description](#BKMK_msdyn_description)
+- [msdyn_enableagentaffinity](#BKMK_msdyn_enableagentaffinity)
+- [msdyn_isconversationcounterenabled](#BKMK_msdyn_isconversationcounterenabled)
+- [msdyn_matchinglogic](#BKMK_msdyn_matchinglogic)
+- [msdyn_maxdispositioncodesperconversation](#BKMK_msdyn_maxdispositioncodesperconversation)
 - [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_positioninqueue_enabled](#BKMK_msdyn_positioninqueue_enabled)
+- [msdyn_requireddispositioncodeforchannelprofileconversations](#BKMK_msdyn_requireddispositioncodeforchannelprofileconversations)
+- [msdyn_sessiontemplate_default](#BKMK_msdyn_sessiontemplate_default)
 - [msdyn_streamsource](#BKMK_msdyn_streamsource)
+- [msdyn_surveyconfigid](#BKMK_msdyn_surveyconfigid)
+- [msdyn_usebridgetransferforpstntransfer](#BKMK_msdyn_usebridgetransferforpstntransfer)
+- [msdyn_usebridgetransferforteamstransfer](#BKMK_msdyn_usebridgetransferforteamstransfer)
+- [msdyn_useglobalsettingsforrequiringdispositioncode](#BKMK_msdyn_useglobalsettingsforrequiringdispositioncode)
+- [msdyn_workdistributionmode](#BKMK_msdyn_workdistributionmode)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -106,6 +131,204 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
 
+### <a name="BKMK_msdyn_agentexternalparticipantcontrolenabled"></a> msdyn_agentexternalparticipantcontrolenabled
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether representatives can control external participants on this channel profile**|
+|DisplayName|**Agent external participant control enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_agentexternalparticipantcontrolenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_channelprofile_msdyn_agentexternalparticipantcontrolenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_agentexternalparticipanttransfercontrolenabled"></a> msdyn_agentexternalparticipanttransfercontrolenabled
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether representatives can control external participant transfers on this channel profile**|
+|DisplayName|**Agent external participant transfer control enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_agentexternalparticipanttransfercontrolenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_channelprofile_msdyn_agentexternalparticipanttransfercontrolenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_agentexternalteamsparticipantcontrolenabled"></a> msdyn_agentexternalteamsparticipantcontrolenabled
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether representatives can control external Teams participants on this channel profile**|
+|DisplayName|**Agent external teams participant control enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_agentexternalteamsparticipantcontrolenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_channelprofile_msdyn_agentexternalteamsparticipantcontrolenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_agentexternalteamsparticipanttransfercontrolenabled"></a> msdyn_agentexternalteamsparticipanttransfercontrolenabled
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether representatives can control external Teams participant transfers on this channel profile**|
+|DisplayName|**Agent external teams participant transfer control enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_agentexternalteamsparticipanttransfercontrolenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_channelprofile_msdyn_agentexternalteamsparticipanttransfercontrolenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_allowedpresences"></a> msdyn_allowedpresences
+
+|Property|Value|
+|---|---|
+|Description|**Presence statuses in which representatives can receive work from this channel profile**|
+|DisplayName|**Allowed Presences**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_allowedpresences`|
+|RequiredLevel|None|
+|Type|MultiSelectPicklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_basepresencestatus`|
+
+#### msdyn_allowedpresences Choices/Options
+
+|Value|Label|
+|---|---|
+|192360000|**Available**|
+|192360001|**Busy**|
+|192360002|**Busy - DND**|
+|192360003|**Away**|
+|192360004|**Offline**|
+
+### <a name="BKMK_msdyn_announceaveragewaittime"></a> msdyn_announceaveragewaittime
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether average wait time is announced for this channel profile**|
+|DisplayName|**Announce average wait time**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_announceaveragewaittime`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_channelprofile_msdyn_announceaveragewaittime`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_announcepositioninqueue"></a> msdyn_announcepositioninqueue
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether position in queue is announced for this channel profile**|
+|DisplayName|**Announce position in queue**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_announcepositioninqueue`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_channelprofile_msdyn_announcepositioninqueue`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_autocloseafterinactivity"></a> msdyn_autocloseafterinactivity
+
+|Property|Value|
+|---|---|
+|Description|**Duration of inactivity after which conversations on this channel profile are automatically closed**|
+|DisplayName|**Auto-close after inactivity**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_autocloseafterinactivity`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_averagewaittime_enabled"></a> msdyn_averagewaittime_enabled
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether average wait time is enabled for this channel profile**|
+|DisplayName|**Average wait time enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_averagewaittime_enabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_channelprofile_msdyn_averagewaittime_enabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_capacityformat"></a> msdyn_capacityformat
+
+|Property|Value|
+|---|---|
+|Description|**Unit in which capacity is consumed for conversations on this channel profile**|
+|DisplayName|**Capacity format**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_capacityformat`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_capacityformat`|
+
+#### msdyn_capacityformat Choices/Options
+
+|Value|Label|
+|---|---|
+|192350000|**Unit based**|
+|192360000|**Profile based**|
+
+### <a name="BKMK_msdyn_capacityrequired"></a> msdyn_capacityrequired
+
+|Property|Value|
+|---|---|
+|Description|**Amount of capacity a conversation on this channel profile consumes**|
+|DisplayName|**Capacity**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_capacityrequired`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_capacitywrapuptimeid"></a> msdyn_capacitywrapuptimeid
+
+|Property|Value|
+|---|---|
+|Description|**Channel Wrap up time associated with Channel Profile**|
+|DisplayName|**Capacity Wrap Up Time Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_capacitywrapuptimeid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_capacitywrapuptime|
+
 ### <a name="BKMK_msdyn_channelprofileId"></a> msdyn_channelprofileId
 
 |Property|Value|
@@ -139,6 +362,90 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350000|**Live Chat**|
 |192350001|**Persistent Chat**|
 
+### <a name="BKMK_msdyn_description"></a> msdyn_description
+
+|Property|Value|
+|---|---|
+|Description|**Description of the channel profile**|
+|DisplayName|**Description**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_description`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2000|
+
+### <a name="BKMK_msdyn_enableagentaffinity"></a> msdyn_enableagentaffinity
+
+|Property|Value|
+|---|---|
+|Description|**When enabled, the same representative is kept for the entire conversation on this channel profile.**|
+|DisplayName|**Enable Agent Affinity**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enableagentaffinity`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_channelprofile_msdyn_enableagentaffinity`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_isconversationcounterenabled"></a> msdyn_isconversationcounterenabled
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether the live conversation counter is enabled for this channel profile**|
+|DisplayName|**Is Live conversation counter enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isconversationcounterenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_channelprofile_msdyn_isconversationcounterenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_matchinglogic"></a> msdyn_matchinglogic
+
+|Property|Value|
+|---|---|
+|Description|**Logic used to match conversations to representatives for this channel profile**|
+|DisplayName|**Matching Logic**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_matchinglogic`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_channelprofile_msdyn_matchinglogic`|
+
+#### msdyn_matchinglogic Choices/Options
+
+|Value|Label|
+|---|---|
+|192350000|**Exact Match**|
+|192350001|**Closest Match**|
+
+### <a name="BKMK_msdyn_maxdispositioncodesperconversation"></a> msdyn_maxdispositioncodesperconversation
+
+|Property|Value|
+|---|---|
+|Description|**Maximum number of disposition codes allowed per conversation on this channel profile**|
+|DisplayName|**Maximum number of disposition codes allowed**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_maxdispositioncodesperconversation`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|1|
+
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
@@ -155,6 +462,55 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|850|
+
+### <a name="BKMK_msdyn_positioninqueue_enabled"></a> msdyn_positioninqueue_enabled
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether position in queue is enabled for this channel profile**|
+|DisplayName|**Position in queue enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_positioninqueue_enabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_channelprofile_msdyn_positioninqueue_enabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_requireddispositioncodeforchannelprofileconversations"></a> msdyn_requireddispositioncodeforchannelprofileconversations
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether disposition codes are required to close conversations on this channel profile**|
+|DisplayName|**Requires disposition codes to close conversations**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_requireddispositioncodeforchannelprofileconversations`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_channelprofile_msdyn_requireddispositioncodeforchannelprofileconversations`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_sessiontemplate_default"></a> msdyn_sessiontemplate_default
+
+|Property|Value|
+|---|---|
+|Description|**Default session template applied for conversations on this channel profile**|
+|DisplayName|**Default**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_sessiontemplate_default`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|200|
 
 ### <a name="BKMK_msdyn_streamsource"></a> msdyn_streamsource
 
@@ -175,6 +531,88 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Value|Label|
 |---|---|
 |192350000|**Entity Records**|
+
+### <a name="BKMK_msdyn_surveyconfigid"></a> msdyn_surveyconfigid
+
+|Property|Value|
+|---|---|
+|Description|**Channel Survey Configuration associated with Channel Profile**|
+|DisplayName|**Survey Configuration Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_surveyconfigid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_channelprofilesurveyconfig|
+
+### <a name="BKMK_msdyn_usebridgetransferforpstntransfer"></a> msdyn_usebridgetransferforpstntransfer
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether bridge transfer is used for PSTN transfers on this channel profile**|
+|DisplayName|**Use bridge transfer for PSTN transfer**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_usebridgetransferforpstntransfer`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_channelprofile_msdyn_usebridgetransferforpstntransfer`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_usebridgetransferforteamstransfer"></a> msdyn_usebridgetransferforteamstransfer
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether bridge transfer is used for Teams transfers on this channel profile**|
+|DisplayName|**Use bridge transfer for Teams transfer**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_usebridgetransferforteamstransfer`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_channelprofile_msdyn_usebridgetransferforteamstransfer`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_useglobalsettingsforrequiringdispositioncode"></a> msdyn_useglobalsettingsforrequiringdispositioncode
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether global settings are used for requiring disposition codes on this channel profile**|
+|DisplayName|**Use global settings for requiring disposition code**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_useglobalsettingsforrequiringdispositioncode`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_channelprofile_msdyn_useglobalsettingsforrequiringdispositioncode`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_workdistributionmode"></a> msdyn_workdistributionmode
+
+|Property|Value|
+|---|---|
+|Description|**Specifies the mode i.e Push/Pick for the channel profile**|
+|DisplayName|**Work Distribution Mode**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_workdistributionmode`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|192350000|
+|GlobalChoiceName|`msdyn_workdistributionmode`|
+
+#### msdyn_workdistributionmode Choices/Options
+
+|Value|Label|
+|---|---|
+|192350000|**Push**|
+|192350001|**Pick**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
@@ -586,6 +1024,8 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_channelprofile_createdonbehalfby](#BKMK_lk_msdyn_channelprofile_createdonbehalfby)
 - [lk_msdyn_channelprofile_modifiedby](#BKMK_lk_msdyn_channelprofile_modifiedby)
 - [lk_msdyn_channelprofile_modifiedonbehalfby](#BKMK_lk_msdyn_channelprofile_modifiedonbehalfby)
+- [msdyn_channelprofile_msdyn_capacitywrapuptimeid_msdyn_capacitywrapuptime](#BKMK_msdyn_channelprofile_msdyn_capacitywrapuptimeid_msdyn_capacitywrapuptime)
+- [msdyn_channelprofile_msdyn_surveyconfigid_msdyn_channelprofilesurveyconfig](#BKMK_msdyn_channelprofile_msdyn_surveyconfigid_msdyn_channelprofilesurveyconfig)
 - [owner_msdyn_channelprofile](#BKMK_owner_msdyn_channelprofile)
 - [team_msdyn_channelprofile](#BKMK_team_msdyn_channelprofile)
 - [user_msdyn_channelprofile](#BKMK_user_msdyn_channelprofile)
@@ -655,6 +1095,32 @@ One-To-Many Relationship: [systemuser lk_msdyn_channelprofile_modifiedonbehalfby
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_channelprofile_msdyn_capacitywrapuptimeid_msdyn_capacitywrapuptime"></a> msdyn_channelprofile_msdyn_capacitywrapuptimeid_msdyn_capacitywrapuptime
+
+One-To-Many Relationship: [msdyn_capacitywrapuptime msdyn_channelprofile_msdyn_capacitywrapuptimeid_msdyn_capacitywrapuptime](msdyn_capacitywrapuptime.md#BKMK_msdyn_channelprofile_msdyn_capacitywrapuptimeid_msdyn_capacitywrapuptime)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_capacitywrapuptime`|
+|ReferencedAttribute|`msdyn_capacitywrapuptimeid`|
+|ReferencingAttribute|`msdyn_capacitywrapuptimeid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_capacitywrapuptimeid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_channelprofile_msdyn_surveyconfigid_msdyn_channelprofilesurveyconfig"></a> msdyn_channelprofile_msdyn_surveyconfigid_msdyn_channelprofilesurveyconfig
+
+One-To-Many Relationship: [msdyn_channelprofilesurveyconfig msdyn_channelprofile_msdyn_surveyconfigid_msdyn_channelprofilesurveyconfig](msdyn_channelprofilesurveyconfig.md#BKMK_msdyn_channelprofile_msdyn_surveyconfigid_msdyn_channelprofilesurveyconfig)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_channelprofilesurveyconfig`|
+|ReferencedAttribute|`msdyn_channelprofilesurveyconfigid`|
+|ReferencingAttribute|`msdyn_surveyconfigid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_surveyconfigid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_owner_msdyn_channelprofile"></a> owner_msdyn_channelprofile
 
 One-To-Many Relationship: [owner owner_msdyn_channelprofile](owner.md#BKMK_owner_msdyn_channelprofile)
@@ -707,7 +1173,11 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_channelprofile_PrincipalObjectAttributeAccesses](#BKMK_msdyn_channelprofile_PrincipalObjectAttributeAccesses)
 - [msdyn_channelprofile_ProcessSession](#BKMK_msdyn_channelprofile_ProcessSession)
 - [msdyn_channelprofile_SyncErrors](#BKMK_msdyn_channelprofile_SyncErrors)
+- [msdyn_channelprofilenotificationtemplate_msdyn_channelprofileid_msdyn_channelprofile](#BKMK_msdyn_channelprofilenotificationtemplate_msdyn_channelprofileid_msdyn_channelprofile)
+- [msdyn_liveworkstreamcapacityprofile_msdyn_engagementprofileid_msdyn_channelprofile](#BKMK_msdyn_liveworkstreamcapacityprofile_msdyn_engagementprofileid_msdyn_channelprofile)
+- [msdyn_ocliveworkitem_msdyn_engagementprofileid_msdyn_channelprofile](#BKMK_msdyn_ocliveworkitem_msdyn_engagementprofileid_msdyn_channelprofile)
 - [msdyn_ocsession_msdyn_channelprofileid_msdyn_channelprofile](#BKMK_msdyn_ocsession_msdyn_channelprofileid_msdyn_channelprofile)
+- [Queue_msdyn_channelprofileid_msdyn_channelprofile](#BKMK_Queue_msdyn_channelprofileid_msdyn_channelprofile)
 
 ### <a name="BKMK_msdyn_channelprofile_AsyncOperations"></a> msdyn_channelprofile_AsyncOperations
 
@@ -805,6 +1275,42 @@ Many-To-One Relationship: [syncerror msdyn_channelprofile_SyncErrors](syncerror.
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_channelprofilenotificationtemplate_msdyn_channelprofileid_msdyn_channelprofile"></a> msdyn_channelprofilenotificationtemplate_msdyn_channelprofileid_msdyn_channelprofile
+
+Many-To-One Relationship: [msdyn_channelprofilenotificationtemplate msdyn_channelprofilenotificationtemplate_msdyn_channelprofileid_msdyn_channelprofile](msdyn_channelprofilenotificationtemplate.md#BKMK_msdyn_channelprofilenotificationtemplate_msdyn_channelprofileid_msdyn_channelprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_channelprofilenotificationtemplate`|
+|ReferencingAttribute|`msdyn_channelprofileid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_channelprofilenotificationtemplate_msdyn_channelprofileid_msdyn_channelprofile`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_liveworkstreamcapacityprofile_msdyn_engagementprofileid_msdyn_channelprofile"></a> msdyn_liveworkstreamcapacityprofile_msdyn_engagementprofileid_msdyn_channelprofile
+
+Many-To-One Relationship: [msdyn_liveworkstreamcapacityprofile msdyn_liveworkstreamcapacityprofile_msdyn_engagementprofileid_msdyn_channelprofile](msdyn_liveworkstreamcapacityprofile.md#BKMK_msdyn_liveworkstreamcapacityprofile_msdyn_engagementprofileid_msdyn_channelprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_liveworkstreamcapacityprofile`|
+|ReferencingAttribute|`msdyn_engagementprofileid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_liveworkstreamcapacityprofile_msdyn_engagementprofileid_msdyn_channelprofile`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocliveworkitem_msdyn_engagementprofileid_msdyn_channelprofile"></a> msdyn_ocliveworkitem_msdyn_engagementprofileid_msdyn_channelprofile
+
+Many-To-One Relationship: [msdyn_ocliveworkitem msdyn_ocliveworkitem_msdyn_engagementprofileid_msdyn_channelprofile](msdyn_ocliveworkitem.md#BKMK_msdyn_ocliveworkitem_msdyn_engagementprofileid_msdyn_channelprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocliveworkitem`|
+|ReferencingAttribute|`msdyn_engagementprofileid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocliveworkitem_msdyn_engagementprofileid_msdyn_channelprofile`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_ocsession_msdyn_channelprofileid_msdyn_channelprofile"></a> msdyn_ocsession_msdyn_channelprofileid_msdyn_channelprofile
 
 Many-To-One Relationship: [msdyn_ocsession msdyn_ocsession_msdyn_channelprofileid_msdyn_channelprofile](msdyn_ocsession.md#BKMK_msdyn_ocsession_msdyn_channelprofileid_msdyn_channelprofile)
@@ -817,6 +1323,18 @@ Many-To-One Relationship: [msdyn_ocsession msdyn_ocsession_msdyn_channelprofilei
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_Queue_msdyn_channelprofileid_msdyn_channelprofile"></a> Queue_msdyn_channelprofileid_msdyn_channelprofile
+
+Many-To-One Relationship: [queue Queue_msdyn_channelprofileid_msdyn_channelprofile](queue.md#BKMK_Queue_msdyn_channelprofileid_msdyn_channelprofile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`queue`|
+|ReferencingAttribute|`msdyn_channelprofileid`|
+|ReferencedEntityNavigationPropertyName|`Queue_msdyn_channelprofileid_msdyn_channelprofile`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 
 ## Many-to-Many relationships
 
@@ -824,6 +1342,7 @@ These relationships are many-to-many. Listed by **SchemaName**.
 
 - [msdyn_msdyn_channelprofile_msdyn_ocautomatedactionrule](#BKMK_msdyn_msdyn_channelprofile_msdyn_ocautomatedactionrule)
 - [msdyn_msdyn_channelprofile_msdyn_ocsystemmessage](#BKMK_msdyn_msdyn_channelprofile_msdyn_ocsystemmessage)
+- [msdyn_msdyn_channelprofile_systemuser](#BKMK_msdyn_msdyn_channelprofile_systemuser)
 
 ### <a name="BKMK_msdyn_msdyn_channelprofile_msdyn_ocautomatedactionrule"></a> msdyn_msdyn_channelprofile_msdyn_ocautomatedactionrule
 
@@ -850,6 +1369,19 @@ See [msdyn_ocsystemmessage msdyn_msdyn_channelprofile_msdyn_ocsystemmessage Many
 |IntersectAttribute|`msdyn_channelprofileid`|
 |NavigationPropertyName|`msdyn_msdyn_channelprofile_msdyn_ocsystemmessage`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_channelprofile_systemuser"></a> msdyn_msdyn_channelprofile_systemuser
+
+See [systemuser msdyn_msdyn_channelprofile_systemuser Many-To-Many Relationship](systemuser.md#BKMK_msdyn_msdyn_channelprofile_systemuser)
+
+|Property|Value|
+|---|---|
+|IntersectEntityName|`msdyn_msdyn_channelprofile_systemuser`|
+|IsCustomizable|False|
+|SchemaName|`msdyn_msdyn_channelprofile_systemuser`|
+|IntersectAttribute|`msdyn_channelprofileid`|
+|NavigationPropertyName|`msdyn_msdyn_channelprofile_systemuser`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

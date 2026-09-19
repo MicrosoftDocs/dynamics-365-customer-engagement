@@ -27,7 +27,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `Disassociate`<br />Event: True |[Disassociate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Disassociate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-disassociate-method-or-disassociaterequest)|
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_autocaseclosureagentactivities(*msdyn_autocaseclosureagentactivityid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_autocaseclosureagentactivities<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -64,6 +63,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_activityid](#BKMK_msdyn_activityid)
 - [msdyn_activitytype](#BKMK_msdyn_activitytype)
+- [msdyn_aisimulationrunid](#BKMK_msdyn_aisimulationrunid)
 - [msdyn_autocaseclosureagentactivityId](#BKMK_msdyn_autocaseclosureagentactivityId)
 - [msdyn_autocaseclosureagentgeneratedemailid](#BKMK_msdyn_autocaseclosureagentgeneratedemailid)
 - [msdyn_autocaseclosureagentmonitoringid](#BKMK_msdyn_autocaseclosureagentmonitoringid)
@@ -129,6 +129,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |419550000|**GenerateFollowupEmail**|
 |419550001|**AnalyzeCustomerResponse**|
+
+### <a name="BKMK_msdyn_aisimulationrunid"></a> msdyn_aisimulationrunid
+
+|Property|Value|
+|---|---|
+|Description|**ID of the simulation run if this activity is part of a simulation**|
+|DisplayName|**AI Simulation Run ID**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_aisimulationrunid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_autocaseclosureagentactivityId"></a> msdyn_autocaseclosureagentactivityId
 

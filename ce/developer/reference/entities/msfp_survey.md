@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msfp_surveies(*msfp_surveyid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msfp_surveies<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -68,9 +67,6 @@ The following table lists selected properties for the Customer Voice survey (msf
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_mcsbotstatus](#BKMK_msdyn_mcsbotstatus)
-- [msdyn_microsoftcopilotstudiobot](#BKMK_msdyn_microsoftcopilotstudiobot)
-- [msdyn_surveyprovider](#BKMK_msdyn_surveyprovider)
 - [msfp_acceptanonymousresponses](#BKMK_msfp_acceptanonymousresponses)
 - [msfp_anonymousurl](#BKMK_msfp_anonymousurl)
 - [msfp_description](#BKMK_msfp_description)
@@ -114,62 +110,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
-
-### <a name="BKMK_msdyn_mcsbotstatus"></a> msdyn_mcsbotstatus
-
-|Property|Value|
-|---|---|
-|Description|**MCS Bot Status**|
-|DisplayName|**MCSBotStatus**|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|`msdyn_mcsbotstatus`|
-|RequiredLevel|None|
-|Type|Picklist|
-|DefaultFormValue|357890000|
-|GlobalChoiceName|`msdyn_msfp_survey_msdyn_mcsbotstatus`|
-
-#### msdyn_mcsbotstatus Choices/Options
-
-|Value|Label|
-|---|---|
-|357890000|**InProgress**|
-|357890001|**Ready**|
-|357890002|**Disconnected**|
-
-### <a name="BKMK_msdyn_microsoftcopilotstudiobot"></a> msdyn_microsoftcopilotstudiobot
-
-|Property|Value|
-|---|---|
-|Description||
-|DisplayName|**Microsoft Copilot Studio Bot**|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|`msdyn_microsoftcopilotstudiobot`|
-|RequiredLevel|None|
-|Type|Lookup|
-|Targets|bot|
-
-### <a name="BKMK_msdyn_surveyprovider"></a> msdyn_surveyprovider
-
-|Property|Value|
-|---|---|
-|Description||
-|DisplayName|**Survey Provider**|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|`msdyn_surveyprovider`|
-|RequiredLevel|None|
-|Type|Picklist|
-|DefaultFormValue|600990000|
-|GlobalChoiceName|`msdyn_surveyprovider`|
-
-#### msdyn_surveyprovider Choices/Options
-
-|Value|Label|
-|---|---|
-|600990000|**Customer Voice**|
-|600990001|**Microsoft Copilot Studio**|
 
 ### <a name="BKMK_msfp_acceptanonymousresponses"></a> msfp_acceptanonymousresponses
 
@@ -846,7 +786,6 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msfp_survey_createdonbehalfby](#BKMK_lk_msfp_survey_createdonbehalfby)
 - [lk_msfp_survey_modifiedby](#BKMK_lk_msfp_survey_modifiedby)
 - [lk_msfp_survey_modifiedonbehalfby](#BKMK_lk_msfp_survey_modifiedonbehalfby)
-- [msdyn_bot_msfp_survey_microsoftcopilotstudiobot](#BKMK_msdyn_bot_msfp_survey_microsoftcopilotstudiobot)
 - [msfp_msfp_project_msfp_survey_project](#BKMK_msfp_msfp_project_msfp_survey_project)
 - [msfp_systemuser_msfp_survey_publishedby](#BKMK_msfp_systemuser_msfp_survey_publishedby)
 - [owner_msfp_survey](#BKMK_owner_msfp_survey)
@@ -918,19 +857,6 @@ One-To-Many Relationship: [systemuser lk_msfp_survey_modifiedonbehalfby](systemu
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
-### <a name="BKMK_msdyn_bot_msfp_survey_microsoftcopilotstudiobot"></a> msdyn_bot_msfp_survey_microsoftcopilotstudiobot
-
-One-To-Many Relationship: [bot msdyn_bot_msfp_survey_microsoftcopilotstudiobot](bot.md#BKMK_msdyn_bot_msfp_survey_microsoftcopilotstudiobot)
-
-|Property|Value|
-|---|---|
-|ReferencedEntity|`bot`|
-|ReferencedAttribute|`botid`|
-|ReferencingAttribute|`msdyn_microsoftcopilotstudiobot`|
-|ReferencingEntityNavigationPropertyName|`msdyn_microsoftcopilotstudiobot`|
-|IsHierarchical||
-|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
-
 ### <a name="BKMK_msfp_msfp_project_msfp_survey_project"></a> msfp_msfp_project_msfp_survey_project
 
 One-To-Many Relationship: [msfp_project msfp_msfp_project_msfp_survey_project](msfp_project.md#BKMK_msfp_msfp_project_msfp_survey_project)
@@ -1001,7 +927,6 @@ One-To-Many Relationship: [systemuser user_msfp_survey](systemuser.md#BKMK_user_
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
-- [msdyn_msfp_survey_msdyn_surveysetting_survey](#BKMK_msdyn_msfp_survey_msdyn_surveysetting_survey)
 - [msfp_msfp_survey_msfp_alert_survey](#BKMK_msfp_msfp_survey_msfp_alert_survey)
 - [msfp_msfp_survey_msfp_emailtemplate_surveyid](#BKMK_msfp_msfp_survey_msfp_emailtemplate_surveyid)
 - [msfp_msfp_survey_msfp_fileresponse_survey](#BKMK_msfp_msfp_survey_msfp_fileresponse_survey)
@@ -1018,18 +943,6 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msfp_survey_ProcessSession](#BKMK_msfp_survey_ProcessSession)
 - [msfp_survey_SyncErrors](#BKMK_msfp_survey_SyncErrors)
 - [msfp_surveyinvitesummary_surveyid_msfp_survey](#BKMK_msfp_surveyinvitesummary_surveyid_msfp_survey)
-
-### <a name="BKMK_msdyn_msfp_survey_msdyn_surveysetting_survey"></a> msdyn_msfp_survey_msdyn_surveysetting_survey
-
-Many-To-One Relationship: [msdyn_surveysetting msdyn_msfp_survey_msdyn_surveysetting_survey](msdyn_surveysetting.md#BKMK_msdyn_msfp_survey_msdyn_surveysetting_survey)
-
-|Property|Value|
-|---|---|
-|ReferencingEntity|`msdyn_surveysetting`|
-|ReferencingAttribute|`msdyn_survey`|
-|ReferencedEntityNavigationPropertyName|`msdyn_msfp_survey_msdyn_surveysetting_survey`|
-|IsCustomizable|`True`|
-|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msfp_msfp_survey_msfp_alert_survey"></a> msfp_msfp_survey_msfp_alert_survey
 

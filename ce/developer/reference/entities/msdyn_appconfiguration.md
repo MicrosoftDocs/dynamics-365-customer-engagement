@@ -748,6 +748,8 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_appconfiguration_DuplicateBaseRecord](#BKMK_msdyn_appconfiguration_DuplicateBaseRecord)
 - [msdyn_appconfiguration_DuplicateMatchingRecord](#BKMK_msdyn_appconfiguration_DuplicateMatchingRecord)
 - [msdyn_appconfiguration_MailboxTrackingFolders](#BKMK_msdyn_appconfiguration_MailboxTrackingFolders)
+- [msdyn_appconfiguration_msdyn_agentassistbotconfig](#BKMK_msdyn_appconfiguration_msdyn_agentassistbotconfig)
+- [msdyn_appconfiguration_msdyn_agentassistconfiguration](#BKMK_msdyn_appconfiguration_msdyn_agentassistconfiguration)
 - [msdyn_appconfiguration_msdyn_appprofilerolemapping](#BKMK_msdyn_appconfiguration_msdyn_appprofilerolemapping)
 - [msdyn_appconfiguration_msdyn_inboxconfiguration](#BKMK_msdyn_appconfiguration_msdyn_inboxconfiguration)
 - [msdyn_appconfiguration_PrincipalObjectAttributeAccesses](#BKMK_msdyn_appconfiguration_PrincipalObjectAttributeAccesses)
@@ -815,6 +817,30 @@ Many-To-One Relationship: [mailboxtrackingfolder msdyn_appconfiguration_MailboxT
 |ReferencedEntityNavigationPropertyName|`msdyn_appconfiguration_MailboxTrackingFolders`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_appconfiguration_msdyn_agentassistbotconfig"></a> msdyn_appconfiguration_msdyn_agentassistbotconfig
+
+Many-To-One Relationship: [msdyn_agentassistbotconfig msdyn_appconfiguration_msdyn_agentassistbotconfig](msdyn_agentassistbotconfig.md#BKMK_msdyn_appconfiguration_msdyn_agentassistbotconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agentassistbotconfig`|
+|ReferencingAttribute|`msdyn_appconfigurationid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_appconfiguration_msdyn_agentassistbotconfig`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_appconfiguration_msdyn_agentassistconfiguration"></a> msdyn_appconfiguration_msdyn_agentassistconfiguration
+
+Many-To-One Relationship: [msdyn_agentassistconfiguration msdyn_appconfiguration_msdyn_agentassistconfiguration](msdyn_agentassistconfiguration.md#BKMK_msdyn_appconfiguration_msdyn_agentassistconfiguration)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_agentassistconfiguration`|
+|ReferencingAttribute|`msdyn_appconfigurationid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_appconfiguration_msdyn_agentassistconfiguration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_appconfiguration_msdyn_appprofilerolemapping"></a> msdyn_appconfiguration_msdyn_appprofilerolemapping
 

@@ -41,6 +41,7 @@ Microsoft Dynamics 365 modifies the definition of columns/attributes defined in 
 
 - [OptionalAttendees](#BKMK_OptionalAttendees)
 - [RegardingObjectId](#BKMK_RegardingObjectId)
+- [related](#BKMK_related)
 - [requiredattendees](#BKMK_requiredattendees)
 
 ### <a name="BKMK_OptionalAttendees"></a> OptionalAttendees
@@ -58,7 +59,16 @@ Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/dat
 
 |Property|Value|
 |---|---|
-|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, site|
+|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_emailthread, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, site|
+
+
+### <a name="BKMK_related"></a> related
+
+Changes from [related (Microsoft Dataverse)](/power-apps/developer/data-platform/reference/entities/appointment#BKMK_related)
+
+|Property|Value|
+|---|---|
+|Targets|campaign, campaignactivity, contract, entitlement, incident, invoice, opportunity, quote, salesorder|
 
 
 ### <a name="BKMK_requiredattendees"></a> requiredattendees
@@ -86,6 +96,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [Invoice_Appointments](#BKMK_Invoice_Appointments)
 - [Lead_Appointments](#BKMK_Lead_Appointments)
 - [msdyn_customerasset_Appointments](#BKMK_msdyn_customerasset_Appointments)
+- [msdyn_emailthread_Appointments](#BKMK_msdyn_emailthread_Appointments)
 - [msdyn_postalbum_Appointments](#BKMK_msdyn_postalbum_Appointments)
 - [msdyn_salessuggestion_Appointments](#BKMK_msdyn_salessuggestion_Appointments)
 - [msdyn_swarm_Appointments](#BKMK_msdyn_swarm_Appointments)
@@ -248,6 +259,19 @@ One-To-Many Relationship: [msdyn_customerasset msdyn_customerasset_Appointments]
 |ReferencedAttribute|`msdyn_customerassetid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_customerasset_appointment`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_emailthread_Appointments"></a> msdyn_emailthread_Appointments
+
+One-To-Many Relationship: [msdyn_emailthread msdyn_emailthread_Appointments](msdyn_emailthread.md#BKMK_msdyn_emailthread_Appointments)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_emailthread`|
+|ReferencedAttribute|`msdyn_emailthreadid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_emailthread_appointment`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

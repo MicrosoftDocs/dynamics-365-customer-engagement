@@ -76,6 +76,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_overflowactionconfigId](#BKMK_msdyn_overflowactionconfigId)
 - [msdyn_overflowactiondata](#BKMK_msdyn_overflowactiondata)
 - [msdyn_overflowactiontype](#BKMK_msdyn_overflowactiontype)
+- [msdyn_schedulecallbackoutboundworkstream](#BKMK_msdyn_schedulecallbackoutboundworkstream)
 - [msdyn_stoptranscriptionandrecordingaftercalltransfer](#BKMK_msdyn_stoptranscriptionandrecordingaftercalltransfer)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -263,6 +264,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350004|**Voicemail**|
 |192350005|**Queue Transfer**|
 |192350006|**Remain In Queue**|
+|192350007|**Scheduled Callback**|
+
+### <a name="BKMK_msdyn_schedulecallbackoutboundworkstream"></a> msdyn_schedulecallbackoutboundworkstream
+
+|Property|Value|
+|---|---|
+|Description|**Schedule Callback Outbound Workstream**|
+|DisplayName|**Schedule Callback Outbound Workstream**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_schedulecallbackoutboundworkstream`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets||
 
 ### <a name="BKMK_msdyn_stoptranscriptionandrecordingaftercalltransfer"></a> msdyn_stoptranscriptionandrecordingaftercalltransfer
 

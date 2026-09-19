@@ -68,16 +68,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_CriteriaVersionId](#BKMK_msdyn_CriteriaVersionId)
 - [msdyn_Description](#BKMK_msdyn_Description)
 - [msdyn_DescriptionMetadataID](#BKMK_msdyn_DescriptionMetadataID)
 - [msdyn_EvaluationCategory](#BKMK_msdyn_EvaluationCategory)
 - [msdyn_EvaluationCriteria](#BKMK_msdyn_EvaluationCriteria)
 - [msdyn_EvaluationQuestionId](#BKMK_msdyn_EvaluationQuestionId)
 - [msdyn_IsAIResponseEnabled](#BKMK_msdyn_IsAIResponseEnabled)
+- [msdyn_IsCriticalQuestion](#BKMK_msdyn_IsCriticalQuestion)
+- [msdyn_IsKnowledgeEnabled](#BKMK_msdyn_IsKnowledgeEnabled)
+- [msdyn_KnowledgeArticleId](#BKMK_msdyn_KnowledgeArticleId)
 - [msdyn_OptionsJson](#BKMK_msdyn_OptionsJson)
+- [msdyn_ParentQuestionId](#BKMK_msdyn_ParentQuestionId)
 - [msdyn_QuestionInstructions](#BKMK_msdyn_QuestionInstructions)
 - [msdyn_QuestionType](#BKMK_msdyn_QuestionType)
 - [msdyn_Required](#BKMK_msdyn_Required)
+- [msdyn_RootQuestionId](#BKMK_msdyn_RootQuestionId)
 - [msdyn_Text](#BKMK_msdyn_Text)
 - [msdyn_TextMetadataID](#BKMK_msdyn_TextMetadataID)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -113,6 +119,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`iscustomizable`|
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
+
+### <a name="BKMK_msdyn_CriteriaVersionId"></a> msdyn_CriteriaVersionId
+
+|Property|Value|
+|---|---|
+|Description|**The GUID of the criteria version this question belongs to.**|
+|DisplayName|**Criteria Version Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_criteriaversionid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_Description"></a> msdyn_Description
 
@@ -202,6 +225,55 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Yes|
 |False Label|No|
 
+### <a name="BKMK_msdyn_IsCriticalQuestion"></a> msdyn_IsCriticalQuestion
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether the question is a critical question for the EvaluationCriteria.**|
+|DisplayName|**IsCriticalQuestion**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_iscriticalquestion`|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_evaluationquestion_msdyn_iscriticalquestion`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_IsKnowledgeEnabled"></a> msdyn_IsKnowledgeEnabled
+
+|Property|Value|
+|---|---|
+|Description|**Boolean indicator specifying when a knowledge article is utilized.**|
+|DisplayName|**Is Knowledge Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isknowledgeenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_evaluationquestion_msdyn_isknowledgeenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_KnowledgeArticleId"></a> msdyn_KnowledgeArticleId
+
+|Property|Value|
+|---|---|
+|Description|**Guid string of the knowledge article linked.**|
+|DisplayName|**Knowledge Article Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_knowledgearticleid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
 ### <a name="BKMK_msdyn_OptionsJson"></a> msdyn_OptionsJson
 
 |Property|Value|
@@ -218,6 +290,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|1048575|
+
+### <a name="BKMK_msdyn_ParentQuestionId"></a> msdyn_ParentQuestionId
+
+|Property|Value|
+|---|---|
+|Description|**The GUID of the parent question this was copied from. Null on first creation, set during version copy.**|
+|DisplayName|**Parent Question Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_parentquestionid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_QuestionInstructions"></a> msdyn_QuestionInstructions
 
@@ -274,6 +363,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_RootQuestionId"></a> msdyn_RootQuestionId
+
+|Property|Value|
+|---|---|
+|Description|**Stable identifier that persists across all versions. Set to the entity's own GUID on first creation, then carried forward unchanged on every version copy.**|
+|DisplayName|**Root Question Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_rootquestionid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_Text"></a> msdyn_Text
 

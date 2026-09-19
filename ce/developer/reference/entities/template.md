@@ -23,6 +23,7 @@ Messages represent operations that can be performed on the table. They may also 
 
 | Name <br />Is Event? |Web API Operation |SDK for .NET |
 | ---- | ----- |----- |
+| `InstantiateHtmlContent`<br />Event: False |**InstantiateHtmlContent action** |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `InstantiateTemplateGeneric`<br />Event: False |**InstantiateTemplateGeneric action** |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 
 

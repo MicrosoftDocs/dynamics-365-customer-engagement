@@ -173,6 +173,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |0|**Case**|
 |1|**Conversation**|
+|2|**Email**|
+|3|**User**|
 
 ### <a name="BKMK_msdyn_IsEnabled"></a> msdyn_IsEnabled
 

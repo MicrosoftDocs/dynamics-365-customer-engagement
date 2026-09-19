@@ -27,7 +27,7 @@ Changes from [FilterLinkedRecords (Microsoft Dataverse)](/power-apps/developer/d
 
 |Property|Value|
 |---|---|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 
 
 

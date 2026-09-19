@@ -239,7 +239,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_relatedrecordid`|
 |RequiredLevel|ApplicationRequired|
 |Type|Lookup|
-|Targets|incident, msdyn_ocliveworkitem|
+|Targets|email, incident, msdyn_emailthread, msdyn_ocliveworkitem|
 
 ### <a name="BKMK_msdyn_relatedrecordidIdType"></a> msdyn_relatedrecordidIdType
 
@@ -422,7 +422,9 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_intentcontexthistory_createdonbehalfby](#BKMK_lk_msdyn_intentcontexthistory_createdonbehalfby)
 - [lk_msdyn_intentcontexthistory_modifiedby](#BKMK_lk_msdyn_intentcontexthistory_modifiedby)
 - [lk_msdyn_intentcontexthistory_modifiedonbehalfby](#BKMK_lk_msdyn_intentcontexthistory_modifiedonbehalfby)
+- [msdyn_intentcontexthistory_poly_email](#BKMK_msdyn_intentcontexthistory_poly_email)
 - [msdyn_intentcontexthistory_poly_incident](#BKMK_msdyn_intentcontexthistory_poly_incident)
+- [msdyn_intentcontexthistory_poly_msdyn_emailthread](#BKMK_msdyn_intentcontexthistory_poly_msdyn_emailthread)
 - [msdyn_intentcontexthistory_poly_msdyn_ocliveworkitem](#BKMK_msdyn_intentcontexthistory_poly_msdyn_ocliveworkitem)
 
 ### <a name="BKMK_lk_msdyn_intentcontexthistory_createdby"></a> lk_msdyn_intentcontexthistory_createdby
@@ -477,6 +479,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_intentcontexthistory_modifiedonbe
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_intentcontexthistory_poly_email"></a> msdyn_intentcontexthistory_poly_email
+
+One-To-Many Relationship: [email msdyn_intentcontexthistory_poly_email](email.md#BKMK_msdyn_intentcontexthistory_poly_email)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`email`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`msdyn_relatedrecordid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_relatedrecordid_email`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_intentcontexthistory_poly_incident"></a> msdyn_intentcontexthistory_poly_incident
 
 One-To-Many Relationship: [incident msdyn_intentcontexthistory_poly_incident](incident.md#BKMK_msdyn_intentcontexthistory_poly_incident)
@@ -487,6 +502,19 @@ One-To-Many Relationship: [incident msdyn_intentcontexthistory_poly_incident](in
 |ReferencedAttribute|`incidentid`|
 |ReferencingAttribute|`msdyn_relatedrecordid`|
 |ReferencingEntityNavigationPropertyName|`msdyn_relatedrecordid_incident`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_intentcontexthistory_poly_msdyn_emailthread"></a> msdyn_intentcontexthistory_poly_msdyn_emailthread
+
+One-To-Many Relationship: [msdyn_emailthread msdyn_intentcontexthistory_poly_msdyn_emailthread](msdyn_emailthread.md#BKMK_msdyn_intentcontexthistory_poly_msdyn_emailthread)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_emailthread`|
+|ReferencedAttribute|`msdyn_emailthreadid`|
+|ReferencingAttribute|`msdyn_relatedrecordid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_relatedrecordid_msdyn_emailthread`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

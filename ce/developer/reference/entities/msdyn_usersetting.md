@@ -27,7 +27,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `Disassociate`<br />Event: True |[Disassociate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Disassociate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-disassociate-method-or-disassociaterequest)|
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_usersettings(*msdyn_usersettingid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_usersettings<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -63,11 +62,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_callconnectedpingpreference](#BKMK_msdyn_callconnectedpingpreference)
+- [msdyn_compactmodeenabled](#BKMK_msdyn_compactmodeenabled)
 - [msdyn_defaultcountrycode](#BKMK_msdyn_defaultcountrycode)
+- [msdyn_extendtoastdisplaytime](#BKMK_msdyn_extendtoastdisplaytime)
 - [msdyn_hidetranscript](#BKMK_msdyn_hidetranscript)
+- [msdyn_highcontrastenabled](#BKMK_msdyn_highcontrastenabled)
 - [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_noisesuppressionpreference](#BKMK_msdyn_noisesuppressionpreference)
 - [msdyn_personalsoundenabled](#BKMK_msdyn_personalsoundenabled)
+- [msdyn_preferredtimezone](#BKMK_msdyn_preferredtimezone)
 - [msdyn_SoundFormControl](#BKMK_msdyn_SoundFormControl)
+- [msdyn_soundpreferenceset](#BKMK_msdyn_soundpreferenceset)
+- [msdyn_thememode](#BKMK_msdyn_thememode)
+- [msdyn_uilanguagelcid](#BKMK_msdyn_uilanguagelcid)
 - [msdyn_usersettingId](#BKMK_msdyn_usersettingId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
@@ -105,6 +112,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Yes|
 |False Label|No|
 
+### <a name="BKMK_msdyn_compactmodeenabled"></a> msdyn_compactmodeenabled
+
+|Property|Value|
+|---|---|
+|Description|**When enabled, the agent desktop uses a compact UI spacing density (tighter whitespace) without reducing font size.**|
+|DisplayName|**Compact Mode Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_compactmodeenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_usersetting_msdyn_compactmodeenabled`|
+|DefaultValue|False|
+|True Label|Enabled|
+|False Label|Disabled|
+
 ### <a name="BKMK_msdyn_defaultcountrycode"></a> msdyn_defaultcountrycode
 
 |Property|Value|
@@ -122,6 +145,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|100|
 
+### <a name="BKMK_msdyn_extendtoastdisplaytime"></a> msdyn_extendtoastdisplaytime
+
+|Property|Value|
+|---|---|
+|Description|**When enabled, in-app toast notifications stay visible roughly 10x longer before auto-dismissing.**|
+|DisplayName|**Extend Toast Display Time**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_extendtoastdisplaytime`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_usersetting_msdyn_extendtoastdisplaytime`|
+|DefaultValue|False|
+|True Label|Enabled|
+|False Label|Disabled|
+
 ### <a name="BKMK_msdyn_hidetranscript"></a> msdyn_hidetranscript
 
 |Property|Value|
@@ -137,6 +176,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_highcontrastenabled"></a> msdyn_highcontrastenabled
+
+|Property|Value|
+|---|---|
+|Description|**When enabled, the agent desktop renders using a high-contrast Fluent theme for improved accessibility.**|
+|DisplayName|**High Contrast Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_highcontrastenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_usersetting_msdyn_highcontrastenabled`|
+|DefaultValue|False|
+|True Label|Enabled|
+|False Label|Disabled|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
@@ -155,6 +210,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|100|
 
+### <a name="BKMK_msdyn_noisesuppressionpreference"></a> msdyn_noisesuppressionpreference
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Noise suppression preference**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_noisesuppressionpreference`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_msdyn_usersetting_msdyn_noisesuppressionpreference`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_personalsoundenabled"></a> msdyn_personalsoundenabled
 
 |Property|Value|
@@ -170,6 +241,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|True|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_preferredtimezone"></a> msdyn_preferredtimezone
+
+|Property|Value|
+|---|---|
+|Description|**Agent's preferred IANA time zone identifier (e.g. America/Los\_Angeles) used to render timestamps. Empty means auto-detect from the browser.**|
+|DisplayName|**Preferred Time Zone**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_preferredtimezone`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_SoundFormControl"></a> msdyn_SoundFormControl
 
@@ -187,6 +275,58 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_soundpreferenceset"></a> msdyn_soundpreferenceset
+
+|Property|Value|
+|---|---|
+|Description|**Internal marker: set to true once the agent has explicitly chosen a sound preference (msdyn\_personalsoundenabled). When false, clients fall back to the default of On.**|
+|DisplayName|**Sound Preference Set**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_soundpreferenceset`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_usersetting_msdyn_soundpreferenceset`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_thememode"></a> msdyn_thememode
+
+|Property|Value|
+|---|---|
+|Description|**Preferred color theme for the Contact Center agent desktop. "System" follows the operating system color scheme.**|
+|DisplayName|**Theme Mode**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_thememode`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|1|
+|GlobalChoiceName|`msdyn_usersetting_msdyn_thememode`|
+
+#### msdyn_thememode Choices/Options
+
+|Value|Label|
+|---|---|
+|1|**System**|
+|2|**Light**|
+|3|**Dark**|
+
+### <a name="BKMK_msdyn_uilanguagelcid"></a> msdyn_uilanguagelcid
+
+|Property|Value|
+|---|---|
+|Description|**Agent's preferred UI language as a Windows LCID (e.g. 1033 = English (US)). 0 or empty means detect from the browser.**|
+|DisplayName|**UI Language**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_uilanguagelcid`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
 
 ### <a name="BKMK_msdyn_usersettingId"></a> msdyn_usersettingId
 

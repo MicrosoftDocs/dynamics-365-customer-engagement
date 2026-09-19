@@ -73,7 +73,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_consentacceptedon](#BKMK_msdyn_consentacceptedon)
 - [msdyn_conversationsummaryconfiguration](#BKMK_msdyn_conversationsummaryconfiguration)
 - [msdyn_copilotsummarizationsettingId](#BKMK_msdyn_copilotsummarizationsettingId)
+- [msdyn_customconversationsummaryattribute](#BKMK_msdyn_customconversationsummaryattribute)
 - [msdyn_disabledforplatformsummary](#BKMK_msdyn_disabledforplatformsummary)
+- [msdyn_emailsummaryconfiguration](#BKMK_msdyn_emailsummaryconfiguration)
+- [msdyn_emailsummaryenabled](#BKMK_msdyn_emailsummaryenabled)
 - [msdyn_enabled](#BKMK_msdyn_enabled)
 - [msdyn_excludeformslist](#BKMK_msdyn_excludeformslist)
 - [msdyn_featureaccessrolelist](#BKMK_msdyn_featureaccessrolelist)
@@ -83,6 +86,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_ondemandenabled](#BKMK_msdyn_ondemandenabled)
 - [msdyn_relatedrecordconfiguration](#BKMK_msdyn_relatedrecordconfiguration)
+- [msdyn_setexportable](#BKMK_msdyn_setexportable)
 - [msdyn_summarytype](#BKMK_msdyn_summarytype)
 - [msdyn_systemmetadata](#BKMK_msdyn_systemmetadata)
 - [msdyn_useagentlanguage](#BKMK_msdyn_useagentlanguage)
@@ -296,6 +300,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
+### <a name="BKMK_msdyn_customconversationsummaryattribute"></a> msdyn_customconversationsummaryattribute
+
+|Property|Value|
+|---|---|
+|Description|**The selected conversation attribute for custom conversation summaries.**|
+|DisplayName|**Custom Conversation Summary Attribute**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_customconversationsummaryattribute`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1024|
+
 ### <a name="BKMK_msdyn_disabledforplatformsummary"></a> msdyn_disabledforplatformsummary
 
 |Property|Value|
@@ -308,6 +329,39 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_copilotsummarizationsetting_msdyn_disabledforplatformsummary`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_emailsummaryconfiguration"></a> msdyn_emailsummaryconfiguration
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Email Summary Configuration**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_emailsummaryconfiguration`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100000|
+
+### <a name="BKMK_msdyn_emailsummaryenabled"></a> msdyn_emailsummaryenabled
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Email Summary Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_emailsummaryenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_copilotsummarizationsetting_msdyn_emailsummaryenabled`|
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
@@ -459,6 +513,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100000|
+
+### <a name="BKMK_msdyn_setexportable"></a> msdyn_setexportable
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether the setting row should be marked as exportable for downstream solutions.**|
+|DisplayName|**Set Exportable**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_setexportable`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_copilotsummarizationsetting_msdyn_setexportable`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_summarytype"></a> msdyn_summarytype
 

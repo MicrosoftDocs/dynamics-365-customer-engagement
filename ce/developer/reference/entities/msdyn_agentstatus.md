@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_agentstatuses(*msdyn_agentstatusid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_agentstatuses<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -79,6 +78,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_isagentloggedin](#BKMK_msdyn_isagentloggedin)
 - [msdyn_isblockedbysomeprofile](#BKMK_msdyn_isblockedbysomeprofile)
 - [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_nextpresenceid](#BKMK_msdyn_nextpresenceid)
 - [msdyn_presencemodifiedby](#BKMK_msdyn_presencemodifiedby)
 - [msdyn_presencemodifiedbyuserid](#BKMK_msdyn_presencemodifiedbyuserid)
 - [msdyn_presencemodifiedon](#BKMK_msdyn_presencemodifiedon)
@@ -287,6 +287,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_nextpresenceid"></a> msdyn_nextpresenceid
+
+|Property|Value|
+|---|---|
+|Description|**Lookup to Presence entity. Next presence status to be applied for the agent.**|
+|DisplayName|**Next Presence**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_nextpresenceid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_presence|
 
 ### <a name="BKMK_msdyn_presencemodifiedby"></a> msdyn_presencemodifiedby
 
@@ -713,6 +726,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_agentstatus_modifiedby](#BKMK_lk_msdyn_agentstatus_modifiedby)
 - [lk_msdyn_agentstatus_modifiedonbehalfby](#BKMK_lk_msdyn_agentstatus_modifiedonbehalfby)
 - [msdyn_presence_msdyn_agentstatus_currentpresenceid](#BKMK_msdyn_presence_msdyn_agentstatus_currentpresenceid)
+- [msdyn_presence_msdyn_agentstatus_nextpresenceid](#BKMK_msdyn_presence_msdyn_agentstatus_nextpresenceid)
 - [msdyn_systemuser_msdyn_agentstatus_agentid](#BKMK_msdyn_systemuser_msdyn_agentstatus_agentid)
 - [msdyn_systemuser_msdyn_agentstatus_msdyn_presencemodifiedbyuserid](#BKMK_msdyn_systemuser_msdyn_agentstatus_msdyn_presencemodifiedbyuserid)
 - [owner_msdyn_agentstatus](#BKMK_owner_msdyn_agentstatus)
@@ -794,6 +808,19 @@ One-To-Many Relationship: [msdyn_presence msdyn_presence_msdyn_agentstatus_curre
 |ReferencedAttribute|`msdyn_presenceid`|
 |ReferencingAttribute|`msdyn_currentpresenceid`|
 |ReferencingEntityNavigationPropertyName|`msdyn_currentpresenceid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_presence_msdyn_agentstatus_nextpresenceid"></a> msdyn_presence_msdyn_agentstatus_nextpresenceid
+
+One-To-Many Relationship: [msdyn_presence msdyn_presence_msdyn_agentstatus_nextpresenceid](msdyn_presence.md#BKMK_msdyn_presence_msdyn_agentstatus_nextpresenceid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_presence`|
+|ReferencedAttribute|`msdyn_presenceid`|
+|ReferencingAttribute|`msdyn_nextpresenceid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_nextpresenceid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

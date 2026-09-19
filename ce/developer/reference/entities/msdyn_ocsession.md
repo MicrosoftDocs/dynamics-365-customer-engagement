@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_ocsessions(*activityid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_ocsessions<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -41,6 +40,7 @@ Messages represent operations that can be performed on the table. They may also 
 | `SetState`<br />Event: True |`PATCH` /msdyn_ocsessions(*activityid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) the `statecode` and `statuscode` properties. |<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 | `Update`<br />Event: True |`PATCH` /msdyn_ocsessions(*activityid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) |[Update records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-update)|
 | `UpdateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
+| `UpdateOptionalWrapUp`<br />Event: False |**UpdateOptionalWrapUp action** |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Upsert`<br />Event: False |`PATCH` /msdyn_ocsessions(*activityid*)<br />See [Upsert a table row](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#upsert-a-table-row) |<xref:Microsoft.Xrm.Sdk.Messages.UpsertRequest>|
 | `UpsertMultiple`<br />Event: False |<xref:Microsoft.Dynamics.CRM.UpsertMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.UpsertMultipleRequest>|
 | `ValidateRetentionConfig`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ValidateRetentionConfig?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
@@ -97,9 +97,11 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_channelprofileid](#BKMK_msdyn_channelprofileid)
 - [msdyn_closurereason](#BKMK_msdyn_closurereason)
 - [msdyn_liveworkitemid](#BKMK_msdyn_liveworkitemid)
+- [msdyn_optionalwrapuptimer](#BKMK_msdyn_optionalwrapuptimer)
 - [msdyn_primarysession](#BKMK_msdyn_primarysession)
 - [msdyn_queueassignedon](#BKMK_msdyn_queueassignedon)
 - [msdyn_queueassignedreason](#BKMK_msdyn_queueassignedreason)
+- [msdyn_queueextensionid](#BKMK_msdyn_queueextensionid)
 - [msdyn_queueid](#BKMK_msdyn_queueid)
 - [msdyn_routingfailurestage](#BKMK_msdyn_routingfailurestage)
 - [msdyn_sessionactivewrapuptimeinseconds](#BKMK_msdyn_sessionactivewrapuptimeinseconds)
@@ -660,6 +662,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350037|**ExternalAgentReject**|
 |192350038|**ExternalAgentTransfer**|
 |192350052|**MonitorDisconnected**|
+|192350053|**FailedToAssignDueToSystemError**|
+|192350054|**VoiceConnectivityProblem**|
+|192350055|**MaximumSessionsReached**|
+|192350056|**CallTimedOut**|
+|192350057|**ScheduledCallbackAccepted**|
+|192350058|**ScheduledCallbackDenied**|
+|192350059|**ScheduledCallbackFailed**|
+|192350060|**UnreserveInStandby**|
+|192350061|**CustomerNonResponseTimeoutRule**|
+|192350062|**AgentNonResponseTimeoutRule**|
+|192350063|**AgentMovedConversationToWaiting**|
+|192350064|**AutoRejectedDueToBrowserRefresh**|
+|192350065|**AutoRejectAsOutboundCallInProgress**|
 
 ### <a name="BKMK_msdyn_liveworkitemid"></a> msdyn_liveworkitemid
 
@@ -673,6 +688,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|msdyn_ocliveworkitem|
+
+### <a name="BKMK_msdyn_optionalwrapuptimer"></a> msdyn_optionalwrapuptimer
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Optional WrapUp Timer In Seconds**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_optionalwrapuptimer`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|3600|
+|MinValue|0|
 
 ### <a name="BKMK_msdyn_primarysession"></a> msdyn_primarysession
 
@@ -772,6 +801,21 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350049|**CustomerReconnect**|
 |192350050|**AgentGroupTransfer**|
 |192350052|**MonitorDisconnected**|
+|192350053|**ScheduledCallbackDenied**|
+|192350054|**ScheduledCallbackFailed**|
+
+### <a name="BKMK_msdyn_queueextensionid"></a> msdyn_queueextensionid
+
+|Property|Value|
+|---|---|
+|Description|**Unique identifier for Queue Extension associated with Session.**|
+|DisplayName|**Queue Extension**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_queueextensionid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_queueextension|
 
 ### <a name="BKMK_msdyn_queueid"></a> msdyn_queueid
 
@@ -924,6 +968,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350049|**CustomerReconnect**|
 |192350050|**AgentGroupTransfer**|
 |192350052|**MonitorDisconnected**|
+|192350053|**ScheduledCallbackDenied**|
+|192350054|**ScheduledCallbackFailed**|
 
 ### <a name="BKMK_msdyn_sessionid"></a> msdyn_sessionid
 
@@ -977,7 +1023,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**(Deprecated)**|
+|Description|**State**|
 |DisplayName|**State**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -996,6 +1042,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350002|**Closed**|
 |192350003|**New**|
 |192350004|**Wrap-up**|
+|192350005|**Waiting**|
 
 ### <a name="BKMK_msdyn_wrapupinitiatedon"></a> msdyn_wrapupinitiatedon
 
@@ -1140,7 +1187,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`regardingobjectid`|
 |RequiredLevel|None|
 |Type|Lookup|
-|Targets|account, adx_invitation, bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contact, contract, entitlement, entitlementtemplate, incident, interactionforemail, invoice, knowledgearticle, knowledgebaserecord, lead, msdyn_customerasset, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, mspp_adplacement, mspp_pollplacement, mspp_publishingstatetransitionrule, mspp_redirect, mspp_shortcut, mspp_website, opportunity, quote, salesorder, site|
+|Targets|account, adx_invitation, bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contact, contract, entitlement, entitlementtemplate, incident, interactionforemail, invoice, knowledgearticle, knowledgebaserecord, lead, msdyn_customerasset, msdyn_emailthread, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, mspp_adplacement, mspp_pollplacement, mspp_publishingstatetransitionrule, mspp_redirect, mspp_shortcut, mspp_website, opportunity, quote, salesorder, site|
 
 ### <a name="BKMK_RegardingObjectTypeCode"></a> RegardingObjectTypeCode
 
@@ -1814,6 +1861,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [knowledgebaserecord_msdyn_ocsessions](#BKMK_knowledgebaserecord_msdyn_ocsessions)
 - [lead_msdyn_ocsessions](#BKMK_lead_msdyn_ocsessions)
 - [msdyn_customerasset_msdyn_ocsessions](#BKMK_msdyn_customerasset_msdyn_ocsessions)
+- [msdyn_emailthread_msdyn_ocsessions](#BKMK_msdyn_emailthread_msdyn_ocsessions)
 - [msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid)
 - [msdyn_msdyn_ocsession_msdyn_agentgroup_activeagentgroupid](#BKMK_msdyn_msdyn_ocsession_msdyn_agentgroup_activeagentgroupid)
 - [msdyn_msdyn_ocsession_msdyn_channelinstance](#BKMK_msdyn_msdyn_ocsession_msdyn_channelinstance)
@@ -1821,6 +1869,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_ocsession_businessunit_owningbusinessunit](#BKMK_msdyn_ocsession_businessunit_owningbusinessunit)
 - [msdyn_ocsession_mailbox_sendermailboxid](#BKMK_msdyn_ocsession_mailbox_sendermailboxid)
 - [msdyn_ocsession_msdyn_channelprofileid_msdyn_channelprofile](#BKMK_msdyn_ocsession_msdyn_channelprofileid_msdyn_channelprofile)
+- [msdyn_ocsession_msdyn_queueextension](#BKMK_msdyn_ocsession_msdyn_queueextension)
 - [msdyn_ocsession_owner_ownerid](#BKMK_msdyn_ocsession_owner_ownerid)
 - [msdyn_ocsession_service_serviceid](#BKMK_msdyn_ocsession_service_serviceid)
 - [msdyn_ocsession_sla_slaid](#BKMK_msdyn_ocsession_sla_slaid)
@@ -2094,6 +2143,19 @@ One-To-Many Relationship: [msdyn_customerasset msdyn_customerasset_msdyn_ocsessi
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 
+### <a name="BKMK_msdyn_emailthread_msdyn_ocsessions"></a> msdyn_emailthread_msdyn_ocsessions
+
+One-To-Many Relationship: [msdyn_emailthread msdyn_emailthread_msdyn_ocsessions](msdyn_emailthread.md#BKMK_msdyn_emailthread_msdyn_ocsessions)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_emailthread`|
+|ReferencedAttribute|`msdyn_emailthreadid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_emailthread_msdyn_ocsession`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
 ### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid"></a> msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid
 
 One-To-Many Relationship: [msdyn_ocliveworkitem msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid](msdyn_ocliveworkitem.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid)
@@ -2184,6 +2246,19 @@ One-To-Many Relationship: [msdyn_channelprofile msdyn_ocsession_msdyn_channelpro
 |ReferencingEntityNavigationPropertyName|`msdyn_channelprofileid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocsession_msdyn_queueextension"></a> msdyn_ocsession_msdyn_queueextension
+
+One-To-Many Relationship: [msdyn_queueextension msdyn_ocsession_msdyn_queueextension](msdyn_queueextension.md#BKMK_msdyn_ocsession_msdyn_queueextension)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_queueextension`|
+|ReferencedAttribute|`msdyn_queueextensionid`|
+|ReferencingAttribute|`msdyn_queueextensionid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_queueextensionid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_ocsession_owner_ownerid"></a> msdyn_ocsession_owner_ownerid
 

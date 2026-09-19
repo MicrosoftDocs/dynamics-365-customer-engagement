@@ -16,17 +16,6 @@ Generic activity representing work needed to be done.
 > The Microsoft Dynamics 365 Task table extends the [Microsoft Dataverse Task table](/power-apps/developer/data-platform/reference/entities/task).
 
 
-## Messages
-
-The following table lists the messages for the Task table.
-Messages represent operations that can be performed on the table. They may also be events.
-
-| Name <br />Is Event? |Web API Operation |SDK for .NET |
-| ---- | ----- |----- |
-| `CreateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
-| `UpdateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
-| `UpsertMultiple`<br />Event: False |<xref:Microsoft.Dynamics.CRM.UpsertMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.UpsertMultipleRequest>|
-
 
 ## Writable columns/attributes
 
@@ -56,7 +45,7 @@ Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/dat
 
 |Property|Value|
 |---|---|
-|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, site|
+|Targets|bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contract, entitlement, entitlementtemplate, incident, invoice, lead, msdyn_customerasset, msdyn_emailthread, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm, opportunity, quote, salesorder, site|
 
 
 ## Many-to-One relationships
@@ -75,6 +64,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [Invoice_Tasks](#BKMK_Invoice_Tasks)
 - [Lead_Tasks](#BKMK_Lead_Tasks)
 - [msdyn_customerasset_Tasks](#BKMK_msdyn_customerasset_Tasks)
+- [msdyn_emailthread_Tasks](#BKMK_msdyn_emailthread_Tasks)
 - [msdyn_postalbum_Tasks](#BKMK_msdyn_postalbum_Tasks)
 - [msdyn_salessuggestion_Tasks](#BKMK_msdyn_salessuggestion_Tasks)
 - [msdyn_swarm_Tasks](#BKMK_msdyn_swarm_Tasks)
@@ -237,6 +227,19 @@ One-To-Many Relationship: [msdyn_customerasset msdyn_customerasset_Tasks](msdyn_
 |ReferencedAttribute|`msdyn_customerassetid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_customerasset_task`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_emailthread_Tasks"></a> msdyn_emailthread_Tasks
+
+One-To-Many Relationship: [msdyn_emailthread msdyn_emailthread_Tasks](msdyn_emailthread.md#BKMK_msdyn_emailthread_Tasks)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_emailthread`|
+|ReferencedAttribute|`msdyn_emailthreadid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_emailthread_task`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_copilotagentpreferences(*msdyn_copilotagentpreferenceid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_copilotagentpreferences<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -70,6 +69,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_agentprompts](#BKMK_msdyn_agentprompts)
 - [msdyn_copilotagentpreferenceId](#BKMK_msdyn_copilotagentpreferenceId)
+- [msdyn_copilottoolscope](#BKMK_msdyn_copilottoolscope)
 - [msdyn_enabledefaultexecution](#BKMK_msdyn_enabledefaultexecution)
 - [msdyn_enabledskills](#BKMK_msdyn_enabledskills)
 - [msdyn_isfullpagecopilotenabled](#BKMK_msdyn_isfullpagecopilotenabled)
@@ -129,6 +129,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_copilotagentpreferenceid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_copilottoolscope"></a> msdyn_copilottoolscope
+
+|Property|Value|
+|---|---|
+|Description|**Copilot tool scope**|
+|DisplayName|**Copilot tool scope**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_copilottoolscope`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
 
 ### <a name="BKMK_msdyn_enabledefaultexecution"></a> msdyn_enabledefaultexecution
 
@@ -234,8 +251,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Prioritization Columns**|
-|DisplayName|**Prioritization Columns**|
+|Description|**Prioritization Columns (Deprecated)**|
+|DisplayName|**Prioritization Columns (Deprecated)**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_prioritizationcolumns`|
@@ -251,8 +268,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Prioritization Fetch Xml**|
-|DisplayName|**Prioritization Fetch Xml**|
+|Description|**Prioritization Fetch Xml (Deprecated)**|
+|DisplayName|**Prioritization Fetch Xml (Deprecated)**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_prioritizationfetchxml`|
@@ -268,8 +285,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Prioritization Prompt**|
-|DisplayName|**Prioritization Prompt**|
+|Description|**Prioritization Prompt (Deprecated)**|
+|DisplayName|**Prioritization Prompt (Deprecated)**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_prioritizationprompt`|

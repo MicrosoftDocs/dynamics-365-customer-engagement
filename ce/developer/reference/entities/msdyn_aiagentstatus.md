@@ -27,7 +27,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `Disassociate`<br />Event: True |[Disassociate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Disassociate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-disassociate-method-or-disassociaterequest)|
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_aiagentstatuses(*msdyn_aiagentstatusid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_aiagentstatuses<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -62,11 +61,29 @@ The following table lists selected properties for the AI Agent Status (msdyn_aia
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [LastOnHoldTime](#BKMK_LastOnHoldTime)
+- [msdyn_agentexternalactionstatus](#BKMK_msdyn_agentexternalactionstatus)
+- [msdyn_agentmode](#BKMK_msdyn_agentmode)
+- [msdyn_agentresolutiontimekpi](#BKMK_msdyn_agentresolutiontimekpi)
+- [msdyn_agentrunstarttime](#BKMK_msdyn_agentrunstarttime)
 - [msdyn_aiagentstatusId](#BKMK_msdyn_aiagentstatusId)
 - [msdyn_currentaistatus](#BKMK_msdyn_currentaistatus)
+- [msdyn_emailssent](#BKMK_msdyn_emailssent)
 - [msdyn_escalatedon](#BKMK_msdyn_escalatedon)
 - [msdyn_fallbackreason](#BKMK_msdyn_fallbackreason)
+- [msdyn_fallbackreasondetails](#BKMK_msdyn_fallbackreasondetails)
+- [msdyn_lastaction](#BKMK_msdyn_lastaction)
+- [msdyn_lastemailactivity](#BKMK_msdyn_lastemailactivity)
+- [msdyn_lastintent](#BKMK_msdyn_lastintent)
+- [msdyn_lastintentfamily](#BKMK_msdyn_lastintentfamily)
+- [msdyn_lastintentgroup](#BKMK_msdyn_lastintentgroup)
+- [msdyn_lastoutboundcommunicationtype](#BKMK_msdyn_lastoutboundcommunicationtype)
+- [msdyn_lastrawintent](#BKMK_msdyn_lastrawintent)
+- [msdyn_sentiment](#BKMK_msdyn_sentiment)
+- [msdyn_targetentity](#BKMK_msdyn_targetentity)
+- [msdyn_targetentityIdType](#BKMK_msdyn_targetentityIdType)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
+- [SLAId](#BKMK_SLAId)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
 - [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
@@ -85,6 +102,97 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_LastOnHoldTime"></a> LastOnHoldTime
+
+|Property|Value|
+|---|---|
+|Description|**Contains the date and time stamp of the last on-hold time**|
+|DisplayName|**Last On Hold Time**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`lastonholdtime`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|True|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_agentexternalactionstatus"></a> msdyn_agentexternalactionstatus
+
+|Property|Value|
+|---|---|
+|Description|**Status of external action for the AI agent.**|
+|DisplayName|**Agent External Action Status**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_agentexternalactionstatus`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_msdyn_aiagentstatus_msdyn_agentexternalactionstatus`|
+
+#### msdyn_agentexternalactionstatus Choices/Options
+
+|Value|Label|
+|---|---|
+|1|**Wait**|
+|2|**Not Applicable**|
+
+### <a name="BKMK_msdyn_agentmode"></a> msdyn_agentmode
+
+|Property|Value|
+|---|---|
+|Description|**Used to determine if the CMA agent is operating in fully autonomous, semi-autonomous (AI assisted), shadow, or disabled mode.**|
+|DisplayName|**Agent Mode**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_agentmode`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_msdyn_aiagentstatus_msdyn_agentmode`|
+
+#### msdyn_agentmode Choices/Options
+
+|Value|Label|
+|---|---|
+|1|**Fully autonomous**|
+|2|**AI assisted**|
+|3|**Shadow Mode**|
+|4|**Disabled**|
+
+### <a name="BKMK_msdyn_agentresolutiontimekpi"></a> msdyn_agentresolutiontimekpi
+
+|Property|Value|
+|---|---|
+|Description|**SLA KPI Instance tracking agent resolution time**|
+|DisplayName|**Agent Resolution Time KPI**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_agentresolutiontimekpi`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|slakpiinstance|
+
+### <a name="BKMK_msdyn_agentrunstarttime"></a> msdyn_agentrunstarttime
+
+|Property|Value|
+|---|---|
+|Description|**When the current CMA run started. SLA timer starts from this timestamp.**|
+|DisplayName|**Agent Run Start Time**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_agentrunstarttime`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|True|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Auto|
+|SourceTypeMask|0|
 
 ### <a name="BKMK_msdyn_aiagentstatusId"></a> msdyn_aiagentstatusId
 
@@ -114,6 +222,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|850|
+
+### <a name="BKMK_msdyn_emailssent"></a> msdyn_emailssent
+
+|Property|Value|
+|---|---|
+|Description|**Number of autonomous emails sent by the agent**|
+|DisplayName|**Emails sent by agent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_emailssent`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
 
 ### <a name="BKMK_msdyn_escalatedon"></a> msdyn_escalatedon
 
@@ -168,6 +290,201 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |16|**An unexpected error occurred**|
 |17|**OOF email response from customer**|
 |18|**Unable to proceed due to various reasons**|
+|19|**Could not set language code**|
+|20|**Guardrail checks failed**|
+|21|**Harmful content detected**|
+|22|**Intent configured for shadow mode**|
+|23|**Custom agent unable to proceed**|
+|24|**Undeliverable email**|
+|25|**Custom agent requested review**|
+|26|**Invalid custom agent response**|
+|27|**Case management agent prerequisites not met**|
+|28|**Case management agent capabilities disabled**|
+|29|**Created an email draft with no subject**|
+|30|**Per line of business email template could not be resolved**|
+|31|**Manual stop by supervisor**|
+
+### <a name="BKMK_msdyn_fallbackreasondetails"></a> msdyn_fallbackreasondetails
+
+|Property|Value|
+|---|---|
+|Description|**Rationale describing why the AI agent escalated or handed off.**|
+|DisplayName|**Fallback Reason Details**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_fallbackreasondetails`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|TextArea|
+|FormatName|TextArea|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2000|
+
+### <a name="BKMK_msdyn_lastaction"></a> msdyn_lastaction
+
+|Property|Value|
+|---|---|
+|Description|**This field helps identifying the last action that was taken by the CMA agent on a particular case.**|
+|DisplayName|**Agent Last Action**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_lastaction`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_msdyn_aiagentstatus_msdyn_lastaction`|
+
+#### msdyn_lastaction Choices/Options
+
+|Value|Label|
+|---|---|
+|1|**Updated case**|
+|2|**Created draft email**|
+|3|**Sent email**|
+|4|**Resolved case**|
+
+### <a name="BKMK_msdyn_lastemailactivity"></a> msdyn_lastemailactivity
+
+|Property|Value|
+|---|---|
+|Description|**This corresponds to the last email activity that CMA dealt with**|
+|DisplayName|**Last Email**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_lastemailactivity`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|email|
+
+### <a name="BKMK_msdyn_lastintent"></a> msdyn_lastintent
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Last Intent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_lastintent`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_intent|
+
+### <a name="BKMK_msdyn_lastintentfamily"></a> msdyn_lastintentfamily
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Last Intent Family**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_lastintentfamily`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_intentfamily|
+
+### <a name="BKMK_msdyn_lastintentgroup"></a> msdyn_lastintentgroup
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Last Intent Group**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_lastintentgroup`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_intent|
+
+### <a name="BKMK_msdyn_lastoutboundcommunicationtype"></a> msdyn_lastoutboundcommunicationtype
+
+|Property|Value|
+|---|---|
+|Description|**The type of outbound communication the AI agent performed.**|
+|DisplayName|**Last Outbound Communication Type**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_lastoutboundcommunicationtype`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_msdyn_aiagentstatus_msdyn_lastoutboundcommunicationtype`|
+
+#### msdyn_lastoutboundcommunicationtype Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Interview**|
+|1|**Solution response**|
+
+### <a name="BKMK_msdyn_lastrawintent"></a> msdyn_lastrawintent
+
+|Property|Value|
+|---|---|
+|Description|**Raw intent string returned by intent-core when a LOB is matched but no configured intent matches. Mutually exclusive with Last Intent.**|
+|DisplayName|**Last Raw Intent**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_lastrawintent`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|500|
+
+### <a name="BKMK_msdyn_sentiment"></a> msdyn_sentiment
+
+|Property|Value|
+|---|---|
+|Description|**Stores the sentiment value for the record, mirroring the Case Sentiment option set so case sentiment can be tracked on the AI Agent Status entity without modifying the Case (Incident) entity.**|
+|DisplayName|**Sentiment**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_sentiment`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|0|
+|GlobalChoiceName|`msdyn_msdyn_aiagentstatus_msdyn_sentiment`|
+
+#### msdyn_sentiment Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**N/A**|
+|7|**Very negative**|
+|8|**Negative**|
+|9|**Slightly negative**|
+|10|**Neutral**|
+|11|**Slightly positive**|
+|12|**Positive**|
+|13|**Very positive**|
+
+### <a name="BKMK_msdyn_targetentity"></a> msdyn_targetentity
+
+|Property|Value|
+|---|---|
+|Description|**Target entity for the AI agent status.**|
+|DisplayName|**Target entity**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_targetentity`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|incident, msdyn_emailthread|
+
+### <a name="BKMK_msdyn_targetentityIdType"></a> msdyn_targetentityIdType
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`msdyn_targetentityidtype`|
+|RequiredLevel|None|
+|Type|EntityName|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
@@ -185,6 +502,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Format|DateOnly|
 |ImeMode|Inactive|
 |SourceTypeMask|0|
+
+### <a name="BKMK_SLAId"></a> SLAId
+
+|Property|Value|
+|---|---|
+|Description|**Choose the service level agreement (SLA) that you want to apply to the record.**|
+|DisplayName|**SLA**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`slaid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|sla|
 
 ### <a name="BKMK_statecode"></a> statecode
 
@@ -228,6 +558,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |1|Label: **In Progress**<br />State:0<br />TransitionData: None|
 |2|Label: **Escalated**<br />State:1<br />TransitionData: None|
 |3|Label: **Idle**<br />State:1<br />TransitionData: None|
+|4|Label: **Paused**<br />State:1<br />TransitionData: None|
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
@@ -268,7 +599,10 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedOn](#BKMK_ModifiedOn)
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
+- [OnHoldTime](#BKMK_OnHoldTime)
 - [OrganizationId](#BKMK_OrganizationId)
+- [slaidname](#BKMK_slaidname)
+- [SLAInvokedId](#BKMK_SLAInvokedId)
 - [VersionNumber](#BKMK_VersionNumber)
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
@@ -357,6 +691,20 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |Type|Lookup|
 |Targets|systemuser|
 
+### <a name="BKMK_OnHoldTime"></a> OnHoldTime
+
+|Property|Value|
+|---|---|
+|Description|**Shows how long, in minutes, that the record was on hold**|
+|DisplayName|**On Hold Time (Minutes)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`onholdtime`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
 |Property|Value|
@@ -369,6 +717,36 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|organization|
+
+### <a name="BKMK_slaidname"></a> slaidname
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`slaidname`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_SLAInvokedId"></a> SLAInvokedId
+
+|Property|Value|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Last SLA Applied**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`slainvokedid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|sla|
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
@@ -392,7 +770,16 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_aiagentstatus_createdonbehalfby](#BKMK_lk_msdyn_aiagentstatus_createdonbehalfby)
 - [lk_msdyn_aiagentstatus_modifiedby](#BKMK_lk_msdyn_aiagentstatus_modifiedby)
 - [lk_msdyn_aiagentstatus_modifiedonbehalfby](#BKMK_lk_msdyn_aiagentstatus_modifiedonbehalfby)
+- [manualsla_msdyn_aiagentstatus](#BKMK_manualsla_msdyn_aiagentstatus)
+- [msdyn_email_msdyn_aiagentstatus](#BKMK_msdyn_email_msdyn_aiagentstatus)
+- [msdyn_msdyn_aiagentstatus_incident_msdyn_targetentity](#BKMK_msdyn_msdyn_aiagentstatus_incident_msdyn_targetentity)
+- [msdyn_msdyn_aiagentstatus_msdyn_emailthread_msdyn_targetentity](#BKMK_msdyn_msdyn_aiagentstatus_msdyn_emailthread_msdyn_targetentity)
+- [msdyn_msdyn_intent_msdyn_aiagentstatus](#BKMK_msdyn_msdyn_intent_msdyn_aiagentstatus)
+- [msdyn_msdyn_intentfamily_msdyn_aiagentstatus](#BKMK_msdyn_msdyn_intentfamily_msdyn_aiagentstatus)
+- [msdyn_msdyn_intentgroup_msdyn_aiagentstatus](#BKMK_msdyn_msdyn_intentgroup_msdyn_aiagentstatus)
+- [msdyn_slakpiinstance_msdyn_aiagentstatus_agentresolutiontimekpi](#BKMK_msdyn_slakpiinstance_msdyn_aiagentstatus_agentresolutiontimekpi)
 - [organization_msdyn_aiagentstatus](#BKMK_organization_msdyn_aiagentstatus)
+- [sla_msdyn_aiagentstatus](#BKMK_sla_msdyn_aiagentstatus)
 
 ### <a name="BKMK_lk_msdyn_aiagentstatus_createdby"></a> lk_msdyn_aiagentstatus_createdby
 
@@ -446,6 +833,110 @@ One-To-Many Relationship: [systemuser lk_msdyn_aiagentstatus_modifiedonbehalfby]
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_manualsla_msdyn_aiagentstatus"></a> manualsla_msdyn_aiagentstatus
+
+One-To-Many Relationship: [sla manualsla_msdyn_aiagentstatus](sla.md#BKMK_manualsla_msdyn_aiagentstatus)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`sla`|
+|ReferencedAttribute|`slaid`|
+|ReferencingAttribute|`slaid`|
+|ReferencingEntityNavigationPropertyName|`slaid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_email_msdyn_aiagentstatus"></a> msdyn_email_msdyn_aiagentstatus
+
+One-To-Many Relationship: [email msdyn_email_msdyn_aiagentstatus](email.md#BKMK_msdyn_email_msdyn_aiagentstatus)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`email`|
+|ReferencedAttribute|`activityid`|
+|ReferencingAttribute|`msdyn_lastemailactivity`|
+|ReferencingEntityNavigationPropertyName|`msdyn_lastemailactivity`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_msdyn_aiagentstatus_incident_msdyn_targetentity"></a> msdyn_msdyn_aiagentstatus_incident_msdyn_targetentity
+
+One-To-Many Relationship: [incident msdyn_msdyn_aiagentstatus_incident_msdyn_targetentity](incident.md#BKMK_msdyn_msdyn_aiagentstatus_incident_msdyn_targetentity)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`incident`|
+|ReferencedAttribute|`incidentid`|
+|ReferencingAttribute|`msdyn_targetentity`|
+|ReferencingEntityNavigationPropertyName|`msdyn_targetentity_incident`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_msdyn_aiagentstatus_msdyn_emailthread_msdyn_targetentity"></a> msdyn_msdyn_aiagentstatus_msdyn_emailthread_msdyn_targetentity
+
+One-To-Many Relationship: [msdyn_emailthread msdyn_msdyn_aiagentstatus_msdyn_emailthread_msdyn_targetentity](msdyn_emailthread.md#BKMK_msdyn_msdyn_aiagentstatus_msdyn_emailthread_msdyn_targetentity)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_emailthread`|
+|ReferencedAttribute|`msdyn_emailthreadid`|
+|ReferencingAttribute|`msdyn_targetentity`|
+|ReferencingEntityNavigationPropertyName|`msdyn_targetentity_msdyn_emailthread`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_msdyn_intent_msdyn_aiagentstatus"></a> msdyn_msdyn_intent_msdyn_aiagentstatus
+
+One-To-Many Relationship: [msdyn_intent msdyn_msdyn_intent_msdyn_aiagentstatus](msdyn_intent.md#BKMK_msdyn_msdyn_intent_msdyn_aiagentstatus)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_intent`|
+|ReferencedAttribute|`msdyn_intentid`|
+|ReferencingAttribute|`msdyn_lastintent`|
+|ReferencingEntityNavigationPropertyName|`msdyn_lastintent`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_msdyn_intentfamily_msdyn_aiagentstatus"></a> msdyn_msdyn_intentfamily_msdyn_aiagentstatus
+
+One-To-Many Relationship: [msdyn_intentfamily msdyn_msdyn_intentfamily_msdyn_aiagentstatus](msdyn_intentfamily.md#BKMK_msdyn_msdyn_intentfamily_msdyn_aiagentstatus)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_intentfamily`|
+|ReferencedAttribute|`msdyn_intentfamilyid`|
+|ReferencingAttribute|`msdyn_lastintentfamily`|
+|ReferencingEntityNavigationPropertyName|`msdyn_lastintentfamily`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_msdyn_intentgroup_msdyn_aiagentstatus"></a> msdyn_msdyn_intentgroup_msdyn_aiagentstatus
+
+One-To-Many Relationship: [msdyn_intent msdyn_msdyn_intentgroup_msdyn_aiagentstatus](msdyn_intent.md#BKMK_msdyn_msdyn_intentgroup_msdyn_aiagentstatus)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_intent`|
+|ReferencedAttribute|`msdyn_intentid`|
+|ReferencingAttribute|`msdyn_lastintentgroup`|
+|ReferencingEntityNavigationPropertyName|`msdyn_lastintentgroup`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_slakpiinstance_msdyn_aiagentstatus_agentresolutiontimekpi"></a> msdyn_slakpiinstance_msdyn_aiagentstatus_agentresolutiontimekpi
+
+One-To-Many Relationship: [slakpiinstance msdyn_slakpiinstance_msdyn_aiagentstatus_agentresolutiontimekpi](slakpiinstance.md#BKMK_msdyn_slakpiinstance_msdyn_aiagentstatus_agentresolutiontimekpi)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`slakpiinstance`|
+|ReferencedAttribute|`slakpiinstanceid`|
+|ReferencingAttribute|`msdyn_agentresolutiontimekpi`|
+|ReferencingEntityNavigationPropertyName|`msdyn_agentresolutiontimekpi`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_organization_msdyn_aiagentstatus"></a> organization_msdyn_aiagentstatus
 
 One-To-Many Relationship: [organization organization_msdyn_aiagentstatus](organization.md#BKMK_organization_msdyn_aiagentstatus)
@@ -459,6 +950,19 @@ One-To-Many Relationship: [organization organization_msdyn_aiagentstatus](organi
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_sla_msdyn_aiagentstatus"></a> sla_msdyn_aiagentstatus
+
+One-To-Many Relationship: [sla sla_msdyn_aiagentstatus](sla.md#BKMK_sla_msdyn_aiagentstatus)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`sla`|
+|ReferencedAttribute|`slaid`|
+|ReferencingAttribute|`slainvokedid`|
+|ReferencingEntityNavigationPropertyName|`slainvokedid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 
 ## One-to-Many relationships
 
@@ -469,6 +973,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_aiagentstatus_MailboxTrackingFolders](#BKMK_msdyn_aiagentstatus_MailboxTrackingFolders)
 - [msdyn_aiagentstatus_PrincipalObjectAttributeAccesses](#BKMK_msdyn_aiagentstatus_PrincipalObjectAttributeAccesses)
 - [msdyn_aiagentstatus_ProcessSession](#BKMK_msdyn_aiagentstatus_ProcessSession)
+- [msdyn_aiagentstatus_SLAKPIInstances](#BKMK_msdyn_aiagentstatus_SLAKPIInstances)
 - [msdyn_aiagentstatus_SyncErrors](#BKMK_msdyn_aiagentstatus_SyncErrors)
 - [msdyn_incident_msdyn_aiagentstatus](#BKMK_msdyn_incident_msdyn_aiagentstatus)
 
@@ -529,6 +1034,18 @@ Many-To-One Relationship: [processsession msdyn_aiagentstatus_ProcessSession](pr
 |ReferencingEntity|`processsession`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_aiagentstatus_ProcessSession`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_aiagentstatus_SLAKPIInstances"></a> msdyn_aiagentstatus_SLAKPIInstances
+
+Many-To-One Relationship: [slakpiinstance msdyn_aiagentstatus_SLAKPIInstances](slakpiinstance.md#BKMK_msdyn_aiagentstatus_SLAKPIInstances)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`slakpiinstance`|
+|ReferencingAttribute|`regarding`|
+|ReferencedEntityNavigationPropertyName|`msdyn_aiagentstatus_SLAKPIInstances`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

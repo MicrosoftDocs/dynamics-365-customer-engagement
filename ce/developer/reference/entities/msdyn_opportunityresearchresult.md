@@ -22,21 +22,15 @@ Messages represent operations that can be performed on the table. They may also 
 | `Associate`<br />Event: True |[Associate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Associate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-associate-method-or-associaterequest)|
 | `BulkRetain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.BulkRetain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Create`<br />Event: True |`POST` /msdyn_opportunityresearchresults<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api) |[Create records](/power-apps/developer/data-platform/org-service/entity-operations-create#basic-create)|
-| `CreateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
 | `Delete`<br />Event: True |`DELETE` /msdyn_opportunityresearchresults(*msdyn_opportunityresearchresultid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete) |[Delete records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-delete)|
 | `Disassociate`<br />Event: True |[Disassociate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Disassociate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-disassociate-method-or-disassociaterequest)|
-| `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_opportunityresearchresults(*msdyn_opportunityresearchresultid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_opportunityresearchresults<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
 | `RollbackRetain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RollbackRetain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `SetState`<br />Event: True |`PATCH` /msdyn_opportunityresearchresults(*msdyn_opportunityresearchresultid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) the `statecode` and `statuscode` properties. |<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 | `Update`<br />Event: True |`PATCH` /msdyn_opportunityresearchresults(*msdyn_opportunityresearchresultid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) |[Update records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-update)|
-| `UpdateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
 | `Upsert`<br />Event: False |`PATCH` /msdyn_opportunityresearchresults(*msdyn_opportunityresearchresultid*)<br />See [Upsert a table row](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#upsert-a-table-row) |<xref:Microsoft.Xrm.Sdk.Messages.UpsertRequest>|
-| `UpsertMultiple`<br />Event: False |<xref:Microsoft.Dynamics.CRM.UpsertMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.UpsertMultipleRequest>|
 | `ValidateRetentionConfig`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ValidateRetentionConfig?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 
 ## Properties
@@ -71,6 +65,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_OpportunityResearchResultId](#BKMK_msdyn_OpportunityResearchResultId)
 - [msdyn_OpportunityResearchTopic](#BKMK_msdyn_OpportunityResearchTopic)
 - [msdyn_OpportunityResearchTopicResult](#BKMK_msdyn_OpportunityResearchTopicResult)
+- [msdyn_SalesAgentProfile](#BKMK_msdyn_SalesAgentProfile)
 - [msdyn_SalesAgentRunId](#BKMK_msdyn_SalesAgentRunId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
@@ -217,9 +212,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100000010|**Related Conversation Mapping**|
 |100000011|**Deal Summary**|
 |100000012|**Chain Of Thoughts**|
-|100000013|**Custom OOB Account Research**|
 |100000014|**Custom Research Insight**|
-|100000015|**Summerized Account Research**|
+|100000015|**Historical Patterns**|
+|100001000|**Research Updates**|
 
 ### <a name="BKMK_msdyn_OpportunityResearchTopicResult"></a> msdyn_OpportunityResearchTopicResult
 
@@ -237,6 +232,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|1048576|
+
+### <a name="BKMK_msdyn_SalesAgentProfile"></a> msdyn_SalesAgentProfile
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Sales Agent Profile**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_salesagentprofile`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_salesagentprofile|
 
 ### <a name="BKMK_msdyn_SalesAgentRunId"></a> msdyn_SalesAgentRunId
 
@@ -528,6 +536,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_opportunityresearchresult_modifiedby](#BKMK_lk_msdyn_opportunityresearchresult_modifiedby)
 - [lk_msdyn_opportunityresearchresult_modifiedonbehalfby](#BKMK_lk_msdyn_opportunityresearchresult_modifiedonbehalfby)
 - [msdyn_OpportunityResearchResult_Opportunity_Opportunity](#BKMK_msdyn_OpportunityResearchResult_Opportunity_Opportunity)
+- [msdyn_OpportunityResearchResult_SalesAgentProfile_msdyn_salesagentprofile](#BKMK_msdyn_OpportunityResearchResult_SalesAgentProfile_msdyn_salesagentprofile)
 
 ### <a name="BKMK_lk_msdyn_opportunityresearchresult_createdby"></a> lk_msdyn_opportunityresearchresult_createdby
 
@@ -593,6 +602,19 @@ One-To-Many Relationship: [opportunity msdyn_OpportunityResearchResult_Opportuni
 |ReferencingEntityNavigationPropertyName|`msdyn_Opportunity`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_OpportunityResearchResult_SalesAgentProfile_msdyn_salesagentprofile"></a> msdyn_OpportunityResearchResult_SalesAgentProfile_msdyn_salesagentprofile
+
+One-To-Many Relationship: [msdyn_salesagentprofile msdyn_OpportunityResearchResult_SalesAgentProfile_msdyn_salesagentprofile](msdyn_salesagentprofile.md#BKMK_msdyn_OpportunityResearchResult_SalesAgentProfile_msdyn_salesagentprofile)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_salesagentprofile`|
+|ReferencedAttribute|`msdyn_salesagentprofileid`|
+|ReferencingAttribute|`msdyn_salesagentprofile`|
+|ReferencingEntityNavigationPropertyName|`msdyn_SalesAgentProfile`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 ## One-to-Many relationships

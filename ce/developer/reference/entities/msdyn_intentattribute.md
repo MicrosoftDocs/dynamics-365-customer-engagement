@@ -71,6 +71,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_acronyms](#BKMK_msdyn_acronyms)
 - [msdyn_intentattributeId](#BKMK_msdyn_intentattributeId)
 - [msdyn_intentfamilyid](#BKMK_msdyn_intentfamilyid)
+- [msdyn_locale_code](#BKMK_msdyn_locale_code)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_reviewstate](#BKMK_msdyn_reviewstate)
 - [msdyn_source](#BKMK_msdyn_source)
@@ -149,6 +150,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|ApplicationRequired|
 |Type|Lookup|
 |Targets|msdyn_intentfamily|
+
+### <a name="BKMK_msdyn_locale_code"></a> msdyn_locale_code
+
+|Property|Value|
+|---|---|
+|Description|**Locale code of the intent attribute**|
+|DisplayName|**Locale Code**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_locale_code`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|50|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 

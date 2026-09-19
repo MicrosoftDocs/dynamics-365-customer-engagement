@@ -73,6 +73,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_dataversecomponenttype](#BKMK_msdyn_dataversecomponenttype)
 - [msdyn_decisionrulesetId](#BKMK_msdyn_decisionrulesetId)
 - [msdyn_description](#BKMK_msdyn_description)
+- [msdyn_disabledrules](#BKMK_msdyn_disabledrules)
 - [msdyn_fetchxml](#BKMK_msdyn_fetchxml)
 - [msdyn_inputcontractid](#BKMK_msdyn_inputcontractid)
 - [msdyn_isinputcollection](#BKMK_msdyn_isinputcollection)
@@ -200,6 +201,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|True|
 |MaxLength|500|
+
+### <a name="BKMK_msdyn_disabledrules"></a> msdyn_disabledrules
+
+|Property|Value|
+|---|---|
+|Description|**Array of GUID IDs representing disabled rules**|
+|DisplayName|**Disabled rules**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_disabledrules`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
 
 ### <a name="BKMK_msdyn_fetchxml"></a> msdyn_fetchxml
 
@@ -968,6 +986,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_msdyn_decisionruleset_msdyn_masterentityroutingconfiguration_rulesetid](#BKMK_msdyn_msdyn_decisionruleset_msdyn_masterentityroutingconfiguration_rulesetid)
 - [msdyn_msdyn_decisionruleset_msdyn_swarmtemplate_skillattachmentrulesetid](#BKMK_msdyn_msdyn_decisionruleset_msdyn_swarmtemplate_skillattachmentrulesetid)
 - [msdyn_msdyn_decisionruleset_msdyn_unifiedroutingdiagnostic_decisionrulesetid](#BKMK_msdyn_msdyn_decisionruleset_msdyn_unifiedroutingdiagnostic_decisionrulesetid)
+- [msdyn_profilepicker_msdyn_decisionrulesetid_msdyn_decisionruleset](#BKMK_msdyn_profilepicker_msdyn_decisionrulesetid_msdyn_decisionruleset)
 - [msdyn_queue_decisionrulesetId](#BKMK_msdyn_queue_decisionrulesetId)
 - [msdyn_templateruleset_draftruleset_msdyn_decisionruleset](#BKMK_msdyn_templateruleset_draftruleset_msdyn_decisionruleset)
 - [msdyn_templateruleset_publishedruleset_msdyn_decisionruleset](#BKMK_msdyn_templateruleset_publishedruleset_msdyn_decisionruleset)
@@ -1149,6 +1168,18 @@ Many-To-One Relationship: [msdyn_unifiedroutingdiagnostic msdyn_msdyn_decisionru
 |ReferencingEntity|`msdyn_unifiedroutingdiagnostic`|
 |ReferencingAttribute|`msdyn_decisionrulesetid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_decisionruleset_msdyn_unifiedroutingdiagnostic_decisionrulesetid`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_profilepicker_msdyn_decisionrulesetid_msdyn_decisionruleset"></a> msdyn_profilepicker_msdyn_decisionrulesetid_msdyn_decisionruleset
+
+Many-To-One Relationship: [msdyn_profilepicker msdyn_profilepicker_msdyn_decisionrulesetid_msdyn_decisionruleset](msdyn_profilepicker.md#BKMK_msdyn_profilepicker_msdyn_decisionrulesetid_msdyn_decisionruleset)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_profilepicker`|
+|ReferencingAttribute|`msdyn_decisionrulesetid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_profilepicker_msdyn_decisionrulesetid_msdyn_decisionruleset`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

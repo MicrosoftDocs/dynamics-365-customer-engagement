@@ -27,7 +27,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `Disassociate`<br />Event: True |[Disassociate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Disassociate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-disassociate-method-or-disassociaterequest)|
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_nextactions(*msdyn_nextactionid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_nextactions<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -132,6 +131,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100000003|**Reply to customer**|
 |100000004|**Reply to customer**|
 |100000005|**Suggest a resolution**|
+|100000007|**Updated case status**|
 
 ### <a name="BKMK_msdyn_isfullautonomous"></a> msdyn_isfullautonomous
 
@@ -548,12 +548,25 @@ One-To-Many Relationship: [organization organization_msdyn_nextaction](organizat
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_incident_msdyn_latestnextaction](#BKMK_msdyn_incident_msdyn_latestnextaction)
 - [msdyn_nextaction_AsyncOperations](#BKMK_msdyn_nextaction_AsyncOperations)
 - [msdyn_nextaction_BulkDeleteFailures](#BKMK_msdyn_nextaction_BulkDeleteFailures)
 - [msdyn_nextaction_MailboxTrackingFolders](#BKMK_msdyn_nextaction_MailboxTrackingFolders)
 - [msdyn_nextaction_PrincipalObjectAttributeAccesses](#BKMK_msdyn_nextaction_PrincipalObjectAttributeAccesses)
 - [msdyn_nextaction_ProcessSession](#BKMK_msdyn_nextaction_ProcessSession)
 - [msdyn_nextaction_SyncErrors](#BKMK_msdyn_nextaction_SyncErrors)
+
+### <a name="BKMK_msdyn_incident_msdyn_latestnextaction"></a> msdyn_incident_msdyn_latestnextaction
+
+Many-To-One Relationship: [incident msdyn_incident_msdyn_latestnextaction](incident.md#BKMK_msdyn_incident_msdyn_latestnextaction)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`incident`|
+|ReferencingAttribute|`msdyn_latestnextaction`|
+|ReferencedEntityNavigationPropertyName|`msdyn_incident_msdyn_latestnextaction`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_nextaction_AsyncOperations"></a> msdyn_nextaction_AsyncOperations
 

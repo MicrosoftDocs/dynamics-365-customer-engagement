@@ -62,7 +62,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_clientactionresources](#BKMK_msdyn_clientactionresources)
 - [msdyn_clienteventdata](#BKMK_msdyn_clienteventdata)
+- [msdyn_entitydynamicfilter](#BKMK_msdyn_entitydynamicfilter)
+- [msdyn_entitydynamicfiltervalues](#BKMK_msdyn_entitydynamicfiltervalues)
 - [msdyn_entityname](#BKMK_msdyn_entityname)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_organizationpromptfiltervalue](#BKMK_msdyn_organizationpromptfiltervalue)
@@ -106,6 +109,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
 
+### <a name="BKMK_msdyn_clientactionresources"></a> msdyn_clientactionresources
+
+|Property|Value|
+|---|---|
+|Description|**Client Action Resources**|
+|DisplayName|**Client Action Resources**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_clientactionresources`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|True|
+|MaxLength|1048576|
+
 ### <a name="BKMK_msdyn_clienteventdata"></a> msdyn_clienteventdata
 
 |Property|Value|
@@ -122,6 +142,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|1048576|
+
+### <a name="BKMK_msdyn_entitydynamicfilter"></a> msdyn_entitydynamicfilter
+
+|Property|Value|
+|---|---|
+|Description|**Logical name of the entity attribute used to dynamically filter this organization prompt (for example, msdyn\_cdsqueueid on msdyn\_ocliveworkitem). Allowed field types: Lookup, OptionSet.**|
+|DisplayName|**Entity Dynamic Filter**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_entitydynamicfilter`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_entitydynamicfiltervalues"></a> msdyn_entitydynamicfiltervalues
+
+|Property|Value|
+|---|---|
+|Description|**JSON array of allowed values for msdyn\_entitydynamicfilter. Each value can be a GUID (Lookup), int (OptionSet), or string. Allowed field types: Lookup, OptionSet. Empty or null means the prompt matches any value of that attribute.**|
+|DisplayName|**Entity Dynamic Filter Values**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_entitydynamicfiltervalues`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|20000|
 
 ### <a name="BKMK_msdyn_entityname"></a> msdyn_entityname
 
@@ -234,7 +288,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Format|Text|
 |FormatName|Text|
 |ImeMode|Auto|
-|IsLocalizable|False|
+|IsLocalizable|True|
 |MaxLength|100|
 
 ### <a name="BKMK_msdyn_promptinstruction"></a> msdyn_promptinstruction

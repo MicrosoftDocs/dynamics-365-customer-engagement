@@ -68,12 +68,15 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_CriteriaVersionId](#BKMK_msdyn_CriteriaVersionId)
 - [msdyn_Description](#BKMK_msdyn_Description)
 - [msdyn_DescriptionMetadataId](#BKMK_msdyn_DescriptionMetadataId)
 - [msdyn_EvaluationCategoryId](#BKMK_msdyn_EvaluationCategoryId)
 - [msdyn_EvaluationCriteria](#BKMK_msdyn_EvaluationCriteria)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_NameMetadataId](#BKMK_msdyn_NameMetadataId)
+- [msdyn_ParentCategoryId](#BKMK_msdyn_ParentCategoryId)
+- [msdyn_RootCategoryId](#BKMK_msdyn_RootCategoryId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -107,6 +110,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`iscustomizable`|
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
+
+### <a name="BKMK_msdyn_CriteriaVersionId"></a> msdyn_CriteriaVersionId
+
+|Property|Value|
+|---|---|
+|Description|**The GUID of the criteria version this category belongs to.**|
+|DisplayName|**Criteria Version Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_criteriaversionid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_Description"></a> msdyn_Description
 
@@ -193,6 +213,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_namemetadataid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_ParentCategoryId"></a> msdyn_ParentCategoryId
+
+|Property|Value|
+|---|---|
+|Description|**The GUID of the parent category this was copied from. Null on first creation, set during version copy.**|
+|DisplayName|**Parent Category Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_parentcategoryid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_RootCategoryId"></a> msdyn_RootCategoryId
+
+|Property|Value|
+|---|---|
+|Description|**Stable identifier that persists across all versions. Set to the entity's own GUID on first creation, then carried forward unchanged on every version copy.**|
+|DisplayName|**Root Category Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_rootcategoryid`|
 |RequiredLevel|None|
 |Type|String|
 |Format|Text|

@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_intentfeature_configurations(*msdyn_intentfeature_configurationid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_intentfeature_configurations<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -71,6 +70,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_batchjob_runstatus](#BKMK_msdyn_batchjob_runstatus)
 - [msdyn_copilotprovisioning_status](#BKMK_msdyn_copilotprovisioning_status)
 - [msdyn_feature_status](#BKMK_msdyn_feature_status)
+- [msdyn_intentfamilycopilotprovisioning_status](#BKMK_msdyn_intentfamilycopilotprovisioning_status)
 - [msdyn_intentfeature_configurationId](#BKMK_msdyn_intentfeature_configurationId)
 - [msdyn_isenabled](#BKMK_msdyn_isenabled)
 - [msdyn_kbcopilotprovisioning_status](#BKMK_msdyn_kbcopilotprovisioning_status)
@@ -143,6 +143,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_feature_status`|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_intentfamilycopilotprovisioning_status"></a> msdyn_intentfamilycopilotprovisioning_status
+
+|Property|Value|
+|---|---|
+|Description|**msdyn\_intentfamilycopilotprovisioning\_status**|
+|DisplayName|**msdyn\_intentfamilycopilotprovisioning\_status**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_intentfamilycopilotprovisioning_status`|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
 |Format|Text|

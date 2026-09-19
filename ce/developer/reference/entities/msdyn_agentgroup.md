@@ -714,10 +714,12 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_agentgroupmembership_agentgroupid_msdyn_agentgroup](#BKMK_msdyn_agentgroupmembership_agentgroupid_msdyn_agentgroup)
 - [msdyn_agentgroupregion_agentgroupid_msdyn_agentgroup](#BKMK_msdyn_agentgroupregion_agentgroupid_msdyn_agentgroup)
 - [msdyn_intentfamily_msdyn_defaultusergroup_msdyn_agentgroup](#BKMK_msdyn_intentfamily_msdyn_defaultusergroup_msdyn_agentgroup)
+- [msdyn_intentfamilysolutionmap_agentgroupid_msdyn_agentgroup](#BKMK_msdyn_intentfamilysolutionmap_agentgroupid_msdyn_agentgroup)
 - [msdyn_intentsolutionmap_agentgroupid_msdyn_agentgroup](#BKMK_msdyn_intentsolutionmap_agentgroupid_msdyn_agentgroup)
 - [msdyn_msdyn_agentgroup_msdyn_agentgrouplanguage_agentgroupid](#BKMK_msdyn_msdyn_agentgroup_msdyn_agentgrouplanguage_agentgroupid)
 - [msdyn_msdyn_ocliveworkitem_msdyn_agentgroup_activeagentgroupid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_agentgroup_activeagentgroupid)
 - [msdyn_msdyn_ocsession_msdyn_agentgroup_activeagentgroupid](#BKMK_msdyn_msdyn_ocsession_msdyn_agentgroup_activeagentgroupid)
+- [msdyn_queueusergroupmembership_usergroup_msdyn_agentgroup](#BKMK_msdyn_queueusergroupmembership_usergroup_msdyn_agentgroup)
 
 ### <a name="BKMK_msdyn_agentgroup_AsyncOperations"></a> msdyn_agentgroup_AsyncOperations
 
@@ -863,6 +865,18 @@ Many-To-One Relationship: [msdyn_intentfamily msdyn_intentfamily_msdyn_defaultus
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_intentfamilysolutionmap_agentgroupid_msdyn_agentgroup"></a> msdyn_intentfamilysolutionmap_agentgroupid_msdyn_agentgroup
+
+Many-To-One Relationship: [msdyn_intentfamilysolutionmap msdyn_intentfamilysolutionmap_agentgroupid_msdyn_agentgroup](msdyn_intentfamilysolutionmap.md#BKMK_msdyn_intentfamilysolutionmap_agentgroupid_msdyn_agentgroup)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_intentfamilysolutionmap`|
+|ReferencingAttribute|`msdyn_agentgroupid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_intentfamilysolutionmap_agentgroupid_msdyn_agentgroup`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_intentsolutionmap_agentgroupid_msdyn_agentgroup"></a> msdyn_intentsolutionmap_agentgroupid_msdyn_agentgroup
 
 Many-To-One Relationship: [msdyn_intentsolutionmap msdyn_intentsolutionmap_agentgroupid_msdyn_agentgroup](msdyn_intentsolutionmap.md#BKMK_msdyn_intentsolutionmap_agentgroupid_msdyn_agentgroup)
@@ -908,6 +922,18 @@ Many-To-One Relationship: [msdyn_ocsession msdyn_msdyn_ocsession_msdyn_agentgrou
 |ReferencingEntity|`msdyn_ocsession`|
 |ReferencingAttribute|`msdyn_activeagentgroupid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_ocsession_msdyn_agentgroup_activeagentgroupid`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_queueusergroupmembership_usergroup_msdyn_agentgroup"></a> msdyn_queueusergroupmembership_usergroup_msdyn_agentgroup
+
+Many-To-One Relationship: [msdyn_queueusergroupmembership msdyn_queueusergroupmembership_usergroup_msdyn_agentgroup](msdyn_queueusergroupmembership.md#BKMK_msdyn_queueusergroupmembership_usergroup_msdyn_agentgroup)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_queueusergroupmembership`|
+|ReferencingAttribute|`msdyn_usergroup`|
+|ReferencedEntityNavigationPropertyName|`msdyn_queueusergroupmembership_usergroup_msdyn_agentgroup`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

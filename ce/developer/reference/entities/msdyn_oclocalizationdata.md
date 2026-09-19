@@ -27,7 +27,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `Disassociate`<br />Event: True |[Disassociate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Disassociate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-disassociate-method-or-disassociaterequest)|
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_oclocalizationdatas(*msdyn_oclocalizationdataid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_oclocalizationdatas<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -72,6 +71,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_loc_ocautomatedactionruleid](#BKMK_msdyn_loc_ocautomatedactionruleid)
 - [msdyn_localizedtext](#BKMK_msdyn_localizedtext)
 - [msdyn_oclocalizationdataId](#BKMK_msdyn_oclocalizationdataId)
+- [msdyn_presenceid](#BKMK_msdyn_presenceid)
 - [msdyn_systemmessageid](#BKMK_msdyn_systemmessageid)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
@@ -245,6 +245,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_oclocalizationdataid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_presenceid"></a> msdyn_presenceid
+
+|Property|Value|
+|---|---|
+|Description|**Unique identifier for Presence associated with Localization Data.**|
+|DisplayName|**Presence**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_presenceid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_presence|
 
 ### <a name="BKMK_msdyn_systemmessageid"></a> msdyn_systemmessageid
 
@@ -481,6 +494,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_oclocalizationdata_createdonbehalfby](#BKMK_lk_msdyn_oclocalizationdata_createdonbehalfby)
 - [lk_msdyn_oclocalizationdata_modifiedby](#BKMK_lk_msdyn_oclocalizationdata_modifiedby)
 - [lk_msdyn_oclocalizationdata_modifiedonbehalfby](#BKMK_lk_msdyn_oclocalizationdata_modifiedonbehalfby)
+- [msdyn_msdyn_presence_msdyn_oclocalizationdata_presenceid](#BKMK_msdyn_msdyn_presence_msdyn_oclocalizationdata_presenceid)
 - [msdyn_ocautomatedactionrule_msdyn_ocautomatedactionrule_msdyn_oclocalizationdata](#BKMK_msdyn_ocautomatedactionrule_msdyn_ocautomatedactionrule_msdyn_oclocalizationdata)
 - [msdyn_oclanguage_msdyn_oclocalizationdata](#BKMK_msdyn_oclanguage_msdyn_oclocalizationdata)
 - [msdyn_ocsystemmessage_msdyn_oclocalizationdata](#BKMK_msdyn_ocsystemmessage_msdyn_oclocalizationdata)
@@ -537,6 +551,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_oclocalizationdata_modifiedonbeha
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_msdyn_presence_msdyn_oclocalizationdata_presenceid"></a> msdyn_msdyn_presence_msdyn_oclocalizationdata_presenceid
+
+One-To-Many Relationship: [msdyn_presence msdyn_msdyn_presence_msdyn_oclocalizationdata_presenceid](msdyn_presence.md#BKMK_msdyn_msdyn_presence_msdyn_oclocalizationdata_presenceid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_presence`|
+|ReferencedAttribute|`msdyn_presenceid`|
+|ReferencingAttribute|`msdyn_presenceid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_presenceid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_ocautomatedactionrule_msdyn_ocautomatedactionrule_msdyn_oclocalizationdata"></a> msdyn_ocautomatedactionrule_msdyn_ocautomatedactionrule_msdyn_oclocalizationdata
 

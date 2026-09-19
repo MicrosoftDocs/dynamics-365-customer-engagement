@@ -72,7 +72,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_CriteriaJson](#BKMK_msdyn_CriteriaJson)
 - [msdyn_EvaluationCriteria](#BKMK_msdyn_EvaluationCriteria)
 - [msdyn_EvaluationCriteriaVersionId](#BKMK_msdyn_EvaluationCriteriaVersionId)
+- [msdyn_KnowledgeArticleIds](#BKMK_msdyn_KnowledgeArticleIds)
+- [msdyn_KnowledgeEnabled](#BKMK_msdyn_KnowledgeEnabled)
 - [msdyn_Name](#BKMK_msdyn_Name)
+- [msdyn_QuestionWeightsEnabled](#BKMK_msdyn_QuestionWeightsEnabled)
 - [msdyn_ScoringEnabled](#BKMK_msdyn_ScoringEnabled)
 - [msdyn_UseParentCriteriaInstruction](#BKMK_msdyn_UseParentCriteriaInstruction)
 - [msdyn_VersionNumber](#BKMK_msdyn_VersionNumber)
@@ -169,6 +172,39 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
+### <a name="BKMK_msdyn_KnowledgeArticleIds"></a> msdyn_KnowledgeArticleIds
+
+|Property|Value|
+|---|---|
+|Description|**An array of knowledge article ids.**|
+|DisplayName|**Knowledge Articles**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_knowledgearticleids`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048575|
+
+### <a name="BKMK_msdyn_KnowledgeEnabled"></a> msdyn_KnowledgeEnabled
+
+|Property|Value|
+|---|---|
+|Description|**Boolean indicator specifying when a knowledge article is utilized.**|
+|DisplayName|**Knowledge Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_knowledgeenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_evaluationcriteriaversion_msdyn_knowledgeenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 
 |Property|Value|
@@ -185,6 +221,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|850|
+
+### <a name="BKMK_msdyn_QuestionWeightsEnabled"></a> msdyn_QuestionWeightsEnabled
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether question-level weight percentages are used for scoring.**|
+|DisplayName|**Question Weights Enabled**|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`msdyn_questionweightsenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_evaluationcriteriaversion_msdyn_questionweightsenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_ScoringEnabled"></a> msdyn_ScoringEnabled
 
@@ -301,7 +353,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |Description|**Reason for the status of the Evaluation criteria version**|
 |DisplayName|**Status Reason**|
-|IsValidForForm|False|
+|IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`statuscode`|
 |RequiredLevel|None|
@@ -777,6 +829,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_evaluationcriteriaversion_PrincipalObjectAttributeAccesses](#BKMK_msdyn_evaluationcriteriaversion_PrincipalObjectAttributeAccesses)
 - [msdyn_evaluationcriteriaversion_ProcessSession](#BKMK_msdyn_evaluationcriteriaversion_ProcessSession)
 - [msdyn_evaluationcriteriaversion_SyncErrors](#BKMK_msdyn_evaluationcriteriaversion_SyncErrors)
+- [msdyn_evaluationsimulationrun_msdyn_evaluationcriteriaversionid_msdyn_evaluationcriteriaversion](#BKMK_msdyn_evaluationsimulationrun_msdyn_evaluationcriteriaversionid_msdyn_evaluationcriteriaversion)
 
 ### <a name="BKMK_msdyn_evaluationcriteria_ActiveVersion_msdyn_evaluationcriteriaversion"></a> msdyn_evaluationcriteria_ActiveVersion_msdyn_evaluationcriteriaversion
 
@@ -861,6 +914,18 @@ Many-To-One Relationship: [syncerror msdyn_evaluationcriteriaversion_SyncErrors]
 |ReferencedEntityNavigationPropertyName|`msdyn_evaluationcriteriaversion_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_evaluationsimulationrun_msdyn_evaluationcriteriaversionid_msdyn_evaluationcriteriaversion"></a> msdyn_evaluationsimulationrun_msdyn_evaluationcriteriaversionid_msdyn_evaluationcriteriaversion
+
+Many-To-One Relationship: [msdyn_evaluationsimulationrun msdyn_evaluationsimulationrun_msdyn_evaluationcriteriaversionid_msdyn_evaluationcriteriaversion](msdyn_evaluationsimulationrun.md#BKMK_msdyn_evaluationsimulationrun_msdyn_evaluationcriteriaversionid_msdyn_evaluationcriteriaversion)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_evaluationsimulationrun`|
+|ReferencingAttribute|`msdyn_evaluationcriteriaversionid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_evaluationsimulationrun_msdyn_evaluationcriteriaversionid_msdyn_evaluationcriteriaversion`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

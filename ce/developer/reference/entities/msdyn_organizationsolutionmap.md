@@ -73,6 +73,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_reviewstate](#BKMK_msdyn_reviewstate)
 - [msdyn_solutionbehaviour](#BKMK_msdyn_solutionbehaviour)
 - [msdyn_solutionid](#BKMK_msdyn_solutionid)
+- [msdyn_solutionisexternal](#BKMK_msdyn_solutionisexternal)
 - [msdyn_solutionmetadata](#BKMK_msdyn_solutionmetadata)
 - [msdyn_solutiontype](#BKMK_msdyn_solutiontype)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -197,6 +198,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|200|
+
+### <a name="BKMK_msdyn_solutionisexternal"></a> msdyn_solutionisexternal
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether this solution map uses an external custom AI agent from another environment/organization**|
+|DisplayName|**Solution Is External**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_solutionisexternal`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_organizationsolutionmap_msdyn_solutionisexternal`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_solutionmetadata"></a> msdyn_solutionmetadata
 
@@ -759,6 +776,7 @@ One-To-Many Relationship: [systemuser user_msdyn_organizationsolutionmap](system
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_intentfamilysolutionmap_solutionmapid_msdyn_organizationsolutionmap](#BKMK_msdyn_intentfamilysolutionmap_solutionmapid_msdyn_organizationsolutionmap)
 - [msdyn_intentsolutionmap_solutionmapid_msdyn_organizationsolutionmap](#BKMK_msdyn_intentsolutionmap_solutionmapid_msdyn_organizationsolutionmap)
 - [msdyn_organizationsolutionmap_AsyncOperations](#BKMK_msdyn_organizationsolutionmap_AsyncOperations)
 - [msdyn_organizationsolutionmap_BulkDeleteFailures](#BKMK_msdyn_organizationsolutionmap_BulkDeleteFailures)
@@ -768,6 +786,18 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_organizationsolutionmap_PrincipalObjectAttributeAccesses](#BKMK_msdyn_organizationsolutionmap_PrincipalObjectAttributeAccesses)
 - [msdyn_organizationsolutionmap_ProcessSession](#BKMK_msdyn_organizationsolutionmap_ProcessSession)
 - [msdyn_organizationsolutionmap_SyncErrors](#BKMK_msdyn_organizationsolutionmap_SyncErrors)
+
+### <a name="BKMK_msdyn_intentfamilysolutionmap_solutionmapid_msdyn_organizationsolutionmap"></a> msdyn_intentfamilysolutionmap_solutionmapid_msdyn_organizationsolutionmap
+
+Many-To-One Relationship: [msdyn_intentfamilysolutionmap msdyn_intentfamilysolutionmap_solutionmapid_msdyn_organizationsolutionmap](msdyn_intentfamilysolutionmap.md#BKMK_msdyn_intentfamilysolutionmap_solutionmapid_msdyn_organizationsolutionmap)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_intentfamilysolutionmap`|
+|ReferencingAttribute|`msdyn_solutionmapid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_intentfamilysolutionmap_solutionmapid_msdyn_organizationsolutionmap`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_intentsolutionmap_solutionmapid_msdyn_organizationsolutionmap"></a> msdyn_intentsolutionmap_solutionmapid_msdyn_organizationsolutionmap
 

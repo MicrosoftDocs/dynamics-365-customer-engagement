@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_conversationmessageblocks(*msdyn_conversationmessageblockid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_conversationmessageblocks<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -79,6 +78,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_inboundmessagecountoutsideoh](#BKMK_msdyn_inboundmessagecountoutsideoh)
 - [msdyn_inboundmessagecountwithinoh](#BKMK_msdyn_inboundmessagecountwithinoh)
 - [msdyn_isfirstresponsetime](#BKMK_msdyn_isfirstresponsetime)
+- [msdyn_lastagentmessagetime](#BKMK_msdyn_lastagentmessagetime)
+- [msdyn_lastcustomermessagetimestamp](#BKMK_msdyn_lastcustomermessagetimestamp)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_ocliveworkitemid](#BKMK_msdyn_ocliveworkitemid)
 - [msdyn_outboundmessagecountoutsideoh](#BKMK_msdyn_outboundmessagecountoutsideoh)
@@ -269,6 +270,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_lastagentmessagetime"></a> msdyn_lastagentmessagetime
+
+|Property|Value|
+|---|---|
+|Description|**Timestamp of the last message sent by agent within a message block**|
+|DisplayName|**Last agent message time**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_lastagentmessagetime`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|True|
+|DateTimeBehavior|UserLocal|
+|Format|DateOnly|
+|ImeMode|Auto|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_lastcustomermessagetimestamp"></a> msdyn_lastcustomermessagetimestamp
+
+|Property|Value|
+|---|---|
+|Description|**Timestamp of the last message sent by customer within a message block**|
+|DisplayName|**Last customer message timestamp**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_lastcustomermessagetimestamp`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|True|
+|DateTimeBehavior|UserLocal|
+|Format|DateOnly|
+|ImeMode|Auto|
+|SourceTypeMask|0|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 

@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_salesagenthandovers(*msdyn_salesagenthandoverid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_salesagenthandovers<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -70,6 +69,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_handoveractions](#BKMK_msdyn_handoveractions)
 - [msdyn_handoverintent](#BKMK_msdyn_handoverintent)
+- [msdyn_leadrating](#BKMK_msdyn_leadrating)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_regardingid](#BKMK_msdyn_regardingid)
 - [msdyn_regardingIdType](#BKMK_msdyn_regardingIdType)
@@ -133,10 +133,32 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |---|---|
-|100000000|**Positive**|
-|100000001|**Negative**|
-|100000002|**Undetected**|
-|100000003|**Error**|
+|100000000|**1. Positive**|
+|100000001|**3. Negative**|
+|100000002|**2. Undetected**|
+|100000003|**4. Error**|
+
+### <a name="BKMK_msdyn_leadrating"></a> msdyn_leadrating
+
+|Property|Value|
+|---|---|
+|Description|**Shows a lead's FIRE rating.**|
+|DisplayName|**Hotness**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_leadrating`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_salesagenthandoverleadrating`|
+
+#### msdyn_leadrating Choices/Options
+
+|Value|Label|
+|---|---|
+|1|**1. Hot**|
+|2|**2. Warm**|
+|3|**3. Cold**|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 

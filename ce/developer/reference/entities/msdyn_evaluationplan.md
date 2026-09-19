@@ -73,16 +73,26 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_Description](#BKMK_msdyn_Description)
 - [msdyn_DueDate](#BKMK_msdyn_DueDate)
 - [msdyn_EvaluationCriteria](#BKMK_msdyn_EvaluationCriteria)
+- [msdyn_EvaluationExpirationUnit](#BKMK_msdyn_EvaluationExpirationUnit)
+- [msdyn_EvaluationExpirationValue](#BKMK_msdyn_EvaluationExpirationValue)
 - [msdyn_EvaluationFilterRulesXML](#BKMK_msdyn_EvaluationFilterRulesXML)
 - [msdyn_EvaluationMethod](#BKMK_msdyn_EvaluationMethod)
 - [msdyn_EvaluationPlanId](#BKMK_msdyn_EvaluationPlanId)
+- [msdyn_EvaluationTriggerConfig](#BKMK_msdyn_EvaluationTriggerConfig)
 - [msdyn_Event](#BKMK_msdyn_Event)
 - [msdyn_Frequency](#BKMK_msdyn_Frequency)
 - [msdyn_Occurrence](#BKMK_msdyn_Occurrence)
 - [msdyn_PlanEndDate](#BKMK_msdyn_PlanEndDate)
 - [msdyn_planname](#BKMK_msdyn_planname)
 - [msdyn_PlanStartDate](#BKMK_msdyn_PlanStartDate)
+- [msdyn_RankRecordsByFieldLogicalName](#BKMK_msdyn_RankRecordsByFieldLogicalName)
 - [msdyn_RecordType](#BKMK_msdyn_RecordType)
+- [msdyn_RemoveEndDateToggle](#BKMK_msdyn_RemoveEndDateToggle)
+- [msdyn_SampleBy](#BKMK_msdyn_SampleBy)
+- [msdyn_SamplingMode](#BKMK_msdyn_SamplingMode)
+- [msdyn_SamplingValue](#BKMK_msdyn_SamplingValue)
+- [msdyn_SelectionStrategy](#BKMK_msdyn_SelectionStrategy)
+- [msdyn_SetEndDateToggle](#BKMK_msdyn_SetEndDateToggle)
 - [msdyn_UniqueName](#BKMK_msdyn_UniqueName)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -169,7 +179,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_duedate`|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|DateTime|
 |CanChangeDateTimeBehavior|True|
 |DateTimeBehavior|UserLocal|
@@ -189,6 +199,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|ApplicationRequired|
 |Type|Lookup|
 |Targets|msdyn_evaluationcriteria|
+
+### <a name="BKMK_msdyn_EvaluationExpirationUnit"></a> msdyn_EvaluationExpirationUnit
+
+|Property|Value|
+|---|---|
+|Description|**Evaluation expiration unit**|
+|DisplayName|**Evaluation expiration unit**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_evaluationexpirationunit`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_evaluationplan_msdyn_evaluationexpirationunit`|
+
+#### msdyn_EvaluationExpirationUnit Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Day**|
+
+### <a name="BKMK_msdyn_EvaluationExpirationValue"></a> msdyn_EvaluationExpirationValue
+
+|Property|Value|
+|---|---|
+|Description|**Evaluation expiration (in days)**|
+|DisplayName|**Evaluation expiration (in days)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_evaluationexpirationvalue`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
 
 ### <a name="BKMK_msdyn_EvaluationFilterRulesXML"></a> msdyn_EvaluationFilterRulesXML
 
@@ -240,6 +284,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_evaluationplanid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_EvaluationTriggerConfig"></a> msdyn_EvaluationTriggerConfig
+
+|Property|Value|
+|---|---|
+|Description|**Evaluation Trigger Config**|
+|DisplayName|**Evaluation Trigger Config**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_evaluationtriggerconfig`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_evaluationtriggerconfig|
 
 ### <a name="BKMK_msdyn_Event"></a> msdyn_Event
 
@@ -313,7 +370,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_planenddate`|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|DateTime|
 |CanChangeDateTimeBehavior|True|
 |DateTimeBehavior|UserLocal|
@@ -355,6 +412,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |SourceTypeMask|0|
 
+### <a name="BKMK_msdyn_RankRecordsByFieldLogicalName"></a> msdyn_RankRecordsByFieldLogicalName
+
+|Property|Value|
+|---|---|
+|Description|**Rank records by for sampling.**|
+|DisplayName|**Rank records by**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_rankrecordsbyfieldlogicalname`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|200|
+
 ### <a name="BKMK_msdyn_RecordType"></a> msdyn_RecordType
 
 |Property|Value|
@@ -375,6 +449,112 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |0|**Case**|
 |1|**Conversation**|
+|2|**Email**|
+|3|**User**|
+
+### <a name="BKMK_msdyn_RemoveEndDateToggle"></a> msdyn_RemoveEndDateToggle
+
+|Property|Value|
+|---|---|
+|Description|**Internal helper flipped by the remove end date control to clear the end date picker. Not for user input.**|
+|DisplayName|**Remove End Date Toggle**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_removeenddatetoggle`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_SampleBy"></a> msdyn_SampleBy
+
+|Property|Value|
+|---|---|
+|Description|**The dimension the plan samples by. When set, the plan's sampling rule is applied per value of this field — e.g. per CSR.**|
+|DisplayName|**Sample by**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_sampleby`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_evaluationplan_msdyn_sampleby`|
+
+#### msdyn_SampleBy Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Representative**|
+
+### <a name="BKMK_msdyn_SamplingMode"></a> msdyn_SamplingMode
+
+|Property|Value|
+|---|---|
+|Description|**Sample by either absolute number or percentage.**|
+|DisplayName|**Sampling mode**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_samplingmode`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_evaluationplan_msdyn_samplingmode`|
+
+#### msdyn_SamplingMode Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Absolute Number**|
+|1|**Percentage**|
+
+### <a name="BKMK_msdyn_SamplingValue"></a> msdyn_SamplingValue
+
+|Property|Value|
+|---|---|
+|Description|**Specifies the sampling value to be applied. Interpreted as an absolute number or a percentage based on the sampling mode value.**|
+|DisplayName|**Sampling value**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_samplingvalue`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_SelectionStrategy"></a> msdyn_SelectionStrategy
+
+|Property|Value|
+|---|---|
+|Description|**Pick records from top or bottom for sampling.**|
+|DisplayName|**Selection strategy**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_selectionstrategy`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_evaluationplan_msdyn_selectionstrategy`|
+
+#### msdyn_SelectionStrategy Choices/Options
+
+|Value|Label|
+|---|---|
+|0|**Top**|
+|1|**Bottom**|
+
+### <a name="BKMK_msdyn_SetEndDateToggle"></a> msdyn_SetEndDateToggle
+
+|Property|Value|
+|---|---|
+|Description|**Internal helper flipped by the end date progressive-disclosure control to reveal the end date picker. Not for user input.**|
+|DisplayName|**Set End Date Toggle**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_setenddatetoggle`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
 
 ### <a name="BKMK_msdyn_UniqueName"></a> msdyn_UniqueName
 
@@ -478,6 +658,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |2|Label: **Draft**<br />State:0<br />TransitionData: None|
 |3|Label: **Paused**<br />State:0<br />TransitionData: None|
 |4|Label: **Deactivated**<br />State:1<br />TransitionData: None|
+|5|Label: **Expired**<br />State:0<br />TransitionData: None|
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
@@ -808,6 +989,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_evaluationplan_AssignedTo_systemuser](#BKMK_msdyn_evaluationplan_AssignedTo_systemuser)
 - [msdyn_evaluationplan_AssignedTo_team](#BKMK_msdyn_evaluationplan_AssignedTo_team)
 - [msdyn_evaluationplan_EvaluationCriteria_msdyn_evaluationcriteria](#BKMK_msdyn_evaluationplan_EvaluationCriteria_msdyn_evaluationcriteria)
+- [msdyn_evaluationplan_EvaluationTriggerConfig_msdyn_evaluationtriggerconfig](#BKMK_msdyn_evaluationplan_EvaluationTriggerConfig_msdyn_evaluationtriggerconfig)
 - [owner_msdyn_evaluationplan](#BKMK_owner_msdyn_evaluationplan)
 - [team_msdyn_evaluationplan](#BKMK_team_msdyn_evaluationplan)
 - [user_msdyn_evaluationplan](#BKMK_user_msdyn_evaluationplan)
@@ -913,6 +1095,19 @@ One-To-Many Relationship: [msdyn_evaluationcriteria msdyn_evaluationplan_Evaluat
 |ReferencedAttribute|`msdyn_evaluationcriteriaid`|
 |ReferencingAttribute|`msdyn_evaluationcriteria`|
 |ReferencingEntityNavigationPropertyName|`msdyn_EvaluationCriteria`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_evaluationplan_EvaluationTriggerConfig_msdyn_evaluationtriggerconfig"></a> msdyn_evaluationplan_EvaluationTriggerConfig_msdyn_evaluationtriggerconfig
+
+One-To-Many Relationship: [msdyn_evaluationtriggerconfig msdyn_evaluationplan_EvaluationTriggerConfig_msdyn_evaluationtriggerconfig](msdyn_evaluationtriggerconfig.md#BKMK_msdyn_evaluationplan_EvaluationTriggerConfig_msdyn_evaluationtriggerconfig)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_evaluationtriggerconfig`|
+|ReferencedAttribute|`msdyn_evaluationtriggerconfigid`|
+|ReferencingAttribute|`msdyn_evaluationtriggerconfig`|
+|ReferencingEntityNavigationPropertyName|`msdyn_EvaluationTriggerConfig`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

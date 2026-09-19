@@ -30,7 +30,6 @@ Messages represent operations that can be performed on the table. They may also 
 | `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 | `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 | `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
-| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 | `Retrieve`<br />Event: True |`GET` /msdyn_relatedconversationtriggertables(*msdyn_relatedconversationtriggertableid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
 | `RetrieveMultiple`<br />Event: True |`GET` /msdyn_relatedconversationtriggertables<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
@@ -69,17 +68,25 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_conversationid](#BKMK_msdyn_conversationid)
+- [msdyn_emailmetadata](#BKMK_msdyn_emailmetadata)
 - [msdyn_emailpayload](#BKMK_msdyn_emailpayload)
+- [msdyn_emailthreadpayload](#BKMK_msdyn_emailthreadpayload)
+- [msdyn_ErrorMessage](#BKMK_msdyn_ErrorMessage)
 - [msdyn_inputPayload](#BKMK_msdyn_inputPayload)
 - [msdyn_macroagentorchestrationid](#BKMK_msdyn_macroagentorchestrationid)
+- [msdyn_meetingoriginalsourceid](#BKMK_msdyn_meetingoriginalsourceid)
 - [msdyn_messageid](#BKMK_msdyn_messageid)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_OpportunityId](#BKMK_msdyn_OpportunityId)
 - [msdyn_opportunitypayload](#BKMK_msdyn_opportunitypayload)
+- [msdyn_ProcessedStage](#BKMK_msdyn_ProcessedStage)
 - [msdyn_RelatedConversationTriggerTableId](#BKMK_msdyn_RelatedConversationTriggerTableId)
+- [msdyn_RequiredStages](#BKMK_msdyn_RequiredStages)
 - [msdyn_RetryCount](#BKMK_msdyn_RetryCount)
+- [msdyn_SalesAgentProfile](#BKMK_msdyn_SalesAgentProfile)
 - [msdyn_SalesAgentRunId](#BKMK_msdyn_SalesAgentRunId)
 - [msdyn_sourcetype](#BKMK_msdyn_sourcetype)
+- [msdyn_UserId](#BKMK_msdyn_UserId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -119,6 +126,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|100|
 
+### <a name="BKMK_msdyn_emailmetadata"></a> msdyn_emailmetadata
+
+|Property|Value|
+|---|---|
+|Description|**Stores JSON string with from, to, cc, bcc, emaildirection, etc.**|
+|DisplayName|**Email Metadata**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_emailmetadata`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
 ### <a name="BKMK_msdyn_emailpayload"></a> msdyn_emailpayload
 
 |Property|Value|
@@ -128,6 +152,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_emailpayload`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
+### <a name="BKMK_msdyn_emailthreadpayload"></a> msdyn_emailthreadpayload
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Complete Email Thread Payload**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_emailthreadpayload`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
+### <a name="BKMK_msdyn_ErrorMessage"></a> msdyn_ErrorMessage
+
+|Property|Value|
+|---|---|
+|Description|**Captures error details when processing fails at any stage**|
+|DisplayName|**Error Message**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_errormessage`|
 |RequiredLevel|None|
 |Type|Memo|
 |Format|Text|
@@ -162,6 +220,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_macroagentorchestrationid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_meetingoriginalsourceid"></a> msdyn_meetingoriginalsourceid
+
+|Property|Value|
+|---|---|
+|Description|**Cross-attendee dedup key for meeting triggers: MD5(iCalUId \+ '\_' \+ startDateTime) — stored as the Guid string representation. Globally identical across all attendees and content tiers. Mirrored to msdyn\_opportunityrankermapping for ranker-stickiness lookups.**|
+|DisplayName|**Meeting Original Source Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_meetingoriginalsourceid`|
 |RequiredLevel|None|
 |Type|String|
 |Format|Text|
@@ -238,6 +313,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|1048576|
 
+### <a name="BKMK_msdyn_ProcessedStage"></a> msdyn_ProcessedStage
+
+|Property|Value|
+|---|---|
+|Description|**Tracks the last completed processing stage: New, RankingComplete, InsightsComplete**|
+|DisplayName|**Processed Stage**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_processedstage`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
 ### <a name="BKMK_msdyn_RelatedConversationTriggerTableId"></a> msdyn_RelatedConversationTriggerTableId
 
 |Property|Value|
@@ -249,6 +341,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_relatedconversationtriggertableid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_RequiredStages"></a> msdyn_RequiredStages
+
+|Property|Value|
+|---|---|
+|Description|**Trigger lifecycle status: Ranking, HardInsights, etc**|
+|DisplayName|**Required Stages**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_requiredstages`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|50|
 
 ### <a name="BKMK_msdyn_RetryCount"></a> msdyn_RetryCount
 
@@ -263,6 +372,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+
+### <a name="BKMK_msdyn_SalesAgentProfile"></a> msdyn_SalesAgentProfile
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Sales Agent Profile**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_salesagentprofile`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_salesagentprofile|
 
 ### <a name="BKMK_msdyn_SalesAgentRunId"></a> msdyn_SalesAgentRunId
 
@@ -300,7 +422,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Value|Label|
 |---|---|
 |470970000|**SSS**|
-|470970001|**M365**|
+|470970001|**M365Email**|
+|470970002|**M365Meeting**|
+
+### <a name="BKMK_msdyn_UserId"></a> msdyn_UserId
+
+|Property|Value|
+|---|---|
+|Description|**The CRM systemuserid whose mailbox is being queried for M365 emails**|
+|DisplayName|**User Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_userid`|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
@@ -614,6 +749,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_relatedconversationtriggertable_createdonbehalfby](#BKMK_lk_msdyn_relatedconversationtriggertable_createdonbehalfby)
 - [lk_msdyn_relatedconversationtriggertable_modifiedby](#BKMK_lk_msdyn_relatedconversationtriggertable_modifiedby)
 - [lk_msdyn_relatedconversationtriggertable_modifiedonbehalfby](#BKMK_lk_msdyn_relatedconversationtriggertable_modifiedonbehalfby)
+- [msdyn_RelatedConversationTriggerTable_SalesAgentProfile_msdyn_salesagentprofile](#BKMK_msdyn_RelatedConversationTriggerTable_SalesAgentProfile_msdyn_salesagentprofile)
 - [owner_msdyn_relatedconversationtriggertable](#BKMK_owner_msdyn_relatedconversationtriggertable)
 - [team_msdyn_relatedconversationtriggertable](#BKMK_team_msdyn_relatedconversationtriggertable)
 - [user_msdyn_relatedconversationtriggertable](#BKMK_user_msdyn_relatedconversationtriggertable)
@@ -682,6 +818,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_relatedconversationtriggertable_m
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_RelatedConversationTriggerTable_SalesAgentProfile_msdyn_salesagentprofile"></a> msdyn_RelatedConversationTriggerTable_SalesAgentProfile_msdyn_salesagentprofile
+
+One-To-Many Relationship: [msdyn_salesagentprofile msdyn_RelatedConversationTriggerTable_SalesAgentProfile_msdyn_salesagentprofile](msdyn_salesagentprofile.md#BKMK_msdyn_RelatedConversationTriggerTable_SalesAgentProfile_msdyn_salesagentprofile)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_salesagentprofile`|
+|ReferencedAttribute|`msdyn_salesagentprofileid`|
+|ReferencingAttribute|`msdyn_salesagentprofile`|
+|ReferencingEntityNavigationPropertyName|`msdyn_SalesAgentProfile`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_owner_msdyn_relatedconversationtriggertable"></a> owner_msdyn_relatedconversationtriggertable
 
