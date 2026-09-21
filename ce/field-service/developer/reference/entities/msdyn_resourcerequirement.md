@@ -1187,6 +1187,7 @@ One-To-Many Relationship: [msdyn_workhourtemplate msdyn_workhourtemplate_msdyn_r
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_inputrequirement_msdyn_resourcerequirement_resourcerequirementid](#BKMK_msdyn_inputrequirement_msdyn_resourcerequirement_resourcerequirementid)
 - [msdyn_msdyn_resourcerequirement_msdyn_requirementcharacteristic_RequirementSystemUse](#BKMK_msdyn_msdyn_resourcerequirement_msdyn_requirementcharacteristic_RequirementSystemUse)
 - [msdyn_msdyn_resourcerequirement_msdyn_workorderincident_ResourceRequirement](#BKMK_msdyn_msdyn_resourcerequirement_msdyn_workorderincident_ResourceRequirement)
 - [msdyn_resourcerequirement_bookableresourcebooking_ResourceRequirement](#BKMK_msdyn_resourcerequirement_bookableresourcebooking_ResourceRequirement)
@@ -1197,6 +1198,19 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_resourcerequirement_requirementdependency_resourcerequirement](#BKMK_msdyn_resourcerequirement_requirementdependency_resourcerequirement)
 - [msdyn_resourcerequirement_requirementresourcecategory_resourcerequirement](#BKMK_msdyn_resourcerequirement_requirementresourcecategory_resourcerequirement)
 - [msdyn_resourcerequirement_requirementresourcepreference_ResourceRequirement](#BKMK_msdyn_resourcerequirement_requirementresourcepreference_ResourceRequirement)
+- [msdyn_unscheduledrequirement_msdyn_resourcerequirement_resourcerequirementid](#BKMK_msdyn_unscheduledrequirement_msdyn_resourcerequirement_resourcerequirementid)
+
+### <a name="BKMK_msdyn_inputrequirement_msdyn_resourcerequirement_resourcerequirementid"></a> msdyn_inputrequirement_msdyn_resourcerequirement_resourcerequirementid
+
+Many-To-One Relationship: [msdyn_inputrequirement msdyn_inputrequirement_msdyn_resourcerequirement_resourcerequirementid](msdyn_inputrequirement.md#BKMK_msdyn_inputrequirement_msdyn_resourcerequirement_resourcerequirementid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_inputrequirement`|
+|ReferencingAttribute|`msdyn_resourcerequirementid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_inputrequirement_msdyn_resourcerequirement_resourcerequirementid`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_resourcerequirement_msdyn_requirementcharacteristic_RequirementSystemUse"></a> msdyn_msdyn_resourcerequirement_msdyn_requirementcharacteristic_RequirementSystemUse
 
@@ -1317,6 +1331,18 @@ Many-To-One Relationship: [msdyn_requirementresourcepreference msdyn_resourcereq
 |ReferencedEntityNavigationPropertyName|`msdyn_resourcerequirement_requirementresourcepreference_ResourceRequirement`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseLabel`<br />Group: `Details`<br />Label: Resource Preferences<br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_unscheduledrequirement_msdyn_resourcerequirement_resourcerequirementid"></a> msdyn_unscheduledrequirement_msdyn_resourcerequirement_resourcerequirementid
+
+Many-To-One Relationship: [msdyn_unscheduledrequirement msdyn_unscheduledrequirement_msdyn_resourcerequirement_resourcerequirementid](msdyn_unscheduledrequirement.md#BKMK_msdyn_unscheduledrequirement_msdyn_resourcerequirement_resourcerequirementid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_unscheduledrequirement`|
+|ReferencingAttribute|`msdyn_resourcerequirementid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_unscheduledrequirement_msdyn_resourcerequirement_resourcerequirementid`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

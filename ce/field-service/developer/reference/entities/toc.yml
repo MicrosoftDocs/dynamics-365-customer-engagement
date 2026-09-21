@@ -1,12 +1,18 @@
 items:
 - name: "About Microsoft Dynamics 365 Field Service Table/Entity Reference"
   href: ../about-entity-reference.md
+- name: "(Deprecated)Teams Engagement Context"
+  displayName: "msdyn_teamsengagementctx entity"
+  href: msdyn_teamsengagementctx.md
 - name: "Account"
   displayName: "Account entity"
   href: account.md
 - name: "Actual"
   displayName: "msdyn_actual entity"
   href: msdyn_actual.md
+- name: "Agent Rule"
+  displayName: "AgentRule entity"
+  href: agentrule.md
 - name: "Agreement"
   displayName: "msdyn_agreement entity"
   href: msdyn_agreement.md
@@ -40,6 +46,24 @@ items:
 - name: "Agreement Substatus"
   displayName: "msdyn_agreementsubstatus entity"
   href: msdyn_agreementsubstatus.md
+- name: "AI Agent Consult Setting"
+  displayName: "msdyn_ocaiagentconsultsetting entity"
+  href: msdyn_ocaiagentconsultsetting.md
+- name: "Apple messages for business account"
+  displayName: "msdyn_ocapplebusinessaccount entity"
+  href: msdyn_ocapplebusinessaccount.md
+- name: "Apple messages for business engagement context"
+  displayName: "msdyn_ocapplemessagesforbusinessengagementctx entity"
+  href: msdyn_ocapplemessagesforbusinessengagementctx.md
+- name: "Authentication Settings"
+  displayName: "msdyn_authenticationsettings entity"
+  href: msdyn_authenticationsettings.md
+- name: "Automated Message"
+  displayName: "msdyn_ocsystemmessage entity"
+  href: msdyn_ocsystemmessage.md
+- name: "Azure notification hub"
+  displayName: "msdyn_azurenotificationhub entity"
+  href: msdyn_azurenotificationhub.md
 - name: "Bookable Resource"
   displayName: "BookableResource entity"
   href: bookableresource.md
@@ -82,27 +106,129 @@ items:
 - name: "Booking Timestamp"
   displayName: "msdyn_bookingtimestamp entity"
   href: msdyn_bookingtimestamp.md
+- name: "Bot Session"
+  displayName: "msdyn_botsession entity"
+  href: msdyn_botsession.md
+- name: "Business Skill"
+  displayName: "Skill entity"
+  href: skill.md
+- name: "Cancellation Policy Attributes"
+  displayName: "msdyn_cancellation_policy entity"
+  href: msdyn_cancellation_policy.md
+- name: "Carrier"
+  displayName: "msdyn_occarrier entity"
+  href: msdyn_occarrier.md
 - name: "Case"
   displayName: "Incident entity"
   href: incident.md
+- name: "channel"
+  displayName: "msdyn_channel entity"
+  href: msdyn_channel.md
+- name: "Channel api method mapping"
+  displayName: "msdyn_occhannelapimethodmapping entity"
+  href: msdyn_occhannelapimethodmapping.md
+- name: "Channel Configuration"
+  displayName: "msdyn_occhannelconfiguration entity"
+  href: msdyn_occhannelconfiguration.md
+- name: "Channel Instance Context Variable"
+  displayName: "msdyn_channelinstancecontextvariable entity"
+  href: msdyn_channelinstancecontextvariable.md
+- name: "Channel instance secret"
+  displayName: "msdyn_channelinstancesecret entity"
+  href: msdyn_channelinstancesecret.md
+- name: "Channel Integration Framework v1.0 Provider"
+  displayName: "msdyn_ciprovider entity"
+  href: msdyn_ciprovider.md
+- name: "Channel Profile"
+  displayName: "msdyn_channelprofile entity"
+  href: msdyn_channelprofile.md
+- name: "Channel Profile AI Agent"
+  displayName: "msdyn_channelprofileaiagent entity"
+  href: msdyn_channelprofileaiagent.md
 - name: "Characteristic"
   displayName: "Characteristic entity"
   href: characteristic.md
+- name: "Chat Widget"
+  displayName: "msdyn_livechatconfig entity"
+  href: msdyn_livechatconfig.md
+- name: "Chat Widget Language(deprecated)"
+  displayName: "msdyn_chatwidgetlanguage entity"
+  href: msdyn_chatwidgetlanguage.md
+- name: "Chat Widget Location"
+  displayName: "msdyn_livechatwidgetlocation entity"
+  href: msdyn_livechatwidgetlocation.md
+- name: "Common Channel Config"
+  displayName: "msdyn_commonchannelconfig entity"
+  href: msdyn_commonchannelconfig.md
+- name: "Communication Provider Setting"
+  displayName: "msdyn_occommunicationprovidersetting entity"
+  href: msdyn_occommunicationprovidersetting.md
+- name: "Communication Provider Setting Entry"
+  displayName: "msdyn_occommunicationprovidersettingentry entity"
+  href: msdyn_occommunicationprovidersettingentry.md
 - name: "Contact"
   displayName: "Contact entity"
   href: contact.md
+- name: "Conversation Attribute"
+  displayName: "msdyn_conversation_attribute entity"
+  href: msdyn_conversation_attribute.md
+- name: "Conversation Profile"
+  displayName: "msdyn_conversationprofile entity"
+  href: msdyn_conversationprofile.md
+- name: "Custom messaging account"
+  displayName: "msdyn_ocbotchannelregistration entity"
+  href: msdyn_ocbotchannelregistration.md
+- name: "Custom messaging channel"
+  displayName: "msdyn_occustommessagingchannel entity"
+  href: msdyn_occustommessagingchannel.md
+- name: "Custom Messaging Engagement Context"
+  displayName: "msdyn_customengagementctx entity"
+  href: msdyn_customengagementctx.md
+- name: "Custom Model Configuration"
+  displayName: "msdyn_occustommodelconfig entity"
+  href: msdyn_occustommodelconfig.md
+- name: "Custom Neural Voice"
+  displayName: "msdyn_occustomneuralvoice entity"
+  href: msdyn_occustomneuralvoice.md
 - name: "Customer Asset"
   displayName: "msdyn_customerasset entity"
   href: msdyn_customerasset.md
 - name: "Customer Asset Category"
   displayName: "msdyn_customerassetcategory entity"
   href: msdyn_customerassetcategory.md
+- name: "Delivery Metrics"
+  displayName: "msdyn_proactive_engagement_nrt_deliverymetric entity"
+  href: msdyn_proactive_engagement_nrt_deliverymetric.md
+- name: "Email thread"
+  displayName: "msdyn_emailthread entity"
+  href: msdyn_emailthread.md
 - name: "Entitlement"
   displayName: "Entitlement entity"
   href: entitlement.md
 - name: "Entitlement Application"
   displayName: "msdyn_entitlementapplication entity"
   href: msdyn_entitlementapplication.md
+- name: "Environment Variable Definition"
+  displayName: "EnvironmentVariableDefinition entity"
+  href: environmentvariabledefinition.md
+- name: "Evaluation Entity Config"
+  displayName: "msdyn_EvaluationEntityConfig entity"
+  href: msdyn_evaluationentityconfig.md
+- name: "External Security Setting"
+  displayName: "msdyn_ocexternalsecuritysetting entity"
+  href: msdyn_ocexternalsecuritysetting.md
+- name: "Facebook Application"
+  displayName: "msdyn_ocfbapplication entity"
+  href: msdyn_ocfbapplication.md
+- name: "Facebook Engagement Context"
+  displayName: "msdyn_facebookengagementctx entity"
+  href: msdyn_facebookengagementctx.md
+- name: "Facebook Page"
+  displayName: "msdyn_ocfbpage entity"
+  href: msdyn_ocfbpage.md
+- name: "Feedback"
+  displayName: "Feedback entity"
+  href: feedback.md
 - name: "Field Service Frontline Worker Configuration"
   displayName: "msdyn_flwconfiguration entity"
   href: msdyn_flwconfiguration.md
@@ -112,9 +238,15 @@ items:
 - name: "Field Service SLA Configuration"
   displayName: "msdyn_fieldserviceslaconfiguration entity"
   href: msdyn_fieldserviceslaconfiguration.md
+- name: "File Upload"
+  displayName: "msdyn_FileUpload entity"
+  href: msdyn_fileupload.md
 - name: "Functional Location"
   displayName: "msdyn_FunctionalLocation entity"
   href: msdyn_functionallocation.md
+- name: "Gatekeeper Engagement Context"
+  displayName: "msdyn_ocgatekeeperengagementctx entity"
+  href: msdyn_ocgatekeeperengagementctx.md
 - name: "Geofence"
   displayName: "msdyn_geofence entity"
   href: msdyn_geofence.md
@@ -130,6 +262,21 @@ items:
 - name: "Geolocation Tracking"
   displayName: "msdyn_geolocationtracking entity"
   href: msdyn_geolocationtracking.md
+- name: "Google's Business Messages agent account"
+  displayName: "msdyn_ocgooglebusinessmessagesagentaccount entity"
+  href: msdyn_ocgooglebusinessmessagesagentaccount.md
+- name: "Google's Business Messages engagement context"
+  displayName: "msdyn_ocgooglebusinessmessagesengagementctx entity"
+  href: msdyn_ocgooglebusinessmessagesengagementctx.md
+- name: "Google's Business Messages partner account"
+  displayName: "msdyn_ocgooglebusinessmessagespartneraccount entity"
+  href: msdyn_ocgooglebusinessmessagespartneraccount.md
+- name: "Guardrail"
+  displayName: "msdyn_Guardrail entity"
+  href: msdyn_guardrail.md
+- name: "GuardrailVersion"
+  displayName: "msdyn_GuardrailVersion entity"
+  href: msdyn_guardrailversion.md
 - name: "Incident Type"
   displayName: "msdyn_incidenttype entity"
   href: msdyn_incidenttype.md
@@ -151,6 +298,12 @@ items:
 - name: "Incident Types Setup"
   displayName: "msdyn_incidenttypessetup entity"
   href: msdyn_incidenttypessetup.md
+- name: "Input Requirement"
+  displayName: "msdyn_InputRequirement entity"
+  href: msdyn_inputrequirement.md
+- name: "Input Schedule"
+  displayName: "msdyn_InputSchedule entity"
+  href: msdyn_inputschedule.md
 - name: "Inspection"
   displayName: "msdyn_inspectioninstance entity"
   href: msdyn_inspectioninstance.md
@@ -184,33 +337,162 @@ items:
 - name: "Knowledge Article"
   displayName: "KnowledgeArticle entity"
   href: knowledgearticle.md
+- name: "Language"
+  displayName: "msdyn_oclanguage entity"
+  href: msdyn_oclanguage.md
+- name: "LINE account"
+  displayName: "msdyn_oclinechannelconfig entity"
+  href: msdyn_oclinechannelconfig.md
+- name: "LINE Engagement Context"
+  displayName: "msdyn_lineengagementctx entity"
+  href: msdyn_lineengagementctx.md
+- name: "Live Chat Context"
+  displayName: "msdyn_livechatengagementctx entity"
+  href: msdyn_livechatengagementctx.md
+- name: "Localized Survey Question (Deprecated)"
+  displayName: "msdyn_localizedsurveyquestion entity"
+  href: msdyn_localizedsurveyquestion.md
+- name: "Message Template"
+  displayName: "msdyn_oc_message_template entity"
+  href: msdyn_oc_message_template.md
+- name: "Microsoft Teams account"
+  displayName: "msdyn_octeamschannelconfig entity"
+  href: msdyn_octeamschannelconfig.md
 - name: "Not-to-exceed"
   displayName: "msdyn_nottoexceed entity"
   href: msdyn_nottoexceed.md
+- name: "NRT Configuration Conversation"
+  displayName: "msdyn_nrt_configuration_conversation entity"
+  href: msdyn_nrt_configuration_conversation.md
+- name: "OC Apple Pay Entity"
+  displayName: "msdyn_ocapplepay entity"
+  href: msdyn_ocapplepay.md
+- name: "OC Payment Profile"
+  displayName: "msdyn_ocpaymentprofile entity"
+  href: msdyn_ocpaymentprofile.md
+- name: "OC Twitter Handle Secret"
+  displayName: "msdyn_octwitterhandlesecret entity"
+  href: msdyn_octwitterhandlesecret.md
+- name: "Operating Hour"
+  displayName: "msdyn_operatinghour entity"
+  href: msdyn_operatinghour.md
 - name: "Opportunity"
   displayName: "Opportunity entity"
   href: opportunity.md
+- name: "Opportunity Competitor Research Result Cache"
+  displayName: "msdyn_OpportunityCompetitorResearchResultCache entity"
+  href: msdyn_opportunitycompetitorresearchresultcache.md
 - name: "Opportunity Line"
   displayName: "OpportunityProduct entity"
   href: opportunityproduct.md
+- name: "Optimization Plan"
+  displayName: "msdyn_schedulingoptimizationplan entity"
+  href: msdyn_schedulingoptimizationplan.md
 - name: "Optimization Request"
   displayName: "msdyn_OptimizationRequest entity"
   href: msdyn_optimizationrequest.md
 - name: "Organizational Unit"
   displayName: "msdyn_organizationalunit entity"
   href: msdyn_organizationalunit.md
+- name: "Outbound Configuration"
+  displayName: "msdyn_ocoutboundconfiguration entity"
+  href: msdyn_ocoutboundconfiguration.md
+- name: "Outbound message"
+  displayName: "msdyn_ocoutboundmessage entity"
+  href: msdyn_ocoutboundmessage.md
+- name: "Overflow Action Config"
+  displayName: "msdyn_overflowactionconfig entity"
+  href: msdyn_overflowactionconfig.md
+- name: "Phone Call Engagement Context"
+  displayName: "msdyn_ocphonecallengagementctx entity"
+  href: msdyn_ocphonecallengagementctx.md
+- name: "Phone Music"
+  displayName: "msdyn_ocphonemusic entity"
+  href: msdyn_ocphonemusic.md
+- name: "Phone Number"
+  displayName: "msdyn_ocphonenumber entity"
+  href: msdyn_ocphonenumber.md
 - name: "Postal Code"
   displayName: "msdyn_postalcode entity"
   href: msdyn_postalcode.md
+- name: "Power BI Dataset"
+  displayName: "powerbidataset entity"
+  href: powerbidataset.md
+- name: "Power BI Mashup Parameter"
+  displayName: "powerbimashupparameter entity"
+  href: powerbimashupparameter.md
+- name: "Power BI Report"
+  displayName: "powerbireport entity"
+  href: powerbireport.md
+- name: "powerbidatasetapdx"
+  displayName: "powerbidatasetapdx entity"
+  href: powerbidatasetapdx.md
+- name: "powerbireportapdx"
+  displayName: "powerbireportapdx entity"
+  href: powerbireportapdx.md
 - name: "Priority"
   displayName: "msdyn_priority entity"
   href: msdyn_priority.md
+- name: "Proactive Callback Config"
+  displayName: "msdyn_proactive_callback_config entity"
+  href: msdyn_proactive_callback_config.md
+- name: "Proactive Callback Profile"
+  displayName: "msdyn_proactive_callback_profile entity"
+  href: msdyn_proactive_callback_profile.md
+- name: "Proactive Delivery"
+  displayName: "msdyn_proactive_delivery entity"
+  href: msdyn_proactive_delivery.md
+- name: "Proactive Delivery Attribute"
+  displayName: "msdyn_proactive_delivery_attribute entity"
+  href: msdyn_proactive_delivery_attribute.md
+- name: "Proactive Delivery Batch"
+  displayName: "msdyn_proactive_delivery_batch entity"
+  href: msdyn_proactive_delivery_batch.md
+- name: "Proactive Delivery Batch Error"
+  displayName: "msdyn_proactive_delivery_batch_error entity"
+  href: msdyn_proactive_delivery_batch_error.md
+- name: "Proactive Engagement Config Cancellation Policy"
+  displayName: "msdyn_proactive_eng_config_cancellation_policy entity"
+  href: msdyn_proactive_eng_config_cancellation_policy.md
+- name: "Proactive Engagement Configuration"
+  displayName: "msdyn_proactive_engagement_config entity"
+  href: msdyn_proactive_engagement_config.md
+- name: "Proactive Engagement Configuration Attribute"
+  displayName: "msdyn_proactive_engagement_config_attribute entity"
+  href: msdyn_proactive_engagement_config_attribute.md
+- name: "Proactive Engagement Configuration Characteristic"
+  displayName: "msdyn_proactive_eng_config_characteristic entity"
+  href: msdyn_proactive_eng_config_characteristic.md
+- name: "Proactive Engagement Configuration Status"
+  displayName: "msdyn_proactive_engagement_config_status entity"
+  href: msdyn_proactive_engagement_config_status.md
+- name: "Proactive Engagement Global Communication Config"
+  displayName: "msdyn_proactive_engagement_global_comm_config entity"
+  href: msdyn_proactive_engagement_global_comm_config.md
+- name: "Proactive Engagement Message Template"
+  displayName: "msdyn_proactive_engagement_message_template entity"
+  href: msdyn_proactive_engagement_message_template.md
+- name: "Proactive Engagement Planner CallerID Phone Number"
+  displayName: "msdyn_planner_callerid_phone_number entity"
+  href: msdyn_planner_callerid_phone_number.md
+- name: "Proactive Engagement Planner CallerID Rule"
+  displayName: "msdyn_planner_callerid_rule entity"
+  href: msdyn_planner_callerid_rule.md
+- name: "Proactive Engagement Planner Configuration"
+  displayName: "msdyn_proactive_engagement_planner_config entity"
+  href: msdyn_proactive_engagement_planner_config.md
 - name: "Product"
   displayName: "Product entity"
   href: product.md
 - name: "Product Inventory"
   displayName: "msdyn_productinventory entity"
   href: msdyn_productinventory.md
+- name: "Profile Picker"
+  displayName: "msdyn_profilepicker entity"
+  href: msdyn_profilepicker.md
+- name: "Provisioning State"
+  displayName: "msdyn_ocprovisioningstate entity"
+  href: msdyn_ocprovisioningstate.md
 - name: "Purchase Order"
   displayName: "msdyn_purchaseorder entity"
   href: msdyn_purchaseorder.md
@@ -229,12 +511,30 @@ items:
 - name: "Purchase Order SubStatus"
   displayName: "msdyn_purchaseordersubstatus entity"
   href: msdyn_purchaseordersubstatus.md
+- name: "QualityIndicator"
+  displayName: "msdyn_QualityIndicator entity"
+  href: msdyn_qualityindicator.md
+- name: "QualityIndicatorVersion"
+  displayName: "msdyn_QualityIndicatorVersion entity"
+  href: msdyn_qualityindicatorversion.md
+- name: "Queue"
+  displayName: "Queue entity"
+  href: queue.md
+- name: "Quiet Time Setting"
+  displayName: "msdynmkt_quiettimesetting entity"
+  href: msdynmkt_quiettimesetting.md
 - name: "Quote"
   displayName: "Quote entity"
   href: quote.md
 - name: "Rating Value"
   displayName: "RatingValue entity"
   href: ratingvalue.md
+- name: "Read Tracker"
+  displayName: "msdyn_readtracker entity"
+  href: msdyn_readtracker.md
+- name: "Recording"
+  displayName: "msdyn_ocrecording entity"
+  href: msdyn_ocrecording.md
 - name: "Requirement Change"
   displayName: "msdyn_requirementchange entity"
   href: msdyn_requirementchange.md
@@ -271,6 +571,15 @@ items:
 - name: "Resource Territory"
   displayName: "msdyn_resourceterritory entity"
   href: msdyn_resourceterritory.md
+- name: "Resource Utilization Export"
+  displayName: "msdyn_resourceutilizationexport entity"
+  href: msdyn_resourceutilizationexport.md
+- name: "Rich message"
+  displayName: "msdyn_ocrichobject entity"
+  href: msdyn_ocrichobject.md
+- name: "Rich object map"
+  displayName: "msdyn_ocrichobjectmap entity"
+  href: msdyn_ocrichobjectmap.md
 - name: "RMA"
   displayName: "msdyn_rma entity"
   href: msdyn_rma.md
@@ -286,6 +595,9 @@ items:
 - name: "RMA SubStatus"
   displayName: "msdyn_rmasubstatus entity"
   href: msdyn_rmasubstatus.md
+- name: "Routing diagnostic"
+  displayName: "msdyn_unifiedroutingrun entity"
+  href: msdyn_unifiedroutingrun.md
 - name: "RTV"
   displayName: "msdyn_rtv entity"
   href: msdyn_rtv.md
@@ -295,12 +607,27 @@ items:
 - name: "RTV Substatus"
   displayName: "msdyn_rtvsubstatus entity"
   href: msdyn_rtvsubstatus.md
+- name: "Scenario"
+  displayName: "msdyn_scenario entity"
+  href: msdyn_scenario.md
 - name: "Schedule Board Setting"
   displayName: "msdyn_scheduleboardsetting entity"
   href: msdyn_scheduleboardsetting.md
+- name: "Scheduling Goal"
+  displayName: "msdyn_schedulinggoal entity"
+  href: msdyn_schedulinggoal.md
+- name: "Screen Recording"
+  displayName: "msdyn_ScreenRecording entity"
+  href: msdyn_screenrecording.md
+- name: "ScreenRecordingLink"
+  displayName: "msdyn_ScreenRecordingLink entity"
+  href: msdyn_screenrecordinglink.md
 - name: "Service Task Type"
   displayName: "msdyn_servicetasktype entity"
   href: msdyn_servicetasktype.md
+- name: "Session Participant Event"
+  displayName: "msdyn_ocsessionparticipantevent entity"
+  href: msdyn_ocsessionparticipantevent.md
 - name: "Ship Via"
   displayName: "msdyn_shipvia entity"
   href: msdyn_shipvia.md
@@ -310,6 +637,45 @@ items:
 - name: "SLA KPI Instance"
   displayName: "SLAKPIInstance entity"
   href: slakpiinstance.md
+- name: "SMS Engagement Context"
+  displayName: "msdyn_smsengagementctx entity"
+  href: msdyn_smsengagementctx.md
+- name: "SMS Number"
+  displayName: "msdyn_smsnumber entity"
+  href: msdyn_smsnumber.md
+- name: "SMS Number settings"
+  displayName: "msdyn_ocsmschannelsetting entity"
+  href: msdyn_ocsmschannelsetting.md
+- name: "SMS Setting Secret"
+  displayName: "msdyn_ocsmssettingsecret entity"
+  href: msdyn_ocsmssettingsecret.md
+- name: "Social Profile"
+  displayName: "SocialProfile entity"
+  href: socialprofile.md
+- name: "Source Control Configuration"
+  displayName: "SourceControlConfiguration entity"
+  href: sourcecontrolconfiguration.md
+- name: "Suggested Schedule"
+  displayName: "msdyn_SuggestedSchedule entity"
+  href: msdyn_suggestedschedule.md
+- name: "Survey Answer Option"
+  displayName: "msdyn_chatansweroption entity"
+  href: msdyn_chatansweroption.md
+- name: "Survey Question"
+  displayName: "msdyn_surveyquestion entity"
+  href: msdyn_surveyquestion.md
+- name: "Survey Question Sequence"
+  displayName: "msdyn_questionsequence entity"
+  href: msdyn_questionsequence.md
+- name: "Survey Response"
+  displayName: "msdyn_chatquestionnaireresponse entity"
+  href: msdyn_chatquestionnaireresponse.md
+- name: "Survey Response Value"
+  displayName: "msdyn_chatquestionnaireresponseitem entity"
+  href: msdyn_chatquestionnaireresponseitem.md
+- name: "Synapse Link External Table State"
+  displayName: "synapselinkexternaltablestate entity"
+  href: synapselinkexternaltablestate.md
 - name: "System User Scheduler Setting"
   displayName: "msdyn_systemuserschedulersetting entity"
   href: msdyn_systemuserschedulersetting.md
@@ -319,6 +685,9 @@ items:
 - name: "Tax Code Detail"
   displayName: "msdyn_taxcodedetail entity"
   href: msdyn_taxcodedetail.md
+- name: "Teams Engagement Context"
+  displayName: "msdyn_teamschannelengagementctx entity"
+  href: msdyn_teamschannelengagementctx.md
 - name: "Territory"
   displayName: "Territory entity"
   href: territory.md
@@ -340,9 +709,69 @@ items:
 - name: "Trade Coverage"
   displayName: "msdyn_tradecoverage entity"
   href: msdyn_tradecoverage.md
+- name: "Twitter account"
+  displayName: "msdyn_octwitterapplication entity"
+  href: msdyn_octwitterapplication.md
+- name: "Twitter Engagement Context"
+  displayName: "msdyn_twitterengagementctx entity"
+  href: msdyn_twitterengagementctx.md
+- name: "Twitter handle"
+  displayName: "msdyn_octwitterhandle entity"
+  href: msdyn_octwitterhandle.md
+- name: "Twitter Handle Provisioning Status"
+  displayName: "msdyn_octwitterhandleprovisioningstatus entity"
+  href: msdyn_octwitterhandleprovisioningstatus.md
+- name: "Unscheduled Requirement"
+  displayName: "msdyn_UnscheduledRequirement entity"
+  href: msdyn_unscheduledrequirement.md
+- name: "UR notification template"
+  displayName: "msdyn_urnotificationtemplate entity"
+  href: msdyn_urnotificationtemplate.md
+- name: "Voice"
+  displayName: "msdyn_ocvoice entity"
+  href: msdyn_ocvoice.md
+- name: "Voice Channel Language Setting"
+  displayName: "msdyn_ocvoicechannellanguagesetting entity"
+  href: msdyn_ocvoicechannellanguagesetting.md
+- name: "Voice channel organization setting"
+  displayName: "msdyn_voicechannelorganizationsetting entity"
+  href: msdyn_voicechannelorganizationsetting.md
+- name: "Voice Channel Setting"
+  displayName: "msdyn_ocvoicechannelsetting entity"
+  href: msdyn_ocvoicechannelsetting.md
+- name: "Voicemail"
+  displayName: "msdyn_ocvoicemail entity"
+  href: msdyn_ocvoicemail.md
 - name: "Warehouse"
   displayName: "msdyn_warehouse entity"
   href: msdyn_warehouse.md
+- name: "Web Engagement Ruleset"
+  displayName: "msdyn_webengagementruleset entity"
+  href: msdyn_webengagementruleset.md
+- name: "Web Engagement Ruleset Config"
+  displayName: "msdyn_webengagementrulesetconfig entity"
+  href: msdyn_webengagementrulesetconfig.md
+- name: "Web Engagement Ruleset Revision"
+  displayName: "msdyn_webengagementrulesetrevision entity"
+  href: msdyn_webengagementrulesetrevision.md
+- name: "Web Engagement Site Area"
+  displayName: "msdyn_webengagementsitearea entity"
+  href: msdyn_webengagementsitearea.md
+- name: "WeChat account"
+  displayName: "msdyn_ocwechatchannelconfig entity"
+  href: msdyn_ocwechatchannelconfig.md
+- name: "WeChat Engagement Context"
+  displayName: "msdyn_wechatengagementctx entity"
+  href: msdyn_wechatengagementctx.md
+- name: "WhatsApp account"
+  displayName: "msdyn_ocwhatsappchannelaccount entity"
+  href: msdyn_ocwhatsappchannelaccount.md
+- name: "WhatsApp Engagement Context"
+  displayName: "msdyn_whatsappengagementctx entity"
+  href: msdyn_whatsappengagementctx.md
+- name: "WhatsApp number"
+  displayName: "msdyn_ocwhatsappchannelnumber entity"
+  href: msdyn_ocwhatsappchannelnumber.md
 - name: "Work Order"
   displayName: "msdyn_workorder entity"
   href: msdyn_workorder.md
@@ -370,6 +799,9 @@ items:
 - name: "Work Order Type"
   displayName: "msdyn_workordertype entity"
   href: msdyn_workordertype.md
+- name: "Work Stream"
+  displayName: "msdyn_liveworkstream entity"
+  href: msdyn_liveworkstream.md
 - name: "Work Template"
   displayName: "msdyn_workhourtemplate entity"
   href: msdyn_workhourtemplate.md

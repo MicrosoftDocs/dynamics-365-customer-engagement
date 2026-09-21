@@ -491,10 +491,24 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_inputrequirement_msdyn_priority_priority](#BKMK_msdyn_inputrequirement_msdyn_priority_priority)
 - [msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority](#BKMK_msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority)
 - [msdyn_msdyn_priority_msdyn_resourcerequirement_Priority](#BKMK_msdyn_msdyn_priority_msdyn_resourcerequirement_Priority)
 - [msdyn_msdyn_priority_msdyn_workorder_Priority](#BKMK_msdyn_msdyn_priority_msdyn_workorder_Priority)
 - [msdyn_priority_msdyn_nottoexceed_priority](#BKMK_msdyn_priority_msdyn_nottoexceed_priority)
+- [msdyn_unscheduledrequirement_msdyn_priority_priority](#BKMK_msdyn_unscheduledrequirement_msdyn_priority_priority)
+
+### <a name="BKMK_msdyn_inputrequirement_msdyn_priority_priority"></a> msdyn_inputrequirement_msdyn_priority_priority
+
+Many-To-One Relationship: [msdyn_inputrequirement msdyn_inputrequirement_msdyn_priority_priority](msdyn_inputrequirement.md#BKMK_msdyn_inputrequirement_msdyn_priority_priority)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_inputrequirement`|
+|ReferencingAttribute|`msdyn_priority`|
+|ReferencedEntityNavigationPropertyName|`msdyn_inputrequirement_msdyn_priority_priority`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority"></a> msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority
 
@@ -542,6 +556,18 @@ Many-To-One Relationship: [msdyn_nottoexceed msdyn_priority_msdyn_nottoexceed_pr
 |ReferencingAttribute|`msdyn_priority`|
 |ReferencedEntityNavigationPropertyName|`msdyn_priority_msdyn_nottoexceed_priority`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_unscheduledrequirement_msdyn_priority_priority"></a> msdyn_unscheduledrequirement_msdyn_priority_priority
+
+Many-To-One Relationship: [msdyn_unscheduledrequirement msdyn_unscheduledrequirement_msdyn_priority_priority](msdyn_unscheduledrequirement.md#BKMK_msdyn_unscheduledrequirement_msdyn_priority_priority)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_unscheduledrequirement`|
+|ReferencingAttribute|`msdyn_priority`|
+|ReferencedEntityNavigationPropertyName|`msdyn_unscheduledrequirement_msdyn_priority_priority`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
