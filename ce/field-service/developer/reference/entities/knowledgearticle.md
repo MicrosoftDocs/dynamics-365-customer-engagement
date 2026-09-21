@@ -22,6 +22,10 @@ Organizational knowledge for internal and external use.
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [knowledgearticle_msdyn_bookingalerts](#BKMK_knowledgearticle_msdyn_bookingalerts)
+- [knowledgearticle_msdyn_ocoutboundmessages](#BKMK_knowledgearticle_msdyn_ocoutboundmessages)
+- [knowledgearticle_msdyn_ocvoicemails](#BKMK_knowledgearticle_msdyn_ocvoicemails)
+
 ### <a name="BKMK_knowledgearticle_msdyn_bookingalerts"></a> knowledgearticle_msdyn_bookingalerts
 
 Many-To-One Relationship: [msdyn_bookingalert knowledgearticle_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_knowledgearticle_msdyn_bookingalerts)
@@ -31,6 +35,30 @@ Many-To-One Relationship: [msdyn_bookingalert knowledgearticle_msdyn_bookingaler
 |ReferencingEntity|`msdyn_bookingalert`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`knowledgearticle_msdyn_bookingalerts`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: `CRMActivity.RetrieveByObject`<br />ViewId: `00000000-0000-0000-00aa-000010001903`|
+
+### <a name="BKMK_knowledgearticle_msdyn_ocoutboundmessages"></a> knowledgearticle_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage knowledgearticle_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_knowledgearticle_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`knowledgearticle_msdyn_ocoutboundmessages`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: `CRMActivity.RetrieveByObject`<br />ViewId: `00000000-0000-0000-00aa-000010001903`|
+
+### <a name="BKMK_knowledgearticle_msdyn_ocvoicemails"></a> knowledgearticle_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail knowledgearticle_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_knowledgearticle_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`knowledgearticle_msdyn_ocvoicemails`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: `CRMActivity.RetrieveByObject`<br />ViewId: `00000000-0000-0000-00aa-000010001903`|
 

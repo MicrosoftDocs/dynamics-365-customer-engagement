@@ -24,6 +24,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_BillingAccount](#BKMK_msdyn_BillingAccount)
 - [msdyn_PreferredResource](#BKMK_msdyn_PreferredResource)
 - [msdyn_SalesTaxCode](#BKMK_msdyn_SalesTaxCode)
+- [msdyn_segmentid](#BKMK_msdyn_segmentid)
 - [msdyn_ServiceTerritory](#BKMK_msdyn_ServiceTerritory)
 - [msdyn_TaxExempt](#BKMK_msdyn_TaxExempt)
 - [msdyn_TaxExemptNumber](#BKMK_msdyn_TaxExemptNumber)
@@ -70,6 +71,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|msdyn_taxcode|
+
+### <a name="BKMK_msdyn_segmentid"></a> msdyn_segmentid
+
+|Property|Value|
+|---|---|
+|Description|**Unique identifier for Segment associated with account.**|
+|DisplayName|**Segment Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_segmentid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_segment|
 
 ### <a name="BKMK_msdyn_ServiceTerritory"></a> msdyn_ServiceTerritory
 
@@ -306,6 +320,8 @@ One-To-Many Relationship: [territory msdyn_territory_account_ServiceTerritory](t
 These relationships are one-to-many. Listed by **SchemaName**.
 
 - [account_msdyn_bookingalerts](#BKMK_account_msdyn_bookingalerts)
+- [account_msdyn_ocoutboundmessages](#BKMK_account_msdyn_ocoutboundmessages)
+- [account_msdyn_ocvoicemails](#BKMK_account_msdyn_ocvoicemails)
 - [msdyn_account_account_BillingAccount](#BKMK_msdyn_account_account_BillingAccount-one-to-many)
 - [msdyn_account_msdyn_actual_AccountCustomer](#BKMK_msdyn_account_msdyn_actual_AccountCustomer)
 - [msdyn_account_msdyn_actual_AccountVendor](#BKMK_msdyn_account_msdyn_actual_AccountVendor)
@@ -314,6 +330,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_account_msdyn_agreement_ServiceAccount](#BKMK_msdyn_account_msdyn_agreement_ServiceAccount)
 - [msdyn_account_msdyn_entitlementapplication_serviceaccount](#BKMK_msdyn_account_msdyn_entitlementapplication_serviceaccount)
 - [msdyn_account_msdyn_nottoexceed_account](#BKMK_msdyn_account_msdyn_nottoexceed_account)
+- [msdyn_account_msdyn_ocvoicemail_Customer](#BKMK_msdyn_account_msdyn_ocvoicemail_Customer)
 - [msdyn_account_msdyn_purchaseorder_Vendor](#BKMK_msdyn_account_msdyn_purchaseorder_Vendor)
 - [msdyn_account_msdyn_requirementresourcepreference_Account](#BKMK_msdyn_account_msdyn_requirementresourcepreference_Account)
 - [msdyn_account_msdyn_rma_BillingAccount](#BKMK_msdyn_account_msdyn_rma_BillingAccount)
@@ -338,6 +355,30 @@ Many-To-One Relationship: [msdyn_bookingalert account_msdyn_bookingalerts](msdyn
 |ReferencingEntity|`msdyn_bookingalert`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`account_msdyn_bookingalerts`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: `CRMActivity.RollupRelatedByParty`<br />ViewId: `00000000-0000-0000-00aa-000010001903`|
+
+### <a name="BKMK_account_msdyn_ocoutboundmessages"></a> account_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage account_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_account_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`account_msdyn_ocoutboundmessages`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: `CRMActivity.RollupRelatedByParty`<br />ViewId: `00000000-0000-0000-00aa-000010001903`|
+
+### <a name="BKMK_account_msdyn_ocvoicemails"></a> account_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail account_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_account_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`account_msdyn_ocvoicemails`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: `CRMActivity.RollupRelatedByParty`<br />ViewId: `00000000-0000-0000-00aa-000010001903`|
 
@@ -434,6 +475,18 @@ Many-To-One Relationship: [msdyn_nottoexceed msdyn_account_msdyn_nottoexceed_acc
 |ReferencingEntity|`msdyn_nottoexceed`|
 |ReferencingAttribute|`msdyn_account`|
 |ReferencedEntityNavigationPropertyName|`msdyn_account_msdyn_nottoexceed_account`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_account_msdyn_ocvoicemail_Customer"></a> msdyn_account_msdyn_ocvoicemail_Customer
+
+Many-To-One Relationship: [msdyn_ocvoicemail msdyn_account_msdyn_ocvoicemail_Customer](msdyn_ocvoicemail.md#BKMK_msdyn_account_msdyn_ocvoicemail_Customer)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`msdyn_customer`|
+|ReferencedEntityNavigationPropertyName|`msdyn_account_msdyn_ocvoicemail_Customer`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

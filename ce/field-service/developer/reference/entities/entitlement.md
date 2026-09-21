@@ -124,6 +124,8 @@ Changes from [entitytype (Microsoft Dynamics 365)](/dynamics365/developer/refere
 These relationships are one-to-many. Listed by **SchemaName**.
 
 - [entitlement_msdyn_bookingalerts](#BKMK_entitlement_msdyn_bookingalerts)
+- [entitlement_msdyn_ocoutboundmessages](#BKMK_entitlement_msdyn_ocoutboundmessages)
+- [entitlement_msdyn_ocvoicemails](#BKMK_entitlement_msdyn_ocvoicemails)
 - [msdyn_entitlement_msdyn_entitlementapplication_entitlement](#BKMK_msdyn_entitlement_msdyn_entitlementapplication_entitlement)
 - [msdyn_entitlement_msdyn_workorderproduct_Entitlement](#BKMK_msdyn_entitlement_msdyn_workorderproduct_Entitlement)
 - [msdyn_entitlement_msdyn_workorderservice_entitlement](#BKMK_msdyn_entitlement_msdyn_workorderservice_entitlement)
@@ -137,6 +139,30 @@ Many-To-One Relationship: [msdyn_bookingalert entitlement_msdyn_bookingalerts](m
 |ReferencingEntity|`msdyn_bookingalert`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`entitlement_msdyn_bookingalerts`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
+
+### <a name="BKMK_entitlement_msdyn_ocoutboundmessages"></a> entitlement_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage entitlement_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_entitlement_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`entitlement_msdyn_ocoutboundmessages`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
+
+### <a name="BKMK_entitlement_msdyn_ocvoicemails"></a> entitlement_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail entitlement_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_entitlement_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`entitlement_msdyn_ocvoicemails`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
 

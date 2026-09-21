@@ -2302,6 +2302,8 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_msdyn_workorder_msdyn_workorderservice_WorkOrder](#BKMK_msdyn_msdyn_workorder_msdyn_workorderservice_WorkOrder)
 - [msdyn_msdyn_workorder_msdyn_workorderservicetask_WorkOrder](#BKMK_msdyn_msdyn_workorder_msdyn_workorderservicetask_WorkOrder)
 - [msdyn_workorder_msdyn_bookingalerts](#BKMK_msdyn_workorder_msdyn_bookingalerts)
+- [msdyn_workorder_msdyn_ocoutboundmessages](#BKMK_msdyn_workorder_msdyn_ocoutboundmessages)
+- [msdyn_workorder_msdyn_ocvoicemails](#BKMK_msdyn_workorder_msdyn_ocvoicemails)
 - [msdyn_workorder_msdyn_workordernte_workorder](#BKMK_msdyn_workorder_msdyn_workordernte_workorder)
 
 ### <a name="BKMK_msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder"></a> msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder
@@ -2565,6 +2567,30 @@ Many-To-One Relationship: [msdyn_bookingalert msdyn_workorder_msdyn_bookingalert
 |ReferencingEntity|`msdyn_bookingalert`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_workorder_msdyn_bookingalerts`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_workorder_msdyn_ocoutboundmessages"></a> msdyn_workorder_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage msdyn_workorder_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_msdyn_workorder_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_workorder_msdyn_ocoutboundmessages`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_workorder_msdyn_ocvoicemails"></a> msdyn_workorder_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail msdyn_workorder_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_msdyn_workorder_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_workorder_msdyn_ocvoicemails`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
