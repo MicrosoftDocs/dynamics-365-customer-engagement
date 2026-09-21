@@ -472,6 +472,8 @@ These relationships are one-to-many. Listed by **SchemaName**.
 
 - [msdyn_msdyn_rtvsubstatus_msdyn_rtv_SubStatus](#BKMK_msdyn_msdyn_rtvsubstatus_msdyn_rtv_SubStatus)
 - [msdyn_rtvsubstatus_msdyn_bookingalerts](#BKMK_msdyn_rtvsubstatus_msdyn_bookingalerts)
+- [msdyn_rtvsubstatus_msdyn_ocoutboundmessages](#BKMK_msdyn_rtvsubstatus_msdyn_ocoutboundmessages)
+- [msdyn_rtvsubstatus_msdyn_ocvoicemails](#BKMK_msdyn_rtvsubstatus_msdyn_ocvoicemails)
 
 ### <a name="BKMK_msdyn_msdyn_rtvsubstatus_msdyn_rtv_SubStatus"></a> msdyn_msdyn_rtvsubstatus_msdyn_rtv_SubStatus
 
@@ -494,6 +496,30 @@ Many-To-One Relationship: [msdyn_bookingalert msdyn_rtvsubstatus_msdyn_bookingal
 |ReferencingEntity|`msdyn_bookingalert`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_rtvsubstatus_msdyn_bookingalerts`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_rtvsubstatus_msdyn_ocoutboundmessages"></a> msdyn_rtvsubstatus_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage msdyn_rtvsubstatus_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_msdyn_rtvsubstatus_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_rtvsubstatus_msdyn_ocoutboundmessages`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_rtvsubstatus_msdyn_ocvoicemails"></a> msdyn_rtvsubstatus_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail msdyn_rtvsubstatus_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_msdyn_rtvsubstatus_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_rtvsubstatus_msdyn_ocvoicemails`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

@@ -70,12 +70,29 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ModifiedOn](#BKMK_ModifiedOn)
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [msdyn_ApplyOperationId](#BKMK_msdyn_ApplyOperationId)
+- [msdyn_BookingsQuery](#BKMK_msdyn_BookingsQuery)
+- [msdyn_ExpiresOn](#BKMK_msdyn_ExpiresOn)
+- [msdyn_GoalId](#BKMK_msdyn_GoalId)
+- [msdyn_GoalObjectives](#BKMK_msdyn_GoalObjectives)
+- [msdyn_GoalOptions](#BKMK_msdyn_GoalOptions)
+- [msdyn_IncludeBookingsFromAllResources](#BKMK_msdyn_IncludeBookingsFromAllResources)
+- [msdyn_IsAutomaticApply](#BKMK_msdyn_IsAutomaticApply)
+- [msdyn_IsGoalOptionsOverridden](#BKMK_msdyn_IsGoalOptionsOverridden)
 - [msdyn_Name](#BKMK_msdyn_Name)
 - [msdyn_OptimizationErrors](#BKMK_msdyn_OptimizationErrors)
 - [msdyn_OptimizationRequestId](#BKMK_msdyn_OptimizationRequestId)
+- [msdyn_OptimizationRequestName](#BKMK_msdyn_OptimizationRequestName)
 - [msdyn_OptimizationStatus](#BKMK_msdyn_OptimizationStatus)
 - [msdyn_OptimizationType](#BKMK_msdyn_OptimizationType)
+- [msdyn_RangeEndTime](#BKMK_msdyn_RangeEndTime)
+- [msdyn_RangeStartTime](#BKMK_msdyn_RangeStartTime)
+- [msdyn_RequestVersion](#BKMK_msdyn_RequestVersion)
+- [msdyn_RequirementsQuery](#BKMK_msdyn_RequirementsQuery)
+- [msdyn_ResourcesQuery](#BKMK_msdyn_ResourcesQuery)
+- [msdyn_SchedulingOptimizationPlan](#BKMK_msdyn_SchedulingOptimizationPlan)
+- [msdyn_ScopeId](#BKMK_msdyn_ScopeId)
 - [msdyn_Snapshot](#BKMK_msdyn_Snapshot)
+- [msdyn_StatusReason](#BKMK_msdyn_StatusReason)
 - [msdyn_SuggestedSchedule](#BKMK_msdyn_SuggestedSchedule)
 - [msdyn_UssOptimizationId](#BKMK_msdyn_UssOptimizationId)
 - [msdyn_UssPayloadSnapshot](#BKMK_msdyn_UssPayloadSnapshot)
@@ -200,6 +217,135 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|ApplicationRequired|
 |Type|Uniqueidentifier|
 
+### <a name="BKMK_msdyn_BookingsQuery"></a> msdyn_BookingsQuery
+
+|Property|Value|
+|---|---|
+|Description|**FetchXML query for bookings**|
+|DisplayName|**Bookings Query**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_bookingsquery`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2000|
+
+### <a name="BKMK_msdyn_ExpiresOn"></a> msdyn_ExpiresOn
+
+|Property|Value|
+|---|---|
+|Description|**Date and time when the optimization request expires**|
+|DisplayName|**Expires on**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_expireson`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Auto|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_GoalId"></a> msdyn_GoalId
+
+|Property|Value|
+|---|---|
+|Description|**Goal ID for traceability**|
+|DisplayName|**Goal**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_goalid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_schedulinggoal|
+
+### <a name="BKMK_msdyn_GoalObjectives"></a> msdyn_GoalObjectives
+
+|Property|Value|
+|---|---|
+|Description|**Optimization objectives stored as JSON**|
+|DisplayName|**Goal Objectives**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_goalobjectives`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Json|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
+### <a name="BKMK_msdyn_GoalOptions"></a> msdyn_GoalOptions
+
+|Property|Value|
+|---|---|
+|Description|**Optimization options stored as JSON**|
+|DisplayName|**Goal Options**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_goaloptions`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Json|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
+### <a name="BKMK_msdyn_IncludeBookingsFromAllResources"></a> msdyn_IncludeBookingsFromAllResources
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether this optimization included bookings from all resources or only from resources in the scheduling scope.**|
+|DisplayName|**Included bookings from all resources**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_includebookingsfromallresources`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_optimizationrequest_msdyn_includebookingsfromallresources`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_IsAutomaticApply"></a> msdyn_IsAutomaticApply
+
+|Property|Value|
+|---|---|
+|Description|**Whether to automatically apply optimization results**|
+|DisplayName|**Is Automatic Apply**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isautomaticapply`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_optimizationrequest_msdyn_isautomaticapply`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_IsGoalOptionsOverridden"></a> msdyn_IsGoalOptionsOverridden
+
+|Property|Value|
+|---|---|
+|Description|**Whether goal options are overridden from default**|
+|DisplayName|**Is Goal Options Overridden**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_isgoaloptionsoverridden`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_optimizationrequest_msdyn_isgoaloptionsoverridden`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 
 |Property|Value|
@@ -239,35 +385,56 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |---|---|
 |Description|**Unique identifier for entity instances**|
-|DisplayName|**Optimization Request Id**|
+|DisplayName|**Request ID**|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|`msdyn_optimizationrequestid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
+### <a name="BKMK_msdyn_OptimizationRequestName"></a> msdyn_OptimizationRequestName
+
+|Property|Value|
+|---|---|
+|Description|**Optimization request name**|
+|DisplayName|**Request name**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_optimizationrequestname`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
 ### <a name="BKMK_msdyn_OptimizationStatus"></a> msdyn_OptimizationStatus
 
 |Property|Value|
 |---|---|
 |Description||
-|DisplayName|**Optimization Status**|
+|DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_optimizationstatus`|
 |RequiredLevel|None|
 |Type|Picklist|
-|DefaultFormValue|-1|
+|DefaultFormValue|772020004|
 |GlobalChoiceName|`msdyn_optimizationstatus`|
 
 #### msdyn_OptimizationStatus Choices/Options
 
 |Value|Label|
 |---|---|
-|772020000|**Running**|
-|772020001|**Succeeded**|
+|772020000|**Solving**|
+|772020001|**Ready for Review**|
 |772020002|**Failed**|
-|772020003|**Canceled**|
+|772020003|**Skipped**|
+|772020004|**New**|
+|772020005|**Applying**|
+|772020006|**Applied**|
+|772020007|**Errors**|
 
 ### <a name="BKMK_msdyn_OptimizationType"></a> msdyn_OptimizationType
 
@@ -289,6 +456,117 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |772020000|**Single Resource Optimization**|
 
+### <a name="BKMK_msdyn_RangeEndTime"></a> msdyn_RangeEndTime
+
+|Property|Value|
+|---|---|
+|Description|**Optimization time range end**|
+|DisplayName|**End time**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_rangeendtime`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Auto|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_RangeStartTime"></a> msdyn_RangeStartTime
+
+|Property|Value|
+|---|---|
+|Description|**Optimization time range start**|
+|DisplayName|**Start time**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_rangestarttime`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Auto|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_RequestVersion"></a> msdyn_RequestVersion
+
+|Property|Value|
+|---|---|
+|Description|**Version string for optimization request format**|
+|DisplayName|**Request Version**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_requestversion`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|50|
+
+### <a name="BKMK_msdyn_RequirementsQuery"></a> msdyn_RequirementsQuery
+
+|Property|Value|
+|---|---|
+|Description|**FetchXML query for requirements**|
+|DisplayName|**Requirements Query**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_requirementsquery`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2000|
+
+### <a name="BKMK_msdyn_ResourcesQuery"></a> msdyn_ResourcesQuery
+
+|Property|Value|
+|---|---|
+|Description|**FetchXML query for resources**|
+|DisplayName|**Resources Query**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_resourcesquery`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2000|
+
+### <a name="BKMK_msdyn_SchedulingOptimizationPlan"></a> msdyn_SchedulingOptimizationPlan
+
+|Property|Value|
+|---|---|
+|Description|**Reference to optimization plan**|
+|DisplayName|**Scheduling Optimization Plan**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_schedulingoptimizationplan`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_schedulingoptimizationplan|
+
+### <a name="BKMK_msdyn_ScopeId"></a> msdyn_ScopeId
+
+|Property|Value|
+|---|---|
+|Description|**Reference to scheduling scope**|
+|DisplayName|**Scope**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_scopeid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_schedulingscope|
+
 ### <a name="BKMK_msdyn_Snapshot"></a> msdyn_Snapshot
 
 |Property|Value|
@@ -298,6 +576,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_snapshot`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Json|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
+### <a name="BKMK_msdyn_StatusReason"></a> msdyn_StatusReason
+
+|Property|Value|
+|---|---|
+|Description|**Detailed explanation of optimization status**|
+|DisplayName|**Status Reason**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_statusreason`|
 |RequiredLevel|None|
 |Type|Memo|
 |Format|Text|
@@ -339,7 +634,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description||
+|Description|**USS payload snapshot**|
 |DisplayName|**USS Payload Snapshot**|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -538,6 +833,39 @@ These columns/attributes return false for both **IsValidForCreate** and **IsVali
 |Type|BigInt|
 |MaxValue|9223372036854775807|
 |MinValue|-9223372036854775808|
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+- [msdyn_optimizationrequest_goalid_msdyn_schedulinggoal](#BKMK_msdyn_optimizationrequest_goalid_msdyn_schedulinggoal)
+- [msdyn_schedulingoptimizationplan_optimizationrequest_msdyn_optimizationrequest](#BKMK_msdyn_schedulingoptimizationplan_optimizationrequest_msdyn_optimizationrequest)
+
+### <a name="BKMK_msdyn_optimizationrequest_goalid_msdyn_schedulinggoal"></a> msdyn_optimizationrequest_goalid_msdyn_schedulinggoal
+
+One-To-Many Relationship: [msdyn_schedulinggoal msdyn_optimizationrequest_goalid_msdyn_schedulinggoal](msdyn_schedulinggoal.md#BKMK_msdyn_optimizationrequest_goalid_msdyn_schedulinggoal)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_schedulinggoal`|
+|ReferencedAttribute|`msdyn_schedulinggoalid`|
+|ReferencingAttribute|`msdyn_goalid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_GoalId`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_schedulingoptimizationplan_optimizationrequest_msdyn_optimizationrequest"></a> msdyn_schedulingoptimizationplan_optimizationrequest_msdyn_optimizationrequest
+
+One-To-Many Relationship: [msdyn_schedulingoptimizationplan msdyn_schedulingoptimizationplan_optimizationrequest_msdyn_optimizationrequest](msdyn_schedulingoptimizationplan.md#BKMK_msdyn_schedulingoptimizationplan_optimizationrequest_msdyn_optimizationrequest)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_schedulingoptimizationplan`|
+|ReferencedAttribute|`msdyn_schedulingoptimizationplanid`|
+|ReferencingAttribute|`msdyn_schedulingoptimizationplan`|
+|ReferencingEntityNavigationPropertyName|`msdyn_schedulingoptimizationplan`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 

@@ -573,6 +573,8 @@ One-To-Many Relationship: [msdyn_warehouse msdyn_msdyn_warehouse_msdyn_inventory
 These relationships are one-to-many. Listed by **SchemaName**.
 
 - [msdyn_inventorytransfer_msdyn_bookingalerts](#BKMK_msdyn_inventorytransfer_msdyn_bookingalerts)
+- [msdyn_inventorytransfer_msdyn_ocoutboundmessages](#BKMK_msdyn_inventorytransfer_msdyn_ocoutboundmessages)
+- [msdyn_inventorytransfer_msdyn_ocvoicemails](#BKMK_msdyn_inventorytransfer_msdyn_ocvoicemails)
 - [msdyn_msdyn_inventorytransfer_msdyn_inventoryadjustmentproduct_InventoryTransfer](#BKMK_msdyn_msdyn_inventorytransfer_msdyn_inventoryadjustmentproduct_InventoryTransfer)
 
 ### <a name="BKMK_msdyn_inventorytransfer_msdyn_bookingalerts"></a> msdyn_inventorytransfer_msdyn_bookingalerts
@@ -584,6 +586,30 @@ Many-To-One Relationship: [msdyn_bookingalert msdyn_inventorytransfer_msdyn_book
 |ReferencingEntity|`msdyn_bookingalert`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_inventorytransfer_msdyn_bookingalerts`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_inventorytransfer_msdyn_ocoutboundmessages"></a> msdyn_inventorytransfer_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage msdyn_inventorytransfer_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_msdyn_inventorytransfer_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_inventorytransfer_msdyn_ocoutboundmessages`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_inventorytransfer_msdyn_ocvoicemails"></a> msdyn_inventorytransfer_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail msdyn_inventorytransfer_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_msdyn_inventorytransfer_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_inventorytransfer_msdyn_ocvoicemails`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

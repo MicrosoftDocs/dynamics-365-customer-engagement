@@ -409,7 +409,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |CanChangeDateTimeBehavior|True|
 |DateTimeBehavior|UserLocal|
 |Format|DateAndTime|
-|ImeMode|Auto|
+|ImeMode|Inactive|
 |SourceTypeMask|0|
 
 ### <a name="BKMK_msdyn_PreventTimestampCreation"></a> msdyn_PreventTimestampCreation
@@ -887,6 +887,8 @@ One-To-Many Relationship: [msdyn_resourcerequirement msdyn_resourcerequirement_b
 These relationships are one-to-many. Listed by **SchemaName**.
 
 - [bookableresourcebooking_msdyn_bookingalerts](#BKMK_bookableresourcebooking_msdyn_bookingalerts)
+- [bookableresourcebooking_msdyn_ocoutboundmessages](#BKMK_bookableresourcebooking_msdyn_ocoutboundmessages)
+- [bookableresourcebooking_msdyn_ocvoicemails](#BKMK_bookableresourcebooking_msdyn_ocvoicemails)
 - [msdyn_bookableresourcebooking_msdyn_bookingjournal_Booking](#BKMK_msdyn_bookableresourcebooking_msdyn_bookingjournal_Booking)
 - [msdyn_bookableresourcebooking_msdyn_bookingtimestamp_Booking](#BKMK_msdyn_bookableresourcebooking_msdyn_bookingtimestamp_Booking)
 - [msdyn_bookableresourcebooking_msdyn_geofence_bookableresourcebookingid](#BKMK_msdyn_bookableresourcebooking_msdyn_geofence_bookableresourcebookingid)
@@ -908,6 +910,30 @@ Many-To-One Relationship: [msdyn_bookingalert bookableresourcebooking_msdyn_book
 |ReferencingEntity|`msdyn_bookingalert`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencedEntityNavigationPropertyName|`bookableresourcebooking_msdyn_bookingalerts`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
+
+### <a name="BKMK_bookableresourcebooking_msdyn_ocoutboundmessages"></a> bookableresourcebooking_msdyn_ocoutboundmessages
+
+Many-To-One Relationship: [msdyn_ocoutboundmessage bookableresourcebooking_msdyn_ocoutboundmessages](msdyn_ocoutboundmessage.md#BKMK_bookableresourcebooking_msdyn_ocoutboundmessages)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocoutboundmessage`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`bookableresourcebooking_msdyn_ocoutboundmessages`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
+
+### <a name="BKMK_bookableresourcebooking_msdyn_ocvoicemails"></a> bookableresourcebooking_msdyn_ocvoicemails
+
+Many-To-One Relationship: [msdyn_ocvoicemail bookableresourcebooking_msdyn_ocvoicemails](msdyn_ocvoicemail.md#BKMK_bookableresourcebooking_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocvoicemail`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`bookableresourcebooking_msdyn_ocvoicemails`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `7f15e2bb-305a-468f-9af7-be865755a984`|
 
