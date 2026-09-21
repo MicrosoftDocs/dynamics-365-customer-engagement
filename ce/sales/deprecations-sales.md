@@ -128,5 +128,9 @@ Effective October 1, 2023, the rank optimization feature of insights cards is de
 
 The standalone Sales Insights Add-on package was deprecated in 2023 and is no longer supported. You can access Sales Insights capabilities through the primary Sales Insights solution in Dynamics 365 Sales instead of separate Sales Insights Anchor and Sales Insights Add-on packages that customers install on demand. This consolidation simplifies deployment and improves installation. 
 
+## Playbooks
+
+Effective July 2023, Microsoft deprecated the playbooks feature. You can no longer access, create, or launch playbooks. If you added playbook entries to your custom app, remove them manually. Sequences replace playbooks. [Learn more about sequences](create-manage-sequences.md).  
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
