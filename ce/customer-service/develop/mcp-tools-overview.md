@@ -1,7 +1,7 @@
 ---
 title: Overview of Dynamics 365 Customer Service MCP tools
 description: Learn what MCP tools are available in Dynamics 365 Customer Service, what they do, and which personas use them.
-ms.date: 07/28/2026
+ms.date: 09/21/2026
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -12,7 +12,9 @@ search.audienceType:
 
 # Overview of Dynamics 365 Customer Service MCP tools
 
-Dynamics 365 Customer Service Model Context Protocol (MCP) tools provide standardized business actions that AI-powered experiences can use to access customer service data and perform service-related operations. These tools help connect a conversational AI experience, such as Service Agent, with Dynamics 365 Customer Service and Dataverse so users can complete tasks through natural language interactions.
+Dynamics 365 Customer Service Model Context Protocol (MCP) tools provide standardized business actions that AI-powered experiences can use to access customer service data and perform service-related operations. These tools are part of the **Dynamics 365 Customer Experience MCP Server for Service**, which is generally available as an independent offering. Organizations can connect this server to a growing ecosystem of MCP-compatible AI clients to make customer service capabilities available within the tools and experiences their teams already use.
+
+The server exposes Dynamics 365 Customer Service capabilities through MCP, an open standard for connecting AI applications to enterprise tools and data. Connections are managed through the Microsoft-hosted Agent 365 Tooling Gateway, and access aligns with existing Dataverse roles and permissions.
 
 Service representatives and supervisors don't typically use MCP tools directly. Instead, these users interact with an AI-powered experience, such as Service Agent. The agent determines which tool to use, invokes the tool in the background, and presents the result to the user in chat or through an app-in-chat component.
 
@@ -20,33 +22,53 @@ For example, when a service representative asks Service Agent to summarize a cas
 
 MCP tools can support interactive app-in-chat experiences. In these experiences, the result of a tool is shown inside the chat as an interactive component, where users can review the information and take supported follow-up actions.
 
+## Supported MCP clients
+
+The Dynamics 365 Customer Experience MCP Server for Service supports integration with the following validated clients:
+
+- Microsoft 365 Copilot, including Service Agent
+- Microsoft Copilot Studio agents
+- Visual Studio Code
+- GitHub Copilot CLI
+- Other HTTP-based MCP clients
+
+Learn about setup and configuration details for connecting supported clients in the [Agent 365 overview](/microsoft-agent-365/overview).
+
 ## Key uses
 
-Organizations can use Dynamics 365 Customer Service MCP tools to enable AI-powered customer service experiences across several scenarios.
+The Dynamics 365 Customer Experience MCP Server for Service includes more than 90 service-oriented tools that cover end-to-end workflows in a customer service organization. Organizations can use these tools to enable AI-powered customer service experiences across the following categories.
 
 ### Case management
 
-MCP tools can help retrieve, search, update, assign, and resolve customer cases. These tools support scenarios where users need quick access to case details, related activities, next actions, or resolution workflows.
+MCP tools can help retrieve, search, update, assign, and resolve customer cases. These tools support scenarios where users need quick access to case details, related activities, next actions, SLA status, and resolution workflows.
 
 ### Customer information access
 
-MCP tools can retrieve and summarize customer information such as accounts, contacts, and related records. This capability helps users understand customer context during service interactions.
+MCP tools can retrieve and summarize customer information such as accounts, contacts, and related records, including activity timelines. This capability helps users understand customer context during service interactions.
 
 ### Knowledge management
 
-MCP tools can support knowledge-related tasks such as searching knowledge articles, retrieving article details, drafting knowledge content, and publishing articles. These capabilities help users find and reuse knowledge while resolving customer issues.
+MCP tools can support knowledge-related tasks such as searching knowledge articles, retrieving article details, drafting knowledge content, harvesting new articles, identifying knowledge gaps, and publishing articles. These capabilities help users find and reuse knowledge while resolving customer issues.
 
 ### Email assistance
 
-MCP tools can support AI-assisted email workflows such as drafting, editing, rewriting, translating, and sending emails. For example, an email rewrite tool can return revised email content in an app-in-chat component so the user can review the text before saving or sending it.
+MCP tools can support AI-assisted email workflows such as drafting, generating, rewriting, translating, and sending emails, as well as applying email templates, logging activities, linking email to cases, and creating cases directly from email.
 
 ### Activity and conversation management
 
 MCP tools can help you create activities, add notes, view timelines, and summarize conversations or customer interactions. These capabilities help you capture and review service context without manually navigating across multiple records.
 
+### Intelligence and recommendations
+
+MCP tools can surface next-best-action suggestions, preview responses, and answer knowledge and service questions in context. These tools help users make informed decisions during service interactions.
+
+### Data and search
+
+MCP tools can query and update Dataverse entity records and run cross-entity search and lookups. These capabilities support flexible data access and record management across the service environment.
+
 ### Administration and configuration
 
-Some MCP tools support administrative tasks such as managing environments, agent configurations, MCP registrations, profiles, tool selections, and user preferences. These tools are more relevant to administrators and developers who configure or maintain AI-powered service experiences.
+Some MCP tools support administrative tasks such as managing environments, agent configurations, MCP registrations, profiles, tool selections, and user preferences. Additional admin and maker tools support extensibility scenarios, including registering and managing external MCP servers and Copilot Studio agents, and customizing Dynamics grids and views. These tools are most relevant to administrators and developers who configure or maintain AI-powered service experiences.
 
 ## Personas
 
@@ -56,12 +78,12 @@ Service representatives use AI-powered experiences, such as Service Agent, to co
 
 Common tasks include:
 
-- Retrieve case details.
-- Summarize customer interactions.
-- Find relevant knowledge articles.
-- Draft or refine customer emails.
-- Add notes or create activities.
-- Resolve or update cases.
+- Retrieving case details.
+- Summarizing customer interactions.
+- Finding relevant knowledge articles.
+- Drafting or refining customer emails.
+- Adding notes or creating activities.
+- Resolving or updating cases.
 
 ### Supervisors
 
@@ -93,17 +115,23 @@ MCP app developers and agent developers are the primary personas who work direct
 
 Common tasks include:
 
-- Build app-in-chat components that present tool results to users.
-- Orchestrate multiple MCP tools into end-to-end workflows.
-- Decide how tool responses should appear in the user experience.
-- Build conversational experiences for case management, knowledge assistance, email workflows, and service operations.
-- Design experiences that use available tools at runtime rather than hard-coding dependencies on specific tool names or schemas.
+- Building app-in-chat components that present tool results to users.
+- Orchestrating multiple MCP tools into end-to-end workflows.
+- Deciding how tool responses should appear in the user experience.
+- Building conversational experiences for case management, knowledge assistance, email workflows, and service operations.
+- Designing experiences that use available tools at runtime rather than hard-coding dependencies on specific tool names or schemas.
 
 ## Privileges, access, and security considerations
 
-Access to Dynamics 365 Customer Service MCP tools is governed by Dataverse security privileges. A user must hold all of the privileges that a tool requires before that tool becomes discoverable to the AI-powered experience. Tools that aren't mapped to specific privileges are discoverable by default. Privileges are also enforced when a tool runs, so a tool can be discoverable yet still be denied at execution time if the underlying record or action isn't permitted.
+Dataverse security privileges govern access to Dynamics 365 Customer Service MCP tools. A user must hold all of the privileges that a tool requires before that tool becomes discoverable to the AI-powered experience. Tools that aren't mapped to specific privileges are discoverable by default. Privileges are also enforced when a tool runs, so a tool can be discoverable yet still be denied at run time if the underlying record or action isn't permitted.
 
 Because each tool maps to one or more privileges, administrators can use security roles to control which capabilities are available to service representatives, supervisors, administrators, and developers. Learn more in [Privilege reference for Customer Service Copilot tools](customer-service-tool-privilege-reference.md)
+
+### Agent 365 Tooling Gateway
+
+The Microsoft-hosted Agent 365 Tooling Gateway manages connections to the Dynamics 365 Customer Experience MCP Server for Service. The gateway handles authentication to your Microsoft Dataverse environment and enforces existing Dataverse roles and permissions at both tool discovery and execution time. This enforcement means that users only see the tools they're permitted to use, and execution is subject to the same access controls that govern the underlying Dataverse data.
+
+Organizations can use the Agent 365 Tooling Gateway to connect the server to supported MCP clients while maintaining established governance controls. Learn more in [Agent 365 overview](/microsoft-agent-365/overview).
 
 Dynamics Customer Service MCP server is extensible by design.
 
