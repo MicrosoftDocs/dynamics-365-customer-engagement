@@ -99,8 +99,8 @@ Sales Qualification Agent autonomously researches leads using internal and exter
 
 The Sales Opportunity Agent in Dynamics 365 Sales helps you close complex deals by spotting risks early, highlighting top opportunities, and bringing all key insights into one clear view&mdash;so you can focus and act with confidence. Depending on your role, you can use the agent as follows:  
 
-- Administrator: [Configure the Sales Opportunity Agent](configure-opportunity-research-agent.md)  
-- Seller: [Work on opportunities handled by the Sales Opportunity Agent](use-opportunity-research-agent.md)
+- Administrator: [Configure the Sales Opportunity Agent](configure-sales-opportunity-agent.md)  
+- Seller: [Work on opportunities handled by the Sales Opportunity Agent](use-sales-opportunity-agent.md)
 
 ### Meet buyers where they are
 
@@ -185,3 +185,4 @@ Integrate Dynamics 365 Sales with other applications that your sales team alread
 [User guide](../sales-enterprise/user-guide.md)  
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]
+

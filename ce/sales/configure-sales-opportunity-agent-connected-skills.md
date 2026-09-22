@@ -24,7 +24,7 @@ The Sales Opportunity Agent can integrate with the [Recommended Actions Agent](r
 
 Follow these steps to enable recommended actions for the Sales Opportunity Agent:
 
-1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
+1. [Open the Sales Opportunity Agent settings page](open-sales-opportunity-agent-settings.md).  
 1. Under **Advanced**, select **Connected skills**.
 1. In the **Recommended action** section, turn on the toggle.  
 
@@ -38,9 +38,11 @@ The Sales Opportunity Agent appears in the AI agents list on the recommended act
 
 ## Next step
 
-[Start the Sales Opportunity Agent.](start-sales-close-agent-research.md)
+[Start the Sales Opportunity Agent.](start-sales-opportunity-agent.md)
 
 ## Related information
 
-- [Set up and configure Sales Opportunity Agent](configure-opportunity-research-agent.md)
+- [Set up and configure Sales Opportunity Agent](configure-sales-opportunity-agent.md)
 - [Configure Recommended Actions Agent](configure-recommended-actions.md)
+
+

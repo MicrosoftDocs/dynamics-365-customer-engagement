@@ -97,7 +97,7 @@ additionalContent:
       links:
       - url: configure-sales-qualification-agent.md
         text: Set up and configure the Sales Qualification Agent
-      - url: configure-opportunity-research-agent.md
+      - url: configure-sales-opportunity-agent.md
         text: Configure the Sales Opportunity Agent 
     - title: Copilot
       links: 
@@ -140,7 +140,7 @@ additionalContent:
         text: Work on leads handed over by the Sales Qualification Agent 
       - url: monitor-leads-by-sales-qualification-agent.md
         text: Monitor leads handled by the Sales Qualification Agent 
-      - url: use-opportunity-research-agent.md  
+      - url: use-sales-opportunity-agent.md  
         text: Work on opportunities handled by the Sales Opportunity Agent
     - title: Copilot
       links: 
@@ -223,3 +223,4 @@ additionalContent:
         - title: Microsoft Power Platform
           summary: Build custom apps using Power Apps, automate workflows to improve business productivity using Power Automate, and analyze data for insights using Power BI. 
           url: /power-platform
+

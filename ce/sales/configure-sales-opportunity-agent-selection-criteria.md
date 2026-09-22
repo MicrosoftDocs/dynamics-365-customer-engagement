@@ -20,7 +20,7 @@ Add conditions to filter opportunities for the Sales Opportunity Agent to focus 
 
 **Follow these steps**:
 
-1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
+1. [Open the Sales Opportunity Agent settings page](open-sales-opportunity-agent-settings.md).  
 1. Under **General**, select **Selection criteria**.  
     :::image type="content" source="media/sca-selection-criteria-settings-page.png" alt-text="Screenshot of the Sales Opportunity Agent selection criteria settings page.":::
 1. In the **Selection criteria** tab, specify the following information:
@@ -66,7 +66,7 @@ The system scores opportunities based on these factors in the following order of
 | 5 | Predictive score | AI-generated score indicating the likelihood of winning the deal. | The opportunity has a *lower* predicted win rate&mdash;it might need more attention. |
 | 6 | Manual refresh request | Whether a seller manually requested the agent to refresh research on the opportunity. | The seller requested a manual refresh. |
 
-Each opportunity receives a score between 0 and 100, with higher scores indicating higher priority. The system recalculates scores for [each research cycle](configure-sales-close-agent-research-refresh-frequency.md), so an opportunity's position in the queue can change as the factors evolve.  
+Each opportunity receives a score between 0 and 100, with higher scores indicating higher priority. The system recalculates scores for [each research cycle](configure-sales-opportunity-agent-refresh-frequency.md), so an opportunity's position in the queue can change as the factors evolve.  
 By default, the system gives more weight to research freshness and manual refresh request, reflecting the importance of keeping data current and responding to seller intent. When an opportunity receives multiple manual refresh requests within the same refresh cycle, the agent automatically prioritizes it high regardless of its score on other factors.
 
 To manually refresh an opportunity, go to the opportunity record in research mode and select **Refresh**.
@@ -82,8 +82,10 @@ The following considerations apply to how the system prioritizes records for res
 
 ## Next step
 
-[Configure refresh frequency](configure-sales-close-agent-research-refresh-frequency.md).
+[Configure refresh frequency](configure-sales-opportunity-agent-refresh-frequency.md).
 
 ## Related information
 
-[Set up and configure Sales Opportunity Agent](configure-opportunity-research-agent.md).
+[Set up and configure Sales Opportunity Agent](configure-sales-opportunity-agent.md).
+
+

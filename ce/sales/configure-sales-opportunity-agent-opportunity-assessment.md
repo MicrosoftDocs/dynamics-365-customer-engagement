@@ -20,7 +20,7 @@ Configure the fields that the agent uses to assess the importance and risk of th
 
 **Follow these steps**:
 
-1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
+1. [Open the Sales Opportunity Agent settings page](open-sales-opportunity-agent-settings.md).  
 1. Under **Advanced**, select **Opportunity assessment**.  
     :::image type="content" source="media/sca-opportunity-assessment-settings-page.png" alt-text="Screenshot of the Sales Opportunity Agent opportunity assessment settings page.":::
 1. In the **Opportunity assessment** settings, select the fields that the agent should use for assessing the importance and risk of opportunities.
@@ -28,7 +28,7 @@ Configure the fields that the agent uses to assess the importance and risk of th
     - **Estimated close date:** Select the field that represents the estimated close date, such as **Est. close date**. 
 
     >[!NOTE]
-    >You can customize the thresholds for risk and importance criteria in the **Advanced** settings. To learn more, see [Configure risk and importance criteria](opportunity-research-agent-advanced-settings.md).
+    >You can customize the thresholds for risk and importance criteria in the **Advanced** settings. To learn more, see [Configure risk and importance criteria](sales-opportunity-agent-advanced-settings.md).
 
 ## Next step
 
@@ -36,4 +36,6 @@ Configure the fields that the agent uses to assess the importance and risk of th
 
 ## Related information
 
-[Set up and configure Sales Opportunity Agent.](configure-opportunity-research-agent.md)
+[Set up and configure Sales Opportunity Agent.](configure-sales-opportunity-agent.md)
+
+

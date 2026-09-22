@@ -139,4 +139,4 @@ Some examples of what you can include:
 ## Related information
 
 - [Lead research page](use-sales-qualification-agent.md#lead-research-page)  
-- [Opportunity research page](use-opportunity-research-agent.md#opportunity-research-page)
+- [Opportunity research page](use-sales-opportunity-agent.md#opportunity-research-page)

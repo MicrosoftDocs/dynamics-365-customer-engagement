@@ -33,5 +33,5 @@ This article describes the impact of the edits to the Sales Close Agent settings
 
 ## Related information
 
-- [Set up and configure Sales Opportunity Agent](configure-opportunity-research-agent.md)  
-- [Start the Sales Opportunity Agent](start-sales-close-agent-research.md)
+- [Set up and configure Sales Opportunity Agent](configure-sales-opportunity-agent.md)  
+- [Start the Sales Opportunity Agent](start-sales-opportunity-agent.md)

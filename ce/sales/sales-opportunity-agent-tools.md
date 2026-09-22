@@ -17,9 +17,9 @@ ai-usage: ai-assisted
 
 # MCP tools for Sales Opportunity Agent capabilities
 
-This article lists the tools for using the Sales Opportunity Agent capabilities. Make sure that the Sales Opportunity Agent is [configured and turned on](configure-opportunity-research-agent.md). 
+This article lists the tools for using the Sales Opportunity Agent capabilities. Make sure that the Sales Opportunity Agent is [configured and turned on](configure-sales-opportunity-agent.md). 
 
-Learn more about the insights returned by the following tools in [Opportunity research page](use-opportunity-research-agent.md#opportunity-research-page). 
+Learn more about the insights returned by the following tools in [Opportunity research page](use-sales-opportunity-agent.md#opportunity-research-page). 
 
 | Tool name (friendly)         | API name                                         | Purpose                                                      | Parameter(s)                | Returns                                                                                 |
 |------------------------------|--------------------------------------------------|--------------------------------------------------------------|-----------------------------|-----------------------------------------------------------------------------------------|
@@ -28,7 +28,7 @@ Learn more about the insights returned by the following tools in [Opportunity re
 | Key opportunity stakeholders tool      | `msdyn_GetKeyOpportunityStakeholders`    | Retrieve key stakeholders for the opportunity from Sales Close Agent      | `OpportunityId` (string)    | List of key stakeholders and decision makers for the opportunity                                                     |
 | Opportunity health tool                | `msdyn_GetOpportunityHealth`             | Retrieve opportunity health from Sales Close Agent                | `OpportunityId` (string)    | Health status for the opportunity based on the MEDDPICC framework (Metrics, Economic Buyer, Decision Process, Decision Criteria, Paper Process, Identify Pain, Champion, Competition).                                                         |
 | Opportunity pain points and needs tool | `msdyn_GetOpportunityPainPointsAndNeeds` | Retrieve opportunity pain points and needs from Sales Close Agent | `OpportunityId` (string)    | List of pain points and needs related to the opportunity                                                |
-| Opportunity top risks tool             | `msdyn_GetOpportunityTopRisks`           | Retrieve opportunity top risks from Sales Close Agent             | `OpportunityId` (string)    | Top risks for the opportunity based on the [risks criteria configured by your admin](opportunity-research-agent-advanced-settings.md)                                                          |
+| Opportunity top risks tool             | `msdyn_GetOpportunityTopRisks`           | Retrieve opportunity top risks from Sales Close Agent             | `OpportunityId` (string)    | Top risks for the opportunity based on the [risks criteria configured by your admin](sales-opportunity-agent-advanced-settings.md)                                                          |
 | Opportunity deal overview tool         | `msdyn_GetOpportunityResearchResult`     | Retrieve all opportunity insights from Sales Close Agent          | `OpportunityId` (string)    | Comprehensive insights for the opportunity                                               |
 
 In addition to the Sales MCP server tools, you can also use the Dataverse MCP server tools to perform CRUD operations on the records in Dynamics 365 Sales. Learn more about the supported Dataverse MCP server tools in [Connect to Dataverse with Model Context Protocol](/power-apps/maker/data-platform/data-platform-mcp). 
@@ -38,3 +38,4 @@ In addition to the Sales MCP server tools, you can also use the Dataverse MCP se
 
 - [Connect your AI agents and assistants to Sales MCP Server](connect-agents-to-model-context-protocol.md)
 - [Examples of using Sales MCP Server with AI agents and assistants](model-context-protocol-examples.md)
+
