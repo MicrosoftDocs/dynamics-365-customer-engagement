@@ -37,7 +37,7 @@ The agent combines all applicable risk signals to determine the overall opportun
 
 ## Configure the risk criteria
 
-1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).
+1. [Open the Sales Opportunity Agent settings page](open-sales-opportunity-agent-settings.md).
 1. Under **Advanced**, select **Risk criteria**.  
 1. Open the list of available criteria and review the existing risk criteria.  
 
@@ -62,7 +62,7 @@ The agent combines all applicable risk signals to determine the overall opportun
 
 ## Create custom risk criteria
 
-1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).
+1. [Open the Sales Opportunity Agent settings page](open-sales-opportunity-agent-settings.md).
 1. Under **Advanced**, select **Risk criteria**.  
 1. In the **Advanced settings** section, select **New custom criterion** to create a new risk criterion.  
  
@@ -87,8 +87,9 @@ The agent combines all applicable risk signals to determine the overall opportun
 
 ## Next step
 
-[Configure importance criteria.](opportunity-research-agent-advanced-settings.md)
+[Configure importance criteria.](sales-opportunity-agent-advanced-settings.md)
 
 ## Related information
 
-[Set up and configure Sales Opportunity Agent](configure-opportunity-research-agent.md)
+[Set up and configure Sales Opportunity Agent](configure-sales-opportunity-agent.md)
+

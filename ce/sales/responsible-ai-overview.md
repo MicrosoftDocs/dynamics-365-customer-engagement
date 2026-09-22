@@ -34,7 +34,7 @@ The following links take you to responsible AI FAQs about specific AI agents in 
 
 - [Responsible AI FAQ about the Research-only mode of Sales Qualification Agent](faqs-sales-qualification-agent.md)
 - [Responsible AI FAQ about the Research and engage mode of Sales Qualification Agent](faqs-sales-qualification-agent-engage.md)
-- [Responsible AI FAQ about Sales Opportunity Agent](faqs-about-opportunity-research.md)
+- [Responsible AI FAQ about Sales Opportunity Agent](faqs-about-sales-opportunity-agent.md)
 - [Responsible AI FAQ about Sales Close Agent (preview)](faqs-about-sales-close-agent-engage.md)
 - [Responsible AI FAQ about the Sales Research Agent](faqs-about-sales-research-agent.md)
 - [Responsible AI FAQ about AI-powered Data Enrichment for opportunities](FAQs-data-enrichment-agent.md)

@@ -64,18 +64,18 @@ By default, the **Salesperson** and **Sales Manager** security roles have the ne
 
 Before setting up the agent, make sure you [plan your implementation](#plan-your-implementation) and meet [all prerequisites](#prerequisites). Use the following steps to configure and start the Sales Opportunity Agent:
 
-1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
-1. [Configure requirements for the agent](configure-requirements-for-sales-close-agent-research.md) to verify your environment meets technical requirements.
-1. [Configure the agent profile](configure-sales-close-agent-profile-research.md) to set the agent's name and language.
-1. [Configure company info](configure-sales-close-agent-research-company-info.md) so the agent understands your value proposition and can curate relevant research insights.  
-1. [Set selection criteria for opportunities](configure-sales-close-agent-research-selection-criteria.md) to define which opportunities the agent should research.
-1. [Configure refresh frequency](configure-sales-close-agent-research-refresh-frequency.md) to control how often the agent updates research data.  
-1. [Configure opportunity assessment](configure-sales-close-agent-research-opportunity-assessment.md) to choose the fields the agent uses to evaluate opportunity importance and risk.
+1. [Open the Sales Opportunity Agent settings page](open-sales-opportunity-agent-settings.md).  
+1. [Configure requirements for the agent](configure-sales-opportunity-agent-requirements.md) to verify your environment meets technical requirements.
+1. [Configure the agent profile](configure-opportunity-research-agent-profile.md) to set the agent's name and language.
+1. [Configure company info](configure-sales-opportunity-agent-company-info.md) so the agent understands your value proposition and can curate relevant research insights.  
+1. [Set selection criteria for opportunities](configure-sales-opportunity-agent-selection-criteria.md) to define which opportunities the agent should research.
+1. [Configure refresh frequency](configure-sales-opportunity-agent-refresh-frequency.md) to control how often the agent updates research data.  
+1. [Configure opportunity assessment](configure-sales-opportunity-agent-opportunity-assessment.md) to choose the fields the agent uses to evaluate opportunity importance and risk.
 1. [Configure agent research](configure-sqa-knowledge-source.md) to add public and internal sources the agent uses to generate insights.
 1. [Configure risk criteria](configure-sales-opportunity-agent-risk-criteria.md) to define the conditions under which an opportunity is considered high risk.
-1. [Configure importance criteria](opportunity-research-agent-advanced-settings.md) to define the conditions under which an opportunity is considered important.  
+1. [Configure importance criteria](sales-opportunity-agent-advanced-settings.md) to define the conditions under which an opportunity is considered important.  
 1. [Configure connected skills](configure-sales-opportunity-agent-connected-skills.md) to define the skills the agent should leverage when researching opportunities.
-1. [Start the agent](start-sales-close-agent-research.md) to begin researching opportunities and generating insights.
+1. [Start the agent](start-sales-opportunity-agent.md) to begin researching opportunities and generating insights.
 
 ## After setup
 
@@ -104,7 +104,7 @@ Consider the following points when creating multiple agent instances of Sales Op
 When you create a new agent instance, configure it by following the steps outlined in the [Set up the Sales Opportunity Agent section](#set-up-the-sales-opportunity-agent). Each instance can have its own unique configuration for selection criteria, knowledge sources, and other settings. This configuration allows you to customize the agent's behavior for different segments of opportunities.
 However, note the aspects for the following configuration sections for each agent instance:
 
-- **Selection criteria**: Each agent must have its own distinct selection criteria to determine which opportunities it processes. To learn how the selection criteria for multiple agent instances work, see [Selection criteria for multiple agent instances](configure-sales-close-agent-research-selection-criteria.md#selection-criteria-for-multiple-agent-instances). 
+- **Selection criteria**: Each agent must have its own distinct selection criteria to determine which opportunities it processes. To learn how the selection criteria for multiple agent instances work, see [Selection criteria for multiple agent instances](configure-sales-opportunity-agent-selection-criteria.md#selection-criteria-for-multiple-agent-instances). 
 - **Knowledge sources**: All instances share the same single Microsoft Copilot Studio knowledge base. For each agent instance, you can configure which knowledge sources it uses by applying filters. To learn how to filter knowledge sources for specific agent instances, see [Filter knowledge sources by agent instance](configure-sqa-knowledge-source.md#filter-knowledge-sources-by-agent-instance). 
 
 ## Migrate agents across environments
@@ -113,7 +113,10 @@ When you have configured the Sales Opportunity Agent in one environment, you can
  
 ## Related content
 
-- [Work on opportunities handled by the Sales Opportunity Agent](use-opportunity-research-agent.md)
-- [FAQs about Sales Opportunity Agent](faqs-about-opportunity-research.md)
+- [Work on opportunities handled by the Sales Opportunity Agent](use-sales-opportunity-agent.md)
+- [FAQs about Sales Opportunity Agent](faqs-about-sales-opportunity-agent.md)
 - [Manage consumption-based billing for agent capabilities](copilot-consumption-based-billing.md)
 - [AI agents in Dynamics 365 Sales](ai-agent-overview.md)
+
+
+

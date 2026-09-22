@@ -25,7 +25,9 @@ You need the following prerequisites:
 - Your admin has configured the Sales Opportunity Agent for your organization.  
 - You're part of the sales team that works on the opportunity segment that the agent is configured for.  
 - You have the necessary permissions to view and work on the opportunities researched by the agent.  
-- Your mailbox is configured to allow tracking of email messages. This setting is required for the agent to gather insights from your emails and meetings. See the personalization setting explained in [Configure server-side synchronization](configure-requirements-for-sales-close-agent-research.md#configure-server-side-synchronization).
+- Your mailbox is configured to allow tracking of email messages. This setting is required for the agent to gather insights from your emails and meetings. See the personalization setting explained in [Configure server-side synchronization](configure-sales-opportunity-agent-requirements.md#configure-server-side-synchronization).
+
+- Your admin has configured the Sales Opportunity Agent for your organization.
 
 ## View opportunities researched by the Sales Opportunity Agent
 
@@ -46,7 +48,7 @@ You need the following prerequisites:
    If you see a banner prompting you to provide consent for Microsoft 365 Services, read the section [Provide consent for Microsoft 365 Services](#provide-consent-for-microsoft-365-services).
 
 > [!NOTE]
-> The research insights refresh based on the refresh frequency configured by your admin and when specific fields in the opportunity record are updated. Learn more in [How often does the Sales Opportunity Agent refresh research data?](opportunity-research-agent-faqs.md#how-often-does-the-sales-opportunity-agent-refresh-research-data).
+> The research insights refresh based on the refresh frequency configured by your admin and when specific fields in the opportunity record are updated. Learn more in [How often does the Sales Opportunity Agent refresh research data?](faqs-about-sales-opportunity-agent.md#how-often-does-the-sales-opportunity-agent-refresh-research-data).
 
 ### Provide consent for Microsoft 365 Services
 
@@ -54,7 +56,7 @@ If your admin enables Microsoft 365 Services for the agent, a banner prompts you
 
 If your admin configures the agent to use server-side synchronization instead, you won't see this banner. In that case, the agent reads only the emails and meetings that are already synced to Dynamics 365 Sales. 
 
-:::image type="content" source="media/opportunity-research-agent-m365-consent.png" alt-text="Screenshot of the Microsoft 365 Services consent prompt on the Opportunity research page for sellers.":::
+:::image type="content" source="media/sales-opportunity-agent-m365-consent.png" alt-text="Screenshot of the Microsoft 365 Services consent prompt on the Opportunity research page for sellers.":::
 
 Consider the following information:
 
@@ -75,7 +77,7 @@ For generating insights based on your emails, the following conditions must be m
 ## Opportunity research page
 
 > [!NOTE]
-> If the research insights appear in a language different from your preferred language in Dynamics 365 Sales, it means the agent is configured to use another language. For details, see [What happens when the agent's language is different from user's preferred language?](opportunity-research-agent-faqs.md#agent-language-difference)
+> If the research insights appear in a language different from your preferred language in Dynamics 365 Sales, it means the agent is configured to use another language. For details, see [What happens when the agent's language is different from user's preferred language?](faqs-about-sales-opportunity-agent.md#agent-language-difference)
 
 The Opportunity research page includes the following sections:
 
@@ -89,7 +91,7 @@ The Opportunity research page includes the following sections:
 
    :::image type="content" source="media/ORA-header.png" alt-text="Screenshot of the deal importance indicator on the Opportunity research page.":::
 
-   The agent evaluates how critical the opportunity is by analyzing factors like account win history, Fortune 500 status, deal size, and so on. It looks at CRM data such as estimated revenue and public info about the account (whether it's a Fortune 500 or key industry player) to label the deal High, Medium, or Low importance. Your administrator can configure the importance criteria and add custom criteria specific to your business. Learn more in [Configure the importance criteria](opportunity-research-agent-advanced-settings.md#configure-the-importance-criteria).
+   The agent evaluates how critical the opportunity is by analyzing factors like account win history, Fortune 500 status, deal size, and so on. It looks at CRM data such as estimated revenue and public info about the account (whether it's a Fortune 500 or key industry player) to label the deal High, Medium, or Low importance. Your administrator can configure the importance criteria and add custom criteria specific to your business. Learn more in [Configure the importance criteria](sales-opportunity-agent-advanced-settings.md#configure-the-importance-criteria).
 
   *How this insight helps you:* Instantly know why the deal matters. You can quickly see which deals are high-value or strategically important and prioritize those. This information lets you focus your time on the most impactful opportunities, ensuring critical deals get the attention they need.  
 
@@ -242,5 +244,8 @@ The agent refreshes the research insights based on the refresh frequency your ad
 
 ## Related information
 
-- [Configure the Sales Opportunity Agent](configure-opportunity-research-agent.md)
-- [FAQs about Sales Opportunity Agent](faqs-about-opportunity-research.md)
+- [Configure the Sales Opportunity Agent](configure-sales-opportunity-agent.md)
+- [FAQs about Sales Opportunity Agent](faqs-about-sales-opportunity-agent.md)
+
+
+

@@ -31,5 +31,7 @@ A confirmation message is displayed. Select **Start agent** to start the agent. 
 
 ## Related information
 
-- [Set up and configure Sales Opportunity Agent](configure-opportunity-research-agent.md)
-- [Edit settings of Sales Opportunity Agent](edit-opportunity-research-agent-settings.md)
+- [Set up and configure Sales Opportunity Agent](configure-sales-opportunity-agent.md)
+- [Edit settings of Sales Opportunity Agent](edit-sales-opportunity-agent-settings.md)
+
+

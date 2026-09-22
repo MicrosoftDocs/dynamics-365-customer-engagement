@@ -44,14 +44,23 @@ The following table summarizes the key capabilities of the Sales Opportunity Age
 
 ## Capacity usage
 
-The Sales Opportunity Agent uses the capacity assigned to your tenant to process records. You can set up either prepaid capacity or pay-as-you-go capacity for the agent. Use the following resources to learn more about setting up capacity and monitoring usage:
+The Sales Opportunity Agent uses the capacity assigned to your tenant to process records. You can set up either prepaid capacity or pay-as-you-go capacity for the agent.
+
+**Processing scope and scale:** When you first activate Sales Opportunity Agent, it performs an initial run that processes all open opportunities that match your configuration to generate baseline insights. After the initial run, capacity consumption scales with the number of opportunities in scope and how often insights are refreshed (based on your configured refresh schedule and opportunity changes). To manage usage, narrow the opportunity scope and adjust refresh frequency in the [agent configuration settings](configure-sales-opportunity-agent.md).
+
+Use the following resources to learn more about setting up capacity and monitoring usage:
 
 - [Manage consumption-based billing for agent capabilities](copilot-consumption-based-billing.md)
 - [View the agent's usage consumption](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new#use-the-summary-tab)
 
 ## Responsible AI
 
-Sales Opportunity Agent is built with responsible AI principles in mind. The agent meets quality standards and is designed to be used as a productivity tool. For more information about the agent's responsible AI practices, see [FAQs about Sales Opportunity Agent](faqs-about-opportunity-research.md).
+Sales Opportunity Agent is built with responsible AI principles in mind. The agent meets quality standards and is designed to be used as a productivity tool.
+
+> [!NOTE]
+> **Sales Close Agent** is a separate, distinct product from Sales Opportunity Agent. When viewing documentation or links, ensure you're referencing the correct agent for your needs.
+
+For more information about the agent's responsible AI practices, see [FAQs about Sales Opportunity Agent](faqs-about-sales-opportunity-agent.md).
 
 ## Language support and output quality
 
@@ -69,5 +78,6 @@ Depending on your role, use the following links to configure and use the Sales O
 
 | Role | Action |
 |------|--------|
-| Admin | [Set up and configure Sales Opportunity Agent](configure-opportunity-research-agent.md).<br>[Start the agent](start-sales-close-agent.md).|
-| Seller | [Work on opportunities researched by the Sales Opportunity Agent](use-opportunity-research-agent.md).<br>[View agent insights and metrics](view-sales-close-agent-research-insights-metrics.md). |
+| Admin | [Set up and configure Sales Opportunity Agent](configure-sales-opportunity-agent.md).<br>[Start Sales Opportunity Agent](start-sales-opportunity-agent.md). |
+| Seller | [Work on opportunities researched by Sales Opportunity Agent](use-sales-opportunity-agent.md).<br>[View Sales Opportunity Agent insights and metrics](view-sales-opportunity-agent-insights-metrics.md). |
+

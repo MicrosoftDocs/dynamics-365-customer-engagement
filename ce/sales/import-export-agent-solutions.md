@@ -90,7 +90,7 @@ After you import the solution, the agent is imported in draft state. Open the ag
 1. **Configure the prerequisites**. The exported solution doesn't include prerequisites because they often contain environment‑specific values that might differ between source and target environments.  
 
     - For Sales Qualification Agent, see [Configure requirements for Sales Qualification Agent](configure-requirements-for-sqa-agent.md).  
-    - For Sales Opportunity Agent, see [Configure requirements for Sales Opportunity Agent](configure-requirements-for-sales-close-agent-research.md).
+    - For Sales Opportunity Agent, see [Configure requirements for Sales Opportunity Agent](configure-sales-opportunity-agent-requirements.md).
     - For Sales Close Agent, see [Configure requirements for Sales Close Agent](configure-requirements-for-sales-close-agent.md).
 
 1. **Select the application user**. Application users differ between source and target environments.
@@ -151,3 +151,4 @@ After you import the solution, the agent is imported in draft state. Open the ag
 ## Related information
 
 [AI agents in Dynamics 365 Sales](ai-agent-overview.md)
+

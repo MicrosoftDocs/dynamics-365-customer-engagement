@@ -38,7 +38,7 @@ Before you configure knowledge sources for agents, consider the following factor
 
 By default, the agent uses public web data sources to research records and their companies. However, you can add custom knowledge sources that you want the agent to use to get more relevant and specific insights about the record and their company.
 
-1. Depending on the agent you're configuring, go to the [Sales Qualification Agent settings page](open-sales-qualification-agent-settings.md) or the [Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
+1. Depending on the agent you're configuring, go to the [Sales Qualification Agent settings page](open-sales-qualification-agent-settings.md) or the [Sales Opportunity Agent settings page](open-sales-opportunity-agent-settings.md).  
 
 1. Select **Research**.
 1. Under **Enrich research with knowledge sources**, select **Company research**. Company insights include industry type, company size, financials, priorities, and news. The following examples are the best sources to add as knowledge sources for company research:
@@ -122,7 +122,7 @@ When the agent doesn't find competitor information in the record or doesn't find
 
 You can also upload relevant documents such as battle cards, positioning briefs, and market analysis reports to help the agent generate more accurate and relevant insights. To learn more, see [considerations for knowledge sources](configure-sqa-knowledge-source.md#considerations).
 
-1. Depending on the agent you're configuring, go to the [Sales Qualification Agent settings page](open-sales-qualification-agent-settings.md) or the [Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
+1. Depending on the agent you're configuring, go to the [Sales Qualification Agent settings page](open-sales-qualification-agent-settings.md) or the [Sales Opportunity Agent settings page](open-sales-opportunity-agent-settings.md).  
 
 1. Under **Knowledge**, select **Research**, and then scroll down to the **Competitor research** section.
 1. Under **Key competitors**, select **+ Competitor** to add up to three competitors for the product line that the agent works on. 
@@ -207,10 +207,12 @@ By using curated knowledge sources, the agent becomes a top researcher that unde
 
 - For **Sales Opportunity Agent**:
     - [Configure risk criteria](configure-sales-opportunity-agent-risk-criteria.md).
-    - [Start the Sales Opportunity Agent.](start-sales-close-agent-research.md)
+    - [Start the Sales Opportunity Agent.](start-sales-opportunity-agent.md)
 
 ## Related information
 
 [Add knowledge to an agent](/microsoft-copilot-studio/knowledge-add-existing-copilot)  
 [Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)
-[Set up and configure Sales Opportunity Agent](configure-opportunity-research-agent.md)
+[Set up and configure Sales Opportunity Agent](configure-sales-opportunity-agent.md)
+
+

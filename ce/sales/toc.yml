@@ -192,35 +192,35 @@ items:
               - name: Set up and configure Sales Opportunity Agent
                 items:
                   - name: Set up and configure Sales Opportunity Agent
-                    href: configure-opportunity-research-agent.md
+                    href: configure-sales-opportunity-agent.md
                   - name: Open the settings page
-                    href: open-sales-close-agent-research-settings.md
+                    href: open-sales-opportunity-agent-settings.md
                   - name: Configure prerequisites
-                    href: configure-requirements-for-sales-close-agent-research.md
+                    href: configure-sales-opportunity-agent-requirements.md
                   - name: Configure the agent profile
-                    href: configure-sales-close-agent-profile-research.md
+                    href: configure-opportunity-research-agent-profile.md
                   - name: Configure company information
-                    href: configure-sales-close-agent-research-company-info.md
+                    href: configure-sales-opportunity-agent-company-info.md
                   - name: Set selection criteria for opportunities
-                    href: configure-sales-close-agent-research-selection-criteria.md
+                    href: configure-sales-opportunity-agent-selection-criteria.md
                   - name: Configure refresh frequency
-                    href: configure-sales-close-agent-research-refresh-frequency.md
+                    href: configure-sales-opportunity-agent-refresh-frequency.md
                   - name: Configure opportunity assessment
-                    href: configure-sales-close-agent-research-opportunity-assessment.md
+                    href: configure-sales-opportunity-agent-opportunity-assessment.md
                   - name: Configure research
                     href: configure-sqa-knowledge-source.md
                   - name: Configure risk criteria
                     href: configure-sales-opportunity-agent-risk-criteria.md
                   - name: Configure importance criteria
-                    href: opportunity-research-agent-advanced-settings.md
+                    href: sales-opportunity-agent-advanced-settings.md
                   - name: Configure connected skills
                     href: configure-sales-opportunity-agent-connected-skills.md
               - name: Start the agent
-                href: start-sales-close-agent-research.md
+                href: start-sales-opportunity-agent.md
               - name: Edit settings of Sales Opportunity Agent
-                href: edit-opportunity-research-agent-settings.md
+                href: edit-sales-opportunity-agent-settings.md
               - name: View agent insights and metrics
-                href: view-sales-close-agent-research-insights-metrics.md
+                href: view-sales-opportunity-agent-insights-metrics.md
               - name: Sales Opportunity Agent FAQs
                 href: faq-sales-opportunity-agent.md
           - name: Sales Close Agent (preview)
@@ -347,7 +347,7 @@ items:
           - name: MCP tools for Sales Qualification Agent capabilities
             href: sales-qualification-agent-tools.md
           - name: MCP tools for Sales Opportunity Agent capabilities
-            href: sales-close-agent-research-tools.md
+            href: sales-opportunity-agent-tools.md
           - name: Examples of using Sales MCP Server with AI agents and assistants
             href: model-context-protocol-examples.md
       - name: Digital selling capabilities in Sales Enterprise
@@ -924,11 +924,11 @@ items:
               - name: Overview
                 href: sales-opportunity-agent.md
               - name: Work on opportunities researched by agent
-                href: use-opportunity-research-agent.md
+                href: use-sales-opportunity-agent.md
               - name: Manage risks and prioritize actions using AI-recommended actions
                 href: next-best-actions-to-manage-opportunities.md
               - name: FAQs about Sales Opportunity Agent
-                href: opportunity-research-agent-faqs.md
+                href: faqs-about-sales-opportunity-agent.md
           - name: Sales Close Agent (preview)
             items:
               - name: Overview
@@ -1815,7 +1815,7 @@ items:
           - name: Responsible AI FAQ about Engage mode
             href: faqs-sales-qualification-agent-engage.md
       - name: Responsible AI FAQ about Sales Opportunity Agent
-        href: faqs-about-opportunity-research.md
+        href: faqs-about-sales-opportunity-agent.md
       - name: Responsible AI FAQ about Sales Close Agent (preview)
         href: faqs-about-sales-close-agent-engage.md
       - name: Responsible AI FAQ about Data Enrichment
@@ -1830,3 +1830,6 @@ items:
         href: ../sales-professional/help-hub.md
   - name: Contribute to documentation
     href: /dynamics365/get-started/contribute?context=/dynamics365/context/sales-context
+
+
+
