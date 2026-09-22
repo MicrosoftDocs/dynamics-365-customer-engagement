@@ -298,6 +298,8 @@
           href: oc-agent-scripts.md
         - name: Rich messages in conversation control
           href: rich-messages-conversation-control.md
+      - name: Overview of the Workforce Engagement Management app (preview)
+        href: /dynamics365/contact-center/use/workforce-management-wem-app-overview?context=/dynamics365/context/customer-service-use-context
       - name: Workforce Management
         items:
         - name: Overview

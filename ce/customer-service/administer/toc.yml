@@ -156,6 +156,8 @@
         href: /dynamics365/contact-center/administer/workforce-management-package-installation?context=/dynamics365/context/customer-service-administer-context
       - name: User management
         href: /dynamics365/contact-center/administer/workforce-management-user-management?context=/dynamics365/context/customer-service-administer-context
+      - name: Workforce management security roles (preview)
+        href: /dynamics365/contact-center/administer/workforce-management-security-roles?context=/dynamics365/context/customer-service-administer-context
       - name: Forecasting
         items:
         - name: Enable volume forecasting
@@ -188,6 +190,8 @@
       items:
         - name: Overview of Quality Management Agent
           href: /dynamics365/contact-center/use/overview-quality-management?context=/dynamics365/context/customer-service-administer-context
+        - name: Quality management security roles (preview)
+          href: /dynamics365/contact-center/administer/workforce-management-quality-management-security-roles?context=/dynamics365/context/customer-service-administer-context
         - name: Quality evaluation
           items: 
           - name: Manage quality evaluation
