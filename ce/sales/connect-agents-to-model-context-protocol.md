@@ -73,7 +73,7 @@ To connect to the Sales MCP server in Microsoft Copilot Studio, follow the steps
 1. Type a prompt to retrieve information from Dynamics 365 Sales. For example, you can type "List the leads that were updated since my last login". The agent uses the tools in the Sales MCP server to retrieve the information and display it in the chat pane. For a list of supported tools and their capabilities, refer to the following articles:
    - [MCP tools for Sales Qualification Agent capabilities](sales-qualification-agent-tools.md)
 
-   - [MCP tools for Sales Opportunity Agent capabilities](sales-close-agent-research-tools.md)
+   - [MCP tools for Sales Opportunity Agent capabilities](sales-opportunity-agent-tools.md)
    - [MCP tools for Copilot in Dynamics 365 Sales](copilot-in-sales-tools.md)
 
 
@@ -81,3 +81,4 @@ To connect to the Sales MCP server in Microsoft Copilot Studio, follow the steps
 
 - [Model Context Protocol (MCP) overview](model-context-protocol-sales-overview.md)
 - [Examples of using Sales MCP Server with AI agents and assistants](model-context-protocol-examples.md)
+

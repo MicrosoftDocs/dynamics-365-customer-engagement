@@ -26,6 +26,86 @@
       "redirect_document_id": "false"
     },
     {
+      "redirect_document_id": "false",
+      "source_path": "ce/sales/configure-sales-close-agent-profile-research.md",
+      "redirect_url": "/dynamics365/sales/configure-opportunity-research-agent-profile"
+    },
+    {
+      "source_path": "ce/sales/configure-opportunity-research-agent.md",
+      "redirect_url": "/dynamics365/sales/configure-sales-opportunity-agent",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/use-opportunity-research-agent.md",
+      "redirect_url": "/dynamics365/sales/use-sales-opportunity-agent",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/edit-opportunity-research-agent-settings.md",
+      "redirect_url": "/dynamics365/sales/edit-sales-opportunity-agent-settings",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/opportunity-research-agent-faqs.md",
+      "redirect_url": "/dynamics365/sales/faqs-about-sales-opportunity-agent",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/opportunity-research-agent-advanced-settings.md",
+      "redirect_url": "/dynamics365/sales/sales-opportunity-agent-advanced-settings",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/faqs-about-opportunity-research.md",
+      "redirect_url": "/dynamics365/sales/faqs-about-sales-opportunity-agent",
+      "redirect_document_id": "false"
+    },
+    {
+      "redirect_url": "/dynamics365/sales/open-sales-opportunity-agent-settings",
+      "source_path": "ce/sales/open-sales-close-agent-research-settings.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "redirect_url": "/dynamics365/sales/configure-sales-opportunity-agent-requirements",
+      "source_path": "ce/sales/configure-requirements-for-sales-close-agent-research.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "redirect_url": "/dynamics365/sales/configure-sales-opportunity-agent-company-info",
+      "source_path": "ce/sales/configure-sales-close-agent-research-company-info.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "redirect_url": "/dynamics365/sales/configure-sales-opportunity-agent-selection-criteria",
+      "source_path": "ce/sales/configure-sales-close-agent-research-selection-criteria.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "redirect_url": "/dynamics365/sales/configure-sales-opportunity-agent-refresh-frequency",
+      "source_path": "ce/sales/configure-sales-close-agent-research-refresh-frequency.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "redirect_url": "/dynamics365/sales/configure-sales-opportunity-agent-opportunity-assessment",
+      "source_path": "ce/sales/configure-sales-close-agent-research-opportunity-assessment.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "redirect_url": "/dynamics365/sales/start-sales-opportunity-agent",
+      "source_path": "ce/sales/start-sales-close-agent-research.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "redirect_url": "/dynamics365/sales/view-sales-opportunity-agent-insights-metrics",
+      "source_path": "ce/sales/view-sales-close-agent-research-insights-metrics.md",
+      "redirect_document_id": "false"
+    },
+    {
+      "redirect_url": "/dynamics365/sales/sales-opportunity-agent-tools",
+      "source_path": "ce/sales/sales-close-agent-research-tools.md",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/developer/entities/flowmachineimage.md",
       "redirect_url": "/dynamics365/developer/reference/entities/flowmachineimage",
       "redirect_document_id": "false"

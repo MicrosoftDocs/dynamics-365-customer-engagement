@@ -39,7 +39,7 @@ landingContent:
           - text: Set up and configure the Sales Qualification Agent
             url: configure-sales-qualification-agent.md
           - text: Configure the Sales Opportunity Agent 
-            url: configure-opportunity-research-agent.md
+            url: configure-sales-opportunity-agent.md
           - text: Copilot Studio agents and Entra app registrations for sales agents
             url: ai-agents-apps.md
 
@@ -180,4 +180,5 @@ landingContent:
             url: sales-mobile/modify-quick-view-form.md
           - text: Create custom push notifications 
             url: sales-mobile/create-push-notification.md
+
 

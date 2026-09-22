@@ -70,4 +70,6 @@ The doughnut chart provides a breakdown of the different types of risks the agen
 
 ## Related information
 
-[Configure the Sales Opportunity Agent (preview)](configure-opportunity-research-agent.md)  
+[Configure the Sales Opportunity Agent (preview)](configure-sales-opportunity-agent.md)  
+
+

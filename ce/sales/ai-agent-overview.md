@@ -55,5 +55,6 @@ AI agents are deployed in sandbox or test environments before being deployed in 
 ## FAQs about sales AI agents
 
 - [FAQs about Sales Qualification Agent](sales-qualification-agent-faq.md)
-- [FAQs about Sales Opportunity Agent](opportunity-research-agent-faqs.md)
+- [FAQs about Sales Opportunity Agent](faqs-about-sales-opportunity-agent.md)
 - [FAQs about Sales Research Agent (preview)](faqs-sales-research-agent.md)
+

@@ -20,7 +20,7 @@ Define the agent information such as the name and the language to set the contex
 
 **Follow these steps**:
 
-1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
+1. [Open the Sales Opportunity Agent settings page](open-sales-opportunity-agent-settings.md).  
 1. Under **General**, select **Agent profile**.  
     :::image type="content" source="media/sca-research-agent-profile-settings.png" alt-text="Screenshot of the Sales Opportunity Agent agent profile settings page.":::  
 1. In the **Agent profile** page, enter the following information:  
@@ -28,12 +28,14 @@ Define the agent information such as the name and the language to set the contex
     | Field name | Description |
     |------------|-------------|
     | **Agent name** | Enter a meaningful name for the agent. |
-    | **Agent language** | Enter the language the agent uses for communication. The agent uses this language to generate research insights. The available languages depend on the language packs installed in your environment through the Power Platform admin center. [What happens when the agent's language is different from user's preferred language?](opportunity-research-agent-faqs.md#agent-language-difference). |
+    | **Agent language** | Enter the language the agent uses for communication. The agent uses this language to generate research insights. The available languages depend on the language packs installed in your environment through the Power Platform admin center. [What happens when the agent's language is different from user's preferred language?](faqs-about-sales-opportunity-agent.md#agent-language-difference). |
 
 ## Next step
 
-[Configure company info](configure-sales-close-agent-research-company-info.md).
+[Configure company info](configure-sales-opportunity-agent-company-info.md).
 
 ## Related information
 
-[Set up and configure the Sales Opportunity Agent](configure-opportunity-research-agent.md).
+[Set up and configure the Sales Opportunity Agent](configure-sales-opportunity-agent.md).
+
+

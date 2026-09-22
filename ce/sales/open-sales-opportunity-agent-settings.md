@@ -33,16 +33,18 @@ Open the Sales Opportunity Agent settings to configure or manage the agent.
     1. In the **Sales Opportunity Agent** section, select **Choose**.  
 
     > [!NOTE]
-    > Your organization can have up to 10 active agent instances. If the maximum limit is reached, the option to create a new agent is inactive. For more information, see [Create multiple agent instances](configure-opportunity-research-agent.md#create-multiple-agent-instances).
+    > Your organization can have up to 10 active agent instances. If the maximum limit is reached, the option to create a new agent is inactive. For more information, see [Create multiple agent instances](configure-sales-opportunity-agent.md#create-multiple-agent-instances).
 
     :::image type="content" source="media/sca-research-setup-assistant-open.png" alt-text="Sales Opportunity Agent settings page showing the option to create a new agent.":::
 1. To edit or deactivate the agent, in the **AI agents** page, from the list of agents, select the name of the Sales Opportunity Agent.  
 
 ## Next step
 
-[Configure requirements for Sales Opportunity Agent](configure-requirements-for-sales-close-agent-research.md)
+[Configure requirements for Sales Opportunity Agent](configure-sales-opportunity-agent-requirements.md)
 
 ## Related information
 
-- [Set up and configure the Sales Opportunity Agent](configure-opportunity-research-agent.md)  
-- [Manage Sales Opportunity Agent](edit-opportunity-research-agent-settings.md)
+- [Set up and configure the Sales Opportunity Agent](configure-sales-opportunity-agent.md)  
+- [Manage Sales Opportunity Agent](edit-sales-opportunity-agent-settings.md)
+
+

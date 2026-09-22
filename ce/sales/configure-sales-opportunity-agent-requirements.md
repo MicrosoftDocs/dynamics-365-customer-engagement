@@ -26,7 +26,7 @@ Before you configure the Sales Opportunity Agent, ensure that your Dynamics 365 
 
 ## Configure the prerequisites
 
-1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
+1. [Open the Sales Opportunity Agent settings page](open-sales-opportunity-agent-settings.md).  
 1. On the **Prerequisites** section, configure the following settings:
    - **Bing search**: Select **Accept terms** to open the Power Platform admin center and accept the terms for Bing search. To learn more, see [Turn on data movement, Bing search, and Microsoft 365 services for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot?tabs=new#turn-on-data-movement-bing-search-and-microsoft-365-services-for-copilots-and-generative-ai-features).  
    - **Dataverse search**: The agent uses Dataverse Search to retrieve relevant records from Dynamics 365 Sales. If you didn't set up Dataverse Search, select **Set up** to open the Power Platform admin center features settings page. In the **Dataverse Search** section, enable the following options:  
@@ -67,8 +67,10 @@ If you enable both server-side synchronization and Microsoft 365 Services, the a
 
 ## Next step
 
-[Configure the agent profile for Sales Opportunity Agent](configure-sales-close-agent-profile-research.md).
+[Configure the agent profile for Sales Opportunity Agent](configure-opportunity-research-agent-profile.md).
 
 ## Related information
 
-[Set up and configure the Sales Opportunity Agent](configure-opportunity-research-agent.md).
+[Set up and configure the Sales Opportunity Agent](configure-sales-opportunity-agent.md).
+
+

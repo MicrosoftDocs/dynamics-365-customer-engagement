@@ -19,7 +19,7 @@ Define how often the Sales Opportunity Agent refreshes its research data to prov
 
 **Follow these steps**:
 
-1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).  
+1. [Open the Sales Opportunity Agent settings page](open-sales-opportunity-agent-settings.md).  
 1. Under **Advanced**, select **Refresh frequency**.  
     :::image type="content" source="media/sca-research-refresh-frequency.png" alt-text="Screenshot of the Sales Opportunity Agent refresh frequency settings page.":::  
 1. In the **Refresh frequency** page, specify how often the agent should refresh its research data.
@@ -43,7 +43,7 @@ Define how often the Sales Opportunity Agent refreshes its research data to prov
 
 The Sales Opportunity Agent processes opportunities based on the defined selection criteria and refresh frequency. Here's how it works:
 
-1. The agent selects opportunities that meet the [defined selection criteria](configure-sales-close-agent-research-selection-criteria.md) and [prioritizes](configure-sales-close-agent-research-selection-criteria.md#how-the-agent-prioritizes-records) them using factors such as estimated revenue, expected close date, and research freshness.
+1. The agent selects opportunities that meet the [defined selection criteria](configure-sales-opportunity-agent-selection-criteria.md) and [prioritizes](configure-sales-opportunity-agent-selection-criteria.md#how-the-agent-prioritizes-records) them using factors such as estimated revenue, expected close date, and research freshness.
 1. **Refresh frequency** determines how often the agent updates its research data and re-evaluates opportunity priority. Opportunity prioritization is dynamic and can change with each refresh based on the latest data. For example: 
     - When set to **High**, the agent refreshes its research every three days and might reprioritize opportunities based on the latest information.
     - When set to **Initial research only**, the agent doesn't refresh its research after the initial run, so prioritization stays based on the original data.
@@ -52,8 +52,10 @@ The Sales Opportunity Agent processes opportunities based on the defined selecti
 
 ## Next step
 
-[Configure importance and risk assessment](configure-sales-close-agent-research-opportunity-assessment.md).
+[Configure importance and risk assessment](configure-sales-opportunity-agent-opportunity-assessment.md).
 
 ## Related information
 
-[Set up and configure the Sales Opportunity Agent](configure-opportunity-research-agent.md).
+[Set up and configure the Sales Opportunity Agent](configure-sales-opportunity-agent.md).
+
+

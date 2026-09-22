@@ -43,7 +43,7 @@ Ensure that you meet the following prerequisites:
 
 In the prerequisites dialog, configure the prerequisites described in this section.
 > [!NOTE]
-> Sales Opportunity Agent and Data Enrichment use the same Microsoft 365 Services and Dataverse Search configuration. If you already [configured these prerequisites for Sales Opportunity Agent](configure-requirements-for-sales-close-agent-research.md), they're marked as done for Data Enrichment too. 
+> Sales Opportunity Agent and Data Enrichment use the same Microsoft 365 Services and Dataverse Search configuration. If you already [configured these prerequisites for Sales Opportunity Agent](configure-sales-opportunity-agent-requirements.md), they're marked as done for Data Enrichment too. 
 
 <a name="prerequisites-dataverse"></a>   
 
@@ -128,3 +128,4 @@ When you have configured the Data Enrichment Agent in one environment, you can e
 
 [Review and approve Data Enrichment suggestions](use-data-enrichment-agent.md)  
 [Edit AI-powered Data Enrichment settings](data-enrichment-agent-edit-settings.md)
+

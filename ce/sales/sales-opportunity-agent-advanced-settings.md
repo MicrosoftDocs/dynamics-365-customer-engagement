@@ -42,7 +42,7 @@ You can configure the importance criteria to reflect these priorities, ensuring 
 
 ## Configure the importance criteria
 
-1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).
+1. [Open the Sales Opportunity Agent settings page](open-sales-opportunity-agent-settings.md).
 1. Under the **Advanced** settings section, select **Importance criteria**.  
 
    :::image type="content" source="media/sales-opportunity-agent-importance-criteria.png" alt-text="Screenshot of the importance criteria section on the Sales Opportunity Agent configuration page.":::
@@ -62,7 +62,7 @@ You can configure the importance criteria to reflect these priorities, ensuring 
 
 ## Create custom importance criteria
 
-1. [Open the Sales Opportunity Agent settings page](open-sales-close-agent-research-settings.md).
+1. [Open the Sales Opportunity Agent settings page](open-sales-opportunity-agent-settings.md).
 1. Under **Advanced**, select **Importance criteria**.  
 1. In the **Advanced settings** section, open the **Custom importance criteria (Optional)** section.  
  
@@ -90,4 +90,5 @@ You can configure the importance criteria to reflect these priorities, ensuring 
 
 ## Related information
 
-[Set up and configure Sales Opportunity Agent](configure-opportunity-research-agent.md)
+[Set up and configure Sales Opportunity Agent](configure-sales-opportunity-agent.md)
+
