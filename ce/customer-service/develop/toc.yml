@@ -197,7 +197,7 @@
             href: ../../developer/reference/mcp-tools/list_wem_requests.md
       - name: Quality management
         items:
-        - name: Integrate governance guardrails for email custom commands
+        - name: Add governance validation to a custom email Send command
           href: configure-governance-email-send.md
       - name: Autonomous service agents
         items: 
