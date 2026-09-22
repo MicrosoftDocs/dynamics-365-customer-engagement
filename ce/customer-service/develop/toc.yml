@@ -195,6 +195,10 @@
             href: ../../developer/reference/mcp-tools/get_wem_request_details.md
           - name: "View Workforce Engagement Management requests"
             href: ../../developer/reference/mcp-tools/list_wem_requests.md
+      - name: Quality management
+        items:
+        - name: Integrate governance guardrails for email custom commands
+          href: configure-governance-email-send.md
       - name: Autonomous service agents
         items: 
         - name: Integrate Case Management Agent with custom Copilot Studio agents 
