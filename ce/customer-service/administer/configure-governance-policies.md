@@ -7,7 +7,7 @@ ms.reviewer: sdas
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
-ms.date: 07/08/2026
+ms.date: 09/17/2026
 ms.custom: bap-template
 ---
 
@@ -66,4 +66,5 @@ Administrators can:
 [Use governance policies](../use/use-governance-policies.md)  
 [Use evaluation criteria](/dynamics365/contact-center/use/evaluation-criteria)  
 [Use evaluations](/dynamics365/contact-center/use/use-evaluations)  
-[Responsible AI FAQ for AI agents](/dynamics365/contact-center/implement/faq-rai-ai-agents)
+[Responsible AI FAQ for AI agents](/dynamics365/contact-center/implement/faq-rai-ai-agents)  
+[Integrate governance guardrails for email custom commands](../develop/configure-governance-email-send.md)
