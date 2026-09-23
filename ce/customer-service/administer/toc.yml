@@ -199,7 +199,7 @@
         - name: Configure governance policies
           href: configure-governance-policies.md
         - name: Configure screen recording
-          href: /dynamics365/contact-center/administer/screen-recording?context=/dynamics365/context/customer-service-administer-context
+          href: /dynamics365/contact-center/administer/configure-screen-recording?context=/dynamics365/context/customer-service-administer-context
     - name: Community
       items:
       - name: Overview of Community
