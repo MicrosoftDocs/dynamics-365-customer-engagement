@@ -14,19 +14,22 @@ Open the **Schedule Board**, choose the tab to configure, and select **Scheduler
 
 :::image type="content" source="../../field-service/media/scheduler-settings.png" alt-text="Screenshot of the Board view settings pane on the Schedule Board.":::
 
+> [!NOTE]
+> The available settings depend on the selected schedule board view. **Working time**, **Working days**, and **Show travel duration** appear only in the hourly view. If you don't see one of these settings, switch the schedule board to the hourly view and reopen **Scheduler settings**.
+
 - **Time Zone**: Sets the time zone that the schedule board uses. The times for bookings in different time zones adapt to the selection.
-- **Working time**: Defines the working hours for the schedule board. The working time is used to determine when resources are available for scheduling. It's only applied to the hourly view of the schedule board.
-- **Working days**: Specifies the working days for the schedule board. Working days are used to determine when resources are available for scheduling and apply only to the hourly view of the schedule board. This setting controls which days of the week are visible in the date range of the hourly view. You must select at least one working day to see any days in the hourly view. If you unselect all days, the system defaults to showing all days.
-- **Time resolution**: Time intervals for the hourly view.
+- **Working time**: Defines the working hours used to determine when resources are available for scheduling. This setting is available only in the hourly view.
+- **Working days**: Specifies the days of the week used to determine resource availability. The setting is available only in the hourly view, but the selected working days also affect which dates appear in the daily view. You must select at least one working day to see any days in the hourly view. If you clear all days, the system defaults to showing all days.
+- **Time resolution**: Sets the time intervals displayed on the schedule board.
 - **Row height**: Defines the height of resource rows.
-- **Optimization goal**: Applicable when using the [Resource Scheduling Optimization add-in for Dynamics 365 Field Service](../../field-service/rso-overview.md). Defines which [optimization goal](../../field-service/rso-optimization-goal.md) the system uses to recommend resources.
+- **Optimization goal**: Appears when **Enable Optimizer** is turned on in Scheduling Parameters. It defines the [optimization goal](../../field-service/rso-optimization-goal.md) used to recommend resources. To use optimization functionality, install and configure the [Resource Scheduling Optimization add-in for Dynamics 365 Field Service](../../field-service/rso-overview.md).
 - **Show canceled**: Shows or hides canceled bookings.
 - **Apply territory filter to requirements**: Defines whether the resource filter for [territory](../../field-service/set-up-territories.md) also applies to requirements in the bottom pane.
 - **Show booked percentage**: Shows or hides the percentage of total work time booked on the schedule board.
 - **Show bookings proportional to duration**: Bookings on the daily, weekly, and monthly views show proportional to their duration instead of stacked.
-- **Show travel duration**: Shows or hides travel time in the hourly view.
+- **Show travel duration**: Shows or hides travel time. This setting is available only in the hourly view.
 
-**All board settings** opens the [board settings](#board-settings).
+**All board settings** opens the detailed [board settings](#board-settings). The board view settings listed in this section aren't duplicated under **All board settings**.
 
 ## Board settings
 

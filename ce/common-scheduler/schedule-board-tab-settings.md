@@ -5,7 +5,8 @@ ms.subservice: common-scheduler
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
-ms.date: 11/24/2025
+ms.reviewer: puneetsingh
+ms.date: 09/22/2026
 ---
 
 # Configure the schedule board tab settings in Universal Resource Scheduling
