@@ -4,7 +4,7 @@ description: Schedule optimization on demand helps dispatchers react to urgent w
 author: andrewclear-ms
 ms.author: anclear
 ms.reviewer: v-wendysmith
-ms.date: 09/03/2026
+ms.date: 09/23/2026
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
@@ -54,5 +54,6 @@ After an optimization run finishes, the results might not match what you expect.
 | The engine chose an unexpected resource or time | The outcome reflects the optimization goal's constraints and objectives. Constraints (for example, *Matches Territories* or *Meets Required Characteristics*) determine which bookings are allowed, and the ranked objectives (for example, *Minimize Total Travel Time* or *High Priority Requirements*) determine which allowed schedule is preferred. Learn more about constraints and objectives in [Optimization goals in Resource Scheduling Optimization](rso-optimization-goal.md). |
 | A booking didn't move as expected | Locked bookings are held in place during optimization. Learn more about locked bookings in [Understand the booking lock option](booking-lock-options.md) and about resolving conflicts in [Handle and resolve booking conflicts](rso-handling-resolving-booking-conflicts.md). |
 | The optimization request failed or was canceled | The **Scheduling Optimization Request** record has a failed or canceled status. Learn more about automated failure alerts in [Get email alerts for failed or canceled optimization requests](rso-monitoring-alerting.md). |
+| The optimization request failed because it's too large to process | The scope contains too many resources and jobs. The number of resources multiplied by the number of jobs must be less than 5 million, where *jobs* is the number of open requirements and existing bookings that the optimization considers. Reduce the number of resources or jobs in the optimization scope, and then run the optimization again. Learn more about scope size in [Scope size recommendations and limits](rso-optimization-scope.md#scope-size-recommendations-and-limits). |
 
 [!INCLUDE [footer-banner](../includes/footer-banner.md)]
