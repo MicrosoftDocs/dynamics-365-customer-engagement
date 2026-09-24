@@ -1,6 +1,8 @@
 ---
 title: "Dynamics 365 Customer Engagement (on-premises) reporting requirements | Microsoft Docs"
 description: Understand the requirements for running reports in Dynamics 365
+ms.date: 09/23/2026
+ai-usage: ai-assisted
 ms.custom: ""
 ms.reviewer: ""
 ms.suite: ""
@@ -71,7 +73,32 @@ author: Mattp123
 -   You must run the Dynamics 365 Customer Engagement (on-premises) Reporting Extensions Setup on a computer that has a supported version and edition of [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] installed. More information: [SQL Server Reporting Services](microsoft-dynamics-365-reporting-requirements.md#sql_server_reporting_services)  
   
 -   For smaller data sets and fewer users, you can use a single-server deployment or a multi-server deployment. With larger data sets or more users, performance decreases quickly when running complex reports. Use a multi-server deployment with one computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], and another server for [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)].  
-  
+
+### Block SQL reports when the reporting account has elevated permissions
+
+`BlockElevatedReportServiceAccount` blocks SQL-based reports when Dynamics 365 Reporting Extensions detects excessive organization-database permissions for the SSRS service account. This deployment-wide setting is disabled by default. It doesn't change account permissions or validate report SQL.
+
+Requires [Service Update 1.17](https://support.microsoft.com/en-us/servicing/dynamics/crm/update/2023/02/service-update-1-17-for-microsoft-dynamics-crm-on-premises-9-1) (`9.1.17.29`) or later for both Dynamics 365 Server and Reporting Extensions, with the configuration database upgrade completed.
+
+As a [deployment administrator](deployment-administrators.md), open a new elevated Windows PowerShell session on a server with Deployment Tools. Run the following commands to read the current value, enable the check, and confirm the value is `True`:
+
+```powershell
+Add-PSSnapin Microsoft.Crm.PowerShell -ErrorAction Stop
+$parameters = @{
+    ConfigurationEntityName = "ServerSettings"
+    Setting = "BlockElevatedReportServiceAccount"
+    ErrorAction = "Stop"
+}
+(Get-CrmAdvancedSetting @parameters).Attributes
+Set-CrmAdvancedSetting @parameters -Value $true -Confirm
+(Get-CrmAdvancedSetting @parameters).Attributes
+```
+
+If the setting isn't recognized, stop and contact Microsoft Support. Don't edit the database directly.
+
+> [!WARNING]
+> Enabling the check can cause SQL reports to fail. Restart the affected **SQL Server Reporting Services** instances during a maintenance window to refresh the cached permissions assessment. If reports are blocked, correct the account's permissions using the [service account requirements](microsoft-dynamics-365-server-roles.md#group-membership-requirements), restart SSRS, and retry.
+
 <a name="report_auth_gen_req"></a>
 
 ## Report Authoring Extension requirements
