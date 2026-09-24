@@ -1,21 +1,19 @@
 ---
 title: Use governance policies
-description: Learn about governance policies, a rule-based system that ensures AI assistants operate safely and within compliance guidelines.
+description: Learn about governance policies, a rule-based system that checks AI assistants' email responses against your organization's requirements.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
-ms.date: 09/17/2026
+ms.date: 09/23/2026
 ms.custom: bap-template
 ---
 
 # Use governance policies
 
-[!INCLUDE [cc-feature-availability-cs-only](../../includes/cc-feature-availability-cs-only.md)]
-
-Use governance policies to evaluate AI-generated email responses before sending. These policies help enforce compliance with business, legal, and regulatory requirements. If a response violates a policy, the system either flags or blocks the violation for review.
+Use governance policies to evaluate email content against your organization's requirements before emails are sent. Depending on the policy settings, the system records violations, displays a warning, or prevents sending.
 
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. It isn't intended to be used, and shouldn't be used, to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. <br> 
@@ -23,24 +21,27 @@ Use governance policies to evaluate AI-generated email responses before sending.
 
 ## Prerequisites
 
-- You have the CSR Manager role.
-- You set up [Microsoft Copilot credits](../administer/setup-pay-as-you-go.md#set-up-pay-as-you-go).
-- You provided consent for potential [data movement across regions](/power-platform/admin/geographical-availability-copilot?utm_source=chatgpt.com&tabs=new).
-- You enabled AI agents for your Dynamics 365 environment in Power platform admin center. Learn more in [Copilot adoption in the Power Platform](/power-platform/admin/copilot/copilot-hub).
+- You have the **CSR Manager** security role.
+- [Microsoft Copilot credits](../administer/setup-pay-as-you-go.md#set-up-pay-as-you-go) are configured for your environment.
+- Consent for [cross-region data movement](/power-platform/admin/geographical-availability-copilot?tabs=new) is provided, if required.
+- AI agents are enabled for your Dynamics 365 environment in Power Platform admin center. Learn more in [Copilot adoption in the Power Platform](/power-platform/admin/copilot/copilot-hub).
 
 ## Enable governance policies
 
 1. In Copilot Service workspace, go to **Service** > **Governance**. The **Governance** page appears.
 1. Select **New policy** or select any of the default system policies, such as **Email Template Adherence**, **Groundedness**, or **Profanity**.
 1. If you select a system policy, you can edit the given conditions, save, and publish the policy to reactivate the policy. Select **Unpublish**, if you need to retain it in a draft state after editing the policy.
-1. If you select **New policy**, then on the **Add a policy** dialog, provide the following information:
+1. If you select **New policy**, then on the **Add a policy** dialog, configure the following settings:
     1. In the **Details** section:
         - **Policy name**: Enter a name for your policy.
         - **Description**: Enter a short description for your policy.
     1. In the **Content to check** section, provide:
         - **Content type**: The content type is **Email** by default.
         - **Written by**: Select **Customer service representatives** or **Autonomous AI**.
-        - **How strictly to enforce**: Select **Flag noncompliant content** or **Block noncompliant content**.
+        - **How strictly to enforce**: Select from the following options:
+            - **Flag noncompliant content**:  Silently records policy violations for auditing purposes. No warning is displayed.
+            - **Warn noncompliant content**: Displays a warning when policy violations are detected, but allows the email to be sent. You can review and update the email or proceed with sending the email despite the identified violations.
+            - **Block noncompliant content**: Prevents the email from being sent until the policy violations are resolved.
         - **Attached files**: Select the checkbox if you want to evaluate file attachments in addition to the email body. The system evaluates only text-based content; it ignores image content in attachments. Supported file formats are .docx, .pdf, and .txt.
     1. In the **Policy strictness** section, select from the following options:
         - **Low**: Applies minimal enforcement and might allow a greater number of potential violations to pass without being flagged.
@@ -61,18 +62,18 @@ You can deactivate a policy by selecting **Unpublish**, delete a policy, or run 
 
 ## Run a simulation
 
-Use simulation to validate how accurately a policy runs.
+Use simulation to test how a policy evaluates sample email content.
 
 1. On the **Governance** page, on the **Policy check** tab, select **Simulation**.
-1. On the **Governance policy simulation** page, on the **Simulation setup** tab, in the **Set up policy simulation** section, provide the following information:
+1. On the **Governance policy simulation** page, on the **Simulation setup** tab, in the **Set up policy simulation** section, configure the following settings:
     1. **Simulation name**: Provide a name.
     1. **Data source**: Select **Excel Upload** or **Organization Records**. 
-        1. If you select **Organization Records**, then add the conditions that would be applicable during a simulation run. You can select up to 30 email records.
-        1. If you select **Excel Upload**, then upload your file as per the excel file guidance.
-    1.**Simulation scenario**: Select the policies to apply.
+        1. If you select **Organization Records**, add the conditions to select the email records to test. You can select up to 30 email records.
+        1. If you select **Excel Upload**, upload your file following the Excel file requirements.
+    1. **Simulation scenario**: Select the policies to apply.
 1. Select **Run Simulation**.
 
-You can view the results under the **Simulation result** tab. You can **View** or **Download** the results. When you select **View** for a policy, the **Simulation overview** page appears. You can view the details of the **Simulation Setup**, **Compliance Summary**, and **Detailed Results**. The detailed results show the email body, policy, violation status, and the violation reason. You might need to adjust policy prompts to improve results.
+You can view the results on the **Simulation result** tab. You can **View** or **Download** the results. When you select **View** for a policy, the **Simulation overview** page appears. You can view the details of the **Simulation Setup**, **Compliance Summary**, and **Detailed Results**. The detailed results show the email body, policy, violation status, and the violation reason. You might need to adjust policy prompts to improve results.
 
 ## View detection log
 
@@ -84,13 +85,13 @@ When you're using a customized Customer Service workspace app, the Governance op
 
 ### Prerequisites
 
-Before you begin, ensure that:
+Before you begin, verify that you have:
 
-- Have access to Power Apps with permissions to edit the app.
-- Can modify the custom Customer Service workspace app.
-- Have appropriate privileges to assign table permissions.
+- Access to Power Apps with permissions to edit the app.
+- Permission to edit and publish the custom Customer Service workspace app.
+- Privileges to assign the required table permissions.
 
-## Add the governance site map entry
+### Add the governance site map entry
 
 To manually add the Governance entry, follow these steps:
 
@@ -101,7 +102,7 @@ To manually add the Governance entry, follow these steps:
     - Name: **Governance**
     - URL: **/main.aspx?pagetype=control&controlName=msdyn_MscrmControls.GovernanceAgent.GovernanceAgentSettingsControl**
 1. After you create the page, open the right-side panel and add the following table privileges:
-    - Table: **msdyn_guardrail_rule**
+    - Table: `msdyn_guardrail_rule`
     - Permission: **Write**
 1. Save and publish changes.
 1. Perform a hard refresh to see the new site map entry appear.
