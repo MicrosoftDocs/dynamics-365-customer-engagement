@@ -1,13 +1,13 @@
 ---
 title: Overview of Dynamics 365 Customer Service MCP tools
 description: Learn what MCP tools are available in Dynamics 365 Customer Service, what they do, and which personas use them.
-ms.date: 09/21/2026
+ms.date: 09/25/2026
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
 ms.reviewer: gandhamm
-search.audienceType: 
-  - developer
+ms.collection: bap-ai-copilot
+search.audienceType: developer
 ---
 
 # Overview of Dynamics 365 Customer Service MCP tools
@@ -20,7 +20,7 @@ Service representatives and supervisors don't typically use MCP tools directly. 
 
 For example, when a service representative asks Service Agent to summarize a case, the agent can use the appropriate case-related MCP tools to retrieve and summarize the information. The representative sees the result in the conversational experience and doesn't need to know the internal tool name or call the tool directly.
 
-MCP tools can support interactive app-in-chat experiences. In these experiences, the result of a tool is shown inside the chat as an interactive component, where users can review the information and take supported follow-up actions.
+MCP tools can support interactive app-in-chat experiences. In these experiences, the result of a tool is shown inside the chat as an interactive component, where users can review the information and take supported follow-up actions. You can also access MCP tools through Work IQ. Learn how to enable Work IQ in [Business Applications in Work IQ (preview)](/power-apps/maker/data-platform/business-applications-work-iq).
 
 ## Supported MCP clients
 

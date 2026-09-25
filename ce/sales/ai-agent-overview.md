@@ -1,7 +1,7 @@
 ---
 title: AI agents in Dynamics 365 Sales
 description: Learn about the out-of-the-box AI agents in Dynamics 365 Sales that help sales teams qualify leads and close deals faster.
-ms.date: 07/18/2026
+ms.date: 09/25/2026
 ms.update-cycle: 90-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
@@ -31,9 +31,11 @@ The following AI agents are available in Dynamics 365 Sales:
 
 [!INCLUDE[ai-agents-dynamics-365-sales](../../ce-shared/ai-agents-dynamics-365-sales.md)]
 
-## MCP and skills support
+## MCP tools and skills support
 
-Dynamics 365 Sales also provides supported Model Context Protocol (MCP) capabilities so sales tools and actions can surface through other agents and apps, not only through the Dynamics 365 Sales UI. Learn more in [Dynamics 365 Sales Model Context Protocol overview](model-context-protocol-sales-overview.md) and [Connect AI agents and assistants to Dynamics 365 Sales MCP Server](connect-agents-to-model-context-protocol.md). For supported skills experiences in Microsoft 365 Copilot, see [Use Dynamics 365 Sales skills in Copilot Cowork](use-copilot-cowork-sales-skills.md).
+Dynamics 365 Sales supports Model Context Protocol (MCP) capabilities so that sales tools and actions can surface through other agents and apps, not only through the Dynamics 365 Sales UI. Learn more in [Dynamics 365 Sales Model Context Protocol overview](model-context-protocol-sales-overview.md). You can also access the Sales MCP tools through Work IQ. Learn how to enable Work IQ in [Business Applications in Work IQ (preview)](/power-apps/maker/data-platform/business-applications-work-iq).
+
+For supported sales skills in Microsoft 365 Copilot, see [Use Dynamics 365 Sales skills in Copilot Cowork](use-copilot-cowork-sales-skills.md).
 
 ## Data movement and residency for AI agents
 
