@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: how-to 
-ms.date: 09/02/2026
+ms.date: 09/25/2026
 ms.custom: bap-template 
 ms.collection: bap-ai-copilot
 ---
@@ -17,13 +17,14 @@ ms.collection: bap-ai-copilot
 
 Use the Dynamics 365 CX Model Context Protocol (MCP) Server - Sales to connect Sales data and tools to Microsoft Copilot Studio agents or other MCP clients that support HTTP-based MCP connections. Agent 365 Tooling Gateway (ATG) provides the Microsoft-hosted gateway that fronts the Sales MCP server and handles authentication to Dataverse.
 
-This article explains how to:
+You can also access the Sales MCP tools through Work IQ. Learn how to enable Work IQ in [Business Applications in Work IQ (preview)](/power-apps/maker/data-platform/business-applications-work-iq).
+
+This article helps you:
 
 - Understand how Agent 365 Tooling Gateway authentication works for the Dynamics 365 CX MCP Server - Sales.
 - Configure a Copilot Studio agent to use the Dynamics 365 CX MCP Server - Sales server through Agent 365 Tooling Gateway.
 - Connect supported external MCP clients, such as Cursor, ChatGPT, Claude Code, Visual Studio Code, and GitHub Copilot CLI.
 - Troubleshoot common setup and authentication issues.
-
 
 ## How Agent 365 Tooling Gateway authentication works
 
