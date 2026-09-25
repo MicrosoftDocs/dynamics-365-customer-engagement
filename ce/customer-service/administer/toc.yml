@@ -748,8 +748,6 @@
           href: /dynamics365/contact-center/administer/copilot-enable-help-pane#enable-ask-a-question?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
         - name: Enable Copilot to draft emails 
           href: /dynamics365/contact-center/administer/copilot-email-enable?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
-      - name: Enable case summaries through ask a question (preview)
-        href: enable-ask-summarize-cases.md
       - name: Enable Copilot plugins for generative AI (preview)
         href: /dynamics365/contact-center/administer/enable-copilot-plugins-for-generative-ai?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: Extend Copilot with Copilot Studio (preview)

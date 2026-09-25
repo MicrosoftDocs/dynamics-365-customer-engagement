@@ -36307,6 +36307,11 @@
       "source_path": "ce/developer/reference/mcp-tools/save_profile_config.md",
       "redirect_url": "/dynamics365/developer/reference/mcp-tools/save_agent_config",
       "redirect_document_id": "false"
-    }   
+    },
+    {
+      "source_path": "ce/customer-service/administer/enable-ask-summarize-cases.md",
+      "redirect_url": "/dynamics365/customer-service/administer/extend-copilot-with-copilot-studio",
+      "redirect_document_id": "false"
+    }
   ]
 }
