@@ -99,6 +99,8 @@ additionalContent:
         text: Set up and configure the Sales Qualification Agent
       - url: configure-sales-opportunity-agent.md
         text: Configure the Sales Opportunity Agent 
+      - url: sales-dev-agent/activate-agent.md
+        text: Activate the Sales Development agent
     - title: Copilot
       links: 
       - url: enable-setup-copilot.md
@@ -142,6 +144,8 @@ additionalContent:
         text: Monitor leads handled by the Sales Qualification Agent 
       - url: use-sales-opportunity-agent.md  
         text: Work on opportunities handled by the Sales Opportunity Agent
+      - url: sales-dev-agent/create-instance.md
+        text: Create a Sales Development agent instance
     - title: Copilot
       links: 
       - url: use-sales-copilot.md

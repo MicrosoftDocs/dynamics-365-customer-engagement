@@ -995,6 +995,8 @@ items:
                 href: sales-dev-agent/email-conversation-patterns.md
               - name: Get reports from the agent
                 href: sales-dev-agent/get-reports.md
+              - name: Create a Power BI report for the Sales Development agent
+                href: sales-dev-agent/power-bi-report.md
               - name: Copy configuration from one agent to another
                 href: sales-dev-agent/copy-configuration.md
               - name: Use the Sales Development agent with multiple users
@@ -1830,6 +1832,4 @@ items:
         href: ../sales-professional/help-hub.md
   - name: Contribute to documentation
     href: /dynamics365/get-started/contribute?context=/dynamics365/context/sales-context
-
-
 
