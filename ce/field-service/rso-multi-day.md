@@ -3,20 +3,20 @@ title: Optimize multi-day service requests
 description: Learn how the Resource Scheduling Optimization add-in for Dynamics 365 Field Service handles multi-day requirements.
 author: andrewclear-ms
 ms.author: anclear
-ms.date: 10/01/2025
+ms.date: 09/25/2026
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
 
 # Optimize multi-day service requests
 
-A [service requirement can be manually scheduled across multiple days and weeks](schedule-multi-day-work.md). An example is a 40-hour work order across an entire work week, where the same field technician is expected to perform more detailed work at the same location each day. You can now use Resource Scheduling Optimization to optimize multi-day service requests of this type.
+A [service requirement can be manually scheduled across multiple days and weeks](schedule-multi-day-work.md). An example is a 40-hour work order across an entire work week, where the same field technician is expected to perform more detailed work at the same location each day. You can use Resource Scheduling Optimization to optimize multi-day service requests of this type.
 
 ## Multi-day requirements for a single resource
 
-For multi-day requirements, the booking method set when the resource requirement is created determines what the scheduling logic will be. This is used to create requirement detail records that distribute the requirement across days. See the [multiday article](schedule-multi-day-work.md) for additional information on working with requirement detail records.
+For multi-day requirements, the booking method that you set when you create the resource requirement determines the scheduling logic. The system uses the booking method to create requirement detail records that distribute the requirement across days. Learn more about requirement detail records in [Schedule work over multiple days](schedule-multi-day-work.md).
 
-For multi-day resource requirements to be schedule by Resource Scheduling Optimization, the resource requirement must have:
+For Resource Scheduling Optimization to schedule multi-day resource requirements, the resource requirement must have:
 
 * Valid From and To dates
 * Related requirement detail records
@@ -33,9 +33,9 @@ Resource Scheduling Optimization also calculates travel time to and from the sta
 
 If [the defined optimization range](rso-optimization-scope.md) is less than the length of a multi-day requirement, Resource Scheduling Optimization can schedule the multi-day requirement to different resources.
 
-For example, there's a five-day requirement for a three-day optimization range. In this case, the system assigns three-day bookings within the optimization range to the same resource. Then, during the next optimization run, it might assign the remaining bookings to a different resource.
+For example, you have a five-day requirement and a three-day optimization range. In this case, the system assigns the bookings for those three days within the optimization range to the same resource. Then, during the next optimization run, it might assign the remaining bookings to a different resource.
 
-To prevent Resource Scheduling Optimization from assigning the remaining bookings to a different resource, you can lock any of the multi-day bookings to a resource. Then, during the next optimization run, the system assigns the remaining bookings to the same resource.
+To prevent Resource Scheduling Optimization from assigning the remaining bookings to a different resource, set the **Scheduling Lock Options** field on any of the multi-day bookings to **Resource**. Then, during the next optimization run, the system assigns the remaining bookings to the same resource. Bookings locked to **Resource + Time** are treated as independent bookings and don't keep the remaining bookings on the same resource. Learn more in [Understand the booking lock option in Resource Scheduling Optimization](booking-lock-options.md).
 
 ### The optimization range doesn't fully overlap the multi-day requirement
 
@@ -43,7 +43,7 @@ If [the defined optimization range](rso-optimization-scope.md) doesn't fully ove
 
 For example, there's a 40-hour multi-day requirement between March 1 and March 5, but the optimization range is two days, March 1 through March 2. In this case, the system creates bookings for March 1 and 2 for the same resource. If no resource is available on those two days, the bookings remain unscheduled. For the subsequent optimization run for March 2 and March 3, Resource Scheduling Optimization assigns the booking for March 3.
 
-To prevent the system from partially fulfilling multi-day requirements, ensure that the optimization range matches the date range of the multi-day requirement.
+To prevent the system from partially fulfilling multi-day requirements, make sure that the optimization range matches the date range of the multi-day requirement.
 
 ## Known issues
 

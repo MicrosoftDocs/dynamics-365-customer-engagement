@@ -1,7 +1,7 @@
 ---
 title: Set up a proof of concept for Resource Scheduling Optimization
 description: Learn how to set up a proof of concept for the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
-ms.date: 08/22/2025
+ms.date: 09/25/2026
 ms.subservice: resource-scheduling-optimization
 ms.topic: quickstart
 author: andrewclear-ms
@@ -10,7 +10,7 @@ ms.author: anclear
 
 # Set up a proof of concept for Resource Scheduling Optimization
 
-This article guides you through the implementation of a proof of concept (POC) for the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
+This article guides you through implementing a proof of concept (POC) for the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
 
 ## Define requirements and expectations
 
@@ -46,7 +46,7 @@ To configure the sample data and get the POC up and running, create the followin
 
 ### Accounts
 
-Account information helps you handle work orders because **Service Account** is a required field. You can typically derive the account information from the work order data if an address or longitude and latitude values are provided.  
+Account information helps you handle work orders because **Service Account** is a required field. You can typically derive the account information from the work order data if an address or longitude and latitude values are provided.
 
 ### Addresses
 
@@ -58,20 +58,20 @@ To work, Resource Scheduling Optimization needs at least [one territory](set-up-
 
 ### Bookable resources
 
-[Set up bookable resources](set-up-bookable-resources.md) for the purposes of this POC. When you work with real data, it's easier to drill into specific use cases. In addition, this approach limits the related data that is required for resources, such as work hours, resource territories, or characteristics.
+[Set up bookable resources](set-up-bookable-resources.md) for this POC. When you work with real data, it's easier to drill into specific use cases. In addition, this approach limits the related data that is required for resources, such as work hours, resource territories, or characteristics.
 
 > [!TIP]
-> A location-agnostic resource can only have bookings where the *Resource Requirement* is also set to location-agnostic. Resource Scheduling Optimization treats the resource as a remote worker who is only scheduled for work that doesn't involve travel. Alternatively, [enable a resource to travel outside working hours](rso-travel-outside-working-hours.md#enable-a-resource-for-scheduling-outside-of-working-hours) to work around this constraint.
+> A location-agnostic resource can have bookings only where the *Resource Requirement* is also set to location-agnostic. Resource Scheduling Optimization treats the resource as a remote worker who is scheduled only for work that doesn't involve travel. Alternatively, [enable a resource to travel outside working hours](rso-travel-outside-working-hours.md#enable-a-resource-for-scheduling-outside-of-working-hours) to work around this constraint.
 
 Relate resources to contacts to keep them separate from service accounts. Set the correct time zone on the resource, because the time zone affects work hours. In the bookable resource record, on the **Resource Scheduling Optimization** tab, set the **Optimize Schedule** option to *Yes* to enable the resource for Resource Scheduling Optimization.
 
 ### Characteristics
 
-[Resource skills and characteristics](set-up-characteristics.md) can be used as filter criteria. They can also be used in the setup of goals and objectives.
+You can use [resource skills and characteristics](set-up-characteristics.md) as filter criteria and when you set up goals and objectives.
 
 ### Work hours
 
-[Set up work hours](set-work-hours-resource.md) to have Resource Scheduling Optimization consider a resource for scheduling.
+[Set up work hours](set-up-bookable-resources.md#add-work-hours) to have Resource Scheduling Optimization consider a resource for scheduling.
 
 ### Priorities
 
@@ -89,7 +89,7 @@ If your requirements for time off are more complex, you can create a custom time
 
 ## Run simulations
 
-The Resource Scheduling Optimization engine schedules requirements from the current point in time and as far into the future as you specify through the **Range Offset** and the **Range Durations** values that are [defined in the optimization scope](rso-optimization-scope.md).
+The Resource Scheduling Optimization engine schedules requirements from the current point in time and as far into the future as you specify through the **Range Offset** and the **Range Duration** values that are [defined in the optimization scope](rso-optimization-scope.md).
 
 ### Accommodate disruptions
 
@@ -105,10 +105,10 @@ You can define how bookings should be optimized. The goal of the Resource Schedu
 
 ### Simulations
 
-Resource Scheduling Optimization enables you to [run simulations and create soft bookings](rso-simulation.md). If a simulation meets specific requirements and is deemed as the best option, the soft bookings can then be turned into hard bookings.
+Resource Scheduling Optimization lets you [run simulations and create soft bookings](rso-simulation.md). If a simulation meets specific requirements and is the best option, you can turn the soft bookings into hard bookings.
 
 ## Review routes and booking details
 
-A review of specific routes helps you drill into the differences that are achieved through different goals and objectives. Select a couple of resources, optimize them with different goals and constraints, and review the outcome.
+Reviewing specific routes helps you drill into the differences between goals and objectives. Select a couple of resources, optimize them with different goals and constraints, and review the outcome.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
