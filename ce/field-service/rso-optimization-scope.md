@@ -3,7 +3,7 @@ title: Create optimization scopes in Resource Scheduling Optimization
 description: Learn how to use scopes in Resource Scheduling Optimization for Dynamics 365 Field Service.
 author: andrewclear-ms
 ms.author: anclear
-ms.date: 03/31/2026
+ms.date: 09/23/2026
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
@@ -51,5 +51,11 @@ System views and personal views are critical building blocks for optimization sc
 1. Save the optimization scope. Then, on the command bar, select **Schedule Board** to preview the selected resources, requirements, and bookings on a new schedule board tab. You can modify filters in the left pane and save the results to the optimization scope.
 
 1. Expand the **Optimization** pane to [select the optimization goal](rso-optimization-goal.md). Select **Run** to [start an ad-hoc optimization request](rso-schedule-optimization.md).
+
+## Scope size recommendations and limits
+
+If an optimization is too large, it times out and the system can't process it. For best results, keep your optimization scoped as tightly as possible: use territories, types of work, and other constraints to create scopes that contain similar resources and jobs.
+
+The number of resources multiplied by the number of jobs in a single optimization must be less than 5 million, where *jobs* is the number of open requirements and existing bookings that the optimization considers.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
