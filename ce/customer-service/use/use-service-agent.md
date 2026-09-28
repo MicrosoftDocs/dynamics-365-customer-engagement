@@ -1,7 +1,7 @@
 ---
 title: Use Service Agent in Customer Service
 description: Learn how to use Service Agent in Microsoft 365 Copilot so representatives can quickly get answers about cases and customer records without manual searching.
-ms.date: 06/30/2026
+ms.date: 09/26/2026
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -14,7 +14,7 @@ ms.update-cycle: 180-days
 
 Service Agent is a Microsoft 365 Copilot agent that helps customer service representatives (service representatives, representatives) find, summarize, and update customer service information by using data from Dynamics 365 Customer Service and connected knowledge sources. It supports assisted Copilot scenarios, such as reviewing cases, retrieving knowledge, and performing case actions.
 
-After an administrator [enables Service Agent](../administer/configure-service-agent.md), you can use Copilot to retrieve case and customer interaction summaries, view workload details, and get responses from knowledge sources across Dynamics 365 and SharePoint.
+Service Agent is generally available as a Microsoft 365 Copilot agent. After an administrator [enables Service Agent](../administer/configure-service-agent.md), you can use Copilot to retrieve case and customer interaction summaries, view workload details, and get responses from knowledge sources across Dynamics 365 and SharePoint.
 
 You can also take actions on cases, such as adding notes, updating status, and creating child cases.
 
@@ -26,6 +26,10 @@ You can use Service Agent in the following places:
 -	Any Microsoft 365, Dynamics 365, or Power Apps application where Copilot is enabled
 
 ## Access Service Agent in Customer Service
+
+### Licensing and feature availability
+
+Specific licensing requirements apply when you use Service Agent. The capabilities available to you can vary based on your organization's licensing and tenant configuration. Learn more in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 While you work on an active customer interaction in Customer Service, you can use Copilot capabilities to retrieve relevant service information in context.
 
@@ -59,7 +63,7 @@ If you have access to multiple environments, select **Sources** to view the avai
 
 ## What you can do with Service Agent
 
-Copilot uses the Service Agent skills to help you review, summarize, and update customer service information while you work with customers.
+Service Agent uses its skills to help you review, summarize, and update customer service information while you work with customers.
 
 You can use Service Agent to perform the following tasks:
 
@@ -81,15 +85,15 @@ For example, you can ask Service Agent to:
 
 ### Summarize customer interactions
 
-You can use Service Agent to summarize recent customer interactions. Copilot discovers data across Teams, Outlook, and Customer Service.
+Use Service Agent to summarize recent customer interactions. Service Agent discovers data across Teams, Outlook, and Customer Service.
 
-For example, you can ask Copilot to:
+For example, you can ask Service Agent to:
 -	Summarize recent interactions for this customer.
 -	Show interaction history for this account.
 
 ### Retrieve knowledge responses
 
-You can use Service Agent to retrieve knowledge responses that are relevant to the customer’s issue. Copilot discovers answers from Dynamics 365 knowledge and SharePoint. 
+Use Service Agent to retrieve knowledge responses that are relevant to the customer’s issue. Service Agent discovers answers from Dynamics 365 knowledge and SharePoint. 
 
 For example, you can ask Service Agent to:
 -	Find knowledge articles related to this case.
@@ -104,6 +108,31 @@ For example, you can ask Service Agent to:
 -	Update the case priority.
 -	Add notes to this case.
 -	Create a new child case associated with this case.
+-	Resolve this case and record the resolution details.
+
+### Draft knowledge articles and responses
+
+Use Service Agent to draft a knowledge article or a customer-ready response based on how you resolved a case.
+
+For example, you can ask Service Agent to:
+-	Draft a knowledge article from the resolution of this case.
+-	Draft a response that explains the workaround to the customer.
+
+### Draft and send customer emails
+
+Use Service Agent to draft an email to the customer and send it after you review it.
+
+For example, you can ask Service Agent to:
+-	Draft an email that summarizes the status of this case.
+-	Send the follow-up email to the case contact.
+
+### Get case intelligence and next best actions
+
+Use Service Agent to understand what's driving a case and what to do next.
+
+For example, you can ask Service Agent to:
+-	Explain why this case is at risk of missing its service-level agreement (SLA).
+-	Recommend the next best action for this case.
 
 ## Related information
 

@@ -1,7 +1,7 @@
 ---
 title: Overview of Service Agent
 description: Learn about Service Agent, an AI-powered assistant in Dynamics 365 Customer Service that helps representatives resolve cases faster.
-ms.date: 06/30/2026
+ms.date: 09/26/2026
 author: lalexms
 ms.author: laalexan
 ms.collection: bap-ai-copilot
@@ -15,14 +15,17 @@ ms.custom: bap-template
 
 Service Agent is an AI-powered assistant in Dynamics 365 Customer Service that helps customer service representatives resolve cases by completing supported tasks directly in Copilot Service workspace. Representatives use natural language to retrieve information, summarize cases, draft communications, and complete service-related tasks without leaving the workspace.
 
+Service Agent is also a Microsoft 365 Copilot agent. You can use Service Agent in Microsoft 365 Copilot to retrieve, summarize, and update customer service information and complete supported service-related tasks.
+
 ## Prerequisites
 
-Before you can use Service Agent, your administrator must configure it for your organization. Learn more in [Configure Service Agent](../administer/configure-service-agent.md).
+Before you can use Service Agent, your administrator must set it up for your organization. Setup includes installing the Service app and enabling Microsoft 365 Copilot for the Customer Service environment or applicable model-driven apps. Learn more in [Configure Service Agent](../administer/configure-service-agent.md).
 
 ## What Service Agent can do
 
 Service Agent supports capabilities throughout the case lifecycle, including the following areas:
 
+- **Grounding and data sources**: Generate responses that are grounded in both Microsoft Graph and Dataverse data through Work IQ, so answers reflect service records and related work across Microsoft 365.
 - **Case and customer context**: Summarize cases, conversations, accounts, contacts, timelines, and related service activities so you can quickly understand a customer's situation.
 - **Knowledge and answer discovery**: Search and synthesize information from trusted knowledge sources across Dataverse, SharePoint, and Microsoft 365 to generate grounded responses.
 - **Service actions and follow-through**: Update cases, create notes and activities, draft customer communications, recommend next best actions, and complete supported tasks from within the conversation.
