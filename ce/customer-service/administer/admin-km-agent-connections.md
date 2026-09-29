@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 05/07/2026
+ms.date: 09/29/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -29,9 +29,14 @@ This article explains how to configure connection references for AI agents that 
     1. In the **Edit** dialog, select **Connection** > **New connection**. 
     1. Search for **Microsoft Dataverse** and select **Create**. You might need to sign in using the OAuth connection type to create a Dataverse connection.
     1. Go back to the **Edit** dialog of **Microsoft Dataverse CustomerServiceKnowledgeHarvest**, search for the new connection and save it.
-    1. Repeat step a and b, to create a connection with **Microsoft Copilot Studio**.    
+    1. Repeat step a and b to create a connection with **Microsoft Copilot Studio**.
 5. [!INCLUDE[cc-flow-enable](../../includes/qea/cc-flow-enable.md)]
-     - **Knowledge Harvest Trigger Flow V2**  
+     - **Customer Knowledge Management Interactive Harvesting**
+     - **Customer Knowledge Management Bulk and Real-time Harvesting**
+     - **Customer Knowledge Management Conversation Harvest Trigger**
+     > [!NOTE]
+     > Cloud flow names are localized and appear in the language configured for your Dataverse environment.
+    
 6. [!INCLUDE[cc-publish-agent](../../includes/qea/cc-publish-agent.md)]. For Customer Knowledge Management Agent flow, the agent in Copilot Studio is **CustomerServiceKnowledgeHarvest**.
 
 ## Set up connection references for Quality Evaluation Agent
