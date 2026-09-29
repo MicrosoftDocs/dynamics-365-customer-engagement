@@ -1,6 +1,6 @@
 ---
 title: Configure the inbox
-description: Learn how to configure inbox settings in Copilot Service admin center, including experience profiles, custom views, and channel-focused inbox.
+description: Learn how to configure inbox settings in Copilot Service admin center, including experience profiles, custom views, and channel-focused inbox settings.
 ms.date: 09/29/2026
 author: lalexms
 ms.author: laalexan
@@ -196,7 +196,7 @@ You can customize the information displayed on inbox cards by adding, removing, 
 
 ## Real-time translation
 
-Learn about how to configure real-time translation for conversations in the inbox at [Enable real-time translation of conversations](enable-real-time-translation.md).
+Learn how to configure real-time translation for conversations in the inbox at [Enable real-time translation of conversations](enable-real-time-translation.md).
 
 ## Related information
 
