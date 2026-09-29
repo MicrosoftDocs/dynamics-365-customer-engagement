@@ -1,6 +1,7 @@
 ---
 title: Configure the inbox
-description: Learn how to configure inbox settings in Copilot Service admin center, including experience profiles, custom views, and channel-focused inbox settings.ms.date: 09/29/2026
+description: Learn how to configure inbox settings in Copilot Service admin center, including experience profiles, custom views, and channel-focused inbox.
+ms.date: 09/29/2026
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
