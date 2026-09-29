@@ -1,7 +1,7 @@
 ---
 title: Configure the inbox
-description: Use this article to enable and configure inbox settings in Copilot Service admin center.
-ms.date: 10/08/2025
+description: Learn how to configure inbox settings in Copilot Service admin center, including experience profiles, custom views, and channel-focused inbox settings.
+ms.date: 09/29/2026
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -15,7 +15,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 > [!NOTE]
-> Case is applicable to Customer Service only.
+> Case applies to Customer Service only.
 
 As an administrator, you can [configure the inbox setting](#configure-the-inbox-setting-for-representatives) so that when your customer service representatives (service representatives or representatives) open Copilot Service workspace, they can select the inbox icon to show all the cases, conversations, and records that are assigned to them. The inbox is designed to help representatives efficiently work on high-velocity tasks and promote inbox sessions to regular sessions when they need more time to resolve cases and complete their conversations.
 
@@ -35,11 +35,11 @@ The following asynchronous channels are available in the conversation inbox:
 
 - Text message (SMS)
 - Persistent chat
-- Facebook
-- WeChat
-- LINE
-- WhatsApp
 - Teams
+- Facebook
+- LINE
+- WeChat
+- WhatsApp
 
 ## Live chat and voice channel in inbox
 
@@ -59,22 +59,17 @@ Channel providers must have **All active channels** set to **On** to use and con
 You can configure the inbox in Copilot Service admin center by editing the experience profile to meet your preferred inbox settings.
 
 1. Open the admin center app.
-
 1. In **Support experience**, select **Workspaces**.
-
 1. In **Experience profiles**, select **Manage**.
-
 1. Select the profile for which you want to configure the inbox.
-
 1. In **Inbox**, select the **Settings** icon, and then turn on the **Inbox** toggle.
-
 1. Select **Edit** to modify an existing view or create a view, and configure the following fields:
    - **Name:** Specify a name that shows in the inbox. Alphanumeric values are valid names.
    - **Record Type:** Select the record types for which the settings need to be applied. You can select more than one record type.
    - **Chat Status**: Available if the record type is chat. Select one or more of the following settings:
-     -  Assigned
-     -  Unassigned
-     -  Resolved
+     - Assigned
+     - Unassigned
+     - Resolved
    - **Email**: Available if the record type is email. Select all the options you want to enable.
      - Assigned to me:
        - Emails sent to me
@@ -83,8 +78,8 @@ You can configure the inbox in Copilot Service admin center by editing the exper
        - Emails in my team
        - Emails in my queue(s)
        - Emails in a shared mailbox
-    - **Representative visibility**: Show or Hide the view to representatives.
-      
+   - **Representative visibility**: Show or Hide the view to representatives.
+
 ## Preconfigured inbox views
 
 The following views are supported out of the box in the inbox:
@@ -98,22 +93,23 @@ Inbox views are auto refreshed every five minutes. Representatives can manually 
 
 ## Configure the channel-focused inbox
 
-The channel-focused inbox feature allows organizations to control how incoming conversations (persistent, live chat, async chat, social, SMS) are routed and displayed for customer service representatives, enhancing workflow flexibility and the service representative experience.
+The channel-focused inbox feature allows organizations to control how incoming conversations (persistent, live chat, async chat, social, SMS) are handled and displayed for customer service representatives, enhancing workflow flexibility and the service representative experience.
 
 The functionality for the channel-focused inbox is as follows:
+
 - Changes apply to all users across an organization, and to all app profiles and conversation types except voice.
-- The feature affects persistent, live, async, and sync conversations.
-- Previously, live chats opened in new tabs and async chats in the inbox. Now, the settings you configure apply to all, with exception of voice calls, which always open in a new session tab.
+- The feature affects persistent chat, live chat, async chat, social channels, and SMS.
+- Although you configure the channel-focused inbox from an experience profile, selecting a profile doesn't limit the settings to that profile. The settings apply to all users and app profiles in the organization. Voice calls always open in a new session tab.
 
 1. Open the admin center app.
 1. In **Support experience**, select **Workspaces**.
 1. In **Experience profiles**, select **Manage**.
-1. Select the profile for which you want to configure the channel-focused inbox.
+1. Select an experience profile to access the channel-focused inbox settings.
 1. Select **Edit inbox**, and then select the **Incoming work items** tab.
 1. Choose one of the following options for handling incoming conversations:
-   - **Add to inbox if customer service representative is currently in inbox; otherwise open in a new session tab**: Adds to inbox if the representative is currently in the inbox. If not, the conversation opens in a new session tab.
-   - **Add to inbox**: Adds to inbox regardless of representative's current location.
-   - **Open in a new session tab**: Opens in a new tab each time.
+   - **Add to inbox if customer service representative is currently in inbox; otherwise open in a new session tab**: Adds the conversation to the inbox if the representative is currently in the inbox. Otherwise, the conversation opens in a new session tab.
+   - **Add to inbox**: Adds the conversation to the inbox regardless of the representative's current location.
+   - **Open in a new session tab**: Opens the conversation in a new session tab each time.
 1. Select **Save and close**. Then, clear the cache or refresh the browser window for the settings to take effect.
 
 ## Configure custom views for the inbox
@@ -123,26 +119,21 @@ You can configure a customized view for the inbox so that representatives can se
 To configure multiple views for the inbox, complete the following steps.
 
 1. Go to the experience profile for which you want to configure a custom view.
-
 1. On the **Inbox** card, select **Edit**. The **Inbox** page is displayed.
-
 1. Toggle **Enable Inbox** to **On** if it isn't already on, and then select **+ Add**. The **Add a new view** page is displayed.
-
 1. On the **Add a new view** page, enter the following details:
-
    - **Name**: Type a name for the view.
    - **Representative visibility**: Select whether to **Show** or **Hide** the view from representatives.
    - **Record type**: Select the records that you want to include in the multi-entity view.
-  
 1. For each record type, choose one of the following settings. The settings are different for each record type.
 
-    - **Simple** opens a dropdown menu where you can choose the type of records that appears in your multi-entity view. More information: [Simple settings](#simple-settings)
-       
-      :::image type="content" source="../media/simple-settings-inbox.png" alt-text="Simple setting option on the Add a new view page for inbox."::: 
-       
-    - **Advanced** opens a **Conditions** option where you can set the necessary conditions for your multi-entity view. More information: [Advanced condition builder](/business-applications-release-notes/october18/microsoft-flow/advanced-condition-builder)
+   - **Simple**: Opens a dropdown menu where you can choose the types of records that appear in your multi-entity view. More information: [Simple settings](#simple-settings)
 
-      :::image type="content" source="../media/advanced-settings-inbox.png" alt-text="Advanced setting option on the Add a new view page for inbox."::: 
+     :::image type="content" source="../media/simple-settings-inbox.png" alt-text="Simple setting option on the Add a new view page for inbox.":::
+
+   - **Advanced**: Opens the **Conditions** option, where you can set conditions for your multi-entity view. More information: [Advanced condition builder](/business-applications-release-notes/october18/microsoft-flow/advanced-condition-builder)
+
+     :::image type="content" source="../media/advanced-settings-inbox.png" alt-text="Advanced setting option on the Add a new view page for inbox.":::
 
 1. Select **Save**.
 
@@ -153,13 +144,13 @@ To configure multiple views for the inbox, complete the following steps.
 
 The following simple settings are available out of the box for the record types.
 
-| Record type | Simple settings |
-|-----------|------------------|
-| Email | - Emails sent to me <br>- Emails assigned to me <br> - Emails in my team(s) <br> - Emails in my queue(s) <br> - Emails in a shared mailbox|
-| Chat | - Assigned <br> - Unassigned <br> - Resolved|
-| Case | - Cases assigned to me <br> - Cases in my team(s) <br> - Case(s) in my queue(s) |
-| Voicemail | - Assigned <br> - Unassigned <br> - Resolved |
-| Unified Routing enabled records | - Assigned <br> - Open <br> - Closed |
+| Record type       | Simple settings       |
+| ----------------- | --------------------- |
+| Email             | - Emails sent to me <br>- Emails assigned to me <br> - Emails in my team(s) <br> - Emails in my queue(s) <br> - Emails in a shared mailbox |
+| Chat              | - Assigned <br> - Unassigned <br> - Resolved                                                                                               |
+| Case              | - Cases assigned to me <br> - Cases in my team(s) <br> - Case(s) in my queue(s)                                                            |
+| Voicemail         | - Assigned <br> - Unassigned <br> - Resolved                                                                                               |
+| Unified Routing enabled records | - Assigned <br> - Open <br> - Closed                                                                                         |
 
 ### Advanced settings for conversations
 
@@ -175,7 +166,7 @@ Configure a customized sort option for the inbox so that users can choose the re
 1. On the **Profile** page, in **Inbox**, select **Edit**.
 1. In the **Edit view** pane, in the **Sort** section, select the entity and attributes, along with sort order.
 
-      :::image type="content" source="../media/custom-sort-inbox.png" alt-text="Custom sort option in the Edit view pane for inbox."::: 
+   :::image type="content" source="../media/custom-sort-inbox.png" alt-text="Custom sort option in the Edit view pane for inbox.":::
 
 1. Select **Save**.
 
@@ -187,12 +178,12 @@ By default, the inbox supports entities such as case, emails, conversations, and
 1. On the **Workspaces** page, next to **Experience profiles**, select the profile you want to edit.
 1. On the **Profile** page, in **Inbox**, select **Edit**.
 1. In the **Inbox settings** pane, select the **Inbox record types** tab.
-1. Select **+Add**, and then chose the record type you want to add.
+1. Select **+ Add**, and then choose the record type you want to add.
 1. Select **Save and close**.
 
 ## Custom card configuration
 
-You can help users personalize how their information displays in the inbox by customizing the card configuration.
+You can customize the information displayed on inbox cards by adding, removing, and rearranging attributes.
 
 1. In the admin center site map, select **Workspaces**.
 1. On the **Workspaces** page, next to **Experience profiles**, select the profile you want to edit.
@@ -205,13 +196,12 @@ You can help users personalize how their information displays in the inbox by cu
 
 ## Real-time translation
 
-Learn more about how to configure real-time translation for conversations in the inbox, at [Enable real-time translation of conversations](enable-real-time-translation.md).
+Learn how to configure real-time translation for conversations in the inbox at [Enable real-time translation of conversations](enable-real-time-translation.md).
 
+## Related information
 
-### Related information
-
-[Inbox out-of-the-box views and filters](inbox-views-filters.md)  
-[Create and use experience profiles](create-agent-experience-profile.md)  
-[Overview of experience profiles](overview.md)  
-[Use the inbox](../use/use-inbox.md)  
-[Configure voicemail to manage inbound calls](voice-channel-voicemail.md)  
+[Inbox out-of-the-box views and filters](inbox-views-filters.md)
+[Create and use experience profiles](create-agent-experience-profile.md)
+[Overview of experience profiles](overview.md)
+[Use the inbox](../use/use-inbox.md)
+[Configure voicemail to manage inbound calls](voice-channel-voicemail.md)
