@@ -1,7 +1,7 @@
 ---
 title: Manage real-time analytics reports in Dynamics 365 Contact Center
 description: Configure real-time analytics in Dynamics 365 Contact Center to give supervisors access to metrics and KPIs.
-ms.date: 02/19/2026
+ms.date: 09/30/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
