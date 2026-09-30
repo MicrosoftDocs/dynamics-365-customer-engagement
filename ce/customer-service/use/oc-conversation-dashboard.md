@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: concept-article
 ms.collection: bap-ai-copilot
-ms.date: 01/28/2026
+ms.date: 09/29/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ---
@@ -16,7 +16,6 @@ ms.custom: bap-template
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
-
 
 
 The Conversation dashboard gives you a broad overview of the customer service experience in your organization. Learn how to [access the dashboard](omnichannel-analytics-insights.md#access-the-dashboards).
@@ -115,7 +114,7 @@ To view the drill-down, select any single metric value for the day you're intere
 > [!div class="mx-imgBorder"]
 > ![Conversation hourly drill down view.](../media/conversation-hourly-drill-down-view.png "Conversation hourly drill down view")
 
-### Related information
+## Related information
 
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
 [Agent dashboard](agent-dashboard.md)  
