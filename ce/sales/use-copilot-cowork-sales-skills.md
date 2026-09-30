@@ -1,112 +1,125 @@
 ---
-title: Use Dynamics 365 Sales skills in Copilot Cowork
+title: Use sales skills in Copilot Cowork
 description: Dynamics 365 Sales Skills in Copilot Cowork help teams prep for meetings, review pipeline, and act faster. Learn what they do and how to enable and use them.
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 07/14/2026
+ms.date: 09/30/2026
 ms.topic: how-to
 ms.update-cycle: 180-days
 ai.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Use Dynamics 365 Sales skills in Copilot Cowork 
+# Use sales skills in Copilot Cowork
 
-Dynamics 365 Sales skills in Microsoft 365 Copilot Cowork deliver insights and recommendations based on your sales data and Microsoft 365 context such as emails, meetings, and collaboration activity. Use Cowork to handle complex tasks that pull data from multiple sources—Dynamics 365 records, knowledge bases, email, and meetings. Cowork works within Microsoft 365, analyzes your Dynamics 365 data, and keeps you in control throughout the process. All insights are based on your data and the permissions you have in Dynamics 365 Sales, ensuring that you only see information you're authorized to access.
+Sales skills in Microsoft Copilot Cowork help you drive better outcomes across your sales organization. With these skills, you can analyze deal health and advance readiness, assess competitive positioning and develop counter-strategies, build compelling business cases and proposals, and more—all while leveraging your Dynamics 365 Sales data alongside your Microsoft 365 context. Some sales skills are CRM-agnostic and work with uploaded data as well. For a list of supported sales skills, see [Sales skills available in Copilot Cowork](#sales-skills-available-in-copilot-cowork).
 
-For example, you can ask "*Prepare me for the Contoso Inc's Renewal. Surface deal risks, competitive signals, and missing stakeholders. Build a PowerPoint based on the insights.*" Cowork gets the context from Dynamics 365 Sales and Microsoft 365, draws insights based on the data, and generates a PowerPoint deck with the insights and recommendations.  
+## Prerequisites
 
-To learn how you can use Copilot Cowork to do multistep tasks that pull data from multiple sources, including Dynamics 365 Sales and Customer Service, watch the following video:  
-
-:::image type="content" source="media/agentic-platform-mechanics-video.png" alt-text="Thumbnail of the Agentic Platform Mechanics video" link="https://youtu.be/wGBHAclqhG8?t=272"::: 
-
-## Key capabilities 
-
-- Lets you select the Dynamics 365 Sales environment in Cowork so that every action surfaces correct org data.
-
-- Extend Cowork with user-specific custom skills stored in OneDrive.
-
-- Every task is grounded in live Dynamics 365 Sales data and Microsoft 365 context such as emails, meetings, chats that requires no manual lookup.
-
-- Cowork operates within the Dynamics 365 and Microsoft 365 permissions that're already in place per user or groups persona.
-
-
-## Prerequisites 
+The following prerequisites are required to use the sales skills packaged in the **Sales** plugin. For CRM-agnostic sales skills, you need an appropriate license to access Microsoft Copilot.
 
 **For administrators:**
 
-- [Dataverse MCP server](/power-apps/maker/data-platform/data-platform-mcp-disable) is enabled for your environment. The plugin for Dynamics 365 Sales in Cowork uses the Dataverse MCP server to access your Dynamics 365 Sales data.
+- [Dataverse MCP server](/power-apps/maker/data-platform/data-platform-mcp-disable) is enabled for your environment. The Copilot Cowork plugin for Dynamics 365 Sales uses the Dataverse MCP server to access your Dynamics 365 Sales data.
 
-- [Cowork](/microsoft-365/copilot/cowork/cowork-admin-governance) is available for your organization. 
-- The plugin for Dynamics 365 Sales in Cowork is preinstalled and available for all users who have access to Cowork. However, users with the appropriate Dynamics 365 Sales license only can use the plugin to access their Dynamics 365 Sales data.
- 
+- Sales agent is installed and available. The agent is auto-installed for eligible organizations and users based on their license. Learn more in [Install Sales agent](/microsoft-sales-copilot/install-sales-app).
+
 **For users:**
 
-- An appropriate Microsoft 365 Copilot license to access Cowork. 
-- An appropriate license to access a Dynamics 365 Sales environment. 
+- A **Sales Enterprise** or **Sales Premium** license to use the **Sales** plugin in Copilot Cowork. This plugin includes all Dynamics 365 Sales skills. 
+- An appropriate license to access Microsoft Copilot.
+- The Dynamics 365 Sales plugin installed in your Copilot experience. To determine whether it's installed, follow the steps in the **[Enable the Sales plugin in Cowork](#enable-the-sales-plugin-in-cowork)** section. If the plugin isn't installed, you won't see the **Sales** option in the plugin list.
 
-## Enable the plugin
+## Copilot Cowork
 
-To use the sales skills in your Cowork experience, turn on the plugin for Dynamics 365 Sales in Cowork. 
+Use Copilot Cowork when you need to orchestrate multi-step tasks that require coordination across your sales data and Microsoft 365 context, including emails, meetings, and collaboration activity. 
 
-1. In Microsoft 365 Copilot, select the **Cowork** tab. 
-1. In the chat composer, select the **+** button and then select **Customize**.
-1. Turn on the toggle for **Dynamics 365 Sales**.
-1. Select the plugin to view the details like the skills available.
-   :::image type="content" source="media/cowork-sales-plugin.png" alt-text="Screenshot of Cowork Manage Plugins page with the Dynamics 365 Sales plugin listed.":::
+To learn how you can use Copilot Cowork to do multi-step tasks that pull data from multiple sources, including Dynamics 365 Sales and Customer Service, watch the following video:
 
-## Select the environment
+:::image type="content" source="media/agentic-platform-mechanics-video.png" alt-text="Thumbnail of the Agentic Platform Mechanics video" link="https://youtu.be/wGBHAclqhG8?t=272":::
 
-Environment selection lets you choose the Dynamics 365 environment that Cowork prompts need to use. It's useful when you work across multiple environments for different lines of business, regions, or use cases. You see a list of allowed environments to which you have access.
+### Enable the Sales plugin in Cowork
 
-After you turn on the plugin, the settings icon is available on the plugin. Select the settings icon, and in the pop-up window, select the environment to connect.
+1. In Microsoft Copilot, select the **Cowork** tab.
+1. Select **Customize** from the left navigation pane.
+1. Turn on the toggle for **Sales** to enable the plugin for Dynamics 365 Sales.
+1. If you don't have a CRM license, turn on the **Sales for Cowork** toggle to access CRM-agnostic sales skills.
+1. Select the plugin to view available skills.
+    :::image type="content" source="media/cowork-sales-plugin.png" alt-text="Screenshot of Cowork Manage Plugins page with the Dynamics 365 Sales plugin listed.":::
 
-:::image type="content" source="media/cowork-environment-selection.png" alt-text="Screenshot of the plugin page with the Settings option highlighted.":::
+### Select the environment in Copilot Cowork
 
-## Use sales skills in Cowork
+Select the Dynamics 365 environment that Copilot needs to use. It's useful when you work across multiple environments for different lines of business, regions, or use cases.
 
-When you submit a request in Cowork, the workspace plan translates the request into a sequence of smaller actions that can run reliably and transparently. Instead of treating the prompt as one opaque task, Cowork identifies the intention, determines the systems that hold the needed data, and then invokes the appropriate skill for each step. The plan makes this visible to you by showing the order of operations.
+When you enter a sales-specific prompt in Cowork for the first time, it prompts you to select the Dynamics 365 environment from which to pull the data. Cowork remembers your selection for future prompts. You can change the environment at any time by asking Cowork to `list environments` and then selecting a different one, or by saying `Set environment to [environment name]`.
 
-1. In Microsoft 365 Copilot, select the **Cowork** tab. 
-1. Ask a sales-related question in natural language. You need not specify that you want to use the Dynamics 365 Sales plugin in your prompt. If the question is related to sales and the plugin is enabled, Cowork automatically uses the plugin to answer your question. The following screenshot shows the response from Cowork for the prompt "*Help me prepare for my upcoming meeting with Adatum Corp, what should I know?*" 
-   :::image type="content" source="media/copilot-cowork-response.png" alt-text="Screenshot of response from Cowork with a step-by-step plan and real-time progress for a sales-related question.":::
+### Use sales skills in Cowork
 
-If you want to know the environment that Cowork is pulling data from, or if you want to change it, refer to [Select the environment](#select-the-environment).
+When you submit a prompt in Cowork, instead of treating the prompt as one opaque task, Cowork identifies the user intent, comes up with a plan, identifies the systems that hold the required data, and identifies the skills and tools needed for the job. Cowork doesn't take any consequential actions autonomously. It asks you to confirm before executing any actions such as updating records, sending emails, or creating tasks.
 
-Some example prompts to try are as follows:  
+> [!IMPORTANT]
+> Cowork requires an appropriate license for access and is also billed based on usage. Charges aren't part of a fixed license plan; they vary based on token usage, which depends on factors such as the user prompt, task duration, and underlying model. Learn more in [Credit usage for Microsoft Copilot Cowork tasks](/microsoft-365/copilot/usage-based-billing-copilot-credits-cost).
 
-- Help me prepare for my meeting with Contoso. 
-- Which of my deals slipped this week and why? 
-- Summarize everything that changed on my top opportunities since I was on leave. 
-- Which leads have stopped responding and what’s a good re-engagement angle? 
-- Which reps are behind on activity and which metrics matter most? 
-- Which segments are underperforming and what’s the pattern? 
+1. In Microsoft Copilot, select the **Cowork** tab.
 
-## Supported scenarios
+1. Ask a sales-related question in natural language. You don't need to specify that you want to use the Dynamics 365 Sales plugin in your prompt. If the question is related to sales and the plugin is enabled, Cowork automatically uses the appropriate skills from the plugin to answer your question. 
+   
+   The following screenshot shows the response from Cowork for the prompt ""*Analyze my open pipeline for the next 2 quarters. Identify the biggest areas of risk and the patterns driving that risk. Look across deal value, stage, close timing, activity and customer engagement across CRM and Microsoft 365. Highlight the opportunities I should investigate further and explain why.*"
+ 
+    :::image type="content" source="media/copilot-cowork-response.png" alt-text="Screenshot of response from Cowork with a step-by-step plan and real-time progress for a sales-related question.":::
 
-The following scenarios are examples of how you can use the Dynamics 365 Sales skills in Cowork to save time and be more productive:
+### Example prompts for Copilot Cowork
 
-- Understand customer, opportunity, and pipeline context. 
+The following example prompts show how you can structure your sales-related requests in Cowork to use Dynamics 365 Sales data and Microsoft 365 context effectively.
 
-- Prepare for customer meetings and account reviews. 
-- Identify changes, risks, blockers, and engagement gaps. 
-- Prioritize opportunities, leads, and customer activities. 
-- Generate follow-up recommendations and customer communications. 
-- Analyze pipeline health, team performance, and sales trends. 
-- Receive recommendations and next-best actions grounded in business data. 
+**Prompt for competitive strategy:** 
 
-## Skills that Cowork uses
+Help me develop a competitive strategy for [opportunity] where we're competing with [competitor]. Use Dynamics 365 Sales and Microsoft 365 to understand the customer's priorities, decision criteria, stakeholder concerns, and any competitive objections. Map the customer's requirements to our relevant strengths, trade-offs, and proof points. Identify how I should respond to the key competitive concerns. Distinguish what we know from what we're inferring. Flag any competitive claims that need validation. End with the recommended positioning and next move. 
 
-Cowork invokes the necessary skills based on the user's prompt such as the following:
+**Prompt for customer engagement strategy:** 
 
-**Built-in skills from WorkIQ:**  Includes Microsoft Word, Microsoft Excel, Microsoft PowerPoint, PDF, email, calendar, meetings, daily briefing, enterprise search, communications, deep research, and adaptive cards.
+Build a 30-day customer engagement strategy for [account] around the current business objective. Use Dynamics 365 Sales and Microsoft 365 to identify the stakeholders who matter, assess our current relationship and coverage gaps, and identify legitimate paths to engage the right people. Recommend how to sequence the engagement, including who to engage, why they matter, the best approach or introduction path, and what each interaction should accomplish. Ground the strategy in customer evidence and call out any important gaps, unknowns, or relationship assumptions. 
 
-**Dynamics 365 Sales-related skills:** Includes skills that pull data and insights from Dynamics 365 Sales, such as meeting preparation, activity synthesis, and pipeline prioritizer.
+**Prompt for lead disposition:** 
 
-**Custom skills:** Includes custom skills, if any, stored in your OneDrive. Learn more in [Create custom skills](/microsoft-365/copilot/cowork/use-cowork#create-custom-skills).
+Assess [lead] against our qualification criteria and tell me what we know, what's still missing, and what the evidence supports. Use Dynamics 365 Sales and Microsoft 365 to evaluate each qualification criterion, distinguish confirmed information from unknowns or conflicting evidence, and explain the rationale. Recommend the appropriate disposition and routing only where the available qualification method supports it. Identify the next evidence or action needed to move the lead forward.
 
-When Cowork invokes skills to complete your request, the Workspace panel shows a step-by-step plan with real-time progress. For more information, refer to [What displays while Cowork is working](/microsoft-365/copilot/cowork/use-cowork#what-displays-while-cowork-is-working).
+### Business skills and custom skills in Cowork
+
+Administrators and sales managers can create business skills in Dataverse to meet the specific needs and workflows of your organization. To learn more, see [Business skills overview (preview)](/power-apps/maker/data-platform/data-platform-business-skill-overview).
+
+Sellers can extend Cowork with user-specific custom skills stored in your OneDrive. To learn more, see [Create custom skills](/microsoft-365/copilot/cowork/use-cowork#create-custom-skills).
+
+## Sales skills available in Copilot Cowork
+
+Copilot Cowork invokes the necessary skills based on your prompts. The following table lists the skills included in the **Sales** and **Sales for Cowork** plugins. As sales skills continue to evolve, check the **Skills** section of the plugin page in Cowork for the latest list of packaged skills.
+
+| Skill name | Description | Sales plugin (requires Dynamics 365 Sales license) | Sales for Cowork plugin (CRM-agnostic) |
+|---|---|---|---|
+| Stage advance readiness | Assess whether deals are ready to move forward with criteria-based readiness checks. | Yes | No |
+| Reconcile my opportunity | Align your pipeline data and resolve discrepancies to ensure accurate forecasting. | Yes | No |
+| Draft outreach | Generate personalized customer communications and outreach templates. | Yes | No |
+| Customer engagement strategy | Develop a data-driven engagement strategy based on customer and deal context. | Yes | No |
+| Deal desk | Access deal support, guidance, and escalation for complex or at-risk opportunities. | Yes | No |
+| Team pipeline review | Analyze team pipeline health, velocity, and forecast accuracy. | Yes | No |
+| Executive deal review | Prepare executive summaries of critical deals and pipeline status. | Yes | No |
+| Forecast rollup | Consolidate and verify forecast data across your team or organization. | Yes | No |
+| CRM data hygiene | Identify and resolve data quality issues in your CRM. | Yes | No |
+| Sales Research Agent | Conduct research on accounts, competitors, and market trends. | Yes | No |
+| Segment analysis | Analyze your customer segments and identify patterns and opportunities. | Yes | No |
+| Team activity coaching | Monitor team activity and provide coaching recommendations to improve performance. | Yes | No |
+| Meeting preparation | Automatically prepare for customer meetings by pulling relevant account, opportunity, and activity context. | Yes | Yes |
+| Deal catch-up | Quickly understand changes and updates to your deals with a comprehensive summary of what's new. | Yes | Yes |
+| Pipeline prioritizer | Identify which opportunities to focus on based on deal stage, size, timeline, and engagement signals. | No | Yes |
+| Post-meeting follow-up | Create follow-up actions and communications after customer interactions. | Yes | Yes |
+| Competitive strategy | Analyze competitive threats and develop counter-strategies for your deals. | Yes | Yes |
+| Business case composer | Build compelling business cases and proposals grounded in customer data. | Yes | Yes |
+
+## Governance and compliance
+
+Governance applies throughout each request. Identity and access controls determine what users can discover and use, while business logic and approval requirements remain in effect during execution. All activity is auditable from end to end. Although the experience is simple for sellers—one request, one result—it is supported by a governed agentic flow.
+
 
 ### Related information
 
