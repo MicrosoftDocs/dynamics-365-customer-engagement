@@ -356,6 +356,8 @@
             href: /dynamics365/contact-center/use/workforce-management-adherence-tracker?context=/dynamics365/context/customer-service-use-context
           - name: Use the adherence history report
             href: /dynamics365/contact-center/use/workforce-management-use-adherence-history-report?context=/dynamics365/context/customer-service-use-context
+          - name: Use the intraday performance report
+            href: /dynamics365/contact-center/use/workforce-management-use-performance-report?context=/dynamics365/context/customer-service-use-context
           - name: Use workforce alerts for volume spikes (preview)
             href: /dynamics365/contact-center/use/workforce-management-use-volume-spike-alerts?context=/dynamics365/context/customer-service-use-context
           - name: Use workforce alerts for adherence notifications (preview)
@@ -382,6 +384,8 @@
           href: /dynamics365/contact-center/use/copilot-feature-availability?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Use Customer Service skills in Copilot Cowork
           href: use-copilot-cowork-service-skills.md
+        - name: Manage the Service app in the Microsoft 365 admin center
+          href: manage-service-app.md
         - name: Use Copilot hub (preview)
           href: use-copilot-hub.md
         - name: FAQ for Copilot hub (preview)
@@ -404,7 +408,7 @@
           href: copilot-language-support.md
         - name: Chat with case data in Customer Service (preview)
           href: /dynamics365/contact-center/use/copilot-chat-customer-service-data?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-        - name: Use Microsoft 365 Copilot
+        - name: Use Microsoft Copilot
           href: use-microsoft-365-copilot.md
         - name: Monitor and supervise autonomous agents
           href: supervise-agents-with-agent-feed.md
