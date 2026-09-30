@@ -1,9 +1,12 @@
 ---
 title: Deploy the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service
 description: Learn how to deploy and manage the deployment for the Resource Scheduling Optimization add-in for Dynamics 365 Field Service.
-ms.date: 06/24/2026
+ms.date: 09/28/2026
 ms.topic: how-to
-ms.custom: bap-template
+ms.custom: 
+    - bap-template
+    - ai-gen-docs-bap
+    - ai-seo-date: 06/24/2026
 ms.subservice: resource-scheduling-optimization
 author: andrewclear-ms
 ms.author: anclear
@@ -18,14 +21,17 @@ After [getting access to Resource Scheduling Optimization](rso-get-install.md) e
 
 1. Verify Field Service is installed in your environment. The Field Service app appears in the Dynamics 365 apps menu when logged in as a system administrator.
 
-1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). In the left pane, select **Manage** > **Products - Dynamics 365 apps**.
+1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). Select **Manage** > **Environments**, and then select the environment where you want to install the Resource Scheduling Optimization add-on.
 
-1. Scroll through the list of apps or use the search field in the Power Platform admin center to find **Resource Scheduling Optimization** and select **Install**.
+1. Select **Dynamics 365 apps**, and then select **Install app**.
 
-1. Select the organization where you want to install the Resource Scheduling Optimization solution, review the Terms of Service, select the agreement box, and then select **Install** to start the Resource Scheduling Optimization deployment. The install operation might take up to an hour to complete.
+1. Select **Resource Scheduling Optimization**, review the Terms of Service, select the agreement box, and then select **Install**. The install operation might take up to an hour to complete.
 
    > [!NOTE]
    > It might take several hours between the time the subscription appears in the Microsoft 365 Admin Center and the Power Platform Admin Center.
+
+1. When installation finishes, confirm **Resource Scheduling Optimization** appears in the
+   environment's **Dynamics 365 apps** list with a **Status** of **Installed**.
 
 ### Bulk deletion jobs
 
