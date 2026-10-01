@@ -4,7 +4,7 @@ description: Learn how generative AI enhances timeline highlights, helping you a
 author: neeranelli
 ms.author: nenellim
 ms.topic: overview
-ms.date: 04/02/2026
+ms.date: 09/30/2026
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---
@@ -15,7 +15,7 @@ ms.update-cycle: 180-days
 
 [!INCLUDE [use-timeline-highlights-powered-by-generative-ai](~/../shared-content/shared/dynamics365-core/use-timeline-highlights-powered-by-generative-ai.md)]
 
-### Related information
+## Related information
 
 [Agents, Copilot, and AI capabilities in Dynamics 365 apps](/dynamics365/copilot/ai-get-started)  
 [Copilot feature availability across products](/dynamics365/contact-center/use/copilot-feature-availability)  
