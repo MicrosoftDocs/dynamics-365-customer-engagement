@@ -1826,6 +1826,8 @@ items:
         href: faqs-about-sales-close-agent-engage.md
       - name: Responsible AI FAQ about Data Enrichment
         href: faqs-data-enrichment-agent.md
+      - name: Responsible AI FAQ about Recommended Actions Agent
+        href: faqs-about-recommended-actions-agent-responsible-ai.md
       - name: Responsible AI FAQ about Sales Research Agent
         href: faqs-about-sales-research-agent.md
       - name: Responsible AI FAQ about chat with Sales data in Microsoft 365 Copilot (preview)
