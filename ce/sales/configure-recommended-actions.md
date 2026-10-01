@@ -20,7 +20,7 @@ As an admin, you can configure which agents can use the Recommended Actions agen
 
 ## Enable recommended actions for agents
 
-When you turn on the recommended actions toggle for an agent, that agent's action insights are integrated into the recommended actions interface. Instead of appearing only in the agent's own interface, the agent's action insights now appear as action cards in the recommended actions experience, giving sellers a unified view of prioritized, actionable recommendations. For example, when this feature is enabled, the Data Enrichment Agent displays action insights related to data quality improvements in the recommended actions interface.  
+When you turn on the recommended actions toggle for an agent, that agent's action insights are integrated into the recommended actions interface. Instead of appearing only in the agent's own interface, the agent's action insights now appear as action cards in the recommended actions experience, giving sellers a unified view of prioritized, actionable recommendations. For example, when this feature is enabled, the Sales Opportunity Agent displays action insights related to opportunities and risks in the recommended actions interface.  
 
 > [!NOTE]
 > Recommended actions are currently available for the Sales Opportunity Agent, Sales Qualification Agent, and Data Enrichment Agent.

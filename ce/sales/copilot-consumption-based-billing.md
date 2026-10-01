@@ -14,11 +14,7 @@ ms.collection: bap-ai-copilot
 
 # Manage consumption-based billing for agent capabilities
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
 This article explains how to set up billing for Copilot and agent capabilities in Dynamics 365 Sales. 
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Consumption-based billing
 
