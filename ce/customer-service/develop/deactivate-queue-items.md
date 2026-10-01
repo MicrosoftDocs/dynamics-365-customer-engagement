@@ -1,7 +1,7 @@
 ---
 title: Close live work items or deactivate queue items
 description: Sample code to close live work items or deactivate queue items in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 09/16/2025
+ms.date: 09/30/2026
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -64,9 +64,7 @@ For information about how you can modify the sample code to suit your environmen
     }
    ```
 
-
-
-### Related information
+## Related information
 
 [Overview of unified routing](../administer/overview-unified-routing.md)  
 [Set up unified routing](../administer/set-up-routing-process.md)  
