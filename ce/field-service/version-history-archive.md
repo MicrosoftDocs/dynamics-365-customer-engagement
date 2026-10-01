@@ -1,7 +1,7 @@
 ---
 title: Version history archive
 description: Archive of earlier release notes of the Dynamics 365 Field Service version history.
-ms.date: 10/24/2025
+ms.date: 09/30/2026
 ms.update-cycle: 1095-days
 ms.topic: release-notes
 author: puneet-singh1
@@ -15,6 +15,8 @@ This article contains release notes from earlier release waves for the following
 - [Dynamics 365 Field Service (web and mobile)](#dynamics-365-field-service)
 - [Universal Resource Scheduling](#universal-resource-scheduling)
 - [Resource Scheduling Optimization Add-in](#resource-scheduling-optimization-add-in)
+
+If you're troubleshooting a current issue, update to the latest version first. Learn more in [Update apps and solutions](update-field-service.md) and [Get help with Field Service](field-service-get-help.md).
 
 ## Dynamics 365 Field Service
 
