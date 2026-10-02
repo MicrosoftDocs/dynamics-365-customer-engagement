@@ -1,6 +1,6 @@
 ---
 title: Optimize multi-day service requests
-description: Learn how the Resource Scheduling Optimization add-in for Dynamics 365 Field Service handles multi-day requirements.
+description: Learn how the Resource Scheduling Optimization add-on for Dynamics 365 Field Service handles multi-day requirements.
 author: andrewclear-ms
 ms.author: anclear
 ms.date: 09/25/2026

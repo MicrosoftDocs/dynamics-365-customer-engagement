@@ -1,6 +1,6 @@
 ---
 title: Get email alerts for failed or canceled optimization requests
-description: Use Power Automate flows to get automated email alerts if optimization jobs fail in the Resource Scheduling Optimization add-in for Dynamics 365 Field Service.
+description: Use Power Automate flows to get automated email alerts if optimization jobs fail in the Resource Scheduling Optimization add-on for Dynamics 365 Field Service.
 ms.date: 09/25/2026
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to

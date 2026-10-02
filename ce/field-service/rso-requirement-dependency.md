@@ -1,6 +1,6 @@
 ---
 title: Schedule in sequence with requirement dependencies
-description: Learn how to schedule in sequence by using requirement dependencies in the Resource Scheduling Optimization add-in for Dynamics 365 Field Service.
+description: Learn how to schedule in sequence by using requirement dependencies in the Resource Scheduling Optimization add-on for Dynamics 365 Field Service.
 ms.date: 09/01/2026
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
