@@ -12,7 +12,7 @@ ms.subservice: resource-scheduling-optimization
 
 # Single resource optimization for Resource Scheduling Optimization
 
-You can configure the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service to [run optimizations based on your entire organization's scheduling needs](rso-overview.md). Sometimes you might need to optimize only a single resource's schedule, rather than optimize for a set of available resources. Single resource optimization provides a quick way to optimize a resource's schedule and travel route. It considers the existing bookings on the resource's schedule and other requirements.
+You can configure the Resource Scheduling Optimization Add-on for Dynamics 365 Field Service to [run optimizations based on your entire organization's scheduling needs](rso-overview.md). Sometimes you might need to optimize only a single resource's schedule, rather than optimize for a set of available resources. Single resource optimization provides a quick way to optimize a resource's schedule and travel route. It considers the existing bookings on the resource's schedule and other requirements.
 
 It helps accommodate schedule changes that occur during the day, when a resource:
 

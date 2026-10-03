@@ -18,7 +18,7 @@ The system determines the work order's location by looking at a manually entered
 
 The **Service Account** requirement depends on the selected **Work Order Type**. For account-based service processes, Service Account can provide important defaults such as service address, billing account, price list, tax settings, service territory, and work instructions. If the selected Work Order Type allows work orders without Service Account, you can create a work order without selecting an account. In that case, enter the required service, billing, location, and scheduling details directly on the work order or through the related records used by your process.
 
-Once a work order is created, it gets scheduled either manually, with the [schedule assistant](schedule-assistant.md), or the [Resource Scheduling Optimization add-in](rso-overview.md). After the work is complete, a supervisor reviews and approves it.
+Once a work order is created, it gets scheduled either manually, with the [schedule assistant](schedule-assistant.md), or the [Resource Scheduling Optimization add-on](rso-overview.md). After the work is complete, a supervisor reviews and approves it.
 
 ## Choose a work order creation method
 

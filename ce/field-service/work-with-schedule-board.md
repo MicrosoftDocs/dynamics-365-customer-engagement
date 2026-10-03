@@ -30,7 +30,7 @@ Appointments marked *Private* in Outlook and synced to Dynamics 365 don't show t
 
 ## Automated scheduling with Resource Scheduling Optimization
 
-The following features are only available for organizations using the [Resource Scheduling Optimization Add-in for Dynamics 365 Field Service](rso-overview.md).
+The following features are only available for organizations using the [Resource Scheduling Optimization Add-on for Dynamics 365 Field Service](rso-overview.md).
 
 The default optimization goal is the default for optimization requests. You can [change the optimization goal for each schedule board](../common-scheduler/schedule-board-tab-settings.md).
 

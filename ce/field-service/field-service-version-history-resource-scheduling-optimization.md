@@ -1,6 +1,6 @@
 ---
 title: Resource Scheduling Optimization version history
-description: Version updates and updated features in the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
+description: Version updates and updated features in the Resource Scheduling Optimization Add-on for Dynamics 365 Field Service.
 ms.date: 07/28/2026
 ms.update-cycle: 1095-days
 ms.subservice: resource-scheduling-optimization
@@ -13,10 +13,10 @@ ms.author: dapisani
 
 ## Release schedule
 
-When a new version of the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service releases, it becomes available in different geographic regions at different times. The following table shows, when the next release will become available in the region of your environment.
+When a new version of the Resource Scheduling Optimization add-on for Dynamics 365 Field Service releases, it becomes available in different geographic regions at different times. The following table shows, when the next release will become available in the region of your environment.
 
 For information about other updates to Field Service, visit the [Dynamics 365 release plans](/dynamics365/release-plans/).
-For information about older versions, see [Version history archive](version-history-archive.md#resource-scheduling-optimization-add-in).
+For information about older versions, see [Version history archive](version-history-archive.md#resource-scheduling-optimization-add-on).
 
 |Station | Region | Current version | Next version |  Scheduled date |
 |------| -------|-------|-----|------|

@@ -23,7 +23,7 @@ The schedule assistant is best suited for semi-automated scheduling where a disp
 - You want the system to estimate travel time and rank resources.
 - You need to find availability across many resources quickly.
 
-For simple assignments or emergency work, consider [manual scheduling](schedule-board-manual-scheduling.md). For fully automated scheduling, consider the [Resource Scheduling Optimization add-in](rso-overview.md) or the [Scheduling Operations Agent](soa-overview.md).
+For simple assignments or emergency work, consider [manual scheduling](schedule-board-manual-scheduling.md). For fully automated scheduling, consider the [Resource Scheduling Optimization add-on](rso-overview.md) or the [Scheduling Operations Agent](soa-overview.md).
 
 ## Next steps
 
