@@ -1,6 +1,6 @@
 ---
-title: Get started with the Resource Scheduling Optimization Add-in
-description: Learn how to get up and running quickly with the Resource Scheduling Optimization Add-in for Field Service.
+title: Get started with the Resource Scheduling Optimization add-on
+description: Learn how to get up and running quickly with the Resource Scheduling Optimization Add-on for Field Service.
 ms.date: 03/31/2026
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
@@ -8,9 +8,9 @@ author: andrewclear-ms
 ms.author: anclear
 ---
 
-# Get started with the Resource Scheduling Optimization Add-in
+# Get started with the Resource Scheduling Optimization add-on
 
-The Resource Scheduling Optimization Add-in for Dynamics 365 Field Service automatically schedules work orders to the resources that are most available and best qualified. Many field service organizations that perform work orders at their customers' locations benefit from automatic scheduling because it optimizes the routes and travel times of field technicians as they travel from work order to work order.
+The Resource Scheduling Optimization add-on for Dynamics 365 Field Service automatically schedules work orders to the resources that are most available and best qualified. Many field service organizations that perform work orders at their customers' locations benefit from automatic scheduling because it optimizes the routes and travel times of field technicians as they travel from work order to work order.
 
 This article guides you through configuration of Resource Scheduling Optimization to schedule and optimize a group of work orders to a predefined list of resources. You're going to set up a scope, goal, and schedule to assign work orders to resources.
 

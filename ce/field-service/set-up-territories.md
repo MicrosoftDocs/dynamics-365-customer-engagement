@@ -10,7 +10,7 @@ ms.author: chenryan
 
 Territories help you divide your business into geographical regions for work order management, scheduling, and reporting. You can group customers, work orders, and resources based on a custom region.
 
-Use territories with work orders and resources to help dispatchers schedule work orders to resources with a matching territory. Territories are useful filters on the schedule board, the schedule assistant, and the [Resource Scheduling Optimization add-in](rso-overview.md).
+Use territories with work orders and resources to help dispatchers schedule work orders to resources with a matching territory. Territories are useful filters on the schedule board, the schedule assistant, and the [Resource Scheduling Optimization add-on](rso-overview.md).
 
 ## Territories and organizational units
 

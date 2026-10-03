@@ -1,6 +1,6 @@
 ---
 title: Allow travel time outside of working hours with Resource Scheduling Optimization
-description: Learn how to configure the Resource Scheduling Optimization add-in for Field Service to consider travel outside of working hours.
+description: Learn how to configure the Resource Scheduling Optimization add-on for Field Service to consider travel outside of working hours.
 ms.date: 02/05/2026
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to
@@ -10,7 +10,7 @@ ms.author: anclear
 
 # Allow travel time outside of working hours with Resource Scheduling Optimization
 
-By default, the Resource Scheduling Optimization add-in for Dynamics 365 Field Service considers travel time part of a technician's work hours. However, this default setting doesn't match every organization's business needs. For example, a technician's work hours begin at 8 AM. By default, the optimization algorithm schedules the technician to start to travel to the customer's site at 8 AM. Therefore, the technician won't start to work at the site until some time after 8 AM.
+By default, the Resource Scheduling Optimization add-on for Dynamics 365 Field Service considers travel time part of a technician's work hours. However, this default setting doesn't match every organization's business needs. For example, a technician's work hours begin at 8 AM. By default, the optimization algorithm schedules the technician to start to travel to the customer's site at 8 AM. Therefore, the technician won't start to work at the site until some time after 8 AM.
 
 Administrators can change the settings of an optimization goal to allow travel time outside of working hours. Then, enable the resources that can travel outside working hours.
 

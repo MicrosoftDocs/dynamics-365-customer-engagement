@@ -14,7 +14,7 @@ This article contains release notes from earlier release waves for the following
 
 - [Dynamics 365 Field Service (web and mobile)](#dynamics-365-field-service)
 - [Universal Resource Scheduling](#universal-resource-scheduling)
-- [Resource Scheduling Optimization Add-in](#resource-scheduling-optimization-add-in)
+- [Resource Scheduling Optimization Add-on](#resource-scheduling-optimization-add-on)
 
 If you're troubleshooting a current issue, update to the latest version first. Learn more in [Update apps and solutions](update-field-service.md) and [Get help with Field Service](field-service-get-help.md).
 
@@ -2058,7 +2058,7 @@ This release is a hotfix on Unified resource scheduling [3.12.102.17](/dynamics3
 - Bug Fixes
   -  When a user moves a booking in the weekly view, the date in the prompt message now correctly displays the date the booking is moving to instead of the first day of that week. The date selected is consistent with the original date. For example, move it from Monday to Monday the following week.
   -  Icon for locked bookings now shows on the schedule board.
-  -  Resource Scheduling Optimization Add-in options on the schedule board for single resource optimization behave similarly to the legacy schedule board.
+  -  Resource Scheduling Optimization Add-on options on the schedule board for single resource optimization behave similarly to the legacy schedule board.
   -  The schedule board now always respects the start/end times in the working time settings.
   -  Selecting a resource on hourly/weekly/daily view on the schedule board now opens the Create Booking pane as expected.
   -  Switching from daily to hourly view on the schedule board no longer occasionally crashes the schedule board.
@@ -3244,7 +3244,7 @@ In addition, this release includes the following changes that have the potential
 
 [Read a blog post about the bug fixes](https://cloudblogs.microsoft.com/dynamics365/it/2017/05/19/universal-resource-scheduling-solution-for-dynamics-365-update-6-1/).
 
-## Resource Scheduling Optimization Add-in
+## Resource Scheduling Optimization Add-on
 
 ### Earlier release waves
 

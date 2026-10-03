@@ -88,7 +88,7 @@ The schedule assistant uses requirement details to recommend times and resources
 
 You can launch the schedule assistant from the **Book** button on the ribbon from work orders, requirements, and also directly on the schedule board. Similar to the schedule board, it's customizable and you can also use it on other forms as needed.
 
-### Automated scheduling with the Resource Scheduling Optimization add-in
+### Automated scheduling with the Resource Scheduling Optimization add-on
 
 Resource Scheduling Optimization is an add-in for Dynamics 365 Field Service, which requires a separate license. It includes capabilities to automatically schedule requirements and optimize resource utilization based on custom logic. The add-in plays well with manual or semi-automated scheduling scenarios.
 
@@ -100,7 +100,7 @@ Take a staggered approach to implement scheduling processes in your organization
 
 1. Move to [semi-automated scheduling with the schedule assistant](schedule-assistant.md) to find resources that match the requirements faster.
 
-1. Consider using the [Resource Scheduling Optimization add-in](rso-overview.md) to enable more automation for your scheduling needs. Kick it off with [single resource optimization](single-resource-optimization.md) before rolling out [automation for your entire scheduling process.](rso-schedule-optimization.md)
+1. Consider using the [Resource Scheduling Optimization add-on](rso-overview.md) to enable more automation for your scheduling needs. Kick it off with [single resource optimization](single-resource-optimization.md) before rolling out [automation for your entire scheduling process.](rso-schedule-optimization.md)
   
 ## Next steps
 

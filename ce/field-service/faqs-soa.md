@@ -41,7 +41,7 @@ Dispatchers use the agent to optimize the schedules of one or more technicians i
 
 We tested the agent's ability to determine that the prompt is related to scheduling, in English. The optimization algorithms the agent uses to suggest a new schedule are language-agnostic; however, not all languages are supported. Check the list of supported languages in [Explore Copilot features by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
-To check the agent's ability to suggest an improved schedule, we used metrics similar to the ones we used to evaluate the [Resource Scheduling Optimization add-in](rso-overview.md).
+To check the agent's ability to suggest an improved schedule, we used metrics similar to the ones we used to evaluate the [Resource Scheduling Optimization add-on](rso-overview.md).
 
 In our testing, the agent always suggested a schedule that was better than the original schedule. However, we did find some cases where the agent didn't detect that the prompt was related to scheduling.
 

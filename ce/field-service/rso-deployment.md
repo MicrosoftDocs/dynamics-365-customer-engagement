@@ -1,6 +1,6 @@
 ---
-title: Deploy the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service
-description: Learn how to deploy and manage the deployment for the Resource Scheduling Optimization add-in for Dynamics 365 Field Service.
+title: Deploy the Resource Scheduling Optimization add-on for Dynamics 365 Field Service
+description: Learn how to deploy and manage the deployment for the Resource Scheduling Optimization add-on for Dynamics 365 Field Service.
 ms.date: 09/28/2026
 ms.topic: how-to
 ms.custom: 
@@ -13,7 +13,7 @@ ms.author: anclear
 ai-usage: ai-assisted
 ---
 
-# Deploy the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service
+# Deploy the Resource Scheduling Optimization add-on for Dynamics 365 Field Service
 
 After [getting access to Resource Scheduling Optimization](rso-get-install.md) either by purchasing a license or through your Microsoft representative, deploy it to your Dynamics 365 Field Service environment.
 
@@ -21,7 +21,7 @@ After [getting access to Resource Scheduling Optimization](rso-get-install.md) e
 
 1. Verify Field Service is installed in your environment. The Field Service app appears in the Dynamics 365 apps menu when logged in as a system administrator.
 
-1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). Select **Manage** > **Environments**, and then select the environment where you want to install the Resource Scheduling Optimization add-on.
+1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). Select **Manage** > **Environments**, and then select the environment where you want to install the Resource Scheduling Optimization Add-on.
 
 1. Select **Dynamics 365 apps**, and then select **Install app**.
 

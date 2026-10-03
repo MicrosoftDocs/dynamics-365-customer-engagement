@@ -1,6 +1,6 @@
 ---
 title: Create optimization schedules in Resource Scheduling Optimization
-description: Learn how to use optimization schedules in the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
+description: Learn how to use optimization schedules in the Resource Scheduling Optimization Add-on for Dynamics 365 Field Service.
 author: andrewclear-ms
 ms.author: anclear
 ms.date: 03/31/2026

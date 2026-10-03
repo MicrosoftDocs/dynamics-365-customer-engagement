@@ -1,6 +1,6 @@
 ---
 title: Optimize schedules during the night
-description: Learn how to use overnight scheduling with the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
+description: Learn how to use overnight scheduling with the Resource Scheduling Optimization Add-on for Dynamics 365 Field Service.
 ms.date: 09/25/2026
 ms.subservice: resource-scheduling-optimization
 ms.topic: how-to

@@ -90,11 +90,11 @@ Occasionally, Universal Resource Scheduling releases include updates to the Univ
 
 You can customize UFX queries. If you customize a UFX query, updates import the latest version, but they *don't apply it automatically*. Add your customizations to the new UFX query and apply them manually in the [schedule board settings](schedule-board-tab-settings.md). To understand the differences between the old XML file with your custom queries and the updated XML file, consider using GitHub for version control.
 
-## Resource Scheduling Optimization add-in
+## Resource Scheduling Optimization add-on
 
-The [Resource Scheduling Optimization add-in](rso-overview.md) automates scheduling of work orders, resources, and bookings. An administrator applies updates throughout the year.
+The [Resource Scheduling Optimization add-on](rso-overview.md) automates scheduling of work orders, resources, and bookings. An administrator applies updates throughout the year.
 
-Learn more in [Deploy the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service](rso-deployment.md).
+Learn more in [Deploy the Resource Scheduling Optimization add-on for Dynamics 365 Field Service](rso-deployment.md).
 
 ## Update model-driven apps
 

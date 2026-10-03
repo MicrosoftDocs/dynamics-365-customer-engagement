@@ -10,13 +10,13 @@ ms.subservice: resource-scheduling-optimization
 
 # Overview of Resource Scheduling Optimization
 
-The Resource Scheduling Optimization Add-in for Dynamics 365 Field Service automatically schedules jobs to the resources that are best equipped to complete them. For example, it schedules work orders for field technicians or cases for customer service reps. While the [schedule board](./schedule-board-manual-scheduling.md#create-a-manual-booking) and the [schedule assistant](./schedule-assistant.md) help schedule a single job, this add-in can schedule multiple jobs at once. It maximizes resource use and minimizes travel time. Resource Scheduling Optimization considers the requirements of the job and the unique attributes of the resources.
+The Resource Scheduling Optimization Add-on for Dynamics 365 Field Service automatically schedules jobs to the resources that are best equipped to complete them. For example, it schedules work orders for field technicians or cases for customer service reps. While the [schedule board](./schedule-board-manual-scheduling.md#create-a-manual-booking) and the [schedule assistant](./schedule-assistant.md) help schedule a single job, this add-in can schedule multiple jobs at once. It maximizes resource use and minimizes travel time. Resource Scheduling Optimization considers the requirements of the job and the unique attributes of the resources.
 
 Resource Scheduling Optimization is a paid add-in to Dynamics 365 Field Service and is built on top of the entities of the [Universal Resource Scheduling solution](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md). The price of Resource Scheduling Optimization is based on the number of resources whose schedules are optimized. Learn more in [Get Resource Scheduling Optimization](rso-get-install.md).
 
 ## Key benefits
 
-Automated scheduling is often required because scheduling a high volume of jobs manually takes time. Resource Scheduling Optimization assists dispatchers with job matching and helps free up their time to focus on other tasks. Benefits of the Resource Scheduling Optimization add-in include:
+Automated scheduling is often required because scheduling a high volume of jobs manually takes time. Resource Scheduling Optimization assists dispatchers with job matching and helps free up their time to focus on other tasks. Benefits of the Resource Scheduling Optimization add-on include:
 
 - **Achieve scale**: By managing more resources, dispatchers can help the business scale to new territories or service offerings.
 
@@ -57,7 +57,7 @@ You can configure Resource Scheduling Optimization for your business needs based
 
 ## Geographical availability
 
-The [Resource Scheduling Optimization Add-in is available](field-service-version-history-resource-scheduling-optimization.md) in most [regions where Dynamics 365 Field Service is offered](https://dynamics.microsoft.com/availability-reports/).
+The [Resource Scheduling Optimization Add-on is available](field-service-version-history-resource-scheduling-optimization.md) in most [regions where Dynamics 365 Field Service is offered](https://dynamics.microsoft.com/availability-reports/).
 
 ## Understand how it works
 
