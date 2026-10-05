@@ -1,7 +1,7 @@
 ---
 title: Configure Recommended Actions agent
 description: Learn how to configure recommended actions in Dynamics 365 Sales to help sellers focus on the most effective tasks for their opportunities.
-ms.date: 09/18/2026
+ms.date: 10/05/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -74,24 +74,6 @@ Add custom agents to show actions in the recommended actions experience by addin
 
 To disable recommended actions for an agent, turn off the recommended actions toggle in the **Connected skills** section of the corresponding agent's configuration page.
 When disabled, the agent continues to run and generate insights in its own interface but the insights don't appear in the recommended actions interface. You can re-enable the source at any time to get the insights back in the recommended actions interface.  
-
-## Permissions required for custom security roles
-
-If you use custom security roles in your organization, add the following privileges to allow users to access and interact with recommended actions. Built-in sales security roles include these privileges by default.
-
-| Privilege | Table | Access level |
-|-----------|-------|--------------|
-| `prvReadmsdyn_rawactioncatalogue` | msdyn_rawactioncatalogue | User (Basic) |
-| `prvWritemsdyn_rawactioncatalogue` | msdyn_rawactioncatalogue | User (Basic) |
-| `prvReadmsdyn_prioritizedactioncatalogue` | msdyn_prioritizedactioncatalogue | User (Basic) |
-| `prvWritemsdyn_prioritizedactioncatalogue` | msdyn_prioritizedactioncatalogue | User (Basic) |
-| `prvReadmsdyn_recommendedactionsourceagentconfig` | msdyn_recommendedactionsourceagentconfig | Organization (Global) |
-| `prvReadmsdyn_salesagentprofile` | msdyn_salesagentprofile | Organization (Global) |
-| `prvReadmsdyn_dataqualitysuggestion` | msdyn_dataqualitysuggestion | Organization (Global) |
-| `prvWritemsdyn_dataqualitysuggestion` | msdyn_dataqualitysuggestion | User (Basic) |
-| `prvReadmsdyn_dataqualitysource` | msdyn_dataqualitysource | Organization (Global) |
-
-To add these privileges to a custom security role, go to **Power Platform admin center** > **Environments** > select your environment > **Settings** > **Users + permissions** > **Security roles**. Open the custom role, locate each table on the **Custom Entities** or relevant tab, and set the specified access level.
 
 ## Migrate agents across environments
 
