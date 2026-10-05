@@ -4,7 +4,7 @@ description: Recommended Actions Agent integration for Dynamics 365 Sales lets c
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 09/11/2026
+ms.date: 10/05/2026
 ms.service: dynamics-365-sales
 ms.custom: bap-template
 ms.topic: install-set-up-deploy
@@ -22,7 +22,6 @@ This article describes the architecture, key components, data contracts, and int
 ## Prerequisites
 
 - **NextBestActionAgent** solution deployed to the target organization. For more information, see [Import an agent into a target environment](../import-export-agent-solutions.md).
-- Seller has appropriate **Dataverse security roles** as described in [Permissions required for custom security roles](../configure-recommended-actions.md#permissions-required-for-custom-security-roles).
 - A stable, unique **SourceAgentId** string for the custom agent. For more information, see [Add custom agents for recommended actions](../configure-recommended-actions.md#add-custom-agents-for-recommended-actions).
 - The following permissions are required to push recommended actions:
 
