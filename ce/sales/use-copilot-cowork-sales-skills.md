@@ -4,7 +4,7 @@ description: Dynamics 365 Sales Skills in Copilot Cowork help teams prep for mee
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 09/30/2026
+ms.date: 10/05/2026
 ms.topic: how-to
 ms.update-cycle: 180-days
 ai.collection: bap-ai-copilot
@@ -23,7 +23,7 @@ The following prerequisites are required to use the sales skills packaged in the
 
 - [Dataverse MCP server](/power-apps/maker/data-platform/data-platform-mcp-disable) is enabled for your environment. The Copilot Cowork plugin for Dynamics 365 Sales uses the Dataverse MCP server to access your Dynamics 365 Sales data.
 
-- Sales agent is installed and available. The agent is auto-installed for eligible organizations and users based on their license. Learn more in [Install Sales agent](/microsoft-sales-copilot/install-sales-app).
+- The Sales app is installed and available for your organization. The app includes the Sales plugin for Cowork. The app is auto-installed for eligible organizations and users based on their license. Learn more in [Automatic installation for eligible Dynamics 365 users](/microsoft-sales-copilot/install-sales-app#automatic-installation-for-eligible-dynamics-365-users).
 
 **For users:**
 
@@ -97,24 +97,24 @@ Copilot Cowork invokes the necessary skills based on your prompts. The following
 
 | Skill name | Description | Sales plugin (requires Dynamics 365 Sales license) | Sales for Cowork plugin (CRM-agnostic) |
 |---|---|---|---|
-| Stage advance readiness | Assess whether deals are ready to move forward with criteria-based readiness checks. | Yes | No |
-| Reconcile my opportunity | Align your pipeline data and resolve discrepancies to ensure accurate forecasting. | Yes | No |
-| Draft outreach | Generate personalized customer communications and outreach templates. | Yes | No |
+| Business case composer | Build compelling business cases and proposals grounded in customer data. | Yes | Yes |
+| Competitive strategy | Analyze competitive threats and develop counter-strategies for your deals. | Yes | Yes |
+| CRM data hygiene | Identify and resolve data quality issues in your CRM. | Yes | No |
 | Customer engagement strategy | Develop a data-driven engagement strategy based on customer and deal context. | Yes | No |
+| Deal catch-up | Quickly understand changes and updates to your deals with a comprehensive summary of what's new. | Yes | Yes |
 | Deal desk | Access deal support, guidance, and escalation for complex or at-risk opportunities. | Yes | No |
-| Team pipeline review | Analyze team pipeline health, velocity, and forecast accuracy. | Yes | No |
+| Draft outreach | Generate personalized customer communications and outreach templates. | Yes | No |
 | Executive deal review | Prepare executive summaries of critical deals and pipeline status. | Yes | No |
 | Forecast rollup | Consolidate and verify forecast data across your team or organization. | Yes | No |
-| CRM data hygiene | Identify and resolve data quality issues in your CRM. | Yes | No |
-| Sales Research Agent | Conduct research on accounts, competitors, and market trends. | Yes | No |
-| Segment analysis | Analyze your customer segments and identify patterns and opportunities. | Yes | No |
-| Team activity coaching | Monitor team activity and provide coaching recommendations to improve performance. | Yes | No |
 | Meeting preparation | Automatically prepare for customer meetings by pulling relevant account, opportunity, and activity context. | Yes | Yes |
-| Deal catch-up | Quickly understand changes and updates to your deals with a comprehensive summary of what's new. | Yes | Yes |
 | Pipeline prioritizer | Identify which opportunities to focus on based on deal stage, size, timeline, and engagement signals. | No | Yes |
 | Post-meeting follow-up | Create follow-up actions and communications after customer interactions. | Yes | Yes |
-| Competitive strategy | Analyze competitive threats and develop counter-strategies for your deals. | Yes | Yes |
-| Business case composer | Build compelling business cases and proposals grounded in customer data. | Yes | Yes |
+| Reconcile my opportunity | Align your pipeline data and resolve discrepancies to ensure accurate forecasting. | Yes | No |
+| Sales Research Agent | Conduct research on accounts, competitors, and market trends. | Yes | No |
+| Segment analysis | Analyze your customer segments and identify patterns and opportunities. | Yes | No |
+| Stage advance readiness | Assess whether deals are ready to move forward with criteria-based readiness checks. | Yes | No |
+| Team activity coaching | Monitor team activity and provide coaching recommendations to improve performance. | Yes | No |
+| Team pipeline review | Analyze team pipeline health, velocity, and forecast accuracy. | Yes | No |
 
 ## Governance and compliance
 
