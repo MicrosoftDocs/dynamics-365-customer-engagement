@@ -35,6 +35,16 @@ Before you set up the offline profile, consider these important guidelines:
 
 - **Use offline JavaScript**. Organizations often need to run workflows on mobile devices to execute business processes. However, Power Automate flows only run when the device has a network connection or on the next sync. If you need to run workflows on the device on-demand and without Internet access, use offline JavaScript instead. [Learn more about workflows and scripts for the Field Service mobile app](/dynamics365/guidance/resources/fs-mobile-automate-business-processes).
 
+- **Use JavaScript `Date` objects for offline DateTime updates**. When custom offline scripts update DateTime columns with `Xrm.WebApi.offline.updateRecord`, prefer passing a JavaScript `Date` object.
+
+  Supported approach:
+
+  ```javascript
+  await Xrm.WebApi.offline.updateRecord(entityName, entityid, {
+    msdyn_actualarrivaltime: new Date()
+  });
+  ```
+
 - **Limit concurrent offline data calls**. Keep custom calls to the offline database to 2–4 concurrent requests. The app already makes many offline calls on its own, and adding more degrades performance. 
 
 > [!IMPORTANT]
