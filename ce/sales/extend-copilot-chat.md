@@ -1,7 +1,7 @@
 ---
 title: Customize Copilot in Dynamics 365 Sales
 description: Learn how to extend Copilot in Dynamics 365 Sales to customize the welcome message, add prompts, and the prompt guide.
-ms.date: 04/09/2026
+ms.date: 10/08/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -60,8 +60,11 @@ Let's say that you have a custom field called **custom revenue** in the **opport
 **To add synonyms and glossary terms:**
 
 1. Open [Copilot Studio](https://copilotstudio.microsoft.com) and select your Dynamics 365 Sales environment.
-
 1. Select **Agents** > **Copilot in Dynamics 365 Sales**.
+
+    > [!NOTE]
+    > In Copilot Studio, **Copilot in Dynamics 365 Sales** might appear as **Sales Copilot Power Virtual Agents Bot**.
+
 1. Under the **Knowledge** section, select **SalesSpecificQnA**.
 1. Select the **Glossary** section and enter the term and description. 
 1. Select the **Synonyms** section and add synonyms for the relevant columns in your tables.
