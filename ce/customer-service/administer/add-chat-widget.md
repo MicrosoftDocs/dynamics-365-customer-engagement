@@ -18,13 +18,11 @@ You can configure a live chat widget that you display on your portal so customer
 
 To add a chat widget, configure a workstream that defines how chat conversations are routed to queues. Learn more in [Create a workstream](create-workstreams.md).
 
-## Configure the modern chat widget (Preview)
+## Configure the modern chat widget
 
 You can add the modern chat widget to an existing channel or create a new channel and then add the widget.
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-
-### Add to an existing Chat channel
+### Add to an existing classic Chat channel
 
 1. In the site map of Copilot Service admin center, select **Workstreams** in **Customer support**. The **Workstreams** page appears.
 
