@@ -1,23 +1,21 @@
 ---
-title: Use Microsoft 365 Copilot in Dynamics 365 Sales (preview)
+title: Use Microsoft 365 Copilot in Dynamics 365 Sales
 description: Learn how to use Microsoft 365 Copilot to gain insights about the data in Dynamics 365 Sales.
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: overview
-ms.date: 06/16/2026
+ms.date: 10/12/2026
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ---
 
-# Use Microsoft 365 Copilot in Dynamics 365 Sales (preview)
-
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+# Use Microsoft 365 Copilot in Dynamics 365 Sales
 
 [!INCLUDE [use-microsoft-365-copilot-model-driven-apps](~/../shared-content/shared/dynamics365-core/use-microsoft-365-copilot-model-driven-apps.md)]
 
 
 ## Related information
 
-- [Use the Sales agent in Microsoft 365 Copilot from within Dynamics 365 Sales (preview)](/microsoft-sales-copilot/use-sales-chat?context=/dynamics365/context/sales-context)
+- [Use the Sales agent in Microsoft 365 Copilot from within Dynamics 365 Sales](/microsoft-sales-copilot/use-sales-chat?context=/dynamics365/context/sales-context)
 - [Agents, Copilot, and AI capabilities in Dynamics 365 apps](/dynamics365/copilot/ai-get-started)
