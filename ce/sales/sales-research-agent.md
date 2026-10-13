@@ -2,7 +2,7 @@
 title: Sales Research Agent overview 
 description: Learn how to use the Sales Research Agent in Dynamics 365 Sales to get insights about your customers, prospects, sales targets, and competitors.
 manager:
-ms.date: 03/31/2026
+ms.date: 10/13/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -22,17 +22,17 @@ The Sales Research Agent in Dynamics 365 Sales empowers you to solve complex bus
 
 Use the agent to:
 
-- Get insights from your Dynamics 365 Sales data and offline files (CSV, Excel, or PDF) to help you make informed decisions. The agent specializes in answering strategic business questions in areas such as pipeline exploration and sales operations. 
-- Leverage the research blueprint that includes a summary of the agent's research, key findings, and suggested next steps that are based on the business context and data you provide.
+- Get insights from your Dynamics 365 Sales data, Microsoft Fabric Lakehouse, and offline files (CSV, Excel, or PDF) to help you make informed decisions. The agent specializes in answering strategic business questions in areas such as pipeline exploration and sales operations. 
+- Leverage the research blueprint that includes a summary of the agent's research, key findings, and suggested next steps that are based on the business context and data you provide. 
 - Interact with the research findings using natural language. Ask follow-up questions, change visualizations, and add more data to your research.
 
 ## How the agent works
 
-1. The Sales Research Agent connects to your Dynamics 365 Sales data by default. You can connect it to other data sources such as other Dataverse environments or Fabric Lakehouse, or upload Excel, CSV, or PDF files to further enrich the basis of your explorations. Learn more in [Connect the agent to a different data source](sales-research-agent-connect-data.md).
+1. The Sales Research Agent connects to your Dynamics 365 Sales data by default. You can connect it to other data sources such as Microsoft Fabric Lakehouse, other Dataverse environments, or upload Excel, CSV, or PDF files to further enrich the basis of your explorations. Learn more in [Connect the agent to a different data source](sales-research-agent-connect-data.md) and [Connect Sales Research Agent to Microsoft Fabric Lakehouse](sales-research-agent-lakehouse-integration.md).
 
 1. When you ask the agent a question using one of the starter prompts or in natural language, the agent responds by generating a research blueprint containing data visualizations with a text-based overview. Ask follow-up questions, change visualizations, and add more data to your research. Learn more in [Analyze your sales performance using the Sales Research Agent](use-sales-research-agent.md).
-1. The agent uses the context you provide and the data it has access to in order to generate insights. The more context you provide, the better the insights will be. You can provide either general context about your business or create specific business functions to tailor the agent's output to specific use cases. Learn more in [Provide context to enhance the Sales Research Agent](sales-research-agent-provide-context.md).
-1. Show work on the research blueprint explains how the agent arrived at its conclusions, including what data it used and, the steps it took to analyze the data. Learn more in [Start your research journey](use-sales-research-agent.md#start-your-research-journey).
+1. The agent uses the context you provide and the data it has access to in order to generate insights. Provide context by selecting a business function tailored to your specific use case, or by providing general context about your business. You can create custom business functions using Business Function Builder (preview) to define intelligence for specific sales scenarios. Learn more in [Provide context to enhance the Sales Research Agent](sales-research-agent-provide-context.md) and [Business functions overview](sales-research-agent-business-function-builder.md).
+1. Show work on the research blueprint explains how the agent arrived at its conclusions, including what data it used and the steps it took to analyze the data. Learn more in [Start your research journey](use-sales-research-agent.md#start-your-research-journey).
 
 
 ## How to set up and use the agent
@@ -42,7 +42,7 @@ Depending on your role, use the following links to learn about configuring and u
 | Role(s)                        | Which app to use?                                                                                 | Link to documentation                                                                                   |
 |--------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | System administrators, makers  | Power Platform admin center                         | [Set up and configure Sales Research Agent](configure-sales-research-agent.md)     |
-| Sellers and Sales managers     | Sales Hub app             | [Analyze your sales performance using the Sales Research Agent](use-sales-research-agent.md)<br>[Connect the agent to a different data source](sales-research-agent-connect-data.md)<br>[Provide context to enhance the Sales Research Agent](sales-research-agent-provide-context.md)<br>[Connect Sales Research Agent to Microsoft Fabric Lakehouse](sales-research-agent-lakehouse-integration.md) |
+| Sellers and Sales managers     | Sales Hub app             | [Analyze your sales performance using the Sales Research Agent](use-sales-research-agent.md)<br>[Connect the agent to a different data source](sales-research-agent-connect-data.md)<br>[Provide context to enhance the Sales Research Agent](sales-research-agent-provide-context.md)<br>[Connect Sales Research Agent to Microsoft Fabric Lakehouse](sales-research-agent-lakehouse-integration.md)<br>[Create business functions with Business Function Builder (preview)](sales-research-agent-business-function-builder-create.md) |
 
 
 ## Legal and regulatory considerations
