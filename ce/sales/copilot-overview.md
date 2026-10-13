@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 04/08/2026
+ms.date: 10/13/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -20,10 +20,10 @@ ai-usage: ai-assisted
 
 # Copilot in Dynamics 365 Sales overview
 
-Copilot is an AI assistant in Dynamics 365 Sales that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on recent changes to their records, prepare for meetings, and read the latest news about their accounts. Sellers can chat with Copilot in natural language or use predefined prompts to get the information they need. Learn how to use [Copilot in Dynamics 365 Sales](use-sales-copilot.md).
+Copilot is an AI assistant in Dynamics 365 Sales that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get information from SharePoint, ask for customer updates and new assignments, prepare for meetings, and read the latest news about their accounts. Sellers can chat with Copilot in natural language or use predefined prompts to get the information they need. Learn how to use [Copilot in Dynamics 365 Sales](use-sales-copilot.md).
 
 > [!NOTE]
-> The [Sales agent in Microsoft 365 Copilot](/microsoft-sales-copilot/use-sales-chat?context=/dynamics365/context/sales-context) is the evolution of the Copilot experience for sales teams. The Sales agent provides AI-powered assistance for sales activities across Microsoft 365 apps and Dynamics 365 Sales.  You can access it from within your Dynamics 365 Sales app. As capabilities continue to evolve, the Sales agent will become the preferred way to access Copilot assistance in Dynamics 365 Sales. Learn more about the differences between the Sales agent in Microsoft 365 Copilot and Copilot in Dynamics 365 Sales and how to migrate to the Sales agent in the [FAQ article](sales-copilot-faq.md).
+> The [Sales agent in Microsoft Copilot](/microsoft-sales-copilot/use-sales-chat?context=/dynamics365/context/sales-context) is the evolution of the Copilot experience for sales teams. The Sales agent provides AI-powered assistance for sales activities across Microsoft 365 apps and Dynamics 365 Sales.  You can access it from within your Dynamics 365 Sales app. As capabilities continue to evolve, the Sales agent will become the preferred way to access Copilot assistance in Dynamics 365 Sales. Learn more about the differences between the Sales agent in Microsoft 365 Copilot and Copilot in Dynamics 365 Sales and how to migrate to the Sales agent in the [FAQ article](sales-copilot-faq.md).
 
 ## Licensing requirements
 
@@ -45,7 +45,7 @@ Learn more in [Ask questions of Copilot in Dynamics 365 Sales](use-sales-copilot
 
 ## Geographical availability and languages supported
 
-Copilot in Dynamics 365 Sales is available in geographical regions and languages listed in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport). [Learn how to use the report](#how-to-use-the-copilot-international-availability-report).
+Copilot in Dynamics 365 Sales is available in the geographical regions and languages listed in the [Copilot international availability report](https://releaseplans.microsoft.com/en-US/availability-reports/?report=featuregeoreport). [Learn how to use the report](#how-to-use-the-copilot-international-availability-report). 
 
 Copilot takes into account the [user's preferred UI language](/dynamics365/project-operations/environment/language-localization) and localizes responses based on that preference. Depending on the user's preferred UI language, org language, and languages supported for a specific Copilot feature, the responses are localized accordingly. The following table summarizes the expected behavior in different scenarios:
 
@@ -55,13 +55,12 @@ Copilot takes into account the [user's preferred UI language](/dynamics365/proje
 | English or non-English   | One of the supported non-English languages | Output in the preferred UI language of the user.                                                |
 | English or non-English   | An unsupported language     | Output is unpredictable as the language is unsupported. The responses are mixed with English and the user language. Use one of the supported Copilot languages. |
 
-We're continuously working to expand the availability of Copilot features in more regions and languages. If you don't see your region or language listed in the report, check back later for updates.
 
 ### How to use the Copilot international availability report
 
-The [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport) provides information about the availability of Copilot in Dynamics 365 Sales features across different regions and languages.
+The [Copilot international availability report](https://releaseplans.microsoft.com/en-US/availability-reports/?report=featuregeoreport) provides information about the availability of Copilot in Dynamics 365 Sales features across different regions and languages.
 
-You can filter the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport) by product name, region, and language to know whether a Copilot feature is available in your specific region and language. Alternatively, you can use the report to get a list of Copilot features available in your region and preferred language. The following screenshot illustrates Copilot in Dynamics 365 Sales features available in Europe and are supported in German:
+You can filter the [Copilot international availability report](https://releaseplans.microsoft.com/en-US/availability-reports/?report=featuregeoreport) by product name, region, and language to know whether a Copilot feature is available in your specific region and language. Alternatively, you can use the report to get a list of Copilot features available in your region and preferred language. The following screenshot illustrates Copilot in Dynamics 365 Sales features available in Europe and are supported in German:
 
 :::image type="content" source="media/international-availability-report.png" alt-text="Screenshot of the international availability report with filters applied." lightbox="media/international-availability-report.png":::
 
