@@ -2,5 +2,4 @@
        - The case was created before the case sentiment feature was configured.
        - The case is created but no interaction is linked to it yet.
        - Sentiment isn’t generated due to an error.    
-   [This feature is prerelease documentation and is subject to change.]
     
