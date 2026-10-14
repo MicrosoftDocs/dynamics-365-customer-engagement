@@ -2,7 +2,7 @@
 title: Known issues and limitations
 ms.reviewer: wesmith
 description: Learn about the known issues and limitations with the Field Service and Project Operations integration.
-ms.date: 08/25/2026
+ms.date: 10/06/2026
 ms.topic: article
 author: vhorvathms
 ms.author: vhorvath
@@ -31,7 +31,7 @@ ms.author: vhorvath
 
 ### Unable to approve Material Usage Log for stocked products
 
-When you approve material usage records for stocked products, you might receive an error. This error occurs because Project Operations makes an asynchronous call to a virtual table, which leads to a failure when retrieving Project On-Hand inventory data. 
+When you approve material usage records for stocked products, you might receive an error. This error occurs because Project Operations makes an asynchronous call to a virtual table, which leads to a failure when retrieving Project On-Hand inventory data.
 
 For more information, see [Configuring the asynchronous threshold for approval sets](/dynamics365/project-operations/approvals/approval-sets#configuring-the-asynchronous-threshold-for-approval-sets).
 
@@ -52,5 +52,29 @@ All future Material Usage Logs are automatically approved if the **Auto-Approve 
 If you're using the [Integrated Project Operations deployment model](project-operations-integration-inventory.md), updates to Cost Actuals can originate from Finance, resulting in extended amounts that differ from their parallel Cost Journal Lines. 
 
 This difference is expected and results from costing parameters in Finance that require adjustments to Actuals. For example, weighted averages or first-in, first-out (FIFO) costs can be different from the more static cost on a price list. Learn more in [Inventory cost for material usage](/dynamics365/project-operations/procurement/stock-material-reservation#inventory-cost-for-material-usage).
+
+### Missing enable stocked products setting
+
+In some environments, the **Enable stocked products usage for project operations integrated deployments** setting might not appear in the Project Operations feature settings under Project Parameters. This setting controls whether stocked products can be used within Project Operations. It's for **Integrated Project Operations with Finance** deployments only.
+
+If you can't access the setting through Project Operations Settings, you can update it from the browser developer console.
+
+1. Open Project Operations in your browser.
+
+1. Press F12 to open the browser developer tools and select the **Console** tab.
+
+1. If the browser prevents code from being pasted into the console, type:
+`allow pasting`
+
+1. Check the current value of the setting by running:
+`Xrm.Utility.getGlobalContext().getCurrentAppSetting("msdyn_useStockedProducts");`
+
+1. If the setting returns `false`, enable it by running:
+`Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_useStockedProducts", true);`
+
+1. As a best practice, run the check command again to confirm that the value now returns `true`:
+`Xrm.Utility.getGlobalContext().getCurrentAppSetting("msdyn_useStockedProducts");`
+
+   If the value still returns `false`, the setting wasn't successfully updated and you might need to troubleshoot further.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

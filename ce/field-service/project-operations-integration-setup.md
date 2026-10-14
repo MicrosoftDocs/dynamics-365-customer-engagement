@@ -1,7 +1,7 @@
 ---
 title: Set up Field Service integration with Project Operations
 description: Learn how to set up the integration between Field Service and Project Operations.
-ms.date: 06/23/2026
+ms.date: 10/05/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -11,7 +11,7 @@ ms.author: vhorvath
 
 Set up the integration between Field Service and Project Operations to connect service delivery with project management.
 
-To download and install the Dynamics 365 Field Service and Project Operations integration package, the installing user must have at least one Project Operations license. For additional licensing information, go to the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+To download and install the Dynamics 365 Field Service and Project Operations integration package, the installing user must have at least one Project Operations license. For more information about licensing, see the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
 
 The Field Service and Project Operations Integration package includes a flow that runs regularly under the user who installs the package. Review the [Types of Power Automate licenses](/power-platform/admin/power-automate-licensing/types) and confirm that the installing user and recurring flow usage are licensed appropriately for your environment. Learn more in [Power Automate licensing FAQ](/power-platform/admin/power-automate-licensing/faqs).
 
@@ -78,6 +78,12 @@ If you want Project Operations to define pricing and costing logic instead of Fi
    - **Calculate Cost in Field Service** = So that cost comes from the contracting unit **Cost Price List**.
 
 1. Select **Save & Close**.
+
+## Verify process work order revision line flow
+
+A recurring cloud flow runs every minute to process all active work order revision lines. These lines provide a snapshot of a work order product or service at a specific point in time. Learn more in [Work order line revisions](project-operations-integration-monitor-dashboard.md#work-order-line-revisions). Verify the cloud flow is on.
+
+[!INCLUDE[project-operations-integration-power-apps-cloud-flow](../includes/project-operations-integration-power-apps-cloud-flow.md)]
 
 ## Set up the Field Service mobile app
 
