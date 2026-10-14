@@ -1,7 +1,7 @@
 ---
 title: Configure AI agent monitoring
 description: Configure agent feed for supervisors to monitor AI agent activities in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 05/27/2026
+ms.date: 10/14/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: neeranelli

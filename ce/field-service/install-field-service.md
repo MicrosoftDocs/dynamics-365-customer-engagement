@@ -54,4 +54,6 @@ After installing Field Service and the Field Service mobile app, see the followi
 - [Create a bookable resource](set-up-bookable-resources.md)
 - [Get started with Dynamics 365 Field Service](field-service-get-started.md)
 
+To move an existing Field Service environment to a new environment or tenant, see [Migrate Field Service to a new environment](migrate-field-service-environment.md).
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
