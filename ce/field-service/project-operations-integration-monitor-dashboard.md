@@ -1,7 +1,7 @@
 ---
 title: Monitor work order financial processing
 description: Learn how to monitor the financial processing of work order products and services in Dynamics 365 Field Service with the Dynamics 365 Project Operations integration.
-ms.date: 08/05/2026
+ms.date: 10/05/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -54,12 +54,7 @@ A recurring cloud flow runs every minute to process all active revision lines. I
 
 If you notice that changes to work order products don't produce estimates or actuals, make sure the cloud flow is on.
 
-1. Sign in to [Power Apps](https://make.powerapps.com/), select your environment, and then select **Solutions**.
+[!INCLUDE[project-operations-integration-power-apps-cloud-flow](../includes/project-operations-integration-power-apps-cloud-flow.md)]
 
-1. Open the **Default Solution** and select **Objects**.
-
-1. Select **Cloud flows** and then search for **Flow - Recurrence - Process Work Order Line Revisions**.
-
-1. Make sure the flow is turned on.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,7 +37,7 @@ Learn more in [best practices to manage queues](unified-routing-best-practices.m
 
 Unified routing prioritizes work within individual queues and across queues. Prioritization within a queue can be of the following types:
 
-- First-in-first-out is the default prioritization logic applicable for the out-of-box assignment methods and [custom assignment methods](configure-assignment-rules.md) that have no prioritization rules.
+- First-in-first-out is the default prioritization logic applicable for the out-of-box assignment methods and [custom assignment methods](configure-assignment-rules.md) that have no prioritization rules. For chat and voice conversations, the system considers the conversation creation time. For messaging channels like WhatsApp, the system considers the last interaction time. 
 - Custom prioritization that can be defined with a custom assignment method.
 
 The oldest conversation or work item in the queue is assigned first. For asynchronous messaging channels such as persistent chat, WhatsApp, and Facebook, the oldest conversation is determined based on the last interaction time. For example, a customer contacts you on WhatsApp on Monday. The issue is resolved on Tuesday, but the conversation remains open. The conversation then enters the [waiting state](../use/oc-conversation-state.md). The same customer returns on Thursday afternoon with a new question. Other customers have been waiting in the queue since Thursday morning. The returning customer is prioritized only after those waiting customers.
