@@ -5,7 +5,7 @@ author: lalexms
 ms.author: borisvolfson
 ms.reviewer: laalexan
 ms.topic: how-to
-ms.date: 04/21/2026
+ms.date: 10/14/2026
 ---
 
 # Extend Copilot with Copilot Studio (preview)
@@ -151,5 +151,6 @@ Currently, you can't update the following components:
 - The agent model. However, if you connect this agent to other agents, you can use a different model in those agents.
 - Instructions.
 - Certain managed topics. Topics with names that start with `msdyn_` can't be modified.
-- Custom connectors that use OAuth authentication. For improved user experience, select **Maker Authentication** for **User Experience benefits** when possible. Learn more in [User connectors with maker-provided credentials](/microsoft-copilot-studio/advanced-connectors#use-connectors-with-maker-provided-credentials).
+- Custom connectors that use OAuth authentication. For an improved user experience, select **Maker Authentication** for **User Experience benefits** when possible. Learn more in [Use connectors with maker-provided credentials](/microsoft-copilot-studio/advanced-connectors#use-connectors-with-maker-provided-credentials).
 
+This feature isn't available for tenants in the Government Community Cloud - M and Government Community Cloud - H regions. Learn more in [Supported regions for Copilot features](cs-region-availability-service-limits.md#supported-regions-for-copilot-features).
