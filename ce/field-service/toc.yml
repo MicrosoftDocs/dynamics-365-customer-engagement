@@ -121,8 +121,8 @@ items:
       items:
         - name: Copilot overview
           href: copilot-overview.md
-        - name: Side pane chat
-          href: copilot-side-pane.md
+        - name: Use Microsoft Copilot
+          href: use-microsoft-365-copilot-model-driven-apps.md          
         - name: Work order summary
           items:
             - name: Enable work order summary
@@ -133,8 +133,6 @@ items:
           href: work-order-update.md
         - name: Create inspection templates (preview)
           href: inspections-copilot.md
-        - name: Use Microsoft 365 Copilot
-          href: use-microsoft-365-copilot-model-driven-apps.md
         - name: Supervise agents with agent feed (preview)
           href: supervise-agents-with-agent-feed.md
         - name: Use Copilot's form fill assistance 
@@ -146,7 +144,9 @@ items:
         - name: Use row summaries
           href: record-summaries.md
         - name: Use timeline highlights with generative AI
-          href: use-timeline-highlights-powered-by-generative-ai.md                
+          href: use-timeline-highlights-powered-by-generative-ai.md
+        - name: Side pane chat (legacy)
+          href: copilot-side-pane.md                          
     - name: AI agents
       items:
         - name: AI agents overview
