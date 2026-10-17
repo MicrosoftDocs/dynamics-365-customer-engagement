@@ -1,8 +1,8 @@
 ---
-title: Supported regions and languages for autonomous agents, copilot features, and analytics in Customer Service and Dynamics 365 Contact Center
-description: Learn about region availability and the languages supported for autonomous agents, copilot features, and analytics in Customer Service and Dynamics 365 Contact Center.
+title: Supported regions and languages for autonomous agents, Copilot features, and analytics in Customer Service and Dynamics 365 Contact Center
+description: Learn about region availability and the languages supported for autonomous agents, Copilot features, and analytics in Customer Service and Dynamics 365 Contact Center.
 ms.topic: concept-article
-ms.date: 09/30/2026
+ms.date: 10/14/2026
 ms.update-cycle: 90-days
 author: Soumyasd27
 ms.author: sdas
@@ -32,13 +32,14 @@ Learn about supported regions for the following autonomous agents in [Explore fe
 
 The following table lists the region availability of Copilot features for the respective geographical locations.
 
-| Feature | North America| Europe | Asia Pacific | South America | Australia | Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland | Germany | Korea | Norway | Singapore | South Africa | Government Community Cloud - M | Government Community Cloud - H |
+| Feature | North America | Europe | Asia Pacific | South America | Australia | Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland | Germany | Korea | Norway | Singapore | South Africa | Government Community Cloud - M | Government Community Cloud - H |
 | ------- | ------------ | ------ | ------------ | ------------- | --------- | ----- | ----- | ---- | ------ | -------------- | ------ | -------------------- | ----------- | ------- | ----- | ------ | --------- | ------------ | ------------------------------ | ------------------------------ |
-| Copilot&mdash;Summarize cases | Yes | Yes | Yes |	Yes | Yes |	Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Copilot&mdash;Summarize conversations | Yes | Yes | Yes |	Yes | Yes |	Yes | No | Yes | Yes |	Yes | No | No | No | No | No | No | No | No | No | No |
-| Copilot&mdash;Ask a question | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes |	Yes | Yes | Yes |	Yes | Yes |	Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Copilot&mdash;Draft emails | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes |	Yes | Yes |	Yes | Yes |	Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Copilot&mdash;Draft a chat response |	Yes | Yes |	No | No | No | No |	No | No | No | Yes | No | No | No | No |	No | No | No | No | No | No |
+| Copilot&mdash;Summarize cases | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Copilot&mdash;Summarize conversations | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | No | No | No | No | No | No | No | No | No | No |
+| Copilot&mdash;Ask a question | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Copilot&mdash;Ask a question (Extend Copilot with Copilot Studio) | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No |
+| Copilot&mdash;Draft emails | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Copilot&mdash;Draft a chat response | Yes | Yes | No | No | No | No | No | No | No | Yes | No | No | No | No | No | No | No | No | No | No |
 | Copilot&mdash;Generate knowledge drafts from cases | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No | No | No | No | No |
 
 Yes: Available  
@@ -62,12 +63,12 @@ The following table lists the availability of Copilot features for the respectiv
 
 | Feature | English | Arabic | Danish | Dutch | French | German | Italian | Japanese | Portuguese (Portugal) | Chinese (Simplified) | Spanish | Portuguese (Brazil) | Thai | Czech | Finnish | Greek | Hebrew | Korean | Norwegian (Bokmål) | Polish | Russian | Swedish | Turkish | Vietnamese |
 | ------- | ------- | ------ | ------ | ----- | ------ | ------ | ------- | -------- | --------------------- | -------------------- | ------- | ------------------- | ---- | ----- | ------- | ----- | ------ | ------ | ------------------ | ------ | ------- | ------- | ------- | ---------- |
-| Copilot&mdash;Summarize cases<sup>**1**</sup> | Yes | Yes | Yes |	Yes | Yes |	Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Copilot&mdash;Summarize conversations<sup>**1**</sup> | Yes | Yes | Yes |	Yes | Yes |	Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Copilot&mdash;Ask a question | Yes | Yes | Yes | Yes | Yes |	Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Copilot&mdash;Summarize cases<sup>**1**</sup> | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Copilot&mdash;Summarize conversations<sup>**1**</sup> | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Copilot&mdash;Ask a question | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Copilot&mdash;Draft emails | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Copilot&mdash;Draft a chat response (preview) | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes | Yes | Yes | No | No | No | No | No | No | No | No | No | No | No | 
-| Copilot&mdash;Generate knowledge drafts from cases (preview) | Yes | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | 
+| Copilot&mdash;Draft a chat response (preview) | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes | Yes | Yes | No | No | No | No | No | No | No | No | No | No | No |
+| Copilot&mdash;Generate knowledge drafts from cases (preview) | Yes | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No |
 
 Yes: Available  
 No: Not available
@@ -88,8 +89,8 @@ The following table lists the region availability of analytics and insights.
 > [!NOTE]
 > The features listed in the table aren't available in South Africa, Korea, and Norway.
 
-| Feature | North America| Europe | Asia Pacific | South America | Australia |Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | Government Community Cloud|
-| ------------------------ | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |
+| Feature | North America | Europe | Asia Pacific | South America | Australia | Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland | Germany | Government Community Cloud |
+| ------------------------ | ----- | ------- | -------- | ----- | ------- | ------- | ----- | ---- | ------ | ------ | -------- | ------ | ------- | ------- | ------- |
 | Customer Service historical analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Omnichannel historical analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Omnichannel historical analytics - Voice | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
@@ -100,12 +101,12 @@ The following table lists the region availability of analytics and insights.
 | AI suggestions for contacts in Microsoft Teams | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No |
 | AI generated summary for contacts in Microsoft Teams | Yes | Yes | No | No | No | No | No | No | No | No | No | No | No | No | No |
 | Forecast report for service representative, cases, and conversations | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Knowledge Base keywords suggestion| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Knowledge Base keywords suggestion | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Unified routing analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes |
 | Omnichannel real time analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Data model customization for historical and real-time reports| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Knowledge analytics| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Realtime analytics for record routing| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Data model customization for historical and real-time reports | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Knowledge analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Realtime analytics for record routing | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 
 Yes: Available  
 No: Not available
@@ -123,14 +124,14 @@ Language availability for real-time message translation is dependent on your tra
 
 The following table lists the language availability of the other Customer Service Insights features.
 
-| Feature name | English | Arabic |  Danish | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish | Portugese (Brazil) |Thai |
-| ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |--------|
+| Feature name | English | Arabic | Danish | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish | Portuguese (Brazil) | Thai |
+| ------- | ----- | -------- | ----- | ------- | ------- | ----- | ---- | ------ | ------ | -------- | ------ | -------- | ----- |
 | Intelligent skill finder for unified routing | Yes | No | No | No | Yes | Yes | Yes | Yes | No | No | Yes | No | No |
 | AI suggestions for cases and knowledge articles | Yes | No | No | Yes | Yes | Yes | Yes | Yes | No | No | Yes | No | No |
 | AI suggestions for contacts in Microsoft Teams | Yes | No | No | Yes | Yes | Yes | Yes | Yes | No | No | Yes | No | No |
-| AI topic discovery | Yes | No | No | No | Yes | Yes | Yes | Yes | Yes | No | Yes |  No | No |
-| AI suggestions for article keywords and description | Yes | No | No | Yes | Yes | Yes | Yes | Yes | No | No | Yes |  No | No |
-|AI generated summary for contacts in Microsoft Teams| Yes | No | No | No | No | No | No | No | No | No | No | No | No |
+| AI topic discovery | Yes | No | No | No | Yes | Yes | Yes | Yes | Yes | No | Yes | No | No |
+| AI suggestions for article keywords and description | Yes | No | No | Yes | Yes | Yes | Yes | Yes | No | No | Yes | No | No |
+| AI generated summary for contacts in Microsoft Teams | Yes | No | No | No | No | No | No | No | No | No | No | No | No |
 
 Yes: Available  
 No: Not available
