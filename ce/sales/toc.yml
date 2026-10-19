@@ -453,6 +453,8 @@ items:
                 href: manage-hierarchy-visualizations.md
               - name: Add a visual hierarchy button
                 href: add-hierarchy-visualization-custom-tables.md
+              - name: Control which hierarchies are used for specific records
+                href: open-accounts-in-specific-visual-hierarchies.md                
           - name: Configure email engagement
             href: configure-email-engagement.md
           - name: Enable auto capture
