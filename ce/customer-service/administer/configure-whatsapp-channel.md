@@ -27,7 +27,15 @@ Use this article to:
 - Validate your setup.
 
 > [!IMPORTANT]
-> WhatsApp is releasing usernames and a new customer identifier called the Business-Scoped User ID. When a customer adopts a username, their phone number is no longer sent, and the Business-Scoped User ID becomes the primary identifier. Learn more in [Prepare for WhatsApp usernames and Business-Scoped User IDs](#prepare-for-whatsapp-usernames-and-business-scoped-user-ids).
+> - From June 2026, usernames and a new customer identifier called the Business-Scoped User ID are being released for WhatsApp. For updates on the timeline for this change, refer to [WhatsApp Business-Scoped User IDs](https://developers.facebook.com/documentation/business-messaging/whatsapp/business-scoped-user-ids/) in the Meta documentation.
+> - WhatsApp assigns a Business-Scoped User ID to every user that interacts with your organization. When a user adopts a WhatsApp username, their phone number is no longer sent, and their Business-Scoped User ID acts as the primary identifier.
+> - With this change, the Contact Book is enabled by default for your business WhatsApp account. By keeping your Contact Book enabled, you preserve your ability to identify customers by phone number even after they adopt a username. If you disable the Contact Book, the phone number is permanently lost as an identifier for the WhatsApp customer.
+> - After a customer’s phone number is no longer available, the system displays their first and last name if linked to a contact record. Otherwise, the system shows "Visitor."
+> - **What action do I need to take?**
+>   - Review your routing rules. Any custom routing rules that have conditions on phone number patterns like country/region code–based routing will not match Business-Scoped User ID-only conversations. Add a fallback rule to ensure these conversations are routed correctly. Business-Scoped User ID will be prefixed with two-letter country code and a period, followed by up to 128 alphanumeric characters (for example, US.13491208655302741918)
+>   - Review any integrations or automation workflows like Power Automate flows that rely on phone numbers for customer identification and update them to handle Business-Scoped User ID. 
+>   - Review context variables in your AI agents. If you use msdyn_CustomerPhoneNumber in your AI agent configuration, update your logic to also handle scenarios where the Business-Scoped User ID only is available.<br>
+> Learn more in [WhatsApp usernames](https://www.twilio.com/docs/whatsapp/key-concepts#whatsapp-usernames).
 
 ## Choose sandbox or production
 
@@ -182,27 +190,6 @@ Configure templates so that representatives can contact customers after the 24-h
     - **WhatsApp approved text**: The approved text from the template, copied exactly.
 1. Select **Save**.
 1. Repeat these steps for each template you need.
-
-## Prepare for WhatsApp usernames and Business-Scoped User IDs
-
-WhatsApp assigns a Business-Scoped User ID to every WhatsApp user that interacts with your organization. For updates on the timeline, go to [WhatsApp Business-Scoped User IDs](https://developers.facebook.com/documentation/business-messaging/whatsapp/business-scoped-user-ids/) in the Meta documentation.
-
-- When a customer adopts a WhatsApp username, their phone number is no longer sent, and the Business-Scoped User ID acts as the primary identifier.
-- The Business-Scoped User ID starts with a two-letter country code and a period, followed by up to 128 alphanumeric characters. For example: `US.13491208655302741918`.
-- The Contact Book is turned on by default for your WhatsApp business account. Keep it turned on to continue identifying customers by phone number after they adopt a username.
-- If you turn off the Contact Book, the phone number is permanently lost as an identifier for the customer.
-- When a customer's phone number isn't available, representatives get the customer's first and last name if the conversation is linked to a contact record. Otherwise, the customer appears as **Visitor**.
-
-> [!IMPORTANT]
-> If you turn off the Contact Book, you can't recover customers' phone numbers as identifiers.
-
-Take the following actions:
-
-1. **Review your routing rules.** Custom routing rules with conditions on phone number patterns, such as country or region code–based routing, don't match conversations that only have a Business-Scoped User ID. Add a fallback rule so these conversations are routed correctly.
-1. **Review integrations and automation.** Update integrations and workflows, such as Power Automate flows, that rely on phone numbers to identify customers so that they also handle the Business-Scoped User ID.
-1. **Review context variables in your AI agents.** If your AI agent configuration uses `msdyn_CustomerPhoneNumber`, update your logic to handle conversations where only the Business-Scoped User ID is available.
-
-Learn more in [WhatsApp usernames](https://www.twilio.com/docs/whatsapp/key-concepts#whatsapp-usernames).
 
 ## Validate your setup
 
