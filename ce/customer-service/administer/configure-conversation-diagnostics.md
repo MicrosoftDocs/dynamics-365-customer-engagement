@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
-ms.date: 10/13/2026
+ms.date: 10/20/2026
 ms.custom: bap-template
 ---
 
@@ -103,6 +103,21 @@ View conversation diagnostics in Copilot Service workspace. The diagnostics expe
 For example, for a conversation, select a **Classification** or **Route to queue** event to view the conditions associated with the routing event, including the applied condition, condition that wasn't evaluated, and the final output. You can also view assignment details for the conversation.
 
    :::image type="content" source="../media/csw-conversation-diagnostics.png" alt-text="screenshot of conversation diagnostics.":::
+
+
+### View case diagnostics
+
+Use **Diagnose** to review the routing events and details associated with a case.
+
+1. In Copilot Service workspace, go to **Cases**.
+1. Select the case that you want to diagnose.
+1. On the command bar, select **Diagnose**.
+1. Review the routing attempts for the case. 
+
+You can route a case multiple times, and each routing attempt creates a corresponding conversation. Select a routing attempt to review the intake rules for the attempt and details of the corresponding conversation.
+
+   :::image type="content" source="../media/routing-history-case.png" alt-text="screenshot of case diagnostics." lightbox="../media/routing-history-case.png":::
+
 
 
 ### Related information
