@@ -991,6 +991,8 @@ items:
                 href: sales-dev-agent/test-agent.md
               - name: Integrate with Dynamics 365 Sales
                 href: sales-dev-agent/integrate-with-dynamics.md
+              - name: Integrate with Salesforce
+                href: sales-dev-agent/integrate-with-salesforce.md
               - name: Launch live outreach with the agent
                 href: sales-dev-agent/launch-live.md
               - name: Configure send time
