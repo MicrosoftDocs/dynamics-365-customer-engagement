@@ -71,6 +71,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
 - [msdyn_AccountSID](#BKMK_msdyn_AccountSID)
+- [msdyn_APIBaseUrl](#BKMK_msdyn_APIBaseUrl)
 - [msdyn_appmodule](#BKMK_msdyn_appmodule)
 - [msdyn_isTrial](#BKMK_msdyn_isTrial)
 - [msdyn_name](#BKMK_msdyn_name)
@@ -123,6 +124,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_accountsid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|800|
+
+### <a name="BKMK_msdyn_APIBaseUrl"></a> msdyn_APIBaseUrl
+
+|Property|Value|
+|---|---|
+|Description|**API Base URL**|
+|DisplayName|**API Base URL**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_apibaseurl`|
 |RequiredLevel|None|
 |Type|String|
 |Format|Text|
@@ -206,6 +224,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350001|**Twilio**|
 |192350002|**TeleSign**|
 |192350003|**Microsoft Teams Phone System**|
+|192350004|**Infobip**|
+|192350005|**Genesys**|
 
 ### <a name="BKMK_msdyn_occommunicationproviderdatalocation"></a> msdyn_occommunicationproviderdatalocation
 

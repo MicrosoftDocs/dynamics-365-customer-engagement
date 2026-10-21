@@ -73,6 +73,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_enablefileattachmentsforagents](#BKMK_msdyn_enablefileattachmentsforagents)
 - [msdyn_enablefileattachmentsforcustomers](#BKMK_msdyn_enablefileattachmentsforcustomers)
 - [msdyn_enablerealtimelanguagetranslation](#BKMK_msdyn_enablerealtimelanguagetranslation)
+- [msdyn_EnableTranslationProviderFields](#BKMK_msdyn_EnableTranslationProviderFields)
 - [msdyn_liveworkstreamid](#BKMK_msdyn_liveworkstreamid)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_octeamschannelconfigId](#BKMK_msdyn_octeamschannelconfigId)
@@ -86,6 +87,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_PostConversationSurveyMode](#BKMK_msdyn_PostConversationSurveyMode)
 - [msdyn_PostConversationSurveySeparateBotSurvey](#BKMK_msdyn_PostConversationSurveySeparateBotSurvey)
 - [msdyn_teamsappname](#BKMK_msdyn_teamsappname)
+- [msdyn_translationprovider](#BKMK_msdyn_translationprovider)
+- [msdyn_TranslationProviderApiKeyId](#BKMK_msdyn_TranslationProviderApiKeyId)
+- [msdyn_translationprovidertype](#BKMK_msdyn_translationprovidertype)
+- [msdyn_webresourceurl](#BKMK_msdyn_webresourceurl)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -191,6 +196,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_octeamschannelconfig_msdyn_enablerealtimelanguagetranslation`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_EnableTranslationProviderFields"></a> msdyn_EnableTranslationProviderFields
+
+|Property|Value|
+|---|---|
+|Description|**Enables custom translation provider fields for real-time translation configuration.**|
+|DisplayName|**Enable Translation Provider Fields**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enabletranslationproviderfields`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_octeamschannelconfig_msdyn_enabletranslationproviderfields`|
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
@@ -400,6 +421,79 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_translationprovider"></a> msdyn_translationprovider
+
+|Property|Value|
+|---|---|
+|Description|**The translation provider for real time language translation**|
+|DisplayName|**Translation Provider**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_translationprovider`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_octeamschannelconfig_msdyn_translationprovider`|
+
+#### msdyn_translationprovider Choices/Options
+
+|Value|Label|
+|---|---|
+|192350000|**Azure**|
+|192350001|**Custom**|
+
+### <a name="BKMK_msdyn_TranslationProviderApiKeyId"></a> msdyn_TranslationProviderApiKeyId
+
+|Property|Value|
+|---|---|
+|Description|**Lookup to the secret record storing the translation provider API key.**|
+|DisplayName|**Translation Provider API Key**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_translationproviderapikeyid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_channelinstancesecret|
+
+### <a name="BKMK_msdyn_translationprovidertype"></a> msdyn_translationprovidertype
+
+|Property|Value|
+|---|---|
+|Description|**The type of custom translation provider**|
+|DisplayName|**Translation Provider Type**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_translationprovidertype`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_translationprovidertype`|
+
+#### msdyn_translationprovidertype Choices/Options
+
+|Value|Label|
+|---|---|
+|192350001|**Microsoft Translator**|
+|192350002|**Google Translate**|
+|192350003|**DeepL**|
+
+### <a name="BKMK_msdyn_webresourceurl"></a> msdyn_webresourceurl
+
+|Property|Value|
+|---|---|
+|Description|**Web Resource URL for the translation provider**|
+|DisplayName|**Web Resource URL for the translation provider**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_webresourceurl`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2048|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
@@ -713,6 +807,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_octeamschannelconfig_createdonbehalfby](#BKMK_lk_msdyn_octeamschannelconfig_createdonbehalfby)
 - [lk_msdyn_octeamschannelconfig_modifiedby](#BKMK_lk_msdyn_octeamschannelconfig_modifiedby)
 - [lk_msdyn_octeamschannelconfig_modifiedonbehalfby](#BKMK_lk_msdyn_octeamschannelconfig_modifiedonbehalfby)
+- [msdyn_msdyn_channelinstancesecret_msdyn_octeamschannelconfig_translationproviderapikey](#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_octeamschannelconfig_translationproviderapikey)
 - [msdyn_msdyn_liveworkstream_msdyn_octeamschannelconfig_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_octeamschannelconfig_liveworkstreamid)
 - [msdyn_msdyn_oclanguage_msdyn_octeamschannelconfig_teamsaccountlanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_octeamschannelconfig_teamsaccountlanguage)
 - [msdyn_msfp_survey_msdyn_octeamschannelconfig_PostConversationSurvey](#BKMK_msdyn_msfp_survey_msdyn_octeamschannelconfig_PostConversationSurvey)
@@ -785,6 +880,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_octeamschannelconfig_modifiedonbe
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_msdyn_channelinstancesecret_msdyn_octeamschannelconfig_translationproviderapikey"></a> msdyn_msdyn_channelinstancesecret_msdyn_octeamschannelconfig_translationproviderapikey
+
+One-To-Many Relationship: [msdyn_channelinstancesecret msdyn_msdyn_channelinstancesecret_msdyn_octeamschannelconfig_translationproviderapikey](msdyn_channelinstancesecret.md#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_octeamschannelconfig_translationproviderapikey)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_channelinstancesecret`|
+|ReferencedAttribute|`msdyn_channelinstancesecretid`|
+|ReferencingAttribute|`msdyn_translationproviderapikeyid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_translationproviderapikeyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_octeamschannelconfig_liveworkstreamid"></a> msdyn_msdyn_liveworkstream_msdyn_octeamschannelconfig_liveworkstreamid
 

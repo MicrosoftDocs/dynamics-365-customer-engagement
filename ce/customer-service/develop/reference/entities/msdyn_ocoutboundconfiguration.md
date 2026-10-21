@@ -141,6 +141,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192440000|**Voice call**|
 |192450000|**Apple Messages for Business**|
 |192450001|**Google's Business Messages**|
+|192460000|**Microsoft 365 Copilot**|
+|192470000|**ChatGPT**|
 
 ### <a name="BKMK_msdyn_channeldisplayname"></a> msdyn_channeldisplayname
 

@@ -43,6 +43,39 @@ Messages represent operations that can be performed on the table. They may also 
 | `CCaaS_UnholdCall`<br />Event: False |**CCaaS_UnholdCall action** |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 
 
+## Writable columns/attributes
+
+These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
+
+- [msdyn_channelreferenceid](#BKMK_msdyn_channelreferenceid)
+- [msdyn_channelreferenceidIdType](#BKMK_msdyn_channelreferenceidIdType)
+
+### <a name="BKMK_msdyn_channelreferenceid"></a> msdyn_channelreferenceid
+
+|Property|Value|
+|---|---|
+|Description|**Live Work Item Associated with the Voice Channel Config**|
+|DisplayName|**Channel Reference Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_channelreferenceid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_livechatconfig, msdyn_occustommessagingchannel, msdyn_ocvoicechannelsetting|
+
+### <a name="BKMK_msdyn_channelreferenceidIdType"></a> msdyn_channelreferenceidIdType
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|`msdyn_channelreferenceididtype`|
+|RequiredLevel|None|
+|Type|EntityName|
+
+
 ## Customized columns/attributes
 
 Microsoft Dynamics 365 Customer Service modifies the definition of columns/attributes defined in other solutions. Listed by **SchemaName**.
@@ -75,6 +108,8 @@ Changes from [msdyn_channel (Microsoft Dynamics 365)](/dynamics365/developer/ref
 |192440000|**Voice call**|
 |192450000|**Apple Messages for Business**|
 |192450001|**Google's Business Messages**|
+|192460000|**Microsoft 365 Copilot**|
+|192470000|**ChatGPT**|
 
 ### <a name="BKMK_msdyn_routableobjectid"></a> msdyn_routableobjectid
 
@@ -100,6 +135,9 @@ These relationships are many-to-one. Listed by **SchemaName**.
 
 - [msdyn_bookingalertstatus_msdyn_ocliveworkitems](#BKMK_msdyn_bookingalertstatus_msdyn_ocliveworkitems)
 - [msdyn_bookingrule_msdyn_ocliveworkitems](#BKMK_msdyn_bookingrule_msdyn_ocliveworkitems)
+- [msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_livechatconfig](#BKMK_msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_livechatconfig)
+- [msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_occustommessagingchannel](#BKMK_msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_occustommessagingchannel)
+- [msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_ocvoicechannelsetting](#BKMK_msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_ocvoicechannelsetting)
 - [msdyn_ocliveworkitem_msdyn_ocvoicemail_msdyn_routableobjectid](#BKMK_msdyn_ocliveworkitem_msdyn_ocvoicemail_msdyn_routableobjectid)
 - [msdyn_resourceterritory_msdyn_ocliveworkitems](#BKMK_msdyn_resourceterritory_msdyn_ocliveworkitems)
 - [msdyn_systemuserschedulersetting_msdyn_ocliveworkitems](#BKMK_msdyn_systemuserschedulersetting_msdyn_ocliveworkitems)
@@ -131,6 +169,45 @@ One-To-Many Relationship: [msdyn_bookingrule msdyn_bookingrule_msdyn_ocliveworki
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_bookingrule_msdyn_ocliveworkitem`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_livechatconfig"></a> msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_livechatconfig
+
+One-To-Many Relationship: [msdyn_livechatconfig msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_livechatconfig](msdyn_livechatconfig.md#BKMK_msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_livechatconfig)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_livechatconfig`|
+|ReferencedAttribute|`msdyn_livechatconfigid`|
+|ReferencingAttribute|`msdyn_channelreferenceid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_channelreferenceid_msdyn_livechatconfig`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_occustommessagingchannel"></a> msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_occustommessagingchannel
+
+One-To-Many Relationship: [msdyn_occustommessagingchannel msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_occustommessagingchannel](msdyn_occustommessagingchannel.md#BKMK_msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_occustommessagingchannel)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_occustommessagingchannel`|
+|ReferencedAttribute|`msdyn_occustommessagingchannelid`|
+|ReferencingAttribute|`msdyn_channelreferenceid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_channelreferenceid_msdyn_occustommessagingchannel`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_ocvoicechannelsetting"></a> msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_ocvoicechannelsetting
+
+One-To-Many Relationship: [msdyn_ocvoicechannelsetting msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_ocvoicechannelsetting](msdyn_ocvoicechannelsetting.md#BKMK_msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_ocvoicechannelsetting)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocvoicechannelsetting`|
+|ReferencedAttribute|`msdyn_ocvoicechannelsettingid`|
+|ReferencingAttribute|`msdyn_channelreferenceid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_channelreferenceid_msdyn_ocvoicechannelsetting`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_ocliveworkitem_msdyn_ocvoicemail_msdyn_routableobjectid"></a> msdyn_ocliveworkitem_msdyn_ocvoicemail_msdyn_routableobjectid
 
@@ -202,11 +279,13 @@ One-To-Many Relationship: [msdyn_timegroupdetail msdyn_timegroupdetail_msdyn_ocl
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_msdyn_ocliveworkitem_msdyn_chatgptengagementctx_liveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_chatgptengagementctx_liveworkitemid)
 - [msdyn_msdyn_ocliveworkitem_msdyn_chatquestionnaireresponse](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_chatquestionnaireresponse)
 - [msdyn_msdyn_ocliveworkitem_msdyn_customengagementctx_liveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_customengagementctx_liveworkitemid)
 - [msdyn_msdyn_ocliveworkitem_msdyn_facebookengagementctx_liveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_facebookengagementctx_liveworkitemid)
 - [msdyn_msdyn_ocliveworkitem_msdyn_lineengagementctx_liveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_lineengagementctx_liveworkitemid)
 - [msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid)
+- [msdyn_msdyn_ocliveworkitem_msdyn_m365copilotengagementctx_liveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_m365copilotengagementctx_liveworkitemid)
 - [msdyn_msdyn_ocliveworkitem_msdyn_ocapplemessagesforbusinessengagementctx_liveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocapplemessagesforbusinessengagementctx_liveworkitemid)
 - [msdyn_msdyn_ocliveworkitem_msdyn_ocgatekeeperengagementctx_liveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocgatekeeperengagementctx_liveworkitemid)
 - [msdyn_msdyn_ocliveworkitem_msdyn_ocgooglebusinessmessagesengagementctx_liveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocgooglebusinessmessagesengagementctx_liveworkitemid)
@@ -217,6 +296,18 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_msdyn_ocliveworkitem_msdyn_twitterengagementctx_liveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_twitterengagementctx_liveworkitemid)
 - [msdyn_msdyn_ocliveworkitem_msdyn_wechatengagementctx_liveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_wechatengagementctx_liveworkitemid)
 - [msdyn_msdyn_ocliveworkitem_msdyn_whatsappengagementctx_liveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_whatsappengagementctx_liveworkitemid)
+
+### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_chatgptengagementctx_liveworkitemid"></a> msdyn_msdyn_ocliveworkitem_msdyn_chatgptengagementctx_liveworkitemid
+
+Many-To-One Relationship: [msdyn_chatgptengagementctx msdyn_msdyn_ocliveworkitem_msdyn_chatgptengagementctx_liveworkitemid](msdyn_chatgptengagementctx.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_chatgptengagementctx_liveworkitemid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_chatgptengagementctx`|
+|ReferencingAttribute|`msdyn_liveworkitemid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_ocliveworkitem_msdyn_chatgptengagementctx_liveworkitemid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_chatquestionnaireresponse"></a> msdyn_msdyn_ocliveworkitem_msdyn_chatquestionnaireresponse
 
@@ -276,6 +367,18 @@ Many-To-One Relationship: [msdyn_livechatengagementctx msdyn_msdyn_ocliveworkite
 |ReferencingAttribute|`msdyn_liveworkitemid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_m365copilotengagementctx_liveworkitemid"></a> msdyn_msdyn_ocliveworkitem_msdyn_m365copilotengagementctx_liveworkitemid
+
+Many-To-One Relationship: [msdyn_m365copilotengagementctx msdyn_msdyn_ocliveworkitem_msdyn_m365copilotengagementctx_liveworkitemid](msdyn_m365copilotengagementctx.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_m365copilotengagementctx_liveworkitemid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_m365copilotengagementctx`|
+|ReferencingAttribute|`msdyn_liveworkitemid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_ocliveworkitem_msdyn_m365copilotengagementctx_liveworkitemid`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocapplemessagesforbusinessengagementctx_liveworkitemid"></a> msdyn_msdyn_ocliveworkitem_msdyn_ocapplemessagesforbusinessengagementctx_liveworkitemid

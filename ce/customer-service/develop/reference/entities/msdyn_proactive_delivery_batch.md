@@ -69,11 +69,17 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
 - [msdyn_batch_id](#BKMK_msdyn_batch_id)
+- [msdyn_deliveries_created](#BKMK_msdyn_deliveries_created)
+- [msdyn_delivery_creation_failures](#BKMK_msdyn_delivery_creation_failures)
+- [msdyn_error_code](#BKMK_msdyn_error_code)
 - [msdyn_error_message](#BKMK_msdyn_error_message)
+- [msdyn_file_format_errors](#BKMK_msdyn_file_format_errors)
 - [msdyn_file_id](#BKMK_msdyn_file_id)
+- [msdyn_last_processed_line_index](#BKMK_msdyn_last_processed_line_index)
 - [msdyn_proactive_delivery_batchId](#BKMK_msdyn_proactive_delivery_batchId)
 - [msdyn_proactive_engagement_config](#BKMK_msdyn_proactive_engagement_config)
 - [msdyn_status](#BKMK_msdyn_status)
+- [msdyn_total_lines_processed](#BKMK_msdyn_total_lines_processed)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -125,6 +131,48 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|100|
 
+### <a name="BKMK_msdyn_deliveries_created"></a> msdyn_deliveries_created
+
+|Property|Value|
+|---|---|
+|Description|**Number of delivery task records successfully created**|
+|DisplayName|**Tasks Created**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_deliveries_created`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_delivery_creation_failures"></a> msdyn_delivery_creation_failures
+
+|Property|Value|
+|---|---|
+|Description|**Number of rows for which no delivery task could be created.**|
+|DisplayName|**Failed Rows**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_delivery_creation_failures`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_error_code"></a> msdyn_error_code
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Error Code**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_error_code`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+
 ### <a name="BKMK_msdyn_error_message"></a> msdyn_error_message
 
 |Property|Value|
@@ -142,6 +190,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|2000|
 
+### <a name="BKMK_msdyn_file_format_errors"></a> msdyn_file_format_errors
+
+|Property|Value|
+|---|---|
+|Description|**Number of file format errors**|
+|DisplayName|**File Format Errors**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_file_format_errors`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
+
 ### <a name="BKMK_msdyn_file_id"></a> msdyn_file_id
 
 |Property|Value|
@@ -154,6 +216,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|msdyn_fileupload|
+
+### <a name="BKMK_msdyn_last_processed_line_index"></a> msdyn_last_processed_line_index
+
+|Property|Value|
+|---|---|
+|Description|**Index of the last processed line**|
+|DisplayName|**Last Processed Line Index**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_last_processed_line_index`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
 
 ### <a name="BKMK_msdyn_proactive_delivery_batchId"></a> msdyn_proactive_delivery_batchId
 
@@ -203,6 +279,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192360002|**Completed**|
 |192360003|**Completed With Errors**|
 |192360004|**Failed**|
+
+### <a name="BKMK_msdyn_total_lines_processed"></a> msdyn_total_lines_processed
+
+|Property|Value|
+|---|---|
+|Description|**Total number of lines processed**|
+|DisplayName|**Total Lines Processed**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_total_lines_processed`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
@@ -760,6 +850,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_proactive_delivery_batch_DuplicateBaseRecord](#BKMK_msdyn_proactive_delivery_batch_DuplicateBaseRecord)
 - [msdyn_proactive_delivery_batch_DuplicateMatchingRecord](#BKMK_msdyn_proactive_delivery_batch_DuplicateMatchingRecord)
 - [msdyn_proactive_delivery_batch_MailboxTrackingFolders](#BKMK_msdyn_proactive_delivery_batch_MailboxTrackingFolders)
+- [msdyn_proactive_delivery_batch_msdyn_proactive_delivery_batch_error](#BKMK_msdyn_proactive_delivery_batch_msdyn_proactive_delivery_batch_error)
 - [msdyn_proactive_delivery_batch_PrincipalObjectAttributeAccesses](#BKMK_msdyn_proactive_delivery_batch_PrincipalObjectAttributeAccesses)
 - [msdyn_proactive_delivery_batch_ProcessSession](#BKMK_msdyn_proactive_delivery_batch_ProcessSession)
 - [msdyn_proactive_delivery_batch_SyncErrors](#BKMK_msdyn_proactive_delivery_batch_SyncErrors)
@@ -823,6 +914,18 @@ Many-To-One Relationship: [mailboxtrackingfolder msdyn_proactive_delivery_batch_
 |ReferencedEntityNavigationPropertyName|`msdyn_proactive_delivery_batch_MailboxTrackingFolders`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_proactive_delivery_batch_msdyn_proactive_delivery_batch_error"></a> msdyn_proactive_delivery_batch_msdyn_proactive_delivery_batch_error
+
+Many-To-One Relationship: [msdyn_proactive_delivery_batch_error msdyn_proactive_delivery_batch_msdyn_proactive_delivery_batch_error](msdyn_proactive_delivery_batch_error.md#BKMK_msdyn_proactive_delivery_batch_msdyn_proactive_delivery_batch_error)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_delivery_batch_error`|
+|ReferencingAttribute|`msdyn_batch_id`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_delivery_batch_msdyn_proactive_delivery_batch_error`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_proactive_delivery_batch_PrincipalObjectAttributeAccesses"></a> msdyn_proactive_delivery_batch_PrincipalObjectAttributeAccesses
 

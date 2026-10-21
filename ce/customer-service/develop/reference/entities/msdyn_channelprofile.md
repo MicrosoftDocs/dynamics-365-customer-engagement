@@ -45,6 +45,8 @@ Changes from [msdyn_streamsource (Microsoft Dynamics 365)](/dynamics365/develope
 |192440000|**Voice call**|
 |192450000|**Apple Messages for Business**|
 |192450001|**Google's Business Messages**|
+|192460000|**Microsoft 365 Copilot**|
+|192470000|**ChatGPT**|
 
 
 

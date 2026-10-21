@@ -21,6 +21,27 @@ Records the audio/video session
 
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
+- [msdyn_originalstored](#BKMK_msdyn_originalstored)
+- [msdyn_platformrecordingid](#BKMK_msdyn_platformrecordingid)
+- [msdyn_redactionapplied](#BKMK_msdyn_redactionapplied)
+- [msdyn_redactionenabled](#BKMK_msdyn_redactionenabled)
+
+### <a name="BKMK_msdyn_originalstored"></a> msdyn_originalstored
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether the original unredacted copy was stored.**|
+|DisplayName|**Original Stored**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_originalstored`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_ocrecording_msdyn_originalstored`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_platformrecordingid"></a> msdyn_platformrecordingid
 
 |Property|Value|
@@ -37,6 +58,38 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|500|
+
+### <a name="BKMK_msdyn_redactionapplied"></a> msdyn_redactionapplied
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether redaction was successfully applied to the recording.**|
+|DisplayName|**Redaction Applied**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_redactionapplied`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_ocrecording_msdyn_redactionapplied`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_redactionenabled"></a> msdyn_redactionenabled
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether redaction was enabled for this recording.**|
+|DisplayName|**Redaction Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_redactionenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_ocrecording_msdyn_redactionenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 
 ## Customized columns/attributes

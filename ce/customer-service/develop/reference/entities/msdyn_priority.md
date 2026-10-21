@@ -609,6 +609,7 @@ One-To-Many Relationship: [systemuser user_msdyn_priority](systemuser.md#BKMK_us
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_inputrequirement_msdyn_priority_priority](#BKMK_msdyn_inputrequirement_msdyn_priority_priority)
 - [msdyn_msdyn_priority_msdyn_resourcerequirement_Priority](#BKMK_msdyn_msdyn_priority_msdyn_resourcerequirement_Priority)
 - [msdyn_priority_Annotations](#BKMK_msdyn_priority_Annotations)
 - [msdyn_priority_AsyncOperations](#BKMK_msdyn_priority_AsyncOperations)
@@ -619,6 +620,19 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_priority_PrincipalObjectAttributeAccesses](#BKMK_msdyn_priority_PrincipalObjectAttributeAccesses)
 - [msdyn_priority_ProcessSession](#BKMK_msdyn_priority_ProcessSession)
 - [msdyn_priority_SyncErrors](#BKMK_msdyn_priority_SyncErrors)
+- [msdyn_unscheduledrequirement_msdyn_priority_priority](#BKMK_msdyn_unscheduledrequirement_msdyn_priority_priority)
+
+### <a name="BKMK_msdyn_inputrequirement_msdyn_priority_priority"></a> msdyn_inputrequirement_msdyn_priority_priority
+
+Many-To-One Relationship: [msdyn_inputrequirement msdyn_inputrequirement_msdyn_priority_priority](msdyn_inputrequirement.md#BKMK_msdyn_inputrequirement_msdyn_priority_priority)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_inputrequirement`|
+|ReferencingAttribute|`msdyn_priority`|
+|ReferencedEntityNavigationPropertyName|`msdyn_inputrequirement_msdyn_priority_priority`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_priority_msdyn_resourcerequirement_Priority"></a> msdyn_msdyn_priority_msdyn_resourcerequirement_Priority
 
@@ -739,6 +753,18 @@ Many-To-One Relationship: [syncerror msdyn_priority_SyncErrors](syncerror.md#BKM
 |ReferencedEntityNavigationPropertyName|`msdyn_priority_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_unscheduledrequirement_msdyn_priority_priority"></a> msdyn_unscheduledrequirement_msdyn_priority_priority
+
+Many-To-One Relationship: [msdyn_unscheduledrequirement msdyn_unscheduledrequirement_msdyn_priority_priority](msdyn_unscheduledrequirement.md#BKMK_msdyn_unscheduledrequirement_msdyn_priority_priority)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_unscheduledrequirement`|
+|ReferencingAttribute|`msdyn_priority`|
+|ReferencedEntityNavigationPropertyName|`msdyn_unscheduledrequirement_msdyn_priority_priority`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

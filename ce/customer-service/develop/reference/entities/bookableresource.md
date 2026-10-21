@@ -44,6 +44,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_PrimaryEMail](#BKMK_msdyn_PrimaryEMail)
 - [msdyn_StartLocation](#BKMK_msdyn_StartLocation)
 - [msdyn_targetutilization](#BKMK_msdyn_targetutilization)
+- [msdyn_TravelAfterWorkingHoursMinutes](#BKMK_msdyn_TravelAfterWorkingHoursMinutes)
+- [msdyn_TravelBeforeWorkingHoursMinutes](#BKMK_msdyn_TravelBeforeWorkingHoursMinutes)
 
 ### <a name="BKMK_msdyn_DeriveCapacity"></a> msdyn_DeriveCapacity
 
@@ -294,6 +296,34 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxValue|100|
 |MinValue|1|
 
+### <a name="BKMK_msdyn_TravelAfterWorkingHoursMinutes"></a> msdyn_TravelAfterWorkingHoursMinutes
+
+|Property|Value|
+|---|---|
+|Description|**Number of minutes this resource can travel after the end of their working hours.**|
+|DisplayName|**Travel after work hours (minutes)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_travelafterworkinghoursminutes`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|120|
+|MinValue|0|
+
+### <a name="BKMK_msdyn_TravelBeforeWorkingHoursMinutes"></a> msdyn_TravelBeforeWorkingHoursMinutes
+
+|Property|Value|
+|---|---|
+|Description|**Number of minutes this resource can travel before the start of their working hours.**|
+|DisplayName|**Travel before work hours (minutes)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_travelbeforeworkinghoursminutes`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|120|
+|MinValue|0|
+
 
 ## Many-to-One relationships
 
@@ -341,6 +371,8 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_bookableresource_msdyn_requirementresourcepreference_BookableResource](#BKMK_msdyn_bookableresource_msdyn_requirementresourcepreference_BookableResource)
 - [msdyn_bookableresource_msdyn_resourceterritory_Resource](#BKMK_msdyn_bookableresource_msdyn_resourceterritory_Resource)
 - [msdyn_bookableresource_msdyn_workhourtemplate_bookableresourceid](#BKMK_msdyn_bookableresource_msdyn_workhourtemplate_bookableresourceid)
+- [msdyn_inputschedule_resourceid_bookableresource](#BKMK_msdyn_inputschedule_resourceid_bookableresource)
+- [msdyn_suggestedschedule_resourceid_bookableresource](#BKMK_msdyn_suggestedschedule_resourceid_bookableresource)
 
 ### <a name="BKMK_msdyn_bookableresource_bookableresourcebooking_ResourceGroup"></a> msdyn_bookableresource_bookableresourcebooking_ResourceGroup
 
@@ -436,6 +468,30 @@ Many-To-One Relationship: [msdyn_workhourtemplate msdyn_bookableresource_msdyn_w
 |ReferencingAttribute|`msdyn_bookableresourceid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_bookableresource_msdyn_workhourtemplate_bookableresourceid`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_inputschedule_resourceid_bookableresource"></a> msdyn_inputschedule_resourceid_bookableresource
+
+Many-To-One Relationship: [msdyn_inputschedule msdyn_inputschedule_resourceid_bookableresource](msdyn_inputschedule.md#BKMK_msdyn_inputschedule_resourceid_bookableresource)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_inputschedule`|
+|ReferencingAttribute|`msdyn_resourceid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_inputschedule_resourceid_bookableresource`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_suggestedschedule_resourceid_bookableresource"></a> msdyn_suggestedschedule_resourceid_bookableresource
+
+Many-To-One Relationship: [msdyn_suggestedschedule msdyn_suggestedschedule_resourceid_bookableresource](msdyn_suggestedschedule.md#BKMK_msdyn_suggestedschedule_resourceid_bookableresource)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_suggestedschedule`|
+|ReferencingAttribute|`msdyn_resourceid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_suggestedschedule_resourceid_bookableresource`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 

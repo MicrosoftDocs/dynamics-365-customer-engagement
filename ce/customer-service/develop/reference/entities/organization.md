@@ -36,8 +36,10 @@ Changes from [SchedulingEngine (Microsoft Dynamics 365)](/dynamics365/developer/
 These relationships are one-to-many. Listed by **SchemaName**.
 
 - [organization_msdyn_localizedsurveyquestion](#BKMK_organization_msdyn_localizedsurveyquestion)
+- [organization_msdyn_ocmessage_template](#BKMK_organization_msdyn_ocmessage_template)
 - [organization_msdyn_ocsmschannelsetting](#BKMK_organization_msdyn_ocsmschannelsetting)
 - [organization_msdyn_organizationalunit](#BKMK_organization_msdyn_organizationalunit)
+- [organization_msdyn_resourceutilizationexport](#BKMK_organization_msdyn_resourceutilizationexport)
 - [organization_msdyn_schedulingparameter](#BKMK_organization_msdyn_schedulingparameter)
 
 ### <a name="BKMK_organization_msdyn_localizedsurveyquestion"></a> organization_msdyn_localizedsurveyquestion
@@ -49,6 +51,18 @@ Many-To-One Relationship: [msdyn_localizedsurveyquestion organization_msdyn_loca
 |ReferencingEntity|`msdyn_localizedsurveyquestion`|
 |ReferencingAttribute|`organizationid`|
 |ReferencedEntityNavigationPropertyName|`organization_msdyn_localizedsurveyquestion`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_organization_msdyn_ocmessage_template"></a> organization_msdyn_ocmessage_template
+
+Many-To-One Relationship: [msdyn_ocmessage_template organization_msdyn_ocmessage_template](msdyn_ocmessage_template.md#BKMK_organization_msdyn_ocmessage_template)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocmessage_template`|
+|ReferencingAttribute|`organizationid`|
+|ReferencedEntityNavigationPropertyName|`organization_msdyn_ocmessage_template`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
@@ -73,6 +87,18 @@ Many-To-One Relationship: [msdyn_organizationalunit organization_msdyn_organizat
 |ReferencingEntity|`msdyn_organizationalunit`|
 |ReferencingAttribute|`organizationid`|
 |ReferencedEntityNavigationPropertyName|`organization_msdyn_organizationalunit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_organization_msdyn_resourceutilizationexport"></a> organization_msdyn_resourceutilizationexport
+
+Many-To-One Relationship: [msdyn_resourceutilizationexport organization_msdyn_resourceutilizationexport](msdyn_resourceutilizationexport.md#BKMK_organization_msdyn_resourceutilizationexport)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_resourceutilizationexport`|
+|ReferencingAttribute|`organizationid`|
+|ReferencedEntityNavigationPropertyName|`organization_msdyn_resourceutilizationexport`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

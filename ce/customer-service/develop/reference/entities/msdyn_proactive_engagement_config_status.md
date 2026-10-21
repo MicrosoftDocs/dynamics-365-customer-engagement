@@ -153,8 +153,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |---|---|
-|Description|**Indicates whether this is Proactive Engagement Config is active not.**|
-|DisplayName|**Is Active**|
+|Description|**Indicates whether this Proactive Engagement Config is suspended.**|
+|DisplayName|**Suspended**|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_suspended`|
@@ -186,6 +186,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |700610000|**Bot Failure**|
 |700610001|**Admin UI Action**|
 |700610002|**API Action**|
+|700610003|**Exceeded Customer Wait Threshold**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

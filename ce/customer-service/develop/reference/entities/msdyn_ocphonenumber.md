@@ -946,6 +946,7 @@ One-To-Many Relationship: [systemuser user_msdyn_ocphonenumber](systemuser.md#BK
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_msdyn_ocphonenumber_msdyn_occhatgptchannelconfig_ocphonenumberid](#BKMK_msdyn_msdyn_ocphonenumber_msdyn_occhatgptchannelconfig_ocphonenumberid)
 - [msdyn_msdyn_ocphonenumber_msdyn_ocprovisioningstate_phonenumberid](#BKMK_msdyn_msdyn_ocphonenumber_msdyn_ocprovisioningstate_phonenumberid)
 - [msdyn_msdyn_ocphonenumber_msdyn_ocsmschannelsetting_phonenumberid](#BKMK_msdyn_msdyn_ocphonenumber_msdyn_ocsmschannelsetting_phonenumberid)
 - [msdyn_msdyn_ocphonenumber_msdyn_smsnumber_phonenumberid](#BKMK_msdyn_msdyn_ocphonenumber_msdyn_smsnumber_phonenumberid)
@@ -960,6 +961,20 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_ocphonenumber_PrincipalObjectAttributeAccesses](#BKMK_msdyn_ocphonenumber_PrincipalObjectAttributeAccesses)
 - [msdyn_ocphonenumber_ProcessSession](#BKMK_msdyn_ocphonenumber_ProcessSession)
 - [msdyn_ocphonenumber_SyncErrors](#BKMK_msdyn_ocphonenumber_SyncErrors)
+- [msdyn_planner_callerid_phone_number_callerid_phone_numberid_msdyn_ocphonenumber](#BKMK_msdyn_planner_callerid_phone_number_callerid_phone_numberid_msdyn_ocphonenumber)
+- [msdyn_proactive_callback_profile_callback_phone_number_msdyn_ocphonenumber](#BKMK_msdyn_proactive_callback_profile_callback_phone_number_msdyn_ocphonenumber)
+
+### <a name="BKMK_msdyn_msdyn_ocphonenumber_msdyn_occhatgptchannelconfig_ocphonenumberid"></a> msdyn_msdyn_ocphonenumber_msdyn_occhatgptchannelconfig_ocphonenumberid
+
+Many-To-One Relationship: [msdyn_occhatgptchannelconfig msdyn_msdyn_ocphonenumber_msdyn_occhatgptchannelconfig_ocphonenumberid](msdyn_occhatgptchannelconfig.md#BKMK_msdyn_msdyn_ocphonenumber_msdyn_occhatgptchannelconfig_ocphonenumberid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_occhatgptchannelconfig`|
+|ReferencingAttribute|`msdyn_ocphonenumberid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_ocphonenumber_msdyn_occhatgptchannelconfig_ocphonenumberid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_ocphonenumber_msdyn_ocprovisioningstate_phonenumberid"></a> msdyn_msdyn_ocphonenumber_msdyn_ocprovisioningstate_phonenumberid
 
@@ -1128,6 +1143,30 @@ Many-To-One Relationship: [syncerror msdyn_ocphonenumber_SyncErrors](syncerror.m
 |ReferencedEntityNavigationPropertyName|`msdyn_ocphonenumber_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_planner_callerid_phone_number_callerid_phone_numberid_msdyn_ocphonenumber"></a> msdyn_planner_callerid_phone_number_callerid_phone_numberid_msdyn_ocphonenumber
+
+Many-To-One Relationship: [msdyn_planner_callerid_phone_number msdyn_planner_callerid_phone_number_callerid_phone_numberid_msdyn_ocphonenumber](msdyn_planner_callerid_phone_number.md#BKMK_msdyn_planner_callerid_phone_number_callerid_phone_numberid_msdyn_ocphonenumber)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_planner_callerid_phone_number`|
+|ReferencingAttribute|`msdyn_callerid_phone_numberid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_planner_callerid_phone_number_callerid_phone_numberid_msdyn_ocphonenumber`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_proactive_callback_profile_callback_phone_number_msdyn_ocphonenumber"></a> msdyn_proactive_callback_profile_callback_phone_number_msdyn_ocphonenumber
+
+Many-To-One Relationship: [msdyn_proactive_callback_profile msdyn_proactive_callback_profile_callback_phone_number_msdyn_ocphonenumber](msdyn_proactive_callback_profile.md#BKMK_msdyn_proactive_callback_profile_callback_phone_number_msdyn_ocphonenumber)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_callback_profile`|
+|ReferencingAttribute|`msdyn_callback_phone_number`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_callback_profile_callback_phone_number_msdyn_ocphonenumber`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

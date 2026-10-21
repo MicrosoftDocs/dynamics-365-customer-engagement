@@ -65,26 +65,48 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_batch_id](#BKMK_msdyn_batch_id)
 - [msdyn_call_id](#BKMK_msdyn_call_id)
+- [msdyn_cancellation_policy_id](#BKMK_msdyn_cancellation_policy_id)
 - [msdyn_channel](#BKMK_msdyn_channel)
 - [msdyn_channel_sent_date](#BKMK_msdyn_channel_sent_date)
+- [msdyn_channel_sent_date_ms](#BKMK_msdyn_channel_sent_date_ms)
 - [msdyn_contact_id](#BKMK_msdyn_contact_id)
 - [msdyn_conversation_id](#BKMK_msdyn_conversation_id)
+- [msdyn_country](#BKMK_msdyn_country)
+- [msdyn_csr_connected_date](#BKMK_msdyn_csr_connected_date)
+- [msdyn_csr_connected_date_ms](#BKMK_msdyn_csr_connected_date_ms)
+- [msdyn_customer_connected_date](#BKMK_msdyn_customer_connected_date)
+- [msdyn_customer_connected_date_ms](#BKMK_msdyn_customer_connected_date_ms)
 - [msdyn_delivery_id](#BKMK_msdyn_delivery_id)
 - [msdyn_dialmode_type](#BKMK_msdyn_dialmode_type)
 - [msdyn_disposition_codes](#BKMK_msdyn_disposition_codes)
 - [msdyn_earliest_schedule_date](#BKMK_msdyn_earliest_schedule_date)
+- [msdyn_earliest_schedule_date_ms](#BKMK_msdyn_earliest_schedule_date_ms)
 - [msdyn_end_date](#BKMK_msdyn_end_date)
+- [msdyn_end_date_ms](#BKMK_msdyn_end_date_ms)
+- [msdyn_engagement_type](#BKMK_msdyn_engagement_type)
+- [msdyn_exceeded_customer_wait_threshold](#BKMK_msdyn_exceeded_customer_wait_threshold)
 - [msdyn_expiration_date](#BKMK_msdyn_expiration_date)
+- [msdyn_expiration_date_ms](#BKMK_msdyn_expiration_date_ms)
 - [msdyn_from_address](#BKMK_msdyn_from_address)
 - [msdyn_journey_id](#BKMK_msdyn_journey_id)
 - [msdyn_journey_run_id](#BKMK_msdyn_journey_run_id)
 - [msdyn_parent_conversation_id](#BKMK_msdyn_parent_conversation_id)
+- [msdyn_postal_code](#BKMK_msdyn_postal_code)
+- [msdyn_proactive_callback_profileId](#BKMK_msdyn_proactive_callback_profileId)
 - [msdyn_proactive_deliveryId](#BKMK_msdyn_proactive_deliveryId)
 - [msdyn_proactive_engagement_config_id](#BKMK_msdyn_proactive_engagement_config_id)
 - [msdyn_queue_id](#BKMK_msdyn_queue_id)
 - [msdyn_result](#BKMK_msdyn_result)
 - [msdyn_result_date](#BKMK_msdyn_result_date)
+- [msdyn_result_date_ms](#BKMK_msdyn_result_date_ms)
+- [msdyn_seq_no](#BKMK_msdyn_seq_no)
+- [msdyn_sip_diagnostics](#BKMK_msdyn_sip_diagnostics)
+- [msdyn_speech_detected](#BKMK_msdyn_speech_detected)
 - [msdyn_start_date](#BKMK_msdyn_start_date)
+- [msdyn_start_date_ms](#BKMK_msdyn_start_date_ms)
+- [msdyn_start_of_speech_timestamp](#BKMK_msdyn_start_of_speech_timestamp)
+- [msdyn_start_of_speech_timestamp_ms](#BKMK_msdyn_start_of_speech_timestamp_ms)
+- [msdyn_state](#BKMK_msdyn_state)
 - [msdyn_status](#BKMK_msdyn_status)
 - [msdyn_to_address](#BKMK_msdyn_to_address)
 - [msdyn_tracking_id](#BKMK_msdyn_tracking_id)
@@ -144,6 +166,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|100|
 
+### <a name="BKMK_msdyn_cancellation_policy_id"></a> msdyn_cancellation_policy_id
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Cancellation Policy Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_cancellation_policy_id`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
 ### <a name="BKMK_msdyn_channel"></a> msdyn_channel
 
 |Property|Value|
@@ -178,6 +217,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |SourceTypeMask|0|
 
+### <a name="BKMK_msdyn_channel_sent_date_ms"></a> msdyn_channel_sent_date_ms
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Channel Sent Date (ms)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_channel_sent_date_ms`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
 ### <a name="BKMK_msdyn_contact_id"></a> msdyn_contact_id
 
 |Property|Value|
@@ -204,6 +260,91 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_conversation_id`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_country"></a> msdyn_country
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Country**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_country`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_csr_connected_date"></a> msdyn_csr_connected_date
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**CSR Connected Date**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_csr_connected_date`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|True|
+|DateTimeBehavior|TimeZoneIndependent|
+|Format|DateAndTime|
+|ImeMode|Auto|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_csr_connected_date_ms"></a> msdyn_csr_connected_date_ms
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**CSR Connected Date (ms)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_csr_connected_date_ms`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_customer_connected_date"></a> msdyn_customer_connected_date
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Customer Connected Date**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_customer_connected_date`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|True|
+|DateTimeBehavior|TimeZoneIndependent|
+|Format|DateAndTime|
+|ImeMode|Auto|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_customer_connected_date_ms"></a> msdyn_customer_connected_date_ms
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Customer Connected Date (ms)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_customer_connected_date_ms`|
 |RequiredLevel|None|
 |Type|String|
 |Format|Text|
@@ -280,6 +421,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |SourceTypeMask|0|
 
+### <a name="BKMK_msdyn_earliest_schedule_date_ms"></a> msdyn_earliest_schedule_date_ms
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Earliest Schedule Date (ms)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_earliest_schedule_date_ms`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
 ### <a name="BKMK_msdyn_end_date"></a> msdyn_end_date
 
 |Property|Value|
@@ -297,6 +455,56 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |SourceTypeMask|0|
 
+### <a name="BKMK_msdyn_end_date_ms"></a> msdyn_end_date_ms
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**End Date (ms)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_end_date_ms`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_engagement_type"></a> msdyn_engagement_type
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Engagement Type**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_engagement_type`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_exceeded_customer_wait_threshold"></a> msdyn_exceeded_customer_wait_threshold
+
+|Property|Value|
+|---|---|
+|Description|**Indicates if the customer wait threshold was exceeded.**|
+|DisplayName|**Exceeded Customer Wait Threshold**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_exceeded_customer_wait_threshold`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_proactive_delivery_msdyn_exceeded_customer_wait_threshold`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_expiration_date"></a> msdyn_expiration_date
 
 |Property|Value|
@@ -313,6 +521,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Format|DateAndTime|
 |ImeMode|Auto|
 |SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_expiration_date_ms"></a> msdyn_expiration_date_ms
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Expiration Date (ms)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_expiration_date_ms`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_from_address"></a> msdyn_from_address
 
@@ -381,6 +606,36 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_postal_code"></a> msdyn_postal_code
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Postal Code**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_postal_code`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_proactive_callback_profileId"></a> msdyn_proactive_callback_profileId
+
+|Property|Value|
+|---|---|
+|Description|**Lookup to the Callback Profile associated with this delivery**|
+|DisplayName|**Proactive Callback Profile**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_proactive_callback_profileid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_proactive_callback_profile|
 
 ### <a name="BKMK_msdyn_proactive_deliveryId"></a> msdyn_proactive_deliveryId
 
@@ -462,6 +717,70 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |SourceTypeMask|0|
 
+### <a name="BKMK_msdyn_result_date_ms"></a> msdyn_result_date_ms
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Result Date (ms)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_result_date_ms`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_seq_no"></a> msdyn_seq_no
+
+|Property|Value|
+|---|---|
+|Description|**The delivery sequence number.**|
+|DisplayName|**Sequence Numnber**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_seq_no`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|1000|
+|MinValue|1|
+
+### <a name="BKMK_msdyn_sip_diagnostics"></a> msdyn_sip_diagnostics
+
+|Property|Value|
+|---|---|
+|Description|**JSON payload with SIP response code, Q.850 cause code, and reason messages for voice delivery outcomes.**|
+|DisplayName|**SIP Diagnostics**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_sip_diagnostics`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1000|
+
+### <a name="BKMK_msdyn_speech_detected"></a> msdyn_speech_detected
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Speech Detected**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_speech_detected`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_proactive_delivery_msdyn_speech_detected`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_start_date"></a> msdyn_start_date
 
 |Property|Value|
@@ -479,13 +798,81 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |SourceTypeMask|0|
 
+### <a name="BKMK_msdyn_start_date_ms"></a> msdyn_start_date_ms
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Start Date (ms)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_start_date_ms`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_start_of_speech_timestamp"></a> msdyn_start_of_speech_timestamp
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Start Of Speech Timestamp**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_start_of_speech_timestamp`|
+|RequiredLevel|None|
+|Type|DateTime|
+|CanChangeDateTimeBehavior|True|
+|DateTimeBehavior|TimeZoneIndependent|
+|Format|DateAndTime|
+|ImeMode|Auto|
+|SourceTypeMask|0|
+
+### <a name="BKMK_msdyn_start_of_speech_timestamp_ms"></a> msdyn_start_of_speech_timestamp_ms
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Start Of Speech Timestamp Ms**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_start_of_speech_timestamp_ms`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_state"></a> msdyn_state
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**State**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_state`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
 ### <a name="BKMK_msdyn_status"></a> msdyn_status
 
 |Property|Value|
 |---|---|
 |Description||
 |DisplayName|**Status**|
-|IsValidForForm|False|
+|IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_status`|
 |RequiredLevel|ApplicationRequired|
@@ -837,6 +1224,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_proactive_delivery_createdonbehalfby](#BKMK_lk_msdyn_proactive_delivery_createdonbehalfby)
 - [lk_msdyn_proactive_delivery_modifiedby](#BKMK_lk_msdyn_proactive_delivery_modifiedby)
 - [lk_msdyn_proactive_delivery_modifiedonbehalfby](#BKMK_lk_msdyn_proactive_delivery_modifiedonbehalfby)
+- [msdyn_proactive_delivery_msdyn_proactive_callback_profileId_msdyn_proactive_callback_profile](#BKMK_msdyn_proactive_delivery_msdyn_proactive_callback_profileId_msdyn_proactive_callback_profile)
 - [owner_msdyn_proactive_delivery](#BKMK_owner_msdyn_proactive_delivery)
 - [team_msdyn_proactive_delivery](#BKMK_team_msdyn_proactive_delivery)
 - [user_msdyn_proactive_delivery](#BKMK_user_msdyn_proactive_delivery)
@@ -903,6 +1291,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_proactive_delivery_modifiedonbeha
 |ReferencedAttribute|`systemuserid`|
 |ReferencingAttribute|`modifiedonbehalfby`|
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_delivery_msdyn_proactive_callback_profileId_msdyn_proactive_callback_profile"></a> msdyn_proactive_delivery_msdyn_proactive_callback_profileId_msdyn_proactive_callback_profile
+
+One-To-Many Relationship: [msdyn_proactive_callback_profile msdyn_proactive_delivery_msdyn_proactive_callback_profileId_msdyn_proactive_callback_profile](msdyn_proactive_callback_profile.md#BKMK_msdyn_proactive_delivery_msdyn_proactive_callback_profileId_msdyn_proactive_callback_profile)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_callback_profile`|
+|ReferencedAttribute|`msdyn_proactive_callback_profileid`|
+|ReferencingAttribute|`msdyn_proactive_callback_profileid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_proactive_callback_profileId`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

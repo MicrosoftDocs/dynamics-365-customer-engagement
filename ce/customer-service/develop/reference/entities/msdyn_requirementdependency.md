@@ -73,6 +73,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_requirement](#BKMK_msdyn_requirement)
 - [msdyn_requirementdependencyId](#BKMK_msdyn_requirementdependencyId)
+- [msdyn_requiresameresource](#BKMK_msdyn_requiresameresource)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -169,6 +170,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`msdyn_requirementdependencyid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+### <a name="BKMK_msdyn_requiresameresource"></a> msdyn_requiresameresource
+
+|Property|Value|
+|---|---|
+|Description|**When Yes, the From and To requirements in this dependency must be scheduled to the same resource.**|
+|DisplayName|**Require Same Resource**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_requiresameresource`|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_requirementdependency_msdyn_requiresameresource`|
+|DefaultValue|True|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

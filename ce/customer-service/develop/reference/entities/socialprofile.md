@@ -24,6 +24,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_octwitterhandleid](#BKMK_msdyn_octwitterhandleid)
 - [msdyn_sourceid](#BKMK_msdyn_sourceid)
 - [msdyn_wechatopenid](#BKMK_msdyn_wechatopenid)
+- [msdyn_whatsappbsuid](#BKMK_msdyn_whatsappbsuid)
 
 ### <a name="BKMK_msdyn_octwitterhandleid"></a> msdyn_octwitterhandleid
 
@@ -64,6 +65,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_wechatopenid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|200|
+
+### <a name="BKMK_msdyn_whatsappbsuid"></a> msdyn_whatsappbsuid
+
+|Property|Value|
+|---|---|
+|Description|**WhatsApp Business Scoped User ID field of social profile entity for WhatsApp channel.**|
+|DisplayName|**WhatsApp Business Scoped User ID**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_whatsappbsuid`|
 |RequiredLevel|None|
 |Type|String|
 |Format|Text|
