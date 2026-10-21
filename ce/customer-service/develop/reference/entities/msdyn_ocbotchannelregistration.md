@@ -48,6 +48,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_ocgbmagentaccount](#BKMK_msdyn_ocgbmagentaccount)
 - [msdyn_ocgbmpartneraccount](#BKMK_msdyn_ocgbmpartneraccount)
 - [msdyn_oclinechannelconfigid](#BKMK_msdyn_oclinechannelconfigid)
+- [msdyn_ocm365copilotchannelconfigid](#BKMK_msdyn_ocm365copilotchannelconfigid)
 - [msdyn_octeamschannelconfigid](#BKMK_msdyn_octeamschannelconfigid)
 - [msdyn_securemsappsecret](#BKMK_msdyn_securemsappsecret)
 - [msdyn_validationstatus](#BKMK_msdyn_validationstatus)
@@ -200,6 +201,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Lookup|
 |Targets|msdyn_oclinechannelconfig|
 
+### <a name="BKMK_msdyn_ocm365copilotchannelconfigid"></a> msdyn_ocm365copilotchannelconfigid
+
+|Property|Value|
+|---|---|
+|Description|**Related M365 Copilot Channel**|
+|DisplayName|**M365 Copilot Channel**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_ocm365copilotchannelconfigid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_ocm365copilotchannelconfig|
+
 ### <a name="BKMK_msdyn_octeamschannelconfigid"></a> msdyn_octeamschannelconfigid
 
 |Property|Value|
@@ -256,6 +270,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_msdyn_ocfbapplication_msdyn_ocbotchannelregistration](#BKMK_msdyn_msdyn_ocfbapplication_msdyn_ocbotchannelregistration)
 - [msdyn_msdyn_ocgbmpartneraccount_msdyn_ocbotchannelregistration_ocgbmpartneraccount](#BKMK_msdyn_msdyn_ocgbmpartneraccount_msdyn_ocbotchannelregistration_ocgbmpartneraccount)
 - [msdyn_msdyn_ocgooglebusinessmessagesagentaccount_msdyn_ocbotchannelregistration_ocgbmagentaccount](#BKMK_msdyn_msdyn_ocgooglebusinessmessagesagentaccount_msdyn_ocbotchannelregistration_ocgbmagentaccount)
+- [msdyn_msdyn_ocm365copilotchannelconfig_msdyn_ocbotchannelregistration_msdyn_ocm365copilotchannelconfigid](#BKMK_msdyn_msdyn_ocm365copilotchannelconfig_msdyn_ocbotchannelregistration_msdyn_ocm365copilotchannelconfigid)
 - [msdyn_oclinechannelconfig_msdyn_ocbotchannelregistration_msdyn_oclinechannelconfigid](#BKMK_msdyn_oclinechannelconfig_msdyn_ocbotchannelregistration_msdyn_oclinechannelconfigid)
 - [msdyn_octeamschannelconfig_msdyn_ocbotchannelregistration_msdyn_octeamschannelconfigid](#BKMK_msdyn_octeamschannelconfig_msdyn_ocbotchannelregistration_msdyn_octeamschannelconfigid)
 
@@ -310,6 +325,19 @@ One-To-Many Relationship: [msdyn_ocgooglebusinessmessagesagentaccount msdyn_msdy
 |ReferencingEntityNavigationPropertyName|`msdyn_ocgbmagentaccount`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_msdyn_ocm365copilotchannelconfig_msdyn_ocbotchannelregistration_msdyn_ocm365copilotchannelconfigid"></a> msdyn_msdyn_ocm365copilotchannelconfig_msdyn_ocbotchannelregistration_msdyn_ocm365copilotchannelconfigid
+
+One-To-Many Relationship: [msdyn_ocm365copilotchannelconfig msdyn_msdyn_ocm365copilotchannelconfig_msdyn_ocbotchannelregistration_msdyn_ocm365copilotchannelconfigid](msdyn_ocm365copilotchannelconfig.md#BKMK_msdyn_msdyn_ocm365copilotchannelconfig_msdyn_ocbotchannelregistration_msdyn_ocm365copilotchannelconfigid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocm365copilotchannelconfig`|
+|ReferencedAttribute|`msdyn_ocm365copilotchannelconfigid`|
+|ReferencingAttribute|`msdyn_ocm365copilotchannelconfigid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_ocm365copilotchannelconfigid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_oclinechannelconfig_msdyn_ocbotchannelregistration_msdyn_oclinechannelconfigid"></a> msdyn_oclinechannelconfig_msdyn_ocbotchannelregistration_msdyn_oclinechannelconfigid
 

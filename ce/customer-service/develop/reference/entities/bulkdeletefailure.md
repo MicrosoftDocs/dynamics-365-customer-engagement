@@ -27,7 +27,7 @@ Changes from [RegardingObjectId (Microsoft Dataverse)](/power-apps/developer/dat
 
 |Property|Value|
 |---|---|
-|Targets|msdyn_actual, msdyn_amsbuild, msdyn_amsmodel, msdyn_amsprofile, msdyn_amsprofilesettings, msdyn_amstag, msdyn_azurenotificationhub, msdyn_bookableresourceassociation, msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingchange, msdyn_bookingrule, msdyn_bookingsetupmetadata, msdyn_businessclosure, msdyn_channel, msdyn_channelinstancesecret, msdyn_chatansweroption, msdyn_chatquestionnaireresponse, msdyn_chatquestionnaireresponseitem, msdyn_chatwidgetlanguage, msdyn_clientextension, msdyn_configuration, msdyn_customengagementctx, msdyn_facebookengagementctx, msdyn_lineengagementctx, msdyn_livechatconfig, msdyn_livechatengagementctx, msdyn_livechatwidgetlocation, msdyn_localizedsurveyquestion, msdyn_ocapplebusinessaccount, msdyn_ocapplemessagesforbusinessengagementctx, msdyn_ocapplepay, msdyn_occarrier, msdyn_occommunicationprovidersetting, msdyn_occommunicationprovidersettingentry, msdyn_occustommessagingchannel, msdyn_occustomneuralvoice, msdyn_ocexternalsecuritysetting, msdyn_ocfbapplication, msdyn_ocfbpage, msdyn_ocgatekeeperengagementctx, msdyn_ocgooglebusinessmessagesagentaccount, msdyn_ocgooglebusinessmessagesengagementctx, msdyn_ocgooglebusinessmessagespartneraccount, msdyn_oclinechannelconfig, msdyn_ocoutboundconfiguration, msdyn_ocoutboundmessage, msdyn_ocphonecallengagementctx, msdyn_ocphonemusic, msdyn_ocphonenumber, msdyn_ocsmschannelsetting, msdyn_ocsmssettingsecret, msdyn_octeamschannelconfig, msdyn_octwitterapplication, msdyn_octwitterhandle, msdyn_octwitterhandleprovisioningstatus, msdyn_octwitterhandlesecret, msdyn_ocvoice, msdyn_ocvoicechannellanguagesetting, msdyn_ocvoicechannelsetting, msdyn_ocvoicemail, msdyn_ocwechatchannelconfig, msdyn_ocwhatsappchannelaccount, msdyn_ocwhatsappchannelnumber, msdyn_organizationalunit, msdyn_priority, msdyn_proactive_delivery_batch, msdyn_proactive_eng_config_characteristic, msdyn_proactive_engagement_config, msdyn_proactive_engagement_config_attribute, msdyn_proactive_engagement_config_status, msdyn_proactive_engagement_message_template, msdyn_proactive_engagement_planner_config, msdyn_questionsequence, msdyn_requirementchange, msdyn_requirementcharacteristic, msdyn_requirementdependency, msdyn_requirementgroup, msdyn_requirementorganizationunit, msdyn_requirementrelationship, msdyn_requirementresourcecategory, msdyn_requirementresourcepreference, msdyn_requirementstatus, msdyn_resourcerequirement, msdyn_resourcerequirementdetail, msdyn_resourceterritory, msdyn_scenario, msdyn_scheduleboardsetting, msdyn_schedulingfeatureflag, msdyn_schedulingparameter, msdyn_schedulingscope, msdyn_smsengagementctx, msdyn_smsnumber, msdyn_surveyquestion, msdyn_systemuserschedulersetting, msdyn_teamschannelengagementctx, msdyn_teamsengagementctx, msdyn_timegroup, msdyn_timegroupdetail, msdyn_transactionorigin, msdyn_twitterengagementctx, msdyn_voicechannelorganizationsetting, msdyn_webengagementruleset, msdyn_webengagementrulesetconfig, msdyn_webengagementrulesetrevision, msdyn_webengagementsitearea, msdyn_wechatengagementctx, msdyn_whatsappengagementctx, msdyn_workhourtemplate, msdyn_workstreamhmmigrationstatus|
+|Targets|msdyn_actual, msdyn_amsbuild, msdyn_amsmodel, msdyn_amsprofile, msdyn_amsprofilesettings, msdyn_amstag, msdyn_azurenotificationhub, msdyn_bookableresourceassociation, msdyn_bookingalert, msdyn_bookingalertstatus, msdyn_bookingchange, msdyn_bookingrule, msdyn_bookingsetupmetadata, msdyn_businessclosure, msdyn_cancellation_policy, msdyn_channel, msdyn_channelinstancesecret, msdyn_chatansweroption, msdyn_chatquestionnaireresponse, msdyn_chatquestionnaireresponseitem, msdyn_chatwidgetlanguage, msdyn_clientextension, msdyn_configuration, msdyn_customengagementctx, msdyn_facebookengagementctx, msdyn_lineengagementctx, msdyn_livechatconfig, msdyn_livechatengagementctx, msdyn_livechatwidgetlocation, msdyn_localizedsurveyquestion, msdyn_nrt_configuration_conversation, msdyn_ocaiagentconsultsetting, msdyn_ocapplebusinessaccount, msdyn_ocapplemessagesforbusinessengagementctx, msdyn_ocapplepay, msdyn_occarrier, msdyn_occhatgptchannelconfig, msdyn_occommunicationprovidersetting, msdyn_occommunicationprovidersettingentry, msdyn_occustommessagingchannel, msdyn_occustommodelconfig, msdyn_occustomneuralvoice, msdyn_ocexternalsecuritysetting, msdyn_ocfbapplication, msdyn_ocfbpage, msdyn_ocgatekeeperengagementctx, msdyn_ocgooglebusinessmessagesagentaccount, msdyn_ocgooglebusinessmessagesengagementctx, msdyn_ocgooglebusinessmessagespartneraccount, msdyn_oclinechannelconfig, msdyn_ocm365copilotchannelconfig, msdyn_ocmessage_template, msdyn_ocoutboundconfiguration, msdyn_ocoutboundmessage, msdyn_ocphonecallengagementctx, msdyn_ocphonemusic, msdyn_ocphonenumber, msdyn_ocsmschannelsetting, msdyn_ocsmssettingsecret, msdyn_octeamschannelconfig, msdyn_octwitterapplication, msdyn_octwitterhandle, msdyn_octwitterhandleprovisioningstatus, msdyn_octwitterhandlesecret, msdyn_ocvoice, msdyn_ocvoicechannellanguagesetting, msdyn_ocvoicechannelsetting, msdyn_ocvoicemail, msdyn_ocwechatchannelconfig, msdyn_ocwhatsappchannelaccount, msdyn_ocwhatsappchannelnumber, msdyn_organizationalunit, msdyn_planner_callerid_phone_number, msdyn_planner_callerid_rule, msdyn_priority, msdyn_proactive_callback_config, msdyn_proactive_callback_profile, msdyn_proactive_delivery_batch, msdyn_proactive_delivery_batch_error, msdyn_proactive_eng_config_cancellation_policy, msdyn_proactive_eng_config_characteristic, msdyn_proactive_engagement_config, msdyn_proactive_engagement_config_attribute, msdyn_proactive_engagement_config_status, msdyn_proactive_engagement_global_comm_config, msdyn_proactive_engagement_message_template, msdyn_proactive_engagement_nrt_deliverymetric, msdyn_proactive_engagement_planner_config, msdyn_questionsequence, msdyn_requirementchange, msdyn_requirementcharacteristic, msdyn_requirementdependency, msdyn_requirementgroup, msdyn_requirementorganizationunit, msdyn_requirementrelationship, msdyn_requirementresourcecategory, msdyn_requirementresourcepreference, msdyn_requirementstatus, msdyn_resourcerequirement, msdyn_resourcerequirementdetail, msdyn_resourceterritory, msdyn_resourceutilizationexport, msdyn_scenario, msdyn_scheduleboardsetting, msdyn_schedulingfeatureflag, msdyn_schedulinggoal, msdyn_schedulingoptimizationplan, msdyn_schedulingparameter, msdyn_schedulingscope, msdyn_smsengagementctx, msdyn_smsnumber, msdyn_surveyquestion, msdyn_systemuserschedulersetting, msdyn_teamschannelengagementctx, msdyn_teamsengagementctx, msdyn_timegroup, msdyn_timegroupdetail, msdyn_transactionorigin, msdyn_twitterengagementctx, msdyn_voicechannelorganizationsetting, msdyn_webengagementruleset, msdyn_webengagementrulesetconfig, msdyn_webengagementrulesetrevision, msdyn_webengagementsitearea, msdyn_wechatengagementctx, msdyn_whatsappengagementctx, msdyn_workhourtemplate, msdyn_workstreamhmmigrationstatus, msdynmkt_quiettimesetting|
 
 
 ## Many-to-One relationships
@@ -48,6 +48,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_bookingrule_BulkDeleteFailures](#BKMK_msdyn_bookingrule_BulkDeleteFailures)
 - [msdyn_bookingsetupmetadata_BulkDeleteFailures](#BKMK_msdyn_bookingsetupmetadata_BulkDeleteFailures)
 - [msdyn_businessclosure_BulkDeleteFailures](#BKMK_msdyn_businessclosure_BulkDeleteFailures)
+- [msdyn_cancellation_policy_BulkDeleteFailures](#BKMK_msdyn_cancellation_policy_BulkDeleteFailures)
 - [msdyn_channel_BulkDeleteFailures](#BKMK_msdyn_channel_BulkDeleteFailures)
 - [msdyn_channelinstancesecret_BulkDeleteFailures](#BKMK_msdyn_channelinstancesecret_BulkDeleteFailures)
 - [msdyn_chatansweroption_BulkDeleteFailures](#BKMK_msdyn_chatansweroption_BulkDeleteFailures)
@@ -63,13 +64,17 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_livechatengagementctx_BulkDeleteFailures](#BKMK_msdyn_livechatengagementctx_BulkDeleteFailures)
 - [msdyn_livechatwidgetlocation_BulkDeleteFailures](#BKMK_msdyn_livechatwidgetlocation_BulkDeleteFailures)
 - [msdyn_localizedsurveyquestion_BulkDeleteFailures](#BKMK_msdyn_localizedsurveyquestion_BulkDeleteFailures)
+- [msdyn_nrt_configuration_conversation_BulkDeleteFailures](#BKMK_msdyn_nrt_configuration_conversation_BulkDeleteFailures)
+- [msdyn_ocaiagentconsultsetting_BulkDeleteFailures](#BKMK_msdyn_ocaiagentconsultsetting_BulkDeleteFailures)
 - [msdyn_ocapplebusinessaccount_BulkDeleteFailures](#BKMK_msdyn_ocapplebusinessaccount_BulkDeleteFailures)
 - [msdyn_ocapplemessagesforbusinessengagementctx_BulkDeleteFailures](#BKMK_msdyn_ocapplemessagesforbusinessengagementctx_BulkDeleteFailures)
 - [msdyn_ocapplepay_BulkDeleteFailures](#BKMK_msdyn_ocapplepay_BulkDeleteFailures)
 - [msdyn_occarrier_BulkDeleteFailures](#BKMK_msdyn_occarrier_BulkDeleteFailures)
+- [msdyn_occhatgptchannelconfig_BulkDeleteFailures](#BKMK_msdyn_occhatgptchannelconfig_BulkDeleteFailures)
 - [msdyn_occommunicationprovidersetting_BulkDeleteFailures](#BKMK_msdyn_occommunicationprovidersetting_BulkDeleteFailures)
 - [msdyn_occommunicationprovidersettingentry_BulkDeleteFailures](#BKMK_msdyn_occommunicationprovidersettingentry_BulkDeleteFailures)
 - [msdyn_occustommessagingchannel_BulkDeleteFailures](#BKMK_msdyn_occustommessagingchannel_BulkDeleteFailures)
+- [msdyn_occustommodelconfig_BulkDeleteFailures](#BKMK_msdyn_occustommodelconfig_BulkDeleteFailures)
 - [msdyn_occustomneuralvoice_BulkDeleteFailures](#BKMK_msdyn_occustomneuralvoice_BulkDeleteFailures)
 - [msdyn_ocexternalsecuritysetting_BulkDeleteFailures](#BKMK_msdyn_ocexternalsecuritysetting_BulkDeleteFailures)
 - [msdyn_ocfbapplication_BulkDeleteFailures](#BKMK_msdyn_ocfbapplication_BulkDeleteFailures)
@@ -79,6 +84,8 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_ocgooglebusinessmessagesengagementctx_BulkDeleteFailures](#BKMK_msdyn_ocgooglebusinessmessagesengagementctx_BulkDeleteFailures)
 - [msdyn_ocgooglebusinessmessagespartneraccount_BulkDeleteFailures](#BKMK_msdyn_ocgooglebusinessmessagespartneraccount_BulkDeleteFailures)
 - [msdyn_oclinechannelconfig_BulkDeleteFailures](#BKMK_msdyn_oclinechannelconfig_BulkDeleteFailures)
+- [msdyn_ocm365copilotchannelconfig_BulkDeleteFailures](#BKMK_msdyn_ocm365copilotchannelconfig_BulkDeleteFailures)
+- [msdyn_ocmessage_template_BulkDeleteFailures](#BKMK_msdyn_ocmessage_template_BulkDeleteFailures)
 - [msdyn_ocoutboundconfiguration_BulkDeleteFailures](#BKMK_msdyn_ocoutboundconfiguration_BulkDeleteFailures)
 - [msdyn_ocoutboundmessage_BulkDeleteFailures](#BKMK_msdyn_ocoutboundmessage_BulkDeleteFailures)
 - [msdyn_ocphonecallengagementctx_BulkDeleteFailures](#BKMK_msdyn_ocphonecallengagementctx_BulkDeleteFailures)
@@ -99,13 +106,21 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_ocwhatsappchannelaccount_BulkDeleteFailures](#BKMK_msdyn_ocwhatsappchannelaccount_BulkDeleteFailures)
 - [msdyn_ocwhatsappchannelnumber_BulkDeleteFailures](#BKMK_msdyn_ocwhatsappchannelnumber_BulkDeleteFailures)
 - [msdyn_organizationalunit_BulkDeleteFailures](#BKMK_msdyn_organizationalunit_BulkDeleteFailures)
+- [msdyn_planner_callerid_phone_number_BulkDeleteFailures](#BKMK_msdyn_planner_callerid_phone_number_BulkDeleteFailures)
+- [msdyn_planner_callerid_rule_BulkDeleteFailures](#BKMK_msdyn_planner_callerid_rule_BulkDeleteFailures)
 - [msdyn_priority_BulkDeleteFailures](#BKMK_msdyn_priority_BulkDeleteFailures)
+- [msdyn_proactive_callback_config_BulkDeleteFailures](#BKMK_msdyn_proactive_callback_config_BulkDeleteFailures)
+- [msdyn_proactive_callback_profile_BulkDeleteFailures](#BKMK_msdyn_proactive_callback_profile_BulkDeleteFailures)
 - [msdyn_proactive_delivery_batch_BulkDeleteFailures](#BKMK_msdyn_proactive_delivery_batch_BulkDeleteFailures)
+- [msdyn_proactive_delivery_batch_error_BulkDeleteFailures](#BKMK_msdyn_proactive_delivery_batch_error_BulkDeleteFailures)
+- [msdyn_proactive_eng_config_cancellation_policy_BulkDeleteFailures](#BKMK_msdyn_proactive_eng_config_cancellation_policy_BulkDeleteFailures)
 - [msdyn_proactive_eng_config_characteristic_BulkDeleteFailures](#BKMK_msdyn_proactive_eng_config_characteristic_BulkDeleteFailures)
 - [msdyn_proactive_engagement_config_attribute_BulkDeleteFailures](#BKMK_msdyn_proactive_engagement_config_attribute_BulkDeleteFailures)
 - [msdyn_proactive_engagement_config_BulkDeleteFailures](#BKMK_msdyn_proactive_engagement_config_BulkDeleteFailures)
 - [msdyn_proactive_engagement_config_status_BulkDeleteFailures](#BKMK_msdyn_proactive_engagement_config_status_BulkDeleteFailures)
+- [msdyn_proactive_engagement_global_comm_config_BulkDeleteFailures](#BKMK_msdyn_proactive_engagement_global_comm_config_BulkDeleteFailures)
 - [msdyn_proactive_engagement_message_template_BulkDeleteFailures](#BKMK_msdyn_proactive_engagement_message_template_BulkDeleteFailures)
+- [msdyn_proactive_engagement_nrt_deliverymetric_BulkDeleteFailures](#BKMK_msdyn_proactive_engagement_nrt_deliverymetric_BulkDeleteFailures)
 - [msdyn_proactive_engagement_planner_config_BulkDeleteFailures](#BKMK_msdyn_proactive_engagement_planner_config_BulkDeleteFailures)
 - [msdyn_questionsequence_BulkDeleteFailures](#BKMK_msdyn_questionsequence_BulkDeleteFailures)
 - [msdyn_requirementchange_BulkDeleteFailures](#BKMK_msdyn_requirementchange_BulkDeleteFailures)
@@ -120,9 +135,12 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_resourcerequirement_BulkDeleteFailures](#BKMK_msdyn_resourcerequirement_BulkDeleteFailures)
 - [msdyn_resourcerequirementdetail_BulkDeleteFailures](#BKMK_msdyn_resourcerequirementdetail_BulkDeleteFailures)
 - [msdyn_resourceterritory_BulkDeleteFailures](#BKMK_msdyn_resourceterritory_BulkDeleteFailures)
+- [msdyn_resourceutilizationexport_BulkDeleteFailures](#BKMK_msdyn_resourceutilizationexport_BulkDeleteFailures)
 - [msdyn_scenario_BulkDeleteFailures](#BKMK_msdyn_scenario_BulkDeleteFailures)
 - [msdyn_scheduleboardsetting_BulkDeleteFailures](#BKMK_msdyn_scheduleboardsetting_BulkDeleteFailures)
 - [msdyn_schedulingfeatureflag_BulkDeleteFailures](#BKMK_msdyn_schedulingfeatureflag_BulkDeleteFailures)
+- [msdyn_schedulinggoal_BulkDeleteFailures](#BKMK_msdyn_schedulinggoal_BulkDeleteFailures)
+- [msdyn_schedulingoptimizationplan_BulkDeleteFailures](#BKMK_msdyn_schedulingoptimizationplan_BulkDeleteFailures)
 - [msdyn_schedulingparameter_BulkDeleteFailures](#BKMK_msdyn_schedulingparameter_BulkDeleteFailures)
 - [msdyn_schedulingscope_BulkDeleteFailures](#BKMK_msdyn_schedulingscope_BulkDeleteFailures)
 - [msdyn_smsengagementctx_BulkDeleteFailures](#BKMK_msdyn_smsengagementctx_BulkDeleteFailures)
@@ -142,6 +160,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_wechatengagementctx_BulkDeleteFailures](#BKMK_msdyn_wechatengagementctx_BulkDeleteFailures)
 - [msdyn_whatsappengagementctx_BulkDeleteFailures](#BKMK_msdyn_whatsappengagementctx_BulkDeleteFailures)
 - [msdyn_workhourtemplate_BulkDeleteFailures](#BKMK_msdyn_workhourtemplate_BulkDeleteFailures)
+- [msdynmkt_quiettimesetting_BulkDeleteFailures](#BKMK_msdynmkt_quiettimesetting_BulkDeleteFailures)
 
 ### <a name="BKMK_msdyn_actual_BulkDeleteFailures"></a> msdyn_actual_BulkDeleteFailures
 
@@ -322,6 +341,19 @@ One-To-Many Relationship: [msdyn_businessclosure msdyn_businessclosure_BulkDelet
 |ReferencedAttribute|`msdyn_businessclosureid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_businessclosure`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_cancellation_policy_BulkDeleteFailures"></a> msdyn_cancellation_policy_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_cancellation_policy msdyn_cancellation_policy_BulkDeleteFailures](msdyn_cancellation_policy.md#BKMK_msdyn_cancellation_policy_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_cancellation_policy`|
+|ReferencedAttribute|`msdyn_cancellation_policyid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_cancellation_policy`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -520,6 +552,32 @@ One-To-Many Relationship: [msdyn_localizedsurveyquestion msdyn_localizedsurveyqu
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_nrt_configuration_conversation_BulkDeleteFailures"></a> msdyn_nrt_configuration_conversation_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_nrt_configuration_conversation msdyn_nrt_configuration_conversation_BulkDeleteFailures](msdyn_nrt_configuration_conversation.md#BKMK_msdyn_nrt_configuration_conversation_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_nrt_configuration_conversation`|
+|ReferencedAttribute|`msdyn_nrt_configuration_conversationid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_nrt_configuration_conversation`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocaiagentconsultsetting_BulkDeleteFailures"></a> msdyn_ocaiagentconsultsetting_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_ocaiagentconsultsetting msdyn_ocaiagentconsultsetting_BulkDeleteFailures](msdyn_ocaiagentconsultsetting.md#BKMK_msdyn_ocaiagentconsultsetting_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocaiagentconsultsetting`|
+|ReferencedAttribute|`msdyn_ocaiagentconsultsettingid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocaiagentconsultsetting`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_ocapplebusinessaccount_BulkDeleteFailures"></a> msdyn_ocapplebusinessaccount_BulkDeleteFailures
 
 One-To-Many Relationship: [msdyn_ocapplebusinessaccount msdyn_ocapplebusinessaccount_BulkDeleteFailures](msdyn_ocapplebusinessaccount.md#BKMK_msdyn_ocapplebusinessaccount_BulkDeleteFailures)
@@ -572,6 +630,19 @@ One-To-Many Relationship: [msdyn_occarrier msdyn_occarrier_BulkDeleteFailures](m
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_occhatgptchannelconfig_BulkDeleteFailures"></a> msdyn_occhatgptchannelconfig_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_occhatgptchannelconfig msdyn_occhatgptchannelconfig_BulkDeleteFailures](msdyn_occhatgptchannelconfig.md#BKMK_msdyn_occhatgptchannelconfig_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_occhatgptchannelconfig`|
+|ReferencedAttribute|`msdyn_occhatgptchannelconfigid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_occhatgptchannelconfig`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_occommunicationprovidersetting_BulkDeleteFailures"></a> msdyn_occommunicationprovidersetting_BulkDeleteFailures
 
 One-To-Many Relationship: [msdyn_occommunicationprovidersetting msdyn_occommunicationprovidersetting_BulkDeleteFailures](msdyn_occommunicationprovidersetting.md#BKMK_msdyn_occommunicationprovidersetting_BulkDeleteFailures)
@@ -608,6 +679,19 @@ One-To-Many Relationship: [msdyn_occustommessagingchannel msdyn_occustommessagin
 |ReferencedAttribute|`msdyn_occustommessagingchannelid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_occustommessagingchannel`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_occustommodelconfig_BulkDeleteFailures"></a> msdyn_occustommodelconfig_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_occustommodelconfig msdyn_occustommodelconfig_BulkDeleteFailures](msdyn_occustommodelconfig.md#BKMK_msdyn_occustommodelconfig_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_occustommodelconfig`|
+|ReferencedAttribute|`msdyn_occustommodelconfigid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_occustommodelconfig`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -725,6 +809,32 @@ One-To-Many Relationship: [msdyn_oclinechannelconfig msdyn_oclinechannelconfig_B
 |ReferencedAttribute|`msdyn_oclinechannelconfigid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_oclinechannelconfig`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocm365copilotchannelconfig_BulkDeleteFailures"></a> msdyn_ocm365copilotchannelconfig_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_ocm365copilotchannelconfig msdyn_ocm365copilotchannelconfig_BulkDeleteFailures](msdyn_ocm365copilotchannelconfig.md#BKMK_msdyn_ocm365copilotchannelconfig_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocm365copilotchannelconfig`|
+|ReferencedAttribute|`msdyn_ocm365copilotchannelconfigid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocm365copilotchannelconfig`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_ocmessage_template_BulkDeleteFailures"></a> msdyn_ocmessage_template_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_ocmessage_template msdyn_ocmessage_template_BulkDeleteFailures](msdyn_ocmessage_template.md#BKMK_msdyn_ocmessage_template_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocmessage_template`|
+|ReferencedAttribute|`msdyn_ocmessage_templateid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_ocmessage_template`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -988,6 +1098,32 @@ One-To-Many Relationship: [msdyn_organizationalunit msdyn_organizationalunit_Bul
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_planner_callerid_phone_number_BulkDeleteFailures"></a> msdyn_planner_callerid_phone_number_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_planner_callerid_phone_number msdyn_planner_callerid_phone_number_BulkDeleteFailures](msdyn_planner_callerid_phone_number.md#BKMK_msdyn_planner_callerid_phone_number_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_planner_callerid_phone_number`|
+|ReferencedAttribute|`msdyn_planner_callerid_phone_numberid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_planner_callerid_phone_number`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_planner_callerid_rule_BulkDeleteFailures"></a> msdyn_planner_callerid_rule_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_planner_callerid_rule msdyn_planner_callerid_rule_BulkDeleteFailures](msdyn_planner_callerid_rule.md#BKMK_msdyn_planner_callerid_rule_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_planner_callerid_rule`|
+|ReferencedAttribute|`msdyn_planner_callerid_ruleid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_planner_callerid_rule`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_priority_BulkDeleteFailures"></a> msdyn_priority_BulkDeleteFailures
 
 One-To-Many Relationship: [msdyn_priority msdyn_priority_BulkDeleteFailures](msdyn_priority.md#BKMK_msdyn_priority_BulkDeleteFailures)
@@ -1001,6 +1137,32 @@ One-To-Many Relationship: [msdyn_priority msdyn_priority_BulkDeleteFailures](msd
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_proactive_callback_config_BulkDeleteFailures"></a> msdyn_proactive_callback_config_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_proactive_callback_config msdyn_proactive_callback_config_BulkDeleteFailures](msdyn_proactive_callback_config.md#BKMK_msdyn_proactive_callback_config_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_callback_config`|
+|ReferencedAttribute|`msdyn_proactive_callback_configid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_proactive_callback_config`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_callback_profile_BulkDeleteFailures"></a> msdyn_proactive_callback_profile_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_proactive_callback_profile msdyn_proactive_callback_profile_BulkDeleteFailures](msdyn_proactive_callback_profile.md#BKMK_msdyn_proactive_callback_profile_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_callback_profile`|
+|ReferencedAttribute|`msdyn_proactive_callback_profileid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_proactive_callback_profile`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_proactive_delivery_batch_BulkDeleteFailures"></a> msdyn_proactive_delivery_batch_BulkDeleteFailures
 
 One-To-Many Relationship: [msdyn_proactive_delivery_batch msdyn_proactive_delivery_batch_BulkDeleteFailures](msdyn_proactive_delivery_batch.md#BKMK_msdyn_proactive_delivery_batch_BulkDeleteFailures)
@@ -1011,6 +1173,32 @@ One-To-Many Relationship: [msdyn_proactive_delivery_batch msdyn_proactive_delive
 |ReferencedAttribute|`msdyn_proactive_delivery_batchid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_proactive_delivery_batch`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_delivery_batch_error_BulkDeleteFailures"></a> msdyn_proactive_delivery_batch_error_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_proactive_delivery_batch_error msdyn_proactive_delivery_batch_error_BulkDeleteFailures](msdyn_proactive_delivery_batch_error.md#BKMK_msdyn_proactive_delivery_batch_error_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_delivery_batch_error`|
+|ReferencedAttribute|`msdyn_proactive_delivery_batch_errorid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_proactive_delivery_batch_error`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_eng_config_cancellation_policy_BulkDeleteFailures"></a> msdyn_proactive_eng_config_cancellation_policy_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_proactive_eng_config_cancellation_policy msdyn_proactive_eng_config_cancellation_policy_BulkDeleteFailures](msdyn_proactive_eng_config_cancellation_policy.md#BKMK_msdyn_proactive_eng_config_cancellation_policy_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_eng_config_cancellation_policy`|
+|ReferencedAttribute|`msdyn_proactive_eng_config_cancellation_policyid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_proactive_eng_config_cancellation_policy`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -1066,6 +1254,19 @@ One-To-Many Relationship: [msdyn_proactive_engagement_config_status msdyn_proact
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_proactive_engagement_global_comm_config_BulkDeleteFailures"></a> msdyn_proactive_engagement_global_comm_config_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_proactive_engagement_global_comm_config msdyn_proactive_engagement_global_comm_config_BulkDeleteFailures](msdyn_proactive_engagement_global_comm_config.md#BKMK_msdyn_proactive_engagement_global_comm_config_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_global_comm_config`|
+|ReferencedAttribute|`msdyn_proactive_engagement_global_comm_configid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_proactive_engagement_global_comm_config`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_proactive_engagement_message_template_BulkDeleteFailures"></a> msdyn_proactive_engagement_message_template_BulkDeleteFailures
 
 One-To-Many Relationship: [msdyn_proactive_engagement_message_template msdyn_proactive_engagement_message_template_BulkDeleteFailures](msdyn_proactive_engagement_message_template.md#BKMK_msdyn_proactive_engagement_message_template_BulkDeleteFailures)
@@ -1076,6 +1277,19 @@ One-To-Many Relationship: [msdyn_proactive_engagement_message_template msdyn_pro
 |ReferencedAttribute|`msdyn_proactive_engagement_message_templateid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_proactive_engagement_message_template`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_engagement_nrt_deliverymetric_BulkDeleteFailures"></a> msdyn_proactive_engagement_nrt_deliverymetric_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_proactive_engagement_nrt_deliverymetric msdyn_proactive_engagement_nrt_deliverymetric_BulkDeleteFailures](msdyn_proactive_engagement_nrt_deliverymetric.md#BKMK_msdyn_proactive_engagement_nrt_deliverymetric_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_engagement_nrt_deliverymetric`|
+|ReferencedAttribute|`msdyn_proactive_engagement_nrt_deliverymetricid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_proactive_engagement_nrt_deliverymetric`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -1261,6 +1475,19 @@ One-To-Many Relationship: [msdyn_resourceterritory msdyn_resourceterritory_BulkD
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_resourceutilizationexport_BulkDeleteFailures"></a> msdyn_resourceutilizationexport_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_resourceutilizationexport msdyn_resourceutilizationexport_BulkDeleteFailures](msdyn_resourceutilizationexport.md#BKMK_msdyn_resourceutilizationexport_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_resourceutilizationexport`|
+|ReferencedAttribute|`msdyn_resourceutilizationexportid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_resourceutilizationexport`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_scenario_BulkDeleteFailures"></a> msdyn_scenario_BulkDeleteFailures
 
 One-To-Many Relationship: [msdyn_scenario msdyn_scenario_BulkDeleteFailures](msdyn_scenario.md#BKMK_msdyn_scenario_BulkDeleteFailures)
@@ -1297,6 +1524,32 @@ One-To-Many Relationship: [msdyn_schedulingfeatureflag msdyn_schedulingfeaturefl
 |ReferencedAttribute|`msdyn_schedulingfeatureflagid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_schedulingfeatureflag`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_schedulinggoal_BulkDeleteFailures"></a> msdyn_schedulinggoal_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_schedulinggoal msdyn_schedulinggoal_BulkDeleteFailures](msdyn_schedulinggoal.md#BKMK_msdyn_schedulinggoal_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_schedulinggoal`|
+|ReferencedAttribute|`msdyn_schedulinggoalid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_schedulinggoal`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_schedulingoptimizationplan_BulkDeleteFailures"></a> msdyn_schedulingoptimizationplan_BulkDeleteFailures
+
+One-To-Many Relationship: [msdyn_schedulingoptimizationplan msdyn_schedulingoptimizationplan_BulkDeleteFailures](msdyn_schedulingoptimizationplan.md#BKMK_msdyn_schedulingoptimizationplan_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_schedulingoptimizationplan`|
+|ReferencedAttribute|`msdyn_schedulingoptimizationplanid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_schedulingoptimizationplan`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
@@ -1544,6 +1797,19 @@ One-To-Many Relationship: [msdyn_workhourtemplate msdyn_workhourtemplate_BulkDel
 |ReferencedAttribute|`msdyn_workhourtemplateid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_workhourtemplate`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdynmkt_quiettimesetting_BulkDeleteFailures"></a> msdynmkt_quiettimesetting_BulkDeleteFailures
+
+One-To-Many Relationship: [msdynmkt_quiettimesetting msdynmkt_quiettimesetting_BulkDeleteFailures](msdynmkt_quiettimesetting.md#BKMK_msdynmkt_quiettimesetting_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdynmkt_quiettimesetting`|
+|ReferencedAttribute|`msdynmkt_quiettimesettingid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdynmkt_quiettimesetting`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 

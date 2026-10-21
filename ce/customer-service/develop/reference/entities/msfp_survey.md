@@ -34,6 +34,8 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_msfp_survey_msdyn_ocgooglebusinessmessagesagentaccount_PostConversationSurveySeparateBotSurvey](#BKMK_msdyn_msfp_survey_msdyn_ocgooglebusinessmessagesagentaccount_PostConversationSurveySeparateBotSurvey)
 - [msdyn_msfp_survey_msdyn_oclinechannelconfig_PostConversationSurvey](#BKMK_msdyn_msfp_survey_msdyn_oclinechannelconfig_PostConversationSurvey)
 - [msdyn_msfp_survey_msdyn_oclinechannelconfig_PostConversationSurveySeparateBotSurvey](#BKMK_msdyn_msfp_survey_msdyn_oclinechannelconfig_PostConversationSurveySeparateBotSurvey)
+- [msdyn_msfp_survey_msdyn_ocm365copilotchannelconfig_PostConversationSurvey](#BKMK_msdyn_msfp_survey_msdyn_ocm365copilotchannelconfig_PostConversationSurvey)
+- [msdyn_msfp_survey_msdyn_ocm365copilotchannelconfig_PostConversationSurveySeparateBotSurvey](#BKMK_msdyn_msfp_survey_msdyn_ocm365copilotchannelconfig_PostConversationSurveySeparateBotSurvey)
 - [msdyn_msfp_survey_msdyn_ocsmschannelsetting_PostConversationSurvey](#BKMK_msdyn_msfp_survey_msdyn_ocsmschannelsetting_PostConversationSurvey)
 - [msdyn_msfp_survey_msdyn_ocsmschannelsetting_PostConversationSurveySeparateBotSurvey](#BKMK_msdyn_msfp_survey_msdyn_ocsmschannelsetting_PostConversationSurveySeparateBotSurvey)
 - [msdyn_msfp_survey_msdyn_octeamschannelconfig_PostConversationSurvey](#BKMK_msdyn_msfp_survey_msdyn_octeamschannelconfig_PostConversationSurvey)
@@ -188,6 +190,30 @@ Many-To-One Relationship: [msdyn_oclinechannelconfig msdyn_msfp_survey_msdyn_ocl
 |ReferencingAttribute|`msdyn_postconversationsurveyseparatebotsurvey`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msfp_survey_msdyn_oclinechannelconfig_PostConversationSurveySeparateBotSurvey`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msfp_survey_msdyn_ocm365copilotchannelconfig_PostConversationSurvey"></a> msdyn_msfp_survey_msdyn_ocm365copilotchannelconfig_PostConversationSurvey
+
+Many-To-One Relationship: [msdyn_ocm365copilotchannelconfig msdyn_msfp_survey_msdyn_ocm365copilotchannelconfig_PostConversationSurvey](msdyn_ocm365copilotchannelconfig.md#BKMK_msdyn_msfp_survey_msdyn_ocm365copilotchannelconfig_PostConversationSurvey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocm365copilotchannelconfig`|
+|ReferencingAttribute|`msdyn_postconversationsurvey`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msfp_survey_msdyn_ocm365copilotchannelconfig_PostConversationSurvey`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msfp_survey_msdyn_ocm365copilotchannelconfig_PostConversationSurveySeparateBotSurvey"></a> msdyn_msfp_survey_msdyn_ocm365copilotchannelconfig_PostConversationSurveySeparateBotSurvey
+
+Many-To-One Relationship: [msdyn_ocm365copilotchannelconfig msdyn_msfp_survey_msdyn_ocm365copilotchannelconfig_PostConversationSurveySeparateBotSurvey](msdyn_ocm365copilotchannelconfig.md#BKMK_msdyn_msfp_survey_msdyn_ocm365copilotchannelconfig_PostConversationSurveySeparateBotSurvey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocm365copilotchannelconfig`|
+|ReferencingAttribute|`msdyn_postconversationsurveyseparatebotsurvey`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msfp_survey_msdyn_ocm365copilotchannelconfig_PostConversationSurveySeparateBotSurvey`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msfp_survey_msdyn_ocsmschannelsetting_PostConversationSurvey"></a> msdyn_msfp_survey_msdyn_ocsmschannelsetting_PostConversationSurvey

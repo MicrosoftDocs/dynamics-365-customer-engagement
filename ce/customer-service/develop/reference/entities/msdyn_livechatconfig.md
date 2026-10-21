@@ -79,20 +79,29 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_callingoptions](#BKMK_msdyn_callingoptions)
 - [msdyn_chathistorymonthlimit](#BKMK_msdyn_chathistorymonthlimit)
 - [msdyn_cobrowseprovider](#BKMK_msdyn_cobrowseprovider)
+- [msdyn_commonchannelconfigid](#BKMK_msdyn_commonchannelconfigid)
 - [msdyn_conversationmode](#BKMK_msdyn_conversationmode)
 - [msdyn_customanonymoustokenexpirationtime](#BKMK_msdyn_customanonymoustokenexpirationtime)
+- [msdyn_disclaimertext](#BKMK_msdyn_disclaimertext)
 - [msdyn_Duringnonoperatinghours](#BKMK_msdyn_Duringnonoperatinghours)
 - [msdyn_EmailTemplate](#BKMK_msdyn_EmailTemplate)
+- [msdyn_enablechatexpansion](#BKMK_msdyn_enablechatexpansion)
 - [msdyn_enablechatreconnect](#BKMK_msdyn_enablechatreconnect)
 - [msdyn_Enablechattranscriptdownload](#BKMK_msdyn_Enablechattranscriptdownload)
 - [msdyn_Enablechattranscriptemail](#BKMK_msdyn_Enablechattranscriptemail)
 - [msdyn_enablecobrowse](#BKMK_msdyn_enablecobrowse)
+- [msdyn_enablecustomsize](#BKMK_msdyn_enablecustomsize)
 - [msdyn_Enablefileattachmentsforagents](#BKMK_msdyn_Enablefileattachmentsforagents)
 - [msdyn_Enablefileattachmentsforcustomers](#BKMK_msdyn_Enablefileattachmentsforcustomers)
+- [msdyn_enableintropage](#BKMK_msdyn_enableintropage)
+- [msdyn_enablelegaldisclaimer](#BKMK_msdyn_enablelegaldisclaimer)
 - [msdyn_enablepersistentchatpreviousconversations](#BKMK_msdyn_enablepersistentchatpreviousconversations)
 - [msdyn_enablerealtimelanguagetranslation](#BKMK_msdyn_enablerealtimelanguagetranslation)
 - [msdyn_enablescreensharing](#BKMK_msdyn_enablescreensharing)
+- [msdyn_EnableTranslationProviderFields](#BKMK_msdyn_EnableTranslationProviderFields)
 - [msdyn_genericagentdisplayname](#BKMK_msdyn_genericagentdisplayname)
+- [msdyn_greetingsubtitle](#BKMK_msdyn_greetingsubtitle)
+- [msdyn_greetingtitle](#BKMK_msdyn_greetingtitle)
 - [msdyn_infolabel](#BKMK_msdyn_infolabel)
 - [msdyn_Language](#BKMK_msdyn_Language)
 - [msdyn_livechatconfigId](#BKMK_msdyn_livechatconfigId)
@@ -129,11 +138,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_Showwidgetduringofflinehours](#BKMK_msdyn_Showwidgetduringofflinehours)
 - [msdyn_surveyprovider](#BKMK_msdyn_surveyprovider)
 - [msdyn_timetoreconnectwithpreviousagent](#BKMK_msdyn_timetoreconnectwithpreviousagent)
+- [msdyn_translationprovider](#BKMK_msdyn_translationprovider)
+- [msdyn_TranslationProviderApiKeyId](#BKMK_msdyn_TranslationProviderApiKeyId)
+- [msdyn_translationprovidertype](#BKMK_msdyn_translationprovidertype)
+- [msdyn_uiversion](#BKMK_msdyn_uiversion)
+- [msdyn_webresourceurl](#BKMK_msdyn_webresourceurl)
 - [msdyn_widgetAppId](#BKMK_msdyn_widgetAppId)
 - [msdyn_widgetcustomizationconfig](#BKMK_msdyn_widgetcustomizationconfig)
+- [msdyn_widgetcustomizationconfigmodern](#BKMK_msdyn_widgetcustomizationconfigmodern)
 - [msdyn_WidgetLocale](#BKMK_msdyn_WidgetLocale)
 - [msdyn_widgetPosition](#BKMK_msdyn_widgetPosition)
 - [msdyn_WidgetSnippet](#BKMK_msdyn_WidgetSnippet)
+- [msdyn_widgetsnippetclassic](#BKMK_msdyn_widgetsnippetclassic)
+- [msdyn_widgetsnippetmodern](#BKMK_msdyn_widgetsnippetmodern)
 - [msdyn_widgetsoundnotification](#BKMK_msdyn_widgetsoundnotification)
 - [msdyn_widgetSubtitle](#BKMK_msdyn_widgetSubtitle)
 - [msdyn_widgetThemeColor](#BKMK_msdyn_widgetThemeColor)
@@ -357,6 +374,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|100|
 
+### <a name="BKMK_msdyn_commonchannelconfigid"></a> msdyn_commonchannelconfigid
+
+|Property|Value|
+|---|---|
+|Description|**Common Channel Configuration Identifier**|
+|DisplayName|**Common Channel Configuration**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_commonchannelconfigid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_commonchannelconfig|
+
 ### <a name="BKMK_msdyn_conversationmode"></a> msdyn_conversationmode
 
 |Property|Value|
@@ -392,6 +422,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxValue|24|
 |MinValue|1|
 
+### <a name="BKMK_msdyn_disclaimertext"></a> msdyn_disclaimertext
+
+|Property|Value|
+|---|---|
+|Description|**Legal disclaimer text for the chat widget**|
+|DisplayName|**Disclaimer text**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_disclaimertext`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2000|
+
 ### <a name="BKMK_msdyn_Duringnonoperatinghours"></a> msdyn_Duringnonoperatinghours
 
 |Property|Value|
@@ -425,6 +472,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_enablechatexpansion"></a> msdyn_enablechatexpansion
+
+|Property|Value|
+|---|---|
+|Description|**Enable chat expansion for the chat widget**|
+|DisplayName|**Enable chat expansion**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enablechatexpansion`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_livechatconfig_msdyn_enablechatexpansion`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_enablechatreconnect"></a> msdyn_enablechatreconnect
 
@@ -490,6 +553,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Enabled|
 |False Label|Disabled|
 
+### <a name="BKMK_msdyn_enablecustomsize"></a> msdyn_enablecustomsize
+
+|Property|Value|
+|---|---|
+|Description|**Enable custom size for the chat widget**|
+|DisplayName|**Enable custom size**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enablecustomsize`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_livechatconfig_msdyn_enablecustomsize`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_Enablefileattachmentsforagents"></a> msdyn_Enablefileattachmentsforagents
 
 |Property|Value|
@@ -518,6 +597,38 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_livechatconfig_msdyn_enablefileattachmentsforcustomers`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_enableintropage"></a> msdyn_enableintropage
+
+|Property|Value|
+|---|---|
+|Description|**Enable the intro page for the chat widget**|
+|DisplayName|**Enable intro page**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enableintropage`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_livechatconfig_msdyn_enableintropage`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_enablelegaldisclaimer"></a> msdyn_enablelegaldisclaimer
+
+|Property|Value|
+|---|---|
+|Description|**Enable the legal disclaimer for the chat widget**|
+|DisplayName|**Enable legal disclaimer**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enablelegaldisclaimer`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_livechatconfig_msdyn_enablelegaldisclaimer`|
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
@@ -570,6 +681,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Enabled|
 |False Label|Disabled|
 
+### <a name="BKMK_msdyn_EnableTranslationProviderFields"></a> msdyn_EnableTranslationProviderFields
+
+|Property|Value|
+|---|---|
+|Description|**Enables custom translation provider fields for real-time translation configuration.**|
+|DisplayName|**Enable Translation Provider Fields**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enabletranslationproviderfields`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_livechatconfig_msdyn_enabletranslationproviderfields`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_genericagentdisplayname"></a> msdyn_genericagentdisplayname
 
 |Property|Value|
@@ -579,6 +706,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_genericagentdisplayname`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_greetingsubtitle"></a> msdyn_greetingsubtitle
+
+|Property|Value|
+|---|---|
+|Description|**Greeting subtitle for the chat widget**|
+|DisplayName|**Greeting subtitle**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_greetingsubtitle`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|400|
+
+### <a name="BKMK_msdyn_greetingtitle"></a> msdyn_greetingtitle
+
+|Property|Value|
+|---|---|
+|Description|**Greeting title for the chat widget**|
+|DisplayName|**Greeting title**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_greetingtitle`|
 |RequiredLevel|None|
 |Type|String|
 |Format|Text|
@@ -1177,6 +1338,100 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxValue|2147483647|
 |MinValue|0|
 
+### <a name="BKMK_msdyn_translationprovider"></a> msdyn_translationprovider
+
+|Property|Value|
+|---|---|
+|Description|**The translation provider for real time language translation**|
+|DisplayName|**Translation Provider**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_translationprovider`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_livechatconfig_msdyn_translationprovider`|
+
+#### msdyn_translationprovider Choices/Options
+
+|Value|Label|
+|---|---|
+|192350000|**Azure**|
+|192350001|**Custom**|
+
+### <a name="BKMK_msdyn_TranslationProviderApiKeyId"></a> msdyn_TranslationProviderApiKeyId
+
+|Property|Value|
+|---|---|
+|Description|**Lookup to the secret record storing the translation provider API key.**|
+|DisplayName|**Translation Provider API Key**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_translationproviderapikeyid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_channelinstancesecret|
+
+### <a name="BKMK_msdyn_translationprovidertype"></a> msdyn_translationprovidertype
+
+|Property|Value|
+|---|---|
+|Description|**The type of custom translation provider**|
+|DisplayName|**Translation Provider Type**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_translationprovidertype`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_translationprovidertype`|
+
+#### msdyn_translationprovidertype Choices/Options
+
+|Value|Label|
+|---|---|
+|192350001|**Microsoft Translator**|
+|192350002|**Google Translate**|
+|192350003|**DeepL**|
+
+### <a name="BKMK_msdyn_uiversion"></a> msdyn_uiversion
+
+|Property|Value|
+|---|---|
+|Description|**The UI version of the live chat widget**|
+|DisplayName|**Live Chat Widget UI Version**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_uiversion`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|192350000|
+|GlobalChoiceName|`msdyn_livechatconfig_msdyn_uiversion`|
+
+#### msdyn_uiversion Choices/Options
+
+|Value|Label|
+|---|---|
+|192350000|**LiveChatWidgetClassic**|
+|192350001|**LiveChatWidgetModern**|
+
+### <a name="BKMK_msdyn_webresourceurl"></a> msdyn_webresourceurl
+
+|Property|Value|
+|---|---|
+|Description|**Web Resource URL for the translation provider**|
+|DisplayName|**Web Resource URL for the translation provider**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_webresourceurl`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2048|
+
 ### <a name="BKMK_msdyn_widgetAppId"></a> msdyn_widgetAppId
 
 |Property|Value|
@@ -1204,6 +1459,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|`msdyn_widgetcustomizationconfig`|
 |RequiredLevel|ApplicationRequired|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|1048576|
+
+### <a name="BKMK_msdyn_widgetcustomizationconfigmodern"></a> msdyn_widgetcustomizationconfigmodern
+
+|Property|Value|
+|---|---|
+|Description|**Chat widget customization config for the modern UI version**|
+|DisplayName|**Chat widget customization config (modern)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_widgetcustomizationconfigmodern`|
+|RequiredLevel|None|
 |Type|Memo|
 |Format|Text|
 |FormatName|Text|
@@ -1254,6 +1526,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_widgetsnippet`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2000|
+
+### <a name="BKMK_msdyn_widgetsnippetclassic"></a> msdyn_widgetsnippetclassic
+
+|Property|Value|
+|---|---|
+|Description|**Javascript snippet for the classic UI version which can be embedded in a webpage**|
+|DisplayName|**Widget Snippet (classic)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_widgetsnippetclassic`|
+|RequiredLevel|None|
+|Type|Memo|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2000|
+
+### <a name="BKMK_msdyn_widgetsnippetmodern"></a> msdyn_widgetsnippetmodern
+
+|Property|Value|
+|---|---|
+|Description|**Javascript snippet for the modern UI version which can be embedded in a webpage**|
+|DisplayName|**Widget Snippet (modern)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_widgetsnippetmodern`|
 |RequiredLevel|None|
 |Type|Memo|
 |Format|Text|
@@ -1769,8 +2075,10 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_livechatconfig_createdonbehalfby](#BKMK_lk_msdyn_livechatconfig_createdonbehalfby)
 - [lk_msdyn_livechatconfig_modifiedby](#BKMK_lk_msdyn_livechatconfig_modifiedby)
 - [lk_msdyn_livechatconfig_modifiedonbehalfby](#BKMK_lk_msdyn_livechatconfig_modifiedonbehalfby)
+- [msdyn_livechatconfig_msdyn_commonchannelconfigid_msdyn_commonchannelconfig](#BKMK_msdyn_livechatconfig_msdyn_commonchannelconfigid_msdyn_commonchannelconfig)
 - [msdyn_msdyn_authsettings_msdyn_livechatconfig](#BKMK_msdyn_msdyn_authsettings_msdyn_livechatconfig)
 - [msdyn_msdyn_azurenotificationhub_msdyn_livechatconfig_azurenotificationhubid](#BKMK_msdyn_msdyn_azurenotificationhub_msdyn_livechatconfig_azurenotificationhubid)
+- [msdyn_msdyn_channelinstancesecret_msdyn_livechatconfig_translationproviderapikey](#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_livechatconfig_translationproviderapikey)
 - [msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale](#BKMK_msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale)
 - [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid)
 - [msdyn_msdyn_oc_geolocationprovider_msdyn_livechatconfig](#BKMK_msdyn_msdyn_oc_geolocationprovider_msdyn_livechatconfig)
@@ -1849,6 +2157,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_livechatconfig_modifiedonbehalfby
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_livechatconfig_msdyn_commonchannelconfigid_msdyn_commonchannelconfig"></a> msdyn_livechatconfig_msdyn_commonchannelconfigid_msdyn_commonchannelconfig
+
+One-To-Many Relationship: [msdyn_commonchannelconfig msdyn_livechatconfig_msdyn_commonchannelconfigid_msdyn_commonchannelconfig](msdyn_commonchannelconfig.md#BKMK_msdyn_livechatconfig_msdyn_commonchannelconfigid_msdyn_commonchannelconfig)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_commonchannelconfig`|
+|ReferencedAttribute|`msdyn_commonchannelconfigid`|
+|ReferencingAttribute|`msdyn_commonchannelconfigid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_commonchannelconfigid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_msdyn_authsettings_msdyn_livechatconfig"></a> msdyn_msdyn_authsettings_msdyn_livechatconfig
 
 One-To-Many Relationship: [msdyn_authenticationsettings msdyn_msdyn_authsettings_msdyn_livechatconfig](msdyn_authenticationsettings.md#BKMK_msdyn_msdyn_authsettings_msdyn_livechatconfig)
@@ -1874,6 +2195,19 @@ One-To-Many Relationship: [msdyn_azurenotificationhub msdyn_msdyn_azurenotificat
 |ReferencingEntityNavigationPropertyName|`msdyn_azurenotificationhubid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_msdyn_channelinstancesecret_msdyn_livechatconfig_translationproviderapikey"></a> msdyn_msdyn_channelinstancesecret_msdyn_livechatconfig_translationproviderapikey
+
+One-To-Many Relationship: [msdyn_channelinstancesecret msdyn_msdyn_channelinstancesecret_msdyn_livechatconfig_translationproviderapikey](msdyn_channelinstancesecret.md#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_livechatconfig_translationproviderapikey)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_channelinstancesecret`|
+|ReferencedAttribute|`msdyn_channelinstancesecretid`|
+|ReferencingAttribute|`msdyn_translationproviderapikeyid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_translationproviderapikeyid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale"></a> msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale
 
@@ -2036,6 +2370,7 @@ One-To-Many Relationship: [systemuser user_msdyn_livechatconfig](systemuser.md#B
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_channelinstancecontextvariable_msdyn_channelinstanceid_msdyn_livechatconfig](#BKMK_msdyn_channelinstancecontextvariable_msdyn_channelinstanceid_msdyn_livechatconfig)
 - [msdyn_livechatconfig_AsyncOperations](#BKMK_msdyn_livechatconfig_AsyncOperations)
 - [msdyn_livechatconfig_BulkDeleteFailures](#BKMK_msdyn_livechatconfig_BulkDeleteFailures)
 - [msdyn_livechatconfig_MailboxTrackingFolders](#BKMK_msdyn_livechatconfig_MailboxTrackingFolders)
@@ -2046,6 +2381,20 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_livechatconfig_SyncErrors](#BKMK_msdyn_livechatconfig_SyncErrors)
 - [msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse](#BKMK_msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse)
 - [msdyn_msdyn_livechatconfig_msdyn_livechatwidgetlocation_livechatconfigid](#BKMK_msdyn_msdyn_livechatconfig_msdyn_livechatwidgetlocation_livechatconfigid)
+- [msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_livechatconfig](#BKMK_msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_livechatconfig)
+- [msdyn_profilepicker_msdyn_channelinstanceid_msdyn_livechatconfig](#BKMK_msdyn_profilepicker_msdyn_channelinstanceid_msdyn_livechatconfig)
+
+### <a name="BKMK_msdyn_channelinstancecontextvariable_msdyn_channelinstanceid_msdyn_livechatconfig"></a> msdyn_channelinstancecontextvariable_msdyn_channelinstanceid_msdyn_livechatconfig
+
+Many-To-One Relationship: [msdyn_channelinstancecontextvariable msdyn_channelinstancecontextvariable_msdyn_channelinstanceid_msdyn_livechatconfig](msdyn_channelinstancecontextvariable.md#BKMK_msdyn_channelinstancecontextvariable_msdyn_channelinstanceid_msdyn_livechatconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_channelinstancecontextvariable`|
+|ReferencingAttribute|`msdyn_channelinstanceid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_channelinstancecontextvariable_msdyn_channelinstanceid_msdyn_livechatconfig`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_livechatconfig_AsyncOperations"></a> msdyn_livechatconfig_AsyncOperations
 
@@ -2165,6 +2514,30 @@ Many-To-One Relationship: [msdyn_livechatwidgetlocation msdyn_msdyn_livechatconf
 |ReferencingAttribute|`msdyn_livechatconfigid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_livechatconfig_msdyn_livechatwidgetlocation_livechatconfigid`|
 |IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_livechatconfig"></a> msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_livechatconfig
+
+Many-To-One Relationship: [msdyn_ocliveworkitem msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_livechatconfig](msdyn_ocliveworkitem.md#BKMK_msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_livechatconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocliveworkitem`|
+|ReferencingAttribute|`msdyn_channelreferenceid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_livechatconfig`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_profilepicker_msdyn_channelinstanceid_msdyn_livechatconfig"></a> msdyn_profilepicker_msdyn_channelinstanceid_msdyn_livechatconfig
+
+Many-To-One Relationship: [msdyn_profilepicker msdyn_profilepicker_msdyn_channelinstanceid_msdyn_livechatconfig](msdyn_profilepicker.md#BKMK_msdyn_profilepicker_msdyn_channelinstanceid_msdyn_livechatconfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_profilepicker`|
+|ReferencingAttribute|`msdyn_channelinstanceid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_profilepicker_msdyn_channelinstanceid_msdyn_livechatconfig`|
+|IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 

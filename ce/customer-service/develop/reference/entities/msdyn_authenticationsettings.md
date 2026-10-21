@@ -21,10 +21,49 @@ Stores the settings for user authentication
 
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
+- [msdyn_audience](#BKMK_msdyn_audience)
+- [msdyn_authorityurl](#BKMK_msdyn_authorityurl)
 - [msdyn_authserviceconfigsetid](#BKMK_msdyn_authserviceconfigsetid)
 - [msdyn_authservicescopeid](#BKMK_msdyn_authservicescopeid)
+- [msdyn_clientid](#BKMK_msdyn_clientid)
 - [msdyn_mappedaccountidfield](#BKMK_msdyn_mappedaccountidfield)
 - [msdyn_mappedcontactidfield](#BKMK_msdyn_mappedcontactidfield)
+- [msdyn_publickeyurlenvvar](#BKMK_msdyn_publickeyurlenvvar)
+- [msdyn_supportedscopes](#BKMK_msdyn_supportedscopes)
+
+### <a name="BKMK_msdyn_audience"></a> msdyn_audience
+
+|Property|Value|
+|---|---|
+|Description|**Audience**|
+|DisplayName|**Audience**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_audience`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|200|
+
+### <a name="BKMK_msdyn_authorityurl"></a> msdyn_authorityurl
+
+|Property|Value|
+|---|---|
+|Description|**Authority URL**|
+|DisplayName|**Authority URL**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_authorityurl`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2048|
 
 ### <a name="BKMK_msdyn_authserviceconfigsetid"></a> msdyn_authserviceconfigsetid
 
@@ -60,6 +99,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|100|
 
+### <a name="BKMK_msdyn_clientid"></a> msdyn_clientid
+
+|Property|Value|
+|---|---|
+|Description|**Client Id**|
+|DisplayName|**Client Id**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_clientid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|200|
+
 ### <a name="BKMK_msdyn_mappedaccountidfield"></a> msdyn_mappedaccountidfield
 
 |Property|Value|
@@ -94,6 +150,40 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|4000|
 
+### <a name="BKMK_msdyn_publickeyurlenvvar"></a> msdyn_publickeyurlenvvar
+
+|Property|Value|
+|---|---|
+|Description|**Schema name of the Environment Variable that supplies the Public Key URL for this environment. When set, the runtime resolves the URL from this Environment Variable instead of the static Public key URL.**|
+|DisplayName|**Public Key URL - Environment Variable**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_publickeyurlenvvar`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|200|
+
+### <a name="BKMK_msdyn_supportedscopes"></a> msdyn_supportedscopes
+
+|Property|Value|
+|---|---|
+|Description|**Supported Scopes**|
+|DisplayName|**Supported Scopes**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_supportedscopes`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2048|
+
 
 ## Customized columns/attributes
 
@@ -110,6 +200,7 @@ Changes from [msdyn_ocauthchanneltype (Microsoft Dynamics 365)](/dynamics365/dev
 |192360000|**Live chat**|
 |192440000|**Voice**|
 |192450000|**Apple Messages For Business**|
+|192470000|**ChatGPT**|
 
 ## One-to-Many relationships
 
@@ -118,6 +209,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_authenticationsettings_msdyn_ocapplebusinessaccount](#BKMK_msdyn_authenticationsettings_msdyn_ocapplebusinessaccount)
 - [msdyn_authenticationsettings_msdyn_ocvoicechannelsetting](#BKMK_msdyn_authenticationsettings_msdyn_ocvoicechannelsetting)
 - [msdyn_authenticationsettingsv2_msdyn_ocapplebusinessaccount](#BKMK_msdyn_authenticationsettingsv2_msdyn_ocapplebusinessaccount)
+- [msdyn_msdyn_authenticationsettings_msdyn_occhatgptchannelconfig_authenticationsettingsid](#BKMK_msdyn_msdyn_authenticationsettings_msdyn_occhatgptchannelconfig_authenticationsettingsid)
 - [msdyn_msdyn_authsettings_msdyn_livechatconfig](#BKMK_msdyn_msdyn_authsettings_msdyn_livechatconfig)
 
 ### <a name="BKMK_msdyn_authenticationsettings_msdyn_ocapplebusinessaccount"></a> msdyn_authenticationsettings_msdyn_ocapplebusinessaccount
@@ -153,6 +245,18 @@ Many-To-One Relationship: [msdyn_ocapplebusinessaccount msdyn_authenticationsett
 |ReferencingEntity|`msdyn_ocapplebusinessaccount`|
 |ReferencingAttribute|`msdyn_v2businessauthsettingsid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_authenticationsettingsv2_msdyn_ocapplebusinessaccount`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_authenticationsettings_msdyn_occhatgptchannelconfig_authenticationsettingsid"></a> msdyn_msdyn_authenticationsettings_msdyn_occhatgptchannelconfig_authenticationsettingsid
+
+Many-To-One Relationship: [msdyn_occhatgptchannelconfig msdyn_msdyn_authenticationsettings_msdyn_occhatgptchannelconfig_authenticationsettingsid](msdyn_occhatgptchannelconfig.md#BKMK_msdyn_msdyn_authenticationsettings_msdyn_occhatgptchannelconfig_authenticationsettingsid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_occhatgptchannelconfig`|
+|ReferencingAttribute|`msdyn_authenticationsettingsid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_authenticationsettings_msdyn_occhatgptchannelconfig_authenticationsettingsid`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

@@ -36,10 +36,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_Latitude](#BKMK_msdyn_Latitude)
 - [msdyn_Longitude](#BKMK_msdyn_Longitude)
 - [msdyn_MilesTraveled](#BKMK_msdyn_MilesTraveled)
+- [msdyn_OptimizationRank](#BKMK_msdyn_OptimizationRank)
 - [msdyn_requirementgroupid](#BKMK_msdyn_requirementgroupid)
 - [msdyn_requirementgroupset](#BKMK_msdyn_requirementgroupset)
 - [msdyn_ResourceGroup](#BKMK_msdyn_ResourceGroup)
 - [msdyn_ResourceRequirement](#BKMK_msdyn_ResourceRequirement)
+- [msdyn_RestrictTo](#BKMK_msdyn_RestrictTo)
 - [msdyn_serviceappointment](#BKMK_msdyn_serviceappointment)
 - [msdyn_TimeGroupDetailSelected](#BKMK_msdyn_TimeGroupDetailSelected)
 - [msdyn_TravelTimeCalculationType](#BKMK_msdyn_TravelTimeCalculationType)
@@ -287,6 +289,30 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MinValue|0|
 |Precision|2|
 
+### <a name="BKMK_msdyn_OptimizationRank"></a> msdyn_OptimizationRank
+
+|Property|Value|
+|---|---|
+|Description|**Sets how the scheduling optimizer handles this booking (Ignore, Optimize, Schedule if feasible, or Do not move).**|
+|DisplayName|**Optimization Rank**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_optimizationrank`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|772020004|
+|GlobalChoiceName|`msdyn_optimizationrank`|
+
+#### msdyn_OptimizationRank Choices/Options
+
+|Value|Label|
+|---|---|
+|772020000|**Ignore**|
+|772020001|**Optimize**|
+|772020002|**Schedule if feasible**|
+|772020003|**Do not move**|
+|772020004|**Use booking status (default)**|
+
 ### <a name="BKMK_msdyn_requirementgroupid"></a> msdyn_requirementgroupid
 
 |Property|Value|
@@ -342,6 +368,30 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|msdyn_resourcerequirement|
+
+### <a name="BKMK_msdyn_RestrictTo"></a> msdyn_RestrictTo
+
+|Property|Value|
+|---|---|
+|Description|**Additional scheduling constraints to apply to this booking during optimization (e.g., lock to arrival time, shift, or resource).**|
+|DisplayName|**Restrictions**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_restrictto`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|772020000|
+|GlobalChoiceName|`msdyn_restrictto`|
+
+#### msdyn_RestrictTo Choices/Options
+
+|Value|Label|
+|---|---|
+|772020000|**None**|
+|772020001|**Arrival time**|
+|772020002|**Shift**|
+|772020003|**Resource**|
+|772020004|**Resource \+ Arrival time**|
 
 ### <a name="BKMK_msdyn_serviceappointment"></a> msdyn_serviceappointment
 

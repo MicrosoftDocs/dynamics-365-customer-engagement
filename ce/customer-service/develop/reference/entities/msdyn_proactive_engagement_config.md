@@ -68,13 +68,26 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_answering_machine_action_type](#BKMK_msdyn_answering_machine_action_type)
+- [msdyn_answering_machine_detection_time_seconds](#BKMK_msdyn_answering_machine_detection_time_seconds)
+- [msdyn_answering_machine_message](#BKMK_msdyn_answering_machine_message)
 - [msdyn_bot_failure_treatment_rate_threshold](#BKMK_msdyn_bot_failure_treatment_rate_threshold)
 - [msdyn_bot_failure_treatment_type](#BKMK_msdyn_bot_failure_treatment_type)
+- [msdyn_call_delay_enabled](#BKMK_msdyn_call_delay_enabled)
+- [msdyn_call_delay_seconds](#BKMK_msdyn_call_delay_seconds)
+- [msdyn_close_existing_conversations](#BKMK_msdyn_close_existing_conversations)
+- [msdyn_create_conversation_without_availability_check](#BKMK_msdyn_create_conversation_without_availability_check)
+- [msdyn_customer_wait_threshold](#BKMK_msdyn_customer_wait_threshold)
 - [msdyn_description](#BKMK_msdyn_description)
 - [msdyn_dialmode_type](#BKMK_msdyn_dialmode_type)
+- [msdyn_enable_whatsapp_outbound_messaging](#BKMK_msdyn_enable_whatsapp_outbound_messaging)
+- [msdyn_engagement_type](#BKMK_msdyn_engagement_type)
+- [msdyn_fallback_message](#BKMK_msdyn_fallback_message)
+- [msdyn_fallback_message_enabled](#BKMK_msdyn_fallback_message_enabled)
 - [msdyn_first_response_timeout_mins](#BKMK_msdyn_first_response_timeout_mins)
 - [msdyn_ignore_queue_hours](#BKMK_msdyn_ignore_queue_hours)
 - [msdyn_intentid](#BKMK_msdyn_intentid)
+- [msdyn_max_batch_size_without_availability](#BKMK_msdyn_max_batch_size_without_availability)
 - [msdyn_max_calls_per_agent](#BKMK_msdyn_max_calls_per_agent)
 - [msdyn_max_concurrent_calls](#BKMK_msdyn_max_concurrent_calls)
 - [msdyn_name](#BKMK_msdyn_name)
@@ -84,6 +97,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_queue](#BKMK_msdyn_queue)
 - [msdyn_queue_allotment](#BKMK_msdyn_queue_allotment)
 - [msdyn_reserve_agent_capacity](#BKMK_msdyn_reserve_agent_capacity)
+- [msdyn_retry_priority_mode](#BKMK_msdyn_retry_priority_mode)
+- [msdyn_suspend_threshold_lookback](#BKMK_msdyn_suspend_threshold_lookback)
+- [msdyn_suspend_threshold_percentage](#BKMK_msdyn_suspend_threshold_percentage)
 - [msdyn_throttle_adjustment_percentage](#BKMK_msdyn_throttle_adjustment_percentage)
 - [msdyn_throttle_control_period](#BKMK_msdyn_throttle_control_period)
 - [msdyn_throttle_control_period_2](#BKMK_msdyn_throttle_control_period_2)
@@ -127,6 +143,59 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
 
+### <a name="BKMK_msdyn_answering_machine_action_type"></a> msdyn_answering_machine_action_type
+
+|Property|Value|
+|---|---|
+|Description|**Answering Machine Action Type of the record.**|
+|DisplayName|**Answering Machine Action Type**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_answering_machine_action_type`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_proactive_engagement_config_msdyn_answering_machine_action_type`|
+
+#### msdyn_answering_machine_action_type Choices/Options
+
+|Value|Label|
+|---|---|
+|100000200|**Hangup**|
+|100000201|**LeaveMessage**|
+|100000202|**LeaveMessageOnLastAttemptOnly**|
+
+### <a name="BKMK_msdyn_answering_machine_detection_time_seconds"></a> msdyn_answering_machine_detection_time_seconds
+
+|Property|Value|
+|---|---|
+|Description|**Automatic Machine Detection time in seconds. Defaults to 1/3 of the Customer Wait Threshold.**|
+|DisplayName|**Answering Machine Detection Time (Seconds)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_answering_machine_detection_time_seconds`|
+|RequiredLevel|ApplicationRequired|
+|Type|Integer|
+|MaxValue|7|
+|MinValue|1|
+
+### <a name="BKMK_msdyn_answering_machine_message"></a> msdyn_answering_machine_message
+
+|Property|Value|
+|---|---|
+|Description|**Answering Machine Message of the record.**|
+|DisplayName|**Answering Machine Message**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_answering_machine_message`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2000|
+
 ### <a name="BKMK_msdyn_bot_failure_treatment_rate_threshold"></a> msdyn_bot_failure_treatment_rate_threshold
 
 |Property|Value|
@@ -162,6 +231,82 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192360000|**None**|
 |192360001|**Suspend**|
 |192360002|**Threshold**|
+
+### <a name="BKMK_msdyn_call_delay_enabled"></a> msdyn_call_delay_enabled
+
+|Property|Value|
+|---|---|
+|Description|**Determines if preview type is Timer (true) or Manual (false). Default is False for Manual preview type.**|
+|DisplayName|**Call Delay Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_call_delay_enabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_proactive_engagement_config_msdyn_call_delay_enabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_call_delay_seconds"></a> msdyn_call_delay_seconds
+
+|Property|Value|
+|---|---|
+|Description|**Duration in seconds for Timer preview type. Valid range is 60-7080 seconds. Only applicable when Call Delay Enabled is True.**|
+|DisplayName|**Call Delay Seconds**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_call_delay_seconds`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|7080|
+|MinValue|60|
+
+### <a name="BKMK_msdyn_close_existing_conversations"></a> msdyn_close_existing_conversations
+
+|Property|Value|
+|---|---|
+|Description|**Determines if existing conversations should be closed for a new incoming request.**|
+|DisplayName|**Close Existing Conversations**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_close_existing_conversations`|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_proactive_engagement_config_msdyn_close_existing_conversations`|
+|DefaultValue|True|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_create_conversation_without_availability_check"></a> msdyn_create_conversation_without_availability_check
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Create Conversation Without Availability Check**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_create_conversation_without_availability_check`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_proactive_engagement_config_msdyn_create_conversation_without_availability_check`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_customer_wait_threshold"></a> msdyn_customer_wait_threshold
+
+|Property|Value|
+|---|---|
+|Description|**Customer Wait Threshold of the record.**|
+|DisplayName|**Customer Wait Threshold**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_customer_wait_threshold`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|0|
 
 ### <a name="BKMK_msdyn_description"></a> msdyn_description
 
@@ -202,6 +347,76 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100000001|**Progressive**|
 |100000002|**Preview**|
 |100000003|**Predictive**|
+
+### <a name="BKMK_msdyn_enable_whatsapp_outbound_messaging"></a> msdyn_enable_whatsapp_outbound_messaging
+
+|Property|Value|
+|---|---|
+|Description|**Determines if WhatsApp outbound messaging is enabled for this proactive engagement config.**|
+|DisplayName|**Enable WhatsApp Outbound Messaging**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_enable_whatsapp_outbound_messaging`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_proactive_engagement_config_msdyn_enable_whatsapp_outbound_messaging`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_engagement_type"></a> msdyn_engagement_type
+
+|Property|Value|
+|---|---|
+|Description|**Engagement type of the record.**|
+|DisplayName|**Engagement Type**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_engagement_type`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_proactive_engagement_config_msdyn_engagement_type`|
+
+#### msdyn_engagement_type Choices/Options
+
+|Value|Label|
+|---|---|
+|100000100|**BotLed**|
+|100000101|**CSRLed**|
+
+### <a name="BKMK_msdyn_fallback_message"></a> msdyn_fallback_message
+
+|Property|Value|
+|---|---|
+|Description|**Fallback Message of the record.**|
+|DisplayName|**Fallback Message**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_fallback_message`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|2000|
+
+### <a name="BKMK_msdyn_fallback_message_enabled"></a> msdyn_fallback_message_enabled
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Fallback Message Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_fallback_message_enabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_proactive_engagement_config_msdyn_fallback_message_enabled`|
+|DefaultValue|True|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_first_response_timeout_mins"></a> msdyn_first_response_timeout_mins
 
@@ -249,6 +464,20 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_max_batch_size_without_availability"></a> msdyn_max_batch_size_without_availability
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Max Batch Size Without Availability**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_max_batch_size_without_availability`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|1|
 
 ### <a name="BKMK_msdyn_max_calls_per_agent"></a> msdyn_max_calls_per_agent
 
@@ -350,6 +579,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |700610000|**Earliest Scheduled Date**|
 |700610001|**First In, First Out**|
 |700610002|**Last In, First Out**|
+|700610003|**Custom Priority Ascending**|
+|700610004|**Custom Priority Descending**|
 
 ### <a name="BKMK_msdyn_queue"></a> msdyn_queue
 
@@ -393,6 +624,56 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
+
+### <a name="BKMK_msdyn_retry_priority_mode"></a> msdyn_retry_priority_mode
+
+|Property|Value|
+|---|---|
+|Description|**Determines how retry deliveries are prioritized relative to new deliveries.**|
+|DisplayName|**Retry Priority Mode**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_retry_priority_mode`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|700610000|
+|GlobalChoiceName|`msdyn_proactive_engagement_config_msdyn_retry_priority_mode`|
+
+#### msdyn_retry_priority_mode Choices/Options
+
+|Value|Label|
+|---|---|
+|700610000|**Same as new deliveries**|
+|700610001|**Lower than new deliveries**|
+|700610002|**Higher than new deliveries**|
+
+### <a name="BKMK_msdyn_suspend_threshold_lookback"></a> msdyn_suspend_threshold_lookback
+
+|Property|Value|
+|---|---|
+|Description|**Suspend Threshold Lookback of the record.**|
+|DisplayName|**Suspend Threshold Lookback**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_suspend_threshold_lookback`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|2147483647|
+|MinValue|1|
+
+### <a name="BKMK_msdyn_suspend_threshold_percentage"></a> msdyn_suspend_threshold_percentage
+
+|Property|Value|
+|---|---|
+|Description|**Suspend Threshold Percentage of the record.**|
+|DisplayName|**Suspend Threshold Percentage**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_suspend_threshold_percentage`|
+|RequiredLevel|None|
+|Type|Integer|
+|MaxValue|100|
+|MinValue|1|
 
 ### <a name="BKMK_msdyn_throttle_adjustment_percentage"></a> msdyn_throttle_adjustment_percentage
 
@@ -530,6 +811,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |100000000|**Voice**|
 |100000001|**SMS**|
+|100000002|**WhatsApp**|
 
 ### <a name="BKMK_msdyn_workstream"></a> msdyn_workstream
 
@@ -1095,6 +1377,7 @@ One-To-Many Relationship: [systemuser user_msdyn_proactive_engagement_config](sy
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_proactive_eng_config_cancellation_policy_msdyn_proactive_engagement_config](#BKMK_msdyn_proactive_eng_config_cancellation_policy_msdyn_proactive_engagement_config)
 - [msdyn_proactive_eng_config_characteristic_proactive_engagement_configuration_msdyn_proactive_engagem](#BKMK_msdyn_proactive_eng_config_characteristic_proactive_engagement_configuration_msdyn_proactive_engagem)
 - [msdyn_proactive_engagement_config_AsyncOperations](#BKMK_msdyn_proactive_engagement_config_AsyncOperations)
 - [msdyn_proactive_engagement_config_BulkDeleteFailures](#BKMK_msdyn_proactive_engagement_config_BulkDeleteFailures)
@@ -1109,6 +1392,18 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_proactive_engagement_config_ProcessSession](#BKMK_msdyn_proactive_engagement_config_ProcessSession)
 - [msdyn_proactive_engagement_config_status_msdyn_proactive_engagement_config_msdyn_proactive](#BKMK_msdyn_proactive_engagement_config_status_msdyn_proactive_engagement_config_msdyn_proactive)
 - [msdyn_proactive_engagement_config_SyncErrors](#BKMK_msdyn_proactive_engagement_config_SyncErrors)
+
+### <a name="BKMK_msdyn_proactive_eng_config_cancellation_policy_msdyn_proactive_engagement_config"></a> msdyn_proactive_eng_config_cancellation_policy_msdyn_proactive_engagement_config
+
+Many-To-One Relationship: [msdyn_proactive_eng_config_cancellation_policy msdyn_proactive_eng_config_cancellation_policy_msdyn_proactive_engagement_config](msdyn_proactive_eng_config_cancellation_policy.md#BKMK_msdyn_proactive_eng_config_cancellation_policy_msdyn_proactive_engagement_config)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_proactive_eng_config_cancellation_policy`|
+|ReferencingAttribute|`msdyn_proactive_engagement_configid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_proactive_eng_config_cancellation_policy_msdyn_proactive_engagement_config`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_proactive_eng_config_characteristic_proactive_engagement_configuration_msdyn_proactive_engagem"></a> msdyn_proactive_eng_config_characteristic_proactive_engagement_configuration_msdyn_proactive_engagem
 

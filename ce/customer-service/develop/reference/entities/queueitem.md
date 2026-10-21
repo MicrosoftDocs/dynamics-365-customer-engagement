@@ -41,22 +41,11 @@ Changes from [ObjectTypeCode (Microsoft Dataverse)](/power-apps/developer/data-p
 
 |Value|Label|
 |---|---|
-|10411|**Invite Redemption**|
-|10412|**Portal Comment**|
-|10511|**IoT Alert**|
-|10724|**Customer Voice alert**|
-|10739|**Customer Voice survey invite**|
-|10742|**Customer Voice survey response**|
-|10804|**Overflow Action Config**|
-|10828|**Ongoing conversation (Deprecated)**|
-|10840|**Conversation**|
-|10857|**Session**|
-|11125|**Copilot Transcript**|
-|11365|**Booking Alert**|
-|11383|**Fulfillment Preference**|
-|11384|**Time Group Detail**|
-|11452|**Voicemail**|
-|11466|**Outbound message**|
+|11491|**Booking Alert**|
+|11510|**Fulfillment Preference**|
+|11511|**Time Group Detail**|
+|11592|**Voicemail**|
+|11618|**Outbound message**|
 
 ## Many-to-One relationships
 

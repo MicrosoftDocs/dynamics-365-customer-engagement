@@ -76,6 +76,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_DefaultBookingCanceledStatus](#BKMK_msdyn_DefaultBookingCanceledStatus)
 - [msdyn_DefaultBookingCommittedStatus](#BKMK_msdyn_DefaultBookingCommittedStatus)
 - [msdyn_DefaultBookingDuration](#BKMK_msdyn_DefaultBookingDuration)
+- [msdyn_DefaultBookingMethodSA](#BKMK_msdyn_DefaultBookingMethodSA)
+- [msdyn_DefaultBookingMethodSB](#BKMK_msdyn_DefaultBookingMethodSB)
 - [msdyn_DefaultRequirementActiveStatus](#BKMK_msdyn_DefaultRequirementActiveStatus)
 - [msdyn_DefaultRequirementCanceledStatus](#BKMK_msdyn_DefaultRequirementCanceledStatus)
 - [msdyn_DefaultRequirementCompletedStatus](#BKMK_msdyn_DefaultRequirementCompletedStatus)
@@ -237,6 +239,51 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|0|
+
+### <a name="BKMK_msdyn_DefaultBookingMethodSA"></a> msdyn_DefaultBookingMethodSA
+
+|Property|Value|
+|---|---|
+|Description|**Default booking method for the Schedule Assistant booking panel.**|
+|DisplayName|**Default Booking Method (Schedule Assistant)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_defaultbookingmethodsa`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_defaultbookingmethodsa`|
+
+#### msdyn_DefaultBookingMethodSA Choices/Options
+
+|Value|Label|
+|---|---|
+|192350010|**Full Requirement**|
+|192350011|**Remaining Requirement**|
+
+### <a name="BKMK_msdyn_DefaultBookingMethodSB"></a> msdyn_DefaultBookingMethodSB
+
+|Property|Value|
+|---|---|
+|Description|**Default booking method for the Schedule Board booking panel.**|
+|DisplayName|**Default Booking Method (Schedule Board)**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_defaultbookingmethodsb`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_defaultbookingmethodsb`|
+
+#### msdyn_DefaultBookingMethodSB Choices/Options
+
+|Value|Label|
+|---|---|
+|192350001|**Full Capacity**|
+|192350002|**Remaining Capacity**|
+|192350003|**Evenly Distribute Hours**|
+|192350004|**Percentage Capacity**|
+|192350005|**Front Load Hours**|
 
 ### <a name="BKMK_msdyn_DefaultRequirementActiveStatus"></a> msdyn_DefaultRequirementActiveStatus
 
@@ -734,7 +781,7 @@ One-To-Many Relationship: [businessunit business_unit_msdyn_bookingsetupmetadata
 |ReferencingAttribute|`owningbusinessunit`|
 |ReferencingEntityNavigationPropertyName|`owningbusinessunit`|
 |IsHierarchical||
-|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_lk_msdyn_bookingsetupmetadata_createdby"></a> lk_msdyn_bookingsetupmetadata_createdby
 

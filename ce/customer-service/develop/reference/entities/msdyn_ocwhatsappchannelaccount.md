@@ -80,6 +80,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_ProviderType](#BKMK_msdyn_ProviderType)
 - [msdyn_secureauthenticationtoken](#BKMK_msdyn_secureauthenticationtoken)
 - [msdyn_TwilioInboundURL](#BKMK_msdyn_TwilioInboundURL)
+- [msdyn_WhatsAppBillingId](#BKMK_msdyn_WhatsAppBillingId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -261,6 +262,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |---|---|
 |192350000|**Twilio**|
 |192350001|**Azure Communication Services**|
+|192350002|**Meta**|
 
 ### <a name="BKMK_msdyn_secureauthenticationtoken"></a> msdyn_secureauthenticationtoken
 
@@ -295,6 +297,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|500|
+
+### <a name="BKMK_msdyn_WhatsAppBillingId"></a> msdyn_WhatsAppBillingId
+
+|Property|Value|
+|---|---|
+|Description|**Meta billing/allocation config ID (allocation\_config\_id), written by WhatsApp Manager during registration**|
+|DisplayName|**WhatsApp Billing ID**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_whatsappbillingid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

@@ -27,12 +27,15 @@ Changes from [ObjectId (Microsoft Dataverse)](/power-apps/developer/data-platfor
 
 |Property|Value|
 |---|---|
-|Targets|msdyn_ocphonemusic|
+|Targets|msdyn_ocphonemusic, msdyn_resourceutilizationexport|
 
 
 ## Many-to-One relationships
 
 These relationships are many-to-one. Listed by **SchemaName**.
+
+- [msdyn_ocphonemusic_FileAttachments](#BKMK_msdyn_ocphonemusic_FileAttachments)
+- [msdyn_resourceutilizationexport_FileAttachments](#BKMK_msdyn_resourceutilizationexport_FileAttachments)
 
 ### <a name="BKMK_msdyn_ocphonemusic_FileAttachments"></a> msdyn_ocphonemusic_FileAttachments
 
@@ -47,10 +50,26 @@ One-To-Many Relationship: [msdyn_ocphonemusic msdyn_ocphonemusic_FileAttachments
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_resourceutilizationexport_FileAttachments"></a> msdyn_resourceutilizationexport_FileAttachments
+
+One-To-Many Relationship: [msdyn_resourceutilizationexport msdyn_resourceutilizationexport_FileAttachments](msdyn_resourceutilizationexport.md#BKMK_msdyn_resourceutilizationexport_FileAttachments)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_resourceutilizationexport`|
+|ReferencedAttribute|`msdyn_resourceutilizationexportid`|
+|ReferencingAttribute|`objectid`|
+|ReferencingEntityNavigationPropertyName|`objectid_msdyn_resourceutilizationexport`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 
 ## One-to-Many relationships
 
 These relationships are one-to-many. Listed by **SchemaName**.
+
+- [FileAttachment_msdyn_ocphonemusic_msdyn_musicfile](#BKMK_FileAttachment_msdyn_ocphonemusic_msdyn_musicfile)
+- [FileAttachment_msdyn_resourceutilizationexport_msdyn_exportfile](#BKMK_FileAttachment_msdyn_resourceutilizationexport_msdyn_exportfile)
 
 ### <a name="BKMK_FileAttachment_msdyn_ocphonemusic_msdyn_musicfile"></a> FileAttachment_msdyn_ocphonemusic_msdyn_musicfile
 
@@ -61,6 +80,18 @@ Many-To-One Relationship: [msdyn_ocphonemusic FileAttachment_msdyn_ocphonemusic_
 |ReferencingEntity|`msdyn_ocphonemusic`|
 |ReferencingAttribute|`msdyn_musicfile`|
 |ReferencedEntityNavigationPropertyName|`FileAttachment_msdyn_ocphonemusic_msdyn_musicfile`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_FileAttachment_msdyn_resourceutilizationexport_msdyn_exportfile"></a> FileAttachment_msdyn_resourceutilizationexport_msdyn_exportfile
+
+Many-To-One Relationship: [msdyn_resourceutilizationexport FileAttachment_msdyn_resourceutilizationexport_msdyn_exportfile](msdyn_resourceutilizationexport.md#BKMK_FileAttachment_msdyn_resourceutilizationexport_msdyn_exportfile)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_resourceutilizationexport`|
+|ReferencingAttribute|`msdyn_exportfile`|
+|ReferencedEntityNavigationPropertyName|`FileAttachment_msdyn_resourceutilizationexport_msdyn_exportfile`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

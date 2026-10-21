@@ -74,10 +74,11 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedOn](#BKMK_ModifiedOn)
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
-- [msdyn_BookingViewId](#BKMK_msdyn_BookingViewId)
+- [msdyn_BookingsQuery](#BKMK_msdyn_BookingsQuery)
+- [msdyn_IncludeBookingsFromAllResources](#BKMK_msdyn_IncludeBookingsFromAllResources)
 - [msdyn_Name](#BKMK_msdyn_Name)
-- [msdyn_RequirementViewId](#BKMK_msdyn_RequirementViewId)
-- [msdyn_ResourceViewId](#BKMK_msdyn_ResourceViewId)
+- [msdyn_RequirementsQuery](#BKMK_msdyn_RequirementsQuery)
+- [msdyn_ResourcesQuery](#BKMK_msdyn_ResourcesQuery)
 - [msdyn_schedulingscopeId](#BKMK_msdyn_schedulingscopeId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -189,22 +190,38 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Lookup|
 |Targets|systemuser|
 
-### <a name="BKMK_msdyn_BookingViewId"></a> msdyn_BookingViewId
+### <a name="BKMK_msdyn_BookingsQuery"></a> msdyn_BookingsQuery
 
 |Property|Value|
 |---|---|
-|Description|**Unique identifier of the Booking View.**|
-|DisplayName|**Booking View**|
+|Description|**FetchXML query for filtering bookings.**|
+|DisplayName|**Bookings Query**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|`msdyn_bookingviewid`|
-|RequiredLevel|None|
-|Type|String|
-|Format|Text|
-|FormatName|Text|
+|LogicalName|`msdyn_bookingsquery`|
+|RequiredLevel|ApplicationRequired|
+|Type|Memo|
+|Format|TextArea|
+|FormatName|TextArea|
 |ImeMode|Auto|
 |IsLocalizable|False|
-|MaxLength|100|
+|MaxLength|1048576|
+
+### <a name="BKMK_msdyn_IncludeBookingsFromAllResources"></a> msdyn_IncludeBookingsFromAllResources
+
+|Property|Value|
+|---|---|
+|Description|**Include bookings from all resources in optimization**|
+|DisplayName|**Include Bookings From All Resources**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_includebookingsfromallresources`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_schedulingscope_msdyn_includebookingsfromallresources`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_Name"></a> msdyn_Name
 
@@ -223,39 +240,39 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|100|
 
-### <a name="BKMK_msdyn_RequirementViewId"></a> msdyn_RequirementViewId
+### <a name="BKMK_msdyn_RequirementsQuery"></a> msdyn_RequirementsQuery
 
 |Property|Value|
 |---|---|
-|Description|**Unique identifier of the Requirement View.**|
-|DisplayName|**Requirement View**|
+|Description|**FetchXML query for filtering requirements.**|
+|DisplayName|**Requirements Query**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|`msdyn_requirementviewid`|
-|RequiredLevel|None|
-|Type|String|
-|Format|Text|
-|FormatName|Text|
+|LogicalName|`msdyn_requirementsquery`|
+|RequiredLevel|ApplicationRequired|
+|Type|Memo|
+|Format|TextArea|
+|FormatName|TextArea|
 |ImeMode|Auto|
 |IsLocalizable|False|
-|MaxLength|100|
+|MaxLength|1048576|
 
-### <a name="BKMK_msdyn_ResourceViewId"></a> msdyn_ResourceViewId
+### <a name="BKMK_msdyn_ResourcesQuery"></a> msdyn_ResourcesQuery
 
 |Property|Value|
 |---|---|
-|Description|**Unique identifier of the Resource View.**|
-|DisplayName|**Resource View**|
+|Description|**FetchXML query for filtering resources.**|
+|DisplayName|**Resources Query**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|`msdyn_resourceviewid`|
-|RequiredLevel|None|
-|Type|String|
-|Format|Text|
-|FormatName|Text|
+|LogicalName|`msdyn_resourcesquery`|
+|RequiredLevel|ApplicationRequired|
+|Type|Memo|
+|Format|TextArea|
+|FormatName|TextArea|
 |ImeMode|Auto|
 |IsLocalizable|False|
-|MaxLength|100|
+|MaxLength|1048576|
 
 ### <a name="BKMK_msdyn_schedulingscopeId"></a> msdyn_schedulingscopeId
 
@@ -600,12 +617,38 @@ One-To-Many Relationship: [systemuser user_msdyn_schedulingscope](systemuser.md#
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_optimizationrequest_scopeid_msdyn_schedulingscope](#BKMK_msdyn_optimizationrequest_scopeid_msdyn_schedulingscope)
+- [msdyn_schedulingoptimizationplan_schedulingscope_msdyn_schedulingscope](#BKMK_msdyn_schedulingoptimizationplan_schedulingscope_msdyn_schedulingscope)
 - [msdyn_schedulingscope_AsyncOperations](#BKMK_msdyn_schedulingscope_AsyncOperations)
 - [msdyn_schedulingscope_BulkDeleteFailures](#BKMK_msdyn_schedulingscope_BulkDeleteFailures)
 - [msdyn_schedulingscope_MailboxTrackingFolders](#BKMK_msdyn_schedulingscope_MailboxTrackingFolders)
 - [msdyn_schedulingscope_PrincipalObjectAttributeAccesses](#BKMK_msdyn_schedulingscope_PrincipalObjectAttributeAccesses)
 - [msdyn_schedulingscope_ProcessSession](#BKMK_msdyn_schedulingscope_ProcessSession)
 - [msdyn_schedulingscope_SyncErrors](#BKMK_msdyn_schedulingscope_SyncErrors)
+
+### <a name="BKMK_msdyn_optimizationrequest_scopeid_msdyn_schedulingscope"></a> msdyn_optimizationrequest_scopeid_msdyn_schedulingscope
+
+Many-To-One Relationship: [msdyn_optimizationrequest msdyn_optimizationrequest_scopeid_msdyn_schedulingscope](msdyn_optimizationrequest.md#BKMK_msdyn_optimizationrequest_scopeid_msdyn_schedulingscope)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_optimizationrequest`|
+|ReferencingAttribute|`msdyn_scopeid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_optimizationrequest_scopeid_msdyn_schedulingscope`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_schedulingoptimizationplan_schedulingscope_msdyn_schedulingscope"></a> msdyn_schedulingoptimizationplan_schedulingscope_msdyn_schedulingscope
+
+Many-To-One Relationship: [msdyn_schedulingoptimizationplan msdyn_schedulingoptimizationplan_schedulingscope_msdyn_schedulingscope](msdyn_schedulingoptimizationplan.md#BKMK_msdyn_schedulingoptimizationplan_schedulingscope_msdyn_schedulingscope)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_schedulingoptimizationplan`|
+|ReferencingAttribute|`msdyn_schedulingscope`|
+|ReferencedEntityNavigationPropertyName|`msdyn_schedulingoptimizationplan_SchedulingScope_msdyn_SchedulingScope`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_schedulingscope_AsyncOperations"></a> msdyn_schedulingscope_AsyncOperations
 
