@@ -69,7 +69,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
 - [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_ocmessage_templateId](#BKMK_msdyn_ocmessage_templateId)
 - [msdyn_proactive_engagement_message_template_content](#BKMK_msdyn_proactive_engagement_message_template_content)
+- [msdyn_proactive_engagement_message_template_type](#BKMK_msdyn_proactive_engagement_message_template_type)
 - [msdyn_proactive_engagement_message_template_used_personalization_tokens](#BKMK_msdyn_proactive_engagement_message_template_used_personalization_tokens)
 - [msdyn_proactive_engagement_message_templateId](#BKMK_msdyn_proactive_engagement_message_templateId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -123,6 +125,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsLocalizable|False|
 |MaxLength|100|
 
+### <a name="BKMK_msdyn_ocmessage_templateId"></a> msdyn_ocmessage_templateId
+
+|Property|Value|
+|---|---|
+|Description|**The msdyn\_ocmessage\_template catalog row this campaign selected. Non-enforcing (Remove Link); used for reuse / traceability / impact analysis, not for send.**|
+|DisplayName|**Catalog Message Template**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_ocmessage_templateid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_ocmessage_template|
+
 ### <a name="BKMK_msdyn_proactive_engagement_message_template_content"></a> msdyn_proactive_engagement_message_template_content
 
 |Property|Value|
@@ -139,6 +154,29 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|1073741823|
+
+### <a name="BKMK_msdyn_proactive_engagement_message_template_type"></a> msdyn_proactive_engagement_message_template_type
+
+|Property|Value|
+|---|---|
+|Description|**The format of the message template: SMS (plain text) or MMS (rich content with media attachments). Empty on legacy records is treated as SMS.**|
+|DisplayName|**Message Type**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_proactive_engagement_message_template_type`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_octemplateformat`|
+
+#### msdyn_proactive_engagement_message_template_type Choices/Options
+
+|Value|Label|
+|---|---|
+|100000000|**SMS**|
+|100000001|**MMS**|
+|100000002|**RCS**|
+|100000004|**WhatsApp**|
 
 ### <a name="BKMK_msdyn_proactive_engagement_message_template_used_personalization_tokens"></a> msdyn_proactive_engagement_message_template_used_personalization_tokens
 
@@ -579,6 +617,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [lk_msdyn_proactive_engagement_message_template_createdonbehalfby](#BKMK_lk_msdyn_proactive_engagement_message_template_createdonbehalfby)
 - [lk_msdyn_proactive_engagement_message_template_modifiedby](#BKMK_lk_msdyn_proactive_engagement_message_template_modifiedby)
 - [lk_msdyn_proactive_engagement_message_template_modifiedonbehalfby](#BKMK_lk_msdyn_proactive_engagement_message_template_modifiedonbehalfby)
+- [msdyn_proactive_engagement_message_template_msdyn_ocmessage_template](#BKMK_msdyn_proactive_engagement_message_template_msdyn_ocmessage_template)
 - [owner_msdyn_proactive_engagement_message_template](#BKMK_owner_msdyn_proactive_engagement_message_template)
 - [team_msdyn_proactive_engagement_message_template](#BKMK_team_msdyn_proactive_engagement_message_template)
 - [user_msdyn_proactive_engagement_message_template](#BKMK_user_msdyn_proactive_engagement_message_template)
@@ -647,6 +686,19 @@ One-To-Many Relationship: [systemuser lk_msdyn_proactive_engagement_message_temp
 |ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_proactive_engagement_message_template_msdyn_ocmessage_template"></a> msdyn_proactive_engagement_message_template_msdyn_ocmessage_template
+
+One-To-Many Relationship: [msdyn_ocmessage_template msdyn_proactive_engagement_message_template_msdyn_ocmessage_template](msdyn_ocmessage_template.md#BKMK_msdyn_proactive_engagement_message_template_msdyn_ocmessage_template)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocmessage_template`|
+|ReferencedAttribute|`msdyn_ocmessage_templateid`|
+|ReferencingAttribute|`msdyn_ocmessage_templateid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_ocmessage_templateid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_owner_msdyn_proactive_engagement_message_template"></a> owner_msdyn_proactive_engagement_message_template
 

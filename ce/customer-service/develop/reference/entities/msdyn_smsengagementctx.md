@@ -229,6 +229,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350000|**TeleSign**|
 |192350001|**Twilio**|
 |192350002|**Azure Communication Services**|
+|192350003|**Infobip**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

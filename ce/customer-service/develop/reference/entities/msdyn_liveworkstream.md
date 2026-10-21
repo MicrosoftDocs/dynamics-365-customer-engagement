@@ -23,6 +23,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 - [msdyn_APIKey](#BKMK_msdyn_APIKey)
 - [msdyn_apikeyversionnumber](#BKMK_msdyn_apikeyversionnumber)
+- [msdyn_botplatform](#BKMK_msdyn_botplatform)
 - [msdyn_ConnectorsURL](#BKMK_msdyn_ConnectorsURL)
 - [msdyn_conversationmode](#BKMK_msdyn_conversationmode)
 - [msdyn_CustomerID](#BKMK_msdyn_CustomerID)
@@ -30,6 +31,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_LastValidationOn](#BKMK_msdyn_LastValidationOn)
 - [msdyn_LastValidationStatus](#BKMK_msdyn_LastValidationStatus)
 - [msdyn_notificationscenarioplaceholder](#BKMK_msdyn_notificationscenarioplaceholder)
+- [msdyn_notificationtemplate_ai_consult](#BKMK_msdyn_notificationtemplate_ai_consult)
 - [msdyn_notificationtemplate_callback_previewdialing](#BKMK_msdyn_notificationtemplate_callback_previewdialing)
 - [msdyn_notificationtemplate_consult](#BKMK_msdyn_notificationtemplate_consult)
 - [msdyn_notificationtemplate_incoming_unauth](#BKMK_msdyn_notificationtemplate_incoming_unauth)
@@ -72,6 +74,27 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 |MaxValue|2147483647|
 |MinValue|0|
+
+### <a name="BKMK_msdyn_botplatform"></a> msdyn_botplatform
+
+|Property|Value|
+|---|---|
+|Description|**The bot platform used by the work stream**|
+|DisplayName|**Bot platform**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_botplatform`|
+|RequiredLevel|None|
+|Type|Picklist|
+|DefaultFormValue|192350000|
+|GlobalChoiceName|`msdyn_liveworkstream_msdyn_botplatform`|
+
+#### msdyn_botplatform Choices/Options
+
+|Value|Label|
+|---|---|
+|192350000|**ContactCenter**|
+|192350001|**CCAI**|
 
 ### <a name="BKMK_msdyn_ConnectorsURL"></a> msdyn_ConnectorsURL
 
@@ -194,6 +217,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_notificationtemplate_ai_consult"></a> msdyn_notificationtemplate_ai_consult
+
+|Property|Value|
+|---|---|
+|Description|**AI-initiated consult notification template scenario**|
+|DisplayName|**AI Consult**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_notificationtemplate_ai_consult`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|200|
 
 ### <a name="BKMK_msdyn_notificationtemplate_callback_previewdialing"></a> msdyn_notificationtemplate_callback_previewdialing
 
@@ -352,6 +392,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350000|**TeleSign**|
 |192350001|**Twilio**|
 |192350002|**Azure Communication Services**|
+|192350003|**Infobip**|
 
 ### <a name="BKMK_msdyn_TelesignInboundURL"></a> msdyn_TelesignInboundURL
 
@@ -416,6 +457,8 @@ Changes from [msdyn_streamsource (Microsoft Dynamics 365)](/dynamics365/develope
 |192440000|**Voice call**|
 |192450000|**Apple Messages for Business**|
 |192450001|**Google's Business Messages**|
+|192460000|**Microsoft 365 Copilot**|
+|192470000|**ChatGPT**|
 
 ## One-to-Many relationships
 
@@ -425,10 +468,12 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_liveworkstream_msdyn_proactive_engagement_config_workstream](#BKMK_msdyn_liveworkstream_msdyn_proactive_engagement_config_workstream)
 - [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid)
 - [msdyn_msdyn_liveworkstream_msdyn_ocapplebusinessaccount_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocapplebusinessaccount_liveworkstreamid)
+- [msdyn_msdyn_liveworkstream_msdyn_occhatgptchannelconfig_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_occhatgptchannelconfig_liveworkstreamid)
 - [msdyn_msdyn_liveworkstream_msdyn_occustommessagingchannel_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_occustommessagingchannel_liveworkstreamid)
 - [msdyn_msdyn_liveworkstream_msdyn_ocfbpage](#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocfbpage)
 - [msdyn_msdyn_liveworkstream_msdyn_ocgooglebusinessmessagesagentaccount_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocgooglebusinessmessagesagentaccount_liveworkstreamid)
 - [msdyn_msdyn_liveworkstream_msdyn_oclinechannelconfig_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_oclinechannelconfig_liveworkstreamid)
+- [msdyn_msdyn_liveworkstream_msdyn_ocm365copilotchannelconfig_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocm365copilotchannelconfig_liveworkstreamid)
 - [msdyn_msdyn_liveworkstream_msdyn_ocsmschannelsetting_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocsmschannelsetting_liveworkstreamid)
 - [msdyn_msdyn_liveworkstream_msdyn_ocsmssettingsecret_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocsmssettingsecret_liveworkstreamid)
 - [msdyn_msdyn_liveworkstream_msdyn_octeamschannelconfig_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_octeamschannelconfig_liveworkstreamid)
@@ -489,6 +534,18 @@ Many-To-One Relationship: [msdyn_ocapplebusinessaccount msdyn_msdyn_liveworkstre
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_occhatgptchannelconfig_liveworkstreamid"></a> msdyn_msdyn_liveworkstream_msdyn_occhatgptchannelconfig_liveworkstreamid
+
+Many-To-One Relationship: [msdyn_occhatgptchannelconfig msdyn_msdyn_liveworkstream_msdyn_occhatgptchannelconfig_liveworkstreamid](msdyn_occhatgptchannelconfig.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_occhatgptchannelconfig_liveworkstreamid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_occhatgptchannelconfig`|
+|ReferencingAttribute|`msdyn_liveworkstreamid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_liveworkstream_msdyn_occhatgptchannelconfig_liveworkstreamid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_occustommessagingchannel_liveworkstreamid"></a> msdyn_msdyn_liveworkstream_msdyn_occustommessagingchannel_liveworkstreamid
 
 Many-To-One Relationship: [msdyn_occustommessagingchannel msdyn_msdyn_liveworkstream_msdyn_occustommessagingchannel_liveworkstreamid](msdyn_occustommessagingchannel.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_occustommessagingchannel_liveworkstreamid)
@@ -535,6 +592,18 @@ Many-To-One Relationship: [msdyn_oclinechannelconfig msdyn_msdyn_liveworkstream_
 |ReferencingAttribute|`msdyn_liveworkstreamid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_liveworkstream_msdyn_oclinechannelconfig_liveworkstreamid`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_ocm365copilotchannelconfig_liveworkstreamid"></a> msdyn_msdyn_liveworkstream_msdyn_ocm365copilotchannelconfig_liveworkstreamid
+
+Many-To-One Relationship: [msdyn_ocm365copilotchannelconfig msdyn_msdyn_liveworkstream_msdyn_ocm365copilotchannelconfig_liveworkstreamid](msdyn_ocm365copilotchannelconfig.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocm365copilotchannelconfig_liveworkstreamid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocm365copilotchannelconfig`|
+|ReferencingAttribute|`msdyn_liveworkstreamid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_liveworkstream_msdyn_ocm365copilotchannelconfig_liveworkstreamid`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_ocsmschannelsetting_liveworkstreamid"></a> msdyn_msdyn_liveworkstream_msdyn_ocsmschannelsetting_liveworkstreamid

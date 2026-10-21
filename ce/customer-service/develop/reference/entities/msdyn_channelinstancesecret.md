@@ -572,8 +572,17 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_channelinstancesecret_PrincipalObjectAttributeAccesses](#BKMK_msdyn_channelinstancesecret_PrincipalObjectAttributeAccesses)
 - [msdyn_channelinstancesecret_ProcessSession](#BKMK_msdyn_channelinstancesecret_ProcessSession)
 - [msdyn_channelinstancesecret_SyncErrors](#BKMK_msdyn_channelinstancesecret_SyncErrors)
+- [msdyn_msdyn_channelinstancesecret_msdyn_livechatconfig_translationproviderapikey](#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_livechatconfig_translationproviderapikey)
 - [msdyn_msdyn_channelinstancesecret_msdyn_msdyn_azurenotificationhub_connectionstring](#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_msdyn_azurenotificationhub_connectionstring)
+- [msdyn_msdyn_channelinstancesecret_msdyn_ocapplebusinessaccount_translationproviderapikey](#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_ocapplebusinessaccount_translationproviderapikey)
+- [msdyn_msdyn_channelinstancesecret_msdyn_occustommessagingchannel_translationproviderapikey](#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_occustommessagingchannel_translationproviderapikey)
+- [msdyn_msdyn_channelinstancesecret_msdyn_ocfbpage_translationproviderapikey](#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_ocfbpage_translationproviderapikey)
+- [msdyn_msdyn_channelinstancesecret_msdyn_oclinechannelconfig_translationproviderapikey](#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_oclinechannelconfig_translationproviderapikey)
+- [msdyn_msdyn_channelinstancesecret_msdyn_ocm365copilotchannelconfig_translationproviderapikey](#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_ocm365copilotchannelconfig_translationproviderapikey)
+- [msdyn_msdyn_channelinstancesecret_msdyn_ocsmschannelsetting_translationproviderapikey](#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_ocsmschannelsetting_translationproviderapikey)
+- [msdyn_msdyn_channelinstancesecret_msdyn_octeamschannelconfig_translationproviderapikey](#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_octeamschannelconfig_translationproviderapikey)
 - [msdyn_msdyn_channelinstancesecret_msdyn_ocwhatsappchannelaccount_provideracsconnectionstring](#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_ocwhatsappchannelaccount_provideracsconnectionstring)
+- [msdyn_msdyn_channelinstancesecret_msdyn_ocwhatsappchannelnumber_translationproviderapikey](#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_ocwhatsappchannelnumber_translationproviderapikey)
 
 ### <a name="BKMK_msdyn_channelinstancesecret_AsyncOperations"></a> msdyn_channelinstancesecret_AsyncOperations
 
@@ -671,6 +680,18 @@ Many-To-One Relationship: [syncerror msdyn_channelinstancesecret_SyncErrors](syn
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_msdyn_channelinstancesecret_msdyn_livechatconfig_translationproviderapikey"></a> msdyn_msdyn_channelinstancesecret_msdyn_livechatconfig_translationproviderapikey
+
+Many-To-One Relationship: [msdyn_livechatconfig msdyn_msdyn_channelinstancesecret_msdyn_livechatconfig_translationproviderapikey](msdyn_livechatconfig.md#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_livechatconfig_translationproviderapikey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_livechatconfig`|
+|ReferencingAttribute|`msdyn_translationproviderapikeyid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_channelinstancesecret_msdyn_livechatconfig_translationproviderapikey`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_msdyn_channelinstancesecret_msdyn_msdyn_azurenotificationhub_connectionstring"></a> msdyn_msdyn_channelinstancesecret_msdyn_msdyn_azurenotificationhub_connectionstring
 
 Many-To-One Relationship: [msdyn_azurenotificationhub msdyn_msdyn_channelinstancesecret_msdyn_msdyn_azurenotificationhub_connectionstring](msdyn_azurenotificationhub.md#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_msdyn_azurenotificationhub_connectionstring)
@@ -683,6 +704,90 @@ Many-To-One Relationship: [msdyn_azurenotificationhub msdyn_msdyn_channelinstanc
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_msdyn_channelinstancesecret_msdyn_ocapplebusinessaccount_translationproviderapikey"></a> msdyn_msdyn_channelinstancesecret_msdyn_ocapplebusinessaccount_translationproviderapikey
+
+Many-To-One Relationship: [msdyn_ocapplebusinessaccount msdyn_msdyn_channelinstancesecret_msdyn_ocapplebusinessaccount_translationproviderapikey](msdyn_ocapplebusinessaccount.md#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_ocapplebusinessaccount_translationproviderapikey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocapplebusinessaccount`|
+|ReferencingAttribute|`msdyn_translationproviderapikeyid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_channelinstancesecret_msdyn_ocapplebusinessaccount_translationproviderapikey`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_channelinstancesecret_msdyn_occustommessagingchannel_translationproviderapikey"></a> msdyn_msdyn_channelinstancesecret_msdyn_occustommessagingchannel_translationproviderapikey
+
+Many-To-One Relationship: [msdyn_occustommessagingchannel msdyn_msdyn_channelinstancesecret_msdyn_occustommessagingchannel_translationproviderapikey](msdyn_occustommessagingchannel.md#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_occustommessagingchannel_translationproviderapikey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_occustommessagingchannel`|
+|ReferencingAttribute|`msdyn_translationproviderapikeyid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_channelinstancesecret_msdyn_occustommessagingchannel_translationproviderapikey`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_channelinstancesecret_msdyn_ocfbpage_translationproviderapikey"></a> msdyn_msdyn_channelinstancesecret_msdyn_ocfbpage_translationproviderapikey
+
+Many-To-One Relationship: [msdyn_ocfbpage msdyn_msdyn_channelinstancesecret_msdyn_ocfbpage_translationproviderapikey](msdyn_ocfbpage.md#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_ocfbpage_translationproviderapikey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocfbpage`|
+|ReferencingAttribute|`msdyn_translationproviderapikeyid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_channelinstancesecret_msdyn_ocfbpage_translationproviderapikey`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_channelinstancesecret_msdyn_oclinechannelconfig_translationproviderapikey"></a> msdyn_msdyn_channelinstancesecret_msdyn_oclinechannelconfig_translationproviderapikey
+
+Many-To-One Relationship: [msdyn_oclinechannelconfig msdyn_msdyn_channelinstancesecret_msdyn_oclinechannelconfig_translationproviderapikey](msdyn_oclinechannelconfig.md#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_oclinechannelconfig_translationproviderapikey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_oclinechannelconfig`|
+|ReferencingAttribute|`msdyn_translationproviderapikeyid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_channelinstancesecret_msdyn_oclinechannelconfig_translationproviderapikey`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_channelinstancesecret_msdyn_ocm365copilotchannelconfig_translationproviderapikey"></a> msdyn_msdyn_channelinstancesecret_msdyn_ocm365copilotchannelconfig_translationproviderapikey
+
+Many-To-One Relationship: [msdyn_ocm365copilotchannelconfig msdyn_msdyn_channelinstancesecret_msdyn_ocm365copilotchannelconfig_translationproviderapikey](msdyn_ocm365copilotchannelconfig.md#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_ocm365copilotchannelconfig_translationproviderapikey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocm365copilotchannelconfig`|
+|ReferencingAttribute|`msdyn_translationproviderapikeyid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_channelinstancesecret_msdyn_ocm365copilotchannelconfig_translationproviderapikey`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_channelinstancesecret_msdyn_ocsmschannelsetting_translationproviderapikey"></a> msdyn_msdyn_channelinstancesecret_msdyn_ocsmschannelsetting_translationproviderapikey
+
+Many-To-One Relationship: [msdyn_ocsmschannelsetting msdyn_msdyn_channelinstancesecret_msdyn_ocsmschannelsetting_translationproviderapikey](msdyn_ocsmschannelsetting.md#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_ocsmschannelsetting_translationproviderapikey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocsmschannelsetting`|
+|ReferencingAttribute|`msdyn_translationproviderapikeyid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_channelinstancesecret_msdyn_ocsmschannelsetting_translationproviderapikey`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_channelinstancesecret_msdyn_octeamschannelconfig_translationproviderapikey"></a> msdyn_msdyn_channelinstancesecret_msdyn_octeamschannelconfig_translationproviderapikey
+
+Many-To-One Relationship: [msdyn_octeamschannelconfig msdyn_msdyn_channelinstancesecret_msdyn_octeamschannelconfig_translationproviderapikey](msdyn_octeamschannelconfig.md#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_octeamschannelconfig_translationproviderapikey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_octeamschannelconfig`|
+|ReferencingAttribute|`msdyn_translationproviderapikeyid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_channelinstancesecret_msdyn_octeamschannelconfig_translationproviderapikey`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
 ### <a name="BKMK_msdyn_msdyn_channelinstancesecret_msdyn_ocwhatsappchannelaccount_provideracsconnectionstring"></a> msdyn_msdyn_channelinstancesecret_msdyn_ocwhatsappchannelaccount_provideracsconnectionstring
 
 Many-To-One Relationship: [msdyn_ocwhatsappchannelaccount msdyn_msdyn_channelinstancesecret_msdyn_ocwhatsappchannelaccount_provideracsconnectionstring](msdyn_ocwhatsappchannelaccount.md#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_ocwhatsappchannelaccount_provideracsconnectionstring)
@@ -692,6 +797,18 @@ Many-To-One Relationship: [msdyn_ocwhatsappchannelaccount msdyn_msdyn_channelins
 |ReferencingEntity|`msdyn_ocwhatsappchannelaccount`|
 |ReferencingAttribute|`msdyn_provideracsconnectionstringid`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_channelinstancesecret_msdyn_ocwhatsappchannelaccount_provideracsconnectionstring`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_channelinstancesecret_msdyn_ocwhatsappchannelnumber_translationproviderapikey"></a> msdyn_msdyn_channelinstancesecret_msdyn_ocwhatsappchannelnumber_translationproviderapikey
+
+Many-To-One Relationship: [msdyn_ocwhatsappchannelnumber msdyn_msdyn_channelinstancesecret_msdyn_ocwhatsappchannelnumber_translationproviderapikey](msdyn_ocwhatsappchannelnumber.md#BKMK_msdyn_msdyn_channelinstancesecret_msdyn_ocwhatsappchannelnumber_translationproviderapikey)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocwhatsappchannelnumber`|
+|ReferencingAttribute|`msdyn_translationproviderapikeyid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_channelinstancesecret_msdyn_ocwhatsappchannelnumber_translationproviderapikey`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 

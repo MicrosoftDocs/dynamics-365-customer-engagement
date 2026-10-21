@@ -13,7 +13,7 @@ search.audienceType:
 
 
 > [!NOTE]
-> The Microsoft Dynamics 365 Customer Service File Upload (msdyn_FileUpload) table extends the [Microsoft Dynamics 365 File Upload (msdyn_FileUpload) table](/dynamics365/developer/reference/entities/msdyn_fileupload).
+> The Microsoft Dynamics 365 Customer Service File Upload (msdyn_FileUpload) table extends the [Microsoft Dataverse File Upload (msdyn_FileUpload) table](/power-apps/developer/data-platform/reference/entities/msdyn_fileupload).
 
 
 

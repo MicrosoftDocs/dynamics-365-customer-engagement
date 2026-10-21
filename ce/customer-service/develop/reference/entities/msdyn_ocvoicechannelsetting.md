@@ -77,8 +77,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_agenttranscriptioncontrolsenabled](#BKMK_msdyn_agenttranscriptioncontrolsenabled)
 - [msdyn_announceaveragewaittime](#BKMK_msdyn_announceaveragewaittime)
 - [msdyn_announcepositioninqueue](#BKMK_msdyn_announcepositioninqueue)
+- [msdyn_applyrecordingtranscriptiontopostcallsurvey](#BKMK_msdyn_applyrecordingtranscriptiontopostcallsurvey)
 - [msdyn_calleridname](#BKMK_msdyn_calleridname)
 - [msdyn_calleridphonenumberid](#BKMK_msdyn_calleridphonenumberid)
+- [msdyn_commonchannelconfigid](#BKMK_msdyn_commonchannelconfigid)
 - [msdyn_enablepostcallsurvey](#BKMK_msdyn_enablepostcallsurvey)
 - [msdyn_enablepostcallsurveyduration](#BKMK_msdyn_enablepostcallsurveyduration)
 - [msdyn_enablestoprecordingtranscriptiononhold](#BKMK_msdyn_enablestoprecordingtranscriptiononhold)
@@ -90,11 +92,14 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_operatinghoursid](#BKMK_msdyn_operatinghoursid)
 - [msdyn_outboundcallregionallowlist](#BKMK_msdyn_outboundcallregionallowlist)
 - [msdyn_phonenumberid](#BKMK_msdyn_phonenumberid)
+- [msdyn_playrecordingtranscriptionnotifications](#BKMK_msdyn_playrecordingtranscriptionnotifications)
 - [msdyn_postcallsurveyendtime](#BKMK_msdyn_postcallsurveyendtime)
 - [msdyn_postcallsurveyfrequency](#BKMK_msdyn_postcallsurveyfrequency)
 - [msdyn_postcallsurveystarttime](#BKMK_msdyn_postcallsurveystarttime)
+- [msdyn_realtimespeechanstranslationenabled](#BKMK_msdyn_realtimespeechanstranslationenabled)
 - [msdyn_recordingenabled](#BKMK_msdyn_recordingenabled)
 - [msdyn_recordingmode](#BKMK_msdyn_recordingmode)
+- [msdyn_requestuserconsentforrecording](#BKMK_msdyn_requestuserconsentforrecording)
 - [msdyn_showhidetranscriptionfeaturepreview](#BKMK_msdyn_showhidetranscriptionfeaturepreview)
 - [msdyn_skipwaitmusicforivr](#BKMK_msdyn_skipwaitmusicforivr)
 - [msdyn_stoptranscriptionandrecordingafterpstntransfer](#BKMK_msdyn_stoptranscriptionandrecordingafterpstntransfer)
@@ -267,6 +272,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |True Label|Yes|
 |False Label|No|
 
+### <a name="BKMK_msdyn_applyrecordingtranscriptiontopostcallsurvey"></a> msdyn_applyrecordingtranscriptiontopostcallsurvey
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether to apply the channel's recording and transcription settings to the post-call survey.**|
+|DisplayName|**Apply recording and transcription to post-call survey**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_applyrecordingtranscriptiontopostcallsurvey`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_ocvoicechannelsetting_msdyn_applyrecordingtranscriptiontopostcallsurvey`|
+|DefaultValue|True|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_calleridname"></a> msdyn_calleridname
 
 |Property|Value|
@@ -296,6 +317,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|Lookup|
 |Targets|msdyn_ocphonenumber|
+
+### <a name="BKMK_msdyn_commonchannelconfigid"></a> msdyn_commonchannelconfigid
+
+|Property|Value|
+|---|---|
+|Description|**Common Channel Configuration Identifier**|
+|DisplayName|**Common Channel Configuration**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_commonchannelconfigid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_commonchannelconfig|
 
 ### <a name="BKMK_msdyn_enablepostcallsurvey"></a> msdyn_enablepostcallsurvey
 
@@ -463,6 +497,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Lookup|
 |Targets|msdyn_ocphonenumber|
 
+### <a name="BKMK_msdyn_playrecordingtranscriptionnotifications"></a> msdyn_playrecordingtranscriptionnotifications
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether to play recording and transcription start, pause and resume notifications.**|
+|DisplayName|**Play Recording and Transcription Notifications**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_playrecordingtranscriptionnotifications`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_ocvoicechannelsetting_msdyn_playrecordingtranscriptionnotifications`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_postcallsurveyendtime"></a> msdyn_postcallsurveyendtime
 
 |Property|Value|
@@ -511,6 +561,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |SourceTypeMask|0|
 
+### <a name="BKMK_msdyn_realtimespeechanstranslationenabled"></a> msdyn_realtimespeechanstranslationenabled
+
+|Property|Value|
+|---|---|
+|Description|**Real-time Speech Translation Enabled**|
+|DisplayName|**Real-time Speech Translation Enabled**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_realtimespeechanstranslationenabled`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_ocvoicechannelsetting_msdyn_realtimespeechanstranslationenabled`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
+
 ### <a name="BKMK_msdyn_recordingenabled"></a> msdyn_recordingenabled
 
 |Property|Value|
@@ -548,6 +614,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192351000|**None**|
 |192351001|**Manual**|
 |192351002|**Automatic**|
+
+### <a name="BKMK_msdyn_requestuserconsentforrecording"></a> msdyn_requestuserconsentforrecording
+
+|Property|Value|
+|---|---|
+|Description|**Indicates whether to request user consent for call recording.**|
+|DisplayName|**Request consent for call recording**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_requestuserconsentforrecording`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_ocvoicechannelsetting_msdyn_requestuserconsentforrecording`|
+|DefaultValue|False|
+|True Label|Yes|
+|False Label|No|
 
 ### <a name="BKMK_msdyn_showhidetranscriptionfeaturepreview"></a> msdyn_showhidetranscriptionfeaturepreview
 
@@ -1126,6 +1208,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_liveworkstream_msdyn_ocvoicechannelsetting_liveworkstreamid](#BKMK_msdyn_liveworkstream_msdyn_ocvoicechannelsetting_liveworkstreamid)
 - [msdyn_ocphonenumber_msdyn_ocvoicechannelsetting_calleridphonenumberid](#BKMK_msdyn_ocphonenumber_msdyn_ocvoicechannelsetting_calleridphonenumberid)
 - [msdyn_ocphonenumber_msdyn_ocvoicechannelsetting_phonenumberid](#BKMK_msdyn_ocphonenumber_msdyn_ocvoicechannelsetting_phonenumberid)
+- [msdyn_ocvoicechannelsetting_msdyn_commonchannelconfigid_msdyn_commonchannelconfig](#BKMK_msdyn_ocvoicechannelsetting_msdyn_commonchannelconfigid_msdyn_commonchannelconfig)
 - [msdyn_operatinghour_msdyn_ocvoicechannelsetting_operatinghoursid](#BKMK_msdyn_operatinghour_msdyn_ocvoicechannelsetting_operatinghoursid)
 - [owner_msdyn_ocvoicechannelsetting](#BKMK_owner_msdyn_ocvoicechannelsetting)
 - [team_msdyn_ocvoicechannelsetting](#BKMK_team_msdyn_ocvoicechannelsetting)
@@ -1248,6 +1331,19 @@ One-To-Many Relationship: [msdyn_ocphonenumber msdyn_ocphonenumber_msdyn_ocvoice
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
+### <a name="BKMK_msdyn_ocvoicechannelsetting_msdyn_commonchannelconfigid_msdyn_commonchannelconfig"></a> msdyn_ocvoicechannelsetting_msdyn_commonchannelconfigid_msdyn_commonchannelconfig
+
+One-To-Many Relationship: [msdyn_commonchannelconfig msdyn_ocvoicechannelsetting_msdyn_commonchannelconfigid_msdyn_commonchannelconfig](msdyn_commonchannelconfig.md#BKMK_msdyn_ocvoicechannelsetting_msdyn_commonchannelconfigid_msdyn_commonchannelconfig)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_commonchannelconfig`|
+|ReferencedAttribute|`msdyn_commonchannelconfigid`|
+|ReferencingAttribute|`msdyn_commonchannelconfigid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_commonchannelconfigid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
 ### <a name="BKMK_msdyn_operatinghour_msdyn_ocvoicechannelsetting_operatinghoursid"></a> msdyn_operatinghour_msdyn_ocvoicechannelsetting_operatinghoursid
 
 One-To-Many Relationship: [msdyn_operatinghour msdyn_operatinghour_msdyn_ocvoicechannelsetting_operatinghoursid](msdyn_operatinghour.md#BKMK_msdyn_operatinghour_msdyn_ocvoicechannelsetting_operatinghoursid)
@@ -1305,15 +1401,30 @@ One-To-Many Relationship: [systemuser user_msdyn_ocvoicechannelsetting](systemus
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_channelinstancecontextvariable_msdyn_channelinstanceid_msdyn_ocvoicechannelsetting](#BKMK_msdyn_channelinstancecontextvariable_msdyn_channelinstanceid_msdyn_ocvoicechannelsetting)
 - [msdyn_msdyn_ocvoicechannelsetting_msdyn_ocprovisioningstate_voicechannelsettingid](#BKMK_msdyn_msdyn_ocvoicechannelsetting_msdyn_ocprovisioningstate_voicechannelsettingid)
 - [msdyn_msdyn_ocvoicechannelsetting_msdyn_ocvoicechannellanguagesetting_ocvoicechannelsettingid](#BKMK_msdyn_msdyn_ocvoicechannelsetting_msdyn_ocvoicechannellanguagesetting_ocvoicechannelsettingid)
 - [msdyn_msdyn_ocvoicechannelsetting_msdyn_overflowactionconfig_directcallbackoutboundprofile](#BKMK_msdyn_msdyn_ocvoicechannelsetting_msdyn_overflowactionconfig_directcallbackoutboundprofile)
+- [msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_ocvoicechannelsetting](#BKMK_msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_ocvoicechannelsetting)
 - [msdyn_ocvoicechannelsetting_AsyncOperations](#BKMK_msdyn_ocvoicechannelsetting_AsyncOperations)
 - [msdyn_ocvoicechannelsetting_BulkDeleteFailures](#BKMK_msdyn_ocvoicechannelsetting_BulkDeleteFailures)
 - [msdyn_ocvoicechannelsetting_MailboxTrackingFolders](#BKMK_msdyn_ocvoicechannelsetting_MailboxTrackingFolders)
 - [msdyn_ocvoicechannelsetting_PrincipalObjectAttributeAccesses](#BKMK_msdyn_ocvoicechannelsetting_PrincipalObjectAttributeAccesses)
 - [msdyn_ocvoicechannelsetting_ProcessSession](#BKMK_msdyn_ocvoicechannelsetting_ProcessSession)
 - [msdyn_ocvoicechannelsetting_SyncErrors](#BKMK_msdyn_ocvoicechannelsetting_SyncErrors)
+- [msdyn_profilepicker_msdyn_channelinstanceid_msdyn_ocvoicechannelsetting](#BKMK_msdyn_profilepicker_msdyn_channelinstanceid_msdyn_ocvoicechannelsetting)
+
+### <a name="BKMK_msdyn_channelinstancecontextvariable_msdyn_channelinstanceid_msdyn_ocvoicechannelsetting"></a> msdyn_channelinstancecontextvariable_msdyn_channelinstanceid_msdyn_ocvoicechannelsetting
+
+Many-To-One Relationship: [msdyn_channelinstancecontextvariable msdyn_channelinstancecontextvariable_msdyn_channelinstanceid_msdyn_ocvoicechannelsetting](msdyn_channelinstancecontextvariable.md#BKMK_msdyn_channelinstancecontextvariable_msdyn_channelinstanceid_msdyn_ocvoicechannelsetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_channelinstancecontextvariable`|
+|ReferencingAttribute|`msdyn_channelinstanceid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_channelinstancecontextvariable_msdyn_channelinstanceid_msdyn_ocvoicechannelsetting`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_ocvoicechannelsetting_msdyn_ocprovisioningstate_voicechannelsettingid"></a> msdyn_msdyn_ocvoicechannelsetting_msdyn_ocprovisioningstate_voicechannelsettingid
 
@@ -1348,6 +1459,18 @@ Many-To-One Relationship: [msdyn_overflowactionconfig msdyn_msdyn_ocvoicechannel
 |ReferencingEntity|`msdyn_overflowactionconfig`|
 |ReferencingAttribute|`msdyn_directcallbackoutboundprofile`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_ocvoicechannelsetting_msdyn_overflowactionconfig_directcallbackoutboundprofile`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_ocvoicechannelsetting"></a> msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_ocvoicechannelsetting
+
+Many-To-One Relationship: [msdyn_ocliveworkitem msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_ocvoicechannelsetting](msdyn_ocliveworkitem.md#BKMK_msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_ocvoicechannelsetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocliveworkitem`|
+|ReferencingAttribute|`msdyn_channelreferenceid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocliveworkitem_msdyn_channelreferenceid_msdyn_ocvoicechannelsetting`|
 |IsCustomizable|`False`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
@@ -1422,6 +1545,18 @@ Many-To-One Relationship: [syncerror msdyn_ocvoicechannelsetting_SyncErrors](syn
 |ReferencedEntityNavigationPropertyName|`msdyn_ocvoicechannelsetting_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_profilepicker_msdyn_channelinstanceid_msdyn_ocvoicechannelsetting"></a> msdyn_profilepicker_msdyn_channelinstanceid_msdyn_ocvoicechannelsetting
+
+Many-To-One Relationship: [msdyn_profilepicker msdyn_profilepicker_msdyn_channelinstanceid_msdyn_ocvoicechannelsetting](msdyn_profilepicker.md#BKMK_msdyn_profilepicker_msdyn_channelinstanceid_msdyn_ocvoicechannelsetting)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_profilepicker`|
+|ReferencingAttribute|`msdyn_channelinstanceid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_profilepicker_msdyn_channelinstanceid_msdyn_ocvoicechannelsetting`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

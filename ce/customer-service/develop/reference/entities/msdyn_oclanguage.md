@@ -24,10 +24,12 @@ These relationships are one-to-many. Listed by **SchemaName**.
 
 - [msdyn_msdyn_oclanguage_msdyn_livechatconfig_ocWidgetLanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_livechatconfig_ocWidgetLanguage)
 - [msdyn_msdyn_oclanguage_msdyn_ocapplebusinessaccount_ocwidgetlanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_ocapplebusinessaccount_ocwidgetlanguage)
+- [msdyn_msdyn_oclanguage_msdyn_occhatgptchannelconfig_ocwidgetlanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_occhatgptchannelconfig_ocwidgetlanguage)
 - [msdyn_msdyn_oclanguage_msdyn_occustommessagingchannel_custommessagingchannellanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_occustommessagingchannel_custommessagingchannellanguage)
 - [msdyn_msdyn_oclanguage_msdyn_ocfbpage_facebookpagelanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_ocfbpage_facebookpagelanguage)
 - [msdyn_msdyn_oclanguage_msdyn_ocgooglebusinessmessagesagentaccount_ocwidgetlanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_ocgooglebusinessmessagesagentaccount_ocwidgetlanguage)
 - [msdyn_msdyn_oclanguage_msdyn_oclinechannelconfig_lineaccountlanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_oclinechannelconfig_lineaccountlanguage)
+- [msdyn_msdyn_oclanguage_msdyn_ocm365copilotchannelconfig_M365CopilotChannelConfig](#BKMK_msdyn_msdyn_oclanguage_msdyn_ocm365copilotchannelconfig_M365CopilotChannelConfig)
 - [msdyn_msdyn_oclanguage_msdyn_ocoutboundconfiguration_defaultlocale](#BKMK_msdyn_msdyn_oclanguage_msdyn_ocoutboundconfiguration_defaultlocale)
 - [msdyn_msdyn_oclanguage_msdyn_ocsmschannelsetting_ocsmschannelsettinglanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_ocsmschannelsetting_ocsmschannelsettinglanguage)
 - [msdyn_msdyn_oclanguage_msdyn_octeamschannelconfig_teamsaccountlanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_octeamschannelconfig_teamsaccountlanguage)
@@ -60,6 +62,18 @@ Many-To-One Relationship: [msdyn_ocapplebusinessaccount msdyn_msdyn_oclanguage_m
 |ReferencingEntity|`msdyn_ocapplebusinessaccount`|
 |ReferencingAttribute|`msdyn_ocwidgetlanguage`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_oclanguage_msdyn_ocapplebusinessaccount_ocwidgetlanguage`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_oclanguage_msdyn_occhatgptchannelconfig_ocwidgetlanguage"></a> msdyn_msdyn_oclanguage_msdyn_occhatgptchannelconfig_ocwidgetlanguage
+
+Many-To-One Relationship: [msdyn_occhatgptchannelconfig msdyn_msdyn_oclanguage_msdyn_occhatgptchannelconfig_ocwidgetlanguage](msdyn_occhatgptchannelconfig.md#BKMK_msdyn_msdyn_oclanguage_msdyn_occhatgptchannelconfig_ocwidgetlanguage)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_occhatgptchannelconfig`|
+|ReferencingAttribute|`msdyn_ocwidgetlanguage`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_oclanguage_msdyn_occhatgptchannelconfig_ocwidgetlanguage`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
@@ -109,6 +123,18 @@ Many-To-One Relationship: [msdyn_oclinechannelconfig msdyn_msdyn_oclanguage_msdy
 |ReferencingAttribute|`msdyn_ocwidgetlanguage`|
 |ReferencedEntityNavigationPropertyName|`msdyn_msdyn_oclanguage_msdyn_oclinechannelconfig_lineaccountlanguage`|
 |IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_oclanguage_msdyn_ocm365copilotchannelconfig_M365CopilotChannelConfig"></a> msdyn_msdyn_oclanguage_msdyn_ocm365copilotchannelconfig_M365CopilotChannelConfig
+
+Many-To-One Relationship: [msdyn_ocm365copilotchannelconfig msdyn_msdyn_oclanguage_msdyn_ocm365copilotchannelconfig_M365CopilotChannelConfig](msdyn_ocm365copilotchannelconfig.md#BKMK_msdyn_msdyn_oclanguage_msdyn_ocm365copilotchannelconfig_M365CopilotChannelConfig)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocm365copilotchannelconfig`|
+|ReferencingAttribute|`msdyn_ocwidgetlanguage`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_oclanguage_msdyn_ocm365copilotchannelconfig_M365CopilotChannelConfig`|
+|IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_oclanguage_msdyn_ocoutboundconfiguration_defaultlocale"></a> msdyn_msdyn_oclanguage_msdyn_ocoutboundconfiguration_defaultlocale

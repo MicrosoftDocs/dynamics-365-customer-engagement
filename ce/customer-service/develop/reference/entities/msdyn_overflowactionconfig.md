@@ -21,6 +21,9 @@ Overflow action configurations.
 
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
+- [msdyn_directcallbackoutboundprofile](#BKMK_msdyn_directcallbackoutboundprofile)
+- [msdyn_proactive_callback_profileId](#BKMK_msdyn_proactive_callback_profileId)
+
 ### <a name="BKMK_msdyn_directcallbackoutboundprofile"></a> msdyn_directcallbackoutboundprofile
 
 |Property|Value|
@@ -34,10 +37,26 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Lookup|
 |Targets|msdyn_ocvoicechannelsetting|
 
+### <a name="BKMK_msdyn_proactive_callback_profileId"></a> msdyn_proactive_callback_profileId
+
+|Property|Value|
+|---|---|
+|Description|**Lookup to the Callback Profile associated with overflow action config**|
+|DisplayName|**Proactive Callback Profile**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_proactive_callback_profileid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_proactive_callback_profile|
+
 
 ## Many-to-One relationships
 
 These relationships are many-to-one. Listed by **SchemaName**.
+
+- [msdyn_msdyn_ocvoicechannelsetting_msdyn_overflowactionconfig_directcallbackoutboundprofile](#BKMK_msdyn_msdyn_ocvoicechannelsetting_msdyn_overflowactionconfig_directcallbackoutboundprofile)
+- [msdyn_overflowactionconfig_proactive_callback_profileId_msdyn_proactive_callback_profile](#BKMK_msdyn_overflowactionconfig_proactive_callback_profileId_msdyn_proactive_callback_profile)
 
 ### <a name="BKMK_msdyn_msdyn_ocvoicechannelsetting_msdyn_overflowactionconfig_directcallbackoutboundprofile"></a> msdyn_msdyn_ocvoicechannelsetting_msdyn_overflowactionconfig_directcallbackoutboundprofile
 
@@ -51,6 +70,19 @@ One-To-Many Relationship: [msdyn_ocvoicechannelsetting msdyn_msdyn_ocvoicechanne
 |ReferencingEntityNavigationPropertyName|`msdyn_directcallbackoutboundprofile`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_overflowactionconfig_proactive_callback_profileId_msdyn_proactive_callback_profile"></a> msdyn_overflowactionconfig_proactive_callback_profileId_msdyn_proactive_callback_profile
+
+One-To-Many Relationship: [msdyn_proactive_callback_profile msdyn_overflowactionconfig_proactive_callback_profileId_msdyn_proactive_callback_profile](msdyn_proactive_callback_profile.md#BKMK_msdyn_overflowactionconfig_proactive_callback_profileId_msdyn_proactive_callback_profile)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_proactive_callback_profile`|
+|ReferencedAttribute|`msdyn_proactive_callback_profileid`|
+|ReferencingAttribute|`msdyn_proactive_callback_profileid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_proactive_callback_profileId`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 
 

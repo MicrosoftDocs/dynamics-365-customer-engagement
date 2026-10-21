@@ -66,6 +66,8 @@ Changes from [msdyn_streamsource (Microsoft Dynamics 365)](/dynamics365/develope
 |192440000|**Voice call**|
 |192450000|**Apple Messages for Business**|
 |192450001|**Google's Business Messages**|
+|192460000|**Microsoft 365 Copilot**|
+|192470000|**ChatGPT**|
 
 ### <a name="BKMK_msdyn_systemmessageeventtype"></a> msdyn_systemmessageeventtype
 
@@ -75,6 +77,7 @@ Changes from [msdyn_systemmessageeventtype (Microsoft Dynamics 365)](/dynamics36
 
 |Value|Label|
 |---|---|
+|192350075|**You are already in queue to receive a callback when a customer service representative is available. You can choose to continue waiting on this call if needed or disconnect and receive the callback**|
 |192360000|**Offer Voicemail**|
 |192360001|**Voicemail Complete**|
 |192360002|**Voicemail Fail**|
@@ -97,8 +100,54 @@ Changes from [msdyn_systemmessageeventtype (Microsoft Dynamics 365)](/dynamics36
 |192360020|**Consult to queue or user group failed due to out of operating hours**|
 |192360021|**Consult with queue or user group is cancelled**|
 |192360022|**No service representatives found for consult with queue or user group**|
+|192360025|**Open conversation added to queue for voice**|
 |192370004|**Agent on hold**|
 |192370005|**Agent is no longer on hold**|
+|192370008|**Duplicate Callback**|
+|192370015|**Duplicate callback end-call**|
+|192380001|**Callback failed - concurrent calls limit exceeded**|
+|192380002|**Callback failed - number is not entitled to call this destination**|
+|192380003|**Callback failed - invalid phone number**|
+|192380004|**Callback failed - customer declined the call**|
+|192380005|**Callback failed - customer number is busy**|
+|192380006|**Outbound call failed - concurrent calls limit exceeded**|
+|192380007|**Outbound call failed - Outbound number is not entitled to call this destination**|
+|192380008|**Outbound call failed - invalid phone number**|
+|192380009|**Outbound call failed - customer declined the call**|
+|192380010|**Outbound call failed - customer number is busy**|
+|192380011|**Outbound call failed - Destination number is temporarily unavailable**|
+|192380012|**Call failed - could not be completed**|
+|192380013|**Callback scheduling failed**|
+|192380014|**Offer callback with alternate number**|
+|192380015|**Offer Callback Alternate number bot transfer message**|
+|192380016|**Inbound CSR Connected to Customer on Non-Bot Workstream with Recording and Transcription Enabled**|
+|192380017|**Inbound CSR Connected to Customer on Non-Bot Workstream with Transcription Enabled**|
+|192380018|**Inbound Recording and Transcription Paused by CSR**|
+|192380019|**Inbound Transcription Paused by CSR**|
+|192380020|**Inbound Recording and Transcription Resumed by CSR**|
+|192380021|**Inbound Transcription Resumed by CSR**|
+|192380022|**Inbound CSR Internal Consult Connected to Consultee with Recording and Transcription Enabled - Customer on Hold**|
+|192380023|**Inbound CSR Internal Consult Connected to Consultee with Transcription Enabled - Customer on Hold**|
+|192380024|**Inbound CSR External Consult Connected to Consultee with Recording and Transcription Enabled - Customer on Hold**|
+|192380025|**Inbound CSR External Consult Connected to Consultee with Transcription Enabled - Customer on Hold**|
+|192380026|**Inbound CSR Transfer to Queue with Recording and Transcription Enabled - Customer on Hold**|
+|192380027|**Inbound CSR Transfer to Queue with Transcription Enabled - Customer on Hold**|
+|192380028|**Inbound CSR Bridged Transfer to External Number with Recording and Transcription Enabled - Customer on Hold**|
+|192380029|**Inbound CSR Bridged Transfer to External Number with Transcription Enabled - Customer on Hold**|
+|192380030|**Outbound CSR Connected to Customer with Recording and Transcription Enabled**|
+|192380031|**Outbound CSR Connected to Customer with Transcription Enabled**|
+|192380032|**Outbound Recording and Transcription Paused by CSR**|
+|192380033|**Outbound Transcription Paused by CSR**|
+|192380034|**Outbound Recording and Transcription Resumed by CSR**|
+|192380035|**Outbound Transcription Resumed by CSR**|
+|192380036|**Outbound CSR Internal Consult Connected to Consultee with Recording and Transcription Enabled - Customer on Hold**|
+|192380037|**Outbound CSR Internal Consult Connected to Consultee with Transcription Enabled - Customer on Hold**|
+|192380038|**Outbound CSR External Consult Connected to Consultee with Recording and Transcription Enabled - Customer on Hold**|
+|192380039|**Outbound CSR External Consult Connected to Consultee with Transcription Enabled - Customer on Hold**|
+|192380040|**Outbound CSR Transfer to Queue Connected with Recording and Transcription Enabled - Customer on Hold**|
+|192380041|**Outbound CSR Transfer to Queue Connected with Transcription Enabled - Customer on Hold**|
+|192380042|**Outbound CSR Bridged Transfer to External Number with Recording and Transcription Enabled - Customer on Hold**|
+|192380043|**Outbound CSR Bridged Transfer to External Number with Transcription Enabled - Customer on Hold**|
 
 ## Many-to-One relationships
 

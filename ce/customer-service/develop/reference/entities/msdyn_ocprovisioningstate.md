@@ -29,6 +29,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_ocfbapplicationid](#BKMK_msdyn_ocfbapplicationid)
 - [msdyn_ocfbpageid](#BKMK_msdyn_ocfbpageid)
 - [msdyn_oclinechannelconfigid](#BKMK_msdyn_oclinechannelconfigid)
+- [msdyn_ocm365copilotchannelconfigid](#BKMK_msdyn_ocm365copilotchannelconfigid)
 - [msdyn_octeamschannelconfigid](#BKMK_msdyn_octeamschannelconfigid)
 - [msdyn_ocwhatsappchannelaccountId](#BKMK_msdyn_ocwhatsappchannelaccountId)
 - [msdyn_phonenumberid](#BKMK_msdyn_phonenumberid)
@@ -169,6 +170,19 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Lookup|
 |Targets|msdyn_oclinechannelconfig|
 
+### <a name="BKMK_msdyn_ocm365copilotchannelconfigid"></a> msdyn_ocm365copilotchannelconfigid
+
+|Property|Value|
+|---|---|
+|Description|**Related M365 Copilot Channel**|
+|DisplayName|**M365 Copilot Channel**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_ocm365copilotchannelconfigid`|
+|RequiredLevel|None|
+|Type|Lookup|
+|Targets|msdyn_ocm365copilotchannelconfig|
+
 ### <a name="BKMK_msdyn_octeamschannelconfigid"></a> msdyn_octeamschannelconfigid
 
 |Property|Value|
@@ -244,6 +258,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_msdyn_occommunicationprovidersetting_msdyn_ocprovisioningstate_communicationprovidersettingid](#BKMK_msdyn_msdyn_occommunicationprovidersetting_msdyn_ocprovisioningstate_communicationprovidersettingid)
 - [msdyn_msdyn_ocfbapplication_msdyn_ocprovisioningstate](#BKMK_msdyn_msdyn_ocfbapplication_msdyn_ocprovisioningstate)
 - [msdyn_msdyn_ocfbpage_msdyn_ocprovisioningstate](#BKMK_msdyn_msdyn_ocfbpage_msdyn_ocprovisioningstate)
+- [msdyn_msdyn_ocm365copilotchannelconfig_msdyn_ocprovisioningstate_ocm365copilotchannelconfigid](#BKMK_msdyn_msdyn_ocm365copilotchannelconfig_msdyn_ocprovisioningstate_ocm365copilotchannelconfigid)
 - [msdyn_msdyn_ocphonenumber_msdyn_ocprovisioningstate_phonenumberid](#BKMK_msdyn_msdyn_ocphonenumber_msdyn_ocprovisioningstate_phonenumberid)
 - [msdyn_msdyn_ocvoicechannelsetting_msdyn_ocprovisioningstate_voicechannelsettingid](#BKMK_msdyn_msdyn_ocvoicechannelsetting_msdyn_ocprovisioningstate_voicechannelsettingid)
 - [msdyn_oclinechannelconfig_msdyn_ocprovisioningstate_oclinechannelconfigid](#BKMK_msdyn_oclinechannelconfig_msdyn_ocprovisioningstate_oclinechannelconfigid)
@@ -288,6 +303,19 @@ One-To-Many Relationship: [msdyn_ocfbpage msdyn_msdyn_ocfbpage_msdyn_ocprovision
 |ReferencingEntityNavigationPropertyName|`msdyn_ocfbpageid`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_msdyn_msdyn_ocm365copilotchannelconfig_msdyn_ocprovisioningstate_ocm365copilotchannelconfigid"></a> msdyn_msdyn_ocm365copilotchannelconfig_msdyn_ocprovisioningstate_ocm365copilotchannelconfigid
+
+One-To-Many Relationship: [msdyn_ocm365copilotchannelconfig msdyn_msdyn_ocm365copilotchannelconfig_msdyn_ocprovisioningstate_ocm365copilotchannelconfigid](msdyn_ocm365copilotchannelconfig.md#BKMK_msdyn_msdyn_ocm365copilotchannelconfig_msdyn_ocprovisioningstate_ocm365copilotchannelconfigid)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_ocm365copilotchannelconfig`|
+|ReferencedAttribute|`msdyn_ocm365copilotchannelconfigid`|
+|ReferencingAttribute|`msdyn_ocm365copilotchannelconfigid`|
+|ReferencingEntityNavigationPropertyName|`msdyn_ocm365copilotchannelconfigid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `RemoveLink`<br />Assign: `NoCascade`<br />Delete: `RemoveLink`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
 
 ### <a name="BKMK_msdyn_msdyn_ocphonenumber_msdyn_ocprovisioningstate_phonenumberid"></a> msdyn_msdyn_ocphonenumber_msdyn_ocprovisioningstate_phonenumberid
 

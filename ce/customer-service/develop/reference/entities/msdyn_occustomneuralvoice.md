@@ -69,6 +69,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
 - [msdyn_modeldeploymentid](#BKMK_msdyn_modeldeploymentid)
+- [msdyn_modeldeploymentname](#BKMK_msdyn_modeldeploymentname)
 - [msdyn_modelid](#BKMK_msdyn_modelid)
 - [msdyn_modellanguage](#BKMK_msdyn_modellanguage)
 - [msdyn_modelname](#BKMK_msdyn_modelname)
@@ -121,6 +122,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|`msdyn_modeldeploymentid`|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
+
+### <a name="BKMK_msdyn_modeldeploymentname"></a> msdyn_modeldeploymentname
+
+|Property|Value|
+|---|---|
+|Description||
+|DisplayName|**Model Deployment Name**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_modeldeploymentname`|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
 |Format|Text|

@@ -569,6 +569,7 @@ One-To-Many Relationship: [systemuser user_msdyn_requirementstatus](systemuser.m
 
 These relationships are one-to-many. Listed by **SchemaName**.
 
+- [msdyn_inputrequirement_msdyn_requirementstatus_status](#BKMK_msdyn_inputrequirement_msdyn_requirementstatus_status)
 - [msdyn_msdyn_requirementstatus_msdyn_bookingsetupmetadata_DefaultRequirementActiveStatus](#BKMK_msdyn_msdyn_requirementstatus_msdyn_bookingsetupmetadata_DefaultRequirementActiveStatus)
 - [msdyn_msdyn_requirementstatus_msdyn_bookingsetupmetadata_DefaultRequirementCanceledStatus](#BKMK_msdyn_msdyn_requirementstatus_msdyn_bookingsetupmetadata_DefaultRequirementCanceledStatus)
 - [msdyn_msdyn_requirementstatus_msdyn_bookingsetupmetadata_DefaultRequirementCompletedStatus](#BKMK_msdyn_msdyn_requirementstatus_msdyn_bookingsetupmetadata_DefaultRequirementCompletedStatus)
@@ -582,6 +583,19 @@ These relationships are one-to-many. Listed by **SchemaName**.
 - [msdyn_requirementstatus_ProcessSession](#BKMK_msdyn_requirementstatus_ProcessSession)
 - [msdyn_requirementstatus_resourcerequirement_status](#BKMK_msdyn_requirementstatus_resourcerequirement_status)
 - [msdyn_requirementstatus_SyncErrors](#BKMK_msdyn_requirementstatus_SyncErrors)
+- [msdyn_unscheduledrequirement_msdyn_requirementstatus_status](#BKMK_msdyn_unscheduledrequirement_msdyn_requirementstatus_status)
+
+### <a name="BKMK_msdyn_inputrequirement_msdyn_requirementstatus_status"></a> msdyn_inputrequirement_msdyn_requirementstatus_status
+
+Many-To-One Relationship: [msdyn_inputrequirement msdyn_inputrequirement_msdyn_requirementstatus_status](msdyn_inputrequirement.md#BKMK_msdyn_inputrequirement_msdyn_requirementstatus_status)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_inputrequirement`|
+|ReferencingAttribute|`msdyn_status`|
+|ReferencedEntityNavigationPropertyName|`msdyn_inputrequirement_msdyn_requirementstatus_status`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 ### <a name="BKMK_msdyn_msdyn_requirementstatus_msdyn_bookingsetupmetadata_DefaultRequirementActiveStatus"></a> msdyn_msdyn_requirementstatus_msdyn_bookingsetupmetadata_DefaultRequirementActiveStatus
 
@@ -738,6 +752,18 @@ Many-To-One Relationship: [syncerror msdyn_requirementstatus_SyncErrors](syncerr
 |ReferencedEntityNavigationPropertyName|`msdyn_requirementstatus_SyncErrors`|
 |IsCustomizable|`True`|
 |AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_unscheduledrequirement_msdyn_requirementstatus_status"></a> msdyn_unscheduledrequirement_msdyn_requirementstatus_status
+
+Many-To-One Relationship: [msdyn_unscheduledrequirement msdyn_unscheduledrequirement_msdyn_requirementstatus_status](msdyn_unscheduledrequirement.md#BKMK_msdyn_unscheduledrequirement_msdyn_requirementstatus_status)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_unscheduledrequirement`|
+|ReferencingAttribute|`msdyn_status`|
+|ReferencedEntityNavigationPropertyName|`msdyn_unscheduledrequirement_msdyn_requirementstatus_status`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
 
 

@@ -78,6 +78,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_enablecitrixintegration](#BKMK_msdyn_enablecitrixintegration)
 - [msdyn_enabledevicepreheat](#BKMK_msdyn_enabledevicepreheat)
 - [msdyn_enableshowpostcallsurveyresult](#BKMK_msdyn_enableshowpostcallsurveyresult)
+- [msdyn_hidedefaultoutboundprofile](#BKMK_msdyn_hidedefaultoutboundprofile)
 - [msdyn_voicechannelorganizationsettingId](#BKMK_msdyn_voicechannelorganizationsettingId)
 - [msdyn_voicechannelorganizationsettingname](#BKMK_msdyn_voicechannelorganizationsettingname)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -271,6 +272,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Boolean|
 |GlobalChoiceName|`msdyn_msdyn_voicechannelorganizationsetting_msdyn_enableshowpostcallsurveyresult`|
 |DefaultValue|True|
+|True Label|Yes|
+|False Label|No|
+
+### <a name="BKMK_msdyn_hidedefaultoutboundprofile"></a> msdyn_hidedefaultoutboundprofile
+
+|Property|Value|
+|---|---|
+|Description|**Toggle to hide default outbound profile**|
+|DisplayName|**Hide default outbound profile**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_hidedefaultoutboundprofile`|
+|RequiredLevel|None|
+|Type|Boolean|
+|GlobalChoiceName|`msdyn_msdyn_voicechannelorganizationsetting_msdyn_hidedefaultoutboundprofile`|
+|DefaultValue|False|
 |True Label|Yes|
 |False Label|No|
 

@@ -709,7 +709,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|`regardingobjectid`|
 |RequiredLevel|None|
 |Type|Lookup|
-|Targets|account, adx_invitation, bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contact, contract, entitlement, entitlementtemplate, incident, interactionforemail, invoice, knowledgearticle, knowledgebaserecord, lead, msdyn_bookingalertstatus, msdyn_bookingrule, msdyn_customerasset, msdyn_playbookinstance, msdyn_postalbum, msdyn_resourceterritory, msdyn_salessuggestion, msdyn_swarm, msdyn_systemuserschedulersetting, msdyn_timegroup, msdyn_timegroupdetail, mspp_adplacement, mspp_pollplacement, mspp_publishingstatetransitionrule, mspp_redirect, mspp_shortcut, mspp_website, opportunity, quote, salesorder, site|
+|Targets|account, adx_invitation, bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contact, contract, entitlement, entitlementtemplate, incident, interactionforemail, invoice, knowledgearticle, knowledgebaserecord, lead, msdyn_bookingalertstatus, msdyn_bookingrule, msdyn_customerasset, msdyn_emailthread, msdyn_playbookinstance, msdyn_postalbum, msdyn_resourceterritory, msdyn_salessuggestion, msdyn_swarm, msdyn_systemuserschedulersetting, msdyn_timegroup, msdyn_timegroupdetail, mspp_adplacement, mspp_pollplacement, mspp_publishingstatetransitionrule, mspp_redirect, mspp_shortcut, mspp_website, opportunity, quote, salesorder, site|
 
 ### <a name="BKMK_RegardingObjectTypeCode"></a> RegardingObjectTypeCode
 
@@ -1421,6 +1421,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 - [msdyn_bookingrule_msdyn_ocvoicemails](#BKMK_msdyn_bookingrule_msdyn_ocvoicemails)
 - [msdyn_contact_msdyn_ocvoicemail_Customer](#BKMK_msdyn_contact_msdyn_ocvoicemail_Customer)
 - [msdyn_customerasset_msdyn_ocvoicemails](#BKMK_msdyn_customerasset_msdyn_ocvoicemails)
+- [msdyn_emailthread_msdyn_ocvoicemails](#BKMK_msdyn_emailthread_msdyn_ocvoicemails)
 - [msdyn_msdyn_ocliveworkitem_msdyn_ocvoicemail](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocvoicemail)
 - [msdyn_ocvoicemail_businessunit_owningbusinessunit](#BKMK_msdyn_ocvoicemail_businessunit_owningbusinessunit)
 - [msdyn_ocvoicemail_mailbox_sendermailboxid](#BKMK_msdyn_ocvoicemail_mailbox_sendermailboxid)
@@ -1749,6 +1750,19 @@ One-To-Many Relationship: [msdyn_customerasset msdyn_customerasset_msdyn_ocvoice
 |ReferencedAttribute|`msdyn_customerassetid`|
 |ReferencingAttribute|`regardingobjectid`|
 |ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_customerasset_msdyn_ocvoicemail`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
+
+### <a name="BKMK_msdyn_emailthread_msdyn_ocvoicemails"></a> msdyn_emailthread_msdyn_ocvoicemails
+
+One-To-Many Relationship: [msdyn_emailthread msdyn_emailthread_msdyn_ocvoicemails](msdyn_emailthread.md#BKMK_msdyn_emailthread_msdyn_ocvoicemails)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`msdyn_emailthread`|
+|ReferencedAttribute|`msdyn_emailthreadid`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencingEntityNavigationPropertyName|`regardingobjectid_msdyn_emailthread_msdyn_ocvoicemail`|
 |IsHierarchical||
 |CascadeConfiguration|Archive: `NoCascade`<br />Assign: `Cascade`<br />Delete: `Cascade`<br />Merge: `NoCascade`<br />Reparent: `Cascade`<br />RollupView: `NoCascade`<br />Share: `Cascade`<br />Unshare: `Cascade`|
 

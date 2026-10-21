@@ -73,6 +73,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_customerphonenumber](#BKMK_msdyn_customerphonenumber)
 - [msdyn_liveworkitemid](#BKMK_msdyn_liveworkitemid)
 - [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_whatsappbsuid](#BKMK_msdyn_whatsappbsuid)
 - [msdyn_whatsappchannelid](#BKMK_msdyn_whatsappchannelid)
 - [msdyn_whatsappengagementctxId](#BKMK_msdyn_whatsappengagementctxId)
 - [msdyn_whatsappengagementid](#BKMK_msdyn_whatsappengagementid)
@@ -178,6 +179,23 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |ImeMode|Auto|
 |IsLocalizable|False|
 |MaxLength|100|
+
+### <a name="BKMK_msdyn_whatsappbsuid"></a> msdyn_whatsappbsuid
+
+|Property|Value|
+|---|---|
+|Description|**WhatsApp Business Scoped User ID field of social profile entity for WhatsApp channel.**|
+|DisplayName|**WhatsApp Business Scoped User ID**|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|`msdyn_whatsappbsuid`|
+|RequiredLevel|None|
+|Type|String|
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|200|
 
 ### <a name="BKMK_msdyn_whatsappchannelid"></a> msdyn_whatsappchannelid
 
