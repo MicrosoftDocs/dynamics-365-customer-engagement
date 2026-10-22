@@ -1,7 +1,7 @@
 ---
 title: Configure offline data synchronization
 description: Learn how offline data is synchronized to the server in the Dynamics 365 Field Service mobile app.
-ms.date: 07/22/2026
+ms.date: 10/19/2026
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -125,8 +125,8 @@ The following articles cover the most common offline sync problems, their causes
 
 | Symptom | Where to look |
 |---|---|
-| Sync doesn't finish, or the booking screen or agenda is blank after sign-in | [Troubleshoot common issues in the Field Service mobile app](/troubleshoot/dynamics-365/field-service/mobile-app/mobile-app-common-issues) |
-| Sync fails with "The view has related entities that aren't available offline" | [Troubleshoot common issues in the Field Service mobile app](/troubleshoot/dynamics-365/field-service/mobile-app/mobile-app-common-issues) |
+| Sync doesn't finish, or the booking screen or agenda is blank after sign-in | [Schedule shows no bookings or an error](/troubleshoot/dynamics-365/field-service/mobile-app/mobile-app-common-issues#schedule-shows-no-bookings-or-an-error) |
+| Sync fails with "The view has related entities that aren't available offline" | [Offline sync error: related entities not available offline](/troubleshoot/dynamics-365/field-service/mobile-app/mobile-app-common-issues#offline-sync-error-related-entities-not-available-offline) |
 | Records are missing or incorrect in offline mode | [Incorrect or missing data in offline mode](/troubleshoot/dynamics-365/field-service/mobile-app/incorrect-missing-data-offline-mode) |
 | A specific sync error message (download failures, table timeouts, ISV or plug-in errors) | [Troubleshoot offline sync errors in the Power Apps mobile app](/troubleshoot/power-platform/power-apps/mobile-apps/mobile-offline-troubleshooting) |
 
@@ -144,7 +144,7 @@ For detailed information about the data you can get, go to [Telemetry events for
 
 After a sync, the app removes data from the mobile device if it no longer meets the offline profile filter criteria. Data removal is most common in two cases:
 
-- After the first sync. For example, a field technician might see all past bookings while online, but after moving to an area without connectivity, sees only bookings that start today or in the future.
+- After the first sync. For example, a field technician might see all past bookings while online, but after moving to an area without connectivity, sees only the bookings that the offline profile downloads, such as bookings that start or end today or within the next seven days.
 
 - After an incremental sync. For example, if the mobile offline profile filters out completed bookings, a newly completed booking is removed from the agenda after a sync and isn't accessible in the app.
 

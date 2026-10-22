@@ -1,7 +1,7 @@
 ---
 title: Set up the mobile offline profile
 description: Learn how to configure the mobile offline profile to work with the Dynamics 365 Field Service mobile app when no network is available.
-ms.date: 09/14/2026
+ms.date: 10/19/2026
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -25,7 +25,7 @@ For a guided walkthrough, watch the following video.
 Administrators control what data the Field Service mobile app downloads by using the offline profile. In the offline profile, you can:
 
 - Define tables that are available offline and how often they sync.
-- Define filters for each table. For example, by default the offline profile downloads bookings that start within the next seven days.
+- Define filters for each table. For example, by default the offline profile downloads bookings that start or end today or within the next seven days.
 - Set up item association by creating relationships between tables. You don't need to create a filter for every table because associated tables follow the filters defined on the related table.
 
 ## Data in the default offline profile
@@ -99,7 +99,7 @@ If different user roles need different sync settings or offline tables, you can 
 You can optimize the mobile offline profile by selectively enabling columns to include with a sync. For guidance and best practices, see [Optimize data downloaded to improve sync time and usage](/power-apps/mobile/mobile-offline-guidelines#optimize-data-downloaded-to-improve-sync-time-and-usage).
 
 > [!CAUTION]
-> If an offline profile filter references a lookup table that you don't include in the offline profile, related data isn't available offline. The result might be errors or blank screens for technicians. Include all tables referenced by lookup filters in the offline profile.
+> If an offline profile filter references a lookup table that you don't include in the offline profile, related data isn't available offline. The result might be errors or blank screens for technicians. Include all tables referenced by lookup filters in the offline profile. To resolve the resulting sync error, see [Offline sync error: related entities not available offline](/troubleshoot/dynamics-365/field-service/mobile-app/mobile-app-common-issues#offline-sync-error-related-entities-not-available-offline).
 
 ## Move a mobile offline profile between environments
 
