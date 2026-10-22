@@ -19,7 +19,7 @@ sections:
           
           :::image type="content" source="../media/mobile-2020-booking-calendar-control.png" alt-text="Screenshot of the mobile booking calendar control.":::
          
-      - question: I created a custom view for my Booking Calendar. Why is the data or certain elements like address aren't displayed for each booking?
+      - question: I created a custom view for my Booking Calendar. Why aren't the data or certain elements, like address, displayed for each booking?
         answer: |
           The Booking Calendar control requires certain columns in the view to render all data. Best practice is to start from the Out of the Box view, "Bookings" and use "Save As" in the form designer to create a duplicate with required columns. Modifications can be done from there while not removing default columns.
           If a field such as "Address" is missing from all Bookings on the calendar, the Calendar control can't find the address columns. The Work Order table might have been renamed or modified. Add proper fields from the renamed entity back into the view.
