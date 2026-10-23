@@ -1,7 +1,7 @@
 ---
 title: Run interactive optimizations (preview)
 description: Learn how to run interactive optimizations to optimize one or more technicians' schedules with the Scheduling Operations Agent in Dynamics 365 Field Service.
-ms.date: 06/30/2026
+ms.date: 10/22/2026
 ms.topic: how-to
 ms.collection: bap-ai-copilot
 ms.author: anclear
@@ -14,7 +14,9 @@ ai-usage: ai-assisted
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-Use the Scheduling Operations Agent to make in-the-moment adjustments to up to five technicians' schedules from Copilot, the schedule board, or a resource. You select the resources to optimize, review the agent's suggested schedule, and apply it when you're satisfied. Choose interactive optimization for targeted, on-demand changes during the day. For larger, asynchronous runs that are configured with a scope, a goal, and a plan, learn more in [Run batch optimizations (preview)](soa-batch-optimizations.md).
+Use the Scheduling Operations Agent to make in-the-moment adjustments to up to five technicians' schedules from Copilot, the schedule board, or a resource. You select the resources to optimize, review the agent's suggested schedule, and apply it when you're satisfied. Choose interactive optimization for targeted, on-demand changes during the day.
+
+For larger, asynchronous runs, use batch optimization through saved scheduling plans that combine a scope, a goal, and a time range. You can run plans on demand or on a recurring schedule, and set them to **Review before apply** or **Apply automatically**. Recurrence controls when a plan runs, not how it applies results. Learn more in [Run batch optimizations (preview)](soa-batch-optimizations.md).
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
@@ -26,6 +28,8 @@ Use the Scheduling Operations Agent to make in-the-moment adjustments to up to f
 ## Launch the agent
 
 You can launch the agent from several places. Every entry point opens the same optimization settings panel, where you confirm the resources to optimize.
+
+The agent doesn't support resources of type **Equipment**, **Pool**, or **Facility**, requirement groups, or multiday requirements that are related to requirement detail records. Learn more in [Known issues and limitations](soa-limits.md#known-issues-and-limitations).
 
 ### Copilot side pane
 
@@ -56,6 +60,8 @@ The **Suggest schedule** toolbar button is also available from eligible resource
 ## Adjust the settings for optimization requests
 
 After you launch the agent, it suggests settings that you can adjust before it starts generating an optimized schedule. Adjust the settings as needed to ensure that the agent suggests a schedule that meets your business requirements.
+
+Each interactive optimization supports up to five selected resources, up to 120 jobs (existing bookings and open requirements combined), and an optimization window of up to 72 hours. If you exceed the resource or job limit, the agent excludes some records. If existing bookings alone exceed the job limit, the optimization can't run. Keep the time range within 72 hours. Learn more in [Optimization limits](soa-limits.md#optimization-limits).
 
 Regardless of the settings you select, the agent doesn't move any bookings that are set to [**Do Not Move**](soa-setup.md#select-an-optimization-method-for-booking-statuses), and it honors the technician's work hours and break times.
 
@@ -112,6 +118,8 @@ The agent also applies other eligibility rules that you can't turn off, such as 
 ## Review the suggested schedule
 
 Review the agent's suggested schedule before you apply it. A summary at the top of the window describes the goal, the number of resources, and the time range. You can compare the original schedule with the suggested schedule in the list view, on the Gantt chart, or on the map, along with the suggested travel routes.
+
+If you're reviewing results from a saved batch scheduling plan, learn about result expiration in [Review and apply the results](soa-batch-optimizations.md#step-5-review-and-apply-the-results).
 
 When you optimize a single resource, its row expands and the map shows by default. When you optimize multiple resources, each resource appears as a separate row with the suggested schedule shown above the current schedule. The rows are collapsed and the map is hidden by default. Expand a resource to see the details of its schedule, or use **Expand all** and **Collapse all** to show or hide every resource at once. On the map, you can filter to show suggested or current routes, highlight the route for a selected resource, and see each stop numbered in visit order.
 
