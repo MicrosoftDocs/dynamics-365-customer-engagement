@@ -1,7 +1,7 @@
 ---
 title: Configure the email experience in customer engagement apps 
 description: Learn how to configure the email editor, template builder, and signature builder in Dynamics 365 customer engagement apps.
-ms.date: 03/30/2026
+ms.date: 10/15/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -60,6 +60,7 @@ Enabling user-configured settings for an email form consists of the following st
    >  - A code editor such as Visual Studio Code can provide a better editing experience.
    >  - Several properties are available for modification and apply to the email form when you configure it. Learn more in [Rich Text Editor Properties](/power-apps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-properties).
    >  - Ensure that the **disableDefaultImageProcessing** property is set to **True** for inline images added to the editor to load properly in the recipient's email.
+   >  - For spacing, formatting, or missing-column issues in the **Enhanced Email** form, see [Issues with email templates and formatting in Dynamics 365](/troubleshoot/dynamics-365/customer-service/email/email-templates-and-formatting-issues).
 
 3.  Save the URL to the new web resource because you need it to map the new web resource file to the **Enhanced Email** form.
    
