@@ -1,8 +1,9 @@
 ---
 title: FAQ about automatic record creation
 description: Learn answers to frequently asked questions about automatic record creation.
-ms.date: 09/30/2026
+ms.date: 10/15/2026
 ms.topic: concept-article
+ai-usage: ai-assisted
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -69,6 +70,12 @@ Multiple cases can get created from a single email because of various reasons. P
     1. Rule item flow definition, to verify if the child flow adds the email to queue. Duplicate queue items can be created because of various reasons, such as a flow step calling **AddToQueue** bound action, queue item creation, another custom flow that the ARC flow calls from within, or a post operation plugin of an action performed within ARC flow, such as case creation.
     1. Email background processes, to verify if there are any custom workflows. You can do this action during live debugging, where successful background processes get cleaned up. If you don't see any background processes for an email received, it doesn’t necessarily mean that there are no custom runs.
     1. Multiple queues with active ARC rule set up in the email's recipient or CC list. By default, an email gets added to all the queues, which are listed as recipient and CC.
+
+### How can I reduce duplicate case creation when multiple queues can receive the same email?
+
+If the same customer email can reach more than one queue or mailbox, use one automatic record creation and update rule that monitors a single dedicated queue. Route the relevant emails from the other queues to that dedicated queue by using Exchange transport rules or Dataverse automation.
+
+This approach gives automatic record creation a single point of evaluation and can help avoid scenarios where the same email is processed by multiple rules and creates duplicate cases. Learn more in [Use a single rule when monitoring multiple queues](automatically-create-update-records.md#use-a-single-rule-when-monitoring-multiple-queues).
 
 ### Why is my automatic record creation rule disconnected from the Power Automate flow?
 
