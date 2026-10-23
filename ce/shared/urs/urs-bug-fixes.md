@@ -7,18 +7,26 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.4003.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400330) | TBD | 10/30 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.4003.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400330) | TBD | 11/06 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.4002.87](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400287) | [3.12.4003.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400330) | 10/16 |
-| | *USG* | [3.12.4003.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400330) | TBD | 10/07 |
-|**Station 4** |*Europe* | [3.12.4002.87](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400287) | [3.12.4003.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400330) | 10/23 |
-|**Station 5** |  *North America, Oceania*| [3.12.4002.87](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400287) | [3.12.4003.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400330) | 10/30 |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.4002.87](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400287) | [3.12.4003.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400330) | 10/28 |
-|**Station 6** | *Dedicated Scale Groups* | [3.12.4002.87](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400287) | [3.12.4003.30](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400330) | 11/06 |
+|**Station 1** |  *First Release*| [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | TBD | 10/30 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | TBD | 11/06 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | TBD | 11/20 |
+| | *USG* | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | TBD | 11/11 |
+|**Station 4** |*Europe* | [3.12.4002.87](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400287) | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | 10/23 |
+|**Station 5** |  *North America, Oceania*| [3.12.4002.87](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400287) | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | 10/30 |
+|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.4002.87](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400287) | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | 10/28 |
+|**Station 6** | *Dedicated Scale Groups* | [3.12.4002.87](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400287) | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | 11/06 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.4003.38
+
+**Resource Scheduling Controls:** 1.2.106.262681
+
+**Dataverse:** 4.0.4003.38
+
+- Scheduling plan recurrence: Fixed a "Business Process error" that could prevent you from saving a scheduling plan with recurrence details.
 
 ## 3.12.4003.30
 
