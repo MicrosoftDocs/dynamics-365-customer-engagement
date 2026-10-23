@@ -1,7 +1,7 @@
 ---
 title: Scheduling Operations Agent limits and troubleshooting (preview)
 description: Review the optimization limits, errors, and known issues for the Scheduling Operations Agent in Dynamics 365 Field Service, and learn how to resolve them.
-ms.date: 09/03/2026
+ms.date: 10/22/2026
 ms.topic: troubleshooting-general
 ms.collection: bap-ai-copilot
 ms.author: anclear
@@ -22,7 +22,7 @@ This article describes the size and scale limits for the Scheduling Operations A
 
 ## Optimization limits
 
-During preview, the following limits apply to each optimization. The agent applies these limits after it determines which resources and jobs are eligible. These limits might change as the feature evolves.
+The following limits apply to each optimization. The agent applies these limits after it determines which resources and jobs are eligible. These limits might change as the feature evolves.
 
 ### Interactive optimizations
 
@@ -43,6 +43,10 @@ During preview, the following limits apply to each optimization. The agent appli
 
 When an optimization has more resources or jobs than the limit allows, the agent keeps the most relevant records and drops the rest. It keeps existing bookings first, and then adds open requirements. If the existing bookings alone exceed the jobs limit, the optimization fails. Always keep your optimizations as tightly scoped as possible. Learn more in [Errors and warnings](#errors-and-warnings).
 
+### Recurring batch optimizations
+
+Saved scheduling plans support a minimum recurrence interval of 30 minutes. Recurrence determines when a plan runs; it doesn't continuously monitor or react to scheduling events between runs. A recurring plan can use either **Review before apply** or **Apply automatically**, so a plan that runs on a schedule doesn't have to apply its results automatically. Learn more in [Recurrence](soa-plans.md#recurrence).
+
 ## Errors and warnings
 
 The following table lists the errors and warnings that you might encounter when you use the Scheduling Operations Agent, along with their causes and the actions you can take to resolve them.
@@ -55,7 +59,7 @@ The following table lists the errors and warnings that you might encounter when 
 | A booking doesn't have a parent requirement | The optimization includes a booking that was created without a resource requirement. | Make sure that every booking in the optimization has a parent resource requirement. |
 | A record has invalid data | A record has invalid data, such as an invalid location or duration. | Fix the data on the affected record, and then run the optimization again. |
 | The schedule changed since the optimization ran | When you apply a reviewed result, the agent detects that bookings or requirements moved, were deleted, or changed status since the optimization ran. | Choose to apply the result anyway, run the optimization again, or cancel. Some changes, such as a booking that was deleted or locked, aren't applied even if you continue. |
-| The result expired | You tried to apply a result that's more than 72 hours old or past the start of its time range. | Run the optimization again to get a current result. |
+| The result expired | Results that are waiting for review expire at the start of the optimization window or 72 hours after the request runs, whichever comes first. | Run the optimization again to get a current result. If the optimization window starts soon, the result expires before 72 hours pass, so apply it before the window starts. |
 
 ## Known issues and limitations
 
