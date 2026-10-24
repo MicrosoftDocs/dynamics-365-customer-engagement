@@ -22,6 +22,7 @@ You can import an existing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcr
   
 > [!IMPORTANT]
 >  -   Before you import, upgrade, or update a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization, you should back up the configuration and organization databases.  
+> -   If a failure is encountered upon upgrade or import of a Dynamics 365 organization, it is required to restore the associated database before the next attempt.
 > -   You cannot import a database that is already deployed in the target [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment.  
 > -   If the Import Organization Wizard detects that the organization you are importing is from an earlier version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], the organization database will be upgraded to the new version.  
 > -   We recommend that for each organization you upgrade, the volume has free space that is at least three times the size of the organization database file and four times the size of the log file. That way, if a single organization database and log file are located on the same volume and are 1 gigabyte in total, you should have at least 7 gigabytes of available disk space before you perform the upgrade.  
