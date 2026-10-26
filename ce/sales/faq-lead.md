@@ -1,7 +1,7 @@
 ---
 title: Lead management FAQs
 description: Get answers to frequently asked questions about various aspects of Lead management such as lead qualification, duplicate detection, and scoring. 
-ms.date: 12/23/2025
+ms.date: 10/26/2026
 ms.topic: faq
 author: lavanyakr01
 ms.author: lavanyakr
@@ -214,7 +214,7 @@ Grades are just a grouping of scores in four buckets that the admin can configur
 
 ### What happens when duplicates are found while qualifying leads?
 
-When qualifying a lead, if a duplicate account or contact is detected while creating new records, you'll see a duplicate warning. Depending on whether your system administrator has enabled the improved duplicate detection and merge experience, you'll see the options to resolve duplicates. More information: [Enable the improved duplicate detection and merge experience](/power-platform/admin/enable-improved-duplicate-detection)
+When you qualify a lead and create new records, the system checks for duplicate accounts or contacts. If it finds any, it shows a duplicate warning. If your system administrator enables the improved duplicate detection and merge experience, you see options to resolve duplicates. For more information, see [Merge duplicate records](/power-apps/user/merge-duplicate-records).
 
 ### What's the difference between the duplicate detection capability in Power Platform and Dynamics 365 Sales?
 
