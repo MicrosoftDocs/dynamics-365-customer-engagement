@@ -1,7 +1,7 @@
 ---
 title: View the communication panel for conversations in Dynamics 365 Contact Center
 description: Learn what you can do as a representative in the communication panel when you interact with the customer.
-ms.date: 07/02/2026
+ms.date: 10/26/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -199,13 +199,11 @@ During a consult or transfer when on an active call, search for and pin an exter
 
 When you're consulting with or transferring directly to a queue, you can pin or unpin personal queue pins. When you're consulting or transferring to another representative, though pinned queues are visible, you can't modify them. Pinned queues are visible based on the active workstream. Chat conversations show chat-enabled queues only, while voice conversations show voice-enabled queues. Some pinned queues might not appear if they aren't compatible with the active channel.
 
-## Use reroute (preview)
+## Use reroute
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+If your [administrator enables the feature](../administer/enable-transfer-consult.md#enable-representatives-to-reroute-conversations), the reroute option lets you hand over a conversation to the system so that it can route the conversation again and handle it appropriately.
 
-If your [administrator enables the feature](../administer/enable-transfer-consult.md#enable-representatives-to-reroute-conversations-preview), the reroute option lets you hand over a conversation to the system so that it can be routed again and handled appropriately.
-
-Before you select the reroute option, update the conversation details, like customer or case details and any other pertinent information that helps the system reroute to the right representative.
+Before you select the reroute option, update the conversation details, like customer or case details and any other pertinent information that helps the system reroute to the right representative. If the remove skills on reroute option is set, the system removes the existing skills.
 
 1. For an ongoing conversation, on the communication panel, select the reroute option.
    :::image type="content" source="../media/screenshot-csr-reroute-option.png" alt-text="A screenshot of the reroute UI on the communication panel for representative to use.":::
@@ -242,7 +240,7 @@ When you select the **End** button, the conversation ends, and the customer rece
 
 The conversation behavior is dependent on the channel through which it comes. Learn more in [How conversations are handled on close or end](oc-conversation-state.md#how-conversations-are-handled-on-close-or-end).
 
-### Related information
+## Related information
 
 [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
 [Introduction to the agent interface](oc-introduction-agent-interface.md)  
