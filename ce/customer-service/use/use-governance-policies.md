@@ -7,7 +7,7 @@ ms.reviewer: sdas
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
-ms.date: 09/23/2026
+ms.date: 10/26/2026
 ms.custom: bap-template
 ---
 
@@ -59,6 +59,22 @@ If you're using a custom Customer Service workspace app, you might need to [add 
 ## Manage policies
 
 You can deactivate a policy by selecting **Unpublish**, delete a policy, or run a simulation for a policy.
+
+## Configure the policy name in multiple languages
+
+You can configure a governance policy name in one or more languages so that the policy name appears in the configured language when the policy logs a violation.
+
+To configure languages for a policy:
+
+1. On the **Governance** page, select a policy.
+1. On the policy page, select **Edit policy**.
+1. Under **Policy name**, select **Manage language**.
+1. On the **Manage language** dialog, select one or more languages from the **Language** dropdown.
+1. Select **Next**.
+1. In the **Language** field, for each selected language, enter the translated policy name. For example, if you select German, enter the policy name in German.
+1. Save your changes.
+
+When the policy logs a violation, the policy name appears in the configured language. The violation reasoning and violation logs continue to appear in English.
 
 ## Run a simulation
 
