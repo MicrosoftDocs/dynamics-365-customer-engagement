@@ -4,7 +4,7 @@ description: Discover how to update agent settings, define access, and set enric
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 09/08/2026
+ms.date: 10/15/2026
 ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -26,8 +26,10 @@ After you [create the AI-powered Data Enrichment agent](data-enrichment-agent-co
 
 ## Verify prerequisites
 
-1. In the **Prerequisites** section, ensure that all prerequisites are connected. If you see new prerequisites since your last configuration, connect them to ensure the agent functions correctly. For more information about the prerequisites, see [Set up and configure AI-powered Data Enrichment](data-enrichment-agent-configure.md#prerequisites).
-1. Select **Save** to save any updates to the prerequisites.
+In the **Prerequisites** section, ensure that Dataverse Search and at least one data source (Microsoft 365 Services or Microsoft Teams meetings) are connected. A tenant administrator must connect these data sources. You can ask the administrator to connect both, then choose which sources to enable for enrichment later in the setup. Connecting a data source doesn't automatically enable it for enrichment.
+
+The agent doesn't use the data sources just because they are connected; you must enable them in the agent's settings for enrichment.
+For more information about the prerequisites, see [Set up and configure AI-powered Data Enrichment](data-enrichment-agent-configure.md#prerequisites).
 
 ## Define the agent profile
 
@@ -62,7 +64,12 @@ In the **Agent behavior** section of the [Data Enrichment settings](#open-settin
   > Field scope settings apply to Opportunity and Lead records only. Contact records are enriched using a fixed set of five out-of-the-box fields (such as phone number, job title, email address, and preferred contact method) that can't be configured. Account records don't support field enrichment.
 - **Field update behavior**: Turn on **Automatically update fields** to allow Data Enrichment to make changes without a manual review. By default, this option is off, meaning sellers need to review and apply suggestions manually.
 - **Enrichment frequency**: Indicates how often Data Enrichment applies updates automatically. The agent analyzes emails and generates suggestions every 4 hours. For manual updates, sellers can review suggestions as soon as they're generated. For automatic updates, changes are applied based on the enrichment frequency, which is set to **Daily** by default. This setting is informational and can't be changed.
-- **Data sources**: Shows the data sources Data Enrichment uses to analyze records. It gathers context from Outlook interactions and Teams meetings. For Teams meetings, it uses AI-generated summaries (if you have a Microsoft 365 Copilot license) or meeting transcripts. This field is informational and can't be changed.
+<a name="dea-data-sources"></a>
+
+- **Data sources**: Lists the data sources that Data Enrichment can use to enrich records. 
+    - **Outlook**: Turn it on to allow the agent to read emails for enrichment. If this option is disabled, ensure that the **Microsoft 365 Services** prerequisite is connected.
+    - **Teams**: Turn it on to allow the agent to read Teams meeting data for enrichment. If this option is disabled, ensure that the **Microsoft Teams meetings** prerequisite is connected. The agent uses AI-generated summaries (if you have a Microsoft 365 Copilot license) or meeting transcripts. 
+  Turn off the toggle next to a data source to prevent the agent from using it for enrichment. You don't need to disconnect the underlying prerequisite connection.
 
 ## Enable or disable connected skills
 

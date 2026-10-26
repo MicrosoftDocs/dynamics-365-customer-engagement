@@ -1,7 +1,7 @@
 ---
 title: FAQs about AI-powered Data Enrichment 
 description: Explore frequently asked questions about AI-powered Data Enrichment in Dynamics 365 Sales and how it transforms your CRM data into valuable insights.
-ms.date: 09/08/2026
+ms.date: 10/15/2026
 ms.update-cycle: 180-days
 ms.topic: faq
 ms.service: dynamics-365-sales
@@ -77,7 +77,12 @@ If you don't see suggestions, it could be due to several reasons:
 - **Data Enrichment disabled**: The record owner might have disabled Data Enrichment for their account.
     - If you're the owner of the record, ensure that you [enable Data Enrichment suggestions](use-data-enrichment-agent.md#disable-data-enrichment-suggestions) to allow the agent to analyze your emails and access your Teams meeting data.
     - If you're looking at a record that you don't own, it's possible that the owner of that record disabled the Data Enrichment agent or doesn't have access to the Data Enrichment feature.
+- **Data source not connected**: Your administrator might have connected only one data source, such as Outlook, and not Teams meetings (or vice versa). If you expect suggestions based on a specific source, check with your administrator whether that data source is turned on in [Data Enrichment settings](data-enrichment-agent-edit-settings.md#dea-data-sources).
 - **Data availability**: There might not be sufficient data or relevant email or Teams meeting interactions to generate suggestions for that record.
+
+## Do I need to connect both Outlook and Teams meetings to use Data Enrichment?
+
+No. Admins can set up and start the Data Enrichment agent after connecting Dataverse Search and just one data source, either Microsoft 365 Services (Outlook) or Microsoft Teams meetings. This setup lets admins try the agent with a single source and confirm it's useful before connecting the other source. Suggestions come only from the data sources that are turned on. If only one source is connected, sellers see suggestions based on that source alone. Admins can turn on additional sources at any time from [Data Enrichment settings](data-enrichment-agent-edit-settings.md#dea-data-sources).
 
 ## Which Teams meetings does Data Enrichment analyze?
 
@@ -87,6 +92,10 @@ The type of meeting data used depends on the seller's license:
 
 - **With Microsoft 365 Copilot license**: The agent uses AI-generated meeting summaries.
 - **Without Microsoft 365 Copilot license**: The agent uses meeting transcripts.
+
+## Why does my admin need a tenant administrator to set up Data Enrichment?
+
+Connecting the Microsoft 365 Services (Outlook) and Microsoft Teams meetings data sources requires granting permissions at the Microsoft 365 tenant level. A Microsoft 365 tenant administrator must complete or approve these steps. This requirement is a known, one-time requirement of the setup process. This requirement is independent of which Dynamics 365 Sales admin role you use to configure the agent. If your Dynamics 365 Sales admin isn't also a tenant administrator, they need to coordinate with one to complete this part of the setup.
 
 ## Can all users see the calendar event citation in Data Enrichment suggestions?
 
