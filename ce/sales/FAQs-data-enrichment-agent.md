@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQ about AI-powered Data Enrichment 
 description: Learn about responsible AI considerations for the AI-powered Data Enrichment feature in Dynamics 365 Sales.
-ms.date: 09/08/2026
+ms.date: 10/15/2026
 ms.update-cycle: 180-days
 ms.topic: faq
 ms.service: dynamics-365-sales
@@ -67,7 +67,7 @@ AI-powered Data Enrichment has several known limitations:
 - **Conversation data limitations**: For Teams meetings, enrichment is limited to meetings where the primary contact associated with the supported record was an attendee.
 - **Scope constraints**: The feature operates only on entities, fields, and languages configured by administrators, which may not cover all business needs.
 - **Potential errors**: Enrichment suggestions may be incorrect, conflicting, or based on probabilistic inference rather than verified facts.
-- **Coverage gaps**: Not all records or fields may receive enrichment suggestions, depending on available data and the content of customer conversations.
+- **Coverage gaps**: Not all records or fields might receive enrichment suggestions, depending on available data and the content of customer conversations. Coverage gaps are more likely while an administrator has connected only one data source (for example, Outlook but not Teams meetings), since the agent can only generate suggestions from sources that are turned on.
 
 Users should expect that errors and omissions are possible and should validate all enriched data before relying on it for business decisions.
 
@@ -90,6 +90,7 @@ When automatic updates are configured, users can view the history of changes and
 Administrators have several controls to manage how AI-powered Data Enrichment operates:
 
 - **Enable or disable the feature**: AI-powered Data Enrichment can be turned on or off at the organizational level.
+- **Connect data sources incrementally**: Connect and turn on data sources (Microsoft 365 Services and Microsoft Teams meetings) one at a time rather than all at once. This approach lets you evaluate the agent's usefulness with a single source before expanding its scope to additional sources.
 - **Configure scope**: Administrators define which fields must be excluded from enrichment.
 - **Set update mode**: Administrators can configure whether the feature suggests values for user review or automatically updates fields.
 - **Control user access**: Administrators can define which users or groups have access to enrichment suggestions and updates. 
