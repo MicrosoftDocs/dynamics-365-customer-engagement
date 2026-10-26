@@ -1,7 +1,7 @@
 ---
 title: Manage personas and custom security roles
 description: Get information about how custom security roles can be mapped to personas in Customer Service and Dynamics 365 Contact Center.
-ms.date: 05/08/2026
+ms.date: 10/23/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -98,7 +98,6 @@ After you enable persona mapping, the system automatically assigns default roles
 > [!NOTE]
 >
 > - Customized mappings aren't reset if one of the services is added later.
-> - Make sure that the roles you want to map to personas are assigned to the users directly and not through team memberships.
 > - To access the Omnichannel Agent dashboard from Power Apps with custom roles, you'll need to update the agent persona with the appropriate role.
  
 ### Manage personas

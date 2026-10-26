@@ -1,7 +1,7 @@
 ---
 title: Create and manage users and user profiles
 description: This article provides steps that you can perform to manage users in Dynamics 365 Contact Center and Customer Service.
-ms.date: 08/07/2026
+ms.date: 10/23/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -113,7 +113,7 @@ All users who are assigned the **Omnichannel administrator**, **Omnichannel supe
 
 Learn more about how to create users and assign security roles in [Assign roles and enable users for Dynamics 365 Contact Center](../implement/add-users-assign-roles.md).
 
-For users to access the Dynamics 365 Contact Center experiences, the roles that you map to personas in role persona mapping must be assigned to the users directly and not through team memberships. Learn more about role persona mapping in [Role persona mapping](role-persona-mapping.md).
+To access the Dynamics 365 Contact Center experiences, users need roles that you map to personas in role persona mapping. Assign these roles directly to users or through team memberships. Learn more about role persona mapping in [Role persona mapping](role-persona-mapping.md).
 
 ### Capacity
 

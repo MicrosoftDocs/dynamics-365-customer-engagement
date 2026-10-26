@@ -3,7 +3,7 @@ title: Assign roles, enable users
 description: Perform the steps to assign roles to users and enable them in contact center.
 author: neeranelli
 ms.author: nenellim
-ms.date: 07/20/2026
+ms.date: 10/23/2026
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -61,19 +61,19 @@ Use Microsoft Entra security groups to manage Dynamics 365 Contact Center user p
 
 ## Assign roles to users
 
-To be able to map roles to personas in role persona mapping, you must assign the roles to users directly and not through team memberships. Learn more about role persona mapping in [Role persona mapping](../administer/role-persona-mapping.md).
+To map roles to personas in role persona mapping, assign the roles to users directly or through team memberships. Learn more about role persona mapping in [Role persona mapping](../administer/role-persona-mapping.md).
 
 Perform the following steps to assign roles to users in the advanced settings area of Dynamics 365:
 
 1. Select **Settings** > **Advanced Settings** on the command bar. The **Settings** page is displayed in a new browser tab.
 
-2. Select **Settings** > **Security** > **Users**.
+1. Select **Settings** > **Security** > **Users**.
 
-3. Select the users from the list for whom you want to assign a security role.
+1. Select the users from the list for whom you want to assign a security role.
 
-4. Select **Manage security roles** in the menu. The security roles available for the business unit are displayed.
+1. Select **Manage security roles** in the menu. The security roles available for the business unit are displayed.
 
-5. In the **Manage security roles** dialog, select the security roles that you want to assign to the user, and then select **Save**.
+1. In the **Manage security roles** dialog, select the security roles that you want to assign to the user, and then select **Save**.
 
 To manage users in Dynamics 365 Contact Center, go to [Manage users in Dynamics 365 Contact Center](../administer/users-user-profiles.md).
 
