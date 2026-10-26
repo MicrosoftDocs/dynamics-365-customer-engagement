@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
 ms.collection:
-ms.date: 07/02/2026
+ms.date: 10/26/2026
 ms.custom: bap-template
 ---
 
@@ -58,15 +58,14 @@ In **Transfer settings**, enable **Wrap up after transfer**. The system blocks d
 
 When a service representative transfers a conversation to another representative, queue, AI agent, or external representatives, the system automatically provides wrap-up time after the transfer is completed. The **Block capacity for wrap up** under [work distribution settings](create-workstreams.md#configure-work-distribution) of the workstream determines the wrap-up behavior. Learn more about wrap-up in [Understand conversation states](..\use\oc-conversation-state.md#wrap-up).
 
-## Enable representatives to reroute conversations (preview)
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+## Enable representatives to reroute conversations
 
 Reroute lets representatives hand a live conversation back to the system. The system reruns the routing logic to route the conversation to the appropriate representative.
 
-The reroute setting is off by default. When you turn it on, the reroute action becomes available to your representatives.
+By default, the reroute setting is turned off. When you turn it on, the reroute action becomes available to your representatives.
 
-1. On the **Consult and transfer** page, in **Transfer settings** turn on the **Reroute (preview)** toggle.
+1. On the **Consult and transfer** page, in **Transfer settings** turn on the **Reroute** toggle.
+1. Select **Remove skills on reroute**. The system removes the attached skills when the work item is rerouted.
 1. Save and close.
 
 ### How reroute works
@@ -77,16 +76,18 @@ When the service representative reroutes the conversation, the following events 
 
 - The conversation stays active for the customer throughout the reroute.
 - Representative capacity is released so that they can take up the next conversation.
+- If you select remove skills on reroute, the system replaces the existing skills with new skills based on the requirement.
 - The system removes the existing capacity profile and adds new profile based on routing rules.
 - The new representative receives the conversation with complete history and updated context.
 
-Learn about the representative experience in [Use reroute](../use/oc-conversation-control.md#use-reroute-preview).
+Learn about the representative experience in [Use reroute](../use/oc-conversation-control.md#use-reroute).
 
 ### Things to consider for rerouting
 
 - The representative must change the context, such as updating the [priority of a case](../use/oc-customer-summary.md#view-case-details) or a field value on a related record, before attempting to reroute. Without an attribute change, the conversation might return to the same queue.
 
 - Routing rules can target related records. When a conversation is linked to a case, contact, or account, the representative must update attributes on those records if your routing rules evaluate them. For example, updating case Priority to High and Category to Billing to reach a high-priority billing queue.
+- Select the remove skills on reroute option when the existing skills aren't applicable for rerouting the work item.
 - If the system finds no eligible queue, it routes the conversation to your configured fallback queue.
 
 ## Manage pins
