@@ -371,6 +371,8 @@
                 href: reference/methods/createSession.md
               - name: canCreateSession
                 href: reference/methods/canCreateSession.md
+              - name: whenSessionRestoreCompleted (preview)
+                href: reference/methods/whenSessionRestoreCompleted.md
               - name: close
                 href: reference/methods/close.md
               - name: focus

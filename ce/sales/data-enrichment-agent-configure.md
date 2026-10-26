@@ -4,7 +4,7 @@ description: Learn how to set up and configure the AI-powered Data Enrichment fe
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 09/08/2026
+ms.date: 10/15/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -22,8 +22,8 @@ Ensure that you meet the following prerequisites:
 - You marked the prerequisites common to all Sales agents as **Done**. For more information, see [Prerequisites for all Sales agents](prerequisites-for-all-agents.md).
 - You have the appropriate Dynamics 365 Sales license. Check out the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544) to know more about licensing requirements.
 - You have admin privileges in Dynamics 365 Sales.
-- You have the tenant administrator role in Microsoft 365 to connect Teams meetings.
 - If you have custom fields that you want the agent to enrich, ensure that these fields have a meaningful name and description to help the agent understand their purpose and provide accurate suggestions.
+- Connecting the Microsoft 365 Services and Microsoft Teams meetings data sources requires Microsoft 365 tenant administrator permissions. Work with your tenant administrator to grant the required permissions when prompted during setup.
 
 <a name="set-up-data-enrichment"></a>
 ## Set up and configure AI-powered Data Enrichment
@@ -42,6 +42,11 @@ Ensure that you meet the following prerequisites:
 ## Verify prerequisites
 
 In the prerequisites dialog, configure the prerequisites described in this section.
+
+To create and start the agent, you need to:
+- Connect Dataverse Search.
+- Connect at least one data source: **Microsoft 365 Services** (for email) or **Microsoft Teams meetings**.
+
 > [!NOTE]
 > Sales Opportunity Agent and Data Enrichment use the same Microsoft 365 Services and Dataverse Search configuration. If you already [configured these prerequisites for Sales Opportunity Agent](configure-sales-opportunity-agent-requirements.md), they're marked as done for Data Enrichment too. 
 
@@ -49,9 +54,10 @@ In the prerequisites dialog, configure the prerequisites described in this secti
 
 ### Dataverse Search
 
-Data Enrichment uses Dataverse Search to find and enrich records in Dynamics 365 Sales. If you didn't set up Dataverse Search, select **Set up** to open the **Features** page in Power Platform admin center. Learn more about [configuring Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization). After setting up Dataverse Search, return to the agent configuration page and select **Refresh** to update the status of this prerequisite. 
+Data Enrichment uses Dataverse Search to find the records to enrich. If you didn't set up Dataverse Search, select **Set up** to open the **Features** page in Power Platform admin center. Learn more about [configuring Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization). After setting up Dataverse Search, return to the agent configuration page and select **Refresh** to update the status of this prerequisite. 
 
 <a name="prerequisites-m365"></a> 
+
 ### Microsoft 365 Services
 
 To allow the agent to read seller emails and fetch relevant data for enrichment, select **Mark as done** and then **Apply changes**. 
@@ -89,7 +95,7 @@ Points to note:
     | Action | Enrich BANT-related fields in the record |
     | Schedule | Runs everyday |
     | Behavior | Suggests field updates based on email conversations and Teams meetings|
-    | Data sources | Outlook, Teams |
+    | Data sources | Reflects the data sources you connected in the prerequisites step, for example, Outlook, Teams, or both |
     | Connected skills | Suggested actions, Outlook, Teams |
     
 1. Do *ONE* of the following:
