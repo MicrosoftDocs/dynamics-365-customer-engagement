@@ -1,7 +1,7 @@
 ---
 title: Configure risk criteria for Sales Opportunity Agent
 description: Learn how to configure risk criteria for Sales Opportunity Agent in Dynamics 365 Sales, customize assessments, and identify deal risks.
-ms.date: 09/07/2026
+ms.date: 10/23/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -22,7 +22,7 @@ By default, the agent uses predefined risk criteria, but administrators can cust
 As an administrator, you can customize the configuration of risk criteria to align with your organization's sales process and priorities.
 
 - **Customize Default Risk Criteria**: Modify the thresholds and logic behind the default risks to align with your business processes. For example, if your sales cycle is shorter than average, you can reduce the "stalled in stage" threshold from 30 days to 10 days.  
-- **Configure Role-Based Risks**: Customize the roles used in risk evaluation rather than relying on hard-coded roles. For example, instead of using a predefined "Champion" role, you can select the role used in your organization.
+- **Configure Role-Based Risks**: Customize the roles used in risk evaluation rather than relying on hard-coded roles. For example, instead of using a predefined "Champion" role, you can select the stakeholder role used in your organization.
 - **Add Stage-Specific Thresholds**: Define different risk thresholds for each stage of the sales process. For example, you might set a shorter "stalled in stage" threshold for early-stage opportunities compared to late-stage opportunities. This helps ensure risk evaluation matches the expected pace of each stage.  
 - **Create Custom Risk Criteria**: Create entirely new risk criteria specific to your business. Custom risks can be defined and fine-tuned through natural language instructions and configuration settings. For example, you might create a risk criterion for "No technical approver engaged" or "Legal review not started." These custom criteria allow organizations to incorporate their own sales methodology and governance processes into the agent's risk model. For more information, see [Create custom risk criteria](#create-custom-risk-criteria).
 
@@ -38,27 +38,39 @@ The agent combines all applicable risk signals to determine the overall opportun
 ## Configure the risk criteria
 
 1. [Open the Sales Opportunity Agent settings page](open-sales-opportunity-agent-settings.md).
-1. Under **Advanced**, select **Risk criteria**.  
-1. Open the list of available criteria and review the existing risk criteria.  
+1. Under **Advanced**, select **Risk criteria**. 
+1. Expand the **Default risk criteria** section to view the default risk criteria. The business process flow selected in the **Opportunity assessment** section appears at the top. To change it, select **Edit**.  
 
-   :::image type="content" source="media/sales-close-agent-risk-criteria.png" alt-text="Screenshot of the risk criteria section on the Sales Opportunity Agent configuration page.":::
-1. Modify the criteria as needed. The following table lists the available risk criteria for the **Sales Opportunity Agent**:  
+   :::image type="content" source="media/sales-opportunity-agent-risk-criteria.png" alt-text="Screenshot of the risk criteria section on the Sales Opportunity Agent configuration page.":::
+
+1. Modify the criteria as needed. Some criteria can be configured with stage-specific settings. The following table lists the available risk criteria for the **Sales Opportunity Agent**:
 
     | Risk criteria | Description |
     |---------------|-------------|
-    | No recent engagement | Flags opportunities with no activity (email, reply, or meeting) within the configured time window. |
-    | Unresponsive champion | Flags opportunities where the champion doesn't respond after the configured number of touchpoints. |
-    | Not multithreaded | Flags opportunities with limited stakeholder engagement. Multithreading means connecting with multiple contacts; this risk appears when contact coverage is below the configured threshold. |
+    | Unresponsive stakeholder | Flags opportunities where specified stakeholder roles don't respond after the configured number of touchpoints. Champion is selected by default, but you can select other roles like Influencer or Decision Maker. You can select multiple stakeholder roles for this criterion. |
+    | Not multithreaded | Flags opportunities with limited stakeholder engagement. Multithreading means connecting with multiple contacts; this risk appears when contact coverage is below the configured threshold at a specific stage. |
     | Missing stakeholder roles | Flags opportunities missing one or more required stakeholder roles in connections or email conversations once the opportunity reaches the configured stage. |
-    | Close date deviation | Flags opportunities where the estimated close date is near or past before reaching the configured stage. |
-    | Stalled in stage | Flags opportunities that remain in the configured stage longer than the allowed number of days. |
     | Objections raised | Flags opportunities where email conversations or notes include configured objection keywords or phrases. |
     | Missing BANT info | Flags opportunities missing one or more BANT fields (Budget, Authority, Need, Timeline) by the configured stage. |
     | Aging opportunity | Flags opportunities that are open longer than the average age of previously won deals, indicating they might need extra attention. |
     | Competitor mention | Flags opportunities where competitor names or mentions appear in email conversations, signaling competitive positioning might be needed. |
-    | Negative news | Flags opportunities where external events such as layoffs, budget cuts, or mergers and acquisitions detected through company insights could impact deal success. |
+    | Negative company news | Flags opportunities where external events such as layoffs, budget cuts, or mergers and acquisitions detected through company insights could impact deal success. |
 
-1. To remove a criterion from risk assessment, turn off the toggle next to it under the **Use in assessment** column.
+## Configure stage-based risk criteria
+
+Stage-based risk configuration allows you to tailor risk assessment to match your organization's sales cycle. You can set different thresholds for each stage of a risk criterion. A threshold defines the number of days an opportunity can remain in a particular stage before it is flagged as at risk. For example, use shorter thresholds for early stages and longer thresholds for later stages.
+
+1. [Open the Sales Opportunity Agent settings page](open-sales-opportunity-agent-settings.md).
+1. Under **Advanced**, select **Risk criteria**.  
+1. In the **Stage-based criteria** section, expand the criterion you want to configure. The following criteria are available:
+   | Criterion | Description |
+   |-----------|-------------|
+   | No recent engagement | Flags opportunities with no activity (email, reply, or meeting) within the configured time window. |
+   | Close date deviation | Flags opportunities where the estimated close date is near or past before reaching the configured stage. |
+   | Stalled in stage | Flags opportunities that remain in the configured stage longer than the allowed number of days.  |
+1. Select the stage and enter the threshold for that stage.
+1. (Optional) Select **Add stage** to configure additional stages and their respective thresholds.
+
 
 ## Create custom risk criteria
 
@@ -85,6 +97,10 @@ The agent combines all applicable risk signals to determine the overall opportun
 1. To edit or delete the existing custom risk criterion, select the **More options** (ellipsis) icon next to it.  
 1. To disable a criterion from risk assessment, turn off the toggle next to it under the **Use in assessment** column. 
 
+## Remove a criterion from risk assessment
+
+To remove a criterion from risk assessment, turn off the toggle next to it under the **Use in assessment** column.
+
 ## Next step
 
 [Configure importance criteria.](sales-opportunity-agent-advanced-settings.md)
@@ -92,4 +108,5 @@ The agent combines all applicable risk signals to determine the overall opportun
 ## Related information
 
 [Set up and configure Sales Opportunity Agent](configure-sales-opportunity-agent.md)
+
 
