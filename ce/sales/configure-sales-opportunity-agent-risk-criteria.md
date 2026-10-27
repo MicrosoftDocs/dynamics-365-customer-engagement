@@ -1,7 +1,7 @@
 ---
 title: Configure risk criteria for Sales Opportunity Agent
 description: Learn how to configure risk criteria for Sales Opportunity Agent in Dynamics 365 Sales, customize assessments, and identify deal risks.
-ms.date: 10/23/2026
+ms.date: 10/27/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -63,6 +63,8 @@ Stage-based risk configuration allows you to tailor risk assessment to match you
 1. [Open the Sales Opportunity Agent settings page](open-sales-opportunity-agent-settings.md).
 1. Under **Advanced**, select **Risk criteria**.  
 1. In the **Stage-based criteria** section, expand the criterion you want to configure. The following criteria are available:
+ 
+  
    | Criterion | Description |
    |-----------|-------------|
    | No recent engagement | Flags opportunities with no activity (email, reply, or meeting) within the configured time window. |
