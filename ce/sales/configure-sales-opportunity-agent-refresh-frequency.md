@@ -1,7 +1,7 @@
 ---
 title: Configure refresh frequency for Sales Opportunity Agent
 description: Define how often the Sales Opportunity Agent refreshes its research data to provide up-to-date insights on opportunities.
-ms.date: 03/30/2026
+ms.date: 10/23/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: lavanyakr01
