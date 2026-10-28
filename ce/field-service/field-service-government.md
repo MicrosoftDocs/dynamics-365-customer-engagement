@@ -30,7 +30,7 @@ Exceptions exist to the principle of maintaining product functional parity withi
 | Resource Scheduling Optimization | Not Available | Not Available | Not Available |
 | Universal Resource Scheduling | Available | Available | Available |
 | Scheduling Operations Agent | Not Available | Not Available | Not Available |
-| Field Service Rentals | Not Available | Not Available | Not Available |
+| Field Service rentals | Not Available | Not Available | Not Available |
 | Field Service and Project Operations Integration | Not Available | Not Available | Not Available |
 | Field Service Portal | Not Available | Not Available | Not Available |
 | Field Service Custom Controls | Not Available | Not Available | Not Available |
