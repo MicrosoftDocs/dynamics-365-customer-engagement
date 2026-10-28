@@ -59,6 +59,9 @@ To know more about queues, see [Work with queues](work-with-queues.md).
     > [!IMPORTANT]
     >  **Save & Route** is available for active cases only.  
 
+
+Supervisors can select **Assign** on the case form to assign a case to a representative. If **Consume capacity on supervisor case assignment** is enabled, the system applies unified routing rules, updates the case owner and `WorkedBy` field, and transfers capacity from the previous representative to the new representative.
+
 ### Related information
 
 [Learn the basics of the Customer Service Hub ](../implement/customer-service-hub-user-guide-basics.md)  
