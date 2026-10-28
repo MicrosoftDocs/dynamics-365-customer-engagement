@@ -1,7 +1,7 @@
 ---
 title: Admin settings overview
 description: Admin settings provide an organized and unified experience for administrators to easily configure the Dynamics 365 Sales app from a single place.
-ms.date: 05/29/2026
+ms.date: 10/26/2026
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
@@ -47,7 +47,7 @@ To open the Sales Insights settings, select **Change area** :::image type="icon"
 
 [Learn how to install and administer Sales Insights features](intro-admin-guide-sales-insights.md).
 
-To set up and use the premium sales insights features, you must have a specific Dynamics 365 Sales license. [Learn more in the Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+To set up and use the premium sales insights features, you must have a specific Dynamics 365 Sales license. Learn more about licensing requirements in the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 # [Sales Professional app](#tab/SP)
 
