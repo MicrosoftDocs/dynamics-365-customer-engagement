@@ -1,7 +1,7 @@
 ---
 title: Set up unified routing for records
 description: Learn how to set up unified routing for records in Dynamics 365 Customer Service.
-ms.date: 09/30/2026
+ms.date: 10/28/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -44,6 +44,8 @@ You must complete all the steps in this section to route records using unified r
    1. Workstreams
    1. Intake rules
 
+1. For case records, turn on **Consume capacity on supervisor case assignment** to apply unified routing rules and track representative capacity when supervisors use **Assign**. The system transfers capacity from the previous representative to the new representative. This setting is off by default.
+
 ### Create workstreams for record routing
 
 1. In the site map, under **Customer support**, select **Workstreams**.
@@ -57,6 +59,8 @@ You must complete all the steps in this section to route records using unified r
     - **Record type**: Select a record from the list.
 
 1. Select **Create**. The workstream is created.
+
+
 
 ### Configure intake rules
 

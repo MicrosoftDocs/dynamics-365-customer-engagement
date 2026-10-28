@@ -3,6 +3,7 @@ title: Resolve, Cancel, and Reassign Cases in Customer Service Hub
 description: Learn how to resolve, cancel, and reassign cases, manage parent and child cases, and review case resolution history.
 ms.date: 08/31/2026
 ms.topic: how-to
+ai-usage: ai-assisted
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -101,9 +102,6 @@ Learn how to resolve, cancel, and reassign cases so that you can keep case owner
 
 ## Reassign a case
 
-> [!IMPORTANT]
-> When [unified routing](../administer/overview-unified-routing.md) is enabled, use **Save & Route** to reassign a case or work item. **Assign** doesn't trigger the automatic assignment process.
-
 If you don’t have enough information to resolve a case, or if you think another member in your team has expertise on the subject, you can assign the case to another user or team.  
 
 1. In the list of cases, select the case that you want to reassign, and on the command bar, select **Assign**.  
@@ -111,6 +109,13 @@ If you don’t have enough information to resolve a case, or if you think anothe
 2. In the **Assign to Team or User** dialog box, in the **Assign To** field, select **User or Team**, and then in the **User or team** field, select who you want to assign the case to.  
 
 3. Select **Assign**.
+
+### How manual assignment works when unified routing is enabled
+
+If your administrator enables [unified routing](../administer/overview-unified-routing.md) and [**Consume capacity on supervisor case assignment**](../administer/set-up-record-routing.md#configure-unified-routing-for-records), you can select **Assign** as a supervisor to reassign a case. This action triggers the automatic assignment process. The system updates the case owner, sets the `WorkedBy` field to the newly assigned representative, updates the associated queue item and conversation, transfers capacity from the previous representative to the new representative, updates the representative's presence, and applies downstream routing rules and policies.
+
+> [!IMPORTANT]
+> When [unified routing](../administer/overview-unified-routing.md) is enabled and **Consume capacity on supervisor case assignment** is disabled, use **Save & Route** to reassign a case or work item. **Assign** doesn't trigger the automatic assignment process when this setting is disabled.
 
 ## Case resolution history
 
