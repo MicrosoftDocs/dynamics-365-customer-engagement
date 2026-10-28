@@ -680,6 +680,16 @@ items:
               href: project-operations-integration-scan-mobile.md
       - name: Known issues and limitations
         href: project-operations-integration-issues.md
+    - name: Manage service in rental operations (preview)
+      items:
+      - name: Rental operations overview
+        href: rentals-overview.md
+      - name: Set up rentals integration 
+        href: rentals-setup.md
+      - name: Manage work order requests
+        href: rentals-work-order-requests.md
+      - name: View fleet items
+        href: rentals-fleet-items.md 
     - name: Integrate bookings with Outlook calendars
       href: outlook-integration.md
     - name: Dynamics 365 Business Central
