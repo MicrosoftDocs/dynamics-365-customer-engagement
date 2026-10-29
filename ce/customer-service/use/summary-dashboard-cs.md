@@ -1,7 +1,7 @@
 ---
 title: Summary dashboard
 description: Learn about the Summary dashboard insights overview to better understand your organization's customer service experience.
-ms.date: 05/28/2026
+ms.date: 10/29/2026
 ms.update-cycle: 180-days
 ms.topic: concept-article
 author: lalexms
@@ -21,20 +21,20 @@ searchScope:
 - Dynamics 365
 - Customer Service
 - Customer Engagement
-feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
+feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Summary dashboard
 
-The Summary dashboard gives you a broad overview of the customer service experience in your organization. Learn how to [access the dashboard](customer-service-analytics-insights-csh.md#access-the-dashboards).
+The Summary dashboard gives you a broad overview of the customer service experience in your organization. Learn how to access the dashboard in [Customer Service dashboards](customer-service-analytics-insights-csh.md#access-the-dashboards).
 
 The summary dashboard includes various charts with graphical views of key performance indicators (KPIs) in Customer Service.
 
-:::image type="content" source="../media/cs-summary-dashboard.png" alt-text="Summary dashboard for Customer Service historical analytics":::
+:::image type="content" source="../media/cs-summary-dashboard.png" alt-text="Screenshot of the Summary dashboard for Customer Service historical analytics.":::
 
-The case volume drivers and emerging case volume by topic charts use natural language understanding to group support cases as topics that are a collection of related cases. These charts show you the customer support topics generate the most volume and emerging topics with the highest rate of change in volume. This data helps you identify areas of improvement that can affect support performance.
+The case volume drivers and emerging case volume by topic charts use natural language understanding to group support cases as topics that are a collection of related cases. These charts show the customer support topics that generate the most volume and the emerging topics with the highest rate of change in volume. This data helps you identify areas of improvement that can affect support performance.
 
-By default, the dashboard shows you KPIs for the past month and for all channels, queues, and customer service representatives (service representatives or representatives) in your system. The data filtering options allow you to select data for a specific time period, channel, queue, and representative. To filter data by duration, channel, queue, or representative, select a value from the respective dropdown list. 
+By default, the dashboard shows KPIs for the past month and for all channels, queues, and customer service representatives (representatives) in your system. To filter data by duration, channel, queue, or representative, select a value from the respective dropdown list.
 
 > [!NOTE]
 > If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards.
@@ -45,13 +45,13 @@ The **Key Insights discovered** section has two areas:
 
 - **KPI insights**: Important subjects that impact performance, such as CSAT pertaining to priority, volume pertaining to channel, and open cases pertaining to queues.
 
-:::image type="content" source="../media/key-insights-card.png" alt-text="Screenshot shows the Key insights card":::
+:::image type="content" source="../media/key-insights-card.png" alt-text="Screenshot of the Key insights card on the Summary dashboard.":::
 
 ## Report details
 
 The KPI summary charts summarize the KPIs for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, and representative.
 
-The case lifecycle and the metrics that can be derived in the different statuses is represented in the following diagram.
+The following diagram shows the case lifecycle and the metrics that are derived from each case status.
 
 :::image type="content" source="../media/case-lifecycle-metrics-diagram.png" alt-text="Diagrammatic representation of the case lifecycle and the metrics that can be derived." lightbox="../media/case-lifecycle-metrics-diagram-large.png":::
 
@@ -61,12 +61,12 @@ The following table shows the KPIs that appear in the report.
 |----------|------------|
 | Incoming cases    | The number of cases created to support customers.   |
 | Active cases      | The number of cases that are currently open.        |
-| Escalated rate   | The percentage of cases that have been escalated.   |
+| Escalated rate   | The percentage of cases that were escalated.   |
 | Avg. resolve time (hrs)    |   The average length of time taken by a representative to resolve the case.   |
-| Avg. CSAT        | The average customer satisfaction score, based on Customer Voice survey submitted by the customer.   |
-| Avg. survey sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.   |
+| Avg. CSAT        | The average customer satisfaction score, based on Customer Voice surveys submitted by customers.   |
+| Avg. survey sentiment   | The average sentiment score, based on written feedback in Customer Voice surveys submitted by customers.   |
 
-:::image type="content" source="../media/cs-summary-kpi.png" alt-text="Key perfomance indicators on the Summary dashboard":::
+:::image type="content" source="../media/cs-summary-kpi.png" alt-text="Screenshot of the key performance indicators on the Summary dashboard.":::
 
 
 The following metrics appear in the charts.
@@ -80,16 +80,16 @@ The following metrics appear in the charts.
 | Avg. CSAT trend      | The year-over-year trend of case volume.   |
 | Avg. survey sentiment trend   | The year-over-year trend of CSAT from Customer Voice survey responses.   |
 
-:::image type="content" source="../media/cs-summary-charts.png" alt-text="Charts on the Summary dashboard":::
+:::image type="content" source="../media/cs-summary-charts.png" alt-text="Screenshot of the charts on the Summary dashboard.":::
 
-You can view the core case metrics by channel or core case metrics in relation to other metrics and date.
+You can view core case metrics by channel, or compare them with other metrics over time.
 
-:::image type="content" source="../media/case-metrics.png" alt-text="View case metrics by channel or in relation to other metrics and date":::
+:::image type="content" source="../media/case-metrics.png" alt-text="Screenshot of case metrics shown by channel and in relation to other metrics and date.":::
 
 ### Related information
 
-[Dashboard overview](customer-service-analytics-insights-csh.md)  
-[Customer Service Representative dashboard](agent-dashboard-cs.md)  
+[Customer Service dashboards](customer-service-analytics-insights-csh.md)  
+[Agent dashboard in historical analytics](agent-dashboard-cs.md)  
 [Manage report bookmarks](manage-bookmarks.md)  
 
 
