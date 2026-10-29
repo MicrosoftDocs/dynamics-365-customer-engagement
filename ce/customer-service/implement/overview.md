@@ -1,7 +1,7 @@
 ---
 title: Welcome to Dynamics 365 Customer Service
 description: Learn about Dynamics 365 Customer Service capabilities and find guidance for setup, routing, performance, apps, and extensibility.
-ms.date: 10/04/2026
+ms.date: 10/29/2026
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -15,11 +15,10 @@ ms.collection: get-started
 
 > [!TIP]
 > To evaluate Dynamics 365 Customer Service before purchasing it, sign up for a [30-day trial](https://dynamics.microsoft.com/customer-service/customer-service/free-trial/).
-> Explore [Copilot](/dynamics365/contact-center/use/copilot-feature-availability), a feature that can enhance representative productivity in Customer Service.
 
 Welcome to Dynamics 365 Customer Service! Customer Service brings together capabilities to help your organization deliver personalized, efficient support across channels.
 
-The customer service representative (service representative, representative) experience is at the heart of Customer Service. With the right app and configuration, representatives can manage requests from any channel, work across multiple sessions and apps without losing context, and use productivity tools to focus on customer needs.
+The customer service representative (service representative or representative) experience is at the heart of Customer Service. With the right app and configuration, representatives can manage requests from any channel, work across multiple sessions and apps without losing context, and use productivity tools to focus on customer needs.
 
 ## Find the guidance you need
 
@@ -36,6 +35,10 @@ Use the following links to quickly find guidance for common Customer Service tas
 | Extend or integrate Customer Service | [Dynamics 365 Channel Integration Framework](../../channel-integration-framework/channel-integration-framework.md) |
 | Work with Customer Service data programmatically | [Microsoft Dataverse Web API](/power-apps/developer/data-platform/webapi/overview) |
 | Find answers to common routing questions | [Unified routing FAQs](../administer/unified-routing-faqs.md) |
+| Troubleshoot common Customer Service issues | [Troubleshoot issues in Customer Service and FAQ about Customer Service](cs-troubleshooting-faqs.md) |
+| Find help with Customer Service Hub removal | [Customer Service Hub app removal and migration FAQ](../administer/faq-csh-removal.md) |
+| Manage representative presence and availability | [Manage representative presence status and availability](../use/oc-manage-presence-status.md) |
+| Set up Teams chat | [FAQ about Teams chat in Customer Service](../administer/faq-teams-chat.md) |
 
 ## Customer Service capabilities
 
@@ -47,7 +50,7 @@ Use Customer Service to:
 - Use unified routing to efficiently route work items
 - Manage conversations across channels, including voice
 - Use AI-driven insights and analytics to improve customer satisfaction
-- Use Copilot features in Copilot Service workspace to help representatives find information, summarize cases and conversations, and complete tasks
+- Use [Copilot features](/dynamics365/contact-center/use/copilot-feature-availability) in Copilot Service workspace to help representatives find information, summarize cases and conversations, and complete tasks
 - Use autonomous agents to automate customer service tasks
 - Collaborate with experts in Microsoft Teams
 - Create and track service levels through service-level agreements (SLAs)
@@ -60,7 +63,7 @@ Use Customer Service to:
 
 The capabilities available in Customer Service depend on the licenses your organization purchased.
 
-Use Copilot Service admin center to manage Customer Service features in one place. You can configure customer support, operations, representative experiences, service terms, service scheduling, and channels. For more information, go to [Copilot Service admin center at a glance](cs-admin-center.md).
+Use Copilot Service admin center to manage Customer Service features in one place. You can configure customer support, operations, representative experiences, service terms, service scheduling, and channels. Learn more in [Copilot Service admin center at a glance](cs-admin-center.md).
 
 ## Customer Service apps and experiences
 
@@ -76,7 +79,7 @@ For new organizations with Enterprise licenses, Copilot Service workspace replac
 
 **Customer Service Hub**
 
-[Customer Service Hub](../use/user-guide-customer-service-hub.md) is a single-session app for managing cases and other customer service work. It's deprecated for new organizations with Enterprise licenses.
+[Customer Service Hub](../use/user-guide-customer-service-hub.md) is a single-session app for managing cases and other customer service work. It isn't available for new organizations with Enterprise licenses. Learn more in [Customer Service Hub app removal and migration FAQ](../administer/faq-csh-removal.md).
 
 ### Team members
 
@@ -103,7 +106,7 @@ Organizations can create and customize apps to provide experiences tailored to t
 ## Available anywhere, on any device
 
 > [!NOTE]
-> On mobile devices, install the app that's appropriate for your device. For installation instructions, go to [Install Dynamics 365 for phones and tablets](../../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
+> On mobile devices, install the app that's appropriate for your device. Learn how to install the app in [Install Dynamics 365 for phones and tablets](../../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
 
 On a desktop browser, you can access Customer Service apps and experiences based on your organization's configuration.
 
@@ -114,7 +117,7 @@ On a mobile device with Dynamics 365 for phones and tablets installed, the app s
 ![Customer Service app tiles in the mobile app switcher](../media/ChooseAnApp_1.png "Customer Service app tiles in the mobile app switcher")
 
 > [!NOTE]
-> If you previously installed a portal solution, turn off the **Read-only in mobile** option for the Case table to create a case or use the **Merge cases** command in Customer Service Hub. For instructions, go to [Enable or disable table options](../../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
+> If you previously installed a portal solution, turn off the **Read-only in mobile** option for the Case table to create a case or use the **Merge cases** command in Customer Service Hub. Learn how in [Enable or disable table options](../../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
 
 ## Copilot agents in Customer Service
 
@@ -130,7 +133,7 @@ You can use Copilot agents in Microsoft 365 Copilot and within Copilot Service w
 
 Customer Service is committed to inclusive design and accessible content. The apps are designed around accessibility to help all users be productive.
 
-For more information about app accessibility and privacy compliance, go to [Accessibility and privacy](../use/user-guide-customer-service-hub.md#accessibility-and-privacy).
+Learn more about app accessibility and privacy compliance in [Accessibility and privacy](../use/user-guide-customer-service-hub.md#accessibility-and-privacy).
 
 ## Get started with Customer Service
 

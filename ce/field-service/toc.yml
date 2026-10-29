@@ -465,7 +465,25 @@ items:
         - name: Set up agreement substatuses
           href: set-up-agreement-sub-statuses.md
         - name: Manage agreements
-          href: manage-agreements.md  
+          href: manage-agreements.md
+    - name: Asset maintenance (preview)
+      items:
+      - name: Asset maintenance overview
+        href: asset-maintenance-overview.md
+      - name: Asset maintenance schedule types
+        href: asset-maintenance-schedule-types.md
+      - name: Set up and install
+        href: asset-maintenance-install.md
+      - name: Create maintenance plan template
+        href: asset-maintenance-setup-maintenance-plan.md
+      - name: Review maintenance plan
+        href: asset-maintenance-review-maintenance-plan.md
+      - name: Manage maintenance service events
+        href: asset-maintenance-manage-details.md
+      - name: SMU history and prediction
+        href: asset-maintenance-service-history.md
+      - name: Known limitations
+        href: asset-maintenance-limitations.md  
     - name: Entitlements
       items:
         - name: Entitlements overview

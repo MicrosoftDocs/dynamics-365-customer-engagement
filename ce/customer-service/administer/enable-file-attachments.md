@@ -1,7 +1,7 @@
 ---
 title: Enable file attachments
-description: Learn how to enable file attachments and extensions in messaging channels so that customer service representatives and customers can share files during conversations in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 09/10/2026
+description: Learn how to set the file size limit and blocked file extensions for attachments that customer service representatives and customers share in messaging channels in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
+ms.date: 10/29/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -14,24 +14,25 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-You can enable file attachments in your messaging channel so that customer service representatives (representatives) and customers can share files during messaging conversations.
+Enable file attachments in your messaging channels so that customer service representatives (representatives) and customers can share files during messaging conversations.
 
-When you enable the option for customers in the **General settings** configuration of your channel, customers can include attachments with their messages. Similarly, when you enable the option for service representatives, they can send attachments from the communication panel to the customers. Representatives can upload files by dragging and dropping the file from the file explorer into the conversation canvas. Customers must use the **Attach** icon to upload files.
+Use this article to set the organization-wide file size limit and blocked file extensions that apply to attachments in all messaging channels.
 
-If a representative transfers the conversation to another representative, the receiving representative can access the files attached to the conversation.
+To turn on file attachments for a specific channel, use the channel's settings:
 
-Learn more about the representative and customer experience of using file attachments in chat in [Configure file attachment](configure-file-attachment.md).
+- **Live chat**: Turn on file attachments for a chat widget, and learn about the customer experience and attachment validations, in [Configure file attachment capability](configure-file-attachment.md).
+- **Asynchronous channels**: Turn on attachments for customers and representatives in the **General settings** configuration of the channel. Learn more about the file types that each channel supports in [Support for file attachments](card-support-in-channels.md#support-for-file-attachments).
 
-Learn more about the file types that are supported in each channel in [Asynchronous channel support](card-support-in-channels.md).
+Representatives can upload files by dragging and dropping them from File Explorer into the conversation. Customers must use the **Attach** icon to upload files. If a representative transfers a conversation to another representative, the receiving representative can access the files attached to the conversation.
 
 ## File size limit and unsupported extensions for attachments
 
-By default, the application has a file size limit of 5 megabytes (MB) (5,120 kilobytes). You can change this limit based on your organization's requirements.
+By default, the file size limit for attachments is 5 megabytes (MB) (5,120 kilobytes). You can change this limit based on your organization's requirements, up to 128 MB. For live chat, the maximum size for image files is 20 MB.
 
-> [!Tip]
-> Refer to documentation for your channel when determining message size limits. If you enable file attachments for Facebook Messenger, we recommend that you configure a maximum limit of 25 MB (25,600 kilobytes) because the Facebook Messenger file size limit is 25 MB.
+> [!TIP]
+> Check the documentation for your channel when you determine message size limits. If you enable file attachments for Facebook Messenger, configure a maximum limit of 25 MB (25,600 kilobytes) because the Facebook Messenger file size limit is 25 MB.
 
-You can set the file extension types that customers and representatives can share.
+You can also block file extensions so that customers and representatives can't share those file types.
 
 ## Configure file size limit
 
@@ -48,15 +49,18 @@ To configure the file size limit and file extensions, complete the following ste
 1. In the sitemap, go to **System** > **Administration** > **General**.
 1. In the **Set blocked file extensions for attachments** field, add or edit the file types you want blocked.
    > [!NOTE]
-   > Don't block the .txt extension. Transcripts aren't available for closed conversations when the .txt extension is blocked.
+   > Don't block the .txt extension. If you block .txt files, transcripts aren't available for closed conversations.
 1. Select **Save**.
 
-Now, representatives and customers can share file attachments during their conversation.
+Now, representatives and customers can share file attachments during their conversations.
+
+> [!NOTE]
+> Customers with Apple devices must have iOS version 13 to send file attachments.
 
 ### Related information
 
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
-[Configure file attachments](configure-file-attachment.md)  
+[Configure file attachment capability](configure-file-attachment.md)  
 [Configure a Facebook channel](configure-facebook-channel.md)   
 [Configure a WhatsApp channel](configure-whatsapp-channel.md)   
 [Configure a LINE channel](configure-line-channel.md)  

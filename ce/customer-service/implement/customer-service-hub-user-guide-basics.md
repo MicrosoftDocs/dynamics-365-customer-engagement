@@ -1,7 +1,7 @@
 ---
 title: Learn the basics of the Customer Service Hub app
-description: Learn how to use the features of the Customer Service Hub for Dynamics 365 Customer Service.
-ms.date: 05/28/2026
+description: Learn the basics of Customer Service Hub in Dynamics 365 Customer Service, including its removal for new Enterprise organizations and how to migrate to Copilot Service workspace.
+ms.date: 10/29/2026
 ms.topic: concept-article
 author: lalexms
 ms.author: laalexan
@@ -10,16 +10,27 @@ ms.reviewer: laalexan
 
 # Learn the basics of Customer Service Hub
 
-With the [previous announcement](../implement/deprecations-customer-service.md#customer-service-hub-app-is-removed-for-new-organizations-with-enterprise-licenses) that the Customer Service Hub service representative-facing app would be removed for new organizations with Enterprise licenses, the app is now hidden in these environments. By default, Copilot Service workspace is shown to the Customer Service representative profile.
+> [!IMPORTANT]
+> Microsoft is removing Customer Service Hub. As of February 2025, new organizations with Enterprise licenses can't access the Customer Service Hub app, and the app is hidden in these environments. Copilot Service workspace is the default for the Customer Service representative profile. Microsoft continues to support Customer Service Hub for existing organizations and for new customers with license types other than Enterprise, such as Customer Service Professional. Microsoft recommends that all customers migrate to Copilot Service workspace. Learn more in [Customer Service Hub app removal and migration FAQ](../administer/faq-csh-removal.md) and [Customer Service Hub app is removed for new organizations with Enterprise licenses](deprecations-customer-service.md#customer-service-hub-app-is-removed-for-new-organizations-with-enterprise-licenses).
 
-If your business still requires the Customer Service Hub app, complete the steps to enable it in [Migrate from Customer Service Hub to Copilot Service workspace](../administer/faq-csh-removal.md#im-an-existing-enterprise-customer-and-still-need-to-use-customer-service-hub-how-do-i-enable-it).
+This article describes the basic features of Customer Service Hub for organizations that still use the app.
+
+## Migrate to Copilot Service workspace
+
+Copilot Service workspace is a multisession app where representatives can work on multiple cases and conversations at a time in a single workspace. To move from Customer Service Hub to Copilot Service workspace:
+
+1. Review the features of Copilot Service workspace in [Get started with Copilot Service workspace](csw-overview.md).
+1. Configure Copilot Service workspace to include the customizations you use in Customer Service Hub. Learn more in [Migrate to Copilot Service workspace from Customer Service Hub](../administer/migrate-to-csw.md#migrate-to-copilot-service-workspace-from-customer-service-hub).
+1. Help your representatives get familiar with the new app by using [Copilot Service workspace in a day](https://go.microsoft.com/fwlink/?linkid=2300097).
+
+If you're an existing Enterprise customer and your business still requires Customer Service Hub, follow the steps to enable it in [I'm an existing enterprise customer and still need to use Customer Service Hub. How do I enable it?](../administer/faq-csh-removal.md#im-an-existing-enterprise-customer-and-still-need-to-use-customer-service-hub-how-do-i-enable-it). If the app doesn't appear in your app list, go to [Why doesn't Customer Service Hub appear in my app list?](../administer/faq-csh-removal.md#why-doesnt-customer-service-hub-appear-in-my-app-list).
 
 ## Open Customer Service Hub
 
 > [!NOTE]
 > The options in this section are available only to users with the Customer Service app access role, System Administrator role, or System Customizer role.
 
-The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. You can open the Customer Service Hub in one the following ways:  
+Use the Customer Service Hub app on a desktop browser or mobile device to manage knowledge articles and cases. Open Customer Service Hub in one of the following ways:  
 
 **Desktop browser**
   
@@ -57,7 +68,7 @@ To access the Customer Service Hub app on a mobile device:
 - Queues  
 - Knowledge Articles
 
-The Customer Service Hub app comes with an enhanced site map to enable easy navigation of the interface. More information: [Understand the site map navigation](#understand-the-site-map-navigation).
+The Customer Service Hub app comes with an enhanced site map to enable easy navigation of the interface. Learn more in [Understand the site map navigation](#understand-the-site-map-navigation).
   
 ## Understand the site map navigation
 
@@ -116,7 +127,7 @@ When you're viewing a record:
 > [!NOTE]
 > The option Open Record Set won't be available on devices with comparatively smaller screen sizes.
 
-More information: [Create and manage queues](../administer/../administer/set-up-queues-manage-activities-cases.md)
+Learn more in [Create and manage queues](../administer/set-up-queues-manage-activities-cases.md).
 
 ## Quickly create new records
   
@@ -287,7 +298,7 @@ In the Customer Service Hub site map, select **Service** > **Activities**. The *
 
 While working on an email, you can quickly help customers by searching and selecting a relevant knowledge article to include in your email. You can insert the article and/or share a link to it in the body of your message.
 
-You can insert a knowledge article in an email in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#insert-knowledge-articles-into-an-email)
+You can insert a knowledge article in an email in Dynamics 365 Customer Engagement (on-premises) 9.1. Learn more in [New features in Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#insert-knowledge-articles-into-an-email).
 
 1. On an email form where you're drafting, place your cursor where you want to place the knowledge article or its link, and then select **Insert Knowledge Article**.
 
@@ -353,6 +364,9 @@ To create a new Facility/Equipment item, go to **Advanced find** ![Advanced find
 
 [Create and design forms for Customer Service Hub](../administer/create-design-forms-customer-service-hub.md)  
 [Track your cases efficiently and act on them quickly](../use/customer-service-hub-user-guide-case-sla.md)  
+[Customer Service Hub app removal and migration FAQ](../administer/faq-csh-removal.md)  
+[Migrate to Copilot Service workspace from deprecated or removed apps](../administer/migrate-to-csw.md)  
+[Get started with Copilot Service workspace](csw-overview.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

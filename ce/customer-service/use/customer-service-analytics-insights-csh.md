@@ -1,7 +1,7 @@
 ---
 title: Customer Service dashboards
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
-ms.date: 01/30/2026
+ms.date: 10/29/2026
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -13,14 +13,14 @@ search.audienceType:
 ms.custom: 
   - dyn365-customerservice
 ms.collection: get-started
-feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
+feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Customer Service dashboards
 
 The insights dashboards for Customer Service contain various charts and metrics to help you understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases that contribute to overall trends.
 
-The Customer Service dashboards give you a performance summary and detailed reports on cases and customer service representatives (service representatives or representatives). You can make changes to the visual display of the dashboards and also save your personalized views as bookmarks.
+The Customer Service dashboards give you a performance summary and detailed reports on cases and customer service representatives (representatives). You can make changes to the visual display of the dashboards and also save your personalized views as bookmarks.
 
 ## Manage dashboards
 
@@ -50,14 +50,17 @@ Optionally, you can also add the **Business Unit** filter, which provides a cons
 
 ## Reports refresh and data retention
 
-The reports refresh shows the following information.
+Historical analytics reports don't show real-time data. Data is processed in a scheduled refresh, so recent activity appears in the reports only after the next refresh finishes. The following table summarizes how often data refreshes, how to check when data was last updated, and how long data is kept.
 
-- **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. The **Last updated** timestamp in the report pages indicates when the latest data was included in the report, and the time reflects the time zone set in your user preferences.
-- **Custom refresh:** Isn't available.
-- **Data refresh for inactive environments:** Data refresh is paused for organizations that aren't in use for 30 days. After 60 days of inactivity, the analytics feature is deprovisioned on the organization.
-- **Data retention:** Data is stored for 24 months.
+| Item | Details |
+|------|---------|
+| **Refresh frequency** | Data refreshes once every 24 hours. You can't change the refresh schedule or start a refresh on demand. |
+| **Last updated** | The **Last updated** timestamp on each report page shows when the latest data was included in the report. The timestamp uses the time zone set in your user preferences. |
+| **Availability during refresh** | Reports remain available while data refreshes. |
+| **Inactive environments** | If an organization isn't used for 30 days, data refresh pauses. After 60 days of inactivity, the analytics feature is deprovisioned for the organization. |
+| **Data retention** | Data is stored for 24 months. |
 
-To view the documentation for a report, select the **About this report** link.
+To view the documentation for a report, select the **About this report** link on the report.
 
 ## Supported tables
 
@@ -80,7 +83,7 @@ The following tables are used for Customer Service historical analytics:
 
 ### Related information
 
-[Introduction to Customer Service insights](../implement/introduction-customer-service-analytics.md)    
+[Use and customize analytics and insights](../administer/analytics_overview.md)    
 [Configure Customer Service insights for Customer Service Hub and Copilot Service workspace](../administer/configure-customer-service-analytics-insights-csh.md)   
 [Manage bookmarks](manage-bookmarks.md)  
 [Customize visual display](customize-reports.md#customize-visual-display)  
