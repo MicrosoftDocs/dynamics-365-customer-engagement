@@ -1,7 +1,7 @@
 ---
 title: How to set up unified routing
 description: Learn about the high-level process for setting up unified routing in Customer Service.
-ms.date: 02/03/2026
+ms.date: 10/29/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -23,9 +23,9 @@ In this article, we'll take you through the high-level process of configuring un
 
 The following prerequisites are applicable:
 
-- The latest release of Customer Service must be installed. More information: [What's new in Customer Service](/dynamics365/release-plans)
+- Install the latest release of Customer Service. For more information, see [What's new in Customer Service](../implement/whats-new-customer-service.md).
 - The System Administrator role to set up unified routing for records and work items.
-- To route records, you must enable the record for routing using the records channel configuration. More information: [Records routing](enable-entities-for-queues.md)
+- To route records, enable the record for routing by using the records channel configuration. For more information, see [Records routing](enable-entities-for-queues.md).
 
 ## Set up unified routing for records
 

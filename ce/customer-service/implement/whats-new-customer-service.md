@@ -1,7 +1,7 @@
 ---
 title: What's new in Dynamics 365 Customer Service
 description: Learn about the recently added or updated features in Dynamics 365 Customer Service.
-ms.date: 07/30/2026
+ms.date: 10/29/2026
 ms.topic: whats-new
 author: neeranelli
 ms.author: nenellim
@@ -18,7 +18,7 @@ ms.custom:
 
 Welcome to Dynamics 365 Customer Service.
 
-Explore new and upcoming features in Dynamics 365 Customer Service. Learn about feature details, release timelines, and availability in [Release plans for Dynamics 365](/dynamics365/release-plans/).
+Explore new and upcoming features in Dynamics 365 Customer Service. Learn about feature details, release timelines, and availability in the [roadmap](https://aka.ms/AIatWorkroadmap).
 
 ## Next steps
 
