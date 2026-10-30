@@ -838,7 +838,7 @@
         href: enable-monitor-assign-transfer-conv.md
       - name: Manage historical analytics dashboards
         items:
-        - name: Manage Customer Service historical analytics reports
+        - name: Manage historical analytics reports in Customer Service
           href: configure-cs-historical-analytics-csh.md
         - name: Manage Omnichannel historical analytics reports
           href: oc-historical-analytics-reports.md
