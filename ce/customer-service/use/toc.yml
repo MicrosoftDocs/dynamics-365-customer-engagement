@@ -446,6 +446,14 @@
           href: service-agent-faq.md
       - name: Analytics dashboards and insights
         items:
+        - name: Use case historical analytics in the Shared Analytics Platform
+          items:
+          - name: Overview of case analytics using the Shared Analytics Platform
+            href: case-analytics-overview.md
+          - name: Use Case historical analytics dashboard
+            href: case-dashboard.md
+          - name: Case metrics reference for Shared Analytics Platform
+            href: case-metrics.md
         - name: Supervise AI agents (preview)
           items:
           - name: Supervise autonomous agents using agent feed
@@ -494,6 +502,12 @@
             href: summary-dashboard-cs.md
           - name: Agent dashboard
             href: agent-dashboard-cs.md
+        - name: Use Customer Service historical analytics dashboards in Dynamics 365 Data Intelligence platform
+          items:
+           - name: Overview of case analytics using the Shared Analytics Platform
+             href: case-analytics-overview.md
+           - name: Use Case historical analytics dashboard
+             href: case-dashboard.md   
         - name: Use Omnichannel historical analytics dashboards
           items: 
           - name: Omnichannel for Customer Service dashboards

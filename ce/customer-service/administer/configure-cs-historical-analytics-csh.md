@@ -1,11 +1,12 @@
 ---
 title: Manage historical analytics reports in Customer Service
 description: Learn how to configure Customer Service historical analytics reports.
-ms.date: 09/30/2026
+ms.date: 10/30/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
+ai-usage: ai-assisted
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - ai-gen-docs-bap
@@ -18,7 +19,32 @@ ms.custom:
 
 You can configure Customer Service historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics.
 
-By default, the Customer Service historical analytics reports are enabled for the System Administrator and CSR Manager roles. To configure other user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
+By default, the Customer Service historical analytics reports are enabled for the System Administrator and CSR Manager roles. To give other user roles access to analytics and dashboards, complete the steps in [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
+
+> [!NOTE]
+> The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps in [Keep the report state when you switch session tabs](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs).
+
+## Manage Customer Service historical analytics with enriched data
+
+Use Customer Service historical analytics reports with enriched data to understand support demand, evaluate service outcomes, and identify backlogs that need attention. Consistent metrics across report pages help you make informed decisions to improve service operations. These reports are separate from the existing Customer Service historical analytics reports.
+
+
+1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+1. For **Customer Service historical analytics with enriched data**, select **Manage**.
+1. On the **Customer Service historical analytics with enriched data** page, set the toggle to **On** to turn on the reports or **Off** to turn them off.
+1. Select **Save** or **Save and Close**.
+
+Learn more about the reports in [Case analytics overview](../use/case-analytics-overview.md).
+
+## Manage Customer Service historical analytics reports
+
+
+1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.  
+1. For **Customer Service historical analytics**, select **Manage**.    
+1. On the **Customer Service historical analytics** page, set the **Enable Customer Service historical analytics report** toggle to **On** to turn on the reports or set the toggle to **Off** to turn off the reports.
+1. Select **Save** or **Save and Close**.
+
+When you turn on this configuration, it also enables AI-discovered topics from cases with default settings.
 
 The historical reports include:
 
@@ -26,32 +52,15 @@ The historical reports include:
 - [Agent report](../use/agent-dashboard-cs.md)
 - [Topics report](../use/case-topics-dashboard-cs.md)
 
-After you enable the reports, you can access them in one of the following ways:
+After you turn on the reports, you can access them in one of the following ways:
 
 - In Copilot Service workspace, select the hamburger menu, and then select **Customer Service historical analytics** in the site map.
 
 - In Customer Service Hub, in **Service**, in the site map, select **Customer Service historical analytics**.
 
-> [!NOTE]
-> The reports retain their current state even when you switch session tabs. However, if you customized the Copilot Service workspace app, complete the steps provided [here](analytics_overview.md#keep-the-report-state-when-you-switch-session-tabs) to keep the report state.
-
-## Manage Customer Service historical analytics reports
-
-Use the Copilot Service admin center app to enable or disable the reports.
-
-1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     
-1. For **Customer Service historical analytics**, select **Manage**.
-     
-1. On the **Customer Service historical analytics** page, set the **Enable Customer Service historical analytics report** toggle to **On** to enable the reports or set the toggle to **Off** to disable the reports.
-
-1. Select **Save** or **Save and Close**.
-
-   This configuration also enables AI-discovered topics from cases with default settings.
-
 ## View Customer Service historical analytics reports
 
-If you customized the Copilot Service workspace app, you must complete the following steps to be able to view the reports.
+If you customized the Copilot Service workspace app, complete the following steps to view the reports.
 
 1. On the Copilot Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
 1. Select **New**.
@@ -68,6 +77,7 @@ If you customized the Copilot Service workspace app, you must complete the follo
     - **SKU**: **All**, **On premise**, **Live**, and **SPLA**.
     - **Client**: **Web**.
 1. Select **Save**, and then select **Publish**.
+
 
 ### Related information
 

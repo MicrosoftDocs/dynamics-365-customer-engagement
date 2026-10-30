@@ -9,6 +9,52 @@
         href: omnichannel-developer.md 
       - name: Troubleshoot and FAQs
         href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml                  
+      - name: Shared Analytics Platform
+        items:
+        - name: Case analytics data model
+          href: analytics/case-data-model.md
+        - name: Fact tables
+          items:
+          - name: FactCase table reference
+            href: analytics/factcase.md
+          - name: FactSLAKPIInstance table reference
+            href: analytics/factslakpiinstance.md
+        - name: Aggregate tables
+          items:
+          - name: AggCaseAnalytics table reference
+            href: analytics/aggcaseanalytics.md
+          - name: AggCaseSLA table reference
+            href: analytics/aggcasesla.md
+          - name: AggCaseSnapshot table reference
+            href: analytics/aggcasesnapshot.md
+        - name: Dimension tables
+          items:
+          - name: DimCaseOwner table reference
+            href: analytics/dimcaseowner.md
+          - name: DimCaseWorker table reference
+            href: analytics/dimcaseworker.md
+          - name: DimCaseOrigin table reference
+            href: analytics/dimcaseorigin.md
+          - name: DimCasePriority table reference
+            href: analytics/dimcasepriority.md
+          - name: DimCaseSeverity table reference
+            href: analytics/dimcaseseverity.md
+          - name: DimCaseType table reference
+            href: analytics/dimcasetype.md
+          - name: DimCaseStatus table reference
+            href: analytics/dimcasestatus.md
+          - name: DimSubject table reference
+            href: analytics/dimsubject.md
+          - name: DimCaseProduct table reference
+            href: analytics/dimcaseproduct.md
+          - name: DimCaseSLA table reference
+            href: analytics/dimcasesla.md
+          - name: DimCaseSLAKPI table reference
+            href: analytics/dimcaseslakpi.md
+          - name: DimCaseEntitlement table reference
+            href: analytics/dimcaseentitlement.md
+          - name: DimCaseAgeBand table reference
+            href: analytics/dimcaseageband.md
       - name: Unified routing and assignment
         items: 
         - name: Understand how unified routing affects queue items and live work items for routed records
