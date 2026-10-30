@@ -23,7 +23,7 @@ items:
 - name: What's new
   items:
     - name: New and upcoming features
-      href: https://experience.dynamics.com/releaseplans/?app=Field+Service
+      href: https://aka.ms/AIatWorkroadmap
     - name: Version history
       items:
         - name: Field Service

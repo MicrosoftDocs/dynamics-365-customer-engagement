@@ -1,7 +1,7 @@
 ---
 title: Update apps and solutions
 description: Learn how to upgrade Dynamics 365 Field Service, mobile apps, and related solutions.
-ms.date: 04/29/2026
+ms.date: 10/29/2026
 ms.topic: how-to
 ms.custom: bap-template
 author: jshotts
@@ -22,7 +22,7 @@ Multiple updates are released throughout the year.
 - **Hot fixes** are rare, but occasionally a critical update is released outside the planned update schedule.
 
 > [!TIP]
-> Find information about new features and changes for upcoming releases in the [Dynamics 365 release plans](/dynamics365/release-plans/).
+> Visit the [AI at Work roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption.
 
 ## Early Access update
 

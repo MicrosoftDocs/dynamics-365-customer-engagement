@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service mobile app overview
 description: Learn about the Field Service mobile app, key features, and system requirements with this general overview.
-ms.date: 09/14/2026
+ms.date: 10/29/2026
 ms.topic: overview
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -55,6 +55,6 @@ Start with the following resources:
 - [Troubleshoot offline synchronization](offline-data-sync.md#troubleshoot-offline-sync) when synchronization doesn't finish, data is missing, or the app reports an error.
 - [Resolve WebView reset errors](/troubleshoot/dynamics-365/field-service/mobile-app/webview-reset) when the app repeatedly downloads metadata updates.
 
-For information about planned features, see [Dynamics 365 Field Service release plans](/dynamics365/release-plans/).
+Visit the [AI at Work roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
