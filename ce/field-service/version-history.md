@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 10/19/2026
+ms.date: 10/29/2026
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
@@ -14,7 +14,8 @@ ai-usage: ai-assisted
 
 When a new version of Dynamics 365 Field Service releases, it becomes available in different geographic regions at different times. Use the table below to see when the next release will become available in the region of your environment.
 
-For information about other updates to Field Service, visit the [Dynamics 365 and Microsoft Power Platform release plans](https://releaseplans.microsoft.com/?app=Field+Service).
+Visit the [AI at Work roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption of Dynamics 365 Field Service.
+
 For information about older versions, see [Version history archive](version-history-archive.md#field-service).
 
 | Station | Region | Current version | Next version | Scheduled date |

@@ -462,7 +462,7 @@
         href: configure-voice-call-experiences.md
       - name: Use Azure Virtual Desktop to access voice channel
         href: /dynamics365/contact-center/administer/configure-voice-avd?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-      - name: Install and manage Desktop companion application (preview)
+      - name: Install and manage Desktop companion application
         href: /dynamics365/contact-center/administer/install-manage-desktop-app?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Support emergency calls made by agents
         href: voice-channel-emergency-calling.md

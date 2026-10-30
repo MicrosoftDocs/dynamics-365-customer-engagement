@@ -4,7 +4,7 @@ description: Dynamics 365 Field Service trial FAQ covers setup, trial limits, sa
 author: jshotts
 ms.author: jasonshotts
 ms.reviewer: v-wesmith
-ms.date: 07/30/2026
+ms.date: 10/29/2026
 ms.topic: get-started
 ms.custom:
  - ai-gen-docs-bap
@@ -63,6 +63,6 @@ For the list of geographical regions supported in Field Service, see [Datacenter
 
 ### Which languages are supported in the trial version of Field Service?
 
-For the list of languages supported in Field Service, see [Language availability](https://www.microsoft.com/en-us/dynamics-365/availability-reports).
+For the list of languages supported in Field Service, see the [availability report](https://www.microsoft.com/dynamics-365/availability-reports).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

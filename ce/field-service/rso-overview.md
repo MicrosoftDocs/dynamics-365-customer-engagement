@@ -3,7 +3,7 @@ title: Overview of Resource Scheduling Optimization for Dynamics 365 Field Servi
 description: Learn about Resource Scheduling Optimization for Dynamics 365 Field Service.
 author: andrewclear-ms
 ms.author: anclear
-ms.date: 03/20/2026
+ms.date: 10/29/2026
 ms.topic: overview
 ms.subservice: resource-scheduling-optimization
 ---
@@ -57,7 +57,7 @@ You can configure Resource Scheduling Optimization for your business needs based
 
 ## Geographical availability
 
-The [Resource Scheduling Optimization Add-on is available](field-service-version-history-resource-scheduling-optimization.md) in most [regions where Dynamics 365 Field Service is offered](https://dynamics.microsoft.com/availability-reports/).
+The [Resource Scheduling Optimization Add-on is available](field-service-version-history-resource-scheduling-optimization.md) in most regions where Dynamics 365 Field Service is offered.
 
 ## Understand how it works
 
