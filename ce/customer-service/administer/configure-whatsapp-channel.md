@@ -1,7 +1,7 @@
 ---
 title: Configure a WhatsApp channel through Twilio
 description: Learn how to configure the WhatsApp channel through Twilio, including sandbox and production checklists, message templates, the 24-hour session rule, and validation steps.
-ms.date: 10/16/2026
+ms.date: 10/30/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -45,7 +45,7 @@ Use this article to:
 | **WhatsApp number** | A shared number provided by Twilio. | Your Twilio number connected to your WhatsApp Business Profile. |
 | **How customers connect** | Send `join <your sandbox code>` to the sandbox number. Only phones that join the sandbox can exchange messages with it. | Send a WhatsApp message to your business number. |
 | **Message templates** | Custom message templates aren't supported. | Create templates in the Twilio Content Template Builder and have them approved by WhatsApp. |
-| **Where to enter the Twilio inbound URL** | In the legacy Twilio Console, under **Sandbox settings** > **Sandbox configuration**, in the **When a Message Comes in** box. | The incoming message webhook for your WhatsApp sender in your Twilio account. |
+| **Where to enter the Twilio inbound URL** | In the legacy Twilio Console, under **Sandbox settings** > **Sandbox configuration**, in the **When a Message Comes in** box. | Your WhatsApp sender in Twilio, under **Messaging Endpoint Configuration**, in the **Webhook URL for incoming messages** box. |
 
 ## Information you need from Twilio
 
@@ -97,11 +97,18 @@ Keep the following sandbox limits in mind:
 Use this checklist to go live with your own WhatsApp business number.
 
 1. Get a Twilio account with an appropriate subscription.
-1. Connect your Twilio number to your WhatsApp Business Profile. Learn more in [Connect your Twilio Number to your WhatsApp Business Profile](https://www.twilio.com/docs/sms/whatsapp/tutorial/connect-number-business-profile).
+1. Register your phone number as a WhatsApp sender in Twilio by using Self Sign-up. Ensure that you have administrator access to your Meta Business Portfolio.
+    1. In the Twilio Console, go to **Messaging** > **Senders** > **WhatsApp Senders**, and then select **Create new sender**.
+    1. Select the phone number that you want to register, and then select **Continue**.
+    1. Select **Continue with Facebook**. In the Self Sign-up window, select or create your Meta Business Portfolio, and then create or select the WhatsApp Business Account (WABA) to connect to your number.
+    1. Verify the phone number by entering the verification code that you receive through a text message or phone call.
+    1. Review and confirm Twilio's access request. Twilio registers your WhatsApp sender.
+
+    Learn more in [Register WhatsApp senders using Self Sign-up](https://www.twilio.com/docs/whatsapp/self-sign-up).
 1. If your Twilio account is newly created, turn off the security setting that blocks sending media files.
 1. Get your **Account SID** and **Auth token** from Twilio. Learn more in [Fetch Twilio account details](#fetch-twilio-account-details).
 1. In Copilot Service admin center, create a WhatsApp account and add your WhatsApp business number. Learn more in [Create a WhatsApp channel](#create-a-whatsapp-channel).
-1. On the **Callback information** page, copy the **Twilio inbound URL**, and enter it as the incoming message webhook for your WhatsApp sender in Twilio.
+1. On the **Callback information** page, copy the **Twilio inbound URL**. In Twilio, go to your WhatsApp sender > **Messaging Endpoint Configuration**. In the **Webhook URL for incoming messages** box, paste the Twilio inbound URL, select **HTTP POST**, and then save the configuration.
 1. Create or select a workstream, and set up WhatsApp for your number. Learn more in [Set up the workstream](#set-up-the-workstream).
 1. Configure routing rules and work distribution for the workstream. If you route on phone number patterns, add a fallback rule for conversations that only have a Business-Scoped User ID.
 1. In the Twilio Content Template Builder, create your message templates, and submit them for WhatsApp approval. Create a separate template for each language.
@@ -136,8 +143,7 @@ Learn more in [Create a content template](https://www.twilio.com/docs/content/cr
 ## Fetch Twilio account details
 
 1. Sign in to your Twilio account.
-1. Go to **Console Dashboard** > **Settings** > **General**.
-1. Copy and save the **ACCOUNT SID** and **AUTH TOKEN** values. You need them to create the WhatsApp channel.
+1. Go to **Console Dashboard** > **Settings** > **General**. Then, copy and save the **ACCOUNT SID** and **AUTH TOKEN** values. You need them to create the WhatsApp channel.
 
 ## Create a WhatsApp channel
 
