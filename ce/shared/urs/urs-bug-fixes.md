@@ -2,23 +2,51 @@
 
 When a new version of Universal Resource Scheduling is released, it's available in different geographic regions at different times. The table shows estimates for when the next release is available in the region of your environment.
 
-For information about other updates to Universal Resource Scheduling, go to the Field Service section of the [Dynamics 365 release plans](/dynamics365/release-plans/).
+For information about other updates to Universal Resource Scheduling, go to the Field Service section of the [AI at Work roadmap](https://aka.ms/AIatWorkroadmap).
 For information about older versions, see [Version history archive](../../field-service/version-history-archive.md#universal-resource-scheduling).
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | TBD | 10/30 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | TBD | 11/06 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | TBD | 11/20 |
-| | *USG* | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | TBD | 11/11 |
-|**Station 4** |*Europe* | [3.12.4002.87](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400287) | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | 10/23 |
+|**Station 1** |  *First Release*| [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | [3.12.4004.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400416) | 10/30 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | [3.12.4004.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400416) | 11/06 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | [3.12.4004.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400416) | 11/20 |
+| | *USG* | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | [3.12.4004.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400416) | 11/11 |
+|**Station 4** |*Europe* | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | [3.12.4004.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400416) | 12/04 |
 |**Station 5** |  *North America, Oceania*| [3.12.4002.87](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400287) | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | 10/30 |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.4002.87](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400287) | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | 10/28 |
+|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | [3.12.4004.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400416) | 12/09 |
 |**Station 6** | *Dedicated Scale Groups* | [3.12.4002.87](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400287) | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | 11/06 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.4004.16
+
+**Resource Scheduling Controls:** 1.2.107.263001
+
+**Dataverse:** 4.0.4004.16
+
+- Scheduling plan time zones: Recurrence, **Next run**, and validity dates consistently use the plan's selected time zone and display its UTC offset.
+- Booking performance: Reduced redundant queries when creating or updating bookings, including bulk booking operations.
+- Quick Book start times: Quick Book now offers start times at 30-minute intervals for requirements without a time group, without changing the booking duration.
+- Monthly scheduling patterns: Fixed an issue where moving effort to another month saved the start and end dates one month too late.
+- Schedule board date formatting: Fixed corrupted month names in timeline headers that use abbreviated or full month names.
+- Schedule board time zones: Fixed an issue that could shift booking times by one hour when viewing, creating, or modifying bookings in affected western Canadian time zones.
+- Rebooking availability: The schedule board now hides **Rebook** for bookings longer than 24 hours, which don't support that action.
+- Full-screen map guidance: Fixed the tooltip on the disabled **Map View** button when the full-screen map is enabled.
+- Calendar cleanup: Fixed an error that prevented cleanup of unused calendars with holiday references.
+- Schedule board loading: Fixed an issue that could prevent the schedule board from loading in environments configured with a custom Bing Maps API key.
+- Scheduling plan recurrence: Fixed a "Business Process error" that could prevent you from saving a scheduling plan with recurrence details.
+- This release contains additional security improvements.
+- Various accessibility improvements.
+
+## 3.12.4003.38 (hotfix3)
+
+**Resource Scheduling Controls:** 1.2.106.263001
+
+**Dataverse:** 4.0.4003.38
+
+- Schedule board time zones: Fixed an issue that could shift booking times by one hour when viewing, creating, or modifying bookings in affected western Canadian time zones.
 
 ## 3.12.4003.38
 

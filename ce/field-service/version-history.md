@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 10/29/2026
+ms.date: 10/28/2026
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
@@ -20,18 +20,55 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.150.62](/dynamics365/field-service/version-history#8815062) | TBD | 10/30 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.150.62](/dynamics365/field-service/version-history#8815062) | TBD | 11/06 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom* | [8.8.150.62](/dynamics365/field-service/version-history#8815062) | TBD | 11/20 |
-| | *USG* | [8.8.150.62](/dynamics365/field-service/version-history#8815062) | TBD | 11/11 |
-|**Station 4** |*Europe* | [8.8.149.348](/dynamics365/field-service/version-history#88149348) | [8.8.150.62](/dynamics365/field-service/version-history#8815062) | 10/23 |
-|**Station 5** | *North America, Oceania*| [8.8.149.348](/dynamics365/field-service/version-history#88149348) | [8.8.150.62](/dynamics365/field-service/version-history#8815062) | 10/30 |
-|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.149.348](/dynamics365/field-service/version-history#88149348) | [8.8.150.62](/dynamics365/field-service/version-history#8815062) | 10/28 |
-| | *Dedicated Scale Groups* | [8.8.149.348](/dynamics365/field-service/version-history#88149348) | [8.8.150.62](/dynamics365/field-service/version-history#8815062) | 11/06 |
+|**Station 1** |  *First Release*| [8.8.150.62](/dynamics365/field-service/version-history#8815062) | [8.8.151.177](/dynamics365/field-service/version-history#88151177) | 10/30 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.150.62](/dynamics365/field-service/version-history#8815062) | [8.8.151.177](/dynamics365/field-service/version-history#88151177) | 11/06 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom* | [8.8.150.62](/dynamics365/field-service/version-history#8815062) | [8.8.151.177](/dynamics365/field-service/version-history#88151177) | 11/20 |
+| | *USG* | [8.8.150.62](/dynamics365/field-service/version-history#8815062) | [8.8.151.177](/dynamics365/field-service/version-history#88151177) | 11/11 |
+|**Station 4** |*Europe* | [8.8.150.62](/dynamics365/field-service/version-history#8815062) | [8.8.151.177](/dynamics365/field-service/version-history#88151177) | 12/04 |
+|**Station 5** | *North America, Oceania*| [8.8.149.348](/dynamics365/field-service/version-history#88149348) | [8.8.150.63](/dynamics365/field-service/version-history#8815063) | 10/30 |
+|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.150.63](/dynamics365/field-service/version-history#8815063) | [8.8.151.177](/dynamics365/field-service/version-history#88151177) | 12/09 |
+| | *Dedicated Scale Groups* | [8.8.149.348](/dynamics365/field-service/version-history#88149348) | [8.8.150.63](/dynamics365/field-service/version-history#8815063) | 11/06 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.151.177
+(Includes Universal Resource Scheduling version [3.12.4004.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400416) and Resource Scheduling controls version 1.2.107.263001)
+
+- **New features**
+    - Maintenance schedule authoring: Create and edit maintenance schedules and reusable templates in **Schedule Manager**, and apply templates to maintenance plans.
+    - Maintenance occurrence generation: Generate maintenance occurrences from calendar-based schedules and completion-driven maintenance sequences.
+    - Maintenance calendar and work orders: Review upcoming and historical maintenance in **Calendar** and **Agenda** views, manage occurrence status, and create work orders or associate completed work orders with maintenance occurrences.
+    - **Preview:** Field Service now supports rental lifecycle management, with fleet items, work order requests, and work orders connected in one flow. [Explore rentals in Field Service](rentals-overview.md).
+
+- **Fixes and improvements**
+    - Product and service permissions: The product and service controls now hide **Add Product** and **Add Service** when you don't have permission to create the corresponding records.
+    - Work orders from cases: Newly created work orders now appear in a case's related work order view without switching views.
+    - Work order status colors: Status indicators now honor your customized status option colors.
+    - Service grid configuration: Fixed an issue that prevented makers from binding duration fields when configuring the service grid on custom forms.
+    - Service task editing: Selecting **Edit** on a service task row now edits that record, even when multiple rows are selected.
+    - Work order grid columns: Resizing columns now allows horizontal scrolling instead of squeezing other columns.
+    - Agreement booking duration: Deactivating an agreement booking incident now recalculates the parent agreement booking setup's estimated duration.
+    - Asset and functional location hierarchy: Fixed loading failures after returning from a related case and when the hierarchy contains records that are inaccessible or no longer exist.
+    - Inline description editing: Fixed an issue where clicking near the description label didn't commit an inline edit.
+    - Work order context menus: Fixed an issue where opening a row's context menu selected the record instead.
+    - Record linking: Fixed errors that blocked linking or unlinking records when a previous Field Service update was incomplete or geolocation settings metadata was unavailable.
+    - Fresh installations: First-time installations now apply the expected setup data instead of incorrectly following the update path.
+    - Booking agenda tiles: Removed a stray colon when a custom field's label is empty.
+    - Field Service Mobile Copilot summaries: Fixed unexpected bold formatting after initial sign-in or reopening the app on Android and iOS.
+    - Field Service Mobile Android navigation: Fixed command bar overlap with Android's system navigation buttons.
+    - Field Service Mobile offline inventory: Reduced repeated inventory-validation warnings that could obscure the product and service grids.
+    - Field Service Mobile landscape layout: Increased usable space in the product and service drawer.
+    - Field Service Mobile offline travel status: Fixed an issue that reset estimated travel duration when a booking's **Traveling** status synchronized.
+    - Various accessibility improvements.
+
+## 8.8.150.63
+
+This release is a hotfix on Field Service version [8.8.150.62](#8815062).
+(Includes Universal Resource Scheduling version [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338-hotfix3) and Resource Scheduling controls version 1.2.106.263001)
+
+- No updates were made to Dynamics 365 Field Service in this release.
 
 ## 8.8.150.62
 
