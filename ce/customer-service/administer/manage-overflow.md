@@ -4,7 +4,7 @@ description: Learn how to set up overflow conditions and actions for your voice,
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 06/30/2026
+ms.date: 10/30/2026
 ms.topic: how-to
 ms.custom:
  - bap-template
@@ -257,7 +257,7 @@ Configure overflow behavior based on a combination of the following conditions:
 - Queue is out of operating hours when conversations enter the queue.
 
 > [!NOTE]
-> You can use the "queue is out of operating hours" condition in the existing overflow rules on the **Queue** page and playbooks. The key difference is that the system evaluates the queue overflow rules once only before the system adds the work item to the queue, whereas the playbook condition is evaluated continuously, including after transfers.
+> Use the **queue is out of operating hours** condition in the existing overflow rules on the **Queue** page and playbooks. The key difference is that the system evaluates the queue overflow rules once only before the system adds the work item to the queue, whereas the playbook condition is evaluated continuously, including after transfers.
 
 **Agent availability conditions**
 
@@ -265,9 +265,7 @@ Configure overflow behavior based on a combination of the following conditions:
 - **All representatives are signed out**: Evaluates for incoming conversations and triggers when representatives sign out, close their browser session, or there's a network outage.
 - **All representatives sign out while conversations are waiting**: Evaluates waiting conversations and is triggered when representatives sign out, close their browser session, or there's a network outage.
 
-## Use natural language playbooks to configure overflow actions for direct inward dialed calls (preview)
-
-[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+## Use natural language playbooks to configure overflow actions for direct inward dialed calls
 
 Direct inward dialed calls are phone calls from a customer that go to a specific service representative’s direct phone line via a personal number assigned to them instead of through a main support line or queue. This call type is different from a typical inbound call that comes in through a main support number and is routed by queues or an IVR system.
 By default, if a representative doesn't answer these calls because they're busy or away, the call usually goes to voicemail. By using conversation orchestration playbooks, you can extend the default behavior beyond voicemail and set up custom overflow actions that run when a direct call can't reach the intended representative. The customer experience is seamless when you route the call appropriately if the representative is unavailable, so that callers aren't abandoned.

@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues and how you can use them in unified routing in Dynamics 365 Contact Center and Customer Service.
-ms.date: 09/11/2026
+ms.date: 10/30/2026
 ms.topic: concept-article
 author: neeranelli
 ms.author: nenellim
@@ -197,9 +197,7 @@ Some important points about prioritization rules are as follows:
 - The system places work items that don't match any prioritization ruleset in the last priority bucket and orders them on a first‑in, first‑out basis.
 - Prioritization rules are skipped for affinity work items and such work items are assigned before other work items in the queue. Learn more about affinity in [Representative affinity](create-workstreams.md#representative-affinity).
 
-## How dynamic prioritization works (preview)
-
-[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+## How dynamic prioritization works
 
 Dynamic prioritization is a natural language-based approach to increase the priority of conversations (voice and live chat only) based on:
 

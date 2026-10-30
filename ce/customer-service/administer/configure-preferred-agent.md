@@ -1,7 +1,7 @@
 ---
 title: Configure routing to preferred or previously engaged representatives in Dynamics 365 Contact Center
 description: Learn how to configure settings to route work items to preferred or previously engaged representatives in Dynamics 365 Contact Center and Customer Service.
-ms.date: 08/24/2026
+ms.date: 10/30/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -81,13 +81,11 @@ To find the preferred representative for an incoming work item, the contact shou
 |Record |<ul><li>**Case**: Use the **Customer** field to store the contact ID.</li><li>**Email, phone, fax, letter, appointment**: Use the **Regarding** field to store the contact ID. </li></ul>|
 |**Digital messaging**: Chat, voice, and other channels|<ul><li> **Chat**: [Authenticated users are automatically identified as contacts](record-identification-rule.md). For unauthenticated users, use the preconversation survey to set the survey question name as **Name**.</li><li>**Voice**: Authenticated with the phone number.</li><li>Other channels: [Social profiles](../use/supported-channels-social-profiles.md). </li></ul> |
 
-## Assign to a previously engaged or preferred expert by using conversation orchestration playbooks (preview)
-
-[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+## Assign to a previously engaged or preferred expert by using conversation orchestration playbooks
 
 By using historical interaction context, queue membership alignment, and expert availability, you can reconnect customers with experts who already understand their issue. When the previous or preferred expert isn't available, assignments automatically go to the next best qualified expert, so service levels and reliability stay consistent. This capability reduces repeat explanations, speeds up resolution times, and improves customer satisfaction. It helps businesses lower the cost to serve while delivering more consistent, personalized support experiences at scale.
 
-Administrators define assignment logic by using natural language playbooks through conversation orchestration. You can configure the precedence order and the look back period with conditions based on context variables by using playbooks in conversation orchestration. Learn more in [Configure conversation orchestration using AI-powered playbooks (preview)](/dynamics365/contact-center/administer/configure-conversation-orchestration).
+Administrators define assignment logic by using natural language playbooks through conversation orchestration. You can configure the precedence order and the look back period with conditions based on context variables by using the **Assign to a previous or preferred expert** playbook in conversation orchestration. Learn more in [Configure conversation orchestration using AI-powered playbooks](/dynamics365/contact-center/administer/configure-conversation-orchestration).
 
 You must configure preferred representatives if you want to configure assignment to a preferred expert by using playbooks through conversation orchestration.
 
@@ -205,7 +203,7 @@ The system runs as follows:
 
 ## Keep the same expert for returning asynchronous chats with active conversation limit and presence status checks
 
-[Representative affinity](create-workstreams.md#representative-affinity) reconnects a returning customer with the representative who previously handled their conversation, so the customer keeps the same expert across visits and doesn't have to repeat context. For asynchronous messaging channels, a returning customer can come back after the original conversation moves to a waiting state. The active conversation limit and presence status checks work together so that returning asynchronous chats reconnect to the previous representative reliably. Configure this behavior for queues where representative affinity is enabled by using conversation orchestration playbooks.
+[Representative affinity](create-workstreams.md#representative-affinity) reconnects a returning customer with the representative who previously handled their conversation, so the customer keeps the same expert across visits and doesn't have to repeat context. For asynchronous messaging channels, a returning customer can come back after the original conversation moves to a waiting state. The active conversation limit and presence status checks work together so that returning asynchronous chats reconnect to the previous representative reliably. Configure this behavior for queues where representative affinity is enabled by using the **Keep the same expert for async chats** playbook in conversation orchestration.
 
 ### How active conversation limit works
 
@@ -249,7 +247,7 @@ Create the **Keep the same expert for async chats** playbook.
 
 You can view the diagnostics information by using a custom query. Learn more in [Sample queries and dashboards](/dynamics365/guidance/resources/conversation-diagnostics-sample-queries#conversation-orchestration).
 
-### Related information
+## Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure queues](queues-omnichannel.md)  
