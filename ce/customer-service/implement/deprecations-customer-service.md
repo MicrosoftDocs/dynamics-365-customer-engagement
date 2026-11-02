@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: concept-article
-ms.date: 09/14/2026
+ms.date: 11/02/2026
 ms.custom: bap-template
 ms.collection:
 ---
@@ -27,7 +27,7 @@ We recommend that you use [forecast scenarios in workforce engagement management
 
 ## Apple Messages for Business channel is deprecated
 
-Effective July 17, 2026, the Apple Messages for Business channel is deprecated. It will be removed from Copilot Service admin center on September 30, 2026. Alternative channel integration options are available. Contact Microsoft Support if you need help.
+Effective July 17, 2026, the Apple Messages for Business channel is deprecated. Microsoft will remove it from Copilot Service admin center at a future date. Alternative channel integration options are available. Contact Microsoft Support if you need help.
 
 ## Customer support swarming is deprecated
 
