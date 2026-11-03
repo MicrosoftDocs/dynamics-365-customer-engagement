@@ -1,7 +1,7 @@
 ---
 title: Licenses and storage FAQs
 description: Discover answers to common questions about licenses and storage.
-ms.date: 01/27/2026
+ms.date: 11/03/2026
 ms.topic: troubleshooting
 author: lavanyakr01
 ms.author: lavanyakr
@@ -32,6 +32,9 @@ Depending on your license type, you can use either use the Sales Hub app or the 
 
 To assign licenses to users, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
+## Are there any changes to Sales Insights licensing?
+
+Licensing options for Sales Insights features have changed. While Sales Insights features remain available, review your Dynamics 365 Sales license based on [this announcement](https://portal.prod.iridias.microsofticm.com/messagecenter?id=1502773) and contact your Microsoft account team or partner for guidance. For applicable commercial licensing terms and use rights, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 ## FAQs about Copilot credits bundled with specific Dynamics 365 Sales licenses
 

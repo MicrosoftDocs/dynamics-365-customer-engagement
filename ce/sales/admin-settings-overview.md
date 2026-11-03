@@ -1,7 +1,7 @@
 ---
 title: Admin settings overview
 description: Admin settings provide an organized and unified experience for administrators to easily configure the Dynamics 365 Sales app from a single place.
-ms.date: 10/26/2026
+ms.date: 11/03/2026
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
@@ -40,6 +40,9 @@ For quick access, the search box saves and displays the five most recent setting
 The **App Settings** page displays notifications about the latest updates to keep you informed about new features and settings that can enhance your use of the app.
 
 ## Sales Insights settings
+
+> [!NOTE]
+> Licensing options for Sales Insights features have changed. While Sales Insights features remain available, review your Dynamics 365 Sales license based on [this announcement](https://portal.prod.iridias.microsofticm.com/messagecenter?id=1502773) and contact your Microsoft account team or partner for guidance. For applicable commercial licensing terms and use rights, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 The Sales Insights settings include settings for standard and premium sales insights features such as sales accelerator, email engagement, relationship intelligence, and predictive scoring.
 

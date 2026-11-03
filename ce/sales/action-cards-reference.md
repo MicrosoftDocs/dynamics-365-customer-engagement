@@ -35,9 +35,6 @@ The following cards are available under **Upcoming meetings**.
 | [Meeting today](#MeetingToday) | [Upcoming meeting](#UpcomingMeeting)| [Related news](#RelatedNEWS) |
 | [Nearby customers](#NearbyCustomers) |||
 
->[!NOTE]
->The standard insight card types are available to you with the Sales Enterprise license.
-
 |Insight card	| Type | Description | 
 |-------------|------|-------------|
 |<a name="MeetingToday"></a>**Meeting today** <br/>  ![Insight card for meeting today](media/ActionCard_MeetingToday.png "Insight card for meeting today")| Standard |**Description**:<br>Tells that you have a meeting scheduled for today. <br>The **Meeting Today** card is derived from your appointments in the Dynamics 365 Sales organization.<br>**Features**:<br>Shows the meeting title, with a link to the meeting record. Shows the meeting description, location, start time, and key participants. Open the detailed view to see the regarded entity and a collection of closely related insight cards, including relevant people, companies, opportunities, nearby customers, news, and more.<br>**Actions**: <br>Open Appointment<br>Email Attendees|

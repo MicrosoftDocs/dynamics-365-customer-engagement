@@ -1,7 +1,7 @@
 ---
 title: Enable and configure Sales Insights
 description: Learn how to enable and configure Sales Insights capabilities in your organization.
-ms.date: 02/27/2026
+ms.date: 11/03/2026
 ms.collection: get-started
 ms.topic: how-to
 author: lavanyakr01
@@ -9,6 +9,9 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
 # Enable and configure Sales Insights features 
+
+> [!NOTE]
+> Licensing options for Sales Insights features have changed. While Sales Insights features remain available, review your Dynamics 365 Sales license based on [this announcement](https://portal.prod.iridias.microsofticm.com/messagecenter?id=1502773) and contact your Microsoft account team or partner for guidance. For applicable commercial licensing terms and use rights, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 Help your sales team focus on the right opportunities, build stronger customer relationships, and move deals forward with Dynamics 365 Sales Insights. AI-powered insights help sellers prioritize leads and opportunities, identify relationship risks, and take timely action. Automation reduces routine work, while conversation intelligence gives managers insights to coach sellers more effectively.
 
