@@ -25,7 +25,7 @@ The following prerequisites are required to use the sales skills packaged in the
 - Ensure that the Sales app is installed and available for your organization. The app includes the Sales plugin for Copilot Cowork and is automatically installed for eligible organizations and users based on their license. Learn more in [Automatic installation for eligible Dynamics 365 users](/microsoft-sales-copilot/install-sales-app#automatic-installation-for-eligible-dynamics-365-users).
 - Ensure that the **Sales** plugin and the **Dynamics 365 Sales MCP** component aren't blocked in the Microsoft 365 admin center, under **Agents** > **Tools**.
   :::image type="content" source="media/unblock-sales-plugin.png" alt-text="Screenshot of the Sales plugin in Microsoft 365 admin center.":::
-  
+- Ensure that the **Copilot Cowork, Copilot Code, and Microsoft Scout** toggle is enabled in Sales agent administrator settings. Learn more in [Allow access to Dynamics 365 Sales plugins](/microsoft-sales-copilot/access-settings-apps?branch=main#allow-access-to-dynamics-365-sales-plugins)
 
 **For users:**
 
