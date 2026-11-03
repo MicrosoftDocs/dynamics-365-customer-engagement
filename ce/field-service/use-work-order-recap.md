@@ -1,7 +1,7 @@
 ---
 title: Summarize work orders with Copilot in Field Service
 description: Generate a work order summary with Copilot in Dynamics 365 Field Service to quickly understand work order status and next steps.
-ms.date: 06/12/2026
+ms.date: 11/03/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jasonccohen
@@ -31,7 +31,7 @@ The content of a summary isn't saved. It's only available to the user who genera
 
 - **Completed**, **Posted**, and **Canceled**: The core information in all summaries includes a recap of costs and prices and, for completed and posted work orders, invoice details.
 
-Watch this brief video to learn more about the new work order experience in Field Service, including work order summaries:
+To learn more about the new work order experience in Field Service, including work order summaries, watch the following brief video:
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=bfce9329-2bdc-461c-bd57-1458e237524a]
 
@@ -42,13 +42,13 @@ Watch this brief video to learn more about the new work order experience in Fiel
 
 Open a [work order form](work-order-experience.md) or a booking record.
 
-- To generate a summary, select **Generate** in the **Copilot** control.
+- Select **Generate** in the **Copilot** control to generate a summary.
 
-- To refresh the summary, select **Regenerate** in the **Copilot** control.
+- Select **Regenerate** in the **Copilot** control to refresh the summary.
 
 ## Send feedback
 
-Use the like and dislike buttons in the Copilot control to provide feedback and, optionally, more context about your preferences. Your feedback helps us understand if the summary is useful and why.
+Use the like and dislike buttons in the **Copilot** control to provide feedback and, optionally, more context about your preferences. Your feedback helps us understand if the summary is useful and why.
 
 ## Related information
 

@@ -1,7 +1,7 @@
 ---
 title: Enable work order summary with Copilot in Field Service
 description: Use Copilot in Field Service to generate AI-powered work order summaries, quickly understand work order status, and take the next steps.
-ms.date: 06/15/2026
+ms.date: 11/03/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jasonccohen
@@ -48,7 +48,7 @@ The default summary includes the following data fields from work orders and rela
 
 ## Summary configuration
 
-Copilot in Field Service provides predefined summaries that are optimized for specific tables. With summary configuration, administrators can replace the default summaries by configuring their own to tailor to their business needs.
+Copilot in Field Service provides predefined summaries that are optimized for specific tables. By using summary configuration, administrators can replace the default summaries by configuring their own to tailor to their business needs.
 
 You need to configure the summary for the *bookable resource booking* and *work order* tables separately.
 
