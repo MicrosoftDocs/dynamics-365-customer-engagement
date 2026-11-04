@@ -1,7 +1,7 @@
 ---
 title: Field Service integration with finance and operations applications
 description: Synchronize inventories and budgeting items between Dynamics 365 Field Service and finance and operations applications.
-ms.date: 09/01/2026
+ms.date: 11/03/2026
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -160,13 +160,13 @@ The integration introduces new fields and hides other fields.
 
 ### Work order field changes
 
-The integration adds a virtual table lookup field called **F&O Project** that filters based on the relevant company/legal entity and whether the project is in a state where transactions can occur. The integration hides the **Billing Account** field since it isn't relevant when a finance and operations integration is selected.
+The integration adds a virtual table lookup field called **F&O Project** that filters based on the relevant company and legal entity and whether the project is in a state where transactions can occur. The integration hides the **Billing Account** field since it isn't relevant when a finance and operations integration is selected.
 
-When a user is selecting a project, the project lookup filters show projects with the following parameters:
+When a user selects a project, the project lookup filters show projects with the following parameters:
 
-- The project must be for the same customer as the work order's service account.
-- The project must be for the same legal entity as the work order’s service account.
-- The project must be in a stage that allows journal creation.
+- The project is for the same customer as the work order's service account.
+- The project is for the same legal entity as the work order’s service account.
+- The project is in a stage that allows journal creation.
 
 ### Work order product field changes
 
