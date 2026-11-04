@@ -3642,7 +3642,7 @@
     },
     {
       "source_path": "ce/outlook-app/whats-new.md",
-      "redirect_url": "/dynamics365/release-plans",
+      "redirect_url": "/dynamics365/get-started/whats-new/",
       "redirect_document_id": "false"
     },
     {
@@ -14132,7 +14132,7 @@
     },
     {
       "source_path": "ce/admin/readme-9.md",
-      "redirect_url": "/dynamics365-release-plan/2019wave2/",
+      "redirect_url": "/dynamics365/get-started/whats-new/",
       "redirect_document_id": "false"
     },
     {
@@ -14147,7 +14147,7 @@
     },
     {
       "source_path": "ce/admin/release-history.md",
-      "redirect_url": "/dynamics365-release-plan/2019wave2/",
+      "redirect_url": "/dynamics365/get-started/whats-new/",
       "redirect_document_id": "false"
     },
     {
