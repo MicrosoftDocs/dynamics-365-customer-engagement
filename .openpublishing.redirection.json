@@ -36312,6 +36312,11 @@
       "source_path": "ce/customer-service/administer/enable-ask-summarize-cases.md",
       "redirect_url": "/dynamics365/customer-service/administer/extend-copilot-with-copilot-studio",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/sales-research-agent-business-function-builder-troubleshoot.md",
+      "redirect_url": "/dynamics365/sales/sales-research-agent-business-function-builder",
+      "redirect_document_id": false
     }
   ]
 }

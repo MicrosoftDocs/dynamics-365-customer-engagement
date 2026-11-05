@@ -953,16 +953,26 @@ items:
                 href: sales-research-agent.md
               - name: Provide context to the agent
                 href: sales-research-agent-provide-context.md
-              - name: Define business functions
+              - name: Business functions
                 items:
-                  - name: Business functions overview
+                  - name: Business function overview
                     href: sales-research-agent-business-function-builder.md
-                  - name: Create business functions with Business Function Builder (preview)
+                  - name: Create business functions (preview)
                     href: sales-research-agent-business-function-builder-create.md
+                  - name: Evaluate a business function (preview)
+                    href: sales-research-agent-business-function-builder-evaluate.md
+                  - name: Create and manage starter prompts (preview)
+                    href: sales-research-agent-starter-prompts.md
                   - name: Share business functions (preview)
                     href: sales-research-agent-business-function-builder-share.md
-                  - name: Troubleshoot business functions
-                    href: sales-research-agent-business-function-builder-troubleshoot.md
+              - name: Default blueprints
+                items:
+                  - name: Default blueprints overview (preview)
+                    href: sales-research-agent-default-blueprints.md
+                  - name: Create a default blueprint for a starter prompt (preview)
+                    href: sales-research-agent-default-blueprints-author.md
+                  - name: Run a starter prompt with a default blueprint (preview)
+                    href: sales-research-agent-default-blueprints-use.md
               - name: Connect the agent to different data sources
                 href: sales-research-agent-connect-data.md
               - name: Connect the agent to Microsoft Fabric Lakehouse (preview)
@@ -1840,4 +1850,3 @@ items:
         href: ../sales-professional/help-hub.md
   - name: Contribute to documentation
     href: /dynamics365/get-started/contribute?context=/dynamics365/context/sales-context
-
