@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 09/29/2026
+ms.date: 11/05/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -39,7 +39,7 @@ This article explains how to configure connection references for AI agents that 
     
 6. [!INCLUDE[cc-publish-agent](../../includes/qea/cc-publish-agent.md)]. For Customer Knowledge Management Agent flow, the agent in Copilot Studio is **CustomerServiceKnowledgeHarvest**.
 
-## Set up connection references for Quality Evaluation Agent
+## Set up connection references for quality evaluation
 
 [!INCLUDE[cc-connection-reference](../../includes/qea/cc-connection-reference.md)]
 3. Search for the following connection references. Authenticate the connection references using an administrator account to enable the AI agent to access data sources. 

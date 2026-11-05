@@ -7,7 +7,7 @@ ms.reviewer: sdas
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
-ms.date: 09/23/2026
+ms.date: 11/05/2026
 ms.custom: bap-template
 ---
 
@@ -61,6 +61,7 @@ Administrators can:
 
 ## Related information
 
+[Overview of Quality management](/dynamics365/contact-center/use/overview-quality-management)  
 [Use governance policies](../use/use-governance-policies.md)  
 [Use evaluation criteria](/dynamics365/contact-center/use/evaluation-criteria)  
 [Use evaluations](/dynamics365/contact-center/use/use-evaluations)  

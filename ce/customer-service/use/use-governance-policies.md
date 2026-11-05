@@ -7,13 +7,17 @@ ms.reviewer: sdas
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
-ms.date: 10/26/2026
+ms.date: 11/02/2026
 ms.custom: bap-template
 ---
 
 # Use governance policies
 
-Use governance policies to evaluate email content against your organization's requirements before emails are sent. Depending on the policy settings, the system records violations, displays a warning, or prevents sending.
+Use governance policies to evaluate email content against your organization's requirements before sending emails. Depending on the policy settings, the system records violations, displays a warning, or prevents the email from being sent.
+
+Governance is a capability within Quality management, which also includes evaluating customer interactions, governing outgoing communications, and capturing interaction context through screen and call recording.
+
+Quality Evaluation Agent powers the governance capabilities. Learn more in [Overview of Quality Management](/dynamics365/contact-center/use/overview-quality-management).
 
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. It isn't intended to be used, and shouldn't be used, to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. <br> 
