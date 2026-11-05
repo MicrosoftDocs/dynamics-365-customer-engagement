@@ -1,7 +1,7 @@
 ---
 title: Set up notifications for the Field Service portal
 description: Learn how to set up notifications to keep your customers current on their bookings and appointments.
-ms.date: 10/16/2025
+ms.date: 11/04/2026
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher

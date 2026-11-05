@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service portal overview
-description: Learn how customers can manage their upcoming service visits with customer experience portals in Field Service.
-ms.date: 10/15/2025
+description: Dynamics 365 Field Service portal helps customers book, reschedule, and cancel service visits online. Learn how to enable self-service scheduling.
+ms.date: 11/04/2026
 ms.topic: overview
 author: mkelleher-msft
 ms.author: mkelleher

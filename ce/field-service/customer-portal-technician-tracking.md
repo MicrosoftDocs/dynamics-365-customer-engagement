@@ -1,7 +1,7 @@
 ---
 title: Track a technician on the Field Service portal
-description: Send customers information about a technician's location for their upcoming service appointment in the Power Pages portal for Dynamics 365 Field Service.
-ms.date: 10/16/2025
+description: Send customers information about a technicians location for their upcoming service appointment in the Power Pages portal for Dynamics 365 Field Service.
+ms.date: 11/04/2026
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher

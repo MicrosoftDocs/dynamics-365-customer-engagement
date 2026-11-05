@@ -1,7 +1,7 @@
 ---
 title: Schedule board tab settings
 description: Learn how to use schedule board tab settings in Dynamics 365 Field Service to change the layout and functions of schedule board tabs.
-ms.date: 09/22/2026
+ms.date: 10/22/2026
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
@@ -21,7 +21,7 @@ ms.reviewer: puneetsingh
 
 ## Improve schedule board performance
 
-Some tab settings increase the amount of data the board loads, which can slow it down. To keep the board responsive, display no more than 25 to 50 resources per tab (use a [territory](set-up-territories.md) or other filters) and keep the date range small by lowering **Number of days displayed in hours view**. Learn more in [Troubleshoot schedule board performance](/troubleshoot/dynamics-365/field-service/scheduling/schedule-board-performance).
+Some tab settings increase the amount of data the board loads, which can slow it down. To keep the board responsive, display no more than 25 to 50 resources per tab (use a [territory](set-up-territories.md) or other filters) and keep the date range small by lowering **Number of days displayed in hours view**. Learn more in [Too many resources displayed](/troubleshoot/dynamics-365/field-service/scheduling/schedule-board-performance#cause-too-many-resources-displayed) and [Excessive date range](/troubleshoot/dynamics-365/field-service/scheduling/schedule-board-performance#cause-excessive-date-range).
 
 ## Related information
 

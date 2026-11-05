@@ -1,7 +1,7 @@
 ---
 title: Schedule a standard work order
 description: End-to-end walkthrough of the most common scheduling workflow in Dynamics 365 Field Service - one technician, one work order.
-ms.date: 05/26/2026
+ms.date: 10/22/2026
 ms.custom: bap-template
 ms.topic: how-to
 author: mkelleher-msft
@@ -34,6 +34,8 @@ When you create a work order, the system automatically generates a resource requ
 
 Learn more in [Requirement types](scheduling-requirement-types.md) and [Time constraints and promise windows](schedule-time-constraints.md).
 
+> [!TIP]
+> If the requirement doesn't appear on the schedule board, see [Work order doesn't appear on the schedule board](universal-resource-scheduling-for-field-service.md#work-order-doesnt-appear-on-the-schedule-board).
 ## Step 2: Find the right resource
 
 You have several options to match the requirement to a resource.

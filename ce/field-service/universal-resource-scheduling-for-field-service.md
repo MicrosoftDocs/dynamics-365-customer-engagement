@@ -1,11 +1,12 @@
 ---
 title: Universal Resource Scheduling for Dynamics 365 Field Service overview
 description: Learn all about Universal Resource Scheduling for Dynamics 365 Field Service
-ms.date: 08/05/2026
+ms.date: 10/22/2026
 ms.custom: bap-template
 ms.topic: overview
 author: mkelleher-msft
 ms.author: mkelleher
+ai-usage: ai-assisted
 ---
 
 # Universal Resource Scheduling for Dynamics 365 Field Service overview
@@ -55,6 +56,16 @@ Requirements inherit attributes from the work order, such as name, location, dur
 After a work order and related requirement are ready for scheduling, dispatchers book the requirement to the most appropriate resource.
 
 Booking a requirement related to a work order creates a *Bookable Resource Booking* record. That record keeps track of which resource does the work, the status of the booking, travel time, and start/end times.
+
+### Work order doesn't appear on the schedule board
+
+The schedule board shows requirements, not work orders. If a work order doesn't appear in the requirements pane, check the following causes.
+
+| Cause | How to check | Resolution |
+|---|---|---|
+| The work order has no active requirement | On the work order, select **Related** > **Resource Requirements**. Check that a requirement exists and that it's active. | Update a scheduling field on the work order, such as **Priority**, **Service Territory**, or **Time Window Start**, and save it. The system creates a new requirement. This step doesn't apply if the work order's primary incident type uses a requirement group. |
+| The requirement is owned by the SYSTEM user | Open the requirement and check the **Owner** field. | Assign the requirement to a user or team. Version [8.8.146.43](version-history.md#8814643) fixes the issue that created requirements owned by SYSTEM. |
+| Filters hide the requirement | On the schedule board, clear the requirements pane filters and check whether the requirement appears. | Adjust the filters, or set the requirement's **Territory** to one that the board tab includes. |
 
 ## Scheduling personas
 

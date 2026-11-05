@@ -1,7 +1,7 @@
 ---
 title: Use the schedule board in Field Service
 description: Learn about the schedule board experience in Dynamics 365 Field Service.
-ms.date: 09/16/2026
+ms.date: 10/22/2026
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
@@ -68,7 +68,7 @@ The schedule board uses each resource's work hour calendar to show available (co
 |---|---|---|
 | Days appear grayed out when the resource should be working | A business closure or time-off entry overlaps with working hours | Open the resource's **Work Hours** tab and check for conflicting calendar rules. Remove or adjust overlapping entries. |
 | All time slots are grayed out | No working hours are defined for the resource, or the work hours recurrence ended | Open the resource's **Work Hours** tab, verify that working hours exist, and ensure the recurrence covers the date range shown on the board. |
-| Work hours appear shifted by several hours | Time zone mismatch between the resource's work hours and the schedule board view | Verify the time zone set on the resource's work hours matches the resource's actual location. Also check the schedule board's [time zone setting](schedule-board-tab-settings.md). |
+| Work hours appear shifted by several hours | Time zone mismatch between the resource's work hours and the schedule board view, or a daylight saving time (DST) transition | Verify the time zone set on the resource's work hours matches the resource's actual location. Also check the schedule board's [time zone setting](schedule-board-tab-settings.md). If the shift starts on a DST change date, see [Daylight saving time transition](/troubleshoot/dynamics-365/field-service/scheduling/schedule-board-nan-datetime#cause-daylight-saving-time-dst-transition). |
 | Resource shows available on holidays | Business closures aren't applied to the resource's calendar | In the resource's **Work Hours** tab, select **New** > **Non-working** and add the applicable closure dates. |
 
 Learn more about setting up work hours in [Set up bookable resources](set-up-bookable-resources.md#add-work-hours).
