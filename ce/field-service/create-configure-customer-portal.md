@@ -1,7 +1,7 @@
 ---
 title: Create and configure the Field Service portal
-description: Learn how to set up and configure the Field Service portal.
-ms.date: 10/17/2025
+description: Field Service portal setup lets admins create a Power Pages customer experience, configure scheduling, authentication, notifications, and branding.
+ms.date: 11/04/2026
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
