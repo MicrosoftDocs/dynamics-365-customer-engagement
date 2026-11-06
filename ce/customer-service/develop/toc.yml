@@ -249,6 +249,8 @@
         items: 
         - name: Integrate Case Management Agent with custom Copilot Studio agents 
           href: case-management-agent-integration.md
+        - name: Customize Case Management Agent email drafts
+          href: customize-case-management-agent-email-drafts.md
         - name: Use the email classification custom action
           href: use-email-classification-custom-action.md
         - name: Use case field prediction API 

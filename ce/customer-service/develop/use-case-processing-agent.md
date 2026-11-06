@@ -6,9 +6,10 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot 
-ms.date: 09/15/2025
+ms.date: 11/06/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Use msdyn_invokeCaseProcessingAgent to invoke Case Management Agent
@@ -36,16 +37,29 @@ POST [Organization URI]/api/data/v9.2/msdyn_invokeCaseProcessingAgent
 | Property                | Type                    | Required | Description |
 |-------------------------|-------------------------|----------|-------------|
 | **msdyn_incidentId**    | String             | Yes      | The ID of the case (incident) on which Case Management Agent should run.<br>Example: `"3895d023-a353-f011-877b-6045bd062e87"` |
-| **msdyn_actions**       | Stringified JSON array  | Yes      | Defines which Case Management Agent actions/capabilities to perform. See details below. |
+| **msdyn_actions**       |JSON array serialized as a string | Yes      | Defines which Case Management Agent actions and capabilities to perform. See details in the following section. |
+| `msdyn_extraParams` | JSON object serialized as a string| No | Provides additional context and invocation options. See [Additional parameters](#additional-parameters). |
+
+Pass `msdyn_actions` and `msdyn_extraParams` as JSON stored in strings, not as JSON arrays or objects in the request body.
 
 ### msdyn_actions array object
 
 | Property                | Type   | Required | Description |
 |-------------------------|--------|----------|-------------|
 | **action**              | String  | Yes | Defines the case processing action to run.<br>Values: <ul><li>**resolve**: Resolve the case using the resolution capabilities of Case Management Agent.</li><li> **enrich**: Extracts information from a source entity, such as an email, and updates the case with relevant details.<br> The source entity must be accessible and contain relevant case information</li></ul> |
-| **automationLevel**      | String | No | Defines automation mode for the action. This applies to case resolution only. If this value isn't provided, the agent uses the mode configured by the administrator.<br>Values: <ul><li>**Full**: AI agent resolves the case automatically without customer service representative (service representative or representative) intervention.</li>, <li>**Semi**: AI agent drafts resolution emails but requires service representative's review and approval</li></ul> |
+| **automationLevel** | String | No | For normal invocations, Case Management Agent uses the automation mode configured by the administrator, not the `Full` or `Semi` value supplied here. If `msdyn_extraParams.requestProcessed` is `true`, the action payload is used as supplied instead of being updated from the configured settings. |
 | **sourceContextEntity** | String | Yes | This is a required value for case enrichment and optional for case resolution. The source entity, such as an email or a conversation that must be used to update the case.<br>Example: `"emails(0e20cf92-f663-f011-bec1-000d3a3622ba)"` |
+| `customAgentOutput` | JSON object serialized as a string | No | For `resolve`, supplies the output of a custom agent in an asynchronous callback. The object uses the [custom-agent output contract](case-management-agent-integration.md#output-contract), including `responseType`, `message`, `handlingOptions`, `customAgentName`, and `templateId`. |
 
+### Additional parameters
+
+The `msdyn_extraParams` object supports the following properties.
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `additionalInformation` | Array of objects | No | Provides information from an external system for intent detection. Each object contains a `key` to identify the information, a `value` with the content, and a `keyDescription` that explains what the content represents. All three properties are strings. |
+| `triggerReason` | String | No | Identifies why the agent is invoked. For example, use `customAgentCallback` when a custom agent calls back into Case Management Agent. |
+| `refreshIntentFamily` | Boolean | No | When `true`, determines the intent family again by using the rule engine instead of the cached `msdyn_intententity` record. Applies only when the `RefreshIntentFamilyInCMAFlow` feature switch is enabled. |
 
 ### Sample request
 
@@ -65,7 +79,7 @@ POST [Organization URI]/api/data/v9.2/msdyn_invokeCaseProcessingAgent
 
 ## Sample code
 
-In the example below, you can invoke Case Management Agent from Dataverse plugins or custom code by executing the `msdyn_invokeCaseProcessingAgent` organization request. The agent is used to update the case using a related email entity and then resolve the case with full automation.
+In the following example, you invoke Case Management Agent from Dataverse plugins or custom code by running the `msdyn_invokeCaseProcessingAgent` organization request. The agent updates the case by using a related email entity, and then it processes case resolution by using the administrator-configured automation mode.
 
 
 ### Example 1
@@ -151,7 +165,7 @@ void Main()
 function invokeCaseManagementAgent() {
   var data = JSON.stringify({
     "msdyn_incidentId": "020edf2f-7d3f-4a69-bd26-030736604eeb",
-    "msdyn_actions": "[{\"action\":\"enrich\",\"sourceContextEntity\":\"emails(0e20cf92-f663-f011-bec1-000d3a3622ba)\"},{\"action\":\"resolve\",\"automationMode\":\"Full\"}]"
+    "msdyn_actions": "[{\"action\":\"enrich\",\"sourceContextEntity\":\"emails(0e20cf92-f663-f011-bec1-000d3a3622ba)\"},{\"action\":\"resolve\",\"automationLevel\":\"Full\"}]"
   });
   var xhr = new XMLHttpRequest();
   xhr.withCredentials = true;
@@ -168,4 +182,46 @@ function invokeCaseManagementAgent() {
 }
 
 invokeCaseManagementAgent();
+```
+
+### Provide extra information from an external system
+
+Use `additionalInformation` to give context, such as attachment content or warranty status, for intent detection. This Web API request sends both parameters as stringified JSON.
+
+```json
+{ 
+
+  "msdyn_incidentId": "00000000-0000-0000-0000-000000000000", 
+  "msdyn_actions": [ 
+    { "action": "resolve", "sourceContextEntity": "emails(<email-guid>)" } 
+  ], 
+  "msdyn_extraParams": { 
+    "triggerReason": "customAgentCallback", 
+    "additionalInformation": [ 
+      { "key": "attachmentContent", "value": "This is my attachment content", 
+        "keyDescription": "File attachment content in natural language" }, 
+      { "key": "warrantyStatus", "value": "Fulfilled", 
+       "keyDescription": "Current warranty fulfillment status" } 
+    ] 
+  } 
+} 
+```
+
+### Return an asynchronous custom-agent result
+
+When a custom agent returns `Wait`, Case Management Agent becomes idle while the custom agent does asynchronous work. To continue processing, call `msdyn_invokeCaseProcessingAgent` with a `resolve` action and a `customAgentOutput` value whose `responseType` isn't `Wait`. For the integration workflow, see [How the integration works](case-management-agent-integration.md#how-the-integration-works).
+
+The following Web API request sends `customAgentOutput` as a JSON string inside the stringified `msdyn_actions` array. Replace the case ID, agent schema name, and template ID with values from your environment.
+
+```json
+{ 
+
+  "msdyn_incidentId": "<case-guid>", 
+  "msdyn_actions": [ { 
+    "action": "resolve", 
+    "customAgentOutput": { "responseType": "Resolved", "message": "<message>", 
+      "handlingOptions": { "needsReview": "true" }, 
+      "customAgentName": "<agent schema name>", "templateId": "<template-guid>" } 
+  } ] 
+} 
 ```
