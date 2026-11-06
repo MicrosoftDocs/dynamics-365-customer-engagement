@@ -2,7 +2,7 @@
 title: Filter resources and requirements on the schedule board in Universal Resource Scheduling
 description: Learn how to filter resources and requirements on the schedule board in Universal Resource Scheduling.
 ms.subservice: common-scheduler
-ms.date: 04/24/2026
+ms.date: 11/06/2026
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher

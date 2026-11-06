@@ -47,6 +47,8 @@ To show more options, right-click a resource's name:
 
 The requirement pane shows unscheduled requirements. Select a requirement and select **Find availability** to launch the [schedule assistant](../../field-service/schedule-assistant.md), which lists available and matching resources.
 
+Use the search box to find requirements in the selected requirement pane. By default, the search matches requirement names that start with your search text. Use an asterisk (`*`) as a placeholder for any characters. The asterisk's position determines where your search text matches. For example, enter `*123` to find names that end with `123`, or enter `*123*` to find names that contain `123` anywhere.
+
 > [!NOTE]
 > Filtering isn't supported on the **Owner** column on the *Unscheduled Work Orders* tab.
 
