@@ -19,6 +19,17 @@ The requirement pane shows unscheduled requirements. Each column can be sorted a
 
 Select a single requirement from the requirement pane and select **Find availability** to launch the [schedule assistant](../../field-service/schedule-assistant.md). The schedule assistant lists available and matching resources that you can book for the requirement.
 
+### Search requirements
+
+Use the search box in the selected requirement pane to find requirements by name. By default, the search matches names that start with your search text. For example, enter `123` to find requirement names that start with `123`.
+
+Use an asterisk (`*`) as a placeholder for any characters. Place it before, after, or on both sides of your search text to specify where the text matches in the requirement name:
+
+- Enter `*123` to find names that end with `123`, such as `Work order 123`.
+- Enter `*123*` to find names that contain `123` anywhere, such as `Work order 123 follow-up`.
+
+Choose the search pattern based on the part of the name you know. If you don't know whether the text appears at the beginning, middle, or end of the name, place an asterisk on both sides of the text.
+
 ## Use the map view to find nearby resources
 
 To see resources and requirements on a map, select the **Map view** icon on the schedule board.
