@@ -20,7 +20,7 @@ You can create an instance of the Sales Development agent from either the Micros
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 1. Based on your preference, go to either Microsoft Teams or Microsoft 365 Copilot.
-    - In Microsoft Teams, go to **Store**, go to the **Agents for your team** category, or search for **Sales Development (Frontier)**.
+    - In Microsoft Teams, go to **Store**, go to the **Agent templates** category, or search for **Sales Development (Frontier)**.
     - In Microsoft 365 Copilot, go to **Agents**, scroll to **Agents for your team**, or search for **Sales Development (Frontier)**.
 
 1. Select the agent, and then select **Create instance**.
