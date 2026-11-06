@@ -1,7 +1,7 @@
 ---
 title: Create a Power BI report for the Sales Development agent
 description: Learn how to connect Power BI Desktop to Sales Development agent reporting data and create a custom report.
-ms.date: 09/25/2026
+ms.date: 11/06/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -116,6 +116,79 @@ The following tables describe commonly used fields. A field can be blank if its 
 | `AutoReplyCount` | Number of automatic replies, such as out-of-office messages. |
 | `LastStageReason` | Reason for the most recent stage transition. |
 | `CreatedOn`, `ModifiedOn` | Creation and last-modified dates and times. |
+
+## View engagement context and conversation history
+
+Use the **engagements** table to review an engagement's current stage, recent stage transition, and prospect details. To review individual email messages, expand the nested **Emails** collection in a separate query. Keep the original table for engagement-level metrics.
+
+### View engagement context
+
+1. In Power BI Desktop, select **Transform Data** to open the Power Query Editor, and then select the **engagements** query.
+2. Locate the engagement by its **EngagementId** or the prospect's name and email address. A prospect can have multiple engagements, so use **EngagementId** to identify the specific engagement you want to review.
+3. Review the fields described in the following table.
+
+| Field | Description |
+| --- | --- |
+| Stage | Current engagement stage. |
+| StageStatus | Current stage status. |
+| LastStageFrom | Previous stage in the most recent stage transition. |
+| LastStageTo | New stage in the most recent stage transition. |
+| LastStageReason | Reason for the most recent stage transition. |
+| StageTransitionCount | Number of stage transitions in the engagement. |
+| PlaybookId | Identifier of the playbook associated with the engagement. |
+| InvocationType | Indicates whether the engagement is managed or unmanaged. |
+| CreatedOn | Creation date and time. |
+| ModifiedOn | Last-modified date and time. |
+| ProspectName | Name of the prospect. |
+| ProspectEmail | Email address of the prospect. |
+| CompanyName | Name of the company. |
+| ProductRecommendation | Product used to personalize outreach. |
+| CohortName | Source cohort or uploaded file. |
+| DetectedLocale | Locale detected for the prospect. |
+| Emails | Nested collection of email-history entries. |
+
+If you start from the **prospects** table, use **EngagementId** to find the related record in **engagements**. A queued prospect might not have an engagement yet.
+
+Fields can be blank if the source data isn't available or the relevant event hasn't occurred.
+
+### View conversation history
+
+Create a separate query for email history, and then use it to build a visual for a specific engagement.
+
+> [!IMPORTANT]
+> Expanding **Emails** repeats any retained engagement-level values for each message. Don't sum counters such as **EmailsSentCount** in the expanded query. Use the original **engagements** table for those totals.
+
+1. In the Power Query Editor, right-click the **engagements** query and select **Reference**. Name the new query **ConversationHistory**.
+2. In **ConversationHistory**, keep **EngagementId** and **Emails**, along with any prospect identification fields you need. Remove the other columns.
+3. Select the expand icon in the **Emails** column header:
+   - If the column contains lists, select **Expand to New Rows**, and then expand the resulting records.
+   - If the column contains nested tables, select the message fields to include.
+4. Include the following message fields. If Power Query offers a column-name prefix, clear **Use original column name as prefix** to use the names shown here.
+
+   | Field | Description |
+   | --- | --- |
+   | Subject | Email subject. |
+   | EmailBody | Email body content. |
+   | IsCustomer | `true` for inbound messages; `false` for outbound messages from the agent. |
+   | SenderAddress | Sender's email address, when available. |
+   | RecipientAddress | Prospect's email address for outbound messages. Blank for inbound messages. |
+   | Timestamp | Date and time of the message, when available. |
+   | Sent | `true` for messages that were sent or received; `false` for messages queued for future delivery. |
+
+5. Filter the **Sent** column to keep only `true` values. This filter excludes messages that are still queued.
+6. Select **Close & Apply** to load the query.
+7. In the report model, create a relationship between **ConversationHistory** and **engagements** by using **EngagementId**.
+8. Create a table visual with **Timestamp**, **IsCustomer**, **Subject**, and **EmailBody** from **ConversationHistory**. Filter the visual to a specific **EngagementId**, and sort by **Timestamp** in ascending order to read the messages chronologically.
+
+### Understand data limitations
+
+Consider the following limitations when you interpret or share the data:
+
+- **Queued messages:** Entries where **Sent** is set to **false** currently have no email body or timestamp. These blank values are expected.
+- **Inbound messages:** History can include bounced emails and automatic replies. A count of rows where **IsCustomer** is set to **true** can differ from **EmailsReceivedCount**, which counts only genuine prospect replies.
+- **Custom queries:** If you use an OData **$select** query option, include **Emails** to retain conversation history.
+- **Engagement context:** **LastStageReason** describes only the most recent stage transition. The feed doesn't expose the complete internal engagement-context JSON or the full history of non-email events.
+- **Privacy:** Email subjects and bodies can contain customer content. Store and share reports according to your organization's data-handling policies.
 
 ## Build a starter report
 
