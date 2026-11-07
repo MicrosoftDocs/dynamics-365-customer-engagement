@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: overview
 ms.collection:
-ms.date: 05/08/2026
+ms.date: 11/02/2026
 ms.custom: bap-template
 ---
 
@@ -14,69 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-As new social networks and communication channels rapidly evolve, so do customer expectations on how to reach their favorite brands. Communication via many channels isn't only comfortable but expected, and businesses that seek to provide personalized services are rapidly working to enable support through the channels their customers want to use. 
-
-Adding channels to your business support offering is a powerful way to provide personalized service to customers on the channels of their choice. It's helpful to recognize a common pattern across all channels that are enabled through the application before diving into the implementation of a single channel.
-
-The implementation pattern for the out-of-the-box channels is as follows:
-
-- Establish your account and respective requirements, such as a page and app, with the channel provider. These requirements ensure that you have an entry point with the channel provider through which customers engage.
-- Configure the [workstream](../implement/cs-admin-center.md).
-- Configure the channel in Copilot Service admin center and attach it to the workstream.
-- Populate the exchange of handshake data, such as token and secrets required between the application and the channel provider. The data exchange is done in both places: the Copilot Service admin center app and the channel provider experience.
-
-## License requirements
-
-Specific licensing requirements apply for using SMS, social channels, Microsoft Teams, and custom messaging. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
-
-Apart from Dynamics 365 subscriptions, if you choose to use any non-Microsoft channels, you need to acquire subscriptions from those providers as well.
-
-The following channels are currently available in the application:
-
-## Chat
-
-If you want to help your customers using live chat, you can use the **Chat for Dynamics 365 Customer Service** channel.
-
-To learn more, see [Configure a chat channel](../administer/set-up-chat-widget.md).
-
-## Voice
-
-To address customer issues, you can configure and use the voice channel. More information: [Introduction to the voice channel](../administer/voice-channel.md)
-
-## SMS
-
-If you want to help your customers using SMS, you can use the following SMS channels:
-
-- [SMS through Azure Communication Services](../administer/configure-sms-channel-acs.md)
-- [SMS through Twilio](../administer/Configure-sms-channel-twilio.md)
-
-## Social channels
-
-> [!NOTE] 
-> Support for Apple Messages for Business channel is deprecated. Learn more in [Deprecations](/dynamics365/contact-center/implement/deprecations-contact-center).
-
-If you want to help your customers using social media, you can use the following social channels:
-
-- [Apple Messages for Business](../administer/configure-apple-messages-for-business-channel.md)
-- [Facebook](../administer/configure-facebook-channel.md)
-- [WhatsApp through Twilio](../administer/configure-whatsapp-channel.md)
-- [LINE](../administer/configure-line-channel.md)
-
-## Custom messaging channel
-
-If you want to help your customers using social channels that aren't supported as standard channels, such as Telegram, you can use the custom channels. To learn more, see [Configure custom messaging application](../administer/configure-custom-channel.md).
-
-If you want to help your customers using your line-of-business messaging channels, you can use the [Direct Line](../develop/bring-your-own-channel.md) Bot Framework method.
-
-## Microsoft Teams
-
-If you want to help your customers using a standard collaboration channel, you can use the Microsoft Teams channel.
-
-To learn more, see [Configure Microsoft Teams](../administer/configure-microsoft-teams.md).
-
-## Entity records
-
-If you want to help your customers using standard entity records such as incident, quote, campaign, and so on, you can use the entity records channel.
+[!INCLUDE[cc-channels-overview](~/../contact-center-pr/shared/cc-channels-overview.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

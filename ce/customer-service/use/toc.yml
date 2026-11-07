@@ -276,10 +276,14 @@
           href: facebook.md
         - name: Use WhatsApp channel
           href: whatsapp.md
+        - name: Use LINE channel
+          href: line.md
+        - name: Use custom messaging channels
+          href: custom-messaging.md
         - name: Use Microsoft Teams channel
           href: teams-channel.md
         - name: View social profiles
-          href: supported-channels-social-profiles.md  
+          href: supported-channels-social-profiles.md 
       - name: Agent productivity tools
         items: 
         - name: Productivity pane in Copilot Service workspace

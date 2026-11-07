@@ -1,7 +1,7 @@
 ---
 title: Use Microsoft Teams channel
 description: This article provides an overview of Microsoft Teams channel and incoming chat notifications in the customer service representative dashboard.
-ms.date: 05/08/2026
+ms.date: 11/02/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -12,48 +12,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-When you sign in you can see your work items on the customer service representative dashboard. More information: [View customer service representative dashboard and conversations](oc-agent-dashboard.md)
-
-## Prerequisite
-
-Make sure that your administrator has configured a Teams channel.
-
-## Incoming Teams chat notification
-
-You'll receive a notification when a customer requests a conversation through Teams. When you accept the Teams chat request, a session is started, and you'll see the communication panel in which you can exchange messages with the customer.
-
-
-> [!div class=mx-imgBorder]
-> ![Teams chat representative notification.](../media/incoming-chat-teams.png "Teams chat representative notification")
-
-In the application, you can:
-
-- [View customer information on Active Conversation form](oc-customer-summary.md).
-- [View the communication panel](oc-conversation-control.md).
-- [Use call options and visual engagement in live chat](call-options-visual-engagement.md).
-- [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md).
-- [Manage sessions](oc-manage-sessions.md).
-- [Manage applications](oc-manage-applications.md).
-- Use these productivity tools:
-  - [Use scripts](oc-agent-scripts.md)
-  - [View smart-assist cards](oc-smart-assist.md)
-  - [Use the productivity pane](../administer/productivity-pane.md)
-- [Create a record](oc-create-record.md).
-- [Search, link, and unlink a record](oc-search-link-unlink-record.md).
-- [Search for and share knowledge articles](../oc-search-knowledge-articles.md).
-- [Take notes specific to a conversation](oc-take-notes.md).
-- [Understand conversation states](oc-conversation-state.md).
-- [Manage presence status](oc-manage-presence-status.md).
-- [Search for transcripts](oc-search-transcipts.md).
-- [View conversation and session forms](oc-view-activity-types.md).
-- [View the active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md).
-- [Search for transcripts](oc-search-transcipts.md).
-
-If your administrator has enabled the option to initiate voice and video calls (in preview) during the conversation, the options to use voice and video will be available on the communication panel menu.
-
-### Related information
-
-[Configure a Microsoft Teams channel](../administer/configure-microsoft-teams.md)
+[!INCLUDE[cc-channels-teams](~/../contact-center-pr/shared/cc-channels-teams.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
