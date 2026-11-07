@@ -5,10 +5,11 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to
-ms.date: 10/16/2026
+ms.date: 11/06/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
 ms.collection: bap-ai-copilot
+ai-usage: ai-assisted
 ---
 
 # Manage Copilot features in Customer Service
@@ -28,7 +29,7 @@ This article helps administrators:
 
 Copilot features in Dynamics 365 Customer Service are powered by Microsoft 365 Copilot and exposed in Customer Service apps such as Copilot Service workspace. Copilot features use customer service data, such as cases, customer records, and interactions, to help representatives retrieve information, generate responses, and complete actions without leaving their workflow.
 
-Some Copilot capabilities are delivered through Copilot agents, such as Service Agent. These agents extend Copilot with customer service–specific functionality that helps representatives summarize cases, retrieve knowledge, and perform actions.
+Some Copilot capabilities are delivered through Copilot agents, such as Service Agent and Customer Intent Agent. These agents extend Copilot with customer service–specific functionality that helps representatives summarize cases, retrieve knowledge, and perform actions. Some agents can also show recommended actions in the Copilot pane. The actions that appear depend on the agent features you enable and not just the Copilot experience you turn on.
 
 You manage Copilot features in two admin centers:
 
@@ -49,6 +50,7 @@ Use the following table to find the setting that controls what you want to do. T
 | Accept the terms and continue setup | Copilot Service admin center | **Support experience** > **Productivity** > **Copilot settings**, or **Operations** > **Insights** > **Summaries** > **Opt in** | [Opt in to Copilot features](#opt-in-to-copilot-features) |
 | Stop using Copilot features | Copilot Service admin center | **Support experience** > **Productivity** > **Copilot settings**, or **Operations** > **Insights** > **Summaries** | [Opt out of Copilot features](#opt-out-of-copilot-features) |
 | Choose Copilot immersive or Copilot side pane for representatives | Copilot Service admin center | **Support experience** > **Productivity** > **Copilot settings** > **Manage** | [Configure Copilot experiences for representatives](#configure-copilot-experiences-for-representatives) |
+| Enable next best actions with Customer Intent Agent | Copilot Service admin center | **Support experience** > **Productivity** > **Intent-based suggestions** > **Manage** | [Enable next best actions with Customer Intent Agent](#enable-next-best-actions-with-customer-intent-agent) |
 | Control which representatives get which Copilot features in Copilot Service workspace | Copilot Service admin center | Experience profiles | [Make Copilot available to representatives](#make-copilot-available-to-representatives) |
 | Configure Copilot behavior, email settings, and prompts for representatives | Copilot Service admin center | **Agents within Copilot** > **Customer Support** > **Settings** | [Configure Customer Support agent settings](#configure-customer-support-agent-settings) |
 | Manage admin prompts, user access, and tools and knowledge for administrators | Copilot Service admin center | **Agents within Copilot** > **Admin Management** > **Settings** | [Configure Admin Management agent settings](#configure-admin-management-agent-settings) |
@@ -174,6 +176,12 @@ Learn more in [Add users to experience profiles](add-profile-default.md).
    - **Copilot side pane**
 1. Save your changes.
 
+## Enable next best actions with Customer Intent Agent
+
+Next best actions use Customer Intent Agent to recommend next steps for a case in the Copilot pane. After a case is created or updated, the agent analyzes the case context, such as emails and notes, and suggests actions that help representatives follow up with the customer, review a draft response, or resolve the case.
+
+To use next best actions, turn them on from the **Intent-based suggestions** page in Copilot Service admin center and add them to your representatives' experience profiles. Learn more in [Enable intent-based suggestions and next best actions](/dynamics365/contact-center/administer/enable-intent-for-service-reps#enable-intent-based-suggestions-and-next-best-actions).
+
 ## Configure Customer Support agent settings
 
 To manage how Copilot behaves for your representatives, configure the **Customer Support** agent.
@@ -260,6 +268,7 @@ After you complete setup, verify that Copilot works as expected.
 1. Confirm that the Copilot experiences you want (**Copilot immersive**, **Copilot side pane**, or both) are selected.
 1. Confirm that the representatives you're testing with are assigned to an experience profile that has Copilot features turned on.
 1. Sign in to Copilot Service workspace as a test representative, open a case or conversation, and use a Copilot feature, such as asking a question or summarizing the case.
+1. If next best actions are enabled, sign in to Copilot Service workspace as a test representative, open a case, and confirm that the Copilot pane shows recommended next best actions for the case.
 1. If representatives use Customer Service Hub or a custom app, sign in to that app as a test representative and confirm that Copilot features are available.
 1. If you use custom security roles, sign in as a user with that role and confirm that Copilot features work.
 
