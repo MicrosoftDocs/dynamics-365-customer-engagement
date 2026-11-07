@@ -1,7 +1,7 @@
 ---
 title: Configure service-level agreements in Dynamics 365 Customer Service
 description: Learn how to configure service-level agreements in Dynamics 365 Customer Service.
-ms.date: 08/25/2026
+ms.date: 11/06/2026
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -32,11 +32,11 @@ To configure SLAs in Copilot Service admin center:
 1. [Review prerequisites](#prerequisites).
 2. [Create SLA KPIs](#create-sla-kpis).
 3. [Create SLAs](#create-slas).
-4. [Apply SLAs](apply-slas.md#apply-slas)
+4. [Apply SLAs](apply-slas.md#apply-slas).
 
 > [!NOTE]
-> - You can create SLAs only in environments that have customer engagement apps such as Customer Service, as SLAs are available by default in these apps.
-> - The SLA feature isn't supported in Singapore.
+> - You can create SLAs only in environments that have customer engagement apps such as Customer Service, because these apps include SLAs by default.
+> - In the Singapore region, SLA functionality supports only tenants that are allowlisted for Power Automate.
 > - We recommend that you don't add customizations to the SLA admin configuration form, including SLA, SLA KPI, and SLA item forms.
 
 ## Prerequisites
@@ -76,8 +76,6 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
 1. In the **SLA KPIs** section, select **Manage**. The **Active SLAKPIs** view is displayed.
 
-1. Select the SLA for which you want to add an SLA item.
-
 1. Select **New**. The **New SLA KPI** page appears.
 
 1. Enter the following details on the **General** tab:
@@ -95,18 +93,18 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 1. Select **Save**.
 
 1. To define the pause criteria at the KPI level, in the **Pause Conditions** section that appears, do the following:
-   1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your org, the criteria defined at the KPI level override them. For the other KPIs, the entity level pause settings continue to function if no pause criteria are defined at the KPI level.
+   1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your organization, the criteria defined at the KPI level override them. For the other KPIs, the entity level pause settings continue to function if no pause criteria are defined at the KPI level.
    2. Select **Add** to define the conditions in which the SLA KPI can be paused.
 
     > [!NOTE]
     > - At runtime, when you pause an SLA KPI instance and resume it, the SLA KPI instance is canceled and a new SLA KPI instance is created.
-    > - The **Failure Time**, **Warning Time**, and **Applicable from** fields used in the SLA KPI should have the *datetime* datatype, not date. 
+    > - The **Failure Time**, **Warning Time**, and **Applicable from** fields used in the SLA KPI should have the *datetime* data type, not date. 
 
 1. Select **Activate**. The SLA KPI is saved and activated.
 
-When service representatives create an SLA KPI instance for an entity other than the case entity, the **Regarding** column appears as blank on Unified Interface, and as **(No name)** on the web client. This functionality is a by-design behavior, and is also applicable to custom entities.
+When service representatives create an SLA KPI instance for an entity other than the case entity, the **Regarding** column appears as blank on Unified Interface, and as **(No name)** on the web client. This behavior is by design, and is also applicable to custom entities.
 
-If you choose to show the entity name for your service representatives, perform the steps [provided](#configure-sla-kpi-instance-entity-name-through-advanced-find).
+If you choose to show the entity name for your service representatives, follow the steps in [Configure SLA KPI instance entity name through Advanced Find](#configure-sla-kpi-instance-entity-name-through-advanced-find).
 
 ### Configure SLA KPI instance entity name through Advanced Find
 
@@ -122,27 +120,29 @@ To add a new column called **Name (Regarding)** that displays the name of the ta
 You can also use the following query to add a new column called **Name (Regarding)**.
 
 1. From **Advanced Find**, select **Download Fetch XML**.
-1. Paste the following query on the URL to see the full name of the target entity for the SLA KPI instance record. For more information on the format of the API call, see: [Request](/power-apps/developer/data-platform/webapi/use-fetchxml-web-api).
-Here's an example: https:// your org link/api/data/v9.2/slakpiinstances?fetchXml=enter the following query. [URL encode the fetchxml]
+1. Paste the following query on the URL to view the full name of the target entity for the SLA KPI instance record. Learn more about the format of the API call in [Request](/power-apps/developer/data-platform/webapi/use-fetchxml-web-api).
 
-```
-<fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+   Use the following format for the URL, where `<your-org-url>` is your organization's URL and `<URL-encoded FetchXML>` is the following query after you URL-encode it:
 
-  <entity name="slakpiinstance">
-    <attribute name="name" />
-    <attribute name="status" />
-    <attribute name="regarding" />
-    <attribute name="failuretime" />
-    <attribute name="warningtime" />
-    <attribute name="succeededon" />
-    <attribute name="slakpiinstanceid" />
-    <order attribute="name" descending="false" />
-    <link-entity name="lead" from="leadid" to="regarding" link-type="inner" alias="ai">
-      <attribute name="fullname" />
-    </link-entity>
-  </entity>
-</fetch>
-```
+   `https://<your-org-url>/api/data/v9.2/slakpiinstances?fetchXml=<URL-encoded FetchXML>`
+
+   ```xml
+   <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+     <entity name="slakpiinstance">
+       <attribute name="name" />
+       <attribute name="status" />
+       <attribute name="regarding" />
+       <attribute name="failuretime" />
+       <attribute name="warningtime" />
+       <attribute name="succeededon" />
+       <attribute name="slakpiinstanceid" />
+       <order attribute="name" descending="false" />
+       <link-entity name="lead" from="leadid" to="regarding" link-type="inner" alias="ai">
+         <attribute name="fullname" />
+       </link-entity>
+     </entity>
+   </fetch>
+   ```
 
 ## Create SLAs <a name="create-slas"></a>
 
@@ -160,7 +160,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 1. In the site map of Copilot Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
 
-1. In the **Service Level Agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements** view is displayed. You can switch between various system views using the dropdown list.  
+1. In the **Service Level Agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements** view is displayed. You can switch between various system views by using the dropdown list.  
 
 1. Select **New**. The **New SLA** page appears.
 
@@ -191,22 +191,22 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
   
 1. In the **Applicable When** section, define the conditions for when the SLA can be applied for the entity.
 
-    The SLA is triggered when the applicable when condition is met throughout. If the applicable when condition isn't met after an SLA is triggered, the SLA KPI instance gets canceled. We recommend that you don't use case fields that are updated frequently because any change to the field value might lead to cancelation of the SLA item.
+    The SLA is triggered when the **Applicable When** condition is met throughout. If the **Applicable When** condition isn't met after an SLA is triggered, the SLA KPI instance gets canceled. Don't use case fields that are updated frequently because any change to the field value might lead to cancellation of the SLA item.
 
 1. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
 
-  > [!IMPORTANT]
-  > If you specify the success condition on the same entity on which applicable when is defined, a recommendation message appears with the suggestion that you don't use the same entity. You can select **OK** if your organization needs the conditions to be configured on the same entity.
+   > [!IMPORTANT]
+   > If you specify the success condition on the same entity on which **Applicable When** is defined, a recommendation message appears with the suggestion that you don't use the same entity. You can select **OK** if your organization needs the conditions to be configured on the same entity.
 
 1. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
    1. Set the toggle to **Yes** for **Override Criteria** to pause the SLA item. This setting overrides the pause settings defined at the entity level, if any, in Service Configuration or at the SLA KPI level.
    2. Select **Add** to define the conditions for pausing the SLA item.
-    > ![Pause settings at SLA item level.](../media/csh-sla-item-pause.png "Pause settings at SLA item level")
+      ![Pause settings at SLA item level.](../media/csh-sla-item-pause.png "Pause settings at SLA item level")
 
 1. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed. If you don't need **Warning Duration**, you can set it to null so that SLAs don't reach the **Nearing noncompliance** status.
 
-  > [!NOTE]
-  > The failure and warning time is calculated after considering the business hours selected in the SLA record. If you don't set the business hours record (customer service schedule), the work hours are considered to be all day, every day.
+   > [!NOTE]
+   > The failure and warning time is calculated after considering the business hours selected in the SLA record. If you don't set the business hours record (customer service schedule), the work hours are considered to be all day, every day.
 
 1. Select **Save**.
 
@@ -243,7 +243,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
       - **Template**
 
       > [!NOTE]
-      > To obtain the value for the **Template** field, see [Open Data Protocol](/dynamics365/fin-ops-core/dev-itpro/data-entities/odata).
+      > Learn how to get the value for the **Template** field in [Open Data Protocol](/dynamics365/fin-ops-core/dev-itpro/data-entities/odata).
 
     g. Repeat the steps to configure the actions for **Is Succeeded** and **Is Non-compliant**.
 
@@ -254,7 +254,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
     h. Save and exit Power Automate.
 
     > [!NOTE]
-    > Learn more in [Configure connectors in Power Automate](/connectors/commondataserviceforapps/)
+    > Learn more in [Configure connectors in Power Automate](/connectors/commondataserviceforapps/).
 
 1. Select **Save & Close** on the SLA item dialog box.
 
@@ -265,7 +265,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 ## Apply SLAs
 Learn how you can apply SLAs in [Apply service-level agreements](apply-slas.md#apply-slas).
 
-### Related information
+## Related information
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](../troubleshoot-sla-issues.md)  
