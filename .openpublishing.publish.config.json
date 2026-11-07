@@ -78,6 +78,12 @@
       "url": "https://github.com/MicrosoftDocs/powerapps-docs-pr",
       "branch": "main",
       "branch_mapping": {}
+    },
+    {
+      "path_to_root": "contact-center-pr",
+      "url": "https://github.com/MicrosoftDocs/dynamics-365-contact-center-pr",
+      "branch": "main",
+      "branch_mapping": {}
     }
   ],
   "branch_target_mapping": {
