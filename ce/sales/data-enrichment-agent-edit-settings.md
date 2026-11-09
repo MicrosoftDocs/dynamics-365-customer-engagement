@@ -4,11 +4,12 @@ description: Discover how to update agent settings, define access, and set enric
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 10/15/2026
+ms.date: 11/09/2026
 ms.update-cycle: 90-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.collection: bap-ai-copilot
+ai-usage: ai-assisted
 ---
 
 # Edit AI-powered Data Enrichment settings
@@ -18,18 +19,16 @@ After you [create the AI-powered Data Enrichment agent](data-enrichment-agent-co
 <a name="open-settings"></a>
 ## Open the Data Enrichment settings page
 
-1. From the lower-left corner of the Sales Hub app, select **Change Area** > **App Settings**.
+1. From lower-left corner of the Sales Hub app, select **Change Area** > **App Settings**.
 1. Under **General Settings**, select **Dynamics 365 AI Hub** and then select **Create and manage agents**.
 1. In the **AI Agents** page, select **Data Enrichment** with type **Conversation Enrichment**. 
    The settings page opens, displaying the current configuration of the Data Enrichment agent.
-   :::image type="content" source="media/data-enrichment-prerequisites.png" alt-text="Screenshot of the Data Enrichment prerequisites page showing the status of required prerequisites.":::
 
-## Verify prerequisites
+<a name="verify-prerequisites"></a>
 
-In the **Prerequisites** section, ensure that Dataverse Search and at least one data source (Microsoft 365 Services or Microsoft Teams meetings) are connected. A tenant administrator must connect these data sources. You can ask the administrator to connect both, then choose which sources to enable for enrichment later in the setup. Connecting a data source doesn't automatically enable it for enrichment.
+## Configure permissions
 
-The agent doesn't use the data sources just because they are connected; you must enable them in the agent's settings for enrichment.
-For more information about the prerequisites, see [Set up and configure AI-powered Data Enrichment](data-enrichment-agent-configure.md#prerequisites).
+In the **Permissions** section, configure permissions for Outlook, Teams, and Dataverse search as needed. These permissions are optional. If you turn on either Outlook or Teams, you must also turn on Dataverse search. CRM notes are enabled by default for enrichment. You can enable or disable each data source in the agent settings without revoking the permissions. Learn more in [Configure permissions](data-enrichment-agent-configure.md#configure-permissions)
 
 ## Define the agent profile
 
@@ -63,13 +62,15 @@ In the **Agent behavior** section of the [Data Enrichment settings](#open-settin
   > [!NOTE]
   > Field scope settings apply to Opportunity and Lead records only. Contact records are enriched using a fixed set of five out-of-the-box fields (such as phone number, job title, email address, and preferred contact method) that can't be configured. Account records don't support field enrichment.
 - **Field update behavior**: Turn on **Automatically update fields** to allow Data Enrichment to make changes without a manual review. By default, this option is off, meaning sellers need to review and apply suggestions manually.
-- **Enrichment frequency**: Indicates how often Data Enrichment applies updates automatically. The agent analyzes emails and generates suggestions every 4 hours. For manual updates, sellers can review suggestions as soon as they're generated. For automatic updates, changes are applied based on the enrichment frequency, which is set to **Daily** by default. This setting is informational and can't be changed.
+- **Enrichment frequency**: Indicates how often Data Enrichment applies updates automatically. The agent analyzes CRM notes and generates suggestions every five minutes. It analyzes Outlook emails and Teams meetings and generates suggestions every six hours. For manual updates, sellers can review suggestions as soon as they're generated. For automatic updates, changes are applied based on the enrichment frequency, which is set to **Daily** by default. This setting is informational and can't be changed.
 <a name="dea-data-sources"></a>
 
 - **Data sources**: Lists the data sources that Data Enrichment can use to enrich records. 
-    - **Outlook**: Turn it on to allow the agent to read emails for enrichment. If this option is disabled, ensure that the **Microsoft 365 Services** prerequisite is connected.
-    - **Teams**: Turn it on to allow the agent to read Teams meeting data for enrichment. If this option is disabled, ensure that the **Microsoft Teams meetings** prerequisite is connected. The agent uses AI-generated summaries (if you have a Microsoft 365 Copilot license) or meeting transcripts. 
-  Turn off the toggle next to a data source to prevent the agent from using it for enrichment. You don't need to disconnect the underlying prerequisite connection.
+    - **CRM notes**: The agent uses notes in sales records to generate enrichment suggestions. CRM notes are enabled by default even when all permissions are turned off.
+    - **Outlook**: Turn it on to allow the agent to read emails for enrichment. If this option is disabled, ensure that the Outlook and Dataverse search permissions are configured in the **Permissions** section.
+    - **Teams**: Turn on this option to allow the agent to use Teams meeting data for enrichment. If the option is disabled, ensure that the Teams and Dataverse search permissions are configured in the **Permissions** section. The agent uses AI-generated meeting summaries if you have a Microsoft 365 Copilot license. Otherwise, it uses meeting transcripts.
+
+  Turn off the toggle next to the data source to prevent the agent from using that source for enrichment. You don't need to disconnect the underlying permission.
 
 ## Enable or disable connected skills
 
@@ -87,7 +88,7 @@ Select the toggle next to the skill name to enable or disable it based on your p
 
 After configuring the settings, select **Save** and then **Start agent** to activate Data Enrichment with your specified configuration. You can stop the agent at any time by selecting **Stop agent** on the settings page. When the agent is stopped, it doesn't analyze records or generate suggestions.
 
-The agent doesn't analyze any supported records, emails, or meeting data until sellers are enrolled. By default, sellers are automatically enrolled when they first open a supported record. Enrollment is specific to each seller. For more information, see [Consent for Data Enrichment to read your emails and Teams meetings data](use-data-enrichment-agent.md#consent-for-data-enrichment-to-read-your-emails).
+The agent doesn't analyze notes, emails, or meeting data for supported records until sellers are enrolled. By default, sellers are automatically enrolled when they first open a supported record. Enrollment is specific to each seller. For more information, see [Consent for Data Enrichment to read your emails and Teams meetings data](use-data-enrichment-agent.md#consent-for-data-enrichment-to-read-your-emails).
 
 ## Fields excluded from enrichment
 

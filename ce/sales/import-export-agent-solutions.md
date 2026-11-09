@@ -1,7 +1,7 @@
 ---
 title: Import an agent into a target environment
 description: Learn how to export and import sales agent solutions across environments in Dynamics 365 Sales. 
-ms.date: 08/04/2026
+ms.date: 11/09/2026
 ms.update-cycle: 180-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
@@ -112,7 +112,7 @@ After you import the solution, the agent is imported in draft state. Open the ag
 
 #### For Data Enrichment Agent
 
-1. **Configure the prerequisites**. The exported solution doesn't include prerequisites because they often contain environment‑specific values that might differ between source and target environments. See [Configure prerequisites](data-enrichment-agent-configure.md#prerequisites) for more information.  
+1. **Configure permissions**. The exported solution doesn't include environment-specific permission settings. Configure Outlook, Teams, and Dataverse search permissions as needed in the target environment. See [Configure permissions](data-enrichment-agent-configure.md#prerequisites) for more information.
 
 1. **Review record selection rules**. Some values in the record selection rules might not resolve correctly in the target environment. For example, if the rule is based on a team or user that doesn't exist in the target environment, update the rule to ensure it functions correctly.
 
@@ -151,4 +151,3 @@ After you import the solution, the agent is imported in draft state. Open the ag
 ## Related information
 
 [AI agents in Dynamics 365 Sales](ai-agent-overview.md)
-
