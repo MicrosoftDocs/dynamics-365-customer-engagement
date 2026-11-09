@@ -4,11 +4,12 @@ description: Learn how to review and approve suggestions made by the Data Enrich
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 09/18/2026
+ms.date: 11/09/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.collection: bap-ai-copilot
+ai-usage: ai-assisted
 ---
 
 # Review and approve Data Enrichment suggestions
@@ -21,14 +22,15 @@ As a seller, you can review the suggestions that Data Enrichment makes for Conta
 
 ## Prerequisites
 
-- Your admin must [set up and configure the AI-powered Data Enrichment](data-enrichment-agent-configure.md) feature.
+- Your admin must [set up and configure the AI-powered Data Enrichment](data-enrichment-agent-configure.md) feature. Your admin must enable the data sources that you use for customer communication. Supported data sources include CRM notes, Outlook, and Teams meetings.
 - You must be eligible for Data Enrichment based on the [user access](data-enrichment-agent-edit-settings.md#configure-user-access) defined by your admin. 
 - Your supported records must meet the [record selection criteria](data-enrichment-agent-edit-settings.md#select-records-for-enrichment) that your admin defines.
 
 <a name="consent-for-data-enrichment-to-read-your-emails"></a>
-## Consent for Data Enrichment to read your emails and Teams meetings data
+<a name="consent-for-data-enrichment-to-read-your-emails-and-teams-meetings-data"></a>
+## Enrollment in Data Enrichment
 
-When you open an eligible supported record for the first time after Data Enrichment is enabled, the agent automatically enrolls you and starts reading your emails and meeting data to generate suggestions. You don't need to provide explicit consent. 
+When you open an eligible supported record for the first time after Data Enrichment is enabled, the agent automatically enrolls you and starts analyzing the data sources to generate suggestions. You don't need to provide explicit consent. 
 
 After the enrollment completes, you see the following notification banner in the supported record:
 
@@ -36,37 +38,37 @@ After the enrollment completes, you see the following notification banner in the
 
 If the enrollment fails due to missing permissions, you see a notification banner that informs you of the same.
 
-The agent takes about four hours to analyze your emails and Teams meetings data and generate suggestions, provided the [requirements for generating suggestions](#requirements-for-generating-suggestions-based-on-your-emails) are met.
-
 > [!NOTE]
->- The agent only reads emails and meetings data that are relevant to supported records that you own.
+>- The agent only analyzes data that's relevant to supported records that you own.
 
 <a name="disable-data-enrichment-suggestions"></a>
 ## Enable or disable Data Enrichment suggestions
 
-By default, data enrichment suggestions are enabled for all eligible sellers. If you don't want the agent to read your emails and Teams meetings data or generate suggestions, you can disable the agent for your account.
+By default, data enrichment suggestions are enabled for all eligible sellers. If you don't want the agent to analyze your CRM notes, emails, or Teams meeting data or generate suggestions, you can disable the agent for your account.
 
 1. From the lower-left corner of the Sales Hub app, select **Change Area** > **Personal Settings**.
-1. Select **Sales agents** from the left navigation pane.
-1. Turn off the **Data Enrichment agent** option to disable it. You can turn it back on at any time to re-enable the agent for your account.
+2. Select **Sales agents** from the left navigation pane.
+3. Turn off the **Data Enrichment agent** option to disable it. You can turn it back on at any time to re-enable the agent for your account.
+
 
 ## Requirements for generating suggestions based on your emails
 
 For data enrichment suggestions to appear based on your emails, the following conditions must be met:
 
-1. The supported record must have at least one email received from an external contact.
-1. The sender's email address must map to a contact associated with the record (for example, as the primary contact, a stakeholder, or the primary contact of the parent account).
-1. There can be a delay in Outlook-to-Graph synchronization. [Learn more about expected latency](/graph/change-notifications-overview#latency).
-1. Email insight generation runs as a background process, so enrichment suggestions might take some time to appear.
+1. Your admin must grant **Microsoft 365 Services** permission, enable Dataverse search, and turn on Outlook in the [Data Enrichment settings](data-enrichment-agent-edit-settings.md#dea-data-sources).
+2. The supported record must have at least one email received from an external contact.
+3. The sender's email address must map to a contact associated with the record (for example, as the primary contact, a stakeholder, or the primary contact of the parent account).
+4. There can be a delay in Outlook-to-Graph synchronization. [Learn more about expected latency](/graph/change-notifications-overview#latency).
+5. Email insight generation runs every six hours as a background process, so enrichment suggestions might take some time to appear.
 
 ## Requirements for generating suggestions based on Teams meetings
 
 For data enrichment suggestions to appear based on Teams meetings, the following conditions must be met:
 
-1. Your admin must [connect Microsoft Teams meetings to the Data Enrichment agent](data-enrichment-agent-configure.md#verify-prerequisites). If you don't see suggestions based on Teams meetings, check with your admin.
-1. The meeting must have a transcript or an AI-generated summary available. AI-generated meeting summaries are available only when the seller has an appropriate license to access Microsoft 365 Copilot. If the AI-generated summary isn't available, the agent uses the meeting transcript.
-1. The meeting must have at least one external attendee who is a contact associated with the record (for example, as the primary contact, a stakeholder, or the primary contact of the parent account).
-1. Meeting insight generation runs as a background process, so enrichment suggestions from meetings might take some time to appear.
+1. Your admin grants **Microsoft Teams Meetings** permission, enables Dataverse search, and turns on Teams in the [Data Enrichment settings](data-enrichment-agent-edit-settings.md#dea-data-sources). If you don't see suggestions based on Teams meetings, check with your admin.
+2. The meeting must have a transcript or an AI-generated summary available. AI-generated meeting summaries are available only when the seller has an appropriate license to access Microsoft 365 Copilot. If the AI-generated summary isn't available, the agent uses the meeting transcript.
+3. The meeting must have at least one external attendee who is a contact associated with the record (for example, as the primary contact, a stakeholder, or the primary contact of the parent account).
+4. Meeting insight generation runs every six hours as a background process, so enrichment suggestions from meetings might take some time to appear.
 
 > [!NOTE]
 > Enrichments generated from actual Teams meetings include a citation that links to the calendar event. This citation is visible only to users who attended the meeting.
@@ -82,7 +84,7 @@ You can access the Data Enrichment suggestions for your supported records in two
 ### View Data Enrichment suggestions for a specific record
 
 1. Open an [eligible record](data-enrichment-agent-faqs.md#what-are-eligible-records-for-enrichment) in the Sales Hub app.
-1. Depending on the record type, access the Data Enrichment suggestions in one of the following ways:
+2. Depending on the record type, access the Data Enrichment suggestions in one of the following ways:
 
    | Record type | How to access Data Enrichment suggestions | Which fields are enriched |
    |---|---|---|
@@ -98,15 +100,15 @@ The **Suggested actions** carousel provides a quick view of the next best action
 > The option to view suggestions in the **Suggested actions** carousel is turned on by default in the Data Enrichment settings. If you don't see suggestions in the carousel, check with your admin to ensure that the **Recommended action** skill is enabled. Learn more in [Enable or disable connected skills](data-enrichment-agent-edit-settings.md#enable-or-disable-connected-skills).
 
 1. In the Sales Hub app, select the relevant entity (for example, **Opportunities**) from the left navigation pane. 
-1. Switch to the read-only grid view by selecting **Read Only Grid** from the top of the list. 
+2. Switch to the read-only grid view by selecting **Read Only Grid** from the top of the list. 
    The **Suggested actions** carousel appears at the top of the list. The enrichment suggestions appear at the end of the carousel as stacked cards if suggestions for multiple records are available. 
    :::image type="content" source="media/data-enrichment-in-carousal.png" alt-text="Screenshot of the Suggested actions carousel showing stacked cards for Data Enrichment suggestions for multiple records" border="false":::
-1. Select the **New enrichment suggestions** stacked card.
+3. Select the **New enrichment suggestions** stacked card.
    The list of records with suggestions appears in the **Records with pending enrichment** view. The **Data Enrichment** pane for the first record in the list opens on the right side.
-1. To view suggestions for a different record, follow these steps:
+4. To view suggestions for a different record, follow these steps:
     1. Select a record from the list. Wait for the **Summary** component to load on the right pane.
-    1. Expand the **Summary** component and select the **Data Enrichment suggestions** button if it's available. Alternatively, you can also select the **Data Enrichment suggestions** button in the notification banner if it's available.
-      The **Data Enrichment** pane opens, showing you the suggestions generated by the agent based on its analysis of your emails and Teams meetings.
+    2. Expand the **Summary** component and select the **Data Enrichment suggestions** button if it's available. Alternatively, you can also select the **Data Enrichment suggestions** button in the notification banner if it's available.
+      The **Data Enrichment** pane opens and displays suggestions based on the agent's analysis of the data sources your admin enabled, such as CRM notes, emails, and Teams meetings.
 
 ## Review and approve suggestions manually
 
@@ -115,14 +117,14 @@ If your admin has configured the agent for manual updates, you need to manually 
 1. In the **Suggestions** tab of the Data Enrichment pane, hover over the information icon next to each suggestion to see details about the source of the suggestion. If a suggestion is based on a Teams meeting, the source information includes a link to the meeting in the calendar. If you weren't part of the meeting, the link doesn't work.
    :::image type="content" source="media/data-enrichment-pane.png" alt-text="Screenshot of the Data Enrichment pane showing suggestions for a record" border="false":::
 
-1. Review the suggestions and perform one of the following actions:
+2. Review the suggestions and perform one of the following actions:
    - To accept or reject all the suggestions, select **Accept all** or **Reject all** at the bottom of the pane.
    - To accept or reject individual suggestions, hover over each suggestion and select the **Accept** icon (check mark) or the **Reject** icon (cross mark).
      > [!NOTE]
      >- If you reject a suggestion for a record, you won't see that suggestion again for that record. There's no option to undo or recover rejected suggestions.
      >- To view the changes you have accepted, select the **History** tab in the Data Enrichment pane. Learn more in [View change history](#view-change-history).
 
-    The changes are applied to the supported record immediately after you accept the suggestions. If you're not sure about a suggestion, you can leave it without taking any action. The suggestion remains in the pane until you accept or reject it. However, suggestions are periodically refreshed based on new email interactions, and some suggestions might be removed if they become irrelevant based on updated context.
+    The changes apply to the supported record immediately after you accept the suggestions. If you're not sure about a suggestion, you can leave it without taking any action. The suggestion remains in the pane until you accept or reject it. However, suggestions are periodically refreshed based on new signals from data sources that your admin enables, such as CRM notes, emails, and Teams meeting data, and some suggestions might be removed if they become irrelevant based on updated context.
 
 ## Review and revert automatic updates
 
@@ -145,12 +147,12 @@ The AI-powered Data Enrichment feature associates emails with a supported record
 
 1. Open an eligible record in the Sales Hub app.
 
-1. In the **Timeline** section, look for emails with the agent icon (:::image type="icon" source="media/dea-agent-icon.png" alt-text="Data Enrichment icon." border="false":::). These emails are not tracked by default and are visible only in your timeline, even if your admin has configured Data Enrichment for automatic updates. 
-1. Select **Track** on the email to track it in the supported record and make it visible to other users.
+2. In the **Timeline** section, look for emails with the agent icon (:::image type="icon" source="media/dea-agent-icon.png" alt-text="Data Enrichment icon." border="false":::). These emails aren't tracked by default and are visible only in your timeline, even if your admin configures Data Enrichment for automatic updates. 
+3. Select **Track** on the email to track it in the supported record and make it visible to other users.
 
   :::image type="content" source="media/untracked-email-data-enrichment.png" alt-text="Screenshot of an email in the timeline with the Data Enrichment icon and the Track button" border="false":::
 
-1. Select **Not related?** if you believe the email isn't related to the record. You can then select whether you want to remove the email from the current record or reassign it to another record.
+4. Select **Not related?** if you believe the email isn't related to the record. You can then select whether you want to remove the email from the current record or reassign it to another record.
 
 ## View stakeholder suggestions
 
@@ -162,14 +164,14 @@ The Data Enrichment feature suggests adding contacts as stakeholders when you ad
 To view the stakeholder suggestions:
 
 1. In the **Related records** tab of the Data Enrichment pane, view the list of suggested stakeholders based on recent email interactions. 
-1. Hover over the stakeholder suggestion and select the **Information** icon to view the source of the suggestion.
-1. (Manual update) Hover over the suggestion and take one of the following actions:
+2. Hover over the stakeholder suggestion and select the **Information** icon to view the source of the suggestion.
+3. (Manual update) Hover over the suggestion and take one of the following actions:
     - Select the **Accept** icon (check mark) to add the stakeholder to the record.
     - Select the **Reject** icon (cross mark) to dismiss the suggestion. 
-1. (Automatic update) The stakeholder is added to the record automatically. Hover over the suggestion and take one of the following actions:
+4. (Automatic update) The stakeholder is added to the record automatically. Hover over the suggestion and take one of the following actions:
     - Select the **Keep** icon (check mark) to retain the stakeholder.
     - Select the **Undo** icon (cross mark) to remove the stakeholder from the record if you think the suggestion is incorrect.
-1. (Optional) To change the stakeholder's role, follow the instructions in [Add stakeholders and decision makers for the opportunity](add-stakeholder.md#add-stakeholders-and-decision-makers-for-the-opportunity).
+5. (Optional) To change the stakeholder's role, follow the instructions in [Add stakeholders and decision makers for the opportunity](add-stakeholder.md#add-stakeholders-and-decision-makers-for-the-opportunity).
 
 
 ## View change history

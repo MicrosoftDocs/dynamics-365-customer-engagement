@@ -4,11 +4,12 @@ description: Learn how to set up and configure the AI-powered Data Enrichment fe
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 10/15/2026
+ms.date: 11/09/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.collection: bap-ai-copilot
+ai-usage: ai-assisted
 ---
 
 # Set up and configure AI-powered Data Enrichment
@@ -28,7 +29,7 @@ Ensure that you meet the following prerequisites:
 <a name="set-up-data-enrichment"></a>
 ## Set up and configure AI-powered Data Enrichment
 
-1. From the lower-left corner of the Sales Hub app, select **Change Area** > **App Settings**.
+1. From lower-left corner of the Sales Hub app, select **Change Area** > **App Settings**.
 
 1. Under **General Settings**, select **Dynamics 365 AI Hub** and then select **Create and manage agents**.
 1. In the **AI Agents** page, select **Create**.  
@@ -39,28 +40,24 @@ Ensure that you meet the following prerequisites:
 
 <a name="prerequisites"></a>
 
-## Verify prerequisites
+## Configure permissions
 
-In the prerequisites dialog, configure the prerequisites described in this section.
-
-To create and start the agent, you need to:
-- Connect Dataverse Search.
-- Connect at least one data source: **Microsoft 365 Services** (for email) or **Microsoft Teams meetings**.
+In the **Permissions** section, configure permissions for Outlook, Teams, and Dataverse search as needed. These permissions are optional. If you turn on either Outlook or Teams, you must also turn on Dataverse search. CRM notes are enabled by default for enrichment. You can [turn on or off each data source](data-enrichment-agent-edit-settings.md#dea-data-sources) later in the agent settings without revoking the permissions.
 
 > [!NOTE]
 > Sales Opportunity Agent and Data Enrichment use the same Microsoft 365 Services and Dataverse Search configuration. If you already [configured these prerequisites for Sales Opportunity Agent](configure-sales-opportunity-agent-requirements.md), they're marked as done for Data Enrichment too. 
 
 <a name="prerequisites-dataverse"></a>   
 
-### Dataverse Search
+### Dataverse search
 
-Data Enrichment uses Dataverse Search to find the records to enrich. If you didn't set up Dataverse Search, select **Set up** to open the **Features** page in Power Platform admin center. Learn more about [configuring Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization). After setting up Dataverse Search, return to the agent configuration page and select **Refresh** to update the status of this prerequisite. 
+Data Enrichment requires Dataverse search when you turn on Outlook or Teams. If you didn't set up Dataverse search, select **Set up** to open the **Features** page in Power Platform admin center. Learn more about [configuring Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization). After setting up Dataverse search, return to the agent configuration page and select **Refresh** to update the permission status.
 
 <a name="prerequisites-m365"></a> 
 
 ### Microsoft 365 Services
 
-To allow the agent to read seller emails and fetch relevant data for enrichment, select **Mark as done** and then **Apply changes**. 
+Connect the **Microsoft 365 Services** permission to allow the agent to read seller emails and fetch relevant data for enrichment.
 
 Points to note:
 - The agent reads emails from Exchange without storing them in Dynamics 365.
@@ -74,7 +71,7 @@ To configure and use Microsoft 365 Services, you need:
 
 ### Microsoft Teams meetings
 
-To allow the agent to read Teams meeting data of your sellers and fetch relevant data for enrichment, select **Connect**. 
+Connect the **Microsoft Teams meetings** permission to allow the agent to read Teams meeting data of your sellers and fetch relevant data for enrichment. 
 
 Points to note:
 - You must be a tenant administrator. 
@@ -84,9 +81,7 @@ Points to note:
 ## Create the agent
 
 1. Select **Create agent**.  
-   A dialog opens with recommended default settings:    
-    :::image type="content" source="media/data-enrichment-quick-setup.png" alt-text="Screenshot of the Data Enrichment quick setup dialog box with recommended default settings.":::
-    The default settings include:
+   A dialog opens with recommended default settings, including:
 
     | Setting | Value |
     |---------|-------|
@@ -94,13 +89,13 @@ Points to note:
     | Target records | Active records created in the last 30 days |
     | Action | Enrich BANT-related fields in the record |
     | Schedule | Runs everyday |
-    | Behavior | Suggests field updates based on email conversations and Teams meetings|
-    | Data sources | Reflects the data sources you connected in the prerequisites step, for example, Outlook, Teams, or both |
+    | Behavior | Suggests field updates based on CRM notes and enabled Outlook and Teams data |
+    | Data sources | Reflects the data sources you connected to in the **Permissions** step. CRM notes are enabled by default when all permissions are turned off. |
     | Connected skills | Suggested actions, Outlook, Teams |
     
 1. Do *ONE* of the following:
     - Review the recommended settings and select **Start agent** if the default settings work for your business needs.  
-      The agent doesn't analyze any supported records, emails, or meeting data until sellers are enrolled. By default, sellers are automatically enrolled when they first open a supported record. Enrollment is specific to each seller.
+      The agent doesn't analyze notes, emails, or meeting data for supported records until sellers are enrolled. By default, the system automatically enrolls sellers when they first open a supported record. Enrollment is specific to each seller.
     - Select **Edit in settings** to customize the configuration.  
       The agent doesn't start until you finish configuring the settings. To learn more about configuring the settings, see [Configure AI-powered Data Enrichment settings](data-enrichment-agent-edit-settings.md).
 
@@ -134,4 +129,3 @@ When you have configured the Data Enrichment Agent in one environment, you can e
 
 [Review and approve Data Enrichment suggestions](use-data-enrichment-agent.md)  
 [Edit AI-powered Data Enrichment settings](data-enrichment-agent-edit-settings.md)
-
