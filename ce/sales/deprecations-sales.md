@@ -1,7 +1,7 @@
 ---
 title: Removed or deprecated features in Dynamics 365 Sales
 description: Visit this page to see the deprecating features in Dynamics 365 Sales.
-ms.date: 08/19/2026
+ms.date: 11/10/2026
 ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -117,6 +117,16 @@ Effective October 1, 2023, the following Exchange-based cards are deprecated and
 -	Issue Detection Card
 -	Meeting Request Card 
 -	Yes or No Card
+- Upcoming Flight Exchange Card
+
+You can create your own cards by using Power Automate. [Learn more](create-insight-cards-flow.md).
+
+## Opportunity at risk insights cards
+
+Effective December 2022, the following insights cards are deprecated and no longer available in Dynamics 365 Sales:
+
+- Opportunity at Risk (sentiment detection)
+- Opportunity at Risk (phrase detection)
 
 You can create your own cards using Power Automate. [Learn more](create-insight-cards-flow.md).
 
