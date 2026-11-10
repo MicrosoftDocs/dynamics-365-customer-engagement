@@ -1,7 +1,7 @@
 ---
 title: Manage records in the Dynamics 365 Sales mobile app
 description: Learn to view and edit records in the Dynamics 365 Sales mobile app.
-ms.date: 05/02/2025
+ms.date: 11/10/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -82,22 +82,13 @@ The following reminder insight cards are supported:
 
 <table>
 <tr>
-<td>{activity} due today</td><td>Buying intent detected in email</td><td>Close date coming soon</td>
+<td>{activity} due today</td><td>Close date coming soon</td><td>Competitor mentioned</td>
 </tr>
 <tr>
-<td>Competitor mentioned</td><td>Email opened</td><td>Email reminder</td>
+<td>Email opened</td><td>Email reminder</td><td>Missed (opportunity) closed date</td>
 </tr>
 <tr>
-<td>File requested</td><td>Issue detected</td><td>Meeting requested</td>
-</tr>
-<tr>
-<td>Missed (opportunity) closed date</td><td>Missed email</td><td>No activity with {record type}</td>
-</tr>
-<tr>
-<td>Opportunity at risk (phrase detection)</td><td>Opportunity at risk (sentiment detection)</td><td>Suggested stakeholder</td>
-</tr> 
-<tr>
-<td></td><td></td><td></td>
+<td>No activity with {record type}</td><td>Suggested stakeholder</td><td></td>
 </tr>
 </table>   
 
