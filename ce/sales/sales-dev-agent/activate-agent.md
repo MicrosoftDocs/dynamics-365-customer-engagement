@@ -1,7 +1,7 @@
 ---
 title: Activate Sales Development agent (preview)
 description: Learn how to activate the Sales Development agent in Microsoft 365, which automates outreach and prospect management in Microsoft Teams.
-ms.date: 08/21/2026
+ms.date: 11/12/2026
 ms.topic: overview
 author: sbmjais
 ms.author: shjais
@@ -30,8 +30,8 @@ Before you can use the Sales Development agent, make sure these prerequisites ar
 > You must have the Global Administrator role in Microsoft Entra ID to enable the Agent 365 public preview. 
 
 1. In the Microsoft 365 admin center, go to **Agent** > **Overview** > **Try now**.
-1. Purchase the $0 Agent 365 SKU, which includes licenses for 25 agent instances. When prompted, select the **Microsoft 365 Frontier for Autopilots** plan.
-1. Go to **Billing** > **Licenses** and verify that 25 licenses are available.
+1. Purchase the $0 Agent 365 SKU, which includes a license for 25 agent instances. When prompted, select the **Microsoft 365 Frontier for Autopilots** plan.
+1. Go to **Billing** > **Licenses** and verify availability.
 
 ## Activate Sales Development agent
 
