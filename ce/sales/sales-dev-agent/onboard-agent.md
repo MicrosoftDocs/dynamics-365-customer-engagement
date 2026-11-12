@@ -1,7 +1,7 @@
 ---
 title: Onboard the Sales Development agent (preview)
 description: Learn how to onboard the Sales Development agent and configure it for your organization.
-ms.date: 09/25/2026
+ms.date: 11/11/2026
 ms.topic: overview
 author: sbmjais
 ms.author: shjais
@@ -94,6 +94,8 @@ Customize how the Sales Development agent interacts with prospects through email
 - **Unsubscribe text**: Standard opt-out language.
 
 You can use the default settings and change them later.
+
+To customize the email signature, see [Customize email signatures with images](email-signatures.md).
 
 > [!IMPORTANT]
 > Complete the steps in the order described in this article. Type *default* at every step to demonstrate and customize later during coaching.
