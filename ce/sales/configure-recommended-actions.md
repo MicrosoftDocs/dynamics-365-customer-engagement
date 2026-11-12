@@ -1,7 +1,7 @@
 ---
 title: Configure Recommended Actions agent
 description: Learn how to configure recommended actions in Dynamics 365 Sales to help sellers focus on the most effective tasks for their opportunities.
-ms.date: 10/05/2026
+ms.date: 11/12/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -68,7 +68,7 @@ Add custom agents to show actions in the recommended actions experience by addin
 
     :::image type="content" source="media/custom-source-added.png" alt-text="Screenshot of the recommended actions configuration page showing the added custom source.":::
 
-1. Configure the custom agents using [the **msdyn_PushActionDataToRecommendedActionAgent** API](developer/recommended-actions-api.md) to return actionable insights in the format required by the recommended actions framework.
+1. [Configure the custom agent](custom-agent-onboarding-recommended-actions-detailed-guide.md) to return actionable insights in the format required by the recommended actions framework.
 
 ## Disable recommended actions
 

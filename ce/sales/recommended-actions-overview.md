@@ -1,7 +1,7 @@
 ---
 title: Recommended actions overview
 description: Recommended actions is an intelligent capability that shows prioritized actions so sellers focus on the most effective tasks for their records, such as leads and opportunities. 
-ms.date: 09/18/2026
+ms.date: 11/12/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -52,5 +52,5 @@ Your role in the sales process determines how you use recommended actions.
 
 | User role | Reference |
 |-----------|-----------|
-| Administrator | [Configure recommended actions](configure-recommended-actions.md)<br>[Integrate custom agents with Recommended Actions Agent](developer/recommended-actions-api.md) |
+| Administrator | [Configure recommended actions](configure-recommended-actions.md)<br>[Quick start guide: Connect a custom agent to Recommended Actions](connect-custom-agent-recommended-actions.md) |
 | Seller | [View and act on recommended actions](next-best-actions-to-manage-opportunities.md) |

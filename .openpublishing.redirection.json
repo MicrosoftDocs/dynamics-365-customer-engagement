@@ -25,6 +25,11 @@
       "redirect_url": "/dynamics365/contact-center/use/copilot-summarize-conversations",
       "redirect_document_id": "false"
     },
+        {
+      "redirect_document_id": "false",
+      "source_path": "ce/sales/developer/recommended-actions-api.md",
+      "redirect_url": "/dynamics365/sales/connect-custom-agent-recommended-actions"
+    },
     {
       "redirect_document_id": "false",
       "source_path": "ce/sales/configure-sales-close-agent-profile-research.md",

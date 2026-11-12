@@ -282,6 +282,10 @@ items:
                 href: recommended-actions-overview.md
               - name: Configure Recommended Actions Agent
                 href: configure-recommended-actions.md
+              - name: Custom agent onboarding quick start guide
+                href: connect-custom-agent-recommended-actions.md
+              - name: Custom agent onboarding detailed guide
+                href: custom-agent-onboarding-recommended-actions-detailed-guide.md
           - name: Sales agent in Microsoft 365 Copilot
             items:
               - name: Set up Sales agent in Microsoft 365 Copilot from Dynamics 365 Sales
@@ -1458,10 +1462,6 @@ items:
         href: developer/developer-guide.md
       - name: Understand terminology
         href: /power-apps/developer/data-platform/understand-terminology?context=/dynamics365/context/sales-context
-      - name: AI agents
-        items:
-          - name: Integrate custom agents with Recommended Actions Agent
-            href: developer/recommended-actions-api.md
       - name: Dynamics 365 Sales MCP Server
         items:
           - name: Connect Dynamics 365 CX MCP Server - Sales through Agent 365 Tooling Gateway

@@ -1,7 +1,7 @@
 ---
 title: Import an agent into a target environment
 description: Learn how to export and import sales agent solutions across environments in Dynamics 365 Sales. 
-ms.date: 11/09/2026
+ms.date: 11/12/2026
 ms.update-cycle: 180-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
@@ -144,7 +144,7 @@ After you import the solution, the agent is imported in draft state. Open the ag
 1. Depending on the sources you have configured for the Recommended Actions Agent in the source environment, you might need to perform additional steps to ensure those sources are correctly set up in the target environment. Configure the sources based on the type of agents you have set up as sources in the source environment.  
 
     - If you have configured Sales Opportunity Agent or Data Enrichment Agent, no action is required. These agents are part of the solution and are imported together with the Recommended Actions Agent and automatically set up as sources.
-    - If you use custom agents as sources for the Recommended Actions Agent, ensure that you also import and configure those custom agents in the target environment. [The **msdyn_PushActionDataToRecommendedActionAgent** API](developer/recommended-actions-api.md) sends actionable insights from custom agents to the Recommended Actions Agent. You must set up the custom agents correctly for their insights to appear in the recommended actions experience.
+    - If you use custom agents as sources for the Recommended Actions Agent, ensure that you also import and configure those custom agents in the target environment. You must set up the custom agents correctly for their insights to appear in the recommended actions experience. Learn more in [Quick start guide: Connect a custom agent to Recommended Actions](connect-custom-agent-recommended-actions.md).
 
 1. **Save and activate the agent**. After updating the environment‑specific settings, save and start the agent.
 
