@@ -1,7 +1,7 @@
 ---
 title: Work order experience
 description: Learn about the work order experience in Dynamics 365 Field Service, including how to manage work orders and customize forms.
-ms.date: 07/23/2026
+ms.date: 11/10/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -118,6 +118,8 @@ For services, you can view the name, description, duration, estimated and total 
 
 You can update the status and change the quantity of an item inline or make more extensive updates in the side pane. To add products or services to the work order, select **+ Add service** or **+ Add product**.
 
+> [!NOTE]
+> When you add an [incident type](configure-incident-types.md), Field Service adds its products, services, and service tasks in a background job. If they don't appear, wait a moment and refresh the form. Learn more in [Troubleshoot delayed or unexpected incident type behavior](/troubleshoot/dynamics-365/field-service/work-order/work-order-creation-errors#review-delayed-or-unexpected-incident-type-behavior).
 A summary above the item list aggregates the financial details for the products and services used in the work order.
 
 ### Tasks tab
@@ -151,8 +153,7 @@ For more information about customizing work orders, see [Customization considera
 > [!IMPORTANT]
 > The components in the work order experience aren't supported for mobile or tablet devices. While they're built to adapt to the screen size of the form factor, features like offline profiles or undo actions don't work.
 
-
-### Related information
+## Related information
 
 - [Summarize work orders with Copilot](use-work-order-recap.md)
 - [Create work order types](create-work-order-types.md)

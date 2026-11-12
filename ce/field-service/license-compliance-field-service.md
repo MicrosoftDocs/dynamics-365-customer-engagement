@@ -6,18 +6,22 @@ ms.author: vhorvath
 ms.reviewer: puneet-singh1
 ms.topic: article
 ms.collection: get-started
-ms.date: 08/27/2026
+ms.date: 11/10/2026
+ai-usage: ai-assisted
 ---
 
 # Objects validated by the solution checker
 
-The Power Apps solution checker identifies tables, operations, and UI components that require a Dynamics 365 license. Use the following lists to understand which objects it validates for a Dynamics 365 Field Service license. Learn more in [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).  
+The Power Apps solution checker identifies tables, operations, and UI components that require a Dynamics 365 license. Use the following lists to understand which objects it validates for a Dynamics 365 Field Service license. Learn more in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).  
 
-The lists are subject to change as we add more tables, operations, and controls to the licensed usage list.
+The lists are subject to change as Microsoft adds more tables, operations, and controls to the licensed usage list.
+
+> [!IMPORTANT]
+> The solution checker reviews only the components in your solution. It doesn't control what users can do at runtime; security roles do. You're responsible for making sure your users have the licenses they need. Learn more in [Set up users, licenses, and security roles](users-licenses-permissions.md). If users get access errors, go to [Incorrect user privileges errors](/troubleshoot/dynamics-365/field-service/administration/user-has-no-roles).
 
 ## Tables that require a license
 
-To create, update, and delete operations on the following tables, a qualified Dynamics 365 license is required. Reading from these tables doesn't require a license. When you run the solution checker on your solution, it checks for the presence of restricted tables.
+Create, update, and delete operations on the following tables require a qualified Dynamics 365 license. Reading from these tables doesn't require a license. When you run the solution checker on your solution, it checks for the presence of restricted tables.
 
 - msdyn_purchaseorder
 - msdyn_purchaseorderreceipt
@@ -27,10 +31,8 @@ To create, update, and delete operations on the following tables, a qualified Dy
 - msdyn_rma
 - msdyn_rmareceipt
 - msdyn_rtv
-- msdyn_inventoryadjustment
 - msdyn_inventoryadjustmentproduct
 - msdyn_inventoryjournal
-- msdyn_inventorytransfer
 - msdyn_rmaproduct
 - msdyn_rmareceiptproduct
 - msdyn_rmasubstatus
@@ -40,7 +42,6 @@ To create, update, and delete operations on the following tables, a qualified Dy
 - msdyn_workorderservicetask
 - msdyn_workorderproduct
 - msdyn_workorderservice
-- msdyn_workorderservicetask
 - msdyn_agreement
 - msdyn_agreementbookingsetup
 - msdyn_agreementinvoicesetup
@@ -101,7 +102,7 @@ The following APIs require a qualified Dynamics 365 license. The solution checke
 - msdyn_SearchResourceAvailabilityForRequirementGroup
 - msdyn_CreateRequirementGroupBooking
 
-## See also
+## Related content
 
 - [License compliance overview](license-compliance-overview.md)
 - [Use solution checker to validate your solutions](/power-apps/maker/data-platform/use-powerapps-checker)

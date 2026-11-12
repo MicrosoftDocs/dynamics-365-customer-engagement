@@ -1,11 +1,12 @@
 ---
 title: Security roles for Connected Field Service
 description: Learn about security roles in Connected Field Service
-ms.date: 10/10/2025
+ms.date: 11/10/2026
 ms.subservice: connected-field-service
 ms.topic: article
 ms.author: vhorvath
 author: vhorvathms
+ai-usage: ai-assisted
 ---
 
 # Security roles for Connected Field Service
@@ -71,5 +72,11 @@ Identify the resource security role your organization assigns to resources or te
 Business process flows aren't displayed on the Field Service mobile app, so resources don't need access to the **CFS - IoT Alert Process Flow.**
 
 Assign the **IoT Administrator** and **IoT Endpoint User** security roles to users who work with device registration and device data pulls (IoT Hub operations).
+
+## Troubleshoot access and connection issues
+
+If a user gets a privilege error, such as "You do not have prvCreate… permission," check that user's security roles. Learn more in [Incorrect user privileges errors](/troubleshoot/dynamics-365/field-service/administration/user-has-no-roles).
+
+If device registration or commands fail for every user, including administrators, the cause is likely the connection to Azure IoT rather than security roles. Learn more in [Troubleshoot issues with IoT capabilities](/troubleshoot/dynamics-365/field-service/iot/troubleshoot-iot-issues-logic-app).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
