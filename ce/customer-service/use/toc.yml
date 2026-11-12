@@ -380,6 +380,8 @@
             href: /dynamics365/contact-center/use/on-demand-evaluation?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
           - name: Use evaluations
             href: /dynamics365/contact-center/use/use-evaluations?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Write instructions for evaluation criteria
+            href: /dynamics365/contact-center/use/evaluation-criteria-best-practices?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml 
         - name: Use governance policies
           href: use-governance-policies.md
       - name: Copilot in Customer Service
