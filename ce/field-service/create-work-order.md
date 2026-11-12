@@ -1,7 +1,7 @@
 ---
 title: Create a work order
 description: Learn the different ways to create a work order in Dynamics 365 Field Service, including manually, from a case, agreement, opportunity, Power Automate, or API.
-ms.date: 06/26/2026
+ms.date: 11/10/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -32,6 +32,9 @@ Use the following table to find the right creation method for your scenario.
 | Sales opportunity converted to service | [Create work orders from an opportunity](create-work-order-from-opportunity.md) |
 | Automate creation based on triggers or conditions | [Create work orders with Power Automate](create-work-order-flow.md) |
 | Programmatic bulk creation or integration | [Create work orders with the Dataverse Web API](create-work-order-api-example.md) |
+
+> [!NOTE]
+> When you add an [incident type](configure-incident-types.md) to a work order, Field Service copies its products, services, and service tasks to the work order in a background job, so they might not appear right away. If you create work orders with Power Automate or the API, don't create these records in your flow or code. Field Service doesn't check for duplicates.
 
 ## Prerequisites
 
@@ -101,17 +104,19 @@ To automate work order creation based on triggers or conditions, learn more in [
 
 To create multiple work orders using API, learn more in [Create work orders using the Dataverse Web API](create-work-order-api-example.md).
 
+## Troubleshoot work order creation
+
+If you run into issues when you create work orders, see the following articles:
+
+- [Work order creation errors](/troubleshoot/dynamics-365/field-service/work-order/work-order-creation-errors)
+- [Incident type products, services, or tasks are missing or duplicated](/troubleshoot/dynamics-365/field-service/work-order/work-order-creation-errors#review-delayed-or-unexpected-incident-type-behavior)
+- [Work order doesn't appear on the schedule board](universal-resource-scheduling-for-field-service.md#work-order-doesnt-appear-on-the-schedule-board)
+- [Work order status is stuck](/troubleshoot/dynamics-365/field-service/work-order/work-order-status-stuck)
+- [Agreement work orders aren't generated](/troubleshoot/dynamics-365/field-service/work-order/agreement-work-orders-not-generated)
+
 ## Next steps
 
 - [Create work order types](create-work-order-types.md)
 - [Set up booking statuses](set-up-booking-statuses.md)
-
-## Related information
-
-If you run into issues when creating work orders, see the following troubleshooting articles:
-
-- [Work order creation errors](/troubleshoot/dynamics-365/field-service/work-order/work-order-creation-errors)
-- [Work order status is stuck](/troubleshoot/dynamics-365/field-service/work-order/work-order-status-stuck)
-- [Agreement work orders aren't generated](/troubleshoot/dynamics-365/field-service/work-order/agreement-work-orders-not-generated)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
