@@ -4,7 +4,7 @@ description: Enable customer service representatives to communicate with custome
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 04/15/2026
+ms.date: 11/12/2026
 ms.topic: overview
 ms.custom:
   - ai-gen-docs-bap
@@ -41,7 +41,9 @@ Beyond workflows and processes, the voice channel benefits from a common data fr
 
 ### Differentiating AI
 
-The voice channel has Microsoft's award-winning AI built into the product. This enables service representatives to resolve issues faster with tools like call transcriptions and sentiment analysis, and gain instant insights into trends.
+The voice channel has AI built into the product. This feature helps service representatives resolve issues faster by using tools like call transcriptions and sentiment analysis, and it provides instant insights into trends.
+
+You can configure audible AI disclosures at the start of voice interactions. Learn more in [Configure automated messages](configure-automated-message.md) and [Set up IVR agents in the voice channel](voice-channel-pva-bots.md).
 
 ### Support for emergency calling
 
@@ -59,7 +61,7 @@ Take a look at some of the key capabilities that makes the voice channel great f
 | Supervisor  | <ul><li>Consulting and transferring</li><li>Monitoring and barging</li><li>Ability to record and manage phone calls</li><li>Operations management through supervisor dashboards</li></ul> |
 | Customer   | <ul><li>Post-call survey</li><li>Queue position and wait time announcements</li><li>Music on hold and wait</li></ul> |
 
-### Related information
+## Related information
 
 [Install the voice channel](voice-channel-install.md)  
 [Supported cloud locations, languages, and locale codes ](voice-channel-region-availability.md)  

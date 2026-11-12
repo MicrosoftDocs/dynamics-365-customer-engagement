@@ -1,7 +1,7 @@
 ---
 title: Configure automated messages
 description: Learn how to configure automated messages for a channel or channel instance in your contact center and how to test your messages.
-ms.date: 10/12/2026
+ms.date: 11/12/2026
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -57,8 +57,8 @@ You can view a list of all representative-facing and customer-facing automated m
 1. In the site map of Copilot Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 1. In the **Automated messages** section, select **Manage**. The **Automated messages** page is displayed.
 
-    > [!div class=mx-imgBorder]
-    > !\[Screenshot of the Automated messages page that lists all automated messages.](../media/automated-messages-list.png "Display all automated messages")
+
+   :::image type="content" source="../media/automated-messages-list.png" alt-text="Screenshot of the automated messages page that lists all automated messages.":::
 
 1. To edit the language code and text, select one or more of the records. To deactivate messages, select **Deactivate**.
 
@@ -72,26 +72,24 @@ Customize a message at the channel level to apply the change to all instances wi
 1. On the **Automated messages** page, select a message, and then select **Edit**.
 1. On the **General** tab, edit the **Localized text** field, and then select **Save**.
 
-    > [!div class=mx-imgBorder]
-    > \![Screenshot of the General tab where you edit the localized text of an automated message.](../media/automated-messages-general.png "Configure automated messages at channel level")
+    :::image type="content" source="../media/automated-messages-general.png" alt-text="Screenshot of the General tab where you edit the localized text of an automated message.":::
 
 ### Use placeholders in messages
 
 The message field supports two types of placeholders: slugs and context variables. The system replaces placeholders with their values at runtime.
 
-#### Slugs
+**Slugs**
 
 | **Slug** | **Description** |
 |----------|-----------------|
 | {AgentName} | The full name of the service representative assigned to the conversation. |
 | {QueueName} | The name of the queue. |
 
-#### Context variables
+**Context variables**
 
 To insert a context variable, use the syntax `{$ContextVariableName$}`, as shown in the following example.
 
-> [!div class=mx-imgBorder]
-> \![Screenshot of a message field that contains a context variable in the required syntax.](../media/context-variables-message-field.png "Example of syntax for context variables in a message field")
+:::image type="content" source="../media/context-variables-message-field.png" alt-text="Screenshot of a message field that contains a context variable in the required syntax.":::
 
 > [!NOTE]
 > Context variables in the message field aren't supported for the voice channel.
@@ -234,6 +232,7 @@ Before you make the channel available to customers, use the following checklist 
 Use the following best practices when you configure automated messages for the voice channel:
 
 - Keep automated and custom messages concise. Lengthy messages can delay representatives from connecting with customers.
+- To inform callers that they're interacting with a conversational AI agent or hearing an AI-generated voice, configure an automated greeting message that plays before the AI-generated responses.
 - Consider configuring **Greeting Message for Async Channels and Voice** instead of **Agent assigned to a conversation**.
 - If you configure both **Agent assigned to a conversation** and **Greeting Message for Async Channels and Voice**, consider configuring **Greeting Message for Async Channels and Voice** to avoid the accumulation of messages in the queue.
 - Deactivate messages that announce the average wait time, unless your business requires that customers know this information.
@@ -242,7 +241,7 @@ Use the following best practices when you configure automated messages for the v
 
 [Add a chat widget](add-chat-widget.md)
 
-### Related information
+## Related information
 
 [Channels](../use/channels.md)  
 [Manage context variables](manage-context-variables.md)

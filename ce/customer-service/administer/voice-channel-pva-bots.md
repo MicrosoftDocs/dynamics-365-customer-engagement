@@ -4,9 +4,10 @@ description: Learn about how to add a Copilot agent to use in the voice channel 
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 02/11/2026
+ms.date: 11/12/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
+ai-usage: ai-assisted
 ms.collection: bap-ai-copilot
 ms.custom: bap-template
 ---
@@ -56,11 +57,17 @@ In the voice channel, you can configure the following features for the IVR agent
 
 The duration of a bot-handled voice call can be one hour only. The call is disconnected if it doesn't end or is escalated. The limit isn't applicable after the call is transferred to an agent or external number.
 
+## Regulatory and compliance considerations
+
+In some jurisdictions, your organization might be legally required to inform callers when it uses AI-generated voice responses. You can configure an introductory greeting message with an AI disclosure that plays before the conversation with the AI agent begins.
+
+Learn more in [Configure automated messages](configure-automated-message.md).
+
 ## Next steps
 
 [Configure a sample voice agent template](/dynamics365/contact-center/administer/bot-scenario-configure)
 
-### Related information
+## Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Configure context variables](context-variables-for-bot.md)  
