@@ -1,7 +1,7 @@
 ---
 title: Sales Development agent overview (preview)
 description: Learn how to deploy, onboard, and use the Sales Development agent in Microsoft Teams to automate sales outreach and prospect management.
-ms.date: 09/25/2026
+ms.date: 11/12/2026
 ms.topic: overview
 author: sbmjais
 ms.author: shjais
@@ -19,7 +19,7 @@ The Sales Development agent automates sales outreach and prospect management wit
 
 Here's a quick demo of the Sales Development agent in action:
 
-> [!VIDEO 7f78c18f-5526-432e-93d2-cdad8f2f8c0d]
+> [!VIDEO 4fb94c42-037b-4ccf-b8db-de3898dcc547]
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 

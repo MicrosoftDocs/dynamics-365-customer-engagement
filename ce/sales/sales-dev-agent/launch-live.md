@@ -1,7 +1,7 @@
 ---
 title: Launch live outreach with the Sales Development agent (preview)
 description: Learn how to launch live outreach with the Sales Development agent in Microsoft Teams to automate sales outreach and prospect management.
-ms.date: 09/25/2026
+ms.date: 11/10/2026
 ms.topic: overview
 author: sbmjais
 ms.author: shjais
@@ -57,3 +57,31 @@ After integration, the agent can outreach any new leads created in the CRM envir
 When the agent determines that a prospect is interested based on their email response, it updates the lead status in CRM to **qualified** and assigns the lead to its manager (the agent's creator) for follow-up. When the agent determines that a prospect isn't interested, it updates the lead status in CRM to **disqualified**.
 
 You can tell the agent to stop CRM-based outreach at any time, which prevents it from processing new CRM leads. However, the agent continues working with prospects it already contacted before the stop command was issued.
+
+## Troubleshooting
+
+Find guidance for resolving email delivery issues during live outreach.
+
+### Why do emails from my Sales Development agent bounce with "550 5.1.8 Access denied, bad outbound sender"?
+
+This error indicates that Exchange Online restricted the agent's mailbox from sending email. Restrictions can occur when an account exceeds the service's outbound sending limits or the limits in your organization's outbound spam policies, even during legitimate outreach. The mailbox can still receive email.
+
+To restore sending, ask your Exchange or security administrator to complete the following steps:
+
+1. Investigate whether the account is compromised and secure it before removing the restriction. Follow the guidance in [Respond to a compromised email account](/defender-office-365/responding-to-a-compromised-email-account).
+2. In the [Microsoft Defender portal](https://security.microsoft.com), go to **Email & collaboration** > **Review** > **Restricted entities**.
+3. Select the checkbox for the agent's mailbox, and then select **Unblock**.
+4. Review the account details and recommendations, and then select **Next**. Follow the recommendations to enable multifactor authentication (MFA) and reset the password if you haven't already done so.
+5. Select **Submit**, and then select **Yes** to confirm that the account is secure and remove the restriction.
+
+Alternatively, an administrator can use [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) to unblock the mailbox:
+
+```powershell
+Remove-BlockedSenderAddress -SenderAddress <UPN>
+```
+
+Replace `<UPN>` with the user principal name of the agent's mailbox account.
+
+Sending usually resumes within one hour after unblocking, but it can take up to 24 hours. For required permissions and detailed instructions, see [Remove blocked users from the Restricted entities page](/defender-office-365/outbound-spam-restore-restricted-users).
+
+To reduce the risk of another restriction, review your outreach volume against [Exchange Online sending limits](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits) and your organization's [outbound spam policies](/defender-office-365/outbound-spam-policies-configure). Increase outreach volume gradually, and keep it within those limits.
