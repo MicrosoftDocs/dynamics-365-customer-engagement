@@ -1,12 +1,13 @@
 ---
 title: Enable automatic address geocoding
-description: Learn how to enable auto geocoding to generate coordinates for addresses in Dynamics 365 Field Service.
+description: Automatic address geocoding in Dynamics 365 Field Service generates coordinates for service accounts and resources. Follow these steps to enable and use it.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/11/2025
+ms.date: 11/12/2026
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
+ms.reviewer: v-wesmith
 ---
 
 # Enable automatic address geocoding
@@ -27,7 +28,7 @@ To use geocoding or location services, [connect to maps](field-service-maps-addr
 
    :::image type="content" source="media/auto-geo-code-addresses-setting.png" alt-text="Screenshot of Field Service Settings with Auto Geo Code Addresses setting enabled.":::
   
-1. Select **Save**.  
+1. Select **Save & Close**.  
 
 The geocoding process in Field Service uses only one street field (**Street1**). The process ignores additional information like apartment number in **Street2** and **Street3**. Don't add the extended information to **Street1**. The string length could be too long to process.
 
@@ -38,12 +39,12 @@ The geocoding process in Field Service uses only one street field (**Street1**).
   
 1. Open a [service account](accounts.md#create-a-service-account) or a [functional location](functional-locations.md).  
   
-1. Make sure the service address is accurate.  
+1. Ensure the service address is accurate.  
   
-1. On the command bar, select **Geo Code**.
+1. Select **Geo Code** on the command bar.
 
    :::image type="content" source="media/geo-code-control.png" alt-text="Screenshot of the Geo Code option on an Account form.":::
   
-1. On the map dialog box, make sure you have the correct address, then select **Change**.
+1. On the map dialog box, ensure you have the correct address, and then select **Ok**.
   
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

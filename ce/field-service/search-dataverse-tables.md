@@ -1,32 +1,32 @@
 ---
-title: Use Dataverse search to find information
-description: Learn how to work with the advanced Dataverse search to find relevant information in Dynamics 365 Field Service.
-ms.date: 11/05/2025
+title: Configure Dataverse search for Field Service
+description: Dataverse search helps you find work orders, accounts, assets, and more in Dynamics 365 Field Service. Learn how to enable and configure it.
+ms.date: 11/11/2026
 ms.reviewer: v-wendysmith
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
 ---
 
-# Use Dataverse search to find information
+# Configure Dataverse search for Field Service
 
 Dynamics 365 Field Service stores data as tables in Microsoft Dataverse. You can configure Dataverse search to surface the tables that are relevant to your organization. For table reference information, go to [Dynamics 365 Field Service table/entity reference](./developer/reference/about-entity-reference.md).
 
 ## Enable Dataverse search
 
-Dataverse search indexes fields within tables in your environment to return results when searching for keywords. [Enable Dataverse search](/power-platform/admin/configure-relevance-search-organization#enable-dataverse-search) to take advantage of the Dataverse search feature.
+Dataverse search indexes fields within tables in your environment to return results when searching for keywords. [Enable Dataverse search](/power-platform/admin/configure-relevance-search-organization) to take advantage of the Dataverse search feature.
 
 To revert to the classic search experience, disable the Dataverse search feature in the Power Platform admin center and set the feature to **Off**.
 
 ## Configure search index
 
-With Dataverse search enabled, some [Field Service tables are automatically added](#tables-indexed-by-default) to the search index.
+When you enable Dataverse search, some [Field Service tables are automatically added](#tables-indexed-by-default) to the search index.
 
 You can add or remove tables from the index. While there's no limit on the number of tables in the index, a limit applies to the number of columns you can add. The maximum number of columns shows when you configure the tables to be indexed for Dataverse search. By default, Field Service uses approximately one-third of the available column capacity.
 
 For example, add the *Work Order* table and the *Service Account* column to the search index to quickly find work orders related to a specific service account.
 
-To add or remove tables from the search index, go to [Select tables for Dataverse search](/power-platform/admin/configure-relevance-search-organization#select-tables-for-dataverse-search).
+To add or remove tables from the search index, go to [Select tables for Dataverse search](/power-platform/admin/configure-relevance-search-organization#select-tables-for-dataverse-searchs-global-search).
 
 ### Tables indexed by default
 
@@ -46,9 +46,9 @@ Each of these tables has several commonly used fields indexed. For example, *msd
 
 ## Filter search results
 
-When searching in Field Service, users can refine search results by using [personalized facets and filters](/power-apps/user/facets-and-filters). For more information about search options, go to [Search for tables and rows by using Dataverse search](/power-apps/user/relevance-search).
+When searching in Field Service, you can refine search results by using [personalized facets and filters](/power-apps/user/facets-and-filters). For more information about search options, go to [Search for tables and rows by using Dataverse search](/power-apps/user/relevance-search).
 
-Administrators define fields and filters for each table in a table's Quick Find View. For more information, go to [Select searchable fields and filters for each table](/power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table).
+Administrators define fields and filters for each table in a table's Quick Find View. For more information, go to [Select searchable fields and filters for each table](/power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table-for-global-search).
 
 ## Next steps
 
