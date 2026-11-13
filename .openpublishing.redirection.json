@@ -35999,6 +35999,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/field-service/work-order-surveys.md",
+      "redirect_url": "/dynamics365/customer-voice/send-survey-flow",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/sales/linkedin/install-linkedin-connector.md",
       "redirect_url": "../../../dynamics365/sales/deprecations-sales#linkedin-lead-generation",
       "redirect_document_id": false

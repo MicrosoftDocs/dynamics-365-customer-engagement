@@ -1,9 +1,10 @@
 ---
 title: Set up users, licenses, and security roles
-description: Learn how to set up Field Service users and security roles in Dynamics 365 Field Service.
-ms.date: 11/07/2025
+description: Create accounts, assign licenses, add users to an environment, and configure security roles in Dynamics 365 Field Service.
+ms.date: 11/11/2026
 ms.topic: how-to
 ms.author: jacoh
+ms.reviewer: v-wesmith
 author: jasonccohen
 ---
 
@@ -13,13 +14,13 @@ Field service management requires several individuals with different roles to co
 
 ## Prerequisites
 
-- You need [admin permissions](/microsoft-365/admin/admin-overview/admin-overview).
+- You need [admin permissions](/microsoft-365/admin/admin-overview/admin-center-overview).
 - Your organization [owns Field Service licenses](buy-fs.md). To try Field Service, [start a free trial](https://dynamics.microsoft.com/get-started/free-trial/?appname=fieldservice).
 - You have knowledge of [security roles and column-level security profiles](security-permissions.md) and how they affect users.
 
 ## Create user accounts
 
-You use the Microsoft 365 admin center to [create user accounts](/power-platform/admin/create-users) for every user who needs access to Field Service.
+Use the Microsoft 365 admin center to [create user accounts](/power-platform/admin/create-users) for every user who needs access to Field Service.
 
 ### From your organization
 
@@ -29,7 +30,7 @@ Learn more in [Add users](/microsoft-365/admin/add-users/add-users).
 
 ### B2B collaboration users
 
-For scenarios where you want to add a contractor or vendor to your Field Service applications, create a B2B collaboration user. Collaboration users are managed in the Microsoft Entra admin center.
+For scenarios where you want to add a contractor or vendor to your Field Service applications, create a business-to-business (B2B) collaboration user. Manage collaboration users in the Microsoft Entra admin center.
 
 Learn more in [Add Microsoft Entra B2B collaboration users](/entra/external-id/add-users-administrator).
 

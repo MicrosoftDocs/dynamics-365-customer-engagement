@@ -1,14 +1,15 @@
 ---
-title: Work with customer assets
-description: Learn how to add customer assets to use asset management in Dynamics 365 Field Service.
-ms.date: 11/11/2025
+title: Manage customer assets in Dynamics 365 Field Service
+description: Customer assets help you manage equipment in Dynamics 365 Field Service. Learn how to create, categorize, and connect assets to IoT sensors.
+ms.date: 11/12/2026
 author: jshotts
 ms.author: jasonshotts
+ms.reviewer: v-wesmith
 ms.topic: how-to
 ms.custom: bap-template
 ---
 
-# Work with customer assets
+# Manage customer assets in Dynamics 365 Field Service
 
 When you add your customers' assets in Field Service, you can track equipment that requires inspections, maintenance, and repairs. Field Service asset management includes which equipment is located at a [functional location](functional-locations.md) and the [service history of all past and present work orders](service-history.md) for each asset.
 
@@ -22,7 +23,7 @@ You can [create customer assets individually](#manually-create-customer-assets),
 
 ### Manually create customer assets
 
-1. In Field Service, select the **Service** area. Under **Assets**, select **Assets**, then select **New**.
+1. In Field Service, select the **Service** area. Under **Assets**, select **Assets**, and then select **New**.
 
    :::image type="content" source="media/customer-asset-create-manually-new.png" alt-text="Screenshot of the New Customer Asset form.":::
 
@@ -30,7 +31,7 @@ You can [create customer assets individually](#manually-create-customer-assets),
 
 1. Optionally, enter more details:
 
-    - **Category**: Add or create a category that serves as a label to organize assets into groups.
+    - **Category**: Add or create a [category](#create-and-assign-asset-categories) that serves as a label to organize assets into groups.
 
     - **Product**: If the asset correlates with a [product in your product catalog](create-product-or-service.md), look for and select it.
 
@@ -43,7 +44,7 @@ You can [create customer assets individually](#manually-create-customer-assets),
 
 1. Select **Save**.
 
-1. Optionally add subcomponents or child assets in the **Sub Assets** grid.
+1. Optionally, add subcomponents or child assets in the **Sub Assets** grid.
 
 1. Optionally, [link knowledge articles](field-service-km-link.md#link-related-entities-to-knowledge-articles). Learn more in [Knowledge management overview](field-service-km-overview.md).
 
@@ -53,9 +54,9 @@ The Excel workbook must contain at least two columns, **Name** and **Account**. 
 
 1. In Field Service, select the **Service** area. Under **Assets**, select **Assets**.
 
-1. Select the **More commands** (**&vellip;**) menu, then select **Import from Excel**.
+1. Select the **More commands** (**&vellip;**) menu, and then select **Import from Excel**.
 
-1. Select **Choose File**, then open an Excel workbook.
+1. Select **Choose File**, and then open an Excel workbook.
 
 1. Select an owner for the imported records if it should be someone other than you.
 
@@ -69,7 +70,7 @@ The Excel workbook must contain at least two columns, **Name** and **Account**. 
 
 1. Select **Finish Import** to queue the records for importing.
 
-    You can keep working while the assets are imported, or select **Track Progress**. Select **Done** to confirm that you want to leave the page, then check the status of the import in the **My Imports** view.
+    You can keep working while the assets are imported, or select **Track Progress**. Select **Done** to confirm that you want to leave the page, and then check the status of the import in the **My Imports** view.
 
 ### Automatically create customer assets from work order products
 
@@ -81,7 +82,7 @@ You can automatically create customer assets when you add a product to a work or
 
     You can't turn services into customer assets.
 
-1. In the product page, select the **Field Service** tab.
+1. Select the **Field Service** tab.
 
 1. In the **General** section, set **Convert to Customer Asset** to **Yes**.
 
@@ -100,9 +101,9 @@ When the status of the work order changes to **Open-Completed** or **Closed-Post
 
 ## Create and assign asset categories
 
-Use an asset category to group customer assets. Asset categories allow you to quickly apply property templates to a group of assets.
+Use an asset category to group customer assets. Asset categories help you quickly apply property templates to a group of assets.
 
-1. In Field Service, select the **Settings** area, then select **Asset Categories**.
+1. In Field Service, select the **Settings** area, and then select **Asset Categories**.
 
 1. Select **New**.
 
@@ -110,9 +111,13 @@ Use an asset category to group customer assets. Asset categories allow you to qu
 
 1. Select **Save**.
 
-1. To assign an asset to the category, select **Related** > **Customer Assets** and add a new or existing asset. You can also assign a category when you create an asset.
+1. To assign an asset to the category, select **Related** > **Customer Assets** and add a new or existing asset.
 
-    :::image type="content" source="media/assets-categories-assign.svg" alt-text="Screenshot of a customer asset, with the asset category highlighted.":::
+1. Select **Save & Close**.
+
+You can also assign a category when you create or edit an asset.
+
+:::image type="content" source="media/assets-categories-assign.png" alt-text="Screenshot of a customer asset, with the asset category highlighted.":::
 
 ## Connect customer assets to Connected Field Service
 
@@ -129,5 +134,6 @@ When you're viewing a customer asset, select **Check IoT Setup** to get informat
 ## Next steps
 
 - [Validate customer assets on work orders](asset-validation.md)
+- [Asset maintenance](asset-maintenance-overview.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

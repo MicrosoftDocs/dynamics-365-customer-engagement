@@ -3,7 +3,7 @@ title: Extend Universal Resource Scheduling with a custom language constraint
 description: Learn how to extend Universal Resource Scheduling in Dynamics 365 with a custom constraint, using the example of filtering resources by language.
 author: mkelleher-msft
 ms.author: mkelleher
-ms.date: 09/24/2025
+ms.date: 11/11/2026
 ms.reviewer: puneet-singh1
 ms.subservice: common-scheduler
 ms.topic: how-to
@@ -25,6 +25,7 @@ Create the new schema for the main `Language` table and update the `Resource` an
 ### Create a new publisher
 
 1. Go to the **Power Platform Environment Settings** app. Select **Customizations** > **Publishers** and create a new publisher. Learn more in [Create a publisher](/power-platform/alm/solution-concepts-alm#solution-publisher).
+
 1. Enter the following information:
 
     |Field | Value|
@@ -59,7 +60,7 @@ Create the new schema for the main `Language` table and update the `Resource` an
     |Display Name | Language|
     |Plural Name | Languages|
 
-   The schema name under **Advanced options** automatically fills in| lang_Language. The `lang_` prefix is  read-only.
+   The schema name under **Advanced options** automatically fills in `lang_Language`. The `lang_` prefix is read-only.
 
 1. Select **Save**.
 
@@ -72,10 +73,10 @@ Create the new schema for the main `Language` table and update the `Resource` an
 
 ### Create the relationships from the existing Requirement table to the Language table
 
-1. Open the Language solution and select **Add existing** > **Table** > **Resource Requirement**.
+1. Edit the Language solution and select **Add existing** > **Table** > **Resource Requirement**.
 1. If presented with a Missing Required Components dialog, select **No**, and don't include required components.
 1. Select **Add**.
-1. In the Resource Requirement table, create a new column.
+1. In the Resource Requirement table, select **New** > **Column**.
 1. Enter the following information:
 
     |Field | Value|
@@ -372,7 +373,7 @@ The board reloads with the updated configuration. Filtering works. If you create
 
 ## Customize the schedule assistant
 
-Customize the schedule assistant filter layout and Retrieve Constraints Query configurations to use the new Language constraints in the schedule assistant.
+Customize the schedule assistant filter layout and retrieve constraints query configurations to use the new language constraints in the schedule assistant.
 
 Unlike the schedule board customizations, where you can customize each board individually, the schedule assistant customizations affect all boards where the schedule assistant is used. You can make the schedule assistant customizations specific to a schedulable type or for all types. In this example, customize the schedule assistant for all types.
 
@@ -567,7 +568,7 @@ Resource Cell Template:
 
 The board reloads with the updated configuration. The resource cell shows how a resource matches the language constraint in the Filter panel.
 
-### Additional resources
+### Related information
 
 [Universal Fetch XML](universal-fetchxml.md)
 

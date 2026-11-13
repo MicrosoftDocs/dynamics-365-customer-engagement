@@ -2,7 +2,7 @@
 metadata:
   title: Frequently asked questions for the Field Service mobile app
   description: Find answers to commonly asked questions about the Dynamics 365 Field Service mobile app.
-  ms.date: 11/10/2025
+  ms.date: 11/10/2026
   ms.subservice: field-service-mobile
   ms.topic: faq
   author: JonBaker007
@@ -15,14 +15,14 @@ sections:
     questions:  
       - question: Why can't I see the calendar, or I see the wrong calendar?
         answer: |
-          To fix this issue, make sure the **Booking Calendar Control** is enabled for phones and tablets from the bookable resource booking entity. Learn more in [Customize the booking view](/dynamics365/guidance/resources/field-service-mobile-customize-booking-view).
+          To fix this issue, make sure the **Booking Calendar Control** is enabled for phones and tablets from the bookable resource booking table. Learn more in [Customize the booking view](/dynamics365/guidance/resources/field-service-mobile-customize-booking-view).
           
-          :::image type="content" source="../media/mobile-2020-booking-calendar-control.png" alt-text="Screenshot of the mobile booking calendar control.":::
+          :::image type="content" source="../media/booking-calendar-control.png" alt-text="Screenshot of the mobile booking calendar control.":::
          
       - question: I created a custom view for my Booking Calendar. Why aren't the data or certain elements, like address, displayed for each booking?
         answer: |
-          The Booking Calendar control requires certain columns in the view to render all data. Best practice is to start from the Out of the Box view, "Bookings" and use "Save As" in the form designer to create a duplicate with required columns. Modifications can be done from there while not removing default columns.
-          If a field such as "Address" is missing from all Bookings on the calendar, the Calendar control can't find the address columns. The Work Order table might have been renamed or modified. Add proper fields from the renamed entity back into the view.
+          The Booking Calendar control requires certain columns in the view to render all data. Best practice is to start from the default view, **Bookings** and use **Save As** in the form designer to create a duplicate with required columns. Modifications can be done from there while not removing default columns.
+          If a field such as "Address" is missing from all bookings on the calendar, the calendar control can't find the address columns. The work order table might have been renamed or modified. Add proper fields from the renamed table back into the view.
           
           :::image type="content" source="../media/address_Items.png" alt-text="Screenshot of columns related to address for booking calendar.":::
 
@@ -65,12 +65,13 @@ sections:
           
             To fix this issue:
           
-            1. Verify that your user is assigned the **Field Service - Resource** security role _and_ field security profile.
-            1. Edit the **Field Service - Resource** security role, and assign read privileges for the **Master Entity Routing Configuration** entity in **Custom Entities**.
-            1. Edit the **Field Service - Resource** security role, and assign read privileges for the **Routing Rule Set** entity on the **Service Management** tab.
+            1. Verify that your user is assigned the **Field Service - Resource** security role _and_ field security profile. Learn more in [Assign a security role to a user](/power-platform/admin/assign-security-roles).
+            1. Edit the **Field Service - Resource** security role, and assign read privileges for the **Master Entity Routing Configuration** table under **Custom Tables**. Learn more in [View a list of security roles in an environment](/power-platform/admin/security-roles-privileges#view-a-list-of-security-roles-in-an-environment).
+            1. Edit the **Field Service - Resource** security role, and assign read privileges for the **Routing Rule Set** table under **Service Management**.
                     
-            :::image type="content" source="../media/fsm-insufficient-permission-faq.png" alt-text="Screenshot of Field Service security roles in Power Apps, showing permissions for the Field Service - Resource role.":::
+               :::image type="content" source="../media/fsm-insufficient-permission-faq.png" alt-text="Screenshot of Field Service security roles in Power Apps, showing permissions for the Field Service - Resource role.":::
 
+            1. Select **Save and close**.
 
         - question: Why does the app say "Contact your administrator for access to your organization's mobile apps"?
           answer: |
@@ -115,7 +116,7 @@ sections:
           answer: |
               Yes, the Field Service (Dynamics 365) app is available in the Apple and Lenovo China market app stores.
 
-  - name: Entities, forms, views, and fields 
+  - name: Tables, forms, views, and fields 
     questions:
           
       - question: 
@@ -128,13 +129,13 @@ sections:
           If you see something like the previous screenshot, you're viewing the booking form, and *not* the combined booking and work order form.
           
 
-          To solve this issue, sign in to the mobile app as a user who has the **Field Service - Resource** security role. Also make sure that the right form (the mobile-optimized booking and work order form) is associated with the booking entity in the app designer.
+          To solve this issue, sign in to the mobile app as a user who has the **Field Service - Resource** security role. Also make sure that the right form (the mobile-optimized booking and work order form) is associated with the booking table in the app designer.
 
       - question: 
           How can I enable multiline text fields on forms to automatically expand based on the amount of content entered?
         answer: |
           To enable autoexpanding fields:
-          1. Enter the form designer interface for the entity that contains the multiline text field you want to expand.
+          1. Enter the form designer interface for the table that contains the multiline text field you want to expand.
           1. Select the desired multiline text field.
           1. Within field properties, select the option "Automatically expand to use available space."
           1. Save and publish.
@@ -150,7 +151,7 @@ sections:
       - question: 
          After I modify my *Work Order Product* form, why can't I save updates while in Offline mode?
         answer: |
-         While I work with customized forms, there can be several causes for functional issues. Review any new business logic added to the form, in addition to ensuring that all fields required by out-of-the-box business logic are still available on the form. For example, a required field on Work Order Product is the Work Order field. This field must be present to save and pass all client-side validation while running offline.
+         While I work with customized forms, there can be several causes for functional issues. Review any new business logic added to the form, in addition to ensuring that all fields required by out-of-the-box business logic are still available on the form. For example, a required field on work order product is the work order field. This field must be present to save and pass all client-side validation while running offline.
 
       - question:  Why aren't booking status time calculations (updates to Start, Arrival, and End Times) working?
         answer: |
