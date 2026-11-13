@@ -1,11 +1,12 @@
 ---
 title: Customization considerations for the work order form
 description: Commonly mentioned considerations for customizations of the work order form in Dynamics 365 Field Service.
-ms.date: 08/28/2026
+ms.date: 11/12/2026
 ms.topic: article
 author: lmasieri
 ms.author: lmasieri
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Customization considerations for the work order form
@@ -14,6 +15,18 @@ This article lists common considerations when customizing the work order form in
 
 > [!TIP]
 > Configure field-level security to ensure users update only the intended fields. For example, if a field in a form is set to read-only, users might still update some fields. The system doesn't save the updated form if the user doesn't have the correct field-level security.
+
+## Customization best practices
+
+Follow these practices to keep your customizations supported and avoid issues during updates:
+
+- Don't edit out-of-box fields, option set values, web resources, workflows, or security roles. Field Service logic depends on them. To remove a field from a form, hide it instead.
+- Keep form scripts to a minimum, and use asynchronous requests in them.
+- Run [solution checker](/power-apps/maker/data-platform/use-powerapps-checker) on your scripts and plug-ins before you deploy them.
+- Use asynchronous workflows instead of synchronous workflows when possible.
+- Use only supported customization methods. Learn more in [Unsupported customizations](/power-apps/developer/data-platform/supported-customizations#unsupported-customizations).
+
+Learn more in [Field Service customization best practices](/dynamics365/guidance/resources/field-service-customize-best-practices).
 
 ## Work order form header and command bar
 
@@ -33,7 +46,7 @@ You can [customize the command bar](/power-apps/maker/model-driven-apps/use-comm
 
 ## Custom work order statuses
 
-Don't edit work order system statuses because system jobs and plug-ins rely on these statuses. Instead, administrators can create custom work order substatuses that map to work order system statuses. For more information, see [Don't edit option set (choice) values](/dynamics365/guidance/resources/field-service-customize-best-practices#dont-edit-option-set-choice-values).
+Don't edit work order system statuses because system jobs and plug-ins rely on these statuses. Instead, administrators can create custom work order substatuses that map to work order system statuses. Learn more in [Don't edit option set (choice) values](/dynamics365/guidance/resources/field-service-customize-best-practices#dont-edit-option-set-choice-values).
 
 ## Add maps to the work order form
 
@@ -324,6 +337,21 @@ The following side panes render the same form as if you opened the full record:
 
 You can open only one side pane at a time. You can't change the width of the pane.
 
+## Troubleshoot a customized work order form
+
+If the work order form doesn't load or behaves unexpectedly after you customize it, isolate the cause:
+
+1. Open the work order and check the browser's developer tools console for script errors.
+
+1. Reload the form with custom scripts and controls turned off. If the issue goes away, a customization causes it. Learn more in [Use URL parameters to disable form components](/power-apps/developer/model-driven-apps/troubleshoot-forms#use-url-parameters-to-disable-various-form-components).
+
+1. Check the [solution layers](/power-apps/maker/data-platform/solution-layers) of the form and related components for unmanaged or non-Microsoft layers that override Field Service.
+
+1. Publish all customizations.
+
+1. Run [Solution Health Hub](troubleshoot-field-service-solution-health.md) to detect known configuration issues.
+
+Learn more in [Can't delete a record because of restrict-delete relationships](/troubleshoot/dynamics-365/field-service/customization/restrict-delete-relationships) and [Work order doesn't save or create successfully](/troubleshoot/dynamics-365/field-service/work-order/work-order-creation-errors).
 ## Next steps
 
 - [Set up booking statuses](set-up-booking-statuses.md)
