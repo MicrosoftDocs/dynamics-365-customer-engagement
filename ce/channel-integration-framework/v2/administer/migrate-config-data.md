@@ -20,7 +20,7 @@ Perform the following steps to migrate non-Microsoft channel configuration data 
 
 2. Open the experience profile in [Copilot Service admin center](configure-channel-provider-app-profile-manager.md), configure a new channel provider, and copy the channel URL and other attribute values from the Channel Integration Framework 1.0 provider.
 
-3. [Assign user to this profile](../../../customer-service/administer/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels).
+3. [Assign user to this profile](../../../customer-service/administer/create-agent-experience-profile.md#assign-users-and-templates-and-configure-productivity-pane-and-channels).
 
 4. In the channel provider code, make sure that the communication panel is set to the docked state using the [setMode(1)](../../v1/develop/reference/microsoft-ciframework/setMode.md) API.
 
@@ -32,13 +32,13 @@ Perform the following steps to migrate non-Microsoft channel configuration data 
 
 1. Open the Power Apps portals admin center and select your environment. More information: [Open Power Apps portals admin center](/powerapps/maker/portals/admin/admin-overview#open-power-apps-portals-admin-center)
 
-2. Copy the **Omnichannel** channel URL and other attribute values from the Channel Integration Framework 1.0 provider. If you need any other channel such as Twilio, create a new channel provider in Copilot Service admin center, and then copy the channel URL and attribute values. More information: [Configure channel provider](../../../customer-service/administer/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
+2. Copy the **Omnichannel** channel URL and other attribute values from the Channel Integration Framework 1.0 provider. If you need any other channel such as Twilio, create a new channel provider in Copilot Service admin center, and then copy the channel URL and attribute values. More information: [Configure channel provider](../../../customer-service/administer/create-agent-experience-profile.md#assign-users-and-templates-and-configure-productivity-pane-and-channels)
 
 3. Open the experience profile in Copilot Service admin center and do the following actions:
 - If the **Omnichannel upgraded app profile** is available, then edit this app profile and attach the channel provider that you configured in the previous step.
 - If the **Omnichannel upgraded app profile** isn't available, then create a new experience profile and attach the channel provider that you configured in the previous step.
 
-4. [Assign user to this profile](../../../customer-service/administer/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels).
+4. [Assign user to this profile](../../../customer-service/administer/create-agent-experience-profile.md#assign-users-and-templates-and-configure-productivity-pane-and-channels).
 5. Make sure that the **Active Channel Providers** view is enabled.
 6. In the channel provider code, make sure that the communication panel is set to the docked state using the [setMode(1)](../../v1/develop/reference/microsoft-ciframework/setMode.md) API.
 
