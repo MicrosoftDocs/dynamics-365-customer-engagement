@@ -37,6 +37,12 @@ To enable the travel time calculation for manually scheduled requirements, make 
 
 When you add and reorder subsequent bookings on the schedule board, only travel time gets updated. The start time of a booking doesn't change automatically. To ensure that the remaining bookings cascade, correct overlapping times, and fit inside working hours after changes, organizations should consider using the [Resource Schedule Optimization add-in](../../field-service/rso-overview.md).
 
+> [!NOTE]
+> When manually creating bookings, travel will **not** be calculated time if any of the following conditions are true:
+>
+> - Miles Traveled (msdyn_milestraveled) included in the create payload —even as 0— prevents automatic travel recalculation.
+> - Both Estimated Arrival Time (msdyn_estimatedarrivaltime) and Arrival Time (msdyn_actualarrivaltime) empty on the booking prevents travel calculation.
+
 ## Add travel time with schedule assistant
 
 The schedule assistant is designed to help dispatchers make better scheduling decisions based on travel times and distances. When you book a requirement with the schedule assistant, the system considers travel time. However, if the work order requirement is location agnostic, resources without locations also show in the results and the booking doesn't calculate travel time.
