@@ -23,7 +23,7 @@ Ensure that the following prerequisites are met:
 
 - In Power Platform admin center, go to **Settings** > **Product** > **Collaboration**, and then turn on the setting for **End users can join Teams meetings from appointments**. 
 - Representatives in your organization must be able to access and use Teams.
-- Representatives must be able to access the productivity pane to see the Join a Teams call app. Learn more in [Assign templates and enable the productivity pane and channels](create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
+- Representatives can access the productivity pane to see the Join a Teams call app. Learn more in [Assign templates and enable the productivity pane and channels](create-agent-experience-profile.md#assign-users-and-templates-and-configure-productivity-pane-and-channels).
 - If you want representatives to be able to invite their customers to Teams meetings via email, representative email must be configured for outbound email.
 
 ## Set up the ability for representatives to invite customers to join Teams calls

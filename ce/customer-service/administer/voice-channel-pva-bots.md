@@ -59,7 +59,7 @@ The duration of a bot-handled voice call can be one hour only. The call is disco
 
 ## Regulatory and compliance considerations
 
-In some jurisdictions, your organization might be legally required to inform callers when it uses AI-generated voice responses. You can configure an introductory greeting message with an AI disclosure that plays before the conversation with the AI agent begins.
+In some geographical regions, your organization might be legally required to inform callers when it uses AI-generated voice responses. You can configure an introductory greeting message with an AI disclosure that plays before the conversation with the AI agent begins.
 
 Learn more in [Configure automated messages](configure-automated-message.md).
 
