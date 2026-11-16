@@ -4,8 +4,9 @@ description: Learn how to set up overflow conditions and actions for your voice,
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 10/30/2026
+ms.date: 11/16/2026
 ms.topic: how-to
+ai-usage: ai-assisted
 ms.custom:
  - bap-template
  - ai-gen-docs-bap
@@ -199,6 +200,64 @@ The "wait time in queue" condition is evaluated in any of the following scenario
 For voice work items, if a representative or supervisor transfers the work item to the queue or it overflows from another queue, transfer to an external number or transfer to a different queue actions only are available.
 
 If a queued work item is moved to another queue because of long wait times, and the new queue also has overflow handling, the system checks for overflow conditions again. If the wait time is too high in the new queue as well, it triggers the overflow action.
+
+## Upgrade legacy in-queue overflow to a conversation orchestration playbook
+
+You can upgrade an existing legacy in-queue overflow configuration to a conversation orchestration playbook without rebuilding it. Review the mapped settings, and then confirm to publish and activate the playbook.
+
+With the new experience, you create new in-queue overflow configurations in conversation orchestration. You can continue to edit existing legacy configurations until you choose to upgrade them.
+
+The system automatically enables conversation orchestration if needed. The upgrade doesn't affect prequeue overflow.
+
+The queue must have an existing legacy in-queue overflow configuration to use the upgrade option.
+
+### Understand Copilot credit usage
+
+Under the planned credit exemption, upgrading a single queue or multiple queues doesn't use Copilot credits.
+
+Upgraded and newly created playbooks don't use Copilot credits when they have only one branch, that branch contains only the wait time in queue exceeds condition, and they don't use context variables.
+
+Playbooks use Copilot credits if they include other conditions, multiple branches, or any context variables. Before you publish these changes, review the publish confirmation. Publishing fails if the required credits aren't available.
+
+### Upgrade a single queue
+
+1. In Copilot Service admin center, go to the advanced queue, and in **Overflow handling** card, or open the in-queue section on its **Overflow** page.
+
+1. In the banner, select **Get started**.
+
+   :::image type="content" source="../media/migrate-overflow-queue.png" alt-text="Screenshot of get started with upgrade of legacy overflow to conversation orchestration,":::
+
+1. In the confirmation dialog, review the mapped condition, threshold, action, and target.
+1. Select **Migrate and activate**. The conversation orchestration page displays a preview of the playbook after the upgrade succeeds.
+1. Review the playbook, and select **Save & publish**.
+
+> [!IMPORTANT]
+> When you confirm the upgrade, the system activates conversation orchestration overflow and stops legacy in-queue overflow immediately. If the upgrade fails, legacy overflow remains active. Reviewing the mapped settings doesn't test live routing.
+
+### Upgrade multiple queues
+
+1. On the **Queues** page, select **Get started** in the banner. The banner appears when more than one queue is pending upgrade. Queues that don't have legacy in-queue overflow are excluded. Upgraded queues show a link to their playbook.
+1. Review each queue's current settings and upgrade status.
+1. Select specific queues, or choose to upgrade all pending queues. No queues are selected by default.
+1. Review the playbook and queue counts, and then expand each group to check its mapped settings and member queues.
+1. Select **Migrate and activate**.
+1. Check the **Status** column for results and playbook links. Retry any failed queues. Their legacy overflow remains active.
+
+Queues with the same threshold, action, and target share a playbook. The upgrade groups equivalent thresholds together. For example, 60 seconds and one minute are treated as the same threshold.
+
+> [!IMPORTANT]
+> Editing a shared playbook changes overflow handling for all queues assigned to it. To use different settings for one queue, assign it to a separate playbook in conversation orchestration.
+
+Each queue upgrades independently. A failed upgrade for one queue doesn't undo successful upgrades for other queues.
+
+### Manage overflow after you upgrade
+
+To change in-queue overflow after an upgrade, edit the conversation orchestration playbook and publish it again. The legacy settings remain read-only for reference. You can't reactivate them in the legacy experience.
+
+> [!IMPORTANT]
+> Unpublishing an upgraded playbook removes its in-queue overflow handling from all assigned queues. Legacy overflow doesn't resume automatically.
+
+If an upgrade continues to fail or you need help after an upgrade, contact Microsoft support.
 
 ## Edit automated messages for overflow actions
 
