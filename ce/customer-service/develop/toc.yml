@@ -139,6 +139,8 @@
               href: /dynamics365/contact-center/extend/api/api-conversation-webhook?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml          
           - name: Error handling
             href: /dynamics365/contact-center/extend/error-handling?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Embed a non-Microsoft contact center in Copilot Service workspace (preview)
+          href: embed-third-party-contact-center.md
       - name: Voice
         items:
         - name: Download call recordings in bulk
