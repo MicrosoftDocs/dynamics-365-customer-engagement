@@ -10,7 +10,7 @@ ms.author: vhorvath
 
 # Company alignment and legal entities
 
-When you work with Field Service and the [Integrated Project Operations with Finance deployment model](project-operations-integration-inventory.md), it's important to understand the concept of company and legal entities.
+When you work with Field Service and the [Integrated Project Operations with Finance deployment model](project-operations-integration-deployment-models.md), it's important to understand the concept of company and legal entities.
 
 ## Company alignment
 

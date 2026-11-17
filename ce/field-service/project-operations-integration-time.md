@@ -24,13 +24,13 @@ In Field Service, access time entries from the **Time Entries** page. Select **S
 
 ## Time entry approval
 
-To approve time entries, a user must be a team member on the project and have the **Project Approver** field on their team member record set to **Yes**. Learn more in [Security and approvals](/dynamics365/project-operations/approvals/approvals-security).
+To approve time entries, a user must be a team member on the project and have the **Project Approver Admin** field on their team member record set to **Yes**. Learn more in [Security and approvals](/dynamics365/project-operations/approvals/approvals-security). Time entries can be approved in Field Service or Project Operations.
 
 Only approved time entries generate financial actuals and update task progress. Learn more in: [Approvals overview](/dynamics365/project-operations/approvals/approvals-overview).
 
 ## Project task progression
 
-Approved time entries are the only signal used to update task execution progress in the Work breakdown Structure (WBS).
+Approved time entries are the only signal used to update task execution progress in the Work Breakdown Structure (WBS).
 
 When project managers approve time entries:
 

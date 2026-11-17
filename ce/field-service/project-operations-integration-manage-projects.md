@@ -2,7 +2,7 @@
 title: Manage projects in Field Service
 ms.reviewer: wesmith
 description: Learn how to manage projects in Dynamics 365 Field Service with the Dynamics 365 Project Operations integration.
-ms.date: 07/07/2026
+ms.date: 11/05/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -14,9 +14,9 @@ This article provides the steps needed to create an eligible project in Field Se
 
 ## Prerequisites
 
-- The [Field Service and Project Operations integration is installed](project-operations-integration-setup.md).
+- The [Field Service and Project Operations integration is installed](project-operations-integration-install.md) and [set up](project-operations-integration-setup.md).
 - You have a [Field Service administrator role](security-permissions.md#field-service-security-roles).
-- You understand your organization’s [Project Operations deployment model](project-operations-integration-inventory.md#deployment-models-and-inventory-ownership).
+- You understand your organization’s [Project Operations deployment model](project-operations-integration-deployment-models.md).
 
 ## Create a project
 
@@ -28,7 +28,7 @@ When you create the project, project contract, and contract lines, ensure that t
 
 1. Enter the project name and any other information.
 
-   :::image type="content" source="media/project-operations-integration-project.png" alt-text="Screenshot of Field Service Project screen.":::
+   :::image type="content" source="media/project-operations-integration-project.png" alt-text="Screenshot of Field Service Project screen." lightbox="media/project-operations-integration-project.png":::
 
 1. Select **Save & Close**.
 
@@ -44,7 +44,7 @@ When you create project contract lines, understand which [fields impact Field Se
 
 1. Select **Save**.
 
-   :::image type="content" source="media/project-operations-integration-project-contract.png" alt-text="Screenshot of Field Service Project Contracts screen.":::
+   :::image type="content" source="media/project-operations-integration-project-contract.png" alt-text="Screenshot of Field Service Project Contracts screen." lightbox="media/project-operations-integration-project-contract.png":::
 
 1. Select the **Contract Lines** tab.
 
@@ -62,11 +62,11 @@ A frontline worker can assign the project to work orders or agreements.
 
 ## View material usage logs
 
-A material usage log shows the list of materials or parts that a field technician uses while completing a job. For example, if someone installs a replacement part during a repair, that part and its cost appear on the log. It helps you track what materials were consumed so you can charge the customer correctly and update inventory.
+A material usage log (MUL) shows the list of materials or parts that a field technician uses while completing a job. For example, if someone installs a replacement part during a repair, that part and its cost appear on the log. It helps you track what materials were consumed so you can charge the customer correctly and update inventory.
 
 The system automatically creates a material usage log when a technician records materials or services on a work order as used. Learn more in [Record material usage on projects and project tasks](/dynamics365/project-operations/material/material-usage-log). You can view all material usage logs by selecting **Projects** > **Material Usage Logs**.
 
-If [**Auto-Approve Project Approval** was enabled](project-operations-integration-setup.md#enable-the-integration) during setup, the system automatically approves material usage logs, creates an **Approved** project approval record, and generates actuals. Skip to [Create invoices](#view-actuals-and-create-invoices).
+If [**Auto-Approve Project Approval** was enabled](project-operations-integration-install.md#enable-the-integration) during setup, the system automatically approves material usage logs, creates an **Approved** project approval record, and generates actuals. Skip to [Create invoices](#view-actuals-and-create-invoices).
 
 If **Auto-Approve Project Approval** is *No*, the material usage logs must be submitted for approval.
 
@@ -76,9 +76,11 @@ If **Auto-Approve Project Approval** is *No*, the material usage logs must be su
 
 ## Approve billable items
 
-If **Auto-Approve Project Approval** is *No*, review and approve the submitted Material Usage Logs.
+If **Auto-Approve Project Approval** is *No*, review and approve the submitted billable items including MULs, time entries, expenses, and recalled expense requests.
 
 1. In Field Service, select the **Projects** area. Then, select **Approvals**.
+
+   You can change the view to look for expense entries, time entries, or material usage logs as needed.
 
 1. Find and select the submitted items. Then select **Approve**. The system generates actuals.
 
