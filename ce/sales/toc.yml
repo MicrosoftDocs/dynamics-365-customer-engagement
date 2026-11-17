@@ -366,6 +366,24 @@ items:
             href: digital-selling-scoring.md
           - name: Digital selling FAQs
             href: faq-digital-selling.md
+      - name: Canvas experience (preview)
+        items:
+          - name: Overview of CRM Canvas Designer
+            href: ../canvas-designer/canvas-overview.md
+          - name: Create and publish a canvas
+            href: ../canvas-designer/configure-canvas.md
+          - name: Use context-aware canvases
+            href: ../canvas-designer/context-aware-canvases-overview.md
+          - name: Manage canvases in CRM Canvas Designer
+            href: ../canvas-designer/manage-canvases.md
+      - name: Insights management (preview)
+        items:
+          - name: Insights overview
+            href: ../canvas-designer/insights-overview.md
+          - name: Set up and configure insights
+            href: ../canvas-designer/set-up-configure-insights.md
+          - name: Create and manage custom insights
+            href: ../canvas-designer/create-manage-custom-insights.md
       - name: Account and contact management
         items:
           - name: Enable or disable saving of business card image
@@ -1083,6 +1101,10 @@ items:
         items:
           - name: Work with accounts and contacts
             href: accounts-contacts.md
+          - name: Manage accounts using canvas experience
+            href: ../canvas-designer/use-account-canvas.md
+          - name: Manage contacts using canvas experience
+            href: ../canvas-designer/use-contact-canvas.md
           - name: Organization charts
             href: organization-charts.md
             items:
@@ -1241,6 +1263,8 @@ items:
                 href: move-opportunity-stages.md
           - name: Prioritize opportunities using predictive scores
             href: work-predictive-opportunity-scoring.md
+          - name: Manage opportunities using canvas experience
+            href: use-opportunity-canvas.md
           - name: Opportunity pipeline view
             items:
               - name: Manage opportunities using opportunity pipeline view
