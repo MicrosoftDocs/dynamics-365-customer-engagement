@@ -660,42 +660,60 @@ items:
       items:
       - name: Overview
         href: project-operations-integration.md
+      - name: Architecture
+        href: project-operations-integration-architecture.md
       - name: What's new
         href: project-operations-whats-new.md
       - name: Concepts and scenarios
         items:
-        - name: Deployment models and inventory
-          href: project-operations-integration-inventory.md
         - name: Company alignment and legal entities
           href: project-operations-integration-company-legal.md
+        - name: Deployment models
+          href: project-operations-integration-deployment-models.md
+        - name: Inventory
+          href: project-operations-integration-inventory.md
+        - name: Resource requirements
+          href: project-operations-integration-resource-requirements.md
         - name: Time entry flow between apps
           href: project-operations-integration-time.md
+        - name: Work order services
+          href: project-operations-integration-work-order-services.md
         - name: Project setup with work orders scenarios
           href: project-operations-integration-scenarios.md
-      - name: Admin
+      - name: Install and setup
         items:
+            - name: Install the integration
+              href: project-operations-integration-install.md
             - name: Set up the integration
               href: project-operations-integration-setup.md
             - name: Uninstall the legacy integration
               href: project-operations-integration-uninstall-legacy.md
-            - name: Monitor work order financial processing 
-              href: project-operations-integration-monitor-dashboard.md
-      - name: Project managers
+      - name: Manage the work
         items: 
             - name: Projects, project contracts, and project tasks
               href: project-operations-integration-projects.md
-            - name: Manage projects in Field Service
-              href: project-operations-integration-manage-projects.md
-      - name: Field Service workers
-        items:
             - name: Link projects to work orders and agreements
               href: project-operations-integration-work-order.md
+            - name: Manage projects in Field Service
+              href: project-operations-integration-manage-projects.md
+            - name: View costs associated with a work order
+              href: project-operations-integration-cost-summary.md
+            - name: Monitor work order financial processing 
+              href: project-operations-integration-monitor-dashboard.md
+      - name: Coordinate the work
+        items:
             - name: Schedule work orders
               href: project-operations-integration-work-order-schedule.md
-            - name: View scheduling warnings in the mobile app
-              href: project-operations-integration-view-warnings.md
+      - name: Execute the work
+        items: 
+            - name: Manage multiple payers on a work order
+              href: project-operations-integration-work-order-multi-payer.md
+            - name: Manage project expenses
+              href: project-operations-integration-create-expense.md
             - name: Scan a serial or batch number in the mobile app
               href: project-operations-integration-scan-mobile.md
+            - name: View scheduling warnings in the mobile app
+              href: project-operations-integration-view-warnings.md
       - name: Known issues and limitations
         href: project-operations-integration-issues.md
     - name: Manage service in rental operations (preview)

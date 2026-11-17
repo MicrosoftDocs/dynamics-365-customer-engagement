@@ -28,7 +28,7 @@ Schedule a work order linked to a project like other work orders. Use the [sched
 
 ## Schedule a work order linked to a project task
 
-When a project manager creates a work order from a project task in Project Operations, the work order appears in Field Service for scheduling and execution. 
+When a project manager creates a work order from a project task in Project Operations, the work order appears in Field Service for scheduling and execution.
 
 The **Time Promised Start** and **Time Promised End** values come from the task’s planned start and end dates. If the project task dates change, these values update automatically as long as the work order is *Unscheduled* or *Scheduled*.
 
@@ -48,7 +48,7 @@ To schedule a work order, follow these steps:
 
 1. Review the work order details.
 
-1. Select the **Project Task Dependencies** tab to view predecessor and successor tasks. Change the **Predeccessor Project Tasks** view to **Successor Project Tasks** to toggle between both.
+1. Select the **Project Task Dependencies** tab to view predecessor and successor tasks. Change the **Predecessor Project Tasks** view to **Successor Project Tasks** to toggle between both.
 
    :::image type="content" source="media/project-operations-integration-work-order-dependencies.png" alt-text="Screenshot of Field Service work order project task dependencies.":::
 

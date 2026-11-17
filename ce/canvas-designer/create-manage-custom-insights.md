@@ -25,6 +25,7 @@ Custom insights are supported for Account and Contact tables. They can use relat
 
 ## Prerequisites
 
+- You have the **Contact and Account Insights Admin** security role to turn on, create, and edit insights. This role isn't assigned automatically.
 - Complete the [insights setup](set-up-configure-insights.md).
 - Ensure that Work IQ is enabled and Copilot credits are available.
 - Add the tables required by the insight to **Your business data**.

@@ -25,7 +25,8 @@ Set up insights to give supported canvases and agents shared business context. Y
 
 Before you begin, ensure that:
 
-- You have the system administrator role in Dynamics 365.
+- You have the **Contact and Account Insights Admin** security role to turn on, create, and edit insights. This role isn't assigned automatically.
+- You have the **System Administrator** security role for the one-time setup of your business data, business skills, duplicate detection, and Work IQ.
 - You have the Work IQ license.
 - You set up Copilot credits for your environment in Canvas studio. Insights use your organization's Copilot credits. For more information, see [Copilot credits](insights-overview.md#copilot-credits).
 

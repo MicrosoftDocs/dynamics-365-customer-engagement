@@ -2,7 +2,7 @@
 title: Known issues and limitations
 ms.reviewer: wesmith
 description: Learn about the known issues and limitations with the Field Service and Project Operations integration.
-ms.date: 10/06/2026
+ms.date: 11/05/2026
 ms.topic: article
 author: vhorvathms
 ms.author: vhorvath
@@ -17,15 +17,16 @@ ms.author: vhorvath
 - The integration doesn't support fee synchronization from Field Service to Project Operations. Although Project Operations supports fees, the integration doesn't transfer them.
 - The integration doesn't support migration from the legacy finance and operations integration.
 - The integration doesn't support linking an agreement to a project task. For more information, see [link agreements to projects](project-operations-integration-work-order.md#link-a-project-to-an-agreement).
-- The mobile offline profiles that the integration installs are active regardless of whether the [Field Service Integration with Project Operations toggle](project-operations-integration-setup.md#enable-the-integration) is enabled or not. These profiles override the out-of-the-box profiles.
-- If the technician updating the work order product or work order service doesn't already have an associated *BookableResource*, the system automatically creates one to support integration and ensure accurate tracking of generated actuals. To maintain data accuracy, consider proactively [creating a BookableResource](set-up-bookable-resources.md) for each user who creates or updates work order lines. If you're using an environment that is integrated with finance and operations, add the Company field on the *BookableResource*.
-- By design, work order services use the [*Material* transaction class](/dynamics365/project-operations/actuals/businesstransactions) and appear in Finance as *Item* transactions.
+- The mobile offline profiles that the integration installs are active regardless of whether the [Field Service Integration with Project Operations toggle](project-operations-integration-install.md#enable-the-integration) is enabled or not. These profiles override the default profiles.
+- If the technician updating the work order product or work order service doesn't already have an associated *BookableResource*, the system gives an error. [Create a BookableResource](set-up-bookable-resources.md) for each technician. If you're using an environment that is integrated with finance and operations, add the Company field on the *BookableResource*.
+- By design, work order services use the [*Material* transaction class](/dynamics365/project-operations/actuals/businesstransactions), create material-based estimates and actuals, and appear in Finance as *Item* transactions. To change this setting, go to [Configure work order services conversion type](project-operations-integration-setup.md#configure-work-order-services).
+- If you convert work order services to time entry records, the time entry records are associated only to the parent work order's project, not to a project task. This prevents work order services from affecting metrics in the Project Operations’ project task grid metrics, including estimates completed.
 - Project Operations doesn't support project [production orders](/dynamics365/business-central/production-about-production-orders) in an integrated Project Operations with Finance environment. However, consumption of bill of material items or finished goods through standard inventory scenarios is still supported.
 - Manage project tasks in Project Operations as it requires a Project Operations license.
 - Manage labor estimates through the Project Operations task grid.
 - The summary section of the **Work Orders** page in Field Service doesn't reflect time entries.
 - Hourly rate information is concealed on the *BookableResource* record within Field Service.
-- Time off requests aren't synchronized between Field Service and Project Operations.
+- Project task rollups on the task grid don't include estimated labor.
 
 ## Known issues
 
@@ -76,5 +77,6 @@ If you can't access the setting through Project Operations Settings, you can upd
 `Xrm.Utility.getGlobalContext().getCurrentAppSetting("msdyn_useStockedProducts");`
 
    If the value still returns `false`, the setting wasn't successfully updated and you might need to troubleshoot further.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

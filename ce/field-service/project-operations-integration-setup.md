@@ -1,61 +1,21 @@
 ---
 title: Set up Field Service integration with Project Operations
 description: Learn how to set up the integration between Field Service and Project Operations.
-ms.date: 10/05/2026
+ms.date: 11/13/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
+ms.reviewer: v-wesmith
 ---
 
 # Set up Field Service integration with Project Operations
 
-Set up the integration between Field Service and Project Operations to connect service delivery with project management.
-
-To download and install the Dynamics 365 Field Service and Project Operations integration package, the installing user must have at least one Project Operations license. For more information about licensing, see the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
-
-The Field Service and Project Operations Integration package includes a flow that runs regularly under the user who installs the package. Review the [Types of Power Automate licenses](/power-platform/admin/power-automate-licensing/types) and confirm that the installing user and recurring flow usage are licensed appropriately for your environment. Learn more in [Power Automate licensing FAQ](/power-platform/admin/power-automate-licensing/faqs).
+Set up the Field Service integration with Project Operations environment-level settings to determine pricing and cost control, labor transactions, and default warehouse associations. Set up applies to both [deployment models](project-operations-integration-deployment-models.md).
 
 ## Prerequisites
 
-- You have a Field Service administrator role or system administrator role.
-- You have Field Service minimum version 8.8.142.0.
-- You have Project Operations minimum version 4.162.0.0.
-- If you have the [Field Service integration with finance and operations applications (legacy)](finance-operations-integration.md), [uninstall](project-operations-integration-uninstall-legacy.md) it.
-
-## Configure dual-write integration
-
-If you want to integrate with Dynamics 365 finance and operations, configure dual-write integration. Otherwise, skip this step.
-
-1. [Install Project Operations dual-write map versions](/dynamics365/project-operations/environment/resource-dual-write-maps).
-
-1. [Activate manage stocked products](/dynamics365/project-operations/procurement/enable-stocked-products-integrated).
-
-## Enable Microsoft Dataverse virtual entities
-
-If you want to integrate with Dynamics 365 finance and operations, [enable the Microsoft Dataverse virtual entity](/dynamics365/fin-ops-core/dev-itpro/power-platform/enable-virtual-entities) `ProjInventOnHandEntity`. Otherwise, skip this step.
-
-## Install the integration package
-
-Download and install the Field Service and Project Operations data package, and then enable it.
-
-1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
-
-1. Select **Manage** > **Dynamics 365 Apps** > **Dynamics 365 Field Service and Project Operations Integration**.
-
-1. Select **Install** and follow the prompts.
-
-## Enable the integration
-
-1. In Field Service, go to the **Settings** area.
-
-1. On the **Features** tab, turn on the **Field Service Integration with Project Operations** toggle.
-
-1. Select the **Other** tab. Choose your option for **Auto-Approve Project Approval**.
-
-   - **Yes** if your organization wants to automatically approve the items on the material usage logs that come from Field Service and generate actuals without a review. This toggle doesn't apply to MULs that come from Project Operations.
-   - **No** if your organization wants to review the items on the material usage logs. Only upon manual approval, the system generates actuals.
-
-1. Select **Save & Close**.
+- [An admin installed and configured the Project Operations integration.](project-operations-integration-install.md)
+- You have a Field Service administrator role.
 
 ## Set pricing and cost control
 
@@ -69,7 +29,9 @@ Decide if your organization wants Field Service or Project Operations to define 
 
 If you want Project Operations to define pricing and costing logic instead of Field Service, complete the following steps:
 
-1. In the Field Service Settings area, select the **Work Order / Booking** tab.
+1. In Field Service, go to the **Settings** area.
+
+1. On the **Field Service Settings** page, select the **Work Order / Booking** tab.
 
 1. Change the settings to **No**.
 
@@ -79,16 +41,84 @@ If you want Project Operations to define pricing and costing logic instead of Fi
 
 1. Select **Save & Close**.
 
-## Verify process work order revision line flow
+## Configure work order services
 
-A recurring cloud flow runs every minute to process all active work order revision lines. These lines provide a snapshot of a work order product or service at a specific point in time. Learn more in [Work order line revisions](project-operations-integration-monitor-dashboard.md#work-order-line-revisions). Verify the cloud flow is on.
+Choose how your organization handles work order services for projects. For project-based work, the **Work Order Service Conversion Type** setting controls how work order services contribute to project estimates and actuals. Learn more in [Work order services in Field Service and Project Operations](project-operations-integration-work-order-services.md).
 
-[!INCLUDE[project-operations-integration-power-apps-cloud-flow](../includes/project-operations-integration-power-apps-cloud-flow.md)]
+For project tasks, use the project plan for estimated labor. Use work orders to schedule and execute the appropriate work in Field Service, but manage labor estimation from the project plan.
 
-## Set up the Field Service mobile app
+For project-based work, set the work order service conversion type.
 
-Make sure the [Field Service mobile app](./mobile/set-up-field-service-mobile.md) and the [mobile offline profile](./mobile/set-up-offline-profile.md) are set up.
+### Set the work order service conversion type
 
-Any mobile offline profiles that the integration installs are active regardless of whether the [Field Service Integration with Project Operations toggle](project-operations-integration-setup.md#enable-the-integration) is enabled or not. These profiles override the out-of-the-box profiles.
+In Field Service, the **Work Order Service Conversion Type** setting determines how your organization uses work order services.
+
+1. In Field Service, go to the **Settings** area.
+
+1. On the **Field Service Settings** page, select the **Time Entry** tab.
+
+1. Select your option for **Work Order Service Conversion Type**.
+
+   - **Material based Estimates and Actuals (default)**: Generate material-based estimates and, when marked *Used*, material usage logs that produce project actuals after approval.
+   - **Time based Estimates and Actuals**: Generate time-based estimates and, when marked *Used*, time usage transactions that produce project actuals after approval.
+   - **Time based Estimates Only**: Generate time-based estimates but doesn't automatically generate time entries or actuals.
+   - **None**: Work order services doesn't automatically generate estimates, time entries, material usage logs, or actuals through the integration. You have your own process.
+
+1. Select **Save & Close**.
+
+1. If you use **Time based Estimates and Actuals** or **Time based Estimates Only**, ensure that [work order services are set up for time transactions](project-operations-integration-install.md#set-up-work-order-services-for-time-transactions).
+
+## Configure the project assignment scheduling mode
+
+Choose how your organization wants to handle project assignment scheduling. The **Project assignment scheduling mode** determines whether Field Service schedules an assignment’s total planned effort flexibly within an allowed window or uses the assignment’s planned work intervals to guide scheduling. Learn more in [Project assignment scheduling mode](project-operations-integration-resource-requirements.md#project-assignment-scheduling-mode).
+
+1. In Field Service, switch to the **Settings** area.
+
+1. Under **General**, select **Field Service Settings**.
+
+1. Select the **Other** tab. Select your option for the **Project assignment scheduling mode**.
+
+   - Select **Flexible Field Service scheduling (default)** to create a requirement using the total planned effort and an availability window, without creating project-managed detailed scheduling intervals.
+
+   - Select **Project work pattern scheduling** to create detailed scheduling intervals based on the planned work pattern in Project Operations and checks capacity for bookings whose work falls entirely within a projected interval.
+
+1. Select **Save & Close**.
+
+## Set up warehouse associations
+
+In the [**Integrated Project Operations with Finance** deployment model](project-operations-integration-deployment-models.md), a bookable resource can have more than one warehouse. For each legal entity, mark one of those warehouses as the default warehouse.
+
+When material is consumed, the system uses the work order's legal entity and the bookable resource to determine the default warehouse. The default warehouse helps ensure material consumption uses the correct legal entity and the correct warehouse.
+
+1. In Field Service, go to the **Resources** area.
+
+1. On the **Resources** page, open the resource you want to configure.
+
+1. Select the **Field Service** tab.
+
+1. In the **Warehouse Configurations** section, select **New Warehouse Configuration**.
+
+1. Enter the following information:
+
+   - **Warehouse**: Select the warehouse you want to associate with the resource.
+   - **Default**: Select this checkbox if you want this warehouse to be the default for the resource.
+
+1. Select **Save & Close**.
+
+:::image type="content" source="media/project-operations-integration-warehouses.png" alt-text="Screenshot of multiple warehouses assigned to a resource." lightbox="media/project-operations-integration-warehouses.png":::
+
+## Set up auto-complete project tasks
+
+If your organization wants to automatically complete project tasks when the associated work order is completed in Field Service, set up work order types with auto-complete. This setting ensures that the project tasks in Project Operations are updated in sync with the work order status, reducing manual effort and improving data accuracy.
+
+1. [Create a work order type](create-work-order-types.md) or open an existing work order type.
+
+1. Set the **Close Project Task** field to *Yes*.
+
+   :::image type="content" source="media/project-operations-integration-close-task.png" alt-text="Screenshot of the Work Order Type screen highlighting Close Project Task.":::
+
+1. Select **Save & Close**.
+
+The project task associated with the work order is automatically completed when the work order is marked as completed in Field Service and time entries are approved.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

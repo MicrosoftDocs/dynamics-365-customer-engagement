@@ -2,7 +2,7 @@
 title: Sales Research Agent overview 
 description: Learn how to use the Sales Research Agent in Dynamics 365 Sales to get insights about your customers, prospects, sales targets, and competitors.
 manager:
-ms.date: 10/13/2026
+ms.date: 11/17/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -52,6 +52,7 @@ Organizations need to evaluate potential specific legal and regulatory obligatio
 
 ## Related information
 
+[Get quick insights in Sales Research Agent (preview)](sales-research-agent-quick-insights.md)
+
 [Frequently asked questions about Sales Research Agent](faqs-sales-research-agent.md)  
 [Responsible AI FAQ about the Sales Research Agent](faqs-about-sales-research-agent.md)  
-
