@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 10/28/2026
+ms.date: 11/11/2026
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
@@ -20,18 +20,34 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.150.62](/dynamics365/field-service/version-history#8815062) | [8.8.151.177](/dynamics365/field-service/version-history#88151177) | 10/30 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.150.62](/dynamics365/field-service/version-history#8815062) | [8.8.151.177](/dynamics365/field-service/version-history#88151177) | 11/06 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom* | [8.8.150.62](/dynamics365/field-service/version-history#8815062) | [8.8.151.177](/dynamics365/field-service/version-history#88151177) | 11/20 |
-| | *USG* | [8.8.150.62](/dynamics365/field-service/version-history#8815062) | [8.8.151.177](/dynamics365/field-service/version-history#88151177) | 11/11 |
-|**Station 4** |*Europe* | [8.8.150.62](/dynamics365/field-service/version-history#8815062) | [8.8.151.177](/dynamics365/field-service/version-history#88151177) | 12/04 |
-|**Station 5** | *North America, Oceania*| [8.8.149.348](/dynamics365/field-service/version-history#88149348) | [8.8.150.63](/dynamics365/field-service/version-history#8815063) | 10/30 |
-|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.150.63](/dynamics365/field-service/version-history#8815063) | [8.8.151.177](/dynamics365/field-service/version-history#88151177) | 12/09 |
-| | *Dedicated Scale Groups* | [8.8.149.348](/dynamics365/field-service/version-history#88149348) | [8.8.150.63](/dynamics365/field-service/version-history#8815063) | 11/06 |
+|**Station 1** |  *First Release*| [8.8.151.223](/dynamics365/field-service/version-history#88151223) | TBD | 12/04 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.151.223](/dynamics365/field-service/version-history#88151223) | TBD | 12/11 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom* | [8.8.150.62](/dynamics365/field-service/version-history#8815062) | [8.8.151.223](/dynamics365/field-service/version-history#88151223) | 11/20 |
+| | *USG* | [8.8.151.223](/dynamics365/field-service/version-history#88151223) | TBD | 12/09 |
+|**Station 4** |*Europe* | [8.8.150.64](/dynamics365/field-service/version-history#8815064) | [8.8.151.223](/dynamics365/field-service/version-history#88151223) | 12/04 |
+|**Station 5** | *North America, Oceania*| [8.8.150.64](/dynamics365/field-service/version-history#8815064) | [8.8.151.223](/dynamics365/field-service/version-history#88151223) | 12/11 |
+|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.150.64](/dynamics365/field-service/version-history#8815064) | [8.8.151.223](/dynamics365/field-service/version-history#88151223) | 12/09 |
+| | *Dedicated Scale Groups* | [8.8.150.64](/dynamics365/field-service/version-history#8815064) | [8.8.151.223](/dynamics365/field-service/version-history#88151223) | 12/18 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.151.223
+
+This release is a hotfix on Field Service version [8.8.151.177](/dynamics365/field-service/version-history#88151221).
+(Includes Universal Resource Scheduling version [3.12.4004.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400419) and Resource Scheduling controls version 1.2.107.263142)
+
+- **Fixes and improvements**
+    - Updated the underlying AI infrastructure for Field Service Copilot features. Copilot and generative AI features require the enablement of the existing "Move data across regions" setting for environments that need these features. Affected features that need cross region processing might become unavailable if the required setting remains disabled. For more information about this setting, see [Move data across regions for Copilots, AI agents, and generative AI features](https://learn.microsoft.com/en-us/power-platform/admin/geographical-availability-copilot).
+
+## 8.8.151.221
+
+This release is a hotfix on Field Service version [8.8.151.177](/dynamics365/field-service/version-history#88151177).
+(Includes Universal Resource Scheduling version [3.12.4004.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400416) and Resource Scheduling controls version 1.2.107.263001)
+
+- **Fixes and improvements**
+    - Fixed an issue that could prevent some customers from installing or updating the Field Service Assets solution with the error “Invalid component type provided 10037”.
 
 ## 8.8.151.177
 (Includes Universal Resource Scheduling version [3.12.4004.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400416) and Resource Scheduling controls version 1.2.107.263001)
@@ -63,9 +79,17 @@ For information about older versions, see [Version history archive](version-hist
     - Field Service Mobile offline travel status: Fixed an issue that reset estimated travel duration when a booking's **Traveling** status synchronized.
     - Various accessibility improvements.
 
+## 8.8.150.64
+
+This release is a hotfix on Field Service version [8.8.150.63](/dynamics365/field-service/version-history#8815063).
+(Includes Universal Resource Scheduling version [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338-hotfix3) and Resource Scheduling controls version 1.2.106.263001)
+
+- **Fixes and improvements**
+    - Updated the underlying AI infrastructure for Field Service Copilot features. Copilot and generative AI features require the enablement of the existing "Move data across regions" setting for environments that need these features. Affected features that need cross region processing might become unavailable if the required setting remains disabled. For more information about this setting, see [Move data across regions for Copilots, AI agents, and generative AI features](https://learn.microsoft.com/en-us/power-platform/admin/geographical-availability-copilot).
+
 ## 8.8.150.63
 
-This release is a hotfix on Field Service version [8.8.150.62](#8815062).
+This release is a hotfix on Field Service version [8.8.150.62](/dynamics365/field-service/version-history#8815062).
 (Includes Universal Resource Scheduling version [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338-hotfix3) and Resource Scheduling controls version 1.2.106.263001)
 
 - No updates were made to Dynamics 365 Field Service in this release.

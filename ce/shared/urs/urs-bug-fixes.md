@@ -7,18 +7,29 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | [3.12.4004.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400416) | 10/30 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | [3.12.4004.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400416) | 11/06 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | [3.12.4004.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400416) | 11/20 |
-| | *USG* | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | [3.12.4004.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400416) | 11/11 |
-|**Station 4** |*Europe* | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | [3.12.4004.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400416) | 12/04 |
-|**Station 5** |  *North America, Oceania*| [3.12.4002.87](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400287) | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | 10/30 |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | [3.12.4004.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400416) | 12/09 |
-|**Station 6** | *Dedicated Scale Groups* | [3.12.4002.87](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400287) | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | 11/06 |
+|**Station 1** |  *First Release*| [3.12.4004.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400419) | TBD | 12/04 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.4004.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400419) | TBD | 12/11 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Singapore* | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338) | [3.12.4004.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400419) | 11/20 |
+| | *USG* | [3.12.4004.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400419) | TBD | 12/09 |
+|**Station 4** |*Europe* | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338-hotfix3) | [3.12.4004.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400419) | 12/04 |
+|**Station 5** |  *North America, Oceania*| [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338-hotfix3) | [3.12.4004.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400419) | 12/11 |
+|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338-hotfix3) | [3.12.4004.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400419) | 12/09 |
+|**Station 6** | *Dedicated Scale Groups* | [3.12.4003.38](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400338-hotfix3) | [3.12.4004.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#312400419) | 12/18 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.4004.19
+
+**Resource Scheduling Controls:** 1.2.107.263142
+
+**Dataverse:** 4.0.4004.19
+
+- Schedule assistant calendar queries: Reduced repeated calendar lookups that could cause long delays when searching for availability with time zone agnostic enabled.
+- Schedule board booking selection: Changing the displayed date range now clears previous booking selections, preventing actions such as deletion from affecting bookings outside the current view.
+- Schedule board booking edit pane: Fixed an issue where selecting another booking after expanding a resource in **Weekly** or **Monthly** view could leave the edit pane showing the previous booking or prevent it from opening.
+- This release contains additional security improvements.
 
 ## 3.12.4004.16
 
