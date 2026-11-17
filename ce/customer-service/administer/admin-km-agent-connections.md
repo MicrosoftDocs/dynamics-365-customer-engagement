@@ -1,12 +1,12 @@
 ---
 title: Configure connection references
-description: Learn how to configure connection references for AI Agent flow in Dynamics 365 Customer Service and Contact Center, with Microsoft Dataverse and Copilot Studio.
+description: Learn how to configure connection references for AI agent flow in Dynamics 365 Customer Service and Contact Center, with Microsoft Dataverse and Copilot Studio.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 11/05/2026
+ms.date: 11/16/2026
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -14,49 +14,64 @@ ms.custom:
   - ai-seo-date:02/26/2025
 ---
 
-# Configure connection references 
+# Configure connection references
 
 This article explains how to configure connection references for AI agents that help enable seamless integration with Microsoft services. These connections link flows to essential data sources such as Microsoft Dataverse and Copilot Studio, ensuring smooth operation and enhanced functionality.
 
-
 ## Set up connection references for Customer Knowledge Management Agent
 
-[!INCLUDE[cc-connection-reference](../../includes/qea/cc-connection-reference.md)] 
+[!INCLUDE[cc-connection-reference](../../includes/qea/cc-connection-reference.md)]
 3. Search for the following connection references. 
-   - **Microsoft Dataverse CustomerServiceKnowledgeHarvest**   
-   - **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**     
+   - **Microsoft Dataverse CustomerServiceKnowledgeHarvest**
+   - **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**
 4. To create a connection for **Microsoft Dataverse CustomerServiceKnowledgeHarvest**:
     1. In the **Edit** dialog, select **Connection** > **New connection**. 
     1. Search for **Microsoft Dataverse** and select **Create**. You might need to sign in using the OAuth connection type to create a Dataverse connection.
     1. Go back to the **Edit** dialog of **Microsoft Dataverse CustomerServiceKnowledgeHarvest**, search for the new connection and save it.
-    1. Repeat step a and b to create a connection with **Microsoft Copilot Studio**.
-5. [!INCLUDE[cc-flow-enable](../../includes/qea/cc-flow-enable.md)]
+5. Repeat step 4a, 4b, and 4c to create a connection with **Microsoft Copilot Studio**.
+6. [!INCLUDE[cc-flow-enable](../../includes/qea/cc-flow-enable.md)]
      - **Customer Knowledge Management Interactive Harvesting**
      - **Customer Knowledge Management Bulk and Real-time Harvesting**
      - **Customer Knowledge Management Conversation Harvest Trigger**
      > [!NOTE]
      > Cloud flow names are localized and appear in the language configured for your Dataverse environment.
     
-6. [!INCLUDE[cc-publish-agent](../../includes/qea/cc-publish-agent.md)]. For Customer Knowledge Management Agent flow, the agent in Copilot Studio is **CustomerServiceKnowledgeHarvest**.
+7. [!INCLUDE[cc-publish-agent](../../includes/qea/cc-publish-agent.md)]. For the Customer Knowledge Management Agent flow, the agent in Copilot Studio is **CustomerServiceKnowledgeHarvest**.
 
 ## Set up connection references for quality evaluation
 
 [!INCLUDE[cc-connection-reference](../../includes/qea/cc-connection-reference.md)]
-3. Search for the following connection references. Authenticate the connection references using an administrator account to enable the AI agent to access data sources. 
+3. Search for the following connection references. Authenticate the connection references by using an administrator account so the AI agent can access data sources. 
    - **Microsoft Dataverse Connection Reference for QEA**
    - **Microsoft Copilot Studio Connection Reference for QEA**
-   - **QMA.Incident.DVPluginConnection** (applicable to evaluations on case and email only) 
+   - **QMA.Incident.DVPluginConnection** (applicable to evaluations on case and email only)
    - **QMA.UnifiedAgent.DVPluginConnection**
- 4. [!INCLUDE[cc-flow-enable](../../includes/qea/cc-flow-enable.md)]
+4. To create a connection for **Microsoft Dataverse Connection Reference for QEA**:
+    1. In the **Edit** dialog, select **Connection** > **New connection**.
+    1. Search for **Microsoft Dataverse** and select **Create**. You might need to sign in by using the OAuth connection type to create a Dataverse connection.
+    1. Go back to the **Edit** dialog of **Microsoft Dataverse Connection Reference for QEA**, search for the new connection, and save it.
+    1. Repeat the steps for the other connection references.
+1. [!INCLUDE[cc-flow-enable](../../includes/qea/cc-flow-enable.md)]
       - **Expire evaluations** 
-      - **QEA On Demand Evaluation Case** (applicable to evaluations on case and email only) 
-      - **AI Evaluation Flow for Conversation** (applicable to evaluations on conversations only) 
+      - **QEA On Demand Evaluation Case** (applicable to evaluations on case and email only)
+      - **AI Evaluation Flow for Conversation** (applicable to evaluations on conversations only)
       - **QEA Simulation**
 
-5. [!INCLUDE[cc-publish-agent](../../includes/qea/cc-publish-agent.md)]. For Quality Evaluation Agent flow, the agent in Copilot Studio is **Quality Evaluation Agent**.
+5. [!INCLUDE[cc-publish-agent](../../includes/qea/cc-publish-agent.md)]. For the Quality Evaluation Agent flow, the agent in Copilot Studio is **Quality Evaluation Agent**.
 
+## Set up connection references for coaching and development
 
- 
+[!INCLUDE[cc-connection-reference](../../includes/qea/cc-connection-reference.md)]
+3. Search for the following connection reference. Authenticate the connection references by using an administrator account so the AI agent can access data sources.
+    - **Microsoft Dataverse Cr52a7f-31a8c**
+4. To create a connection for **Microsoft Dataverse Cr52a7f-31a8c**:
+    1. In the **Edit** dialog, select **Connection** > **New connection**.
+    1. Search for **Microsoft Dataverse** and select **Create**. You might need to sign in by using the OAuth connection type to create a Dataverse connection.
+    1. Go back to the **Edit** dialog of **Microsoft Dataverse Cr52a7f-31a8c**, search for the new connection, and save it.
+1. [!INCLUDE[cc-flow-enable](../../includes/qea/cc-flow-enable.md)]
+    - **Agent Coach CSR Insights**
+1. [!INCLUDE[cc-publish-agent](../../includes/qea/cc-publish-agent.md)]. For the coaching and development flow, the agent in Copilot Studio is **Quality Evaluation Agent**.
+
 ## Related information
 
 [Overview of cloud flows](/power-automate/overview-cloud)  
