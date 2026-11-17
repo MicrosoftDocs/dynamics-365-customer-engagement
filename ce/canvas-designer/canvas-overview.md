@@ -33,13 +33,12 @@ The canvas designer decides where and how much of that understanding appears on 
 ## Bring customer information together
 
 | Canvas | What your team can review | Reference articles |
-|---|---|
+|---|---|---|
 | **Account** | Account information, insights, recent activities, a relationship map, and related business records, such as opportunities and cases. | [Use account canvas](use-account-canvas.md) |
 | **Contact** | Contact information, insights, notes, recent activities, business involvement, and relationships. | [Use contact canvases](use-contact-canvas.md) |
-| **Opportunity** | Key opportunity information, upcoming meetings, and recent activities, and perform actions in one experience
- . | [Use opportunity canvas](../sales/use-opportunity-canvas.md)
+| **Opportunity** | Key opportunity information, upcoming meetings, recent activities, and actions in one experience. | [Use opportunity canvas](../sales/use-opportunity-canvas.md) |
 | **Case** | Customer and case information that helps service representatives understand the case and work toward resolution in Copilot Service workspace. | [Use case canvases](../customer-service/use/use-case-canvas.md) |
-| **Email** | Email information and related customer context to help service representatives respond effectively. | [Use the canvas experience in email](../customer-service/use/use-modern-email.md)|
+| **Email** | Email information and related customer context to help service representatives respond effectively. | [Use the canvas experience in email](../customer-service/use/use-modern-email.md) |
 
 Components vary by canvas, and your customizations can change what your team sees. For example, an account canvas can bring open opportunities and support cases together so a seller can review service concerns before a customer meeting.
 
@@ -50,7 +49,7 @@ Learn more in [Insights overview](insights-overview.md).
 | Role | How they use it | Reference articles | 
 |---|---|---|
 | Admin | Turns on canvases in Canvas studio, chooses the apps and people who see them, and sets up insights. Controls organization-wide choices, such as which insights are on and whether insights include duplicate records. |- [Create and publish a canvas in CRM Canvas Designer](configure-canvas.md)<br>- [Manage canvases in CRM Canvas Designer](manage-canvases.md).<br>- [Set up and configure insights](set-up-configure-insights.md)<br>- [Create and manage custom insights](create-manage-custom-insights.md) |
-| Seller |Opens the canvas experience when they open a account, contact, or opportunity record. Starts with **What's important now** and then quickly gets an overview of the account, contact, or deal information.   |- [Use the canvas experience for accounts](use-account-canvas.md)<br>- [Use contact canvases](use-contact-canvas.md)<br>- [Use the canvas experience for opportunities](../sales/use-opportunity-canvas.md)<br>- [Account and contact insights in Copilot and agents](insights-in-agents.md) |
+| Seller |Opens the canvas experience when they open an account, contact, or opportunity record. Starts with **What's important now** and then quickly gets an overview of the account, contact, or deal information.   |- [Use the canvas experience for accounts](use-account-canvas.md)<br>- [Use contact canvases](use-contact-canvas.md)<br>- [Use the canvas experience for opportunities](../sales/use-opportunity-canvas.md)<br>- [Account and contact insights in Copilot and agents](insights-in-agents.md) |
 | Service representative | Uses the same account and contact canvases as sellers to understand a customer, case and emails canvases to work a case through to resolution. The same account and contact insights can also appear in Service agent. |- [Use the canvas experience for accounts](use-account-canvas.md)<br>- [Use contact canvases](use-contact-canvas.md)<br>- [Use case canvases](../customer-service/use/use-case-canvas.md)<br>- [Use the canvas experience in email](../customer-service/use/use-modern-email.md)<br>- [Account and contact insights in Copilot and agents](insights-in-agents.md) |
 
 ## Example: Contact at Contoso
