@@ -216,6 +216,24 @@
         items:
         - name: Create new websites
           href: community-create-websites.md
+    - name: Enable Canvas experience(preview)
+      items:
+      - name: Overview of CRM Canvas Designer
+        href: ../../canvas-designer/canvas-overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Create and publish a canvas
+        href: ../../canvas-designer/configure-canvas.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Use context-aware canvases
+        href: ../../canvas-designer/context-aware-canvases-overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Manage canvases in CRM Canvas Designer
+        href: ../../canvas-designer/manage-canvases.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+    - name: Insights management
+      items:
+      - name: Insights overview
+        href: ../../canvas-designer/insights-overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Set up and configure insights
+        href: ../../canvas-designer/set-up-configure-insights.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Create and manage custom insights
+        href: ../../canvas-designer/create-manage-custom-insights.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Case management
       items:
       - name: Overview of case management

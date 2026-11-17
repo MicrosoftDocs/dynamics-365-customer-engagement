@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+      "source_path": "ce/sales/context-engine-admin-overview.md",
+      "redirect_url": "/dynamics365/canvas-designer/insights-overview",
+      "redirect_document_id": "true"
+    },
+    {
+      "source_path": "ce/sales/set-up-configure-context-engine.md",
+      "redirect_url": "/dynamics365/canvas-designer/set-up-configure-insights",
+      "redirect_document_id": "true"
+    },
+    {
+      "source_path": "ce/sales/create-manage-context-engine-insights.md",
+      "redirect_url": "/dynamics365/canvas-designer/create-manage-custom-insights",
+      "redirect_document_id": "true"
+    },
+    {
+      "source_path": "ce/sales/context-aware-canvases-overview.md",
+      "redirect_url": "/dynamics365/canvas-designer/context-aware-canvases-overview",
+      "redirect_document_id": "true"
+    },
+    {
       "source_path": "ce/field-service/soa-run.md",
       "redirect_url": "/dynamics365/field-service/soa-interactive-optimizations",
       "redirect_document_id": "true"

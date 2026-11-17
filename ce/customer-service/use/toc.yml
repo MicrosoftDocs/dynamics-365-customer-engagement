@@ -26,8 +26,22 @@
             href: customer-service-hub-user-guide-case-queues-and-routing.md
           - name: Manage skills
             href: manage-skills.md
+      - name: Use Canvas experience (preview)
+        items:
+          - name: Use the canvas experience for accounts 
+            href: ../../canvas-designer/use-account-canvas.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Use the canvas experience for contacts 
+            href: ../../canvas-designer/use-contact-canvas.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Use the canvas experience for cases 
+            href: use-case-canvas.md
+          - name: Use the canvas experience in email
+            href: use-modern-email.md
       - name: Case management
         items: 
+          - name: Compare case form experiences
+            href: ../administer/overview-cases.md#choose-a-case-form-experience
+          - name: Use the canvas experience for cases (preview)
+            href: use-case-canvas.md
           - name: Create cases
             href: customer-service-hub-user-guide-create-a-case.md
           - name: Use enhanced case forms to manage cases
@@ -56,6 +70,8 @@
           href: customer-service-hub-user-guide-case-sla.md
       - name: Email
         items: 
+          - name: Use the canvas experience in email (preview)
+            href: use-modern-email.md
           - name: Use email
             href: /power-apps/user/view-create-email?context=/dynamics365/context/customer-service-context
           - name: View, compose, and respond to emails
