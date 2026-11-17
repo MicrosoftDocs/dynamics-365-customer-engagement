@@ -1,7 +1,7 @@
 ---
 title: AI-powered work order update (preview)
 description: AI-powered work order update helps technicians use Copilot in Dynamics 365 Field Service to update work orders using text or speech.
-ms.date: 09/16/2026
+ms.date: 11/17/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: JonBaker007
@@ -26,7 +26,7 @@ The work order update feature follows the [responsible AI guidelines](faqs-work-
 
 ## Prerequisites
 
-- For regional availability, see the [Copilot International Availability Report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
+- For regional availability, see [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability).
 
 - You must have a paid Field Service environment. Copilot isn't available in trial environments.
 

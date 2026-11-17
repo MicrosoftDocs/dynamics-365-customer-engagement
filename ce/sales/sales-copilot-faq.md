@@ -7,7 +7,7 @@ ms.reviewer: lavanyakr
 ms.topic: concept-article
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 10/01/2026
+ms.date: 11/17/2026
 ms.update-cycle: 180-days
 ---
 
@@ -122,7 +122,7 @@ No. We don't use any customer data to train Azure OpenAI or any other language m
 
 ## In which regions is Copilot in Dynamics 365 Sales available?
 
-Learn more at [Explore Copilot products by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
+To learn more, see [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability).
 
 ## How does Copilot match leads with contacts and can I customize the matching fields?
 

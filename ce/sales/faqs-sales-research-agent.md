@@ -1,7 +1,7 @@
 ---
 title: FAQ about Sales Research Agent
 description: Get answers to frequently asked questions about sales research agent in Dynamics 365 Sales.
-ms.date: 04/23/2026
+ms.date: 11/17/2026
 ms.update-cycle: 180-days
 ms.custom:
  - responsible-ai-faqs
@@ -21,7 +21,7 @@ ms.reviewer: lavanyakr
 
 You might not be able to access the Sales Research Agent in the following scenarios:
 
-- Your tenant is in a region where the Sales Research Agent is not available. For a list of supported regions, go to the [International availability report](https://releaseplans.microsoft.com/en-US/availability-reports/?report=featuregeoreport). If you're in one of these geographies or regions but still see a notification that the agent isn't available, your tenant's data residency may be outside these regions.
+- Your tenant is in a region where the Sales Research Agent isn't available. For a list of supported regions, see [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability). If you're in one of these geographies or regions but still see a notification that the agent isn't available, your tenant's data residency might be outside these regions.
 - You don't have the required permissions to access the Sales Research Agent. You need the **Sales Research Agent Reader** role to access the agent. 
 - You don't have enough credits in Copilot Studio to use the Sales Research Agent.
 
