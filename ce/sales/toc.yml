@@ -1001,6 +1001,8 @@ items:
                 href: sales-research-agent-lakehouse-integration.md
               - name: Analyze your sales performance using the agent
                 href: use-sales-research-agent.md
+              - name: Get quick insights (preview)
+                href: sales-research-agent-quick-insights.md
               - name: FAQs about Sales Research Agent
                 href: faqs-sales-research-agent.md
           - name: Recommended Actions Agent

@@ -2,7 +2,7 @@
 title: Set up and configure Sales Research Agent
 description: Learn how to configure the Sales Research Agent so that sellers can get AI-generated insights and provide feedback on the insights.
 manager:
-ms.date: 03/31/2026
+ms.date: 11/17/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -32,6 +32,12 @@ To grant access to other users, you must assign the **Sales Research Agent Reade
 Alternatively, you can create a group team in Power Platform Admin Center, add users to that group, and then assign the **Sales Research Agent Reader** role to that security group. This approach simplifies role management for larger teams. Learn more in [Manage group teams](/power-platform/admin/manage-group-teams).
 
 In addition to this, users must also have a proper Dynamics 365 Sales licenses to access the agent. Learn more about licensing requirements in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+
+## Quick insights prerequisites (preview)
+
+[Quick Insights (preview)](sales-research-agent-quick-insights.md) uses Dataverse Q&A to provide high-level findings while Sales Research Agent generates detailed research. Enable Sales Agent in your environment to allow your users to access Quick Insights.
+
+You don't need to perform additional admin setup or create a semantic model for Quick Insights. Learn more in [Get quick insights in Sales Research Agent (preview)](sales-research-agent-quick-insights.md).
 
 ## Configure tenant settings
 
