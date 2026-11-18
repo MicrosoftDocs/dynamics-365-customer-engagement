@@ -1,11 +1,11 @@
 ---
 title: Embed a non-Microsoft contact center in Copilot Service workspace (preview)
-description: Learn how to build a Channel Integration Framework 2.0 agent panel that brings calls, a live transcript, and case handling from NICE CXone or another contact center as a service platform into Copilot Service workspace.
+description: Learn how to build a Channel Integration Framework 2.0 agent panel that brings calls, a live transcript, and case handling from NiCE CXone or another contact center as a service (CCaaS) provider into Copilot Service workspace.
 author: lalexms
 ms.author: laalexan
 ms.reviewer: borisvolfson
 ms.topic: how-to
-ms.date: 11/16/2026
+ms.date: 11/18/2026
 ms.custom: bap-template
 ai-usage: ai-assisted
 ---
@@ -14,7 +14,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE[preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-This article explains how to build a custom agent panel that brings a contact center as a service (CCaaS) platform into Copilot Service workspace. The panel uses Channel Integration Framework (CIF) 2.0 and the CCaaS vendor's browser agent SDK. The steps use NICE CXone and the NICE CXone Agent SDK as the example. Before you adapt the pattern to another platform, check that provider's SDK, session, and transcript requirements.
+This article explains how to build a custom agent panel that brings a contact center as a service (CCaaS) solution into Copilot Service workspace. The panel uses Channel Integration Framework (CIF) 2.0 and the CCaaS vendor's browser agent SDK. The steps use NiCE CXone and the NiCE CXone Agent SDK as the example. Before you adapt the pattern to another provider, check that provider's SDK, session, and transcript requirements.
 
 After you complete the steps, service representatives can:
 
@@ -26,18 +26,18 @@ After you complete the steps, service representatives can:
 
 An optional section explains how to prototype next best action suggestions from the live transcript. The prototype combines the conversation from the contact center with the intents and knowledge in Dynamics 365 Customer Service.
 
-Where the steps differ by platform, this article uses tabs. Select **NICE CXone** for the NICE CXone Agent SDK, or **Other CCaaS platforms** for another vendor's SDK.
+Where the steps differ by provider, this article uses tabs. Select **NiCE CXone** for the NiCE CXone Agent SDK, or **Other CCaaS providers** for another vendor's SDK.
 
 [!INCLUDE[cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
 
 ## How the solution works
 
-<!-- Image to add: architecture diagram (img/concept.png in the source draft) showing the contact center platform, the agent panel in Copilot Service workspace, customer and case records, and Microsoft AI. -->
+<!-- Image to add: architecture diagram (img/concept.png in the source draft) showing the contact center solution, the agent panel in Copilot Service workspace, customer and case records, and Microsoft AI. -->
 
 | Component | Responsibility |
 |---|---|
-| CCaaS platform, such as NICE CXone | Routing, telephony, recording, and real-time transcription. |
-| CCaaS agent SDK, such as the NICE CXone Agent SDK | Browser packages for sign-in, agent session and state, voice, and transcript events. |
+| CCaaS service, such as NiCE CXone | Routing, telephony, recording, and real-time transcription. |
+| CCaaS agent SDK, such as the NiCE CXone Agent SDK | Browser packages for sign-in, agent session and state, voice, and transcript events. |
 | Agent panel | Your React app, hosted as Dataverse web resources and docked in the workspace by CIF 2.0. |
 | CIF 2.0 | Notifications, sessions, and Dataverse record operations from the panel. |
 | Dynamics 365 Customer Service | Customers, cases, notes, and the Customer Intent Agent. |
@@ -49,16 +49,16 @@ Where the steps differ by platform, this article uses tabs. Select **NICE CXone*
 - [Power Platform CLI](/power-platform/developer/cli/introduction) (`pac`) and Node.js.
 - Optional, for the next best action prototype only: Customer Intent Agent enabled and provisioned in your environment. Learn more in [Manage Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent#prerequisites). The core panel doesn't need this feature.
 
-# [NICE CXone](#tab/nice)
+# [NiCE CXone](#tab/nice)
 
-- A NICE CXone tenant, and help from your NICE administrator to:
+- A NiCE CXone tenant, and help from your NiCE administrator to:
   - Create an OAuth client for the panel and register its redirect URI. Learn more in [Build the agent panel](#build-the-agent-panel).
   - Allow your environment's origin (`https://<org>.crm.dynamics.com`) for the SDK's browser calls (CORS).
   - Set up a test phone number, skill, and Studio script that route calls to your agent, with **Continuous Transcription** turned on.
   - Turn on agent voice transcription for your agent.
-- A NICE CXone agent user and its agent ID.
+- A NiCE CXone agent user and its agent ID.
 
-# [Other CCaaS platforms](#tab/other)
+# [Other CCaaS providers](#tab/other)
 
 - From your CCaaS vendor:
   - Developer access to its browser agent SDK.
@@ -70,7 +70,7 @@ Where the steps differ by platform, this article uses tabs. Select **NICE CXone*
 
 ## Use an AI coding agent to set up the project (optional)
 
-You can ask an agentic coding tool, such as GitHub Copilot in agent mode or GitHub Copilot CLI, to scaffold the project and its working practices. The following prompt captures the structure and safeguards in this article. Select your platform's tab, replace the values in angle brackets, and then review every change the agent proposes.
+You can ask an agentic coding tool, such as GitHub Copilot in agent mode or GitHub Copilot CLI, to scaffold the project and its working practices. The following prompt captures the structure and safeguards in this article. Select your provider's tab, replace the values in angle brackets, and then review every change the agent proposes.
 
 Some steps always need a person, even when an agent does most of the work:
 
@@ -82,25 +82,25 @@ Some steps always need a person, even when an agent does most of the work:
 - Choose the right customer when several records match.
 - Approve each live call, deployment, and deletion.
 
-# [NICE CXone](#tab/nice)
+# [NiCE CXone](#tab/nice)
 
 ```text
 Set up a new repository for a Channel Integration Framework (CIF) 2.0 agent
-panel that embeds NICE CXone in Dynamics 365 Copilot Service workspace.
+panel that embeds NiCE CXone in Dynamics 365 Copilot Service workspace.
 
 Goal: representatives take calls in a panel docked in Copilot Service
 workspace, view a live transcript, land on the right contact and a new case
 for every call, and save a wrap-up note and the transcript to the case.
 
 Before building:
-- Identify whether the approved mode is real NICE integration or an
-  explicitly labeled simulated-chat rehearsal. A simulator can't pass NICE
+- Identify whether the approved mode is real NiCE integration or an
+  explicitly labeled simulated-chat rehearsal. A simulator can't pass NiCE
   SDK, telephony, or real transcript acceptance. Don't simulate AI responses.
 - Resolve the target origin, intended user and app, solution name, publisher
   customization prefix, web-resource namespace, permitted changes, and
   cleanup route from supplied inputs. Verify the actual target and identity;
   a saved CLI profile isn't enough.
-- Check NICE tenant access, the exact callback registration, and the origin
+- Check NiCE tenant access, the exact callback registration, and the origin
   allowance before building SDK-dependent work. If any is missing, mark that
   work Blocked.
 - Group unresolved prerequisites into one question. Autonomous mode doesn't
@@ -116,7 +116,7 @@ Build:
 - src/cif/: a small client that wraps CIF 2.0 (setMode, setWidth,
   notifyEvent, createSession, getFocusedSession, searchAndOpenRecords,
   createRecord, openForm) so it can be tested with mocks.
-- src/nice/: an adapter for the NICE CXone Agent SDK (@nice-devone/agent-sdk,
+- src/nice/: an adapter for the NiCE CXone Agent SDK (@nice-devone/agent-sdk,
   acd-sdk, auth-sdk, voice-sdk, core-sdk, common-sdk; pin one version for
   all). Sign in with auth.init and getAuthorizeUrl("popup", "S256",
   <TENANT_ID>), then getAccessTokenByCode. Start the session with
@@ -171,7 +171,7 @@ Start with a short preflight and minimal plan. Execute only approved work;
 otherwise wait at the first required approval or access boundary.
 ```
 
-# [Other CCaaS platforms](#tab/other)
+# [Other CCaaS providers](#tab/other)
 
 ```text
 Set up a new repository for a Channel Integration Framework (CIF) 2.0 agent
@@ -282,9 +282,9 @@ Skills give an AI coding agent reusable, project-specific procedures. Save each 
 
 Then add the contact center SDK, sign-in, and configuration.
 
-# [NICE CXone](#tab/nice)
+# [NiCE CXone](#tab/nice)
 
-1. Add the NICE CXone Agent SDK packages and pin one version for all of them: `@nice-devone/agent-sdk`, `@nice-devone/acd-sdk`, `@nice-devone/auth-sdk`, `@nice-devone/voice-sdk`, `@nice-devone/core-sdk`, and `@nice-devone/common-sdk`.
+1. Add the NiCE CXone Agent SDK packages and pin one version for all of them: `@nice-devone/agent-sdk`, `@nice-devone/acd-sdk`, `@nice-devone/auth-sdk`, `@nice-devone/voice-sdk`, `@nice-devone/core-sdk`, and `@nice-devone/common-sdk`.
 1. Implement sign-in with the SDK's pop-up window flow and PKCE:
    1. Call `auth.init` with your CXone host name, client ID, redirect URI, and a random `state` value.
    1. Open the URL from `auth.getAuthorizeUrl("popup", "S256", <tenant-id>)` in a pop-up window.
@@ -306,7 +306,7 @@ Then add the contact center SDK, sign-in, and configuration.
    await sdk.auth.getAccessTokenByCode({ clientId: config.nice.clientId, code });
    ```
 
-1. Add the OAuth callback page next to the panel, for example `<org-url>/WebResources/<prefix>/auth-callback.html`, and ask your NICE administrator to register that exact URL.
+1. Add the OAuth callback page next to the panel, for example `<org-url>/WebResources/<prefix>/auth-callback.html`, and ask your NiCE administrator to register that exact URL.
 
    ```html
    <!-- auth-callback.html: hand the authorization code back to the panel. -->
@@ -329,7 +329,7 @@ Then add the contact center SDK, sign-in, and configuration.
    });
    ```
 
-1. Start the agent session with `acd.session.startSession`. If it returns `409 Conflict`, NICE already holds a session for the agent, so call `acd.session.joinSession` instead. Watch `acd.session.onAgentSessionChange` for session start, join, and end.
+1. Start the agent session with `acd.session.startSession`. If it returns `409 Conflict`, NiCE already holds a session for the agent, so call `acd.session.joinSession` instead. Watch `acd.session.onAgentSessionChange` for session start, join, and end.
 
    ```typescript
    const started = await sdk.acd.session.startSession({
@@ -337,7 +337,7 @@ Then add the contact center SDK, sign-in, and configuration.
      stationPhoneNumber: "WebRTC",
      // ...other options for your setup
    });
-   // 409: NICE still holds this agent's session (for example, a closed tab).
+   // 409: NiCE still holds this agent's session (for example, a closed tab).
    if (httpStatusOf(started) === 409) {
      await sdk.acd.session.joinSession();
    }
@@ -372,7 +372,7 @@ Then add the contact center SDK, sign-in, and configuration.
 > [!IMPORTANT]
 > Don't put client secrets in the panel. The panel runs in the browser, so use a public OAuth client with PKCE.
 
-# [Other CCaaS platforms](#tab/other)
+# [Other CCaaS providers](#tab/other)
 
 1. Add your vendor's agent SDK and pin its version. Implement:
    - Sign-in with the OAuth authorization code flow and PKCE in a pop-up window.
@@ -491,7 +491,7 @@ Then add the contact center SDK, sign-in, and configuration.
    await cif.openForm(JSON.stringify({ entityName: "incident", entityId: created.id }));
    ```
 
-1. When the call ends, save the representative's wrap-up note and the final transcript to the case timeline as a note, and save the disposition in your CCaaS platform.
+1. When the call ends, save the representative's wrap-up note and the final transcript to the case timeline as a note, and save the disposition in your CCaaS service.
 
    Example note (`annotation`) body:
 
@@ -508,23 +508,23 @@ Then add the contact center SDK, sign-in, and configuration.
 
 The following tables list the SDK calls for each step.
 
-# [NICE CXone](#tab/nice)
+# [NiCE CXone](#tab/nice)
 
-| Step | NICE CXone Agent SDK |
+| Step | NiCE CXone Agent SDK |
 |---|---|
 | Incoming contacts | `acd.contactManager.voiceContactUpdateEvent` |
 | Accept, decline | `acd.contactManager.contactService.acceptContact`, `rejectContact` |
 | Mute, end | The voice service and the contact's call controls |
 | Dispositions | `acd.contactManager.getDispositions`, `saveDisposition`; then return the agent to available |
 
-# [Other CCaaS platforms](#tab/other)
+# [Other CCaaS providers](#tab/other)
 
 | Step | Your SDK |
 |---|---|
 | Incoming contacts | The SDK's contact or interaction event |
 | Accept, decline | The SDK's accept and reject calls for a contact |
 | Mute, end | The SDK's voice or call-control calls |
-| Dispositions | The SDK's wrap-up or disposition calls, if your platform uses them |
+| Dispositions | The SDK's wrap-up or disposition calls, if your provider uses them |
 
 ---
 
@@ -532,12 +532,12 @@ The following tables list the SDK calls for each step.
 
 Contact centers usually keep an agent's session on the server, even after the browser tab that started it closes. Many hard-to-diagnose call problems come from this behavior, so build the following behaviors into the panel.
 
-# [NICE CXone](#tab/nice)
+# [NiCE CXone](#tab/nice)
 
 1. **Rejoin on conflict.** If `acd.session.startSession` returns `409 Conflict`, call `acd.session.joinSession` and log that the session was rejoined.
-1. **Flag leftover calls.** After a rejoin, NICE can resend calls from the earlier session that are already over. Treat a contact that ended the first time the panel receives it as a leftover. Show a warning, let the representative remove it without saving wrap-up, and don't let it block **End session**.
-1. **Watch for the Refused state.** If an offered call isn't accepted, NICE sets the agent to Unavailable / Refused. Show a warning that offers a reset.
-1. **Offer a reset.** Add a **Reset NICE session** action that force-ends the session and its contacts, disconnects voice, clears the panel's call state, and starts a fresh session. Don't allow the reset while a call is live.
+1. **Flag leftover calls.** After a rejoin, NiCE can resend calls from the earlier session that are already over. Treat a contact that ended the first time the panel receives it as a leftover. Show a warning, let the representative remove it without saving wrap-up, and don't let it block **End session**.
+1. **Watch for the Refused state.** If an offered call isn't accepted, NiCE sets the agent to Unavailable / Refused. Show a warning that offers a reset.
+1. **Offer a reset.** Add a **Reset NiCE session** action that force-ends the session and its contacts, disconnects voice, clears the panel's call state, and starts a fresh session. Don't allow the reset while a call is live.
 
    ```typescript
    async function resetSession() {
@@ -557,17 +557,17 @@ Contact centers usually keep an agent's session on the server, even after the br
    }
    ```
 
-1. **Log the voice leg.** Log each `acd.session.agentLegEvent` status. When a call rings and no `Dialing` event arrives, NICE can't connect the call to this tab, so reset the session.
+1. **Log the voice leg.** Log each `acd.session.agentLegEvent` status. When a call rings and no `Dialing` event arrives, NiCE can't connect the call to this tab, so reset the session.
 1. **Report useful errors.** SDK calls can throw instead of returning an error. Catch them and show the operation, HTTP status, and error type, for example "Saving wrap-up failed (HTTP 400, CXONE_API_ERROR)." Never show or log response bodies.
 1. **Guide representatives.** Ask representatives to finish wrap-up and end the session before they close or reload the workspace, and to use one tab per agent.
 
 For symptoms and fixes, go to [Calls ring but never connect](/troubleshoot/dynamics-365/customer-service/channel-integration-framework/troubleshoot-third-party-contact-center#calls-ring-but-never-connect-and-the-agent-is-set-to-refused).
 
-# [Other CCaaS platforms](#tab/other)
+# [Other CCaaS providers](#tab/other)
 
 1. **Rejoin on conflict.** If starting the session reports that one already exists, for example with `409 Conflict`, rejoin it and log that you did.
-1. **Flag leftover calls.** After a rejoin, the platform can resend calls from the earlier session that are already over. Treat a contact that ended as a leftover the first time the panel receives it. Show a warning, let the representative remove it without saving wrap-up, and don't let it block **End session**.
-1. **Watch for missed-call states.** When an offered call isn't accepted, many platforms set the agent to a refused or missed state. Show a warning that offers a reset.
+1. **Flag leftover calls.** After a rejoin, the CCaaS service can resend calls from the earlier session that are already over. Treat a contact that ended as a leftover the first time the panel receives it. Show a warning, let the representative remove it without saving wrap-up, and don't let it block **End session**.
+1. **Watch for missed-call states.** When an offered call isn't accepted, many providers set the agent to a refused or missed state. Show a warning that offers a reset.
 1. **Offer a reset.** Add a **Reset session** action that force-ends the session and its contacts through the SDK, disconnects voice, clears the panel's call state, and starts a fresh session. Don't allow the reset while a call is live.
 
    ```typescript
@@ -584,7 +584,7 @@ For symptoms and fixes, go to [Calls ring but never connect](/troubleshoot/dynam
    }
    ```
 
-1. **Log the voice connection.** Log the SDK's voice-leg or media-connection events. A call that rings with no voice-leg activity means the platform can't reach this tab, so reset the session.
+1. **Log the voice connection.** Log the SDK's voice-leg or media-connection events. A call that rings with no voice-leg activity means the CCaaS service can't reach this tab, so reset the session.
 1. **Report useful errors.** SDK calls can throw instead of returning an error. Catch them and show the operation, HTTP status, and error type. Never show or log response bodies.
 1. **Guide representatives.** Ask representatives to finish wrap-up and end the session before they close or reload the workspace, and to use one tab per agent.
 
@@ -594,7 +594,7 @@ For symptoms and fixes, go to [Calls ring but never connect](/troubleshoot/dynam
 
 ## Show the live transcript
 
-# [NICE CXone](#tab/nice)
+# [NiCE CXone](#tab/nice)
 
 1. Confirm the Studio script for your test route uses **Continuous Transcription**.
 1. After the agent session starts, check that transcription is available. `agent.isVoiceTranscriptEnabledAndToggledOn` must return `true`. It depends on the agent feature `release-agent-voice-transcription-AW-20973`.
@@ -656,9 +656,9 @@ For symptoms and fixes, go to [Calls ring but never connect](/troubleshoot/dynam
 1. Show partial lines live, but use only final lines for anything downstream, such as notes or AI requests.
 
 > [!NOTE]
-> If the transcription check returns `false` because the agent feature list doesn't load, contact NICE support. The feature-list request from the Dynamics 365 origin can fail its CORS check (HTTP 403), and NICE must allow the origin. For a demo only, the panel can mark the feature as on in memory behind a configuration switch. Don't rely on this workaround in production.
+> If the transcription check returns `false` because the agent feature list doesn't load, contact NiCE support. The feature-list request from the Dynamics 365 origin can fail its CORS check (HTTP 403), and NiCE must allow the origin. For a demo only, the panel can mark the feature as on in memory behind a configuration switch. Don't rely on this workaround in production.
 
-# [Other CCaaS platforms](#tab/other)
+# [Other CCaaS providers](#tab/other)
 
 1. Turn on your vendor's real-time transcription for the route you use.
 1. Subscribe to the SDK's transcript events. Most SDKs send several messages per sentence, each with:
@@ -700,7 +700,7 @@ For symptoms and fixes, go to [Calls ring but never connect](/troubleshoot/dynam
 > [!IMPORTANT]
 > This section describes a prototype, not a supported integration. It calls `msdyn_GetIntentNextAction`, an action that Copilot Service workspace uses internally. Its contract can change without notice. Use this pattern to explore the experience, not in production.
 
-The prototype combines context from both providers: the live conversation from your CCaaS platform, and the intents, knowledge, and case from Dynamics 365 Customer Service.
+The prototype combines context from both providers: the live conversation from your CCaaS provider, and the intents, knowledge, and case from Dynamics 365 Customer Service.
 
 ### Set up Customer Intent Agent
 
@@ -935,7 +935,7 @@ The following table lists design recommendations for the suggestion experience.
 
 ## Troubleshooting
 
-[Troubleshoot a non-Microsoft contact center panel in Copilot Service workspace](/troubleshoot/dynamics-365/customer-service/channel-integration-framework/troubleshoot-third-party-contact-center)
+[Troubleshoot non-Microsoft contact center panel issues in Copilot Service workspace (preview)](/troubleshoot/dynamics-365/customer-service/channel-integration-framework/troubleshoot-third-party-contact-center)
 
 ## Related information
 
@@ -946,4 +946,4 @@ The following table lists design recommendations for the suggestion experience.
 [Manage session templates](../administer/session-templates.md)  
 [Manage notification templates](../administer/notification-templates.md)  
 [Web resources for model-driven apps](/power-apps/developer/model-driven-apps/web-resources)  
-[Manage Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent)  
+[Manage Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent)    
