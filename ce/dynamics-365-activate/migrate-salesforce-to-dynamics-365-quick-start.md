@@ -1,7 +1,7 @@
 ---
-title: How to migrate from Salesforce to Dynamics 365 (preview)
+title: How to migrate from Salesforce to Dynamics 365
 description: Get a high-level overview of the end-to-end process for migrating Salesforce data to Dynamics 365 using Dynamics 365 Activate, with links to detailed setup and configuration articles.
-ms.date: 09/09/2026
+ms.date: 11/18/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -13,13 +13,9 @@ ms.reviewer: zobanyai
 ai-usage: ai-assisted
 ---
 
-# How to migrate from Salesforce to Dynamics 365 (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# How to migrate from Salesforce to Dynamics 365
 
 This article describes the end-to-end process for migrating your Salesforce data to Dynamics 365 using Dynamics 365 Activate. Use it as a roadmap to understand the sequence of phases, what happens in each one, and where to find detailed instructions.
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
@@ -27,10 +23,11 @@ Before you begin the migration steps, set up your workspace and project.
 
 A **workspace** groups one or more migration projects for a team. A **project** stores the credentials, discovery results, and mappings for a single migration engagement. Set up both before you connect to any source or target system.
 
-- Create a workspace and invite team members with the appropriate roles (Administrator, Contributor, or Reader).
-- Create a migration project inside the workspace.
+1. [Sign up and create a workspace](migrate-salesforce-to-dynamics-365-access-setup.md#sign-up-and-create-a-workspace), or [sign in and join your team's existing workspace](migrate-salesforce-to-dynamics-365-access-setup.md#sign-in-to-dynamics-365-activate).
+2. [Create a migration project](migrate-salesforce-to-dynamics-365-access-setup.md#create-a-project) inside the workspace.
+3. For collaboration, ask team members to sign in at least once, then have a workspace Administrator [add them to the workspace](manage-workspaces.md#add-a-user) with the appropriate roles. The project owner must also [share the project](migrate-salesforce-to-dynamics-365-access-setup.md#share-a-project) with Contributors and Readers who need access.
 
-For details, see [Manage workspaces](manage-workspaces.md) and [Access and set up Dynamics 365 Activate](migrate-salesforce-to-dynamics-365-access-setup.md).
+After you create the project, follow the migration steps in the next section. 
 
 ## Migration steps
 

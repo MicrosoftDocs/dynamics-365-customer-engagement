@@ -1,16 +1,17 @@
 ---
 title: View and edit device summary tiles
-description: Learn how to view and edit summary tiles in Connected Field Service for Dynamics 365 Field Service.
-ms.date: 10/10/2025
+description: Learn to view defaults, edit metrics, and apply tiles by device category with device summary tiles in Connected Field Service.
+ms.date: 11/13/2026
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.author: vhorvath
+ms.reviewer: v-wendysmith
 author: vhorvathms
 ---
 
 # View and edit device summary tiles in Connected Field Service
 
-Summary tiles provide a numeric overview of key metrics for Internet of Things (IoT) devices. For example, users see the average of recent device readings or the number of work orders generated from an IoT alert. Summary tiles appear on IoT devices, IoT alerts, and customer asset records. Summary tile calculations follow security roles, and the summary information updates based on the signed-in user's access.  
+Summary tiles provide a numeric overview of key metrics for Internet of Things (IoT) devices. For example, you see the average of recent device readings or the number of work orders generated from an IoT alert. Summary tiles appear on IoT devices, IoT alerts, and customer asset records. Summary tile calculations follow security roles, and the summary information updates based on the signed-in user's access.  
 
 :::image type="content" source="media/cfs-device-readings-history.png" alt-text="Screenshot of the Boiler 2022 IoT device summary tiles displaying the average temperature and humidity, New Alerts, and New Work Orders.":::
 
@@ -32,11 +33,11 @@ After you [create an IoT device](cfs-register-devices.md), the **IoT Device** pa
 
    :::image type="content" source="media/cfs-summary-tiles-default.svg" alt-text="Screenshot of the summary tiles on an IoT device in Field Service.":::
 
-   If a device is registered with Azure IoT or a custom IoT provider and its data is pulled into Field Service, the first two device properties automatically appear: temperature and humidity.
+   If you register a device with Azure IoT or a custom IoT provider and pull its data into Field Service, the first two device properties automatically appear: temperature and humidity.
 
    :::image type="content" source="media/cfs-device-readings-history-edited.svg" alt-text="Screenshot of the IoT device summary tiles showing the average temperature and the average humidity for the past seven days.":::
 
-   The device summaries use the device data history on the device record, which updates with a slight delay (30-60 min). You can select **Pull Device Data** to get the latest data from Azure IoT.
+   The device summaries use the device data history on the device record, which updates with a slight delay (30-60 min). Select **Pull Device Data** to get the latest data from Azure IoT.
 
 ## Edit summary tiles
 

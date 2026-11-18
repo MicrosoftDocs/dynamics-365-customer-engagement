@@ -1,7 +1,7 @@
 ---
-title: Salesforce to Dynamics 365 migration overview (preview)
+title: Salesforce to Dynamics 365 migration overview
 description: Learn about Dynamics 365 Activate, which helps you migrate your existing CRM data to Dynamics 365 Sales. Understand its capabilities, supported scenarios, and architecture.
-ms.date: 09/09/2026
+ms.date: 11/18/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -13,13 +13,15 @@ ms.reviewer: zobanyai
 ai-usage: ai-assisted
 ---
 
-# Salesforce to Dynamics 365 migration overview (preview)
+# Salesforce to Dynamics 365 migration overview
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+Dynamics 365 Activate is a unified, AI-assisted implementation and migration experience thathelps you assess your Salesforce org and migrate CRM data to Dynamics 365 Sales and Dynamics 365 Customer Service. It automates the analysis and transformation of your Salesforce configuration - including objects, fields, relationships, automation, and code - and guides you through the migration journey from discovery through schema deployment, data migration, and reconciliation in Dynamics 365.
 
-Dynamics 365 Activate is a web-based application that helps you assess your Salesforce org and migrate CRM data to Dynamics 365 Sales and Dynamics 365 Customer Service. It automates the analysis and transformation of your Salesforce configuration - including objects, fields, relationships, automation, and code - and guides you through the migration journey from discovery through schema deployment, data migration, and reconciliation in Dynamics 365.
+## Get started
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+Start by [accessing Dynamics 365 Activate and creating a project in a workspace](migrate-salesforce-to-dynamics-365-access-setup.md). If you're joining an existing migration engagement, sign in at least once, then ask the workspace administrator to add you and the project owner to [share the project](migrate-salesforce-to-dynamics-365-access-setup.md#share-a-project).
+
+After you have a project, follow [How to migrate from Salesforce to Dynamics 365](migrate-salesforce-to-dynamics-365-quick-start.md). The guide takes you through storage setup, Salesforce app configuration and discovery, the target Dynamics 365 connection, mapping, deployment, migration, and cleanup.
 
 ## Supported scenarios
 
@@ -90,8 +92,9 @@ For more information, see [Security and data handling for Dynamics 365 Activate]
 
 ## Limitations
 
-Be aware of the following limitations in the current preview release:
+Be aware of the following limitations:
 
+- **Language support**: English is the only supported language.
 - **Automation not migrated**: The application assesses but doesn't convert or migrate flows, Process Builder, workflow rules, and Apex.
 - **Binary content has scoped support**: You can migrate Salesforce Files, ContentNotes, classic Attachments, email attachments, and supported record images. The application doesn't migrate files that exceed the Dataverse maximum upload size or attachments in unsupported scenarios, such as Omnichannel conversation-entry attachments.  
 - **Schema transformations**: Field types, picklist values, and formatting might differ between Salesforce and Dynamics 365. The application transforms values to fit the target schema, which might change how data appears.
@@ -103,3 +106,4 @@ Be aware of the following limitations in the current preview release:
 - [Access and set up Dynamics 365 Activate](migrate-salesforce-to-dynamics-365-access-setup.md)
 - [Connect to Salesforce and run discovery](migrate-salesforce-to-dynamics-365-connect-salesforce.md)
 - [Connect to Dynamics 365 and run discovery](migrate-salesforce-to-dynamics-365-connect-dynamics.md)
+- [Responsible AI FAQ for Dynamics 365 Activate](faq-responsible-ai.md)

@@ -1,7 +1,7 @@
 ---
-title: Clean up after a Salesforce migration (preview)
+title: Clean up after a Salesforce migration
 description: Learn how to revoke Salesforce and Dynamics 365 access, delete project data, and clean up Azure resources after completing a migration with Dynamics 365 Activate.
-ms.date: 09/09/2026
+ms.date: 11/18/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -13,13 +13,9 @@ ms.reviewer: zobanyai
 ai-usage: ai-assisted
 ---
 
-# Step 8: Clean up after a Salesforce migration (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Step 8: Clean up after a Salesforce migration
 
 After your migration is complete, revoke the access credentials you granted during setup and remove any data you no longer need from Dynamics 365 Activate. This article describes the cleanup steps for each component.
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Revoke Salesforce access
 

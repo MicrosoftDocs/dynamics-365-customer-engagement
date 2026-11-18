@@ -1,7 +1,7 @@
 ---
-title: Manage workspaces (preview)
+title: Manage workspaces
 description: Learn how to create and manage workspaces in Dynamics 365 Activate.
-ms.date: 09/09/2026
+ms.date: 11/18/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -13,13 +13,9 @@ ms.reviewer: zobanyai
 ai-usage: ai-assisted
 ---
 
-# Manage workspaces (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Manage workspaces
 
 A workspace is a shared area where your team can organize and manage Salesforce migration projects. Each workspace can contain multiple projects and has its own members, roles, and access settings.
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Workspaces help you:
 
@@ -28,7 +24,7 @@ Workspaces help you:
 - Control who can view or manage projects.
 - Separate projects that require different teams or access permissions.
 
-Microsoft provisions a workspace when it approves your access request. To request access and create your first workspace, see [Access and set up Dynamics 365 Activate](migrate-salesforce-to-dynamics-365-access-setup.md).
+You can sign up and create a workspace without approval from Microsoft. To create your first workspace, see [Access and set up Dynamics 365 Activate](migrate-salesforce-to-dynamics-365-access-setup.md#sign-up-and-create-a-workspace). Joining an existing workspace still requires its administrator to add you.
 
 ## Workspace roles
 
@@ -38,60 +34,45 @@ Microsoft provisions a workspace when it approves your access request. To reques
 | **Contributor** | Create projects and make changes, including running migrations. | Projects they created or that were shared with them. |
 | **Reader** | View information without making changes. | Projects shared with them. |
 
-Workspace membership and project sharing work together. Adding someone as a Contributor or Reader doesn't automatically show them every project. A project owner must share projects that the users need access to. Administrators can see all projects in the workspace.
+Workspace membership and project sharing work together. Adding someone as a Contributor or Reader doesn't automatically show them every project. A project owner must [share the projects that the users need access to](migrate-salesforce-to-dynamics-365-access-setup.md#share-a-project). Administrators can see all projects in the workspace.
 
 ## Enable or disable Bring your Own Storage (BYOS) for a workspace
 
 By default, Bring your Own Storage (BYOS) is enabled for the workspace, so you can use your own storage for migration assessment and staging data. However, you can disable BYOS at the workspace level to allow the use of only Microsoft-hosted storage for all projects in the workspace.
 
 1. On the **Migration Projects** page, select the workspace from the **Workspace** drop-down.
-1. Select **Access management** at the top of the page.
-1. Turn on **Enable Microsoft-hosted storage for migration assessment and staging data.** to disable BYOS for the workspace. Turn off this option to enable BYOS.
-1. Select **Save changes**.
+2. Select **Access management** at the top of the page.
+3. Turn on **Enable Microsoft-hosted storage for migration assessment and staging data.** to disable BYOS for the workspace. Turn off this option to enable BYOS.
+4. Select **Save changes**.
    After you disable BYOS, the **Configure storage** option shows that projects in the workspace can use only Microsoft-managed storage.
    :::image type="content" source="media/byos-disabled.png" alt-text="Screenshot of the Configure storage option showing Microsoft-managed only":::
 
-## Add an existing project to a workspace
+## Create projects in a workspace
 
-Add related projects to a workspace to keep them organized and accessible to the appropriate team members.
-
-> [!NOTE]
-> You can add a project to only one workspace. Once you add it to a workspace, you can't move it to a different workspace.
-
-1. On the [Migration Projects](https://migrate.dynamics.cloud.microsoft/) page, select **All Workspaces** from the **Workspace** drop-down.
-   You see projects across all workspaces.
-1. Find the project that you want to add to a workspace. If the project isn't already in a workspace, it's marked as **Not in a workspace**.
-1. Select **Add to workspace**.
-1. Select the workspace you want to add it to, then confirm.
+Every new project must belong to a workspace. Select the appropriate workspace when you [create a project](migrate-salesforce-to-dynamics-365-access-setup.md#create-a-project). You can't move the project to another workspace through the standard project-editing experience.
 
 ## Manage workspace access
 
 You must be a workspace Administrator to manage workspace access. 
 
-### Add a member
+### Add a user
+
+Add a user to the workspace so they can access the workspace and its projects according to the role you assign to them.
 
 1. Select the workspace in the **Workspace** drop-down.
-1. Select **Access management**.
-1. Under **Role assignments**, select **Add user**.
-1. Enter the person's work email address.
-1. Select a role: **Administrator**, **Contributor**, or **Reader**. To learn more, see [workspace roles](#workspace-roles).
-1. Select **Add user**.
+2. Select **Access management**.
+3. Under **Role assignments**, select **Add user**.
+4. Enter the Microsoft Entra work email address of the user.
+5. Select a role: **Administrator**, **Contributor**, or **Reader**. To learn more, see [workspace roles](#workspace-roles).
+6. Select **Add user**.
+1. Notify the user to sign in to [Dynamics 365 Activate](https://migrate.dynamics.cloud.microsoft/) with their Microsoft Entra work account so that you can [share projects](migrate-salesforce-to-dynamics-365-access-setup.md#share-a-project) with them.
 
-The person receives access when they next sign in with that email address.
-
-### Change a member's role
-
-1. In **Access management**, find the member under **Role assignments**.
-1. Select the new role.
-1. Select **Save changes**.
-
-### Remove or restore access
+### Manage a member's role and access
 
 1. In **Access management**, find the member under **Role assignments**.
-1. Use the member's **Access** toggle:
-   - Turn it **off** to disable access.
-   - Turn it **on** to restore access.
-1. Select **Save changes**.
+2. Select the new role or change the member's access toggle as needed.
+3. Select **Save changes**.
+
 
 > [!NOTE]
 > The portal uses a reversible access switch instead of a permanent **Remove member** action. A workspace must always have at least one enabled Administrator who signs in. An unaccepted invitation doesn't count.

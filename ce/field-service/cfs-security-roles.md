@@ -1,10 +1,11 @@
 ---
 title: Security roles for Connected Field Service
-description: Learn about security roles in Connected Field Service
-ms.date: 11/10/2026
+description: Connected Field Service security roles help control access to IoT alerts, assets, devices, and commands. Learn how to configure permissions.
+ms.date: 11/13/2026
 ms.subservice: connected-field-service
 ms.topic: article
 ms.author: vhorvath
+ms.reviewer: v-wendysmith
 author: vhorvathms
 ai-usage: ai-assisted
 ---
@@ -24,7 +25,7 @@ The following prerequisites are required:
 - General knowledge of Field Service security roles. Learn more in [Set up users and security roles](users-licenses-permissions.md).
 
 > [!NOTE]
-> Make copies of the Field Service security roles and assign the copied security roles to users. This prevents product updates from overwriting your custom security configurations. To copy a security role, go to [Copy a security role](/power-platform/admin/database-security).
+> Make copies of the Field Service security roles and assign the copied security roles to users. This practice prevents product updates from overwriting your custom security configurations. To copy a security role, go to [Copy a security role](/power-platform/admin/copy-security-role).
 
 ## Add IoT security to administrator security role
 
@@ -67,9 +68,9 @@ Finally, resources need access to IoT tables and records related to their respon
 
 Identify the resource security role your organization assigns to resources or technicians (typically a copy of the **Field Service - Resource** security role), and assign limited access to IoT tables as shown in the following screenshot.
 
-:::image type="content" source="media/cfs-security-role-resource.png" alt-text="Screenshot that shows field service resource permissions.":::
+:::image type="content" source="media/cfs-security-role-resource.png" alt-text="Screenshot of field service resource permissions.":::
 
-Business process flows aren't displayed on the Field Service mobile app, so resources don't need access to the **CFS - IoT Alert Process Flow.**
+Business process flows don't display on the Field Service mobile app, so resources don't need access to the **CFS - IoT Alert Process Flow.**
 
 Assign the **IoT Administrator** and **IoT Endpoint User** security roles to users who work with device registration and device data pulls (IoT Hub operations).
 

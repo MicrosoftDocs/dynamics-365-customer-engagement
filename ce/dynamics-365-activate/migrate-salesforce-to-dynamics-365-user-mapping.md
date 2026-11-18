@@ -1,7 +1,7 @@
 ---
-title: Map Salesforce users to Dynamics 365 users (preview)
+title: Map Salesforce users to Dynamics 365 users
 description: Learn how to map Salesforce users to existing users in Microsoft Dataverse before migrating records.
-ms.date: 09/09/2026
+ms.date: 11/18/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -13,13 +13,9 @@ ms.reviewer: zobanyai
 ai-usage: ai-assisted
 ---
 
-# Step 5: Map Salesforce users to Dynamics 365 users (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Step 5: Map Salesforce users to Dynamics 365 users
 
 Dynamics 365 Activate uses user mapping to connect Salesforce users to existing users in Microsoft Dataverse. Configure user mapping before you migrate records that contain user references.
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)] 
 
 ## Why user mapping is required
 
@@ -162,5 +158,5 @@ Preserving native audit fields requires per-record processing, which can take lo
 
 ## Related content
 
-- [How to migrate from Salesforce to Dynamics 365 (preview)](migrate-salesforce-to-dynamics-365-quick-start.md)
-- [Deploy the Dynamics 365 schema for migration (preview)](migrate-salesforce-to-dynamics-365-solution-deployment.md)
+- [How to migrate from Salesforce to Dynamics 365](migrate-salesforce-to-dynamics-365-quick-start.md)
+- [Deploy the Dynamics 365 schema for migration](migrate-salesforce-to-dynamics-365-solution-deployment.md)

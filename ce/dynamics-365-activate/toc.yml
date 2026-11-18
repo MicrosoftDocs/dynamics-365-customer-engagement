@@ -1,9 +1,9 @@
 items:
-  - name: Dynamics 365 Activate (preview)
+  - name: Dynamics 365 Activate
     items:
-      - name: Dynamics 365 Activate overview (preview) 
+      - name: Dynamics 365 Activate overview
         href: dynamics-365-activate-overview.md
-      - name: Salesforce to Dynamics 365 migration (preview)
+      - name: Salesforce to Dynamics 365 migration
         items:
           - name: Overview
             href: migrate-salesforce-to-dynamics-365-overview.md
@@ -33,3 +33,5 @@ items:
                 href: migrate-salesforce-to-dynamics-365-cleanup.md
               - name: Security and data handling
                 href: migrate-salesforce-to-dynamics-365-security.md
+          - name: Responsible AI FAQ
+            href: faq-responsible-ai.md

@@ -1,7 +1,7 @@
 ---
-title: Security and data handling for Dynamics 365 Activate (preview)
+title: Security and data handling for Dynamics 365 Activate
 description: Learn how Dynamics 365 Activate accesses, protects, and retains your Salesforce and Dynamics 365 data during discovery and migration.
-ms.date: 09/09/2026
+ms.date: 11/18/2026
 ms.update-cycle: 180-days
 ms.topic: concept-article
 ms.service: dynamics-365-sales
@@ -13,13 +13,9 @@ ms.reviewer: zobanyai
 ai-usage: ai-assisted
 ---
 
-# Security and data handling for Dynamics 365 Activate (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Security and data handling for Dynamics 365 Activate
 
 This article describes how Dynamics 365 Activate accesses your data, how it's protected, and how long it's retained.
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 > [!NOTE]
 > **Third-party services**: When you connect to a third-party service such as Salesforce, use of that service and the data stored there is governed by third-party terms and data handling practices. It's your responsibility to comply with applicable third-party terms and to ensure that third-party data handling practices meet your organization's requirements.
@@ -37,9 +33,6 @@ During discovery, the application retrieves:
 - **Lightning page layouts**: Component structure and page configurations.
 - **Org configuration**: Installed packages, languages, currency settings, and license usage.
 - **Aggregate statistics**: Record counts per object, field population rates, and user counts by profile.
-
-> [!NOTE]
-> AI features are disabled in production. No Apex source code is sent to an AI model in production environments. In development or testing environments where AI is enabled, analysis prompts might include a marked excerpt of up to 1,500 characters.
 
 ### Migration phase — business records
 
@@ -100,17 +93,15 @@ For customers who want stronger data isolation, use the [Bring Your Own Storage 
 
 ## AI features
 
-AI-enhanced analysis capabilities are available in development and testing environments only. In production, all AI features are disabled:
+Dynamics 365 Activate provides AI-assisted assessment and migration recommendations. Review these recommendations before making migration decisions, deploying schema changes, or migrating data. The application assesses automation and code but doesn't automatically convert or migrate them.
 
-- No Azure OpenAI or other model inference is active in production.
-- No customer data is sent to any AI service in production.
-- All migration recommendations in production are generated using rule-based analysis only.
+English is the only supported language. For intended use, limitations, review guidance, and the in-product feedback procedure, see [Responsible AI FAQ for Dynamics 365 Activate](faq-responsible-ai.md).
 
 ## Limitations and billing
 
 ### Limitations
 
-This application is provided as a preview and has known limitations. Validate results before relying on them:
+The application has known limitations. Validate results before relying on them:
 
 - **Incomplete data migration**: The application only supports structured standard and custom table records for the objects and fields you select. It doesn't migrate attachments, files, documents, or binary content. The application might skip records if they fail validation against the target Dynamics 365 schema.
 - **Formatting and transformation changes**: Field types, picklist values, and formatting might differ between Salesforce and Dynamics 365. The application transforms values to fit the target schema, which can change how data appears or is interpreted.
@@ -121,7 +112,7 @@ Always perform post-migration validation and reconciliation before using migrate
 
 ### Billing
 
-There's no charge for the migration application itself during the preview. However, use of the application might still result in charges in your own Microsoft and third-party subscriptions. For example, you might incur charges for Dynamics 365 and Dataverse capacity and storage consumed by migrated data, and for any Salesforce or other third-party API usage governed by your agreements with those providers. Review your applicable subscription terms before running a migration.
+Use of the application might result in charges in your own Microsoft and third-party subscriptions. For example, you might incur charges for Dynamics 365 and Dataverse capacity and storage consumed by migrated data, and for any Salesforce or other third-party API usage governed by your agreements with those providers. Review your applicable subscription terms before running a migration.
 
 ## Data lifecycle and retention
 
@@ -185,8 +176,9 @@ Yes. All API activity appears in Salesforce's standard API usage logs and Event 
 **Can we delete all our data after the assessment or migration?**  
 Yes. Select your name > **Delete All My Data** to permanently remove all stored data in a single operation. See [Clean up after a Salesforce migration](migrate-salesforce-to-dynamics-365-cleanup.md).
 
-**Can we run this application without AI features?**  
-Yes. AI features are currently disabled in all production environments. All analysis in production uses rule-based logic only.
+**How do we review AI-assisted analysis or report a problem?**
+
+Compare recommendations with the source configuration, validate mappings, and test the migration in a nonproduction target environment. To report an AI-related issue, use the feedback option in the application footer and select **AI Analysis**. See [Responsible AI FAQ for Dynamics 365 Activate](faq-responsible-ai.md).
 
 ## Related information
 
@@ -194,3 +186,4 @@ Yes. AI features are currently disabled in all production environments. All anal
 - [Connect to Salesforce and run discovery](migrate-salesforce-to-dynamics-365-connect-salesforce.md)
 - [Set up Bring Your Own Storage for migration data](migrate-salesforce-to-dynamics-365-byos.md)
 - [Clean up after a Salesforce migration](migrate-salesforce-to-dynamics-365-cleanup.md)
+- [Responsible AI FAQ for Dynamics 365 Activate](faq-responsible-ai.md)

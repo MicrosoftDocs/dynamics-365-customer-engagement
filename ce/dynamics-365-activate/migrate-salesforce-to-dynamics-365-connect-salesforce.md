@@ -1,7 +1,7 @@
 ---
-title: Connect to Salesforce and run discovery (preview)
+title: Connect to Salesforce and run discovery
 description: Learn how to set up a Salesforce External Client App, configure a least-privilege integration user, connect Dynamics 365 Activate to your Salesforce org, and run discovery.
-ms.date: 09/09/2026
+ms.date: 11/18/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -13,13 +13,9 @@ ms.reviewer: zobanyai
 ai-usage: ai-assisted
 ---
 
-# Step 2: Connect to Salesforce and run discovery (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Step 2: Connect to Salesforce and run discovery
 
 This article explains how to configure a least-privilege Salesforce connection for Dynamics 365 Activate, connect the application to your Salesforce org, and run discovery to generate a migration readiness assessment.
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Discovery reads metadata and aggregate information about objects, fields, automation, custom code, security, integrations, and data volume. It doesn't create, update, or delete Salesforce records, or deploy Salesforce configurations. Migration is a separate process that reads the records selected in your migration project and writes the mapped records to Microsoft Dataverse.
 
@@ -27,6 +23,7 @@ Discovery reads metadata and aggregate information about objects, fields, automa
 
 Before you begin, make sure that you have:
 
+- Access to a Dynamics 365 Activate workspace and a migration project. If you didn't set up these resources, [request access and create a project](migrate-salesforce-to-dynamics-365-access-setup.md). If someone else owns the project, ask them to [share it with you](migrate-salesforce-to-dynamics-365-access-setup.md#share-a-project).
 - Salesforce administrator access, or equivalent access to create an External Client App, configure OAuth policies, and assign permission sets.
 - Permission to enter and store the External Client App consumer key and consumer secret in Dynamics 365 Activate.
 
@@ -141,6 +138,8 @@ The Consumer Key is the Client ID. The Consumer Secret is the Client Secret.
 
 ## Enter Salesforce credentials in the application
 
+Use the values from the preceding Salesforce setup steps. The **Login URL** is the [My Domain URL](#get-the-salesforce-my-domain-url), and the **Consumer Key (Client ID)** and **Consumer Secret (Client Secret)** come from the [External Client App](#copy-the-consumer-credentials).
+
 1. Open Dynamics 365 Activate and navigate to your project.
 1. On the **Configuration** tab, select **Start New Migration**.
 1. Enter:
@@ -199,6 +198,8 @@ Missing objects or fields usually indicate missing object Read access, field-lev
 1. On the **Discovery** tab, select **Download PDF Report**.
 
 The report includes complexity scores, migration readiness ratings, recommended approaches, and transformation recommendations. This report is suitable for sharing with stakeholders and project teams.
+
+To let colleagues or partners review discovery results in Dynamics 365 Activate, [share the project](migrate-salesforce-to-dynamics-365-access-setup.md#share-a-project). Next, [connect to Dynamics 365 and run target discovery](migrate-salesforce-to-dynamics-365-connect-dynamics.md).
 
 ## Discovery permissions by area
 

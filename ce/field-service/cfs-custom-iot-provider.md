@@ -1,10 +1,11 @@
 ---
-title: Use custom IoT providers
+title: Use custom IoT providers in Field Service
 description: Integrate custom IoT solutions with Field Service through the IoT provider feature, which allows users to interact with IoT-enabled devices from any vendor.
-ms.date: 10/03/2025
+ms.date: 11/13/2026
 ms.subservice: connected-field-service
 ms.topic: article
 ms.author: vhorvath
+ms.reviewer: v-wendysmith
 author: vhorvathms
 ms.custom:
   - bap-template
@@ -23,8 +24,6 @@ This article describes the IoT provider data model and provides an overview of t
 
 ## Prerequisites
 
-The following prerequisites are required to build custom IoT solutions:
-
 - Experience developing [model-driven apps](/powerapps/developer/model-driven-apps/overview) that connect to Dynamics 365 and Microsoft Dataverse
 - Programming experience with C#, .NET, and Visual Studio
 - Familiarity with the REST/OData API
@@ -33,7 +32,7 @@ The following prerequisites are required to build custom IoT solutions:
 
 All methods to integrate external IoT services with Field Service must align with the Field Service IoT provider data model. This model includes three related tables: [IoT Provider](#iot-provider-table), [IoT Provider Instance](#iot-provider-instance-table), and [IoT Device](#iot-device-table), as well as a table for IoT settings.
 
-:::image type="content" source="media/cfs-entity-model.svg" alt-text="Diagram of the Field Service IoT provider data model.":::
+:::image type="content" source="media/cfs-entity-model.svg" alt-text="Screenshot of the Field Service IoT provider data model.":::
 
 ### IoT Provider table
 
@@ -48,13 +47,13 @@ A one-to-many (1:many) relationship exists between the `IoT Provider` table and 
 :::image type="content" source="media/cfs-iot-hub-provider-instance.png" alt-text="Screenshot of an IoT provider instance record.":::
 
 - **Provider Instance Id** identifies the instance in your source IoT system.
-- **URL** could be one that's used in your provider code or the user experience; for example, an API endpoint or a link to the Azure resource group of the deployment.
+- **URL** is one that you use in your provider code or the user experience, such as an API endpoint or a link to the Azure resource group of the deployment.
 
 ### IoT Device table
 
-A 1:many relationship exists between the `IoT Provider Instance` table and the `IoT Device` table, which maps each device to an IoT provider instance.
+A one-to-many relationship exists between the `IoT Provider Instance` table and the `IoT Device` table. This relationship maps each device to an IoT provider instance.
 
-- **Account** identifies the customer account in Field Service associated with the device.
+- **Account** identifies the customer account in Field Service that's associated with the device.
 - **Category** specifies the device category.
 - **Time Zone** indicates the time zone where the device is located.
 - **Device Id** registers the device with the IoT provider.

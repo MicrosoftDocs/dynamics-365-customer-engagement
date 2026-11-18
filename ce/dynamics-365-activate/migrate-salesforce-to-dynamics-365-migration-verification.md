@@ -1,7 +1,7 @@
 ---
-title: Migrate data and verify results (preview)
+title: Migrate data and verify results
 description: Learn how to run a data migration from Salesforce to Dynamics 365, monitor migration progress, handle errors, and verify that all records were migrated successfully.
-ms.date: 09/09/2026
+ms.date: 11/18/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -13,9 +13,7 @@ ms.reviewer: zobanyai
 ai-usage: ai-assisted
 ---
 
-# Step 7: Migrate data and verify results (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Step 7: Migrate data and verify results
 
 Learn how to run and verify a data migration from Salesforce to Dynamics 365. Validate migration readiness, select migration modes, monitor progress, resolve errors, and confirm that records migrated successfully.
 
@@ -23,8 +21,6 @@ Dynamics 365 Activate provides two levels of verification:
 
 - **Run reconciliation** on the Migration page compares Salesforce and Dataverse record counts for a completed migration run.
 - **Dashboard verification** evaluates migrated objects across the project and can perform configurable record sampling with field-by-field comparisons.  
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 

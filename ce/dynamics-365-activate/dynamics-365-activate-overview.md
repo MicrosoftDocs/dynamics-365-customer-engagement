@@ -1,7 +1,7 @@
 ---
-title: Dynamics 365 Activate overview (preview)
+title: Dynamics 365 Activate overview
 description: Learn how Dynamics 365 Activate helps customers and partners accelerate Dynamics 365 implementation and migration projects.
-ms.date: 09/09/2026
+ms.date: 11/18/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365
@@ -13,15 +13,13 @@ ms.reviewer: zobanyai
 ai-usage: ai-assisted
 ---
 
-# Dynamics 365 Activate overview (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Dynamics 365 Activate overview
 
 Dynamics 365 Activate is a unified, AI-assisted implementation and migration experience for Dynamics 365. It helps Microsoft customers, partners, and systems integrators understand existing business application environments, make informed transformation decisions, and accelerate migration and implementation.
 
 Dynamics 365 Activate currently supports migration from Salesforce to Dynamics 365.
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+English is the only supported language.
 
 ## Migration approach
 
@@ -39,10 +37,10 @@ The Salesforce migration experience helps implementation teams assess a Salesfor
 
 For detailed capabilities, prerequisites, and the end-to-end process, see [Overview of Salesforce migration to Dynamics 365](migrate-salesforce-to-dynamics-365-overview.md).
 
-
 ## Related information
 
 - [Overview of Salesforce migration to Dynamics 365](migrate-salesforce-to-dynamics-365-overview.md)
-- [Access and set up Dynamics 365 Activate (preview)](migrate-salesforce-to-dynamics-365-access-setup.md)
+- [Access and set up Dynamics 365 Activate](migrate-salesforce-to-dynamics-365-access-setup.md)
 - [Connect to Salesforce and run discovery](migrate-salesforce-to-dynamics-365-connect-salesforce.md)
 - [Security and data handling for Dynamics 365 Activate](migrate-salesforce-to-dynamics-365-security.md)
+- [Responsible AI FAQ for Dynamics 365 Activate](faq-responsible-ai.md)
