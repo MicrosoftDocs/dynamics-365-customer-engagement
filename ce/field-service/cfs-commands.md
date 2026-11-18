@@ -1,26 +1,27 @@
 ---
 title: Send commands in Connected Field Service
 description: Send commands to IoT devices with Field Service to remotely control them.
-ms.date: 10/03/2025
+ms.date: 11/13/2026
 ms.topic: how-to
 ms.subservice: connected-field-service
 ms.custom: bap-template
 ms.author: vhorvath
+ms.reviewer: v-wendysmith
 author: vhorvathms
 ---
 
 # Send commands in Connected Field Service
 
-Dynamics 365 Field Services enables seamless bi-directional communication with your IoT devices. It empowers your organization to not only gather data from IoT devices but also send commands and receive real-time updates. This symmetrical flow of information enhances control, monitoring, and decision-making capabilities within the IoT infrastructure.
+Dynamics 365 Field Service enables seamless bi-directional communication with your IoT devices. It empowers your organization to not only gather data from IoT devices but also send commands and receive real-time updates. This symmetrical flow of information enhances control, monitoring, and decision-making capabilities within the IoT infrastructure.
 
-Commands are programed instructions sent from the Field Service application to IoT devices. They direct devices to perform specific actions, retrieve data, or modify their existing configurations. Commands consist of IoT definition properties that provide a standardized framework for understanding and interacting with device data. These properties represent the attributes or characteristics of IoT devices that can be monitored or controlled. For example, the IoT definition properties for a thermostat might include temperature and humidity.
+Commands are programmed instructions sent from the Field Service application to IoT devices. They direct devices to perform specific actions, retrieve data, or modify their existing configurations. Commands consist of IoT definition properties that provide a standardized framework for understanding and interacting with device data. These properties represent the attributes or characteristics of IoT devices that you can monitor or control. For example, the IoT definition properties for a thermostat might include temperature and humidity.
 
 > [!TIP]
-> Commands for an IoT device are usually documented in the device manual or API documentation. These resources provide detailed information on the available commands, their syntax, and how to interact with the device programmatically.
+> You usually find commands for an IoT device in the device manual or API documentation. These resources provide detailed information on the available commands, their syntax, and how to interact with the device programmatically.
 
 ## Create IoT definition properties
 
-Before configuring an IoT command in Field Service, you first need to create IoT definition properties. IoT definition properties help construct the message string for your IoT command.
+Before configuring an IoT command in Field Service, you need to create IoT definition properties. IoT definition properties help construct the message string for your IoT command.
 
 1. In Field Service, go to the **Settings** area.
 1. Under **IoT**, select **IoT Property Definitions**, and then select **New**.
