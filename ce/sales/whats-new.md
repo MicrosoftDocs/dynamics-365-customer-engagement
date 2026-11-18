@@ -4,7 +4,7 @@ description: This article points to articles that describe the new and changed f
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 05/29/2026
+ms.date: 11/04/2026
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---
@@ -15,11 +15,7 @@ In an effort to provide continuous value to our customers, we release new capabi
 
 ## Check out the latest features
 
-Check out the following links to learn more about the released and upcoming features in Dynamics 365 Sales and plan your updates accordingly:
-
-- [Released features](https://releaseplans.microsoft.com/en-US/?app=Sales&group=date&status=new)
-- [Features coming soon](https://releaseplans.microsoft.com/en-US/?app=Sales&group=date&status=coming-soon).
-- [Planned features](https://releaseplans.microsoft.com/en-US/?app=Sales&group=date&status=planned)
+Visit the [AI at Work roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption of Dynamics 365 Sales.
 
 ## Check your app version
 

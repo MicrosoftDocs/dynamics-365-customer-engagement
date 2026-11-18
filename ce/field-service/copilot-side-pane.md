@@ -1,7 +1,7 @@
 ---
 title: Use Copilot in the Dynamics 365 Field Service web application
 description: Learn how to use Copilot to summarize records, catch up on recent changes, and prepare for onsite jobs.
-ms.date: 09/08/2026
+ms.date: 11/17/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: JonBaker007
@@ -57,7 +57,7 @@ The out-of-the-box Field Service app module includes a preconfigured agent for t
 
 You might need to allow data movement across regions for Generative AI features as a prerequisite for running copilot in Power Apps. This step is especially important if your organization and your environment are in different regions. For more information, see [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
 
-For regional availability, see the [Copilot International Availability Report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
+For regional availability, see [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability).
 
 ## Resolve common Copilot issues
 
@@ -72,7 +72,7 @@ If Copilot isn't working as expected in your Field Service environment, check th
 
 - **Data Loss Prevention (DLP) policies** might block the required connectors. Verify that Dataverse and HTTP connectors aren't blocked for your environment. Learn more in [Manage data policies](/power-platform/admin/prevent-data-loss).
 - **Data movement across regions** must be enabled if your tenant and environment are in different regions. Learn more in [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
-- Verify that the environment is in a [supported region](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
+- Verify that the environment is in a [supported region](https://aka.ms/d365-product-availability).
 
 ### Copilot provides incorrect or limited answers
 

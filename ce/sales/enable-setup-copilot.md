@@ -36,7 +36,7 @@ Throughout this article, the term "sales app" refers to apps that have lead and 
 
 ## Prerequisites
 
-- Make sure that your organization is in one of the [regions where Copilot in Dynamics 365 Sales is available](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
+- Make sure that your organization is in one of the [regions where Copilot in Dynamics 365 Sales is available](https://aka.ms/d365-product-availability).
 
 - Verify if your region has an Azure OpenAI Service endpoint. Check the list of [regions where data is processed for Copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features). If it doesn't, you must provide consent for data movement in the Power Platform admin center. Learn more in [Turn on data movement and Bing search for Copilot and generative AI features](/power-platform/admin/geographical-availability-copilot?branch=main#turn-on-data-movement-bing-search-and-m365-for-copilots-and-generative-ai-features).
 

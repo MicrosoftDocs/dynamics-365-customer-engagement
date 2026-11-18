@@ -2,7 +2,7 @@
 title: Supported regions and languages for autonomous agents, Copilot features, and analytics in Customer Service and Dynamics 365 Contact Center
 description: Learn about region availability and the languages supported for autonomous agents, Copilot features, and analytics in Customer Service and Dynamics 365 Contact Center.
 ms.topic: concept-article
-ms.date: 10/14/2026
+ms.date: 11/17/2026
 ms.update-cycle: 90-days
 author: Soumyasd27
 ms.author: sdas
@@ -21,7 +21,7 @@ For analytics and insights, the [AI Builder preview models](/ai-builder/administ
 
 ## Supported regions for autonomous agents
 
-Learn about supported regions for the following autonomous agents in [Explore feature availability by geography](https://releaseplans.microsoft.com/availability-reports/?report=featuregeoreport):
+Learn about supported regions for the following autonomous agents in [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability):
 
 - Customer Intent Agent
 - Case Management Agent
