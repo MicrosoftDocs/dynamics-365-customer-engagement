@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
-ms.date: 10/20/2026
+ms.date: 11/18/2026
 ms.custom: bap-template
 ---
 
@@ -28,6 +28,8 @@ You can then use the conversation lifecycle events data in Application Insights 
 - At least "Read" access to query data in Application Insights.
 - The user must be a Power Platform administrator or System Administrator to do tasks like export data.
 - Your environment must be a Managed environment.
+
+- You need administrator or supervisor level permissions to set up Azure Application Insights.
 
 ## Pricing
 
