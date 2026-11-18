@@ -1,7 +1,7 @@
 ---
-title: Deploy the Dynamics 365 schema for migration (preview)
+title: Deploy the Dynamics 365 schema for migration
 description: Learn how to generate and deploy a Dynamics 365 solution that creates the tables, columns, and option sets required for your Salesforce-to-Dynamics 365 migration.
-ms.date: 09/09/2026
+ms.date: 11/18/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -13,15 +13,11 @@ ms.reviewer: zobanyai
 ai-usage: ai-assisted
 ---
 
-# Step 6: Deploy the Dynamics 365 schema for migration (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Step 6: Deploy the Dynamics 365 schema for migration
 
 Before migration, verify that the target Dataverse environment contains the tables, columns, choices, and relationships required by your mappings.  
 If your mappings require new schema, Dynamics 365 Activate can generate and import a Dataverse solution. You don't need to import a solution if all selected mappings use existing, writable Dataverse schema.  
 If an existing table is missing mapped columns, either deploy those columns or use a partial migration contract. A partial contract migrates only fields that you verify against the current Dataverse schema.
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## What solution deployment does
 
@@ -49,7 +45,7 @@ Existing native columns that are already present remain in place. Review the sol
 ## Prerequisites
 
 - Complete and validate object and field mappings. See [Map Salesforce objects and fields to Dynamics 365](migrate-salesforce-to-dynamics-365-object-mapping.md).
-- Active Dynamics 365 connection (Application User with System Customizer role). See [Connect to Dynamics 365 and run discovery](migrate-salesforce-to-dynamics-365-connect-dynamics.md).
+- An active Dynamics 365 connection with the required application-user roles and workload privileges. For audit preservation, include the additional plug-in privileges. See [Configure least-privilege access](migrate-salesforce-to-dynamics-365-connect-dynamics.md#configure-least-privilege-access).
 
 ## Generate the solution
 
@@ -108,7 +104,7 @@ If solution deployment fails:
     |---|---|
     | **Duplicate table or column name** | A table or column with the same name already exists in the environment. Adjust the mapping to use the existing table or column, or choose a different name. |
     | **Invalid character in name** | Table and column names must start with a letter and contain only lowercase letters, numbers, and underscores. Review the mapping and rename as needed. |
-    | **Insufficient privileges** | The Application User might lack required permissions. Verify that the **System Customizer** role is assigned. |
+    | **Insufficient privileges** | Verify that the application user has **System Customizer** and the privileges required by the selected workload, including the additional plug-in privileges for audit preservation. See [Configure least-privilege access](migrate-salesforce-to-dynamics-365-connect-dynamics.md#configure-least-privilege-access). |
     | **Solution size limit** | Large solutions with many components might exceed Dynamics 365 import limits. Contact your Microsoft engagement contact for assistance. |
     | **Missing relationship dependency** | Include or preinstall the referenced table, or change the relationship mapping. Some Dataverse table types can't participate in custom relationships. |
     | **Unsupported standard-table customization** | Some standard or intersect tables don't allow custom columns or relationships. Review the preview warnings and exclude or remap the unsupported component. |

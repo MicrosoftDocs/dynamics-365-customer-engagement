@@ -1,7 +1,7 @@
 ---
-title: Set up your own storage and database for Dynamics 365 Activate (preview)
+title: Set up your own storage and database for Dynamics 365 Activate
 description: Learn how to configure bring your own storage (Azure Blob Storage) and bring your own database (Azure SQL Database) for Dynamics 365 Activate to keep migration data in your own Azure subscription.
-ms.date: 09/09/2026
+ms.date: 11/18/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -13,13 +13,9 @@ ms.reviewer: zobanyai
 ai-usage: ai-assisted
 ---
 
-# Step 1: Set up your own storage and database for Dynamics 365 Activate (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Step 1: Set up your own storage and database for Dynamics 365 Activate
 
 Dynamics 365 Activate can keep your migration data in Azure resources that you own and control, instead of in Microsoft-managed storage. This feature is called bring your own storage (BYOS).
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 You have two options. These options are independent—you can use either, both, or neither.
 

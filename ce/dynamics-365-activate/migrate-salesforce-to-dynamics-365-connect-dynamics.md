@@ -1,7 +1,7 @@
 ---
-title: Connect to Dynamics 365 and run discovery (preview)
+title: Connect to Dynamics 365 and run discovery
 description: Learn how to create a Microsoft Entra app registration, set up a Dataverse application user, connect Dynamics 365 Activate to your environment, and verify target discovery.
-ms.date: 09/09/2026
+ms.date: 11/18/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -13,15 +13,11 @@ ms.reviewer: zobanyai
 ai-usage: ai-assisted
 ---
 
-# Step 3: Connect to Dynamics 365 and run discovery (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Step 3: Connect to Dynamics 365 and run discovery
 
 Dynamics 365 Activate uses a Microsoft Entra app registration and a Microsoft Dataverse application user to connect to your environment. You can use this connection for target discovery and migration.
 
 During target discovery, Dynamics 365 Activate reads metadata, relationships, choices, solutions, and record counts from Dataverse. During migration, it can import schema customizations and create or update mapped records. The application user's permissions control which operations Dynamics 365 Activate can perform.
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
@@ -63,9 +59,26 @@ System Customizer doesn't automatically provide all create, read, write, append,
 | Solution import and schema creation | System Customizer. |
 | Data migration | Create, Read, Write, Append, and Append To privileges as required by each target table and its relationships. |
 | Ownership and sharing migration | Additional privileges for users, teams, business units, security roles, queues, assignment, and sharing operations used by the selected workload. |
+| Audit preservation | Delegate and additional organization-level privileges for the audit-preservation plug-in. See [Add privileges for audit preservation](#add-privileges-for-audit-preservation). |
 
 > [!NOTE]
 > Don't grant System Administrator only to resolve a missing table privilege. Add the reported privilege to a workload-specific custom role and assign that role to the application user.
+
+### Add privileges for audit preservation
+
+To preserve **Created By** and **Modified By** during migration, assign **System Customizer** and **Delegate** to the Dataverse application user. System Customizer provides access to import and manage solutions. Delegate provides **Act on Behalf of Another User** (`prvActOnBehalfOfAnotherUser`) for impersonation.
+
+Create a custom security role, such as **Dynamics 365 Activate Audit Preservation**, with the following additional privileges. Assign the role to the same application user.
+
+| Table | Privileges | Scope | Purpose |
+|---|---|---|---|
+| **Plug-in Assembly** | Create, Read, Write, Delete | Organization | Install, update, and remove the audit-preservation plug-in. |
+| **Plug-in Type** | Create, Read, Write, Delete | Organization | Manage plug-in types. |
+| **SDK Message** | Create, Read, Write, Delete | Organization | Register and manage SDK message components. |
+| **SDK Message Processing Step** | Create, Read, Write, Delete | Organization | Register and remove plug-in steps. |
+| **SDK Message Processing Step Image** | Create, Read, Write, Delete | Organization | Manage step images. |
+
+As these table privileges are in a custom security role, they don't replace the data privileges required for the tables that you migrate.
 
 ## Find the environment URL
 
@@ -129,16 +142,17 @@ Both values are GUIDs. You don't use the Object ID to configure the connection.
 The app registration must have a corresponding application user in the target environment.
 
 1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
-1. Select **Manage** > **Environments**, and then select the target environment.
-1. Select **Settings** > **Users + permissions** > **Application users**.
-1. Select **New app user**.
-1. Select **Add an app**.
-1. Search for the application by name or client ID, select it, and then select **Add**.
-1. Select the root business unit unless your environment's security design requires another business unit.
-1. Select **Edit security roles**.
-1. Assign **System Customizer**.
-1. Assign any workload-specific custom roles required for the tables that you plan to migrate.
-1. Select **Create**.
+2. Select **Manage** > **Environments**, and then select the target environment.
+3. Select **Settings** > **Users + permissions** > **Application users**.
+4. Select **New app user**.
+5. Select **Add an app**.
+6. Search for the application by name or client ID, select it, and then select **Add**.
+7. Select the root business unit unless your environment's security design requires another business unit.
+8. Select **Edit security roles**.
+9. Assign **System Customizer**.
+10. If your migration preserves **Created By** and **Modified By**, assign **Delegate** and the custom role described in [Add privileges for audit preservation](#add-privileges-for-audit-preservation).
+11. Assign any workload-specific custom roles required for the tables that you plan to migrate.
+12. Select **Create**.
 
 An application user is non-interactive and doesn't require a Dynamics 365 user license.
 

@@ -1,7 +1,7 @@
 ---
-title: Map Salesforce objects and fields to Dynamics 365 (preview)
+title: Map Salesforce objects and fields to Dynamics 365
 description: Learn how to map Salesforce objects and fields to Dynamics 365 tables and columns in Dynamics 365 Activate, including auto-generated mappings, data type conversions, and validation.
-ms.date: 09/09/2026
+ms.date: 11/18/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -13,13 +13,9 @@ ms.reviewer: zobanyai
 ai-usage: ai-assisted
 ---
 
-# Step 4: Map Salesforce objects and fields to Dynamics 365 (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Step 4: Map Salesforce objects and fields to Dynamics 365
 
 Object mapping defines how your Salesforce data model translates to Dynamics 365. You map each Salesforce object (table) to a Dynamics 365 table, and each Salesforce field (column) to a Dynamics 365 column. This mapping drives both the Dynamics 365 schema creation and the data migration.
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
