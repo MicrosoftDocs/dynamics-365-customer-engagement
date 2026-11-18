@@ -70,6 +70,7 @@ This article explains how to configure connection references for AI agents that 
     1. Go back to the **Edit** dialog of **Microsoft Dataverse Cr52a7f-31a8c**, search for the new connection, and save it.
 1. [!INCLUDE[cc-flow-enable](../../includes/qea/cc-flow-enable.md)]
     - **Agent Coach CSR Insights**
+    - **Agent Coach Impact**
 1. [!INCLUDE[cc-publish-agent](../../includes/qea/cc-publish-agent.md)]. For the coaching and development flow, the agent in Copilot Studio is **Quality Evaluation Agent**.
 
 ## Related information
