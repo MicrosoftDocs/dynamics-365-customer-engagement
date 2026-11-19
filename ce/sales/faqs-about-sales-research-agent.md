@@ -54,7 +54,7 @@ The Sales Research Agent is built to understand the Dynamics 365 Sales schema as
 - Adding your organization's fiscal year, industry terminology, and custom business logic through the **Manage context** feature
 - Defining acronyms and data dictionary entries so the agent correctly interprets your organization's terminology
 
-The Sales Research Agent is not yet available in every geo or every language. For a list of supported languages and geos, please refer to the [Product availability reports](https://releaseplans.microsoft.com/availability-reports/?report=featuregeoreport).
+The Sales Research Agent isn't yet available in every geo or every language. For a list of supported languages and geos, see [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability).
 
 ## What operational factors and settings allow for effective and responsible use of the Sales Research Agent?  
 

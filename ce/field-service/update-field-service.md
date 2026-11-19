@@ -22,7 +22,7 @@ Multiple updates are released throughout the year.
 - **Hot fixes** are rare, but occasionally a critical update is released outside the planned update schedule.
 
 > [!TIP]
-> Visit the [AI at Work roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption.
+> Visit the [roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption.
 
 ## Early Access update
 

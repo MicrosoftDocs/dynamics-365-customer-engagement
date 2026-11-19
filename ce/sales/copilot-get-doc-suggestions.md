@@ -95,7 +95,7 @@ The following table explains the different scenarios:
 | French  | French           | French          | French           |
 | English | English           | German            | Might not provide accurate answers |
 
-For a list of languages supported as a preferred language, see [this report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
+For a list of languages supported as a preferred language, see [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability).
 
 
 ### Tips for asking the right questions

@@ -63,6 +63,6 @@ For the list of geographical regions supported in Field Service, see [Datacenter
 
 ### Which languages are supported in the trial version of Field Service?
 
-For the list of languages supported in Field Service, see the [availability report](https://www.microsoft.com/dynamics-365/availability-reports).
+For the list of languages supported in Field Service, see [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

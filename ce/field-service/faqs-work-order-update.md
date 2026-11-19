@@ -35,7 +35,7 @@ A frontline worker updates data fields in forms to track booking progress. The w
 - This feature is available only in the new field service mobile user experience.
 - Copilot updates only the fields in a predefined schema.
 - This feature requires an internet connection. It isn't available offline.
-- Microsoft evaluated the feature in English only. You can get inaccurate responses with other languages. [Explore Copilot features by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
+- Microsoft evaluated the feature in English only. You can get inaccurate responses with other languages. [Explore Copilot features by geography and languages](https://aka.ms/d365-product-availability).
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 

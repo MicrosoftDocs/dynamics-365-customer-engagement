@@ -64,7 +64,7 @@ For more information about the agent's responsible AI practices, see [FAQs about
 
 ## Language support and output quality
 
-To know the languages supported by the Sales Opportunity Agent, see [the feature availability by language page](https://releaseplans.microsoft.com/availability-reports/?report=featurelangreport).  
+To know the languages supported, see [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability).  
 The following are the considerations regarding the agent's language output quality:
 
 - Content is generated in the selected target language using AI. In some cases, sentence structure or word order might reflect English patterns.

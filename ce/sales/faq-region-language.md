@@ -106,4 +106,4 @@ The following table shows the supported languages for Sales Premium features.
 
 ## Which languages are supported by Copilot in Dynamics 365 Sales?
 
-Copilot in Dynamics 365 Sales is available in regions and languages listed in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport). For more information about how to use the report and how Copilot responds in different scenarios, review [Geographical availability and languages supported](copilot-overview.md#geographical-availability-and-languages-supported).
+Copilot in Dynamics 365 Sales is available in the regions and languages listed in [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability). For more information about how to use the report and how Copilot responds in different scenarios, see [Geographical availability and languages supported](copilot-overview.md#geographical-availability-and-languages-supported).

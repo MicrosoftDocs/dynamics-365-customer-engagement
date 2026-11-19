@@ -49,7 +49,7 @@ An administrator can tailor the Copilot summary to include only the fields neede
 
 ## How was the feature tested and what metrics are used to measure its performance?
 
-The feature was tested in English. For detailed information on the supported languages, see [Explore Copilot features by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
+The feature was tested in English. For detailed information on the supported languages, see [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability).
 
 The accuracy and performance of the summary were checked based on the data from the work order. The summary quality depends on the quality of the data in the system. If the data is incomplete or incorrect, the summary might reflect that.
 

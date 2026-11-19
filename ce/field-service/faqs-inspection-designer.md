@@ -38,7 +38,7 @@ Learn more about [Microsoft Responsible AI principles](https://www.microsoft.com
 
 ## What are the limitations of the feature and how can you minimize their impact?
 
-This feature is in preview, and Microsoft is working on improving it. Review the draft created by Copilot for accuracy and completeness, and edit the inspection template before saving and publishing it. To help improve the feature, submit feedback about the draft created by Copilot by using the like or dislike buttons on the converted inspection templates. Microsoft uses this data to evaluate and improve the quality of the conversion. Visit the [AI at Work roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption.
+This feature is in preview, and Microsoft is working on improving it. Review the draft created by Copilot for accuracy and completeness, and edit the inspection template before saving and publishing it. To help improve the feature, submit feedback about the draft created by Copilot by using the like or dislike buttons on the converted inspection templates. Microsoft uses this data to evaluate and improve the quality of the conversion. Visit the [roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption.
 
 - The feature is tested in English. Using it in other languages might not produce good results.  
 - The feature can't convert large forms with many pages of content. The conversion process only creates question types compatible with current Field Service inspection templates.
