@@ -86,7 +86,7 @@ The ability was tested on a set of question-and-answer datasets that were carefu
 
 ## What are the limitations of natural language chat? How can users minimize the impact of these limitations?
 
-- Questions based on sales-specific terminology work best in English. Support for other languages might vary. For the list of supported languages, view the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
+- Questions based on sales-specific terminology work best in English. Support for other languages might vary. For the list of supported languages, see [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability).
 - The chat feature supports only structured data available in Dataverse tables. For answers from unstructured content such as SharePoint documents, use the [SharePoint search capability](copilot-get-doc-suggestions.md#get-answers-from-sharepoint-documents).
 
 ## What operational factors and settings allow for effective and responsible use of the natural language feature?
@@ -104,7 +104,7 @@ The feature is enabled when you turn on Copilot. Administrators can also extend 
 
 ### Which languages are supported for natural language chat?  
 
-We're constantly working to add more languages to Copilot in Dynamics 365 Sales. View the list of supported languages for each Copilot feature in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
+We're constantly working to add more languages to Copilot in Dynamics 365 Sales. View the list of supported languages for each Copilot feature in [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability).
 
 
 ## Related information

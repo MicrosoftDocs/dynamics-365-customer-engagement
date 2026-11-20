@@ -14,7 +14,7 @@ ai-usage: ai-assisted
 
 When a new version of Dynamics 365 Field Service releases, it becomes available in different geographic regions at different times. Use the table below to see when the next release will become available in the region of your environment.
 
-Visit the [AI at Work roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption of Dynamics 365 Field Service.
+Visit the [roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption of Dynamics 365 Field Service.
 
 For information about older versions, see [Version history archive](version-history-archive.md#field-service).
 

@@ -2,7 +2,7 @@
 
 When a new version of Universal Resource Scheduling is released, it's available in different geographic regions at different times. The table shows estimates for when the next release is available in the region of your environment.
 
-For information about other updates to Universal Resource Scheduling, go to the Field Service section of the [AI at Work roadmap](https://aka.ms/AIatWorkroadmap).
+For information about other updates to Universal Resource Scheduling, go to the Field Service section of the [roadmap](https://aka.ms/AIatWorkroadmap).
 For information about older versions, see [Version history archive](../../field-service/version-history-archive.md#universal-resource-scheduling).
 
 | Station | Region | Current version | Next version | Scheduled date |

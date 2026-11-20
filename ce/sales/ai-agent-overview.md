@@ -43,7 +43,7 @@ The AI agents in Dynamics 365 Sales use the same data processing and storage inf
 
 ## Geographical availability
 
-AI agents in Dynamics 365 Sales are available in geographical regions listed in [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability). [Learn how to use the report](copilot-overview.md#how-to-use-the-copilot-international-availability-report).
+AI agents in Dynamics 365 Sales are available in geographical regions listed in [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability). 
 
 <a name="monitor-agent-performance"></a>
 ## Monitor agent performance

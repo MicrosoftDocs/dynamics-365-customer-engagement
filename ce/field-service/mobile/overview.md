@@ -55,6 +55,6 @@ Start with the following resources:
 - [Troubleshoot offline synchronization](offline-data-sync.md#troubleshoot-offline-sync) when synchronization doesn't finish, data is missing, or the app reports an error.
 - [Resolve WebView reset errors](/troubleshoot/dynamics-365/field-service/mobile-app/webview-reset) when the app repeatedly downloads metadata updates.
 
-Visit the [AI at Work roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption.
+Visit the [roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

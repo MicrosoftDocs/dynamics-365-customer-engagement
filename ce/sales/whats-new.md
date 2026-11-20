@@ -15,7 +15,7 @@ In an effort to provide continuous value to our customers, we release new capabi
 
 ## Check out the latest features
 
-Visit the [AI at Work roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption of Dynamics 365 Sales.
+Visit the [roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption of Dynamics 365 Sales.
 
 ## Check your app version
 

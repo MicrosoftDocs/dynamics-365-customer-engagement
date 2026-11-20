@@ -41,7 +41,7 @@ You can upload a PDF (.pdf), CSV (.csv), and Excel (.xlsx) file. Learn more in [
 
 ## Which languages are supported by the Sales Research Agent?
 
-For a list of supported languages, go to the [International availability report](https://releaseplans.microsoft.com/en-US/availability-reports/?report=featurelangreport).
+For a list of supported languages, go to [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability).
 
 ## How does the Sales Research Agent handle currency? 
 

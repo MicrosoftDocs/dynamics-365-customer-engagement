@@ -15,7 +15,7 @@ ms.author: dapisani
 
 When a new version of the Resource Scheduling Optimization add-on for Dynamics 365 Field Service releases, it becomes available in different geographic regions at different times. The following table shows, when the next release will become available in the region of your environment.
 
-Visit the [AI at Work roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption.
+Visit the [roadmap](https://aka.ms/AIatWorkroadmap) to discover upcoming capabilities, track rollout progress, and plan adoption.
 
 For information about older versions, see [Version history archive](version-history-archive.md#resource-scheduling-optimization-add-on).
 

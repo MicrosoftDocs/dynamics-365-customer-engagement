@@ -39,7 +39,7 @@ Dispatchers use the agent to optimize the schedules of one or more technicians i
 
 ## How was the agent tested and what metrics are used to measure its performance?
 
-We tested the agent's ability to determine that the prompt is related to scheduling, in English. The optimization algorithms the agent uses to suggest a new schedule are language-agnostic; however, not all languages are supported. Check the list of supported languages in [Explore Copilot features by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
+We tested the agent's ability to determine that the prompt is related to scheduling, in English. The optimization algorithms the agent uses to suggest a new schedule are language-agnostic; however, not all languages are supported. Check the list of supported languages in [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability).
 
 To check the agent's ability to suggest an improved schedule, we used metrics similar to the ones we used to evaluate the [Resource Scheduling Optimization add-on](rso-overview.md).
 

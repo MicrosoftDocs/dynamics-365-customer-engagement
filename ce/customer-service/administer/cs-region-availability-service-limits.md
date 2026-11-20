@@ -50,7 +50,7 @@ No: Not available
 
 ## Supported languages for autonomous agents
 
-Learn about the supported languages for the following autonomous agents in [Explore feature availability by language](https://releaseplans.microsoft.com/availability-reports/?report=featurelangreport):
+Learn about the supported languages for the following autonomous agents in [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability):
 
 - Customer Intent Agent
 - Case Management Agent
