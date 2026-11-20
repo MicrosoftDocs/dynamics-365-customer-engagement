@@ -1,7 +1,7 @@
 ---
 title: Resource requirements in Field Service and Project Operations
 description: Resource requirements define the work, timing, location, and skills needed for service jobs. See how Project Operations adds assignment details.
-ms.date: 11/10/2026
+ms.date: 11/17/2026
 ms.topic: concept-article
 author: vhorvathms
 ms.author: vhorvath
@@ -113,5 +113,11 @@ For example, a project assignment requires 16 hours of work, planned as follows:
 
 - Monday: 8:00 AM to 4:00 PM (8 hours)
 - Tuesday: 8:00 AM to 4:00 PM (8 hours)
+
+## Next steps
+
+- [Configure the project assignment scheduling mode](project-operations-integration-setup.md#configure-the-project-assignment-scheduling-mode)
+- Override the project assignment scheduling mode at the task level when [creating or associating a work order in Project Operations](/dynamics365/project-operations/field-service-integration/project-operations-integration-po-work-order-task)
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

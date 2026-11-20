@@ -10,7 +10,7 @@ ms.reviewer: wesmith
 
 # Inventory with the Field Service and Project Operations integration
 
-When an admin enables the Field Service and Project Operations integration, Project Operations becomes the system that financially interprets work order activity. Field Service remains the system for operational execution. How the integration handles inventory and accounting depends on your Project Operations deployment model.
+When an admin enables the Field Service and Project Operations integration, Project Operations becomes the system that financially interprets work order activity. Field Service remains the system for operational execution. How the integration handles inventory and accounting depends on your [Project Operations deployment model](project-operations-integration-deployment-models.md).
 
 ## Inventory with Project Operations Core
 
@@ -24,7 +24,7 @@ When you use Project Operations Core without Finance, Field Service remains the 
 
 This model is appropriate when Field Service is responsible for operational inventory or when you use another ERP system outside the Microsoft Finance and Supply Chain Management integration.
 
-## Inventory with Project Operations integrated with Finance
+## Inventory with Project Operations integrated with ERP
 
 When the integration includes Dynamics 365 Finance and Supply Chain Management, inventory ownership moves to Finance and Supply Chain Management.
 
@@ -47,7 +47,7 @@ Technicians continue to work in Field Service while the associated project, inve
 
 ## Serialized and batch-controlled products
 
-With the integrated Project Operations with Finance model, serialized and batch-controlled inventory follows the Dynamics 365 Supply Chain Management tracking-dimension framework. In Supply Chain Management, serial and batch numbers govern how inventory transactions are validated, posted, and traced across operational and financial systems. This approach ensures full traceability from Field Service usage through Project Operations and into Finance.
+With the Project Operations integrated with ERP model, serialized and batch-controlled inventory follows the Dynamics 365 Supply Chain Management tracking-dimension framework. In Supply Chain Management, serial and batch numbers govern how inventory transactions are validated, posted, and traced across operational and financial systems. This approach ensures full traceability from Field Service usage through Project Operations and into Finance.
 
 Key behaviors in serialized and batch-controlled inventory include:
 
@@ -61,6 +61,7 @@ These capabilities ensure that serialized and batch-controlled inventory maintai
 
 ## Next steps
 
+- [Install the Field Service and Project Operations integration](project-operations-integration-install.md)
 - [Set up Field Service integration with Project Operations](project-operations-integration-setup.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

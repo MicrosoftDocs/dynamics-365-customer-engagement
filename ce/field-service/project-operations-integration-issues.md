@@ -21,7 +21,7 @@ ms.author: vhorvath
 - If the technician updating the work order product or work order service doesn't already have an associated *BookableResource*, the system gives an error. [Create a BookableResource](set-up-bookable-resources.md) for each technician. If you're using an environment that is integrated with finance and operations, add the Company field on the *BookableResource*.
 - By design, work order services use the [*Material* transaction class](/dynamics365/project-operations/actuals/businesstransactions), create material-based estimates and actuals, and appear in Finance as *Item* transactions. To change this setting, go to [Configure work order services conversion type](project-operations-integration-setup.md#configure-work-order-services).
 - If you convert work order services to time entry records, the time entry records are associated only to the parent work order's project, not to a project task. This prevents work order services from affecting metrics in the Project Operations’ project task grid metrics, including estimates completed.
-- Project Operations doesn't support project [production orders](/dynamics365/business-central/production-about-production-orders) in an integrated Project Operations with Finance environment. However, consumption of bill of material items or finished goods through standard inventory scenarios is still supported.
+- Project Operations doesn't support project [production orders](/dynamics365/business-central/production-about-production-orders) in an Project Operations integrated with ERP environment. However, consumption of bill of material items or finished goods through standard inventory scenarios is still supported.
 - Manage project tasks in Project Operations as it requires a Project Operations license.
 - Manage labor estimates through the Project Operations task grid.
 - The summary section of the **Work Orders** page in Field Service doesn't reflect time entries.
@@ -50,13 +50,13 @@ All future Material Usage Logs are automatically approved if the **Auto-Approve 
 
 ### Cost Actuals might occasionally differ from Cost Journal Lines
 
-If you're using the [Integrated Project Operations deployment model](project-operations-integration-inventory.md), updates to Cost Actuals can originate from Finance, resulting in extended amounts that differ from their parallel Cost Journal Lines. 
+If you're using the [Project Operations integrated with ERP deployment model](project-operations-integration-inventory.md), updates to Cost Actuals can originate from Finance, resulting in extended amounts that differ from their parallel Cost Journal Lines. 
 
 This difference is expected and results from costing parameters in Finance that require adjustments to Actuals. For example, weighted averages or first-in, first-out (FIFO) costs can be different from the more static cost on a price list. Learn more in [Inventory cost for material usage](/dynamics365/project-operations/procurement/stock-material-reservation#inventory-cost-for-material-usage).
 
 ### Missing enable stocked products setting
 
-In some environments, the **Enable stocked products usage for project operations integrated deployments** setting might not appear in the Project Operations feature settings under Project Parameters. This setting controls whether stocked products can be used within Project Operations. It's for **Integrated Project Operations with Finance** deployments only.
+In some environments, the **Enable stocked products usage for project operations integrated deployments** setting might not appear in the Project Operations feature settings under Project Parameters. This setting controls whether stocked products can be used within Project Operations. It's for **Project Operations integrated with ERP** deployments only.
 
 If you can't access the setting through Project Operations Settings, you can update it from the browser developer console.
 

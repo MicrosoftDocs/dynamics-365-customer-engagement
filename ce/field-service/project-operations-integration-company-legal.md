@@ -10,7 +10,7 @@ ms.author: vhorvath
 
 # Company alignment and legal entities
 
-When you work with Field Service and the [Integrated Project Operations with Finance deployment model](project-operations-integration-deployment-models.md), it's important to understand the concept of company and legal entities.
+When you work with Field Service and the [Project Operations integrated with ERP deployment model](project-operations-integration-deployment-models.md), it's important to understand the concept of company and legal entities.
 
 ## Company alignment
 
@@ -63,6 +63,7 @@ This setup ensures that all work order activity aligns to the correct legal enti
 
 ## Next steps
 
+- [Install the Field Service and Project Operations integration](project-operations-integration-install.md)
 - [Set up Field Service integration with Project Operations](project-operations-integration-setup.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

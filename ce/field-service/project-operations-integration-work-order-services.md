@@ -1,7 +1,7 @@
 ---
 title: Work order services in Field Service and Project Operations
 description: Work order services help connect field execution with project costing and billing. Learn how to convert labor and materials into accurate project transactions.
-ms.date: 11/10/2026
+ms.date: 11/17/2026
 ms.topic: concept-article
 author: vhorvathms
 ms.author: vhorvath
@@ -12,7 +12,10 @@ ms.reviewer: v-wendysmith
 
 Field Service and Project Operations support different ways of planning and executing service work. Some organizations plan labor from the project plan and use work orders primarily for field execution. Other organizations manage most of the service scope directly from the work order and need technician activity to flow into Project Operations for costing and billing.
 
-To support the different approaches, the integration allows you to configure how work order services are converted into project estimates and actuals when work orders are associated with projects.
+To support the different approaches, the integration allows you to configure how work order services are converted into project estimates and actuals when work orders are associated with projects. An administrator [configures the conversion type for the organization](project-operations-integration-setup.md#configure-work-order-services).
+
+> [!IMPORTANT]
+> Organizations should carefully evaluate configuration changes after transactions have already been generated to avoid inconsistencies between estimates and actuals.
 
 ## Work order service conversion type
 
@@ -29,11 +32,6 @@ The **Work Order Service Conversion Type** setting controls how work order servi
 > Work order service estimates don't update project task estimates. When work order services are configured to use **Time based Estimates and Actuals**, labor estimates entered on the work order are reflected in the work order's estimates and at the overall project level in Project Operations. They don't create or update labor estimates on individual project tasks, even when the work order is linked to a project task.
 >
 > For organizations that plan labor at the project task level, estimated labor should continue to be managed through the project plan in Project Operations. Work orders can still be used to schedule and execute field activities, while the project plan remains the source for task-level labor estimates.
-
-An administrator [configures the conversion type for the organization](project-operations-integration-setup.md#configure-work-order-services).
-
-> [!IMPORTANT]
-> Organizations should carefully evaluate configuration changes after transactions have already been generated to avoid inconsistencies between estimates and actuals.
 
 ## Booking timestamps and work order services
 
@@ -60,5 +58,9 @@ For **Material based Estimates and Actuals** or **Time based Estimates and Actua
 For **Time Estimates Only**, the integration removes associated estimate lines.
 
 For **None**, the integration performs no conversion-related cleanup, so organizations can manage any custom transaction processing independently.
+
+## Next steps
+
+[Configure the conversion type for the organization](project-operations-integration-setup.md#configure-work-order-services)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
