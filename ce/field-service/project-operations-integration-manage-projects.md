@@ -94,16 +94,17 @@ After approval, the system creates actuals in Project Operations. These actuals 
 
 1. Find and select the actuals for your project contract. Then, select **Ready to invoice**. The system creates a draft Proforma invoice showing what is to be billed.
 
-If your organization is using the Integrated Project Operations with Finance model, the system also creates [Project Operations Integration Journal Lines](/dynamics365/project-operations/project-accounting/project-operations-integration-journal) that transfer the approved financial data to Finance.
+If your organization is using the Project Operations integrated with ERP model, the system also creates [Project Operations Integration Journal Lines](/dynamics365/project-operations/project-accounting/project-operations-integration-journal) that transfer the approved financial data to Finance.
 
 ## Review and confirm invoices
 
 If your organization is using the Project Operations Core (Lite) without Finance model, review, [edit if necessary, and confirm the invoice](/dynamics365/project-operations/pro/proforma-invoicing/create-manual-proforma-invoice-sales#edit-a-draft-invoice).
 
-If your organization is using the Integrated Project Operations with Finance model, the [invoice is finalized in Finance](/dynamics365/project-operations/invoicing/post-project-invoices).
+If your organization is using the Project Operations integrated with ERP model, the [invoice is finalized in Finance](/dynamics365/project-operations/invoicing/post-project-invoices).
 
 ## Next steps
 
 - [Link projects to work orders](project-operations-integration-work-order.md)
+- [View costs associated with a work order](project-operations-integration-cost-summary.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

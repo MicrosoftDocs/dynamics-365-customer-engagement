@@ -62,7 +62,7 @@ The Dynamics 365 Field Service and Project Operations Integration package versio
 
   :::image type="content" source="media/project-operations-field-service-actuals.png" alt-text="Screenshot of Field Service Actuals screen, Field Service tab.":::
 
-- Clearer inventory experience in the integrated Project Operations with Finance model. In this model, since inventory is managed in Dynamics 365 Supply Chain Management and not Field Service, Field Service hides inventory features. For example, Product Inventory, Transfers, and Adjustments no longer appear. You can still view inventory in Field Service through [warehouses](/dynamics365/field-service/inventory-purchasing-returns-overview#warehouses-and-product-inventory), but you can't change it.
+- Clearer inventory experience in the Project Operations integrated with ERP model. In this model, since inventory is managed in Dynamics 365 Supply Chain Management and not Field Service, Field Service hides inventory features. For example, Product Inventory, Transfers, and Adjustments no longer appear. You can still view inventory in Field Service through [warehouses](/dynamics365/field-service/inventory-purchasing-returns-overview#warehouses-and-product-inventory), but you can't change it.
 
 - Expanded project lookup for all billing customers, not just the default project contract billing customer. All customers listed on the associated project-based contract line are available in the project lookup.
 

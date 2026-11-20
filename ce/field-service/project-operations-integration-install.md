@@ -1,7 +1,7 @@
 ---
 title: Install the Field Service integration with Project Operations
 description: Learn how to install the components of the integration between Field Service and Project Operations.
-ms.date: 11/16/2026
+ms.date: 11/19/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -19,7 +19,7 @@ The Field Service and Project Operations Integration package includes a flow tha
 
 - You have a Field Service administrator role or system administrator role.
 - You have Field Service minimum version 8.8.150.63.
-- You have Project Operations minimum version 4.172.3589.2.
+- You have Project Operations minimum version 4.172.3603.1.
 - If you have the [Field Service integration with finance and operations applications (legacy)](finance-operations-integration.md), [uninstall](project-operations-integration-uninstall-legacy.md) it.
 
 ## Configure dual-write integration

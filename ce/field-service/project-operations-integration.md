@@ -1,20 +1,25 @@
 ---
 title: Field Service integration with Project Operations overview
-ms.reviewer: v-wendysmith
 description: Field Service integration with Project Operations streamlines service delivery, project costing, approvals, and billing. Discover the supported integration flow.
-ms.date: 11/06/2026
+ms.date: 11/19/2026
 ms.topic: overview
 author: vhorvathms
 ms.author: vhorvath
+ms.reviewer: v-wendysmith
 ---
 
 # Field Service integration with Project Operations overview
 
-Service organizations often manage field execution and financial processes across separate systems, custom integrations, or disconnected operating models. Field teams focus on completing repairs, installations, inspections, and maintenance. Project and finance teams need consistent interpretation of labor, materials, and usage for costing, billing, and performance tracking. Without a standard connection between field execution and project financials, organizations face added complexity, manual reconciliation, and limited end-to-end visibility.
+The integration between Dynamics 365 Field Service and Dynamics 365 Project Operations connects service execution with project planning and financial management. It enables organizations to manage work orders, resource scheduling, and technician activities in Field Service while using Project Operations to manage project estimates, costs, revenue, and financial actuals.
 
-The integration between Microsoft Dynamics 365 Field Service and Dynamics 365 Project Operations provides a supported mechanism for connecting field execution with project financials. This integration uses out-of-the-box product capabilities to connect work orders, project tasks, labor, materials, and financial transactions.  
+The integration supports both service-led and project-led business processes. Work orders can originate in Field Service or be created from projects and project tasks in Project Operations.
+To support service-led organizations, the integration also extends the Field Service application with simplified forms for creating and managing projects, project contracts, and contract lines.
 
-By using this integration, service work captured in Field Service can flow into Project Operations and downstream financial processes by using a consistent Microsoft product model. This integration helps organizations reduce custom integration effort, improve consistency across costing and billing, strengthen visibility across service and project-driven work, and support more predictable financial and operational outcomes.
+This approach allows service teams to establish the financial structure for their work without having to switch between applications.
+
+When the integration is enabled, Project Operations becomes the financial layer for project-linked work orders. Native Field Service invoicing is suppressed for these work orders, and billing follows the applicable Project Operations financial process.
+
+Organizations can optionally integrate Project Operations with Dynamics 365 Finance and Supply Chain Management to support downstream financial processing, inventory management, procurement, and accounting.
 
 > [!VIDEO 071bf5ac-f2bc-419a-8681-61159d50b572]
 
@@ -25,53 +30,39 @@ This integration is designed for organizations that use:
 |Apps  |Comments  |
 |---------|---------|
 |Field Service, Project Operations, Finance, and Supply Chain Management  | Delivers full end-to-end service, project, and financial orchestration. |
-|Field Service, Finance, and Supply Chain Management (without using Project Operations) | Manage projects without switching applications by using a minimal set of Project Operations configuration forms embedded in Field Service. Only the user who installs the integration must have a Project Operations license. |
+|Field Service, Finance, and Supply Chain Management (with Project Operations serving as the integration layer). | Manage projects without switching applications by using a minimal set of Project Operations configuration forms embedded in Field Service. Only the user who installs the integration must have a Project Operations license. |
 |Field Service and Project Operations (without using Finance and Supply Chain Management) | Supports project-based service and financial alignment under a project in Project Operations. This approach can be used for integration to other ERP solutions or for direct execution and management purposes. |
 
-## Integration flow overview
+## Key components
 
-This diagram shows how Field Service, Project Operations, and Finance activities connect into one continuous process.
+### Dynamics 365 Field Service
 
-:::image type="content" source="media/project-operations-field-service-integration-flow.png" alt-text="Screenshot of the integration flow diagram showing Field Service to Finance." lightbox="media/project-operations-field-service-integration-flow-expand.png":::
+Field Service manages service execution, including work orders, service agreements, incident types, work order products and services, resource requirements, scheduling, and technician activities.
 
-## Field Service
+Technicians use Field Service to record materials consumed, time worked, expenses incurred, and the progress of service activities.
 
-Frontline workers create **work orders** for service delivery, each linked to a project in Project Operations, which serves as the financial container. This work order and project association provides the context to interpret cost, revenue, and billing.
+The integration also provides simplified project management forms in Field Service, allowing service teams to create the foundational project and contract records required for financial processing.
 
-When a frontline worker sets an estimated quantity or estimated duration for the work order product or service, the system creates material estimate lines in Project Operations. The estimate must be greater than zero. If Dynamics 365 Finance integration is enabled, the system creates forecast lines in Finance.
+### Dynamics 365 Project Operations
 
-When work in the field is complete and the work order product or service line status is set to **Used**, the system calculates applicable pricing and costs for services and products based on the operational data captured on the work order. The usage data is captured as Material Usage Logs (MULs).
+Project Operations manages project planning and financial processes, including projects, project contracts, contract lines, project tasks, resource assignments, estimates, actuals, approvals, and proforma invoicing.
 
-After technicians enter and submit time in Field Service for work associated with a project or project task, the **time entries** flow into Project Operations. These entries follow Project Operations pricing and approval workflows. Once approved, the approval status syncs back to Field Service.
+Project Operations provides the financial structure for work performed in Field Service. When a work order is associated with a project or project task, the integration connects service transactions to the appropriate project financial records and billing arrangements.
 
-## Project Operations
+### Shared services
 
- Project managers can create work orders linked to a project or project task from Project Operations. Scheduling and execution remains in Field Service.
+Field Service and Project Operations use shared Microsoft Dataverse tables and platform capabilities, including Universal Resource Scheduling.
 
-**Material Usage Logs (MULs)** represent raw consumption of materials and services. They're converted into **project journal lines** (cost and revenue), which are reviewed and approved for financial accuracy.
+These shared capabilities support common resource information and scheduling infrastructure. Integration-specific functionality connects project resource assignments with Field Service resource requirements and bookings.
 
-Once approved, the journal lines generate **project actuals**, the authoritative financial records tied to the project and contract line.
+### Dynamics 365 Finance and Supply Chain Management (optional)
 
-These actuals generate draft **Proforma invoices** for review and adjustment. The draft invoices are then confirmed for invoicing.
-
-Time entries in Field Service and Project Operations are reviewed for the project. Only approved entries generate financial actuals and update task progress. Estimates and actuals show the associated work order for traceability.
-
-## Finance
-
-If Dynamics 365 Finance integration is enabled, the system generates **Project Operations Integration journal lines** to transfer the approved financial data, including approved time entries, from Project Operations to Finance.
-
-Finance converts these journal lines into subledger records, applies accounting logic, performs revenue recognition, and posts **customer invoices** to the general ledger.
-
-The result is a continuous financial pipeline: from work order to project and contract line, to proforma invoice, to posted invoice in Finance.
+In the Project Operations Integrated with ERP deployment model, Dynamics 365 Finance supports accounting, financial postings, and final customer invoicing. Supply Chain Management supports inventory management, procurement, fulfillment, and related supply chain processes.
 
 ## Next steps
 
+- [Install the Field Service and Project Operations integration](project-operations-integration-install.md)
 - [Set up Field Service integration with Project Operations](project-operations-integration-setup.md)
-
-- [Deployment models in Project Operations](project-operations-integration-deployment-models.md)
-
-- [Inventory in the integration](project-operations-integration-inventory.md)
-
-- [Company and legal entities](project-operations-integration-company-legal.md)
+- [Field Service and Project Operations integration architecture](project-operations-integration-architecture.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

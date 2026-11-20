@@ -93,7 +93,7 @@ The following fields appear on the project contract line form.
 
 ## Project Operations and finance and operations
 
-In the [**Integrated Project Operations with Finance** deployment model](project-operations-integration-deployment-models.md), Project Operations uses dual-write integration to synchronize setup and configuration data between Microsoft Dataverse and Dynamics 365 finance and operations. 
+In the [**Project Operations integrated with ERP** deployment model](project-operations-integration-deployment-models.md), Project Operations uses dual-write integration to synchronize setup and configuration data between Microsoft Dataverse and Dynamics 365 finance and operations.
 
 For more information, see [Project Operations setup and configuration data integration](/dynamics365/project-operations/environment/resource-dual-write-setup-integration).
 

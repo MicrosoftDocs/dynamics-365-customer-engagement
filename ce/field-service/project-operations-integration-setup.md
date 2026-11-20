@@ -86,7 +86,7 @@ Choose how your organization wants to handle project assignment scheduling. The 
 
 ## Set up warehouse associations
 
-In the [**Integrated Project Operations with Finance** deployment model](project-operations-integration-deployment-models.md), a bookable resource can have more than one warehouse. For each legal entity, mark one of those warehouses as the default warehouse.
+In the [**Project Operations integrated with ERP** deployment model](project-operations-integration-deployment-models.md), a bookable resource can have more than one warehouse. For each legal entity, mark one of those warehouses as the default warehouse.
 
 When material is consumed, the system uses the work order's legal entity and the bookable resource to determine the default warehouse. The default warehouse helps ensure material consumption uses the correct legal entity and the correct warehouse.
 
