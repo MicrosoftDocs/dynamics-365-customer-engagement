@@ -1,7 +1,7 @@
 ---
 title: View entity record
-description: Learn how to use the View entity record capability in Dynamics 365 Customer Service.
-ms.date: 09/02/2026
+description: Learn how to use the View entity record capability in Dynamics 365 Customer Service, Sales, and Field Service.
+ms.date: 11/19/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=service,sales,field-service
 ms.service: dynamics-365-customer-service
@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # View entity record
 
-**Applies to:** Dynamics 365 Customer Service and Dynamics 365 Sales
+**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales, and Dynamics 365 Field Service
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
@@ -41,6 +41,7 @@ The assistant displays an interactive record form as an app-in-chat component. T
 
 - You can use a record name or GUID to open a specific record.
 - You need to specify the entity type, for example "open opportunity for Project Alpha."
+- The entity type is the table's logical name: singular and lowercase, such as `opportunity` or `new_project`, not its display name or plural collection name. If that table doesn't exist in your environment, the assistant says so and asks for the logical name instead of showing a technical error.
 - Pass `columns` to include fields that aren't on the record's form (up to 50). Off-form fields you request are shown in the record's details.
 - For accounts, say "open account Contoso" instead. For contacts, say "open contact Jordan." For cases, say "open case CAS-01010-A0A0A0."
 

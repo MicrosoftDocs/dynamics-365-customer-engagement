@@ -17,6 +17,8 @@ items:
   href: add_dv_qna_table.md
 - name: "Add opportunity product"
   href: add_opportunity_product.md
+- name: "Add a product line to a work order"
+  href: create_work_order_product.md
 - name: "Adjust email tone"
   href: adjust_email_tone.md
 - name: "Agent configuration capabilities"
@@ -25,6 +27,8 @@ items:
   href: apply_email_template.md
 - name: "Apply knowledge filter selections"
   href: update_knowledge_filters.md
+- name: "Apply work progress"
+  href: apply_work_progress.md
 - name: "Approve or reject time-off requests"
   href: decide_wem_time_off_request.md
 - name: "Ask Fabric data agent"
@@ -33,6 +37,8 @@ items:
   href: answer_knowledge_question.md
 - name: "Assign entity"
   href: assign_entity.md
+- name: "Capture work progress"
+  href: capture_work_progress.md
 - name: "Case detail"
   href: get_case.md
 - name: "Case highlights"
@@ -59,6 +65,8 @@ items:
   href: check_harvest_status.md
 - name: "Check whether AI summaries are enabled"
   href: check_summary_enabled.md
+- name: "Choose a booking status"
+  href: get_booking_status_panel.md
 - name: "Clone opportunity"
   href: clone_opportunity.md
 - name: "Close case"
@@ -73,6 +81,8 @@ items:
   href: save_agent_config.md
 - name: "Contact summary"
   href: summarize_contact.md
+- name: "Convert a case to a work order"
+  href: convert_case_to_work_order.md
 - name: "Convert quote to order"
   href: convert_quote_to_order.md
 - name: "Copy reply"
@@ -123,6 +133,8 @@ items:
   href: maker_exit.md
 - name: "Find and manage cases"
   href: list_cases.md
+- name: "Find available booking slots"
+  href: search_resource_availability.md
 - name: "Find customer"
   href: find_customer.md
 - name: "Generate email content (Microsoft 365 Copilot)"
@@ -167,6 +179,8 @@ items:
   href: save_cross_namespace_grant.md
 - name: "Grant foreign tools"
   href: save_cross_namespace_tools.md
+- name: "Investigate work history"
+  href: investigate_work_history.md
 - name: "Knowledge article detail"
   href: get_knowledge_article.md
 - name: "Lead summary"
@@ -191,6 +205,8 @@ items:
   href: list_contacts.md
 - name: "List cross-namespace grants"
   href: list_cross_namespace_grants.md
+- name: "List customer work orders"
+  href: list_customer_work_orders.md
 - name: "List data sources"
   href: list_data_sources.md
 - name: "List entity records"
@@ -209,6 +225,10 @@ items:
   href: list_tool_description.md
 - name: "List tool visibility"
   href: list_tool_selection.md
+- name: "List work order products and services"
+  href: list_work_order_lines.md
+- name: "List work order service tasks"
+  href: list_work_order_service_tasks.md
 - name: "Load Customer Service vocabulary"
   href: get_service_glossary_synonyms.md
 - name: "Manage Copilot Studio agents"
@@ -231,8 +251,14 @@ items:
   href: get_opportunity_research.md
 - name: "Opportunity summary"
   href: get_opportunity_summary.md
+- name: "Plan your work day"
+  href: plan_work_day.md
 - name: "Predict case fields"
   href: predict_fields.md
+- name: "Prepare a field observation note"
+  href: format_field_observation.md
+- name: "Prepare a work order from a case"
+  href: get_case_work_order_form.md
 - name: "Publish a knowledge article draft"
   href: publish_knowledge_article.md
 - name: "Qualify lead"
@@ -283,6 +309,8 @@ items:
   href: save_user_prefs.md
 - name: "Save tool description override"
   href: save_tool_description.md
+- name: "Schedule a booking"
+  href: schedule_booking.md
 - name: "Schedule meeting"
   href: schedule_meeting.md
 - name: "Search cases"
@@ -325,6 +353,14 @@ items:
   href: summarize_entity_timeline.md
 - name: "Translate email"
   href: translate_email.md
+- name: "Update a booking status"
+  href: update_booking_status.md
+- name: "Update a work order"
+  href: update_work_order.md
+- name: "Update a work order product"
+  href: update_work_order_product.md
+- name: "Update a work order service task"
+  href: update_work_order_service_task.md
 - name: "Update business process flow stage"
   href: update_bpf_stage.md
 - name: "Update case"
@@ -343,6 +379,8 @@ items:
   href: validate_email.md
 - name: "View a Workforce Engagement Management request"
   href: get_wem_request_details.md
+- name: "View a work order"
+  href: get_work_order.md
 - name: "View account"
   href: get_account.md
 - name: "View contact"

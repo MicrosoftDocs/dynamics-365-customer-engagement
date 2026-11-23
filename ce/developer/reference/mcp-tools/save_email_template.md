@@ -1,7 +1,7 @@
 ---
 title: Save email template
 description: Learn how the Service Agent saves a new email template to Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+ms.date: 11/19/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=service,field-service
 ms.service: dynamics-365-customer-service
@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Save email template
 
-**Applies to:** Dynamics 365 Customer Service
+**Applies to:** Dynamics 365 Customer Service and Dynamics 365 Field Service
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 

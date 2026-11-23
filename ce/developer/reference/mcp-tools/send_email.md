@@ -1,7 +1,7 @@
 ---
 title: Send email
-description: Learn how to use the Send email capability in Dynamics 365 Customer Service.
-ms.date: 09/02/2026
+description: Learn how to use the Send email capability in Dynamics 365 Customer Service, Sales, and Field Service.
+ms.date: 11/19/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=service,sales,field-service
 ms.service: dynamics-365-customer-service
@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Send email
 
-**Applies to:** Dynamics 365 Customer Service and Dynamics 365 Sales
+**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales, and Dynamics 365 Field Service
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
@@ -20,7 +20,7 @@ Use this capability when you have a finalized email and want to send it immediat
 
 ## What it does
 
-The assistant sends an email right away using the subject, body, and recipients you provide or that were prepared in a previous step. This is for cases where you've already reviewed the content and just want it sent—no compose form opens. For replies, the email is threaded into the original conversation in Dynamics 365.
+The assistant sends the finalized subject, body, and recipients you provide or that were prepared in a previous step, without opening a compose form for another review. Complete any confirmation your app shows before sending. For replies, the email is threaded into the original conversation in Dynamics 365.
 
 ## Try prompts like
 
@@ -37,9 +37,10 @@ The assistant shows a text confirmation that the email was sent, including the s
 ## Helpful tips
 
 - Use this only when the email content is ready to go. If you want to review or edit first, say "draft an email" instead.
-- Your explicit chat request is the consent signal. The email sends immediately after you request it.
+- Explicitly request sending after reviewing the content and recipients, and complete any confirmation your app shows.
 - For replies, the sent email automatically threads into the existing email conversation on the case timeline.
 - If you change your mind, you can't unsend an email after it's been sent.
+- If the send can't be confirmed, check the email's status in Dynamics 365 before trying again. Repeating an uncertain request can send a duplicate.
 
 > [!TIP]
 > If you're not sure the email is ready, say "draft an email" to preview it in the compose form before sending.
@@ -83,7 +84,7 @@ Sends an email immediately through Dynamics 365 without opening the compose form
 
 | Annotation | Value | Meaning |
 |------------|-------|---------|
-| `readOnlyHint` | `true` | The explicit chat request is the consent signal. Microsoft 365 Copilot doesn't show a separate confirmation card. |
+| `readOnlyHint` | `false` | Sending changes data. The host can require confirmation before the send action runs. |
 | `destructiveHint` | `false` | Sending is not destructive (email can be viewed after sending). |
 | `idempotentHint` | `false` | Each call sends a new email—not safe to retry. |
 | `openWorldHint` | Not set | Uses default (queries Dataverse). |
@@ -148,4 +149,4 @@ Don't use `send_email` when:
 
 Write / mutation.
 
-This tool sends an email through Dynamics 365 immediately after the user explicitly requests it in chat. The email is created as a sent activity record in Dataverse.
+This tool sends an email through Dynamics 365 after the user explicitly requests it and completes any required host confirmation. The email is created as a sent activity record in Dataverse.

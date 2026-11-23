@@ -1,7 +1,7 @@
 ---
 title: Account summary
 description: Learn how to summarize an account in Dynamics 365 Customer Service.
-ms.date: 09/02/2026
+ms.date: 11/19/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=service
 ms.service: dynamics-365-customer-service
@@ -82,7 +82,7 @@ Learn more in [Manage Copilot features in Customer Service](/dynamics365/custome
 | Property | Value |
 |---|---|
 | User-facing name | Account summary |
-| Internal tool name | `summarize_account` |
+| Internal tool name | `aggregate_account` |
 | Purpose | Returns an AI-generated text summary of a CRM account, covering entitlement tier, open and total case counts, primary contact, last activity, and relationship tenure |
 
 ## Tool behavior
@@ -120,17 +120,17 @@ The response includes entitlement tier, open and total case counts, primary cont
 
 ## Routing notes
 
-Use `summarize_account` for:
+Use `aggregate_account` for:
 
 - brief me about, summarize, recap, tell me about, who is + a company name.
 - Quick account context before triage or customer interaction.
 - Try this tool before concluding a company is not in CRM.
 
-Don't use `summarize_account` when the prompt explicitly says:
+Don't use `aggregate_account` when the prompt explicitly says:
 
 - **"Open" or "view" account details**—route to `get_account`.
 - **"List accounts"**—route to `list_accounts`.
-- **"Summarize contact" (a person, not a company)**—route to `summarize_contact`.
+- **"Summarize contact" (a person, not a company)**—route to `aggregate_contact`.
 
 ## Related tools
 
@@ -138,7 +138,7 @@ Don't use `summarize_account` when the prompt explicitly says:
 |---|---|
 | [`list_accounts`](list_accounts.md) | Lists accounts; use to resolve a company name to a GUID before calling this tool |
 | [`get_account`](get_account.md) | Opens the full account form for detailed field-level view |
-| [`summarize_contact`](summarize_contact.md) | Summarizes a contact (person) rather than an account (company) |
+| [`aggregate_contact`](summarize_contact.md) | Summarizes a contact (person) rather than an account (company) |
 | [`list_contacts`](list_contacts.md) | Lists contacts; useful for finding contacts under the account |
 
 ## Data mutation classification

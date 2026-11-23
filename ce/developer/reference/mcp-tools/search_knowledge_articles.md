@@ -1,8 +1,9 @@
 ---
 title: Search knowledge articles in chat
-description: Learn how to use the Search knowledge articles in chat capability in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+description: Learn how to use the Search knowledge articles in chat capability in Dynamics 365 Customer Service and Field Service.
+ms.date: 11/19/2026
 ms.topic: reference
+ai-usage: ai-assisted
 ms.custom: mcp-enabled-namespaces=service,field-service
 ms.service: dynamics-365-customer-service
 author: dleblond
@@ -12,7 +13,7 @@ ms.reviewer: laalexan
 
 # Search knowledge articles in chat
 
-**Applies to:** Dynamics 365 Customer Service
+**Applies to:** Dynamics 365 Customer Service and Dynamics 365 Field Service
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
@@ -44,7 +45,8 @@ The assistant returns matching knowledge articles directly in chat. Each result 
 - Use natural language to describe what you're looking for. The search matches across article titles, summaries, and keywords.
 - You can filter by article status: say "search published articles about..." to see only published articles, or "search draft articles" for articles still in review.
 - If you know the specific article number (for example, KA-01001), ask for it directly instead of searching.
-- The assistant shows the top 3 results in the summary. If you need more, say "show more results" or "search with a higher limit."
+- The assistant shows the top 3 results in the summary. If you need more, say "show more results" or "search with a higher limit." Up to 200 articles can be requested at once; where your administrator enables expanded results, up to 5,000 can be requested, and large result sets can arrive in several parts that the assistant continues automatically when asked.
+- Search results include each article's summary. The full article body opens when you select an article or ask for it by number.
 - Pair knowledge search with case context: "search the knowledge base for solutions to this case's issue."
 
 > [!TIP]
@@ -118,11 +120,25 @@ Lists or browses knowledge articles matching a query and renders a visual widget
 |---|---|---|
 | `status` | `status` (optional). Filter articles by publication status: `published`, `draft`, or `archived`. | No |
 
+When you provide a search query, results default to published articles. Specify
+`draft` or `archived` to search those states instead. The same status selection
+applies when Dataverse Search is unavailable and the tool uses its fallback query.
+The fallback matches article titles, summaries, and keywords, including matches
+that appear only in the summary.
+When browsing without a query, omitting `status` keeps all readable article states;
+providing `status` limits the list to that state.
+
 ### Result limit
 
 | Input | Description | Required |
 |---|---|---|
-| `top` | `top` (optional). Maximum number of articles to return, up to 200. Defaults to 10. | No |
+| `top` | `top` (optional). Maximum number of articles to return. Defaults to the organization's knowledge page size setting (10 unless configured). The normal maximum is 200; where expanded results are enabled, up to 5,000. A response can carry fewer articles than `top` when it reaches its size limit. | No |
+
+### Continuation
+
+| Input | Description | Required |
+|---|---|---|
+| `cursor` | `cursor` (optional). The opaque `pageInfo.nextCursor` from a previous response. Repeat the same `query`, `status`, and `top`. Only expanded results return a cursor. | No |
 
 ## Response and UI behavior
 
@@ -132,7 +148,10 @@ This MCP tool is supported by an MCP app.
 
 Text-only response in chat
 
-The response returns matching knowledge articles with titles, summaries, article numbers, and citation links. The top 3 results are surfaced in `structuredContent.articles`; `totalCount` indicates the total matches bounded by `top`.
+The response returns matching knowledge articles with titles, summaries, article numbers, and citation links. The response has one of two shapes:
+
+- **Without `pageInfo`** (expanded results not configured): the top 3 results are surfaced in `structuredContent.articles`, and `totalCount` indicates the total matches bounded by `top`.
+- **With `pageInfo`** (result capacity configured): every delivered article is surfaced in `structuredContent.articles`, and only the first 3 carry their article body; open an article to read the rest. `totalCount` counts the articles delivered in this response, not every match. `pageInfo` is the completeness authority: when `pageInfo.hasMore` is true, more articles match. Continue with `pageInfo.nextCursor` when it's present; otherwise refine the query.
 
 ## Routing notes
 
@@ -155,7 +174,7 @@ Don't use `search_knowledge_articles` when:
 | [`answer_knowledge_question`](answer_knowledge_question.md) | Synthesizes answers to informational/procedural questions. Use for question/answer intent; use `search_knowledge_articles` for browse/inspect intent. |
 | [`get_knowledge_article`](get_knowledge_article.md) | Retrieves full details for a single article by ID or number. Use after `search_knowledge_articles` for drill-down. |
 | [`draft_knowledge_article`](draft_knowledge_article.md) | Creates a new draft article. Use to convert case resolutions into KB content. |
-| [`summarize_case_actions`](summarize_case_actions.md) | Lists case resolution steps. Output can inform knowledge article creation. |
+| [`aggregate_case_actions`](summarize_case_actions.md) | Lists case resolution steps. Output can inform knowledge article creation. |
 
 ## Data mutation classification
 

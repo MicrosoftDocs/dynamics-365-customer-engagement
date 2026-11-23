@@ -151,6 +151,18 @@ items:
       items:
         - name: AI agents overview
           href: ai-agents-overview.md
+        - name: Service Agent (preview)
+          items:
+            - name: Overview
+              href: service-agent-overview.md
+            - name: Request public preview access
+              href: service-agent-preview.md
+            - name: How MCP tools support Field Service
+              href: service-agent-mcp-tools-overview.md
+            - name: Configure Service Agent capabilities
+              href: configure-service-agent.md
+            - name: Service Agent tool reference
+              href: ../developer/reference/mcp-tools/toc.yml
         - name: Scheduling Operations Agent (preview)
           items:
             - name: Overview

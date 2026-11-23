@@ -1,7 +1,7 @@
 ---
 title: Activity timeline
-description: Learn how to use the Activity timeline capability in Dynamics 365 Customer Service.
-ms.date: 09/10/2026
+description: Learn how to use the Activity timeline capability in Dynamics 365 Customer Service, Sales, and Field Service.
+ms.date: 11/19/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=service,sales,field-service
 ms.service: dynamics-365-customer-service
@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Activity timeline
 
-**Applies to:** Dynamics 365 Customer Service and Dynamics 365 Sales
+**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales, and Dynamics 365 Field Service
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
@@ -41,7 +41,8 @@ The assistant displays an interactive activity timeline as an app-in-chat compon
 
 - Say "show only emails" or "just the notes" to filter the timeline by activity type.
 - Use date filters by saying something like "show activities from last week."
-- The timeline shows the 30 most recent activities by default. Ask for more if needed.
+- The timeline shows the 30 most recent activities by default; the first 10 are listed and **View more** reveals the rest, 10 at a time.
+- When every loaded activity is listed and earlier ones were reported beyond that set, the timeline tells you to open the record in Dynamics 365 to see them. The activities already listed stay on screen.
 - For a quick AI-generated summary of the case instead of the raw timeline, say "summarize this case."
 
 > [!TIP]
@@ -68,11 +69,12 @@ The timeline is read-only. Actions you take from the timeline (creating activiti
 From the timeline in chat, you can:
 
 - Browse activities in chronological order.
+- Select **View more** to list more of the loaded activities, 10 at a time.
 - Filter by type (emails, tasks, notes, phone calls, appointments).
 - Expand an activity to see its details.
 - Open an email to read its full content.
 - Create new activities (tasks, phone calls, notes) directly from the timeline.
-- Open the full record form in Dynamics 365.
+- Open the full record form in Dynamics 365. When the timeline is open inside Dynamics 365 and the record it belongs to is known, the end-of-list message also offers a link to that record; otherwise it is guidance text only.
 
 ## Prerequisites
 
@@ -172,7 +174,7 @@ Use `get_activity_timeline` for:
 Don't use `get_activity_timeline` when:
 
 - The user wants the case form with a pre-filtered Timeline tab (with form context)—use `get_case`.
-- The user wants an AI prose summary—use `summarize_case`.
+- The user wants an AI prose summary—use `aggregate_case`.
 - The user wants triage signals—use `get_case_highlights`.
 - The user wants only emails—use `list_emails` for search or `view_email` for a specific email.
 
@@ -181,7 +183,7 @@ Don't use `get_activity_timeline` when:
 | Tool | Relationship |
 |---|---|
 | [`get_case`](get_case.md) | Opens the case form with a built-in Timeline tab |
-| [`summarize_case`](summarize_case.md) | AI-generated prose summary of case activity |
+| [`aggregate_case`](summarize_case.md) | AI-generated prose summary of case activity |
 | [`get_case_highlights`](get_case_highlights.md) | Activity digest and triage signals |
 | [`create_activity`](create_activity.md) | Creates a new activity on the timeline |
 | [`create_note`](create_note.md) | Creates a note on the timeline |

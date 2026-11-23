@@ -1,7 +1,7 @@
 ---
 title: Contact summary
 description: Learn how to summarize a contact in Dynamics 365 Customer Service.
-ms.date: 09/02/2026
+ms.date: 11/19/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=service
 ms.service: dynamics-365-customer-service
@@ -81,7 +81,7 @@ Learn more in [Manage Copilot features in Customer Service](/dynamics365/custome
 | Property | Value |
 |---|---|
 | User-facing name | Contact summary |
-| Internal tool name | `summarize_contact` |
+| Internal tool name | `aggregate_contact` |
 | Purpose | Returns an AI-generated text summary of a CRM contact, covering case history stats, entitlement tier (through the parent account), job title, and relationship tenure |
 
 ## Tool behavior
@@ -125,17 +125,17 @@ The response includes case history statistics, entitlement tier (derived from th
 
 ## Routing notes
 
-Use `summarize_contact` for:
+Use `aggregate_contact` for:
 
 - summarize contact, tell me about + a person's name.
 - Quick customer context during triage.
 - Learning about a contact's case history and entitlement.
 
-Don't use `summarize_contact` when the prompt explicitly says:
+Don't use `aggregate_contact` when the prompt explicitly says:
 
 - **"Open" or "view" contact details**—route to `get_contact`.
 - **"List contacts"**—route to `list_contacts`.
-- **"Summarize account" (a company, not a person)**—route to `summarize_account`.
+- **"Summarize account" (a company, not a person)**—route to `aggregate_account`.
 
 ## Related tools
 
@@ -143,7 +143,7 @@ Don't use `summarize_contact` when the prompt explicitly says:
 |---|---|
 | [`get_contact`](get_contact.md) | Opens the full contact form for detailed field-level view |
 | [`list_contacts`](list_contacts.md) | Lists contacts for browsing or disambiguation |
-| [`summarize_account`](summarize_account.md) | Summarizes an account (company) rather than a contact (person) |
+| [`aggregate_account`](summarize_account.md) | Summarizes an account (company) rather than a contact (person) |
 | [`get_account`](get_account.md) | Opens the parent account form |
 
 ## Data mutation classification

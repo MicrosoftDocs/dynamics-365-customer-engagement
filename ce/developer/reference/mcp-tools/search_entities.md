@@ -1,7 +1,7 @@
 ---
 title: Search entity records
-description: Learn how to use the Search entity records capability in Dynamics 365 Customer Service.
-ms.date: 09/02/2026
+description: Learn how to use the Search entity records capability in Dynamics 365 Customer Service, Sales, and Field Service.
+ms.date: 11/19/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=service,sales,field-service
 ms.service: dynamics-365-customer-service
@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Search entity records
 
-**Applies to:** Dynamics 365 Customer Service and Dynamics 365 Sales
+**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales, and Dynamics 365 Field Service
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
@@ -47,6 +47,10 @@ The assistant displays a text list of matching records directly in the chat conv
 - To open a record you can already name, say "open the Contoso account" instead.
 - For case-specific searches, say "search cases" for a more targeted experience.
 - Search text is limited to 500 characters.
+- When you name a table, search terms over 100 characters use substring matching
+  instead of relevance search. Organization-wide search depends on Dataverse Search
+  and may reject terms above its 100-character limit; shorten the term or name the
+  tables to search.
 - The assistant tells you whether it used relevance search or substring matching.
 
 > [!TIP]

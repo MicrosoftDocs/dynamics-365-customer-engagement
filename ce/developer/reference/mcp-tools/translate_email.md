@@ -1,8 +1,9 @@
 ---
 title: Translate email
-description: Learn how to use the Translate email capability in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+description: Learn how to use the Translate email capability in Dynamics 365 Customer Service and Field Service.
+ms.date: 11/19/2026
 ms.topic: reference
+ai-usage: ai-assisted
 ms.custom: mcp-enabled-namespaces=service,field-service
 ms.service: dynamics-365-customer-service
 author: aditibaghel
@@ -12,7 +13,7 @@ ms.reviewer: laalexan
 
 # Translate email
 
-**Applies to:** Dynamics 365 Customer Service
+**Applies to:** Dynamics 365 Customer Service and Dynamics 365 Field Service
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
@@ -23,6 +24,8 @@ Use this capability when you want to translate the body of an email into a diffe
 The assistant takes the text of an email and translates it into the language you ask for. You can name the language by its English name (for example, "French", "Spanish", or "Japanese") or by its short code (for example, `fr`, `es`, `ja`). The translated version appears for you to review before you use it.
 
 If a compose form is already open with a draft, the assistant translates the draft body in place so you don't lose your subject line or recipients. Otherwise, the translation is shown on its own as a text reply.
+
+This capability is email-only. Despite the tool name, it doesn't translate notes, chat transcripts, documents, or PDFs.
 
 ## Try prompts like
 
@@ -40,7 +43,7 @@ The assistant returns the translated text. When you ask the assistant to transla
 ## Helpful tips
 
 - You can use either a language name ("French") or a short code (`fr`)—both work.
-- If the language code isn't recognized, the assistant returns no content; double-check the name or code and try again.
+- If the language input isn't supported or the service can't return translated content, the assistant reports an error. Check the language name or code before trying again.
 - Translation works on whatever text is in the open draft (or on text you paste in chat); the assistant doesn't pull in extra context.
 - For best results, translate text that already reads cleanly—the translator preserves the structure of the original.
 
@@ -55,9 +58,9 @@ After the translation appears, you can continue with prompts like:
 
 ## Does this change data?
 
-**No, translating an email doesn't change data.**
+**Standalone translation doesn't save or send an email. Translating an existing draft can update its saved body.**
 
-The translation is a preview shown in the compose form. No email is saved or sent until you explicitly save or send it. If a draft is open and the translation succeeds, the assistant updates the draft body in Dataverse so the translated text persists if the form reloads—but no email is sent without your action.
+The standalone `translate_content` tool returns translated text for review without writing an email record. When you ask to translate an existing draft through `edit_email_draft`, the service attempts to save the rewritten body to that draft automatically, before a later **Save** or **Send** action. If it can't confirm that save, it reports the unconfirmed result. Translation doesn't send an email; sending is a separate action.
 
 ## What you can do from the app-in-chat component
 
@@ -73,6 +76,7 @@ When the translation is shown inside the compose form, you can:
 This tool requires:
 
 - Copilot intelligence features to be enabled.
+- Activity read and create privileges for standalone translation. Refining an existing draft through `edit_email_draft` requires activity read and write privileges.
 
 Learn more in [Manage Copilot features in Customer Service](/dynamics365/customer-service/administer/configure-copilot-features).
 
@@ -81,8 +85,8 @@ Learn more in [Manage Copilot features in Customer Service](/dynamics365/custome
 | Property | Value |
 |---|---|
 | User-facing name | Translate email |
-| Internal tool name | `translate_email` |
-| Purpose | Translates an email body into a target language |
+| Internal tool name | `translate_content` |
+| Purpose | Translates an email body into a target language (email-only) |
 
 The tool can:
 
@@ -93,9 +97,9 @@ The tool can:
 
 ## Tool behavior
 
-The tool calls the Dynamics 365 `msdyn_InvokeIntelligenceAction` Dataverse action (scenario `translatetext`) with the supplied body and target language and returns the translated text. Before the call, the server normalizes display names to ISO 639 primary subtags (for example, "French" becomes `fr`) and strips any region or variant suffix so the upstream receives the bare primary code its scenario expects.
+The tool calls the Dynamics 365 `msdyn_InvokeIntelligenceAction` Dataverse action with the supplied email body and target language and returns the translated text. The service selects `copilottranslate` or `translatetext` according to the request path; users don't select the scenario. Before the call, the server normalizes display names to ISO 639 primary subtags (for example, "French" becomes `fr`) and strips any region or variant suffix so the upstream receives the bare primary code its scenario expects.
 
-When invoked standalone (no open compose form), the tool returns the translation as a text response with the widget surface showing the translated body. When invoked as part of refining an open draft, the `edit_email_draft` handler passes the directive through as a `pendingAction`, applies the translation to the loaded body server-side, and PATCHes the translated body back to the same draft activity so the persisted record matches what the user sees.
+When invoked standalone, the tool returns translated content for review in the widget. When invoked as part of refining an open draft, the `edit_email_draft` handler passes the directive through as a `pendingAction`, applies the translation to the loaded body server-side, and attempts to PATCH the translated body back to the same draft activity. The response identifies when that automatic save can't be confirmed.
 
 The tool doesn't send email messages.
 
@@ -103,9 +107,9 @@ The tool doesn't send email messages.
 
 | Annotation | Value | Meaning |
 |---|---|---|
-| `readOnlyHint` | `true` | Microsoft 365 Copilot skips the confirmation prompt. The translation is shown for review only. |
+| `readOnlyHint` | `true` | Standalone translation doesn't write an email record. Existing-draft refinement uses the separate `edit_email_draft` write path. |
 | `destructiveHint` | Not set | Not applicable (no Dataverse mutation by this tool itself). |
-| `idempotentHint` | Not set | Not applicable (each invocation triggers a fresh translation call). |
+| `idempotentHint` | `false` | Each invocation makes a fresh translation request. |
 | `openWorldHint` | Not set | Uses default behavior and calls a Dataverse action. |
 
 ## Input concepts
@@ -122,7 +126,7 @@ The tool doesn't send email messages.
 |---|---|---|
 | `targetLanguage` | Target language as an English display name (`French`, `Spanish`, `Japanese`) or ISO 639 primary subtag (`fr`, `es`, `ja`, `fil`). Capped at 32 characters. | Yes |
 
-The server normalizes display names against a built-in name-to-code table for the most common languages and strips region suffixes from BCP-47-shaped codes (so `fr-FR` becomes `fr`). Codes the upstream scenario doesn't recognize return no content from the API.
+The server normalizes display names against a built-in name-to-code table for the most common languages and strips region suffixes from BCP-47-shaped codes (so `fr-FR` becomes `fr`). Unsupported language input or an unsuccessful or empty service response is surfaced as an error rather than a successful translation.
 
 ## Response and UI behavior
 
@@ -142,18 +146,19 @@ The widget shows:
 
 ## Routing notes
 
-Use `translate_email` when the user wants to:
+Use `translate_content` when the user wants to:
 
 - Translate an email body, standalone.
-- Translate pasted or generated text.
+- Translate pasted or generated email text.
 
 Use `edit_email_draft` with `pendingAction: { type: "translate", ... }` when the user wants to:
 
 - Translate a draft already open in the compose form.
 - Persist the translation to the same draft activity.
 
-Don't use `translate_email` when the user wants to:
+Don't use `translate_content` when the user wants to:
 
+- Translate a note, chat transcript, document, or PDF; the tool is email-only.
 - Compose a brand-new email; use `draft_email`.
 - Adjust the tone of an email; use `adjust_email_tone`.
 - Send the email; use `send_email`.
@@ -171,4 +176,4 @@ Don't use `translate_email` when the user wants to:
 
 The tool itself is marked with `readOnlyHint: true` and doesn't write to Dataverse on its own. The translation shown in chat is a preview.
 
-When invoked through the `edit_email_draft + pendingAction` refinement path, the `edit_email_draft` handler PATCHes the translated body to the existing draft activity after the translation succeeds. That PATCH is gated server-side by `prvWriteActivity` on the `edit_email_draft` tool.
+When invoked through the `edit_email_draft + pendingAction` refinement path, the `edit_email_draft` handler attempts to PATCH the translated body to the existing draft activity after translation succeeds. That PATCH is gated server-side by `prvWriteActivity` on the `edit_email_draft` tool. A failed or unconfirmed save is reported; it isn't described as a completed write.

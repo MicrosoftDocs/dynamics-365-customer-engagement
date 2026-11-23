@@ -1,9 +1,9 @@
 ---
 title: View contact
-description: Learn how to use the View contact capability in Dynamics 365 Customer Service.
-ms.date: 09/02/2026
+description: Learn how to use the View contact capability in Dynamics 365 Customer Service, Sales, and Field Service.
+ms.date: 11/19/2026
 ms.topic: reference
-ms.custom: mcp-enabled-namespaces=service,sales
+ms.custom: mcp-enabled-namespaces=service,sales,field-service
 ms.service: dynamics-365-customer-service
 author: dleblond
 ms.author: dleblond
@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # View contact
 
-**Applies to:** Dynamics 365 Customer Service and Dynamics 365 Sales
+**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales, and Dynamics 365 Field Service
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
@@ -132,7 +132,7 @@ Use `get_contact` for:
 Don't use `get_contact` when the prompt explicitly says:
 
 - **"List" or "show my contacts"**—route to `list_contacts`.
-- **"Summarize" a contact**—route to `summarize_contact`.
+- **"Summarize" a contact**—route to `aggregate_contact`.
 - **A generic entity by logical name**—route to `get_entity_record`.
 
 ## Related tools
@@ -140,7 +140,7 @@ Don't use `get_contact` when the prompt explicitly says:
 | Tool | Relationship |
 |---|---|
 | [`list_contacts`](list_contacts.md) | Lists contacts; use to disambiguate when multiple match a name |
-| [`summarize_contact`](summarize_contact.md) | AI text summary of contact context and case history |
+| [`aggregate_contact`](summarize_contact.md) | AI text summary of contact context and case history |
 | [`update_entity_record`](update_entity_record.md) | Updates fields on the contact record |
 | [`get_account`](get_account.md) | Opens an account form; often used alongside contact detail |
 | [`get_entity_record`](get_entity_record.md) | Generic entity detail for non-contact entity types |

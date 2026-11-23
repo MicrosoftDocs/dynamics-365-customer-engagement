@@ -1,7 +1,7 @@
 ---
 title: Overview of Service Agent
 description: Learn about Service Agent, an AI-powered assistant in Dynamics 365 Customer Service that helps representatives resolve cases faster.
-ms.date: 09/26/2026
+ms.date: 11/19/2026
 author: lalexms
 ms.author: laalexan
 ms.collection: bap-ai-copilot
@@ -53,3 +53,4 @@ Service Agent is available in the following experiences:
 - [Use starter prompts in Service Agent](use-service-agent-starter-prompts.md)  
 - [Use the prompt gallery in Service Agent](use-service-agent-prompt-gallery.md)  
 - [Frequently asked questions about Service Agent](service-agent-faq.md)
+- [Field Service capabilities in Service Agent (preview)](../../field-service/service-agent-overview.md)

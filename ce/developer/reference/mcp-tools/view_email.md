@@ -1,8 +1,9 @@
 ---
 title: View email
-description: Learn how to use the View email capability in Dynamics 365 Customer Service.
-ms.date: 09/02/2026
+description: Learn how to use the View email capability in Dynamics 365 Customer Service, Sales, and Field Service.
+ms.date: 11/19/2026
 ms.topic: reference
+ai-usage: ai-assisted
 ms.custom: mcp-enabled-namespaces=service,sales,field-service
 ms.service: dynamics-365-customer-service
 author: dleblond
@@ -12,7 +13,7 @@ ms.reviewer: laalexan
 
 # View email
 
-**Applies to:** Dynamics 365 Customer Service and Dynamics 365 Sales
+**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales, and Dynamics 365 Field Service
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
@@ -34,6 +35,12 @@ The assistant fetches a specific email from Dynamics 365 and displays it inside 
 ## What you'll see in chat
 
 The assistant displays the email as an app-in-chat component showing the full email body, subject, sender, recipients, and timestamps. A direct link to the email in Dynamics 365 is included.
+
+For received emails, the viewer also lists up to 50 ordinary file attachments by
+filename. This list provides metadata, not file downloads. Select **Open in
+Dynamics** in the attachment section to open the parent email and access its
+files there. If there are more files, the viewer directs you to Dynamics for the
+rest. Inline images remain part of the email body.
 
 ## Helpful tips
 
@@ -117,6 +124,41 @@ This MCP tool is supported by an MCP app.
 Interactive component (app-in-chat)
 
 The widget displays the email subject, body, sender, recipients, timestamps, and linked customer context. A Dynamics 365 deep link is provided for navigating to the full email form.
+
+### Received-email attachments
+
+Ordinary attachment enrichment runs for the rendered received-email view, not
+reply-prefill reads or draft editing. It returns metadata only, without ordinary
+file bytes or download credentials.
+
+| Response field | Meaning |
+|---|---|
+| `structuredContent.attachmentSummary` | Model-visible text summary of filenames and download availability. |
+| `structuredContent.hasMoreAttachments` | More ordinary attachment rows exist than the 50-item display limit. |
+| `structuredContent.attachmentsFailed` | The attachment list could not be loaded; this isn't an empty-list or permission-denial result. |
+| `_meta.attachments` | Widget metadata containing attachment ID, filename, optional MIME type, and download status. |
+| `_meta.hasMoreAttachments`, `_meta.attachmentsFailed` | The same overflow and list-failure indicators for the widget. |
+
+The widget distinguishes these `downloadStatus` values:
+
+| Status | Meaning |
+|---|---|
+| `unsupported` | Authorized metadata is available, but this path doesn't provide a direct download. Use Open in Dynamics. |
+| `denied` | Attachment authorization refused access. No download link is supplied. |
+| `undetermined` | A dependency failure prevented an authorization decision. This isn't a permission denial, and no download link is supplied. |
+| `available` | The widget contract supports an existing direct link when supplied; ordinary-file enrichment doesn't issue one. |
+
+If an attachment dependency fails or the shared five-second deadline or six-read
+budget is exhausted, the email body remains readable. The viewer reports an
+unavailable list or an undetermined file status rather than treating the failure
+as a permission denial. A caller-cancelled request instead remains a cancellation;
+it isn't converted to a loaded email with an attachment warning.
+
+The attachment action uses a safe HTTPS parent-email link. It navigates through
+the connected host when available; outside a connected host, it opens a new tab.
+If connected-host navigation fails, the viewer announces the failure instead of
+silently opening a new tab. Missing or unsafe links aren't offered as attachment
+actions.
 
 ## Routing notes
 
