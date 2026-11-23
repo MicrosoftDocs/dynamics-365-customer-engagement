@@ -59,7 +59,7 @@ After you have workspace access, the **Migration Projects** page opens.
 To add members, assign roles, and manage access, see [Manage workspaces](manage-workspaces.md#manage-workspace-access).
 
 > [!IMPORTANT]
-> Sign in at least once with your Microsoft Entra work account before an administrator adds you to a workspace or a project owner shares a project with you. If you're joining an existing workspace, you don't need to create another workspace. Workspace membership alone doesn't give Contributors or Readers access to existing projects; the project owner must also [share the project](#share-a-project).
+> Sign in at least once with your Microsoft Entra work account before an administrator adds you to a workspace or a project owner shares a project with you. Workspace membership alone doesn't give Contributors or Readers access to existing projects; the project owner must also [share the project](#share-a-project).
 
 ## Create a project
 
