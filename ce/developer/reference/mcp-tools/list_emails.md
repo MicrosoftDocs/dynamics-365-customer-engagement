@@ -1,8 +1,9 @@
 ---
 title: List / search emails
-description: Learn how to use the List / search emails capability in Dynamics 365 Customer Service.
-ms.date: 09/02/2026
+description: Learn how to use the List / search emails capability in Dynamics 365 Customer Service, Sales, and Field Service.
+ms.date: 11/19/2026
 ms.topic: reference
+ai-usage: ai-assisted
 ms.custom: mcp-enabled-namespaces=service,sales,field-service
 ms.service: dynamics-365-customer-service
 author: dleblond
@@ -12,7 +13,7 @@ ms.reviewer: laalexan
 
 # List / search emails
 
-**Applies to:** Dynamics 365 Customer Service and Dynamics 365 Sales
+**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales, and Dynamics 365 Field Service
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
@@ -20,7 +21,7 @@ Use this capability when you want to find a specific email or browse recent emai
 
 ## What it does
 
-The assistant searches your Dynamics 365 emails by subject, sender, or date range. It automatically groups reply chains together, showing you only the most recent email in each thread. If only one email matches, it opens the full email view directly. If multiple emails match, you see a selection list and can pick which one to open.
+The assistant searches your Dynamics 365 emails by subject, sender, or date range. It groups reply and forward prefixes by normalized subject, preferring an email linked to a record, then the newest email within that group. This is subject-based grouping, not conversation-ID grouping. The list returns headers only; opening an email retrieves its body and attachment details separately.
 
 You can also scope the search to a specific case to see only emails linked to that case.
 
@@ -37,14 +38,15 @@ You can also scope the search to a specific case to see only emails linked to th
 
 ## What you'll see in chat
 
-If one email matches, the assistant opens it directly as an email view. If multiple emails match, the assistant shows a selection grid with email subjects, senders, and dates. Select an email from the list to view its full content.
+The assistant shows a selection grid with email subjects, senders, and dates. Select an email to view its full content. In legacy mode, a single match instead directs the assistant to open that email.
 
 ## Helpful tips
 
 - Search by subject works even when the email has a "RE:" or "FWD:" prefix—those are stripped automatically.
 - Say "emails on this case" to see only emails linked to the current case.
 - If you're looking for a specific email and get multiple results, narrow your search by adding more details like the sender or a date range.
-- With no search criteria, you'll see the 10 most recent emails.
+- The default is 10 unique subject-based threads. With expanded capacity enabled, linked emails appear first, then unlinked emails, newest first within each group.
+- An empty response can still have more source emails to check. It doesn't necessarily mean your search has no more unique threads.
 
 > [!TIP]
 > After finding an email in the list, select it to view the full content. Then you can reply, forward, or link it to a case.
@@ -69,7 +71,7 @@ This only searches and displays email data. Actions you take after finding an em
 
 From the email list in chat, you can:
 
-- Browse emails with subject, sender, date, and direction (inbound/outbound).
+- Browse emails with subject, sender, and date.
 - Select an email to read its full content in the email viewer.
 - Open an email in Dynamics 365.
 - Use follow-up prompts to filter by date, sender, or link emails to a case.
@@ -92,7 +94,31 @@ Learn more in [Configure email](/dynamics365/customer-service/administer/custome
 
 ## Tool behavior
 
-Searches Dynamics 365 email activities by subject or sender with automatic reply-chain deduplication. RE:/FWD: prefixes are stripped and the most recent email per thread is kept. A single match returns the full `view_email` widget directly; multiple matches return a selection grid for disambiguation. With no filters, returns the 10 most recent emails.
+Searches Dynamics 365 email headers with automatic subject-based deduplication.
+Expanded capacity retains a default of 10 and accepts `top` up to 5,000 when enabled
+by the server operator. Linked emails are traversed first, then unlinked emails,
+each ordered newest first with activity ID breaking timestamp ties. This preserves
+linked-email preference across source pages. Blank subjects use activity ID rather
+than collapsing unrelated messages.
+
+The optional maximum is not a delivery guarantee. Response bytes, upstream-body
+bytes, request count and time budgets remain finite. When a response is partial,
+repeat the same filters and `top` with `pageInfo.nextCursor`. `hasMore` means more
+source emails remain to inspect; it doesn't guarantee additional unique threads.
+`totalFound` and `returnedCount` describe this response, not an exact mailbox total.
+`sourceReadCount` counts fetched messages, including replayed pages;
+`sourceConsumedCount` counts inspected messages, including duplicates.
+
+Continuation is signed, bound to the caller, organization and query, and expires
+15 minutes after traversal begins. Its deduplication state has a finite size limit.
+If a row or continuation cannot fit, narrow the search rather than treating the
+result as complete. Records are reauthorized and reread on every call; a changed
+mailbox can invalidate a replay position. This is not a mailbox snapshot or an
+unbounded export.
+
+Legacy mode retains its 50-source-email fetch cap and rejects cursors and `top`
+above 50. Expanded delivery requires operator enablement and qualified finite
+budgets; callers cannot enable it with an input parameter.
 
 ## Annotations
 
@@ -127,7 +153,8 @@ Searches Dynamics 365 email activities by subject or sender with automatic reply
 
 | Input | Description | Required |
 |---|---|---|
-| `top` | `top` (maximum unique email threads to return after deduplication, defaults to 10). | No |
+| `top` | Maximum unique subject-based threads in this response, default 10, maximum 5,000 when expanded capacity is enabled. Legacy mode accepts at most 50. | No |
+| `cursor` | Continuation from `pageInfo.nextCursor`. Keep the filters and `top` unchanged. Available only with expanded capacity. | No |
 
 ### Date range
 
@@ -137,7 +164,9 @@ Searches Dynamics 365 email activities by subject or sender with automatic reply
 
 ## Response and UI behavior
 
-This tool renders an interactive email selection grid or a single email view.
+This tool renders an interactive email selection grid. Its model-visible results
+also include useful subject, sender, date and record identifiers without requiring
+the widget.
 
 This MCP tool is supported by an MCP app.
 
@@ -145,7 +174,11 @@ This MCP tool is supported by an MCP app.
 
 Interactive component (app-in-chat)
 
-Single match: returns the full `view_email` widget directly. Multiple matches: returns a selection grid—wait for the user to choose, then call `view_email` with the selected activityId. No results: returns an empty state.
+Guarded results retain the selection grid even for one thread. In legacy mode, a
+single match directs the caller to `view_email`; it doesn't eagerly fetch the body.
+Open a chosen email with `view_email` and its `activityId`. No results with no
+continuation show the normal empty state; a zero-thread response with continuation
+shows a partial-response status instead. Local widget pagination is unchanged.
 
 ## Routing notes
 

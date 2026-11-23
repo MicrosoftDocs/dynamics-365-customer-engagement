@@ -1,7 +1,7 @@
 ---
 title: Draft email
-description: Learn how to use the Draft email capability in Dynamics 365 Customer Service.
-ms.date: 09/02/2026
+description: Learn how to use the Draft email capability in Dynamics 365 Customer Service, Sales, and Field Service.
+ms.date: 11/19/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=service,sales,field-service
 ms.service: dynamics-365-customer-service
@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Draft email
 
-**Applies to:** Dynamics 365 Customer Service and Dynamics 365 Sales
+**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales, and Dynamics 365 Field Service
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 

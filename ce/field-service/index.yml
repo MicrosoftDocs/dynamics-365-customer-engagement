@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page
   author: puneet-singh1
   ms.author: puneetsingh
-  ms.date: 04/10/2026
+  ms.date: 11/19/2026
   ms.custom: bap-template
   hide_bc: true
 
@@ -137,6 +137,16 @@ additionalContent:
         text: Deploy and set up Resource Scheduling Optimization
   - title: Use
     items:
+    - title: Service Agent (preview)
+      links:
+      - url: service-agent-overview.md
+        text: Understand Field Service capabilities
+      - url: service-agent-preview.md
+        text: Request public preview access
+      - url: service-agent-mcp-tools-overview.md
+        text: Explore Field Service MCP tools
+      - url: configure-service-agent.md
+        text: Configure supported agent capabilities
     - title: Work orders
       links:
       - url: create-work-order.md

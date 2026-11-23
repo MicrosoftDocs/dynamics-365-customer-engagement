@@ -1,7 +1,7 @@
 ---
 title: Adjust email tone
-description: Learn how to use the Adjust email tone capability in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+description: Learn how to use the Adjust email tone capability in Dynamics 365 Customer Service and Field Service.
+ms.date: 11/19/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=service,field-service
 ms.service: dynamics-365-customer-service
@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Adjust email tone
 
-**Applies to:** Dynamics 365 Customer Service
+**Applies to:** Dynamics 365 Customer Service and Dynamics 365 Field Service
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
@@ -157,7 +157,7 @@ Use `edit_email_draft` with `pendingAction: { type: "adjust-tone", ... }` when t
 Don't use `adjust_email_tone` when the user wants to:
 
 - Compose a brand-new email; use `draft_email`.
-- Translate an email; use `translate_email`.
+- Translate an email; use `translate_content`.
 - Send the email; use `send_email`.
 
 ## Related tools
@@ -166,7 +166,7 @@ Don't use `adjust_email_tone` when the user wants to:
 |---|---|
 | [`edit_email_draft`](edit_email_draft.md) | Preferred refinement entry point—accepts `pendingAction: { type: "adjust-tone", ... }` and auto-saves the rewrite to the same draft |
 | [`draft_email`](draft_email.md) | First-turn compose entry point |
-| [`translate_email`](translate_email.md) | Sibling tool for translation |
+| [`translate_content`](translate_email.md) | Sibling tool for translation |
 | [`send_email`](send_email.md) | Sends the email after the rewrite is reviewed |
 
 ## Data mutation classification

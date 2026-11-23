@@ -1,9 +1,9 @@
 ---
 title: View account
-description: Learn how to use the View account capability in Dynamics 365 Customer Service.
-ms.date: 09/02/2026
+description: Learn how to use the View account capability in Dynamics 365 Customer Service, Sales, and Field Service.
+ms.date: 11/19/2026
 ms.topic: reference
-ms.custom: mcp-enabled-namespaces=service,sales
+ms.custom: mcp-enabled-namespaces=service,sales,field-service
 ms.service: dynamics-365-customer-service
 author: dleblond
 ms.author: dleblond
@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # View account
 
-**Applies to:** Dynamics 365 Customer Service and Dynamics 365 Sales
+**Applies to:** Dynamics 365 Customer Service, Dynamics 365 Sales, and Dynamics 365 Field Service
 
 [!INCLUDE [cc-mcp-tools-compatibility-versioning-note](../../../includes/mcp-tools/cc-mcp-tools-compatibility-versioning-note.md)]
 
@@ -131,7 +131,7 @@ Use `get_account` for:
 Don't use `get_account` when the prompt explicitly says:
 
 - **"List" or "show my accounts"**—route to `list_accounts`.
-- **"Summarize" or "brief me about"** a company—route to `summarize_account`.
+- **"Summarize" or "brief me about"** a company—route to `aggregate_account`.
 - **A generic entity by logical name**—route to `get_entity_record`.
 
 ## Related tools
@@ -139,7 +139,7 @@ Don't use `get_account` when the prompt explicitly says:
 | Tool | Relationship |
 |---|---|
 | [`list_accounts`](list_accounts.md) | Lists accounts; use to disambiguate when multiple match a name |
-| [`summarize_account`](summarize_account.md) | AI text summary of account context |
+| [`aggregate_account`](summarize_account.md) | AI text summary of account context |
 | [`update_entity_record`](update_entity_record.md) | Updates fields on the account record |
 | [`get_contact`](get_contact.md) | Opens a contact form; often used alongside account detail |
 | [`get_entity_record`](get_entity_record.md) | Generic entity detail for non-account entity types |

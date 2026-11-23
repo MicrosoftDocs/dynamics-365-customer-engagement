@@ -1,7 +1,7 @@
 ---
 title: Case summary
 description: Learn how to use the Case summary capability in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+ms.date: 11/19/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=service
 ms.service: dynamics-365-customer-service
@@ -89,7 +89,7 @@ Learn more in [Enable Copilot case and conversation summaries](/dynamics365/cont
 | Property | Value |
 |---|---|
 | User-facing name | Case summary |
-| Internal tool name | `summarize_case` |
+| Internal tool name | `aggregate_case` |
 | Purpose | Generates an AI summary of a case and opens the case form widget with the Summary tab as the default landing (Form tab is one select away) |
 
 ## Tool behavior
@@ -127,17 +127,17 @@ The widget opens on the Summary tab showing the AI-generated summary. The Form t
 
 ## Routing notes
 
-Use `summarize_case` for:
+Use `aggregate_case` for:
 
 - summarize case CAS-X, recap CAS-X, brief me on CAS-X, give me the AI summary of CAS-X.
 - Any prompt where the user explicitly wants an **AI-generated summary** of the case.
 
-Don't use `summarize_case` when:
+Don't use `aggregate_case` when:
 
 - **The user says "show case", "open case", "view case", "tell me about CAS-X"**—route to `get_case` with `includeSummary: true` (form is default landing, but summary is available).
 - **The user explicitly asks for form-only access** ("just show the form", "case fields only")—route to `get_case`.
 - **The user wants triage signals** (SLA risk, escalation, activity counts since a date)—route to `get_case_highlights`.
-- **The user wants resolution steps**—route to `summarize_case_actions`.
+- **The user wants resolution steps**—route to `aggregate_case_actions`.
 - **The user wants the activity feed only**—route to `get_activity_timeline`.
 
 ## Related tools
@@ -146,7 +146,7 @@ Don't use `summarize_case` when:
 |---|---|
 | [`get_case`](get_case.md) | Opens the case form without an AI summary. Use for form-only access or pre-edit inspection |
 | [`get_case_highlights`](get_case_highlights.md) | Returns structured triage signals (SLA risk, escalation, activity counts) |
-| [`summarize_case_actions`](summarize_case_actions.md) | Lists resolution steps taken on the case |
+| [`aggregate_case_actions`](summarize_case_actions.md) | Lists resolution steps taken on the case |
 | [`get_activity_timeline`](get_activity_timeline.md) | Returns the raw chronological activity feed |
 | [`update_case`](update_case.md) | Updates fields on the case |
 | [`close_case`](close_case.md) | Resolves and closes the case |

@@ -1,7 +1,7 @@
 ---
 title: Overview of Dynamics 365 Field Service
 description: Learn about Dynamics 365 Field Service and its features.
-ms.date: 07/21/2026
+ms.date: 11/19/2026
 ms.topic: overview
 ms.custom: bap-template
 author: jshotts
@@ -55,6 +55,7 @@ Field service capabilities include:
 - **Communication tools** to enhance collaboration between customer service agents, dispatchers, field technicians, customers, and other stakeholders.
 - **An easy-to-use mobile application** that guides technicians through schedule changes and service work.
 - **Copilot in Field Service** features are integrated in the application. Copilot generates summaries of work orders in a customizable format and answers natural language questions about your data in a side pane of the web app.
+- **[Field Service capabilities in Service Agent (preview)](service-agent-overview.md)** help technicians, dispatchers, and service managers review job context and complete supported Field Service tasks through conversation. Access is requested through a gated public preview.
 - **Asset management** capabilities to keep track of customer equipment and service history.
 - **Preventive maintenance** by automatically generating recurring maintenance appointments for equipment.
 - **Inventory, purchasing, and returns capabilities** to manage truck stock, purchase order requests and fulfillment, and product returns.

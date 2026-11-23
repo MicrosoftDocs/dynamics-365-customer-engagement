@@ -1,7 +1,7 @@
 ---
 title: Summarize resolution steps
 description: Learn how to use the Summarize resolution steps capability in Dynamics 365 Customer Service.
-ms.date: 08/11/2026
+ms.date: 11/19/2026
 ms.topic: reference
 ms.custom: mcp-enabled-namespaces=service
 ms.service: dynamics-365-customer-service
@@ -73,7 +73,7 @@ Learn more in [Enable Copilot case and conversation summaries](/dynamics365/cont
 | Property | Value |
 |---|---|
 | User-facing name | Summarize resolution steps |
-| Internal tool name | `summarize_case_actions` |
+| Internal tool name | `aggregate_case_actions` |
 | Purpose | Generates a structured summary of the resolution steps taken on a case, derived from the case timeline activities (emails, notes, phone calls) |
 
 ## Tool behavior
@@ -107,15 +107,15 @@ Returns a structured text summary of resolution steps derived from the case time
 
 ## Routing notes
 
-Use `summarize_case_actions` when:
+Use `aggregate_case_actions` when:
 
 - The user asks to recap "the steps I took", "what was done on this case".
 - The user wants structured resolution steps for KB article drafting.
 - The user wants a step-by-step account of what happened.
 
-Don't use `summarize_case_actions` when:
+Don't use `aggregate_case_actions` when:
 
-- **AI prose case summary**—route to `summarize_case`.
+- **AI prose case summary**—route to `aggregate_case`.
 - **Triage signals** (SLA risk, escalation, activity counts)—route to `get_case_highlights`.
 - **Raw activity feed**—route to `get_activity_timeline`.
 
@@ -123,7 +123,7 @@ Don't use `summarize_case_actions` when:
 
 | Tool | Relationship |
 |---|---|
-| [`summarize_case`](summarize_case.md) | AI prose summary of the case (triage-oriented) |
+| [`aggregate_case`](summarize_case.md) | AI prose summary of the case (triage-oriented) |
 | [`get_case_highlights`](get_case_highlights.md) | Activity digest with SLA risk and triage signals |
 | [`get_activity_timeline`](get_activity_timeline.md) | Raw chronological activity feed |
 | [`close_case`](close_case.md) | Resolves the case after reviewing resolution steps |
