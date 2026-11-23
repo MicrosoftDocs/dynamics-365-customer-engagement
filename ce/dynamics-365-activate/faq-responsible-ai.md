@@ -17,7 +17,7 @@ ai-usage: ai-generated
 
 # Responsible AI FAQ for Dynamics 365 Activate
 
-These frequently asked questions help you understand the effect of AI on the Salesforce migration experience in Dynamics 365 Activate.
+This FAQ article helps answer questions about the responsible use of AI in the Salesforce migration experience in Dynamics 365 Activate.
 
 ## What is Dynamics 365 Activate?
 
@@ -90,8 +90,6 @@ Dynamics 365 Activate connects to Salesforce to read source information and to D
 For the migration workflow and validation steps, see [How to migrate from Salesforce to Dynamics 365](migrate-salesforce-to-dynamics-365-quick-start.md).
 
 ## How can I provide feedback about AI-assisted analysis?
-
-Use the feedback option in Dynamics 365 Activate, rather than the documentation feedback option on this page.
 
 1. Select **Feedback** in the application footer.
 2. In the **Area** dropdown, select **AI Analysis**.
