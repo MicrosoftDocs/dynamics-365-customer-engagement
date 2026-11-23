@@ -1,7 +1,7 @@
 ---
 title: FAQ about work order summary with Copilot and summary configuration
 description: Get answers to common questions about how the AI-powered work order summary feature in Dynamics 365 Field Service helps you quickly understand the status and details of a work order.
-ms.date: 11/03/2026
+ms.date: 11/19/2026
 ms.update-cycle: 180-days
 ms.custom:
   - responsible-ai-faqs
@@ -69,7 +69,7 @@ The default work order summary uses predefined optimizations. These optimization
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
-Administrators can enable or disable the feature for your environment in the Field Service settings by toggling the **Copilot for work order** option.
+Administrators can turn the feature on or off for your environment in the Field Service settings by toggling the **Copilot for work order** option.
 
 To customize the summary, an administrator can enable **configure summary** to choose the fields that Copilot uses to generate the summary. You can't customize other aspects of the prompt. However, the feature respects your personalization settings for date and time format and time zone, as well as your environment-specific table and field labels. Administrators should test the chosen configuration with data from a record before saving the change.
 
