@@ -1,12 +1,13 @@
 ---
 title: Feature deprecations
 description: Learn about features that are being deprecated for Dynamics 365 Field Service.
-ms.date: 09/01/2026
+ms.date: 11/23/2026
 ms.update-cycle: 1095-days
 ms.topic: article
 ms.custom: bap-template
 ms.author: vhorvath
 author: vhorvathms
+ms.reviewer: puneetsingh
 ---
 
 # Feature deprecations
@@ -15,6 +16,13 @@ This article lists features that are deprecated in Dynamics 365 Field Service.
 
 > [!IMPORTANT]
 > "Deprecated" means Microsoft plans to remove the feature or capability in a major future release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification spans at least six months. After removal, the feature or capability no longer works. Microsoft is notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## Dynamics 365 Field Service side chat and App Skills - November 23, 2026
+
+Dynamics 365 Field Service side chat and Field Service App Skills (Copilot in Power Apps – Field Service) in the side pane retire on January 1, 2027.
+
+- For general-purpose chat in model-driven apps, use [Microsoft Copilot in Field Service](use-microsoft-365-copilot-model-driven-apps.md).
+- For App Skills scenarios, use [Service Agent (preview)](service-agent-overview.md).
 
 ## Dynamics 365 Guides and Remote Assist applications - December 19, 2025
 
