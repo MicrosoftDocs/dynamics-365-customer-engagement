@@ -1,4 +1,4 @@
-Requirement groups bundle requirements that you commonly schedule together. When a job needs more than one resource — for example, two technicians with different skills, a technician plus specialized equipment, or a facility appointment that needs a room and a specific staff member — use requirement groups to schedule them all to the same time slot.
+Requirement groups combine requirements that you commonly schedule together. Use them when a job needs multiple resources in the same time slot, such as two technicians with different skills, a technician and specialized equipment, or a room and a specific staff member for a facility appointment.
 
 If the same group of people always works together, consider using [crews](../../field-service/resource-crews.md) instead. Requirement groups are for flexible combinations that change per job.
 
@@ -16,11 +16,11 @@ If the same group of people always works together, consider using [crews](../../
 - A requirement group template (optional, for reuse).
 
 > [!IMPORTANT]
-> Requirement groups can't be scheduled for multiple days. Use single requirements with [multi-day scheduling](../../field-service/schedule-multi-day-work.md) instead.
+> You can't schedule requirement groups for multiple days. Use single requirements with [multi-day scheduling](../../field-service/schedule-multi-day-work.md) instead.
 
 ## Step 1: Create a requirement group template
 
-1. In Resource Scheduling, open the **Settings** area. Under **Scheduling**, select **Requirement Group Templates**, then select **New**.
+1. In Resource Scheduling, open the **Settings** area. Under **Scheduling**, select **Requirement Group Templates**, and then select **New**.
 
 1. Enter a **Name** for the requirement group and **Save** it.
 
@@ -28,33 +28,33 @@ If the same group of people always works together, consider using [crews](../../
 
    | Setting | Options | Details |
    |---|---|---|
-   | **Select** | **All** (default) / **Any** | **All**: Resources must fulfill all requirements. **Any**: Resources can fulfill any requirement. Use subgroups to combine these — for example, set root to **Any** and each subgroup to **All** for the assistant to search for either **all of option 1** *or* **all of option 2**. |
+   | **Select** | **All** (default) / **Any** | **All**: Resources must fulfill all requirements. **Any**: Resources can fulfill any requirement. Use subgroups to combine these options. For example, set root to **Any** and each subgroup to **All** for the assistant to search for either **all of option 1** *or* **all of option 2**. |
    | **Part of Same** | **Location** / **Resource Tree** / **Organizational Unit** | Controls how strictly the assistant groups resources. **Location** uses [Bookable Resource Association](../../field-service/developer/reference/entities/msdyn_bookableresourceassociation.md) and [Bookable Resource Group](../../field-service/developer/reference/entities/bookableresourcegroup.md). **Resource Tree** adds type association. **Organizational Unit** (most stringent) checks only the parent org unit. |
 
    :::image type="content" source="../../common-scheduler/media/scheduling-multi-resource-2-options.png" alt-text="Screenshot of requirement group with two options.":::
 
 1. Select **+ Requirements** to add requirements and fill in the fields in the columns. All requirements within a requirement group must have the same duration. Change the duration of individual bookings after booking the requirement group by setting the **Cascade Crew Changes** option on the **Scheduling** tab of the booking to **No**.
 
-1. To add more details to a resource requirement, select a resource requirement in the form, then select **Open Form**, and enter more filters for the schedule assistant. For example, on the **Scheduling** tab, choose the work location:
+1. To add more details to a resource requirement, select a resource requirement in the form, select **Open Form**, and enter more filters for the schedule assistant. For example, on the **Scheduling** tab, choose the work location:
 
    | Work location | Behavior |
    |---|---|
-   | **Facility** | The interaction takes place at a facility. Travel time is calculated from the customer location to the facility. At least one facility or facility pool must return in results. |
+   | **Facility** | The interaction takes place at a facility. Travel time is calculated from the customer location to the facility. Results include at least one facility or facility pool. |
    | **On Site** | The interaction takes place at the customer location. Travel time is calculated from the resource location to the customer. Facility resources and pools are excluded. |
    | **Location Agnostic** | The interaction takes place remotely. No location or travel time is considered. Facility resources can still appear, but travel time isn't displayed or ranked. |
 
    > [!NOTE]
-   > You can select a maximum of 10 values per requirement for the following fields: Resource Categories, Characteristics, and Preferred Resource.
+   > You can select up to 10 values per requirement for the following fields: Resource Categories, Characteristics, and Preferred Resource.
 
 1. **Save** the requirement group template.
 
 ## Step 2: Create a requirement group
 
-1. In Resource Scheduling, open the **Resource Scheduling** area. Under **Scheduling**, select **Requirement Groups**, then select **New**.
+1. In Resource Scheduling, open the **Resource Scheduling** area. Under **Scheduling**, select **Requirement Groups**, and then select **New**.
 
 1. Enter a **Name**.
 
-1. To use a template, select an existing **Requirement group template** from the drop-down list and **Save**.
+1. To use a template, select an existing **Requirement group template** from the drop-down list and select **Save**.
 
       To create your own requirement group, select **Save** and fill out the information for the group and its requirements. Learn more in [Create a requirement group template](#step-1-create-a-requirement-group-template).
 

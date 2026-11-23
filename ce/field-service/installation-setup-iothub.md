@@ -1,7 +1,7 @@
 ---
 title: Install and configure Connected Field Service for Azure IoT Hub
 description: Learn how to install and configure Dynamics 365 Connected Field Service for Azure IoT Hub.
-ms.date: 11/27/2025
+ms.date: 11/20/2026
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.author: vhorvath
@@ -21,7 +21,7 @@ Follow the steps in this article to set up Connected Field Service for use with 
 - [Step 6: Start the Azure Stream Analytics jobs](#start-the-azure-stream-analytics-jobs)
 
 > [!IMPORTANT]
-> The device readings chart is no longer available. It relied on Azure Time Series Insights, which was retired on July 7, 2024. Learn more: [Migrate from Time Series Insights](/azure/time-series-insights/migration-to-fabric).
+> The device readings chart is no longer available. It relied on Azure Time Series Insights, which was retired on July 7, 2024. Learn more in [Migrate from Time Series Insights](/azure/time-series-insights/migration-to-fabric).
 
 ## Prerequisites
 
@@ -55,7 +55,7 @@ Use an Azure Resource Management (Azure Resource Manager) template to deploy Azu
 
 1. Select **Review + create**.
 
-Make sure the deployment is complete before you proceed.
+Ensure the deployment is complete before you proceed.
 
 ## Create an IoT provider instance
 
@@ -63,7 +63,7 @@ Make sure the deployment is complete before you proceed.
 
 1. In Connected Field Service, go to the **Settings** area.
 
-1. Select **Providers**, then select **New**.
+1. Select **Providers**, and then select **New**.
 
 1. Enter the following information:
 
@@ -94,13 +94,13 @@ For this step, you need to know the hostname for the [Service Bus Namespace](/az
 
 1. Download the [Power Platform CLI](https://aka.ms/PowerAppsCLI) and install it.
 
-1. Open the CLI and launch the [Plugin Registration Tool (PRT)](/power-platform/developer/cli/reference/tool#pac-tool-prt) using the command `pac tool prt`.
+1. Open the CLI and launch the [Plugin Registration Tool (PRT)](/power-platform/developer/cli/reference/tool#pac-tool-prt) by using the command `pac tool prt`.
 
 1. In the PRT window, select **Create New Connection**.
 
 1. In **Display list of available organizations**, select **Office 365**.
 
-1. Select **Display list of available organizations**, then select **Show Advanced**.
+1. Select **Display list of available organizations**, and then select **Show Advanced**.
 
 1. Select the region of your Field Service environment, enter your Field Service credentials, and then select **Login**.
 
@@ -136,9 +136,9 @@ Update the IoT Message service endpoint.
 
 1. Select and edit the *API Connection* resource **commondataservice**.
 
-1. Under **General**, select **Edit API Connection**, then select **Authorize**.
+1. Under **General**, select **Edit API Connection**, and then select **Authorize**.
 
-1. Sign in with the Dynamics 365 credentials that you use to sign in to your Connected Field Service environment.
+1. Sign in by using the Dynamics 365 credentials that you use to sign in to your Connected Field Service environment.
 
     These credentials might be different from the credentials you use to sign in to the Azure portal.
 
@@ -146,7 +146,7 @@ Update the IoT Message service endpoint.
 
 ## Update devicerules.json
 
-The Stream Analytics job deployed to your resource group refers to a file named `devicerules.json`. This file defines a rule that creates IoT Alerts.
+The Stream Analytics job you deployed to your resource group refers to a file named `devicerules.json`. This file defines a rule that creates IoT Alerts. 
 
 To use the rule, upload the `devicerules.json` file. You must reproduce the exact directory structure for the sample alert to work.
 
@@ -160,19 +160,19 @@ To use the rule, upload the `devicerules.json` file. You must reproduce the exac
 
 1. Browse to and select `devicerules.json`.
 
-1. Expand the Advanced section. In the **Upload to folder** field, enter **2016-05-30**, and then select **Upload**.
+1. Expand the **Advanced** section. In the **Upload to folder** field, enter `2016-05-30`, and then select **Upload**.
 
 1. Open the new folder `2016-05-30` and select **Upload**.
 
 1. Browse to and select `devicerules.json`.
 
-1. Expand the Advanced section. In the **Upload to folder** field, enter **22-40**, and then select **Upload**.
+1. Expand the **Advanced** section. In the **Upload to folder** field, enter `22-40`, and then select **Upload**.
 
 ## Start the Azure Stream Analytics jobs
 
 1. In the [Azure portal](https://portal.azure.com), go to **Resource Groups** and find the resource group you deployed IoT Hub to.
 
-1. Select each Stream Analytics job and from the **Overview** tab, select **Start**.
+1. Select each Stream Analytics job. From the **Overview** tab, select **Start**.
 
 You're ready to pass data between Azure IoT Hub and Dynamics 365 to use Connected Field Service.
 
