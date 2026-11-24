@@ -2,7 +2,7 @@
 title: Sales Research Agent overview 
 description: Learn how to use the Sales Research Agent in Dynamics 365 Sales to get insights about your customers, prospects, sales targets, and competitors.
 manager:
-ms.date: 11/17/2026
+ms.date: 11/23/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -31,8 +31,20 @@ Use the agent to:
 1. The Sales Research Agent connects to your Dynamics 365 Sales data by default. You can connect it to other data sources such as Microsoft Fabric Lakehouse, other Dataverse environments, or upload Excel, CSV, or PDF files to further enrich the basis of your explorations. Learn more in [Connect the agent to a different data source](sales-research-agent-connect-data.md) and [Connect Sales Research Agent to Microsoft Fabric Lakehouse](sales-research-agent-lakehouse-integration.md).
 
 1. When you ask the agent a question using one of the starter prompts or in natural language, the agent responds by generating a research blueprint containing data visualizations with a text-based overview. Ask follow-up questions, change visualizations, and add more data to your research. Learn more in [Analyze your sales performance using the Sales Research Agent](use-sales-research-agent.md).
-1. The agent uses the context you provide and the data it has access to in order to generate insights. Provide context by selecting a business function tailored to your specific use case, or by providing general context about your business. You can create custom business functions using Business Function Builder (preview) to define intelligence for specific sales scenarios. Learn more in [Provide context to enhance the Sales Research Agent](sales-research-agent-provide-context.md) and [Business functions overview](sales-research-agent-business-function-builder.md).
+1. The agent uses the context you provide and the data it has access to in order to generate insights. Provide context by selecting a business function tailored to your specific use case, or by providing general context about your business. You can create custom business functions using Business Function Builder (preview) to define intelligence for specific sales scenarios. Learn more in [Provide context to enhance the Sales Research Agent](sales-research-agent-provide-context.md) and [Business Function Builder overview](sales-research-agent-business-function-builder.md).
 1. Show work on the research blueprint explains how the agent arrived at its conclusions, including what data it used and the steps it took to analyze the data. Learn more in [Start your research journey](use-sales-research-agent.md#start-your-research-journey).
+
+## Customize the agent for your organization
+
+Use Business Function Builder (preview) to teach the agent how your organization works for a specific use case, such as account planning, territory planning, or pipeline review. Everyone who uses the business function gets the same answer structure, filled in with their own data. Learn more in [Business Function Builder overview](sales-research-agent-business-function-builder.md).
+
+| Step | What you do | Learn more |
+|------|-------------|------------|
+| Build | Describe your use case. The builder finds the relevant tables and columns and drafts the business function for you to review. | [Create business functions](sales-research-agent-business-function-builder-create.md) |
+| Evaluate | Test the business function against your data, review the answers, and refine it. | [Evaluate a business function](sales-research-agent-business-function-builder-evaluate.md) |
+| Add starter prompts | Save the questions users ask most as starter prompts they can run with one selection. | [Create and manage starter prompts](sales-research-agent-starter-prompts.md) |
+| Add default blueprints | Set a consistent answer layout for a starter prompt. The agent fills it in with each user's data every time it runs. | [Default blueprints overview](sales-research-agent-default-blueprints.md) |
+| Share | Share the business function with a team, a security role, or a business unit. | [Share business functions](sales-research-agent-business-function-builder-share.md) |
 
 
 ## How to set up and use the agent
@@ -52,7 +64,9 @@ Organizations need to evaluate potential specific legal and regulatory obligatio
 
 ## Related information
 
-[Get quick insights in Sales Research Agent (preview)](sales-research-agent-quick-insights.md)
+[Get quick insights in Sales Research Agent (preview)](sales-research-agent-quick-insights.md)  
+[Business Function Builder overview (preview)](sales-research-agent-business-function-builder.md)  
+[Default blueprints overview (preview)](sales-research-agent-default-blueprints.md)
 
 [Frequently asked questions about Sales Research Agent](faqs-sales-research-agent.md)  
 [Responsible AI FAQ about the Sales Research Agent](faqs-about-sales-research-agent.md)  
