@@ -54,9 +54,9 @@ See [Collaborate with Microsoft Teams](teams-collaboration.md#have-a-conversatio
 
 <a name="bkmk_setup_dynamics365_bot"></a>
 
-## Government GCC environment 
+## Government GCC, GCC-H, and DoD environments 
 
-Teams integration with Dynamics 365 isn't available for Government GCC environments. However, there's a workaround to view records using the Website app in Teams and then adding it as a tab.
+Teams integration with Dynamics 365 isn't available for Government GCC, GCC-H, and DoD environments. However, there's a workaround to view records using the Website app in Teams and then adding it as a tab.
 
 1. Open a Teams channel and select **Add a tab**.
 
