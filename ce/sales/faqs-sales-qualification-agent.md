@@ -73,3 +73,14 @@ Things to consider:
 - The agent does not pass any Personally Identifiable Information (PII) to Bing Search. It only passes the search query constructed using the account name, competitor name, and a detailed prompt of what information to fetch from the web.
 - If you configured custom research insights to fetch data from Bing Search, then the agent only passes the account name and the prompt you defined in the configuration.
 - If you configured public web as a data source for custom handover, then the agent passes the fields you defined in the instructions along with the prompt to Bing Search.
+
+## Can I customize the research capabilities of the Sales Qualification Agent?
+
+Yes. You can enrich the agent’s out-of-the-box research in Copilot Studio by adding third party connections and custom knowledge sources.
+By configuring these sources, the agent can deliver more relevant insights for every lead.
+Examples of customizable research areas:
+
+- Company Background: Add internal CRM tables or curated industry sources.
+- Strategic Priorities: Include annual reports or internal strategy docs.
+- Financials: Connect Dataverse finance tables or other secure sources.
+- Recent News: Limit public sites to those most relevant to your industry.
