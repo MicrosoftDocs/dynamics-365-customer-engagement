@@ -1,7 +1,7 @@
 ---
 title: Use Copilot in the Dynamics 365 Field Service web application
 description: Learn how to use Copilot to summarize records, catch up on recent changes, and prepare for onsite jobs.
-ms.date: 11/17/2026
+ms.date: 11/23/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: JonBaker007
@@ -16,8 +16,11 @@ ai-usage: ai-assisted
 
 Copilot is a next-generation AI assistant that helps you be more productive and efficient in your daily work in the Dynamics 365 Field Service web app. Copilot can summarize information about your work order and service accounts, help you catch up on recent changes to your records, prepare for onsite visits, and answer questions about related information. It has a chat interface that dispatchers and technicians can use to interact with Copilot in natural language. Copilot comes with the Dynamics 365 Field Service web app, no other license required.
 
-> [!TIP]
-> For a more powerful experience, use [Microsoft Copilot in Field Service](use-microsoft-365-copilot-model-driven-apps.md) instead of the side pane chat described in this article. Microsoft Copilot lets you work with specialized agents (and @mention several at once), jump directly to a record from a response citation, and get answers grounded beyond Dataverse, all within the same Copilot experience you use across Microsoft 365.
+> [!IMPORTANT]
+> Dynamics 365 Field Service side chat and Field Service App Skills (Copilot in Power Apps – Field Service) in the side pane retire on January 1, 2027.
+>
+> - For general-purpose chat in model-driven apps, use [Microsoft Copilot in Field Service](use-microsoft-365-copilot-model-driven-apps.md).
+> - For App Skills scenarios, use [Service Agent (preview)](service-agent-overview.md).
 
 ## Prerequisites
 

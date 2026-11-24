@@ -1,7 +1,7 @@
 ---
 title: Scheduling Operations Agent FAQ (preview)
 description: Get answers to common questions about how the Scheduling Operations Agent in Dynamics 365 Field Service helps dispatchers improve technicians' schedules.
-ms.date: 06/25/2026
+ms.date: 11/19/2026
 ms.update-cycle: 180-days
 ms.custom:
   - responsible-ai-faqs

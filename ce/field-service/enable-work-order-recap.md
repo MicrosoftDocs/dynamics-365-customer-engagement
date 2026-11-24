@@ -1,7 +1,7 @@
 ---
 title: Enable work order summary with Copilot in Field Service
-description: Use Copilot in Field Service to generate AI-powered work order summaries, quickly understand work order status, and take the next steps.
-ms.date: 11/17/2026
+description: "Copilot in Field Service work order summaries: Learn how to enable AI-powered recaps, configure data fields, and add the feature to web and mobile forms."
+ms.date: 11/20/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jasonccohen
@@ -12,7 +12,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date: 10/30/2023
-ms.collection: bap-ai-copilot 
+ms.collection: bap-ai-copilot
 ---
 
 # Enable work order summary with Copilot in Field Service
@@ -56,7 +56,7 @@ You need to configure the summary for the *bookable resource booking* and *work 
 
 ### How to configure the summary
 
-Administrators can follow the steps in this section to create a custom summary configuration from scratch. Alternatively, they can get started with [a configuration template based on the work order summary](/dynamics365/guidance/resources/fs-work-order-summary-configuration-template).
+Administrators can follow the steps in this section to create a custom summary configuration from scratch. Alternatively, they can get started with [a configuration template based on the work order summary](/dynamics365/guidance/resources/field-service-deploy-transport-summary-configuration).
 
 1. In Field Service, change to the **Settings** area and go to **Copilot settings** > **Summary Configuration**.
 1. From the list, choose the table for which you want to configure the summary. Currently, you can configure two out-of-the-box tables: work orders and bookable resource bookings.
@@ -98,7 +98,7 @@ By default, the work order summary is included on the out-of-the-box [work order
 1. Select your environment.
 1. Go to **Apps** and select your app module.
 1. Edit the *Bookable Resource Booking* or *Work Order* form.
-1. Add the component **Field Service Copilot - Recap** to a section on the form.
+1. Add the component **Field Service Copilot - Recap** to a section on the form. Learn more in [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form#add-components-to-a-form).
 1. Set **Table column** as **System Status (Choice)**.
 1. In the side pane, under **Display options**, enable **Hide label**.
 1. **Save and publish** the form and publish the app module.

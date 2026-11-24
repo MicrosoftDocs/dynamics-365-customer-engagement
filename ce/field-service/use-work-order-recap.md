@@ -1,7 +1,7 @@
 ---
 title: Summarize work orders with Copilot in Field Service
 description: Generate a work order summary with Copilot in Dynamics 365 Field Service to quickly understand work order status and next steps.
-ms.date: 11/03/2026
+ms.date: 11/20/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jasonccohen
@@ -17,7 +17,7 @@ ms.collection: bap-ai-copilot
 
 # Summarize work orders with Copilot
 
-<!--- Also update faqs-work-order-recap.md and responsible-ai-overview.md--->
+<!--- Also update faqs-work-order-recap.md--->
 
 The work order summary with Copilot in Field Service helps you understand the state of a work order and get next steps. This AI-generated summary includes status, priority, and related activities, making it easier to manage work orders efficiently.
 
