@@ -1,7 +1,7 @@
 ---
 title: AI-powered work order update (preview)
 description: AI-powered work order update helps technicians use Copilot in Dynamics 365 Field Service to update work orders using text or speech.
-ms.date: 11/17/2026
+ms.date: 11/23/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: JonBaker007
@@ -31,6 +31,17 @@ The work order update feature follows the [responsible AI guidelines](faqs-work-
 - You must have a paid Field Service environment. Copilot isn't available in trial environments.
 
 - You [enabled the new mobile experience](mobile/set-up-field-service-mobile.md#refreshed-mobile-user-experience).
+
+- Your environment must run one of the following Dynamics 365 Field Service versions. [Update your environment](update-field-service.md), if needed.
+
+  - 8.8.150.64 (this exact version)
+  - 8.8.151.223 or later
+
+- To use Copilot and generative AI features that require cross-region processing, you must [enable cross-region data movement](#enable-cross-region-data-movement) for your environment.
+
+### Enable cross-region data movement
+
+[!INCLUDE[move-data-across-regions-include](../includes/move-data-across-regions.md)]
 
 ## Enable Copilot to update work orders
 
