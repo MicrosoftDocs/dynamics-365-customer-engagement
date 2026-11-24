@@ -16,19 +16,17 @@ ms.custom:
 
 # Manage overflow of work items in queues
 
-[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
-
 When a new work item arrives, unified routing directs it to the representative who is best suited to work on it. But what happens if all the service representatives who could work on it are already at maximum capacity? And how do you handle work items that arrive when your call center is closed? Overflow handling in Customer Service helps you manage both surge conditions and after-hours calls.
 
 A queue's overflow handling options can trigger actions either before or after a work item is queued.
 
-[Before](#handle-overflow-before-a-work-item-is-queued):
+[Before](#prequeue-handle-overflow-before-a-work-item-is-queued):
 
 - The average wait time for an incoming call exceeds the time specified.
 - An incoming call or conversation exceeds the number of work items defined for the queue.
 - A work item comes in outside of business hours.
 
-[After](#handle-overflow-when-a-work-item-is-queued):
+[After](#in-queue-handle-overflow-when-a-work-item-is-queued):
 
 - Customers are waiting in the queue longer than the time defined for the queue.
 
@@ -40,7 +38,7 @@ If you don't set up overflow handling, then by default, the work item is added t
 - If you plan to transfer calls to an external number, external phone numbers with outbound calling are available.
 - If you plan to trigger overflow handling before work items are queued, you [configured route-to-queue rules](./configure-route-to-queue-rules.md) in the workstream.
 
-## Handle overflow before a work item is queued
+## Prequeue: Handle overflow before a work item is queued
 
 Unified routing checks for overflow conditions after evaluating the route-to-queue rules and before directing a work item to a queue.
 
@@ -149,57 +147,74 @@ Sometimes you might not want an overflow action to run for specific types of wor
 
 1. [Select overflow condition-action pairs](#configure-overflow-conditions-for-before-a-work-item-is-queued).
 
-## Handle overflow when a work item is queued
+## Edit automated messages for overflow actions
 
-When a work item is in a queue and the actual wait is long because representatives aren't available or have declined the notification, then the system triggers overflow and reroutes the work item to another queue that has representatives available.
+If you set **End call** or **End conversation** as an overflow action, you can edit the automated message that informs the customer that no representatives are available.
 
-1. In the site map of Copilot Service admin center, select **Customer support** > **Queues**.
+1. In the site map of Copilot Service admin center, select **Customer support** > **Customer settings**.
 
-1. Select **Advanced queues**, and then select the queue you want to manage overflow for.
+1. Select **Automated messages**.
 
-1. In **Overflow handling**, select **Edit**.
+1. Find the automated message for the channel where the message trigger is **End conversation due to overflow**.
 
-1. In **When work items are queued**, select **Add condition-action pair**.
+1. Edit the value of the **Localized text** column as needed.
 
-1. Select the **Waiting time in queue exceeds** condition.
+  :::image type="content" source="../media/voice-channel-overflow-end-call-message.png" alt-text="Screenshot of the list of automated messages.":::
 
-1. Enter a number and select a unit of time to indicate how long the predicted wait time can be before the queue overflows.
+[Learn more about customizing automated messages](configure-automated-message.md#customize-automated-messages-at-the-channel-level).
 
-1. [Select overflow condition-action pairs for queued work items](#overflow-condition-and-actions-when-work-items-are-queued).
+## In queue: Use natural language playbooks to configure overflow actions for work items
 
-1. Select **Save and close**.
+Configure overflow handling to trigger immediately when eligible service representatives aren't available for a work item or queues are out of operating hours, instead of waiting for time or volume-based conditions.
 
-### Overflow condition and actions when work items are queued
+Use this capability to avoid wait time in the queue. For example, offer options such as callback or voicemail when representatives can't accept the conversation.
 
-The conditions and actions available for the channels are as follows.
+In new configurations, you can configure in queue overflow through playbooks only.
 
-| Channel | Condition | Action |
-|---------|-----------|-------|
-|Record | Waiting time in queue exceeds| Transfer to a different queue |
-|Voice | Waiting time in queue exceeds | Direct callback <br> Transfer to a different queue <br> Transfer to an external number <br> Voicemail |
-|Messaging | Waiting time in queue exceeds | End conversation <br> Transfer to a different queue |
+Learn about how Copilot credits are applicable in [Understand Copilot credit usage](#understand-copilot-credit-usage).
 
-### When queues overflow with a large number of items
+### How it works
 
-If more than 20 work items overflow in a minute, the work items are addressed in batches. Those queues that have a lower wait time are addressed first. If all queues are configured with the same wait time, then overflow handling takes place in a round robin manner.
+When a work item is added to a queue, the system evaluates whether any eligible service representatives are available using the same assignment criteria that are used for routing work items. This check happens before the work item is offered to a service representative.
 
-### Things to keep in mind
+Configure immediate overflow by using a playbook in [conversation orchestration](/dynamics365/contact-center/administer/configure-conversation-orchestration).
 
-You can configure the following wait time for the channels:
+You can apply the playbook to:
 
-- **Voice**: 1 to 60 minutes
-- **Messaging**: 1 minute to 2 days
-- **Records**: 3 minutes to 2 days
+- All queues
+- Selected queues
+- All queues except specific queues
 
-The "wait time in queue" condition is evaluated in any of the following scenarios:
+You can configure the following actions.
 
-- Work item is routed to a queue via the route-to-queue rules.
-- Work item is transferred by a representative or supervisor to the queue.
-- Work item overflows from another queue.
+| Action | Description |
+|--------|-------------|
+| **Transfer to another queue** | Route the conversation to a different queue |
+| **End the conversation** | End the conversation with a message |
+| **Offer direct callback** | Offer the customer a callback option (Voice channel only) |
+| **Send to voicemail** | Route to voicemail for later follow-up (Voice channel only) |
+| **Transfer to external number** |Transfer the call to an external contact(Voice channel only)|
 
-For voice work items, if a representative or supervisor transfers the work item to the queue or it overflows from another queue, transfer to an external number or transfer to a different queue actions only are available.
+**Use with other overflow conditions**: Use immediate overflow based on service representative availability together with other overflow conditions that you define on the queue, such as the following:
 
-If a queued work item is moved to another queue because of long wait times, and the new queue also has overflow handling, the system checks for overflow conditions again. If the wait time is too high in the new queue as well, it triggers the overflow action.
+- Combine with wait-time conditions to handle cases where representatives are available but don't accept the work item.
+- Provide fallback actions after a specified wait duration.
+
+Configure overflow behavior based on a combination of the following conditions:
+
+**Queue state conditions**
+
+- Queue goes out of operating hours while conversations are waiting.
+- Queue is out of operating hours when conversations enter the queue.
+
+> [!NOTE]
+> Use the **queue is out of operating hours** condition in the existing overflow rules on the **Queue** page and playbooks. The system evaluates the queue overflow rules once only before the system adds the work item to the queue. The playbook condition is evaluated continuously, including after transfers.
+
+**Agent availability conditions**
+
+- **No representatives are available immediately**: Evaluates representative availability based on skills, capacity, and assignment rules.
+- **All representatives are signed out**: Evaluates for incoming conversations and triggers when representatives sign out, close their browser session, or there's a network outage.
+- **All representatives sign out while conversations are waiting**: Evaluates waiting conversations and is triggered when representatives sign out, close their browser session, or there's a network outage.
 
 ## Upgrade legacy in-queue overflow to a conversation orchestration playbook
 
@@ -213,9 +228,11 @@ The queue must have an existing legacy in-queue overflow configuration to use th
 
 ### Understand Copilot credit usage
 
-Under the planned credit exemption, upgrading a single queue or multiple queues doesn't use Copilot credits.
+An upgraded or newly created playbook doesn't use Copilot credits if it meets all of these conditions:
 
-Upgraded and newly created playbooks don't use Copilot credits when they have only one branch, that branch contains only the wait time in queue exceeds condition, and they don't use context variables.
+- It has one branch only.
+- The branch contains the waiting time in queue exceeds condition only.
+- The playbook doesn't use context variables.
 
 Playbooks use Copilot credits if they include other conditions, multiple branches, or any context variables. Before you publish these changes, review the publish confirmation. Publishing fails if the required credits aren't available.
 
@@ -259,70 +276,60 @@ To change in-queue overflow after an upgrade, edit the conversation orchestratio
 
 If an upgrade continues to fail or you need help after an upgrade, contact Microsoft support.
 
-## Edit automated messages for overflow actions
+## In queue: Handle overflow when a work item is queued
 
-If you set **End call** or **End conversation** as an overflow action, you can edit the automated message that informs the customer that no representatives are available.
+> [!IMPORTANT]
+> The steps in this section are applicable to edit a legacy overflow that's not upgraded to use conversation orchestration or to manage overflow for records.
 
-1. In the site map of Copilot Service admin center, select **Customer support** > **Customer settings**.
+When a work item is in a queue and the actual wait is long because representatives aren't available or decline the notification, the system triggers overflow and reroutes the work item to another queue that has representatives available.
 
-1. Select **Automated messages**.
+1. In the site map of Copilot Service admin center, select **Customer support** > **Queues**.
 
-1. Find the automated message for the channel where the message trigger is **End conversation due to overflow**.
+1. Select **Advanced queues**, and then select the queue you want to manage overflow for.
 
-1. Edit the value of the **Localized text** column as needed.
+1. In **Overflow handling**, select **Edit**.
 
-  :::image type="content" source="../media/voice-channel-overflow-end-call-message.png" alt-text="Screenshot of the list of automated messages.":::
+1. In **When work items are queued**, select **Add condition-action pair**.
 
-[Learn more about customizing automated messages](configure-automated-message.md#customize-automated-messages-at-the-channel-level).
+1. Select the **Waiting time in queue exceeds** condition.
 
-## Use natural language playbooks to configure overflow actions for work items in queue
+1. Set the predicted wait time and unit of measure. Overflow handling begins when this limit is reached.
 
-Configure overflow handling to trigger immediately when eligible service representatives aren't available for a work item or queues are out of operating hours, instead of waiting for time or volume-based conditions.
+1. [Select overflow condition-action pairs for queued work items](#overflow-condition-and-actions-when-work-items-are-queued).
 
-This capability is useful for scenarios where you want to avoid any wait time in the queue. For example, offering options such as callback or voicemail as soon as it’s determined that no representative can take the conversation.
+1. Select **Save and close**.
 
-### How it works
+### Overflow condition and actions when work items are queued
 
-When a work item is added to a queue, the system evaluates whether any eligible service representatives are available using the same assignment criteria that are used for routing work items. This check happens before the work item is offered to a service representative.
+The conditions and actions available for the channels are as follows.
 
-Configure immediate overflow by using a playbook in [conversation orchestration](/dynamics365/contact-center/administer/configure-conversation-orchestration).
+| Channel | Condition | Action |
+|---------|-----------|-------|
+|Record | Waiting time in queue exceeds| Transfer to a different queue |
+|Voice | Waiting time in queue exceeds | Direct callback <br> Transfer to a different queue <br> Transfer to an external number <br> Voicemail |
+|Messaging | Waiting time in queue exceeds | End conversation <br> Transfer to a different queue |
 
-You can apply the playbook to:
+### When queues overflow with a large number of items
 
-- All queues
-- Selected queues
-- All queues except specific queues
+If more than 20 work items overflow in a minute, the system processes them in batches. It processes queues with shorter wait times first. If all queues have the same configured wait time, it processes them in round-robin order.
 
-You can configure the following actions.
+### Things to keep in mind
 
-| Action | Description |
-|--------|-------------|
-| **Transfer to another queue** | Route the conversation to a different queue |
-| **End the conversation** | End the conversation with a message |
-| **Offer direct callback** | Offer the customer a callback option (Voice channel only) |
-| **Send to voicemail** | Route to voicemail for later follow-up (Voice channel only) |
-| **Transfer to external number** |Transfer the call to an external contact(Voice channel only)|
+You can configure the following wait time for the channels:
 
-**Use with other overflow conditions**: Immediate overflow based on service representatives availability can be used together with other overflow conditions defined on the queue, such as follows:
+- **Voice**: 1 to 60 minutes
+- **Messaging**: 1 minute to 2 days
+- **Records**: 3 minutes to 2 days
 
-- Combine with wait-time conditions to handle cases where representatives are available but don’t accept the work item.
-- Provide fallback actions after a specified wait duration.
+The system evaluates the "wait time in queue" condition in any of the following scenarios:
 
-Configure overflow behavior based on a combination of the following conditions:
+- The route-to-queue rules route a work item to a queue.
+- A representative or supervisor transfers a work item to the queue.
+- A work item overflows from another queue.
 
-**Queue state conditions**
+For voice work items, if a representative or supervisor transfers the work item to the queue or it overflows from another queue, transfer to an external number or transfer to a different queue actions only are available.
 
-- Queue goes out of operating hours while conversations are waiting.
-- Queue is out of operating hours when conversations enter the queue.
-
-> [!NOTE]
-> Use the **queue is out of operating hours** condition in the existing overflow rules on the **Queue** page and playbooks. The key difference is that the system evaluates the queue overflow rules once only before the system adds the work item to the queue, whereas the playbook condition is evaluated continuously, including after transfers.
-
-**Agent availability conditions**
-
-- **No representatives are available immediately**: Evaluates representative availability based on skills, capacity, and assignment rules.
-- **All representatives are signed out**: Evaluates for incoming conversations and triggers when representatives sign out, close their browser session, or there's a network outage.
-- **All representatives sign out while conversations are waiting**: Evaluates waiting conversations and is triggered when representatives sign out, close their browser session, or there's a network outage.
+If a queued work item is moved to another queue because of long wait times, and the new queue also has overflow handling, the system checks for overflow conditions again. If the wait time is too high in the new queue as well, the system triggers the overflow action.
 
 ## Use natural language playbooks to configure overflow actions for direct inward dialed calls
 

@@ -272,8 +272,6 @@ items:
                 href: data-enrichment-agent-faqs.md
           - name: Sales Research Agent
             items:
-              - name: Overview
-                href: sales-research-agent.md
               - name: Set up and configure Sales Research Agent
                 href: configure-sales-research-agent.md
           - name: Recommended Actions Agent
@@ -973,36 +971,38 @@ items:
             items:
               - name: Overview
                 href: sales-research-agent.md
-              - name: Provide context to the agent
-                href: sales-research-agent-provide-context.md
-              - name: Business functions
+              - name: Use the agent
                 items:
-                  - name: Business function overview
-                    href: sales-research-agent-business-function-builder.md
-                  - name: Create business functions (preview)
-                    href: sales-research-agent-business-function-builder-create.md
-                  - name: Evaluate a business function (preview)
-                    href: sales-research-agent-business-function-builder-evaluate.md
-                  - name: Create and manage starter prompts (preview)
-                    href: sales-research-agent-starter-prompts.md
-                  - name: Share business functions (preview)
-                    href: sales-research-agent-business-function-builder-share.md
-              - name: Default blueprints
-                items:
-                  - name: Default blueprints overview (preview)
-                    href: sales-research-agent-default-blueprints.md
-                  - name: Create a default blueprint for a starter prompt (preview)
-                    href: sales-research-agent-default-blueprints-author.md
+                  - name: Analyze your sales performance using the agent
+                    href: use-sales-research-agent.md
                   - name: Run a starter prompt with a default blueprint (preview)
                     href: sales-research-agent-default-blueprints-use.md
-              - name: Connect the agent to different data sources
-                href: sales-research-agent-connect-data.md
-              - name: Connect the agent to Microsoft Fabric Lakehouse (preview)
-                href: sales-research-agent-lakehouse-integration.md
-              - name: Analyze your sales performance using the agent
-                href: use-sales-research-agent.md
-              - name: Get quick insights (preview)
-                href: sales-research-agent-quick-insights.md
+                  - name: Get quick insights (preview)
+                    href: sales-research-agent-quick-insights.md
+              - name: Add context and data
+                items:
+                  - name: Provide context to the agent
+                    href: sales-research-agent-provide-context.md
+                  - name: Connect the agent to different data sources
+                    href: sales-research-agent-connect-data.md
+                  - name: Connect the agent to Microsoft Fabric Lakehouse (preview)
+                    href: sales-research-agent-lakehouse-integration.md
+              - name: Build business functions (preview)
+                items:
+                  - name: Business Function Builder overview
+                    href: sales-research-agent-business-function-builder.md
+                  - name: Create business functions
+                    href: sales-research-agent-business-function-builder-create.md
+                  - name: Evaluate a business function
+                    href: sales-research-agent-business-function-builder-evaluate.md
+                  - name: Create and manage starter prompts
+                    href: sales-research-agent-starter-prompts.md
+                  - name: Default blueprints overview
+                    href: sales-research-agent-default-blueprints.md
+                  - name: Create a default blueprint for a starter prompt
+                    href: sales-research-agent-default-blueprints-author.md
+                  - name: Share business functions
+                    href: sales-research-agent-business-function-builder-share.md
               - name: FAQs about Sales Research Agent
                 href: faqs-sales-research-agent.md
           - name: Recommended Actions Agent

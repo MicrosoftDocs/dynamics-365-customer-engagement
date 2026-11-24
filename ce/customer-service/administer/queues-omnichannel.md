@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 07/22/2026
+ms.date: 11/19/2026
 ms.custom: bap-template
 ms.collection:
 searchScope:
@@ -69,6 +69,10 @@ The queue types allow issues to be routed correctly and help avoid cross-queue a
 1. On the **Set operation hours** dialog that appears, select an operating hour record in the **Name** list.
 
 1. Select **Save and close**. The operating hour record that you selected is configured for the queue.
+
+## Apply a queue profile
+
+Queue profiles help you tailor service experiences for your customers. Learn how to configure the profiles and associate them with the queues in [Manage queue profiles](/dynamics365/contact-center/administer/manage-queue-profiles).
 
 ## Configure queue prioritization
 
@@ -145,7 +149,7 @@ When you enable this setting, supervisors and administrators can view queued con
 Key considerations are as follows:
 
 - If a conversation already has an owner, the existing owner isn't overwritten.
-- If a queue doesn't have an owner configured, or an unexpected error occurs, routing continues by using the default behavior. 
+- If a queue doesn't have an owner configured, or an unexpected error occurs, routing continues by using the default behavior.
 - This feature applies to user-owned and team-owned queues.
 
 ## Related information
