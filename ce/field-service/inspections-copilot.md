@@ -1,7 +1,7 @@
 ---
-title: Create inspections with Copilot
+title: Create inspections with Copilot (preview)
 description: Learn how to create inspections from existing documents with Copilot in Dynamics 365 Field Service.
-ms.date: 11/03/2026
+ms.date: 11/23/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: jasonccohen
@@ -31,7 +31,16 @@ Copilot converts uploaded documents into draft inspection templates that technic
 
 ## Prerequisites
 
-- Your environment must run Dynamics 365 Field Service version 8.8.142.320 or later. [Update your environment](update-field-service.md) if needed.
+- Your environment must run one of the following Dynamics 365 Field Service versions. [Update your environment](update-field-service.md), if needed.
+
+  - 8.8.150.64 (this exact version)
+  - 8.8.151.223 or later
+
+- To use Copilot and generative AI features that require cross-region processing, you must [enable cross-region data movement](#enable-cross-region-data-movement) for your environment.
+
+### Enable cross-region data movement
+
+[!INCLUDE[move-data-across-regions-include](../includes/move-data-across-regions.md)]
 
 ## Enable the inspection builder
 
