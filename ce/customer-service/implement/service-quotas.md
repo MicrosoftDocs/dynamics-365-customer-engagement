@@ -72,7 +72,7 @@ The following limits apply to out-of-box and custom assignment methods.
 
 <sup>5</sup> If eligible service representatives aren't available to serve the top-priority conversations, then the auto assignment process can appear to be paused. In such cases, we recommend that you use features like overflow management to manage high load or review service representative availability, scheduling, and skill configuration to expand the eligible service representative pool.
 
-<sup>6</sup> If you use [overflow handling for work items in queue](../administer/manage-overflow.md#handle-overflow-when-a-work-item-is-queued) and more than 20 items overflow in a minute, the work items are addressed in batches. Those queues that have a lower wait time are addressed first. If all queues are configured with the same wait time, then overflow handling takes place in a round robin manner.
+<sup>6</sup> If you use [overflow handling for work items in queue](../administer/manage-overflow.md#in-queue-handle-overflow-when-a-work-item-is-queued) and more than 20 items overflow in a minute, the work items are addressed in batches. Those queues that have a lower wait time are addressed first. If all queues are configured with the same wait time, then overflow handling takes place in a round robin manner.
 
 <sup>7</sup> These scale limits are derived from internal scale runs performed with minimal configurations on the Dataverse Hyperscale tier. Actual throughput depends on your configuration, customizations, and Dataverse tier.
 
