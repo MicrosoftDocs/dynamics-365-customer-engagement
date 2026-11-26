@@ -1,7 +1,7 @@
 ---
 title: Install the Field Service integration with Project Operations
 description: Learn how to install the components of the integration between Field Service and Project Operations.
-ms.date: 11/19/2026
+ms.date: 11/25/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -36,11 +36,29 @@ If you want to integrate with Dynamics 365 finance and operations, [enable the M
 
 ## Set up work order services for time transactions
 
-To use [work order services for time transactions](project-operations-integration-work-order-services.md), complete the following steps.
+In the integration with Project Operations, organizations can configure work order services to generate material transactions, time transactions, time estimates only, or no transactions. Learn more in [Work order services in Field Service and Project Operations](project-operations-integration-work-order-services.md).
 
-1. In finance and operations, install the following solution: **Field Service and Project Operations Integration Dual Write Entity Maps**, version 4.170.3523 or later. Follow the installation steps in [Install required solutions for finance and operations apps](/dynamics365/project-operations/environment/resource-dual-write-maps#2-install-required-solutions-for-finance-and-operations-apps).
+If your organization chooses to use work order services for either **Time based Estimates and Actuals** or **Time based Estimates Only** and you use a [Project Operations integrated with ERP deployment model](project-operations-integration-deployment-models.md), you need a special finance and operations Dual-write solution. The **Field Service and Project Operations Integration Dual Write Entity Maps** solution provides the mapping support required for work order services estimates to participate in Project Operations estimate and downstream transaction processing.
+
+To install the required solution, follow these steps:
+
+1. Sign in to the finance and operations app.
+
+1. Select **Data management**.
+
+1. Select **Dual-write**.
+
+1. Select **Apply Solution**.
+
+   :::image type="content" source="media/project-operations-integration-finance-dual-write.png" alt-text="Screenshot of the Dual-write solutions in finance and operations." lightbox="media/project-operations-integration-finance-dual-write.png" :::
+
+1. Select the **Field Service and Project Operations Integration Dual Write Entity Maps**, version 4.170.3523 or later, and then select **Apply**.
 
 1. After the solution is installed, the **Project Operations integration entity for hour estimates (msdyn_estimatelines)** becomes available. Verify the entity is listed.
+
+1. Verify the solution and Dual-write maps are running and healthy.
+
+If you don't install the required solution or activate the corresponding Dual-write map, work order services can still exist in Field Service but won't synchronize in Finance.
 
 ## Install the integration package
 
