@@ -1,13 +1,12 @@
 ---
 title: Universal Resource Scheduling for Dynamics 365 Field Service overview
 description: Learn all about Universal Resource Scheduling for Dynamics 365 Field Service
-ms.date: 12/22/2023
+ms.date: 08/05/2026
 ms.custom: bap-template
 ms.topic: overview
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
-
 
 # Universal Resource Scheduling for Dynamics 365 Field Service overview
 
@@ -15,11 +14,25 @@ This article describes how Dynamics 365 Field Service uses [Universal Resource S
 
 Field service organizations often book technicians to complete work orders. Efficiently scheduling resources to requirements helps reduce travel time and costs.
 
+## The scheduling process
+
+All scheduling in Field Service follows four key steps:
+
+1. **Set up administration and configuration** — Configure scheduling parameters, booking rules, and board settings. Learn more in [Admin, configuration, and customization](schedule-new-entity.md).
+
+1. **Set up your resources** — Define who or what can perform work, including their types, work hours, and locations. Learn more in [Resources](set-up-bookable-resources.md).
+
+1. **Set up your requirements** — Define what needs to be done, including time restrictions, locations, and constraints like skills and territories. Learn more in [Requirements](schedule-time-constraints.md) and [Constraints](set-up-characteristics.md).
+
+1. **Schedule** — Connect resources to requirements using the [schedule board](work-with-schedule-board.md), the [schedule assistant](schedule-assistant.md), or the [Scheduling Operations Agent](soa-overview.md) for AI-driven scheduling.
+
+For complex scheduling needs, explore [scheduling scenarios](schedule-multi-day-work.md) like multi-day work, crews, pools, and facilities.
+
 ## Universal Resource Scheduling and Field Service work orders
 
-When [installing Field Service](install-field-service.md), Universal Resource Scheduling gets added automatically.
+When [Field Service is installed](install-field-service.md), Universal Resource Scheduling is added automatically.
 
-Work orders and related entities are a part of Field Service and work seamlessly with resources, requirements and bookings of Universal Resource Scheduling.
+Work orders and related entities are a part of Field Service and work seamlessly with resources, requirements, and bookings of Universal Resource Scheduling.
 
 In other words, Field Service defines **what** needs to be done and **where**, while Universal Resource Scheduling defines **who** can perform the work and **when**.
 
@@ -27,9 +40,12 @@ In other words, Field Service defines **what** needs to be done and **where**, w
 
 For every work order, the system creates a related requirement. It outlines the specific details for resources that can perform the work order. Requirements are scheduled to resources and reference the work order.
 
-By default, the system created one requirement for each work order. However, a work order can have multiple requirements or a requirement group with multiple requirements. [Create incident types to configure templates for work order](configure-incident-types.md).
+By default, the system creates one requirement for each work order. However, a work order can have multiple requirements or a requirement group with multiple requirements. [Create incident types to configure templates for work order](configure-incident-types.md).
 
 Requirements inherit attributes from the work order, such as name, location, duration, and more. Updating work order attributes updates requirement attributes. Manual edits to requirements can be made before scheduling, too.
+
+> [!NOTE]
+> If you don't add a service task or incident type to a work order, the system sets the work order's estimated duration to the default booking duration. The related requirement doesn't inherit this value into its **Duration** field. When you book the requirement, the system updates only its **Fulfilled Duration** field.
 
 > [!CAUTION]
 > Manually created requirements for work order don't synchronize automatically.
@@ -38,7 +54,7 @@ Requirements inherit attributes from the work order, such as name, location, dur
 
 After a work order and related requirement are ready for scheduling, dispatchers book the requirement to the most appropriate resource.
 
-Booking a requirement related to a work order creates a bookable resource booking record that keeps track of which resource does the work, the status of the booking, travel time, and start/end times.
+Booking a requirement related to a work order creates a *Bookable Resource Booking* record. That record keeps track of which resource does the work, the status of the booking, travel time, and start/end times.
 
 ## Scheduling personas
 
@@ -72,39 +88,26 @@ The schedule assistant uses requirement details to recommend times and resources
 
 You can launch the schedule assistant from the **Book** button on the ribbon from work orders, requirements, and also directly on the schedule board. Similar to the schedule board, it's customizable and you can also use it on other forms as needed.
 
-### Automated scheduling with the Resource Scheduling Optimization add-in
+### Automated scheduling with the Resource Scheduling Optimization add-on
 
 Resource Scheduling Optimization is an add-in for Dynamics 365 Field Service, which requires a separate license. It includes capabilities to automatically schedule requirements and optimize resource utilization based on custom logic. The add-in plays well with manual or semi-automated scheduling scenarios.
 
-## Enable Universal Resource Scheduling for Field Service
-
-There are a few things you need to configure to enable Universal Resource Scheduling for Field Service.
-
-1. [Enable Resource scheduling](schedule-new-entity.md) for the *msdyn_workorder* entity.
-
-1. [Enable location and map settings](field-service-maps-address-locations.md).
-
-1. [Configure booking statuses](set-up-booking-statuses.md) to let field technicians communicate the progress of their work to stakeholders.
-
-1. [Enable auto-geocoding](turn-on-auto-geocoding.md) to account for start and end location of resources.
-
-  > [!TIP]
-  > Work orders or requirements without location are treated as location-agnostic and the system doesn't consider the location during scheduling.
-
 ## Measure scheduling effectiveness
-
-[Look at reports and relevant KPIs](reports.md) to measure how scheduling influences your defined business objectives over time.
 
 Take a staggered approach to implement scheduling processes in your organization.
 
-1. Start with [manual scheduling using the schedule board](work-with-schedule-board.md) to familiarize with the system logic and establish business processes.
+1. Start with [manual scheduling using the schedule board](work-with-schedule-board.md) to familiarize yourself with the system logic and establish business processes.
+
 1. Move to [semi-automated scheduling with the schedule assistant](schedule-assistant.md) to find resources that match the requirements faster.
-1. Consider using the [Resource Scheduling Optimization add-in](rso-overview.md) to enable more automation for your scheduling needs. Kick it off with [single resource optimization](single-resource-optimization.md) before rolling out [automation for your entire scheduling process.](rso-schedule-optimization.md)
+
+1. Consider using the [Resource Scheduling Optimization add-on](rso-overview.md) to enable more automation for your scheduling needs. Kick it off with [single resource optimization](single-resource-optimization.md) before rolling out [automation for your entire scheduling process.](rso-schedule-optimization.md)
   
 ## Next steps
 
-- [Use schedule board in Field Service](work-with-schedule-board.md)
+- [Set up bookable resources](set-up-bookable-resources.md)
+- [Use the schedule board in Field Service](work-with-schedule-board.md)
 - [Overview of the schedule assistant](schedule-assistant.md)
+- [Explore scheduling scenarios](schedule-multi-day-work.md)
 - [Get Resource Scheduling Optimization](rso-get-install.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

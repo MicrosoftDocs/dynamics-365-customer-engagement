@@ -1,31 +1,32 @@
 ---
-title: Overview of Dynamics 365 Field Service (contains video)
+title: Overview of Dynamics 365 Field Service
 description: Learn about Dynamics 365 Field Service and its features.
-ms.date: 05/03/2024
+ms.date: 07/21/2026
 ms.topic: overview
 ms.custom: bap-template
 author: jshotts
 ms.author: jasonshotts
+ms.reviewer: puneetsingh
 ---
 
-# Overview of Dynamics 365 Field Service
+# Overview of Dynamics 365 Field Service 
 
-The Dynamics 365 Field Service business application helps organizations deliver onsite service to customer locations. The application combines workflow automation, scheduling algorithms, and mobility to set up mobile workers for success when they're onsite with customers fixing issues.
+The Dynamics 365 Field Service business application helps organizations deliver onsite service to customer locations. The application combines workflow automation, scheduling algorithms, and mobility to set up mobile workers for success when they're onsite with customers fixing issues. By using Copilot in Field Service, users can access the latest AI models in various areas of the application. These AI-based features are rapidly evolving and help users be more productive.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1kIXq]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=b7cbb5e1-9ecc-45c1-9e90-10563f1a4d8f]
 
 The Field Service application enables you to:
 
-- Improve first-time fix rate
-- Complete more service calls per technician per week
-- Manage follow-up work and take advantage of upsell and cross sell opportunities
-- Reduce travel time, mileage, and vehicle wear and tear
-- Organize and track resolution of customer issues
-- Communicate an accurate arrival time to customers
-- Provide accurate account and equipment history to the field technician
-- Keep customers updated with the status of their service call and when it's resolved
-- Schedule onsite visits when it's convenient for the customer
-- Avoid equipment downtime through preventative maintenance
+- Improve first-time fix rate.
+- Complete more service calls per technician per week.
+- Manage follow-up work and take advantage of upsell and cross-sell opportunities.
+- Reduce travel time, mileage, and vehicle wear and tear.
+- Organize and track resolution of customer problems.
+- Communicate an accurate arrival time to customers.
+- Provide accurate account and equipment history to the field technician.
+- Keep customers updated with the status of their service call and the resolution.
+- Schedule onsite visits when it's convenient for the customer.
+- Avoid equipment downtime through preventative maintenance.
 
 Examples of organizations that use the application to manage their field service scenarios:
 
@@ -34,14 +35,26 @@ Examples of organizations that use the application to manage their field service
 - **Health care**  - An  in-home health care service provider uses the application to schedule and dispatch healthcare workers to administer medicine and other care to multiple patients.
 - **Equipment maintenance** -  A facilities manager uses the application to deliver maintenance and repair services for heating and cooling equipment.
 
+## Service delivery models
+
+Organizations use Field Service to support different service delivery models based on how they initiate, plan, and deliver work:
+
+- **Reactive (break-fix)**: A customer reports an issue, a customer service agent creates a work order, and a dispatcher schedules a technician to resolve the problem. This model handles unplanned repairs and on-demand service requests.
+- **Preventive (agreement-based)**: Scheduled maintenance happens on a recurring basis through [agreements](set-up-agreements-work-orders.md). The system automatically generates work orders based on predefined intervals, which reduces equipment downtime and avoids costly emergency repairs.
+- **Predictive (IoT-driven)**: Connected devices detect anomalies and automatically create alerts or work orders through [Connected Field Service](connected-field-service.md). Technicians address potential failures before they cause downtime, which shifts service from scheduled maintenance to condition-based maintenance.
+- **Project-based (multistage)**: Complex projects can span multiple days and require different specialists to complete work in sequence. For example, building a house might require framing, plumbing, electrical work, and drywall installation. With the [Field Service integration with Project Operations](project-operations-integration.md), project managers plan and track project tasks, while dispatchers schedule and manage the related onsite work orders.
+
+Many organizations use a combination of these models. For example, a facilities company might handle break-fix requests reactively, maintain HVAC systems on a preventive schedule through agreements, and monitor elevators with IoT sensors for predictive maintenance.
+
 ## Key capabilities
 
 Field service capabilities include:
 
 - **Work orders** to define the service work needed primarily (but not exclusively) at customer locations.
-- **Scheduling and dispatch tools** to manage resources and equipment needed for customer service, visualize onsite appointments, and optimize service schedules with efficient routing and resource skill matching.
+- **Scheduling and dispatch tools** to manage resources and equipment needed for customer service, visualize onsite appointments, and optimize service schedules with efficient routing and resource characteristic matching.
 - **Communication tools** to enhance collaboration between customer service agents, dispatchers, field technicians, customers, and other stakeholders.
 - **An easy-to-use mobile application** that guides technicians through schedule changes and service work.
+- **Copilot in Field Service** features are integrated in the application. Copilot generates summaries of work orders in a customizable format and answers natural language questions about your data in a side pane of the web app.
 - **Asset management** capabilities to keep track of customer equipment and service history.
 - **Preventive maintenance** by automatically generating recurring maintenance appointments for equipment.
 - **Inventory, purchasing, and returns capabilities** to manage truck stock, purchase order requests and fulfillment, and product returns.
@@ -55,38 +68,36 @@ The Field Service application provides tools for these key roles on your service
 
 - **Customer service agents** triage incoming requests and determine when to create work orders for onsite visits. Agents primarily use the application through a web browser.
 - **Service managers** track performance metrics and oversee service delivery, finding ways to increase efficiency and standardize processes. Service managers primarily use the application through a web browser.
-- **Dispatchers** review and schedule work orders, and assign them to resources on the schedule board through resource availability searches, and through the fully automated Resource Scheduling Optimization Add-in for Dynamics 365 Field Service. Dispatchers primarily use the application through a web browser.
+- **Dispatchers** review and schedule work orders, and assign them to resources on the schedule board through resource availability searches, and through the fully automated Resource Scheduling Optimization Add-on for Dynamics 365 Field Service. Dispatchers primarily use the application through a web browser.
 - **Field technicians** manage their assigned work orders using the mobile app on a phone or tablet, and perform maintenance and repairs onsite at customer locations.
 - **Inventory managers** ensure field technicians have what they need to complete their service calls. Inventory managers also handle product returns and purchase new inventory. Inventory managers primarily use the application through a web browser.
 
 ## Using the Field Service application
 
+Field Service follows a service-to-cash flow from the initial request through final billing. For the full sequence of stages, who performs each one, and how it maps to work order statuses, see [Work order lifecycle and system statuses](work-order-status-booking-status.md).
+
 Work orders describe the work that a technician needs to perform at a customer location. In the Field Service application, a typical work order lifecycle looks like this:
 
-1. Work orders generate from service cases, sales orders, emails, phone calls, service agreements, web portals, or Internet of Things (IoT) data and then display in Field Service. Work orders are typically grouped by geographical territory and lines of business. Work order details consist of a checklist of tasks, parts to use, labor to bill to the customer, and skills required.
+1. Work orders generate from service cases, sales orders, emails, phone calls, service agreements, web portals, or Internet of Things (IoT) data and then display in Field Service. Work orders are typically grouped by geographical territory and lines of business. Work order details consist of a checklist of tasks, parts to use, labor to bill to the customer, and characteristics required. Copilot in Field Service can generate a customizable summary the detailed work order.
 
-   Most work orders also include a location based on the related customer account and/or equipment that needs attention; this location routes the field technician from job to job. Finally, incoming work orders that are marked as ready for assignment are passed along to a dispatcher for scheduling.
+   Most work orders also include a location based on the related customer account and equipment that needs attention. This location routes the field technician from job to job. Finally, a dispatcher receives incoming work orders that are marked as ready for assignment for scheduling.
 
-   > ![Screenshot of Active Work Orders.](media/work-order-process-1.png)
+   :::image type="content" source="media/work-order-process-1.png" alt-text="Screenshot of Work Orders in Field Service." lightbox="media/work-order-process-1.png":::
 
-2. An interactive schedule board helps dispatchers assign work orders to the best resources based on location, availability, skill set, priority, and more. This is done via a manual drag-and-drop method, a semi-automated scheduling assistant, or fully automated with Resource Scheduling Optimization.
+1. An interactive schedule board helps dispatchers assign work orders to the best resources based on location, availability, skill set, priority, and more. Use a manual drag-and-drop method, a semi-automated scheduling assistant, or fully automated with Resource Scheduling Optimization.
 
-    The schedule board displays each resource--whether an employee, contractor, or equipment--and their scheduled work orders. Resources and their assigned jobs are also displayed on a map along with routes and traffic patterns in real time. The schedule board is extensible and can be used to schedule anything within Dynamics 365, including work orders, sales orders, projects, and custom entities. Additionally, Microsoft 365 integration allows for emailing and skype calling to available resources.
+    The schedule board displays each resource - whether an employee, contractor, or equipment - and their scheduled work orders. Resources and their assigned jobs are also displayed on a map along with routes and traffic patterns in real time. The schedule board is extensible and can be used to schedule anything within Dynamics 365, including work orders, sales orders, projects, and custom entities. Additionally, Microsoft 365 integration allows for emailing and skype calling to available resources.
 
-   > ![Screenshot of schedule board.](media/work-order-process-2.png)
+   :::image type="content" source="media/work-order-process-2.png" alt-text="Screenshot of the Schedule Board in Field Service." lightbox="media/work-order-process-2.png":::
 
-3. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned work orders. For each work order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history, and can use their device to take pictures and videos or record a digital customer signature. Field technicians can also automatically download important information to their devices for offline work when internet is not available.
+1. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned work orders. Copilot supports technicians with quick summaries of each work order and supports them by updating work orders to save time on the job. For each work order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history. They can use their device to take pictures and videos or record a digital customer signature. Field technicians can also automatically download important information to their devices for offline work when internet isn't available.
 
-    After performing the work, the technician can mark the work order as complete or as requiring a follow-up; the dispatcher can then see this change on the schedule board.
+    After the technician completes the work, they mark the work order as complete or as requiring a follow-up. The dispatcher can then see this change on the schedule board.
 
-4. As technicians submit completed work orders, equipment service history and inventory levels update automatically. This allows service managers to manage and track inventory needed, as well as track movement of parts from order to inventory to onsite installation.
+1. As technicians submit completed work orders, equipment service history and inventory levels update automatically. Service managers can manage and track inventory needed, and track movement of parts from order to inventory to onsite installation.
 
-    For example, if an equipment part is installed at a customer's location during an installation or repair, the system will document a reduction in inventory from the related warehouse or truck and document the part as a new customer asset along with installation/repair details. Closing a work order will then generate an invoice for any used parts or labor.
+    For example, if an equipment part is installed at a customer's location during an installation or repair, the system documents a reduction in inventory from the related warehouse or truck and document the part as a new customer asset along with installation and repair details. Closing a work order generates an invoice for any used parts or labor.
 
-  > ![Screenshot of completed work order.](media/work-order-process-4.png)
-
-## Additional resources
-
-Explore analyst research and other [resources to learn more about Dynamics 365 Field Service](https://dynamics.microsoft.com/field-service/resources/).
+   :::image type="content" source="media/work-order-process-4.png" alt-text="Screenshot of a completed work order in Field Service." lightbox="media/work-order-process-4.png":::
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

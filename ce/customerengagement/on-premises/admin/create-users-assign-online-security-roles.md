@@ -2,19 +2,18 @@
 title: "Add users and assign roles in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to create and add users to your organization and assign them a security role. This page also explains how to update a user record or disable a user."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 5f21f288-f941-4ca0-a15f-a91cd9feee4d
 caps.latest.revision: 4
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 

@@ -1,0 +1,24 @@
+---
+title: Drag and drop to schedule on the schedule board
+description: Learn how to use drag and drop on the schedule board in Dynamics 365 Field Service to move, reassign, and schedule bookings.
+ms.date: 09/16/2026
+ms.custom: bap-template
+ms.topic: how-to
+author: mkelleher-msft
+ms.author: mkelleher
+ms.reviewer: puneetsingh
+---
+
+# Drag and drop to schedule on the schedule board
+
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
+[!INCLUDE[schedule-board-drag-drop](../shared/urs/schedule-board-drag-drop.md)]
+
+## Next steps
+
+- [Filter resources and requirements on the schedule board](schedule-board-filtering.md)
+- [Manually schedule from the schedule board](schedule-board-manual-scheduling.md)
+- [Review resource utilization](schedule-board-utilization.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

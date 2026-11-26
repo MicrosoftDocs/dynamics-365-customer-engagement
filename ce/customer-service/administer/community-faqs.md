@@ -1,10 +1,11 @@
 ---
 title: FAQs about Community | MicrosoftDocs
 description: View answers to frequently asked questions about Community in Dynamics 365 Customer Service.
-ms.date: 06/22/2023
-ms.topic: article
+ms.date: 02/27/2026
+ms.topic: concept-article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -21,15 +22,15 @@ To install Community, make sure that you have at least one Dynamics Customer Ser
 ### Is Community available in all clouds?
 No. Community is currently only available in the public cloud.
 
-### How long does it take for community manager and moderator updates in Dynamics Customer Service Community to reflect in the portal?
-It takes up to 15 minutes for these updates to reflect in the portal.
+### How long does it take for community manager and moderator updates in Dynamics Customer Service Community to reflect in the website?
+It takes up to 15 minutes for these updates to reflect in the Community website.
 
 ### How do I contact Dynamics Customer Service for support on Community?
 To post questions for our team, use the [Dynamics 365 Customer Service Community forum](https://go.microsoft.com/fwlink/?linkid=2240513).
 
 To share feedback and ideas for how we can improve Customer Service, go to the [Dynamics 365 Customer Service ideas forum](https://go.microsoft.com/fwlink/?linkid=2240512) and select the relevant category.
 
-### See also
+### Related information
 
 [Community overview](community-overview.md)<br>
 [Get started with Community](community-get-started.md)<br>

@@ -2,7 +2,6 @@
 title: "Model your business data in Dynamics 365 Customer Engagement (on-premises) (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn about customizing data model that uses entities to define the data tracked in the system."
 ms.custom: 
-ms.date: 12/15/2017
 ms.reviewer: pehecke
 
 ms.suite: 

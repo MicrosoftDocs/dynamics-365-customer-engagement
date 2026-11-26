@@ -1,7 +1,7 @@
 ---
 title: Developer Guide
 description: This guide contains entity reference and action reference information that developers need to know while developing for Dynamics 365 Sales.
-ms.date: 05/01/2024
+ms.date: 03/12/2026
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
@@ -36,12 +36,12 @@ As a developer or system customizer, you can [use the Dataverse WebAPI](/powerap
 <td>
 <h2>Table reference</h2>
 
-  <li><a href="../developer/entities/invoice.md" data-raw-source="[Invoice](../developer/entities/invoice.md)">Invoice</a></li>
-  <li><a href="../developer/entities/lead.md" data-raw-source="[Lead](../developer/entities/lead.md)">Lead</a></li>
-  <li><a href="../developer/entities/opportunity.md" data-raw-source="[Opportunity](../developer/entities/opportunity.md)">Opportunity</a></li>
-  <li><a href="../developer/entities/product.md" data-raw-source="[Product](../developer/entities/product.md)">Product</a></li>
-  <li><a href="../developer/entities/quote.md" data-raw-source="[Quote](../developer/entities/quote.md)">Quote</a></li>
-  <li><a href="../developer/entities/salesorder.md" data-raw-source="[SalesOrder](../developer/entities/salesorder.md)">SalesOrder</a></li>
+  <li><a href="../../developer/reference/entities/invoice.md" data-raw-source="[Invoice](../../developer/reference/entities/invoice.md)">Invoice</a></li>
+  <li><a href="../../developer/reference/entities/lead.md" data-raw-source="[Lead](../../developer/reference/entities/lead.md)">Lead</a></li>
+  <li><a href="../../developer/reference/entities/opportunity.md" data-raw-source="[Opportunity](../../developer/reference/entities/opportunity.md)">Opportunity</a></li>
+  <li><a href="../../developer/reference/entities/product.md" data-raw-source="[Product](../../developer/reference/entities/product.md)">Product</a></li>
+  <li><a href="../../developer/reference/entities/quote.md" data-raw-source="[Quote](../../developer/reference/entities/quote.md)">Quote</a></li>
+  <li><a href="../../developer/reference/entities/salesorder.md" data-raw-source="[SalesOrder](../../developer/reference/entities/salesorder.md)">SalesOrder</a></li>
 
 </td>
 </tr>
@@ -52,19 +52,20 @@ As a developer or system customizer, you can [use the Dataverse WebAPI](/powerap
   <li><a href="reference/recalculateprice-action.md" data-raw-source="[RecalculatePrice Action](reference/recalculateprice-action.md)">RecalculatePrice Action</a></li>
 </td>
 <td>
-<h2>Sales Premium</h2>
-<li><a href="../developer/entities/msdyn-connectsequence-action.md" data-raw-source="[msdyn_ConnectSequence Action](../developer-sp/msdyn-connectsequence-action.md)">msdyn_ConnectSequence Action</a></li>
-<li><a href="../entity-reference.md" data-raw-source="[Entity reference](../entity-reference.md)">Entity reference</a></li>
+<h2>Sales Insights</h2>
+<li><a href="reference/custom-actions/msdyn-ConnectSequence-action.md" data-raw-source="[msdyn_ConnectSequence Action](reference/custom-actions/msdyn-ConnectSequence-action.md)">msdyn_ConnectSequence Action</a></li>
+<li><a href="about-entity-reference.md" data-raw-source="[Entity reference](about-entity-reference.md)">Entity reference</a></li>
 
 </td>
 </tr>
 </table>
+
 
 ### Related resources
 
 [Overview of Sales and Sales Hub](../overview.md)<br />
 [Help resources for seller in Dynamics 365 Sales](../user-guide.yml)  
 [Administrator and Sales Manager Guide](../admin-guide.yml)<br />
-
+[Work with formula columns](/power-apps/maker/data-platform/formula-columns)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

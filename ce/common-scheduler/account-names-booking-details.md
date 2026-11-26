@@ -1,15 +1,17 @@
 ---
 title: Show account names on booking details in Universal Resource Scheduling
-description: Learn how to edit and customize the booking details on schedule board with account names.
-ms.date: 01/26/2024
-ms.reviewer: mhart 
+description: Learn how to display account names on your booking template to streamline scheduling in Universal Resource Scheduling.
+ms.date: 07/13/2026
 ms.subservice: common-scheduler
 ms.topic: how-to
 author: mkelleher-msft
 ms.author: mkelleher
+ms.reviewer: v-wendysmith
 ---
 
 # Show account names on booking details in Universal Resource Scheduling
+
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
 
 [!INCLUDE[interday booking details](../shared/urs/interday-booking-details.md)]
 

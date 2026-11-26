@@ -3,7 +3,6 @@ title: "Could not obtain exclusive lock on database &#39;databasename&#39; | Mic
 description: Environment diagnostics warning that an exlusive lock to the database can't be established.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

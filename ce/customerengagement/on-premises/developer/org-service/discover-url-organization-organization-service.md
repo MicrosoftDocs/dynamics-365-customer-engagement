@@ -2,12 +2,11 @@
 title: "Discover the URL for your organization using the Discovery Service (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "For a multi-tenant environment like Dynamics 365 Customer Engagement, you can use Discovery Service to determine the organizations that a user is member of"
 ms.custom: on-premise
-ms.date: 11/14/2017
 ms.reviewer: pehecke
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 29b0777c-f28d-4301-ae5c-a25064bfbcc9

@@ -2,7 +2,6 @@
 title: "Enable document management for entities (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Document management can be enabled for customizable entities in Dynamics 365 Customer Engagement. To enable document management for an entity, set the EntityMetadata.IsDocumentManagementEnabled attribute value to true"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

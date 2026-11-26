@@ -1,23 +1,16 @@
 ---
 title: Add additional filters to a forecast
 description: Add filters to refine the opportunities and hierarchies that participate in calculating the forecast values.
-ms.date: 09/01/2023
-ms.topic: article
+ms.date: 05/29/2026
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
-# Apply additional filters
 
-Add filters to refine the opportunities and hierarchies that participate in calculating the forecast values.
+# Add additional filters to a forecast
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
+Apply filters to your forecasts to focus on the right data and improve accuracy. For example, you can filter out opportunities from specific accounts or focus on a particular sales territory to get more targeted insights for your sales planning.
 
 ## Filter hierarchy records in the forecast
 
@@ -25,7 +18,7 @@ You can filter your forecast to include only those hierarchies that meet the spe
 
 The following screenshot illustrates a sample forecast hierarchy: 
 
-:::image type="content" source="media/forecast-hierarchy.PNG" alt-text="A sample forecast hierarchy with a manager and her team.":::
+:::image type="content" source="media/forecast-hierarchy.PNG" alt-text="A sample forecast hierarchy with a manager and the team.":::
 
 **To filter hierarchy records in a forecast**
 
@@ -34,14 +27,14 @@ The following screenshot illustrates a sample forecast hierarchy:
     > [!NOTE]
     > To apply the filter on an existing forecast, clone the forecast configuration, apply the filter, and activate it. You can then deactivate the old forecast configuration.
     
-2.  Select the conditions to filter the hierarchy that you want to include in the forecast. For our example, let's select **Territory** is equal to APAC. This will include forecast records of sellers from APAC.
+2.  Select the conditions to filter the hierarchy that you want to include in the forecast. For our example, let's select **Territory** is equal to APAC. This includes forecast records of sellers from APAC.
 
      :::image type="content" source="media/hierarchy-filters.png" alt-text="Screenshot of the filter hierarchy page.":::
 
     > [!NOTE]
-    > If a parent record is filtered out of the hierarchy, the rollup value of the child records will show up under the parent record. However, the opportunities that were directly owned by the parent record won't be displayed in the forecast. Let's suppose that Dustin Ochs is a Sales Manager in Kenny's org who manages two sellers. Henry is in Europe, but manages sellers in APAC. When Kenny looks at the forecast for APAC, the opportunities of Dustin's reports will roll up under Henry's name, but the forecast won't show the opportunities owned by Henry. 
+    > If a parent record is filtered out of the hierarchy, the rollup value of the child records will show up under the parent record. However, the opportunities that were directly owned by the parent record won't be displayed in the forecast. Let's suppose that Dustin Ochs is a Sales Manager in Kenny's org who manages two salespeople. Dustin is in Europe, but his salespeople are in APAC. When Kenny looks at the forecast for APAC, the opportunities of Dustin's reports roll up under Dustin's name, but the forecast won't show the opportunities owned by Dustin. 
 
-3. Select a value that will be at the top of this forecast hierarchy in the **Top of Hierarchy** drop-down. 
+3. Select a value that is at the top of this forecast hierarchy in the **Top of Hierarchy** drop-down. 
     You'll see a preview of the hierarchy after applying the filter conditions.  
 
     :::image type="content" source="media/hierarchy-filter-preview.svg" alt-text="Screenshot of the forecast hierarchy preview.":::
@@ -69,18 +62,17 @@ For example, you know that opportunities related to **ADatum Corporation** and t
 
 5.	In the selection boxes, select the attribute as **Est. Revenue**, the condition as **Is greater than**, and revenue to be considered as **10000**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Enter the second condition.](media/forecast-add-filter-configure-condition-2.png "Enter the second condition")
+    :::image type="content" source="media/forecast-add-filter-configure-condition-2.png" alt-text="Screenshot of entering values to adjust in the forecast.":::
 5. Select **Apply** to save the filter conditions.
    
-When the forecast is activated, the query will be executed to filter the forecast for the added conditions.
+When the forecast is activated, the query is executed to filter the forecast for the added conditions.
 
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 
-### See also
+## Related information
 
 [Configure forecasts in your organization](configure-forecast.md)<br>
 [View a forecast](view-forecasts.md)

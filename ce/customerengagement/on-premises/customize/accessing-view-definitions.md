@@ -2,12 +2,11 @@
 title: "Access view definitions in Dynamics 365 Customer Engagement (on-premises)"
 description: "The page provides the steps for accessing view definitions in several different ways inside Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 08/08/2018
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 author: Mattp123

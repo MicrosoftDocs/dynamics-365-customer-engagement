@@ -2,7 +2,6 @@
 title: "UserQuery (saved view) entity (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn about saved queries which are business entities that define the parameters and criteria of a database search."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

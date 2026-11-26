@@ -1,12 +1,12 @@
 ---
 title: Prioritize leads through predictive scores
 description: Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates.
-ms.date: 05/10/2023
+ms.date: 08/20/2025
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.custom: bap-template
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: dynamics-365-sales
 ---
 
@@ -14,19 +14,11 @@ ms.service: dynamics-365-sales
 
 Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates.
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
-
 ## What is predictive lead scoring
 
 In a highly competitive market, you need to be sure you're spending your time on high-quality leads to reach your sales targets. The predictive lead scoring feature in Dynamics 365 Sales uses a model to generate scores for the leads in your pipeline. The out-of-the-box model chooses the top factors that influence the score. An administrator can view and modify the top influencing factors by customizing the model. [Learn how to configure predictive lead scoring](configure-predictive-lead-scoring.md).
 
-The model assigns a score between 0 and 100 to leads based on the signals from leads and related entities, such as contact and account. Using these scores, you can identify and prioritize leads that have a higher chances of converting to opportunities.
+The model assigns a score between 0 and 100 to leads based on the signals from leads and related entities, such as contact and account. Using these scores, you can identify and prioritize leads that have higher chances of converting to opportunities.
 
 For example, say you have two leads - Lead A and Lead B - in your pipeline. The lead scoring model applies a score of 80 for Lead A and 50 for Lead B. Comparing the scores, you can predict that Lead A has a higher chance of converting to an opportunity. Also, you can analyze why Lead B scored low by looking at the top reasons influencing its score and decide whether to try to improve it.
  
@@ -34,13 +26,13 @@ To use predictive lead scoring in your organization, ask your system administrat
 
 ## Real-time scoring
 
-With real-time scoring, new leads are scored in near real-time. The score will be calculated within a few minutes of saving or importing a new lead; refresh the lead page to view the score.  
+With real-time scoring, new leads are scored in near real-time. The score is calculated within a few minutes of saving or importing a new lead; refresh the lead page to view the score.  
 
 The following considerations apply for real-time scoring:
 
-- Real-time scoring is available only for leads that are scored by models created or edited, and published after the real-time scoring was feature rolled out. So, if a new lead is not scored within 15 minutes of saving or importing, edit and retrain the model that's scoring the lead.
+- Real-time scoring is available only for leads that are scored by models created or edited, and published after the real-time scoring was feature rolled out. So, if a new lead isn't scored within 15 minutes of saving or importing, edit and retrain the model that's scoring the lead.
 
-- Business process flows are not taken into consideration for real-time scoring. Lets say you have different models for each business process flow, with the same filter condition. When a new lead that matches the filter condition is created, real-time scoring will use one of models to score the lead, ignoring the business process flow.
+- Business process flows aren't taken into consideration for real-time scoring. Lets say you have different models for each business process flow, with the same filter condition. When a new lead that matches the filter condition is created, real-time scoring will use one of models to score the lead, ignoring the business process flow.
 - Real-time scoring works only for new leads. The scores for updated leads are refreshed only after every 24 hours.  
 
 ## Understand predictive lead scoring in views
@@ -48,6 +40,8 @@ The following considerations apply for real-time scoring:
 The **My Open Leads Scored** system view is available when predictive lead scoring is enabled in your organization. This view provides a list of leads with different parameters including lead score, lead grade, and lead score trend. 
 
 :::image type="content" source="media/my-open-lead-score-view.png" alt-text="Screenshot of the My Open Leads Scored view.":::
+
+Don't see the scores for your leads? Check out this [FAQ](faq-lead.md#leads-not-scored).
 
 Legend:
 
@@ -85,7 +79,7 @@ For more information about the lead score, select the **About** tab. The **About
 
 :::image type="content" source="media/predictive-lead-scoring-widget-top-reasons-about-tab.png" alt-text="Screenshot of predictive lead score About tab.":::
 
-### See also
+## Related information
 
 [Configure predictive lead scoring](configure-predictive-lead-scoring.md)  
 

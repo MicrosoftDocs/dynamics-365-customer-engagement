@@ -1,9 +1,10 @@
 ---
 title: "canCreateTab method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the canCreateTab API of app profile manager in Customer Service workspace."
+description: "Learn about the canCreateTab API of app profile manager in Copilot Service workspace."
 author: gandhamm
 ms.author: mgandham
-ms.date: 10/01/2021
+ms.reviewer: mgandham
+ms.date: 06/17/2025
 ms.topic: reference
 ---
 
@@ -11,8 +12,8 @@ ms.topic: reference
 
 Allows you to check whether a new tab can be created in a session.
 
-> [!Note]
-> Customer Service workspace lets you open up to 10 tabs simultaneously, in a session. If you open more than 10 tabs, then the following message is displayed: "Maximum tabs reached. Close a tab in this session before opening another."
+> [!NOTE]
+> Copilot Service workspace lets you open up to 10 tabs simultaneously, in a session. If you open more than 10 tabs, then the following message is displayed: "Maximum tabs reached. Close a tab in this session before opening another."
 
 ## Syntax
 

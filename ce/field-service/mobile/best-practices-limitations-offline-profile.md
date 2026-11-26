@@ -1,0 +1,100 @@
+---
+title: Best practices and limitations for the offline profile
+description: Learn how to use the mobile offline profile to make the best use of the Field Service mobile app when your field technicians don't have Internet access.
+ms.topic: overview
+ms.subservice: field-service-mobile
+ms.date: 09/14/2026
+author: JonBaker007
+ms.author: jobaker
+ai-usage: ai-assisted
+---
+
+# Best practices and limitations for the offline profile
+
+Field technicians often need to work in areas without Internet access, like remote places or underground. When an admin [sets up the Field Service mobile offline profile](set-up-offline-profile.md), technicians can continue using the mobile app when there's no Internet connection. Important data syncs to the device for viewing in the field. Changes on the device are stored locally, and then uploaded automatically when an Internet connection becomes available.
+
+Read the blog post about [best practices for offline mode](https://cloudblogs.microsoft.com/dynamics365/administrator/2023/11/06/best-practices-for-offline-mode-in-the-field-service-mobile-app-part-1/).
+
+Even if you think your field technicians always have a reliable Internet connection, set up offline capabilities to create a fast and consistent experience.
+
+The Field Service mobile app follows the same architecture and security as a Power Apps mobile app. [Learn more about Power Platform security](/power-platform/admin/security/overview#the-application-and-data-on-the-device).
+
+## Best practices for using the offline profile
+
+Before you set up the offline profile, consider these important guidelines:
+
+- **Use the default offline profile**. Although you can create your own mobile offline profile, we highly recommend using the default offline profile provided by Field Service. The **Field Service Mobile - Offline Profile** provides an ideal starting point for offline scenarios. It has common Field Service tables preconfigured for offline use, and recommended filters to limit the data that gets downloaded. Build on it by including your custom record types. Limit the amount of data you include in the offline profile for the best sync performance.
+
+  The default offline profile receives updates to unchanged table sync filters. You can copy the default profile and make changes to the copy, but the copy is unmanaged and doesn't receive any updates.
+
+  If you make changes to the default offline profile and want to see the latest offline profile later, create a new trial of Field Service.
+
+- **Don't remove default record types from the offline profile**. The default record types ensure that the right data is available to field technicians. Focus on adding the record types you need rather than removing ones you don't.
+
+- **Don't use "All records" as an offline filter**. The offline profile is the gate that controls the amount of data to download to users' devices. Technically, there's no limit to the number of records the offline profile supports. Practically, however, the less data that gets downloaded the faster and more efficient syncing is. Don't use "All records" as a table filter, and avoid wide date ranges. For example, rather than downloading all customer asset records, download only the records that are related to scheduled work orders. It reduces the number of customer asset records that need to be synced without affecting the work at hand.
+
+- **Use offline JavaScript**. Organizations often need to run workflows on mobile devices to execute business processes. However, Power Automate flows only run when the device has a network connection or on the next sync. If you need to run workflows on the device on-demand and without Internet access, use offline JavaScript instead. [Learn more about workflows and scripts for the Field Service mobile app](/dynamics365/guidance/resources/fs-mobile-automate-business-processes).
+
+- **Limit concurrent offline data calls**. Keep custom calls to the offline database to 2–4 concurrent requests. The app already makes many offline calls on its own, and adding more degrades performance. 
+
+> [!IMPORTANT]
+> Tables that use the **Related rows only** filter inherit the parent table's filter. For example, if a work order filter restricts to *Scheduled* status, related tables (accounts, contacts) are limited to records linked to those scheduled work orders. This cascading behavior can unintentionally restrict data visible to technicians. Review your related rows filters carefully to make sure field workers have access to all the data they need.
+
+[Learn more best practices for using mobile apps offline](/power-apps/mobile/mobile-offline-guidelines).
+
+## Limitations of the offline profile
+
+Keep these limitations in mind when you set up the offline profile:
+
+- [Field Mapping](/power-apps/maker/data-platform/map-entity-fields) isn't supported in offline mode.
+
+- Records that users create on the device in offline mode and don't meet filter conditions aren't synced until they meet the conditions.
+
+- Make sure that commands or capabilities that users set up for Internet connectivity call the correct APIs: `Xrm.WebApi.online`.
+
+- Tables that support offline use are part of the default **Field Service Mobile - Offline Profile**. You can add tables to the offline profile, but some, such as Purchase Order, Agreements, return to vendor (RTV), and return merchandise authorization (RMA), can't be used offline. If you add these tables and run the app offline, users might get errors.
+
+- The **Field Service Mobile - Offline Profile** can have a maximum of 15 linked tables, including downstream tables. For example, if Table A has a relationship with Tables B, C, and D and Table B has a relationship with Tables F, G, and H, then Table A has six relationships: B, C, D, F, G, and H. Add Table J with a relationship to table K and no relationship with any other table, then the total number of linked tables is seven. [Learn more about profile filter limitations](/power-apps/mobile/offline-limitations#profile-filters-limitations).
+
+- Inventory validation doesn't run without network connectivity.
+
+- Access to SharePoint documents isn't supported.
+
+- Access to knowledge articles isn't available in offline mode. Knowledge articles might download, but users can't view them offline.
+
+- [Web resources are partially supported in offline mode](/power-apps/mobile/offline-limitations). We recommend that you use the [Power Apps component framework](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the mobile app and the browser.
+
+- The **Export to PDF** option isn't available while the application is in offline mode. Other options might be hidden while in offline mode or without device connectivity. Learn more: [Ribbon and Command Bar Button is Hidden](/troubleshoot/power-platform/power-apps/create-and-use-apps/ribbon-issues-button-hidden).
+
+## Data reduction checklist
+
+To reduce the amount of data the mobile app uses, consider the following actions:
+
+- Limit customization. To understand how customizations consume data, use debugging tools like F12 in the browser or Fiddler with the Windows app.
+- [Create an offline profile](/dynamics365/field-service/mobile/set-up-offline-profile) and enable [offline-first mode](/power-apps/mobile/mobile-offline-overview). Make sure users can perform business tasks offline and large synchronizations can be handled over Wi-Fi.
+- Limit views and forms to the minimum required.
+- Use default views that filter data to only the data that's important to the field worker. For example, my recent bookings instead of all bookings.
+- Allow image resolution to default to smaller file sizes for photo capture.
+
+## Performance considerations for custom controls
+
+If your organization uses custom Power Apps component framework (PCF) controls that call the offline WebApi (such as `Xrm.WebApi.retrieveMultipleRecords`), be aware of the following performance differences:
+
+Learn more about using Power Apps capabilities, including custom controls, to customize Field Service Mobile in [Use Power Apps to configure the Field Service mobile app](/dynamics365/guidance/resources/field-service-mobile-customize-powerapps).
+
+### Recommended patterns for custom controls
+
+- **Use pagination**: Instead of retrieving all records at once, retrieve data in smaller pages. Use the paging mechanism for the query type, such as FetchXML page and paging-cookie values. Follow the paging information returned by the application programming interface (API) rather than hard-coding one paging pattern for every query.
+- **Limit columns retrieved**: Use `?$select=` to return only the columns your control needs, reducing data transfer and processing time.
+- **Filter at the query level**: Apply `?$filter=` conditions to reduce the result set before it's returned to the control, rather than filtering after retrieval.
+- **Align with offline profile filters**: Ensure your control only queries tables and rows that the user's offline profile makes available. A row excluded by the profile isn't available to the control offline. If the profile doesn't make the table available offline, the offline API can be unavailable and the operation can return an error.
+- **Test with realistic data volumes**: Test custom controls with the same data volume that technicians encounter in the field. Performance that seems acceptable with test data might degrade with production data volumes.
+
+Learn more at [Offline limitations for custom controls](/power-apps/mobile/offline-limitations) and [Performance considerations for customizing the mobile app](/dynamics365/guidance/resources/field-service-mobile-improve-performance).
+
+## Next steps
+
+- [Configure the mobile offline profile](set-up-offline-profile.md)
+- [Offline data synchronization](offline-data-sync.md)
+
+[!INCLUDE [footer-include](../../includes/footer-banner.md)]

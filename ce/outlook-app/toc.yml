@@ -8,6 +8,8 @@
   items: 
   - name: Deploy and install the app
     href: deploy-dynamics-365-app-for-outlook.md
+  - name: Set up Graph API support for Dynamics 365 Mail App
+    href: graph-api-support-for-dynamics-365-mail.md
   - name: Set up delegate access
     href: enable-delegate-access.md
   - name: Customize the track regarding card

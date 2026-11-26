@@ -2,7 +2,6 @@
 title: "Create custom actions in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to create a custom action from a workflow without writing code. Consider what the action should do and under what conditions it should be performed."
 ms.custom: 
-ms.date: 11/08/2018
 ms.reviewer: 
 
 ms.suite: 

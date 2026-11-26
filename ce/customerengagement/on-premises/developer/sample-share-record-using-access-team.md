@@ -2,7 +2,6 @@
 title: "Sample: Share a record using an access team (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample shows how to allow access to a record using an access team. All members of the team receive the same access to the record as is granted to the team."
 keywords: 
-ms.date: 01/08/2020
 
 ms.custom: 
 ms.topic: sample
@@ -22,7 +21,7 @@ search.audienceType:
 
 # Sample: Share a record using an access team
 
-This sample shows how to allow access to a record using an access team. All the members of the team will receive the same access to the record that is granted to the team. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/ShareRecordUsingAccessTeam).
+This sample shows how to allow access to a record using an access team. All the members of the team will receive the same access to the record that is granted to the team. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/ShareRecordUsingAccessTeam).
 
 This sample requires additional users that are not in your system. Create the required users manually in **Office 365** in order to run the sample without any errors. For this sample create a user profile **as is** shown below. Replace `yourorg` with the organization name.
 

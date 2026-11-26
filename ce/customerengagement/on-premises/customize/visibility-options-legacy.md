@@ -2,7 +2,6 @@
 title: "Show or hide form elements in Dynamics 365 Customer Engagement (on-premises)"
 description: "Form elements such as tabs, sections, fields, iFrames, and web resources have the option to be shown or hidden. Control this using scripts or business rules."
 ms.custom: 
-ms.date: 01/31/2019
 ms.reviewer: 
 
 ms.suite: 

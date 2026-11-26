@@ -1,34 +1,47 @@
-Schedule board settings in Universal Resource Scheduling let you define the layout and functions of schedule board tabs and the schedule board in general. By default, every user with out-of-box security roles can access the schedule board. Admins can [create custom security roles](/power-platform/admin/security-roles-privileges) with the *Schedule Board Setting* privilege to restrict access to certain roles.
+Schedule board settings in Universal Resource Scheduling let you define the layout and functions of schedule board tabs and the schedule board in general. By default, every user with out-of-the-box security roles can access the schedule board. Admins can [create custom security roles](/power-platform/admin/security-roles-privileges) with the *Schedule Board Setting* privilege to restrict access to certain roles.
 
-There are two levels of settings for the schedule board. [Board view settings](#board-view-settings) mainly define the layout of a schedule board. [Board settings](#board-settings) contain more detailed settings and enable customizations.
+There are two levels of settings for the schedule board.
+
+- [Board view settings](#board-view-settings) mainly define the layout of a schedule board.
+
+- [Board settings](#board-settings) contain more detailed settings and enable customizations.
 
 ## Board view settings
 
 The board view settings show in a side pane and apply only to the selected schedule board tab.
 
-Open the **Schedule Board**, choose the tab to configure and select **Scheduler settings**.
+Open the **Schedule Board**, choose the tab to configure, and select **Scheduler settings**.
 
 :::image type="content" source="../../field-service/media/scheduler-settings.png" alt-text="Screenshot of the Board view settings pane on the Schedule Board.":::
 
+> [!NOTE]
+> The available settings depend on the selected schedule board view. **Working time**, **Working days**, and **Show travel duration** appear only in the hourly view. If you don't see one of these settings, switch the schedule board to the hourly view and reopen **Scheduler settings**.
+
 - **Time Zone**: Sets the time zone that the schedule board uses. The times for bookings in different time zones adapt to the selection.
-- **Time resolution**: Time intervals for the hourly view.
+- **Working time**: Defines the working hours used to determine when resources are available for scheduling. This setting is available only in the hourly view.
+- **Working days**: Specifies the days of the week used to determine resource availability. The setting is available only in the hourly view, but the selected working days also affect which dates appear in the daily view. You must select at least one working day to see any days in the hourly view. If you clear all days, the system defaults to showing all days.
+- **Time resolution**: Sets the time intervals displayed on the schedule board.
 - **Row height**: Defines the height of resource rows.
-- **Optimization goal**: Applicable when using the [Resource Scheduling Optimization add-in for Dynamics 365 Field Service](../../field-service/rso-overview.md). Defines which [optimization goal](../../field-service/rso-optimization-goal.md) the system uses to recommend resources.
+- **Optimization goal**: Appears when **Enable Optimizer** is turned on in Scheduling Parameters. It defines the [optimization goal](../../field-service/rso-optimization-goal.md) used to recommend resources. To use optimization functionality, install and configure the [Resource Scheduling Optimization add-in for Dynamics 365 Field Service](../../field-service/rso-overview.md).
 - **Show canceled**: Shows or hides canceled bookings.
 - **Apply territory filter to requirements**: Defines whether the resource filter for [territory](../../field-service/set-up-territories.md) also applies to requirements in the bottom pane.
 - **Show booked percentage**: Shows or hides the percentage of total work time booked on the schedule board.
 - **Show bookings proportional to duration**: Bookings on the daily, weekly, and monthly views show proportional to their duration instead of stacked.
+- **Show travel duration**: Shows or hides travel time. This setting is available only in the hourly view.
 
-**All board settings** opens the [board settings](#board-settings).
+**All board settings** opens the detailed [board settings](#board-settings). The board view settings listed in this section aren't duplicated under **All board settings**.
 
 ## Board settings
 
-Board settings are more detailed and let you define settings for a specific board tab and default settings that apply to all tabs. You can get to the board settings in two ways:
+Board settings are more detailed and let you define settings for a specific board tab and default settings that apply to all tabs.
 
-- Select the vertical ellipsis &vellip; next to the schedule board tab name and choose **Board settings**.
-- Open the **Scheduler settings** and select **All board settings**.
+You can open the board settings in two ways:
 
-:::image type="content" source="../../field-service/media/schedule-board-tab-settings-access.png" alt-text="Screenshot of accessing schedule board tab settings.":::
+- For a specific board tab, select the vertical ellipsis &vellip; next to the schedule board tab name and choose **Board settings**.
+
+- For all tabs, open the **Scheduler settings** and select **All board settings**.
+
+:::image type="content" source="../../field-service/media/schedule-board-tab-settings-access.png" alt-text="Screenshot of accessing schedule board view settings.":::
 
 ### Basic section
 
@@ -36,41 +49,35 @@ Board settings are more detailed and let you define settings for a specific boar
 
 - **Shared With:** Decides which users can view and edit the schedule board tab.
   - Everyone
-  - Specific People: See [Share a schedule board tab with specific people](#share-a-schedule-board-tab-with-specific-people)
+  - Specific People: Go to [Share a schedule board tab with specific people](#share-a-schedule-board-tab-with-specific-people)
   - Just Me
 
-- **Edit defaults:** Lets you choose the default tab settings when new schedule boards are created. When values in a particular schedule board tab setting show **< Default View >**, it means the value is coming from the default tab settings.
+- **Edit defaults:** Lets you choose the default tab settings when new schedule boards are created. When values in a particular schedule board tab setting show **< Default View >**, it means the value comes from the default tab settings.
 
 - **Reset to Default:** Resets the current tab setting values to the values outlined in the default settings.
 
 #### Share a schedule board tab with specific people
 
-The schedule board saves tabs as records in the *Schedule Board Settings* entity.
+When you select this option, a share drop-down menu appears with easy access to email and/or copy a link to the tab. Choose **Manage access** in this menu to open the **Share records** panel where you can directly manage the tab's permissions, such as Read, Write, Append, and Share, for each desired user or team.
 
-1. Go to **Settings** > **Advanced Settings** and select **Advanced Find**.
-
-1. In the pop-up window, look for the **Schedule Board Settings** table and select **Results**.
-
-   :::image type="content" source="../../field-service/media/advanced-find-legacy-web-client.png" alt-text="Screenshot of the advanced find pop-up in the legacy web client settings.":::
-
-   The list of records shows all schedule board tab records you have access to.
-
-1. Open the schedule board record you want to share to specific people. On the schedule board settings form, select **Share** > **Manage access**.
-
-   :::image type="content" source="../../field-service/media/schedule-board-share.png" alt-text="Screenshot of the share button for a specific schedule board setting.":::
-
-1. Add users or teams to share the schedule board with. They see the schedule board tab and can change it if they have access privileges to schedule boards.
+:::image type="content" source="../../field-service/media/share-records-manage-access.png" alt-text="Screenshot of the Share records panel displaying various permission for a user, such as Read, Write, Append, and Share as selected.":::
 
 > [!NOTE]
-> Managing schedule board access for teams by creating custom security roles and editing permissions is not supported. Instead, select **Specific People** as the sharing option and the appropriate team in the **Manage access** pane.
+> - Managing schedule board access for teams by creating custom security roles and editing permissions isn't supported.
+> - The share option only appears when **Shared With** is set to **Specific People**. If the tab is configured as **Everyone** or **Just Me**, the share button isn't displayed.
+
+Learn more in [Share a schedule board tab in Field Service](../../field-service/share-schedule-board-tab.md#understand-schedule-board-access-control) and [Share a schedule board tab in Universal Resource Scheduling](../../common-scheduler/share-schedule-board-tab.md#understand-schedule-board-access-control).
 
 ### Map section
 
-The **Map** section specifies views that pull details from a record when users select an icon on the map. Only public views are available for selection. Even though you can change existing views, it's better to copy the default view and apply changes to the copy. Views related to resources are based on the *Bookable Resource* entity. Views related to organizational units are based on the *Organizational Unit* entity.
+The **Map** section specifies views that pull details from a record when users select an icon on the map. You can only select public views. Even though you can change existing views, it's better to copy the default view and apply changes to the copy. Views related to resources are based on the *Bookable Resource* entity. Views related to organizational units are based on the *Organizational Unit* entity.
 
 #### Resource tooltips view
 
 This view defines the fields displayed in a tooltip that appears when you select a resource pin on the map.
+
+> [!NOTE]
+> Booking tooltip view settings apply to the hourly view of the schedule board. Daily, weekly, and monthly views display a simplified tooltip.
 
 #### Resource details view
 
@@ -78,7 +85,7 @@ This view defines the fields displayed in the details pane when selecting a reso
 
 #### Organizational unit tooltips view
 
-This view defines the fields displayed in a tooltip that appears when an organizational unit map pin.
+This view defines the fields displayed in a tooltip that appears when selecting an organizational unit map pin.
 
 #### Organizational unit details view
 
@@ -114,7 +121,8 @@ This setting determines how unavailable resources appear when users launch the s
 
 - **Unavailable resources do not appear** temporarily hides resources that don't match the schedule assistant filter criteria from the list of available resources.
 
-- **Unavailable resources appear dimmed (when searching for resources visible on board)** ensures all resources that don't match the schedule assistant filter criteria still show on the schedule board, but appear dimmed. Open the schedule assistant and set the **Search For** filter to **Resources visible on board** to see the unavailable resources, which appear dimmed.
+- **Unavailable resources appear dimmed (when searching for resources visible on board)** ensures all resources that don't match the schedule assistant filter criteria still show on the schedule board, but appear dimmed. Open the schedule assistant and set the **Search For** filter to **Resources visible on board** to see the unavailable resources, which appear dimmed. This setting only applies while in Gantt view. 
+
 
 #### Book based on
 
@@ -126,11 +134,11 @@ This setting changes the schedule assistant visualization of the booking slot to
 
 #### Colors
 
-The colors selected in the schedule assistant section represent the resource availability in the schedule assistant. The schedule assistant determines availability by taking into account previously scheduled bookings and other factors including work hours, scheduled time off, vacations, holidays, and work closures. Additionally, a resource shows as unavailable in schedule assistant when the the availability summary cell's dates fall outside of the requirement detail's from/to date ranges.
+The colors you select in the schedule assistant section represent the resource availability in the schedule assistant. The schedule assistant determines availability by taking into account previously scheduled bookings and other factors including work hours, scheduled time off, vacations, holidays, and work closures. Additionally, a resource shows as unavailable in schedule assistant when the availability summary cell's dates fall outside of the requirement detail's from/to date ranges.
 
 #### Icons
 
-The icons show along with the colors to represent resource availability
+The icons show along with the colors to represent resource availability.
 
 Turn an icon off to hide it in the schedule assistant.
 
@@ -138,7 +146,8 @@ Makers can customize icons by [creating web resources](/power-apps/developer/mod
 
 ### Board colors
 
-Board colors represent a resource's utilization on the schedule board. Most colors only apply to daily, weekly, and monthly views and on the currently selected schedule board. The hourly view shows bookings colored by their status. The color for non-working hours applies to the hourly view too.
+Board colors show how much a resource is used on the schedule board. Most colors only apply to daily, weekly, and monthly views and on the currently selected schedule board. The hourly view shows bookings colored by their status. The color for nonworking hours applies to the hourly view too.
+
 
 ### Other settings
 
@@ -152,7 +161,7 @@ Controls the maximum number of resource records displayed on a single page of th
 
 #### Number of days displayed in hours view
 
-Number of days displayed on hourly view of the schedule board.
+Specifies the number of days displayed in the hourly view of the schedule board. This setting determines the length of the date range, regardless of which [working days](#board-view-settings) are visible, and controls how many days are included in the horizontal scroll in the hourly view. For example, if you select 10 days and unselect Saturday and Sunday in the working days, the hourly view shows 10 days in total in the date range but only eight days are visible in the horizontal scroll.
 
 #### Number of weeks displayed in weeks view
 
@@ -160,7 +169,7 @@ Number of weeks displayed on the weekly view of the schedule board.
 
 #### Number of days displayed in days view
 
-Number of days displayed on the daily view of the schedule board.
+Number of days displayed on the daily view of the schedule board. 
 
 #### Number of months displayed in months view
 
@@ -181,7 +190,7 @@ For reference, the default HTML is as follows:
 
 #### Disable default extensions
 
-You can modify the CSS, add your own JavaScript files and localize the schedule board by changing labels on supported areas of the board. You can always exclude certain boards from inheriting client extensions applied to the default board by disabling default extensions on that board.
+You can modify the CSS, add your own JavaScript files, and localize the schedule board by changing labels on supported areas of the board. You can always exclude certain boards from inheriting client extensions applied to the default board by disabling default extensions on that board.
 
 For more information about editing filter layouts, resource cell templates, and client extensions, see this [blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1/) and [Extend Universal Resource Scheduling](../../common-scheduler/developer/extending-urs-step-by-step.md).
 
@@ -195,7 +204,7 @@ Controls the images, values, fields for resources on the schedule board.
 
 #### Booking alerts view
 
-Choose system view that can filter which booking alerts records show up in the alerts view of the details pane of the schedule board.
+Choose a system view that can filter which booking alerts records show up in the alerts view of the details pane of the schedule board.
 
 For example, when a business has booking alerts based on events related to work orders, projects, and cases. If a particular schedule board tab only deals with a certain type of requirements, a booking alert system view helps with filtering.
 
@@ -205,23 +214,23 @@ View and edit XML that defines how resource records are fetched, filtered, and s
 
 ### Schedule types
 
-The following settings are dependent on the entity being scheduled. Though requirement records are always scheduled, the requirement can be related to work orders, cases, custom entities, or no entity at all. Select **None** to edit default settings that apply to all boards and the settings for when a requirement is scheduled by itself. To override defaults for a schedule board, [select a schedulable entity](../../common-scheduler/schedule-new-entity.md) to change its settings.
+The following settings depend on the entity you're scheduling. You always schedule requirement records, but the requirement can relate to work orders, cases, custom entities, or no entity at all. Select **None** to edit default settings that apply to all boards and the settings for when a requirement is scheduled by itself. To override defaults for a schedule board, [select a schedulable entity](../../common-scheduler/schedule-new-entity.md) to change its settings.
 
 #### Booking tooltips view
 
-Select the system view that dictates the fields displayed when hovering your mouse over a booking. This setting only affects the hourly view of the schedule board.
+Select the system view that dictates the fields displayed when you hover your mouse over a booking. This setting only affects the hourly view of the schedule board.
 
 #### Requirement details view
 
-Select the system view that dictates the fields displayed in the details pane when a requirement is selected in the lower pane of the schedule board.
+Select the system view that dictates the fields displayed in the details pane when you select a requirement in the lower pane of the schedule board.
 
 #### Booking details view
 
-Select the system view that dictates the fields displayed in the details pane when a booking is selected. This setting only affects the hourly view of the schedule board.
+Select the system view that dictates the fields displayed in the details pane when you select a booking. This setting only affects the hourly view of the schedule board.
 
 #### Requirement map pin tooltips view
 
-Select the system view that dictates the fields displayed when hovering your cursor over a requirement map pin.
+Select the system view that dictates the fields displayed when you hover your cursor over a requirement map pin.
 
 #### Schedule assistant requirement view
 
@@ -237,4 +246,4 @@ For more information, see [Edit the schedule board booking template](../../commo
 
 Use this section to configure requirement views at the bottom of the schedule board. You can change the order in which they appear on the schedule board.
 
-There are default requirement views automatically available. Turn off **Hide default requirement panels** to remove them. Use the **Apply territory filter to requirements** setting to filter requirements in addition to resources with an active a territory filter on the schedule board.
+Default requirement views are automatically available. Turn off **Show default requirement panels** to remove them. Use the **Apply territory filter to requirements** setting to filter requirements in addition to resources with an active a territory filter on the schedule board.

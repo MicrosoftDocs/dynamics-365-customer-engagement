@@ -3,7 +3,6 @@ title: "Microsoft Dynamics 365 for Customer Engagement applications cannot be in
 description: Environment diagnostics warning that applications can't be installed in the same folder.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

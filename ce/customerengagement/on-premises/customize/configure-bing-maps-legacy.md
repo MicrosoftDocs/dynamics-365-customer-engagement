@@ -1,24 +1,23 @@
 ---
 title: "Show Bing Maps on forms in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to enable Bing Maps to be displayed on a form, and configure properties such as labels and formatting."
-ms.custom: 
-ms.date: 01/31/2019
-ms.reviewer: 
-
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.date: 06/16/2025
+ms.reviewer: matp
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: f9729664-561c-4758-86ce-7216d68075d9
 caps.latest.revision: 63
-ms.author: matp
-author: Mattp123
+ms.author: fafuxa
+author: fafuxa-ms
 search.audienceType: 
   - customizer
 
 ---
 # Configure Bing Maps to be displayed on forms
+
+> [!IMPORTANT]
+> The Bing Maps control uses the Bing Maps for Enterprise service. The Bing Maps for Enterprise service is deprecated and when used with a Free (Basic) account will be retired on June 30th, 2025. More information: [Bing Maps coverage](/bingmaps/coverage/)
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Configure a map on a form](/powerapps/maker/model-driven-apps/configure-bing-maps-legacy)
 

@@ -2,7 +2,6 @@
 title: "Security model in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how the security model in Dynamics 365 Customer Engagement (on-premises) is used to protect the data integrity and privacy of an organization."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

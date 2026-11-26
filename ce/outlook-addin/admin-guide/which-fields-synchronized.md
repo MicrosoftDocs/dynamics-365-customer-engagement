@@ -3,7 +3,7 @@ title: "Which fields can be synchronized by administrators between Dynamics 365 
 description: Learn how Dynamics 365 for Customer Engagement administrators can control field synchronization between Dynamics 365 apps and Outlook.
 ms.custom: 
 ms.date: 08/20/2018
-ms.reviewer: 
+ms.reviewer: smurkute 
 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,8 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: a615c004-1e1d-4a87-921d-cf4f4b795d67
 caps.latest.revision: 13
-author: mduelae
-ms.author: mkaur
+author: shwetamurkute
+ms.author: bharavar
 search.audienceType: 
   - admin
   - customizer

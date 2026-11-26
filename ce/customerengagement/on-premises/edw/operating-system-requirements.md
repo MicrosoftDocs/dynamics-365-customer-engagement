@@ -3,11 +3,10 @@ title: "Operating system requirements | Microsoft Docs"
 description: Environment diagnostics warning that the operating system isn't supported for this version.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: concept-article
 ms.assetid: 610b5dcb-bf1b-4933-920a-81b4b80e1f18
 caps.latest.revision: 11
 robots: noindex,nofollow

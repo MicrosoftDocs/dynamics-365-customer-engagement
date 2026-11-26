@@ -1,20 +1,19 @@
 ---
-title: "Sample: Qualify a lead (Dynamics 365 Sales)"
+title: Qualify a lead (Sample)
 description: The sample demonstrates how to qualify a lead and create an account, contact, or opportunity.
-ms.custom: 
-ms.date: 03/01/2023
+ms.date: 04/30/2026
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
 # Sample: Qualify a lead
 
-This sample code is for Dynamics 365 Sales. Download the complete sample here [Business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement).  
+This sample code is for Dynamics 365 Sales. Download the complete sample here: [Business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement).  
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
@@ -28,7 +27,7 @@ This sample code is for Dynamics 365 Sales. Download the complete sample here [B
 ## Example  
  [!code-csharp[BusinessManagement#WorkingWithLeads](../../snippets/csharp/CRMV8/businessmanagement/cs/workingwithleads.cs#workingwithleads)]  
   
-### See also  
+## Related information  
  [Sales Tables (Lead, Opportunity, Competitor, Quote, Order, Invoice)](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  <xref:Microsoft.Crm.Sdk.Messages.QualifyLeadRequest>   
  [Lead Table](lead-entity.md)

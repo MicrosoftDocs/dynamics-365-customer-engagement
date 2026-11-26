@@ -8,10 +8,10 @@ metadata:
   services: service
   ms.topic: landing-page
   ms.collection: collection
-  author: udaykirang
-  ms.author: udag
-  ms.reviewer: udag
-  ms.date: 09/22/2023
+  author: lavanyakr01
+  ms.author: lavanyakr
+  ms.reviewer: lavanyakr
+  ms.date: 02/04/2026
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -30,6 +30,18 @@ landingContent:
             url: /power-platform/admin/security-roles-privileges
           - text: Create or edit business units 
             url: /power-platform/admin/create-edit-business-units
+
+# Card 
+  - title: Autonomous AI agents 
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Set up and configure the Sales Qualification Agent
+            url: configure-sales-qualification-agent.md
+          - text: Configure the Sales Opportunity Agent 
+            url: configure-sales-opportunity-agent.md
+          - text: Copilot Studio agents and Entra app registrations for sales agents
+            url: ai-agents-apps.md
 
 # Card 
   - title: Sales & product catalog setup 
@@ -62,11 +74,13 @@ landingContent:
          links:
           - text: Enable and configure Copilot
             url: enable-setup-copilot.md
+          - text: Enable Copilot email assist
+            url: enable-copilot-email-assist.md
           - text: Copilot data movement across geographies
-            url: sales-copilot-data-movement.md 
+            url: /power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features
 
 # Card 
-  - title: Sales premium
+  - title: Premium features
     linkLists:
        - linkListType: concept
          links:
@@ -88,14 +102,34 @@ landingContent:
             url: configure-relationship-analytics.md
 
 # Card 
-  - title: Upgrade/downgrade
+  - title: Upgrade
     linkLists:
        - linkListType: how-to-guide
          links:
-          - text: Upgrade from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise 
-            url: upgrade-sales-professional-sales-enterprise.md
-          - text: Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional 
-            url: move-sales-enterprise-sales-professional.md
+          - text: Upgrade your Dynamics 365 Sales license 
+            url: upgrade-sales-license.md
+
+# Card 
+  - title: LinkedIn integration
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Install and enable LinkedIn Sales Navigator
+            url: linkedin/install-sales-navigator.md
+          - text: Uninstall LinkedIn Sales Navigator
+            url: linkedin/uninstall-sales-navigator.md
+          - text: Install LinkedIn Sales Insights
+            url: install-lsi-solution.md
+
+# Card
+  - title: Hierarchy visualizations
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Design and publish hierarchies 
+            url: create-activate-hierarchy-visualizations.md
+          - text: Manage hierarchies 
+            url: manage-hierarchy-visualizations.md
 
 # Card 
   - title: Goal management
@@ -146,4 +180,5 @@ landingContent:
             url: sales-mobile/modify-quick-view-form.md
           - text: Create custom push notifications 
             url: sales-mobile/create-push-notification.md
+
 

@@ -2,12 +2,11 @@
 title: "Configuration settings in Dynamics 365 Customer Engagement (on-premises)"
 description: "This page describes key configuration settings and tasks that can help you keep your organization optimized so that you can focus on what’s important."
 ms.custom: 
-ms.date: 01/07/2021
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x

@@ -2,12 +2,11 @@
 title: "Install the Report Authoring Extension for Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to install the Dynamics 365 Report Authoring Extension for creating and customizing Fetch-based reports." 
 ms.custom: ""
-ms.date: 06/28/2021
 
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 author: Mattp123
 ms.author: matp
 applies_to: 

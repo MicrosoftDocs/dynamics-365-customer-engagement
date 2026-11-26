@@ -1,20 +1,19 @@
 ---
-title: "notifyNewActivity (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Learn about notifyNewActivity (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 04/03/2020
+title: notifyNewActivity (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 
+description: Learn about notifyNewActivity (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0.
+ms.date: 12/10/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.reviewer: mgandham
+ms.custom: bap-template 
 ---
 
 # notifyNewActivity (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
 This method is used to indicate the number of new activities in a session that is currently not in focus. The indicator is automatically removed when the user switches to the session. 
 
-![Notify new activity.](../../../../media/notifyNewActivity.png "Notify new activity")
+![Unread Message.](../../../../media/unreadmessage.png "Unread Message")
 <br>
 
 > [!NOTE]
@@ -52,7 +51,7 @@ Microsoft.CIFramework.notifyNewActivity(sessionId, count).then(
 );
 ```
 
-### See also
+### Related information
 
 [notifyKpiBreach API](notifyKPIBreach.md)
 

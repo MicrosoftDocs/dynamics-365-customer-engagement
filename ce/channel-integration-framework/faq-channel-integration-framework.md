@@ -1,10 +1,11 @@
 ---
 title: FAQ about Dynamics 365 Channel Integration Framework
 description: Frequently asked questions about Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365.
-ms.date: 07/06/2023
+ms.date: 06/17/2025
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -86,7 +87,7 @@ Dynamics 365 Channel Integration Framework 2.0 includes multiple enhancements ov
 
 ### Where do I configure voice channel provider for multisession apps?
 
-You can configure voice channel providers in [Customer Service admin center](../customer-service/implement/cs-admin-center.md#get-started-with-customer-service-admin-center).
+You can configure voice channel providers in [Copilot Service admin center](../customer-service/implement/cs-admin-center.md#get-started-with-copilot-service-admin-center).
 
 ### My organization is using voice channel configured using Channel Integration Framework 2.0. Does the change affect my organization?
 
@@ -97,7 +98,7 @@ Yes. From your channel provider record, you can't see the following two grids:
 	
 ### How do I choose the Unified Interface apps for the voice channel provider record?
 
-You don't need to choose the Unified Interface apps. The telephony channel providers are associated with app profiles, which work in the context of the multisession apps such as Omnichannel for Customer Service and Customer Service workspace.
+You don't need to choose the Unified Interface apps. The telephony channel providers are associated with app profiles, which work in the context of the multisession apps such as Omnichannel for Customer Service and Copilot Service workspace.
 	
 ### How do I select roles for the voice channel provider record?
 
@@ -105,11 +106,11 @@ Telephony channel providers are associated with agent profiles, which in turn ar
 
 ### Will my existing communication widget, built using Dynamics 365 Channel Integration Framework 1.0 APIs, continue to work with the Dynamics 365 Channel Integration Framework 2.0 app?
 
-Yes. You can use your communication widget on the Dynamics 365 Channel Integration Framework 2.0, however, you need to configure the channel provider and update the channel URL in the Customer Service admin center app. More information: [Configure channel providers](v2/administer/configure-channel-provider-app-profile-manager.md)
+Yes. You can use your communication widget on the Dynamics 365 Channel Integration Framework 2.0, however, you need to configure the channel provider and update the channel URL in the Copilot Service admin center app. More information: [Configure channel providers](v2/administer/configure-channel-provider-app-profile-manager.md)
 
 ### How do I use the multisession experiences for my contact center with a third-party provider's communication widget?
 
-Dynamics 365 Channel Integration Framework 2.0 works only with multisession apps such as Omnichannel for Customer Service and Customer Service workspace. You can integrate any third-party telephony provider with Omnichannel for Customer Service or Customer Service workspace using the Dynamics 365 Channel Integration Framework 2.0 APIs. 
+Dynamics 365 Channel Integration Framework 2.0 works only with multisession apps such as Omnichannel for Customer Service and Copilot Service workspace. You can integrate any third-party telephony provider with Omnichannel for Customer Service or Copilot Service workspace using the Dynamics 365 Channel Integration Framework 2.0 APIs. 
 
 For information on selecting versions, see [Choose between versions 1.0 and 2.0](choose-between-versions.md).
 
@@ -136,7 +137,7 @@ More information: [User presence isn’t loading or user is shown as unknown](/t
 
 ### Why should I check or update channel URLs in Dynamics 365 Channel Integration Framework 2.0?
 
-When you deploy or update the Customer Service workspace app profile, the Channel URL field in the Dynamics 365 Channel Integration Framework 2.0 settings for omnichannel gets overwritten. So after a deployment, the Channel Integration Framework product might point to a different URL. So, check and ensure that the Channel URL field in Dynamics 365 Channel Integration Framework 2.0 always points to the correct URL. More information: [Configure a third-party channel provider](v2/administer/configure-channel-provider-app-profile-manager.md#configure-a-third-party-channel-provider)
+When you deploy or update the Copilot Service workspace app profile, the Channel URL field in the Dynamics 365 Channel Integration Framework 2.0 settings for omnichannel gets overwritten. So after a deployment, the Channel Integration Framework product might point to a different URL. So, check and ensure that the Channel URL field in Dynamics 365 Channel Integration Framework 2.0 always points to the correct URL. More information: [Configure a third-party channel provider](v2/administer/configure-channel-provider-app-profile-manager.md#configure-a-non-microsoft-channel-provider)
 
 ### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
 
@@ -148,7 +149,7 @@ Yes, you can integrate custom messaging channels using Direct Line bot. More inf
 
 ### Is it possible to view the existing channel providers from Dynamics 365 Channel Integration Framework 2.0 model-driven app?
 
- No. You can use the Customer Service admin center app to view your existing channel providers.
+ No. You can use the Copilot Service admin center app to view your existing channel providers.
 
 
 ## Dynamics 365 Channel Integration Framework 1.0
@@ -165,7 +166,7 @@ When you select a particular security role for the channel provider from under t
 No, that isn't supported.
 
 
-### See also
+### Related information
 
 [Overview of Dynamics 365 Channel Integration Framework](v2/administer/overview-channel-integration-framework.md)  
 [What's new in Dynamics 365 Channel Integration Framework](whats-new-channel-integration-framework.md)  

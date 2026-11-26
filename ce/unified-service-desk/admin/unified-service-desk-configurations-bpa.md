@@ -1,11 +1,14 @@
 ---
-title: "Unified Service Desk configurations | MicrosoftDocs"
-description: "Learn how the Best Practices Analyzer checks Unified Service Desk for configurations that you make in Microsoft Dataverse."
-ms.date: 04/24/2018
-ms.topic: article
+title: Unified Service Desk configurations 
+description: Learn how the Best Practices Analyzer checks Unified Service Desk for configurations that you make in Microsoft Dataverse.
+ms.date: 05/15/2025
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
+ms.custom: evergreen
 ---
+
 
 # [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations
 
@@ -61,7 +64,7 @@ Replace the **PageLoadComplete** event with a **BrowserDocumentComplete** event 
 
 ### Mitigation
 
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] recommends optimizing to associate 10 or fewers action calls with **DesktopReady**, **SessionNew** **SessionActivated**, **SessionDeactivated**, and **SessionClosed** events.
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] recommends optimizing to associate 10 or fewer action calls with **DesktopReady**, **SessionNew** **SessionActivated**, **SessionDeactivated**, and **SessionClosed** events.
 
 ## Number of Navigation Rules
 
@@ -251,7 +254,7 @@ Enable the **Enable Crash Dump Generation** option:
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the **IEWebPageRecovery** UII option and displays an error message when the option is set to **false**.
 
-**IEWebPageRecovery** is an UII option that a system administrator can modify. The option helps recover unresponsive Internet Explorer webpages. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when the **IEWebPageRecovery** option is set to **true**.
+**IEWebPageRecovery** is a UII option that a system administrator can modify. The option helps recover unresponsive Internet Explorer webpages. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when the **IEWebPageRecovery** option is set to **true**.
 
 ### Mitigation
 

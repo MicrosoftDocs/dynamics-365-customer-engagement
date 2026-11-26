@@ -2,7 +2,6 @@
 title: "Sample: Validate record state and set the state of the record (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample demonstrates how to validate a change of state of an entity and set a state of an entity."
 ms.custom:
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite:
@@ -24,7 +23,7 @@ search.audienceType:
 
 # Sample: Validate record state and set the state of the record
 
-This sample shows how to validate a change of state of an entity and set a state of an entity. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/ValidateandExecuteSavedQuery).
+This sample shows how to validate a change of state of an entity and set a state of an entity. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/ValidateandExecuteSavedQuery).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

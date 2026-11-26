@@ -1,11 +1,12 @@
 ---
 title: Set defaults for work orders, bookings, the schedule board, and agreements
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 02/08/2024
+ms.date: 06/24/2026
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Set defaults for work orders, bookings, the schedule board, and agreements
@@ -40,6 +41,10 @@ During the initial opt-in process, creation of new records might fail. We recomm
 
 ### Configure auto-numbering
 
+Field Service auto-numbering supports only simple formats where the sequence number is the final placeholder. For example: `WO-{SEQNUM:6}`.
+
+More complex auto-number formats, such as those that include additional placeholders after `{SEQNUM}`like `{RANDSTRING}` or `{DATETIMEUTC}`, are supported by the Power Platform but **can’t be configured or edited in the Field Service dialog**. If you need an advanced format, for example `WO-{SEQNUM:6}-{DATETIMEUTC:yyyyMMdd}`, configure the auto-number field directly in [Power Apps](https://make.powerapps.com). These formats continue to work at runtime in Field Service, but the Field Service dialog can only display and edit supported simple formats. Learn more in [Create auto-number attributes](/power-apps/developer/data-platform/create-auto-number-attributes?tabs=webapi#autonumberformat).
+
 1. In Field Service, change to the **Settings** area.
 
 1. Go to **General** > **Field Service Settings**.
@@ -64,7 +69,7 @@ This settings tab lets you enable toggles for preview, copilot, and a few other 
 |**Preview section**||
 | Enhanced characteristics | Enable [enhanced characteristics](set-up-characteristics.md) to add more details to a resource's characteristics. |
 |**Copilot in Field Service section**||
-| Copilot for work order | Enable [work order recap with Copilot](work-order-recap.md) to provide a summary of a work order. |
+| Copilot for work order | Enable [work order summary with Copilot](use-work-order-recap.md) to provide a summary of a work order. |
 | Copilot in Microsoft Outlook | Disable the use of copilot capabilities in Outlook for Field Service. If enabled, you agree that data might be stored and processed outside of your tenant's geographic region or compliance boundary. For more information, see [FAQ for Outlook using Copilot in Field Service.](faqs-wo-flw-copilot.md)|
 |**Other settings section**||
 | Insurance policies | Enable [insurance policies](insurance.md) to create an insurance policy. |
@@ -80,7 +85,7 @@ This settings tab lets you define several default values and basic settings rela
 | ------------- | -------------- |
 |**General section**||
 |  Default work order completed status  | Choose whether the default booking status for a completed work order is **Completed** or **Posted**. For more information, go to [Set up booking statuses](set-up-booking-statuses.md).   |
-|  Default Warehouse   |    Select the default warehouse that work order products will be taken from unless specified otherwise. For more information, go to [Create a warehouse](create-warehouse.md).   |
+|  Default Warehouse   |    Specify the default warehouse for work order products when a warehouse is required and isn't specified on the **Work Order Product**. The system doesn't automatically populate the warehouse for all work order products. It only uses this default if a warehouse is required and left blank. Learn more in [Create a warehouse](create-warehouse.md).   |
 | Timestamp Frequency | Choose when the system updates the timestamp for a booking. |
 | Suggest Reparenting Customer Assets | Warn users when a customer asset gets added to a work order that doesn't relate to the work order's service account. If set to *Yes*, the system offers to map the customer asset to the work order's service account. When set to *No*, the warning and suggestion don't show. |
 | Calculate Price | Work orders contain pricing-related fields and functions. By default, this field is set to *Yes*, which enables pricing-related fields and logic. Changing the setting to *No* removes all pricing-related fields and disables the pricing logic, so work orders won't generate invoices after completion.|
@@ -89,7 +94,7 @@ This settings tab lets you define several default values and basic settings rela
 |  Work Order Invoice Creation  |   Choose if the system should automatically generate a billing invoice for work orders when the status changes to *Closed - Posted*. |
 |  Travel Charge Item      | Select the product that the system uses for travel charges for a work order. The pricing is determined by the settings Travel Charge value on the service account. For more information, go to [Accounts](accounts.md). |
 | Disable Customer Asset Validation | Control work order creation if customer assets on the work order don't belong to the same service account. When set to *Yes*, users can't create a work order if the customer assets don't relate to the service account. When set to *No*, the system requires customer assets related to the service account on a work order. For more information, go to [Validate customer assets on work orders](asset-validation.md). |
-| Calculate Tax | [Tax codes](set-up-tax-codes.md) calculate and add taxes to products and services. When set to *No*, the tax code field and calculations from all related forms are disabled. |
+| Calculate Tax | [Tax codes](set-up-tax-codes.md) calculate and add taxes to products and services. When set to *No*, the tax code field and calculations from all related forms are disabled. If this setting is set to no, tax related fields are hidden by default and their values are irrelevant. |
 | Generate Actuals | When set to *Yes*, the system creates records with actuals over the course of a work order's lifecycle. If set to *No*, the system disables the creation of work order-related actuals. |
 | **Resource pay type section** |  |
 | Work Pay Type   |  Choose the [resource pay type](set-up-resource-pay-types.md) for work performed during regular work hours.   |
@@ -109,8 +114,8 @@ Field Service agreements allow organizations to automatically generate work orde
 |  Option   |    Description    |
 |------------|-------------------|
 | Auto Generate Work Order for Agreement Booking  |  Select whether the system should automatically generate work orders based on agreements. If set to *No*, users have to create the work orders manually. |
-| Generate Booking Dates X Months in Advance    | Agreement booking dates help organizations plan for maintenance. If an agreement spans a long time period, you might not want to generate all booking dates at once. Agreements generate booking dates based on the agreement booking setup recurrence schedule. With autogenerate enabled, the system creates a work order booking on these dates. This setting determines how many months in advance the system generates the work order booking. |
-|   Generate Invoice Dates X Months in Advance   | Agreements generate invoice dates based on the agreement invoice setup recurrence schedule. With autogenerate enabled, the system creates an invoice record on these dates. This setting determines how many months in advance the system generates the invoice dates.   |
+| Generate Booking Dates X Months in Advance    | Agreement booking dates help organizations plan for maintenance. If an agreement spans a long time period, you might not want to generate all booking dates at once. Agreements generate booking dates based on the agreement booking setup recurrence schedule. With autogenerate enabled, the system creates a work order booking on these dates. This setting determines how many months in advance the system generates the agreement booking dates. |
+|   Generate Invoice Dates X Months in Advance   | Agreements generate invoice dates based on the agreement invoice setup recurrence schedule. With autogenerate enabled, the system creates an invoice record on these dates. This setting determines how many months in advance the system generates the agreement invoice dates.   |
 |  Pre/Post Booking Flexibility Date Field Population  | When configuring an agreement, you can define pre- and post-booking flexibility fields. These fields set the time frame in which each work order should get booked. This setting defines whether work orders generated from agreements populate this time frame in the *Date Window Start/End* or the *Time From/To Promised* fields. This setting also controls whether the *Date Window Start/End* fields are visible on the work order. If the agreement is set to populate *Date Window Start/End*, these fields are visible on the work order; otherwise, they're hidden by default.|
 | Generate Agreement Work Order X Days in Advance |  Number of days in before the booking date when the system generates the work order record.  |
 |  Generate Agreement Invoices X Days in Advance  |  Number of days in before the invoice date when the system generates the invoice record. |
@@ -127,15 +132,12 @@ You can use purchase orders (POs) to add inventory to a warehouse, or to purchas
 
 ## Intelligence settings
 
-Predictive work duration lets dispatchers predict the duration of bookings. For more information, go to [Predictive work duration and resource proficiency suggestions](analytics-predictive-work-duration.md).
-
-Incident type suggestions help administrators manage work order templates. For more information, go to [Use AI to get Incident Type suggestions](configure-incident-types.md#use-ai-to-get-incident-type-suggestions).
+Predictive work duration and Incident type suggestions will be deprecated in November 2024.
 
 |  Option  |  Description   |  
 |-------------|-----------------|  
 | Enable Suggested Duration |  When enabled, this setting looks at historical booking data and suggests an average duration at the incident type level.|
 | Historical Data Filter | This setting is used for both the suggested duration and incident type suggestions. It defines the data scope for analysis when looking at historical data to provide suggestions.|
-| Enable Incident Type Suggestion | When enabled, this setting enables the analysis of historical work order data to suggest ways to improve an organization's usage of incident type. Once enabled, you specify which results the model returns and review the suggestions from the intelligent analysis. From the subgrid, a user can dislike or apply the suggestions from the model. |
 
 ## Field Service SLA Configuration settings
 
@@ -151,6 +153,8 @@ Time entries help track the time that technicians spend on various stages of a w
 |Time Cost Actuals Source| Choose if cost actuals generate based on booking journals or time entries when the time entry is marked as approved. If this setting is empty, the system generates time and cost-focused actuals from booking journals. Actuals are generated when a work order is set to *Closed - Posted*.  |
 
 ## Mixed Reality settings
+
+[!INCLUDE[remote-assist-guides-deprecate](../includes/remote-assist-guides-deprecate.md)]
 
 Change Field Service settings for mixed reality apps. For more information about the integrations with mixed reality apps, go to [Collaborate in mixed reality with Field Service and Remote Assist](remote-assist-hololens.md) and [Integrate Guides with Field Service](mixed-reality-guides-integration.md).
 
@@ -185,5 +189,9 @@ Inspections are forms that technicians use to answer a list of questions as part
 | Enable Address Suggestions   | Enable this setting to get suggestions when entering the addresses in various forms.  |
 | Product cost order   | Choose the order for product cost.   |
 | Work Order Subgrid Records Open as Popups | Specify if work order subgrid records open as a popup on work order form. Subentities of the work order entity: work order product, work order service, work order service task, work order incident, bookable resource booking, and time entry.   |
+
+## Related information
+
+- [Configure Field Service settings for common scenarios](configure-settings-common-scenarios.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

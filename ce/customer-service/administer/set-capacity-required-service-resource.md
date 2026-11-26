@@ -1,10 +1,11 @@
 ---
-title: Set the capacity required for a service or resource (Dynamics 365 Customer Service) | MicrosoftDocs
+title: Set the capacity required for a service or resource in Dynamics 365 Customer Service)
 description: Learn about how to set the capacity required for a service or resource in Dynamics 365 Customer Service.
-ms.date: 10/01/2018
-ms.topic: article
-author: lalexms
-ms.author: laalexan
+ms.date: 05/28/2026
+ms.topic: integration
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -13,7 +14,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Set the capacity for a service or resource (Customer Service app)
+# Set the capacity for a service or resource in Customer Service
 
 Define a limit to the number of activities a resource can perform in a stipulated time by setting the capacity of the resource and services in Dynamics 365 Customer Service. 
   
@@ -85,7 +86,7 @@ When you set capacity of a resource and service, the service calendar doesn’t 
   
 11. Click **Save & Close**.  
   
-### See also  
+### Related information  
  [Create or edit a selection rule](create-simple-selection-rule.md)
 
 

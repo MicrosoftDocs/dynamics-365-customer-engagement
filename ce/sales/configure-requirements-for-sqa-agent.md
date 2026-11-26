@@ -1,0 +1,114 @@
+---
+title: Configure requirements for Sales Qualification Agent
+description: Learn how to configure the requirements for the Research-only and Research and engage modes of the Sales Qualification Agent in Dynamics 365 Sales.
+ms.topic: how-to
+ms.date: 08/03/2026
+ms.update-cycle: 180-days
+ms.service: dynamics-365-sales
+ms.custom: bap-template
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
+search.app: salescopilot-docs
+ms.collection: bap-ai-copilot
+ai-usage: ai-assisted
+---
+
+# Configure requirements for Sales Qualification Agent
+
+Before you configure the agents, make sure your Dynamics 365 Sales environment meets the prerequisites. Depending on the type of automation, configure the requirements as follows:
+
+| Prerequisite | Applicable for | Description |
+|--------------|------------|-------------|
+| Create application in Azure | Research-only and Research and engage | You need an Azure AD application to securely authenticate the agent’s Dataverse Application User, so it can act independently through app-based access.<br>More information: [Create application in Azure](#create-application-in-azure) |
+| Create an app user in Dataverse | Research-only and Research and engage | Create a Dataverse app user so the agent can act independently, like send emails, own records, and more.<br>More information: [Create an app user in Dataverse and assign AISalesPerson role](#create-an-app-user-in-dataverse-and-assign-aisalesperson-role) |
+| Create a shared mailbox | Research and engage | The agent mailbox that you use to send emails and follow-ups in compliance with your org’s policies.<br>More information: [Create a shared mailbox](#create-a-shared-mailbox) |
+| Configuring server-side synchronization | Research and engage | Connect Dynamics 365 Sales and Exchange to sync emails, contacts, tasks, and calendar.<br>More information: [Configuring server-side synchronization](#configuring-server-side-synchronization) |
+
+## Create application in Azure
+
+1. Ensure that you have the **Application Developer** role in Microsoft Entra.
+1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
+1. In the agent settings page, go to the **Prerequisites** section, and in the **Create app in Azure** section, select **Set up**.
+
+    :::image type="content" source="media/sqa-settings-create-app-in-azure.png" alt-text="Screenshot of selecting set up in the create app in Azure section.":::
+
+1. In the **Register an application** page, enter a name, select the account type (usually **Accounts in this organizational directory only**), and if applicable, enter a relevant redirect URI.  
+
+    :::image type="content" source="media/sqa-settings-azure-app-registration.png" alt-text="Screenshot of the new registration page in Azure.":::
+
+    > [!NOTE]
+    > You can also create the application in the Azure portal by going to **Microsoft Entra ID** > **App registrations** and then selecting **New registration**.
+
+1. Select **Register**.  
+    Your app is created, and details are displayed. Copy the created Application (client) ID to use when creating the app user in your Dynamics 365 organization.  
+
+1. Go back to the agent settings page and select the **Mark as done** checkbox in the **Create app in Azure** section. You must select this checkbox to proceed with the agent configuration.  
+
+To learn more about app creation, see [Quickstart: Register an app in Microsoft Entra ID](/entra/identity-platform/quickstart-register-app?tabs=certificate%2Cexpose-a-web-api).  
+
+## Create a shared mailbox
+
+1. Ensure that you have one of the following roles in Microsoft 365 admin portal&madsh; **Global Administrator**, **Exchange Administrator**, or **Exchange Recipient Administrator**.
+1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
+1. In the agent settings page, go to the **Prerequisites** section, and in the **Create shared mailbox** section, select **Set up**.
+
+    :::image type="content" source="media/sqa-settings-create-shared-mailbox.png" alt-text="Screenshot of selecting set up in the create shared mailbox section.":::
+
+1. In the Exchange admin center, go to **Recipients** > **Mailboxes** and then select **Add a shared mailbox**.  
+1. In the **Add a shared mailbox** pane, enter the following information:  
+    - **Display name**: Enter a name for the shared mailbox.  
+    - **Email address**: Enter the email address.  
+
+    :::image type="content" source="media/sqa-settings-add-shared-mailbox.png" alt-text="Screenshot of adding a shared mailbox in the Exchange admin center.":::
+
+1. Select **Create**.  
+    The shared mailbox is created. Now, you can create and add app users to this mailbox as described in the following section.  
+1. Go back to the agent settings page and select the **Mark as done** checkbox in the **Create shared mailbox** section. You must select this checkbox to proceed with the agent configuration.  
+
+To learn more about shared mailboxes, see [Shared mailboxes in Exchange Online](/exchange/collaboration-exo/shared-mailboxes).
+
+## Create an app user in Dataverse and assign AISalesPerson role
+
+1. Ensure that you have the **System Administrator** role for your Dynamics 365 organization.  
+1. [Go to the agent settings page](open-sales-qualification-agent-settings.md).  
+1. In the agent settings page, go to the **Prerequisites** section, and in the **Create an app user in Dataverse** section, select **Set up**.  
+
+    :::image type="content" source="media/sqa-settings-create-app-user.png" alt-text="Screenshot of selecting set up in the create an app user in Dataverse section.":::
+
+1. In Power Platform admin center, select the environment where you want to create the app user.  
+1. Go to **Settings** > **Users + permissions** > **Application users** and then select **+ New app user**.  
+1. In the **Create a new app user** pane, select **+ Add an app** and then add the application (Application client ID) that is registered in Azure.  
+1. Enter the root business unit name, and the security role for the app user as **AIsalesperson**.  
+1. Select **Save**.  
+1. Go back to the agent settings page and select the **Mark as done** checkbox in the **Create an app user in Dataverse** section. You must select this checkbox to proceed with the agent configuration.  
+
+To learn more about app users, see [Manage application users in the Power Platform admin center](/power-platform/admin/manage-application-users).
+
+## Configuring server-side synchronization
+
+1. Ensure that you have the following roles:  
+    - **System Administrator** for your Dynamics 365 organization.  
+    - **Global Administrator** or **Exchange Administrator** in Microsoft 365 admin portal.  
+1. In the agent settings page, go to the **Prerequisites** section, and in the **Configure server side sync** section, select **Set up**.  
+
+    :::image type="content" source="media/sqa-settings-configure-server-side-sync.png" alt-text="Screenshot of selecting set up in the configure server side sync section.":::
+
+    > [!NOTE]
+    > You can also configure server-side synchronization in your Dynamics 365 organization by going to **Advanced Settings** > **System** > **Email Configuration** > **Mailboxes**.
+1. Change the view to **All Mailboxes** and select the mailbox associated with the created application user.  
+1. Replace the email address with that of the shared mailbox and then select **Approve Email**.  
+
+    > [!NOTE]
+    > In the **Synchronization Method** section, ensure that the **Appointment, Contacts and Tasks** option is set to **None**. This setting isn't required for the agent user, as the agent only needs mailbox synchronization.
+
+1. Select **Test & Enable Mailbox** to verify that the server-side sync is established successfully for the email. When successful, the incoming and outgoing email status display Success under the Configuration Status section.  
+1. Go back to the agent settings page and select the **Mark as done** checkbox in the **Configure server side sync** section. You must select this checkbox to proceed with the agent configuration.  
+
+## Next step
+
+[Configure general settings for the Sales Qualification Agent](sales-qualification-agent-general-settings.md)
+
+## Related information
+
+[Configure the Sales Qualification Agent](configure-sales-qualification-agent.md)

@@ -2,7 +2,6 @@
 title: "Package and distribute extensions using solutions (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "In Dynamics 365 Customer Engagement (on-premises), solutions give you a framework for packaging, installing, and uninstalling components that provide specific business functionality. Solutions are used by ISVs and other Dynamics 365 Customer Engagement (on-premises) solution providers to distribute extensions they create, but you'll also use them to transfer customizations between different organizations you may use in your development process, such as separate development, test, and production organizations."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -34,7 +33,7 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], so
   
 ## See also
   
-[Publish your app on AppSource](publish-app-appsource.md)
+[Publish your app on Marketplace](publish-app-appsource.md)
 
 [Create and manage custom business apps in Customer Engagement using code](create-manage-custom-business-apps-using-code.md)  
   

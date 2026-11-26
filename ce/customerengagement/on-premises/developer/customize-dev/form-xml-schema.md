@@ -2,7 +2,6 @@
 title: "Form XML schema | MicrosoftDocs"
 description: "Learn about schema definition for form customizations."
 ms.custom: 
-ms.date: 12/22/2017
 ms.reviewer: pehecke
 
 ms.suite: 

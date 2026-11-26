@@ -2,7 +2,6 @@
 title: "Developer Guide for Dynamics 365 Customer Engagement (on-premises)| MicrosoftDocs"
 description: "This SDK contains a wealth of resources, including code samples, which are designed to help you build powerful vertical applications using the Customer Engagement (on-premises) platform. It is a guide for developers writing solutions, server-side code, client applications and extensions, custom business logic, plug-ins, integration modules, custom workflow modules and more. The SDK contains an architectural overview of Customer Engagement, the entity model, security model, web services, and sample code."
 ms.custom: 
-ms.date: 04/20/2020
 ms.reviewer: pehecke
 
 ms.topic: overview
@@ -91,7 +90,7 @@ Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 <li><a href="package-distribute-extensions-use-solutions.md" data-raw-source="[Use solutions](package-distribute-extensions-use-solutions.md)">Use solutions</a></li>
 <li><a href="/power-platform/alm/package-deployer-tool" data-raw-source="[Use Package Deployer](/power-platform/alm/package-deployer-tool)">Use Package Deployer</a></li>
 <li><a href="compress-extract-solution-file-solutionpackager.md" data-raw-source="[Use SolutionPackager](compress-extract-solution-file-solutionpackager.md)">Use SolutionPackager</a></li>
-<li><a href="publish-app-appsource.md" data-raw-source="[Publish your app on AppSource](publish-app-appsource.md)">Publish your app on AppSource</a></li>
+<li><a href="publish-app-appsource.md" data-raw-source="[Publish your app on Marketplace](publish-app-appsource.md)">Publish your app on Marketplace</a></li>
 </td>
 
 <td>

@@ -1,10 +1,11 @@
 ---
 title: Set up rules to automatically create or update records
 description: Automatically create or update records from incoming activities, such as emails, social activities, or custom activities, without the need for coding.
-ms.date: 08/03/2023
-ms.topic: article
+ms.date: 05/08/2026
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -21,7 +22,7 @@ ms.custom:
 
 Every organization has multiple applications to capture customer interactions. The ability to channel external data into Microsoft Dataverse records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into Dataverse with the help of *record creation and update rules*.  
 
-By using record creation and update rules in Dynamics 365 Customer Service, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, or custom activities, without writing any code. For information on supported activities and entities, go to [Activities and entities supported by rules for creating or updating records automatically](automatically-create-update-records.md#activities-and-entities-supported-by-rules-for-creating-or-updating-records-automatically). You can also set up the rule to convert the incoming activity into multiple records. For example, you can create a case and a lead from a single social activity.  
+By using record creation and update rules in Dynamics 365 Customer Service, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, or custom activities, without writing any code. To learn more about supported activities and entities, go to [Activities and tables supported by rules for creating or updating records automatically](automatically-create-update-records.md#activities-and-tables-supported-by-rules-for-creating-or-updating-records-automatically). You can also set up the rule to convert the incoming activity into multiple records. For example, you can create a case and a lead from a single social activity.  
 
 A record creation and update rule consists of rule items that define the conditions for creating or updating records, and also defines what actions or steps to take on the newly-created records. The rule also contains channel properties that are used to define conditions for rules, and also for setting properties of the record you’re creating or updating.  
 
@@ -294,13 +295,9 @@ Every default or custom activity has an **Additional Parameters** attribute. Thi
 
  For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.  
 
-#### To activate a record creation and update rule  
+1.  In the site map of Copilot Service admin center, go to **Customer support** > **Case settings**.
 
-   [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-1.  Go to **Settings** > **Service Management**. 
-
-2.  Select **Automatic Record Creation and Update Rules**.  
+2.  Select **Automatic record creation and update rules** > **Manage**.  
 
 3.  Open the rule you want to activate, and on the command bar, select **Activate**.  
 
@@ -341,7 +338,7 @@ Perform the following steps before you upgrade a solution:
 
 3.	After the successful upgrade of the solution, activate the Record Creation and Update Rules as required.
 
-### See also
+### Related information
 
  [Create rules to automatically route cases](create-rules-automatically-route-cases.md)   <br>
 

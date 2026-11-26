@@ -1,40 +1,38 @@
 ---
 title: Create and manage users and user profiles
-description: This article provides steps that you can perform to manage users in Omnichannel for Customer Service.
-ms.date: 10/23/2023
+description: This article provides steps that you can perform to manage users in Dynamics 365 Contact Center and Customer Service.
+ms.date: 10/23/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
 # Use the enhanced experience to manage users
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Use the information in this article to manage your agent users for Customer Service. The enhanced user management experience is a simplified UI that eases the complexity of configuring the various settings required for your agent users to provide customer service optimally.
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+Use the information in this article to manage your service representatives in Customer Service. The enhanced user management experience is a simplified UI that eases the complexity of configuring the various settings required for your representatives to provide customer service optimally.
 
 You can manage the following settings for the users in bulk:
 
 - Skills
 - Queues
 - Capacity profiles
-- Swarming
 
-On the user management page, the following three views are available:
+On the **User management** page, the following views are available:
 
-- **Contact center users**: Lists users who are assigned the agent, supervisor, or admin persona.
+- **Contact center users**: Lists users who are assigned the representative, supervisor, or admin persona.
 - **All users**: Lists all the Customer Service users.
-- **Swarm experts**: Lists users who are assigned to be swarm experts.
-
-The enhanced user management experience is available in Customer Service admin center only.
 
 ## Manage contact center users
 
 The attributes that you want to add must be configured in the system. You can update up to 200 users in a single step. For the selected users, you can update up to five attributes in a single step. If you need to update more than five attributes for the selected users, you can save the changes and then update the next set of attributes.
 
-1. Sign in to Dynamics 365, and go to the Customer Service admin center app.
+1. Sign in to Dynamics 365, and go to the Copilot Service admin center app.
 
 1. Select **User management** under **Customer support** in the site map.
 
@@ -51,11 +49,10 @@ The attributes that you want to add must be configured in the system. You can up
 
    - **Update queues**: On the dialog box that appears, in the **Queues** box, select the queues to add or remove, and then select **Add to all** or **Remove from all**. Save your changes.
 
-   - **Update capacity**: On the dialog box that appears, in the **Capacity profiles** box, select the profiles that you want to add or remove, and then select **Add to all** or **Remove from all**. Save your changes.
-
-1. To add users as swarm experts, select **Swarming** and then select **Add as swarm expert**.
-
-1. If you want to see the list of swarm experts, select the **Swarm experts** view. More information: [Configure customer support swarming](configure-customer-support-swarming.md)
+   - **Update capacity profiles**: On the dialog box that appears, in the **Capacity profiles** box, select the profiles that you want to add or remove, and then select **Add to all** or **Remove from all**. Save your changes.
+   - **Update conversation limit**: Enter a value between 1 and 100, select **Update to all**. The new value is applied to the selected representative. You can update the limit in bulk by selecting multiple representatives. Save your changes.
+      > [!TIP]
+      > Start by setting the active conversation limit equal to the capacity value. For example, capacity 4 and limit 4. This setting introduces no operational risk because it mirrors current behavior. When ready to strengthen affinity, raise the active conversation limit above capacity for a selected number of representatives and monitor the impact before scaling.
 
 The users and their updated attributes will be displayed in the **Contact center users** view.
 
@@ -65,41 +62,25 @@ The users and their updated attributes will be displayed in the **Contact center
 
 Users should be configured as a bookable resource so that they can be assigned work items by using unified routing.
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-   
-    1. In the site map, select **User management** in **Customer support**.
+1. In the site map, select **User management** in **Customer support**.
     
-    1. On the **User management** page, select **Manage** for **Users**.
+1. On the **User management** page, select **Manage** for **Users**.
 
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+1. On the **Omnichannel Users** page, double-click a user in the list.
 
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+1. Select the **Omnichannel** tab.
 
-    - In the site map, select **Users** in **General settings**.
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    - Go to the **Service Management** site map, and in **Unified Routing**, select **Users**.
-
-2. On the **Omnichannel Users** page, double-click a user in the list.
-
-3. Select the **Omnichannel** tab.
-
-4. Specify the following in the user page.
+1. Specify the following in the user page.
 
     | Section | Field | Description | Example value |
     |---------------|---------------------|---------------------|-------------------------------------------------|
-    | User Details | Capacity | If capacity units is configured, allocate a value that indicates the capacity of the agent. For information: [Capacity](#capacity). | 100 |
-    | User Details | Default Presence | Assign a default presence status for agent. This is the status that the agent is logged in with, in the Omnichannel for Customer Service app. |
+    | User Details | Capacity | If capacity units is configured, allocate a value that indicates the capacity of the representative. Learn more in [Capacity](#capacity). | 100 |
+    | User Details | Default Presence | Assign a default presence status for a representative. This is the status that the representative is logged in with, in the Copilot Service workspace app. | Available |
 
-5. Select **New Bookable Resource** under the **Skills Configuration** section. The **New Bookable Resource** page appears.
+1. Select **New Bookable Resource** under the **Skills Configuration** section. The **New Bookable Resource** page appears.
 
-6. Do the following:
-   1. Specify the name of agent in the **Name** field.
+1. Do the following:
+   1. Specify the name of representative in the **Name** field.
 
    1. Select **Save**. The **Work Hours** tab is enabled.
  
@@ -116,33 +97,33 @@ Users should be configured as a bookable resource so that they can be assigned w
    
    1. Save and close to return to the **Omnichannel** tab of the **User** page.
 
-7. If capacity profile is configured, in the **Capacity** area, select **Add Existing Capacity Profile**, and select a profile in the list.
+1. If capacity profile is configured, in the **Capacity** area, select **Add Existing Capacity Profile**, and select a profile in the list.
 
    > [!div class=mx-imgBorder]
    > ![Default presence.](../media/oc-user-omni-tab.png)
 
-8. To use the user schedule for assignment, set up the bookable resource calendar. More information: [Apply a calendar to a resource](../../field-service/calendar-resource.md)
+1. To use the user schedule for assignment, set up the bookable resource calendar. Learn more in [Apply a calendar to a resource](../../field-service/calendar-resource.md).
 
-9. Add the user to the required queue that's configured for unified routing. More information: [Configure queues for unified routing](queues-omnichannel.md)
+1. Add the user to the required queue that's configured for unified routing. Learn more in [Configure queues for unified routing](queues-omnichannel.md).
 
    > [!NOTE]
-   > Bots in a queue are modeled as a bookable resource and therefore will be considered for assignment. However, we recommend that you don't add bots to queues that are used for routing records.
+   > Agents in a queue are modeled as a bookable resource and therefore will be considered for assignment. However, we recommend that you don't add agents to queues that are used for routing records.
 
-All users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** security role can use Omnichannel for Customer Service.
+All users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** security role can use Dynamics 365 Contact Center.
 
-For more information on how to create users and assign security roles, see [Assign roles and enable users for Omnichannel for Customer Service](../implement/add-users-assign-roles.md).
+Learn more about how to create users and assign security roles in [Assign roles and enable users for Dynamics 365 Contact Center](../implement/add-users-assign-roles.md).
 
-For users to access the Omnichannel for Customer Service experiences, the roles that you map to personas in role persona mapping must be assigned to the users directly and not through team memberships. For more information about role persona mapping, see [Role persona mapping](role-persona-mapping.md).
+To access the Dynamics 365 Contact Center experiences, users need roles that you map to personas in role persona mapping. Assign these roles directly to users or through team memberships. Learn more about role persona mapping in [Role persona mapping](role-persona-mapping.md).
 
 ### Capacity
 
-Capacity is the arbitrary scale that you choose and set for each of the work streams corresponding to the channels. The capacity assigned to the agent must be a multiplier of the capacity unit that you have defined for the associated workstream. Check the capacity unit defined for the workstreams to determine the value that must be assigned to your agents.
+Capacity is the arbitrary scale that you choose and set for each of the work streams corresponding to the channels. The capacity assigned to the representative must be a multiplier of the capacity unit that you have defined for the associated workstream. Check the capacity unit defined for the workstreams to determine the value that must be assigned to your representatives.
 
-For example, if the capacity unit is 1 for a workstream and you want an agent to be able to take up to 3 conversations simultaneously, the capacity that you assign to the agent should be 3 units. Similarly, if your capacity unit is 5 for the work stream and you want the agent to be able to take up to 3 conversations simultaneously, you should assign 15 units as the capacity for the agent. You can also define capacity profiles. However, we recommend that you use either capacity units or capacity profiles in your environment, and not both. More information: [Create and manage capacity profiles](capacity-profiles.md).
+For example, if the capacity unit is 1 for a workstream and you want a representative to be able to take up to 3 conversations simultaneously, the capacity that you assign to the representative should be 3 units. Similarly, if your capacity unit is 5 for the work stream and you want the representative to be able to take up to 3 conversations simultaneously, you should assign 15 units as the capacity. You can also define capacity profiles. However, we recommend that you use either capacity units or capacity profiles in your environment, and not both. Learn more in [Create and manage capacity profiles](capacity-profiles.md).
 
-### See also
+### Related information
 
-[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
+[Work with queues in Dynamics 365 Contact Center](queues-omnichannel.md)  
 [Configure and manage presence status](presence-custom-presence.md)  
 [Role personas for unified routing](role-persona-mapping.md)  
 [Configure custom limits in capacity profiles](capacity-profiles.md#custom-limits)  

@@ -2,7 +2,6 @@
 title: "Sample: Search and retrieve articles (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "The sample code demonstrates how to search by body, keyword, and title, and retrieve articles by topic incident subject and topic incident product."
 ms.custom: 
-ms.date: 01/02/2020
 ms.reviewer: 
 
 ms.suite: 

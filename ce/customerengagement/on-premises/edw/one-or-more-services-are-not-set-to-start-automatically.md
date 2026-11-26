@@ -3,7 +3,6 @@ title: "One or more services are not set to start automatically | Microsoft Docs
 description: Environment diagnostics warning that one are more services aren't set to start automatically.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -2,19 +2,18 @@
 title: "Best practices for server-side sync in Dynamics 365 Customer Engagement (on-premises)"
 description: "Consider the following best practices when planning and deploying server-side synchronization in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: best-practice
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: eccee121-cfad-4195-8fbf-681ea2595635
 caps.latest.revision: 24
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 

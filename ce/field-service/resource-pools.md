@@ -1,14 +1,24 @@
 ---
-title: Schedule requirements to a resource pool
-description: Learn about resource pool scheduling for Dynamics 365 Field Service.
-ms.date: 02/20/2023
+title: Schedule resource pools
+description: Learn how to use resource pools for deferred assignment and capacity management in Dynamics 365 Field Service.
+ms.date: 07/24/2026
+ms.custom: bap-template
 ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan
+ms.reviewer: v-wendysmith
 ---
 
-# Schedule requirements to a resource pool
+# Schedule resource pools
 
-[!INCLUDE[topic-urs-resource-pools.md](../shared/urs/resource-pools.md)]
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
+
+[!INCLUDE[resource-pools](../shared/urs/resource-pools.md)]
+
+## Related scenarios
+
+- [Schedule a standard work order](scenario-normal-scheduling.md)
+- [Schedule crews](resource-crews.md)
+- [Schedule a facility](facility-scheduling.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

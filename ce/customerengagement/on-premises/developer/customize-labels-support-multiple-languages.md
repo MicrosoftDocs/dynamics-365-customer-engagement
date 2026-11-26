@@ -2,39 +2,10 @@
 title: "Customize labels to support multiple languages (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about customizing labels to support multiple languages."
 ms.custom: 
-ms.date: 11/03/2017
 ms.reviewer: pehecke
-
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
-helpviewer_keywords: 
-  - customizing labels to support multiple languages, messages to use with labels (list of)
-  - translating customized entity and attribute text, customizing labels to support multiple languages
-  - customizing labels to support multiple languages, customizing labels in base languages
-  - exporting customized text for translation, customizing labels to support multiple languages
-  - customizing labels to support multiple languages, translating customized entity and attribute text
-  - customizing labels to support multiple languages, language pack installation instructions
-  - messages for localized labels to support multiple languages, customizing labels to support multiple languages
-  - language pack installation instructions, customizing labels to support multiple languages
-  - customizing labels in base languages, customizing labels to support multiple languages
-  - using labels, customizing labels to support multiple languages
-  - customizing labels to support multiple languages, exporting customized text for translation
-  - multiple languages
-  - customizing labels to support multiple languages, installing multiple language packs on servers
-  - customizing labels to support multiple languages, using labels
-  - metadata properties for labels (list of), customizing labels to support multiple languages
-  - importing translated text, customizing labels to support multiple languages
-  - managing languages for your organization, customizing labels to support multiple languages
-  - customizing labels to support multiple languages, managing languages for your organization
-  - multiple languages, messages for localized labels
-  - installing multiple language packs on servers, customizing labels to support multiple languages
-  - multiple languages, customizing labels for
-  - customizing labels to support multiple languages, importing translated text
-  - customizing labels to support multiple languages, metadata properties for labels (list of)
-ms.assetid: f6a1a03d-938c-4fe1-8f25-2e1551e148ff
 author: JimDaly
 ms.author: jdaly
 search.audienceType: 
@@ -98,8 +69,6 @@ When you create customizations in Dynamics 365 Customer Engagement (on-premises)
 
  Exported text is saved as a compressed file that contains a CrmTranslations.xml that you open by using [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)]. You can send this file to a linguistic expert, translation agency, or localization firm.  
 
- For more information, see [Office 2003 XML Reference Schemas](https://www.microsoft.com/downloads/details.aspx?FamilyID=fe118952-3547-420a-a412-00a2662442d9).  
-
 ### Import translated text  
  After you have exported the customized entity or attribute text and had it translated, you can import the translated text strings in the Web application by using the `ImportTranslation` message (<xref href="Microsoft.Dynamics.CRM.ImportTranslation?text=ImportTranslation Action" /> or <xref:Microsoft.Crm.Sdk.Messages.ImportTranslationRequest> class). The file that you import must be a compressed file that contains the CrmTranslations.xml and the [Content_Types].xml file just as they were exported.  
 
@@ -111,7 +80,9 @@ When you create customizations in Dynamics 365 Customer Engagement (on-premises)
  Because customization is supported only in the base language, you may be working in Dynamics 365 Customer Engagement (on-premises) with the base language set as your language preference. To verify that the translated text appears, you must change your language preference for the Dynamics 365 Customer Engagement (on-premises) user interface. To perform additional customization work, you must change back to the base language.  
 
 <a name="BKMK_ManagingLanguages"></a>   
+
 ## Manage languages for your organization  
+
  Dynamics 365 Customer Engagement (on-premises) enable you to install multiple language packs on a server and allows the user to select a language pack. For more information about how to install language packs, see [Enable Languages](../admin/enable-languages.md). This section contains information about messages used to manage languages installed for your organization.  
 
  The following table lists the messages that you use to work with language packs. Use these messages with the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method.  

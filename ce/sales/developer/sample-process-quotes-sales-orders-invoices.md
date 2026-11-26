@@ -1,17 +1,17 @@
 ---
-title: "Sample: Process quotes, sales orders, and invoices (Dynamics 365 Sales)"
-description: The sample demonstrates how to convert an opportunity that is won to a quote, then convert a quote to a sales order, and then convert a sales order to an invoice.
-ms.date: 01/02/2020
+title: Sample to process quotes, sales orders, and invoices
+description: Learn how to process quotes, sales orders, and invoices by converting a won opportunity to a quote, order, and invoice. Try the sample now.
+ms.date: 07/07/2026
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
-# Sample: Process quotes, sales orders and invoices
+# Sample to process quotes, sales orders and invoices
 
 This sample code is for Dynamics 365 Sales. Download the complete sample here [Business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/sales/ProcessQuotesSalesOrdersInvoices).   
 
@@ -28,7 +28,7 @@ This sample code is for Dynamics 365 Sales. Download the complete sample here [B
 ## Example  
  [!code-csharp[BusinessManagement#ProcessingQuotesAndSalesOrders](../../snippets/csharp/CRMV8/businessmanagement/cs/processingquotesandsalesorders.cs#processingquotesandsalesorders)]  
   
-### See also  
+## Related information  
  [Sales Tables (Lead, Opportunity, Competitor, Quote, Order, Invoice)](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  [Quote, Order and Invoice Tables](quote-order-invoice-entities.md)   
  [Sample: Fulfill a Sales Order](sample-fulfill-sales-order.md)   

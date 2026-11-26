@@ -2,7 +2,6 @@
 title: "Run a simple program using web services (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn to run a simple program using Dynamics 365 Customer Engagement web services."
 ms.custom: 
-ms.date: 03/29/2019
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -74,7 +73,6 @@ After running the QuickStart program or most other SDK console-based samples, th
  [Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](/powerapps/developer/data-platform/xrm-tooling/sample-simplified-connection-quick-start)   
  [Write Code for Dynamics 365 Customer Engagement (on-premises)](extend-dynamics-365-server.md)   
  [Sample Code Directory for Dynamics 365 Customer Engagement (on-premises)](sample-code-directory.md)   
- [Build a .NET Business Application in 60 Minutes with xRM and SharePoint](https://www.microsoftpdc.com/2009/PR33)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

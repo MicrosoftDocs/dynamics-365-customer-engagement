@@ -1,15 +1,21 @@
 ---
 title: Use Join a Teams call to enhance your customer conversations
-description: Learn how to use the Join a Teams call feature in Dynamics 365 Customer Service.
-ms.date: 04/01/2024
+description: Learn how to use the Join a Teams call feature.
+ms.date: 02/28/2026
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ms.custom: bap-template
 ---
 
 # Invite customers to join you on Teams to enhance your conversations
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+> [!NOTE]
+> Case is applicable to Customer Service only.
+
 
 Join a Teams call is a feature that can help you have effective conversations with your customers. During an active conversation, you can quickly move your call or chat to Microsoft Teams. On Teams, you can share your screen, connect on video, and remotely connect with your customers to offer more personalized support. 
 
@@ -17,10 +23,8 @@ If you already have Teams, you don't need any other investments to use the Join 
 
 ## Prerequisites
 
-Ensure that the following prerequisites are met:
-
 - Your administrator must set up Teams for your account and enable the Join a Teams call feature.
-- You must have a Teams license.
+- Your environment must be configured to support Microsoft Teams integration.
 - To invite customers to Teams meetings via email, your email configuration must allow outbound mail.
 
 ## Use Join a Teams call
@@ -53,7 +57,7 @@ To locate or create a customer record:
      
 2. Follow the steps in [Use Join a Teams call](#use-join-a-teams-call) to start the Teams meeting.
 
-### See also
+### Related information
 
 [Set up Join a Teams call](../administer/set-up-join-a-teams-call.md) <br>
 [Use Teams chat in Customer Service](use-teams-chat.md)

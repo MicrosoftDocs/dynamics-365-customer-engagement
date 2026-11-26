@@ -1,16 +1,17 @@
 ---
-title: "Sample: Convert an opportunity to a quote (early bound) (Dynamics 365 Sales)"
+title: Convert an opportunity to a quote (early bound) (sample)
 description: The sample demonstrates how to convert an opportunity that contains products from the product catalog and a write-in product to a quote. 
-ms.date: 03/01/2023
+ms.date: 04/30/2026
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
+
 # Sample: Convert an opportunity to a quote (early bound)
 
 This sample code is for Dynamics 365 Sales. [Download the business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement).
@@ -21,13 +22,14 @@ This sample code is for Dynamics 365 Sales. [Download the business management sa
 ## Requirements  
 [!INCLUDE [sdk-seeconnectionhelper](../../includes/sdk-seeconnectionhelper.md)]
   
-## Demonstrates  
+## Demonstrates
+
  This sample shows how to convert an opportunity that contains products from the product catalog and a write-in product to a quote. It also illustrates how to overwrite a price of a product from the product catalog.  
   
-## Example  
+## Example
  [!code-csharp[BusinessManagement#ConvertOpportunityToQuote](../../snippets/csharp/CRMV8/businessmanagement/cs/convertopportunitytoquote.cs#convertopportunitytoquote)]  
   
-### See also  
+## Related information  
     
  [Opportunity Tables](opportunity-entities.md)   
  <xref:Microsoft.Crm.Sdk.Messages.GenerateQuoteFromOpportunityRequest>

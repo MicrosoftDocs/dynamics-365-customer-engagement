@@ -1,16 +1,16 @@
 ---
-title: Resource utilization on the schedule board in Universal Resource Scheduling
-description: Utilization is the amount of time a resource is scheduled to work. Learn about how it's calculated and displayed on the schedule board.
-ms.reviewer: mhart
+title: Review resource utilization on the schedule board in Universal Resource Scheduling
+description: Learn how to review utilization on the schedule board to see the amount of time a resource is scheduled to work.
 ms.subservice: common-scheduler
-ms.date: 10/04/2023
-ms.topic: conceptual
-author: clearab
-ms.author: anclear
+ms.date: 07/14/2026
+ms.topic: how-to
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
-# Resource utilization on the schedule board in Universal Resource Scheduling
+# Review resource utilization on the schedule board in Universal Resource Scheduling
 
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
 [!INCLUDE[topic-urs-schedule-board-utilization.md](../shared/urs/schedule-board-utilization.md)]
 
 

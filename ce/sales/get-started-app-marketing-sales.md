@@ -1,10 +1,13 @@
 ---
 title: Get started with in-app marketing
 description: Learn how to promote your business and improve sales with targeted marketing campaigns in Dynamics 365 Sales.
-ms.date: 06/20/2022
+ms.date: 05/28/2025
+ms.update-cycle: 1095-days
 ms.collection: get-started
 ms.topic: overview
-ms.custom: bap-template
+ms.custom: 
+  - bap-template
+  - evergreen
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -23,16 +26,8 @@ searchScope:
 Promote your business and improve sales with targeted marketing campaigns in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. Create activities for each campaign and assign them to different team members. Track customer response and costs for each campaign. Follow this step-by-step guide to get started with your marketing campaigns.  
 
 > [!NOTE]
-> In-app marketing is not fully supported in the Dynamics 365 app for Teams.
+> In-app marketing isn't fully supported in the Dynamics 365 app for Teams.
   
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
-
 ## Import contacts, accounts, and leads  
 
 Get your customer records into [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], and add these to marketing lists so you can target your campaigns. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import data](/power-platform/admin/import-data-all-record-types)  
@@ -47,7 +42,7 @@ In the marketing area, use standard campaigns to manage the end-to-end process o
   
 In contrast to standard campaigns, you can use quick campaigns to automatically distribute a single activity to selected accounts, contacts, or leads, or to a single marketing list. The effects of a quick campaign are immediate.  
   
- ![Campaigns versus quick campaigns.](media/marketing-campaign-vs-quick-campaign.png "Campaigns versus quick campaigns")  
+  :::image type="content" source="media/marketing-campaign-vs-quick-campaign.png" alt-text="Screenshot of the comparison between campaigns and quick campaigns in Dynamics 365 Sales.":::
   
 ## Create a campaign or a quick campaign
 
@@ -84,7 +79,7 @@ When a member selects the unsubscribe link, the **Marketing Materials** setting 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
   
-### See also
+## Related information
 
 [Create a marketing list using in-app marketing](create-marketing-list-using-app-marketing-sales.md)   
 [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)   

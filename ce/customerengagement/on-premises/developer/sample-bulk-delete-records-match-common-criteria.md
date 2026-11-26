@@ -2,7 +2,6 @@
 title: "Sample: Bulk delete records that match common criteria| MicrosoftDocs"
 description: "Sample demonstrates how to delete records, in bulk, that match common criteria."
 keywords: 
-ms.date: 10/31/2017
 
 ms.custom: 
 ms.topic: sample
@@ -28,7 +27,7 @@ search.audienceType:
 
 # Sample: Bulk delete records that match common criteria
 
-This sample shows how to delete records, in bulk, that match common criteria. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/BulkDeleteMatchCriteria).
+This sample shows how to delete records, in bulk, that match common criteria. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/BulkDeleteMatchCriteria).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

@@ -1,0 +1,1 @@
+The following Data Analysis Expression (DAX) query and corresponding Dataverse entities are used in the Power BI semantic model. Learn more in [DAX queries](/en-us/dax/dax-queries).

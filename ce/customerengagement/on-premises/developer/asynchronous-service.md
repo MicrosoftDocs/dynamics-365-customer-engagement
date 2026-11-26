@@ -1,7 +1,6 @@
 ---
 title: "Asynchronous service in Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn about the asynchronous service that executes long-running operations independent of the main Dynamics 365 Customer Engagement (on-premises) Customer Engagement core operation. The asynchronous service features a managed queue for the execution of asynchronous registered plug-ins, workflows, and operations such as bulk mail, bulk import, and campaign activity propagation."
-ms.date: 06/20/2023
 ms.reviewer: pehecke
 ms.topic: article
 applies_to: 

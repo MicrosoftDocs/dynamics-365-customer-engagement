@@ -2,12 +2,11 @@
 title: "Add a new organization in Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 description: Learn how to add a new organization in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
-ms.date: 10/01/2018
 
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0370ff17-bcb8-41d4-ba58-5dda590d8949

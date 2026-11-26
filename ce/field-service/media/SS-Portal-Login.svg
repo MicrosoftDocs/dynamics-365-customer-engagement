@@ -1,0 +1,228 @@
+<svg width="876" height="454" aria-owns="html1" data-stacking-context="true" version="1.1" viewBox="8 32 876 454" xmlns="http://www.w3.org/2000/svg">
+ <g data-stacking-context="true" data-tag="html" data-z-index="auto">
+  <g data-stacking-context="true" data-tag="body" data-z-index="auto" role="document">
+   <g data-stacking-layer="rootBackgroundAndBorders">
+    <rect width="911" height="421.41" fill="#fff"/>
+   </g>
+   <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+    <g mask="url(#a)" aria-label="web" data-stacking-context="true" data-tag="img" data-z-index="auto" role="img">
+     <mask id="a">
+      <rect width="0" height="0" fill="#fff"/>
+     </mask>
+    </g>
+    <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+     <g mask="url(#d)" aria-label="close" data-stacking-context="true" data-tag="img" data-z-index="auto" role="img">
+      <mask id="d">
+       <rect width="0" height="0" fill="#fff"/>
+      </mask>
+     </g>
+    </g>
+   </g>
+   <g data-stacking-context="true" data-tag="div" data-z-index="auto" role="main">
+    <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+     <g data-stacking-context="true" data-tag="ul" data-z-index="auto" role="tablist">
+      <g data-stacking-layer="rootBackgroundAndBorders">
+       <line x1="95.5" x2="815.5" y1="94" y2="94" stroke="#ddd" stroke-linecap="square" stroke-width="1px"/>
+      </g>
+      <g data-stacking-context="true" data-tag="li" data-z-index="auto" role="none">
+       <g aria-label="Sign in" data-stacking-context="true" data-tag="a" data-z-index="auto" role="tab">
+        <g data-stacking-layer="rootBackgroundAndBorders">
+         <rect x="98.5" y="50" width="92.7" height="44" rx="4" ry="4" fill="#fff"/>
+         <g stroke="#ddd" stroke-linecap="square" stroke-width="1px">
+          <line x1="98.5" x2="191.2" y1="50" y2="50"/>
+          <line x1="191.2" x2="191.2" y1="50" y2="94"/>
+          <line x1="98.5" x2="98.5" y1="50" y2="94"/>
+         </g>
+        </g>
+        <g aria-hidden="true" data-stacking-context="true" data-tag="span" data-z-index="auto">
+         <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+          <text color="rgb(85, 85, 85)" dominant-baseline="text-after-edge" fill="rgb(85, 85, 85)" font-family='"Glyphicons Halflings"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(85, 85, 85)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="114.50" y="80.00" lengthAdjust="spacingAndGlyphs" textLength="14.00" xml:space="preserve"></tspan></text>
+         </g>
+        </g>
+        <text color="rgb(85, 85, 85)" dominant-baseline="text-after-edge" fill="rgb(85, 85, 85)" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(85, 85, 85)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="128.50" y="81.00" lengthAdjust="spacingAndGlyphs" textLength="46.70" xml:space="preserve"> Sign in</tspan></text>
+       </g>
+       <g aria-label="Redeem invitation" aria-selected="false" data-stacking-context="true" data-tag="a" data-z-index="auto" role="tab" tabindex="-1">
+        <text color="rgb(51, 122, 183)" dominant-baseline="text-after-edge" fill="rgb(51, 122, 183)" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(51, 122, 183)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="212.20" y="79.00" lengthAdjust="spacingAndGlyphs" textLength="112.06" xml:space="preserve">Redeem invitation</tspan></text>
+       </g>
+      </g>
+     </g>
+     <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+      <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+       <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+        <g data-stacking-context="true" data-tag="form" data-z-index="auto" role="form">
+         <g mask="url(#c)" data-stacking-context="true" data-tag="input" data-z-index="auto">
+          <mask id="c">
+           <rect width="0" height="0" fill="#fff"/>
+          </mask>
+         </g>
+         <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+          <g aria-level="2" data-stacking-context="true" data-tag="h2" data-z-index="auto" role="heading">
+           <g data-stacking-layer="rootBackgroundAndBorders">
+            <line x1="95.5" x2="815.5" y1="164.56" y2="164.56" stroke="#e5e5e5" stroke-linecap="square" stroke-width="1px"/>
+           </g>
+           <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+            <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+             <text color="rgb(51, 51, 51)" dominant-baseline="text-after-edge" fill="rgb(51, 51, 51)" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="20px" font-stretch="100%" font-weight="700" text-decoration="none solid rgb(51, 51, 51)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="95.50" y="139.00" lengthAdjust="spacingAndGlyphs" textLength="262.27" xml:space="preserve">Sign in with a local account</tspan></text>
+            </g>
+           </g>
+          </g>
+          <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+           <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+            <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+             <text color="rgb(255, 0, 0)" dominant-baseline="text-after-edge" fill="rgb(255, 0, 0)" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14px" font-stretch="100%" font-weight="700" text-decoration="none solid rgb(255, 0, 0)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="238.45" y="210.56" lengthAdjust="spacingAndGlyphs" textLength="9.34" xml:space="preserve">* </tspan></text>
+             <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+              <text color="rgb(0, 0, 0)" dominant-baseline="text-after-edge" fill="rgb(0, 0, 0)" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14px" font-stretch="100%" font-weight="700" text-decoration="none solid rgb(0, 0, 0)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="247.80" y="210.56" lengthAdjust="spacingAndGlyphs" textLength="67.70" xml:space="preserve">Username</tspan></text>
+             </g>
+            </g>
+           </g>
+           <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+            <g mask="url(#f)" aria-labelledby="label1" aria-required="true" data-stacking-context="true" data-tag="input" data-z-index="auto">
+             <g data-stacking-layer="rootBackgroundAndBorders">
+              <defs>
+               <filter id="h" x="-.0010661" y="-.015152" width="1.0021" height="1.0303">
+                <feDropShadow dx="0" dy="1" flood-color="rgba(0, 0, 0, 0.075)" stdDeviation="1"/>
+               </filter>
+              </defs>
+              <rect x="345.5" y="185.56" width="469" height="33" rx="4" ry="4" fill="#fff" filter="url(#h)" stroke="#949494" stroke-width="1px"/>
+             </g>
+             <mask id="f">
+              <rect x="345.5" y="185.56" width="469" height="33" rx="4" ry="4" fill="#fff"/>
+             </mask>
+            </g>
+           </g>
+           <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+            <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+             <text color="rgb(255, 0, 0)" dominant-baseline="text-after-edge" fill="rgb(255, 0, 0)" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14px" font-stretch="100%" font-weight="700" text-decoration="none solid rgb(255, 0, 0)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="240.02" y="259.56" lengthAdjust="spacingAndGlyphs" textLength="9.34" xml:space="preserve">* </tspan></text>
+             <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+              <text color="rgb(0, 0, 0)" dominant-baseline="text-after-edge" fill="rgb(0, 0, 0)" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14px" font-stretch="100%" font-weight="700" text-decoration="none solid rgb(0, 0, 0)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="249.36" y="259.56" lengthAdjust="spacingAndGlyphs" textLength="66.14" xml:space="preserve">Password</tspan></text>
+             </g>
+            </g>
+           </g>
+           <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+            <g aria-labelledby="label2" aria-required="true" data-stacking-context="true" data-tag="input" data-z-index="auto">
+             <g data-stacking-layer="rootBackgroundAndBorders">
+              <defs>
+               <filter id="g" x="-.0010661" y="-.015152" width="1.0021" height="1.0303">
+                <feDropShadow dx="0" dy="1" flood-color="rgba(0, 0, 0, 0.075)" stdDeviation="1"/>
+               </filter>
+              </defs>
+              <rect x="345.5" y="234.56" width="469" height="33" rx="4" ry="4" fill="#fff" filter="url(#g)" stroke="#949494" stroke-width="1px"/>
+             </g>
+            </g>
+            <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+             <g data-stacking-context="true" data-tag="label" data-z-index="auto">
+              <g mask="url(#b)" data-stacking-context="true" data-tag="input" data-z-index="auto">
+               <mask id="b">
+                <rect width="0" height="0" fill="#fff"/>
+               </mask>
+              </g>
+              <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+               <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+                <text color="rgb(0, 0, 0)" dominant-baseline="text-after-edge" fill="rgb(0, 0, 0)" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(0, 0, 0)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="365.50" y="308.56" lengthAdjust="spacingAndGlyphs" textLength="100.38" xml:space="preserve">Remember me?</tspan></text>
+               </g>
+              </g>
+             </g>
+            </g>
+            <g aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button">
+             <g data-stacking-layer="rootBackgroundAndBorders">
+              <rect x="345.5" y="325.56" width="67.81" height="33" rx="4" ry="4" fill="#337ab7" stroke="#2e6da4" stroke-width="1px"/>
+             </g>
+             <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="none"><tspan x="358.50" y="350.56" lengthAdjust="spacingAndGlyphs" textLength="42.81" xml:space="preserve">Sign in</tspan></text>
+            </g>
+            <text color="rgb(0, 0, 0)" dominant-baseline="text-after-edge" fill="rgb(0, 0, 0)" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(0, 0, 0)" text-rendering="auto" unicode-bidi="isolate" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="414.31" y="349.19" lengthAdjust="spacingAndGlyphs" textLength="3.89" xml:space="preserve"> </tspan></text>
+            <g data-stacking-context="true" data-tag="a" data-z-index="auto" role="link">
+             <g data-stacking-layer="rootBackgroundAndBorders">
+              <rect x="418.2" y="325.56" width="168.19" height="33" rx="4" ry="4" fill="#fff" stroke="#ccc" stroke-width="1px"/>
+             </g>
+             <text color="rgb(51, 51, 51)" dominant-baseline="text-after-edge" fill="rgb(51, 51, 51)" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(51, 51, 51)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="none"><tspan x="431.20" y="350.56" lengthAdjust="spacingAndGlyphs" textLength="143.19" xml:space="preserve">Forgot your password?</tspan></text>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g data-stacking-context="true" data-tag="footer" data-z-index="auto" role="contentinfo">
+    <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+     <g data-stacking-layer="rootBackgroundAndBorders">
+      <rect y="374.56" width="911" height="46.84" fill="#fff"/>
+     </g>
+     <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+      <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+       <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+        <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+         <g data-stacking-context="true" data-tag="p" data-z-index="auto">
+          <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+           <text color="rgb(34, 34, 30)" dominant-baseline="text-after-edge" fill="rgb(34, 34, 30)" font-family="Arial" font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 34, 30)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="313.97" y="405.56" lengthAdjust="spacingAndGlyphs" textLength="16.23" xml:space="preserve">© </tspan></text>
+          </g>
+          <text color="rgb(34, 34, 30)" dominant-baseline="text-after-edge" fill="rgb(34, 34, 30)" font-family="Arial" font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 34, 30)" text-rendering="auto" unicode-bidi="isolate" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="330.20" y="405.56" lengthAdjust="spacingAndGlyphs" textLength="104.08" xml:space="preserve">2024 Contoso </tspan></text>
+          <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+           <g data-stacking-context="true" data-tag="strong" data-z-index="auto">
+            <text color="rgb(34, 34, 30)" dominant-baseline="text-after-edge" fill="rgb(34, 34, 30)" font-family="Arial" font-size="16px" font-stretch="100%" font-weight="700" text-decoration="none solid rgb(34, 34, 30)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="434.28" y="405.56" lengthAdjust="spacingAndGlyphs" textLength="4.45" xml:space="preserve">.</tspan></text>
+           </g>
+           <text color="rgb(34, 34, 30)" dominant-baseline="text-after-edge" fill="rgb(34, 34, 30)" font-family="Arial" font-size="16px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(34, 34, 30)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="438.73" y="405.56" lengthAdjust="spacingAndGlyphs" textLength="158.28" xml:space="preserve"> Powered by Microsoft</tspan></text>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g data-stacking-layer="childStackingContextsWithPositiveStackLevels">
+    <g data-stacking-context="true" data-tag="div" data-z-index="2000">
+     <g data-stacking-context="true" data-tag="div" data-z-index="auto">
+      <g mask="url(#e)" aria-label="lock" data-stacking-context="true" data-tag="img" data-z-index="auto" role="img">
+       <mask id="e">
+        <rect x="239.45" y="5" width="20" height="20" fill="#fff"/>
+       </mask>
+      </g>
+      <g data-stacking-context="true" data-tag="b" data-z-index="auto">
+       <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="13px" font-stretch="100%" font-weight="700" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+      </g>
+      <g data-stacking-context="true" data-tag="span" data-z-index="auto">
+       <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="13px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+      </g>
+      <g data-stacking-context="true" data-tag="u" data-z-index="auto">
+       <g data-stacking-context="true" data-tag="a" data-z-index="auto" role="link">
+        <text color="rgb(255, 255, 255)" dominant-baseline="text-after-edge" fill="rgb(255, 255, 255)" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="13px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(255, 255, 255)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <style>@font-face {			
+font-family: "sans-serif";			
+src: local("sans-serif");			
+}
+						
+@font-face {			
+font-family: "Helvetica Neue";			
+src: local("Helvetica Neue");			
+}
+						
+@font-face {			
+font-family: "Helvetica";			
+src: local("Helvetica");			
+}
+						
+@font-face {			
+font-family: "Arial";			
+src: local("Arial");			
+}
+						
+@font-face {			
+font-family: "Segoe UI";			
+src: local("Segoe UI");			
+}
+						
+@font-face {			
+font-family: "Glyphicons Halflings";			
+src: local("Glyphicons Halflings");			
+}</style>
+</svg>

@@ -1,94 +1,114 @@
 ---
-title: Model customization of historical and real-time analytics reports in Customer Service | MicrosoftDocs
-description: Learn how to customize historical and real-time analytics reports in Dynamics 365 Customer Service using Power BI.
-ms.date: 03/13/2024
-ms.topic: article
+title: Customize data models of historical and real-time analytics reports
+description: Learn to customize Dynamics 365 analytics reports. Add custom KPIs, extend out-of-the-box models, and embed them in Microsoft Fabric.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
-ms.custom: 
+ms.reviewer: sdas
+ms.topic: how-to
+ms.collection:
+ms.date: 09/29/2026
+ms.custom:
+  - bap-template
   - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
 ---
 
+
+
+
 # Customize data models of historical and real-time analytics reports
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
-Use the extensibility feature in Microsoft Power BI to extend the out-of-the-box data models for the analytics reports in Customer Service and integrate with other datasets to create new custom metrics. You can customize the out-of-the-box standard reports and add your own Key Performance Indicators (KPIs) to view the key metrics that are relevant to your organization. You can also add custom metrics to the detail reports.
+This article explains how to customize Power BI data models for historical and real-time analytics reports in Dynamics 365 Customer Service. Extend out-of-the-box data models, add custom metrics and KPIs, and integrate with other semantic models to create reports that fit your organization’s needs.
 
-The key capabilities of model customization include the ability to:
+Key capabilities of model customization include the ability to:
 
 - Edit the out-of-the-box data model and add new metrics.
 
 - Bring in your own custom entities from Dataverse or any other source and extend the Power BI data model.
 
-- Publish the customized report to a specific Power BI workspace.
+- Publish the customized report to a specific Microsoft Fabric workspace.
 
-- Customize the report site map and enable users to access the reports natively from Customer Service workspace.
+- Customize the report site map and enable users to access the reports natively from the Copilot Service workspace app.
 
 - Auto refresh reports as soon as source data is updated.
 
-Enable data model customization for historical and real-time analytics reports in Customer Service admin center, and then complete the following tasks:
+Enable data model customization for historical and real-time analytics reports in Copilot Service admin center, and then complete the following tasks:
 
-1. Select a Power BI workspace.
-1. Provision the data models and copy of reports.
-1. Grant permissions for dataset and reports.
-1. Embed customized reports back to Dynamics 365.
+1. [Select a Microsoft Fabric workspace](#step-1-select-a-microsoft-fabric-workspace)
+1. [Provision the data models and copy of reports](#step-2-provision-the-data-models)
+1. [Grant permissions for semantic models and reports](#step-3-grant-permissions-for-semantic-models-and-reports)
+1. [Embed customized reports back to Dynamics 365](#step-4-embed-customized-reports-back-to-dynamics-365)
 
 ## Prerequisites
 
-Before you begin, you must complete the following prerequisites:
+Before you begin, complete the following prerequisites:
 
-- Your organization must have the Power BI Professional or Power BI Premium license for all supervisors and administrators. If you're embedding the Power BI reports into apps, then you must have a Power BI Premium license. Otherwise, the embedded report shows a banner that prompts you to upgrade.
+### Licenses
 
-- Enable insights features in Customer Service:
+Specific licensing requirements apply for: 
 
-  - If you're enabling historical data model customization, you must enable at least one of the historical reports, such as Customer Service historical analytics, Omnichannel historical analytics, or knowledge analytics. For more information, see [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md).
+  - All report users to access reports.
+  - All report authors, developers, supervisors, and administrators to build Power BI reports and extend the default Power BI data model. 
+    
+  Learn more at [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718) and [Power Platform Pricing](https://go.microsoft.com/fwlink/?linkid=2309616).
+
+ ### Enable insights features in Customer Service
+
+  - If you're enabling historical data model customization, you must enable at least one of the historical reports, such as Customer Service historical analytics, Omnichannel historical analytics, or Knowledge analytics. For more information, see [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md).
   - If you're enabling real-time data model customization, you must enable real-time analytics for Omnichannel. For more information, see [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md).
 
-- Create a Microsoft Entra ID security group:
+### Create a Microsoft Entra ID security group
 
-  - Your Microsoft Entra ID administrator must create a security group with your preferred name in Microsoft Entra ID and add **Dynamics 365 Analytics** service account as a member of this security group. For more information, see [Create a basic group and add members using Microsoft Entra ID](/entra/fundamentals/how-to-manage-groups).
+Your Microsoft Entra ID administrator must create a security group with your preferred name in Microsoft Entra ID and add **Dynamics 365 Analytics** service account as a member of this security group. For more information, see [Create a basic group and add members using Microsoft Entra ID](/entra/fundamentals/how-to-manage-groups).
 
-      The out-of-the-box **Service Principal Dynamics 365 Analytics** is used to deploy the data model and make changes to the Power BI workspace on behalf of Customer Service.
+The out-of-the-box **Service Principal Dynamics 365 Analytics** is used to deploy the data model and make changes to the Microsoft Fabric workspace on behalf of Customer Service.
 
-      Permissions within Power BI can be granted to groups only and not individual service principals, and therefore a group needs to be created.
+Power BI lets you grant permissions to groups only, not individual service principals, so you need to create a group or directly grant access to the relevant workspace. 
 
   > [!NOTE]
-  > In organizations where the Dynamics 365 Analytics service account might not be available, you need to use the Dynamics CCA Data Analytics service account.
+  > If the Dynamics 365 Analytics service account isn't available in your organization, use the Dynamics CCA Data Analytics service account.
 
-- Enable Power BI service features from the Power BI admin portal. The Power BI administrator must enable the following, either for the entire organization or for the security group created earlier:
+### Enable Power BI service features from the Microsoft Fabric Admin portal
 
-  - [**Create workspace (new workspace experience)**](/power-bi/admin/service-admin-portal-workspace#create-workspaces-new-workspace-experience): Enabling this feature creates two workspaces, a managed workspace and a customer workspace to deploy Dynamics data model and reports.
+The Power BI administrator must enable the following features, either for the entire organization or for the security group created earlier. Learn more in [Microsoft Fabric tenant settings](/fabric/admin/service-admin-portal-microsoft-fabric-tenant-settings?branch=main).
 
-  - [**Allow service principals to use Power BI APIs**](/power-bi/enterprise/service-premium-service-principal#enable-service-principals): This feature uses the Power BI APIs for creating workspaces, deploying reports and models.
+  1. In **Workspace settings**, enable [**Create workspace (new workspace experience)**](/fabric/admin/portal-workspace#create-workspaces): Enabling this feature creates two workspaces, a managed workspace and a customer workspace to deploy Dynamics data model and reports.
 
-  - **Allow DirectQuery connections to Power BI datasets**: When report authors build new metrics or bring more data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so DirectQuery needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
+  1. In **Developer settings**, enable [**Service principals can call Fabric APIs**](/fabric/admin/service-admin-portal-developer#service-principals-can-call-fabric-public-apis): This feature uses the Fabric APIs for creating workspaces, deploying reports and models. 
   
-  - **Allow XMLA endpoints and Analyze in Excel with on-premise datasets**: When report authors build new metrics or bring more data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so this feature needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission.
+  1.  In **Developer settings**, enable [**Service principals can create workspaces, connections, and deployment pipelines**](/fabric/admin/service-admin-portal-developer#service-principals-can-create-workspaces-connections-and-deployment-pipelines).
 
-  - **Embed content in apps** (**Optional**): Enabling this feature embeds customized reports in Dynamics 365 ([Step 4: Embed customized reports back to Dynamics 365](#step-4-embed-customized-reports-back-to-dynamics-365)). Users who view the custom reports from Dynamics 365 Customer Service require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
+  1. In **Export settings**, enable [**Allow DirectQuery connections to Power BI semantic models**](/fabric/admin/service-admin-portal-export-sharing#allow-directquery-connections-to-power-bi-semantic-models): When report authors build new metrics or bring more data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so DirectQuery needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
+  
+  1. In **Integration settings**, enable **[Allow XMLA endpoints and Analyze in Excel with on-premises datasets](/fabric/admin/service-admin-portal-integration#allow-xmla-endpoints-and-analyze-in-excel-with-on-premises-datasets)**: When report authors build new metrics or bring more data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so this feature needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission.
 
-- If you plan to use an existing Power BI workspace to host the copy of the out-of-the-box reports (customer workspace), make sure that the Dynamics Administrator (user sign in) enabling the model customization is a workspace administrator of that Power BI workspace.
+  1. **Embed content in apps**: Enabling this feature embeds customized reports in Dynamics 365 ([Step 4: Embed customized reports back to Dynamics 365](#step-4-embed-customized-reports-back-to-dynamics-365)). Users who view the custom reports from Dynamics 365 Customer Service require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
 
 ## Enable Power BI data model customization
 
- 1. In the Customer Service admin center site map, select **Insights** in **Operations**.
+ 1. In the Copilot Service admin center site map, select **Insights** in **Operations**.
  1. On the **Insights** page in the **Report settings** section:
-     1. For historical, select **Embedded Power BI extensibility - Historical data model customization** and then select **Manage**.
-     1. For real time, select **Embedded Power BI extensibility - Real-time data model customization** and then select **Manage**.
+     - For historical, select **Embedded Power BI extensibility - Historical data model customization** and then select **Manage**.
+     - For real time, select **Embedded Power BI extensibility - Real-time data model customization** and then select **Manage**.
  1. On the selected page, switch the **Enable embedded Power BI data model customization** toggle to **On**.
 
-## Step 1: Select a Power BI workspace
+## Step 1: Select a Microsoft Fabric workspace
 
-Specify the Power BI workspace where the Dynamics data model and reports are provisioned.
+  > [!NOTE]
+  > If you plan to use an existing Microsoft Fabric workspace to host the copy of the out-of-the-box reports (customer workspace), make sure that the Dynamics Administrator (user sign in) enabling the model customization is a workspace administrator of that Microsoft Fabric workspace.
 
-1. From the Insights page, go to the data model for which you want to select a Power BI workspace.
+Specify the Microsoft Fabric workspace where the Dynamics data model and reports are provisioned.
 
-1. Select **Create new workspace** or to use an existing workspace, select a workspace from the dropdown list.
+1. From the Insights page, go to the data model for which you want to select a Microsoft Fabric workspace.
+
+1. Select **Create new workspace**, or to use an existing workspace, select the workspace from the dropdown list.
 
 1. Select **Save**. This action initiates the provisioning of the reports.
 
@@ -96,31 +116,34 @@ The specified workspace applies only to the customer's workspace. Microsoft crea
 
 ## Step 2: Provision the data models
 
+> [!NOTE]
+> For successful provisioning of the data models, make sure that you  [created a Microsoft Entra ID security group](#create-a-microsoft-entra-id-security-group) and added **Dynamics 365 Analytics** service account as a member of this security group.
+
 It could take up to 24 hours for the provisioning to complete. You can leave the **Settings** page and check back after a few hours. Select **Refresh** to check the provisioning status.
 
-## Step 3: Grant permissions for dataset and reports
+## Step 3: Grant permissions for semantic models and reports
 
-After the report is provisioned, you must provide **Write** permissions for users who author reports in Power BI and **Read** permissions for supervisors and other consumers of the reports.
+After the report is set up, give **Write** permissions to users who author reports in Power BI, and **Read** permissions to supervisors and other report consumers.
 
 You must be a **Workspace Administrator** on both managed and customer workspaces (configured on Step 1) in Power BI to complete this step. By default, the user who starts the provisioning (Step 2) has the necessary permissions added.
 
-:::image type="content" source="../media/step3-grant-permissions.png" alt-text="Screenshot of step 3 grant, read and write permissions":::
+:::image type="content" source="../media/step3-grant-permissions.png" alt-text="Screenshot of step 3 showing how to grant read and write permissions for Power BI data models.":::
 
 ### Grant access to the Power BI data model
 
-Report authors connect to the specified data model to build custom reports. When you select the **Power BI Data model** link, the managed workspace opens up and the details of the data model are displayed. Use the **Share** dialog to provide access to users by entering their email address. For more information, see [Share access to a dataset](/power-bi/connect-data/service-datasets-share).
+Report authors connect to the specified data model to build custom reports. When you select the **Power BI Data model** link, the managed workspace opens up and the details of the data model are displayed. Use the **Share** dialog to provide access to users by entering their email address. For more information, see [Share access to a semantic model](/power-bi/connect-data/service-datasets-share).
 
-You need to provide report authors and viewers with **Allow recipients to build content with the data associated with this dataset** access.
+You need to provide report authors and viewers with **Allow recipients to build content with the data associated with this semantic model** access.
 
 ### Grant permissions to the customized Power BI report (optional)
 
-When you select the **Customized Power BI Report** link, the Power BI workspace where the sample reports are provided appears in a lineage view. These reports are the copy of your out-of-the-box reports and can be edited and modified. You must provide access to the workspace only if your organization plans on using these copies to develop reports.
+When you select the **Customized Power BI Report** link, the Microsoft Fabric workspace with sample reports appears in a lineage view. These reports are copies of your out-of-the-box reports and can be edited or modified. Give access to the workspace only if your organization plans to use these copies to develop reports.
 
-Select **Access**, and provide **Contributor** access to your report authors and **Viewer** access to users who view these or any other reports built in this Power BI workspace. If you plan to embed the report back to Dynamics 365 Customer Service, you must provide **Member** access to the supervisors for them to view the embedded report within the Customer Service workspace. For more information on data permissions, see [Manage dataset access permissions (preview)](/power-bi/connect-data/service-datasets-manage-access-permissions).
+Select **Access**, and provide **Contributor** access to your report authors and **Viewer** access to users who view these or any other reports built in this Microsoft Fabric workspace. If you plan to embed the report back to Dynamics 365 Customer Service, you must provide **Member** access to the supervisors for them to view the embedded report within the Copilot Service workspace. For more information on data permissions, see [Manage semantic model access permissions (preview)](/power-bi/connect-data/service-datasets-manage-access-permissions).
 
 ## Step 4: Embed customized reports back to Dynamics 365
 
-After your report authors create and publish the customized reports, you can allow Dynamics users to access these reports from the Customer service workspace.
+After your report authors create and publish the customized reports, you can allow Dynamics users to access these reports from the Copilot service workspace. This step is optional.
 
 1. Select the data model reports.
 
@@ -144,9 +167,10 @@ After your report authors create and publish the customized reports, you can all
 
 The dropdown list is populated with the reports in the workspace configured on Step 1. The preferred report name appears for your Dynamics users when they access the reports. You can add a maximum of 40 reports.
 
-The customized reports site map in the Customer service workspace is shared between historical and real-time data model customization features. You can reorder the reports on both historical and real time admin pages. For both historical and real time, you can modify or delete reports added from the respective historical and real-time data model customization pages only.
+The customized reports site map in the Copilot service workspace is shared between historical and real-time data model customization features. You can reorder the reports on both historical and real-time admin pages. For both historical and real time, you can modify or delete reports added from the respective historical and real-time data model customization pages only.
 
-Supervisor actions like assign, transfer, monitor, and force close aren't available for model customized reports.
+> [!NOTE]
+> For custom reports that you deploy in Copilot Service workspace, manually update the semantic data model to get the updates, then refresh and redeploy the custom reports. 
 
 ## Enable automatic page refresh for reports
 
@@ -154,11 +178,11 @@ Automatic page refresh is available only for real-time reports.
 
 You can enable automatic page refresh for your reports at fixed intervals so that you always see the latest data. For more information, see [Authoring reports with automatic page refresh in Power BI Desktop](/power-bi/create-reports/desktop-automatic-page-refresh#authoring-reports-with-automatic-page-refresh-in-power-bi-desktop).
 
-As an administrator with Premium capacity, you must first enable [automatic page refresh](/power-bi/enterprise/service-admin-premium-workloads#automatic-page-refresh) from the [Power BI Admin portal](https://msit.powerbi.com/). You need to use the [fixed interval](/power-bi/create-reports/desktop-automatic-page-refresh#fixed-interval) refresh type with either 5 or 10 seconds as the interval.
+As an administrator, you must first enable [automatic page refresh](/power-bi/enterprise/service-admin-premium-workloads#automatic-page-refresh) from the [Microsoft Fabric Admin portal](https://msit.powerbi.com/). You need to use the [fixed interval](/power-bi/create-reports/desktop-automatic-page-refresh#fixed-interval) refresh type with either 5 or 10 seconds as the interval.
 
-To enable automatic page refresh for specific reports:
+To enable automatic page refresh for specific reports, complete the following steps:
 
-1. Download the real-time report from your Customer Service workspace app.
+1. Download the real-time report from your Copilot Service workspace app.
 1. Go to **Visualizations** > **Format page**.
 1. Switch the **Page refresh** toggle to **On**.
 1. Select **Auto page refresh** from the **Refresh type** dropdown list.
@@ -167,11 +191,28 @@ To enable automatic page refresh for specific reports:
 
 In case you change the report name, perform the steps provided in [Step 4: Embed customized reports back to Dynamics 365](#step-4-embed-customized-reports-back-to-dynamics-365).
 
+## Monitor capacity and performance
+
+Monitoring capacity and performance gives you a complete picture of how well your custom semantic models and reports scale, perform, and function under load.
+
+### Monitor capacity with Microsoft Fabric Capacity Metrics app
+
+> [!NOTE]
+> When you [install the Microsoft Fabric Capacity Metrics app](/fabric/enterprise/metrics-app-install?tabs=1st), it creates a workspace in your Microsoft Fabric tenant. To share the report, you must be a capacity admin. Learn  more in [Share the Fabric Capacity Metrics report](/fabric/enterprise/metrics-app#share-the-fabric-capacity-metrics-report).
+
+The [Microsoft Fabric Capacity Metrics app](/fabric/enterprise/metrics-app) shows how customized data models and reports consume shared capacity in Microsoft Fabric. It shows capacity‑unit usage so teams can see whether complex measures, semantic model changes, or high query volumes are driving compute demand. 
+
+Views like [Compute](/fabric/enterprise/metrics-app-compute-page), [Timepoint](/fabric/enterprise/metrics-app-timepoint-page), and [Item Detail](/fabric/enterprise/metrics-app-timepoint-item-detail-page), help correlate data model customizations with throttling, overloads, or autoscale events. This makes it easier to validate whether custom report designs scale effectively and when to resize or autoscale capacity. Overall, the app links data model design choices to capacity health, enabling proactive optimization before performance or costs are affected. 
+
+### Monitor performance with Performance Analyzer
+
+Use [Performance Analyzer](/power-bi/create-reports/performance-analyzer#use-performance-analyzer) to measure how long each visual in your report takes to load and how that time is split across DAX queries, DirectQuery calls, visual rendering, and other steps. This information is especially useful for customized semantic models because it helps identify the impact of complex measures, relationships, and storage modes. You can copy a visual’s DAX query to DAX Query View to inspect how your model logic is translated. By capturing performance during real interactions like applying slicers or filters and exporting logs after refreshes, teams can validate whether model simplifications and optimizations result in measurable performance improvements.
+
 ## View customized reports
 
-If you customized the Customer Service workspace app, you must complete the following steps to view the reports.
+If you customized the Copilot Service workspace app, you must complete the following steps to view the reports.
 
-1. On the Customer Service workspace app tile, select the ellipsis for **More Options** and then select **Open in App Designer**.
+1. On the Copilot Service workspace app tile, select the ellipsis for **More Options** and then select **Open in App Designer**.
 1. Select **New**.
 1. On the **New page** dialog, select **URL**, and then select **Next**.
 1. Enter the following information and then select **Add**.
@@ -189,7 +230,15 @@ If you customized the Customer Service workspace app, you must complete the foll
    - **Outlook shortcut**: **Pass parameters** and **Offline availability**
 1. Select **Save** and then select **Publish**.
 
-### See also
+### Use report metrics 
+
+Learn more about the metrics in your reports in: 
+
+- [Calculate conversation metrics](../develop/calculate-conversation-metrics.md)
+- [Calculate session metrics](../develop/calculate-session-metrics.md)
+- [Calculate customer service representative metrics](../develop/calculate-representative-metrics.md)
+
+### Related information
 
 [Customize the display of analytics reports](../use/customize-reports.md#customize-the-display-of-analytics-reports)  
 [Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)  

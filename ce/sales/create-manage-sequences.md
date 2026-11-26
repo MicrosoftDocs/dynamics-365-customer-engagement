@@ -1,27 +1,21 @@
 ---
 title: Manage conditional workflows with sequences
 description: Manage conditional workflows with sequences. Help sales managers enforce best practices and prioritize activities for sellers.
-ms.date: 03/29/2024
+ms.date: 04/30/2026
 ms.topic: overview
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:03/19/2024
 ---
+
 # Manage conditional workflows with sequences
 
 Sequences help sales managers enforce best practices by introducing a set of consecutive activities for sellers to follow during the course of their day. A manager can connect sequences to leads and opportunities that appear in a seller's work queue, to help sellers prioritize activities to focus on selling, be more productive, and better align to business processes.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sequence manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Permission requirements to manage sequences
 
@@ -37,7 +31,7 @@ The following table shows the permissions required for a user role to perform ta
 
 ## Use sequence designer
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Vdof]
+>[!VIDEO https://learn-video.azurefd.net/vod/player?id=8d4385ed-e619-47f4-baa2-4a98f86e9c7d]
 
 You can use the sequence designer to do the following tasks:  
 
@@ -49,19 +43,14 @@ You can use the sequence designer to do the following tasks:
 
 ## Review prerequisite
 
-Before you start, be sure you that the sales accelerator feature is configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md).
+Before you start, make sure your organization is configured for the sales accelerator feature. For more information, see [Configure the sales accelerator](enable-configure-sales-accelerator.md).
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]  
 
-<table>
-<tr><td>
-
 > [!div class="nextstepaction"] 
-> [Next step: Create and activate a sequence](create-and-activate-a-sequence.md)
-</td></tr>
-</table>   
+> [Next step: Create and activate a sequence](create-and-activate-a-sequence.md)   
 
-### See also
+## Related information
 
 [Configure the sales accelerator](enable-configure-sales-accelerator.md)  
 [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)

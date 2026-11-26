@@ -2,7 +2,6 @@
 title: "Business processes in Dynamics 365 Customer Engagement (on-premises)"
 description: "Get a better understanding of what business processes are and how they help everyone follow best practices, even in situations that don't happen very often."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 
@@ -12,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: b0c0a758-2f03-4679-b81c-560779a6dc7d
 caps.latest.revision: 5
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

@@ -2,7 +2,6 @@
 title: "Software requirements for Dynamics 365 Server | Microsoft Docs"
 description: "This article lists the required software requirements for Dynamics 365 Server"
 ms.custom: ""
-ms.date: "02/23/2024"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

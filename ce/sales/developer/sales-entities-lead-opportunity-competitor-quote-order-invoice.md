@@ -1,19 +1,20 @@
 ---
-title: Sales tables (lead, opportunity, competitor, quote, order, invoice)(Dynamics 365 Sales)
+title: Sales tables (lead, opportunity, competitor, quote, order, invoice)
 description: Learn about sales entities to manage tracking leads, opportunities, competitors, and managing quotes, orders, products, and sales goals of a sales process.
-ms.date: 03/01/2023
-ms.topic: article
+ms.date: 04/30/2026
+ms.topic: concept-article
 applies_to: 
   - Dynamics 365 Sales
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
+
 # Sales tables (lead, opportunity, competitor, quote, order, and invoice)
 
-You use the entities described in this section to manage various phases of a sales process. They include tracking leads, opportunities, competitors, and managing quotes, orders, products, and sales goals.  
+Use the entities described in this section to manage various phases of a sales process. They include tracking leads, opportunities, competitors, and managing quotes, orders, products, and sales goals.  
 
 
 ## In This Section
@@ -24,9 +25,10 @@ You use the entities described in this section to manage various phases of a sal
   
  [Opportunity table](opportunity-entities.md)  
   
- [Quote, Order and Invoice tables](quote-order-invoice-entities.md)  
+ [Quote, Order, and Invoice tables](quote-order-invoice-entities.md)  
   
-## Related Sections  
+## Related Sections
+
  [Model your business data with Dataverse](/power-apps/maker/data-platform/data-platform-intro)  
   
  [Marketing tables (Campaign, List)](marketing-entities-campaign-list.md)

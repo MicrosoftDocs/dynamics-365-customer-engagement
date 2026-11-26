@@ -3,7 +3,6 @@ title: "Indexes on the Microsoft Dynamics 365 for Customer Engagement database a
 description: Environment diagnostics warning that indexes aren't consistent.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

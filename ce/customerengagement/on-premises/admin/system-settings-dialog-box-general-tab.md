@@ -2,19 +2,18 @@
 title: "System Settings General tab in Dynamics 365 Customer Engagement (on-premises)"
 description: "From the System Settings General tab, change preferences for saving, select default regions, enable maps, set up special features, and more."
 ms.custom: 
-ms.date: 01/27/2020
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 5e5cc5ae-b4c9-4800-be83-824af6aa4bb5
 caps.latest.revision: 74
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 ---

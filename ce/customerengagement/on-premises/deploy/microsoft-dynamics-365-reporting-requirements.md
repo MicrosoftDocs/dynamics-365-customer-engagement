@@ -1,9 +1,9 @@
 ---
 title: "Dynamics 365 Customer Engagement (on-premises) reporting requirements | Microsoft Docs"
 description: Understand the requirements for running reports in Dynamics 365
+ms.date: 09/23/2026
+ai-usage: ai-assisted
 ms.custom: ""
-ms.date: 03/31/2021
-
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -35,7 +35,10 @@ author: Mattp123
  [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] is required for reporting features in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
  For [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] reporting, you can use the following [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] editions running on a [supported version of Windows Server](software-requirements-for-microsoft-dynamics-365-server.md#windows-server-operating-system):  
-  
+
+- Microsoft SQL Server 2022 Enterprise<sup>1</sup>
+- Microsoft SQL Server 2022 Standard<sup>1</sup>
+- Microsoft SQL Server 2022 Developer (for nonproduction use only)<sup>1</sup>
 - Microsoft SQL Server 2019 Enterprise
 - Microsoft SQL Server 2019 Standard
 - Microsoft SQL Server 2019 Developer (for non-production use only)
@@ -46,10 +49,13 @@ author: Mattp123
 - Microsoft SQL Server 2016 Standard, with Service Pack 2 or Service Pack 3
 - Microsoft SQL Server 2016 Developer, with Service Pack 2 or Service Pack 3 (for non-production use only) 
 
+<sup>1</sup>Requires [Service Update 1.25 for Microsoft Dynamics Customer Engagement v9 (on-premises)](https://support.microsoft.com/topic/-service-update-1-25-for-microsoft-dynamics-crm-on-premises-9-1-54bbb86c-1e34-4bea-92b9-dd2f45b74358)
+
 > [!IMPORTANT]
-> -   [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] Compact or [!INCLUDE[pn_ms_SQL_Server_Express_long](../includes/pn-ms-sql-server-express-long.md)] editions are not supported for use with [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
-> -   Using a [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] server running in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] mode is not supported with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about SQL Server [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] mode, see [Reporting Services Report Server (SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016&preserve-view=true).  
-  
+>
+> - [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] Compact or [!INCLUDE[pn_ms_SQL_Server_Express_long](../includes/pn-ms-sql-server-express-long.md)] editions are not supported for use with [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
+> - Using a [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] server running in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] mode isn't supported with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about SQL Server [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] mode, see [Reporting Services Report Server (SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016&preserve-view=true).
+
 <a name="report_ext_gen_req"></a>
 
 ## Dynamics 365 Reporting Extensions requirements
@@ -67,7 +73,32 @@ author: Mattp123
 -   You must run the Dynamics 365 Customer Engagement (on-premises) Reporting Extensions Setup on a computer that has a supported version and edition of [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] installed. More information: [SQL Server Reporting Services](microsoft-dynamics-365-reporting-requirements.md#sql_server_reporting_services)  
   
 -   For smaller data sets and fewer users, you can use a single-server deployment or a multi-server deployment. With larger data sets or more users, performance decreases quickly when running complex reports. Use a multi-server deployment with one computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], and another server for [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)].  
-  
+
+### Block SQL reports when the reporting account has elevated permissions
+
+`BlockElevatedReportServiceAccount` blocks SQL-based reports when Dynamics 365 Reporting Extensions detects excessive organization-database permissions for the SSRS service account. This deployment-wide setting is disabled by default. It doesn't change account permissions or validate report SQL.
+
+Requires [Service Update 1.17](https://support.microsoft.com/en-us/servicing/dynamics/crm/update/2023/02/service-update-1-17-for-microsoft-dynamics-crm-on-premises-9-1) (`9.1.17.29`) or later for both Dynamics 365 Server and Reporting Extensions, with the configuration database upgrade completed.
+
+As a [deployment administrator](deployment-administrators.md), open a new elevated Windows PowerShell session on a server with Deployment Tools. Run the following commands to read the current value, enable the check, and confirm the value is `True`:
+
+```powershell
+Add-PSSnapin Microsoft.Crm.PowerShell -ErrorAction Stop
+$parameters = @{
+    ConfigurationEntityName = "ServerSettings"
+    Setting = "BlockElevatedReportServiceAccount"
+    ErrorAction = "Stop"
+}
+(Get-CrmAdvancedSetting @parameters).Attributes
+Set-CrmAdvancedSetting @parameters -Value $true -Confirm
+(Get-CrmAdvancedSetting @parameters).Attributes
+```
+
+If the setting isn't recognized, stop and contact Microsoft Support. Don't edit the database directly.
+
+> [!WARNING]
+> Enabling the check can cause SQL reports to fail. Restart the affected **SQL Server Reporting Services** instances during a maintenance window to refresh the cached permissions assessment. If reports are blocked, correct the account's permissions using the [service account requirements](microsoft-dynamics-365-server-roles.md#group-membership-requirements), restart SSRS, and retry.
+
 <a name="report_auth_gen_req"></a>
 
 ## Report Authoring Extension requirements
@@ -76,6 +107,8 @@ author: Mattp123
   
 ### Supported operating systems
 
+One of the following Windows versions:
+- Windows 11
 - Windows 10
 
 ### Additional software requirements
@@ -149,6 +182,8 @@ author: Mattp123
   
 ### Supported operating systems
 
+One of the following Windows versions:
+- Windows 11
 - Windows 10
 
 ### Additional software requirements

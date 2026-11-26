@@ -1,10 +1,11 @@
 ---
-title: "Edit work hour calendars by using APIs in Dynamics 365 Field Service | MicrosoftDocs"
+title: Edit work hour calendars by using APIs in Dynamics 365 Field Service
 description: Learn how to edit work order calendars in Field Service by using APIs. 
-ms.date: 07/26/2023
-ms.topic: article
+ms.date: 07/31/2026
+ms.topic: reference
 author: ryanchen8
 ms.author: chenryan
+
 ---
 
 # Edit work hour calendars by using APIs
@@ -36,7 +37,7 @@ When you create a calendar, you define how many times a [work hour type](#work-h
 
 When a work hour type occurs only once in the entity's calendar, it's called an *occurrence*.
 
-For example, consider a resource working from 5:00 AM to 10:00 AM on May 26, 2021. These APIs only support this type of occurrence, which starts and ends within the same day. For another example, consider a resource working from May 26, 2021 at 8:00 PM 10:00 AM on May 27, 2021. You can't create this occurrence by using just one call of the `msdyn_SaveCalendar` API; you need to make two calls instead. 
+For example, consider a resource working from 5:00 AM to 10:00 AM on May 26, 2021. These APIs only support this type of occurrence, which starts and ends within the same day. For another example, consider a resource working from May 26, 2021 at 8:00 PM to 10:00 AM on May 27, 2021. You can't create this occurrence by using just one call of the `msdyn_SaveCalendar` API; you need to make two calls instead. 
 
 ### All-day occurrence
 

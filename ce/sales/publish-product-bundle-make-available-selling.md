@@ -1,8 +1,8 @@
 ---
 title: "Publish a product or bundle to make it available for selling (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Publish a product or bundle in Dynamics 365 Sales to make it available to the sales agents so they can build orders or create opportunities for customers."
-ms.date: 10/26/2021
-ms.topic: article
+ms.date: 05/29/2026
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -13,33 +13,25 @@ ms.custom:
 
 Publishing a product or bundle makes the product available for selling in Dynamics 365 Sales. Sellers can choose only published products and bundles when creating opportunities, quotes, and so on.
 
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## Publish a product, family, or bundle
 
 By default, product records are created in a draft state, and are available to your sales agents only after you publish it. For products that don't have a parent product family, you can create them directly in an active state using a system setting, so that you don't have to publish them after creation. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)  
 
 > [!NOTE]
 > - You can only publish a product or bundle with a parent family if the parent product family is active.
-> - Product families are only supported for Sales Enterprise and Sales Premium.  
+> - Product families are only supported in the Sales Hub app.
 
 1. Depending on the sales app that you're using, do one of the following:
  
     -  If you're using the Sales Hub app, 
         1. Select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") at the lower-left corner of the site map, and then select **App Settings**. 
-        1. In the **Product Catalog** area, select **Families and Products**. 
+        1. In the **Product Catalog** area, select **Families and products**. 
    - If you're using the Sales Professional app,
        - Select **Products** from the site map.  
   
 3. Select the product, bundle, or family you want to publish, and on the command bar, select **Publish**. 
 
-    > [!div class="mx-imgBorder"]
-    > ![Product form with the Publish button.](media/publish-product.png "Product form with the Publish button")
+    :::image type="Product form with the Publish button" source="media/publish-product.png" alt-text="Product form with the Publish button":::
 
    This will change the product status to **Active** and make it available for selling.
 
@@ -57,7 +49,7 @@ By default, product records are created in a draft state, and are available to y
   
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also  
+## Related information  
  [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)
 
 

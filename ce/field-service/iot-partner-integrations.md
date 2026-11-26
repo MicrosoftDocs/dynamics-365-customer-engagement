@@ -1,11 +1,11 @@
 ---
 title: IoT partner integrations
 description: Learn about the benefits of integrated IoT solutions and the partners who offer IoT solutions that integrate with Dynamics 365 Field Service.
-ms.date: 08/03/2023
-ms.topic: conceptual
+ms.date: 01/12/2026
+ms.topic: integration
 ms.subservice: connected-field-service
-author: MSKeith
-ms.author: keith
+ms.author: vhorvath
+author: vhorvathms
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -15,7 +15,7 @@ ms.custom:
 
 # IoT partner integrations
 
-The [IoT provider feature](cfs-custom-iot-provider.md) lets you seamlessly integrate your IoT-enabled devices from various IoT vendors with Dynamics 365 Field Service. This article describes some of the benefits of these integrated solutions and lists partners who have successfully integrated their IoT solutions with Dynamics 365 Field Service.
+The [IoT provider feature](cfs-custom-iot-provider.md) lets you seamlessly integrate your IoT-enabled devices from various IoT vendors with Dynamics 365 Field Service. This article describes some of the benefits of these integrated solutions and lists partners who successfully integrated their IoT solutions with Dynamics 365 Field Service.
 
 ## Main benefits of integrated solutions
 

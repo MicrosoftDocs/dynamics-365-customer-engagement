@@ -1,15 +1,12 @@
 ---
-title: "requestFocusSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Know about requestFocusSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 03/03/2021
+title: requestFocusSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 
+description: Know about requestFocusSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0.
+ms.date: 01/30/2026
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-ms.custom: 
-  - dyn365-a11y
-  - dyn365-developer
+ms.reviewer: mgandham
+ms.custom: bap-template 
 ---
 
 # requestFocusSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
@@ -48,7 +45,7 @@ Microsoft.CIFramework.requestFocusSession("session-id-1", correlationId).then(
     },
     function (error) {
         return Promise.reject(error)
-};
+});
 ```
 
 

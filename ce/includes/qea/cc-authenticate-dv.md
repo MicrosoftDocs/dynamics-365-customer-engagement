@@ -1,0 +1,2 @@
+1. In the **Edit** dialog, select **Connection** > **New connection**. 
+1. Search for **Microsoft Dataverse** and select **Create**. You might need to sign in using the OAuth connection type to create a Dataverse connection.

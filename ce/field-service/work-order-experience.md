@@ -1,10 +1,10 @@
 ---
-title: New work order experience
-description: Learn about the new work order experience in Dynamics 365 Field Service, including how to manage work orders and customize forms.
-ms.date: 04/01/2024
+title: Work order experience
+description: Learn about the work order experience in Dynamics 365 Field Service, including how to manage work orders and customize forms.
+ms.date: 07/23/2026
 ms.topic: how-to
-author: lmasieri
-ms.author: lmasieri
+author: vhorvathms
+ms.author: vhorvath
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -12,55 +12,55 @@ ms.custom:
   - ai-seo-date:10/30/2023
 ---
 
-# New work order experience
+# Work order experience
 
-The 2023 release wave 2 of Dynamics 365 Field Service introduces a refreshed user experience to manage work orders. The new experience simplifies how you [create, manage, and schedule work orders](create-work-order.md), provides more information at a glance, and features more visually appealing forms with fields that you can update quickly. This article contains information about the new work order form, the components that it uses, and considerations for customizing the form.
+The default work order experience in Dynamics 365 Field Service simplifies how you [create, manage, and schedule work orders](create-work-order.md). It provides more information at a glance and features forms that you can update quickly. This article contains information about the work order form, the components that it uses, and considerations for customizing the form.
 
-Watch this brief video to learn more about the new work order experience in Field Service:
+To learn more about the work order experience in Field Service, watch this brief video:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW18MN2]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=bfce9329-2bdc-461c-bd57-1458e237524a]
 
 ## Work order list
 
-The new work order list saves you time and effort. Make quick updates right in the list, and easily access common actions in the new side pane so that you don't have to open the work order details.
+The work order list saves you time and effort. Make quick updates right in the list, and easily access common actions in the side pane so that you don't have to open the work order details.
 
 The view called **Work Orders** displays columns you often need to update quickly. Use the view switcher to get to other views. The view you used most recently is set as the default view.
 
+The work order list control isn't available for mobile devices.
+
 ### Editable work order grid
 
-The new editable grid shows key information, such as status, service account, priority, and booked resources for your work orders. You can update the status and priority of work orders directly on the grid. [Update more more fields in a side pane](#side-pane). To find information quickly, apply filters to the grid. To switch between the legacy read-only grid and the new editable grid, select **Show As** in the command bar.
+The editable grid shows key information, such as status, service account, priority, and booked resources for your work orders. Links take you to related records. You can update the status and priority of work orders directly on the grid. [Update more fields in a side pane](#side-pane). To find information quickly, apply filters to the grid. To switch between the read-only grid and the editable grid, select **Show As** in the command bar.
 
-:::image type="content" source="media/work-order-list-grid.png" alt-text="Screenshot of the new Work Orders view in the refreshed Field Service user experience, with the Show As button highlighted.":::
+:::image type="content" source="media/work-order-list-grid-new.png" alt-text="Screenshot of the Work Orders view in the default Field Service user experience, with the Show As button highlighted.":::
 
 > [!TIP]
-> The new work order experience doesn't support filters. However, you can select **Show as** and switch to the read-only grid to bring back the classic experience with filtering capabilities.
+> The work order experience doesn't support filters. However, you can select **Show as** and switch to the read-only grid to use filtering capabilities.
 
 ### Side pane
 
 The work order side pane is a simplified version of the work order details form. It provides easy access to quick actions like status updates, booking a work order, and editing instructions.
 
-:::image type="content" source="media/work-order-side-pane.png" alt-text="Screenshot of the new Work Orders view, with the side pane icon highlighted in the item list and the side pane open.":::
+:::image type="content" source="media/work-order-side-pane-new.png" alt-text="Screenshot of the Work Orders view, with the side pane icon highlighted in the item list and the side pane open.":::
 
 To open a work order in the side pane, hover over a work order in the list and select the **Work Order Side Pane** icon.
-
-You can open multiple work orders in the side pane. To switch between them, select the icons in the right border.
 
 ## Work order form
 
 The work order form shows all the available details about a work order. It consists of a header and multiple sections, or tabs, that contain contextual information displayed as cards. The form header contains the [price and cost not-to-exceed](work-order-not-to-exceed.md), the work order's creation date, and the [service account](accounts.md).
 
-To switch between the classic work order form and the new form, use the form switcher under the work order name.
+To switch between the default work order form and the legacy form, use the form switcher under the work order name.
 
-<!-- :::image type="content" source="media/work-order-change-form.png" alt-text="Screenshot of the work order form, with the form switcher highlighted."::: -->
+:::image type="content" source="media/work-order-change-form.png" alt-text="Screenshot of the work order form, with the form switcher highlighted.":::
 
 ### General tab
 
 The **General** tab on the work order form contains the following cards:
 
 - [Details](#details-card)
-- [Functional location](#location-or-functional-location-card)
+- [Location](#location-or-functional-location-card)
 - [Financial](#financial-card)
-- [Dynamic bookings](#dynamic-booking-card)
+- [Booking](#booking-card)
 - [Contacts](#contacts-card)
 - [Assets](#assets-card)
 
@@ -78,17 +78,21 @@ If no functional location is available, the card shows only the service address.
 
 The **Financial** card contains all the financial information for a work order, such as the [billing account](accounts.md), whether the [work order is taxable](set-up-tax-codes.md), the [price list](create-price-list.md) to apply, and the [not-to-exceed amount](work-order-not-to-exceed.md), if applicable.
 
-#### Dynamic Booking card
+#### Booking card
 
-The new, dynamic card for bookings is the key change in the new work order form. It replaces the business process flow in the classic form. It's designed to help you take the next action to [move a work order through its lifecycle](work-order-status-booking-status.md). For now, the dynamic card supports only work orders with a single requirement.
+The dynamic card for bookings helps you take the next action to [move a work order through its lifecycle](work-order-status-booking-status.md).
+
+For now, the dynamic card supports only work orders with a single requirement.
+
+Work orders are primarily designed for fewer than five bookings. It can support more if you don't use the work order form's booking control and instead use the related bookings tab. However, hundreds of bookings lead to unexpected behavior.
 
 The **Booking** card contains different information, depending on the work order's status.
 
-- **Unscheduled**: Get booking suggestions that fit the required or promised timeframe and the required skills. For each resource, the card shows the suggested appointment time and the travel time from the technician's previous appointment. If no suggestion works, select **Find more availability** to open the schedule assistant and choose a resource to book.
+- **Unscheduled**: Get booking suggestions that fit the required or promised timeframe and the required characteristics. For each resource, the card shows the suggested appointment time and the travel time from the technician's previous appointment. If no suggestion works, select **Find more availability** to open the schedule assistant and choose a resource to book.
 
-- **Scheduled**: View the technician's contact information, the time and duration of the appointment, and the expected travel time.  You can start a phone call or email using the default client set in your browser. The **Message** link opens Microsoft Teams. You can change the booking's status and rebook it if needed.
+- **Scheduled**: View the technician's contact information, the time and duration of the appointment, and the expected travel time. You can start a phone call or email using the default client set in your browser. The **Message** link opens Microsoft Teams. You can change the booking's status and rebook it if needed.
 
-- **Completed**: View a summary of the work, including the resolution and the number of products and services the technician used. If the work order isn't posted, you can review the information and then post it or [print a service report](mobile-powerapp-reporting.md). If the work order has been posted, you can print the service report and view or print the invoice.
+- **Completed**: View a summary of the work, including the resolution and the number of products and services the technician used. If the work order isn't posted, you can review the information and then post it or [print a service report](mobile/create-service-report.md). If the work order has been posted, you can print the service report and view or print the invoice.
 
 #### Contacts card
 
@@ -144,39 +148,13 @@ If trade coverage is set to not cover a trade, a warning is displayed in the wor
 
 For more information about customizing work orders, see [Customization considerations for the work order form](work-order-customization.md).
 
-## New work order as default experience
+> [!IMPORTANT]
+> The components in the work order experience aren't supported for mobile or tablet devices. While they're built to adapt to the screen size of the form factor, features like offline profiles or undo actions don't work.
 
-In the near future, the new work order experience becomes the new default view for all organizations automatically. To opt out from the planned change, an admin needs to change a setting for your organization.
 
-> [!NOTE]
-> The update to the new work order experience won't override any of your custom logic to set default forms.
+### Related information
 
-### Opt out from the new experience
-
-To opt out from changing the default experience.
-
-1. In Field Service, select **Settings** :::image type="icon" source="media/settings-icon.svg" border="false"::: in the header and select **Advanced settings**.
-1. Go to **Customizations** > **Customize the system** > **Entities** > **Field Service Setting** > **Forms** > **Information**.
-1. In the **Other** tab on the form configuration, double-click the **Advanced Settings** field and enable the **Visible by default** option.
-1. Save and publish the customization.
-1. In Field Service, change to the **Settings** area and select **Field Service Settings**.
-1. Select the **Other** tab and append the flag `workorderexperienceOptOut=true` in the **Advanced Settings** field.
-
-> [!CAUTION]
-> Don't apply any other changes to the advanced settings field and revert the setting to make the field visible by default after following the procedure. Other changes to this field can lead to unexpected consequences up to blocking the working system.
-
-### Revert the change when the new experience is set as default
-
-You can change back to the classic work order experience if the new experience was updated for your organization.
-
-1. In Field Service, select **Settings** :::image type="icon" source="media/settings-icon.svg" border="false"::: in the header and select **Advanced settings**.
-1. Go to **Customizations** > **Solutions**.
-1. Uninstall the *msdyn_FieldServiceDefaultComponents* solution.
-1. [Opt out from the new experience](#opt-out-from-the-new-experience) and skip installing the solution in subsequent updates.
-
-### See also
-
-- [Work order recap with Copilot in Field Service (preview)](work-order-recap.md)
+- [Summarize work orders with Copilot](use-work-order-recap.md)
 - [Create work order types](create-work-order-types.md)
 - [Set up booking statuses](set-up-booking-statuses.md)
 - [Create a work order](create-work-order.md)

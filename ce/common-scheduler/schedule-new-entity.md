@@ -1,18 +1,16 @@
 ---
-title: "Enable entity for scheduling in Universal Resource Scheduling"
-description: "Match work orders to the right resources by enabling entities for scheduling. Learn how to enable an entity and how it works on the schedule board."
-ms.date: 06/10/2019
-ms.reviewer: mhart
+title: Enable an entity for scheduling in Universal Resource Scheduling
+description: Match work orders to the right resources by enabling entities for scheduling. Learn how to enable an entity and how it works on the schedule board.
+ms.date: 05/08/2026
 ms.subservice: common-scheduler
-ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
+ms.topic: how-to
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Enable an entity for scheduling in Universal Resource Scheduling
+
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
 
 [!INCLUDE[topic-urs-schedule-new-entity.md](../shared/urs/schedule-new-entity.md)]
 

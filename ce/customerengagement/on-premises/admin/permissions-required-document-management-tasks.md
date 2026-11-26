@@ -2,7 +2,6 @@
 title: "Permissions required for SharePoint tasks in Dynamics 365 Customer Engagement (on-premises)"
 description: "This page describes the security roles and other permissions that are needed to perform each SharePoint document management task in Customer Engagement."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

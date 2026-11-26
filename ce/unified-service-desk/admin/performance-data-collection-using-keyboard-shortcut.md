@@ -1,22 +1,18 @@
 ---
-title: "Performance data log files to analyze performance issues | MicrosoftDocs"
-description: "Learn about Unified Service Desk performance data collection to analyze both agent and end-to-end performance, using configuration files and keyboard shortcuts."
-ms.date: 10/31/2018
-ms.topic: article
+title: Generate performance data logs (Performance data collection)
+description: Learn about Unified Service Desk performance data collection to analyze both agent and end-to-end performance, using configuration files and keyboard shortcuts.
+ms.date: 05/15/2025
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-a11y
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 monikerRange: '= dynamics-usd-4'
 ---
 
 # Generate performance data logs (Performance data collection)
-
-
 
 Performance data collection enables you to collect data about operational events in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application to log files, which is used to identify and troubleshoot performance issues.
 
@@ -47,7 +43,7 @@ To start collecting the startup performance data log, change the value in applic
 
 ## Use keyboard shortcut to generate performance data log
 
-When you are working with the client application and want to analyze the performance of the operations that you execute, you need to generate the performance log from which you can generate a performance report specific those operations.
+When you're working with the client application and want to analyze the performance of the operations that you execute, you need to generate the performance log from which you can generate a performance report specific those operations.
 
 ### Start performance data collection using a keyboard shortcut
 
@@ -59,7 +55,7 @@ When you are working with the client application and want to analyze the perform
    > [!Note]
    > When you press the keyboard shortcut and if [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] does not display the performance data collection starting window, then ensure the keyboard focus is not on the Internet Explorer Webpage. Press **Alt+0** to bring the keyboard focus outside the Internet Explorer webpage, and then press the keyboard shortcut to start the performance data collection. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
 
-2. Click **Yes** to start collecting the performance data.
+2. Select **Yes** to start collecting the performance data.
 
 > [!Note]
 > If you press **Ctrl+Alt+Q** after you start collecting performance data for a session, Unified Service Desk displays a window with a message - **Performance data collection has already started. PerfSessionId - XXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX**.
@@ -72,7 +68,7 @@ When you are working with the client application and want to analyze the perform
 
    ![Do you want to stop collecting performance data.](../../unified-service-desk/media/usd-keyboard-shortcut-stop-collecting-perf-data.PNG "Do you want to stop collecting performance data")
 
-2. Click **Yes** to stop collecting the performance data.
+2. Select **Yes** to stop collecting the performance data.
 
 > [!Note]
 > If you press **Ctrl+Alt+P** after you stop collecting performance data for a session, Unified Service Desk displays a window **Performance data collection has already stopped**.
@@ -103,11 +99,11 @@ Example of setting new path in the application configuration file:
 
 **MaxFileSize** is the maximum size (in bytes) of one performance log file that [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] maintains at the default or configured path in the client computer. When the size of performance log file is equal to **MaxFileSize** value, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] generates a new file in the default or configured path and continues to collect the performance data.
 
-Example: You configure **MaxFileSize="52000000"**. When the size of performance log file is 52000000 bytes (52 MB), [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] generates a new performance log file in the default or configure path and continues to collect the performance data.
+Example: You configure **MaxFileSize="52000000"**. When the size of performance log file is 52,000,000 bytes (52 MB), [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] generates a new performance log file in the default or configure path and continues to collect the performance data.
 
 **MaxFileCount** is the count of files that [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] maintains at the default or configured path in client computer. When the count of the performance log file is equal to **MaxFileCount** value, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] deletes the oldest performance log file to generate the new performance log file in the default or configured path.
 
-Example: You configure **MaxFileCount="10"**. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] generates 10 performance log files in the default or configured path. To generate a new performance log file, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] deletes the oldest performance log file and generates the new performance log file. At all times, the count of performance log files cannot exceed the **MaxFileCount**.
+Example: You configure **MaxFileCount="10"**. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] generates 10 performance log files in the default or configured path. To generate a new performance log file, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] deletes the oldest performance log file and generates the new performance log file. Always, the count of performance log files can't exceed the **MaxFileCount**.
 
 > [!Note]
 > Each time you start collecting performance data, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] creates a new file with a performance session ID, which it maintains on the client computer.<br><br>

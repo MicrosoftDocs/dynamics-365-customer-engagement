@@ -2,7 +2,6 @@
 title: "Which entities are customizable? (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about the entities properties that are customizable."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

@@ -3,7 +3,7 @@ title: "Uninstall or repair Microsoft Dynamics 365 for Outlook | MicrosoftDocs"
 description: Learn how to uninstall or repair an installation of Microsoft Dynamics 365 for Outlook and clean up files after uninstallation.
 ms.custom: 
 ms.date: 11/28/2016
-ms.reviewer: 
+ms.reviewer: smurkute 
 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -12,8 +12,8 @@ applies_to:
   - Dynamics 365 apps 
 ms.assetid: 6bf2bc59-9949-4afd-aee5-5b6101e90f75
 caps.latest.revision: 30
-author: mduelae
-ms.author: mkaur
+author: shwetamurkute
+ms.author: bharavar
 search.audienceType: 
   - admin
   - customizer

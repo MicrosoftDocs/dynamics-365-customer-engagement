@@ -2,12 +2,11 @@
 title: "Create patches to simplify solution updates (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Patches help you manage entities and all of its related assets when you add an entity to a solution and export that solution"
 ms.custom: 
-ms.date: 04/02/2020
 ms.reviewer: pehecke
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 12672159-03b1-4f18-8d8c-cf4aaf366deb
@@ -119,7 +118,7 @@ If you add an entity to a solution and export the solution, the entity and all o
  [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)   
  [Solution Entity](entities/solution.md)   
  [Maintain Managed Solutions](maintain-managed-solutions.md)   
- [Publish your app on AppSource](publish-app-appsource.md)
+ [Publish your app on Marketplace](publish-app-appsource.md)
  
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

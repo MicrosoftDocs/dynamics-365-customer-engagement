@@ -2,12 +2,11 @@
 title: "Manage organizations | Microsoft Docs"
 description: Learn how to manage organizations in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
-ms.date: 10/01/2018
 
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: b2b31148-4a96-45a8-9958-e2fb6bce8384

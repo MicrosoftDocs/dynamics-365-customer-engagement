@@ -3,7 +3,6 @@ title: "Office Outlook is running | Microsoft Docs"
 description: Environment diagnostics warning that Outlook is running.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -2,7 +2,6 @@
 title: "Activity entities (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "In Dynamics 365 Customer Engagement (on-premises), activities are tasks that you or your teams perform when they contact customers, for example, sending letters or making telephone calls."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -35,7 +34,7 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], ac
   
 -   The scheduling activities enables you to schedule your services and resources, and thus define work schedules. The scheduling activity entities are `Appointment`, `ServiceAppointment`, and `RecurringAppointmentMaster`. For more information, see [Schedule and Appointment Entities](schedule-appointment-entities.md).  
   
--   The marketing activity, `CampaignResponse`, enables you to capture responses from the customers for a marketing campaign, while the `CampaignActivity` entity represents a step in a campaign. For more information, see [Campaign Entities](/sales/developer/campaign-entities).  
+-   The marketing activity, `CampaignResponse`, enables you to capture responses from the customers for a marketing campaign, while the `CampaignActivity` entity represents a step in a campaign. For more information, see [Campaign Entities](/dynamics365/sales/developer/campaign-entities).  
   
 -   The sales force automation entities `OpportunityClose`, `OrderClose`, and `QuoteClose` activities capture information about each of these events. For more information, see [Sales Entities (Lead, Opportunity, Competitor, Quote, Order, Invoice)](sales-entities-lead-opportunity-competitor-quote-order-invoice.md).  
   

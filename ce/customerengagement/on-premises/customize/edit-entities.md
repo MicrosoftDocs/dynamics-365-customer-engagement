@@ -2,7 +2,6 @@
 title: "Edit an entity in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn about ways you can edit entities within Dynamics 365. The degree to which you can edit is determined by the managed properties set of each entity."
 ms.custom: 
-ms.date: 11/03/2018
 ms.reviewer: 
 
 ms.suite: 

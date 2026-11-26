@@ -2,7 +2,6 @@
 title: "Create and edit forms in Dynamics 365 Customer Engagement (on-premises)"
 description: "Dynamics 365 forms provide the interface people use to interact with the data they need. Learn about the types of forms available and their specific needs."
 ms.custom: 
-ms.date: 03/07/2019
 ms.reviewer: 
 
 ms.suite: 

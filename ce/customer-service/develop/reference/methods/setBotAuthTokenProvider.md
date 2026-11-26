@@ -5,6 +5,7 @@ ms.date: 11/02/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # setBotAuthTokenProvider
 
@@ -32,7 +33,7 @@ Bot authentication URL.
 [!INCLUDE[setBotAuthTokenProvider-code-sample](../includes/setBotAuthTokenProvider-code-sample.md)]
 
 
-### See also
+### Related information
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)  
 [Pass authentication token to bot during single sign-on in live chat](../../pass-auth-token-sso-live-chat.md)  

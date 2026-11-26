@@ -1,9 +1,9 @@
 ---
 title: Configure predictive opportunity scoring
 description: Configure predictive opportunity scoring to help sellers prioritize opportunities.
-ms.date: 05/30/2023
+ms.date: 08/13/2025
 ms.custom: 
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -23,22 +23,16 @@ Historical data collection begins when you create a scoring model. Historical da
 
 If you have a Dynamics 365 Sales Enterprise license, you can enable predictive opportunity scoring in [lead and opportunity scoring quick setup](digital-selling-scoring.md#set-up-lead-and-opportunity-scoring). You'll get 1,500 scored records per month.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Prerequisites
 
 - [Advanced Sales Insights features must be enabled](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features).
 
 
-- You need to have enough opportunities to train the model based on past data. Your organization must have created and closed at least 40 won and 40 lost opportunities during the time frame selected in the **Train with opportunities from the past** field of the scoring model. The time frame ranges from three months to two years. To define a [per stage model](#what-is-a-per-stage-model), you must have at least 40 closed opportunities in the last stage of the business process in the selected time frame. The more opportunities you can include to train the model, the better the prediction results will be.
+- You need to have enough opportunities to train the model based on past data. Your organization must have created and closed at least 40 won and 40 lost opportunities during the time frame selected in the **Train with opportunities from the past** field of the scoring model. The time frame ranges from three months to two years. [Verify whether you have the required number of leads to build a scoring model](faq-lead.md#scoring-minimum-requirement).
+- To define a [per stage model](#what-is-a-per-stage-model), you must have at least 40 closed opportunities in the last stage of the business process in the selected time frame. The more opportunities you can include to train the model, the better the prediction results will be. [Verify whether you have the required number of opportunities to build a per stage scoring model](faq-opportunity.md#opportunity-per-stage-scoring).
 
   > [!NOTE]
-  > If you're planning to use a business process flow for your model, then opportunities that have abandoned the selected business process flow will not be considered for training, scoring, and for establishing the minimum requirement for model creation.
+  > If you're planning to use a business process flow for your model, then opportunities that have abandoned the selected business process flow won't be considered for training, scoring, and for establishing the minimum requirement for model creation.
 
 The system takes about four hours to sync the data with the data lake. If you've closed opportunities recently, the model won't consider them right away.
 
@@ -55,7 +49,7 @@ When per stage modeling is disabled, the model uses only attributes that had a h
 > [!IMPORTANT]
 >
 > - If you're using a model that you created in a version of Dynamics 365 earlier than 2020 release wave 2, [delete the model](pls-duplicate-models.md#delete-a-model) before you create a new one. Otherwise, the previous version of the model will be applied to all opportunities in your organization, and new models won't have any effect on the opportunities.
-> - As of 2020 release wave 2, the application writes the opportunity scoring data to the [**msdyn_predictivescore**](developer/entities/msdyn_predictivescore.md) table and no longer writes to the opportunity entity. Both lead and opportunity scoring use the **msdyn_predictivescore** table.
+> - As of 2020 release wave 2, the application writes the opportunity scoring data to the [Predictive Score (msdyn_predictivescore)](../developer/reference/entities/msdyn_predictivescore.md)table and no longer writes to the opportunity entity. Both lead and opportunity scoring use the **msdyn_predictivescore** table.
 
 A scoring model defines the criteria for choosing opportunities for training and scoring. If your organization follows different sales practices across different regions or business units, you can create models and unique training sets for each of them.
 
@@ -65,7 +59,7 @@ A scoring model defines the criteria for choosing opportunities for training and
   
    If your organization doesn't have at least 40 won and 40 lost opportunities that were created in the time frame identified in the **Train with opportunities from the past** field, you can't create a scoring model. If there are enough opportunities, the app generates a model by default.
 
-1. On the **Predictive opportunity scoring** page, change the values for fields such as business process flow, filter column, and so on if needed. For more information about these fields, see the next section [Add a model](#add-a-model). When you're done, select **Get started**.
+1. On the **Predictive opportunity scoring** page, change the values for fields such as business process flow, filter column, and so on, if needed. For more information about these fields, see the next section [Add a model](#add-a-model). When you're done, select **Get started**.
 
 Allow some time for the app to train your model. You can leave the page and come back later.
 
@@ -89,7 +83,7 @@ The application uses standard attributes to train the model. You can [edit the m
 
     - To [view the model's accuracy and performance](scoring-model-accuracy.md) before you publish it, or if the model isn't ready to publish and you want to know why, select **View Details**, and then select the **Performance** tab.
 
-        The app determines that the model isn't ready to publish if its accuracy falls below a threshold value, the **Area under curve (AUC) score**. You can still publish the model if you like. However, it will perform poorly.
+        The app determines that the model isn't ready to publish if its accuracy falls below a threshold value, the **Area under curve (AUC) score**. You can still publish the model if you like. However, it performs poorly.
 
 
 ## Add a model
@@ -111,7 +105,7 @@ You can create up to 10 models, both published and unpublished, for different se
 
      By default, the name is **OpportunityScoring_**<***YYYYMMDD***><***Time***> (for example, **OpportunityScoring_202009181410**). The date and time are based on Coordinated Universal Time (UTC).
 
-1. In the **Business process flow** list, select a flow that's relevant for the opportunities that you're generating the model for. Opportunities that have abandoned the selected business process flow will not be considered for training, scoring, and for establishing the minimum requirement for model creation.
+1. In the **Business process flow** list, select a flow that's relevant for the opportunities that you're generating the model for. Opportunities that have abandoned the selected business process flow won't be considered for training, scoring, and for establishing the minimum requirement for model creation.
 
     The list displays all the business process flows that are defined for opportunities in your organization. If you want to enable per stage modeling, you must select a business process flow.
 
@@ -151,7 +145,7 @@ You can create up to 10 models, both published and unpublished, for different se
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Edit and retrain an opportunity scoring model](pos-edit-and-retrain-model.md#edit-a-model)  

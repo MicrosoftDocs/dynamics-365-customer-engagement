@@ -1,12 +1,15 @@
 ---
 title: "Configure search | MicrosoftDocs"
 description: "Learn how to configure search for agents and supervisors to search records using Omnichannel for Customer Service."
-ms.date: 10/25/2019
+ms.date: 06/27/2024
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 
 # Configure search overview
 

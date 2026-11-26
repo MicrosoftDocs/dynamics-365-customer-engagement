@@ -2,12 +2,11 @@
 title: "Create N:N relationships in Dynamics 365 Customer Engagement (on-premises)"
 description: "An N:N relationship is one in which many records of one entity can be related to many of another. Follow these steps to create or edit these relationships."
 ms.custom: 
-ms.date: 11/09/2018
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 author: Mattp123

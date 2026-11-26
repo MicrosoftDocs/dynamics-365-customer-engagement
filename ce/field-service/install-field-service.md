@@ -1,41 +1,50 @@
 ---
-title: "Install Dynamics 365 Field Service | MicrosoftDocs"
-description: Learn how to install Dynamics 365 Field Service.
-
-ms.topic: article
-ms.date: 11/30/2022
+title: Install Dynamics 365 Field Service
+description: Learn how to install Dynamics 365 Field Service on a Power Platform environment.
+ms.topic: how-to
+ms.date: 03/30/2026
 ms.author: jacoh
 author: jasonccohen
-ms.search.app:
-  - D365CE
-  - D365FS
 ---
 
-# How to install Dynamics 365 Field Service
+# Install Dynamics 365 Field Service
 
-This article describes how to install the Dynamics 365 Field Service application. Installation and upgrades can take up to 30 minutes.
+After purchasing licenses for Field Service, an administrator installs the application on a Power Platform environment.
 
-## Install Dynamics 365 Field Service
+## Requirements
 
-There are a few ways you can get access to Dynamics 365 Field Service:
+When installing Field Service, you must meet these requirements:
 
-- [Sign up for an free trial environment](trial-signup.md) that lets you explore Field Service for 30 days.
+- You have the **System Administrator** or **Dynamics 365 admin** security role.
+- The environment has an attached **Dataverse data store**. The installation process explains how to create a new environment. Field Service isn't supported on a bare Common Data Service (CDS) instance.
+- **Enable Dynamics 365 apps** is turned on in the environment settings. The installation process explains how to enable this setting.
+- The environment isn't a developer or sandbox environment created without a database.
 
-- Purchase Field Service by going to your **Microsoft 365 admin center** > **Billing** > **Purchase Services**. Select **Dynamics 365 Field Service** and **Buy Now**. For more information about pricing and licensing, go to [Dynamics 365 pricing](https://dynamics.microsoft.com/pricing/#Service).
+## Install on a new environment
 
-- Add a Field Service trial to an existing Dynamics 365 organization by going to **Advanced Settings** > **Customizations** > **Microsoft AppSource**. Search for **Trial: Dynamics 365 for Field Service** and select **Free Trial**.
+[Create a Power Platform environment with an attached **Dataverse data store** and turn on the **Enable Dynamics 365 apps** setting](/power-platform/admin/create-environment).
 
-### Verify the installation is complete
+Installing Field Service on an environment that doesn't meet these requirements isn't supported.
 
-If the installation is complete, the "Field Service" and "Field Service Mobile" apps will appear in the list of apps when you sign in to your Dynamics 365 organization. You can find these apps by going to:
+## Install on an existing environment
 
-```https://[your-environment-name].crm.dynamics.com/apps```
+If your organization already maintains environments, you can [install the app on an existing environment with a database](/power-platform/admin/manage-apps#install-an-app) and **Enable Dynamics 365 apps** turned on. If your environment doesn't meet these requirements, [create a Power Platform environment with an attached **Dataverse data store** and turn on the **Enable Dynamics 365 apps** setting](/power-platform/admin/create-environment).
 
-:::image type="content" source="media/admin-apps.png" alt-text="Screenshot of Field Service apps.":::
+## Install a trial
+
+When you [get a free trial](trial-signup.md), the Field Service application installs automatically on a new environment. After purchasing a license, you can [change the environment type to a production environment](/power-platform/admin/switch-environment).
+
+## Access Field Service
+
+Once the installation is complete, the *Field Service* and *Field Service Mobile* apps appear in the list of apps when you sign in to your Dynamics 365 organization. You can find these apps by going to:
+
+```https://[your-environment-URL].crm.dynamics.com/apps```
+
+:::image type="content" source="media/admin-apps.svg" alt-text="Screenshot of Field Service apps.":::
 
 ## Install and set up the Dynamics 365 Field Service mobile app
 
-Set up the mobile app that frontline workers will use to view and complete work orders in the field. For more information, see [getting started with the Dynamics 365 Field Service mobile app](mobile-power-app-get-started.md).
+[Set up the mobile app](mobile/set-up-field-service-mobile.md) for frontline workers to use to view and complete work orders in the field.
 
 ## Next steps
 
@@ -44,5 +53,7 @@ After installing Field Service and the Field Service mobile app, see the followi
 - [Set up users and security roles](users-licenses-permissions.md)
 - [Create a bookable resource](set-up-bookable-resources.md)
 - [Get started with Dynamics 365 Field Service](field-service-get-started.md)
+
+To move an existing Field Service environment to a new environment or tenant, see [Migrate Field Service to a new environment](migrate-field-service-environment.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

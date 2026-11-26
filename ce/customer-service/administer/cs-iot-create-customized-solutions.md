@@ -1,33 +1,39 @@
 ---
-title: "Develop customized IoT solutions in Connected Customer Service | MicrosoftDocs"
-description: "Learn how to create customized IoT solutions in Connected Customer Service for Azure IoT Central."
-ms.date: 04/03/2020
-ms.topic: article
+title: Develop customized IoT solutions in Connected Customer Service
+description: Learn how to design and extend IoT-based solutions in Connected Customer Service using Azure IoT Central.
+ms.date: 03/30/2026
+ms.topic: reference
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 # Develop customized IoT solutions in Connected Customer Service
 
-Connected Customer Service for Dynamics 365 integrates Internet of Things (IoT) devices with Dynamics 365 for Customer Engagement to enable their registration, monitoring and management into established business processes. This guide explains the component architecture, supplied interfaces and customization points, and explains the approach to develop customized IoT solutions.
+Connected Customer Service integrates Internet of Things (IoT) devices with Customer Service to support device registration, monitoring, and management as part of existing business processes. This article describes the supported architecture, extensibility points, and development scenarios for building customized IoT solutions.
 
-The initial release of Connected Customer Service supports the following two primary development scenarios: 
+## Supported development scenarios
 
-- Extend Connected Customer Service for Dynamics 365 so that manufacturers and hardware service organizations can register, monitor, and manage—including controlling and correcting—IoT devices. Future releases will provide additional support for predicative and prescriptive maintenance capabilities. 
+Connected Customer Service supports the following development scenarios:
 
-- Provide an IoT Platform that ISVs and partners can build on to IOT-enable their Dynamics 365 for Customer Engagement custom entities and managed solutions. 
+- Extend Connected Customer Service so that manufacturers and service organizations can register, monitor, manage, and send commands to IoT-enabled devices as part of service workflows.
 
-To enable the first scenario, the following capabilities are supported: 
+- Provide an IoT platform that partners and independent software vendors (ISVs) can use to integrate IoT capabilities into custom Customer Service entities and managed solutions.
 
-- Abstract device registration in an action, so that devices can be easily registered using the CRM web client or the mobile client 
+## Supported capabilities
 
-- Enable any CRM entity to be IOT-enabled, enabling straightforward IoT integration within existing business processes by using [Connection entities](../../customerengagement/on-premises/developer/connection-entities.md) 
+To support these scenarios, Connected Customer Service provides the following capabilities:
 
-- Receive service alerts and automating their response with a customized workflow 
+- **Device registration abstraction**: Devices can be registered through Customer Service by using supported actions, without requiring direct interaction with IoT infrastructure.
 
-- Send remote commands to IoT devices, for example after diagnosing a problem to correct a malfunctioning device 
+- **IoT-enabled entities**: Customer Service entities can be associated with devices to enable IoT context within existing business processes.
 
-- Analyze incoming device data, and displaying aggregate, trend and other metrics in custom dashboards 
+- **Service alert processing**: IoT alerts can be received and handled through automated workflows to trigger service actions.
 
+- **Remote device commands**: Commands can be sent to connected devices after diagnosing issues, enabling remote remediation actions.
+
+- **Device data analysis**: Incoming device data can be aggregated and visualized by using custom dashboards to identify trends and operational insights.
+
+These capabilities allow organizations to extend Customer Service workflows with IoT data while maintaining control over business logic and customization.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,12 +2,11 @@
 title: "Security best practices for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 description: Learn about security with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
 
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: best-practice
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.assetid: 7f994f43-58d2-44c9-bbce-54baa3278d29

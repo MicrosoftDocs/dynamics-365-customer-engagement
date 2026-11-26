@@ -3,7 +3,6 @@ title: "The organization friendly name must be less than 160 characters | Micros
 description: Environment diagnostics warning that the specified name is too long.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

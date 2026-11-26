@@ -2,7 +2,6 @@
 title: "SQL Server hardware requirements for Dynamics 365 Server | Microsoft Docs"
 description: Learn about the hardware requirements with SQL Server when you use Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
 
 ms.reviewer: ""
 ms.suite: ""

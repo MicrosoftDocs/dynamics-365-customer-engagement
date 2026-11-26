@@ -2,19 +2,18 @@
 title: "Restore Exchange Server used by Dynamics 365 Customer Engagement (on-premises)"
 description: "This page provides information on restoring an Exchange Server used by Customer Engagement (on-premises) depending on how it's being used."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 64feb3aa-3c9a-4fe2-9c1e-98773460a677
 caps.latest.revision: 12
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 

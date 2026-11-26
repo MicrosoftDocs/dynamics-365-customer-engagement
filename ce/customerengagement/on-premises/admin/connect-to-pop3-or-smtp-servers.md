@@ -2,11 +2,10 @@
 title: "Connect IMAP, POP, or SMTP servers to Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to connect Customer Engagement (on-premises) with IMAP/POP3/SMTP email servers, such as those used for Gmail and Yahoo! Mail."
 ms.custom: 
-ms.date: 02/21/2023
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
 ms.assetid: afb01c24-a2bd-4e00-9804-ce494f2d315b

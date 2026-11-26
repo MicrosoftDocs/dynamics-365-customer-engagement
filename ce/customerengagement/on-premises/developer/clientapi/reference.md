@@ -1,7 +1,6 @@
 ---
 title: "Client scripting reference for Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: Learn about the Power Apps client APIs that are not supported in Customer Engagement (on-premises) with a reference table of unsupported client APIs.
-ms.date: 08/03/2023
 ms.topic: article
 author: JimDaly
 ms.author: jdaly

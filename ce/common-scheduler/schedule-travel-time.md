@@ -1,15 +1,17 @@
 ---
 title: Schedule work with travel time and distance in Universal Resource Scheduling
 description: Learn how travel time and distance are calculated and visualized to help you understand and minimize the time it takes to provide service to your customers.
-ms.reviewer: mhart
+ms.reviewer: puneetsingh
 ms.subservice: common-scheduler
-ms.date: 10/20/2023
-ms.topic: conceptual
-author: clearab
-ms.author: anclear
+ms.date: 09/10/2026
+ms.topic: how-to
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Schedule work with travel time and distance in Universal Resource Scheduling
+
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
 
 [!INCLUDE[topic-urs-schedule-travel-time.md](../shared/urs/schedule-travel-time.md)]
 

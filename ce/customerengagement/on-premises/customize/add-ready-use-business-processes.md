@@ -2,12 +2,11 @@
 title: "Ready-to-use business processes in Dynamics 365 Customer Engagement (on-premises)"
 description: "There are several ready-to-use business processes designed for common scenarios. Learn more about what these can help you do and how to add them."
 ms.custom: 
-ms.date: 04/30/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: e9810459-224b-4bde-851a-e581cf5fb8a4
@@ -23,7 +22,7 @@ search.audienceType:
 
 
 > [!IMPORTANT]
-> Ready-to-use business processes available through the Add Ready-to-Use Business Processes setting has been deprecated and will be removed in a future major release of Dynamics 365 Customer Engagement (on-premises). You can find ready-to-use business processes on [Microsoft AppSource](https://appsource.microsoft.com/).
+> Ready-to-use business processes available through the Add Ready-to-Use Business Processes setting has been deprecated and will be removed in a future major release of Dynamics 365 Customer Engagement (on-premises). You can find ready-to-use business processes on [Microsoft Marketplace](https://marketplace.microsoft.com/).
 
 Dynamics 365 Customer Engagement (on-premises) includes several ready-to-use business processes for common sales, service, and marketing scenarios – to help you ensure that staff follow consistent steps every time they work with customers.  
   

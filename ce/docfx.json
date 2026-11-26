@@ -2,34 +2,8 @@
   "build": {
     "content": [
       {
-        "group": "op-all",
-        "files": [
-          "customerengagement/on-premises/**/*.md",
-          "customerengagement/on-premises/**/*.yml"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "**/shared/**",
-          "**/_themes/**",
-          "**/_themes.pdf/**"
-        ]
-      },
-      {
-        "group": "usd-all",
-        "files": [
-          "unified-service-desk/**/*.md",
-          "unified-service-desk/**/*.yml"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "**/shared/**",
-          "**/_themes/**",
-          "**/_themes.pdf/**"
-        ]
-      },
-      {
+        "group": "ce-all",
+        "src": ".",
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -47,11 +21,65 @@
           "LICENSE-CODE",
           "ThirdPartyNotices"
         ]
+      },
+      {
+        "group": "op-all",
+        "src": ".",
+        "files": [
+          "customerengagement/on-premises/**/*.md",
+          "customerengagement/on-premises/**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "**/shared/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**"
+        ]
+      },
+      {
+        "group": "usd-all",
+        "src": ".",
+        "files": [
+          "unified-service-desk/**/*.md",
+          "unified-service-desk/**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "**/shared/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**"
+        ]
       }
     ],
     "resource": [
       {
+        "group": "ce-all",
+        "src": ".",
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg",
+          "**/*.html",
+          "**/*.htm",
+          "**/*.txt",
+          "**/*.ico"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "**/shared/**",
+          "unified-service-desk/**",
+          "customerengagement/on-premises/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**"
+        ]
+      },
+      {
         "group": "op-all",
+        "src": ".",
         "files": [
           "customerengagement/on-premises/**/*.png",
           "customerengagement/on-premises/**/*.jpg",
@@ -71,6 +99,7 @@
       },
       {
         "group": "usd-all",
+        "src": ".",
         "files": [
           "unified-service-desk/**/*.png",
           "unified-service-desk/**/*.jpg",
@@ -84,27 +113,6 @@
           "**/obj/**",
           "**/includes/**",
           "**/shared/**",
-          "**/_themes/**",
-          "**/_themes.pdf/**"
-        ]
-      },
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg",
-          "**/*.gif",
-          "**/*.svg",
-          "**/*.html",
-          "**/*.htm",
-          "**/*.txt",
-          "**/*.ico"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "**/shared/**",
-          "unified-service-desk/**",
-          "customerengagement/on-premises/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
         ]
@@ -148,14 +156,14 @@
         ]
       },
       "ms.service": {
-        "mobile-app/**.*": "dynamics-365-cross-app",
-        "legal/**.*": "dynamics-365-cross-app",
-        "outlook-addin/**.*": "dynamics-365-cross-app",
-        "outlook-app/**.*": "dynamics-365-cross-app",
-        "app-profile-manager/**.*": "dynamics-365-customerservice",
-        "channel-integration-framework/**.*": "dynamics-365-customerservice",
-        "customer-service/**.*": "dynamics-365-customerservice",
-        "unified-service-desk/**.*": "dynamics-365-customerservice",
+        "mobile-app/**.*": "dynamics-365-ce-op",
+        "legal/**.*": "dynamics-365",
+        "outlook-addin/**.*": "dynamics-365-ce-op",
+        "outlook-app/**.*": "dynamics-365-outlook-app",
+        "app-profile-manager/**.*": "dynamics-365-customer-service",
+        "channel-integration-framework/**.*": "dynamics-365-customer-service",
+        "customer-service/**.*": "dynamics-365-customer-service",
+        "unified-service-desk/**.*": "dynamics-365-customer-service",
         "common-scheduler/**.*": "dynamics-365-field-service",
         "field-service/**.*": "dynamics-365-field-service",
         "linkedin/**.*": "dynamics-365-linkedinconnector",
@@ -164,14 +172,26 @@
         "sales/**.*": "dynamics-365-sales",
         "versium-predict/**.*": "dynamics-365-sales",
         "teams-integration/**.*": "dynamics-365",
-        "admin/**.*": "d365ce-op",
-        "customerengagement/**.*": "d365ce-op"
+        "admin/**.*": "dynamics-365-ce-op",
+        "customerengagement/**.*": "dynamics-365-ce-op",
+        "developer/**.*": "dynamics-365"
       },
       "ms.prod": {
       },
+      "ms.date": {
+        "unified-service-desk/**.*": "06/27/2024",
+        "customerengagement/**.*": "12/13/2024",
+        "developer/reference/entities/*.md" : "09/18/2026",
+        "field-service/developer/reference/entities/*.md" : "09/21/2026",
+        "sales/developer/entities/*.md" : "09/21/2026",
+        "customer-service/develop/reference/entities/*.md" : "09/21/2026"
+      },
+      "ms.update-cycle": {
+        "unified-service-desk/**.*": "1095-days",
+        "customerengagement/**.*": "3650-days"
+      },
       "ms.subservice": {
         "channel-integration-framework/**.*": "channel-integration-framework",
-        "sales/sales-mobile/**.*": "d365-sales-mobile",
         "sales/teams-integration/**.*": "d365-sales-teams",
         "teams-integration/**.*": "dynamics-365-teams",
         "unified-service-desk/**.*": "unified-service-desk"
@@ -324,7 +344,11 @@
         ]
       },
       "ms.reviewer": {
-        "field-service/**.*": "mhart"
+        "field-service/**.*": "puneet-singh1",
+        "field-service/developer/reference/entities/*.md" : "puneetsingh",
+        "developer/reference/entities/*.md" : "jdaly",
+        "sales/developer/entities/*.md" : "lavanyakr",
+        "customer-service/develop/reference/entities/*.md" : "mgandham"
       },
       "titleSuffix": {
         "field-service/*.md": "Dynamics 365 Field Service",
@@ -334,6 +358,9 @@
     "template": [],
     "dest": "customer-engagement",
     "groups": {
+      "ce-all": {
+        "dest": "ce-all"
+      },
       "usd-all": {
         "dest": "usd-all",
         "moniker_range": ">= dynamics-usd-4"

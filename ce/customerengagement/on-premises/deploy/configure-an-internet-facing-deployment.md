@@ -2,12 +2,11 @@
 title: "Configure an Internet-facing deployment | Microsoft Docs"
 description: Learn how to configure an internet-facing deployment
 ms.custom: 
-ms.date: 10/01/2018
 
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: bec4c1f2-10c0-4e62-8a27-b7b6d2adfb0f

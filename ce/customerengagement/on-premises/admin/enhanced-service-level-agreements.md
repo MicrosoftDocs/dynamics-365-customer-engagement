@@ -2,7 +2,6 @@
 title: Enhanced SLAs in Dynamics 365 Customer Engagement (on-premises)
 description: "Learn about the features available in enhanced service level agreements (SLAs) and considerations for choosing a standard SLA or enhanced SLA."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

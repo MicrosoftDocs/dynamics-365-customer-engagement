@@ -1,13 +1,13 @@
 ---
-title: "Sample: Create and publish products (Dynamics 365 Sales)"
+title: Create and publish products (Sample)
 description: Sample demonstrates how to create a product family, override a product property, publish a product hierarchy, and revise a overridden property.
-ms.date: 03/01/2023
+ms.date: 04/30/2026
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
@@ -468,7 +468,7 @@ namespace Microsoft.Crm.Sdk.Samples
 }  
 ```  
   
-### See also  
+## Related information  
  [Create and manage product families, products, and bundles](create-manage-product-families-products-bundles-product-properties.md)   
  [Publish, revise, revert, retire, and activate products (product lifecycle)](publish-revise-revert-retire-activate-products.md)   
  [Product catalog tables](product-catalog-entities.md)

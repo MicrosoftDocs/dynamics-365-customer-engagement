@@ -2,7 +2,6 @@
 title: "Set personal tracking and syncing options in Dynamics 365 Customer Engagement (on-premises)"
 description: "Use the Set Personal Options dialog box in Dynamics 365 Customer Engagement (on-premises) to set many options that affect tracking and synchronization."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
@@ -13,8 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 4a0cb9d0-0192-4330-81d6-322c717a9d82
 caps.latest.revision: 26
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 

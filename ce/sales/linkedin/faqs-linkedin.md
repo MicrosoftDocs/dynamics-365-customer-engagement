@@ -1,0 +1,129 @@
+---
+title: LinkedIn Sales Navigator FAQs for Dynamics 365 Sales
+description: Find answers to some of the most frequently asked questions related to LinkedIn Sales Navigator integration with Dynamics 365 Sales.
+ms.date: 04/30/2026
+ms.topic: how-to
+author: lavanyakr01
+ms.author: lavanyakr
+---
+
+# LinkedIn Sales Navigator FAQs for Dynamics 365 Sales
+
+## Is the LinkedIn Sales Navigator solution available in the Sales Professional app?  
+
+**Answer:**  
+Yes, the LinkedIn Sales Navigator solution is available in the Sales Professional app. Your administrator must [integrate the solution](integrate-sales-navigator.md) with your sales professional app and [add the controls to forms](add-sales-navigator-controls-forms.md).  
+
+<a name="sync-load-photos-linkedin"> </a>
+## Why can't I sync or load photos of my contacts from LinkedIn to the org chart? 
+  
+**Answer:**  
+Currently, the org chart doesn't support syncing or loading contact profile pictures from LinkedIn. The org chart displays only the pictures that are stored in Dynamics 365 for contact records.  
+
+<a name="add-remove-fields-contact-details"> </a>
+## Why can't I remove or add fields to a contact through the Contact Details side pane after selecting nodes in the org chart?  
+
+**Answer:**  
+Removing or adding fields from the **Contact Details** pane isn't supported.
+
+<a name="import-leads-accounts-crm-sync"> </a>
+## Can I import leads or accounts into Dynamics 365 Sales through CRM Sync?  
+
+**Answer:**  
+No, you can't import leads or accounts from Sales Navigator to Dynamics 365 Sales through CRM Sync. However, the solution supports writeback of InMails, Messages, and Smart Links from Sales Navigator to Dynamics 365 Sales. For more information, see [Enable Sales Navigator CRM Sync & Activity Writeback for Microsoft Dynamics 365 Sales](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback).  
+
+<a name="upgrade-solution-2-to-3-version"> </a>
+## Why isn't my LinkedIn Sales Navigator solution upgraded from version 2.x to 3.x?
+  
+**Answer:**  
+Because version 3.x doesn't change functionality, Microsoft isn't upgrading the solution. This decision doesn't affect your current solution (version 2.x).  
+
+<a name="unable-sync-d365-org-under-admin-tab-linkedin"> </a>
+## Why can't I sync a Dynamics 365 organization with LinkedIn Sales Navigator on the Admin tab? I get an error message saying that the start of the sync failed. 
+
+:::image type="content" source="media/faq-unable-sync-d365-lsn-error.png" alt-text="Screenshot of unable to sync a Dynamics 365 organization with LinkedIn Sales Navigator error message.":::
+
+**Answer:**  
+The error comes from the LinkedIn Sales Navigator application. Contact [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue.  
+
+<a name="unable-log-in-to-linkedin-control"> </a>
+## Why can't I sign in to LinkedIn with Safari?
+
+**Answer:**  
+Dynamics 365 doesn't handle the sign in of users from the LinkedIn Sales Navigator solution. Contact the [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue.  
+
+<a name="incorrect-owner-name-displayed"> </a>
+## Why is an incorrect name displayed as the owner of the record instead of my name when I create contact in LinkedIn Sales Navigator?
+  
+**Answer:**  
+Dynamics 365 doesn't handle the process of contact creation in LinkedIn Sales Navigator. Contact [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue.  
+
+<a name="unable-enable-crm-sync-for-seat"> </a>
+## Why can't I enable CRM sync for a seat in LinkedIn Sales Navigator?
+  
+**Answer:**  
+This problem might occur because the user's email in Dynamics 365 doesn't match the email in LinkedIn Sales Navigator. To resolve the problem, follow the steps described in [How Do I Enable CRM Sync if a User's Email is Mismatched?](https://www.linkedin.com/help/sales-navigator/answer/a162746)  
+If the problem continues, contact [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support.
+
+<a name="unable-writeback-inmails"> </a>
+## Why am I unable to write back inMails and messages from LinkedIn Sales Navigator to Dynamics 365? The Copy message to CRM option is unavailable.  
+
+:::image type="content" source="media/faq-unable-writeback-inmails-messages-error.png" alt-text="Screenshot of copy message to CRM option unavailable.":::
+
+**Answer:**  
+This problem occurs because your user account doesn't have enough permissions to write back to Dynamics 365 from LinkedIn Sales Navigator. Contact [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the problem.
+
+<a name="onprem-crm-sync-capability-enabled"> </a>
+## Does Dynamics 365 on-premises version 9.0 with LinkedIn Sales Navigator have the CRM sync capability enabled?  
+
+**Answer:**  
+The on-premises Microsoft Dynamics 2016 and later versions don't support CRM sync or related functionalities. For more information, see [Prerequisites for CRM sync and write back](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback#prerequisites).
+
+<a name="smart-links-activity-labelled-pointdrive"> </a>
+## Why is a Smart Links activity labeled as PointDrive?  
+
+**Answer:**  
+In the Dynamics 365 LinkedIn 3.x solution, only the PointDrive label changes to Smart Links. The functionality stays the same. If you're using LinkedIn solution version 2.x, have your system administrator or customizer change the label manually by following these steps:
+
+1. In the sales app, go to **Settings** > **Advanced Settings**.  
+
+    :::image type="content" source="../media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
+
+1. Go to **Customization** > **Customizations** > **Customize the System**.  
+
+1. In the left pane, expand **Tables** and then select the **PointDrive Presentation Viewed** entity.  
+
+    >[!NOTE]
+    >If you're using the classic view, under **Components**, expand **Entities**, and then select the **PointDrive Presentation Viewed** entity.  
+
+1. In the **Properties** pane, enter **Display Name** and **Plural Name** as **Smart Links Content Viewed**.  
+
+1. Save and publish the customizations.  
+
+1. Browse to an entity record and verify that the **Smart Links label appears** on the timeline.  
+
+    :::image type="content" source="media/faq-smart-links-content-viewed-confirmation.png" alt-text="Screenshot of Smart Links Content Viewed confirmation on the timeline.":::
+
+<a name="show-smart-links-activity-on-timeline"> </a>
+## How can I show an activity (InMail, Message, or Smart Links) on the timeline?  
+
+**Answer:**  
+If you properly configure CRM sync and activity writeback, the activity is successfully written back from LinkedIn Sales Navigator to Dynamics 365 and appears on the timeline. If the activities don't appear on the timeline, follow these steps:  
+
+1. In the sales app, go to **Settings** > **Advanced Settings**.  
+
+    :::image type="content" source="../media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
+
+1. Go to **Customization** > **Customizations** > **Customize the System**.  
+1. In the left pane, expand **Tables** and then select the entity (Contact or Lead) and then the form for which you want to configure the timeline.  
+
+    >[!NOTE]
+    >If you're using the classic view, from the **Entities** site map, select the entity (Contact or Lead) and then the form for which you want to configure the timeline. In the form, go to **SOCIAL PANE** > **Activities** and configure the properties accordingly.  
+
+1. On the entity form, select the **Timeline** section.  
+1. In the Timeline properties pane, go to **Activities** section, and then select and configure the activity (InMail, Message, or Smart Links) to display on the timeline.  
+1. Save and publish the customizations.
+
+## Related information
+
+[Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales](integrate-sales-navigator.md)

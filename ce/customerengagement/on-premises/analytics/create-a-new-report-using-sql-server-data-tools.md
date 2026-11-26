@@ -2,11 +2,10 @@
 title: "Create a new report with SQL Server Data Tools in Dynamics 365 Customer Engagement (on-premises)"
 description: "SQL Server Data Tools let you create or edit reports in Visual Studio. This page walks you through the steps to create a custom Fetch-based report."
 ms.custom: 
-ms.date: 12/08/2023
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b029dc84-c368-4fb2-a689-bdcecb0aea92
@@ -14,7 +13,7 @@ caps.latest.revision: 22
 author: Mattp123
 ms.author: matp
 contributors:
-  - markha52
+  - vijaypanwar211
 tags: 
   - MigrationHO
 search.audienceType: 
@@ -56,7 +55,25 @@ search.audienceType:
   
         Select **Credentials** to specify the credentials to connect to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, and then select **Next**.  
   
-6. On the **Design the Query** page, type the FetchXML query in the **Query** box. To get this query, you can do one of the following:  
+   > [!IMPORTANT]
+   > The Global Discovery Service reached end of support on June 19, 2026. If your organization isn't listed at sign-in or you can't connect, skip discovery and enter your organization URL directly. Add the following `appSettings` entry to the Visual Studio configuration files listed below, save, and restart Visual Studio:
+   >
+   > ```xml
+   > <appSettings>
+   >   <add key="skipdiscovery" value="true" />
+   > </appSettings>
+   > ```
+   >
+   > - **Visual Studio 2015**
+   >   - `C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe.config`
+   >   - `C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\PrivateAssemblies\PreviewProcessingService.exe.config`
+   > - **Visual Studio 2017 and 2019**
+   >   - `C:\Program Files (x86)\Microsoft Visual Studio\<version>\<edition>\Common7\IDE\devenv.exe.config`
+   >   - `C:\Program Files (x86)\Microsoft Visual Studio\<version>\<edition>\Common7\IDE\CommonExtensions\Microsoft\SSRS\PreviewProcessingService.exe.config`
+   >
+   > If an `<appSettings>` section already exists, add the `<add>` element inside it instead of creating a second section. After you restart Visual Studio, the sign-in dialog prompts you for the organization URL. Enter the full URL, including the region, for example `https://<organization>.crm.dynamics.com`.
+  
+6. On the **Design the Query** page, type the FetchXML query in the **Query** box. To get this query, you can do one of the following:
   
    - Get the FetchXML from an Advanced Find query. To do this, open a Customer Engagement (on-premises) app, select **Advanced Find**, create the query that you want, and then on the **Advanced Find** tab, select **Download Fetch XML**. Copy the FetchXML into the **Query** box of the Dataset Properties in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  
   

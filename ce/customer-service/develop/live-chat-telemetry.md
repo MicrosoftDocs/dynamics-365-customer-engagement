@@ -1,22 +1,21 @@
----
-title: "Live chat widget telemetry| MicrosoftDocs"
-description: "Learn about the telemetry data collected by the live chat widget. Also learn how to disable automatic data collection by the chat widget."
-ms.date: 06/17/2022
+﻿---
+title: Live chat widget telemetry
+description: Learn about the telemetry data collected by the live chat widget. Also learn how to disable automatic data collection by the chat widget.
+ms.date: 05/27/2026
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 # Live chat widget telemetry
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-The live chat widget in Chat for Dynamics 365 collects telemetry data from end users to improve the feature’s capabilities, reliability, and performance over time by helping Microsoft understand usage patterns, plan new features, and troubleshoot and fix problem areas.
+The live chat widget collects telemetry data from end users to improve the feature capabilities, reliability, and performance over time by helping Microsoft understand usage patterns, plan new features, and troubleshoot and fix problem areas.
 
 Some of the data collected by the live chat widget include the following. 
 
 |Field|Sample value|
 |----|----|
-|OrganizationId |`8e9071c2-4415-47aa-b1cb-693631e7fafb` |
+|OrganizationId |`11bb11bb-cc22-dd33-ee44-55ff55ff55ff` |
 |Chat Widget Version |`prod` |
 |BrowserName |`Edge` |
 |OSName |`Windows`| 
@@ -31,9 +30,10 @@ If your organization is concerned about the data collected by this service, you 
 data-disable-telemetry = "true"
 ```
 
-### See also
+### Related information
 
 [Customize live chat widgets using data tags](customize-chat-widget.md)  
 [Customize live chat widgets for mobile apps](render-live-chat-widget-mobile.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -1,8 +1,8 @@
 ---
 title: Messaging extensions FAQs
 description: Use this topic to find frequently asked questions (FAQs) and answers about messaging extensions.
-ms.date: 03/15/2024
-ms.topic: article
+ms.date: 06/13/2025
+ms.topic: faq
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
@@ -27,7 +27,7 @@ If you install the Dynamics 365 app from the messaging extension (…) compose t
 
 ## Can I search and share custom table records using the Dynamics 365 app?  
 
-You can search and share custom table records using the Dynamics 365 app. The **All** tab in the Dynamics 365 app will allow you to search on all tables, including custom tables. The search in **All** tab is powered by [Dataverse Search](/power-platform/admin/configure-relevance-search-organization) if it is enabled on the organization; otherwise, it defaults to [Categorized search](/powerapps/user/quick-find#multiple-table-quick-find-categorized-search). The tabs in the search fly-out show the most recently used records across tables by default (before you start a search).
+You can search and share custom table records using the Dynamics 365 app. The **All** tab in the Dynamics 365 app will allow you to search on all tables, including custom tables. The search in **All** tab is powered by [Dataverse Search](/power-platform/admin/configure-relevance-search-organization) if it's enabled on the organization; otherwise, it defaults to [Categorized search](/powerapps/user/quick-find#multiple-table-quick-find-categorized-search). The tabs in the search fly-out show the most recently used records across tables by default (before you start a search).
 
 ## How does the application pick the information to show in the card about a record I choose to share?
 
@@ -59,11 +59,11 @@ You can connect only to one environment at a time.
 
 ## Can I connect to multiple applications using the Dynamics 365 app?
 
-You can connect only to one application at a time. Note that you can search and insert any record you have access to in the environment to which you are connected. The application you choose when setting up the app is used only to generate the deep link to record for directing users when they select **Open in Dynamics** on the card. Users will still be able to view a record that is in the environment but not in the app that is set up.
+You can connect only to one application at a time. Note that you can search and insert any record you have access to in the environment to which you're connected. The application you choose when setting up the app is used only to generate the deep link to record for directing users when they select **Open in Dynamics** on the card. Users will still be able to view a record that is in the environment but not in the app that is set up.
 
 ## Can I connect to different environments or applications in different chats where I use the Dynamics 365 app?
 
-When you change the settings of the app, you are changing it for all chats and environments.
+When you change the settings of the app, you're changing it for all chats and environments.
 
 ## What happens to the messages with cards in a chat when I uninstall the Dynamics 365 app?
 

@@ -1,7 +1,6 @@
 ---
 title: "There is a problem with the federation metadata URL | Microsoft Docs"
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

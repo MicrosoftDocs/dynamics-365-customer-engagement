@@ -1,11 +1,10 @@
 ---
 title: "Start writing reports with Dynamics 365 Customer Engagement (on-premises)"
 description: "Start here to learn about writing reports with Dynamics 365 Customer Engagement (on-premises). Get information on report types, ownership, security, and more."
-ms.date: 06/28/2021
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: concept-article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 7e593f9d-5003-4115-ab6f-a1f4ce188fab

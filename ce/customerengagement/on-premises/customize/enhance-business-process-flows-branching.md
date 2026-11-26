@@ -3,11 +3,10 @@ title: "Business process flow branching in Dynamics 365 Customer Engagement (on-
 description: "In complex scenarios, you can enhance a business process flow with branching. This page walks you through an example for designing a flow with branches."
 
 ms.custom: 
-ms.date: 11/04/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 author: Mattp123
 ms.assetid: 62cfac6b-0d78-48de-9364-0287454aa2a0
 caps.latest.revision: 9

@@ -3,6 +3,7 @@ title: "Locations and modes for communication widgets | MicrosoftDocs"
 description: "Learn about the modes&mdash;docked, minimized, and hidden&mdash;used in Dynamics 365 Channel Integration Framework 1.0. "
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.date: 01/21/2022
 ms.topic: reference
 ms.custom: 
@@ -14,7 +15,7 @@ ms.custom:
 
 [!INCLUDE[token-modes-communication-widget](../../shared/token-modes-communication-widget.md)]
 
-### See also
+### Related information
 
 [setMode (JavaScript API reference)](../develop/reference/microsoft-ciframework/setMode.md)
 

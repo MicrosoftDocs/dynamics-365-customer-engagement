@@ -1,15 +1,14 @@
 ---
 title: "Debug issues in Unified Service Desk  | MicrosoftDocs"
 description: "Learn about the debugger application for troubleshooting issues in your Unified Service Desk application."
-ms.date: 08/23/2017
-ms.topic: article
+ms.date: 06/27/2024
+ms.topic: concept-article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
 tags: MigrationHO
 ---
 # Debug issues in Unified Service Desk

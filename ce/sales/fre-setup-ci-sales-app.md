@@ -1,7 +1,7 @@
 ---
 title: Set up conversation intelligence in Sales Hub app
 description: Learn how to set up conversation intelligence with Microsoft Teams or third-party dialers in Dynamics 365 Sales.
-ms.date: 12/14/2023
+ms.date: 09/29/2026
 ms.custom: bap-template
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -12,6 +12,9 @@ ms.reviewer: lavanyakr
 
 # Set up conversation intelligence in Sales Hub app
 
+> [!IMPORTANT]
+> Starting June 2024, Conversation intelligence will use Microsoft Azure OpenAI Service to process call data and transcripts. If your Dynamics 365 Sales organization is in a region where Azure OpenAI Service isn't available, your call data and transcripts will be processed in the nearest region where Azure OpenAI Service is available.
+
 Using Microsoft Teams or other third-party dialers together with conversation intelligence in Dynamics 365 Sales helps organizations transform customer interactions into revenue. Calling with these dialers allows sellers to view business-critical insights both during the call&mdash;in real-time&mdash;and after.
 
 As an administrator, configure conversation intelligence for the dialer that your sellers use.  
@@ -20,13 +23,6 @@ If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call
 
 [Learn more about conversation intelligence for Sales Enterprise license](digital-selling-microsoft-teams-calls.md).
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Prerequisites for Microsoft Teams
 
 - An installation of Microsoft Teams Phone System along with a valid license to use it. [Set up your phone system](/microsoftteams/setting-up-your-phone-system).
@@ -34,12 +30,6 @@ If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call
 
 - [Teams dialer enabled and configured for your organization](configure-microsoft-teams-dialer.md)
 - (Optional) [Set up own storage for call recordings](create-azure-repo.md) if you want to use your own Azure storage for storing call recordings and transcripts, and the call insights. Otherwise, the application uses Microsoft-provided storage.
-
-## Prerequisites for third-party dialers
-
-- A valid license and subscription to use the third-party dialers. Refer to your telephony provider's documentation to set up the phone system and dialer.
-
-- [Integrate the third-party dialer with Dynamics 365 Sales](ci-third-party-sp-integration.md).  
 
 ## Open the conversation intelligence settings page
 
@@ -80,11 +70,9 @@ Configure the settings to specify where your call recording data is stored, the 
 
     | Option | Description |
     |--------|-------------|
-    | Storage for call recordings | Select an option to store your call recordings for analysis:<br><ul><li>**Microsoft provided storage**: Select this option to use storage provided by Microsoft. This option is selected by default, and we recommend that you don't change it unless you need to retain call recording data for longer than 90 days.</li><li>**Your own Azure storage**: Select this option to use your own Azure storage. You must select this option to retain call recording data for longer than 90 days. After you select this option, enter the **Storage name** and **Container name** that you've created for conversation intelligence in your Azure portal. [Learn more about configuring your own storage](create-azure-repo.md). <br></li></ul>|
+    | Storage for call recordings | Select an option to store your call recordings for analysis:<br><ul><li>**Microsoft Dataverse storage**: Use this option when Dataverse storage is available for your organization. Dataverse storage is managed at the organization level, and individual sellers don't need to configure storage. When Dataverse storage is used, you don't need to provide Azure storage account details for conversation intelligence. Learn more in [Manage Conversation intelligence data retention in Dataverse](ci-dataverse-data-retention-deletion.md).</li><li>**Microsoft provided storage**: Select this option to use storage provided by Microsoft. This option is selected by default, and we recommend that you don't change it unless you need to retain call recording data for longer than 90 days.</li><li>**Your own Azure storage**: Select this option to use your own Azure storage. You must select this option to retain call recording data for longer than 90 days. After you select this option, enter the **Storage name** and **Container name** that you've created for conversation intelligence in your Azure portal. [Learn more about configuring your own storage](create-azure-repo.md). <br></li></ul>|
     | Retention policy | Select how long to retain call recording data. The application deletes the data when it reaches the time limit. [Learn more about data retention and access](data-retention-deletion-policy.md).<br>For Microsoft-provided storage, the available retention periods are 30 days and 90 days. If your organization requires a longer retention period, you'll need to use your own storage. |
 
-
-    :::image type="content" source="media/conversation-intelligence-own-storage-setting.svg" alt-text="Screenshot of the own storage settings.":::
 
 1. Under **Business settings**, configure the following settings:
 
@@ -92,15 +80,14 @@ Configure the settings to specify where your call recording data is stored, the 
 
     - In the **Automated summaries** section, leave **Enable call summary** selected to let your sellers view the notes after their calls. [Learn more about the call summary page](view-and-understand-call-summary-sales-app.md).
 
-    - In the **My languages** section, add the languages your sellers use during their calls with customers to ensure accurate transcription, keyword tracking, analysis, insights, and KPIs.
-
-    :::image type="content" source="media/ci-admin-conversation-trackers.png" alt-text="Screenshot of business settings.":::
-
 1. (Optional) In the **Data consent and privacy** section, select **Allow read-only access to data** to allow Microsoft to improve the quality of insights by giving read-only access to your organization's conversation intelligence data.  
 
 1. (Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org. [Learn more about enabling new and upcoming features](#enable-new-and-upcoming-features).
 
-1. Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement, and then select **Get started**.  
+1. Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement, and then select **Get started**.
+
+> [!NOTE]
+> Conversation intelligence supports several languages. Sellers can choose their conversation language in the dialer after starting the call. For more information, see [Make and receive Teams calls in Dynamics 365](call-using-microsoft-teams.md)
 
 ## Enable new and upcoming features
 
@@ -115,7 +102,7 @@ To comply with the Payment Card Industry (PCI) regulations, organizations must p
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 To comply with Payment Card Industry regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as the account number, expiration date, and CVV are masked before the call transcript is saved.
 
@@ -129,7 +116,7 @@ To comply with Payment Card Industry regulations, organizations must protect per
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 If you have chosen **Automatic recording** to record all customer calls, you can enable call categorization to help your sales team to quickly identify calls that don't have useful content such as calls that went to voicemail and calls that were not answered. More information: [View categorization tag for short duration calls (Preview)](view-and-understand-call-summary-sales-app.md#view-categorization-tag-for-short-duration-calls-preview)
 
@@ -142,7 +129,7 @@ If you have chosen **Automatic recording** to record all customer calls, you can
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Configure sales team-level settings](configure-sales-team-level-settings.md)  
 - [Introduction to administering conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)   

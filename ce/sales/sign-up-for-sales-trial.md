@@ -4,7 +4,7 @@ description: Sign up for a free Sales trial and get access to key features, test
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 03/19/2024
+ms.date: 03/12/2026
 ms.topic: how-to
 ms.custom:
   - template-trial-setup bap-template
@@ -15,17 +15,15 @@ ms.custom:
 
 # Sign up for a free Dynamics 365 Sales trial
 
-Dynamics 365 Sales offers a 30-day free trial with the Sales Premium license. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Dynamics 365 Sales features](overview.md).
+Dynamics 365 Sales offers a 30-day free trial. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Dynamics 365 Sales features](overview.md).
 
 **To sign up for the trial:**
 
-1. Go to the [Sales overview page](https://dynamics.microsoft.com/sales/overview/) and select **Try for free**.
+1. Go to the [Sales overview page](https://www.microsoft.com/dynamics-365/products/sales) and select **Try for free**.
 
-1. Enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) or your personal email ID, such as alansteiner@gmail.com.
-    > [!NOTE]
-    > [Conversation intelligence](dynamics365-sales-insights-app.md) requires a Microsoft account.
+1. Enter the [email ID associated with your Microsoft work account](/entra/fundamentals/sign-up-organization). If you don't have a Microsoft work account, sign up for the [Microsoft 365 trial](https://www.microsoft.com/en-in/microsoft-365/business/microsoft-365-business-standard-one-month-trial) to create a work account. You can then use this account to sign up for the Dynamics 365 Sales trial.
 
-1. Follow the onscreen guidance to provide additional information about yourself and your organization, such as country and phone number.  
+1. Follow the onscreen guidance to provide additional information about yourself and your organization, such as country/region, phone number, and credit card details.
 
    The trial takes a few minutes to set up and load. When it's ready, you'll see **Launch trial**.
 

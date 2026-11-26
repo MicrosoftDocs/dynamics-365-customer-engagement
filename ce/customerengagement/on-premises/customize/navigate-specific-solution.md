@@ -2,12 +2,11 @@
 title: "Find a solution in Dynamics 365 Customer Engagement (on-premises)"
 description: "Find a specific solution by going to Settings, then Customizations, and choosing Solutions. Double-click the unmanaged solution that you want to work in."
 ms.custom: 
-ms.date: 12/04/2018
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps

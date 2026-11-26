@@ -1,0 +1,37 @@
+---
+title: Edit settings of Sales Opportunity Agent
+ms.date: 05/29/2026
+ms.update-cycle: 180-days
+description: Learn how to edit the settings of Sales Opportunity Agentto customize knowledge sources, update frequency, and opportunity segments for your business needs.
+ms.topic: overview
+ms.service: dynamics-365-sales
+ms.custom: bap-template
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
+search.app: salescopilot-docs
+ms.collection: bap-ai-copilot
+ai-usage: ai-assisted
+---
+
+# Edit settings of Sales Opportunity Agent
+
+After starting the agent, you can edit its settings to suit your business needs. You can change the knowledge sources that the agent uses to generate insights, the frequency of research updates, and the segment of opportunities that the agent works on. 
+
+This article describes the impact of the edits to the Sales Close Agent settings.
+
+## What happens when you edit the agent settings?
+
+
+| Settings modified      | Completed opportunities | In progress opportunities |
+|------------------------|------------------------|--------------------------|
+| Knowledge sources      | Changes will be applied to all opportunities during the next refresh cycle. | Continue with previous sources until next refresh cycle. |
+| Selection criteria     | If the completed opportunity doesn't match the new selection criteria, opportunity research page will be removed and a banner appears. The opportunity will be removed from future refreshes. | Continue with previous criteria until next refresh |
+| Opportunity segment    | No change              | Continue with previous segment until next refresh |
+| Opportunity assessment fields | Changes applied during the next refresh. | Continue with previous fields until next refresh. |
+| Value proposition      | Changes applied during the next refresh. | Continue with previous value proposition until next refresh. |
+
+## Related information
+
+- [Set up and configure Sales Opportunity Agent](configure-sales-opportunity-agent.md)  
+- [Start the Sales Opportunity Agent](start-sales-opportunity-agent.md)

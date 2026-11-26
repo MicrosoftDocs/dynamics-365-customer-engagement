@@ -1,47 +1,57 @@
 ---
-title: Parse event activity JSON to get bot context
-description: Use this article to understand how you can parse the activity JSON to extract bot context.
-ms.date: 07/21/2023
-ms.topic: how-to
+title: Parse event activity JSON to get agent context
+description: Use this article to understand how you can parse the activity JSON to extract agent context in Dynamics 365 Contact Center.
+ms.date: 05/27/2026
+ms.update-cycle: 180-days
+ms.topic: reference
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
-ms.collection:
+ms.collection: bap-ai-copilot
 ---
-# Parse event activity JSON to get bot context
+# Parse event activity JSON to get agent context
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+The context messages in Dynamics 365 Contact Center are sent as event activity to AI agents. Context information such as customer info, live work item, or conversation ID, is sent to the agent as part of an activity JSON. The Activity is of type **startConversation** for Copilot Studio agents and **omnichannelSetContext** for Azure agents. 
 
-The Omnichannel for Customer Service context messages are sent as event activity to bots. Context information such as customer info, live work item, or conversation ID, is sent to the bot as part of an activity JSON. The JSON can be of type **startConversation** for most channels and **ConversationUpdate** for voice conversations. 
+## Fetch and use context for agents in your agent code
 
-## Fetch and use context for bots in your bot code
+ To process these context messages, use activity handlers and override them in your agent code. For information on how to use activity handlers, see [Event-driven conversations using an activity handler](/azure/bot-service/bot-activity-handler-concept?view=azure-bot-service-4.0&tabs=csharp&preserve-view=true).
 
- To process these context messages, use activity handlers and override them in your bot code. For information on how to use activity handlers, see [Event-driven conversations using an activity handler](/azure/bot-service/bot-activity-handler-concept?view=azure-bot-service-4.0&tabs=csharp&preserve-view=true).
-
-In the following example, when the event activity is received, the `OnEventActivityAsync` method is called to fetch and use the context. 
+In the following example, when the event activity is received, the `OnEventActivityAsync` method is called to fetch and use the context.
 
 ```CSharp
-protected override async Task OnEventActivityAsync(ITurnContext<IEventActivity> turnContext, CancellationToken cancellationToken)
-        {
-            if (turnContext.Activity.Name == "omnichannelSetContext")
-           {
-                // Replace with your logic to fetch the context from Activity.Value
-                IActivity replyActivity = MessageFactory.Text($"Received context :  {turnContext.Activity.Value.ToString()}");
+namespace Microsoft.CCaaS.MessagingRuntime.TestAgent.Agents;
 
-                // Replace with your logic to consume the context
-                await turnContext.SendActivityAsync(replyActivity, cancellationToken);
-            }
-        }
+public class TestAgentApplication : AgentApplication
+{
+    private readonly IContextManager _contextManager;
+
+    public TestAgentApplication(AgentApplicationOptions options, IContextManager contextManager) : base(options)
+    {
+        _contextManager = contextManager ?? throw new ArgumentNullException(nameof(contextManager));
+        OnConversationUpdate(ConversationUpdateEvents.MembersAdded, OnMembersAddedAsync);
+        OnEvent(ActivityTypes.Event, OnEventActivityAsync);
+        OnActivity(ActivityTypes.Message, OnMessageActivityAsync, rank: RouteRank.Last);
+    }
+
+    protected async Task OnMessageActivityAsync(ITurnContext turnContext, ITurnState turnState, CancellationToken cancellationToken)
+    {
+        ArgumentNullException.ThrowIfNull(turnContext);
+        var text = turnContext.Activity.Text?.ToLower(CultureInfo.InvariantCulture);
+        var responseActivity = Activity.CreateMessageActivity();
+        Responses.BuildCustomerFileAttachmentResponse(turnContext, responseActivity);
+    }
+}
 ```
 
 ## Next steps
 
 [Code samples for parsing activity JSON](bot-context-json-samples.md)  
 
-### See also
+### Related information
 
 [setContextProvider](reference/methods/setContextProvider.md)  
-[Integrate an Azure bot](../administer/configure-bot-azure.md)  
+[Integrate an Azure agent](../administer/configure-bot-azure.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

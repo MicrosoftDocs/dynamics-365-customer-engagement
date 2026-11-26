@@ -1,55 +1,58 @@
 ---
-title: "Capture forecast category for opportunity"
-description: "Capture the forecast category to indicate the confidence level of an opportunity getting converted into a sale."
-ms.date: 10/26/2021
-ms.topic: article
+title: Capture forecast category for opportunity
+description: Capture the forecast category to indicate the confidence level of an opportunity getting converted into a sale.
+ms.date: 05/29/2026
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
+ai-usage: ai-assisted
 ---
 # Capture forecast category for opportunity 
 
-Capture the forecast category to indicate the confidence level of an opportunity getting converted into a sale.
+Forecast categories tell your team how confident you are in closing each deal. They determine which forecast column each opportunity contributes to. For example, **Committed** (high confidence) or **Pipeline** (early-stage). Keeping forecast categories accurate ensures your forecast reflects the real state of your pipeline.
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+## Set the forecast confidence level for an opportunity
 
+When you create or edit an opportunity, set its **Forecast Category** to reflect your current confidence in closing it. This value determines which column the opportunity appears in on the forecast grid.
 
-## Select option set 
+> [!IMPORTANT]
+> **Don't manually select Won or Lost.** Instead, close the opportunity using the Close Opportunity dialog; the forecast category updates automatically. Manually setting Won or Lost can cause the opportunity to disappear from the forecast or produce inaccurate rollup values. See [Close opportunities as won or lost](close-opportunity-won-lost-sales.md).
 
-You must select an option set while configuring the forecast to determine the confidence level of an opportunity as it moves along the path to conversion. For example, when you select the option set as **forecast categories**, the forecast grid displays the stages that are defined in the option set.
+1. In the site map, select **Opportunities**.
 
-You can also manually configure your columns for a fully customized forecast. Forecast shows how many opportunities are in the pipeline and which of those are committed, delivering actionable insights. 
+1. Open the opportunity you want to update.
+1. Switch to the **Opportunity** form if you're not already on it. By default, the **Forecast Category** field is available only on the Opportunity form.
 
-1.	In the site map, select **Opportunities**.
+1. In the **Forecast Category** drop-down list, select the category that best reflects your confidence, then select **Save**:
 
-2.	In the list of opportunities, open an opportunity for which you want to capture the forecast category.
+    - **Pipeline** (default): Early-stage or stalled deal, low confidence. *When to use: You just discovered this opportunity or early conversations are underway.*
 
-3.	In the **Forecast Category** drop-down list, select one of the following, and then select **Save**:
+    - **Best case**: Deal is progressing&mdash;you shared quotes or had substantive conversations&mdash;but no commitment yet. Medium confidence. *When to use: Customer is actively evaluating; deal could go either way.*
 
-    -  **Pipeline**. The confidence of winning this opportunity is low. Any opportunity that a sales rep has just started to work on can be set to this category (this is the default value).
+    - **Committed**: Customer has made a verbal or contractual commitment. High confidence. *When to use: You're mainly waiting on paperwork or final approvals.*
 
-    -  **Best case**. The sales rep has started talking to customers or has shared quotes, and there is a moderate chance of winning the opportunity.
+    - **Omitted**: Exclude this opportunity from all forecast totals. *When to use: The deal is on hold, irrelevant to this period, or you want to remove it temporarily.*
 
-    -  **Committed**. The customer has committed to closing the deal.
+    - **Won**: Set automatically when you close an opportunity as Won. Don't select manually.
 
-    -  **Omitted**. To exclude an opportunity’s numbers from the forecast. 
-    
-    - **Won**. Don't select this option manually. When you close an opportunity as **Won**, its forecast category is automatically set to **Won**.  
-    
-    - **Lost**. Don't select this option manually. When you close an opportunity as **Lost**, its forecast category is automatically set to **Lost**.
+    - **Lost**: Set automatically when you close an opportunity as Lost. Don't select manually.
 
-       > [!div class="mx-imgBorder"]
-       > ![Capture forecast category on an opportunity.](media/capture-forecast-category-opportunity-form.png "Capture forecast category on an opportunity")
+       :::image type="Capture forecast category on an opportunity" source="media/capture-forecast-category-opportunity-form.png" alt-text="Capture forecast category on an opportunity":::
+
+## What happens after you set the category
+
+After you save the opportunity with a forecast category:
+
+- The opportunity's revenue appears in the corresponding column on the forecast grid (Pipeline, Best Case, Committed, and so on).
+- When you close the opportunity as Won or Lost, the forecast category is automatically updated to match.
+- Your manager and higher levels in the hierarchy see the aggregated totals including this opportunity.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-## See also
+## Related information
 
 [Create or edit an opportunity](create-edit-opportunity-sales.md)  
 

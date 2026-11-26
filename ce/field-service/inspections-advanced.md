@@ -1,99 +1,110 @@
 ---
-title: Configure advanced options for inspections (contains video)
+title: Configure advanced options for inspections
 description: Learn about advanced ways of working with inspections in Dynamics 365 Field Service.
-ms.date: 03/15/2023
+ms.date: 04/02/2026
 ms.topic: how-to
 ms.custom: bap-template
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: josephshum-msft
-ms.author: jshum
+author: jasonccohen
+ms.author: jacoh
 ---
 
 # Configure advanced options for inspections
 
-Along with simple lists of questions, [inspections](inspections.md) can incorporate more advanced scenarios like branching and conditional logic. Other advanced ways to use inspections include copying inspections to serve as templates, adding translations, importing and exporting inspections, and relating inspections to assets to build service histories.
+Inspections aren't limited to a basic list of questions. Use branching and conditional logic to create dynamic inspections that  automatically adjust, displaying different questions or steps depending on how the technician answers. You can also streamline your processes by copying inspections, adding translations, importing and exporting inspection definitions, and associating inspections with assets to help build comprehensive service histories.
 
 Watch a brief video overview:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4JiMF]
+> [!VIDEO efbdee95-2201-4ee5-a114-9af47ad18e82]
+
+<!--- https://learn-video.azurefd.net/vod/player?id=efbdee95-2201-4ee5-a114-9af47ad18e82 --->
 
 ## Add branching and conditional logic
 
-An inspection can look and act differently depending on how the technician answers.
+An inspection can look and act differently depending on how the technician answers. Add branching and conditional logic in the **Logic** section of the inspection designer. The inspection must be in a draft status.
 
-Add branching and conditional logic in the **Logic** section of the inspection designer.
+1. In Field Service, change to the **Settings** area. Under **Work Orders**, select **Inspection Templates**.
 
-Based on the response to a question, inspections can:
+1. Open a draft inspection, select the **Logic** tab, and then **Create rule**.
 
-- **Make Page visible**: If an inspection includes more than one page, show a specific page when the condition is true.
+1. To define a condition, select a question and response.
 
-- **Show the question**: Show a specific question when the condition is true.
+1. Define the action for the selected response.
 
-    A question's visibility maps to a single rule. If you want multiple questions to determine whether the question is shown, add more conditions to the rule.
+   - **Make Page visible**: If an inspection includes more than one page, show a specific page when the condition is true.
 
-- **Change to Required**: Make the question required when the condition is true.
+   - **Show the question**: Show a specific question when the condition is true.
 
-- **Skip to question**: Skip to a specific question when the condition is true.
+      A question's visibility maps to a single rule. If you want multiple questions to determine whether the question is shown, add more conditions to the rule.
+
+   - **Change to Required**: Make the question required when the condition is true.
+
+   - **Skip to question**: Skip to a specific question when the condition is true.
+
+1. Continue to add conditions and actions if needed and then select **Apply rule & close**.
+
+   :::image type="content" source="media/inspection-logic.png" alt-text="Screenshot of Logic tab with a condition and action.":::
+
+1. Add other rules if needed and then select save and publish.
 
 ## Copy an inspection
 
 Copy an inspection to quickly create similar inspections.
 
-1. Open the list of inspections and select one.
+1. In Field Service, change to the **Settings** area. Under **Work Orders**, select **Inspection Templates**.
+
+1. Select the checkbox to the left of the inspection you want to copy.
 
 1. Select **Copy** in the command bar.
 
-1. Modify the new inspection draft as needed.
+1. Modify the new inspection draft as needed. Learn more in [Create inspection](inspections.md).
 
-1. Save and publish the inspection.
+1. Save and publish.
 
 ## Create a new version of an inspection
 
-When you publish an inspection, it becomes read-only. To change it, you need to create a new version. Versions of an inspection are listed in the **Versions** tab.
+When you publish an inspection, it becomes read-only. To change it, you need to create a new version. Previous versions of published templates aren't saved. If you revise a published template, once the revised template is published, the original template is no longer available.
 
 Revising an inspection doesn't change service tasks retroactively. Service tasks keep the inspection version that was active when the task was created.
 
-1. Open the list of inspections and select one.
+1. Open the published inspection.
 
 1. Select **Revise** in the command bar.
 
-    The system creates a new version of the inspection in a draft state.
+   The system creates a new version of the inspection in a draft status.
+
+   :::image type="content" source="media/inspection-revise-version.png" alt-text="Screenshot with versioning options for inspections.":::
 
 1. Modify the draft as needed.
 
-1. To use the new version and deactivate the current one, select **Publish**.
-
-:::image type="content" source="media/inspection-revise-version.png" alt-text="Screenshot with versioning options for inspections.":::
+1. To use the new version and replace the current one, select **Publish**.
 
 ## Export an inspection as a PDF file
 
 Export an inspection as a PDF file to send the questions in an email. Although the questions can be answered in the file, they no longer interact with the Dynamics 365 system (for example, lookups don't work), and they don't flow back into Field Service.
 
-1. Open the list of inspections and select one.
+1. Open the inspection you want to export.
 
 1. Select **Export** > **Export to PDF** to download the file.
-
-:::image type="content" source="media/export-inspection-template.png" alt-text="Screenshot of the export as PDF option.":::
 
 ## Export inspection responses as a PDF file
 
 Export inspection responses as a PDF file to share them by email, for instance. This option doesn't support custom date or number formats, right-to-left languages, Hindi, or Chinese.
 
-In the work order service task, select **Export Responses** to download them as a PDF file.
+1. Open the work order that contains the inspection response you want to export.
 
-:::image type="content" source="media/export-inspection-response-as-pdf.png" alt-text="Screenshot showing export response as PDF experience on service task.":::
+1. Select the **Tasks** tab and open the service task.
 
-## Import and export inspections
+1. Select **Export Responses** to download them as a PDF file.
 
-Administrators can export inspections as JSON objects to import them to another environment; for example, from a test environment to a production environment.
+   :::image type="content" source="media/export-inspection-response-as-pdf.png" alt-text="Screenshot showing export response as PDF experience on service task.":::
 
-1. Open the list of inspections and select one.
+## Export an inspection to JSON
+
+Administrators can export inspections as JSON objects to import them to another environment. For example, from a test environment to a production environment.
+
+1. Open the inspection you want to export.
 
 1. Select **Export** > **Export to json** to download the file in JSON format.
-
-:::image type="content" source="media/importJsonFile.png" alt-text="Screenshot of the option to import from json.":::
 
 ## Add translations
 
@@ -102,19 +113,23 @@ Add a variation of an inspection for each language your technicians speak.
 > [!IMPORTANT]
 > [Turn on languages in your environment](/power-platform/admin/enable-languages) to let technicians view translated inspections in the mobile app.
 
-1. Open the list of inspections, select one, and then select the **Translation** tab.
+1. Open the draft inspection and then select the **Translation** tab.
 
 1. Select a language from the list and enter the translation for each question.
 
 1. Save and publish the inspection.
 
-:::image type="content" source="media/translationimage3.png" alt-text="Screenshot of the translation tab on an inspection.":::
-
 ## Associate inspections with customer assets
 
-Associate an inspection to a customer asset to let technicians know which asset to inspect and to build a [service history](service-history.md). Enter the customer asset in the **Service Task Relates To** tab of the work order service task that uses the inspection.
+Associate an inspection to a customer asset to let technicians know which asset to inspect and to build a [service history](service-history.md).
 
-:::image type="content" source="media/inspections-wost-customer-asset.png" alt-text="Screenshot of the work order service task showing the Service Task Relates To tab, highlighting an associated customer asset.":::
+1. Open the work order that contains the inspection.
+
+1. Select the **Tasks** tab and open the service task.
+
+1. Select the **Service Task Relates To** tab. For **Customer Asset**, select the asset or [create it](assets.md).
+
+   :::image type="content" source="media/inspections-wost-customer-asset.png" alt-text="Screenshot of the work order service task showing the Service Task Relates To tab, highlighting an associated customer asset.":::
 
 > [!TIP]
 > Relate a work order incident type to a customer asset and the related work order service tasks are automatically related to the customer asset.

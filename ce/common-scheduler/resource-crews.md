@@ -1,15 +1,17 @@
 ---
 title: Schedule work with resource crews in Universal Resource Scheduling
 description: Learn how to use resource crews to simplify the scheduling of people, equipment, or facilities that will perform the same work during a period of time.
-ms.date: 02/20/2023
+ms.date: 07/14/2026
 ms.subservice: common-scheduler
 ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan
-ms.reviewer: mhart
+ms.reviewer: puneet-singh1
 ---
 
 # Schedule work with resource crews in Universal Resource Scheduling
+
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
 
 [!INCLUDE[topic-urs-resource-crews.md](../shared/urs/resource-crews.md)]
 

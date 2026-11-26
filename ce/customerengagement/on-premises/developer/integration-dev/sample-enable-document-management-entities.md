@@ -2,7 +2,6 @@
 title: "Sample: Enable document management for entities | MicrosoftDocs"
 description: Learn how to enable document management for entities with this sample code for Dynamics 365 Customer Engagement (on-premises).
 keywords: 
-ms.date: 10/31/2017
 
 ms.custom: 
 ms.topic: sample

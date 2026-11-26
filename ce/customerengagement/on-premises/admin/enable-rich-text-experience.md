@@ -2,7 +2,6 @@
 title: "Rich text experience in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn about the benefits of enabling the rich text experience for appointment activities and how to enable the rich text editor."
 ms.custom: 
-ms.date: 10/28/2019
 ms.reviewer: 
 
 ms.suite: 

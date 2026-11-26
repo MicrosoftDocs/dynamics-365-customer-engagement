@@ -3,8 +3,7 @@ title: "Voice of the Customer is deprecated | MicrosoftDocs"
 description: "Information about Voice of the Customer deprecation."
 keywords: send survey; distribute survey; distribute voice of the customer survey; track survey invite; deprecate voice of the customer
 ms.date: 01/04/2022
-ms.service: dynamics-365-customerservice
-ms.topic: article
+ms.topic: concept-article
 author: sbmjais
 ms.author: shjais
 ms.reviewer: 

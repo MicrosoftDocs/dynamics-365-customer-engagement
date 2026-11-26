@@ -2,7 +2,6 @@
 title: "Sample: Create an on-premises user (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom:
 description: "The sample shows how to create a new system user in Active Directory and Customer Engagement."
-ms.date: 1/23/2020
 ms.reviewer: pehecke
 
 ms.suite:
@@ -26,7 +25,7 @@ This sample shows how to programmatically create a new system user in Dynamics 3
 
 The sample applies to on-premises and IFD deployments only. You must have administrator permissions in Customer Engagement and the Active Directory domain to run the sample successfully.
 
-To build the sample, you will need to add the [Helper-Code](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/WorkwithSolutions/WorkwithSolutions/Helper-Code) and [Login-UX](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/WorkwithSolutions/WorkwithSolutions/Login-UX) code to your project.
+To build the sample, you will need to add the [Helper-Code](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/WorkwithSolutions/WorkwithSolutions/Helper-Code) and [Login-UX](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/WorkwithSolutions/WorkwithSolutions/Login-UX) code to your project.
 
 The sample does not delete the new user after the program terminates. This must be done manually in Customer Engagement and then in AD.
 

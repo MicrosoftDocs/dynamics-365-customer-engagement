@@ -2,12 +2,11 @@
 title: "Configure product catalog in Dynamics 365 Customer Engagement (on-premises)"
 description: "Configure the product catalog to help your company sell with greater efficiency. As an administrator, you can also migrate the configuration data."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x

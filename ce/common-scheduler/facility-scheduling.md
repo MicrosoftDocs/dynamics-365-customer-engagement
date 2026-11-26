@@ -1,15 +1,17 @@
 ---
 title: Schedule a facility in Universal Resource Scheduling
-description: Learn how to coordinate physical spaces and related resources and explore a scenario how facility scheduling is used.
-ms.date: 02/15/2023
-ms.reviewer: mhart
+description: Learn how to coordinate physical spaces and related resources.
+ms.date: 07/31/2026
+ms.reviewer: puneetsingh
 ms.subservice: common-scheduler
 ms.topic: how-to
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Schedule a facility in Universal Resource Scheduling
+
+<!--- This article appears in Field Service and Common Scheduler doc sets. Update metadata in both articles. --->
 
 [!INCLUDE[topic-urs-facility-scheduling.md](../shared/urs/facility-scheduling.md)]
 

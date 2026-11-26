@@ -3,7 +3,6 @@ title: "Encrypted fields in the organization database | Microsoft Docs"
 description: Environment diagnostics warning that encrypted fields are active by the encryption feature hasn't been activated.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

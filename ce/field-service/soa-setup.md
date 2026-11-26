@@ -1,0 +1,157 @@
+---
+title: Set up the Scheduling Operations Agent (preview)
+description: Learn how to set up the Scheduling Operations Agent in Dynamics 365 Field Service for your dispatchers.
+ms.date: 09/03/2026
+ms.topic: how-to
+ms.collection: bap-ai-copilot
+ms.author: anclear
+author: andrewclear-ms
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 06/30/2026
+ai-usage: ai-assisted
+---
+
+# Set up the Scheduling Operations Agent (preview)
+
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+The Scheduling Operations Agent is an autonomous agent for Dynamics 365 Field Service that considers existing bookings and requirements when a dispatcher adjusts a technician's schedule. Before dispatchers can use the agent, an administrator must set it up in your environment.
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
+## Prerequisites
+
+- Your environment is updated to Field Service version 8.8.133.214 or newer and Universal Resource Scheduling version 3.12.149.15 or newer.
+- [Location and map settings](field-service-maps-address-locations.md) are turned on for your environment.
+- You have an administrator role in Dynamics 365.
+
+## Set up the billing model
+
+Scheduling Operations Agent and other Copilot and agent capabilities in Dynamics 365 use Microsoft Copilot Studio credits for AI interactions and tasks like retrieving information and responding to prompts. The number of credits per event depends on the event's complexity. Learn more in [Message scenarios](/microsoft-copilot-studio/requirements-messages-management#message-scenarios). For the Scheduling Operations Agent, a single optimization request consumes credits based on the number of resources it includes, so optimizing more resources at once uses more capacity.  
+
+These capabilities use consumption-based billing, charging per use, and credits are the billing units that measure usage. Learn more about billing and rates in [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130).
+
+Dynamics 365 supports two billing models: prepaid capacity and pay-as-you-go. The prepaid capacity model uses Copilot Studio credit pack subscriptions, which are a licensing option for Microsoft Copilot Studio that you purchase in advance. The pay-as-you-go model charges for the actual number of credits that agents consume during the month. Learn more in [Copilot licensing](/microsoft-copilot-studio/billing-licensing).
+
+You can use both billing models in the same environment. Prepaid capacity is consumed first. Both models require that you link your Dynamics 365 environment to a Power Platform environment.
+
+### Set up prepaid capacity billing
+
+1. In the Microsoft 365 admin center, purchase a Copilot credit pack subscription. Learn more in [Manage self-service purchases and trials (for users)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-users) or [Manage self-service purchases and trials (for admins)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins).
+
+1. In the Power Platform admin center, assign prepaid capacity to the Power Platform environment. Learn more in [Manage capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new#manage-capacity).
+
+### Set up pay-as-you-go billing
+
+To set up pay-as-you-go billing, you first need an active Azure subscription. Link the subscription to your Power Platform environment by using the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) or [Power Apps](https://make.powerapps.com/). Learn more in [Set up pay-as-you-go](/power-platform/admin/pay-as-you-go-set-up).
+
+### Manage capacity and usage
+
+You can view Copilot Studio credit capacity and usage for both prepaid capacity and pay-as-you-go billing in the Power Platform admin center. Learn more in [Manage Copilot Studio credits and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity).
+
+Dynamics 365 regularly checks the available capacity, or quota, of Copilot Studio messages. If your organization's quota is low or depleted, users receive in-app notifications about the capacity status and necessary actions. It's important to take timely action on these notifications and either reallocate existing capacity or purchase more.
+
+- For prepaid capacity, use the Power Platform admin center to allocate more capacity to the environment from the total available on the tenant. If no capacity is available, purchase more. Learn more in [Manage capacity](/power-platform/admin/manage-copilot-studio-messages-capacity#manage-capacity).
+
+- For pay-as-you-go, use Microsoft Cost Management in the Azure portal to view detailed usage and adjust spending limits, or budgets, to free up more capacity. If no capacity is available, purchase more. Learn more in [View usage and billing information](/power-platform/admin/pay-as-you-go-usage-costs).
+
+> [!IMPORTANT]
+> When the quota is depleted, AI capabilities are unavailable until more capacity is added. Tenant admins can [review the message consumption of agents](/microsoft-copilot-studio/requirements-messages-management#view-message-consumption) in the Power Platform admin center. Learn more in [Message scenarios](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).
+
+## Turn on the Scheduling Operations Agent
+
+1. Open the Field Service app.
+
+1. Change to the **Resources** area and go to **Scheduling Parameters** > **Resource Scheduling**.
+
+1. Go to the **Agents** tab and turn on **Scheduling Operations Agent (Preview)**.
+
+:::image type="content" source="media/soa-enable-agent.png" alt-text="Screenshot of the Scheduling Operations Agent toggle in Dynamics 365 Field Service Resource Scheduling settings.":::
+
+Turning on the agent enables both interactive and batch optimizations.
+
+## Assign permissions and roles
+
+The Scheduling Operations Agent uses two security roles for the people who use it, plus a team that gives the agent itself access to your data.
+
+### Assign roles to users
+
+The agent includes two security roles. They're additive, so assign them alongside a user's existing roles rather than replacing them. Each user also needs a role that grants access to the underlying scheduling tables, such as bookable resources, bookings, and resource requirements - for example, a dispatcher role like **Field Service - Dispatcher**.
+
+| Role | Assign to | Grants |
+| --- | --- | --- |
+| **Scheduling Operations Agent Administrator** | Administrators who create scopes, goals, and plans | Create, edit, and delete scopes, goals, and plans, and view optimization results. |
+| **Scheduling Operations Agent User** | Dispatchers who run optimizations | View scopes, goals, and plans; run interactive optimizations from the schedule board and batch optimizations from a plan; and view optimization results. |
+
+To assign a role to a user:
+
+1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+
+1. Select your environment, and then go to **Settings** > **Users + permissions** > **Users**.
+
+1. Select a user, and then select **Manage security roles**.
+
+1. Select **Scheduling Operations Agent Administrator** or **Scheduling Operations Agent User**, along with a dispatcher role such as **Field Service - Dispatcher**, and then select **Save**.
+
+### Give the agent access to your data
+
+The agent runs as an application user that belongs to the **Scheduling Operations Agent Team**. Each change the agent makes uses the combined permissions of the user who runs the optimization and the agent's application user, so both must have access to the affected records. By default, the agent's application user can read and write the standard scheduling tables.
+
+If your optimizations use custom tables, Field Service or Project Operations tables, or queries that reference other tables, assign the matching security roles to the **Scheduling Operations Agent Team** so that the agent can read and update those tables. A good starting point is to assign the same roles that you assign to your dispatchers.
+
+1. In the Power Platform admin center, select your environment, and then go to **Settings** > **Teams**.
+
+1. Select the **Scheduling Operations Agent Team**.
+
+1. Assign the security roles that grant access to the tables your optimizations use, and then save.
+
+> [!NOTE]
+> If you use column-level security (field security profiles) on any columns that your scopes or queries reference, also add the **Scheduling Operations Agent Team** to the matching field security profile. Otherwise, the agent might ignore filter conditions on those columns and return incorrect results.
+
+## Set properties for bookable resources
+
+In the **Resources** area, set the following properties for each bookable resource that you want the agent to consider:
+
+- **Display on schedule board** must be **Yes**.
+
+## Select an optimization method for booking statuses
+
+**Optimization Method** is a new property of booking statuses that tells the agent whether it can move or delete scheduled or committed bookings in favor of unfulfilled requirements that better match the optimization goals. If you don't set this field, the agent treats all bookings in that status as **Do Not Move**.
+
+1. Open the Field Service app and go to the **Resources** area.
+
+1. Select **Booking Settings** > **Booking Statuses**. To show all statuses, remove all filters from the view.
+
+1. For each booking status, set the **Optimization Method** property to one of the following values:
+
+    - **Optimize**: The agent can move or delete bookings with this status to generate an optimal schedule. Use this method for bookings that aren't in progress yet, such as **Scheduled** or **Committed** statuses.
+
+    - **Do Not Move**: The agent must preserve the estimated arrival time of bookings with this status. It only updates the travel time if a previous booking is moved or changed. This method typically applies when a technician is already traveling to a booking or has started or completed the work. You can also use this optimization method in situations where a specific arrival time was committed to a customer. **Do Not Move** is the default behavior if **Optimization Method** isn't set.
+
+    - **Ignore**: The agent can override bookings with this status and move or create new bookings on top of them. Use this method for bookings with a status of **Canceled**.
+
+    :::image type="content" source="media/soa-booking-status.png" alt-text="Screenshot of a booking status record with a configured optimization method in Dynamics 365 Field Service booking statuses settings.":::
+
+## Set priority values
+
+The **Priority Value** property helps the agent decide which bookings or resource requirements are more important. It accepts numbers between 1 and 100. The higher the number, the higher the priority. For example, a high-priority booking with a **Priority Value** of 75 takes precedence over a high-priority booking with a **Priority Value** of 50. The agent ignores the **Level of Importance** field.
+
+1. Open the Field Service app and go to the **Settings** area.
+
+1. Select **Priorities**.
+
+1. For each priority that you want the agent to consider, set a **Priority Value**.  
+
+    :::image type="content" source="media/soa-priority-value.png" alt-text="Screenshot of a priority record with a configured priority value in Dynamics 365 Field Service priorities settings.":::
+
+> [!TIP]
+> Set priority values that are clearly distinguishable, but within a relatively narrow range. For example, if your values are Low - 1, Medium - 10, and Emergency - 100, the Emergency bookings are 10 times more important than Medium. This results in Emergency bookings *nearly always* being included in the result, regardless of how inefficient the placement is.
+
+## Next steps
+
+- [Run interactive optimizations (preview)](soa-interactive-optimizations.md)
+- [Run batch optimizations (preview)](soa-batch-optimizations.md)
+- [Goals and objectives (preview)](soa-goals.md)
+
+[!INCLUDE [footer-banner](../includes/footer-banner.md)]

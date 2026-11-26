@@ -1,67 +1,67 @@
 ---
-title: Overview of the Scheduling Service | Microsoft Docs
+title: Overview of the Scheduling Service
 description: Overview of the Unified Interface-based Scheduling Service in Dynamics 365 Customer Service.
-ms.date: 08/09/2021
+ms.date: 06/26/2026
 ms.topic: overview
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
+ms.update-cycle: 1095-days
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
-  - dyn365-customerservice
+- bap-template
+- evergreen
 ms.collection: get-started
 ---
 
 # Service scheduling overview
 
-Unified Interface-based service scheduling has replaced the legacy service scheduling experience.
+Unified Interface-based service scheduling is the replacement for the legacy service scheduling experience.
 
-The following topics contain information about legacy service scheduling features: 
+In Copilot Service admin center, go to **Service Scheduling** in **Operations**. The **Service scheduling** page appears. 
 
-- Create or change a service
+:::image type="content" source="../media/service-scheduling.png" alt-text="Screenshot of Service Scheduling entry point from Copilot Service admin center.":::
 
-- Schedule a service activity 
+You can do the following actions:
 
-- Add facilities and equipment  
+- Add facilities and equipment
 
 - Create resource groups
 
+- Create or change a service
+
+- Set up a business closure
+
+- Schedule a service activity 
+
 - Use sites to manage your service locations 
 
-- Navigate to the Service Calendar  
+You can also set up service scheduling in Dynamics 365 Customer Engagement (on-premises) 9.1. Learn more in [New features in Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/whats-new.md).
 
-- Set up a business closure 
+## Access service scheduling in Copilot Service workspace
 
-> [!Note]
-> To set up a business closure, navigate to the [Admin portal](https://admin.powerplatform.microsoft.com/), as shown in the following screen.
-
-   ![Admin portal business closure navigation.](../media/uci-business-closure.png "Navigation to the business closure link in the Admin portal")
-
-You can also set up service scheduling in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/whats-new.md)
-
-## Access service scheduling in Customer Service workspace
-
-Service scheduling is available in the Customer Service workspace app.
+Service scheduling is available in the Copilot Service workspace app.
  
-   - Select the + icon to expand the menu to view a list of forms, views, and activities, and then select either **Service Activities** or **Scheduling** to open the feature in a new tab.
+   - Select the ≡ icon to expand the menu to view a list of forms, views, and activities, and then select either **Service Activities** or **Scheduling** to open the feature in a new tab.
 
   > [!div class=mx-imgBorder]
-  > ![Access Scheduling in Customer Service workspace.](../media/csw-service-scheduling.png)
+  > ![Access Scheduling in Copilot Service workspace.](../media/csw-service-scheduling.png)
 
    - **Service Activities**
 
      > [!div class=mx-imgBorder]
-     > ![View service activities in Customer Service workspace.](../media/csw-service-activities-urs.png)
+     > ![View service activities in Copilot Service workspace.](../media/csw-service-activities-urs.png)
 
    - **Scheduling**
 
      > [!div class=mx-imgBorder]
-     > ![Schedule board in Customer Service workspace.](../media/csw-schedule-board-urs.png)
+     > ![Schedule board in Copilot Service workspace.](../media/csw-schedule-board-urs.png)
 
 
-### See also
+### Related information
 
 [Create or edit a service](uci-create-edit-service.md)  
 [Add facilities and equipment](uci-add-facilities-equipment.md)  

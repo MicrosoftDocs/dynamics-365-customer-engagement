@@ -2,7 +2,6 @@
 title: "Sample: Retrieve field sharing records (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample shows how to retrieve the PrincipalObjectAttributeAccess (field sharing) records for an entity. "
 ms.custom: 
-ms.date: 01/08/2020
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -24,7 +23,7 @@ search.audienceType:
 ---
 # Sample: Retrieve field sharing records
 
-This sample shows how to retrieve the `PrincipalObjectAttributeAccess` (field sharing) records for an entity. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/RetrieveFieldSharing).
+This sample shows how to retrieve the `PrincipalObjectAttributeAccess` (field sharing) records for an entity. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/RetrieveFieldSharing).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

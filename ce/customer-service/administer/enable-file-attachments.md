@@ -1,71 +1,64 @@
 ---
-title: "Enable file attachments | MicrosoftDocs"
-description: "Enable file attachments in messaging channels in Omnichannel for Customer Service."
-ms.date: 05/05/2023
-ms.topic: article
+title: Enable file attachments
+description: Learn how to enable file attachments and extensions in messaging channels so that customer service representatives and customers can share files during conversations in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
+ms.date: 09/10/2026
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
-ms.reviewer: nenellim
+ms.reviewer: laalexan
+ms.service: dynamics-365-customer-service
+ms.custom: bap-template
 ---
 
 # Enable file attachments
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-You can enable or disable the capability for your agents and customers to send file attachments during a conversation. 
+You can enable file attachments in your messaging channel so that customer service representatives (representatives) and customers can share files during messaging conversations.
 
-When you enable the option for customers in the **General settings** configuration of your channel, customers can include attachments with their messages. Similarly, when you enable the option for agents, agents can send attachments from the communication panel to the customers. Agents can upload files by dragging and dropping the file from the file explorer into the conversation canvas. Customers must use the **Attach** icon to upload files.
+When you enable the option for customers in the **General settings** configuration of your channel, customers can include attachments with their messages. Similarly, when you enable the option for service representatives, they can send attachments from the communication panel to the customers. Representatives can upload files by dragging and dropping the file from the file explorer into the conversation canvas. Customers must use the **Attach** icon to upload files.
 
-If an agent transfers the conversation to another agent, the agent who receives the chat can also access the files attached in the conversation.
+If a representative transfers the conversation to another representative, the receiving representative can access the files attached to the conversation.
 
-For more information about the agent and customer experience of using file attachments in chat, see [Configure file attachment](configure-file-attachment.md).
+Learn more about the representative and customer experience of using file attachments in chat in [Configure file attachment](configure-file-attachment.md).
 
-For more information about which file types are supported in each channel, see [Asynchronous channel support](card-support-in-channels.md).
+Learn more about the file types that are supported in each channel in [Asynchronous channel support](card-support-in-channels.md).
 
-## File size limit and unsupported extensions (types) for attachments
+## File size limit and unsupported extensions for attachments
 
-By default, Omnichannel for Customer Service has a file size limit of 5 megabytes (MB) (5,120 kilobytes). However, you can configure the file as per your organization's requirements.
+By default, the application has a file size limit of 5 megabytes (MB) (5,120 kilobytes). You can change this limit based on your organization's requirements.
 
 > [!Tip]
-> Refer to documentation for your channel when determining message size limits. When you are enabling file attachments for Facebook messenger, we recommend that you configure a maximum limit of 25 MB (25,600 kilobytes) because the Facebook messenger file size limit is 25 MB.
+> Refer to documentation for your channel when determining message size limits. If you enable file attachments for Facebook Messenger, we recommend that you configure a maximum limit of 25 MB (25,600 kilobytes) because the Facebook Messenger file size limit is 25 MB.
 
-You can set the file extension types that customers and agents can share.
+You can set the file extension types that customers and representatives can share.
 
-## Configure file size limit and file extensions
+## Configure file size limit
 
-To configure the file size limit and file extensions, follow these steps:
+To configure the file size limit and file extensions, complete the following steps:
 
-1. Sign in to Dynamics 365.
+1. In the Copilot Service workspace or Contact Center app, select the **Settings** icon in the navigation bar, and then select **Advanced Settings**.
+1. In the sitemap, go to **System** > **Email Configuration** > **Email Settings**.
+1. In **Attachments**, enter the new value for **Maximum file size for attachments** in kilobytes.
+1. Select **Save**.
 
-2. Select the settings icon in the nav bar, and then select **Advanced Settings**.
+## Configure file extensions
 
-3. Go to **Settings** > **Administration** > **System Settings**.
+1. In the Copilot Service workspace or Contact Center app, select the **Settings** icon in the navigation bar, and then select **Advanced Settings**.
+1. In the sitemap, go to **System** > **Administration** > **General**.
+1. In the **Set blocked file extensions for attachments** field, add or edit the file types you want blocked.
+   > [!NOTE]
+   > Don't block the .txt extension. Transcripts aren't available for closed conversations when the .txt extension is blocked.
+1. Select **Save**.
 
-4. In the **System Settings** window, go to the **Email** tab.
+Now, representatives and customers can share file attachments during their conversation.
 
-5. Go to the **Set file size limit for attachments** section, and in the **Maximum file size (in kilobytes)** field, enter the value in kilobytes.
-
-    > [!div class=mx-imgBorder]
-    > ![Set file size limit for attachment.](../media/file-size-limit.png "Set file size limit for attachment")
-
-6. To specify unsupported file types, go to the **General** tab.
-
-7. In the **Set blocked file extensions for attachments** field, add or edit the file types.
-
-    > [!div class=mx-imgBorder]
-    > ![Specify unsupported file types.](../media/unsupported-file-types.png "Specify unsupported file types")
-
-8. Select **OK**.
-
-Now, agents and customers can share file attachments during their conversation.
-
-### See also
+### Related information
 
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
 [Configure file attachments](configure-file-attachment.md)  
 [Configure a Facebook channel](configure-facebook-channel.md)   
-[Configure a WhatsApp channel](configure-whatsapp-channel.md)  
-[Configure a WeChat channel](configure-wechat-channel.md)  
+[Configure a WhatsApp channel](configure-whatsapp-channel.md)   
 [Configure a LINE channel](configure-line-channel.md)  
 [Download file attachments from your Azure bot](../develop/download-attachments-bot.md)  
 

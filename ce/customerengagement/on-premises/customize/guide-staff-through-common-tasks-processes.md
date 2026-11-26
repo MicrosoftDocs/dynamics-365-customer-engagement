@@ -2,7 +2,6 @@
 title: "Create business processes in Dynamics 365 for Customer Engagement (on-premises)"
 description: "Learn about the four types of processes—business process flows, mobile task flows, workflows, and actions—when to use them, and how to create them."
 ms.custom: 
-ms.date: 01/23/2019
 ms.reviewer: 
 
 ms.suite: 

@@ -2,7 +2,6 @@
 title: "Solution entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Solutions let you create and package customizations as a single unit of software. This doc talks about solution entities"
 ms.custom: 
-ms.date: 04/02/2020
 ms.reviewer: pehecke
 
 ms.suite: 

@@ -1,18 +1,18 @@
 ---
-title: "setMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Learn about setMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 07/11/2023
+title: setMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 
+description: Learn about setMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0.
+ms.date: 05/05/2026
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.reviewer: mgandham
+ms.custom: bap-template
 ---
 
 # setMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
+
+ > [!NOTE]  
+ > Use this API only when the focused session belongs to the provider.
 
 [!INCLUDE[setMode](../../../../v1/develop/reference/microsoft-ciframework/Includes/setMode-description.md)]
 

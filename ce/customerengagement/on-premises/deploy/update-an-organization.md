@@ -2,12 +2,11 @@
 title: "Update an organization | Microsoft Docs"
 description: Learn how to update an organization with Dynamics 365 Customer Engagement (on-premises) 
 ms.custom: 
-ms.date: 10/01/2018
 
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 6089d370-2675-4fae-a800-f01ec9927747

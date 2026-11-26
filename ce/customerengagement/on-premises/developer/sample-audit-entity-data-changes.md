@@ -2,7 +2,6 @@
 title: "Sample: Audit entity data changes | MicrosoftDocs"
 description: "Sample demonstrating how to audit entity data changes."
 keywords: 
-ms.date: 03/29/2019
 
 ms.custom: audit
 ms.topic: sample
@@ -27,7 +26,7 @@ search.audienceType:
 
 # Sample: Audit entity data changes
 
-This sample shows how to enable and disable auditing on an entity and its attributes, retrieve the data change history of the audited entity, and delete the audit records. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/AuditEntityData).
+This sample shows how to enable and disable auditing on an entity and its attributes, retrieve the data change history of the audited entity, and delete the audit records. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/AuditEntityData).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

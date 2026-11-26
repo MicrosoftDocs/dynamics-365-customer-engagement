@@ -1,14 +1,16 @@
 ---
 title: "Walkthrough 5: Display session information for Unified Interface apps | MicrosoftDocs"
 description: "Use this walkthrough to understand the prerequisites and procedures for displaying enhanced session information for Unified Interface apps."
-ms.date: 06/25/2020
+ms.date: 06/27/2024
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
 ---
+
 # Walkthrough 5: Display enhanced session information
 
 

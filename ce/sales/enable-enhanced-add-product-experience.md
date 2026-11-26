@@ -1,11 +1,12 @@
 ---
 title: Enable or disable the enhanced add products experience
 description: "Enable your salespeople to quickly find and add multiple products to an opportunity, quote, order, or invoice by enabling the enhanced add product experience."
-ms.date: 05/30/2022
-ms.topic: article
+ms.date: 05/29/2026
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: lavanyakr
+ms.reviewer: ramakris
+ai-usage: ai-assisted
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -21,19 +22,12 @@ searchScope:
 
 Enable your salespeople to quickly find and add multiple products to an opportunity, quote, order, or invoice by enabling the enhanced add product experience.
 
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## What's in the enhanced experience?
 
  By using the enhanced experience, salespeople can do the following:
 
 - Quickly search for products and add them to opportunity, quote, order, or invoice.  
-- Filter by product families if you have the Sales Enterprise or Sales Premium license.
+- Filter by product families (requires Sales Enterprise or Sales Premium license; available only in Sales Hub app).
 - View product details inline.
 - Compare products before selecting them.
 - Add multiple products in one go.
@@ -44,9 +38,9 @@ Enable your salespeople to quickly find and add multiple products to an opportun
 
 ## Enable or disable the enhanced experience
 
-Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information: 
+Select a tab based on the sales app that you use:
 
-# [Sales Premium and Sales Enterprise](#tab/SE)
+# [Sales Hub app](#tab/SE)
 
 If you have the Sales Hub app, follow the instructions in this tab. Otherwise, follow the instructions in the **Sales Professional** tab to configure the option in Power Platform.
 
@@ -54,16 +48,19 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 2. Under **Product Catalog**, select **Product Catalog Settings**.
 
-3. On the **Product Catalog Settings** page, turn on **Enhanced experience for adding products** to enable the enhanced experience. 
+3. On the **Product catalog settings** page, turn on **Enhanced experience for adding products** to enable the enhanced experience. 
     When you enable the enhanced experience, you'll see additional options for customizing the **Add products** dialog box.
 
-    ![Product catalog settings page with the **Enhanced experience for adding products** enabled.](media/EnableAddProductPreview.png)
+    :::image type="content" source="media/product-catalog-settings-enhanced-experience.png" alt-text="Screenshot of the Product catalog settings page with the enhanced experience for adding products enabled, showing customization options.":::
 
      You can either add more columns to the grid or add more attributes to the **Product** column in the dialog box. For more information, see [Customize the Add Products dialog box](customize-add-products-dialog-box.md).
     
     If you turn off the enhanced experience, the **Add products** option in the opportunity, quote, order, and invoice will switch back to **Quick create** form.
 
-# [Sales Professional](#tab/SP)
+    > [!NOTE]
+    > If users are unable to add products after enabling the enhanced experience, verify that the products are associated with the selected price list and that any custom lookups or filters on the **Add products** views are correctly configured.
+
+# [Sales Professional app](#tab/SP)
 
 If you're using a custom app or Sales Professional app, you can enable or disable the enhanced experience from **System Settings** in Power Platform.
 
@@ -72,6 +69,8 @@ If you're using a custom app or Sales Professional app, you can enable or disabl
    ![Advanced Settings link in the site map.](media/advanced-settings-option.png)
 
    The **Business Management settings** page opens in a new browser tab.
+   > [!NOTE]
+   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. On the navigation bar, select **Settings**, and then select **Administration**.
 
@@ -85,7 +84,8 @@ If you're using a custom app or Sales Professional app, you can enable or disabl
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md)  
 [Add products to a quote, order, or invoice by using the enhanced experience](add-products-qoi-enhanced.md)
+

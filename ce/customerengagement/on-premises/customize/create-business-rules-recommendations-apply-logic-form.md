@@ -2,7 +2,6 @@
 title: "Create business rules in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to create business rules to apply form logic without writing code or creating plug-ins. This page also addresses common issues and FAQs."
 ms.custom: 
-ms.date: 10/23/2019
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

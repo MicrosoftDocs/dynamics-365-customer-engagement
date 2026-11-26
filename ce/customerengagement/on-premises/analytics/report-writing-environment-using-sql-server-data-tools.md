@@ -2,12 +2,11 @@
 title: "Required tools for report writing in Dynamics 365 Customer Engagement (on-premises)"
 description: "This page explains the tools and privileges that are needed to write and publish reports in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 06/28/2021
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 4c31abe1-7c07-4498-b69a-ddfed2686d08

@@ -2,7 +2,6 @@
 title: "Sample: Retrieve field permissions (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to retrieve secured fields for a user according to the steps outlined in Field security entities."
 ms.custom: 
-ms.date: 01/08/2020
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -22,7 +21,7 @@ search.audienceType:
 ---
 # Sample: Retrieve field permissions
 
-This sample shows how to retrieve secured fields for a user according to the steps outlined in [Field security entities](/dynamics365/customer-engagement/developer/field-security-entities). You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/RetrieveFieldPermission).
+This sample shows how to retrieve secured fields for a user according to the steps outlined in [Field security entities](/dynamics365/customer-engagement/developer/field-security-entities). You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/RetrieveFieldPermission).
 
 This sample requires additional users that are not in your system. Create the required users manually in **Office 365** in order to run the sample without any errors. For this sample create a user profile **as is** shown below. Replace `yourorg` with the organization name.
 

@@ -2,7 +2,6 @@
 title: "Unsupported customizations with Dynamics 365 Customer Engagement (on-premises)"
 description: "Microsoft supports only the APIs and methods that are documented in the SDK. This page provides a list of common customization practices that aren’t supported."
 ms.custom: 
-ms.date: 05/20/2019
 ms.reviewer: 
 
 ms.suite: 

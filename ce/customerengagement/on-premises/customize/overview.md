@@ -2,7 +2,6 @@
 title: "Customization of Dynamics 365 Customer Engagement (on-premises)"
 description: "In this overview, learn about the tools that allow you to customize Customer Engagement (on-premises) or create your own custom apps without writing any code."
 ms.custom: 
-ms.date: 05/20/2019
 ms.reviewer: 
 
 ms.suite: 
@@ -88,7 +87,7 @@ Dynamics 365 Customer Engagement (on-premises) provides a set of web services an
 More information: [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customer-engagement/developer/developer-guide)
 
 ## Portability
-Solutions exist so that a Dynamics 365 Customer Engagement (on-premises) can be purchased, shared, or otherwise transported from one organization to another. You can create your own solutions or get solutions from [AppSource](https://appsource.microsoft.com/) or from an independent software vendor (ISV). A solution is a file that you can import in to an environment as an app or to apply a set of customizations to an existing app.
+Solutions exist so that a Dynamics 365 Customer Engagement (on-premises) can be purchased, shared, or otherwise transported from one organization to another. You can create your own solutions or get solutions from [Marketplace](https://marketplace.microsoft.com/) or from an independent software vendor (ISV). A solution is a file that you can import in to an environment as an app or to apply a set of customizations to an existing app.
 
 More information: [Solutions overview](solutions-overview.md)
   

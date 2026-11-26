@@ -1,130 +1,108 @@
 ---
-title: "Configure an Apple Messages for Business channel | MicrosoftDocs"
-description: "This article provides steps to configure an Apple Messages for Business channel and corresponding Apple pages in Omnichannel for Customer Service."
-ms.date: 10/23/2023
-ms.topic: article
+title: Configure an Apple Messages for Business channel
+description: Configure an Apple Messages for Business channel and related features in Copilot Service admin center.
+ms.date: 08/31/2026
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ---
 
 # Configure an Apple Messages for Business channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-Many customers use the Apple Messages app for their daily communication needs. The Apple Messages app also supports Messages for Business, a new way to apply iMessage's richer communication capabilities to engage with businesses. The asynchronous nature of this channel gives customers the convenience of resolving their issues when they find time, in contrast to real-time channels such as Chat for Dynamics 365, where the session ends when the chat window is closed.
+> [!IMPORTANT]
+> As of July 17, 2026, the Apple Messages for Business channel is deprecated. This article will be removed after September 30, 2026. For more information, review [Deprecations in Dynamics 365 Customer Service](../implement/deprecations-customer-service.md#apple-messages-for-business-channel-is-deprecated).
 
-Apple Messages for Business supports rich messaging experiences, allowing customer and agents to converse through convenient and engaging interactions. More information: [Introduction to Messages for Business - Apple Developer](https://developer.apple.com/design/human-interface-guidelines/messages-for-business)
+Many customers use the Apple Messages app for everyday communication. Dynamics 365 Customer Service supports integration with Apple Messages for Business, allowing organizations to engage with customers through an asynchronous messaging channel. This channel gives customers the flexibility to respond at their convenience, unlike real-time channels such as Chat for Dynamics 365, where sessions end when the chat window closes.
+
+After you configure the channel, conversations can include rich messaging features provided by Apple, such as file sharing and interactive elements. Apple Messages for Business supports rich messaging experiences, allowing customers and customer service representatives (service representatives or representatives) to communicate through convenient and engaging interactions. Learn about Apple's capabilities in the [Messages for Business documentation](https://register.apple.com/resources/messages/messaging-documentation/end-to-end).
 
 ## Prerequisites
 
-Before you configure the Apple Messages for Business channel in Dynamics 365 Omnichannel for Customer Service, ensure that the following prerequisites are met:
+Before you configure the Apple Messages for Business channel in Dynamics 365, complete the [Apple Messages for Business onboarding process](https://register.apple.com/resources/messages/messaging-documentation/):
 
-1. Register your business with Apple Business Register More information: [Apple Business Register](https://register.apple.com/)
-1. Enable Messages for Business and create a Messages for Business account for your brand. More information: [Apple Messages for Business Accounts Introduction](https://register.apple.com/resources/messages/messaging-documentation/)
-1. Configure the Messaging Service Provider (MSP) using the correct URL provided for your geo-region in the following table.
+1. Register your business in Apple Business Register.
+1. Create a Messages for Business account and select **Microsoft Dynamics 365** as your Messaging Service Provider (MSP).
 
-   | Geo location   | API Endpoint URL|
-   |-------------|---------|
-   | Asia-Pacific |  ```https://dynamics365-omnichannel-apac.omnichannelengagementhub.com/applemessagesforbusiness``` |
-   | Australia | ```https://dynamics365-omnichannel-aus.omnichannelengagementhub.com/applemessagesforbusiness``` |
-   | Canada | ```https://dynamics365-omnichannel-can.omnichannelengagementhub.com/applemessagesforbusiness``` |
-   | Europe | ```https://dynamics365-omnichannel-eur.omnichannelengagementhub.com/applemessagesforbusiness``` |
-   | France | ```https://dynamics365-omnichannel-fra.omnichannelengagementhub.com/applemessagesforbusiness``` |
-   | Germany | ```https://dynamics365-omnichannel-ger.omnichannelengagementhub.com/applemessagesforbusiness``` |
-   | India | ```https://dynamics365-omnichannel-ind.omnichannelengagementhub.com/applemessagesforbusiness``` |
-   | Japan | ```https://dynamics365-omnichannel-jpn.omnichannelengagementhub.com/applemessagesforbusiness``` |
-   | North America | ```https://dynamics365-omnichannel-nam.omnichannelengagementhub.com/applemessagesforbusiness``` |
-   | South America | ```https://dynamics365-omnichannel-sam.omnichannelengagementhub.com/applemessagesforbusiness``` |
-   | Switzerland | ```https://dynamics365-omnichannel-che.omnichannelengagementhub.com/applemessagesforbusiness``` |
-   | United Arab Emirates | ```https://dynamics365-omnichannel-uae.omnichannelengagementhub.com/applemessagesforbusiness``` |
-   | United Kingdom | ```https://dynamics365-omnichannel-uk.omnichannelengagementhub.com/applemessagesforbusiness``` | 
-
+After you register and receive your Messages for Business account ID, contact Microsoft Support and request that they complete the Apple Messages for Business account onboarding procedure. Provide your account ID so Microsoft can verify the MSP selection and finalize the configuration. The channel doesn't work until Microsoft completes this step.
 
 ## Configure an Apple Messages for Business channel instance
 
-You can configure an Apple Messages for Business channel instance from the Customer Service admin center or Omnichannel admin center (deprecated) app.
+1. In the site map of Copilot Service admin center, select **Channels** in **Customer Support**.
 
-1. Select one of the following apps, and perform the steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. Go to **Accounts** > **Messaging accounts** > **Manage**, and then on the **Accounts and channels** page, select **Add account**.
 
-     1. In the site map, select **Channels** in **Customer Support**.
-     1. Go to **Accounts** > **Messaging accounts** > **Manage**, and then on the **Accounts and channels** page, select **Add account**.
+1. In the **Channel details** section of the **Add account** page, enter a name, and then select **Apple Messages for Business** in **Channels**.
 
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-   
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+1. Specify the Apple Messages for Business account ID. To get the account ID, go to your organization's Apple Business Register, open the Messages for Business account, go to the Messaging Service Provider configuration, select **Test your Messaging Service Provider connection**, and then select **Copy ID**.
 
-      - In the site map, select **Channels** under **General settings**, and then on the **Accounts and channels** page, select **Add account**.
+   > [!NOTE]
+   > If your organization uses customer-managed keys, Apple Messages for Business account IDs can't be encrypted. The account IDs are part of the URLs that customer devices use to start conversations and might be visible to users. This visibility isn't considered a security concern.
 
-1. On the **Add account** page, **Channel details** section, enter a name and select **Apple Messages for Business** in **Channels**.
+1. To configure routing and work distribution, either create a [workstream](create-workstreams.md) or select an existing one.
 
-1. On the **Add account** page, specify the Apple Messages for Business account ID. To get the account ID, go to your organization's Apple Business Register, open the Messages for Business account, navigate to the Messaging Service Provider configuration and select **Test your Messaging Service Provider connection**, and copy the account ID by selecting **Copy ID**.
-   > [!Note]
-   > If your organization uses Customer-managed keys, be aware that Apple Messages for Business acount IDs cannot be encryped. Apple Messages for Business account IDs are part of the URLs used by customer devices to start new conversations and may be visible to users, but this doesn't present a security concern.
+1. Select the workstream for the Apple Messages for Business channel, and then select **Set up Apple Messages for Business**. Complete the following pages:<br>
 
-1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
+   1. In **Available Apple Messages for Business accounts**, select an account.<br>
 
-1. Select the workstream that you've created for the Apple Messages for Business channel and on the workstream page, select **Set up Apple Messages for Business**, and do the following steps:<br>
+   1. On the **Language** page, select the language to use.<br>
 
-     1. In the **Available Apple Messages for Business accounts** area, select an account from the list.<br>
-      
-     1. On the **Language** page, select the language to use.<br>
-      
-     1. On the **Behaviors** page, configure the following options:<br>
-        - **Custom automated messages**<br>
-        - [**Post-conversation survey**](configure-post-conversation-survey.md)<br>
-        - **Authentication settings:** If you enable authentication, your agents will be able to request customer's authenticate their identity. You must associate a channel specific authentication setting. This step may be completed later, after channel setup. There are two flows to choose from: OAuth 2.0 code flow or OAuth 2.0 OpenID connect flow. More information: [Authentication settings for Apple Messages for Business](create-chat-auth-settings.md#create-authentication-settings-for-apple-messages-for-business).<br>
-     
-      1. On the **User features** page, configure the following options:<br>
-           - **File attachments:** When set to yes for both customer and agent, customers and agents can send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).<br>
-           - **Apple Pay:** If you enable Apple Pay, your agents will be able to send Apple Pay requests to customers. Each channel instance must have a Payment Profile associated. This step may be completed later, after channel setup. More information: [Payment Profiles]().<br>
-        
-      1. Review the **Summary** page, and then select **Create**. The channel instance is configured.
-        
-1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
+   1. On the **Behaviors** page, configure the following options:<br>
+      - **Custom automated messages**<br>
+      - [**Post-conversation survey**](configure-post-conversation-survey.md)<br>
+      - **Authentication settings**: To let service representatives request customer authentication, associate a channel-specific authentication setting. You can complete this step after channel setup. Use the OAuth 2.0 OpenID Connect flow. Learn more in [Authentication settings for Apple Messages for Business](create-chat-auth-settings.md#create-authentication-settings-for-apple-messages-for-business).<br>
 
-1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
+   1. On the **User features** page, configure the following options:<br>
+      - **File attachments**: When set to **Yes** for both the customer and representative, they can send and receive file attachments. Learn more in [Enable file attachments](enable-file-attachments.md).<br>
+      - **Apple Pay**: When enabled, representatives can send Apple Pay requests to customers. Each channel instance must have an associated payment profile. You can complete this step after channel setup. Learn more in [Configure payment profiles](configure-payment-profiles.md).<br>
 
-1. Optionally, you can add a bot. Skip this step if your conversations are handled by human agents only. More information: [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
+   1. Review the **Summary** page, and then select **Create**.
+
+1. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).
+
+1. Configure work distribution. Learn more in [Work distribution settings](create-workstreams.md#configure-work-distribution).
+
+1. Optionally, add an AI agent. Skip this step if representatives handle the conversations. Learn more in [Configure an AI agent](create-workstreams.md#add-an-agent-to-a-workstream).
 
 1. In **Advanced settings**, configure the following options based on your business needs:<br>
-      - [Sessions](session-templates.md)<br>
-      - [Agent notifications](notification-templates.md#out-of-the-box-notification-templates)<br>
-      - [Context variables](manage-context-variables.md#add-context-variables)<br>
-      - [Smart assist bots](../develop/smart-assist-bot.md)<br>
-      - [Quick replies](create-quick-replies.md)<br>
-      - [Rich messages](create-rich-messages.md)<br>
+   - [Sessions](session-templates.md)<br>
+   - [Agent notifications](notification-templates.md#out-of-the-box-notification-templates)<br>
+   - [Context variables](manage-context-variables.md#add-context-variables)<br>
+   - [Smart assist bots](../develop/smart-assist-bot.md)<br>
+   - [Quick replies](create-quick-replies.md)<br>
+   - [Rich messages](create-rich-messages.md)<br>
 
-Watch this video to learn how to set up the Apple Messages for Business channel in Dynamics 365 Customer Service:
+The following video shows how to set up the Apple Messages for Business channel in Dynamics 365 Customer Service.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1djXE]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=3c70bbde-4bb0-4139-a329-645f457acf74]
 
 ## Configure authentication settings
 
-Perform the steps in [Create Apple Messages for Business authentication settings](create-chat-auth-settings.md#create-authentication-settings-for-apple-messages-for-business) to configure authentication settings.
+Complete the steps in [Create Apple Messages for Business authentication settings](create-chat-auth-settings.md#create-authentication-settings-for-apple-messages-for-business).
 
 ## Configure payment profiles for Apple Pay
 
-Perform the steps in [Configure payment profiles](configure-payment-profiles.md) to configure the profile.
+Complete the steps in [Configure payment profiles](configure-payment-profiles.md).
 
 ## Create rich messages
 
-Perform the steps in [Create rich messages](create-rich-messages.md) to create rich messages 
+Complete the steps in [Create rich messages](create-rich-messages.md).
 
 ## Use rich messages in conversation control
 
-Perform the steps in [Rich messages in the conversation control](../use/rich-messages-conversation-control.md) to use the rich messages.
+Review [Rich messages in the conversation control](../use/rich-messages-conversation-control.md).
 
-Watch this video to learn how to view a conversation on the Apple Messages for Business channel in Dynamics 365 Customer Service:
+The following video walks through a conversation on the Apple Messages for Business channel in Dynamics 365 Customer Service.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1dmCE]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=b17f16e2-396e-4296-aa7a-97273d439756]
 
-### See also
+### Related information
 
-[Create and manage workstreams](create-workstreams.md#create-and-manage-workstreams)
+[Create and manage workstreams](create-workstreams.md#create-and-manage-workstreams)  
 [Configure automated messages](configure-automated-message.md)  
 [Configure a post-conversation survey](configure-post-conversation-survey.md)  
 [Skill-based routing](overview-skill-work-distribution.md)  

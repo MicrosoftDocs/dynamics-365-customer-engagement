@@ -5,6 +5,7 @@ ms.date: 04/04/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # setAuthTokenProvider
 
@@ -93,7 +94,7 @@ The following errors can occur with this method.
 |3|Auth token provider didn't provide any token|
 |4|Auth token provider provided invalid token|
 
-### See also
+### Related information
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
 

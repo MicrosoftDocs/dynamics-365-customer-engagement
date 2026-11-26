@@ -2,8 +2,8 @@
 title: "Overview of tracking records in Dynamics 365 for Outlook | MicrosoftDocs"
 description: Learn how to use Dynamics 365 for Outlook to track email message, contact, task, and appointment records.
 ms.custom:
-ms.date: 01/11/2016
-ms.reviewer:
+ms.date: 12/13/2024
+ms.reviewer: smurkute
 
 ms.suite:
 ms.tgt_pltfrm:
@@ -17,8 +17,8 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: f29b60ce-dd9c-4777-9c95-4df8765d0302
 caps.latest.revision: 55
-author: mduelae
-ms.author: mkaur
+author: shwetamurkute
+ms.author: bharavar
 search.audienceType:
   - admin
   - customizer
@@ -35,7 +35,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 
 <a name="TrackVSSetRegarding"></a>
 ## Using the Track button vs. the Set Regarding button
- To track a record in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you click or tap the **Track** button or the **Set Regarding** button for the record you want to track.
+ To track a record in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you select or tap the **Track** button or the **Set Regarding** button for the record you want to track.
 
  ![Two Tracking and Set Regarding buttons in Dynamics 365 apps.](../media/tracking-and-set-regarding-buttons.png "Two Tracking and Set Regarding buttons in Dynamics 365 apps")  
 
@@ -51,13 +51,13 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 
 - The name of the parent account for contacts, if set
 
-- Links to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] records for email recipients. This is very useful when you want to quickly access the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] contact record of an email recipient or see other information stored in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].
+- Links to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] records for email recipients. This is useful when you want to quickly access the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] contact record of an email recipient or see other information stored in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].
 
 - Related records, along with a symbol that identifies the record type in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]
 
 - Whether email addresses, names, or distribution lists in an email message are [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] records
 
-  For example, the following screen shot shows the tracking pane for a tracked task linked to the Adventure Works account:
+  For example, the following screenshot shows the tracking pane for a tracked task linked to the Adventure Works account:
 
   ![Tracking Pane with Set Regarding record in Dynamics 365 apps.](../media/tracking-pane.png "Tracking Pane with Set Regarding record in Dynamics 365 apps")  
 
@@ -70,10 +70,8 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 ## What can you do after you track a record?
  After you track a record, you can use the buttons on the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] ribbon to do the following tasks.
 
-
-|                                                                                                                                                   |                                                                                                                                                             |                                          |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-|                                                                **To do this task**                                                                |                                                                         **Choose**                                                                          |              **Applies to**              |
+|       To do this task   |   Choose  |              Applies to         |
+|-----------|------|----------|
 |                            Open the record directly in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]                             |           ![View in Dynamics 365 apps button image in Dynamics 365 apps.](../media/view-crm-button.png "View in Dynamics 365 apps button image in Dynamics 365 apps")            | Email, appointments, contacts, and tasks |
 | Add a connection between the record and any [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record capable of tracking connections |              ![Add Connection button image in Dynamics 365 apps.](../media/add-connection-button.png "Add Connection button image in Dynamics 365 apps")               | Email, appointments, contacts, and tasks |
 |                Convert the record into a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] opportunity, lead, or case                |                      ![Convert To button image in Dynamics 365 apps.](../media/convert-button.png "Convert To button image in Dynamics 365 apps")                      |      Email, appointments, and tasks      |
@@ -87,13 +85,13 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 <a name="OtherThingsToKnow"></a>
 ## Other things to know about tracking records
 
-- **Using multiple computers.** You can use multiple computers to track items using [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. For example, you might use a desktop computer and a laptop. Only one computer can be the synchronizing computer, however. Changes or updates to synchronized records will not show up in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] if the synchronizing computer is not connected to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options that affect tracking and synchronization between Dynamics 365 apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
+- **Using multiple computers.** You can use multiple computers to track items using [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. For example, you might use a desktop computer and a laptop. Only one computer can be the synchronizing computer, however. Changes or updates to synchronized records won't show up in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] if the synchronizing computer isn't connected to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options that affect tracking and synchronization between Dynamics 365 apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
 
 - **Choosing data to store locally.** The [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data stored on your local computer is determined by online synchronization filters. You can edit, deactivate, or delete these filters. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose the records to synchronize between Dynamics 365 apps and Outlook or Exchange](choose-records-synchronize-exchange.md)  
 
 - **Deleting tracked records.** When records are tracked, special rules apply when deleting records. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked.md)
 
-- **Delegating access.** If you’ve delegated access to your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] account, the delegate can track items on your behalf. These items won’t synchronize with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] until you connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Allow someone else to manage your mail and calendar](https://go.microsoft.com/fwlink/p/?LinkId=201849)
+- **Delegating access.** If you’ve delegated access to your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] account, the delegate can track items on your behalf. These items won’t synchronize with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] until you connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Allow someone else to manage your mail and calendar](https://support.microsoft.com/en-us/office/about-delegates-allow-someone-to-manage-your-mail-and-calendar-in-outlook-41c40c04-3bd1-4d22-963a-28eafec25926)
 
 ### See also  
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   

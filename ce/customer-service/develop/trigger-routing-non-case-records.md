@@ -1,15 +1,15 @@
 ---
-title: "Trigger routing for non-case records using plug-in | MicrosoftDocs"
-description: "This page provides sample code for developers to trigger routing for non-case records using the IPlugin interface."
+title: Trigger routing for noncase records using plug-in 
+description: This page provides sample code for developers to trigger routing for noncase records using the IPlugin interface.
 author: gandhamm
 ms.author: mgandham
-ms.date: 03/04/2022
-ms.topic: article
-
+ms.reviewer: mgandham
+ms.date: 05/15/2025
+ms.topic: reference
 ---
-# Route non-case records using a plug-in
+# Route noncase records using a plug-in
 
-You can trigger routing for non-case records such as email messages programmatically, using the [IPlugin interface](/dotnet/api/microsoft.xrm.sdk.iplugin?view=dynamics-general-ce-9&preserve-view=true).
+You can trigger routing for non case records such as email messages programmatically, using the [IPlugin interface](/dotnet/api/microsoft.xrm.sdk.iplugin?view=dynamics-general-ce-9&preserve-view=true).
 
 You can use the following sample code in your Console App (.NET framework) of Visual Studio. The code checks for the following two conditions and if they're met, it triggers the [msdyn_ApplyRoutingRuleEntityRecord](reference/actions/msdyn_ApplyRoutingRuleEntityRecord.md) action.
 - whether the Web service message is to create a record
@@ -58,7 +58,7 @@ public class SamplePlugin : IPlugin
 }
 ```
 
-### See also
+### Related information
 
 [Overview of routing](../administer/overview-unified-routing.md)  
 [Set up routing for records](../administer/set-up-record-routing.md)  

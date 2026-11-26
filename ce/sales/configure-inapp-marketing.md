@@ -1,12 +1,15 @@
 ---
 title: Configure in-app marketing settings
-description: Configure in-app marketing settings to define various aspects of campaigning.
-ms.date: 01/25/2023
+description: Learn how to configure in-app marketing settings to define various aspects of campaigning, including creating campaign responses automatically.
+ms.date: 09/25/2026
+ms.update-cycle: 1095-days
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.custom: bap-template
+ms.custom: 
+  - bap-template
+  - evergreen
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -23,43 +26,38 @@ searchScope:
 Configure the in-app marketing settings to define various aspects of campaigning. For example, you can specify whether you want to create a campaign response automatically when a customer responds to a campaign email. 
 
   
-## License and role requirements
-
-| &nbsp; | &nbsp; |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 ## To configure in-app marketing settings
 
-Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information: 
+Select a tab based on the sales app that you use:
 
-# [Sales Premium and Sales Enterprise](#tab/SE)
+# [Sales Hub app](#tab/SE)
 
-1. In the Sales Hub app, go to the **Change Area** and select **App Settings**.
+1. In the Sales Hub app, go to the **Change area** and select **App Settings**.
 
-2. Under **Sales Administration**, select **Marketing settings**.
+2. Under **Sales Administration**, select **Marketing Settings**.
 
 3. Configure the following settings in accordance with your requirements.
     
-    |Setting  |Description  |
-    |---------|---------|
-    |Create campaign responses for incoming email     |If this option is set to **Yes**, the app automatically creates a campaign response  when an email is received in response to a specific marketing campaign. <br> **Note:** If a customer sends multiple replies to campaign email, only the first reply is tracked as a campaign response. <br>**Default:** Yes        |
-    |Set "Do Not Send Marketing Material" option when an unsubscribe email is received     |If this option is set to **Yes**, when an unsubscribe email is received, the preference setting for the account, contact, or lead gets updated automatically to not send marketing materials. If this option is set to **No**, the unsubscribe email will be ignored and the user will continue to get marketing email communications. If you're providing an option to unsubscribe in the campaign emails, we recommend that you set this option to **Yes**.<br> More information: [Let your customers unsubscribe from marketing communications](get-started-app-marketing-sales.md#let-your-customers-unsubscribe-from-marketing-communications)<br> **Default:** No        |
-    |Send acknowledgement to customers when they unsubscribe     | If **Set "Do Not Send Marketing Material" option when an unsubscribe email is received** is set to **Yes**, you can use this setting to send a response to customers when they unsubscribe.        |
-    |Template for Acknowledgement Email     | If the previous two options are set to **Yes**, select an email template to use for responding to customers when they unsubscribe.        |
+    | Setting | Description |
+    |---------|-------------|
+    | Enable the new enhanced quick campaign experience (preview) | Set to **Yes** to use the enhanced experience to create and manage quick campaigns.<br>Enhanced experience includes improved user experience and streamlined campaign management. For more information, see [Create a quick campaign using in-app marketing](create-quick-campaign-using-app-marketing-sales.md).<br>**Default:** No |
+    | Create campaign responses for incoming email | Set to **Yes** to automatically create a campaign response when an email is received in response to a specific marketing campaign. You must enable email tracking at the campaign level for automatic creation of campaign responses.<br>**Note:** If a customer replies to a campaign email multiple times, only the first reply is tracked as a campaign response.<br>**Default:** Yes |
+    | Set "Do Not Send Marketing Material" option when an unsubscribe email is received | Set to **Yes** to automatically update the account, contact, or lead preference to prevent marketing materials from being sent. If set to **No**, unsubscribe emails are ignored and the customer continues to receive marketing emails. If campaign emails include an unsubscribe option, set this option to **Yes**.<br>For more information, see [Let your customers unsubscribe from marketing communications](get-started-app-marketing-sales.md#let-your-customers-unsubscribe-from-marketing-communications).<br>**Default:** No |
+    | Send acknowledgement to customers when they unsubscribe | If **Set "Do Not Send Marketing Material" option when an unsubscribe email is received** is set to **Yes**, use this setting to send customers a response when they unsubscribe. |
+    | Template for Acknowledgement Email | If the previous two options are set to **Yes**, select the email template to use when responding to customers who unsubscribe. |
 
 4. Save the changes.
 
-# [Sales Professional](#tab/SP)
+# [Sales Professional app](#tab/SP)
 
 1. From the Sales Professional app, go to **Settings** > **Advanced Settings**.
 1. Follow the instructions in the [System Settings Marketing tab](/power-platform/admin/system-settings-dialog-box-marketing-tab) article to open the marketing settings and configure them.  
 
+---
+
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
   
-### See also  
+## Related information  
 
 [Create a marketing list using in-app marketing](create-marketing-list-using-app-marketing-sales.md)   
 [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)   
@@ -68,4 +66,5 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 [Add a marketing list, sales literature, or product to a campaign using in-app marketing](add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
 [Track a marketing campaign response using in-app marketing](track-marketing-campaign-response-using-app-marketing-sales.md)  
     
+
 

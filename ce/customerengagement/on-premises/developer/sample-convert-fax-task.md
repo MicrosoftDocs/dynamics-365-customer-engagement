@@ -2,7 +2,6 @@
 title: "Sample: Convert a fax to a task| MicrosoftDocs"
 description: "This sample shows how to create a task for a fax by using the IOrganizationService.Entity method"
 ms.custom: 
-ms.date: 01/07/2020
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -20,7 +19,7 @@ search.audienceType:
 
 # Sample: Convert a fax to a task
 
-This sample shows how to convert a **Fax** to a **Task**. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/ConvertFaxToTask).
+This sample shows how to convert a **Fax** to a **Task**. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/ConvertFaxToTask).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

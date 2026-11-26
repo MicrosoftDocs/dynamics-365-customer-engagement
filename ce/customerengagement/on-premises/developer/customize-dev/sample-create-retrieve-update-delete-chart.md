@@ -2,7 +2,6 @@
 title: "Sample: Create, retrieve, update, and delete a chart (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to create, retrieve, update, and delete an organization-owned visualization. "
 keywords:
-ms.date: 10/31/2017
 
 ms.custom:
 ms.topic: sample
@@ -29,7 +28,7 @@ This sample shows how to create, retrieve, update, and delete an user-owned visu
 - [IOrganizationService.Update](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.update?view=dynamics-general-ce-9&preserve-view=true)
 - [IOrganizationService.Delete](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.delete?view=dynamics-general-ce-9&preserve-view=true)
 
-You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/CRUDOperationsChart).
+You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/CRUDOperationsChart).
 
 [!include[cc-sample-note](../includes/cc-sample-note.md)]
 

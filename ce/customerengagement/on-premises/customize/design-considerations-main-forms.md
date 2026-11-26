@@ -2,7 +2,6 @@
 title: "Design considerations for main forms in Dynamics 365 Customer Engagement (on-premises)"
 description: "There are several important factors to consider when designing main forms, including optimization for certain groups and differences in presentation."
 ms.custom: 
-ms.date: 11/03/2018
 ms.reviewer: 
 
 ms.suite: 

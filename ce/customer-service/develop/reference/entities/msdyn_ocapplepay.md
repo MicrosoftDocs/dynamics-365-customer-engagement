@@ -1,56 +1,67 @@
 ---
-title: "msdyn_ocapplepay Entity Reference (Microsoft Dataverse)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_ocapplepay entity."
-ms.date: 05/26/2023
-ms.topic: "reference"
-author: "gandhamm"
+title: "OC Apple Pay Entity (msdyn_ocapplepay) table/entity reference (Microsoft Dynamics 365 Customer Service)"
+description: "Includes schema information and supported messages for the OC Apple Pay Entity (msdyn_ocapplepay) table/entity with Microsoft Dynamics 365 Customer Service."
+ms.topic: generated-reference
+author: gandhamm
 ms.author: mgandham
+search.audienceType: 
+  - developer
 ---
-# msdyn_ocapplepay Entity Reference
 
-[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
+# OC Apple Pay Entity (msdyn_ocapplepay) table/entity reference (Microsoft Dynamics 365 Customer Service)
 
-
-**Added by**: Omnichannel - SocialChannels Patch Solution
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_ocapplepaies(*msdyn_ocapplepayid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_ocapplepaies<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|CreateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_ocapplepaies(*msdyn_ocapplepayid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_ocapplepaies(*msdyn_ocapplepayid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_ocapplepaies<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_ocapplepaies(*msdyn_ocapplepayid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_ocapplepaies(*msdyn_ocapplepayid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
-|UpdateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
+The following table lists the messages for the OC Apple Pay Entity (msdyn_ocapplepay) table.
+Messages represent operations that can be performed on the table. They may also be events.
+
+| Name <br />Is Event? |Web API Operation |SDK for .NET |
+| ---- | ----- |----- |
+| `Assign`<br />Event: True |`PATCH` /msdyn_ocapplepaies(*msdyn_ocapplepayid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) the `ownerid` property. |<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+| `Associate`<br />Event: True |[Associate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Associate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-associate-method-or-associaterequest)|
+| `BulkRetain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.BulkRetain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
+| `Create`<br />Event: True |`POST` /msdyn_ocapplepaies<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api) |[Create records](/power-apps/developer/data-platform/org-service/entity-operations-create#basic-create)|
+| `CreateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+| `Delete`<br />Event: True |`DELETE` /msdyn_ocapplepaies(*msdyn_ocapplepayid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete) |[Delete records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-delete)|
+| `Disassociate`<br />Event: True |[Disassociate records](/power-apps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api) |[Disassociate records](/power-apps/developer/data-platform/org-service/entity-operations-associate-disassociate#use-the-disassociate-method-or-disassociaterequest)|
+| `GrantAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+| `IsValidStateTransition`<br />Event: False |<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
+| `ModifyAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+| `PurgeRetainedContent`<br />Event: True |<xref:Microsoft.Dynamics.CRM.PurgeRetainedContent?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
+| `Restore`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Restore?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
+| `Retain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.Retain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
+| `Retrieve`<br />Event: True |`GET` /msdyn_ocapplepaies(*msdyn_ocapplepayid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api) |[Retrieve records](/power-apps/developer/data-platform/org-service/entity-operations-retrieve)|
+| `RetrieveMultiple`<br />Event: True |`GET` /msdyn_ocapplepaies<br />See [Query data](/power-apps/developer/data-platform/webapi/query-data-web-api) |[Query data](/power-apps/developer/data-platform/org-service/entity-operations-query-data)|
+| `RetrievePrincipalAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+| `RetrieveSharedPrincipalsAndAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+| `RevokeAccess`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RevokeAccess?displayProperty=nameWithType /> |<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+| `RollbackRetain`<br />Event: True |<xref:Microsoft.Dynamics.CRM.RollbackRetain?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
+| `SetState`<br />Event: True |`PATCH` /msdyn_ocapplepaies(*msdyn_ocapplepayid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) the `statecode` and `statuscode` properties. |<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+| `Update`<br />Event: True |`PATCH` /msdyn_ocapplepaies(*msdyn_ocapplepayid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) |[Update records](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-update)|
+| `UpdateMultiple`<br />Event: True |<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
+| `Upsert`<br />Event: False |`PATCH` /msdyn_ocapplepaies(*msdyn_ocapplepayid*)<br />See [Upsert a table row](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#upsert-a-table-row) |<xref:Microsoft.Xrm.Sdk.Messages.UpsertRequest>|
+| `UpsertMultiple`<br />Event: False |<xref:Microsoft.Dynamics.CRM.UpsertMultiple?displayProperty=nameWithType /> |<xref:Microsoft.Xrm.Sdk.Messages.UpsertMultipleRequest>|
+| `ValidateRetentionConfig`<br />Event: True |<xref:Microsoft.Dynamics.CRM.ValidateRetentionConfig?displayProperty=nameWithType /> |[Learn to use messages with the SDK for .NET](/power-apps/developer/data-platform/org-service/use-messages)|
 
 ## Properties
 
-|Property|Value|
-|--------|-----|
-|CollectionSchemaName|msdyn_ocapplepaies|
-|DisplayCollectionName|ocapplepay|
-|DisplayName|OC Apple Pay Entity|
-|EntitySetName|msdyn_ocapplepaies|
-|IsBPFEntity|False|
-|LogicalCollectionName|msdyn_ocapplepaies|
-|LogicalName|msdyn_ocapplepay|
-|OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_ocapplepayid|
-|PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_ocapplepay|
+The following table lists selected properties for the OC Apple Pay Entity (msdyn_ocapplepay) table.
 
-<a name="writable-attributes"></a>
+|Property|Value|
+| --- | --- |
+| **DisplayName** | **OC Apple Pay Entity** |
+| **DisplayCollectionName** | **ocapplepay** |
+| **SchemaName** | `msdyn_ocapplepay` |
+| **CollectionSchemaName** | `msdyn_ocapplepaies` |
+| **EntitySetName** | `msdyn_ocapplepaies`|
+| **LogicalName** | `msdyn_ocapplepay` |
+| **LogicalCollectionName** | `msdyn_ocapplepaies` |
+| **PrimaryIdAttribute** | `msdyn_ocapplepayid` |
+| **PrimaryNameAttribute** |`msdyn_name` |
+| **TableType** | `Standard` |
+| **OwnershipType** | `UserOwned` |
 
 ## Writable columns/attributes
 
@@ -83,833 +94,892 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
 - [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
 
-
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
 |Property|Value|
-|--------|-----|
-|Description|Sequence number of the import that created this record.|
-|DisplayName|Import Sequence Number|
-|Format|None|
+|---|---|
+|Description|**Sequence number of the import that created this record.**|
+|DisplayName|**Import Sequence Number**|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|importsequencenumber|
-|MaxValue|2147483647|
-|MinValue|-2147483648|
+|LogicalName|`importsequencenumber`|
 |RequiredLevel|None|
 |Type|Integer|
-
+|MaxValue|2147483647|
+|MinValue|-2147483648|
 
 ### <a name="BKMK_msdyn_countrycode"></a> msdyn_countrycode
 
 |Property|Value|
-|--------|-----|
-|Description|Merchant Country Code|
-|DisplayName|Country Code|
-|FormatName|Text|
-|IsLocalizable|False|
+|---|---|
+|Description|**Merchant Country Code**|
+|DisplayName|**Country Code**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_countrycode|
-|MaxLength|100|
+|LogicalName|`msdyn_countrycode`|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
-
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_fallbackurl"></a> msdyn_fallbackurl
 
 |Property|Value|
-|--------|-----|
+|---|---|
 |Description||
-|DisplayName|Fallback URL|
-|FormatName|Text|
-|IsLocalizable|False|
+|DisplayName|**Fallback URL**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_fallbackurl|
-|MaxLength|100|
+|LogicalName|`msdyn_fallbackurl`|
 |RequiredLevel|None|
 |Type|String|
-
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_merchantcapabilities"></a> msdyn_merchantcapabilities
 
 |Property|Value|
-|--------|-----|
+|---|---|
 |Description||
-|DisplayName|Merchant Capabilities|
+|DisplayName|**Merchant Capabilities**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_merchantcapabilities|
+|LogicalName|`msdyn_merchantcapabilities`|
 |RequiredLevel|ApplicationRequired|
 |Type|MultiSelectPicklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_ocapplepay_msdyn_merchantcapabilities`|
 
 #### msdyn_merchantcapabilities Choices/Options
 
 |Value|Label|
-|-----|-----|
-|192350000|Debit|
-|192350001|Credit|
-|192350002|3D Secure|
-
-
+|---|---|
+|192350000|**Debit**|
+|192350001|**Credit**|
+|192350002|**3D Secure**|
 
 ### <a name="BKMK_msdyn_merchantdisplayname"></a> msdyn_merchantdisplayname
 
 |Property|Value|
-|--------|-----|
-|Description|Merchant display name or domain name|
-|DisplayName|Merchant Display Name|
-|FormatName|Text|
-|IsLocalizable|False|
+|---|---|
+|Description|**Merchant display name or domain name**|
+|DisplayName|**Merchant Display Name**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_merchantdisplayname|
-|MaxLength|100|
+|LogicalName|`msdyn_merchantdisplayname`|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
-
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_merchantid"></a> msdyn_merchantid
 
 |Property|Value|
-|--------|-----|
-|Description|Apple Pay Merchant ID|
-|DisplayName|Merchant ID|
-|FormatName|Text|
-|IsLocalizable|False|
+|---|---|
+|Description|**Apple Pay Merchant ID**|
+|DisplayName|**Merchant ID**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_merchantid|
-|MaxLength|100|
+|LogicalName|`msdyn_merchantid`|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
-
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
-|--------|-----|
-|Description|The name of the custom entity.|
-|DisplayName|Name|
-|FormatName|Text|
-|IsLocalizable|False|
+|---|---|
+|Description|**The name of the custom entity.**|
+|DisplayName|**Name**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_name|
-|MaxLength|100|
+|LogicalName|`msdyn_name`|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
-
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_ocapplepayId"></a> msdyn_ocapplepayId
 
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier for entity instances|
-|DisplayName|OC Apple Pay Entity|
+|---|---|
+|Description|**Unique identifier for entity instances**|
+|DisplayName|**OC Apple Pay Entity**|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_ocapplepayid|
+|LogicalName|`msdyn_ocapplepayid`|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
-
 
 ### <a name="BKMK_msdyn_ocbase64merchantcertstring"></a> msdyn_ocbase64merchantcertstring
 
 |Property|Value|
-|--------|-----|
-|Description|The Apple Pay Merchant Certificate (Base 64 string)|
-|DisplayName|The Apple Pay Merchant Certificate|
-|FormatName|Text|
-|IsLocalizable|False|
+|---|---|
+|Description|**The Apple Pay Merchant Certificate (Base 64 string)**|
+|DisplayName|**The Apple Pay Merchant Certificate**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_ocbase64merchantcertstring|
-|MaxLength|4000|
+|LogicalName|`msdyn_ocbase64merchantcertstring`|
 |RequiredLevel|None|
 |Type|String|
-
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Disabled|
+|IsLocalizable|False|
+|MaxLength|4000|
 
 ### <a name="BKMK_msdyn_ocbase64merchantcertstringcontd"></a> msdyn_ocbase64merchantcertstringcontd
 
 |Property|Value|
-|--------|-----|
-|Description|The Apple Pay Merchant Certificate (Base 64 string)|
-|DisplayName|The Apple Pay Merchant Certificate - Continued|
-|FormatName|Text|
-|IsLocalizable|False|
+|---|---|
+|Description|**The Apple Pay Merchant Certificate (Base 64 string)**|
+|DisplayName|**The Apple Pay Merchant Certificate - Continued**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_ocbase64merchantcertstringcontd|
-|MaxLength|4000|
+|LogicalName|`msdyn_ocbase64merchantcertstringcontd`|
 |RequiredLevel|None|
 |Type|String|
-
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Disabled|
+|IsLocalizable|False|
+|MaxLength|4000|
 
 ### <a name="BKMK_msdyn_ocmerchantcertfilename"></a> msdyn_ocmerchantcertfilename
 
 |Property|Value|
-|--------|-----|
-|Description|Merchant Certificate File Name|
-|DisplayName|Merchant Certificate File Name|
-|FormatName|Text|
-|IsLocalizable|False|
+|---|---|
+|Description|**Merchant Certificate File Name**|
+|DisplayName|**Merchant Certificate File Name**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_ocmerchantcertfilename|
-|MaxLength|100|
+|LogicalName|`msdyn_ocmerchantcertfilename`|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
-
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_ocmerchantcertificatepassword"></a> msdyn_ocmerchantcertificatepassword
 
 |Property|Value|
-|--------|-----|
-|Description|The password for the Apple Pay Merchant certificate|
-|DisplayName|Merchant Certificate Password|
-|FormatName|Text|
-|IsLocalizable|False|
+|---|---|
+|Description|**The password for the Apple Pay Merchant certificate**|
+|DisplayName|**Merchant Certificate Password**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_ocmerchantcertificatepassword|
-|MaxLength|100|
+|LogicalName|`msdyn_ocmerchantcertificatepassword`|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
-
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_msdyn_ocmerchantdomainurl"></a> msdyn_ocmerchantdomainurl
 
 |Property|Value|
-|--------|-----|
-|Description|Merchant Domain URL|
-|DisplayName|Merchant Domain URL|
-|FormatName|Text|
-|IsLocalizable|False|
+|---|---|
+|Description|**Merchant Domain URL**|
+|DisplayName|**Merchant Domain URL**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_ocmerchantdomainurl|
-|MaxLength|200|
+|LogicalName|`msdyn_ocmerchantdomainurl`|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
-
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|200|
 
 ### <a name="BKMK_msdyn_ordertrackingurl"></a> msdyn_ordertrackingurl
 
 |Property|Value|
-|--------|-----|
-|Description|Order Tracking URL|
-|DisplayName|Order Tracking URL|
-|FormatName|Text|
-|IsLocalizable|False|
+|---|---|
+|Description|**Order Tracking URL**|
+|DisplayName|**Order Tracking URL**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_ordertrackingurl|
-|MaxLength|300|
+|LogicalName|`msdyn_ordertrackingurl`|
 |RequiredLevel|None|
 |Type|String|
-
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|300|
 
 ### <a name="BKMK_msdyn_paymentgatewayurl"></a> msdyn_paymentgatewayurl
 
 |Property|Value|
-|--------|-----|
-|Description|The URL of the payment service provider|
-|DisplayName|Payment Gateway URL|
-|FormatName|Text|
-|IsLocalizable|False|
+|---|---|
+|Description|**The URL of the payment service provider**|
+|DisplayName|**Payment Gateway URL**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_paymentgatewayurl|
-|MaxLength|300|
+|LogicalName|`msdyn_paymentgatewayurl`|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
-
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|300|
 
 ### <a name="BKMK_msdyn_paymentmethodupdateurl"></a> msdyn_paymentmethodupdateurl
 
 |Property|Value|
-|--------|-----|
-|Description|The URL that Apple calls into when payment method is updated|
-|DisplayName|Payment Method Update URL|
-|FormatName|Text|
-|IsLocalizable|False|
+|---|---|
+|Description|**The URL that Apple calls into when payment method is updated**|
+|DisplayName|**Payment Method Update URL**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_paymentmethodupdateurl|
-|MaxLength|300|
+|LogicalName|`msdyn_paymentmethodupdateurl`|
 |RequiredLevel|None|
 |Type|String|
-
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|300|
 
 ### <a name="BKMK_msdyn_shippingcontactupdateurl"></a> msdyn_shippingcontactupdateurl
 
 |Property|Value|
-|--------|-----|
-|Description|The URL that Apple will call into when there is a shipping contact update|
-|DisplayName|Shipping Contact Update URL|
-|FormatName|Text|
-|IsLocalizable|False|
+|---|---|
+|Description|**The URL that Apple will call into when there is a shipping contact update**|
+|DisplayName|**Shipping Contact Update URL**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_shippingcontactupdateurl|
-|MaxLength|300|
+|LogicalName|`msdyn_shippingcontactupdateurl`|
 |RequiredLevel|None|
 |Type|String|
-
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|300|
 
 ### <a name="BKMK_msdyn_shippingmethodupdateurl"></a> msdyn_shippingmethodupdateurl
 
 |Property|Value|
-|--------|-----|
+|---|---|
 |Description||
-|DisplayName|Shipping Method Update URL|
-|FormatName|Text|
-|IsLocalizable|False|
+|DisplayName|**Shipping Method Update URL**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_shippingmethodupdateurl|
-|MaxLength|300|
+|LogicalName|`msdyn_shippingmethodupdateurl`|
 |RequiredLevel|None|
 |Type|String|
-
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|300|
 
 ### <a name="BKMK_msdyn_supportednetworks"></a> msdyn_supportednetworks
 
 |Property|Value|
-|--------|-----|
+|---|---|
 |Description||
-|DisplayName|Supported Networks|
+|DisplayName|**Supported Networks**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_supportednetworks|
+|LogicalName|`msdyn_supportednetworks`|
 |RequiredLevel|ApplicationRequired|
 |Type|MultiSelectPicklist|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_ocapplepay_msdyn_supportednetworks`|
 
 #### msdyn_supportednetworks Choices/Options
 
 |Value|Label|
-|-----|-----|
-|192350000|American Express|
-|192350001|Visa|
-|192350002|Discover|
-|192350003|MasterCard|
-
-
+|---|---|
+|192350000|**American Express**|
+|192350001|**Visa**|
+|192350002|**Discover**|
+|192350003|**MasterCard**|
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
 |Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|Date and time that the record was migrated.|
-|DisplayName|Record Created On|
-|Format|DateOnly|
+|---|---|
+|Description|**Date and time that the record was migrated.**|
+|DisplayName|**Record Created On**|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|overriddencreatedon|
+|LogicalName|`overriddencreatedon`|
 |RequiredLevel|None|
 |Type|DateTime|
-
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|UserLocal|
+|Format|DateOnly|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Added by**: Active Solution Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Owner Id|
-|DisplayName|Owner|
+|---|---|
+|Description|**Owner Id**|
+|DisplayName|**Owner**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|ownerid|
+|LogicalName|`ownerid`|
 |RequiredLevel|SystemRequired|
-|Targets|systemuser,team|
 |Type|Owner|
-
+|Targets|systemuser, team|
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Added by**: Active Solution Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Owner Id Type|
+|---|---|
+|Description|**Owner Id Type**|
 |DisplayName||
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|owneridtype|
+|LogicalName|`owneridtype`|
 |RequiredLevel|SystemRequired|
 |Type|EntityName|
-
 
 ### <a name="BKMK_statecode"></a> statecode
 
 |Property|Value|
-|--------|-----|
-|Description|Status of the OC Apple Pay Entity|
-|DisplayName|Status|
-|IsValidForCreate|False|
+|---|---|
+|Description|**Status of the OC Apple Pay Entity**|
+|DisplayName|**Status**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|statecode|
+|LogicalName|`statecode`|
 |RequiredLevel|SystemRequired|
 |Type|State|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_ocapplepay_statecode`|
 
 #### statecode Choices/Options
 
-|Value|Label|DefaultStatus|InvariantName|
-|-----|-----|-------------|-------------|
-|0|Active|1|Active|
-|1|Inactive|2|Inactive|
-
-
+|Value|Details|
+|---|---|
+|0|Label: **Active**<br />DefaultStatus: 1<br />InvariantName: `Active`|
+|1|Label: **Inactive**<br />DefaultStatus: 2<br />InvariantName: `Inactive`|
 
 ### <a name="BKMK_statuscode"></a> statuscode
 
 |Property|Value|
-|--------|-----|
-|Description|Reason for the status of the OC Apple Pay Entity|
-|DisplayName|Status Reason|
+|---|---|
+|Description|**Reason for the status of the OC Apple Pay Entity**|
+|DisplayName|**Status Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|statuscode|
+|LogicalName|`statuscode`|
 |RequiredLevel|None|
 |Type|Status|
+|DefaultFormValue||
+|GlobalChoiceName|`msdyn_ocapplepay_statuscode`|
 
 #### statuscode Choices/Options
 
-|Value|Label|State|
-|-----|-----|-----|
-|1|Active|0|
-|2|Inactive|1|
-
-
+|Value|Details|
+|---|---|
+|1|Label: **Active**<br />State:0<br />TransitionData: None|
+|2|Label: **Inactive**<br />State:1<br />TransitionData: None|
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
 |Property|Value|
-|--------|-----|
-|Description|For internal use only.|
-|DisplayName|Time Zone Rule Version Number|
-|Format|None|
+|---|---|
+|Description|**For internal use only.**|
+|DisplayName|**Time Zone Rule Version Number**|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|timezoneruleversionnumber|
-|MaxValue|2147483647|
-|MinValue|-1|
+|LogicalName|`timezoneruleversionnumber`|
 |RequiredLevel|None|
 |Type|Integer|
-
+|MaxValue|2147483647|
+|MinValue|-1|
 
 ### <a name="BKMK_UTCConversionTimeZoneCode"></a> UTCConversionTimeZoneCode
 
 |Property|Value|
-|--------|-----|
-|Description|Time zone code that was in use when the record was created.|
-|DisplayName|UTC Conversion Time Zone Code|
-|Format|None|
+|---|---|
+|Description|**Time zone code that was in use when the record was created.**|
+|DisplayName|**UTC Conversion Time Zone Code**|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|utcconversiontimezonecode|
-|MaxValue|2147483647|
-|MinValue|-1|
+|LogicalName|`utcconversiontimezonecode`|
 |RequiredLevel|None|
 |Type|Integer|
+|MaxValue|2147483647|
+|MinValue|-1|
 
-<a name="read-only-attributes"></a>
 
 ## Read-only columns/attributes
 
-These columns/attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
+These columns/attributes return false for both **IsValidForCreate** and **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
-- [CreatedByName](#BKMK_CreatedByName)
-- [CreatedByYomiName](#BKMK_CreatedByYomiName)
 - [CreatedOn](#BKMK_CreatedOn)
 - [CreatedOnBehalfBy](#BKMK_CreatedOnBehalfBy)
-- [CreatedOnBehalfByName](#BKMK_CreatedOnBehalfByName)
-- [CreatedOnBehalfByYomiName](#BKMK_CreatedOnBehalfByYomiName)
 - [ModifiedBy](#BKMK_ModifiedBy)
-- [ModifiedByName](#BKMK_ModifiedByName)
-- [ModifiedByYomiName](#BKMK_ModifiedByYomiName)
 - [ModifiedOn](#BKMK_ModifiedOn)
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
-- [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
-- [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
-- [OwningBusinessUnitName](#BKMK_OwningBusinessUnitName)
 - [OwningTeam](#BKMK_OwningTeam)
 - [OwningUser](#BKMK_OwningUser)
 - [VersionNumber](#BKMK_VersionNumber)
 
-
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
-**Added by**: Active Solution Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier of the user who created the record.|
-|DisplayName|Created By|
+|---|---|
+|Description|**Unique identifier of the user who created the record.**|
+|DisplayName|**Created By**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|createdby|
+|LogicalName|`createdby`|
 |RequiredLevel|None|
-|Targets|systemuser|
 |Type|Lookup|
-
-
-### <a name="BKMK_CreatedByName"></a> CreatedByName
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|createdbyname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|createdbyyominame|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
+|Targets|systemuser|
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
 |Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|Date and time when the record was created.|
-|DisplayName|Created On|
-|Format|DateAndTime|
+|---|---|
+|Description|**Date and time when the record was created.**|
+|DisplayName|**Created On**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|createdon|
+|LogicalName|`createdon`|
 |RequiredLevel|None|
 |Type|DateTime|
-
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
-**Added by**: Active Solution Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier of the delegate user who created the record.|
-|DisplayName|Created By (Delegate)|
+|---|---|
+|Description|**Unique identifier of the delegate user who created the record.**|
+|DisplayName|**Created By (Delegate)**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|createdonbehalfby|
+|LogicalName|`createdonbehalfby`|
 |RequiredLevel|None|
-|Targets|systemuser|
 |Type|Lookup|
-
-
-### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|createdonbehalfbyname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|createdonbehalfbyyominame|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
+|Targets|systemuser|
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
-**Added by**: Active Solution Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier of the user who modified the record.|
-|DisplayName|Modified By|
+|---|---|
+|Description|**Unique identifier of the user who modified the record.**|
+|DisplayName|**Modified By**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|modifiedby|
+|LogicalName|`modifiedby`|
 |RequiredLevel|None|
-|Targets|systemuser|
 |Type|Lookup|
-
-
-### <a name="BKMK_ModifiedByName"></a> ModifiedByName
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|modifiedbyname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|modifiedbyyominame|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
+|Targets|systemuser|
 
 ### <a name="BKMK_ModifiedOn"></a> ModifiedOn
 
 |Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|Date and time when the record was modified.|
-|DisplayName|Modified On|
-|Format|DateAndTime|
+|---|---|
+|Description|**Date and time when the record was modified.**|
+|DisplayName|**Modified On**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|modifiedon|
+|LogicalName|`modifiedon`|
 |RequiredLevel|None|
 |Type|DateTime|
-
+|CanChangeDateTimeBehavior|False|
+|DateTimeBehavior|UserLocal|
+|Format|DateAndTime|
+|ImeMode|Inactive|
+|SourceTypeMask|0|
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
-**Added by**: Active Solution Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier of the delegate user who modified the record.|
-|DisplayName|Modified By (Delegate)|
+|---|---|
+|Description|**Unique identifier of the delegate user who modified the record.**|
+|DisplayName|**Modified By (Delegate)**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|modifiedonbehalfby|
+|LogicalName|`modifiedonbehalfby`|
 |RequiredLevel|None|
-|Targets|systemuser|
 |Type|Lookup|
-
-
-### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|modifiedonbehalfbyname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|modifiedonbehalfbyyominame|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
+|Targets|systemuser|
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
-**Added by**: Active Solution Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Name of the owner|
+|---|---|
+|Description|**Name of the owner**|
 |DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|owneridname|
-|MaxLength|100|
+|LogicalName|`owneridname`|
 |RequiredLevel|SystemRequired|
 |Type|String|
-
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
-**Added by**: Active Solution Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Yomi name of the owner|
+|---|---|
+|Description|**Yomi name of the owner**|
 |DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|owneridyominame|
-|MaxLength|100|
+|LogicalName|`owneridyominame`|
 |RequiredLevel|SystemRequired|
 |Type|String|
-
+|Format|Text|
+|FormatName|Text|
+|ImeMode|Auto|
+|IsLocalizable|False|
+|MaxLength|100|
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Added by**: Active Solution Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier for the business unit that owns the record|
-|DisplayName|Owning Business Unit|
+|---|---|
+|Description|**Unique identifier for the business unit that owns the record**|
+|DisplayName|**Owning Business Unit**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|owningbusinessunit|
+|LogicalName|`owningbusinessunit`|
 |RequiredLevel|None|
-|Targets|businessunit|
 |Type|Lookup|
-
-
-### <a name="BKMK_OwningBusinessUnitName"></a> OwningBusinessUnitName
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owningbusinessunitname|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
+|Targets|businessunit|
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
-**Added by**: Active Solution Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier for the team that owns the record.|
-|DisplayName|Owning Team|
+|---|---|
+|Description|**Unique identifier for the team that owns the record.**|
+|DisplayName|**Owning Team**|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|owningteam|
+|LogicalName|`owningteam`|
 |RequiredLevel|None|
-|Targets|team|
 |Type|Lookup|
-
+|Targets|team|
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Added by**: Active Solution Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier for the user that owns the record.|
-|DisplayName|Owning User|
+|---|---|
+|Description|**Unique identifier for the user that owns the record.**|
+|DisplayName|**Owning User**|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|owninguser|
+|LogicalName|`owninguser`|
 |RequiredLevel|None|
-|Targets|systemuser|
 |Type|Lookup|
-
+|Targets|systemuser|
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Added by**: Active Solution Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Version Number|
-|DisplayName|Version Number|
+|---|---|
+|Description|**Version Number**|
+|DisplayName|**Version Number**|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|versionnumber|
-|MaxValue|9223372036854775807|
-|MinValue|-9223372036854775808|
+|LogicalName|`versionnumber`|
 |RequiredLevel|None|
 |Type|BigInt|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+
+## Many-to-One relationships
+
+These relationships are many-to-one. Listed by **SchemaName**.
+
+- [business_unit_msdyn_ocapplepay](#BKMK_business_unit_msdyn_ocapplepay)
+- [lk_msdyn_ocapplepay_createdby](#BKMK_lk_msdyn_ocapplepay_createdby)
+- [lk_msdyn_ocapplepay_createdonbehalfby](#BKMK_lk_msdyn_ocapplepay_createdonbehalfby)
+- [lk_msdyn_ocapplepay_modifiedby](#BKMK_lk_msdyn_ocapplepay_modifiedby)
+- [lk_msdyn_ocapplepay_modifiedonbehalfby](#BKMK_lk_msdyn_ocapplepay_modifiedonbehalfby)
+- [owner_msdyn_ocapplepay](#BKMK_owner_msdyn_ocapplepay)
+- [team_msdyn_ocapplepay](#BKMK_team_msdyn_ocapplepay)
+- [user_msdyn_ocapplepay](#BKMK_user_msdyn_ocapplepay)
+
+### <a name="BKMK_business_unit_msdyn_ocapplepay"></a> business_unit_msdyn_ocapplepay
+
+One-To-Many Relationship: [businessunit business_unit_msdyn_ocapplepay](businessunit.md#BKMK_business_unit_msdyn_ocapplepay)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`businessunit`|
+|ReferencedAttribute|`businessunitid`|
+|ReferencingAttribute|`owningbusinessunit`|
+|ReferencingEntityNavigationPropertyName|`owningbusinessunit`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `Restrict`<br />Assign: `NoCascade`<br />Delete: `Restrict`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_lk_msdyn_ocapplepay_createdby"></a> lk_msdyn_ocapplepay_createdby
+
+One-To-Many Relationship: [systemuser lk_msdyn_ocapplepay_createdby](systemuser.md#BKMK_lk_msdyn_ocapplepay_createdby)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`systemuser`|
+|ReferencedAttribute|`systemuserid`|
+|ReferencingAttribute|`createdby`|
+|ReferencingEntityNavigationPropertyName|`createdby`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_lk_msdyn_ocapplepay_createdonbehalfby"></a> lk_msdyn_ocapplepay_createdonbehalfby
+
+One-To-Many Relationship: [systemuser lk_msdyn_ocapplepay_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_ocapplepay_createdonbehalfby)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`systemuser`|
+|ReferencedAttribute|`systemuserid`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencingEntityNavigationPropertyName|`createdonbehalfby`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_lk_msdyn_ocapplepay_modifiedby"></a> lk_msdyn_ocapplepay_modifiedby
+
+One-To-Many Relationship: [systemuser lk_msdyn_ocapplepay_modifiedby](systemuser.md#BKMK_lk_msdyn_ocapplepay_modifiedby)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`systemuser`|
+|ReferencedAttribute|`systemuserid`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencingEntityNavigationPropertyName|`modifiedby`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_lk_msdyn_ocapplepay_modifiedonbehalfby"></a> lk_msdyn_ocapplepay_modifiedonbehalfby
+
+One-To-Many Relationship: [systemuser lk_msdyn_ocapplepay_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_ocapplepay_modifiedonbehalfby)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`systemuser`|
+|ReferencedAttribute|`systemuserid`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencingEntityNavigationPropertyName|`modifiedonbehalfby`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_owner_msdyn_ocapplepay"></a> owner_msdyn_ocapplepay
+
+One-To-Many Relationship: [owner owner_msdyn_ocapplepay](owner.md#BKMK_owner_msdyn_ocapplepay)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`owner`|
+|ReferencedAttribute|`ownerid`|
+|ReferencingAttribute|`ownerid`|
+|ReferencingEntityNavigationPropertyName|`ownerid`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_team_msdyn_ocapplepay"></a> team_msdyn_ocapplepay
+
+One-To-Many Relationship: [team team_msdyn_ocapplepay](team.md#BKMK_team_msdyn_ocapplepay)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`team`|
+|ReferencedAttribute|`teamid`|
+|ReferencingAttribute|`owningteam`|
+|ReferencingEntityNavigationPropertyName|`owningteam`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+### <a name="BKMK_user_msdyn_ocapplepay"></a> user_msdyn_ocapplepay
+
+One-To-Many Relationship: [systemuser user_msdyn_ocapplepay](systemuser.md#BKMK_user_msdyn_ocapplepay)
+
+|Property|Value|
+|---|---|
+|ReferencedEntity|`systemuser`|
+|ReferencedAttribute|`systemuserid`|
+|ReferencingAttribute|`owninguser`|
+|ReferencingEntityNavigationPropertyName|`owninguser`|
+|IsHierarchical||
+|CascadeConfiguration|Archive: `NoCascade`<br />Assign: `NoCascade`<br />Delete: `NoCascade`<br />Merge: `NoCascade`<br />Reparent: `NoCascade`<br />RollupView: `NoCascade`<br />Share: `NoCascade`<br />Unshare: `NoCascade`|
+
+
+## One-to-Many relationships
+
+These relationships are one-to-many. Listed by **SchemaName**.
+
+- [msdyn_msdyn_ocapplepay_msdyn_ocpaymentprofile_ocapplepayid](#BKMK_msdyn_msdyn_ocapplepay_msdyn_ocpaymentprofile_ocapplepayid)
+- [msdyn_msdyn_ocapplepay_msdyn_ocrichobjectmap_ocapplepayid](#BKMK_msdyn_msdyn_ocapplepay_msdyn_ocrichobjectmap_ocapplepayid)
+- [msdyn_ocapplepay_AsyncOperations](#BKMK_msdyn_ocapplepay_AsyncOperations)
+- [msdyn_ocapplepay_BulkDeleteFailures](#BKMK_msdyn_ocapplepay_BulkDeleteFailures)
+- [msdyn_ocapplepay_DuplicateBaseRecord](#BKMK_msdyn_ocapplepay_DuplicateBaseRecord)
+- [msdyn_ocapplepay_DuplicateMatchingRecord](#BKMK_msdyn_ocapplepay_DuplicateMatchingRecord)
+- [msdyn_ocapplepay_MailboxTrackingFolders](#BKMK_msdyn_ocapplepay_MailboxTrackingFolders)
+- [msdyn_ocapplepay_PrincipalObjectAttributeAccesses](#BKMK_msdyn_ocapplepay_PrincipalObjectAttributeAccesses)
+- [msdyn_ocapplepay_ProcessSession](#BKMK_msdyn_ocapplepay_ProcessSession)
+- [msdyn_ocapplepay_SyncErrors](#BKMK_msdyn_ocapplepay_SyncErrors)
+
+### <a name="BKMK_msdyn_msdyn_ocapplepay_msdyn_ocpaymentprofile_ocapplepayid"></a> msdyn_msdyn_ocapplepay_msdyn_ocpaymentprofile_ocapplepayid
+
+Many-To-One Relationship: [msdyn_ocpaymentprofile msdyn_msdyn_ocapplepay_msdyn_ocpaymentprofile_ocapplepayid](msdyn_ocpaymentprofile.md#BKMK_msdyn_msdyn_ocapplepay_msdyn_ocpaymentprofile_ocapplepayid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocpaymentprofile`|
+|ReferencingAttribute|`msdyn_ocapplepayid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_ocapplepay_msdyn_ocpaymentprofile_ocapplepayid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_msdyn_ocapplepay_msdyn_ocrichobjectmap_ocapplepayid"></a> msdyn_msdyn_ocapplepay_msdyn_ocrichobjectmap_ocapplepayid
+
+Many-To-One Relationship: [msdyn_ocrichobjectmap msdyn_msdyn_ocapplepay_msdyn_ocrichobjectmap_ocapplepayid](msdyn_ocrichobjectmap.md#BKMK_msdyn_msdyn_ocapplepay_msdyn_ocrichobjectmap_ocapplepayid)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_ocrichobjectmap`|
+|ReferencingAttribute|`msdyn_ocapplepayid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_msdyn_ocapplepay_msdyn_ocrichobjectmap_ocapplepayid`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: ApplePay to RichMap relation<br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocapplepay_AsyncOperations"></a> msdyn_ocapplepay_AsyncOperations
+
+Many-To-One Relationship: [asyncoperation msdyn_ocapplepay_AsyncOperations](asyncoperation.md#BKMK_msdyn_ocapplepay_AsyncOperations)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`asyncoperation`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocapplepay_AsyncOperations`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocapplepay_BulkDeleteFailures"></a> msdyn_ocapplepay_BulkDeleteFailures
+
+Many-To-One Relationship: [bulkdeletefailure msdyn_ocapplepay_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_ocapplepay_BulkDeleteFailures)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`bulkdeletefailure`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocapplepay_BulkDeleteFailures`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocapplepay_DuplicateBaseRecord"></a> msdyn_ocapplepay_DuplicateBaseRecord
+
+Many-To-One Relationship: [duplicaterecord msdyn_ocapplepay_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_ocapplepay_DuplicateBaseRecord)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`duplicaterecord`|
+|ReferencingAttribute|`baserecordid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocapplepay_DuplicateBaseRecord`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocapplepay_DuplicateMatchingRecord"></a> msdyn_ocapplepay_DuplicateMatchingRecord
+
+Many-To-One Relationship: [duplicaterecord msdyn_ocapplepay_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_ocapplepay_DuplicateMatchingRecord)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`duplicaterecord`|
+|ReferencingAttribute|`duplicaterecordid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocapplepay_DuplicateMatchingRecord`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocapplepay_MailboxTrackingFolders"></a> msdyn_ocapplepay_MailboxTrackingFolders
+
+Many-To-One Relationship: [mailboxtrackingfolder msdyn_ocapplepay_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_ocapplepay_MailboxTrackingFolders)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`mailboxtrackingfolder`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocapplepay_MailboxTrackingFolders`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocapplepay_PrincipalObjectAttributeAccesses"></a> msdyn_ocapplepay_PrincipalObjectAttributeAccesses
+
+Many-To-One Relationship: [principalobjectattributeaccess msdyn_ocapplepay_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_ocapplepay_PrincipalObjectAttributeAccesses)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`principalobjectattributeaccess`|
+|ReferencingAttribute|`objectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocapplepay_PrincipalObjectAttributeAccesses`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocapplepay_ProcessSession"></a> msdyn_ocapplepay_ProcessSession
+
+Many-To-One Relationship: [processsession msdyn_ocapplepay_ProcessSession](processsession.md#BKMK_msdyn_ocapplepay_ProcessSession)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`processsession`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocapplepay_ProcessSession`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_msdyn_ocapplepay_SyncErrors"></a> msdyn_ocapplepay_SyncErrors
+
+Many-To-One Relationship: [syncerror msdyn_ocapplepay_SyncErrors](syncerror.md#BKMK_msdyn_ocapplepay_SyncErrors)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`syncerror`|
+|ReferencingAttribute|`regardingobjectid`|
+|ReferencedEntityNavigationPropertyName|`msdyn_ocapplepay_SyncErrors`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+
 
 ### See also
 
-[Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
-[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+[Dataverse table/entity reference](/power-apps/developer/data-platform/reference/about-entity-reference)  
+[Dataverse Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)   
 
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

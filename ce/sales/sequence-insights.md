@@ -1,12 +1,12 @@
 ---
 title: Improve sequence efficiency with insights
 description: Learn how sequence insights in Microsoft Dynamics 365 Sales provide valuable data on the performance of sequences and steps.
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.collection: get-started
-ms.date: 05/08/2023
+ms.date: 08/26/2026
 ms.custom: bap-template
 ---
 
@@ -24,9 +24,12 @@ Sequences are configured and implemented in your organization. [Learn more about
 
 To view sequence insights, open an active sequence. The sequence is shown as a Sankey diagram that illustrates the number of records that passed through each step in the sequence. The diagram offers an easy way to view the sequence's overall performance. It can also help you identify steps where more records are getting stuck or leaving the sequence.
 
+> [!NOTE]
+> The numbers in the sequence insights Sankey diagram might omit some records due to data processing delays or other factors and might not match the actual numbers. However, the insights data is still useful for identifying trends and patterns in your sequence performance. 
+
 By default, the data covers the entire time the sequence has been active. You can filter it to show a specific duration; for example, the last seven days. Select **All data** in the upper-right corner of the page, and then select a duration.
 
-:::image type="content" source="media/si-insights-phone-call.png" alt-text="Screenshot of a sequence flow diagram with insights for a phone call step." lightbox="media/si-insights-phone-call-exp.png":::<!-- EDITOR'S NOTE: Please highlight "All data" in the screenshot IAW our [screenshot guidelines](/bacx/screenshots-for-bap?branch=main) -->
+:::image type="content" source="media/si-insights-phone-call.png" alt-text="Screenshot of a sequence flow diagram with insights for a phone call step." lightbox="media/si-insights-phone-call-exp.png":::
 
 To get insights on how sellers are executing a step, select it in the diagram.
 
@@ -46,7 +49,7 @@ Other steps display a detailed analysis, with the following insights shown for e
 
 Analytics aren't available for condition steps.
 
-### See also
+## Related information
 
 [Create and connect sequences for yourself](create-sequence-seller.md)  
 [View and understand sales acceleration reporting](understand-sales-acceleration-reporting.md)  

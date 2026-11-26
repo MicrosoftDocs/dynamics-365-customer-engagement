@@ -2,7 +2,6 @@
 title: "Sample code for queue entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample code examples demonstrate how to use the queue entities."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

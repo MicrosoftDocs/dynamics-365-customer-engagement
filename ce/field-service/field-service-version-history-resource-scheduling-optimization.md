@@ -1,48 +1,115 @@
 ---
 title: Resource Scheduling Optimization version history
-description: Version updates and updated features in the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
-ms.date: 03/12/2024
+description: Version updates and updated features in the Resource Scheduling Optimization Add-on for Dynamics 365 Field Service.
+ms.date: 07/28/2026
+ms.update-cycle: 1095-days
 ms.subservice: resource-scheduling-optimization
-ms.topic: article
-author: AnilMur
-ms.author: anilmur
+ms.topic: overview
+author: DaPisani
+ms.author: dapisani
 ---
 
 # Resource Scheduling Optimization version history
 
 ## Release schedule
 
-When a new version of the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service releases, it becomes available in different geographic regions at different times. The following table shows, when the next release will become available in the region of your environment.
+When a new version of the Resource Scheduling Optimization add-on for Dynamics 365 Field Service releases, it becomes available in different geographic regions at different times. The following table shows, when the next release will become available in the region of your environment.
 
 For information about other updates to Field Service, visit the [Dynamics 365 release plans](/dynamics365/release-plans/).
-For information about older versions, see [Version history archive](version-history-archive.md#resource-scheduling-optimization-add-in).
+For information about older versions, see [Version history archive](version-history-archive.md#resource-scheduling-optimization-add-on).
 
-|Station | Region | Current version | Next version |  Scheduled date
+|Station | Region | Current version | Next version |  Scheduled date |
 |------| -------|-------|-----|------|
 |**Station 1** | | |  | |
-| | *First Release* | [3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623) | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | 03/11/2024
+| | *First Release* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/03/2026
 |**Station 2** | | |  | |
-| | *South America* | [3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623) | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | 03/15/2024
-| | *Canada* | [3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623)  | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | 03/15/2024
-| | *India* | [3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623) | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | 03/15/2024
-| | *France* | [3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623) | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | 03/25/2024
-| | *United Arab Emirates* | [3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623) | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | 03/15/2024
-| | *South Africa* | [3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623) | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | 03/15/2024
-| | *Germany* | [3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623)  | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | 03/15/2024
-| | *Switzerland* | [3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623)  | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | 03/15/2024
+| | *South America* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/10/2026
+| | *Canada* | [3.5.0.135](#350135)  | [3.5.3483.1](#3534831) | 08/10/2026
+| | *India* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/10/2026
+| | *France* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/10/2026
+| | *South Africa* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/10/2026
+| | *Germany* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/10/2026
+| | *Switzerland* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/10/2026
+| | *Norway* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/10/2026
+| | *Korea* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/10/2026
 |**Station 3** | |  |  | |
-| | *Japan* |  [3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623)| [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | 03/15/2024
-| | *Asia Pacific* | [3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623) | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | 03/15/2024
-| | *Great Britain* |[3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623) | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | 03/15/2024
-| | *Oceania* | [3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623) | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | 03/15/2024
+| | *United Arab Emirates* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/17/2026
+| | *Japan* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/17/2026
+| | *Asia Pacific* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/17/2026
+| | *United Kingdom* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/17/2026
+| | *Oceania* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/17/2026
 |**Station 4** | |  |  | |
-| | *Europe* | [3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623) | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | 03/22/2024
+| | *Europe* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/24/2026
 |**Station 5** | |  |  | |
-| | *North America* | [3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623) | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | 03/29/2024
+| | *North America* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 08/31/2026
+|**Station 6** | |  |  | |
+| | *Dedicated Scale Groups* | [3.5.0.135](#350135) | [3.5.3483.1](#3534831) | 09/08/2026
 
 >[!NOTE]
 >
 > - Dates in all regions indicate the timing of the next automatic update. While most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.5.3483.1
+
+This release contains the following improvements:
+
+- User interface improvements for optimization request settings.
+- Accessibility improvements.
+- Security and authentication enhancements.
+
+## 3.5.0.135
+
+This release contains the following:
+
+- Solution changes to remove compatibility to previous version of the backend infrastructure.
+
+## 3.5.0.42
+
+This release contains the following:
+
+- Fixes related to backend infrastructure upgrade introduced in [3.5.0.25](#35025)
+
+## 3.5.0.25
+
+This release contains the following:
+
+- Solution changes with compatibility for backend infrastructure upgrades to improve security and performance.
+
+## 3.4.0.1406
+
+This release fixes a rounding bug that resulted in booking duration occasionally being increased. In addition, this release improves optimization reliability.
+
+## 3.4.0.1381
+
+This release has a fix for the following bugs:
+
+- Occasionally an optimization job creates fewer bookings than expected, resulting in schedules where not all resources are fully utilized.
+- Optimization requests sometimes fail with an error message "System failed to optimize some records. Inner error(s)".
+
+## 3.4.0.1332
+
+This release has a fix for a bug where optimization requests occasionally fail with an error message "Object reference not set to an instance of an object".
+
+## 3.4.0.1262
+
+This release has updates improving performance.  
+_Request Name_ in table _Optimization Requests_ now saved as date and time of request in UTC
+
+## 3.4.0.1165
+
+This release has updates improving reliability and performance.
+
+## 3.4.0.1144
+
+This release has miscellaneous service updates and logging improvements.
+
+## 3.4.0.1040
+
+This release removes the changes in build 3.4.0.1022 involving [bulk deletion jobs](rso-administration.md#bulk-deletion-jobs).
+
+## 3.4.0.1022
+
+This release has further improvements to diagnostic logging, and a fix to ensure that [bulk deletion jobs](rso-administration.md#bulk-deletion-jobs) are able to delete older optimization jobs in a timely manner.
 
 ## 3.4.0.917
 
@@ -55,33 +122,6 @@ This release introduces two new features:
 - Support for optimizing [multi-day requirements](rso-multi-day.md).
 - When schedulers optimize a single resource's schedule, [the system considers additional requirements](rso-single-resource-optimization.md) and their scheduled bookings.
 
-## 3.4.0.495
 
-This release is the same as 3.4.0.459, with a more efficient solution delivery mechanism.
-
-## 3.4.0.459
-
-Bug fix: Addressed issue where resource schedules were incorrectly ignored when there's a booking overlapping with optimization range start or end time.
-
-## 3.4.0.254
-
-- Bug fix: Addressed an issue with using the Optimization panel in [Single Resource Optimizations](/dynamics365/field-service/single-resource-optimization#run-after-making-changes-to-defaults)
-- Behavior change: We're changing the behavior of how Resource Scheduling Optimization handles locks on bookings. Currently, if an optimization schedule is running, it might lock bookings, which prevents a user from being able to delete the booking via Schedule Board. The user would be required to manually unlock the booking before deleting it. With this release, a request to delete a booking by a schedule board user overrides any locking by Resource Scheduling Optimization.
-
-## 3.4.0.180
-
-- Bug fix: Addressed issue where certain schedule requests fail due to a timeout, with the message *Resource Scheduling Optimization failed to create, update or delete some of the bookings due to a system error*.
-- Bug fix: Addressed issue where certain schedule requests produced overlapping bookings when using locked resources or by requirement duration and book duration mismatch.
-- Bug fix: Addressed issue where unpublished schedules would get inadvertently published after a platform update.
-
-## 3.4.0.72
-
-- Fixed optimization request errors:
-  - System failed to optimize some records. Inner error(s): The primal integer program model is infeasible or unbounded: optimization status = InfeasibleOrUnbounded.
-  - System failed to optimize some records. Inner error(s): An exception was thrown while activating F1.RoutingEngine.PathSolver.PathSolver.
-
-## 3.4.0.8
-
-- Resource Scheduling Optimization always honors locked bookings and no longer overlaps them.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

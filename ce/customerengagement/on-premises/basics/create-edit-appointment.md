@@ -2,18 +2,17 @@
 title: "Appointment scheduling in Dynamics 365 Customer Engagement (on-premises)"
 description: "Block off time to talk to your customers by creating appointments. You can modify any of the information in an open appointment, or create a draft."
 ms.custom: 
-ms.date: 10/31/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
-author: sericks007
+author: shwetamurkute
 ms.assetid: 50af7faf-8578-4244-9710-f05544b97f38
 caps.latest.revision: 41
-ms.author: sericks
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

@@ -1,23 +1,16 @@
 ---
 title: Assign a sequence to a user or a team
 description: Learn how to assign your sequences to a user or a team to use them in Dynamics 365 sales accelerator.
-ms.date: 10/20/2022
-ms.topic: article
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
+ms.date: 04/30/2026
+ms.topic: how-to
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Assign a sequence to a user or a team
 
-Before users or teams can use a sequence you create, you need to assign them to it. Assigning users and teams to a sequence gives them full permissions to view, edit, and delete the sequence.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/)<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
+Before users or teams can use a sequence you create, you need to assign it to them. When you assign users and teams to a sequence, they get full permissions to view, edit, and delete the sequence.
 
 ## Assign a sequence
 
@@ -29,7 +22,7 @@ Before users or teams can use a sequence you create, you need to assign them to 
 
     :::image type="content" source="media/sequence-assign-select-sequence.png" alt-text="Screenshot of selecting a sequence to assign.":::
 
-1. In the **Assign Sequence** box, enter the following information:
+1. In **Assign Sequence**, enter the following information:
 
     | Parameter | Description |
     |-----------|-------------|
@@ -42,6 +35,6 @@ Before users or teams can use a sequence you create, you need to assign them to 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create and activate a sequence](create-and-activate-a-sequence.md)

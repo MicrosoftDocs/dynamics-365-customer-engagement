@@ -1,7 +1,7 @@
 ---
 title: Admin settings overview
 description: Admin settings provide an organized and unified experience for administrators to easily configure the Dynamics 365 Sales app from a single place.
-ms.date: 02/02/2024
+ms.date: 10/26/2026
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
@@ -12,18 +12,11 @@ ms.reviewer: lavanyakr
 
 Admin settings provide an organized and unified experience for administrators to easily configure the Dynamics 365 Sales app from a single place.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | [System Administrator](security-roles-for-sales.md)|
-
 ## Access admin settings
 
-Select the tab for the Dynamics 365 Sales license you have:
+Select a tab based on the sales app that you use:
 
-# [Sales Premium and Sales Enterprise](#tab/SE)
+# [Sales Hub app](#tab/SE)
 
 ## Sales app settings
 
@@ -54,17 +47,17 @@ To open the Sales Insights settings, select **Change area** :::image type="icon"
 
 [Learn how to install and administer Sales Insights features](intro-admin-guide-sales-insights.md).
 
-To set up and use the premium sales insights features, you must have a Dynamics 365 Sales Premium license. [Learn more about Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/).
+To set up and use the premium sales insights features, you must have a specific Dynamics 365 Sales license. Learn more about licensing requirements in the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-# [Sales Professional](#tab/SP)
+# [Sales Professional app](#tab/SP)
 
-To manage the admin settings in Sales Professional, select **Sales Settings**.
+To manage the admin settings in the Sales Professional app, select **Sales Settings**.
 
 ### Get Started page
 
 The **Get Started** page makes it easy to set up what's most important. One selection configures Microsoft Exchange and SharePoint so that your users can start sending emails and sharing documents right away. You can also import data quickly, so that your users have everything they need in the app. And if you want to change or customize anything later, you can find the standard settings in the same place.
 
-:::image type="content" source="media/standard-settings-page.png" alt-text="Screenshot of the Get Started page in Dynamics 365 Sales Professional.":::
+:::image type="content" source="media/standard-settings-page.png" alt-text="Screenshot of the Get Started page in the Sales Professional app.":::
 
 [Learn how to use the site map to go to different areas of the app](user-guide-learn-basics.md).
 
@@ -80,12 +73,10 @@ The **Get Started** page makes it easy to set up what's most important. One sele
 
 If the Sales app doesn't exactly fit your business requirements, use the drag-and-drop designers under **Customization** to quickly change forms, views, and process flows to reflect the specific information your company needs. For example, change the pipeline phases to match your organization's business flows, or add new fields to capture data that's relevant to your business&mdash;all without writing a single line of code. [Learn how to customize business process flows](customize-business-process-flows.md).
 
-:::image type="content" source="media/customize-bpf.png" alt-text="Screenshot of customizing a business process flow.":::
-
 ---
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Define the lead qualification experience](define-lead-qualification-experience.md)
 - [Allow customization of the Opportunity Close form](enable-opportunity-close-customization.md)
@@ -94,3 +85,4 @@ If the Sales app doesn't exactly fit your business requirements, use the drag-an
 - [Allow PDF generation from sales records](enable-pdf-generation-quote.md)
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]
+

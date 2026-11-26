@@ -1,27 +1,23 @@
 ---
-title: "Share a forecast - Dynamics 365 Sales | MicrosoftDocs"
+title: Share a forecast
 description: "Share forecasts with other users in the hierarchy or outside the hierarchy with a specific access permission."
-ms.date: 01/25/2022
-ms.topic: article
+ms.date: 05/06/2026
+ms.topic: how-to
 
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ai-usage: ai-assisted
 ---
 
 # Share a forecast
 
-Share the forecasts that you own, with anyone in your hierarchy or outside of your hierarchy. You can specify the access level (such as read, or read and adjust rollup) that you want to give the user. For example, Henry, the Sales Manager, wants to go on a vacation and wants one of the direct reports, Serena Davis, to manage the forecasts. Henry can share the forecast hierarchy with Serena and assign the appropriate permissions. Depending on the permissions granted, Serena can view or adjust the forecast. However, Serena cannot share the forecast with any other user as Henry is the owner of the forecast.  
+Use forecast sharing to give specific users access to your forecast data without changing their security roles. You control exactly what access each person gets — view only, or view and adjust — and you can revoke access at any time. Sharing is useful when you're delegating responsibilities temporarily, collaborating across teams, or providing visibility to stakeholders outside your hierarchy.
 
-> [!NOTE]
-> Only a forecast owner can share their forecast. To know more, see [Who owns the forecast?](faq-forecasting.md#who-owns-the-forecast).
+For example, Henry, the Sales Manager, wants to go on a vacation and wants one of the direct reports, Serena Davis, to manage the forecasts. Henry can share the forecast hierarchy with Serena and assign the appropriate permissions. Depending on the permissions granted, Serena can view or adjust the forecast. However, Serena cannot share the forecast with any other user as Henry is the owner of the forecast.
 
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
+> [!IMPORTANT]
+> **Only the forecast owner can share a forecast.** To find out who owns a forecast, see [Who owns the forecast?](faq-forecasting.md#who-owns-the-forecast).
 
 ## Share a forecast or forecast hierarchy
 
@@ -36,8 +32,15 @@ Share the forecasts that you own, with anyone in your hierarchy or outside of yo
 
 3.  In the **Sharing** dialog, specify the users with whom you want to share the forecast and select the pencil icon to specify the access level.
 
+    The following access levels are available:
+
+    | Access level | Can view? | Can adjust values? | Can share further? |
+    |---|---|---|---|
+    | Read | Yes | No | No |
+    | Read and adjust | Yes | Yes (within their hierarchy) | No |
+
     > [!NOTE]
-    >  You can specify different level of access for each user if your administrator has set the **Read and adjust** option.
+    > You can specify a different access level for each user. The **Read and adjust** option must be enabled by your administrator in the forecast configuration.
     
     :::image type="content" source="media/forecast-sharing-options.png" alt-text="Screenshot of access levels available for sharing":::
 
@@ -51,6 +54,6 @@ To stop sharing the entire forecast hierarchy from all the users, your administr
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 [Enable or disable forecast sharing](provide-permissions-forecast.md#enable-or-disable-forecast-sharing)  
 [Provide permissions to access and share a forecast](provide-permissions-forecast.md)  

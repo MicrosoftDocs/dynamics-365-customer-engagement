@@ -3,7 +3,6 @@ title: "The configuration database does not exist on the specified SQL Server | 
 description: Environment diagnostics warning that there's no configuration database.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

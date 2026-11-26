@@ -3,7 +3,6 @@ title: "A Microsoft .NET Framework update is required | Microsoft Docs"
 description: A .NET Framework update is needed
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

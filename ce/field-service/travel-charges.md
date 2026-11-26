@@ -1,33 +1,66 @@
 ---
 title: Configure travel charges
-description: Learn how to use travel charges in Dynamics 365 Field Service to bill for the cost of traveling to a worksite.
-ms.date: 01/23/2023
+description: Learn how to use travel charges in Dynamics 365 Field Service to bill customers for travel to a work site.
+ms.date: 08/10/2026
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
-ms.custom: bap-template
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-seo-date: 08/07/2026
+ai-usage: ai-assisted
 ---
 
 # Configure travel charges
 
-Use travel charges to bill customers for the cost of traveling to the worksite.
+Use travel charges to bill customers for the cost of travel to a work site. Field Service adds travel charges to a work order as a work order product. The system calculates the travel charge based on the travel charge type and travel charge set for the service account.
 
-Field Service adds a travel charge item as a work order product if a [service account](accounts.md), *not* a billing account, has a travel charge type set. It's added after the work order is scheduled and when the status of the generated booking changes.
+When a qualifying booking is complete, Field Service adds the product selected as the **Travel Charge Item** to the work order. The **Travel Charge** on the work order’s service account becomes the work order product’s per-unit price. The **Travel Charge Type** determines the quantity.
 
-The *unit amount* of the **Travel Charge Item** work order product is the value of the **Travel Charge** that's set for the service account. The *unit amount price* of the travel charge item is dictated by the price list, list price, and travel charge. However, the *quantity* of the **Travel Charge Item** work order product is based on the **Travel Charge Type** set for the service account.
+Field Service creates a separate travel charge item for each qualifying booking. Normal work order product pricing, discounts, and taxes apply afterward.
 
-In cases of multiple bookings for a single work order, multiple travel charge items will be added as work order products.
+If there are multiple bookings for a single work order, the system adds multiple travel charge items as work order products.
 
 ## Specify the travel charge item
 
-1. In Field Service, select the **Settings** area. Under **General**, select **Field Service Settings**.
+1. In Field Service, go to **Settings** and then select the **Work Order / Booking** tab.
 
-1. In the **Work Order / Booking** tab, search for and select a product in **Travel Charge Item**.
-  
-   If the product doesn't exist yet, select **New Product** to create it and add the product as a travel charge item.
+1. In the **Travel Charge Item**, search for and select a product.
 
-   :::image type="content" source="media/field-service-settings-travel-charge.png" alt-text="Screenshot of the Field Service settings page, with a travel charge item highlighted.":::
+    If the product doesn't exist, select **New Product** to create one, and then select the new product as a travel charge item.
+
+    :::image type="content" source="media/field-service-settings-travel-charge.png" alt-text="Screenshot of the Field Service Settings page with a travel charge item highlighted.":::
 
 1. Select **Save**.
+
+## Specify the travel charge type and travel charge
+
+Set travel charges on the service account rather than the billing account. To specify the travel charge type and travel charge:
+
+1. In Field Service, go to **Accounts**, and then select a service account.
+
+1. Select the **Servicing** tab.
+
+1. In the **Travel Charge Type** field, select one of the following options:
+
+    - **Hourly**: Field Service calculates the travel charge based on the actual travel duration in minutes divided by 60.
+    - **Mileage**: Field Service calculates the travel charge based on miles traveled times price per mile.
+    - **Fixed**: Field Service uses a fixed amount for the travel charge.
+
+1. In the **Travel Charge** field, enter the amount to charge for travel.
+
+    :::image type="content" source="media/account-travel-charges.png" alt-text="Screenshot of a service account's Servicing tab with travel charges highlighted.":::
+
+1. Select **Save & Close**.
+
+## Example
+
+| Travel Charge Type | Travel Charge | Quantity  | Result |
+|--------------------|---------------|-----------|--------|
+| Hourly             | $60/hour      | 90 minutes| $90    |
+| Mileage            | $0.50/mile    | 10 miles  | $5     |
+| Fixed              | $100          | 1 time    | $100   |
+| None               | $0            | 0         | $0     |
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

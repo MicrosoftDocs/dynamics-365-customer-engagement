@@ -1,23 +1,24 @@
 ---
-title: "Data access consent | MicrosoftDocs"
-description: "Learn about the consent requirements that are required for provisioning Omnichannel for Customer Service."
-ms.date: 08/31/2023
+title: Data access consent
+description: Learn about the consent requirements that are required for provisioning Dynamics 365 Contact Center.
+ms.date: 04/15/2026
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.topic: reference
 ---
 
-# Provide consent to access data to provision Omnichannel for Customer Service
+# Provide consent to access data to provision Dynamics 365 Contact Center
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
-This article provides information about the consent that's needed to access the different components and data during the installation and provision of Omnichannel for Customer Service.
+This article provides information about the consent that's needed to access the different components and data during the installation and provision of Dynamics 365 Contact Center.
 
 ## Provide consent to access data
 
-Omnichannel for Customer Service app requires the following permissions to read and write data on behalf of users:
+Copilot Service workspace app requires the following permissions to read and write data on behalf of users:
 
 - **Allow the application to read flows**: The app can access the flows if they have been used in macros.
 
@@ -50,18 +51,16 @@ A detailed explanation is as follows:
     - **Reports**: Omnichannel Insights for Dynamics 365
     - **Datasets**: Omnichannel Insights for Dynamics 365
   
-    More information:
-     [Omnichannel Insights for Dynamics 365 - Power BI App](https://appsource.microsoft.com/product/power-bi/ms_dynmcsfnp.ms_dynamics_cca_da_oc_analytics)  
-     [Omnichannel Insights Dashboard](omnichannel-insights-dashboard.md#omnichannel-insights-dashboard)
+    Learn more in [Omnichannel Insights Dashboard](omnichannel-insights-dashboard.md#omnichannel-insights-dashboard).
 
 - **Sign in and read your profile**: Allows Omnichannel to sign into the app with user’s work account and let the app read the user profile. It also allows the app to read basic company information.
 
 - **Access Common Data Service as you**: 
-  - **For Customer Service users**: Allows Customer Service to automatically create a non-licensed, non-interactive application user, and assign security roles to the application user. This application user is primarily used to access omnichannel agents and supervisors characteristics, such as capacity, skill, and presence; configuration data such as workstreams and queues; and to sync queue item and conversation data with Dataverse.
+  - **For Customer Service users**: Allows Customer Service to automatically create a non-licensed, non-interactive application user, and assign security roles to the application user. This application user is primarily used to access omnichannel customer service representatives (service representatives or representatives) and supervisors characteristics, such as capacity, skill, and presence; configuration data such as workstreams and queues; and to sync queue item and conversation data with Dataverse.
 
-  - **For Omnichannel for Customer Service users**: Allows Omnichannel for Customer Service to automatically create a non-licensed, non-interactive application user, and assign security roles to the application user. This application user is primarily used to access omnichannel agents’ characteristics, such as capacity, skill, and presence, and to sync chat-related entities with Dataverse.
+  - **For Omnichannel for Customer Service users**: Allows Omnichannel for Customer Service to automatically create a non-licensed, non-interactive application user, and assign security roles to the application user. This application user is primarily used to access omnichannel representatives' characteristics, such as capacity, skill, and presence, and to sync chat-related entities with Dataverse.
 
-## What happens when I provide data access consent and provision Omnichannel for Customer Service?
+## What happens when I provide data access consent and provision Dynamics 365 Contact Center?
 
 The following enterprise applications will be created in your Microsoft Entra ID and corresponding security permissions mentioned during data consent will get propagated to these apps. The Omnichannel Application User created in Dataverse will have reference to these AAD enterprise applications thereby helping it to interact with Dataverse and Omnichannel satellite services.
 
@@ -83,13 +82,9 @@ Only the delegated permissions are required. On consent, the following two ser
 
 - “Omnichannel for Customer Service”
 
-### Why is the global admin role required, and not a less powerful one?
-
-We need to add the service principal to Microsoft Entra ID for the tenant as a requirement, and therefore, we need global admin permissions.
-
 ### Which are the Omnichannel principals? We found at least four Omnichannel principals.
 
-“Omnichannel APIs” is the main application ID that's used for UI operations such as triggering provisioning of UR and loading the presence for an agent. “Omnichannel for Customer Service” is the app that has Dataverse permissions and is used to read data from Dataverse and write data to Dataverse for the Omnichannel service for the unified routing capability of classification and assignment.
+“Omnichannel APIs” is the main application ID that's used for UI operations such as triggering provisioning of UR and loading the presence for a representative. “Omnichannel for Customer Service” is the app that has Dataverse permissions and is used to read data from Dataverse and write data to Dataverse for the Omnichannel service for the unified routing capability of classification and assignment.
 
 The following applications were created as third-party applications. They'll be moved to be first-party Microsoft applications.
 
@@ -105,7 +100,7 @@ These four principals don't interact with each other. 
 
 The “Omnichannel for Customer Service” application. This app has Dataverse permissions that are used to read data from Dataverse and write data to Dataverse for Omnichannel service for the unified routing capability of classification and assignment.
 
-### See also
+### Related information
 
-[Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)  
+[Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  
 [Provision unified routing for Customer Service](../administer/provision-unified-routing.md)  

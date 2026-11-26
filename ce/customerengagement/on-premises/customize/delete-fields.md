@@ -1,7 +1,6 @@
 ---
 title: "Delete a field from Dynamics 365 Customer Engagement (on-premises)"
 description: "You can delete custom fields that aren't part of a managed solution, so long as you remove any dependencies that exist in other solution components."
-ms.date: 11/03/2018
 
 ms.topic: article
 applies_to: 

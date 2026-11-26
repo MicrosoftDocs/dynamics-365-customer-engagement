@@ -2,12 +2,11 @@
 title: "Authenticate Office 365 users with Customer Engagement web services (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "This topic applies to customers who access Dynamics 365 Customer Engagement (on-premises) Customer Engagement through the Microsoft Online Services environment. It discusses how Dynamics 365 Customer Engagement (on-premises) web service authentication with managed domain and federated identity providers works"
 ms.custom: 
-ms.date: 02/03/2020
 ms.reviewer: pehecke
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: bdd3b0f8-bdd7-4604-941e-7308f4c2d83c

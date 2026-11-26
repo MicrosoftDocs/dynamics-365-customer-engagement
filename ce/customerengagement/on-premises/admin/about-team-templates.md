@@ -2,7 +2,6 @@
 title: "Use team templates in Dynamics 365 Customer Engagement (on-premises)"
 description: "Using teams is an easy way to collaborate with others. To create a system-managed access team, you must provide a template for the system to use."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - team
 ms.assetid: 7c29ad58-b0f4-4a0f-b686-ecbca053592b
 caps.latest.revision: 21
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 

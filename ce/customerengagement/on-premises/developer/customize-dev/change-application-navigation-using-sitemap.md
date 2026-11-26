@@ -2,7 +2,6 @@
 title: "Change application navigation using the SiteMap (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The site map enables you to control the application navigation (menus) and other options in Dynamics 365 Customer Engagement such as editing labels, adding or changing icons, and adding or changing elements."
 keywords: 
-ms.date: 10/31/2017
 
 ms.topic: get-started
 applies_to: 

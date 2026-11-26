@@ -1,10 +1,11 @@
 ---
-title: "Get Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Use this topic to get the download link and prerequisites for Dynamics 365 Channel Integration Framework 2.0."
+title: Get Dynamics 365 Channel Integration Framework 2.0 
+description: Use this article to get the download link and prerequisites for Dynamics 365 Channel Integration Framework 2.0.
 author: gandhamm
 ms.author: mgandham
-ms.topic: article
-ms.date: 03/12/2024
+ms.reviewer: mgandham
+ms.topic: how-to
+ms.date: 05/15/2025
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -12,18 +13,18 @@ ms.custom:
 
 # How to get Dynamics 365 Channel Integration Framework 2.0
 
-Dynamics 365 Channel Integration Framework 2.0 is available with Customer Service workspace and Omnichannel for Customer Service.
+Dynamics 365 Channel Integration Framework 2.0 is available with Copilot Service workspace and Omnichannel for Customer Service.
 
 More information:
 
-- [Customer Service workspace](../../../customer-service/implement/csw-overview.md)
-- [Provision Omnichannel for Customer Service](../../../customer-service/implement/omnichannel-provision-license.md).
+- [Copilot Service workspace](../../../customer-service/implement/csw-overview.md)
+- [Provision Omnichannel for Customer Service](/dynamics365/contact-center/implement/provision-channels).
 
 ## Prerequisites
 
-Identify the Dynamics 365 instance for which you want to use the Customer Service workspace or Omnichannel for Customer Service.
+Identify the Dynamics 365 instance for which you want to use the Copilot Service workspace or Omnichannel for Customer Service.
 
-### See also
+### Related information
 
 [Softphone integration sample code for Dynamics 365 Channel Integration Framework 2.0](sample-softphone-integration-v2.md)  
 [Prerequisites and system requirements for Omnichannel for Customer Service](../../../customer-service/implement/system-requirements-omnichannel.md)  

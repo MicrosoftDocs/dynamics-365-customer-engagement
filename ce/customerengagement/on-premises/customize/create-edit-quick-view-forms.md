@@ -2,12 +2,11 @@
 title: "Use quick view forms in Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps or create or edit a quick view form. This provides a template to view information about a related entity record within a form for another."
 ms.custom: 
-ms.date: 11/09/2018
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 author: Mattp123

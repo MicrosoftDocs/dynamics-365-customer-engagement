@@ -1,23 +1,22 @@
----
-title: "Send custom context during live chat| MicrosoftDocs"
-description: "Learn how you can send custom context to a chat session that can help decide the queue to which you must route the chat."
-ms.date: 01/20/2022
+﻿---
+title: Send custom context during live chat
+description: Learn how you can send custom context to a chat session that can help decide the queue to which you must route the chat.
+ms.date: 05/27/2026
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 # Send custom context during live chat
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 The custom context is a collection of key or value pairs. Only primitive values are allowed for any key. The keys must correspond to context variables that are created for the associated workstream. If no context variables have been created under live workstream with a matching logical name, variables are created at runtime assuming the type as String. The custom context provider would be invoked by the live chat widget when a new chat is started. Because the values are case-sensitive, use exact match to pass them to the context variables. More information: [Considerations for context variables](../administer/manage-context-variables.md#considerations)
 
 > [!IMPORTANT]
 >
-> - The [setContextProvider](reference/methods/setContextProvider.md) is supported only for unauthenticated chat. For authenticated chat, you must use the JSON Web Token (JWT). More information: [Send authentication tokens](send-auth-token-starting-chat.md)
+> - For authenticated chat, you can also pass context in the JSON Web Token (JWT). Learn more in [Send authentication tokens](send-auth-token-starting-chat.md).
 > - You can pass only 100 custom context variables during each chat session.
 
-When a customer starts a chat from the portal, you can pass custom context to Omnichannel for Customer Service. This custom context can be used to [display information on the user interface](display-custom-context.md) and to create routing rules that eventually determine the queue to which you must route the chats.
+When a customer starts a chat from the portal, you can pass custom context to Dynamics 365 Contact Center. This custom context can be used to [display information on the user interface](display-custom-context.md) and to create routing rules that eventually determine the queue to which you must route the chats.
 
 Follow these steps to send custom context when you start a chat:
 
@@ -29,11 +28,10 @@ Follow these steps to send custom context when you start a chat:
 
 ```JavaScript
 function contextProvider(){
-	//Here it is assumed that the corresponding work stream would have context variables with logical name of 'contextKey1', 'contextKey2', 'contextKey3'. If no context variable exists with a matching logical name, items are created assuming Type:string               
+	//Here it is assumed that the corresponding work stream would have context variables with logical name of 'contextKey1', 'contextKey2'. If no context variable exists with a matching logical name, items are created assuming Type:string               
 	return {
 			'contextKey1': 'contextValue1', // string value
-			'contextKey2': 12.34, // number value
-			'contextKey3': true // boolean value
+			'contextKey2': 12 // integer value
 	};
 }
 
@@ -56,7 +54,7 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 For information about how to display the context variables in Conversation summary, see [Display custom context](display-custom-context.md).
 
 
-### See also
+### Related information
 
 [setContextProvider](reference/methods/setContextProvider.md)  
 [getContextProvider](reference/methods/getContextProvider.md)  
@@ -65,3 +63,4 @@ For information about how to display the context variables in Conversation summa
 [Configure context variables for a bot](../administer/context-variables-for-bot.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -1,0 +1,74 @@
+---
+title:  Configure sentiment analysis for emails
+description: Learn how to configure sentiment for emails in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
+ms.date: 05/01/2026
+author: lalexms
+ms.author: laalexan
+ms.reviewer: laalexan
+ms.topic: how-to 
+ms.collection: 
+ms.custom: bap-template 
+---
+
+# Configure sentiment analysis for emails
+
+Email sentiment analysis helps customer service representatives and supervisors understand the tone of incoming customer email communications. The application uses natural language processing (NLP) and machine learning (ML) to analyze the sentiment expressed in customer emails.
+
+The application displays sentiment intensity indicators based on the content and tone of incoming customer emails. Email sentiment intensity is measured across seven levels: three positive, three negative, and one neutral. These levels help provide insight into customer sentiment.
+
+Email sentiment analysis supports multiple languages. The application uses the Microsoft Azure Text Translator API to translate and score emails written in more than 40 languages for sentiment. This capability enables comprehensive coverage of global customer communications.
+
+> [!NOTE]
+> - Non-English conversations are translated to English and then scored.
+> - Unsupported languages don't receive a sentiment score.
+> - If profanity is detected in English, the sentiment shows as Negative or Very negative.
+
+## Prerequisites
+
+You have the CSR Manager and System Administrator role to enable the feature.
+
+## Add connections and enable Power Automate flow
+
+1.  Go to make.powerapps.com.
+1.  In **Connection references**, add the following connection references:
+    - **Microsoft Copilot Studio EmailSentiment-aec03**  
+         :::image type="content" source="../media/copilot-studio-email-sentiment.png" alt-text="Image of Copilot Studio email sentiment connection reference" lightbox="../media/copilot-studio-email-sentiment.png":::
+
+    - **Microsoft Dataverse EmailSentiment-2869b**
+         :::image type="content" source="../media/dataverse-email-sentiment.png" alt-text="Image of Dataverse email sentiment connection reference" lightbox="../media/dataverse-email-sentiment.png":::
+      
+1.  Go to **Cloud flows** and turn on the **EmailSentiment** flow.  
+       :::image type="content" source="../media/email-sentiment-flow.png" alt-text="Image of EmailSentiment cloud flow" lightbox="../media/email-sentiment-flow.png":::
+    
+1.  Publish your changes.
+
+## Enable email sentiment analysis
+
+1. In the site map, go to **Email settings** > **Email sentiment**.
+1. Turn on the toggle for **Email sentiment**.
+1. Select **Save**.
+
+Turning on email sentiment enables sentiment analysis for incoming customer emails across your organization.
+
+After email sentiment is configured, sentiment is generated for incoming customer emails that meet the configured criteria.
+
+You can use the rule builder to define which incoming customer emails sentiment is generated for.
+
+## Configure sentiment analysis in inbox
+
+1. Go to **Support experience** > **Workspaces.**
+1. In **Workspaces**, select **Manage** for **Agent experience profiles**.
+1. Select **Customer Service workspace inbox-default profile**.
+1. Select **Edit** on the **Inbox** section.
+1. On the **Inbox settings** dialog, do the following:
+     1. Select **Inbox record types** and then select **Email**.
+     1. Select the ellipsis to add the **Sentiment** field and **Sentiment** icon. Learn more in [Custom card configuration](configure-inbox.md#custom-card-configuration).
+
+> [!IMPORTANT]
+> Email sentiment is automatically available on the out-of-the-box (OOB) email form and the enhanced email form.  
+>  
+> If your organization uses custom email forms, you must add the **Sentiment** field to the form to display sentiment.
+
+### Related information
+
+[View email sentiment](/power-apps/user/view-compose-email#view-email-sentiment)

@@ -2,15 +2,15 @@
 title: "Track your Outlook contacts using App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
 description: Track your Outlook contacts using App for Outlook.
 ms.custom: 
-ms.date: 05/20/2021
-ms.reviewer: jimholtz
+ms.date: 07/11/2025
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: how-to
 applies_to: Dynamics 365 apps
 caps.latest.revision: 1
-author: sidhartg
-ms.author: sidhartg
+author: bharavar 
+ms.author: bharavar 
 search.audienceType: 
   - admin
   - customizer
@@ -18,6 +18,9 @@ search.audienceType:
 ---
 
 # Track contacts
+
+> [!NOTE]
+> Starting October 1, 2025, the contact tracking feature in the Dynamics 365 App for Outlook isn't supported in the classic Outlook app. As an alternative, to track contacts, add them to Dynamics 365 Sales manually. Contact tracking isn't available in the new Outlook app. More information: [Deprecation of support for the contact tracking feature](/power-platform/important-changes-coming)
 
 Access your Outlook contacts and Dynamics 365 contacts and see which contacts are tracked. You can also link an Outlook contact to an account in your Dynamics 365 app.
 

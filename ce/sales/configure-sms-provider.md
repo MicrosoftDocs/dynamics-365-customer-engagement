@@ -1,17 +1,19 @@
 ---
 title: Configure SMS provider to send and receive text messages
 description: This article explains how to set up the SMS service provider with phone numbers in Dynamics 365 Sales.
-ms.date: 01/22/2024
+ms.date: 02/27/2026
 ms.topic: how-to
-author: udaykirang
-ms.author: udag
-ms.reviewer: udag
-ms.custom: bap-template
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
+ms.custom: 
+  - bap-template
+  - references_regions
 ---
 
 # Configure SMS provider
 
-This article explains how to set up the SMS service provider with phone numbers in Dynamics 365 Sales. 
+This article explains how to set up the SMS service provider with phone numbers in Dynamics 365 Sales.  
 
 Currently, the following providers are supported:
 
@@ -36,13 +38,13 @@ Currently, the following providers are supported:
     > [!NOTE]
     > You can purchase or reuse an existing SMS account to send text messages. **The integration works for all countries** in which a phone number can be purchased through Azure Communication Services, Infobip, LINK Mobility, Telesign, Twilio, or Vibes.
 
-2. [Set up the SMS provider in Dynamics 365 Sales](#set-up-the-sms-provider-in-dynamics-365-sales). 
+1. [Set up the SMS provider in Dynamics 365 Sales](#set-up-the-sms-provider-in-dynamics-365-sales). 
 
 ### Sign up for and configure Azure Communication Services subscription 
 
 Azure Communication Services (ACS) integration uses its API to send and receive text messages. You need to sign up for an Azure Communication Services account to enable the SMS integration. To create an Azure Communication Services account:dl
 
-1. Go to [Azure](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) and sign up for a "Pay as you go" account.
+1. Go to [Azure](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn) and sign up for a "Pay as you go" account.
 1. [Create a Communication Services resource](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp) and get a [toll-free number](/azure/communication-services/quickstarts/telephony/get-phone-number?tabs=windows&pivots=platform-azcli), a [short code](/azure/communication-services/quickstarts/sms/apply-for-short-code), or an [Alphanumeric Sender ID](/azure/communication-services/quickstarts/sms/enable-alphanumeric-sender-id).
 1. Go to your [Azure account homepage](https://ms.portal.azure.com/#home) and navigate to your resource through **Subscriptions** > **Resource groups** > **Resource name**.
 1. Go to **Keys** under **Settings** and note down the Primary and Secondary Connection String values. These values are required to create the integration between Dynamics 365 Sales and Azure Communication Services.
@@ -120,7 +122,7 @@ To set up the SMS provider number in Dynamics 365 Sales:
         | Description | (Optional) Specify a description for the number. |
         | Primary connection string | Enter the primary key connection string that is assigned to you when creating the Azure communication services account. |
         | Secondary connection string | Enter the secondary key connection string that is assigned to you when creating the Azure communication services account. |
-        | Delivery report callback URL | This delivery report URL helps in receiving a callback with delivery report. <br>Copy the provided URL and add this URL to your Azure Communication Services delivered subscription webhook for delivery report. |
+        | Delivery report callback URL | This delivery report URL helps in receiving a callback with delivery report. <br>Copy the provided URL and add this URL to your Azure Communication Services delivered subscription webhook for delivery report. Learn more at [handle SMS and delivery report events](/azure/communication-services/quickstarts/sms/handle-sms-events).|
         | Incoming callback URL | This callback URL is specific to your organization and is available when you add SMS support for your organization. <br>Copy the provided callback URL and add this URL to your Azure Communication Services received subscription webhook for receiving SMS replies. To know more about adding sender numbers, see [Add a sender number using the Azure Communication Services free trial preview (US only)](#add-a-sender-number-using-the-azure-communication-services-free-trial-preview-us-only). |
       
     - **For Infobip**:
@@ -227,7 +229,7 @@ Once you agree to the *Voice and text message terms* and select your country or 
 > [!TIP]
 > Carriers, just like email providers, have ways of filtering spam messages. This results in the phone number being blocked and becoming unusable. Due to carrier filtering, you should only use toll-free numbers for transactional messages (as opposed to promotional messages). You should avoid sending promotional content or misleading information. Promotional content includes free products or discount offers.
 
-### See also
+## Related information
 
 [Engage with customers through text messages](sms-intro.md)   
 [Edit phone numbers](edit-phone-numbers.md)

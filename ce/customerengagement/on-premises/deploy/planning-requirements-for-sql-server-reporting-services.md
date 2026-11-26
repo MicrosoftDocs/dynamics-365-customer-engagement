@@ -2,12 +2,11 @@
 title: "Planning requirements for SQL Server Reporting Services | Microsoft Docs"
 description: Learn about the requirements for reporting services with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
 
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: how-to
 applies_to: 
   - "Dynamics 365 (on-premises)"
 ms.assetid: 0477d5c9-ae75-45c7-b37d-4088e6928cfb

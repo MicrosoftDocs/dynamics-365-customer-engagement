@@ -1,10 +1,11 @@
 ---
-title: "lcw:ready | MicrosoftDocs"
+title: lcw:ready 
 description: lcw ready event (Omnichannel for Customer Service JavaScript API reference)
-ms.topic: article
-ms.date: 11/10/2021
+ms.topic: reference
+ms.date: 03/18/2025
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # lcw:ready event (Omnichannel for Customer Service JavaScript API reference)
@@ -23,7 +24,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 
 ```  
 
-### See also
+### Related information
 
 [lcw:startChat](lcw-startchat.md)   
 [lcw:closeChat](lcw-closechat.md)  

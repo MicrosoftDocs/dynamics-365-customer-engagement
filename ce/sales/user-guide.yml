@@ -8,10 +8,10 @@ metadata:
   services: service
   ms.topic: landing-page
   ms.collection: collection
-  author: udaykirang
-  ms.author: udag
-  ms.reviewer: udag
-  ms.date: 09/22/2023
+  author: lavanyakr01
+  ms.author: lavanyakr
+  ms.reviewer: lavanyakr
+  ms.date: 02/04/2026
 
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -39,7 +39,7 @@ landingContent:
             url: /powerapps/user/set-personal-options
 
 # Card 
-  - title: Sales premium
+  - title: Sales Insights capabilities
     linkLists:
        - linkListType: concept
          links:
@@ -59,6 +59,26 @@ landingContent:
             url: relationship-analytics.md
 
 # Card 
+  - title: Autonomous AI agents
+    linkLists:
+       - linkListType: concept
+         links:
+          - text: Sales Qualification Agent overview 
+            url: sales-qualification-agent.md
+          - text: Understand the Sales Qualification Agent concepts 
+            url: sales-qualification-agent-concepts.md
+          - text: Sales Opportunity Agent overview 
+            url: opportunity-research-agent.md
+       - linkListType: how-to-guide
+         links:
+          - url: use-sales-qualification-agent.md
+            text: Work on leads handed over by the Sales Qualification Agent 
+          - url: monitor-leads-by-sales-qualification-agent.md
+            text: Monitor leads handled by the Sales Qualification Agent 
+          - url: use-sales-opportunity-agent.md  
+            text: Work on opportunities handled by the Sales Opportunity Agent
+
+# Card 
   - title: Copilot
     linkLists:
        - linkListType: concept
@@ -69,10 +89,10 @@ landingContent:
             url: use-sales-copilot.md
        - linkListType: how-to-guide
          links:
-          - text: Compose and send email messages using Copilot
-            url: compose-send-email-copilot.md 
-          - text: View and copy email summary
-            url: view-copy-email-summary.md   
+          - text: Get information from Copilot
+            url: copilot-get-information.md   
+          - text: Stay ahead with Copilot 
+            url: copilot-stay-ahead.md            
 
 # Card 
   - title: Keep track of your customers
@@ -87,8 +107,12 @@ landingContent:
             url: /powerapps/user/add-activities
           - text: Send email using the enhanced email experience 
             url: /powerapps/user/enhanced-email
+          - text: View and understand a hierarchy
+            url: view-hierarchy-visualizations.md  
           - text: Understand organization charts 
             url: organization-charts.md
+          - text: Work with Outlook
+            url: ../outlook-app/dynamics-365-app-outlook-user-s-guide.md
 
 # Card 
   - title: Increase sales
@@ -107,6 +131,18 @@ landingContent:
             url: create-edit-opportunity-sales.md
           - text: Close opportunities as won or lost 
             url: ../sales-enterprise/close-opportunity-won-lost-sales.md
+
+# Card 
+  - title: LinkedIn integrations
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Integrate LinkedIn Sales Navigator 
+            url: linkedin/integrate-sales-navigator.md
+          - text: Data validation capabilities of LinkedIn Sales Navigator
+            url: linkedin/data-validation.md
+          - text: Understand LinkedIn Sales Insights
+            url: understand-lsi-accounts-form.md
 
 # Card 
   - title: Create and work with collateral
@@ -145,7 +181,7 @@ landingContent:
             url: print-records.md
 
 # Card 
-  - title: Create a marketing campaign 
+  - title: Marketing and mobile apps
     linkLists:
        - linkListType: how-to-guide
          links:
@@ -161,12 +197,6 @@ landingContent:
             url: add-activity-campaign-using-app-marketing-sales.md
           - text: Track a marketing campaign response 
             url: track-marketing-campaign-response-using-app-marketing-sales.md
-
-# Card 
-  - title: Dynamics 365 Sales mobile app
-    linkLists:
-       - linkListType: how-to-guide
-         links:
           - text: Overview of the mobile app 
             url: sales-mobile/prereq-sales-mobile.md
           - text: Install the app on iOS and Android 
@@ -177,14 +207,6 @@ landingContent:
             url: sales-mobile/learn-basics-mobile-app.md
 
 # Card 
-  - title: Work with Outlook
-    linkLists:
-       - linkListType: how-to-guide
-         links:
-          - text: Dynamics 365 App for Outlook User Guide 
-            url: ../outlook-app/dynamics-365-app-outlook-user-s-guide.md
-
-# Card 
   - title: Get better sales intelligence
     linkLists:
        - linkListType: concept
@@ -193,3 +215,4 @@ landingContent:
             url: ../versium-predict/versium-predict.md
           - text: Get sales Insights, powered by InsideView 
             url: ../insights-insideview/insights-powered-by-insideview.md
+
