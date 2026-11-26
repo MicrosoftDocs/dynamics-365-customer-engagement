@@ -1,7 +1,7 @@
 ---
 title: Monitor and supervise autonomous agents
 description: As supervisors, monitor AI agent activities in your Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 06/27/2026
+ms.date: 11/25/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -9,6 +9,7 @@ ms.reviewer: nenellim
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Monitor and supervise autonomous agents
@@ -66,7 +67,7 @@ The Agent Supervisor view surfaces autonomous agent-specific fields that help su
 
 Add the autonomous agent-specific fields to other case views to monitor agent execution, communications, and escalations across your case management experience.
 
-### Related information
+## Related information
 
 [Set up Case Management Agent to create and update cases](../administer/set-up-autonomous-case-agents.md)  
 [Configure autonomous agent monitoring](../administer/configure-agent-feed.md)  
