@@ -6,9 +6,10 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 02/20/2026
+ms.date: 11/25/2026
 ms.update-cycle: 180-days
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 
@@ -20,6 +21,7 @@ Autonomous case resolution identifies intent from an incoming email, automatical
 
 - Autonomous case resolution is configured. Learn more in [Set up Case Management Agent to resolve cases](../administer/set-up-case-resolution-agent.md).
 - [Customer Intent Agent](/dynamics365/contact-center/administer/manage-customer-intent-agent) is configured.
+- If you want to change the automation level, you must be a supervisor with the appropriate permissions.
 
 ## Use Case Management Agent to resolve case
 
@@ -49,4 +51,25 @@ Autonomous case resolution identifies intent from an incoming email, automatical
 
 --- 
 
+## Change automation level for case
+
+As a supervisor, you can use the **Edit AI Automation** option to change the case resolution automation level for an individual case or multiple cases in real time. For example, you can change a case from fully autonomous resolution to semi-autonomous resolution when you want a service representative to review responses before they're sent to the customer.
+
+The available automation levels support the following behaviors:
+
+| Automation level | Case resolution behavior |
+|----------|-------------|
+| Fully autonomous | Case Management Agent handles case resolution automatically, including sending email responses to the customer. |
+| Semi-autonomous | Case Management Agent drafts email responses for a service representative to review and send. |
+| Disabled | Case Management Agent doesn't draft or send new case resolution email responses. |
+
+If you change the automation level while Case Management Agent is performing an action, that action completes. Subsequent case resolution actions use the newly selected level. Changing the level doesn't undo actions the agent already completed.
+
+> [!IMPORTANT]
+> **Edit AI Automation** settings apply only to case resolution. They don't change automation for case follow-up and closure or other Case Management Agent capabilities.
+
 [!INCLUDE[review-agent-activity](../../includes/review-agent-activity.md)]
+
+## Related information
+
+[Monitor and supervise autonomous agents](supervise-ai-agents.md)

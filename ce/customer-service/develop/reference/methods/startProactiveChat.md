@@ -22,7 +22,7 @@ ms.reviewer: mgandham
 | Parameter | Type | Required | Description |
 | ---- | ---- | ---- | ---- |
 |`notificationUIConfig`| Object | Yes | Allows you to pass UI configurations for proactive chat notification. This object lets you customize the notification, including the message to be displayed. |
-|`showPrechat`| Boolean | No | Boolean flag to indicate whether prechat is shown if configured for the widget. The default value is `true`. |
+|`showPrechat`| Boolean | No | Boolean flag to indicate whether prechat survey is shown if configured for the widget. The default value is `false`. |
 |`inNewWindow`|Boolean|No|Decides whether to open the chat in a new window. This parameter resides within an options object.|
 
 > [!IMPORTANT]
