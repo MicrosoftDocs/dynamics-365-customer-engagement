@@ -1,7 +1,7 @@
 ---
 title: Manage representative presence status and availability
 description: Learn how to manage presence status in Dynamics 365 Contact Center, including defaults, capacity updates, and routing behavior.
-ms.date: 10/16/2026
+ms.date: 11/27/2026
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -117,7 +117,7 @@ When the representative sets the presence manually as **Do not disturb**, **Offl
     - Experiences internet disruption.
 
 > [!NOTE]
-> Microsoft Edge and Google Chrome can put inactive tabs to sleep to save memory. When the Copilot Service workspace tab goes to sleep, the system treats this action as a disconnection. As a result, a presence status that the representative set manually, such as **Appear away** during a break, can change. To prevent this action, add your Copilot Service workspace URL to the list of sites that the browser keeps active. Follow the browser documentation for the setting. Administrators can use browser policies to apply this setting to all representatives.
+> The browser-specific settings might put inactive tabs to sleep to save memory. When the Copilot Service workspace tab goes to sleep, the system treats this action as a disconnection. As a result, a presence status that the representative set manually, such as **Appear away** during a break, can change. To prevent this action, add your Copilot Service workspace URL to the list of sites that the browser keeps active. Follow the browser documentation for the setting. Administrators can use browser policies to apply this setting to all representatives.
 
 ## How capacity affects presence
 
@@ -138,6 +138,14 @@ However, if the representative has manually set one of the following presence st
 - Offline
 - Away
 - Do not disturb
+
+## How presence is updated during wrap-up activity
+
+If your administrator configured blocking of capacity for [wrap-up activities](../administer/create-workstreams.md#configure-work-distribution), after you end the conversation, a wrap-up timer starts under the visitor or customer name on the Communication panel. Your presence status changes to **Busy - After Conversation Work** or **DND - After Conversation Work** depending on your capacity use.
+
+For example, if a representative's capacity is five work items and the representative is engaged in five ongoing conversations, the presence is **Do not disturb**. The representative finishes one conversation and enters the wrap up stage. The presence status remains as **Do not disturb** because they still have four ongoing conversations and one conversation in wrap-up with presence in **Do not disturb - After conversation work**. The system can't assign new conversations. After the representative wraps up and closes the conversation, the presence changes to **Busy**. The total remaining conversations are four. If the representative ends one more conversation and enters the wrap-up state, the presence status becomes **Busy - After Conversation work**. The system can assign new conversations if the presence status matches the allowed presence statuses defined for the workstream.
+
+Representatives can view the status in the [Omnichannel Representative Dashboard](oc-agent-dashboard.md). Supervisors can view the [Agent report](realtime-agents-analytics.md) in Omnichannel real-time dashboards to get the presence status and capacity information.
 
 ## How presence is updated on transfer of a work item
 
