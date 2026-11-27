@@ -2,7 +2,7 @@
 title: Knowledge article and search term analytics dashboards
 description: Learn about the knowledge article and search term analytics dashboards to better understand customer service representative performance in your organization.
 ms.topic: concept-article
-ms.date: 07/29/2026
+ms.date: 11/27/2026
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -92,7 +92,7 @@ Use the Timezone option available in the reports to view the  time information a
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-You can view this report if your administrator enabled the **Customer Knowledge Management Agent (preview)** and enabled the **Real-time creation** and **Creation from historical cases** options. Learn more in [Manage Customer Knowledge Management Agent](../administer/admin-km-agent.md#manage-customer-knowledge-management-agent).
+You can view this report if your administrator enabled the **Customer Knowledge Management Agent** and enabled the **Real-time creation** and **Creation from historical cases** options. Learn more in [Manage Customer Knowledge Management Agent](../administer/set-up-customer-knowledge-management-agent.md).
 
 ### Related information
 
