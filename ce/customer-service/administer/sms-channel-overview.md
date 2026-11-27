@@ -5,36 +5,37 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: overview 
-ms.date: 05/04/2026
+ms.date: 11/26/2026
 ms.custom: bap-template 
+ai-usage: ai-assisted
 ---
 
 # Overview of SMS channels
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-The SMS channel in the application allows your organization to connect to customers via text messages. Your customers can send text messages and connect with an appropriate customer service representative (service representative or representative). Service representatives can view incoming SMS requests on their dashboard and respond accordingly. While service representatives can't send messages, the application supports outbound messaging via Power Automate flows. Learn more in [Configure outbound messaging](../administer/outbound-messaging.md).
+Use the SMS channel to connect customers with customer service representatives (service representatives or representatives) through text messages. Representatives can view incoming SMS requests on their dashboard and respond. While service representatives can't send messages, the application supports outbound messaging through Power Automate flows. Learn more in [Configure outbound messaging](../administer/outbound-messaging.md).
 
-The following scenarios are supported for SMS:
+The SMS channel supports the following scenarios:
 
 - Service representatives can receive SMS conversations from customers and then exchange messages.
-- Admins can configure Power Automate flows to proactively send outbound messages such as campaigns to customers.
+- Administrators can configure Power Automate flows to send outbound messages, such as campaigns, to customers.
 
-Service representatives can't proactively reach out to customers by starting an SMS conversation in the app used by the representatives.
+Service representatives can't start an SMS conversation with a customer in the app.
 
-You can use the same toll-free phone number from Azure Communications Services for the SMS channel, and for inbound and outbound calling in the voice channel.
+You can use the same Azure Communication Services toll-free phone number for SMS and for inbound and outbound calls in the voice channel.
 
 Learn more about numbers and eligibility in [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
 
-For the best SMS delivery experience, we recommend that you submit a toll-free verification application for your toll-free numbers. Learn more about the verification process in [How do I submit a toll-free verification?](/azure/communication-services/concepts/sms/sms-faq#toll-free-verification).
+For the best SMS delivery experience, submitting a toll-free verification application for your toll-free numbers is recommended. Learn more in [How do I submit a toll-free verification?](/azure/communication-services/concepts/sms/sms-faq#toll-free-verification).
 
 ## Supported SMS channels
 
-In the application, you can configure the following SMS channels:
+You can configure the following SMS channels:
 
-- SMS channel using Azure Communication Services
-- SMS channel for Twilio
-- SMS channel for Infobip
+- SMS channel using Azure Communication Services.
+- SMS channel for Twilio.
+- SMS channel for Infobip.
 
 > [!NOTE]
 > SMS isn't supported with Azure direct routing. Learn more in [Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing).
@@ -45,7 +46,7 @@ In the application, you can configure the following SMS channels:
 [Configure SMS channel for Twilio](Configure-sms-channel-twilio.md)  
 [Configure SMS channel for Infobip](/dynamics365/contact-center/administer/configure-sms-channel-infobip)  
 
-### Related information
+## Related information
 
 [Channels](../use/channels.md)  
 [SMS FAQ](faqs.md#sms)  
