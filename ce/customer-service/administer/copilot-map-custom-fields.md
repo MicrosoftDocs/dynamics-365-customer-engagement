@@ -1,54 +1,55 @@
 ---
-title: Manage case and custom record summary
-description: Learn how to create and edit case and custom summary records. 
+title: Manage case and custom record summaries
+description: Learn how to configure the data, related records, and format Copilot uses to summarize cases and custom records.
 author: gandhamm 
 ms.author: mgandham 
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 01/19/2026
+ms.date: 11/26/2026
 ms.update-cycle: 180-days
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:10/13/2023
+ai-usage: ai-assisted
 ---
 
-# Manage case and custom record summary
+# Manage case and custom record summaries
 
-You can create tailored summaries for cases and custom records to help your representatives quickly access essential information. Summaries streamline workflows and improve customer service efficiency. 
+Configure summaries for cases and custom records to help service representatives find essential information.
 
 You can customize case and custom record summaries as follows:
 
-- Select existing record types (for example, accounts, work orders, tickets) for summaries.
+- Select existing record types (for example, accounts, work orders, and tickets) for summaries.
 - Define record types in natural language for better summary generation.
-- Choose specific data fields for including and describing them in natural language.
+- Choose which data fields to include and describe them in natural language.
 - Allow representatives to access summaries on demand from relevant forms for the latest status updates.
 - Incorporate data from related records and customize how summaries appear to your service representatives.
 
 ## Configure case and custom record summaries
 
-In Copilot Service admin center, perform the following steps to select your preferred format:
+In Copilot Service admin center, open the configuration wizard:
 
 1. Use one of the following navigation options:
-    - **Agent Experience** > **Productivity** > **Summaries**
-    - **Operations** > **Insights** > **Summaries**
+    - **Agent Experience** > **Productivity** > **Summaries**.
+    - **Operations** > **Insights** > **Summaries**.
 
-1. You can access the configuration wizard using one of the following options:
-     - Select **Manage data** link in **Case summaries**, to edit the default case summary record.
+1. Open the configuration wizard using one of the following options:
+     - Select **Manage data** in **Case summaries** to edit the default case summary record.
      - Select **Add new summary** in **Custom record summaries** to create a new summary record. You can also select **Edit** to modify an existing summary record. 
 
-1. The configuration wizard has the following panes. Specify the required information in each pane and select **Next** to navigate to the next pane to complete the configuration.
+1. Configure the following panes as described in this article. Select **Next** to move between panes.
 
-    - Specify record type
-    - Specify data
-    - Include related record summary
-    - Manage summary format
+    - **Specify record type**.
+    - **Specify data**.
+    - **Include related record summary**.
+    - **Manage summary format**.
 
 ## Specify record type
 
-The first pane that appears in the configuration wizard. Specify the record type to summarize and provide information to help representatives and Copilot understand the record type of the summary. 
+In the **Specify record type** pane, select the record type to summarize and provide information to help service representatives and Copilot understand it.
 
 - **Summary name**: Enter a name for the summary that's used for identifying it in the summaries list.
 - **Record type**: Select the record type to summarize. 
@@ -57,19 +58,20 @@ The first pane that appears in the configuration wizard. Specify the record type
 
 > [!NOTE]
 > You can modify the **Description of record type** and **Choose summary verbosity** fields only when you edit the default case summary record.
+
 Select **Next** to go to the next pane. 
 
 ## Specify data
 
-The second pane that appears in the configuration wizard. Specify the fields that Copilot must use to generate the summary. 
+In the **Specify data** pane, select the fields that Copilot uses to generate the summary.
 
 1. Select **Add data** and enter the following details. Repeat the steps to add as many rows as required. By default, the rows you add are considered for summarization. Clear the **Include** checkbox for rows you don’t want to be considered. 
    1. **Data type**:
-      - **1-to-1** To map with the record. You can map up to 10 selections.
-      - **1-to-many** to map relationships for related activities or entities. For the **1-to-1** attribute, you can have a maximum of 10 selections. For the **1-to-many** attribute, you can have a maximum of six selections and up to three related entities.
+      - **1-to-1**: Map fields from the record. You can have up to 10 selections.
+      - **1-to-many**: Map relationships for related activities or tables. You can have up to six selections and up to three related tables.
    1. **Record type or activity**: Select the record type or activity.
    1. **Data field**: Select the data field from the record type or activity.
-1. Select **Next** to go to the next field.
+1. Select **Next** to go to the next pane.
 
 > [!NOTE]
 > Make sure to add at least one **1-to-1** data type for case summaries.
@@ -78,7 +80,7 @@ The second pane that appears in the configuration wizard. Specify the fields tha
 
 ### Manage fields Copilot uses for case summaries 
 
- Copilot uses the following fields to generate case summaries, for the default case summary record. When you're modifying the default fields, make sure that at least one of the fields among the first seven must remain enabled.
+Copilot uses the following fields to generate summaries for the default case summary record. Keep at least one of these fields enabled: **Customer**, **Case Title**, **Case Type**, **Subject**, **Case Description**, **Product**, or **Priority**.
 
 - Customer
 - Case Title
@@ -94,19 +96,19 @@ The second pane that appears in the configuration wizard. Specify the fields tha
 ### Things to consider
 
 - For Copilot to generate a summary, make sure that the Customer Service Representative or custom role has the read permission configured for the related entities.
-- Agents must have the `prvReadProduct` privilege to generate a summary that contains the **Product** field.
+- Service representatives must have the `prvReadProduct` privilege to generate a summary that contains the **Product** field.
 - You can set Case Notes to a custom entity that is related to the **Case** table.
 - You can't modify the **Email Content**  and **Conversation Summary** values that Copilot uses to generate case summaries. 
 
 ## Include related record summary
 
-The third pane that appears in the configuration wizard and is an optional configuration. You can enhance your case management system by including summaries of related records within case summaries and custom record summaries. Customer support representatives get comprehensive context navigating to multiple records individually, saving time, and improving efficiency.
+In the optional **Include related record summary** pane, add summaries of related records to case and custom record summaries. These summaries give service representatives context without opening each record individually.
 
 Perform the following steps to configure related record summaries:
 
 1. In the **Include related record summary** pane, select the **Include related records as part of the summarization output** checkbox to enable Copilot to generate related record summaries.
-1. Specify the following information: 
-    - **Select related record**: Select the related record type you want to include in the summary such as case, account.
+1. Specify the following information:
+    - **Select related record**: Select the related record type to include, such as case or account.
     - **Select related record field that references the parent**: Specify the field on the related record that establishes the relationship with the base entity. The field contains a reference to the base record. 
     - **Select a summary configuration to use**:  Select which pre-configured custom record summary Copilot must use to generate the related record summary. You can specify an existing summary record with different data configurations, formatting options, and summary lengths or select the **Go to custom record summary section** to create a new summary record to use.
     - **Prioritize related record by**: Select a field to determine the display order of related records. This is usually a date or time field such as "Modified Date". Related record summaries are ordered based on the field with the most recent record displayed first.
@@ -134,7 +136,7 @@ You can customize the format of case and custom record summaries using two forma
 1. Select the format you want to use for case summaries:
    - **Paragraph**: Presents the summary in a single paragraph.
    - **Structured**: Presents the summary in a structured manner, with each field appearing in a separate line. Structured format is more readable and helps service representatives quickly find the information they need.
-1. When you select the **Structured** format, you can also specify up to five custom headers to organize summary information. By default, the headers are **Issue**, **Troubleshooting steps**, **Outcome**, **Error code**, and **Root cause**. You can perform the following actions:
+1. When you select the **Structured** format, you can also specify up to five custom headers to organize summary information. By default, the headers are **Issue**, **Troubleshooting steps**, **Outcome**, **Error code**, and **Root cause****.** You can perform the following actions:
 
    - Select **Edit** to modify the header title and the information to be summarized by Copilot.
    - Select **Delete** to remove the header.
@@ -149,6 +151,6 @@ You can customize the format of case and custom record summaries using two forma
 
    :::image type="content" source="../media/format-case-summary.png" alt-text="Screenshot of Copilot case summary.":::
 
-### Related information
+## Related information
 
 [Enable case summaries](copilot-enable-summary.md#enable-case-summaries)  

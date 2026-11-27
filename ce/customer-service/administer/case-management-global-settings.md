@@ -7,19 +7,20 @@ ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
 ms.update-cycle: 180-days 
-ms.date: 05/27/2026
+ms.date: 11/26/2026
 ms.custom: bap-template
+ai-usage: ai-assisted
 ---
 
 # Configure Case Management Agent 
 
-Case Management Agent enables organizations automate the entire case lifecycle, including creation, updates, resolution, follow-up, and closure. Case Management Agent includes configurable flows that you can combine for a seamless end-to-end process or configure them individually to address specific stages of the case lifecycle.
+Use Case Management Agent to automate case creation, updates, resolution, follow-up, and closure. Configure capabilities individually or combine them into an end-to-end process.
 
-**Case creation and update**: The agent processes incoming customer requests to create comprehensive case records. It automatically extracts key details to populate relevant fields and updates case data as new information is received.
+**Case creation and update**: The agent extracts key details from incoming customer requests to create case records and updates case data as it receives new information.
 
-**Case resolution**: The agent analyzes case context and organizational knowledge bases to generate accurate resolution steps, surface relevant resources, and draft tailored customer responses.
+**Case resolution**: The agent analyzes case context and your organization's knowledge bases to generate resolution steps, suggest relevant resources, and draft customer responses.
 
-**Case follow-up and closure**: The agent manages the post-resolution cadence. It generates follow-up communications to ensure customer satisfaction, creates concise case summaries for future reference, and automatically closes the case once all requirements are met.
+**Case follow-up and closure**: The agent generates follow-up communications and case summaries, and automatically closes the case when all requirements are met.
 
 ## Prerequisites
 
@@ -32,35 +33,35 @@ Case Management Agent enables organizations automate the entire case lifecycle, 
 
 ## Set up Case Management Agent
 
-The AI agent requires a dedicated application user to send emails and resolve cases autonomously. This application user handles all email communications on behalf of your organization. Do the steps in the following sections in the order specified.
+The AI agent requires a dedicated application user to send emails and resolve cases autonomously. This application user handles all email communications on behalf of your organization. Complete the steps in the following sections in order.
 
-The global settings, such as connection references or Power Automate flows, appear on the **Case Management Agent** page with the current status under the **Prerequisites** section. Use the options to quickly navigate to the settings that need to be configured for Case Management Agent. You can navigate to the **Case Management Agent** page as follows:
+On the **Case Management Agent** page, the **Prerequisites** section shows global settings, such as connection references and Power Automate flows, and their current status. Use these options to open settings that need configuration. To open the **Case Management Agent** page:
 
 1. Select **Case settings** in **Customer support**.
-1. Select **Manage** for **Case Management Agent** on the **Case Settings** page. 
+1. Select **Manage** for **Case Management Agent** on the **Case Settings** page.
 
-Select **Manage** for the required flow you want to configure.
+Select **Manage** for the flow you want to configure.
 
 ## Determine the level of automation
 
 For case resolution and follow-up, you can configure the agent to function in one of the following modes:
 
-- **Semi-autonomous (Human-in-the-loop)**: The AI agent acts as an assistant. It suggests resolutions and drafts follow-up emails, which a customer service representative (service representative or representative) must review and approve.
+- **Semi-autonomous (human-in-the-loop)**: The AI agent suggests resolutions and drafts follow-up emails, which a customer service representative (service representative or representative) must review and approve.
 
 - **Fully autonomous**: The agent performs end-to-end actions without human intervention.
 
 
 ## Configure individual capabilities
 
-| Feature Area | Operational Mode | Description | Prerequisites | Learn more |
+| Feature area | Operational mode | Description | Prerequisites | Learn more |
 | :--- | :--- | :--- | :--- | :--- |
-| **Case Creation and Update** | - | Manage how the agent assists service representatives during the initial intake and continuous updating of case records. | Guided Setup | [Set up Case Management Agent for case creation and update](set-up-autonomous-case-agents.md) |
-| **Case Resolution** | Semi-autonomous | AI agent suggests resolutions and drafts emails for service representative review. | Guided Setup | [Set up Case Management Agent to resolve cases](set-up-case-resolution-agent.md) |
-| **Case Resolution** | Fully autonomous | AI agent automatically resolves cases and emails, based on defined logic. | Guided Setup, Application User, Shared Mailbox | [Set up Case Management Agent to resolve cases](set-up-case-resolution-agent.md) |
-| **Case Follow-up and Closure** | Semi-autonomous | AI suggests follow-up actions and drafts closure summaries for agent review. | Guided Setup | [Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md) |
-| **Case Follow-up and Closure** | Fully autonomous | AI handles the complete follow-up cadence and case closure automatically. | Guided Setup | [Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md) |
+| **Case creation and update** | - | Manage how the agent assists service representatives with creating and updating case records. | Guided setup | [Set up Case Management Agent for case creation and update](set-up-autonomous-case-agents.md) |
+| **Case resolution** | Semi-autonomous | The AI agent suggests resolutions and drafts emails for service representative review. | Guided setup | [Set up Case Management Agent to resolve cases](set-up-case-resolution-agent.md) |
+| **Case resolution** | Fully autonomous | The AI agent automatically resolves cases and handles emails based on defined logic. | Guided setup, application user, shared mailbox | [Set up Case Management Agent to resolve cases](set-up-case-resolution-agent.md) |
+| **Case follow-up and closure** | Semi-autonomous | The AI agent suggests follow-up actions and drafts closure summaries for service representative review. | Guided setup | [Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md) |
+| **Case follow-up and closure** | Fully autonomous | The AI agent handles follow-up and case closure automatically. | Guided setup | [Set up Case Management Agent for case follow-up and closure](set-up-case-closure.md) |
 
-### Next steps
+## Next steps
 
 [Set up Case Management Agent to create and update cases](set-up-autonomous-case-agents.md)  
 [Set up Case Management Agent to resolve cases](set-up-case-resolution-agent.md)  

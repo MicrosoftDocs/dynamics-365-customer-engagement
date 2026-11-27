@@ -1,79 +1,77 @@
 ---
 title: Close conversations automatically
-description: Use this article to understand how to configure the auto-close duration of conversations in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
-ms.date: 04/28/2026
+description: Learn how to configure automatic conversation closure in Dynamics 365 Customer Service and Dynamics 365 Contact Center.
+ms.date: 11/26/2026
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.custom: bap-template
 ms.collection:
+ai-usage: ai-assisted
 ---
 # Close conversations automatically
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-A default time is set for the conversations to close automatically in the contact center. That is, if a conversation in a certain stage remains in the stage for more than the default time, then the conversation is moved to the closed state. Conversations achieve closure, allowing customer service representatives to focus on other tasks, enhancing productivity.
+Conversations can close automatically after they remain in a state longer than the configured duration. Automatic closure lets customer service representatives focus on other tasks.
 
-The scheduler checks conversations every 5 minutes to identify conversations that don't transition for more than the default configured time. Such conversations become eligible for automatic closure, so the next time the scheduler runs, the conversations are moved from the existing state to the **Closed** state.
+The scheduler checks conversations every 5 minutes to identify those that remain in a state longer than the configured duration. These conversations become eligible for automatic closure and move to the **Closed** state the next time the scheduler runs.
 
 > [!IMPORTANT]
-> - The scheduler checks the [modifiedon](../../developer/reference/entities/msdyn_ocliveworkitem.md#BKMK_msdyn_modifiedon) field in [Conversation (msdyn_ocliveworkitem) table](../../developer/reference/entities/msdyn_ocliveworkitem.md) to identity the conversations that are eligible for automatic closure.
-> - To avoid inaccurate statuses, we recommend that you don't change the conversation state and status reason by manually updating the records in Microsoft Dataverse.
-> - For any actions performed on the conversations such as monitor, consult, or transfer, the scheduler automatically recalculates the time to close the conversation.
+> - The scheduler checks the [`modifiedon`](../../developer/reference/entities/msdyn_ocliveworkitem.md#BKMK_msdyn_modifiedon) field in the [Conversation (`msdyn_ocliveworkitem`) table](../../developer/reference/entities/msdyn_ocliveworkitem.md) to identify conversations that are eligible for automatic closure.
+> - To avoid inaccurate statuses, don't manually update conversation state and status reason values in Microsoft Dataverse.
+> - When you perform actions on a conversation, such as monitoring, consulting, or transferring, the scheduler recalculates the time to close it.
 
-### Default time for automatic closure of conversations
+## Default time for automatic closure of conversations
 
-All channels have different default configured time after which conversations can be moved to the **Closed** state. However, the exact time at which the scheduler runs is dependent on the contact center deployment time in your region. For more information, contact Microsoft Support.
+The default duration before automatic closure varies by channel. The exact time the scheduler runs depends on the contact center deployment time in your region. For more information, contact Microsoft Support.
 
-The following table describes the channel, status reason, and default configured time.
+The following table lists the default duration and behavior for each channel and status reason.
 
  | Channel | Existing status reason | Default configured time | Description |
  |--------------------|-------|-------------|--------------------------------------|
- | Chat | Open |  20 min   | For a chat channel, a conversation in the **Open** state for more than 20 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
- | Chat | Active | None | For a chat channel, a conversation in the Active state isn't automatically closed. |
- | Chat | Wrap-up | 15 minutes | For a chat channel, a conversation that is in the **Wrap-up** stage for more than 15 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
- |  |  |  |  |
- | Records (Case) | Open | None | For a records (case) channel, a conversation that's **Open** is closed if the corresponding record is deleted. |
- | Records (Case) | Active | None | For a records (case) channel, a conversation that's  **Active** is closed if the corresponding record is deleted. |
- |  |  |  |  |
-| Voice | Open |  30 days   | The conversation is eligible for automatic closure after the default time, 30 days, elapses. The conversation is moved from the **Open** to **Closed** state when the scheduler runs after the elapsed time.|
- | Voice | Active | Two hours | The conversation is eligible for automatic closure after the default time, 2 hours, elapses. The conversation is moved from the **Active** to **Wrap-up** state when the scheduler runs after the elapsed time. |
- | Voice | Wrap-up | One day | The conversation is eligible for automatic closure after the default time, one day, elapses. The conversation is moved from the **Wrap-up** to **Closed** state when the scheduler runs after the elapsed time. |
- |  |  |  |  |
- | SMS, Teams, persistent chat, and social | Open | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, persistent chat, or a social channel&mdash;a conversation that's in the **Open** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
- | SMS, Teams, and social | Active | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, or a social channel&mdash;a conversation that's in the **Active** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Active** to the **Closed** state. |
- | SMS, Teams, persistent chat, and social | Wrap-up | One day | In an asynchronous channel&mdash;such as SMS, Teams, persistent chat, or a social channel&mdash;a conversation that's in the **Wrap-up** state for more than one day is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
+ | Chat | Open | 20 minutes | A conversation in the **Open** state for more than 20 minutes is eligible for automatic closure. It moves to the **Closed** state the next time the scheduler runs. |
+ | Chat | Active | None | A conversation in the **Active** state isn't automatically closed. |
+ | Chat | Wrap-up | 15 minutes | A conversation in the **Wrap-up** state for more than 15 minutes is eligible for automatic closure. It moves to the **Closed** state the next time the scheduler runs. |
+ | Records (Case) | Open | None | An **Open** conversation closes if the corresponding record is deleted. |
+ | Records (Case) | Active | None | An **Active** conversation closes if the corresponding record is deleted. |
+ | Voice | Open | 30 days | After 30 days, the conversation moves from **Open** to **Closed** when the scheduler runs. |
+ | Voice | Active | Two hours | After two hours, the conversation moves from **Active** to **Wrap-up** when the scheduler runs. |
+ | Voice | Wrap-up | One day | After one day, the conversation moves from **Wrap-up** to **Closed** when the scheduler runs. |
+ | SMS, Teams, persistent chat, and social | Open | 30 days | A conversation in the **Open** state for more than 30 days is eligible for automatic closure. It moves to the **Closed** state the next time the scheduler runs. |
+ | SMS, Teams, and social | Active | 30 days | A conversation in the **Active** state for more than 30 days is eligible for automatic closure. It moves to the **Closed** state the next time the scheduler runs. |
+ | SMS, Teams, persistent chat, and social | Wrap-up | One day | A conversation in the **Wrap-up** state for more than one day is eligible for automatic closure. It moves to the **Closed** state the next time the scheduler runs. |
 
-### Conversation in waiting
+## Conversation in waiting
 
-A conversation in **Waiting** is moved to the **Closed** state when the conversation is inactive for a specified time. The inactive time can be set in the workstream for the **Auto-close after inactivity** option, based on which the conversation will be moved to the closed state after the criteria is met.
+A conversation in **Waiting** moves to the **Closed** state after a specified period of inactivity. Set this duration in the workstream's **Auto-close after inactivity** option.
 
 For example, when you set **Auto-close after inactivity** to 5 minutes, the conversation is moved to the **Closed** state if it's in **Waiting** for more than 5 minutes.
 
 > [!NOTE]
-> The **Auto-close after inactivity**  option is available for persistent chat, SMS, social, and Microsoft Teams channels only.
+> The **Auto-close after inactivity** option is available for persistent chat, SMS, social, and Microsoft Teams channels only.
 
 Learn more in [Create a workstream](create-workstreams.md).
 
-### Close conversations using Power Apps
+## Close conversations using Power Apps
 
-You can configure the auto-close duration of a conversation in Power Apps by performing the following steps:
+To configure the automatic closure duration in Power Apps:
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 
-2. Select **Tables**, and then select **Channel State Configuration** table.
+1. Select **Tables**, and then select the **Channel State Configuration** table.
 
-3. Select **Edit**, and in **Auto close conversation after** column, set the auto-close duration.
+1. Select **Edit**, and set the duration in the **Auto close conversation after** column.
 
 > [!NOTE]
-> Make sure that you have write privileges to edit the table. Learn more in [security roles and privileges - Power Platform](security-roles.md).
+> You need write privileges to edit the table. Learn more in [Security roles and privileges](security-roles.md).
 
-### Close conversations using API
+## Close conversations using API
 
-Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. Learn more in [Configure automatic closure of conversations using web API](../develop/auto-close-conversation.md).
+Use the Web API to change the default duration to meet your organization's requirements. Learn more in [Configure automatic closure of conversations using Web API](../develop/auto-close-conversation.md).
 
-### Related information
+## Related information
  
 [Understand conversation states](../use/oc-conversation-state.md)
 
