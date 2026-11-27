@@ -580,7 +580,13 @@
             href: configure-email-resolution.md
       - name: Customer Knowledge Management Agent
         items:
-        - name: Manage Customer Knowledge Management Agent
+        - name: Set up Customer Knowledge Management Agent
+          href: set-up-customer-knowledge-management-agent.md
+        - name: Create and manage knowledge article automation plans
+          href: create-manage-article-automation-plan.md
+        - name: View the Customer Knowledge Management Agent dashboard
+          href: monitor-customer-knowledge-management-agent-activity.md
+        - name: Manage Customer Knowledge Management Agent (classic experience)
           href: admin-km-agent.md
     - name: Chat
       items:

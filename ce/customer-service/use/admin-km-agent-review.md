@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection: 
-ms.date: 06/26/2026
+ms.date: 11/27/2026
 ms.custom: bap-template
 ---
 
@@ -31,4 +31,4 @@ You can review knowledge articles created by the Customer Knowledge Management A
 
 ## Related information
 
-[Manage Customer Knowledge Management Agent](../administer/admin-km-agent.md#manage-customer-knowledge-management-agent)
+[Manage Customer Knowledge Management Agent](../administer/set-up-customer-knowledge-management-agent.md)
